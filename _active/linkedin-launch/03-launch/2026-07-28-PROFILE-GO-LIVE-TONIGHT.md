@@ -103,8 +103,8 @@ Description: A brand with one of the most honest labels in the category, spendin
 **Card 2 — the offer (the wargame's fix: the $750 rung lives here now).**
 ```
 Title: The free teardown — and what comes after
-Description: Send me your homepage. I read it, two product pages, your science page, and your last ten reviews, then write up what you're claiming, what you're actually proving, and where the gap is. Quotes from your own site, nothing invented. You get it before anyone else does. No call required. DM PROOF.
-If you want it on your whole funnel: the Angle Map — $750, prepaid. A 60-minute live read, then 3 named angles with hooks and the claim-safety line under each, delivered inside 48 hours. If it doesn't change what you ship, I keep working until it does.
+Description: Send me your homepage. I read it the way your most skeptical customer does: two product pages, your science page, your last ten reviews. You get back what you're claiming, what you're actually proving, and where the gap is. Your own words, quoted back to you. Nothing invented, no call required. You see it before anyone else does. DM PROOF.
+Want the whole funnel? The Angle Map. $750, prepaid. One 60-minute read, then 3 named angles with hooks and the claim-safety line under each, in your hands within 48 hours. If it doesn't change what you ship, I keep working until it does.
 ```
 *Thumbnail prompt:* `Editorial card, 1200x627, warm off-white paper, dark ink serif headline "The free teardown" upper left, small text "and the $750 Angle Map" lower right, thin rule between, restrained print aesthetic, no images, no gradients.`
 
@@ -122,11 +122,11 @@ Title: `Creative Strategy and Positioning for Supplement, Recovery and Performan
 ```
 I decide what a brand should be saying and who it should be saying it to.
 
-Most of the work starts the same way. A company has a product that genuinely does something, a founder who can explain it perfectly in ninety seconds on a call, and marketing that hedges every claim until nothing is left in it. The sentence that convinces people in conversation has never been written down.
+The work usually starts the same way. A founder explains the product perfectly in ninety seconds on a call. None of that survives into the marketing. Every claim gets softened by everyone who touches it, and what ships says nothing. Everybody involved knows it says nothing.
 
-What I deliver is the decision, not a document. Who it's for. What it proves. What order the proof goes in. What the brand is willing to say plainly and defend when somebody pushes back. The angles come out of that, and the team runs them.
+So we decide. What you're proving. Who has to believe it. What you'll say plainly and stand behind when somebody pushes back. Then I turn that into named angles your team can run: the hooks, the claims, the order the proof goes in.
 
-I don't build the ads, run the account, or write the calendar. Those are somebody else's job and they're usually already doing it well.
+I don't build the ads, run the account, or write the calendar. Your people are already good at that. My job is making sure they're never guessing about what to make.
 
 Free teardown first. Always.
 ```
@@ -134,13 +134,11 @@ Free teardown first. Always.
 ### Entry 2 — the eighteen years
 Title: `Personal Trainer and Strength Coach` · Company: ⟨gym / independent / both — one entry per employer if multiple⟩ · ⟨dates⟩ · 18 yrs
 ```
-Over a thousand clients across eighteen years. General population, athletes, post-rehab, people who had been told by three other trainers that nothing would work.
+Over a thousand clients in eighteen years. Athletes, general population, post-rehab, people three other trainers had already given up on.
 
-The supplement question came constantly and it came from everywhere. It came while I was writing nutrition plans. It came while I was designing programs. It came on the gym floor from my own clients and from people I'd never trained who just wanted to know whether the thing in their cart did anything.
+And one question that never stopped. It came up while I wrote nutrition plans. It came up between sets. It came from people I'd never trained, walking over with their phone out. What should I be taking. Is this stack worth it. Does any of it actually work.
 
-What should I be taking. Is this stack worth it. Does any of it work.
-
-Answering that honestly, several times a week, for eighteen years, is where the actual expertise came from. Not from reading marketing. From being the person who had to give a straight answer to someone who was about to spend money.
+For eighteen years I gave straight answers to people about to spend their own money. That's where the expertise comes from. Not from studying marketing. From being accountable, face to face, to the exact person the marketing is aimed at.
 
 NASM CPT, CES and PES. Precision Nutrition L1. AFAA CPT.
 ```
@@ -150,18 +148,18 @@ Title: `Retail Sales Associate` · Company: ⟨vitamin shop name⟩ · ⟨dates�
 ```
 Three years selling supplements at a retail counter.
 
-This is the only room I've ever worked in where you are the last thing standing between a marketing claim and a register. Someone walks in holding a bottle they read about, they turn it over, they read the back, and then they look up at you.
+Somebody walks in holding a bottle they read about. They turn it over. They read the back. Then they look up at you and ask if it's true.
 
-Sometimes the answer was yes, this is worth your money, and I could tell them why. Often it was to put it back on the shelf.
+Sometimes it was, and I could tell them why. A lot of the time the honest answer was put it back and save your money.
 
-I learned what a label can legally say, what it's actually saying, and the exact distance between those two things. I also learned how much a person wants it to be true. That part never left.
+Standing at that counter, you learn the exact distance between what a label legally says and what it's actually promising. You also learn how badly the person holding it wants it to be true. I never forgot either one.
 ```
 
 ## 9. SERVICES
 
 Categories: Brand Marketing · Marketing Strategy · Content Strategy · Product Marketing.
 ```
-Description: Positioning, messaging and creative strategy for supplement, recovery and performance brands. I work out what your product should be claiming, who it should be claiming it to, and what you're willing to stand on in public. Free teardown of your current public messaging before anything else. I don't run ads or manage accounts.
+Description: Positioning, messaging and creative strategy for supplement, recovery and performance brands. Together we decide what your product should claim, who has to believe it, and what you'll say plainly and stand behind. It starts with a free teardown of your current public messaging. I don't run ads or manage accounts.
 ```
 
 ## 10. SKILLS — pin these three, in order

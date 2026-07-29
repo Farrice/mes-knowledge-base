@@ -17,6 +17,7 @@
 | 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ⚪ OPEN | pillar spine in launch plan |
 | 7 | Day-7 checkpoint review (Mon 08-03): tripwire count, escalate or hold | ⚪ SCHEDULED | tripwires in wargame doc |
 | 8 | One-gap DM template + carousel visual assets (tomorrow's build lane) | ⚪ OPEN | mission 3+4 outputs feed it |
+| 10 | Context OS package (7 docs) + Google Drive export for global AI use | ✅ DONE 07-29 | `04-deliverables/context-os/` + Drive folder "Farrice — LinkedIn Launch OS" |
 | 9 | SYSTEM: Global org sweep — propose-first move-plan + PROJECTS.md + repo-wide canon stamps (Opus 5 A/B candidate) | ✅ DONE 07-28 (approved in-session, then executed) | `PROJECTS.md` · `.agent/missions/global-org-sweep/move-plan.md` · `execution/projects_index.py` |
 
 ## Standing facts (so no session re-asks)
@@ -26,6 +27,7 @@
 - Canon layer live: read `CANON.md` before building on any doc here; `/missions` is the front door (NOT /campaign — that's the council preset).
 - Send-before-build is binding: mission 2 gates missions 4–6 going live (building drafts is fine).
 - Voice: BLEND. Prose-classifier clean on anything outbound.
+- **Context OS lives at `04-deliverables/context-os/`** (+ mirrored to Google Drive) — external AIs load per its 00-README; sessions here keep using CANON.md sources directly.
 
 ## Close-of-session ritual (any session that worked this campaign)
 
@@ -34,6 +36,8 @@
 3. One-line note below if anything changed that the next session must know.
 
 ## Log
+
+- 2026-07-29: Mission 10 — Context OS package (7 docs: master context, offer canon, ICP truth map, voice register w/ privacy law, content strategy, proof library) + Drive export.
 
 - 2026-07-28: Campaign file created; mission 1 closed with Farrice verdict GOOD.
 - 2026-07-28 (evening): Mission 2 (profile go-live doc) shipped — Take A locked, banner design brief + Featured thumbnails included. /missions front door + canon layer (audit, read guard, CANON.md) + org-sweep brief shipped same session.
