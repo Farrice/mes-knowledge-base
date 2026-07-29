@@ -1,15 +1,4 @@
 {
-  "active_project_shape": [
-    "00-start-here",
-    "01-source",
-    "02-research",
-    "03-working-drafts",
-    "04-deliverables",
-    "05-assets",
-    "06-system",
-    "90-exports",
-    "99-archive"
-  ],
   "ambiguous_policy": "Report to inbox; do not move automatically.",
   "canonical_project_root": "/Users/farricecain/Google Antigravity/_active/<project-slug>",
   "domain_taxonomy": [
@@ -37,6 +26,7 @@
     "semantic_libraries",
     "skills"
   ],
+  "instantiation_policy": "only-populated; never pre-create",
   "lifecycle_destinations": {
     "archive": "99-archive",
     "asset": "05-assets",
@@ -57,6 +47,17 @@
     "/Users/farricecain/Google Antigravity",
     "/Users/farricecain/Documents/Codex"
   ],
-  "updated_at": "2026-07-29T03:36:33+00:00",
+  "permitted_project_shape": [
+    "00-start-here",
+    "01-source",
+    "02-research",
+    "03-working-drafts",
+    "04-deliverables",
+    "05-assets",
+    "06-system",
+    "90-exports",
+    "99-archive"
+  ],
+  "updated_at": "2026-07-29T04:08:20+00:00",
   "version": 1
 }

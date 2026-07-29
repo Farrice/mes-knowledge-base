@@ -440,7 +440,12 @@ def ensure_org_home() -> None:
         "updated_at": utc_now(),
         "owned_roots": [str(ROOT), str(DOCUMENTS_CODEX)],
         "domain_taxonomy": list(DOMAIN_TAXONOMY),
-        "active_project_shape": list(STANDARD_PROJECT_DIRS),
+        # "permitted", not "active": these folders are the allowed set, created
+        # only when a file actually lands in one. Publishing them as the project
+        # "shape" contradicted the only-populated rule this same file enforces —
+        # an empty subfolder is a lie about content.
+        "permitted_project_shape": list(STANDARD_PROJECT_DIRS),
+        "instantiation_policy": "only-populated; never pre-create",
         "canonical_project_root": str(ROOT / "_active" / "<project-slug>"),
         "lifecycle_destinations": {
             "source": "01-source",
@@ -794,9 +799,11 @@ def write_org_index(manifest: dict[str, Any]) -> None:
         f"Last updated: {manifest['generated_at']}",
         f"Total indexed files: {manifest['total_files']}",
         "",
-        "## Canonical Project Shape",
+        "## Permitted Project Shape (instantiated only when populated)",
         "",
-        "Active projects live under `_active/<project-slug>/` with:",
+        "Active projects live under `_active/<project-slug>/`. These are the "
+        "*permitted* folders — each is created only when a file actually lands "
+        "in it. Never pre-create the set: an empty subfolder is a lie about content.",
         "",
     ]
     for folder in STANDARD_PROJECT_DIRS:

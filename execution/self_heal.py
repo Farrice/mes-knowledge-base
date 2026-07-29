@@ -646,6 +646,49 @@ def detect_wiring_orphans() -> dict | None:
             "detail": {"orphans": orphans[:40], "by_class": by_class}}
 
 
+def detect_org_drift() -> dict | None:
+    """Tier 3 surface: read projects_index.py's JSON; never rescan here.
+
+    CLASSIFIER, never a healer. There is no correct auto-fix for a taxonomy
+    collision, and auto-writing a `status:` stamp would be the system inventing
+    Farrice's judgment. Reports contradictions only — never "you haven't stamped
+    N projects", because a 70-row wall is a report nobody reads, and an unread
+    report is how three prior organization attempts died.
+    """
+    try:
+        idx = json.loads((ROOT / ".agent" / "health" / "projects-index.json").read_text())
+        items = idx.get("drift") or []
+    except (OSError, ValueError):
+        return None  # index hasn't been generated yet — report nothing, honestly
+
+    # Files the session-close sweep deferred rather than auto-filing. Detecting
+    # drift and leaving it in an unread receipt is the same as not detecting it.
+    deferred = 0
+    try:
+        receipts = sorted((ROOT / ".agent" / "organization" / "receipts").glob("sweep-*.json"))
+        if receipts:
+            latest = json.loads(receipts[-1].read_text())
+            deferred = len(latest.get("needs_judgment") or [])
+    except (OSError, ValueError):
+        pass
+
+    if not items and not deferred:
+        return None
+
+    by_kind: dict[str, int] = {}
+    for i in items:
+        by_kind[i["kind"]] = by_kind.get(i["kind"], 0) + 1
+    parts = [f"{n} {k.replace('_', ' ')}" for k, n in sorted(by_kind.items())]
+    if deferred:
+        parts.append(f"{deferred} file(s) the sweep deferred for judgment")
+    examples = ", ".join(i["project"] for i in items[:3])
+    return {"id": "org_drift", "cls": JUDGMENT,
+            "what": (f"organization drift: {'; '.join(parts)}"
+                     + (f" — e.g. {examples}" if examples else "")),
+            "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
+            "detail": {"drift": items[:40], "deferred_files": deferred}}
+
+
 # Detectors that only CLASSIFY (no auto-fix exists, or the fix is known broken,
 # or auto-writing would be too invasive). Kept in the scan so the finding still
 # surfaces; absent from HEALERS so heal() can never dispatch to them.
@@ -657,6 +700,7 @@ CLASSIFIERS = {
     "stale_feeds": detect_stale_feeds,
     "core_surface_bypass": detect_core_surface_bypass,
     "wiring_orphans": detect_wiring_orphans,
+    "org_drift": detect_org_drift,
 }
 
 # Which fleet verifier each detector speaks for. Used to decide whether a red
@@ -671,6 +715,7 @@ HEALER_OWNS = {
     "stale_feeds": "verify_dead_channels.py",
     "core_surface_bypass": "verify_dead_channels.py",
     "wiring_orphans": "verify_wiring_audit.py",
+    "org_drift": "verify_projects_index.py",
 }
 
 
