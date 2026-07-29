@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
+---
+
 # LinkedIn Profile Rebuild — Signal Pilot: Practitioner Edition
 
 **Built 2026-07-21 · Voice: BLEND (VOICE-CARD.md) · Serves: revenue-5k-incumbency sprint**

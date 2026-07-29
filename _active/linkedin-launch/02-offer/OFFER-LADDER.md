@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 02-offer/PROOF-TO-MARKET-OS.md
+---
+
 # Offer Ladder — AI Creative Strategist for Wellness/Performance Brands
 
 > The market-validated value ladder. Grounded in `research/wellness-supplement-brand-niche.md` (how brands actually buy) + `icp-emotional-map.md` (what they feel). **Built on the research's #1 finding: brands hire on OUTPUT** — the strongest "yes signal" for a no-logo outsider is a *published, dated teardown* (the "override signal"), backed by the *paid case test*. So the teardown is the keystone, and proof leads everything.

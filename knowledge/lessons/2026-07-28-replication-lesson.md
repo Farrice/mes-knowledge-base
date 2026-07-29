@@ -46,3 +46,11 @@ A session starts with ~35–45k tokens of fixed overhead (system prompt, CLAUDE.
 ## 5. Seating
 
 Strongest available model conducts (Fable today); Opus 5 = heavy executor with its dialect card damping the run-long/expand-scope drift; degrade a tier, never stall. The engines, hooks, and this recipe are model-independent — the conducting judgment is the variable.
+
+## 6. The keystrokes (added same night — the flow made structural)
+
+- `/missions new <name> — <goal>` — once per project: scaffolds CAMPAIGN.md, sets the pointer, the beacon takes over.
+- Open any session — the beacon announces campaign + next open mission before you type.
+- `/missions` — the queue in one screen. `/missions next` — top open mission runs through /go. `/missions done <n> "note"` — close the row.
+- `/go <raw dump>` — still the door for anything off-queue; add it as a queue row if it belongs to the campaign.
+- Stale-doc protection is automatic: superseded docs redirect at read time (canon layer); `CANON.md` per project is the map.

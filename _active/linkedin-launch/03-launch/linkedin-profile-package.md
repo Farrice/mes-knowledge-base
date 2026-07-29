@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
+---
+
 # LinkedIn Profile Package — Proof-to-Market Sprint
 
 > Paste-ready files for profile rebuild. Copy each section directly into LinkedIn. Date: 2026-07-18.

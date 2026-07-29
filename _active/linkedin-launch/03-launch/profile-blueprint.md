@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
+---
+
 # LinkedIn Profile Blueprint — Farrice Cain (v2.0 — Serial Narrative)
 
 > **Updated**: Reframed from AI-powered ghostwriting positioning to voice capture

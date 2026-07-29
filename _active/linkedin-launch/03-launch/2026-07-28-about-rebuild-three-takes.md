@@ -1,3 +1,7 @@
+---
+status: canonical
+---
+
 # About Rebuild — Three Takes (2026-07-28)
 
 > **Reader:** funded supplement/performance brand founder or marketing lead ($1M–$50M DTC, founder-led voice, no senior creative-strategy seat) — per `01-research/wellness-supplement-brand-niche.md` §1. Their language: angles, claims, proof, creative fatigue, compliance. Verified pains: sea of sameness, same-AI-models parity, legal strangling claims, AI-content trust collapse (60%→26%).

@@ -1,3 +1,7 @@
+---
+status: canonical
+---
+
 # Offer Wargame — 2026-07-28
 
 **Question:** can the live offer (free teardown, $2,500 Proof-to-Market Sprint, retainer) collect $500–$2,000 cash inside 7–14 days from a zero-follower cold start?

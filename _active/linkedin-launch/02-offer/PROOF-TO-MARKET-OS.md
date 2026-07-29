@@ -1,4 +1,8 @@
 ---
+status: canonical
+---
+
+---
 name: Proof-to-Market Sprint — Operating System
 version: 2.1 (founder-primary pole fix + temperature-staged ladder)
 date: 2026-07-19

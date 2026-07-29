@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 02-offer/PROOF-TO-MARKET-OS.md
+---
+
 # CANONICAL OFFER BRIEF — Farrice Cain
 ## The credible body-expert who makes health brands the source AI search names — and whose claims survive scrutiny
 

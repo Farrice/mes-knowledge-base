@@ -1,3 +1,7 @@
+---
+status: canonical
+---
+
 # 14-Day Launch Plan — 2026-07-28 to 2026-08-10
 
 **Goal:** $500–$2,000 cash collected by Day 14. Serves `revenue-5k-incumbency`.
@@ -32,7 +36,7 @@
 - **Send all three teardown DMs** (scripts + named targets in each teardown file §8): Transparent Labs, Momentous, Puori. Adjust each DM's stated publish day to the corrected dates. Log all three. (Wargame note: these three are proof assets, not the cash engine — their brands are above the founder-yes tier. Send them anyway; they earn the publishes.)
 - **Build the gold list, round 1 (60–90 min):** open the comment sections of 2–3 supplement/DTC operator accounts, harvest 30+ sub-$15M founders asking real questions. This list feeds every one-gap DM this week.
 - **First 5 one-gap DMs** from the gold list: one verbatim quote from their site, one named gap, 4 sentences, no pitch. Log each.
-- Profile go-live, phase 1 (15 min, from `2026-07-27-profile-top-to-bottom.md`): banner, headline (Treatment A), About (pick your take from `2026-07-28-about-rebuild-three-takes.md` — A, B, or C; any of the three passes), custom URL.
+- Profile go-live (from `2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` — the master doc, every field paste-ready): banner, headline (Treatment A), About (**Take A — locked**), Featured, Experience, Services, custom URL.
 - Set up Cal.com/Calendly "Teardown debrief" (20 min, free) and point the profile button at it. **Stripe/PayPal check:** if the account is new, start any verification today — payout lag is part of the day-10 deadline.
 
 ### Day 2 — Wed 07-29

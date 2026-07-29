@@ -34,7 +34,7 @@ def main() -> int:
         return 0
 
     text = camp_file.read_text()
-    open_missions = re.findall(r"^\|\s*(\d+)\s*\|\s*(.+?)\s*\|\s*(?:🔴|⚪)\s*(OPEN[^|]*)\|", text, re.M)
+    open_missions = re.findall(r"^\|\s*(\d+[a-z]?)\s*\|\s*(.+?)\s*\|\s*(?:🔴|⚪)\s*(OPEN[^|]*)\|", text, re.M)
     goal_m = re.search(r"^\*\*Goal:\*\*\s*(.+)$", text, re.M)
 
     lines = [f"ACTIVE CAMPAIGN (deterministic, from campaign_beacon.py): {ptr.get('campaign', camp_file.parent.name)}"]

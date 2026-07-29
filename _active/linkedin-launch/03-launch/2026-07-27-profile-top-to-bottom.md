@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
+---
+
 # LinkedIn Profile — Top to Bottom
 
 **Built:** 2026-07-27 · **Voice:** BLEND · **Positioning source:** `2026-07-27-profile-and-content-package.md` (headline + About are lifted from there unchanged)

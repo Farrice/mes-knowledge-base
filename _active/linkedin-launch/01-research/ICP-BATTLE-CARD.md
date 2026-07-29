@@ -1,3 +1,7 @@
+---
+status: canonical
+---
+
 # ICP Battle Card — Supplement / Performance Brand Buyer
 
 **Built:** 2026-07-28 · Sources: `wellness-supplement-brand-niche.md` (June, verified-labeled) + `2026-07-28-FRESH-RESEARCH/` (Gemini Deep, this session). Fresh wins on any conflict.

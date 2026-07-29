@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md
+---
+
 # LinkedIn Profile Package — Proof-to-Market (PASTE-READY)
 > Canonical profile assets per PROOF-TO-MARKET-OS.md · locked copy from the v1.0 master document (§22-§26) · supersedes the AI-search-led profile assets in `profile-blueprint.md` and `../02-offer/featured-section-and-profile.md` for live use.
 > Every block below is paste-ready. Change nothing before pasting except bracketed notes.
