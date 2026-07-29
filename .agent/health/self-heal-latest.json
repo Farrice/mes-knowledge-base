@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-29T15:31:22.878345",
+ "ts": "2026-07-29T15:44:16.436641",
  "mode": "heal",
  "rows": [
   {
@@ -35,10 +35,16 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 5 file(s) the sweep deferred for judgment",
+   "what": "organization drift: 1 status done but live; 5 file(s) the sweep deferred for judgment \u2014 e.g. _active/operator-cockpit-v2",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
-    "drift": [],
+    "drift": [
+     {
+      "kind": "status_done_but_live",
+      "project": "_active/operator-cockpit-v2",
+      "detail": "stamped done, then touched 0d ago"
+     }
+    ],
     "deferred_files": 5
    },
    "action": "escalated"

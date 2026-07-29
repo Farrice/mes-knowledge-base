@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-29** [linkedin-launch/active] [Linkedin Launch — Campaign](2026-07-29-linkedin-launch.md) — Linkedin Launch — Campaign
 - **2026-07-28** [linkedin-launch/ready] [LinkedIn Cash Launch — Context OS + Profile Copy v3 (wargame follow-through, Drive export)](2026-07-28-linkedin-launch.md) — Take Farrice's verdict on v3 profile blocks, merge on PASS, finish Drive export
 - **2026-07-28** [hooks/active] [Hooks — Artifact Placement Hook](2026-07-28-hooks.md) — Hooks — Artifact Placement Hook
 - **2026-07-28** [opus5-harness-repair/ready] [Opus 5 Harness Repair + LinkedIn Teardowns — Send Day (teardown DMs · About verdict · Fable A/B)](2026-07-28-opus5-harness-repair.md) — Send the 3 teardown DMs (copy in teardowns/ §8), log them, THEN clean-session About verdict
