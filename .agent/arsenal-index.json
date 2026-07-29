@@ -10979,7 +10979,7 @@
    "family": null,
    "last_fired": "2026-07-27T23:21:29.624633+00:00",
    "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
-   "mtime": 1784354442.394516
+   "mtime": 1785299210.3447564
   },
   {
    "id": "seedance-cinematic",
@@ -11204,7 +11204,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
-   "mtime": 1782940645.0167325
+   "mtime": 1785298805.4516037
   },
   {
    "id": "02-serial-content-production",
@@ -11219,7 +11219,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
-   "mtime": 1782940645.8239682
+   "mtime": 1785298805.4517248
   },
   {
    "id": "03-bridge-post-production",
@@ -11234,7 +11234,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
-   "mtime": 1782940646.1776052
+   "mtime": 1785298805.4519603
   },
   {
    "id": "ai-employee-os",
@@ -21704,7 +21704,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
    "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
-   "mtime": 1783451813.8467708
+   "mtime": 1785299203.573214
   },
   {
    "id": "wargame-execute",
@@ -32534,7 +32534,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1784248197.7392867
+   "mtime": 1785299203.5739071
   },
   {
    "id": "14-godin-stack",
@@ -35939,7 +35939,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1784403937.59631
+   "mtime": 1785299203.5749278
   },
   {
    "id": "01-data-bank-build",
@@ -41283,7 +41283,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784686539.785458
+   "mtime": 1785299203.543871
   },
   {
    "id": "build-gap",
@@ -43402,7 +43402,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785196629.5129752
+   "mtime": 1785298805.4266484
   },
   {
    "id": "content-style-card",
@@ -43948,7 +43948,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1770957573.7326157
+   "mtime": 1785299221.429185
   },
   {
    "id": "create",
@@ -43961,7 +43961,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": "2026-07-06T16:54:10.914032+00:00",
-   "mtime": 1783362448.910235
+   "mtime": 1785299203.5442839
   },
   {
    "id": "creative-brief-gen",
@@ -47731,7 +47731,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": "2026-07-20T13:42:57.724636+00:00",
-   "mtime": 1783362448.9137764
+   "mtime": 1785298805.4276073
   },
   {
    "id": "fascination-bullets",
@@ -48901,7 +48901,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1782940744.0914183
+   "mtime": 1785298805.428022
   },
   {
    "id": "georgi-audit",
@@ -54712,7 +54712,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1783362448.91526
+   "mtime": 1785298805.4284809
   },
   {
    "id": "listing-content",
@@ -62005,7 +62005,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1782940582.034929
+   "mtime": 1785298805.4286816
   },
   {
    "id": "quantity-sprint",
@@ -62434,7 +62434,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784782786.372133
+   "mtime": 1785298866.05257
   },
   {
    "id": "recognition-workshop",
@@ -64904,7 +64904,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784686539.7404497
+   "mtime": 1785298805.429062
   },
   {
    "id": "service-first-productization",
@@ -69090,7 +69090,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1779683997.561396
+   "mtime": 1785299203.5449946
   },
   {
    "id": "vibe-tax-brief",
@@ -69727,7 +69727,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1782940582.5318253
+   "mtime": 1785298805.429383
   },
   {
    "id": "voice-handoff",
@@ -70351,7 +70351,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785256812.664697
+   "mtime": 1785298254.7895527
   },
   {
    "id": "weekly-pulse",
@@ -70832,7 +70832,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": "2026-07-28T18:39:53.675352+00:00",
-   "mtime": 1785256816.4835305
+   "mtime": 1785298805.4298959
   },
   {
    "id": "youtube-video-context-audit",
@@ -71545,7 +71545,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": "2026-07-29T02:55:38.123858+00:00",
-   "mtime": 1785250296.675724
+   "mtime": 1785299203.57126
   },
   {
    "id": "brandon-jacoby-taste-mastery",
@@ -72623,7 +72623,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-27T21:34:02.412448+00:00",
-   "mtime": 1785250296.700379
+   "mtime": 1785298805.449236
   },
   {
    "id": "frontend-design",
@@ -75185,7 +75185,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": "2026-07-25T18:03:23.289997+00:00",
-   "mtime": 1784072666.6867814
+   "mtime": 1785299217.2492735
   },
   {
    "id": "react-components",
@@ -76165,7 +76165,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1781056524.4432328
+   "mtime": 1785299203.5742402
   },
   {
    "id": "vince-nijhof-dtc-operator-system",
@@ -79341,6 +79341,6 @@
  ],
  "fingerprint": [
   8926,
-  1785293746.436
+  1785299221.429
  ]
 }

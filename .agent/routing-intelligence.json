@@ -113,11 +113,12 @@
                 "nick-saraev-bottleneck-thinking": 1,
                 "mark-kashef-wargame-os": 1,
                 "gemini-api-dev": 1,
-                "packy-mccormick-writing": 1
+                "packy-mccormick-writing": 1,
+                "matthew-volkwyn-copywriting": 1
             },
-            "total_routings": 713,
+            "total_routings": 714,
             "tier_counts": {
-                "0": 713,
+                "0": 714,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -127,7 +128,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 421,
+                "hybrid": 422,
                 "finalize-auto": 292
             },
             "expert_counts": {
@@ -297,7 +298,7 @@
                 "lamott-craft": 3,
                 "lara-acosta-linkedin-mastery": 5,
                 "extract-mastery": 4,
-                "sean-dollwet-kdp-publishing": 9,
+                "sean-dollwet-kdp-publishing": 10,
                 "dara-denney": 5,
                 "john-whiting": 2,
                 "synthesis-engine": 1,
@@ -342,7 +343,7 @@
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "creative-campaign-strategy": 13,
                 "diandra-escobar-linkedin-growth": 3,
-                "matthew-volkwyn-copywriting": 1,
+                "matthew-volkwyn-copywriting": 2,
                 "tess-barclay-social-content": 1,
                 "kallaway-ai-content-engine": 11,
                 "samuel-thompson-product-launch": 1,
@@ -419,11 +420,12 @@
                 "packy-mccormick-writing": 1,
                 "adversarial-reviewer": 1,
                 "assembly": 1,
-                "alex-copper-creative-strategy": 1
+                "alex-copper-creative-strategy": 1,
+                "michael-bernoff-identity-engineering": 1
             },
             "total_feedback": 94,
             "negative_count": 0,
-            "ensemble_count": 526,
+            "ensemble_count": 527,
             "auto_miss_count": 75,
             "positive_count": 0
         }
@@ -14217,6 +14219,25 @@
             "workflow_used": "brand-operating-system",
             "ensemble": true,
             "compound_pairing": "brand-operating-system + alex-copper-creative-strategy + tom-noske-personal-brand",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260729_075046_5bc9",
+            "timestamp": "2026-07-29T07:50:46.611633+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "Fix the self_heal count and ensure we are good to close this session",
+            "intent_score": 0,
+            "domain_detected": "matthew-volkwyn-copywriting",
+            "experts_deployed": [
+                "matthew-volkwyn-copywriting",
+                "sean-dollwet-kdp-publishing",
+                "michael-bernoff-identity-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "matthew-volkwyn-copywriting",
+            "ensemble": true,
+            "compound_pairing": "matthew-volkwyn-copywriting + sean-dollwet-kdp-publishing + michael-bernoff-identity-engineering",
             "feedback": null
         }
     ]

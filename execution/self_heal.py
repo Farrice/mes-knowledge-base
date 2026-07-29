@@ -631,8 +631,15 @@ def detect_wiring_orphans() -> dict | None:
         assets = idx.get("assets") or {}
     except (OSError, ValueError):
         return None  # ratchet hasn't run yet — nothing to report, honestly
+    # Never surface an already-archived asset as a decision. wiring_audit's
+    # inventory() excludes archive/, and drain() prunes stale keys — but until a
+    # drain runs, the index can still hold entries archived deliberately weeks
+    # ago. On 2026-07-28 that made this report "46 need your judgment" when 37
+    # were already decided, and an over-stated nag is an ignored nag.
     orphans = sorted(k for k, v in assets.items()
-                     if isinstance(v, dict) and v.get("status") == "ORPHAN")
+                     if isinstance(v, dict) and v.get("status") == "ORPHAN"
+                     and "archive/" not in k
+                     and not k.split(":", 1)[-1].startswith("_archived"))
     if not orphans:
         return None
     by_class: dict[str, int] = {}

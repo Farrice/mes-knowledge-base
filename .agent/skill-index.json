@@ -364,7 +364,7 @@
     "directory": "brand-operating-system",
     "description": "Builds a complete 6-layer Brand Operating System (foundation, visual, briefs, marketing, AI handoff, ops) \u2014 43 markdown documents that operate as the brand's AI-pasteable source of truth, from canonical inputs (founder anchor + manifesto) or a discovery interview. Optional auto-upload to Drive as native Google Docs in pageless format. Reference implementation shipped 2026-05-04 (Resonance for Andrea). Use when the user says \"brand operating system\", \"brand OS\", \"BOS\", \"build a complete brand system for [name]\", \"Resonance-style package\", \"the kind of thing we built for Andrea\", or describes a scope spanning foundation AND production assets AND ops in one mission. Trigger proactively whenever the multi-layer signal fires together (foundation + briefs + AI handoff). Do NOT use for single-layer scopes: DESIGN.md alone (use design-md), voice doc alone (use voice-document), ICP only (use icp-deep-dive), one creative brief (use creative-brief-gen).",
     "when_to_use": "Deploy this skill any time the user mentions:\n- \"brand operating system\" / \"brand OS\" / \"BOS\"\n- \"build a complete brand system for [client/me]\"\n- \"Resonance-style package\" / \"the kind of thing we built for Andrea\"\n- \"I need creative briefs and business documents and AI handoff for a brand\"\n- A scope that includes BOTH foundation (spine/voice/ICP) AND production assets (briefs, marketing, AI prompts) AND ops (drift signals, success metrics, exit interviews)\n\n**Not this skill** if the user wants only:\n- A DESIGN.md (use `skills/design-md/`)\n- A voice doc (use `skills/voice-document/`)\n- An ICP profile (use `skills/icp-deep-dive/`)\n- A single creative brief (use `skills/creative-brief-gen/`)\n- A Claude Pro project setup (use `skills/4c-architect/`)\n\nThe BOS skill orchestrates ALL of these into a single deliverable. If the scope is one layer only, use the specific component skill.",
-    "mtime": 1785250296.675724,
+    "mtime": 1785299203.57126,
     "slash": "/brand-operating-system",
     "routing": "",
     "status": ""
@@ -1124,7 +1124,7 @@
     "directory": "fresh-voice-system",
     "description": "Farrice Cain's personal brand content engine \u2014 serial narrative methodology for LinkedIn content that builds compounding reader investment. Combines voice DNA (tone, comedy, rhythm) with serial storytelling architecture (arc design, chapter production, bridge posts). Produces content that reads like chapters in a story people can't stop following.",
     "when_to_use": "",
-    "mtime": 1785250296.700379,
+    "mtime": 1785298805.449236,
     "slash": "/fresh-voice-system",
     "routing": "",
     "status": ""
@@ -2914,7 +2914,7 @@
     "directory": "re-compliance-pack",
     "description": "Real Estate Compliance Skill Pack \u2014 Fair Housing auditor for MLS listings, follow-up cadence execution, and CMA disclosure formatting. Encodes HUD Fair Housing Act standards, NAR SOPs, and TRID compliance. Use when reviewing real estate listings for advertising violations, structuring transaction workflows, or documenting compliance. Lead skill RE-1 runs against live MLS remarks to catch banned words, protected-class implications, and compliance risks before publication.",
     "when_to_use": "",
-    "mtime": 1784072666.6867814,
+    "mtime": 1785299217.2492735,
     "slash": "/re-compliance-pack",
     "routing": "",
     "status": ""

@@ -1,7 +1,7 @@
 # Global Artifact Organization
 
-Last updated: 2026-07-29T04:49:36+00:00
-Total indexed files: 31236
+Last updated: 2026-07-29T07:53:15+00:00
+Total indexed files: 31238
 
 ## Permitted Project Shape (instantiated only when populated)
 
@@ -31,7 +31,7 @@ Active projects live under `_active/<project-slug>/`. These are the *permitted* 
 - `directives`: 107
 - `docs`: 94
 - `research_outputs`: 89
-- `_system`: 69
+- `_system`: 71
 - `semantic_libraries`: 35
 - `documents_codex`: 32
 - `strategy_briefs`: 10
@@ -39,7 +39,7 @@ Active projects live under `_active/<project-slug>/`. These are the *permitted* 
 
 ## Counts By Domain
 
-- `System`: 13322
+- `System`: 13324
 - `Creative`: 1342
 - `Extraction`: 11639
 - `Revenue`: 192
