@@ -169,8 +169,11 @@ def collect_metrics(deep: bool = False) -> dict:
                                    ("events", "debted_sessions", "noise_factor", "zero_spawn_sessions")}
             m["session_ledger"]["latest_week"] = (list(ls["weekly_debted_sessions"].items()) or [("-", 0)])[-1]
             _ledger_out.write_text(_ledger_render(ls))
-    except Exception:
-        pass
+    except Exception as e:
+        # Apex W0 (2026-07-29): never swallow this silently again — the 07-28
+        # orphan sweep archived session_ledger_report.py and this bare `pass`
+        # hid the severed import for a full day. A missing consumer is a flag.
+        m["session_ledger_error"] = f"{type(e).__name__}: {e}"[:160]
 
     remote_branches = [b for b in _git("branch", "-r", "--format=%(refname:short)").splitlines()
                        if b.strip() and not b.strip().endswith("/HEAD")]
