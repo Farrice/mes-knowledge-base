@@ -88,19 +88,19 @@
                 "frontend-design": 1,
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1,
-                "gpt-image-2-director": 7,
+                "gpt-image-2-director": 10,
                 "satori-graphics": 1,
                 "oren-luxury-psychology": 2,
                 "seth-godin-brand": 2,
                 "donald-miller-cognitive-load": 2,
-                "fresh-voice-system": 4,
+                "fresh-voice-system": 5,
                 "ward-farnsworth-rhetorical-mastery": 2,
                 "ben-watkins-storytelling": 8,
                 "alex-m-smith-natural-strategy": 1,
                 "seth-godin-philosophy": 1,
                 "kallaway-word-mastery": 2,
                 "briar-cochran-content-science": 2,
-                "kallaway-illusion-of-novelty": 2,
+                "kallaway-illusion-of-novelty": 3,
                 "claim-safe-health-marketing": 2,
                 "diandra-escobar-linkedin-mastery": 2,
                 "riley-brown-marketing-automation": 2,
@@ -116,9 +116,9 @@
                 "packy-mccormick-writing": 1,
                 "matthew-volkwyn-copywriting": 1
             },
-            "total_routings": 728,
+            "total_routings": 733,
             "tier_counts": {
-                "0": 728,
+                "0": 733,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -128,7 +128,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 433,
+                "hybrid": 438,
                 "finalize-auto": 295
             },
             "expert_counts": {
@@ -149,7 +149,7 @@
                 "system-orchestrator": 3,
                 "David Placek": 1,
                 "mcp-builder": 1,
-                "gpt-image-2-director": 20,
+                "gpt-image-2-director": 23,
                 "seth-godin-brand": 7,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 4,
@@ -211,7 +211,7 @@
                 "jason-fladlien": 5,
                 "swarm-commander": 4,
                 "donald-miller-cognitive-load": 7,
-                "kallaway-illusion-of-novelty": 15,
+                "kallaway-illusion-of-novelty": 16,
                 "oren-one-person-ai-marketer": 2,
                 "luke-iha-proof-ladder": 2,
                 "alex-suzuki": 2,
@@ -224,7 +224,7 @@
                 "creative-direction": 7,
                 "darrel-wilson-ai-monetization": 2,
                 "jeremy-haynes-cold-offer": 5,
-                "fresh-voice-system": 13,
+                "fresh-voice-system": 14,
                 "daniel-priestley-oversubscribed": 1,
                 "farrice-cain": 1,
                 "jeremy-haynes": 4,
@@ -328,14 +328,14 @@
                 "alex-hormozi": 3,
                 "how-i-write-os": 31,
                 "omar-eddaoudi-scaling-ops": 6,
-                "fraser-cottrell-paid-ads": 8,
+                "fraser-cottrell-paid-ads": 11,
                 "asset_generator": 1,
                 "banana-pro-director": 2,
                 "oren-operational-systems": 3,
                 "geoff-woods": 1,
                 "alex-m-smith-natural-strategy": 4,
                 "nate-b-jones-intent-engineering": 1,
-                "luke-iha-creative-strategy": 10,
+                "luke-iha-creative-strategy": 11,
                 "lara-acosta": 5,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 18,
@@ -403,7 +403,7 @@
                 "Eugene Teo": 1,
                 "Mark Kashef": 4,
                 "diandra-escobar-linkedin-mastery": 6,
-                "riley-brown-marketing-automation": 3,
+                "riley-brown-marketing-automation": 4,
                 "cardinal-mason-ai-copywriting": 1,
                 "noah-hawley-storytelling-mastery": 1,
                 "farrice-voice-os": 1,
@@ -427,7 +427,7 @@
             },
             "total_feedback": 95,
             "negative_count": 0,
-            "ensemble_count": 538,
+            "ensemble_count": 543,
             "auto_miss_count": 76,
             "positive_count": 0
         }
@@ -14503,6 +14503,96 @@
             "workflow_used": "run-the-amnesty",
             "ensemble": true,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_045439_3cfe",
+            "timestamp": "2026-07-30T04:54:39.112474+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_045501_7101",
+            "timestamp": "2026-07-30T04:55:01.122557+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_045640_c814",
+            "timestamp": "2026-07-30T04:56:40.528825+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_050429_3ed2",
+            "timestamp": "2026-07-30T05:04:29.729808+00:00",
+            "session_id": "019fb168-a0de-72b2-a050-ea7295c6996d",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: 2026-",
+            "intent_score": 0,
+            "domain_detected": "fresh-voice-system",
+            "experts_deployed": [
+                "fresh-voice-system",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fresh-voice-system",
+            "ensemble": true,
+            "compound_pairing": "fresh-voice-system + luke-iha-creative-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_063244_873b",
+            "timestamp": "2026-07-30T06:32:44.504561+00:00",
+            "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6",
+            "request_summary": "so when I want to do little edits like this, is this a waste of time to interact with you? The headline for A is good, but it's trying to be too clever at the end when it says, \"18 years in humans, pe",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty",
+                "riley-brown-marketing-automation"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": true,
+            "compound_pairing": "kallaway-illusion-of-novelty + riley-brown-marketing-automation",
             "feedback": null
         }
     ]

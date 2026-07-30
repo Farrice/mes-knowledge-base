@@ -10,7 +10,7 @@
  },
  "verify-dialect-injector": {
   "stems": {},
-  "updated": "2026-07-29T19:25:08.608294",
+  "updated": "2026-07-29T21:56:36.229239",
   "last_feedback_exchange": 0
  },
  "t1": {
@@ -56,14 +56,14 @@
     "rejections": 1
    },
    "agents": {
-    "rejections": 1
+    "rejections": 2
    },
    "routing_enforcer": {
     "rejections": 1
    }
   },
-  "updated": "2026-07-29T20:00:46.991927",
-  "last_feedback_exchange": 11
+  "updated": "2026-07-29T23:32:44.101516",
+  "last_feedback_exchange": 13
  },
  "amnesty-test": {
   "stems": {},
