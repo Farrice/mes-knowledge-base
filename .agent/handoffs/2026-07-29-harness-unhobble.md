@@ -1,7 +1,7 @@
 ---
 thread: harness-unhobble
-status: ready
-resume_hint: FRESH session: /go run the packet at .agent/missions/profile-copy-fresh-0730/portable.md — final profile copy via five-move recipe; on PASS ship + Drive + his 35-min checklist
+status: done
+resume_hint: Session CLOSED 2026-07-30, Farrice verdict GOOD. Live next action is the fresh-pen packet: /go run the packet at .agent/missions/profile-copy-fresh-0730/portable.md
 unfinished: Profile copy (4 renditions rejected, fresh pen queued); his wave verdicts + 4 outcome check-ins; W4 parked
 branch: main
 pin: true

@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** health-performance-geo-daily-brief  
-**Full path:** .agent/handoffs/2026-07-30-health-performance-geo-daily-brief.md  
-**Date:** 2026-07-30 (today)  
-**Status:** active  
-**Title:** Health Performance GEO Daily Brief 2026-07-30: Boundary Map Audit angle for self-directed health buyers
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume health-performance-geo-daily-brief` for this one.
-
----
-
 ---
 thread: health-performance-geo-daily-brief
 status: active
@@ -29,4 +17,3 @@ _Auto-pinned by chain_runner.finalize (health-performance-geo-daily-brief)._
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-07-29-health-performance-geo-daily-automation.md` — everything it lists as shipped is EXTEND-ONLY.
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-
