@@ -317,3 +317,6 @@
 {"ts": "2026-07-29T14:25:19Z", "label": "health-performance-daily-2026-07-29", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-29T14:27:06Z", "label": "health-performance-daily-2026-07-29", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-29T14:28:58Z", "label": "health-performance-daily-2026-07-29", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-30T14:22:48Z", "label": "2026-07-30 health-performance brief", "verdict": "FAIL", "fails": ["16 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d73 \u2014 feedback_ai-structural-tells.md #1", "\"Here's the part nobody\u2026\" reveal framing \u2014 feedback_ai-structural-tells.md #5", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-30T14:25:29Z", "label": "2026-07-30 health-performance brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-30T14:26:03Z", "label": "2026-07-30 health-performance brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
