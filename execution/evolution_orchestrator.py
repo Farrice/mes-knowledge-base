@@ -122,15 +122,43 @@ def _is_due(last_run_iso: Optional[str], days_between: int) -> bool:
 # ─────────────────────────────────────────────────────────
 
 def load_grounded_skills() -> set:
-    """Skills/components that have ground-truth benchmarks — eligible for auto-evolution."""
+    """Skills/components that have ground-truth benchmarks — eligible for auto-evolution.
+
+    Apex W0.3 (2026-07-29): DERIVED from two sources, filtered to skills that
+    exist on disk — never hand-synced. The old manifest-only read meant the
+    2026-07-24 calibration ratification (18 skills, human-calibrated eval rows)
+    never reached this gate: the phase2 queue sat 100% blocked at "no ground
+    truth" while the ground truth existed one file away. 3 of the manifest's 5
+    entries were also phantom dirs; the existence filter retires them silently.
+    """
     grounded = set()
-    if not GROUND_TRUTH_MANIFEST.exists():
-        return grounded
+    skills_root = ROOT / "skills"
+
+    def _add(name: str) -> None:
+        name = (name or "").strip().removeprefix("skills/")
+        if name and name not in ("n/a", "TBD") and (skills_root / name).is_dir():
+            grounded.add(name)
+
     try:
-        manifest = json.load(open(GROUND_TRUTH_MANIFEST))
-        for sample in manifest.get("samples", []):
-            if sample.get("skill"):
-                grounded.add(sample["skill"])
+        if GROUND_TRUTH_MANIFEST.exists():
+            manifest = json.load(open(GROUND_TRUTH_MANIFEST))
+            for sample in manifest.get("samples", []):
+                _add(sample.get("skill", ""))
+    except Exception:
+        pass
+    try:
+        eval_set = GROUND_TRUTH_MANIFEST.parent / "eval_set_v1.jsonl"
+        if eval_set.exists():
+            for line in eval_set.read_text().splitlines():
+                if not line.strip():
+                    continue
+                try:
+                    row = json.loads(line)
+                except ValueError:
+                    continue
+                if row.get("calibrated_by_human"):
+                    _add(row.get("domain", ""))
+                    _add(row.get("skill", ""))
     except Exception:
         pass
     return grounded
