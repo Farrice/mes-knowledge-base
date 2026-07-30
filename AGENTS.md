@@ -8,7 +8,7 @@ Self-contained: Codex does NOT auto-follow file pointers, so everything load-bea
 <!-- Shared blocks are GENERATED from directives/constitution/shared-blocks.md — edit there, then `python3 execution/constitution_compiler.py sync` (apex W3, 2026-07-29). -->
 
 ## What this workspace is
-A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUNTS:BEGIN -->219 expert personas + 367 skills + 1,527 workflows<!-- COUNTS:END --> → deterministic Python backplane (`execution/`, ~128 scripts). The goal: world-class extracted experts producing revenue work, every deliverable feeding one learning loop (finalize → ledger → evolution) **rooted in this repo** — never fork it.
+A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUNTS:BEGIN -->232 expert personas + 393 skills + ~5,100 workflows (2,514 skill + 2,602 command)<!-- COUNTS:END --> → deterministic Python backplane (`execution/`, ~130 scripts). <!-- COUNTS refreshed from disk 2026-07-29 (apex W3) — was 219/367/1,527, months stale; regenerate: ls skills|wc -l · ls agents|wc -l · find skills -path "*/workflows/*.md"|wc -l --> The goal: world-class extracted experts producing revenue work, every deliverable feeding one learning loop (finalize → ledger → evolution) **rooted in this repo** — never fork it.
 
 ## Environment
 - `.env` at root holds `NOTION_API_KEY`. Python deps: `python-dotenv`, `requests`.
