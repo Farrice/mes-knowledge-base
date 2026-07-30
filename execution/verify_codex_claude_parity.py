@@ -393,6 +393,18 @@ def check_no_claude_edit_from_repair() -> list[str]:
     return receipts
 
 
+def check_constitution_sync() -> list[str]:
+    """Apex W3 (2026-07-29): the shared constitution blocks are GENERATED from
+    directives/constitution/shared-blocks.md — drift between CLAUDE.md and
+    AGENTS.md now fails the fleet instead of surfacing months later."""
+    proc = subprocess.run(
+        [sys.executable, str(ROOT / "execution" / "constitution_compiler.py"), "check"],
+        capture_output=True, text=True, cwd=ROOT)
+    if proc.returncode != 0:
+        fail(f"constitution drift: {proc.stdout.strip()[:300]}")
+    return ["shared constitution blocks in sync (compiler check exit 0)"]
+
+
 def main() -> int:
     checks = [
         ("router", check_router),
@@ -401,6 +413,7 @@ def main() -> int:
         ("prompt_hook", check_prompt_hook),
         ("hook_bridge", check_hook_bridge),
         ("no_claude_bridge", check_no_claude_edit_from_repair),
+        ("constitution_sync", check_constitution_sync),
     ]
     sections: list[tuple[str, Any]] = []
     failures: list[str] = []
