@@ -519,8 +519,10 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
                 "produce another variant. Allowed moves: (a) fresh crack from "
                 "SOURCE INPUT with a different architecture, (b) ONE "
                 "AskUserQuestion gut-check on the fork, (c) present existing "
-                "takes for a pick. Name the rendition count to Farrice out "
-                "loud.")
+                "takes for a pick, (d) /fresh-pen — compile a run packet and "
+                "move the mission to a clean session (2 rejections on taste "
+                "work = the pen is the problem). Name the rendition count to "
+                "Farrice out loud.")
             if hot:
                 _append_observe({
                     "ts": _now_iso_utc(), "session_id": session_id,

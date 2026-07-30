@@ -30,6 +30,7 @@ That's the whole ritual. Everything else below is situational.
 | Judge work I show you | One word: **good / marginal / off** (+ any line that made you wince). This is fuel — the system literally learns from these and nothing else |
 | Change direction mid-flow | Just say it. Nothing here blocks you. Ever. |
 | Build something new | Say the idea — I run `/arsenal` first, because ~40 finished systems already exist and the #1 waste of your money is rebuilding one |
+| Copy keeps missing in a long session | Say **"fresh pen"** — `/fresh-pen` compiles a run packet (all your verdicts, none of the fatigue) and the mission moves to a clean session |
 | Weekly reset | `/weekly-closeout` Sundays (~10 min now — drain the money questions, one queue decision, done) |
 
 ---
