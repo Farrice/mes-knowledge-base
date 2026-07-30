@@ -41,3 +41,6 @@
     rules, unflagged; echoes unfilled brackets without asking. Restate binding rules in-task.)
   - `claude-haiku-4-5.md` (2026-07-15 — headline: inline instructions silently override standing
     rules; restate binding rules inside the task block.)
+
+## Codex CLI incidents (dated — moved from AGENTS.md, amnesty 2026-07-29)
+- 2026-07-13: Codex CLI 0.133.0 could not run gpt-5.6-sol at all; fixed by 0.144.3. Standing lesson: `npm install -g @openai/codex@latest` before blaming the model.

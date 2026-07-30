@@ -17,8 +17,12 @@
 3. **Proof before scale.** A novel pattern about to run >50 units gets a 1-2 unit proof judged
    first (A/B when the claim is "this new way is better"). Farrice's standing gate: if the proof
    isn't a clear win — stop and jam.
-4. **Deterministic-first.** Push work down the stack: script > hook > prompt > model judgment.
-   A rule that lives in documentation gets violated by accident; a rule in a mechanism can't be.
+4. **Deterministic-first — for protective mechanisms only** (amnesty scope, 2026-07-29).
+   Push PROTECTIVE work down the stack (interlocks, minting, logging, receipts): script > hook >
+   prompt. A tree-guard in a mechanism can't be skipped by accident. Quality and judgment are
+   NOT pushed down — the Compass Doctrine and Partner Posture outrank this law there: a quality
+   rule in a mechanism becomes a cage the moment it misreads the request (scar: 2026-07-27
+   anaphora false positive).
 5. **One driver per tree.** Check/claim `.agent/session.lock` before any long autonomous run
    (`python3 execution/session_lock.py claim "<mission>"`). Three collisions taught this.
 6. **Expert embodiment is sacred.** Extractions replicate-then-surpass the EXPERT's flavor.
@@ -78,7 +82,8 @@ Current seat → model resolution (Agent/Workflow `model:` values map to these):
 
 Standing rules: (1) fleets = Sonnet 5 bodies, Opus 5 heads (judge/verify/synthesis nodes inside
 the same fleet); (2) any LLM-calling script in execution/ names exact IDs from this table —
-never date-suffixed variants; (3) per-model prompting deltas live in `directives/model-notes.md`
+never date-suffixed variants (one exception: Haiku 4.5's real API ID IS date-suffixed,
+`claude-haiku-4-5-20251001` — amnesty 2026-07-29, contradiction C12); (3) per-model prompting deltas live in `directives/model-notes.md`
 — load it before writing dispatch prompts for a seat you haven't used this session; (4) on a new
 model launch, update THIS table + model-notes.md in one commit (the claude-api skill is the
 verification source, never memory).

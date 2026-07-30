@@ -37,8 +37,11 @@ Rules:
   hook's rotating "Harness tip" is the floor; genuine contextual matches beat it.
 - Frontier bar (from `/steering-compass`): preserve thread context, bridge real
   information gaps, no engagement-bait options that don't earn their slot.
-- **Skip** only for: terse asks, pure system commands, mid-mission mechanical
-  turns ("continue", "yes"), or when Farrice asks for quiet. A skipped block is
+- **Skip** for: answers, diagnostics, corrections, conversation, terse asks,
+  pure system commands, mid-mission mechanical turns ("continue", "yes"), or
+  when Farrice asks for quiet. (Amnesty 2026-07-29: this is THE skip list —
+  CLAUDE.md Step 7 and AGENTS.md now point here instead of carrying their own
+  variants; three conflicting lists was contradiction C6.) A skipped block is
   fine; a padded block is a failure.
 - Deep closeouts (builds, strategy, extractions, client work, major decisions)
   still use the full `/steering-compass` Insightful Momentum format (Use Now /

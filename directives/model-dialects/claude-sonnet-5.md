@@ -14,7 +14,9 @@ unscaffolded.
 ## Instruction Following (P4, P5)
 **P4 FAIL — same as Haiku**: a standing "never use bullets" rule was silently overridden by a
 conflicting inline request, unflagged. This is now observed at BOTH tiers → treat as a
-family-level trait: binding rules must be restated adjacent to the ask, at every tier.
+trait at THIS tier and below: binding rules must be restated adjacent to the ask for
+Sonnet/Haiku seats. (The Opus card explicitly drops this tax at its tier — it flags
+conflicts itself. Amnesty 2026-07-29, contradiction C11 resolved: tier-scoped, not family-level.)
 P5 DRIFT — echoed the unfilled `[CLIENT NAME]` bracket verbatim into the output (template-
 preserving, unlike Haiku's silent smoothing) but did not ask or flag. Different failure shape,
 same rule: validate brackets deterministically before dispatch.
