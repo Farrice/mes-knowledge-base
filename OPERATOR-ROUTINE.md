@@ -9,8 +9,10 @@
 **1. First session of the day → type `/cos`** (~2 min)
 You get: the campaign's next action, any questions waiting on you, open-mission count, money check-ins due. Answer what's there or don't — it never blocks. (A macOS notification also brings you the day's one-liner without opening anything.)
 
-**2. To work → just talk. Raw is fine. Or `/go "<messy thought>"`**
-You do NOT need commands, formatting, or system language. Dump the thought exactly as it comes out of your mouth. The system compiles it, routes it, checks it against open work, and tells you if campaign work is waiting before system work starts. Raw dumps ARE the interface now — that's what today's rebuild was for.
+**2. To work → just talk. Raw is fine. One refinement (learned 2026-07-29):**
+- **Thinking, questions, edits, vibes → just talk.** No command needed, ever.
+- **A deliverable you'll JUDGE (your name or money on it) → `/go` + the rant.** Not because raw talk is wrong — because /go runs the routing as machinery and shows you a card naming which experts are loading BEFORE anything gets written. Five seconds to glance, redirect, or approve. Bare talk relies on session discipline; /go makes the arsenal structurally present.
+- **"route?" — one word, any time.** The session must name exactly what's loaded or stop producing. This is your kill switch for "AI winging it with my arsenal sitting right there."
 
 **3. Done for the day → `/end-session`**
 Commits, closes, writes the handoff. Next session picks up with `/resume`.
