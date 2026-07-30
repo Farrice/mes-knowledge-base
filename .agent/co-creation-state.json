@@ -45,10 +45,25 @@
    },
    "claude": {
     "rejections": 2
+   },
+   "skill_router_hook": {
+    "rejections": 1
+   },
+   "steering-loop": {
+    "rejections": 1
+   },
+   "task-lifecycle-content": {
+    "rejections": 1
+   },
+   "agents": {
+    "rejections": 1
+   },
+   "routing_enforcer": {
+    "rejections": 1
    }
   },
-  "updated": "2026-07-29T18:39:10.668973",
-  "last_feedback_exchange": 9
+  "updated": "2026-07-29T20:00:46.991927",
+  "last_feedback_exchange": 11
  },
  "amnesty-test": {
   "stems": {},

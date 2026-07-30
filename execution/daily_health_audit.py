@@ -64,6 +64,14 @@ def main() -> int:
     report["self_heal"] = {"exit": rc, "findings": len(rows) if isinstance(rows, list) else -1,
                            "ids": [r.get("id") for r in rows][:12] if isinstance(rows, list) else []}
 
+    # Apex W0.2 (2026-07-29): land remote brief/* branch work into main daily.
+    # The cloud brief routine pushes branches (correct — remote never writes
+    # main); this is the harvester half that was missing while ~1,800 lines of
+    # finished briefs stranded. Recover-only here: prune stays a manual/weekly
+    # call because it deletes remote refs.
+    rc, out = _run([str(ROOT / "execution" / "brief_branch_harvester.py"), "--quiet"])
+    report["brief_harvest"] = {"exit": rc}
+
     rc, out = _run([str(ROOT / "execution" / "wiring_audit.py"), "drain",
                     "--batch", DRAIN_BATCH])
     try:
