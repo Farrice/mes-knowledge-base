@@ -32,7 +32,9 @@ STATE = REPO_ROOT / ".agent" / "steering-loop-state.json"
 MODEL_CACHE = REPO_ROOT / ".agent" / "active-model.json"
 
 # ── PINNED expectations (never read from the artifact under test) ────────
-PIN_MARKER = "MODEL DIALECT (deterministic, from steering_loop_hook.py"
+# Amnesty 2026-07-29: header compressed to "MODEL DIALECT (card: X, class: Y —
+# nudge, not cage; Farrice's explicit bounds always win):" — pin follows.
+PIN_MARKER = "MODEL DIALECT (card:"
 PIN_NEGATIVE_BRIEF = ("no Chain, no finalize, no Notion, no Next Moves, "
                       "return only the artifact")
 PIN_DEFAULT_MODEL = "claude-opus-5"
@@ -138,8 +140,12 @@ def run_checks():
                        "model": PIN_DEFAULT_MODEL})
     check("slash_workflow_is_deliverable", "class: deliverable" in out)
 
+    # Compass retune 2026-07-28 + amnesty 2026-07-29: short prompts get NO
+    # dialect and NO steering block (steering is deliverable-class only) —
+    # the old expectation of "STEERING LOOP" here predated the retune.
     out, _ = run_hook({**sid, "prompt": "go", "model": PIN_DEFAULT_MODEL})
-    check("short_prompt_skipped", PIN_MARKER not in out and "STEERING LOOP" in out)
+    check("short_prompt_skipped",
+          PIN_MARKER not in out and "STEERING LOOP" not in out)
 
     out, rc = run_hook({**sid, "prompt": ""})
     check("empty_prompt_silent", out.strip() == "" and rc == 0)

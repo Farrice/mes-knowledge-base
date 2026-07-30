@@ -52,14 +52,13 @@ fixture replay flags drift on Fable-conducted work · the seating charter change
   "model_match": ["claude-fable-5", "fable-5", "fable"],
   "inject": {
     "deliverable": [
-      "State in ONE line the length/scale you will hold, then hold it — Claude 5 family trait: length responds only to prompting, never to effort.",
-      "Scope = exactly what was asked; calibrate to the loaded expert's exemplars. Farrice's explicit bounds always win."
+      "State the length/scale you will hold in ONE line, then hold it; scope = exactly the ask, sized to the loaded expert's exemplars."
     ],
     "conversational": [
-      "Answer at conversational scale — direct answer first, no sections, no unrequested expansion."
+      "Direct answer first, conversational scale, no unrequested expansion."
     ],
     "delegation": [
-      "Fable conducts; delegate mechanical/parallel tracks to cheaper seats. Any dispatch brief MUST contain verbatim: \"{negative_brief}\" — subagents inherit CLAUDE.md and will execute its side effects regardless of conductor tier."
+      "Fable conducts — delegate mechanical/parallel tracks to cheaper seats; dispatch briefs carry verbatim: \"{negative_brief}\" (subagents inherit CLAUDE.md side effects)."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",

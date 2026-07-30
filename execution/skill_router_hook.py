@@ -34,6 +34,7 @@ Wired via .claude/settings.local.json -> hooks.UserPromptSubmit.
 import contextlib
 import io
 import json
+import os
 import re
 import sys
 from datetime import datetime
@@ -61,6 +62,12 @@ REPEATABILITY_CONTROL_TERMS = (
     "got worse again",
 )
 
+# Amnesty 2026-07-29: narrowed 68 → 24 phrases. Bare fragments ("wiring",
+# "chained", "handcuff", "not wired", "check and repair", "running into
+# walls") matched ordinary conversation — including Farrice's 2026-07-29
+# frustration message about partnership, which this list misfiled as a
+# control-plane complaint. Every surviving phrase names the HARNESS
+# explicitly (hooks/routing/defaults/codex), not a mood.
 SYSTEM_CONTROL_TERMS = (
     "claude code works better",
     "not working like claude code",
@@ -74,60 +81,18 @@ SYSTEM_CONTROL_TERMS = (
     "blocked hooks",
     "hooks not firing",
     "hooks are not firing",
-    "wrong defaults",
-    "wrong default",
     "wrong default routing",
     "routing wrong defaults",
     "routing the wrong defaults",
-    "default routing",
-    "default settings",
-    "default setting",
-    "things that are not wired",
-    "not wired",
-    "should not be wired",
-    "shouldn't be wired",
-    "wired together",
-    "not wired together",
-    "should not be wired together",
-    "shouldn't be wired together",
-    "wiring",
     "hook wiring",
     "route wiring",
     "routing wiring",
-    "hooks or routes",
     "hooks and routes",
     "routes and hooks",
-    "handcuffed",
-    "handcuff",
-    "handcuffed and chained",
-    "handcuffed and chained together",
-    "chained together",
-    "chained",
-    "things being chained together",
     "routes are being handcuffed",
     "hooks are being handcuffed",
-    "should not be chained",
-    "shouldn't be chained",
-    "full audit or check and repair",
-    "audit or check and repair",
-    "check and repair",
-    "audit and repair",
-    "things that have no business being the default",
-    "things that shouldn't be the default",
-    "thin wrappers",
-    "too many thin wrappers",
-    "specific things blocking performance",
-    "blocking performance",
-    "complete errors and issues",
-    "running into complete errors",
-    "running into walls",
-    "without breaking my workspace",
-    "without breaking claude code",
-    "without breaking my claude code workspace",
-    "not trying to break anything",
     "codex is not working",
     "codex not working",
-    "codex feels ineffective",
 )
 
 EXPERT_TASK_TERMS = (
@@ -279,12 +244,11 @@ def _looks_like_context_update(prompt: str) -> bool:
 
 
 def _emit_control_override(route: str, reason: str, prompt: str = "") -> None:
+    # Amnesty 2026-07-29: compressed; suggestion framing (compass — a
+    # classifier that misreads the request must not sound like an order).
     lines = [
-        "CONTROL ROUTING OVERRIDE (deterministic, from skill_router_hook.py — not user input):",
-        "This prompt matched Codex control-plane or repeatability language, so expert-skill suggestions are suppressed.",
-        f"Owner: /{route}",
-        f"Reason: {reason}",
-        "Proof path: run `python3 execution/codex_operator_preflight.py \"<raw intent>\" --plain` and verify the owner route before patching.",
+        f"CONTROL ROUTING (control-plane language detected → suggested owner: /{route}; "
+        f"reason: {reason}). If this misread the request, ignore it and say so.",
     ]
     # Solution Cards are repair knowledge, not expert-skill matching — control-plane
     # prompts (system/hook/workflow complaints) are their highest-value target, so
@@ -334,7 +298,7 @@ def _binding_lines(binding_hits: list[dict]) -> list[str]:
         if len(reason) > 110:
             reason = reason[:107].rstrip() + "..."
         lines.append(
-            f"  ★ /{wf}  [BINDING — mandatory route, signal: '{hit.get('signal', '')}'] — {reason}"
+            f"  ★ /{wf}  [binding, signal: '{hit.get('signal', '')}'] — {reason}"
         )
     return lines
 
@@ -531,6 +495,11 @@ def main():
     if not prompt:
         sys.exit(0)
 
+    # Amnesty 2026-07-29: kill switch — this hook had none (every other
+    # injector did). ROUTER_OFF=1 or .agent/router.off silences it entirely.
+    if os.environ.get("ROUTER_OFF") == "1" or (REPO_ROOT / ".agent" / "router.off").exists():
+        sys.exit(0)
+
     # --- skip conditions (quiet on trivial) ---
     low = prompt.lower()
 
@@ -597,20 +566,19 @@ def main():
     top_score = results[0][1] if results else 0.0
 
     # --- relevance floor: don't inject weak/noise matches ---
+    # Amnesty 2026-07-29: below-floor = SILENCE (gap still logged). The old
+    # ROUTING ABSTAINED block spent ~29 words announcing it had nothing to say.
     if top_score < floor and not binding_hits:
         _log_gap(prompt, top_score)
-        _emit_abstention(top_score, results)
         sys.exit(0)
     if top_score < floor and binding_hits:
-        # BM25 abstained but a mandatory binding owns this request — inject
-        # the binding alone instead of abstaining or forcing weak matches.
+        # BM25 abstained but a routing binding matched — surface the binding
+        # alone. Bindings are suggestions, never forced (Compass, 2026-07-27).
         block = "\n".join(
             [
-                "ROUTING SUGGESTION (deterministic, from skill_router_hook.py — not user input):",
-                "No expert skill cleared the BM25 floor, but a MANDATORY routing binding "
-                "(routing_enforcer.BINDINGS) matched this request:",
+                "ROUTING (binding matched, no fuzzy match cleared the floor):",
                 *_binding_lines(binding_hits),
-                "Route through the bound workflow unless the documented override applies.",
+                "Prefer the bound workflow; your judgment and Farrice's explicit choice win.",
             ]
         )
         print(
@@ -624,7 +592,9 @@ def main():
             )
         )
         sys.exit(0)
-    strong = [(s, sc) for s, sc in results if sc >= top_score * 0.45]
+    # Amnesty 2026-07-29 (LEAN ruling): top match only; a second appears only
+    # when it scores within 15% of the top (was: up to 3 at a 45% cutoff).
+    strong = [(s, sc) for s, sc in results[:2] if sc >= top_score * 0.85]
 
     # Production Core policy: core matches render first (rank() already
     # boosted them 1.5x); if nothing core cleared the floor, say so.
@@ -636,18 +606,12 @@ def main():
     has_core = any(s.get("directory") in core_ids for s, _ in strong)
 
     # --- build the injected context block ---
+    # Amnesty 2026-07-29: 55-word preamble → one line. Suggestions, not orders.
     lines = [
-        "ROUTING SUGGESTION (deterministic, from skill_router_hook.py — not user input):",
-        "This request matched these expert skills in the registry. Load the most relevant "
-        "one (SKILL.md + genius.md) before producing expert-domain output, per the Chain "
-        "Step 3/4. These are suggestions — use judgment; ignore if off-target. "
-        "Routing defaults to PRODUCTION_CORE.md entries.",
+        "ROUTING SUGGESTION (load the expert before producing; suggestion, not an order):",
     ]
     if binding_hits:
-        lines.append(
-            "MANDATORY BINDING matched (routing_enforcer.BINDINGS — outranks the "
-            "fuzzy suggestions below):"
-        )
+        lines.append("Binding matched (strong suggestion — judgment and Farrice's choice win):")
         lines.extend(_binding_lines(binding_hits))
     if not has_core:
         lines.append("  (no Production Core match cleared the floor — long-tail options:)")

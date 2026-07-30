@@ -284,10 +284,11 @@ def _dialect_block(payload: dict, prompt: str) -> str:
         return ""
     nb = str(dialect.get("negative_brief") or "")
     lines = [ln.replace("{negative_brief}", nb) for ln in lines]
+    # Amnesty 2026-07-29: header compressed (LEAN ruling). "card:", "class:"
+    # and the bounds-win phrase stay — they are verify_dialect_injector pins.
     header = (
-        f"MODEL DIALECT (deterministic, from steering_loop_hook.py — card: "
-        f"{model}, class: {klass}; nudge, not cage — Farrice's explicit bounds "
-        "always win):")
+        f"MODEL DIALECT (card: {model}, class: {klass} — nudge, not cage; "
+        "Farrice's explicit bounds always win):")
     return header + "\n" + "\n".join(f"- {ln}" for ln in lines) + "\n"
 
 
@@ -442,31 +443,26 @@ def _cc_work_mode(prompt: str, is_feedback: bool):
     return None
 
 
+# Amnesty 2026-07-29: cards compressed to one line each (LEAN ruling). The
+# mechanisms are unchanged; only the lecture went. Full specs live in
+# directives/steering-loop.md — the card is a reminder, not the manual.
 _CC_MODE_CARDS = {
     "REFINE-EXISTING": (
-        "Pen Protocol applies (writers-room Phase 3). FEEDBACK-TURN PROTOCOL: "
-        "(1) restate his verdicts as a numbered list FIRST; (2) ambiguous or "
-        "conflicting verdicts → ONE AskUserQuestion BEFORE producing; (3) log "
-        "felt verdicts (python3 execution/voice_ratchet.py add); (4) produce "
-        "ONE take by ONE pen — never N variants unless he asked for variants, "
-        "never committee edits."),
+        "Feedback turn: restate his verdicts first; conflicting verdicts → ONE "
+        "question before producing; log felt verdicts (voice_ratchet.py add); "
+        "then ONE take by ONE pen."),
     "BUILD-NEW": (
-        "Operate at /go standard without the command: score intent (1-5), "
-        "route via PRODUCTION_CORE, load the expert (lens cards / SKILL.md) "
-        "BEFORE producing, finalize after. State the chosen route in one line "
-        "so Farrice can redirect early."),
+        "Name the route/expert in one line (redirectable), load the expert "
+        "files before producing, finalize after."),
     "IDEATE": (
-        "Divergence before convergence: offer /ideate or /jam on taste-bearing "
-        "work; generate wide before polishing anything; no premature "
-        "single-answer convergence."),
+        "Diverge before converging — offer /ideate or /jam on taste-bearing "
+        "work; no premature single answer."),
     "DECIDE": (
-        "Name the decision before any artifact — a deliverable produced before "
-        "the decision is made will be rebuilt (2026-07-27 headline lesson). "
-        "Lay out the fork, recommend one side, let him pick."),
+        "Name the fork first, recommend one side, let him pick — artifact "
+        "comes after the decision."),
     "CAPTURE": (
-        "Thought dump detected: capture verbatim via python3 "
-        "execution/thought_bank.py capture \"...\" and confirm in ONE line — "
-        "no unpacking unless he asks."),
+        "Thought dump: capture verbatim (thought_bank.py capture), confirm in "
+        "ONE line, no unpacking unless asked."),
 }
 
 
@@ -506,13 +502,8 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     lines = []
     mode = _cc_work_mode(prompt, is_feedback)
     if mode:
-        lines.append(
-            f"MODE: {mode} (deterministic guess from steering_loop_hook.py — "
-            "say 'mode <BUILD-NEW|REFINE-EXISTING|IDEATE|DECIDE|CAPTURE>' to "
-            "override).")
-        card = _CC_MODE_CARDS.get(mode)
-        if card:
-            lines.append(card)
+        card = _CC_MODE_CARDS.get(mode) or ""
+        lines.append(f"MODE {mode} (say 'mode X' to override): {card}".rstrip())
 
     # Spiral brake: his stated rule made physical — 2 rejected takes on one
     # stem, or 3+ renditions, means variants stop.
@@ -650,20 +641,15 @@ def handle_prompt(payload: dict) -> None:
         )
         _foggy = re.search(r"\b(not sure|don'?t know|feel like|something is off|"
                            r"help me figure|what do you think|foggy|stuck)\b", p)
-        if (_taste or _foggy) and not _execute and not cc_block:
+        # Amnesty 2026-07-29: compressed + now respects the co-creation off
+        # switch (previously CO_CREATION_OFF re-enabled this longer block —
+        # the off switch ADDED words; the trap is fixed here).
+        if (_taste or _foggy) and not _execute and not cc_block and not _cc_off():
             co_creation = (
-                "CO-CREATION STEP 0 (deterministic, from steering_loop_hook.py): "
-                "taste-bearing or foggy ask detected → PARTNER dial is ON.\n"
-                "1) Load memory + canonical files FIRST (FARRICE-MASTER-CONTEXT.md is "
-                "canonical for identity/voice/offer work — read before writing).\n"
-                "2) Ask ONE question aimed past his current frame BEFORE producing. "
-                "Wait for the answer. Never interview about what's already on disk.\n"
-                "3) Then produce at ship standard.\n"
-                "Iteration brake: TWO rejected takes on the same artifact = stop "
-                "producing variants and go back to the source input.\n"
-                "Override: he says 'just do it' / scores 4-5 sharp → EXECUTE dial, "
-                "act now, refine after.\n"
-            )
+                "CO-CREATION (taste-bearing/foggy ask): load memory + canonical "
+                "files first (FARRICE-MASTER-CONTEXT.md for identity/voice/offer); "
+                "ask ONE question past his frame before producing; two rejected "
+                "takes = back to source input. 'Just do it' = EXECUTE dial.\n")
     except Exception:
         co_creation = ""
 
@@ -677,32 +663,24 @@ def handle_prompt(payload: dict) -> None:
     except Exception:
         dialect = ""
 
-    tip = TIPS[(count - 1) % len(TIPS)]
-    # Compass retune (Farrice, 2026-07-28 — council-ratified, scar: 8 sessions of
-    # "next-moves-missing" logged on conversational turns): the Next Moves reminder
-    # fires only on deliverable-classified exchanges. Conversational turns get the
-    # mode/co-creation/dialect blocks without the closing-ritual payload. The
-    # escalation counter is deleted — it had no consumer; miss logging in
-    # handle_stop stays observe-only (it is the conversion-data instrument).
+    # Compass retune (Farrice, 2026-07-28): Next Moves reminder fires only on
+    # deliverable-classified exchanges. Amnesty 2026-07-29 (LEAN ruling):
+    # compressed to one line — the spec lives in directives/steering-loop.md.
     steering = ""
     if _dialect_class(prompt) == "deliverable":
         steering = (
-            "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
-            f"Exchange {count}. When this exchange SHIPS something, close with a "
-            "**Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act) "
-            "+ a 1-line Operator Lesson. Skip on answers, diagnostics, corrections. "
-            "Spec: directives/steering-loop.md.\n"
-            "Forge Radar: repeated problem / manual loop / missing tool → flag the "
-            "build in ONE line, never block. PoC gate applies.\n"
-        )
-    block = (
-        cc_block +
-        co_creation +
-        dialect +
-        steering +
-        f"Harness tip: {tip}"
-    )
-    print(block)
+            f"STEERING LOOP (exchange {count}): ships something → close with "
+            "Next Moves (Deepen/Adjacent/Act) + 1-line Operator Lesson; skip "
+            "on answers, diagnostics, corrections (directives/steering-loop.md). "
+            "Forge Radar: repeated problem/missing tool → flag in ONE line, "
+            "never block.\n")
+    # Amnesty 2026-07-29: tip fires 1-in-5 prompts, not every prompt.
+    tip = ""
+    if count % 5 == 1:
+        tip = f"Harness tip: {TIPS[(count - 1) % len(TIPS)]}"
+    block = (cc_block + co_creation + dialect + steering + tip).rstrip()
+    if block:
+        print(block)
     sys.exit(0)
 
 

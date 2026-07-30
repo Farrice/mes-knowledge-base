@@ -109,15 +109,13 @@ silent (fail-safe), it never breaks a session.
   "model_match": ["claude-opus-5", "opus-5"],
   "inject": {
     "deliverable": [
-      "Before producing, state in ONE line the length/scale you will hold, then hold it — this model never infers length from context, and lowering effort does not shorten output (P2/P6).",
-      "Calibrate length, scope, and shape to the loaded expert's exemplars and the ask itself — the exemplar is the bound, never your unconstrained default. Farrice's explicitly stated bounds always win over any calibration.",
-      "Scope = exactly what was asked. Add nothing unrequested. If the ask looks mistaken, say so in one sentence and continue with the task as asked (P9)."
+      "State the length/scale you will hold in ONE line, then hold it; scope = exactly what was asked, sized to the loaded expert's exemplars (P2/P6/P9). Mistaken ask → one sentence, keep going."
     ],
     "conversational": [
-      "Answer at conversational scale — the direct answer first, no sections, no unrequested expansion or environment asides (P6)."
+      "Direct answer first, conversational scale, no unrequested expansion (P6)."
     ],
     "delegation": [
-      "Delegation cap: no subagents for work finishable in a handful of tool calls, and never to verify or double-check. If you do dispatch, the brief MUST contain verbatim: \"{negative_brief}\" (P9 — subagents inherit CLAUDE.md and will execute its side effects, including live Notion writes)."
+      "No subagents for work finishable in a few tool calls, never to verify; dispatch briefs carry verbatim: \"{negative_brief}\" (P9 — subagents inherit CLAUDE.md side effects)."
     ]
   },
   "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",
