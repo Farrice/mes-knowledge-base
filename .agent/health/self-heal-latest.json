@@ -1,12 +1,47 @@
 {
- "ts": "2026-07-29T15:44:16.436641",
+ "ts": "2026-07-29T23:52:36.671388",
  "mode": "heal",
  "rows": [
   {
+   "id": "born_intent_drift",
+   "cls": "EVIDENCE",
+   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
+   "fix": "python3 execution/verify_born_intent_drift.py --bless",
+   "detail": {
+    "explained": [
+     "workflow:weekly-closeout <- 948cde39a 2026-07-29 apex(W2.2-5): metabolism \u2014 revenue clock honest, chase unstuck, dead stores read, closeout runnable"
+    ]
+   },
+   "action": "healed",
+   "note": "workflow:weekly-closeout <- 948cde39a 2026-07-29 apex(W2.2-5): metabolism \u2014 revenue clock honest, chase unstuck, dead stores read, closeout runnable",
+   "commit": "commit skipped (--no-commit; the caller owns the commit)"
+  },
+  {
+   "id": "stale_slash_commands",
+   "cls": "JUDGMENT",
+   "what": "1 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
+   "fix": "debug the append region in execution/generate_slash_commands.py",
+   "action": "escalated"
+  },
+  {
    "id": "platform_drift",
    "cls": "JUDGMENT",
-   "what": "1 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
+   "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
    "fix": "python3 execution/platform_compiler.py sync   # review the diff first",
+   "action": "escalated"
+  },
+  {
+   "id": "dead_hooks",
+   "cls": "JUDGMENT",
+   "what": "2 hook(s) unmapped (add to HOOK_EVIDENCE or HOOK_UNOBSERVABLE in self_heal.py): pulse_dashboard.py, voice_ratchet.py",
+   "fix": "python3 execution/self_heal.py report --json   # then check the named hook",
+   "detail": {
+    "problems": [],
+    "unmapped": [
+     "pulse_dashboard.py",
+     "voice_ratchet.py"
+    ]
+   },
    "action": "escalated"
   },
   {
@@ -50,13 +85,6 @@
    "action": "escalated"
   },
   {
-   "id": "verify_born_intent_drift.py",
-   "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 3d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
-   "action": "escalated"
-  },
-  {
    "id": "verify_contextual_next_prompts.py",
    "cls": "JUDGMENT",
    "what": "same root cause as verify_steering_compass.py",
@@ -75,13 +103,6 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
-   "action": "escalated"
-  },
-  {
-   "id": "verify_system.py",
-   "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 3d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

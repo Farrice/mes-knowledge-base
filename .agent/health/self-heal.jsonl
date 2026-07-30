@@ -9,3 +9,4 @@
 {"ts": "2026-07-28T07:29:42.596882", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
 {"ts": "2026-07-28T07:30:24.158384", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
 {"ts": "2026-07-28T08:30:45.718613", "id": "born_intent_drift", "cls": "EVIDENCE", "action": "healed", "note": "skill:dara-denney-meta-ads <- f41bd34f8 2026-07-25 feat(dara): creative strategy layer", "commit": "commit skipped (--no-commit; the caller owns the commit)"}
+{"ts": "2026-07-29T23:52:36.668096", "id": "born_intent_drift", "cls": "EVIDENCE", "action": "healed", "note": "workflow:weekly-closeout <- 948cde39a 2026-07-29 apex(W2.2-5): metabolism \u2014 revenue clock honest, chase unstuck, dead stores read, closeout runnable", "commit": "commit skipped (--no-commit; the caller owns the commit)"}
