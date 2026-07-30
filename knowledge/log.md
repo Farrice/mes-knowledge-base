@@ -628,3 +628,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-28 19:42]` **finalize** | Profile-live-tonight mission: go-live master doc (Take A locked, banner design brief, Featured w/ $7 | content | assembly — composite:6.33 status:Needs Improvement
 - `[2026-07-29 15:35]` **finalize** | Diagnosed the profile-copy v3 FAIL to root cause (briefed from a ban list, not an architecture; rein | brand | voice-os — composite:6.67 status:Needs Improvement
 - `[2026-07-29 15:56]` **finalize** | Mission 4: 10-slide LinkedIn carousel from Transparent Labs teardown. All copy sourced from teardown | general | John Whiting + teardown source — composite:6.33 status:Needs Improvement
+- `[2026-07-29 19:27]` **finalize** | Rule amnesty executed: per-prompt hook injection cut 58-72% (measured 340->144w deliverable, 205->58 | general | system-architect — composite:6.67 status:Needs Improvement

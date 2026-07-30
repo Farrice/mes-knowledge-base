@@ -2867,8 +2867,36 @@
         "gaming_flag": false
       },
       "notes": "Carousel copy verbatim from source; reveal structure intentional for LinkedIn format (not AI slop). Prose classifier flagged reveal pattern (score 6.1) but all content verified to teardown. Compliance line sourced from Farrice's supplement law reading (not legal advice). Outcome contract verification complete: recognition-first + actionable angles + DM CTA. Publish ready Friday 2026-07-31 pending mission 2b (day-1 execution)."
+    },
+    {
+      "trace_id": "20260729_192734",
+      "timestamp": "2026-07-29T19:27:34.175206",
+      "schema_version": "v3",
+      "component": "directives",
+      "expert": "system-architect",
+      "workflow": "run-the-amnesty",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Anchor 8 match on Expert Standard: every cut carries a measured receipt (word counts from the real fire path, verifier exit codes), every ruling cites its contradiction ID, and nothing was removed without a named successor or pointer. Two Explore agents inventoried 347 fences + every hook channel before any edit. | Factual Grounding: 9 | Verification: PASS (verify_dialect_injector 26/26, verify_control_intent 24/24+7/7, verify_codex_claude_parity exit 0, verify_dead_channels 23/23; ban-bank count claim corrected against the actual file: 59 rows, not 64 or 66)"
     }
   ],
-  "total_cases": 101,
-  "last_updated": "2026-07-29T15:56:12.518012"
+  "total_cases": 102,
+  "last_updated": "2026-07-29T19:27:34.177957"
 }

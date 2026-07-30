@@ -245,7 +245,7 @@ def check_prompt_hook() -> list[str]:
     noisy_routes = ("/luke", "/diandra", "/kallaway", "/design", "/supercomputer", "/paid")
 
     system_context = hook_context(SYSTEM_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" not in system_context or "Owner: /system-audit" not in system_context:
+    if "CONTROL ROUTING" not in system_context or "/system-audit" not in system_context:
         fail(f"system prompt hook did not emit /system-audit override: {system_context}")
     if "ROUTING SUGGESTION" in system_context:
         fail("system prompt hook emitted expert suggestions instead of suppressing them")
@@ -254,7 +254,7 @@ def check_prompt_hook() -> list[str]:
     receipts.append("system complaint hook suppressed expert suggestions and emitted /system-audit")
 
     wiring_context = hook_context(WIRING_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" not in wiring_context or "Owner: /system-audit" not in wiring_context:
+    if "CONTROL ROUTING" not in wiring_context or "/system-audit" not in wiring_context:
         fail(f"wiring prompt hook did not emit /system-audit override: {wiring_context}")
     if "ROUTING SUGGESTION" in wiring_context:
         fail("wiring prompt hook emitted expert suggestions instead of suppressing them")
@@ -263,35 +263,35 @@ def check_prompt_hook() -> list[str]:
     receipts.append("wiring/default-settings hook suppressed expert suggestions and emitted /system-audit")
 
     selective_context = hook_context(SELECTIVE_LANGUAGE_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" not in selective_context or "Owner: /system-audit" not in selective_context:
+    if "CONTROL ROUTING" not in selective_context or "/system-audit" not in selective_context:
         fail(f"selective-language hook did not emit /system-audit override: {selective_context}")
     if "ROUTING SUGGESTION" in selective_context:
         fail("selective-language hook emitted expert suggestions instead of suppressing them")
     receipts.append("selective-language hook suppressed expert suggestions and emitted /system-audit")
 
     implementation_context = hook_context(IMPLEMENT_PLAN_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" not in implementation_context or "Owner: /system-audit" not in implementation_context:
+    if "CONTROL ROUTING" not in implementation_context or "/system-audit" not in implementation_context:
         fail(f"implementation plan hook did not emit /system-audit override: {implementation_context}")
     if "ROUTING SUGGESTION" in implementation_context:
         fail("implementation plan hook emitted expert suggestions instead of suppressing them")
     receipts.append("implementation plan hook suppressed experts and emitted /system-audit")
 
     status_context = hook_context(REPAIR_STATUS_REVIEW_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" not in status_context or "Owner: /system-audit" not in status_context:
+    if "CONTROL ROUTING" not in status_context or "/system-audit" not in status_context:
         fail(f"repair status-review hook did not emit /system-audit override: {status_context}")
     if "ROUTING SUGGESTION" in status_context:
         fail("repair status-review hook emitted expert suggestions instead of suppressing them")
     receipts.append("repair status-review hook suppressed experts and emitted /system-audit")
 
     repeatability_context = hook_context(REPEATABILITY_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" not in repeatability_context or "Owner: /repeatability-spine" not in repeatability_context:
+    if "CONTROL ROUTING" not in repeatability_context or "/repeatability-spine" not in repeatability_context:
         fail(f"repeatability prompt hook did not emit /repeatability-spine override: {repeatability_context}")
     if "ROUTING SUGGESTION" in repeatability_context:
         fail("repeatability prompt hook emitted expert suggestions instead of suppressing them")
     receipts.append("prior-session caliber hook suppressed experts and emitted /repeatability-spine")
 
     content_context = hook_context(CONTENT_PROMPT)
-    if "CONTROL ROUTING OVERRIDE" in content_context:
+    if "CONTROL ROUTING" in content_context:
         fail(f"content prompt should not be control-overridden: {content_context}")
     if "ROUTING SUGGESTION" not in content_context:
         fail("content prompt should still receive expert routing suggestions")

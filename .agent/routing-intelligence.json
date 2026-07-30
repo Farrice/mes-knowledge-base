@@ -12,7 +12,7 @@
                 "luke-iha-copy-blocks": 23,
                 "nate-b-jones-ai-taste-mastery": 1,
                 "tyler-denk-audience-monetization": 1,
-                "lara-acosta-linkedin-mastery": 3,
+                "lara-acosta-linkedin-mastery": 4,
                 "extract-mastery": 3,
                 "Research": 19,
                 "luke-iha-vsl-leads": 7,
@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 10,
                 "marketing-studio-director": 1,
-                "System": 93,
+                "System": 94,
                 "brand-operating-system": 14,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -88,7 +88,7 @@
                 "frontend-design": 1,
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1,
-                "gpt-image-2-director": 4,
+                "gpt-image-2-director": 7,
                 "satori-graphics": 1,
                 "oren-luxury-psychology": 2,
                 "seth-godin-brand": 2,
@@ -116,9 +116,9 @@
                 "packy-mccormick-writing": 1,
                 "matthew-volkwyn-copywriting": 1
             },
-            "total_routings": 723,
+            "total_routings": 728,
             "tier_counts": {
-                "0": 723,
+                "0": 728,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -128,8 +128,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 429,
-                "finalize-auto": 294
+                "hybrid": 433,
+                "finalize-auto": 295
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -149,7 +149,7 @@
                 "system-orchestrator": 3,
                 "David Placek": 1,
                 "mcp-builder": 1,
-                "gpt-image-2-director": 17,
+                "gpt-image-2-director": 20,
                 "seth-godin-brand": 7,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 4,
@@ -296,13 +296,13 @@
                 "luke-iha-copy-blocks": 33,
                 "new-media-kingmaker": 2,
                 "lamott-craft": 3,
-                "lara-acosta-linkedin-mastery": 5,
+                "lara-acosta-linkedin-mastery": 6,
                 "extract-mastery": 4,
                 "sean-dollwet-kdp-publishing": 11,
                 "dara-denney": 5,
                 "john-whiting": 2,
                 "synthesis-engine": 1,
-                "alan-aragon-nutrition": 1,
+                "alan-aragon-nutrition": 2,
                 "tobias-allen": 1,
                 "knowledge-architecture-studio": 2,
                 "mark-kashef": 2,
@@ -328,7 +328,7 @@
                 "alex-hormozi": 3,
                 "how-i-write-os": 31,
                 "omar-eddaoudi-scaling-ops": 6,
-                "fraser-cottrell-paid-ads": 5,
+                "fraser-cottrell-paid-ads": 8,
                 "asset_generator": 1,
                 "banana-pro-director": 2,
                 "oren-operational-systems": 3,
@@ -422,11 +422,12 @@
                 "assembly": 1,
                 "alex-copper-creative-strategy": 1,
                 "michael-bernoff-identity-engineering": 1,
-                "John Whiting + teardown source": 1
+                "John Whiting + teardown source": 1,
+                "system-architect": 1
             },
             "total_feedback": 95,
             "negative_count": 0,
-            "ensemble_count": 533,
+            "ensemble_count": 538,
             "auto_miss_count": 76,
             "positive_count": 0
         }
@@ -14413,6 +14414,95 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + seth-godin-brand + ben-watkins-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_021517_0062",
+            "timestamp": "2026-07-30T02:15:17.096032+00:00",
+            "session_id": "amnesty-test",
+            "request_summary": "draft a LinkedIn post about protein claims",
+            "intent_score": 0,
+            "domain_detected": "lara-acosta-linkedin-mastery",
+            "experts_deployed": [
+                "lara-acosta-linkedin-mastery",
+                "alan-aragon-nutrition"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "lara-acosta-linkedin-mastery",
+            "ensemble": true,
+            "compound_pairing": "lara-acosta-linkedin-mastery + alan-aragon-nutrition",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_022611_ee01",
+            "timestamp": "2026-07-30T02:26:11.284381+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_022622_0968",
+            "timestamp": "2026-07-30T02:26:22.727453+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_022636_31f7",
+            "timestamp": "2026-07-30T02:26:36.830772+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_022734_e793",
+            "timestamp": "2026-07-30T02:27:34.147697+00:00",
+            "session_id": "",
+            "request_summary": "Rule amnesty executed: per-prompt hook injection cut 58-72% (measured 340->144w deliverable, 205->58 conversational), session-open payload cut ~65% (JCC plugin disabled), 16 constitution contradiction",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architect"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "run-the-amnesty",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

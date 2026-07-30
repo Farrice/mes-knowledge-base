@@ -1,11 +1,11 @@
 {
- "ts": "2026-07-29T06:49:08.756725",
+ "ts": "2026-07-29T19:25:13.741226",
  "mode": "report",
  "rows": [
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
-   "what": "1 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
+   "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
    "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
   },
   {
@@ -33,17 +33,23 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 5 file(s) the sweep deferred for judgment",
+   "what": "organization drift: 1 status done but live; 5 file(s) the sweep deferred for judgment \u2014 e.g. _active/operator-cockpit-v2",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
-    "drift": [],
+    "drift": [
+     {
+      "kind": "status_done_but_live",
+      "project": "_active/operator-cockpit-v2",
+      "detail": "stamped done, then touched 0d ago"
+     }
+    ],
     "deferred_files": 5
    }
   },
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 2d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 3d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
@@ -67,7 +73,7 @@
   {
    "id": "verify_system.py",
    "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 2d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_system.py is red in the 3d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {
