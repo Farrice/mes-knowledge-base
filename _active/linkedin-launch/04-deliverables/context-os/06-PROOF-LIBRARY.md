@@ -42,3 +42,17 @@ Method (quotable): public surface only · every quotation verbatim and dated · 
 ## Receipts locations (for humans, not for export)
 
 Full sourced reports: `_active/linkedin-launch/01-research/2026-07-28-FRESH-RESEARCH/` (three Gemini Deep runs, 146 sources, inline citations) · June dossier: `01-research/wellness-supplement-brand-niche.md`.
+
+## Practitioner nods + paid receipts (added 2026-07-29, apex proof harvest)
+
+**Verifiable, on the books (revenue tracker):**
+- Josh & Katie — $3,500 six-month training package (nutrition + programming), collected in full (2026-07-05)
+- 6Eight / Josh — $250 brand + creative assets, AI-produced deliverables a paying client accepted and used (2026-07-25). *This is the first paid AI-creative receipt.*
+- Andrea (Resonance) — $600, 8 coaching sessions incl. event vision co-creation (2026-07-05)
+- Javier (HVC) — $300 across coaching + a co-created marketing/service engine (2026-07-05/16)
+- Total tracked: **$4,650**
+
+**Practitioner reactions (his account, 2026-07-29 — capture protocol below):**
+Farrice has shown extraction-grade prompt systems to working practitioners in their own fields; reported reactions include "better than I anticipated" and "I didn't know AI could do that." Currently UNCONFIRMED as quotable assets (no screenshots banked). **Not usable in copy until captured.**
+
+**Capture protocol (zero cognitive load):** the moment anyone reacts to the work — client, practitioner, friend with domain expertise — screenshot it and drop it in any session with the word "receipt." It gets banked here with date + context within the session. A nod that isn't captured within a day is usually gone forever.
