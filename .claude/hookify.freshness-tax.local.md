@@ -12,15 +12,4 @@ conditions:
     pattern: "VERIFIED|grounding-pass|deep-research-gemini|WebFetch|WebSearch.*20\\d\\d|primary source|Sources:|verify.*before delivery|verify_proof_ledger|proof-claims|PROOF-LEDGER GATE: PASS|\\[VOC\\]|avatar_manifold_runner"
 ---
 
-**Freshness Tax Triggered**: This session contains claims that are time/version-sensitive (model names, pricing, dates, or status words like "latest"/"current"/"state-of-the-art") but no verification evidence was detected. These are the EXACT claim categories that fail under the "confident hallucination" pattern (see feedback_factual-grounding-standard.md).
-
-**Before ending this session, confirm one of:**
-
-1. **Verified against primary source this session** — ran `/deep-research-gemini`, `/grounding-pass`, or fetched the official docs via WebFetch/WebSearch with a 2026 date. Name the source.
-2. **Claims are tagged with confidence labels** — VERIFIED / LIKELY / UNCONFIRMED per `directives/verification-agent-protocol.md`.
-3. **No factual claims made** — the session was pure creative/strategic output with no version/price/date assertions.
-4. **Explicit acknowledgment to user** — you told the user these claims are unverified and why.
-
-**If none of the above apply:** Do NOT deliver. Run verification now. Freshness-sensitive claims are the #1 source of confident hallucination failures in this system (Coachella 2026 fabrications, Gemini 2.5 vs 3.1 naming, Parallax Edition 02). Hook exists because protocols requiring memory keep failing. Full rationale: `directives/verification-agent-protocol.md` § Freshness Tax.
-
-**To mark verified without re-running**: include the phrase "Sources:" followed by dated URLs in your final message, OR tag each factual claim with VERIFIED/LIKELY/UNCONFIRMED labels. Hook scans for these markers.
+**Freshness Tax**: time/version-sensitive claims detected with no verification marker. Verify against a primary source or label VERIFIED/LIKELY/UNCONFIRMED before delivering — these claim classes are the system's #1 confident-hallucination source (scar: Parallax Ed. 02). Full protocol: `directives/verification-agent-protocol.md` § Freshness Tax.

@@ -1,6 +1,8 @@
 ---
 name: session-state-reminder
-enabled: true
+# amnesty 2026-07-29: disabled — no positive trigger, fired on virtually every session (pure noise).
+# The session-state protocol itself is alive in CLAUDE.md (write after intent validation / 10+ reads / before compaction).
+enabled: false
 event: stop
 action: warn
 conditions:
