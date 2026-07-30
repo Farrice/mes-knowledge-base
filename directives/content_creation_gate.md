@@ -1,3 +1,11 @@
+---
+status: superseded
+superseded_by: directives/task-lifecycle-content.md
+superseded_date: 2026-07-29
+amnesty_note: >
+  Rule amnesty 2026-07-29 (Farrice-ratified). Activation count 0; broken pointer (memory/content-voice-calibration.md does not exist); '3-point gate' names a gate that has been 4-point since Factual Grounding shipped; Hard Rules 4/5 ('gates are binding — reject and regenerate') contradict the Compass Doctrine. Live floors: CLAUDE.md Step 4 (2 skill files for content) + task-lifecycle-content.md (slop check, reader contract).
+---
+
 # Content Creation Pre-Flight Gate (EXPECTED)
 
 > Trigger: Any writing/drafting/creating task. Loading protocol: `directives/agent-loading-protocol.md`

@@ -1,3 +1,11 @@
+---
+status: superseded
+superseded_by: directives/quality_gate.md
+superseded_date: 2026-07-29
+amnesty_note: >
+  Rule amnesty 2026-07-29 (Farrice-ratified). Activation count 0 since creation; review date 4 months overdue; three mandates route through the retired `search_web` tool; M3 ('STOP, present interpretations') and M4/AP3 (post-delivery verify passes) directly contradict Partner Posture and the ratified dialect law. Surviving unique rule (GROUNDED/SUPPLEMENTED/PROJECTED labels) folded into quality_gate.md.
+---
+
 # Quality Assurance: Anti-Patterns & Mandates
 
 > Embedded in Step 5 (PRODUCE). Internalize during production — not post-production.

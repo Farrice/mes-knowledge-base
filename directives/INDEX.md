@@ -14,10 +14,10 @@ These directives govern The Chain itself. Violating a constitutional directive c
 
 | Directive | What it owns | Fires at |
 |---|---|---|
-| [intent-pipeline.md](intent-pipeline.md) | DICE scoring + sharpening rubric | Chain Steps 1-2 |
-| [agent-loading-protocol.md](agent-loading-protocol.md) | Tier 0-3 escalation rules + Hot Context Rule | Chain Step 4 |
+| ~~intent-pipeline.md~~ | SUPERSEDED 2026-07-29 (amnesty) → CLAUDE.md Chain Steps 1-2 inline | — |
+| ~~agent-loading-protocol.md~~ | SUPERSEDED 2026-07-29 (amnesty) → CLAUDE.md Context Engine + memory_facade.py | — |
 | [recall-grounding-protocol.md](recall-grounding-protocol.md) | Tier 1.5 auto-grounding for content/brand domains | Chain Step 4 (sub-step 1.5) |
-| [content_creation_gate.md](content_creation_gate.md) | Expected ≥2 skill files for content tasks | Chain Step 4 (content branch) |
+| ~~content_creation_gate.md~~ | SUPERSEDED 2026-07-29 (amnesty) → CLAUDE.md Step 4 + task-lifecycle-content.md | — |
 | [verification-agent-protocol.md](verification-agent-protocol.md) | Factual claim inventory + source verification | Chain Step 5.5 |
 | [quality_gate.md](quality_gate.md) | 4-dim scoring + factual veto + retry logic | Chain Step 6 |
 | [evolution-direction.md](evolution-direction.md) | North star for what to evolve + stopping criteria | Read before any /skill-evolution run |
@@ -44,7 +44,7 @@ These directives fire conditionally during execution. They do not govern The Cha
 | [multi-expert-synthesis.md](multi-expert-synthesis.md) | When 3+ experts loaded for a single deliverable |
 | [research-protocol.md](research-protocol.md) | Research tasks — Gemini-primary priority order |
 | [ai-slop-detector.md](ai-slop-detector.md) | Chain Step 5.5 — prose pattern detection |
-| [quality_assurance.md](quality_assurance.md) | Chain Step 5 — anti-pattern enforcement |
+| ~~quality_assurance.md~~ | SUPERSEDED 2026-07-29 (amnesty) → quality_gate.md (provenance tags folded in) |
 | [expertise-gap-protocol.md](expertise-gap-protocol.md) | When the routed expert lacks coverage of the request |
 | [arsenal-loop.md](arsenal-loop.md) | Any time an asset is built (auto-mints wrappers/shims — never hand-write them) OR before building anything (`/arsenal` = "what do I already have?") |
 | [hybrid-knowledge-retrieval.md](hybrid-knowledge-retrieval.md) | Combining Recall + NotebookLM + knowledge wiki |

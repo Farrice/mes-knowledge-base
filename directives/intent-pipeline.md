@@ -1,3 +1,11 @@
+---
+status: superseded
+superseded_by: CLAUDE.md
+superseded_date: 2026-07-29
+amnesty_note: >
+  Rule amnesty 2026-07-29 (Farrice-ratified). Activation count 1 (a parity verifier, not a session). Stage 3 research route ('/deep-research + Manus.AI') superseded twice over (research.py; Gemini PRIMARY). The live SHARPEN rule is inline in CLAUDE.md Chain Step 2.
+---
+
 # Intent Pipeline (EXPECTED)
 
 > Single pipeline for processing every user request. Replaces intent_refiner, pre_flight_validation, expert_auto_routing.

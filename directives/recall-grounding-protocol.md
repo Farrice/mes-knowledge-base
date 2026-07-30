@@ -4,7 +4,9 @@
 
 Automatically inject high-signal source material from the Recall knowledge base (3,000+ cards, growing) into **Step 4 (LOAD)** of The Chain — with zero cognitive load, zero maintained lists, zero orphaned paths.
 
-**Why this exists:** Skill files distill expert thinking into frameworks. Recall preserves the raw source — transcripts, actual expert language, real examples. Grounding in source material prevents the "Expert Standard 3-4 / generic output wearing expert terminology" failure mode documented in `MEMORY.md` (see 2/10 LinkedIn session lessons).
+**Why this exists:** Skill files distill expert thinking into frameworks. Recall preserves the raw source — transcripts, actual expert language, real examples. Grounding in source material prevents the "Expert Standard 3-4 / generic output wearing expert terminology" failure mode (2026-04 LinkedIn 2/10 session; the old `MEMORY.md` pointer here was dead — fixed in the 2026-07-29 amnesty).
+
+> **Amnesty note (2026-07-29):** the silent-skip rule below is USER-FACING only and does not contradict `memory_facade.py`'s degraded-store reporting (contradiction C9 resolved): **log every grounding decision, report degraded stores in machine output, never announce grounding mechanics to Farrice.** Also: this protocol's own "first 90 days" evaluation window expired ~2026-07 with no recorded evaluation — RG-11's admission stands ("theoretically useful — not measurably useful") and the evaluation is overdue, owned by `/weekly-closeout`.
 
 ---
 

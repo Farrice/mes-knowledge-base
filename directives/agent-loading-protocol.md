@@ -1,3 +1,11 @@
+---
+status: superseded
+superseded_by: CLAUDE.md
+superseded_date: 2026-07-29
+amnesty_note: >
+  Rule amnesty 2026-07-29 (Farrice-ratified). Activation count 0; review date 3.5 months overdue; its sub-agent VERIFICATION-block template contradicts the ratified dialect law (C4). Live homes: CLAUDE.md Context Engine (tiers) + memory_facade.py (Tier 1.5 loading).
+---
+
 # Agent Loading Protocol
 
 > How expert agents/skills are loaded into context. Balances depth with context efficiency.

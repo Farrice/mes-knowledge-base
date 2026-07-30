@@ -37,6 +37,7 @@ Are real-world claims in this output verified against primary sources? Policies,
 - Any deliverable referencing real-world facts: policies, regulations, prices, dates, names, technical specs, API behavior, legal terms, event schedules, weather data, product features
 - Does NOT fire for: pure creative/strategic output where claims are opinions or frameworks, not verifiable facts
 - When in doubt: it fires. Better to verify something that didn't need it than to skip something that did
+- **Provenance tags** (folded from quality_assurance.md at its 2026-07-29 archival — the one rule there worth keeping): research-bearing deliverables disclose their grounding class — **GROUNDED** (live external research), **SUPPLEMENTED** (research + model knowledge, gaps named), or **PROJECTED** (model knowledge only, must be disclosed as such). Every number carries a source or the PROJECTED label.
 
 ### Quick Diagnostics (from Reflection Pass synthesis)
 
