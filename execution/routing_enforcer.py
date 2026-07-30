@@ -6,8 +6,8 @@ Source of truth for the "Mandatory Workflow Routing" table in CLAUDE.md.
 This module exists because the 2026-04-21 incident proved that routing
 guidance in markdown alone is advisory — Claude can read CLAUDE.md and
 still pick the wrong workflow when the user's conversational ask points
-elsewhere. This module makes the binding deterministic: code-checked,
-not norm-checked.
+elsewhere. Since the Compass Doctrine (2026-07-27) bindings are deterministic
+SUGGESTIONS: code-matched, surfaced as warnings, never blocking.
 
 Two modes:
     1. Pre-flight check (Claude calls before producing):
@@ -45,7 +45,7 @@ ROUTING_LOG = TRACE_DIR / "routing_decisions.jsonl"
 # ─────────────────────────────────────────────────────────
 # MANDATORY BINDINGS — Source of truth for routing enforcement
 # Mirror of CLAUDE.md "Mandatory Workflow Routing" table.
-# Update both together; reference https://example/audit if adding new bindings.
+# Update both together (routing-bindings.md is the human twin of this table).
 # ─────────────────────────────────────────────────────────
 
 BINDINGS = [
@@ -89,130 +89,66 @@ BINDINGS = [
         ),
     },
     {
+        # Amnesty 2026-07-29: signals narrowed 122 -> 53. Bare mood/maintenance
+        # phrases ("not usable", "draining", "handcuff", "check and repair",
+        # "running into walls") misfiled content verdicts and a partnership
+        # complaint as control-plane work. Every surviving phrase names the
+        # harness (hooks/routing/wiring/codex/preflight/orchestration).
         "id": "operator_system_audit",
         "signal_phrases": [
-            "claude code works better",
-            "claude code catches my intent",
-            "not working like claude code",
-            "codex vs claude code",
-            "codex compared to claude code",
-            "match claude code",
-            "mirror claude code",
-            "claude parity",
-            "claude-parity",
-            "blocking hooks",
-            "blocked hooks",
-            "codex is blocking hooks",
-            "wrong defaults",
-            "wrong default",
-            "wrong default routing",
-            "routing wrong defaults",
-            "routing the wrong defaults",
-            "default routing",
-            "default settings",
-            "default setting",
-            "things that are not wired",
-            "not wired",
-            "should not be wired",
-            "shouldn't be wired",
-            "wired together",
-            "not wired together",
-            "should not be wired together",
-            "shouldn't be wired together",
             "hook wiring",
             "route wiring",
             "routing wiring",
             "hooks or routes",
             "hooks and routes",
             "routes and hooks",
-            "handcuffed",
-            "handcuff",
-            "handcuffed and chained",
-            "handcuffed and chained together",
-            "things being chained together",
-            "routes are being handcuffed",
-            "hooks are being handcuffed",
-            "should not be chained",
-            "shouldn't be chained",
-            "full audit or check and repair",
-            "audit or check and repair",
-            "check and repair",
-            "audit and repair",
-            "things that have no business being the default",
-            "things that shouldn't be the default",
-            "thin wrappers",
-            "too many thin wrappers",
-            "specific things blocking performance",
-            "blocking performance",
-            "complete errors and issues",
-            "running into complete errors",
-            "running into walls",
-            "without breaking my workspace",
-            "without breaking claude code",
-            "without breaking my claude code workspace",
-            "not trying to break anything",
-            "pre-flight did not kick in",
-            "pre flight did not kick in",
+            "blocking hooks",
+            "blocked hooks",
+            "hooks not firing",
+            "not firing hooks",
+            "hooks are not firing",
+            "hooks not running",
+            "codex is blocking hooks",
+            "claude parity",
+            "claude-parity",
+            "match claude code",
+            "mirror claude code",
+            "claude code works better",
+            "not working like claude code",
+            "codex vs claude code",
+            "codex compared to claude code",
+            "wrong default routing",
+            "routing wrong defaults",
+            "routing the wrong defaults",
+            "default routing",
+            "not routing even when obvious",
+            "not routing even when it is obvious",
+            "broken harness",
+            "operator core",
+            "control-plane audit",
+            "operating alignment",
+            "codex not working",
+            "codex is not working",
+            "codex feels ineffective",
+            "no point in using codex",
+            "codex not working in my workspace",
+            "codex is not working in my workspace",
+            "preflight didn't kick in",
             "preflight did not kick in",
             "pre-flight didn't kick in",
             "pre flight didn't kick in",
-            "preflight didn't kick in",
-            "pre-flight things did not kick in",
+            "pre-flight did not kick in",
+            "pre flight did not kick in",
             "pre-flight things didn't kick in",
-            "orchestration is not doing its job",
-            "orchestration isn't doing its job",
+            "pre-flight things did not kick in",
+            "things that are not wired",
+            "should not be wired together",
+            "shouldn't be wired together",
+            "routes are being handcuffed",
+            "hooks are being handcuffed",
             "orchestration not doing its job",
-            "wording not routing",
-            "not routing even when obvious",
-            "not routing even when it is obvious",
-            "routing even when obvious",
-            "routing even when it is obvious",
-            "obvious routing",
-            "have to be so deterministic",
-            "too deterministic",
-            "high cognitive intent",
-            "shooting in the dark",
-            "draining",
-            "painful experience",
-            "hooks not firing",
-            "hooks are not firing",
-            "hooks not running",
-            "not firing hooks",
-            "codex feels ineffective",
-            "codex is not working",
-            "codex is not working in my workspace",
-            "codex not working",
-            "codex not working in my workspace",
-            "no point in using codex",
-            "using codex in my workspace",
-            "feels like it is not working",
-            "feels like it's not working",
-            "not working at all",
-            "just not working at all",
-            "context issue",
-            "context issue and not usable",
-            "not usable",
-            "noisy disjointed",
-            "broken harness",
-            "control-plane audit",
-            "operating alignment",
-            "operator core",
-            "execution bias",
-            "safe local next actions",
-            "safe local action",
-            "explains instead of executing",
-            "explain instead of execute",
-            "plans instead of acting",
-            "planning instead of acting",
-            "hands back prompts",
-            "handing back prompts",
-            "prompt instead of execute",
-            "execute what you said",
-            "patch and verify",
-            "parallel agents",
-            "delegate to agents",
-            "spawn subagent",
-            "read-only diagnostic subagents",
+            "orchestration isn't doing its job",
+            "orchestration is not doing its job",
         ],
         "mandatory_workflow": "system-audit",
         "forbidden_workflows": [
@@ -1303,34 +1239,11 @@ def check_routing(request: str, chosen_workflow: str) -> Dict[str, Any]:
         result["binding_matched"] = binding["id"]
         result["matched_signal"] = matched_signal
 
-        # Precondition gate (added 2026-06-09, extraction freeze). A binding
-        # may require a deterministic check to pass BEFORE its workflow runs.
-        # Non-zero exit = routing invalid, with the gate's own message as the
-        # reason. Soft gates document their override in `override_flag`.
-        precondition = binding.get("precondition_cmd")
-        if precondition:
-            applies_to = [_normalize_workflow(w)
-                          for w in binding.get("precondition_applies_to", [])]
-            if not applies_to or chosen_norm in applies_to:
-                try:
-                    proc = subprocess.run(
-                        precondition, capture_output=True, text=True, timeout=30,
-                        cwd=str(Path(__file__).parent.parent),
-                    )
-                    if proc.returncode != 0:
-                        result["valid"] = False
-                        result["violation_reason"] = (
-                            f"Binding '{binding['id']}' precondition failed: "
-                            f"{(proc.stdout or proc.stderr).strip()}"
-                        )
-                        if binding.get("override_flag"):
-                            result["advisory"] = (
-                                f"Override available via {binding['override_flag']}. "
-                                f"{binding.get('override_warning', '')}"
-                            )
-                        return result
-                except Exception:
-                    pass  # a broken precondition never blocks routing
+        # Amnesty 2026-07-29: the precondition_cmd gate (added 2026-06-09 for
+        # the extraction freeze, reversed the same day) was removed — it had
+        # ZERO users for seven weeks and was pre-compass blocking machinery.
+        # Re-adding a precondition requires an explicit new decision from
+        # Farrice, never a revert of this commit.
 
         mandatory = binding.get("mandatory_workflow")
         mandatory_any_of = binding.get("mandatory_workflow_any_of")
@@ -1453,8 +1366,35 @@ def main():
     chk.add_argument("--no-log", action="store_true", help="Validate without writing routing decision traces or memory")
 
     sub.add_parser("list", help="Print all mandatory bindings as JSON")
+    sub.add_parser("appendix", help="Regenerate the generated appendix in directives/routing-bindings.md")
 
     args = parser.parse_args()
+
+    if args.command == "appendix":
+        # Amnesty 2026-07-29: hand-syncing the prose table drifted (RB-01
+        # violated within weeks). The appendix is generated; machine list =
+        # WHAT matches, prose table = WHY.
+        doc = Path(__file__).parent.parent / "directives" / "routing-bindings.md"
+        text = doc.read_text()
+        marker = "## Appendix — machine bindings (GENERATED, do not hand-edit)"
+        head = text.split("\n---\n\n" + marker)[0] if marker in text else text.rstrip() + "\n"
+        lines = [
+            "", "---", "", marker, "",
+            "> Amnesty 2026-07-29: the header rule \"update BINDINGS and this table together\" was",
+            "> violated within weeks (7+ code-only bindings, 7 prose-only rows). Hand-sync drifts;",
+            "> this appendix is generated from `routing_enforcer.BINDINGS` — the machine list is",
+            "> authoritative for WHAT matches; the prose table above is authoritative for WHY.",
+            "> Rows above with no ID here are prose-only guidance (no machine twin) — that is fine.",
+            "> Regenerate: `python3 execution/routing_enforcer.py appendix`.",
+            "", "| Binding ID | Suggested workflow(s) | Signals |", "|---|---|---|",
+        ]
+        for b in BINDINGS:
+            wf = b.get("mandatory_workflow") or " / ".join(b.get("mandatory_workflow_any_of") or [])
+            lines.append(f"| `{b['id']}` | /{wf} | {len(b.get('signal_phrases') or [])} |")
+        lines.append("")
+        doc.write_text(head.rstrip("\n") + "\n" + "\n".join(lines))
+        print(f"appendix regenerated: {len(BINDINGS)} bindings -> {doc}")
+        sys.exit(0)
 
     if args.command == "check":
         result = check_routing(args.request, args.workflow)

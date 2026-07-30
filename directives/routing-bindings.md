@@ -69,3 +69,50 @@ python3 execution/routing_enforcer.py check --request "<user request>" --workflo
 ```
 
 Non-zero exit = violation. `finalize()` also runs a post-hoc check.
+
+---
+
+## Appendix — machine bindings (GENERATED, do not hand-edit)
+
+> Amnesty 2026-07-29: the header rule "update BINDINGS and this table together" was
+> violated within weeks (7+ code-only bindings, 7 prose-only rows). Hand-sync drifts;
+> this appendix is generated from `routing_enforcer.BINDINGS` — the machine list is
+> authoritative for WHAT matches; the prose table above is authoritative for WHY.
+> Rows above with no ID here are prose-only guidance (no machine twin) — that is fine.
+> Regenerate: `python3 execution/routing_enforcer.py appendix`.
+
+| Binding ID | Suggested workflow(s) | Signals |
+|---|---|---|
+| `operator_mission_control` | /mission | 6 |
+| `operator_source_to_skill_system` | /source-to-skill-system | 9 |
+| `operator_system_audit` | /system-audit | 53 |
+| `operator_steering_compass` | /steering-compass | 7 |
+| `operator_expert_composition` | /expert-composition-governor | 6 |
+| `operator_high_taste_output_os` | /high-taste-writing-os / high-taste-os | 70 |
+| `operator_repeatability_spine` | /repeatability-spine | 33 |
+| `parallax_editions` | /parallax | 6 |
+| `linkedin_from_scratch` | /ghostwrite / lara-acosta-linkedin-ghostwriting / high-dwell | 6 |
+| `writers_room_refinement` | /writers-room | 7 |
+| `cold_start_converting_copy` | /copy-engine | 9 |
+| `offer_redteam_gate` | /offer-redteam | 14 |
+| `brand_operating_system` | /build-bos | 11 |
+| `supercomputer_mission` | /supercomputer | 20 |
+| `autopilot_orchestration` | /autopilot | 8 |
+| `vertical_bootstrap` | /verticalize | 20 |
+| `context_engineering` | /ce-design | 14 |
+| `avatar_manifold_coldstart` | /avatar-manifold | 13 |
+| `writing_ward_rhetoric` | /ward-rhetorical-engine | 7 |
+| `lulu_go_direct_comms` | /lulu-m3-matrix | 10 |
+| `writing_albom_theme_first` | /albom-theme-first-engine | 8 |
+| `writing_wang_analytical` | /wang-friction-map | 8 |
+| `writing_connelly_vivid` | /telling-detail-engine | 9 |
+| `writing_ocean_perceptual` | /estrangement-engine | 9 |
+| `writing_browder` | /browder-next-sentence-test | 12 |
+| `writing_orlean` | /orlean-telling-subject | 14 |
+| `writing_shukman` | /shukman-concrete-doorway | 13 |
+| `writing_harding` | /harding-perception-engine | 13 |
+| `writing_how_i_write_os` | /how-i-write | 6 |
+| `farrice_voice_alignment` | /voice-os / voice-ratchet / voice-compile / voice-audit | 12 |
+| `social_listening_apify_first` | /social-listen / social-pulse | 13 |
+| `unified_research` | /deep-research / deep-research-swarm / deep-research-gemini / research-swarm | 10 |
+| `collective_genius` | /convene / collective-genius-council / council / roundtable / strike / campaign / deploy / jcc-deploy / assemble / expert-assembly / panel-sync | 16 |
