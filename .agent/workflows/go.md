@@ -179,9 +179,12 @@ Deliver the output, then close the loop — this is where /go finally learns:
    the session ledger's spawn count) vs `expected_spawns`. A mission that
    promised a fleet and ran single-threaded gets named in one honest line.
 2. **One-tap verdict**: ask Farrice — **good / marginal / off** — one word.
-   Record it in the close line. This is the first human signal /go has ever
-   captured (16/16 prior runs: feedback null); it is what makes any future
-   self-improvement recursive instead of drifty.
+   **The ask is TEMPLATED, not optional (apex W2, 2026-07-29 — capture rate
+   was 2/53, both "good", zero marginal/off ever):** the delivery message's
+   LAST line is verbatim `Verdict on this one — good / marginal / off?` and
+   the close line is not written until his word lands (or he ignores it —
+   then log verdict:null with "unasked" vs "unanswered" distinguished; an
+   unasked verdict is a session defect, an unanswered one is his call).
 3. **Next-Prompts** (canonical order, unchanged): **Deepen** / **Adjacent** /
    **Next milestone** (read `.agent/cos/goals.json`, name the specific active
    goal — never generic). Skip only on explicit terse-mode.

@@ -222,12 +222,14 @@ def auto_register_outcome(
     Non-fatal: any exception is swallowed — revenue tracking is never
     allowed to break the quality gate.
     """
-    REVENUE_TASK_TYPES = {
-        "Content", "Strategy", "Client Work", "Research",
-        "Creative", "Analysis", "Extraction",
-    }
+    # Apex W2 (2026-07-29): Extraction/Research/Analysis REMOVED. Registering
+    # every extraction for a $-check-in produced 190/195 permanent $0 stubs and
+    # 12 perpetually-"overdue" check-ins on system assets — an extraction's
+    # outcome is USAGE (arsenal-index last_fired), not revenue. Only work with
+    # an external recipient carries a revenue clock.
+    REVENUE_TASK_TYPES = {"Content", "Strategy", "Client Work", "Creative"}
     if task_type and task_type not in REVENUE_TASK_TYPES:
-        return {"skipped": True, "reason": f"task_type '{task_type}' not revenue-relevant"}
+        return {"skipped": True, "reason": f"task_type '{task_type}' not revenue-bearing (usage-tracked instead)"}
 
     try:
         data = _load_outcomes()

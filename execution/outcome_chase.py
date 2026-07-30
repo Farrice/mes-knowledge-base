@@ -46,9 +46,14 @@ def _due():
 
 
 def _recent_card_exists(max_age_days: int = 6) -> str:
-    """A chase card in pending/ (any age) or created recently anywhere blocks a new one."""
+    """A chase card in pending/ (any age) or parked recently blocks a new one.
+    Apex W2 fix (2026-07-29): done/ cards no longer block — a COMPLETED chase
+    was strangling the weekly loop (the 07-21 done card, 4.8d old, refused the
+    07-27 run; its log was two lines of refusal while 12 check-ins went stale).
+    The guard exists to prevent duplicate PENDING work, not to rate-limit
+    completed work."""
     now = datetime.now().timestamp()
-    for sub in ("pending", "parked", "done"):
+    for sub in ("pending", "parked"):
         for card in (QUEUE / sub).glob(f"{CARD_PREFIX}*.md"):
             if sub == "pending":
                 return f"pending/{card.name}"

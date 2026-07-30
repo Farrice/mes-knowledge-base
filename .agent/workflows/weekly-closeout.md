@@ -1,5 +1,5 @@
 ---
-description: Weekly outer-loop closure — evolution, revenue outcomes, calibration, core drift (~20 min)
+description: Weekly outer-loop closure — CORE ~10 min weekly (always completes), DEEP pass monthly
 tier: system
 ---
 
@@ -7,9 +7,17 @@ tier: system
 
 Closes the loops that otherwise go stale: evolution cycles, revenue outcome tracking, calibration drift, and Production Core drift. Designed so the deterministic staleness hook (`session_ledger_hook.py prompt`) PROMPTS this — Farrice never has to remember it.
 
-**Cadence**: weekly (Friday, or Monday before `/weekly-pulse`). ~20 minutes. Surfaces only judgment calls; everything mechanical runs automatically.
+> **Apex W2 restructure (2026-07-29):** in 97 days this ritual never once ran
+> end-to-end (0 self-finalized runs in routing_decisions.jsonl) — the old ~20-min
+> spec front-loaded a full system audit and died of weight. Now: **CORE = steps
+> 1→2→3→4→6, ~10 min, ALWAYS completes and self-finalizes.** **DEEP = steps
+> 1.5/5/5.5, monthly or when session-start flags demand — skippable without
+> guilt; the daily launchd jobs already run its mechanical halves.** A completed
+> small ritual beats an abandoned big one.
 
-## Steps
+**Cadence**: CORE weekly (Sunday). DEEP first closeout of the month.
+
+## CORE steps (do all five, in order)
 
 ### 1. Evolution catch-up (~1 min, automatic)
 
@@ -21,7 +29,7 @@ python3 execution/evolution_orchestrator.py status
 
 Report what ran (daily/weekly/monthly) in one line. (The launchd agent `com.antigravity.evolution-auto` also runs this daily at 07:00 — this step is the catch-up + visibility pass.)
 
-### 1.5. System Health Review (~3 min — absorbed /system-pulse + /maintenance, 2026-07-15)
+### 1.5. [DEEP PASS — monthly] System Health Review (absorbed /system-pulse + /maintenance, 2026-07-15)
 
 ```bash
 // turbo
@@ -61,9 +69,11 @@ Never present more than 5. The queue drains at ~5/week; that's the design.
 ```bash
 // turbo
 python3 execution/eval_harness.py calibrate --days 7
+python3 execution/recall_logger.py report --days 7
 ```
 
 If the inflation guardrail fires (scores clustering 8+), show the flag and the worst offender. Otherwise: one line, "calibration clean."
+**Recall grounding** (apex W2, 2026-07-29 — its 90-day evaluation went 87 days unread): one line from the report — fire rate + whether grounded sessions score differently. This IS the overdue evaluation, run weekly now instead of never.
 
 ### 4. Evolution queue (~3 min, one decision)
 
@@ -74,7 +84,7 @@ python3 execution/evolution_orchestrator.py queue
 
 Present the TOP queued item only. Accept → execute it. Reject → log why. Empty queue → skip silently.
 
-### 5. Monthly only (first closeout of each month, ~5 min)
+### 5. [DEEP PASS — monthly] Skill audit + core drift
 
 ```bash
 // turbo
@@ -86,7 +96,7 @@ python3 execution/forge_gate.py status
 - **REVIEW-tier pass**: present up to 5 REVIEW-tier skills for archive judgment (`skill_auditor.py archive --tier REVIEW --names <approved> --annotate --apply`).
 - **Extraction telemetry** (informational only — extractions are never gated): report the last extraction's production-use count from `forge_gate.py status`.
 
-### 5.5. Taste Ratchet (~3 min — Farrice-approved 2026-07-13)
+### 5.5. [DEEP PASS — monthly] Taste Ratchet (Farrice-approved 2026-07-13)
 
 Review new entries in `.agent/jam/taste-ledger.jsonl` since last closeout. For any **dial that has repeated across 2+ jams** (e.g. "natural spoken phrasing over formal," "density-per-beat"), promote it into the Quality Gates of the affected domain's v2 prompts (`skills/<skill>/references/prompts-v2/`) as ONE checkable criterion — then re-run `python3 execution/renaissance_audit.py` + `python3 execution/prompt_library.py build` + `python3 execution/wire_prompt_pointers.py --write`. One-off verdicts stay in the ledger; only repeated taste becomes law. Skip silently if no new entries.
 

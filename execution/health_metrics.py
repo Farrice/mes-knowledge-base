@@ -148,6 +148,25 @@ def collect_metrics(deep: bool = False) -> dict:
         "content_finish_bytes": _file_size(REPO_ROOT / ".agent" / "content-finish-log.jsonl"),
     }
 
+    # Apex W2 (2026-07-29): dead-store consumers — these stores were write-only
+    # (verification_misses: 0 readers ever; mcp-spend: mtime-probed only).
+    # A number in the health snapshot is a reader; a file nobody parses is not.
+    try:
+        vm = REPO_ROOT / "evolution_store" / "verification_misses.jsonl"
+        m["verification_misses_total"] = sum(
+            1 for l in vm.read_text().splitlines() if l.strip()) if vm.exists() else 0
+    except Exception:
+        m["verification_misses_total"] = -1
+    try:
+        cutoff30 = (datetime.now() - timedelta(days=30)).isoformat()
+        sp = REPO_ROOT / ".agent" / "mcp-spend.jsonl"
+        rows = [json.loads(l) for l in sp.read_text().splitlines() if l.strip()] if sp.exists() else []
+        recent = [r for r in rows if str(r.get("ts", r.get("date", ""))) >= cutoff30]
+        m["mcp_calls_30d"] = len(recent)
+        m["mcp_paid_calls_30d"] = sum(1 for r in recent if r.get("paid") or "perplexity" in str(r.get("tool", "")).lower() or "higgsfield" in str(r.get("tool", "")).lower())
+    except Exception:
+        m["mcp_calls_30d"] = -1
+
     # Loop-repair #10 (2026-07-24): steering misses in the last 7 days, so the
     # miss-rate has a trend, not just a byte-size.
     try:
