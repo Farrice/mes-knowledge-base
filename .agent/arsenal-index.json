@@ -387,8 +387,8 @@
    "front_door": "/alan-aragon-nutrition",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-07T21:11:24.678951+00:00",
-   "skill_last_fired": "2026-07-07T21:11:24.678951+00:00",
+   "last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1782934309.1007578
   },
   {
@@ -403,7 +403,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-07T21:11:24.678951+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1782934334.9790006
   },
   {
@@ -418,7 +418,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-07T21:11:24.678951+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1782934363.822382
   },
   {
@@ -2788,7 +2788,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704384.0568604
   },
   {
@@ -2803,7 +2803,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704662.527498
   },
   {
@@ -2818,7 +2818,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704660.5366054
   },
   {
@@ -2833,7 +2833,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704653.00572
   },
   {
@@ -2848,7 +2848,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783703872.6264577
   },
   {
@@ -2863,7 +2863,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704659.1149607
   },
   {
@@ -2878,7 +2878,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704379.5238335
   },
   {
@@ -2893,7 +2893,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704347.1065907
   },
   {
@@ -2908,7 +2908,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783703899.676934
   },
   {
@@ -2923,7 +2923,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704671.431412
   },
   {
@@ -2938,7 +2938,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704653.975068
   },
   {
@@ -2953,7 +2953,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783703883.8686366
   },
   {
@@ -2968,7 +2968,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704656.391484
   },
   {
@@ -2983,7 +2983,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704332.9887023
   },
   {
@@ -2998,7 +2998,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783703873.200208
   },
   {
@@ -3013,7 +3013,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704659.8226502
   },
   {
@@ -3028,7 +3028,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783703858.146272
   },
   {
@@ -3043,7 +3043,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1783704653.235961
   },
   {
@@ -5773,7 +5773,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777644711.9736447
   },
   {
@@ -5788,7 +5788,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777584543.8643734
   },
   {
@@ -5803,7 +5803,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1784445855.1012456
   },
   {
@@ -5818,7 +5818,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1784444209.7491558
   },
   {
@@ -5833,7 +5833,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643183.8418636
   },
   {
@@ -5848,7 +5848,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777644613.7584622
   },
   {
@@ -5863,7 +5863,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777584521.5732613
   },
   {
@@ -5878,7 +5878,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777644611.6956608
   },
   {
@@ -5893,7 +5893,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T07:03:18.628653+00:00",
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777644713.9866505
   },
   {
@@ -5908,7 +5908,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643185.864337
   },
   {
@@ -5923,7 +5923,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643301.8925488
   },
   {
@@ -5938,7 +5938,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T07:48:45.228259+00:00",
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777584499.262716
   },
   {
@@ -5953,7 +5953,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643264.8561673
   },
   {
@@ -5968,7 +5968,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777584589.9673638
   },
   {
@@ -5983,7 +5983,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643150.8687465
   },
   {
@@ -5998,7 +5998,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643344.1248646
   },
   {
@@ -6013,7 +6013,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1784445832.3175356
   },
   {
@@ -6028,7 +6028,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777644553.3754196
   },
   {
@@ -6043,7 +6043,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1784444244.042769
   },
   {
@@ -6058,7 +6058,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T07:03:16.682154+00:00",
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777643346.1312354
   },
   {
@@ -6073,7 +6073,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1784445808.471428
   },
   {
@@ -6088,7 +6088,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1777584541.8419755
   },
   {
@@ -6103,7 +6103,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1784444278.1097698
   },
   {
@@ -11158,7 +11158,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "skill_last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1782938197.5219254
   },
   {
@@ -11173,7 +11173,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "skill_last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1782938227.0523024
   },
   {
@@ -11188,7 +11188,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "skill_last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1782938253.5257404
   },
   {
@@ -11203,7 +11203,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1785298805.4516037
   },
   {
@@ -11218,7 +11218,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1785298805.4517248
   },
   {
@@ -11233,7 +11233,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1785298805.4519603
   },
   {
@@ -11758,7 +11758,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "skill_last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1784355269.4756355
   },
   {
@@ -11773,7 +11773,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "skill_last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1784355284.6271334
   },
   {
@@ -11788,7 +11788,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "skill_last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1784355299.8561795
   },
   {
@@ -17053,7 +17053,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": "2026-07-19T18:09:49.700790+00:00",
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784484531.2987645
   },
   {
@@ -17068,7 +17068,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784480223.0363138
   },
   {
@@ -17083,7 +17083,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784485042.0071905
   },
   {
@@ -17098,7 +17098,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781820765.6528707
   },
   {
@@ -17113,7 +17113,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784004183.0543728
   },
   {
@@ -17128,7 +17128,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": "2026-07-14T05:56:52.771038+00:00",
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781821388.2572873
   },
   {
@@ -17143,7 +17143,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781821036.0485291
   },
   {
@@ -17158,7 +17158,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784004183.0552092
   },
   {
@@ -17173,7 +17173,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784004183.055417
   },
   {
@@ -17188,7 +17188,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781820753.6650774
   },
   {
@@ -17203,7 +17203,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781821410.1001353
   },
   {
@@ -17218,7 +17218,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784004183.0558386
   },
   {
@@ -17233,7 +17233,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781820660.210249
   },
   {
@@ -17248,7 +17248,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1784004183.0562353
   },
   {
@@ -17263,7 +17263,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781821083.1659153
   },
   {
@@ -17278,7 +17278,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781821081.2942357
   },
   {
@@ -17293,7 +17293,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1781820665.542896
   },
   {
@@ -18643,7 +18643,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1784340312.7998366
   },
   {
@@ -18658,7 +18658,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1784340312.8006947
   },
   {
@@ -18672,8 +18672,8 @@
    "front_door": "/lara-acosta-linkedin-mastery",
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
-   "last_fired": "2026-07-27T23:21:29.624633+00:00",
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1784340312.8046374
   },
   {
@@ -18688,7 +18688,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1784340312.805109
   },
   {
@@ -18703,7 +18703,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1784340312.8056276
   },
   {
@@ -19663,7 +19663,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1773947745.5898051
   },
   {
@@ -19678,7 +19678,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1782939136.833504
   },
   {
@@ -19693,7 +19693,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1775779996.9307868
   },
   {
@@ -19708,7 +19708,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1782939101.0345132
   },
   {
@@ -19723,7 +19723,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1773947745.5909095
   },
   {
@@ -19738,7 +19738,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1773947745.5914772
   },
   {
@@ -19753,7 +19753,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1773947745.5918765
   },
   {
@@ -29473,7 +29473,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918030.6269455
   },
   {
@@ -29488,7 +29488,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918047.09789
   },
   {
@@ -29503,7 +29503,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918039.101043
   },
   {
@@ -29518,7 +29518,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918036.1213138
   },
   {
@@ -29533,7 +29533,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918046.0258777
   },
   {
@@ -29548,7 +29548,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918040.6483846
   },
   {
@@ -29563,7 +29563,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918034.4274929
   },
   {
@@ -29578,7 +29578,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918043.810048
   },
   {
@@ -29593,7 +29593,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918042.1398551
   },
   {
@@ -29608,7 +29608,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918029.222569
   },
   {
@@ -29623,7 +29623,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918037.5950603
   },
   {
@@ -29638,7 +29638,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1784918032.5798678
   },
   {
@@ -31437,8 +31437,8 @@
    "front_door": "/sean-dollwet-kdp-publishing",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-29T07:50:46.611633+00:00",
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "last_fired": "2026-07-29T22:45:04.263804+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005714.8241227
   },
   {
@@ -31453,7 +31453,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005769.1458726
   },
   {
@@ -31468,7 +31468,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005820.0359747
   },
   {
@@ -31483,7 +31483,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005883.2049608
   },
   {
@@ -31498,7 +31498,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005764.4687908
   },
   {
@@ -31513,7 +31513,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005822.1757634
   },
   {
@@ -31528,7 +31528,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005882.265507
   },
   {
@@ -31543,7 +31543,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005933.8835862
   },
   {
@@ -31558,7 +31558,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005797.4422057
   },
   {
@@ -31573,7 +31573,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "skill_last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1784005869.553288
   },
   {
@@ -32113,7 +32113,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402189.9657896
   },
   {
@@ -32128,7 +32128,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402219.0139515
   },
   {
@@ -32143,7 +32143,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402166.5683584
   },
   {
@@ -32158,7 +32158,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402240.2746553
   },
   {
@@ -32173,7 +32173,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402266.9433484
   },
   {
@@ -32188,7 +32188,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402289.135565
   },
   {
@@ -32203,7 +32203,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402313.0057654
   },
   {
@@ -32218,7 +32218,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402332.1824293
   },
   {
@@ -32233,7 +32233,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402365.933948
   },
   {
@@ -32248,7 +32248,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784402388.7849412
   },
   {
@@ -34348,7 +34348,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784403672.5473769
   },
   {
@@ -34363,7 +34363,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784403683.08997
   },
   {
@@ -34378,7 +34378,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784403693.4663608
   },
   {
@@ -34393,7 +34393,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
+   "skill_last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1784403661.1475992
   },
   {
@@ -43960,7 +43960,7 @@
    "front_door": "/create",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-06T16:54:10.914032+00:00",
+   "last_fired": "2026-07-29T22:56:12.503878+00:00",
    "mtime": 1785299203.5442839
   },
   {
@@ -49278,7 +49278,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": "2026-07-29T22:35:51.872942+00:00",
-   "mtime": 1784688857.4491215
+   "mtime": 1785387091.5901043
   },
   {
    "id": "godin-ai-permission",
@@ -60227,6 +60227,19 @@
    "mtime": 1785006847.3403683
   },
   {
+   "id": "park",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/park.md",
+   "description": "Park an open mission deliberately \u2014 stopped line + resumable handoff in one move; parking is a good outcome, not a failure",
+   "menu_status": "reachable",
+   "front_door": "/park",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785381519.0844378
+  },
+  {
    "id": "parr-ad-rewrite",
    "kind": "command-workflow",
    "skill": null,
@@ -67412,7 +67425,7 @@
    "front_door": "/supercomputer",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-29T22:44:39.766579+00:00",
+   "last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1783644299.560532
   },
   {
@@ -70345,13 +70358,13 @@
    "kind": "command-workflow",
    "skill": null,
    "path": ".agent/workflows/weekly-closeout.md",
-   "description": "Weekly outer-loop closure \u2014 evolution, revenue outcomes, calibration, core drift (~20 min)",
+   "description": "Weekly outer-loop closure \u2014 CORE ~10 min weekly (always completes), DEEP pass monthly",
    "menu_status": "reachable",
    "front_door": "/weekly-closeout",
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785298254.7895527
+   "mtime": 1785387081.489788
   },
   {
    "id": "weekly-pulse",
@@ -71096,7 +71109,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-07T21:11:24.678951+00:00",
+   "last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1785250296.663941
   },
   {
@@ -71432,7 +71445,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 18,
-   "last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1785250296.672786
   },
   {
@@ -71894,7 +71907,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 23,
-   "last_fired": "2026-07-29T18:36:01.829819+00:00",
+   "last_fired": "2026-07-30T06:48:53.175976+00:00",
    "mtime": 1785250296.6875904
   },
   {
@@ -72608,7 +72621,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1785250296.7002225
   },
   {
@@ -72622,7 +72635,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1785298805.449236
   },
   {
@@ -72748,7 +72761,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-26T15:43:00.045696+00:00",
+   "last_fired": "2026-07-30T04:56:40.528825+00:00",
    "mtime": 1785250296.7034838
   },
   {
@@ -73378,7 +73391,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 17,
-   "last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "last_fired": "2026-07-30T06:45:02.906976+00:00",
    "mtime": 1785250296.7145698
   },
   {
@@ -73602,7 +73615,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 5,
-   "last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "last_fired": "2026-07-30T02:15:17.096032+00:00",
    "mtime": 1785250296.7168517
   },
   {
@@ -73770,7 +73783,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 7,
-   "last_fired": "2026-07-27T21:34:02.412448+00:00",
+   "last_fired": "2026-07-30T05:04:29.729808+00:00",
    "mtime": 1785250296.719725
   },
   {
@@ -75240,7 +75253,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 12,
-   "last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "last_fired": "2026-07-30T06:32:44.504561+00:00",
    "mtime": 1785250296.7523305
   },
   {
@@ -75464,7 +75477,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 10,
-   "last_fired": "2026-07-29T07:50:46.611633+00:00",
+   "last_fired": "2026-07-29T22:45:04.263804+00:00",
    "mtime": 1785250296.7553053
   },
   {
@@ -75576,7 +75589,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 10,
-   "last_fired": "2026-07-27T15:43:49.205169+00:00",
+   "last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1785250296.7566977
   },
   {
@@ -75898,7 +75911,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 4,
-   "last_fired": "2026-07-29T22:44:39.766579+00:00",
+   "last_fired": "2026-07-30T00:33:30.172700+00:00",
    "mtime": 1785250296.760257
   },
   {
@@ -79340,7 +79353,7 @@
   }
  ],
  "fingerprint": [
-  8926,
-  1785299221.429
+  8928,
+  1785394365.141
  ]
 }
