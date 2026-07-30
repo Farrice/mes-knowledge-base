@@ -157,7 +157,6 @@
 | Run my daily 2-min briefing or weekly board session | [Chief of Staff OS](2026-07-13-chief-of-staff-os.md) |
 | Throw a tangled thought at the system at any hour (/dump) | [Chief of Staff OS](2026-07-13-chief-of-staff-os.md) |
 
----
 
 ## Chronology
 
@@ -208,7 +207,6 @@
 - 2026-06-10 — [Meg Heckman Buyer-Trigger OS](2026-06-10-meg-heckman-buyer-trigger-os.md) — 13 commands, 6 triggers: the product is the conversion
 - 2026-06-09 — [Noah Hawley Extraction](2026-06-09-noah-hawley-extraction.md) — showrunner architecture layer: theme-first, ending-first, above the roster
 
----
 
 ## Standing manuals (not session-bound)
 
@@ -218,7 +216,6 @@
 - [docs/antigravity-system-guide.md](../docs/antigravity-system-guide.md) — system architecture guide
 - Stanton deep guides: `skills/andrew-stanton-audience-engineering/USER-GUIDE.md` + `OPERATORS-GUIDE.md` (entry point: the Stanton session guide above)
 
----
 
 ## Pending enrichment
 - [2026-07-29 — Linkedin Launch — Campaign](2026-07-29-.md) — operator-guide stub, needs enrichment
