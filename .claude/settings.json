@@ -189,6 +189,11 @@
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/pulse_dashboard.py\" --open --alarm",
             "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/voice_ratchet.py\" nudge",
+            "timeout": 10
           }
         ]
       }

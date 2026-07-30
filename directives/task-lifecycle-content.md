@@ -11,6 +11,7 @@ Input: Scored intent (Chain Steps 0-3 done: posture, score, route, load)
 1. **Produce in the expert frame.** Expert context loaded at the Context Engine tier the task warrants. Never produce expert-domain output without the expert loaded.
 
 2. **Slop check (deterministic).** `python3 execution/prose_classifier.py check <file>` on the draft. Fails → one rewrite of the flagged sections, re-check. Cap: 1.
+   **Voice-bearing drafts (Farrice's own voice) also run** `python3 execution/voice_evaluator.py check <file>` (apex W2, 2026-07-29) — the felt-verdict loop closure: tell-classes with log citations + the LIVE BAR of his most recent FAIL/RULE verdicts read straight from calibration-log.md, so every new verdict strengthens the check with zero re-minting. The pen reads the live bar BEFORE drafting, not after. Nudge, never gate.
 
 2.5. **Reader Contract (judgment, Farrice 2026-07-22 — three felt verdicts from the Week-1 launch posts, banked in the taste ledger).** Before verification, answer three yes/no questions about the draft; any "no" → one revision pass (rides the same cap discipline):
    - **Payoff**: does the reader leave with a usable move, or only with my story? Vulnerability without a reader payoff reads as a journal entry ("sorry for myself at the end" vs "the reader is better off for reading").

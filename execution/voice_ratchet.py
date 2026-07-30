@@ -204,6 +204,23 @@ def cmd_mark_compiled(_args) -> int:
     return 0
 
 
+def cmd_nudge(args) -> int:
+    """Apex W2 (2026-07-29): the ratchet's own >=5 recompile threshold existed
+    with no trigger — 16 rows sat pending while the pen briefed from a stale
+    card. House style: silent when healthy, one line when not, exit 0 always."""
+    try:
+        state = _load_state()
+        pending = len(read_rows()) - int(state.get("entries_at_compile", 0))
+        if pending >= 5:
+            print(f"VOICE RATCHET: {pending} felt verdicts pending compile — "
+                  "run /voice-compile before the next pen session "
+                  "(a stale card briefs the pen against an old bar).")
+    except Exception as e:
+        # never break SessionStart, but never hide the break either (W0.1 scar)
+        print(f"VOICE RATCHET nudge error (non-blocking): {type(e).__name__}: {e}")
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Voice OS calibration-log ratchet")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -220,6 +237,9 @@ def main() -> int:
 
     pc = sub.add_parser("mark-compiled", help="Record the current entry count as the compile point")
     pc.set_defaults(func=cmd_mark_compiled)
+
+    pn = sub.add_parser("nudge", help="One line if >=5 verdicts pending compile; silent otherwise (SessionStart-safe)")
+    pn.set_defaults(func=cmd_nudge)
 
     args = parser.parse_args()
     return args.func(args)

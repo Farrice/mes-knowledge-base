@@ -202,7 +202,13 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 - **Heat rule: contempt in the nouns, not the volume.** *"Fillers, fairy-dust doses, the label does all the work"* — approved callouts, delivered in short cuts. *"They should punch and cut and do what they need to do simply and directly without losing any emotional energy."* No grandizing, no over-explanation, and no flattening either — quiet defiance is not the same as limp.
 - **Memoir stays front-facing.** The lived material exists to prove he can solve the reader's problem — *"not become just a sap story or journal-about section."* Every scene must ladder to the founder's situation (matches the 2026-07-22 reader-payoff verdict).
 
-*New verdicts land in `calibration-log.md` via `/voice-ratchet` (`execution/voice_ratchet.py add`); `/voice-compile` folds the strongest into this section. Format: date | verdict | line | why | source.*
+**The v3 profile-copy lesson (2026-07-29, entries 31–38 — the largest FAIL in the log's history):**
+- FAIL: all 8 blocks of profile-copy v3 at 4/10 — *"nowhere near as good as the About takes. I would not post it."* Root cause: **briefed from a BAN LIST, not an architecture.** The pen dodged every named tell ("room", grand nouns) and reintroduced the architectural failure that killed About v10–v14: confession-I spine, zero reader-turns, "why should the inbound lead care" never asked. **A ban list can only make copy less wrong; only intent makes it land.** Every rendition brief carries the reader-architecture ruling or it is optimizing against the last complaint.
+- FAIL class (07-29 morning): grand-noun labeling — *"The work usually starts the same way" / "That's where the expertise comes from" / "the exact distance between."* Naming things as grand nouns reads over-aggrandizing, false prestige. Sudden-plain-confident is the register: clear, simple, powerful.
+- STRUCTURAL RULE: **LinkedIn Experience slots are résumé fields, not About canvases.** Take A's 2,600-char scene→turn arc does not fit in ~200 words under a job title; the mechanism there is ONE reader-turn per entry. Design decision, not a pen decision.
+- Register, his verbatim bar: *"silent confidence and swag with wit and humor."* Clear beats clever.
+
+*New verdicts land in `calibration-log.md` via `/voice-ratchet` (`execution/voice_ratchet.py add`); `/voice-compile` folds the strongest into this section. Format: date | verdict | line | why | source. Programmatic consumer (apex W2, 2026-07-29): `execution/voice_evaluator.py check <file>` reads the log live — the loop-closure `hg-verdict-to-evaluator` specified.*
 
 ## §7 THE DIAL (voice fidelity modes)
 
