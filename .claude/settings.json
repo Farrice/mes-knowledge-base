@@ -184,6 +184,11 @@
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/campaign_beacon.py\""
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/pulse_dashboard.py\" --open --alarm",
+            "timeout": 15
           }
         ]
       }

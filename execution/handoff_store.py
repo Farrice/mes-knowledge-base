@@ -411,7 +411,14 @@ def cmd_list(args) -> int:
         for i, m in enumerate(pool, 1):
             print(f"{i}. {m['thread']}  ({m['date']})")
         return 0
-    print(f"Resume a thread (newest first, {len(pool)}{' incl. archived/done' if args.all else ' live'}):\n")
+    # Apex W1 (2026-07-29): deliberately-parked work (blocked/mid-build) sorts
+    # to the top of the rich menu — a parked thread is a promise to resume,
+    # not an archive entry; date-only sort buried it among 166 threads.
+    _parked = ("blocked", "mid-build")
+    pool.sort(key=lambda m: (m.get("status") not in _parked,
+                             not m.get("pin"), m.get("date", "")), reverse=False)
+    pool.sort(key=lambda m: m.get("status") in _parked, reverse=True)
+    print(f"Resume a thread (parked first, then newest, {len(pool)}{' incl. archived/done' if args.all else ' live'}):\n")
     for i, m in enumerate(pool, 1):
         pin = " 📌" if m["pin"] else ""
         stale = " · STALE" if _stale(m["date"]) else ""

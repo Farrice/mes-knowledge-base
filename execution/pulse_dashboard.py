@@ -11,6 +11,7 @@ import html
 import json
 import os
 import subprocess
+import sys
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -42,7 +43,59 @@ def pill(status):
     return f'<span class="pill {cls}">{esc(status)}</span>'
 
 
+def open_missions():
+    """The open set — latest state per mission, keyed on slug (falls back to
+    title). Apex W1 (2026-07-29): this calc existed only inside the HTML
+    generator while 41 missions sat open unseen; now it's callable.
+    Title-keying alone double-counted whitespace-variant titles."""
+    missions = jsonl(os.path.join(ROOT, ".agent", "missions.jsonl"))
+    latest = {}
+    for m in missions:
+        key = m.get("slug") or " ".join((m.get("mission") or "?").split())
+        latest[key] = m
+    out = []
+    for key, m in latest.items():
+        if m.get("status") in ("compiled", "running"):
+            age_days = None
+            try:
+                ts = m.get("ts", "")
+                age_days = max(0, int((time.time() - time.mktime(
+                    time.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S"))) // 86400))
+            except Exception:
+                pass
+            out.append({"key": key, "age_days": age_days,
+                        "serves": m.get("serves") or "?",
+                        "title": (m.get("mission") or key)[:90]})
+    out.sort(key=lambda r: -(r["age_days"] if r["age_days"] is not None else 0))
+    return out
+
+
+def cmd_open(alarm: bool) -> int:
+    """Plain-text open-mission surface. House style (pending_decisions_hook):
+    silent when healthy, one actionable line per item, exit 0 always.
+    --alarm: print only when >=3 open or any open >7d (Farrice's finisher
+    threshold, ruled 2026-07-29)."""
+    rows = open_missions()
+    stale = [r for r in rows if (r["age_days"] or 0) > 7]
+    if alarm and len(rows) < 3 and not stale:
+        return 0
+    if not rows:
+        if not alarm:
+            print("OPEN MISSIONS: none — the log is clean.")
+        return 0
+    print(f"OPEN MISSIONS ({len(rows)} — finisher rule: at 3+, finish or /park one "
+          "before opening another; never a block):")
+    for r in rows[:10]:
+        age = f"{r['age_days']}d" if r["age_days"] is not None else "?"
+        print(f"  ⚠ {age:>4}  {r['title']}  (serves: {r['serves']})")
+    if len(rows) > 10:
+        print(f"  … +{len(rows) - 10} more — python3 execution/pulse_dashboard.py --open")
+    return 0
+
+
 def main():
+    if "--open" in sys.argv:
+        raise SystemExit(cmd_open(alarm="--alarm" in sys.argv))
     now = time.strftime("%Y-%m-%d %H:%M")
     missions = jsonl(os.path.join(ROOT, ".agent", "missions.jsonl"))
     # latest state per mission

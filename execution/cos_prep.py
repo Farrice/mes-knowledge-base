@@ -1131,6 +1131,18 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     state["nudge_line"] = compose_nudge(state, questions, revenue_due, weekly_due, weekly_overdue)
     state["nudge_date"] = today
     state["last_prep"] = datetime.now().isoformat(timespec="seconds")
+    # Apex W1 (2026-07-29): the COS gets debt numbers, not just cadence —
+    # open missions + stale handoffs were structurally invisible to it.
+    try:
+        from pulse_dashboard import open_missions as _om
+        state["open_missions"] = len(_om())
+    except Exception:
+        pass
+    try:
+        from handoff_store import threads as _threads, _stale as _hs_stale
+        state["stale_handoffs"] = sum(1 for m in _threads() if _hs_stale(m.get("date", "")))
+    except Exception:
+        pass
     save_state(state)
     print(f"Brief written: {brief_path}")
     return 0

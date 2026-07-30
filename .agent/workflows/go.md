@@ -17,14 +17,24 @@ orphan missions never closed. v3 fixes are mechanical, not aspirational.
 
 ## Stage -1 — CONTINUITY CHECK (before anything)
 
-Read the tail of `.agent/missions.jsonl`. If a mission from THIS session is
-open (`compiled`/`running` with no matching `done|stopped`), present it in one
-line and ask: **continue / adjust / new**. Continue = reload its contract
-(`.agent/missions/<slug>/contract.json`) and resume at the right stage —
-never recompile from scratch. `mission_control.py context` is the deeper
-state read when the mission has a mission-control dir. Only an explicit
-"new" starts a fresh compile (the open mission gets a `stopped` line with a
-one-word reason).
+Run the real engine — never re-read the log by eye (apex W1, 2026-07-29: the
+prose version scoped to "this session" and 41 cross-session missions sat open
+unseen, 17 of them for 10-16 days):
+
+```bash
+python3 execution/pulse_dashboard.py --open
+```
+
+If the compiled intent matches an OPEN mission, present it in one line and ask:
+**continue / adjust / park / new**. Continue = reload its contract
+(`.agent/missions/<slug>/contract.json`) and resume at the right stage — never
+recompile from scratch. **Park = run `/park <slug> "<reason>"`** — a first-class
+close that writes the stopped line AND a resumable handoff (spec:
+`.agent/workflows/park.md`); parking is a good outcome, not a failure.
+
+**Finisher rule (Farrice, 2026-07-29): at 3+ open missions, the card asks him
+to finish or park one before compiling a new one — one line, never a block,
+"open it anyway" always works.** Only an explicit "new" starts a fresh compile.
 
 ## Stage 0 — MISSION COMPILE (engine-backed, silent)
 
@@ -43,6 +53,12 @@ one-word reason).
 3. **Goal spine**: read `.agent/cos/goals.json` — name the goal served.
    No match = `ORPHAN ⚑` (one line, compass never cage). Surface an active
    SPRINT when one exists.
+   **Revenue-first (standing rule, Farrice 2026-07-29):** run
+   `python3 execution/hooks/campaign_beacon.py`. If it shows open campaign
+   missions AND this mission's `serves` is ORPHAN or ≠ the campaign goal,
+   print one line above the card: `⚠ CAMPAIGN OPEN: #<n> <title> — this
+   mission serves <x> instead. Confirm system work ahead of the campaign.`
+   His approval at Stage 0.5 IS the answer; never block.
 4. **Felt standard** (raw-intent-bridge Stage 0 discipline, kept from v2):
    when the dump carries vision language ("I want it to feel like…"), quote
    it VERBATIM in the card. The Intent line routes; the vision words are the
