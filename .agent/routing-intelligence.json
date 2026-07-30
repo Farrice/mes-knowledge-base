@@ -16,7 +16,7 @@
                 "extract-mastery": 3,
                 "Research": 19,
                 "luke-iha-vsl-leads": 7,
-                "sean-dollwet-kdp-publishing": 2,
+                "sean-dollwet-kdp-publishing": 3,
                 "paul-james-ai-automation": 1,
                 "voice-os": 11,
                 "joey-cinema-os": 5,
@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 64,
+                "Content": 65,
                 "writing-depth-layer": 3,
                 "Analysis": 10,
                 "seena-rez-tiktok-commerce": 2,
@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 13,
                 "how-i-write-os": 12,
-                "supercomputer": 52,
+                "supercomputer": 55,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 9,
@@ -116,9 +116,9 @@
                 "packy-mccormick-writing": 1,
                 "matthew-volkwyn-copywriting": 1
             },
-            "total_routings": 718,
+            "total_routings": 723,
             "tier_counts": {
-                "0": 718,
+                "0": 723,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -128,8 +128,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 425,
-                "finalize-auto": 293
+                "hybrid": 429,
+                "finalize-auto": 294
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -150,7 +150,7 @@
                 "David Placek": 1,
                 "mcp-builder": 1,
                 "gpt-image-2-director": 17,
-                "seth-godin-brand": 6,
+                "seth-godin-brand": 7,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 4,
                 "david-placek-naming": 8,
@@ -173,7 +173,7 @@
                 "cooz-voice-profile": 3,
                 "none": 12,
                 "market-intelligence": 1,
-                "nate-b-jones-context-engineering": 53,
+                "nate-b-jones-context-engineering": 55,
                 "nicolas-cole": 2,
                 "omar-eltakrori": 1,
                 "josh-kaufman-business-fundamentals": 1,
@@ -202,7 +202,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 68,
+                "doc-coauthoring": 70,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 27,
@@ -269,7 +269,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 16,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 65,
+                "supercomputer": 68,
                 "design-md": 23,
                 "alex-content-science": 6,
                 "system-audit": 24,
@@ -298,7 +298,7 @@
                 "lamott-craft": 3,
                 "lara-acosta-linkedin-mastery": 5,
                 "extract-mastery": 4,
-                "sean-dollwet-kdp-publishing": 10,
+                "sean-dollwet-kdp-publishing": 11,
                 "dara-denney": 5,
                 "john-whiting": 2,
                 "synthesis-engine": 1,
@@ -381,7 +381,7 @@
                 "oren-luxury-psychology": 2,
                 "swarm": 1,
                 "swarm: deep-research + competitive-intel + icp-deep-canvasser + fact-verifier": 1,
-                "ben-watkins-storytelling": 17,
+                "ben-watkins-storytelling": 18,
                 "meg-heckman": 1,
                 "matthew-lakajev": 1,
                 "coaching-business-os": 1,
@@ -421,12 +421,13 @@
                 "adversarial-reviewer": 1,
                 "assembly": 1,
                 "alex-copper-creative-strategy": 1,
-                "michael-bernoff-identity-engineering": 1
+                "michael-bernoff-identity-engineering": 1,
+                "John Whiting + teardown source": 1
             },
-            "total_feedback": 94,
+            "total_feedback": 95,
             "negative_count": 0,
-            "ensemble_count": 530,
-            "auto_miss_count": 75,
+            "ensemble_count": 533,
+            "auto_miss_count": 76,
             "positive_count": 0
         }
     },
@@ -1267,6 +1268,15 @@
             "rating": "auto_miss",
             "correction": "boris-claude-code",
             "notes": "expert skill 'boris-claude-code' loaded not matching suggestion ['riley-brown-marketing-automation', 'chief-of-staff-os', 'mike-taylor-synthetic-research']"
+        },
+        {
+            "feedback_id": "fb_20260729_225243_8443",
+            "timestamp": "2026-07-29T22:52:43.754571+00:00",
+            "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6",
+            "routing_id": "rt_20260729_224504_c344",
+            "rating": "auto_miss",
+            "correction": "john-whiting-propaganda-machine",
+            "notes": "expert skill 'john-whiting-propaganda-machine' loaded not matching suggestion ['sean-dollwet-kdp-publishing']"
         }
     ],
     "routing_decisions": [
@@ -14312,6 +14322,97 @@
             "workflow_used": "go",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260729_224438_8a82",
+            "timestamp": "2026-07-29T22:44:38.731825+00:00",
+            "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260729_224439_cbb0",
+            "timestamp": "2026-07-29T22:44:39.766579+00:00",
+            "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260729_224504_c344",
+            "timestamp": "2026-07-29T22:45:04.263804+00:00",
+            "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6",
+            "request_summary": "can you try to get me out of it again? I can't read it at all in the window right now. My first message is eating up 90% of the screen!",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": "fb_20260729_225243_8443"
+        },
+        {
+            "routing_id": "rt_20260729_225612_14e7",
+            "timestamp": "2026-07-29T22:56:12.503878+00:00",
+            "session_id": "",
+            "request_summary": "Mission 4: 10-slide LinkedIn carousel from Transparent Labs teardown. All copy sourced from teardown sections 1-7 and verbatim customer reviews. Slides built using jw-engine (propaganda machine) patte",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "John Whiting + teardown source"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "create",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260730_003330_b295",
+            "timestamp": "2026-07-30T00:33:30.172700+00:00",
+            "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6",
+            "request_summary": "the vitamin shoppe is called the vitamin shoppe thats the name of business and brand I worked that. Is it not possible for you to do research for verification when I give you raw data dumps or raw ins",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "seth-godin-brand",
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + seth-godin-brand + ben-watkins-storytelling",
             "feedback": null
         }
     ]

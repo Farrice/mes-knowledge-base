@@ -23563,7 +23563,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784342406.9245124
   },
   {
@@ -23578,7 +23578,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784342406.924971
   },
   {
@@ -23593,7 +23593,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784342406.925357
   },
   {
@@ -23608,7 +23608,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784342406.925752
   },
   {
@@ -23623,7 +23623,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784342406.9261174
   },
   {
@@ -23638,7 +23638,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784342406.9265597
   },
   {
@@ -34348,7 +34348,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784403672.5473769
   },
   {
@@ -34363,7 +34363,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784403683.08997
   },
   {
@@ -34378,7 +34378,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784403693.4663608
   },
   {
@@ -34393,7 +34393,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "skill_last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1784403661.1475992
   },
   {
@@ -36163,7 +36163,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-23T14:39:51.879816+00:00",
+   "skill_last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1784342046.5753825
   },
   {
@@ -36178,7 +36178,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-23T14:39:51.879816+00:00",
+   "skill_last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1784342046.5756705
   },
   {
@@ -36192,8 +36192,8 @@
    "front_door": "/voice-os",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-23T14:39:51.879816+00:00",
-   "skill_last_fired": "2026-07-23T14:39:51.879816+00:00",
+   "last_fired": "2026-07-29T22:35:51.872942+00:00",
+   "skill_last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1784342046.5759344
   },
   {
@@ -36208,7 +36208,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-23T14:39:51.879816+00:00",
+   "skill_last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1784342046.5761955
   },
   {
@@ -49277,7 +49277,7 @@
    "front_door": "/go",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-29T02:42:26.759363+00:00",
+   "last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1784688857.4491215
   },
   {
@@ -67412,7 +67412,7 @@
    "front_door": "/supercomputer",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1783644299.560532
   },
   {
@@ -69765,7 +69765,7 @@
    "front_door": "/voice-os",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-23T14:39:51.879816+00:00",
+   "last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1783481165.2856245
   },
   {
@@ -72300,7 +72300,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1785250296.6942456
   },
   {
@@ -74372,7 +74372,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 6,
-   "last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1785250296.7399764
   },
   {
@@ -75898,7 +75898,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 4,
-   "last_fired": "2026-07-29T22:23:42.822117+00:00",
+   "last_fired": "2026-07-29T22:44:39.766579+00:00",
    "mtime": 1785250296.760257
   },
   {
@@ -76192,7 +76192,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 4,
-   "last_fired": "2026-07-23T14:39:51.879816+00:00",
+   "last_fired": "2026-07-29T22:35:51.872942+00:00",
    "mtime": 1785250296.7636786
   },
   {

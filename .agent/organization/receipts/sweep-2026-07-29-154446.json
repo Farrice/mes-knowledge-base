@@ -1,0 +1,33 @@
+{
+  "auto_moved": 0,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/concept-brief.md",
+      "project": "disney-crowd-app",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
+      "project": "farrice-brand",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/jen-santulan/state.yaml",
+      "project": "jen-santulan",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-12-agentic-os-elevation-brief.md",
+      "project": "system-integration",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/andrea-dj/state.yaml",
+      "project": "andrea-dj",
+      "reason": "pinned/control referrer"
+    }
+  ],
+  "projects_touched": [],
+  "since_minutes": 1440,
+  "swept_at": "2026-07-29T22:44:46+00:00"
+}

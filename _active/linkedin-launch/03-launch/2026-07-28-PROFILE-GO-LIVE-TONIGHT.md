@@ -115,7 +115,31 @@ Description: I don't build the ads, run the account, or write your calendar. You
 ```
 *Thumbnail prompt:* `Editorial card, 1200x627, warm off-white paper, two-column dark ink serif text, left column header "What I do", right column header "What I don't", thin vertical rule between, minimal print aesthetic, no images.`
 
-## 8. EXPERIENCE (three entries, newest first — paste-ready)
+## 8. EXPERIENCE (three entries — ⛔ NOT paste-ready, see warning)
+
+> **⛔ DO NOT PASTE §8. The prose below is rendition v2, REJECTED by Farrice 2026-07-29** — it carries the
+> grand-noun tells he FAILed by name ("That's where the expertise comes from", "the exact distance between",
+> "The work usually starts the same way"). v3 was also rejected (all blocks 4/10). Spiral brake armed: no
+> rendition 4 until Farrice's voice-dump is on disk. See `2026-07-29-profile-copy-v3-PENDING-VERDICT.md`.
+> **§1–§7 and §9–§14 are unaffected.** The About (§6) and headline (§4) are LOCKED and good.
+>
+> **VERIFIED FACTS for the rebuild (researched 2026-07-29, do not re-ask Farrice):**
+> - **The counter = The Vitamin Shoppe** (Farrice, 2026-07-29). The company's own in-store associate title is
+>   **Health Enthusiast™** — trademarked, verifiable on their job postings. Use the real title, not
+>   "Retail Sales Associate": it is both accurate and better copy than any invented label.
+> - **Equinox tier vocabulary** (verified): tiers run 1 → 2 → 3 → 3+, then **Tier X** as the pinnacle; Tier X
+>   requires ~3+ years and the deepest EFTI credentialing. So "top tier" has a real name. Which tier Farrice
+>   actually held is still his fact to confirm — ask for the tier, never invent it.
+> - ⚠ **UNSOURCED — do not ship:** "Aug 2008 – Oct 2025" appears NOWHERE on disk except the rejected v3 doc.
+>   The pen invented month-level precision. Only "coaching humans since 2008" is corroborated
+>   (`06-automation/daily/briefing-2026-06-11.md`).
+> - ⚠ **NUMBER CONFLICT to reconcile:** the LOCKED About says "eighteen years training people"; v3 said
+>   "seventeen years at Equinox". Both can be true (18 in the field, 17 at Equinox) but the Experience entry
+>   must not contradict the locked About. Confirm with Farrice, do not average.
+> - ⚠ **STALE DIRECTIVE, now inverted:** `03-launch/platforms/linkedin_overhaul_playbook.md` (lines 160-163,
+>   465) orders "Remove Vitamin Shoppe entirely — dilutes your positioning." That was written under the old
+>   AI/coaching/behavior-change positioning. Under Proof-to-Market, The Vitamin Shoppe is the single most
+>   on-point credential he owns. **Ignore that playbook; it is superseded.**
 
 ### Entry 1 — current
 Title: `Creative Strategy and Positioning for Supplement, Recovery and Performance Brands` · Company: Self-employed · ⟨start month/year⟩ – Present · ⟨city⟩ · Remote
@@ -144,7 +168,7 @@ NASM CPT, CES and PES. Precision Nutrition L1. AFAA CPT.
 ```
 
 ### Entry 3 — the counter
-Title: `Retail Sales Associate` · Company: ⟨vitamin shop name⟩ · ⟨dates⟩ · 3 yrs
+Title: `Health Enthusiast` (The Vitamin Shoppe's own trademarked associate title — verified 2026-07-29) · Company: `The Vitamin Shoppe` · ⟨dates — Farrice⟩ · 3 yrs
 ```
 Three years selling supplements at a retail counter.
 

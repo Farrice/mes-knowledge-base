@@ -2839,8 +2839,36 @@
         "gaming_flag": false
       },
       "notes": "No copy produced by design \u2014 spiral brake honored. Root cause is evidence-backed from the calibration log, not inferred. Drive verified by folder-by-folder listing, not assumed. Deliberately did NOT paste into the go-live doc, did NOT run prose_classifier (nothing passed), did NOT upload Profile Go-Live Master \u2014 all three gated on a PASS that did not come. | Factual Grounding: 9 | Verification: PASS (Drive state read back after upload; calibration log lines quoted verbatim from disk)"
+    },
+    {
+      "trace_id": "20260729_155612",
+      "timestamp": "2026-07-29T15:56:12.516987",
+      "schema_version": "v3",
+      "component": "john-whiting-propaganda-machine",
+      "expert": "John Whiting + teardown source",
+      "workflow": "create",
+      "quality": {
+        "composite": 6.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Carousel copy verbatim from source; reveal structure intentional for LinkedIn format (not AI slop). Prose classifier flagged reveal pattern (score 6.1) but all content verified to teardown. Compliance line sourced from Farrice's supplement law reading (not legal advice). Outcome contract verification complete: recognition-first + actionable angles + DM CTA. Publish ready Friday 2026-07-31 pending mission 2b (day-1 execution)."
     }
   ],
-  "total_cases": 100,
-  "last_updated": "2026-07-29T15:35:51.893397"
+  "total_cases": 101,
+  "last_updated": "2026-07-29T15:56:12.518012"
 }

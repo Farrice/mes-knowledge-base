@@ -221,6 +221,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-29 — Linkedin Launch — Campaign](2026-07-29-.md) — operator-guide stub, needs enrichment
 - [2026-07-29 — LinkedIn Cash Launch — Context OS + Profile Copy v3 (wargame follow-through, Drive export)](2026-07-29-linkedin-launch.md) — operator-guide stub, needs enrichment
 - [2026-07-28 — Opus 5 Adaptation Layer — Model-Dialect Resilience (Fable seat)](2026-07-28-.md) — operator-guide stub, needs enrichment
 - [2026-07-28 — Opus 5 Adaptation Layer — Model-Dialect Resilience](2026-07-28-opus5-adaptation-layer.md) — bound injector (dialect-card-keyed, fires every prompt) + dead-channel detectors + full-asset wiring ratchet; model swap = one new card

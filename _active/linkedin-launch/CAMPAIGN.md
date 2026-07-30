@@ -28,6 +28,9 @@
 - Canon layer live: read `CANON.md` before building on any doc here; `/missions` is the front door (NOT /campaign — that's the council preset).
 - Send-before-build is binding: mission 2 gates missions 4–6 going live (building drafts is fine).
 - Voice: BLEND. Prose-classifier clean on anything outbound.
+- **Biography facts — VERIFIED 2026-07-29, never re-ask Farrice:** the counter = **The Vitamin Shoppe**, whose own in-store associate title is **Health Enthusiast™** (trademarked; use the real title). Equinox tiers run 1→2→3→3+→**Tier X** (pinnacle, ~3+ yrs, deepest EFTI credentialing) — which tier he held is still his fact. **Unsourced, do not ship:** "Aug 2008 – Oct 2025" (invented by the v3 pen; only "coaching since 2008" is corroborated). **Conflict to reconcile:** locked About says "eighteen years training people," v3 said "seventeen years at Equinox."
+- **Research-before-asking is standing:** any factual gap gets a web check or a repo grep FIRST. Only genuinely private facts (his dates, his tier) and felt/lived material (a specific person, what he watched happen) get asked. Facts are researched; voice is asked.
+- ⛔ **`03-launch/platforms/linkedin_overhaul_playbook.md` is SUPERSEDED** — it orders "remove Vitamin Shoppe, it dilutes your positioning," which was true under the old AI/coaching positioning and is backwards under Proof-to-Market.
 - **Context OS lives at `04-deliverables/context-os/`** (+ mirrored to Google Drive) — external AIs load per its 00-README; sessions here keep using CANON.md sources directly.
 
 ## Close-of-session ritual (any session that worked this campaign)
