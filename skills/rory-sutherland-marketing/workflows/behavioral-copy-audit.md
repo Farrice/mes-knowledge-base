@@ -26,7 +26,7 @@ Scan for perception engineering — or its absence.
 | Check | Pass/Fail | Notes |
 |---|---|---|
 | **Psychological Reframe**: Does the copy reframe the problem psychologically? Or does it describe features? | | |
-| **Overground Effect**: Is the product being "seen" in the right category? Or is it filed in a commodity bin? | | |
+| **Category-frame test**: Is the product being seen in a truthful, useful category, or filed in a commodity bin? Pattern 15's older case is hypothesis-only. | | |
 | **Doorman Fallacy**: Does the copy protect or destroy hidden value? | | |
 | **Transaction Utility**: Does the copy engineer how BUYING feels? Or just what you GET? | | |
 | **Paceometer**: Are metrics expressed in perception-first units? Or default industry units? | | |

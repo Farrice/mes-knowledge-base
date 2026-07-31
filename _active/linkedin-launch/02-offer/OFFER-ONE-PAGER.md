@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This page sells the abandoned standalone AI-search audit ladder. Use `ANGLE-MAP-ACTIVATION-PACKET.md`.
+
 # When your buyers ask AI about your category, somebody else's name comes back.
 ### Farrice Cain · for health, wellness & performance brands
 

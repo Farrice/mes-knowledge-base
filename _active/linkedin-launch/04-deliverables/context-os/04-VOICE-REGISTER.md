@@ -34,7 +34,7 @@ Em-dash chains · "It's not X, it's Y" constructions as a crutch · rhetorical-q
 
 Your product works. Getting a stranger to believe it is the whole job, and nobody in your building owns that job.
 
-I spent three years behind a vitamin-shop counter learning why.
+I spent five years behind a vitamin-shop counter learning why.
 
 You paid for the study, and the numbers hold. Then legal cut the claim, creative flattened what was left, and you shipped the only version that cleared. It said nothing. You knew it said nothing.
 
@@ -46,7 +46,7 @@ You've tried what careful brands try. A new agency. More variants. Another AI to
 
 A better writer can't fix that, and neither can the next agency. Under all of it sits a decision nobody has made. What are we proving. Who needs to believe it. What will we say plainly, then defend when pushed. Once that decision exists, the words get easy. Until it does, every rewrite is the same maybe in a nicer font.
 
-Why me. I was the kid the loud labels were built for. Pre-workouts, fat burners, test boosters, a shelf of half-used tubs bought on confidence. Then the counter, where people asked what no label answers: will the pills go down, does it mix with my meds, whey or isolate. Half that job was telling somebody to put it back. Then eighteen years training people, better at results than at being known. I know your buyer's doubt from the inside, and I'll name what's costing you sales better than your site does.
+Why me. I was the kid the loud labels were built for. Pre-workouts, fat burners, test boosters, a shelf of half-used tubs bought on confidence. Then five years behind the counter, where people asked what no label answers: will the pills go down, does it mix with my meds, whey or isolate. Half that job was telling somebody to put it back. Then coaching since 2008, better at results than at being known. I know your buyer's doubt from the inside, and I'll name what's costing you sales better than your site does.
 
 Three ways to work with me.
 
@@ -56,7 +56,7 @@ A sprint. Positioning, messaging, proof order. Decided. Your team runs the brief
 
 A retainer. I own the creative strategy: message, angles, concepts, each tied to a real person and a real reason.
 
-No revenue guarantees. No science you haven't earned. Eighteen years around this industry cured me of both.
+No revenue guarantees. No science you haven't earned. Coaching since 2008 cured me of both.
 
 Somewhere right now a kid's in an aisle reading a label, hoping it's true. He might be reading yours. I'd like him to be right.
 

@@ -1,9 +1,9 @@
 ---
 name: "Kieran Flanagan - Audience Intelligence"
-description: "Content-reactive audience profiling, platform-specific style cards, creator style analysis, and topic cluster mapping"
-version: "1.0"
+description: "Content-reactive audience profiling, platform-specific style cards, creator style analysis, topic cluster mapping, and creator-owned winning content profiles"
+version: "1.1"
 format: "completion-engine"
-workflows: 4
+workflows: 5
 routing: long-tail
 ---
 
@@ -19,6 +19,7 @@ The foundation layer of Kieran's AI content team architecture. These research an
 | 02 | [Content Style Card](workflows/02-content-style-card.md) | Platform-specific writing style card with vocabulary library | You need to capture a creator's voice on a specific platform — LinkedIn style ≠ newsletter style ≠ X style |
 | 03 | [Style From Creator](workflows/03-style-from-creator.md) | Writing style card reverse-engineered from any public creator | You want to learn from or model another creator's style, or you haven't created enough content to build your own style card |
 | 04 | [Content Cluster](workflows/04-content-cluster.md) | Topic cluster analysis with performance mapping and gap identification | You want to see which topics drive the most engagement, which are underexplored, and where to double down |
+| 05 | [Winning Content Profile](workflows/05-winning-content-profile.md) | Versioned platform-specific profile of transferable creator-owned patterns | You need to map new ideas to patterns that have worked for this creator on one platform |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
@@ -28,11 +29,12 @@ The foundation layer of Kieran's AI content team architecture. These research an
 
 ## Execution Prompts (structure-pure v2)
 
-4 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+5 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Content-Reactive Audience Profile — [creator/brand name]** — `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/content-audience-profile.md`
 - **Content Cluster Report — [creator/brand name]** — `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/content-cluster.md`
 - **Platform Style Card — [creator name] on [platform]** — `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/content-style-card.md`
 - **Reverse-Engineered Style Card — [creator name] on [platform]** — `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/style-from-creator.md`
+- **Winning Content Profile: [CREATOR] on [PLATFORM]** — `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/winning-content-profile.md`
 
 <!-- END:execution-prompts -->

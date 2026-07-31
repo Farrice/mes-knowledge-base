@@ -7,6 +7,8 @@ supersedes: 2026-07-27-profile-top-to-bottom.md
 
 Every field in the order LinkedIn shows them, paste-ready. About = **Take A, locked by Farrice 2026-07-28**. Featured rebuilt per the wargame ($750 Angle Map on Card 2). Work top to bottom; the blanks ledger at the end is everything only you can fill.
 
+> **Operational status, 2026-07-29:** prepared locally; external profile publication and booking URL are not verified. The surgical offer-ladder update below carries Farrice's 2026-07-29 cash-first decision without rewriting the locked narrative spine.
+
 ---
 
 ## 1. BANNER
@@ -50,7 +52,7 @@ The best product in a category almost never has the best marketing | Creative st
 
 ## 5. CUSTOM BUTTON
 
-Cal.com or Calendly, 20 minutes, titled **Teardown debrief** → set button to *Book an appointment*. ⟨BLANK: booking URL⟩. Keep DM PROOF in the headline regardless — two doors, different temperatures.
+Cal.com or Calendly, 20 minutes, titled **Angle Map fit call** → set button to *Book an appointment*. ⟨BLANK: booking URL⟩. Until a real URL exists, omit the custom button and use DM PROOF plus direct two-time scheduling; never paste a placeholder.
 
 ## 6. ABOUT — TAKE A, THE MIRROR (locked 2026-07-28, paste verbatim)
 
@@ -73,11 +75,11 @@ Why me. I was the kid the loud labels were built for. Pre-workouts, fat burners,
 
 Three ways to work with me.
 
-Free teardown. I read your site like your most skeptical customer, quote it back to you, and DM it before I publish. Every hole, free.
+One-gap read. I point to one consequential gap in the live page or campaign, using your own words. No legal diagnosis. No ten-page free strategy document.
 
-A sprint. Positioning, messaging, proof order. Decided. Your team runs the brief and stops guessing.
+The Angle Map. $750 prepaid. One live read, then three usable campaign angles with hooks, approved-proof direction, and an editorial claim-safety line for each, delivered inside 48 hours.
 
-A retainer. I own the creative strategy: message, angles, concepts, each tied to a real person and a real reason.
+A sprint. $2,500 prepaid. Positioning, proof hierarchy, angle bank, launch messaging, and one priority campaign asset in ten business days.
 
 No revenue guarantees. No science you haven't earned. Eighteen years around this industry cured me of both.
 
@@ -102,11 +104,11 @@ Description: A brand with one of the most honest labels in the category, spendin
 
 **Card 2 — the offer (the wargame's fix: the $750 rung lives here now).**
 ```
-Title: The free teardown — and what comes after
-Description: Send me your homepage. I read it the way your most skeptical customer does: two product pages, your science page, your last ten reviews. You get back what you're claiming, what you're actually proving, and where the gap is. Your own words, quoted back to you. Nothing invented, no call required. You see it before anyone else does. DM PROOF.
-Want the whole funnel? The Angle Map. $750, prepaid. One 60-minute read, then 3 named angles with hooks and the claim-safety line under each, in your hands within 48 hours. If it doesn't change what you ship, I keep working until it does.
+Title: The one-gap read — and what comes after
+Description: Send me the live page or campaign. I will point to one consequential message or proof gap using your own public words. Nothing invented, no legal diagnosis, no call required. DM PROOF.
+Want the decision made? The Angle Map. $750 prepaid. One 60-minute read, then three usable campaign angles with hooks, approved-proof direction, and an editorial claim-safety line for each, in your hands within 48 hours. If the first read does not produce three usable angles inside the agreed scope, I revise until it does.
 ```
-*Thumbnail prompt:* `Editorial card, 1200x627, warm off-white paper, dark ink serif headline "The free teardown" upper left, small text "and the $750 Angle Map" lower right, thin rule between, restrained print aesthetic, no images, no gradients.`
+*Thumbnail prompt:* `Editorial card, 1200x627, warm off-white paper, dark ink serif headline "The one-gap read" upper left, small text "and the $750 Angle Map" lower right, thin rule between, restrained print aesthetic, no images, no gradients.`
 
 **Card 3 — the boundary.**
 ```
@@ -119,8 +121,9 @@ Description: I don't build the ads, run the account, or write your calendar. You
 
 > **⛔ DO NOT PASTE §8. The prose below is rendition v2, REJECTED by Farrice 2026-07-29** — it carries the
 > grand-noun tells he FAILed by name ("That's where the expertise comes from", "the exact distance between",
-> "The work usually starts the same way"). v3 was also rejected (all blocks 4/10). Spiral brake armed: no
-> rendition 4 until Farrice's voice-dump is on disk. See `2026-07-29-profile-copy-v3-PENDING-VERDICT.md`.
+> "The work usually starts the same way"). v3 was also rejected (all blocks 4/10). v4–v7 drafts now exist,
+> but none has Farrice's approval or felt verdict. Spiral brake remains armed: do not generate another rendition.
+> See `2026-07-29-profile-copy-v3-PENDING-VERDICT.md`.
 > **§1–§7 and §9–§14 are unaffected.** The About (§6) and headline (§4) are LOCKED and good.
 >
 > **VERIFIED FACTS for the rebuild (researched 2026-07-29, do not re-ask Farrice):**

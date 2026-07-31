@@ -67,6 +67,22 @@ Specifically:
 
 ---
 
+## Pattern 6: Creator-Owned Winning Content Profiles
+**Execute**: Build one performance profile per platform from the creator's owned content, available metrics, and explicit human verdicts. Extract transferable structures, not repeated topics. Keep performance evidence, taste evidence, and unscored corpus evidence separate.
+
+**Profile discipline**:
+1. One creator and one platform per profile.
+2. Stable source-item IDs behind every formula.
+3. Visible evidence class, coverage, refresh date, and confidence.
+4. PROVISIONAL status when performance metrics are missing.
+5. Version deltas instead of silent monthly rewrites.
+
+**Why**: The creator's own results are a stronger platform-fit prior than generic viral frameworks, but only when the evidence boundary stays honest.
+
+**Success Metric**: Every formula is traceable to owned source items, no missing metric is inferred, and a new topic can use the structure without copying the old topic.
+
+---
+
 ## Anti-Patterns
 
 Grounded in Kieran's own words from `extractions/kieran-flanagan/transcript.txt` (YouTube, "I Built an AI Team That Creates All My Content," Kieran's show *Marketing Against the Grain* — the source transcript repeatedly self-identifies the show by name; treat the "Greg Isenberg Show" line in `extraction-report.md`'s header as an unverified mislabel, see source-ledger). What he explicitly rejects or self-corrects when the system misfires.
@@ -83,7 +99,7 @@ Grounded in Kieran's own words from `extractions/kieran-flanagan/transcript.txt`
 
 ## Hidden Knowledge
 
-5 tacit expertise points that separate amateurs from professionals.
+6 tacit expertise points that separate amateurs from professionals.
 
 ---
 
@@ -119,6 +135,15 @@ Grounded in Kieran's own words from `extractions/kieran-flanagan/transcript.txt`
 **The Truth**: The deepest layer of a vocabulary library isn't words the creator "uses" but words that map to their IDENTITY. These are terms that feel like "them" at a core level — not stylistic choices but identity markers that audiences associate with the creator's brand.
 
 **Deploy**: When building vocabulary libraries, separate into three tiers: (1) Identity words (who they ARE), (2) Style words (how they sound), (3) Topic words (what they discuss). Identity words are the highest priority and hardest to get right.
+
+---
+
+## 6. No Metrics Means Provisional, Not Useless
+**The Truth**: A creator may have a real corpus and strong human verdicts before platform analytics exist. That evidence can reveal candidate structures, but it cannot prove performance.
+
+**Deploy**: Build a PROVISIONAL Winning Content Profile. Preserve exact human scores and approvals, name the missing metrics, lower confidence, and schedule the first evidence refresh after publishing data arrives.
+
+**Source status**: INFERRED operating rule from Kieran's explicit performance-data standard and the new source's visible use of confidence notes. It is not a verbatim Kieran phrase.
 
 ---
 
@@ -213,6 +238,7 @@ Grounded in Kieran's own words from `extractions/kieran-flanagan/transcript.txt`
 *   **"Platform Character Isolation"**: Actively checks and prevents stylistic cross-pollination between content intended for different platforms (e.g., LinkedIn vs. Newsletter), ensuring each platform's output stands independently with its own distinct style card. → **Deploy when**: Developing content for multiple platforms for the same creator, or reviewing multi-platform outputs.
 *   **"Argument-First Enrichment"**: Separates the content creation process into distinct stages: first, drafting the core argument and structure, *then* a separate, dedicated pass for injecting verified data, stories, and quotes. → **Deploy when**: Generating any long-form content requiring factual support, narrative depth, or real-world examples.
 *   **"Structural Archeology"**: Identifies successful content by its underlying structural patterns (hooks, argument flow, emotional arcs) from high-performing "lookalike" content in adjacent niches, rather than focusing on topic or superficial style. → **Deploy when**: Ideating new content formats, trying to boost engagement for existing topics, or overcoming creative blocks.
+*   **"One Platform, One Proof Base"**: Builds and refreshes a separate Winning Content Profile for each platform, keeping source IDs, evidence class, trend direction, and confidence visible. → **Deploy when**: Preparing platform-specific ideation or reviewing whether a formula is rising, stable, or declining.
 
 ## Expert-Specific Quality Rubric
 
@@ -222,3 +248,7 @@ Grounded in Kieran's own words from `extractions/kieran-flanagan/transcript.txt`
 | Vocabulary constraint                | USE list only, no negative space                                                     | USE + partial AVOID list                                                                                           | Full USE/NEVER-USE/Identity three-tier library with 40-60% negative space (Pattern 2, Pattern 5, Anti-Patterns)                                            |
 | Platform handling                    | One style card reused across platforms                                               | Separate cards but overlapping rules                                                                               | Fully isolated cards sharing <30% structural rules; cross-contamination actively checked (Pattern 4)                                                       |
 | Data hygiene                         | Requires clean, pre-organized input                                                  | Tolerates minor formatting variance                                                                                | Accepts raw, messy, mixed-format dumps and still extracts a clean profile (Hidden Knowledge 4)                                                              |
+| Winning-profile coverage             | Formula labels without source items                                                  | Formula labels trace to some owned examples                                                                        | Every formula traces to stable owned-item IDs with source window, evidence class, and coverage gaps                                                          |
+| Evidence honesty                     | Missing metrics are silently inferred                                                | Missing metrics are mentioned                                                                                      | No-metrics profiles are explicitly PROVISIONAL, preserve human verdicts separately, and lower confidence                                                     |
+| Formula transferability              | Repeats successful topics                                                            | Names a reusable hook or format                                                                                    | Captures the complete transferable mechanic while preserving creator-specific substance and anti-patterns                                                    |
+| Freshness and versioning              | Undated static profile                                                               | Refresh date is present                                                                                            | Monthly version delta shows rising, stable, declining, and deprecated formulas without erasing prior evidence                                                 |

@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: FIRST-WAVE-PROSPECTS-2026-07-29.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29 FOR CASH OUTBOUND.** This list mixes committee buyers, role placeholders, stale occasions, and a 10-DM/week cadence. Use `FIRST-WAVE-PROSPECTS-2026-07-29.md`. Retain this file only as historical nurture/content research.
+
 # Dream 100 v1 — Proof-to-Market Sprint
 
 **Compiled:** 2026-07-18 · **Offer:** 10-day Proof-to-Market Sprint ($2,500 pilot) · **Buyer:** Head/VP of Brand, Product Marketing lead, or founder at a funded supplement/performance brand mid-launch, repositioning, retail expansion, or category entry.

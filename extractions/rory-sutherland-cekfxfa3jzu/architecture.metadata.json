@@ -1,0 +1,20 @@
+{
+  "title": "Rory Sutherland Universal Behavioral Alchemy - Final Architecture",
+  "artifact_type": "skill_architecture",
+  "created": "2026-07-30",
+  "source_file": "architecture.md",
+  "owner_skill": "source-command-extract-forge",
+  "supporting_skill": "source-command-extract-amplify",
+  "target_skill": "rory-sutherland-marketing",
+  "checkpoint": 2,
+  "status": "built_and_verified",
+  "approved": "2026-07-30",
+  "new_workflows": 5,
+  "routed_aliases": 3,
+  "existing_workflow_upgrades": 6,
+  "new_execution_prompts": 5,
+  "existing_prompt_upgrades": 3,
+  "verified": "2026-07-30",
+  "verification_file": "verification.md",
+  "full_book_reviewed": false
+}

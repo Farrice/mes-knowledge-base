@@ -61,3 +61,23 @@ All confirmed present via direct `grep` against the source file during this pass
 
 ## Gap named honestly
 The primary weakness in this skill's provenance is Pattern 3 (Anti-Vocabulary) and its Hidden Knowledge companion: the specific numbers and the illustrative banned-word list are not Kieran's own words, only the extraction author's synthesis layered on top of a verified underlying concept ("do and don't say" vocabulary libraries with negative space). This repair pass did not delete that content (additive-first mandate) — it is flagged UNCONFIRMED above so a future pass can either find a second source that confirms the figures or rewrite Pattern 3 to drop the specific numbers and keep only the verified concept.
+
+## 2026-07-30 Expansion: Content Signal Loop
+
+Primary source:
+
+| Source | Path | Status |
+|---|---|---|
+| "Never Run Out of Content Ideas With This AI System" transcript | `extractions/transcripts/cSz_6SNEirU.txt` | VERIFIED, read in full |
+| Deep extraction and visual evidence map | `extractions/kieran-flanagan-content-signal-loop/extraction-report.md` | VERIFIED as synthesis; VERIFIED/INFERRED labels preserved |
+
+Claim labels for Pattern 6 and workflow 05:
+
+- **VERIFIED**: Kieran shows separate platform Winning Content Profiles and says the LinkedIn profile uses 160 posts from one year with post content and performance data.
+- **VERIFIED**: The profile ranks structural patterns, includes anti-patterns and confidence notes, and is updated monthly.
+- **VERIFIED**: Platform patterns are loaded for the requested platform rather than blended indiscriminately.
+- **VERIFIED**: He explicitly maps to patterns rather than regurgitating the same topics.
+- **INFERRED**: Stable IDs, semantic version fields, evidence classes, and PROVISIONAL no-metrics behavior are implementation controls derived from the demonstrated evidence boundary. They are not named Kieran schemas.
+- **INFERRED operating rule**: Human verdict evidence may support a provisional formula without being relabeled as platform performance.
+
+The source-linked HubSpot template was email-gated and was not acquired. No workflow field is attributed to that unacquired template.

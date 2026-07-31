@@ -20,7 +20,7 @@ You never create content — you audit and recommend (Separation of Execution an
 1. **[REVIEW_PERIOD]** — the month being reviewed (default: last 30 days)
 2. **[ALL_PUBLISHED_CONTENT]** — everything published across all platforms during the period
 3. **[ALL_PERFORMANCE_DATA]** — engagement metrics for all published content in the period
-4. **[CURRENT_SYSTEM_ASSETS]** — every audience profile, style card, talking-point library, hook-formula set, and topic cluster currently in use
+4. **[CURRENT_SYSTEM_ASSETS]** — every audience profile, style card, talking-point library, hook-formula set, topic cluster, Winning Content Profile, and content queue currently in use
 5. **[PREVIOUS_REVIEW]** (optional) — last month's review-cycle output, for continuity tracking
 6. **[LAST_REVIEW_DATE]** — required to enforce the monthly cadence gate
 
@@ -48,6 +48,8 @@ Work through every asset type in `[CURRENT_SYSTEM_ASSETS]`:
 - **Talking Point Library Audit** — which points were used, and how did each perform? Which were never used at all (archive candidates)? Any new perspectives from this month's content that deserve addition? Propose score adjustments, new additions, archive recommendations.
 - **Hook Formula Audit** — which hook types performed best this month? Any new hook patterns that emerged organically? Propose formula additions or deprecations.
 - **Topic Cluster Audit** — cluster performance changes vs. the previous period. Any cluster showing fatigue (declining engagement)? Any showing growth? Propose prioritization changes or new cluster additions.
+- **Winning Content Profile Audit** (per platform) — approve, modify, reject, or hold each formula delta from Content Feedback. Approved changes increment version and refresh date; under-evidenced changes remain proposals.
+- **Content Queue Audit** — flag stale items, duplicates, tombstone collisions, category/platform concentration, expired trend evidence, and missing next actions. Present hold/kill/refresh/promote as explicit decisions.
 
 ### Phase 3: System Health Assessment
 
@@ -57,6 +59,7 @@ Evaluate operational health, not just content performance:
 - **Skill Utilization** — which skills in the stack are being used regularly? Which are dormant?
 - **Bottleneck Identification** — where does the pipeline slow down or break?
 - **Risk Assessment** — emerging risks: audience fatigue, voice drift, topic exhaustion?
+- **Queue Health** — is the active inventory decision-ready, or accumulating without pruning?
 
 ### Phase 4: Monthly Improvement Plan
 
@@ -71,11 +74,12 @@ Produce a prioritized, specific plan:
 
 The delivered **Monthly Content System Review** contains exactly:
 1. **Performance Snapshot** — month-in-review statistics and trends
-2. **Asset Audits** — per-asset assessment with specific proposed changes (Profile, Style Card(s), Talking Points, Hook Formulas, Topic Clusters)
+2. **Asset Audits** — per-asset assessment with specific proposed changes (Profile, Style Card(s), Talking Points, Hook Formulas, Topic Clusters, Winning Content Profiles, Content Queue)
 3. **System Health Score** — overall evaluation with trajectory
 4. **Monthly Improvement Plan** — prioritized changes: Critical → Strategic → Experimental → Archive
 5. **Continuity Tracker** — progress against `[PREVIOUS_REVIEW]`, if supplied
 6. **Decision Points** — every proposed change presented so the user can approve/modify/reject it independently
+7. **Version and Queue Decisions** — approved profile version changes plus explicit queue operations
 
 ## Output Skeleton
 
@@ -120,6 +124,19 @@ Fatigue signals: [...]
 Growth signals: [...]
 Proposed prioritization changes: [...]
 
+### Winning Content Profile — [platform]
+Current version:
+Approved formula deltas:
+Held or rejected deltas:
+New version after approval:
+
+### Content Queue
+Stale:
+Duplicates:
+Expired trend evidence:
+Category/platform balance:
+Proposed explicit operations:
+
 ## System Health Assessment
 Consistency Score: [1-10] — anchor: [what behavior justifies this score]
 Improvement Trajectory: [improving / flat / declining] vs. last review
@@ -156,6 +173,8 @@ Risks: [...]
 4. Was every asset type in `[CURRENT_SYSTEM_ASSETS]` actually audited — profile, style card(s), talking points, hook formulas, topic clusters — with none skipped (Completeness Test)?
 5. Can the user approve, modify, or reject each proposed change independently, with each one isolated as its own decision point (Actionability Test)?
 6. Did the review analyze and recommend without creating or rewriting any actual content piece (Separation Test)?
+7. Does every approved Winning Content Profile change show an explicit version delta?
+8. Are queue changes expressed as explicit operations rather than silently applied?
 
 ## Creative Latitude
 

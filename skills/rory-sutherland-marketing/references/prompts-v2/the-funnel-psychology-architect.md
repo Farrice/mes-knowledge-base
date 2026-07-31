@@ -39,6 +39,9 @@ You don't build funnels. You architect psychological journeys that make the fina
 - **[CONVERSION GOAL]**: Direct sale, application, call booking, etc.
 - **[AVAILABLE ASSETS]**: Lead magnets, webinars, email sequences, case studies, etc.
 - **[KNOWN DROP-OFF POINTS]**: Where do people currently leave?
+- **[AVAILABLE RESPONSE CHANNELS]**: Phone, form, email, reply, checkout, application, booking, or other paths
+- **[DELIVERY EXPECTATIONS]**: What happens after action, when it happens, and what uncertainty currently remains
+- **[REJECTION OR STATUS RISK]**: Whether applying, booking, or responding exposes the prospect to rejection or embarrassment
 
 ---
 
@@ -66,17 +69,25 @@ You don't build funnels. You architect psychological journeys that make the fina
    - Interested → Ready: What convinces them you're the solution?
    - Ready → Buyer: What makes the final yes feel safe?
 
-5. **BUILD IN LOSS AVERSION TRIGGERS**: Create urgency without manipulation:
+5. **AUDIT ACTION CERTAINTY AND RESPONSE CHOICE**:
+   - Does every action state what happens next and when?
+   - Do different [AVAILABLE RESPONSE CHANNELS] reach different psychological populations?
+   - Does “apply” create rejection risk where invitation, eligibility, or pre-approval language is factually justified?
+   - Is delivery timing stated with an honest exact time, range, or next-update promise?
+
+6. **BUILD IN LOSS AVERSION TRIGGERS**: Create urgency without manipulation:
    - What do they risk losing by NOT acting?
    - Where does FOMO naturally fit?
    - How do you make waiting feel more costly than committing?
 
-6. **DESIGN RECOVERY PATHS**: For drop-offs at each stage:
+7. **DESIGN RECOVERY PATHS**: For drop-offs at each stage:
    - How do you re-engage people who stall?
    - What alternative paths exist for different objection types?
    - How do you maintain the relationship for future conversion?
 
-7. **PRODUCE THE COMPLETE FUNNEL ARCHITECTURE**: Full journey with psychological annotations.
+8. **DESIGN THE ONE-VARIABLE TESTS**: For each major drop-off, isolate response channel, action language, delivery certainty, or another single variable. Keep a radically different funnel concept in a separate test.
+
+9. **PRODUCE THE COMPLETE FUNNEL ARCHITECTURE**: Full journey with psychological annotations, response paths, certainty language, and tests.
 
 ---
 
@@ -96,6 +107,8 @@ Deliver a **Funnel Psychology Architecture** with these components:
 5. Drop-Off Recovery Sequences — re-engagement paths specifically addressing [KNOWN DROP-OFF POINTS]
 6. Metrics Framework — what to measure at each stage (metric types, not invented targets)
 7. Implementation Roadmap — build order and priorities
+8. Action-Certainty and Response-Path Plan — next-step language, delivery expectation, channel choices, and rejection-risk treatment
+9. Test Plan — isolated variable, behavior metric, kill rule, and scale rule by major drop-off
 
 **Length**: 1800-2800 words. **No invented conversion-rate benchmarks per stage** — the Metrics Framework names what to measure, not fabricated target percentages.
 
@@ -124,6 +137,14 @@ Deliver a **Funnel Psychology Architecture** with these components:
 ### DROP-OFF RECOVERY SEQUENCES
 [For each KNOWN DROP-OFF POINT: re-engagement path]
 
+### ACTION CERTAINTY AND RESPONSE PATH
+| Decision point | What happens next | Timing language | Response choices | Rejection-risk treatment |
+|---|---|---|---|---|
+
+### TEST PLAN
+| Drop-off | Hypothesis | One variable | Behavior metric | Kill rule | Scale rule |
+|---|---|---|---|---|---|
+
 ### METRICS FRAMEWORK
 | Stage | What to Measure | Why It Signals Progress |
 |-------|-------------------|----------------------------|
@@ -143,3 +164,11 @@ Deliver a **Funnel Psychology Architecture** with these components:
 - [ ] Each stage transition has an explicit psychological mechanism, not just a technical description
 - [ ] The Commitment Ladder shows genuine escalation (each ask bigger than the last), not a flat list
 - [ ] The architecture is designed around psychological states first, technical steps second, consistent with the core thesis
+- [ ] Every action states what happens next and when
+- [ ] Response channels are preserved or removed only with evidence
+- [ ] Invitation or pre-approval language is used only when factually true
+- [ ] Each test isolates one variable or a separate radical concept
+
+## Source Boundary
+
+The response-channel, delivery-certainty, rejection-removal, and atomic-testing additions are grounded in the 2026 My First Million transcript. The full text of *Alchemy* was not reviewed.

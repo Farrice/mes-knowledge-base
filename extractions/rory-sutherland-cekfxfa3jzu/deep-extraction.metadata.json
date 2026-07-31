@@ -1,0 +1,15 @@
+{
+  "title": "Rory Sutherland 2026 Masterclass - Deep Extraction",
+  "artifact_type": "mastery_extraction",
+  "created": "2026-07-30",
+  "source_file": "deep-extraction.md",
+  "owner_skill": "source-command-extract-forge",
+  "supporting_skill": "source-command-extract-amplify",
+  "target_skill": "rory-sutherland-marketing",
+  "phase": 3,
+  "status": "complete",
+  "video_transcript_words": 13772,
+  "publisher_sample_words": 9290,
+  "full_book_reviewed": false,
+  "evidence_boundary": "Video transcript, timestamped YouTube captions, existing local Rory corpus, and official Penguin sample only."
+}

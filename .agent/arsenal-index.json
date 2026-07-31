@@ -778,7 +778,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:17:27.977800+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1777830820.0231316
   },
   {
@@ -793,7 +793,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:17:27.977800+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1777830943.802827
   },
   {
@@ -808,7 +808,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:17:27.977800+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1777831072.541714
   },
   {
@@ -823,7 +823,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:17:27.977800+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1777831184.745606
   },
   {
@@ -838,7 +838,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:17:27.977800+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1777831285.3039532
   },
   {
@@ -3838,7 +3838,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995418.5612867
   },
   {
@@ -3853,7 +3853,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995436.2091954
   },
   {
@@ -3868,7 +3868,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995458.5352511
   },
   {
@@ -3883,7 +3883,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995471.6374424
   },
   {
@@ -3898,7 +3898,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995485.277964
   },
   {
@@ -3913,7 +3913,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995505.0204747
   },
   {
@@ -3928,7 +3928,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995519.1377513
   },
   {
@@ -3943,7 +3943,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995533.2832272
   },
   {
@@ -3958,7 +3958,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995552.1402307
   },
   {
@@ -3973,7 +3973,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995567.888016
   },
   {
@@ -3988,7 +3988,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995586.0433235
   },
   {
@@ -4003,7 +4003,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-25T16:45:16.704798+00:00",
-   "skill_last_fired": "2026-07-29T01:00:20.580106+00:00",
+   "skill_last_fired": "2026-07-30T16:29:44.567280+00:00",
    "mtime": 1784995609.2524898
   },
   {
@@ -4063,7 +4063,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T12:58:55.939759+00:00",
+   "skill_last_fired": "2026-07-30T16:20:24.391280+00:00",
    "mtime": 1773947745.4822125
   },
   {
@@ -4078,7 +4078,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T12:58:55.939759+00:00",
+   "skill_last_fired": "2026-07-30T16:20:24.391280+00:00",
    "mtime": 1775779996.848263
   },
   {
@@ -4093,7 +4093,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T12:58:55.939759+00:00",
+   "skill_last_fired": "2026-07-30T16:20:24.391280+00:00",
    "mtime": 1773947745.4828136
   },
   {
@@ -5338,7 +5338,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T19:20:53.852282+00:00",
+   "skill_last_fired": "2026-07-30T21:33:41.659747+00:00",
    "mtime": 1782932066.2195191
   },
   {
@@ -5353,7 +5353,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T19:20:53.852282+00:00",
+   "skill_last_fired": "2026-07-30T21:33:41.659747+00:00",
    "mtime": 1782932089.0488572
   },
   {
@@ -5368,7 +5368,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T19:20:53.852282+00:00",
+   "skill_last_fired": "2026-07-30T21:33:41.659747+00:00",
    "mtime": 1782932112.3259861
   },
   {
@@ -5773,7 +5773,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777644711.9736447
   },
   {
@@ -5788,7 +5788,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777584543.8643734
   },
   {
@@ -5803,7 +5803,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1784445855.1012456
   },
   {
@@ -5818,7 +5818,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1784444209.7491558
   },
   {
@@ -5833,7 +5833,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643183.8418636
   },
   {
@@ -5848,7 +5848,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777644613.7584622
   },
   {
@@ -5863,7 +5863,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777584521.5732613
   },
   {
@@ -5878,7 +5878,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777644611.6956608
   },
   {
@@ -5893,7 +5893,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T07:03:18.628653+00:00",
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777644713.9866505
   },
   {
@@ -5908,7 +5908,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643185.864337
   },
   {
@@ -5923,7 +5923,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643301.8925488
   },
   {
@@ -5938,7 +5938,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T07:48:45.228259+00:00",
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777584499.262716
   },
   {
@@ -5953,7 +5953,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643264.8561673
   },
   {
@@ -5968,7 +5968,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777584589.9673638
   },
   {
@@ -5983,7 +5983,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643150.8687465
   },
   {
@@ -5998,7 +5998,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643344.1248646
   },
   {
@@ -6013,7 +6013,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1784445832.3175356
   },
   {
@@ -6028,7 +6028,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777644553.3754196
   },
   {
@@ -6043,7 +6043,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1784444244.042769
   },
   {
@@ -6058,7 +6058,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T07:03:16.682154+00:00",
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777643346.1312354
   },
   {
@@ -6073,7 +6073,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1784445808.471428
   },
   {
@@ -6088,7 +6088,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1777584541.8419755
   },
   {
@@ -6103,7 +6103,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:48:53.175976+00:00",
+   "skill_last_fired": "2026-07-30T17:40:22.060541+00:00",
    "mtime": 1784444278.1097698
   },
   {
@@ -8443,7 +8443,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-23T05:03:28.147690+00:00",
+   "skill_last_fired": "2026-07-30T16:46:08.063558+00:00",
    "mtime": 1782937193.899203
   },
   {
@@ -8458,7 +8458,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-23T05:03:28.147690+00:00",
+   "skill_last_fired": "2026-07-30T16:46:08.063558+00:00",
    "mtime": 1782937215.628111
   },
   {
@@ -8473,7 +8473,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-23T05:03:28.147690+00:00",
+   "skill_last_fired": "2026-07-30T16:46:08.063558+00:00",
    "mtime": 1782937237.3711832
   },
   {
@@ -10752,8 +10752,8 @@
    "front_door": "/extract-mastery",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-15T16:47:33.986843+00:00",
-   "skill_last_fired": "2026-07-15T16:47:33.986843+00:00",
+   "last_fired": "2026-07-30T17:32:41.118389+00:00",
+   "skill_last_fired": "2026-07-30T17:32:41.118389+00:00",
    "mtime": 1782932021.7073097
   },
   {
@@ -10768,7 +10768,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-15T16:47:33.986843+00:00",
+   "skill_last_fired": "2026-07-30T17:32:41.118389+00:00",
    "mtime": 1782932050.635907
   },
   {
@@ -10783,7 +10783,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-15T16:47:33.986843+00:00",
+   "skill_last_fired": "2026-07-30T17:32:41.118389+00:00",
    "mtime": 1782932072.708019
   },
   {
@@ -10798,7 +10798,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-04T16:15:36.012689+00:00",
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783362449.0032973
   },
   {
@@ -10813,7 +10813,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354334.9820542
   },
   {
@@ -10828,7 +10828,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354365.6013112
   },
   {
@@ -10843,7 +10843,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354371.457148
   },
   {
@@ -10858,7 +10858,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354377.2276583
   },
   {
@@ -10873,7 +10873,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354383.4239564
   },
   {
@@ -10888,7 +10888,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354389.6070535
   },
   {
@@ -10903,7 +10903,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354396.157792
   },
   {
@@ -10918,7 +10918,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354402.166687
   },
   {
@@ -10933,7 +10933,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354414.7504172
   },
   {
@@ -10948,7 +10948,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354424.2197726
   },
   {
@@ -10963,7 +10963,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354433.2843437
   },
   {
@@ -10977,8 +10977,8 @@
    "front_door": "/fantastic-posters",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-27T23:21:29.624633+00:00",
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "last_fired": "2026-07-30T17:18:49.992501+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1785299210.3447564
   },
   {
@@ -10993,7 +10993,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T23:21:29.624633+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1784354448.5084007
   },
   {
@@ -11203,7 +11203,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1785298805.4516037
   },
   {
@@ -11218,7 +11218,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1785298805.4517248
   },
   {
@@ -11233,7 +11233,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1785298805.4519603
   },
   {
@@ -15163,7 +15163,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996977.1396434
   },
   {
@@ -15178,7 +15178,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996951.7517893
   },
   {
@@ -15193,7 +15193,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996958.3439264
   },
   {
@@ -15208,7 +15208,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996948.5384817
   },
   {
@@ -15223,7 +15223,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996956.0793114
   },
   {
@@ -15238,7 +15238,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996967.4698243
   },
   {
@@ -15253,7 +15253,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996953.677418
   },
   {
@@ -15268,7 +15268,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996970.2931662
   },
   {
@@ -15283,7 +15283,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996974.010967
   },
   {
@@ -15298,7 +15298,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996979.016387
   },
   {
@@ -15313,7 +15313,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996972.1594956
   },
   {
@@ -15328,7 +15328,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-21T21:05:07.144691+00:00",
+   "skill_last_fired": "2026-07-30T17:18:49.992501+00:00",
    "mtime": 1783996949.8782003
   },
   {
@@ -17053,7 +17053,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": "2026-07-19T18:09:49.700790+00:00",
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784484531.2987645
   },
   {
@@ -17068,7 +17068,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784480223.0363138
   },
   {
@@ -17083,7 +17083,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784485042.0071905
   },
   {
@@ -17098,7 +17098,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781820765.6528707
   },
   {
@@ -17113,7 +17113,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784004183.0543728
   },
   {
@@ -17128,7 +17128,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": "2026-07-14T05:56:52.771038+00:00",
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781821388.2572873
   },
   {
@@ -17143,7 +17143,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781821036.0485291
   },
   {
@@ -17158,7 +17158,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784004183.0552092
   },
   {
@@ -17173,7 +17173,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784004183.055417
   },
   {
@@ -17188,7 +17188,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781820753.6650774
   },
   {
@@ -17203,7 +17203,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781821410.1001353
   },
   {
@@ -17218,7 +17218,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784004183.0558386
   },
   {
@@ -17233,7 +17233,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781820660.210249
   },
   {
@@ -17248,7 +17248,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1784004183.0562353
   },
   {
@@ -17263,7 +17263,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781821083.1659153
   },
   {
@@ -17278,7 +17278,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781821081.2942357
   },
   {
@@ -17293,7 +17293,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T06:45:02.906976+00:00",
+   "skill_last_fired": "2026-07-30T19:53:31.468679+00:00",
    "mtime": 1781820665.542896
   },
   {
@@ -17577,7 +17577,7 @@
    "front_door": "/kieran-flanagan-audience-intelligence",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": null,
+   "last_fired": "2026-07-30T21:55:46.254713+00:00",
    "skill_last_fired": null,
    "mtime": 1775779996.9178164
   },
@@ -17625,6 +17625,21 @@
    "last_fired": null,
    "skill_last_fired": null,
    "mtime": 1773947745.567845
+  },
+  {
+   "id": "05-winning-content-profile",
+   "command": "content-winning-profile",
+   "kind": "skill-workflow",
+   "skill": "kieran-flanagan-audience-intelligence",
+   "path": "skills/kieran-flanagan-audience-intelligence/workflows/05-winning-content-profile.md",
+   "description": "You are the **Kieran Flanagan Performance Profile Analyst**. You convert one creator's owned content and available performance evidence into a platform-specific profile of transferable winning patterns. You extract patterns, not topics. You never invent engagement, merge platforms, generate new ideas, or create finished content.",
+   "menu_status": "reachable",
+   "front_door": "/kieran-flanagan-audience-intelligence",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785429197.0801404
   },
   {
    "id": "01-talking-points",
@@ -17747,6 +17762,21 @@
    "mtime": 1773947745.571143
   },
   {
+   "id": "09-content-signal-ideation",
+   "command": "content-ideas",
+   "kind": "skill-workflow",
+   "skill": "kieran-flanagan-content-engine",
+   "path": "skills/kieran-flanagan-content-engine/workflows/09-content-signal-ideation.md",
+   "description": "You are the **Kieran Flanagan Content Signal Analyst**. You triangulate durable audience truth, creator-owned platform patterns, and a bounded scan of fresh external signals. You return idea building blocks for human judgment. You do not draft posts, scripts, newsletters, or carousels, and you do not mutate the content queue.",
+   "menu_status": "reachable",
+   "front_door": "/kieran-flanagan-content-engine",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785429197.219746
+  },
+  {
    "id": "01-content-orchestrate",
    "command": "content-orchestrate",
    "kind": "skill-workflow",
@@ -17759,7 +17789,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1775779996.9186935
+   "mtime": 1785429338.671714
   },
   {
    "id": "02-content-feedback",
@@ -17774,7 +17804,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1773947745.571975
+   "mtime": 1785429338.8234444
   },
   {
    "id": "03-content-review-cycle",
@@ -17789,7 +17819,22 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1773947745.572253
+   "mtime": 1785429338.969295
+  },
+  {
+   "id": "04-content-queue",
+   "command": "content-queue",
+   "kind": "skill-workflow",
+   "skill": "kieran-flanagan-content-ops",
+   "path": "skills/kieran-flanagan-content-ops/workflows/04-content-queue.md",
+   "description": "You are the **Kieran Flanagan Queue Steward**. You maintain the human-selected idea inventory that connects research to production. You expose every mutation, preserve killed-item tombstones, and keep weak or stale ideas from accumulating. You never generate finished content and never add an unselected idea.",
+   "menu_status": "reachable",
+   "front_door": "/kieran-flanagan-content-ops",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785429633.3218935
   },
   {
    "id": "ai-visual-asset-synthesis",
@@ -18643,7 +18688,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1784340312.7998366
   },
   {
@@ -18658,7 +18703,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1784340312.8006947
   },
   {
@@ -18672,8 +18717,8 @@
    "front_door": "/lara-acosta-linkedin-mastery",
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
-   "last_fired": "2026-07-30T02:15:17.096032+00:00",
-   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "last_fired": "2026-07-30T17:41:20.886238+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1784340312.8046374
   },
   {
@@ -18688,7 +18733,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1784340312.805109
   },
   {
@@ -18703,7 +18748,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T02:15:17.096032+00:00",
+   "skill_last_fired": "2026-07-30T17:41:20.886238+00:00",
    "mtime": 1784340312.8056276
   },
   {
@@ -19662,8 +19707,8 @@
    "front_door": "/luke-iha-creative-strategy",
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
-   "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "last_fired": "2026-07-30T07:21:33.913840+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1773947745.5898051
   },
   {
@@ -19678,7 +19723,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1782939136.833504
   },
   {
@@ -19693,7 +19738,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1775779996.9307868
   },
   {
@@ -19708,7 +19753,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1782939101.0345132
   },
   {
@@ -19723,7 +19768,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1773947745.5909095
   },
   {
@@ -19738,7 +19783,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1773947745.5914772
   },
   {
@@ -19753,7 +19798,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-07-30T05:04:29.729808+00:00",
+   "skill_last_fired": "2026-07-30T13:30:51.032599+00:00",
    "mtime": 1773947745.5918765
   },
   {
@@ -21343,7 +21388,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1773947745.6182556
   },
   {
@@ -21358,7 +21403,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": "2026-07-26T22:59:05.786821+00:00",
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1775779996.9459302
   },
   {
@@ -21373,7 +21418,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1782967740.2673378
   },
   {
@@ -21388,7 +21433,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1782967772.7007344
   },
   {
@@ -21673,7 +21718,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451505.001803
   },
   {
@@ -21688,7 +21733,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451778.9162023
   },
   {
@@ -21703,7 +21748,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1785299203.573214
   },
   {
@@ -21718,7 +21763,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451362.9093966
   },
   {
@@ -21733,7 +21778,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451771.6606472
   },
   {
@@ -21748,7 +21793,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451393.9015267
   },
   {
@@ -21763,7 +21808,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451807.5765555
   },
   {
@@ -21778,7 +21823,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451293.6915014
   },
   {
@@ -21793,7 +21838,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1783451762.9536524
   },
   {
@@ -21808,7 +21853,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": "2026-07-26T01:21:17.361930+00:00",
-   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-30T16:30:12.428760+00:00",
    "mtime": 1784932404.100723
   },
   {
@@ -26322,7 +26367,7 @@
    "front_door": "/omar-eltakrori",
    "has_prompts_v2": true,
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
-   "last_fired": null,
+   "last_fired": "2026-07-30T21:31:31.845094+00:00",
    "skill_last_fired": "2026-07-08T01:04:56.930824+00:00",
    "mtime": 1784346782.662512
   },
@@ -29818,8 +29863,23 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8573291
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457424.1805797
+  },
+  {
+   "id": "advertising-archaeology-lab",
+   "command": "advertising-archaeology-lab",
+   "kind": "skill-workflow",
+   "skill": "rory-sutherland-marketing",
+   "path": "skills/rory-sutherland-marketing/workflows/advertising-archaeology-lab.md",
+   "description": "Recovers an abandoned advertising or media mechanism, removes its dated skin, and tests a modern expression.",
+   "menu_status": "reachable",
+   "front_door": "/rory-sutherland-marketing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785455594.527856
   },
   {
    "id": "alchemy-content-relationship-engine",
@@ -29833,7 +29893,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
    "mtime": 1784341902.2364352
   },
   {
@@ -29842,14 +29902,29 @@
    "kind": "skill-workflow",
    "skill": "rory-sutherland-marketing",
    "path": "skills/rory-sutherland-marketing/workflows/asymmetric-bet-evaluator.md",
-   "description": "You are Rory Sutherland, Vice Chairman of Ogilvy UK. You see that organizations waste 80% of their strategic energy debating decisions that are cheap to try and easy to reverse. Your operating principle: \"If the upside is 10x the downside and you can undo it in 6 months, you shouldn't be arguing about it \u2014 you should be running it.\" You combine Bezos's Two-Way Door framework with behavioral scienc",
+   "description": "You are Rory Sutherland, Vice Chairman of Ogilvy UK. You diagnose why individually sensible managers reject experiments that become sensible at portfolio level. The source anchor is Rory's MFM account of Richard Thaler's risk-pooling intervention: division heads were rational to reject a risky initiative when a single failure could damage their own career, while the chief executive could rationall",
    "menu_status": "reachable",
    "front_door": "/rory-sutherland-marketing",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784341915.1480079
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785456031.8088472
+  },
+  {
+   "id": "behavioral-alchemy-router",
+   "command": "behavioral-alchemy-router",
+   "kind": "skill-workflow",
+   "skill": "rory-sutherland-marketing",
+   "path": "skills/rory-sutherland-marketing/workflows/behavioral-alchemy-router.md",
+   "description": "Routes a raw problem to one dominant Rory Sutherland mechanism, one canonical workflow, and at most one delivery expert.",
+   "menu_status": "reachable",
+   "front_door": "/rory-sutherland-marketing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785455593.9464426
   },
   {
    "id": "behavioral-copy-audit",
@@ -29863,8 +29938,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784341926.8027866
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457223.7859771
   },
   {
    "id": "behavioral-detective-protocol",
@@ -29878,8 +29953,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784341938.7525482
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785456143.0288894
   },
   {
    "id": "behavioral-value-offer-architecture",
@@ -29893,7 +29968,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
    "mtime": 1784341950.6424825
   },
   {
@@ -29908,8 +29983,23 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784341963.0101979
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457263.483687
+  },
+  {
+   "id": "chosen-tradeoff-architect",
+   "command": "chosen-tradeoff-architect",
+   "kind": "skill-workflow",
+   "skill": "rory-sutherland-marketing",
+   "path": "skills/rory-sutherland-marketing/workflows/chosen-tradeoff-architect.md",
+   "description": "Turns deliberate category deprivation into a voluntary, legible bargain with one compensating strength.",
+   "menu_status": "reachable",
+   "front_door": "/rory-sutherland-marketing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785455594.0904918
   },
   {
    "id": "conspiratorial-reframe-engine",
@@ -29923,8 +30013,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784341978.7362819
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457223.5074959
   },
   {
    "id": "consumer-perception-alchemy",
@@ -29938,8 +30028,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.857909
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457223.3589473
   },
   {
    "id": "high-stakes-persuasion-copy-protocol",
@@ -29953,7 +30043,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
    "mtime": 1773947745.6673617
   },
   {
@@ -29968,8 +30058,23 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8583019
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457262.987735
+  },
+  {
+   "id": "irritation-reversal-lab",
+   "command": "irritation-reversal-lab",
+   "kind": "skill-workflow",
+   "skill": "rory-sutherland-marketing",
+   "path": "skills/rory-sutherland-marketing/workflows/irritation-reversal-lab.md",
+   "description": "Turns recurring category annoyances into opposite-world product, service, media, or operating concepts.",
+   "menu_status": "reachable",
+   "front_door": "/rory-sutherland-marketing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785455594.3774924
   },
   {
    "id": "perception-dominance-campaign",
@@ -29983,8 +30088,8 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udca1 Belief & Perception",
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8588736
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457263.3007293
   },
   {
    "id": "perception-dopamine-engine",
@@ -29998,8 +30103,8 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udca1 Belief & Perception",
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8594048
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457263.1408725
   },
   {
    "id": "perception-metric-reframe",
@@ -30013,8 +30118,8 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udca1 Belief & Perception",
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8600156
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457263.65534
   },
   {
    "id": "positioning-perception-siege",
@@ -30028,8 +30133,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8606677
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457224.076708
   },
   {
    "id": "price-frame-architect",
@@ -30043,8 +30148,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8611443
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457224.2166967
   },
   {
    "id": "psychological-brand-strategy-blueprint",
@@ -30058,7 +30163,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
    "mtime": 1775779996.979996
   },
   {
@@ -30073,8 +30178,8 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1773947745.6677194
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457344.054465
   },
   {
    "id": "reverse-benchmarking-audit",
@@ -30082,14 +30187,14 @@
    "kind": "skill-workflow",
    "skill": "rory-sutherland-marketing",
    "path": "skills/rory-sutherland-marketing/workflows/reverse-benchmarking-audit.md",
-   "description": "You are Rory Sutherland, Vice Chairman of Ogilvy UK. You don't benchmark by copying what leaders do well \u2014 you hunt for what they do badly. Your operating principle: \"The path to #1 isn't matching the #1 \u2014 it's finding the things they're 'just slightly meh' at and making those your signature obsession.\" You deploy the Guidara/Eleven Madison Park methodology at industrial scale.",
+   "description": "You are Rory Sutherland, Vice Chairman of Ogilvy UK. You don't benchmark by copying what leaders do well; you hunt for what they leave merely adequate. Use the source-grounded Guidara questions: \u201cWhat was a bit disappointing? What was a bit meh?\u201d Then turn the verified gap into a testable signature strength.",
    "menu_status": "reachable",
    "front_door": "/rory-sutherland-marketing",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8615506
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457184.5245986
   },
   {
    "id": "sin-of-omission-audit",
@@ -30103,8 +30208,23 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1784342638.8622103
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457223.9368572
+  },
+  {
+   "id": "uncertainty-progress-designer",
+   "command": "uncertainty-progress-designer",
+   "kind": "skill-workflow",
+   "skill": "rory-sutherland-marketing",
+   "path": "skills/rory-sutherland-marketing/workflows/uncertainty-progress-designer.md",
+   "description": "Redesigns waiting, onboarding, and fulfillment through truthful estimates, visible progress, and useful agency.",
+   "menu_status": "reachable",
+   "front_door": "/rory-sutherland-marketing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785455594.2332144
   },
   {
    "id": "premium-at-scale-commercialization-blueprint",
@@ -30282,8 +30402,8 @@
    "front_door": "/sabrina-ramonov-ai-monetization",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-27T22:25:45.384744+00:00",
-   "skill_last_fired": "2026-07-27T22:25:45.384744+00:00",
+   "last_fired": "2026-07-30T16:20:24.391280+00:00",
+   "skill_last_fired": "2026-07-30T16:20:24.391280+00:00",
    "mtime": 1773947745.669072
   },
   {
@@ -30298,7 +30418,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:25:45.384744+00:00",
+   "skill_last_fired": "2026-07-30T16:20:24.391280+00:00",
    "mtime": 1773947745.6693158
   },
   {
@@ -30313,7 +30433,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T22:25:45.384744+00:00",
+   "skill_last_fired": "2026-07-30T16:20:24.391280+00:00",
    "mtime": 1775779996.9814193
   },
   {
@@ -33222,8 +33342,8 @@
    "front_door": "/skill-creator",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-25T16:42:14.888895+00:00",
-   "skill_last_fired": "2026-07-25T16:42:14.888895+00:00",
+   "last_fired": "2026-07-30T21:33:41.659747+00:00",
+   "skill_last_fired": "2026-07-30T21:33:41.659747+00:00",
    "mtime": 1782933276.5583353
   },
   {
@@ -33478,7 +33598,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.502515
   },
   {
@@ -33493,7 +33613,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5030317
   },
   {
@@ -33508,7 +33628,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.503496
   },
   {
@@ -33523,7 +33643,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5039241
   },
   {
@@ -33538,7 +33658,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1776097010.960374
   },
   {
@@ -33553,7 +33673,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5042062
   },
   {
@@ -33568,7 +33688,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5045288
   },
   {
@@ -33583,7 +33703,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5048554
   },
   {
@@ -33598,7 +33718,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5052125
   },
   {
@@ -33613,7 +33733,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1776097131.0678196
   },
   {
@@ -33628,7 +33748,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1784341157.5055082
   },
   {
@@ -33643,7 +33763,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T15:28:29.862708+00:00",
+   "skill_last_fired": "2026-07-30T20:39:54.193701+00:00",
    "mtime": 1776097221.978511
   },
   {
@@ -34408,7 +34528,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2466078
   },
   {
@@ -34423,7 +34543,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.246926
   },
   {
@@ -34438,7 +34558,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2470887
   },
   {
@@ -34453,7 +34573,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2473655
   },
   {
@@ -34468,7 +34588,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.247627
   },
   {
@@ -34483,7 +34603,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2477689
   },
   {
@@ -34498,7 +34618,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2479916
   },
   {
@@ -34513,7 +34633,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.248146
   },
   {
@@ -34528,7 +34648,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2482939
   },
   {
@@ -34543,7 +34663,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2484198
   },
   {
@@ -34558,7 +34678,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2485387
   },
   {
@@ -34573,7 +34693,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:08:38.052430+00:00",
+   "skill_last_fired": "2026-07-30T23:29:30.081951+00:00",
    "mtime": 1782845946.2487247
   },
   {
@@ -37568,6 +37688,19 @@
    "mtime": 1784686539.808098
   },
   {
+   "id": "adoption-unit",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/adoption-unit.md",
+   "description": "Plain-language Rory alias \u2014 translate an unfamiliar specification, capability, price, or performance metric into an auditable buyer-native unit.",
+   "menu_status": "reachable",
+   "front_door": "/adoption-unit",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785457323.9194372
+  },
+  {
    "id": "adpsy-armchair-investigation",
    "kind": "command-workflow",
    "skill": null,
@@ -37748,6 +37881,19 @@
    "family": null,
    "last_fired": null,
    "mtime": 1785006847.3998191
+  },
+  {
+   "id": "advertising-archaeology-lab",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/advertising-archaeology-lab.md",
+   "description": "Recovers an abandoned advertising or media mechanism, removes its dated skin, and tests a modern expression.",
+   "menu_status": "reachable",
+   "front_door": "/advertising-archaeology-lab",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785456303.428192
   },
   {
    "id": "aeo-content-weaponization-plan",
@@ -40363,6 +40509,19 @@
    "mtime": 1784995905.781271
   },
   {
+   "id": "behavioral-alchemy-router",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/behavioral-alchemy-router.md",
+   "description": "Routes a raw problem to one dominant Rory Sutherland mechanism, one canonical workflow, and at most one delivery expert.",
+   "menu_status": "reachable",
+   "front_door": "/behavioral-alchemy-router",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785456303.429132
+  },
+  {
    "id": "behavioral-copy-audit",
    "kind": "command-workflow",
    "skill": null,
@@ -42170,6 +42329,19 @@
    "mtime": 1775779996.315527
   },
   {
+   "id": "chosen-tradeoff-architect",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/chosen-tradeoff-architect.md",
+   "description": "Turns deliberate category deprivation into a voluntary, legible bargain with one compensating strength.",
+   "menu_status": "reachable",
+   "front_door": "/chosen-tradeoff-architect",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785456303.4294717
+  },
+  {
    "id": "chris-cimorelli-back-end-promotion",
    "kind": "command-workflow",
    "skill": null,
@@ -43180,7 +43352,7 @@
    "front_door": "/content-audience-profile",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": null,
+   "last_fired": "2026-07-30T21:55:46.254713+00:00",
    "mtime": 1784686539.8183722
   },
   {
@@ -43311,7 +43483,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784686539.8148055
+   "mtime": 1785429385.1181984
   },
   {
    "id": "content-funnel",
@@ -43327,6 +43499,19 @@
    "mtime": 1784686539.7530057
   },
   {
+   "id": "content-ideas",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/content-ideas.md",
+   "description": "Generate evidence-backed idea cards from audience, owned winners, and fresh signals",
+   "menu_status": "unreachable",
+   "front_door": "/content-ideas",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785429198.065013
+  },
+  {
    "id": "content-orchestrate",
    "kind": "command-workflow",
    "skill": null,
@@ -43337,7 +43522,20 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784686539.774741
+   "mtime": 1785429384.950278
+  },
+  {
+   "id": "content-queue",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/content-queue.md",
+   "description": "Maintain the selected content idea queue with visible state transitions",
+   "menu_status": "unreachable",
+   "front_door": "/content-queue",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785429198.208104
   },
   {
    "id": "content-remix",
@@ -43363,7 +43561,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784686539.8419027
+   "mtime": 1785429385.3289165
   },
   {
    "id": "content-series-plan",
@@ -43416,6 +43614,19 @@
    "family": null,
    "last_fired": null,
    "mtime": 1784686539.664725
+  },
+  {
+   "id": "content-winning-profile",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/content-winning-profile.md",
+   "description": "Build a platform-specific profile from the creator's owned content evidence",
+   "menu_status": "unreachable",
+   "front_door": "/content-winning-profile",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785429197.924793
   },
   {
    "id": "context-audit",
@@ -47067,7 +47278,7 @@
    "front_door": "/end-session",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-14T05:56:27.115197+00:00",
+   "last_fired": "2026-07-30T16:32:03.096622+00:00",
    "mtime": 1784686430.2570271
   },
   {
@@ -47483,7 +47694,7 @@
    "front_door": "/extract-forge",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-28T14:54:35.196702+00:00",
+   "last_fired": "2026-07-30T23:45:36.793903+00:00",
    "mtime": 1784827873.926048
   },
   {
@@ -48681,6 +48892,19 @@
    "family": null,
    "last_fired": null,
    "mtime": 1783031928.6264338
+  },
+  {
+   "id": "fresh-pen",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/fresh-pen.md",
+   "description": "Compile a fresh-pen run packet \u2014 move a rejected or fatigued taste-bearing mission to a clean session carrying verdicts, route orders, and proof, never the fatigue",
+   "menu_status": "reachable",
+   "front_door": "/fresh-pen",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785394678.7431436
   },
   {
    "id": "full-stack-ad",
@@ -51192,6 +51416,19 @@
    "mtime": 1777834603.7057705
   },
   {
+   "id": "hidden-secondary-market-finder",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/hidden-secondary-market-finder.md",
+   "description": "Plain-language Rory alias \u2014 find adjacent users who receive a focused product's core benefit as a byproduct.",
+   "menu_status": "reachable",
+   "front_door": "/hidden-secondary-market-finder",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785457324.2002218
+  },
+  {
    "id": "higgsfield-studio",
    "kind": "command-workflow",
    "skill": null,
@@ -52256,6 +52493,19 @@
    "family": null,
    "last_fired": null,
    "mtime": 1775779996.3599372
+  },
+  {
+   "id": "irritation-reversal-lab",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/irritation-reversal-lab.md",
+   "description": "Turns recurring category annoyances into opposite-world product, service, media, or operating concepts.",
+   "menu_status": "reachable",
+   "front_door": "/irritation-reversal-lab",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785456303.4297755
   },
   {
    "id": "jackpost",
@@ -61774,6 +62024,19 @@
    "mtime": 1784686539.7535243
   },
   {
+   "id": "psychological-bottleneck-finder",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/psychological-bottleneck-finder.md",
+   "description": "Plain-language Rory alias \u2014 rank the behavioral obstruction before changing copy, product, or funnel.",
+   "menu_status": "reachable",
+   "front_door": "/psychological-bottleneck-finder",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785457324.060246
+  },
+  {
    "id": "psychological-brand-strategy-blueprint",
    "kind": "command-workflow",
    "skill": null,
@@ -68625,6 +68888,19 @@
    "mtime": 1785006847.384073
   },
   {
+   "id": "uncertainty-progress-designer",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/uncertainty-progress-designer.md",
+   "description": "Redesigns waiting, onboarding, and fulfillment through truthful estimates, visible progress, and useful agency.",
+   "menu_status": "reachable",
+   "front_door": "/uncertainty-progress-designer",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785456303.4299493
+  },
+  {
    "id": "universal-narrative-blueprint",
    "kind": "command-workflow",
    "skill": null,
@@ -71054,7 +71330,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": "2026-07-11T17:28:28.743398+00:00",
-   "mtime": 1785250296.6624928
+   "mtime": 1785456328.1207674
   },
   {
    "id": "adam-sandler-second-brain-gtm",
@@ -71068,7 +71344,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1785250296.6627104
+   "mtime": 1785456328.1218574
   },
   {
    "id": "ai-carousel-content-engine",
@@ -71082,7 +71358,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1785250296.6629698
+   "mtime": 1785456328.1225383
   },
   {
    "id": "ai-chris-lee-zero-testimonial-sales",
@@ -71096,7 +71372,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-11T17:50:44.318235+00:00",
-   "mtime": 1785250296.6633978
+   "mtime": 1785456328.1232166
   },
   {
    "id": "alan-aragon-nutrition",
@@ -71110,7 +71386,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-30T02:15:17.096032+00:00",
-   "mtime": 1785250296.663941
+   "mtime": 1785456328.123784
   },
   {
    "id": "alen-sultanic-copywriting",
@@ -71124,7 +71400,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1785250296.6646502
+   "mtime": 1785456328.1240356
   },
   {
    "id": "alex-content-science",
@@ -71138,7 +71414,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": "2026-07-28T21:56:55.460439+00:00",
-   "mtime": 1785250296.6649413
+   "mtime": 1785456328.124386
   },
   {
    "id": "alex-copper-creative-strategy",
@@ -71152,7 +71428,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": "2026-07-29T02:55:38.123858+00:00",
-   "mtime": 1785250296.6651094
+   "mtime": 1785456328.1250706
   },
   {
    "id": "alex-hormozi-business",
@@ -71166,7 +71442,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6652606
+   "mtime": 1785456328.125541
   },
   {
    "id": "alex-m-smith-natural-strategy",
@@ -71179,8 +71455,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 5,
-   "last_fired": "2026-07-27T22:17:27.977800+00:00",
-   "mtime": 1785250296.6678233
+   "last_fired": "2026-07-30T19:53:31.468679+00:00",
+   "mtime": 1785456328.1259816
   },
   {
    "id": "alex-myatt-creative-engine",
@@ -71194,7 +71470,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": "2026-07-27T18:31:04.922838+00:00",
-   "mtime": 1785250296.6680658
+   "mtime": 1785456328.126497
   },
   {
    "id": "alex-suzuki-digital-product-revenue-os",
@@ -71208,7 +71484,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": "2026-07-15T14:58:05.701231+00:00",
-   "mtime": 1785250296.6698287
+   "mtime": 1785456328.1269221
   },
   {
    "id": "algorithmic-art",
@@ -71222,7 +71498,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-18T21:11:40.804313+00:00",
-   "mtime": 1785250296.6702077
+   "mtime": 1785456328.1289237
   },
   {
    "id": "ali-abdaal-action-bias",
@@ -71236,7 +71512,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-28T21:56:55.460439+00:00",
-   "mtime": 1785250296.6703463
+   "mtime": 1785456328.129301
   },
   {
    "id": "andreessen-horowitz-new-media",
@@ -71250,7 +71526,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-27T22:25:45.384744+00:00",
-   "mtime": 1785250296.6704702
+   "mtime": 1785456328.129524
   },
   {
    "id": "andrew-dun-vibe-consulting",
@@ -71264,7 +71540,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": "2026-07-16T18:49:09.902474+00:00",
-   "mtime": 1785250296.67061
+   "mtime": 1785456328.1298435
   },
   {
    "id": "andrew-lane-design-systems",
@@ -71278,7 +71554,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6707778
+   "mtime": 1785456328.130047
   },
   {
    "id": "andrew-stanton-audience-engineering",
@@ -71292,7 +71568,7 @@
    "family": null,
    "workflow_count": 21,
    "last_fired": "2026-07-19T15:59:44.074763+00:00",
-   "mtime": 1785250296.6709266
+   "mtime": 1785456328.1303992
   },
   {
    "id": "andrew-wilkinson-ai-entrepreneurship",
@@ -71306,7 +71582,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.6710792
+   "mtime": 1785456328.1308358
   },
   {
    "id": "andy-galpin-training-intelligence",
@@ -71320,7 +71596,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.6711931
+   "mtime": 1785456328.1310039
   },
   {
    "id": "andy-lo-premium-websites",
@@ -71334,7 +71610,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.6713078
+   "mtime": 1785456328.1311624
   },
   {
    "id": "april-dunford-positioning",
@@ -71348,7 +71624,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": "2026-07-28T17:06:55.322617+00:00",
-   "mtime": 1785250296.6715689
+   "mtime": 1785456328.131551
   },
   {
    "id": "ash-maurya-founder-systems",
@@ -71362,7 +71638,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1785250296.6718228
+   "mtime": 1785456328.1317115
   },
   {
    "id": "ash-maurya-lean-metrics",
@@ -71376,7 +71652,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6719694
+   "mtime": 1785456328.1318855
   },
   {
    "id": "asset_generator",
@@ -71390,7 +71666,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-08T01:05:19.802065+00:00",
-   "mtime": 1785250296.6721241
+   "mtime": 1785456328.1322699
   },
   {
    "id": "attention-hijack-hooks",
@@ -71404,7 +71680,7 @@
    "family": "\ud83d\udca1 Obsession & Attention",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.6722448
+   "mtime": 1785456328.1324344
   },
   {
    "id": "authority-hacker-ai-social-media",
@@ -71418,7 +71694,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6723685
+   "mtime": 1785456328.1326156
   },
   {
    "id": "banana-pro-director",
@@ -71446,7 +71722,7 @@
    "family": null,
    "workflow_count": 18,
    "last_fired": "2026-07-30T06:45:02.906976+00:00",
-   "mtime": 1785250296.672786
+   "mtime": 1785456328.1329079
   },
   {
    "id": "benjamin-hardy-identity",
@@ -71460,7 +71736,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-21T05:24:53.785750+00:00",
-   "mtime": 1785250296.6729293
+   "mtime": 1785456328.1332006
   },
   {
    "id": "bill-browder-high-stakes-narrative",
@@ -71474,7 +71750,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-27T04:03:42.845574+00:00",
-   "mtime": 1785250296.673331
+   "mtime": 1785456328.1337776
   },
   {
    "id": "bitbranding-fashion-shopify",
@@ -71488,7 +71764,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.673499
+   "mtime": 1785456328.133931
   },
   {
    "id": "bond-halbert-copywriting",
@@ -71502,7 +71778,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.673649
+   "mtime": 1785456328.1341574
   },
   {
    "id": "boris-claude-code",
@@ -71516,7 +71792,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-29T22:21:35.448403+00:00",
-   "mtime": 1785250296.6738062
+   "mtime": 1785456328.1343546
   },
   {
    "id": "brad-bonanno-explainer-architecture",
@@ -71530,7 +71806,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-17T15:11:52.124295+00:00",
-   "mtime": 1785250296.6739647
+   "mtime": 1785456328.1345441
   },
   {
    "id": "brand-guidelines",
@@ -71544,7 +71820,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1785250296.6754358
+   "mtime": 1785456328.1349337
   },
   {
    "id": "brand-operating-system",
@@ -71558,7 +71834,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": "2026-07-29T22:21:35.448403+00:00",
-   "mtime": 1785299203.57126
+   "mtime": 1785456328.135159
   },
   {
    "id": "brandon-jacoby-taste-mastery",
@@ -71572,7 +71848,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": "2026-07-25T03:40:09.341228+00:00",
-   "mtime": 1785250296.676
+   "mtime": 1785456328.135311
   },
   {
    "id": "brendan-kane-viral-strategy",
@@ -71586,7 +71862,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6761835
+   "mtime": 1785456328.1356573
   },
   {
    "id": "briar-cochran-content-science",
@@ -71599,8 +71875,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 12,
-   "last_fired": "2026-07-29T01:00:20.580106+00:00",
-   "mtime": 1785250296.676357
+   "last_fired": "2026-07-30T16:29:44.567280+00:00",
+   "mtime": 1785456328.1357872
   },
   {
    "id": "brock-johnson-shareworthy-content",
@@ -71614,7 +71890,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6765037
+   "mtime": 1785456328.1361198
   },
   {
    "id": "business-intelligence-audit",
@@ -71627,8 +71903,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-21T12:58:55.939759+00:00",
-   "mtime": 1785250296.6766605
+   "last_fired": "2026-07-30T16:20:24.391280+00:00",
+   "mtime": 1785456328.1363876
   },
   {
    "id": "caleb-ralston-personal-brand",
@@ -71642,7 +71918,7 @@
    "family": null,
    "workflow_count": 11,
    "last_fired": null,
-   "mtime": 1785250296.6768448
+   "mtime": 1785456328.1365955
   },
   {
    "id": "canvas-design",
@@ -71656,7 +71932,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1785250296.6770751
+   "mtime": 1785456328.1368496
   },
   {
    "id": "cardinal-mason-ai-copywriting",
@@ -71670,7 +71946,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": "2026-07-27T15:01:35.168331+00:00",
-   "mtime": 1785250296.677423
+   "mtime": 1785456328.1370983
   },
   {
    "id": "chase-hughes-context-engineering",
@@ -71684,7 +71960,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": "2026-07-28T15:14:59.943330+00:00",
-   "mtime": 1785250296.677764
+   "mtime": 1785456328.1373112
   },
   {
    "id": "chase-hughes-conversational-influence",
@@ -71698,7 +71974,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": "2026-07-27T18:44:12.857550+00:00",
-   "mtime": 1785250296.6780999
+   "mtime": 1785456328.1375442
   },
   {
    "id": "cheri-tree-bank-buyology",
@@ -71712,7 +71988,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.68454
+   "mtime": 1785456328.137683
   },
   {
    "id": "chief-of-staff-os",
@@ -71726,7 +72002,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-28T20:00:47.991449+00:00",
-   "mtime": 1785250296.6847265
+   "mtime": 1785456328.1378963
   },
   {
    "id": "chris-cimorelli-copywriting",
@@ -71740,7 +72016,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6850545
+   "mtime": 1785456328.138146
   },
   {
    "id": "chris-do-design-business",
@@ -71754,7 +72030,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6851888
+   "mtime": 1785456328.1382718
   },
   {
    "id": "cinema-worldbuilder-pro",
@@ -71782,7 +72058,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-13T23:53:26.033826+00:00",
-   "mtime": 1785250296.6853719
+   "mtime": 1785456328.1383994
   },
   {
    "id": "claim-safe-health-marketing",
@@ -71796,7 +72072,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": "2026-07-27T22:27:53.188071+00:00",
-   "mtime": 1785250296.6855152
+   "mtime": 1785456328.1385636
   },
   {
    "id": "coaching-business-os",
@@ -71810,7 +72086,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": "2026-07-21T23:27:47.482273+00:00",
-   "mtime": 1785250296.6858804
+   "mtime": 1785456328.138695
   },
   {
    "id": "cognitive-engagement-optimizer",
@@ -71824,7 +72100,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.686142
+   "mtime": 1785456328.139
   },
   {
    "id": "consumer-posture-research",
@@ -71838,7 +72114,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-28T22:02:49.732527+00:00",
-   "mtime": 1785250296.686465
+   "mtime": 1785456328.1393528
   },
   {
    "id": "context-profile-architect",
@@ -71851,8 +72127,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-27T19:20:53.852282+00:00",
-   "mtime": 1785250296.6867237
+   "last_fired": "2026-07-30T21:33:41.659747+00:00",
+   "mtime": 1785456328.139512
   },
   {
    "id": "corey-mcclain-persona-engineering",
@@ -71866,7 +72142,7 @@
    "family": null,
    "workflow_count": 20,
    "last_fired": "2026-07-21T13:01:44.555136+00:00",
-   "mtime": 1785250296.686892
+   "mtime": 1785456328.1396742
   },
   {
    "id": "craig-clemens-copywriting",
@@ -71880,7 +72156,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.6870625
+   "mtime": 1785456328.1402423
   },
   {
    "id": "creative-assembly",
@@ -71894,7 +72170,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-15T19:09:01.419842+00:00",
-   "mtime": 1785250296.6873102
+   "mtime": 1785456328.1404586
   },
   {
    "id": "creative-campaign-strategy",
@@ -71907,8 +72183,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 23,
-   "last_fired": "2026-07-30T06:48:53.175976+00:00",
-   "mtime": 1785250296.6875904
+   "last_fired": "2026-07-30T17:40:22.060541+00:00",
+   "mtime": 1785456328.140947
   },
   {
    "id": "creative-direction",
@@ -71922,7 +72198,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-14T23:43:57.383485+00:00",
-   "mtime": 1785250296.687889
+   "mtime": 1785456328.1411116
   },
   {
    "id": "dai-media-consumer-posture",
@@ -71936,7 +72212,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-19T02:46:56.202686+00:00",
-   "mtime": 1785250296.6880908
+   "mtime": 1785456328.1412694
   },
   {
    "id": "dakota-content-design",
@@ -71950,7 +72226,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6882212
+   "mtime": 1785456328.141384
   },
   {
    "id": "damon-cart-nlp",
@@ -71964,7 +72240,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6883786
+   "mtime": 1785456328.1415036
   },
   {
    "id": "dan-bolton-coaching-offers",
@@ -71978,7 +72254,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-16T18:10:49.830138+00:00",
-   "mtime": 1785250296.6885202
+   "mtime": 1785456328.1416583
   },
   {
    "id": "dan-koe-ai-leverage",
@@ -71992,7 +72268,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-16T23:49:33.468973+00:00",
-   "mtime": 1785250296.688655
+   "mtime": 1785456328.1418102
   },
   {
    "id": "dan-koe-multipassionate-mastery",
@@ -72006,7 +72282,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": "2026-07-21T03:32:03.972198+00:00",
-   "mtime": 1785250296.688808
+   "mtime": 1785456328.141973
   },
   {
    "id": "dan-martell-business-scaling",
@@ -72020,7 +72296,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": "2026-07-24T22:31:10.233672+00:00",
-   "mtime": 1785250296.688948
+   "mtime": 1785456328.1421351
   },
   {
    "id": "dan-wang-literary-analysis",
@@ -72034,7 +72310,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-17T00:19:56.229633+00:00",
-   "mtime": 1785250296.6891224
+   "mtime": 1785456328.1423936
   },
   {
    "id": "daniel-pink-writing-structure",
@@ -72048,7 +72324,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.6894848
+   "mtime": 1785456328.1426342
   },
   {
    "id": "daniel-priestley-24-assets-os",
@@ -72062,7 +72338,7 @@
    "family": "\ud83d\udcc7 24 Assets OS \u2014 Daniel Priestley",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.6896508
+   "mtime": 1785456328.1428006
   },
   {
    "id": "daniel-priestley-oversubscribed",
@@ -72076,7 +72352,7 @@
    "family": "\ud83d\udcc7 24 Assets OS \u2014 Daniel Priestley",
    "workflow_count": 9,
    "last_fired": "2026-07-11T17:11:06.562519+00:00",
-   "mtime": 1785250296.6898088
+   "mtime": 1785456328.1429877
   },
   {
    "id": "daniel-priestley-sll-engine",
@@ -72090,7 +72366,7 @@
    "family": "\ud83d\udcc7 24 Assets OS \u2014 Daniel Priestley",
    "workflow_count": 5,
    "last_fired": "2026-07-19T18:11:28.554997+00:00",
-   "mtime": 1785250296.6899488
+   "mtime": 1785456328.1431484
   },
   {
    "id": "daniel-thrasher-affiliate",
@@ -72104,7 +72380,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.690124
+   "mtime": 1785456328.1433089
   },
   {
    "id": "dara-denney-meta-ads",
@@ -72118,7 +72394,7 @@
    "family": null,
    "workflow_count": 26,
    "last_fired": "2026-07-24T18:10:27.127855+00:00",
-   "mtime": 1785250296.6904209
+   "mtime": 1785456328.143615
   },
   {
    "id": "darrel-wilson-ai-affiliate",
@@ -72132,7 +72408,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": "2026-07-18T16:03:23.362430+00:00",
-   "mtime": 1785250296.6905844
+   "mtime": 1785456328.1437457
   },
   {
    "id": "darrel-wilson-ai-monetization",
@@ -72146,7 +72422,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-23T17:08:28.107375+00:00",
-   "mtime": 1785250296.690731
+   "mtime": 1785456328.1440086
   },
   {
    "id": "david-baldacci-books-that-sell",
@@ -72160,7 +72436,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1785250296.6908932
+   "mtime": 1785456328.1442683
   },
   {
    "id": "david-bayer-elite-communication",
@@ -72174,7 +72450,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-27T17:49:51.962787+00:00",
-   "mtime": 1785250296.691077
+   "mtime": 1785456328.1444092
   },
   {
    "id": "david-deutsch-copywriting",
@@ -72188,7 +72464,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.6912305
+   "mtime": 1785456328.144578
   },
   {
    "id": "david-mcraney-belief-change",
@@ -72202,7 +72478,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1785250296.6913803
+   "mtime": 1785456328.1447458
   },
   {
    "id": "david-perell-writing",
@@ -72215,8 +72491,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-23T05:03:28.147690+00:00",
-   "mtime": 1785250296.6915224
+   "last_fired": "2026-07-30T16:46:08.063558+00:00",
+   "mtime": 1785456328.145612
   },
   {
    "id": "david-placek-naming",
@@ -72230,7 +72506,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": "2026-07-07T22:33:01.825752+00:00",
-   "mtime": 1785250296.6916714
+   "mtime": 1785456328.1458166
   },
   {
    "id": "deliberate",
@@ -72244,7 +72520,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": "2026-07-18T03:37:38.733626+00:00",
-   "mtime": 1785250296.6918378
+   "mtime": 1785456328.1460717
   },
   {
    "id": "design-md",
@@ -72258,7 +72534,7 @@
    "family": "\ud83c\udfa8 Design.md & Systems",
    "workflow_count": 7,
    "last_fired": "2026-07-22T01:11:56.834038+00:00",
-   "mtime": 1785250296.6920125
+   "mtime": 1785456328.1463437
   },
   {
    "id": "deya-business-systems",
@@ -72272,7 +72548,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.693855
+   "mtime": 1785456328.1465034
   },
   {
    "id": "diandra-escobar-linkedin-growth",
@@ -72286,7 +72562,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Diandra Escobar",
    "workflow_count": 22,
    "last_fired": "2026-07-19T15:59:44.074763+00:00",
-   "mtime": 1785250296.6940367
+   "mtime": 1785456328.1468394
   },
   {
    "id": "diandra-escobar-linkedin-mastery",
@@ -72314,7 +72590,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-29T22:44:39.766579+00:00",
-   "mtime": 1785250296.6942456
+   "mtime": 1785456328.147119
   },
   {
    "id": "docx",
@@ -72328,7 +72604,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-18T23:18:33.255937+00:00",
-   "mtime": 1785250296.6944017
+   "mtime": 1785456328.1474762
   },
   {
    "id": "dom-iacovone-multi-company-operator",
@@ -72342,7 +72618,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.694567
+   "mtime": 1785456328.1476429
   },
   {
    "id": "donald-miller-business-growth",
@@ -72356,7 +72632,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1785250296.6947072
+   "mtime": 1785456328.1479156
   },
   {
    "id": "donald-miller-cognitive-load",
@@ -72370,7 +72646,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 8,
    "last_fired": "2026-07-28T17:06:55.322617+00:00",
-   "mtime": 1785250296.6948707
+   "mtime": 1785456328.1480727
   },
   {
    "id": "donald-miller-culture-turnaround",
@@ -72384,7 +72660,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 4,
    "last_fired": "2026-07-14T01:07:11.527974+00:00",
-   "mtime": 1785250296.6950212
+   "mtime": 1785456328.1482599
   },
   {
    "id": "donald-miller-messaging-evolution",
@@ -72398,7 +72674,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 6,
    "last_fired": "2026-07-19T08:04:58.857001+00:00",
-   "mtime": 1785250296.6953852
+   "mtime": 1785456328.1485531
   },
   {
    "id": "donald-miller-storybrand",
@@ -72412,7 +72688,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 9,
    "last_fired": "2026-07-18T02:35:06.392880+00:00",
-   "mtime": 1785250296.6955605
+   "mtime": 1785456328.1486864
   },
   {
    "id": "dr-k-consciousness",
@@ -72426,7 +72702,7 @@
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "workflow_count": 11,
    "last_fired": "2026-07-28T22:02:49.732527+00:00",
-   "mtime": 1785250296.695702
+   "mtime": 1785456328.1488512
   },
   {
    "id": "dr-kriukow-humanization",
@@ -72440,7 +72716,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": "2026-07-28T00:05:01.900418+00:00",
-   "mtime": 1785250296.6958249
+   "mtime": 1785456328.1490743
   },
   {
    "id": "enrico-incarnati-instagram-realestate",
@@ -72454,7 +72730,7 @@
    "family": "\ud83c\udfe0 Real Estate \u2014 Enrico Incarnati",
    "workflow_count": 10,
    "last_fired": "2026-07-25T17:16:27.082062+00:00",
-   "mtime": 1785250296.6959574
+   "mtime": 1785456328.1492186
   },
   {
    "id": "eric-roth-screenwriting-mastery",
@@ -72468,7 +72744,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1785250296.6961048
+   "mtime": 1785456328.149395
   },
   {
    "id": "eric-roth-writing-mastery",
@@ -72482,7 +72758,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1785250296.6962788
+   "mtime": 1785456328.149762
   },
   {
    "id": "erica-mallet-brand-magnetism",
@@ -72496,7 +72772,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.6964467
+   "mtime": 1785456328.1499584
   },
   {
    "id": "ethan-smith-aeo",
@@ -72510,7 +72786,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-27T18:44:12.857550+00:00",
-   "mtime": 1785250296.696601
+   "mtime": 1785456328.150095
   },
   {
    "id": "eugene-teo-training",
@@ -72524,7 +72800,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-27T21:54:05.195320+00:00",
-   "mtime": 1785250296.6967118
+   "mtime": 1785456328.1502888
   },
   {
    "id": "evan-spiegel-distribution-architecture",
@@ -72538,7 +72814,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-18T03:29:24.431306+00:00",
-   "mtime": 1785250296.6978607
+   "mtime": 1785456328.150462
   },
   {
    "id": "expert-assembly-os",
@@ -72565,8 +72841,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-15T16:47:33.986843+00:00",
-   "mtime": 1785250296.69802
+   "last_fired": "2026-07-30T17:32:41.118389+00:00",
+   "mtime": 1785456328.1506557
   },
   {
    "id": "fantastic-posters",
@@ -72579,8 +72855,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 14,
-   "last_fired": "2026-07-27T23:21:29.624633+00:00",
-   "mtime": 1785250296.698209
+   "last_fired": "2026-07-30T17:18:49.992501+00:00",
+   "mtime": 1785456328.1508293
   },
   {
    "id": "fareed-zakaria-writing-mastery",
@@ -72594,7 +72870,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": "2026-07-18T04:50:08.754023+00:00",
-   "mtime": 1785250296.6983593
+   "mtime": 1785456328.1510084
   },
   {
    "id": "forge-os",
@@ -72608,7 +72884,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": "2026-07-25T18:03:23.289997+00:00",
-   "mtime": 1785250296.6985333
+   "mtime": 1785456328.1511514
   },
   {
    "id": "fraser-cottrell-paid-ads",
@@ -72622,7 +72898,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-30T04:56:40.528825+00:00",
-   "mtime": 1785250296.7002225
+   "mtime": 1785456328.1512752
   },
   {
    "id": "fresh-voice-system",
@@ -72635,8 +72911,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-30T05:04:29.729808+00:00",
-   "mtime": 1785298805.449236
+   "last_fired": "2026-07-30T17:41:20.886238+00:00",
+   "mtime": 1785456328.1514385
   },
   {
    "id": "frontend-design",
@@ -72650,7 +72926,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-21T03:32:03.972198+00:00",
-   "mtime": 1785250296.7022374
+   "mtime": 1785456328.1515603
   },
   {
    "id": "fryderyk-wiatrowski-ai-employee-os",
@@ -72664,7 +72940,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1785250296.7023816
+   "mtime": 1785456328.1517265
   },
   {
    "id": "futurepedia-prompt-engineering",
@@ -72678,7 +72954,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": "2026-07-19T17:23:18.563033+00:00",
-   "mtime": 1785250296.7025163
+   "mtime": 1785456328.151889
   },
   {
    "id": "gabe-novotny-fitness-content-business",
@@ -72692,7 +72968,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.702644
+   "mtime": 1785456328.152047
   },
   {
    "id": "gary-vaynerchuk-attention",
@@ -72706,7 +72982,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7027767
+   "mtime": 1785456328.1524065
   },
   {
    "id": "gemini-api-dev",
@@ -72720,7 +72996,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-28T22:02:49.732527+00:00",
-   "mtime": 1785250296.7028894
+   "mtime": 1785456328.1525416
   },
   {
    "id": "geoff-woods-ai-thought-partner",
@@ -72734,7 +73010,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1785250296.7031696
+   "mtime": 1785456328.1528041
   },
   {
    "id": "ghostwriting-voice-engine",
@@ -72748,7 +73024,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7033353
+   "mtime": 1785456328.15295
   },
   {
    "id": "gpt-image-2-director",
@@ -72762,7 +73038,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-30T04:56:40.528825+00:00",
-   "mtime": 1785250296.7034838
+   "mtime": 1785456328.1533067
   },
   {
    "id": "grace-andrews-media-company",
@@ -72776,7 +73052,7 @@
    "family": null,
    "workflow_count": 18,
    "last_fired": null,
-   "mtime": 1785250296.7037942
+   "mtime": 1785456328.15359
   },
   {
    "id": "greg-hickman-service-scaling",
@@ -72790,7 +73066,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7039719
+   "mtime": 1785456328.1539335
   },
   {
    "id": "greg-hoffman-brand-mastery",
@@ -72804,7 +73080,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.7041595
+   "mtime": 1785456328.1540833
   },
   {
    "id": "growth-ecosystems",
@@ -72818,7 +73094,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.704302
+   "mtime": 1785456328.1542392
   },
   {
    "id": "harry-dry-copywriting",
@@ -72832,7 +73108,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7044344
+   "mtime": 1785456328.1543887
   },
   {
    "id": "henrik-werdelin-portfolio-entrepreneurship",
@@ -72846,7 +73122,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-08T02:47:16.374017+00:00",
-   "mtime": 1785250296.7045681
+   "mtime": 1785456328.1545482
   },
   {
    "id": "henry-shukman-contemplative-writing",
@@ -72860,7 +73136,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-19T15:19:08.429950+00:00",
-   "mtime": 1785250296.7047384
+   "mtime": 1785456328.1548455
   },
   {
    "id": "higgsfield-creative-studio",
@@ -72874,7 +73150,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": "2026-07-15T16:16:19.377591+00:00",
-   "mtime": 1785250296.704886
+   "mtime": 1785456328.154969
   },
   {
    "id": "hilary-gridley",
@@ -72888,7 +73164,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-28T14:54:35.196702+00:00",
-   "mtime": 1785250296.7050455
+   "mtime": 1785456328.1551285
   },
   {
    "id": "how-i-write-os",
@@ -72902,7 +73178,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": "2026-07-25T17:32:13.579566+00:00",
-   "mtime": 1785250296.7053125
+   "mtime": 1785456328.155279
   },
   {
    "id": "internal-comms",
@@ -72916,7 +73192,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-24T18:23:33.912667+00:00",
-   "mtime": 1785250296.7056303
+   "mtime": 1785456328.1556
   },
   {
    "id": "jack-roberts-design-mastery",
@@ -72930,7 +73206,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": "2026-07-25T16:42:14.888895+00:00",
-   "mtime": 1785250296.7057786
+   "mtime": 1785456328.155731
   },
   {
    "id": "james-i-bond-brain-glue",
@@ -72944,7 +73220,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7059166
+   "mtime": 1785456328.1558867
   },
   {
    "id": "jasmin-alic-linkedin-growth",
@@ -72958,7 +73234,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.706049
+   "mtime": 1785456328.1560354
   },
   {
    "id": "jason-fladlien-marketing",
@@ -72972,7 +73248,7 @@
    "family": null,
    "workflow_count": 36,
    "last_fired": "2026-07-27T22:27:53.188071+00:00",
-   "mtime": 1785250296.7063932
+   "mtime": 1785456328.156225
   },
   {
    "id": "jay-hiette-coaching-positioning",
@@ -72986,7 +73262,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7066643
+   "mtime": 1785456328.1563683
   },
   {
    "id": "jen-santulan-listing-content",
@@ -73000,7 +73276,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-25T17:32:13.579566+00:00",
-   "mtime": 1785250296.706839
+   "mtime": 1785456328.1565244
   },
   {
    "id": "jenny-hoyos-shorts",
@@ -73014,7 +73290,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": "2026-07-19T18:11:28.554997+00:00",
-   "mtime": 1785250296.7071142
+   "mtime": 1785456328.1566918
   },
   {
    "id": "jeremy-haynes-cold-offer",
@@ -73028,7 +73304,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": "2026-07-21T23:27:47.482273+00:00",
-   "mtime": 1785250296.7074556
+   "mtime": 1785456328.1570246
   },
   {
    "id": "jeremy-haynes-mindset-systems",
@@ -73042,7 +73318,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-27T21:54:05.195320+00:00",
-   "mtime": 1785250296.7076216
+   "mtime": 1785456328.1571894
   },
   {
    "id": "jeremy-miner-identity-persuasion",
@@ -73056,7 +73332,7 @@
    "family": null,
    "workflow_count": 11,
    "last_fired": "2026-07-11T19:00:01.987607+00:00",
-   "mtime": 1785250296.7077544
+   "mtime": 1785456328.157319
   },
   {
    "id": "jessica-jensen-platform-intelligence",
@@ -73070,7 +73346,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7079058
+   "mtime": 1785456328.1575513
   },
   {
    "id": "jiang-xueqin-cognitive-autonomy",
@@ -73084,7 +73360,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-08T02:47:16.374017+00:00",
-   "mtime": 1785250296.7080379
+   "mtime": 1785456328.159773
   },
   {
    "id": "jim-oshaughnessy-philosopher-financier",
@@ -73098,7 +73374,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.708176
+   "mtime": 1785456328.1625779
   },
   {
    "id": "joanna-wiebe-persuasion-mastery",
@@ -73112,7 +73388,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": "2026-07-19T04:23:55.648140+00:00",
-   "mtime": 1785250296.7083633
+   "mtime": 1785456328.1633234
   },
   {
    "id": "joanna-wiebe-writing-careers",
@@ -73126,7 +73402,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.708501
+   "mtime": 1785456328.1639547
   },
   {
    "id": "joey-cinema-os",
@@ -73139,8 +73415,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 12,
-   "last_fired": "2026-07-21T21:05:07.144691+00:00",
-   "mtime": 1785250296.7086432
+   "last_fired": "2026-07-30T17:18:49.992501+00:00",
+   "mtime": 1785456328.1642659
   },
   {
    "id": "john-whiting-propaganda-machine",
@@ -73154,7 +73430,7 @@
    "family": null,
    "workflow_count": 19,
    "last_fired": null,
-   "mtime": 1785250296.7087848
+   "mtime": 1785456328.1653292
   },
   {
    "id": "jonah-berger-contagious",
@@ -73168,7 +73444,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.70912
+   "mtime": 1785456328.1654916
   },
   {
    "id": "jonathan-courtney-marketing",
@@ -73182,7 +73458,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.7092404
+   "mtime": 1785456328.1656356
   },
   {
    "id": "jonathan-franzen-storytelling",
@@ -73196,7 +73472,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-26T16:55:39.136719+00:00",
-   "mtime": 1785250296.709364
+   "mtime": 1785456328.1658769
   },
   {
    "id": "joscha-bach-consciousness",
@@ -73210,7 +73486,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": "2026-07-06T17:25:29.612275+00:00",
-   "mtime": 1785250296.7094755
+   "mtime": 1785456328.1660907
   },
   {
    "id": "josh-kaufman-business-fundamentals",
@@ -73224,7 +73500,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-18T16:03:23.362430+00:00",
-   "mtime": 1785250296.7096326
+   "mtime": 1785456328.1663513
   },
   {
    "id": "josh-sanders-linkedin-growth",
@@ -73238,7 +73514,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.712604
+   "mtime": 1785456328.166694
   },
   {
    "id": "joshua-smith-real-estate",
@@ -73252,7 +73528,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-25T17:03:40.488293+00:00",
-   "mtime": 1785250296.712786
+   "mtime": 1785456328.1668565
   },
   {
    "id": "jun-yuh-creator-vision",
@@ -73266,7 +73542,7 @@
    "family": "\ud83d\udcc8 Personal Brand \u2014 Jun Yuh",
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1785250296.7129118
+   "mtime": 1785456328.1669815
   },
   {
    "id": "jun-yuh-personal-brand",
@@ -73280,7 +73556,7 @@
    "family": "\ud83d\udcc8 Personal Brand \u2014 Jun Yuh",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7131832
+   "mtime": 1785456328.1671505
   },
   {
    "id": "justin-welsh-solopreneur",
@@ -73294,7 +73570,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7133217
+   "mtime": 1785456328.1672988
   },
   {
    "id": "kallaway-addictive-storytelling",
@@ -73308,7 +73584,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 12,
    "last_fired": "2026-07-27T04:03:42.845574+00:00",
-   "mtime": 1785250296.7134793
+   "mtime": 1785456328.1674626
   },
   {
    "id": "kallaway-ai-content-engine",
@@ -73322,7 +73598,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 5,
    "last_fired": "2026-07-21T13:01:44.555136+00:00",
-   "mtime": 1785250296.7136767
+   "mtime": 1785456328.1675909
   },
   {
    "id": "kallaway-audience-obsession",
@@ -73336,7 +73612,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7138186
+   "mtime": 1785456328.1677547
   },
   {
    "id": "kallaway-content-operating-system",
@@ -73350,7 +73626,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1785250296.7139626
+   "mtime": 1785456328.1679132
   },
   {
    "id": "kallaway-content-psychology",
@@ -73364,7 +73640,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 10,
    "last_fired": "2026-07-17T23:56:28.279443+00:00",
-   "mtime": 1785250296.7142186
+   "mtime": 1785456328.168106
   },
   {
    "id": "kallaway-content-system",
@@ -73378,7 +73654,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1785250296.7144046
+   "mtime": 1785456328.169588
   },
   {
    "id": "kallaway-illusion-of-novelty",
@@ -73391,8 +73667,8 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 17,
-   "last_fired": "2026-07-30T06:45:02.906976+00:00",
-   "mtime": 1785250296.7145698
+   "last_fired": "2026-07-30T19:53:31.468679+00:00",
+   "mtime": 1785456328.1698833
   },
   {
    "id": "kallaway-social-commerce",
@@ -73406,7 +73682,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 5,
    "last_fired": "2026-07-28T14:25:57.960049+00:00",
-   "mtime": 1785250296.7147439
+   "mtime": 1785456328.1701272
   },
   {
    "id": "kallaway-word-mastery",
@@ -73420,49 +73696,49 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 13,
    "last_fired": "2026-07-25T17:16:27.082062+00:00",
-   "mtime": 1785250296.714877
+   "mtime": 1785456328.170386
   },
   {
    "id": "kieran-flanagan-audience-intelligence",
    "kind": "skill",
    "skill": "kieran-flanagan-audience-intelligence",
    "path": "skills/kieran-flanagan-audience-intelligence/SKILL.md",
-   "description": "Content-reactive audience profiling, platform-specific style cards, creator style analysis, and topic cluster mapping",
+   "description": "Content-reactive audience profiling, platform-specific style cards, creator style analysis, topic cluster mapping, and creator-owned winning content profiles",
    "menu_status": "reachable",
    "front_door": "/kieran-flanagan-audience-intelligence",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 4,
+   "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.7150025
+   "mtime": 1785456328.1705153
   },
   {
    "id": "kieran-flanagan-content-engine",
    "kind": "skill",
    "skill": "kieran-flanagan-content-engine",
    "path": "skills/kieran-flanagan-content-engine/SKILL.md",
-   "description": "Multi-source content creation, enrichment, bundling, and platform adaptation \u2014 the production layer of the AI content team",
+   "description": "Multi-source content creation, evidence-backed signal ideation, enrichment, bundling, and platform adaptation \u2014 the production layer of the AI content team",
    "menu_status": "reachable",
    "front_door": "/kieran-flanagan-content-engine",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 8,
+   "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1785250296.7151167
+   "mtime": 1785456328.1706085
   },
   {
    "id": "kieran-flanagan-content-ops",
    "kind": "skill",
    "skill": "kieran-flanagan-content-ops",
    "path": "skills/kieran-flanagan-content-ops/SKILL.md",
-   "description": "Content orchestration, performance feedback loops, and system self-improvement \u2014 the optimization layer of the AI content team",
+   "description": "Content orchestration, human-curated queue state, performance feedback loops, and system self-improvement \u2014 the optimization layer of the AI content team",
    "menu_status": "reachable",
    "front_door": "/kieran-flanagan-content-ops",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 3,
+   "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7152376
+   "mtime": 1785456328.170741
   },
   {
    "id": "kittl-graphic-design",
@@ -73476,7 +73752,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.715424
+   "mtime": 1785456328.1708825
   },
   {
    "id": "kj-rainey-copywriting",
@@ -73490,7 +73766,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7155573
+   "mtime": 1785456328.172406
   },
   {
    "id": "knowledge-architecture-studio",
@@ -73504,7 +73780,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-23T14:46:48.890323+00:00",
-   "mtime": 1785250296.7156754
+   "mtime": 1785456328.1725461
   },
   {
    "id": "kobi-brown-educational-virality",
@@ -73518,7 +73794,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1785250296.715813
+   "mtime": 1785456328.1726816
   },
   {
    "id": "kunal-shah-consumer-psychology",
@@ -73532,7 +73808,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7160015
+   "mtime": 1785456328.1728036
   },
   {
    "id": "lamott-allen-really-real-writing",
@@ -73546,7 +73822,7 @@
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "workflow_count": 12,
    "last_fired": "2026-07-28T22:09:35.732504+00:00",
-   "mtime": 1785250296.7161515
+   "mtime": 1785456328.173081
   },
   {
    "id": "lamott-craft",
@@ -73560,7 +73836,7 @@
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "workflow_count": 12,
    "last_fired": "2026-07-26T15:43:00.045696+00:00",
-   "mtime": 1785250296.7163427
+   "mtime": 1785456328.1732178
   },
   {
    "id": "lance-yichao-context-engineering",
@@ -73574,7 +73850,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-11T19:00:01.987607+00:00",
-   "mtime": 1785250296.7164805
+   "mtime": 1785456328.173498
   },
   {
    "id": "lara-acosta-content-system",
@@ -73588,7 +73864,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.7166119
+   "mtime": 1785456328.1737044
   },
   {
    "id": "lara-acosta-linkedin-growth",
@@ -73602,7 +73878,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 4,
    "last_fired": "2026-07-16T16:28:12.685647+00:00",
-   "mtime": 1785250296.716725
+   "mtime": 1785456328.1738896
   },
   {
    "id": "lara-acosta-linkedin-mastery",
@@ -73615,8 +73891,8 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 5,
-   "last_fired": "2026-07-30T02:15:17.096032+00:00",
-   "mtime": 1785250296.7168517
+   "last_fired": "2026-07-30T17:41:20.886238+00:00",
+   "mtime": 1785456328.1740122
   },
   {
    "id": "liam-mley-ai-brain-builder",
@@ -73630,7 +73906,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": "2026-07-16T16:28:12.685647+00:00",
-   "mtime": 1785250296.7170115
+   "mtime": 1785456328.1742723
   },
   {
    "id": "liam-ottley-linkedin-lead-magnet",
@@ -73644,7 +73920,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1785250296.717132
+   "mtime": 1785456328.1745036
   },
   {
    "id": "lindsay-ai-consulting",
@@ -73658,7 +73934,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.71727
+   "mtime": 1785456328.1746545
   },
   {
    "id": "linkedin-2026-format-arbitrage",
@@ -73672,7 +73948,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.7174792
+   "mtime": 1785456328.1747637
   },
   {
    "id": "logan-kilpatrick-ai-studio",
@@ -73686,7 +73962,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7176065
+   "mtime": 1785456328.1748912
   },
   {
    "id": "lucas-alpay-storytelling",
@@ -73700,7 +73976,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7177904
+   "mtime": 1785456328.1751857
   },
   {
    "id": "luisa-zhou-coaching",
@@ -73714,7 +73990,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-18T03:35:55.977613+00:00",
-   "mtime": 1785250296.7179608
+   "mtime": 1785456328.1753392
   },
   {
    "id": "luke-alexander-ai-business",
@@ -73728,7 +74004,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7190077
+   "mtime": 1785456328.1754897
   },
   {
    "id": "luke-iha-avatar-machine",
@@ -73742,7 +74018,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 13,
    "last_fired": "2026-07-24T18:10:27.127855+00:00",
-   "mtime": 1785250296.7191672
+   "mtime": 1785456328.1756897
   },
   {
    "id": "luke-iha-client-mastery",
@@ -73756,7 +74032,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.719381
+   "mtime": 1785456328.1758194
   },
   {
    "id": "luke-iha-copy-blocks",
@@ -73770,7 +74046,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 14,
    "last_fired": "2026-07-26T16:55:39.136719+00:00",
-   "mtime": 1785250296.7195358
+   "mtime": 1785456328.1760726
   },
   {
    "id": "luke-iha-creative-strategy",
@@ -73783,8 +74059,8 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 7,
-   "last_fired": "2026-07-30T05:04:29.729808+00:00",
-   "mtime": 1785250296.719725
+   "last_fired": "2026-07-30T13:30:51.032599+00:00",
+   "mtime": 1785456328.1762002
   },
   {
    "id": "luke-iha-cross-domain",
@@ -73798,7 +74074,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
    "last_fired": "2026-07-19T17:51:13.408408+00:00",
-   "mtime": 1785250296.719858
+   "mtime": 1785456328.1763523
   },
   {
    "id": "luke-iha-insight-vectors",
@@ -73812,7 +74088,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 12,
    "last_fired": "2026-07-18T22:36:33.137379+00:00",
-   "mtime": 1785250296.7199929
+   "mtime": 1785456328.1764944
   },
   {
    "id": "luke-iha-million-dollar-mechanisms",
@@ -73826,7 +74102,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7282403
+   "mtime": 1785456328.1766183
   },
   {
    "id": "luke-iha-proof-ladder",
@@ -73840,7 +74116,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 14,
    "last_fired": "2026-07-19T04:23:55.648140+00:00",
-   "mtime": 1785250296.7284224
+   "mtime": 1785456328.176792
   },
   {
    "id": "luke-iha-proof-mechanisms",
@@ -73854,7 +74130,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.7286358
+   "mtime": 1785456328.1769338
   },
   {
    "id": "luke-iha-unaware-ads",
@@ -73868,7 +74144,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 7,
    "last_fired": "2026-07-15T19:40:23.135528+00:00",
-   "mtime": 1785250296.7287927
+   "mtime": 1785456328.1770947
   },
   {
    "id": "luke-iha-vicious-hooks",
@@ -73882,7 +74158,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 12,
    "last_fired": "2026-07-26T16:55:39.136719+00:00",
-   "mtime": 1785250296.7289484
+   "mtime": 1785456328.1772268
   },
   {
    "id": "luke-iha-vsl-leads",
@@ -73896,7 +74172,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
    "last_fired": "2026-07-28T14:25:57.960049+00:00",
-   "mtime": 1785250296.729083
+   "mtime": 1785456328.1773856
   },
   {
    "id": "lulu-cheng-meservey-communications",
@@ -73910,7 +74186,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1785250296.729264
+   "mtime": 1785456328.1784797
   },
   {
    "id": "made-to-stick-messaging",
@@ -73924,7 +74200,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.729444
+   "mtime": 1785456328.1786864
   },
   {
    "id": "manus-ai-consulting",
@@ -73938,7 +74214,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7296503
+   "mtime": 1785456328.1788716
   },
   {
    "id": "marc-andreessen-ai-thesis",
@@ -73952,7 +74228,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7298026
+   "mtime": 1785456328.1790853
   },
   {
    "id": "maria-wendt-digital-products",
@@ -73966,7 +74242,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1785250296.7299478
+   "mtime": 1785456328.1796389
   },
   {
    "id": "marisa-murgatroyd-course-design",
@@ -73980,7 +74256,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7300692
+   "mtime": 1785456328.1798804
   },
   {
    "id": "mark-forsyth-rhetoric",
@@ -73994,7 +74270,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.730196
+   "mtime": 1785456328.1800945
   },
   {
    "id": "mark-kashef-agent-orchestration",
@@ -74007,8 +74283,8 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 4,
-   "last_fired": "2026-07-27T04:02:20.825586+00:00",
-   "mtime": 1785250296.732604
+   "last_fired": "2026-07-30T16:30:12.428760+00:00",
+   "mtime": 1785456328.1803098
   },
   {
    "id": "mark-kashef-ai-councils",
@@ -74022,7 +74298,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 3,
    "last_fired": "2026-07-06T16:22:27.955876+00:00",
-   "mtime": 1785250296.732804
+   "mtime": 1785456328.1805508
   },
   {
    "id": "mark-kashef-banana-squad",
@@ -74036,7 +74312,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7329576
+   "mtime": 1785456328.1809092
   },
   {
    "id": "mark-kashef-claude-claw",
@@ -74050,7 +74326,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 4,
    "last_fired": "2026-07-21T16:03:02.908854+00:00",
-   "mtime": 1785250296.733089
+   "mtime": 1785456328.1810565
   },
   {
    "id": "mark-kashef-silver-platter-agentic-os",
@@ -74064,7 +74340,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7332573
+   "mtime": 1785456328.181368
   },
   {
    "id": "mark-kashef-visual-design",
@@ -74078,7 +74354,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.7333984
+   "mtime": 1785456328.1816435
   },
   {
    "id": "mark-kashef-wargame-os",
@@ -74091,8 +74367,8 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 10,
-   "last_fired": "2026-07-28T21:56:55.460439+00:00",
-   "mtime": 1785250296.733537
+   "last_fired": "2026-07-30T16:30:12.428760+00:00",
+   "mtime": 1785456328.1819117
   },
   {
    "id": "mark-manson-values-psychology",
@@ -74106,7 +74382,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.733746
+   "mtime": 1785456328.1820564
   },
   {
    "id": "market_intelligence",
@@ -74120,7 +74396,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-09T01:33:33.123563+00:00",
-   "mtime": 1785250296.7338808
+   "mtime": 1785456328.1822264
   },
   {
    "id": "marketing-studio-director",
@@ -74134,7 +74410,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": "2026-07-13T20:55:32.391049+00:00",
-   "mtime": 1785250296.7340434
+   "mtime": 1785456328.1825323
   },
   {
    "id": "matt-mcgarry-newsletters",
@@ -74148,7 +74424,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7373855
+   "mtime": 1785456328.1826901
   },
   {
    "id": "matthew-lakajev-linkedin",
@@ -74162,7 +74438,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-27T19:20:53.852282+00:00",
-   "mtime": 1785250296.737548
+   "mtime": 1785456328.183066
   },
   {
    "id": "matthew-volkwyn-copywriting",
@@ -74176,7 +74452,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-29T07:50:46.611633+00:00",
-   "mtime": 1785250296.7376716
+   "mtime": 1785456328.1832266
   },
   {
    "id": "mcp-builder",
@@ -74190,7 +74466,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-13T16:25:36.052215+00:00",
-   "mtime": 1785250296.7378254
+   "mtime": 1785456328.1834028
   },
   {
    "id": "meg-heckman-buyer-trigger-os",
@@ -74204,7 +74480,7 @@
    "family": "\ud83d\udc55 Buyer-Trigger Merch \u2014 Meg Heckman",
    "workflow_count": 17,
    "last_fired": "2026-07-21T04:58:44.120819+00:00",
-   "mtime": 1785250296.7380576
+   "mtime": 1785456328.1839588
   },
   {
    "id": "michael-bernoff-identity-engineering",
@@ -74218,7 +74494,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-29T07:50:46.611633+00:00",
-   "mtime": 1785250296.7382183
+   "mtime": 1785456328.184129
   },
   {
    "id": "michael-connelly-vivid-writing",
@@ -74232,7 +74508,7 @@
    "family": null,
    "workflow_count": 16,
    "last_fired": "2026-07-17T23:56:28.279443+00:00",
-   "mtime": 1785250296.738375
+   "mtime": 1785456328.1843936
   },
   {
    "id": "michael-israetel-hypertrophy",
@@ -74246,7 +74522,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7385464
+   "mtime": 1785456328.1845596
   },
   {
    "id": "michael-margolis-user-research",
@@ -74260,7 +74536,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7386692
+   "mtime": 1785456328.1847253
   },
   {
    "id": "mike-foutia-marketing-tools",
@@ -74274,7 +74550,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-19T17:51:13.408408+00:00",
-   "mtime": 1785250296.7387962
+   "mtime": 1785456328.1848717
   },
   {
    "id": "mike-sherrard-realtor-branding",
@@ -74288,7 +74564,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7389054
+   "mtime": 1785456328.1850028
   },
   {
    "id": "mike-taylor-synthetic-research",
@@ -74302,7 +74578,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": "2026-07-28T22:09:35.732504+00:00",
-   "mtime": 1785250296.7390335
+   "mtime": 1785456328.1852763
   },
   {
    "id": "mitch-albom-writing-mastery",
@@ -74316,7 +74592,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-23T04:47:24.232795+00:00",
-   "mtime": 1785250296.7392704
+   "mtime": 1785456328.185649
   },
   {
    "id": "monk-ai-offer-architecture",
@@ -74330,7 +74606,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-17T00:42:17.880926+00:00",
-   "mtime": 1785250296.7393937
+   "mtime": 1785456328.1858068
   },
   {
    "id": "nate-b-jones-agent-deployment-strategy",
@@ -74344,7 +74620,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.7395205
+   "mtime": 1785456328.1861126
   },
   {
    "id": "nate-b-jones-ai-taste-mastery",
@@ -74358,7 +74634,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 3,
    "last_fired": "2026-07-17T23:56:28.279443+00:00",
-   "mtime": 1785250296.7396443
+   "mtime": 1785456328.1862514
   },
   {
    "id": "nate-b-jones-auto-improvement-loops",
@@ -74372,7 +74648,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 8,
    "last_fired": "2026-07-22T01:03:31.519388+00:00",
-   "mtime": 1785250296.739783
+   "mtime": 1785456328.1865053
   },
   {
    "id": "nate-b-jones-context-engineering",
@@ -74386,7 +74662,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 6,
    "last_fired": "2026-07-29T22:44:39.766579+00:00",
-   "mtime": 1785250296.7399764
+   "mtime": 1785456328.1867018
   },
   {
    "id": "nate-b-jones-intent-engineering",
@@ -74400,7 +74676,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 4,
    "last_fired": "2026-07-10T00:36:14.747614+00:00",
-   "mtime": 1785250296.7401338
+   "mtime": 1785456328.1868732
   },
   {
    "id": "nate-b-jones-orchestration-intelligence",
@@ -74414,7 +74690,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 12,
    "last_fired": "2026-07-06T18:26:37.642011+00:00",
-   "mtime": 1785250296.740297
+   "mtime": 1785456328.1871164
   },
   {
    "id": "nate-b-jones-trust-architecture",
@@ -74428,7 +74704,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.740446
+   "mtime": 1785456328.1875846
   },
   {
    "id": "nate-herk-client-acquisition",
@@ -74442,7 +74718,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1785250296.7405806
+   "mtime": 1785456328.187737
   },
   {
    "id": "nathan-gotch-ai-seo",
@@ -74456,7 +74732,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1785250296.7407334
+   "mtime": 1785456328.1879787
   },
   {
    "id": "nba-betting-edge",
@@ -74470,7 +74746,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-19T15:20:30.743555+00:00",
-   "mtime": 1785250296.7409353
+   "mtime": 1785456328.1882422
   },
   {
    "id": "new-media-ghostwriting",
@@ -74484,7 +74760,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": "2026-07-23T04:58:50.936745+00:00",
-   "mtime": 1785250296.741063
+   "mtime": 1785456328.1883724
   },
   {
    "id": "new-media-kingmaker",
@@ -74498,7 +74774,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-27T22:25:45.384744+00:00",
-   "mtime": 1785250296.7423353
+   "mtime": 1785456328.188532
   },
   {
    "id": "nick-saraev-agentic-workflows",
@@ -74512,7 +74788,7 @@
    "family": "\ud83e\udd16 Agentic Workflows \u2014 Nick Saraev",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1785250296.7424908
+   "mtime": 1785456328.1887412
   },
   {
    "id": "nick-saraev-bottleneck-thinking",
@@ -74526,7 +74802,7 @@
    "family": "\ud83e\udd16 Agentic Workflows \u2014 Nick Saraev",
    "workflow_count": 4,
    "last_fired": "2026-07-28T15:24:34.986680+00:00",
-   "mtime": 1785250296.7445338
+   "mtime": 1785456328.1888905
   },
   {
    "id": "nicolas-cole-client-acquisition",
@@ -74540,7 +74816,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.7446897
+   "mtime": 1785456328.1890402
   },
   {
    "id": "nicolas-cole-digital-products",
@@ -74554,7 +74830,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
    "last_fired": "2026-07-21T04:58:44.120819+00:00",
-   "mtime": 1785250296.744829
+   "mtime": 1785456328.1892045
   },
   {
    "id": "nicolas-cole-edan-writing-mechanics",
@@ -74568,7 +74844,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1785250296.744957
+   "mtime": 1785456328.189342
   },
   {
    "id": "nicolas-cole-newsletter-flywheel",
@@ -74582,7 +74858,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1785250296.7450988
+   "mtime": 1785456328.190368
   },
   {
    "id": "nicolas-cole-niche-positioning",
@@ -74596,7 +74872,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
    "last_fired": "2026-07-19T02:46:56.202686+00:00",
-   "mtime": 1785250296.745275
+   "mtime": 1785456328.19071
   },
   {
    "id": "nicolas-cole-nonfiction-value-architecture",
@@ -74610,7 +74886,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1785250296.7453878
+   "mtime": 1785456328.1909597
   },
   {
    "id": "nicolas-cole-sales-education-messaging",
@@ -74624,7 +74900,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1785250296.7455194
+   "mtime": 1785456328.1912544
   },
   {
    "id": "nicolas-cole-sentence-craft",
@@ -74638,7 +74914,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7456486
+   "mtime": 1785456328.1914341
   },
   {
    "id": "nir-eyal-habit-design",
@@ -74652,7 +74928,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7457752
+   "mtime": 1785456328.191602
   },
   {
    "id": "noah-hawley-storytelling-mastery",
@@ -74666,7 +74942,7 @@
    "family": null,
    "workflow_count": 21,
    "last_fired": "2026-07-27T17:49:51.962787+00:00",
-   "mtime": 1785250296.7459176
+   "mtime": 1785456328.191785
   },
   {
    "id": "ocean-vuong-perceptual-writing",
@@ -74680,7 +74956,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1785250296.7461302
+   "mtime": 1785456328.1920245
   },
   {
    "id": "omar-eddaoudi",
@@ -74694,7 +74970,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.746289
+   "mtime": 1785456328.1921976
   },
   {
    "id": "omar-eddaoudi-premium-ads",
@@ -74708,7 +74984,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.7464447
+   "mtime": 1785456328.192381
   },
   {
    "id": "omar-eddaoudi-scaling-ops",
@@ -74722,7 +74998,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 10,
    "last_fired": "2026-07-11T19:55:11.250522+00:00",
-   "mtime": 1785250296.7466445
+   "mtime": 1785456328.192519
   },
   {
    "id": "omar-eltakrori",
@@ -74736,7 +75012,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 17,
    "last_fired": "2026-07-08T01:04:56.930824+00:00",
-   "mtime": 1785250296.7468448
+   "mtime": 1785456328.1926594
   },
   {
    "id": "oren-brand-archetypes",
@@ -74750,7 +75026,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 8,
    "last_fired": "2026-07-22T01:04:28.281080+00:00",
-   "mtime": 1785250296.747027
+   "mtime": 1785456328.19279
   },
   {
    "id": "oren-content-team-architecture",
@@ -74764,7 +75040,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1785250296.7473044
+   "mtime": 1785456328.1929636
   },
   {
    "id": "oren-dara-ad-psychology",
@@ -74778,7 +75054,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1785250296.7474706
+   "mtime": 1785456328.1931427
   },
   {
    "id": "oren-identity-brand-os",
@@ -74792,7 +75068,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1785250296.74768
+   "mtime": 1785456328.193399
   },
   {
    "id": "oren-luxury-psychology",
@@ -74806,7 +75082,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
    "last_fired": "2026-07-21T23:27:47.482273+00:00",
-   "mtime": 1785250296.7478633
+   "mtime": 1785456328.1936083
   },
   {
    "id": "oren-one-person-ai-marketer",
@@ -74820,7 +75096,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 12,
    "last_fired": "2026-07-17T01:11:05.061387+00:00",
-   "mtime": 1785250296.7479944
+   "mtime": 1785456328.193776
   },
   {
    "id": "oren-operational-systems",
@@ -74834,7 +75110,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
    "last_fired": "2026-07-06T17:27:18.806973+00:00",
-   "mtime": 1785250296.7481847
+   "mtime": 1785456328.1940408
   },
   {
    "id": "oren-repositioning",
@@ -74848,7 +75124,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7482944
+   "mtime": 1785456328.1946747
   },
   {
    "id": "oren-taste-development",
@@ -74862,7 +75138,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.7484047
+   "mtime": 1785456328.1953764
   },
   {
    "id": "oscar-hoglund-sound-storytelling",
@@ -74876,7 +75152,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7485445
+   "mtime": 1785456328.1959174
   },
   {
    "id": "packy-mccormick-writing",
@@ -74890,7 +75166,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-28T22:09:35.732504+00:00",
-   "mtime": 1785250296.7486734
+   "mtime": 1785456328.1961403
   },
   {
    "id": "paolo-trivellato-lead-magnet-engine",
@@ -74904,7 +75180,7 @@
    "family": null,
    "workflow_count": 11,
    "last_fired": null,
-   "mtime": 1785250296.748805
+   "mtime": 1785456328.1963677
   },
   {
    "id": "pat-flynn-passive-income",
@@ -74918,7 +75194,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.748926
+   "mtime": 1785456328.1965423
   },
   {
    "id": "patrick-dang-online-business",
@@ -74932,7 +75208,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.749034
+   "mtime": 1785456328.1966686
   },
   {
    "id": "patrick-debois-cdlc",
@@ -74946,7 +75222,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7492669
+   "mtime": 1785456328.1985781
   },
   {
    "id": "paul-harding-lyric-prose",
@@ -74960,7 +75236,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": "2026-07-21T23:12:35.443068+00:00",
-   "mtime": 1785250296.749479
+   "mtime": 1785456328.198859
   },
   {
    "id": "paul-james-ai-automation",
@@ -74974,7 +75250,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-07T14:29:28.330714+00:00",
-   "mtime": 1785250296.7497673
+   "mtime": 1785456328.1992474
   },
   {
    "id": "pdf",
@@ -74988,7 +75264,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1785250296.749891
+   "mtime": 1785456328.199535
   },
   {
    "id": "persuasion-story-code",
@@ -75002,7 +75278,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.750087
+   "mtime": 1785456328.1996832
   },
   {
    "id": "phil-m-jones-conversational-influence",
@@ -75016,7 +75292,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1785250296.7502282
+   "mtime": 1785456328.199874
   },
   {
    "id": "pj-accetturo-ai-video",
@@ -75030,7 +75306,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.750365
+   "mtime": 1785456328.2000463
   },
   {
    "id": "pptx",
@@ -75044,7 +75320,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-18T19:04:56.654293+00:00",
-   "mtime": 1785250296.750543
+   "mtime": 1785456328.200474
   },
   {
    "id": "prediction-market-ai-event-analysis",
@@ -75058,7 +75334,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7506537
+   "mtime": 1785456328.200614
   },
   {
    "id": "prediction-market-making",
@@ -75072,7 +75348,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-06T16:22:26.673804+00:00",
-   "mtime": 1785250296.750778
+   "mtime": 1785456328.200774
   },
   {
    "id": "prediction-market-risk-management",
@@ -75086,7 +75362,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7509055
+   "mtime": 1785456328.2009425
   },
   {
    "id": "prediction-market-weather-trading",
@@ -75100,7 +75376,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7510262
+   "mtime": 1785456328.2010999
   },
   {
    "id": "product-design-build",
@@ -75114,7 +75390,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-19T07:49:01.176280+00:00",
-   "mtime": 1785250296.7511482
+   "mtime": 1785456328.2012804
   },
   {
    "id": "prosperity-coach-system",
@@ -75128,7 +75404,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-23T18:07:42.260188+00:00",
-   "mtime": 1785250296.751329
+   "mtime": 1785456328.2014039
   },
   {
    "id": "rachel-woods-ai-operations",
@@ -75142,7 +75418,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.751439
+   "mtime": 1785456328.2015245
   },
   {
    "id": "rafa-conde-fourth-wall-experience-os",
@@ -75156,7 +75432,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1785250296.751553
+   "mtime": 1785456328.2016497
   },
   {
    "id": "rafa-conde-memorable-product-design",
@@ -75170,7 +75446,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7516923
+   "mtime": 1785456328.201822
   },
   {
    "id": "ray-amjad-agentic-ladder",
@@ -75184,7 +75460,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1785250296.7518198
+   "mtime": 1785456328.2019842
   },
   {
    "id": "re-compliance-pack",
@@ -75212,7 +75488,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1785250296.7519474
+   "mtime": 1785456328.2021413
   },
   {
    "id": "reid-hoffman-ai-strategy",
@@ -75226,7 +75502,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7520578
+   "mtime": 1785456328.2022645
   },
   {
    "id": "remotion-video-creation",
@@ -75240,7 +75516,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1785250296.752188
+   "mtime": 1785456328.2025418
   },
   {
    "id": "riley-brown-marketing-automation",
@@ -75254,7 +75530,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": "2026-07-30T06:32:44.504561+00:00",
-   "mtime": 1785250296.7523305
+   "mtime": 1785456328.202758
   },
   {
    "id": "robert-greene-power-mastery",
@@ -75268,7 +75544,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.75253
+   "mtime": 1785456328.2029073
   },
   {
    "id": "robert-mack-comedy-writing",
@@ -75282,21 +75558,21 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1785250296.7526932
+   "mtime": 1785456328.2031758
   },
   {
    "id": "rory-sutherland-marketing",
    "kind": "skill",
    "skill": "rory-sutherland-marketing",
    "path": "skills/rory-sutherland-marketing/SKILL.md",
-   "description": "Rory Sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture, value perception, reverse benchmarking, perception engineering, and asymmetric bet evaluation. Cross-expert stacking with Georgi, Iha, Dunford, Kallaway, and Dai Media for full-spectrum marketing dominance.",
+   "description": "Rory Sutherland's behavioral alchemy for marketing, copy, strategy, products, media, content, entrepreneurship, and operating decisions: psychological bottlenecks, perception engineering, chosen trade-offs, uncertainty design, reverse benchmarking, advertising archaeology, and portfolio-level asymmetric experiments.",
    "menu_status": "reachable",
    "front_door": "/rory-sutherland-marketing",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 20,
-   "last_fired": "2026-07-19T18:02:28.714354+00:00",
-   "mtime": 1785250296.7531247
+   "workflow_count": 25,
+   "last_fired": "2026-07-30T23:46:32.415031+00:00",
+   "mtime": 1785457424.3204412
   },
   {
    "id": "ross-mckay-premium-at-scale",
@@ -75310,7 +75586,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1785250296.7532907
+   "mtime": 1785456328.2036238
   },
   {
    "id": "ross-minchev-digital-products",
@@ -75324,7 +75600,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-19T14:23:51.091524+00:00",
-   "mtime": 1785250296.753399
+   "mtime": 1785456328.2037358
   },
   {
    "id": "russell-brunson-funnels",
@@ -75338,7 +75614,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7535036
+   "mtime": 1785456328.2038453
   },
   {
    "id": "sabri-suby-ai-advertising",
@@ -75352,7 +75628,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7536175
+   "mtime": 1785456328.203973
   },
   {
    "id": "sabrina-ramonov-ai-monetization",
@@ -75365,8 +75641,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-27T22:25:45.384744+00:00",
-   "mtime": 1785250296.7537408
+   "last_fired": "2026-07-30T16:20:24.391280+00:00",
+   "mtime": 1785456328.2041235
   },
   {
    "id": "sam-goddard-media-scaling",
@@ -75380,7 +75656,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785250296.753855
+   "mtime": 1785456328.204247
   },
   {
    "id": "sam-parr-copywriting",
@@ -75394,7 +75670,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Sam Parr",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1785250296.7539861
+   "mtime": 1785456328.2047026
   },
   {
    "id": "sam-parr-copywriting-mechanics",
@@ -75408,7 +75684,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Sam Parr",
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1785250296.7542515
+   "mtime": 1785456328.2048972
   },
   {
    "id": "sam-parr-taste-acquisition",
@@ -75422,7 +75698,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Sam Parr",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7545717
+   "mtime": 1785456328.2051456
   },
   {
    "id": "samuel-thompson-product-launch",
@@ -75436,7 +75712,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-19T14:23:51.091524+00:00",
-   "mtime": 1785250296.7547014
+   "mtime": 1785456328.2053154
   },
   {
    "id": "sarah-levinger-ad-psychology",
@@ -75450,7 +75726,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-21T05:24:53.785750+00:00",
-   "mtime": 1785250296.7548063
+   "mtime": 1785456328.2054324
   },
   {
    "id": "satori-graphics",
@@ -75464,7 +75740,7 @@
    "family": "\ud83c\udfa8 Design \u2014 Satori Graphics",
    "workflow_count": 26,
    "last_fired": "2026-07-21T16:03:02.908854+00:00",
-   "mtime": 1785250296.7551818
+   "mtime": 1785456328.2056897
   },
   {
    "id": "sean-dollwet-kdp-publishing",
@@ -75478,7 +75754,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": "2026-07-29T22:45:04.263804+00:00",
-   "mtime": 1785250296.7553053
+   "mtime": 1785456328.2058291
   },
   {
    "id": "sean-kochel-ai-business",
@@ -75492,7 +75768,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7554994
+   "mtime": 1785456328.205982
   },
   {
    "id": "sean-kochel-design-first-build",
@@ -75506,7 +75782,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": "2026-07-21T23:12:35.443068+00:00",
-   "mtime": 1785250296.7556188
+   "mtime": 1785456328.2061307
   },
   {
    "id": "sean-mabry-voice-mastery",
@@ -75520,7 +75796,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1785250296.755739
+   "mtime": 1785456328.206362
   },
   {
    "id": "sean-macintyre-persuasion-philosophy",
@@ -75534,7 +75810,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1785250296.7559369
+   "mtime": 1785456328.2065625
   },
   {
    "id": "seena-rez-tiktok-commerce",
@@ -75548,7 +75824,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-19T14:23:51.091524+00:00",
-   "mtime": 1785250296.756102
+   "mtime": 1785456328.2069056
   },
   {
    "id": "self-evolving-systems",
@@ -75562,7 +75838,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": "2026-07-07T14:33:29.399590+00:00",
-   "mtime": 1785250296.7563403
+   "mtime": 1785456328.207104
   },
   {
    "id": "semantic-document-library-os",
@@ -75576,7 +75852,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.756526
+   "mtime": 1785456328.2077591
   },
   {
    "id": "seth-godin-brand",
@@ -75590,7 +75866,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 10,
    "last_fired": "2026-07-30T00:33:30.172700+00:00",
-   "mtime": 1785250296.7566977
+   "mtime": 1785456328.2079344
   },
   {
    "id": "seth-godin-ideavirus",
@@ -75604,7 +75880,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.7568517
+   "mtime": 1785456328.2081058
   },
   {
    "id": "seth-godin-marketing-mind",
@@ -75618,7 +75894,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 16,
    "last_fired": null,
-   "mtime": 1785250296.757001
+   "mtime": 1785456328.2083173
   },
   {
    "id": "seth-godin-philosophy",
@@ -75632,7 +75908,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 8,
    "last_fired": "2026-07-24T18:23:33.912667+00:00",
-   "mtime": 1785250296.757179
+   "mtime": 1785456328.2084684
   },
   {
    "id": "shaan-puri-storytelling",
@@ -75646,7 +75922,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.757318
+   "mtime": 1785456328.2086563
   },
   {
    "id": "shan-hanif-audience-monetization",
@@ -75660,7 +75936,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.7574525
+   "mtime": 1785456328.2088306
   },
   {
    "id": "sharran-srivatsaa-scaling",
@@ -75674,7 +75950,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": "2026-07-26T00:48:33.692548+00:00",
-   "mtime": 1785250296.7575846
+   "mtime": 1785456328.2089968
   },
   {
    "id": "sherwin-wu-ai-engineering",
@@ -75688,7 +75964,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.757726
+   "mtime": 1785456328.2091794
   },
   {
    "id": "simon-intellectual-library-os",
@@ -75702,7 +75978,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": "2026-07-24T18:10:27.127855+00:00",
-   "mtime": 1785250296.7578597
+   "mtime": 1785456328.2094896
   },
   {
    "id": "skill-creator",
@@ -75715,8 +75991,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 1,
-   "last_fired": "2026-07-25T16:42:14.888895+00:00",
-   "mtime": 1785250296.7581344
+   "last_fired": "2026-07-30T21:33:41.659747+00:00",
+   "mtime": 1785456328.2097964
   },
   {
    "id": "sky-tan-format-engine",
@@ -75730,7 +76006,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": "2026-07-24T22:31:10.233672+00:00",
-   "mtime": 1785250296.758377
+   "mtime": 1785456328.2102833
   },
   {
    "id": "slack-gif-creator",
@@ -75744,7 +76020,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-24T18:23:33.912667+00:00",
-   "mtime": 1785250296.7585814
+   "mtime": 1785456328.2105315
   },
   {
    "id": "soowei-consulting-leverage",
@@ -75758,7 +76034,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.758769
+   "mtime": 1785456328.2106943
   },
   {
    "id": "stefan-georgi-dopamine-copy",
@@ -75771,8 +76047,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 12,
-   "last_fired": "2026-07-27T15:28:29.862708+00:00",
-   "mtime": 1785250296.7589107
+   "last_fired": "2026-07-30T20:39:54.193701+00:00",
+   "mtime": 1785456328.2108836
   },
   {
    "id": "steven-kotler-flow-performance",
@@ -75786,7 +76062,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-13T16:17:02.173713+00:00",
-   "mtime": 1785250296.7590353
+   "mtime": 1785456328.2110524
   },
   {
    "id": "steven-pressfield-narrative-mastery",
@@ -75800,7 +76076,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1785250296.7591794
+   "mtime": 1785456328.2113128
   },
   {
    "id": "steven-young-consciousness",
@@ -75814,7 +76090,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.759416
+   "mtime": 1785456328.2117074
   },
   {
    "id": "stitch-loop",
@@ -75828,7 +76104,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1785250296.7595549
+   "mtime": 1785456328.2150435
   },
   {
    "id": "stockton-walbeck-lead-magnets",
@@ -75842,7 +76118,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7597027
+   "mtime": 1785456328.2159631
   },
   {
    "id": "story-bible-builder",
@@ -75870,7 +76146,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": "2026-07-13T19:52:14.981997+00:00",
-   "mtime": 1785250296.7598178
+   "mtime": 1785456328.2183383
   },
   {
    "id": "strength-conditioning-os",
@@ -75884,7 +76160,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": "2026-07-21T23:09:29.274183+00:00",
-   "mtime": 1785250296.7599607
+   "mtime": 1785456328.2222145
   },
   {
    "id": "sunny-lenarduzzi-youtube",
@@ -75898,7 +76174,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7601125
+   "mtime": 1785456328.2224975
   },
   {
    "id": "supercomputer",
@@ -75912,7 +76188,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-30T00:33:30.172700+00:00",
-   "mtime": 1785250296.760257
+   "mtime": 1785456328.2229764
   },
   {
    "id": "susan-orlean-narrative-nonfiction",
@@ -75925,8 +76201,8 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 12,
-   "last_fired": "2026-07-27T18:08:38.052430+00:00",
-   "mtime": 1785250296.7604833
+   "last_fired": "2026-07-30T23:29:30.081951+00:00",
+   "mtime": 1785456328.2232685
   },
   {
    "id": "swarm-commander",
@@ -75940,7 +76216,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-26T02:15:47.405855+00:00",
-   "mtime": 1785250296.7607176
+   "mtime": 1785456328.2234397
   },
   {
    "id": "sweat-equity-speedrun-social-os",
@@ -75954,7 +76230,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": "2026-07-21T04:12:55.308358+00:00",
-   "mtime": 1785250296.7608597
+   "mtime": 1785456328.223625
   },
   {
    "id": "taki-moore-lifestyle-business",
@@ -75968,7 +76244,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.7609882
+   "mtime": 1785456328.2238872
   },
   {
    "id": "tao-prompts-ai-video",
@@ -75982,7 +76258,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1785250296.761099
+   "mtime": 1785456328.2240667
   },
   {
    "id": "taylor-welch-wealthy-consultant",
@@ -75996,7 +76272,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7612088
+   "mtime": 1785456328.2244415
   },
   {
    "id": "tess-barclay-social-content",
@@ -76010,7 +76286,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": "2026-07-19T09:35:08.281542+00:00",
-   "mtime": 1785250296.761312
+   "mtime": 1785456328.2245805
   },
   {
    "id": "theme-factory",
@@ -76024,7 +76300,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-19T15:19:08.429950+00:00",
-   "mtime": 1785250296.7614243
+   "mtime": 1785456328.224721
   },
   {
    "id": "thrivecart-digital-products",
@@ -76038,7 +76314,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7615433
+   "mtime": 1785456328.224867
   },
   {
    "id": "tim-danilov-niche-bending",
@@ -76052,7 +76328,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.761693
+   "mtime": 1785456328.2251909
   },
   {
    "id": "tobi-lutke-business-leadership",
@@ -76066,7 +76342,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.761802
+   "mtime": 1785456328.2253923
   },
   {
    "id": "tobias-allen-marketing-mastery",
@@ -76080,7 +76356,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7619364
+   "mtime": 1785456328.2255664
   },
   {
    "id": "tom-noske-content-creation",
@@ -76094,7 +76370,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1785250296.7620552
+   "mtime": 1785456328.2257733
   },
   {
    "id": "tom-noske-personal-brand",
@@ -76108,7 +76384,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-29T02:55:38.123858+00:00",
-   "mtime": 1785250296.7621956
+   "mtime": 1785456328.226016
   },
   {
    "id": "tom-segura-comedy-storytelling",
@@ -76122,7 +76398,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7623427
+   "mtime": 1785456328.226304
   },
   {
    "id": "tommy-clark-linkedin-growth",
@@ -76136,7 +76412,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1785250296.7625785
+   "mtime": 1785456328.2265396
   },
   {
    "id": "tyler-denk-audience-monetization",
@@ -76150,7 +76426,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": "2026-07-19T02:44:55.238553+00:00",
-   "mtime": 1785250296.762715
+   "mtime": 1785456328.2267113
   },
   {
    "id": "velocity-scaling",
@@ -76164,7 +76440,7 @@
    "family": "\u26a1 Velocity & Scaling",
    "workflow_count": 18,
    "last_fired": null,
-   "mtime": 1785250296.7628791
+   "mtime": 1785456328.227119
   },
   {
    "id": "verticalize",
@@ -76192,7 +76468,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1785250296.7633872
+   "mtime": 1785456328.2275133
   },
   {
    "id": "voice-os",
@@ -76206,7 +76482,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": "2026-07-29T22:35:51.872942+00:00",
-   "mtime": 1785250296.7636786
+   "mtime": 1785456328.2278166
   },
   {
    "id": "ward-farnsworth-rhetorical-mastery",
@@ -76220,7 +76496,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": "2026-07-27T17:56:52.571779+00:00",
-   "mtime": 1785250296.763881
+   "mtime": 1785456328.22806
   },
   {
    "id": "web-artifacts-builder",
@@ -76234,7 +76510,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-14T00:59:01.625530+00:00",
-   "mtime": 1785250296.7640438
+   "mtime": 1785456328.2305648
   },
   {
    "id": "webapp-testing",
@@ -76248,7 +76524,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-23T18:07:42.260188+00:00",
-   "mtime": 1785250296.7641585
+   "mtime": 1785456328.2333105
   },
   {
    "id": "wordsatscale-seo-ranking",
@@ -76262,7 +76538,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1785250296.7642913
+   "mtime": 1785456328.2335417
   },
   {
    "id": "wright-thompson-mastery",
@@ -76276,7 +76552,7 @@
    "family": "\ud83c\udfac Story Craft \u2014 Wright Thompson",
    "workflow_count": 13,
    "last_fired": "2026-07-19T00:04:42.994318+00:00",
-   "mtime": 1785250296.7644126
+   "mtime": 1785456328.2339022
   },
   {
    "id": "writing-depth-layer",
@@ -76290,7 +76566,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": "2026-07-26T22:18:46.711368+00:00",
-   "mtime": 1785250296.7646286
+   "mtime": 1785456328.2341957
   },
   {
    "id": "xlsx",
@@ -76304,7 +76580,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-07-29T22:21:35.448403+00:00",
-   "mtime": 1785250296.7647455
+   "mtime": 1785456328.2344363
   },
   {
    "id": "yann-martel-storytelling-mastery",
@@ -76318,7 +76594,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1785250296.7649348
+   "mtime": 1785456328.2346096
   },
   {
    "id": "youtube-video-context-analysis",
@@ -76332,7 +76608,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": "2026-07-21T21:05:07.144691+00:00",
-   "mtime": 1785250296.7650638
+   "mtime": 1785456328.2349205
   },
   {
    "id": "yuri-elkaim-health-coaching-business",
@@ -76346,7 +76622,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1785250296.7651906
+   "mtime": 1785456328.2353978
   },
   {
    "id": "adam-enfroy",
@@ -76891,7 +77167,7 @@
    "front_door": "/context-profile-architect",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-27T19:20:53.852282+00:00",
+   "last_fired": "2026-07-30T21:33:41.659747+00:00",
    "mtime": 1782932141.4436927
   },
   {
@@ -77333,7 +77609,7 @@
    "front_door": "/extract-mastery",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-15T16:47:33.986843+00:00",
+   "last_fired": "2026-07-30T17:32:41.118389+00:00",
    "mtime": 1782932095.5957937
   },
   {
@@ -77827,8 +78103,8 @@
    "front_door": "/kieran-flanagan",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-16T16:14:16.606876+00:00",
-   "mtime": 1784217970.8373659
+   "last_fired": "2026-07-30T16:53:04.737160+00:00",
+   "mtime": 1785429459.8291016
   },
   {
    "id": "kittl",
@@ -78724,8 +79000,8 @@
    "front_door": "/rory-sutherland",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": null,
-   "mtime": 1782967950.8913283
+   "last_fired": "2026-07-30T23:45:36.793903+00:00",
+   "mtime": 1785457185.090213
   },
   {
    "id": "ross-mckay",
@@ -79353,7 +79629,7 @@
   }
  ],
  "fingerprint": [
-  8928,
-  1785394365.141
+  8957,
+  1785457424.32
  ]
 }

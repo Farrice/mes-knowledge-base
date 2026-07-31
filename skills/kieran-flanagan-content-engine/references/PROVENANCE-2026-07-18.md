@@ -17,3 +17,13 @@ First draft of the Anti-Patterns section attributed the persona/platform-isolati
 ## Absence check
 - `ls extractions/ | grep -i flanagan` run 2026-07-17 → `kieran-flanagan`, `kieran-flanagan-second-brain`. Both opened; second-brain folder confirmed out of scope (different video, personal-knowledge-base domain), not silently skipped.
 - No prior `references/source-ledger.md` (or any ledger/source file) existed for this skill before this repair — confirmed via `ls skills/kieran-flanagan-content-engine/references/`.
+
+## Additive provenance note: 2026-07-30
+
+New source: `extractions/transcripts/cSz_6SNEirU.txt`, "Never Run Out of Content Ideas With This AI System."
+
+New anchors:
+
+- Genius Pattern 7 and workflow 09: audience profile, platform winners, bounded live-signal research, creator taste, and building-block output are VERIFIED.
+- Proven / Trending / Convergence taxonomy, staleness propagation, and tombstone-aware deduplication are INFERRED implementation controls.
+- Full claim table: `references/source-ledger.md`, section "2026-07-30 Expansion: Content Signal Ideation."

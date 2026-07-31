@@ -1,0 +1,21 @@
+{
+  "title": "LinkedIn Authority Reset + Launch Master",
+  "artifact_type": "linkedin_launch_master",
+  "created": "2026-07-30",
+  "source_file": "2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md",
+  "owner_skill": "lara-acosta-linkedin-mastery",
+  "owner_workflow": "personal-brand-blueprint",
+  "supporting_skill": "luke-iha-proof-mechanisms",
+  "voice_mode": "BLEND",
+  "verification": {
+    "public_copy_blocks": "CLEAN 26/26",
+    "voice_evaluator_strict": "PASS",
+    "content_finish_gate_article": "CLEAN",
+    "content_finish_gate_post": "CLEAN",
+    "claim_risk_scan": "PASS after contextual review: 0 disease claims, 0 risky claims, 2 context-only WATCH terms",
+    "stale_positioning_scan": "PASS",
+    "export_format_guard": "PASS",
+    "workspace_finalization": "KEEP 9.0/10"
+  },
+  "external_action_boundary": "No LinkedIn profile changes, publishing, messages, outreach, browser writes, or connector writes were performed."
+}

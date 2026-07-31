@@ -1,0 +1,109 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e3]
+  - generic [ref=e4]:
+    - generic:
+      - generic "Skip navigation menu":
+        - generic [ref=e5]:
+          - button "Skip to search" [ref=e6] [cursor=pointer]
+          - button "Skip to main content" [ref=e9] [cursor=pointer]
+          - button "Skip to primary content" [ref=e12] [cursor=pointer]
+          - button "Skip to aside" [ref=e15] [cursor=pointer]
+          - button "Skip to footer" [ref=e18] [cursor=pointer]
+          - button "Close jump menu" [ref=e22] [cursor=pointer]
+    - generic [ref=e26]:
+      - banner [ref=e28]:
+        - generic [ref=e31]:
+          - button "LinkedIn" [ref=e32] [cursor=pointer]:
+            - img "LinkedIn" [ref=e33]
+          - generic [ref=e35]:
+            - status [ref=e36]
+            - search [ref=e37]:
+              - textbox "I'm looking for…" [ref=e42]
+          - generic [ref=e44]:
+            - navigation [ref=e48]:
+              - list [ref=e49]:
+                - listitem [ref=e50]
+                - listitem [ref=e58]
+                - listitem [ref=e65]
+                - listitem [ref=e72]
+                - listitem [ref=e79]
+                - listitem [ref=e87]
+            - generic [ref=e96]:
+              - navigation [ref=e97]:
+                - list [ref=e98]
+              - link "Get 50% Off Sales Nav" [ref=e110] [cursor=pointer]:
+                - /url: https://www.linkedin.com/premium/redeem/?_ed=CwEAAAFyYb66UAQiKvLejf0aKxNzmjJ3ryfkxyqehLZPKD7vWLOgM5wR4lxRr-QUIgT_FeKS2NQ&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text_winback%3ANav%3AIn-Product&referenceId=AJeYcnEEQleJi7fRVO77LQ%3D%3D&customKey=wb_s&redeemTypeV2=DISCOUNT
+                - paragraph [ref=e112]
+      - generic [ref=e116]:
+        - toolbar [ref=e117]:
+          - generic [ref=e121]:
+            - link "Farrice Cain" [ref=e122] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/farricecain/
+              - generic "Farrice Cain" [ref=e123]:
+                - figure [ref=e124]
+                - generic [ref=e125]
+            - generic [ref=e129]:
+              - button "More" [ref=e131] [cursor=pointer]
+              - button "Enhance profile" [ref=e136] [cursor=pointer]
+              - link "Add section" [ref=e140] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/farricecain/
+              - button "Open to" [ref=e144] [cursor=pointer]
+        - main [ref=e147]:
+          - generic [ref=e149]:
+            - region "Primary content" [ref=e150]:
+              - generic [ref=e152]:
+                - generic [ref=e157]
+                - generic [ref=e246]
+            - complementary "Aside" [ref=e1056]:
+              - generic [ref=e1058]:
+                - generic [ref=e1062]
+                - iframe [ref=e1083]:
+                  
+                - generic [ref=e1088]
+            - generic "Footer" [ref=e1136]:
+              - generic [ref=e1139]:
+                - generic [ref=e1140]
+                - generic [ref=e1173]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1206]:
+              - generic [ref=e1208] [cursor=pointer]:
+                - generic [ref=e1209]
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1213]
+              - generic [ref=e1217]:
+                - button "Open messenger dropdown menu" [ref=e1219] [cursor=pointer]
+                - button "Compose message" [ref=e1223] [cursor=pointer]
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1227] [cursor=pointer]
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e1231]:
+    - generic [ref=f3e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f3e3]
+          - alert
+      - region [ref=f3e4]
+      - generic [ref=f3e5]:
+        - generic [ref=f3e7]:
+          - button "Skip to search" [ref=f3e8] [cursor=pointer]
+          - button "Skip to main content" [ref=f3e10] [cursor=pointer]
+          - button "Keyboard shortcuts" [ref=f3e12] [cursor=pointer]
+          - button "Close jump menu" [ref=f3e14] [cursor=pointer]
+        - banner "Global Navigation" [ref=f3e18]:
+          - generic [ref=f3e19]:
+            - link "LinkedIn" [ref=f3e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/
+              - img "LinkedIn" [ref=f3e23]
+            - combobox "I’m looking for..." [ref=f3e29]
+            - navigation "Primary Navigation" [ref=f3e30]:
+              - list [ref=f3e31]:
+                - listitem [ref=f3e32]
+                - listitem [ref=f3e44]
+                - listitem [ref=f3e52]
+                - listitem [ref=f3e60]
+                - listitem [ref=f3e68]
+                - listitem [ref=f3e80]
+                - listitem [ref=f3e87]
+                - listitem [ref=f3e98]

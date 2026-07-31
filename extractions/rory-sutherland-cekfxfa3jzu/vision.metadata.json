@@ -1,0 +1,22 @@
+{
+  "title": "Rory Sutherland Universal Behavioral Alchemy - Expansion Vision",
+  "artifact_type": "extraction_vision",
+  "created": "2026-07-30",
+  "source_file": "vision.md",
+  "owner_skill": "source-command-extract-forge",
+  "supporting_skill": "source-command-extract-amplify",
+  "target_skill": "rory-sutherland-marketing",
+  "checkpoint": 1,
+  "status": "approved",
+  "approved": "2026-07-30",
+  "source_video": {
+    "title": "Killer marketing tricks Amex, Apple and Domino's use on you - Rory Sutherland",
+    "channel": "My First Million",
+    "published": "2026-07-27",
+    "duration_seconds": 4517,
+    "transcript_words": 13772,
+    "url": "https://www.youtube.com/watch?v=ceKfXFA3jZU"
+  },
+  "book_status": "Kindle edition owned but unavailable as a usable local source; publisher sample only, with optional user-supplied highlights; full book not reviewed",
+  "external_action_boundary": "Dropbox was searched read-only. No Dropbox files were created, modified, shared, or deleted. No production Rory skill files were modified at checkpoint 1."
+}

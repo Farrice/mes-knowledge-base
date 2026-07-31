@@ -176,9 +176,9 @@
 | `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 17 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | social commerce × distribution economics × monetization infrastructure, monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** | engineer writing that grips, resonates, and converts using rhythm architecture | 15 | 0 |
-| `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | content-reactive audience profiling, platform-specific style cards, creator style analysis | 4 | 0 |
-| `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | multi-source content creation, enrichment, bundling | 8 | 0 |
-| `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content orchestration, performance feedback loops, and system self-improvement — the optimization layer of the ai content team | 3 | 0 |
+| `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | content-reactive audience profiling, platform-specific style cards, creator style analysis | 5 | 0 |
+| `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | multi-source content creation, evidence-backed signal ideation, enrichment | 9 | 0 |
+| `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content orchestration, human-curated queue state, performance feedback loops | 4 | 0 |
 | `kittl-graphic-design` | **Kittl Graphic Design** | typography design, font psychology, visual composition | 4 | 23 |
 | `kj-rainey-copywriting` | **kj-rainey-copywriting** | the pain-of-inaction formula, and the 5-step value chain that took him from $1, 600/month to $500k+/year | 3 | 0 |
 | `knowledge-architecture-studio` | **Knowledge Architecture Studio — Expertise Extraction & Agent Encapsulation** | structure it into a progressive mastery pathway, not a lookup table | 3 | 0 |
@@ -309,7 +309,7 @@
 | `riley-brown-marketing-automation` | **riley-brown-marketing-automation** | composable skills wrapped around scraper apis, examples-over-instructions (retrieve verified exemplars, don't prompt harder) | 12 | 0 |
 | `robert-greene-power-mastery` | **robert-greene-power-mastery** | engineering strategic presence (reputation, absence, silence | 3 | 0 |
 | `robert-mack-comedy-writing` | **Robert Mack: Comedy Writing Mastery** | deploy professional comedy mechanics across marketing, social media, presentations | 8 | 30 |
-| `rory-sutherland-marketing` | **Rory Sutherland: Marketing Psychology Mastery** | rory sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture | 20 | 32 |
+| `rory-sutherland-marketing` | **Rory Sutherland: Marketing Psychology Mastery** | rory sutherland's behavioral alchemy for marketing, strategy, products | 25 | 32 |
 | `ross-mckay-premium-at-scale` | **ross-mckay-premium-at-scale** | mass premium positioning, or pitching a retail buyer, premium at scale | 1 | 3 |
 | `ross-minchev-digital-products` | **ross-minchev-digital-products** | data-before-intuition validation, dual-path monetization (create vs, promote) | 3 | 0 |
 | `russell-brunson-funnels` | **russell-brunson-funnels** | platform-proof strategy over tactic-of-the-day, direct-response funnels & movement marketing | 3 | 0 |

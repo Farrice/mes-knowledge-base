@@ -1,0 +1,1278 @@
+Copyrighted Material
+‘This is a breakthrough book: Mother Reality makes sense in her own
+way. She yields her secrets to practitioners, almost never to academics
+– something psychologists, economists and non-skin in the game people,
+no matter what they say, are functionally unable to grasp. And the book
+is funny as hell: I smiled and laughed at every paragraph. Furthermore,
+this is the first such treatise written by someone who had true contact
+with reality via something called a P/L. And this is wonderfully applicable
+to about everything in life, from how to announce airplane delays to how
+to handle unsold opera tickets. Buy two copies of this book in case one
+is stolen.’
+Nassim Nicholas Taleb, scholar and former trader; author of the Incerto
+
+‘Reading Alchemy was, as its title promised, the process of turning paper
+and print into gold. Veins of wisdom regarding human functioning emerge
+regularly and brilliantly from the pages. Don’t miss this book.’
+Robert Cialdini, bestselling author of Influence, Yes!, The Small BIG and
+Pre-suasion
+
+‘Brilliant, Brilliant, Brilliant . . . wonderfully heretical, naughty and
+funny . . . Uncommon sense on stilts.’
+Jules Goddard, Fellow of the Centre for Management Development at
+London Business School and co-author of Uncommon Sense, Common
+Nonsense
+
+‘Deeply original.’
+Robert Trivers, evolutionary biologist and author of Deceit and Self-Deception
+
+‘Buy this book for the footnotes alone . . . As a committed devotee of ration-
+alism, who thinks there is not enough of it in this world, I rationally ought
+to hate this book. Instead I loved it. It’s full of great insights.’
+Matt Ridley, author of The Rational Optimist
+
+‘Sutherland captivates in a narrative full of intellectual treats that explain
+much of the behaviours in the world around us. This illogically logical read
+is a must read for anyone who is in the people business!’
+Dilip Soman, Canada Research Chair in Behavioural Science and Economics,
+University of Toronto
+
+‘Rory Sutherland is one of the all-time great raconteurs, polymaths, and
+ad men. But this book shows his hidden depths. Within this fun, quirky,
+hilarious page-turner, he develops a profound critique of technocratic
+hubris and fetishised economics. Sutherland helps us rediscover the pro-
+found wisdom behind everyday human reasoning, and invites us to explore
+the magic that happens when we trust a bit less in our focus groups and
+optimisation models, and trust a bit more in our creative eccentricity.’
+Geoffrey Miller, evolutionary psychologist, author of The Mating Mind, Spent,
+and What Women Want
+
+
+
+
+                     Copyrighted Material
+Copyrighted Material
+ALCHEMY
+The Magic of Original Thinking in a
+World of Mind-Numbing Conformity
+
+
+
+RORY SUTHERLAND
+
+
+
+
+         Copyrighted Material
+                        1 3 5 7 9 10 8 6 4 2
+
+            WH Allen, an imprint of Ebury Publishing,
+                   20 Vauxhall Bridge Road,
+                       London SW1V 2SA
+
+      WH Allen is part of the Penguin Random House group
+         of companies whose addresses can be found
+              at global.penguinrandomhouse.com
+
+
+
+
+                Copyright © Rory Sutherland, 2019
+
+   Rory Sutherland has asserted his right to be identified as the
+      author of this Work in accordance with the Copyright,
+                  Designs and Patents Act 1988
+
+              First published by WH Allen in 2019
+           This edition published by WH Allen in 2020
+
+                       www.penguin.co.uk
+
+         A CIP catalogue record for this book is available
+                     from the British Library
+
+                       ISBN 9780753556528
+
+  Printed and bound in Great Britain by Clays Ltd, Elcograf S.p.A.
+
+Penguin Random House is committed to a sustainable future for our
+     business, our readers and our planet. This book is made
+         from Forest Stewardship Council® certified paper.
+
+
+
+
+                   Copyrighted Material
+CONTENTS
+  FOREWORD: CHALLENGING COCA-COLA          vii
+  INTRODUCTION:
+  CRACKING THE (HUMAN) CODE                  1
+
+1: ON THE USES AND ABUSES OF REASON         49
+2: AN ALCHEMIST’S TALE
+      (OR WHY MAGIC REALLY STILL EXISTS)   133
+3: SIGNALLING                              165
+4: SUBCONSCIOUS HACKING:
+      SIGNALLING TO OURSELVES              211
+5: SATISFICING                             245
+6: PSYCHOPHYSICS                           271
+7: HOW TO BE AN ALCHEMIST                  317
+
+  CONCLUSION:
+  ON BEING A LITTLE LESS LOGICAL           343
+
+  ACKNOWLEDGEMENTS                         359
+  ENDNOTES                                 361
+  LIST OF ILLUSTRATIONS                    363
+  INDEX                                    365
+
+
+
+
+              Copyrighted Material
+RORY’S RULES
+OF ALCHEMY:
+ 1.   The opposite of a good idea can also be a good idea.
+ 2.   Don’t design for average.
+ 3.   It doesn’t pay to be logical if everyone else is being logical.
+ 4.   The nature of our attention affects the nature of our
+      experience.
+ 5.   A flower is simply a weed with an advertising budget.
+ 6.   The problem with logic is that it kills off magic.
+ 7.   A good guess which stands up to observation is still science.
+      So is a lucky accident.
+ 8.   Test counterintuitive things only because no one else will.
+ 9.   Solving problems using rationality is like playing golf with only
+      one club.
+10.   Dare to be trivial.
+11.   If there were a logical answer, we would have found it.
+
+
+
+
+                                      rory’s rules of alchemy       vi
+
+
+
+                    Copyrighted Material
+FOREWORD:
+CHALLENGING
+COCA-COLA
+Imagine that you are sitting in the boardroom of a major global
+drinks company, charged with producing a new product that will
+rival the position of Coca-Cola as the world’s second most popular
+cold non-alcoholic drink.*
+   What do you say? How would you respond? Well, the first thing I
+would say, unless I were in a particularly mischievous mood, is some-
+thing like this: ‘We need to produce a drink that tastes nicer than
+Coke, that costs less than Coke, and that comes in a really big bottle
+so people get great value for money.’ What I’m fairly sure nobody
+would say is this: ‘Hey, let’s try marketing a really expensive drink,
+that comes in a tiny can . . . and that tastes kind of disgusting.’ Yet that
+is exactly what one company did. And by doing so they launched a
+soft drinks brand that would indeed go on to be a worthy rival to
+Coca-Cola: that drink was Red Bull.
+   When I say that Red Bull ‘tastes kind of disgusting’, this is not a
+subjective opinion.† No, that was the opinion of a wide cross-section
+of the public. Before Red Bull launched outside of Thailand, where
+it had originated, it’s widely rumoured that the licensee approached
+
+
+
+                *   After water.
+                †   I drink rather a lot of the stuff myself.
+
+
+                                                   rory sutherland       vii
+
+
+
+                    Copyrighted Material
+a research agency to see what the international consumer reaction
+would be to the drink’s taste; the agency, a specialist in researching
+the flavouring of carbonated drinks, had never seen a worse reaction
+to any proposed new product.
+   Normally in consumer trials of new drinks, unenthusiastic
+respondents might phrase their dislike diffidently: ‘It’s not really
+my thing’; ‘It’s slightly cloying’; ‘It’s more a drink for kids’ – that
+kind of thing. In the case of Red Bull, the criticism was almost angry:
+‘I wouldn’t drink this piss if you paid me to,’ was one refrain. And
+yet no one can deny that the drink has been wildly successful – after
+all, profits from the six billion cans sold annually are sufficient to
+fund a Formula 1 team on the side.
+
+
+
+
+                           foreword: challenging coca-cola         viii
+
+
+
+                     Copyrighted Material
+THE CASE FOR MAGIC
+There is a simple premise to this book: that while the modern
+world often turns its back on this kind of illogic, it is at times
+uniquely powerful. Alongside the inarguably valuable products
+of science and logic, there are also hundreds of seemingly irra-
+tional solutions to human problems just waiting to be discovered,
+if only we dare to abandon standard-issue, naïve logic in the
+search for answers.
+   Unfortunately, because reductionist logic has proved so reliable
+in the physical sciences, we now believe it must be applicable every-
+where – even in the much messier field of human affairs. The
+models that dominate all human decision-making today are duly
+heavy on simplistic logic, and light on magic – a spreadsheet leaves
+no room for miracles. But what if this approach is wrong? What if,
+in our quest to recreate the certainty of the laws of physics, we are
+now too eager to impose the same consistency and certainty in
+fields where it has no place?
+   Take work and holidays, for example. Some 68 per cent of
+Americans would pay to have two weeks more holiday than the mea-
+gre two weeks most enjoy at present – they would accept a 4 per
+cent pay cut in return for double the amount of vacation time.
+   But what if there were no cost whatsoever to increasing everyone’s
+vacation allowance? What if we discovered that greater leisure time
+
+
+                                             rory sutherland      ix
+
+
+
+                  Copyrighted Material
+would benefit the US economy, both in terms of money spent on
+leisure goods and also in greater productivity? Perhaps people with
+more vacation time might be prepared to work for longer in life,
+rather than retiring to a Florida golf course as soon as it became
+affordable? Or perhaps they might simply be better at their jobs if
+they were reasonably rested and inspired by travel and leisure?
+Besides, it is now plausible that, for many jobs, recent advances in
+technology mean there is little difference in the contribution you
+make to your workplace, whether you are in a cubicle in Boise, Idaho
+or on a beach in Barbados.
+   There is an abundance of supporting evidence for these magical
+outcomes: the French are astonishingly productive on the rare occa-
+sion they are not on holiday; the German economy is successful,
+despite six weeks of annual leave being commonplace. But there is no
+model of the world that allows for America to contemplate, let alone
+trial, this possibly magical solution. In the left-brain, logical model of
+the world, productivity is proportional to hours worked, and a doubling
+of holiday time must lead to a corresponding 4 per cent fall in salary.
+   The technocratic mind models the economy as though it were a
+machine: if the machine is left idle for a greater amount of time,
+then it must be less valuable. But the economy is not a machine – it
+is a highly complex system. Machines don’t allow for magic, but
+complex systems do.
+
+  Engineering doesn’t allow for magic. Psychology does.
+
+  In our addiction to naïve logic, we have created a magic-free world
+of neat economic models, business case studies and narrow tech-
+nological ideas, which together give us a wonderfully reassuring
+sense of mastery over a complex world. Often these models are
+useful, but sometimes they are inaccurate or misleading. And occa-
+sionally they are highly dangerous.
+  We should never forget that our need for logic and certainty
+brings costs as well as benefits. The need to appear scientific in
+our methodology may prevent us from considering other, less log-
+ical and more magical solutions, which can be cheap, fast-acting
+
+
+                            foreword: challenging coca-cola             x
+
+
+
+                      Copyrighted Material
+and effective. The mythical ‘butterfly effect’ does exist, but we don’t
+spend enough time butterfly hunting. Here are some recent but-
+terfly effect discoveries, from my own experience:
+
+    1. A website adds a single extra option to its checkout
+       procedure – and increases sales by $300m per year.
+    2. An airline changes the way in which flights are presented –
+       and sells £8m more of premium seating per year.
+    3. A software company makes a seemingly
+       inconsequential change to call-centre procedure –
+       and retains business worth several million pounds.
+    4. A publisher adds four trivial words to a call-centre
+       script – and doubles the rate of conversion to sales.
+    5. A fast-food outlet increases sales of a product by
+       putting the price . . . up.
+
+All these disproportionate successes were, to an economist, entirely
+illogical. All of them worked. And all of them, apart from the first, were
+produced by a division of my advertising agency, Ogilvy, which I
+founded to look for counter-intuitive solutions to problems. We
+discovered that problems almost always have a plethora of seemingly
+irrational solutions waiting to be discovered, but that nobody is look-
+ing for them; everyone is too preoccupied with logic to look anywhere
+else. We also found, rather annoyingly, that the success of this approach
+did not always guarantee repeat business; it is difficult for a company,
+or indeed a government, to request a budget for the pursuit of such
+magical solutions, because a business case has to look logical.
+   It’s true that logic is usually the best way to succeed in an argument,
+but if you want to succeed in life it is not necessarily all that useful;
+entrepreneurs are disproportionately valuable precisely because they
+are not confined to doing only those things that make sense to a
+committee. Interestingly, the likes of Steve Jobs, James Dyson, Elon
+Musk and Peter Thiel often seem certifiably bonkers; Henry Ford
+famously despised accountants – the Ford Motor Company was never
+audited while he had control of it.
+
+
+                                                rory sutherland        xi
+
+
+
+                    Copyrighted Material
+   When you demand logic, you pay a hidden price: you destroy
+magic. And the modern world, oversupplied as it is with economists,
+technocrats, managers, analysts, spreadsheet-tweakers and algo-
+rithm designers, is becoming a more and more difficult place to
+practise magic – or even to experiment with it. In what follows, I
+hope to remind everyone that magic should have a place in our
+lives – it is never too late to discover your inner alchemist.
+
+
+
+
+                          foreword: challenging coca-cola       xii
+
+
+
+                    Copyrighted Material
+INTRODUCTION:
+CRACKING THE
+(HUMAN) CODE
+I am writing this book with two screens in front of me, one of which
+is displaying a series of recent results from a test that my colleagues
+have just performed to try to increase the effectiveness of charity
+fundraising.
+   Once a year, volunteers for our client charity drop printed enve-
+lopes through millions of doors, and return a few weeks later to
+collect people’s donations. This year the envelopes contained a
+hurricane relief appeal, but some of these envelopes were randomly
+different from the rest: 100,000 of them announced that the enve-
+lopes had been delivered by volunteers; 100,000 encouraged people
+to complete a form which meant their donation would be boosted
+by a 25 per cent tax rebate; 100,000 were in better-quality envelopes;
+and 100,000 were in portrait format (so the flap of the envelope was
+along the short side rather than the long one).
+   If you were an economist you would look at the results of this
+experiment and immediately conclude that people are completely
+insane. Logically, the only one of these changes that should affect
+whether people give is the one that reminds you that, for every £1
+you donate, the government will give a further 25p. The other three
+tests are seemingly irrelevant; the paper quality, the orientation of
+the envelope and the fact that it was hand-delivered by a volunteer
+add nothing to the rational reasons to donate.
+
+
+                                              rory sutherland        1
+
+
+
+                   Copyrighted Material
+  However, the results tell a different story. The ‘rational’ envelope
+in fact reduces donations by over 30 per cent compared to the plain
+control, while the other three tests increase donations by over 10
+per cent. The higher-quality paper also attracts a significantly higher
+number of more significant donations of £100 or more. I hope that,
+by the time you finish reading this book, you might better understand
+why these crazy-sounding results may make a strange kind of sense.
+
+  The human mind does not run on logic any more than a horse
+  runs on petrol.
+
+   What are the possible explanations for these results? Well, perhaps
+it feels more natural to put notes or cheques in an envelope with
+the flap on a shorter edge. Putting a cheque for £100 into a thick
+envelope feels more agreeable than putting it into one made of cheap
+paper. And a volunteer’s effort of hand-delivering the envelope may
+prompt the urge to reciprocate: we appreciate the effort they have
+made. Perhaps the mention of a 25 per cent ‘bonus’ on their donation
+reduces the amount that people feel they need to give? Stranger
+still, it also reduced the proportion of people who gave anything at
+all; I’ll be honest with you – I have no idea why this should be.
+   Here’s the thing. To a logical person, there would have been no
+point in testing three of these variables, but they are the three that
+actually work. This is an important metaphor for the contents of
+this book: if we allow the world to be run by logical people, we will
+only discover logical things. But in real life, most things aren’t log-
+ical – they are psycho-logical.
+   There are often two reasons behind people’s behaviour: the osten-
+sibly logical reason, and the real reason. I have worked in advertising
+and marketing for the last 30 years. I tell people I do it to make money,
+to build brands and to solve business problems; none of these are
+things I dislike, but, truthfully, I do it because I am nosy.
+   Modern consumerism is the best-funded social science experi-
+ment in the world, the Galapagos Islands of human weirdness. More
+important still, an ad agency is one of the few remaining safe spaces
+for weird or eccentric people in the worlds of business and
+
+
+                   introduction: cracking the (human) code             2
+
+
+
+                      Copyrighted Material
+government. In ad agencies, mercifully, maverick opinion is still
+broadly encouraged or at least tolerated. You can ask stupid ques-
+tions or make silly suggestions – and still get promoted. This
+freedom is much more valuable than we realise, because to reach
+intelligent answers, you often need to ask really dumb questions.
+   In most corporate settings, if you suddenly asked ‘Why do people
+clean their teeth?’ you would be looked at as a lunatic, and quite
+possibly unsafe. There is after all an official, approved, logical rea-
+son why we clean our teeth: to preserve dental health and reduce
+cavities or decay. Move on. Nothing to see here. But, as I will explain
+later in this book, I don’t think that’s the real reason. For instance,
+if it is, why are 95 per cent of all toothpastes flavoured with mint?
+
+  Human behaviour is an enigma. Learn to crack the code.
+
+  My assertion is that large parts of human behaviour are like a
+cryptic crossword clue: there is always a plausible surface meaning,
+but there is also a deeper answer hidden beneath the surface.
+
+  5 Across: Does perhaps rush around (4)
+
+   To someone who is unfamiliar with cryptic crosswords it will
+seem almost insane that the correct answer to this clue is ‘deer’,
+because there is no hint of the animal in the surface meaning of
+the clue. A simple crossword would have a clue like ‘Sylvan rumi-
+nants (4)’. But to a cryptic crossword aficionado, solving this clue is
+relatively simple – provided you accept that nothing is as it appears.
+The ‘surface’ of the clue has misled you to see ‘does’ and ‘rush’ as
+verbs, while both are actually nouns. ‘Does’ is here the plural of
+doe.* Rush is a reed. Reed ‘around’ – i.e. spelled backwards – is ‘deer’.†
+   This insight is only possible once you know not to take the clue
+literally, and human behaviour is often cryptic in a similar sense;
+
+
+
+
+               *   A deer, a female deer.
+               †   The ‘perhaps’ is needed for purity, as not all deer are
+                   does – some are stags.
+
+
+                                                 rory sutherland             3
+
+
+
+                    Copyrighted Material
+there is an ostensible, rational, self-declared reason why we do
+things, and there is also a cryptic or hidden purpose. Learning how
+to disentangle the literal from the lateral meaning is essential to
+solving cryptic crosswords, and it is also essential to understanding
+human behaviour.
+
+  To avoid stupid mistakes, learn to be slightly silly.
+
+   Most people spend their time at work trying to look intelligent,
+and for the last fifty years or more, people have tried to look intel-
+ligent by trying to look like scientists; if you ask someone to explain
+why something happened, they will generally give you a
+plausible-sounding answer that makes them seem intelligent,
+rational or scientific but that may or may not be the real answer.
+The problem here is that real life is not a conventional science – the
+tools which work so well when designing a Boeing 787, say, will not
+work so well when designing a customer experience or a tax pro-
+gramme. People are not nearly as pliable or predictable as carbon
+fibre or metal alloys, and we should not pretend that they are.
+   Adam Smith, the father of economics, identified this problem in
+the late eighteenth century,‡ but it is a lesson which many econo-
+mists have been ignoring ever since. If you want to look like a
+scientist, it pays to cultivate an air of certainty, but the problem
+with attachment to certainty is that it causes people completely to
+misrepresent the nature of the problem being examined, as if it
+were a simple physics problem rather than a psychological one.
+There is hence an ever-present temptation to pretend things are
+more ‘logical’ than they really are.
+
+
+
+
+               ‡   Indeed Ibn Khaldun, the father of sociology, perhaps
+                   saw it in the fourteenth century.
+
+
+                   introduction: cracking the (human) code                4
+
+
+
+                     Copyrighted Material
+INTRODUCING
+PSYCHO-LOGIC
+This book is intended as a provocation, and is only accidentally a
+work of philosophy. It is about how you and other humans make
+decisions, and why these decisions may differ from what might be
+considered ‘rationality’. My word to describe the way we make deci-
+sions – to distinguish it from the artificial concepts of ‘logic’ and
+‘rationality’ – is ‘psycho-logic’. It often diverges dramatically from
+the kind of logic you’ll have been taught in high school maths lessons
+or in Economics 101. Rather than being designed to be optimal, it
+has evolved to be useful.
+   Logic is what makes a successful engineer or mathematician, but
+psycho-logic is what has made us a successful breed of monkey,
+that has survived and flourished over time. This alternative logic
+emerges from a parallel operating system within the human mind,
+which often operates unconsciously, and is far more powerful and
+pervasive than you realise. Rather like gravity, it is a force that
+nobody noticed until someone put a name to it.
+   I have chosen psycho-logic as a neutral and non-judgemental
+term. I have done this for a reason. When we do put a name to
+non-rational behaviour, it is usually a word like ‘emotion’, which
+makes it sound like logic’s evil twin. ‘You’re being emotional’ is used
+as code for ‘you’re being an idiot’. If you went into most boardrooms
+and announced that you had rejected a merger on ‘emotional
+
+
+                                              rory sutherland        5
+
+
+
+                   Copyrighted Material
+grounds’, you would likely be shown the door. Yet we experience
+emotions for a reason – often a good reason for which we don’t
+have the words.
+  Robert Zion, the social psychologist, once described cognitive
+psychology as ‘social psychology with all the interesting variables
+set to zero’. The point he was making is that humans are a deeply
+social species (which may mean that research into human behav-
+iour or choices in artificial experiments where there is no social
+context isn’t really all that useful). In the real world, social context
+is absolutely critical. For instance, as the anthropologist Pierre
+Bourdieu observes, gift giving is viewed as a good thing in most
+human societies, but it only takes a very small change in context
+to make a gift an insult rather than a blessing; returning a present
+to the person who has given it to you, for example, is one of the
+rudest things you can do. Similarly, offering people money when
+they do something you like makes perfect sense according to eco-
+nomic theory and is called an incentive, but this does not mean
+you should try to pay your spouse for sex.*
+  The alchemy of this book’s title is the science of knowing what
+economists are wrong about. The trick to being an alchemist lies
+not in understanding universal laws, but in spotting the many
+instances where those laws do not apply. It lies not in narrow logic,
+but in the equally important skill of knowing when and how to
+abandon it. This is why alchemy is more valuable today than ever.
+
+
+
+
+               *   As an experiment, I tried this once – about three
+                   months later, I was offered some sex. So the economic
+                   approach, if it works at all, works rather slowly.
+
+
+                   introduction: cracking the (human) code             6
+
+
+
+                     Copyrighted Material
+Not everything that makes sense works, and not everything that
+works makes sense. The top-right section of this graph is popu-
+lated with the very real and significant advances made in pure
+science, where achievements can be made by improving on
+human perception and psychology. In the other quadrants,
+‘wonky’ human perception and emotionality are integral to any
+workable solution.
+   The bicycle may seem a strange inclusion here: however,
+although humans can learn how to ride bicycles quite easily,
+physicists still cannot fully understand how bicycles work.
+Seriously. The bicycle evolved by trial and error more than by
+intentional design.
+
+
+
+
+                                           rory sutherland        7
+
+
+
+              Copyrighted Material
+SOME THINGS ARE
+DISHWASHER-PROOF,
+OTHERS ARE
+REASON-PROOF
+Here’s a simple (if expensive) lifestyle hack. If you would like
+everything in your kitchen to be dishwasher-proof, simply treat
+everything in your kitchen as though it was; after a year or so,
+anything that isn’t dishwasher-proof will have been either
+destroyed or rendered unusable. Bingo – everything you have left
+will now be dishwasher-proof! Think of it as a kind of kitchen-
+utensil Darwinism.
+   Similarly, if you expose every one of the world’s problems to osten-
+sibly logical solutions, those that can easily be solved by logic will
+rapidly disappear, and all that will be left are the ones that are
+logic-proof – those where, for whatever reason, the logical answer
+does not work. Most political, business, foreign policy and, I strongly
+suspect, marital problems seem to be of this type.
+   This isn’t the Middle Ages, which had too many alchemists and
+not enough scientists. Now it’s the other way around; people who
+are very good at deploying and displaying conventional, deductive
+logic are everywhere, and they’re usually busily engaged in trying
+to apply some theory or model to something in order to optimise
+it. Much of the time, this is a good thing. I don’t want a conceptual
+artist in charge of air-traffic control, for instance. However, we now
+unfortunately fetishise logic to such an extent that we are increas-
+ingly blind to its failings.
+
+
+                   introduction: cracking the (human) code           8
+
+
+
+                     Copyrighted Material
+  For instance, the victorious Brexit campaign in Britain and the
+election of Donald Trump in the United States have both been rou-
+tinely blamed on the clueless and emotional behaviour of
+undereducated voters, but you could make equally strong cases
+that the Remain campaign in Britain and Hillary Clinton’s failed bid
+for the American presidency failed because of the clueless, hyper-
+rational behaviour of overeducated advisors, who threw away huge
+natural advantages. At one point we in Britain were even warned
+that ‘a vote to leave the EU might result in rising labour costs’ – by
+a highly astute businessman* who was so enraptured with models
+of economic efficiency that he was clearly unaware most voters
+would understand a ‘rise in labour costs’ as meaning a ‘pay rise’.
+  Perhaps most startlingly of all, every single one of the Remain cam-
+paign’s arguments resorted to economic logic, yet the EU is patently
+a political project, which served to make them seem greedy rather
+than principled, especially as the most vocal Remain supporters
+came from a class of people who had done very nicely out of globali-
+sation. Notice that Winston Churchill did not urge us to fight the
+Second World War ‘in order to regain access to key export markets’.
+
+  More data leads to better decisions. Except when it doesn’t.
+
+  Across the Atlantic, meanwhile, the Clinton campaign was dom-
+inated by a strategist called Robby Mook, who had become so
+enamoured of data and mathematical modelling that he refused
+to use anything else. He derided Bill Clinton for suggesting he should
+connect the campaign with white working-class voters in the
+Midwest, mimicking a ‘Grampa Simpson’ voice to mock the former
+president† and dismissing another suggestion with the smug ‘my
+data disagree with your anecdotes’.
+
+
+               *   Stuart Rose, former executive chairman of Marks &
+                   Spencer.
+               †   Whatever else you may think of Bill Clinton, his track
+                   record clearly indicates that he is an instinctive
+                   political genius.
+
+
+                                                rory sutherland         9
+
+
+
+                   Copyrighted Material
+   Yet perhaps the anecdotal evidence was right, because the data
+was clearly wrong. Clinton did not visit Wisconsin once in the
+entire campaign, wrongly assuming that she would win there eas-
+ily. Some in her team suggested that she should visit in the last
+days before the election, but the data told her to go to Arizona
+instead. Now I’m British, and have only been to Arizona four or
+five times, and Wisconsin twice. But even I would have said, ‘that
+decision sounds weird to me’. After all, nothing I have ever seen
+in Wisconsin suggested that it was a state that would never vote
+for Donald Trump, and it has always had a strong streak of politi-
+cal eccentricity.
+   The need to rely on data can also blind you to important facts
+that lie outside your model. It was surely relevant that Trump was
+filling sports halls wherever he campaigned, while Clinton was
+drawing sparse crowds. It’s important to remember that big data
+all comes from the same place – the past. A new campaigning style,
+a single rogue variable or a ‘black swan’ event can throw the most
+perfectly calibrated model into chaos. However, the losing sides in
+both these campaigns have never once considered that their reli-
+ance on logic might been the cause of their defeats, and the blame
+was pinned on anyone from ‘Russians’ to ‘Facebook’. Maybe they
+were blameworthy in part, but no one has spent enough time ask-
+ing whether an overreliance on mathematical models of
+decision-making might be to blame for the fact that in each case
+the clear favourite blew it.
+   In theory, you can’t be too logical, but in practice, you can. Yet we
+never seem to believe that it is possible for logical solutions to fail.
+After all, if it makes sense, how can it possibly be wrong?
+   To solve logic-proof problems requires intelligent, logical people
+to admit the possibility that they might be wrong about something,
+but these people’s minds are often most resistant to change – per-
+haps because their status is deeply entwined with their capacity
+for reason. Highly educated people don’t merely use logic; it is part
+of their identity. When I told one economist that you can often
+increase the sales of a product by increasing its price, the reaction
+
+
+                   introduction: cracking the (human) code           10
+
+
+
+                     Copyrighted Material
+was one not of curiosity but of anger. It was as though I had insulted
+his dog or his favourite football team.
+  Imagine if it were impossible to get a well-paid job, or to hold
+political office, unless you supported the New York Yankees or
+Chelsea Football Club. We would regard such partisanship as absurd,
+yet devoted fans of logic control the levers of power everywhere.
+The Nobel Prize-winning behavioural scientist Richard Thaler said,
+‘As a general rule the US Government is run by lawyers who occa-
+sionally take advice from economists. Others interested in helping
+the lawyers out need not apply.’
+  Today it sometimes seems impossible to get a job without first
+demonstrating that you are in thrall to logic. We flatter such people
+through our education system, we promote them to positions of
+power and are subjected every day to their opinions in the news-
+papers. Our business consultants, accountants, policy-makers and
+think-tank pundits are all selected and rewarded for their ability
+to display impressive flights of reason.
+  This book is not an attack on the many healthy uses of logic or
+reason, but it is an attack on a dangerous kind of logical overreach,
+which demands that every solution should have a convincing ration-
+ale before it can even be considered or attempted. If this book
+provides you with nothing else, I hope it gives you permission to
+suggest slightly silly things from time to time. To fail a little more
+often. To think unlike an economist. There are many problems which
+are logic-proof, and which will never be solved by the kind of people
+who aspire to go to the World Economic Forum at Davos.‡ Remember
+the story of those envelopes.
+
+  We could never have evolved to be rational – it makes you weak.
+
+
+
+
+               ‡   A bizarre international junket where, for some reason,
+                   the world’s most intelligent people collectively decide
+                   that it is a good idea to spend part of January halfway
+                   up a mountain.
+
+
+                                                rory sutherland        11
+
+
+
+                   Copyrighted Material
+   Now, as reasonable people, you’re going to hate me saying this, and
+I don’t feel good saying it myself. But, for all the man’s faults, I think
+Donald Trump can solve many problems that the more rational Hillary
+Clinton simply wouldn’t have been able to address. I don’t admire
+him, but he is a decision maker from a different mould. For example,
+both candidates wanted manufacturing jobs to return to the United
+States. Hillary’s solution was logical – engagement in tripartite trade
+negotiations with Mexico and Canada. But Donald simply said, ‘We’re
+going to build a wall, and the Mexicans are going to pay.’
+   ‘Ah,’ you say. ‘But he’s never going to build that wall.’ And I agree
+with you – I think it highly unlikely that a wall will be built, and
+even less likely that the unlucky Mexicans will agree to pay for it.
+But here’s the thing: he may not need to build the wall to achieve
+his trade ambitions – he just needs people to believe that he might.
+Similarly, he doesn’t need to repeal the North American Free Trade
+Agreement – he just needs to raise it as a possibility. Irrational
+people are much more powerful than rational people, because their
+threats are so much more convincing.
+   For perhaps thirty years, the prevailing economic consensus
+meant that no American carmaker felt they owed any patriotic duty
+to workers in their home country; had you suggested such a thing
+in any of their board meetings, you would have been viewed as a
+dinosaur. So pervasive was the belief in untrammelled free trade
+– on both sides of the American political divide – that manufactur-
+ing was shifted overseas without any consideration about whether
+there might be a risk to losing the support of government or public
+opinion. All Trump needed to do was to signal that this assumption
+was no longer safe. No tariffs (or walls) are actually needed: the
+threat of them alone is enough.§
+   A rational leader suggests changing course to avoid a storm. An
+irrational one can change the weather.
+
+
+               §   Hillary could not convincingly have made such a
+                   threat, because everyone would have known it was
+                   hollow. Trump is crazy enough to go through with it.
+
+
+                    introduction: cracking the (human) code            12
+
+
+
+                      Copyrighted Material
+   Being slightly bonkers can be a good negotiating strategy: being
+rational means you are predictable, and being predictable makes
+you weak. Hillary thinks like an economist, while Donald is a game
+theorist, and is able to achieve with one tweet what would take
+Clinton four years of congressional infighting. That’s alchemy; you
+may hate it, but it works.
+   Some scientists believe that driverless cars will not work unless
+they learn to be irrational. If such cars stop reliably whenever a
+pedestrian appears in front of them, pedestrian crossings will be
+unnecessary and jaywalkers will be able to march into the road,
+forcing the driverless car to stop suddenly, at great discomfort to
+its occupants. To prevent this, driverless cars may have to learn to
+be ‘angry’, and to occasionally maliciously fail to stop in time and
+strike the pedestrian on the shins.
+
+  If you are wholly predictable, people learn to hack you.
+
+
+
+
+                                            rory sutherland      13
+
+
+
+                  Copyrighted Material
+CRIME, FICTION AND
+POST-RATIONALISM:
+OR WHY REALITY ISN’T
+NEARLY AS LOGICAL AS
+WE THINK
+Think of life as like a criminal investigation: a beautifully linear and
+logical narrative when viewed in retrospect, but a fiendishly random,
+messy and wasteful process when experienced in real time. Crime
+fiction would be unreadably boring if it accurately depicted events,
+because the vast majority of it would involve enquiries that led
+nowhere. And that’s how it’s supposed to be – the single worst thing
+that can happen in a criminal investigation is for everyone involved
+to become fixated on the same theory, because one false assumption
+shared by everyone can undermine the entire investigation. There’s
+a name for this – it’s called ‘privileging the hypothesis’.
+   A recent example of this phenomenon emerged during the bizarre
+trial of Amanda Knox and Raffaele Sollecito for the murder of
+Meredith Kercher in Perugia, Italy. It became impossible for the
+investigator and his team to see beyond their initial suspicion that,
+after Kercher had been killed, the perpetrator had staged a break-in
+to ‘make it look like a burglary gone wrong’. Since no burglar from
+outside would need to stage a break-in, their only conclusion was
+that the staging took place to divert attention from the other flat-
+mates and to disguise the fact that it was an inside job. Unfortunately,
+the initial suspicion was incorrect.
+   I sympathise a little with their attachment to the theory. After
+all, the break-in did, at first glance, look as though it might have
+
+
+                   introduction: cracking the (human) code           14
+
+
+
+                     Copyrighted Material
+been faked: there was some broken glass outside the window and
+an absence of footprints. But the theory of an inside job staged to
+look like a botched burglary was so doggedly held that all subse-
+quent contradictory evidence was either suppressed or not shared
+with the press, and the result was a nonsense.
+   The break-in did look rather absurd at first glance – why would
+you break into a flat from a relatively exposed upstairs window?
+– until you realise that the purpose of breaking a window was not
+to gain access to the house, but to make a hell of a lot of noise while
+standing in a place from which an easy escape was possible. It thus
+helped the perpetrator ascertain with some confidence that there
+was no one around; if you smash a window and nobody intervenes,
+you can be fairly sure no one is going to notice you climbing through
+the same window five minutes later, but if a light goes on and a dog
+starts barking, you can simply leg it.
+   This example goes to the heart of how we see the world. Do we
+look at things from a single perspective, where you do one thing to
+achieve another, or do we accept that complex things are rather
+different? In a designed system, such as a machine, one thing does
+serve one narrow purpose, but in an evolved or complex system, or
+in human behaviour, things can have multiple uses depending on
+the context within which they are viewed.
+   The human mouth allows you to eat, but if your nose is blocked,
+it also allows you to breathe. In a similar way, it seems illogical to
+break into a building using the noisiest means possible, until you
+understand the context in which the offender is operating. It is not
+appropriate to bring the same habits of thought that we use to deal
+with things that have been consciously designed to understanding
+complex and evolved systems, with second-order considerations.
+   My problem with Marxism is that it makes too much sense.
+
+
+
+
+                                              rory sutherland       15
+
+
+
+                   Copyrighted Material
+THE DANGER OF
+TECHNOCRATIC ELITES
+If you are a technocrat, you’ll generally have achieved your status
+by explaining things in reverse; the plausible post-rationalisation
+is the stock-in-trade of the commentariat. Unfortunately, it is
+difficult for such people to avoid the trap of assuming that the
+same skills that can explain the past can be used to predict the
+future. Like a criminal investigation, what looks neat and logical
+when viewed with hindsight is usually much messier in real time.
+The same is true of scientific progress. It is easy to depict a dis-
+covery, once made, as resulting from a logical, and linear process,
+but that does not mean that science should progress according
+to neat, linear and sequential rules.
+   There are two separate forms of scientific enquiry – the discov-
+ery of what works and the explanation and understanding of why
+it works. These are two entirely different things, and can happen
+in either order. Scientific progress is not a one-way street. Aspirin,
+for instance, was known to work as an analgesic for decades before
+anyone knew how it worked. It was a discovery made by experience
+and only much later was it explained. If science did not allow for
+
+
+
+               *   Bakelite, penicillin, the microwave, X-rays, radar, radio
+                   were all discovered ‘backwards’.
+
+
+                   introduction: cracking the (human) code               16
+
+
+
+                     Copyrighted Material
+such lucky accidents,* its record would be much poorer – imagine
+if we forbade the use of penicillin, because its discovery was not
+predicted in advance? Yet policy and business decisions are over-
+whelmingly based on a ‘reason first, discovery later’ methodology,
+which seems wasteful in the extreme. Remember the bicycle.
+   Evolution, too, is a haphazard process that discovers what can
+survive in a world where some things are predictable but others
+aren’t. It works because each gene reaps the rewards and costs from
+its lucky or unlucky mistakes, but it doesn’t care a damn about
+reasons. It isn’t necessary for anything to make sense: if it works it
+survives and proliferates; if it doesn’t, it diminishes and dies. It
+doesn’t need to know why it works – it just needs to work.
+   Perhaps a plausible ‘why’ should not be a pre-requisite in decid-
+ing a ‘what’, and the things we try should not be confined to those
+things whose future success we can most easily explain in retro-
+spect. The record of science in some ways casts doubt on a scientific
+approach to problem solving.
+
+
+
+
+                                             rory sutherland       17
+
+
+
+                   Copyrighted Material
+ON NONSENSE AND
+NON-SENSE
+I’ll admit it: I have only become qualified to write this book by acci-
+dent. I am a classicist, not an anthropologist, but have, almost by
+chance, spent 30 years in the advertising industry – mostly in what
+is known as ‘direct response’, the form of advertising where people
+are urged to respond directly to your advertisement. It consists of
+well-funded behavioural experiments on a grand scale, and what
+this teaches us is that the models of human behaviour devised and
+promoted by economists and other conventionally rational people
+are wholly inadequate at predicting human behaviour.
+   What are the great achievements of economics? Ricardo’s Theory
+of Comparative Advantage, perhaps? Or The General Theory of
+Employment, Interest and Money by John Maynard Keynes? And what
+is the single most important finding of the advertising industry?
+Perhaps it is that ‘advertisements featuring cute animals tend to be
+more successful than ads that don’t’.
+   I’m not joking. I recently had a meeting with a client where I
+learned that a customer prize draw to win ‘free energy for a year
+– worth over £1,000’ received 67,000 entries. The subsequent draw,
+where you could win a cute penguin nightlight (with a value of £15)
+received over 360,000 entries. One customer even turned down an
+offer of a £200 refund on their bill, saying, ‘No, I’d rather have a
+penguin.’ Even though I know this is true, so great is my desire to
+
+
+                   introduction: cracking the (human) code          18
+
+
+
+                     Copyrighted Material
+appear rational that I would find it very hard to stand in front of a
+board of directors and recommend that their advertising should
+feature rabbits, or perhaps a family of lemurs, because it sounds
+like nonsense. It isn’t, though. It’s a different kind of thing, which
+I call ‘non-sense’.
+   Behavioural economics is an odd term. As Warren Buffett’s busi-
+ness partner Charlie Munger once said, ‘If economics isn’t
+behavioural, I don’t know what the hell is.’ It’s true: in a more
+sensible world, economics would be a subdiscipline of psychol-
+ogy.* Adam Smith was as much a behavioural economist as an
+economist – The Wealth of Nations (1776) doesn’t contain a single
+equation. But, strange though it may seem, the study of econom-
+ics has long been detached from how people behave in the real
+world, preferring to concern itself with a parallel universe in
+which people behave as economists think they should. It is to cor-
+rect this circular logic that behavioural economics – made famous
+by experts such as Daniel Kahneman, Amos Tversky, Dan Ariely
+and Richard Thaler – has come to prominence. In many areas of
+policy and business there is much more value to be found in
+understanding how people behave in reality than how they should
+behave in theory.†
+   Behavioural economics might well be described as the study of
+the nonsensical and the non-sensical aspects of human behaviour.
+Sometimes our behaviour is nonsensical because we evolved for
+conditions different to those we now find ourselves in.‡ However,
+much ‘irrational’ human behaviour is not really nonsensical at all;
+it is non-sensical. For instance, viewed through the lens of
+
+
+
+               *   The dissident Austrian School of economists wisely
+                   believed this.
+               †   I know. Who would have thought it?
+               ‡   For example, we probably love sugar too much: in the
+                   ancestral environment there was no refined sugar, and
+                   the only food with a comparable glycemic load was
+                   honey.
+
+
+                                               rory sutherland       19
+
+
+
+                   Copyrighted Material
+evolutionary psychology, the effectiveness of cute animals in adver-
+tising should not shock us. Advertising exists to be noticed, and we
+have evolved, surely, to pay attention to living things. An evolution-
+ary psychologist might also suggest that a penguin nightlight – a
+gift for one’s child – might be more emotionally rewarding than a
+cash reward, which is a gain for oneself.§
+   Sometimes human behaviour that seems nonsensical is really
+non-sensical – it only appears nonsensical because we are judging
+people’s motivations, aims and intentions the wrong way. And
+sometimes behaviour is non-sensical because evolution is just
+smarter than we are. Evolution is like a brilliant uneducated crafts-
+man: what it lacks in intellect it makes up for in experience.
+   For instance, for a long time the human appendix was thought
+to be nonsense, a vestigial remnant of some part of the digestive
+tract, which had served a useful purpose in our distant ancestors.
+It is certainly true that you can remove people’s appendices and
+they seem to suffer no immediate ill effects. However, in 2007,
+William Parker, Randy Bollinger and their colleagues at Duke
+University in North Carolina hypothesised that the appendix actu-
+ally serves as a haven for bacteria in the digestive system that are
+valuable both in aiding digestion and in providing immunity from
+disease. So, just as miners in the California Gold Rush would guard
+a live sourdough yeast ‘starter’ in a pouch around their necks, the
+body has its own pouch to preserve something valuable. Research
+later showed that individuals whose appendix had been removed
+were four times more likely to suffer from clostridium difficile colitis,
+an infection of the colon.
+   Given that cholera was a huge cause of death only a few gener-
+ations ago, and given that it is thought by some to be making a
+
+
+               §   My friend, the evolutionary biologist Nichola Raihani,
+                   recently had her child’s bicycle helmet stolen. She was
+                   immediately struck by the strength of her outrage,
+                   which was far more extreme than if her own bicycle
+                   helmet had been stolen.
+
+
+                   introduction: cracking the (human) code             20
+
+
+
+                      Copyrighted Material
+comeback, perhaps the appendix should no longer be treated as
+disposable – it seems that, rather like the Spanish royal family,
+most of the time it’s pointless or annoying, but sometimes it’s
+invaluable.¶
+
+  Be careful before calling something nonsense.
+
+  The lesson we should learn from the appendix is that some-
+thing can be valuable without necessarily being valuable all the
+time. Evolution does not take such a short-term, instrumental-
+ist view. In looking for the everyday function of the human
+appendix, we were looking for the wrong thing. Whether some-
+thing makes sense in theory matters less than whether it works
+in practice.
+  Like quite a few fellow Anglicans (but unlike my wife who is a
+priest and hospital chaplain) I am not quite sure of the existence
+of God, but I would be reluctant to disparage religion as nonsense,
+as some people do.
+  In a 1996 survey on the place of religion in public life in America,
+the Heritage Institute found that:
+
+   1. Churchgoers are more likely to be married, less likely to be
+      divorced or single and more likely to manifest high levels
+      of satisfaction in their marriage.
+   2. Church attendance is the most important predictor of
+      marital stability and happiness.
+   3. The regular practice of religion helps poor people move
+      out of poverty. Regular church attendance, for example, is
+
+
+
+
+               ¶   Spain’s peaceful and robust transition to democracy
+                   after Franco might have been impossible without the
+                   decisive role played by an arbitrary and symbolic head
+                   of state.
+
+
+                                               rory sutherland        21
+
+
+
+                   Copyrighted Material
+      particularly instrumental in helping young people escape
+      the poverty of inner-city life.
+   4. Regular religious practice generally inoculates individuals
+      against a host of social problems, including suicide, drug
+      abuse, out-of-wedlock births, crime and divorce.
+   5. The regular practice of religion also encourages such
+      beneficial effects on mental health as less depression,
+      higher self-esteem and greater family and marital
+      happiness.
+   6. In repairing damage caused by alcoholism, drug addiction
+      and marital breakdown, religious belief and practice are a
+      major source of strength and recovery.**
+   7. Regular practice of religion is good for personal physical
+      health: it increases longevity, improves one’s chances of
+      recovery from illness and lessens the incidence of many
+      killer diseases.
+
+Religion feels incompatible with modern life because it seems to
+involve delusional beliefs, but if the above results came from a trial
+of a new drug, we would want to add it to tap water. Just because
+we don’t know why it works, we should not be blind to the fact that
+it does.††
+   Business, creativity and the arts are full of successful non-sense.
+In fact the single greatest strength of free markets is their ability
+to generate innovative things whose popularity makes no sense.
+Non-sense includes things that are useful or effective, even though
+(or perhaps because) they defy conventional logic.
+   Almost all good advertising contains some element of non-sense.
+At first glance this might make it look silly – it can certainly make
+selling it to a sceptical group of clients painfully embarrassing.
+
+
+
+
+               ** Alcoholics Anonymous is, remember, modelled on
+                  explicitly religious principles.
+               †† Take that, Dawkins!
+
+
+                   introduction: cracking the (human) code         22
+
+
+
+                     Copyrighted Material
+Imagine you are the board of an airline and have just spent three
+hours debating whether to buy 13 Airbus A350s or 11 Boeing 787s,
+each of which costs around $150 million. At the end of the meeting,
+you are presented with an idea for an advertising campaign that
+does not show an aircraft at all, but instead proposes to focus on
+the cucumber sandwiches and scones that might be served on
+board. This is non-sense – however, around 90 per cent of people
+have no idea what sort of aircraft they are travelling on or how a
+jet engine works but will infer a great deal about the safety and
+quality of the experience offered by an airline from the care and
+attention it pays to on-board snacks.‡‡
+   Presenting such things in a business setting packed with MBA
+graduates is slightly embarrassing; you start to envy people in IT
+or tax-planning, who can go into a meeting with rational propos-
+als on a chart or spreadsheet. However, this fixation with
+sense-making can prove expensive. Imagine you are a company
+whose product is not selling well. Which of the following propos-
+als would be easier to make in a board meeting called to resolve
+the problem? a) ‘We should reduce the price’ or b) ‘We should
+feature more ducks in our advertising’. The first, of course – and
+yet the second could, in fact, be much more profitable.
+   This is a book written in defence of things that don’t quite make
+sense, but it is also a book that – conversely – attacks our fetishisa-
+tion of things that do. Once you accept that there may be a value or
+
+
+
+               ‡‡   The gin brand Hendrick’s engaged in a very clever bit
+                    of non-sense, when they suggested that their product
+                    be served not with lemon but with cucumber, which
+                    gained immediate salience. Being British, I failed to
+                    notice the genius of this move, which was that it also
+                    positioned the drink as sophisticatedly British in the
+                    United States; Americans find cucumber sandwiches
+                    a British peculiarity. To a Brit, of course, a cucumber
+                    is not seen as being particularly British – it is just
+                    something we make sandwiches with.
+
+
+                                                rory sutherland         23
+
+
+
+                    Copyrighted Material
+purpose to things that are hard to justify, you will naturally come
+to another conclusion: that it is perfectly possible to be both rational
+and wrong.
+   Logical ideas often fail because logic demands universally appli-
+cable laws but humans, unlike atoms, are not consistent enough
+in their behaviour for such laws to hold very broadly. For example,
+to the despair of utilitarians, we are not remotely consistent in
+whom we choose to help or cooperate with. Imagine that you get
+into financial trouble and ask a rich friend for a loan of £5,000, who
+patiently explains that you are a much less needy and deserving
+case for support than a village in Africa to which he plans to donate
+the same amount. Your friend is behaving perfectly rationally.
+Unfortunately he is no longer your friend.
+   It is impossible for human relations to work unless we accept
+that our obligations to some people will always exceed our obliga-
+tions to others. Universal ideas like utilitarianism are logical, but
+seem not to function with the way we have evolved. Perhaps it is
+no coincidence that Jeremy Bentham, the father of utilitarianism,
+was one of the strangest and most anti-social people who ever
+lived.§§
+   The drive to be rational has led people to seek political and
+economic laws that are akin to the laws of physics – universally
+true and applicable. The caste of rational decision makers
+requires generalisable laws to allow them confidently to pronounce
+on matters without needing to consider the specifics of the
+
+
+
+
+               §§ It has often been proposed that he was autistic. I am
+                  reluctant to use this diagnosis too widely, but it is
+                  perhaps true that he was overburdened with the use
+                  of reason. He once declined the chance to meet his
+                  young nieces, saying, ‘If I don’t like them, I will not
+                  enjoy the experience, and if I do like them then I will
+                  be sad to see them leave.’ Perfectly reasonable, I
+                  suppose, but weird as hell! Kant was also a weirdo.
+
+
+                   introduction: cracking the (human) code              24
+
+
+
+                     Copyrighted Material
+situation.¶¶ And in reality ‘context’ is often the most important
+thing in determining how people think, behave and act: this
+simple fact dooms many universal models from the start.***
+Because in order to form universal laws, naïve rationalists have
+to pretend that context doesn’t matter.
+
+
+
+
+              ¶¶ Notice that ordinary people are never allowed to
+                 pronounce on complex problems. When do you ever
+                 hear an immigration officer interviewed about
+                 immigration, or a street cop interviewed about crime?
+                 These people patently know far more about these
+                 issues than economists or sociologists, and yet we
+                 instead seek wisdom from people with models and
+                 theories rather than actual experience.
+
+              *** For instance, will wealthy Germans help poorer
+                  Germans? Yup. Will they help Syrians? Yes, albeit
+                  reluctantly. Poor Greeks, however? No chance.
+
+
+                                              rory sutherland         25
+
+
+
+                  Copyrighted Material
+

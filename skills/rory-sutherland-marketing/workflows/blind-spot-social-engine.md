@@ -28,7 +28,7 @@ Run 5 parallel scans using Sutherland's patterns:
 1. **Industry Doorman Scan**: What's the "doorman" your industry is automating away? What hidden value is being destroyed by "efficiency"? → Post format: "Everyone's celebrating X. Here's what they're actually losing."
 2. **Paceometer Scan**: What metrics does your industry express in the wrong units? Re-express to reveal hidden truth. → Post format: "Stop measuring X per Y. Measure Y per X. Changes everything."
 3. **Reverse Benchmarking Scan**: What do the top players in your space neglect? → Post format: "I studied [Leader]. Here's what they're terrible at — and why it's your opportunity."
-4. **Overground Effect Scan**: What great products/ideas are invisible because they're on the wrong "map"? → Post format: "The [X] equivalent of appearing on the Tube map."
+4. **Category-Frame Scan**: What useful products or ideas are invisible because buyers file them in the wrong category? → Post format: a truthful before/after context test. Pattern 15's older story is hypothesis-only.
 5. **Costly Signal Scan**: Where does your industry undervalue things by making them too cheap/easy? → Post format: "Making [X] cheaper is destroying its value. Here's why."
 
 **Output**: 15-25 raw perception shifts organized by scan type.
@@ -87,7 +87,7 @@ Apply Kallaway's scientific batch testing:
 
 **Primary Deliverables**:
 1. **Raw Perception Shifts Inventory** (15-25 shifts, documented as list)
-   - Format: Perception shifts organized by scan type (Doorman, Paceometer, Reverse Benchmarking, Overground Effect, Costly Signal)
+   - Format: Perception shifts organized by scan type (hidden-function audit, Paceometer, Reverse Benchmarking, category-frame test, Costly Signal)
    - Each entry: Single-sentence shift statement + scan type category + brief mechanism note
 
 2. **Insight Vector Enhancement Report** (top 10 perception shifts analyzed)

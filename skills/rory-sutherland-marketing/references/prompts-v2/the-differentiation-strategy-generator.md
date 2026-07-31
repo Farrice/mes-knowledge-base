@@ -24,6 +24,8 @@ You produce differentiation strategies that transform commodity competitors into
 - **[CURRENT COMPETITION]**: Who the obvious competitors are and how they compete
 - **[CURRENT POSITIONING]**: How the business currently defines itself
 - **[CONSTRAINTS]**: Budget, scale, regulatory, or other limitations
+- **[OBSERVED ADJACENT USERS]**: Unexpected buyers, workarounds, accessibility uses, or secondary occasions already visible
+- **[PRIMARY POSITION TO PROTECT]**: The identity or audience signal that should not be diluted
 
 ---
 
@@ -37,16 +39,20 @@ You produce differentiation strategies that transform commodity competitors into
    - What do customers secretly want but never get?
    - What dimension could you own ENTIRELY?
 
-3. **GENERATE CATEGORY-ESCAPE STRATEGIES**: Create positioning options that make comparison impossible:
-   - New customer segment (who ISN'T buying from anyone?)
+3. **GENERATE CATEGORY-ESCAPE STRATEGIES**: Create positioning options that make comparison difficult:
+   - Byproduct audience (who receives the core benefit because of the existing focus?)
    - New use case (what else could this solve?)
    - Radical opposite (what if we did the REVERSE?)
    - Dimension monopoly (own one dimension completely)
    - Hybrid category (combine unexpected elements)
 
-4. **EVALUATE DEFENSIBILITY**: Assess which strategies create sustainable advantage vs. easily copied differentiation, given [CONSTRAINTS].
+4. **MAP THE HIDDEN SECONDARY MARKET**: Use [OBSERVED ADJACENT USERS] to develop 2-4 hypotheses. For each, name the acute job, why current category language fails, how the benefit can be made discoverable, and how to avoid stigmatizing or narrowing [PRIMARY POSITION TO PROTECT]. If no observation exists, label every audience a hypothesis.
 
-5. **PRODUCE THE DIFFERENTIATION BLUEPRINT**: Deliver complete strategy with positioning, implementation, and competitive response scenarios.
+5. **EVALUATE DEFENSIBILITY**: Assess which strategies create sustainable advantage versus easily copied differentiation, given [CONSTRAINTS].
+
+6. **DESIGN DISCOVERY TESTS**: Test one positioning, channel, or use-case variable at a time. Measure qualified response from the secondary audience and any damage to the primary position.
+
+7. **PRODUCE THE DIFFERENTIATION BLUEPRINT**: Deliver complete strategy, secondary-market map, implementation, tests, and competitive response scenarios.
 
 ---
 
@@ -66,6 +72,7 @@ Deliver a **Differentiation Strategy Blueprint** with these components:
 5. Implementation Path — how to execute, respecting [CONSTRAINTS]
 6. Competitive Response Scenarios — how rivals might react, and why the position still holds
 7. Risk Assessment — what could undermine the differentiation
+8. Hidden Secondary-Market Map — observed signal, audience hypothesis, acute job, proxy-safe language, and discovery test
 
 **Length**: 1500-2200 words. **No invented market-size or revenue-impact figures** — the strategy argues from positioning logic and named competitive dynamics, not fabricated numbers.
 
@@ -86,6 +93,10 @@ Deliver a **Differentiation Strategy Blueprint** with these components:
 ### CATEGORY-ESCAPE STRATEGIES
 **Option 1: [Name]** — [New segment / new use case / radical opposite / dimension monopoly / hybrid]
 [Repeat for 3-5 options]
+
+### HIDDEN SECONDARY-MARKET MAP
+| Observed signal | Audience hypothesis | Acute job | Proxy-safe positioning | Test |
+|---|---|---|---|---|
 
 ### RECOMMENDED STRATEGY
 **Selected**: [Option name]
@@ -111,3 +122,10 @@ Deliver a **Differentiation Strategy Blueprint** with these components:
 - [ ] The Recommended Strategy's rationale explicitly accounts for [CONSTRAINTS]
 - [ ] Competitive Response Scenarios show real strategic thinking about rival reactions, not dismissed as impossible
 - [ ] Risk Assessment names genuine vulnerabilities, not token caveats
+- [ ] Secondary audiences are grounded in observation or labeled hypotheses
+- [ ] Proxy-safe language preserves [PRIMARY POSITION TO PROTECT]
+- [ ] Discovery tests isolate one positioning, channel, or use-case variable
+
+## Source Boundary
+
+The byproduct-audience and hidden-secondary-market additions are grounded in the 2026 My First Million transcript’s Moxy, bone-conduction, and folding-phone discussion. The operational name is Antigravity synthesis. The full text of *Alchemy* was not reviewed.

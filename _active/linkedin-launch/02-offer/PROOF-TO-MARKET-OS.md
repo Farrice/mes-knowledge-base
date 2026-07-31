@@ -4,21 +4,21 @@ status: canonical
 
 ---
 name: Proof-to-Market Sprint — Operating System
-version: 2.1 (founder-primary pole fix + temperature-staged ladder)
-date: 2026-07-19
-ratified_by: Farrice Cain (2026-07-19 restage; 2026-07-18 fused base, replaces CANONICAL-OFFER-BRIEF)
-note: "v2.1 (2026-07-19): PRIMARY buyer = personal-yes founder of sub-$15M brand; Head of Brand = secondary authority/nurture audience (not cold-DM'd). Five pillars realigned to founder psychology. Cold-tier restage: $250-500 Stress-Test Walkthrough is now the OFFICIAL cold tier (LIVE, ratified 2026-07-19), $2,500 sprint = warm tier, Standard/Mature = hot/expansion. v2.0 base holds: messaging leads; AEO/GEO is module + hook, never lead; claim-safe is the spine."
+version: 2.2 (cash-first Angle Map activation)
+date: 2026-07-29
+ratified_by: Farrice Cain (2026-07-29 cash-first decision; 2026-07-28 offer wargame; 2026-07-19 restage; 2026-07-18 fused base)
+note: "v2.2 (2026-07-29): The $750 prepaid Angle Map replaces the $250-500 Stress-Test Walkthrough as the only cold paid rung. The $2,500 founding-pilot Sprint is prepaid. Only sent, held, sold, and collected validate the motion. Messaging still leads; research and ICP intelligence are the engine; AI is implementation leverage; AEO/GEO remains a supporting module."
 ---
 
 # PROOF-TO-MARKET SPRINT — The Offer
 
 ## For Whom
 
-**Primary buyer (the personal-yes founder):** The founder of a sub-$15M supplement, performance nutrition, or sports-science brand — profitable or imminently fundable, founder-authorized spend, no committee. $2,500 is a check they write themselves this week. They have a dated occasion in the next 60–90 days (raise, launch, retail push, repositioning) and they're selling on positioning language they wrote from instinct or borrowed from a competitor. The psychology is speed, personal conviction, and proof-hunger: "I need this sentence to land before my raise closes, not to protect my job." The founder feels the launch clock personally, which is exactly the pressure a bounded sprint answers.
+**Primary buyer:** An authorized founder, Head of Brand, VP Marketing, or product-marketing lead at an already-selling supplement, performance-nutrition, recovery, or sports-science brand, generally below $15M in revenue. A founder with personal spend authority is the preferred cold-outbound buyer; a senior marketing lead qualifies when they can authorize the project without an undefined committee process. They have a dated occasion inside the next 60–90 days: launch, retail push, reformulation, new ingredient, or repositioning.
 
-**Secondary buyer (authority / retargeting audience):** Head of Brand / VP Product Marketing at a larger funded brand (Create Wellness, GNC, Noom-scale) — the assignment test that sorts them: a board or committee reviews a $2,500 line item before they can say yes. They carry compliance and career risk and buy on a committee cycle. **They are nurtured, not cold-DM'd** — they orbit the pillars, warm over weeks, and enter at Standard/Mature pricing later. The content serves them as the ambient authority layer; the outbound motion does not chase them.
+**Secondary buyer:** A senior marketing lead at a larger funded brand where a board, procurement team, or committee reviews a $2,500 line item. They carry career and approval risk and buy on a longer cycle. They are nurtured through useful work and timely occasions rather than used as first-wave cash targets.
 
-**Budget band:** founder-authorized $2,500–5,000 (personal check writer, not agency-scale procurement). **Mental state:** science-led, moving fast against a dated occasion, would rather settle the message cheaply now than pay to be wrong later.
+**Budget band:** $750 for the first decision product and $2,500 for the founding-pilot Sprint, both prepaid. **Mental state:** moving against a dated occasion and willing to settle the message before funding execution.
 
 ---
 
@@ -27,10 +27,10 @@ note: "v2.1 (2026-07-19): PRIMARY buyer = personal-yes founder of sub-$15M brand
 The **Proof-to-Market Sprint** is a 10-business-day intensive that clarifies three things *before* launch execution spend:
 
 1. **What to say** — positioning + messaging architecture, not general content
-2. **What to prove** — claims audit + proof hierarchy (FTC/FDA-safe, stacked by evidence strength)
+2. **What to prove** — editorial evidence map + proof hierarchy, using only the client's approved sources and claim boundaries
 3. **Why buyers should care** — decision-maker motivation mapping (retailer, practitioner, end-user, B2B buyer)
 
-**Result:** Proof-to-Market Blueprint (18–25 slides, strategy deck + messaging playbook + client pitch deck).
+**Result:** A buyer-decision map, positioning and proof hierarchy, campaign-angle bank, launch messaging blueprint, and one priority campaign asset. The medium serves the decision; an 18–25-slide deck is optional, not the product.
 
 ---
 
@@ -40,19 +40,19 @@ The **Proof-to-Market Sprint** is a 10-business-day intensive that clarifies thr
 
 Supplement brands' barriers are visibility problems. Run an audit, find where you're weak in AI search, fix the label.
 
-**Why it failed:** AI-search audits are diagnostic, not strategic. They're a tactic, not a wedge. The real problem is upstream — the brand *message* is unresolved. You can't fix visibility until you fix what the machine is supposed to be visible about.
+**Why it failed:** AI-search audits are directional reviews, not strategies. They're a tactic, not a wedge. The real problem is upstream — the brand *message* is unresolved. You can't fix visibility until you fix what the machine is supposed to be visible about.
 
 ### ✓ The Proof-to-Market Path: Messaging as the Lead, AI-Search Shadow as the Module
 
 The brand's real barriers are *communication* barriers. Clarify the message first (through positioning, claims mapping, proof architecture). *Then* diagnose how the AI layer knows about you (AI-Search Shadow module) and what the new message looks like when the machine reads it.
 
-**Why it works:** You fix the root cause (the message) before the symptom (visibility). The AI-Search Shadow becomes proof that the new positioning is visible in the AI layer — not a standalone audit, but a proof object for the strategy.
+**Why it works:** You fix the root cause (the message) before the symptom (visibility). The AI-Search Shadow remains a directional read of current answer patterns—not proof that a new position has been indexed, ranked, or adopted.
 
 ---
 
 ## The Offer Stack
 
-*(This 5-stage sprint is the **warm-tier core**, $2,500. The **cold tier** is the $250–500 Stress-Test Walkthrough that feeds it — ladder in "Pricing & Terms.")*
+*(This 5-stage sprint is the **warm-tier core**, $2,500 prepaid. The **cold paid tier** is the $750 prepaid Angle Map that feeds it — ladder in "Pricing & Terms.")*
 
 ### Core: 10-Business-Day Sprint with 5-Stage Process
 
@@ -64,7 +64,7 @@ The brand's real barriers are *communication* barriers. Clarify the message firs
 **Stage 2: Diagnose (Days 2–3)**
 - Buyer motivations audit (retailer, practitioner, end-user; why do they actually buy?)
 - Positioning stress-test (which angles have proof foundation + differentiation?)
-- **Claims mapping** (FTC/FDA-safe; tiers by evidence strength — general wellness → structure-function → disease-risk reduction)
+- **Editorial evidence mapping** (client-approved claims and sources, tiered by evidence strength; the client's qualified reviewer retains final approval)
 - **AI-Search Shadow module** (live-query pattern read: how AI engines answer the category's buying questions and describe your brand vs. top 3 competitors — receipt mechanics in the module section below)
 
 **Stage 3: Decide (Days 3–5)**
@@ -74,39 +74,39 @@ The brand's real barriers are *communication* barriers. Clarify the message firs
 - Objection reframes (the 2–3 most likely buyer pushback scenarios + your response)
 
 **Stage 4: Translate (Days 5–7)**
-- Slide-by-slide messaging (18–25 slides)
-- Positioning thesis (visual + copy)
-- Competitive claim differentiation
-- Proof architecture
-- Example messaging (pitch, DM, retail outreach, content)
-- Post-launch content pillars (mapped to positioning)
+- Buyer-decision map
+- Positioning and proof hierarchy
+- Campaign-angle bank
+- Launch messaging blueprint
+- One priority campaign asset
 
 **Stage 5: Align (Days 7–10)**
 - 1 iteration round (feedback from founder/brand team)
 - Pressure-test & refinement
 - Final deck + launch brief for internal team or content creator
 
-**Deliverable:** Proof-to-Market Blueprint (final deck + 30-day refinement window).
+**Deliverable:** Proof-to-Market Blueprint in the lightest usable format, plus one revision round. The client receives decisions and feedable campaign direction, not a presentation built for its own sake.
 
 ---
 
 ## Pricing & Terms — The Temperature-Staged Ladder
 
-The ladder is staged by audience temperature (Haynes), and each rung's promise maps to a positioning component (Dunford). **A cold stranger never sees the $2,500 sprint in a first DM.** Cold traffic gets the low-friction paid diagnostic; the sprint is the warm-tier ask; Standard/Mature are the hot/expansion tiers for buyers who arrive already convinced.
+The ladder is staged by buyer readiness. **A cold prospect gets a specific observed gap, not a generic audit pitch.** The $750 Angle Map is named no later than the second message. The $2,500 Sprint is offered when the Angle Map or the sales conversation reveals a broader implementation need.
 
 | Rung | Temperature | Offer | Price | Delivery | The promise (Dunford component it proves) |
 |------|-------------|-------|-------|----------|-------------------------------------------|
-| **Cold** | Stranger, zero prior exposure | **Stress-Test Walkthrough** — 60-min live read of your message using the 12 diagnostic questions | **$250–500** | Live 60-min session + 1-page findings | "See the gap in your own message in an hour" — proves **Competitive Alternatives** (what your instinct/borrowed copy is costing you) at a personal-yes price |
-| **Warm** | Engaged; saw a pillar or booked the walkthrough | **Proof-to-Market Sprint** (Founding pilot) | **$2,500** | 10 business days · 1 round (30 days) | "Settle the sentence before you spend" — proves **Unique Attributes → Value** (dual-fluency positioning that survives a body, an FTC review, and an AI engine) |
-| **Hot / Expansion** | Inbound with a dated occasion, or a returning walkthrough/sprint client | **Sprint — Standard / Mature** | **$3,500–4,000 / $4,500–5,000** | 10 business days · 1 round (30 days) | "Full stack, elevated scope, editions on the table" — anchors **Market Category + Target Segment**; expedited timeline or extra revision available since commitment is already present |
+| **Cold** | Qualified buyer with a visible launch, product-page, proof, or positioning gap | **The Angle Map** — 60-minute live read plus three named campaign angles | **$750 prepaid** | Within 48 hours; each angle includes a core belief, hooks, proof direction, and an editorial claim-safety line | "Know which three arguments are worth building before you fund the campaign" |
+| **Warm** | Buyer whose Angle Map or live conversation exposes a full launch-messaging need | **Proof-to-Market Sprint** (founding pilot) | **$2,500 prepaid** | 10 business days · one revision round | "Settle what to say, what approved proof supports it, and why the buyer should care" |
+| **Validated expansion** | Returning client after paid Angle Map and Sprint proof | **Recurring campaign implementation** | **$3,000–$5,000/month test** | Research updates, new angles, message deployment, and evidence/quality review | Parked until the initial test passes; never sell during the first 14 days |
 
-**Temperature logic (Haynes):** cold gets a bounded paid diagnostic, never the priced core offer. Warm gets the core sprint led by the ONE alternatives-derived objection that matches their engagement signal. Hot gets the full stack with editions and anchored pricing. Migration triggers: **cold → warm** = books the Stress-Test Walkthrough or replies to a pillar with a specific claim; **warm → hot** = states a dated occasion unprompted or the walkthrough surfaces a live launch clock.
+**Readiness logic:** cold gets one useful observation and a bounded paid decision product. Warm gets the full Sprint only when the buyer has a dated occasion and needs the angles translated into positioning, proof hierarchy, and a priority campaign asset. Recurring implementation is tested only after paid proof exists.
 
-**Capacity:** 1 sprint at a time, 2 sprints/month max. Walkthroughs run alongside (they are a 60-min read, not a sprint) and double as the warm-up funnel into the sprint.
+**Capacity:** One Sprint at a time, two Sprints per month maximum during the founding phase. Do not sell more Angle Maps than can be delivered inside the promised 48-hour window.
 
-**Risk reversal — the make-right clauses (ratified 2026-07-19, Farrice command):**
-- **Walkthrough (cold):** If you don't leave the hour with at least one gap worth more than what you paid to fix before you spend, you don't pay. A 60-minute read is cheap to honor, and it converts the pay-a-stranger-upfront friction into asymmetric downside for the buyer, not the seller. This answers the buyer-council's single biggest cold-conversion block (2026-07-19: S1's "is this person real" trust block and S3's un-guaranteed-diagnostic coin-flip), which v2.1 previously left unhandled on either rung.
-- **Sprint (warm):** If the full Blueprint isn't in your hands within the 10 business days — all five stages delivered, one revision round included, assuming your Stage 1 inputs land on schedule — you don't owe the balance. This answers the CFO's coin-flip at $2,500 with a downside I fully control (on-time, complete delivery), never a promise about launch outcomes I can't. Deliberately deliverable-and-timeline based, not results-based: the guarantee names the fear (out $2,500 for nothing) without pretending to control the market.
+**Make-right clauses:**
+- **Angle Map:** If the first read does not produce three usable angles inside the agreed scope, revise until it does.
+- **Sprint:** If the complete Blueprint is not delivered within 10 business days, assuming the buyer provides the agreed inputs on time, continue working until it is complete.
+- Neither clause guarantees revenue, rankings, retailer acceptance, legal clearance, or AI citations. Editorial evidence mapping is not legal advice; the buyer's attorney or compliance owner keeps final approval.
 
 **Headline (DM/email/profile):**  
 "Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement & performance brands | 18 yrs in human performance | DM PROOF"
@@ -124,7 +124,7 @@ Farrice's unfair advantage lands in how he shows up in your market. These five p
 
 **Why it converts (founder):** it reframes the founder's biggest personal-money risk — spending their own runway into an unresolved message — as a cheap, bounded fix upstream of the launch clock. For the Head-of-Brand secondary, the same insight reads as budget-defense.
 
-**Authority:** 18 years watching launches burn spend on unclear positioning; the founder-known truth that "you lose the positioning battle before a single ad goes live"; CPM inflation making a wrong message costlier by the week.
+**Authority:** 18 years in human performance and supplement-buying conversations; a direct view into how evidence, label language, and buyer doubt collide.
 
 **Angle bank (examples):**
 - "I watched a brand spend forty grand on creative for a message they hadn't finished writing."
@@ -138,12 +138,12 @@ Farrice's unfair advantage lands in how he shows up in your market. These five p
 
 **Why it converts (founder):** the founder carries the whole risk — one FTC letter can gut a sub-$15M brand, and it is the first thing an investor asks about in diligence. This pillar turns that exposure into a reason to sell harder, not softer. The Head-of-Brand secondary feels it as personal career-risk relief.
 
-**Authority:** FTC "competent and reliable scientific evidence" standard, $50,120/violation; 18 years translating claim language; the editorial claim-risk read (never legal advice).
+**Authority:** FTC health-product substantiation guidance; 18 years in human performance and supplement-buying conversations; the editorial claim-risk read (never legal advice).
 
 **Angle bank (examples):**
-- "I rewrote the same claim three ways: one gets you sued, one gets you ignored, one gets you bought. One word moved."
-- "Make it sound more clinical," the founder said. I made it sound more true. Sales went up."
-- "The word that gets you fined and the word that gets you trusted are usually one edit apart."
+- "The claim with the biggest type had the weakest evidence trail."
+- "Clearer does not mean louder. It means the buyer can see what the proof actually supports."
+- "Your attorney keeps the pen. The strategy should give them language with an evidence trail attached."
 
 ---
 
@@ -196,7 +196,7 @@ Every claim in the Blueprint maps to a question framework powered by `skills/cla
 1. **General wellness claims** (support, promote, boost) — safest, lowest proof burden
 2. **Structure-function claims** (how the ingredient works in a body) — moderate proof, evidence-based
 3. **Reduction of disease-risk claims** (may reduce risk) — higher proof, cite RCTs
-4. **Drug-equivalent claims** (treats, cures, prevents disease) — NOT available to supplements; claim-safety firewall
+4. **Disease-addressing language** — outside the editorial scope for supplement work; route it to the client's qualified reviewer
 
 **Process:** Farrice never certifies claims (not a lawyer). He maps each claim to a question for the client's qualified reviewer (attorney, regulatory expert, category specialist). This keeps the client's team accountable while arming them with a language strategy that *survives* compliance review.
 
@@ -206,13 +206,13 @@ Every claim in the Blueprint maps to a question framework powered by `skills/cla
 
 ---
 
-## The AI-Search Shadow Module (Supporting Diagnostic — demoted from headline receipt 2026-07-18 per adversarial review)
+## The AI-Search Shadow Module (Supporting Pattern Read)
 
 **What it is:** a live-query read of how AI engines (ChatGPT, Perplexity, Google AI Overviews) answer the brand's top 3-5 buying questions and describe the brand vs. top 3 competitors.
 
 **Receipt mechanics (VERIFIED 2026-07-18):** Ahrefs Brand Radar and AI-citation endpoints are NOT available on Farrice's free Ahrefs plan (tested, "Insufficient plan"). The receipt is therefore **live-query screenshots** — the buyer's actual questions, asked live, captured with date + engine + exact prompt. Honesty rules that make this survive scrutiny: (1) run each question 2-3 times and report the PATTERN, never a single roll — AI answers are non-deterministic and a prospect will re-run the query; (2) small brands often return *nothing* — that IS the finding, scripted as: "the machine doesn't describe you wrongly; it doesn't describe you at all — every category question is being answered with someone else's name"; (3) always pair the shadow read with the message implication — this module resolves into positioning, never into an SEO to-do list. If Farrice later upgrades Ahrefs, Brand Radar becomes the deterministic layer on top.
 
-**When it fires:** Stage 2 (Diagnose), paired with the new positioning thesis. If the AI layer is citing you wrong, the new message corrects it.
+**When it fires:** Stage 2 (Diagnose), paired with the new positioning thesis. It reveals how current answer patterns frame the category; it does not prove that a new message will be adopted.
 
 **Why it matters:** 
 - AI platforms are "the front door" for supplement research
@@ -226,9 +226,9 @@ Every claim in the Blueprint maps to a question framework powered by `skills/cla
 - PRIVATE DM outreach ("I ran your category's top buying questions through the three engines — pattern attached, no pitch")
 - Content angle ("the machine is reading your label") — category-level in public, never a named-prospect critique
 
-**Reframe — Diagnostic, Not Proof of Cure:** The AI-Search Shadow shows what the machine says about you *now* and tests the new message inside ChatGPT. A full re-index (the machine learning your new language) takes 4–8 weeks; we set you up for the landing. This module surfaces the problem, not the 90-day proof that the fix worked.
+**Reframe — Pattern Read, Not Outcome Proof:** The AI-Search Shadow samples what selected engines say about the category at a stated date and prompt. Outputs are non-deterministic. The module surfaces a messaging implication; it does not prove indexing, ranking, citation, or business impact.
 
-**Note:** This is a diagnostic module inside the sprint, not a standalone GEO audit. It proves the new positioning is visible in the AI layer once re-indexed.
+**Note:** This is a supporting pattern read inside the Sprint, not a standalone GEO audit and never a visibility guarantee.
 
 ---
 
@@ -277,7 +277,7 @@ All share the same buyer pain: funded decision-makers, category positioning tens
 ## Support Assets & Lead Generation
 
 ### 1. "Health Brand Launch Message Stress Test" (Lead Magnet)
-12 diagnostic questions for brands entering a new market or making a new claim:
+12 questions for brands entering a new market or making a new claim:
 
 - Are your claims proof-stacked enough for the FTC environment?
 - Is your positioning differentiated or derivative (does it sound like three competitors)?
@@ -292,7 +292,7 @@ All share the same buyer pain: funded decision-makers, category positioning tens
 Live-query pattern read (Brand Radar is plan-gated — see module section above): how the three engines answer the category's buying questions and describe target brand vs. top 3 competitors.
 
 - Prove the concept (no two brands are described the same way by ChatGPT — and many aren't described at all, which is the sharper finding)
-- Demonstrate the diagnostic value (the gap between what the brand thinks it says and what the machine carries)
+- Demonstrate the analytical value (the gap between what the brand thinks it says and what the machine carries)
 - Establish authority (Farrice reads both languages: body expertise + AI search)
 
 ---
@@ -311,15 +311,18 @@ Live-query pattern read (Brand Radar is plan-gated — see module section above)
 
 ---
 
-## The 25-Day Clock (adversarially reviewed 2026-07-18 — the honest math)
+## The 14-Day Cash Validation
 
-The 30-day sprint goal (declared 07-13, ~$3-5K by ~08-12) cannot be met by "collected + delivered" through this offer alone: earliest cold close ≈ 7-10 days of outreach, +10 business days delivery, 50/50 terms → one $1,250 deposit collected by 08-12 in the best cold case. **Misreading that math as "the offer failed" is the redirect trigger — pre-empt it now.**
+Day 1 starts when the first five qualified external messages are sent and logged. The first 10 selling days require 15 new qualified messages and five follow-ups per day. Spend no more than 15–20 minutes researching one prospect. Name the $750 Angle Map no later than the second message and quote the price in every qualified sales conversation.
 
-- **KPI reframe:** the 25-day scoreboard counts **booked + deposited** (and any bridge cash), not collected-and-delivered.
-- **Funnel, named:** 10 targeted DMs/week → 2 readout calls → 1 close. This is warm-outbound wearing an inbound CTA — say so internally and build the outreach accordingly. Only sent/held/booked/deposited count.
-- **First 14 days target FOUNDERS of sub-$15M brands** (Jenerise, Spacegoods, Proper, The Stack tier) — the people for whom $2,500 is a personal yes. Head/VP-of-Brand framing belongs to the Standard/Mature tier later; VPs at Create/GNC/Noom-scale get the comment-orbit long game, not week-1 DM energy.
-- **✅ COLD-TIER OFFER — LIVE (ratified 2026-07-19 by Farrice):** the **$250-500 Stress-Test Walkthrough** (60-min live read using the 12 questions) is now the OFFICIAL cold-tier offer, not an emergency cash-bridge SKU. Restaged per the Dunford→Haynes handshake: cold strangers get the bounded paid diagnostic, the $2,500 sprint is the warm-tier ask, Standard/Mature are hot/expansion. This resolves two problems in one move — it is the only SKU that can realistically collect before 08-12 AND it fixes the audience-state mismatch (cold traffic was implicitly being pitched the $2,500 sprint). See the temperature-staged ladder in "Pricing & Terms." The earlier "not live until Farrice says yes" gate is cleared: Farrice commanded the restage; that is the yes.
-- **The 08-01 binary signal (redirect-#6 test):** by Aug 1, at least ONE funded-brand founder/decision-maker in a live two-way conversation about a dated occasion, with a readout call booked or deposit sent. Peer applause, likes, and other consultants replying = the false positive. Zero by 08-01 → diagnose the MOTION, not the offer.
+Only **sent, held, sold, and collected** validate this offer. Likes, comments, documents, profile views, and compliments do not.
+
+- **Zero replies after 50 well-targeted sends:** fix the list or opener; do not redesign the service.
+- **Fewer than five qualified two-way conversations after roughly 100 sends:** fix reach, channel, or buyer trigger.
+- **Conversations happen but no price is quoted:** seller-execution failure.
+- **Twenty qualified conversations with price quoted and zero sales:** kill or materially reposition the Angle Map.
+- **One paid Angle Map:** deliver within 48 hours, capture proof, and offer the Sprint where the implementation need is real.
+- **Two Angle Maps plus one Sprint conversion within 30 days:** commit to this niche for 90 days and standardize the recurring implementation layer.
 
 ---
 
@@ -350,11 +353,11 @@ The 30-day sprint goal (declared 07-13, ~$3-5K by ~08-12) cannot be met by "coll
 
 **Author:** Farrice Cain  
 **Grilled by:** Farrice (2026-07-18)  
-**Ratified:** 2026-07-18 as Path A's canonical offer layer (7-0 council ruling; same beachhead; fused). **Restaged 2026-07-19** (Farrice command): founder-primary pole fix + $250-500 cold-tier walkthrough LIVE + five pillars realigned to founder psychology.  
-**Risk reversal added 2026-07-19** (Farrice command, per buyer council `buyer-council-verdict-2026-07-19.md`): make-right clauses on BOTH rungs — the walkthrough's "worth more than what you paid or you don't pay" answers the pay-a-stranger-upfront friction (S1 trust block / S3 coin-flip); the sprint's on-time-complete-delivery-or-no-balance answers the CFO's warm-tier coin-flip without promising results. Closes the haynes-geoff make-right gap v2.1 left open on either rung.  
+**Ratified:** 2026-07-18 as Path A's canonical offer layer (7-0 council ruling; same beachhead; fused). **Restaged 2026-07-19** around the founder-primary buyer. **Re-ratified 2026-07-29** around the $750 prepaid Angle Map, $2,500 prepaid Sprint, and payment-based kill rules. The 2026-07-29 decision supersedes the old $250–500 walkthrough and split-payment language.
+**Make-right updated 2026-07-29:** both paid rungs use delivery-controlled revisions or continued work, never a market-outcome, legal-clearance, ranking, or citation guarantee.
 **Replaces:** CANONICAL-OFFER-BRIEF.md (superseded; offer inversion = messaging leads, AEO/GEO as module+hook)  
 **References:** Lara Acosta proof-to-market-v1 customGPT source; founded on April Dunford positioning discipline + Luke Iha content psychology + Ethan Smith AEO framework + claim-safe-health-marketing skill
 
 ---
 
-**Next:** Contact kit ship (LinkedIn profile, Stress Test, Dream 100, first 3 posts), ear-to-ground loop install (runbook + content bank + Mon+Thu schedule), chain finalize (scores + prose/claim gates), Google Drive export.
+**Next:** Activate the cash-first plan: payment rail, booking rail, first five external sends, and daily sent/held/sold/collected logging.

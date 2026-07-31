@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** The current buyer inputs and intake boundary live in `ANGLE-MAP-ACTIVATION-PACKET.md`.
+
 # Intake Questionnaire — Google Form Template (Copy-Paste)
 
 > **For**: Angle Audit Discovery Call  
@@ -334,4 +341,3 @@ Questions? Reply to this email.
 - [ ] Link added to Calendly confirmation email
 - [ ] Form tested on mobile + desktop
 - [ ] Google Sheet reviewed (all questions mapping correctly)
-

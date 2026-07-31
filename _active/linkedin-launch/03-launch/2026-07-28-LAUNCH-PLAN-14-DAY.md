@@ -1,8 +1,11 @@
 ---
-status: canonical
+status: superseded
+superseded_by: 2026-07-29-CASH-FIRST-ACTIVATION.md
 ---
 
 # 14-Day Launch Plan — 2026-07-28 to 2026-08-10
+
+> **⛔ SUPERSEDED 2026-07-29.** This calendar never started externally. Use `2026-07-29-CASH-FIRST-ACTIVATION.md`, whose Day 1 begins with the first five logged sends and whose decision rules match the approved cash-first plan.
 
 **Goal:** $500–$2,000 cash collected by Day 14. Serves `revenue-5k-incumbency`.
 **Offer:** free teardown, then **The Angle Map ($750 prepaid — the wargame's restored middle rung)**, then the $2,500 sprint, then retainer. Wargame verdict: `02-offer/OFFER-WARGAME-2026-07-28.md` — GO-WITH-FIXES; the three fixes are already folded into this plan.

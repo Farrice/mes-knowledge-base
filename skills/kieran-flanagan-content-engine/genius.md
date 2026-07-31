@@ -82,9 +82,23 @@ Specifically:
 
 **Success Metric**: Output quality is consistently high because each task uses the model best suited to its nature.
 
+---
+
+## Pattern 7: Three-Signal Content Ideation
+**Execute**: Kieran's 2026 system builds idea candidates from three distinct inputs: a content-reactive audience profile, the requested platform's creator-owned winning patterns, and dated external signals inside a bounded research window.
+
+**Lanes**:
+1. **Proven**: audience truth plus a creator-owned pattern applied to a new topic.
+2. **Trending**: a current signal with dated provenance and a credible audience connection.
+3. **Convergence**: both chains meet and activate a grounded creator belief, story, or example.
+
+Every candidate names its platform and creator bridge. Human judgment selects; a separate queue workflow stores.
+
+**Success Metric**: No candidate is generic, platform-less, copied from an old winner, unsupported by current evidence, or drafted into finished content before selection.
+
 ## Hidden Knowledge
 
-6 tacit expertise points that separate amateurs from professionals.
+7 tacit expertise points that separate amateurs from professionals.
 
 ---
 
@@ -130,6 +144,15 @@ Specifically:
 
 ---
 
+## 7. Ideation Is Retrieval Before It Is Divergence
+**The Truth**: A blank prompt searches the model's generic possibility space. The content signal loop retrieves from a creator-specific space first: audience tensions, owned winners, current evidence, and beliefs the creator can actually defend.
+
+**Deploy**: Require at least one audience anchor and one creator bridge on every candidate. Use broad divergence only after those constraints are loaded.
+
+**Source status**: INFERRED from the demonstrated three-input system and Kieran's rejection of generic prompt-to-publish ideation.
+
+---
+
 ## Anti-Patterns (Sourced)
 
 Failure modes Kieran names or demonstrates directly, each traceable to a specific line in the source material — not inferred.
@@ -140,6 +163,7 @@ Failure modes Kieran names or demonstrates directly, each traceable to a specifi
 - **Don't let one platform's style bleed into another** — per the extraction's framing of his Platform Isolation Rule: "Never let LinkedIn style infect newsletter style... Cross-pollination produces 'uncanny valley' content that sounds right on no platform" (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge, source: transcript interview).
 - **Don't build audience personas from demographics or surveys** — per the extraction's read on his content-reactive method: "Traditional personas are built from demographics and surveys — they're fiction" (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — Content-Reactive vs. Persona-Based Profiling).
 - **Don't mistake drag-and-drop workflow tools for this system** — Kieran on why this isn't "vibe marketing" software: "I was never a big fan of the kind of vibe marketing where it was workflow tools because it's not vibing. You have to actually drag and drop all the workflows together. This is not software" (`extractions/kieran-flanagan/transcript.txt`, same episode).
+- **Don't run prompt-to-publish ideation** — the new source demonstrates and rejects the chain of generic request, generic idea, one-pass LinkedIn draft, and immediate publishing. Ideation returns building blocks for creator judgment, not finished copy (`extractions/transcripts/cSz_6SNEirU.txt`, source analyzed in `extractions/kieran-flanagan-content-signal-loop/extraction-report.md`).
 
 ## Hall of Fame Exemplars
 
@@ -165,6 +189,7 @@ Failure modes Kieran names or demonstrates directly, each traceable to a specifi
 *   **Separates Argument from Evidence**: Kieran will always demand a full, coherent argument structure *first*, devoid of statistics, quotes, or anecdotes. The `enrichment` phase is a distinct, subsequent task. → **Deploy when**: Beginning any long-form content creation (articles, newsletters, detailed LinkedIn posts).
 *   **Bundles & Adapts, Never Rewrites**: Once a core idea is fully developed for its primary platform (e.g., LinkedIn), Kieran's system then *adapts* it for other platforms using style card swaps, rather than starting from scratch. The core idea remains identical, but the voice, format, and length change dramatically. → **Deploy when**: Scaling one core idea across multiple social media channels or content formats.
 *   **Validates Beliefs Upstream**: Every core assertion or opinion in the content is traceable back to the creator's existing body of work (podcasts, articles, interviews). Kieran ensures the AI never invents a position the creator doesn't authentically hold. → **Deploy when**: Any content is being generated that expresses an opinion or unique perspective from the creator.
+*   **Triangulates Before Ranking**: Loads audience truth, the requested platform's owned winners, and a bounded live-signal scan before ranking candidates. It exposes Proven, Trending, and Convergence instead of blending the evidence. → **Deploy when**: Refreshing a content queue or preparing a platform-specific sprint.
 
 ## Expert-Specific Quality Rubric
 
@@ -177,3 +202,7 @@ Failure modes Kieran names or demonstrates directly, each traceable to a specifi
 | **Constraint Adherence (Anti-Vocabulary)** | Contains a few generic AI-isms or words the creator would rarely use, requiring minor edits. | Largely free of AI-generated filler; the "NEVER USE" list is clearly respected with minimal exceptions. | Completely devoid of generic AI language; every word feels deliberately chosen and aligned with the creator's specific lexicon. |
 | **Multi-Platform Adaptability (if bundled)** | Different platform versions feel like simple reformatting of the same text; little distinct voice for each. | Each platform version has a distinct voice and format, but some stylistic overlap or 'ghosting' of the source platform. | Each platform version is a fully native, distinct experience, sounding like a different "character" of the creator, while conveying the identical core idea. |
 | **Actionability/Insight Density** | Offers general advice or observations that are mostly theoretical. | Provides clear, actionable advice or specific insights that are useful in practice. | Packed with specific, hard-won, immediately deployable insights or frameworks that transform the reader's understanding or approach. |
+| **Signal Convergence** | Candidate uses one generic input | Candidate combines two grounded inputs | Candidate connects audience truth, owned platform pattern, dated current evidence, and a grounded creator bridge |
+| **Platform Visibility** | Recommended platform is omitted | Platform is named | Platform is named with a reason tied to the idea's structure and the platform profile |
+| **Creator Bridge** | Opinion is invented | Creator input is requested | Existing belief, story, example, or proof is cited; missing bridges are explicitly held for input |
+| **Freshness and Provenance** | Trend claim is undated | Source and date are present | Every trend claim is inside the requested window, distinguishes attention from truth, and carries limitations |

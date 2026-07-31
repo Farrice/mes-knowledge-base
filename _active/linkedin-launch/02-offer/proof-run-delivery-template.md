@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This template delivers ghostwriting assets, not the Angle Map. Use `ANGLE-MAP-ACTIVATION-PACKET.md`.
+
 # Proof Run Delivery Template
 ## Standardized Process: Client Call → 8 Posts + VSL Script
 

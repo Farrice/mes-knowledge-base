@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 3.2575,
+  "spent_dollars": 3.4415,
   "runs": [
     {
       "ts": "2026-07-06T01:16:39.326002+00:00",
@@ -513,6 +513,34 @@
       "results": 20,
       "cost": 0.1,
       "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-07-30T13:10:16.830225+00:00",
+      "actor": "sc-tiktok-hashtag",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-30T13:10:27.039555+00:00",
+      "actor": "sc-tiktok",
+      "results": 32,
+      "cost": 0.064,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-30T13:10:32.614516+00:00",
+      "actor": "sc-tiktok",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-30T13:10:43.021056+00:00",
+      "actor": "sc-tiktok",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
     }
   ]
 }

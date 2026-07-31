@@ -31,3 +31,20 @@ Ground truth for `kieran-flanagan-content-engine` is a single primary extraction
 - Only the three failing heartbeat checks were addressed: `anti_patterns_sourced` (6 sourced anti-pattern bullets added to `genius.md` under a new "## Anti-Patterns (Sourced)" heading, anchors on the list-item line), `recognition_test` (new "## How to Use This Skill (Model Calibration)" section added to `genius.md`), `source_ledger` (this file).
 - `verbatim_exemplars`, `named_entity_floor`, and `workflow_contracts` were already passing and were not touched.
 - SKILL.md, the 8 workflow files, and `references/prompts-v2/*.md` are unmodified and not included in this output directory (flat layout, changed files only).
+
+## 2026-07-30 Expansion: Content Signal Ideation
+
+The prior repair note above describes the 2026-07-17 pass and is historical. The skill now has 9 workflows.
+
+| Claim | Source | Label |
+|---|---|---|
+| Ideation loads an audience profile plus winning platform patterns | `extractions/transcripts/cSz_6SNEirU.txt` | VERIFIED |
+| Recent signals are researched across named sources inside an operator-selected window | Same transcript; Kieran names Reddit, X, the web, 7-day, 28-day, and 30-day examples | VERIFIED |
+| Strong candidates may appear in both proven-pattern and trend-upside lanes | Same transcript demonstration | VERIFIED |
+| The creator is the domain expert whose taste and judgment select useful ideas | Same transcript | VERIFIED |
+| The system supplies building blocks rather than finished content | Same transcript | VERIFIED |
+| Every candidate must show its recommended platform | Same transcript self-correction: the system omitted platform labels and Kieran identified the miss | VERIFIED |
+| Proven / Trending / Convergence is the production lane taxonomy | `extractions/kieran-flanagan-content-signal-loop/extraction-report.md` | INFERRED architecture from the demonstrated lanes |
+| Ranking fields, staleness propagation, tombstone checks, and finished-content veto are implementation controls | Same extraction report and architecture checkpoint | INFERRED |
+
+The new anti-pattern phrase "prompt-to-publish ideation" is a summary label. The rejected behavior chain is directly demonstrated in the transcript; the label itself is not a Kieran-named framework.

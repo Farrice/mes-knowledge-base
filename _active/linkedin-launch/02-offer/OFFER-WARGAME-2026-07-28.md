@@ -6,7 +6,7 @@ status: canonical
 
 **Question:** can the live offer (free teardown, $2,500 Proof-to-Market Sprint, retainer) collect $500–$2,000 cash inside 7–14 days from a zero-follower cold start?
 **Method:** adversarial-reviewer, independent context, briefed against 5 attack surfaces. Grounded in the 2026-07-28 Gemini Deep runs (146 sources) + June research + the live offer OS.
-**Verdict: GO-WITH-FIXES.** Current plan: 15–25% probability. With the three fixes: 60–75%.
+**Verdict: GO-WITH-FIXES.** The 15–25% and 60–75% ranges below are modeled planning estimates, not validated close probabilities. Exact-offer demand remains unconfirmed until payment clears.
 
 ---
 
@@ -14,7 +14,7 @@ status: canonical
 
 Content contributes ~$0 inside 14 days. The fresh zero-start research: month-1 inbound DMs are "likely non-existent," post views hit 8–12% of a tiny network, and 4–6 weeks is the median to first inbound conversation. Posts are the trust-check surface for people you already DM'd. That is their only 14-day job. Cash comes from sends.
 
-Second constraint nobody had priced: **bank-clear lag.** A new Stripe/PayPal account pays out in 2–7 days. A day-12 close is day-17 money. The real close deadline is **day 10**, and the rung must be prepaid.
+Second constraint: **bank-clear lag.** Processor timing varies by account, verification status, region, reserves, and payment method. Keep the close deadline at **day 10** and the rung prepaid so the test does not depend on a last-day payout.
 
 | Send shape | Cost/unit | Doable by day 10 | Reply rate | Fit convs | Close rate | Expected closes |
 |---|---|---|---|---|---|---|
@@ -40,8 +40,8 @@ Reply/close rates are modeled, not receipted — the research confirms the motio
 
 ## Ruling: demand
 
-1. The $500–$5K micro-economy is real and transacted (teardowns $500–$1,000, hybrid sprints $1,100, concept scaling $1,450, strategic ad sprints $3,500). **Confirms the rung outright.**
-2. The Teardown Wedge is THE documented cold motion and "frequently converts into the $1,000 to $5,000 tactical engagements." Farrice's three teardowns are better than the artifact described. **Confirmation, not a gap.**
+1. The $500–$5K micro-economy is real and transacted (teardowns $500–$1,000, hybrid sprints $1,100, concept scaling $1,450, strategic ad sprints $3,500). This confirms **category demand**, not this exact $750 offer.
+2. Teardown-led selling is a documented cold motion that can convert into tactical engagements. Farrice's existing teardown work supports credibility, but neither the motion nor the exact Angle Map is validated for him until payment.
 3. Founders "demand empirical receipts of direct-response success" and screen on performance-marketing mechanics. Farrice has zero receipts of that class. **This is the real gap** — no re-skin closes it; only the make-right clause and artifact quality substitute for it.
 
 **The mismatch is real and it lives in the About.** He sells "the decision, not a document" and "I don't build the ads." The fresh ICP run documents founders' live complaint almost verbatim: positioning firms deliver decks that "gather dust" — the "execution vacuum." A positioning agency that hands over a PDF and vanishes before the creative is produced is, in their words, useless. **Fix the terminal unit, not the work:** every engagement ends at 3 feedable angles, not at a decision. And the purchase trigger is metric-shaped (LTV:CAC under 3:1, the angle bottleneck) — "my better product lost" is a seller's belief; keep it as voice, don't lead outreach with it.
@@ -54,9 +54,11 @@ Three at-bats is not a funnel, and all three current targets are the wrong tier 
 
 ## Tripwires
 
-- **Day 7 (Mon 08-03):** minimum 5 two-way fit conversations with founders/authorized buyers at sub-$15M brands, and at least 1 where a number was quoted. Under that: drop free-teardown-as-opener; lead the DM with the $750 Angle Map + make-right clause.
-- **Day 14 (Mon 08-10):** minimum $750 CLEARED (not invoiced), or 2 verbal yeses with invoices out. Under that: the delivery window is the problem, not the offer — switch to a $250 same-day 45-minute read for 7 days; nothing with a lag.
-- **Kill (carried + amended):** 20 qualified / 0 paid, back to /offer-redteam. "Qualified" now defined: founder or authorized buyer, sub-$15M supplement/performance brand, 3+ message exchange or a call. New early trip: **60 sends / 0 replies by day 10 — red-team the DM, not the price.**
+- **50-send gate:** zero replies after 50 well-targeted sends means the list or opening message failed. Rewrite those; do not redesign the service.
+- **100-send gate:** fewer than five qualified two-way conversations after roughly 100 sends means reach, channel, or buyer trigger failed.
+- **Seller gate:** qualified conversations without a direct $750 quote are an execution failure, not an offer verdict.
+- **Kill:** 20 qualified conversations with the price quoted and zero paid means kill or materially reposition the Angle Map. The only approved fallback is the $1,500 prepaid 7-Day Research-to-Campaign AI Workflow Install for 5–25-person boutique agencies.
+- **Pass:** one Angle Map sold and $750 collected is initial evidence. Two Angle Maps plus one Sprint conversion inside 30 days is the repeatability signal.
 
 ## Top 3 fixes by cash-in-14-days impact
 

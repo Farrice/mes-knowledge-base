@@ -1,0 +1,11 @@
+{
+  "artifact_type": "content_signal_ideation_report",
+  "title": "Content Signal Ideation: 2026-07-30 / LinkedIn",
+  "creator": "Farrice Cain",
+  "platform": "LinkedIn",
+  "run_id": "farrice-linkedin-ideas-2026-07-30-v1",
+  "created_at": "2026-07-30",
+  "upstream_status": "provisional",
+  "candidate_count": 8,
+  "selected_count": 5
+}

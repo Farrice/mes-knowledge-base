@@ -26,7 +26,7 @@ Generate 5+ counter-intuitive perception shifts using Sutherland's patterns:
 1. **Psychological Reframe** (Pattern 2): "What if the problem isn't what everyone thinks?"
 2. **Doorman Fallacy** (Pattern 1): "What hidden value is everyone destroying?"
 3. **Paceometer Flip** (Pattern 12): "What metric is everyone reading wrong?"
-4. **Overground Effect** (Pattern 15): "What great thing is invisible because it's on the wrong map?"
+4. **Category-Frame Hypothesis** (Pattern 15, unconfirmed attribution): "What useful thing is invisible because people file it in the wrong category?"
 5. **Reverse Benchmarking** (Pattern 11): "What do the leaders neglect that nobody talks about?"
 
 For each: Write the single sentence that captures the perception shift. Score: Surprise (1-10), Believability (1-10), Shareability (1-10). Select top 3.
@@ -34,10 +34,10 @@ For each: Write the single sentence that captures the perception shift. Score: S
 ### Phase 2: Kallaway Brick Decomposition
 For each top perception shift, decompose into the 11-Brick content architecture:
 
-- **Brick 1 (Hook)**: The perception shift stated as a pattern interrupt. Use the Paceometer flip or Overground Effect as the curiosity gap.
+- **Brick 1 (Hook)**: The perception shift stated as a pattern interrupt. Use the Paceometer flip or a clearly labeled category-frame hypothesis as the curiosity gap.
 - **Bricks 2-4 (Setup)**: Establish the OLD perception — mirror what everyone currently believes. Build the "rational" frame they're trapped in.
 - **Bricks 5-7 (Mechanism)**: Deliver the Sutherland reframe as the "aha" — the mechanism IS the perception shift. Name it.
-- **Bricks 8-9 (Proof)**: Deploy Sutherland case studies as proof (Buc-ee's, Uber map, London Overground, Churchill salt shaker).
+- **Bricks 8-9 (Proof)**: Use only ledger-verified Sutherland cases as proof (for example, Guidara/Eleven Madison Park, Buc-ee's, the Uber waiting display with its figurative-map caveat, or Churchill's salt-shaker story). Unconfirmed cases remain hypotheses.
 - **Bricks 10-11 (Payoff + Rehook)**: The new "feels like" reality + a forward loop to the next perception shift.
 
 ### Phase 3: Retention Architecture

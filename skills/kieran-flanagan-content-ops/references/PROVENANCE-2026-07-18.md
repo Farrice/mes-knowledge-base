@@ -25,3 +25,13 @@ Files NOT used for this skill's provenance (checked and explicitly excluded, not
 silently skipped): `extractions/kieran-flanagan-second-brain/*` — a separate, later
 extraction whose material was routed to `simon-intellectual-library-os` and
 `liam-mley-ai-brain-builder` per its own "Where it landed" section, not to content-ops.
+
+## Additive provenance note: 2026-07-30
+
+New source: `extractions/transcripts/cSz_6SNEirU.txt`, "Never Run Out of Content Ideas With This AI System."
+
+New anchors:
+
+- Genius Pattern 4 and workflow 04: persistent queue, repeated kill decisions, selected additions, personal categories, and cross-assistant context are VERIFIED.
+- Mutation deltas, lifecycle states, tombstones, and single-operation enforcement are INFERRED implementation controls.
+- Full claim table: `references/source-ledger.md`, section "2026-07-30 Expansion: Human-Curated Queue State."

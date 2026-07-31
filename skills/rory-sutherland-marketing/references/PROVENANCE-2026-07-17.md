@@ -15,6 +15,12 @@ Anchor-by-anchor table for every quote/claim added or verified during this repai
 | S6 | `_source-extract/luxury-brands.md` | `claude-export/normalized/conversations/aefce78d-4655-48fb-bc34-6088badeb260.md` |
 | S7a/b/c | `_source-extract/playbook-pt2-a.md` / `-pt2-b.md` / `-pt3.md` | `6454e30a-...md` / `239d5849-...md` / `64042c51-...md` |
 | S1 | `_source-extract/knowledge-project-interview.md` (copy) | `extractions/rory-sutherland/transcript.txt` (canonical) |
+| S8 | n/a | `extractions/rory-sutherland-cekfxfa3jzu/transcript.txt` + `captions.en.json3` |
+| B1 | n/a | `extractions/rory-sutherland-cekfxfa3jzu/alchemy-official-publisher-sample.pdf` |
+
+## Book boundary
+
+B1 is Penguin’s official sample only. It covers the published rules, foreword, and introduction through printed page 25. Farrice owns the Kindle edition, but the full book was not available as a local source and was not reviewed. No production file may call this a complete or partial full-book extraction.
 
 ## Anti-Patterns in genius.md (all VERIFIED against S1)
 
@@ -40,9 +46,9 @@ All 8 quotes were verified with a scripted `grep -qF` pass (exact substring matc
 | Transaction Utility Lens (beach beer) | S4/S5: "you and your best friend are lying on a beach somewhere... your friend says to you, 'I'm off to [blank] to buy a beer...'" | VERIFIED |
 | Brand Quake Recognition | S1: "...create a what there's one American agency calls it a brand quake" | VERIFIED |
 | Fat-Tail Opportunity Spotter | S4/S5: "it's Jeff Bezos's point about in business... in baseball you can only score four, in business you can score a thousand" | VERIFIED |
-| Reverse Benchmarking (mechanism) | S2, timestamp 80:44: "reverse benchmarking. Okay, which is if the whole of the market goes in one direction... Dove was a beautiful example" | VERIFIED (mechanism); Guidara/Eleven Madison Park case study = UNCONFIRMED, zero hits across S1-S7 |
+| Reverse Benchmarking (mechanism and named examples) | S2 timestamp 80:44 verifies the mechanism; S8 timestamps 12:30-15:20 verify Guidara, coffee/beer specialists, and Buc-ee’s; S8 61:23 verifies Moxy; S8 30:01 verifies Uber waiting | VERIFIED |
 | The Paceometer (term) | S2: "Paceometer" ×3 occurrences | VERIFIED |
-| Two-Way Door (Bezos framing) | Not located in S1-S7; the one confirmed Bezos quote (S4/S5) is the fat-tail baseball line, unrelated to reversibility | UNCONFIRMED |
+| Portfolio-Level Asymmetric Betting | S8 24:43-27:15 verifies Thaler’s division-head risk-pooling example; S8 48:11 verifies Bezos’s fat-tail baseball analogy | VERIFIED for portfolio risk pooling and fat-tail upside; “two-way door” attribution remains UNCONFIRMED and was removed from the v5.0 genius pattern |
 | The Overground Effect | "Overground," "Silverlink," "Tube map" — zero hits across S1-S7 | UNCONFIRMED |
 | Churchill Reframe | S2: "Churchill" ×4, clustered at timestamps 62:xx-63:xx | VERIFIED (presence + placement; not re-quoted character-for-character this pass) |
 | The Horsepower Move | S2: "horsepower" ×5 at timestamps 36:09-36:28; "Watt" ×3 | VERIFIED |

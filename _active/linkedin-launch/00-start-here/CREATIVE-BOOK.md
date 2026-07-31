@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This playbook points to the abandoned AI-search audit ladder and an obsolete daily cadence. Use the cash-first activation plan, Angle Map activation packet, one-gap DM system, and cash scoreboard.
+
 # The Creative Book — Farrice Cain · LinkedIn
 ## The every-morning production playbook. Open this, run it top to bottom, close the laptop.
 

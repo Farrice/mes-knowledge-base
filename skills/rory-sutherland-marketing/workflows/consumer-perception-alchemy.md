@@ -53,7 +53,7 @@ Design the brand to live inside this individual's perceptual reality.
 ### Phase 4: Premium Perception Architecture
 If positioning for premium/luxury:
 
-- **Price as Perception**: Apply Costly Signal Detector (Pattern 5) + Subscription Alchemy (Pattern 14) — make the price FEEL right for the signal it sends.
+- **Price as Perception**: Apply Costly Signal Detector (Pattern 5) plus a transparent price-period re-expression test. Pattern 14's Rory attribution remains unconfirmed; show the total and treat the frame as a hypothesis.
 - **The "No Phone Policy" Test** (Dai Media): Would this individual choose your brand in a world without social proof? If yes → the brand is real. If no → it's performative.
 - **Exclusivity Engineering**: Use Sutherland's "expensive must be good" heuristic strategically. Design scarcity, access control, and earned status that amplifies signal value.
 

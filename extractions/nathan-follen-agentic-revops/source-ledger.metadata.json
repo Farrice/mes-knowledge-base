@@ -1,0 +1,11 @@
+{
+  "title": "Source Ledger - Nathan Follen Agentic RevOps",
+  "artifact_type": "extraction_source_ledger",
+  "status": "complete",
+  "source_url": "https://www.youtube.com/watch?v=DHc6NtoZzAM",
+  "source_date": "2026-07-08",
+  "created_date": "2026-07-30",
+  "workspace": "/Users/farricecain/Google Antigravity",
+  "primary_file": "source-ledger.md",
+  "transcript": "../transcripts/DHc6NtoZzAM.txt"
+}

@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T06:00:23.851093",
+ "generated": "2026-07-30T09:50:46.866462",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -4089,717 +4089,717 @@
   "skill:oren-dara-ad-psychology": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oren-identity-brand-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oren-luxury-psychology": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oren-one-person-ai-marketer": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oren-operational-systems": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oren-repositioning": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oren-taste-development": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:oscar-hoglund-sound-storytelling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:packy-mccormick-writing": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:paolo-trivellato-lead-magnet-engine": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:pat-flynn-passive-income": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:patrick-dang-online-business": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:patrick-debois-cdlc": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:paul-harding-lyric-prose": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:paul-james-ai-automation": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:pdf": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:persuasion-story-code": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:phil-m-jones-conversational-influence": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:pj-accetturo-ai-video": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:pptx": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:prediction-market-ai-event-analysis": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:prediction-market-making": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:prediction-market-risk-management": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:prediction-market-weather-trading": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:product-design-build": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:prosperity-coach-system": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:rachel-woods-ai-operations": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:rafa-conde-fourth-wall-experience-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:rafa-conde-memorable-product-design": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:ray-amjad-agentic-ladder": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:re-compliance-pack": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:react-components": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:reid-hoffman-ai-strategy": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:remotion-video-creation": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:riley-brown-marketing-automation": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:robert-greene-power-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:robert-mack-comedy-writing": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:rory-sutherland-marketing": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:ross-mckay-premium-at-scale": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:ross-minchev-digital-products": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:russell-brunson-funnels": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sabri-suby-ai-advertising": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sabrina-ramonov-ai-monetization": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sam-goddard-media-scaling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sam-parr-copywriting": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sam-parr-copywriting-mechanics": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sam-parr-taste-acquisition": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:samuel-thompson-product-launch": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sarah-levinger-ad-psychology": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:satori-graphics": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sean-dollwet-kdp-publishing": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sean-kochel-ai-business": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sean-kochel-design-first-build": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sean-mabry-voice-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sean-macintyre-persuasion-philosophy": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:seena-rez-tiktok-commerce": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:self-evolving-systems": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:semantic-document-library-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:seth-godin-brand": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:seth-godin-ideavirus": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:seth-godin-marketing-mind": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:seth-godin-philosophy": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:shaan-puri-storytelling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:shan-hanif-audience-monetization": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sharran-srivatsaa-scaling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sherwin-wu-ai-engineering": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:simon-intellectual-library-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:skill-creator": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sky-tan-format-engine": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:slack-gif-creator": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:soowei-consulting-leverage": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:stefan-georgi-dopamine-copy": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:steven-kotler-flow-performance": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:steven-pressfield-narrative-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:steven-young-consciousness": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:stitch-loop": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:stockton-walbeck-lead-magnets": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:story-bible-builder": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:story-compass": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:strength-conditioning-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sunny-lenarduzzi-youtube": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:supercomputer": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:susan-orlean-narrative-nonfiction": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:swarm-commander": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:sweat-equity-speedrun-social-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:taki-moore-lifestyle-business": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tao-prompts-ai-video": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:taylor-welch-wealthy-consultant": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tess-barclay-social-content": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:theme-factory": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:thrivecart-digital-products": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tim-danilov-niche-bending": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tobi-lutke-business-leadership": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tobias-allen-marketing-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tom-noske-content-creation": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tom-noske-personal-brand": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tom-segura-comedy-storytelling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tommy-clark-linkedin-growth": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:tyler-denk-audience-monetization": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:velocity-scaling": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:verticalize": {
    "status": "PROVEN",
    "via": "referenced by a workflow/wrapper",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:vince-nijhof-dtc-operator-system": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:voice-os": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:ward-farnsworth-rhetorical-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:web-artifacts-builder": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:webapp-testing": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:wordsatscale-seo-ranking": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:wright-thompson-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:writing-depth-layer": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:xlsx": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:yann-martel-storytelling-mastery": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:youtube-video-context-analysis": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "skill:yuri-elkaim-health-coaching-business": {
    "status": "PROVEN",
    "via": "listed in SKILL_INDEX.md (router-reachable)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:10x-diagnostic": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-agent-system-design": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-brand-market-builder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-build-roadmap": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-business-design": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-client-audit": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-council-sprint": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-culture-funding-builder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-heatmap-diagnostic": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-ip-builder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-product-system-builder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-productized-service": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:24-assets-zero-finder": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:4c-architect": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:aar": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:accommodation-audit": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:accuracy-without-clickbait": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:ad-script": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:ad-spy": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:ad-to-funnel": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:adapt": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:add-notebook": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:addiction-copy-engine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:addiction-loop-architect": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:addiction-loop-diagnostic": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:addictive-content-production": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:addictive-perception-content": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:adpsy-armchair-investigation": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:adpsy-comment-mine": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:adpsy-credible-explainer": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:adpsy-justification-math": {
    "status": "PROVEN",
@@ -17705,6 +17705,56 @@
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
    "checked": "2026-07-29T00:51:29.816489"
+  },
+  "execution:brief_branch_harvester.py": {
+   "status": "PROVEN",
+   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "execution:constitution_compiler.py": {
+   "status": "PROVEN",
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "execution:cos_notify.py": {
+   "status": "PROVEN",
+   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "execution:session_ledger_report.py": {
+   "status": "PROVEN",
+   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "execution:voice_evaluator.py": {
+   "status": "PROVEN",
+   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "workflow:fresh-pen": {
+   "status": "ORPHAN",
+   "via": "no wrapper, not in SLASH_COMMANDS.md",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "workflow:park": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-07-30T06:00:10.956571"
+  },
+  "workflow:content-winning-profile": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-07-30T09:50:46.709084"
+  },
+  "workflow:content-ideas": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-07-30T09:50:46.817863"
+  },
+  "workflow:content-queue": {
+   "status": "PROVEN",
+   "via": "listed in SLASH_COMMANDS.md",
+   "checked": "2026-07-30T09:50:46.866260"
   }
  }
 }

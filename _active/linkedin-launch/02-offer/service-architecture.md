@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This is the retired LinkedIn ghostwriting architecture. Use `ANGLE-MAP-ACTIVATION-PACKET.md` and `PROOF-TO-MARKET-OS.md`.
+
 # LinkedIn Ghostwriting Service Architecture
 ## Farrice Cain — Service Design v2.0
 

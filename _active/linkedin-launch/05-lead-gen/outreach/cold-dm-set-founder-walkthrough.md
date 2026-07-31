@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ../ONE-GAP-DM-SYSTEM-2026-07-29.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This file sells the retired $250–$500 Stress-Test Walkthrough. Use `../ONE-GAP-DM-SYSTEM-2026-07-29.md`.
+
 # Cold DM Set: Founder Outreach, Stress-Test Walkthrough
 
 > **Sells the $250–500 Stress-Test Walkthrough only. NEVER the $2,500 sprint cold** (Haynes: cold traffic gets the bounded paid diagnostic, never the core ask).

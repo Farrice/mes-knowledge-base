@@ -51,9 +51,25 @@ Specifically:
 
 **Success Metric**: An audit of Content Ops outputs shows ZERO instances of direct content creation.
 
+---
+
+## Pattern 4: Human-Curated Queue State
+**Execute**: Kieran's 2026 queue stores only ideas the creator explicitly selects. Every mutation is visible. Killed ideas remain as compact tombstones so another assistant does not resurface the same suggestion.
+
+**Queue cycle**:
+1. Ideation produces candidates without state mutation.
+2. Human selects item IDs.
+3. Queue adds selected cards and records the delta.
+4. The creator holds, kills, promotes, or defers through explicit operations.
+5. Published items attach results for the feedback loop.
+
+**Why This Matters**: A growing backlog is not a content system. The queue becomes useful through selection, subtraction, and continuity across sessions.
+
+**Success Metric**: Every active item has provenance, platform, creator bridge, status, freshness, and next action; no killed idea returns unchanged.
+
 ## Hidden Knowledge
 
-4 tacit expertise points specific to content operations. Per `references/source-ledger.md`: item 2 is LIKELY (paraphrase of a garbled transcript line); items 1, 3, and 4 carry no located source and are UNCONFIRMED — treat their specific numbers (cycle counts, batch minimums) as reasonable operating defaults, not verified Kieran claims.
+5 tacit expertise points specific to content operations. Per `references/source-ledger.md`: item 2 is LIKELY (paraphrase of a garbled transcript line); items 1, 3, and 4 carry no located source and are UNCONFIRMED. Item 5 is INFERRED from the new queue demonstration. Treat specific numbers as operating defaults unless labeled VERIFIED.
 
 ---
 
@@ -90,6 +106,15 @@ Specifically:
 **Deploy**: Content Feedback can run on any published batch. Content Review Cycle should run MONTHLY — no more frequently than that. Protect the system from over-optimization.
 
 **Source status**: Core cadence claim VERIFIED — the transcript states "every month I run a review and it actually makes the skills better" (`extractions/kieran-flanagan/transcript.txt`). The "style whiplash" phrase and the explicit weekly-vs-monthly tradeoff reasoning are UNCONFIRMED — not located verbatim; they are a plausible extrapolation from the verified monthly-cadence fact, not a direct Kieran quote.
+
+---
+
+## 5. Subtraction Is an Ideation Operation
+**The Truth**: Kieran's queue stays useful because he repeatedly kills weak ideas, not because the system keeps generating more. Deletion quality is part of idea quality.
+
+**Deploy**: Run queue health after intake. Flag duplicates, stale trends, weak creator bridges, category concentration, and items with no next action. Recommend a decision, but never apply it without an explicit operation.
+
+**Source status**: VERIFIED as demonstrated behavior in `extractions/transcripts/cSz_6SNEirU.txt`; the lifecycle schema is an INFERRED implementation.
 
 ---
 
@@ -159,6 +184,8 @@ Specifically:
     → **Deploy when**: Producing long-form content, articles, or any piece requiring factual support and authority.
 5.  **Monthly System Refinement**: Resists weekly "tweaks" to style cards or audience profiles. Instead, aggregates engagement data over a full month to identify consistent patterns and trends, then implements targeted, data-backed updates, preventing "style whiplash" and ensuring stable quality improvement.
     → **Deploy when**: Conducting feedback loop analysis and applying system updates, especially to foundational elements like audience profiles and style cards.
+6.  **Visible Queue Delta**: Shows exactly what changed before showing the new queue state, and keeps killed-item tombstones for deduplication across assistants.
+    → **Deploy when**: Adding selected ideas, pruning stale inventory, or promoting an idea to production.
 
 ## Anti-Patterns
 
@@ -169,6 +196,7 @@ Failure modes Kieran explicitly names or demonstrates rejecting on-camera, each 
 - **Shipping the first hook draft.** On his own "zero employees" LinkedIn draft mid-demo: "obviously I would never ship this" (`extractions/kieran-flanagan/transcript.txt`) — first-pass hook output routes to the hook-improvement skill before it's publishable, never straight to post.
 - **Drag-and-drop "vibe marketing."** Kieran explicitly separates his skill-chained system from no-code automation builders: "I was never a big fan of the kind of vibe marketing where it was workflow tools because it's not vibing. You have to actually drag and drop all the workflows together. This is not software." (`extractions/kieran-flanagan/transcript.txt`, referencing the earlier "born marketer" episode on the same podcast)
 - **Stopping before the feedback loop.** Kieran frames skipping the monthly review/feedback layer as the line between a systems thinker and everyone else: "If you're a system thinker, most people stop here" — said immediately before describing the feedback-loop app (`extractions/kieran-flanagan/transcript.txt`).
+- **Accumulating without pruning.** In the new source, Kieran says his queue has too many items and repeatedly kills candidates before adding three selected ideas. A queue that only grows becomes a backlog, not an editorial system (`extractions/transcripts/cSz_6SNEirU.txt`).
 - **Demographic/survey-built personas.** "Traditional personas are built from demographics and surveys — they're fiction." (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — LIKELY: extraction-author synthesis of Kieran's content-reactive-profiling position, not a verbatim on-camera quote.)
 - **One AI pass drafting and citing simultaneously.** "Asking AI to 'write a LinkedIn post with 3 statistics and a case study' produces hallucinated data." (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — LIKELY, same synthesis caveat as above; the underlying enrichment-after-drafting sequencing IS verbatim-demonstrated on camera, see Pattern above.)
 
@@ -183,3 +211,7 @@ Failure modes Kieran explicitly names or demonstrates rejecting on-camera, each 
 | **Structural Integrity (Lookalike Pattern Application)** | Content follows a basic, functional structure.                                       | Content uses a recognized, effective structural pattern that aids readability.    | Content masterfully applies a proven "lookalike" structural pattern, optimizing for engagement and message delivery, demonstrating battle-tested architecture. |
 | **System Efficiency (Orchestrator Performance)** | Output requires noticeable manual intervention between skill handoffs.                  | Output flows smoothly, but minor manual checks are still required.               | Output is a seamless, end-to-end production, with zero friction or manual intervention required between chained AI skills. |
 | **Anti-Vocabulary Compliance**      | Occasional "AI slop" words or phrases slip through.                                 | Output is largely free of generic AI-isms, with rare exceptions.                 | Output is completely devoid of any "AI slop" words or phrases, demonstrating perfect adherence to the "never use" list. |
+| **Mutation Transparency**           | Queue changes are implicit                                                          | Changed items are listed                                                         | Before/after state, reason, timestamp, and operator decision are visible for every mutation |
+| **Queue Freshness**                 | Old ideas remain active indefinitely                                                 | Stale items are flagged                                                          | Profile age, trend age, review age, and next action drive explicit hold, kill, refresh, or promote decisions |
+| **Tombstone Continuity**            | Killed ideas disappear and return later                                              | Kill reasons are retained                                                        | Compact fingerprints prevent unchanged resurfacing across assistants and sessions |
+| **Approval Boundary**               | Ideas auto-enter the queue or auto-draft                                             | Selection is requested                                                           | Only explicitly selected IDs enter state; queue promotion never creates content directly |

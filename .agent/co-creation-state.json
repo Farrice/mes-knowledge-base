@@ -10,17 +10,7 @@
  },
  "verify-dialect-injector": {
   "stems": {},
-  "updated": "2026-07-29T21:56:36.229239",
-  "last_feedback_exchange": 0
- },
- "t1": {
-  "stems": {},
-  "updated": "2026-07-28T14:45:25.810807",
-  "last_feedback_exchange": 0
- },
- "t2": {
-  "stems": {},
-  "updated": "2026-07-28T14:45:25.844925",
+  "updated": "2026-07-29T23:58:25.331269",
   "last_feedback_exchange": 0
  },
  "t3": {
@@ -62,7 +52,7 @@
     "rejections": 1
    }
   },
-  "updated": "2026-07-29T23:45:02.473003",
+  "updated": "2026-07-30T09:30:12.123233",
   "last_feedback_exchange": 14
  },
  "amnesty-test": {
@@ -73,6 +63,16 @@
  "amnesty-receipt": {
   "stems": {},
   "updated": "2026-07-29T19:26:37.266973",
+  "last_feedback_exchange": 0
+ },
+ "56734188-bf22-4922-ab54-870e8cbc2db1": {
+  "stems": {},
+  "updated": "2026-07-30T21:48:10.592627",
+  "last_feedback_exchange": 4
+ },
+ "183f09dd-7862-43c3-9629-812b4305f3ff": {
+  "stems": {},
+  "updated": "2026-07-30T21:49:17.264671",
   "last_feedback_exchange": 0
  }
 }

@@ -4,7 +4,7 @@ description: Analyze published content performance and propose specific improvem
 
 # /content-feedback — Content Performance Feedback Loop
 
-Ingest content performance data and analyze it against the content that was created. Identifies winning and losing patterns, then proposes specific updates to system assets (profiles, style cards, talking points).
+Ingest content performance data and analyze it against the content that was created. Identifies winning and losing patterns, then proposes specific updates to system assets, including per-platform Winning Content Profiles.
 
 ## Usage
 
@@ -26,5 +26,7 @@ Follow the workflow in `02-content-feedback.md` using the loaded genius context.
 
 ### 3. Save Output
 Save performance report to `.tmp/kieran-flanagan/feedback-report-[date].md`.
+
+Winning Content Profile changes remain proposals. `/content-review-cycle` owns approval and version updates.
 
 **Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

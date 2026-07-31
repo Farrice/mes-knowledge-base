@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This onboarding flow points to the retired Proof Run. Use `ANGLE-MAP-ACTIVATION-PACKET.md`.
+
 # Client Onboarding SOP
 ## Payment → Call → Delivery → Follow-Up
 

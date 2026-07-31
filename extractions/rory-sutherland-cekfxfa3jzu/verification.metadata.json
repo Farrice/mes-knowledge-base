@@ -1,0 +1,18 @@
+{
+  "title": "Rory Sutherland v5.0 Build Verification",
+  "artifact_type": "extraction_verification",
+  "created": "2026-07-30",
+  "source_file": "verification.md",
+  "target_skill": "rory-sutherland-marketing",
+  "status": "verified_b_tier",
+  "canonical_workflows": 25,
+  "new_workflows": 5,
+  "aliases": 3,
+  "functional_workflow_upgrades": 6,
+  "practitioner_prompts": 37,
+  "smoke_tests": 4,
+  "smoke_test_result": "pass",
+  "provenance_audit": "pass",
+  "blind_pass": "pending_missing_unseen_reference_corpus",
+  "full_book_reviewed": false
+}

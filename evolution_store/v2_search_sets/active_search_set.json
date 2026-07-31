@@ -2895,8 +2895,176 @@
         "gaming_flag": false
       },
       "notes": "Anchor 8 match on Expert Standard: every cut carries a measured receipt (word counts from the real fire path, verifier exit codes), every ruling cites its contradiction ID, and nothing was removed without a named successor or pointer. Two Explore agents inventoried 347 fences + every hook channel before any edit. | Factual Grounding: 9 | Verification: PASS (verify_dialect_injector 26/26, verify_control_intent 24/24+7/7, verify_codex_claude_parity exit 0, verify_dead_channels 23/23; ban-bank count claim corrected against the actual file: 59 rows, not 64 or 66)"
+    },
+    {
+      "trace_id": "20260730_000221",
+      "timestamp": "2026-07-30T00:02:21.823439",
+      "schema_version": "v3",
+      "component": "josh-sanders-linkedin-growth",
+      "expert": "Josh Sanders + Diandra Escobar + Lara Acosta",
+      "workflow": "profile-copy-fresh-0730 packet",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Fresh pen per five-move recipe; full route loaded before drafting; 1 adversarial wargame, 6 findings fixed, 1 overruled with reason; voice_evaluator clean; prose_classifier 3.5 WARNING (both signals deliberate: 360Brew keyword lists + Saxon-punch closes) | Factual Grounding: 9 | Verification: PASS (all numbers from verified proof inventory, no invented dates)"
+    },
+    {
+      "trace_id": "20260730_064128",
+      "timestamp": "2026-07-30T06:41:28.759288",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Boundary Map Audit angle selected after broad market scan; Drive disabled by current run instruction; Verification: PASS with content_finish WARN for required parallel structure | Anchor: V4 High-Taste Output OS"
+    },
+    {
+      "trace_id": "20260730_093203",
+      "timestamp": "2026-07-30T09:32:03.119726",
+      "schema_version": "v3",
+      "component": "directives",
+      "expert": "system-architect",
+      "workflow": "end-session",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Anchor 8 match on Expert Standard: every change carries a measured receipt (word counts from the real fire path, verifier exit codes, line counts recovered) and every ruling cites its contradiction ID or scar; nothing removed without a named successor. Farrice verdict: GOOD. Honest miss: 4 copy renditions rejected before the process corrected \u2014 root cause (arsenal not routed + context-bloated pen) is now vocabulary (/fresh-pen, route?) and a primitive. | Factual Grounding: 9 | Verification: PASS (verify_dialect_injector 26/26, verify_control_intent 24/24+7/7, verify_dead_channels 23/23, verify_codex_claude_parity exit 0 incl. new constitution_sync check)"
+    },
+    {
+      "trace_id": "20260730_105210",
+      "timestamp": "2026-07-30T10:52:10.678486",
+      "schema_version": "v3",
+      "component": "extract-mastery",
+      "expert": "nathan-follen",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 6.8,
+        "intent_alignment": 7.7,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 7.7,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after marginal receipt: added extraction-to-workflow trace, generated-surface ownership, bespoke verifier path, and 10 frozen acceptance cases; Vision approved; no production skill edits; platform: codex; prose WARNING at 3.6/10; export guard PASS; Architecture approval pending | Verification: PASS | Receipt: VERIFIED: 17 timestamped source anchors, 10-workflow trace map, 10 frozen acceptance cases, three real local deployment surfaces, and valid metadata JSON; LIKELY: 0; UNCONFIRMED: source-reported staffing and scale claims remain labeled and simulated UI remains labeled"
+    },
+    {
+      "trace_id": "20260730_142829",
+      "timestamp": "2026-07-30T14:28:29.227474",
+      "schema_version": "v3",
+      "component": "lara-acosta-linkedin-mastery",
+      "expert": "Lara Acosta",
+      "workflow": "personal-brand-blueprint",
+      "quality": {
+        "composite": 7.33,
+        "intent_alignment": 9.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 9.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Farrice Voice Card BLEND; Lara Acosta owner; Luke Iha proof support; independent platform-limit, factual-offer, and voice-slop audits integrated; wrapper-level prose classifier false-positive expected from numbered implementation lists while every public block was scanned independently | platform: codex | Verification: PASS | Receipt: 26/26 public paste blocks CLEAN; article and LinkedIn post finish gates CLEAN; strict voice PASS; platform limits PASS; factual audit 0 disease and 0 risky with 2 context-only WATCH terms; export guard PASS | Anchor: Anchor 9 \u2014 expert would sign it unchanged"
+    },
+    {
+      "trace_id": "20260730_163137",
+      "timestamp": "2026-07-30T16:31:37.523266",
+      "schema_version": "v3",
+      "component": "source-command-extract-forge",
+      "expert": "rory-sutherland",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 7.0,
+        "intent_alignment": 4.0,
+        "expert_standard": 9.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Checkpoint 1 revised after Kindle-only access confirmation; full book not reviewed; production Rory skill unchanged | platform: codex | Verification: PASS"
     }
   ],
-  "total_cases": 102,
-  "last_updated": "2026-07-29T19:27:34.177957"
+  "total_cases": 108,
+  "last_updated": "2026-07-30T16:31:37.524344"
 }

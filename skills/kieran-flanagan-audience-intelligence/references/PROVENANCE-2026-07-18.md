@@ -19,3 +19,13 @@ Anchor → source file + location. All quotes verified by direct `grep` against 
 | Pattern 3 "Common Anti-Vocabulary Items" list | delve, tapestry, landscape, etc. | Not found in `extractions/kieran-flanagan/transcript.txt` (grepped, zero matches) | UNCONFIRMED — illustrative generic list, not Kieran-sourced |
 
 Full claim-by-claim reasoning, including LIKELY-tier items and the gap named for future repair, is in `references/source-ledger.md`.
+
+## Additive provenance note: 2026-07-30
+
+New source: `extractions/transcripts/cSz_6SNEirU.txt`, "Never Run Out of Content Ideas With This AI System."
+
+New anchors:
+
+- Genius Pattern 6 and workflow 05: platform-specific Winning Content Profiles, creator-owned data, ranked structural patterns, confidence notes, and monthly refresh are VERIFIED.
+- Stable IDs, version schema, and PROVISIONAL no-metrics behavior are INFERRED implementation controls.
+- Full claim table: `references/source-ledger.md`, section "2026-07-30 Expansion: Content Signal Loop."

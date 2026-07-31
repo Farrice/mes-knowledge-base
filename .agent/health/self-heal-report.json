@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-29T19:25:13.741226",
+ "ts": "2026-07-30T06:49:07.615255",
  "mode": "report",
  "rows": [
   {
@@ -9,9 +9,22 @@
    "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
   },
   {
+   "id": "dead_hooks",
+   "cls": "JUDGMENT",
+   "what": "2 hook(s) unmapped (add to HOOK_EVIDENCE or HOOK_UNOBSERVABLE in self_heal.py): pulse_dashboard.py, voice_ratchet.py",
+   "fix": "python3 execution/self_heal.py report --json   # then check the named hook",
+   "detail": {
+    "problems": [],
+    "unmapped": [
+     "pulse_dashboard.py",
+     "voice_ratchet.py"
+    ]
+   }
+  },
+  {
    "id": "wiring_orphans",
    "cls": "JUDGMENT",
-   "what": "9 asset(s) with NO provable firing path (execution: 9) \u2014 e.g. ai_misfire_sprint_guard.py, audit_extraction_integrity.py, client_package_lint.py, design_md_extract.py",
+   "what": "10 asset(s) with NO provable firing path (execution: 9, workflow: 1) \u2014 e.g. ai_misfire_sprint_guard.py, audit_extraction_integrity.py, client_package_lint.py, design_md_extract.py",
    "fix": "python3 execution/wiring_audit.py status   # wire it, or archive it deliberately",
    "detail": {
     "orphans": [
@@ -23,10 +36,12 @@
      "execution:perception_engineering_bridge_audit.py",
      "execution:publishable_copy_guard.py",
      "execution:system_efficiency_benchmark.py",
-     "execution:test_video_enhance.py"
+     "execution:test_video_enhance.py",
+     "workflow:fresh-pen"
     ],
     "by_class": {
-     "execution": 9
+     "execution": 9,
+     "workflow": 1
     }
    }
   },

@@ -11,22 +11,22 @@ status: canonical
 | Fact | Detail | Use |
 |---|---|---|
 | The buyer years | Took everything the magazines sold: pre-workouts, fat burners, "whatever the magazine said" — the ad and the article were the same thing. Mostly chasing confidence. | Open the arc; self-deprecating, never bitter |
-| Vitamin shop, 3 years | Retail counter. The only room where "put it back on the shelf" is literal. Learned what a label can legally say vs what it's actually saying. | The unfakeable scene |
-| Trainer, 18 years | 1,000+ clients. Supplement questions arrived while writing nutrition plans, designing programs, and on the gym floor — constantly. | The depth credential |
-| Certs | NASM CPT, CES, PES · Precision Nutrition L1 · AFAA CPT | Certifications section / passing mention; never the lead |
+| Vitamin shop, 5 years | Retail counter. The only room where "put it back on the shelf" is literal. Learned how much desire, doubt, and context can sit behind one product request. | The unfakeable scene |
+| Coaching since 2008 | 1,000+ people coached. Supplement questions arrived while writing nutrition plans, designing programs, and on the gym floor — constantly. | The depth credential |
+| Historical education | NASM CPT, CES, PES · Precision Nutrition L1. Treat as historically earned, not necessarily current, until personal badge records are retrieved. | Certifications section / passing mention; never the lead |
 | AI systems | Builds and operates his own AI orchestration system | Mention capability, never lead with it (buyers are AI-theater-averse) |
 
 **Not usable as public proof:** the prior $3,000 coaching-adjacent engagement (attribution weak; results unverified). No client case studies exist yet — the make-right guarantee and artifact quality carry trust until the first documented result. NEVER invent or imply client results.
 
-## The teardowns (live proof assets)
+## The teardowns (prepared proof assets; external status unverified)
 
 | # | Brand | Core finding | Status |
 |---|---|---|---|
-| 1 | Transparent Labs | One of the most honest labels in the category, spending its homepage on the one word every competitor already owns. Fully-open label (8g citrulline malate, working doses) credited first. | DM'd first; publishes 2026-07-31 |
-| 2 | Momentous | Deepest evidence surface of any brand reviewed — and the messaging still under-uses it. | Publishes 2026-08-04 |
-| 3 | Puori | The strongest of the three; bookends on a named customer. | Publishes 2026-08-06 |
+| 1 | Transparent Labs | One of the most honest labels in the category, spending its homepage on the one word every competitor already owns. Fully-open label (8g citrulline malate, working doses) credited first. | Prepared; no verified DM or publication |
+| 2 | Momentous | Deepest evidence surface of any brand reviewed — and the messaging still under-uses it. | Prepared; no verified DM or publication |
+| 3 | Puori | The strongest of the three; bookends on a named customer. | Prepared; no verified DM or publication |
 
-Method (quotable): public surface only · every quotation verbatim and dated · credit where it's real comes first · sent to the brand before publishing.
+Method: public surface only · every quotation verbatim and dated · credit where it is real comes first. “Sent before publishing” is a future protocol, not a completed fact.
 
 ## Market stat bank (labeled; carry the caution into copy)
 

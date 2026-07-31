@@ -23,6 +23,9 @@ You produce multiple psychological reframes that transform how stakeholders see 
 - **[BUSINESS PROBLEM]**: The stated problem, challenge, or objective as currently defined
 - **[CURRENT APPROACH]**: What solutions are being considered or have been tried
 - **[CONTEXT]**: Industry, customer type, competitive situation, and constraints
+- **[TARGET BEHAVIOR]**: The observable action that should change
+- **[OBSERVED EVIDENCE]**: Data, direct observation, complaints, anecdotes, or known unknowns
+- **[FIXED CONSTRAINTS]**: Product facts, law, safety, brand, budget, and timing that no reframe may override
 
 ---
 
@@ -39,11 +42,13 @@ You produce multiple psychological reframes that transform how stakeholders see 
    - Emotional State & Feeling lens
    - Evolutionary/Instinctual lens
 
-3. **IDENTIFY THE HIGHEST-LEVERAGE REFRAME**: Determine which reframe reveals the greatest opportunity gap between psychological solution cost and conventional solution cost, given [CONTEXT].
+3. **RANK THE PSYCHOLOGICAL BOTTLENECKS**: For each plausible frame, identify the exact hurdle suppressing [TARGET BEHAVIOR]: response method, ambiguity, rejection risk, trust, expectation, status, or another evidenced obstruction. Rank one primary bottleneck. A long list is not a diagnosis.
 
-4. **DEVELOP SOLUTION PATHWAYS**: For the top 3 reframes, generate specific intervention strategies that address the problem as newly defined.
+4. **IDENTIFY THE HIGHEST-LEVERAGE REFRAME**: Determine which reframe reveals the greatest credible gap between psychological solution cost and conventional solution cost. Preserve [FIXED CONSTRAINTS] and do not recast a real technical defect as psychology.
 
-5. **PRODUCE THE REFRAME ANALYSIS**: Deliver complete document with all reframes, ranked by leverage, with actionable pathways.
+5. **DESIGN THE TEST**: For the primary bottleneck, change one variable. If the current model itself is suspect, test a genuinely different concept in a separate cell. State the behavior metric, kill rule, and switch condition.
+
+6. **PRODUCE THE REFRAME ANALYSIS**: Deliver all frames, the ranked bottleneck map, the selected intervention, and the test.
 
 ---
 
@@ -58,9 +63,11 @@ Given [BUSINESS PROBLEM] currently approached as [CURRENT APPROACH] in [CONTEXT]
 Deliver a **Psychological Reframe Analysis** with these components:
 1. Current Framing Diagnosis — what assumptions are baked into [BUSINESS PROBLEM] as stated
 2. 5-7 Alternative Psychological Frames — each with a new problem definition through a named lens
-3. Leverage Ranking — which reframes offer the greatest opportunity, with reasoning
-4. Solution Pathways for Top 3 — specific interventions for the highest-leverage reframes
-5. Implementation Recommendations — where to start
+3. Ranked Bottleneck Map — exact hurdle, evidence, confidence, and disconfirming evidence
+4. Leverage Ranking — which reframes offer the greatest credible opportunity, with reasoning
+5. Solution Pathway — the primary intervention plus one runner-up
+6. One-Variable Test Card — hypothesis, variable, behavior metric, kill rule, and switch condition
+7. Implementation Recommendation — where to start
 
 **Length**: 1200-1800 words. **No invented "10x cheaper" or fabricated cost-comparison figures** — the leverage argument should be reasoned from the mechanism (why a psychological fix would cost less/work faster than the conventional approach in [CONTEXT]), not asserted as a precise multiple.
 
@@ -85,10 +92,22 @@ Deliver a **Psychological Reframe Analysis** with these components:
 | Frame | Why High/Low Leverage | Fit With CONTEXT |
 |-------|---------------------------|------------------------|
 
-### SOLUTION PATHWAYS (Top 3)
-**Reframe: [Name]**
-[Specific intervention strategy addressing the problem as newly defined]
-[Repeat for top 3]
+### RANKED BOTTLENECK MAP
+| Bottleneck | Evidence | Confidence | What would disconfirm it |
+|---|---|---|---|
+
+### SOLUTION PATHWAY
+**Primary reframe**: [NAME]
+[Specific intervention]
+**Runner-up**: [NAME OR NONE]
+[Switch condition]
+
+### ONE-VARIABLE TEST CARD
+- Hypothesis: [...]
+- Variable: [...]
+- Behavior metric: [...]
+- Kill rule: [...]
+- Switch condition: [...]
 
 ### IMPLEMENTATION RECOMMENDATIONS
 [Where to start — the single highest-leverage first move]
@@ -101,6 +120,13 @@ Deliver a **Psychological Reframe Analysis** with these components:
 - [ ] No invented "10x cheaper" or specific cost-multiple claims — leverage is argued from mechanism, not a fabricated number
 - [ ] Each of the 5-7 reframes genuinely offers a different problem definition, not the same insight restated
 - [ ] The Leverage Ranking has explicit reasoning tied to [CONTEXT], not an arbitrary order
-- [ ] Solution Pathways are concrete enough to act on, not restatements of the reframe
+- [ ] One primary bottleneck is ranked above the alternatives
+- [ ] A real technical defect, safety issue, or legal limit was not explained away
+- [ ] The Solution Pathway is concrete enough to act on
+- [ ] The test changes one variable or a genuinely different concept, not a five-change bundle
 - [ ] At least one reframe would genuinely surprise a stakeholder who only sees the rational framing
 - [ ] Implementation Recommendations name a specific first action, not "consider these options"
+
+## Source Boundary
+
+The ranked-bottleneck and atomic-or-radical test additions are grounded in the 2026 My First Million transcript. The full text of *Alchemy* was not reviewed.

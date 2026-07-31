@@ -8,7 +8,7 @@ status: canonical
 
 ## Who he is (the credential arc — the only bio that matters)
 
-Farrice Cain was the kid the loud supplement labels were built for: pre-workouts, fat burners, test boosters, a shelf of half-used tubs bought on confidence, back when the magazine ad and the article were the same thing. Then three years behind a vitamin-shop retail counter — the last checkpoint between a marketing claim and a register — where half the job was telling somebody to put it back. Then eighteen years as a personal trainer and strength coach, 1,000+ clients, where the question never stopped: what should I be taking, is this stack worth it, does any of it work. Certifications: NASM CPT/CES/PES, Precision Nutrition L1, AFAA CPT. He now builds and runs his own AI orchestration system — but he leads with judgment and receipts, never with AI capability claims (his buyers are hyper-vigilant against "AI theater").
+Farrice Cain was the kid the loud supplement labels were built for: pre-workouts, fat burners, test boosters, a shelf of half-used tubs bought on confidence, back when the magazine ad and the article were the same thing. Then five years behind a vitamin-shop retail counter — the last checkpoint between a marketing claim and a register — where half the job was telling somebody to put it back. He has coached since 2008 and worked with 1,000+ people; the question never stopped: what should I be taking, is this stack worth it, does any of it work. Certifications and education historically earned include NASM CPT/CES/PES and Precision Nutrition L1; current badge status has not been verified. He now builds and runs his own AI orchestration system — but he leads with judgment and receipts, never with AI capability claims (his buyers are hyper-vigilant against "AI theater").
 
 ## The positioning thesis (the argument all content makes)
 
@@ -16,14 +16,15 @@ Farrice Cain was the kid the loud supplement labels were built for: pre-workouts
 
 ## What he sells (full detail in 02-OFFER-CANON)
 
-Creative strategy and positioning for supplement, recovery, and performance brands ($1M–$50M DTC). The ladder: **free teardown** (public-surface read, sent to the brand before publishing) → **the Angle Map, $750 prepaid** (60-min live read + 3 named angles with hooks and the claim-safety line under each, delivered in 48 hours) → **the Proof-to-Market Sprint, $2,500** (10 days: positioning, messaging, proof order — decided; ends in feedable angles, never a deck that gathers dust) → **retainer** (he owns creative strategy: message, angles, concepts). He does not build ads, run accounts, or write calendars. No revenue guarantees; no science the brand hasn't earned.
+AI-enabled Proof-to-Market implementation for established supplement, recovery, and performance brands. The ladder: **one useful public-surface observation** → **the Angle Map, $750 prepaid** (60-minute live read + three named angles with hooks, approved-proof direction, and an editorial claim-safety line under each, delivered in 48 hours) → **the Proof-to-Market Sprint, $2,500 prepaid** (10 business days: buyer-decision map, positioning and proof hierarchy, campaign-angle bank, launch messaging blueprint, and one priority campaign asset) → **recurring implementation**, tested only after paid proof. No revenue, legal-clearance, ranking, retailer-acceptance, or AI-citation guarantees.
 
-## Who buys (full detail in 03-ICP-TRUTH-MAP)
+## Who buys (full detail in 07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP)
 
-Founders and marketing leads at growth-stage DTC supplement/wellness/performance brands, $1M–$50M revenue, founder-led voice, no senior creative-strategy seat. They buy reactively — when LTV:CAC breaks, when they hit the scaling wall past the hero product, when a new exec or fresh funding resets the vendor slate. Sub-$15M founders are the fast-yes tier; they actively buy tactical $500–$5K engagements to de-risk before retainers.
+Founders and authorized marketing leads at already-selling supplement/wellness/performance brands with a launch, repositioning, retail expansion, new ingredient, or campaign in motion. Generally below $15M is the working fit hypothesis, not a fact to infer from appearance. Authority, occasion, and usable approved evidence matter more than an unverified revenue estimate.
 
 ## Current state (so the AI knows where the story is)
 
-- LinkedIn launched from zero followers, week of 2026-07-28. Goal: $500–$2,000 collected by ~08-10, building to $3–5K/mo.
-- Profile live with the "Mirror" About (register reference in 04-VOICE-REGISTER); three teardowns built (Transparent Labs, Momentous, Puori) publishing 07-31, 08-04, 08-06 as PDF carousels; DM motion running at ~15 one-gap DMs/day to a founder gold list.
+- Launch assets were prepared during the week of 2026-07-28, but external activation has **not** been verified. The 14-day clock starts only when the first five qualified messages are actually sent and logged.
+- Profile copy and three teardowns exist as prepared assets; they are not represented as live, sent, or published without external evidence. The approved motion is 15 qualified one-gap messages plus five due follow-ups per selling day.
+- Current exact-offer evidence: **zero Angle Maps sold, $0 collected; demand unconfirmed**.
 - Content = two pillars only: (a) teardowns/proof, (b) the thesis above argued from lived experience. Everything else is off-strategy.

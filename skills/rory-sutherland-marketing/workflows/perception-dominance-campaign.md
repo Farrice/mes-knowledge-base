@@ -27,7 +27,7 @@ Load: rory-sutherland-marketing/genius.md
 1. **Psychological Reframe Sprint**: Generate 5 alternative framings of the offer (Pattern 2).
 2. **Reverse Benchmarking Sweep**: Identify 5+ competitor blind spots (Pattern 11).
 3. **Paceometer Arsenal**: Re-express every metric in perception-first units (Pattern 12).
-4. **Overground Effect Check**: Is underperformance a product or perception problem? (Pattern 15).
+4. **Category-Frame Check**: Is underperformance a product problem or a truthful-context problem? Pattern 15's older example is hypothesis-only.
 5. **Conspiracy Frame**: Draft the conspiratorial narrative (Pattern 16).
 
 **Phase 1 Output**: The "Perception Blueprint" — the psychological reality all downstream assets will build upon.
@@ -59,7 +59,7 @@ Load: stefan-georgi-dopamine-copy/genius.md
 1. Build Lead/Open using Phase 1's best reframe as the curiosity gap.
 2. Build Rapport by mirroring the OLD perception.
 3. Deploy the Mechanism as a dopamine-peak perception shift.
-4. Close using Subscription Alchemy pricing + loss-framed future pace.
+4. Close using transparent period-and-total pricing plus a factually grounded future pace.
 
 **Phase 4 Output**: Primary sales asset (landing page, VSL, email sequence) with perception engineering as substrate and dopamine sequencing as architecture.
 

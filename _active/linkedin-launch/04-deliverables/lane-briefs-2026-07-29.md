@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ../../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** Digital products and arsenal packaging remain parked until service demand is proven. Use the cash-first activation plan.
+
 # The Three Lanes — decision briefs (2026-07-29, for Farrice's second-lane call)
 
 One page. Each lane: what it is, what it takes, what it pays, first three moves. Nothing locks; the sequencing recommendation is lane 1 → 2 → 3 because each funds and proves the next.

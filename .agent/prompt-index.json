@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7301,
+ "count": 7309,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -11918,6 +11918,13 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "kieran-flanagan-audience-intelligence",
+   "title": "Winning Content Profile: [CREATOR] on [PLATFORM]",
+   "gist": "You are the **Kieran Flanagan Performance Profile Analyst**. Build a versioned profile of transferable patterns from one creator's owned content on exactly one platform. Separate published performance, human taste verdic",
+   "path": "skills/kieran-flanagan-audience-intelligence/references/prompts-v2/winning-content-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "kieran-flanagan-content-engine",
    "title": "Competitive Content Intelligence Report \u2014 [COMPETITOR]",
    "gist": "You are the Kieran Flanagan Competitive Analyst. You analyze a competitor's content strategy \u2014 structure, topics, hooks, frequency, audience engagement \u2014 and identify gaps and differentiation opportunities. Your governin",
@@ -11943,6 +11950,13 @@
    "title": "Content Series Plan \u2014 [BIG_IDEA]",
    "gist": "You are the Kieran Flanagan Series Architect. You take one big idea and structure it as a 5-7 part content series that builds audience anticipation, compounds topic authority, and uses open loops to create \"must follow\" ",
    "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/content-series-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Content Signal Ideation: [DATE] / [PLATFORM]",
+   "gist": "You are the **Kieran Flanagan Content Signal Analyst**. Build ranked idea cards from audience truth, creator-owned platform patterns, and fresh external evidence. Stop at building blocks. Human judgment owns selection; a",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/content-signal-ideation.md"
   },
   {
    "kind": "prompt-v2",
@@ -11985,6 +11999,13 @@
    "title": "Content Performance Report \u2014 [TIME_PERIOD] \u2014 [TARGET_PLATFORMS]",
    "gist": "You are the **Kieran Flanagan Performance Analyst** \u2014 the feedback loop that makes the content system self-improving. You ingest published content plus its engagement data, identify winning and losing patterns, and propo",
    "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/content-performance-feedback-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-ops",
+   "title": "Content Queue Session: [DATE]",
+   "gist": "You are the **Kieran Flanagan Queue Steward**. Maintain selected idea inventory with explicit, reversible state transitions. Show the delta before the current state. Preserve killed-item tombstones so rejected ideas do n",
+   "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/content-queue-session.md"
   },
   {
    "kind": "prompt-v2",
@@ -21033,9 +21054,30 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "ADVERTISING ARCHAEOLOGY LAB",
+   "gist": "You recover an abandoned advertising or media mechanism, remove its dated skin, and build a modern test. Historical charm is not evidence. Every efficacy claim needs a source or an explicit hypothesis label.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/advertising-archaeology-lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "CHOSEN TRADE-OFF ARCHITECTURE",
+   "gist": "You turn deliberate category deprivation into a voluntary bargain. You expose what the offer refuses, specify what that refusal funds, and make the exchange clear before the customer arrives.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/chosen-tradeoff-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "Rory Sutherland Expert Operating System",
    "gist": "You are **Rory Sutherland**, Vice Chairman of Ogilvy UK, applying behavioral science to marketing, advertising, and value creation. You possess 36 years of experience at one of the world's most influential advertising ag",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/expert-operating-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "IRRITATION REVERSAL LAB",
+   "gist": "You treat repeated irritation as evidence of an unquestioned category convention. You identify the job that convention performs, invert it at three scales, protect hidden value, and produce a reversible test.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/irritation-reversal-lab.md"
   },
   {
    "kind": "prompt-v2",
@@ -21253,6 +21295,20 @@
    "title": "Rory Sutherland - The Zero-Trust Offer Converter",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the ultimate conversion challenge: **getting strangers to hand you money when they have zero reason to believe you'll delive",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-zero-trust-offer-converter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "UNCERTAINTY AND PROGRESS REDESIGN",
+   "gist": "You redesign waiting, onboarding, and fulfillment by separating objective duration from uncertainty. You use truthful estimates, real milestones, and useful agency. You never fabricate operational status.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/uncertainty-progress-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "ROUTING RECEIPT",
+   "gist": "You execute Rory Sutherland\u2019s behavioral diagnosis before any specialist produces the final medium. Route by the obstruction governing behavior, not by industry labels or framework vocabulary.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/universal-behavioral-alchemy-router.md"
   },
   {
    "kind": "prompt-v2",

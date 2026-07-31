@@ -15,9 +15,9 @@ Sequence discipline (Genius Pattern 1 — The Orchestrator Pattern): content bri
 
 ## Input Required
 
-1. **[SESSION_GOAL]** — Create / Research / Enrich / Bundle / Full Sprint
+1. **[SESSION_GOAL]** — Create / Ideate / Research / Enrich / Bundle / Full Sprint
 2. **[TARGET_PLATFORMS]** — platform(s) for this session
-3. **[ASSETS_AVAILABLE]** — which of Audience Profile, Style Card(s), Talking Points, Hook Formulas already exist
+3. **[ASSETS_AVAILABLE]** — which of Audience Profile, Style Card(s), Talking Points, Hook Formulas, Winning Content Profile(s), and Content Queue already exist
 4. **[TIME_OR_VOLUME_GOAL]** (optional) — pieces to produce, or time available
 
 ## Execution Protocol
@@ -28,6 +28,8 @@ Before creating anything, check what exists against `[ASSETS_AVAILABLE]`:
 - Missing Audience Profile → recommend running `/content-audience-profile` first
 - Missing Style Card for the target platform → recommend running `/content-style-card` first
 - Empty Talking Points → recommend running `/talking-points` first
+- Ideate goal with no target-platform Winning Content Profile → recommend `/content-winning-profile`
+- Ideate goal with no Content Queue → prepare a state root, but do not create queue state before selection
 - Everything present → proceed to Phase 2
 
 Present any gap conversationally, as a choice ("build it now, or focus on what we already have today?") — not as an error list.
@@ -37,6 +39,7 @@ Present any gap conversationally, as a choice ("build it now, or focus on what w
 State the skill chain before running it, so the user can redirect. `[SESSION_GOAL]` maps to one of five chains:
 
 - **Create**: load Audience Profile + Style Card + Talking Points → select today's talking points with the user → choose a content structure (from `/lookalike-content` patterns, or freestyle) → draft → present for review → optional enrichment pass → final polish
+- **Ideate**: load Audience Profile + target-platform Winning Content Profile → preserve freshness and PROVISIONAL status → run `/content-ideas` inside a bounded trend window → present Proven, Trending, and Convergence cards → human selects item IDs → run `/content-queue add-selected` for those IDs only → stop before drafting
 - **Research**: run `/talking-points` against new source material, or `/lookalike-content` against recent high-performing content, or `/content-cluster` for strategic analysis → present findings, user selects what to develop
 - **Enrich**: load the existing draft → run `/content-enrich` against the audience profile for relevance → present enrichment options → apply and polish
 - **Bundle**: load the finished piece from its primary platform → run `/content-bundle` across target platforms → present all versions for review
@@ -58,7 +61,7 @@ Close every session with a record of what happened, not just what was made — c
 ## Output Contract
 
 The delivered **Content Orchestration Session** contains exactly:
-1. **Session Output** — all content produced during the session, organized by platform
+1. **Session Output** — content produced, or idea/queue artifacts when Ideate is the goal, organized by platform
 2. **Session Log** — which skills ran, in what order, with what inputs
 3. **Asset Updates** — any new talking points, patterns, or insights discovered during the session
 4. **Next Session Recommendations** — what to produce or research next time
@@ -68,13 +71,15 @@ The delivered **Content Orchestration Session** contains exactly:
 ```
 # Content Orchestration Session — [DATE]
 
-Session Goal: [Create / Research / Enrich / Bundle / Full Sprint]
+Session Goal: [Create / Ideate / Research / Enrich / Bundle / Full Sprint]
 Platform(s): [...]
 
 ## Asset Inventory
 Audience Profile: [present / missing — recommended action]
 Style Card ([platform]): [present / missing — recommended action]
 Talking Points: [present / missing — recommended action]
+Winning Content Profile ([platform]): [validated / provisional / stale / missing]
+Content Queue: [present / not yet created]
 
 ## Session Plan
 Skill chain: [step 1] → [step 2] → [step 3] → ...
@@ -93,6 +98,7 @@ Skill chain: [step 1] → [step 2] → [step 3] → ...
 ## Asset Updates
 New talking points discovered: [...]
 New patterns / insights: [...]
+Selected queue item IDs: [...]
 
 ## Next Session Recommendations
 [...]
@@ -105,6 +111,8 @@ New patterns / insights: [...]
 3. **Conversation Test** — did the session read like collaboration, not command execution?
 4. **Completeness Test** — was every relevant asset checked before creation began (Phase 1), and was the plan stated before running (Phase 2)?
 5. **Summary Test** — does the session log give a clear, replayable record of what ran and in what order?
+6. **Selection Test** — in Ideate mode, did queue mutation wait for explicit item IDs?
+7. **Finished-Content Veto** — did Ideate mode stop before drafting?
 
 ## Creative Latitude
 

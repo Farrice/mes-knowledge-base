@@ -1,9 +1,9 @@
 # rory-sutherland-marketing — Skill Provenance & Extraction Integrity
 
 **Skill Created**: ~2026-02-01  
-**Last Repair**: Wave 3 Batch 3 (2026-07-17)  
-**Extraction Status**: COMPLETE with source verification ledger  
-**Quality Gate**: ✅ PASSING (Heartbeat Checks 1-6 post-repair)
+**Last Repair**: v5.0 source-honest expansion (2026-07-30)
+**Extraction Status**: VIDEO/CAPTION BUILD COMPLETE; official publisher sample only; full *Alchemy* book not reviewed; blind-pass A-tier pending
+**Quality Gate**: ✅ PASSING (Heartbeat Checks 1-7 post-repair)
 
 ---
 
@@ -19,9 +19,10 @@
    - Character Count: ~74,949 characters
    - Verbatim Patterns: 16+ core patterns with direct quotes
 
-2. **Adcom 2026 London Keynote** (~60 minutes, ~10,000 words)
-   - Format: Formal presentation at Adcom 2026
-   - Topics: Reverse Benchmarking, Perception Arbitrage, Asymmetric Bet Evaluation, Subscription Alchemy, Churchill Reframe, Overground Effect, Paceometer
+2. **Archived keynote-style corpus source; event label unverified** (~60 minutes, ~10,000 words)
+   - Format: Keynote-style transcript in the archived corpus; no literal Adcom event tag was verified
+   - Verified topics: Reverse Benchmarking, Churchill Reframe, and Paceometer
+   - Previously attributed but unconfirmed in this source: Perception Arbitrage, Subscription Alchemy, and Overground Effect; portfolio risk pooling is verified separately in S8
    - Status: Referenced in genius.md; transcript not in extraction folder (assumed archived separately)
    - Patterns Contributed: 11-16 (newer frameworks + advanced applications)
 
@@ -29,10 +30,16 @@
    - Topics: Deep dives on specific frameworks, cross-validation of core principles
    - Status: Integrated into Pattern descriptions
 
-4. **"Alchemy: The Surprising Power of Ideas That Don't Make Sense" (Book)**
-   - Foundational frameworks documented in genius.md
-   - Referenced for formal pattern language
-   - Status: Partial extraction (key examples cited)
+4. **Official Penguin Sample of "Alchemy: The Surprising Power of Ideas That Don't Make Sense"**
+   - Publisher sample reviewed for orientation: rules, foreword, and introduction through printed page 25
+   - Local evidence: `/extractions/rory-sutherland-cekfxfa3jzu/alchemy-official-publisher-sample.pdf` and `.txt`
+   - Status: Publisher sample only. The full book was unavailable and was not reviewed.
+
+5. **2026 My First Million Masterclass**
+   - Complete 4,517-second transcript plus timestamped YouTube captions
+   - Local evidence: `/extractions/rory-sutherland-cekfxfa3jzu/`
+   - Source ledger: `references/source-ledger-2026-mfm.md`
+   - Patterns contributed: behavioral innovation, buyer-native units, journey edges, portfolio risk pooling, progress granularity, action certainty, chosen deprivation, irritation inversion, hidden secondary markets, and advertising archaeology
 
 ---
 
@@ -56,7 +63,7 @@
 ### Phase 4: Skill Assembly
 - SKILL.md: Overview, router placement, anti-patterns, use guidelines
 - genius.md: Pattern descriptions, implementation pathways, virtuoso elements, quality rubrics
-- workflows: 20 workflows, each combining Sutherland + co-expert frameworks
+- workflows: 25 workflows, including five universal v5 routes and eight optional cross-expert routes
 - references: Legacy prompts, v1/v2 prompt archives
 
 ---
@@ -82,8 +89,8 @@
   3. The Transmission Model Fallacy
   4. Confected Sensitivity Over Genuine Communication
   5. Cheap Media Enables Cheap Signaling
-  6. The Metric Capture Trap (Technoplasmosis)
-- Each: Quote + source + risk + corrective action
+  6. The Metric Capture Trap (underlying critique sourced; “Technoplasmosis” label unconfirmed)
+- Each underlying behavior: quote + source + risk + corrective action; coined labels follow the ledger
 
 ✅ **4. recognition_test** (FIXED)
 - Added "How to Use This Skill (Model Calibration)" section
@@ -99,12 +106,16 @@
 - Anti-patterns ledger with source quotes
 
 ✅ **6. workflow_contracts** (FIXED)
-- Added Output Schema sections to all 20 workflows
+- Added Output Schema sections to all 25 workflows
 - Each workflow defines: Deliverables, Format, Structure, Quality Gates
 - Examples:
   - `addictive-perception-content.md` → 3 scripts + 10-script batch plan
   - `asymmetric-bet-evaluator.md` → decision matrix + risk/upside table
   - `behavioral-copy-audit.md` → audit findings + copy rewrites + psychological vectors
+
+✅ **7. menu_parity** (PASSING, 2026-07-30)
+- All 25 skill workflows have live menu wrappers and command shims
+- Three problem-language aliases route to canonical engines without duplicating methodology
 
 ---
 
@@ -116,8 +127,8 @@
 - **Framework Attribution**: Explicit tracking of what's Sutherland-stated vs. inferred from logic
 
 ### No Phantom Research
-- All examples drawn from provided transcripts
-- Adcom 2026 keynote referenced but transcript not yet in extraction folder (flagged as UNCONFIRMED in source ledger)
+- Examples are status-labeled against the local transcripts, timestamped captions, prior corpus, and the publisher sample
+- Archived keynote-style corpus source referenced; exact event label remains unverified and every claim follows the source-ledger status
 - No confident hallucination of facts, dates, or company details
 
 ### Factual Grounding
@@ -132,13 +143,14 @@
 ### Strengths
 - **Depth**: 22 operationalized patterns cover spectrum from tactical (price-frame arbitrage) to strategic (fat-tail bias, business architecture)
 - **Verbatim Grounding**: Core patterns can cite direct quotes; not inference-heavy
-- **Cross-Expert Integration**: 20 workflows combine Sutherland with Kallaway, Iha, Georgi, Dunford, etc.
+- **Cross-Expert Integration**: 25 workflows include optional combinations with Kallaway, Iha, Georgi, Dunford, and others; v5 defaults to Rory plus at most one delivery expert
 - **Tacit Knowledge Captured**: 8 virtuoso patterns systematize Sutherland's 36-year unconscious mastery
 
 ### Limitations
-- **2026 Keynote**: Patterns 11-16 sourced from Adcom keynote (not in extraction folder); requires manual transcript verification
-- **Inferred Frameworks**: Some patterns (Reverse Benchmarking, Churchill Reframe, Overground Effect) constructed from principle rather than direct statement
-- **Book Integration**: "Alchemy" examples partial; full book extraction would deepen confidence
+- **Adcom label**: The event label and several older case details remain incompletely verified. S8 independently promotes only the mechanisms and examples named in `references/source-ledger-2026-mfm.md`.
+- **Inferred Frameworks**: Some labels and older examples remain Antigravity synthesis or unconfirmed corpus material; the ledger, not the heading, controls whether they may serve as proof.
+- **Book Boundary**: Only the official Penguin sample was reviewed. The full *Alchemy* text remains unavailable and must not be claimed as a source.
+- **Blind-Pass Boundary**: The instrumented blind pass requires two unseen published Rory pieces in `extractions/rory-sutherland-marketing/reference-corpus/`; that corpus is not yet available, so A-tier embodiment remains pending.
 
 ---
 
@@ -151,8 +163,8 @@
 
 ### Annual Deep Dive
 - Re-read full transcripts; identify missed patterns
-- Reconcile with published "Alchemy" updates (2024/2025 editions)
-- Assess: Are 20 workflows still aligned with current Sutherland thinking?
+- Reconcile only against lawfully available *Alchemy* source material or user-supplied Kindle highlights
+- Assess: Are all 25 workflows still aligned with current Sutherland thinking?
 
 ### Post-Deployment Learning
 - Collect: User applications of patterns; did they work as described?
@@ -179,6 +191,22 @@
 - workflow_contracts: Missing → Complete ✅
 
 **Post-Repair Status**: ✅ All 6 heartbeat checks passing
+
+---
+
+## v5.0 Source-Honest Expansion Summary
+
+**Changes Made (2026-07-30)**:
+
+1. Added five canonical workflows: Behavioral Alchemy Router, Chosen Trade-Off Architect, Uncertainty & Progress Designer, Irritation Reversal Lab, and Advertising Archaeology Lab.
+2. Added three thin aliases: `/psychological-bottleneck-finder`, `/adoption-unit`, and `/hidden-secondary-market-finder`.
+3. Upgraded reverse benchmarking, asymmetric bets, price framing, metric reframing, conversion funnels, and behavioral detective routes.
+4. Added five born-v2 prompts and upgraded three existing v2 prompts.
+5. Corrected asymmetric-bet provenance to Thaler-style portfolio risk pooling; retained reversibility only as an Antigravity test aid.
+6. Added a timestamped source ledger and removed the unverified Jumeirah story from active proof paths.
+7. Verified 25/25 workflow contracts, 25/25 menu reachability, and 37/37 v2 prompt structure.
+
+**Evidence boundary**: complete MFM transcript/captions + existing local Rory corpus + official Penguin sample. Full *Alchemy* book not reviewed.
 
 ---
 

@@ -4,7 +4,7 @@ description: Monthly content system audit
 
 # /content-review-cycle — Monthly Content System Review
 
-Run the monthly review cycle that audits the entire content system — all profiles, style cards, talking points, hook formulas, and topic clusters — and proposes targeted improvements. The self-improving skill that upgrades all other skills.
+Run the monthly review cycle that audits the entire content system, including audience profiles, style cards, talking points, hook formulas, topic clusters, Winning Content Profiles, and queue health. The self-improving skill that upgrades all other skills.
 
 ## Usage
 
@@ -28,5 +28,7 @@ Follow the workflow in `03-content-review-cycle.md` using the loaded genius cont
 
 ### 3. Save Output
 Save monthly review to `.tmp/kieran-flanagan/review-[month]-[year].md`.
+
+Approved Winning Content Profile changes increment the profile version. Queue changes remain explicit operations and are never applied silently.
 
 **Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

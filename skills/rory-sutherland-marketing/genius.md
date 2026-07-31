@@ -22,12 +22,14 @@ Specifically:
 
 ## CONTENT ASSESSMENT
 
-**Type**: Long-form podcast interview (~90 min) + Adcom 2026 London keynote (~60 min, ~10,000 words)
+**Type**: Multi-source corpus: long-form interviews, a keynote, and the 2026 My First Million masterclass (75 min; 13,772 words)
 **Expert**: Rory Sutherland - Vice Chairman of Ogilvy UK, 36-year advertising veteran, Author of "Alchemy: The Surprising Power of Ideas That Don't Make Sense"
 **Domain**: Behavioral Marketing + Applied Consumer Psychology + Value Creation Economics + Perception Engineering
-**Depth**: MASTER+ - Synthesizes evolutionary psychology, economics, decision science, and real-world marketing into unified operating system. 2026 keynote adds Reverse Benchmarking, Perception Arbitrage, and Asymmetric Bet frameworks.
-**Virtuoso Patterns**: 29 unconscious mastery behaviors identified (original 23 + 6 new from Adcom 2026)
+**Depth**: MASTER+ - Synthesizes evolutionary psychology, economics, decision science, direct response, and real-world marketing into a unified operating system. The 2026 masterclass deepens adoption design, journey edges, portfolio incentives, explicit trade-offs, and media archaeology.
+**Virtuoso Patterns**: 22 numbered patterns plus source-grounded field mechanics and execution heuristics
 **Extraction Value**: VIRTUOSO - This is the hidden operating system behind billions in brand value creation
+
+**Book boundary**: The official Penguin sample of *Alchemy* was reviewed for orientation. The full book was not available and was not reviewed. See `references/source-ledger-2026-mfm.md`.
 
 ---
 
@@ -45,12 +47,16 @@ Specifically:
 - Design customer experiences that build irrational loyalty
 - Spot "Doorman Fallacy" opportunities competitors miss
 - Transform cost centers into value-creation engines
+- Route raw problems by behavioral obstruction rather than industry
+- Turn chosen restrictions into clear, expectation-safe positioning
+- Redesign waiting and delivery through truthful certainty, progress, and agency
+- Recover effective media mechanisms discarded through fashion
 - **[NEW]** Reverse-benchmark competitors to find unoccupied psychological territory
 - **[NEW]** Re-express prices, speeds, and metrics using perception-first units (Paceometer)
-- **[NEW]** Evaluate decisions using Two-Way Door asymmetric bet logic
+- **[NEW]** Evaluate decisions through local-risk vs. portfolio-risk pooling
 - **[NEW]** Engineer subscription/pricing alchemy that transforms identical economics into radically different feelings
 - **[NEW]** Apply the Churchill Reframe: conspiratorial vs. accusatorial framing
-- **[NEW]** Design "Departure Lounge" unexpected-value moments that create permanent loyalty
+- **[NEW]** Design salient journey-edge moments that competitors leave ownerless
 
 **Virtuoso Elements Captured**:
 - The "Feels Like Temperature" framework for business decisions
@@ -61,10 +67,10 @@ Specifically:
 - The "Brandquake" creation methodology
 - **[NEW]** Reverse Benchmarking methodology (Guidara / Eleven Madison Park)
 - **[NEW]** The Paceometer — perception-first metric re-expression
-- **[NEW]** Two-Way Door asymmetric bet evaluation (Bezos method)
-- **[NEW]** Subscription Alchemy — Netflix/Klarna pricing psychology
+- **[NEW]** Portfolio-level asymmetric bet evaluation (Thaler division-head mechanism)
+- **[CORPUS / UNCONFIRMED ATTRIBUTION]** Subscription Alchemy — price-period re-expression; use as a hypothesis until its Rory source is verified
 - **[NEW]** The Churchill Reframe — conspiratorial problem-solving
-- **[NEW]** The Overground Effect — recontextualization without product change
+- **[CORPUS / UNCONFIRMED ATTRIBUTION]** The Overground Effect — category-context hypothesis; do not use the Silverlink outcome as proof
 
 **Time to Mastery**: 30 days to internalize core frameworks; 90 days to deploy instinctively
 
@@ -227,10 +233,10 @@ Use these deep drives, not surface preferences, to shape messaging and experienc
 **Success Metric**: Customers cite your "unexpected" strength as their primary reason for loyalty. Your differentiation is impossible to compare on procurement spreadsheets.
 
 **Case Studies**:
-- **Buc-ee's**: Gas station chain that reverse-benchmarked by making toilets immaculate. Became a destination brand.
+- **Buc-ee's**: Rory presents immaculate restrooms as a salient strength on a dimension most roadside operators neglect. Treat external business outcomes as unverified unless separately sourced.
 - **Moxy Hotels**: Tiny basic rooms, but world-class public/coworking space. Opposite of industry standard.
-- **Uber**: Didn't make cabs arrive faster. Made *waiting* feel less stressful via real-time map tracking.
-- **Jumeirah Departure Lounge**: Created a post-checkout lounge that solved the "homeless after 11 AM" problem no hotel addresses.
+- **Uber**: Used a map and availability/progress cues to make waiting feel more legible. Rory notes the display may sometimes have been figurative, so do not treat it as verified real-time location data.
+- **Eleven Madison Park**: Guidara appointed specialists for neglected coffee and beer experiences after studying what excellent competitors left merely adequate.
 
 ---
 
@@ -248,53 +254,52 @@ Use these deep drives, not surface preferences, to shape messaging and experienc
 
 ---
 
-### Pattern 13: Two-Way Door Asymmetric Betting
-**What He Does Unconsciously**: Sutherland immediately classifies decisions into reversible (two-way doors) and irreversible (one-way doors), then aggressively pursues reversible bets with asymmetric upside. He detects when organizations waste massive energy debating decisions that are cheap to try and easy to reverse.
+### Pattern 13: Portfolio-Level Asymmetric Betting
+**What He Does Unconsciously**: Sutherland separates the risk visible to one manager from the expected value visible to the whole organization. In the Thaler division-head example, favorable bets were refused because a bad local result threatened the sponsor’s job even though the firm wanted every division to participate.
 
-**Executable Behavior**: For any proposed initiative, complete this assessment:
-1. **Reversibility**: If this fails, can we undo it in < 6 months at < 10% of the upside cost?
-2. **Asymmetry**: Is the best-case outcome 10x+ larger than the worst-case downside?
-3. **Debate cost**: Are we spending more time/money arguing about it than it would cost to just try it?
-If all three answers are yes → stop arguing, run the experiment.
+**Executable Behavior**:
+1. Calculate expected value at both local-owner and portfolio levels.
+2. Name who absorbs failure and who receives the upside.
+3. Check whether several bets share one hidden failure mode.
+4. Protect rational local failures when the portfolio logic was sound.
+5. Reserve explicit scout capacity for information-producing experiments.
+6. Use reversibility and debate cost as Antigravity test-design aids, not as attributed Rory doctrine.
 
-**Deployment Context**: Marketing budget allocation, new channel testing, pricing experiments, product feature launches.
+**Deployment Context**: Marketing portfolios, new-channel tests, pricing experiments, product trials, innovation governance, and team decision rights.
 
-**Success Metric**: Portfolio of active experiments replaces portfolio of unresolved debates. Time-to-learning drops by 5x+.
+**Success Metric**: Favorable experiments survive local career-risk pressure, while correlated or irreversible downside remains controlled.
 
 ---
 
-### Pattern 14: Subscription Alchemy — Price-as-Feeling Engineering
-**What He Does Unconsciously**: Sutherland sees price not as a number but as a psychological experience. Three payments of £150 *feels* completely different from one payment of £450. A £19.95/month subscription for unlimited DVDs *feels* like the price of one DVD you were buying anyway. He instinctively searches for the price expression that unlocks the "it's basically free" feeling.
+### Pattern 14: Subscription Alchemy — Price-as-Feeling Engineering [UNCONFIRMED ATTRIBUTION]
+**Evidence boundary**: The existing corpus records this pattern, but the current source ledger has not verified its Rory source or the Netflix details. Use price-period re-expression as a transparent test hypothesis, never as proof that a particular subscription result occurred.
 
 **Executable Behavior**: For any product priced above the impulse threshold:
 1. Express total price as payment-per-period (monthly, weekly, daily)
 2. Compare each period payment to something the customer already spends ("less than your daily coffee")
 3. Test subscription/installment models where the per-period cost falls below the psychological pain threshold
-4. Add the "Hotel Rwanda" check: does the subscription create inventory anxiety? (Netflix's 3-DVD model solved this; 1-DVD didn't)
+4. Check whether the subscription creates inventory, cancellation, or unused-capacity anxiety
 
 **Deployment Context**: SaaS pricing, course/coaching pricing, physical product subscriptions, B2B contract structuring.
 
-**Success Metric**: Conversion increases without changing the total economic value exchanged. Customers describe the price as "no-brainer" despite identical total cost.
+**Success Metric**: A transparent period-versus-total test improves comprehension or selection without hiding the total, increasing regret, or worsening cancellation.
 
 ---
 
-### Pattern 15: The Overground Effect — Recontextualization Without Product Change
-**What He Does Unconsciously**: Sutherland recognizes when a product's failure is 100% perceptual—the product itself is fine, but how it's categorized, named, or presented prevents people from seeing it. London's Overground (formerly Silverlink Metro) got 400% usage increase on day one by appearing on the Tube map. Same trains, same routes.
+### Pattern 15: The Overground Effect — Recontextualization Without Product Change [UNCONFIRMED ATTRIBUTION]
+**Evidence boundary**: The existing corpus records the Silverlink/Overground story, but the current ledger has not verified the Rory source or the numerical outcome. Treat “same product, different map” as a categorization hypothesis to test, not as a proven case.
 
 **Executable Behavior**: Before investing in product improvement, run this diagnostic:
 1. What mental category does the customer file this product into?
 2. Is there a higher-status, more familiar category it could legitimately belong to?
-3. What's the "Tube map" equivalent—the framing device that would make people suddenly see it?
+3. What framing device would let people place it in a more useful, truthful category?
 4. Can renaming, repackaging, or repositioning achieve more than engineering?
 
 **Deployment Context**: Rebranding, market repositioning, product launches that are underperforming despite good product-market fit.
 
-**Success Metric**: Usage or sales increase of 50%+ with zero product changes—only presentation/framing changes.
+**Success Metric**: A controlled category-frame test changes comprehension, qualified interest, or selection without changing the product or misrepresenting it.
 
-**Case Studies**:
-- **London Overground**: 400% usage increase from appearing on the Tube map
-- **Saga Holidays**: "Over 49s" vs. "Over 50s" completely changed perception
-- **Hotel room naming**: "Gym Access" and "Pool Access" rooms vs. generic numbering created premium pricing from zero-cost asset
+**Case-status rule**: The London Overground, Saga Holidays, and hotel-room naming stories remain hypothesis-generating corpus examples until their source status is upgraded. They are not proof points.
 
 ---
 
@@ -358,14 +363,14 @@ If all three answers are yes → stop arguing, run the experiment.
 ---
 
 ### Tacit Knowledge 7: The Disproportionate Response Principle
-**The Hidden Insight**: The human brain doesn't have a great sense of proportion. You can give someone a huge pay rise but a slightly crap mobile phone, and they hate you. Conversely, small unexpected gestures (DoubleTree cookies, AO teddy bears, Dishoom dice games) create disproportionate loyalty that CFOs can never quantify but that drives decades of repeat business.
+**The Hidden Insight**: The human brain may give small, salient moments more weight than their operating cost suggests. DoubleTree, AO, and Dishoom appear in the older corpus but remain unconfirmed in the current ledger; use them only as leads for observation and testing.
 
 **Now Deployable**: Identify one small, cheap, memorable gesture and invest in it disproportionately. The ROI won't show up in quarterly reports but will dominate word-of-mouth and retention for years. Stop measuring loyalty interventions on acquisition timelines.
 
 ---
 
-### Tacit Knowledge 8: The Hotels.com Second Try
-**The Hidden Insight**: The hotels.com refund story reveals a powerful pattern: the second unexpected attempt matters more than the first expected one. The first try was expected service—"at least you tried." The second try, after the customer had already accepted the outcome, was a brandquake moment that converted a transactional relationship into permanent loyalty.
+### Tacit Knowledge 8: The Hotels.com Second Try [UNCONFIRMED CASE]
+**The Hidden Insight**: The older corpus uses a Hotels.com refund story to suggest that an unexpected second recovery attempt may carry more emotional weight than the expected first attempt. The current ledger has not verified the story; treat it as a recovery-test hypothesis, not an outcome claim.
 
 **Now Deployable**: Build "second try" moments into service recovery. After the first resolution attempt (expected), follow up days later with an unexpected second effort. The customer has already adjusted their expectations downward—exceeding them now creates a multiplicative loyalty effect.
 
@@ -519,13 +524,13 @@ Type 'continue' or 'next' to proceed.
 **Description**: If you're buying a used car and the seller is a vicar, you're likely to trust their assessment of the car's condition more than if the seller is someone who looks like they've just woken up after a heavy night out and is selling the car in their underwear. The car's objective quality is the same, but your *proxy evaluation* of the seller determines your trust in the product.
 **What makes this excellent**: This example perfectly illustrates the Human Proxy Heuristic. When we can't objectively evaluate something complex (like a car's mechanics), we unconsciously look for human trust signals. It highlights that optimizing for trust and social signals can be more effective than listing features.
 
-### Exemplar 3: Eleven Madison Park — The Beer Sommelier
-**Description**: Will Guidara takes his team to the world's #1 restaurant. Instead of copying what's amazing, he asks: "What was slightly disappointing?" Two things: beer drinkers felt shortchanged, and the coffee was unremarkable. He appoints a coffee sommelier and a beer sommelier from existing staff. A beer drinker asks for options and instead of "Sam Adams in bottles," gets curated food pairings with craft IPAs. The restaurant goes from #50 to #1 in the world.
+### Exemplar 3: Eleven Madison Park — Coffee and Beer Specialists
+**Description**: In S8, Rory describes Will Guidara studying an excellent restaurant by asking what remained “a bit disappointing” or “a bit meh,” then appointing people to improve the neglected coffee and beer experiences. S8 does not establish the Sam Adams/craft-IPA pairing or a #50-to-#1 causal outcome.
 **What makes this excellent**: This is the Reverse Benchmarking playbook executed flawlessly. It demonstrates that the path to #1 isn't copying the leader—it's finding their neglected blind spots and turning those into your signature obsessions.
 
-### Exemplar 4: The London Overground — 400% Growth From a Map
-**Description**: London's Silverlink Metro rail network was underused despite excellent coverage. They improved rolling stock and stations modestly, but the breakthrough was putting the routes on the Tube map and calling it "The Overground." Day one: 400% usage increase. Same trains, same routes, same timetable.
-**What makes this excellent**: The purest demonstration of Pattern 15 (Overground Effect). Zero product change, pure recontextualization. Londoners think the Tube map IS London—appearing on it made the Overground "real" in a way that years of excellent service couldn't.
+### Exemplar 4: London Overground Category-Frame Hypothesis [UNCONFIRMED]
+**Description**: The older corpus records a Silverlink-to-Overground recontextualization story. The current ledger has not verified the Rory source or the reported numerical result.
+**What makes it useful**: It is a clean hypothesis for testing how a truthful category frame can change comprehension without a product change. It is not available as proof until sourced.
 
 ### Exemplar 5: Churchill's Salt Shaker
 **Description**: At a Buckingham Palace dinner, a guest steals a solid gold pepper pot. Churchill pockets the matching salt shaker, sidles up to the thief, and says: "I think we've both been spotted. We'd better put these back." Same behavioral result (item returned), radically different emotional outcome (ally made, not enemy).
@@ -551,7 +556,7 @@ Type 'continue' or 'next' to proceed.
 
 **The Paceometer Flip**: For any metric used in decision-making (price, speed, performance), re-express it in at least one alternative unit that reveals the non-linear perceptual truth. Ask: "Which expression changes behavior?" → **Deploy when**: Pricing presentations, speed/performance claims, investment ROI justification, or any metric that "sounds" wrong in its default expression.
 
-**The Two-Way Door Test**: Before any debate exceeds 30 minutes, ask: "Is this reversible? Is the upside 10x the downside? Are we spending more arguing than testing?" If all three = yes, stop debating and start experimenting. → **Deploy when**: Any organizational decision-making bottleneck, marketing budget allocation, or new initiative evaluation.
+**The Portfolio Risk-Pooling Move**: Separate the local sponsor's downside from the organization's portfolio upside. Name who absorbs approved failure, test for correlated failure modes, and give the portfolio owner—not the most exposed local manager—the relevant decision right. Reversibility may help design the test, but it is an Antigravity aid rather than attributed Rory doctrine. → **Deploy when**: A promising initiative keeps dying because the person asked to sponsor it carries more career or budget risk than the organization.
 
 **The Churchill Move**: When you need compliance, never be the accuser—be the co-conspirator. Frame the desired behavior as something you're both doing together, not something you're imposing on them. → **Deploy when**: Customer communications, policy changes, feedback delivery, sales objection handling, or any situation requiring behavioral change without confrontation.
 
@@ -564,7 +569,7 @@ Type 'continue' or 'next' to proceed.
 | **Irrationality Leverage** | Assumes rational customer decision-making and designs solutions based on logical utility. | Acknowledges some common cognitive biases but treats them as exceptions. | Systematically designs solutions that exploit predictable human irrationality, biases, and evolutionary drives for disproportionate commercial or social advantage. |
 | **Transaction Utility Optimization** | Focuses solely on the intrinsic utility of the product/service itself. | Considers the buying experience as an "add-on" to improve customer satisfaction. | Deliberately engineers the entire transaction experience (e.g., pricing structure, presentation, context) to create disproportionate perceived value, distinct from product utility. |
 | **Costly Signal Integration** | Price or effort is seen purely as a cost to be minimized or justified by features. | Recognizes that high price/effort can sometimes signal quality. | Strategically uses price, effort, or inconvenience as a deliberate "costly signal" to communicate status, commitment, quality, or exclusivity, making it a feature, not a bug. |
-| **Fat-Tail Opportunity Bias** | Prioritizes incremental, safe, and easily measurable gains, avoiding higher-risk, high-upside initiatives. | Allows for some moderate upside bets within a mostly incremental portfolio. | Actively seeks and allocates resources to "fat-tail" opportunities – ideas with asymmetric upside potential (10x-1000x returns), embracing the inherent uncertainty for breakthrough impact. |
+| **Fat-Tail Opportunity Bias** | Prioritizes incremental, safe, and easily measurable gains, avoiding higher-risk, high-upside initiatives. | Allows for some moderate upside bets within a mostly incremental portfolio. | Actively seeks bounded-downside experiments with unusually large credible upside, tests shared failure modes, and protects rational local failures when the portfolio logic is sound. |
 | **Evolutionary Rooting** | Marketing appeals to current trends, demographic preferences, or learned behaviors. | Connects messaging to basic human needs like convenience or belonging. | Deeply roots solutions and messaging in fundamental evolutionary psychology (e.g., status games, tribal belonging, conflict detection, loss aversion) for unconscious, powerful, and enduring impact. |
 
 ---
@@ -576,7 +581,7 @@ Type 'continue' or 'next' to proceed.
 #### Pattern 17: The Sin of Omission Audit — Radiating Openness
 Opportunity costs are far less salient than visible costs. A shop employee who steals a chocolate bar triggers a disciplinary process; the employee who forgets to turn the lights on — silently repelling every passing customer — triggers nothing, though the second costs 100x more. Sutherland's field examples: the motorway service station that looked closed (lights off), the fish-and-chip shop that doesn't answer the phone when busy ("you just lost a repeat customer"), coffee shops stacking chairs at 3:30 PM (then reading the sales dip as "no demand after 3:30"), John Lewis "At Home" (a name that made 95% of drivers file it as "furniture — not for me" for five years), Sainsbury's founder's literal dying words: "Make sure the stores are kept well lit."
 
-**Execute**: Audit every passive signal your business radiates to someone who knows nothing about you: Is it explicitly obvious you're open/available? Does anything (naming, signage, dark windows, unanswered phone, stacked chairs, dead social links, an empty room) whisper "not for me" or "closed"? Populate empty spaces first — Dishoom opened for breakfast partly because nobody enters an empty restaurant. Apply Mark Ritson's Magic 180° Flip: be the completely ignorant customer arriving blind, every single day.
+**Execute**: Audit every passive signal your business radiates to someone who knows nothing about you: Is it explicitly obvious you're open/available? Does anything (naming, signage, dark windows, unanswered phone, stacked chairs, dead social links, an empty room) whisper "not for me" or "closed"? Test whether visible, genuine activity helps the first customer feel permitted to enter. The older Dishoom example remains unconfirmed and is not proof.
 
 **Success Metric**: You find at least one zero-cost "lights-on" fix (answer the phone, rename, relight, unblock a window, put the chairs out) whose revenue impact exceeds any planned paid campaign.
 
@@ -620,10 +625,10 @@ Some true claims are unsayable directly: they'd be rejected as arrogant, defensi
 #### Insight: Steal What the Testers Tested
 **Insight**: Amazon's "call me back" button (phone rings in 30 seconds, agent already briefed) is revolutionary customer service — and when other firms said "we couldn't make the business case," Sutherland's answer was: you don't need to. Amazon tests everything; if Amazon ships it, the business case exists. High-test companies are free R&D departments for everyone else.
 
-**Deploy**: Maintain a "borrowed proof" list: mechanisms shipped by relentless testers (Amazon, Booking, Netflix, McDonald's) that your industry hasn't copied. Adopt without demanding local proof — the proof is that the tester kept it live.
+**Deploy**: Maintain a “borrowed hypothesis” list: mechanisms retained by high-testing companies that your industry has not tried. Continued use is a clue, not proof. Check applicability, ethics, and shared conditions, then run a bounded local test.
 
-#### Insight: Technoplasmosis — When Metrics Are Chosen by Their Sellers
-**Insight**: The tech-consulting-finance complex has captured the finance department's idea of marketing measurement ("technoplasmosis"): the metrics finance trusts are the ones most conducive to selling tech stacks — short-term, bottom-funnel, click-through — not those conducive to building customer value. Combined with Goodhart's Law and the asymmetry that cost-saving data appears FAST while value-creation data appears SLOW (bank customers go inert for five years before leaving; acquisition is measurable this quarter, retention isn't), this systematically starves customer service and defines your "customer universe" as merely the people reachable in low-cost channels with minimal persuasion.
+#### Insight: Technoplasmosis — When Metrics Are Chosen by Their Sellers [UNCONFIRMED ATTRIBUTION]
+**Evidence boundary**: This term and its older examples remain unconfirmed in the current ledger. Use the underlying question as an audit hypothesis: who benefits when this metric becomes the metric, and which slow customer-value effects disappear from view?
 
 **Deploy**: For any measurement regime, ask: who profits from this metric being the metric? Deliberately correct for time-asymmetry — pair every fast acquisition metric with a slow retention/inertia proxy. Never let channel economics define who your customers are; define the universe first, then sell to as many of them as profitable over time.
 
@@ -649,6 +654,83 @@ Some true claims are unsayable directly: they'd be rejected as arrogant, defensi
 
 ---
 
+## 2026 MFM Behavioral Innovation Fieldcraft
+
+> Source: S8 in `references/source-ledger-2026-mfm.md`. The names below are Antigravity operational synthesis. Use the moves; do not present the names as Rory’s published frameworks.
+
+### Behavioral Innovation Threshold
+
+**Decision heuristic**: When a team celebrates invention but adoption is weak, define the behavior that must change before discussing more features. A finished object is not a finished innovation.
+
+**Source anchor**: 02:13, Watt and Boulton adoption discussion.
+
+### Journey-Edge Bottleneck
+
+**Decision heuristic**: When the core product seems adequate but demand or satisfaction stalls, inspect arrival, ordering, waiting, payment, delivery, and exit. The cheap answer is often sitting at an edge nobody owns.
+
+**Source anchors**: 16:23 car-rental edge; 30:01 Uber booking, waiting, and payment.
+
+### Progress Granularity
+
+**Decision heuristic**: When waiting feels intolerable, separate duration from uncertainty. Add truthful estimates, intermediate milestones, and useful agency before buying expensive speed.
+
+**Source anchor**: 31:48, progress and intermediate reward discussion.
+
+### Channel-Choice Additivity
+
+**Decision heuristic**: When persuasion appears to work but response remains low, test the response mechanism. Different channels reach different psychological populations.
+
+**Source anchor**: 43:48, postal and telephone response test.
+
+### Atomic-or-Radical Testing
+
+**Decision heuristic**: When a result must teach you why it happened, change one variable. When the current model itself is suspect, test a genuinely different concept. Five simultaneous tweaks teach nothing.
+
+**Source anchor**: 45:58, direct-response testing rule.
+
+### Action Certainty and Rejection Removal
+
+**Decision heuristic**: When desire exists but action stalls, ask two questions. Does the buyer know exactly what happens next? Does acting expose them to rejection or status loss? Delivery certainty and invitation language may matter more than another argument.
+
+**Source anchors**: 49:42 delivery certainty; 52:51 American Express invitation framing.
+
+### Chosen Deprivation
+
+**Decision heuristic**: When a focused offer removes a category convention, state the sacrifice before purchase and name the compensating strength. A chosen restriction can be positioning. A silent cut is merely disappointment.
+
+**Source anchors**: 61:06 explicit trade-off; 61:23 Moxy; 63:46 Slate Truck.
+
+### Irritation Inversion
+
+**Decision heuristic**: When a category ritual causes recurring annoyance, list the irritations without solving them. Then design the opposite of each ritual and test the smallest credible reversal.
+
+**Source anchor**: 18:39, Room 101 and irritation discussion.
+
+### Eccentricity Discovery Effect
+
+**Decision heuristic**: When focus creates a strong product for one audience, search for people receiving the same benefit as a byproduct. Keep the primary position aspirational while making the secondary path discoverable.
+
+**Source anchors**: 65:32 adjacent demand; 68:24 accessibility examples.
+
+### Advertising Archaeology
+
+**Decision heuristic**: When every current format looks alike, find an old practice that disappeared from fashion. Extract the response mechanism, discard the dated skin, and test its modern expression.
+
+**Source anchor**: 72:33, abandoned advertising forms and the moving parade.
+
+### v5.0 Quality Extension
+
+- One dominant behavioral lens per diagnosis.
+- Exact behavior named before intervention.
+- Physical defect and psychological friction separated.
+- Buyer-native units show their calculation.
+- Progress cues remain truthful or explicitly estimated.
+- Trade-offs are voluntary and declared before purchase.
+- Experiments isolate one variable or test a distinct concept.
+- Portfolio recommendations name who absorbs failure.
+- Every operational name traces to a source anchor and is never passed off as Rory’s term.
+- The full text of *Alchemy* is never claimed as reviewed.
+
 ## Anti-Patterns
 
 Failure modes specific to imitating Sutherland badly — each grounded in what he actually argues against, sourced verbatim from the interview transcript at `extractions/rory-sutherland/transcript.txt` (full claim-by-claim anchors in `references/source-ledger.md`).
@@ -661,3 +743,8 @@ Failure modes specific to imitating Sutherland badly — each grounded in what h
 - **Display-Over-Utility Feature Creep**: never add visible, marketable features (a fancier camera bump, a novelty gimmick) to manufacture year-over-year differentiation when the underlying utility hasn't moved — Sutherland, on the iPhone camera arms race: "I don't really understand from a utility point of view why so much effort goes into the camera." (source: transcript, iPhone/status-signaling segment). The tell: a roadmap item justified as "gives us something to say in the launch," not as a real behavior change for the user.
 - **Killing Real Utility for Novelty**: never let a genuinely useful feature (a physical keyboard, a tactile control) get cut because a flashier alternative photographs better in a keynote — Sutherland on the smartphone keyboard: "I think the loss of the physical keyboard in your portable phone has actually been a productivity disaster." (source: transcript, RIM/BlackBerry-vs-iPhone segment). The tell: a redesign that trades measurable task completion for a cleaner hero shot.
 - **Spending to Fix What Nobody Feels**: never fund the expensive, "obviously important" improvement before checking whether customers register it at all — Sutherland, opening line of the interview: "You could spend an awful lot of money trying to improve something that seems important but which nobody deep down ever cares about." (source: transcript, Royal Mail/Eurostar segment). The tell: a roadmap that ranks initiatives by engineering effort saved, never by whether anyone would notice.
+- **Five-Change Causality Theater**: never change a headline, offer, channel, audience, and layout together and then claim to know which caused the result. Source: S8 at 45:58.
+- **Fabricated Progress**: never invent operational status to create reassurance. Use real milestones, honest estimates, or clearly figurative progress. Source boundary: S8 at 31:48-33:37.
+- **Silent Deprivation**: never remove value for efficiency and expect customers to infer the compensating benefit. Make the bargain explicit before arrival. Source: S8 at 61:06.
+- **Local-Risk Myopia**: never reject a favorable portfolio because one manager could have a bad quarter. Repair the incentive and decision-rights design first. Source: S8 at 25:25.
+- **Fashion as Evidence**: never assume a discarded format stopped working merely because peers stopped using it. Separate performance from professional fashion. Source: S8 at 72:33.

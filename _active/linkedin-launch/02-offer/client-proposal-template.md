@@ -1,3 +1,10 @@
+---
+status: superseded
+superseded_by: ANGLE-MAP-ACTIVATION-PACKET.md
+---
+
+> **⛔ SUPERSEDED 2026-07-29.** This is a retired LinkedIn ghostwriting proposal. Use the current scope and checkout description in `ANGLE-MAP-ACTIVATION-PACKET.md`.
+
 # LinkedIn Ghostwriting Proposal Template
 
 > **Instructions**: Replace all [BRACKETED] items with client-specific info.

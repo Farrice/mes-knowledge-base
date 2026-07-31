@@ -34,7 +34,7 @@ Hunt the invisible revenue leaks nobody is anxious about.
 
 - **Lights-On Sweep** (physical): lighting visible from outside, window blockage (posters/wraps that stop light leaking out), entrance visibility from the road, signage on the wide edge of the building, chairs/tables out, staff behavior radiating "closing soon."
 - **Answer-the-Phone Sweep** (comms): rings unanswered when busy, no voicemail/callback, dead or stale social links, unanswered DMs/reviews, hours wrong on Google/Maps.
-- **Empty-Room Sweep** (social proof): nobody wants to be the only customer. Where does emptiness compound itself (empty restaurant at lunch, dead comment section, zero-review listing)? What's your Dishoom-breakfast move — populating the room so entering feels normal?
+- **Empty-Room Sweep** (social proof): where might visible emptiness discourage the first customer (empty restaurant at lunch, dead comment section, zero-review listing)? Design a bounded way to make genuine activity visible. The older Dishoom example remains unconfirmed and is not proof.
 - **Lion Bar Contrast**: For each omission, state the visible-cost equivalent the business WOULD react to ("this unanswered phone = an employee turning away a paying customer at the door, daily").
 
 **Output**: Ranked Omission Inventory — each entry scored by estimated revenue repelled and cost to fix (most should be near-zero cost).

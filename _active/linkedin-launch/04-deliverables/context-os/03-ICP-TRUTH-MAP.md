@@ -6,6 +6,8 @@ status: canonical
 
 *Sources: 2026-07-28 Gemini Deep runs (90 sources across demand + ICP) + June verified dossier. Buyer language here is for MIRRORING in copy, never explaining.*
 
+> **Authority note, 2026-07-30:** This remains a fast offer-facing reference. `07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` now governs audience selection, buyer-state evidence, idea selection, and performance interpretation. If the two conflict, `07` wins.
+
 ## Who signs
 
 | Tier | Who | Reality |
@@ -14,7 +16,7 @@ status: canonical
 | $1M–$15M | **Founder — THE fast-yes buyer** | Writes a $750–$2,500 check personally, same week, no committee. The primary target. |
 | $10M–$50M | Head of Growth / VP / CMO | Committee cycles, career risk; nurtured by content, never cold-pitched. Media buyer = gatekeeper AND referral source. |
 
-Named target pool (funding-verified): Create Wellness, Gorgie, Gainful, Momentous, Four Sigmatic, Hilma, Bala, Joovv, Plunge, Rasa — plus the sub-$15M founder gold list harvested weekly from operator comment sections.
+Current outbound research queue: `../../05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md`. Large committee brands remain content/nurture targets; they are not the first-wave cash list.
 
 ## When they buy (reactive triggers — content and DMs time to these)
 
@@ -25,7 +27,7 @@ Named target pool (funding-verified): Create Wellness, Gorgie, Gainful, Momentou
 
 ## Their world (the pressure stack)
 
-Meta's algorithmic systems punish creative monotony and demand testing velocity the founder can't brief alone. Compliance (DSHEA/FTC, ~$50K/violation exposure) strangles claims while competitors with nothing to protect say anything. Consumer trust in AI-generated content collapsed (60% → 26%, 2023→2025) exactly as every competitor adopted the same AI stack — the "sea of sameness." Agencies deliver volume and polish, not the thinking; positioning firms deliver decks that gather dust ("the execution vacuum").
+The founder is expected to produce new campaign angles while keeping claims inside the evidence the brand can defend. More AI-generated volume does not settle that decision. Agencies can supply execution and positioning firms can supply decks; the opening is the layer between them: a buyer decision, proof hierarchy, and usable angle direction.
 
 ## Their words (mirror these; never define them)
 
@@ -46,6 +48,8 @@ Emotional register underneath: *"We did everything right and we're losing to wor
 - Pre-revenue / no real sales yet
 - >$1M/mo ad spend with a full in-house creative team (they hire FTEs, not projects)
 - Any product Farrice wouldn't personally defend — one indefensible client kills the claim-honesty position
+- Buyer wants legal certification, guaranteed revenue, rankings, retailer acceptance, or AI citations
+- Brand cannot provide its approved evidence and claim boundaries
 
 ## The one belief every piece of content shifts
 

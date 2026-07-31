@@ -119,7 +119,7 @@
 | `jun-yuh` | **jun-yuh** | creator vision, jun yuh, non-verbal storytelling, psychographic growth |
 | `justin-welsh` | **justin-welsh** | content multiplication systems, iterative niche discovery, owned-audience platform strategy, profile and funnel conversion, solopreneur revenue architecture, solopreneurship / one-person business systems / creator monetization |
 | `kallaway` | **Kallaway** | content psychology, viral engineering strategist |
-| `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, performance feedback loops, platform adaptation |
+| `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, content queues, evidence-backed ideation, performance feedback loops, platform adaptation |
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
 | `kj-rainey` | **kj-rainey** | business-owner psychology, copywriting offers, freelance client acquisition, irresistible offer architecture, pain-driven copywriting, pain-driven direct response, value-chain positioning, value-first client acquisition |
 | `knowledge-architecture-studio` | **knowledge-architecture-studio** | and agent encapsulation, dual-process reasoning modeling, expertise structuring, knowledge extraction, progressive-altitude structuring, relationship-network mapping, self-contained agent encapsulation, tacit-knowledge extraction |
@@ -188,7 +188,7 @@
 | `robert-greene` | **robert-greene** | craft mastery, ego and insecurity diagnosis, mastery strategist, mastery-path design, persuasion through self-interest and seduction, power, power dynamics, reputation, reputation and attention architecture, strategic concealment and multi-move planning, strategy |
 | `robert-mack` | **Robert Mack** | comedy writing architect |
 | `ron-lynch` | **Ron Lynch** | campaign architect, customer-as-media engineering, drtv-to-vsl translation, identity campaign architecture |
-| `rory-sutherland` | **Rory Sutherland** | costly signaling, marketing psychology, perception engineering, psychological value, reframing |
+| `rory-sutherland` | **Rory Sutherland** | costly signaling, perception engineering, psychological value, reframing, universal behavioral alchemy |
 | `ross-mckay` | **ross-mckay** | and scaling operations, cpg brand positioning, radical single-sku focus, retail distribution, speed as the ultimate moat, the "anchor customer" distribution hack, the "premium at scale" positioning |
 | `ross-minchev` | **ross-minchev** | affiliate monetization, ai-stacked product creation, data-driven niche validation, digital products, micro-niche discovery, niche selection, rapid dual-path launches, smart packaging |
 | `russell-brunson` | **russell-brunson** | direct-response funnels, hook-story-offer, hook-story-offer architecture, identity and movement engineering, identity-driven movement marketing, subconscious-desire positioning, timeless-principle extraction (funnel hacking), vivid-vision outcome selling |

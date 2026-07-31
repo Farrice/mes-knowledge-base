@@ -57,3 +57,9 @@
 {"timestamp": "2026-07-27T16:56:47.267244", "workflow": "writers-room", "skill": "writers-room", "expert": "test", "task_type": "System", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-28T07:54:36.806731", "workflow": "extract-forge", "skill": "hilary-gridley", "expert": "hilary-gridley", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-28T11:39:55.372845", "workflow": "writers-room", "skill": "fresh-voice-system", "expert": "writers-room", "task_type": "Content", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-30T10:32:41.784070", "workflow": "extract-forge", "skill": "extract-mastery", "expert": "extract-mastery", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-30T10:51:14.104418", "workflow": "extract-forge", "skill": "extract-mastery", "expert": "nathan-follen", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-30T10:52:10.700395", "workflow": "extract-forge", "skill": "extract-mastery", "expert": "nathan-follen", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-30T10:52:52.980875", "workflow": "extract-forge", "skill": "extract-mastery", "expert": "nathan-follen", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-30T16:31:37.578924", "workflow": "extract-forge", "skill": "source-command-extract-forge", "expert": "rory-sutherland", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-30T16:32:03.705478", "workflow": "extract-forge", "skill": "source-command-extract-forge", "expert": "rory-sutherland", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

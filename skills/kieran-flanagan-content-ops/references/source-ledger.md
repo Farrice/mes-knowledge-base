@@ -84,9 +84,25 @@ Kieran — out of scope for VERIFIED/LIKELY/UNCONFIRMED labeling. Criteria names
 directly to VERIFIED patterns above (Content-Reactive, Platform Voice Fidelity,
 Anti-Vocabulary Compliance, etc.), so no new provenance risk.
 
-## Workflows (01-content-orchestrate.md, 02-content-feedback.md, 03-content-review-cycle.md)
+## Workflows after the 2026-07-30 expansion
 
-Not modified in this repair pass (workflow_contracts check already passes — all 3 carry
-Output Schema + Quality Gate). Each workflow's "Anti-Pattern Check" callout now resolves
-against a real `## Anti-Patterns` section in genius.md (previously a dead pointer — the
-heading did not exist prior to this repair).
+The historical 2026-07-18 repair covered three workflows. The skill now has four:
+
+- `01-content-orchestrate.md` adds an Ideate route and explicit human selection gate.
+- `02-content-feedback.md` proposes formula-level Winning Content Profile deltas without mutation.
+- `03-content-review-cycle.md` owns monthly approval, version changes, and queue-health decisions.
+- `04-content-queue.md` owns selected queue state and visible lifecycle operations.
+
+## 2026-07-30 Expansion: Human-Curated Queue State
+
+| Claim | Source | Label |
+|---|---|---|
+| Kieran keeps a persistent content queue | `extractions/transcripts/cSz_6SNEirU.txt` | VERIFIED |
+| He shows the queue, kills unwanted ideas, and adds three selected candidates | Same transcript | VERIFIED |
+| He says the queue requires continual cleanup because it has too many items | Same transcript | VERIFIED |
+| Queue categories such as spicy take, data nugget, and educational are personal to how he works | Same transcript | VERIFIED |
+| Queue context is available across Claude and ChatGPT | Same transcript | VERIFIED |
+| Explicit lifecycle states, mutation deltas, persistent tombstones, and a single-operation contract | `extractions/kieran-flanagan-content-signal-loop/architecture-checkpoint.md` | INFERRED implementation |
+| Feedback proposes profile deltas and monthly review approves them | Same architecture checkpoint, grounded in Kieran's verified monthly update behavior | INFERRED control split |
+
+The implementation does not claim Kieran used Markdown, these exact field names, or tombstones. Those controls make the demonstrated shared-state behavior auditable and resistant to duplicate resurfacing.

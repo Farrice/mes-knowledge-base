@@ -70,3 +70,4 @@
 {"ts": "2026-07-30T01:35:10.574654+00:00", "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6", "exchange": 8, "event": "feedback-turn-blind-produce"}
 {"ts": "2026-07-30T06:27:33.884907+00:00", "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6", "exchange": 12, "event": "next-moves-missing", "chars": 6987}
 {"ts": "2026-07-30T06:47:58.196411+00:00", "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6", "exchange": 14, "event": "next-moves-missing", "chars": 1592}
+{"ts": "2026-07-30T06:55:20.574528+00:00", "session_id": "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6", "exchange": 15, "event": "next-moves-missing", "chars": 2252}

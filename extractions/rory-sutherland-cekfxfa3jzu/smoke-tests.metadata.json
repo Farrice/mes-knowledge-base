@@ -1,0 +1,19 @@
+{
+  "title": "Rory Sutherland v5.0 Practitioner Smoke Tests",
+  "artifact_type": "skill_smoke_test",
+  "created": "2026-07-30",
+  "source_file": "smoke-tests.md",
+  "target_skill": "rory-sutherland-marketing",
+  "status": "verified_pass",
+  "scenarios": 4,
+  "independent_red_team": "pass",
+  "market_tests_run": false,
+  "scenario_domains": [
+    "AI product marketing",
+    "entrepreneurial service strategy",
+    "B2B creator content",
+    "client-service onboarding"
+  ],
+  "full_book_reviewed": false,
+  "results_are_market_claims": false
+}
