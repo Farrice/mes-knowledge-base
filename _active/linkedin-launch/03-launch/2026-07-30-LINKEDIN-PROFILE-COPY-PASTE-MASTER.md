@@ -59,25 +59,47 @@ It reads as creative leadership without looking corporate, fitness-specific, or 
 
 ## 3. Banner direction
 
-### Copy hierarchy
+### Copy hierarchy (FINAL - v8.5)
 
-**PRIMARY**
+**PRIMARY (RECOMMENDED)**
 
 ```text
-Creative Strategy for
-Supplement & Performance Brands
+3 years selling supplements.
+18 years coaching the people who buy them.
 ```
 
 **PROOF STRIP**
 
 ```text
-Coaching since 2008 · 5 years in supplement retail · Former Equinox Tier X
+Equinox Tier X · 1,000+ Clients
 ```
 
-**OUTCOME LINE**
+**FUNCTION LINE (small, bottom-right)**
 
 ```text
-Turn product truth into angles buyers can believe.
+Creative strategy & positioning for
+supplement, recovery & performance brands
+```
+
+### Alternative: Confidence-Forward
+
+**PRIMARY**
+
+```text
+Your buyer trained with me for 18 years.
+```
+
+**PROOF STRIP**
+
+```text
+Equinox Tier X · 1,000+ Clients · 3 Years Behind A Supplement Counter
+```
+
+**FUNCTION LINE**
+
+```text
+Creative strategy & positioning for
+supplement, recovery & performance brands
 ```
 
 ### Creative direction: Proof x Performance
@@ -100,10 +122,10 @@ An official personal NASM badge may enter the proof strip later if it is retriev
 **PASTE**
 
 ```text
-Creative Strategist for Supplement & Performance Brands | I turn product proof and customer language into angles buyers can believe
+Claims your buyers believe | Creative strategy & positioning for supplement, recovery & performance brands | 18 yrs human performance · 1,000+ clients · Free teardown
 ```
 
-This puts the category first, makes the work understandable, and leaves AI backstage where it belongs.
+This opens with what you get (claims your buyers believe), grounds it in category, and closes with proof and offer. GET-first, clean.
 
 ---
 
@@ -156,7 +178,7 @@ Do not change or invent dates while doing this copy pass.
 **Title: PASTE**
 
 ```text
-Founder & Creative Strategist | Supplement & Performance Brands
+Founder | Creative Strategy & Positioning for Supplement, Recovery & Performance Brands
 ```
 
 **Company**
@@ -168,17 +190,15 @@ Farrice Cain
 **Description: PASTE**
 
 ```text
-A supplement team can make another batch of creative without deciding what the product should own. My role is to choose the claim, proof, and angle before production starts.
+I spent eighteen years answering one question for free: does this actually work. First from behind a supplement counter, then on a gym floor, for a thousand-plus people spending their own money. Now I answer it for the brands on the other side of the shelf.
 
-The work is for founders and marketing leads at supplement, recovery, and performance brands who need to make that decision.
+Your buyer skips the hero. They go straight to the supplement facts panel, because it's the only part of the page nobody in marketing wrote. Then it's your dose against a number they read on Reddit last night. Three-star reviews get read, five-star ones don't. And if the panel gives them a blend where a number should be, they're gone. Not angry. Just gone.
 
-I listen for the customer tension, decide which proof belongs in front, name the campaign angles, write the hook directions, and flag the language that needs qualified review.
+Your team can't see any of that happen. They weren't standing there. I was, and it's why I can read your page and point at the line where you lost him.
 
-The team gets named angles, hooks for each, the approved proof to lead with, and a note on what compliance should review.
+What you get is a decision, written down. The one claim this brand leads with. The buyer it has to convince. The proof that holds when he pushes back. Then the angles that carry it, named, with the hooks already written and a version of each that survives your legal read. Your team stops guessing on Monday.
 
-Your team or agency keeps media and production. I give them a clearer brief to build from.
-
-Current entry offer: The Angle Map, $750 prepaid. One 60-minute live read of the brand's message, followed by three named campaign angles with core beliefs, hook directions, approved-proof direction, and an editorial claim-safety line under each, delivered within 48 hours.
+I'll tell you which claim to kill about as fast as which one to run. I don't build the ads, manage the account, or replace your creative team. I make the decision, your team makes the ads, three brands at a time. If what you want is your current message polished, I'm the wrong call.
 ```
 
 ### Equinox
@@ -188,27 +208,17 @@ Keep the existing company, location, and dates.
 **Title: PASTE**
 
 ```text
-Tier X Personal Trainer & Performance Coach
+Tier X Personal Trainer · 1,000+ Clients
 ```
 
 **Description: PASTE**
 
 ```text
-It took about five years to earn Tier X, the highest level of Equinox's coaching ladder.
+Tier X is the top of Equinox's coaching ladder. It took years to earn and I stayed there for the rest of my run. Eighteen years total in strength and conditioning, nutrition coaching, and behavior change. Over a thousand clients: executives, athletes, actors, post-rehab cases, and plenty of people who just wanted to like what the mirror had to say. NASM CPT, CES, PES. Precision Nutrition Level 1.
 
-I earned it in Chicago. I stayed at that level until I left corporate training to work independently.
+Somewhere in year three I noticed the second job hiding inside the first. Clients ran every supplement purchase past me before they made it. Unprompted. I was the only person in their life with no reason to lie about it. I watched what they bought, what they quit after a month, what they swore by that did nothing, and the rare thing that earned its spot in the cabinet. A thousand people, eighteen years, one question on repeat: is this doing anything.
 
-The tier only explains part.
-
-Coaching since 2008 meant learning strength, conditioning, corrective exercise, performance, nutrition, and behavior change. Independent training made me learn the science and the business at the same time: marketing, writing, sales, retention, and how to run a real business.
-
-I coached 1,000+ people across a range of fitness and performance goals.
-
-The supplement questions started in year one. What should I take? Is this worth the money? Does this fit the problem I am trying to solve?
-
-That gave me years of unfiltered buyer language before I ever called it customer research.
-
-My training and nutrition education included NASM CPT, Corrective Exercise Specialization, Performance Enhancement Specialization, and Precision Nutrition Level 1.
+Most supplement marketing is written by people who have never stood next to that question. I stood next to it for eighteen years. I know what buyers stop believing, in what order, and how quietly they leave. Your churn curve has a face to me.
 ```
 
 ### The Vitamin Shoppe
@@ -218,23 +228,17 @@ Keep the real dates and location from your employment history.
 **Title: PASTE**
 
 ```text
-Health Enthusiast | Supplement Retail & Sports Nutrition
+Health Enthusiast (Supplement Retail & Sports Nutrition)
 ```
 
 **Description: PASTE**
 
 ```text
-Five years behind a supplement counter taught me how much can hide inside one buying question.
+For three years my name tag said Health Enthusiast. The Vitamin Shoppe's official title, and the least honest thing in the store.
 
-Someone would ask for a test booster. The useful move was not reaching for the obvious bottle. It was asking what he was trying to change, how he was training, how he was eating, and what he believed the product would fix.
+The real job: last person between a marketing promise and a customer's money. People came in holding their phone, already sold by an ad or a podcast, and asked me to finish the job. I read labels with them out loud. I explained why the dose on the front and the dose in the scoop are two different numbers. I talked a lot of guys out of $60 test boosters and into $12 creatine. Plenty of days the kindest sale was no sale.
 
-The gap could be protein, which made whey the better buy. A transparent formula with a solid dose sometimes justified the higher price. On other days, the right answer was no sale.
-
-The job sat between a marketing promise and a real person's money. I read labels, compared formulas, explained tradeoffs, and helped people choose what fit the actual problem.
-
-That same counter exists online now. It is the review section, the Reddit thread, or the trainer someone texts before checkout. Brands rarely hear the conversation that decides whether the claim survives.
-
-I spent five years inside it.
+That counter still exists. Yours just moved. It's a Reddit thread now, a review section, a trainer your customer texts before checkout. Somebody they trust more than your label, and you never hear a word of it. I was that somebody for three years. I know how the conversation goes when your brand can't hear it, and what your copy has to sound like to survive it.
 ```
 
 ---
@@ -256,7 +260,13 @@ Remove these broad service labels: UX Writing / Social Media Marketing / Digital
 **PASTE**
 
 ```text
-I help supplement, recovery, and performance teams choose the message before they make another round of creative. The Angle Map is $750 prepaid: one 60-minute live read of the brand's message, followed by three named angles with core beliefs, hook directions, approved-proof direction, and an editorial claim-safety line under each, delivered within 48 hours. Your compliance owner reviews the claims.
+You get the one claim your brand leads with, the buyer who has to believe it, and the proof that survives both a skeptic and a legal read. It arrives as named angles with the hooks already written, so your team stops guessing.
+
+Positioning, messaging, claim strategy, angle development, proof architecture, and creative direction for supplement, recovery, and performance brands.
+
+I learned your buyer from the other side of a supplement counter, then eighteen years coaching the people who buy this stuff. So I'll tell you which claim to kill about as fast as which one to run. If what you want is your current message polished, I'm the wrong call.
+
+Starts with a free teardown of your public messaging, sent to you before it goes anywhere else. I don't run ads or manage accounts. Three brands at a time.
 ```
 
 Choose **Contact for pricing** if LinkedIn asks for an hourly rate. The offer is fixed-scope strategy, not hourly labor.
