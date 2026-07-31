@@ -213,9 +213,22 @@ def check_hook_parity() -> list[str]:
     )
     if proc.returncode != 0:
         fail(f"skill-router hook dry-run failed: {proc.stderr.strip()}")
-    if "ROUTING SUGGESTION" not in proc.stdout:
-        fail("skill-router hook dry-run did not emit routing context")
-    receipts.append("skill-router hook dry-run emitted routing context")
+    try:
+        hook_result = json.loads(proc.stdout)
+    except json.JSONDecodeError as exc:
+        fail(f"skill-router hook dry-run emitted invalid JSON: {exc}")
+    hook_output = hook_result.get("hookSpecificOutput") or {}
+    hook_context = str(hook_output.get("additionalContext") or "")
+    if hook_output.get("hookEventName") != "UserPromptSubmit":
+        fail("skill-router hook dry-run did not claim UserPromptSubmit")
+    accepted_routing_context = (
+        "ROUTING SUGGESTION",
+        "ROUTING (binding matched",
+        "CONTROL ROUTING",
+    )
+    if not hook_context or not any(marker in hook_context for marker in accepted_routing_context):
+        fail("skill-router hook dry-run did not emit recognized routing context")
+    receipts.append("skill-router hook dry-run emitted valid UserPromptSubmit routing context")
 
     safe_bash_payload = json.dumps(
         {
