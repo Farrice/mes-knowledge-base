@@ -1,0 +1,11 @@
+{
+  "title": "Capability Stewardship Default - Phase 1 Acceptance",
+  "artifact_type": "operator_handoff",
+  "created": "2026-07-31",
+  "status": "accepted; canonical main, projectless cold start, and safe fallback write lane pass",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "owner": "/system-audit",
+  "scope": "Capability Stewardship Phase 1 canonical acceptance"
+}
