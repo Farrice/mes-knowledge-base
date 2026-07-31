@@ -54,3 +54,7 @@ Emotional register underneath: *"We did everything right and we're losing to wor
 ## The one belief every piece of content shifts
 
 FROM: "our copy problem is a writing/volume problem" → TO: **"it's an unmade decision — what we prove, who must believe it, what we'll defend."**
+
+## Live deltas (engine-fed)
+
+*Appended daily by the Angle Map Listening Engine (`_active/health-performance-ip-library/AUTOMATION_PROMPT.md` v4.0) — dated, sourced, append-only. A curation session promotes deltas into the canon body above; the engine never edits canon.*

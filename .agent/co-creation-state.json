@@ -67,12 +67,16 @@
  },
  "56734188-bf22-4922-ab54-870e8cbc2db1": {
   "stems": {},
-  "updated": "2026-07-30T21:48:10.592627",
-  "last_feedback_exchange": 4
+  "updated": "2026-07-31T08:16:43.461410",
+  "last_feedback_exchange": 9
  },
  "183f09dd-7862-43c3-9629-812b4305f3ff": {
-  "stems": {},
-  "updated": "2026-07-31T08:14:57.010104",
-  "last_feedback_exchange": 0
+  "stems": {
+   "campaign": {
+    "rejections": 1
+   }
+  },
+  "updated": "2026-07-31T09:41:39.158963",
+  "last_feedback_exchange": 7
  }
 }

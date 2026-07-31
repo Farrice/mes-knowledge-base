@@ -648,3 +648,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-30 17:32]` **finalize** | Rory Sutherland — universal behavioral alchemy v5.0 source-honest forge | general | rory-sutherland — composite:8.33 status:Keep
 - `[2026-07-30 18:08]` **finalize** | Rory Sutherland v5.0 after-action review | general | evolution-reviewer — composite:9.0 status:Keep
 - `[2026-07-31 06:41]` **finalize** | Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief | general | health-performance-geo — composite:6.67 status:Needs Improvement
+- `[2026-07-31 13:30]` **finalize** | Angle Map Listening Engine v4: fused geo-brief + insight-brief into one scheduled daily listening en | general | oren-operational-systems — composite:7.0 status:Needs Improvement

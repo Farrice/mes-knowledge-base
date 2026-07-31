@@ -974,9 +974,45 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 # ── brief rendering ───────────────────────────────────────────────
 
 
+LISTENING_CUT = REPO_ROOT / "_active" / "health-performance-ip-library" / "daily" / "LATEST-EXEC-CUT.md"
+
+
+def gather_listening() -> dict:
+    """Angle Map Listening Engine exec cut (v4 fusion, 2026-07-31): inline the
+    <=6-line daily cut when fresh (written today or yesterday by the 05:30
+    listening run); silently absent otherwise — never a broken section."""
+    try:
+        if not LISTENING_CUT.exists():
+            return {}
+        age = (datetime.now() - datetime.fromtimestamp(LISTENING_CUT.stat().st_mtime)).days
+        if age > 1:
+            return {}
+        lines = [l.rstrip() for l in LISTENING_CUT.read_text().splitlines() if l.strip()][:7]
+        return {"lines": lines} if lines else {}
+    except Exception:
+        return {}
+
+
+def render_listening(listening) -> list:
+    """🎧 Industry listening — the Angle Map Listening Engine's morning cut."""
+    cut = listening.get("lines") if listening else None
+    if not cut:
+        return []
+    rel = "_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md"
+    out = ["", f"## 🎧 Industry listening — [exec cut]({rel})"]
+    for l in cut:
+        if l.startswith("#"):
+            out.append(f"- **{l.lstrip('# ').strip()}**")
+        elif l.startswith("-"):
+            out.append(l)
+        else:
+            out.append(f"- {l}")
+    return out
+
+
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
                  outer_loop=None, evolution=None, world_pulse=None, loops_src="",
-                 system_vitals=None, memory_review=None, self_heal=None) -> str:
+                 system_vitals=None, memory_review=None, self_heal=None, listening=None) -> str:
     """Self-contained brief (Farrice, 2026-07-08, binding): every section names
     its source as a clickable repo-relative link, every question carries a
     provenance line. He should never have to ask where a line came from."""
@@ -1017,6 +1053,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.append(header)
         lines.extend(f"- {l}" for l in loops)
     lines.extend(render_reminders())
+    if listening:
+        lines.extend(render_listening(listening))
     if world_pulse:
         lines.extend(render_world_pulse(world_pulse))
     if outer_loop:
@@ -1104,6 +1142,7 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     evolution = gather_evolution()
     system_vitals = gather_system_vitals()
     memory_review = gather_memory_review()
+    listening = gather_listening()
     # OBSERVATION ONLY (Farrice, 2026-07-27, binding): session-end closeout is
     # the PRIMARY healing mechanism — failures get swept and repaired in the
     # session that produced them, not on a timetable that is inconvenient when
@@ -1121,7 +1160,8 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
                          questions, weekly_line, outer_loop, evolution, world_pulse,
                          loops_src=loops_src, system_vitals=system_vitals,
-                         memory_review=memory_review, self_heal=self_heal)
+                         memory_review=memory_review, self_heal=self_heal,
+                         listening=listening)
 
     if dry_run:
         print(brief)

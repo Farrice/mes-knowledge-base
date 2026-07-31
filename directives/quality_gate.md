@@ -109,8 +109,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-31 (chain_runner finalize for claim-safe-health-marketing) |
-| **Activation Count** | 777 |
+| **Last Activated** | 2026-07-31 (chain_runner finalize for chief-of-staff-os) |
+| **Activation Count** | 778 |
 | **30-Day Review Date** | 2026-08-30 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

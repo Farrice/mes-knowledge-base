@@ -1,0 +1,34 @@
+{
+  "slug": "angle-map-listening-engine",
+  "intent": "Fuse geo-daily-brief + insight-brief into ONE scheduled Angle Map industry listening engine (v4): Apify-first social listening, daily core + rotating deep focus, compounding living docs, COS+disk+Drive delivery",
+  "serves": "revenue-5k-incumbency",
+  "felt_standard": "a true ear to the ground... true insight, knowledge, and expertise as a creative strategist... not generic insights or surface-level things... exponentially be educated... know this industry like the back of my hand... a true content flywheel system",
+  "route": "/deep-research-os (score 10012) via AUTOMATION_PROMPT v4",
+  "stack": [
+    "v3.5 roster",
+    "april-dunford",
+    "daniel-priestley",
+    "dai-media consumer-posture"
+  ],
+  "pattern": "solo build (extend v3.5, never rebuild)",
+  "tier": "T2",
+  "expected_spawns": 0,
+  "gates": [
+    "citation_integrity",
+    "smoke_run_before_scheduling"
+  ],
+  "cost": {
+    "standing_approval": "Farrice 2026-07-31 (AskUserQuestion): Apify actors within $29/mo budget + Perplexity within $30/mo fallback for the scheduled listening runs; degrade to $0 floor on exhaustion, never stall",
+    "per_run_guidance": "Apify <= $0.25/actor call, <= $0.75/day"
+  },
+  "deliverable_paths": [
+    "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+    "_active/health-performance-ip-library/06-system/AUTOMATION_PROMPT-v3.5-archive.md",
+    "_active/health-performance-ip-library/ledger/promises-not-kept.jsonl",
+    "execution/cos_prep.py",
+    "execution/angle_map_listening_run.sh",
+    "~/Library/LaunchAgents/com.antigravity.angle-map-listening.plist",
+    "_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md"
+  ],
+  "compiled": "2026-07-31T13:20:12"
+}

@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 3.4415,
+  "spent_dollars": 3.4465,
   "runs": [
     {
       "ts": "2026-07-06T01:16:39.326002+00:00",
@@ -541,6 +541,13 @@
       "results": 20,
       "cost": 0.04,
       "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-31T20:26:29.959073+00:00",
+      "actor": "reddit",
+      "results": 5,
+      "cost": 0.005,
+      "pricing_model": "per_result"
     }
   ]
 }

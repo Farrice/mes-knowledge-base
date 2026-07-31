@@ -555,3 +555,7 @@ The audience to win is a competent brand operator facing an active translation d
 The content should not try to impress them with how much Farrice knows. It should let them feel the quality of his judgment on a decision they already need to make.
 
 The launch baseline is ready. The audience’s real response begins when the work is published, measured, and allowed to correct this document.
+
+## Live deltas (engine-fed)
+
+*Appended daily by the Angle Map Listening Engine (`_active/health-performance-ip-library/AUTOMATION_PROMPT.md` v4.0) — dated, sourced, append-only. A curation session promotes deltas into the canon body above; the engine never edits canon.*

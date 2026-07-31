@@ -1,27 +1,20 @@
-# Angle Map Listening Engine — Health & Performance Market
+# Health Performance GEO Client Acquisition Engine
 
-Version: 4.0 Angle Map Fusion (2026-07-31) — fuses the GEO daily brief and the insight brief into ONE listening engine centered on the locked Angle Map offer
+Version: 3.5 Market-Domain Creative Intelligence + Google Drive Mirror
 Owner: Oren Operational Systems
 Quality wrapper: source-command-high-taste-os / high-taste-writing-os
-Primary specialists: Luke Iha Creative Strategy, April Dunford Positioning, Daniel Priestley Demand Signal
-Supporting specialists: Story Compass, Luke Iha Insight Vectors, Luke Iha Copy Blocks, dai-media Consumer Posture, Ethan Smith AEO, Nathan Gotch AI SEO, Jessica Jensen Platform Intelligence, Kallaway AI Content Engine, Alex Copper Creative Strategy, Nicolas Cole Client Acquisition, Harry Dry Copy Evaluation, Diandra LinkedIn Growth, Futurepedia Prompt Engineering
+Primary specialist: Ethan Smith AEO
+Supporting specialists: Story Compass, Luke Iha Insight Vectors, Luke Iha Copy Blocks, Nathan Gotch AI SEO, Jessica Jensen Platform Intelligence, Kallaway AI Content Engine, Alex Copper Creative Strategy, Luke Iha Creative Strategy, Nicolas Cole Client Acquisition, Harry Dry Copy Evaluation, Diandra LinkedIn Growth, Futurepedia Prompt Engineering
 
 ## Objective
 
-Run a daily listening engine for Farrice Cain that gives him a true ear to the ground in the supplement, recovery, functional-nutrition, and performance-brand market — so that his content and personal brand run on true insight, knowledge, and expertise as a creative strategist, and pull high-quality inbound leads and cash collected.
+Run a daily intelligence engine for Farrice Cain that turns current health, wellness, supplement, human-performance, AI-search, SEO, AEO, and GEO signals into a client-acquisition content data moat.
 
-The engine exists to make one offer land: **The Angle Map** ($750 prepaid, DM ANGLE — offer canon below). Every run must deepen Farrice's command of four things:
+The job is to help Farrice publish high-captivation, educational, perspective-changing content that makes health, wellness, supplement, performance, and health-adjacent brands think:
 
-1. **Audience profile** — who is actually in this market, what state they are in, what they watch, read, buy, and repeat.
-2. **ICP** — the founder or marketing lead at an already-selling supplement/recovery/performance brand: their triggers, pressure stack, buying windows, and the words they use.
-3. **Promises not being kept** — the gap between what the category claims and what buyers actually experience, in the buyer's own verbatim language, with receipts.
-4. **Live signal** — what is really going on in this space right now: launches, regulation, creator moves, channel shifts, category memes, funding, retail moves.
+"He understands the market, the buyer, the claim risk, the content angle, and the AI-search opportunity better than we do."
 
-The job is to help Farrice publish high-captivation, educational, perspective-changing content that makes supplement and performance brands think:
-
-"He understands the market, the buyer, the claim risk, and the campaign-angle decision better than we do."
-
-The daily job is not to summarize trends. It is to understand the market domain like a world-class creative strategist, then ignite useful content — and to compound that understanding day over day until Farrice knows this industry like the back of his hand.
+The daily job is not to summarize trends. It is to understand the market domain like a world-class creative strategist, then ignite useful content.
 
 The engine is not a GLP-1 monitor, a supplement-compliance digest, a proof-boundary report, or a GEO-only scan. Those are allowed signals, but they are not the center.
 
@@ -31,7 +24,6 @@ The center is the health-performance market and the avatar living inside it:
 - what category pressures are changing purchase behavior
 - what brands are repeating without noticing
 - what pain points and problems are becoming urgent
-- what promises the category keeps making that buyers say are not being kept
 - what cultural language, offer mechanics, creator patterns, and channel shifts are worth tapping into
 - what Farrice can say that shows strategic understanding before he sells anything
 
@@ -44,81 +36,28 @@ Every run must climb this ladder in this order:
 3. Create a Mind-Juice Block: scene, tension, punch line, personal spin prompts, and five raw takes Farrice could riff on.
 4. Produce usable content assets first: LinkedIn post, carousel outline, short video script, teardown prompt, and DM angle.
 5. Add the proof spine needed to keep the content safe.
-6. Run the day's Rotating Deep Focus section (calendar below) at full depth.
-7. Bridge into the Angle Map (DM ANGLE), never a generic audit menu.
-8. Append living-doc deltas (Compounding Contract below) and capture JSONL rows and receipts.
+6. Add the GEO/AEO layer only after the content angle is clear.
+7. Bridge into the smallest sellable audit, snapshot, or proof asset.
+8. Capture JSONL insight rows and verification receipts.
 
 If the run cannot produce one angle Farrice could immediately talk about, the run is `DEGRADED` no matter how much research it found.
 
-## The Offer Canon (LOCKED 2026-07-30 — every bridge points here)
-
-Source of truth: `_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md` and the 2026-07-30 Rory Behavioral Alchemy deployment lock. The facts, verbatim and non-negotiable:
-
-- **Public offer:** The Angle Map. $750 prepaid. One 60-minute live message read. Three named campaign angles — each with a core belief, hook directions, approved-proof direction, and an editorial claim-safety line — plus ONE lead-angle recommendation. Delivered within 48 hours after payment and required inputs.
-- **Buyer:** founder or marketing lead at an already-selling supplement, recovery, functional-nutrition, or performance brand with a live occasion (launch, reformulation, retail push, new creative cycle, repositioning).
-- **CTA:** DM ANGLE. One CTA, everywhere.
-- **Make-right:** if the first read does not produce three usable angles inside scope, Farrice revises until it does.
-- **Backend (only):** the $2,500 prepaid 10-business-day Proof-to-Market Sprint, opened only when an Angle Map reveals broader implementation need.
-- **Retired — never resurface in briefs or assets:** Evidence-Ready Product Page Sprint, 72-hour delivery, $500 founding price, DM CITE, product-page rewrite as default output, AI citation/ranking promises, audit-menu offer ladders.
-- **AI stays backstage.** The public promise is human judgment about this buyer, this occasion, this approved evidence.
-
 ## Client Acquisition Thesis
 
-The automation makes Farrice's content itself the demonstration of the Angle Map: public proof that he can read a market, name the claim a product should own, pick the proof that belongs in front, and hand a team one direction worth building. Every run creates a path from public insight to the one offer:
+The automation should make Farrice's content itself the demonstration of the service.
 
-1. **Public proof:** a sharp LinkedIn post, authority seed, or teardown angle that proves Farrice sees the market and the buyer's decision more clearly than the category does.
-2. **Recognition:** the buyer-recognition line lives underneath every asset — *before the team makes another round of the same idea, settle what the product should own, which proof belongs in front, and what creative should build next.*
-3. **The ask:** DM ANGLE → fit read → $750 Angle Map.
-4. **The bridge:** Sprint only when the Angle Map reveals implementation need.
+Every run must create a path from public insight to private offer:
+
+1. **Public proof:** a sharp LinkedIn post, authority seed, or teardown angle that proves Farrice sees the market clearly.
+2. **Entry audit:** a brand/content/claim/retrieval audit a prospect can buy or request.
+3. **Execution offer:** copywriting, ghostwriting, LinkedIn authority, or content system work.
+4. **Retrieval offer:** AEO, SEO, GEO, and answer-engine ghostwriting or citation asset build.
+5. **Trust-layer offer:** source-to-search assets that turn claims, sources, buyer questions, and founder judgment into reusable proof infrastructure.
+6. **Premium strategy:** full creative strategy, offer architecture, campaign narrative, and market-to-message system.
 
 Default offer language:
 
-"I turn product proof into three campaign angles your team can build from — and tell you which one to build first."
-
-## Daily Core Contract (the 3-minute read — every day, no exceptions)
-
-The saved brief opens with the Daily Core: five elements a busy operator can absorb in three minutes, before any appendix depth. This is the part Farrice reads with coffee; if it fails, the run fails.
-
-1. **ONE buyer tension** — a founder or marketing lead at a funded supplement/recovery/performance brand, feeling one specific pressure today. Named, concrete, current.
-2. **Promises-not-kept receipts** — at least one claim-versus-experience gap with the buyer's own verbatim words (Reddit thread, review, comment, forum post), the source URL, and an evidence grade. The category promised X; the buyer says Y happened. This is the offer's home turf: belief borrowed and handed back weaker.
-3. **ONE content thesis + Story Compass** — the day's pick and its compass sentence.
-4. **ONE drafted post seed** — a LinkedIn-ready draft (the finished post from Publishable Assets, surfaced here or linked one scroll down), voice-card aware.
-5. **Living-doc delta line** — one line stating exactly what today's run added to the audience profile, the ICP map, and the promises ledger. If a run adds nothing to any living doc, say so honestly; three no-delta days in a row is a DEGRADED pattern.
-
-## Rotating Deep Focus Calendar (one section per day, full depth)
-
-After the Daily Core and content assets, every run produces ONE deep-focus section at real depth — same attention and detail at each focus, so the education compounds. The calendar:
-
-| Day | Deep Focus | Feeds |
-|---|---|---|
-| Mon | **Audience state** — who is moving in this market, what state they are in, attention/consumption shifts, new segments | `07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` |
-| Tue | **ICP movement** — buying triggers observed live (funding, new execs, scaling walls, LTV:CAC pressure, angle bottlenecks), founder anxieties, decision windows | `03-ICP-TRUTH-MAP.md` |
-| Wed | **Promises-not-kept deep dive** — one category or brand promise investigated end-to-end: claim, formulation/format reality, lab-test or review evidence, buyer verbatim, safe content angle | `ledger/promises-not-kept.jsonl` |
-| Thu | **Category, creator + offer patterns** — what brands keep repeating, which creator formats are winning, offer shapes, price anchors, proof mechanisms, campaign conventions | insights ledger |
-| Fri | **WEEKLY SYNTHESIS** — replaces the deep focus: the week fused into positioning and education depth (see Friday Weekly Synthesis section) | `weekly/` |
-| Sat | **Winners teardown** — 2-3 pieces of content that actually performed in this niche this week: why they worked, the mechanism, what Farrice can adapt without copying | insights ledger |
-| Sun | **Education chapter** — one domain-curriculum chapter mapped to the offer: formulation and manufacturing, retail and distribution, claims and regulation, media buying and creative testing, ingredient science literacy, category history. Written so Farrice exits knowing something structural about the industry, not just the week's news | insights ledger |
-
-The deep-focus section carries the April Dunford positioning read (what this means for how the Angle Map is positioned) and the Daniel Priestley demand read (what this signals about where demand is forming) — one short labeled paragraph each, integrated, never expert soup. Monday's audience section adds the dai-media consumer-posture lens.
-
-## Social Listening Tool Ladder (real tools, in this order — never training-memory research)
-
-1. **Apify first** (`/social-listen` pipeline, `execution/apify_client.py`): Reddit actors for buyer verbatim, sc-* actors for TikTok/YouTube creator and hashtag signal. Default ceiling $0.25 per actor call, guidance ≤$0.75/day against the $29/mo budget (`.agent/apify-usage.json`). Standing approval: Farrice 2026-07-31, recorded in `.agent/missions/angle-map-listening-engine/contract.json`.
-2. **research.py facade** (`execution/research.py`): Gemini Deep Research primary (free under Ultra), Perplexity fallback within $30/mo (`.agent/perplexity-usage.json`).
-3. **Native $0 floor**: WebSearch, WebFetch, Tavily, Recall — cannot break.
-
-Budget exhaustion degrades one rung down the ladder; it never stalls the run and never raises spend. Zero actual Reddit/social thread reads in a run = the Social Listening lane is marked `DEGRADED` in the brief, honestly, like the 2026-07-30 run did.
-
-## Compounding Contract (the exponential-education mechanism)
-
-Every run appends — never rewrites — dated delta blocks to the living docs:
-
-- `_active/linkedin-launch/04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` (GOVERNING audience doc) — append under a `## Live deltas (engine-fed)` section: `### YYYY-MM-DD — <one-line delta>` + ≤5 lines of evidence.
-- `_active/linkedin-launch/04-deliverables/context-os/03-ICP-TRUTH-MAP.md` (fast offer-facing reference) — same append pattern; if a delta contradicts doc 07, doc 07 wins and the conflict is named.
-- `_active/health-performance-ip-library/ledger/promises-not-kept.jsonl` — one row per receipt: `{date, brand_or_category, promise, reality_evidence, buyer_verbatim, source_url, grade, content_angle}`.
-- `_active/health-performance-ip-library/ledger/insights.jsonl` — continues unchanged (schema in Ledger + Receipt).
-
-Canon bodies are never edited by the engine — deltas are append-only, dated, and sourced. A human (or an explicit curation session) promotes deltas into canon; the engine only feeds.
+"I help health, wellness, supplement, and performance brands turn claims, buyer questions, and founder judgment into source-backed content humans trust and AI search can retrieve."
 
 ## Content-First Governor
 
@@ -422,13 +361,12 @@ Run the lanes in this order and label each item by lane.
    - Purpose: identify funnel mechanics, offer shapes, price anchors, proof
      moves, lead magnets, audit hooks, content gaps, and service opportunities.
 
-3. **Social Listening Lane** (Apify-first — see Social Listening Tool Ladder)
-   - Public Reddit threads via Apify reddit actor, public YouTube comments or
-     transcripts via sc-* actors, public forum language, public social posts.
+3. **Social Listening Lane**
+   - Public Reddit threads, public YouTube comments or transcripts, public forum
+     language, public social posts when accessible.
    - Purpose: extract buyer language, doubts, wince lines, side-effect anxieties,
      founder anxieties, purchase objections, content fatigue, and lived-experience
-     phrasing — VERBATIM, with URLs. Paraphrased buyer language is not a receipt.
-   - This lane feeds the Daily Core's promises-not-kept receipts directly.
+     phrasing.
 
 4. **Creative And Copy Intelligence Lane**
    - High-performing LinkedIn posts, newsletters, sales pages, ad angles,
@@ -470,11 +408,6 @@ Use one integrated output. Expert names are not proof. Evidence of integration i
 
 ## Required Output Shape
 
-The brief renders in this order: Daily Core elements live inside sections 1-5
-(tension + receipts up front, thesis + compass, post seed), the rotating Deep
-Focus is section 10, living-doc deltas are section 11. Sections 0-9 keep their
-v3.5 discipline.
-
 ### 0. Compact Quality Spine
 
 Keep this short. Do not let process notes become the opening experience.
@@ -490,7 +423,7 @@ Include:
 - Google Drive export status
 - one open risk
 
-### 1. The Pick (opens the Daily Core)
+### 1. The Pick
 
 Open with one sentence naming today's best content angle in plain language.
 
@@ -498,26 +431,10 @@ Required:
 
 - one human-readable thesis
 - one line Farrice could say out loud
-- one buyer or founder who would care today (the Daily Core's ONE buyer tension,
-  named and current)
+- one buyer or founder who would care today
 - one reason this is more useful than the other researched signals
 
 No table is allowed before this section.
-
-### 1.5 Promises-Not-Kept Receipts (Daily Core, every day)
-
-At least one claim-versus-experience gap, close to the top, with:
-
-- the promise (what the category/brand/format claims)
-- the reality evidence (lab test, review pattern, study, recall, verbatim thread)
-- the buyer's own words, quoted exactly, with source URL
-- evidence grade: `VERIFIED`, `LIKELY`, or `UNCONFIRMED`
-- the safe content angle it opens (what Farrice can say publicly without
-  naming-and-shaming beyond what the evidence carries)
-
-Every receipt row is also appended to `ledger/promises-not-kept.jsonl`. A day
-with zero receipts states that honestly and marks the Social Listening lane
-`DEGRADED`.
 
 ### 2. Why It Has Juice
 
@@ -625,23 +542,23 @@ Include:
 Plain-English rule: explain the asset as something a founder could picture,
 not as abstract retrieval jargon.
 
-### 8. Offer Bridge (Angle Map only)
+### 8. Offer Bridge
 
-Turn the day's pick into movement toward the one offer. No new offer shapes, no
-audit menus, no productized-service invention — the offer canon is locked.
+Turn the day's pick into one smallest sellable asset.
 
 Include:
 
-- which buyer (name the archetype or a real public brand fitting the ICP) would
-  feel today's tension strongly enough to DM ANGLE
-- the recognition line for this angle: how today's insight becomes the moment a
-  founder realizes the decision under their creative round is unsettled
-- one public proof version (the post/teardown that demonstrates Angle Map
-  judgment in the open)
-- how the fit-read would open if that buyer DMed today (one specific message or
-  proof gap Farrice could point to on their live surface)
-- if implementation need is visible, name the Sprint bridge in one line — never
-  lead with it
+- productized audit or snapshot name
+- who buys it
+- what problem it solves
+- what Farrice delivers
+- one public proof version
+- one private paid version
+- next 45-minute build sprint and stop condition
+
+If the signal exposes scattered proof, unclear source hierarchy, weak claim
+boundaries, or a missing answer-page structure, promote it into the
+Source-To-Search Trust Layer stage, but explain it in plain English.
 
 ### 9. Ledger + Receipt
 
@@ -744,21 +661,7 @@ No run may claim high-taste quality only because it has a clean structure.
 The receipt must name what changed in reader pull, specificity, proof, and the
 turn of insight.
 
-### 10. Deep Focus Section (rotating — see calendar)
-
-The day's Rotating Deep Focus section, at full depth: Mon audience state, Tue
-ICP movement, Wed promises-not-kept deep dive, Thu category/creator/offer
-patterns, Fri weekly synthesis (replaces this section), Sat winners teardown,
-Sun education chapter. Carries the Dunford positioning read and the Priestley
-demand read as one labeled paragraph each, integrated.
-
-### 11. Living-Doc Deltas
-
-The exact delta blocks appended this run, quoted, with target file per the
-Compounding Contract — plus the one-line Daily Core delta summary. If nothing
-was appended anywhere, say so and why.
-
-No additional report sections should appear after Living-Doc Deltas unless it is
+No additional report sections should appear after Ledger + Receipt unless it is
 Friday and the weekly synthesis is required.
 
 ## Acceptance Checks
@@ -766,16 +669,6 @@ Friday and the weekly synthesis is required.
 Before finalizing, verify:
 
 - first page contains no table before `### 1. The Pick`
-- the Daily Core is complete: buyer tension, at least one promises-not-kept
-  receipt with verbatim buyer language + URL (or an honest DEGRADED flag),
-  thesis + compass, post seed, living-doc delta line
-- the day's Rotating Deep Focus section is present per the calendar, at real
-  depth, with the Dunford and Priestley reads integrated
-- living-doc deltas were appended per the Compounding Contract (or the no-delta
-  case is stated honestly)
-- the exec cut (`daily/LATEST-EXEC-CUT.md`) was written: ≤6 lines + link
-- every offer mention matches the locked canon ($750, DM ANGLE, three angles,
-  48 hours, make-right, Sprint backend only); zero retired-offer language
 - at least five lines are directly usable as hooks or post lines
 - a clear Story Compass sentence is present
 - `### 4. Farrice Riff Fuel` makes a 60-120 second voice memo easy to record
@@ -784,7 +677,7 @@ Before finalizing, verify:
 - at least eight angle candidates were non-GLP-1-specific before final selection
 - GLP-1 was not selected by default or because it was the easiest proof lane
 - the winning angle names a real avatar pain, market pressure, and service opportunity
-- JSONL validates line by line (both insights.jsonl and promises-not-kept.jsonl)
+- JSONL validates line by line
 - Google Drive export was attempted to the approved folder (`11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`) and its outcome (exported, with link, or FAILED with reason) is reported honestly — a Drive failure does not block finalizing, but a skipped or unreported attempt does
 - `content_finish_gate.py`, `grounding_guard.py`, and export format guard run
 
@@ -797,58 +690,37 @@ Every Friday, also save:
 
 `weekly/YYYY-WW-health-performance-synthesis.md`
 
-This is the positioning + education depth day: the week fused into command of
-the market, not a list of the week's items.
-
 Include:
 
-- the week's audience-state movement in one paragraph (what changed in who is
-  buying and why)
-- ICP trigger scoreboard: which buying triggers fired this week, at which brands
-- promises-not-kept pattern of the week: the recurring gap, with the strongest
-  receipts
 - repeated buyer fears
-- strongest source-backed claims / weak claims to avoid
-- the positioning read: what this week means for how the Angle Map is positioned
-  (Dunford) and where demand is forming (Priestley)
-- one education synthesis: the structural thing about this industry the week
-  taught, written to keep
-- highest-performing content buckets to test next + content series ideas
-- best public teardown candidate
+- strongest source-backed claims
+- weak claims to avoid
+- highest-value long-tail questions
+- best 5 Percent Asset candidate
+- strongest productized service opportunity
+- strongest client-acquisition angle
+- highest-performing content buckets to test next
+- best public teardown or audit candidate
+- content data moat themes worth compounding
+- content series ideas
 - one next-week build sprint
 
-## Local Storage + Exec Cut
+## Local Storage
 
 Save the daily brief to:
 
-`_active/health-performance-ip-library/daily/YYYY-MM-DD-angle-map-listening-brief.md`
-
-After the brief passes its gates, overwrite the exec cut at:
-
-`_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md`
-
-Exec cut format (≤6 lines — this is what the COS morning brief inlines):
-
-```
-# Listening cut — YYYY-MM-DD (DOW deep focus: <focus>)
-- Tension: <one line>
-- Receipt: <promise vs reality, one line>
-- Thesis: <one line>
-- Post seed: <hook line> → full draft in the brief
-- Docs fed: <delta summary> · Full brief: _active/health-performance-ip-library/daily/YYYY-MM-DD-angle-map-listening-brief.md
-```
+`_active/health-performance-ip-library/daily/YYYY-MM-DD-health-performance-geo-brief.md`
 
 Append JSONL records to:
 
-`_active/health-performance-ip-library/ledger/insights.jsonl` and
-`_active/health-performance-ip-library/ledger/promises-not-kept.jsonl`
+`_active/health-performance-ip-library/ledger/insights.jsonl`
 
 ## Google Drive Mirror (required, approved 2026-07-16)
 
 After the local brief is saved and passes its gates, mirror it to Google Drive as a Google Doc:
 
 - Target folder: `Daily Briefs` inside `Farrice — GEO-SEO Health Brand Launch (2026-06-23)`, Drive folder ID `11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`. Use this exact folder ID; do not create a new folder or guess by name search, since another unrelated "Daily Brief" series (a different automation, different domain) also lives in this Drive account under a different folder ID.
-- Doc title convention: `YYYY-MM-DD — Angle Map Listening Brief` (em dash; supersedes the earlier `Health-Performance GEO Brief` titles in the same folder as of v4.0, 2026-07-31).
+- Doc title convention: `YYYY-MM-DD — Health-Performance GEO Brief` (em dash, matching the existing 2026-07-01 precedent in that folder).
 - Content: the full finished local brief (Markdown is fine as plain text content; Drive will convert to a native Google Doc).
 - If the Drive write tool errors (has happened before — an internal/connector-level failure, not a content problem): retry once, and if it still fails, do not block the run. Note the failed export honestly in the brief's own Google Drive export status line (`FAILED — connector error, local brief and PR are authoritative for this run`) rather than silently skipping it or claiming success. Do not treat a Drive failure as a reason to mark the whole run `DEGRADED` — the local git brief and PR remain the source of truth either way.
 - Never write any other file type to this Drive account (no Sheets, no Slides, no extra docs, no duplicate/test docs). One finished brief in, one Doc out, per day.

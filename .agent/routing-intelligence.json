@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 11,
                 "marketing-studio-director": 1,
-                "System": 97,
+                "System": 98,
                 "brand-operating-system": 14,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -80,7 +80,7 @@
                 "strength-conditioning-os": 8,
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 7,
-                "jeremy-haynes-cold-offer": 1,
+                "jeremy-haynes-cold-offer": 2,
                 "doc-coauthoring": 11,
                 "diandra-escobar-linkedin-growth": 2,
                 "luke-iha-vicious-hooks": 5,
@@ -122,9 +122,9 @@
                 "prediction-market-weather-trading": 1,
                 "semantic-document-library-os": 1
             },
-            "total_routings": 777,
+            "total_routings": 779,
             "tier_counts": {
-                "0": 777,
+                "0": 779,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -134,8 +134,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 463,
-                "finalize-auto": 314
+                "hybrid": 464,
+                "finalize-auto": 315
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -229,7 +229,7 @@
                 "luke-iha-vicious-hooks": 17,
                 "creative-direction": 8,
                 "darrel-wilson-ai-monetization": 2,
-                "jeremy-haynes-cold-offer": 5,
+                "jeremy-haynes-cold-offer": 6,
                 "fresh-voice-system": 17,
                 "daniel-priestley-oversubscribed": 1,
                 "farrice-cain": 1,
@@ -337,7 +337,7 @@
                 "fraser-cottrell-paid-ads": 11,
                 "asset_generator": 1,
                 "banana-pro-director": 2,
-                "oren-operational-systems": 3,
+                "oren-operational-systems": 4,
                 "geoff-woods": 1,
                 "alex-m-smith-natural-strategy": 5,
                 "nate-b-jones-intent-engineering": 1,
@@ -363,7 +363,7 @@
                 "futurepedia-prompt-engineering": 1,
                 "april-dunford-x-jeremy-haynes": 1,
                 "geoff-woods-x-mike-taylor": 3,
-                "mike-taylor-synthetic-research": 5,
+                "mike-taylor-synthetic-research": 6,
                 "mike-taylor": 2,
                 "rory-sutherland-marketing": 3,
                 "kallaway-x-april-dunford": 1,
@@ -442,7 +442,7 @@
             },
             "total_feedback": 98,
             "negative_count": 0,
-            "ensemble_count": 565,
+            "ensemble_count": 566,
             "auto_miss_count": 78,
             "positive_count": 0
         }
@@ -15399,6 +15399,41 @@
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
             "feedback": "fb_20260731_151457_d51f"
+        },
+        {
+            "routing_id": "rt_20260731_164139_ef8a",
+            "timestamp": "2026-07-31T16:41:39.563412+00:00",
+            "session_id": "183f09dd-7862-43c3-9629-812b4305f3ff",
+            "request_summary": "run /go : I will go send and report back but I would like to build the one industry listening engine for the Angle Map: audience profile, ICP, promises-not-kept, live signal) now. It would be a massiv",
+            "intent_score": 0,
+            "domain_detected": "jeremy-haynes-cold-offer",
+            "experts_deployed": [
+                "jeremy-haynes-cold-offer",
+                "mike-taylor-synthetic-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jeremy-haynes-cold-offer",
+            "ensemble": true,
+            "compound_pairing": "jeremy-haynes-cold-offer + mike-taylor-synthetic-research",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_203047_9a48",
+            "timestamp": "2026-07-31T20:30:47.919430+00:00",
+            "session_id": "",
+            "request_summary": "Angle Map Listening Engine v4: fused geo-brief + insight-brief into one scheduled daily listening engine — AUTOMATION_PROMPT v4.0 (Angle Map center, daily core + rotating deep focus, Apify-first tool ",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }

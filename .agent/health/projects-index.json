@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:00:06.188451+00:00",
+  "generated_at": "2026-07-31T15:16:00.399656+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -13,7 +13,7 @@
       "index_exists": true,
       "last_touched": "2026-06-19",
       "last_touched_source": "git",
-      "days": 41,
+      "days": 42,
       "prefix_collisions": {}
     },
     {
@@ -356,7 +356,7 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-30",
+      "last_touched": "2026-07-31",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -448,7 +448,7 @@
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 24,
+      "days": 25,
       "prefix_collisions": {}
     },
     {
@@ -476,7 +476,7 @@
       "declared_raw": null,
       "entry": "CAMPAIGN.md",
       "index_exists": true,
-      "last_touched": "2026-07-30",
+      "last_touched": "2026-07-31",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -538,7 +538,7 @@
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 24,
+      "days": 25,
       "prefix_collisions": {}
     },
     {
@@ -568,7 +568,7 @@
       "index_exists": true,
       "last_touched": "2026-07-29",
       "last_touched_source": "git-bulk-only",
-      "days": 1,
+      "days": 2,
       "prefix_collisions": {}
     },
     {
@@ -643,7 +643,7 @@
       "index_exists": true,
       "last_touched": "2026-07-09",
       "last_touched_source": "mtime",
-      "days": 21,
+      "days": 22,
       "prefix_collisions": {}
     },
     {
@@ -846,7 +846,7 @@
     {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 1d ago"
+      "detail": "stamped done, then touched 2d ago"
     }
   ]
 }

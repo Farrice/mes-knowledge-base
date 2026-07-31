@@ -40,9 +40,11 @@ Start there when reviewing, extending, or packaging this offer system.
 
 ## Daily Run
 
-Each daily automation run saves a dated brief in `daily/` using:
+Each daily automation run saves a dated brief in `daily/` using (v4.0, 2026-07-31 — earlier briefs use `YYYY-MM-DD-health-performance-geo-brief.md`):
 
-`YYYY-MM-DD-health-performance-geo-brief.md`
+`YYYY-MM-DD-angle-map-listening-brief.md`
+
+plus the ≤6-line exec cut at `daily/LATEST-EXEC-CUT.md` (inlined into the COS morning brief).
 
 Required sections:
 
