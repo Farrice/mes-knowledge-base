@@ -559,6 +559,15 @@ def build_preflight(intent: str) -> dict[str, Any]:
             "platform": "codex",
             "workspace": str(ROOT),
             "hooks": "codex hook bridge configured through .codex/hooks.json and codex_hook_runner.py; verifier must confirm enabled current-root state",
+            "container_decision": launchpad["container_decision"]["move"],
+            "capability_move": (
+                launchpad["capability_move"]["recommendation"]
+                if launchpad["capability_move"]["visible"]
+                else "Quiet execution; no capability interruption needed."
+            ),
+            "why_now": launchpad["why_now"],
+            "approval_boundary": launchpad["approval_boundary"],
+            "auto_task_creation": False,
         },
     }
     return payload
@@ -580,9 +589,20 @@ def render_plain(payload: dict[str, Any]) -> str:
         f"- Center: {payload['co_creative_launchpad']['center']}",
         f"- What good looks like: {payload['co_creative_launchpad']['success_standard']}",
         f"- Questions that change execution: {', '.join(payload['co_creative_launchpad']['questions_that_change_execution']) or 'none'}",
-        "",
-        "## Route Candidates",
     ]
+    capability = payload["co_creative_launchpad"]["capability_move"]
+    if capability.get("visible"):
+        container = payload["co_creative_launchpad"]["container_decision"]
+        lines.extend(
+            [
+                f"- Container decision: {container['move']} - {container['reason']}",
+                f"- Capability recommendation: {capability['recommendation']}",
+                f"- Why now: {payload['co_creative_launchpad']['why_now']}",
+                f"- What I can do: {capability['action']}",
+                f"- Approval boundary: {payload['co_creative_launchpad']['approval_boundary']}",
+            ]
+        )
+    lines.extend(["", "## Route Candidates"])
     for item in payload["route_candidates"]:
         lines.append(f"- /{item['route']} ({item['source']}, score {item['score']}): {item['description']}")
     lines.extend(

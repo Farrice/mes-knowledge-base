@@ -659,8 +659,11 @@ def build_orchestration_receipt(
     composition_owner: str,
     verifiers: list[str],
     posture: dict[str, Any],
+    launchpad: dict[str, Any],
 ) -> dict[str, Any]:
     expert_lenses = [str(item) for item in stack.get("stack", []) if str(item).strip()]
+    container = dict(launchpad.get("container_decision") or {})
+    capability = dict(launchpad.get("capability_move") or {})
     return {
         "objective": query,
         "meta_intent": meta_intent,
@@ -670,6 +673,18 @@ def build_orchestration_receipt(
         "support_gates": gates,
         "expert_lenses": expert_lenses,
         "subagent_boundary": "Delegation packets only; real Codex subagents require explicit authorization.",
+        "container_decision": container.get("move", "continue"),
+        "capability_move": (
+            capability.get("recommendation", "Continue here.")
+            if capability.get("visible")
+            else "Quiet execution; no capability interruption needed."
+        ),
+        "why_now": launchpad.get("why_now", "No material leverage fork is present."),
+        "approval_boundary": launchpad.get(
+            "approval_boundary",
+            "None for safe, reversible workspace-local work.",
+        ),
+        "auto_task_creation": False,
         "verifier_results": {
             "status": "planned",
             "planned": verifiers,
@@ -887,6 +902,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
         composition_owner=composition_owner,
         verifiers=verifiers,
         posture=posture,
+        launchpad=launchpad,
     )
     skipped = list(decision.skipped_routes)
     if not skipped:
@@ -1021,6 +1037,10 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
                 f"--support-gates {json.dumps(','.join(gates))} "
                 f"--expert-lenses {json.dumps(','.join(orchestration_receipt['expert_lenses']))} "
                 f"--subagent-boundary {json.dumps(orchestration_receipt['subagent_boundary'])} "
+                f"--container-decision {json.dumps(orchestration_receipt['container_decision'])} "
+                f"--capability-move {json.dumps(orchestration_receipt['capability_move'])} "
+                f"--why-now {json.dumps(orchestration_receipt['why_now'])} "
+                f"--approval-boundary {json.dumps(orchestration_receipt['approval_boundary'])} "
                 f"--feedback-hook {json.dumps(orchestration_receipt['feedback_hook'])} "
                 "--changed \"[what changed]\" --passed \"[verifiers passed]\" "
                 "--failed \"[verifiers failed]\" --judgment \"[judgment needed]\" "
@@ -1185,6 +1205,11 @@ def render_preflight(data: dict[str, Any]) -> str:
             f"- **Support gates**: {fmt_routes(orchestration_receipt['support_gates'])}",
             f"- **Expert lenses**: {fmt_list(orchestration_receipt['expert_lenses'])}",
             f"- **Subagent boundary**: {orchestration_receipt['subagent_boundary']}",
+            f"- **Container decision**: {orchestration_receipt['container_decision']}",
+            f"- **Capability move**: {orchestration_receipt['capability_move']}",
+            f"- **Why now**: {orchestration_receipt['why_now']}",
+            f"- **Approval boundary**: {orchestration_receipt['approval_boundary']}",
+            f"- **Automatic task creation**: {orchestration_receipt['auto_task_creation']}",
             f"- **Verifier results**: {orchestration_receipt['verifier_results']['status']}; planned={fmt_list(orchestration_receipt['verifier_results']['planned'])}",
             f"- **Feedback hook**: {orchestration_receipt['feedback_hook']}",
             "",

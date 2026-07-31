@@ -8,6 +8,11 @@ description: Compile a fresh-pen run packet — move a rejected or fatigued tast
 
 Contract (REQUIRED fields, quality gate, context policy): `semantic_libraries/antigravity/primitives/fresh-pen-packet-contract.md`. Live exemplar: `.agent/missions/profile-copy-fresh-0730/portable.md`.
 
+Capability Stewardship recommends this existing workflow after two rejected
+taste-bearing revisions plus heavy or contaminating context. It may prepare the
+local packet, but opening or creating a user-owned task remains explicitly
+approval-gated.
+
 ## Steps
 1. **Name the mission + slug** (`<artifact>-fresh-<MMDD>`); reuse the thread slug if resuming.
 2. **Harvest the verdict wall**: every relevant FAIL/RULE row from `_active/farrice-brand/voice/calibration-log.md` (+ `python3 execution/voice_evaluator.py bar`) — verbatim, sourced, complete. A packet without the wall is rejected by contract.

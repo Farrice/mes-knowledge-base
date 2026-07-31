@@ -40,6 +40,10 @@ Every launchpad pass should produce these fields:
 | `questions_that_change_execution` | Only questions whose answers alter route, scope, risk, taste, or proof. |
 | `route_bias` | The front door or support route the launchpad is leaning toward. |
 | `pause_or_run` | Whether to run with assumptions, pause for judgment, or block for risk. |
+| `container_decision` | One move: continue, bounded-support, verify, handoff, fresh-pen, recommend-new-task, preserve, or monitor. |
+| `capability_move` | One plain-English recommendation plus the concrete action Codex can take; quiet when no leverage fork exists. |
+| `why_now` | The outcome, context, speed, proof, or compounding reason the move matters now. |
+| `approval_boundary` | The exact boundary if task creation, subagents, external writes, paid tools, destructive action, connectors, publishing, automation, or global writes are involved. |
 | `handoff` | Compact packet the next route receives; do not pass full transcript dumps. |
 
 ## Operating Standard
@@ -58,6 +62,12 @@ Every launchpad pass should produce these fields:
    route, say so and select the stronger route.
 8. Preserve speed. If the ambiguity affects polish but not execution, state the
    assumption and run.
+9. Steward capabilities quietly. Surface one recommendation only when a better
+   container, bounded support gate, verifier, transfer, monitor, or reusable
+   asset materially changes the outcome.
+10. Do not auto-split tasks. A handoff or new-task packet may be prepared
+    locally, but a user-owned task is created or opened only after explicit
+    approval.
 
 ## Pause Rules
 
@@ -103,6 +113,9 @@ This contract changes behavior only if a future run shows:
 - only execution-changing questions are asked,
 - safe local work still runs when ambiguity is not execution-changing,
 - the final handoff includes proof, route, and source limits.
+- a tiny mechanical turn keeps `capability_move.visible` false,
+- a material fork produces one container decision, one reason, one action, and
+  the applicable approval boundary.
 
 ## Last Updated
 

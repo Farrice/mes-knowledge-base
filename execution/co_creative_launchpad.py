@@ -206,6 +206,118 @@ TASTE_TERMS = (
     "sophisticated",
 )
 
+TINY_MECHANICAL_TERMS = (
+    "tiny edit",
+    "mechanical edit",
+    "five-minute edit",
+    "5-minute edit",
+    "one-line edit",
+    "one line edit",
+    "fix this typo",
+    "correct this typo",
+    "rename this file",
+)
+
+DISTINCT_BRANCH_TERMS = (
+    "distinct branch",
+    "separate branch",
+    "research branch",
+    "new branch",
+    "branch deserves",
+    "different objective",
+)
+
+DURABLE_BRANCH_TERMS = (
+    "own objective",
+    "own acceptance criteria",
+    "own sources",
+    "own next action",
+    "retrieval home",
+    "durable branch",
+)
+
+FRESH_PEN_REJECTION_TERMS = (
+    "two rejected",
+    "rejected twice",
+    "second rejected",
+    "two failed revisions",
+    "revision rejected again",
+)
+
+FRESH_PEN_CONTEXT_TERMS = (
+    "heavy context",
+    "context fatigue",
+    "context is contaminating",
+    "context contamination",
+    "taste revision",
+    "taste-bearing",
+    "spiraling",
+)
+
+EXPERT_COMPOSITION_TERMS = (
+    "more than three experts",
+    "four experts",
+    "4 experts",
+    "many plausible experts",
+    "too many experts",
+    "expert soup",
+    "full arsenal",
+)
+
+PARALLEL_WORK_TERMS = (
+    "independent workstreams",
+    "parallelizable work",
+    "parallel workstreams",
+    "run in parallel",
+)
+
+VERIFICATION_OPPORTUNITY_TERMS = (
+    "safe local verifier",
+    "local verifier available",
+    "verifier available",
+    "verify before continuing",
+    "verification need",
+    "needs proof",
+    "run the verifier",
+)
+
+CIRCULAR_CONTEXT_TERMS = (
+    "going in circles",
+    "circling",
+    "repeating decisions",
+    "same decision again",
+)
+
+PRESERVATION_OPPORTUNITY_TERMS = (
+    "repeating one-off",
+    "repeating one off",
+    "repeatable system",
+    "reusable-system opportunity",
+    "reusable system opportunity",
+    "do this every time",
+    "keep doing this",
+)
+
+MONITORING_OPPORTUNITY_TERMS = (
+    "monitor this",
+    "recurring observation",
+    "recurring follow-up",
+    "check this regularly",
+    "watch for changes",
+)
+
+CAPABILITY_LIFECYCLE_TERMS = (
+    "capability stewardship",
+    "capability awareness",
+    "capabilities you can use",
+    "context-container judgment",
+    "context container judgment",
+    "proactive leverage surfacing",
+    "persistent default",
+    "without requiring magic words",
+    "without magic words",
+)
+
 
 def normalize(query: str) -> str:
     return re.sub(r"\s+", " ", query.lower()).strip()
@@ -217,6 +329,134 @@ def has_any(query: str, terms: Iterable[str]) -> bool:
 
 def word_count(query: str) -> int:
     return len(re.findall(r"[a-z0-9][a-z0-9-]*", query.lower()))
+
+
+def capability_stewardship_decision(
+    query: str,
+    *,
+    route: str = "",
+    lane: str = "",
+    risk_reasons: Iterable[str] = (),
+) -> dict[str, Any]:
+    """Choose one quiet capability/container move without creating new authority."""
+    q = normalize(query)
+    risks = list(risk_reasons)
+
+    move = "continue"
+    destination = "current-task"
+    reason = "The current owner and context remain clean."
+    visible = False
+    recommendation = "Continue here."
+    action = "Execute the scoped local work without interrupting the operator."
+    why_now = "No material leverage fork is present."
+    approval_boundary = "None for safe, reversible workspace-local work."
+
+    tiny_mechanical = has_any(q, TINY_MECHANICAL_TERMS) and word_count(q) <= 18
+    fresh_pen = has_any(q, FRESH_PEN_REJECTION_TERMS) and has_any(q, FRESH_PEN_CONTEXT_TERMS)
+    distinct_branch = has_any(q, DISTINCT_BRANCH_TERMS)
+    durable_branch = distinct_branch and has_any(q, DURABLE_BRANCH_TERMS)
+    lifecycle_build = has_any(q, CAPABILITY_LIFECYCLE_TERMS) and (
+        "persistent" in q or "default" in q or "session" in q or "magic words" in q
+    )
+    external_action = bool(risks) or has_any(q, RISK_TERMS)
+
+    if tiny_mechanical:
+        return {
+            "container_decision": {"move": move, "destination": destination, "reason": reason},
+            "capability_move": {
+                "visible": visible,
+                "recommendation": recommendation,
+                "action": action,
+            },
+            "why_now": why_now,
+            "approval_boundary": approval_boundary,
+            "auto_task_creation": False,
+            "route_context": {"route": route, "lane": lane},
+        }
+
+    if fresh_pen:
+        move = "fresh-pen"
+        destination = "/fresh-pen"
+        reason = "Repeated taste rejection plus context fatigue makes a clean pen more valuable than another in-place revision."
+        recommendation = "Move the taste-bearing artifact to a fresh pen with locked verdicts and proof."
+        action = "Prepare the /fresh-pen packet; stop drafting in the fatigued context."
+        why_now = "Two rejected revisions indicate context contamination, not another wording tweak."
+        approval_boundary = "Packet preparation is local; creating or opening a new user-owned task requires explicit approval."
+        visible = True
+    elif durable_branch:
+        move = "recommend-new-task"
+        destination = "new-user-owned-task"
+        reason = "The branch has its own objective, acceptance criteria, sources, and next action."
+        recommendation = "Recommend a separate task and prepare a purpose-built transfer packet."
+        action = "Prepare the focused packet only; do not create or open the task automatically."
+        why_now = "A durable retrieval home now outweighs the coordination cost of a split."
+        approval_boundary = "Explicit approval is required before creating or opening a user-owned task."
+        visible = True
+    elif distinct_branch:
+        move = "handoff"
+        destination = "/handoff"
+        reason = "A distinct branch deserves separate ownership while the current task remains integration owner."
+        recommendation = "Create a focused handoff for the branch."
+        action = "Prepare a purpose-built /handoff packet without copying the full transcript."
+        why_now = "Continuing here would blur ownership and weaken retrieval."
+        approval_boundary = "The handoff may be prepared locally; creating or opening a user-owned task requires explicit approval."
+        visible = True
+    elif external_action:
+        move = "continue"
+        destination = "current-task"
+        reason = "Preparation can continue safely, but the next state-changing action crosses an approval boundary."
+        recommendation = "Prepare the publish or send action, then request approval."
+        action = "Complete the local draft/checklist and stop before the external action."
+        why_now = "The work is ready to approach an external state change."
+        approval_boundary = "Explicit approval is required before publish, send, outreach, connector write, paid, destructive, or global action."
+        visible = True
+    elif has_any(q, VERIFICATION_OPPORTUNITY_TERMS) or has_any(q, CIRCULAR_CONTEXT_TERMS):
+        move = "verify"
+        destination = "local-verifier"
+        reason = "A safe proof surface can resolve uncertainty faster than another explanation or loop."
+        recommendation = "Run the safe local verifier before continuing."
+        action = "Execute the available verifier now and use its result as the next decision input."
+        why_now = "Behavior, claims, or repeated decisions need proof before more work compounds them."
+        visible = True
+    elif has_any(q, EXPERT_COMPOSITION_TERMS) or has_any(q, PARALLEL_WORK_TERMS):
+        move = "bounded-support"
+        destination = "/expert-composition-governor"
+        reason = "Several plausible contributors need one function owner and bounded contribution slots."
+        recommendation = "Keep one function owner and add only bounded expert support."
+        action = "Name the owner, support slots, integration evidence, and skipped-expert reasons before any delegation."
+        why_now = "The candidate set is large enough to create expert soup or coordination drag."
+        approval_boundary = "Real Codex subagents still require explicit run-specific authorization."
+        visible = True
+    elif lifecycle_build or has_any(q, PRESERVATION_OPPORTUNITY_TERMS):
+        move = "preserve"
+        destination = "companion-contract"
+        reason = "A recurring high-leverage move should survive the current session in the smallest reusable form."
+        recommendation = "Preserve the method as a companion contract plus regression proof."
+        action = "Extend the existing owner surfaces and verifier; do not create a new hot route."
+        why_now = "The behavior is recurring enough that a one-off instruction would create future operator debt."
+        visible = True
+    elif has_any(q, MONITORING_OPPORTUNITY_TERMS):
+        move = "monitor"
+        destination = "approval-gated-monitor"
+        reason = "The value depends on recurring observation instead of a one-time answer."
+        recommendation = "Prepare the smallest useful monitor or recurring check."
+        action = "Define the trigger, useful change, and stop condition before scheduling anything."
+        why_now = "The underlying state can change after this session."
+        approval_boundary = "Creating or changing an automation requires the applicable explicit approval."
+        visible = True
+
+    return {
+        "container_decision": {"move": move, "destination": destination, "reason": reason},
+        "capability_move": {
+            "visible": visible,
+            "recommendation": recommendation,
+            "action": action,
+        },
+        "why_now": why_now,
+        "approval_boundary": approval_boundary,
+        "auto_task_creation": False,
+        "route_context": {"route": route, "lane": lane},
+    }
 
 
 def infer_predicted_need(query: str, route: str = "", lane: str = "") -> str:
@@ -560,8 +800,14 @@ def build_launchpad(
     center = infer_center(query, route, lane)
     success = infer_success_standard(query, route)
     constraints = infer_edges(query, risk_reasons, route)
+    stewardship = capability_stewardship_decision(
+        query,
+        route=route,
+        lane=lane,
+        risk_reasons=risk_reasons,
+    )
     return {
-        "schema_version": "co-creative-launchpad/v1",
+        "schema_version": "co-creative-launchpad/v2",
         "predicted_need": infer_predicted_need(query, route, lane),
         "center": center,
         "edges": constraints,
@@ -571,6 +817,7 @@ def build_launchpad(
         "questions_that_change_execution": questions,
         "route_bias": bias,
         "pause_or_run": pause,
+        **stewardship,
         "handoff": {
             "summary": f"Optimize for: {center}",
             "route": bias["primary"],
@@ -600,6 +847,18 @@ def render_launchpad(packet: dict[str, Any]) -> str:
         f"- **Pause or run**: {pause['decision']} - {pause['reason']}",
         f"- **Handoff**: {packet['handoff']['summary']}",
     ]
+    capability = packet.get("capability_move", {})
+    if capability.get("visible"):
+        container = packet.get("container_decision", {})
+        lines.extend(
+            [
+                f"- **Container decision**: {container.get('move')} - {container.get('reason')}",
+                f"- **Capability recommendation**: {capability.get('recommendation')}",
+                f"- **Why now**: {packet.get('why_now')}",
+                f"- **What I can do**: {capability.get('action')}",
+                f"- **Approval boundary**: {packet.get('approval_boundary')}",
+            ]
+        )
     return "\n".join(lines)
 
 

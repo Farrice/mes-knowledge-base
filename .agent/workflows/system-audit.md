@@ -23,6 +23,7 @@ Preserve these invariants:
 
 - `/system-audit` is the control-plane audit and repair route for broken, drifted, cluttered, or not-firing harness behavior.
 - `/system-audit` also owns operating-alignment repair when the user asks for unified global/workspace Codex behavior, maximum firepower, orchestration layers, expert/subagent coordination, automation cleanup, or output consistency. Use `semantic_libraries/antigravity/primitives/operating-alignment-contract.md`.
+- `/system-audit` owns Capability Stewardship integration and regression proof when the user asks for persistent capability awareness, context-container judgment, bounded orchestration, proactive leverage, or behavior across session start, mid-session, and closeout. Mentioning closeout as one lifecycle phase must not route the request to `/end-session`.
 - `/system-audit` owns Operator Cockpit V2 repair when the user describes engineering debt, bottlenecks, user failure modes, safeguards not working, Codex/Claude intent mismatch, retrieval overload, or a need to rebuild the harness without shrinking the intelligence arsenal.
 - Run read-only proof first: routing, bridge, activation, telemetry, cohesion, and verifier checks.
 - Execution bias is part of control-plane health: when no risk boundary is present, run the next safe workspace-local inspection, patch, verifier, and receipt instead of returning another prompt for Farrice to paste back.
@@ -43,6 +44,7 @@ Preserve these invariants:
 - Cohesion spine: intent memory, shared system-cohesion state, activation queue, weekly cohesion platter, and mission handoffs.
 - Agentic engineering loop: `semantic_libraries/antigravity/primitives/agentic-engineering-loop-contract.md`, exact source paths, context plan, work chunks, review stop, dependency safety, use-now artifact, and hardening proof.
 - Operating alignment: `semantic_libraries/antigravity/primitives/operating-alignment-contract.md`, `semantic_libraries/antigravity/primitives/magic-preservation-regression-set.md`, meta-intent routing, Orchestration Receipt, and global-write approval gate.
+- Capability Stewardship: quiet leverage scan, material-fork intervention, container decision, one capability move, `why_now`, approval boundary, no-noise tiny-turn proof, and no automatic user-owned task creation.
 - Operator Cockpit V2: `execution/operator_cockpit.py`, Intent Confidence Packet, local friction capture, retrieval/project home, dated backlog map, and global mirror checkpoint.
 - Out of scope by default: deleting the migrated command library, changing `~/.codex`, publishing, connector writes, or destructive cleanup.
 

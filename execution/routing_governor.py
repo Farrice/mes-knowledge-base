@@ -912,6 +912,48 @@ OPERATING_ALIGNMENT_SIGNALS = (
     "proper orchestration and layers",
 )
 
+CAPABILITY_STEWARDSHIP_SIGNALS = (
+    "capability stewardship",
+    "capability awareness",
+    "capabilities you can use",
+    "context-container judgment",
+    "context container judgment",
+    "bounded expert orchestration",
+    "proactive leverage surfacing",
+    "leverage surfacing",
+    "capability recommendation",
+    "capability recommendations",
+)
+
+CAPABILITY_STEWARDSHIP_LIFECYCLE_TERMS = (
+    "session start",
+    "start of session",
+    "at the start",
+    "mid-session",
+    "mid session",
+    "in the middle",
+    "middle of the session",
+    "session closeout",
+    "at closeout",
+    "at the end",
+    "start, middle, and end",
+    "start middle and end",
+    "session lifecycle",
+    "throughout the session",
+)
+
+CAPABILITY_STEWARDSHIP_DEFAULT_TERMS = (
+    "persistent default",
+    "persistent behavior",
+    "persistent companion",
+    "by default",
+    "without magic words",
+    "without requiring magic words",
+    "without a command",
+    "without commands",
+    "automatically",
+)
+
 OPERATOR_COCKPIT_REBUILD_SIGNALS = (
     "operator cockpit",
     "cockpit-first",
@@ -1168,6 +1210,8 @@ def is_operating_alignment_intent(query: str) -> bool:
         return False
     if "operating alignment" in normalized or "codex operating alignment" in normalized:
         return True
+    if is_capability_stewardship_intent(normalized):
+        return True
 
     direct_hits = sum(1 for signal in OPERATING_ALIGNMENT_SIGNALS if signal in normalized)
     system_hits = sum(1 for term in OPERATING_ALIGNMENT_SYSTEM_TERMS if term in normalized)
@@ -1185,6 +1229,23 @@ def is_operating_alignment_intent(query: str) -> bool:
     if direct_hits >= 1 and system_hits >= 2 and orchestration_hits >= 2:
         return True
     return system_hits >= 2 and orchestration_hits >= 2 and failure_hits >= 1
+
+
+def is_capability_stewardship_intent(query: str) -> bool:
+    """Return True for persistent capability/session-lifecycle behavior requests."""
+    normalized = normalize_query(query)
+    if not normalized:
+        return False
+    if "capability stewardship" in normalized:
+        return True
+
+    capability_hits = sum(1 for term in CAPABILITY_STEWARDSHIP_SIGNALS if term in normalized)
+    lifecycle_hits = sum(1 for term in CAPABILITY_STEWARDSHIP_LIFECYCLE_TERMS if term in normalized)
+    default_hits = sum(1 for term in CAPABILITY_STEWARDSHIP_DEFAULT_TERMS if term in normalized)
+
+    if capability_hits >= 2 and (lifecycle_hits >= 2 or default_hits >= 2):
+        return True
+    return capability_hits >= 1 and lifecycle_hits >= 2 and default_hits >= 1
 
 
 def is_operator_cockpit_rebuild_intent(query: str) -> bool:
@@ -1625,6 +1686,10 @@ def is_end_session_closeout_intent(query: str) -> bool:
     compact = re.sub(r"[^a-z0-9]", "", normalized)
     if compact in {"endsession", "sourcecommandendsession"}:
         return True
+    # Lifecycle/default requests may mention closeout as one phase. They are
+    # operating-alignment work, not instructions to close the current session.
+    if is_capability_stewardship_intent(normalized):
+        return False
     if any(signal in normalized for signal in END_SESSION_SIGNALS):
         return True
     has_session = "session" in normalized or "conversation" in normalized or "thread" in normalized

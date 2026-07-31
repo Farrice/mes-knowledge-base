@@ -31,6 +31,10 @@ Read only the context needed for the destination purpose:
 
 ## Handoff Rules
 
+- Capability Stewardship selects `/handoff` when a distinct branch deserves
+  separate ownership while the parent task remains integration owner. Prepare
+  the packet locally, but do not create or open a user-owned task without
+  explicit approval.
 - Save disposable transfer handoffs to the OS temp directory, not the project
   workspace, unless the user explicitly asks for a durable local artifact.
 - Reference existing artifacts by path or URL instead of copying large content.

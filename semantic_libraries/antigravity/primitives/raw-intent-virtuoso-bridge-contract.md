@@ -24,6 +24,10 @@ Every packet must include:
 | `constraints` | Explicit and inferred boundaries, including risk gates. |
 | `missing_inputs` | Inputs that would materially change execution. |
 | `questions_that_change_execution` | Only questions that change route, scope, risk, taste, or proof. |
+| `container_decision` | The current lifecycle move: continue, bounded-support, verify, handoff, fresh-pen, recommend-new-task, preserve, or monitor. |
+| `capability_move` | One material plain-English recommendation and the concrete safe action, or a quiet no-interruption state. |
+| `why_now` | Why the move matters at this point in the session. |
+| `approval_boundary` | The exact existing boundary; the packet never expands authority. |
 | `chosen_route` | One owner route selected for the run. |
 | `support_gates` | Bounded support workflows or skills, not an expert pile. |
 | `composition_slots` | Spine, Differentiator, Mechanism, Craft, and Risk Gate. |
@@ -61,6 +65,11 @@ Default behavior is Packet + Run: compile the packet, then follow the first
 safe local action when it is reversible, current-workspace local, and inside the
 stated boundaries. Risky, global, external, destructive, plugin, connector,
 paid, or real-subagent actions stop for approval.
+
+Capability Stewardship travels through this packet as a companion layer. It
+may recommend a better container or capability at a material fork, but it does
+not create a task, deploy a real subagent, schedule an automation, or perform an
+external action automatically.
 
 ## Route Rules
 

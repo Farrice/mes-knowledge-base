@@ -61,20 +61,24 @@ def check_global_agents() -> None:
 
 
 def check_local_agents() -> None:
+    """Verify the newer Google-local no-padding steering constitution.
+
+    Global persistence and local visible-shipping policy intentionally differ:
+    the workspace skips steering on diagnostic, conversational, corrective, and
+    mechanical turns while retaining rich closeouts for substantial shipments.
+    """
     text = read(LOCAL_AGENTS)
     require(
         "workspace AGENTS",
         text,
         [
-            "Persistent Per-Exchange Steering",
-            "not command-only behavior",
-            "Every meaningful final answer",
-            "Insightful Momentum/frontier standard",
-            "Output/Capability Move",
-            "Operator Insight",
-            "Hidden Gap/Opportunity",
-            "Capability Revealed",
+            "Per-Exchange Steering",
+            "When an exchange SHIPS something",
+            "Skip on answers, diagnostics, corrections",
+            "Deep closeouts",
+            "Insightful Momentum format",
             "contextual_next_prompts.py",
+            "A skipped block is fine; a padded block is a failure",
         ],
     )
 

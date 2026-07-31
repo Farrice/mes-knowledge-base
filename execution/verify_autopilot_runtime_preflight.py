@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "execution"))
 
 import autopilot_runtime_preflight as preflight  # type: ignore  # noqa: E402
+import co_creative_launchpad as launchpad_runtime  # type: ignore  # noqa: E402
 
 
 GOLDEN_PROMPTS = [
@@ -69,6 +70,36 @@ GOLDEN_PROMPTS = [
         "lane": "system-failure",
         "status": "Running now",
         "required": ["system-audit", "autopilot", "virtuoso", "expert-composition-governor", "routing-intelligence"],
+    },
+    {
+        "id": "capability-stewardship-lifecycle",
+        "query": "Make capability awareness, context-container judgment, bounded expert orchestration, and proactive leverage surfacing a persistent default at session start, mid-session, and closeout without requiring magic words",
+        "route": "system-audit",
+        "lane": "system-failure",
+        "status": "Running now",
+        "required": ["system-audit", "autopilot", "expert-composition-governor", "routing-intelligence"],
+        "container_move": "preserve",
+        "capability_visible": True,
+    },
+    {
+        "id": "capability-awareness-natural-language",
+        "query": "Help me know what capabilities you can use at the start, middle, and end without magic words",
+        "route": "system-audit",
+        "lane": "system-failure",
+        "status": "Running now",
+        "required": ["system-audit", "autopilot", "expert-composition-governor", "routing-intelligence"],
+        "container_move": "preserve",
+        "capability_visible": True,
+    },
+    {
+        "id": "genuine-current-session-closeout",
+        "query": "Wrap this task and prepare the closeout",
+        "route": "end-session",
+        "lane": "end-session-closeout",
+        "status": "Needs judgment",
+        "required": ["end-session", "autopilot", "routing-intelligence", "health-check"],
+        "container_move": "continue",
+        "capability_visible": False,
     },
     {
         "id": "delegate-dry-run",
@@ -223,6 +254,10 @@ REQUIRED_TEXT = [
     "## Orchestration Receipt",
     "meta_intent",
     "composition_owner",
+    "**Container decision**",
+    "**Capability move**",
+    "**Why now**",
+    "**Approval boundary**",
     "Running now",
     "safe workspace-local execution",
     "## Run Prompt",
@@ -309,12 +344,137 @@ def assert_case(case: dict[str, object]) -> str:
             raise AssertionError(f"{label} expected raw intent bridge to trigger")
         if "raw_intent_run_packet.py" not in bridge.get("packet_command", ""):
             raise AssertionError(f"{label} missing raw intent packet compiler command")
+    launchpad = data["launchpad"]
+    if expected_move := case.get("container_move"):
+        actual_move = launchpad["container_decision"]["move"]
+        if actual_move != expected_move:
+            raise AssertionError(f"{label} expected container move {expected_move}, got {actual_move}")
+    if "capability_visible" in case:
+        actual_visible = launchpad["capability_move"]["visible"]
+        if actual_visible is not case["capability_visible"]:
+            raise AssertionError(f"{label} capability visibility mismatch: {actual_visible}")
+    receipt = data["orchestration_receipt"]
+    stewardship_fields = {
+        "container_decision",
+        "capability_move",
+        "why_now",
+        "approval_boundary",
+        "auto_task_creation",
+    }
+    missing_stewardship = stewardship_fields - set(receipt)
+    if missing_stewardship:
+        raise AssertionError(f"{label} receipt missing Capability Stewardship fields: {sorted(missing_stewardship)}")
+    if receipt["auto_task_creation"] is not False:
+        raise AssertionError(f"{label} receipt must forbid automatic task creation")
+    receipt_command = data["run_receipt"]["command"]
+    for flag in ("--container-decision", "--capability-move", "--why-now", "--approval-boundary"):
+        if flag not in receipt_command:
+            raise AssertionError(f"{label} persisted run receipt command missing {flag}")
 
     return f"{label}: route=/{chosen}, lane={governor['lane']}, status={status}"
 
 
+STEWARDSHIP_CASES = [
+    {
+        "id": "tiny-mechanical-quiet",
+        "query": "Make this five-minute mechanical edit in the current file",
+        "move": "continue",
+        "visible": False,
+    },
+    {
+        "id": "distinct-branch-handoff",
+        "query": "A distinct research branch has emerged and should keep the parent task as integration owner",
+        "move": "handoff",
+        "visible": True,
+        "recommendation": "focused handoff",
+        "boundary": "creating or opening a user-owned task requires explicit approval",
+    },
+    {
+        "id": "durable-branch-new-task-recommendation",
+        "query": "A distinct branch now has its own objective, own acceptance criteria, own sources, and own next action",
+        "move": "recommend-new-task",
+        "visible": True,
+        "recommendation": "separate task",
+        "boundary": "Explicit approval is required before creating or opening a user-owned task",
+    },
+    {
+        "id": "taste-fatigue-fresh-pen",
+        "query": "Two rejected taste revisions in heavy context are contaminating the artifact",
+        "move": "fresh-pen",
+        "visible": True,
+        "action": "/fresh-pen",
+    },
+    {
+        "id": "bounded-expert-composition",
+        "query": "More than three experts are plausible for these independent workstreams",
+        "move": "bounded-support",
+        "visible": True,
+        "recommendation": "one function owner",
+        "boundary": "Real Codex subagents still require explicit run-specific authorization",
+    },
+    {
+        "id": "safe-local-verifier",
+        "query": "A safe local verifier is available before we continue",
+        "move": "verify",
+        "visible": True,
+        "action": "Execute the available verifier now",
+    },
+    {
+        "id": "external-publish-send-boundary",
+        "query": "The external publish and send action is next",
+        "move": "continue",
+        "visible": True,
+        "recommendation": "Prepare the publish or send action",
+        "boundary": "Explicit approval is required before publish, send",
+    },
+    {
+        "id": "repeatable-process-preservation",
+        "query": "This repeating one-off is becoming a repeatable system",
+        "move": "preserve",
+        "visible": True,
+        "recommendation": "companion contract plus regression proof",
+    },
+    {
+        "id": "circling-verification-checkpoint",
+        "query": "We are going in circles and repeating decisions",
+        "move": "verify",
+        "visible": True,
+    },
+]
+
+
+def assert_stewardship_case(case: dict[str, object]) -> str:
+    packet = launchpad_runtime.build_launchpad(str(case["query"]), route="autopilot", lane="general")
+    label = str(case["id"])
+    move = packet["container_decision"]["move"]
+    visible = packet["capability_move"]["visible"]
+    if move != case["move"]:
+        raise AssertionError(f"{label} expected move {case['move']}, got {move}")
+    if visible is not case["visible"]:
+        raise AssertionError(f"{label} expected visible={case['visible']}, got {visible}")
+    if packet.get("auto_task_creation") is not False:
+        raise AssertionError(f"{label} must never auto-create a user-owned task")
+    recommendation = str(packet["capability_move"]["recommendation"])
+    action = str(packet["capability_move"]["action"])
+    boundary = str(packet["approval_boundary"])
+    if expected := case.get("recommendation"):
+        if str(expected).lower() not in recommendation.lower():
+            raise AssertionError(f"{label} recommendation missing {expected!r}: {recommendation}")
+    if expected := case.get("action"):
+        if str(expected).lower() not in action.lower():
+            raise AssertionError(f"{label} action missing {expected!r}: {action}")
+    if expected := case.get("boundary"):
+        if str(expected).lower() not in boundary.lower():
+            raise AssertionError(f"{label} boundary missing {expected!r}: {boundary}")
+    rendered = launchpad_runtime.render_launchpad(packet)
+    if not visible and "Capability recommendation" in rendered:
+        raise AssertionError(f"{label} emitted a capability lecture on a quiet turn")
+    return f"{label}: move={move}, visible={visible}"
+
+
 def main() -> int:
     results = [assert_case(case) for case in GOLDEN_PROMPTS]
+    results.extend(assert_stewardship_case(case) for case in STEWARDSHIP_CASES)
     print("Autopilot intent-to-outcome runtime verification: PASS")
     for result in results:
         print(f"- {result}")

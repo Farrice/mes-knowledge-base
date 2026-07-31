@@ -1,0 +1,11 @@
+{
+  "title": "Capability Stewardship Default - Phase 1 Handoff",
+  "artifact_type": "operator_handoff",
+  "created": "2026-07-31",
+  "status": "implemented; local proof pass with unrelated baseline reds disclosed",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "owner": "/system-audit",
+  "scope": "Google-local Capability Stewardship Phase 1"
+}

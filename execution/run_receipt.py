@@ -47,6 +47,10 @@ def build_receipt(
     meta_intent: str = "",
     composition_owner: str = "",
     feedback_hook: str = "",
+    container_decision: str = "",
+    capability_move: str = "",
+    why_now: str = "",
+    approval_boundary: str = "",
     changed: str = "",
     passed: str = "",
     failed: str = "",
@@ -54,7 +58,7 @@ def build_receipt(
     next_action: str = "",
 ) -> dict[str, Any]:
     return {
-        "schema_version": "run-receipt/v2",
+        "schema_version": "run-receipt/v3",
         "timestamp": now_iso(),
         "query": query,
         "route": route,
@@ -67,6 +71,10 @@ def build_receipt(
         "meta_intent": meta_intent,
         "composition_owner": composition_owner,
         "feedback_hook": feedback_hook,
+        "container_decision": container_decision,
+        "capability_move": capability_move,
+        "why_now": why_now,
+        "approval_boundary": approval_boundary,
         "changed": changed,
         "passed": passed,
         "failed": failed,
@@ -90,6 +98,10 @@ def render_markdown(receipt: dict[str, Any]) -> str:
             f"- **Expert lenses**: {receipt.get('expert_lenses') or 'none'}",
             f"- **Subagents requested**: {receipt.get('subagents_requested') or 'none'}",
             f"- **Subagent boundary**: {receipt.get('subagent_boundary') or 'none'}",
+            f"- **Container decision**: {receipt.get('container_decision') or 'continue'}",
+            f"- **Capability move**: {receipt.get('capability_move') or 'none'}",
+            f"- **Why now**: {receipt.get('why_now') or 'none'}",
+            f"- **Approval boundary**: {receipt.get('approval_boundary') or 'none'}",
             f"- **Raw intent**: {receipt['query']}",
             f"- **What changed**: {receipt['changed'] or 'none'}",
             f"- **What passed**: {receipt['passed'] or 'not run'}",
@@ -125,6 +137,17 @@ def verify() -> None:
     ]
     if missing:
         raise ValueError("Latest run receipt missing: " + ", ".join(missing))
+    if data.get("schema_version") == "run-receipt/v3":
+        stewardship_missing = [
+            key
+            for key in ("container_decision", "capability_move", "why_now", "approval_boundary")
+            if key not in data
+        ]
+        if stewardship_missing:
+            raise ValueError(
+                "Latest v3 run receipt missing Capability Stewardship fields: "
+                + ", ".join(stewardship_missing)
+            )
 
 
 def main() -> int:
@@ -140,6 +163,10 @@ def main() -> int:
     parser.add_argument("--meta-intent", default="")
     parser.add_argument("--composition-owner", default="")
     parser.add_argument("--feedback-hook", default="")
+    parser.add_argument("--container-decision", default="")
+    parser.add_argument("--capability-move", default="")
+    parser.add_argument("--why-now", default="")
+    parser.add_argument("--approval-boundary", default="")
     parser.add_argument("--changed", default="")
     parser.add_argument("--passed", default="")
     parser.add_argument("--failed", default="")
@@ -163,6 +190,10 @@ def main() -> int:
         meta_intent=args.meta_intent,
         composition_owner=args.composition_owner,
         feedback_hook=args.feedback_hook,
+        container_decision=args.container_decision,
+        capability_move=args.capability_move,
+        why_now=args.why_now,
+        approval_boundary=args.approval_boundary,
         changed=args.changed,
         passed=args.passed,
         failed=args.failed,

@@ -39,6 +39,11 @@ def assert_packet_shape(packet: dict) -> None:
         "constraints",
         "missing_inputs",
         "questions_that_change_execution",
+        "container_decision",
+        "capability_move",
+        "why_now",
+        "approval_boundary",
+        "auto_task_creation",
         "chosen_route",
         "support_gates",
         "composition_slots",
@@ -52,6 +57,7 @@ def assert_packet_shape(packet: dict) -> None:
     missing = sorted(required - set(packet))
     require(not missing, f"packet missing fields: {missing}")
     require(len(packet["composition_slots"]) == 5, "packet must include five composition slots")
+    require(packet["auto_task_creation"] is False, "raw-intent packets must never auto-create user tasks")
     require(packet["plugin_packaging_verdict"]["status"] == "deferred", "plugin packaging must be deferred in v1")
     require(
         "global ~/.codex writes during normal packet runs" in packet["context_plan"]["skip"],
@@ -108,6 +114,15 @@ def main() -> int:
     assert_packet_shape(global_build)
     require(global_build["chosen_route"] == "source-to-skill-system", "pure global packaging must use /source-to-skill-system")
     require("system-audit" in global_build["support_gates"], "global build missing audit support gate")
+
+    stewardship = raw_intent_run_packet.build_packet(
+        "Make capability awareness, context-container judgment, bounded expert orchestration, and proactive leverage surfacing a persistent default at session start, mid-session, and closeout without requiring magic words",
+        mode="system",
+    )
+    assert_packet_shape(stewardship)
+    require(stewardship["chosen_route"] == "system-audit", "capability lifecycle fixture must route to /system-audit")
+    require(stewardship["container_decision"]["move"] == "preserve", "capability lifecycle fixture must preserve the companion layer")
+    require(stewardship["capability_move"]["visible"] is True, "material lifecycle fork must reveal one capability move")
 
     regression = raw_intent_run_packet.build_packet(
         "Be my world-class prompt engineer and virtuoso for entrepreneurial tasks because I do not know how to ask Codex",
@@ -184,6 +199,7 @@ def main() -> int:
     print("- system fixture routes to /source-to-skill-system with Autopilot/Virtuoso support")
     print("- Antigravity global-access reconciliation routes to /system-audit before builder handoff")
     print("- pure Antigravity global manifest packaging routes to /source-to-skill-system")
+    print("- capability lifecycle fixture routes to /system-audit with a preservation move")
     print("- prompt-engineer/virtuoso wording does not misroute into unrelated creative-writing routes")
     print("- slash, colon, and source-command prefix forms strip before route/action generation")
     print("- JSON and plain CLIs render valid packets")

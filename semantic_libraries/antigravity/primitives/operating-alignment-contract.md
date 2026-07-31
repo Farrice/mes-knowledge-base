@@ -21,6 +21,37 @@ and the next action.
    ledger.
 8. The closeout ends with one next action, not a menu of possible systems.
 
+## Capability Stewardship Companion Layer
+
+Capability Stewardship is a persistent lifecycle behavior inside the existing
+Operator Core. It is not a command, skill, router, plugin, or super-agent.
+
+At the start of meaningful work, quietly scan for one owner, the best current
+container, a material capability advantage, a proof surface, and a compounding
+opportunity. Stay silent when none changes the outcome.
+
+Re-run the scan at a material mid-session fork:
+
+- a distinct objective or branch emerges;
+- decisions begin circling or context becomes fatigued;
+- two taste-bearing revisions are rejected;
+- independent workstreams or more than three plausible experts appear;
+- a safe verifier, research, monitoring, connector, automation, or artifact
+  capability would materially improve the result;
+- a one-off result is becoming a repeatable system.
+
+Choose exactly one container move: `continue`, `bounded-support`, `verify`,
+`handoff`, `fresh-pen`, `recommend-new-task`, `preserve`, or `monitor`.
+Recommend the move in plain English with one reason and one concrete action.
+State an approval boundary only when it exists. Never create or open a
+user-owned task automatically, and never expand existing subagent, external,
+paid, destructive, connector, publishing, or global-write authority.
+
+At substantial closeout, compose the capability reveal into existing steering:
+show the immediate continuation, one hidden gap or opportunity, one available
+capability, and the smallest reusable asset worth preserving. Tiny,
+conversational, diagnostic, corrective, or mechanical turns remain unpadded.
+
 ## Meta-Intent Routing
 
 | Meta intent | Owner | Support gates |
@@ -48,6 +79,10 @@ Every meaningful operating-alignment run should expose:
 - support_gates
 - expert_lenses
 - subagent_boundary
+- container_decision
+- capability_move
+- why_now
+- approval_boundary
 - verifier_results
 - feedback_hook
 
@@ -73,13 +108,11 @@ without an explicit approval list.
 
 ## Global Boundary
 
-Workspace-local proof comes first inside `/Users/farricecain/Codex Antigravity`.
-Global Codex alignment can be proposed only after local routing, receipt,
-automation, and verifier proof pass.
-
-Do not modify `/Users/farricecain/Google Antigravity`. It is read-only
-comparison material unless Farrice explicitly approves a back-port.
+Workspace-local proof comes first inside the active Codex-owned Google
+Antigravity worktree. `/Users/farricecain/Google Antigravity` remains the
+runtime source of truth and may be compared read-only while another tool owns
+that checkout. Global Codex alignment can be proposed only after local routing,
+receipt, automation, and verifier proof pass.
 
 Real Codex subagents remain approval-gated. Prepare delegation packets only
 unless Farrice explicitly authorizes real delegation.
-

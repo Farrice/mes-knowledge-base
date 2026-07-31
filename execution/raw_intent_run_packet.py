@@ -22,6 +22,7 @@ if str(EXECUTION) not in sys.path:
     sys.path.insert(0, str(EXECUTION))
 
 import co_creative_launchpad  # type: ignore  # noqa: E402
+import routing_governor  # type: ignore  # noqa: E402
 import virtuoso_orchestration  # type: ignore  # noqa: E402
 from antigravity_global_access import classify_global_access_intent  # noqa: E402
 
@@ -120,6 +121,8 @@ def route_for_packet(raw_intent: str, mode: str, virtuoso: dict[str, Any]) -> st
     global_access = classify_global_access_intent(raw_intent)
     if global_access["matched"]:
         return str(global_access["route"])
+    if routing_governor.is_capability_stewardship_intent(raw_intent):
+        return "system-audit"
     route = str(virtuoso.get("primary_route") or "autopilot")
     if route == "raw-intent-bridge":
         route = "system-audit" if any(term in q for term in ("audit", "repair", "broken", "not working")) else "autopilot"
@@ -396,6 +399,11 @@ def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
         "constraints": launchpad["constraints"],
         "missing_inputs": launchpad["missing_inputs"],
         "questions_that_change_execution": launchpad["questions_that_change_execution"],
+        "container_decision": launchpad["container_decision"],
+        "capability_move": launchpad["capability_move"],
+        "why_now": launchpad["why_now"],
+        "approval_boundary": launchpad["approval_boundary"],
+        "auto_task_creation": False,
         "chosen_route": chosen_route,
         "route_owner": owner_for_route(chosen_route, virtuoso),
         "support_gates": support_gates,
@@ -441,16 +449,32 @@ def render_plain(packet: dict[str, Any]) -> str:
         f"- **Missing inputs**: {fmt_list(packet['missing_inputs'])}",
         f"- **Questions that change execution**: {fmt_list(packet['questions_that_change_execution'])}",
         f"- **Support gates**: {fmt_list(['/' + gate for gate in packet['support_gates']])}",
-        "",
-        "## Context Plan",
-        f"- **Hot**: {fmt_list(packet['context_plan']['hot'])}",
-        f"- **On demand**: {fmt_list(packet['context_plan']['on_demand'])}",
-        f"- **Cold**: {fmt_list(packet['context_plan']['cold'])}",
-        f"- **Skip**: {fmt_list(packet['context_plan']['skip'])}",
-        f"- **Handoff**: {packet['context_plan']['handoff']}",
-        "",
-        "## Composition Slots",
     ]
+    capability = packet["capability_move"]
+    if capability.get("visible"):
+        container = packet["container_decision"]
+        lines.extend(
+            [
+                f"- **Container decision**: {container.get('move')} - {container.get('reason')}",
+                f"- **Capability recommendation**: {capability.get('recommendation')}",
+                f"- **Why now**: {packet['why_now']}",
+                f"- **What I can do**: {capability.get('action')}",
+                f"- **Approval boundary**: {packet['approval_boundary']}",
+            ]
+        )
+    lines.extend(
+        [
+            "",
+            "## Context Plan",
+            f"- **Hot**: {fmt_list(packet['context_plan']['hot'])}",
+            f"- **On demand**: {fmt_list(packet['context_plan']['on_demand'])}",
+            f"- **Cold**: {fmt_list(packet['context_plan']['cold'])}",
+            f"- **Skip**: {fmt_list(packet['context_plan']['skip'])}",
+            f"- **Handoff**: {packet['context_plan']['handoff']}",
+            "",
+            "## Composition Slots",
+        ]
+    )
     for slot in packet["composition_slots"]:
         lines.append(f"- **{slot['slot']}**: {slot['asset']} — {slot['job']}")
     decision = packet["execution_decision"]

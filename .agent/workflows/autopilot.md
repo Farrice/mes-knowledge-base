@@ -134,6 +134,35 @@ Hard stops before mutation: No global mirror, Google Antigravity edit, publishin
   sharpen ambiguity, but it does not own system repair, route wiring, hooks, or
   Claude-parity complaints.
 
+## Capability Stewardship Lifecycle
+
+Capability Stewardship is a companion layer inside Autopilot, not a new front
+door. For every meaningful start, quietly check the owner, current context
+container, one materially useful capability, the proof path, and what should
+survive the session. If none changes the outcome, execute without mentioning
+the scan.
+
+Re-run the leverage check when a distinct branch appears, decisions circle,
+two taste-bearing revisions are rejected, context fatigue appears, independent
+workstreams emerge, more than three experts are plausible, a safe verifier or
+research/monitoring/artifact capability becomes useful, or a one-off process is
+becoming reusable.
+
+Choose one move: continue, bounded support, verify, `/handoff`, `/fresh-pen`,
+recommend a new user-owned task, preserve the method, or monitor. Reuse the
+existing `/handoff` and `/fresh-pen` packet contracts; never duplicate their
+transfer logic. At a material fork show only:
+
+1. the recommended move in plain English;
+2. why it matters now;
+3. the concrete local action Codex can take;
+4. the approval boundary, only when one exists.
+
+Do not create or open user-owned tasks automatically. Do not deploy real
+subagents, schedule automations, publish, send, write through connectors, use
+paid tools, perform destructive action, or change global state without their
+existing explicit approvals.
+
 ## Execution Sequence
 
 1. Capture the raw intent.
@@ -237,15 +266,20 @@ when the work changes control-plane behavior.
 
 ## Operator Core Closeout
 
-Every meaningful Autopilot run — builds, repairs, audits, or any run with a
-real next decision — closes by filling in this template verbatim (replace the
-`<placeholders>`; do not regenerate the ritual as free-form prose):
+Substantial Autopilot runs — builds, repairs, audits, or any run with a real
+next decision — compose the Capability Stewardship reveal into the existing
+steering closeout. Skip the full block for answers, diagnostics, corrections,
+conversation, terse asks, and mechanical turns per `directives/steering-loop.md`;
+a skipped block is better than padded capability education.
+
+Use `execution/contextual_next_prompts.py` when it fits, or fill this compact
+shape with context-rich prompts:
 
 ```
 ### Next Prompts (Insightful Momentum)
-1. **Use Now:** <copy-paste prompt that acts on this run's output immediately>
-2. **Harden:** <copy-paste prompt that verifies or strengthens what was built>
-3. **Expand:** <copy-paste prompt that extends this toward a named goal>
+1. **Use Now:** <copy-paste immediate continuation; reveal the capability that makes it stronger>
+2. **Harden:** <copy-paste verifier or reliability move; name the hidden gap it closes>
+3. **Expand:** <copy-paste compounding move; name the reusable asset worth preserving>
 
 ### Operator Lesson
 <one lesson that teaches the move behind the work, not just the result>
@@ -258,5 +292,5 @@ real next decision — closes by filling in this template verbatim (replace the
 ```
 
 Each Next Prompt must be context-rich and capability-revealing, not generic.
-Skip the full closeout only when Farrice explicitly asks for a terse answer or a
-special tool action requires silence.
+At most one capability recommendation interrupts the main answer before this
+closeout; never dump the tool or expert menu.

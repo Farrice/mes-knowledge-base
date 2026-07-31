@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-07-31 · Capability Lifecycle Language No Longer Triggers End Session · a persistent start-mid-closeout behavior request contains closeout and is misclassified as a request to end the current session
 - 2026-07-30 · provisional-content-signal-loop · Deploy a source-grounded content signal loop when creator taste evidence exists but live platform metrics do not
 - 2026-07-28 · opus5-adaptation-bound-injector · Model-specific corrections scattered across prose + system reminders instead of a live injector that fires every prompt and adapts to dialect
 - 2026-07-28 · 2026-07-28-slash-commands-skill-family-documentation · 

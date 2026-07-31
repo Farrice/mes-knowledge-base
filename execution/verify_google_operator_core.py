@@ -56,6 +56,15 @@ PROBES = [
     ("Write paid-ad voiceover that is recordable as-is and not strategy notes.", "high-taste-writing-os"),
     ("give me better 3 next prompts and an operator lesson", "steering-compass"),
     ("full arsenal too many experts not interwoven", "expert-composition-governor"),
+    (
+        "Make capability awareness, context-container judgment, bounded expert orchestration, and proactive leverage surfacing a persistent default at session start, mid-session, and closeout without requiring magic words",
+        "system-audit",
+    ),
+    (
+        "Help me know what capabilities you can use at the start, middle, and end without magic words",
+        "system-audit",
+    ),
+    ("Wrap this task and prepare the closeout", "end-session"),
 ]
 
 HOOK_STATE_SUFFIXES = [
