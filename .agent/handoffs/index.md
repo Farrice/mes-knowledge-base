@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-31** [linkedin-launch/active] [Linkedin Launch — Send Ready First Wave 2026 07 31](2026-07-31-linkedin-launch.md) — Linkedin Launch — Send Ready First Wave 2026 07 31
+- **2026-07-31** [insight-brief/active] [Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief, Friday weekly synthesis, and three JSONL insight rows](2026-07-31-insight-brief.md) — Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief, Friday weekly synthesis, and three JSONL insight rows
 - **2026-07-30** [health-performance-geo-daily-brief/active] [Health Performance GEO Daily Brief 2026-07-30: Boundary Map Audit angle for self-directed health buyers](2026-07-30-health-performance-geo-daily-brief.md) — Health Performance GEO Daily Brief 2026-07-30: Boundary Map Audit angle for self-directed health buyers
 - **2026-07-30** [profile-copy-fresh-0730-packet/active] [Profile copy v7.1 fresh-pen board: banner + headline + 3 Experience entries + Services + lead-capture page, wargamed](2026-07-30-profile-copy-fresh-0730-packet.md) — Profile copy v7.1 fresh-pen board: banner + headline + 3 Experience entries + Services + lead-capture page, wargamed
 - **2026-07-29** [harness-unhobble/done] [Antigravity Harness — Amnesty + Apex Unhobble v1 (fresh-pen copy packet queued)](2026-07-29-harness-unhobble.md) — Session CLOSED 2026-07-30, Farrice verdict GOOD. Live next action is the fresh-pen packet: /go run the packet at .agent/missions/profile-copy-fresh-0730/portable.md

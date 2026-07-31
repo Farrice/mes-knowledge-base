@@ -188,7 +188,7 @@
 | `robert-greene` | **robert-greene** | craft mastery, ego and insecurity diagnosis, mastery strategist, mastery-path design, persuasion through self-interest and seduction, power, power dynamics, reputation, reputation and attention architecture, strategic concealment and multi-move planning, strategy |
 | `robert-mack` | **Robert Mack** | comedy writing architect |
 | `ron-lynch` | **Ron Lynch** | campaign architect, customer-as-media engineering, drtv-to-vsl translation, identity campaign architecture |
-| `rory-sutherland` | **Rory Sutherland** | costly signaling, perception engineering, psychological value, reframing, universal behavioral alchemy |
+| `rory-sutherland` | **Rory Sutherland** | perception engineering, psychological value, universal behavioral alchemy |
 | `ross-mckay` | **ross-mckay** | and scaling operations, cpg brand positioning, radical single-sku focus, retail distribution, speed as the ultimate moat, the "anchor customer" distribution hack, the "premium at scale" positioning |
 | `ross-minchev` | **ross-minchev** | affiliate monetization, ai-stacked product creation, data-driven niche validation, digital products, micro-niche discovery, niche selection, rapid dual-path launches, smart packaging |
 | `russell-brunson` | **russell-brunson** | direct-response funnels, hook-story-offer, hook-story-offer architecture, identity and movement engineering, identity-driven movement marketing, subconscious-desire positioning, timeless-principle extraction (funnel hacking), vivid-vision outcome selling |

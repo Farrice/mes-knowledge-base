@@ -1,5 +1,5 @@
 ---
-description: "Multi-source content creation, enrichment, bundling, and platform adaptation — the production layer of the AI content team"
+description: "Multi-source content creation, evidence-backed signal ideation, enrichment, bundling, and platform adaptation — the production layer of the AI content team"
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

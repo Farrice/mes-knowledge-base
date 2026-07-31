@@ -3063,8 +3063,36 @@
         "gaming_flag": false
       },
       "notes": "Checkpoint 1 revised after Kindle-only access confirmation; full book not reviewed; production Rory skill unchanged | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260731_064113",
+      "timestamp": "2026-07-31T06:41:13.004822",
+      "schema_version": "v3",
+      "component": "claim-safe-health-marketing",
+      "expert": "health-performance-geo",
+      "workflow": "insight-brief",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Evidence-Fit Map angle selected after repetition penalty | Drive disabled by current run instruction | Verification: PASS local, content_finish WARN only from required structure | Anchor: V4 health-performance GEO golden sample"
     }
   ],
-  "total_cases": 108,
-  "last_updated": "2026-07-30T16:31:37.524344"
+  "total_cases": 109,
+  "last_updated": "2026-07-31T06:41:13.007030"
 }

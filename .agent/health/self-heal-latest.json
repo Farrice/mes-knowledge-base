@@ -1,25 +1,7 @@
 {
- "ts": "2026-07-30T21:53:11.117225",
+ "ts": "2026-07-31T08:15:53.393291",
  "mode": "heal",
  "rows": [
-  {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "5 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "agent:rory-sutherland <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry, indexes",
-     "skill:kieran-flanagan-audience-intelligence <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry, indexes",
-     "skill:kieran-flanagan-content-engine <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry, indexes",
-     "skill:kieran-flanagan-content-ops <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry, indexes",
-     "skill:rory-sutherland-marketing <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry, indexes"
-    ]
-   },
-   "action": "healed",
-   "note": "agent:rory-sutherland <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry, indexes; skill:kieran-flanagan-audience-intelligence <- abd763a58 2026-07-30 chore(session): commit working tree \u2014 linkedin-launch offer/campaign updates, telemetry,",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -76,11 +58,18 @@
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 0d ago"
+      "detail": "stamped done, then touched 1d ago"
      }
     ],
     "deferred_files": 5
    },
+   "action": "escalated"
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 4d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

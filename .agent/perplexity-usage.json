@@ -1,0 +1,316 @@
+{
+    "monthly_limit_usd": 30.0,
+    "current_month": "2026-07",
+    "usage": {
+        "total_queries": 37,
+        "estimated_cost_usd": 0.74,
+        "queries": [
+            {
+                "timestamp": "2026-07-31T13:45:11.264315+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:15.946674+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:22.482989+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:29.953984+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:37.653169+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:44.539580+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:51.867027+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:45:58.317200+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:04.249237+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:12.939160+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:18.372040+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:23.072456+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:28.480961+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:34.923484+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:41.083939+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:48.139063+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items publi",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:52.903173+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:46:57.281719+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:03.756603+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:09.491624+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:14.719458+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:22.821719+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:28.065356+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:33.806881+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:40.027464+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:49.714612+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:54.363133+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:47:59.366159+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:03.555658+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:08.264147+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:14.265490+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:23.863840+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:32.412615+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:39.191953+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:47.083697+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:48:56.035067+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-31T13:49:01.648105+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-07-31). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            }
+        ]
+    },
+    "alerts": {
+        "warn_at_percent": 80,
+        "block_at_percent": 100
+    },
+    "loop_detection": {
+        "current_task_query_count": 2,
+        "current_task_name": "research-engine-psychology",
+        "last_query_timestamp": "2026-07-31T13:49:01.648105+00:00",
+        "consecutive_low_info_queries": 0
+    }
+}

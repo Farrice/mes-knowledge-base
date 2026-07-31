@@ -1,5 +1,5 @@
 ---
-description: "kieran-flanagan — full expert front door: AI Content Teams, Content Engine Architecture, Audience Intelligence, Content Bundling, Platform Adaptation, Performance Feedback Loops. Skills: kieran-flanagan-audience-intelligence, kieran-flanagan-content-engine, kieran-flanagan-content-ops."
+description: "kieran-flanagan — full expert front door: AI Content Teams, Content Engine Architecture, Audience Intelligence, Evidence-Backed Ideation, Content Queues, Content Bundling, Platform Adaptation, Perfor. Skills: kieran-flanagan-audience-intelligence, kieran-flanagan-content-engine, kieran-flanagan-content-ops."
 ---
 <!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 

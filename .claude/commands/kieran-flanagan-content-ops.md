@@ -1,5 +1,5 @@
 ---
-description: "Content orchestration, performance feedback loops, and system self-improvement — the optimization layer of the AI content team"
+description: "Content orchestration, human-curated queue state, performance feedback loops, and system self-improvement — the optimization layer of the AI content team"
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

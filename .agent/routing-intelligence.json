@@ -24,7 +24,7 @@
                 "dan-martell-business-scaling": 3,
                 "skill-creator": 1,
                 "jen-santulan-listing-content": 21,
-                "chief-of-staff-os": 4,
+                "chief-of-staff-os": 5,
                 "mcp-builder": 1,
                 "luke-iha-cross-domain": 2,
                 "henry-shukman-contemplative-writing": 1,
@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 69,
+                "Content": 70,
                 "writing-depth-layer": 3,
                 "Analysis": 14,
                 "seena-rez-tiktok-commerce": 2,
@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 13,
                 "how-i-write-os": 12,
-                "supercomputer": 56,
+                "supercomputer": 58,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 9,
@@ -93,7 +93,7 @@
                 "oren-luxury-psychology": 2,
                 "seth-godin-brand": 2,
                 "donald-miller-cognitive-load": 2,
-                "fresh-voice-system": 6,
+                "fresh-voice-system": 7,
                 "ward-farnsworth-rhetorical-mastery": 2,
                 "ben-watkins-storytelling": 9,
                 "alex-m-smith-natural-strategy": 1,
@@ -122,9 +122,9 @@
                 "prediction-market-weather-trading": 1,
                 "semantic-document-library-os": 1
             },
-            "total_routings": 772,
+            "total_routings": 777,
             "tier_counts": {
-                "0": 772,
+                "0": 777,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -134,8 +134,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 459,
-                "finalize-auto": 313
+                "hybrid": 463,
+                "finalize-auto": 314
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -208,7 +208,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 71,
+                "doc-coauthoring": 73,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 27,
@@ -225,12 +225,12 @@
                 "test-expert": 2,
                 "xlsx": 2,
                 "adam-sandler": 2,
-                "health-performance-geo": 5,
+                "health-performance-geo": 6,
                 "luke-iha-vicious-hooks": 17,
                 "creative-direction": 8,
                 "darrel-wilson-ai-monetization": 2,
                 "jeremy-haynes-cold-offer": 5,
-                "fresh-voice-system": 16,
+                "fresh-voice-system": 17,
                 "daniel-priestley-oversubscribed": 1,
                 "farrice-cain": 1,
                 "jeremy-haynes": 4,
@@ -275,7 +275,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 16,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 69,
+                "supercomputer": 71,
                 "design-md": 23,
                 "alex-content-science": 6,
                 "system-audit": 24,
@@ -312,7 +312,7 @@
                 "tobias-allen": 1,
                 "knowledge-architecture-studio": 2,
                 "mark-kashef": 2,
-                "chief-of-staff-os": 19,
+                "chief-of-staff-os": 20,
                 "oren-brand-archetypes": 3,
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
@@ -341,7 +341,7 @@
                 "geoff-woods": 1,
                 "alex-m-smith-natural-strategy": 5,
                 "nate-b-jones-intent-engineering": 1,
-                "luke-iha-creative-strategy": 12,
+                "luke-iha-creative-strategy": 13,
                 "lara-acosta": 5,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 18,
@@ -440,10 +440,10 @@
                 "lulu-cheng-meservey-communications": 1,
                 "semantic-document-library-os": 1
             },
-            "total_feedback": 97,
+            "total_feedback": 98,
             "negative_count": 0,
-            "ensemble_count": 562,
-            "auto_miss_count": 77,
+            "ensemble_count": 565,
+            "auto_miss_count": 78,
             "positive_count": 0
         }
     },
@@ -1311,6 +1311,15 @@
             "rating": "auto_miss",
             "correction": "alex-m-smith-natural-strategy",
             "notes": "expert skill 'alex-m-smith-natural-strategy' loaded not matching suggestion ['satori-graphics', 'lulu-cheng-meservey-communications']"
+        },
+        {
+            "feedback_id": "fb_20260731_151457_d51f",
+            "timestamp": "2026-07-31T15:14:57.393313+00:00",
+            "session_id": "183f09dd-7862-43c3-9629-812b4305f3ff",
+            "routing_id": "rt_20260731_151457_4048",
+            "rating": "auto_miss",
+            "correction": "chief-of-staff-os",
+            "notes": "expert skill 'chief-of-staff-os' loaded not matching suggestion ['supercomputer', 'doc-coauthoring']"
         }
     ],
     "routing_decisions": [
@@ -15302,6 +15311,94 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_133156_b502",
+            "timestamp": "2026-07-31T13:31:56.138378+00:00",
+            "session_id": "019fb85f-b39f-7641-ba41-aff17a77e299",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: 2026-",
+            "intent_score": 0,
+            "domain_detected": "fresh-voice-system",
+            "experts_deployed": [
+                "fresh-voice-system",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fresh-voice-system",
+            "ensemble": true,
+            "compound_pairing": "fresh-voice-system + luke-iha-creative-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_134112_73df",
+            "timestamp": "2026-07-31T13:41:12.996400+00:00",
+            "session_id": "",
+            "request_summary": "Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief, Friday weekly synthesis, and three JSONL insight rows",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "insight-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_151348_e4e9",
+            "timestamp": "2026-07-31T15:13:48.250201+00:00",
+            "session_id": "183f09dd-7862-43c3-9629-812b4305f3ff",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_151434_9614",
+            "timestamp": "2026-07-31T15:14:34.122487+00:00",
+            "session_id": "183f09dd-7862-43c3-9629-812b4305f3ff",
+            "request_summary": "lets run /cos before we close this out then",
+            "intent_score": 0,
+            "domain_detected": "chief-of-staff-os",
+            "experts_deployed": [
+                "chief-of-staff-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "chief-of-staff-os",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_151457_4048",
+            "timestamp": "2026-07-31T15:14:57.319133+00:00",
+            "session_id": "183f09dd-7862-43c3-9629-812b4305f3ff",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": "fb_20260731_151457_d51f"
         }
     ]
 }

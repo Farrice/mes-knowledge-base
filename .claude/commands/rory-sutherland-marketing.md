@@ -1,5 +1,5 @@
 ---
-description: "Rory Sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture, value perception, reverse benchmarking, perception engineering, and asymmetric bet evaluation. Cross-expert stacking with Georgi, Iha, Dunford, Kallaway, and Dai Med..."
+description: "Rory Sutherland's behavioral alchemy for marketing, copy, strategy, products, media, content, entrepreneurship, and operating decisions: psychological bottlenecks, perception engineering, chosen trade-offs, uncertainty design, reverse benchmarking, advertising archaeology, and..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

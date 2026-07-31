@@ -1,5 +1,5 @@
 ---
-description: "Content-reactive audience profiling, platform-specific style cards, creator style analysis, and topic cluster mapping"
+description: "Content-reactive audience profiling, platform-specific style cards, creator style analysis, topic cluster mapping, and creator-owned winning content profiles"
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

@@ -352,3 +352,9 @@
 {"ts": "2026-07-30T14:25:29Z", "label": "2026-07-30 health-performance brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-30T14:26:03Z", "label": "2026-07-30 health-performance brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-30T14:29:55Z", "label": "2026-07-30 health-performance brief (drive link update)", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-31T13:37:35Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d78 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('a \u2026 a \u2026 a') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-31T13:39:03Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-31T13:39:55Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-31T13:40:28Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-31T13:41:01Z", "label": "health-performance-geo-2026-07-31", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-31T13:41:47Z", "label": "health-performance-geo-2026-07-31-final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
