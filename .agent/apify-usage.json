@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 3.4465,
+  "spent_dollars": 3.4785,
   "runs": [
     {
       "ts": "2026-07-06T01:16:39.326002+00:00",
@@ -547,6 +547,27 @@
       "actor": "reddit",
       "results": 5,
       "cost": 0.005,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-07-31T21:09:20.692554+00:00",
+      "actor": "reddit",
+      "results": 12,
+      "cost": 0.012,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-07-31T21:10:53.346393+00:00",
+      "actor": "reddit",
+      "results": 10,
+      "cost": 0.01,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-07-31T21:14:12.676403+00:00",
+      "actor": "reddit",
+      "results": 10,
+      "cost": 0.01,
       "pricing_model": "per_result"
     }
   ]

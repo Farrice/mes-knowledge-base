@@ -120,11 +120,12 @@
                 "susan-orlean-narrative-nonfiction": 1,
                 "rory-sutherland-marketing": 2,
                 "prediction-market-weather-trading": 1,
-                "semantic-document-library-os": 1
+                "semantic-document-library-os": 1,
+                "brand-guidelines": 1
             },
-            "total_routings": 779,
+            "total_routings": 780,
             "tier_counts": {
-                "0": 779,
+                "0": 780,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -134,7 +135,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 464,
+                "hybrid": 465,
                 "finalize-auto": 315
             },
             "expert_counts": {
@@ -317,7 +318,7 @@
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 5,
-                "sharran-srivatsaa-scaling": 16,
+                "sharran-srivatsaa-scaling": 17,
                 "dai-media-consumer-posture": 3,
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
@@ -438,11 +439,12 @@
                 "evolution-reviewer": 1,
                 "prediction-market-weather-trading": 1,
                 "lulu-cheng-meservey-communications": 1,
-                "semantic-document-library-os": 1
+                "semantic-document-library-os": 1,
+                "brand-guidelines": 1
             },
             "total_feedback": 98,
             "negative_count": 0,
-            "ensemble_count": 566,
+            "ensemble_count": 567,
             "auto_miss_count": 78,
             "positive_count": 0
         }
@@ -15433,6 +15435,24 @@
             "workflow_used": "go",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_210714_1f30",
+            "timestamp": "2026-07-31T21:07:14.016337+00:00",
+            "session_id": "183f09dd-7862-43c3-9629-812b4305f3ff",
+            "request_summary": "good and run it now and give me the output so I can see for myself if it meets the standard of what I envisioned",
+            "intent_score": 0,
+            "domain_detected": "brand-guidelines",
+            "experts_deployed": [
+                "brand-guidelines",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-guidelines",
+            "ensemble": true,
+            "compound_pairing": "brand-guidelines + sharran-srivatsaa-scaling",
             "feedback": null
         }
     ]

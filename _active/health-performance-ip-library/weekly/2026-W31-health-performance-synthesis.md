@@ -1,72 +1,26 @@
-# Weekly Health Performance GEO Synthesis | 2026-W31
+# Weekly Synthesis — 2026-W31 (week of 2026-07-28)
 
-## Repeated Buyer Fears
+*Extracted from the 2026-07-31 Angle Map Listening Brief (inaugural v4 run).*
 
-- "Can I trust this claim when the product touches my body, sleep, hormones, recovery, or family?"
-- "Is this advice for someone like me, or just a generic line with better packaging?"
-- "Will AI, search, reviews, or creators repeat the brand's promise more strongly than the evidence allows?"
-- "What should I stop doing, not just what should I buy?"
+## 10. Deep Focus — FRIDAY WEEKLY SYNTHESIS (week of 2026-07-28)
 
-## Strongest Source-Backed Claims
+**The week's through-line: every trust surface this category leaned on is being re-verified by someone who isn't the brand.**
 
-- Google says generative Search relies on retrieved pages and query fan-out, so source-worthy pages still matter.
-- OpenAI says Health in ChatGPT can use connected health context with permission and should support, not replace, care.
-- GSSI reported women-specific hydration and fueling gaps from its Body of Science work, while explicitly warning the material is educational and not medical advice.
-- FTC health-products guidance keeps objective health claims under a competent-and-reliable-scientific-evidence standard.
+- Mon 07-28: headlines flattened a supplement study — the *press* re-verified the science and got it wrong; brands paid.
+- Tue 07-29: FTC/Google converged on incentivized reviews — *regulators and platforms* re-verifying social proof.
+- Wed 07-30: creatine gummies failing potency tests — *labs and competitors* re-verifying the "third-party tested" badge per format.
+- Thu-Fri 07-31: buyers graphing their own response — *the customer himself* re-verifying the felt promise. Capital keeps flowing in anyway (Neutonic VERIFIED; menopause telehealth raises in the ledger), which raises the cost of getting caught with an unverifiable promise.
 
-## Weak Claims To Avoid
+**Positioning read (Dunford lens):** the Angle Map should not be positioned against "creative services." It sits in the re-verification economy: it is the decision layer that chooses claims that SURVIVE re-verification, by press, platform, lab, regulator, or the buyer's own spreadsheet. That's the week's strongest positioning language upgrade: "angles your team can build from" quietly becomes "claims that survive checking." Worth testing in content before touching canon copy.
 
-- Any statement that a specific brand is cited or not cited by ChatGPT, Gemini, Perplexity, Claude, or Google AI without screenshots or logs.
-- Any public claim that women should follow a specific hydration, sodium, carbohydrate, supplement, or hormone protocol.
-- Any exact vendor-research AI citation share number framed as audited market truth.
-- Any named-brand accusation based on competitor testing, class-action allegations, or forum posts without primary documents.
+**Demand read (Priestley lens):** demand signal is forming on the founder side of this gap: an enforcement-readiness platform launched THIS MONTH (NutraVeri) betting founders will pay to pre-check claims. That is a direct market vote for "decision before production." The Angle Map's job is to be the creative-strategy version of that same instinct, at $750, in 48 hours. Signal: when infrastructure companies monetize a fear, the fear is real and budgeted.
 
-## Highest-Value Long-Tail Questions
+**Education synthesis (the structural thing this week taught):** a supplement brand runs on five proof surfaces, and they decay independently: (1) the study, decays via press flattening; (2) the review, decays via provenance policing; (3) the badge, decays via format drift; (4) the felt effect, decays via the buyer's own data; (5) the retail shelf, the only one that still transfers trust wholesale (Target curation row in the ledger). A brand's angle should lean on its LEAST-decayed surface. That's a reusable diagnostic and a possible named framework: **the Proof Decay Stack**.
 
-1. "How can I tell whether a women's hydration product was studied on women like me?"
-2. "When should a wellness product page tell me to stop self-directing and talk to a professional?"
-3. "What evidence should a supplement brand show before claiming third-party testing covers the exact format I buy?"
-4. "Can incentivized reviews still show in Google star ratings for a supplement brand?"
-5. "How can a health brand make its source-backed content easier for AI search to retrieve without overstating claims?"
+**Repeated buyer fear of the week:** "I can't tell if this is doing anything, and no one will tell me how I'd know."
 
-## Best 5 Percent Asset Candidate
+**Content buckets to test next:** Authority (calendar/checkpoint frame), Growth (drawer-style confession scenes), Conversion (churn-survey rereads).
 
-Evidence-Fit Claim Page: a one-scroll page block that sits under a women's performance claim and shows source population, activity context, life-stage boundary, claim limit, and practical next step.
+**Next-week build sprint (one):** draft the "honest timeline" answer page (section 7) as a public asset; stop condition: one page, checkpoint-structured, zero per-ingredient claims without a source.
 
-## Strongest Productized Service Opportunity
-
-Evidence-Fit Claim Audit: a $750-$2,000 entry audit for women's performance, hydration, functional beverage, supplement, wearable, or coaching brands that say "for women" but do not visibly prove fit.
-
-## Strongest Client-Acquisition Angle
-
-"Send me one claim where your page says 'for women.' I will mark whether the buyer can see who the advice was studied on, what use case it fits, and what not to assume."
-
-## Highest-Performing Content Buckets To Test Next
-
-- Authority: source-near trust checks.
-- Conversion: before/after claim rewrites.
-- Personal: Farrice's own bias toward restraint over louder claims.
-- Growth: AI-search visibility tied to narrow benefit ownership.
-
-## Best Public Teardown Candidate
-
-An anonymized women's hydration or electrolyte page scored against the Evidence-Fit checklist. Avoid naming a real brand until the page capture and claim-risk pass are complete.
-
-## Content Data Moat Themes Worth Compounding
-
-- "For X" as proof burden, not positioning.
-- Fit before advice.
-- Boundary language as a trust signal.
-- Source-near claims.
-- Buyer questions as page architecture.
-
-## Content Series Ideas
-
-1. "The Claim Fit Check" - one page, one claim, five evidence-fit questions.
-2. "What This Page Refuses To Say" - trust built by naming limits.
-3. "AI Search Needs A Better Source" - turning buyer questions into retrievable proof pages.
-4. "The Badge Is Not The Product" - review, COA, and source labels checked against what is actually shipping.
-
-## Next-Week Build Sprint
-
-Build the Evidence-Fit Claim Audit scorecard with ten rows, one anonymized example, three safe rewrite patterns, and one public LinkedIn carousel. Stop when the scorecard can be used in a 15-minute teardown without medical advice or named-brand accusation.
+Saved to `weekly/2026-W31-health-performance-synthesis.md`.

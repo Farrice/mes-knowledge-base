@@ -58,3 +58,6 @@ FROM: "our copy problem is a writing/volume problem" → TO: **"it's an unmade d
 ## Live deltas (engine-fed)
 
 *Appended daily by the Angle Map Listening Engine (`_active/health-performance-ip-library/AUTOMATION_PROMPT.md` v4.0) — dated, sourced, append-only. A curation session promotes deltas into the canon body above; the engine never edits canon.*
+
+### 2026-07-31 — New reactive trigger candidate: competitor raise in the founder's lane
+Neutonic raised $6M at $60M valuation Apr 28 2026 (VERIFIED, [BusinessWire](https://www.businesswire.com/news/home/20260428841018/en/)); a funded competitor puts the whole cognitive-energy category on a growth clock. Churn-heavy funded brands in the raised lane become fit-read targets the same week. Candidate 5th trigger alongside the four in "When they buy" above; promote after one live confirmation.

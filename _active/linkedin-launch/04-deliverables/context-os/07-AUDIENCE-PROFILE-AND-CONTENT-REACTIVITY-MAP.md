@@ -559,3 +559,6 @@ The launch baseline is ready. The audience’s real response begins when the wor
 ## Live deltas (engine-fed)
 
 *Appended daily by the Angle Map Listening Engine (`_active/health-performance-ip-library/AUTOMATION_PROMPT.md` v4.0) — dated, sourced, append-only. A curation session promotes deltas into the canon body above; the engine never edits canon.*
+
+### 2026-07-31 — The self-instrumenting buyer
+Cognitive-lane buyers now run tracked self-trials (wearables, AI-graphed logs) and judge products against their own data, not the label ([r/Nootropics 2026](https://www.reddit.com/r/Nootropics/comments/1r5pqlj/)). "It didn't do anything" churn language is a promise-window failure signal, not an efficacy verdict. Content implication: checkpoint frames (day 7/14/30) recognize this buyer; felt-benefit frames repel him. Grade: research-backed inference (one documented case + wearable-culture context).
