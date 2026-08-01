@@ -1,6 +1,6 @@
-# Listening cut — 2026-07-31 (Fri deep focus: weekly synthesis)
-- Tension: funded cognitive-energy boom (Neutonic $6M @ $60M, VERIFIED) vs buyers graphing their own brains because they can't feel the promise
-- Receipt: "Taking piracetam for about a year. Conclusion: it does nothing to me" + 2026 buyer running AI-graphed self-trials
-- Thesis: a supplement doesn't fail in the body, it fails in the calendar — promise-window vs benefit-window is the unowned frame
-- Post seed: "There's a drawer in my kitchen where supplements go to die." → full draft in the brief §5
-- Docs fed: 07-AUDIENCE · 03-ICP · promises +4 · VAULT +3 READY assets · Full brief: _active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md
+# Listening cut — 2026-08-01 (Sat deep focus: winners teardown)
+- Tension: the founder's customer file quietly turned 45 and female; his creative still sells to 24-year-old men.
+- Receipt: "the science backs creatine for women" vs a 36-woman, four-arm trial of a different form — and a peri buyer calling the guidance "wildly contradictory" (URL in brief).
+- Thesis: the category's biggest new buyer is being onboarded by scientists, morning TV, and scare content — everyone except the brands.
+- Post seed: "Women used to stop me at the counter of a Vitamin Shoppe to ask one question about creatine" → full draft in the brief.
+- Docs fed: 07 +1 audience state, 03 +1 trigger, PNK +3, insights +4, vault +3 READY · Full brief: _active/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md

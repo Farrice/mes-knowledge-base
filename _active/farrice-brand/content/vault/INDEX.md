@@ -2,6 +2,9 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-01 | [counter-question-creatine-post](2026-08-01-counter-question-creatine-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |
+| 2026-08-01 | [nobody-sent-her-script](2026-08-01-nobody-sent-her-script.md) | 45-60s video script | Thesis · P1 | Growth | Outer | READY |
+| 2026-08-01 | [thirty-six-women-script](2026-08-01-thirty-six-women-script.md) | 45-60s video script | Proof · P2 | Authority | Bridge | READY |
 | 2026-07-31 | [drawer-where-supplements-die](2026-07-31-drawer-where-supplements-die.md) | LinkedIn post | Thesis · P4 | Authority | Outer | READY |
 | 2026-07-31 | [proof-decay-stack-essay](2026-07-31-proof-decay-stack-essay.md) | Long-form essay | Thesis · P2 | Authority | Bridge | READY |
 | 2026-07-31 | [drawer-video-script](2026-07-31-drawer-video-script.md) | 45-60s video script | Thesis · P4 | Growth | Outer | READY |
