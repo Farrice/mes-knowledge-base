@@ -2,6 +2,8 @@
 
 *Launch baseline, 2026-07-30. Current evidence grounds the demand-side buyer profile. Content reactivity remains provisional until Farrice publishes and measures at least 10 pieces in the supplement and performance lane.*
 
+> **Companion note, 2026-07-31:** `08-TWO-RING-RESONANCE-DOSSIER.md` extends this doc one layer down (identity-level resistance) and one layer out (the outer engagement ring + Bridge Message). This doc still governs audience selection and performance interpretation; 08 governs resonance, hooks, and ring tagging in the content factory.
+
 ## The decision this document makes
 
 The audience is not “people interested in supplements.”
