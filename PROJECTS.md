@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-07-31 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-08-01 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -8,9 +8,9 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-07-31 | active |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-07-31 | active* |
 | `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-07-31 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-07-30 | active |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
 | `positioning-cowork-2026-07-25` | _active/ | `_active/positioning-cowork-2026-07-25/INDEX.md` | 2026-07-28 | active* |
 | `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-07-28 | active |
@@ -25,10 +25,6 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `coach-cooz` | _active/ | `_active/coach-cooz/INDEX.md` | 2026-07-08 | active* |
 | `dwa-affiliate-battle-test` | _active/ | `_active/dwa-affiliate-battle-test/00-start-here/DEPLOY.md` | 2026-07-07 | active* |
 | `josh-swing-nerd-shirts-v1` | _active/ | `_active/josh-swing-nerd-shirts-v1/INDEX.md` | 2026-07-06 | active* |
-| `codex-repeatability` | _active/ | `_active/codex-repeatability/INDEX.md` | 2026-07-01 | active* |
-| `farrice-teach-grow-rich` | _active/ | `_active/farrice-teach-grow-rich/INDEX.md` | 2026-07-01 | active* |
-| `josh-dancewear-brand` | _active/ | `_active/josh-dancewear-brand/INDEX.md` | 2026-07-01 | active* |
-| `trendscale-brief-revision` | _active/ | `_active/trendscale-brief-revision/INDEX.md` | 2026-07-01 | active* |
 
 ## Parked
 
@@ -39,6 +35,10 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-07-28 | parked |
 | `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-07-28 | parked |
 | `mybpm-merch-os-run-1` | _active/ | `_active/mybpm-merch-os-run-1/INDEX.md` | 2026-07-19 | parked |
+| `codex-repeatability` | _active/ | `_active/codex-repeatability/INDEX.md` | 2026-07-01 | parked* |
+| `farrice-teach-grow-rich` | _active/ | `_active/farrice-teach-grow-rich/INDEX.md` | 2026-07-01 | parked* |
+| `josh-dancewear-brand` | _active/ | `_active/josh-dancewear-brand/INDEX.md` | 2026-07-01 | parked* |
+| `trendscale-brief-revision` | _active/ | `_active/trendscale-brief-revision/INDEX.md` | 2026-07-01 | parked* |
 | `_ledgers` | _active/ | `_active/_ledgers/INDEX.md` | 2026-06-19 | parked* |
 | `disney-crowd-app` | _active/ | `_active/disney-crowd-app/INDEX.md` | 2026-06-11 | parked* |
 | `kens-fasting` | _active/ | `_active/kens-fasting/INDEX.md` | 2026-06-02 | parked |
@@ -75,7 +75,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
 | `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
 
-**56 projects** — 21 active, 15 parked, 20 done.
+**56 projects** — 17 active, 19 parked, 20 done.
 
 ## Needs judgment
 
