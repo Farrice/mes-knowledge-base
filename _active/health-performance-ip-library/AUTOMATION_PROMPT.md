@@ -1,6 +1,6 @@
 # Angle Map Listening Engine — Health & Performance Market
 
-Version: 4.0 Angle Map Fusion (2026-07-31) — fuses the GEO daily brief and the insight brief into ONE listening engine centered on the locked Angle Map offer
+Version: 4.1 Content Factory (2026-07-31) — v4.0 fused the GEO daily brief and the insight brief into ONE listening engine centered on the locked Angle Map offer; v4.1 adds the story-seat composition bench, the Content Factory Contract (flagship + rotating finished format), the two-ring resonance dial, and the content vault
 Owner: Oren Operational Systems
 Quality wrapper: source-command-high-taste-os / high-taste-writing-os
 Primary specialists: Luke Iha Creative Strategy, April Dunford Positioning, Daniel Priestley Demand Signal
@@ -119,6 +119,32 @@ Every run appends — never rewrites — dated delta blocks to the living docs:
 - `_active/health-performance-ip-library/ledger/insights.jsonl` — continues unchanged (schema in Ledger + Receipt).
 
 Canon bodies are never edited by the engine — deltas are append-only, dated, and sourced. A human (or an explicit curation session) promotes deltas into canon; the engine only feeds.
+
+## Content Factory Contract (v4.1 — the vault gets stocked daily)
+
+The brief is a factory, not just a report. Farrice's mandate verbatim: *"a content factory machine, a flywheel that compounds and builds but also educates me… a content vault that's fully stocked and loaded for me to go, that's at the highest level caliber it could be."*
+
+**Daily finished output (every run):**
+1. **The flagship post** — fully drafted, voice-card true, 150-330 words, scene-open.
+2. **The rotating second format — taken to FINISHED, not outlined:**
+
+| Day | Second format finished |
+|---|---|
+| Mon | Carousel: full slide-by-slide copy (8-12 slides per 05-CONTENT-STRATEGY teardown format) |
+| Tue | Short video script (45-60s), Hoyos retention beats |
+| Wed | Teardown post (the promises-not-kept deep dive becomes the public pattern piece) |
+| Thu | Series/education post (Cole architecture: entry N of a named series) |
+| Fri | Synthesis essay draft (the weekly synthesis argued as one long-form piece) |
+| Sat | Two short-form video scripts from the winners-teardown mechanics |
+| Sun | Education long-form (the curriculum chapter made public-readable) |
+
+3. Hook stack (5, bucket-labeled), remaining formats as strong seeds, teardown prompt, DM angle — unchanged from v4.0.
+
+**Every asset carries four tags:** content pillar (`Proof` | `Thesis` — 05-CONTENT-STRATEGY law: a third topic is off-strategy) · narrative pillar (`P1-P5` from PROOF-TO-MARKET-OS) · bucket (`Growth` | `Authority` | `Conversion` | `Personal`) · **ring** (`Outer` = relatable/perspective-shift for the wide audience · `Inner` = buyer-recognition for the founder/growth-lead ICP · `Bridge` = both).
+
+**The two-ring resonance dial (Farrice 2026-07-31):** content resonates broad, converts narrow. Every outer-ring asset passes the better-off test: *the reader leaves better off than they arrived, even if they never buy — a hot moment, a shifted perspective, a thing they can use today.* Every inner-ring asset passes buyer recognition: the founder sees their own private sentence. Ring definitions live in `_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
+
+**Vault filing (mandatory):** every FINISHED asset is filed to `_active/farrice-brand/content/vault/` as its own dated file (`YYYY-MM-DD-<slug>.md`) with frontmatter: `status: READY`, the four tags, source brief path, and format. The run appends one line per asset to `_active/farrice-brand/content/vault/INDEX.md`. States move READY → POSTED → an outcome note (Farrice or a session updates them; the engine only adds READY rows). The vault may stock faster than the 3-5/week posting ceiling — that is the point; the queue is the gate, the vault is the magazine. `/content-queue` remains the idea-selection layer and composes freely with the vault (never forced wiring).
 
 ## Content-First Governor
 
@@ -468,6 +494,15 @@ Use one integrated output. Expert names are not proof. Evidence of integration i
 | Copy Gate | Harry Dry plus Kallaway | Enforce proof, specificity, example density, curiosity, and perspective-changing aha moments. |
 | Risk Gate | Futurepedia Prompt Engineering | Enforce source boundaries, anti-generic output, prompt clarity, and execution-grade structure. |
 
+**Story-seat bench (v4.1, Farrice 2026-07-31) — shapes and gates the Content Factory sections; one author per body stays law (Diandra remains hooks-only; no multi-expert stitched bodies):**
+
+| Seat | Expert | Job in the factory |
+|---|---|---|
+| Psychology | Kallaway | Hook stacks, dopamine ladder, save/share mechanics, bucket assignment; the "why they stop scrolling" gate on every hook. |
+| Architecture | Nicolas Cole | Pillar/series threading, education-that-positions, category-of-one framing; the "why they come back" read on themes. |
+| Platform | Lara Acosta | LinkedIn-native format fit against 05-CONTENT-STRATEGY mechanics (saves ~10x, dwell, golden hour, 3-5/week ceiling); the "where it lands" gate. |
+| Story | Jenny Hoyos plus Shaan Puri | Narrative arcs, open loops, retention beats for video scripts and story-first posts; the "why they feel it" pass. |
+
 ## Required Output Shape
 
 The brief renders in this order: Daily Core elements live inside sections 1-5
@@ -584,6 +619,7 @@ generic CTAs.
 Every LinkedIn asset must include:
 
 - content bucket
+- the four v4.1 tags (content pillar · narrative pillar · bucket · ring)
 - reader save reason
 - buyer next thought
 - soft CTA or audit bridge
@@ -591,6 +627,11 @@ Every LinkedIn asset must include:
 - proof moment
 - turn
 - residue line
+
+The day's rotating second format (Content Factory Contract calendar) appears here
+FINISHED, gated by the story-seat bench: Kallaway on the hooks, Cole on the
+series/pillar threading, Lara on platform fit, Hoyos/Puri on narrative beats.
+One author per body; the seats shape and gate, they never stitch.
 
 ### 6. Proof Spine
 
@@ -774,6 +815,11 @@ Before finalizing, verify:
 - living-doc deltas were appended per the Compounding Contract (or the no-delta
   case is stated honestly)
 - the exec cut (`daily/LATEST-EXEC-CUT.md`) was written: ≤6 lines + link
+- the rotating second format is FINISHED per the Content Factory calendar (not
+  an outline), and every finished asset was filed to the vault with `status:
+  READY`, the four tags, and an INDEX.md row
+- every outer-ring asset passes the better-off test; every inner-ring asset
+  passes buyer recognition
 - every offer mention matches the locked canon ($750, DM ANGLE, three angles,
   48 hours, make-right, Sprint backend only); zero retired-offer language
 - at least five lines are directly usable as hooks or post lines

@@ -185,5 +185,55 @@ Saved to `weekly/2026-W31-health-performance-synthesis.md`.
 - **promises-not-kept.jsonl** ← 4 rows (section 1.5).
 - **insights.jsonl** ← 3 rows.
 
+## 12. v4.1 Content Factory Re-Run (same day, enhanced standard — story bench applied)
+
+### 12.1 Finished second format (Friday calendar: synthesis essay draft)
+
+**"The Proof Decay Stack"** · tags: Thesis · P2 (claim-risk) · Authority · Bridge · format: long-form essay/article · vault: READY
+
+> Every supplement brand is built on five kinds of proof. This week I watched all five get audited at once.
+>
+> Monday, a study got flattened into a scary headline, and the brands leaning on that study paid for a distortion they didn't write. Tuesday, the FTC and Google moved on incentivized reviews in the same season, which means the five-star wall you bought is now a liability wall. Wednesday, independent labs kept finding creatine gummies underpotent, and a "third-party tested" badge earned on powder quietly stopped covering the chewable sitting on the shelf. And all week, in the forums where your customers actually talk, buyers were running their own experiments. One guy tracked a month of his own response data and built graphs from it. He trusts his spreadsheet more than your label.
+>
+> Here is the pattern under all of it: every proof surface a supplement brand leans on decays, and they decay independently.
+>
+> The study decays when the press flattens it. The review decays when provenance gets policed. The badge decays when the format drifts from the one that earned it. The felt effect decays the moment a buyer can measure himself and can't find you in the data. The only surface still transferring trust wholesale is the retail shelf, and retailers know it, which is why curation is becoming the product.
+>
+> I spent five years behind a supplement counter and eighteen years coaching the bodies these products claim to serve. The brands I watched customers stay loyal to were never the loudest ones. They were the ones whose claims held up when somebody checked.
+>
+> So before your team makes another round of creative, run this audit: list your five proof surfaces. Study. Reviews. Badge. Felt effect. Shelf. Mark which ones have decayed since you earned them. Then build your next campaign angle on the least-decayed surface you own.
+>
+> Most brands do the opposite. They lead with whichever proof sounds biggest, which is usually the one that has decayed the furthest. That gap between the proof you advertise and the proof that survives checking is where trust dies quietly, one unanswered "did this actually work?" at a time.
+>
+> The market is not getting more gullible. Your next angle should assume the buyer checks.
+
+*(Cole architecture note: this essay is the mother post of a named 5-part series — one decayed surface per post, each standalone per 05-CONTENT-STRATEGY POV format. Series title: "Proof That Survives Checking." Slots into the Thesis pillar cadence without displacing the weekly teardown.)*
+
+### 12.2 Kallaway hook pass — the stack re-cut with full tags
+
+| Hook | Content pillar | P | Bucket | Ring | Mechanic |
+|---|---|---|---|---|---|
+| There's a drawer in my kitchen where supplements go to die. | Thesis | P4 | Growth | Outer | Scene + universal recognition; dwell |
+| A supplement doesn't fail in the body. It fails in the calendar. | Thesis | P2 | Authority | Bridge | Aphorism; save trigger |
+| Your churn survey keeps saying "it didn't do anything." That sentence is a positioning brief, and nobody's reading it. | Thesis | P1 | Conversion | Inner | Founder private-pain naming |
+| The guy who graphed his own brain for a month did more honest marketing than the brand did. | Proof | P3 | Authority | Outer | Curiosity gap + third-party hero |
+| I sold supplements for five years. The most honest thing I ever said at that counter was "put it back." | Thesis | P4 | Personal | Outer | Confession pivot; comment bait (15+ word replies) |
+
+### 12.3 Lara platform read (360Brew fit)
+
+- Flagship post: 330 words sits at the top of the POV range; length earns dwell only if the scene holds — it does. Suggested tags: #supplementmarketing #positioning #dtc (3 max, per canon). Golden hour: post between 7-9am PT weekday; stay on for 60-90 min of replies. Save-worthiness carrier is the day-7/14/30 checkpoint idea — consider pinning that line as the first comment.
+- Essay: publish as LinkedIn article ONLY after 2-3 proof posts from this angle have run (05-CONTENT-STRATEGY: long-form follows proof posts, never leads).
+- Cadence guard: today's run stocked 3 READY assets; the week's ceiling is 3-5 posts. The vault is ahead of the calendar — that is the design, not a backlog.
+
+### 12.4 Vault stock filed this run
+
+| Asset | Format | Tags | Status |
+|---|---|---|---|
+| `2026-07-31-drawer-where-supplements-die.md` | LinkedIn post | Thesis · P4 · Authority · Outer | READY |
+| `2026-07-31-proof-decay-stack-essay.md` | Long-form essay | Thesis · P2 · Authority · Bridge | READY |
+| `2026-07-31-drawer-video-script.md` | 45-60s video script | Thesis · P4 · Growth · Outer | READY |
+
+Ring definitions: `context-os/08-TWO-RING-RESONANCE-DOSSIER.md` (two-ring build commissioned this session).
+
 ---
-*Engine: Angle Map Listening Engine v4.0 · Run: 2026-07-31 (inaugural, in-session, full pipe) · Next run: 2026-08-01 05:30 local (Saturday deep focus: winners teardown)*
+*Engine: Angle Map Listening Engine v4.1 · Run: 2026-07-31 (inaugural v4.0 run + same-day v4.1 factory re-run) · Next run: 2026-08-01 05:30 local (Saturday deep focus: winners teardown; second format: two short-form scripts)*
