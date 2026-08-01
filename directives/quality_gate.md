@@ -109,8 +109,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-31 (chain_runner finalize for chief-of-staff-os) |
-| **Activation Count** | 778 |
-| **30-Day Review Date** | 2026-08-30 |
+| **Last Activated** | 2026-08-01 (chain_runner finalize for listening-engine-v4.1) |
+| **Activation Count** | 779 |
+| **30-Day Review Date** | 2026-08-31 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

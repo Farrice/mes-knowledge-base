@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-31T06:00:05.652636",
+  "timestamp": "2026-08-01T06:00:05.822082",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (56 projects, 1 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
-    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 0 need judgment"
+    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 1 need judgment"
   },
   "self_heal": {
     "exit": 0,
@@ -30,7 +30,7 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 8,
+    "new": 0,
     "coverage": "3559/3559",
     "orphans_total": 10,
     "flips": [],

@@ -3119,8 +3119,36 @@
         "gaming_flag": false
       },
       "notes": "Extended v3.5 (never rebuilt); cloud routine paused after harvesting its final run; smoke: Apify reddit $0.005 OK, cos_prep render OK, launchd loaded | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260801_060208",
+      "timestamp": "2026-08-01T06:02:08.521589",
+      "schema_version": "v3",
+      "component": "listening-engine-v4.1",
+      "expert": "oren-operational-systems",
+      "workflow": "angle-map-listening",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Worked: winners-teardown day landed with real numbers (per-URL Apify stat pulls beat the zeroed hashtag tier); the n=36/HCl-vs-monohydrate evidence gap is the kind of non-obvious insight the felt standard asks for; gates caught 3 real prose tells pre-ship and all 3 vault assets closed CLEAN 0/10. Didn't: Reddit actor CLI contract drifted (400s) \u2014 worked around via direct API with hand-logged spend, needs a proper apify_client.py fix; prose_classifier FLAGGED the brief document on format-structural signals (bold labels/tables), reported as false-positive per 07-30 precedent. Expert-8 anchor: rubric_v1 Dim-2 Anchor-9 test (embodies the teardown-mechanic thinking \u2014 search-question titles, depth-as-respect \u2014 rather than labeling it); scored 8 not 9 because founder-side language remains composite per 08-dossier. | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 110,
-  "last_updated": "2026-07-31T13:30:47.930252"
+  "total_cases": 111,
+  "last_updated": "2026-08-01T06:02:08.525350"
 }

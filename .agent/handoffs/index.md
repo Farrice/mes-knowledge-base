@@ -2,6 +2,10 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-01** [farrice-brand/active] [Farrice Brand — Thirty Six Women Script](2026-08-01-farrice-brand.md) — Farrice Brand — Thirty Six Women Script
+- **2026-07-31** [capability-stewardship-acceptance/active] [Handoff: Capability Stewardship Default - Phase 1 Acceptance](2026-07-31-capability-stewardship-acceptance.md) — Capability Stewardship is a quiet default at meaningful session starts, material mid-session forks, and substantial closeout.
+- **2026-07-31** [capability-stewardship-phase-2-global-bridge/active] [Handoff: Capability Stewardship Default - Phase 2 Global Bridge](2026-07-31-capability-stewardship-phase-2-global-bridge.md) — Capability Stewardship is a quiet default at session start, material mid-session forks, and closeout; it does not require a command or magic words.
+- **2026-07-31** [capability-stewardship-phase-1/active] [Handoff: Capability Stewardship Default - Phase 1](2026-07-31-capability-stewardship-phase-1.md) — Next session should do: run a fresh-session Google-local smoke test and review the visible recommendation quality.
 - **2026-07-31** [linkedin-launch/active] [Linkedin Launch — Send Ready First Wave 2026 07 31](2026-07-31-linkedin-launch.md) — Linkedin Launch — Send Ready First Wave 2026 07 31
 - **2026-07-31** [insight-brief/active] [Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief, Friday weekly synthesis, and three JSONL insight rows](2026-07-31-insight-brief.md) — Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief, Friday weekly synthesis, and three JSONL insight rows
 - **2026-07-30** [health-performance-geo-daily-brief/active] [Health Performance GEO Daily Brief 2026-07-30: Boundary Map Audit angle for self-directed health buyers](2026-07-30-health-performance-geo-daily-brief.md) — Health Performance GEO Daily Brief 2026-07-30: Boundary Map Audit angle for self-directed health buyers

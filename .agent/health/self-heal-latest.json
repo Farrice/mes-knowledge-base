@@ -1,5 +1,5 @@
 {
- "ts": "2026-07-31T08:15:53.393291",
+ "ts": "2026-08-01T06:03:04.819758",
  "mode": "heal",
  "rows": [
   {
@@ -51,24 +51,24 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 status done but live; 5 file(s) the sweep deferred for judgment \u2014 e.g. _active/operator-cockpit-v2",
+   "what": "organization drift: 1 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/operator-cockpit-v2",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 1d ago"
+      "detail": "stamped done, then touched 2d ago"
      }
     ],
-    "deferred_files": 5
+    "deferred_files": 1
    },
    "action": "escalated"
   },
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 4d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 5d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
@@ -96,7 +96,7 @@
   {
    "id": "verify_system.py",
    "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 4d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_system.py is red in the 5d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },

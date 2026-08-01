@@ -449,20 +449,24 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 1,
+            "total_routings": 3,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "meg-heckman-buyer-trigger-os": 1
+                "meg-heckman-buyer-trigger-os": 1,
+                "sean-dollwet-kdp-publishing": 1,
+                "Research": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "context-profile-architect": 1
+                "context-profile-architect": 1,
+                "sean-dollwet-kdp-publishing": 1,
+                "oren-operational-systems": 1
             },
             "tier_counts": {
-                "0": 1,
+                "0": 3,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -470,7 +474,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 1
+                "hybrid": 2,
+                "finalize-auto": 1
             },
             "ensemble_count": 1
         }
@@ -493,6 +498,40 @@
             "workflow_used": "meg-heckman-buyer-trigger-os",
             "ensemble": true,
             "compound_pairing": "meg-heckman-buyer-trigger-os + context-profile-architect",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_123010_7e38",
+            "timestamp": "2026-08-01T12:30:10.082311+00:00",
+            "session_id": "5a324f30-ab96-4830-94d0-d2fd6e0c2d00",
+            "request_summary": "Read and execute _active/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary,",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_130208_c18e",
+            "timestamp": "2026-08-01T13:02:08.511514+00:00",
+            "session_id": "",
+            "request_summary": "2026-08-01 Angle Map Listening Brief (Saturday winners teardown): creatine-handoff angle with VERIFIED winner view counts, CONCRET-MENOPA evidence-fit gap, 3 verbatim PNK receipts, flagship post + 2 f",
+            "intent_score": 4,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "angle-map-listening",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]
