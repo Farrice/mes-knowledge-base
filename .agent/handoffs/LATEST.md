@@ -1,32 +1,30 @@
 # Latest Handoff
 
-**Thread:** farrice-brand  
-**Full path:** .agent/handoffs/2026-08-01-farrice-brand.md  
+**Thread:** angle-map-listening-engine-v4-1  
+**Full path:** .agent/handoffs/2026-08-01-angle-map-listening-engine-v4-1.md  
 **Date:** 2026-08-01 (today)  
 **Status:** active  
-**Title:** Farrice Brand — Thirty Six Women Script
+**Title:** 2026-08-01 Angle Map Listening Brief: creatine handoff winners teardown, local-only Codex run with Drive export disabled
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume farrice-brand` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume angle-map-listening-engine-v4-1` for this one.
 
 ---
-thread: farrice-brand
+
+---
+thread: angle-map-listening-engine-v4-1
 status: active
-resume_hint: Farrice Brand — Thirty Six Women Script
+resume_hint: 2026-08-01 Angle Map Listening Brief: creatine handoff winners teardown, local-only Codex run with Drive export disabled
 branch: main
 pin: true
 ---
 
-# Farrice Brand — Thirty Six Women Script
+# 2026-08-01 Angle Map Listening Brief: creatine handoff winners teardown, local-only Codex run with Drive export disabled
 
-**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
+**Next session focus**: Resume the `angle-map-listening-engine-v4-1` work-stream — see the deliverable above.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-01-counter-question-creatine-post.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-01-nobody-sent-her-script.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-01-thirty-six-women-script.md
-
-**Retrieve:** `/resume farrice-brand`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+_Auto-pinned by chain_runner.finalize (angle-map-listening-engine-v4.1)._
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
-- Previous handoff on this thread: `.agent/handoffs/2026-07-19-farrice-brand.md` — everything it lists as shipped is EXTEND-ONLY.
+- (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
 

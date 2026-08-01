@@ -1,32 +1,32 @@
 # Knowledge Briefing
-*Generated: 2026-07-30 | 770 sources | 2,936,502 words*
+*Generated: 2026-08-01 | 779 sources | 2,944,709 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,235 words — `knowledge/index.md`
-- **log** (general) — 16,041 words — `knowledge/log.md`
-- **architecture-checkpoint** (systems [kieran-flanagan]) — 2,121 words — `extractions/kieran-flanagan-content-signal-loop/architecture-checkpoint.md`
-- **extraction-report** (content [kieran-flanagan]) — 2,552 words — `extractions/kieran-flanagan-content-signal-loop/extraction-report.md`
-- **verification-checkpoint** (content [kieran-flanagan]) — 611 words — `extractions/kieran-flanagan-content-signal-loop/verification-checkpoint.md`
-- **verification-fixtures** (content [kieran-flanagan]) — 289 words — `extractions/kieran-flanagan-content-signal-loop/verification-fixtures.md`
-- **architecture-checkpoint** (systems [nick-saraev]) — 2,933 words — `extractions/nathan-follen-agentic-revops/architecture-checkpoint.md`
-- **deep-mes-extraction** (content [nick-saraev]) — 2,854 words — `extractions/nathan-follen-agentic-revops/deep-mes-extraction.md`
-- **source-ledger** (strategy [nick-saraev]) — 854 words — `extractions/nathan-follen-agentic-revops/source-ledger.md`
-- **vision-checkpoint** (content [nick-saraev]) — 1,897 words — `extractions/nathan-follen-agentic-revops/vision-checkpoint.md`
+- **log** (general) — 16,224 words — `knowledge/log.md`
+- **00-START-HERE** (strategy) — 316 words — `extractions/alex-copper-static-ads/00-START-HERE.md`
+- **amplification-report** (systems) — 1,003 words — `extractions/alex-copper-static-ads/amplification-report.md`
+- **architecture-checkpoint** (systems) — 315 words — `extractions/alex-copper-static-ads/architecture-checkpoint.md`
+- **behavior-proof-plan** (copywriting) — 429 words — `extractions/alex-copper-static-ads/behavior-proof-plan.md`
+- **deep-extraction** (screenwriting) — 1,349 words — `extractions/alex-copper-static-ads/deep-extraction.md`
+- **skill-system-contract** (systems) — 857 words — `extractions/alex-copper-static-ads/skill-system-contract.md`
+- **smoke-test** (copywriting) — 2,062 words — `extractions/alex-copper-static-ads/smoke-test.md`
+- **source-ledger** (content) — 962 words — `extractions/alex-copper-static-ads/source-ledger.md`
+- **vision-checkpoint** (content) — 731 words — `extractions/alex-copper-static-ads/vision-checkpoint.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 273 | nick-saraev |
-| copywriting | 103 | luke-iha |
+| content | 275 | nick-saraev |
+| copywriting | 105 | luke-iha |
 | general | 94 | nick-saraev |
-| strategy | 84 | april-dunford |
-| screenwriting | 54 | connelly |
+| strategy | 85 | april-dunford |
+| screenwriting | 55 | connelly |
+| systems | 50 | nick-saraev |
 | brand | 50 | oren-john |
-| systems | 47 | nick-saraev |
 | seo | 27 | nathan-gotch |
 | research | 27 | dai-media |
 | sales | 11 | dai-media |

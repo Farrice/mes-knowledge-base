@@ -1,0 +1,10 @@
+{
+  "title": "Alex Cooper Static Acquisition System - Skill System Contract",
+  "artifact_type": "skill_system_contract",
+  "created": "2026-08-01",
+  "source_file": "skill-system-contract.md",
+  "owner_skill": "source-to-skill-system",
+  "target_skill": "alex-copper-creative-strategy",
+  "status": "built_and_verified",
+  "build_shape": "existing_skill_expansion_plus_workflow_bridge"
+}

@@ -189,7 +189,7 @@ Source: Farrice's claude.ai extraction sessions on Alex Cooper's DC Diaries appe
 **Success Metric**: Winning message identified at a fraction of production cost before a single shoot is booked.
 
 ## 18. Written-on-the-World Telegraphing
-**Pattern**: Uses image gen to write the message ON audience-native surfaces — a fight-wear brand's message written on the gym canvas next to the gloves, a dandruff shampoo's hook written in bathroom-window condensation, a neuropathy supplement's copy written on the foot itself (that one "absolutely murdered").
+**Pattern**: Uses image gen to write the message ON audience-native surfaces — a fight-wear brand's message written on the gym canvas next to the gloves, a dandruff shampoo's hook written in bathroom-window condensation, a neuropathy supplement's copy written on the foot itself. This method is now SOURCE-VERIFIED in the 2026 static-ads primary source; the performance language remains SELF-REPORTED. See `references/static-ads-2026-source-ledger.md`.
 **Execute**: Ask "what surface does my audience already stare at?" and put the hook there via image gen. Deploy mid-video too: re-hook every 5-6 seconds by surfacing the next benefit on a notepad/whiteboard as a feed disruptor — not only as a whole-video gimmick.
 **Success Metric**: Thumb-stop and hold-rate lift; the viewer self-identifies before anyone speaks.
 
@@ -237,6 +237,35 @@ Source: Farrice's claude.ai extraction sessions on Alex Cooper's DC Diaries appe
 **Pattern**: Deliberately produces what AI cannot fake as AI floods the feed — three real people laughing while trying the licorice, employee-generated warehouse content, founder behind-the-scenes — because audiences will "crave something uglier," and anti-AI sentiment is already live in comment sections.
 **Execute**: Keep a standing "provably human" line in the creative mix alongside AI creative: multi-person scenes, real employees, authentic reactions, physical spaces. Signal humanity on purpose.
 **Success Metric**: Native-feel CPMs; comment sections free of the "sick of AI slop on my feed" backlash.
+
+### Primary-source expansion — Static Ads 2026 (2026-08-01)
+
+Source: Alex Cooper, *The ULTIMATE Guide to Static Ads in 2026*. Mechanics below are SOURCE-VERIFIED and timestamped in `references/static-ads-2026-source-ledger.md`. They are operating rules, not performance guarantees.
+
+## 28. Acquisition Null-Context Test
+**Pattern**: Treats a cold static as the viewer's first contact with both the brand and the problem framing. The headline must earn relevance without borrowed familiarity.
+**Execute**: Hide the logo and product detail. Ask whether the intended person can still tell why the ad is for them. Rewrite until the headline names a recognizable situation, tension, or desire without requiring brand knowledge.
+**Success Condition**: A cold viewer can identify personal relevance and the ad's subject at first impression.
+
+## 29. Selling-Locus Decision
+**Pattern**: Decides where the persuasion burden lives. A clarity-led static sells the problem and product category before the click; a curiosity-led static earns the click and assigns the destination a defined completion job.
+**Execute**: Write one sentence for the ad's job and one for the destination's job. Choose clarity or curiosity. Reject the middle state where neither surface carries a complete responsibility.
+**Success Condition**: The ad and post-click asset form one intentional persuasion sequence.
+
+## 30. Static Eye-Path Contract
+**Pattern**: Treats visual hierarchy as the routing of meaning through a scan, not as cosmetic polish.
+**Execute**: Define the landing order before layout, normally hook → qualifier → product → proof → action. Use size, contrast, line breaks, and whitespace to make the first three landings unavoidable.
+**Success Condition**: A one-second view produces the intended first takeaway in the intended order.
+
+## 31. Customer-to-Customer Copy Transfer
+**Pattern**: Preserves the emotionally loaded phrasing in reviews and comments so the ad feels like one customer speaking to another.
+**Execute**: Tag every phrase as supplied, observed, inferred, or unavailable. Keep the customer's unusual verb, ritual, or social detail intact; polish only what blocks comprehension.
+**Success Condition**: Every testimonial or customer-style line is traceable, and none was invented to complete the concept.
+
+## 32. White-Space-to-Test Slate
+**Pattern**: Generates concepts only after naming what the account does not currently cover across persona, message, format, offer, and funnel job.
+**Execute**: Build a coverage map, name one primary gap, then require every concept to close that gap through a source-supported format. Compare cells that change one variable at a time.
+**Success Condition**: The slate creates a learnable test instead of more variations of the account's dominant pattern.
 
 ## Hidden Knowledge (continued)
 

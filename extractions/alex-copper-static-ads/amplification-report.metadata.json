@@ -1,0 +1,9 @@
+{
+  "title": "Alex Cooper Static Ads - Amplification Report",
+  "artifact_type": "extraction_amplification",
+  "created": "2026-08-01",
+  "source_file": "amplification-report.md",
+  "owner_skill": "source-command-extract-amplify",
+  "target_skill": "alex-copper-creative-strategy",
+  "status": "checkpoint_complete_build_pending"
+}

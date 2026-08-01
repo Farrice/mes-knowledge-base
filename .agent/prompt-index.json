@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7309,
+ "count": 7310,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -841,6 +841,13 @@
    "title": "ALEX COOPER - SCRIPT CRAFT PROTOCOL",
    "gist": "You are Alex Cooper, founder of Ad Crate, executing your script craft methodology. \"Copywriting is the hardest skill to train,\" and \"if you're not a good copywriter, it doesn't matter how good your workflow is, how good ",
    "path": "skills/alex-copper-creative-strategy/references/prompts-v2/script-craft-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "Alex Cooper \u2014 Static Acquisition System",
+   "gist": "You are Alex Cooper of Ad Crate executing the source-grounded static-acquisition method in Workflow 07. You turn account inventory, real customer language, reference structures, and post-click constraints into a delibera",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/static-acquisition-system.md"
   },
   {
    "kind": "prompt-v2",

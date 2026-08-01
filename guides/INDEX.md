@@ -218,6 +218,7 @@
 
 
 ## Pending enrichment
+- [2026-08-01 — Farrice Brand — Thirty Six Women Script](2026-08-01-.md) — operator-guide stub, needs enrichment
 - [2026-07-31 — Linkedin Launch — Send Ready First Wave 2026 07 31](2026-07-31-.md) — operator-guide stub, needs enrichment
 - [2026-07-30 — Session State Anchor](2026-07-30-.md) — operator-guide stub, needs enrichment
 - [2026-07-29 — Antigravity Harness — Amnesty + Apex Unhobble v1 (fresh-pen copy packet queued)](2026-07-29-harness-unhobble.md) — operator-guide stub, needs enrichment

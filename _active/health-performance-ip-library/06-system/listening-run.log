@@ -13,3 +13,5 @@ Three things surfaced for you, none blocking:
 3. **Playwright and the Drive/Notion MCP writes aren't permission-granted for non-interactive runs** — the Drive mirror went out fine via `gws` instead ([Doc link](https://docs.google.com/document/d/1DaXVQ7R9yDbWwIaFbyFgapt1E5aGe_vlKhXMoGRhckI/edit)), but if you want scheduled runs using those MCP tools directly, they need a one-time grant in an interactive session. (AWS Marketplace and Google Calendar connectors also want re-auth in your claude.ai settings, unrelated to this run.)
 
 The prose classifier still flags the brief *document* itself on format-structural signals (the mandated bold-label bullets, tables, and section headers) — reported honestly in the receipt as a false-positive per the 07-30 precedent; every public-facing asset is clean. Sunday's run is next: education chapter deep focus, education long-form as the second format.
+released
+=== 2026-08-01 06:03:22 listening run end rc=0 ===

@@ -2,12 +2,18 @@
 
 Every source consulted for the Wave 3 Lane 4 repair pass, labeled VERIFIED / LIKELY / UNCONFIRMED per claim.
 
-**No `extractions/` coverage exists for Alex Cooper under either spelling.** Verified via direct commands, not inference:
+At the time of the 2026-07-17 repair, **no `extractions/` coverage existed for Alex Cooper under either spelling.** That historical check was verified via direct commands:
 - `ls extractions/ | grep -iE 'cooper|copper'` → 0 results (193 total entries in `extractions/`)
 - `find . -iname "*cooper*"` (repo-wide, excluding this skill's own directory) → 0 results
 - `find extractions -iname "*adcrate*" -o -iname "*ad-crate*" -o -iname "*ad_crate*"` → 0 results
 
-Run 2026-07-17. Ground truth for this repair is therefore the skill's own existing files, each opened and read in full, with byte counts recorded via `wc -c`.
+Run 2026-07-17. Ground truth for that repair was therefore the skill's own existing files, each opened and read in full, with byte counts recorded via `wc -c`.
+
+## 2026-08-01 Primary-Source Addition
+
+A primary YouTube source package now exists at `extractions/alex-copper-static-ads/`. Its clean transcript contains 5,427 words, and its evidence package includes native captions, metadata, five contact sheets, and 18 selected frames. The skill-level timestamp and claim ledger is `references/static-ads-2026-source-ledger.md`.
+
+This source upgrades Written-on-the-World Telegraphing from secondhand support to SOURCE-VERIFIED method evidence and adds Workflow 07 mechanics: acquisition null context, selling-locus choice, static eye path, customer-language provenance, and white-space-to-test isolation. Alex's performance, volume, spend, and vendor claims remain SELF-REPORTED unless independently verified.
 
 ## Files consulted (all internal to this skill)
 

@@ -3147,8 +3147,36 @@
         "gaming_flag": false
       },
       "notes": "Worked: winners-teardown day landed with real numbers (per-URL Apify stat pulls beat the zeroed hashtag tier); the n=36/HCl-vs-monohydrate evidence gap is the kind of non-obvious insight the felt standard asks for; gates caught 3 real prose tells pre-ship and all 3 vault assets closed CLEAN 0/10. Didn't: Reddit actor CLI contract drifted (400s) \u2014 worked around via direct API with hand-logged spend, needs a proper apify_client.py fix; prose_classifier FLAGGED the brief document on format-structural signals (bold labels/tables), reported as false-positive per 07-30 precedent. Expert-8 anchor: rubric_v1 Dim-2 Anchor-9 test (embodies the teardown-mechanic thinking \u2014 search-question titles, depth-as-respect \u2014 rather than labeling it); scored 8 not 9 because founder-side language remains composite per 08-dossier. | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260801_063310",
+      "timestamp": "2026-08-01T06:33:10.097765",
+      "schema_version": "v3",
+      "component": "health-performance-geo",
+      "expert": "Oren Operational Systems",
+      "workflow": "angle-map-listening-engine-v4.1",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "platform: codex automation | Verification: JSONL PASS; grounding_guard PASS; content_finish_gate CLEAN; export_format_guard PASS; claim_risk_scan WATCH false-positive avatar pain; Google Drive export disabled by explicit run instruction | Anchor: V4 golden sample"
     }
   ],
-  "total_cases": 111,
-  "last_updated": "2026-08-01T06:02:08.525350"
+  "total_cases": 112,
+  "last_updated": "2026-08-01T06:33:10.099143"
 }

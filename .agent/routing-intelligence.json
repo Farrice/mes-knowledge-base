@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 3,
+            "total_routings": 10,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -457,16 +457,30 @@
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "sean-dollwet-kdp-publishing": 1,
-                "Research": 1
+                "Research": 1,
+                "fresh-voice-system": 1,
+                "Content": 1,
+                "Analysis": 1,
+                "alex-copper-creative-strategy": 1,
+                "System": 2,
+                "supercomputer": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 1,
-                "oren-operational-systems": 1
+                "oren-operational-systems": 1,
+                "fresh-voice-system": 1,
+                "luke-iha-creative-strategy": 1,
+                "Oren Operational Systems": 1,
+                "extract-mastery": 1,
+                "alex-copper-creative-strategy": 1,
+                "alex-copper": 2,
+                "supercomputer": 1,
+                "doc-coauthoring": 1
             },
             "tier_counts": {
-                "0": 3,
+                "0": 10,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -474,10 +488,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 2,
-                "finalize-auto": 1
+                "hybrid": 5,
+                "finalize-auto": 5
             },
-            "ensemble_count": 1
+            "ensemble_count": 3
         }
     },
     "feedback_log": [],
@@ -532,6 +546,127 @@
             "workflow_used": "angle-map-listening",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_133051_ba96",
+            "timestamp": "2026-08-01T13:30:51.646239+00:00",
+            "session_id": "019fbd84-fd71-7213-a362-29d0578eaed9",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: 2026-",
+            "intent_score": 0,
+            "domain_detected": "fresh-voice-system",
+            "experts_deployed": [
+                "fresh-voice-system",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fresh-voice-system",
+            "ensemble": true,
+            "compound_pairing": "fresh-voice-system + luke-iha-creative-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_133310_06a5",
+            "timestamp": "2026-08-01T13:33:10.095838+00:00",
+            "session_id": "",
+            "request_summary": "2026-08-01 Angle Map Listening Brief: creatine handoff winners teardown, local-only Codex run with Drive export disabled",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "Oren Operational Systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "angle-map-listening-engine-v4.1",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_141651_d63a",
+            "timestamp": "2026-08-01T14:16:51.044088+00:00",
+            "session_id": "",
+            "request_summary": "Alex Cooper Static Ads — evidence, amplification, and skill-system checkpoint",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "extract-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_143242_2832",
+            "timestamp": "2026-08-01T14:32:42.033002+00:00",
+            "session_id": "019fbd9c-8730-7271-9e48-fe232ba41683",
+            "request_summary": "Approve the recommended in-place Alex Cooper expansion and continue through build, routing, and behavior proof.",
+            "intent_score": 0,
+            "domain_detected": "alex-copper-creative-strategy",
+            "experts_deployed": [
+                "alex-copper-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "alex-copper-creative-strategy",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_145138_708d",
+            "timestamp": "2026-08-01T14:51:38.235339+00:00",
+            "session_id": "",
+            "request_summary": "Expanded the existing Alex Cooper skill with a source-grounded static acquisition workflow, born-v2 prompt, thin command bridge, router proof, and detached Morrow Sleep behavior proof",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "alex-copper"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "alex-copper-static-acquisition-system",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_145217_515a",
+            "timestamp": "2026-08-01T14:52:17.950381+00:00",
+            "session_id": "",
+            "request_summary": "Expanded the existing Alex Cooper skill with a source-grounded static acquisition workflow, born-v2 prompt, thin command bridge, router proof, and detached Morrow Sleep behavior proof",
+            "intent_score": 8,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "alex-copper"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "alex-copper-static-acquisition-system",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260801_152829_763d",
+            "timestamp": "2026-08-01T15:28:29.671112+00:00",
+            "session_id": "5a324f30-ab96-4830-94d0-d2fd6e0c2d00",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
             "feedback": null
         }
     ]

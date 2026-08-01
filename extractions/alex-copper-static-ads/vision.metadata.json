@@ -1,0 +1,23 @@
+{
+  "title": "Alex Cooper Static Acquisition System - Forge Vision",
+  "artifact_type": "extraction_vision",
+  "created": "2026-08-01",
+  "source_file": "vision-checkpoint.md",
+  "owner_skill": "source-command-extract-forge",
+  "supporting_skills": [
+    "watch:watch",
+    "source-command-extract-amplify",
+    "source-to-skill-system"
+  ],
+  "target_skill": "alex-copper-creative-strategy",
+  "checkpoint": 1,
+  "status": "approved_and_built",
+  "source_video": {
+    "title": "The ULTIMATE Guide to Static Ads in 2026",
+    "channel": "Alex Cooper",
+    "duration_seconds": 1432.3,
+    "transcript_words": 5427,
+    "url": "https://www.youtube.com/watch?v=XQwJRuN8p-Q"
+  },
+  "evidence_boundary": "Native captions plus 100 Watch frames reviewed; performance and vendor claims remain self-reported or unverified."
+}

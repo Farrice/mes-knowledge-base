@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T13:00:06.226488+00:00",
+  "generated_at": "2026-08-01T13:03:15.849597+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -236,7 +236,7 @@
       "declared_raw": "active",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-31",
+      "last_touched": "2026-08-01",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -356,7 +356,7 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-31",
+      "last_touched": "2026-08-01",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -476,7 +476,7 @@
       "declared_raw": null,
       "entry": "CAMPAIGN.md",
       "index_exists": true,
-      "last_touched": "2026-07-31",
+      "last_touched": "2026-08-01",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}

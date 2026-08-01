@@ -1,0 +1,10 @@
+{
+  "title": "Alex Cooper Static Ads 2026 - Deep Extraction",
+  "artifact_type": "deep_extraction",
+  "created": "2026-08-01",
+  "source_file": "deep-extraction.md",
+  "owner_skill": "source-command-extract-forge",
+  "target_skill": "alex-copper-creative-strategy",
+  "status": "approved_for_build",
+  "source_word_count": 5427
+}

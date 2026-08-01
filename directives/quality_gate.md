@@ -109,8 +109,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-01 (chain_runner finalize for listening-engine-v4.1) |
-| **Activation Count** | 779 |
+| **Last Activated** | 2026-08-01 (chain_runner finalize for alex-copper-creative-strategy) |
+| **Activation Count** | 783 |
 | **30-Day Review Date** | 2026-08-31 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

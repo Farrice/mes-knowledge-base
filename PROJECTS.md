@@ -8,9 +8,9 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-07-31 | active |
-| `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-07-31 | active* |
-| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-07-31 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-01 | active |
+| `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-01 | active* |
+| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-01 | active* |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
 | `positioning-cowork-2026-07-25` | _active/ | `_active/positioning-cowork-2026-07-25/INDEX.md` | 2026-07-28 | active* |
 | `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-07-28 | active |
