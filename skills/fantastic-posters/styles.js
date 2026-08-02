@@ -20,6 +20,19 @@ export function applyPaletteOverride(prompt, palette) {
 }
 
 export const styles = {
+  // Full art-direction passthrough (2026-08-02, Farrice's diversification ruling:
+  // the catalog is a library, never a cage). The brief IS the prompt — authored
+  // upstream by /art-direct, /creative-prompt, or a skills/generate/styles/ card.
+  // `experimental: true` keeps it out of the auto-picker: this lane is always an
+  // explicit choice, so catalog briefs never silently lose their style template.
+  'direct': {
+    label: 'Direct (full art direction — brief is the prompt, no template)',
+    experimental: true,
+    build: (i) => `${f(i.subject, 'A test render — this lane expects a complete art-directed prompt as the brief.')}
+
+Execute this direction exactly as written: it is a complete art-direction brief, not a subject for a poster template. Add no template elements, no invented text, no watermarks, no logos unless the direction asks for them. Render at the highest production quality the direction implies (cinema-grade lighting, billboard-grade composition and finish).`,
+  },
+
   'cinematic-neonoir': {
     label: 'Cinematic Neo-Noir',
     build: (i) => `A cinematic movie poster, portrait orientation, neo-noir style. ${f(i.subject, 'A lone detective in a long trench coat stands under a flickering streetlamp on a rain-soaked Tokyo alley at night, neon signs glowing pink and cyan reflecting in puddles')}. Dramatic low-angle shot, volumetric fog, shallow depth of field. Big bold title at top in distressed serif typeface reads "${f(i.title, 'LAST EXIT')}" in white. Below the figure, a tagline in smaller italic reads "${f(i.subtitle, 'Every shadow has a name.')}". At the bottom, fake billing block with credits and release date "${f(i.footer, 'DECEMBER 12')}". Small festival laurels in the corners. Letterboxed cinematic feel.`,

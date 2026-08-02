@@ -4,12 +4,15 @@
 Companion to execution/asset_index.py (which owns the manifest). This script:
   1. generates incremental thumbnails into .agent/assets/thumbs/
      (sips for images, ffmpeg poster-frame for videos, inline glyph otherwise)
-  2. renders a self-contained masonry board (file://, no server) with
-     filter chips, search, sort, lightbox, copy-path, and a Styles panel
-     read from skills/generate/styles/<slug>/ (hidden when absent).
+  2. renders a self-contained board (file://, no server): left sidebar nav
+     (Library/Projects/Zones/Styles/Engines with counts + emoji cues — Farrice's
+     2026-08-02 UI ruling: sidebar over chip-pile, it must scale as the library
+     grows), search/sort topbar with removable filter chips, masonry grid,
+     lightbox with copy-path + copy-prompt (the loved provenance features),
+     and a Style Cards view read from skills/generate/styles/<slug>/.
 
-All manifest strings are HTML-escaped client-side (esc()) before insertion —
-prompts are arbitrary text and must never be interpreted as markup.
+All manifest strings are inserted via DOM textContent (el()) — prompts are
+arbitrary text and must never be interpreted as markup.
 
 CLI:
   python3 execution/asset_gallery.py                 # thumbs (incremental) + render
@@ -120,40 +123,93 @@ TEMPLATE = r"""<!doctype html><html><head><meta charset="utf-8">
 <title>Asset Command Center</title>
 <style>
 :root {
-  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
-  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+  --ground:#0f1118; --panel:#191c28; --panel2:#151824; --ink:#e8e9f0; --muted:#8b8fa8;
+  --line:#272b3b; --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
   --mono:"SF Mono",Menlo,Consolas,monospace;
   --display:"Avenir Next",Seravek,"Segoe UI",sans-serif;
 }
 * { box-sizing:border-box; }
 body { background:var(--ground); color:var(--ink);
-  font:14px/1.45 -apple-system,"Segoe UI",sans-serif; margin:0; padding:24px; }
-header { display:flex; justify-content:space-between; align-items:baseline;
-  gap:12px; flex-wrap:wrap; margin-bottom:14px; }
-h1 { font-family:var(--display); font-size:20px; font-weight:600; margin:0; }
-h1 b { color:var(--accent); }
-.stamp { color:var(--muted); font-family:var(--mono); font-size:12px; }
-.bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:10px; }
+  font:14px/1.45 -apple-system,"Segoe UI",sans-serif; margin:0; }
+.app { display:grid; grid-template-columns:250px 1fr; min-height:100vh; }
+/* ── sidebar ── */
+aside { background:var(--panel2); border-right:1px solid var(--line);
+  padding:18px 14px; position:sticky; top:0; height:100vh; overflow-y:auto; }
+.brand { font-family:var(--display); font-size:16px; font-weight:600; margin:0 6px 4px; }
+.brand b { color:var(--accent); }
+.brand-sub { color:var(--muted); font-family:var(--mono); font-size:11px; margin:0 6px 14px; }
+.views { display:flex; flex-direction:column; gap:2px; margin-bottom:14px; }
+.viewbtn { display:flex; align-items:center; gap:8px; width:100%; text-align:left;
+  font-family:var(--display); font-size:13px; padding:7px 10px; border-radius:8px;
+  border:none; background:transparent; color:var(--muted); cursor:pointer; }
+.viewbtn.active { background:color-mix(in srgb,var(--accent) 16%,transparent); color:var(--ink); }
+aside details { margin-bottom:6px; }
+aside summary { font-family:var(--mono); font-size:10.5px; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--muted); padding:7px 8px 5px; cursor:pointer;
+  user-select:none; list-style:none; }
+aside summary::-webkit-details-marker { display:none; }
+aside summary::before { content:"▾ "; color:var(--line); }
+aside details:not([open]) summary::before { content:"▸ "; }
+.navrow { display:flex; align-items:center; gap:8px; width:100%; text-align:left;
+  font-size:12.5px; padding:5px 10px; border-radius:7px; border:none;
+  border-left:2px solid transparent; background:transparent; color:var(--muted);
+  cursor:pointer; }
+.navrow:hover { background:color-mix(in srgb,var(--muted) 8%,transparent); }
+.navrow.active { border-left-color:var(--accent); color:var(--ink);
+  background:color-mix(in srgb,var(--accent) 12%,transparent); }
+.navrow .ico { width:16px; text-align:center; flex:none; }
+.navrow .lbl { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.navrow .cnt { font-family:var(--mono); font-size:10.5px; color:var(--muted);
+  background:color-mix(in srgb,var(--muted) 12%,transparent);
+  padding:1px 7px; border-radius:999px; flex:none; }
+.navrow.active .cnt { color:var(--accent);
+  background:color-mix(in srgb,var(--accent) 15%,transparent); }
+/* ── main ── */
+main { padding:20px 24px; min-width:0; }
+.topbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:8px; }
 input[type=search] { background:var(--panel); border:1px solid var(--line); color:var(--ink);
-  border-radius:8px; padding:7px 12px; min-width:260px; font-size:13px; }
+  border-radius:9px; padding:8px 14px; flex:1 1 240px; max-width:420px; font-size:13px; }
 select { background:var(--panel); border:1px solid var(--line); color:var(--ink);
-  border-radius:8px; padding:6px 10px; font-size:12px; }
-.chips { display:flex; gap:6px; flex-wrap:wrap; margin:4px 0 10px; }
-.facet-label { font-family:var(--mono); font-size:10px; letter-spacing:.08em;
-  text-transform:uppercase; color:var(--muted); align-self:center; margin-right:2px; }
-.chip { font-family:var(--mono); font-size:11.5px; padding:3px 10px; border-radius:999px;
-  border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; }
-.chip.active { border-color:var(--accent); color:var(--accent); }
-.tabs { display:flex; gap:8px; margin-bottom:14px; }
-.tab { font-family:var(--display); font-size:13px; padding:6px 16px; border-radius:8px;
-  border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; }
-.tab.active { color:var(--ink); border-color:var(--accent); }
+  border-radius:9px; padding:7px 10px; font-size:12px; }
+#count { color:var(--muted); font-family:var(--mono); font-size:12px; margin-left:auto; }
+.active-filters { display:flex; gap:6px; flex-wrap:wrap; margin:2px 0 12px; min-height:4px; }
+.fchip { display:inline-flex; align-items:center; gap:6px; font-family:var(--mono);
+  font-size:11px; padding:3px 6px 3px 10px; border-radius:999px;
+  border:1px solid var(--accent); color:var(--accent); background:transparent; }
+.fchip button { border:none; background:none; color:var(--accent); cursor:pointer;
+  font-size:12px; padding:0 3px; }
 .grid { columns:240px; column-gap:12px; }
-.tile { break-inside:avoid; margin:0 0 12px; background:var(--panel);
-  border:1px solid var(--line); border-radius:10px; overflow:hidden; cursor:pointer; }
+.tile { position:relative; break-inside:avoid; margin:0 0 12px; background:var(--panel);
+  border:1px solid var(--line); border-radius:10px; overflow:hidden; cursor:pointer;
+  transition:border-color .12s, transform .15s, box-shadow .15s; }
+.tile:hover { border-color:var(--accent); transform:scale(1.02);
+  box-shadow:0 8px 28px rgba(0,0,0,.45); z-index:2; }
+/* ── home shelves (Netflix-style rows) ── */
+.shelf { margin-bottom:26px; }
+.shelf h2 { font-family:var(--display); font-size:15px; font-weight:600;
+  margin:0 0 10px; letter-spacing:.01em; }
+.shelf h2 span { color:var(--muted); font-family:var(--mono); font-size:11px;
+  font-weight:400; margin-left:8px; }
+.row { display:flex; gap:10px; overflow-x:auto; padding:4px 2px 12px;
+  scroll-snap-type:x proximity; scrollbar-width:thin; }
+.card { flex:0 0 auto; width:210px; scroll-snap-align:start; position:relative;
+  background:var(--panel); border:1px solid var(--line); border-radius:10px;
+  overflow:hidden; cursor:pointer; transition:transform .15s, border-color .12s,
+  box-shadow .15s; }
+.card:hover { transform:scale(1.05); border-color:var(--accent);
+  box-shadow:0 10px 32px rgba(0,0,0,.5); z-index:2; }
+.card img { width:100%; height:130px; object-fit:cover; display:block; background:#0d0f16; }
+.card .glyph { display:flex; align-items:center; justify-content:center; height:130px;
+  font-size:34px; }
+.card .cap { padding:7px 10px; font-size:11.5px; overflow:hidden;
+  text-overflow:ellipsis; white-space:nowrap; }
+.card .badge { position:absolute; top:8px; left:8px; font-size:12px;
+  background:rgba(10,11,17,.72); border-radius:7px; padding:2px 7px; }
 .tile img { width:100%; display:block; background:#0d0f16; }
 .tile .glyph { display:flex; align-items:center; justify-content:center; height:110px;
-  font-size:34px; color:var(--muted); }
+  font-size:34px; }
+.tile .badge { position:absolute; top:8px; left:8px; font-size:12px;
+  background:rgba(10,11,17,.72); border-radius:7px; padding:2px 7px; }
 .tile .meta { padding:8px 10px; }
 .tile .name { font-size:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .tile .sub { display:flex; gap:6px; flex-wrap:wrap; margin-top:4px; }
@@ -163,8 +219,7 @@ select { background:var(--panel); border:1px solid var(--line); color:var(--ink)
 .pill.vid { background:color-mix(in srgb,var(--accent) 18%,transparent); color:var(--accent); }
 .more { display:block; margin:18px auto; padding:8px 22px; border-radius:8px;
   border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; }
-#count { color:var(--muted); font-family:var(--mono); font-size:12px; }
-/* lightbox */
+/* ── lightbox ── */
 #lb { position:fixed; inset:0; background:rgba(8,9,14,.92); display:none;
   z-index:50; overflow:auto; padding:30px; }
 #lb.open { display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap; }
@@ -184,7 +239,7 @@ button.act { font-family:var(--mono); font-size:11.5px; padding:5px 12px; border
   cursor:pointer; margin:4px 6px 0 0; }
 #lb .x { position:fixed; top:14px; right:20px; font-size:26px; color:var(--muted);
   cursor:pointer; background:none; border:none; }
-/* styles panel */
+/* ── style cards ── */
 .stylegrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
 .stylecard { background:var(--panel); border:1px solid var(--line); border-radius:10px;
   overflow:hidden; }
@@ -192,12 +247,12 @@ button.act { font-family:var(--mono); font-size:11.5px; padding:5px 12px; border
 .stylecard .meta { padding:10px 12px; }
 .stylecard .name { font-weight:600; font-size:13px; }
 .stylecard .desc { color:var(--muted); font-size:12px; margin:4px 0 8px; }
+.hint { color:var(--muted); font-size:12.5px; margin:0 0 14px; }
 #toast { position:fixed; bottom:22px; left:50%; transform:translateX(-50%);
   background:var(--panel); border:1px solid var(--ok); color:var(--ok);
   font-family:var(--mono); font-size:12px; padding:7px 16px; border-radius:999px;
   opacity:0; transition:opacity .2s; pointer-events:none; z-index:99; }
 #toast.show { opacity:1; }
-/* copy modal fallback */
 #cpm { position:fixed; inset:0; background:rgba(8,9,14,.8); display:none;
   align-items:center; justify-content:center; z-index:60; }
 #cpm.open { display:flex; }
@@ -205,25 +260,38 @@ button.act { font-family:var(--mono); font-size:11.5px; padding:5px 12px; border
   padding:18px; max-width:640px; width:90%; }
 #cpm textarea { width:100%; height:70px; background:var(--ground); color:var(--ink);
   border:1px solid var(--line); border-radius:6px; font-family:var(--mono); font-size:12px; }
-.empty { color:var(--muted); font-style:italic; padding:30px 0; }
+@media (max-width: 880px) {
+  .app { grid-template-columns:1fr; }
+  aside { position:static; height:auto; border-right:none;
+    border-bottom:1px solid var(--line); }
+}
 </style></head><body>
-<header><h1><b>Asset</b> Command Center</h1>
-<div class="stamp">__STAMP__ · __TOTAL__ assets · <span id="count"></span></div></header>
-<div class="tabs"><button class="tab active" data-tab="gen">Generations</button>
-__STYLES_TAB__</div>
-<div id="view-gen">
-<div class="bar">
-  <input type="search" id="q" placeholder="search prompt, name, style, project…">
-  <select id="sort"><option value="new">newest</option><option value="old">oldest</option>
-  <option value="cost">cost</option><option value="size">size</option></select>
-</div>
-<div id="facets"></div>
-<div class="grid" id="grid"></div>
-<button class="more" id="more" style="display:none">Load more</button>
-<div id="sentinel"></div>
+<div class="app">
+<aside>
+  <p class="brand">🎨 <b>Asset</b> Command Center</p>
+  <p class="brand-sub">__TOTAL__ assets · __STAMP__</p>
+  <div class="views" id="views"></div>
+  <div id="nav"></div>
+</aside>
+<main>
+<div id="view-home"></div>
+<div id="view-gen" style="display:none">
+  <div class="topbar">
+    <input type="search" id="q" placeholder="🔍 search prompt, name, style, project…">
+    <select id="sort"><option value="new">newest first</option><option value="old">oldest first</option>
+    <option value="cost">by cost</option><option value="size">by size</option></select>
+    <span id="count"></span>
+  </div>
+  <div class="active-filters" id="afilters"></div>
+  <div class="grid" id="grid"></div>
+  <button class="more" id="more" style="display:none">Load more</button>
+  <div id="sentinel"></div>
 </div>
 <div id="view-styles" style="display:none">
-<div class="stylegrid" id="stylegrid"></div>
+  <p class="hint">✨ Your taste library — click to copy a style's full prompt or its reference path, then feed it to <span style="font-family:var(--mono)">/generate</span> (direct lane). Good outcomes become new cards here.</p>
+  <div class="stylegrid" id="stylegrid"></div>
+</div>
+</main>
 </div>
 <div id="lb"><button class="x" id="lbx">✕</button>
   <div class="media" id="lbm"></div><div class="panel" id="lbp"></div></div>
@@ -239,46 +307,74 @@ __STYLES_TAB__</div>
 const REPO = __REPO__;
 const ALL = JSON.parse(document.getElementById('data').textContent);
 const STYLES = JSON.parse(document.getElementById('styledata').textContent);
-const FACETS = ["type","zone","project","style","src"];
-const sel = {};  FACETS.forEach(f => sel[f] = null);
+const TYPE_ICON = { image:'🖼️', video:'🎬', audio:'🎵', doc:'📄' };
+const FACET_GROUPS = [
+  { key:'type',    label:'Library',  ico:'📚', icons:TYPE_ICON },
+  { key:'project', label:'Projects', ico:'📁' },
+  { key:'zone',    label:'Zones',    ico:'🗂️' },
+  { key:'style',   label:'Styles',   ico:'🎭' },
+  { key:'engine',  label:'Engines',  ico:'🤖' },
+];
+const sel = {}; FACET_GROUPS.forEach(g => sel[g.key] = null);
 let shown = 0, filtered = [], CHUNK = 200;
 
-// every manifest-derived string goes through el()/text nodes — never raw HTML
+// every manifest-derived string goes in via textContent — never raw HTML
 function el(tag, cls, textVal) {
   const n = document.createElement(tag);
   if (cls) n.className = cls;
   if (textVal != null) n.textContent = textVal;
   return n;
 }
-function facetValues(f) {
+function facetValues(key) {
   const m = new Map();
-  ALL.forEach(r => { const v = r[f]; if (v) m.set(v, (m.get(v)||0)+1); });
+  ALL.forEach(r => { const v = r[key]; if (v) m.set(v, (m.get(v)||0)+1); });
   return [...m.entries()].sort((a,b) => b[1]-a[1]);
 }
-function renderFacets() {
-  const host = document.getElementById('facets'); host.textContent = '';
-  FACETS.forEach(f => {
-    const vals = facetValues(f); if (!vals.length) return;
-    const row = el('div', 'chips');
-    row.appendChild(el('span', 'facet-label', f));
-    const all = el('button', 'chip' + (sel[f] ? '' : ' active'), 'all');
-    all.onclick = () => { sel[f] = null; refresh(); };
-    row.appendChild(all);
-    vals.slice(0, 14).forEach(([v,n]) => {
-      const c = el('button', 'chip' + (sel[f] === v ? ' active' : ''), v + ' (' + n + ')');
-      c.onclick = () => { sel[f] = (sel[f] === v ? null : v); refresh(); };
-      row.appendChild(c);
+function renderNav() {
+  const host = document.getElementById('nav'); host.textContent = '';
+  FACET_GROUPS.forEach(g => {
+    const vals = facetValues(g.key); if (!vals.length) return;
+    const det = document.createElement('details'); det.open = true;
+    const sum = document.createElement('summary');
+    sum.textContent = g.ico + '  ' + g.label;
+    det.appendChild(sum);
+    const mkRow = (ico, label, count, active, onclick) => {
+      const b = el('button', 'navrow' + (active ? ' active' : ''));
+      b.appendChild(el('span', 'ico', ico));
+      b.appendChild(el('span', 'lbl', label));
+      if (count != null) b.appendChild(el('span', 'cnt', String(count)));
+      b.onclick = onclick;
+      return b;
+    };
+    det.appendChild(mkRow('∗', 'All', null, !sel[g.key],
+      () => { sel[g.key] = null; refresh(); }));
+    vals.slice(0, 20).forEach(([v, n]) => {
+      const ico = (g.icons && g.icons[v]) || '·';
+      det.appendChild(mkRow(ico, v, n, sel[g.key] === v,
+        () => { sel[g.key] = (sel[g.key] === v ? null : v); setView('gen'); refresh(); }));
     });
-    host.appendChild(row);
+    if (vals.length > 20) det.appendChild(el('div', 'brand-sub', '+' + (vals.length-20) + ' more — use search'));
+    host.appendChild(det);
+  });
+}
+function renderActiveFilters() {
+  const host = document.getElementById('afilters'); host.textContent = '';
+  FACET_GROUPS.forEach(g => {
+    if (!sel[g.key]) return;
+    const c = el('span', 'fchip', g.ico + ' ' + sel[g.key] + ' ');
+    const x = el('button', null, '✕');
+    x.onclick = () => { sel[g.key] = null; refresh(); };
+    c.appendChild(x);
+    host.appendChild(c);
   });
 }
 function applyFilters() {
   const q = document.getElementById('q').value.toLowerCase().trim();
   filtered = ALL.filter(r => {
-    for (const f of FACETS) if (sel[f] && r[f] !== sel[f]) return false;
+    for (const g of FACET_GROUPS) if (sel[g.key] && r[g.key] !== sel[g.key]) return false;
     if (q) {
       const hay = [(r.prompt||''), r.path, (r.style||''), (r.project||''),
-                   (r.tags||[]).join(' ')].join(' ').toLowerCase();
+                   (r.engine||''), (r.tags||[]).join(' ')].join(' ').toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -297,15 +393,17 @@ function tile(r) {
     img.src = 'thumbs/' + encodeURIComponent(r.thumb);
     d.appendChild(img);
   } else {
-    d.appendChild(el('div', 'glyph', r.type === 'audio' ? '♫' : r.type === 'video' ? '▶' : '📄'));
+    d.appendChild(el('div', 'glyph', TYPE_ICON[r.type] || '📄'));
   }
+  if (r.type !== 'image') d.appendChild(el('span', 'badge', TYPE_ICON[r.type] || ''));
   const meta = el('div', 'meta');
   meta.appendChild(el('div', 'name', r.path.split('/').pop()));
   const sub = el('div', 'sub');
-  if (r.type === 'video') sub.appendChild(el('span', 'pill vid', '▶ ' + (r.dur_s ? r.dur_s + 's' : 'video')));
+  if (r.type === 'video' && r.dur_s) sub.appendChild(el('span', 'pill vid', r.dur_s + 's'));
   if (r.cost_usd != null) sub.appendChild(el('span', 'pill cost', '$' + (+r.cost_usd).toFixed(2)));
-  if (r.style) sub.appendChild(el('span', 'pill', r.style));
-  if (r.project) sub.appendChild(el('span', 'pill', r.project));
+  if (r.style) sub.appendChild(el('span', 'pill', '🎭 ' + r.style));
+  if (r.project) sub.appendChild(el('span', 'pill', '📁 ' + r.project));
+  if (r.prompt) sub.appendChild(el('span', 'pill', '📝'));
   meta.appendChild(sub);
   d.appendChild(meta);
   d.onclick = () => openLB(r);
@@ -317,10 +415,10 @@ function renderMore() {
   next.forEach(r => grid.appendChild(tile(r)));
   shown += next.length;
   document.getElementById('more').style.display = shown < filtered.length ? 'block' : 'none';
-  document.getElementById('count').textContent = shown + ' of ' + filtered.length + ' shown';
+  document.getElementById('count').textContent = shown + ' / ' + filtered.length;
 }
 function refresh() {
-  applyFilters(); renderFacets();
+  applyFilters(); renderNav(); renderActiveFilters();
   document.getElementById('grid').textContent = ''; shown = 0; renderMore();
 }
 function copyText(t) {
@@ -353,7 +451,7 @@ function openLB(r) {
   const lbp = document.getElementById('lbp'); lbp.textContent = '';
   lbp.appendChild(el('h3', null, r.path.split('/').pop()));
   const tbl = document.createElement('table');
-  [['zone', r.zone], ['project', r.project], ['source', r.src], ['model', r.model],
+  [['zone', r.zone], ['project', r.project], ['engine', r.engine],
    ['style', r.style], ['when', r.ts], ['dims', r.w ? r.w + '×' + r.h : null],
    ['duration', r.dur_s ? r.dur_s + 's' : null],
    ['cost', r.cost_usd != null ? '$' + (+r.cost_usd).toFixed(4) : null],
@@ -366,16 +464,16 @@ function openLB(r) {
   lbp.appendChild(tbl);
   if (r.prompt) {
     const det = document.createElement('details'); det.open = true;
-    const sum = document.createElement('summary'); sum.textContent = 'prompt';
+    const sum = document.createElement('summary'); sum.textContent = '📝 prompt';
     sum.style.cssText = 'cursor:pointer;font-size:12px;color:var(--muted)';
     det.appendChild(sum);
     det.appendChild(el('div', 'prompt', r.prompt));
-    const bp = el('button', 'act', 'Copy prompt'); bp.onclick = () => copyText(r.prompt);
+    const bp = el('button', 'act', '📝 Copy prompt'); bp.onclick = () => copyText(r.prompt);
     det.appendChild(bp);
     lbp.appendChild(det);
   }
   const row = el('div');
-  const bc = el('button', 'act', 'Copy path'); bc.onclick = () => copyText(abs);
+  const bc = el('button', 'act', '📋 Copy path'); bc.onclick = () => copyText(abs);
   row.appendChild(bc);
   lbp.appendChild(row);
   lb.classList.add('open');
@@ -392,13 +490,61 @@ document.getElementById('sort').addEventListener('change', refresh);
 document.getElementById('more').addEventListener('click', renderMore);
 new IntersectionObserver(es => { if (es[0].isIntersecting && shown < filtered.length) renderMore(); })
   .observe(document.getElementById('sentinel'));
-document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
-  document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
-  t.classList.add('active');
-  document.getElementById('view-gen').style.display = t.dataset.tab === 'gen' ? '' : 'none';
-  document.getElementById('view-styles').style.display = t.dataset.tab === 'styles' ? '' : 'none';
-}));
-// styles panel — same rule: DOM methods only, no markup interpolation
+// view switcher (sidebar)
+function setView(v) {
+  ['home', 'gen', 'styles'].forEach(k => {
+    const n = document.getElementById('view-' + k);
+    if (n) n.style.display = v === k ? '' : 'none';
+  });
+  document.querySelectorAll('.viewbtn').forEach(b =>
+    b.classList.toggle('active', b.dataset.v === v));
+}
+// home shelves — Netflix-style horizontal rows
+function card(r) {
+  const c = el('div', 'card');
+  if (r.thumb) { const img = el('img'); img.loading = 'lazy';
+    img.src = 'thumbs/' + encodeURIComponent(r.thumb); c.appendChild(img); }
+  else c.appendChild(el('div', 'glyph', TYPE_ICON[r.type] || '📄'));
+  if (r.type !== 'image') c.appendChild(el('span', 'badge', TYPE_ICON[r.type] || ''));
+  c.appendChild(el('div', 'cap', r.path.split('/').pop()));
+  c.onclick = () => openLB(r);
+  return c;
+}
+function shelf(title, note, items) {
+  if (!items.length) return null;
+  const s = el('div', 'shelf');
+  const h = el('h2', null, title);
+  if (note) h.appendChild(el('span', null, note));
+  s.appendChild(h);
+  const row = el('div', 'row');
+  items.forEach(r => row.appendChild(card(r)));
+  s.appendChild(row);
+  return s;
+}
+function buildHome() {
+  const host = document.getElementById('view-home'); host.textContent = '';
+  const byTs = [...ALL].sort((a,b) => (b.ts||'').localeCompare(a.ts||''));
+  const add = s => { if (s) host.appendChild(s); };
+  add(shelf('🕒 Recently added', byTs.length + ' total', byTs.slice(0, 20)));
+  add(shelf('🎬 Video', null, byTs.filter(r => r.type === 'video').slice(0, 20)));
+  add(shelf('🎵 Audio', null, byTs.filter(r => r.type === 'audio').slice(0, 20)));
+  const projCounts = facetValues('project').slice(0, 8);
+  projCounts.forEach(([p, n]) =>
+    add(shelf('📁 ' + p, n + ' assets', byTs.filter(r => r.project === p).slice(0, 20))));
+  const styleCounts = facetValues('style').slice(0, 4);
+  styleCounts.forEach(([st, n]) =>
+    add(shelf('🎭 ' + st, n + ' assets', byTs.filter(r => r.style === st).slice(0, 20))));
+}
+const views = document.getElementById('views');
+const vh = el('button', 'viewbtn active', '🏠  Home'); vh.dataset.v = 'home';
+vh.onclick = () => setView('home'); views.appendChild(vh);
+const vg = el('button', 'viewbtn', '🖼️  Gallery'); vg.dataset.v = 'gen';
+vg.onclick = () => setView('gen'); views.appendChild(vg);
+if (STYLES.length) {
+  const vs = el('button', 'viewbtn', '✨  Style Cards'); vs.dataset.v = 'styles';
+  vs.onclick = () => setView('styles'); views.appendChild(vs);
+}
+// style cards — DOM methods only
 const sg = document.getElementById('stylegrid');
 if (sg) STYLES.forEach(s => {
   const c = el('div', 'stylecard');
@@ -407,27 +553,30 @@ if (sg) STYLES.forEach(s => {
   const m = el('div', 'meta');
   m.appendChild(el('div', 'name', s.name));
   m.appendChild(el('div', 'desc', s.desc));
-  const b1 = el('button', 'act', 'Copy prompt'); b1.onclick = () => copyText(s.prompt);
+  const b1 = el('button', 'act', '📝 Copy prompt'); b1.onclick = () => copyText(s.prompt);
   m.appendChild(b1);
-  if (s.ref) { const b2 = el('button', 'act', 'Copy reference path');
+  if (s.ref) { const b2 = el('button', 'act', '📋 Copy reference path');
     b2.onclick = () => copyText(REPO + '/' + s.ref); m.appendChild(b2); }
   c.appendChild(m);
   sg.appendChild(c);
 });
+buildHome();
 refresh();
 </script></body></html>"""
 
 
 def render_board(records, styles):
     stamp = time.strftime("%Y-%m-%d %H:%M")
-    data = [{k: r.get(k) for k in ("path", "type", "zone", "project", "src", "model",
-                                   "style", "prompt", "cost_usd", "ts", "w", "h",
-                                   "dur_s", "tags", "size", "thumb")} for r in records]
-    styles_tab = '<button class="tab" data-tab="styles">Styles</button>' if styles else ""
+    data = []
+    for r in records:
+        row = {k: r.get(k) for k in ("path", "type", "zone", "project", "style",
+                                     "prompt", "cost_usd", "ts", "w", "h",
+                                     "dur_s", "tags", "size", "thumb")}
+        row["engine"] = r.get("model") or r.get("src")
+        data.append(row)
     html_doc = (TEMPLATE
                 .replace("__STAMP__", stamp)
                 .replace("__TOTAL__", str(len(records)))
-                .replace("__STYLES_TAB__", styles_tab)
                 .replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
                 .replace("__STYLEDATA__", json.dumps(styles, ensure_ascii=False).replace("</", "<\\/"))
                 .replace("__REPO__", json.dumps(ROOT)))

@@ -5,7 +5,7 @@
     "funded_total": 20.0,
     "refill_threshold": 5.0,
     "auto_refill": true,
-    "current_balance_estimate": 17.772,
+    "current_balance_estimate": 17.082,
     "last_refill_confirmed_at": "2026-04-30T00:00:00Z",
     "cycle_started_at": "2026-04-30T00:00:00Z"
   },
@@ -59,42 +59,41 @@
     "halt_reason": null,
     "halt_until": null,
     "recent_call_timestamps": [
-      "2026-08-02T21:19:31Z",
-      "2026-08-02T21:19:45Z",
-      "2026-08-02T21:21:37Z"
+      "2026-08-02T21:34:33Z",
+      "2026-08-02T21:36:54Z"
     ]
   },
   "totals": {
-    "lifetime_calls": 31,
-    "lifetime_spent_usd": 2.228,
-    "current_cycle_calls": 31,
-    "current_cycle_spent_usd": 2.228,
-    "today_calls": 3,
-    "today_spent_usd": 0.22,
+    "lifetime_calls": 33,
+    "lifetime_spent_usd": 2.918,
+    "current_cycle_calls": 33,
+    "current_cycle_spent_usd": 2.918,
+    "today_calls": 5,
+    "today_spent_usd": 0.91,
     "today_date": "2026-08-02",
     "today_spent_by_mode": {
       "poster": 0.08,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.0,
-      "seedance": 0.0,
-      "generic": 0.14
+      "seedance": 0.65,
+      "generic": 0.18
     },
     "cycle_spent_by_mode": {
       "poster": 1.752,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
-      "seedance": 0.0,
-      "generic": 0.14
+      "seedance": 0.65,
+      "generic": 0.18
     },
     "lifetime_spent_by_mode": {
       "poster": 1.752,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
-      "seedance": 0.0,
-      "generic": 0.14
+      "seedance": 0.65,
+      "generic": 0.18
     }
   },
   "log": [
@@ -495,6 +494,30 @@
       "quality": "medium",
       "n": 2,
       "style": "brutalist-broadcast"
+    },
+    {
+      "ts": "2026-08-02T21:34:33Z",
+      "mode": "generic",
+      "brief": "Cinematic product photograph, absolutely no text or typography anywhere: a near-black slate surface at night, a matte da",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "_active/linkedin-launch/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+      "model": "recraft-v3"
+    },
+    {
+      "ts": "2026-08-02T21:36:54Z",
+      "mode": "seedance-480p",
+      "brief": "Slow cinematic push-in on the spilled protein powder and tip",
+      "estimated_cost_usd": 0.65,
+      "actual_cost_usd": 0.65,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_143652.mp4",
+      "duration": 5,
+      "resolution": "480p",
+      "audio": "on"
     }
   ]
 }

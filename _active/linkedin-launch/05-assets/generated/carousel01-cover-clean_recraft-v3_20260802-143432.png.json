@@ -1,0 +1,16 @@
+{
+  "model": "recraft-v3",
+  "provider": "fal",
+  "endpoint": "fal-ai/recraft/v3/text-to-image",
+  "prompt": "Cinematic product photograph, absolutely no text or typography anywhere: a near-black slate surface at night, a matte dark-grey supplement scoop tipped over with pale cream protein powder spilling toward the camera in a dramatic sweep, one hard raking side light from the left carving long shadows, faint cool rim light, shallow depth of field, generous empty dark negative space across the upper two thirds of the frame. Moody, premium, restrained. Photorealistic, billboard-grade finish. NO words, NO letters, NO logos, NO labels.",
+  "params": {
+    "style": "realistic_image",
+    "image_size": "square_hd",
+    "prompt": "Cinematic product photograph, absolutely no text or typography anywhere: a near-black slate surface at night, a matte dark-grey supplement scoop tipped over with pale cream protein powder spilling toward the camera in a dramatic sweep, one hard raking side light from the left carving long shadows, faint cool rim light, shallow depth of field, generous empty dark negative space across the upper two thirds of the frame. Moody, premium, restrained. Photorealistic, billboard-grade finish. NO words, NO letters, NO logos, NO labels."
+  },
+  "refs": [],
+  "est_cost_usd": 0.04,
+  "ts": "2026-08-02T21:34:33Z",
+  "run_id": "gen-proof-0802",
+  "elapsed_s": 11.6
+}
