@@ -81,5 +81,6 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 Contradictions only — not a list of unstamped projects.
 
-- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 3d ago
+- **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
+- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 4d ago
 
