@@ -109,8 +109,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-02 (chain_runner finalize for health-performance-ip-library) |
-| **Activation Count** | 787 |
+| **Last Activated** | 2026-08-02 (chain_runner finalize for generate) |
+| **Activation Count** | 790 |
 | **30-Day Review Date** | 2026-09-01 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

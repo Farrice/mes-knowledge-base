@@ -1,78 +1,107 @@
 {
- "verify-dialect-injector": {
+ "fbb74bcc-31c7-4d6a-a716-194a19f654d7": {
   "stems": {},
-  "updated": "2026-07-29T23:58:25.331269",
-  "last_feedback_exchange": 0
- },
- "f45108f6-954b-456f-bec6-69bd23c426ca": {
-  "stems": {},
-  "updated": "2026-07-29T15:23:42.472767",
-  "last_feedback_exchange": 0
- },
- "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6": {
-  "stems": {
-   "campaign": {
-    "rejections": 1
-   },
-   "claude": {
-    "rejections": 2
-   },
-   "skill_router_hook": {
-    "rejections": 1
-   },
-   "steering-loop": {
-    "rejections": 1
-   },
-   "task-lifecycle-content": {
-    "rejections": 1
-   },
-   "agents": {
-    "rejections": 2
-   },
-   "routing_enforcer": {
-    "rejections": 1
-   }
-  },
-  "updated": "2026-07-30T09:30:12.123233",
-  "last_feedback_exchange": 14
- },
- "amnesty-test": {
-  "stems": {},
-  "updated": "2026-07-29T19:15:16.717342",
-  "last_feedback_exchange": 0
- },
- "amnesty-receipt": {
-  "stems": {},
-  "updated": "2026-07-29T19:26:37.266973",
-  "last_feedback_exchange": 0
- },
- "56734188-bf22-4922-ab54-870e8cbc2db1": {
-  "stems": {},
-  "updated": "2026-07-31T08:16:43.461410",
-  "last_feedback_exchange": 9
- },
- "183f09dd-7862-43c3-9629-812b4305f3ff": {
-  "stems": {
-   "campaign": {
-    "rejections": 1
-   }
-  },
-  "updated": "2026-07-31T17:58:36.717201",
-  "last_feedback_exchange": 7
- },
- "5a324f30-ab96-4830-94d0-d2fd6e0c2d00": {
-  "stems": {},
-  "updated": "2026-08-01T08:28:28.245849",
-  "last_feedback_exchange": 0
- },
- "d1906adf-cbdc-43ae-bfca-b23d0afc56b8": {
-  "stems": {},
-  "updated": "2026-08-01T05:32:29.406959",
+  "updated": "2026-08-02T12:17:06.384757",
   "last_feedback_exchange": 1
  },
- "d60be1b3-743f-4b84-b2e9-0fbd0777035c": {
+ "d3697feb-1d14-4a38-91f6-27dc80c7f66f": {
   "stems": {},
-  "updated": "2026-08-02T05:30:09.268155",
+  "updated": "2026-08-02T12:17:22.385140",
   "last_feedback_exchange": 0
+ },
+ "fd7af4e4-ccea-471b-bef1-d557dc304ecb": {
+  "stems": {},
+  "updated": "2026-08-02T12:18:05.361573",
+  "last_feedback_exchange": 0
+ },
+ "1fd305f6-8559-4fd7-bb7a-35af8fe2c60d": {
+  "stems": {},
+  "updated": "2026-08-02T12:19:13.931856",
+  "last_feedback_exchange": 0
+ },
+ "ae78a5b2-8502-4431-85a5-36dc5818b728": {
+  "stems": {},
+  "updated": "2026-08-02T12:19:26.564510",
+  "last_feedback_exchange": 0
+ },
+ "ce33e035-e7e9-48b5-90aa-bd0e0d35a1cd": {
+  "stems": {},
+  "updated": "2026-08-02T12:20:04.964337",
+  "last_feedback_exchange": 1
+ },
+ "0b971bb6-a87a-4313-9559-6ed1aed659c1": {
+  "stems": {},
+  "updated": "2026-08-02T12:20:46.063944",
+  "last_feedback_exchange": 1
+ },
+ "358e0efb-ed9c-44d6-87cb-f7c3a5a15669": {
+  "stems": {},
+  "updated": "2026-08-02T12:24:58.095654",
+  "last_feedback_exchange": 1
+ },
+ "3a71142d-8832-489d-9734-49b38615dc3a": {
+  "stems": {},
+  "updated": "2026-08-02T12:31:12.071445",
+  "last_feedback_exchange": 1
+ },
+ "d95ccca4-a780-4eef-a55b-8b26e8eae4c9": {
+  "stems": {
+   "prompt": {
+    "rejections": 2
+   },
+   "flat-to-cinematic-audit": {
+    "rejections": 1
+   },
+   "hybrid-pipeline-plan": {
+    "rejections": 1
+   },
+   "shot-list-generation-brief": {
+    "rejections": 1
+   },
+   "source-notes": {
+    "rejections": 1
+   },
+   "skill": {
+    "rejections": 3
+   },
+   "craft-map": {
+    "rejections": 3
+   },
+   "moodboard-sweep-report": {
+    "rejections": 1
+   },
+   "photoreal-prompt-build": {
+    "rejections": 1
+   },
+   "brand-style-library-spec": {
+    "rejections": 1
+   },
+   "asset-system-blueprint": {
+    "rejections": 1
+   },
+   "01-aesthetic-sweep": {
+    "rejections": 1
+   },
+   "02-additive-prompt-build": {
+    "rejections": 1
+   },
+   "03-style-code-bank": {
+    "rejections": 1
+   },
+   "01-aesthetic-sweep-plan": {
+    "rejections": 1
+   },
+   "02-image-direction-brief": {
+    "rejections": 1
+   },
+   "03-style-code-bank-entry": {
+    "rejections": 1
+   },
+   "04-slop-diagnostic": {
+    "rejections": 1
+   }
+  },
+  "updated": "2026-08-02T16:05:09.518634",
+  "last_feedback_exchange": 12
  }
 }

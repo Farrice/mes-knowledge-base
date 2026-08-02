@@ -449,8 +449,8 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 19,
-            "total_feedback": 0,
+            "total_routings": 35,
+            "total_feedback": 2,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -458,36 +458,54 @@
                 "meg-heckman-buyer-trigger-os": 1,
                 "sean-dollwet-kdp-publishing": 4,
                 "Research": 2,
-                "fresh-voice-system": 1,
-                "Content": 1,
+                "fresh-voice-system": 2,
+                "Content": 3,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 2,
-                "supercomputer": 1,
+                "System": 3,
+                "supercomputer": 2,
                 "Creative": 1,
                 "Strategy": 2,
                 "luke-iha-copy-blocks": 1,
-                "adam-sandler-second-brain-gtm": 1
+                "adam-sandler-second-brain-gtm": 1,
+                "jen-santulan-listing-content": 4,
+                "joey-cinema-os": 2,
+                "creative-direction": 1,
+                "kallaway-illusion-of-novelty": 1,
+                "satori-graphics": 1,
+                "ben-watkins-storytelling": 1,
+                "gemini-api-dev": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 4,
                 "oren-operational-systems": 1,
-                "fresh-voice-system": 1,
-                "luke-iha-creative-strategy": 1,
+                "fresh-voice-system": 2,
+                "luke-iha-creative-strategy": 2,
                 "Oren Operational Systems": 2,
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
-                "supercomputer": 1,
-                "doc-coauthoring": 1,
+                "supercomputer": 2,
+                "doc-coauthoring": 2,
                 "luke-iha-copy-blocks": 1,
                 "jonathan-franzen-storytelling": 1,
-                "adam-sandler-second-brain-gtm": 1
+                "adam-sandler-second-brain-gtm": 1,
+                "health-performance-angle-map-listening-engine": 2,
+                "jen-santulan-listing-content": 4,
+                "joey-cinema-os": 2,
+                "ben-watkins-storytelling": 2,
+                "RoboNuggets source-to-skill": 1,
+                "creative-direction": 1,
+                "hilary-gridley": 1,
+                "kallaway-illusion-of-novelty": 1,
+                "satori-graphics": 1,
+                "kobi-brown-educational-virality": 1,
+                "gemini-api-dev": 1
             },
             "tier_counts": {
-                "0": 19,
+                "0": 35,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -495,13 +513,33 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 10,
-                "finalize-auto": 9
+                "hybrid": 23,
+                "finalize-auto": 12
             },
-            "ensemble_count": 4
+            "ensemble_count": 10,
+            "auto_miss_count": 2
         }
     },
-    "feedback_log": [],
+    "feedback_log": [
+        {
+            "feedback_id": "fb_20260802_195527_8c3e",
+            "timestamp": "2026-08-02T19:55:27.728242+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "routing_id": "rt_20260802_194220_21ab",
+            "rating": "auto_miss",
+            "correction": "fantastic-posters",
+            "notes": "expert skill 'fantastic-posters' loaded not matching suggestion ['joey-cinema-os', 'ben-watkins-storytelling']"
+        },
+        {
+            "feedback_id": "fb_20260802_225243_48cf",
+            "timestamp": "2026-08-02T22:52:43.884890+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "routing_id": "rt_20260802_224352_bff3",
+            "rating": "auto_miss",
+            "correction": "banana-pro-director",
+            "notes": "expert skill 'banana-pro-director' loaded not matching suggestion ['gemini-api-dev']"
+        }
+    ],
     "routing_decisions": [
         {
             "routing_id": "rt_20260801_005837_b427",
@@ -829,6 +867,283 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_133223_56a0",
+            "timestamp": "2026-08-02T13:32:23.267303+00:00",
+            "session_id": "019fc2ac-ca6a-7512-be8d-8e6d8d6704f6",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: 2026-",
+            "intent_score": 0,
+            "domain_detected": "fresh-voice-system",
+            "experts_deployed": [
+                "fresh-voice-system",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fresh-voice-system",
+            "ensemble": true,
+            "compound_pairing": "fresh-voice-system + luke-iha-creative-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_133526_9757",
+            "timestamp": "2026-08-02T13:35:26.718419+00:00",
+            "session_id": "",
+            "request_summary": "2026-08-02 Angle Map Listening Brief verified and metadata-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-angle-map-listening-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_133631_a983",
+            "timestamp": "2026-08-02T13:36:31.306902+00:00",
+            "session_id": "",
+            "request_summary": "2026-08-02 Angle Map Listening Brief verified and risk-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-angle-map-listening-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_190837_baf2",
+            "timestamp": "2026-08-02T19:08:37.579982+00:00",
+            "session_id": "d60be1b3-743f-4b84-b2e9-0fbd0777035c",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_191723_b36a",
+            "timestamp": "2026-08-02T19:17:23.453622+00:00",
+            "session_id": "d3697feb-1d14-4a38-91f6-27dc80c7f66f",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_191805_85b2",
+            "timestamp": "2026-08-02T19:18:05.751335+00:00",
+            "session_id": "fd7af4e4-ccea-471b-bef1-d557dc304ecb",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_191914_ca77",
+            "timestamp": "2026-08-02T19:19:14.509989+00:00",
+            "session_id": "1fd305f6-8559-4fd7-bb7a-35af8fe2c60d",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_191927_14f9",
+            "timestamp": "2026-08-02T19:19:27.979730+00:00",
+            "session_id": "ae78a5b2-8502-4431-85a5-36dc5818b728",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_194220_21ab",
+            "timestamp": "2026-08-02T19:42:20.699191+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "I need us to run the /watch:watch /extract /source-to-skill-system from this youtube video: https://www.youtube.com/watch?v=9C4TRbucmhQ\n\nAnd grab the skill \"/generate\" that he has on his YouTube video",
+            "intent_score": 0,
+            "domain_detected": "joey-cinema-os",
+            "experts_deployed": [
+                "joey-cinema-os",
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "joey-cinema-os",
+            "ensemble": true,
+            "compound_pairing": "joey-cinema-os + ben-watkins-storytelling",
+            "feedback": "fb_20260802_195527_8c3e"
+        },
+        {
+            "routing_id": "rt_20260802_212325_538e",
+            "timestamp": "2026-08-02T21:23:25.056378+00:00",
+            "session_id": "",
+            "request_summary": "Creative Generation OS: /generate engine + Asset Command Center (/assets-board) — Higgsfield replacement built by extending fal stack; cold-start proof run shipped real campaign assets",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "RoboNuggets source-to-skill"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "source-to-skill-system",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_212941_c434",
+            "timestamp": "2026-08-02T21:29:41.641435+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "one of the things is fantastic posters. I really wanted to be more diversified. I know we had an issue last time that it was getting trapped into certain aesthetics and mood boards and editorial style",
+            "intent_score": 0,
+            "domain_detected": "creative-direction",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-direction",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_215549_edd9",
+            "timestamp": "2026-08-02T21:55:49.940929+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "Don't Like- the entire user interface in general, I really like Netflix, not just how their sidebar menu works, and then on top of that, this is pretty good so far!\n\nI think one of the things that I'v",
+            "intent_score": 0,
+            "domain_detected": "joey-cinema-os",
+            "experts_deployed": [
+                "joey-cinema-os",
+                "hilary-gridley"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "joey-cinema-os",
+            "ensemble": true,
+            "compound_pairing": "joey-cinema-os + hilary-gridley",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_223344_bffe",
+            "timestamp": "2026-08-02T22:33:44.348958+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "hello, the new hero board billboards are dope! This is exactly what I wanted. Can you do that for the other sections too, so it's all uniform and not just the main page? That would be pretty fucking a",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_223651_8ed1",
+            "timestamp": "2026-08-02T22:36:51.391172+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "thing I forgot to mention: can we make the asset command color palette to be more like Netflix in the sense of it's that black glossy look instead of this navy blue purplish color? Instead of Netflix'",
+            "intent_score": 0,
+            "domain_detected": "satori-graphics",
+            "experts_deployed": [
+                "satori-graphics"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "satori-graphics",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_224249_29d3",
+            "timestamp": "2026-08-02T22:42:49.366862+00:00",
+            "session_id": "019fc3a2-c8c0-7f73-8212-5f86a2f07dec",
+            "request_summary": "Build an A-tier storytelling reference corpus from six real briefs across founder, sales, health, technical, educational, and operational domains. Run blind replays and convert every failure into a re",
+            "intent_score": 0,
+            "domain_detected": "ben-watkins-storytelling",
+            "experts_deployed": [
+                "ben-watkins-storytelling",
+                "kobi-brown-educational-virality"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ben-watkins-storytelling",
+            "ensemble": true,
+            "compound_pairing": "ben-watkins-storytelling + kobi-brown-educational-virality",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_224352_bff3",
+            "timestamp": "2026-08-02T22:43:52.999497+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "one of the big things that we need to ensure when you're doing this extraction and harvest is that it's recent to 2026 into 2025. We shouldn't be reaching back to things that are outdated and no longe",
+            "intent_score": 0,
+            "domain_detected": "gemini-api-dev",
+            "experts_deployed": [
+                "gemini-api-dev"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gemini-api-dev",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": "fb_20260802_225243_48cf"
         }
     ]
 }

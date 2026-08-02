@@ -46,3 +46,5 @@ One discrepancy I found and did **not** silently fix: yesterday's brief states n
 Today's Drive mirror is live and verified by exporting the Doc back to plain text and comparing: [2026-08-02 — Angle Map Listening Brief](https://docs.google.com/document/d/1J8gXFRYR_yubTZbcuQuEZPFpvsgAsXZDB9Lv5WkfRSE/edit). Apify spend was $0.042 today, $0.213 month-to-date against $29. Creatine was marked SATURATED after two consecutive briefs and appears nowhere; 14 of 15 candidate signals were non-GLP-1.
 
 I committed only this run's ten files rather than sweeping the 37 pre-existing uncommitted files — those look like another tool's in-flight work, and the golden rule says don't. I also did not push: the divergence alarm shows three branches holding work `main` lacks, and pushing before recovering those is the exact scar that rule exists for.
+released
+=== 2026-08-02 06:04:17 listening run end rc=0 ===

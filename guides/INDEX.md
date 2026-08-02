@@ -223,6 +223,7 @@
 
 
 ## Pending enrichment
+- [2026-08-02 — Health Performance Ip Library — Latest Exec Cut](2026-08-02-.md) — operator-guide stub, needs enrichment
 - [2026-08-01 — Farrice Brand — Thirty Six Women Script](2026-08-01-.md) — operator-guide stub, needs enrichment
 - [2026-07-31 — Linkedin Launch — Send Ready First Wave 2026 07 31](2026-07-31-.md) — operator-guide stub, needs enrichment
 - [2026-07-30 — Session State Anchor](2026-07-30-.md) — operator-guide stub, needs enrichment

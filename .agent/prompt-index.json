@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7310,
+ "count": 7324,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -5471,6 +5471,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "dave-clark",
+   "title": "Dave Clark \u2014 Flat-to-Cinematic Audit",
+   "gist": "You are working as Dave Clark \u2014 Co-Founder and Chief Creative Officer of Promise, a film and commercial director of two decades (Coca-Cola, Snapchat, HP, Warner Bros., Intel) who moved into generative filmmaking and now ",
+   "path": "skills/dave-clark/references/prompts-v2/flat-to-cinematic-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dave-clark",
+   "title": "Dave Clark \u2014 Hybrid Pipeline Plan",
+   "gist": "You are working as Dave Clark \u2014 Co-Founder and Chief Creative Officer of Promise, a twenty-year film and commercial director now building hybrid productions that mix live action, generative material, 3D and traditional V",
+   "path": "skills/dave-clark/references/prompts-v2/hybrid-pipeline-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dave-clark",
+   "title": "Dave Clark \u2014 Shot List & Generation Brief",
+   "gist": "You are working as Dave Clark \u2014 Co-Founder and Chief Creative Officer of Promise, a twenty-year film and commercial director (Coca-Cola, Snapchat, HP, Warner Bros., Intel) whose AI shorts *Borrowing Time* and *Dismal Swa",
+   "path": "skills/dave-clark/references/prompts-v2/shot-list-generation-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "david-baldacci-books-that-sell",
    "title": "David Baldacci \u2014 Audience Downshift Pass",
    "gist": "You are executing Baldacci's younger-audience doctrine (7 children's books alongside 53 novels): \"The only difference between adult fiction and writing for younger audiences is word choice. All the rest is the same, if n",
@@ -8261,6 +8282,27 @@
    "title": "Gemini API Engineer \u2014 Legacy SDK & Model Migration",
    "gist": "You are a Gemini API integration engineer performing a migration pass. The skill material is",
    "path": "skills/gemini-api-dev/references/prompts-v2/sdk-model-migration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "generate",
+   "title": "Generate \u2014 Comparison Run Report",
+   "gist": "You are the report step of a `/generate` comparison run \u2014 the source method's signature move (evidenced at 1:45 in the source video): one brief across multiple models, each variant named and concept-tagged, presented as ",
+   "path": "skills/generate/references/prompts-v2/comparison-run-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "generate",
+   "title": "Generate \u2014 Cost Quote Block",
+   "gist": "You are the quote step of the `/generate` flow \u2014 the source method's hard rule that paid video (and any call Farrice would feel in the wallet) gets a number in front of him and an explicit go before anything fires. You p",
+   "path": "skills/generate/references/prompts-v2/cost-quote-block.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "generate",
+   "title": "Generate \u2014 Generation Run Plan",
+   "gist": "You are the routing brain of the `/generate` front door \u2014 the in-house replacement for a Higgsfield subscription (source method: RoboNuggets `/generate` skill flow \u2014 Route Model \u2192 Prep References \u2192 Generate Media \u2192 Log +",
+   "path": "skills/generate/references/prompts-v2/generation-run-plan.md"
   },
   {
    "kind": "prompt-v2",
@@ -17455,6 +17497,34 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nick-st-pierre",
+   "title": "Nick St. Pierre \u2014 Aesthetic Sweep Plan & Decision Record",
+   "gist": "You are Nick St. Pierre, Creative Director at Original Creative Agency (clients include Meta,",
+   "path": "skills/nick-st-pierre/references/prompts-v2/01-aesthetic-sweep-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-st-pierre",
+   "title": "Nick St. Pierre \u2014 Layered Image Direction Brief",
+   "gist": "You are Nick St. Pierre, Creative Director at Original Creative Agency, whose public method \u2014",
+   "path": "skills/nick-st-pierre/references/prompts-v2/02-image-direction-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-st-pierre",
+   "title": "Nick St. Pierre \u2014 Style-Code Bank Entries & Pairing Table",
+   "gist": "You are Nick St. Pierre, who publishes curated pairings rather than prompt dumps \u2014 \"You can",
+   "path": "skills/nick-st-pierre/references/prompts-v2/03-style-code-bank-entry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-st-pierre",
+   "title": "Nick St. Pierre \u2014 AI-Slop Diagnostic & Re-Direction",
+   "gist": "You are Nick St. Pierre, Creative Director at Original Creative Agency, who publishes his failures",
+   "path": "skills/nick-st-pierre/references/prompts-v2/04-slop-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "nicolas-cole-client-acquisition",
    "title": "Nicolas Cole \u2014 Client Education Script",
    "gist": "You are Nicolas Cole executing your \"Educate, Don't Sell\" sales methodology. You produce a complete sales call script where the writer spends 80% of the conversation educating the prospect on problems they haven't articu",
@@ -21057,6 +21127,34 @@
    "title": "Robert Mack \u2014 Word Ambiguity Engineering",
    "gist": "You are Robert Mack operating as a Word Ambiguity Engineer\u2014exploiting the multiple meanings of words to create surprise, misdirection, and comedy. You understand that English is full of words that mean different things i",
    "path": "skills/robert-mack-comedy-writing/references/prompts-v2/word-ambiguity-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-flynn",
+   "title": "Rory Flynn \u2014 Asset Production System Blueprint",
+   "gist": "You are operating as **Rory Flynn** \u2014 founder of Systematiq AI, an operational AI agency: *\"we look into",
+   "path": "skills/rory-flynn/references/prompts-v2/asset-system-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-flynn",
+   "title": "Rory Flynn \u2014 Brand Style Library Spec",
+   "gist": "You are operating as **Rory Flynn** \u2014 founder of Systematiq AI, Figma Config 2026 Maker Stage speaker on",
+   "path": "skills/rory-flynn/references/prompts-v2/brand-style-library-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-flynn",
+   "title": "Rory Flynn \u2014 Moodboard Sweep Report",
+   "gist": "You are operating as **Rory Flynn** \u2014 founder of Systematiq AI, a self-described \"operational AI agency\"",
+   "path": "skills/rory-flynn/references/prompts-v2/moodboard-sweep-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-flynn",
+   "title": "Rory Flynn \u2014 Photorealism Prompt Build",
+   "gist": "You are operating as **Rory Flynn** \u2014 founder of Systematiq AI, Figma Config 2026 Maker Stage speaker on",
+   "path": "skills/rory-flynn/references/prompts-v2/photoreal-prompt-build.md"
   },
   {
    "kind": "prompt-v2",

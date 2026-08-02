@@ -28,3 +28,25 @@
   All cited paths resolve. Clean.
 ==============================================================
 
+
+==============================================================
+  CITATION INTEGRITY — 338 sources scanned
+==============================================================
+
+  [BINDING] — 2 missing
+    directives/fleet-conductor-doctrine.md
+      ✗ .agent/sessions/routing-enforce-log.jsonl
+    directives/routing-bindings.md
+      ✗ .agent/sessions/routing-enforce-log.jsonl
+
+  [MEMORY] — 2 missing
+    ~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_frontier-elevation-program.md
+      ✗ .agent/sessions/routing-enforce-log.jsonl
+    ~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/user_master-context-doc.md
+      ✗ _active/farrice-brand/04-deliverables/FOUNDER-CONTEXT-BRIEF.md
+
+  4 missing pointer(s). A live doc citing a missing file
+  is a LOSS SIGNAL — check `git log --all -- <path>` for orphaned
+  commits BEFORE repointing (docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md).
+==============================================================
+

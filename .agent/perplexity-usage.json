@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-08",
     "usage": {
-        "total_queries": 39,
-        "estimated_cost_usd": 0.78,
+        "total_queries": 78,
+        "estimated_cost_usd": 1.56,
         "queries": [
             {
                 "timestamp": "2026-08-01T13:45:08.792869+00:00",
@@ -316,6 +316,318 @@
                 "description": "Based on these research findings, provide a clear synthesis answering: brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-01). Only include items published in t",
                 "task_context": "research-engine-synthesis",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:10.277823+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:17.025803+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:22.807453+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:29.053176+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:34.304600+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:39.396007+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:45.234900+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:50.105484+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:45:54.653175+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:01.109415+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:07.248497+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:13.134614+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:21.584445+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:25.799069+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:31.023866+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:36.022197+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:40.452101+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:45.199023+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:51.127437+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:46:56.134847+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:01.299208+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:05.718947+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:10.469893+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:14.850601+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:19.338947+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and unda",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:27.837416+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: email and landing page conversion copy trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items ",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:31.951838+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:37.463741+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:41.845272+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:46.194503+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:49.935451+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:47:56.156432+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:02.757976+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:06.517904+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:10.130369+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:16.357788+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:19.755506+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:23.646396+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-02T13:48:28.392197+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -326,7 +638,7 @@
     "loop_detection": {
         "current_task_query_count": 1,
         "current_task_name": "research-engine-synthesis",
-        "last_query_timestamp": "2026-08-01T13:48:25.642115+00:00",
+        "last_query_timestamp": "2026-08-02T13:48:28.392197+00:00",
         "consecutive_low_info_queries": 0
     }
 }

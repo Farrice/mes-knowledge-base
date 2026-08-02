@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-02** [fantastic-posters/active] [Fantastic Posters — Gen](2026-08-02-fantastic-posters.md) — Fantastic Posters — Gen
+- **2026-08-02** [health-performance-geo-daily-brief/active] [2026-08-02 Angle Map Listening Brief verified and risk-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction](2026-08-02-health-performance-geo-daily-brief.md) — 2026-08-02 Angle Map Listening Brief verified and risk-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction
 - **2026-08-02** [health-performance-ip-library/active] [Health Performance Ip Library — Latest Exec Cut](2026-08-02-health-performance-ip-library.md) — Health Performance Ip Library — Latest Exec Cut
 - **2026-08-01** [angle-map-listening-engine-v4-1/active] [2026-08-01 Angle Map Listening Brief: creatine handoff winners teardown, local-only Codex run with Drive export disabled](2026-08-01-angle-map-listening-engine-v4-1.md) — 2026-08-01 Angle Map Listening Brief: creatine handoff winners teardown, local-only Codex run with Drive export disabled
 - **2026-08-01** [farrice-brand/active] [Farrice Brand — Thirty Six Women Script](2026-08-01-farrice-brand.md) — Farrice Brand — Thirty Six Women Script

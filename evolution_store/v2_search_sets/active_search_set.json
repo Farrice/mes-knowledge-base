@@ -3203,8 +3203,92 @@
         "gaming_flag": false
       },
       "notes": "Sunday education chapter run. Winning angle: science-backed asserted at ingredient level while evidence/regulators/buyers operate 1-4 levels lower; same-day primary receipt from an evidence-site operator self-audit (277 of 475 zero-scored pairings had real RCTs). Creatine SATURATED and excluded. Social listening LIVE (4 Apify calls, 0.042 USD). Long-form initially FAILED content_finish_gate on a reveal pattern and WARNED on prose_classifier parallel structure; both fixed and re-checked CLEAN. | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260802_063526",
+      "timestamp": "2026-08-02T06:35:26.719810",
+      "schema_version": "v3",
+      "component": "angle-map-listening-engine",
+      "expert": "health-performance-angle-map-listening-engine",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 5.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Existing same-day local run verified; golden sample metadata repaired; Drive disabled per explicit 2026-08-02 instruction; JSONL not duplicated | platform: codex | Verification: PASS local gates | Anchor: claims sit near proof, limitation, or source context"
+    },
+    {
+      "trace_id": "20260802_063631",
+      "timestamp": "2026-08-02T06:36:31.308273",
+      "schema_version": "v3",
+      "component": "angle-map-listening-engine",
+      "expert": "health-performance-angle-map-listening-engine",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 5.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Existing same-day local run verified; metadata repaired; claim risk scan CLEAN after wording repair; Drive disabled per explicit 2026-08-02 instruction; JSONL not duplicated | platform: codex | Verification: PASS local gates | Anchor: claims sit near proof, limitation, or source context"
+    },
+    {
+      "trace_id": "20260802_142325",
+      "timestamp": "2026-08-02T14:23:25.058048",
+      "schema_version": "v3",
+      "component": "generate",
+      "expert": "RoboNuggets source-to-skill",
+      "workflow": "source-to-skill-system",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Extend-not-rebuild held: 1 new engine script, 2 board scripts, recipes; all guards composed not duplicated. Proof run surfaced 3 real bugs (SSL certs, gen.sh pipefail, style-pick mismatch) \u2014 worth the $0.22. | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 113,
-  "last_updated": "2026-08-02T06:02:59.978235"
+  "total_cases": 116,
+  "last_updated": "2026-08-02T14:23:25.059025"
 }

@@ -1,30 +1,30 @@
 # Latest Handoff
 
-**Thread:** health-performance-ip-library  
-**Full path:** .agent/handoffs/2026-08-02-health-performance-ip-library.md  
+**Thread:** fantastic-posters  
+**Full path:** .agent/handoffs/2026-08-02-fantastic-posters.md  
 **Date:** 2026-08-02 (today)  
 **Status:** active  
-**Title:** Health Performance Ip Library — Latest Exec Cut
+**Title:** Fantastic Posters — Gen
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume health-performance-ip-library` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume fantastic-posters` for this one.
 
 ---
-thread: health-performance-ip-library
+
+---
+thread: fantastic-posters
 status: active
-resume_hint: Health Performance Ip Library — Latest Exec Cut
+resume_hint: Fantastic Posters — Gen
 branch: main
 pin: true
 ---
 
-# Health Performance Ip Library — Latest Exec Cut
+# Fantastic Posters — Gen
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-02-audit-the-search-post.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-02-six-rungs-education-longform.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md, /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md
+**Artifacts:** /Users/farricecain/Google Antigravity/extractions/video-context/9C4TRbucmhQ/analysis.md, /Users/farricecain/Google Antigravity/extractions/video-context/9C4TRbucmhQ/uncertainty-report.md, /Users/farricecain/Google Antigravity/extractions/video-context/9C4TRbucmhQ/video-context-ledger.md, /Users/farricecain/Google Antigravity/execution/generate_media.py, /Users/farricecain/Google Antigravity/skills/fantastic-posters/gen.sh
 
-**Retrieve:** `/resume health-performance-ip-library`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume fantastic-posters`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)

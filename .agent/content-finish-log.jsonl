@@ -394,3 +394,5 @@
 {"ts": "2026-08-02T12:57:31Z", "label": "education longform 2026-08-02", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["A 577-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-02T12:58:42Z", "label": "education longform 2026-08-02", "verdict": "WARN", "fails": [], "warns": ["A 377-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-02T12:58:57Z", "label": "flagship post 2026-08-02", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-02T13:34:17Z", "label": "2026-08-02-audit-the-search-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-02T13:34:17Z", "label": "2026-08-02-six-rungs-education-longform", "verdict": "CLEAN", "fails": [], "warns": []}
