@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-08-01 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-08-02 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -81,5 +81,5 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 Contradictions only — not a list of unstamped projects.
 
-- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 2d ago
+- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 3d ago
 

@@ -449,38 +449,45 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 10,
+            "total_routings": 19,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "sean-dollwet-kdp-publishing": 1,
-                "Research": 1,
+                "sean-dollwet-kdp-publishing": 4,
+                "Research": 2,
                 "fresh-voice-system": 1,
                 "Content": 1,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
                 "System": 2,
-                "supercomputer": 1
+                "supercomputer": 1,
+                "Creative": 1,
+                "Strategy": 2,
+                "luke-iha-copy-blocks": 1,
+                "adam-sandler-second-brain-gtm": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 1,
+                "sean-dollwet-kdp-publishing": 4,
                 "oren-operational-systems": 1,
                 "fresh-voice-system": 1,
                 "luke-iha-creative-strategy": 1,
-                "Oren Operational Systems": 1,
+                "Oren Operational Systems": 2,
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
-                "alex-copper": 2,
+                "alex-copper": 5,
                 "supercomputer": 1,
-                "doc-coauthoring": 1
+                "doc-coauthoring": 1,
+                "luke-iha-copy-blocks": 1,
+                "jonathan-franzen-storytelling": 1,
+                "adam-sandler-second-brain-gtm": 1
             },
             "tier_counts": {
-                "0": 10,
+                "0": 19,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -488,10 +495,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 5,
-                "finalize-auto": 5
+                "hybrid": 10,
+                "finalize-auto": 9
             },
-            "ensemble_count": 3
+            "ensemble_count": 4
         }
     },
     "feedback_log": [],
@@ -667,6 +674,160 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_021411_a0a0",
+            "timestamp": "2026-08-02T02:14:11.905985+00:00",
+            "session_id": "019fbd9c-8730-7271-9e48-fe232ba41683",
+            "request_summary": "Run all three of the three next prompts recommended, please.",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_023839_4dab",
+            "timestamp": "2026-08-02T02:38:39.476115+00:00",
+            "session_id": "",
+            "request_summary": "Morrow Sleep Concept A three-cell production batch and comprehension audit",
+            "intent_score": 8,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "alex-copper"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "07-static-acquisition-system",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_023900_6e2f",
+            "timestamp": "2026-08-02T02:39:00.061675+00:00",
+            "session_id": "",
+            "request_summary": "The Angle Map real-brand static-acquisition readiness hardening",
+            "intent_score": 8,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "alex-copper"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "07-static-acquisition-system",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_023915_ec04",
+            "timestamp": "2026-08-02T02:39:15.413277+00:00",
+            "session_id": "",
+            "request_summary": "Client-facing Static Acquisition Sprint internal pilot candidate",
+            "intent_score": 8,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "alex-copper"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "07-static-acquisition-system",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_025227_6184",
+            "timestamp": "2026-08-02T02:52:27.243998+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "jonathan-franzen-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + jonathan-franzen-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_030218_fcfc",
+            "timestamp": "2026-08-02T03:02:18.129604+00:00",
+            "session_id": "019fbd9c-8730-7271-9e48-fe232ba41683",
+            "request_summary": "Use all recommended defaults",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_053307_a9de",
+            "timestamp": "2026-08-02T05:33:07.113937+00:00",
+            "session_id": "019fbd9c-8730-7271-9e48-fe232ba41683",
+            "request_summary": "I approve that branch push to Farrice/mes-knowledge-base.",
+            "intent_score": 0,
+            "domain_detected": "adam-sandler-second-brain-gtm",
+            "experts_deployed": [
+                "adam-sandler-second-brain-gtm"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "adam-sandler-second-brain-gtm",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_123009_4f50",
+            "timestamp": "2026-08-02T12:30:09.775380+00:00",
+            "session_id": "d60be1b3-743f-4b84-b2e9-0fbd0777035c",
+            "request_summary": "Read and execute _active/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary,",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_130259_a38d",
+            "timestamp": "2026-08-02T13:02:59.968761+00:00",
+            "session_id": "",
+            "request_summary": "Angle Map Listening Brief 2026-08-02 (Sunday education chapter): evidence-resolution collapse angle, flagship LinkedIn post + six-rung education long-form finished and vaulted, 3 insight rows, 3 promi",
+            "intent_score": 4,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "Oren Operational Systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "angle-map-listening-engine",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

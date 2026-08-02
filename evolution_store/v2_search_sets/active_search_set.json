@@ -3175,8 +3175,36 @@
         "gaming_flag": false
       },
       "notes": "platform: codex automation | Verification: JSONL PASS; grounding_guard PASS; content_finish_gate CLEAN; export_format_guard PASS; claim_risk_scan WATCH false-positive avatar pain; Google Drive export disabled by explicit run instruction | Anchor: V4 golden sample"
+    },
+    {
+      "trace_id": "20260802_060259",
+      "timestamp": "2026-08-02T06:02:59.974619",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "Oren Operational Systems",
+      "workflow": "angle-map-listening-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Sunday education chapter run. Winning angle: science-backed asserted at ingredient level while evidence/regulators/buyers operate 1-4 levels lower; same-day primary receipt from an evidence-site operator self-audit (277 of 475 zero-scored pairings had real RCTs). Creatine SATURATED and excluded. Social listening LIVE (4 Apify calls, 0.042 USD). Long-form initially FAILED content_finish_gate on a reveal pattern and WARNED on prose_classifier parallel structure; both fixed and re-checked CLEAN. | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 112,
-  "last_updated": "2026-08-01T06:33:10.099143"
+  "total_cases": 113,
+  "last_updated": "2026-08-02T06:02:59.978235"
 }

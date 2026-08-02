@@ -1,5 +1,5 @@
 # Knowledge Index
-*779 sources | 2,944,709 words | Updated: 2026-08-01*
+*782 sources | 2,947,685 words | Updated: 2026-08-02*
 
 ---
 
@@ -23,8 +23,8 @@
 - [Guide_5_Trailer_Storytelling_Narrative](creative-direction/guides/Guide_5_Trailer_Storytelling_Narrative.md) — 5,775 words (stale)
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words (stale)
+- [index](index.md) — 5,295 words
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
-- [index](index.md) — 5,235 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
@@ -281,7 +281,7 @@
 - [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
 - [source-metadata](../extractions/ron-lynch/source-metadata.md) — 36 words
 
-## Copywriting (105 files)
+## Copywriting (108 files)
 
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md) [cardinal-mason] — 60,673 words (stale)
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2.md) [cardinal-mason] — 54,838 words (stale)
@@ -327,6 +327,7 @@
 - [extraction-report](../extractions/Jason Fladlien/extraction-report.md) [jason-fladlien] — 1,204 words (stale)
 - [extraction-report](../extractions/luke-iha/extraction-report.md) [luke-iha] — 1,125 words (stale)
 - [sample-006](expert-benchmarks/copywriting/sample-006.md) [cardinal-mason] — 1,108 words (stale)
+- [STATIC-ACQUISITION-SPRINT](../extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md) — 1,044 words
 - [starbornai-site-copy](../extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/starbornai-site-copy.md) — 1,011 words
 - [extraction-report](../extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md) [luke-iha] — 997 words (stale)
 - [creative-direction](creative-direction/creative-direction.md) — 987 words (stale)
@@ -334,11 +335,13 @@
 - [the-persuasion-stack](synthesis/the-persuasion-stack.md) — 922 words (stale)
 - [extraction-report](../extractions/omar-eddaoudi/extraction-report.md) [april-dunford] — 922 words (stale)
 - [04-campaign-compression-engine](../extractions/jonathan-courtney/prompts/04-campaign-compression-engine.md) — 867 words (stale)
+- [THE-ANGLE-MAP-READINESS](../extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md) — 862 words
 - [desire-hook-evidence-map](../extractions/video-context/a7VjpIqq8Xk/desire-hook-evidence-map.md) [kallaway] — 856 words
 - [sample-004](expert-benchmarks/sales-psychology/sample-004.md) [kallaway] — 831 words (stale)
 - [sample-002](expert-benchmarks/sales-psychology/sample-002.md) [kallaway] — 813 words (stale)
 - [poc-godin-lens-session](../extractions/seth-godin-marketing-mind/poc-godin-lens-session.md) — 796 words
 - [DESIGN](design-libraries/brands/coinbase/DESIGN.md) — 783 words (stale)
+- [PRODUCTION-AND-AUDIT](../extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md) — 783 words
 - [story-seller-framework](../extractions/joanna-wiebe-persuasion-mastery/prompts-v2/story-seller-framework.md) — 776 words
 - [retention-reframe-engineering](../extractions/sam-goddard-media-scaling/prompts/retention-reframe-engineering.md) — 743 words (stale)
 - [vision-copywriting](../extractions/sam-parr/vision-copywriting.md) — 743 words
@@ -406,7 +409,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 16,224 words
+- [log](log.md) — 16,284 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -565,9 +568,9 @@
 - [decade-frame-strategy](../extractions/sam-goddard-media-scaling/prompts-v2/decade-frame-strategy.md) — 557 words
 - [guide_research_creative_direction](../extractions/creative-direction/guide_research_creative_direction.md) — 543 words (stale)
 - [visual-context](../extractions/hilary-gridley/visual-context.md) [april-dunford] — 504 words
+- [00-START-HERE](../extractions/alex-copper-static-ads/00-START-HERE.md) — 483 words
 - [sample-001](expert-benchmarks/brand-strategy/sample-001.md) [oren-john] — 448 words (stale)
 - [architecture](../extractions/seth-godin-marketing-mind/architecture.md) — 404 words
-- [00-START-HERE](../extractions/alex-copper-static-ads/00-START-HERE.md) — 316 words
 - [assembly-rubric](assembly-rubric.md) — 209 words
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [blind-pass-generated-01](../extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md) — 193 words

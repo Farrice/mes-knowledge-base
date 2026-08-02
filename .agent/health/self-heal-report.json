@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-01T06:48:31.178346",
+ "ts": "2026-08-02T06:00:08.643317",
  "mode": "report",
  "rows": [
   {
@@ -55,7 +55,7 @@
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 2d ago"
+      "detail": "stamped done, then touched 3d ago"
      }
     ],
     "deferred_files": 1
@@ -64,7 +64,7 @@
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 5d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 6d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
@@ -88,7 +88,7 @@
   {
    "id": "verify_system.py",
    "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 5d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_system.py is red in the 6d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {

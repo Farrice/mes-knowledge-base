@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-01 · imagegen-static-placement-correction · image generation returned a taller portrait after an explicit 4:5 request, so downstream static variants risked inheriting the wrong placement
 - 2026-08-01 · in-place-expert-expansion-behavior-proof · A source adds a connected method to an existing expert, but a new skill would duplicate authority and structural wiring alone would not prove changed behavior.
 - 2026-07-31 · Capability Lifecycle Language No Longer Triggers End Session · a persistent start-mid-closeout behavior request contains closeout and is misclassified as a request to end the current session
 - 2026-07-30 · provisional-content-signal-loop · Deploy a source-grounded content signal loop when creator taste evidence exists but live platform metrics do not

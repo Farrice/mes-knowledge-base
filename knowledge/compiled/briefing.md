@@ -1,27 +1,27 @@
 # Knowledge Briefing
-*Generated: 2026-08-01 | 779 sources | 2,944,709 words*
+*Generated: 2026-08-02 | 782 sources | 2,947,685 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **log** (general) — 16,224 words — `knowledge/log.md`
-- **00-START-HERE** (strategy) — 316 words — `extractions/alex-copper-static-ads/00-START-HERE.md`
+- **index** (content) — 5,295 words — `knowledge/index.md`
+- **log** (general) — 16,284 words — `knowledge/log.md`
+- **00-START-HERE** (strategy) — 483 words — `extractions/alex-copper-static-ads/00-START-HERE.md`
 - **amplification-report** (systems) — 1,003 words — `extractions/alex-copper-static-ads/amplification-report.md`
 - **architecture-checkpoint** (systems) — 315 words — `extractions/alex-copper-static-ads/architecture-checkpoint.md`
 - **behavior-proof-plan** (copywriting) — 429 words — `extractions/alex-copper-static-ads/behavior-proof-plan.md`
 - **deep-extraction** (screenwriting) — 1,349 words — `extractions/alex-copper-static-ads/deep-extraction.md`
-- **skill-system-contract** (systems) — 857 words — `extractions/alex-copper-static-ads/skill-system-contract.md`
-- **smoke-test** (copywriting) — 2,062 words — `extractions/alex-copper-static-ads/smoke-test.md`
-- **source-ledger** (content) — 962 words — `extractions/alex-copper-static-ads/source-ledger.md`
-- **vision-checkpoint** (content) — 731 words — `extractions/alex-copper-static-ads/vision-checkpoint.md`
+- **THE-ANGLE-MAP-READINESS** (copywriting) — 862 words — `extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md`
+- **PRODUCTION-AND-AUDIT** (copywriting) — 783 words — `extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md`
+- **STATIC-ACQUISITION-SPRINT** (copywriting) — 1,044 words — `extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
 | content | 275 | nick-saraev |
-| copywriting | 105 | luke-iha |
+| copywriting | 108 | luke-iha |
 | general | 94 | nick-saraev |
 | strategy | 85 | april-dunford |
 | screenwriting | 55 | connelly |

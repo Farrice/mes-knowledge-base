@@ -20,6 +20,10 @@ The roster already contains `alex-copper-creative-strategy`, and adjacent produc
 - **Live skill edits:** COMPLETE
 - **Routing and prompt wiring:** COMPLETE
 - **Detached behavior proof:** PASS
+- **Morrow Concept A production:** COMPLETE — three controlled 4:5 cells rendered
+- **Dara comprehension audit:** COMPLETE AS SIMULATION — real human panel still owed
+- **Real-brand hardening:** HOLD — The Angle Map correctly stopped at missing evidence
+- **Productization:** INTERNAL PILOT CANDIDATE — public offer, price, and timing parked
 - **Global changes:** NONE
 
 ## Read Order
@@ -32,6 +36,9 @@ The roster already contains `alex-copper-creative-strategy`, and adjacent produc
 6. [Deep extraction](deep-extraction.md)
 7. [Approved architecture](architecture-checkpoint.md)
 8. [Behavior proof](smoke-test.md)
+9. [Morrow production and comprehension audit](production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md)
+10. [The Angle Map real-brand hardening](hardening/THE-ANGLE-MAP-READINESS.md)
+11. [Static Acquisition Sprint candidate](productization/STATIC-ACQUISITION-SPRINT.md)
 
 ## Proposed Build
 
@@ -52,3 +59,11 @@ The workflow would then hand off to existing production routes instead of duplic
 ## Approval Decision
 
 **APPROVED.** Continue through deep extraction, one workflow, one born-v2 execution prompt, source-ledger repair, routing bridge, and detached behavior proof.
+
+## Post-Build Proof Ladder
+
+- **Implementation proof:** PASS — workflow, prompt, route, and detached behavior changed.
+- **Production proof:** PASS — Morrow Concept A control and challengers exist as local assets.
+- **Comprehension proof:** PARTIAL — simulated audit passed the system behavior gate; a real stranger panel is still required.
+- **Real-brand readiness proof:** PASS AS A HOLD — The Angle Map case refused production when exact-offer VOC, an approved destination, live paid-account inventory, payment rail, and commercial proof were unavailable.
+- **Productization proof:** CANDIDATE — the scope is packaged, but price, delivery capacity, client usability, and demand remain unvalidated.

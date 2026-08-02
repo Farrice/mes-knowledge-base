@@ -1,0 +1,13 @@
+{
+  "title": "Morrow Sleep Concept A - Production and Comprehension Audit",
+  "artifact_type": "static_production_receipt",
+  "created": "2026-08-01",
+  "source_file": "PRODUCTION-AND-AUDIT.md",
+  "owner_skill": "alex-copper-creative-strategy",
+  "production_route": "dara-denney-meta-ads",
+  "fixture": "morrow_sleep_fictional",
+  "status": "creative_test_ready_traffic_hold",
+  "assets": 3,
+  "human_comprehension_panel": "not_run",
+  "market_proof": "not_established"
+}

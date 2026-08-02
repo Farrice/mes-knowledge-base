@@ -15,3 +15,34 @@ Three things surfaced for you, none blocking:
 The prose classifier still flags the brief *document* itself on format-structural signals (the mandated bold-label bullets, tables, and section headers) — reported honestly in the receipt as a false-positive per the 07-30 precedent; every public-facing asset is clean. Sunday's run is next: education chapter deep focus, education long-form as the second format.
 released
 === 2026-08-01 06:03:22 listening run end rc=0 ===
+=== 2026-08-02 05:30:05 listening run start ===
+claimed: 48a161fd94c7  (heartbeat every wave: session_lock.py heartbeat 48a161fd94c7)
+The scheduled Sunday run is complete and committed. Here's what it found and produced.
+
+## The pick
+
+The category's most-used proof claim — "science-backed" — is asserted at the **ingredient** level, while evidence, regulators, and buyers all operate one to four levels lower. Today gave that a same-day primary receipt: the operator of a supplement-evidence site published a full methodological self-audit on r/Biohackers. He had scored 2,156 supplement-goal pairings against published trials, put a 22% "no evidence" figure behind a DOI, then went back and checked. Of the 475 pairings his pipeline scored zero, **277 had at least one real RCT and 66 had ten or more**. Protein for osteoporosis, scored zero, has 104.
+
+Two causes, both his instrument: the pipeline searched a capped 200-record sample per supplement instead of querying per pairing, and its deduplication left Citrulline and L-Citrulline as separate compounds scoring 0 and 9 for the same use.
+
+The turn that makes it Farrice's rather than a compliance blog's: **absence claims are structurally weaker than presence claims, and a spreadsheet renders them identically.** When a brand's claims review comes back thin, nobody asks whether the search was broken — they soften the copy. Caution and emptiness read the same to a buyer, so the brand pays twice: once for the study it already owned, once for the sentence it was too careful to write.
+
+## What shipped
+
+Two finished assets, both filed to the vault as READY: the **flagship LinkedIn post** (274 words, opens on the number and the man who disproved it) and the Sunday rotating format, a **six-rung education long-form** walking evidence from cell → ingredient → goal → dose → form/population → finished formula. Plus hook stack, carousel outline, video script, teardown prompt, and DM angle as seeds.
+
+Living docs were fed: doc 07 gained a reactivity read (this audience rewards published errors over polished conclusions), doc 03 gained a new buying trigger (the thin claims review). Three rows to each ledger, JSONL validated clean.
+
+## Gates and honesty notes
+
+Everything passed, but not on the first try, and two things are worth your eye:
+
+The education long-form **failed** `content_finish_gate` on an "It's not X. It's Y." reveal in rung one and **warned** on `prose_classifier` for parallel structure across six consecutive rung paragraphs. I fixed both — the parallel-structure fix meant adding the escalation beats the ladder was actually missing, so the piece got better rather than just compliant. Both re-checked CLEAN.
+
+`chain_runner finalize` returned composite 6.67 with intent_alignment at 4.0. That is the same specialized-lane mismatch yesterday's run logged: the scorer grades against a generic content-deliverable rubric and reads a scheduled system run as off-intent. Reported, not chased.
+
+One discrepancy I found and did **not** silently fix: yesterday's brief states no Drive write was attempted, but a Doc titled "2026-08-01 — Angle Map Listening Brief" exists in the approved folder, created at 13:01Z — the scheduled-run slot, not the later Codex session. Most likely the scheduled run exported and the Codex run that authored the brief didn't know. I flagged it in today's brief and left yesterday's dated record untouched.
+
+Today's Drive mirror is live and verified by exporting the Doc back to plain text and comparing: [2026-08-02 — Angle Map Listening Brief](https://docs.google.com/document/d/1J8gXFRYR_yubTZbcuQuEZPFpvsgAsXZDB9Lv5WkfRSE/edit). Apify spend was $0.042 today, $0.213 month-to-date against $29. Creatine was marked SATURATED after two consecutive briefs and appears nowhere; 14 of 15 candidate signals were non-GLP-1.
+
+I committed only this run's ten files rather than sweeping the 37 pre-existing uncommitted files — those look like another tool's in-flight work, and the golden rule says don't. I also did not push: the divergence alarm shows three branches holding work `main` lacks, and pushing before recovering those is the exact scar that rule exists for.

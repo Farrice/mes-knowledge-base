@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** health-performance-ip-library  
-**Full path:** .agent/handoffs/2026-08-02-health-performance-ip-library.md  
-**Date:** 2026-08-02 (today)  
-**Status:** active  
-**Title:** Health Performance Ip Library — Latest Exec Cut
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume health-performance-ip-library` for this one.
-
----
-
 ---
 thread: health-performance-ip-library
 status: active
@@ -29,4 +17,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

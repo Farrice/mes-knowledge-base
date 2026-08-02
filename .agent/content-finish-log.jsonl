@@ -382,3 +382,15 @@
 {"ts": "2026-08-01T13:32:57Z", "label": "_active/farrice-brand/content/vault/2026-08-01-nobody-sent-her-script.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-01T13:33:01Z", "label": "_active/farrice-brand/content/vault/2026-08-01-thirty-six-women-script.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-01T13:33:51Z", "label": "_active/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-02T02:35:01Z", "label": "extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-02T02:35:02Z", "label": "extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-02T02:35:02Z", "label": "extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-02T02:35:47Z", "label": "extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-02T02:35:49Z", "label": "extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-02T02:35:50Z", "label": "extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-02T02:39:49Z", "label": "extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('users \u2026 users \u2026 users') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-02T02:40:12Z", "label": "extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-02T12:57:31Z", "label": "flagship post 2026-08-02", "verdict": "WARN", "fails": [], "warns": ["A 383-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-02T12:57:31Z", "label": "education longform 2026-08-02", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["A 577-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-02T12:58:42Z", "label": "education longform 2026-08-02", "verdict": "WARN", "fails": [], "warns": ["A 377-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-02T12:58:57Z", "label": "flagship post 2026-08-02", "verdict": "CLEAN", "fails": [], "warns": []}
