@@ -1,6 +1,6 @@
 {
-  "last_synced_commit": "e934b9d4581162e0bdfbe90f27abf50d3c5b9875",
-  "last_synced_at": "2026-07-30T06:54:36Z",
+  "last_synced_commit": "a092b2001424d65ff762affc63a6992bd412b8d5",
+  "last_synced_at": "2026-08-02T04:17:41Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
@@ -39,7 +39,7 @@
     "skills/ben-watkins-storytelling/workflows/bw-dream-anatomy.md": "30cc1fbafc24c1e0c89370224a1d0ff4522261a4",
     "skills/ben-watkins-storytelling/workflows/bw-elevate.md": "006700958d8316c7af15b10eb3b0371361199cc3",
     "skills/ben-watkins-storytelling/workflows/bw-spoken-story.md": "09136c8c2861186f53f22fe6ef8127e999e0cdc7",
-    ".agent/workflows/end-session.md": "357a9bfa586143c62939de2db4b7e3f14c294843",
+    ".agent/workflows/end-session.md": "7ffc760dd96c704ba19a9814a3a4cab75bf216a0",
     "directives/model-notes.md": "315a246c9df736549a2990ad1dca4b2ee87d79d4",
     "directives/orchestration-doctrine.md": "9d489780ca4ecddf9a0b85123c0153ae8ad8b1b9",
     ".agent/workflows/fladlien-game-selection.md": "4460a7b4a4e0f9ca300a443b08a1a69b055acaf8",
@@ -53,6 +53,8 @@
     ".agent/workflows/sll-cadence-audit.md": "8d59b8bb75713cc5f715c4f830f8691dee251ea1",
     ".agent/workflows/sll-lead-form.md": "9335bbd12045245f8414d050727caf2bb79b6e34",
     ".agent/workflows/sll-long-form-explainer.md": "d218fff2c2d7d962b6c8a237d3e912032566628b",
-    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2"
+    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2",
+    "docs/solutions/index.md": "9b980894b0dc192040f094423095e152c368338a",
+    "docs/solutions/2026-08-01-codex-end-session-exact-handoff-and-owned-git.md": "b8666c896ff757f57e8e5c7b66ec592ac8bb4d49"
   }
 }

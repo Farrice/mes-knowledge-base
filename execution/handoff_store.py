@@ -43,6 +43,8 @@ import tempfile
 import argparse
 import difflib
 import subprocess
+import hashlib
+import json
 from datetime import datetime
 from pathlib import Path
 
@@ -94,6 +96,14 @@ def parse_frontmatter(text: str):
     return fields, body
 
 
+def _normalized_text(text: str) -> str:
+    return text.replace("\r\n", "\n").replace("\r", "\n").rstrip() + "\n"
+
+
+def _sha256_text(text: str) -> str:
+    return hashlib.sha256(_normalized_text(text).encode("utf-8")).hexdigest()
+
+
 def _clean(t: str) -> str:
     return re.sub(r"[*`]+", "", re.sub(r"^[-\d.)\s]+", "", t)).strip()
 
@@ -142,6 +152,14 @@ def _title_summary(body: str, fallback: str):
         if title != fallback and summary:
             break
     return title, summary
+
+
+def _first_h1(body: str, fallback: str = "") -> str:
+    for line in body.splitlines():
+        text = line.strip()
+        if text.startswith("# "):
+            return text[2:].strip()
+    return fallback
 
 
 def read_meta(path: Path) -> dict:
@@ -245,11 +263,11 @@ def rebuild():
         body = m["path"].read_text(encoding="utf-8")
         LATEST.write_text(
             "# Latest Handoff\n\n"
-            f"**Thread:** {m['thread']}  \n**Full path:** .agent/handoffs/{m['name']}  \n"
-            f"**Date:** {m['date']} ({_age(m['date'])})  \n**Status:** {m['status']}  \n"
+            f"- **Thread:** {m['thread']}\n- **Full path:** .agent/handoffs/{m['name']}\n"
+            f"- **Date:** {m['date']} ({_age(m['date'])})\n- **Status:** {m['status']}\n"
             f"**Title:** {m['title']}\n\n"
             "> Not auto-loaded. Run `/resume` to choose any thread, or `/resume "
-            f"{m['thread']}` for this one.\n\n---\n\n" + body + "\n",
+            f"{m['thread']}` for this one.\n\n---\n\n" + body.rstrip() + "\n",
             encoding="utf-8",
         )
     else:
@@ -270,7 +288,10 @@ def _render_fm(fields: dict) -> str:
 
 
 def _write_with_fm(dest: Path, fields: dict, body: str):
-    dest.write_text(_render_fm(fields) + body.lstrip("\n"), encoding="utf-8")
+    dest.write_text(
+        _normalized_text(_render_fm(fields) + body.lstrip("\n")),
+        encoding="utf-8",
+    )
 
 
 def _git(*a) -> str:
@@ -282,19 +303,60 @@ def _git(*a) -> str:
 
 
 # ── commands ────────────────────────────────────────────────────────
-def _newest_temp():
+def _newest_temp(thread=None):
     cands = sorted(Path(tempfile.gettempdir()).glob("handoff-*.md"),
                    key=lambda p: p.stat().st_mtime, reverse=True)
-    return cands[0] if cands else None
+    if not cands:
+        return None, "no handoff candidates"
+    if thread:
+        wanted = slugify(thread)
+        matches = []
+        for path in cands:
+            _date, derived = derive_from_filename(path.name)
+            try:
+                fm, _body = parse_frontmatter(path.read_text(encoding="utf-8"))
+            except OSError:
+                fm = {}
+            declared = slugify(fm.get("thread", "")) if fm.get("thread") else ""
+            if wanted in {derived, declared} or wanted in derived or (declared and wanted in declared):
+                matches.append(path)
+        if not matches:
+            return None, f"no temp handoff matches thread '{wanted}'"
+        return matches[0], "thread-filtered"
+    if len(cands) > 1:
+        return None, (f"{len(cands)} temp handoffs are present; pass --thread or an explicit "
+                      "source path so identity is not chosen by recency")
+    return cands[0], "single-candidate"
+
+
+def _save_receipt(src: Path, dest: Path, thread: str, status: str) -> dict:
+    source_raw = src.read_text(encoding="utf-8")
+    stored_raw = dest.read_text(encoding="utf-8")
+    _source_fm, source_body = parse_frontmatter(source_raw)
+    stored_fm, stored_body = parse_frontmatter(stored_raw)
+    title, _summary = _title_summary(stored_body, thread)
+    return {
+        "schema_version": "handoff-save/v1",
+        "source_path": str(src.resolve()),
+        "stored_path": str(dest.resolve()),
+        "thread": thread,
+        "status": status,
+        "title": title,
+        "branch": stored_fm.get("branch", ""),
+        "source_sha256": _sha256_text(source_raw),
+        "source_body_sha256": _sha256_text(source_body),
+        "stored_sha256": _sha256_text(stored_raw),
+        "stored_body_sha256": _sha256_text(stored_body),
+    }
 
 
 def cmd_save(args) -> int:
     if args.from_temp:
-        src = _newest_temp()
+        src, reason = _newest_temp(args.thread)
         if src is None:
-            print(f"ERROR: no handoff-*.md in temp ({tempfile.gettempdir()})", file=sys.stderr)
+            print(f"ERROR: {reason} in temp ({tempfile.gettempdir()})", file=sys.stderr)
             return 1
-        print(f"from-temp: {src}")
+        print(f"from-temp: {src} ({reason})", file=sys.stderr if args.json else sys.stdout)
     elif args.source:
         src = Path(args.source).expanduser()
     else:
@@ -343,8 +405,12 @@ def cmd_save(args) -> int:
             print(f"WARNING: new thread '{thread}' is close to existing '{close[0]}' "
                   f"(--new-thread was passed, keeping them separate)", file=sys.stderr)
     if args.thread and existing_fm.get("thread") and slugify(existing_fm["thread"]) != thread:
-        print(f"WARNING: source frontmatter thread='{existing_fm['thread']}' but --thread='{args.thread}' "
-              "— verify this is the right handoff", file=sys.stderr)
+        message = (f"source frontmatter thread='{existing_fm['thread']}' but "
+                   f"--thread='{args.thread}'")
+        if args.from_temp or args.json:
+            print(f"ERROR: {message}", file=sys.stderr)
+            return 1
+        print(f"WARNING: {message} — verify this is the right handoff", file=sys.stderr)
 
     status = (args.status or existing_fm.get("status") or "active").lower()
     if status not in STATUSES:
@@ -354,8 +420,12 @@ def cmd_save(args) -> int:
     dest = STORE / f"{date}-{slug}.md"
 
     if src.resolve() == dest.resolve():
-        print(f"already stored: {dest.relative_to(ROOT)}")
         rebuild()
+        receipt = _save_receipt(src, dest, thread, status)
+        if args.json:
+            print(json.dumps(receipt, sort_keys=True))
+        else:
+            print(f"already stored: {dest.relative_to(ROOT)}")
         return 0
     if dest.exists() and not args.overwrite:
         # same thread, same day = UPDATE today's entry (loop). different = clash.
@@ -396,8 +466,136 @@ def cmd_save(args) -> int:
     }
     _write_with_fm(dest, fields, body)
     rebuild()
-    print(f"saved:  {dest.relative_to(ROOT)}  [thread={thread} status={status}]")
+    receipt = _save_receipt(src, dest, thread, status)
+    if args.json:
+        print(json.dumps(receipt, sort_keys=True))
+    else:
+        print(f"saved:  {dest.relative_to(ROOT)}  [thread={thread} status={status}]")
     return 0
+
+
+CORE_PATH_HEADINGS = re.compile(
+    r"(?im)^##+\s+(?:core (?:context )?paths|load first|essential context paths)\s*$"
+)
+REMAINING_SECTION = re.compile(
+    r"(?im)^(?:##+\s+(?:remaining priority|next session focus|next steps?)|"
+    r"\*\*\s*(?:remaining priorit\w*|next session focus|next steps?)\s*\*\*)"
+)
+DO_NOT_REBUILD_SECTION = re.compile(r"(?im)^##+\s+.*(?:do\s*n[o']?t|not)\s+rebuild")
+
+
+def _section_body(body: str, heading_re: "re.Pattern[str]") -> str:
+    match = heading_re.search(body)
+    if not match:
+        return ""
+    tail = body[match.end():]
+    next_heading = re.search(r"(?m)^##+\s+", tail)
+    return tail[:next_heading.start()] if next_heading else tail
+
+
+def _core_paths(body: str) -> list[str]:
+    section = _section_body(body, CORE_PATH_HEADINGS)
+    found = []
+    for line in section.splitlines():
+        text = line.strip()
+        if not text or not text.startswith(("-", "*")):
+            continue
+        code = re.search(r"`([^`]+)`", text)
+        value = code.group(1).strip() if code else re.sub(r"^[-*]\s*", "", text).split(" - ", 1)[0].strip()
+        if value and not value.startswith(("http://", "https://", "/resume", "/")):
+            found.append(value)
+        elif value.startswith("/") and Path(value).exists():
+            found.append(value)
+    return found
+
+
+def _resolve_core_path(value: str) -> Path:
+    path = Path(value).expanduser()
+    return path if path.is_absolute() else ROOT / path
+
+
+def verify_handoff(thread: str, source: Path) -> dict:
+    wanted = slugify(thread)
+    exact = [m for m in all_metas(include_archived=True) if m["thread"] == wanted]
+    errors = []
+    checks = {}
+    if not exact:
+        return {
+            "schema_version": "handoff-verify/v1", "valid": False,
+            "thread": wanted, "source_path": str(source.resolve()),
+            "stored_path": "", "checks": {"exact_thread": False},
+            "errors": [f"no stored handoff for exact thread '{wanted}'"],
+        }
+    stored = exact[0]["path"]
+    if not source.exists():
+        return {
+            "schema_version": "handoff-verify/v1", "valid": False,
+            "thread": wanted, "source_path": str(source.resolve()),
+            "stored_path": str(stored.resolve()), "checks": {"source_exists": False},
+            "errors": [f"source not found: {source}"],
+        }
+
+    source_raw = source.read_text(encoding="utf-8")
+    stored_raw = stored.read_text(encoding="utf-8")
+    source_fm, source_body = parse_frontmatter(source_raw)
+    stored_fm, stored_body = parse_frontmatter(stored_raw)
+    source_title = _first_h1(source_body, "")
+    stored_title = _first_h1(stored_body, "")
+    current_branch = _git("rev-parse", "--abbrev-ref", "HEAD")
+    paths = _core_paths(stored_body)
+    missing_paths = [p for p in paths if not _resolve_core_path(p).exists()]
+
+    checks["exact_thread"] = exact[0]["thread"] == wanted
+    checks["source_thread"] = not source_fm.get("thread") or slugify(source_fm["thread"]) == wanted
+    checks["title"] = bool(source_title and source_title == stored_title)
+    checks["body_sha256"] = _sha256_text(source_body) == _sha256_text(stored_body)
+    checks["branch"] = bool(stored_fm.get("branch") and stored_fm.get("branch") == current_branch)
+    checks["core_paths"] = bool(paths) and not missing_paths
+    checks["remaining_priority"] = bool(REMAINING_SECTION.search(stored_body))
+    checks["do_not_rebuild"] = bool(DO_NOT_REBUILD_SECTION.search(stored_body))
+
+    labels = {
+        "exact_thread": "stored thread does not match requested thread",
+        "source_thread": "source frontmatter thread does not match requested thread",
+        "title": "source and stored H1 titles do not match",
+        "body_sha256": "source and stored handoff bodies differ",
+        "branch": "stored branch is missing or does not match the current branch",
+        "core_paths": "core paths are missing or do not resolve",
+        "remaining_priority": "remaining priority/next-session section is missing",
+        "do_not_rebuild": "Do Not Rebuild section is missing",
+    }
+    errors.extend(labels[key] for key, value in checks.items() if not value)
+    if missing_paths:
+        errors.append("missing core paths: " + ", ".join(missing_paths))
+    return {
+        "schema_version": "handoff-verify/v1",
+        "valid": not errors,
+        "thread": wanted,
+        "title": stored_title,
+        "branch": stored_fm.get("branch", ""),
+        "source_path": str(source.resolve()),
+        "stored_path": str(stored.resolve()),
+        "source_sha256": _sha256_text(source_raw),
+        "source_body_sha256": _sha256_text(source_body),
+        "stored_sha256": _sha256_text(stored_raw),
+        "stored_body_sha256": _sha256_text(stored_body),
+        "core_paths": paths,
+        "checks": checks,
+        "errors": errors,
+    }
+
+
+def cmd_verify(args) -> int:
+    result = verify_handoff(args.thread, Path(args.source).expanduser())
+    if args.json:
+        print(json.dumps(result, indent=2, sort_keys=True))
+    else:
+        print(f"handoff verify: {'PASS' if result['valid'] else 'FAIL'} — {result['thread']}")
+        for key, value in result.get("checks", {}).items():
+            print(f"- {key}: {'PASS' if value else 'FAIL'}")
+        for error in result.get("errors", []):
+            print(f"  ERROR: {error}")
+    return 0 if result["valid"] else 1
 
 
 def cmd_list(args) -> int:
@@ -617,6 +815,7 @@ def main() -> int:
     sp.add_argument("--thread"); sp.add_argument("--status"); sp.add_argument("--hint")
     sp.add_argument("--unfinished"); sp.add_argument("--branch")
     sp.add_argument("--slug"); sp.add_argument("--date")
+    sp.add_argument("--json", action="store_true")
     sp.add_argument("--pin", action="store_true"); sp.add_argument("--overwrite", action="store_true")
     sp.add_argument("--new-thread", action="store_true", dest="new_thread",
                     help="Force a genuinely new thread even when its name is a near-"
@@ -635,6 +834,12 @@ def main() -> int:
     rp = sub.add_parser("resume")
     rp.add_argument("selector"); rp.add_argument("--all", action="store_true")
     rp.set_defaults(fn=cmd_resume)
+
+    vp = sub.add_parser("verify")
+    vp.add_argument("thread")
+    vp.add_argument("--source", required=True)
+    vp.add_argument("--json", action="store_true")
+    vp.set_defaults(fn=cmd_verify)
 
     anp = sub.add_parser("annotate")
     anp.add_argument("selector")

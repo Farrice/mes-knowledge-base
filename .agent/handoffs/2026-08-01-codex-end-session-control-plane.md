@@ -1,15 +1,3 @@
-# Latest Handoff
-
-- **Thread:** codex-end-session-control-plane
-- **Full path:** .agent/handoffs/2026-08-01-codex-end-session-control-plane.md
-- **Date:** 2026-08-01 (today)
-- **Status:** ready
-**Title:** System: Codex End-Session - Built and Verified
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume codex-end-session-control-plane` for this one.
-
----
-
 ---
 thread: codex-end-session-control-plane
 status: ready

@@ -15,6 +15,15 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_END_SESSION = Path.home() / ".codex" / "skills" / "end-session" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-end-session" / "SKILL.md"
 
+CODEX_NATIVE_TEXT = [
+    "handoff_store.py verify",
+    "codex_end_session.py run --manifest",
+    "[Domain]: [Specific Object] - [Outcome]",
+    "archive only",
+    "dedicated `codex/*` worktree",
+    "Never auto-commit, auto-merge, or auto-push `main`",
+]
+
 REQUIRED_TEXT = {
     PROJECT_WORKFLOW: [
         "canonical source of truth for End-session behavior",
@@ -28,6 +37,7 @@ REQUIRED_TEXT = {
         "Reuse hook",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        *CODEX_NATIVE_TEXT,
         "Optional cleanup must be reviewed",
         "Real Codex subagents require explicit authorization",
     ],
@@ -44,6 +54,7 @@ REQUIRED_TEXT = {
         "Reuse hook",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        *CODEX_NATIVE_TEXT,
         "real Codex subagents require explicit authorization",
         "no competing behavior contract",
     ],
@@ -58,6 +69,7 @@ REQUIRED_TEXT = {
         "Operator Lesson",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        *CODEX_NATIVE_TEXT,
         "Real Codex subagents require explicit authorization",
     ],
     GLOBAL_END_SESSION: [
@@ -74,6 +86,14 @@ REQUIRED_TEXT = {
         "Reuse hook",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        *CODEX_NATIVE_TEXT,
+        "Insightful Momentum/frontier standard",
+        "legacy thin prompt shell",
+        "contextual_next_prompts.py",
+        "Output/Capability Move",
+        "Operator Insight",
+        "Hidden Gap/Opportunity",
+        "Capability Revealed",
         "real Codex subagents require explicit authorization",
         "no competing behavior contract",
     ],
@@ -92,6 +112,7 @@ REQUIRED_TEXT = {
         "Reuse hook",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        *CODEX_NATIVE_TEXT,
         "real Codex subagents require explicit",
         "no competing behavior contract",
     ],

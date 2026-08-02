@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 10,
+            "total_routings": 12,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,7 +462,7 @@
                 "Content": 1,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 2,
+                "System": 4,
                 "supercomputer": 1
             },
             "expert_counts": {
@@ -477,10 +477,11 @@
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 2,
                 "supercomputer": 1,
-                "doc-coauthoring": 1
+                "doc-coauthoring": 1,
+                "system-audit": 2
             },
             "tier_counts": {
-                "0": 10,
+                "0": 12,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -489,7 +490,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 5,
-                "finalize-auto": 5
+                "finalize-auto": 7
             },
             "ensemble_count": 3
         }
@@ -667,6 +668,40 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_042344_cc55",
+            "timestamp": "2026-08-02T04:23:44.522603+00:00",
+            "session_id": "",
+            "request_summary": "Codex-native End-session control plane with exact handoff identity, task lifecycle, conservative organization, and manifest-owned branch synchronization",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_042413_fb3a",
+            "timestamp": "2026-08-02T04:24:13.344652+00:00",
+            "session_id": "",
+            "request_summary": "Codex-native End-session control plane with exact handoff identity, task lifecycle, conservative organization, and manifest-owned branch synchronization",
+            "intent_score": 8,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

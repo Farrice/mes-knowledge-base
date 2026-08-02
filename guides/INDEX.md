@@ -10,6 +10,10 @@
 
 | I want to… | Go to |
 |---|---|
+| **Codex closeout / handoff identity / safe branch checkpoint** | |
+| Close a Codex task with an exact resume handoff and native rename/pin/archive behavior | [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) |
+| Commit and push only task-owned files from a dedicated `codex/*` worktree | [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) |
+| Diagnose why a completed task stayed unarchived or Git synchronization was held | [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) |
 | **Feedback loop + rendition control (Co-Creation Layer + Pen Protocol)** | |
 | Understand why the reply names a MODE / how to override it (`mode X`) | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
 | Know what the 🛑 SPIRAL BRAKE means and the three allowed moves | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
@@ -162,6 +166,7 @@
 
 *(newest first)*
 
+- 2026-08-01 — [Codex End-Session Control Plane](2026-08-01-codex-end-session-control-plane.md) — exact identity-bound handoff, manifest-scoped organization and Git, native task lifecycle actions, pointer-only global registry, review queue, and verified `codex/*` branch push with no automatic `main` mutation
 - 2026-07-28 — [Opus 5 Harness Repair](2026-07-28-opus5-harness-repair.md) — the marathon repair session: **compass doctrine** (gates→nudges; only cost gate + factual veto block; 4 self-arming enforce-trials disarmed; silent earned-8 cap + NOT_RUN-as-dirty-prose bug fixed), **Opus 5 dialect block** (4 documented 4.8→5 shifts as operating rules; every symptom Farrice felt mapped to vendor guidance — his prompting was never the issue), **expert-load truth** (the laundered half-pass killer: /writers-room had named 13 experts while the ledger showed 1 load — grep now books `skill_grepped`, finalize derives room rosters from workflow files and nudges below ceil(N×0.6), 15 full-fidelity lens cards compiled 78,344→23,641 words with the firing rule, Layer-1 checkpoint), **co-creation Step 0 hook-wired** (fires on taste/foggy, silent on execute; prose failed twice as a delivery channel same-day). Root rule: *an instruction that can't be executed will be faked, and the fake looks better than an honest partial.* Content side: 3 brand teardowns DM-ready + profile top-to-bottom; sends and the clean-session About verdict remain on Farrice
 - 2026-07-28 — [Harness Unhobble — Claude-5 Context Diet v1](2026-07-28-harness-unhobble.md) — applied Anthropic's own Claude-5 context rules (claude.com post, Thariq Shihipar 2026-07-24: 80% of Claude Code's system prompt deleted, no eval loss) to the harness: **CLAUDE.md 3,672→1,601 words** (council stress-test restored two load-bearing scars my draft cut), GEMINI.md pre-compass "physical gates" doctrine fixed, constitutions blessed in sync, **Fable-5 dialect card live** (injector 26/26), steering hook calmed to deliverable-only (escalation counters deleted), **3 theater verifiers + 47 orphans archived** under the council-ratified Grounding Chain (consumer-or-scar, human within 2 hops; 60→9 after teaching wiring_audit import/skill/launchd proof channels — it nearly archived itself), 16 dead-session ledger debts cleared, **Seating Charter ratified** (Fork-1B: Fable writes only the closed hop-0 list — Parallax, cold offers, letters-to-JJ; Fable-absent degradation = Opus 5 + felt verdict, park don't stall), Gemini Ultra billing path diagnosed (plan-unlinked key) → Farrice fixed → verified live (REAL/gemini_deep/40 sources). Same-day contrast case: graph-engineering 41-source vet (joke coinage, fabricated Anthropic attribution, BUILD NOTHING). 5-session diet re-measure pending
 
