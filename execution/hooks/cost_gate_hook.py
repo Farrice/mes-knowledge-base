@@ -37,6 +37,13 @@ EXCLUDE = re.compile(
 )
 
 # Paid patterns -> (service, arg-parser). Order matters: first match wins.
+#
+# ANCHORING RULE (2026-08-02, Farrice-acked commit): every pattern matches the
+# INVOCATION SHAPE (launcher + script + args), never a bare filename. Evidenced
+# failure this fixed: a read-only `head` mentioning fal_video_seedance.py was
+# denied as fal-seedance-1080p, and a `grep` on a path containing gen.sh was
+# denied as fal-poster. Golden corpus below (`python3 cost_gate_hook.py --self-test`)
+# pins both directions; run it after ANY pattern edit.
 def _seedance_service(cmd: str) -> str:
     m = re.search(r"--resolution[= ](\d+)p", cmd)
     if m:
@@ -45,14 +52,46 @@ def _seedance_service(cmd: str) -> str:
     return "fal-seedance-1080p"
 
 
+def _generic_service(cmd: str) -> str:
+    """generate_media.py run — compute an honest --est-cost from the recipe file
+    so cost_gate's delegate check has a real number (the engine re-checks with
+    exact params internally; this is the outer, deterministic layer)."""
+    est = 0.25  # conservative default when the recipe can't be read (forces approval lane)
+    m = re.search(r"--model[= ](\S+)", cmd)
+    if m:
+        try:
+            recipe = json.loads(
+                (REPO_ROOT / "skills" / "generate" / "models" / (m.group(1) + ".json"))
+                .read_text())
+            table = (recipe.get("pricing") or {}).get("table") or {}
+            price = table.get("default")
+            unit = (recipe.get("pricing") or {}).get("unit")
+            if price is not None:
+                n = 1
+                nm = re.search(r"--n[= ](\d+)", cmd)
+                if nm:
+                    n = int(nm.group(1))
+                dur = 1
+                dm = re.search(r"--param[= ]duration=(\d+)", cmd)
+                if dm:
+                    dur = int(dm.group(1))
+                est = price * (dur if unit == "per_second" else n)
+        except Exception:
+            pass
+    return f"fal-generic --est-cost={round(est, 4)}"
+
+
 PAID_PATTERNS = [
-    (re.compile(r"fal_video_seedance\.py"), _seedance_service),
-    (re.compile(r"fal_video_kling\.py"), lambda c: "fal-kling"),
-    (re.compile(r"(?:^|[\s/])gen\.sh|generate\.js"), lambda c: "fal-poster"),
-    (re.compile(r"generate_image\.py"), lambda c: "fal-poster"),
-    (re.compile(r"deep_research_client\.py|deep_research_engine\.py"),
+    (re.compile(r"python3?\s+\S*fal_video_seedance\.py\b"), _seedance_service),
+    (re.compile(r"python3?\s+\S*fal_video_kling\.py\b"), lambda c: "fal-kling"),
+    (re.compile(r"(?:\bbash|\bsh)\s+\S*gen\.sh\b|(?:^|[;&|(]\s*)(?:\./|skills/)\S*gen\.sh\b"),
+     lambda c: "fal-poster"),
+    (re.compile(r"\bnode\s+\S*generate\.js\b"), lambda c: "fal-poster"),
+    (re.compile(r"python3?\s+\S*generate_image\.py\b"), lambda c: "fal-poster"),
+    (re.compile(r"python3?\s+\S*generate_media\.py\s+run\b"), _generic_service),
+    (re.compile(r"python3?\s+\S*deep_research_(?:client|engine)\.py\b"),
      lambda c: "gemini-deep-research"),
-    (re.compile(r"perplexity_client\.py.*--research|sonar-deep-research"),
+    (re.compile(r"python3?\s+\S*perplexity_client\.py\s.*--research|curl\b[^|;]*sonar-deep-research"),
      lambda c: "perplexity-research"),
 ]
 
@@ -87,10 +126,15 @@ def main():
         sys.exit(0)  # fail-open before a paid match
 
     # A paid pattern matched — from here on, failures fail CLOSED.
+    # Resolvers may return "service --extra=flag ..." — first token is the
+    # service id, the rest are extra gate args (e.g. fal-generic's --est-cost).
+    service_parts = service.split()
+    service = service_parts[0]
+    extra_flags = service_parts[1:]
     try:
         proc = subprocess.run(
             ["python3", str(GATE), "check", f"--service={service}",
-             f"--request={cmd[:160]}"] + _passthrough_flags(cmd),
+             f"--request={cmd[:160]}"] + extra_flags + _passthrough_flags(cmd),
             capture_output=True, text=True, timeout=30, cwd=str(REPO_ROOT),
         )
         out = (proc.stdout or "") + ("\n" + proc.stderr if proc.stderr else "")
@@ -134,5 +178,67 @@ def main():
         sys.exit(2)
 
 
+def self_test() -> int:
+    """Golden corpus for the anchored patterns. The first two MUST-NOT entries
+    are the two read-only commands wrongly denied on 2026-08-02 (evidence for
+    the anchoring change). Run after ANY pattern edit."""
+    must_not_match = [
+        # the two evidenced false positives (shapes, verbatim class):
+        "head -50 execution/fal_video_seedance.py",
+        "grep -n 'style' skills/fantastic-posters/gen.sh",
+        # more read-only shapes that historically risk tripping filename matches:
+        "sed -n '1,40p' execution/fal_video_kling.py",
+        "cat execution/generate_image.py | wc -l",
+        "grep -rn generate.js skills/fantastic-posters/",
+        "ls -la execution/ | grep generate_media.py",
+        "python3 execution/generate_media.py models",
+        "python3 execution/generate_media.py quote --model recraft-v3 --prompt 'x'",
+        "python3 execution/generate_media.py index --file out.png --model gpt-image-2",
+        "grep -r 'sonar-deep-research' directives/",
+        "git diff execution/fal_video_seedance.py",
+    ]
+    must_match = [
+        ("python3 execution/fal_video_seedance.py --image a.png --prompt 'x' "
+         "--duration 5 --resolution 480p", "fal-seedance-480p"),
+        ("python3 execution/fal_video_kling.py --image a.png --prompt 'x' --duration 5",
+         "fal-kling"),
+        ("bash skills/fantastic-posters/gen.sh \"brief\" --style=swiss --quality=medium",
+         "fal-poster"),
+        ("cd skills/fantastic-posters && node generate.js \"brief\" --style=swiss",
+         "fal-poster"),
+        ("python3 execution/generate_image.py \"prompt\" --aspect 1:1", "fal-poster"),
+        ("python3 execution/generate_media.py run --model recraft-v3 --prompt 'x'",
+         "fal-generic"),
+        ("skills/fantastic-posters/gen.sh \"brief\" --style=swiss", "fal-poster"),
+    ]
+
+    def resolve(cmd):
+        if EXCLUDE.search(cmd):
+            return None
+        for pattern, to_service in PAID_PATTERNS:
+            if pattern.search(cmd):
+                return to_service(cmd).split()[0]
+        return None
+
+    failures = []
+    for cmd in must_not_match:
+        got = resolve(cmd)
+        if got is not None:
+            failures.append(f"FALSE POSITIVE: {cmd!r} -> {got}")
+    for cmd, want in must_match:
+        got = resolve(cmd)
+        if got != want:
+            failures.append(f"MISS: {cmd!r} -> {got} (want {want})")
+    if failures:
+        print("SELF-TEST FAIL")
+        for f in failures:
+            print(" ", f)
+        return 1
+    print(f"self-test: OK ({len(must_not_match)} negatives, {len(must_match)} positives)")
+    return 0
+
+
 if __name__ == "__main__":
+    if "--self-test" in sys.argv:
+        sys.exit(self_test())
     main()
