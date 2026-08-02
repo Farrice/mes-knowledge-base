@@ -1,0 +1,19 @@
+{
+  "id": "nano-banana-2",
+  "provider": "gemini",
+  "media_type": "image",
+  "endpoint": "(via wrapper \u2014 gemini-3.1-flash-image-preview)",
+  "pricing": {
+    "unit": "per_image",
+    "table": {
+      "default": 0.0062
+    }
+  },
+  "guard": {
+    "gate": "cost_gate",
+    "mode": "gemini-image"
+  },
+  "wrapper": "python3 execution/generate_image.py \"<prompt>\" [--aspect 1:1] [--resolution 2K] [--edit <img>] [--reference <img>]",
+  "quote_required": false,
+  "notes": "Gemini Nano Banana 2. Cheap drafts/iterations; NOT for people/photoreal (binding lane: people -> higgsfield-soul via creative_router)."
+}

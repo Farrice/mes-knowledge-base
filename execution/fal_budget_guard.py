@@ -55,7 +55,12 @@ TRACKER_PATH = ROOT / ".agent" / "fal-usage.json"
 POSTER_MODES = {"poster", "edit"}
 UTILITY_MODES = {"rembg"}  # Chained image-utility calls (background removal, etc.)
 VIDEO_MODES = {"kling", "seedance-480p", "seedance-720p", "seedance-1080p"}
-ALL_MODES = POSTER_MODES | UTILITY_MODES | VIDEO_MODES
+# generic: recipe-driven calls from execution/generate_media.py (audio, recraft,
+# any wrapper-less Fal model). Cost is computed upstream from the model recipe's
+# pricing table and passed via --est-cost; ceiling $1.00/call — a model that
+# needs more must graduate to its own named mode (deliberate friction).
+GENERIC_MODES = {"generic"}
+ALL_MODES = POSTER_MODES | UTILITY_MODES | VIDEO_MODES | GENERIC_MODES
 
 
 STALE_THRESHOLD_DAYS = 30
@@ -122,7 +127,7 @@ def reset_today_if_needed(data: dict) -> None:
         data["totals"]["today_date"] = today_str()
         data["totals"]["today_calls"] = 0
         data["totals"]["today_spent_usd"] = 0.00
-        data["totals"]["today_spent_by_mode"] = {"poster": 0.0, "edit": 0.0, "rembg": 0.0, "kling": 0.0, "seedance": 0.0}
+        data["totals"]["today_spent_by_mode"] = {"poster": 0.0, "edit": 0.0, "rembg": 0.0, "kling": 0.0, "seedance": 0.0, "generic": 0.0}
 
 
 def prune_old_timestamps(data: dict) -> None:
@@ -148,13 +153,20 @@ def mode_aggregate_key(mode: str) -> str:
 
 
 def estimate_cost(mode: str, *, quality: str | None = None, n: int = 1,
-                  duration: int | None = None, audio: str | None = None) -> float:
+                  duration: int | None = None, audio: str | None = None,
+                  est_cost: float | None = None) -> float:
     """Estimate cost in USD for a given call configuration.
 
     For poster/edit: requires quality (low/medium/high) and n.
     For kling: requires duration (3-15) and audio (off/on/voice_control).
     For seedance-*: requires duration (4-15). Resolution is encoded in mode.
+    For generic: requires est_cost (computed upstream from the model recipe).
     """
+    if mode in GENERIC_MODES:
+        if est_cost is None:
+            sys.exit("ERROR: mode=generic requires --est-cost (from the model recipe pricing table)")
+        return round(est_cost, 4)
+
     data = load()
     pricing = data["pricing_estimates_usd"]
 
@@ -218,6 +230,7 @@ def cmd_check(args) -> int:
         n=args.n,
         duration=args.duration,
         audio=args.audio,
+        est_cost=args.est_cost,
     )
 
     limits = data["limits"]
@@ -360,6 +373,7 @@ def cmd_log(args) -> int:
         n=args.n,
         duration=args.duration,
         audio=args.audio,
+        est_cost=args.est_cost,
     )
     actual = args.actual_cost if args.actual_cost is not None else estimated
 
@@ -427,6 +441,8 @@ def cmd_log(args) -> int:
         entry["duration"] = args.duration
         entry["resolution"] = mode.split("-")[1]
         entry["audio"] = args.audio or "on"
+    elif mode in GENERIC_MODES:
+        entry["model"] = args.model or ""
 
     data["log"].append(entry)
     save(data)
@@ -539,6 +555,9 @@ def add_call_args(p: argparse.ArgumentParser) -> None:
                    help="For mode=kling|seedance-*: video duration in seconds (kling 3-15, seedance 4-15).")
     p.add_argument("--audio", choices=["off", "on", "voice_control"],
                    help="For mode=kling: audio mode (off=no audio, on=audio, voice_control=audio+voice). Default: on.")
+    p.add_argument("--est-cost", type=float, default=None, dest="est_cost",
+                   help="For mode=generic: estimated cost in USD from the model recipe pricing table.")
+    p.add_argument("--model", default="", help="For mode=generic: recipe id, for logging.")
     p.add_argument("--brief", default="", help="Free-text brief / prompt for logging.")
 
 

@@ -139,6 +139,24 @@ RULES = [
         "reason": "Virality prediction → Higgsfield virality predictor",
     },
 
+    # ─── Voiceover / TTS (wrapper-less recipe via generate_media.py) ───
+    {
+        "patterns": [r"\bvoice[- ]?over\b", r"\btts\b", r"\btext[- ]to[- ]speech\b",
+                     r"\bnarrat(e|ion|or)\b", r"\bread\s+(this|it)\s+aloud\b"],
+        "service": "fal-generic",
+        "reason": "Voiceover/TTS → Fal-hosted speech recipe via generate_media.py (see skills/generate/models/)",
+        "notes": "python3 execution/generate_media.py run --model minimax-speech --prompt \"<text>\" — quote first.",
+    },
+
+    # ─── Music / jingle (wrapper-less recipe via generate_media.py) ───
+    {
+        "patterns": [r"\bmusic\b", r"\bjingle\b", r"\bsoundtrack\b", r"\btheme\s+song\b",
+                     r"\bbackground\s+audio\b"],
+        "service": "fal-generic",
+        "reason": "Music generation → Fal-hosted music recipe via generate_media.py (see skills/generate/models/)",
+        "notes": "Quote first; per-generation pricing in the recipe file.",
+    },
+
     # ─── Text-only generation (always free under Gemini Ultra) ───
     {
         "patterns": [r"\bcopy\b", r"\bheadline\b", r"\bcaption\b", r"\bscript\b",

@@ -25,7 +25,8 @@
       "kling": 2.0,
       "seedance-480p": 1.5,
       "seedance-720p": 3.0,
-      "seedance-1080p": null
+      "seedance-1080p": null,
+      "generic": 1.0
     }
   },
   "pricing_estimates_usd": {
@@ -77,21 +78,24 @@
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.0,
-      "seedance": 0.0
+      "seedance": 0.0,
+      "generic": 0.0
     },
     "cycle_spent_by_mode": {
       "poster": 1.672,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
-      "seedance": 0.0
+      "seedance": 0.0,
+      "generic": 0.0
     },
     "lifetime_spent_by_mode": {
       "poster": 1.672,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
-      "seedance": 0.0
+      "seedance": 0.0,
+      "generic": 0.0
     }
   },
   "log": [

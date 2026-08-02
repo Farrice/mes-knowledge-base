@@ -1,0 +1,20 @@
+{
+  "id": "seedance-1080p",
+  "provider": "fal",
+  "media_type": "video",
+  "endpoint": "(blocked)",
+  "pricing": {
+    "unit": "per_second",
+    "table": {
+      "default": 0.68
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "seedance-1080p",
+    "hard_blocked": true
+  },
+  "wrapper": null,
+  "quote_required": true,
+  "notes": "HARD-BLOCKED at every layer (script refusal, guard null ceiling, cost_gate absence). A 15s call is ~50% of the wallet. No runtime override \u2014 this recipe exists so /generate can explain the refusal."
+}

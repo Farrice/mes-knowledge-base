@@ -1,0 +1,22 @@
+{
+  "id": "kling-v3",
+  "provider": "fal",
+  "media_type": "video",
+  "endpoint": "(via wrapper \u2014 fal-ai/kling-video/v3/pro/image-to-video)",
+  "pricing": {
+    "unit": "per_second",
+    "table": {
+      "audio_off": 0.112,
+      "audio_on": 0.168,
+      "voice_control": 0.196,
+      "default": 0.168
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "kling"
+  },
+  "wrapper": "python3 execution/fal_video_kling.py --image <start.png> --prompt \"<motion>\" --duration 5 [--multi-prompt shots.json]",
+  "quote_required": true,
+  "notes": "Image-to-video 3-15s, multi-shot cuts. ALWAYS quote first (fal_budget_guard check --mode=kling --duration=N) and wait for explicit go."
+}

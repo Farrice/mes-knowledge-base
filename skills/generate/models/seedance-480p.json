@@ -1,0 +1,19 @@
+{
+  "id": "seedance-480p",
+  "provider": "fal",
+  "media_type": "video",
+  "endpoint": "(via wrapper \u2014 bytedance/seedance-2.0 image-to-video)",
+  "pricing": {
+    "unit": "per_second",
+    "table": {
+      "default": 0.13
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "seedance-480p"
+  },
+  "wrapper": "python3 execution/fal_video_seedance.py --image <start.png> --prompt \"<motion>\" --duration 5 --resolution 480p [--end-image <end.png>]",
+  "quote_required": true,
+  "notes": "Cheapest video lane; start->end frame interpolation. Quote first, explicit go."
+}

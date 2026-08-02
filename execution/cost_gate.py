@@ -62,6 +62,10 @@ SERVICES = {
     "fal-kling":            {"type": "delegate", "guard_mode": "kling"},
     "fal-seedance-480p":    {"type": "delegate", "guard_mode": "seedance-480p"},
     "fal-seedance-720p":    {"type": "delegate", "guard_mode": "seedance-720p"},
+    # generate_media.py recipe calls (audio, recraft, wrapper-less Fal models);
+    # est-cost computed from the recipe pricing table. NOTE: fal-seedance-1080p
+    # is deliberately ABSENT — unknown service → deny is its hard block.
+    "fal-generic":          {"type": "delegate", "guard_mode": "generic"},
 
     # ─── Higgsfield MCP (we track here) ───
     "higgsfield-soul":      {"type": "paid", "est_usd": 0.10, "ceiling_usd": 0.50,
@@ -295,6 +299,8 @@ def _delegate_to_fal_guard(guard_mode: str, args) -> int:
         cmd.append(f"--duration={args.duration}")
     if args.audio:
         cmd.append(f"--audio={args.audio}")
+    if getattr(args, "est_cost", None) is not None:
+        cmd.append(f"--est-cost={args.est_cost}")
     if args.request:
         cmd.append(f"--brief={args.request}")
     result = subprocess.run(cmd, capture_output=False)
@@ -517,6 +523,8 @@ def main() -> int:
     pc.add_argument("--n", type=int)
     pc.add_argument("--duration", type=int)
     pc.add_argument("--audio", choices=["off", "on", "voice_control"])
+    pc.add_argument("--est-cost", type=float, default=None, dest="est_cost",
+                    help="For fal-generic: estimated cost from the model recipe pricing table")
 
     pl = sub.add_parser("log", help="Post-flight: record actual spend")
     pl.add_argument("--service", required=True)

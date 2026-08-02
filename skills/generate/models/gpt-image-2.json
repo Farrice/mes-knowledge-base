@@ -1,0 +1,22 @@
+{
+  "id": "gpt-image-2",
+  "provider": "fal",
+  "media_type": "image",
+  "endpoint": "(via wrapper \u2014 fantastic-posters generate.js)",
+  "pricing": {
+    "unit": "per_image",
+    "table": {
+      "low": 0.011,
+      "medium": 0.04,
+      "high": 0.17,
+      "default": 0.04
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "poster"
+  },
+  "wrapper": "bash skills/fantastic-posters/gen.sh \"<brief>\" --style=<id> --quality=medium [--variants=N] [--input=<img>] [--mask=<img>] [--refs=...]",
+  "quote_required": false,
+  "notes": "Default image model. Full surface: t2i, mask edits, 1-4 variants per call, refs/logo, rembg chain, up to 3840x2160. 38 styles in fantastic-posters styles.js."
+}
