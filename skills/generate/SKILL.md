@@ -42,6 +42,12 @@ price on fal.ai/models first; `status: "deferred"` stubs refuse to run until fil
 
 ## Step 3 — Generate (HARD RULES)
 
+0. **CRAFT PASS — every generation, paid or free (Farrice ruling 2026-08-02: full pipeline,
+   always).** Before writing ANY prompt, load the matching master per
+   `skills/generate/references/craft-map.md` and author the prompt through its grammar; run the
+   doctor pass; on raw/foggy creative asks, run the craft-map's intent mirror first. A freehand
+   prompt into a generator is a defect even when the output is cheap — production-grade is the
+   floor, not the ceiling. For paid video, show the crafted prompt WITH the quote.
 1. **Paid video always quotes first and waits for Farrice's explicit go.**
    `python3 execution/fal_budget_guard.py check --mode=<kling|seedance-480p|seedance-720p> --duration=N`
    — show the number, get the yes. (Recipes carry `quote_required: true`.)
