@@ -5,7 +5,7 @@
     "funded_total": 20.0,
     "refill_threshold": 5.0,
     "auto_refill": true,
-    "current_balance_estimate": 17.082,
+    "current_balance_estimate": 16.962,
     "last_refill_confirmed_at": "2026-04-30T00:00:00Z",
     "cycle_started_at": "2026-04-30T00:00:00Z"
   },
@@ -59,20 +59,21 @@
     "halt_reason": null,
     "halt_until": null,
     "recent_call_timestamps": [
-      "2026-08-02T21:34:33Z",
-      "2026-08-02T21:36:54Z"
+      "2026-08-02T21:48:08Z",
+      "2026-08-02T21:49:22Z",
+      "2026-08-02T21:50:09Z"
     ]
   },
   "totals": {
-    "lifetime_calls": 33,
-    "lifetime_spent_usd": 2.918,
-    "current_cycle_calls": 33,
-    "current_cycle_spent_usd": 2.918,
-    "today_calls": 5,
-    "today_spent_usd": 0.91,
+    "lifetime_calls": 36,
+    "lifetime_spent_usd": 3.038,
+    "current_cycle_calls": 36,
+    "current_cycle_spent_usd": 3.038,
+    "today_calls": 8,
+    "today_spent_usd": 1.03,
     "today_date": "2026-08-02",
     "today_spent_by_mode": {
-      "poster": 0.08,
+      "poster": 0.2,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.0,
@@ -80,7 +81,7 @@
       "generic": 0.18
     },
     "cycle_spent_by_mode": {
-      "poster": 1.752,
+      "poster": 1.872,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
@@ -88,7 +89,7 @@
       "generic": 0.18
     },
     "lifetime_spent_by_mode": {
-      "poster": 1.752,
+      "poster": 1.872,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
@@ -518,6 +519,45 @@
       "duration": 5,
       "resolution": "480p",
       "audio": "on"
+    },
+    {
+      "ts": "2026-08-02T21:48:08Z",
+      "mode": "poster",
+      "brief": "Black-and-white manga page in the style of a modern dark shonen weekly chapter \u2014",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/direct_1785707287020_v1.png",
+      "quality": "medium",
+      "n": 1,
+      "style": "direct"
+    },
+    {
+      "ts": "2026-08-02T21:49:22Z",
+      "mode": "poster",
+      "brief": "Vibrant modern shonen anime illustration, clean digital cel shading in the style",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/direct_1785707361237_v1.png",
+      "quality": "medium",
+      "n": 1,
+      "style": "direct"
+    },
+    {
+      "ts": "2026-08-02T21:50:09Z",
+      "mode": "poster",
+      "brief": "Explosive anime key visual in early-2000s alchemist-adventure style crossed with",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/direct_1785707408661_v1.png",
+      "quality": "medium",
+      "n": 1,
+      "style": "direct"
     }
   ]
 }
