@@ -4,6 +4,13 @@ Mission: raise the default creative floor to production grade (Farrice's standin
 memory `feedback_production-grade-floor-craft-gate`). This dossier is the extraction queue.
 Each extraction lands via `/extract`, then gets a row in `skills/generate/references/craft-map.md`.
 
+**EXTRACTION DOCTRINE (Farrice 2026-08-02, BINDING for every entry below):** weight 2025–2026
+sources; center the mastery that TRANSCENDS model selection (direction vocabulary, taste axes,
+iteration systems, production/edit-survivability thinking). Tool/version-specific mechanics are
+never the core method — they go in a dated "era-bound mechanics (verify before use)" appendix.
+Older sources (e.g. St. Pierre's 2023 parameter threads, Flynn's 2023 cheat sheet) are mined for
+durable principles only.
+
 **Structural gap it closes:** the house owns tool operation (banana-pro-director,
 gpt-image-2-director, Tao) and ad-shaped video (PJ Accetturo) — it owns almost no **direction**:
 the pre-generation layer where shot lists, lighting language, moodboard systems and taste get
