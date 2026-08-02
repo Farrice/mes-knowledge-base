@@ -301,6 +301,10 @@
       "skill": "darrel-wilson-ai-monetization"
     },
     {
+      "command": "/dave-clark",
+      "skill": "dave-clark"
+    },
+    {
       "command": "/david-baldacci-books-that-sell",
       "skill": "david-baldacci-books-that-sell"
     },
@@ -953,6 +957,10 @@
       "skill": "nick-saraev-bottleneck-thinking"
     },
     {
+      "command": "/nick-st",
+      "skill": "nick-st-pierre"
+    },
+    {
       "command": "/nicolas-cole-client-acquisition",
       "skill": "nicolas-cole-client-acquisition"
     },
@@ -1155,6 +1163,10 @@
     {
       "command": "/robert-mack-comedy-writing",
       "skill": "robert-mack-comedy-writing"
+    },
+    {
+      "command": "/rory-flynn",
+      "skill": "rory-flynn"
     },
     {
       "command": "/rory-sutherland-marketing",

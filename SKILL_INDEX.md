@@ -13,7 +13,7 @@
 | `alan-aragon-nutrition` | **alan-aragon-nutrition** | evidence-based nutrition, body composition, flexible dieting | 3 | 0 |
 | `alen-sultanic-copywriting` | **Alen Sultanic Copywriting Mastery** | for tactical sentence-level copy use stefan-georgi-dopamine-copy, for insight-vector frameworks use luke-iha-insight-vectors, for niche positioning use nicolas-cole-niche-positioning | 9 | 31 |
 | `alex-content-science` | **alex-content-science** | content science, content reverse-engineering, viral mechanics | 7 | 0 |
-| `alex-copper-creative-strategy` | **Alex Cooper Creative Strategy Skill** | contains 24 crown jewel prompts covering research, strategy, production | 6 | 24 |
+| `alex-copper-creative-strategy` | **Alex Cooper Creative Strategy Skill** | contains deterministic prompts for research, strategy, production | 7 | 24 |
 | `alex-hormozi-business` | **alex-hormozi-business** | client-financed acquisition (2x cac + cogs in 30 days), grand slam offer construction via the value equation, business scaling & money models | 3 | 0 |
 | `alex-m-smith-natural-strategy` | **alex-m-smith-natural-strategy** | strategic differentiation, positioning, supply-side strategy | 5 | 0 |
 | `alex-myatt-creative-engine` | **Alex Myatt: Creative Engine System (CES)** | meta paid creative strategy, ecom dtc, agency operations | 12 | 0 |
@@ -85,6 +85,7 @@
 | `dara-denney-meta-ads` | **dara-denney-meta-ads** | dtc-meta-ads, dtc creative strategy — the full stack, engine for performance creative built on dara denney's agency methodology | 26 | 0 |
 | `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-augmented affiliate marketing, digital revenue systems, $50-60k/month in commissions backs the methodology | 12 | 0 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** | for ai-leverage-as-thinking-partner use dan-koe-ai-leverage, for solo-entrepreneur infrastructure use andrew-wilkinson-ai-entrepreneurship | 4 | 14 |
+| `dave-clark` | **Dave Clark: Cinematic AI Direction** | the taste layer above tool craft — why ai video reads flat vs cinematic, hybrid pipeline architecture, and shot-list-before-prompt direction discipline from the cco of promise | 3 | 0 |
 | `david-baldacci-books-that-sell` | **david-baldacci-books-that-sell** | commercial fiction craft + author business economics, writing fiction or narrative nonfiction that must sell, ebook/digital-product..., 200m+ copies sold | 14 | 0 |
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | for written voice / brand voice use voice-document or voice-calibrate, for sales-call dynamics specifically use chase-hughes-conversational-influence, elite communication | 3 | 17 |
 | `david-deutsch-copywriting` | **David Deutsch - Copywriting Legend** | for surface-level dopamine craft use stefan-georgi-dopamine-copy, for big-idea financial promos use chris-cimorelli-copywriting, for pure dr fundamentals use bond-halbert-copywriting | 5 | 29 |
@@ -126,6 +127,7 @@
 | `gabe-novotny-fitness-content-business` | **gabe-novotny-fitness-content-business** | the cpr (cash per reel) method, fitness content business os | 3 | 0 |
 | `gary-vaynerchuk-attention` | **gary-vaynerchuk-attention** | run a document-don't-create organic content engine, and amplify only proven organic winners, ai + pop culture era | 3 | 0 |
 | `gemini-api-dev` | **gemini-api-dev** | use this skill when building applications with gemini models, gemini api, working with multimodal content (text | 0 | 0 |
+| `generate` | **generate** | source: robonuggets 9c4trbucmhq, rebuilt on our fal-first stack, creative generation front door | 0 | 0 |
 | `geoff-woods-ai-thought-partner` | **geoff-woods-ai-thought-partner** | ai leverage / strategic thinking / operator-ai collaboration, solving a high-stakes problem with ai as a partner instead of a tool, buildin..., communicate via crit | 17 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** | combines 5 expert methodologies: lara acosta (voice extraction), mitch albom (character embodiment), erica mallet (voice crystallization) | 4 | 0 |
 | `gpt-image-2-director` | **gpt-image-2-director** | gpt image 2, 0 prompt director, converts plain-text concepts into production-ready prompts for gpt image 2 | 3 | 0 |
@@ -255,6 +257,7 @@
 | `new-media-kingmaker` | **new-media-kingmaker** | new media × copywriting × content strategy × ghostwriting × marketing, takes any founder, compound skill orchestrating a16z new-media doctrine | 3 | 0 |
 | `nick-saraev-agentic-workflows` | **Nick Saraev: Agentic Workflows Mastery** | nick saraev's 6-hour agentic workflows course: do framework, self-annealing systems, cloud deployment | 7 | 39 |
 | `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | theory of constraints adapted for solopreneurs — pipeline visualization, constraint identification, and the 4-step business improvement flywheel | 4 | 0 |
+| `nick-st-pierre` | **nick-st-pierre** | nick st, image art direction | 3 | 0 |
 | `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** | land ghostwriting clients from zero — 30-day sprint blueprint, no-portfolio strategies, leaks/faucets network mapping | 5 | 9 |
 | `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | use when choosing or pricing a digital product, or building a product ladder, digital product creation strategy | 3 | 6 |
 | `nicolas-cole-edan-writing-mechanics` | **Nicolas Cole EDAN Writing Mechanics** | writing mechanics, narrative composition, paragraph architecture | 8 | 0 |
@@ -309,6 +312,7 @@
 | `riley-brown-marketing-automation` | **riley-brown-marketing-automation** | composable skills wrapped around scraper apis, examples-over-instructions (retrieve verified exemplars, don't prompt harder) | 12 | 0 |
 | `robert-greene-power-mastery` | **robert-greene-power-mastery** | engineering strategic presence (reputation, absence, silence | 3 | 0 |
 | `robert-mack-comedy-writing` | **Robert Mack: Comedy Writing Mastery** | deploy professional comedy mechanics across marketing, social media, presentations | 8 | 30 |
+| `rory-flynn` | **rory-flynn** | founder of systematiq ai, figma config 2026 maker stage, production image operations | 3 | 0 |
 | `rory-sutherland-marketing` | **Rory Sutherland: Marketing Psychology Mastery** | rory sutherland's behavioral alchemy for marketing, strategy, products | 25 | 32 |
 | `ross-mckay-premium-at-scale` | **ross-mckay-premium-at-scale** | mass premium positioning, or pitching a retail buyer, premium at scale | 1 | 3 |
 | `ross-minchev-digital-products` | **ross-minchev-digital-products** | data-before-intuition validation, dual-path monetization (create vs, promote) | 3 | 0 |

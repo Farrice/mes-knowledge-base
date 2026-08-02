@@ -1,5 +1,5 @@
 ---
-description: "A comprehensive creative strategy & business building system based on Alex Cooper's expertise. Contains 24 Crown Jewel Prompts covering research, strategy, production, optimization, and premium client acquisition — plus the AI-reinvention layer (agent org chart, messaging lab,..."
+description: "A comprehensive creative strategy and business-building system based on Alex Cooper's expertise. Contains deterministic prompts for research, strategy, production, optimization, premium client acquisition, AI creative operations, organic format arbitrage, and evidence-backed s..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 
