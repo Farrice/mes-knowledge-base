@@ -5,7 +5,7 @@
     "funded_total": 20.0,
     "refill_threshold": 5.0,
     "auto_refill": true,
-    "current_balance_estimate": 17.992,
+    "current_balance_estimate": 17.772,
     "last_refill_confirmed_at": "2026-04-30T00:00:00Z",
     "cycle_started_at": "2026-04-30T00:00:00Z"
   },
@@ -59,43 +59,42 @@
     "halt_reason": null,
     "halt_until": null,
     "recent_call_timestamps": [
-      "2026-05-02T08:02:53Z",
-      "2026-05-02T08:04:13Z",
-      "2026-05-02T08:05:26Z",
-      "2026-05-02T08:07:02Z"
+      "2026-08-02T21:19:31Z",
+      "2026-08-02T21:19:45Z",
+      "2026-08-02T21:21:37Z"
     ]
   },
   "totals": {
-    "lifetime_calls": 28,
-    "lifetime_spent_usd": 2.008,
-    "current_cycle_calls": 28,
-    "current_cycle_spent_usd": 2.008,
-    "today_calls": 0,
-    "today_spent_usd": 0.0,
-    "today_date": "2026-07-06",
+    "lifetime_calls": 31,
+    "lifetime_spent_usd": 2.228,
+    "current_cycle_calls": 31,
+    "current_cycle_spent_usd": 2.228,
+    "today_calls": 3,
+    "today_spent_usd": 0.22,
+    "today_date": "2026-08-02",
     "today_spent_by_mode": {
-      "poster": 0.0,
+      "poster": 0.08,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.0,
       "seedance": 0.0,
-      "generic": 0.0
+      "generic": 0.14
     },
     "cycle_spent_by_mode": {
-      "poster": 1.672,
+      "poster": 1.752,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
       "seedance": 0.0,
-      "generic": 0.0
+      "generic": 0.14
     },
     "lifetime_spent_by_mode": {
-      "poster": 1.672,
+      "poster": 1.752,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
       "seedance": 0.0,
-      "generic": 0.0
+      "generic": 0.14
     }
   },
   "log": [
@@ -461,6 +460,41 @@
       "quality": "medium",
       "n": 1,
       "style": ""
+    },
+    {
+      "ts": "2026-08-02T21:19:31Z",
+      "mode": "generic",
+      "brief": "Dark editorial background for a LinkedIn carousel cover slide about a supplement brand marketing teardown. Moody near-bl",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "_active/linkedin-launch/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+      "model": "recraft-v3"
+    },
+    {
+      "ts": "2026-08-02T21:19:45Z",
+      "mode": "generic",
+      "brief": "Your product works. Getting a stranger to believe it is a different job.",
+      "estimated_cost_usd": 0.1,
+      "actual_cost_usd": 0.1,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "_active/linkedin-launch/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+      "model": "minimax-speech"
+    },
+    {
+      "ts": "2026-08-02T21:21:37Z",
+      "mode": "poster",
+      "brief": "Cover background for a supplement marketing teardown carousel: near-black editor",
+      "estimated_cost_usd": 0.08,
+      "actual_cost_usd": 0.08,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/brutalist-broadcast_1785705694849_v1_b1.png,skills/fantastic-posters/out/brutalist-broadcast_1785705694849_v1_b2.png",
+      "quality": "medium",
+      "n": 2,
+      "style": "brutalist-broadcast"
     }
   ]
 }

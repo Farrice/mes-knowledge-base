@@ -1,0 +1,19 @@
+{
+  "id": "flux-2",
+  "provider": "fal",
+  "media_type": "image",
+  "endpoint": "(verify current FLUX flagship on fal.ai/models)",
+  "prompt_param": "prompt",
+  "pricing": {
+    "unit": "per_image",
+    "table": {}
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "generic"
+  },
+  "wrapper": null,
+  "quote_required": false,
+  "status": "deferred",
+  "notes": "Deferred stub \u2014 add when a real brief needs FLUX; endpoint + price UNCONFIRMED."
+}

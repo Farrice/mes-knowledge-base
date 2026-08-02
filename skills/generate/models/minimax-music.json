@@ -1,0 +1,22 @@
+{
+  "id": "minimax-music",
+  "provider": "fal",
+  "media_type": "audio",
+  "endpoint": "fal-ai/minimax-music/v2.6",
+  "defaults": {},
+  "prompt_param": "prompt",
+  "pricing": {
+    "unit": "per_generation",
+    "table": {
+      "default": 0.15
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "generic"
+  },
+  "wrapper": null,
+  "quote_required": false,
+  "timeout_s": 300,
+  "notes": "Music generation. $0.15/generation VERIFIED 2026-08-02 fal.ai/models/fal-ai/minimax-music/v2.6."
+}

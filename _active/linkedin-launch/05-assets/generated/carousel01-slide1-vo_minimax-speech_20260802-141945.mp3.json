@@ -1,0 +1,14 @@
+{
+  "model": "minimax-speech",
+  "provider": "fal",
+  "endpoint": "fal-ai/minimax/speech-2.8-hd",
+  "prompt": "Your product works. Getting a stranger to believe it is a different job.",
+  "params": {
+    "text": "Your product works. Getting a stranger to believe it is a different job."
+  },
+  "refs": [],
+  "est_cost_usd": 0.1,
+  "ts": "2026-08-02T21:19:45Z",
+  "run_id": "gen-proof-0802",
+  "elapsed_s": 4.6
+}

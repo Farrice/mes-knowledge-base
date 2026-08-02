@@ -1,0 +1,19 @@
+{
+  "id": "elevenlabs-tts",
+  "provider": "fal",
+  "media_type": "audio",
+  "endpoint": "fal-ai/elevenlabs/tts/turbo-v2.5",
+  "prompt_param": "text",
+  "pricing": {
+    "unit": "per_1k_chars",
+    "table": {}
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "generic"
+  },
+  "wrapper": null,
+  "quote_required": false,
+  "status": "deferred",
+  "notes": "Endpoint VERIFIED on fal explore 2026-08-02; PRICE UNCONFIRMED \u2014 read it off the model page, fill pricing.table.default, remove status:deferred."
+}

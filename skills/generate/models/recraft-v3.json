@@ -1,0 +1,26 @@
+{
+  "id": "recraft-v3",
+  "provider": "fal",
+  "media_type": "image",
+  "endpoint": "fal-ai/recraft/v3/text-to-image",
+  "defaults": {
+    "style": "digital_illustration",
+    "image_size": "square_hd"
+  },
+  "prompt_param": "prompt",
+  "pricing": {
+    "unit": "per_image",
+    "table": {
+      "default": 0.04,
+      "vector_illustration": 0.08
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "generic"
+  },
+  "wrapper": null,
+  "quote_required": false,
+  "timeout_s": 120,
+  "notes": "Vector/SVG + strongest text rendering. style=vector_illustration costs $0.08 (SVG is the style param, not a separate endpoint). VERIFIED 2026-08-02 fal.ai/models/fal-ai/recraft/v3/text-to-image."
+}

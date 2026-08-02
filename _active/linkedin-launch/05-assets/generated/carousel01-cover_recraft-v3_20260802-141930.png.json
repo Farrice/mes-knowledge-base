@@ -1,0 +1,16 @@
+{
+  "model": "recraft-v3",
+  "provider": "fal",
+  "endpoint": "fal-ai/recraft/v3/text-to-image",
+  "prompt": "Dark editorial background for a LinkedIn carousel cover slide about a supplement brand marketing teardown. Moody near-black surface with a single supplement scoop of pale protein powder spilling across it, dramatic side light, generous empty space in the upper two-thirds for a bold headline. Muted, premium, restrained — no text, no logos.",
+  "params": {
+    "style": "digital_illustration",
+    "image_size": "square_hd",
+    "prompt": "Dark editorial background for a LinkedIn carousel cover slide about a supplement brand marketing teardown. Moody near-black surface with a single supplement scoop of pale protein powder spilling across it, dramatic side light, generous empty space in the upper two-thirds for a bold headline. Muted, premium, restrained — no text, no logos."
+  },
+  "refs": [],
+  "est_cost_usd": 0.04,
+  "ts": "2026-08-02T21:19:31Z",
+  "run_id": "gen-proof-0802",
+  "elapsed_s": 11.7
+}

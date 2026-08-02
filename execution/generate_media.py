@@ -45,7 +45,8 @@ import re
 import subprocess
 import sys
 import time
-import urllib.request
+
+import requests  # house dependency (same as the fal video wrappers); bundles certifi
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RECIPES_DIR = os.path.join(ROOT, "skills", "generate", "models")
@@ -158,14 +159,13 @@ class FalAdapter:
             fail("FAL_KEY not found in environment or .env")
 
     def _req(self, url: str, payload: dict | None = None) -> dict:
-        req = urllib.request.Request(
-            url,
-            data=json.dumps(payload).encode() if payload is not None else None,
-            headers={"Authorization": f"Key {self.key}",
-                     "Content-Type": "application/json"},
-            method="POST" if payload is not None else "GET")
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return json.loads(resp.read().decode())
+        headers = {"Authorization": f"Key {self.key}", "Content-Type": "application/json"}
+        if payload is not None:
+            resp = requests.post(url, json=payload, headers=headers, timeout=60)
+        else:
+            resp = requests.get(url, headers=headers, timeout=60)
+        resp.raise_for_status()
+        return resp.json()
 
     def generate(self, endpoint: str, payload: dict, timeout_s: int = 300) -> dict:
         sub = self._req(f"{FAL_QUEUE}/{endpoint}", payload)
@@ -435,7 +435,11 @@ def cmd_run(args) -> int:
         vpart = f"_{args.variant}" if args.variant else (f"_v{i+1}" if len(urls) > 1 else "")
         name = f"{slug}{vpart}_{args.model}_{ts}.{ext}"
         dest = os.path.join(out_dir, name)
-        urllib.request.urlretrieve(u, dest)
+        with requests.get(u, stream=True, timeout=300) as dl:
+            dl.raise_for_status()
+            with open(dest, "wb") as fh:
+                for chunk in dl.iter_content(1 << 16):
+                    fh.write(chunk)
         saved.append(dest)
 
     per_asset_cost = round(est / len(saved), 4)

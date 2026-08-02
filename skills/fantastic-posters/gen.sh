@@ -32,7 +32,8 @@ if [[ -z "$FAL_KEY" ]]; then
 fi
 export FAL_KEY
 
-KIE_KEY="$(grep -E '^KIE_KEY=' "$ENV_FILE" | head -1 | cut -d= -f2-)"
+# KIE_KEY is optional — `|| true` keeps pipefail from killing the wrapper when absent
+KIE_KEY="$(grep -E '^KIE_KEY=' "$ENV_FILE" | head -1 | cut -d= -f2- || true)"
 if [[ -n "$KIE_KEY" ]]; then
   export KIE_KEY
 fi

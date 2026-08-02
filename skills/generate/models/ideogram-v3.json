@@ -1,0 +1,19 @@
+{
+  "id": "ideogram-v3",
+  "provider": "fal",
+  "media_type": "image",
+  "endpoint": "fal-ai/ideogram/v3",
+  "prompt_param": "prompt",
+  "pricing": {
+    "unit": "per_image",
+    "table": {}
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "generic"
+  },
+  "wrapper": null,
+  "quote_required": false,
+  "status": "deferred",
+  "notes": "Deferred stub \u2014 endpoint and price UNCONFIRMED. Verify on fal.ai/models before enabling; recraft-v3 covers most text-render needs meanwhile."
+}

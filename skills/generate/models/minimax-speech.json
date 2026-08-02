@@ -1,0 +1,22 @@
+{
+  "id": "minimax-speech",
+  "provider": "fal",
+  "media_type": "audio",
+  "endpoint": "fal-ai/minimax/speech-2.8-hd",
+  "defaults": {},
+  "prompt_param": "text",
+  "pricing": {
+    "unit": "per_1k_chars",
+    "table": {
+      "default": 0.1
+    }
+  },
+  "guard": {
+    "gate": "fal_budget_guard",
+    "mode": "generic"
+  },
+  "wrapper": null,
+  "quote_required": false,
+  "timeout_s": 180,
+  "notes": "Default TTS. $0.10/1k chars VERIFIED 2026-08-02 fal.ai/models/fal-ai/minimax/speech-2.8-hd. Turbo sibling: fal-ai/minimax/speech-2.8-turbo."
+}
