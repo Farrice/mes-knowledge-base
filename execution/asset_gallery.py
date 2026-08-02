@@ -154,6 +154,9 @@ nav input[type=search] { margin-left:auto; background:rgba(22,24,31,.85);
   background:linear-gradient(to top, var(--ground) 4%, rgba(11,12,16,.55) 38%, rgba(11,12,16,.12) 70%, rgba(11,12,16,.35) 100%),
              linear-gradient(to right, rgba(11,12,16,.78) 0%, rgba(11,12,16,0) 55%); }
 .hero .inner { position:relative; z-index:2; padding:0 4% 56px; max-width:640px; }
+.hero.mini { min-height:42vh; }
+.hero.mini .inner { padding-bottom:34px; }
+.hero.mini h1 { font-size:clamp(22px, 3vw, 34px); }
 .hero .kicker { font-family:var(--mono); font-size:11px; letter-spacing:.16em;
   text-transform:uppercase; color:var(--accent); margin-bottom:10px; }
 .hero h1 { font-family:var(--display); font-size:clamp(26px, 4vw, 44px);
@@ -297,17 +300,31 @@ button.act:hover { background:var(--accent); color:#0b0c10; }
   </div>
   <div class="shelves" id="shelves"></div>
 </div>
-<div id="view-gen" class="page" style="display:none">
-  <div class="filters" id="filters"></div>
-  <div class="afilters" id="afilters"></div>
-  <div class="mgrid" id="grid"></div>
-  <button class="more" id="more" style="display:none">Load more</button>
-  <div style="text-align:center;margin-top:8px"><span id="count"></span></div>
-  <div id="sentinel"></div>
+<div id="view-gen" style="display:none">
+  <div class="hero mini" id="hero-gen"><div class="inner">
+    <div class="kicker">🖼️ GALLERY</div>
+    <h1 id="gen-title">ALL ASSETS</h1>
+    <div class="meta" id="gen-meta"></div>
+  </div></div>
+  <div class="page" style="padding-top:20px">
+    <div class="filters" id="filters"></div>
+    <div class="afilters" id="afilters"></div>
+    <div class="mgrid" id="grid"></div>
+    <button class="more" id="more" style="display:none">Load more</button>
+    <div style="text-align:center;margin-top:8px"><span id="count"></span></div>
+    <div id="sentinel"></div>
+  </div>
 </div>
-<div id="view-styles" class="page" style="display:none">
-  <p class="hint">✨ Your taste library — copy a style's full prompt or reference path and feed it to /generate (direct lane). Winners become new cards here.</p>
-  <div class="stylegrid" id="stylegrid"></div>
+<div id="view-styles" style="display:none">
+  <div class="hero mini" id="hero-styles"><div class="inner">
+    <div class="kicker">✨ TASTE LIBRARY</div>
+    <h1>STYLE CARDS</h1>
+    <div class="meta" id="styles-meta"></div>
+  </div></div>
+  <div class="page" style="padding-top:20px">
+    <p class="hint">Copy a style's full prompt or reference path and feed it to /generate (direct lane). Winners become new cards here.</p>
+    <div class="stylegrid" id="stylegrid"></div>
+  </div>
 </div>
 <div id="lb"><button class="x" id="lbx">✕</button>
   <div class="media" id="lbm"></div><div class="panel" id="lbp"></div></div>
@@ -547,6 +564,20 @@ function renderMore() {
 function refresh() {
   applyFilters(); renderFilters();
   document.getElementById('grid').textContent = ''; shown = 0; renderMore();
+  // gallery hero mirrors the active filter set
+  const hg = document.getElementById('hero-gen');
+  const lead = filtered.find(r => r.thumb);
+  if (hg && lead) hg.style.backgroundImage =
+    'url("thumbs/' + encodeURIComponent(lead.thumb) + '")';
+  const active = FACETS.map(f => sel[f.key]).filter(Boolean);
+  document.getElementById('gen-title').textContent =
+    (active.length ? active.join(' · ') : 'All Assets').replace(/-/g, ' ').toUpperCase();
+  const gm = document.getElementById('gen-meta'); gm.textContent = '';
+  gm.appendChild(el('span', 'pill', filtered.length + ' assets'));
+  const vids = filtered.filter(r => r.type === 'video').length;
+  if (vids) gm.appendChild(el('span', 'pill', '🎬 ' + vids));
+  const cost = filtered.reduce((s, r) => s + (+r.cost_usd || 0), 0);
+  if (cost) gm.appendChild(el('span', 'pill cost', '$' + cost.toFixed(2) + ' invested'));
 }
 // ── nav / views ──
 function setView(v) {
@@ -556,7 +587,7 @@ function setView(v) {
   });
   document.querySelectorAll('.navlink').forEach(a =>
     a.classList.toggle('active', a.dataset.v === v));
-  document.getElementById('topnav').classList.toggle('solid', v !== 'home');
+  document.getElementById('topnav').classList.toggle('solid', window.scrollY > 40);
   window.scrollTo(0, 0);
 }
 document.querySelectorAll('.navlink').forEach(a =>
@@ -573,11 +604,19 @@ document.getElementById('more').addEventListener('click', renderMore);
 new IntersectionObserver(es => { if (es[0].isIntersecting && shown < filtered.length) renderMore(); })
   .observe(document.getElementById('sentinel'));
 window.addEventListener('scroll', () => {
-  const home = document.getElementById('view-home').style.display !== 'none';
-  document.getElementById('topnav').classList.toggle('solid', !home || window.scrollY > 40);
+  document.getElementById('topnav').classList.toggle('solid', window.scrollY > 40);
 });
 // ── style cards ──
-if (STYLES.length) document.getElementById('styleslink').style.display = '';
+if (STYLES.length) {
+  document.getElementById('styleslink').style.display = '';
+  const hs = document.getElementById('hero-styles');
+  const sthumb = (STYLES.find(s => s.thumb) || {}).thumb ||
+    (([...ALL].sort((a,b) => (b.ts||'').localeCompare(a.ts||'')).find(r => r.thumb)) || {}).thumb;
+  if (hs && sthumb) hs.style.backgroundImage =
+    'url("thumbs/' + encodeURIComponent(sthumb) + '")';
+  const sm = document.getElementById('styles-meta');
+  sm.appendChild(el('span', 'pill', STYLES.length + ' styles banked'));
+}
 const sg = document.getElementById('stylegrid');
 if (sg) STYLES.forEach(s => {
   const c = el('div', 'stylecard');
