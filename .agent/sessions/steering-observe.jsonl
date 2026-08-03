@@ -95,3 +95,6 @@
 {"ts": "2026-08-03T00:45:20.764132+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 18, "event": "next-moves-missing", "chars": 2760}
 {"ts": "2026-08-03T09:33:18.870871+00:00", "session_id": "7232b290-322b-4bb8-8eba-4a262e83ed77", "exchange": 1, "event": "next-moves-missing", "chars": 947}
 {"ts": "2026-08-03T12:31:56.140321+00:00", "session_id": "7232b290-322b-4bb8-8eba-4a262e83ed77", "exchange": 2, "event": "next-moves-missing", "chars": 947}
+{"ts": "2026-08-03T14:38:36.947121+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 19, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
+{"ts": "2026-08-03T15:08:01.981071+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 20, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}
+{"ts": "2026-08-03T17:51:23.494351+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 21, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}

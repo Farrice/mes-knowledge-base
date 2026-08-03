@@ -223,6 +223,7 @@
 
 
 ## Pending enrichment
+- [2026-08-03 — Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 03/07 fed, Drive mirror verified](2026-08-03-.md) — operator-guide stub, needs enrichment
 - [2026-08-02 — Creative Generation OS — Full Build v1 (/generate + Asset Command Center + Craft Floor + 3 Masters)](2026-08-02-creative-generation-os.md) — operator-guide stub, needs enrichment
 - [2026-08-02 — Health Performance Ip Library — Latest Exec Cut](2026-08-02-.md) — operator-guide stub, needs enrichment
 - [2026-08-01 — Farrice Brand — Thirty Six Women Script](2026-08-01-.md) — operator-guide stub, needs enrichment

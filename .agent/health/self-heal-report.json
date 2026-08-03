@@ -1,13 +1,7 @@
 {
- "ts": "2026-08-03T06:00:08.530686",
+ "ts": "2026-08-03T06:49:08.904088",
  "mode": "report",
  "rows": [
-  {
-   "id": "stale_registries",
-   "cls": "AUTO",
-   "what": "SKILL_INDEX.md / AGENT_INDEX.md are behind the filesystem",
-   "fix": "python3 execution/sync_registries.py"
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -107,6 +101,12 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py"
+  },
+  {
+   "id": "verify_system.py",
+   "cls": "JUDGMENT",
+   "what": "verify_system.py is red in the 7d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {
    "id": "verify_system_control_plane.py",

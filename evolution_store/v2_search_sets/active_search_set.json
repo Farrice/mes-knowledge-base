@@ -3315,8 +3315,36 @@
         "gaming_flag": false
       },
       "notes": "Fresh lane (trend-cohort economics) after creatine SATURATED; carousel failed finish gate once (reveal pattern), fixed and re-ran clean; grounding_guard WARN reported honestly (stat repetition across sections); Drive via gws after MCP permission gate | Factual Grounding: 8 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260803_063419",
+      "timestamp": "2026-08-03T06:34:19.030654",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "Health Performance Angle Map Listening Engine",
+      "workflow": "angle-map-listening-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "platform: codex automation | Verification: JSONL PASS, vault content_finish CLEAN, vault prose CLEAN, export_format PASS, grounding WARN, claim_risk WATCH, full brief prose classifier structural FLAG | Anchor: V4 golden sample"
     }
   ],
-  "total_cases": 117,
-  "last_updated": "2026-08-03T05:58:48.684507"
+  "total_cases": 118,
+  "last_updated": "2026-08-03T06:34:19.031929"
 }

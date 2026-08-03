@@ -400,3 +400,12 @@
 {"ts": "2026-08-03T12:53:30Z", "label": "carousel", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": []}
 {"ts": "2026-08-03T12:54:03Z", "label": "carousel", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-03T12:54:03Z", "label": "daily-brief", "verdict": "FAIL", "fails": ["37 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-03T13:31:35Z", "label": "_active/farrice-brand/content/vault/2026-08-03-trend-cohort-carousel.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T13:31:35Z", "label": "_active/farrice-brand/content/vault/2026-08-03-wave-lends-you-customers-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T13:32:33Z", "label": "_active/farrice-brand/content/vault/2026-08-03-trend-cohort-carousel.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T13:32:56Z", "label": "_active/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md", "verdict": "FAIL", "fails": ["35 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-03T13:33:54Z", "label": "_active/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-03T13:34:10Z", "label": "_active/farrice-brand/content/vault/2026-08-03-wave-lends-you-customers-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T13:34:11Z", "label": "_active/farrice-brand/content/vault/2026-08-03-trend-cohort-carousel.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T13:35:32Z", "label": "_active/farrice-brand/content/vault/2026-08-03-trend-cohort-carousel.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T13:35:32Z", "label": "_active/farrice-brand/content/vault/2026-08-03-wave-lends-you-customers-post.md", "verdict": "CLEAN", "fails": [], "warns": []}

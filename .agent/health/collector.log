@@ -138,3 +138,11 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-02
   ⚑ _active/ holds 3098 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
   ⚑ launchd com.antigravity.cos-notify: log silent 3d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
   ⚑ verifier fleet: 12/73 failing (run 2026-07-26) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-03.json (7 flag(s))
+  ⚑ routine com.antigravity.citation-integrity: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log
+  ⚑ routine com.antigravity.social-pulse-farrice: last exit 2 — failing unwatched; check /Users/farricecain/.logs/social-pulse-farrice.log
+  ⚑ .tmp at 7,573MB / 132,132 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 3103 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ launchd com.antigravity.cos-notify: log silent 4d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
+  ⚑ verifier fleet: 12/73 failing (run 2026-07-26) — each is a contract the system claims to hold; triage in weekly closeout

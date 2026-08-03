@@ -3113,8 +3113,8 @@
    "skill": "bilawal-sidhu",
    "path": "skills/bilawal-sidhu/workflows/01-greybox-reskin-shot.md",
    "description": "**Produces:** a **Greybox Shot Spec** \u2014 a blocking sheet (what the untextured render must carry), a reskin",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/bilawal-sidhu",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -3128,8 +3128,8 @@
    "skill": "bilawal-sidhu",
    "path": "skills/bilawal-sidhu/workflows/02-scene-first-blocking.md",
    "description": "**Produces:** a **Spatial Plan** for a multi-shot piece \u2014 a persistence register (what gets built once and",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/bilawal-sidhu",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -6158,8 +6158,8 @@
    "skill": "curious-refuge",
    "path": "skills/curious-refuge/workflows/01-preproduction-package.md",
    "description": "**Produces:** the document that exists *before* any generator opens \u2014 story spine, tension map,",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/curious-refuge",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -6173,8 +6173,8 @@
    "skill": "curious-refuge",
    "path": "skills/curious-refuge/workflows/02-storyboard-to-plate.md",
    "description": "**Produces:** a **shot conversion sheet** \u2014 per shot: board-or-brief call, the three-channel",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/curious-refuge",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -6188,8 +6188,8 @@
    "skill": "curious-refuge",
    "path": "skills/curious-refuge/workflows/03-voice-and-performance-direction.md",
    "description": "**Produces:** a **voice and performance plan** \u2014 voice-bed casting spec per character, per-line",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/curious-refuge",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -11213,12 +11213,12 @@
    "skill": "fashion-coupids",
    "path": "skills/fashion-coupids/workflows/01-fashion-campaign-chain.md",
    "description": "**Produces:** a **Campaign Direction Document** \u2014 the complete pre-generation and post-generation",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/fashion-coupids",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T12:32:36.544947+00:00",
    "mtime": 1785717170.9623775
   },
   {
@@ -11228,12 +11228,12 @@
    "skill": "fashion-coupids",
    "path": "skills/fashion-coupids/workflows/02-lookbook-shot-list.md",
    "description": "**Produces:** a **directed shot list** \u2014 one camera-report card per frame, plus the set-level",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/fashion-coupids",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T12:32:36.544947+00:00",
    "mtime": 1785717210.208603
   },
   {
@@ -11368,7 +11368,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1785298805.4516037
   },
   {
@@ -11383,7 +11383,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1785298805.4517248
   },
   {
@@ -11398,7 +11398,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1785298805.4519603
   },
   {
@@ -13543,7 +13543,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784490062.3383665
   },
   {
@@ -13558,7 +13558,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.933018
   },
   {
@@ -13573,7 +13573,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.933486
   },
   {
@@ -13588,7 +13588,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9339075
   },
   {
@@ -13603,7 +13603,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9343424
   },
   {
@@ -13618,7 +13618,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784830471.1654282
   },
   {
@@ -13633,7 +13633,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9346821
   },
   {
@@ -13648,7 +13648,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9350183
   },
   {
@@ -13663,7 +13663,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.935355
   },
   {
@@ -13678,7 +13678,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9356935
   },
   {
@@ -13693,7 +13693,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9359424
   },
   {
@@ -13708,7 +13708,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784491203.6605191
   },
   {
@@ -13723,7 +13723,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1773947745.534137
   },
   {
@@ -13738,7 +13738,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784490123.610631
   },
   {
@@ -13753,7 +13753,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775779996.895018
   },
   {
@@ -13768,7 +13768,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.936532
   },
   {
@@ -13783,7 +13783,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9369311
   },
   {
@@ -13798,7 +13798,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.937228
   },
   {
@@ -13813,7 +13813,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1773947745.5347703
   },
   {
@@ -13828,7 +13828,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9376428
   },
   {
@@ -13843,7 +13843,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9380925
   },
   {
@@ -13858,7 +13858,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9383411
   },
   {
@@ -13873,7 +13873,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1783783685.1919932
   },
   {
@@ -13888,7 +13888,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.938573
   },
   {
@@ -13903,7 +13903,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1782939144.7737215
   },
   {
@@ -13918,7 +13918,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9389963
   },
   {
@@ -13933,7 +13933,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784490062.3394403
   },
   {
@@ -13948,7 +13948,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udca1 Proof Architecture",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9393203
   },
   {
@@ -13963,7 +13963,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9396186
   },
   {
@@ -13978,7 +13978,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.9399762
   },
   {
@@ -13993,7 +13993,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784490062.3400803
   },
   {
@@ -14008,7 +14008,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784490112.3349106
   },
   {
@@ -14023,7 +14023,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1773947745.5350125
   },
   {
@@ -14038,7 +14038,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1775881549.940675
   },
   {
@@ -14053,7 +14053,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1784490062.3406787
   },
   {
@@ -14068,7 +14068,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1782939110.9138992
   },
   {
@@ -19873,7 +19873,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1773947745.5898051
   },
   {
@@ -19888,7 +19888,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1782939136.833504
   },
   {
@@ -19903,7 +19903,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1775779996.9307868
   },
   {
@@ -19918,7 +19918,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1782939101.0345132
   },
   {
@@ -19933,7 +19933,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1773947745.5909095
   },
   {
@@ -19948,7 +19948,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1773947745.5914772
   },
   {
@@ -19963,7 +19963,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "skill_last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1773947745.5918765
   },
   {
@@ -20218,7 +20218,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1773947745.5945396
   },
   {
@@ -20233,7 +20233,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1775779996.9370258
   },
   {
@@ -20248,7 +20248,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1773947745.5953896
   },
   {
@@ -20263,7 +20263,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1773947745.5957158
   },
   {
@@ -23138,8 +23138,8 @@
    "skill": "mickmumpitz",
    "path": "skills/mickmumpitz/workflows/01-character-lock-dataset.md",
    "description": "**Produces:** a complete character dataset specification \u2014 image manifest, caption spec, consistency",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/mickmumpitz",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -23153,8 +23153,8 @@
    "skill": "mickmumpitz",
    "path": "skills/mickmumpitz/workflows/02-camera-blocking-previs.md",
    "description": "**Produces:** a blocking plan \u2014 layout inventory, per-shot camera report, pose keys, lighting-for-mood",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/mickmumpitz",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -23168,8 +23168,8 @@
    "skill": "mickmumpitz",
    "path": "skills/mickmumpitz/workflows/03-controlled-shot-spec.md",
    "description": "**Produces:** a per-shot control specification built on the Four Building Blocks \u2014 mask, driving plate +",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/mickmumpitz",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
@@ -24852,8 +24852,8 @@
    "front_door": "/nicolas-cole-digital-products",
    "has_prompts_v2": true,
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
-   "last_fired": null,
-   "skill_last_fired": null,
+   "last_fired": "2026-08-03T01:57:35.057162+00:00",
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1775779996.9637916
   },
   {
@@ -24868,7 +24868,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1773947745.6507485
   },
   {
@@ -24883,7 +24883,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1775882289.4958577
   },
   {
@@ -27658,7 +27658,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "last_fired": null,
-   "skill_last_fired": "2026-08-01T13:02:08.511514+00:00",
+   "skill_last_fired": "2026-08-03T12:58:48.674465+00:00",
    "mtime": 1773947745.6556003
   },
   {
@@ -27673,7 +27673,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "last_fired": null,
-   "skill_last_fired": "2026-08-01T13:02:08.511514+00:00",
+   "skill_last_fired": "2026-08-03T12:58:48.674465+00:00",
    "mtime": 1773947745.655985
   },
   {
@@ -27688,7 +27688,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "last_fired": null,
-   "skill_last_fired": "2026-08-01T13:02:08.511514+00:00",
+   "skill_last_fired": "2026-08-03T12:58:48.674465+00:00",
    "mtime": 1775779996.9740458
   },
   {
@@ -31857,8 +31857,8 @@
    "front_door": "/sean-dollwet-kdp-publishing",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-08-02T12:30:09.775380+00:00",
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "last_fired": "2026-08-03T12:30:09.956347+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005714.8241227
   },
   {
@@ -31873,7 +31873,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005769.1458726
   },
   {
@@ -31888,7 +31888,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005820.0359747
   },
   {
@@ -31903,7 +31903,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005883.2049608
   },
   {
@@ -31918,7 +31918,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005764.4687908
   },
   {
@@ -31933,7 +31933,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005822.1757634
   },
   {
@@ -31948,7 +31948,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005882.265507
   },
   {
@@ -31963,7 +31963,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005933.8835862
   },
   {
@@ -31978,7 +31978,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005797.4422057
   },
   {
@@ -31993,7 +31993,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "skill_last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1784005869.553288
   },
   {
@@ -34768,7 +34768,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "skill_last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1784403672.5473769
   },
   {
@@ -34783,7 +34783,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "skill_last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1784403683.08997
   },
   {
@@ -34798,7 +34798,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "skill_last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1784403693.4663608
   },
   {
@@ -34813,7 +34813,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "skill_last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1784403661.1475992
   },
   {
@@ -41048,7 +41048,7 @@
    "skill": null,
    "path": ".agent/workflows/bilawal-sidhu-greybox-reskin-shot.md",
    "description": "**Produces:** a **Greybox Shot Spec** \u2014 a blocking sheet (what the untextured render must carry), a reskin",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/bilawal-sidhu-greybox-reskin-shot",
    "has_prompts_v2": false,
    "family": null,
@@ -41061,7 +41061,7 @@
    "skill": null,
    "path": ".agent/workflows/bilawal-sidhu-scene-first-blocking.md",
    "description": "**Produces:** a **Spatial Plan** for a multi-shot piece \u2014 a persistence register (what gets built once and",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/bilawal-sidhu-scene-first-blocking",
    "has_prompts_v2": false,
    "family": null,
@@ -44974,7 +44974,7 @@
    "skill": null,
    "path": ".agent/workflows/curious-refuge-preproduction-package.md",
    "description": "**Produces:** the document that exists *before* any generator opens \u2014 story spine, tension map,",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/curious-refuge-preproduction-package",
    "has_prompts_v2": false,
    "family": null,
@@ -44987,7 +44987,7 @@
    "skill": null,
    "path": ".agent/workflows/curious-refuge-storyboard-to-plate.md",
    "description": "**Produces:** a **shot conversion sheet** \u2014 per shot: board-or-brief call, the three-channel",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/curious-refuge-storyboard-to-plate",
    "has_prompts_v2": false,
    "family": null,
@@ -45000,7 +45000,7 @@
    "skill": null,
    "path": ".agent/workflows/curious-refuge-voice-and-performance-direction.md",
    "description": "**Produces:** a **voice and performance plan** \u2014 voice-bed casting spec per character, per-line",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/curious-refuge-voice-and-performance-direction",
    "has_prompts_v2": false,
    "family": null,
@@ -48393,7 +48393,7 @@
    "skill": null,
    "path": ".agent/workflows/fashion-coupids-fashion-campaign-chain.md",
    "description": "**Produces:** a **Campaign Direction Document** \u2014 the complete pre-generation and post-generation",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/fashion-coupids-fashion-campaign-chain",
    "has_prompts_v2": false,
    "family": null,
@@ -48406,7 +48406,7 @@
    "skill": null,
    "path": ".agent/workflows/fashion-coupids-lookbook-shot-list.md",
    "description": "**Produces:** a **directed shot list** \u2014 one camera-report card per frame, plus the set-level",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/fashion-coupids-lookbook-shot-list",
    "has_prompts_v2": false,
    "family": null,
@@ -49580,7 +49580,7 @@
    "front_door": "/generate",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": null,
+   "last_fired": "2026-08-03T12:32:36.544947+00:00",
    "mtime": 1785705059.1365201
   },
   {
@@ -57454,7 +57454,7 @@
    "skill": null,
    "path": ".agent/workflows/mickmumpitz-camera-blocking-previs.md",
    "description": "**Produces:** a blocking plan \u2014 layout inventory, per-shot camera report, pose keys, lighting-for-mood",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/mickmumpitz-camera-blocking-previs",
    "has_prompts_v2": false,
    "family": null,
@@ -57467,7 +57467,7 @@
    "skill": null,
    "path": ".agent/workflows/mickmumpitz-character-lock-dataset.md",
    "description": "**Produces:** a complete character dataset specification \u2014 image manifest, caption spec, consistency",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/mickmumpitz-character-lock-dataset",
    "has_prompts_v2": false,
    "family": null,
@@ -57480,7 +57480,7 @@
    "skill": null,
    "path": ".agent/workflows/mickmumpitz-controlled-shot-spec.md",
    "description": "**Produces:** a per-shot control specification built on the Four Building Blocks \u2014 mask, driving plate +",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/mickmumpitz-controlled-shot-spec",
    "has_prompts_v2": false,
    "family": null,
@@ -68274,7 +68274,7 @@
    "front_door": "/supercomputer",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1783644299.560532
   },
   {
@@ -72330,8 +72330,8 @@
    "skill": "bilawal-sidhu",
    "path": "skills/bilawal-sidhu/SKILL.md",
    "description": "The pre-generation spatial layer \u2014 greybox\u2192reskin, camera as a drawn artifact instead of a typed hope, freeze-the-set continuity, and retrieve-don't-recall grounding, from an ex-Google spatial computing PM",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/bilawal-sidhu",
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 2,
@@ -72806,8 +72806,8 @@
    "skill": "curious-refuge",
    "path": "skills/curious-refuge/SKILL.md",
    "description": "The pre-production layer of AI filmmaking \u2014 reference-asset architecture, the shot-list floor, board-to-plate channel assignment, prompted coverage, voice casting and the ADR seam where AI hands off to a human",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/curious-refuge",
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
@@ -73217,7 +73217,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1785717835.5375085
   },
   {
@@ -73506,12 +73506,12 @@
    "skill": "fashion-coupids",
    "path": "skills/fashion-coupids/SKILL.md",
    "description": "The FASHION CAMPAIGN CHAIN \u2014 the stage order, stage deliverables and finishing doctrine for AI-directed fashion, apparel and accessory campaigns. Fashion Coupids (Jen): intent (purpose/audience/emotion/constraints) \u2192 culture read \u2192 brand read \u2192 one-sentence metaphor concept \u2192 loose moodboard+storyboard \u2192 art direction, styling, shot list, camera and the real-life visualization check \u2192 generate/com",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/fashion-coupids",
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 2,
-   "last_fired": null,
+   "last_fired": "2026-08-03T12:32:36.544947+00:00",
    "mtime": 1785717835.5435343
   },
   {
@@ -73553,7 +73553,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1785717835.544729
   },
   {
@@ -73651,7 +73651,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": null,
+   "last_fired": "2026-08-03T12:32:36.544947+00:00",
    "mtime": 1785717835.5468488
   },
   {
@@ -73716,8 +73716,8 @@
    "skill": "grace-liu",
    "path": "skills/grace-liu/SKILL.md",
    "description": "The judgment layer above all craft \u2014 Human/Translation/Machine layer diagnosis, the authored-vs-mass-produced test, and the tier ladder for creative work. A RUBRIC other skills consume before they generate, not a workflow.",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/grace-liu",
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
@@ -73917,7 +73917,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 36,
-   "last_fired": null,
+   "last_fired": "2026-08-03T01:09:00.759359+00:00",
    "mtime": 1785717835.5609758
   },
   {
@@ -74729,7 +74729,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 7,
-   "last_fired": "2026-08-02T13:32:23.267303+00:00",
+   "last_fired": "2026-08-03T13:30:24.683507+00:00",
    "mtime": 1785717835.5796134
   },
   {
@@ -74771,7 +74771,7 @@
    "has_prompts_v2": true,
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
-   "last_fired": null,
+   "last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1785717835.5806878
   },
   {
@@ -75214,8 +75214,8 @@
    "skill": "mickmumpitz",
    "path": "skills/mickmumpitz/SKILL.md",
    "description": "Determinism over prompting \u2014 the character-dataset method, camera blocking before generation, and the four building blocks of a controlled shot. The house's only skill for making the same thing come out of the machine twice on purpose.",
-   "menu_status": "unreachable",
-   "front_door": null,
+   "menu_status": "reachable",
+   "front_door": "/mickmumpitz",
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
@@ -75527,7 +75527,7 @@
    "has_prompts_v2": true,
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
-   "last_fired": null,
+   "last_fired": "2026-08-03T01:57:35.057162+00:00",
    "mtime": 1785717835.6028032
   },
   {
@@ -75807,7 +75807,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
-   "last_fired": "2026-08-01T13:02:08.511514+00:00",
+   "last_fired": "2026-08-03T12:58:48.674465+00:00",
    "mtime": 1785717835.6146472
   },
   {
@@ -76465,7 +76465,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 10,
-   "last_fired": "2026-08-02T12:30:09.775380+00:00",
+   "last_fired": "2026-08-03T12:30:09.956347+00:00",
    "mtime": 1785717835.6356173
   },
   {
@@ -76899,7 +76899,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 4,
-   "last_fired": "2026-08-02T19:08:37.579982+00:00",
+   "last_fired": "2026-08-03T12:30:22.107237+00:00",
    "mtime": 1785717835.6488576
   },
   {
@@ -80341,7 +80341,7 @@
   }
  ],
  "fingerprint": [
-  9036,
-  1785717839.516
+  9041,
+  1785762008.724
  ]
 }

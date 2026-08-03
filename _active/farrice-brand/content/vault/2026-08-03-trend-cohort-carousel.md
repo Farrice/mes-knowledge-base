@@ -7,7 +7,7 @@ bucket: Authority
 ring: Bridge
 source_brief: _active/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md
 notes: |
-  Save-carrier: slide 9 (the three-column cohort-by-creative diagnostic).
+  Save-carrier: slide 9 (the three-column cohort-by-creative read).
   Design: dark slides, one oversized number or line per slide, no stock imagery; per 05 teardown-carousel mechanics.
   Single CTA on slide 10 (save + DM ANGLE). Sources footer on slide 10.
   Pairs with the 2026-08-03 flagship post; publish the carousel second so the post's first comment can point at it.
@@ -48,7 +48,7 @@ The churn curve gets set at purchase, by the emotion in the winning ad. Month th
 An angle is the belief you acquire on.
 Trend angle: you borrow the wave's belief, and the wave keeps it. Problem angle: you build your own, and the buyer keeps it. Both are legitimate. Choose knowingly, price the churn in.
 
-**Slide 9 (the Monday diagnostic — save this)**
+**Slide 9 (the Monday cohort read — save this)**
 Pull cohorts by creative, not by month.
 Three columns: 1) which belief did the ad sell, in one sentence · 2) what did that cohort's week-2 engagement look like · 3) what percent reordered.
 If you cannot fill column one for your top ad, that is the finding.

@@ -2708,3 +2708,56 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-03T07:00:04.678763",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-03.md",
+        "traces_24h": 3,
+        "routing_decisions_24h": 3,
+        "queued_phase2": 3,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 3,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 0.88,
+            "joey-cinema-os": 1.31,
+            "ben-watkins-storytelling": 1.72,
+            "banana-pro-director": 0.86,
+            "gemini-api-dev": 0.95,
+            "dave-clark": 1.05,
+            "alex-copper-creative-strategy": 1.2,
+            "generate": 0.95
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 5,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 48.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.0
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-01T07:00:06.761884",
+      "reason": "not_due_yet",
+      "days_remaining": 5.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 6.0
+    }
+  ]
+}

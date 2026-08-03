@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-08",
     "usage": {
-        "total_queries": 78,
-        "estimated_cost_usd": 1.56,
+        "total_queries": 112,
+        "estimated_cost_usd": 2.24,
         "queries": [
             {
                 "timestamp": "2026-08-01T13:45:08.792869+00:00",
@@ -628,6 +628,278 @@
                 "description": "Based on these research findings, provide a clear synthesis answering: creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-02). Only include items published",
                 "task_context": "research-engine-synthesis",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:12.197722+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:20.302449+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:27.912644+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:40.458504+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:48.802814+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:53.103435+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:45:58.022475+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:03.386582+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:09.188267+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:13.959842+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:18.089033+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:24.576247+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:33.663245+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: brand positioning strategy news \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in t",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:38.466408+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:45.941298+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:51.574613+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:46:58.662978+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:03.099497+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:10.824021+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:17.976378+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:23.831951+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:29.103597+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:34.397380+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:41.137239+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:47:46.378265+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older con",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:11.039798+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: distribution strategy innovations for expertise businesses \u2014 latest developments from the past 14 days (as of 2026-08-03). Only i",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:16.568235+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:22.102097+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:28.665242+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:34.759474+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:39.743946+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:48.210622+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:54.911141+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-03T13:48:59.982859+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "authority positioning marketing moves \u2014 latest developments from the past 14 days (as of 2026-08-03). Only include items published in the last two weeks; exclude 2025-or-older content and undated ever",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -636,9 +908,9 @@
         "block_at_percent": 100
     },
     "loop_detection": {
-        "current_task_query_count": 1,
-        "current_task_name": "research-engine-synthesis",
-        "last_query_timestamp": "2026-08-02T13:48:28.392197+00:00",
+        "current_task_query_count": 2,
+        "current_task_name": "research-engine-psychology",
+        "last_query_timestamp": "2026-08-03T13:48:59.982859+00:00",
         "consecutive_low_info_queries": 0
     }
 }
