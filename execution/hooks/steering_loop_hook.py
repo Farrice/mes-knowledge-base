@@ -466,6 +466,60 @@ _CC_MODE_CARDS = {
 }
 
 
+# ── Universal Intent Mirror (Farrice ruling 2026-08-02: "Mirror + one push-back") ──
+# Every raw/word-vomit ask, ANY domain, gets a ≤5-line "what I heard" card plus
+# exactly one senior-partner push-back BEFORE work starts. Sharp, specific asks
+# skip the mirror (never the judgment). Deterministic detector, stateless,
+# nudge-not-cage per Compass. Ruling record: memory
+# feedback_production-grade-floor-craft-gate; queued in
+# extractions/master-hunt-2026-08-02-creative-floor-dossier.md §Next-session.
+
+_MIRROR_RAMBLE_RE = re.compile(
+    r"\b(i want|i think|i've been|i was thinking|i don't know|i just|"
+    r"kind of|sort of|you know|stuff like that|things like that|or something)\b")
+_MIRROR_MULTI_ASK_RE = re.compile(
+    r"\b(also|additionally|another thing|and then|on top of that|one more thing|"
+    r"oh and|plus)\b")
+
+
+def _mirror_signals(prompt: str) -> int:
+    """Count word-vomit signals. 2+ (with length) = raw dump."""
+    pl = prompt.lower()
+    signals = 0
+    if len(_MIRROR_RAMBLE_RE.findall(pl)) >= 2:
+        signals += 1
+    if len(_MIRROR_MULTI_ASK_RE.findall(pl)) >= 2:
+        signals += 1
+    if pl.count("?") >= 3:
+        signals += 1
+    if len(re.findall(r"[.!?]\s", prompt)) >= 6 or prompt.count("\n\n") >= 2:
+        signals += 1
+    return signals
+
+
+def _mirror_block(prompt: str, mode) -> str:
+    """The Mirror + one push-back card, or '' when the ask is sharp.
+
+    Skips: short prompts (<350 chars — sharp asks are compact), CAPTURE mode
+    (thought dumps park verbatim, they don't get interrogated), and prompts
+    with fewer than 2 vomit signals.
+    """
+    if len(prompt.strip()) < 350 or mode == "CAPTURE":
+        return ""
+    if _mirror_signals(prompt) < 2:
+        return ""
+    return (
+        "🪞 INTENT MIRROR (raw dump detected — Farrice ruling 2026-08-02, "
+        "\"Mirror + one push-back\"): BEFORE producing, reflect back in ≤5 "
+        "lines — deliverable+format · felt standard · references/assets in "
+        "play · budget/constraints · the one detail that makes it HIS — then "
+        "add exactly ONE senior-partner push-back or sharpening question "
+        "(not a soft clarifier; the question a partner with skin in the game "
+        "would ask). Proceed on his confirm or visible non-objection. Nudge, "
+        "never a cage: if the ask is genuinely sharp despite its length, say "
+        "so in one line and go.")
+
+
 def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     """Assemble mode card + spiral brake; update rejection state. Never raises."""
     # Slash/system commands already name their route — a mode card is redundant
@@ -504,6 +558,10 @@ def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     if mode:
         card = _CC_MODE_CARDS.get(mode) or ""
         lines.append(f"MODE {mode} (say 'mode X' to override): {card}".rstrip())
+
+    mirror = _mirror_block(prompt, mode)
+    if mirror:
+        lines.append(mirror)
 
     # Spiral brake: his stated rule made physical — 2 rejected takes on one
     # stem, or 3+ renditions, means variants stop.
@@ -794,6 +852,16 @@ def main():
     try:
         if mode == "status":
             handle_status()
+            sys.exit(0)
+
+        if mode == "test-mirror":
+            sample = sys.stdin.read()
+            wm = _cc_work_mode(sample, False)
+            block = _mirror_block(sample, wm)
+            print(f"work-mode: {wm} | signals: {_mirror_signals(sample)} | "
+                  f"fires: {'YES' if block else 'no'}")
+            if block:
+                print(block)
             sys.exit(0)
 
         if _toggle_off():
