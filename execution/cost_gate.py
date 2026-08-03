@@ -101,8 +101,8 @@ SERVICES = {
 # Higgsfield Supercomputer's killer mechanic.
 # ───────────────────────────────────────────────────────────────────
 AUTO_APPROVE_THRESHOLD_USD = 0.20   # below this: exit 0 (auto-fire)
-DAILY_HARD_CAP_USD = 10.00           # cross this: exit 1 (deny)
-SESSION_SOFT_CAP_USD = 5.00          # cross this: warn in output, still exit 2
+DAILY_HARD_CAP_USD = 20.00           # cross this: exit 1 (deny). Raised 6->20 by Farrice 2026-08-02 ("room to play")
+SESSION_SOFT_CAP_USD = 10.00         # cross this: warn in output, still exit 2 (raised with the daily cap)
 
 # Quota pools (initial guesses; Google Ultra real limits TBD)
 QUOTA_POOLS = {

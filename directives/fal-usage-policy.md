@@ -2,7 +2,9 @@
 
 > **Wallet**: $20.00 funded, auto-refills when balance drops below $5.00 → effective rolling $15-20 budget per cycle
 > **Tracker**: `.agent/fal-usage.json` (v2 schema) | **Guard**: `execution/fal_budget_guard.py` | **Hookify**: `.claude/hookify.fal-budget.local.md`
-> Applies to ALL Fal calls: posters (`./gen.sh`), Kling video (`fal_video_kling.py`), Seedance video (`fal_video_seedance.py`).
+> Applies to ALL Fal calls: posters (`./gen.sh`), Kling video (`fal_video_kling.py`), Seedance video (`fal_video_seedance.py`), and recipe calls (`generate_media.py`, mode=generic).
+
+> **CAP RAISE (Farrice, 2026-08-02 — "room to play"):** per-day block $6→**$20** (warn $10), per-cycle block $15→**$20** (warn $14); `cost_gate.py` daily hard cap $10→**$20**, session soft $5→**$10**. Older dollar figures below are superseded by `.agent/fal-usage.json` limits — the state file is authoritative. Per-call ceilings and the seedance-1080p hard block are UNCHANGED.
 
 ---
 
