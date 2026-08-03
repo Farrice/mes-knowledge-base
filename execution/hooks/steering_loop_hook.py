@@ -498,26 +498,36 @@ def _mirror_signals(prompt: str) -> int:
 
 
 def _mirror_block(prompt: str, mode) -> str:
-    """The Mirror + one push-back card, or '' when the ask is sharp.
+    """The intent mirror — UNIVERSAL since 2026-08-03 (Farrice: 'locked
+    universally… I waste so much time going back and forth because my intent
+    isn't clear sometimes, and then we're just taking misaligned action').
 
-    Skips: short prompts (<350 chars — sharp asks are compact), CAPTURE mode
-    (thought dumps park verbatim, they don't get interrogated), and prompts
-    with fewer than 2 vomit signals.
+    Two intensities:
+    - raw dump (2+ vomit signals) → full ≤5-line mirror + ONE push-back
+    - any other substantive ask → compact 1-3 line mirror; push-back only
+      when a real fork is live; sharp ask = one line and go.
+    Skips: short/conversational (<120 chars), CAPTURE (dumps park verbatim),
+    REFINE-EXISTING (its card already mandates restating his verdicts —
+    that IS the mirror for feedback turns).
     """
-    if len(prompt.strip()) < 350 or mode == "CAPTURE":
+    if len(prompt.strip()) < 120 or mode in ("CAPTURE", "REFINE-EXISTING"):
         return ""
-    if _mirror_signals(prompt) < 2:
-        return ""
+    if _mirror_signals(prompt) >= 2:
+        return (
+            "🪞 INTENT MIRROR — FULL (raw dump): BEFORE producing, reflect "
+            "back in ≤5 lines — deliverable+format · felt standard · "
+            "references/assets in play · budget/constraints · the one detail "
+            "that makes it HIS — then add exactly ONE senior-partner "
+            "push-back or sharpening question (the question a partner with "
+            "skin in the game would ask, not a soft clarifier). Proceed on "
+            "his confirm or visible non-objection.")
     return (
-        "🪞 INTENT MIRROR (raw dump detected — Farrice ruling 2026-08-02, "
-        "\"Mirror + one push-back\"): BEFORE producing, reflect back in ≤5 "
-        "lines — deliverable+format · felt standard · references/assets in "
-        "play · budget/constraints · the one detail that makes it HIS — then "
-        "add exactly ONE senior-partner push-back or sharpening question "
-        "(not a soft clarifier; the question a partner with skin in the game "
-        "would ask). Proceed on his confirm or visible non-objection. Nudge, "
-        "never a cage: if the ask is genuinely sharp despite its length, say "
-        "so in one line and go.")
+        "🪞 INTENT MIRROR (universal — every substantive ask): open the reply "
+        "with a 1-3 line mirror of what you're reading — deliverable · "
+        "standard · the constraint that matters — plus ONE push-back if any "
+        "real fork is live. If the ask is sharp, one line (\"reading this as "
+        "X — proceeding\") and go. Misalignment dies at line one, never at "
+        "deliverable three.")
 
 
 def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
