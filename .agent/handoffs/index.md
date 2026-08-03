@@ -2,7 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
-- **2026-08-02** [creative-generation-os/ready] [Creative Generation OS — Full Build v1 (/generate + Asset Command Center + Craft Floor + 3 Masters)](2026-08-02-creative-generation-os.md) — Wire intent mirror into per-prompt hook, then extract Mickmumpitz
+- **2026-08-02** [creative-generation-os/ready] [Creative Generation OS — Full Build v1 COMPLETE (all 8 masters + $20 caps)](2026-08-02-creative-generation-os.md) — Intent mirror hook, 1afa07aca ack, then anime character lock
 - **2026-08-02** [fantastic-posters/active] [Fantastic Posters — Gen](2026-08-02-fantastic-posters.md) — Fantastic Posters — Gen
 - **2026-08-02** [health-performance-geo-daily-brief/active] [2026-08-02 Angle Map Listening Brief verified and risk-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction](2026-08-02-health-performance-geo-daily-brief.md) — 2026-08-02 Angle Map Listening Brief verified and risk-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction
 - **2026-08-02** [health-performance-ip-library/active] [Health Performance Ip Library — Latest Exec Cut](2026-08-02-health-performance-ip-library.md) — Health Performance Ip Library — Latest Exec Cut
