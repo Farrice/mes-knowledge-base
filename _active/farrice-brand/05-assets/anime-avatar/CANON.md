@@ -37,3 +37,6 @@ bash skills/fantastic-posters/gen.sh "<full art direction: 'The character frbpm:
 
 ## Bake-readiness
 This dataset + captions is LoRA/finetune-ready (per-image caption files, trigger word, locked/variable discipline). If a fal training recipe is added later, bake per `skills/mickmumpitz/` Step 6 (sample the curve, several checkpoints, prune first) — no dataset rework needed.
+
+## Acceptance test v1 (2026-08-03) — FOLDER HOLDS
+12/12 fresh prompts rendered via the usage recipe (board: 🎭 frbpm-acceptance). Honest-folder findings, failures as objects: (1) A4 podcast — cyan ring reads on only one earcup under warm light (detail suppression; snip-and-refeed H1 if it matters); (2) A6 crouch — finger anatomy simplified in the shoelace grip (small-hand rendering; harmless at social scale); (3) A12 extreme close-up — forehead creasing heavier than canon register (realism drift at extreme crop; add "smooth cel skin" clause on extreme close-ups). Identity, wardrobe, sneakers, silhouette, and the manga-ink register swap (A7) all held. Both required transfers proven: true profile with no profile photo (A10), register swap with identity intact (A7).
