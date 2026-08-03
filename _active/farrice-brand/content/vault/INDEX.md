@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-03 | [wave-lends-you-customers-post](2026-08-03-wave-lends-you-customers-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |
+| 2026-08-03 | [trend-cohort-carousel](2026-08-03-trend-cohort-carousel.md) | Carousel (10 slides) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-02 | [audit-the-search-post](2026-08-02-audit-the-search-post.md) | LinkedIn post | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-02 | [six-rungs-education-longform](2026-08-02-six-rungs-education-longform.md) | Education long-form | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-01 | [counter-question-creatine-post](2026-08-01-counter-question-creatine-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |

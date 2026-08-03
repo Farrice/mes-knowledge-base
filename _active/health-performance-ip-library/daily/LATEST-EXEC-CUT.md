@@ -1,6 +1,6 @@
-# Listening cut — 2026-08-02 (Sun deep focus: education chapter, how a claim gets its evidence)
-- Tension: the founder's claims review came back thin, so he softened everything, and he cannot tell whether the science is missing or his search was.
-- Receipt: "science-backed" points at the ingredient; an evidence site's own audit found 277 of its 475 zero-scored pairings had real RCTs (protein for osteoporosis scored zero, has 104), caused by capped sampling and Citrulline/L-Citrulline counted as two compounds.
-- Thesis: a real absence and a broken query look identical in a spreadsheet, so caution costs the brand twice.
-- Post seed: "Twenty-two percent of supplement uses have no human trial behind them. The man who published that number spent this weekend proving himself wrong." → full draft in the brief §5.1
-- Docs fed: 07 +1 reactivity read, 03 +1 trigger, PNK +3, insights +3, vault +2 READY; Codex pass verified without duplicate rows or Drive write · Full brief: _active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md
+# Listening cut — 2026-08-03 (Mon deep focus: audience state)
+- Tension: a founder's cheapest acquisition month ever may be his worst cohort, and the board is reading the spike as product-market fit.
+- Receipt: AG1 promises trustworthy daily foundational nutrition; its own subscriber is on Reddit asking how to replace it ("the lead/arsenic content in particular worries me").
+- Thesis: the trend wave lends you customers; the angle decides which ones you keep — churn is set at purchase, by the belief in the winning ad.
+- Post seed: "Eighteen Januaries on a gym floor teach you one trick: by week two, you can tell who will still be there in April." → full draft in the brief.
+- Docs fed: 07 gained the trend-wave entrant + FOMO split; 03 gained the wave-cohort board-review trigger; 2 promises receipts, 3 insight rows, vault +2 READY · Full brief: _active/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md
