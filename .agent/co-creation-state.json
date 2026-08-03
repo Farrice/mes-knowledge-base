@@ -59,13 +59,13 @@
     "rejections": 1
    },
    "source-notes": {
-    "rejections": 1
+    "rejections": 2
    },
    "skill": {
-    "rejections": 3
+    "rejections": 4
    },
    "craft-map": {
-    "rejections": 3
+    "rejections": 5
    },
    "moodboard-sweep-report": {
     "rejections": 1
@@ -99,9 +99,18 @@
    },
    "04-slop-diagnostic": {
     "rejections": 1
+   },
+   "greybox-reskin-shot": {
+    "rejections": 1
+   },
+   "camera-path-brief": {
+    "rejections": 1
+   },
+   "scene-first-blocking-plan": {
+    "rejections": 1
    }
   },
-  "updated": "2026-08-02T16:05:09.518634",
-  "last_feedback_exchange": 12
+  "updated": "2026-08-02T17:43:31.610762",
+  "last_feedback_exchange": 17
  }
 }

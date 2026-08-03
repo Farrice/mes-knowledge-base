@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7324,
+ "count": 7340,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -2223,6 +2223,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "bilawal-sidhu",
+   "title": "Bilawal Sidhu \u2014 Camera Path Annotation Brief",
+   "gist": "You are working as Bilawal Sidhu \u2014 six years a senior PM at Google on spatial computing and 3D maps",
+   "path": "skills/bilawal-sidhu/references/prompts-v2/camera-path-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bilawal-sidhu",
+   "title": "Bilawal Sidhu \u2014 Greybox \u2192 Reskin Shot Spec",
+   "gist": "You are working as Bilawal Sidhu \u2014 six years a senior product manager at Google on spatial computing and",
+   "path": "skills/bilawal-sidhu/references/prompts-v2/greybox-reskin-shot.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bilawal-sidhu",
+   "title": "Bilawal Sidhu \u2014 Scene-First Spatial Plan",
+   "gist": "You are working as Bilawal Sidhu \u2014 six years a senior PM at Google on spatial computing and 3D maps",
+   "path": "skills/bilawal-sidhu/references/prompts-v2/scene-first-blocking-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "bill-browder-high-stakes-narrative",
    "title": "Bill Browder \u2014 Cause Campaign (The Mission Narrative That Mobilizes)",
    "gist": "You are working the method of Bill Browder, who did not set out to write a book \u2014 he set out to pass the Magnitsky Act, to get justice for Sergei Magnitsky, his lawyer, tortured and killed in a Russian jail. Briefing pol",
@@ -4292,6 +4313,34 @@
    "title": "Creative Direction \u2014 Trailer Treatment (4-Act Narrative Framework)",
    "gist": "You are the creative director applying movie trailer storytelling logic to non-trailer content \u2014 product launches, brand campaigns, social content, events, personal brand. Trailers work through three specific cognitive m",
    "path": "skills/creative-direction/references/prompts-v2/trailer-treatment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "curious-refuge",
+   "title": "Curious Refuge (Caleb Ward) \u2014 Continuity & Consistency Audit",
+   "gist": "You are working as Caleb Ward \u2014 co-founder and CEO of Curious Refuge, an AI filmmaking school and a",
+   "path": "skills/curious-refuge/references/prompts-v2/continuity-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "curious-refuge",
+   "title": "Curious Refuge (Caleb Ward) \u2014 Pre-Production Package",
+   "gist": "You are working as Caleb Ward \u2014 co-founder and CEO of Curious Refuge, an AI filmmaking school and a",
+   "path": "skills/curious-refuge/references/prompts-v2/preproduction-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "curious-refuge",
+   "title": "Curious Refuge (Caleb Ward) \u2014 Shot Conversion Sheet",
+   "gist": "You are working as Caleb Ward \u2014 co-founder and CEO of Curious Refuge, an AI filmmaking school and a",
+   "path": "skills/curious-refuge/references/prompts-v2/shot-conversion-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "curious-refuge",
+   "title": "Curious Refuge (Caleb Ward) \u2014 Voice & Performance Direction Plan",
+   "gist": "You are working as Caleb Ward \u2014 co-founder and CEO of Curious Refuge, an AI filmmaking school and a",
+   "path": "skills/curious-refuge/references/prompts-v2/voice-performance-plan.md"
   },
   {
    "kind": "prompt-v2",
@@ -7949,6 +7998,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "fashion-coupids",
+   "title": "[BRAND] \u00d7 [PRODUCT] \u2014 Campaign Direction",
+   "gist": "You are directing a fashion campaign the way Fashion Coupids (Jen) teaches it: **AI is a",
+   "path": "skills/fashion-coupids/references/prompts-v2/campaign-direction-document.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fashion-coupids",
+   "title": "[CAMPAIGN] \u2014 Finish Plan",
+   "gist": "You are planning the **back half** of a fashion campaign \u2014 everything after the images come out of",
+   "path": "skills/fashion-coupids/references/prompts-v2/campaign-finish-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fashion-coupids",
+   "title": "Fashion Coupids \u2014 Lookbook Shot List",
+   "gist": "You are writing the frame-by-frame plan for a fashion lookbook, drop or editorial the way Fashion",
+   "path": "skills/fashion-coupids/references/prompts-v2/lookbook-shot-list.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "forge-os",
    "title": "Agent Forge \u2014 Concept or Skill \u2192 `agents/<name>/` Deployable Agent",
    "gist": "You are the Agent Forge \u2014 the Forge OS lane that turns expertise into a deployable, persistent",
@@ -8569,6 +8639,20 @@
    "title": "Zero-to-Scale Playbook: [Brand Name]",
    "gist": "You are working as Grace Andrews delivering the unified onboarding playbook \u2014 the single document that takes a creator from zero audience through Foundation, Growth, and Scale with stage-appropriate tooling at each level",
    "path": "skills/grace-andrews-media-company/references/prompts-v2/zero-to-scale-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-liu",
+   "title": "Grace Liu \u2014 Direction Discipline Audit",
+   "gist": "You are working as Grace Liu \u2014 Creative Director and filmmaker, founder of Grace Liu Studio and",
+   "path": "skills/grace-liu/references/prompts-v2/direction-discipline-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-liu",
+   "title": "Grace Liu \u2014 Human Layer Brief",
+   "gist": "You are working as Grace Liu \u2014 Creative Director and filmmaker, founder of Grace Liu Studio and",
+   "path": "skills/grace-liu/references/prompts-v2/human-layer-brief.md"
   },
   {
    "kind": "prompt-v2",
@@ -15954,6 +16038,34 @@
    "title": "Michael Margolis \u2014 Watch-Party & Takeaways System",
    "gist": "You are Michael Margolis designing the team-facing operating system around sprint day \u2014 the GV UX Research Partner (since 2010, 300+ sprints) whose signature claim is \"no report in 10 years.\" Research is a team sport: Ma",
    "path": "skills/michael-margolis-user-research/references/prompts-v2/watch-party-takeaways-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mickmumpitz",
+   "title": "Mickmumpitz \u2014 Character Lock Dataset Spec",
+   "gist": "You are working as Mickmumpitz \u2014 the AI-filmmaking practitioner whose free ComfyUI and Blender character",
+   "path": "skills/mickmumpitz/references/prompts-v2/character-dataset-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mickmumpitz",
+   "title": "Mickmumpitz \u2014 Consistency Drift Diagnostic",
+   "gist": "You are working as Mickmumpitz \u2014 the practitioner who diagnoses generative failures **on camera**, by",
+   "path": "skills/mickmumpitz/references/prompts-v2/consistency-drift-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mickmumpitz",
+   "title": "Mickmumpitz \u2014 Previs & Camera Blocking Plan",
+   "gist": "You are working as Mickmumpitz \u2014 the practitioner who solved multi-character consistency and camera",
+   "path": "skills/mickmumpitz/references/prompts-v2/previs-blocking-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mickmumpitz",
+   "title": "Mickmumpitz \u2014 Controlled Shot Spec",
+   "gist": "You are working as Mickmumpitz \u2014 the practitioner who publishes free, reproducible pipelines for putting",
+   "path": "skills/mickmumpitz/references/prompts-v2/shot-control-spec.md"
   },
   {
    "kind": "prompt-v2",

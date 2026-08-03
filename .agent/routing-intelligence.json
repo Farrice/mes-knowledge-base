@@ -449,8 +449,8 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 35,
-            "total_feedback": 2,
+            "total_routings": 37,
+            "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -471,9 +471,9 @@
                 "jen-santulan-listing-content": 4,
                 "joey-cinema-os": 2,
                 "creative-direction": 1,
-                "kallaway-illusion-of-novelty": 1,
+                "kallaway-illusion-of-novelty": 2,
                 "satori-graphics": 1,
-                "ben-watkins-storytelling": 1,
+                "ben-watkins-storytelling": 2,
                 "gemini-api-dev": 1
             },
             "expert_counts": {
@@ -495,17 +495,17 @@
                 "health-performance-angle-map-listening-engine": 2,
                 "jen-santulan-listing-content": 4,
                 "joey-cinema-os": 2,
-                "ben-watkins-storytelling": 2,
+                "ben-watkins-storytelling": 4,
                 "RoboNuggets source-to-skill": 1,
                 "creative-direction": 1,
                 "hilary-gridley": 1,
-                "kallaway-illusion-of-novelty": 1,
+                "kallaway-illusion-of-novelty": 2,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1
             },
             "tier_counts": {
-                "0": 35,
+                "0": 37,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -513,11 +513,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 23,
+                "hybrid": 25,
                 "finalize-auto": 12
             },
-            "ensemble_count": 10,
-            "auto_miss_count": 2
+            "ensemble_count": 11,
+            "auto_miss_count": 3
         }
     },
     "feedback_log": [
@@ -538,6 +538,15 @@
             "rating": "auto_miss",
             "correction": "banana-pro-director",
             "notes": "expert skill 'banana-pro-director' loaded not matching suggestion ['gemini-api-dev']"
+        },
+        {
+            "feedback_id": "fb_20260803_002645_823b",
+            "timestamp": "2026-08-03T00:26:45.012760+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "routing_id": "rt_20260803_002016_3786",
+            "rating": "auto_miss",
+            "correction": "dave-clark",
+            "notes": "expert skill 'dave-clark' loaded not matching suggestion ['ben-watkins-storytelling']"
         }
     ],
     "routing_decisions": [
@@ -1144,6 +1153,41 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": "fb_20260802_225243_48cf"
+        },
+        {
+            "routing_id": "rt_20260803_002016_3786",
+            "timestamp": "2026-08-03T00:20:16.679852+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "I want you to change the cap to $20 for a spend so that we have room to play with different things. Additionally, I want you to run the other hunts for the other experts. I don't want us to stop with ",
+            "intent_score": 0,
+            "domain_detected": "ben-watkins-storytelling",
+            "experts_deployed": [
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ben-watkins-storytelling",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": "fb_20260803_002645_823b"
+        },
+        {
+            "routing_id": "rt_20260803_003746_bb55",
+            "timestamp": "2026-08-03T00:37:46.084315+00:00",
+            "session_id": "019fc3a2-c8c0-7f73-8212-5f86a2f07dec",
+            "request_summary": "Freeze the judged artifact, version improvements separately, and turn each miss into an executable boundary. and /aar And what did the six domain blind corpus do for us? I didn't get a chance to read ",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty",
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": true,
+            "compound_pairing": "kallaway-illusion-of-novelty + ben-watkins-storytelling",
+            "feedback": null
         }
     ]
 }
