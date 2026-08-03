@@ -1,0 +1,8 @@
+# Pulse Angle Bank — 2026-08-03 (loop run #5)
+> 4 angles from `research_outputs/market-pulse/2026-08-03-pulse.md`. Pillars: P1 Message Before the Money · P2 Claim-Safe Is a Growth Lever · P3 The Body Doesn't Read Your Deck · P4 The Sea of Same · P5 The Machine Is Reading Your Label.
+> ⚠ Angle #1 names a live Dream 100 prospect (IM8/Danny Yeung), not a category-fodder brand — per `PROOF-TO-MARKET-OS.md`'s binding teardown rule, genericize before any public post ("a performance-supplement brand," no names) or keep to private engagement. Filed as-is because it's the sharpest read of the signal; public-ready version still needs the names pulled.
+
+1. (P1) Danny Yeung raised a billion dollars from General Catalyst nineteen months after IM8 launched, structured as revenue-share debt, not equity. The money arrived to fund what the message had already proven. Nobody financed the hope that it would work.
+2. (P3) NSF Certified for Sport doesn't test for PFAS, microplastics, or heavy metals past its own baseline. Momentous added all three testing lines anyway, because the body absorbs what's in the scoop whether the certification mentions it or not.
+3. (P2) Every performance brand claims "third-party tested." Momentous named the specific tests — PFAS, heavy metals, microplastics — that most of the category doesn't run at all. The claim that survives scrutiny is the one with the test names attached to it.
+4. (P4) "Clinically dosed" stopped meaning anything the week every brand started saying it. "Six-stage testing for PFAS and microplastics" still means something, mostly because almost nobody else is willing to publish what they tested for.
