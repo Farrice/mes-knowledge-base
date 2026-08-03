@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T23:07:39.941015+00:00",
+  "generated_at": "2026-08-03T13:00:06.305484+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -28,7 +28,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "git",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -43,7 +43,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -58,7 +58,7 @@
       "index_exists": true,
       "last_touched": "2026-04-09",
       "last_touched_source": "mtime",
-      "days": 114,
+      "days": 115,
       "prefix_collisions": {}
     },
     {
@@ -88,7 +88,7 @@
       "index_exists": true,
       "last_touched": "2026-07-08",
       "last_touched_source": "git",
-      "days": 24,
+      "days": 25,
       "prefix_collisions": {}
     },
     {
@@ -103,7 +103,7 @@
       "index_exists": true,
       "last_touched": "2026-06-11",
       "last_touched_source": "git",
-      "days": 51,
+      "days": 52,
       "prefix_collisions": {}
     },
     {
@@ -118,7 +118,7 @@
       "index_exists": true,
       "last_touched": "2026-07-13",
       "last_touched_source": "git",
-      "days": 19,
+      "days": 20,
       "prefix_collisions": {}
     },
     {
@@ -133,7 +133,7 @@
       "index_exists": true,
       "last_touched": "2026-07-01",
       "last_touched_source": "git",
-      "days": 31,
+      "days": 32,
       "prefix_collisions": {}
     },
     {
@@ -178,7 +178,7 @@
       "index_exists": true,
       "last_touched": "2026-06-11",
       "last_touched_source": "git",
-      "days": 51,
+      "days": 52,
       "prefix_collisions": {}
     },
     {
@@ -193,7 +193,7 @@
       "index_exists": true,
       "last_touched": "2026-07-07",
       "last_touched_source": "git",
-      "days": 25,
+      "days": 26,
       "prefix_collisions": {}
     },
     {
@@ -236,7 +236,7 @@
       "declared_raw": "active",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-08-02",
+      "last_touched": "2026-08-03",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -253,7 +253,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -268,7 +268,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -283,7 +283,7 @@
       "index_exists": true,
       "last_touched": "2026-07-07",
       "last_touched_source": "git",
-      "days": 25,
+      "days": 26,
       "prefix_collisions": {}
     },
     {
@@ -313,7 +313,7 @@
       "index_exists": true,
       "last_touched": "2026-07-02",
       "last_touched_source": "git",
-      "days": 30,
+      "days": 31,
       "prefix_collisions": {}
     },
     {
@@ -328,7 +328,7 @@
       "index_exists": true,
       "last_touched": "2026-07-21",
       "last_touched_source": "git",
-      "days": 11,
+      "days": 12,
       "prefix_collisions": {}
     },
     {
@@ -343,7 +343,7 @@
       "index_exists": true,
       "last_touched": "2026-07-09",
       "last_touched_source": "mtime",
-      "days": 23,
+      "days": 24,
       "prefix_collisions": {}
     },
     {
@@ -356,7 +356,7 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-08-02",
+      "last_touched": "2026-08-03",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -373,7 +373,7 @@
       "index_exists": true,
       "last_touched": "2026-03-30",
       "last_touched_source": "mtime",
-      "days": 124,
+      "days": 125,
       "prefix_collisions": {}
     },
     {
@@ -403,7 +403,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -476,7 +476,7 @@
       "declared_raw": null,
       "entry": "CAMPAIGN.md",
       "index_exists": true,
-      "last_touched": "2026-08-02",
+      "last_touched": "2026-08-03",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {
@@ -513,7 +513,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -558,7 +558,7 @@
       "index_exists": true,
       "last_touched": "2026-07-26",
       "last_touched_source": "git",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -663,7 +663,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "git",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -678,7 +678,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -708,7 +708,7 @@
       "index_exists": true,
       "last_touched": "2026-07-13",
       "last_touched_source": "git",
-      "days": 19,
+      "days": 20,
       "prefix_collisions": {}
     },
     {
@@ -723,7 +723,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     },
     {
@@ -813,7 +813,7 @@
       "index_exists": true,
       "last_touched": "2026-05-28",
       "last_touched_source": "git",
-      "days": 65,
+      "days": 66,
       "prefix_collisions": {}
     },
     {
@@ -828,7 +828,7 @@
       "index_exists": true,
       "last_touched": "2026-07-01",
       "last_touched_source": "git",
-      "days": 31,
+      "days": 32,
       "prefix_collisions": {}
     },
     {
@@ -843,7 +843,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 4,
+      "days": 5,
       "prefix_collisions": {}
     }
   ],

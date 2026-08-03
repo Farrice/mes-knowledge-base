@@ -396,3 +396,7 @@
 {"ts": "2026-08-02T12:58:57Z", "label": "flagship post 2026-08-02", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-02T13:34:17Z", "label": "2026-08-02-audit-the-search-post", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-02T13:34:17Z", "label": "2026-08-02-six-rungs-education-longform", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T12:53:30Z", "label": "flagship-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T12:53:30Z", "label": "carousel", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": []}
+{"ts": "2026-08-03T12:54:03Z", "label": "carousel", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T12:54:03Z", "label": "daily-brief", "verdict": "FAIL", "fails": ["37 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}

@@ -3287,8 +3287,36 @@
         "gaming_flag": false
       },
       "notes": "Extend-not-rebuild held: 1 new engine script, 2 board scripts, recipes; all guards composed not duplicated. Proof run surfaced 3 real bugs (SSL certs, gen.sh pipefail, style-pick mismatch) \u2014 worth the $0.22. | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260803_055848",
+      "timestamp": "2026-08-03T05:58:48.681572",
+      "schema_version": "v3",
+      "component": "health-performance-listening",
+      "expert": "oren-operational-systems",
+      "workflow": "angle-map-listening-engine-v4.1",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Fresh lane (trend-cohort economics) after creatine SATURATED; carousel failed finish gate once (reveal pattern), fixed and re-ran clean; grounding_guard WARN reported honestly (stat repetition across sections); Drive via gws after MCP permission gate | Factual Grounding: 8 | Verification: PASS"
     }
   ],
-  "total_cases": 116,
-  "last_updated": "2026-08-02T14:23:25.059025"
+  "total_cases": 117,
+  "last_updated": "2026-08-03T05:58:48.684507"
 }

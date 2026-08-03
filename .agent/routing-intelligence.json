@@ -449,21 +449,21 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 37,
+            "total_routings": 43,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "sean-dollwet-kdp-publishing": 4,
+                "sean-dollwet-kdp-publishing": 5,
                 "Research": 2,
                 "fresh-voice-system": 2,
-                "Content": 3,
+                "Content": 4,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
                 "System": 3,
-                "supercomputer": 2,
+                "supercomputer": 3,
                 "Creative": 1,
                 "Strategy": 2,
                 "luke-iha-copy-blocks": 1,
@@ -474,21 +474,24 @@
                 "kallaway-illusion-of-novelty": 2,
                 "satori-graphics": 1,
                 "ben-watkins-storytelling": 2,
-                "gemini-api-dev": 1
+                "gemini-api-dev": 1,
+                "jason-fladlien-marketing": 1,
+                "nicolas-cole-digital-products": 1,
+                "generate": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 4,
-                "oren-operational-systems": 1,
+                "sean-dollwet-kdp-publishing": 5,
+                "oren-operational-systems": 2,
                 "fresh-voice-system": 2,
                 "luke-iha-creative-strategy": 2,
                 "Oren Operational Systems": 2,
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
-                "supercomputer": 2,
-                "doc-coauthoring": 2,
+                "supercomputer": 3,
+                "doc-coauthoring": 3,
                 "luke-iha-copy-blocks": 1,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
@@ -502,10 +505,15 @@
                 "kallaway-illusion-of-novelty": 2,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
-                "gemini-api-dev": 1
+                "gemini-api-dev": 1,
+                "jason-fladlien-marketing": 1,
+                "nicolas-cole-digital-products": 1,
+                "luke-iha-million-dollar-mechanisms": 1,
+                "generate": 1,
+                "fashion-coupids": 1
             },
             "tier_counts": {
-                "0": 37,
+                "0": 43,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -513,10 +521,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 25,
-                "finalize-auto": 12
+                "hybrid": 30,
+                "finalize-auto": 13
             },
-            "ensemble_count": 11,
+            "ensemble_count": 14,
             "auto_miss_count": 3
         }
     },
@@ -1187,6 +1195,111 @@
             "workflow_used": "kallaway-illusion-of-novelty",
             "ensemble": true,
             "compound_pairing": "kallaway-illusion-of-novelty + ben-watkins-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_010900_a4b3",
+            "timestamp": "2026-08-03T01:09:00.759359+00:00",
+            "session_id": "019fc39f-da3b-70f0-bcc3-db8c4810651d",
+            "request_summary": "run the /fladlien-terms on my Angle Map Offer",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_015735_3c96",
+            "timestamp": "2026-08-03T01:57:35.057162+00:00",
+            "session_id": "019fc39f-da3b-70f0-bcc3-db8c4810651d",
+            "request_summary": "Approve the Angle Map TERMS patch. Update only the local transaction sequence, make-right language, Ready-to-Start Receipt, and confidential-input procedure. Preserve every locked offer term and stop ",
+            "intent_score": 0,
+            "domain_detected": "nicolas-cole-digital-products",
+            "experts_deployed": [
+                "nicolas-cole-digital-products",
+                "luke-iha-million-dollar-mechanisms"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nicolas-cole-digital-products",
+            "ensemble": true,
+            "compound_pairing": "nicolas-cole-digital-products + luke-iha-million-dollar-mechanisms",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_123009_530c",
+            "timestamp": "2026-08-03T12:30:09.956347+00:00",
+            "session_id": "526e5dca-0f42-43e5-b378-d66b0c875ab3",
+            "request_summary": "Read and execute _active/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary,",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_123022_0a7f",
+            "timestamp": "2026-08-03T12:30:22.107237+00:00",
+            "session_id": "7232b290-322b-4bb8-8eba-4a262e83ed77",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_123236_e037",
+            "timestamp": "2026-08-03T12:32:36.544947+00:00",
+            "session_id": "fe78e615-fc42-42bf-80fc-8fa17ec80184",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary that synthesizes these part-summaries into one ",
+            "intent_score": 0,
+            "domain_detected": "generate",
+            "experts_deployed": [
+                "generate",
+                "fashion-coupids"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "generate",
+            "ensemble": true,
+            "compound_pairing": "generate + fashion-coupids",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_125848_c9c2",
+            "timestamp": "2026-08-03T12:58:48.674465+00:00",
+            "session_id": "",
+            "request_summary": "Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 0",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "angle-map-listening-engine-v4.1",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

@@ -1,7 +1,13 @@
 {
- "ts": "2026-08-02T06:48:32.198343",
+ "ts": "2026-08-03T06:00:08.530686",
  "mode": "report",
  "rows": [
+  {
+   "id": "stale_registries",
+   "cls": "AUTO",
+   "what": "SKILL_INDEX.md / AGENT_INDEX.md are behind the filesystem",
+   "fix": "python3 execution/sync_registries.py"
+  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -18,6 +24,18 @@
     "unmapped": [
      "pulse_dashboard.py",
      "voice_ratchet.py"
+    ]
+   }
+  },
+  {
+   "id": "dead_launchd",
+   "cls": "JUDGMENT",
+   "what": "1 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 4d ago (cadence allows 3d)",
+   "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
+   "detail": {
+    "not_loaded": [],
+    "stale": [
+     "com.antigravity.cos-notify: last ran 4d ago (cadence allows 3d)"
     ]
    }
   },
@@ -48,14 +66,19 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/operator-cockpit-v2",
+   "what": "organization drift: 1 dual taxonomy; 1 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/linkedin-launch, _active/operator-cockpit-v2",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
      {
+      "kind": "dual_taxonomy",
+      "project": "_active/linkedin-launch",
+      "detail": "05-* collision: 05-assets + 05-lead-gen"
+     },
+     {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 3d ago"
+      "detail": "stamped done, then touched 4d ago"
      }
     ],
     "deferred_files": 1
@@ -64,7 +87,7 @@
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 6d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 7d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
@@ -84,12 +107,6 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py"
-  },
-  {
-   "id": "verify_system.py",
-   "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 6d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {
    "id": "verify_system_control_plane.py",

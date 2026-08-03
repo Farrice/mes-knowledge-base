@@ -117,6 +117,10 @@
       "skill": "benjamin-hardy-identity"
     },
     {
+      "command": "/bilawal-sidhu",
+      "skill": "bilawal-sidhu"
+    },
+    {
       "command": "/bill-browder-high-stakes-narrative",
       "skill": "bill-browder-high-stakes-narrative"
     },
@@ -235,6 +239,10 @@
     {
       "command": "/creative-direction",
       "skill": "creative-direction"
+    },
+    {
+      "command": "/curious-refuge",
+      "skill": "curious-refuge"
     },
     {
       "command": "/dai-media-consumer-posture",
@@ -425,6 +433,10 @@
       "skill": "fareed-zakaria-writing-mastery"
     },
     {
+      "command": "/fashion-coupids",
+      "skill": "fashion-coupids"
+    },
+    {
       "command": "/fraser-cottrell-paid-ads",
       "skill": "fraser-cottrell-paid-ads"
     },
@@ -471,6 +483,10 @@
     {
       "command": "/grace-andrews-media-company",
       "skill": "grace-andrews-media-company"
+    },
+    {
+      "command": "/grace-liu",
+      "skill": "grace-liu"
     },
     {
       "command": "/greg-hickman-service-scaling",
@@ -883,6 +899,10 @@
     {
       "command": "/michael-margolis-user-research",
       "skill": "michael-margolis-user-research"
+    },
+    {
+      "command": "/mickmumpitz",
+      "skill": "mickmumpitz"
     },
     {
       "command": "/mike-foutia-marketing-tools",

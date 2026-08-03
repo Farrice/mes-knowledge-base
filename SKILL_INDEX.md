@@ -36,6 +36,7 @@
 | `banana-pro-director` | **banana-pro-director** | higgsfield image prompt director for banana pro, soul cinema, and gpt-2, (1) single-image character outfit — banana pro or soul cinema two-step, (3) cinematic scene plates with or without characters | 3 | 0 |
 | `ben-watkins-storytelling` | **Ben Watkins — Commercial Storytelling & The Pitch Room** | grounded in his 2026 anatomy of a dream interview, 18 workflows for the four pillars (attention → feel → teach → leave wanting), the 3 c's titanic stack | 18 | 0 |
 | `benjamin-hardy-identity` | **benjamin-hardy-identity** | 10x-is-easier-than-2x goal architecture, frame/floor/focus elimination, and operating from your future self instead of toward it | 3 | 0 |
+| `bilawal-sidhu` | **Bilawal Sidhu: 3D-Grounded Camera & Spatial Control** | the pre-generation spatial layer — greybox→reskin, camera as a drawn artifact instead of a typed hope, freeze-the-set continuity | 2 | 0 |
 | `bill-browder-high-stakes-narrative` | **Bill Browder — High-Stakes Narrative Nonfiction** | weaponized readability from the hedge-fund manager who turned depositions, preferred shares, and a murdered lawyer into international bestsellers (red notice | 13 | 0 |
 | `bitbranding-fashion-shopify` | **bitbranding-fashion-shopify** | christian pinyon (bitbranding) — fashion dtc shopify execution, free-tier-fluent, gap-honest, mobile-first, fashion shopify execution | 4 | 0 |
 | `bond-halbert-copywriting` | **Bond Halbert - Ultimate Copywriting Mastery** | for online-native dopamine-copy mechanics use stefan-georgi-dopamine-copy, for high-stakes financial promos use chris-cimorelli-copywriting, ultimate copywriting mastery | 4 | 26 |
@@ -69,6 +70,7 @@
 | `creative-assembly` | **creative-assembly** | creative production, multi-expert parallel production pipeline with structured handoffs and qualit... | 0 | 3 |
 | `creative-campaign-strategy` | **creative-campaign-strategy** | identity-first campaign architecture × drtv × customer-as-media engineering, billions sold in cooking appliances, architected gopro's $600k → $16m campaign in 2 years | 23 | 0 |
 | `creative-direction` | **creative-direction** | covers higgsfield, kittl, midjourney, and flux platforms | 0 | 0 |
+| `curious-refuge` | **Curious Refuge (Caleb Ward): AI Film Pre-Production** | the pre-production layer of ai filmmaking — reference-asset architecture, the shot-list floor, board-to-plate channel assignment | 3 | 0 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dakota-content-design` | **dakota-content-design** | 70k+ followers gained in 2025 and 20m+ views in 90 days from carousels alone, no reels, covers carousel-vs-reels algorithm arbitrage | 3 | 0 |
 | `damon-cart-nlp` | **damon-cart-nlp** | identity-level change without affirmations or willpower, nlp identity & persuasion engine | 3 | 0 |
@@ -118,6 +120,7 @@
 | `extract-mastery` | **MES 3.0 — Mastery Extraction & Expert Replication** | forges it into copy-paste-deployable crown jewel prompts, and designs the pathway to surpass the original expert within 30 days, mastery extraction & expert replication | 3 | 0 |
 | `fantastic-posters` | **fantastic-posters** | 0 + kling v3 pro, image-to-video bridge — any poster output becomes a video input frame | 14 | 0 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | for memoir / narrative-personal work use lamott-craft, writing mastery | 5 | 36 |
+| `fashion-coupids` | **fashion-coupids** | when generated frames look fine individually but don't read as one body of work, when a brief arrives as a mood and needs to become a concept, or before any generation spend on a lookbook or campaign | 2 | 0 |
 | `forge-os` | **forge-os** | the forge — cornerstone generation suite, model-dialect adaptive and platform-portable, extends the existing generators | 5 | 0 |
 | `fraser-cottrell-paid-ads` | **fraser-cottrell-paid-ads** | villain-vs-hero script architecture, and the 6-format static ad library, validated across ~$300-450m in managed meta spend and 8 | 3 | 0 |
 | `fresh-voice-system` | **Fresh Voice System** | combines voice dna (tone, comedy, rhythm) with serial storytelling architecture (arc design | 3 | 0 |
@@ -132,6 +135,7 @@
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** | combines 5 expert methodologies: lara acosta (voice extraction), mitch albom (character embodiment), erica mallet (voice crystallization) | 4 | 0 |
 | `gpt-image-2-director` | **gpt-image-2-director** | gpt image 2, 0 prompt director, converts plain-text concepts into production-ready prompts for gpt image 2 | 3 | 0 |
 | `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | content-driven brand architecture: city model transit strategy, trust pathway engineering, consistency × experimentation growth formula | 18 | 0 |
+| `grace-liu` | **Grace Liu: Direction Discipline (Taste Doctrine)** | a rubric other skills consume before they generate, not a workflow, direction discipline | 0 | 0 |
 | `greg-hickman-service-scaling` | **greg-hickman-service-scaling** | pre-sell a productized prototype at founder pricing, land the first 5 clients from warm pipeline via icp interviews, service provider scaling & productization | 3 | 0 |
 | `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | for personal-brand mechanics use seth-godin-brand, for cult/magnetism on a smaller scale use erica-mallet-brand-magnetism, brand mastery | 6 | 0 |
 | `growth-ecosystems` | **Growth Ecosystems — Vincent Hu** | info business scaling, offer architecture, growth ecosystems | 12 | 0 |
@@ -238,6 +242,7 @@
 | `michael-connelly-vivid-writing` | **Michael Connelly Vivid Writing** | momentum prose, character-through-everything, subtext dialogue | 16 | 0 |
 | `michael-israetel-hypertrophy` | **michael-israetel-hypertrophy** | mike israetel / renaissance periodization hypertrophy science — needs analysis, volume landmarks (mev/mav/mrv), mesocycle + deload design | 3 | 0 |
 | `michael-margolis-user-research` | **michael-margolis-user-research** | michael margolis's (ux research partner, then validate with 5 interviews, 3 comparison prototypes | 3 | 0 |
+| `mickmumpitz` | **Mickmumpitz: Deterministic Character & Shot Control** | determinism over prompting — the character-dataset method, camera blocking before generation, and the four building blocks of a controlled shot | 3 | 0 |
 | `mike-foutia-marketing-tools` | **Mike Foutia — Marketing Tools** | social, reviews, marketplaces) into deployable ad briefs and internal tool blueprints | 3 | 9 |
 | `mike-sherrard-realtor-branding` | **mike-sherrard-realtor-branding** | hormozi's brand framework applied to realtors, the four content mistakes that produce zero leads, hvc content structure | 3 | 0 |
 | `mike-taylor-synthetic-research` | **Mike Taylor — Synthetic Customer Research OS** | 17 genius patterns, 7 workflows across 3 tiers, co-author, o'reilly's prompt engineering for generative ai, co-founder, ask rally (synthetic-audience simulator) | 7 | 0 |
