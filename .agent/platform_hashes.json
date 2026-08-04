@@ -1,9 +1,9 @@
 {
-  "blessed_at": "2026-07-28T14:44:32",
+  "blessed_at": "2026-08-04T08:09:21",
   "hashes": {
-    "CLAUDE.md": "c3d7b3cbdc8c6538e93493e9b813120c0fb568ef6f99042c60ca37e04dc72dc3",
+    "CLAUDE.md": "aa4109e7ec67fc805c1fc183bd439f43554e7489981f6fdedd01a6d29ee088e0",
     "GEMINI.md": "8af28a9db4657024d3e1f977f9695bf43943023a7357bd7884fb2881ca2ce1db",
-    "AGENTS.md": "9abe46f0c196200b52d878e5d446c16773fd179320565f8953fe91430643f989",
+    "AGENTS.md": "b597dbdc1f83cf1fc9d8c05d07e8ad4303fe187731bef9926c74cbf762697cdd",
     ".agent/rules/constitution.md": "39ea8fa8390a624852a0fad13869a05121aaf2063bb6af3adc2a227b44b2cab9",
     ".gemini/settings.json": "2a50424c901f7fe1a0947d3fff4e51ff204d52b99cb386805ab4d3e87ff4ec51",
     ".codex/config.toml": "b6a0cccc1f9fb9c10f4069dd56d5a8dba292529fed73eac6ac51890c35fb6c4e"

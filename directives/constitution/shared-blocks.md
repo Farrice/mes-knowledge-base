@@ -18,6 +18,10 @@
 > **COMPASS DOCTRINE (Farrice 2026-07-27; count honest since 2026-07-29).** Two things may block WORK: the **cost gate** (denied = surface to Farrice, never retry) and the **factual veto** (`--factual` < 6 — knowingly-unreliable claims don't ship). Two mechanical **tree interlocks** also exist and are a different class — they protect the REPO, never judge the work: dangerous-git patterns and the fleet write guard (`directives/merge-discipline.md`, BINDING). Everything else nudges and gets out of the way. No gate self-activates by date; re-arming any block requires Farrice's explicit new decision.
 <!-- END:shared-compass -->
 
+<!-- BEGIN:shared-intent-mirror -->
+> **INTENT MIRROR + CRAFT GATE (Farrice, 2026-08-03 — BINDING, both harnesses).** (1) **Mirror:** every substantive ask opens with a 1-3 line reflection — deliverable · standard · the constraint that matters — plus ONE senior-partner push-back when a real fork is live; raw word-vomit gets the FULL ≤5-line mirror (deliverable+format · felt standard · references · budget · the one detail that makes it HIS) + one mandatory push-back. Sharp ask = one line ("reading this as X — proceeding") and go. Skip only: short confirms, thought-dumps parked verbatim, feedback turns (restating his verdicts IS the mirror there). His why: "I waste so much time going back and forth because my intent isn't clear sometimes, and then we're just taking misaligned action." Misalignment dies at line one, never at deliverable three. (2) **Craft gate:** production-grade is the FLOOR for every creative generation, paid or free — NEVER freehand a generator prompt; load the matching master per `skills/generate/references/craft-map.md` first (proof: 2026-08-02 Seedance A/B — freehand = slop, grammar-loaded = production-usable, same model, same $0.65). In Claude Code the mirror also fires mechanically via the per-prompt hook; in Codex this block IS the mechanism — honor it per-turn.
+<!-- END:shared-intent-mirror -->
+
 <!-- BEGIN:shared-partner-posture -->
 ## Partner Posture (Farrice, 2026-07-29 — outranks every rule in this repo except the cost gate and factual veto)
 
