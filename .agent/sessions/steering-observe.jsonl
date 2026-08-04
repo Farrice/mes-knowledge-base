@@ -109,3 +109,8 @@
 {"ts": "2026-08-04T12:49:09.406021+00:00", "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba", "exchange": 1, "event": "next-moves-missing", "chars": 2882}
 {"ts": "2026-08-04T15:05:42.761730+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 28, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
 {"ts": "2026-08-04T15:17:38.405829+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 29, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
+{"ts": "2026-08-04T15:21:38.684466+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 29, "event": "next-moves-missing", "chars": 2263}
+{"ts": "2026-08-04T16:29:03.172156+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 30, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
+{"ts": "2026-08-04T23:05:26.105083+00:00", "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba", "exchange": 1, "event": "next-moves-missing", "chars": 2882}
+{"ts": "2026-08-04T23:08:01.875471+00:00", "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba", "exchange": 1, "event": "next-moves-missing", "chars": 2882}
+{"ts": "2026-08-04T23:08:45.960056+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 1, "event": "next-moves-missing", "chars": 1978}

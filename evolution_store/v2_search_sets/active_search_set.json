@@ -3399,8 +3399,64 @@
         "gaming_flag": false
       },
       "notes": "Retried weakest intent-alignment dimension by naming all three requested outcomes and both games; current web evidence, pricing, user pain, legal constraints, and staged build plan included | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260804_101435",
+      "timestamp": "2026-08-04T10:14:35.663925",
+      "schema_version": "v3",
+      "component": "system-audit",
+      "expert": "system-audit",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Installed the judgment principles globally while preserving adaptive workflow depth; explicit raw-intent invocation is now optional. Added a gacha-companion preservation fixture and fixed unknown routing-feedback values. | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260804_101447",
+      "timestamp": "2026-08-04T10:14:47.489648",
+      "schema_version": "v3",
+      "component": "system-audit",
+      "expert": "system-audit",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 6.0,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Directly implements the user's global Codex-native default request. Tiny asks remain light; meaningful asks automatically mirror intent, challenge a live premise, expose evidence and proof states, resolve conflicts, and end with a verdict. | platform: codex | Verification: PASS"
     }
   ],
-  "total_cases": 120,
-  "last_updated": "2026-08-04T08:14:56.934370"
+  "total_cases": 122,
+  "last_updated": "2026-08-04T10:14:47.490786"
 }

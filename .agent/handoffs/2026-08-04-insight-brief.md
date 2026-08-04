@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** insight-brief  
-**Full path:** .agent/handoffs/2026-08-04-insight-brief.md  
-**Date:** 2026-08-04 (today)  
-**Status:** active  
-**Title:** Angle Map Listening Engine — v4.1 Content Factory Build (fusion + vault + two-ring dossier)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume insight-brief` for this one.
-
----
-
 ---
 thread: insight-brief
 status: active
@@ -65,4 +53,3 @@ Resume the insight-brief thread. First verify the Angle Map Listening Engine's s
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-07-31-insight-brief.md` — everything it lists as shipped is EXTEND-ONLY.
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

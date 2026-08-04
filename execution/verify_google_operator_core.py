@@ -456,6 +456,12 @@ def check_global_execution_bias_bridge() -> None:
         fail(f"global execution-bias bridge verifier failed: {proc.stdout or proc.stderr}")
 
 
+def check_global_adaptive_judgment_floor() -> None:
+    proc = run([sys.executable, "execution/verify_global_adaptive_judgment_floor.py"])
+    if proc.returncode != 0:
+        fail(f"global adaptive-judgment verifier failed: {proc.stdout or proc.stderr}")
+
+
 def check_steering_compass_quality() -> None:
     proc = run([sys.executable, "execution/verify_steering_compass_quality.py"])
     if proc.returncode != 0:
@@ -484,6 +490,7 @@ def main() -> int:
         ("run_receipt", check_run_receipt),
         ("subagent_approval_language", check_subagent_approval_language),
         ("global_execution_bias_bridge", check_global_execution_bias_bridge),
+        ("global_adaptive_judgment_floor", check_global_adaptive_judgment_floor),
         ("steering_compass_quality", check_steering_compass_quality),
         ("global_steering_persistence", check_global_steering_persistence),
     ]

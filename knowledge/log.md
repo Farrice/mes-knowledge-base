@@ -668,3 +668,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-03 16:08]` **lint** | Lint scan — 69 issues (45 errors, 12 warnings) — Files scanned: 782
 - `[2026-08-04 08:14]` **finalize** | Gacha companion market validation, narrow paid wedge, rights boundary, and one-game MVP architecture | general | samuel-thompson — composite:6.67 status:Needs Improvement
 - `[2026-08-04 08:14]` **finalize** | Research report answering whether roster-aware casual-player gacha companions already exist, how to  | general | samuel-thompson — composite:6.0 status:Needs Improvement
+- `[2026-08-04 10:14]` **finalize** | Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing teleme | strategy | system-audit — composite:6.67 status:Needs Improvement
+- `[2026-08-04 10:14]` **finalize** | Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native | strategy | system-audit — composite:6.0 status:Needs Improvement
+- `[2026-08-04 11:25]` **finalize** | One-game gacha roster decision product profitability red-team, cost model, and protected validation  | general | rory-sutherland — composite:7.0 status:Needs Improvement
+- `[2026-08-04 11:25]` **finalize** | Hardened one-game gacha decision product investment memo with break-even subscriber thresholds, foun | general | rory-sutherland — composite:7.9 status:Keep

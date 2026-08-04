@@ -449,31 +449,31 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 57,
-            "total_feedback": 3,
+            "total_routings": 76,
+            "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "sean-dollwet-kdp-publishing": 6,
+                "sean-dollwet-kdp-publishing": 7,
                 "Research": 4,
                 "fresh-voice-system": 4,
                 "Content": 5,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 3,
-                "supercomputer": 4,
+                "System": 5,
+                "supercomputer": 5,
                 "Creative": 1,
-                "Strategy": 2,
-                "luke-iha-copy-blocks": 1,
+                "Strategy": 4,
+                "luke-iha-copy-blocks": 4,
                 "adam-sandler-second-brain-gtm": 1,
                 "jen-santulan-listing-content": 4,
                 "joey-cinema-os": 2,
                 "creative-direction": 1,
                 "kallaway-illusion-of-novelty": 3,
                 "satori-graphics": 1,
-                "ben-watkins-storytelling": 2,
+                "ben-watkins-storytelling": 4,
                 "gemini-api-dev": 1,
                 "jason-fladlien-marketing": 1,
                 "nicolas-cole-digital-products": 1,
@@ -483,12 +483,20 @@
                 "wordsatscale-seo-ranking": 1,
                 "alex-myatt-creative-engine": 1,
                 "mcp-builder": 1,
-                "stefan-georgi-dopamine-copy": 1
+                "stefan-georgi-dopamine-copy": 1,
+                "luke-iha-vsl-leads": 1,
+                "ali-abdaal-action-bias": 1,
+                "lamott-allen-really-real-writing": 1,
+                "gpt-image-2-director": 1,
+                "creative-campaign-strategy": 1,
+                "briar-cochran-content-science": 1,
+                "sweat-equity-speedrun-social-os": 1,
+                "design-md": 1
             },
             "expert_counts": {
-                "meg-heckman-buyer-trigger-os": 1,
+                "meg-heckman-buyer-trigger-os": 2,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 6,
+                "sean-dollwet-kdp-publishing": 7,
                 "oren-operational-systems": 2,
                 "fresh-voice-system": 4,
                 "luke-iha-creative-strategy": 4,
@@ -496,19 +504,19 @@
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
-                "supercomputer": 4,
-                "doc-coauthoring": 4,
-                "luke-iha-copy-blocks": 1,
+                "supercomputer": 5,
+                "doc-coauthoring": 5,
+                "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
                 "health-performance-angle-map-listening-engine": 2,
                 "jen-santulan-listing-content": 4,
                 "joey-cinema-os": 2,
-                "ben-watkins-storytelling": 4,
+                "ben-watkins-storytelling": 6,
                 "RoboNuggets source-to-skill": 1,
                 "creative-direction": 1,
                 "hilary-gridley": 1,
-                "kallaway-illusion-of-novelty": 3,
+                "kallaway-illusion-of-novelty": 4,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1,
@@ -528,10 +536,24 @@
                 "fantastic-posters": 1,
                 "samuel-thompson": 2,
                 "stefan-georgi-dopamine-copy": 1,
-                "creative-campaign-strategy": 1
+                "creative-campaign-strategy": 3,
+                "luke-iha-vsl-leads": 1,
+                "lamott-allen-really-real-writing": 2,
+                "ali-abdaal-action-bias": 1,
+                "chase-hughes-context-engineering": 1,
+                "luke-iha-vicious-hooks": 3,
+                "gpt-image-2-director": 1,
+                "fraser-cottrell-paid-ads": 1,
+                "system-audit": 2,
+                "justin-welsh-solopreneur": 1,
+                "briar-cochran-content-science": 1,
+                "nick-st-pierre": 1,
+                "rory-sutherland": 2,
+                "sweat-equity-speedrun-social-os": 1,
+                "design-md": 1
             },
             "tier_counts": {
-                "0": 57,
+                "0": 76,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -539,11 +561,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 41,
-                "finalize-auto": 16
+                "hybrid": 56,
+                "finalize-auto": 20
             },
-            "ensemble_count": 23,
-            "auto_miss_count": 3
+            "ensemble_count": 35,
+            "auto_miss_count": 4
         }
     },
     "feedback_log": [
@@ -573,6 +595,15 @@
             "rating": "auto_miss",
             "correction": "dave-clark",
             "notes": "expert skill 'dave-clark' loaded not matching suggestion ['ben-watkins-storytelling']"
+        },
+        {
+            "feedback_id": "fb_20260804_230525_1e85",
+            "timestamp": "2026-08-04T23:05:25.437389+00:00",
+            "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba",
+            "routing_id": "rt_20260804_230232_3d5b",
+            "rating": "auto_miss",
+            "correction": "ghostwriting-voice-engine",
+            "notes": "expert skill 'ghostwriting-voice-engine' loaded not matching suggestion ['supercomputer', 'doc-coauthoring']"
         }
     ],
     "routing_decisions": [
@@ -1564,6 +1595,341 @@
             "ensemble": true,
             "compound_pairing": "stefan-georgi-dopamine-copy + creative-campaign-strategy",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_161431_7731",
+            "timestamp": "2026-08-04T16:14:31.119703+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "I wanna see a real content pass and packet for, let's say, if I was gonna do this LinkedIn proof to market for my current offer. I want to see what this content could actually do, or even with a paral",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-vsl-leads",
+            "experts_deployed": [
+                "luke-iha-vsl-leads",
+                "lamott-allen-really-real-writing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-vsl-leads",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-vsl-leads + lamott-allen-really-real-writing",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_164528_e957",
+            "timestamp": "2026-08-04T16:45:28.906234+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "I think your insight that you just gave me right here about the missing ingredient is so rich and so accurate, but how do we manufacture that in all the content that we do or things moving forward? Ho",
+            "intent_score": 0,
+            "domain_detected": "ali-abdaal-action-bias",
+            "experts_deployed": [
+                "ali-abdaal-action-bias",
+                "creative-campaign-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ali-abdaal-action-bias",
+            "ensemble": true,
+            "compound_pairing": "ali-abdaal-action-bias + creative-campaign-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_164723_e1e5",
+            "timestamp": "2026-08-04T16:47:23.848842+00:00",
+            "session_id": "019fcd4b-f24f-7110-99b8-2e37f6a974cf",
+            "request_summary": "Amazing work thank you! run /aar In addition, can we make how you achieve this output, or the thought process, judgment, and everything you did, a part of the default behavior, because I keep using th",
+            "intent_score": 0,
+            "domain_detected": "lamott-allen-really-real-writing",
+            "experts_deployed": [
+                "lamott-allen-really-real-writing",
+                "chase-hughes-context-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "lamott-allen-really-real-writing",
+            "ensemble": true,
+            "compound_pairing": "lamott-allen-really-real-writing + chase-hughes-context-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_165018_5346",
+            "timestamp": "2026-08-04T16:50:18.157469+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_170328_941d",
+            "timestamp": "2026-08-04T17:03:28.319326+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_170333_3741",
+            "timestamp": "2026-08-04T17:03:33.275971+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_171435_123c",
+            "timestamp": "2026-08-04T17:14:35.661768+00:00",
+            "session_id": "",
+            "request_summary": "Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_171447_68fb",
+            "timestamp": "2026-08-04T17:14:47.488137+00:00",
+            "session_id": "",
+            "request_summary": "Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptiv",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_181140_e58f",
+            "timestamp": "2026-08-04T18:11:40.930204+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_181319_c79d",
+            "timestamp": "2026-08-04T18:13:19.191729+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "Run Reality Before Rhetoric on FP-001. Search the existing source, then interview me one question at a time for the real transition between ‘just fitness’ and publishing Parallax.",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing",
+                "justin-welsh-solopreneur"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": true,
+            "compound_pairing": "sean-dollwet-kdp-publishing + justin-welsh-solopreneur",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_181544_4170",
+            "timestamp": "2026-08-04T18:15:44.746380+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "Approve a scoped workspace-local integration of Reality Before Rhetoric into the Co-Creative Launchpad, High-Taste Writing OS, Farrice Content OS, and Dhar source-missing route. Build the Agentic Engi",
+            "intent_score": 0,
+            "domain_detected": "creative-campaign-strategy",
+            "experts_deployed": [
+                "creative-campaign-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-campaign-strategy",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_181627_7385",
+            "timestamp": "2026-08-04T18:16:27.322013+00:00",
+            "session_id": "019fcd4b-f24f-7110-99b8-2e37f6a974cf",
+            "request_summary": "I want to focus back on this gotcha build concept that I'm thinking about here. What, in your opinion, is the realistic red teaming of profitability and worth actually building out and maintaining, an",
+            "intent_score": 0,
+            "domain_detected": "briar-cochran-content-science",
+            "experts_deployed": [
+                "briar-cochran-content-science",
+                "nick-st-pierre"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "briar-cochran-content-science",
+            "ensemble": true,
+            "compound_pairing": "briar-cochran-content-science + nick-st-pierre",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_182539_4b49",
+            "timestamp": "2026-08-04T18:25:39.366314+00:00",
+            "session_id": "",
+            "request_summary": "One-game gacha roster decision product profitability red-team, cost model, and protected validation experiment",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "rory-sutherland"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "asymmetric-bet-evaluator",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_182554_6ec8",
+            "timestamp": "2026-08-04T18:25:54.065723+00:00",
+            "session_id": "",
+            "request_summary": "Hardened one-game gacha decision product investment memo with break-even subscriber thresholds, founder-trust constraint, IP gate, workload model, and payment-based kill/scale criteria",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "rory-sutherland"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "asymmetric-bet-evaluator",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_193552_c20b",
+            "timestamp": "2026-08-04T19:35:52.701529+00:00",
+            "session_id": "019fcdba-3393-7cf0-82fa-4f02aec5b583",
+            "request_summary": "approve and execute plan",
+            "intent_score": 0,
+            "domain_detected": "sweat-equity-speedrun-social-os",
+            "experts_deployed": [
+                "sweat-equity-speedrun-social-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sweat-equity-speedrun-social-os",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_211144_7d2c",
+            "timestamp": "2026-08-04T21:11:44.915333+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "In your opinion, how would you have gone about this last output request that I gave you? Did this do something where we did too much overbuilding and made this too restrictive, or how would you have d",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + kallaway-illusion-of-novelty",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_213721_b857",
+            "timestamp": "2026-08-04T21:37:21.971080+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "Audit the current Reality Before Rhetoric integration and design a minimal shadow-mode patch. Preserve truth, proof, privacy, and permission vetoes. Remove blanket activation, whole-artifact blocking,",
+            "intent_score": 0,
+            "domain_detected": "ben-watkins-storytelling",
+            "experts_deployed": [
+                "ben-watkins-storytelling",
+                "meg-heckman-buyer-trigger-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ben-watkins-storytelling",
+            "ensemble": true,
+            "compound_pairing": "ben-watkins-storytelling + meg-heckman-buyer-trigger-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_220155_f927",
+            "timestamp": "2026-08-04T22:01:55.872237+00:00",
+            "session_id": "019fb4de-7661-7ad2-b3c8-c27625631c1a",
+            "request_summary": "If there is a way to take the insight and go back to the system being were it was when we finished the extraction would be great. I honestly done think it would be worth it sacrificing the system's ca",
+            "intent_score": 0,
+            "domain_detected": "ben-watkins-storytelling",
+            "experts_deployed": [
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ben-watkins-storytelling",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_230232_3d5b",
+            "timestamp": "2026-08-04T23:02:32.370038+00:00",
+            "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": "fb_20260804_230525_1e85"
         }
     ]
 }

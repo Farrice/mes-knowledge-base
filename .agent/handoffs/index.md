@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-04** [insight-brief/active] [Angle Map Listening Engine — v4.1 Content Factory Build (fusion + vault + two-ring dossier)](2026-08-04-insight-brief.md) — Verify 05:30 listening runs landed since 08-01 (listening-run.log), then week-2 POV batch from the vault
 - **2026-08-04** [creative-generation-os/done] [Creative Generation OS — CLOSED (Fresh named; OS complete; guide shipped)](2026-08-04-creative-generation-os.md) — Start from guides/CREATIVE-OS-USER-GUIDE.md — the OS is live
 - **2026-08-04** [gacha-companion-market-validation-aar/active] [AAR — Casual Gacha Copilot Market Validation](2026-08-04-gacha-companion-market-validation-aar.md) — Transform a raw idea for a multi-game gacha companion into a grounded market,
 - **2026-08-04** [farrice-brand/active] [Farrice Brand — Eleven Day Sentence Script](2026-08-04-farrice-brand.md) — Farrice Brand — Eleven Day Sentence Script
