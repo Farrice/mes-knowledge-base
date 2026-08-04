@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 52,
+            "total_routings": 57,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
@@ -457,8 +457,8 @@
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "sean-dollwet-kdp-publishing": 6,
-                "Research": 2,
-                "fresh-voice-system": 3,
+                "Research": 4,
+                "fresh-voice-system": 4,
                 "Content": 5,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
@@ -481,15 +481,17 @@
                 "omar-eltakrori": 1,
                 "story-bible-builder": 1,
                 "wordsatscale-seo-ranking": 1,
-                "alex-myatt-creative-engine": 1
+                "alex-myatt-creative-engine": 1,
+                "mcp-builder": 1,
+                "stefan-georgi-dopamine-copy": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 6,
                 "oren-operational-systems": 2,
-                "fresh-voice-system": 3,
-                "luke-iha-creative-strategy": 3,
+                "fresh-voice-system": 4,
+                "luke-iha-creative-strategy": 4,
                 "Oren Operational Systems": 2,
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
@@ -521,10 +523,15 @@
                 "wordsatscale-seo-ranking": 1,
                 "growth-ecosystems": 1,
                 "alex-myatt-creative-engine": 1,
-                "coaching-business-os": 1
+                "coaching-business-os": 1,
+                "mcp-builder": 1,
+                "fantastic-posters": 1,
+                "samuel-thompson": 2,
+                "stefan-georgi-dopamine-copy": 1,
+                "creative-campaign-strategy": 1
             },
             "tier_counts": {
-                "0": 52,
+                "0": 57,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -532,10 +539,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 38,
-                "finalize-auto": 14
+                "hybrid": 41,
+                "finalize-auto": 16
             },
-            "ensemble_count": 18,
+            "ensemble_count": 23,
             "auto_miss_count": 3
         }
     },
@@ -1468,6 +1475,94 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_133102_d730",
+            "timestamp": "2026-08-04T13:31:02.450875+00:00",
+            "session_id": "019fccf8-5e5d-7670-8161-f5f1b69d7f6c",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: 2026-",
+            "intent_score": 0,
+            "domain_detected": "fresh-voice-system",
+            "experts_deployed": [
+                "fresh-voice-system",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fresh-voice-system",
+            "ensemble": true,
+            "compound_pairing": "fresh-voice-system + luke-iha-creative-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_150543_705b",
+            "timestamp": "2026-08-04T15:05:43.248597+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "can you send me the link again to this so I can see everything? Also, can we make sure that the slash command shows up in the menu that we build here so that I could view the stuff that we build here ",
+            "intent_score": 0,
+            "domain_detected": "mcp-builder",
+            "experts_deployed": [
+                "mcp-builder",
+                "fantastic-posters"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "mcp-builder",
+            "ensemble": true,
+            "compound_pairing": "mcp-builder + fantastic-posters",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_151444_5d12",
+            "timestamp": "2026-08-04T15:14:44.679768+00:00",
+            "session_id": "",
+            "request_summary": "Gacha companion market validation, narrow paid wedge, rights boundary, and one-game MVP architecture",
+            "intent_score": 4,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "samuel-thompson"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "shadow-market-validation-report",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_151456_2c3d",
+            "timestamp": "2026-08-04T15:14:56.931329+00:00",
+            "session_id": "",
+            "request_summary": "Research report answering whether roster-aware casual-player gacha companions already exist, how to sell one, and how to build a one-game MVP for BLEACH Soul Resonance and Grand Summoners",
+            "intent_score": 4,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "samuel-thompson"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "shadow-market-validation-report",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_151739_fb1a",
+            "timestamp": "2026-08-04T15:17:39.019391+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "can you run the end session now to close this out and commit and push? The other thing is, can you give me a user's guide on everything that we built just here so I can know how to use it moving forwa",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "creative-campaign-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + creative-campaign-strategy",
             "feedback": null
         }
     ]

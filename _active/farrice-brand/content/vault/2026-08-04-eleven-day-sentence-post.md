@@ -12,7 +12,7 @@ source_brief: _active/health-performance-ip-library/daily/2026-08-04-angle-map-l
 
 Two hours before launch, someone finally watched the videos the way a regulator would.
 
-An agency operator told the story on Reddit in June. Twelve creators, three SKUs, six weeks of production for a supplement client. Ads scheduled. Then the compliance pass flagged one video: a fitness creator with 180K followers said the collagen "heals inflammation and supports joint repair."
+An agency operator told the story on Reddit in June. Twelve creators, three SKUs, six weeks of production for a supplement client. Ads scheduled. Then the compliance pass flagged one video: a fitness creator with 180K followers made a prohibited joint-benefit claim the brand had never taught her to avoid.
 
 Nine words. The campaign went dark for eleven days.
 
@@ -22,7 +22,7 @@ Four pages on how to sound. Nothing on the line that turns the campaign off.
 
 Most supplement teams run claim safety as a review. Legal reads the content after it exists, at the end of the pipeline, where the only options left are approve or kill.
 
-So the knowledge that separates "supports joint health" from "heals joint pain" stays in a room the creators never enter. And under the FTC's endorsement guides, the brand can be held liable for what its endorsers claim either way, scripted or not.
+So the knowledge that separates structure-function language from disease-claim language stays in a room the creators never enter. And under the FTC's endorsement guides, the brand can be held liable for what its endorsers claim either way, scripted or not.
 
 The fix costs one paragraph. Put the claim boundary in the brief, next to the hook, in the creator's language, with example sentences that cross it.
 

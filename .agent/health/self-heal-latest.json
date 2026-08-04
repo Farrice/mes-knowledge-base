@@ -1,14 +1,7 @@
 {
- "ts": "2026-08-04T05:49:12.116143",
+ "ts": "2026-08-04T08:19:43.022769",
  "mode": "heal",
  "rows": [
-  {
-   "id": "platform_drift",
-   "cls": "JUDGMENT",
-   "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
-   "fix": "python3 execution/platform_compiler.py sync   # review the diff first",
-   "action": "escalated"
-  },
   {
    "id": "dead_hooks",
    "cls": "JUDGMENT",
@@ -76,7 +69,7 @@
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 4d ago"
+      "detail": "stamped done, then touched 5d ago"
      }
     ],
     "deferred_files": 1

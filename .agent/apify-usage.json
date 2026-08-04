@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.257,
+  "spent_dollars": 0.377,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -152,6 +152,27 @@
       "cost": 0.014,
       "pricing_model": "per_result",
       "note": "direct-API async \u2014 comments pull: CoQ10 thread + UGC-claim thread"
+    },
+    {
+      "ts": "2026-08-04T13:10:14.992756+00:00",
+      "actor": "sc-tiktok",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-04T13:10:25.580213+00:00",
+      "actor": "sc-tiktok",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-04T13:10:35.398459+00:00",
+      "actor": "sc-tiktok",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
     }
   ],
   "pulse_budget_dollars": 5.0,

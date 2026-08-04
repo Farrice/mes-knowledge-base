@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-08-03 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-08-04 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 
@@ -8,9 +8,9 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-03 | active |
-| `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-03 | active* |
-| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-03 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-04 | active |
+| `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-04 | active* |
+| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-04 | active* |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
 | `positioning-cowork-2026-07-25` | _active/ | `_active/positioning-cowork-2026-07-25/INDEX.md` | 2026-07-28 | active* |
 | `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-07-28 | active |
@@ -82,5 +82,5 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 Contradictions only — not a list of unstamped projects.
 
 - **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
-- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 4d ago
+- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 5d ago
 

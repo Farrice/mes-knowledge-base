@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T06:00:05.872102",
+  "timestamp": "2026-08-04T06:00:05.894509",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (56 projects, 2 drift items)"
@@ -12,7 +12,6 @@
     "exit": 0,
     "findings": 12,
     "ids": [
-      "stale_registries",
       "platform_drift",
       "dead_hooks",
       "dead_launchd",
@@ -22,6 +21,7 @@
       "verify_contextual_next_prompts.py",
       "verify_global_steering_closeout.py",
       "verify_steering_compass.py",
+      "verify_system.py",
       "verify_system_control_plane.py",
       "fleet_timeouts"
     ]
@@ -31,7 +31,7 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 33,
+    "new": 0,
     "coverage": "3593/3593",
     "orphans_total": 10,
     "flips": [],

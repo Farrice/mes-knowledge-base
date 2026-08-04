@@ -14,10 +14,10 @@ source_brief: _active/health-performance-ip-library/daily/2026-08-04-angle-map-l
 "One sentence turned a supplement campaign off for eleven days."
 
 **[0:03-0:12] Context, fast:**
-"Twelve creators. Three products. Six weeks of filming. Two hours before the ads went live, a compliance check flagged one video. The creator said the collagen heals inflammation and repairs joints."
+"Twelve creators. Three products. Six weeks of filming. Two hours before the ads went live, a compliance check flagged one video. The creator made a prohibited joint-benefit claim the brand had never taught her to avoid."
 
 **[0:12-0:20] The trap:**
-"That sounds like every fitness video you have ever scrolled past. On a supplement ad, it reads as a drug claim. Heals and repairs are medicine words. Supplements get supports."
+"That sounds like every fitness video you have ever scrolled past. On a supplement ad, it reads as a drug-style claim. Certain benefit words belong to medicine, not supplement ads. Supplements get support language."
 
 **[0:20-0:33] The autopsy (open loop pays off):**
 "The operator who ran it did the autopsy in public. The creator brief was four pages long. Tone, style, shot list. It never said what she could not claim. Not one example. She never had a chance to catch it."

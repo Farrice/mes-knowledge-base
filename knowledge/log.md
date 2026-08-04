@@ -666,3 +666,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-03 05:58]` **finalize** | Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — | general | oren-operational-systems — composite:6.67 status:Needs Improvement
 - `[2026-08-03 06:34]` **finalize** | 2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local b | general | Health Performance Angle Map Listening Engine — composite:6.67 status:Needs Improvement
 - `[2026-08-03 16:08]` **lint** | Lint scan — 69 issues (45 errors, 12 warnings) — Files scanned: 782
+- `[2026-08-04 08:14]` **finalize** | Gacha companion market validation, narrow paid wedge, rights boundary, and one-game MVP architecture | general | samuel-thompson — composite:6.67 status:Needs Improvement
+- `[2026-08-04 08:14]` **finalize** | Research report answering whether roster-aware casual-player gacha companions already exist, how to  | general | samuel-thompson — composite:6.0 status:Needs Improvement

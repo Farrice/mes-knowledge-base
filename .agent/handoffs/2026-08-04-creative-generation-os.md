@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** creative-generation-os  
-**Full path:** .agent/handoffs/2026-08-04-creative-generation-os.md  
-**Date:** 2026-08-04 (today)  
-**Status:** done  
-**Title:** Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume creative-generation-os` for this one.
-
----
-
 ---
 thread: creative-generation-os
 status: done
@@ -53,4 +41,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-08-02-creative-generation-os.md` — everything it lists as shipped is EXTEND-ONLY.
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

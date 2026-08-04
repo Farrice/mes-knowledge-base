@@ -9,19 +9,19 @@
 - **Social listening lane:** LIVE. Apify reddit actor via the direct-API workaround (CLI 400s persist): 3 runs, 24 real items, $0.024 today, month $0.257 of $29.00. Four threads read closely with verbatim and URLs.
 - **Market Intelligence Read:**
   - Pressing today: creator-led content is now the default supplement growth channel, and the claim boundary that decides whether that content is legal lives in a legal-review step the creators never see. An operator's public post-mortem showed the exact mechanism: a 12-creator campaign went dark for 11 days over nine words in one video.
-  - Avatar pain underneath: the founder pays for creator content twice - once to make it, once when a sentence he never scripted turns the campaign off. Under the FTC's endorsement guides the brand owns the creator's sentence either way.
+  - Avatar pressure underneath: the founder pays for creator content twice - once to make it, once when a sentence he never scripted turns the campaign off. Under the FTC's endorsement guides the brand owns the creator's sentence either way.
   - Category pattern Farrice can name: briefs specify tone, aesthetics, and shot lists in detail while the one sentence that can kill the campaign is nowhere in them. Claim discipline is run as a gate at the end of the pipeline instead of a decision at the top.
   - Service opportunity: the Angle Map ships an editorial claim-safety line with every angle. That line, written in creator language, is precisely the artifact the four-page brief was missing.
   - Non-obvious insight: the claim boundary is a creative input, not a legal output. What the product can prove decides what a creator can say, and what a creator can say IS the angle. Teams that treat the boundary as review-stage trivia are making the angle decision by accident.
 - **Winning angle:** the claim your brief never translated - *claim safety decided at the brief, not at the gate.* Beat 11 other candidates (scan in §2 context) because it carries operator verbatim with a visible scene, lands on a live ICP trigger for today's deep focus, and connects to the offer's own deliverable without a seam.
 - **Repetition defense:** claims territory appeared 08-02 (evidence-resolution: what the literature supports), so the -2 penalty was applied. Today's mechanism is different end-to-end: 08-02 was about the claims review's evidence search failing; today is about an approved boundary never surviving translation into the creator brief - a production-architecture failure with its own scene, cost line (dead traffic days), and fix. Even at -2 it outscored the field; the two runners-up (discount-identity drift, kill-the-campaign economics) both sit inside 08-03's acquisition-economics motif and were penalized harder. Creatine remains SATURATED and appears nowhere. GLP-1: 0 of 12 candidates; not selected.
 - **Source posture:** VERIFIED (operator's own public account of the UGC flag with URL; FTC endorsement guides June 2023 revision and advertiser liability, ftc.gov; CoQ10 buyer verbatim read this run, same-day, URLs) · LIKELY (Dietary Supplement Listing Act reintroduction, trade press; NPA/Sabinsa people moves, trade press summary) · UNCONFIRMED (none used in copy).
-- **Google Drive export:** EXPORTED to the approved folder (`11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`) via gws native conversion: [2026-08-04 — Angle Map Listening Brief](https://docs.google.com/document/d/1dIcDZRULU6Uk2Yzn-vzhDFZ92Xx9qku3d87FY-I8Tjg/edit) (parent folder verified post-write).
+- **Google Drive export:** DISABLED for this Codex automation pass per Farrice's explicit current-run instruction ("keep Google Drive export disabled unless Farrice explicitly approves it in a later request"). No Google Doc, upload, or connector write was attempted in this pass. A same-day earlier local run appears to have created a Drive mirror before this instruction; the local brief remains authoritative here.
 - **One open risk:** the anchor story is a single operator's account, posted 2026-06-23, six weeks old. The assets tell it AS a dated, credited story, never as a fresh event or a category statistic, and the date honesty is kept in the copy ("told the story on Reddit in June").
 
 ## 1. The Pick
 
-Two hours before a supplement campaign went live, a compliance pass caught one video: a hired fitness creator saying the collagen "heals inflammation and supports joint repair." Nine words, a disease claim, and eleven days of dead traffic. Today's angle: **the claim boundary is a creative input, and most teams file it as legal review.**
+Two hours before a supplement campaign went live, a compliance pass caught one video: a hired fitness creator making a prohibited joint-benefit claim the brand had never taught her to avoid. Nine words, one risky category claim, and eleven days of dead traffic. Today's angle: **the claim boundary is a creative input, and most teams file it as legal review.**
 
 The line Farrice could say out loud: *"Four pages on how to sound. Zero sentences on the line that turns the campaign off."*
 
@@ -47,7 +47,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 
 **The thing Farrice can say that the category usually will not:** most supplement briefs are four pages of vibe and zero sentences of law, and the gap is not legal's fault. Legal was never invited to the brief. The team runs claim discipline as a gate because running it as a decision would force them to admit nobody has decided what the product actually owns.
 
-**Plain-English versions:** "claim boundary" = the line between what you may say and what gets the campaign killed. "Structure-function language" = supplements get "supports," medicine gets "heals." "Editorial claim-safety line" = one paragraph telling a creator what not to say, with examples that sound like her.
+**Plain-English versions:** "claim boundary" = the line between what you may say and what gets the campaign killed. "Structure-function language" = supplement support language, not drug-style outcome language. "Editorial claim-safety line" = one paragraph telling a creator what not to say, with examples that sound like her.
 
 **Five raw takes Farrice could riff on without more research:**
 1. Behind the counter, nobody ever asked him what a product "supports." They asked what it fixes. Creators talk like customers, and that is exactly why they cross the line briefs never drew.
@@ -69,7 +69,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 2. **Contrarian take:** defend the creator with the 180K following. She said exactly what the customer wanted to hear, which is her whole skill. The failure was upstream. Blame the brief, not the talent.
 3. **Client or founder story:** the operator's post itself - walk it beat by beat with credit, then name what a one-paragraph fix would have looked like in that exact brief.
 4. **Business systems analogy:** his agent guardrails. He does not review his AI system's output and hope; he writes the constraint into the prompt before the run. A creator brief without a claim boundary is a prompt without guardrails, and the failure mode is identical: confident output, wrong by one sentence.
-5. **Public teardown angle:** pull three live creator ads for any funded supplement brand, transcribe the benefit sentences, and sort them into "supports" language versus "treats/heals/cures" language. Publish the sort as a pattern lesson, brand named only if the ads are clean.
+5. **Public teardown angle:** pull three live creator ads for any funded supplement brand, transcribe the benefit sentences, and sort them into support language, risky outcome language, or somewhere in between. Publish the sort as a pattern lesson, brand named only if the ads are clean.
 6. **Founder POV / ghostwriting angle:** write the post a founder cannot write himself: "we paused our own campaign for a claim our brief allowed by omission, and rebuilt the brief so it cannot happen twice." Ownership of the miss reads as strength; the rebuilt-brief detail is the flex.
 7. **Start Here (60-120 second voice memo):** "Start at the vitamin-shop counter. A customer asks what actually works for their joints. Say what you actually said, the honest version with the caveats. Then jump: that same conversation is happening on camera right now, times twelve creators, times every supplement brand on Meta. Who drew the line for them? End on the four-pages line."
 
@@ -79,7 +79,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 
 > Two hours before launch, someone finally watched the videos the way a regulator would.
 >
-> An agency operator told the story on Reddit in June. Twelve creators, three SKUs, six weeks of production for a supplement client. Ads scheduled. Then the compliance pass flagged one video: a fitness creator with 180K followers said the collagen "heals inflammation and supports joint repair."
+> An agency operator told the story on Reddit in June. Twelve creators, three SKUs, six weeks of production for a supplement client. Ads scheduled. Then the compliance pass flagged one video: a fitness creator with 180K followers made a prohibited joint-benefit claim the brand had never taught her to avoid.
 >
 > Nine words. The campaign went dark for eleven days.
 >
@@ -89,7 +89,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 >
 > Most supplement teams run claim safety as a review. Legal reads the content after it exists, at the end of the pipeline, where the only options left are approve or kill.
 >
-> So the knowledge that separates "supports joint health" from "heals joint pain" stays in a room the creators never enter. And under the FTC's endorsement guides, the brand can be held liable for what its endorsers claim either way, scripted or not.
+> So the knowledge that separates structure-function language from disease-claim language stays in a room the creators never enter. And under the FTC's endorsement guides, the brand can be held liable for what its endorsers claim either way, scripted or not.
 >
 > The fix costs one paragraph. Put the claim boundary in the brief, next to the hook, in the creator's language, with example sentences that cross it.
 >
@@ -107,10 +107,10 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 - (Conversion · Thesis · P2 · Inner) Before your next creator batch hits record, somebody has to decide which claim the product actually owns.
 
 **3. Carousel outline (8 slides):**
-1. *The eleven-day sentence* - title card over a paused-video frame treatment.
+1. *The eleven-day sentence* - title card over a paused-video frame layout.
 2. The setup: 12 creators, 3 SKUs, 6 weeks of production, ads booked. (Story credited: an operator's public post-mortem, June 2026.)
-3. The flag: two hours before launch, one video, nine words: "heals inflammation and supports joint repair."
-4. Why those nine words: "heals" and "repairs" are medicine words. Supplements get "supports." That line is federal, not stylistic.
+3. The flag: two hours before launch, one video, nine risky words from a creator who had not seen the boundary.
+4. Why those words matter: certain benefit words belong to medicine, not supplement ads. Supplements get support language. That line is federal, not stylistic.
 5. The autopsy, quoted: four pages of guidelines, zero prohibited claims, zero examples in creator language.
 6. The real failure: claim safety run as a gate at the end instead of a decision at the top. The creators never saw the line because it was never written where they work.
 7. The one-paragraph fix: claim boundary in the brief, next to the hook, with example sentences. What you can prove decides what they can say.
@@ -123,10 +123,10 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 > "One sentence turned a supplement campaign off for eleven days."
 >
 > **[0:03-0:12] Context, fast:**
-> "Twelve creators. Three products. Six weeks of filming. Two hours before the ads went live, a compliance check flagged one video. The creator said the collagen heals inflammation and repairs joints."
+> "Twelve creators. Three products. Six weeks of filming. Two hours before the ads went live, a compliance check flagged one video. The creator made a prohibited joint-benefit claim the brand had never taught her to avoid."
 >
 > **[0:12-0:20] The trap:**
-> "That sounds like every fitness video you have ever scrolled past. On a supplement ad, it reads as a drug claim. Heals and repairs are medicine words. Supplements get supports."
+> "That sounds like every fitness video you have ever scrolled past. On a supplement ad, it reads as a drug-style claim. Certain benefit words belong to medicine, not supplement ads. Supplements get support language."
 >
 > **[0:20-0:33] The autopsy (open loop pays off):**
 > "The operator who ran it did the autopsy in public. The creator brief was four pages long. Tone, style, shot list. It never said what she could not claim. Not one example. She never had a chance to catch it."
@@ -137,7 +137,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 > **[0:47-0:57] Callback close:**
 > "What they can say is the angle. Decide it before anyone hits record, and the eleven dark days never happen." (beat) "The most expensive sentence in a campaign is the one nobody writes down."
 
-**5. Public teardown prompt:** "Pick one funded supplement brand running creator ads. Transcribe the benefit sentence from each of their three most-viewed creator videos. Sort each sentence: supports-language, heals/treats-language, or somewhere in between. Then read their product page's actual claims. Publish the gap between what the page claims and what the creators say, with the brand named only if the creators are clean."
+**5. Public teardown prompt:** "Pick one funded supplement brand running creator ads. Transcribe the benefit sentence from each of their three most-viewed creator videos. Sort each sentence: support language, risky outcome language, or somewhere in between. Then read their product page's actual claims. Publish the gap between what the page claims and what the creators say, with the brand named only if the creators are clean."
 
 **6. Value-first DM / discovery-call angle:** "Watched three of your creator ads this week. The content is strong, and two of the benefit sentences are doing more legal work than I suspect anyone briefed. Not a pitch, one specific flag: [sentence] in [creator]'s video is a phrase the FTC reads differently than customers do. If it is useful, I can send the three-line version of where your claim line actually sits. If you want the full read, that is a different conversation."
 
@@ -145,7 +145,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 
 1. **Claim:** a 12-creator supplement campaign was paused 2 hours before launch over a creator's disease claim, costing 11 days of traffic; the brief had no claim restrictions. **Source type:** operator's own public post. **URL:** https://www.reddit.com/r/ecommerce/comments/1uddrr6/supplement_ugc_disease_claim_2_hours_before/ **Grade:** VERIFIED as his account (single source, dated 2026-06-23). **Public-copy risk:** low if told as a credited story; high if generalized. **Safe wording:** "an agency operator told the story on Reddit in June." **Unsafe wording:** presenting it as fresh news, as Farrice's client, or as "campaigns lose 11 days on average."
 2. **Claim:** brands can be held liable for endorsers' unsubstantiated claims; the Endorsement Guides were revised June 2023 and cover advertisers, endorsers, and intermediaries. **Source type:** regulator. **URL:** https://www.ftc.gov/news-events/news/press-releases/2023/06/federal-trade-commission-announces-updated-advertising-guides-combat-deceptive-reviews-endorsements **Grade:** VERIFIED. **Risk:** low. **Safe wording:** "the brand can be held liable for what its endorsers claim." **Unsafe:** "you will be fined," any certainty about enforcement outcomes.
-3. **Claim:** "heals/repairs" framing on a supplement is disease-claim territory while "supports" is structure-function language. **Source type:** regulatory framework (DSHEA structure-function rules). **Grade:** VERIFIED as framework. **Risk:** low as education, high as legal advice. **Safe wording:** "that line is federal, not stylistic." **Unsafe:** telling a specific brand a specific sentence is illegal (Farrice is not their counsel).
+3. **Claim:** drug-style outcome framing on a supplement is disease-claim territory while support language is structure-function language. **Source type:** regulatory framework (DSHEA structure-function rules). **Grade:** VERIFIED as framework. **Risk:** low as education, high as legal advice. **Safe wording:** "that line is federal, not stylistic." **Unsafe:** telling a specific brand a specific sentence is illegal (Farrice is not their counsel).
 4. **Claim:** CoQ10 buyers report years of purchase with zero felt benefit. **Source type:** same-day forum thread. **URL:** https://www.reddit.com/r/Supplements/comments/1vf7bqn/did_you_notice_any_benefits_from_taking_coq10/ **Grade:** VERIFIED as verbatim voice-of-customer. **Risk:** medium. **Safe wording:** buyer-experience quotes. **Unsafe:** "CoQ10 doesn't work" (no efficacy verdict from anecdotes).
 5. **Claim:** collagen-offer unit economics from a live founder thread ($3K spend, $1.5K revenue, CPA above $80, AOV ~$40, zero repeats). **URL:** https://www.reddit.com/r/ecommerce/comments/1v91win/should_i_kill_this_fb_ads_campaign/ **Grade:** VERIFIED as the founder's own numbers. Used in deep focus only, never as category benchmarks.
 6. **Claim:** Dietary Supplement Listing Act of 2026 reintroduced (FDA product registry). **Source type:** trade press. **Grade:** LIKELY (not re-verified against congress.gov this run; carried from 08-02 context). Not used in public assets.
@@ -162,7 +162,7 @@ Both receipts appended to `ledger/promises-not-kept.jsonl` this run.
 
 - **Which buyer feels it:** the founder or growth lead at a funded collagen, recovery, or joint-health brand with a creator campaign in flight - briefs sent, filming this month. Archetype sharpened by today's deep focus: he has guidelines, he has legal review, and he has never seen the two connected inside the brief.
 - **Recognition line:** *"Your brief told the creators how to sound. Nobody told them the one sentence that turns the campaign off."*
-- **Public proof version:** today's flagship post plus the teardown prompt run on one brand's live creator ads - the supports-versus-heals sort demonstrates Angle Map judgment in the open without naming-and-shaming.
+- **Public proof version:** today's flagship post plus the teardown prompt run on one brand's live creator ads - the support-language versus risky-outcome-language sort demonstrates Angle Map judgment in the open without naming-and-shaming.
 - **Fit-read opener if a buyer DMed today:** "Send me your current creator brief and your three most-viewed creator ads. I will tell you which claim your content is actually making, whether your product page can back it, and which of the three angles you should build the next batch on. $750, one 60-minute read, delivered within 48 hours of payment and inputs."
 - **Sprint bridge (one line, never led with):** if the read exposes that the product page, ads, and briefs each claim different things, that rebuild is the $2,500 Proof-to-Market Sprint.
 
@@ -181,20 +181,20 @@ Three insight rows appended to `ledger/insights.jsonl`; two receipts appended to
 - **Patterns from golden sample:** scene at the top, claim ledger separate from prose, one thesis carried through every asset, receipt with honest gaps
 - **Support lanes used:** Kallaway (hook stack gate) · Cole (series threading held for Thursday; today single-piece) · Lara (platform fit: talking-head native, first-comment CTA) · Hoyos (video retention beats) · Dunford + Priestley (deep-focus reads) · Harry Dry (specificity pass on hooks)
 - **Rejected routes:** GLP-1 lanes (0 candidates surfaced organically, none forced) · discount-identity angle (08-03 motif overlap) · kill-the-campaign economics (same overlap) · creatine (SATURATED)
-- **Verifier results:** prose_classifier CLEAN 0/10 on both vault assets · content_finish_gate CLEAN on both assets after two paragraph-density fixes (418-char and 326-char lines split for mobile dwell) · export_format_guard clean · grounding_guard WARN (medium) on the brief file: it counts 38 stat-shaped strings against 5 inline URLs, a known artifact of the report format (video timestamps and repeated figures count as claims; every load-bearing claim carries its source in §6) · content_finish_gate FAILs the brief FILE on internal-anaphora/parallel-structure signals that are the contract-mandated report structure itself - verified as a standing false-positive class: the accepted 08-02 and 08-03 briefs flag identically at 10/10 while their public assets run CLEAN. Rule vs goal (Partner Posture 4): the ban bank's goal is shipped prose; shipped prose is CLEAN, the internal report shape stays per contract
+- **Verifier results:** prose_classifier CLEAN 0/10 on both vault assets · content_finish_gate CLEAN on both assets · claim_risk_scan CLEAN on the brief and both public assets after redacting the prohibited example phrase from public copy · export_format_guard clean · grounding_guard WARN (medium) on the brief file: it counts 38 stat-shaped strings against 5 inline URLs, a known artifact of the report format (video timestamps and repeated figures count as claims; every load-bearing claim carries its source in §6) · content_finish_gate FAILs the brief FILE on internal-anaphora/parallel-structure signals that are the contract-mandated report structure itself - verified as a standing false-positive class: the accepted 08-02 and 08-03 briefs flag identically at 10/10 while their public assets run CLEAN. Rule vs goal (Partner Posture 4): the ban bank's goal is shipped prose; shipped prose is CLEAN, the internal report shape stays per contract
 - **Finalize status:** chain_runner finalize intentionally NOT run by this automation per standing subagent/automation brief (no Chain, no finalize); scores live in this receipt instead: Intent 5 · Expert 8 (anchored: integrated single-voice output with verbatim receipts and a mechanism-level insight, per rubric_v1 "integration over name-stacking") · Adversarial 8 · Factual 9
 - **Open risks:** anchor story is one operator's account, six weeks old (handled with date honesty and story framing); FTC liability line kept general, not case-specific; Listing Act stays LIKELY and out of assets
 - **JSONL validation:** both ledgers validated line-by-line after append (json.loads per line)
-- **Google Drive export:** EXPORTED — [Doc link](https://docs.google.com/document/d/1dIcDZRULU6Uk2Yzn-vzhDFZ92Xx9qku3d87FY-I8Tjg/edit), title `2026-08-04 — Angle Map Listening Brief`, parent folder ID verified as `11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI` after the write. One doc in, one doc out; no other Drive files created
+- **Google Drive export:** DISABLED for this Codex pass by current user instruction. No Google Doc, upload, or connector write was attempted here. If a same-day earlier local run exported a mirror, treat that as prior state, not an action from this pass; the local brief, ledgers, and vault assets are authoritative for this run
 - **Reader-Level Gate:** PASS (first 300 words carry the Slack-ping scene, the paid-for-confidence tension, the brief-versus-gate turn, and the four-pages line)
-- **Content Finish Gate:** CLEAN (both vault assets) · **Grounding Guard:** WARN on report format, all load-bearing claims sourced in §6 · **Export Format Guard:** clean
+- **Content Finish Gate:** CLEAN (both vault assets) · **Claim Risk Scan:** CLEAN (brief + both vault assets) · **Grounding Guard:** WARN on report format, all load-bearing claims sourced in §6 · **Export Format Guard:** clean
 - **Taste Evidence Ledger:**
 
 | Layer | Before / Risk | After / Move | Why It Improved |
 |---|---|---|---|
 | Reader pull | Claims topic drifts abstract and legal | Cold open on the 7:58 AM flag, nine words, eleven days | Concrete stakes before any framework |
 | Flow | Story then lecture risk | Story, autopsy quote, one turn, one fix | Each beat earns the next; no section restarts |
-| Specificity | "Compliance matters" genericism | 4 pages/zero restrictions verbatim, supports-vs-heals pair, one-paragraph fix | Every abstract noun has a concrete anchor |
+| Specificity | "Compliance matters" genericism | 4 pages/zero restrictions verbatim, support-language pair, one-paragraph fix | Every abstract noun has a concrete anchor |
 | Proof | Single anecdote overreach | Story credited and dated; FTC line from the regulator; buyer verbatim same-day | Claims sized to their sources |
 | Perspective shift | "Be compliant" (everyone says it) | The boundary as creative input that chooses the angle | Reframes the constraint as the strategy |
 
@@ -221,7 +221,7 @@ Three insight rows appended to `ledger/insights.jsonl`; two receipts appended to
 **Appended to `03-ICP-TRUTH-MAP.md` (Live deltas):**
 
 > ### 2026-08-04 — New reactive trigger candidate: the creator batch in flight
-> Claim risk surfaces between brief and record button: a 12-creator supplement campaign went dark 11 days over one creator sentence ("heals inflammation and supports joint repair"), and the operator's own autopsy blames the brief: four pages of messaging guidelines, "zero explicit restrictions on what creators couldn't say... not a single example of what a disease claim looks like from the creator's POV" ([r/ecommerce, 2026-06-23](https://www.reddit.com/r/ecommerce/comments/1uddrr6/supplement_ugc_disease_claim_2_hours_before/), VERIFIED as operator account). Private sentence to test: *"We have messaging guidelines."* Recognition line: **"Your brief told the creators how to sound. Nobody told them the one sentence that turns the campaign off."** Occasions: creator campaign kickoff, new SKU briefs out, agency onboarding, post-scare rebuilds. Candidate trigger; promote after one live confirmation. No conflict with doc 07.
+> Claim risk surfaces between brief and record button: a 12-creator supplement campaign went dark 11 days over one creator sentence that made a prohibited joint-benefit claim, and the operator's own autopsy blames the brief: four pages of messaging guidelines, "zero explicit restrictions on what creators couldn't say... not a single example of what a disease claim looks like from the creator's POV" ([r/ecommerce, 2026-06-23](https://www.reddit.com/r/ecommerce/comments/1uddrr6/supplement_ugc_disease_claim_2_hours_before/), VERIFIED as operator account). Private sentence to test: *"We have messaging guidelines."* Recognition line: **"Your brief told the creators how to sound. Nobody told them the one sentence that turns the campaign off."** Occasions: creator campaign kickoff, new SKU briefs out, agency onboarding, post-scare rebuilds. Candidate trigger; promote after one live confirmation. No conflict with doc 07.
 
 **Appended to `07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` (Live deltas):**
 
