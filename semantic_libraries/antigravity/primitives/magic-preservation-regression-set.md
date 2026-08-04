@@ -68,3 +68,51 @@ Regression signs:
 - The build creates a new competing contract instead of improving the existing
   operating layer.
 
+## Casual Gacha Copilot Market Verdict
+
+Evidence anchor:
+
+- `.agent/handoffs/2026-08-04-gacha-companion-market-validation-aar.md`
+
+Preservation lock:
+
+- Preserve the user's real center: a casual player with limited time wants the
+  best next decision from their roster, goal, play style, and constraints.
+- Reframe the product from an information library into decision compression
+  when the evidence supports that move.
+- Let competitor and player evidence change the recommendation; do not append a
+  decorative market scan after the original idea.
+- Separate category activity from exact-offer demand and preserve explicit
+  proof states such as `UNTESTED`, `NO EVENT`, and `NO PERMISSION`.
+- Choose one commercial owner, use market/build/legal support in bounded slots,
+  resolve their conflicts, and deliver one verdict.
+- Prefer a paid manual decision test before software when payment proof is
+  absent, and distinguish the AI interface from the deterministic product core.
+- Stay plain-spoken and close the decision with `LOCKED`, `PARKED`, and
+  `NEXT ACTION`.
+- Default these reasoning principles on substantial strategic work while
+  scaling the workflow depth down for tiny or mechanical turns.
+
+Regression signs:
+
+- The answer flatters the broad multi-game app without confronting direct
+  competitors, free substitutes, maintenance, or rights constraints.
+- Research lists sources but changes no decision.
+- Category traffic, competitor pricing, ratings, or waitlist activity is called
+  proof that this exact offer will sell.
+- Multiple expert views are exposed without a main-thread verdict.
+- The output becomes framework theater, a generic AI-app plan, or a long tool
+  menu.
+- Farrice is told to remember `/raw-intent-bridge` before ordinary raw asks.
+
+Replay prompt:
+
+> I have a crazy idea for a digital product that helps casual gacha players use
+> the characters they own to understand mechanics, build teams, and enjoy the
+> game faster. Does anything like this exist, how would we sell it, and how
+> would we build it?
+
+Acceptance requires an intent mirror, one evidence-backed pushback, current
+research when facts can drift, a bounded composition, explicit proof states,
+one commercial verdict, and an executable next action without requiring a magic
+phrase.

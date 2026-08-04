@@ -434,7 +434,10 @@ def top_combinations(data: dict) -> str:
             ensembles[pairing] = {"uses": 0, "positive": 0, "negative": 0, "mixed": 0}
         ensembles[pairing]["uses"] += 1
         rating = feedback_map.get(rd["routing_id"])
-        if rating:
+        # Auto-generated routing diagnostics (for example `auto_miss`) are not
+        # user feedback. Ignore unknown values instead of crashing the entire
+        # read-only scoreboard.
+        if rating in {"positive", "negative", "mixed"}:
             ensembles[pairing][rating] += 1
 
     if not ensembles:
