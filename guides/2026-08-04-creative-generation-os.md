@@ -2,41 +2,20 @@
 date: 2026-08-04
 session: creative-generation-os
 tier: operator-guide
-status: stub  # written deterministically by end_session_closeout.py — ENRICH to the
-              # docs/ROOT-CORE-OPERATOR-GUIDE.md format, then set status: enriched
+status: enriched
 ---
 
-# Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped — What We Built 2026-08-04 and How to Use It
+# Creative Generation OS — Session Close 2026-08-04 (avatar locked · both-harness doctrine · the user manual)
 
-> STUB — auto-filed by the closeout spine so this session is never uncovered.
-> Enrich per guides/FORMAT.md (exemplar: docs/ROOT-CORE-OPERATOR-GUIDE.md): 10-line
-> payload block, command table, mental model, per-capability sections with honest
-> edges. Update guides/INDEX.md and stamp operator_guide_sync.py record.
+> Final day of the creative-OS thread. The two manuals are the real deliverables — this page is the day's delta record. **USE the system:** [CREATIVE-OS-USER-GUIDE.md](CREATIVE-OS-USER-GUIDE.md) (copy-paste prompt bank, steering phrases, money map, troubleshooting). **Understand the system:** [2026-08-02-creative-generation-os.md](2026-08-02-creative-generation-os.md) (build story, command table, mental model).
 
-## Session snapshot
+## ⚡ What changed today (delta only)
 
-- **Completed:** (see session state archive)
-- **Remaining:** frbpm public name; avatar repair round (~$0.16); first real production run
+- **frbpm locked.** Farrice's anime avatar passed the 12/12 honest-folder acceptance (register swap + true profile both proved). Canon + 26-shot captioned dataset: `_active/farrice-brand/05-assets/anime-avatar/CANON.md`. Three repair objects named there (~$0.16 round, pending). Public display name still his to give.
+- **Intent mirror + craft gate became BOTH-harness law** — new `shared-intent-mirror` block in `directives/constitution/shared-blocks.md`, rendered into CLAUDE.md + AGENTS.md by `constitution_compiler.py sync`, platform hashes blessed (the standing `platform_drift` decision, resolved on Farrice's parity request). Claude enforces mechanically (per-prompt hook); Codex constitutionally.
+- **Mirror upgraded to universal two-tier** the day before, verified with a four-class golden test (`steering_loop_hook.py test-mirror`).
+- **User's guide shipped** (`CREATIVE-OS-USER-GUIDE.md`) — 12 copy-paste outcome prompts, 9 steering phrases, cost anchors, fix table. INDEX carries both rows.
+- Push mechanics learned: the post-commit hook auto-pushes — manual pushes race it; commit and stop.
 
-## Operator assets changed this cycle (20)
-
-- `.agent/workflows/bilawal-sidhu-greybox-reskin-shot.md`
-- `.agent/workflows/bilawal-sidhu-scene-first-blocking.md`
-- `.agent/workflows/curious-refuge-preproduction-package.md`
-- `.agent/workflows/curious-refuge-storyboard-to-plate.md`
-- `.agent/workflows/curious-refuge-voice-and-performance-direction.md`
-- `.agent/workflows/fashion-coupids-fashion-campaign-chain.md`
-- `.agent/workflows/fashion-coupids-lookbook-shot-list.md`
-- `.agent/workflows/mickmumpitz-camera-blocking-previs.md`
-- `.agent/workflows/mickmumpitz-character-lock-dataset.md`
-- `.agent/workflows/mickmumpitz-controlled-shot-spec.md`
-- `directives/constitution/shared-blocks.md`
-- `directives/fal-usage-policy.md`
-- `directives/feedback-ratchet.md`
-- `directives/quality_gate.md`
-- `directives/session-state-protocol.md`
-- `skills/bilawal-sidhu/SKILL.md`
-- `skills/bilawal-sidhu/workflows/01-greybox-reskin-shot.md`
-- `skills/bilawal-sidhu/workflows/02-scene-first-blocking.md`
-- `skills/curious-refuge/SKILL.md`
-- `skills/curious-refuge/workflows/01-preproduction-package.md`
+## Open when resuming (`/resume creative-generation-os`)
+frbpm public name → CANON update · avatar repair round · first real production run (Teardown #2 assets, gated behind mission 2b sends) · elevenlabs recipe price fill.
