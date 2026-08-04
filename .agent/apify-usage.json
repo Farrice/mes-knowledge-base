@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.233,
+  "spent_dollars": 0.257,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -136,6 +136,22 @@
       "cost": 0.01,
       "pricing_model": "per_result",
       "note": "direct-API async (CLI 400 workaround), hand-logged \u2014 search 'greens powder taste' (noise, miss)"
+    },
+    {
+      "ts": "2026-08-04T12:36:39.906583+00:00",
+      "actor": "reddit",
+      "results": 10,
+      "cost": 0.01,
+      "pricing_model": "per_result",
+      "note": "direct-API async (CLI 400 workaround), hand-logged \u2014 r/Supplements/new (3) + r/ecommerce search 'supplement' (7)"
+    },
+    {
+      "ts": "2026-08-04T12:38:46.146176+00:00",
+      "actor": "reddit",
+      "results": 14,
+      "cost": 0.014,
+      "pricing_model": "per_result",
+      "note": "direct-API async \u2014 comments pull: CoQ10 thread + UGC-claim thread"
     }
   ],
   "pulse_budget_dollars": 5.0,

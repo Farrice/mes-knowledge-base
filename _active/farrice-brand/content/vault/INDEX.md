@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-04 | [eleven-day-sentence-post](2026-08-04-eleven-day-sentence-post.md) | LinkedIn post | Thesis · P2 | Authority | Bridge | READY |
+| 2026-08-04 | [eleven-day-sentence-script](2026-08-04-eleven-day-sentence-script.md) | 45-60s video script | Thesis · P2 | Growth | Outer | READY |
 | 2026-08-03 | [wave-lends-you-customers-post](2026-08-03-wave-lends-you-customers-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-03 | [trend-cohort-carousel](2026-08-03-trend-cohort-carousel.md) | Carousel (10 slides) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-02 | [audit-the-search-post](2026-08-02-audit-the-search-post.md) | LinkedIn post | Thesis · P2 | Authority | Bridge | READY |
