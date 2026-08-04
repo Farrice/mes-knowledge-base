@@ -1,6 +1,6 @@
 # frbpm — Farrice Anime Avatar CANON (locked 2026-08-03)
 
-The character is **Farrice Cain, stylized** — modern shonen cel register ("twilight" design-round winner, his pick). Trigger word / dataset spine: **`frbpm`** (made-up, non-colliding; echoes the My.BPM music thread). Public display name: **not yet given** — Farrice's to name; update here when he does.
+The character is **Farrice Cain, stylized** — modern shonen cel register ("twilight" design-round winner, his pick). Trigger word / dataset spine: **`frbpm`** (made-up, non-colliding; echoes the My.BPM music thread). Public display name: **FRESH** (Farrice's real-life nickname, given 2026-08-04). In prompts and captions the trigger stays `frbpm`; in titles, dialogue, and content he is Fresh.
 
 Method: `skills/mickmumpitz/workflows/01-character-lock-dataset.md`. The dataset IS the character; the model is disposable.
 
