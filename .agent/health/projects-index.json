@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:00:06.438924+00:00",
+  "generated_at": "2026-08-04T15:19:50.042113+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -13,7 +13,7 @@
       "index_exists": true,
       "last_touched": "2026-06-19",
       "last_touched_source": "git",
-      "days": 45,
+      "days": 46,
       "prefix_collisions": {}
     },
     {
@@ -448,7 +448,7 @@
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 28,
+      "days": 29,
       "prefix_collisions": {}
     },
     {
@@ -543,7 +543,7 @@
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 28,
+      "days": 29,
       "prefix_collisions": {}
     },
     {
@@ -573,7 +573,7 @@
       "index_exists": true,
       "last_touched": "2026-07-29",
       "last_touched_source": "git-bulk-only",
-      "days": 5,
+      "days": 6,
       "prefix_collisions": {}
     },
     {
@@ -648,7 +648,7 @@
       "index_exists": true,
       "last_touched": "2026-07-09",
       "last_touched_source": "mtime",
-      "days": 25,
+      "days": 26,
       "prefix_collisions": {}
     },
     {
@@ -856,7 +856,7 @@
     {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 5d ago"
+      "detail": "stamped done, then touched 6d ago"
     }
   ]
 }
