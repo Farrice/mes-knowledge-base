@@ -98,3 +98,12 @@
 {"ts": "2026-08-03T14:38:36.947121+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 19, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
 {"ts": "2026-08-03T15:08:01.981071+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 20, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}
 {"ts": "2026-08-03T17:51:23.494351+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 21, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}
+{"ts": "2026-08-03T18:06:11.285711+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 22, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}
+{"ts": "2026-08-03T18:06:38.302291+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 22, "event": "next-moves-missing", "chars": 550}
+{"ts": "2026-08-03T18:27:14.911647+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 23, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}
+{"ts": "2026-08-03T18:32:21.129646+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 24, "event": "spiral", "stem": "craft-map", "renditions": 1, "rejections": 5}
+{"ts": "2026-08-03T19:11:58.775019+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 24, "event": "next-moves-missing", "chars": 987}
+{"ts": "2026-08-03T19:38:02.366909+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 25, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
+{"ts": "2026-08-03T19:52:43.131936+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 26, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
+{"ts": "2026-08-03T20:17:03.329588+00:00", "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9", "exchange": 27, "event": "spiral", "stem": "skill", "renditions": 1, "rejections": 4}
+{"ts": "2026-08-04T12:49:09.406021+00:00", "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba", "exchange": 1, "event": "next-moves-missing", "chars": 2882}

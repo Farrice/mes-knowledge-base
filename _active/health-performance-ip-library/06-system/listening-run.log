@@ -70,3 +70,20 @@ Run complete — all gates honored, brief shipped, vault stocked, mirror verifie
 **Next moves** — Deepen: harvest cortisol-product buyer verbatim to convert the expert-side receipt into a full promises row. Adjacent: the "trend-cohort retention read" answer page (§7) is the natural GEO asset when you want it. Act: the flagship + carousel pair is publish-ready for this week's queue alongside open mission #5's teardown carousels. **Operator lesson:** the gate that failed today caught a banned pattern I had already read the rule for — running the check beats trusting the memory of it.
 released
 === 2026-08-03 06:00:21 listening run end rc=0 ===
+=== 2026-08-04 05:30:01 listening run start ===
+claimed: 85892f4a93b6  (heartbeat every wave: session_lock.py heartbeat 85892f4a93b6)
+Run complete — committed (`022a336d4`) and pushed to main. Here's the day's cut.
+
+## 2026-08-04 Angle Map Listening Run (Tuesday · ICP movement)
+
+**The pick:** Claim safety is a creative input, and most teams file it as legal review. Anchor receipt: an agency operator's public post-mortem of a 12-creator supplement campaign that went dark for **11 days** over nine words in one video ("heals inflammation and supports joint repair") — flagged two hours before launch. His own autopsy: the brief had "4 pages of messaging guidelines, zero explicit restrictions on what creators couldn't say." The turn: what you can prove decides what creators can say, and what they can say IS the angle — which is literally the Angle Map's per-angle claim-safety line, sold back as the missing artifact.
+
+**What shipped:**
+- **Brief:** `daily/2026-08-04-angle-map-listening-brief.md`, all v4.1 sections · [Drive mirror](https://docs.google.com/document/d/1dIcDZRULU6Uk2Yzn-vzhDFZ92Xx9qku3d87FY-I8Tjg/edit) exported and folder-verified
+- **Vault +2 READY:** flagship post ("The eleven-day sentence") + the Tuesday second format FINISHED, a 45-60s talking-head script — both `prose_classifier` CLEAN 0/10 and finish-gate CLEAN
+- **Receipts (2):** buyer-side, same-day CoQ10 thread — *"Supposedly, it's very important, so I'm taking them, but I have noticed zero benefits after several years"* (the "compliance purchase": doubt with a subscription); operator-side, the vetted-creator promise vs the 11-day pause
+- **Living docs:** doc 03 gained a new trigger candidate (**the creator batch in flight** — recognition line: "Your brief told the creators how to sound. Nobody told them the one sentence that turns the campaign off"); doc 07 gained the compliance-purchaser buyer state. 3 insight rows + 2 promises rows appended, JSONL validated line-by-line.
+
+**Honesty notes:** the anchor story is one operator's account dated 06-23 — all copy tells it as a credited June story, never as news or a statistic. Social listening lane LIVE (24 real items, 4 threads read closely; Apify $0.024 today, month $0.257 of $29 — the CLI's reddit path still 400s, direct-API workaround used and hand-logged again; worth a permanent fix in `apify_client.py` at some point). The brief *file* trips `content_finish_gate` on its own mandated report structure — verified as a standing false positive (the accepted 08-02 and 08-03 briefs flag identically); shipped assets are clean. Repetition penalty applied honestly: claims territory ran 08-02, but today's mechanism (boundary-to-brief translation) is distinct from 08-02's (evidence search), and it still outscored a field where both runners-up sat inside 08-03's acquisition-economics motif. Creatine stayed SATURATED; GLP-1 was 0 of 12 candidates.
+
+No publishing, outreach, or contact of any kind occurred; the one Drive doc is the standing-approved daily mirror.

@@ -449,21 +449,21 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 46,
+            "total_routings": 52,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "sean-dollwet-kdp-publishing": 5,
+                "sean-dollwet-kdp-publishing": 6,
                 "Research": 2,
                 "fresh-voice-system": 3,
                 "Content": 5,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
                 "System": 3,
-                "supercomputer": 3,
+                "supercomputer": 4,
                 "Creative": 1,
                 "Strategy": 2,
                 "luke-iha-copy-blocks": 1,
@@ -471,19 +471,22 @@
                 "jen-santulan-listing-content": 4,
                 "joey-cinema-os": 2,
                 "creative-direction": 1,
-                "kallaway-illusion-of-novelty": 2,
+                "kallaway-illusion-of-novelty": 3,
                 "satori-graphics": 1,
                 "ben-watkins-storytelling": 2,
                 "gemini-api-dev": 1,
                 "jason-fladlien-marketing": 1,
                 "nicolas-cole-digital-products": 1,
                 "generate": 1,
-                "omar-eltakrori": 1
+                "omar-eltakrori": 1,
+                "story-bible-builder": 1,
+                "wordsatscale-seo-ranking": 1,
+                "alex-myatt-creative-engine": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 5,
+                "sean-dollwet-kdp-publishing": 6,
                 "oren-operational-systems": 2,
                 "fresh-voice-system": 3,
                 "luke-iha-creative-strategy": 3,
@@ -491,8 +494,8 @@
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
-                "supercomputer": 3,
-                "doc-coauthoring": 3,
+                "supercomputer": 4,
+                "doc-coauthoring": 4,
                 "luke-iha-copy-blocks": 1,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
@@ -503,7 +506,7 @@
                 "RoboNuggets source-to-skill": 1,
                 "creative-direction": 1,
                 "hilary-gridley": 1,
-                "kallaway-illusion-of-novelty": 2,
+                "kallaway-illusion-of-novelty": 3,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1,
@@ -513,10 +516,15 @@
                 "generate": 1,
                 "fashion-coupids": 1,
                 "Health Performance Angle Map Listening Engine": 1,
-                "omar-eltakrori": 1
+                "omar-eltakrori": 1,
+                "story-bible-builder": 1,
+                "wordsatscale-seo-ranking": 1,
+                "growth-ecosystems": 1,
+                "alex-myatt-creative-engine": 1,
+                "coaching-business-os": 1
             },
             "tier_counts": {
-                "0": 46,
+                "0": 52,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -524,10 +532,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 32,
+                "hybrid": 38,
                 "finalize-auto": 14
             },
-            "ensemble_count": 15,
+            "ensemble_count": 18,
             "auto_miss_count": 3
         }
     },
@@ -1355,6 +1363,111 @@
             "workflow_used": "omar-eltakrori",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_180611_e443",
+            "timestamp": "2026-08-03T18:06:11.720259+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "what's waiting for my car with this anime lock? Are you seeing the character that you used for the sample stuff? Then I don't want you to lock that cover!",
+            "intent_score": 0,
+            "domain_detected": "story-bible-builder",
+            "experts_deployed": [
+                "story-bible-builder"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "story-bible-builder",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_182715_aa27",
+            "timestamp": "2026-08-03T18:27:15.341581+00:00",
+            "session_id": "d95ccca4-a780-4eef-a55b-8b26e8eae4c9",
+            "request_summary": "ah, okay, I get it now. Yeah, I love the method in-house, so let's keep all that. I would like this stylized character to be me, to be honest. I know if you search through my computer, you'll find pic",
+            "intent_score": 0,
+            "domain_detected": "wordsatscale-seo-ranking",
+            "experts_deployed": [
+                "wordsatscale-seo-ranking"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "wordsatscale-seo-ranking",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_193147_48e0",
+            "timestamp": "2026-08-03T19:31:47.393581+00:00",
+            "session_id": "019fc903-7a33-7e60-9eca-5752c1c83aa4",
+            "request_summary": "Also, I want to be able to leverage this into helping any client, myself personally or anyone with potential, that wants to go out and do a coaching business offer. I want to be able to make actual si",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty",
+                "growth-ecosystems"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": true,
+            "compound_pairing": "kallaway-illusion-of-novelty + growth-ecosystems",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_200749_1b47",
+            "timestamp": "2026-08-03T20:07:49.269421+00:00",
+            "session_id": "019fc903-7a33-7e60-9eca-5752c1c83aa4",
+            "request_summary": "Approve expanded vision. Draft the Architecture checkpoint and Skill System Contract, then stop for architecture approval. and Adjust the expanded vision so [life coaching / solopreneurship / AI consu",
+            "intent_score": 0,
+            "domain_detected": "alex-myatt-creative-engine",
+            "experts_deployed": [
+                "alex-myatt-creative-engine",
+                "coaching-business-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "alex-myatt-creative-engine",
+            "ensemble": true,
+            "compound_pairing": "alex-myatt-creative-engine + coaching-business-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_123007_8d84",
+            "timestamp": "2026-08-04T12:30:07.176410+00:00",
+            "session_id": "6e2ed06c-5728-48f8-b917-9a7644b29bba",
+            "request_summary": "Read and execute _active/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary,",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_123022_74c1",
+            "timestamp": "2026-08-04T12:30:22.042913+00:00",
+            "session_id": "526e5dca-0f42-43e5-b378-d66b0c875ab3",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
             "feedback": null
         }
     ]

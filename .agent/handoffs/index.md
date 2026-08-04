@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-04** [farrice-brand/active] [Farrice Brand — Eleven Day Sentence Script](2026-08-04-farrice-brand.md) — Farrice Brand — Eleven Day Sentence Script
 - **2026-08-03** [angle-map-listening-engine-v4-1/active] [2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean](2026-08-03-angle-map-listening-engine.md) — 2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean
 - **2026-08-03** [angle-map-listening-engine-v4-1/active] [Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 03/07 fed, Drive mirror verified](2026-08-03-angle-map-listening-engine-v4-1.md) — Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 03/07 fed, Drive mirror verified
 - **2026-08-02** [creative-generation-os/ready] [Creative Generation OS — Full Build v1 COMPLETE (all 8 masters + $20 caps)](2026-08-02-creative-generation-os.md) — Intent mirror hook, 1afa07aca ack, then anime character lock

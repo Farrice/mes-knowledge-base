@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** farrice-brand  
-**Full path:** .agent/handoffs/2026-08-04-farrice-brand.md  
-**Date:** 2026-08-04 (today)  
-**Status:** active  
-**Title:** Farrice Brand — Eleven Day Sentence Script
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume farrice-brand` for this one.
-
----
-
 ---
 thread: farrice-brand
 status: active
@@ -29,4 +17,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-08-01-farrice-brand.md` — everything it lists as shipped is EXTEND-ONLY.
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

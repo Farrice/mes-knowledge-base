@@ -1,16 +1,7 @@
 {
- "ts": "2026-08-03T06:00:09.167764",
+ "ts": "2026-08-04T05:49:12.116143",
  "mode": "heal",
  "rows": [
-  {
-   "id": "stale_registries",
-   "cls": "AUTO",
-   "what": "SKILL_INDEX.md / AGENT_INDEX.md are behind the filesystem",
-   "fix": "python3 execution/sync_registries.py",
-   "action": "healed",
-   "note": "registries rebuilt; verify_system no longer flags them",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -35,12 +26,12 @@
   {
    "id": "dead_launchd",
    "cls": "JUDGMENT",
-   "what": "1 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 4d ago (cadence allows 3d)",
+   "what": "1 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 5d ago (cadence allows 3d)",
    "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
    "detail": {
     "not_loaded": [],
     "stale": [
-     "com.antigravity.cos-notify: last ran 4d ago (cadence allows 3d)"
+     "com.antigravity.cos-notify: last ran 5d ago (cadence allows 3d)"
     ]
    },
    "action": "escalated"
@@ -95,7 +86,7 @@
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 7d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 8d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
@@ -118,6 +109,13 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
+   "action": "escalated"
+  },
+  {
+   "id": "verify_system.py",
+   "cls": "JUDGMENT",
+   "what": "verify_system.py is red in the 8d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

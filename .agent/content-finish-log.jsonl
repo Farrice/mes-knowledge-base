@@ -409,3 +409,8 @@
 {"ts": "2026-08-03T13:34:11Z", "label": "_active/farrice-brand/content/vault/2026-08-03-trend-cohort-carousel.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-03T13:35:32Z", "label": "_active/farrice-brand/content/vault/2026-08-03-trend-cohort-carousel.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-03T13:35:32Z", "label": "_active/farrice-brand/content/vault/2026-08-03-wave-lends-you-customers-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T12:46:23Z", "label": "eleven-day-sentence flagship", "verdict": "WARN", "fails": [], "warns": ["A 418-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-04T12:46:23Z", "label": "2026-08-04 listening brief", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T12:47:01Z", "label": "eleven-day-sentence flagship (v2)", "verdict": "WARN", "fails": [], "warns": ["A 326-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-04T12:47:12Z", "label": "eleven-day-sentence flagship (v3)", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T12:47:21Z", "label": "eleven-day-sentence script", "verdict": "CLEAN", "fails": [], "warns": []}
