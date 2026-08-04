@@ -672,3 +672,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-04 10:14]` **finalize** | Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native | strategy | system-audit — composite:6.0 status:Needs Improvement
 - `[2026-08-04 11:25]` **finalize** | One-game gacha roster decision product profitability red-team, cost model, and protected validation  | general | rory-sutherland — composite:7.0 status:Needs Improvement
 - `[2026-08-04 11:25]` **finalize** | Hardened one-game gacha decision product investment memo with break-even subscriber thresholds, foun | general | rory-sutherland — composite:7.9 status:Keep
+- `[2026-08-04 16:37]` **finalize** | Force-ranked five current demand-backed solo revenue paths with a 72-hour activation decision, proof | general | meg-heckman — composite:7.0 status:Needs Improvement
+- `[2026-08-04 16:41]` **finalize** | Solo Revenue Swarm: five demand-backed paths, one primary decision, 72-hour activation plan, exact-o | general | meg-heckman — composite:7.67 status:Needs Improvement
+- `[2026-08-04 16:44]` **finalize** | Solo Revenue Swarm: five demand-backed paths, one primary decision, 72-hour activation plan, exact-o | general | meg-heckman — composite:9.0 status:Keep
+- `[2026-08-04 16:46]` **finalize** | Solo Revenue Swarm: five demand-backed paths, one primary decision, 72-hour activation plan, exact-o | general | meg-heckman — composite:9.0 status:Keep

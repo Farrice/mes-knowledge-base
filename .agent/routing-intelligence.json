@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 76,
+            "total_routings": 82,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -457,7 +457,7 @@
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "sean-dollwet-kdp-publishing": 7,
-                "Research": 4,
+                "Research": 8,
                 "fresh-voice-system": 4,
                 "Content": 5,
                 "Analysis": 1,
@@ -491,7 +491,9 @@
                 "creative-campaign-strategy": 1,
                 "briar-cochran-content-science": 1,
                 "sweat-equity-speedrun-social-os": 1,
-                "design-md": 1
+                "design-md": 1,
+                "diandra-escobar-linkedin-growth": 1,
+                "evan-spiegel-distribution-architecture": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
@@ -550,10 +552,15 @@
                 "nick-st-pierre": 1,
                 "rory-sutherland": 2,
                 "sweat-equity-speedrun-social-os": 1,
-                "design-md": 1
+                "design-md": 1,
+                "diandra-escobar-linkedin-growth": 1,
+                "nate-b-jones-context-engineering": 1,
+                "evan-spiegel-distribution-architecture": 1,
+                "luisa-zhou-coaching": 1,
+                "meg-heckman": 4
             },
             "tier_counts": {
-                "0": 76,
+                "0": 82,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -561,10 +568,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 56,
-                "finalize-auto": 20
+                "hybrid": 58,
+                "finalize-auto": 24
             },
-            "ensemble_count": 35,
+            "ensemble_count": 41,
             "auto_miss_count": 4
         }
     },
@@ -1930,6 +1937,110 @@
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
             "feedback": "fb_20260804_230525_1e85"
+        },
+        {
+            "routing_id": "rt_20260804_232117_163b",
+            "timestamp": "2026-08-04T23:21:17.400736+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "Rebuild FARRICE-MASTER-CONTEXT.md from the actual sources — sovereign memory, Notion, the thought bank, prior sessions — and show me specifically what the current version compressed away.",
+            "intent_score": 0,
+            "domain_detected": "diandra-escobar-linkedin-growth",
+            "experts_deployed": [
+                "diandra-escobar-linkedin-growth",
+                "nate-b-jones-context-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "diandra-escobar-linkedin-growth",
+            "ensemble": true,
+            "compound_pairing": "diandra-escobar-linkedin-growth + nate-b-jones-context-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_232555_a9b1",
+            "timestamp": "2026-08-04T23:25:55.100440+00:00",
+            "session_id": "019fc903-7a33-7e60-9eca-5752c1c83aa4",
+            "request_summary": "what else do we need to do this session?",
+            "intent_score": 0,
+            "domain_detected": "evan-spiegel-distribution-architecture",
+            "experts_deployed": [
+                "evan-spiegel-distribution-architecture",
+                "luisa-zhou-coaching"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "evan-spiegel-distribution-architecture",
+            "ensemble": true,
+            "compound_pairing": "evan-spiegel-distribution-architecture + luisa-zhou-coaching",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_233703_9557",
+            "timestamp": "2026-08-04T23:37:03.250901+00:00",
+            "session_id": "",
+            "request_summary": "Force-ranked five current demand-backed solo revenue paths with a 72-hour activation decision, proof-state labels, fulfillment math, and explicit rejection of direct AI trading as dependable income.",
+            "intent_score": 7,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "meg-heckman"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "buyer-trigger-os",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_234101_1c2b",
+            "timestamp": "2026-08-04T23:41:01.905489+00:00",
+            "session_id": "",
+            "request_summary": "Solo Revenue Swarm: five demand-backed paths, one primary decision, 72-hour activation plan, exact-offer proof boundaries, scale math, payout cautions, and AI-trading rejection.",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "meg-heckman"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "buyer-trigger-os",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_234431_eda5",
+            "timestamp": "2026-08-04T23:44:31.773881+00:00",
+            "session_id": "",
+            "request_summary": "Solo Revenue Swarm: five demand-backed paths, one primary decision, 72-hour activation plan, exact-offer proof boundaries, scale math, payout cautions, and AI-trading rejection.",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "meg-heckman"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "buyer-trigger-os",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_234617_0fed",
+            "timestamp": "2026-08-04T23:46:17.700623+00:00",
+            "session_id": "",
+            "request_summary": "Solo Revenue Swarm: five demand-backed paths, one primary decision, 72-hour activation plan, exact-offer proof boundaries, time-cap economics, payout cautions, and AI-trading rejection.",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "meg-heckman"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "buyer-trigger-os",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }
