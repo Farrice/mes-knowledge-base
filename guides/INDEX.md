@@ -10,6 +10,11 @@
 
 | I want to… | Go to |
 |---|---|
+| **Run the daily ear-to-the-ground + content factory (Angle Map Listening Engine v4.1)** | |
+| Check why this morning's listening brief or COS 🎧 cut is missing | [Angle Map Listening Engine](2026-08-04-insight-brief.md) |
+| Pick today's post from the stocked content vault (READY/POSTED states, four tags) | [Angle Map Listening Engine](2026-08-04-insight-brief.md) |
+| Pull real buyer verbatim for a receipt (targeted Apify Reddit, ~$0.01) | [Angle Map Listening Engine](2026-08-04-insight-brief.md) |
+| Ring-tag content against the two-ring ICP/audience dossier (Outer/Inner/Bridge) | [Angle Map Listening Engine](2026-08-04-insight-brief.md) |
 | **Build source-grounded static acquisition tests (Alex Cooper)** | |
 | Find the account white space before producing more static ads | [Alex Cooper Static Acquisition System](2026-08-01-alex-copper-static-acquisition.md) |
 | Turn customer language and destination constraints into a controlled static test slate | [Alex Cooper Static Acquisition System](2026-08-01-alex-copper-static-acquisition.md) |
@@ -165,6 +170,8 @@
 ## Chronology
 
 *(newest first)*
+
+- 2026-08-04 — [Angle Map Listening Engine — v4.1 Content Factory Build](2026-08-04-insight-brief.md) — fused geo-brief + insight-brief into ONE scheduled listening engine centered on the locked Angle Map offer: v4.0 (Daily Core + rotating deep-focus calendar + Apify-first tool ladder + append-only living-doc compounding + local 05:30 launchd replacing the proxy-blind cloud routine, paused after final harvest) then v4.1 Content Factory (story bench Kallaway/Cole/Lara/Hoyos+Puri; rotating FINISHED format; four-tag assets; two-ring resonance dial; content vault with READY→POSTED states). Inaugural run same session (felt-nothing economy angle, VERIFIED Neutonic raise, 4 verbatim receipts, 3 vault assets, W31 synthesis, Drive exported; verdict: good) + identity-level **08-TWO-RING-RESONANCE-DOSSIER** (extends 07; Bridge Message; founder language composite-labeled until 3 DMs). Self-verified alive: the 08-03 Monday run landed a finished 10-slide carousel unattended
 
 - 2026-08-01 — [Alex Cooper Static Acquisition System](2026-08-01-alex-copper-static-acquisition.md) — source-grounded acquisition diagnosis, controlled static production, comprehension audit, real-brand hold gate, and internal Static Acquisition Sprint pilot container
 - 2026-07-28 — [Opus 5 Harness Repair](2026-07-28-opus5-harness-repair.md) — the marathon repair session: **compass doctrine** (gates→nudges; only cost gate + factual veto block; 4 self-arming enforce-trials disarmed; silent earned-8 cap + NOT_RUN-as-dirty-prose bug fixed), **Opus 5 dialect block** (4 documented 4.8→5 shifts as operating rules; every symptom Farrice felt mapped to vendor guidance — his prompting was never the issue), **expert-load truth** (the laundered half-pass killer: /writers-room had named 13 experts while the ledger showed 1 load — grep now books `skill_grepped`, finalize derives room rosters from workflow files and nudges below ceil(N×0.6), 15 full-fidelity lens cards compiled 78,344→23,641 words with the firing rule, Layer-1 checkpoint), **co-creation Step 0 hook-wired** (fires on taste/foggy, silent on execute; prose failed twice as a delivery channel same-day). Root rule: *an instruction that can't be executed will be faked, and the fake looks better than an honest partial.* Content side: 3 brand teardowns DM-ready + profile top-to-bottom; sends and the clean-session About verdict remain on Farrice
