@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** global-org-sweep  
-**Full path:** .agent/handoffs/2026-08-04-global-org-sweep.md  
-**Date:** 2026-08-04 (today)  
-**Status:** ready  
-**Title:** Global Org Sweep — One Tree + Generated PROJECTS.md (filing, anti-decay, status stamps)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume global-org-sweep` for this one.
-
----
-
 ---
 thread: global-org-sweep
 status: ready
@@ -90,4 +78,3 @@ wiring_audit status after each.
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-
