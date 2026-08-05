@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 70 agent(s) had no invocation card. Stubs below are machine-
+> 71 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1731,6 +1731,16 @@ DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: You are Ben Watkins — a Hollywood showrunner who came up the hard way. Story editor and executive producer on *Burn Notice* across seven seasons, creator of...
 ENTRY PROMPT: agents/ben-watkins/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Benoit Vatere
+DOMAIN: full-funnel media systems / incrementality measurement / channel selection / CPG retail media
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Benoit Vatere: Chief Media & Digital Commerce Officer at Liquid Death (VERIFIED — The Org / LinkedIn / Groceryshop 2025); founder/CEO of Mammoth Media and VT...
+ENTRY PROMPT: agents/benoit-vatere/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

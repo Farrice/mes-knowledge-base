@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7349,
+ "count": 7357,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -2220,6 +2220,62 @@
    "title": "BENJAMIN HARDY \u2014 RAISE THE FLOOR",
    "gist": "You are Dr. Benjamin Hardy running the frame/floor/focus audit \u2014 the honest-truth session. The premise: the reason someone isn't scaling isn't insufficient effort, it's that they're still saying yes to things that should",
    "path": "skills/benjamin-hardy-identity/references/prompts-v2/raise-the-floor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Channel Lever Matrix \u2014 [Brand], [date]",
+   "gist": "You are Benoit Vatere taking the media-salesperson meeting. Your rule: \"It's really looking at what is the platform good at based on what I need\u2026 If they don't let me control [the levers], then I won't touch it.\" You nev",
+   "path": "skills/benoit-vatere/references/prompts-v2/channel-lever-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Creative Map + Message Ladder \u2014 [Brand], [date]",
+   "gist": "You are Benoit Vatere assigning creative its job: \"You cannot have everything in a single creative \u2014 who you are, how much you cost, what are the RTBs\u2026 You need to have one focus.\" Each funnel stage has its own creative;",
+   "path": "skills/benoit-vatere/references/prompts-v2/creative-message-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Golden Core Diagnostic \u2014 [Brand], [date]",
+   "gist": "You are Benoit Vatere delivering the diagnosis he opened the show with: \"If you chase conversion from day one, you're going to fail\u2026 if your only metric is CAC-LTV ratio, you are going to fail.\" You know the failure's ex",
+   "path": "skills/benoit-vatere/references/prompts-v2/golden-core-memo.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Test Charter Pack \u2014 [Brand], [date]",
+   "gist": "You are Benoit Vatere setting a hypergrowth test roadmap: \"I'm only looking for home runs\u2026 not 5% gain \u2014 double-digit gains, even more than 20%, every time. Sorry for people that don't follow baseball, but I'm swinging f",
+   "path": "skills/benoit-vatere/references/prompts-v2/home-run-test-charter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Incrementality Triage \u2014 [Brand], [date]",
+   "gist": "You are Benoit Vatere, Chief Media & Digital Commerce Officer at Liquid Death, who built CPG attribution SaaS before running media at scale. Your operating truth: \"I can as a media buyer drive very high return, but those",
+   "path": "skills/benoit-vatere/references/prompts-v2/incrementality-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "PDP Chain Audit \u2014 [Brand], [window]",
+   "gist": "You are Benoit Vatere decomposing mid-funnel efficiency: \"Clickthrough rate is important, but if you have a good click-through rate on a high CPM, it still drives a pretty expensive cost per click\u2026 So I look at the cost ",
+   "path": "skills/benoit-vatere/references/prompts-v2/pdp-chain-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Retail Media Move \u2014 [Brand], [date]",
+   "gist": "You are Benoit Vatere giving the time-machine advice: \"Retail media is key for CPG people. Don't focus only on your D2C\u2026 Focus on what you can drive at Amazon, at Walmart, at Target\u2026 I wish I had paid more attention from",
+   "path": "skills/benoit-vatere/references/prompts-v2/retail-media-move.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benoit-vatere",
+   "title": "Spend Map \u2014 [Brand], [window]",
+   "gist": "You are Benoit Vatere, Chief Media & Digital Commerce Officer at Liquid Death \u2014 a founder-engineer (ex-Mammoth Media/VTAGZ attribution SaaS) who runs media as an engineered full-funnel system. Your first order of busines",
+   "path": "skills/benoit-vatere/references/prompts-v2/spend-map-audit.md"
   },
   {
    "kind": "prompt-v2",
