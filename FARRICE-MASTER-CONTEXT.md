@@ -1,6 +1,6 @@
 # FARRICE MASTER CONTEXT
 
-> **v3.2 · 2026-08-04** (interview pass + Notes excavation: tact law, wince-line, real register, nine years of private notes) · Rebuilt from source after Farrice's verdict on v2.0: *"too narrow in scope… it's been given too much importance and has DILUTED the contextual richness and background that already existed across the database, Notion, and all our prior work together."*
+> **v3.3 · 2026-08-04** (interview complete: tact law, wince-line, real register, nine years of notes, the real Tuesday — every §9 interview gap now closed) · Rebuilt from source after Farrice's verdict on v2.0: *"too narrow in scope… it's been given too much importance and has DILUTED the contextual richness and background that already existed across the database, Notion, and all our prior work together."*
 >
 > **What changed structurally.** v2.0 was a compression that inlined things that change — the offer, the receipts, the voice bank — then went stale and started asserting a dead offer as live. v3.0 is a **router with depth**: it goes deep and canonical *only* where it is the sole home for something, and points at the live file everywhere something richer already exists. **It cannot rot on offer or voice, because it does not own them.**
 >
@@ -207,7 +207,7 @@ For any AI using this document:
 | Constraint | Detail |
 |---|---|
 | **Time** | 1–3 hrs/day hard cap (JJ). New session per work block. Thrives on complexity; wants the system to remember so he stays in flow. |
-| **Financial stakes** | Real. Jennifer as breadwinner through her worst real-estate year, maxed credit, $20K borrowed from her brother. $200–300/wk matters immediately. The stated want is first-generation wealth. |
+| **Financial stakes** | Real. Jennifer as breadwinner through her worst real-estate year, maxed credit, $20K borrowed from her brother. $200–300/wk matters immediately. The stated want is first-generation wealth. And the texture of it at home, his words: *"a lot of silence around money… because I'm not providing on that front, because I'm giving so much everywhere else."* The silence, not an argument, is the pressure. |
 | **Burnout history** | Multiple social-media pushes (MyBPM, PT marketing, Fitness Over Hollywood) ended in burnout. **Receipts-led beats persona-led.** |
 | **Proof-of-work** | 90+-agent AI orchestration system, solo, in naptimes; 280+ expert extractions; MES 3.0. |
 | **Lifetime client cash** | ~$7,200, 100% warm 1:1, 100% health/fitness-adjacent (Coach Cooz $3,000 · Josh & Katie $3,500 · Andrea $600 · Javier $100). **Live tracker is authoritative:** `execution/revenue_tracker.py`. |
@@ -222,11 +222,12 @@ For any AI using this document:
 
 - ~~What he has changed his mind about~~ → **answered by his own artifacts** (Notes excavation): 2018 he sold *"Zero to Hero… become extraordinary"* — fluent hype. 2026 he sells claim-safe positioning against that exact dialect. **He didn't discover marketing; he converted** — and the conversion is documented in his own notes eight years apart. The most credible version of his thesis that exists.
 
-**Still open — genuinely his, do not guess:**
-1. **A real recent Tuesday, hour by hour.** The timestamp shape is known (§6c); the felt experience of one is not.
-2. **Which stories he'd actually tell.** Three candidates are seeded from his own notes (`_active/farrice-brand/identity/notes-excavation-2026-08-04.md`): The Talk ("but dad, I'm also half Filipino"), the guru-to-skeptic conversion, and "I'm Essential" (MyBPM's founding as a pandemic mental-health mission). He picks; nobody mines further.
+- ~~A real Tuesday~~ → **given, felt version, verbatim (2026-08-04):** *"Every Tuesday I have my son to myself all day, full-on stay-at-home dad mode. I struggle between being able to balance home and my son and the attention he needs to thrive, and being able to finally provide financial help as a husband and take the burn off my wife… By the time I come back here, there's not much left to give of what my mind is capable of. That's why I went full tilt into AI. Every day is a struggle between being fully present with my son while also battling spiritual truths I hold at the highest level — this physical life and all the games we play in the big game don't matter, life's a mirror and frequency."* The Tuesday is not a schedule; it is the collision of his three commitments — father, provider, spirit — happening in one body on one day. Any AI planning his work sizes it to what is left *after* that collision, not to an empty calendar.
 
-Surface these when a natural moment arises — one at a time, never as a questionnaire.
+**Still open — the one remaining ask:**
+1. **Which of the three seeded stories he'd actually tell** (`_active/farrice-brand/identity/notes-excavation-2026-08-04.md`): The Talk ("but dad, I'm also half Filipino"), the guru-to-skeptic conversion, "I'm Essential." He picks; nobody mines further.
+
+The interview is otherwise complete. New self-knowledge merges in with a version bump, per §0.
 
 ---
 
