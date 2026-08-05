@@ -130,17 +130,34 @@ def render_evidence(num, s):
 
 def render_bars(num, s):
     series = s.get("series", [])
-    global_max = max((max(x.get("values") or [1]) for x in series), default=1) or 1
-    cards = []
-    for x in series:
-        bars = "".join(
-            f'<i style="height:{max(3, round(100 * v / global_max))}%"></i>' for v in (x.get("values") or [])
-        )
-        note = f'<div class="note">{esc(x.get("note"))}</div>' if x.get("note") else ""
-        cards.append(f'<div class="bars-card"><h3>{esc(x.get("label"))}</h3>{note}<div class="bars">{bars}</div></div>')
+    global_max = max((max(x.get("values") or [0]) for x in series), default=1) or 1
     caption = f'<div class="bars-caption">{esc(s.get("caption"))}</div>' if s.get("caption") else ""
+    single_valued = series and all(len(x.get("values") or []) == 1 for x in series)
+    if single_valued:
+        # comparison mode: one card, horizontal bars, shared scale
+        rows = []
+        for x in series:
+            v = (x.get("values") or [0])[0]
+            pct = max(1, round(100 * v / global_max))
+            note = f'<span class="hnote">{esc(x.get("note"))}</span>' if x.get("note") else ""
+            rows.append(
+                f'<div class="hbar-row"><div class="hbar-label">{esc(x.get("label"))}{note}</div>'
+                f'<div class="hbar-track"><i style="width:{pct}%"{" class=zero" if v == 0 else ""}></i></div>'
+                f'<div class="hbar-val">{esc(v)}</div></div>'
+            )
+        body = f'<div class="bars-card">{"".join(rows)}</div>'
+    else:
+        # small multiples: one card per series, shared vertical scale
+        cards = []
+        for x in series:
+            bars = "".join(
+                f'<i style="height:{max(3, round(100 * v / global_max))}%"></i>' for v in (x.get("values") or [])
+            )
+            note = f'<div class="note">{esc(x.get("note"))}</div>' if x.get("note") else ""
+            cards.append(f'<div class="bars-card"><h3>{esc(x.get("label"))}</h3>{note}<div class="bars">{bars}</div></div>')
+        body = f'<div class="bars-group">{"".join(cards)}</div>'
     return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
-            f'<div class="bars-group">{"".join(cards)}</div>{caption}</section>')
+            f"{body}{caption}</section>")
 
 
 def render_decision(num, s):

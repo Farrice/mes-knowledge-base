@@ -47,6 +47,7 @@ STATIC_ZONES = [
     ("deliverables-designs", ["deliverables/designs"]),
     ("deliverables-carousel", ["deliverables/carousel-images"]),
     ("deliverables-video", ["deliverables/video-enhancement"]),
+    ("research-briefs", ["deliverables/research-briefs"]),
 ]
 # _active/*/05-assets and _active/*/visuals are discovered dynamically
 ACTIVE_DIR_NAMES = {"05-assets", "visuals"}
@@ -56,6 +57,11 @@ TYPE_BY_EXT = {
     "mp4": "video", "mov": "video", "webm": "video",
     "mp3": "audio", "wav": "audio", "m4a": "audio",
     "pdf": "doc",
+}
+# zone-scoped extension allowances — html is a card type ONLY where a zone opts in
+# (a global html→doc mapping would sweep every stray template in every zone)
+ZONE_EXTRA_EXTS = {
+    "research-briefs": {"html": "doc"},
 }
 SKIP_BASENAMES = {".DS_Store"}
 
@@ -103,7 +109,7 @@ def discover_files():
                     if name in SKIP_BASENAMES or name.startswith("."):
                         continue
                     ext = name.rsplit(".", 1)[-1].lower() if "." in name else ""
-                    if ext not in TYPE_BY_EXT:
+                    if ext not in TYPE_BY_EXT and ext not in ZONE_EXTRA_EXTS.get(zone, {}):
                         continue
                     # project = first subdir under the zone root, if any
                     sub = os.path.relpath(dirpath, base)
@@ -272,7 +278,8 @@ def sweep(verbose=True):
                 continue
             name = os.path.basename(abs_path)
             ext = name.rsplit(".", 1)[-1].lower()
-            rec = {"v": 1, "path": rel, "type": TYPE_BY_EXT[ext], "ext": ext,
+            ftype = TYPE_BY_EXT.get(ext) or ZONE_EXTRA_EXTS.get(zone, {}).get(ext, "doc")
+            rec = {"v": 1, "path": rel, "type": ftype, "ext": ext,
                    "zone": zone, "project": project, "src": None, "model": None,
                    "style": None, "prompt": None, "refs": [], "cost_usd": None,
                    "ts": None, "mtime": int(st.st_mtime), "size": st.st_size,

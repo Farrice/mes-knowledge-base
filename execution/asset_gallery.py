@@ -193,6 +193,11 @@ nav input[type=search] { margin-left:auto; background:rgba(20,20,20,.85);
 .card img, .card video { width:100%; height:100%; object-fit:cover; display:block; }
 .card .glyph { display:flex; align-items:center; justify-content:center;
   height:100%; font-size:40px; }
+.card .brief-glyph { flex-direction:column; gap:8px; padding:14px;
+  background:linear-gradient(135deg, #23201a, #191713); border-top:2px solid #b0622f; }
+.card .brief-glyph .bg-icon { font-size:26px; }
+.card .brief-glyph .bg-title { font-size:12px; line-height:1.35; text-align:center;
+  color:#e8e2d6; font-weight:600; letter-spacing:.01em; max-height:3.9em; overflow:hidden; }
 .card .tbadge { position:absolute; top:8px; left:8px; font-size:12px;
   background:rgba(10,10,10,.7); border-radius:6px; padding:2px 7px; z-index:2; }
 .card .ov { position:absolute; inset:auto 0 0 0; padding:26px 12px 10px;
@@ -445,8 +450,15 @@ function buildHero() {
 function card(r) {
   const c = el('div', 'card');
   let media;
+  const isBrief = r.zone === 'research-briefs';
   if (r.thumb) { media = el('img'); media.loading = 'lazy';
     media.src = 'thumbs/' + encodeURIComponent(r.thumb); c.appendChild(media); }
+  else if (isBrief) {
+    const g = el('div', 'glyph brief-glyph');
+    g.appendChild(el('span', 'bg-icon', '📋'));
+    g.appendChild(el('span', 'bg-title', (r.project || r.path.split('/').pop()).replace(/-/g, ' ')));
+    c.appendChild(g);
+  }
   else c.appendChild(el('div', 'glyph', TYPE_ICON[r.type] || '📄'));
   if (r.type !== 'image') c.appendChild(el('span', 'tbadge', TYPE_ICON[r.type] || ''));
   const ov = el('div', 'ov');
@@ -474,7 +486,7 @@ function card(r) {
       if (vid && media) { c.replaceChild(media, vid); vid = null; }
     });
   }
-  c.onclick = () => openLB(r);
+  c.onclick = () => { if (isBrief) window.open(relPath(r), '_blank'); else openLB(r); };
   return c;
 }
 function shelf(title, note, items) {
@@ -500,6 +512,7 @@ function buildShelves() {
   add(shelf('🕒 Recently added', byTs.length + ' total', byTs.slice(1, 21)));
   add(shelf('🎬 Video', null, byTs.filter(r => r.type === 'video').slice(0, 20)));
   add(shelf('🎵 Audio', null, byTs.filter(r => r.type === 'audio').slice(0, 20)));
+  add(shelf('📋 Research Briefs', null, byTs.filter(r => r.zone === 'research-briefs').slice(0, 20)));
   facetValues('project').slice(0, 8).forEach(([p, n]) =>
     add(shelf('📁 ' + p, n + ' assets', byTs.filter(r => r.project === p).slice(0, 20))));
   facetValues('style').slice(0, 5).forEach(([st, n]) =>
