@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:53:52.979853+00:00",
+  "generated_at": "2026-08-05T15:47:45.555844+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -73,7 +73,7 @@
       "index_exists": true,
       "last_touched": "2026-07-11",
       "last_touched_source": "mtime",
-      "days": 24,
+      "days": 25,
       "prefix_collisions": {}
     },
     {
@@ -441,14 +441,14 @@
       "name": "josh-swing-nerd-shirts-v1",
       "root": "_active",
       "path": "_active/josh-swing-nerd-shirts-v1",
-      "status": "active",
+      "status": "parked",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 29,
+      "days": 30,
       "prefix_collisions": {}
     },
     {
@@ -543,7 +543,7 @@
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 29,
+      "days": 30,
       "prefix_collisions": {}
     },
     {
@@ -573,7 +573,7 @@
       "index_exists": true,
       "last_touched": "2026-07-29",
       "last_touched_source": "git-bulk-only",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -648,7 +648,7 @@
       "index_exists": true,
       "last_touched": "2026-07-09",
       "last_touched_source": "mtime",
-      "days": 26,
+      "days": 27,
       "prefix_collisions": {}
     },
     {
@@ -856,7 +856,7 @@
     {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 6d ago"
+      "detail": "stamped done, then touched 7d ago"
     }
   ]
 }
