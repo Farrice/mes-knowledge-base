@@ -20,7 +20,17 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **What Happened:** open for 7 days with no decision
 - **Root Cause:** 9 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append bu
 - **Prevention Rule:** Decide stale_slash_commands or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
-- **Occurrences:** 7
-- **Last Triggered:** 2026-08-04
+- **Occurrences:** 8
+- **Last Triggered:** 2026-08-05
+- **Status:** ACTIVE
+- **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required
+
+### [RECURRING]: born_intent_drift
+- **Added:** 2026-08-05
+- **What Happened:** repaired 6 times over 8 days — the repair holds but the cause regenerates
+- **Root Cause:** upstream producer re-dirties this state after each repair
+- **Prevention Rule:** Treat recurring born_intent_drift as a symptom. Find what re-dirties it between runs and fix THAT; a healer firing every day is a workaround, not a solution.
+- **Occurrences:** 6
+- **Last Triggered:** 2026-08-05
 - **Status:** ACTIVE
 - **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required

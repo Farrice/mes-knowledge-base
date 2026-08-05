@@ -1,13 +1,20 @@
 {
- "ts": "2026-08-04T20:27:24.957517",
+ "ts": "2026-08-05T05:31:58.526785",
  "mode": "heal",
  "rows": [
   {
-   "id": "stale_slash_commands",
-   "cls": "JUDGMENT",
-   "what": "9 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
-   "fix": "debug the append region in execution/generate_slash_commands.py",
-   "action": "escalated"
+   "id": "born_intent_drift",
+   "cls": "EVIDENCE",
+   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
+   "fix": "python3 execution/verify_born_intent_drift.py --bless",
+   "detail": {
+    "explained": [
+     "skill:caleb-ralston-personal-brand <- aed4c4488 2026-08-04 feat(extract): Caleb Ralston expansion forge v4.0 \u2014 Anatomy of a Dream 2026-08-04 (watched: frames+transcript)"
+    ]
+   },
+   "action": "healed",
+   "note": "skill:caleb-ralston-personal-brand <- aed4c4488 2026-08-04 feat(extract): Caleb Ralston expansion forge v4.0 \u2014 Anatomy of a Dream 2026-08-04 (watched: frames+transcript)",
+   "commit": "commit skipped (--no-commit; the caller owns the commit)"
   },
   {
    "id": "dead_hooks",
@@ -26,13 +33,13 @@
   {
    "id": "dead_launchd",
    "cls": "JUDGMENT",
-   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 9d ago (cadence allows 9d)",
+   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
    "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
    "detail": {
     "not_loaded": [],
     "stale": [
      "com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d)",
-     "com.antigravity.verify-fleet: last ran 9d ago (cadence allows 9d)"
+     "com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)"
     ]
    },
    "action": "escalated"
@@ -40,11 +47,11 @@
   {
    "id": "stale_feeds",
    "cls": "JUDGMENT",
-   "what": "1 declared feed(s) starving \u2014 the producing loop is not firing: .agent/health/verify-fleet.json is 9d old (max 9d; producer: Sunday verify-fleet launchd run)",
+   "what": "1 declared feed(s) starving \u2014 the producing loop is not firing: .agent/health/verify-fleet.json is 10d old (max 9d; producer: Sunday verify-fleet launchd run)",
    "fix": "run the named producer once by hand, then find why its schedule missed",
    "detail": {
     "stale": [
-     ".agent/health/verify-fleet.json is 9d old (max 9d; producer: Sunday verify-fleet launchd run)"
+     ".agent/health/verify-fleet.json is 10d old (max 9d; producer: Sunday verify-fleet launchd run)"
     ]
    },
    "action": "escalated"
@@ -97,13 +104,6 @@
    "action": "escalated"
   },
   {
-   "id": "verify_born_intent_drift.py",
-   "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
-   "action": "escalated"
-  },
-  {
    "id": "verify_contextual_next_prompts.py",
    "cls": "JUDGMENT",
    "what": "same root cause as verify_steering_compass.py",
@@ -122,6 +122,13 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
+   "action": "escalated"
+  },
+  {
+   "id": "verify_system.py",
+   "cls": "JUDGMENT",
+   "what": "verify_system.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

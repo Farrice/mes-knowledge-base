@@ -449,14 +449,14 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 98,
+            "total_routings": 100,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "sean-dollwet-kdp-publishing": 8,
+                "sean-dollwet-kdp-publishing": 9,
                 "Research": 8,
                 "fresh-voice-system": 5,
                 "Content": 5,
@@ -498,12 +498,13 @@
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 2
+                "Extraction": 2,
+                "nate-b-jones-context-engineering": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 8,
+                "sean-dollwet-kdp-publishing": 9,
                 "oren-operational-systems": 2,
                 "fresh-voice-system": 5,
                 "luke-iha-creative-strategy": 4,
@@ -512,7 +513,7 @@
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
                 "supercomputer": 6,
-                "doc-coauthoring": 6,
+                "doc-coauthoring": 7,
                 "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
@@ -559,7 +560,7 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 1,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 1,
+                "nate-b-jones-context-engineering": 2,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
@@ -575,7 +576,7 @@
                 "caleb-ralston": 1
             },
             "tier_counts": {
-                "0": 98,
+                "0": 100,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -583,10 +584,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 72,
+                "hybrid": 74,
                 "finalize-auto": 26
             },
-            "ensemble_count": 53,
+            "ensemble_count": 54,
             "auto_miss_count": 4
         }
     },
@@ -2339,6 +2340,41 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_123011_34a7",
+            "timestamp": "2026-08-05T12:30:11.245656+00:00",
+            "session_id": "fcc7a6b2-29fa-483c-8714-ae9cf3dfc96e",
+            "request_summary": "Read and execute _active/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary,",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_123024_ac52",
+            "timestamp": "2026-08-05T12:30:24.718923+00:00",
+            "session_id": "a8bfb6cb-179e-4d9e-b7a7-f38f4f457958",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
             "feedback": null
         }
     ]
