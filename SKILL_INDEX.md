@@ -50,7 +50,7 @@
 | `briar-cochran-content-science` | **briar-cochran-content-science** | content ideation, content testing, data-backed topics | 12 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | for tiktok/short-form video patterns use a video-specific skill, shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** | mckinsey-level business analysis and deep web extraction for consulting engag... | 3 | 10 |
-| `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** | for personal-brand fundamentals via godin use seth-godin-brand | 11 | 19 |
+| `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** | for personal-brand fundamentals via godin use seth-godin-brand | 21 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai-assisted copy creation workflows, and scaling architecture proven to $500k/year, treats ai as the production engine and the human as the strategist + closer | 5 | 45 |
 | `chase-hughes-context-engineering` | **chase-hughes-context-engineering** | context engineering × behavioral influence × brainwashing architecture × interrogation × behavioral reading × cognitive defense, build the perfect recipient first, standalone operating layer (/ce-design, /ce-build) and a chain step-3 | 10 | 0 |

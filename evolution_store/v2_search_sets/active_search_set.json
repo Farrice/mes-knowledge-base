@@ -3513,17 +3513,17 @@
       "notes": "10 workflows (3 tiers) + 9 born-v2 prompts + MES virtuoso dossier (14 patterns, 7 hidden-knowledge, 3 exemplars + anti-exemplar) | blind-pass: PASS model-judged vs both 2026 transcripts (EVAL-058), A-tier pending Farrice | heartbeat: 7/7 | Factual Grounding: 8 | Verification: PASS \u2014 source-ledger.md labels every garbled caption claim VERIFIED/LIKELY/UNCONFIRMED | Anchor: verbatim exemplars anchor the quality ceiling"
     },
     {
-      "trace_id": "20260804_210908",
-      "timestamp": "2026-08-04T21:09:08.847751",
+      "trace_id": "20260804_205637",
+      "timestamp": "2026-08-04T20:56:37.278824",
       "schema_version": "v3",
-      "component": "benoit-vatere",
-      "expert": "benoit-vatere",
+      "component": "caleb-ralston-personal-brand",
+      "expert": "caleb-ralston",
       "workflow": "extract-forge",
       "quality": {
-        "composite": 6.0,
-        "intent_alignment": 3.0,
+        "composite": 6.67,
+        "intent_alignment": 4.0,
         "expert_standard": 8.0,
-        "adversarial_resilience": 7.0,
+        "adversarial_resilience": 8.0,
         "factual_grounding": 0.0
       },
       "reasoning": {
@@ -3538,9 +3538,9 @@
         "held_out_delta": 0.0,
         "gaming_flag": false
       },
-      "notes": "10 workflows, 12 genius patterns, 8 born-v2 prompts, era-bound appendix | blind-pass: PASS (EVAL-059, model-judged vs Entertain-or-Die keynote + CPG Guys Shoptalk ep; residual gap: tool-name density) | heartbeat: 7/7 | Factual Grounding: 9 (identity VERIFIED TheOrg/LinkedIn/Groceryshop; all quotes timestamped; era-bound claims quarantined) | Verification: PASS | A-tier pending Farrice-judged blind pass | Anchor: If the real expert read this output cold, would they say 'yes, that's how I think' \u2014 blind-pass held vs 2 unseen verbatim pieces; keynote independently confirms 12/12 extracted patterns incl. ROAS\u00d7NTB, frequency doctrine, algo-refusal"
+      "notes": "10 workflows (3 foundation/5 practitioner/2 stacking), 14 genius patterns + era-bound appendix, 8 born-v2 prompts, 3 verbatim exemplars | source WATCHED: 100 frames + 20.5k-word transcript, published same day | Factual Grounding: 9 | Verification: PASS | blind-pass: PASS (model-judged, EVAL-059, vs AoD origin monologue + 2026 interview segment; A-tier pending Farrice read) | heartbeat: 7/7 | expansion of existing skill v3.0\u2192v4.0, zero rebuild | Anchor: Expert Standard Anchor 9: if the real expert read this output cold, would they say 'yes, that's how I think' \u2014 every Pattern 26-39 anchored to a verbatim quote from the watched source, blind-pass sample judged recognizably Caleb (methodology + cadence, not vocabulary); Adversarial Anchor 9: every claim has a specific supporting reference \u2014 era-bound signals date-stamped instead of asserted, host-synthesis attributed separately, paraphrases tilde-marked"
     }
   ],
   "total_cases": 125,
-  "last_updated": "2026-08-04T21:09:08.849578"
+  "last_updated": "2026-08-04T20:56:37.279603"
 }

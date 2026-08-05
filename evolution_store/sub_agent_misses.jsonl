@@ -66,3 +66,4 @@
 {"timestamp": "2026-08-01T07:16:51.113587", "workflow": "extract-forge", "skill": "extract-mastery", "expert": "extract-mastery", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-04T19:50:59.318296", "workflow": "extract-forge", "skill": "oren-slop-era-creative-strategy", "expert": "oren-john", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-04T21:09:08.884905", "workflow": "extract-forge", "skill": "benoit-vatere", "expert": "benoit-vatere", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-08-04T20:56:37.303172", "workflow": "extract-forge", "skill": "caleb-ralston-personal-brand", "expert": "caleb-ralston", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
