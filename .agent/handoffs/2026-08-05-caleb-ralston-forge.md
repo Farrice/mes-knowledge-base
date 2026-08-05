@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** caleb-ralston-forge  
-**Full path:** .agent/handoffs/2026-08-05-caleb-ralston-forge.md  
-**Date:** 2026-08-05 (today)  
-**Status:** ready  
-**Title:** Caleb Ralston Personal Brand — Expansion Forge v4.0 (Anatomy of a Dream)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume caleb-ralston-forge` for this one.
-
----
-
 ---
 thread: caleb-ralston-forge
 status: ready
@@ -66,4 +54,3 @@ director at each of those brands would recognize as their own situation, not ano
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-
