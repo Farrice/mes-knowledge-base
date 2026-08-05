@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 93,
+            "total_routings": 94,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -458,7 +458,7 @@
                 "meg-heckman-buyer-trigger-os": 1,
                 "sean-dollwet-kdp-publishing": 8,
                 "Research": 8,
-                "fresh-voice-system": 4,
+                "fresh-voice-system": 5,
                 "Content": 5,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
@@ -504,7 +504,7 @@
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 8,
                 "oren-operational-systems": 2,
-                "fresh-voice-system": 4,
+                "fresh-voice-system": 5,
                 "luke-iha-creative-strategy": 4,
                 "Oren Operational Systems": 2,
                 "extract-mastery": 1,
@@ -568,11 +568,11 @@
                 "knowledge-architecture-studio": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "david-bayer-elite-communication": 1,
+                "david-bayer-elite-communication": 2,
                 "dr-kriukow-humanization": 1
             },
             "tier_counts": {
-                "0": 93,
+                "0": 94,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -580,10 +580,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 69,
+                "hybrid": 70,
                 "finalize-auto": 24
             },
-            "ensemble_count": 50,
+            "ensemble_count": 51,
             "auto_miss_count": 4
         }
     },
@@ -2248,6 +2248,24 @@
             "workflow_used": "sean-dollwet-kdp-publishing",
             "ensemble": true,
             "compound_pairing": "sean-dollwet-kdp-publishing + dr-kriukow-humanization",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_022418_9b05",
+            "timestamp": "2026-08-05T02:24:18.816096+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "if you want, I give you access to farm my conversations and see how I speak on different levels and to different people, but just on my side only. You can have a full voice understanding of how I go a",
+            "intent_score": 0,
+            "domain_detected": "fresh-voice-system",
+            "experts_deployed": [
+                "fresh-voice-system",
+                "david-bayer-elite-communication"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fresh-voice-system",
+            "ensemble": true,
+            "compound_pairing": "fresh-voice-system + david-bayer-elite-communication",
             "feedback": null
         }
     ]

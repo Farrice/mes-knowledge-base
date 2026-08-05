@@ -6,8 +6,9 @@ owner: voice-os
 supersedes:
   - _active/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
 sources:
-  - FARRICE-MASTER-CONTEXT.md (§5 values, §6 texture, §7 voice law)
-  - _active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md (§7 how he sounds, §12 calibration samples)
+  - _active/farrice-brand/voice/REGISTER-ATLAS.md (2026-08-04 — 30,606 sent messages across 4 relationship registers; the ONLY source sampled from Farrice OFF the clock. v1.3 recompile MUST ingest: one voice/four volumes, the invariants, and the client-register ancestry of the brand voice)
+  - FARRICE-MASTER-CONTEXT.md (§5 values, §6 texture, §7 voice law, §6c wince-line + real register)
+  - _active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md (RETIRED 2026-08-04 — §12 absorbed into master doc §6b; kept here as provenance only)
   - _active/farrice-brand/CLAUDE.md (voice rules)
   - content-voice-calibration.md (PASS/FAIL bank, show-don't-tell, 3-variant process, platform constraints)
   - feedback_ai-writing-tells.md, feedback_ai-structural-tells.md, feedback_writing-excellence-rules.md, feedback_no-cheap-question-signoffs.md, user_taste-calibration-signature.md
