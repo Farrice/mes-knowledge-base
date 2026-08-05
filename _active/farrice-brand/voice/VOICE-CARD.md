@@ -1,7 +1,7 @@
 ---
 status: canonical
-version: 1.2
-compiled: 2026-07-28
+version: 1.3
+compiled: 2026-08-04
 owner: voice-os
 supersedes:
   - _active/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
@@ -52,6 +52,15 @@ Depth pointer: `FARRICE-MASTER-CONTEXT.md` §1–§6 (identity, story, wounds, r
 5. **Deliberate rhythm**: short sentences land punches; long ones build pressure; alternate on purpose, not metronomically.
 
 **The one test**: would Farrice say this to a smart friend over coffee? No → rewrite.
+
+**§2b THE PRODUCTION PATH (added 1.3 — his own commissioning brief, verbatim):** *"I know I'm not always the best writer. I feel like it's my Achilles heel… I wanna take my natural voice and elevate it and have it be of that caliber of a David Bayer and all of our experts infused, cuz I have that level of wisdom. It's just that sometimes I'm so stuck on the deep end of depth that the articulation doesn't always come out the way I want it — but in person, I'm able to crush anything… I get into flow states and intuition flows out of me with ease."*
+
+What this means operationally, and it is the card's whole reason for existing:
+
+1. **Speech is the ore; the page is the refinery.** He is a world-class speaker and an uneven writer — so voice production starts from his spoken/dumped material (thought bank, voice notes, conversation) whenever it exists, and the pen's job is *transcription + tightening*, never authorship-from-scratch. This is his own zone of genius pointed at himself: forty minutes of talking becomes the twenty seconds that becomes the post.
+2. **The two-stage rhythm in §3 IS this path.** Generate long (his flow state), then cut for punch (the craft pass). The tightening pass is where the voice appears — his raw flow and his shipped register differ exactly the way §3's corpus note documents.
+3. **Elevation formula: his ore, expert lathe.** Bayer/Farnsworth/Cole/Albom supply *structure, compression, and end-weight* — never vocabulary, never wit, never worldview. The moment the expert supplies the words instead of the shape, it's costume (§5.12). The depth is already his ("I have that level of wisdom" — true, and the receipts in the master doc §4 back it); the experts close the articulation gap only.
+4. **When he has said the thing himself, use his words, not a better-written version of his words** (standing rule, §6 imperfection principle — now promoted to the production path's first commandment).
 
 **The wince test**: picture a close friend who'd notice if he were performing instead of writing. If they'd wince, it's wrong. Performance is the one unforgivable failure.
 
@@ -110,7 +119,9 @@ Measured across three shipped/ready-to-ship Parallax edition bodies (`01-manifes
 
 **Substack Notes/Threads**: hard 500-char DB limit, practical target 32-63 words / 180-380 chars, first 200 chars must complete the load-bearing element (mobile truncation). Zero em dashes target (max 1). Italics: 0-1 single word per Note, never a phrase. Statement hooks only, question hooks carry a documented 52% conversion penalty on this system's own data. Every Note is a trailer (satisfying alone), never a clip (dependent on the linked edition). Exemplar: *"The 'pick one thing' advice is a cage with better lighting. You're not free. People just clap for you in a smaller room."*
 
-**Email/DM (professional)**: MIRROR-adjacent, closer to spoken cadence than edited prose. No documented exemplar in corpus; extrapolate from the raw thought-bank verbatim register (longer sentences, run-on connective "and," first-person present tense) rather than the polished edition register. Flag as a corpus gap, see §6/§8.
+**Email/DM (professional)**: MIRROR-adjacent, closer to spoken cadence than edited prose. **Corpus gap CLOSED 1.3** — the Register Atlas (`REGISTER-ATLAS.md`, 30,606 sent messages) now grounds this register in measurement. The client register is the model: median 60 chars/message (his longest register — he explains more for clients), 18.8% exclamation (he brings *energy* to clients, not formality), near-zero profanity, "brother" as professional endearment, gratitude structural not garnish, celebration as the default response to any win, service reflex (offer the adjustment before being asked). The spiritual layer opens only at client-grade relationship depth.
+
+**Texting/personal (from the atlas — the ground truth under MIRROR mode)**: one short line is the unit — median 45 characters, 71% under 60, **zero of 30,606 messages over 200**. "lol" is a tone-softener closing ordinary observations, not a laugh; its written equivalents are the aside and the shrug clause. Humor mechanism is **reported speech** — the funny lives in what someone actually said, never in his commentary. AAVE grammar appears unforced at friend-density (≤7%), seasoning never costume. Invariants that hold in every register: ~12% question rate (he checks in on everyone at the same rate), warmth as the floor, self-deprecation before any roast.
 
 **THE SPINE CHOICE (cross-cutting, added 1.1 — resolves an apparent contradiction in §6)**: every piece picks a spine, and the choice is not about the pronoun.
 
@@ -140,6 +151,8 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 10. **Rule-of-three compulsion**: AI groups everything in threes to fake comprehensiveness. His real lists are messy (sometimes two items, sometimes five); when three appears, each item does different work, never parallel restatement.
 11. **Spoken-scaffold setup phrases** ("So watch what actually happens," "Here's what I want you to notice"), added 1.1: FAIL 2026-07-22 — *"no one talks like that... bad cadence."* The piece goes straight in and never announces what it's about to do. Cut on sight, including mid-body.
 12. **Scripted charisma textures** (Rock/Reynolds-style written wit), added 1.1: FAIL 2026-07-22 A/B — *"made the writing worse... created noise we don't need."* That humor is real and it lives in-person, mid-conversation. On the page it reads as performance, which is the one unforgivable failure (§2 wince test). Heroes stay heroes; they are not prose ingredients. `/texture-over` was retired the day it shipped.
+    **Amended 1.3 (atlas reconciliation):** the ban stands, and the atlas now names what CAN port. His clarification: Reynolds means **range and charm, never quips**. The real humor mechanisms — **reported speech** (quote what someone actually said, let the line do the work), **self-deprecation first**, and the softener aside — are observational, not constructed, and they pass the wince test because they're noticing, not performing. Write those; never write jokes.
+13. **"The [noun]:" colon-label openers** ("The work:" / "The pattern:"), added 1.3: FAIL 2026-07-30 — *"he does not speak in section labels."* AI-slop tell when repeated; **maximum one earned instance per piece.**
 
 ## §6 CALIBRATION BANK (living, append-target for the ratchet loop)
 
@@ -209,11 +222,32 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 - STRUCTURAL RULE: **LinkedIn Experience slots are résumé fields, not About canvases.** Take A's 2,600-char scene→turn arc does not fit in ~200 words under a job title; the mechanism there is ONE reader-turn per entry. Design decision, not a pen decision.
 - Register, his verbatim bar: *"silent confidence and swag with wit and humor."* Clear beats clever.
 
+**The brief-not-the-pen family (2026-07-29, entries 39–44 — three process FAILs, one root cause):**
+- v3 failed briefed from a **ban list** (fixed every named tell, reintroduced the architectural failure). v4 failed briefed **without experts** (*"Is this our best agent running this workflow or just you putting out what you think is best?"*). v5 failed briefed **without routing** (*"We have so much arsenal. Why are you not routing through any of it? That is probably the number one failure and it drives me nuts."*).
+- **The rule**: every taste-bearing draft opens with a ROUTE line naming the loaded assets, and every rendition brief carries the reader-architecture ruling. His one-word challenge — *"route?"* — must be answerable or production stops. A ban list can make copy less wrong; only architecture + experts + routing make it land.
+
+**ICP verbatim > pageantry (2026-07-30 DOCTRINE, entry 49 — silent-failure class):**
+- FAIL: researched ICP language (creative fatigue, sea of sameness, Founder Fog) sat in `ICP-BATTLE-CARD.md` and the pen **paraphrased it into elevated prose.** His ruling: *"those are great and that should have been in there exactly instead of doing it with pageantry."*
+- Articulating their problem in *their* words = instant authority. Elevating it = *"no one talks like that in this industry"* — and the failure is **silent**. **When research carries the ICP's own words, ship those words.** (Same law as the imperfection principle, pointed outward: his words for his story, their words for their pain.)
+
+**Buyer-side authority beats inferred mind-reads (2026-07-30, entries 50–51):**
+- PASS (his verdict: *"actually really done well"*): *"Your buyer skips the hero. They go straight to the supplement facts panel, because it's the only part of the page nobody in marketing wrote… And if the panel gives them a blend where a number should be, they're gone. Not angry. Just gone."*
+- Mechanism: **lived, unfalsifiable, buyer-side observation** beat the research-inferred founder-meeting scene it replaced. When choosing what to mind-read, read from where he actually stood (the counter, the buyer's side) — competitors can copy research; nobody can copy where he stood.
+
+**Surface architecture rules (2026-07-29/31, entries 40, 42–43, 52):**
+- **The 5-second test** at money spots: a founder must instantly know what he does and why to hire him. "Sharpest on" = too clever at the exact spot that needs plain function.
+- **The banner does DIFFERENT lifting** than the headline (proof + elevation, never restatement) — redundancy wastes the page's most valuable pixels.
+- **CTA once, placed strategically** — "DM PROOF" sprayed across four surfaces was *"so cringe."* Entries serve reader AND retrieval (keywords, role clarity, length).
+- **The exclusive-ownership ledger**: every profile surface gets its own proof asset and its own job — *"they need to be uniquely different and enhancing, and stand on their own."* The counter scene appearing on four surfaces is reuse, not reinforcement.
+
+**The fresh-pen rule (2026-07-29, entry 46 — process, promoted to protocol):**
+- The 9/10 About came from a **clean session running the five-move recipe**; the 6/10 v6 board was a 4th rendition from a context-bloated session. Two rejected takes on one artifact = stop producing and move the mission to a fresh pen (`/fresh-pen` exists for exactly this).
+
 *New verdicts land in `calibration-log.md` via `/voice-ratchet` (`execution/voice_ratchet.py add`); `/voice-compile` folds the strongest into this section. Format: date | verdict | line | why | source. Programmatic consumer (apex W2, 2026-07-29): `execution/voice_evaluator.py check <file>` reads the log live — the loop-closure `hg-verdict-to-evaluator` specified.*
 
 ## §7 THE DIAL (voice fidelity modes)
 
-- **MIRROR (95%)**: personal comms, DMs, replies, anything conversational under his name. Full fingerprint fidelity, including the imperfect texture (run-ons, real speech rhythm) documented in the raw thought-bank register, not the polished-edition register.
+- **MIRROR (95%)**: personal comms, DMs, replies, anything conversational under his name. Full fingerprint fidelity, including the imperfect texture (run-ons, real speech rhythm). **Grounded 1.3 in the Register Atlas's measurements, not inference**: one short line as the unit (median 45 chars, zero over 200 in 30,606 messages), softener asides, reported speech for humor, warmth as floor. MIRROR now has ground truth; consult the atlas, not intuition.
 - **BLEND (default, ~70%)**: "the better version of me." Identity anchors + Voice Law (§2) + banned moves (§5) are HARD. Craft structures, expert frameworks, fresh perspectives and metaphors from other creative lenses are WELCOME. Default for all content. Goal is elevation, not impersonation.
 - **STRETCH (40%)**: explicit creative exploration, expert/foreign voice may lead (3-variant divergence, style experiments, drafts through another writer's lens). Only the hard floor applies.
 - **OFF**: client-voice work (Jen, Andrea, any client deliverable), Voice OS yields entirely to client voice docs; only the universal slop ban + no-fabrication floor applies.

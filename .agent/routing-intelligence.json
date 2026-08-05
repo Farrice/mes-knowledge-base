@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 95,
+            "total_routings": 96,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -475,7 +475,7 @@
                 "satori-graphics": 1,
                 "ben-watkins-storytelling": 4,
                 "gemini-api-dev": 1,
-                "jason-fladlien-marketing": 1,
+                "jason-fladlien-marketing": 2,
                 "nicolas-cole-digital-products": 1,
                 "generate": 1,
                 "omar-eltakrori": 1,
@@ -527,7 +527,7 @@
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1,
-                "jason-fladlien-marketing": 1,
+                "jason-fladlien-marketing": 2,
                 "nicolas-cole-digital-products": 1,
                 "luke-iha-million-dollar-mechanisms": 1,
                 "generate": 1,
@@ -563,7 +563,7 @@
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
-                "april-dunford-positioning": 1,
+                "april-dunford-positioning": 2,
                 "kallaway-social-commerce": 1,
                 "tom-segura-comedy-storytelling": 1,
                 "knowledge-architecture-studio": 1,
@@ -574,7 +574,7 @@
                 "oren-john": 1
             },
             "tier_counts": {
-                "0": 95,
+                "0": 96,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -582,10 +582,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 70,
+                "hybrid": 71,
                 "finalize-auto": 25
             },
-            "ensemble_count": 51,
+            "ensemble_count": 52,
             "auto_miss_count": 4
         }
     },
@@ -2285,6 +2285,24 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_031801_baef",
+            "timestamp": "2026-08-05T03:18:01.579028+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "I'm battling with my fear of being seen and letting my light shine and being myself, and the fear of success and what comes with it, and then just also sometimes being disappointed, all of it.",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "april-dunford-positioning"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + april-dunford-positioning",
             "feedback": null
         }
     ]
