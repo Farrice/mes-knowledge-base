@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 97,
+            "total_routings": 100,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -463,7 +463,7 @@
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
                 "System": 5,
-                "supercomputer": 6,
+                "supercomputer": 8,
                 "Creative": 1,
                 "Strategy": 4,
                 "luke-iha-copy-blocks": 4,
@@ -498,7 +498,7 @@
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 1
+                "Extraction": 2
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
@@ -511,8 +511,8 @@
                 "extract-mastery": 1,
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
-                "supercomputer": 6,
-                "doc-coauthoring": 6,
+                "supercomputer": 8,
+                "doc-coauthoring": 8,
                 "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
@@ -571,10 +571,11 @@
                 "cinematic-documentary": 1,
                 "david-bayer-elite-communication": 2,
                 "dr-kriukow-humanization": 1,
-                "oren-john": 1
+                "oren-john": 1,
+                "benoit-vatere": 1
             },
             "tier_counts": {
-                "0": 97,
+                "0": 100,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -582,10 +583,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 72,
-                "finalize-auto": 25
+                "hybrid": 74,
+                "finalize-auto": 26
             },
-            "ensemble_count": 53,
+            "ensemble_count": 55,
             "auto_miss_count": 4
         }
     },
@@ -2321,6 +2322,59 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_032726_e9fe",
+            "timestamp": "2026-08-05T03:27:26.983268+00:00",
+            "session_id": "16738bd7-9231-4655-b779-8b698b04b2ca",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_032845_bfdd",
+            "timestamp": "2026-08-05T03:28:45.888019+00:00",
+            "session_id": "90b9bae9-d9d4-43b5-8e78-517eebc5de67",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_040908_9680",
+            "timestamp": "2026-08-05T04:09:08.842254+00:00",
+            "session_id": "",
+            "request_summary": "Benoit Vatere — Full-Funnel Media Systems mastery extraction (forge)",
+            "intent_score": 3,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "benoit-vatere"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]
