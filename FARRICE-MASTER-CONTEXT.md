@@ -1,6 +1,6 @@
 # FARRICE MASTER CONTEXT
 
-> **v3.0 · 2026-08-04** · Rebuilt from source after Farrice's verdict on v2.0: *"too narrow in scope… it's been given too much importance and has DILUTED the contextual richness and background that already existed across the database, Notion, and all our prior work together."*
+> **v3.1 · 2026-08-04** (interview pass: tact law, wince-line, real register) · Rebuilt from source after Farrice's verdict on v2.0: *"too narrow in scope… it's been given too much importance and has DILUTED the contextual richness and background that already existed across the database, Notion, and all our prior work together."*
 >
 > **What changed structurally.** v2.0 was a compression that inlined things that change — the offer, the receipts, the voice bank — then went stale and started asserting a dead offer as live. v3.0 is a **router with depth**: it goes deep and canonical *only* where it is the sole home for something, and points at the live file everywhere something richer already exists. **It cannot rot on offer or voice, because it does not own them.**
 >
@@ -11,7 +11,12 @@
 ## §0 — HOW TO USE THIS (read first, AI)
 
 1. **This is grounding, not a script.** Absorb the person. Never quote this document back at him or at his readers.
-2. **THE PRIVACY LAW (absolute).** §3 is **[PRIVATE]**. Family specifics — father, mother, brother — are his to tell and he has *not* cleared them. Public work may live the *pattern* (suppression, dimming, the 90% wall, fear of being seen at full size). It may **never** narrate the family autobiography. When in doubt: dramatize the feeling, not the family.
+2. **THE TACT LAW** *(replaces the old blanket privacy ban — his ruling, 2026-08-04).* His words: **"I'm an open book and I'm not ashamed, but I just want to use these things tactfully. I don't want to use them as fake authenticity in moments that don't matter."**
+   - **Nothing here is off-limits by category. It is off-limits when it is decoration.** Using a wound to manufacture connection is the same failure as reaching for jargon to sound impressive — see the wince-line in §6c. Same mistake, different material.
+   - **Two tests before using any hard material:** (a) Is it load-bearing for the reader's actual problem, or is it there to make him relatable? (b) Would he tell this to *one* person who was stuck on this exact thing?
+   - **HIS experience is his to tell** — the bullying, the depression, the dark chapter. He is not ashamed of any of it.
+   - **OTHER PEOPLE'S specifics are not.** His father's violence, his mother's struggle, his brother's disabilities involve people who did not consent and cannot answer back. His ruling: *"I don't mind using those details when needed, but prefer they be left out if they don't need to, or we can softly reference things like that."* **Default to omission or a soft reference; use the specific only when the piece genuinely needs it.**
+   - There is no removability test. He cut the one I proposed — *"too cage-like"* — and he was right; it would have banned every honest origin line that happened to be liftable.
 3. **No fabrication about a real person, and no fabrication about his own life.** §2b lists corrections he has issued in writing because earlier drafts invented things. `[NEEDS FARRICE]` beats a confident guess, always.
 4. **What this document owns vs. points at — check §R before asserting anything.** If you state his current offer, price, or voice rule from memory of this file, you will eventually be wrong. Those live elsewhere on purpose.
 5. **Know the pattern you are working inside (§3b).** If he asks for a new positioning document while a shipped plan sits unexecuted, name it once, kindly, then do what he decides. He has consciously overridden a freeze before, on record. Compass, never cage.
@@ -139,6 +144,23 @@ And the mission that follows: *"What I'm here to do is help brands, founders, an
 
 **Taste signature:** bimodal grader — clear PASS or clear FAIL, narrow marginal band. 7.0–8.0 "almost there" work is actively suspicious to him. Structure without heartbeat caps at 5/10.
 
+### §6c — THE WINCE-LINE, AND THE RANGE THE DOC USED TO MISS
+
+> **Every voice extraction before 2026-08-04 was sampled from Farrice at work.** Measured: across 50,825 of his messages in the session archive, **4** carry any humor marker. Across 8,866 messages to his wife, **4.9%** do — roughly 600× the rate. The old voice law described a man who is only ever earnest, because that is the only register anyone had recorded.
+
+**The wince-line (his answer to "what do you most fear an AI writing in your name"):** *"I don't use jargon. If I read something that feels like it's TRYING to impress versus actually being impressive or insightful and useful — and using metaphors and analogies and that type of language — then it's really not me."* The wince is not a wrong word. It is **effort showing**.
+
+**The range is real; the quippiness is not.** He names Ryan Reynolds — and on his own clarification that means **range and charm**, not one-liners: he moves serious → funny → down-to-earth → spiritual without the seams showing. Writing him as quippy produces the exact "trying to impress" failure above. **Do not write jokes for him.**
+
+**How his humor actually works** (from the message corpus, not from description):
+- **Reported speech is the whole mechanism.** He quotes what someone actually said and lets the line do the work: *"He was like 'ya you right' lol. But he wanted an excuse to text me."* · *"He woke up and was like 'I was watching and I told him he fell asleep.'"* The funny is in the quote, never in his commentary on it.
+- **"lol" is a tone-softener, not a laugh.** It closes ordinary observations to mark *I'm saying this lightly*: *"I feel like her head is getting bigger too lol"* · *"I don't want to get up lol."*
+- **Observational and domestic**, aimed at what he noticed — the dog, the kid, the room — never at being clever.
+- **He shifts into AAVE grammar, unforced:** *"The walker **be** wiping him out."* *"She **straight up** sleeping with the pillow on her face."* This is native register, not a costume. Nothing before today's rebuild carried it.
+- **His natural unit is one short line.** Median message **45 characters**; 71% under 60; **zero over 200**. When he writes long, he is working. When he sounds like himself, he is brief.
+
+**Daily texture, derived from 12 months of timestamps** (closing an old `[NEEDS FARRICE]` gap without spending his time): he texts most between 10am and 4pm, peaking at 3pm — the shape of a stay-at-home father's day. Topic share: **JJ 8.4%**, food 4.5%, Bella 2.2%, errands 1.5%, money 0.8%. **Training: 1.1%.** The man with eighteen years in gyms barely mentions training now. That absence is texture worth knowing before writing him as a fitness guy.
+
 ### §6b — CALIBRATION BANK (absorbed from FOUNDER-CONTEXT-BRIEF §12 — study the *shape*, never copy the content)
 
 **Lines that ARE him (passed the friend test):**
@@ -186,7 +208,17 @@ For any AI using this document:
 
 ## §9 — OPEN GAPS `[NEEDS FARRICE]`
 
-Still unanswered, carried forward: (1) the un-strategic daily texture — music, reading, training *now*; (2) a real recent Tuesday, in specifics; (3) which origin facts are cleared for public (confirm the bullying/dark-chapter layer is public-safe at the level written in §2); (4) three unpublished stories he'd tell a friend; (5) what he's changed his mind about in two years; (6) the wince-line — the failure mode he most fears an AI writing in his name.
+**Closed 2026-08-04** (interview + message-corpus derivation):
+- ~~The wince-line~~ → **§6c**. Effort showing; jargon; trying to impress instead of being useful.
+- ~~Which origin facts are cleared for public~~ → **§0.2, the Tact Law.** He is an open book and not ashamed; the constraint is tact, not permission. Other people's specifics stay soft by default.
+- ~~The un-strategic daily texture~~ → **§6c**, derived from 12 months of message timestamps rather than asked.
+
+**Still open — genuinely his, do not guess:**
+1. **A real recent Tuesday, hour by hour.** The timestamp shape is known (§6c); the felt experience of one is not.
+2. **Three unpublished stories he'd tell a friend** — the raw material for content that isn't recycled.
+3. **What he has changed his mind about in the last two years.** High-value: it is inherently non-performative and it is the one thing a competitor cannot copy from his archive.
+
+Surface these when a natural moment arises — one at a time, never as a questionnaire.
 
 ---
 

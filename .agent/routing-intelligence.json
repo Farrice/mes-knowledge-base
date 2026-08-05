@@ -449,14 +449,14 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 82,
+            "total_routings": 93,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
-                "sean-dollwet-kdp-publishing": 7,
+                "sean-dollwet-kdp-publishing": 8,
                 "Research": 8,
                 "fresh-voice-system": 4,
                 "Content": 5,
@@ -487,18 +487,22 @@
                 "luke-iha-vsl-leads": 1,
                 "ali-abdaal-action-bias": 1,
                 "lamott-allen-really-real-writing": 1,
-                "gpt-image-2-director": 1,
+                "gpt-image-2-director": 6,
                 "creative-campaign-strategy": 1,
                 "briar-cochran-content-science": 1,
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 1,
                 "diandra-escobar-linkedin-growth": 1,
-                "evan-spiegel-distribution-architecture": 1
+                "evan-spiegel-distribution-architecture": 2,
+                "april-dunford-positioning": 1,
+                "kallaway-social-commerce": 1,
+                "mickmumpitz": 1,
+                "cinematic-documentary": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 7,
+                "sean-dollwet-kdp-publishing": 8,
                 "oren-operational-systems": 2,
                 "fresh-voice-system": 4,
                 "luke-iha-creative-strategy": 4,
@@ -544,8 +548,8 @@
                 "ali-abdaal-action-bias": 1,
                 "chase-hughes-context-engineering": 1,
                 "luke-iha-vicious-hooks": 3,
-                "gpt-image-2-director": 1,
-                "fraser-cottrell-paid-ads": 1,
+                "gpt-image-2-director": 6,
+                "fraser-cottrell-paid-ads": 6,
                 "system-audit": 2,
                 "justin-welsh-solopreneur": 1,
                 "briar-cochran-content-science": 1,
@@ -555,12 +559,20 @@
                 "design-md": 1,
                 "diandra-escobar-linkedin-growth": 1,
                 "nate-b-jones-context-engineering": 1,
-                "evan-spiegel-distribution-architecture": 1,
+                "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
-                "meg-heckman": 4
+                "meg-heckman": 4,
+                "april-dunford-positioning": 1,
+                "kallaway-social-commerce": 1,
+                "tom-segura-comedy-storytelling": 1,
+                "knowledge-architecture-studio": 1,
+                "mickmumpitz": 1,
+                "cinematic-documentary": 1,
+                "david-bayer-elite-communication": 1,
+                "dr-kriukow-humanization": 1
             },
             "tier_counts": {
-                "0": 82,
+                "0": 93,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -568,10 +580,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 58,
+                "hybrid": 69,
                 "finalize-auto": 24
             },
-            "ensemble_count": 41,
+            "ensemble_count": 50,
             "auto_miss_count": 4
         }
     },
@@ -2040,6 +2052,202 @@
             "workflow_used": "buyer-trigger-os",
             "ensemble": true,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_001019_e340",
+            "timestamp": "2026-08-05T00:10:19.134755+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "Interview me through the six open [NEEDS FARRICE] gaps in §9, one question at a time, five max per session. Start with the wince-line — the failure mode I most fear an AI writing in my name.",
+            "intent_score": 0,
+            "domain_detected": "april-dunford-positioning",
+            "experts_deployed": [
+                "april-dunford-positioning"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "april-dunford-positioning",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_001514_c011",
+            "timestamp": "2026-08-05T00:15:14.623841+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_001637_66e3",
+            "timestamp": "2026-08-05T00:16:37.110689+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_002039_6371",
+            "timestamp": "2026-08-05T00:20:39.787845+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_002834_314d",
+            "timestamp": "2026-08-05T00:28:34.843730+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_003421_42ab",
+            "timestamp": "2026-08-05T00:34:21.980439+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_004536_9766",
+            "timestamp": "2026-08-05T00:45:36.418866+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "would you just be able to go through my iMessages or my messages with Jennifer, my wife, so you could just farm the conversations and kind of see how I talk? I feel like it would be tough for me to tr",
+            "intent_score": 0,
+            "domain_detected": "kallaway-social-commerce",
+            "experts_deployed": [
+                "kallaway-social-commerce",
+                "tom-segura-comedy-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-social-commerce",
+            "ensemble": true,
+            "compound_pairing": "kallaway-social-commerce + tom-segura-comedy-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_005641_8a3d",
+            "timestamp": "2026-08-05T00:56:41.418252+00:00",
+            "session_id": "019fcef8-50e6-7041-b75b-fd4da06e76bf",
+            "request_summary": "what else do we need to do for this session and extraction before closing out",
+            "intent_score": 0,
+            "domain_detected": "evan-spiegel-distribution-architecture",
+            "experts_deployed": [
+                "evan-spiegel-distribution-architecture",
+                "knowledge-architecture-studio"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "evan-spiegel-distribution-architecture",
+            "ensemble": true,
+            "compound_pairing": "evan-spiegel-distribution-architecture + knowledge-architecture-studio",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_010458_8047",
+            "timestamp": "2026-08-05T01:04:58.231050+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "the range and charm when it comes to Reynolds",
+            "intent_score": 0,
+            "domain_detected": "mickmumpitz",
+            "experts_deployed": [
+                "mickmumpitz"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "mickmumpitz",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_010702_252b",
+            "timestamp": "2026-08-05T01:07:02.915732+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "hi, I'm an open book and I'm not ashamed, but I just want to use these things tactfully. I don't want to use them as fake authenticity in moments that don't matter.",
+            "intent_score": 0,
+            "domain_detected": "cinematic-documentary",
+            "experts_deployed": [
+                "cinematic-documentary",
+                "david-bayer-elite-communication"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "cinematic-documentary",
+            "ensemble": true,
+            "compound_pairing": "cinematic-documentary + david-bayer-elite-communication",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_011056_59d7",
+            "timestamp": "2026-08-05T01:10:56.072418+00:00",
+            "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca",
+            "request_summary": "A. Test 3 can be removed its to cage like\nb. Yes thats a good boundary. I don't mind using those details when needed, but prefer they be left out if they don't need to, or we can softly reference thin",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing",
+                "dr-kriukow-humanization"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": true,
+            "compound_pairing": "sean-dollwet-kdp-publishing + dr-kriukow-humanization",
             "feedback": null
         }
     ]
