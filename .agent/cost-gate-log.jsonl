@@ -158,3 +158,5 @@
 {"ts": "2026-08-05T00:20:40.254788+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-08-05T00:28:35.289129+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-08-05T00:34:22.742387+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-08-05T19:17:23.071270+00:00", "event": "check", "service": "monid", "decision": "approved", "request": "cd /Users/farricecain/Google\\ Antigravity && python3 -c \"\nimport json\nimport sys\n\n# Simulate a monid_client.py call going through the hook\npayload = {\n    'tool"}
+{"ts": "2026-08-05T19:17:23.170510+00:00", "event": "check", "service": "monid", "decision": "approved", "request": "python3 execution/monid_client.py log --query \"test research\" --cost 0.02 --results 10"}

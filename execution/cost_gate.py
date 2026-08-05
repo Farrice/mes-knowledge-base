@@ -93,6 +93,13 @@ SERVICES = {
                              "desc": "Gemini Deep Research (Ultra-covered accelerator)"},
     "perplexity-research":  {"type": "paid", "est_usd": 0.25, "ceiling_usd": 1.00,
                              "desc": "Perplexity sonar-deep-research (fallback accelerator)"},
+
+    # ─── Monid AI (MCP + execution/monid_client.py) ───
+    # Multi-provider research router (1500+ tools, 13+ providers). Actual cost varies
+    # by query complexity; Eddy's full report was $0.03. Conservative $0.10 estimate
+    # for per-call gating; measured costs typically $0.001–$0.10 depending on provider.
+    "monid":                {"type": "paid", "est_usd": 0.10, "ceiling_usd": 5.00,
+                             "desc": "Monid AI multi-provider research query"},
 }
 
 # ───────────────────────────────────────────────────────────────────

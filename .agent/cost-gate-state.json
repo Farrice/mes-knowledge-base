@@ -1,10 +1,10 @@
 {
-  "today_date": "2026-07-28",
+  "today_date": "2026-08-05",
   "today_spent_usd": 0.0,
   "today_quota_used": {
     "ultra-video": 0,
     "ultra-image": 0,
-    "ultra-text": 4
+    "ultra-text": 0
   },
   "session_spent_usd": 0.11,
   "session_started_at": "2026-05-25T00:13:55Z",

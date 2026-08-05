@@ -14428,7 +14428,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:19:27.979730+00:00",
+   "skill_last_fired": "2026-08-05T19:13:53.554812+00:00",
    "mtime": 1777489436.626059
   },
   {
@@ -14443,7 +14443,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:19:27.979730+00:00",
+   "skill_last_fired": "2026-08-05T19:13:53.554812+00:00",
    "mtime": 1777489628.1892393
   },
   {
@@ -14458,7 +14458,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T19:19:27.979730+00:00",
+   "skill_last_fired": "2026-08-05T19:13:53.554812+00:00",
    "mtime": 1777489709.3840518
   },
   {
@@ -24268,7 +24268,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "skill_last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1784342406.9245124
   },
   {
@@ -24283,7 +24283,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "skill_last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1784342406.924971
   },
   {
@@ -24298,7 +24298,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "skill_last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1784342406.925357
   },
   {
@@ -24313,7 +24313,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "skill_last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1784342406.925752
   },
   {
@@ -24328,7 +24328,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "skill_last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1784342406.9261174
   },
   {
@@ -24343,7 +24343,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "skill_last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1784342406.9265597
   },
   {
@@ -42259,7 +42259,7 @@
    "skill": null,
    "path": ".agent/workflows/briefs.md",
    "description": "Research-brief library \u2014 list, open, and render house-style HTML research briefs (Codex Antigravity design system); briefs also live on the Asset Command Center's \ud83d\udccb shelf",
-   "menu_status": "unreachable",
+   "menu_status": "reachable",
    "front_door": "/briefs",
    "has_prompts_v2": false,
    "family": null,
@@ -74325,7 +74325,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1785942480.2966642
   },
   {
@@ -75053,7 +75053,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-08-02T19:19:27.979730+00:00",
+   "last_fired": "2026-08-05T19:13:53.554812+00:00",
    "mtime": 1785942480.3122933
   },
   {
@@ -76467,7 +76467,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 6,
-   "last_fired": "2026-08-05T18:31:52.487679+00:00",
+   "last_fired": "2026-08-05T19:14:55.660260+00:00",
    "mtime": 1785942480.3480923
   },
   {

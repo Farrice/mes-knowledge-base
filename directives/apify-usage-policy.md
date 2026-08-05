@@ -1,8 +1,9 @@
 # Apify Usage Policy
 
 > **Monthly Budget Limit: $29.00 (Apify Starter plan)**
+> **Per-Run Cost Cap: $5.00 default** (enforced 2026-08-05, override via approval token)
 > This directive applies to ALL agents, workflows, and research tasks that use Apify.
-> **Last Updated: 2026-04-06**
+> **Last Updated: 2026-08-05**
 
 ## Purpose
 

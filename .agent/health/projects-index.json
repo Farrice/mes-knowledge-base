@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:42:45.826401+00:00",
+  "generated_at": "2026-08-05T19:15:02.966297+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -603,7 +603,7 @@
       "index_exists": true,
       "last_touched": "2026-06-30",
       "last_touched_source": "mtime",
-      "days": 35,
+      "days": 36,
       "prefix_collisions": {}
     },
     {

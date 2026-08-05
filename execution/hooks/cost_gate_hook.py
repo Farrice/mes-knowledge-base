@@ -93,6 +93,7 @@ PAID_PATTERNS = [
      lambda c: "gemini-deep-research"),
     (re.compile(r"python3?\s+\S*perplexity_client\.py\s.*--research|curl\b[^|;]*sonar-deep-research"),
      lambda c: "perplexity-research"),
+    (re.compile(r"python3?\s+\S*monid_client\.py\b"), lambda c: "monid"),
 ]
 
 
