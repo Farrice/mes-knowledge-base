@@ -1,6 +1,6 @@
-# Listening cut — 2026-08-04 (Tue deep focus: ICP movement)
-- Tension: a founder's creator batch is in flight and the one sentence that can turn the campaign off was never written where a creator could see it.
-- Receipt: "vetted creators + guidelines = safe content" vs a 12-creator campaign dark 11 days over nine words; the brief had "zero explicit restrictions on what creators couldn't say."
-- Thesis: claim safety is a creative input at the brief, not a gate at the end - what you can prove decides what creators can say, and what they can say is the angle.
-- Post seed: "Two hours before launch, someone finally watched the videos the way a regulator would." → full draft in the brief.
-- Docs fed: 03 gained the creator-batch trigger; 07 gained the compliance-purchaser state; 2 promises receipts, 3 insight rows, vault +2 READY · Full brief: _active/health-performance-ip-library/daily/2026-08-04-angle-map-listening-brief.md
+# Listening cut — 2026-08-05 (Wed deep focus: promises-not-kept deep dive)
+- Tension: the premium founder's "trusted brand" slide just got a market price: P&G is buying Thorne for $3.8B, and Thorne's buyers churned in public the same evening.
+- Receipt: promise "trusted partner to healthcare practitioners" vs reality: "RIP Thorne, it was nice knowing you" (855 up) and a 329-up replacement pick praised for "an owner who refuses to bend over or sell out."
+- Thesis: trust is underwritten by ownership, people, and visible process, not by the label, and buyers keep that ledger more accurately than brands assume.
+- Post seed: "Monday afternoon, CNBC. P&G announces it is buying Thorne... By dinner, the top post on r/Supplements was a funeral." → full draft in the brief.
+- Docs fed: 07 gained the ledger-keeping buyer, 03 gained the tier-acquisition trigger, +3 insight rows, +2 promises rows (first ownership-event row) · Full brief: _active/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md

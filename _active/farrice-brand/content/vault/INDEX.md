@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-05 | [trust-has-an-owner-post](2026-08-05-trust-has-an-owner-post.md) | LinkedIn post | Thesis · P3 | Authority | Bridge | READY |
+| 2026-08-05 | [buyers-ledger-teardown-post](2026-08-05-buyers-ledger-teardown-post.md) | Teardown post | Proof · P2 | Authority | Inner | READY |
 | 2026-08-04 | [eleven-day-sentence-post](2026-08-04-eleven-day-sentence-post.md) | LinkedIn post | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-04 | [eleven-day-sentence-script](2026-08-04-eleven-day-sentence-script.md) | 45-60s video script | Thesis · P2 | Growth | Outer | READY |
 | 2026-08-03 | [wave-lends-you-customers-post](2026-08-03-wave-lends-you-customers-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |
