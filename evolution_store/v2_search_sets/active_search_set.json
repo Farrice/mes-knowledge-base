@@ -3623,8 +3623,36 @@
         "gaming_flag": false
       },
       "notes": "10 workflows (4/4/2 tiers), 12 genius patterns, 7 exemplars, 6 signature moves, 10-dim rubric | blind-pass: PASS model-judged vs kallaway-real-hooks-top-performers + video-open-annotated (EVAL-060); A-tier pending Farrice verdict | heartbeat: 7/7 | renaissance audit 0 fail | Factual Grounding: 9 | Verification: PASS | Anchor: If the real expert read this output cold, would they say yes, that's how I think \u2014 genius.md and workflows carry his actual frameworks (Interrupt Theory, 4 S's, triple-hook alignment, lock-in zone) with verbatim timestamped quotes, not vocabulary imitation"
+    },
+    {
+      "trace_id": "20260805_115642",
+      "timestamp": "2026-08-05T11:56:42.893998",
+      "schema_version": "v3",
+      "component": "extract-mastery",
+      "expert": "eddy-ballesteros",
+      "workflow": "01-extract-virtuoso-mastery",
+      "quality": {
+        "composite": 7.0,
+        "intent_alignment": 9.0,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Frame-first extraction; brief anatomy is the crown asset feeding research-brief template build. Expert Standard held at 6 per prose_classifier cap (parallel structure is MES template-mandated; internal artifact, not delivery prose). | Factual Grounding: 8 | Verification: PASS"
     }
   ],
-  "total_cases": 128,
-  "last_updated": "2026-08-05T08:13:18.545353"
+  "total_cases": 129,
+  "last_updated": "2026-08-05T11:56:42.895426"
 }

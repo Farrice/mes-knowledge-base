@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 111,
+            "total_routings": 112,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -498,7 +498,7 @@
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 3,
+                "Extraction": 4,
                 "nate-b-jones-context-engineering": 5,
                 "ethan-smith-aeo": 1
             },
@@ -577,10 +577,11 @@
                 "caleb-ralston": 1,
                 "health-performance-geo-creative-strategist": 1,
                 "ethan-smith-aeo": 1,
-                "kallaway": 1
+                "kallaway": 1,
+                "eddy-ballesteros": 1
             },
             "tier_counts": {
-                "0": 111,
+                "0": 112,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -589,9 +590,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 82,
-                "finalize-auto": 29
+                "finalize-auto": 30
             },
-            "ensemble_count": 60,
+            "ensemble_count": 61,
             "auto_miss_count": 4
         }
     },
@@ -2572,6 +2573,23 @@
             "workflow_used": "nate-b-jones-context-engineering",
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_185642_aa02",
+            "timestamp": "2026-08-05T18:56:42.889956+00:00",
+            "session_id": "",
+            "request_summary": "Eddy Ballesteros Monid research-brief extraction: MES 3.0 W01 report + frame-cited brief-anatomy teardown + monid-facts capture (37 frames watched, 10 patterns, receipts on costs)",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "eddy-ballesteros"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-extract-virtuoso-mastery",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]
