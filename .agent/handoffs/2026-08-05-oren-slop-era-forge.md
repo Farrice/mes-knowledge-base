@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** oren-slop-era-forge  
-**Full path:** .agent/handoffs/2026-08-05-oren-slop-era-forge.md  
-**Date:** 2026-08-05 (today)  
-**Status:** ready  
-**Title:** Oren Slop-Era Creative Strategy — Forge Extraction (2 Fresh 2026 Videos)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume oren-slop-era-forge` for this one.
-
----
-
 ---
 thread: oren-slop-era-forge
 status: ready
@@ -67,4 +55,3 @@ Judge extractions/oren-slop-era-creative-strategy/blind-pass-sample.md side-by-s
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

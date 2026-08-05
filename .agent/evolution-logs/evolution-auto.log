@@ -2785,3 +2785,61 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-05T07:00:01.848035",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-05.md",
+        "traces_24h": 14,
+        "routing_decisions_24h": 14,
+        "queued_phase2": 5,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 5,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 0.95,
+            "joey-cinema-os": 1.24,
+            "ben-watkins-storytelling": 1.6,
+            "banana-pro-director": 0.93,
+            "gemini-api-dev": 0.92,
+            "dave-clark": 1.08,
+            "ghostwriting-voice-engine": 1.05,
+            "supercomputer": 0.51,
+            "doc-coauthoring": 0.51,
+            "samuel-thompson-product-launch": 1.09,
+            "meg-heckman-buyer-trigger-os": 1.54,
+            "oren-slop-era-creative-strategy": 0.95,
+            "benoit-vatere": 0.95
+          },
+          "candidates_appended": 3,
+          "quality_finalizes_counted": 6,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 96.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 48.0
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-01T07:00:06.761884",
+      "reason": "not_due_yet",
+      "days_remaining": 3.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 4.0
+    }
+  ]
+}

@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-08",
     "usage": {
-        "total_queries": 140,
-        "estimated_cost_usd": 2.8,
+        "total_queries": 177,
+        "estimated_cost_usd": 3.54,
         "queries": [
             {
                 "timestamp": "2026-08-01T13:45:08.792869+00:00",
@@ -1124,6 +1124,302 @@
                 "description": "creative strategy advertising trends \u2014 latest developments from the past 14 days (as of 2026-08-04). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
                 "task_context": "research-engine-market_data",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:12.164335+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:17.694630+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:22.573414+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:32.093933+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:39.092863+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:44.732870+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:51.524114+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:45:58.455266+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:04.736659+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:09.381890+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:14.130282+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:19.840680+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:27.627580+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items publis",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:33.576485+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:39.203171+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:45.245484+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:51.656719+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:46:57.767154+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:04.793569+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:14.853001+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:21.146889+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:28.137730+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:33.793699+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:37.827777+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:47:43.248845+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:06.040550+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in th",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:10.354077+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:17.302551+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:22.317883+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:28.371498+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:32.862762+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:38.947603+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:43.825638+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:51.506127+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:56.087511+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:48:59.698073+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-05T13:49:04.716557+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -1134,7 +1430,7 @@
     "loop_detection": {
         "current_task_query_count": 2,
         "current_task_name": "research-engine-market_data",
-        "last_query_timestamp": "2026-08-04T13:48:58.455814+00:00",
+        "last_query_timestamp": "2026-08-05T13:49:04.716557+00:00",
         "consecutive_low_info_queries": 0
     }
 }

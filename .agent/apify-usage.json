@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.409,
+  "spent_dollars": 0.5895,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -189,6 +189,34 @@
       "cost": 0.019,
       "pricing_model": "per_result",
       "note": "direct-API async \u2014 comments pulls: P&G-Thorne thread (11) + fat-burner review thread (8)"
+    },
+    {
+      "ts": "2026-08-05T13:10:20.578876+00:00",
+      "actor": "instagram",
+      "results": 1,
+      "cost": 0.0005,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-05T13:10:28.426538+00:00",
+      "actor": "sc-tiktok-hashtag",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-05T13:10:39.669477+00:00",
+      "actor": "sc-tiktok",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-05T13:11:04.809682+00:00",
+      "actor": "youtube",
+      "results": 20,
+      "cost": 0.1,
+      "pricing_model": "per_result"
     }
   ],
   "pulse_budget_dollars": 5.0,

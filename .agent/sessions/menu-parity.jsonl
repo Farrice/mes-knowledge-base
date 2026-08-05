@@ -47,3 +47,5 @@
 {"ts": "2026-08-04T23:13:50.019634+00:00", "source": "end-session", "minted": 0, "remaining_drift": 0}
 {"ts": "2026-08-05T03:27:50.499626+00:00", "source": "end-session", "minted": 0, "remaining_drift": 0}
 {"ts": "2026-08-05T12:32:15.043224+00:00", "source": "end-session", "minted": 0, "remaining_drift": 0}
+{"ts": "2026-08-05T12:53:00.178600+00:00", "source": "end-session", "minted": 0, "remaining_drift": 0}
+{"ts": "2026-08-05T13:40:07+00:00", "source": "nightly-sweep", "minted": 0, "remaining_drift": 0, "skipped": 0, "missing_front_doors": 0, "notes": []}

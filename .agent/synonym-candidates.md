@@ -46,3 +46,9 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 
 - `writers-room` -> `ward-farnsworth-rhetorical-mastery` (manual load, 2026-07-27T11:33:16.233142)
 - `writers-room` -> `writers-room` (manual load, 2026-07-27T16:56:47.267244)
+
+## 2026-08-05
+
+- `extract-forge` -> `oren-slop-era-creative-strategy` (manual load, 2026-08-04T19:50:59.318296)
+- `extract-forge` -> `benoit-vatere` (manual load, 2026-08-04T21:09:08.884905)
+- `extract-forge` -> `caleb-ralston-personal-brand` (manual load, 2026-08-04T20:56:37.303172)

@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-05** [oren-slop-era-forge/ready] [Oren Slop-Era Creative Strategy — Forge Extraction (2 Fresh 2026 Videos)](2026-08-05-oren-slop-era-forge.md) — Run /slop-era-audit on a supplement/performance brand as the Cash Launch free teardown
+- **2026-08-05** [health-performance-geo-daily-brief/active] [2026-08-05 Angle Map Listening Brief: trust has an owner, promises-not-kept ownership-event deep dive, flagship post, teardown post, +3 insight rows, +2 promises rows; Google Drive disabled by current automation instruction](2026-08-05-health-performance-geo-daily-brief.md) — 2026-08-05 Angle Map Listening Brief: trust has an owner, promises-not-kept ownership-event deep dive, flagship post, teardown post, +3 insight rows, +2 promises rows; Google Drive disabled by current automation instruction
 - **2026-08-05** [health-performance-ip-library/active] [Health Performance Ip Library — Latest Exec Cut](2026-08-05-health-performance-ip-library.md) — Health Performance Ip Library — Latest Exec Cut
 - **2026-08-04** [benoit-vatere/active] [Benoit Vatere — Blind Pass Sample](2026-08-04-benoit-vatere.md) — Benoit Vatere — Blind Pass Sample
 - **2026-08-04** [oren-slop-era-creative-strategy/active] [Oren Slop Era Creative Strategy — Blind Pass Sample](2026-08-04-oren-slop-era-creative-strategy.md) — Oren Slop Era Creative Strategy — Blind Pass Sample

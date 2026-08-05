@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T06:00:05.894509",
+  "timestamp": "2026-08-05T06:00:05.702873",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (56 projects, 2 drift items)"
@@ -12,9 +12,9 @@
     "exit": 0,
     "findings": 12,
     "ids": [
-      "platform_drift",
       "dead_hooks",
       "dead_launchd",
+      "stale_feeds",
       "wiring_orphans",
       "org_drift",
       "verify_born_intent_drift.py",
@@ -31,8 +31,8 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 0,
-    "coverage": "3593/3593",
+    "new": 33,
+    "coverage": "3626/3626",
     "orphans_total": 10,
     "flips": [],
     "orphans_sample": [

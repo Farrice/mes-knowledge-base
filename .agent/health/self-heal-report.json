@@ -1,13 +1,7 @@
 {
- "ts": "2026-08-04T06:49:04.157354",
+ "ts": "2026-08-05T07:48:11.648801",
  "mode": "report",
  "rows": [
-  {
-   "id": "platform_drift",
-   "cls": "JUDGMENT",
-   "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
-   "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
-  },
   {
    "id": "dead_hooks",
    "cls": "JUDGMENT",
@@ -24,12 +18,24 @@
   {
    "id": "dead_launchd",
    "cls": "JUDGMENT",
-   "what": "1 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 5d ago (cadence allows 3d)",
+   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
    "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
    "detail": {
     "not_loaded": [],
     "stale": [
-     "com.antigravity.cos-notify: last ran 5d ago (cadence allows 3d)"
+     "com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d)",
+     "com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)"
+    ]
+   }
+  },
+  {
+   "id": "stale_feeds",
+   "cls": "JUDGMENT",
+   "what": "1 declared feed(s) starving \u2014 the producing loop is not firing: .agent/health/verify-fleet.json is 10d old (max 9d; producer: Sunday verify-fleet launchd run)",
+   "fix": "run the named producer once by hand, then find why its schedule missed",
+   "detail": {
+    "stale": [
+     ".agent/health/verify-fleet.json is 10d old (max 9d; producer: Sunday verify-fleet launchd run)"
     ]
    }
   },
@@ -72,7 +78,7 @@
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 5d ago"
+      "detail": "stamped done, then touched 6d ago"
      }
     ],
     "deferred_files": 1
@@ -81,7 +87,7 @@
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 8d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
@@ -105,7 +111,7 @@
   {
    "id": "verify_system.py",
    "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 8d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_system.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {

@@ -3567,8 +3567,36 @@
         "gaming_flag": false
       },
       "notes": "Worked: Apify comments pull on the Thorne funeral thread gave primary verbatim within hours of a $3.8B event; 16-signal sweep gave honest 12-angle field; ownership lane is new to the ledger. Didn't: 2 ashwagandha search runs returned 0 (search URLs unreliable on this actor); brief file trips finish-gate on report structure (standing false positive, shipped assets WARN-clean) | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260805_063448",
+      "timestamp": "2026-08-05T06:34:48.108436",
+      "schema_version": "v3",
+      "component": "angle-map-listening-engine",
+      "expert": "health-performance-geo-creative-strategist",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 5.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "what worked: ownership-event trust underwriter angle, verified buyer verbatim, claim-risk cleanup | platform: codex | Verification: PASS local gates; content_finish_gate WARN prose_classifier parallel-structure heuristic; grounding_guard WARN report-density heuristic; Drive disabled by current instruction | Anchor: V4 golden sample"
     }
   ],
-  "total_cases": 126,
-  "last_updated": "2026-08-05T05:51:21.746166"
+  "total_cases": 127,
+  "last_updated": "2026-08-05T06:34:48.109763"
 }
