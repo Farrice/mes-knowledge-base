@@ -42254,6 +42254,19 @@
    "mtime": 1775779996.312131
   },
   {
+   "id": "briefs",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/briefs.md",
+   "description": "Research-brief library \u2014 list, open, and render house-style HTML research briefs (Codex Antigravity design system); briefs also live on the Asset Command Center's \ud83d\udccb shelf",
+   "menu_status": "unreachable",
+   "front_door": "/briefs",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785956749.477515
+  },
+  {
    "id": "browder-cause-campaign",
    "kind": "command-workflow",
    "skill": null,
@@ -81490,7 +81503,7 @@
   }
  ],
  "fingerprint": [
-  9163,
-  1785942602.804
+  9165,
+  1785956769.266
  ]
 }

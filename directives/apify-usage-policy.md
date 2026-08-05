@@ -43,7 +43,7 @@ Apify provides scraping, social listening, and structured data extraction that *
 
 ---
 
-## The 17 Approved Actors (as of 2026-07-16)
+## The 21 Approved Actors (as of 2026-08-05)
 
 These are the only actors loaded in `.mcp.json` and `execution/apify_client.py`. Adding new actors requires editing both files. **Both files must stay in sync** — `.mcp.json` (--tools list) and `execution/apify_client.py` (ACTORS dict).
 
@@ -77,6 +77,23 @@ These are the only actors loaded in `.mcp.json` and `execution/apify_client.py`.
 | `sc-youtube-comments` | `scrape-creators/best-youtube-comments-scraper` | YouTube video comments | $0.25 | pay_per_event |
 
 **Why these actors**: Best enrichment option for social listening. Scrape Creators actors are mission-built for consistent structured data from TikTok and YouTube — superior to generic scrapers. Transcripts are especially valuable for research (direct voice, not interpreted). No fallback to cheaper actors — use these for their category or reroute to Perplexity.
+
+### Expansion: Content & Knowledge Work Actors (added 2026-08-05)
+
+**Goal**: Expand research capability for content discovery, competitive intelligence, and knowledge work. All newly registered actors are pay_per_event (actual cost from Apify response) with default $0.25 per-run ceiling. See [Per-Run Cost-Gate](#per-run-cost-gate-default-500-over-requires-approval).
+
+| Actor key | Apify ID | Purpose | Ceiling | Pricing | Notes |
+|---|---|---|---|---|---|
+| `linkedin-search` | `harvestapi/linkedin-profile-search` | LinkedIn profile search + filtering | $0.25 | pay_per_event | 4.81★ (744 users). Search profiles by title, location, company. Cost: ~$0.10/search page + $0.004–$0.01/profile. Rate limits apply to 300k+ profiles. |
+| `linkedin-posts` | `apimaestro/linkedin-profile-posts` | LinkedIn posts + engagement metrics | $0.25 | pay_per_event | 4.81★ (20,929 users). Extract posts, likes, comments from public profiles. Cost: ~$5.00 per 1,000 posts (manual pagination needed for 100+ posts). |
+| `twitter` | `kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest` | X/Twitter search + timeline | $0.25 | pay_per_result | 4.58★ (415 users). Lowest-cost tweet scraper: $0.18 per 1,000 tweets (~$0.00018/tweet). Supports search, username, hashtag queries. Recent changelog (active maintenance). |
+| `facebook-ads` | `curious_coder/facebook-ads-library-scraper` | Facebook Ads Library (current + historical) | $0.25 | pay_per_event | 4.74★ (930 users). Scrape current ads + 7 years historical (1 year in EU). Cost: ~$0.75 per 1,000 ads (47× cheaper than Apify's official scraper). Updated Jan 30, 2026. |
+
+**When to use these actors**:
+- **LinkedIn search**: prospect research, recruiter leads, founder discovery, competitive hiring analysis
+- **LinkedIn posts**: content performance benchmarking, competitor publishing cadence, thought leadership validation
+- **Twitter**: trend discovery, founder/expert activity monitoring, real-time signal verification, engagement patterns
+- **Facebook Ads**: competitive ad spend analysis, creative/copy testing patterns, campaign targeting reverse-engineering
 
 ---
 

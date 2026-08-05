@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.5895,
+  "spent_dollars": 0.5922,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -217,6 +217,20 @@
       "results": 20,
       "cost": 0.1,
       "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-05T19:13:42.973688+00:00",
+      "actor": "linkedin-search",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-05T19:13:57.078029+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0027,
+      "pricing_model": "pay_per_result"
     }
   ],
   "pulse_budget_dollars": 5.0,

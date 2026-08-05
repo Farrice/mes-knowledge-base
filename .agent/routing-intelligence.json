@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 112,
+            "total_routings": 115,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -468,7 +468,7 @@
                 "Strategy": 4,
                 "luke-iha-copy-blocks": 4,
                 "adam-sandler-second-brain-gtm": 1,
-                "jen-santulan-listing-content": 4,
+                "jen-santulan-listing-content": 5,
                 "joey-cinema-os": 2,
                 "creative-direction": 1,
                 "kallaway-illusion-of-novelty": 3,
@@ -499,7 +499,7 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "Extraction": 4,
-                "nate-b-jones-context-engineering": 5,
+                "nate-b-jones-context-engineering": 7,
                 "ethan-smith-aeo": 1
             },
             "expert_counts": {
@@ -514,12 +514,12 @@
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
                 "supercomputer": 6,
-                "doc-coauthoring": 11,
+                "doc-coauthoring": 13,
                 "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
                 "health-performance-angle-map-listening-engine": 2,
-                "jen-santulan-listing-content": 4,
+                "jen-santulan-listing-content": 5,
                 "joey-cinema-os": 2,
                 "ben-watkins-storytelling": 6,
                 "RoboNuggets source-to-skill": 1,
@@ -561,7 +561,7 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 2,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 6,
+                "nate-b-jones-context-engineering": 8,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
@@ -581,7 +581,7 @@
                 "eddy-ballesteros": 1
             },
             "tier_counts": {
-                "0": 112,
+                "0": 115,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -589,10 +589,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 82,
+                "hybrid": 85,
                 "finalize-auto": 30
             },
-            "ensemble_count": 61,
+            "ensemble_count": 63,
             "auto_miss_count": 4
         }
     },
@@ -2589,6 +2589,59 @@
             "mode": "finalize-auto",
             "workflow_used": "01-extract-virtuoso-mastery",
             "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_190631_f50c",
+            "timestamp": "2026-08-05T19:06:31.071533+00:00",
+            "session_id": "27489b5d-bbb2-4ded-8b32-3c0d453e6704",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_191253_d073",
+            "timestamp": "2026-08-05T19:12:53.859990+00:00",
+            "session_id": "27489b5d-bbb2-4ded-8b32-3c0d453e6704",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_191353_0e9b",
+            "timestamp": "2026-08-05T19:13:53.554812+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "run /go : https://www.zillow.com/homedetails/5200-Armida-Dr-Woodland-Hills-CA-91364/19941676_zpid/ Jen needs us to work our workflow for hooks and scripts in the way that we have always been doing for",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
             "compound_pairing": null,
             "feedback": null
         }

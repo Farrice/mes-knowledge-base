@@ -1,7 +1,14 @@
 {
- "ts": "2026-08-05T11:42:37.217839",
+ "ts": "2026-08-05T12:14:53.717314",
  "mode": "heal",
  "rows": [
+  {
+   "id": "stale_slash_commands",
+   "cls": "JUDGMENT",
+   "what": "1 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
+   "fix": "debug the append region in execution/generate_slash_commands.py",
+   "action": "escalated"
+  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -104,7 +111,7 @@
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
@@ -127,13 +134,6 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
-   "action": "escalated"
-  },
-  {
-   "id": "verify_system.py",
-   "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

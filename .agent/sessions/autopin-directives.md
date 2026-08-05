@@ -1,7 +1,7 @@
-# Directives — Ai Slop Ban Bank
+# Directives — Apify Usage Policy
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/OPERATORS-GUIDE.md, /Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-engine.md, /Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/SKILL.md, /Users/farricecain/Google Antigravity/execution/prose_classifier.py, /Users/farricecain/Google Antigravity/directives/ai-slop-ban-bank.md
+**Artifacts:** /Users/farricecain/Google Antigravity/execution/render_brief.py, /Users/farricecain/Google Antigravity/execution/asset_index.py, /Users/farricecain/Google Antigravity/execution/asset_gallery.py, /Users/farricecain/Google Antigravity/execution/apify_client.py, /Users/farricecain/Google Antigravity/directives/apify-usage-policy.md
 
 **Retrieve:** `/resume directives`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).

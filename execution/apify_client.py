@@ -56,6 +56,14 @@ from typing import Optional
 
 import requests
 
+# Cost-gate integration for approval tokens
+try:
+    from cost_gate import consume_approval
+except ImportError:
+    def consume_approval(service: str) -> bool:
+        """Fallback if cost_gate can't be imported."""
+        return False
+
 # ---------------------------------------------------------------------------
 # Paths & Constants
 # ---------------------------------------------------------------------------
@@ -68,6 +76,7 @@ WARN_FLAG = BASE / ".agent" / "apify-budget-warning.flag"
 PLAN_DOLLARS = 29.00
 SOFT_WARN_PCT = 0.70   # 70% → yellow, prefer cheap actors
 HARD_STOP_PCT = 0.90   # 90% → red, refuse new runs
+PER_RUN_CAP_USD = 5.00  # Per-run cost estimate guard (added 2026-08-05)
 
 # Curated actor whitelist — must match --tools in .mcp.json.
 #
@@ -98,6 +107,12 @@ ACTORS = {
     "sc-youtube-transcripts": {"id": "scrape-creators/best-youtube-transcripts-scraper", "pricing": "pay_per_event"},
     "sc-youtube-channels":    {"id": "scrape-creators/best-youtube-channels-scraper",    "pricing": "pay_per_event"},
     "sc-youtube-comments":    {"id": "scrape-creators/best-youtube-comments-scraper",    "pricing": "pay_per_event"},
+
+    # Content & Knowledge Work Expansion (added 2026-08-05)
+    "linkedin-search": {"id": "harvestapi/linkedin-profile-search", "pricing": "pay_per_event"},
+    "linkedin-posts":  {"id": "apimaestro/linkedin-profile-posts",  "pricing": "pay_per_event"},
+    "twitter":         {"id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest", "pricing": "pay_per_result", "cost_per_result": 0.00018},
+    "facebook-ads":    {"id": "curious_coder/facebook-ads-library-scraper", "pricing": "pay_per_event"},
 }
 
 API_URL_TEMPLATE = "https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items"
@@ -224,6 +239,23 @@ def run_actor(
         estimated = actor_config["cost_per_result"] * max_results
     else:  # pay_per_event — use ceiling as estimate
         estimated = max_cost
+
+    # Per-run cost-gate: if estimated > $5 default cap, require approval token
+    if estimated > PER_RUN_CAP_USD and not allow_expensive:
+        if not consume_approval("apify-deep-dive"):
+            return {
+                "status": "cost_ceiling_exceeded",
+                "fallback": True,
+                "message": (
+                    f"Estimated run cost (${estimated:.4f}) exceeds per-run cap (${PER_RUN_CAP_USD:.2f}). "
+                    f"Override with approval token:\n"
+                    f"  python3 execution/cost_gate.py approve --service apify-deep-dive --minutes 15\n"
+                    f"Then retry this command."
+                ),
+                "cost_estimate": estimated,
+                "per_run_cap": PER_RUN_CAP_USD,
+                "items": [],
+            }
 
     projected_spent = usage["spent_dollars"] + estimated
     projected_pct = projected_spent / usage["plan_dollars"]
@@ -839,6 +871,143 @@ def cmd_sc_youtube_comments(args):
 
 
 # ---------------------------------------------------------------------------
+# Content & Knowledge Work Expansion (added 2026-08-05)
+# ---------------------------------------------------------------------------
+
+def cmd_linkedin_search(args):
+    """
+    harvestapi/linkedin-profile-search: scrape LinkedIn profiles via search.
+    Real schema: query (str), limit (int), filters (dict optional).
+    Usage:
+        python execution/apify_client.py linkedin-search "product managers in SF" --limit 20
+    """
+    if not args.query:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "linkedin-search requires a search query.",
+            "items": []
+        }, indent=2))
+        return
+
+    run_input = {
+        "query": args.query,
+        "limit": args.limit,
+    }
+    result = run_actor(
+        "linkedin-search",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
+def cmd_linkedin_posts(args):
+    """
+    apimaestro/linkedin-profile-posts: scrape LinkedIn posts from profile.
+    Real schema: profileUrls (array) or profileIds (array), maxPosts (int).
+    Usage:
+        python execution/apify_client.py linkedin-posts "https://www.linkedin.com/in/johndoe/" --limit 50
+    """
+    if not args.profile:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "linkedin-posts requires a LinkedIn profile URL or ID.",
+            "items": []
+        }, indent=2))
+        return
+
+    # Accept URL or bare ID
+    profile = args.profile
+    if not profile.startswith("http"):
+        profile = f"https://www.linkedin.com/in/{profile}/"
+
+    run_input = {
+        "profileUrls": [profile],
+        "maxPosts": args.limit,
+    }
+    result = run_actor(
+        "linkedin-posts",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
+def cmd_twitter(args):
+    """
+    kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest:
+    scrape tweets via search, hashtag, username, or timeline.
+    Real schema: query (str) or tweetIds (array), limit (int).
+    Usage:
+        python execution/apify_client.py twitter "python tips" --limit 50
+        python execution/apify_client.py twitter --username elonmusk --limit 20
+        python execution/apify_client.py twitter --hashtag ML --limit 30
+    """
+    run_input = {"limit": args.limit}
+
+    if args.query:
+        run_input["query"] = args.query
+    elif args.username:
+        run_input["query"] = f"from:{args.username.lstrip('@')}"
+    elif args.hashtag:
+        run_input["query"] = f"#{args.hashtag.lstrip('#')}"
+    else:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "twitter requires --query, --username, or --hashtag.",
+            "items": []
+        }, indent=2))
+        return
+
+    result = run_actor(
+        "twitter",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
+def cmd_facebook_ads(args):
+    """
+    curious_coder/facebook-ads-library-scraper: scrape Facebook Ads Library.
+    Real schema: searchTerm (str), adType (str: 'all'|'political'|'social'), limit (int).
+    Usage:
+        python execution/apify_client.py facebook-ads "Tesla" --type all --limit 50
+    """
+    if not args.query:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "facebook-ads requires a search term.",
+            "items": []
+        }, indent=2))
+        return
+
+    run_input = {
+        "searchTerm": args.query,
+        "adType": args.ad_type,
+        "limit": args.limit,
+    }
+    result = run_actor(
+        "facebook-ads",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -953,6 +1122,31 @@ def main():
     psc_yt_comments.add_argument("--limit", type=int, default=50)
     _add_pay_per_event_args(psc_yt_comments)
 
+    # Content & Knowledge Work Expansion (added 2026-08-05)
+    pli_search = sub.add_parser("linkedin-search", help="LinkedIn profile search")
+    pli_search.add_argument("query", help="Search query (e.g. 'product managers in SF')")
+    pli_search.add_argument("--limit", type=int, default=20)
+    _add_pay_per_event_args(pli_search)
+
+    pli_posts = sub.add_parser("linkedin-posts", help="LinkedIn profile posts")
+    pli_posts.add_argument("profile", help="LinkedIn profile URL or handle")
+    pli_posts.add_argument("--limit", type=int, default=50)
+    _add_pay_per_event_args(pli_posts)
+
+    ptwitter = sub.add_parser("twitter", help="X/Twitter search (low-cost)")
+    ptwitter.add_argument("query", nargs="?", default="", help="Search query")
+    ptwitter.add_argument("--username", help="Twitter username (@handle)")
+    ptwitter.add_argument("--hashtag", help="Hashtag (#tag)")
+    ptwitter.add_argument("--limit", type=int, default=50)
+    _add_pay_per_event_args(ptwitter)
+
+    pfb_ads = sub.add_parser("facebook-ads", help="Facebook Ads Library scraper")
+    pfb_ads.add_argument("query", help="Search term (brand, company, keyword)")
+    pfb_ads.add_argument("--type", dest="ad_type", default="all",
+                         help="Ad type: all|political|social (default: all)")
+    pfb_ads.add_argument("--limit", type=int, default=50)
+    _add_pay_per_event_args(pfb_ads)
+
     args = p.parse_args()
 
     handlers = {
@@ -976,6 +1170,10 @@ def main():
         "sc-youtube-transcripts": cmd_sc_youtube_transcripts,
         "sc-youtube-channels":    cmd_sc_youtube_channels,
         "sc-youtube-comments":    cmd_sc_youtube_comments,
+        "linkedin-search": cmd_linkedin_search,
+        "linkedin-posts":  cmd_linkedin_posts,
+        "twitter":         cmd_twitter,
+        "facebook-ads":    cmd_facebook_ads,
     }
     handlers[args.cmd](args)
 
