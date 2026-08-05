@@ -2484,6 +2484,12 @@
       "command": "/operator-autopilot",
       "skills": []
     },
+    "oren-slop-era-creative-strategy": {
+      "command": "/oren-slop-era-creative-strategy",
+      "skills": [
+        "oren-slop-era-creative-strategy"
+      ]
+    },
     "oren-taste-development": {
       "command": "/oren-taste-development",
       "skills": [

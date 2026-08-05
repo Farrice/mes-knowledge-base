@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 69 agent(s) had no invocation card. Stubs below are machine-
+> 70 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2111,6 +2111,16 @@ DOMAIN: agentic orchestration, intent validation, ambiguity detection, clarity s
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Operator Autopilot is the low-friction front door for the Antigravity system. It receives messy context, builds the shared Co-Creative Launchpad Packet, vali...
 ENTRY PROMPT: agents/operator-autopilot/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Oren John
+DOMAIN: slop-era creative strategy / premium brand building / consumer insight / marketer training
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Oren John: creative strategist and creative director; ex-SVP Marketing and VP Product across CPG, consumer electronics, and outdoors; leads creative teams at...
+ENTRY PROMPT: agents/oren-slop-era-creative-strategy/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

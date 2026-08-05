@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 94,
+            "total_routings": 95,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -497,7 +497,8 @@
                 "april-dunford-positioning": 1,
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
-                "cinematic-documentary": 1
+                "cinematic-documentary": 1,
+                "Extraction": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
@@ -569,10 +570,11 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "david-bayer-elite-communication": 2,
-                "dr-kriukow-humanization": 1
+                "dr-kriukow-humanization": 1,
+                "oren-john": 1
             },
             "tier_counts": {
-                "0": 94,
+                "0": 95,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -581,7 +583,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 70,
-                "finalize-auto": 24
+                "finalize-auto": 25
             },
             "ensemble_count": 51,
             "auto_miss_count": 4
@@ -2266,6 +2268,23 @@
             "workflow_used": "fresh-voice-system",
             "ensemble": true,
             "compound_pairing": "fresh-voice-system + david-bayer-elite-communication",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_025059_6eb5",
+            "timestamp": "2026-08-05T02:50:59.274759+00:00",
+            "session_id": "",
+            "request_summary": "Oren John — Slop-Era Creative Strategy mastery extraction (forge expansion, 2 fresh 2026 sources watched with frames)",
+            "intent_score": 4,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "oren-john"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

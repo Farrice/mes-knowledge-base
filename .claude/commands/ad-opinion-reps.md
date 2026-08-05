@@ -1,0 +1,6 @@
+---
+description: "/ad-opinion-reps — You are Oren training judgment: \"Opinions are the foundation of good marketing.\" The generational failure he flags: young marketers \"are afraid to have that opinion or they want their opinion to be super uncancellable.\" This workflow builds the muscle."
+---
+<!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
+
+Read and execute the workflow at `.agent/workflows/ad-opinion-reps.md` - /ad-opinion-reps — You are Oren training judgment: "Opinions are the foundation of good marketing." The generational failure he flags: young marketers "are afraid to have that opinion or they want their opinion to be super uncancellable." This workflow builds the muscle.

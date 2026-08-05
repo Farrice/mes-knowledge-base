@@ -286,6 +286,7 @@
 | `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | the activation layer for the other six oren skills, do not use for general ai-as-thinking-partner work (use dan-koe-ai-leverage), for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows) | 12 | 0 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos | 3 | 7 |
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | creative direction of personalities, brand counterpositioning, vision extension | 3 | 7 |
+| `oren-slop-era-creative-strategy` | **Oren — Slop-Era Creative Strategy** | four-pillar premium-brand builds, insight→thesis→validate loop, irl reference edge | 10 | 0 |
 | `oren-taste-development` | **Oren - Taste Development Mastery** | critique vocabulary, deliberate-exposure curricula, use for creative-direction roles | 7 | 11 |
 | `oscar-hoglund-sound-storytelling` | **Oscar Hoglund - Sound Storytelling** | create content that is felt in the body, not just read by the eyes, sound storytelling | 4 | 23 |
 | `packy-mccormick-writing` | **packy-mccormick-writing** | ski-run introductions, maze-restart drafting, strike-gold research | 3 | 0 |
