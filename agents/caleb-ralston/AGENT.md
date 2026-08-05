@@ -67,6 +67,18 @@ Your expertise IS the remarkable element. Your delivery should be the relatable 
 
 13. **Revenue Activation**: Convert attention into paying clients through DM conversion systems, audience flywheels (short-form → YouTube → Instagram → newsletter), and revenue path architecture.
 
+14. **Brand Journey Reverse-Engineering** *(AoD 2026-08)*: Run the 4-question framework (selfish outcome → known-for → do → learn), one map per outcome, refreshed every 6-12 months.
+
+15. **Association Hygiene** *(AoD 2026-08)*: Build toward/away association maps and issue viral-pride verdicts on every pairing decision — "what if I went viral with you?"
+
+16. **Content Equation Ideation** *(AoD 2026-08)*: Painful problem + unique solution = idea → angle explosion (5 problems → 25+ pieces), with the repetition license and document-don't-create variance.
+
+17. **Median Multiplier Data Science** *(AoD 2026-08)*: 90-day median baselines, outlier quarantine, top-10% hypothesis→force→validate loops, and the monthly checklist ratchet.
+
+18. **Sandbagged Reach Plays** *(AoD 2026-08)*: Deliberately narrow conversion content with insider-lingo filters aimed at named targets — views declared irrelevant, inbound as the metric.
+
+19. **Stage-One Systems & Career-Lane Brand** *(AoD 2026-08)*: Cadence negotiation with scheduled increases, pond laddering, free-masterpiece bets against value edging, and internal personal brands ("Caleb can do it") with value-added follow-ups.
+
 ---
 
 ## Available Skills

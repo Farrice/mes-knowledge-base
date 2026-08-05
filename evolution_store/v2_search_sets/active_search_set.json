@@ -3511,8 +3511,36 @@
         "gaming_flag": false
       },
       "notes": "10 workflows (3 tiers) + 9 born-v2 prompts + MES virtuoso dossier (14 patterns, 7 hidden-knowledge, 3 exemplars + anti-exemplar) | blind-pass: PASS model-judged vs both 2026 transcripts (EVAL-058), A-tier pending Farrice | heartbeat: 7/7 | Factual Grounding: 8 | Verification: PASS \u2014 source-ledger.md labels every garbled caption claim VERIFIED/LIKELY/UNCONFIRMED | Anchor: verbatim exemplars anchor the quality ceiling"
+    },
+    {
+      "trace_id": "20260804_205637",
+      "timestamp": "2026-08-04T20:56:37.278824",
+      "schema_version": "v3",
+      "component": "caleb-ralston-personal-brand",
+      "expert": "caleb-ralston",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "10 workflows (3 foundation/5 practitioner/2 stacking), 14 genius patterns + era-bound appendix, 8 born-v2 prompts, 3 verbatim exemplars | source WATCHED: 100 frames + 20.5k-word transcript, published same day | Factual Grounding: 9 | Verification: PASS | blind-pass: PASS (model-judged, EVAL-059, vs AoD origin monologue + 2026 interview segment; A-tier pending Farrice read) | heartbeat: 7/7 | expansion of existing skill v3.0\u2192v4.0, zero rebuild | Anchor: Expert Standard Anchor 9: if the real expert read this output cold, would they say 'yes, that's how I think' \u2014 every Pattern 26-39 anchored to a verbatim quote from the watched source, blind-pass sample judged recognizably Caleb (methodology + cadence, not vocabulary); Adversarial Anchor 9: every claim has a specific supporting reference \u2014 era-bound signals date-stamped instead of asserted, host-synthesis attributed separately, paraphrases tilde-marked"
     }
   ],
-  "total_cases": 124,
-  "last_updated": "2026-08-04T19:50:59.281874"
+  "total_cases": 125,
+  "last_updated": "2026-08-04T20:56:37.279603"
 }

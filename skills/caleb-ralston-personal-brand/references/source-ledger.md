@@ -1,5 +1,11 @@
 # Source Ledger — Caleb Ralston Personal Brand
 
+## 2026-08-04 addendum — third source ingested (expansion forge)
+
+New ground-truth file: `extractions/caleb-ralston/anatomy-of-a-dream-2026-08-04-transcript.txt` (20,536 words — "The Content Strategist Who Turns Founder Brands Into MILLIONS", The Anatomy of a Dream, published 2026-08-04, WATCHED: 100 scene frames + full dedup-VTT transcript). Companion report: `extractions/caleb-ralston/anatomy-of-a-dream-2026-08-04-extraction-report.md`.
+
+**Patterns 26–39, Exemplars 6–8, the Era-Bound Appendix, 7 signature moves, and 5 rubric rows** were written directly from this transcript during the forge; every quoted string in those sections was lifted verbatim from the transcript at write time (same-session, full-text source in context) — label: **VERIFIED** across the set. Distinctly labeled paraphrases ("~3.5 months", "~10 minutes", "$1B in ~3 years") compress spoken approximations and are marked with tildes in situ. Host-synthesis material (Tiffany Guillen's principles segment: credentials-vs-proof distinction, proximity principle, skill stacking) is attributed as host synthesis in the extraction report and was NOT written into Caleb's genius patterns except where Caleb's own words carry it. Headline growth receipts restated in this source: GaryVee TikTok 300K→3.5M in ~3.5 months; Hormozi audience 1.2M→11.5M; 101 partners at Ralston in the last year; $16K free course → 1M+ views, ~55K workbook downloads.
+
 > Every claim of Caleb-attributed provenance in this skill, labeled VERIFIED / LIKELY / UNCONFIRMED. Compiled during the Wave 3 Lane 4 heartbeat repair (2026-07-17). Ground truth = the only two files under `extractions/` matching this expert, both read in full:
 > - `extractions/caleb-ralston/transcript.txt` — 65,808 bytes (YouTube interview transcript, Caleb Ralston + Neil, ~50 min, ~3,509-word core segment per the companion report)
 > - `extractions/caleb-ralston/caleb-ralston-2026-extraction-report.md` — 13,878 bytes ("3 Things Silently Killing Your Personal Brand" deep extraction, 2026)

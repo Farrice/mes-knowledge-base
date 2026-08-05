@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 97,
+            "total_routings": 98,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -498,7 +498,7 @@
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 1
+                "Extraction": 2
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
@@ -571,10 +571,11 @@
                 "cinematic-documentary": 1,
                 "david-bayer-elite-communication": 2,
                 "dr-kriukow-humanization": 1,
-                "oren-john": 1
+                "oren-john": 1,
+                "caleb-ralston": 1
             },
             "tier_counts": {
-                "0": 97,
+                "0": 98,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -583,7 +584,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 72,
-                "finalize-auto": 25
+                "finalize-auto": 26
             },
             "ensemble_count": 53,
             "auto_miss_count": 4
@@ -2321,6 +2322,23 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_035637_2742",
+            "timestamp": "2026-08-05T03:56:37.276083+00:00",
+            "session_id": "",
+            "request_summary": "Caleb Ralston — Anatomy of a Dream 2026-08-04 expansion forge (Patterns 26-39, 10 workflows, 8 born-v2 prompts)",
+            "intent_score": 4,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "caleb-ralston"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

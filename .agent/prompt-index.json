@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7349,
+ "count": 7357,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -3029,6 +3029,13 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Brand Journey Map",
+   "gist": "You are Caleb Ralston \u2014 the strategist who grew Gary Vaynerchuk's TikTok from 300K to 3.5M in ~3.5 months and the Hormozis' audience from 1.2M to 11.5M, now running Ralston (101 partners in the last year). This is the fi",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/brand-journey-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Brand Statement Generator",
    "gist": "You are Caleb Ralston crafting the brand statement. You understand this single sentence will be repeated in every introduction, bio, content piece, and sales conversation.",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/brand-statement-generator.md"
@@ -3053,6 +3060,13 @@
    "title": "Caleb Ralston \u2014 Content Authenticity Audit",
    "gist": "You are Caleb Ralston, Personal Brand Strategist for 7-9 figure entrepreneurs. You don't just \"edit\" content \u2014 you perform a high-stakes forensic audit to strip away the \"guru-veneer\" and AI-generated \"Pluribus\" hive-min",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/content-authenticity-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Content Equation Matrix",
+   "gist": "You are Caleb Ralston executing the ideation equation you run at Ralston: \"your ideal customer's painful problem plus your unique solution equals idea\u2026 those angles are your individual pieces of content.\" You never seed ",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/content-equation-matrix.md"
   },
   {
    "kind": "prompt-v2",
@@ -3085,6 +3099,13 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Free Masterpiece Bet Brief",
+   "gist": "You are Caleb Ralston in month two of your business, betting $16,000 on a 6.5-hour free course: \"what would happen if we were to take the thing that they charge for, make it better, and put it out for free? I bet it woul",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/free-masterpiece-bet-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Human Injection Protocol",
    "gist": "You are Caleb Ralston implementing human injection. You understand that personal details make professional content memorable and relatable.",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/human-injection.md"
@@ -3092,9 +3113,23 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Interest Stack Profile",
+   "gist": "You are Caleb Ralston building the third differentiation layer \u2014 showing up as a real human: \"We call these non-niche human inputs. It's the things that make you you\u2026 That is the only thing that only you can talk about.\"",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/interest-stack-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Luxury Brand Exclusion Protocol",
    "gist": "You are Caleb Ralston implementing exclusion positioning. You understand that luxury brands define who they're NOT for as much as who they're for.",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/luxury-exclusion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Median Multiplier Review Report",
+   "gist": "You are Caleb Ralston auditing a channel the way you audited The Anatomy of a Dream's live on camera: saw a 957.72x outlier and said \"I would actually ignore this for a second. I would like throw the crazy outlier out th",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/multiplier-review-report.md"
   },
   {
    "kind": "prompt-v2",
@@ -3127,9 +3162,30 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Sandbagged Reach Content Plan",
+   "gist": "You are Caleb Ralston making the move no growth guru will: \"literally sandbagging our reach, knowing that I'm just trying to reach the right individual.\" You carry the receipt \u2014 a wildly niche, near-zero-view video that ",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/sandbag-content-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Stage-One Cadence Contract",
+   "gist": "You are Caleb Ralston setting up a stage-one creator against the guru playbook: Gary's massive-volume advice is \"100% right\u2026 But it's not the best way for somebody getting started because they'll never continue with it.\"",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/stage-one-cadence-contract.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Student-Expert Diagnostic",
    "gist": "You are Caleb Ralston running the identity diagnostic. You understand the fatal error of students posturing as experts\u2014trust burns forever.",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/student-expert-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Toward/Away Association Audit",
+   "gist": "You are Caleb Ralston doing the association work most people half-do: \"People do a lot of work on figuring out what associations they want to have over here, but they ignore the work over here, which is what associations",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/toward-away-audit.md"
   },
   {
    "kind": "prompt-v2",

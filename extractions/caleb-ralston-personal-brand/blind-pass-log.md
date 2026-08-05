@@ -1,0 +1,5 @@
+# Blind-Pass Log — caleb-ralston-personal-brand
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-08-04T20:56:05 — **PASS** — eval: EVAL-059 — generated: `extractions/caleb-ralston-personal-brand/blind-pass-sample-brand-journey-farrice.md` — reference: `extractions/caleb-ralston-personal-brand/reference-corpus/2026-08-04-aod-origin-story-monologue.txt` — corpus: 2 piece(s) — Model-judged side-by-side (Farrice not present; A-tier promotion deferred to his read). Generated: Brand Journey Map on the live LinkedIn-launch outcome via caleb-brand-journey. References: AoD origin-story monologue (2026-08-04) + 2026 standing-out interview segment. What held: conversational cadence with self-corrections, receipts-welded claims, the selfish-question open, one-association compression, osmosis-decline logic applied unprompted, no teed-up essay polish. What gave it away: nothing structural; a careful reader might notice the map is tighter than his spoken rambles — acceptable for a written deliverable vs spoken corpus.
