@@ -427,6 +427,7 @@ FEED_FRESHNESS = {
     ".agent/health/verify-fleet.json": ("Sunday verify-fleet launchd run", 9),
     ".agent/health/self-heal-latest.json": ("session-close self-heal", 5),
     ".agent/health/latest.json": ("daily health-metrics launchd run", 3),
+    ".agent/health/skills-sync.json": ("Sunday skills-sync launchd run (Matt Pocock)", 9),
     "evolution_store/failure-registry.md": ("failure_learning (chronic-fail rules)", None),
 }
 LAUNCHD_DIR = Path.home() / "Library" / "LaunchAgents"

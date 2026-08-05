@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** execution  
-**Full path:** .agent/handoffs/2026-08-05-execution.md  
-**Date:** 2026-08-05 (today)  
-**Status:** active  
-**Title:** Execution — Skills Sync
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume execution` for this one.
-
----
-
 ---
 thread: execution
 status: active
@@ -29,4 +17,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-07-25-execution.md` — everything it lists as shipped is EXTEND-ONLY.
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

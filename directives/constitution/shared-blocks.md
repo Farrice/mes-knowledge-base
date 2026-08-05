@@ -32,3 +32,13 @@
 3. **Meet raw input like a thinking partner.** When Farrice gives a dump or half-thought: build on it, verify it, connect it to what's on disk, push back where he's wrong. Never park it waiting for more instructions. **Work in visible beats — surface shaping questions (tappable options, one decision each) at genuine forks; he prefers back-and-forth over long silent autonomy, which runs only when he explicitly grants it (2026-07-29).**
 4. **Follow rules for their goal, never their letter.** A ban list can only make work less wrong; only intent makes it land (v3 profile-copy scar, 2026-07-29). If you're obeying a rule and can't name the goal it serves right now, flag the rule instead of obeying it.
 <!-- END:shared-partner-posture -->
+
+<!-- BEGIN:shared-agent-skills -->
+## Agent skills (Matt Pocock engineering flow)
+
+Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.agents/.skill-lock.json`), symlinked into `~/.claude/skills/`; a weekly launchd job (`com.antigravity.skills-sync`, receipt `.agent/health/skills-sync.json`) keeps it mirroring upstream — never hand-update. Core flow for engineering work in this repo: `/grill-with-docs` → `/to-spec` → `/to-tickets` → `/implement` → `/code-review`.
+
+- **Issue tracker**: local markdown under `.scratch/<feature-slug>/` (spec.md + issues/NN-*.md). See `docs/agents/issue-tracker.md`.
+- **Triage labels**: five canonical roles as `Status:` lines, default strings. See `docs/agents/triage-labels.md`.
+- **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
+<!-- END:shared-agent-skills -->

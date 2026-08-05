@@ -8,6 +8,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `digital-product-lane-2026-08-05` | _active/ | **— none —** | 2026-08-05 | active* |
 | `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-05 | active |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-05 | active* |
 | `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-05 | active* |
@@ -75,12 +76,13 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
 | `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
 
-**56 projects** — 16 active, 20 parked, 20 done.
+**57 projects** — 17 active, 20 parked, 20 done.
 
 ## Needs judgment
 
 Contradictions only — not a list of unstamped projects.
 
+- **missing_index** — `_active/digital-product-lane-2026-08-05`: no INDEX.md — project has no entry point
 - **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
 - **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 7d ago
 

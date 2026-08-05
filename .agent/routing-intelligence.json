@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 109,
+            "total_routings": 111,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -491,7 +491,7 @@
                 "creative-campaign-strategy": 2,
                 "briar-cochran-content-science": 1,
                 "sweat-equity-speedrun-social-os": 1,
-                "design-md": 1,
+                "design-md": 2,
                 "diandra-escobar-linkedin-growth": 1,
                 "evan-spiegel-distribution-architecture": 2,
                 "april-dunford-positioning": 1,
@@ -499,14 +499,14 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "Extraction": 3,
-                "nate-b-jones-context-engineering": 4,
+                "nate-b-jones-context-engineering": 5,
                 "ethan-smith-aeo": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 9,
-                "oren-operational-systems": 3,
+                "oren-operational-systems": 4,
                 "fresh-voice-system": 6,
                 "luke-iha-creative-strategy": 5,
                 "Oren Operational Systems": 2,
@@ -514,7 +514,7 @@
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
                 "supercomputer": 6,
-                "doc-coauthoring": 10,
+                "doc-coauthoring": 11,
                 "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
@@ -559,9 +559,9 @@
                 "nick-st-pierre": 1,
                 "rory-sutherland": 2,
                 "sweat-equity-speedrun-social-os": 1,
-                "design-md": 1,
+                "design-md": 2,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 5,
+                "nate-b-jones-context-engineering": 6,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
@@ -580,7 +580,7 @@
                 "kallaway": 1
             },
             "tier_counts": {
-                "0": 109,
+                "0": 111,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -588,10 +588,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 80,
+                "hybrid": 82,
                 "finalize-auto": 29
             },
-            "ensemble_count": 58,
+            "ensemble_count": 60,
             "auto_miss_count": 4
         }
     },
@@ -2524,6 +2524,42 @@
             "routing_id": "rt_20260805_181016_2fc1",
             "timestamp": "2026-08-05T18:10:16.799809+00:00",
             "session_id": "532760fd-b9e6-42ac-bf38-bf8ca98315b7",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_181308_0876",
+            "timestamp": "2026-08-05T18:13:08.925571+00:00",
+            "session_id": "83ba2e74-9a7c-401b-bc1f-c32ee681865d",
+            "request_summary": "I need you to watch this video and extract what was needed, or go through the steps mentioned here to upgrade all of our skills and workflows associated with Matt Pocock suite of skills we have brough",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + oren-operational-systems",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_183152_6752",
+            "timestamp": "2026-08-05T18:31:52.487679+00:00",
+            "session_id": "83ba2e74-9a7c-401b-bc1f-c32ee681865d",
             "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
             "intent_score": 0,
             "domain_detected": "nate-b-jones-context-engineering",

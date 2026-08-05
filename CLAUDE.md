@@ -115,6 +115,16 @@ Full table + reasons: `directives/routing-bindings.md`. Load-bearing anchors:
 
 **Workflow override**: user invokes a workflow name (`/name`, `@name`, "run name", bare) → read `.agent/workflows/[name].md` and execute. Full list: `SLASH_COMMANDS.md`. `status: superseded` frontmatter → follow the `superseded_by` pointer.
 
+<!-- BEGIN:shared-agent-skills -->
+## Agent skills (Matt Pocock engineering flow)
+
+Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.agents/.skill-lock.json`), symlinked into `~/.claude/skills/`; a weekly launchd job (`com.antigravity.skills-sync`, receipt `.agent/health/skills-sync.json`) keeps it mirroring upstream — never hand-update. Core flow for engineering work in this repo: `/grill-with-docs` → `/to-spec` → `/to-tickets` → `/implement` → `/code-review`.
+
+- **Issue tracker**: local markdown under `.scratch/<feature-slug>/` (spec.md + issues/NN-*.md). See `docs/agents/issue-tracker.md`.
+- **Triage labels**: five canonical roles as `Status:` lines, default strings. See `docs/agents/triage-labels.md`.
+- **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
+<!-- END:shared-agent-skills -->
+
 ## Architecture, Directories, Memory
 
 - **3 layers**: `directives/` (SOPs) · orchestration (you — routing, decisions, error handling) · `execution/` (deterministic Python — push complexity here). Primitives map: `directives/system-primitives.md`.

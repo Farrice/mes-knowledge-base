@@ -101,6 +101,16 @@ When intent is clear enough and no risk boundary is detected, Codex defaults to 
 ## Known routes (internalized)
 LinkedIn → Lara Acosta (`skills/lara-acosta-*`) · copywriting → Luke Iha / Stefan Georgi · ghostwriting → Nicolas Cole · brand → Oren/Grace · content psychology → Kallaway · SEO → Nathan Gotch · ambiguous/multi-domain → read `DOMAIN_REGISTRY.md`.
 
+<!-- BEGIN:shared-agent-skills -->
+## Agent skills (Matt Pocock engineering flow)
+
+Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.agents/.skill-lock.json`), symlinked into `~/.claude/skills/`; a weekly launchd job (`com.antigravity.skills-sync`, receipt `.agent/health/skills-sync.json`) keeps it mirroring upstream — never hand-update. Core flow for engineering work in this repo: `/grill-with-docs` → `/to-spec` → `/to-tickets` → `/implement` → `/code-review`.
+
+- **Issue tracker**: local markdown under `.scratch/<feature-slug>/` (spec.md + issues/NN-*.md). See `docs/agents/issue-tracker.md`.
+- **Triage labels**: five canonical roles as `Status:` lines, default strings. See `docs/agents/triage-labels.md`.
+- **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
+<!-- END:shared-agent-skills -->
+
 ## CRITICAL — placed last deliberately
 1. **CHAIN ON EVERY DELIVERABLE.** Trivial is not a skip condition for content/copy/strategy/research.
 2. **LOAD BEFORE PRODUCING.** Never ship expert-domain output from general training when an extracted skill exists.
