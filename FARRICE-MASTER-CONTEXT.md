@@ -1,6 +1,6 @@
 # FARRICE MASTER CONTEXT
 
-> **v3.1 · 2026-08-04** (interview pass: tact law, wince-line, real register) · Rebuilt from source after Farrice's verdict on v2.0: *"too narrow in scope… it's been given too much importance and has DILUTED the contextual richness and background that already existed across the database, Notion, and all our prior work together."*
+> **v3.2 · 2026-08-04** (interview pass + Notes excavation: tact law, wince-line, real register, nine years of private notes) · Rebuilt from source after Farrice's verdict on v2.0: *"too narrow in scope… it's been given too much importance and has DILUTED the contextual richness and background that already existed across the database, Notion, and all our prior work together."*
 >
 > **What changed structurally.** v2.0 was a compression that inlined things that change — the offer, the receipts, the voice bank — then went stale and started asserting a dead offer as live. v3.0 is a **router with depth**: it goes deep and canonical *only* where it is the sole home for something, and points at the live file everywhere something richer already exists. **It cannot rot on offer or voice, because it does not own them.**
 >
@@ -38,6 +38,7 @@
 | **Brand/voice project rules** | `_active/farrice-brand/CLAUDE.md` | Pointer |
 | **Who he is, the story, the wounds, the values, the thesis** | **THIS DOCUMENT** | Canonical and deep — this is the only home |
 | **Notion self-work extracts (9 docs, Sept 2025–May 2026)** | `_active/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` | Cited source |
+| **Nine years of private notes (2017–2026, eras + finds)** | `_active/farrice-brand/identity/notes-excavation-2026-08-04.md` | Cited source — the excavation report; raw notes never committed |
 
 ---
 
@@ -54,6 +55,8 @@ Chicago → southern Illinois in the formative years: displacement, zero social 
 The body was the first thing he learned to build; everything else followed. Depression pushed him to the weight room; getting stronger became the first act of self-authorship, then a career. *"Best trainer at every gym for getting actual results — not just sales. Great at results, struggled with sales and putting myself out there due to fear of rejection."* That sentence is the whole tension of his professional life.
 
 Then: COVID-era self-taught design → MyBPM streetwear with Jennifer → prompt engineering → AI systems architecture at a level he correctly identifies as rare. Then fatherhood, which turned presence into a discipline. Then writing — Parallax, his Substack, the first place he felt *"truly expressive of the deep, nuanced insights and things going on in my head"*; reading his own editions back *"energized me and got me moving and feeling alive again, which I have not felt for a long time."*
+
+**The father has a second scene, and it is public-safe** (he drafted it for posting himself, 2020, Jennifer urging him to speak): *"my father sat me and my brother down… I remember saying 'but dad, I'm also half Filipino,' and he replied 'son, unfortunately that's not how America will see you.' As I grew up I started finally realizing the wisdom my father gave me was true."* The same father who is absence in §3 gave him The Talk — and the son credits the wisdom. Real people are not single-note; write him that way.
 
 The arc in one line: **a man who spent his life at 90% learning, in public, to ship the last 10%.**
 
@@ -78,6 +81,10 @@ The arc in one line: **a man who spent his life at 90% learning, in public, to s
 
 **Mother.** The "talented but struggling" archetype — creative, gifted, never financially thriving. Installed beliefs: money doesn't grow on trees; hard work equals suffering; be practical not passionate; don't outshine others. Plus the dynamic documented in workspace memory: taught young to suppress himself so his older brother — sickly as a child, with learning disabilities — wouldn't feel insecure. The internalized bargain: *"If I suppress myself, I get love. If I shine, I threaten someone I love."*
 
+**The sibling mechanic — "act desperate to get love"** (his 2025-12-01 journal, uncovered in the Notes excavation): *"I was leveraged in the way of like, Farrice would always be okay and that he didn't need much checking up on… I think I learned I had to act desperate to get my mom's love."* This is the suppression bargain's sibling and it is different: **competence cost him care** — being okay meant being unattended. Watch for its echo: under-asking for help, performing struggle to justify receiving. Same journal, the divorce years: *"us running away from my dad because it got so bad sometimes"* and the *"lying games… tug-of-warring my emotions with guilt and shame"* aimed at him as the youngest.
+
+**Depression, in his own 2019 words** (written close to it — Tact Law governs any use): *"a little devil over your shoulder… even if you were drowning and knew how to swim you wouldn't be able to save yourself… no matter how loud you yell, the world turns its back on you and refuses to hear you."*
+
 **Belonging.** Rejected by Black culture, never fully at home on the Filipino side. Internalized: *"I don't belong anywhere. My fullness is a liability."*
 
 ### 3b. The operating pattern (what every AI must watch for)
@@ -91,7 +98,7 @@ The arc in one line: **a man who spent his life at 90% learning, in public, to s
 
 ### 3c. The healing work (live, daily, real)
 
-A morning protocol exists — inner-child work, father-wound release, light activation — with declarations that double as his truest voice: *"My father's absence was his limitation, not my worth." · "Today I choose completion over protection." · "It's safe to hope, dream, and expect beautiful things for myself." · "I am enough, exactly as I am — Black, Filipino, spiritual, nerdy, all of it." · "Because 'too much' is just enough of who I really am."* And the ancestral line: *"I heal the line of men who couldn't show up. Through me, love flows forward unbroken."* Daily practice, not performance. His spiritual lineage (Goddard, Dispenza, Singer, Hicks) is sincere and messy, not Instagram spirituality.
+A morning protocol exists — inner-child work, father-wound release, light activation — with declarations that double as his truest voice: *"My father's absence was his limitation, not my worth." · "Today I choose completion over protection." · "It's safe to hope, dream, and expect beautiful things for myself." · "I am enough, exactly as I am — Black, Filipino, spiritual, nerdy, all of it." · "Because 'too much' is just enough of who I really am."* And the ancestral line: *"I heal the line of men who couldn't show up. Through me, love flows forward unbroken."* The day closes the same way it opens — his current evening line (2026, from his notes): *"Take a breath and say out loud: I release and forgive this day, it has been perfect and it is done."* Daily practice, not performance. His spiritual lineage (Goddard, Dispenza, Singer, Hicks) is sincere and messy, not Instagram spirituality.
 
 ## §4 — ZONE OF GENIUS
 
@@ -213,10 +220,11 @@ For any AI using this document:
 - ~~Which origin facts are cleared for public~~ → **§0.2, the Tact Law.** He is an open book and not ashamed; the constraint is tact, not permission. Other people's specifics stay soft by default.
 - ~~The un-strategic daily texture~~ → **§6c**, derived from 12 months of message timestamps rather than asked.
 
+- ~~What he has changed his mind about~~ → **answered by his own artifacts** (Notes excavation): 2018 he sold *"Zero to Hero… become extraordinary"* — fluent hype. 2026 he sells claim-safe positioning against that exact dialect. **He didn't discover marketing; he converted** — and the conversion is documented in his own notes eight years apart. The most credible version of his thesis that exists.
+
 **Still open — genuinely his, do not guess:**
 1. **A real recent Tuesday, hour by hour.** The timestamp shape is known (§6c); the felt experience of one is not.
-2. **Three unpublished stories he'd tell a friend** — the raw material for content that isn't recycled.
-3. **What he has changed his mind about in the last two years.** High-value: it is inherently non-performative and it is the one thing a competitor cannot copy from his archive.
+2. **Which stories he'd actually tell.** Three candidates are seeded from his own notes (`_active/farrice-brand/identity/notes-excavation-2026-08-04.md`): The Talk ("but dad, I'm also half Filipino"), the guru-to-skeptic conversion, and "I'm Essential" (MyBPM's founding as a pandemic mental-health mission). He picks; nobody mines further.
 
 Surface these when a natural moment arises — one at a time, never as a questionnaire.
 
