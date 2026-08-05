@@ -237,6 +237,7 @@
 
 
 ## Pending enrichment
+- [2026-08-05 — Caleb Ralston Personal Brand — Expansion Forge v4.0 (Anatomy of a Dream)](2026-08-05-caleb-ralston-forge.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Oren Slop-Era Creative Strategy — Forge Extraction (2 Fresh 2026 Videos)](2026-08-05-oren-slop-era-forge.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Benoit Vatere — Blind Pass Sample](2026-08-05-.md) — operator-guide stub, needs enrichment
 - [2026-08-04 — Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped](2026-08-04-creative-generation-os.md) — operator-guide stub, needs enrichment

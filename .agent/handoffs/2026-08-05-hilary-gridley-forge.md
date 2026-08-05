@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** hilary-gridley-forge  
-**Full path:** .agent/handoffs/2026-08-05-hilary-gridley-forge.md  
-**Date:** 2026-08-05 (today)  
-**Status:** ready  
-**Title:** Hilary Gridley Extraction — Anti-Slop Judgment Encoding OS (13 workflows + Taste Profile)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume hilary-gridley-forge` for this one.
-
----
-
 ---
 thread: hilary-gridley-forge
 status: ready
@@ -84,4 +72,3 @@ never blocks) and set the re-mine cadence.
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-
