@@ -5,14 +5,14 @@
 - Owner: Health Performance GEO Client Acquisition Engine (Oren operating spine) · Mode: full scheduled run · Intent 5 (standing v4.1 contract) · Route proof: AUTOMATION_PROMPT v4.1 → Story Compass position 0 → Iha insight vectors → Iha copy blocks → source truth. Golden sample loaded (`publish-copy-v4-codex-preflight.md`, calibration: scene-first flagship, claim ledger discipline, one integrated voice). Local context loaded: VOICE-CARD v1.3, 05-CONTENT-STRATEGY, 08-TWO-RING dossier, promises ledger (15 rows), last five briefs for repetition scoring.
 - **Market Intelligence Read:**
   - Pressing today: P&G announced it is buying Thorne for $3.8B (08-04). Within hours the brand's own subreddit held a public funeral, 855 upvotes, buyers naming ownership as their purchase criterion. Same 72 hours: Ryse sued over front-label protein counts, Amazon Spain mass-blocked supplement listings, ANSES published a scoop-culture liver-transplant case.
-  - Avatar pain underneath: buyers in the trust tier paid premium prices specifically to stop re-vetting brands, and the thing they were paying for just got sold without their consent. Founder-side: "we're the trusted one" just traded as an asset, so what exactly does a premium brand still own?
+  - Avatar pressure underneath: buyers in the trust tier paid premium prices specifically to stop re-vetting brands, and the thing they were paying for just got sold without their consent. Founder-side: "we're the trusted one" just traded as an asset, so what exactly does a premium brand still own?
   - Category pattern Farrice can name: buyers keep a private M&A ledger of the category (who owns whom, since when) and re-price trust at ownership events, not product events. Brands measure trust by reviews and reorders; buyers date it by the cap table.
   - Service opportunity: every premium/practitioner-adjacent brand has a live claim-selection decision this week (what do we say while the trust tier reshuffles), which is exactly an Angle Map read, not a production job.
   - Non-obvious insight: the trust-loss predates the headline. The 125-upvote comment dates Thorne's fall to the 2023 private-equity buyout and a fired science team, meaning the P&G news only made a three-year-old private verdict public. Promise windows close silently, years before the churn shows.
 - Winning angle: **trust has an owner, and the buyers keep the ledger.** Beat the field (16-signal sweep + 4 social threads, 12 scored candidates) because it is dated yesterday, verbatim-rich, names real brands, and opens a lane no prior brief has touched (ownership/consolidation). Runner-up (IM8/Function subsidized-CPM wave) folded in as demand context rather than discarded.
 - Not a repeated motif: last five briefs ran creator claim-compliance, trend-cohort economics, proof-resolution, creatine-for-women, self-instrumenting nootropics buyers. No M&A, ownership, or consolidation motif anywhere in the ledger. GLP-1: 1 of 12 candidates (berberine-adjacent), not selected.
 - Source posture: acquisition VERIFIED (CNBC on-air CEO statement; Thorne's own press release fetched and read). Thread verbatim VERIFIED (pulled via Apify this run, URLs inline). L Catterton 2023 buyout ~$680M LIKELY (multi-outlet convergence, page not opened). Fired-science-team claim UNCONFIRMED (single second-hand comment; never ships in public copy as fact). Unilever-Grüns $1.2B (April) LIKELY. Nestlé ownership of Pure Encapsulations / Garden of Life LIKELY; quoted here only inside buyer verbatim.
-- Google Drive export: attempted after gates; status in Section 9 receipt.
+- Google Drive export: DISABLED for this Codex automation pass by Farrice's current instruction; no Google Doc, upload, or connector write was attempted here.
 - One open risk: the flagship leans on one subreddit's reaction; r/Supplements skews enthusiast, not median buyer. Mitigated in copy by claiming only what the thread shows (the brand's most-engaged customers, not "everyone").
 
 ## 1. The Pick (Daily Core)
@@ -105,7 +105,7 @@ I spent years behind a vitamin-shop counter. Customers never asked me which labe
 
 If your deck says "trusted brand," this was the week to find out what's underwriting yours.
 
-- **Reader save reason:** the ownership-ledger insight is a reusable diagnostic (buyers re-price trust at ownership events, not product events).
+- **Reader save reason:** the ownership-ledger insight is a reusable read (buyers re-price trust at ownership events, not product events).
 - **Buyer next thought:** "what would our customers say in that thread if we sold, and what are we saying this week while Thorne's buyers shop?"
 - **Soft bridge:** none in-body; CTA discipline holds (first-comment link or silence; DM ANGLE lives in the DM asset).
 - **Visual direction:** screenshot pair, CNBC headline above the "RIP Thorne" post title with upvote count visible (public content, credited).
@@ -129,7 +129,7 @@ The pattern, portable to any premium brand: your strongest claim is only as dura
 
 That decision is sitting unmade inside a lot of decks this week.
 
-- **Reader save reason:** the underwriter test is a portable diagnostic; entry 1 of a named series (The Buyer's Ledger).
+- **Reader save reason:** the underwriter test is a portable read; entry 1 of a named series (The Buyer's Ledger).
 - **Buyer next thought:** "which underwriter is our 'trusted by' actually resting on, and could I name it?"
 - **Soft bridge:** final line lands on the unmade decision (the Angle Map's home turf) without naming the offer.
 - **Visual direction:** none needed; text post, dwell-built.
@@ -192,7 +192,7 @@ To a founder/growth lead at a premium or practitioner-adjacent brand: "Watched t
 
 Three long-tail questions a founder or buyer might ask an AI engine this month:
 
-1. "What happens to supplement brand quality when a big company like P&G or Nestlé acquires the brand?" — Business value: this is the exact anxiety query of both rings this week; owning the level-headed answer earns citation at the moment of maximum search interest. Information gain: nobody credible is answering with the buyer-behavior data (trust re-prices at ownership events); everyone answers with speculation about formulas.
+1. "What happens to supplement brand quality when a big company like P&G or Nestlé acquires the brand?" — Business value: this is the exact concern query of both rings this week; owning the level-headed answer earns citation at the moment of maximum search interest. Information gain: nobody credible is answering with the buyer-behavior data (trust re-prices at ownership events); everyone answers with speculation about formulas.
 2. "Which premium supplement brands are still independently owned in 2026?" — Business value: the buyer's-ledger question, asked verbatim; an accurate, dated ownership map is the most save-worthy artifact in the niche this week. Information gain: the data exists only scattered across press releases; assembling it is an afternoon of receipts.
 3. "How should a supplement brand communicate with customers after being acquired?" — Business value: pulls founder/CMO searchers (the ICP) at a decision moment; demonstrates Angle Map judgment (what to say, what to prove, what to skip). Information gain: PR-firm boilerplate dominates; a claims-and-proof read is absent.
 - **Asset worth building:** "The Independence Ledger" answer page: a dated, sourced map of who owns which premium supplement brand, updated at each transaction, with a short read on what each acquisition changed for buyers. A founder could picture it: one page his customers (and AI engines) would actually cite.
@@ -219,14 +219,14 @@ Three insight rows appended to `ledger/insights.jsonl`; two receipt rows appende
 - Support lanes: deep-research subagent (16-signal market sweep, negative-briefed); Apify reddit actor x7 runs (social listening lane LIVE: 32 items, 2 threads read closely).
 - Rejected routes: IM8/Function subsidized-CPM angle (folded into demand read); menopause symptom-shift (women's lane ran 08-01, penalty); Ryse/Meta/Amazon compliance stories (claims-lane saturation per 08-02/08-04).
 - Verifier results: prose gate + finish gate + grounding guard logged below in run receipt notes; UNCONFIRMED item (science-team firing) excluded from all shipped assets.
-- Finalize status: chain_runner finalize run at close (see git commit).
+- Finalize status: `.venv/bin/python execution/chain_runner.py finalize` ran with V4 anchor and `--skip-notion`; it returned the known specialized-lane/generic-scorer mismatch (composite 5.33; intent_alignment 4.0; expert_standard 4.0) plus Notion DNS regression noise. Treat local gates and public-asset checks as authoritative for this run.
 - Open risks: single-community sentiment basis (mitigated in wording); L Catterton figures LIKELY not VERIFIED.
 - JSONL validation: PASS (both ledgers parsed line-by-line after append).
-- Google Drive export: reported in the run log line after gates (attempted via gws CLI to folder 11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI).
+- Google Drive export: DISABLED for this Codex automation pass by Farrice's current instruction, overriding the prompt file's standing Drive mirror clause; no Google Doc, upload, or connector write was attempted here.
 - Reader-Level Gate: first 300 words carry a scene (the CNBC-to-funeral evening), a tension (best customers leaving over an unchanged label), a turn (trust underwritten, not printed), and a sayable line ("The formula didn't change... and the best customers left anyway").
 - Content Finish Gate: rotating second format (teardown post) FINISHED and vault-filed; flagship FINISHED and vault-filed.
 - Grounding Guard: all public assets use VERIFIED material only; LIKELY items attributed or omitted; UNCONFIRMED item omitted.
-- Export Format Guard: run pre-mirror.
+- Export Format Guard: run local-only; no Drive mirror attempted.
 
 **Taste Evidence Ledger**
 

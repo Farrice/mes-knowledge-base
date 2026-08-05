@@ -32,7 +32,7 @@ If your deck says "trusted brand," this was the week to find out what's underwri
 
 ---
 
-- Reader save reason: the ownership-ledger diagnostic (buyers re-price trust at ownership events, not product events)
+- Reader save reason: the ownership-ledger read (buyers re-price trust at ownership events, not product events)
 - Buyer next thought: "what would our customers say in that thread if we sold, and what are we saying this week?"
 - CTA: none in-body (CTA discipline); pair with first-comment link or silence
 - Visual: screenshot pair, CNBC headline above the "RIP Thorne" post title, upvotes visible, credited

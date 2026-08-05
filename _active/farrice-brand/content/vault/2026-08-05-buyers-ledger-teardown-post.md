@@ -25,7 +25,7 @@ That decision is sitting unmade inside a lot of decks this week.
 ---
 
 - Series: The Buyer's Ledger (#1) — future entries harvest each new ownership/trust event
-- Reader save reason: the underwriter test as portable diagnostic
+- Reader save reason: the underwriter test as portable read
 - Buyer next thought: "which underwriter is our 'trusted by' actually resting on?"
 - CTA: none in-body; the unmade-decision close is the bridge
 - Proof moment: P&G's own five words against the funeral thread
