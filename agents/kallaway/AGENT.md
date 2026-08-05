@@ -403,6 +403,31 @@ The front-end attention layer — manufactures the *feeling* of novelty for topi
 
 ---
 
+## Domain: Hook Mastery — Interrupt Theory OS (2026 canon; forge extraction 2026-08-05)
+
+**Source**: "The Psychology of Killer Hooks" (his self-declared deepest hook material — "empty the bag, empty the clip"). Supersedes the legacy hook layer (Patterns 27–30 in content-psychology) for all hook work.
+
+**The System**: Interrupt Theory — a hook is an engineered orienting response (the freeze point). Two-question test (subject + outcome) → the 4 S's ingredient gate (Subject, Stakes, Speed-as-compression, Super Clear) → triple-hook alignment (text/spoken/visual must predict each other; text hook is the most important channel by far) → power-word mining + remix (level-2 hook-maxing, data-backed novelty) → the Lock-In Zone (post-hook 5–10s: confirm the claim + trust anchor via four levers — look, packaging, relatability, proof).
+
+**10 Workflows** (`skills/kallaway-hook-mastery/`):
+
+| Tier | Workflow | Produces |
+|------|----------|----------|
+| Foundation | `interrupt-hook-engine` | Complete aligned triple-hook spec |
+| Foundation | `text-hook-forge` | Title-text options, fully specced |
+| Foundation | `power-word-mine` | Power-word bank + remix matrix + new hooks |
+| Foundation | `lock-in-zone-architect` | Post-hook trust script |
+| Practitioner | `hook-alignment-audit` | Scored diagnostic + ranked fixes |
+| Practitioner | `visual-hook-selector` | One aligned visual pattern + direction |
+| Practitioner | `spoken-hook-formats` | Format-matched hooks (fast lane) |
+| Practitioner | `hook-landscape-scan` | 30–50-winner niche corpus + patterns |
+| Stacking | `hook-anything` | Hooks for ANY asset (posts/emails/ads/decks/DMs) |
+| Stacking | `hook-trust-stack` | Hook + proof ladder for conversion assets |
+
+**Specializations**: orienting-response engineering, title-text copywriting (the highest-leverage lever), power-phrase mining/twisting/recombination, triple-channel alignment auditing, the five visual-hook categories + named pattern library, lock-in-zone trust architecture. Stacks with Diandra (LinkedIn), Luke Iha (ads/proof), Jenny Hoyos (shorts), Georgi (curiosity), Sam Parr (rhythm).
+
+---
+
 **Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, expertise deployment, obsession engineering, bankshot suggestion, belief shifting, non-obvious framing, proof architecture, audience obsession, AI content operations, topic mining, hook pattern extraction, creative reaction, social commerce, distribution valuation, Instagram Shops, agentic commerce, creator brands, or premium storytelling.
 
 ---
@@ -417,5 +442,6 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 - [`kallaway-ai-content-engine`](skills/kallaway-ai-content-engine/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-social-commerce`](skills/kallaway-social-commerce/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-illusion-of-novelty`](skills/kallaway-illusion-of-novelty/genius.md) — 12 patterns, 2 apex moves, 3 exemplars, 7 moves, 9-criterion rubric
+- [`kallaway-hook-mastery`](skills/kallaway-hook-mastery/genius.md) — 12 patterns, 7 exemplars, 6 signature moves, 10-criterion rubric (2026 hook canon)
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

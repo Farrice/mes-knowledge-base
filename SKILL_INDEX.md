@@ -180,6 +180,7 @@
 | `kallaway-content-operating-system` | **Kallaway Content Operating System** | format, substance, script | 1 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** | engineer viral content using neurochemical precision, pattern validation, buyer psychology | 10 | 39 |
 | `kallaway-content-system` | **Kallaway Content System** | end-to-end ai-enabled content production system: validated topics, format locking, substance | 9 | 0 |
+| `kallaway-hook-mastery` | **kallaway-hook-mastery** | hooks, attention, short-form content | 10 | 0 |
 | `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 17 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | social commerce × distribution economics × monetization infrastructure, monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** | engineer writing that grips, resonates, and converts using rhythm architecture | 15 | 0 |

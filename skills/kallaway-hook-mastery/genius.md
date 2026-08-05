@@ -148,16 +148,20 @@ Placement: top third (or upper-middle depending on frame composition), wherever 
 9. **Data lineage**: every format/power word traces to an actual winner (yours or a competitor's) — or is flagged as untested.
 10. **Novelty ethic**: remix, not rip — twisted, recombined, new.
 
-## Anti-Patterns (instant fails)
+## Anti-Patterns (instant fails — each anchored to the source, 2026-08-05)
 
-- Clever/vague/wordplay hooks ("temporary confusion is not worth their time")
-- 28-word hooks; rushed delivery that can't be absorbed
-- Beautiful spoken hook, misaligned text/visual (the business-owner failure)
-- Word-for-word system-font text hook (boring), 3+ equal-weight lines, sentence punctuation, and/or/that/but/therefore in title text
-- Cutting title text before 3 seconds
-- Copy-pasting a winner verbatim ("corny and lame")
-- Strong claim with no trust anchor in the lock-in zone (fake-guru pattern)
-- Gimmicky over-engineered visual hooks when a lean-in would do
+- Clever/vague/wordplay hooks — [4:18] "temporary confusion is not worth their time in a sea of stimulation"
+- 28-word hooks or rushed delivery — [3:32] "an unabsorbed hook is just as bad as no hook"; the Pac-Man rule caps the word budget at ~8
+- Beautiful spoken hook, misaligned text/visual — [6:40] "the one thing that they just get wrong every time… that's why their videos fail"
+- Word-for-word system-font text hook — [9:11] "it's just too boring, it doesn't visually engage enough"; plus 3+ equal-weight lines [15:13], sentence punctuation [15:17], and/or/that/but/therefore [15:26]
+- Cutting title text early — [16:24] "it's about 3 seconds or so; if you cut it before 3 seconds, it loses its effect"
+- Copy-pasting a winner verbatim — [22:58] "that's corny and lame"; the lazy-creator move he predicts [21:30]
+- Strong claim, no trust anchor — [27:58] "making a strong claim in the hook is not enough… they have to trust that you as the messenger are not going to waste their time"
+- Gimmick-stacked visual hooks — [25:45] "people are trying to do these crazy things — you don't need to overdo it"; a lean-in beats a circus
+
+## Recognition Test
+
+Before shipping any output from this skill, ask: **would Kallaway recognize this as his own work?** Concretely: does it engineer a freeze rather than argue for attention; does it pass the two-question test in one cold read; are the hooks ≤12 words with a power phrase or proven format he'd point to; would he see his alignment doctrine honored across channels; and does the lock-in zone carry a trust anchor he'd call real proof? If a knowledgeable fan of his channel would flag the output as generic hook advice rather than Interrupt Theory in action, it fails — rework against the rubric above.
 
 ## Decision Framework (pre-flight for every workflow)
 
