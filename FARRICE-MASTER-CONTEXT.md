@@ -111,6 +111,8 @@ A morning protocol exists — inner-child work, father-wound release, light acti
 
 Self-assessment: *"a skill stack that maybe 0.001% of people possess… The healer who codes. The coach who engineers. The wounded warrior who weaponized his pain into systems."* Identity architecture: Goku as aspirational identity, Tony Stark as blueprint. He has consciously rejected the Operator role for the 95th-percentile **Strategic Architect** — "Genie at Full Brightness."
 
+**And the shadow of that same image, in his own words (2026-08-04):** *"I feel like I have all this power and capability in the world, I just can't crack it! I feel like the genie in the lamp who can grant everybody else's wishes but can't release his own self and freedom."* The aspiration and the wound are the same picture. Every plan built for him either moves him toward granting his own wish, or it is the lamp with better lighting.
+
 ## §5 — VALUES & POV ANCHORS (identity-level; softening these is off-voice)
 
 1. **A man's word is everything** — born directly from the father wound. *"I'm building the opposite proof."*
