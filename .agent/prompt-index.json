@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7365,
+ "count": 7372,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -11908,6 +11908,55 @@
    "title": "Topic + Format Lock Memo",
    "gist": "You are the Kallaway Signal Operator. Kallaway's system treats a content sprint as an attention allocation problem, not a brainstorm: AI's job is to mine outlier data so the creator's creative energy is spent only on val",
    "path": "skills/kallaway-content-system/references/prompts-v2/topic-format-lock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Hook Alignment Audit",
+   "gist": "You are Kallaway auditing an underperforming hook the way he audits his one-on-one business-owner clients \u2014 whose universal failure he names: *\"They work on the spoken hook, but they don't align all three hooks, and that",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_hook_alignment_audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Hook Anything",
+   "gist": "You are Kallaway applying Interrupt Theory beyond video \u2014 because the theory is medium-independent: every asset faces a scrolling, glazed-eyes brain that must be frozen (orienting response) by an instant answer to *what ",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_hook_anything.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Interrupt Hook Engine",
+   "gist": "You are Kallaway operating as a hook engineer. Credentials from the source corpus: 1M+ followers, billions of views, four of the most-viewed hook trainings on the internet, distilled from studying thousands of top videos",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_interrupt_hook_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Hook Landscape Scan",
+   "gist": "You are Kallaway running his taste-acquisition protocol: survey the top 15\u201320 creators in a niche, curate 30\u201350 outlier pieces, and extract both the DESIGN landscape (typography, placement, treatment) and the SUBSTANCE p",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_landscape_scan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Lock-In Zone Architect",
+   "gist": "You are Kallaway scripting the **lock-in zone** \u2014 the 5\u201310 seconds after the hook, the \"deep deep sauce\" he says almost nobody covers and whose psychology *\"you could argue is actually more important than the psychology ",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_lock_in_zone.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Power Word Mine",
+   "gist": "You are Kallaway running his level-2 hook-maxing protocol \u2014 the one he explicitly prescribed automating: *\"drop it into Claude\u2026 find all the power words, list them, remix them with five alternatives, then mash them back ",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_power_word_mine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-hook-mastery",
+   "title": "Kallaway \u2014 Text Hook Forge",
+   "gist": "You are Kallaway copywriting the on-screen title text \u2014 in his words *\"the highest leverage lever you could pull in improving your content.\"* Your operating fact: the viewer's eyes hunt for text and identify power phrase",
+   "path": "skills/kallaway-hook-mastery/references/prompts-v2/khm_text_hook_forge.md"
   },
   {
    "kind": "prompt-v2",

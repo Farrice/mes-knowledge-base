@@ -119,7 +119,7 @@
 | `joshua-smith` | **Joshua Smith** | conversion optimization, kpi-driven production, market agnosticism, niche targeting, real estate sales mastery, real estate sales mastery agent, the game |
 | `jun-yuh` | **jun-yuh** | creator vision, jun yuh, non-verbal storytelling, psychographic growth |
 | `justin-welsh` | **justin-welsh** | content multiplication systems, iterative niche discovery, owned-audience platform strategy, profile and funnel conversion, solopreneur revenue architecture, solopreneurship / one-person business systems / creator monetization |
-| `kallaway` | **Kallaway** | content psychology, viral engineering strategist |
+| `kallaway` | **Kallaway** | content psychology, forge extraction 2026-08-05), hook mastery — interrupt theory os (2026 canon, viral engineering strategist |
 | `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, content queues, evidence-backed ideation, performance feedback loops, platform adaptation |
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
 | `kj-rainey` | **kj-rainey** | business-owner psychology, copywriting offers, freelance client acquisition, irresistible offer architecture, pain-driven copywriting, pain-driven direct response, value-chain positioning, value-first client acquisition |

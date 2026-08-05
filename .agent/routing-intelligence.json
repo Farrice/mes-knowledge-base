@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 104,
+            "total_routings": 106,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -498,8 +498,9 @@
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 2,
-                "nate-b-jones-context-engineering": 2
+                "Extraction": 3,
+                "nate-b-jones-context-engineering": 2,
+                "ethan-smith-aeo": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
@@ -574,10 +575,12 @@
                 "dr-kriukow-humanization": 1,
                 "oren-john": 1,
                 "caleb-ralston": 1,
-                "health-performance-geo-creative-strategist": 1
+                "health-performance-geo-creative-strategist": 1,
+                "ethan-smith-aeo": 1,
+                "kallaway": 1
             },
             "tier_counts": {
-                "0": 104,
+                "0": 106,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -585,8 +588,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 76,
-                "finalize-auto": 28
+                "hybrid": 77,
+                "finalize-auto": 29
             },
             "ensemble_count": 56,
             "auto_miss_count": 4
@@ -2446,6 +2449,40 @@
             "workflow_used": "nate-b-jones-context-engineering",
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_150115_b3bb",
+            "timestamp": "2026-08-05T15:01:15.268807+00:00",
+            "session_id": "019fcef8-50e6-7041-b75b-fd4da06e76bf",
+            "request_summary": "We're running our entire workflows that we built here on my LinkedIn offer that I'm thinking about selling at Angle Map and potentially putting together a prototypes addition to it that covers AEO and",
+            "intent_score": 0,
+            "domain_detected": "ethan-smith-aeo",
+            "experts_deployed": [
+                "ethan-smith-aeo"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ethan-smith-aeo",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_151318_5374",
+            "timestamp": "2026-08-05T15:13:18.537283+00:00",
+            "session_id": "",
+            "request_summary": "Kallaway — Hook Mastery (Interrupt Theory) forge extraction: skill + 10 workflows + 7 born-v2 prompts + agent expansion",
+            "intent_score": 4,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "kallaway"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

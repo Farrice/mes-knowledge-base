@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-05** [benoit-vatere/ready] [Benoit Vatere Forge — Full-Funnel Media Systems Extraction (Liquid Death)](2026-08-05-benoit-vatere.md) — /extract Extension Mode on benoit-vatere from the 2 corpus transcripts already on disk (~18k words)
+- **2026-08-05** [kallaway-hook-mastery/active] [Kallaway Hook Mastery — Blind Pass Generated Sample](2026-08-05-kallaway-hook-mastery.md) — Kallaway Hook Mastery — Blind Pass Generated Sample
 - **2026-08-05** [hilary-gridley-forge/ready] [Hilary Gridley Extraction — Anti-Slop Judgment Encoding OS (13 workflows + Taste Profile)](2026-08-05-hilary-gridley-forge.md) — Fire /hg-verdict-to-evaluator on LinkedIn posts — mint the first evaluator from Farrice's own verdict history
 - **2026-08-05** [caleb-ralston-forge/ready] [Caleb Ralston Personal Brand — Expansion Forge v4.0 (Anatomy of a Dream)](2026-08-05-caleb-ralston-forge.md) — Farrice reads the blind-pass sample beside the real corpus piece for the A-tier verdict, then /caleb-sandbag-strategy on the five-send target list
 - **2026-08-05** [oren-slop-era-forge/ready] [Oren Slop-Era Creative Strategy — Forge Extraction (2 Fresh 2026 Videos)](2026-08-05-oren-slop-era-forge.md) — Run /slop-era-audit on a supplement/performance brand as the Cash Launch free teardown

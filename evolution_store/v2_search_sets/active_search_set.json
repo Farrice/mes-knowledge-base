@@ -3595,8 +3595,36 @@
         "gaming_flag": false
       },
       "notes": "what worked: ownership-event trust underwriter angle, verified buyer verbatim, claim-risk cleanup | platform: codex | Verification: PASS local gates; content_finish_gate WARN prose_classifier parallel-structure heuristic; grounding_guard WARN report-density heuristic; Drive disabled by current instruction | Anchor: V4 golden sample"
+    },
+    {
+      "trace_id": "20260805_081318",
+      "timestamp": "2026-08-05T08:13:18.543652",
+      "schema_version": "v3",
+      "component": "kallaway-hook-mastery",
+      "expert": "kallaway",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "10 workflows (4/4/2 tiers), 12 genius patterns, 7 exemplars, 6 signature moves, 10-dim rubric | blind-pass: PASS model-judged vs kallaway-real-hooks-top-performers + video-open-annotated (EVAL-060); A-tier pending Farrice verdict | heartbeat: 7/7 | renaissance audit 0 fail | Factual Grounding: 9 | Verification: PASS | Anchor: If the real expert read this output cold, would they say yes, that's how I think \u2014 genius.md and workflows carry his actual frameworks (Interrupt Theory, 4 S's, triple-hook alignment, lock-in zone) with verbatim timestamped quotes, not vocabulary imitation"
     }
   ],
-  "total_cases": 127,
-  "last_updated": "2026-08-05T06:34:48.109763"
+  "total_cases": 128,
+  "last_updated": "2026-08-05T08:13:18.545353"
 }

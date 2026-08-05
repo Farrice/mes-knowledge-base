@@ -118,3 +118,4 @@
 {"ts": "2026-08-04T23:19:45.513508+00:00", "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca", "exchange": 1, "event": "next-moves-missing", "chars": 4140}
 {"ts": "2026-08-05T01:02:32.525844+00:00", "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca", "exchange": 6, "event": "next-moves-missing", "chars": 2168}
 {"ts": "2026-08-05T01:07:32.372259+00:00", "session_id": "f45108f6-954b-456f-bec6-69bd23c426ca", "exchange": 8, "event": "next-moves-missing", "chars": 1807}
+{"ts": "2026-08-05T14:59:03.211929+00:00", "session_id": "90b9bae9-d9d4-43b5-8e78-517eebc5de67", "exchange": 4, "event": "next-moves-missing", "chars": 4785}

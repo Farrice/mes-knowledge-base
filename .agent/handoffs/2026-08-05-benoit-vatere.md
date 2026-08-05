@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** benoit-vatere  
-**Full path:** .agent/handoffs/2026-08-05-benoit-vatere.md  
-**Date:** 2026-08-05 (today)  
-**Status:** ready  
-**Title:** Benoit Vatere Forge — Full-Funnel Media Systems Extraction (Liquid Death)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume benoit-vatere` for this one.
-
----
-
 ---
 thread: benoit-vatere
 status: ready
@@ -91,4 +79,3 @@ blind-pass line.
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - Previous handoff on this thread: `.agent/handoffs/2026-08-04-benoit-vatere.md` — everything it lists as shipped is EXTEND-ONLY.
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

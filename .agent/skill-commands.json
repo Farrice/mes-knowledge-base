@@ -657,6 +657,10 @@
       "skill": "kallaway-content-system"
     },
     {
+      "command": "/kallaway-hook",
+      "skill": "kallaway-hook-mastery"
+    },
+    {
       "command": "/kallaway-illusion",
       "skill": "kallaway-illusion-of-novelty"
     },
@@ -2162,6 +2166,7 @@
         "kallaway-content-operating-system",
         "kallaway-content-psychology",
         "kallaway-content-system",
+        "kallaway-hook-mastery",
         "kallaway-illusion-of-novelty",
         "kallaway-social-commerce",
         "kallaway-word-mastery"
