@@ -3539,8 +3539,36 @@
         "gaming_flag": false
       },
       "notes": "10 workflows (3 foundation/5 practitioner/2 stacking), 14 genius patterns + era-bound appendix, 8 born-v2 prompts, 3 verbatim exemplars | source WATCHED: 100 frames + 20.5k-word transcript, published same day | Factual Grounding: 9 | Verification: PASS | blind-pass: PASS (model-judged, EVAL-059, vs AoD origin monologue + 2026 interview segment; A-tier pending Farrice read) | heartbeat: 7/7 | expansion of existing skill v3.0\u2192v4.0, zero rebuild | Anchor: Expert Standard Anchor 9: if the real expert read this output cold, would they say 'yes, that's how I think' \u2014 every Pattern 26-39 anchored to a verbatim quote from the watched source, blind-pass sample judged recognizably Caleb (methodology + cadence, not vocabulary); Adversarial Anchor 9: every claim has a specific supporting reference \u2014 era-bound signals date-stamped instead of asserted, host-synthesis attributed separately, paraphrases tilde-marked"
+    },
+    {
+      "trace_id": "20260805_055121",
+      "timestamp": "2026-08-05T05:51:21.743706",
+      "schema_version": "v3",
+      "component": "deep-research-os",
+      "expert": "oren-operational-systems",
+      "workflow": "angle-map-listening-engine-v4.1",
+      "quality": {
+        "composite": 6.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Worked: Apify comments pull on the Thorne funeral thread gave primary verbatim within hours of a $3.8B event; 16-signal sweep gave honest 12-angle field; ownership lane is new to the ledger. Didn't: 2 ashwagandha search runs returned 0 (search URLs unreliable on this actor); brief file trips finish-gate on report structure (standing false positive, shipped assets WARN-clean) | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 125,
-  "last_updated": "2026-08-04T20:56:37.279603"
+  "total_cases": 126,
+  "last_updated": "2026-08-05T05:51:21.746166"
 }

@@ -141,8 +141,8 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-04 (chain_runner finalize for caleb-ralston-personal-brand) |
-| **Activation Count** | 817 |
+| **Last Activated** | 2026-08-05 (chain_runner finalize for deep-research-os) |
+| **Activation Count** | 818 |
 
 **Phase 2**: PRIMED, not cycling (corrected 2026-07-02 audit — the 2026-03-30 run was a one-off, not a loop). Candidates via `skill_evolution_candidates.py scan`; run `/skill-evolution <candidate>` after the E3 bake-off calibrates the eval set.
 **Phase 3**: PAUSED — concrete unlock in `.agent/evolution-paused.json`: eval set ≥15 human-calibrated entries + one Phase 2 cycle on a calibrated candidate. (The 2026-03-30 cross-pollination was a one-off predating the rubric pause.)

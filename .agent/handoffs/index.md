@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-05** [health-performance-ip-library/active] [Health Performance Ip Library — Latest Exec Cut](2026-08-05-health-performance-ip-library.md) — Health Performance Ip Library — Latest Exec Cut
 - **2026-08-04** [benoit-vatere/active] [Benoit Vatere — Blind Pass Sample](2026-08-04-benoit-vatere.md) — Benoit Vatere — Blind Pass Sample
 - **2026-08-04** [oren-slop-era-creative-strategy/active] [Oren Slop Era Creative Strategy — Blind Pass Sample](2026-08-04-oren-slop-era-creative-strategy.md) — Oren Slop Era Creative Strategy — Blind Pass Sample
 - **2026-08-04** [global-org-sweep/ready] [Global Org Sweep — One Tree + Generated PROJECTS.md (filing, anti-decay, status stamps)](2026-08-04-global-org-sweep.md) — Wire the 4 triaged orphans (design_md_extract, test_video_enhance, publishable_copy_guard, client_package_lint), then archive the 4 one-shot audits

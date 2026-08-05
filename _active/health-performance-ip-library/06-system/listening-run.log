@@ -91,3 +91,23 @@ released
 === 2026-08-04 05:49:25 listening run end rc=0 ===
 === 2026-08-05 05:30:05 listening run start ===
 claimed: 29a2c366ce1f  (heartbeat every wave: session_lock.py heartbeat 29a2c366ce1f)
+The push landed — origin/main and local HEAD are identical at `893638793` (the error was a benign lock race with an auto-push hook). Run complete. Here's the day's cut.
+
+---
+
+## Listening run — 2026-08-05 (Wed: promises-not-kept deep dive) ✅
+
+**The pick: trust has an owner, and the buyers keep the ledger.** P&G announced Monday it's buying Thorne for $3.8B (VERIFIED — [CNBC](https://www.cnbc.com/2026/08/04/procter-gamble-will-acquire-supplements-brand-thorne.html), Thorne's own press release read this run). By dinner the top post on r/Supplements was a funeral: **"RIP Thorne, it was nice knowing you" — 855 upvotes**, and the winning replacement recommendation got 329 upvotes for one qualification: *"an owner who refuses to bend over or sell out."* Nothing on the label changed; the best customers left anyway. One buyer dated the decline to the 2023 L Catterton buyout — three years before the headline. P&G's own announcement names what it bought: "a trusted, science-backed brand."
+
+**Wednesday deep dive** investigated the practitioner-trust promise end-to-end: the claim was honest, but it's underwritten by ownership, people, and visible process — none of it printed, all of it on the buyer's ledger, rewritten overnight by a transaction. Third underwriter-level failure now in the ledger (study → creator → cap table).
+
+**Shipped to the vault (both READY, gates clean):** the flagship post ("Monday afternoon, CNBC…" — closes on your vitamin-shop counter) and **The Buyer's Ledger #1** teardown post (credit-first on Thorne, lands on "your strongest claim is only as durable as its least durable underwriter"). Plus 5 hooks, carousel/video seeds, teardown prompt, and a fit-read DM angle keyed to the week's re-shopping window.
+
+**Honesty notes:**
+- Social listening lane LIVE: 8 Apify runs, 32 items, 2 threads read closely ($0.032 today, month $0.409 of $29). Both ashwagandha search runs returned 0 — the actor's search-URL path is unreliable; subreddit/thread URLs work. The CLI reddit 400 workaround was needed a fourth time — `apify_client.py` still deserves that permanent fix.
+- The "fired their scientific team" claim is UNCONFIRMED (one second-hand comment) and is excluded from every public asset.
+- Finish gate: shipped assets WARN-only (same profile as all accepted vault assets); the brief file itself trips the gate on its own report structure — the documented standing false positive. Finalize's intent-alignment auto-score hit 4.0 a fourth consecutive time (scheduled-run/rubric mismatch — reported, not chased).
+- Drive mirror VERIFIED in the approved folder: [2026-08-05 — Angle Map Listening Brief](https://docs.google.com/document/d/1yfB9apRora1E-eMMoADhgE80JLHYrBDfYBjBNm4xQJ0/edit). The AWS Marketplace and Google Calendar connectors still need re-auth in claude.ai settings if you want them in headless runs.
+- Git: this run's 10 files committed and pushed to main (`893638793`). Session lock stays with the wrapper to release. No publishing, outreach, or contact of any kind occurred.
+
+**Next moves** — Deepen: the "Independence Ledger" answer page (§7, Citation Compulsion 4/5) is the natural GEO asset — a dated ownership map of premium brands, and this is the week to build it. Adjacent: Thursday's category-patterns focus already has its spine parked (the subsidized-trust-acquisition wave: IM8 $1B, Function $450M). Act: flagship + teardown are queue-ready while the re-shopping window is open — this angle is unusually perishable. **Operator lesson:** the best verbatim of the month cost $0.011 and came from pulling comments on a thread the sweep had already surfaced — read the room the news creates, not just the news.

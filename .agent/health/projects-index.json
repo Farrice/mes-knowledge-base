@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:27:38.353069+00:00",
+  "generated_at": "2026-08-05T12:32:10.005424+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -28,7 +28,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "git",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -43,7 +43,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -118,7 +118,7 @@
       "index_exists": true,
       "last_touched": "2026-07-13",
       "last_touched_source": "git",
-      "days": 21,
+      "days": 22,
       "prefix_collisions": {}
     },
     {
@@ -253,7 +253,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -268,7 +268,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -356,7 +356,7 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-08-04",
+      "last_touched": "2026-08-05",
       "last_touched_source": "git",
       "days": 0,
       "prefix_collisions": {}
@@ -403,7 +403,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -513,7 +513,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -663,7 +663,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "git",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -678,7 +678,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -723,7 +723,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     },
     {
@@ -813,7 +813,7 @@
       "index_exists": true,
       "last_touched": "2026-05-28",
       "last_touched_source": "git",
-      "days": 67,
+      "days": 68,
       "prefix_collisions": {}
     },
     {
@@ -843,7 +843,7 @@
       "index_exists": true,
       "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 6,
+      "days": 7,
       "prefix_collisions": {}
     }
   ],

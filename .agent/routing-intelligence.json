@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 100,
+            "total_routings": 101,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -457,7 +457,7 @@
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
                 "sean-dollwet-kdp-publishing": 9,
-                "Research": 8,
+                "Research": 9,
                 "fresh-voice-system": 5,
                 "Content": 5,
                 "Analysis": 1,
@@ -505,7 +505,7 @@
                 "meg-heckman-buyer-trigger-os": 2,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 9,
-                "oren-operational-systems": 2,
+                "oren-operational-systems": 3,
                 "fresh-voice-system": 5,
                 "luke-iha-creative-strategy": 4,
                 "Oren Operational Systems": 2,
@@ -576,7 +576,7 @@
                 "caleb-ralston": 1
             },
             "tier_counts": {
-                "0": 100,
+                "0": 101,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -585,7 +585,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 74,
-                "finalize-auto": 26
+                "finalize-auto": 27
             },
             "ensemble_count": 54,
             "auto_miss_count": 4
@@ -2375,6 +2375,23 @@
             "workflow_used": "nate-b-jones-context-engineering",
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_125121_96a7",
+            "timestamp": "2026-08-05T12:51:21.735648+00:00",
+            "session_id": "",
+            "request_summary": "2026-08-05 Angle Map listening brief (Wed promises deep dive): P&G-Thorne trust-ownership angle, flagship post + Buyer's Ledger teardown #1 vault-filed, 3 insight + 2 promises rows, living docs 07/03 ",
+            "intent_score": 4,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "angle-map-listening-engine-v4.1",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

@@ -1,21 +1,7 @@
 {
- "ts": "2026-08-05T05:31:58.526785",
+ "ts": "2026-08-05T05:52:42.285805",
  "mode": "heal",
  "rows": [
-  {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "skill:caleb-ralston-personal-brand <- aed4c4488 2026-08-04 feat(extract): Caleb Ralston expansion forge v4.0 \u2014 Anatomy of a Dream 2026-08-04 (watched: frames+transcript)"
-    ]
-   },
-   "action": "healed",
-   "note": "skill:caleb-ralston-personal-brand <- aed4c4488 2026-08-04 feat(extract): Caleb Ralston expansion forge v4.0 \u2014 Anatomy of a Dream 2026-08-04 (watched: frames+transcript)",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "dead_hooks",
    "cls": "JUDGMENT",
@@ -101,6 +87,13 @@
     ],
     "deferred_files": 1
    },
+   "action": "escalated"
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {
