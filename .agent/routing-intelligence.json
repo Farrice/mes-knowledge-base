@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 106,
+            "total_routings": 109,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -488,7 +488,7 @@
                 "ali-abdaal-action-bias": 1,
                 "lamott-allen-really-real-writing": 1,
                 "gpt-image-2-director": 6,
-                "creative-campaign-strategy": 1,
+                "creative-campaign-strategy": 2,
                 "briar-cochran-content-science": 1,
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 1,
@@ -499,7 +499,7 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "Extraction": 3,
-                "nate-b-jones-context-engineering": 2,
+                "nate-b-jones-context-engineering": 4,
                 "ethan-smith-aeo": 1
             },
             "expert_counts": {
@@ -514,7 +514,7 @@
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
                 "supercomputer": 6,
-                "doc-coauthoring": 8,
+                "doc-coauthoring": 10,
                 "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
@@ -545,7 +545,7 @@
                 "fantastic-posters": 1,
                 "samuel-thompson": 2,
                 "stefan-georgi-dopamine-copy": 1,
-                "creative-campaign-strategy": 3,
+                "creative-campaign-strategy": 4,
                 "luke-iha-vsl-leads": 1,
                 "lamott-allen-really-real-writing": 2,
                 "ali-abdaal-action-bias": 1,
@@ -561,7 +561,7 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 1,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 3,
+                "nate-b-jones-context-engineering": 5,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
@@ -580,7 +580,7 @@
                 "kallaway": 1
             },
             "tier_counts": {
-                "0": 106,
+                "0": 109,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -588,10 +588,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 77,
+                "hybrid": 80,
                 "finalize-auto": 29
             },
-            "ensemble_count": 56,
+            "ensemble_count": 58,
             "auto_miss_count": 4
         }
     },
@@ -2483,6 +2483,59 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_163359_f4ba",
+            "timestamp": "2026-08-05T16:33:59.135745+00:00",
+            "session_id": "9ea7f033-d8c6-4de8-9a0f-bbae2ee26522",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_163547_c27d",
+            "timestamp": "2026-08-05T16:35:47.489862+00:00",
+            "session_id": "532760fd-b9e6-42ac-bf38-bf8ca98315b7",
+            "request_summary": "im ready to start making some money leveraging ai, I would like to start with digital product and make at least $100-$200 dollars a week. something where I don't have to manage people or too much cust",
+            "intent_score": 0,
+            "domain_detected": "creative-campaign-strategy",
+            "experts_deployed": [
+                "creative-campaign-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-campaign-strategy",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_181016_2fc1",
+            "timestamp": "2026-08-05T18:10:16.799809+00:00",
+            "session_id": "532760fd-b9e6-42ac-bf38-bf8ca98315b7",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
             "feedback": null
         }
     ]

@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-08-05T16:49:03+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05/DEMAND-RECEIPTS.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05/04-deliverables/DEMAND-RECEIPTS.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05/DEMAND-RECEIPTS.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05",
+  "project_slug": "digital-product-lane-2026-08-05",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-05.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

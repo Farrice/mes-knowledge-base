@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** digital-product-lane-2026-08-05  
-**Full path:** .agent/handoffs/2026-08-05-digital-product-lane-2026-08-05.md  
-**Date:** 2026-08-05 (today)  
-**Status:** active  
-**Title:** Digital Product Lane 2026 08 05 — Demand Receipts
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume digital-product-lane-2026-08-05` for this one.
-
----
-
 ---
 thread: digital-product-lane-2026-08-05
 status: active
@@ -29,4 +17,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

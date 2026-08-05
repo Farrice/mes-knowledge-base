@@ -246,6 +246,12 @@
       "moved_at": "2026-07-09T03:12:08+00:00",
       "project": "content-system-audit"
     },
+    "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05/DEMAND-RECEIPTS.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05/04-deliverables/DEMAND-RECEIPTS.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-05T16:49:03+00:00",
+      "project": "digital-product-lane-2026-08-05"
+    },
     "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/concept-brief.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/04-deliverables/concept-brief.md",
       "lifecycle": "deliverable",
@@ -2059,6 +2065,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-04T23:19:02+00:00",
+  "updated_at": "2026-08-05T16:49:03+00:00",
   "version": 1
 }
