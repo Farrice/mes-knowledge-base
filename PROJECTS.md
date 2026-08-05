@@ -24,7 +24,6 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `josh-katie-fitness` | _active/ | `_active/josh-katie-fitness/INDEX.md` | 2026-07-09 | active* |
 | `coach-cooz` | _active/ | `_active/coach-cooz/INDEX.md` | 2026-07-08 | active* |
 | `dwa-affiliate-battle-test` | _active/ | `_active/dwa-affiliate-battle-test/00-start-here/DEPLOY.md` | 2026-07-07 | active* |
-| `josh-swing-nerd-shirts-v1` | _active/ | `_active/josh-swing-nerd-shirts-v1/INDEX.md` | 2026-07-06 | active* |
 
 ## Parked
 
@@ -35,6 +34,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-07-28 | parked |
 | `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-07-28 | parked |
 | `mybpm-merch-os-run-1` | _active/ | `_active/mybpm-merch-os-run-1/INDEX.md` | 2026-07-19 | parked |
+| `josh-swing-nerd-shirts-v1` | _active/ | `_active/josh-swing-nerd-shirts-v1/INDEX.md` | 2026-07-06 | parked* |
 | `codex-repeatability` | _active/ | `_active/codex-repeatability/INDEX.md` | 2026-07-01 | parked* |
 | `farrice-teach-grow-rich` | _active/ | `_active/farrice-teach-grow-rich/INDEX.md` | 2026-07-01 | parked* |
 | `josh-dancewear-brand` | _active/ | `_active/josh-dancewear-brand/INDEX.md` | 2026-07-01 | parked* |
@@ -75,12 +75,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
 | `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
 
-**56 projects** — 17 active, 19 parked, 20 done.
+**56 projects** — 16 active, 20 parked, 20 done.
 
 ## Needs judgment
 
 Contradictions only — not a list of unstamped projects.
 
 - **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
-- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 6d ago
+- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 7d ago
 

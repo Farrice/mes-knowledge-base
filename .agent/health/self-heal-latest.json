@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-05T08:47:35.471626",
+ "ts": "2026-08-05T09:27:47.718064",
  "mode": "heal",
  "rows": [
   {
@@ -82,7 +82,7 @@
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 6d ago"
+      "detail": "stamped done, then touched 7d ago"
      }
     ],
     "deferred_files": 1
