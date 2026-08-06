@@ -127,3 +127,6 @@
 {"ts": "2026-08-06T15:16:26.760129+00:00", "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97", "exchange": 4, "event": "next-moves-missing", "chars": 3600}
 {"ts": "2026-08-06T15:49:27.937657+00:00", "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97", "exchange": 8, "event": "next-moves-missing", "chars": 452}
 {"ts": "2026-08-06T16:08:09.085113+00:00", "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97", "exchange": 9, "event": "next-moves-missing", "chars": 452}
+{"ts": "2026-08-06T16:15:40.543683+00:00", "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc", "exchange": 2, "event": "feedback-turn-blind-produce"}
+{"ts": "2026-08-06T17:39:57.137493+00:00", "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97", "exchange": 10, "event": "feedback-turn-blind-produce"}
+{"ts": "2026-08-06T18:17:32.713336+00:00", "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc", "exchange": 9, "event": "feedback-turn-blind-produce"}

@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-08-06 | 832 sources | 3,062,188 words*
+*Generated: 2026-08-06 | 833 sources | 3,063,892 words*
 
 ---
 
@@ -11,7 +11,7 @@
 - **sample-004** (copywriting) — 93 words — `knowledge/expert-benchmarks/jen-listing-content/sample-004.md`
 - **sample-005** (copywriting) — 77 words — `knowledge/expert-benchmarks/jen-listing-content/sample-005.md`
 - **index** (content) — 5,571 words — `knowledge/index.md`
-- **log** (general) — 17,316 words — `knowledge/log.md`
+- **log** (general) — 17,368 words — `knowledge/log.md`
 - **gauntlet-loop-blind-bar-mechanism** (screenwriting) — 1,261 words — `knowledge/synthesis/gauntlet-loop-blind-bar-mechanism.md`
 - **blind-pass-log** (systems) — 1,076 words — `extractions/cody-schneider-signal-outbound/blind-pass-log.md`
 - **extraction-report** (content) — 7,487 words — `extractions/cody-schneider-signal-outbound/extraction-report.md`
@@ -23,7 +23,7 @@
 | content | 291 | oren-john |
 | copywriting | 121 | luke-iha |
 | general | 97 | nick-saraev |
-| strategy | 89 | april-dunford |
+| strategy | 90 | april-dunford |
 | screenwriting | 58 | connelly |
 | brand | 58 | oren-john |
 | systems | 51 | nick-saraev |

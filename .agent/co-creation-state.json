@@ -1,9 +1,4 @@
 {
- "83ba2e74-9a7c-401b-bc1f-c32ee681865d": {
-  "stems": {},
-  "updated": "2026-08-05T11:31:52.054789",
-  "last_feedback_exchange": 0
- },
  "27489b5d-bbb2-4ded-8b32-3c0d453e6704": {
   "stems": {},
   "updated": "2026-08-05T19:59:18.188577",
@@ -60,7 +55,28 @@
     "rejections": 1
    }
   },
-  "updated": "2026-08-06T09:05:17.158268",
-  "last_feedback_exchange": 6
+  "updated": "2026-08-06T12:54:21.708449",
+  "last_feedback_exchange": 10
+ },
+ "c86ffaa7-161a-4e92-b507-5514e8f6bacc": {
+  "stems": {
+   "template": {
+    "rejections": 1
+   },
+   "design": {
+    "rejections": 2
+   },
+   "asset_gallery": {
+    "rejections": 1
+   },
+   "render_brief": {
+    "rejections": 1
+   },
+   "brief_library": {
+    "rejections": 1
+   }
+  },
+  "updated": "2026-08-06T12:55:57.775807",
+  "last_feedback_exchange": 16
  }
 }

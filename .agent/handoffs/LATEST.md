@@ -4,7 +4,7 @@
 **Full path:** .agent/handoffs/2026-08-06-readout-os.md  
 **Date:** 2026-08-06 (today)  
 **Status:** ready  
-**Title:** Readout OS session — 2026-08-06 (verdicts: "great")
+**Title:** Readout OS — Visual Delivery System Build (Briefing Room + Live Pulse + Premium Minimal)
 
 > Not auto-loaded. Run `/resume` to choose any thread, or `/resume readout-os` for this one.
 
@@ -13,31 +13,36 @@
 ---
 thread: readout-os
 status: ready
-resume_hint: Home-base triad live: /briefing-room, /pulse-board (click-to-complete), asset board — deploy phase; watch Monday 07:30 angle brief
-unfinished: Parked opt-ins: COS-to-brief bridge, chart kinds, arsenal reskin, room live-server
+resume_hint: Deploy phase: /briefing-room + /pulse-board daily; scratch off 3 waiting missions; verify Mon 07:30 angle brief lands
+unfinished: Parked opt-ins: COS-to-brief bridge, chart kinds, arsenal reskin, sidebar search
 branch: main
-pin: false
+pin: true
 ---
 
-# Readout OS session — 2026-08-06 (verdicts: "great")
+# Readout OS — Visual Delivery System Build (Briefing Room + Live Pulse + Premium Minimal)
 
-## What shipped (all committed + pushed to main, all $0 local)
-1. **Premium Minimal everywhere**: brand package rescued from Codex scratch → `_active/farrice-brand/premium-minimal/` (+ `REPORT-DIALECT.md` — italic-serif accent + steel blue sanctioned for reports only). Brief template, Briefing Room, Asset Command Center (dark variant), Pulse — one design system.
-2. **Briefing Room** (`/briefing-room`): sidebar (category/priority/counts), 10-per-page pagination, compiled-date sort, per-card + per-page `path` / `copy brief` quick-copy, auto context packs (`<slug>-context.json`), `--share` client-safe export (BINDING: internal briefs never go out).
-3. **Pipeline integrity**: render_brief auto-refreshes the room on EVERY render; both synthesis prompts emit category/priority pre-filed; **fixed Monday-breaking bug** (angle_brief_run.sh pointed at re-filed prompt path).
-4. **Live Pulse** (`/pulse-board`): cockpit (sprint/tiles/needs-you/fresh-intel-from-room) + context-rich console; `pulse_actions.py` (done/park/reopen/outcome/snooze/dismiss/thread-archive — the system's FIRST mission-close writers); `pulse_serve.py` on-demand localhost server (regen-on-GET, ROOT-jailed open-path, idle-exit 2h); live/static dual contract. Pattern: `docs/solutions/2026-08-06-live-local-board-pattern.md`.
-5. Universal nav triad across all three surfaces.
+## Purpose
+- **Next session should do:** Deploy phase — use /briefing-room and /pulse-board as daily surfaces; scratch off the 3 waiting compiled missions from the live Pulse; verify Monday 07:30 first automated pre-filed angle brief lands in the room; port worthy md deliverables to the Drive content vault (md_to_gdoc.py).
+- **Not in scope:** New engines or boards; COS-to-brief bridge, chart section kinds, arsenal-board reskin, sidebar search (all parked opt-ins); productizing the system for others (parked behind P2M revenue).
 
-## Next session focus
-- Farrice is DEPLOYING now: using the boards daily, scratching off the 3 compiled missions waiting, watching Monday 07:30 (first fully-automated pre-filed angle brief through the new pipeline).
-- Parked, named, opt-in: COS primer → brief engine; graphs/charts section kinds (build against the first real brief that needs one); reskin arsenal-board to PM tokens; Briefing Room live-server (only when the room earns a write action); sidebar search at scale.
-- Pending verdicts: pulse cockpit rebuild + live layer (asked, unanswered — not a defect).
+## Load First
+- .agent/workflows/briefs.md — the Visual Delivery Doctrine: 5 family recipes, librarian, --share rule, Drive vault road
+- docs/solutions/2026-08-06-live-local-board-pattern.md — the live-board pattern (writers-first, dual-mode)
+- _active/farrice-brand/premium-minimal/REPORT-DIALECT.md — design-system exceptions for report surfaces
+- deliverables/research-briefs/design-system-showcase/ — every section kind, once (living format reference)
+- deliverables/research-briefs/icp-invisible-expert/ — ICP family exemplar
 
-## Gotchas for whoever resumes
-- Pulse tier strings can be "T2 waiting" — prefix-match, never exact.
-- `--share` strips mechanical internals only; authored prose is the author's to redact.
-- handoff_store `save` needs a source file (this file is that); `annotate` is flag-only.
-- Brief JSONs re-render from `deliverables/research-briefs/<slug>/<slug>-brief.json`; token changes = edit template `:root` once + re-render loop in `/briefs`.
+## State
+- All shipped + pushed on main, $0 spend: Premium Minimal across briefs/room/board/pulse; Briefing Room v2 (sidebar, pagination, quick-copy, context packs, --share); live Pulse (pulse_serve.py localhost, click-to-complete via pulse_actions.py — first-ever mission-close writers, reopen included); universal nav triad; pipeline integrity (render auto-refreshes index; Monday runner path bug fixed); Visual Delivery Doctrine both harnesses (AGENTS.md); librarian lifecycle (30d periodicals auto-archive, archived never gone, audit + housekeeping strip); side-window live reload (marker-verified).
+- Verdicts: "great" (re-skin + room), "great" (session), "good" (visual delivery close). Doctor pass clean: 0 new hooks, binding suggestion-only, shelves clean, no new broken citations.
+
+## Commands (no memory needed)
+- /briefing-room · /pulse-board · python3 execution/pulse_serve.py --open (live boards)
+- python3 execution/render_brief.py <json> [--share|--gdoc] · python3 execution/brief_library.py [archive|unarchive|audit]
+- python3 execution/md_to_gdoc.py <file.md> (Drive vault port)
+
+## Suggested skills/workflows
+/briefs (authoring doctrine) · /go (mission close-outs offer brief-format receipts) · /nate-b-harness-design-audit (run after a week of living with the system)
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)

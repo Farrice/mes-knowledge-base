@@ -449,31 +449,31 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 152,
+            "total_routings": 165,
             "total_feedback": 6,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
-                "sean-dollwet-kdp-publishing": 9,
+                "sean-dollwet-kdp-publishing": 10,
                 "Research": 10,
                 "fresh-voice-system": 6,
                 "Content": 6,
                 "Analysis": 3,
                 "alex-copper-creative-strategy": 1,
-                "System": 9,
+                "System": 10,
                 "supercomputer": 6,
                 "Creative": 1,
-                "Strategy": 4,
+                "Strategy": 5,
                 "luke-iha-copy-blocks": 4,
                 "adam-sandler-second-brain-gtm": 1,
                 "jen-santulan-listing-content": 7,
                 "joey-cinema-os": 2,
-                "creative-direction": 1,
-                "kallaway-illusion-of-novelty": 5,
+                "creative-direction": 3,
+                "kallaway-illusion-of-novelty": 7,
                 "satori-graphics": 1,
-                "ben-watkins-storytelling": 4,
+                "ben-watkins-storytelling": 5,
                 "gemini-api-dev": 1,
                 "jason-fladlien-marketing": 2,
                 "nicolas-cole-digital-products": 1,
@@ -507,12 +507,17 @@
                 "luke-iha-avatar-machine": 1,
                 "nick-st-pierre": 2,
                 "chief-of-staff-os": 1,
-                "sharran-srivatsaa-scaling": 1
+                "sharran-srivatsaa-scaling": 1,
+                "donald-miller-business-growth": 1,
+                "fashion-coupids": 1,
+                "dr-kriukow-humanization": 1,
+                "brand-operating-system": 1,
+                "dave-clark": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 4,
                 "context-profile-architect": 1,
-                "sean-dollwet-kdp-publishing": 9,
+                "sean-dollwet-kdp-publishing": 10,
                 "oren-operational-systems": 4,
                 "fresh-voice-system": 6,
                 "luke-iha-creative-strategy": 5,
@@ -528,11 +533,11 @@
                 "health-performance-angle-map-listening-engine": 2,
                 "jen-santulan-listing-content": 7,
                 "joey-cinema-os": 2,
-                "ben-watkins-storytelling": 7,
+                "ben-watkins-storytelling": 10,
                 "RoboNuggets source-to-skill": 1,
-                "creative-direction": 1,
+                "creative-direction": 3,
                 "hilary-gridley": 1,
-                "kallaway-illusion-of-novelty": 8,
+                "kallaway-illusion-of-novelty": 11,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1,
@@ -540,7 +545,7 @@
                 "nicolas-cole-digital-products": 1,
                 "luke-iha-million-dollar-mechanisms": 1,
                 "generate": 2,
-                "fashion-coupids": 1,
+                "fashion-coupids": 3,
                 "Health Performance Angle Map Listening Engine": 1,
                 "omar-eltakrori": 1,
                 "story-bible-builder": 1,
@@ -558,7 +563,7 @@
                 "ali-abdaal-action-bias": 1,
                 "chase-hughes-context-engineering": 1,
                 "luke-iha-vicious-hooks": 3,
-                "gpt-image-2-director": 7,
+                "gpt-image-2-director": 8,
                 "fraser-cottrell-paid-ads": 7,
                 "system-audit": 2,
                 "justin-welsh-solopreneur": 1,
@@ -579,7 +584,7 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "david-bayer-elite-communication": 2,
-                "dr-kriukow-humanization": 2,
+                "dr-kriukow-humanization": 3,
                 "oren-john": 1,
                 "caleb-ralston": 1,
                 "health-performance-geo-creative-strategist": 1,
@@ -598,10 +603,17 @@
                 "corey-mcclain-persona-engineering": 3,
                 "riley-brown": 4,
                 "nba-betting-edge": 1,
-                "sharran-srivatsaa-scaling": 1
+                "sharran-srivatsaa-scaling": 1,
+                "oren": 1,
+                "donald-miller-business-growth": 1,
+                "donald-miller": 1,
+                "brand-operating-system": 1,
+                "dave-clark": 1,
+                "seena-rez-tiktok-commerce": 1,
+                "alex-content-science": 1
             },
             "tier_counts": {
-                "0": 152,
+                "0": 165,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -609,10 +621,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 108,
-                "finalize-auto": 44
+                "hybrid": 119,
+                "finalize-auto": 46
             },
-            "ensemble_count": 82,
+            "ensemble_count": 90,
             "auto_miss_count": 5,
             "auto_match_count": 1
         }
@@ -3328,6 +3340,234 @@
             "workflow_used": "nate-b-jones-context-engineering",
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_161028_8b3f",
+            "timestamp": "2026-08-06T16:10:28.293932+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "run /go for this task: I really love the formatting of our recent reports that we've been doing, that are HTML files that we've been getting in that whole workflow and readout and structure, and how e",
+            "intent_score": 0,
+            "domain_detected": "creative-direction",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-direction",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_165229_5df9",
+            "timestamp": "2026-08-06T16:52:29.182295+00:00",
+            "session_id": "",
+            "request_summary": "Readout OS: research-brief system re-skinned to Farrice Cain Premium Minimal (Ink+Steel Blue report dialect), enriched with playbook/assets/timeline/flow/stats/matrix/related section kinds + auto agen",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "oren"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "briefs",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_170333_cdcd",
+            "timestamp": "2026-08-06T17:03:33.502479+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "request_summary": "run /go the important thing that I want to note is: what does God Agent offer? I feel like there's gonna be an indispensable, mandatory build out that businesses that are serious about coming AI-nativ",
+            "intent_score": 0,
+            "domain_detected": "donald-miller-business-growth",
+            "experts_deployed": [
+                "donald-miller-business-growth"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "donald-miller-business-growth",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_173556_56cb",
+            "timestamp": "2026-08-06T17:35:56.758693+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "yeah, this is beautifully done, thank you!\n\nAs we continue to do this, in the briefing room, as more and more briefs are building, we need to have a sidebar that will let me be able to select so that ",
+            "intent_score": 0,
+            "domain_detected": "ben-watkins-storytelling",
+            "experts_deployed": [
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "ben-watkins-storytelling",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_173922_313e",
+            "timestamp": "2026-08-06T17:39:22.185865+00:00",
+            "session_id": "",
+            "request_summary": "Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "donald-miller"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "one-liner",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_174307_874c",
+            "timestamp": "2026-08-06T17:43:07.153786+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "and we're on our next moves, and I am so excited with what we're building right here! This is so useful, thank you.\n\nCan we make sure that we cover any gaps in this functioning or working like it need",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty",
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": true,
+            "compound_pairing": "kallaway-illusion-of-novelty + ben-watkins-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_181051_1a0e",
+            "timestamp": "2026-08-06T18:10:51.167274+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "run /go  I love having that navigation bar that we need to be able to have on all three surfaces so that I can actually click through them and just be able to stay in line with everything!\n\nAlso, the ",
+            "intent_score": 0,
+            "domain_detected": "fashion-coupids",
+            "experts_deployed": [
+                "fashion-coupids",
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fashion-coupids",
+            "ensemble": true,
+            "compound_pairing": "fashion-coupids + ben-watkins-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_182114_ec5c",
+            "timestamp": "2026-08-06T18:21:14.256506+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "the Overdue and the Threads drop-down menus are still showing just text rendering with no value to it. I would like the cards to be fully functional and usable and deployable so that I can accomplish ",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_184637_2da3",
+            "timestamp": "2026-08-06T18:46:37.224632+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "Oh, I want to close this out, this session, and start deploying and utilizing areas. Can you please do a final check, pass, and make sure everything works, and also add anything you feel would be help",
+            "intent_score": 0,
+            "domain_detected": "dr-kriukow-humanization",
+            "experts_deployed": [
+                "dr-kriukow-humanization",
+                "gpt-image-2-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dr-kriukow-humanization",
+            "ensemble": true,
+            "compound_pairing": "dr-kriukow-humanization + gpt-image-2-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_190340_233e",
+            "timestamp": "2026-08-06T19:03:40.451897+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "case in point: when we do research and we make a bunch of research briefs, or even the ICP and avatar work, to have something like this. That's like an audience profile builder, or even just I could c",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "fashion-coupids"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + fashion-coupids",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_194048_68e0",
+            "timestamp": "2026-08-06T19:40:48.048300+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "complete your task before the tool got interrupted",
+            "intent_score": 0,
+            "domain_detected": "dave-clark",
+            "experts_deployed": [
+                "dave-clark",
+                "seena-rez-tiktok-commerce"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dave-clark",
+            "ensemble": true,
+            "compound_pairing": "dave-clark + seena-rez-tiktok-commerce",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_194259_d646",
+            "timestamp": "2026-08-06T19:42:59.037014+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "request_summary": "I need you to do any verification. Make sure what you said you did here in this session is actually working. I just tried to launch the Oracle board, and it didn't launch at all. I can't even find it!",
+            "intent_score": 0,
+            "domain_detected": "creative-direction",
+            "experts_deployed": [
+                "creative-direction",
+                "alex-content-science"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-direction",
+            "ensemble": true,
+            "compound_pairing": "creative-direction + alex-content-science",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_195558_acf8",
+            "timestamp": "2026-08-06T19:55:58.196389+00:00",
+            "session_id": "c86ffaa7-161a-4e92-b507-5514e8f6bacc",
+            "request_summary": "do we need to run the end session to close this out, and then can you please give me the title for this session so that I can update the title, please?",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing",
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": true,
+            "compound_pairing": "sean-dollwet-kdp-publishing + kallaway-illusion-of-novelty",
             "feedback": null
         }
     ]

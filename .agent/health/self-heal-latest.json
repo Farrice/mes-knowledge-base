@@ -1,7 +1,30 @@
 {
- "ts": "2026-08-06T09:08:11.875725",
+ "ts": "2026-08-06T12:57:46.091479",
  "mode": "heal",
  "rows": [
+  {
+   "id": "born_intent_drift",
+   "cls": "EVIDENCE",
+   "what": "3 anchor(s) drifted, every one traceable to a commit since the last bless",
+   "fix": "python3 execution/verify_born_intent_drift.py --bless",
+   "detail": {
+    "explained": [
+     "workflow:briefs <- ceea98cc6 2026-08-06 fix(readout-os): closing corrections \u2014 md first-class + Drive vault road, 30d auto-archive both periodicals, archived-never-gone doctrine; doctor pass clean",
+     "workflow:dual-format-docs <- dd6f56e0d 2026-08-06 feat(readout-os): Visual Delivery OS \u2014 doctrine, librarian lifecycle, live side-window, Codex parity",
+     "workflow:pulse-board <- bec5de524 2026-08-06 feat(pulse): live layer \u2014 click-to-complete via on-demand localhost server + real cards for outcomes/threads"
+    ]
+   },
+   "action": "healed",
+   "note": "workflow:briefs <- ceea98cc6 2026-08-06 fix(readout-os): closing corrections \u2014 md first-class + Drive vault road, 30d auto-archive both periodicals, archived-never-gone doctrine; doctor pass clean; workflow:dual-format-docs <- dd6f56e0d 2026-08-06 feat(readout-os): Visual Delivery OS \u2014 doctrine, lib",
+   "commit": "commit skipped (--no-commit; the caller owns the commit)"
+  },
+  {
+   "id": "stale_slash_commands",
+   "cls": "JUDGMENT",
+   "what": "2 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
+   "fix": "debug the append region in execution/generate_slash_commands.py",
+   "action": "escalated"
+  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -77,7 +100,7 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 dual taxonomy; 1 missing index \u2014 e.g. _active/digital-product-lane-2026-08-05, _active/linkedin-launch",
+   "what": "organization drift: 1 dual taxonomy; 1 missing index; 1 status done but live \u2014 e.g. _active/digital-product-lane-2026-08-05, _active/linkedin-launch, _active/operator-cockpit-v2",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
@@ -90,17 +113,15 @@
       "kind": "dual_taxonomy",
       "project": "_active/linkedin-launch",
       "detail": "05-* collision: 05-assets + 05-lead-gen"
+     },
+     {
+      "kind": "status_done_but_live",
+      "project": "_active/operator-cockpit-v2",
+      "detail": "stamped done, then touched 8d ago"
      }
     ],
     "deferred_files": 0
    },
-   "action": "escalated"
-  },
-  {
-   "id": "verify_born_intent_drift.py",
-   "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {
@@ -122,13 +143,6 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
-   "action": "escalated"
-  },
-  {
-   "id": "verify_system.py",
-   "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {
