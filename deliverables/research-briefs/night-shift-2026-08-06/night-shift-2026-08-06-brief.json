@@ -1,0 +1,124 @@
+{
+  "slug": "night-shift-2026-08-06",
+  "chip": "NIGHT SHIFT · BUILD REPORT",
+  "title": "what got built while you *slept*",
+  "dek": "you asked for the video harvested, the hype separated from the substance, and agents that leverage you without touching your reputation. all three are live. this is the deploy card — what exists now, what it costs, and the three commands that matter.",
+  "window": "overnight aug 5 → 6",
+  "lens": "extraction · listening loops · briefs",
+  "sources": "1 forge · 3 new loops verified · 2 sibling briefs",
+  "compiled": "aug 6, 2026 · ~00:45",
+  "footer_left": "ANTIGRAVITY NIGHT SHIFT",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 1.0,
+  "stack": ["extract-forge", "signal_scout", "render_brief", "launchd"],
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the one-paragraph version",
+      "kicker": "TLDR",
+      "body": "Cody Schneider is now a deployable expert in your arsenal (11 workflows, blind-pass verified against his own live demo). His best idea — engagement is a hand-raise — is running in your harness as the Signal Scout, which listened to your niche last night for fifty cents and found 229 people plus the exact language they use. Two intelligence loops now feed your board on schedule: zeitgeist daily at 06:20, the Angle Brief Mondays and Thursdays at 07:00. Nothing built tonight can send, post, or contact anyone. Total marginal cost of the whole night: about a dollar of Apify spend, inside existing budgets."
+    },
+    {
+      "kind": "decision",
+      "heading": "your three moves this morning",
+      "kicker": "DEPLOY",
+      "dek": "everything else runs itself. these three need your hands, ~15 minutes total.",
+      "items": [
+        {
+          "action": "Read the two sibling briefs on the board: 'Hype vs. Harness' (the audit you asked for) and 'Angle Brief edition 001' (six angles + three CLEAN hooks tied to your live campaign)",
+          "why": "The angle brief's skeptic-flip and what_the_market_is_telling_us.md angles are time-sensitive — the trust-gap conversation is live this week."
+        },
+        {
+          "action": "Edit _active/linkedin-launch/05-lead-gen/listening-creators.md — replace the 2-handle seed with your real 10–20 creators (Cody's aperture rule: creators your BUYER follows)",
+          "why": "This one file decides signal quality for every future scout run and angle brief. Supplement-brand-ICP signal is zero until their creators are in."
+        },
+        {
+          "action": "The campaign blocker is unchanged: the $750 payment URL still doesn't exist, and mission 2b's five DMs stay send-ready without it",
+          "why": "All the intelligence in the world converts nothing without the rail. This remains the highest-leverage 30 minutes available to you."
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what exists now (receipts)",
+      "tag": "BUILT + VERIFIED",
+      "rows": [
+        {
+          "claim": "Cody Schneider skill + persona: /cody-schneider front door, 11 menu-reachable workflows, auditor 0/7 failing",
+          "evidence": "Blind pass EVAL-062 PASS vs his own live demo numbers; era-bound tool stack quarantined to a dated appendix; sending demoted to design-knowledge per your call.",
+          "source_url": "file:///Users/farricecain/Google%20Antigravity/skills/cody-schneider-signal-outbound/SKILL.md",
+          "source_label": "forge-log + blind-pass-log in extractions/",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Signal Scout: python3 execution/signal_scout.py — live test pulled 229 scored engagers + resonance + ICP verbatim from 4 posts for $0.50",
+          "evidence": "Listening-only by construction (contacted_anyone: false in every receipt); two new schema-verified Apify actors; $5/run and $29/mo guards inherited.",
+          "source_url": "file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json",
+          "source_label": "health receipt",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Angle Brief loop: com.antigravity.angle-brief loaded, Mon/Thu 07:00 — scout refresh, then synthesis with your voice card + Kallaway/Diandra hook masters",
+          "evidence": "Edition 001 was produced supervised tonight and is on the board; the runner claims the session lock or skips, same as the proven angle-map pattern.",
+          "source_url": "file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/angle-brief-2026-08-06/",
+          "source_label": "supervised first edition",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Zeitgeist daily: the 'not loaded' warning was stale — plist loaded, engine green, 4 lanes queued; first scheduled synthesis fires 06:20 this morning",
+          "evidence": "Check .agent/zeitgeist-run.log after 06:40 for the first receipt; if my session lock was still held it will log a clean skip and fire tomorrow.",
+          "source_url": "file:///Users/farricecain/Google%20Antigravity/.agent/zeitgeist-run.log",
+          "source_label": "launchctl verified 00:04",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The grounding verdict: Cody's architecture IS your architecture; his edge was domain plumbing, and the listening half of it is now yours",
+          "evidence": "Full claims-vs-reality table with confidence labels in the Hype vs. Harness brief, including what was deliberately NOT built (sending, enrichment purchases, reply automation) and why.",
+          "source_url": "file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/",
+          "source_label": "sibling brief",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "prose",
+      "heading": "judgment calls i made in your absence",
+      "body": "Sends stay human everywhere — your mid-plan message overrode the earlier DM-queue design, so the scout's outreach-drafting step was killed, not just disabled; reviving it is a deliberate decision, not a config flip.\n\nThe Organic Engine (daily post drafts in a Lara×Cole hybrid pen) was scoped and deferred per your tap — it's the next 2-hour build and needs your pen-card taste pass anyway.\n\nANGLE-BRIEF-PROMPT.md lives at the root of farrice-brand/ deliberately, matching the proven AUTOMATION_PROMPT.md pattern — the placement hook flagged it twice; overrule me by filing it with project_filer.py if you disagree.\n\nThe reference corpus for the blind pass uses two of Cody's solo-channel video transcripts (provenance headers included) because his X search returned empty and his site lists no essays.\n\nOne risk flagged, not fixed: Playwright browser tools could technically drive a logged-in LinkedIn session. Nothing uses them for that and nothing authorizes it — worth an explicit gate decision when you're awake."
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "run the scout on your real creator list (after you edit it)",
+          "text": "python3 execution/signal_scout.py"
+        },
+        {
+          "label": "deploy cody on a task",
+          "text": "/cody-schneider — front door · /resonance-to-angle — turn a scout roster into content angles · /agent-or-automation — sanity-check any 'we need an agent' idea"
+        },
+        {
+          "label": "check the overnight loops fired",
+          "text": "tail -20 .agent/zeitgeist-run.log && ls deliverables/research-briefs/ | tail -5"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what's still *unproven*",
+      "kicker": "HONEST LEDGER",
+      "body": "First unattended runs are still ahead: zeitgeist at 06:20 today, the angle brief Monday 07:00. The scout has one run of pricing data. The Cody skill is single-source until a second video or essay corpus extends it. And the extraction's sharpest unconfirmed claim — 10–20 creators covering ~80% of a niche — gets tested empirically the first time you fill in the real creators file and compare two scout runs.",
+      "cta": { "label": "OKAY — READ THE ANGLE BRIEF", "href": "#deploy-blocks" }
+    }
+  ],
+  "ledger": [
+    {
+      "source": "This session's build log (todos, receipts, commits on main)",
+      "url": "file:///Users/farricecain/Google%20Antigravity/.agent/session-state.md",
+      "retrieved": "2026-08-06",
+      "used_for": "everything in this brief",
+      "confidence": "VERIFIED"
+    }
+  ]
+}

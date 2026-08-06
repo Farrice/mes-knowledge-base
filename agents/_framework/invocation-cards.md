@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 72 agent(s) had no invocation card. Stubs below are machine-
+> 73 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1791,6 +1791,16 @@ DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: 1. **Engineered Self-Conclusion** (Pattern 4) — the foundational move that all other techniques are variations of. Place two components, refuse to state the...
 ENTRY PROMPT: agents/chase-hughes/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Cody Schneider
+DOMAIN: Signal-based targeting, marketing agent architecture, outbound system design, organic content engines
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Cody Schneider is the founder of Graphed (graphed.com), which builds marketing agents for fast-growing companies and forward-deploys engineers to implement t...
+ENTRY PROMPT: agents/cody-schneider/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

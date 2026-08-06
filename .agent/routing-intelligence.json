@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 140,
+            "total_routings": 141,
             "total_feedback": 5,
             "positive_count": 0,
             "negative_count": 0,
@@ -498,7 +498,7 @@
                 "kallaway-social-commerce": 1,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 5,
+                "Extraction": 6,
                 "nate-b-jones-context-engineering": 11,
                 "ethan-smith-aeo": 1,
                 "riley-brown-marketing-automation": 2,
@@ -592,10 +592,11 @@
                 "ray-amjad-agentic-ladder": 1,
                 "MES 3.0": 2,
                 "chief-of-staff-os": 3,
-                "scott-norton": 1
+                "scott-norton": 1,
+                "cody-schneider": 1
             },
             "tier_counts": {
-                "0": 140,
+                "0": 141,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -604,9 +605,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 102,
-                "finalize-auto": 38
+                "finalize-auto": 39
             },
-            "ensemble_count": 76,
+            "ensemble_count": 77,
             "auto_miss_count": 4,
             "auto_match_count": 1
         }
@@ -3104,6 +3105,23 @@
             "workflow_used": "nate-b-jones-context-engineering",
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_074228_99e8",
+            "timestamp": "2026-08-06T07:42:28.140430+00:00",
+            "session_id": "",
+            "request_summary": "Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal Scout listening engine (2 new Apify actors, signal_scout.py, 229-engager live test) + Angle Brief Mo",
+            "intent_score": 4,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "cody-schneider"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

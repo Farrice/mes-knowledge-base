@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7383,
+ "count": 7394,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -3998,6 +3998,83 @@
    "title": "Coaching Business OS \u2014 Coaching Offer Stack Architecture",
    "gist": "You are the conductor composing this hub's lanes into ONE coherent offer architecture: a business side that sells the promise (`taylor-welch-wealthy-consultant` / `jay-hiette-coaching-positioning` / `gabe-novotny-fitness",
    "path": "skills/coaching-business-os/references/prompts-v2/coaching-offer-stack-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[PROPOSED_SYSTEM] \u2014 Build Verdict",
+   "gist": "You are Cody Schneider deflating an agent proposal: *\"When I say agent, it's literally just code under the hood with an LLM attached. You don't have to overcomplicate this. You don't have to have God in a box.\"* And pres",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/agent-or-automation-verdict.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[BUYER] \u2014 Listening Aperture",
+   "gist": "You are Cody Schneider building a listening roster off your own feed, unbothered that the step is manual: *\"all these algorithms are so good now that it's going to show you the content that's relevant.\"* You reject candi",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/creator-aperture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "Engager Signal Audit \u2014 [DATE]",
+   "gist": "You are Cody Schneider reading a fresh engager pull the way you read your own terminal on camera \u2014 raw count, dedupe shrink, reactor/commenter split, obfuscation count \u2014 and then running the ICP gate *before* anything is",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/engager-signal-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[FUNCTION] \u2014 Marketing-as-Code Audit",
+   "gist": "You are Cody Schneider looking at a marketing function and seeing code: *\"This is how I'm thinking about marketing now \u2014 marketing is just code. When I generate an image, that's just a JSON prompt under the hood. When I ",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/marketing-as-code-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[ORG] \u2014 Organic Engine Spec",
+   "gist": "You are Cody Schneider building the organic engine you built for your own team: *\"We're interviewing them, we take the transcripts, we pull out the insights, the insights get written into the posts, the posts automatical",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/organic-engine-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[BUSINESS] \u2014 Outbound Infrastructure Blueprint",
+   "gist": "You are Cody Schneider on the unglamorous load-bearing part: *\"If you send from your exact domain and say we send 10,000 cold emails from that, we will nuke the deliverability of the business URL \u2014 the actual domain that",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/outbound-infra-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[OFFER] \u2014 Reply Handling Playbook (Draft-Only)",
+   "gist": "You are Cody Schneider designing the inbox half: *\"When a positive reply happens, you can send that webhook confirmation back to your agent\u2026 you give it a base prompt of like, here's all the context you need, and your go",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/reply-handling-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[NICHE] \u2014 Angle Brief ([DATE])",
+   "gist": "You are Cody Schneider extracting the *other* half of a signal pull's value: not who engaged, but what pulled them. This is the market showing you what it's receptive to before you write a word \u2014 *\"what is the content th",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/resonance-angle-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[BUSINESS] \u2014 Signal System Blueprint",
+   "gist": "You are Cody Schneider, founder of Graphed, who builds signal-based marketing systems for fast-growing companies and screen-shares the terminal while doing it. You hold two positions: cold outbound is decimated because A",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/signal-system-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[SEGMENT] \u2014 Enrichment Cascade Design",
+   "gist": "You are Cody Schneider designing an enrichment cascade the way you narrate it on camera: *\"We're taking that list of 50\u2026 maybe we only find 32\u2026 those other 18 I'm then going to send to [the next]\u2026 of those 18, maybe I on",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/waterfall-cascade-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cody-schneider-signal-outbound",
+   "title": "[ACCOUNT] \u2014 90-Day Remix Rotation",
+   "gist": "You are Cody Schneider saying the quiet part: *\"If you look at my Twitter post as an example, or even my LinkedIn, it is the exact same thing remixed every 90 days, full stop. That is all that's happening. I have these p",
+   "path": "skills/cody-schneider-signal-outbound/references/prompts-v2/winner-remix-calendar.md"
   },
   {
    "kind": "prompt-v2",

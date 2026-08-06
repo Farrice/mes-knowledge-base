@@ -691,3 +691,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-05 18:29]` **finalize** | Gauntlet-loop mechanism card + integration verdict (rescore: prior run mis-passed Step-1 sharpness 5 | general | MES 3.0 — composite:8.33 status:Keep
 - `[2026-08-05 19:51]` **finalize** | Scott Norton × Oren John — Brand World-Building mastery extraction (forge): 10 workflows + 10 born-v | general | scott-norton — composite:8.33 status:Keep
 - `[2026-08-05 20:01]` **finalize** | Ambient zeitgeist engine: /zeitgeist daily (launchd live), pulse sub-budget wired after never being  | general | eddy-ballesteros — composite:8.33 status:Keep
+- `[2026-08-06 00:42]` **finalize** | Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal  | general | cody-schneider — composite:6.67 status:Needs Improvement

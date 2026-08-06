@@ -63,6 +63,7 @@
 | `cinematic-documentary` | **cinematic-documentary** | cinematic documentary × character architecture × narrative direction, emotion over information ("find the egg sushi"), audience treated as parallel character on transformation arc | 13 | 0 |
 | `claim-safe-health-marketing` | **Claim-Safe Health Marketing** | regulatory compliance, health/supplement marketing, ftc/fda/dshea claim substantiation | 5 | 0 |
 | `coaching-business-os` | **coaching-business-os** | positioning, content monetization, client acquisition | 2 | 0 |
+| `cody-schneider-signal-outbound` | **Cody Schneider — Signal-Based Marketing Systems** | cody schneider (founder, the 10-20 creator aperture that covers ~80% of a niche, cheapest-first waterfall enrichment | 11 | 0 |
 | `cognitive-engagement-optimizer` | **Cognitive Engagement Optimizer — Behavioral-Psychology Content Virality** | attention architecture, format-vs-trend selection, and platform-algorithm alignment | 3 | 0 |
 | `consumer-posture-research` | **consumer-posture-research** | produces complete consumer posture profiles for strategic clarity | 0 | 0 |
 | `context-profile-architect` | **Context Profile Architect 2.0 — JSON Data-Architecture for AI Optimization** | transform chaotic information (an icp brief, a content spec, a brand dump) into pristine | 3 | 0 |

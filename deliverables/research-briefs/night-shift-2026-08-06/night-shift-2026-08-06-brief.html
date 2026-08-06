@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>what got built while you slept · Research Brief</title>
+<style>
+  /* ── Codex Antigravity Design System tokens (_active/codex-harvest-2026-06-11/DESIGN.md) ── */
+  :root{
+    --ag-ink: oklch(18% 0.012 245);
+    --ag-paper: oklch(97% 0.008 92);
+    --ag-surface: oklch(93% 0.012 100);
+    --ag-line: oklch(76% 0.018 95);
+    --ag-accent: oklch(55% 0.115 43);
+    --ag-proof: oklch(49% 0.082 168);
+    --ag-risk: oklch(56% 0.126 23);
+    --ag-focus: oklch(50% 0.105 265);
+    --ag-ink-soft: oklch(38% 0.012 245);
+    --ag-ink-mute: oklch(52% 0.012 245);
+    --ag-paper-ink: oklch(94% 0.01 92);   /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(34% 0.012 245);  /* rules on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:oklch(70% 0.02 92) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:oklch(75% 0.1 43) }
+  .decision .dek{ color:oklch(78% 0.015 92); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:oklch(75% 0.1 43); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:oklch(75% 0.015 92); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-one-paragraph-version">the one-paragraph version</a><a href="#your-three-moves-this-morning">your three moves this morning</a><a href="#what-exists-now-receipts">what exists now (receipts)</a><a href="#judgment-calls-i-made-in-your-absence">judgment calls i made in your absence</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-s-still-unproven">what&#x27;s still unproven</a><a href="#source-ledger">sources</a></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">NIGHT SHIFT · BUILD REPORT</span>
+    <h1 class="display">what got built while you <em>slept</em></h1>
+    <p class="dek">you asked for the video harvested, the hype separated from the substance, and agents that leverage you without touching your reputation. all three are live. this is the deploy card — what exists now, what it costs, and the three commands that matter.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">overnight aug 5 → 6</span></div>
+      <div><span class="k">Lens</span><span class="v">extraction · listening loops · briefs</span></div>
+      <div><span class="k">Sources</span><span class="v">1 forge · 3 new loops verified · 2 sibling briefs</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 6, 2026 · ~00:45</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-one-paragraph-version"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the one-paragraph version</h2></div><span class="kicker" style="margin-bottom:8px">TLDR</span><div class="panel"><p>Cody Schneider is now a deployable expert in your arsenal (11 workflows, blind-pass verified against his own live demo). His best idea — engagement is a hand-raise — is running in your harness as the Signal Scout, which listened to your niche last night for fifty cents and found 229 people plus the exact language they use. Two intelligence loops now feed your board on schedule: zeitgeist daily at 06:20, the Angle Brief Mondays and Thursdays at 07:00. Nothing built tonight can send, post, or contact anyone. Total marginal cost of the whole night: about a dollar of Apify spend, inside existing budgets.</p></div></section><section class="decision" id="your-three-moves-this-morning"><span class="kicker">DEPLOY</span><h2>your three moves this morning</h2><p class="dek">everything else runs itself. these three need your hands, ~15 minutes total.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Read the two sibling briefs on the board: &#x27;Hype vs. Harness&#x27; (the audit you asked for) and &#x27;Angle Brief edition 001&#x27; (six angles + three CLEAN hooks tied to your live campaign)</h3><p>The angle brief&#x27;s skeptic-flip and what_the_market_is_telling_us.md angles are time-sensitive — the trust-gap conversation is live this week.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Edit _active/linkedin-launch/05-lead-gen/listening-creators.md — replace the 2-handle seed with your real 10–20 creators (Cody&#x27;s aperture rule: creators your BUYER follows)</h3><p>This one file decides signal quality for every future scout run and angle brief. Supplement-brand-ICP signal is zero until their creators are in.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>The campaign blocker is unchanged: the $750 payment URL still doesn&#x27;t exist, and mission 2b&#x27;s five DMs stay send-ready without it</h3><p>All the intelligence in the world converts nothing without the rail. This remains the highest-leverage 30 minutes available to you.</p></div></div></div></section><section class="blk" id="what-exists-now-receipts"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what exists now (receipts)</h2><span class="sectag">BUILT + VERIFIED</span></div><div class="ev"><span class="mark">✓</span><div><h3>Cody Schneider skill + persona: /cody-schneider front door, 11 menu-reachable workflows, auditor 0/7 failing</h3><p>Blind pass EVAL-062 PASS vs his own live demo numbers; era-bound tool stack quarantined to a dated appendix; sending demoted to design-knowledge per your call.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="file:///Users/farricecain/Google%20Antigravity/skills/cody-schneider-signal-outbound/SKILL.md" target="_blank" rel="noopener">forge-log + blind-pass-log in extractions/ ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Signal Scout: python3 execution/signal_scout.py — live test pulled 229 scored engagers + resonance + ICP verbatim from 4 posts for $0.50</h3><p>Listening-only by construction (contacted_anyone: false in every receipt); two new schema-verified Apify actors; $5/run and $29/mo guards inherited.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json" target="_blank" rel="noopener">health receipt ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Angle Brief loop: com.antigravity.angle-brief loaded, Mon/Thu 07:00 — scout refresh, then synthesis with your voice card + Kallaway/Diandra hook masters</h3><p>Edition 001 was produced supervised tonight and is on the board; the runner claims the session lock or skips, same as the proven angle-map pattern.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/angle-brief-2026-08-06/" target="_blank" rel="noopener">supervised first edition ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Zeitgeist daily: the &#x27;not loaded&#x27; warning was stale — plist loaded, engine green, 4 lanes queued; first scheduled synthesis fires 06:20 this morning</h3><p>Check .agent/zeitgeist-run.log after 06:40 for the first receipt; if my session lock was still held it will log a clean skip and fire tomorrow.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="file:///Users/farricecain/Google%20Antigravity/.agent/zeitgeist-run.log" target="_blank" rel="noopener">launchctl verified 00:04 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The grounding verdict: Cody&#x27;s architecture IS your architecture; his edge was domain plumbing, and the listening half of it is now yours</h3><p>Full claims-vs-reality table with confidence labels in the Hype vs. Harness brief, including what was deliberately NOT built (sending, enrichment purchases, reply automation) and why.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/" target="_blank" rel="noopener">sibling brief ↗</a></div></div></div></section><section class="blk" id="judgment-calls-i-made-in-your-absence"><div class="sechead"><span class="secnum">04</span><h2 class="sec">judgment calls i made in your absence</h2></div><p>Sends stay human everywhere — your mid-plan message overrode the earlier DM-queue design, so the scout&#x27;s outreach-drafting step was killed, not just disabled; reviving it is a deliberate decision, not a config flip.</p><p>The Organic Engine (daily post drafts in a Lara×Cole hybrid pen) was scoped and deferred per your tap — it&#x27;s the next 2-hour build and needs your pen-card taste pass anyway.</p><p>ANGLE-BRIEF-PROMPT.md lives at the root of farrice-brand/ deliberately, matching the proven AUTOMATION_PROMPT.md pattern — the placement hook flagged it twice; overrule me by filing it with project_filer.py if you disagree.</p><p>The reference corpus for the blind pass uses two of Cody&#x27;s solo-channel video transcripts (provenance headers included) because his X search returned empty and his site lists no essays.</p><p>One risk flagged, not fixed: Playwright browser tools could technically drive a logged-in LinkedIn session. Nothing uses them for that and nothing authorizes it — worth an explicit gate decision when you&#x27;re awake.</p></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">run the scout on your real creator list (after you edit it)</span><button class="copybtn" type="button">copy</button></div><pre>python3 execution/signal_scout.py</pre></div><div class="deploy"><div class="bar"><span class="k">deploy cody on a task</span><button class="copybtn" type="button">copy</button></div><pre>/cody-schneider — front door · /resonance-to-angle — turn a scout roster into content angles · /agent-or-automation — sanity-check any &#x27;we need an agent&#x27; idea</pre></div><div class="deploy"><div class="bar"><span class="k">check the overnight loops fired</span><button class="copybtn" type="button">copy</button></div><pre>tail -20 .agent/zeitgeist-run.log &amp;&amp; ls deliverables/research-briefs/ | tail -5</pre></div></section><section class="blk caveats" id="what-s-still-unproven"><span class="kicker" style="margin-bottom:10px">HONEST LEDGER</span><h2>what&#x27;s still <em>unproven</em></h2><p>First unattended runs are still ahead: zeitgeist at 06:20 today, the angle brief Monday 07:00. The scout has one run of pricing data. The Cody skill is single-source until a second video or essay corpus extends it. And the extraction&#x27;s sharpest unconfirmed claim — 10–20 creators covering ~80% of a niche — gets tested empirically the first time you fill in the real creators file and compare two scout runs.</p><a class="cta" href="#deploy-blocks">OKAY — READ THE ANGLE BRIEF</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $1.00 — stack: extract-forge · signal_scout · render_brief · launchd</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>This session&#x27;s build log (todos, receipts, commits on main)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.agent/session-state.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/.agent/session-state.md</a></td><td>2026-08-06</td><td>everything in this brief</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY NIGHT SHIFT</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var pre=btn.closest('.deploy').querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+})();
+</script>
+</body>
+</html>

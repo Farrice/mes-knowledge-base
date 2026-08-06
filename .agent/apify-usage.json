@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.8399,
+  "spent_dollars": 1.9236,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -308,6 +308,174 @@
       "results": 5,
       "cost": 0.01,
       "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:06:36.150226+00:00",
+      "actor": "linkedin-posts",
+      "results": 3,
+      "cost": 0.006,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:06:51.282879+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:07:06.388860+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 21,
+      "cost": 0.042,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:09:44.512620+00:00",
+      "actor": "linkedin-posts",
+      "results": 2,
+      "cost": 0.004,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:09:49.035660+00:00",
+      "actor": "linkedin-posts",
+      "results": 2,
+      "cost": 0.004,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:09:53.748299+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:09:58.810710+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:02.741277+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:07.556060+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:11.848723+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:16.961920+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:21.771613+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:27.208066+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:50.524593+00:00",
+      "actor": "linkedin-posts",
+      "results": 2,
+      "cost": 0.004,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:10:55.987662+00:00",
+      "actor": "linkedin-posts",
+      "results": 2,
+      "cost": 0.004,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:01.213818+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:06.886031+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:11.163304+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:16.263177+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:20.601540+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:28.199158+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:32.173201+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 30,
+      "cost": 0.06,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:11:37.571166+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 31,
+      "cost": 0.062,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T07:40:56.710582+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0037,
+      "pricing_model": "per_result"
     }
   ],
   "pulse_budget_dollars": 5.0,
