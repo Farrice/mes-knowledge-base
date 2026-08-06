@@ -94,6 +94,8 @@ PAID_PATTERNS = [
     (re.compile(r"python3?\s+\S*perplexity_client\.py\s.*--research|curl\b[^|;]*sonar-deep-research"),
      lambda c: "perplexity-research"),
     (re.compile(r"python3?\s+\S*monid_client\.py\b"), lambda c: "monid"),
+    # Monid CLI: only `monid run` spends (discover/inspect/balance are free)
+    (re.compile(r"(?:^|[;&|(]\s*)monid\s+run\b"), lambda c: "monid"),
 ]
 
 
