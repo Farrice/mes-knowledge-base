@@ -43,7 +43,10 @@ Specific cues:
 
 ## Override List (Where This Project Diverges from Root CLAUDE.md)
 
-- **Hooks are warm-opener, NOT vicious-hook style.** Default Antigravity hook-forge workflows lean adversarial / pattern-interrupt. Jen's hooks open with curiosity + warmth, never confrontation. If a workflow produces a "WHY YOUR REALTOR IS LYING TO YOU"-style hook, reject and rewrite.
+- **Register ladder (Jen's own verdict, 5200 Armida 2026-08-05).** Two registers, split by content type — never blend:
+  - **FTHB / education / everyday listings** → calm-warm @_jiing lowercase, curiosity + warmth openers, never confrontation.
+  - **Luxury listings ($2M+)** → **"Quiet Flex Elite Advisor"**: AUTHORITY-POV hooks (a market thesis asserted calmly — "true privacy in LA doesn't mean building a taller fence…" — property as evidence), Title Case, mild edge allowed ("stop settling for basic flips"), "let's talk strategy" closers, keyword DM CTAs ("DM me 'COMPOUND'"). Delivery: authority at 10, hype at 4-5, grounded and intense. She plays a register UP on luxury inventory deliberately — the scraped voice profile is her floor, not her ceiling.
+  - Still never: "WHY YOUR REALTOR IS LYING TO YOU"-style attack hooks, manufactured urgency, fair-housing steering language (safe/family/great-for-kids, schools on camera).
 - **Emojis ARE part of voice, not slop.** Root CLAUDE.md guidance to minimize emojis does NOT apply to Jen's Instagram content. Use them; don't strip them.
 - **Skip Step 5.5 verification for stylistic/creative content.** Jen's content rarely has factual claims requiring verification (property facts come from MLS, not invented). Factual Grounding scoring usually = N/A.
 - **First-time-home-buyer empathy frame.** Anti-jargon. Anti-acronym-without-explanation (DTI, LTV, PMI, etc. — always define on first use). Anti-"you should already know this" tone.

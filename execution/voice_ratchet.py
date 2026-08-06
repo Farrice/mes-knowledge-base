@@ -45,6 +45,47 @@ CALIBRATION_LOG = VOICE_DIR / "calibration-log.md"
 VOICE_CARD = VOICE_DIR / "VOICE-CARD.md"
 STATE_FILE = REPO_ROOT / ".agent" / "voice-ratchet-state.json"
 
+# Per-client ratchets (2026-08-05, listing-package pipeline): same capture spine,
+# different log. Default (no --client) is Farrice's Voice OS — behavior unchanged.
+# A client entry maps to its calibration log + the "card" its skill compiles into.
+CLIENTS = {
+    "jen": {
+        "log": REPO_ROOT / "skills" / "jen-santulan-listing-content" / "references" / "jen-calibration-log.md",
+        "card": REPO_ROOT / "skills" / "jen-santulan-listing-content" / "references" / "jen-real-voice-profile.md",
+        "title": "Jen Listing-Content Calibration Log",
+        "blurb": (
+            "Felt verdicts on Jen listing hooks/scripts/captions — Farrice's taste calls "
+            "and Jen's own picks/rejections. Consumed by prompts-v2/listing-hook-set.md "
+            "(calibration outranks defaults); register ladder canon lives in "
+            "_active/jen-listings/CLAUDE.md."
+        ),
+    },
+}
+
+
+def _apply_client(client: Optional[str]) -> None:
+    """Rewire the module's log/card/state paths for a per-client ratchet.
+    No-op for the default (Farrice) so existing callers are untouched."""
+    global CALIBRATION_LOG, VOICE_CARD, STATE_FILE, _LOG_TITLE, _LOG_BLURB
+    if not client:
+        return
+    cfg = CLIENTS.get(client)
+    if cfg is None:
+        raise SystemExit(f"Unknown --client '{client}' (known: {', '.join(sorted(CLIENTS))})")
+    CALIBRATION_LOG = cfg["log"]
+    VOICE_CARD = cfg["card"]
+    STATE_FILE = REPO_ROOT / ".agent" / f"voice-ratchet-state-{client}.json"
+    _LOG_TITLE = cfg["title"]
+    _LOG_BLURB = cfg["blurb"]
+
+
+_LOG_TITLE = "Voice Calibration Log"
+_LOG_BLURB = (
+    "Felt verdicts on lines Farrice reacted to — praise or wince — captured "
+    "verbatim via `/voice-ratchet`. Source for VOICE-CARD.md §6 Calibration "
+    "Bank; recompiled via `/voice-compile`."
+)
+
 TABLE_HEADER = "| date | verdict | line | why | source |"
 TABLE_DIVIDER = "|------|---------|------|-----|--------|"
 
@@ -72,15 +113,13 @@ def _split_row(row: str) -> List[str]:
 def _ensure_log() -> None:
     if CALIBRATION_LOG.exists():
         return
-    VOICE_DIR.mkdir(parents=True, exist_ok=True)
+    CALIBRATION_LOG.parent.mkdir(parents=True, exist_ok=True)
     header = (
         "---\n"
         f"created: {_today()}\n"
         "---\n\n"
-        "# Voice Calibration Log\n\n"
-        "Felt verdicts on lines Farrice reacted to — praise or wince — captured "
-        "verbatim via `/voice-ratchet`. Source for VOICE-CARD.md §6 Calibration "
-        "Bank; recompiled via `/voice-compile`.\n\n"
+        f"# {_LOG_TITLE}\n\n"
+        f"{_LOG_BLURB}\n\n"
         f"{TABLE_HEADER}\n{TABLE_DIVIDER}\n"
     )
     CALIBRATION_LOG.write_text(header)
@@ -223,25 +262,29 @@ def cmd_nudge(args) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Voice OS calibration-log ratchet")
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("--client", default=None,
+                        help=f"Per-client ratchet (known: {', '.join(sorted(CLIENTS))}). Default: Farrice Voice OS.")
     sub = parser.add_subparsers(dest="command", required=True)
 
-    pa = sub.add_parser("add", help="Append a felt-verdict row to the calibration log")
+    pa = sub.add_parser("add", parents=[common], help="Append a felt-verdict row to the calibration log")
     pa.add_argument("--verdict", required=True, choices=["pass", "fail"])
     pa.add_argument("--line", required=True, help="Verbatim line Farrice reacted to")
     pa.add_argument("--why", required=True, help="Why it passed/failed")
     pa.add_argument("--source", default="", help="Where the line came from (piece, channel, date)")
     pa.set_defaults(func=cmd_add)
 
-    ps = sub.add_parser("status", help="Show card version + calibration-log counts")
+    ps = sub.add_parser("status", parents=[common], help="Show card version + calibration-log counts")
     ps.set_defaults(func=cmd_status)
 
-    pc = sub.add_parser("mark-compiled", help="Record the current entry count as the compile point")
+    pc = sub.add_parser("mark-compiled", parents=[common], help="Record the current entry count as the compile point")
     pc.set_defaults(func=cmd_mark_compiled)
 
-    pn = sub.add_parser("nudge", help="One line if >=5 verdicts pending compile; silent otherwise (SessionStart-safe)")
+    pn = sub.add_parser("nudge", parents=[common], help="One line if >=5 verdicts pending compile; silent otherwise (SessionStart-safe)")
     pn.set_defaults(func=cmd_nudge)
 
     args = parser.parse_args()
+    _apply_client(getattr(args, "client", None))
     return args.func(args)
 
 

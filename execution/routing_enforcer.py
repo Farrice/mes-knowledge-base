@@ -1109,6 +1109,35 @@ BINDINGS = [
             "neither should be used."
         ),
     },
+    {
+        # 2026-08-05, Farrice-approved diff (listing-engine-v2 build). Signals
+        # kept narrow and domain-naming per the amnesty lesson — no mood words.
+        "id": "jen_listing_package",
+        "signal_phrases": [
+            "zillow.com/homedetails",
+            "redfin.com/ca",
+            "realtor.com/realestateandhomes",
+            "listing url",
+            "new listing",
+            "property listing",
+            "listing package",
+            "listing for jen",
+            "jen needs hooks",
+            "listing hooks and scripts",
+            "mls listing",
+        ],
+        "mandatory_workflow": "listing-package",
+        "forbidden_workflows": [],
+        "reason": (
+            "A listing URL/property drop routes through /listing-package so facts "
+            "get a parsed claims ledger (MLS-vs-description diff), the register is "
+            "selected from price tier BEFORE generation, fair-housing lint runs as "
+            "code, and the output lands in the forwardable send shape — instead of "
+            "freehand hooks in the wrong register on unverified claims "
+            "(scar: 5200 Armida, 2026-08-05: three regenerations plus a phantom "
+            "spa and a wrong bath count that reached shipped copy)."
+        ),
+    },
 ]
 
 

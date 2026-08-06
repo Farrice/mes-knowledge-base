@@ -1,0 +1,62 @@
+{
+  "slug": "5200-armida",
+  "address": "5200 Armida Dr",
+  "city": "Woodland Hills",
+  "zip": "91364",
+  "price": 3199000,
+  "beds": 5,
+  "baths": 5.5,
+  "baths_full": 5,
+  "baths_half": 1,
+  "beds_main": 4,
+  "baths_main": 4.5,
+  "adu": {
+    "present": true,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 600,
+    "has_kitchen": true
+  },
+  "sqft": 4200,
+  "lot_acres": 0.52,
+  "lot_sqft": 22651,
+  "year_built": 1957,
+  "stories": 1,
+  "property_type": "Single Family Residence",
+  "mls": "SR26169754",
+  "agents": ["Marty Azoulay", "Jennifer Santulan"],
+  "brokerage": "Equity Union",
+  "open_houses": [
+    {"date": "2026-08-07", "start": "11:00", "end": "14:00"},
+    {"date": "2026-08-08", "start": "13:00", "end": "16:00"},
+    {"date": "2026-08-09", "start": "13:00", "end": "16:00"}
+  ],
+  "features": {
+    "pool": true,
+    "spa": false,
+    "basement": "Finished",
+    "fireplace": true,
+    "garage_spaces": 2,
+    "central_air": true,
+    "single_story": true,
+    "outdoor_kitchen": null,
+    "furnished": "Yes"
+  },
+  "description": "Fully reimagined single-story estate on over half an acre south of the Boulevard in prime Woodland Hills. The chef's kitchen features porcelain slab countertops and premium Thermador appliances, opening to a light-filled great room anchored by a wood-burning fireplace. The main residence offers 4 bedrooms and 4.5 bathrooms across approximately 3,600 sq. ft. of warm modern living space. The entertainer's backyard delivers an in-ground pool, outdoor kitchen, and multiple lounge areas under mature trees. A detached, approximately 600 sq. ft. ADU with 1 bedroom and 1 bathroom and a full kitchen is ideal for guests, multi-generational living, or rental income. Moments from Taft Charter High and The Village.",
+  "photos": [],
+  "price_history": [
+    {"date": "2026-08-05", "event": "Listed for sale", "price": 3199000},
+    {"date": "2024-05-16", "event": "Sold", "price": 1375000},
+    {"date": "2023-08-08", "event": "Sold", "price": 1305000}
+  ],
+  "tax": {"assessed": 1402500, "annual": 17271},
+  "zestimate": 1457300,
+  "rent_zestimate": 6992,
+  "schools": [
+    {"name": "Taft Charter High School", "grades": "9-12", "distance_mi": 0.4, "rating": 9},
+    {"name": "Serrania Avenue Charter For Enriched Studies", "grades": "K-5", "distance_mi": 0.8, "rating": 7},
+    {"name": "Woodland Hills Charter Academy", "grades": "6-8", "distance_mi": 0.8, "rating": 4}
+  ],
+  "walk_score": 48,
+  "source": "json"
+}

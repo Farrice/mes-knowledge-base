@@ -1,0 +1,65 @@
+{
+  "domain": "jen-listing-content",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "Jen Santulan",
+      "source": "",
+      "output_type": "hook",
+      "title": "Jen Santulan hook",
+      "notes": "Jen's WINNING pick, 5200 Armida (.2M, luxury register): authority-POV species \u2014 market thesis, property as evidence. PASS per Jen's own choice + Farrice approval 2026-08-05",
+      "added": "2026-08-05",
+      "file": "sample-001.md",
+      "word_count": 84,
+      "content_hash": "fbe85eaa"
+    },
+    {
+      "id": "sample-002",
+      "expert": "Jen Santulan",
+      "source": "",
+      "output_type": "caption",
+      "title": "Jen Santulan caption",
+      "notes": "Shipped Armida caption: 'private market brief' architecture \u2014 thesis headline, grounded analysis, kicker, breakdown block, keyword DM CTA. PASS per ship + Farrice approval",
+      "added": "2026-08-05",
+      "file": "sample-002.md",
+      "word_count": 104,
+      "content_hash": "541f6211"
+    },
+    {
+      "id": "sample-003",
+      "expert": "Jen Santulan",
+      "source": "",
+      "output_type": "hook",
+      "title": "Jen Santulan hook",
+      "notes": "Moonseed wall-tap (K, FTHB register): fact-in-tension hook, walkable pattern interrupt, calm-warm register. PASS per Farrice approval",
+      "added": "2026-08-05",
+      "file": "sample-003.md",
+      "word_count": 68,
+      "content_hash": "8f42e2ce"
+    },
+    {
+      "id": "sample-004",
+      "expert": "Jen Santulan",
+      "source": "",
+      "output_type": "script",
+      "title": "Jen Santulan script",
+      "notes": "Armida v3 pool-wrap: scene-built body \u2014 fact lands inside a lived moment ('stand at the stove\u2026 watching the deep end'). Farrice keep, 2026-08-05",
+      "added": "2026-08-05",
+      "file": "sample-004.md",
+      "word_count": 81,
+      "content_hash": "6a943ca9"
+    },
+    {
+      "id": "sample-005",
+      "expert": "Jen Santulan",
+      "source": "",
+      "output_type": "hook",
+      "title": "Jen Santulan hook",
+      "notes": "6853 Willis gate-flip (.3M mid-tier): objection named in \u22648 words + physical flip through the gate. Prior golden ref (feedback-jen-reel-hook-style). PASS per Farrice approval",
+      "added": "2026-08-05",
+      "file": "sample-005.md",
+      "word_count": 65,
+      "content_hash": "ae6b3a5d"
+    }
+  ]
+}
