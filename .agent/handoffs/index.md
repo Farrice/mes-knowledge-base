@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-06** [readout-os/ready] [Readout OS session — 2026-08-06 (verdicts: "great")](2026-08-06-readout-os.md) — Home-base triad live: /briefing-room, /pulse-board (click-to-complete), asset board — deploy phase; watch Monday 07:30 angle brief
+- **2026-08-06** [one-liner/active] [Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris proof-install plan + send-ready text, 10-min demo kit. Customer frame locked: 'AI employee that knows your whole business.'](2026-08-06-one-liner.md) — Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris proof-install plan + send-ready text, 10-min demo kit. Customer frame locked: 'AI employee that knows your whole business.
 - **2026-08-06** [god-agent-offer/active] [Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-god-agent-offer.md) — UNCAGED 2026-08-06 by Farrice explicit overrule (Compass) + new fact: warm network (Chris x3 restaurants w/ owner relationship + April audit delivered, dog business, title shop) = proof instances without cold sales. Positioning package + demo kit in _active/mastery-forge/02-offer/
 - **2026-08-06** [execution/active] [Execution — Brief Library](2026-08-06-execution.md) — Execution — Brief Library
 - **2026-08-06** [mastery-forge/active] [Mastery Forge — Gate Baseline](2026-08-06-mastery-forge.md) — Mastery Forge — Gate Baseline
