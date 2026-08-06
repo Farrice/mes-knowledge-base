@@ -96,6 +96,10 @@ TEMPLATE = ROOT / "templates" / "research-brief" / "template.html"
 DEFAULT_OUT = ROOT / "deliverables" / "research-briefs"
 CONFIDENCE = {"VERIFIED", "LIKELY", "UNCONFIRMED"}
 
+# Share mode (--share): strip internals so the variant is safe to send outward.
+# Module-level flag set only inside render(); single-threaded CLI, reset in finally.
+SHARE = False
+
 
 def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
@@ -251,7 +255,7 @@ def render_playbook(num, s):
     for i, p in enumerate(s.get("plays", []), 1):
         intent = f'<p class="intent">{esc(p.get("intent"))}</p>' if p.get("intent") else ""
         touches = ""
-        if p.get("touches"):
+        if p.get("touches") and not SHARE:
             touches = ('<div class="touches">'
                        + "".join(f"<span>{esc(_rel_display(t))}</span>" for t in p["touches"])
                        + "</div>")
@@ -271,13 +275,13 @@ def render_assets(num, s):
     for it in s.get("items", []):
         role = f'<span class="role">{esc(it.get("role") or "ASSET")}</span>'
         thumb = ""
-        if it.get("thumb"):
+        if it.get("thumb") and not SHARE:
             thumb = f'<img src="{esc(_file_href(it["thumb"]))}" alt="{esc(it.get("title"))}" loading="lazy">'
         note = f"<p>{esc(it.get('note'))}</p>" if it.get("note") else ""
         path_abs = str((ROOT / it["path"]) if it.get("path") and not _is_url(it["path"]) and not Path(it["path"]).is_absolute()
                        else it.get("path") or "")
         pathrow = ""
-        if it.get("path"):
+        if it.get("path") and not SHARE:
             pathrow = ('<div class="pathrow">'
                        f'<a class="path" href="{esc(_file_href(it["path"]))}">{esc(_rel_display(it["path"]))}</a>'
                        f'<button class="copybtn" type="button" data-copy="{esc(path_abs)}">copy path</button></div>')
@@ -339,10 +343,14 @@ def render_matrix(num, s):
 def render_related(num, s):
     links = []
     for l in s.get("links", []):
+        if SHARE and not _is_url(l.get("href") or ""):
+            continue  # file-path swings are internal-only
         href = l.get("href") or (_file_href(l["path"]) if l.get("path") else "#")
         ext = ' target="_blank" rel="noopener"' if _is_url(l.get("href") or "") else ""
         links.append(f'<a href="{esc(href)}"{ext}><span class="k">{esc(l.get("k") or "LINK")}</span>'
                      f'<span class="t">{esc(l.get("title"))}</span></a>')
+    if not links:
+        return ""
     return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag") or "CONNECTED")}'
             f'<div class="swing">{"".join(links)}</div></section>')
 
@@ -372,14 +380,15 @@ def render_ledger(num, brief):
     cost = brief.get("run_cost_usd")
     stack = brief.get("stack")
     meta_bits = []
-    if cost is not None:
-        meta_bits.append(f"run cost ${float(cost):.2f}")
-    if stack:
-        meta_bits.append("stack: " + " · ".join(str(x) for x in stack))
+    if not SHARE:
+        if cost is not None:
+            meta_bits.append(f"run cost ${float(cost):.2f}")
+        if stack:
+            meta_bits.append("stack: " + " · ".join(str(x) for x in stack))
     tag = " — ".join(meta_bits) if meta_bits else None
     body_rows = []
     for i, r in enumerate(rows):
-        if r.get("url"):
+        if r.get("url") and not (SHARE and str(r["url"]).startswith("file://")):
             url = esc(r["url"])
             url_cell = f'<a href="{url}" target="_blank" rel="noopener">{url}</a>'
         else:
@@ -495,6 +504,8 @@ def render_context_pack(num, pack):
 def build_nav(brief, has_pack=False):
     links = []
     for s in brief.get("sections", []):
+        if SHARE and s.get("kind") == "related" and not any(_is_url(l.get("href") or "") for l in s.get("links", [])):
+            continue  # section is dropped entirely in share mode
         if s.get("heading"):
             plain = re.sub(r"\*", "", s["heading"])
             links.append(f'<a href="#{anchor(s["heading"])}">{esc(plain)}</a>')
@@ -505,41 +516,62 @@ def build_nav(brief, has_pack=False):
     return "".join(links)
 
 
-def render(brief):
-    tpl = TEMPLATE.read_text(encoding="utf-8")
-    sections_html, n = [], 0
-    for s in brief.get("sections", []):
-        kind = s.get("kind")
-        if kind not in RENDERERS:
-            raise SystemExit(f"unknown section kind: {kind!r}")
-        n += 1
-        sections_html.append(RENDERERS[kind](n, s))
-    ledger_html = render_ledger(n + 1, brief)
-    if ledger_html:
-        n += 1
-        sections_html.append(ledger_html)
-    pack = build_context_pack(brief)
-    pack_html = render_context_pack(n + 1, pack)
-    if pack_html:
-        sections_html.append(pack_html)
-    title_plain = re.sub(r"\*", "", brief.get("title", "untitled"))
-    subs = {
-        "{{TITLE_PLAIN}}": esc(title_plain),
-        "{{NAV}}": build_nav(brief, has_pack=bool(pack_html)),
-        "{{CHIP}}": esc(brief.get("chip") or "RESEARCH BRIEF"),
-        "{{TITLE}}": accent(brief.get("title") or "untitled"),
-        "{{DEK}}": esc(brief.get("dek") or ""),
-        "{{WINDOW}}": esc(brief.get("window") or "—"),
-        "{{LENS}}": esc(brief.get("lens") or "—"),
-        "{{SOURCES}}": esc(brief.get("sources") or "—"),
-        "{{COMPILED}}": esc(brief.get("compiled") or "—"),
-        "{{SECTIONS}}": "".join(sections_html),
-        "{{FOOTER_LEFT}}": esc(brief.get("footer_left") or "ANTIGRAVITY RESEARCH"),
-        "{{FOOTER_RIGHT}}": esc(brief.get("footer_right") or ""),
-    }
-    for k, v in subs.items():
-        tpl = tpl.replace(k, v)
-    return tpl
+def render(brief, share=False, pagepack=None):
+    """Render the brief HTML. share=True strips internals (safe to send outward);
+    pagepack embeds {path, brief} for the page-level path / copy-brief buttons."""
+    global SHARE
+    SHARE = share
+    try:
+        tpl = TEMPLATE.read_text(encoding="utf-8")
+        sections_html, n = [], 0
+        for s in brief.get("sections", []):
+            kind = s.get("kind")
+            if kind not in RENDERERS:
+                raise SystemExit(f"unknown section kind: {kind!r}")
+            n += 1
+            html_out = RENDERERS[kind](n, s)
+            if not html_out:
+                n -= 1  # section dropped entirely (e.g. related in share mode)
+                continue
+            sections_html.append(html_out)
+        ledger_html = render_ledger(n + 1, brief)
+        if ledger_html:
+            n += 1
+            sections_html.append(ledger_html)
+        pack_html = ""
+        if not share:
+            pack = build_context_pack(brief)
+            pack_html = render_context_pack(n + 1, pack)
+            if pack_html:
+                sections_html.append(pack_html)
+        navtools, pagepack_html = "", ""
+        if pagepack and not share:
+            navtools = ('<span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span>'
+                        '<span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span>')
+            pp_json = json.dumps(pagepack, ensure_ascii=False).replace("</", "<\\/")
+            pagepack_html = f'<script id="pagepack" type="application/json">{pp_json}</script>'
+        title_plain = re.sub(r"\*", "", brief.get("title", "untitled"))
+        subs = {
+            "{{TITLE_PLAIN}}": esc(title_plain),
+            "{{NAV}}": build_nav(brief, has_pack=bool(pack_html)),
+            "{{NAVTOOLS}}": navtools,
+            "{{PAGEPACK}}": pagepack_html,
+            "{{CHIP}}": esc(brief.get("chip") or "RESEARCH BRIEF"),
+            "{{TITLE}}": accent(brief.get("title") or "untitled"),
+            "{{DEK}}": esc(brief.get("dek") or ""),
+            "{{WINDOW}}": esc(brief.get("window") or "—"),
+            "{{LENS}}": esc(brief.get("lens") or "—"),
+            "{{SOURCES}}": esc(brief.get("sources") or "—"),
+            "{{COMPILED}}": esc(brief.get("compiled") or "—"),
+            "{{SECTIONS}}": "".join(sections_html),
+            "{{FOOTER_LEFT}}": esc(brief.get("footer_left") or "ANTIGRAVITY RESEARCH"),
+            "{{FOOTER_RIGHT}}": esc(brief.get("footer_right") or ""),
+        }
+        for k, v in subs.items():
+            tpl = tpl.replace(k, v)
+        return tpl
+    finally:
+        SHARE = False
 
 
 def _plain(s):
@@ -680,6 +712,10 @@ def main():
     ap.add_argument("--open", action="store_true", help="open the rendered brief in the default browser")
     ap.add_argument("--gdoc", action="store_true",
                     help="also export as a native Google Doc via gws (graceful skip on auth failure)")
+    ap.add_argument("--share", action="store_true",
+                    help="also render <slug>-brief-share.html with internals stripped (safe to send outward)")
+    ap.add_argument("--no-index", action="store_true",
+                    help="skip the automatic Briefing Room index refresh")
     args = ap.parse_args()
 
     src = Path(args.brief_json)
@@ -690,8 +726,15 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     out_html = out_dir / f"{slug}-brief.html"
-    out_html.write_text(render(brief), encoding="utf-8")
+    out_md = out_dir / f"{slug}-brief.md"
     out_json = out_dir / f"{slug}-brief.json"
+
+    md = render_markdown(brief)
+    pp_header = (f"SOURCE: {out_md}  (research brief · Antigravity)\n"
+                 f"HTML: {out_html}\nCONTEXT PACK: {out_dir / (slug + '-context.json')}\n"
+                 f"COMPILED: {brief.get('compiled') or '—'}\n\n")
+    out_html.write_text(render(brief, pagepack={"path": str(out_md), "brief": pp_header + md}),
+                        encoding="utf-8")
     if src.resolve() != out_json.resolve():
         shutil.copyfile(src, out_json)
 
@@ -699,11 +742,8 @@ def main():
     if gdoc_url:
         brief["gdoc_url"] = gdoc_url
         out_json.write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
-
-    md = render_markdown(brief)
-    if gdoc_url:
         md += f"\n_Google Doc: {gdoc_url}_\n"
-    (out_dir / f"{slug}-brief.md").write_text(md, encoding="utf-8")
+    out_md.write_text(md, encoding="utf-8")
 
     pack = build_context_pack(brief)
     if pack["paths"] or pack["urls"]:
@@ -711,10 +751,29 @@ def main():
             json.dumps(pack, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         print(f"[render_brief] ctx → {out_dir / (slug + '-context.json')}")
 
+    if args.share:
+        share_html = out_dir / f"{slug}-brief-share.html"
+        share_html.write_text(render(brief, share=True), encoding="utf-8")
+        print(f"[render_brief] share → {share_html}  (internals stripped — the only client-visible form)")
+
     print(f"[render_brief] OK → {out_html}")
-    print(f"[render_brief] md → {out_dir / (slug + '-brief.md')}")
+    print(f"[render_brief] md → {out_md}")
     if gdoc_url:
         print(f"[render_brief] gdoc → {gdoc_url}")
+
+    # Keep the Briefing Room current on EVERY render, no matter the caller
+    # (launchd loops, workflows, hand runs). Graceful: the brief never blocks on it.
+    if not args.no_index:
+        try:
+            r = subprocess.run([sys.executable, str(ROOT / "execution" / "brief_library.py")],
+                               capture_output=True, text=True, timeout=60)
+            if r.returncode == 0:
+                print(f"[render_brief] index → {(r.stdout or '').strip() or 'briefing room refreshed'}")
+            else:
+                print(f"[render_brief] WARN index refresh failed (brief still rendered): {r.stderr.strip()[:160]}")
+        except Exception as e:
+            print(f"[render_brief] WARN index refresh failed (brief still rendered): {e}")
+
     if args.open:
         subprocess.run(["open", str(out_html)], check=False)
 

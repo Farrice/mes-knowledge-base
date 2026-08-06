@@ -27,7 +27,9 @@ finalize, no Notion, no Next Moves, no subagents — produce only the artifacts 
    - **Caveats**: honest reliability ranking — engagement counts are point-in-time,
      single-day snapshot, per-actor coverage gaps (name which pulls failed/skipped).
    - **Ledger**: one row per live pull (actor, query, retrieved date, confidence).
-3. Render + index:
+   - **Filing (Briefing Room sidebar)**: top-level `"category": "zeitgeist", "priority": 3`
+     in the brief JSON — always, so the brief arrives pre-filed.
+3. Render + index (render_brief auto-refreshes the Briefing Room index):
    ```bash
    python3 execution/render_brief.py .tmp/zeitgeist/<date>-<lane>-brief.json --gdoc
    python3 execution/asset_index.py && python3 execution/asset_gallery.py --quick

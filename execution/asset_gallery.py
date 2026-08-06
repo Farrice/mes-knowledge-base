@@ -298,6 +298,7 @@ button.act:hover { background:var(--accent); color:#101010; }
   <a class="navlink active" data-v="home">Home</a>
   <a class="navlink" data-v="gen">Gallery</a>
   <a class="navlink" data-v="styles" id="styleslink" style="display:none">Styles</a>
+  <a class="navlink" href="../../deliverables/research-briefs/index.html">📋 Briefing Room</a>
   <input type="search" id="q" placeholder="🔍 search everything…">
 </nav>
 <div id="view-home">
@@ -609,7 +610,7 @@ function setView(v) {
   document.getElementById('topnav').classList.toggle('solid', window.scrollY > 40);
   window.scrollTo(0, 0);
 }
-document.querySelectorAll('.navlink').forEach(a =>
+document.querySelectorAll('.navlink[data-v]').forEach(a =>
   a.addEventListener('click', () => setView(a.dataset.v)));
 document.getElementById('q').addEventListener('input', () => {
   clearTimeout(window.__qt);

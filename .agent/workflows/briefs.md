@@ -40,6 +40,16 @@ Design system: **Farrice Cain Premium Minimal, report dialect** — tokens live 
 
 Mission/`/go` close-outs and night-shift builds SHOULD ship as briefs (exemplar: `deliverables/research-briefs/night-shift-2026-08-06/`): chip `<CONTEXT> · BUILD REPORT`, `summary` verdict → `decision` (what got built, ranked) → `evidence` (claims vs receipts) → `playbook`/`deploy` (how to run what shipped) → `caveats` → ledger. Render + `brief_library.py` refresh lands it in the Briefing Room automatically.
 
+## Share-safe export (BINDING rule: internal briefs never go out)
+
+Internal briefs carry absolute paths, run costs, candid strategy, and the agent context pack. **Never send one to a client or prospect.** The only client-visible form is the share variant:
+
+```bash
+python3 execution/render_brief.py <slug>/<slug>-brief.json --share   # → <slug>-brief-share.html
+```
+
+`--share` strips: context pack, all `file://` ledger links, run-cost/stack line, playbook `touches` paths, asset path rows/thumbs, file-path swing links, and the page quick-copy buttons. External URLs and all content sections stay. Rendered on demand only — not part of the default output set. **Limit:** `--share` strips the mechanical internals; costs or paths written into authored prose (deks, evidence text, ledger `used_for`) are the author's to redact — skim the share variant before sending.
+
 ## Re-render after editing a brief's JSON (or after any token change)
 
 ```bash

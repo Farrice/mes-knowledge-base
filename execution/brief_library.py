@@ -67,6 +67,22 @@ def derive_category(meta):
     return chip or "uncategorized"
 
 
+def sort_ts(meta, mtime):
+    """True recency: the brief's `compiled` date when parseable, else file mtime.
+    Bulk re-renders reset every mtime at once — compiled keeps the real order."""
+    import datetime
+    # "aug 6, 2026 · ~00:45" → "aug 6, 2026"; tolerate trailing annotations
+    s = str(meta.get("compiled") or "").split("·")[0].strip().lower().replace(".", "")
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%Y-%m-%d"):
+        try:
+            d = datetime.datetime.strptime(s, fmt)
+            # same-day briefs tie-break on mtime (fractional, keeps intra-day order)
+            return d.timestamp() + (mtime % 86400) / 86400.0
+        except ValueError:
+            continue
+    return mtime
+
+
 PAGE = """<!doctype html>
 <html lang="en">
 <head>
@@ -92,6 +108,11 @@ PAGE = """<!doctype html>
   body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans) }
   .wrap{ max-width:980px; margin:0 auto; padding:52px 28px 90px }
   .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--ag-ink-mute); display:block }
+  .topline{ display:flex; align-items:center; gap:14px; flex-wrap:wrap }
+  .homenav{ margin-left:auto; display:flex; gap:6px }
+  .homenav a{ font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; text-decoration:none;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .homenav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
   h1{ font-size:48px; line-height:1.05; letter-spacing:-.022em; font-weight:700; margin-top:16px }
   h1 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
   .dek{ font-size:14px; line-height:1.55; color:var(--ag-ink-soft); margin-top:14px; max-width:56ch }
@@ -164,7 +185,8 @@ PAGE = """<!doctype html>
 <body>
 <div class="wrap">
   <header>
-    <span class="kicker">ANTIGRAVITY RESEARCH · LIBRARY</span>
+    <div class="topline"><span class="kicker">ANTIGRAVITY RESEARCH · LIBRARY</span>
+      <span class="homenav"><a href="{{BOARD_URI}}">asset board ↗</a><a href="{{PULSE_URI}}">pulse board ↗</a></span></div>
     <h1>the briefing <em>room</em></h1>
     <p class="dek">every rendered brief. click a card to open it; path feeds file-access tools, copy brief feeds any chat AI; md and ctx open the artifacts.</p>
     <div class="count">{{COUNT}} briefs on file · regenerated {{STAMP}}</div>
@@ -306,9 +328,10 @@ def collect():
                 meta = json.loads(json_f.read_text(encoding="utf-8"))
             except Exception:
                 meta = {}
+        mtime = html_f.stat().st_mtime
         entries.append({
             "slug": slug,
-            "mtime": html_f.stat().st_mtime,
+            "mtime": sort_ts(meta, mtime),
             "chip": meta.get("chip") or "RESEARCH BRIEF",
             "title": meta.get("title") or slug,
             "dek": meta.get("dek") or "",
@@ -391,6 +414,8 @@ def main():
     page = (PAGE
             .replace("{{COUNT}}", str(len(entries)))
             .replace("{{STAMP}}", stamp)
+            .replace("{{BOARD_URI}}", esc((ROOT / ".agent" / "assets" / "assets-board.html").as_uri()))
+            .replace("{{PULSE_URI}}", esc((ROOT / ".agent" / "pulse" / "pulse-board.html").as_uri()))
             .replace("{{PACKS}}", packs_json)
             .replace("{{PAGE_SIZE}}", str(PAGE_SIZE))
             .replace("{{PRI_BTNS}}", pri_btns)

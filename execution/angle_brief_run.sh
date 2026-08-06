@@ -2,7 +2,7 @@
 # Angle Brief — Mon/Thu 07:00 local headless run (built 2026-08-06, Cody Schneider
 # extraction session). Deterministic listening first (signal_scout.py — LISTENING-ONLY,
 # never contacts anyone), then headless claude synthesis per
-# _active/farrice-brand/ANGLE-BRIEF-PROMPT.md → render_brief.py → briefs board.
+# _active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md → render_brief.py → briefs board.
 # Invocation pattern mirrors execution/angle_map_listening_run.sh (proven 2026-08-05).
 set -u
 REPO="/Users/farricecain/Google Antigravity"
@@ -25,7 +25,7 @@ python3 execution/signal_scout.py >> "$LOG" 2>&1 \
   || echo "signal_scout failed — synthesis will use the newest existing roster" >> "$LOG"
 
 # 2) Headless synthesis → HTML brief on the board.
-"$CLAUDE" -p "Read and execute _active/farrice-brand/ANGLE-BRIEF-PROMPT.md for today's date. This is the scheduled Angle Brief run (local, full-tool). Honor every boundary in that file. No publishing, outreach, or contact of any kind. No Chain, no finalize, no Notion, no Next Moves, no subagents." \
+"$CLAUDE" -p "Read and execute _active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md for today's date. This is the scheduled Angle Brief run (local, full-tool). Honor every boundary in that file. No publishing, outreach, or contact of any kind. No Chain, no finalize, no Notion, no Next Moves, no subagents." \
   --permission-mode acceptEdits >> "$LOG" 2>&1
 RC=$?
 

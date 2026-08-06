@@ -34,9 +34,15 @@ input file below, labeled VERIFIED / LIKELY / UNCONFIRMED.
 ## Output
 
 Build `brief.json` at `.tmp/angle-brief/angle-brief-YYYY-MM-DD.json` per the schema
-documented at the top of `execution/render_brief.py`, then run:
+documented at the top of `execution/render_brief.py` — include top-level
+`"category": "angles", "priority": 1` so the brief arrives pre-filed in the
+Briefing Room sidebar — then run:
 
     python3 execution/render_brief.py .tmp/angle-brief/angle-brief-YYYY-MM-DD.json
+    python3 execution/asset_index.py && python3 execution/asset_gallery.py --quick
+
+(render_brief auto-refreshes the Briefing Room index; the second line puts the
+brief on the Asset Command Center's 📋 shelf.)
 
 Brief shape (slug `angle-brief-YYYY-MM-DD`, chip `ANGLE BRIEF · SIGNAL SCOUT + ZEITGEIST`):
 - **summary** — what's moving in his niche this week, 3–5 sentences, one thesis.
