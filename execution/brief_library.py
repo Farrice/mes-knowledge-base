@@ -29,6 +29,13 @@ ROOT = Path(__file__).resolve().parent.parent
 BRIEFS = ROOT / "deliverables" / "research-briefs"
 PAGE_SIZE = 10
 
+# ── Lifecycle policy (the librarian; Farrice 2026-08-06) ─────────────────────
+# Periodical categories auto-archive after N days — applied on every regen, so
+# currency needs no cron and no memory. Everything else archives manually only
+# (archive <slug>). Nothing is ever deleted: archived = one filter away.
+AUTO_ARCHIVE_DAYS = {"zeitgeist": 7, "angles": 14}
+STALE_DAYS = 30  # active non-periodical briefs older than this get flagged, never moved
+
 
 def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
@@ -144,6 +151,10 @@ PAGE = """<!doctype html>
   .tagp.p3{ color:var(--ag-ink-mute); border:1px solid var(--ag-line) }
   .tagc{ font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase;
     color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:4px; padding:3px 8px }
+  .tagc.arch{ color:var(--ag-ink-mute); border-style:dashed }
+  .tagc.sup{ color:var(--ag-accent); border-color:var(--ag-accent); text-decoration:none }
+  .hkeep{ font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:6px }
+  .hkeep b{ color:var(--ag-risk); font-weight:700 }
   .brief-card h2{ font-size:22px; letter-spacing:-.015em; font-weight:700; margin-top:12px; line-height:1.2 }
   .brief-card h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
   .brief-card p{ font-size:12.5px; line-height:1.55; color:var(--ag-ink-soft); margin-top:8px; max-width:60ch }
@@ -190,9 +201,14 @@ PAGE = """<!doctype html>
     <h1>the briefing <em>room</em></h1>
     <p class="dek">every rendered brief. click a card to open it; path feeds file-access tools, copy brief feeds any chat AI; md and ctx open the artifacts.</p>
     <div class="count">{{COUNT}} briefs on file · regenerated {{STAMP}}</div>
+    <div class="hkeep">{{HKEEP}}</div>
   </header>
   <div class="layout">
     <aside class="side">
+      <div class="grp"><span class="lab">Shelf</span>
+        <button data-shelf="active" class="on">active <span class="c">{{N_ACTIVE}}</span></button>
+        <button data-shelf="archived">archived <span class="c">{{N_ARCH}}</span></button>
+      </div>
       <div class="grp"><span class="lab">Sort</span>
         <button data-sort="newest" class="on">newest first</button>
         <button data-sort="priority">priority first</button>
@@ -217,7 +233,8 @@ PAGE = """<!doctype html>
   var PAGE_SIZE = {{PAGE_SIZE}};
   var cardsEl = document.getElementById('cards');
   var allCards = Array.prototype.slice.call(cardsEl.querySelectorAll('.brief-card'));
-  var state = { sort:'newest', pri:'all', cat:'all', page:1 };
+  var state = { sort:'newest', pri:'all', cat:'all', shelf:'active', page:1 };
+  var ROOM_LIVE = location.protocol.startsWith('http');
 
   function toast(msg){
     var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
@@ -235,6 +252,9 @@ PAGE = """<!doctype html>
 
   function filtered(){
     var list = allCards.filter(function(c){
+      var archived = c.dataset.status !== 'active';
+      if (state.shelf === 'active' && archived) return false;
+      if (state.shelf === 'archived' && !archived) return false;
       if (state.pri !== 'all' && c.dataset.pri !== state.pri) return false;
       if (state.cat !== 'all' && c.dataset.cat !== state.cat) return false;
       return true;
@@ -282,6 +302,7 @@ PAGE = """<!doctype html>
       if (b.dataset.sort){ state.sort = b.dataset.sort; mark('[data-sort]', b); }
       if (b.dataset.pri !== undefined){ state.pri = b.dataset.pri; mark('[data-pri]', b); }
       if (b.dataset.cat !== undefined){ state.cat = b.dataset.cat; mark('[data-cat]', b); }
+      if (b.dataset.shelf){ state.shelf = b.dataset.shelf; mark('[data-shelf]', b); }
       state.page = 1; apply();
     });
   });
@@ -302,6 +323,36 @@ PAGE = """<!doctype html>
       el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600);
     });
   });
+
+  // librarian actions — live when served by pulse_serve, copy-command otherwise
+  document.querySelectorAll('.brief-card .links span[data-life]').forEach(function(el){
+    el.addEventListener('click', function(ev){
+      ev.preventDefault(); ev.stopPropagation();
+      var life = el.dataset.life, slug = el.dataset.slug;
+      var cli = 'python3 execution/brief_library.py ' + life + ' ' + slug;
+      if (!ROOM_LIVE){ copyText(cli, 'server offline — command copied'); return; }
+      fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'brief-' + life, args: { slug: slug } }) })
+        .then(function(r){ return r.json(); })
+        .then(function(j){
+          if (j.ok){ var t = document.getElementById('toast');
+            t.textContent = life + 'd — refreshing'; t.classList.add('show');
+            setTimeout(function(){ location.reload(); }, 700); }
+        })
+        .catch(function(){ copyText(cli, 'server unreachable — command copied'); });
+    });
+  });
+
+  // side-window live reload — when served, poll for regenerations and refresh
+  if (ROOM_LIVE){
+    var baseline = null;
+    setInterval(function(){
+      fetch('/ping').then(function(r){ return r.json(); }).then(function(j){
+        if (baseline === null){ baseline = j.room_mtime; return; }
+        if (j.room_mtime && j.room_mtime !== baseline){ location.reload(); }
+      }).catch(function(){});
+    }, 5000);
+  }
 
   apply();
 </script>
@@ -339,6 +390,8 @@ def collect():
             "compiled": meta.get("compiled") or "",
             "category": derive_category(meta),
             "priority": norm_pri(meta.get("priority")),
+            "status": (meta.get("status") or "active").lower(),
+            "superseded_by": meta.get("superseded_by") or "",
             "html": html_f, "json": json_f,
             "md": d / f"{slug}-brief.md",
             "ctx": d / f"{slug}-context.json",
@@ -347,24 +400,90 @@ def collect():
     return entries
 
 
+def _write_status(json_f, status):
+    import os
+    try:
+        meta = json.loads(json_f.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        print(f"[brief_library] ERROR reading {json_f}: {e}")
+        return False
+    meta["status"] = status
+    tmp = str(json_f) + ".tmp"
+    Path(tmp).write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    os.replace(tmp, json_f)
+    return True
+
+
+def apply_currency(entries):
+    """Auto-archive periodicals past policy age. Runs on every regen; returns
+    the number flipped this pass. Deterministic librarian, never deletes."""
+    import time as _t
+    now = _t.time()
+    flipped = 0
+    for e in entries:
+        days = AUTO_ARCHIVE_DAYS.get(e["category"])
+        if days is None or e["status"] != "active":
+            continue
+        if (now - e["mtime"]) / 86400.0 > days:
+            if _write_status(e["json"], "archived"):
+                e["status"] = "archived"
+                flipped += 1
+                print(f"[brief_library] auto-archived ({e['category']} > {days}d): {e['slug']}")
+    return flipped
+
+
+def housekeeping(entries):
+    """Deterministic standards check: counts + stale + broken context-pack paths."""
+    import os
+    import time as _t
+    now = _t.time()
+    active = [e for e in entries if e["status"] == "active"]
+    archived = [e for e in entries if e["status"] != "active"]
+    stale = [e for e in active
+             if e["category"] not in AUTO_ARCHIVE_DAYS
+             and (now - e["mtime"]) / 86400.0 > STALE_DAYS]
+    broken = []
+    for e in entries:
+        if not e["ctx"].exists():
+            continue
+        try:
+            pack = json.loads(e["ctx"].read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            broken.append((e["slug"], "context pack unreadable"))
+            continue
+        for p in pack.get("paths", []):
+            if not os.path.exists(p.get("abs") or ""):
+                broken.append((e["slug"], p.get("path") or "?"))
+    return {"active": len(active), "archived": len(archived),
+            "stale": [e["slug"] for e in stale], "broken": broken}
+
+
 def card(e):
     dek = e["dek"]
     if len(dek) > 220:
         dek = dek[:217].rstrip() + "…"
     pri_tag = f'<span class="tagp p{e["priority"]}">P{e["priority"]}</span>' if e["priority"] else ""
     cat_tag = f'<span class="tagc">{esc(e["category"])}</span>'
+    if e["status"] != "active":
+        cat_tag += '<span class="tagc arch">archived</span>'
+    if e["superseded_by"]:
+        succ = BRIEFS / e["superseded_by"] / f'{e["superseded_by"]}-brief.html'
+        cat_tag += (f'<a class="tagc sup" href="{esc(succ.as_uri())}" '
+                    f'onclick="event.stopPropagation()">superseded → {esc(e["superseded_by"])}</a>')
     links = (f'<span data-act="path" data-slug="{esc(e["slug"])}" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span>'
              f'<span class="cp" data-act="brief" data-slug="{esc(e["slug"])}" title="copy the full brief inline — paste into any AI chat">copy brief</span>')
     for label, f in (("md", e["md"]), ("ctx", e["ctx"])):
         if f.exists():
             links += f'<span data-href="{esc(f.as_uri())}">{label}</span>'
+    arch_act = "unarchive" if e["status"] != "active" else "archive"
+    links += f'<span data-life="{arch_act}" data-slug="{esc(e["slug"])}" title="librarian action — live when served, copies the command otherwise">{arch_act}</span>'
     metas = ""
     if e["compiled"]:
         metas += f'<span class="m">{esc(e["compiled"])}</span>'
     if e["lens"]:
         metas += f'<span class="m">{esc(e["lens"])}</span>'
     return (f'<a class="brief-card" href="{esc(e["html"].as_uri())}" data-cat="{esc(e["category"])}" '
-            f'data-pri="{e["priority"]}" data-mtime="{e["mtime"]}">'
+            f'data-pri="{e["priority"]}" data-mtime="{e["mtime"]}" data-status="{esc(e["status"])}">'
             f'<div class="toprow"><span class="chip">{esc(e["chip"])}</span>{pri_tag}{cat_tag}</div>'
             f'<h2>{accent_em(e["title"])}</h2>'
             f'<p>{esc(dek)}</p>'
@@ -389,12 +508,43 @@ def side_buttons(entries):
     return "".join(pri), "".join(cat)
 
 
-def main():
-    ap = argparse.ArgumentParser(description="Generate the Briefing Room index.")
-    ap.add_argument("--open", action="store_true")
-    args = ap.parse_args()
+def find_entry(entries, slug):
+    for e in entries:
+        if e["slug"] == slug:
+            return e
+    return None
 
+
+def cmd_lifecycle(action, slug):
     entries = collect()
+    e = find_entry(entries, slug)
+    if e is None:
+        print(f"[brief_library] no brief with slug: {slug}")
+        return 1
+    status = "archived" if action == "archive" else "active"
+    if not _write_status(e["json"], status):
+        return 1
+    print(f"[brief_library] {action}d: {slug}")
+    generate()
+    return 0
+
+
+def cmd_audit():
+    entries = collect()
+    hk = housekeeping(entries)
+    print(f"[brief_library] audit — {hk['active']} active · {hk['archived']} archived · "
+          f"{len(hk['stale'])} stale · {len(hk['broken'])} broken context paths")
+    for s in hk["stale"]:
+        print(f"  stale (> {STALE_DAYS}d active): {s}")
+    for slug, path in hk["broken"]:
+        print(f"  broken path in {slug}: {path}")
+    return 0
+
+
+def generate(open_after=False):
+    entries = collect()
+    apply_currency(entries)
+    hk = housekeeping(entries)
     import datetime
     stamp = datetime.date.today().isoformat()
     packs = {}
@@ -411,9 +561,19 @@ def main():
         packs[e["slug"]] = {"path": str(e["md"]), "brief": header + md_text}
     packs_json = json.dumps(packs, ensure_ascii=False).replace("</", "<\\/")
     pri_btns, cat_btns = side_buttons(entries)
+    hk_bits = f"{hk['active']} active · {hk['archived']} archived"
+    if hk["stale"]:
+        hk_bits += f" · <b>{len(hk['stale'])} stale</b>"
+    if hk["broken"]:
+        hk_bits += f" · <b>{len(hk['broken'])} broken paths</b>"
+    if not hk["stale"] and not hk["broken"]:
+        hk_bits += " · shelves clean"
     page = (PAGE
             .replace("{{COUNT}}", str(len(entries)))
             .replace("{{STAMP}}", stamp)
+            .replace("{{HKEEP}}", hk_bits)
+            .replace("{{N_ACTIVE}}", str(hk["active"]))
+            .replace("{{N_ARCH}}", str(hk["archived"]))
             .replace("{{BOARD_URI}}", esc((ROOT / ".agent" / "assets" / "assets-board.html").as_uri()))
             .replace("{{PULSE_URI}}", esc((ROOT / ".agent" / "pulse" / "pulse-board.html").as_uri()))
             .replace("{{PACKS}}", packs_json)
@@ -424,9 +584,25 @@ def main():
     out = BRIEFS / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding="utf-8")
-    print(f"[brief_library] OK → {out} ({len(entries)} briefs)")
-    if args.open:
+    print(f"[brief_library] OK → {out} ({len(entries)} briefs · {hk_bits.replace('<b>', '').replace('</b>', '')})")
+    if open_after:
         subprocess.run(["open", str(out)], check=False)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="The Briefing Room librarian: generate (default), archive, unarchive, audit.")
+    ap.add_argument("cmd", nargs="?", default="generate",
+                    choices=["generate", "archive", "unarchive", "audit"])
+    ap.add_argument("slug", nargs="?", default=None)
+    ap.add_argument("--open", action="store_true")
+    args = ap.parse_args()
+    if args.cmd in ("archive", "unarchive"):
+        if not args.slug:
+            raise SystemExit(f"usage: brief_library.py {args.cmd} <slug>")
+        raise SystemExit(cmd_lifecycle(args.cmd, args.slug))
+    if args.cmd == "audit":
+        raise SystemExit(cmd_audit())
+    generate(open_after=args.open)
 
 
 if __name__ == "__main__":

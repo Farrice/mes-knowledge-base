@@ -1,0 +1,21 @@
+{
+  "slug": "icp-invisible-expert",
+  "title": "the invisible expert",
+  "compiled": "aug 6, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.html",
+  "brief_md": "deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.md",
+  "paths": [
+    {
+      "path": "_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md",
+      "role": "primary ICP research"
+    },
+    {
+      "path": "deliverables/research-briefs/index.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html",
+      "role": "related · BRIEF"
+    }
+  ],
+  "urls": []
+}

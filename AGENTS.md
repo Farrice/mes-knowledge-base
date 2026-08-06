@@ -111,6 +111,14 @@ Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.age
 - **Domain docs**: single-context (`CONTEXT.md` + `docs/adr/`, lazy-created); the system's real canon remains `directives/INDEX.md` + `FARRICE-MASTER-CONTEXT.md`. See `docs/agents/domain.md`.
 <!-- END:shared-agent-skills -->
 
+## Visual Delivery — the Briefing Room (universal harness, 2026-08-06)
+
+Reusable deliverables (research, strategy, audits, ICP/avatar profiles, extraction dossiers, client work, build receipts) **default to shipping as visual briefs**, not markdown walls — a default offer, never a constraint on your native process. Everything is harness-neutral Python + shared files, so Codex uses the exact same doors as Claude Code:
+
+- Author brief JSON per the schema in `execution/render_brief.py`'s docstring (family recipes: `.agent/workflows/briefs.md` § What ships as a brief) → `python3 execution/render_brief.py <json>` renders HTML + `.md` agent mirror + `-context.json` agent pack and auto-refreshes the room index.
+- Library: `/briefing-room` (`python3 execution/brief_library.py --open`); librarian: `brief_library.py archive|unarchive|audit` (periodicals auto-archive; nothing is deleted). Live boards: `python3 execution/pulse_serve.py --open` (localhost, idle-exit; `/` = pulse console, `/room` = briefing room; buttons write for real when served).
+- Outward-facing = `--share` render ONLY (BINDING); `--gdoc` for a portable Google Doc on request. Quick answers, corrections, and conversation stay conversation — the doctrine covers outputs meant to be REUSED.
+
 ## CRITICAL — placed last deliberately
 1. **CHAIN ON EVERY DELIVERABLE.** Trivial is not a skip condition for content/copy/strategy/research.
 2. **LOAD BEFORE PRODUCING.** Never ship expert-domain output from general training when an extracted skill exists.

@@ -25,20 +25,39 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOARD = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
+ROOM = os.path.join(ROOT, "deliverables", "research-briefs", "index.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
 
 
-def regen():
+def regen(which="pulse"):
+    script = "pulse_dashboard.py" if which == "pulse" else "brief_library.py"
     try:
-        subprocess.run([PY, os.path.join(ROOT, "execution", "pulse_dashboard.py")],
+        subprocess.run([PY, os.path.join(ROOT, "execution", script)],
                        capture_output=True, text=True, timeout=90)
     except Exception as e:
         print(f"[pulse_serve] WARN regen failed: {e}", file=sys.stderr)
 
 
-ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze", "thread-archive", "open-path"}
+def _mtime(p):
+    try:
+        return os.stat(p).st_mtime
+    except OSError:
+        return 0
+
+
+ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
+           "thread-archive", "open-path", "brief-archive", "brief-unarchive"}
+
+
+def _brief_lifecycle(action, slug):
+    verb = "archive" if action == "brief-archive" else "unarchive"
+    r = subprocess.run([PY, os.path.join(ROOT, "execution", "brief_library.py"), verb, str(slug)],
+                       capture_output=True, text=True, timeout=60)
+    out = (r.stdout or "").strip() or (r.stderr or "").strip()
+    print(out[-200:] if out else f"{verb}: {slug}")
+    return r.returncode == 0
 
 
 def _open_path(uri):
@@ -59,6 +78,8 @@ def _open_path(uri):
 def dispatch(action, args):
     if action == "open-path":
         return _open_path(args.get("uri", ""))
+    if action in ("brief-archive", "brief-unarchive"):
+        return _brief_lifecycle(action, args.get("slug", ""))
     sys.path.insert(0, os.path.join(ROOT, "execution"))
     import pulse_actions as pa
     if action == "done":
@@ -97,9 +118,18 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         self._touch()
         if self.path.startswith("/ping"):
-            self._send(200, '{"pulse": true}', "application/json")
+            self._send(200, json.dumps({"pulse": True,
+                                        "board_mtime": _mtime(BOARD),
+                                        "room_mtime": _mtime(ROOM)}), "application/json")
             return
-        regen()
+        if self.path.startswith("/room"):
+            regen("room")
+            try:
+                self._send(200, open(ROOM, encoding="utf-8").read())
+            except OSError as e:
+                self._send(500, f"room missing: {e}")
+            return
+        regen("pulse")
         try:
             self._send(200, open(BOARD, encoding="utf-8").read())
         except OSError as e:

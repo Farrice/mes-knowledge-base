@@ -1036,6 +1036,31 @@ BINDINGS = [
         ),
     },
     {
+        # Visual delivery doctrine (2026-08-06, Farrice-ratified) — reusable
+        # deliverables ship as Briefing Room briefs, not markdown walls.
+        # Twin row: directives/routing-bindings.md. Doctrine: .agent/workflows/briefs.md.
+        "id": "deliverable_visual_delivery",
+        "signal_phrases": [
+            "write up the research", "research write-up", "research report on",
+            "strategy doc", "strategy document", "audit report",
+            "icp profile", "avatar profile", "audience profile",
+            "client deliverable", "deliverable for", "build receipt",
+            "extraction report", "compile the findings", "summarize the research",
+        ],
+        "mandatory_workflow_any_of": ["briefs", "briefing-room"],
+        "forbidden_workflows": [],
+        "reason": (
+            "Reusable deliverables (research, strategy, audits, ICP/avatar profiles, "
+            "extraction dossiers, client work, build receipts) ship as visual briefs in "
+            "the Briefing Room — chip-cited, context-packed, agent-feedable — per "
+            ".agent/workflows/briefs.md § What ships as a brief. The md mirror is the "
+            "agent layer; --share is the only outward form; --gdoc on request. "
+            "Suggestion only — no workflow is forbidden; the nudge exists because 96% "
+            "of all deliverables shipped as markdown walls while the brief engine sat "
+            "proven (audit 2026-08-06: 338 md vs 13 html)."
+        ),
+    },
+    {
         "id": "social_listening_apify_first",
         "signal_phrases": [
             "what's happening in", "what is happening in",

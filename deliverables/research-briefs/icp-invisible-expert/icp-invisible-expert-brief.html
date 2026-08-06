@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the invisible expert · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-identity-level-read">the identity-level read</a><a href="#by-the-numbers">by the numbers</a><a href="#the-resistance-map">the resistance map</a><a href="#their-words-verbatim">their words, verbatim</a><a href="#bridge-moves-ranked">bridge moves, ranked</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-profile-is-not">what this profile is not</a><a href="#swings-to">swings to</a><a href="#context-pack">context pack</a><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">ICP PROFILE · INVISIBLE EXPERT</span>
+    <h1 class="display">the <em>invisible</em> expert</h1>
+    <p class="dek">Accomplished coaches, consultants, therapists, and fractional executives with deep craft and no digital footprint: problem-aware, referral-fed, allergic to marketing language, and privately googling how to be found without becoming an influencer.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">source dated march 2026</span></div>
+      <div><span class="k">Lens</span><span class="v">mcraney canvass · identity · language</span></div>
+      <div><span class="k">Sources</span><span class="v">1 primary doc · 10 cited works</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 6, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-identity-level-read"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the identity-level read</h2><span class="sectag">MCRANEY DEPTH</span></div><span class="kicker" style="margin-bottom:8px">WHO THIS BUYER IS</span><div class="panel"><p>This buyer built real mastery and then discovered the market cannot see it. The distance between what they know and what they can say online has a name in the source research: the translation gap. It is an identity crisis disguised as a marketing problem. Telling a respected psychologist to build a personal brand reads to her as a demand to become someone she is not, so the advice itself triggers the threat it is trying to solve.</p><p>The resistance lives below argument. Identity threats activate the same neural circuits as physical threats, and the brain covers the flinch with rational-sounding excuses: no time, referrals work fine, not a writer. In the source&#x27;s words, the identity of the expert who does not need marketing IS the resistance. The winning message never asks them to change who they are. It splits the roles. You talk. We translate. Your authority grows.</p></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">02</span><h2 class="sec">by the numbers</h2></div><div class="stats"><div class="stat"><div class="num">70%<small> of professionals</small></div><span class="lab">IMPOSTER SYNDROME</span><div class="note">content creation is its ultimate catalyst</div></div><div class="stat"><div class="num">90%<small> of founders and experts</small></div><span class="lab">CURSE OF EXPERTISE</span><div class="note">depth itself makes plain speech harder</div></div><div class="stat"><div class="num">60%<small> of the market</small></div><span class="lab">PRE-CONTEMPLATION</span><div class="note">still says I don&#x27;t need this; educate the problem before selling the solution</div></div><div class="stat"><div class="num">$20B<small> global coaching industry</small></div><span class="lab">MARKET CONTEXT</span><div class="note">most of it referral-fed and invisible online</div></div></div></section><section class="blk" id="the-resistance-map"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the resistance <em>map</em></h2></div><div class="matrix-axes">↑ ASPIRATION · FEAR ↓ · SAYS → HIDES</div><div class="matrix"><div class="quad"><span class="qlab">ASPIRATION · SAYS</span><ul><li>&quot;I want clients to come to me&quot;<small>inbound as dignity, never as laziness</small></li><li>&quot;I want to be the go-to person in my field&quot;<small>authority is the prize, never audience size</small></li><li>&quot;I want to grow without compromising my integrity&quot;<small>the condition attached to every yes</small></li></ul></div><div class="quad"><span class="qlab">ASPIRATION · HIDES</span><ul><li>online presence that matches offline reputation<small>the gap reads to them as injustice, louder people winning</small></li><li>permission to be found<small>wants recognition but needs it reframed as responsibility, not ego</small></li><li>the 11pm search<small>privately googles how to be seen as an authority without becoming an influencer</small></li></ul></div><div class="quad"><span class="qlab">FEAR · SAYS</span><ul><li>&quot;I don&#x27;t have time for content&quot;<small>time excuse masking identity threat; they find time for taxes</small></li><li>&quot;I tried posting and nothing happened&quot;<small>a verdict drawn from 3-5 posts over 2-3 weeks</small></li><li>&quot;I&#x27;m not good at marketing&quot;<small>skill excuse from people who communicate professionally every day</small></li></ul></div><div class="quad"><span class="qlab">FEAR · HIDES</span><ul><li>being lumped in with the grifters<small>guru culture triggers visceral disgust; any salesy note gets identity-level rejection</small></li><li>social death<small>peer judgment activates the same circuits as physical threat; avoidance is pre-rational</small></li><li>imposter syndrome<small>the blank page is where it lives; a conversation is where expertise lives</small></li></ul></div></div></section><section class="blk" id="their-words-verbatim"><div class="sechead"><span class="secnum">04</span><h2 class="sec">their words, <em>verbatim</em></h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>The core belief that keeps them invisible</h3><p>&quot;My work should speak for itself&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Content feels like performance, not communication</h3><p>&quot;It feels more like I&#x27;m performing than actually sharing my thoughts.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The freeze hits even trained communicators</h3><p>&quot;Most therapists hate writing their bio. We can sit with someone&#x27;s deepest pain — but try to describe ourselves in 150 words and we freeze.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Offer doubt compounds the fear</h3><p>&quot;Content feels scary when you&#x27;re not sure your offer is solid&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Referrals are the stated moat</h3><p>&quot;I&#x27;d prefer to find clients in person or through referrals.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Content reads as unpaid labor in a foreign job</h3><p>&quot;It feels like work: posting, engaging, and creating content. It&#x27;s as if you&#x27;re now required to be your own unpaid social-media manager.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Small early results confirm the retreat</h3><p>&quot;You hit publish. And then... 17 likes. Maybe 2 comments.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The composite avatar&#x27;s core wound, over wine</h3><p>&quot;I didn&#x27;t become a psychologist to sell things. I became one to help people. And now the world is telling me that unless I turn into some LinkedIn thought leader, I&#x27;m going to get left behind by people who are half as qualified but twice as loud.&quot;</p><div class="meta"><span class="conf likely">LIKELY</span><span class="srcref">deep-icp-profile</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The 11pm search behavior</h3><p>&quot;how to get coaching clients without social media&quot;</p><div class="meta"><span class="conf likely">LIKELY</span><span class="srcref">deep-icp-profile</span></div></div></div></section><section class="decision" id="bridge-moves-ranked"><span class="kicker">HOW TO WRITE TO HER</span><h2>bridge moves, <em>ranked</em></h2><p class="dek">what the profile supports doing, in order.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Open with the feeling, never the solution</h3><p>The audience is problem-aware, not solution-aware, and the register read is frustrated plus ashamed plus defensive. Validation has to land before any pitch can.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Reframe visibility as service, not self-promotion</h3><p>Their primary value is impact. The line that flips it, from the source: your expertise is someone&#x27;s solution, and if you don&#x27;t share it, they can&#x27;t find you.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Use their vocabulary and retire marketing&#x27;s</h3><p>The composite avatar paid $3,000 for a personal branding course and quit at module 2 because the language made her cringe. Word choice is the first credibility test.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Name the identity threat out loud</h3><p>The resistance is pre-rational and the excuses are cover for a threatened self-concept. Saying you don&#x27;t have to become an influencer disarms what argument cannot.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>Honor referrals, then surface the ceiling</h3><p>Referrals bring roughly 85% of the avatar&#x27;s clients and the profile confirms they work. The opening is the unasked question: what happens when your top referrer leaves.</p></div></div><div class="dec-item"><span class="n">06</span><div><h3>Keep the role split clean in every touchpoint</h3><p>The bridge message wins because they stay the expert and the translation burden moves to you. Ten minutes of voice memo produces a week of content.</p></div></div><div class="dec-item"><span class="n">07</span><div><h3>Sell the difficulty as proof of depth</h3><p>The curse-of-expertise reframe turns their failure to write posts into evidence of mastery, which dissolves the shame that blocks the sale.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">06</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">bridge-message opener</span><button class="copybtn" type="button">copy</button></div><pre>You spent years becoming an expert. Why does it feel impossible to explain what you do?
+
+That difficulty has a name: the Curse of Expertise. The deeper your knowledge, the harder plain language gets. The struggle is evidence of depth, not a flaw.
+
+So don&#x27;t write. Talk.
+
+You talk. We translate. Your authority grows.
+
+No blank page. No performing. You stay the expert; the translation is our job.</pre></div><div class="deploy"><div class="bar"><span class="k">language card: say / never say</span><button class="copybtn" type="button">copy</button></div><pre>SAY                            NEVER SAY
+professional authority         personal brand
+sharing your expertise         content strategy
+attracting the right clients   lead generation
+recognized expert              influencer
+building a system              growth hacking
+sustainable practice           hustle
+consistent presence            grind
+reach / impact                 scale
+client pathway                 funnel
+serve / support                monetize
+
+Test before sending: if a word would make Dr. Maya Patel wince, it is the wrong word. If it would make her nod and lean in, it is the right one.</pre></div></section><section class="blk caveats" id="what-this-profile-is-not"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this profile is <em>not</em></h2><p>This is a resistance and language map, not a demographic persona and not an offer document. It does not price, package, or sequence the Authority Sprint.</p><p>Dr. Maya Patel is a composite built from published research and community language, not a live interview. Quotes attributed to her are constructed; treat them as LIKELY, never as field data. The big percentages (70%, 90%, 60%) come from the research the source cites, not from Farrice&#x27;s own funnel.</p><p>Staleness: the source document is dated March 2026 by its own header, so community language and platform mechanics carry several months of drift. Re-verify the LinkedIn algorithm claims and refresh the language map before any paid campaign leans on this profile.</p><a class="cta" href="#deploy-blocks">TAKE THE LANGUAGE CARD</a></section><section class="blk" id="swings-to"><div class="sechead"><span class="secnum">08</span><h2 class="sec">swings to</h2><span class="sectag">CONNECTED</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md"><span class="k">SOURCE</span><span class="t">deep icp profile: the invisible expert</span></a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html"><span class="k">BRIEF</span><span class="t">briefing room index</span></a></div></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">09</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md">_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md</a></td><td>primary ICP research</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">deliverables/research-briefs/index.html</a></td><td>related · BRIEF</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;icp-invisible-expert&quot;,
+  &quot;title&quot;: &quot;the invisible expert&quot;,
+  &quot;compiled&quot;: &quot;aug 6, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md&quot;,
+      &quot;role&quot;: &quot;primary ICP research&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/research-briefs/index.html&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html&quot;,
+      &quot;role&quot;: &quot;related · BRIEF&quot;
+    }
+  ],
+  &quot;urls&quot;: []
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY RESEARCH</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/icp-invisible-expert/icp-invisible-expert-context.json\nCOMPILED: aug 6, 2026\n\n# the invisible expert\n\n> ICP PROFILE · INVISIBLE EXPERT · window: source dated march 2026 · lens: mcraney canvass · identity · language · sources: 1 primary doc · 10 cited works · compiled: aug 6, 2026\n\nAccomplished coaches, consultants, therapists, and fractional executives with deep craft and no digital footprint: problem-aware, referral-fed, allergic to marketing language, and privately googling how to be found without becoming an influencer.\n\n## the identity-level read\n_WHO THIS BUYER IS_\nThis buyer built real mastery and then discovered the market cannot see it. The distance between what they know and what they can say online has a name in the source research: the translation gap. It is an identity crisis disguised as a marketing problem. Telling a respected psychologist to build a personal brand reads to her as a demand to become someone she is not, so the advice itself triggers the threat it is trying to solve.\n\nThe resistance lives below argument. Identity threats activate the same neural circuits as physical threats, and the brain covers the flinch with rational-sounding excuses: no time, referrals work fine, not a writer. In the source's words, the identity of the expert who does not need marketing IS the resistance. The winning message never asks them to change who they are. It splits the roles. You talk. We translate. Your authority grows.\n\n## by the numbers\n- IMPOSTER SYNDROME: **70% of professionals** (content creation is its ultimate catalyst)\n- CURSE OF EXPERTISE: **90% of founders and experts** (depth itself makes plain speech harder)\n- PRE-CONTEMPLATION: **60% of the market** (still says I don't need this; educate the problem before selling the solution)\n- MARKET CONTEXT: **$20B global coaching industry** (most of it referral-fed and invisible online)\n\n## the resistance map\n- **ASPIRATION · SAYS**: \"I want clients to come to me\" (inbound as dignity, never as laziness), \"I want to be the go-to person in my field\" (authority is the prize, never audience size), \"I want to grow without compromising my integrity\" (the condition attached to every yes)\n- **ASPIRATION · HIDES**: online presence that matches offline reputation (the gap reads to them as injustice, louder people winning), permission to be found (wants recognition but needs it reframed as responsibility, not ego), the 11pm search (privately googles how to be seen as an authority without becoming an influencer)\n- **FEAR · SAYS**: \"I don't have time for content\" (time excuse masking identity threat; they find time for taxes), \"I tried posting and nothing happened\" (a verdict drawn from 3-5 posts over 2-3 weeks), \"I'm not good at marketing\" (skill excuse from people who communicate professionally every day)\n- **FEAR · HIDES**: being lumped in with the grifters (guru culture triggers visceral disgust; any salesy note gets identity-level rejection), social death (peer judgment activates the same circuits as physical threat; avoidance is pre-rational), imposter syndrome (the blank page is where it lives; a conversation is where expertise lives)\n\n## their words, verbatim\n- **The core belief that keeps them invisible** [VERIFIED] — \"My work should speak for itself\" (deep-icp-profile)\n- **Content feels like performance, not communication** [VERIFIED] — \"It feels more like I'm performing than actually sharing my thoughts.\" (deep-icp-profile)\n- **The freeze hits even trained communicators** [VERIFIED] — \"Most therapists hate writing their bio. We can sit with someone's deepest pain — but try to describe ourselves in 150 words and we freeze.\" (deep-icp-profile)\n- **Offer doubt compounds the fear** [VERIFIED] — \"Content feels scary when you're not sure your offer is solid\" (deep-icp-profile)\n- **Referrals are the stated moat** [VERIFIED] — \"I'd prefer to find clients in person or through referrals.\" (deep-icp-profile)\n- **Content reads as unpaid labor in a foreign job** [VERIFIED] — \"It feels like work: posting, engaging, and creating content. It's as if you're now required to be your own unpaid social-media manager.\" (deep-icp-profile)\n- **Small early results confirm the retreat** [VERIFIED] — \"You hit publish. And then... 17 likes. Maybe 2 comments.\" (deep-icp-profile)\n- **The composite avatar's core wound, over wine** [LIKELY] — \"I didn't become a psychologist to sell things. I became one to help people. And now the world is telling me that unless I turn into some LinkedIn thought leader, I'm going to get left behind by people who are half as qualified but twice as loud.\" (deep-icp-profile)\n- **The 11pm search behavior** [LIKELY] — \"how to get coaching clients without social media\" (deep-icp-profile)\n\n## bridge moves, ranked\nwhat the profile supports doing, in order.\n1. **Open with the feeling, never the solution** — The audience is problem-aware, not solution-aware, and the register read is frustrated plus ashamed plus defensive. Validation has to land before any pitch can.\n2. **Reframe visibility as service, not self-promotion** — Their primary value is impact. The line that flips it, from the source: your expertise is someone's solution, and if you don't share it, they can't find you.\n3. **Use their vocabulary and retire marketing's** — The composite avatar paid $3,000 for a personal branding course and quit at module 2 because the language made her cringe. Word choice is the first credibility test.\n4. **Name the identity threat out loud** — The resistance is pre-rational and the excuses are cover for a threatened self-concept. Saying you don't have to become an influencer disarms what argument cannot.\n5. **Honor referrals, then surface the ceiling** — Referrals bring roughly 85% of the avatar's clients and the profile confirms they work. The opening is the unasked question: what happens when your top referrer leaves.\n6. **Keep the role split clean in every touchpoint** — The bridge message wins because they stay the expert and the translation burden moves to you. Ten minutes of voice memo produces a week of content.\n7. **Sell the difficulty as proof of depth** — The curse-of-expertise reframe turns their failure to write posts into evidence of mastery, which dissolves the shame that blocks the sale.\n\n## deploy blocks\n**bridge-message opener**\n```\nYou spent years becoming an expert. Why does it feel impossible to explain what you do?\n\nThat difficulty has a name: the Curse of Expertise. The deeper your knowledge, the harder plain language gets. The struggle is evidence of depth, not a flaw.\n\nSo don't write. Talk.\n\nYou talk. We translate. Your authority grows.\n\nNo blank page. No performing. You stay the expert; the translation is our job.\n```\n**language card: say / never say**\n```\nSAY                            NEVER SAY\nprofessional authority         personal brand\nsharing your expertise         content strategy\nattracting the right clients   lead generation\nrecognized expert              influencer\nbuilding a system              growth hacking\nsustainable practice           hustle\nconsistent presence            grind\nreach / impact                 scale\nclient pathway                 funnel\nserve / support                monetize\n\nTest before sending: if a word would make Dr. Maya Patel wince, it is the wrong word. If it would make her nod and lean in, it is the right one.\n```\n\n## what this profile is not\n_CAVEATS WORTH KEEPING_\nThis is a resistance and language map, not a demographic persona and not an offer document. It does not price, package, or sequence the Authority Sprint.\n\nDr. Maya Patel is a composite built from published research and community language, not a live interview. Quotes attributed to her are constructed; treat them as LIKELY, never as field data. The big percentages (70%, 90%, 60%) come from the research the source cites, not from Farrice's own funnel.\n\nStaleness: the source document is dated March 2026 by its own header, so community language and platform mechanics carry several months of drift. Re-verify the LinkedIn algorithm claims and refresh the language map before any paid campaign leans on this profile.\n\n## swings to\n- [SOURCE] deep icp profile: the invisible expert — _active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md\n- [BRIEF] briefing room index — deliverables/research-briefs/index.html\n\n## Context pack (agent feed)\n- `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` — primary ICP research\n- `deliverables/research-briefs/index.html` — related · BRIEF\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+})();
+</script>
+</body>
+</html>

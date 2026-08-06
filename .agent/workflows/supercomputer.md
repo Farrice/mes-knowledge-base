@@ -211,6 +211,8 @@ python3 execution/chain_runner.py finalize "<one-line deliverable summary>" \
 
 Score each deliverable on the 4-dimension rubric (see CLAUDE.md Step 6). Composite < 7 or any dimension < 6 → retry weakest section once, then re-finalize.
 
+**Visual delivery offer (2026-08-06)**: for each reusable deliverable produced (research, strategy, audit, profile, client asset), offer shipping it as a Briefing Room brief per `.agent/workflows/briefs.md` § What ships as a brief — offer, never mandate.
+
 For Factual Grounding (dimension 4): if the deliverable is pure creative with no real-world claims, mark **N/A** in notes.
 
 ---

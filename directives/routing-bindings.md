@@ -116,6 +116,7 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `writing_how_i_write_os` | /how-i-write | 6 |
 | `farrice_voice_alignment` | /voice-os / voice-ratchet / voice-compile / voice-audit | 12 |
 | `content_production_live_grounding` | /create / zeitgeist / briefs | 12 |
+| `deliverable_visual_delivery` | /briefs / briefing-room | 15 |
 | `social_listening_apify_first` | /social-listen / social-pulse | 13 |
 | `unified_research` | /deep-research / deep-research-swarm / deep-research-gemini / research-swarm | 10 |
 | `collective_genius` | /convene / collective-genius-council / council / roundtable / strike / campaign / deploy / jcc-deploy / assemble / expert-assembly / panel-sync | 16 |

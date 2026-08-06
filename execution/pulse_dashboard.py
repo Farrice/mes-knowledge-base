@@ -569,6 +569,16 @@ document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () =
 }}));
 document.querySelectorAll(".tog").forEach(h => h.addEventListener("click", () =>
   h.closest("section").classList.toggle("closed")));
+if (PULSE_LIVE) {{
+  // side-window live reload — refresh when the board regenerates underneath us
+  let baseline = null;
+  setInterval(() => {{
+    fetch('/ping').then(r => r.json()).then(j => {{
+      if (baseline === null) {{ baseline = j.board_mtime; return; }}
+      if (j.board_mtime && j.board_mtime !== baseline) location.reload();
+    }}).catch(() => {{}});
+  }}, 5000);
+}}
 </script>"""
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

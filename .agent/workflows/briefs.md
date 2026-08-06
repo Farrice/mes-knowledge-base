@@ -36,9 +36,27 @@ python3 execution/asset_index.py && python3 execution/asset_gallery.py
 
 Design system: **Farrice Cain Premium Minimal, report dialect** — tokens live in `templates/research-brief/template.html` `:root` ONLY (never inline in briefs); canonical brand source `_active/farrice-brand/premium-minimal/` incl. `REPORT-DIALECT.md` (why the italic-serif accent word + steel blue are sanctioned on report surfaces). Reference anatomy: `extractions/eddy-ballesteros/reference-corpus/brief-anatomy.md`. Living format reference (every section kind, once): `deliverables/research-briefs/design-system-showcase/`.
 
-## Mission reports (brief-format build reports)
+## What ships as a brief (Visual Delivery Doctrine — Farrice-ratified 2026-08-06, both harnesses)
 
-Mission/`/go` close-outs and night-shift builds SHOULD ship as briefs (exemplar: `deliverables/research-briefs/night-shift-2026-08-06/`): chip `<CONTEXT> · BUILD REPORT`, `summary` verdict → `decision` (what got built, ranked) → `evidence` (claims vs receipts) → `playbook`/`deploy` (how to run what shipped) → `caveats` → ledger. Render + `brief_library.py` refresh lands it in the Briefing Room automatically.
+**Reusable deliverables default to visual briefs, not markdown walls.** The line: outputs meant to be REUSED ship as briefs; quick answers, corrections, and conversation stay conversation. This is the default offer, never a cage. Lineage: the Nate B Jones work-primitive rule ("a document is complete only when an agent can use it to decide, act, check, and know when not to act" — `skills/semantic-document-library-os/`); the brief's `.md` mirror + context pack ARE the agent half of that contract, the HTML is the human half. Grounding: before this doctrine, 96% of all deliverables shipped as markdown (338 md vs 13 html, audit 2026-08-06).
+
+Family recipes (chip · category · default priority · section spine):
+
+| Family | Chip pattern | category / pri | Section spine |
+|---|---|---|---|
+| Research | `RESEARCH BRIEF · <lens>` | `research` / P2 | summary → evidence (chips+sources) → bars/stats → decision → deploy → caveats → ledger |
+| ICP / avatar profile | `ICP PROFILE · <name>` | `icp` / P1 | summary (identity-level) → stats → matrix (resistance map) → evidence (VERBATIM buyer language — never elevated) → decision (how to write to them) → deploy → caveats. Exemplar: `deliverables/research-briefs/icp-invisible-expert/` |
+| Extraction dossier | `EXTRACTION · <expert>` | `extraction` / P2 | summary → evidence (genius patterns w/ timestamps) → playbook (signature workflows) → related (skill dir) → caveats (era-bound appendix flagged) → ledger (source video) |
+| Client deliverable | `<CLIENT> · <asset>` | `client: <name>` / P1 | per production-sheet verdict; `--share` render is the ONLY outward form |
+| Build receipt | `<CONTEXT> · BUILD REPORT` | `build report` / P2 | summary verdict → decision (what shipped, ranked) → evidence (claims vs receipts) → playbook/deploy → caveats. Exemplar: night-shift-2026-08-06; /go close-outs offer this per go.md Stage 3 |
+
+Semantic-document activation map (how the 13-section semantic schema lands in brief kinds): Decision Rules→`decision` · Quality Tests/Failure Modes→`caveats`+`evidence` chips · Execution Protocol→`playbook`/`deploy` · Inputs/Outputs/Authority→`stats`/`matrix`/`assets` · Maintenance→`ledger`+`timeline`.
+
+**Portable backstop**: `--gdoc` uploads any brief as a native Google Doc on request (graceful on OAuth expiry) — use when Farrice wants it portable outside the repo.
+
+## The librarian (housekeeping — deterministic, runs on every regen)
+
+`brief_library.py` keeps the shelves: `archive <slug>` / `unarchive <slug>` (also live buttons on room cards when served) · `audit` (counts + stale + broken context-pack paths; same line renders in the room header). **Auto-currency**: `zeitgeist` briefs auto-archive after 7 days, `angles` after 14 (periodicals; constants at top of `brief_library.py`). Nothing is ever deleted — archived = one sidebar filter away. Supersession: set `"superseded_by": "<slug>"` in the old brief's JSON; the room chips it with a link to the successor.
 
 ## Share-safe export (BINDING rule: internal briefs never go out)
 
