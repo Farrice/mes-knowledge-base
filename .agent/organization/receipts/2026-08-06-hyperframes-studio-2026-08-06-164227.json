@@ -1,0 +1,52 @@
+{
+  "applied_at": "2026-08-06T23:42:27+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/ADOPTERS.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/ADOPTERS.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CODE_OF_CONDUCT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CODE_OF_CONDUCT.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CONTRIBUTING.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CONTRIBUTING.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CREDITS.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CREDITS.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/DOCS_GUIDELINES.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/DOCS_GUIDELINES.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/SECURITY.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/SECURITY.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/skills-manifest.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/06-system/skills-manifest.json"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/ADOPTERS.md",
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CODE_OF_CONDUCT.md",
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CONTRIBUTING.md",
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CREDITS.md",
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/DOCS_GUIDELINES.md",
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/SECURITY.md",
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/skills-manifest.json"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio",
+  "project_slug": "hyperframes-studio",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-06.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CONTRIBUTING.md": 4
+  },
+  "skipped": [],
+  "version": 1
+}

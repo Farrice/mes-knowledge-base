@@ -2150,11 +2150,11 @@
     "status": ""
   },
   {
-    "name": "Mark Forsyth \u2014 Rhetoric & Memorable Language",
+    "name": "Mark Forsyth \u2014 Rhetoric, Memorable Language & the Enchantment OS",
     "directory": "mark-forsyth-rhetoric",
-    "description": "The figures of rhetoric as memory engineering \u2014 Forsyth (The Elements of Eloquence, The Etymologicon) treats memorable language as formula, not genius: diacope, progressio, chiasmus, polyptoton, anadiplosis, tricolon and the rest are 2,500-year-old shapes that fit the memory receptors of the human brain. Covers line-forging with the figure catalog, first-paragraph voice establishment, and the writer's practice-scales regimen (iambic pentameter improvisation, prepare-then-write-fast, run-up editing).",
+    "description": "The figures of rhetoric as memory engineering, and enchantment as the reason to write at all. Forsyth (The Elements of Eloquence, The Etymologicon, Rhyme and Reason) treats memorable language as formula, not genius: 24 shapes \u2014 diacope, chiasmus, isocolon, tricolon, anaphora, epistrophe, polyptoton, anadiplosis, progressio, synesthesia, personification, schesis onomaton, paradox, hyperbole, adynaton and the rest \u2014 that fit the memory receptors of the human brain. Covers end-to-end composition in his method, line-forging through the full catalog, first-paragraph voice establishment, whole-piece ornament placement, run-up editing, and the practice-scales regimen. Grammar and glamour are the same word: a grammar was something written, a glamour was a spell.",
     "when_to_use": "",
-    "mtime": 1786001789.455353,
+    "mtime": 1786059434.9921637,
     "slash": "/mark-forsyth-rhetoric",
     "routing": "",
     "status": ""
@@ -3744,7 +3744,7 @@
     "directory": "video-studio",
     "description": "The Edit Bay \u2014 in-house conversational video studio (VOX-style explainers, documentaries, shorts, LinkedIn video). Transcript-driven cutting, B-roll ladder, motion graphics as code, captions, music, publish-ready packages \u2014 all agent-operated, free-first. Use when Farrice says \"edit this video/footage\", \"make an explainer/documentary/short\", \"cut this recording\", \"add B-roll/captions/music\", \"turn this essay/post into a video\", or any video production ask. Front door for three modes: talking-head, VO-only, zero-camera (his recorded VO + assembled visuals \u2014 NO voice clone, NO TTS narration, his ruling 2026-08-06). Source: Brad Bonanno agentic edit pipeline (extractions/brad-bonanno-edit-bay/), rebuilt on the house stack: WhisperX local + edit_bay.py ffmpeg assembly + HyperFrames/Remotion graphics + /generate (fal) \u2014 NO Higgsfield (retired 2026-08-06).",
     "when_to_use": "",
-    "mtime": 1786048453.0265326,
+    "mtime": 1786051032.0312731,
     "slash": "/video-studio",
     "routing": "",
     "status": ""

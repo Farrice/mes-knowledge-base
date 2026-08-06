@@ -540,6 +540,48 @@
       "moved_at": "2026-07-09T03:13:20+00:00",
       "project": "health-performance-ip-library"
     },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/ADOPTERS.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/ADOPTERS.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CODE_OF_CONDUCT.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CODE_OF_CONDUCT.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CONTRIBUTING.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CONTRIBUTING.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/CREDITS.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/CREDITS.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/DOCS_GUIDELINES.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/DOCS_GUIDELINES.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/SECURITY.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/04-deliverables/SECURITY.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
+    "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/skills-manifest.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/hyperframes-studio/06-system/skills-manifest.json",
+      "lifecycle": "system",
+      "moved_at": "2026-08-06T23:42:27+00:00",
+      "project": "hyperframes-studio"
+    },
     "/Users/farricecain/Google Antigravity/_active/jen-listings/CANON.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/jen-listings/04-deliverables/CANON.md",
       "lifecycle": "deliverable",
@@ -2071,6 +2113,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-06T13:04:27+00:00",
+  "updated_at": "2026-08-06T23:42:27+00:00",
   "version": 1
 }

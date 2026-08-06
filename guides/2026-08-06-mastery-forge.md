@@ -2,41 +2,83 @@
 date: 2026-08-06
 session: mastery-forge
 tier: operator-guide
-status: stub  # written deterministically by end_session_closeout.py — ENRICH to the
-              # docs/ROOT-CORE-OPERATOR-GUIDE.md format, then set status: enriched
+status: enriched
 ---
 
 # Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born) — What We Built 2026-08-06 and How to Use It
 
-> STUB — auto-filed by the closeout spine so this session is never uncovered.
-> Enrich per guides/FORMAT.md (exemplar: docs/ROOT-CORE-OPERATOR-GUIDE.md): 10-line
-> payload block, command table, mental model, per-capability sections with honest
-> edges. Update guides/INDEX.md and stamp operator_guide_sync.py record.
+> One session took "could a meta-agent master a domain and run in production?" from question to standing system: the Oracle (a betting master under a falsifiable graduation exam) with a live clickable cockpit, an event layer that lets the outside world wake the harness, weekly self-improvement cards, and the god-agent offer uncaged with plain-terms positioning. Companions: `_active/mastery-forge/INDEX.md` (doctrine + decisions) · `01-research/gate-baseline.md` (ledger truth) · `02-offer/` (positioning, demo kit, red-team) · living plan `~/.claude/plans/i-need-you-to-joyful-fountain.md`.
 
-## Session snapshot
+## ⚡ If you only read 10 lines
 
-- **Completed:** (see session state archive)
-- **Remaining:** WNBA port, calibration layer, CLV data accrual; god-agent first instance awaits Farrice's Chris text
+1. `/oracle-board` — the live cockpit. Buttons act instantly when served; they copy commands when static.
+2. Drop ANY file into Desktop **"Agent Inbox"** → mission card in ≤30 min → worked overnight at 2 AM → result in `processed/`.
+3. Graduation gate: `python3 execution/live_trader.py check` — 200+ PROSPECTIVE bets, >53%, positive CLV, calibrated. Currently **NO-GO, 38/200**. Backfills never count.
+4. Before any game's tip-off: `python3 execution/paper_trader.py closes` — without it the night's bets carry no CLV.
+5. Real money stays locked until the gate says GO; you place bets yourself, always (decides-he-executes, binding).
+6. Doctrine line: **mastery is graded by falsifiable tests reality can check — never by a critic agent.**
+7. To a buyer, never say "god agent" — say **"an AI employee that knows your whole business"** (`02-offer/positioning-plain-terms.md`).
+8. First god-agent move is the Chris text (§7 of the positioning file) — a $0 two-week proof install, you send it.
+9. Everything built today runs at **$0**; the only metered touch (closing-line capture) shows its remaining quota on the cockpit.
+10. Two one-time setups pending on you: `gws auth login` (email/calendar sensing) · ntfy app + `NTFY_TOPIC=` in `.env` (phone pings).
 
-## Operator assets changed this cycle (20)
+## Command table
 
-- `.agent/workflows/enchant.md`
-- `.agent/workflows/high-taste-writing-os.md`
-- `.agent/workflows/mark-forsyth-announcer-map.md`
-- `.agent/workflows/mark-forsyth-classify-the-job.md`
-- `.agent/workflows/mark-forsyth-enchantment-audit.md`
-- `.agent/workflows/mark-forsyth-forge-memorable-line.md`
-- `.agent/workflows/mark-forsyth-paradox-forge.md`
-- `.agent/workflows/mark-forsyth-pull-through-architecture.md`
-- `.agent/workflows/mark-forsyth-repetition-forge.md`
-- `.agent/workflows/mark-forsyth-rhythm-and-sound.md`
-- `.agent/workflows/mark-forsyth-run-up-rewrite.md`
-- `.agent/workflows/mark-forsyth-sensory-transfer.md`
-- `.agent/workflows/mark-forsyth-symmetry-forge.md`
-- `.agent/workflows/mark-forsyth-word-world-wedge.md`
-- `.agent/workflows/writers-room.md`
-- `directives/feedback-ratchet.md`
-- `directives/quality_gate.md`
-- `skills/mark-forsyth-rhetoric/SKILL.md`
-- `skills/mark-forsyth-rhetoric/workflows/01-forge-memorable-line.md`
-- `skills/mark-forsyth-rhetoric/workflows/04-write-to-enchant.md`
+| Command | Produces | Reach for it when |
+|---|---|---|
+| `/oracle-board` | Live cockpit at `http://127.0.0.1:8765/oracle` (serve-first) | Checking the Oracle, or demoing to anyone |
+| `python3 execution/oracle_dashboard.py --open` | Static cockpit render ($0, no server) | Server off, or scripting a refresh |
+| `python3 execution/live_trader.py check` | Go/No-Go gate readout, prospective-only | Weekly, or after any slate settles |
+| `python3 execution/paper_trader.py closes` | Closing lines + CLV for pending bets | Near tip-off on any slate night |
+| `python3 execution/paper_trader.py status` | Exam ledger dashboard (terminal) | Quick numbers without the browser |
+| `python3 execution/event_listener.py poll` | Mission cards from inbox/gmail/calendar | Manually flushing the drop zone |
+| `python3 execution/notify.py send "T" "body"` | Mac notification + phone (if ntfy set) | Any script that should ping you |
+| `python3 execution/weekly_cards.py mint` | Harness-evals + verdict-to-diff cards | Normally never — launchd runs it Sun 8 PM |
+| `python3 execution/pulse_serve.py --open` | The live server (port 8765, 2h idle exit) | Powering oracle/pulse/room buttons |
+
+## The mental model
+
+**1. The forge is an exam, not a teacher.** The Oracle "masters" betting the only way mastery can be verified: a prospective ledger reality grades nightly. The gate (bets, hit rate, CLV, calibration) is the entire difference between this and the 92% of bettors who lose. When it passes, it earns production; until then, paper. The same shape ports to any future domain: intake → fan-out learning → falsifiable exam → graduation → production.
+
+**2. The harness now has senses and a face.** Before today it only woke on the clock. The event listener gives it senses (drop zone live; email/calendar dormant pending one re-auth); the Oracle cockpit gives it a face — and the face's best feature is the FAIL badge, because a system that shows its failures is the only kind a stranger can trust. That sentence is also the god-agent sales pitch.
+
+**3. Backfills are the enemy.** The day's biggest find: 226 of 264 "settled bets" were retroactive reconstructions inflating the record. Prospective-only counting is now enforced in code. Generalized: any self-graded metric in this system must be forward-logged or it doesn't count.
+
+## Capability: The Oracle cockpit (Board v2)
+
+**What it is.** A static HTML page (`.agent/oracle/oracle-dashboard.html`, house ag-tokens, dark-mode aware) generated by `execution/oracle_dashboard.py`, served live by `execution/pulse_serve.py` at `/oracle`. Live mode adds: 3 allow-listed actions (`oracle-closes`, `oracle-gate`, `oracle-note`) POSTed to `/action`, a system-activity strip (queued/done cards click-to-open, listener runs), 5s auto-reload when regenerated, demo mode (blurs dollars), drill-down bet receipts, conf-bar table filtering, ROI splits by prop/direction, lane waiting room, Odds API quota readout.
+**When to reach for it.** Any "how's the Oracle doing," any demo to a human, any night you run a slate.
+**When NOT to.** Scripted checks — `live_trader.py check` is cheaper than a browser.
+**Worked example.** The ROI-splits panel immediately surfaced that the record's profit is all unders (+31.9% ROI) while overs lose (−11.4%) — matching the research brief's 4Q-pace-compression edge.
+**Honest edges.** Curve uses ledger order (backfill dates are messy); CLV panel is empty until a live lane exists; quota shows UNCONFIRMED until the first API call writes `.agent/odds-api-quota.json`; a stale pre-edit server will serve old routes — kill port 8765 if `/ping` lacks `oracle_mtime`.
+
+## Capability: Event layer (senses)
+
+**What it is.** `execution/event_listener.py` on a 30-min launchd (`com.antigravity.event-listener`): watch-folder `.agent/inbox/` (Desktop symlink "Agent Inbox") mints a T1 mission card per dropped file; gmail/calendar pollers mint daily digest/prep cards once `gws auth login` grants scopes. Cards run unattended at 2 AM under `mission_runner.py`'s existing refusal net (nothing publishes/sends/spends).
+**When to reach for it.** Any half-thought, screenshot, or task you'd otherwise lose — drop it and sleep.
+**When NOT to.** Anything needing your judgment mid-flight — that's a session, not a card.
+**Honest edges.** gws tokens expire ~7 days (known issue) — gmail/calendar degrade to SKIPPED notes, never crash; each inbox file mints its own card, so a 50-file dump mints 50 cards.
+
+## Capability: Weekly self-improvement cards
+
+**What it is.** `execution/weekly_cards.py` (launchd `com.antigravity.weekly-harness-cards`, Sun 8 PM) mints two T1 cards: harness behavioral evals (6 evals in `evolution_store/harness_evals/eval_set_v1.md` — router fires, mirror fires, slop-ban catches, refusal net parks, register holds, memory recalls) and verdict-to-diff (last 7d low-composite finalizes + fresh feedback memories → PROPOSED skill diffs in `evolution_store/proposed-diffs/`, human-approved, never auto-applied).
+**When NOT to.** Don't hand-run unless testing; idempotent per ISO week.
+**Honest edges.** Eval grading is the 2 AM model's judgment — expect calibration drift until a few scorecards exist; verdict-to-diff mints nothing on quiet weeks by design.
+
+## Capability: God-agent offer kit (uncaged)
+
+**What it is.** `_active/mastery-forge/02-offer/`: red-team (steel-man $10K Company Agent Install + $2K/mo retainer; SEQUENCE verdict superseded by Farrice's overrule + the warm-network fact), Miller one-liner positioning with 5 variants + per-instance versions (Chris restaurants / dog business / title shop), the Chris 2-week proof-install scope + send-ready text, and the 10-minute demo kit (cockpit + Agent Inbox as the two surfaces).
+**When to reach for it.** Before any conversation about building an agent for someone.
+**When NOT to.** Cold outreach — the whole design rides warm deploys; and never the internal vocabulary with buyers.
+**Honest edges.** Zero external instances exist yet; the offer's proof depends on instance #2 (Chris) actually running.
+
+## Composition options (never forced)
+
+| Stack | When it earns its cost |
+|---|---|
+| Cockpit (demo mode) + demo kit | Any pitch to the interested friend or a warm owner |
+| Slate night: `/picks-tonight` → `closes` → `/picks-review` → cockpit refresh | Once WNBA (or NBA in Oct) lines flow |
+| Inbox drop + notify | Capture-anything workflow away from the desk |
+| Track-record-as-content (plan Part 3F) | Only AFTER graduation — receipts posts, never picks-selling |
+
+**Parallel-session note:** the Forsyth/enchantment workflows in this cycle's changed-assets sweep belong to the same-day Codex session (writing OS), not this thread — see that session's own trail.
