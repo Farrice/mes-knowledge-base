@@ -111,8 +111,9 @@ ACTORS = {
     # Content & Knowledge Work Expansion (added 2026-08-05)
     "linkedin-search": {"id": "harvestapi/linkedin-profile-search", "pricing": "pay_per_event"},
     "linkedin-posts":  {"id": "apimaestro/linkedin-profile-posts",  "pricing": "pay_per_event"},
-    "twitter":         {"id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest", "pricing": "pay_per_result", "cost_per_result": 0.00018},
-    "facebook-ads":    {"id": "curious_coder/facebook-ads-library-scraper", "pricing": "pay_per_event"},
+    "twitter":         {"id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest", "pricing": "per_result", "cost_per_result": 0.00025},
+    "facebook-ads":    {"id": "curious_coder/facebook-ads-library-scraper", "pricing": "pay_per_event", "memory_mb": 512},
+    "threads-search":  {"id": "jungle_synthesizer/threads-search-scraper",  "pricing": "per_result", "cost_per_result": 0.0005},
 }
 
 API_URL_TEMPLATE = "https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items"
@@ -315,7 +316,8 @@ def run_actor(
     try:
         response = requests.post(
             url,
-            params={"token": token, "timeout": 90, "memory": 1024},
+            params={"token": token, "timeout": 90,
+                    "memory": ACTORS[actor_key].get("memory_mb", 1024)},
             json=run_input,
             timeout=180,
         )
@@ -890,9 +892,12 @@ def cmd_linkedin_search(args):
         }, indent=2))
         return
 
+    # Real schema (verified 2026-08-05): searchQuery (str), maxItems (int),
+    # profileScraperMode ("Short"|"Full"|"Full + email search") — Short is the cheap tier.
     run_input = {
-        "query": args.query,
-        "limit": args.limit,
+        "searchQuery": args.query,
+        "maxItems": args.limit,
+        "profileScraperMode": "Short",
     }
     result = run_actor(
         "linkedin-search",
@@ -920,14 +925,15 @@ def cmd_linkedin_posts(args):
         }, indent=2))
         return
 
-    # Accept URL or bare ID
-    profile = args.profile
-    if not profile.startswith("http"):
-        profile = f"https://www.linkedin.com/in/{profile}/"
-
+    # Real schema (verified 2026-08-05): username (str, required — bare name or full URL),
+    # limit (1-100 per page), total_posts (auto-pagination). Unknown fields are silently
+    # ignored and the actor then returns a full 100-post page (~$0.20) — keep limit honest.
+    profile = args.profile.rstrip("/")
+    if "linkedin.com" in profile:
+        profile = profile.split("/in/")[-1].split("/")[0] if "/in/" in profile else profile
     run_input = {
-        "profileUrls": [profile],
-        "maxPosts": args.limit,
+        "username": profile,
+        "limit": max(1, min(args.limit, 100)),
     }
     result = run_actor(
         "linkedin-posts",
@@ -992,13 +998,50 @@ def cmd_facebook_ads(args):
         }, indent=2))
         return
 
+    # Real schema (verified 2026-08-05): urls (array of Ads Library URLs, required),
+    # count (total records), limitPerSource, scrapeAdDetails. Build the search URL from the query.
+    from urllib.parse import quote
+    search_url = (
+        "https://www.facebook.com/ads/library/?active_status=all"
+        f"&ad_type={args.ad_type}&country=US&q={quote(args.query)}&search_type=keyword_unordered"
+    )
+    count = max(args.limit, 10)  # actor rejects runs with "maximum charged results" < 10
     run_input = {
-        "searchTerm": args.query,
-        "adType": args.ad_type,
-        "limit": args.limit,
+        "urls": [{"url": search_url}],  # RequestListSources shape — bare strings are rejected
+        "count": count,
+        "limitPerSource": count,
+        "scrapeAdDetails": False,
     }
     result = run_actor(
         "facebook-ads",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
+def cmd_threads_search(args):
+    """
+    jungle_synthesizer/threads-search-scraper: scrape Threads posts via keyword search.
+    Real schema: query (str), maxItems (int). ~$0.50/1k posts, no login.
+    Usage:
+        python execution/apify_client.py threads-search "ai consulting" --limit 30
+    """
+    if not args.query:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "threads-search requires a search query.",
+            "items": []
+        }, indent=2))
+        return
+
+    # Real schema (verified 2026-08-05): keywords (array, required), maxItems (int, required)
+    run_input = {"keywords": [args.query], "maxItems": args.limit}
+    result = run_actor(
+        "threads-search",
         run_input,
         args.limit,
         max_cost=args.max_cost,
@@ -1147,6 +1190,11 @@ def main():
     pfb_ads.add_argument("--limit", type=int, default=50)
     _add_pay_per_event_args(pfb_ads)
 
+    pthreads = sub.add_parser("threads-search", help="Threads keyword search (~$0.50/1k posts)")
+    pthreads.add_argument("query", help="Search query")
+    pthreads.add_argument("--limit", type=int, default=30)
+    _add_pay_per_event_args(pthreads)
+
     args = p.parse_args()
 
     handlers = {
@@ -1174,6 +1222,7 @@ def main():
         "linkedin-posts":  cmd_linkedin_posts,
         "twitter":         cmd_twitter,
         "facebook-ads":    cmd_facebook_ads,
+        "threads-search":  cmd_threads_search,
     }
     handlers[args.cmd](args)
 
