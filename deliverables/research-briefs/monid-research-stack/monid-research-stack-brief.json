@@ -10,7 +10,12 @@
   "footer_left": "ANTIGRAVITY RESEARCH · PILOT",
   "footer_right": "farrice cain",
   "run_cost_usd": 0.0,
-  "stack": ["/watch frames", "yt-dlp captions", "web search", "local trackers"],
+  "stack": [
+    "/watch frames",
+    "yt-dlp captions",
+    "web search",
+    "local trackers"
+  ],
   "sections": [
     {
       "kind": "summary",
@@ -71,11 +76,41 @@
       "tag": "AUG 2026 · 29 RUNS",
       "caption": "same scale · runs this month by actor · reddit dominates, linkedin impossible",
       "series": [
-        { "label": "reddit", "note": "15 runs — the workhorse", "values": [15] },
-        { "label": "youtube", "note": "6 runs", "values": [6] },
-        { "label": "tiktok (sc)", "note": "6 runs across sc-tiktok + hashtag", "values": [6] },
-        { "label": "instagram + web", "note": "2 runs", "values": [2] },
-        { "label": "linkedin", "note": "0 runs — no actor exists", "values": [0] }
+        {
+          "label": "reddit",
+          "note": "15 runs — the workhorse",
+          "values": [
+            15
+          ]
+        },
+        {
+          "label": "youtube",
+          "note": "6 runs",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "tiktok (sc)",
+          "note": "6 runs across sc-tiktok + hashtag",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "instagram + web",
+          "note": "2 runs",
+          "values": [
+            2
+          ]
+        },
+        {
+          "label": "linkedin",
+          "note": "0 runs — no actor exists",
+          "values": [
+            0
+          ]
+        }
       ]
     },
     {
@@ -126,15 +161,55 @@
       "heading": "what this *isn't*",
       "kicker": "CAVEATS WORTH KEEPING",
       "body": "This is a single-day snapshot built from one creator's demo plus our local trackers. The Apify numbers and the missing-LinkedIn fact are ours and fully reliable. Monid's costs are Eddy's receipts from one report on one day — treat the $0.03 as an order of magnitude, not a quote. The catalog-coverage claim is the vendor's own copy and stays LIKELY until we run one paid call per endpoint we care about. Nothing here has revenue attached yet; the decision section is infrastructure, not income.",
-      "cta": { "label": "OKAY, SO WIRE IT", "href": "#deploy-blocks" }
+      "cta": {
+        "label": "OKAY, SO WIRE IT",
+        "href": "#deploy-blocks"
+      }
     }
   ],
   "ledger": [
-    { "source": "Eddy Ballesteros — I Connected Claude to Monid AI (video, watched via /watch, 37 frames)", "url": "https://www.youtube.com/watch?v=PmvqIaLC6AY", "retrieved": "2026-08-05", "used_for": "workflow, brief anatomy, cost receipts, connector steps", "confidence": "VERIFIED" },
-    { "source": "monid.ai homepage", "url": "https://monid.ai/", "retrieved": "2026-08-05", "used_for": "router mechanics, 1500+ tools claim, SKILL.md setup path", "confidence": "VERIFIED" },
-    { "source": "Monid docs", "url": "https://docs.monid.ai/", "retrieved": "2026-08-05", "used_for": "skill quickstart existence", "confidence": "VERIFIED" },
-    { "source": "MOGE product listing — Monid", "url": "https://moge.ai/product/monid", "retrieved": "2026-08-05", "used_for": "catalog platform coverage (LinkedIn, X, TikTok, IG, Amazon)", "confidence": "LIKELY" },
-    { "source": ".agent/apify-usage.json (local tracker)", "url": "", "retrieved": "2026-08-05", "used_for": "spend $0.59/$29.00, 29 runs, per-actor counts", "confidence": "VERIFIED" },
-    { "source": "execution/apify_client.py ACTORS registry (local)", "url": "", "retrieved": "2026-08-05", "used_for": "17 registered actors, no LinkedIn coverage", "confidence": "VERIFIED" }
-  ]
+    {
+      "source": "Eddy Ballesteros — I Connected Claude to Monid AI (video, watched via /watch, 37 frames)",
+      "url": "https://www.youtube.com/watch?v=PmvqIaLC6AY",
+      "retrieved": "2026-08-05",
+      "used_for": "workflow, brief anatomy, cost receipts, connector steps",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "monid.ai homepage",
+      "url": "https://monid.ai/",
+      "retrieved": "2026-08-05",
+      "used_for": "router mechanics, 1500+ tools claim, SKILL.md setup path",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Monid docs",
+      "url": "https://docs.monid.ai/",
+      "retrieved": "2026-08-05",
+      "used_for": "skill quickstart existence",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "MOGE product listing — Monid",
+      "url": "https://moge.ai/product/monid",
+      "retrieved": "2026-08-05",
+      "used_for": "catalog platform coverage (LinkedIn, X, TikTok, IG, Amazon)",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": ".agent/apify-usage.json (local tracker)",
+      "url": "",
+      "retrieved": "2026-08-05",
+      "used_for": "spend $0.59/$29.00, 29 runs, per-actor counts",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "execution/apify_client.py ACTORS registry (local)",
+      "url": "",
+      "retrieved": "2026-08-05",
+      "used_for": "17 registered actors, no LinkedIn coverage",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "gdoc_url": "https://docs.google.com/document/d/14othlhwn33y00hh6WCIv0xLGNMHaks846VwRUU9d150/edit"
 }

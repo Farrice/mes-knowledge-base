@@ -17,6 +17,7 @@ If the task matches a domain below, the bound workflow is almost always the righ
 
 | Domain signal | Expected workflow | Never substitute |
 |---|---|---|
+| Content production from scratch ("content ideas for", "what should I post", "hooks for", "content angles") | `/create` Stage 2 step 0 — today's zeitgeist brief first, live pull if stale (`directives/live-data-grounding-protocol.md`) | Blank-page ideation from training memory |
 | Parallax Substack editions | `/parallax` | `writers-room` (diagnostic-on-draft only) |
 | LinkedIn post from scratch | `/ghostwrite` or Lara Acosta skill | `writers-room` (refinement only) |
 | Writers' room refinement of existing draft | `writers-room` | Production workflows |
@@ -114,6 +115,7 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `writing_harding` | /harding-perception-engine | 13 |
 | `writing_how_i_write_os` | /how-i-write | 6 |
 | `farrice_voice_alignment` | /voice-os / voice-ratchet / voice-compile / voice-audit | 12 |
+| `content_production_live_grounding` | /create / zeitgeist / briefs | 12 |
 | `social_listening_apify_first` | /social-listen / social-pulse | 13 |
 | `unified_research` | /deep-research / deep-research-swarm / deep-research-gemini / research-swarm | 10 |
 | `collective_genius` | /convene / collective-genius-council / council / roundtable / strike / campaign / deploy / jcc-deploy / assemble / expert-assembly / panel-sync | 16 |

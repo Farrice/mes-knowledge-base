@@ -171,6 +171,9 @@ def run_actor_for_target(target: Dict, lane_name: str, config: Dict) -> Optional
     if actor_key not in {"instagram", "reddit"}:
         cmd.extend(["--limit", "20"])
 
+    # Pulse runs spend from the $5/mo sub-ledger and skip (not fail) when tight
+    cmd.append("--pulse-mode")
+
     # Run the actor with pulse_mode check
     try:
         result = subprocess.run(

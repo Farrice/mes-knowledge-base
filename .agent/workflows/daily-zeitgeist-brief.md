@@ -1,5 +1,9 @@
 ---
 description: Daily morning zeitgeist brief delivered to Gmail — primes content creation by surfacing jackable angles, adjacent trends, build-in-public threads, crystal ball signals, format intelligence, client conversation gold, and personal-integration prompts. Pulls from external scan + prospect list cross-reference + conversation memory.
+status: superseded
+superseded_by: zeitgeist
+superseded_date: 2026-08-05
+superseded_reason: Never scheduled; last ran 2026-05-04. Replaced by the running /zeitgeist engine (deterministic Apify scrape on the pulse sub-budget + rendered research briefs on the asset board + Google Doc). The 11-phase email dossier ceremony is retired; jackable-angle synthesis now lives in the brief's decision layer.
 ---
 
 # `/daily-zeitgeist-brief` — Parallax Morning Engine

@@ -24,7 +24,7 @@ Every strong outcome today followed the same five-beat shape. Reproduce the shap
 | LinkedIn (Farrice) | `/farrice-engine`, `/linkedin-daily` |
 | Cold-start converting copy | `/copy-engine` (Ground Once, Refine Free) |
 | Substack | `/parallax` — never writers-room |
-| Refine an existing draft | `writers-room` (Zeitgeist Layer 0 first) |
+| Refine an existing draft | `writers-room` (Layer 0 = today's zeitgeist brief / `/create` Stage 2 signals first) |
 | Health-brand client work (Path A) | Load `/claim-safe` alongside the content engine; the finalize claim-risk scan fires automatically as backstop |
 | Image/design | `/fantastic-studio` (never hand a bare prompt to a generator), `/satori-design-think` decides |
 | Deep research | `execution/research.py` (receipt-carrying), Gemini→Perplexity→floor |

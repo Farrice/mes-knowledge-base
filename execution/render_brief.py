@@ -280,11 +280,98 @@ def render(brief):
     return tpl
 
 
+def _plain(s):
+    return re.sub(r"\*", "", str(s or ""))
+
+
+def render_markdown(brief):
+    """Agent-paste mirror of the brief. JSON stays canonical; this is the compact context form."""
+    out = [f"# {_plain(brief.get('title'))}", ""]
+    out.append(f"> {brief.get('chip', 'RESEARCH BRIEF')} · window: {brief.get('window', '—')} · "
+               f"lens: {brief.get('lens', '—')} · sources: {brief.get('sources', '—')} · "
+               f"compiled: {brief.get('compiled', '—')}")
+    if brief.get("dek"):
+        out += ["", brief["dek"]]
+    for s in brief.get("sections", []):
+        kind = s.get("kind")
+        out += ["", f"## {_plain(s.get('heading', kind))}"]
+        if kind == "evidence":
+            for r in s.get("rows", []):
+                conf = str(r.get("confidence", "UNCONFIRMED")).upper()
+                src = r.get("source_url") or r.get("source_label") or ""
+                out.append(f"- **{r.get('claim')}** [{conf}] — {r.get('evidence')} ({src})")
+        elif kind == "decision":
+            if s.get("dek"):
+                out.append(s["dek"])
+            for i, it in enumerate(s.get("items", []), 1):
+                out.append(f"{i}. **{it.get('action')}** — {it.get('why')}")
+        elif kind == "bars":
+            for x in s.get("series", []):
+                vals = x.get("values") or []
+                val = vals[0] if len(vals) == 1 else vals
+                note = f" ({x.get('note')})" if x.get("note") else ""
+                out.append(f"- {x.get('label')}: {val}{note}")
+            if s.get("caption"):
+                out.append(f"_{s['caption']}_")
+        elif kind == "deploy":
+            for b in s.get("blocks", []):
+                out += [f"**{b.get('label')}**", "```", str(b.get("text", "")), "```"]
+        else:  # summary / prose / caveats
+            if s.get("kicker"):
+                out.append(f"_{s['kicker']}_")
+            out.append(str(s.get("body", "")))
+    if brief.get("ledger"):
+        out += ["", "## Source ledger"]
+        for i, r in enumerate(brief["ledger"], 1):
+            url = f" — {r['url']}" if r.get("url") else ""
+            out.append(f"{i}. {r.get('source')}{url} (retrieved {r.get('retrieved', '?')}, "
+                       f"{str(r.get('confidence', 'UNCONFIRMED')).upper()}; used for: {r.get('used_for', '')})")
+    if brief.get("run_cost_usd") is not None or brief.get("stack"):
+        bits = []
+        if brief.get("run_cost_usd") is not None:
+            bits.append(f"run cost ${float(brief['run_cost_usd']):.2f}")
+        if brief.get("stack"):
+            bits.append("stack: " + " · ".join(str(x) for x in brief["stack"]))
+        out += ["", f"_{' — '.join(bits)}_"]
+    return "\n".join(out) + "\n"
+
+
+def export_gdoc(out_html, title):
+    """Upload the rendered HTML to Drive as a native Google Doc via the gws CLI.
+
+    Graceful by design: any failure (7-day OAuth expiry is the known one) returns None
+    with a one-line warning — the brief itself must never block on Google.
+    """
+    try:
+        r = subprocess.run(
+            ["gws", "drive", "files", "create",
+             "--json", json.dumps({"name": title,
+                                   "mimeType": "application/vnd.google-apps.document"}),
+             "--upload", str(out_html),
+             "--upload-content-type", "text/html"],
+            capture_output=True, text=True, timeout=120,
+        )
+        if r.returncode != 0:
+            print(f"[render_brief] WARN gdoc export failed (brief still rendered): {r.stderr.strip()[:160]}")
+            return None
+        data = json.loads(r.stdout)
+        file_id = data.get("id")
+        if not file_id:
+            print("[render_brief] WARN gdoc export returned no file id")
+            return None
+        return f"https://docs.google.com/document/d/{file_id}/edit"
+    except Exception as e:  # gws missing, timeout, bad JSON — same graceful contract
+        print(f"[render_brief] WARN gdoc export failed (brief still rendered): {e}")
+        return None
+
+
 def main():
     ap = argparse.ArgumentParser(description="Render a research-brief JSON to house-style HTML.")
     ap.add_argument("brief_json")
     ap.add_argument("--out-dir", default=None, help="override output root (default deliverables/research-briefs)")
     ap.add_argument("--open", action="store_true", help="open the rendered brief in the default browser")
+    ap.add_argument("--gdoc", action="store_true",
+                    help="also export as a native Google Doc via gws (graceful skip on auth failure)")
     args = ap.parse_args()
 
     src = Path(args.brief_json)
@@ -300,7 +387,20 @@ def main():
     if src.resolve() != out_json.resolve():
         shutil.copyfile(src, out_json)
 
+    gdoc_url = export_gdoc(out_html, _plain(brief.get("title") or slug)) if args.gdoc else None
+    if gdoc_url:
+        brief["gdoc_url"] = gdoc_url
+        out_json.write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    md = render_markdown(brief)
+    if gdoc_url:
+        md += f"\n_Google Doc: {gdoc_url}_\n"
+    (out_dir / f"{slug}-brief.md").write_text(md, encoding="utf-8")
+
     print(f"[render_brief] OK → {out_html}")
+    print(f"[render_brief] md → {out_dir / (slug + '-brief.md')}")
+    if gdoc_url:
+        print(f"[render_brief] gdoc → {gdoc_url}")
     if args.open:
         subprocess.run(["open", str(out_html)], check=False)
 

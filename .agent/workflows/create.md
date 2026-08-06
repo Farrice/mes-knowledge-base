@@ -48,11 +48,12 @@ Then read:
 
 ## Stage 2 — ZEITGEIST (live, never optional, never from training memory)
 
+0. **Today's zeitgeist brief first (free)** — check `deliverables/research-briefs/zeitgeist-*/` for a brief ≤48h old matching the topic's lane (the 06:20 engine already paid for it). Fresh brief → its evidence rows + decision layer ARE your live signals; skip step 0b. Stale/missing/off-lane → **0b: one cheap live pull** (`python3 execution/apify_client.py twitter "<topic>" --limit 30 --pulse-mode` or `threads-search`, ~$0.02) — budget-gated, and `fallback: true` means skip silently and continue with steps 1-3 (never block on it). Full protocol: `directives/live-data-grounding-protocol.md`; suppress with `--no-live`.
 1. `mcp__recall__search` on the topic — grounding cards, cite don't fabricate.
 2. `mcp__perplexity-ask__perplexity_search` with a recency filter — what's live THIS WEEK in the niche.
 3. For deeper/strategic pieces: `python3 execution/research.py "<question>"` (Gemini-primary, receipt-carrying — never Perplexity-first per `feedback_research-priority-gemini-primary`).
 
-**Output a zeitgeist brief before drafting**: 3-5 live signals, each with source + date + VERIFIED/LIKELY label, plus 1-2 tension points (what people are getting wrong right now — this is the curiosity fuel for Stage 4's open loops).
+**Output a zeitgeist brief before drafting**: 3-5 live signals, each with source + date + VERIFIED/LIKELY label, plus 1-2 tension points (what people are getting wrong right now — this is the curiosity fuel for Stage 4's open loops). Signals from step 0/0b carry their actor receipts (source URL + engagement numbers), not paraphrase.
 
 Optional novelty lens if the topic is old/saturated: `skills/kallaway-illusion-of-novelty` (front door `/novelty-forge`) or Kallaway jackpost mechanics (`skills/kallaway-content-psychology`).
 

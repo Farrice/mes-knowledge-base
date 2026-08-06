@@ -1,0 +1,51 @@
+{
+  "_doc": "Zeitgeist engine lanes (Farrice, 2026-08-05). cadence_days: 1 = daily, 3 = every 3rd day. Each pull maps to an apify_client.py CLI call: actor + positional arg + --limit. All runs carry --pulse-mode ($5/mo sub-ledger, graceful skip). Edit freely — lanes are config, never code.",
+  "lanes": {
+    "ai-consulting-linkedin": {
+      "title": "AI Consulting / LinkedIn Niche",
+      "priority": true,
+      "cadence_days": 1,
+      "brief_lens": "what's working in AI-consulting content · LinkedIn + X + Reddit",
+      "pulls": [
+        { "actor": "twitter", "arg": "AI consulting", "limit": 50 },
+        { "actor": "threads-search", "arg": "ai agents", "limit": 30 },
+        { "actor": "linkedin-search", "arg": "AI consultant", "limit": 10 },
+        { "actor": "reddit", "arg": "AI consulting", "limit": 30 }
+      ]
+    },
+    "supplement-brands": {
+      "title": "Supplement / Performance Brands",
+      "priority": false,
+      "cadence_days": 3,
+      "brief_lens": "what supplement & performance brands are running · ads + community",
+      "pulls": [
+        { "actor": "facebook-ads", "arg": "supplement brand", "limit": 10 },
+        { "actor": "twitter", "arg": "supplement marketing", "limit": 30 },
+        { "actor": "reddit", "arg": "supplement brand marketing", "limit": 30 }
+      ]
+    },
+    "ai-tools-creator": {
+      "title": "AI Tools / Creator Economy",
+      "priority": false,
+      "cadence_days": 3,
+      "brief_lens": "Claude/AI-tool zeitgeist · what creators are teaching and building",
+      "pulls": [
+        { "actor": "twitter", "arg": "Claude AI workflow", "limit": 50 },
+        { "actor": "reddit", "arg": "Claude AI", "limit": 30 },
+        { "actor": "threads-search", "arg": "ai tools", "limit": 30 },
+        { "actor": "youtube", "arg": "claude ai workflow", "limit": 5 }
+      ]
+    },
+    "jen-sfv-realestate": {
+      "title": "Jen / SFV Real Estate",
+      "priority": false,
+      "cadence_days": 3,
+      "brief_lens": "first-time-home-buyer + San Fernando Valley listing zeitgeist",
+      "pulls": [
+        { "actor": "reddit", "arg": "first time home buyer", "limit": 30 },
+        { "actor": "threads-search", "arg": "san fernando valley real estate", "limit": 20 },
+        { "actor": "twitter", "arg": "first time home buyer", "limit": 30 }
+      ]
+    }
+  }
+}

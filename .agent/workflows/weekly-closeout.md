@@ -70,6 +70,8 @@ Never present more than 5. The queue drains at ~5/week; that's the design.
 // turbo
 python3 execution/eval_harness.py calibrate --days 7
 python3 execution/recall_logger.py report --days 7
+python3 execution/apify_client.py budget-status
+python3 execution/zeitgeist_engine.py status
 ```
 
 If the inflation guardrail fires (scores clustering 8+), show the flag and the worst offender. Otherwise: one line, "calibration clean."

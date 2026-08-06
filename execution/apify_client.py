@@ -88,7 +88,10 @@ PER_RUN_CAP_USD = 5.00  # Per-run cost estimate guard (added 2026-08-05)
 # For pay_per_event actors: cost_per_result is ignored; actual cost read from Apify run object
 ACTORS = {
     # Original 7 (per_result pricing)
-    "reddit":    {"id": "trudax/reddit-scraper-lite",     "pricing": "per_result", "cost_per_result": 0.001},
+    # sync_timeout_s 150: the actor scrolls until killed on sparse queries — 90s sync
+    # window caused the long-standing TIMED-OUT-as-400 failures (root-caused 2026-08-05).
+    # Prefer dense 1-2 word queries; sparse ones may still time out (soft empty result).
+    "reddit":    {"id": "trudax/reddit-scraper-lite",     "pricing": "per_result", "cost_per_result": 0.001, "sync_timeout_s": 150},
     "instagram": {"id": "apify/instagram-scraper",        "pricing": "per_result", "cost_per_result": 0.0005},
     "tiktok":    {"id": "clockworks/free-tiktok-scraper", "pricing": "per_result", "cost_per_result": 0.004},
     "youtube":   {"id": "apidojo/youtube-scraper",        "pricing": "per_result", "cost_per_result": 0.005},
@@ -201,13 +204,20 @@ def fallback_response(reason: str) -> dict:
 # Actor Runner
 # ---------------------------------------------------------------------------
 
+# Set once in main() from the global --pulse-mode flag; run_actor falls back to it
+# when a caller doesn't pass pulse_mode explicitly. This is what routes scheduled
+# listening spend onto the $5/mo pulse sub-ledger (graceful skip) instead of the
+# global ledger — defined 2026-07-16 but never wired until 2026-08-05.
+_PULSE_MODE_DEFAULT = False
+
+
 def run_actor(
     actor_key: str,
     run_input: dict,
     max_results: int,
     max_cost: float = 0.25,
     allow_expensive: bool = False,
-    pulse_mode: bool = False
+    pulse_mode: Optional[bool] = None
 ) -> dict:
     """
     Runs an Apify actor with budget guard.
@@ -228,6 +238,9 @@ def run_actor(
             "message": f"Unknown actor: {actor_key}",
             "items": [],
         }
+
+    if pulse_mode is None:
+        pulse_mode = _PULSE_MODE_DEFAULT
 
     actor_config = ACTORS[actor_key]
     pricing_model = actor_config.get("pricing", "per_result")
@@ -313,13 +326,14 @@ def run_actor(
     actor_id = ACTORS[actor_key]["id"].replace("/", "~")
     url = API_URL_TEMPLATE.format(actor_id=actor_id)
 
+    sync_timeout = ACTORS[actor_key].get("sync_timeout_s", 90)
     try:
         response = requests.post(
             url,
-            params={"token": token, "timeout": 90,
+            params={"token": token, "timeout": sync_timeout,
                     "memory": ACTORS[actor_key].get("memory_mb", 1024)},
             json=run_input,
-            timeout=180,
+            timeout=max(180, sync_timeout + 30),
         )
         response.raise_for_status()
         items = response.json()
@@ -524,13 +538,15 @@ def cmd_reddit(args):
                           "message": "Reddit needs --subreddit or a query.",
                           "items": []}, indent=2))
         return
+    # Lean config (fixed 2026-08-05): skipUserPosts/skipCommunity=False made the actor
+    # crawl profile + community surfaces and blow the sync window — the source of the
+    # long-standing 400/TIMED-OUT failures that forced hand-logged direct-API runs.
     run_input = {
         "startUrls": start_urls,
         "maxItems": args.limit,
-        "scrollTimeout": 40,
         "skipComments": not args.comments,
-        "skipUserPosts": False,
-        "skipCommunity": False,
+        "skipUserPosts": True,
+        "skipCommunity": True,
     }
     print(json.dumps(run_actor("reddit", run_input, args.limit), indent=2))
 
@@ -1054,8 +1070,18 @@ def cmd_threads_search(args):
 # Main
 # ---------------------------------------------------------------------------
 
+def _add_pulse_arg(parser):
+    """Route this run's spend onto the pulse sub-ledger (graceful skip when tight)."""
+    parser.add_argument(
+        "--pulse-mode",
+        action="store_true",
+        help="Scheduled-listening run: use the $5/mo pulse sub-budget; skip (not fail) when tight"
+    )
+
+
 def _add_pay_per_event_args(parser):
     """Add common cost-control args to pay_per_event subparsers."""
+    _add_pulse_arg(parser)
     parser.add_argument(
         "--max-cost",
         type=float,
@@ -1110,6 +1136,9 @@ def main():
 
     pw = sub.add_parser("web", help="Generic JS-rendered web fetch")
     pw.add_argument("url")
+
+    for per_result_parser in (pr, pi, pt, py, pa, pm, pw):
+        _add_pulse_arg(per_result_parser)
 
     # New 10 Scrape Creators actors (pay_per_event pricing)
     psc_tiktok = sub.add_parser("sc-tiktok", help="TikTok scraper (scrape-creators best)")
@@ -1196,6 +1225,9 @@ def main():
     _add_pay_per_event_args(pthreads)
 
     args = p.parse_args()
+
+    global _PULSE_MODE_DEFAULT
+    _PULSE_MODE_DEFAULT = bool(getattr(args, "pulse_mode", False))
 
     handlers = {
         "budget-status":       cmd_budget_status,
