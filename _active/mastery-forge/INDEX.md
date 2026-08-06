@@ -12,7 +12,15 @@
 
 ## Structure
 - `01-research/` — gate baseline, God Agent delta memo, deep-research briefs
+- `02-offer/` — offer red-team, plain-terms positioning, demo kit
 - (folders created as populated — org rule)
+
+## Oracle: how to check on it (Farrice quick reference)
+- **`/oracle-board`** — THE surface: renders + opens the dashboard (gate, bankroll curve, CLV, sensing). $0, reads local ledgers.
+- `python3 execution/live_trader.py check` — gate verdict in the terminal.
+- `python3 execution/paper_trader.py status` — exam ledger dashboard.
+- `/picks-tonight` — nightly slate (once a live lane exists); `paper_trader.py closes` before tip-off.
+- Or just say "Oracle status" in any session.
 
 ## Tracks
 1. **God Agent harvest** — Riley Brown "They Built an AI 'God Agent' for 1,000 Employees" (HQXi4snP36I) → corpus extension of `extractions/riley-brown/` (new-video assets in `extractions/riley-brown-god-agent/`) → delta memo vs the Antigravity harness.

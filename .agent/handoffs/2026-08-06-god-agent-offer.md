@@ -1,8 +1,8 @@
 ---
 thread: god-agent-offer
-status: blocked
-resume_hint: Parked behind first collected P2M dollar (red-team ratified). Everything designed; un-park = POV post + backend upsell + instance #2
-unfinished: Sell nothing until first P2M dollar clears
+status: active
+resume_hint: UNCAGED 2026-08-06 by Farrice explicit overrule (Compass) + new fact: warm network (Chris x3 restaurants w/ owner relationship + April audit delivered, dog business, title shop) = proof instances without cold sales. Positioning package + demo kit in _active/mastery-forge/02-offer/
+unfinished: Deploy instance #2 (Chris path), demo kit to interested friend, POV content after proof
 branch: main
 pin: true
 ---

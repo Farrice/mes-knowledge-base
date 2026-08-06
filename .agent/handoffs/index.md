@@ -2,7 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
-- **2026-08-06** [god-agent-offer/blocked] [Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-god-agent-offer.md) — Parked behind first collected P2M dollar (red-team ratified). Everything designed; un-park = POV post + backend upsell + instance #2
+- **2026-08-06** [god-agent-offer/active] [Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-god-agent-offer.md) — UNCAGED 2026-08-06 by Farrice explicit overrule (Compass) + new fact: warm network (Chris x3 restaurants w/ owner relationship + April audit delivered, dog business, title shop) = proof instances without cold sales. Positioning package + demo kit in _active/mastery-forge/02-offer/
+- **2026-08-06** [execution/active] [Execution — Brief Library](2026-08-06-execution.md) — Execution — Brief Library
 - **2026-08-06** [mastery-forge/active] [Mastery Forge — Gate Baseline](2026-08-06-mastery-forge.md) — Mastery Forge — Gate Baseline
 - **2026-08-06** [directives/active] [Directives — Cli Reference](2026-08-06-directives.md) — Directives — Cli Reference
 - **2026-08-05** [linkedin-launch/active] [Linkedin Launch — Hotel Test Proof To Market 2026 08 05](2026-08-05-linkedin-launch.md) — Linkedin Launch — Hotel Test Proof To Market 2026 08 05
