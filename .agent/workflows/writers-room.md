@@ -102,6 +102,16 @@ These three compress, cut, and tighten the architecture:
 
 > **Where Ward sits in the room**: after structure (Albom/Franzen) and economy (Cole/Bayer) have done their work. He doesn't restructure — he makes the one line that has to be remembered actually memorable. The device editor on top of the clean draft.
 
+#### Mark Forsyth — The Memory Editor (line-craft / memorable-line — **alternative to Ward, never alongside him**)
+**Load**: `skills/mark-forsyth-rhetoric/lens-card.md` (card tier; fire `genius.md` on a hit)
+**Lenses**:
+- **The Misquote Test**: take the line the draft most needs remembered and ask whether someone who heard a flat paraphrase would "correct" it *into* this line. "Fly, my pretties, fly" isn't in the film; "blood, sweat and tears" isn't what Churchill said. If nobody would misquote toward your line, the line has no shape.
+- **What Shape Does the Idea Want**: totality → the Full Sweep (paired opposites, because "everybody" is too concise to stop the mind); reversal → the Mirror; one key word → the Sandwich or Shape-Shift; causal chain → the Staircase; a truth they'll resist → the Koan.
+- **The Concision Trap**: every abstract totality word ("everybody," "seamless," "comprehensive") is a felt totality that got compressed — and a Full Sweep waiting to happen.
+- **Instruction or Memory**: classify the job before treating. "Omit needless words" applied to a line whose needless words *are* the mechanism means the wrong job was diagnosed.
+
+> **Ward or Forsyth — pick ONE per passage.** They occupy the same altitude and their calibrations conflict on purpose: Ward's master rule is restraint ("if they notice the technique, it's bad technique"); Forsyth's position is that under-ornamentation is the live risk ("I've never seen somebody overusing the figures of rhetoric"). Averaging them gives a passage two contradictory ceilings and it will read as neither. **Choose Ward when the line must land as a *punch*** — register, end-weight, a hard final syllable. **Choose Forsyth when the line must be *repeated*** — when a stranger should misquote the flat version into yours. Full split: `skills/mark-forsyth-rhetoric/references/lane-contract.md`.
+
 #### Dan Wang — The Analytical-Texture Editor (optional, long-form / analytical-essay drafts)
 **Load** (only when the draft is an analytical essay, annual letter, or research-dense long-form piece): `skills/dan-wang-literary-analysis/genius.md`
 **Lenses**:

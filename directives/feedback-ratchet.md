@@ -142,6 +142,7 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-08-06 (chain_runner finalize for video-studio) |
+| **Last Activated** | 2026-08-06 (chain_runner finalize for mark-forsyth-rhetoric) |
 | **Activation Count** | 839 |
 
 **Phase 2**: PRIMED, not cycling (corrected 2026-07-02 audit — the 2026-03-30 run was a one-off, not a loop). Candidates via `skill_evolution_candidates.py scan`; run `/skill-evolution <candidate>` after the E3 bake-off calibrates the eval set.

@@ -35,7 +35,7 @@ The composition spine. Every mission runs top-down through the layers it needs. 
 | **3** | **The right NONFICTION mid-layer** (pick ONE) | **Browder** `/browder-drama-excavation` · **Orlean** `/orlean-telling-subject` · **Wang** `/literary-cornerstone-sprint` · **Albom** `/albom-gravedigger-angle` | When the material is real-world. Pick exactly one by the Lane Map: dry/high-stakes/adversarial → Browder; overlooked subject seduced via curiosity → Orlean; dense analysis into voice → Wang; one human truth via a margin figure → Albom. |
 | **3-alt** | **The right FICTION / narrative mid-layer** | **Pressfield** (narrative physics) · **Wright Thompson** (lyric long-form immersion) · **Hawley** (season arc) | When the work is invented narrative or immersive long-form rather than analytical/investigative. |
 | **4** | **The right SCENE + VOICE layer** (pick ONE primary) | **Connelly** `/connelly-rewrite` (economy/momentum/telling detail) · **Harding** `/harding-perception-engine` (lyric perception, luminous description) · **Ocean** `/estrangement-engine` (defamiliarization / anti-slop voice) · **Shukman** `/shukman-concrete-doorway` (wonder/presence/sincerity) · **Roth** (scene + line craft) | The body-voice owner. This is the one author whose fingerprint the prose carries. Pick by the Lane Map — do NOT stack two perception experts on the same passage. |
-| **5** | **Memorable line / rhetoric** | **Ward Farnsworth** — `/ward-rhetorical-engine` (front door, diagnoses then deploys ONE device), `/ward-saxon-punch`, `/ward-aphorism-forge` | When a line has to be remembered, repeated, or land like a punch — closer, hook, tagline, kicker, the quotable thesis. Diagnose, then deploy ONE device. Never stack devices. |
+| **5** | **Memorable line / rhetoric** (pick ONE owner) | **Ward Farnsworth** — `/ward-rhetorical-engine` (front door), `/ward-saxon-punch`, `/ward-aphorism-forge` · **Mark Forsyth** — `/enchant`, `/forsyth-figure-diagnostic`, `/forsyth-repetition-forge`, `/forsyth-symmetry-forge` | When a line has to be remembered, repeated, or land like a punch — closer, hook, tagline, kicker, the quotable thesis. Diagnose, then deploy ONE device. Never stack devices, and **never run both owners on the same passage** — see the Lane Map. |
 | **6** | **Distribution / positioning** | **Lulu Cheng Meservey** — `/lulu-m3-matrix`, `/lulu-reality-architect`, `/lulu-conviction-copy` | ONLY when the piece must move a market — launch, category creation, founder brand, contrarian thesis, crisis. Lulu is the strategy + conviction spine; the craft experts write the assets inside it. Skip for pure personal/literary work. |
 | **7** | **Truth pass** (ALWAYS last) | **really-real-*** (`/really-real-writing`, `/really-real-social`, `/really-real-ending`) + **Stanton clamp-audit** (`/stanton-clamp-audit`) + **prose gate** (`prose_classifier.py check`) | Every run ends here. Truth/compassion/reader-trust (really-real), no slack moment (clamp), no AI slop (deterministic classifier). The gate that ships. |
 
@@ -75,6 +75,29 @@ Same rule, one altitude down: Connelly's own gate is the "Good Place to Stop" te
 |--------|------|-------------------------------|
 | **Mitch Albom** | Theme-first emotional architecture — one human truth, the ending decided first, the feeling *earned by restraint* so it "cuts the flesh" (gravedigger angle, loss architecture). | The target feeling is meaning/grief/love/legacy — "it made me think about my own life." Over Shukman when the emotion is human relationship and mortality, carried by a margin figure. |
 | **Henry Shukman** | Wonder/awe/presence — reopening the reader to the wonder of *ordinary reality* through one exact perceivable particle, in total sincerity. | The target feeling is awe/aliveness/the sublime, carried on a concrete sensory doorway, never on the cosmic. Over Albom when the subject is presence and perception, not human loss and meaning. |
+
+### Memorable line — Farnsworth vs Forsyth (Layer 5)
+
+Layer 5 had one owner until 2026-08-06 and therefore no decision. It now has two, and the OS must pick one
+per passage. **This is the sharpest collision in the whole Lane Map, because the two experts' calibrations
+genuinely contradict each other** — and the contradiction is preserved on purpose rather than averaged
+(dissent-preserved expert output).
+
+Farnsworth's master rule is restraint: "If they notice the technique, it's bad technique" — one well-placed
+device beats five, used "sparingly, like an exclamation point" (`skills/ward-farnsworth-rhetorical-mastery/lens-card.md`).
+Forsyth, asked directly whether people overuse the figures, answered: "No, no, no. I've never seen somebody
+overusing the figures of rhetoric" (2024 Perell interview), and in 2026 conceded a ceiling exists while
+insisting almost nobody is near it — "those first few flakes of chili are always going to be good."
+
+A passage treated by both inherits two incompatible ceilings and will read as neither.
+
+| Expert | Owns | Choose over the neighbour when… |
+|--------|------|-------------------------------|
+| **Ward Farnsworth** | *How should this sentence sound* — Saxon/Latinate register contrast, the Saxon punch, end-weight engineering, the aphorism forge, device diagnosis, the apprenticeship loop. | The line must land as a **punch**. The problem is register, cadence, and which hard syllable ends the sentence. Test: would moving any other word to the end weaken it? |
+| **Mark Forsyth** | *What shape does this idea want* — the 24-figure memory-receptor catalog, false-memory mechanics, enchantment-vs-efficiency triage, voice as establishing shot, the practice regimen. | The line must be **repeated**. The problem is that the idea has no shape a brain will keep. Test: would a listener "correct" a flat paraphrase *into* this line? |
+
+**Never run `/enchant` and Layer 5 on the same passage.** `/enchant` is the single-author alternative to this
+whole OS, not a stage inside it — see `skills/mark-forsyth-rhetoric/references/lane-contract.md`.
 
 ---
 

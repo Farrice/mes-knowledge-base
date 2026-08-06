@@ -130,3 +130,9 @@ _archive/*.tar.gz
 # Edit Bay: local binaries + sandboxed clones (2026-08-06)
 tools/bin/
 _active/hyperframes-studio/
+
+# Session lock is per-working-tree RUNTIME state — never tracked (2026-08-06).
+# Scar: it was committed, so every `git worktree add` was born holding a phantom
+# lock from whichever session last committed it, and session_lock.py claim
+# BLOCKED in a brand-new worktree that no session was writing to.
+.agent/session.lock

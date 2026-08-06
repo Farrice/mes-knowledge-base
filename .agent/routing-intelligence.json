@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 174,
+            "total_routings": 172,
             "total_feedback": 7,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,7 +462,7 @@
                 "Content": 6,
                 "Analysis": 3,
                 "alex-copper-creative-strategy": 1,
-                "System": 12,
+                "System": 11,
                 "supercomputer": 6,
                 "Creative": 1,
                 "Strategy": 5,
@@ -498,7 +498,7 @@
                 "kallaway-social-commerce": 2,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 8,
+                "Extraction": 9,
                 "nate-b-jones-context-engineering": 17,
                 "ethan-smith-aeo": 1,
                 "riley-brown-marketing-automation": 2,
@@ -513,9 +513,7 @@
                 "dr-kriukow-humanization": 1,
                 "brand-operating-system": 2,
                 "dave-clark": 1,
-                "forge-os": 1,
-                "story-compass": 1,
-                "grace-liu": 1
+                "forge-os": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 4,
@@ -539,7 +537,7 @@
                 "ben-watkins-storytelling": 10,
                 "RoboNuggets source-to-skill": 1,
                 "creative-direction": 3,
-                "hilary-gridley": 2,
+                "hilary-gridley": 1,
                 "kallaway-illusion-of-novelty": 11,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
@@ -615,13 +613,10 @@
                 "seena-rez-tiktok-commerce": 1,
                 "alex-content-science": 1,
                 "forge-os": 1,
-                "brad-bonanno": 1,
-                "story-compass": 1,
-                "claim-safe-health-marketing": 1,
-                "grace-liu": 1
+                "mark-forsyth": 1
             },
             "tier_counts": {
-                "0": 174,
+                "0": 172,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -629,10 +624,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 126,
+                "hybrid": 124,
                 "finalize-auto": 48
             },
-            "ensemble_count": 97,
+            "ensemble_count": 94,
             "auto_miss_count": 6,
             "auto_match_count": 1
         }
@@ -3694,56 +3689,20 @@
             "feedback": "fb_20260806_202514_1bf5"
         },
         {
-            "routing_id": "rt_20260806_204456_5fbc",
-            "timestamp": "2026-08-06T20:44:56.572739+00:00",
+            "routing_id": "rt_20260806_211645_ad17",
+            "timestamp": "2026-08-06T21:16:45.215547+00:00",
             "session_id": "",
-            "request_summary": "Edit Bay video studio: Bonanno pipeline watched (54 frames) + MES 3.0 extraction; built transcribe_local.py (WhisperX), edit_bay.py (7 subcommands), video_qa.py, broll_source.py, skills/video-studio (",
-            "intent_score": 4,
-            "domain_detected": "System",
+            "request_summary": "Mark Forsyth — memorable-language mastery forge + Enchantment OS",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
             "experts_deployed": [
-                "brad-bonanno"
+                "mark-forsyth"
             ],
             "tier_loaded": 0,
             "mode": "finalize-auto",
-            "workflow_used": "extract-and-build",
-            "ensemble": true,
+            "workflow_used": "extract-forge",
+            "ensemble": false,
             "compound_pairing": null,
-            "feedback": null
-        },
-        {
-            "routing_id": "rt_20260806_211255_8b9f",
-            "timestamp": "2026-08-06T21:12:55.976037+00:00",
-            "session_id": "76e53886-a6b0-4043-934a-6d661cc2bbba",
-            "request_summary": "trying to tell me with the flagging of the slash command.md, are you saying that not all the commands are present, or what's the point of you telling me that?",
-            "intent_score": 0,
-            "domain_detected": "story-compass",
-            "experts_deployed": [
-                "story-compass",
-                "claim-safe-health-marketing"
-            ],
-            "tier_loaded": 0,
-            "mode": "hybrid",
-            "workflow_used": "story-compass",
-            "ensemble": true,
-            "compound_pairing": "story-compass + claim-safe-health-marketing",
-            "feedback": null
-        },
-        {
-            "routing_id": "rt_20260806_211546_a433",
-            "timestamp": "2026-08-06T21:15:46.120360+00:00",
-            "session_id": "f8e0e074-2426-4eeb-b569-cfb667b1ceb5",
-            "request_summary": "the expert spoke about certain additional skills that were wired into this workflow that made it work so well, like:\n- a taste skill\n- a front end skill\n- a handful of other skills\n- a verified skill ",
-            "intent_score": 0,
-            "domain_detected": "grace-liu",
-            "experts_deployed": [
-                "grace-liu",
-                "hilary-gridley"
-            ],
-            "tier_loaded": 0,
-            "mode": "hybrid",
-            "workflow_used": "grace-liu",
-            "ensemble": true,
-            "compound_pairing": "grace-liu + hilary-gridley",
             "feedback": null
         }
     ]

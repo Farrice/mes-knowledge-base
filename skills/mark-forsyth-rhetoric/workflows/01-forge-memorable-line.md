@@ -2,10 +2,18 @@
 name: forge-memorable-line
 produces: A line rebuilt through 2-4 candidate figures of rhetoric, winner named, memory-mechanism explained
 expert: Mark Forsyth
-load_context: genius.md
+load_context: genius.md, references/figure-catalog.md
 ---
 
 # Forge a Memorable Line
+
+> **Scope note (2026-08-06 forge).** This is the quick single-line pass — diagnose and build in one motion.
+> For the full method, the catalog is now 24 figures wide: route through
+> [`07-figure-diagnostic`](07-figure-diagnostic.md) to choose, then the owning forge
+> ([`08-repetition-forge`](08-repetition-forge.md) · [`09-symmetry-forge`](09-symmetry-forge.md) ·
+> [`10-sensory-transfer`](10-sensory-transfer.md) · [`11-paradox-forge`](11-paradox-forge.md) ·
+> [`12-rhythm-and-sound`](12-rhythm-and-sound.md)). Use this workflow when one line needs fixing now;
+> use the chain when the line is load-bearing.
 
 ## Role
 

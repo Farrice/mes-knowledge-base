@@ -247,6 +247,13 @@ Before final delivery, ask:
 - Is the CTA or next step asking for trust too early?
 - Is the output impressive by receipts, not expert names?
 
+**The enchantment check** (added 2026-08-06 from the Forsyth forge — two questions, both falsifiable):
+
+- **Read it aloud.** Does any line survive being spoken — or does the tongue stumble, the breath run out, the prose flatten into monotone? Memory runs on sound; a piece that cannot be read aloud will not be remembered.
+- **The misquote test.** Take the one line this piece most needs remembered. Would someone who heard a flat paraphrase "correct" it *into* your line? If not, the line has no shape, and the fix is a figure — not more adjectives. Route to `/enchant elevate` or `skills/mark-forsyth-rhetoric/workflows/07-figure-diagnostic.md`.
+
+A structurally correct, consultant-clean, entirely unquotable draft passes every other gate on this page. These two catch it.
+
 Apply fixes before verification.
 
 ## Phase 9: Verification And Finalize

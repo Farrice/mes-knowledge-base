@@ -110,6 +110,7 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-08-06 (chain_runner finalize for video-studio) |
+| **Last Activated** | 2026-08-06 (chain_runner finalize for mark-forsyth-rhetoric) |
 | **Activation Count** | 827 |
 | **30-Day Review Date** | 2026-09-05 |
 

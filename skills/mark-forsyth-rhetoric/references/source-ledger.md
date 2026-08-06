@@ -1,33 +1,97 @@
 # Source Ledger — mark-forsyth-rhetoric
 
-Every source consulted for this repair pass, claim-by-claim, labeled VERIFIED / LIKELY / UNCONFIRMED. This skill is a BOOK-framework skill (*The Elements of Eloquence* and siblings) — the raw book text and the raw interview transcript are both deliberately absent from this repo. Ground truth for this repair = (1) the skill's own pre-existing material in `genius.md`/`SKILL.md`, which the repo's own provenance note says was built from a transcript read in an earlier session, and (2) checkable publication facts verified fresh via web search on 2026-07-18.
+Rewritten 2026-08-06 at the forge. **The defect this ledger previously recorded is fixed.**
 
-## Primary source claimed by the skill (not re-read this session)
+The 2026-07-18 version of this file stated: *"no raw source material exists for this expert in
+`extractions/`"* — the skill had been built from a transcript read in an earlier session and discarded, so
+every genius-pattern quote carried an UNCONFIRMED label that could never be resolved. Both interviews are
+now fetched and retained on disk, and every pattern has been re-adjudicated against real text.
 
-- **David Perell "How I Write" — Mark Forsyth interview.** Title "You're Using the English Language Wrong — Mark Forsyth," youtube.com/watch?v=ulhrXgpjveA. **VERIFIED** that this video exists, its title, and its channel (David Perell) via WebSearch on 2026-07-18. **UNCONFIRMED** (this session) that every genius-pattern quote inside `genius.md` is a verbatim transcript match — I did not fetch or read the transcript itself this session. `agents/mark-forsyth/memory/context.md` (repo file, 1,050 bytes per `wc -c`) records that the skill's original patterns were "extracted twice in the export (2025-05-04 and 2025-10-12 sessions)" from this interview; that provenance claim is itself **LIKELY** (consistent, internally cited, not independently re-verified against a transcript file because none exists in the repo — confirmed absent by `grep -rl "ulhrXgpjveA"` and `find -iname "*forsyth*"` across the repo, 2026-07-18, both returning only the skill/agent/command files themselves, no transcript).
-- Public-domain quotations already embedded in `genius.md` prior to this repair (Bond "James Bond," JFK inaugural chiasmus, "I came, I saw, I conquered," "Please please me," McCartney's "Here, There and Everywhere" manuscript anecdote, etc.) are **LIKELY** accurate as commonly-cited public quotations/anecdotes; not independently re-verified against primary recordings this session.
+## Primary sources — retained, re-read in full 2026-08-06
 
-## Publication facts (verified fresh, 2026-07-18, via WebSearch)
+| Source | Path | Words | Status |
+|---|---|---|---|
+| David Perell, *How I Write* — "Writing Techniques I Wish I Knew Earlier (Mark Forsyth Interview)", YouTube `6ZNCJH8jJD0`, published 2026-08-05, 1:13:49 | `extractions/mark-forsyth/2026-08-05-perell-second/transcript.txt` | 12,757 | **VERIFIED** present and read in full |
+| David Perell, *How I Write* — "You're Using the English Language Wrong — Mark Forsyth", YouTube `ulhrXgpjveA`, published 2024-07-24 | `extractions/mark-forsyth/2024-07-24-perell-first/transcript.txt` | 9,610 | **VERIFIED** present and read in full |
 
-- ***The Elements of Eloquence: How to Turn the Perfect English Phrase*** — Mark Forsyth, Icon Books, UK, 2013 (US edition: Berkley/Penguin Random House, ISBN 9780425276181). **VERIFIED** via Icon Books, PenguinRandomHouse.com, and Amazon catalog listings.
-- ***The Etymologicon: A Circular Stroll Through the Hidden Connections of the English Language*** — Mark Forsyth, Icon Books, late 2011. **VERIFIED** via Icon Books catalog and secondary coverage of the book's reception (Channel 4 / BBC 2 / Christmas bestseller coverage).
-- ***The Horologicon: A Day's Jaunt Through the Lost Words of the English Language*** — Mark Forsyth, Icon Books, 2012. **VERIFIED** via Icon Books catalog.
-- Perell "How I Write" episode title and channel — **VERIFIED** via WebSearch, 2026-07-18 (YouTube listing "You're Using the English Language Wrong — Mark Forsyth," youtube.com/watch?v=ulhrXgpjveA).
-- Exact upload date of the Perell episode (2024-07-24) — **LIKELY**, sourced from a WebSearch summary result, not opened and confirmed directly against the YouTube page's metadata this session.
+A publisher transcript of the 2026 episode also exists at
+`howiwrite.substack.com/p/mark-forsyth-stop-writing-like-they` (episode title *"Mark Forsyth: Stop Writing
+Like They Taught You in School"*, published 2026-08-05).
 
-## Repo file sizes checked this session (`wc -c`, 2026-07-18)
+## The standing caveat — read before quoting
 
-- `skills/mark-forsyth-rhetoric/SKILL.md` — 4,913 bytes
-- `skills/mark-forsyth-rhetoric/genius.md` (pre-repair) — 13,091 bytes
-- `skills/mark-forsyth-rhetoric/workflows/01-forge-memorable-line.md` — 3,931 bytes
-- `skills/mark-forsyth-rhetoric/workflows/02-establish-voice.md` — 4,071 bytes
-- `skills/mark-forsyth-rhetoric/workflows/03-train-writing-scales.md` — 5,051 bytes
-- `agents/mark-forsyth/memory/context.md` — 1,050 bytes
-- `agents/mark-forsyth/AGENT.md` — 4,710 bytes
-- `extractions/` directory — 193 entries; none match `forsyth` (checked via `grep -ril forsyth`) — **no raw source material exists for this expert in `extractions/`**, confirming the "raw book/interview text deliberately absent" framing rather than a missed-file error.
+Both retained transcripts are **YouTube auto-generated captions**, not publisher transcripts. Consequences,
+stated plainly:
 
-## Explicit UNCONFIRMED items
+- Substance is reliable. **Wording is not word-perfect.**
+- Speaker attribution is inferred from context; in a two-person interview the captions do not label turns.
+- Proper nouns are frequently garbled. Twenty corrections are catalogued in
+  `extractions/mark-forsyth/SOURCE-MANIFEST.md`.
+- **Therefore**: no line in `genius.md` may be presented as a verbatim Forsyth quotation. Lines quoted in
+  skill files are substance-accurate paraphrase-or-near-quote traceable to a specific passage. Where
+  `genius.md` uses quotation marks around Forsyth's speech, read them as "he said this, in these words, per
+  an ASR caption" — not as publishable attributed quotation. For anything going to a client or to print,
+  re-source against the Substack transcript.
 
-- Any claim that a line in `genius.md` is a word-for-word transcript quote from the Perell interview — UNCONFIRMED (transcript not present to check against).
-- The exact minute-marker or in-episode location of any Forsyth statement — UNCONFIRMED (no timestamped transcript available).
-- No line in this repair or in the pre-existing skill is presented as verbatim book prose from *The Elements of Eloquence*, *The Etymologicon*, or *The Horologicon* — all book-attributed material here is publication metadata (title/publisher/year/ISBN), not quoted book text.
+## Status of the pre-forge patterns
+
+All ten genius patterns carried over from the pre-forge skill (memory-receptor shaping, progressio, diacope,
+chiasmus, the announcer signal, tricolon, polyptoton, anadiplosis, the alliteration upgrade, voice as
+establishing shot) were checked line by line against the 2024 transcript. **All ten are confirmed present in
+the source.** The earlier extraction was accurate; it simply could not prove itself. Nothing was overturned.
+
+Fourteen figures and one thesis were added from the 2026 interview: isocolon, epistrophe, epanalepsis,
+epizeuxis, synesthesia, personification, schesis onomaton, paradox, pun-paradox, veridical paradox,
+hyperbole, adynaton, the periodic sentence (2024, previously unextracted), pull-through architecture, and
+the enchantment-over-efficiency thesis with the grammar/glamour etymology.
+
+## Corrections — an expert's on-air slip is not licence to repeat it
+
+| Claim as spoken | Correct | Basis |
+|---|---|---|
+| "Moses' **wife**… says 'I have been a stranger in a strange land'" | **Moses** says it — Exodus 2:22, naming Gershom | **VERIFIED** KJV, 2026-08-06 |
+| "we are the dreamers of dreams" attributed to a garbled name | **Arthur O'Shaughnessy**, "Ode," 1873 | **VERIFIED** Poetry Foundation, 2026-08-06 |
+| "Chile Cooper" (all-senses writing tip) | **Jilly Cooper**, novelist, 1937–2025 | **VERIFIED** Penguin/Deadline obituaries, 2026-08-06 |
+
+Full ASR correction table in the source manifest.
+
+## UNCONFIRMED — never present as verified
+
+1. **The "drop of salt water from the Golden Gate to Hong Kong" line as Dashiell Hammett's.** Targeted search
+   2026-08-06 could not locate it in *The Maltese Falcon*, *The Glass Key*, or any indexed Hammett quotation
+   set. Use only as *"a line Forsyth attributes to Hammett."*
+2. **The Russian word for a deadline burst of work.** Forsyth: "I don't really speak Russian." Do not
+   reproduce a spelling.
+3. **Churchill's exact "we shall fight" ordering.** Forsyth says on air "I forget the exact wording." Cite the
+   figure (anaphora), not the word order.
+4. **Henry VIII's last words as "monks, monks, monks."** Forsyth flags it himself — "never said that or
+   anything like it." Reproduce only as an example of memory improving phrases.
+5. **Any claim that a `genius.md` line is word-for-word Forsyth.** See the standing caveat.
+6. ***Rhyme and Reason*** publication details — discussed at length in the 2026 interview, cover art on
+   `blog.inkyfool.com`. **LIKELY** real; publisher and release date not independently verified this session.
+
+## Publication facts (carried forward, verified 2026-07-18)
+
+- ***The Elements of Eloquence: How to Turn the Perfect English Phrase*** — Icon Books, UK, 2013; US edition
+  Berkley/Penguin Random House, ISBN 9780425276181. **VERIFIED**
+- ***The Etymologicon*** — Icon Books, late 2011. **VERIFIED**
+- ***The Horologicon*** — Icon Books, 2012. **VERIFIED**
+- *The Elements of Eloquence* is a **descriptive catalog**, not a prescriptive style guide — compiled by
+  combing the British Library for where each figure had already occurred. Presenting it as "the rules"
+  misstates its own method.
+
+## Blind-pass reference corpus
+
+Two verbatim published Forsyth pieces, neither quoted anywhere in this skill (required by
+`directives/embodiment-standard.md` step 2 — the pass judges against *unseen* work):
+
+- `extractions/mark-forsyth-rhetoric/reference-corpus/substack-the-sentimental-and-how-to-write.md` (2026-07-14)
+- `extractions/mark-forsyth-rhetoric/reference-corpus/substack-cutthroat-compounds.md` (2026-06-30)
+
+Both from `markforsythauthor.substack.com`, retrieved 2026-08-06.
+`blind_pass.py prepare --expert mark-forsyth-rhetoric` → CORPUS READY.
+
+## Excluded material
+
+The 2026 transcript contains a read sponsor advertisement (Alpha School, ~250 words, including a literacy
+statistic). It is host-read sponsor copy, not Forsyth's material, and no claim inside it enters this skill.

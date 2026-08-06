@@ -1,0 +1,5 @@
+# Blind-Pass Log — mark-forsyth-rhetoric
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-08-06T14:16:11 — **PASS** — eval: EVAL-063 — generated: `extractions/mark-forsyth-rhetoric/blind-pass/generated-2026-08-06-the-thread-v2.md` — reference: `extractions/mark-forsyth-rhetoric/reference-corpus/substack-cutthroat-compounds.md` — corpus: 2 piece(s) — Judged vs 2 unseen Substack pieces (Cutthroat Compounds 2026-06-30; The Sentimental 2026-07-14). v1 FAILED recognition: earnest instructional close, thin example stacking, no named source, no gag coinage. One retry per embodiment-standard. v2 holds: OED cited by name, 7-item idiom burst matching his enumeration rhythm, dry asides, and a failed-coinage joke close echoing his own 'be a leave-comment' move. RESIDUAL GAP: v2 is still tidier than his real Substack rambling and carries a more pronounced craft turn than Cutthroat Compounds (though within range of The Sentimental). B+ not A.
