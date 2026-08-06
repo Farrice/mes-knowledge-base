@@ -1,0 +1,8 @@
+# Pulse Angle Bank — 2026-08-06 (loop run #6)
+> 4 angles from `research_outputs/market-pulse/2026-08-06-pulse.md`. Pillars: P1 Message Before the Money · P2 Claim-Safe Is a Growth Lever · P3 The Body Doesn't Read Your Deck · P4 The Sea of Same · P5 The Machine Is Reading Your Label.
+> ⚠ All 4 angles name a live Dream 100 prospect (GNC or TruHeight), not category-fodder brands — per `PROOF-TO-MARKET-OS.md`'s binding teardown rule, genericize before any public post ("a mass retailer," "a children's-supplement brand") or keep to private engagement. Filed as-is because they're the sharpest reads of this run's signals; public-ready versions still need the names pulled.
+
+1. (P4) Mondelez pulled the Sour Patch Kids flavor license from Ghost after a $1.65 billion acquisition and a lawsuit, then re-licensed the exact same flavors to a competitor within about a year — proof the differentiation asset was worth more than the relationship that built it.
+2. (P1) Ghost's $1.65 billion sale to Keurig Dr Pepper read as a win, until Mondelez sued over the fine print: the license to sell Sour Patch Kids flavors never had written approval to survive a change of ownership. The deal got done before that question got answered.
+3. (P2) TruHeight's FTC order landed as a number: four million dollars, suspended to seven hundred fifty thousand, plus a permanent ban on fake reviews. The claim that used to just sound risky is now dated, public, and priced.
+4. (P3) TruHeight sold height-growth supplements to parents of kids and teens using reviews written by its own employees and vendors. No one who actually watched a child grow ever needed a five-star review to know whether something worked.
