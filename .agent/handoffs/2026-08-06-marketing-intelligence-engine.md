@@ -1,20 +1,8 @@
-# Latest Handoff
-
-**Thread:** forsyth-enchantment-os  
-**Full path:** .agent/handoffs/2026-08-06-forsyth-enchantment-os.md  
-**Date:** 2026-08-06 (today)  
-**Status:** ready  
-**Title:** Mark Forsyth Forge — Enchantment OS Shipped (16 workflows, /enchant live, merged to main)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume forsyth-enchantment-os` for this one.
-
 ---
-
----
-thread: forsyth-enchantment-os
+thread: marketing-intelligence-engine
 status: ready
-resume_hint: /enchant elevate on the LinkedIn profile copy — misquote test on the headline first
-unfinished: Profile elevate not run; pure-vs-composed bake-off pending; Codex AGENTS.md parity for /enchant
+resume_hint: Fill listening-creators.md (10-20 real creators via /creator-aperture) then first full scout run + Organic Engine v1 pen card
+unfinished: Real creator list; Organic Engine v1; verify first unattended zeitgeist + angle-brief receipts; payment URL still blocks mission 2b
 branch: main
 pin: true
 ---
@@ -124,4 +112,3 @@ anything taste-bearing, and tell me which one you believe in before I pick.
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

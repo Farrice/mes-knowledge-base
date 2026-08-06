@@ -308,6 +308,7 @@
 
 
 ## Pending enrichment
+- [2026-08-06 — Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born)](2026-08-06-mastery-forge.md) — operator-guide stub, needs enrichment
 - [2026-08-06 — Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Benoit Vatere — Blind Pass Sample](2026-08-05-.md) — **spurious empty-slug stub** (spine derived it from `blind-pass-sample.md`, not a session); same-day sessions collide on this `<date>-.md` filename — see Forge Radar note in the Benoit guide
 - [2026-08-04 — Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped](2026-08-04-creative-generation-os.md) — operator-guide stub, needs enrichment

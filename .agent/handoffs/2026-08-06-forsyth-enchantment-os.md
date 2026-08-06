@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** forsyth-enchantment-os  
-**Full path:** .agent/handoffs/2026-08-06-forsyth-enchantment-os.md  
-**Date:** 2026-08-06 (today)  
-**Status:** ready  
-**Title:** Mark Forsyth Forge — Enchantment OS Shipped (16 workflows, /enchant live, merged to main)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume forsyth-enchantment-os` for this one.
-
----
-
 ---
 thread: forsyth-enchantment-os
 status: ready
@@ -124,4 +112,3 @@ anything taste-bearing, and tell me which one you believe in before I pick.
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

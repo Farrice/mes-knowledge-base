@@ -1,21 +1,7 @@
 {
- "ts": "2026-08-06T16:40:49.804799",
+ "ts": "2026-08-06T16:40:59.901324",
  "mode": "heal",
  "rows": [
-  {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "skill:mark-forsyth-rhetoric <- a039a0d59 2026-08-06 feat(forsyth): memorable-language mastery forge + Enchantment OS"
-    ]
-   },
-   "action": "healed",
-   "note": "skill:mark-forsyth-rhetoric <- a039a0d59 2026-08-06 feat(forsyth): memorable-language mastery forge + Enchantment OS",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -128,6 +114,13 @@
     ],
     "deferred_files": 1
    },
+   "action": "escalated"
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 11d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {
