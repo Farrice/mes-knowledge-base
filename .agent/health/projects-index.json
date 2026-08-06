@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-06T06:44:28.356533+00:00",
+  "generated_at": "2026-08-06T13:02:37.017138+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
       "name": "_ledgers",
       "root": "_active",
       "path": "_active/_ledgers",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-06-19",
-      "last_touched_source": "git",
-      "days": 47,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -27,7 +27,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-28",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 8,
       "prefix_collisions": {}
     },
@@ -86,9 +86,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-08",
-      "last_touched_source": "git",
-      "days": 28,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -101,9 +101,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-06-11",
-      "last_touched_source": "git",
-      "days": 55,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -117,7 +117,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-13",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 23,
       "prefix_collisions": {}
     },
@@ -132,7 +132,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-01",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 35,
       "prefix_collisions": {}
     },
@@ -141,14 +141,14 @@
       "name": "content-system-audit",
       "root": "_active",
       "path": "_active/content-system-audit",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-05-01",
-      "last_touched_source": "git",
-      "days": 96,
+      "last_touched": "2026-07-08",
+      "last_touched_source": "mtime",
+      "days": 28,
       "prefix_collisions": {}
     },
     {
@@ -161,9 +161,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-02",
-      "last_touched_source": "git",
-      "days": 34,
+      "last_touched": "2026-07-01",
+      "last_touched_source": "mtime",
+      "days": 35,
       "prefix_collisions": {}
     },
     {
@@ -177,7 +177,7 @@
       "entry": null,
       "index_exists": false,
       "last_touched": "2026-08-05",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 0,
       "prefix_collisions": {}
     },
@@ -186,14 +186,14 @@
       "name": "disney-crowd-app",
       "root": "_active",
       "path": "_active/disney-crowd-app",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-06-11",
-      "last_touched_source": "git",
-      "days": 55,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -207,7 +207,7 @@
       "entry": "00-start-here/DEPLOY.md",
       "index_exists": true,
       "last_touched": "2026-07-07",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 29,
       "prefix_collisions": {}
     },
@@ -221,9 +221,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-15",
-      "last_touched_source": "git",
-      "days": 21,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -236,9 +236,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-18",
-      "last_touched_source": "git",
-      "days": 18,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -251,8 +251,8 @@
       "declared_raw": "active",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-08-05",
-      "last_touched_source": "git",
+      "last_touched": "2026-08-06",
+      "last_touched_source": "mtime",
       "days": 0,
       "prefix_collisions": {}
     },
@@ -296,9 +296,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-07",
-      "last_touched_source": "git",
-      "days": 29,
+      "last_touched": "2026-07-08",
+      "last_touched_source": "mtime",
+      "days": 28,
       "prefix_collisions": {}
     },
     {
@@ -312,7 +312,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-01",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 35,
       "prefix_collisions": {}
     },
@@ -327,7 +327,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-02",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 34,
       "prefix_collisions": {}
     },
@@ -342,7 +342,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-21",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 15,
       "prefix_collisions": {}
     },
@@ -371,8 +371,8 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-08-05",
-      "last_touched_source": "git",
+      "last_touched": "2026-08-06",
+      "last_touched_source": "mtime",
       "days": 0,
       "prefix_collisions": {}
     },
@@ -402,7 +402,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-08-05",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 0,
       "prefix_collisions": {}
     },
@@ -426,14 +426,14 @@
       "name": "josh-dancewear-brand",
       "root": "_active",
       "path": "_active/josh-dancewear-brand",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-01",
-      "last_touched_source": "git",
-      "days": 35,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -447,7 +447,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-09",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 27,
       "prefix_collisions": {}
     },
@@ -456,14 +456,14 @@
       "name": "josh-swing-nerd-shirts-v1",
       "root": "_active",
       "path": "_active/josh-swing-nerd-shirts-v1",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-06",
-      "last_touched_source": "git",
-      "days": 30,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -491,8 +491,8 @@
       "declared_raw": null,
       "entry": "CAMPAIGN.md",
       "index_exists": true,
-      "last_touched": "2026-08-05",
-      "last_touched_source": "git",
+      "last_touched": "2026-08-06",
+      "last_touched_source": "mtime",
       "days": 0,
       "prefix_collisions": {
         "05": [
@@ -512,7 +512,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-24",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 12,
       "prefix_collisions": {}
     },
@@ -541,9 +541,9 @@
       "declared_raw": "parked",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-19",
-      "last_touched_source": "git",
-      "days": 17,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -556,9 +556,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-06",
-      "last_touched_source": "git",
-      "days": 30,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -572,7 +572,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-26",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 10,
       "prefix_collisions": {}
     },
@@ -586,9 +586,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-29",
-      "last_touched_source": "git-bulk-only",
-      "days": 7,
+      "last_touched": null,
+      "last_touched_source": null,
+      "days": null,
       "prefix_collisions": {}
     },
     {
@@ -611,14 +611,14 @@
       "name": "parallax-icp-offer",
       "root": "_active",
       "path": "_active/parallax-icp-offer",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-04-20",
-      "last_touched_source": "git",
-      "days": 107,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -631,9 +631,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-02",
-      "last_touched_source": "git",
-      "days": 34,
+      "last_touched": "2026-07-09",
+      "last_touched_source": "mtime",
+      "days": 27,
       "prefix_collisions": {}
     },
     {
@@ -647,7 +647,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-06-11",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 55,
       "prefix_collisions": {}
     },
@@ -677,7 +677,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-28",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 8,
       "prefix_collisions": {}
     },
@@ -707,7 +707,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-11",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 25,
       "prefix_collisions": {}
     },
@@ -722,7 +722,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-13",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 23,
       "prefix_collisions": {}
     },
@@ -766,9 +766,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-16",
-      "last_touched_source": "git",
-      "days": 20,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -791,14 +791,14 @@
       "name": "system-audit",
       "root": "_active",
       "path": "_active/system-audit",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-05-30",
-      "last_touched_source": "git",
-      "days": 67,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -812,7 +812,7 @@
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-15",
-      "last_touched_source": "git",
+      "last_touched_source": "mtime",
       "days": 21,
       "prefix_collisions": {}
     },
@@ -821,14 +821,14 @@
       "name": "system-integration",
       "root": "_active",
       "path": "_active/system-integration",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-05-28",
-      "last_touched_source": "git",
-      "days": 69,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 8,
       "prefix_collisions": {}
     },
     {
@@ -836,14 +836,14 @@
       "name": "trendscale-brief-revision",
       "root": "_active",
       "path": "_active/trendscale-brief-revision",
-      "status": "parked",
+      "status": "active",
       "status_source": "derived",
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-01",
-      "last_touched_source": "git",
-      "days": 35,
+      "last_touched": "2026-07-08",
+      "last_touched_source": "mtime",
+      "days": 28,
       "prefix_collisions": {}
     },
     {
@@ -872,11 +872,6 @@
       "kind": "dual_taxonomy",
       "project": "_active/linkedin-launch",
       "detail": "05-* collision: 05-assets + 05-lead-gen"
-    },
-    {
-      "kind": "status_done_but_live",
-      "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 7d ago"
     }
   ]
 }

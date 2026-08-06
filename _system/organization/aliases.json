@@ -450,6 +450,12 @@
       "moved_at": "2026-07-29T04:12:47+00:00",
       "project": "elevation-track"
     },
+    "/Users/farricecain/Google Antigravity/_active/farrice-brand/ANGLE-BRIEF-PROMPT.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-06T13:04:27+00:00",
+      "project": "farrice-brand"
+    },
     "/Users/farricecain/Google Antigravity/_active/farrice-brand/CANON.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/CANON.md",
       "lifecycle": "deliverable",
@@ -2065,6 +2071,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-05T16:49:03+00:00",
+  "updated_at": "2026-08-06T13:04:27+00:00",
   "version": 1
 }

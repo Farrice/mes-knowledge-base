@@ -2843,3 +2843,60 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-06T07:00:19.335181",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-06.md",
+        "traces_24h": 11,
+        "routing_decisions_24h": 13,
+        "queued_phase2": 6,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 6,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.02,
+            "joey-cinema-os": 1.17,
+            "ben-watkins-storytelling": 1.48,
+            "banana-pro-director": 1.0,
+            "gemini-api-dev": 0.89,
+            "dave-clark": 1.11,
+            "ghostwriting-voice-engine": 1.08,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.53,
+            "kallaway-hook-mastery": 0.95,
+            "extract-mastery": 0.68,
+            "oren-norton-world-building": 1.05,
+            "cody-schneider-signal-outbound": 0.95
+          },
+          "candidates_appended": 1,
+          "quality_finalizes_counted": 10,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 120.0
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-01T07:00:06.761884",
+      "reason": "not_due_yet",
+      "days_remaining": 2.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 3.0
+    }
+  ]
+}

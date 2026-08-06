@@ -1,0 +1,22 @@
+{
+  "applied_at": "2026-08-06T13:04:27+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-brand/ANGLE-BRIEF-PROMPT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/farrice-brand/ANGLE-BRIEF-PROMPT.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/farrice-brand",
+  "project_slug": "farrice-brand",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-06.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_signal-scout-angle-brief-engine.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

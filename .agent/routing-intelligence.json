@@ -449,20 +449,20 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 141,
-            "total_feedback": 5,
+            "total_routings": 152,
+            "total_feedback": 6,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "meg-heckman-buyer-trigger-os": 1,
+                "meg-heckman-buyer-trigger-os": 2,
                 "sean-dollwet-kdp-publishing": 9,
-                "Research": 9,
+                "Research": 10,
                 "fresh-voice-system": 6,
                 "Content": 6,
                 "Analysis": 3,
                 "alex-copper-creative-strategy": 1,
-                "System": 7,
+                "System": 9,
                 "supercomputer": 6,
                 "Creative": 1,
                 "Strategy": 4,
@@ -495,21 +495,22 @@
                 "diandra-escobar-linkedin-growth": 1,
                 "evan-spiegel-distribution-architecture": 2,
                 "april-dunford-positioning": 1,
-                "kallaway-social-commerce": 1,
+                "kallaway-social-commerce": 2,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 6,
-                "nate-b-jones-context-engineering": 11,
+                "Extraction": 8,
+                "nate-b-jones-context-engineering": 14,
                 "ethan-smith-aeo": 1,
                 "riley-brown-marketing-automation": 2,
                 "Client Work": 3,
                 "dakota-content-design": 1,
                 "luke-iha-avatar-machine": 1,
                 "nick-st-pierre": 2,
-                "chief-of-staff-os": 1
+                "chief-of-staff-os": 1,
+                "sharran-srivatsaa-scaling": 1
             },
             "expert_counts": {
-                "meg-heckman-buyer-trigger-os": 3,
+                "meg-heckman-buyer-trigger-os": 4,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 9,
                 "oren-operational-systems": 4,
@@ -527,11 +528,11 @@
                 "health-performance-angle-map-listening-engine": 2,
                 "jen-santulan-listing-content": 7,
                 "joey-cinema-os": 2,
-                "ben-watkins-storytelling": 6,
+                "ben-watkins-storytelling": 7,
                 "RoboNuggets source-to-skill": 1,
                 "creative-direction": 1,
                 "hilary-gridley": 1,
-                "kallaway-illusion-of-novelty": 7,
+                "kallaway-illusion-of-novelty": 8,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1,
@@ -567,12 +568,12 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 2,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 12,
+                "nate-b-jones-context-engineering": 15,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
                 "april-dunford-positioning": 2,
-                "kallaway-social-commerce": 1,
+                "kallaway-social-commerce": 2,
                 "tom-segura-comedy-storytelling": 1,
                 "knowledge-architecture-studio": 1,
                 "mickmumpitz": 1,
@@ -593,10 +594,14 @@
                 "MES 3.0": 2,
                 "chief-of-staff-os": 3,
                 "scott-norton": 1,
-                "cody-schneider": 1
+                "cody-schneider": 1,
+                "corey-mcclain-persona-engineering": 3,
+                "riley-brown": 4,
+                "nba-betting-edge": 1,
+                "sharran-srivatsaa-scaling": 1
             },
             "tier_counts": {
-                "0": 141,
+                "0": 152,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -604,11 +609,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 102,
-                "finalize-auto": 39
+                "hybrid": 108,
+                "finalize-auto": 44
             },
-            "ensemble_count": 77,
-            "auto_miss_count": 4,
+            "ensemble_count": 82,
+            "auto_miss_count": 5,
             "auto_match_count": 1
         }
     },
@@ -657,6 +662,15 @@
             "rating": "auto_match",
             "correction": "jen-santulan-listing-content",
             "notes": "expert skill 'jen-santulan-listing-content' loaded matching suggestion ['jen-santulan-listing-content']"
+        },
+        {
+            "feedback_id": "fb_20260806_153442_e7cc",
+            "timestamp": "2026-08-06T15:34:42.631655+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "routing_id": "rt_20260806_153252_82d4",
+            "rating": "auto_miss",
+            "correction": "nick-saraev-agentic-workflows",
+            "notes": "expert skill 'nick-saraev-agentic-workflows' loaded not matching suggestion ['kallaway-social-commerce', 'kallaway-illusion-of-novelty']"
         }
     ],
     "routing_decisions": [
@@ -3122,6 +3136,198 @@
             "workflow_used": "extract-forge",
             "ensemble": true,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_143140_4b77",
+            "timestamp": "2026-08-06T14:31:40.563584+00:00",
+            "session_id": "df73917b-09c2-43bb-9895-7310b86dac23",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_143157_d100",
+            "timestamp": "2026-08-06T14:31:57.407002+00:00",
+            "session_id": "e3adbd79-cf38-46bc-aa45-55e6bff3b88f",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_143339_7209",
+            "timestamp": "2026-08-06T14:33:39.986901+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "request_summary": "I need you to help me shape and scope this idea, whether or not it's truly possible. Would it be possible to build a meta-level agent that could go out and learn anything and become a truly nuanced ma",
+            "intent_score": 0,
+            "domain_detected": "meg-heckman-buyer-trigger-os",
+            "experts_deployed": [
+                "meg-heckman-buyer-trigger-os",
+                "ben-watkins-storytelling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "meg-heckman-buyer-trigger-os",
+            "ensemble": true,
+            "compound_pairing": "meg-heckman-buyer-trigger-os + ben-watkins-storytelling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_145317_e16b",
+            "timestamp": "2026-08-06T14:53:17.600122+00:00",
+            "session_id": "",
+            "request_summary": "God Agent harvest: corpus extension of riley-brown (cleaned transcript + mes-extension with 9 timestamped patterns E1-E9 + era-bound appendix) plus delta memo vs Antigravity harness with 5 ranked adop",
+            "intent_score": 4,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "riley-brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_145350_b0da",
+            "timestamp": "2026-08-06T14:53:50.775526+00:00",
+            "session_id": "",
+            "request_summary": "God Agent harvest (score correction of prior row — --intent was logged on wrong scale): corpus extension of riley-brown + delta memo with 5 ranked adoptable moves; 'god agent' = router rebrand, new or",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "riley-brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_150358_ab6f",
+            "timestamp": "2026-08-06T15:03:58.124958+00:00",
+            "session_id": "",
+            "request_summary": "Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vig CLV methodology, Platt-scaling calibra",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "nba-betting-edge"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "deep-research",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_151834_999a",
+            "timestamp": "2026-08-06T15:18:34.280825+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "request_summary": "extraction. The extraction that we did with the God Agent harvest and Delta memo: I want us to execute things and not just talk about it, right? Like you said, backlog of five harness upgrades, event ",
+            "intent_score": 0,
+            "domain_detected": "sharran-srivatsaa-scaling",
+            "experts_deployed": [
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sharran-srivatsaa-scaling",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_152244_59d6",
+            "timestamp": "2026-08-06T15:22:44.791146+00:00",
+            "session_id": "",
+            "request_summary": "Event ingestion layer: event_listener.py (watch-folder live, gmail/calendar dormant pending gws re-auth) + launchd 30-min poll + latency-class seating rule. Harness can now react to the world, not jus",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "riley-brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "god-agent-delta",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_153252_82d4",
+            "timestamp": "2026-08-06T15:32:52.348288+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "request_summary": "we need to have something where I could drop something in there. I don't want to overdo slash commands, but how do I drop something into this.agent inbox? What's the pass to that? Do I just say, \"Hey,",
+            "intent_score": 0,
+            "domain_detected": "kallaway-social-commerce",
+            "experts_deployed": [
+                "kallaway-social-commerce",
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-social-commerce",
+            "ensemble": true,
+            "compound_pairing": "kallaway-social-commerce + kallaway-illusion-of-novelty",
+            "feedback": "fb_20260806_153442_e7cc"
+        },
+        {
+            "routing_id": "rt_20260806_153736_3f74",
+            "timestamp": "2026-08-06T15:37:36.725760+00:00",
+            "session_id": "",
+            "request_summary": "God Agent delta moves 2-4 shipped (harness evals weekly card, verdict-to-diff compiler weekly card, notify channel) + offer red-team artifact with SEQUENCE verdict and preserved dissent. All five delt",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "riley-brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "god-agent-delta",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_160517_bb1f",
+            "timestamp": "2026-08-06T16:05:17.502793+00:00",
+            "session_id": "4b1c16e4-c141-4b18-be6d-b71bc3c5bc97",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
             "feedback": null
         }
     ]

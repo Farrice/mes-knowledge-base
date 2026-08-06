@@ -1,5 +1,5 @@
 {
- "ts": "2026-08-05T18:55:08.544703",
+ "ts": "2026-08-06T09:06:53.724751",
  "mode": "report",
  "rows": [
   {
@@ -24,26 +24,24 @@
   {
    "id": "dead_launchd",
    "cls": "JUDGMENT",
-   "what": "1 plist(s) on disk but NOT loaded: com.antigravity.zeitgeist-daily | 2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
+   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 7d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 11d ago (cadence allows 9d)",
    "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
    "detail": {
-    "not_loaded": [
-     "com.antigravity.zeitgeist-daily"
-    ],
+    "not_loaded": [],
     "stale": [
-     "com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d)",
-     "com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)"
+     "com.antigravity.cos-notify: last ran 7d ago (cadence allows 3d)",
+     "com.antigravity.verify-fleet: last ran 11d ago (cadence allows 9d)"
     ]
    }
   },
   {
    "id": "stale_feeds",
    "cls": "JUDGMENT",
-   "what": "1 declared feed(s) starving \u2014 the producing loop is not firing: .agent/health/verify-fleet.json is 10d old (max 9d; producer: Sunday verify-fleet launchd run)",
+   "what": "1 declared feed(s) starving \u2014 the producing loop is not firing: .agent/health/verify-fleet.json is 11d old (max 9d; producer: Sunday verify-fleet launchd run)",
    "fix": "run the named producer once by hand, then find why its schedule missed",
    "detail": {
     "stale": [
-     ".agent/health/verify-fleet.json is 10d old (max 9d; producer: Sunday verify-fleet launchd run)"
+     ".agent/health/verify-fleet.json is 11d old (max 9d; producer: Sunday verify-fleet launchd run)"
     ]
    }
   },
@@ -74,7 +72,7 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 dual taxonomy; 1 missing index; 1 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/digital-product-lane-2026-08-05, _active/linkedin-launch, _active/operator-cockpit-v2",
+   "what": "organization drift: 1 dual taxonomy; 1 missing index \u2014 e.g. _active/digital-product-lane-2026-08-05, _active/linkedin-launch",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
@@ -87,14 +85,9 @@
       "kind": "dual_taxonomy",
       "project": "_active/linkedin-launch",
       "detail": "05-* collision: 05-assets + 05-lead-gen"
-     },
-     {
-      "kind": "status_done_but_live",
-      "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 7d ago"
      }
     ],
-    "deferred_files": 1
+    "deferred_files": 0
    }
   },
   {

@@ -3791,8 +3791,36 @@
         "gaming_flag": false
       },
       "notes": "Anchor: Expert Standard 9-anchor test applied \u2014 the blind pass reproduced his live-demo numbers (63\u219261 dedupe, 50\u219232\u219210\u21928 ladder) and the discriminator caught the URN-obfuscation failure mode a summary extraction would miss; Cody would recognize the workflows as his thinking, held at 8 not 9 for single-source corpus + niche hit-rates unmeasured (named in-artifact). Adversarial: forge DECLINED to invent a compliance workflow (2 disclaimers \u2260 doctrine); vendor quarantine structural; UNCONFIRMED claims flagged not absorbed ( CPM, 80% coverage heuristic). What worked: conductor-pattern delegation (forge agent + parallel infra build), gate-first honesty, listening-only pivot honored mid-plan. What didn't: watch wrapper 600s cap needed direct plugin invocation; blind_pass.py demanded a reference corpus late \u2014 corpus rule now understood for future forges. | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260806_075317",
+      "timestamp": "2026-08-06T07:53:17.603752",
+      "schema_version": "v3",
+      "component": "extract-mastery",
+      "expert": "riley-brown",
+      "workflow": "extract",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Corpus extension of existing extraction, not a new persona build \u2014 no generative emulation artifact exists to blind-judge, so Bar: N/A per blind-bar protocol (never improvise a reference). Delta memo deflates its own source's framing (dissent preserved). ~85% of substance is guest's (Guillermo Rauch), correctly attributed. | Factual Grounding: 9 | Verification: N/A | Anchor: Dimension 4 Anchor 9: every claim timestamped against transcript, UNCONFIRMED explicitly labeled (consortium claim), visual pass documented"
     }
   ],
-  "total_cases": 134,
-  "last_updated": "2026-08-06T00:42:28.146752"
+  "total_cases": 135,
+  "last_updated": "2026-08-06T07:53:17.606097"
 }

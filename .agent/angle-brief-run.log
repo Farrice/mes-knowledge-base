@@ -1,0 +1,3 @@
+=== 2026-08-06 07:00:06 angle-brief run start ===
+BLOCKED: fresh lock held by another session — mission 'zeitgeist daily run' (heartbeat 2417s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping this run (one writer per tree)

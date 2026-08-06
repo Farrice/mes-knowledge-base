@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-08",
     "usage": {
-        "total_queries": 177,
-        "estimated_cost_usd": 3.54,
+        "total_queries": 195,
+        "estimated_cost_usd": 3.9,
         "queries": [
             {
                 "timestamp": "2026-08-01T13:45:08.792869+00:00",
@@ -1420,6 +1420,150 @@
                 "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-08-05). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
                 "task_context": "research-engine-market_data",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:46:28.921058+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:46:38.410490+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:46:48.896741+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:46:57.746034+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:47:08.944970+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:47:23.240523+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:47:36.275171+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:47:43.584751+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:47:53.181462+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:48:04.752477+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:48:15.953112+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:48:24.487653+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:48:33.499629+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:48:41.617504+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:48:52.303841+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen pi",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:49:24.217279+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: anime industry news this week \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:49:32.691660+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-06T13:49:40.525422+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "new anime season standout series \u2014 latest developments from the past 14 days (as of 2026-08-06). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -1430,7 +1574,7 @@
     "loop_detection": {
         "current_task_query_count": 2,
         "current_task_name": "research-engine-market_data",
-        "last_query_timestamp": "2026-08-05T13:49:04.716557+00:00",
+        "last_query_timestamp": "2026-08-06T13:49:40.525422+00:00",
         "consecutive_low_info_queries": 0
     }
 }

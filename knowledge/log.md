@@ -692,3 +692,8 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-05 19:51]` **finalize** | Scott Norton × Oren John — Brand World-Building mastery extraction (forge): 10 workflows + 10 born-v | general | scott-norton — composite:8.33 status:Keep
 - `[2026-08-05 20:01]` **finalize** | Ambient zeitgeist engine: /zeitgeist daily (launchd live), pulse sub-budget wired after never being  | general | eddy-ballesteros — composite:8.33 status:Keep
 - `[2026-08-06 00:42]` **finalize** | Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal  | general | cody-schneider — composite:6.67 status:Needs Improvement
+- `[2026-08-06 07:53]` **finalize** | God Agent harvest: corpus extension of riley-brown (cleaned transcript + mes-extension with 9 timest | general | riley-brown — composite:6.67 status:Needs Improvement
+- `[2026-08-06 07:53]` **finalize** | God Agent harvest (score correction of prior row — --intent was logged on wrong scale): corpus exten | general | riley-brown — composite:8.33 status:Keep
+- `[2026-08-06 08:03]` **finalize** | Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/ | general | nba-betting-edge — composite:8.33 status:Keep
+- `[2026-08-06 08:22]` **finalize** | Event ingestion layer: event_listener.py (watch-folder live, gmail/calendar dormant pending gws re-a | general | riley-brown — composite:8.0 status:Keep
+- `[2026-08-06 08:37]` **finalize** | God Agent delta moves 2-4 shipped (harness evals weekly card, verdict-to-diff compiler weekly card,  | general | riley-brown — composite:8.33 status:Keep

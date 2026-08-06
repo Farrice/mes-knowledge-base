@@ -109,8 +109,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-06 (chain_runner finalize for cody-schneider-signal-outbound) |
-| **Activation Count** | 818 |
+| **Last Activated** | 2026-08-06 (chain_runner finalize for extract-mastery) |
+| **Activation Count** | 823 |
 | **30-Day Review Date** | 2026-09-05 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

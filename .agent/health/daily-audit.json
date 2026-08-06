@@ -1,49 +1,35 @@
 {
-  "timestamp": "2026-08-05T06:00:05.702873",
+  "timestamp": "2026-08-06T06:00:13.971240",
   "projects_index": {
     "exit": 0,
-    "out": "Wrote PROJECTS.md (56 projects, 2 drift items)"
+    "out": "Wrote PROJECTS.md (57 projects, 2 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
-    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 0 need judgment"
+    "out": "SWEEP: auto-filed 1 file(s) across 1 project(s); 0 need judgment"
   },
   "self_heal": {
     "exit": 0,
-    "findings": 12,
+    "findings": 13,
     "ids": [
+      "stale_registries",
+      "born_intent_drift",
+      "platform_drift",
       "dead_hooks",
       "dead_launchd",
       "stale_feeds",
       "wiring_orphans",
       "org_drift",
-      "verify_born_intent_drift.py",
       "verify_contextual_next_prompts.py",
       "verify_global_steering_closeout.py",
       "verify_steering_compass.py",
-      "verify_system.py",
-      "verify_system_control_plane.py",
-      "fleet_timeouts"
+      "verify_system_control_plane.py"
     ]
   },
   "brief_harvest": {
     "exit": 0
   },
   "wiring_drain": {
-    "audited": 150,
-    "new": 33,
-    "coverage": "3626/3626",
-    "orphans_total": 10,
-    "flips": [],
-    "orphans_sample": [
-      "execution:ai_misfire_sprint_guard.py",
-      "execution:audit_extraction_integrity.py",
-      "execution:client_package_lint.py",
-      "execution:design_md_extract.py",
-      "execution:generate_agent_stacking_registry.py",
-      "execution:perception_engineering_bridge_audit.py",
-      "execution:publishable_copy_guard.py",
-      "execution:system_efficiency_benchmark.py"
-    ]
+    "error": "TimeoutExpired: Command '['/Users/farricecain/Google Antigravity/.venv/bin/python3', '/Users/farricecain/Google Antigravity/execution/wiring_audit.py', 'drain', '--batch', '150']' timed out after 600 "
   }
 }

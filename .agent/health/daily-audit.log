@@ -6,3 +6,4 @@
 {"daily_health_audit": "2026-08-03T06:00:05.872102", "findings": 12, "wiring": "3593/3593", "orphans": 10, "projects_index": 0, "artifact_sweep": 0}
 {"daily_health_audit": "2026-08-04T06:00:05.894509", "findings": 12, "wiring": "3593/3593", "orphans": 10, "projects_index": 0, "artifact_sweep": 0}
 {"daily_health_audit": "2026-08-05T06:00:05.702873", "findings": 12, "wiring": "3626/3626", "orphans": 10, "projects_index": 0, "artifact_sweep": 0}
+{"daily_health_audit": "2026-08-06T06:00:13.971240", "findings": 13, "wiring": "TimeoutExpired: Command '['/Users/farricecain/Google Antigravity/.venv/bin/python3', '/Users/farricecain/Google Antigravity/execution/wiring_audit.py', 'drain', '--batch', '150']' timed out after 600 ", "orphans": null, "projects_index": 0, "artifact_sweep": 0}

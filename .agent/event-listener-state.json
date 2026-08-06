@@ -1,0 +1,43 @@
+{
+  "seen_gmail_ids": [],
+  "seen_event_ids": [],
+  "daily_cards": {},
+  "runs": [
+    {
+      "ts": "2026-08-06T08:21:09",
+      "results": {
+        "inbox": {
+          "minted": [
+            "card-event-inbox-2026-08-06-test-thought.md"
+          ],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
+    },
+    {
+      "ts": "2026-08-06T08:51:31",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
+    }
+  ]
+}

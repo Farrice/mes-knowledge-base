@@ -1,9 +1,9 @@
 # Session-Ledger Report (finalize-debt observe mode)
-Generated 2026-08-05T06:15:13 · source: .agent/sessions/observe-log.jsonl
+Generated 2026-08-06T06:38:15 · source: .agent/sessions/observe-log.jsonl
 
-- **1044 would-block events** collapse to **121 debted sessions** (noise factor 8.6x — multi-Stop firings per session; enforcement today would block ~8.6x per honest session).
-- Sessions ending with zero measured subagent spawns: 78.
-- Top open-debt types (last event per session): skill_loaded (918), skill_grepped (11), qualifying_workflow (2)
+- **1090 would-block events** collapse to **130 debted sessions** (noise factor 8.4x — multi-Stop firings per session; enforcement today would block ~8.4x per honest session).
+- Sessions ending with zero measured subagent spawns: 83.
+- Top open-debt types (last event per session): skill_loaded (920), skill_grepped (29), qualifying_workflow (2)
 
 ## Debted sessions per ISO week
 
@@ -16,7 +16,7 @@ Generated 2026-08-05T06:15:13 · source: .agent/sessions/observe-log.jsonl
 | 2026-W29 | 34 |
 | 2026-W30 | 17 |
 | 2026-W31 | 16 |
-| 2026-W32 | 7 |
+| 2026-W32 | 16 |
 
 ## Decision guidance (deterministic, not advice)
 

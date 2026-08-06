@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-08-05 | 824 sources | 3,014,404 words*
+*Generated: 2026-08-06 | 832 sources | 3,062,188 words*
 
 ---
 
@@ -10,23 +10,23 @@
 - **sample-003** (copywriting) — 80 words — `knowledge/expert-benchmarks/jen-listing-content/sample-003.md`
 - **sample-004** (copywriting) — 93 words — `knowledge/expert-benchmarks/jen-listing-content/sample-004.md`
 - **sample-005** (copywriting) — 77 words — `knowledge/expert-benchmarks/jen-listing-content/sample-005.md`
-- **index** (content) — 5,531 words — `knowledge/index.md`
-- **log** (general) — 17,162 words — `knowledge/log.md`
+- **index** (content) — 5,571 words — `knowledge/index.md`
+- **log** (general) — 17,316 words — `knowledge/log.md`
 - **gauntlet-loop-blind-bar-mechanism** (screenwriting) — 1,261 words — `knowledge/synthesis/gauntlet-loop-blind-bar-mechanism.md`
-- **blind-pass-log** (general) — 128 words — `extractions/benoit-vatere/blind-pass-log.md`
-- **blind-pass-sample** (brand) — 744 words — `extractions/benoit-vatere/blind-pass-sample.md`
+- **blind-pass-log** (systems) — 1,076 words — `extractions/cody-schneider-signal-outbound/blind-pass-log.md`
+- **extraction-report** (content) — 7,487 words — `extractions/cody-schneider-signal-outbound/extraction-report.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 288 | oren-john |
-| copywriting | 120 | luke-iha |
-| general | 96 | nick-saraev |
-| strategy | 87 | april-dunford |
+| content | 291 | oren-john |
+| copywriting | 121 | luke-iha |
+| general | 97 | nick-saraev |
+| strategy | 89 | april-dunford |
 | screenwriting | 58 | connelly |
 | brand | 58 | oren-john |
-| systems | 50 | nick-saraev |
+| systems | 51 | nick-saraev |
 | seo | 28 | nathan-gotch |
 | research | 28 | dai-media |
 | sales | 11 | dai-media |

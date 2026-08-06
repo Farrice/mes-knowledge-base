@@ -34,3 +34,13 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **Last Triggered:** 2026-08-05
 - **Status:** ACTIVE
 - **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required
+
+### [ROTTING]: stale_registries
+- **Added:** 2026-08-06
+- **What Happened:** open for 9 days with no decision
+- **Root Cause:** detector raised TimeoutExpired
+- **Prevention Rule:** Decide stale_registries or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
+- **Occurrences:** 9
+- **Last Triggered:** 2026-08-06
+- **Status:** ACTIVE
+- **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required
