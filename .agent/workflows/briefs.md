@@ -13,6 +13,8 @@ The storage system: every brief lives at `deliverables/research-briefs/<slug>/` 
 python3 execution/brief_library.py --open   # regenerates deliverables/research-briefs/index.html, newest first
 ```
 
+Each card carries quick-copy buttons: **`path`** (absolute `.md` path — for Codex / Claude Code / anything with file access) and **`copy brief`** (the ENTIRE brief inline, context pack included — paste into any chat LLM with no filesystem). `md` / `ctx` open the mirror and the context pack.
+
 ## Open a single brief (or the board)
 
 ```bash

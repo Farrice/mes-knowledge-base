@@ -78,6 +78,12 @@ PAGE = """<!doctype html>
   .brief-card .links span{ font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
     color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:4px; padding:3px 8px }
   .brief-card .links span:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-card .links span.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .brief-card .links span.done{ color:var(--ag-proof, oklch(48% 0.07 165)); border-color:currentColor }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
   footer{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
     font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
   @media (max-width:640px){ h1{ font-size:34px } .brief-card .links{ margin-left:0 } }
@@ -94,9 +100,34 @@ PAGE = """<!doctype html>
   {{CARDS}}
   <footer><span>ANTIGRAVITY RESEARCH</span><span>@farricecain</span></footer>
 </div>
+<div id="toast">copied</div>
+<script id="packs" type="application/json">{{PACKS}}</script>
 <script>
+  var PACKS = JSON.parse(document.getElementById('packs').textContent);
+  function toast(msg){
+    var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, ok){
+    function fallback(){
+      var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(function(){ toast(ok); }, function(){ fallback(); toast(ok); });
+    } else { fallback(); toast(ok); }
+  }
   document.querySelectorAll('.brief-card .links span[data-href]').forEach(function(el){
     el.addEventListener('click', function(ev){ ev.preventDefault(); ev.stopPropagation(); window.location = el.dataset.href; });
+  });
+  document.querySelectorAll('.brief-card .links span[data-act]').forEach(function(el){
+    el.addEventListener('click', function(ev){
+      ev.preventDefault(); ev.stopPropagation();
+      var p = PACKS[el.dataset.slug]; if(!p) return;
+      if (el.dataset.act === 'path'){ copyText(p.path, 'path copied'); }
+      else { copyText(p.brief, 'full brief copied — paste into any ai'); }
+      el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600);
+    });
   });
 </script>
 </body>
@@ -142,7 +173,8 @@ def card(e):
     dek = e["dek"]
     if len(dek) > 220:
         dek = dek[:217].rstrip() + "…"
-    links = ""
+    links = (f'<span data-act="path" data-slug="{esc(e["slug"])}" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span>'
+             f'<span class="cp" data-act="brief" data-slug="{esc(e["slug"])}" title="copy the full brief inline — paste into any AI chat">copy brief</span>')
     for label, f in (("md", e["md"]), ("ctx", e["ctx"])):
         if f.exists():
             links += f'<span data-href="{esc(f.as_uri())}">{label}</span>'
@@ -166,9 +198,23 @@ def main():
     entries = collect()
     import datetime
     stamp = datetime.date.today().isoformat()
+    packs = {}
+    for e in entries:
+        md_text = ""
+        if e["md"].exists():
+            try:
+                md_text = e["md"].read_text(encoding="utf-8")
+            except Exception:
+                md_text = ""
+        header = (f"SOURCE: {e['md']}  (research brief · Antigravity)\n"
+                  f"HTML: {e['html']}\nCONTEXT PACK: {e['ctx']}\n"
+                  f"COMPILED: {e['compiled'] or '—'}\n\n")
+        packs[e["slug"]] = {"path": str(e["md"]), "brief": header + md_text}
+    packs_json = json.dumps(packs, ensure_ascii=False).replace("</", "<\\/")
     page = (PAGE
             .replace("{{COUNT}}", str(len(entries)))
             .replace("{{STAMP}}", stamp)
+            .replace("{{PACKS}}", packs_json)
             .replace("{{CARDS}}", "".join(card(e) for e in entries)))
     out = BRIEFS / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
