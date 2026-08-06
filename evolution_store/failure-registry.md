@@ -20,7 +20,7 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **What Happened:** open for 7 days with no decision
 - **Root Cause:** 9 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append bu
 - **Prevention Rule:** Decide stale_slash_commands or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
-- **Occurrences:** 8
+- **Occurrences:** 9
 - **Last Triggered:** 2026-08-05
 - **Status:** ACTIVE
 - **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required

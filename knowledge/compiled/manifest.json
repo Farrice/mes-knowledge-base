@@ -1,16 +1,16 @@
 {
-  "generated": "2026-08-05T18:29:35.772829",
-  "total_files": 816,
-  "total_words": 2997814,
-  "total_tokens_est": 3987092,
+  "generated": "2026-08-05T20:01:02.203697",
+  "total_files": 824,
+  "total_words": 3014404,
+  "total_tokens_est": 4009157,
   "stale_files_30d": 510,
   "domains": {
-    "content": 285,
-    "copywriting": 118,
+    "content": 288,
+    "copywriting": 120,
     "general": 96,
     "strategy": 87,
     "screenwriting": 58,
-    "brand": 55,
+    "brand": 58,
     "systems": 50,
     "seo": 28,
     "research": 28,
@@ -18,7 +18,7 @@
   },
   "experts": {
     "nick-saraev": 44,
-    "oren-john": 32,
+    "oren-john": 40,
     "april-dunford": 23,
     "luke-iha": 22,
     "dai-media": 17,
@@ -2068,11 +2068,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 5476,
-      "modified": "2026-08-05T18:08:51.408652",
+      "word_count": 5531,
+      "modified": "2026-08-05T19:51:10.522164",
       "age_days": 0,
-      "size_bytes": 95236,
-      "content_hash": "fdd4c7d3",
+      "size_bytes": 96409,
+      "content_hash": "8cbc7a05",
       "has_frontmatter": false
     },
     {
@@ -2083,7 +2083,7 @@
       "expert": null,
       "word_count": 854,
       "modified": "2026-07-28T19:41:43.002290",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 5368,
       "content_hash": "22e74a93",
       "has_frontmatter": false
@@ -2094,10 +2094,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 17109,
-      "modified": "2026-08-05T18:29:35.407868",
+      "word_count": 17162,
+      "modified": "2026-08-05T20:01:01.855558",
       "age_days": 0,
-      "size_bytes": 133496,
+      "size_bytes": 133893,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2213,7 +2213,7 @@
       "expert": "lara-acosta",
       "word_count": 708,
       "modified": "2026-04-14T19:54:23.045681",
-      "age_days": 112,
+      "age_days": 113,
       "size_bytes": 5262,
       "content_hash": "2415feb1",
       "has_frontmatter": true
@@ -2226,7 +2226,7 @@
       "expert": "kallaway",
       "word_count": 727,
       "modified": "2026-04-14T19:53:26.004771",
-      "age_days": 112,
+      "age_days": 113,
       "size_bytes": 5421,
       "content_hash": "3b5bae84",
       "has_frontmatter": true
@@ -2278,7 +2278,7 @@
       "expert": "nicolas-cole",
       "word_count": 648,
       "modified": "2026-04-14T19:53:54.049178",
-      "age_days": 112,
+      "age_days": 113,
       "size_bytes": 4698,
       "content_hash": "05af11f4",
       "has_frontmatter": true
@@ -2330,7 +2330,7 @@
       "expert": "luke-iha",
       "word_count": 843,
       "modified": "2026-04-14T19:54:56.987154",
-      "age_days": 112,
+      "age_days": 113,
       "size_bytes": 5911,
       "content_hash": "94567b07",
       "has_frontmatter": true
@@ -2356,7 +2356,7 @@
       "expert": "luke-iha",
       "word_count": 544,
       "modified": "2026-04-14T19:52:51.662331",
-      "age_days": 112,
+      "age_days": 113,
       "size_bytes": 3958,
       "content_hash": "6df81fc7",
       "has_frontmatter": true
@@ -2642,7 +2642,7 @@
       "expert": null,
       "word_count": 483,
       "modified": "2026-08-01T19:31:21.665789",
-      "age_days": 3,
+      "age_days": 4,
       "size_bytes": 3887,
       "content_hash": "ac628668",
       "has_frontmatter": false
@@ -2707,7 +2707,7 @@
       "expert": null,
       "word_count": 862,
       "modified": "2026-08-01T19:40:05.848251",
-      "age_days": 3,
+      "age_days": 4,
       "size_bytes": 6855,
       "content_hash": "c857907a",
       "has_frontmatter": false
@@ -2720,7 +2720,7 @@
       "expert": null,
       "word_count": 783,
       "modified": "2026-08-01T19:33:33.208584",
-      "age_days": 3,
+      "age_days": 4,
       "size_bytes": 5387,
       "content_hash": "af15cb3c",
       "has_frontmatter": false
@@ -2733,7 +2733,7 @@
       "expert": null,
       "word_count": 1044,
       "modified": "2026-08-01T19:35:34.924852",
-      "age_days": 3,
+      "age_days": 4,
       "size_bytes": 7100,
       "content_hash": "17f62c94",
       "has_frontmatter": false
@@ -3838,7 +3838,7 @@
       "expert": null,
       "word_count": 737,
       "modified": "2026-07-07T19:55:19.092978",
-      "age_days": 28,
+      "age_days": 29,
       "size_bytes": 5293,
       "content_hash": "9a190c87",
       "has_frontmatter": false
@@ -4813,7 +4813,7 @@
       "expert": null,
       "word_count": 648,
       "modified": "2026-07-13T19:11:02.736408",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 4704,
       "content_hash": "0845a356",
       "has_frontmatter": false
@@ -4826,7 +4826,7 @@
       "expert": null,
       "word_count": 2211,
       "modified": "2026-07-13T19:10:02.413719",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 13796,
       "content_hash": "cdc669f8",
       "has_frontmatter": false
@@ -4839,7 +4839,7 @@
       "expert": null,
       "word_count": 8609,
       "modified": "2026-07-13T19:10:55.163788",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 61244,
       "content_hash": "ae6af9b8",
       "has_frontmatter": false
@@ -4852,7 +4852,7 @@
       "expert": null,
       "word_count": 1090,
       "modified": "2026-07-13T19:31:59.375966",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 6994,
       "content_hash": "c40a864f",
       "has_frontmatter": false
@@ -4865,7 +4865,7 @@
       "expert": null,
       "word_count": 87,
       "modified": "2026-07-13T19:32:12.121114",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 876,
       "content_hash": "0fa8ff3d",
       "has_frontmatter": false
@@ -4878,7 +4878,7 @@
       "expert": null,
       "word_count": 1960,
       "modified": "2026-07-13T19:16:34.004917",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 14061,
       "content_hash": "8e931e02",
       "has_frontmatter": false
@@ -4891,7 +4891,7 @@
       "expert": null,
       "word_count": 892,
       "modified": "2026-07-13T19:14:28.102837",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 5404,
       "content_hash": "15066978",
       "has_frontmatter": false
@@ -4904,7 +4904,7 @@
       "expert": null,
       "word_count": 453,
       "modified": "2026-07-13T19:15:09.290087",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 3123,
       "content_hash": "919859e4",
       "has_frontmatter": false
@@ -4917,7 +4917,7 @@
       "expert": null,
       "word_count": 2655,
       "modified": "2026-07-13T19:09:21.912603",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 17582,
       "content_hash": "0789a77d",
       "has_frontmatter": false
@@ -4930,7 +4930,7 @@
       "expert": null,
       "word_count": 2814,
       "modified": "2026-07-13T19:09:34.434333",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 19650,
       "content_hash": "09463d51",
       "has_frontmatter": false
@@ -4943,7 +4943,7 @@
       "expert": null,
       "word_count": 2805,
       "modified": "2026-07-13T19:08:42.016756",
-      "age_days": 22,
+      "age_days": 23,
       "size_bytes": 18864,
       "content_hash": "61b79511",
       "has_frontmatter": false
@@ -7471,6 +7471,110 @@
       "has_frontmatter": false
     },
     {
+      "path": "extractions/oren-norton-brand-world-building/extraction-report.md",
+      "name": "extraction-report",
+      "parent": "oren-norton-brand-world-building",
+      "domain": "content",
+      "expert": "oren-john",
+      "word_count": 3803,
+      "modified": "2026-08-05T19:05:35.363904",
+      "age_days": 0,
+      "size_bytes": 26358,
+      "content_hash": "b448d442",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-brand-world-building/transcript.md",
+      "name": "transcript",
+      "parent": "oren-norton-brand-world-building",
+      "domain": "brand",
+      "expert": "oren-john",
+      "word_count": 9599,
+      "modified": "2026-08-05T18:51:59.912085",
+      "age_days": 0,
+      "size_bytes": 55501,
+      "content_hash": "61db1825",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-brand-world-building/vision.md",
+      "name": "vision",
+      "parent": "oren-norton-brand-world-building",
+      "domain": "content",
+      "expert": "oren-john",
+      "word_count": 896,
+      "modified": "2026-08-05T18:53:35.859588",
+      "age_days": 0,
+      "size_bytes": 6750,
+      "content_hash": "ec33cc1b",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-brand-world-building/visual-context.md",
+      "name": "visual-context",
+      "parent": "oren-norton-brand-world-building",
+      "domain": "content",
+      "expert": "oren-john",
+      "word_count": 681,
+      "modified": "2026-08-05T18:52:31.870325",
+      "age_days": 0,
+      "size_bytes": 4333,
+      "content_hash": "4f6a1338",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-world-building/blind-pass-log.md",
+      "name": "blind-pass-log",
+      "parent": "oren-norton-world-building",
+      "domain": "copywriting",
+      "expert": "oren-john",
+      "word_count": 98,
+      "modified": "2026-08-05T19:41:29.920994",
+      "age_days": 0,
+      "size_bytes": 939,
+      "content_hash": "dfdc615e",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-world-building/blind-pass-sample-night-shift-coffee.md",
+      "name": "blind-pass-sample-night-shift-coffee",
+      "parent": "oren-norton-world-building",
+      "domain": "brand",
+      "expert": "oren-john",
+      "word_count": 496,
+      "modified": "2026-08-05T19:41:06.084017",
+      "age_days": 0,
+      "size_bytes": 3143,
+      "content_hash": "093f0d04",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-world-building/reference-corpus/sir-kensingtons-story-page.md",
+      "name": "sir-kensingtons-story-page",
+      "parent": "reference-corpus",
+      "domain": "brand",
+      "expert": "oren-john",
+      "word_count": 617,
+      "modified": "2026-08-05T19:40:04.926457",
+      "age_days": 0,
+      "size_bytes": 3963,
+      "content_hash": "d299c9af",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/oren-norton-world-building/reference-corpus/vacation-inc-site-copy.md",
+      "name": "vacation-inc-site-copy",
+      "parent": "reference-corpus",
+      "domain": "copywriting",
+      "expert": "oren-john",
+      "word_count": 292,
+      "modified": "2026-08-05T19:40:19.256083",
+      "age_days": 0,
+      "size_bytes": 1973,
+      "content_hash": "b89c4b6f",
+      "has_frontmatter": false
+    },
+    {
       "path": "extractions/oren-slop-era-creative-strategy/blind-pass-log.md",
       "name": "blind-pass-log",
       "parent": "oren-slop-era-creative-strategy",
@@ -7491,7 +7595,7 @@
       "expert": "oren-john",
       "word_count": 451,
       "modified": "2026-08-04T19:50:38.414493",
-      "age_days": 0,
+      "age_days": 1,
       "size_bytes": 2971,
       "content_hash": "be5eca96",
       "has_frontmatter": false
@@ -7504,7 +7608,7 @@
       "expert": "oren-john",
       "word_count": 2900,
       "modified": "2026-08-04T19:39:16.071563",
-      "age_days": 0,
+      "age_days": 1,
       "size_bytes": 19693,
       "content_hash": "720ef484",
       "has_frontmatter": false
@@ -7517,7 +7621,7 @@
       "expert": "oren-john",
       "word_count": 475,
       "modified": "2026-08-04T19:37:20.229229",
-      "age_days": 0,
+      "age_days": 1,
       "size_bytes": 3515,
       "content_hash": "2776ff46",
       "has_frontmatter": false
@@ -7816,7 +7920,7 @@
       "expert": null,
       "word_count": 2678,
       "modified": "2026-02-16T19:44:13.225262",
-      "age_days": 169,
+      "age_days": 170,
       "size_bytes": 17434,
       "content_hash": "e54a6092",
       "has_frontmatter": false
@@ -7829,7 +7933,7 @@
       "expert": null,
       "word_count": 370,
       "modified": "2026-07-02T18:29:37.743404",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 2378,
       "content_hash": "937d924f",
       "has_frontmatter": false
@@ -7842,7 +7946,7 @@
       "expert": null,
       "word_count": 691,
       "modified": "2026-07-02T18:29:37.741123",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 4481,
       "content_hash": "77d3ade0",
       "has_frontmatter": false
@@ -7855,7 +7959,7 @@
       "expert": "oren-john",
       "word_count": 257,
       "modified": "2026-07-02T18:29:37.742498",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 1815,
       "content_hash": "a3d6184c",
       "has_frontmatter": false
@@ -7868,7 +7972,7 @@
       "expert": null,
       "word_count": 121,
       "modified": "2026-07-02T18:29:37.743863",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 1047,
       "content_hash": "9eca6844",
       "has_frontmatter": false
@@ -9402,7 +9506,7 @@
       "expert": null,
       "word_count": 18,
       "modified": "2026-07-02T19:11:19.260036",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 119,
       "content_hash": "87d75be8",
       "has_frontmatter": false
@@ -9454,7 +9558,7 @@
       "expert": null,
       "word_count": 16487,
       "modified": "2026-07-02T19:11:19.263166",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 97999,
       "content_hash": "4f9b0df0",
       "has_frontmatter": false
@@ -9792,7 +9896,7 @@
       "expert": null,
       "word_count": 2006,
       "modified": "2026-07-02T18:30:05.789959",
-      "age_days": 33,
+      "age_days": 34,
       "size_bytes": 13674,
       "content_hash": "94d5f295",
       "has_frontmatter": false
@@ -10481,7 +10585,7 @@
       "expert": "april-dunford",
       "word_count": 3633,
       "modified": "2026-07-18T19:47:42.404458",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 23906,
       "content_hash": "d3b1a87f",
       "has_frontmatter": false

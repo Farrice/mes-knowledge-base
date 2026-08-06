@@ -1057,6 +1057,10 @@
       "skill": "oren-luxury-psychology"
     },
     {
+      "command": "/oren-norton",
+      "skill": "oren-norton-world-building"
+    },
+    {
       "command": "/oren-one",
       "skill": "oren-one-person-ai-marketer"
     },
@@ -2684,6 +2688,10 @@
       "skills": [
         "satori-graphics"
       ]
+    },
+    "scott-norton": {
+      "command": "/scott-norton",
+      "skills": []
     },
     "sean-dollwet": {
       "command": "/sean-dollwet",

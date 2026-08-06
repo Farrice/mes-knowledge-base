@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-05** [linkedin-launch/active] [Linkedin Launch — Hotel Test Proof To Market 2026 08 05](2026-08-05-linkedin-launch.md) — Linkedin Launch — Hotel Test Proof To Market 2026 08 05
 - **2026-08-05** [jen-listings/ready] [Jen Listings — 5200 Armida Package + Listing Engine v2 (/listing-package pipeline)](2026-08-05-jen-listings.md) — Fire /listing-package cold on Jen's next listing URL — first live acceptance test
 - **2026-08-05** [directives/active] [Directives — Index](2026-08-05-directives.md) — Directives — Index
 - **2026-08-05** [execution/active] [Execution — Skills Sync](2026-08-05-execution.md) — Execution — Skills Sync

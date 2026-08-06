@@ -1,7 +1,14 @@
 {
- "ts": "2026-08-05T18:39:21.219123",
+ "ts": "2026-08-05T23:44:21.666825",
  "mode": "heal",
  "rows": [
+  {
+   "id": "stale_slash_commands",
+   "cls": "JUDGMENT",
+   "what": "1 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
+   "fix": "debug the append region in execution/generate_slash_commands.py",
+   "action": "escalated"
+  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -26,12 +33,12 @@
   {
    "id": "dead_launchd",
    "cls": "JUDGMENT",
-   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
+   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 7d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
    "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
    "detail": {
     "not_loaded": [],
     "stale": [
-     "com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d)",
+     "com.antigravity.cos-notify: last ran 7d ago (cadence allows 3d)",
      "com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)"
     ]
    },
@@ -127,13 +134,6 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
-   "action": "escalated"
-  },
-  {
-   "id": "verify_system.py",
-   "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

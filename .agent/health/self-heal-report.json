@@ -1,19 +1,7 @@
 {
- "ts": "2026-08-05T18:18:59.664825",
+ "ts": "2026-08-05T18:55:08.544703",
  "mode": "report",
  "rows": [
-  {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "2 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "prompt:jen-santulan-listing-content/listing-hook-set <- 885b7a8cc 2026-08-05 feat(listing-engine-v2): /listing-package \u2014 URL to sendable package pipeline, codified from the 5200 Armida arc",
-     "skill:jen-santulan-listing-content <- 78c312b0e 2026-08-05 refactor(listing-package): one-shot delivery per Farrice's rule \u2014 no mid-run taste gates"
-    ]
-   }
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -36,10 +24,12 @@
   {
    "id": "dead_launchd",
    "cls": "JUDGMENT",
-   "what": "2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
+   "what": "1 plist(s) on disk but NOT loaded: com.antigravity.zeitgeist-daily | 2 job(s) loaded but not running on cadence: com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d); com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)",
    "fix": "launchctl load ~/Library/LaunchAgents/<label>.plist   # or read the job's log for the real failure",
    "detail": {
-    "not_loaded": [],
+    "not_loaded": [
+     "com.antigravity.zeitgeist-daily"
+    ],
     "stale": [
      "com.antigravity.cos-notify: last ran 6d ago (cadence allows 3d)",
      "com.antigravity.verify-fleet: last ran 10d ago (cadence allows 9d)"
@@ -106,6 +96,12 @@
     ],
     "deferred_files": 1
    }
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
    "id": "verify_contextual_next_prompts.py",
