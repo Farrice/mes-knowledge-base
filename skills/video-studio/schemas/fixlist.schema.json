@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Edit Bay fixlist v1 — the picky-editor review contract output",
+  "type": "object",
+  "required": ["v", "render", "reviewer", "verdict", "fixes"],
+  "properties": {
+    "v": {"const": 1},
+    "render": {"type": "string", "description": "renders/vNN.mp4 this review binds to"},
+    "reviewer": {"type": "string", "description": "sub-agent | codex | farrice"},
+    "iteration": {"type": "integer", "description": "QA loop pass number (cap: 3)"},
+    "verdict": {"enum": ["pass", "revise"]},
+    "fixes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "t", "kind", "severity", "observed", "expected", "action"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^f\\d+"},
+          "t": {"type": "number", "description": "timestamp in render (seconds)"},
+          "shot": {"type": "string", "description": "cutlist shot id if known"},
+          "kind": {"enum": ["seam", "caption", "graphic", "pacing", "audio", "color", "content"]},
+          "severity": {"enum": ["blocker", "nit"]},
+          "observed": {"type": "string"},
+          "expected": {"type": "string"},
+          "action": {"type": "string", "description": "concrete, executable — 'move s014 out from 36.10 to 36.42', never 'make it better'"},
+          "style_rule": {"type": "string", "description": "REQUIRED for blockers — which style-file rule this violates. No citation → downgrade to nit."},
+          "frame": {"type": "string", "description": "evidence frame path"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+1
+00:00:00,111 --> 00:00:01,532
+the one that I've designed is that the whole
+
+2
+00:00:01,572 --> 00:00:04,394
+thing runs on about five tools and almost all
+
+3
+00:00:04,434 --> 00:00:05,415
+of them are free.
+
+4
+00:00:05,594 --> 00:00:07,936
+Stage one is transcription and for that we'll
+
+5
+00:00:08,037 --> 00:00:08,936
+use whisper X.
+
+6
+00:00:09,057 --> 00:00:11,339
+It's a small AI model that runs locally on
+
+7
+00:00:11,359 --> 00:00:13,900
+your machine and transcribes your raw footage
+
+8
+00:00:14,000 --> 00:00:16,943
+word by word with a timestamp on every single
+
+9
+00:00:17,022 --> 00:00:17,303
+word.
+
+10
+00:00:17,803 --> 00:00:19,684
+And that matters because Claude can't actually
+
+11
+00:00:19,803 --> 00:00:22,044
+hear the audio for the clips, so it has no
+
+12
+00:00:22,123 --> 00:00:24,245
+idea where a cut should land unless it knows
+
+13
+00:00:24,285 --> 00:00:26,725
+the sub-second timing of what was actually
+
+14
+00:00:26,806 --> 00:00:27,085
+said.
+
+15
+00:00:27,225 --> 00:00:29,586
+It also can't physically make that cut without
+
+16
+00:00:29,667 --> 00:00:32,246
+writing complicated custom code, so we need
+
+17
+00:00:32,267 --> 00:00:33,707
+a package for that, FFMpeg.
+
+18
+00:00:34,067 --> 00:00:36,048
+Claude can now read the transcript and decide
+
+19
+00:00:36,088 --> 00:00:38,109
+what goes, so it takes out the silences, the
+
+20
+00:00:38,149 --> 00:00:40,530
+bad takes, and the filler, and the FFM peg
+
+21
+00:00:40,591 --> 00:00:42,591
+is what physically makes those cuts for it.
+
+22
+00:00:42,932 --> 00:00:44,872
+It trims the clips, joins them back together,
+
+23
+00:00:44,993 --> 00:00:46,133
+and cleans up your audio.
+
+24
+00:00:46,472 --> 00:00:48,314
+It's free, and it's open source, and it turns
+
+25
+00:00:48,734 --> 00:00:51,176
+25 minutes of raw footage into about 12 minutes
+
+26
+00:00:51,295 --> 00:00:52,155
+of tight video.
+
+27
+00:00:52,356 --> 00:00:53,917
+Once we've taken out all of our mistakes and
+
+28
+00:00:53,957 --> 00:00:56,457
+silences, we've got our rough cut, but without
+
+29
+00:00:56,497 --> 00:00:58,037
+some extra footage, that's going to make a
+
+30
+00:00:58,118 --> 00:01:00,338
+pretty boring video just staring at me for
+
+31
+00:01:00,460 --> 00:01:00,859
+20 minutes.
+
+32
+00:01:01,380 --> 00:01:02,901
+So next, the B-roll comes in.
+
+33
+00:01:03,081 --> 00:01:04,561
+Claude will look at all the screen recordings
+
+34
+00:01:04,581 --> 00:01:06,421
+that I've taken for the video and merge them
+
+35
+00:01:06,481 --> 00:01:07,822
+in where the script calls for it.
+
+36
+00:01:07,983 --> 00:01:09,722
+And when I don't have any footage for a line,
+
+37
+00:01:09,823 --> 00:01:11,724
+I use Higgs Field to automatically generate
+
+38
+00:01:11,763 --> 00:01:14,204
+the B-roll that fits perfectly for that scene.
+
+39
+00:01:14,686 --> 00:01:16,706
+Higgs Field lets Claude access all the best
+
+40
+00:01:16,887 --> 00:01:19,268
+image and video models in one connection using
+
+41
+00:01:19,328 --> 00:01:20,067
+its MCP.
+
+42
+00:01:20,448 --> 00:01:22,296
+So Claude reads the context of the script and
+
+43
+00:01:22,316 --> 00:01:24,302
+then can go and generate footage that fits
+
+44
+00:01:24,362 --> 00:01:25,528
+exactly what I'm saying.
+

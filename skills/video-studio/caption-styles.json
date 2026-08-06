@@ -1,0 +1,17 @@
+{
+  "_comment": "ASS force_style presets consumed by edit_bay.py captions-burn. Colors are &HAABBGGRR (ASS byte order). Fonts must exist locally; Premium Minimal brand pairs with Instrument-Serif-style display type for GRAPHICS — captions stay neutral/legible.",
+  "styles": {
+    "yt-default": {
+      "desc": "Long-form 16:9 — small, low, unobtrusive; never covers a face at lower-third height.",
+      "force_style": "FontName=Helvetica Neue,FontSize=13,PrimaryColour=&H00FFFFFF,OutlineColour=&H14000000,BorderStyle=1,Outline=1.3,Shadow=0.5,Alignment=2,MarginV=44,Bold=0"
+    },
+    "shorts-bold": {
+      "desc": "9:16 shorts — big, bold, center-low, word-group blocks for silent viewing.",
+      "force_style": "FontName=Helvetica Neue,FontSize=19,PrimaryColour=&H00FFFFFF,OutlineColour=&H32000000,BorderStyle=1,Outline=2.2,Shadow=0.8,Alignment=2,MarginV=170,Bold=1,Spacing=0.4"
+    },
+    "linkedin-clean": {
+      "desc": "LinkedIn silent-autoplay — burned always, calm weight, higher margin above UI chrome.",
+      "force_style": "FontName=Helvetica Neue,FontSize=14,PrimaryColour=&H00FFFFFF,OutlineColour=&H1E000000,BorderStyle=1,Outline=1.6,Shadow=0.4,Alignment=2,MarginV=60,Bold=0"
+    }
+  }
+}

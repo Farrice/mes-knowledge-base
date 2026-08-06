@@ -3,7 +3,7 @@
 Creative model router for the Antigravity Supercomputer.
 
 Given a creative task description, returns:
-  - which service to call (fal-poster, higgsfield-soul, veo-3, etc.)
+  - which service to call (fal-poster, fal-people, fal-kling, etc.)
   - estimated cost
   - reason for the route
   - the cost_gate.py command to run as pre-flight
@@ -63,7 +63,7 @@ RULES = [
         "notes": "For concept-first, non-redundant work run /fantastic-studio (art-direct → divergence → route → critique) instead of a bare prompt. --quality=medium first pass; high only for finals.",
     },
 
-    # ─── Photoreal product / lifestyle / hero shots + PEOPLE (Higgsfield Soul wins) ───
+    # ─── Photoreal product / lifestyle / hero shots + PEOPLE (fal lane; Higgsfield retired 2026-08-06) ───
     {
         "patterns": [r"\bphotoreal\b", r"\bphoto[- ]?realistic\b", r"\bproduct\s+(hero|shot|photo)\b",
                      r"\blifestyle\s+shot\b", r"\bproduct\s+page\b",
@@ -72,17 +72,17 @@ RULES = [
                      r"\bportrait\b", r"\b(a\s+)?person\b", r"\bpeople\b", r"\bmodel\s+(wearing|shot|photo)\b",
                      r"\bcharacter\s+(consistency|reference)?\b", r"\bheadshot\b", r"\bface\b",
                      r"\bon[- ]?body\b", r"\bugc\s+(photo|still)\b", r"\btalent\b"],
-        "service": "higgsfield-soul",
-        "reason": "Photoreal / people / character → Higgsfield Soul 2.0 (best photoreal + face consistency)",
-        "notes": "One-off people shots and product heroes route here, not fal-poster. Attach a character ref for consistency. Character BUILDS (face lock, outfit base, character sheet, persistent characters) → load skills/banana-pro-director/SKILL.md: Banana Pro (Nano Banana) is the build default, Higgsfield GPT-2 the fidelity escalation (≠ OpenAI GPT Image 2 / gpt-image-2-director), Soul the two-step iteration path.",
+        "service": "fal-people",
+        "reason": "Photoreal / people / character → fal people lane (Higgsfield RETIRED 2026-08-06; A/B nano-banana-2 vs flux-2 on first real job)",
+        "notes": "One-off people shots and product heroes route here, not fal-poster. Nano Banana 2 (generate_image.py --reference for identity) is the default; escalate to flux-2 via generate_media.py if faces disappoint. Character BUILDS still load skills/banana-pro-director/SKILL.md for the prompt grammar (its Higgsfield escalation path is retired — stay fal-side). Always append the anti-AI-slop anatomy paragraph (feedback_visual-tool-routing rule 11).",
     },
 
     # ─── Quick concept images / cheap iteration (Nano Banana Pro) ───
     {
         "patterns": [r"\bquick\b", r"\bdraft\b", r"\bconcept\s+image\b", r"\biterate\b",
                      r"\bsketch\b", r"\bvariation\b"],
-        "service": "higgsfield-nano",
-        "reason": "Quick iteration → Higgsfield Nano Banana Pro (fastest, cheapest)",
+        "service": "fal-nano-banana",
+        "reason": "Quick iteration → Nano Banana 2 on fal via generate_image.py (fastest, cheapest; Higgsfield RETIRED 2026-08-06)",
     },
 
     # ─── Editing an existing image ───
@@ -104,13 +104,13 @@ RULES = [
         "notes": "Default duration 10s; pass --duration=15 for longer",
     },
 
-    # ─── Cinematic single-shot video (Higgsfield Cinema Studio) ───
+    # ─── Cinematic single-shot video (Seedance on fal; Higgsfield retired) ───
     {
         "patterns": [r"\bcinematic\b", r"\bfilm\s+look\b", r"\bmoody\b",
                      r"\bcinema\s+studio\b", r"\bdolly\b", r"\bcrane\s+shot\b"],
-        "service": "higgsfield-cinema",
-        "reason": "Cinematic single-shot → Higgsfield Cinema Studio 3.5",
-        "notes": "5-10s clips. For longer/multi-shot, prefer Kling. Cinematic prompt construction → skills/cinema-worldbuilder-pro/SKILL.md (block grammar, FOV degrees, Capture Realism).",
+        "service": "fal-seedance-720p",
+        "reason": "Cinematic single-shot → Seedance 720p on fal (Higgsfield Cinema RETIRED 2026-08-06)",
+        "notes": "5-10s clips. For longer/multi-shot, prefer Kling. Cinematic prompt construction → skills/cinema-worldbuilder-pro/SKILL.md (block grammar, FOV degrees, Capture Realism). 1080p stays HARD-BLOCKED.",
     },
 
     # ─── Premium cinema-grade (Veo 3.1 — uses Google Ultra quota) ───
@@ -135,8 +135,8 @@ RULES = [
     {
         "patterns": [r"\bvirality\b", r"\bpredict\s+engagement\b", r"\bhook\s+strength\b",
                      r"\battention\s+score\b"],
-        "service": "higgsfield-virality",
-        "reason": "Virality prediction → Higgsfield virality predictor",
+        "service": "manual-review",
+        "reason": "Virality prediction — Higgsfield RETIRED 2026-08-06; no in-house predictor. Judge with hook skills + jenny-hoyos retention grammar instead.",
     },
 
     # ─── Voiceover / TTS (wrapper-less recipe via generate_media.py) ───

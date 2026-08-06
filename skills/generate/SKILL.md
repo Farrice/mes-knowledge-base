@@ -1,6 +1,6 @@
 ---
 name: generate
-description: 'The /generate front door — in-house, pay-as-you-go creative generation (Higgsfield replacement). One command for image, video, and audio: routes each request to the right model recipe (skills/generate/models/*.json), defers to binding creative_router lanes (people → Higgsfield Soul, style-family → fantastic-posters), quotes paid video before running, honors prompt-level budgets ("total budget $3"), runs comparison batches across models, logs every prompt beside its asset, and auto-refreshes the Asset Command Center (/assets-board). Use when the user says "generate", "make an image/video/voiceover", "create ads/assets/creative", names a model (recraft, kling, seedance, nano banana, gpt image), or asks for a multi-model comparison. Source: RoboNuggets 9C4TRbucmhQ, rebuilt on our fal-first stack.'
+description: 'The /generate front door — in-house, pay-as-you-go creative generation (Higgsfield replacement). One command for image, video, and audio: routes each request to the right model recipe (skills/generate/models/*.json), defers to binding creative_router lanes (people → fal-people, style-family → fantastic-posters; Higgsfield fully retired 2026-08-06), quotes paid video before running, honors prompt-level budgets ("total budget $3"), runs comparison batches across models, logs every prompt beside its asset, and auto-refreshes the Asset Command Center (/assets-board). Use when the user says "generate", "make an image/video/voiceover", "create ads/assets/creative", names a model (recraft, kling, seedance, nano banana, gpt image), or asks for a multi-model comparison. Source: RoboNuggets 9C4TRbucmhQ, rebuilt on our fal-first stack.'
 ---
 
 # /generate — Creative Generation Front Door
@@ -12,7 +12,7 @@ Everything already indexed lands on the board: `open .agent/assets/assets-board.
 
 1. **Binding lanes first** (user feedback, never skip): run
    `python3 execution/creative_router.py route --task "<brief>"` —
-   PEOPLE/photoreal → `higgsfield-soul` · style-family/poster words → `fantastic-posters` ·
+   PEOPLE/photoreal → `fal-people` (nano-banana-2 w/ reference; Higgsfield retired 2026-08-06) · style-family/poster words → `fantastic-posters` ·
    persistent character/world → `/jcin-pipeline`. Follow what it says.
 2. Otherwise pick by media type (defaults, cheapest-capable-first) or by the model Farrice names:
 

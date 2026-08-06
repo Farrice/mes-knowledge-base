@@ -1,0 +1,21 @@
+{
+ "v": 1,
+ "project": "video-studio-shakedown",
+ "fps": 30,
+ "preset": "yt-169",
+ "beats": [
+  {"id": "b01", "label": "pipeline-tools", "script": "the whole thing runs on about five tools", "notes": {"camera": "talking head"}},
+  {"id": "b02", "label": "broll-intro-no-higgsfield", "script": "B-roll from screen recordings (Higgsfield segment cut — retired 2026-08-06)", "notes": {}}
+ ],
+ "shots": [
+  {"id": "s001", "beat": "b01", "role": "main", "src": "footage/test-clip.mp4", "in": 0.11, "out": 8.94, "transition": {"type": "cut"}, "audio": {"keep": true}},
+  {"id": "s002", "beat": "b01", "role": "main", "src": "footage/test-clip.mp4", "in": 9.06, "out": 17.30, "transition": {"type": "cut"}, "audio": {"keep": true}},
+  {"id": "s003", "beat": "b01", "role": "main", "src": "footage/test-clip.mp4", "in": 17.80, "out": 27.09, "transition": {"type": "cut"}, "audio": {"keep": true}},
+  {"id": "s004", "beat": "b01", "role": "main", "src": "footage/test-clip.mp4", "in": 34.07, "out": 46.13, "transition": {"type": "cut"}, "audio": {"keep": true}},
+  {"id": "s005", "beat": "b01", "role": "main", "src": "footage/test-clip.mp4", "in": 46.47, "out": 62.90, "transition": {"type": "xfade", "dur": 0.25}, "audio": {"keep": true}},
+  {"id": "s006", "beat": "b02", "role": "main", "src": "footage/test-clip.mp4", "in": 63.08, "out": 67.82, "transition": {"type": "cut"}, "audio": {"keep": true}}
+ ],
+ "audio": {"vo": null, "music": [], "lufs": -14},
+ "captions": {"srt": "captions/auto.srt", "style": "yt-default", "burn": false},
+ "revisions": []
+}

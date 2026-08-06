@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:02,000
+Brad Bonanno's edit pipeline
+
+2
+00:00:02,000 --> 00:00:05,000
+Agent-driven video editing
+
+3
+00:00:05,000 --> 00:00:07,000
+Full automation in Claude Code

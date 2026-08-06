@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Edit Bay cutlist v1",
+  "type": "object",
+  "required": ["v", "project", "shots"],
+  "properties": {
+    "v": {"const": 1},
+    "project": {"type": "string", "description": "_active/<slug>"},
+    "fps": {"type": "number", "default": 30},
+    "preset": {"enum": ["yt-169", "vert-916", "linkedin"], "default": "yt-169"},
+    "beats": {
+      "type": "array",
+      "description": "Script beats — the storyboard layer. Shots reference beats by id; annotations from the script land in notes.",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^b\\d+"},
+          "label": {"type": "string"},
+          "script": {"type": "string", "description": "the words spoken over this beat"},
+          "notes": {
+            "type": "object",
+            "description": "script-annotation grammar: [music:] [broll:] [graphic:] [camera:] [ref:]",
+            "properties": {
+              "music": {"type": "string"},
+              "broll": {"type": "string"},
+              "graphic": {"type": "string"},
+              "camera": {"type": "string"},
+              "ref": {"type": "string"},
+              "gesture": {"type": "string", "description": "gesture-timing cue graphics sync to (transcendence field — Bonanno does this implicitly)"}
+            }
+          }
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "role"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^s\\d+"},
+          "beat": {"type": "string"},
+          "role": {"enum": ["main", "broll", "graphic"]},
+          "enabled": {"type": "boolean", "default": true},
+          "src": {"type": "string", "description": "footage path (project-relative to 05-assets/video/, repo-relative, or absolute)"},
+          "in": {"type": "number", "description": "seconds into src"},
+          "out": {"type": "number"},
+          "dur": {"type": "number", "description": "for graphics/stills without in/out"},
+          "engine": {"enum": ["hyperframes", "remotion", "generate"], "description": "graphic shots: which engine renders the file in `render`"},
+          "comp": {"type": "string", "description": "graphic source dir (HTML comp / .tsx / prompt file)"},
+          "render": {"type": "string", "description": "pre-rendered file this shot assembles from — graphics render FIRST, ffmpeg assembles SECOND"},
+          "transition": {
+            "type": "object",
+            "properties": {
+              "type": {"enum": ["cut", "xfade"], "default": "cut"},
+              "dur": {"type": "number", "default": 0.25}
+            }
+          },
+          "audio": {
+            "type": "object",
+            "properties": {
+              "keep": {"type": "boolean", "default": true},
+              "gain_db": {"type": "number", "default": 0},
+              "duck_music": {"type": "boolean", "default": true}
+            }
+          }
+        }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "vo": {"type": ["string", "null"], "description": "voiceover track (VO-only / zero-camera modes)"},
+        "music": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["src"],
+            "properties": {
+              "src": {"type": "string"},
+              "in": {"type": "number", "default": 0},
+              "gain_db": {"type": "number", "default": -18},
+              "duck_db": {"type": "number", "default": -10}
+            }
+          }
+        },
+        "lufs": {"type": "number", "default": -14}
+      }
+    },
+    "captions": {
+      "type": "object",
+      "properties": {
+        "srt": {"type": "string"},
+        "style": {"type": "string", "default": "yt-default"},
+        "burn": {"type": "boolean", "default": false}
+      }
+    },
+    "revisions": {
+      "type": "array",
+      "description": "QA-loop audit trail — every applied fixlist appends here",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ts": {"type": "string"},
+          "by": {"type": "string", "description": "qa-loop | farrice"},
+          "render": {"type": "string"},
+          "fixes": {"type": "array", "items": {"type": "string"}},
+          "note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

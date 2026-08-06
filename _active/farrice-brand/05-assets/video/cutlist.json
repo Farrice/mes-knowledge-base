@@ -1,0 +1,70 @@
+{
+  "v": 1,
+  "project": "farrice-brand",
+  "preset": "yt-169",
+  "beats": [
+    {
+      "id": "b1",
+      "label": "intro",
+      "script": "Brad Bonanno's edit pipeline demo",
+      "notes": {
+        "broll": "pipeline diagram",
+        "camera": "screencast"
+      }
+    },
+    {
+      "id": "b2",
+      "label": "main demo",
+      "script": "Watch how the agent drives the cuts",
+      "notes": {
+        "broll": "live edit sequence",
+        "graphic": "timeline overlay"
+      }
+    },
+    {
+      "id": "b3",
+      "label": "results",
+      "script": "Final assembled video",
+      "notes": {
+        "camera": "screencast"
+      }
+    }
+  ],
+  "shots": [
+    {
+      "id": "s1",
+      "beat": "b1",
+      "role": "main",
+      "src": "../../../extractions/brad-bonanno-edit-bay/frames/frame_0007.jpg",
+      "dur": 2.0,
+      "enabled": true,
+      "audio": {"keep": false}
+    },
+    {
+      "id": "s2",
+      "beat": "b2",
+      "role": "main",
+      "src": "../../../extractions/brad-bonanno-edit-bay/frames/frame_0026.jpg",
+      "dur": 3.0,
+      "enabled": true,
+      "audio": {"keep": false}
+    },
+    {
+      "id": "s3",
+      "beat": "b3",
+      "role": "main",
+      "src": "../../../extractions/brad-bonanno-edit-bay/frames/frame_0032.jpg",
+      "dur": 2.0,
+      "enabled": true,
+      "audio": {"keep": false}
+    }
+  ],
+  "audio": {
+    "lufs": -14.0
+  },
+  "captions": {
+    "style": "yt-default",
+    "burn": false
+  },
+  "revisions": []
+}
