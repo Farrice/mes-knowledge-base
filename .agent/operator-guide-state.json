@@ -1,6 +1,6 @@
 {
-  "last_synced_commit": "5d1ef31ca6fe10f90c8467ba39081d8347b84d12",
-  "last_synced_at": "2026-08-06T20:00:02Z",
+  "last_synced_commit": "8c9bd5b106fe008a059576b4bce3110ccd40bc69",
+  "last_synced_at": "2026-08-06T23:31:32Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
@@ -53,6 +53,11 @@
     ".agent/workflows/sll-cadence-audit.md": "8d59b8bb75713cc5f715c4f830f8691dee251ea1",
     ".agent/workflows/sll-lead-form.md": "9335bbd12045245f8414d050727caf2bb79b6e34",
     ".agent/workflows/sll-long-form-explainer.md": "d218fff2c2d7d962b6c8a237d3e912032566628b",
-    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2"
+    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2",
+    ".agent/workflows/broll-ladder.md": "880991edd14707c2e055f46513882b6267976739",
+    ".agent/workflows/derive-shorts.md": "7018103005cfe83b308bf8c3820a4e470b77e1de",
+    ".agent/workflows/package-release.md": "de20c5d6954668a04320cb86c4bf0701f2d99cb4",
+    ".agent/workflows/produce-explainer.md": "c0dd43827eda185867e81fcd5601fd8d0d139ad4",
+    ".agent/workflows/qa-review-loop.md": "83c48db6a75f601664345f7e913b0f0c985e59c2"
   }
 }

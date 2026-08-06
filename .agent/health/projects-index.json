@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T20:28:32.937850+00:00",
+  "generated_at": "2026-08-06T23:29:00.557866+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -148,7 +148,7 @@
       "index_exists": true,
       "last_touched": "2026-05-01",
       "last_touched_source": "git",
-      "days": 96,
+      "days": 97,
       "prefix_collisions": {}
     },
     {
@@ -193,7 +193,7 @@
       "index_exists": true,
       "last_touched": "2026-06-11",
       "last_touched_source": "git",
-      "days": 55,
+      "days": 56,
       "prefix_collisions": {}
     },
     {
@@ -313,7 +313,7 @@
       "index_exists": true,
       "last_touched": "2026-07-01",
       "last_touched_source": "git",
-      "days": 35,
+      "days": 36,
       "prefix_collisions": {}
     },
     {
@@ -377,6 +377,21 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
+      "name": "hyperframes-studio",
+      "root": "_active",
+      "path": "_active/hyperframes-studio",
+      "status": "active",
+      "status_source": "derived",
+      "declared_raw": null,
+      "entry": "README.md",
+      "index_exists": false,
+      "last_touched": "2026-08-06",
+      "last_touched_source": "git",
+      "days": 0,
+      "prefix_collisions": {}
+    },
+    {
       "stamped_after_touch": true,
       "name": "javier-human-values",
       "root": "_active",
@@ -433,7 +448,7 @@
       "index_exists": true,
       "last_touched": "2026-07-01",
       "last_touched_source": "git",
-      "days": 35,
+      "days": 36,
       "prefix_collisions": {}
     },
     {
@@ -478,7 +493,7 @@
       "index_exists": true,
       "last_touched": "2026-06-02",
       "last_touched_source": "mtime",
-      "days": 64,
+      "days": 65,
       "prefix_collisions": {}
     },
     {
@@ -513,7 +528,7 @@
       "index_exists": true,
       "last_touched": "2026-07-24",
       "last_touched_source": "git",
-      "days": 12,
+      "days": 13,
       "prefix_collisions": {}
     },
     {
@@ -738,7 +753,7 @@
       "index_exists": true,
       "last_touched": "2026-07-13",
       "last_touched_source": "git",
-      "days": 23,
+      "days": 24,
       "prefix_collisions": {}
     },
     {
@@ -768,7 +783,7 @@
       "index_exists": true,
       "last_touched": "2026-03-14",
       "last_touched_source": "mtime",
-      "days": 144,
+      "days": 145,
       "prefix_collisions": {}
     },
     {
@@ -783,7 +798,7 @@
       "index_exists": true,
       "last_touched": "2026-07-16",
       "last_touched_source": "git",
-      "days": 20,
+      "days": 21,
       "prefix_collisions": {}
     },
     {
@@ -875,6 +890,21 @@
       "last_touched_source": "mtime",
       "days": 8,
       "prefix_collisions": {}
+    },
+    {
+      "stamped_after_touch": false,
+      "name": "video-studio-shakedown",
+      "root": "_active",
+      "path": "_active/video-studio-shakedown",
+      "status": "active",
+      "status_source": "derived",
+      "declared_raw": null,
+      "entry": null,
+      "index_exists": false,
+      "last_touched": "2026-08-06",
+      "last_touched_source": "git",
+      "days": 0,
+      "prefix_collisions": {}
     }
   ],
   "drift": [
@@ -889,6 +919,11 @@
       "detail": "no INDEX.md \u2014 project has no entry point"
     },
     {
+      "kind": "missing_index",
+      "project": "_active/hyperframes-studio",
+      "detail": "no INDEX.md \u2014 project has no entry point"
+    },
+    {
       "kind": "dual_taxonomy",
       "project": "_active/linkedin-launch",
       "detail": "05-* collision: 05-assets + 05-lead-gen"
@@ -897,6 +932,11 @@
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
       "detail": "stamped done, then touched 8d ago"
+    },
+    {
+      "kind": "missing_index",
+      "project": "_active/video-studio-shakedown",
+      "detail": "no INDEX.md \u2014 project has no entry point"
     }
   ]
 }

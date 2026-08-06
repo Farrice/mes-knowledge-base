@@ -3672,7 +3672,7 @@
    "front_door": "/brad-bonanno-explainer-architecture",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": null,
+   "last_fired": "2026-08-06T20:44:56.572739+00:00",
    "skill_last_fired": null,
    "mtime": 1777839794.1741145
   },
@@ -5533,7 +5533,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1783362449.0001643
   },
   {
@@ -5548,7 +5548,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1783362449.0004852
   },
   {
@@ -5563,7 +5563,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1783362449.0007634
   },
   {
@@ -5578,7 +5578,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1783362449.0010679
   },
   {
@@ -5593,7 +5593,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1783362449.001346
   },
   {
@@ -13333,7 +13333,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5349329
   },
   {
@@ -13348,7 +13348,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5328035
   },
   {
@@ -13363,7 +13363,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5138907
   },
   {
@@ -13378,7 +13378,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5258565
   },
   {
@@ -13393,7 +13393,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.530777
   },
   {
@@ -13408,7 +13408,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.522722
   },
   {
@@ -13423,7 +13423,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5284228
   },
   {
@@ -13438,7 +13438,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5205123
   },
   {
@@ -13453,7 +13453,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5092673
   },
   {
@@ -13468,7 +13468,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5183706
   },
   {
@@ -13483,7 +13483,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5160222
   },
   {
@@ -13498,7 +13498,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.537576
   },
   {
@@ -13513,7 +13513,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "skill_last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5401754
   },
   {
@@ -35428,7 +35428,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5303314
   },
   {
@@ -35443,7 +35443,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.529792
   },
   {
@@ -35458,7 +35458,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5293198
   },
   {
@@ -35473,7 +35473,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.53194
   },
   {
@@ -35488,7 +35488,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5313716
   },
   {
@@ -35503,7 +35503,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5288198
   },
   {
@@ -35518,7 +35518,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5311306
   },
   {
@@ -35533,7 +35533,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5306096
   },
   {
@@ -35548,7 +35548,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5285711
   },
   {
@@ -35563,7 +35563,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5295467
   },
   {
@@ -35578,7 +35578,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5300713
   },
   {
@@ -35593,7 +35593,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5308769
   },
   {
@@ -35608,7 +35608,7 @@
    "has_prompts_v2": true,
    "family": "\ud83c\udfac Story Craft \u2014 Sander Runia",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1784402707.5290859
   },
   {
@@ -37290,6 +37290,96 @@
    "last_fired": null,
    "skill_last_fired": null,
    "mtime": 1785299203.5749278
+  },
+  {
+   "id": "broll-ladder",
+   "command": "broll-ladder",
+   "kind": "skill-workflow",
+   "skill": "video-studio",
+   "path": "skills/video-studio/workflows/broll-ladder.md",
+   "description": "Free-first, ORDERED, mandatory (Farrice 2026-08-06). Descend only when the rung above",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1786048369.3443012
+  },
+  {
+   "id": "derive-shorts",
+   "command": "derive-shorts",
+   "kind": "skill-workflow",
+   "skill": "video-studio",
+   "path": "skills/video-studio/workflows/derive-shorts.md",
+   "description": "Beats make this cheap: shorts are re-cuts of the long-form cutlist, not new edits.",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1786049071.0684862
+  },
+  {
+   "id": "package-release",
+   "command": "package-release",
+   "kind": "skill-workflow",
+   "skill": "video-studio",
+   "path": "skills/video-studio/workflows/package-release.md",
+   "description": "Distribution ruling (2026-08-06): the studio delivers everything needed to post;",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1786049079.6069212
+  },
+  {
+   "id": "produce-explainer",
+   "command": "produce-explainer",
+   "kind": "skill-workflow",
+   "skill": "video-studio",
+   "path": "skills/video-studio/workflows/produce-explainer.md",
+   "description": "The full production cycle. Every step names its artifact; nothing ships without the QA loop.",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1786051026.1013255
+  },
+  {
+   "id": "qa-review-loop",
+   "command": "qa-review-loop",
+   "kind": "skill-workflow",
+   "skill": "video-studio",
+   "path": "skills/video-studio/workflows/qa-review-loop.md",
+   "description": "No editor edits with their eyes closed. Visual stages fail by default; this loop is where",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1786048453.0340326
+  },
+  {
+   "id": "script-annotation",
+   "command": "video-studio",
+   "kind": "skill-workflow",
+   "skill": "video-studio",
+   "path": "skills/video-studio/workflows/script-annotation.md",
+   "description": "10 minutes of comments saves hours of back-and-forth.\" The agent stops guessing and reads.",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1786048338.8220406
   },
   {
    "id": "01-data-bank-build",
@@ -42623,6 +42713,19 @@
    "mtime": 1786045331.378543
   },
   {
+   "id": "broll-ladder",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/broll-ladder.md",
+   "description": "Free-first, ORDERED, mandatory (Farrice 2026-08-06). Descend only when the rung above",
+   "menu_status": "reachable",
+   "front_door": "/broll-ladder",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1786058946.211712
+  },
+  {
    "id": "browder-cause-campaign",
    "kind": "command-workflow",
    "skill": null,
@@ -47314,6 +47417,19 @@
    "family": "\ud83d\udca1 Depth & Interiority Engine",
    "last_fired": null,
    "mtime": 1784686539.8485012
+  },
+  {
+   "id": "derive-shorts",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/derive-shorts.md",
+   "description": "Beats make this cheap: shorts are re-cuts of the long-form cutlist, not new edits.",
+   "menu_status": "reachable",
+   "front_door": "/derive-shorts",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1786058946.211963
   },
   {
    "id": "design-brief",
@@ -62370,6 +62486,19 @@
    "mtime": 1775779996.3777676
   },
   {
+   "id": "package-release",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/package-release.md",
+   "description": "Distribution ruling (2026-08-06): the studio delivers everything needed to post;",
+   "menu_status": "reachable",
+   "front_door": "/package-release",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1786058946.2123773
+  },
+  {
    "id": "packy-mccormick-develop-writing-voice",
    "kind": "command-workflow",
    "skill": null,
@@ -63644,6 +63773,19 @@
    "mtime": 1785006847.3911047
   },
   {
+   "id": "produce-explainer",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/produce-explainer.md",
+   "description": "The full production cycle. Every step names its artifact; nothing ships without the QA loop.",
+   "menu_status": "reachable",
+   "front_door": "/produce-explainer",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1786058946.2127812
+  },
+  {
    "id": "product-build",
    "kind": "command-workflow",
    "skill": null,
@@ -64409,6 +64551,19 @@
    "family": null,
    "last_fired": null,
    "mtime": 1786041295.6422203
+  },
+  {
+   "id": "qa-review-loop",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/qa-review-loop.md",
+   "description": "No editor edits with their eyes closed. Visual stages fail by default; this loop is where",
+   "menu_status": "reachable",
+   "front_door": "/qa-review-loop",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1786058946.2129993
   },
   {
    "id": "quality-content",
@@ -74408,7 +74563,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 5,
-   "last_fired": null,
+   "last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1786001789.3967452
   },
   {
@@ -75396,14 +75551,14 @@
    "kind": "skill",
    "skill": "generate",
    "path": "skills/generate/SKILL.md",
-   "description": "The /generate front door \u2014 in-house, pay-as-you-go creative generation (Higgsfield replacement). One command for image, video, and audio: routes each request to the right model recipe (skills/generate/models/*.json), defers to binding creative_router lanes (people \u2192 Higgsfield Soul, style-family \u2192 fantastic-posters), quotes paid video before running, honors prompt-level budgets (\"total budget $3\")",
+   "description": "The /generate front door \u2014 in-house, pay-as-you-go creative generation (Higgsfield replacement). One command for image, video, and audio: routes each request to the right model recipe (skills/generate/models/*.json), defers to binding creative_router lanes (people \u2192 fal-people, style-family \u2192 fantastic-posters; Higgsfield fully retired 2026-08-06), quotes paid video before running, honors prompt-l",
    "menu_status": "reachable",
    "front_door": "/generate",
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
    "last_fired": "2026-08-06T01:14:31.190571+00:00",
-   "mtime": 1786001789.424769
+   "mtime": 1786049019.8418071
   },
   {
    "id": "geoff-woods-ai-thought-partner",
@@ -75472,7 +75627,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": null,
+   "last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1786001789.4270175
   },
   {
@@ -75584,7 +75739,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 13,
-   "last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1786001789.430059
   },
   {
@@ -78650,7 +78805,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 13,
-   "last_fired": null,
+   "last_fired": "2026-08-06T21:12:55.976037+00:00",
    "mtime": 1786001789.4996195
   },
   {
@@ -78960,6 +79115,20 @@
    "workflow_count": 4,
    "last_fired": null,
    "mtime": 1785299203.5742402
+  },
+  {
+   "id": "video-studio",
+   "kind": "skill",
+   "skill": "video-studio",
+   "path": "skills/video-studio/SKILL.md",
+   "description": "The Edit Bay \u2014 in-house conversational video studio (VOX-style explainers, documentaries, shorts, LinkedIn video). Transcript-driven cutting, B-roll ladder, motion graphics as code, captions, music, publish-ready packages \u2014 all agent-operated, free-first. Use when Farrice says \"edit this video/footage\", \"make an explainer/documentary/short\", \"cut this recording\", \"add B-roll/captions/music\", \"turn",
+   "menu_status": "reachable",
+   "front_door": "/video-studio",
+   "has_prompts_v2": false,
+   "family": null,
+   "workflow_count": 6,
+   "last_fired": null,
+   "mtime": 1786051032.0312731
   },
   {
    "id": "vince-nijhof-dtc-operator-system",
@@ -79542,7 +79711,7 @@
    "front_door": "/brad-bonanno",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": null,
+   "last_fired": "2026-08-06T20:44:56.572739+00:00",
    "mtime": 1777840217.6311557
   },
   {
@@ -80335,7 +80504,7 @@
    "front_door": "/hilary-gridley",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-08-02T21:55:49.940929+00:00",
+   "last_fired": "2026-08-06T21:15:46.120360+00:00",
    "mtime": 1785250279.5515041
   },
   {
@@ -82186,7 +82355,7 @@
   }
  ],
  "fingerprint": [
-  9241,
-  1786048042.152
+  9259,
+  1786058946.213
  ]
 }

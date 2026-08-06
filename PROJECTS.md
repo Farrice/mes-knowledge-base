@@ -10,8 +10,10 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 |---|---|---|---|---|
 | `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-06 | active |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-06 | active* |
+| `hyperframes-studio` | _active/ | `_active/hyperframes-studio/README.md` | 2026-08-06 | active* |
 | `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-06 | active* |
 | `mastery-forge` | _active/ | `_active/mastery-forge/INDEX.md` | 2026-08-06 | active* |
+| `video-studio-shakedown` | _active/ | **— none —** | 2026-08-06 | active* |
 | `digital-product-lane-2026-08-05` | _active/ | **— none —** | 2026-08-05 | active* |
 | `jen-listings` | _active/ | `_active/jen-listings/INDEX.md` | 2026-08-05 | active* |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
@@ -77,7 +79,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `operator-core-backport` | _active/ | `_active/operator-core-backport/INDEX.md` | 2026-06-30 | done |
 | `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
 
-**58 projects** — 18 active, 20 parked, 20 done.
+**60 projects** — 20 active, 20 parked, 20 done.
 
 ## Needs judgment
 
@@ -85,6 +87,8 @@ Contradictions only — not a list of unstamped projects.
 
 - **status_done_but_live** — `_active/codex-harvest-2026-06-11`: stamped done, then touched 0d ago
 - **missing_index** — `_active/digital-product-lane-2026-08-05`: no INDEX.md — project has no entry point
+- **missing_index** — `_active/hyperframes-studio`: no INDEX.md — project has no entry point
 - **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
 - **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 8d ago
+- **missing_index** — `_active/video-studio-shakedown`: no INDEX.md — project has no entry point
 
