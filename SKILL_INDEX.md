@@ -386,6 +386,7 @@
 | `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | audience design, and 'how i' narratives, linkedin founder growth | 6 | 4 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | beehiiv ceo tyler denk's system for audience acquisition, founder-led marketing, and high-ticket b2b monetization | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | velocity scaling × dtc subscription × celebrity partnership × infrastructure pivot, speed itself becomes the moat, danny yeung | 18 | 0 |
+| `video-studio` | **video-studio** | agentic video editing + production, the edit bay — in-house conversational video studio (vox-style explainers, documentaries | 6 | 0 |
 | `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc-operator-system, $20m/month dtc operator's playbook — paid-ads-first, ai-native | 14 | 0 |
 | `voice-os` | **voice-os** | cross-cutting identity x voice fidelity x calibration | 4 | 0 |
 | `ward-farnsworth-rhetorical-mastery` | **Ward Farnsworth — Rhetorical Mastery** | latinate chord-changes, chiasmus, anaphora | 15 | 4 |

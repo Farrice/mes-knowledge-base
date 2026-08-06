@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-06** [video-studio-edit-bay/ready] [Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)](2026-08-06-video-studio-edit-bay.md) — Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
 - **2026-08-06** [solutions/active] [Solutions — Auto Caption Proper Nouns Poison Extraction Slug](2026-08-06-solutions.md) — Solutions — Auto Caption Proper Nouns Poison Extraction Slug
 - **2026-08-06** [brad-bonanno-explainer-architecture/active] [Brad Bonanno Explainer Architecture — Skill](2026-08-06-brad-bonanno-explainer-architecture.md) — Brad Bonanno Explainer Architecture — Skill
 - **2026-08-06** [readout-os/ready] [Readout OS — Visual Delivery System Build (Briefing Room + Live Pulse + Premium Minimal)](2026-08-06-readout-os.md) — Deploy phase: /briefing-room + /pulse-board daily; scratch off 3 waiting missions; verify Mon 07:30 angle brief lands

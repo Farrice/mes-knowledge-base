@@ -1441,6 +1441,10 @@
       "skill": "velocity-scaling"
     },
     {
+      "command": "/video-studio",
+      "skill": "video-studio"
+    },
+    {
       "command": "/vince-nijhof-dtc-operator-system",
       "skill": "vince-nijhof-dtc-operator-system"
     },

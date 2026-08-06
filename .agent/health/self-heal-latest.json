@@ -1,7 +1,16 @@
 {
- "ts": "2026-08-06T13:28:22.291960",
+ "ts": "2026-08-06T16:27:52.077931",
  "mode": "heal",
  "rows": [
+  {
+   "id": "stale_registries",
+   "cls": "AUTO",
+   "what": "SKILL_INDEX.md / AGENT_INDEX.md are behind the filesystem",
+   "fix": "python3 execution/sync_registries.py",
+   "action": "healed",
+   "note": "registries rebuilt; verify_system no longer flags them",
+   "commit": "commit skipped (--no-commit; the caller owns the commit)"
+  },
   {
    "id": "born_intent_drift",
    "cls": "EVIDENCE",
@@ -9,11 +18,11 @@
    "fix": "python3 execution/verify_born_intent_drift.py --bless",
    "detail": {
     "explained": [
-     "workflow:oracle-board <- 94addb69e 2026-08-06 feat(oracle): board v2 \u2014 live cockpit on the pulse server (plan Part 4)"
+     "skill:generate <- 7d43c4fb6 2026-08-06 Phase 1 Complete: Video Studio Edit Bay \u2014 production-ready pipeline"
     ]
    },
    "action": "healed",
-   "note": "workflow:oracle-board <- 94addb69e 2026-08-06 feat(oracle): board v2 \u2014 live cockpit on the pulse server (plan Part 4)",
+   "note": "skill:generate <- 7d43c4fb6 2026-08-06 Phase 1 Complete: Video Studio Edit Bay \u2014 production-ready pipeline",
    "commit": "commit skipped (--no-commit; the caller owns the commit)"
   },
   {

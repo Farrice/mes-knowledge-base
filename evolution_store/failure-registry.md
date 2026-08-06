@@ -30,7 +30,7 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **What Happened:** repaired 6 times over 8 days — the repair holds but the cause regenerates
 - **Root Cause:** upstream producer re-dirties this state after each repair
 - **Prevention Rule:** Treat recurring born_intent_drift as a symptom. Find what re-dirties it between runs and fix THAT; a healer firing every day is a workaround, not a solution.
-- **Occurrences:** 9
+- **Occurrences:** 10
 - **Last Triggered:** 2026-08-06
 - **Status:** ACTIVE
 - **Source:** deterministic, from .agent/health/self-heal.jsonl (execution/failure_learning.py) — no human invocation required

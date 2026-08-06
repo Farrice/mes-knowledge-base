@@ -219,6 +219,91 @@
           "note": "SKIPPED (Request had insufficient authentication scopes.)"
         }
       }
+    },
+    {
+      "ts": "2026-08-06T14:21:50",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
+    },
+    {
+      "ts": "2026-08-06T14:51:51",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
+    },
+    {
+      "ts": "2026-08-06T15:21:53",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
+    },
+    {
+      "ts": "2026-08-06T15:51:54",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
+    },
+    {
+      "ts": "2026-08-06T16:21:56",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
     }
   ]
 }
