@@ -217,6 +217,10 @@
       "skill": "claim-safe-health-marketing"
     },
     {
+      "command": "/cody-schneider-signal-outbound",
+      "skill": "cody-schneider-signal-outbound"
+    },
+    {
       "command": "/consumer-posture",
       "skill": "consumer-posture-research"
     },
@@ -1726,6 +1730,12 @@
       "command": "/coaching-business-os",
       "skills": [
         "coaching-business-os"
+      ]
+    },
+    "cody-schneider": {
+      "command": "/cody-schneider",
+      "skills": [
+        "cody-schneider-signal-outbound"
       ]
     },
     "cognitive-engagement-optimizer": {

@@ -3763,8 +3763,36 @@
         "gaming_flag": false
       },
       "notes": "Focused extraction (mechanism only, per Farrice scope) not full MES report. Anchor for 8s: Expert Standard Anchor 9 test \u2014 Layer-2 finds (bar-as-artifact, commit-before-reveal) were never named on camera, verbatim quotes + exact numbers throughout; Adversarial Anchor 9 test \u2014 verdict cites both prior kill decisions with dates/files rather than contradicting them silently. Watched frames, not transcript-only (anti-pattern 1 honored). Token cost of watch step: captions free + 7 frames @1024px, well under the 50-80k full-scan estimate. | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260806_004228",
+      "timestamp": "2026-08-06T00:42:28.144322",
+      "schema_version": "v3",
+      "component": "cody-schneider-signal-outbound",
+      "expert": "cody-schneider",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Anchor: Expert Standard 9-anchor test applied \u2014 the blind pass reproduced his live-demo numbers (63\u219261 dedupe, 50\u219232\u219210\u21928 ladder) and the discriminator caught the URN-obfuscation failure mode a summary extraction would miss; Cody would recognize the workflows as his thinking, held at 8 not 9 for single-source corpus + niche hit-rates unmeasured (named in-artifact). Adversarial: forge DECLINED to invent a compliance workflow (2 disclaimers \u2260 doctrine); vendor quarantine structural; UNCONFIRMED claims flagged not absorbed ( CPM, 80% coverage heuristic). What worked: conductor-pattern delegation (forge agent + parallel infra build), gate-first honesty, listening-only pivot honored mid-plan. What didn't: watch wrapper 600s cap needed direct plugin invocation; blind_pass.py demanded a reference corpus late \u2014 corpus rule now understood for future forges. | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 133,
-  "last_updated": "2026-08-05T18:29:16.465869"
+  "total_cases": 134,
+  "last_updated": "2026-08-06T00:42:28.146752"
 }
