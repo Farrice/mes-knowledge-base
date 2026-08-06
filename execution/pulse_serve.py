@@ -26,13 +26,15 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOARD = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
 ROOM = os.path.join(ROOT, "deliverables", "research-briefs", "index.html")
+ORACLE = os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
 
 
 def regen(which="pulse"):
-    script = "pulse_dashboard.py" if which == "pulse" else "brief_library.py"
+    script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
+              "oracle": "oracle_dashboard.py"}.get(which, "pulse_dashboard.py")
     try:
         subprocess.run([PY, os.path.join(ROOT, "execution", script)],
                        capture_output=True, text=True, timeout=90)
@@ -48,7 +50,8 @@ def _mtime(p):
 
 
 ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
-           "thread-archive", "open-path", "brief-archive", "brief-unarchive"}
+           "thread-archive", "open-path", "brief-archive", "brief-unarchive",
+           "oracle-closes", "oracle-gate", "oracle-note"}
 
 
 def _brief_lifecycle(action, slug):
@@ -96,6 +99,12 @@ def dispatch(action, args):
         return pa.act_outcome_snooze(args.get("deliverable", ""))
     if action == "thread-archive":
         return pa.act_thread_archive(args.get("thread", ""))
+    if action == "oracle-closes":
+        return pa.act_oracle_closes()
+    if action == "oracle-gate":
+        return pa.act_oracle_gate()
+    if action == "oracle-note":
+        return pa.act_oracle_note(args.get("text", ""))
     return False
 
 
@@ -120,7 +129,8 @@ class Handler(BaseHTTPRequestHandler):
         if self.path.startswith("/ping"):
             self._send(200, json.dumps({"pulse": True,
                                         "board_mtime": _mtime(BOARD),
-                                        "room_mtime": _mtime(ROOM)}), "application/json")
+                                        "room_mtime": _mtime(ROOM),
+                                        "oracle_mtime": _mtime(ORACLE)}), "application/json")
             return
         if self.path.startswith("/room"):
             regen("room")
@@ -128,6 +138,13 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(200, open(ROOM, encoding="utf-8").read())
             except OSError as e:
                 self._send(500, f"room missing: {e}")
+            return
+        if self.path.startswith("/oracle"):
+            regen("oracle")
+            try:
+                self._send(200, open(ORACLE, encoding="utf-8").read())
+            except OSError as e:
+                self._send(500, f"oracle board missing: {e}")
             return
         regen("pulse")
         try:

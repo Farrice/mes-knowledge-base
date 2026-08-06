@@ -56,6 +56,20 @@ def api_request(endpoint, params=None):
 
     remaining = resp.headers.get('x-requests-remaining', '?')
     used = resp.headers.get('x-requests-used', '?')
+
+    # Persist last-known quota so surfaces (oracle dashboard) can show cost
+    # visibility without spending a request (cost-transparency rule 2026-08-06).
+    try:
+        import json as _json
+        from datetime import datetime as _dt
+        quota_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                                  '.agent', 'odds-api-quota.json')
+        with open(quota_path, 'w') as _f:
+            _json.dump({'remaining': remaining, 'used': used,
+                        'as_of': _dt.now().isoformat(timespec='seconds')}, _f)
+    except OSError:
+        pass
+
     return resp.json(), remaining, used
 
 

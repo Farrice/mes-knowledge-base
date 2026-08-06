@@ -186,6 +186,42 @@ def act_thread_archive(thread):
     return r.returncode == 0
 
 
+def act_oracle_closes():
+    """Capture closing lines for pending paper bets (Oracle board button)."""
+    r = subprocess.run([PY, os.path.join(ROOT, "execution", "paper_trader.py"), "closes"],
+                       capture_output=True, text=True, timeout=120)
+    out = (r.stdout or "").strip() or (r.stderr or "").strip()
+    print(out[-300:] if out else "closes: done")
+    return r.returncode == 0
+
+
+def act_oracle_gate():
+    """Run the graduation gate check; verdict lands in the regenerated board."""
+    r = subprocess.run([PY, os.path.join(ROOT, "execution", "live_trader.py"), "check"],
+                       capture_output=True, text=True, timeout=60)
+    out = (r.stdout or "").strip()
+    for line in out.splitlines():
+        if "VERDICT" in line:
+            print(line.strip())
+    return r.returncode == 0
+
+
+def act_oracle_note(text):
+    """Drop a note into the event inbox; the listener mints the mission card."""
+    text = (text or "").strip()
+    if not text:
+        print("[pulse_actions] empty note refused", file=sys.stderr)
+        return False
+    inbox = os.path.join(ROOT, ".agent", "inbox")
+    os.makedirs(inbox, exist_ok=True)
+    stamp = datetime.datetime.now().strftime("%H%M%S")
+    path = os.path.join(inbox, f"oracle-note-{stamp}.md")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text + "\n")
+    print(f"note dropped: {os.path.basename(path)} (card mints on next listener poll)")
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser(description="Pulse board action writers.")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -197,6 +233,9 @@ def main():
     x = sub.add_parser("outcome-dismiss"); x.add_argument("deliverable")
     s = sub.add_parser("outcome-snooze"); s.add_argument("deliverable"); s.add_argument("--days", type=int, default=14)
     t = sub.add_parser("thread-archive"); t.add_argument("thread")
+    sub.add_parser("oracle-closes")
+    sub.add_parser("oracle-gate")
+    n = sub.add_parser("oracle-note"); n.add_argument("text")
     a = ap.parse_args()
     ok = {
         "done": lambda: act_done(a.slug, a.outcome),
@@ -206,6 +245,9 @@ def main():
         "outcome-dismiss": lambda: act_outcome_dismiss(a.deliverable),
         "outcome-snooze": lambda: act_outcome_snooze(a.deliverable, a.days),
         "thread-archive": lambda: act_thread_archive(a.thread),
+        "oracle-closes": act_oracle_closes,
+        "oracle-gate": act_oracle_gate,
+        "oracle-note": lambda: act_oracle_note(a.text),
     }[a.cmd]()
     raise SystemExit(0 if ok else 1)
 

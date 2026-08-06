@@ -341,6 +341,7 @@ def main():
     from pathlib import Path as _P
     room_uri = _P(os.path.join(ROOT, "deliverables", "research-briefs", "index.html")).as_uri()
     board_uri = _P(os.path.join(ROOT, ".agent", "assets", "assets-board.html")).as_uri()
+    oracle_uri = _P(os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")).as_uri()
 
     body = f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -450,7 +451,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="wrap">
 <header>
   <div><span class="kicker">ANTIGRAVITY · OPERATOR CONSOLE</span><h1>the <em>pulse</em></h1></div>
-  <span class="homenav"><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a></span>
+  <span class="homenav"><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a><a href="{esc(oracle_uri)}">🔮 oracle ↗</a></span>
 </header>
 <div class="stamp"><span>{now}</span>{lock_html}<span class="livechip pill muted" id="livechip">static — actions copy commands</span></div>
 {sprint_html}

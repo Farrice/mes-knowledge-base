@@ -199,7 +199,7 @@ PAGE = """<!doctype html>
 <div class="wrap">
   <header>
     <div class="topline"><span class="kicker">ANTIGRAVITY RESEARCH · LIBRARY</span>
-      <span class="homenav"><a href="{{BOARD_URI}}">asset board ↗</a><a href="{{PULSE_URI}}">pulse board ↗</a></span></div>
+      <span class="homenav"><a href="{{BOARD_URI}}">asset board ↗</a><a href="{{PULSE_URI}}">pulse board ↗</a><a href="{{ORACLE_URI}}">oracle ↗</a></span></div>
     <h1>the briefing <em>room</em></h1>
     <p class="dek">every rendered brief. click a card to open it; path feeds file-access tools, copy brief feeds any chat AI; md and ctx open the artifacts.</p>
     <div class="count">{{COUNT}} briefs on file · regenerated {{STAMP}}</div>
@@ -578,6 +578,7 @@ def generate(open_after=False):
             .replace("{{N_ARCH}}", str(hk["archived"]))
             .replace("{{BOARD_URI}}", esc((ROOT / ".agent" / "assets" / "assets-board.html").as_uri()))
             .replace("{{PULSE_URI}}", esc((ROOT / ".agent" / "pulse" / "pulse-board.html").as_uri()))
+            .replace("{{ORACLE_URI}}", esc((ROOT / ".agent" / "oracle" / "oracle-dashboard.html").as_uri()))
             .replace("{{PACKS}}", packs_json)
             .replace("{{PAGE_SIZE}}", str(PAGE_SIZE))
             .replace("{{PRI_BTNS}}", pri_btns)
