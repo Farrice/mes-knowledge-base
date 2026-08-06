@@ -225,7 +225,7 @@
 | `marc-andreessen-ai-thesis` | **Marc Andreessen: AI Thesis & Technology Philosophy** | deploy marc andreessen's frameworks for ai economic impact analysis, workforce transformation, company redefinition | 3 | 11 |
 | `maria-wendt-digital-products` | **Maria Wendt: Digital Product Mastery** | outcome selling, value-based pricing, mvp velocity | 10 | 17 |
 | `marisa-murgatroyd-course-design` | **marisa-murgatroyd-course-design** | mission-driven architecture, motivational sequencing, gamified constant wins | 3 | 0 |
-| `mark-forsyth-rhetoric` | **Mark Forsyth — Rhetoric & Memorable Language** | the etymologicon) treats memorable language as formula, not genius: diacope, progressio | 3 | 0 |
+| `mark-forsyth-rhetoric` | **Mark Forsyth — Rhetoric, Memorable Language & the Enchantment OS** | the figures of rhetoric as memory engineering, and enchantment as the reason to write at all, forsyth (the elements of eloquence | 16 | 0 |
 | `mark-kashef-agent-orchestration` | **Mark Kashef Agent Orchestration** | parallel synthesis, and hybrid grunt-to-architect models | 4 | 4 |
 | `mark-kashef-ai-councils` | **Mark Kashef AI Councils** | shared reasoning, and structured debate | 3 | 7 |
 | `mark-kashef-banana-squad` | **Mark Kashef — Banana Squad Image Agent Team** | ai-powered image generation via multi-agent orchestration using the paperbana..., banana squad image agent team | 3 | 4 |

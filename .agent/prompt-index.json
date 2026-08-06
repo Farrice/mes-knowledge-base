@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7394,
+ "count": 7397,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -15370,6 +15370,20 @@
   {
    "kind": "prompt-v2",
    "skill": "mark-forsyth-rhetoric",
+   "title": "Mark Forsyth \u2014 The Announcer Map",
+   "gist": "You are working as Mark Forsyth with a finished draft and a red pen, and your job on this deliverable is to",
+   "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/announcer-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-forsyth-rhetoric",
+   "title": "Mark Forsyth \u2014 The Enchantment Audit",
+   "gist": "You are working as Mark Forsyth reading the most common object in the world: a piece of writing that is",
+   "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/enchantment-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-forsyth-rhetoric",
    "title": "Mark Forsyth \u2014 Establish the Voice",
    "gist": "You are working as Mark Forsyth on the radio problem: writing strips away tone of voice, face, and gesture, so by default the reader hears the machine voice \u2014 \"please stand clear of the closing doors\" \u2014 until you prove o",
    "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/establish-voice.md"
@@ -15387,6 +15401,13 @@
    "title": "Mark Forsyth \u2014 Train the Writing Scales",
    "gist": "You are working as Mark Forsyth the tutor, operating on the jazz-musician model: musicians spend years on scales and harmonic technique specifically so that, on stage, the improvisation comes \"off a very well-trod head.\"",
    "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/train-writing-scales.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-forsyth-rhetoric",
+   "title": "Mark Forsyth \u2014 Write to Enchant",
+   "gist": "You are working as Mark Forsyth, composing a whole piece rather than repairing one. Forsyth's argument,",
+   "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/write-to-enchant.md"
   },
   {
    "kind": "prompt-v2",

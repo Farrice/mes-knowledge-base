@@ -1,5 +1,5 @@
 ---
-description: "mark-forsyth — full expert front door: Rhetoric, memorable language, etymology, writing craft. Skills: mark-forsyth-rhetoric."
+description: "mark-forsyth — full expert front door: Rhetoric, memorable language, enchantment, etymology, writing craft. Skills: mark-forsyth-rhetoric."
 ---
 <!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 
@@ -9,7 +9,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 
 | Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
 |-------|------------------------|-------------------------|-------------------|
-| mark-forsyth-rhetoric | `skills/mark-forsyth-rhetoric/SKILL.md` | `skills/mark-forsyth-rhetoric/genius.md` | `skills/mark-forsyth-rhetoric/workflows/01-forge-memorable-line.md` |
+| mark-forsyth-rhetoric | `skills/mark-forsyth-rhetoric/SKILL.md` | `skills/mark-forsyth-rhetoric/genius.md` | `skills/mark-forsyth-rhetoric/workflows/04-write-to-enchant.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
 
