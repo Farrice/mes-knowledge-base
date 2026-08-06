@@ -14,10 +14,10 @@ You are compressing a completed listing content run (approved hooks + scripts, v
 ## Input Required
 
 ```
-[APPROVED HOOKS + SCRIPTS] — post taste-checkpoint (G1) versions, required
+[HOOKS + SCRIPTS] — from the same run (or Farrice-approved iterations), required
 [LISTING.JSON + CLAIMS-LEDGER.JSON] — fact source of record, required
 [REGISTER] — fthb | luxury (from the run's Step 0), required
-[CAPTION DIRECTION] — Farrice's verdict notes from G1, if any
+[CAPTION DIRECTION] — Farrice's iteration notes, if any (post-delivery feedback)
 ```
 
 ## Execution Protocol
@@ -92,8 +92,8 @@ DON'T SAY ON CAMERA
 
 ## Creative Latitude
 
-The skeleton fixes blocks, never sentences. The top-pick call is a real judgment — make it and say why in the Farrice footer. Caption storytelling should carry the register's personality (warm walk vs private market brief); the fine-print block is the only part allowed to read like data. If Farrice's G1 notes named a direction, that direction outranks the defaults.
+The skeleton fixes blocks, never sentences. The top-pick call is a real judgment — make it and say why in the Farrice footer. Caption storytelling should carry the register's personality (warm walk vs private market brief); the fine-print block is the only part allowed to read like data. If Farrice's feedback notes named a direction, that direction outranks the defaults.
 
 ## Deploy When
 
-The generation phase of `/listing-package` has passed the Farrice taste checkpoint and the package needs rendering; or Farrice asks to "make this textable to Jen" for any existing hook/script set.
+The generation phase of `/listing-package` has produced hooks + scripts (same run — no stop between); or Farrice asks to "make this textable to Jen" for any existing hook/script set.

@@ -32,7 +32,7 @@ Full voice DNA, signature patterns, anti-patterns, and quality bar in `genius.md
 
 | # | Workflow | Produces | When to Use |
 |---|---|---|---|
-| **04** | `listing-package` | **Full pipeline: URL → verified facts + claims ledger → register-aware hooks + scripts → ONE taste checkpoint → caption + forwardable send text** | Any listing URL/address drop; the default for new listings (supersedes 01 as the front door) |
+| **04** | `listing-package` | **Full pipeline: URL → verified facts + claims ledger → register-aware hooks + scripts + caption + forwardable send text, ONE SHOT — judge the finished brief** | Any listing URL/address drop; the default for new listings (supersedes 01 as the front door) |
 | **01** | `listing-content` | 6 video hooks per property (Reels) | Quick hooks-only pass; a sitting listing needing a fresh angle set |
 | **02** | `buyer-education-story` | Educational Reels / Stories for FTHBs | Authority + DM list growth, NOT tied to specific listing |
 | **03** | `neighborhood-deep-dive-carousel` | 7-slide SFV neighborhood carousels | SFV specialist positioning, save-rate optimization |

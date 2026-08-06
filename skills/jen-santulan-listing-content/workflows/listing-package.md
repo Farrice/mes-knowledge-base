@@ -1,8 +1,8 @@
 ---
-description: URL/address/description in → sendable listing package out. Fetch + photos → market research with receipts → register-aware hooks + scripts → ONE taste checkpoint → caption + forwardable send text, compliance-gated. "Research Once, One Checkpoint, Sendable Out."
+description: URL/address/description in → the COMPLETE listing brief out in one shot — hooks, scripts, cover text, caption, forwardable send text — compliance-linted, ready for Farrice's judgment. No mid-run stops. "Feed It an Address, Judge the Finished Brief."
 ---
 
-# /listing-package — Listing URL → Sendable Package (One Checkpoint)
+# /listing-package — Listing URL → Complete Brief, One Shot
 
 The end-to-end listing content engine, codified from the 5200 Armida arc (2026-08-05: three hook generations, two taste rejections, a claims ledger that caught a phantom spa, a phantom basement, and a wrong bath count — this workflow makes all of those mechanical). Client: Jen (default); core is portable — a second client is a voice-pack + register-file drop-in.
 
@@ -66,19 +66,21 @@ Plus, per tier: FTHB → comparable rents (rent-vs-mortgage math inputs); luxury
 
 ## PHASE 3 — STRATEGY ($0, internal — no stop)
 
-Tier → **register** per `_active/jen-listings/CLAUDE.md` Override List ladder. Buyer map (3-5 named buyers, life-logistics framing, fair-housing-safe). Magic trifecta (pattern interrupt · the real pitch · bonus proof). **What-NOT-to-claim block** from the diff + honesty anchors. Ten lines, carried into the checkpoint header.
+Tier → **register** per `_active/jen-listings/CLAUDE.md` Override List ladder. Buyer map (3-5 named buyers, life-logistics framing, fair-housing-safe). Magic trifecta (pattern interrupt · the real pitch · bonus proof). **What-NOT-to-claim block** from the diff + honesty anchors. Ten lines, delivered as the brief's header so Farrice can judge the strategy read alongside the content.
 
 ## PHASE 4 — GENERATE ($0)
 
 Load: `skills/kallaway-hook-mastery/SKILL.md` + this skill's `PROMPT.md` + `references/jen-real-voice-profile.md` + **`references/jen-calibration-log.md`** (felt verdicts outrank defaults). Execute `references/prompts-v2/listing-hook-set.md` (register-ladder v2.1) with listing.json + ledger as fact source: 6 hooks per the tier slot map (spoken ≤12 words · on-screen text · visual · lock-in · scene-built bodies), cover-text→photo pairs.
 
-## GATE G1 — FARRICE TASTE CHECKPOINT (the one pause)
+## PHASE 5 — PACKAGE ($0 — no stop; the run goes straight through)
 
-Present: the 10-line strategy card + all 6 hooks + full scripts. This is where his judgment operates — iterate HERE. Rules: feedback-turn protocol (restate verdicts → ONE take by ONE pen); **spiral brake: 2 rejected takes on one artifact = stop producing variants, go back to the inputs**; log felt verdicts to the Jen ratchet (`python3 execution/voice_ratchet.py add --client jen ...`). **Caption and send text do NOT render before his verdict.**
+Execute `references/prompts-v2/listing-send-package.md` → the forwardable text (numbers block → options w/ one top pick → cover pairs → register-matched caption → filming notes → don't-say list). Write the repo substrate: `_active/jen-listings/<slug>/<slug>-SHOOT-SHEET.md` (strategy, full research, ledger pointers, diagnostics) + `SEND-TO-JEN-text.md` + `.metadata.json` sidecar.
 
-## PHASE 5 — PACKAGE ($0)
+**Farrice's rule (2026-08-05, binding): no mid-run taste gates.** "I feed you the address… you punch out the output in the full brief — and I can judge from there." The deliverable is the COMPLETE brief in one shot: 10-line strategy card + 6 hooks + scripts + cover pairs + caption + send text, presented together. His judgment happens ON the finished package.
 
-On approval: execute `references/prompts-v2/listing-send-package.md` → the forwardable text (numbers block → options w/ one top pick → cover pairs → register-matched caption → filming notes → don't-say list). Write the repo substrate: `_active/jen-listings/<slug>/<slug>-SHOOT-SHEET.md` (strategy, full research, ledger pointers, diagnostics) + `SEND-TO-JEN-text.md` + `.metadata.json` sidecar.
+## ITERATION (after delivery — where his taste operates)
+
+Feedback-turn protocol on the delivered brief: restate his verdicts → ONE take by ONE pen. **Spiral brake: 2 rejected takes on one artifact = stop producing variants, go back to the inputs.** Log felt verdicts: `python3 execution/voice_ratchet.py add --client jen ...`. Iterations reuse listing.json/ledger — regeneration is $0 and fast.
 
 ## PHASE 6 — GATES (Gate G2 — the veto; do not deliver on FAIL)
 
@@ -125,11 +127,11 @@ Fetch: Playwright → Apify web → ask-for-paste. Research: Gemini → Perplexi
 | **Send text (the deliverable)** | `<slug>/SEND-TO-JEN-text.md` | passes both lints; one top pick; forwardable as-is |
 
 ## Quality Gate
-- [ ] G0/G1/G2 are the ONLY halt gates — do not add more (rubber-stamp anti-pattern)
+- [ ] G0 (missing input) and G2 (compliance/factual veto) are the ONLY halts — both are machine conditions, never questions to Farrice mid-run (his rule: no mid-run taste gates; judgment happens on the delivered brief)
 - [ ] Register selected from tier BEFORE generation; slot rule honored (FTHB-Permission mandatory <$1.5M, forbidden ≥$2M)
 - [ ] Ledger built by `listing_intel.py`, not by hand; every contradiction in the don't-say list with a fallback
 - [ ] Market claims carry receipts; $/sqft-vs-median honesty anchor computed before writing
-- [ ] G1 happened: Farrice saw hooks + scripts before caption/package rendered
+- [ ] The delivered brief is COMPLETE in one shot: strategy card + hooks + scripts + cover pairs + caption + send text together
 - [ ] Both lints clean on the send text; finalize ran with `--content-file`; no `QUALITY GATE BLOCKED`
 
-**Auto-fail (run is incomplete, not merely short):** a fact stated on no rung of the fetch/research ladder · FTHB-Permission hook in a luxury set · send text containing a repo path or tool name · don't-say list absent · caption rendered before the G1 verdict.
+**Auto-fail (run is incomplete, not merely short):** a fact stated on no rung of the fetch/research ladder · FTHB-Permission hook in a luxury set · send text containing a repo path or tool name · don't-say list absent · a partial brief delivered (hooks without scripts/caption/send text) · a mid-run question to Farrice that isn't G0's missing-input ask.
