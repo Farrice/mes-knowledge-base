@@ -7,14 +7,28 @@
 --ag-risk:oklch(52% 0.10 25);--ag-ink-soft:oklch(44% 0.003 110);--ag-ink-mute:oklch(62% 0.012 110);
 --sans:'Helvetica Neue',Helvetica,Inter,system-ui,Arial,sans-serif;
 --serif:'Source Serif 4',Georgia,serif;--mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace}
+@media (prefers-color-scheme:dark){:root{--ag-ink:oklch(97% 0.002 107);--ag-paper:oklch(14% 0 0);
+--ag-surface:oklch(18% 0 0);--ag-line:oklch(30% 0.003 110);--ag-accent:oklch(72% 0.07 262);
+--ag-proof:oklch(70% 0.09 165);--ag-risk:oklch(68% 0.13 25);--ag-ink-soft:oklch(77% 0.004 110);--ag-ink-mute:oklch(68% 0.008 110)}}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--ag-paper);color:var(--ag-ink);font-family:var(--sans);padding:38px 20px 80px}
+body.demo .money{filter:blur(7px)}
 .wrap{max-width:960px;margin:0 auto}
+header{display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap}
 .kicker{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ag-ink-mute)}
 h1{font-size:42px;letter-spacing:-.01em;margin:6px 0 2px} h1 em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--ag-accent)}
+.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;padding-top:14px}
+.homenav a{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--ag-ink-soft);border:1px solid var(--ag-line);border-radius:99px;padding:4px 11px}
+.homenav a:hover{border-color:var(--ag-accent);color:var(--ag-accent)}
 .sub{color:var(--ag-ink-soft);font-size:14px;margin-bottom:8px}
-.chips{margin:14px 0 26px} .chip{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--ag-line);border-radius:999px;padding:5px 12px;margin:0 8px 8px 0;color:var(--ag-ink-soft);background:var(--ag-surface)}
+.chips{margin:14px 0 10px} .chip{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--ag-line);border-radius:999px;padding:5px 12px;margin:0 8px 8px 0;color:var(--ag-ink-soft);background:var(--ag-surface)}
 .chip.dark{opacity:.55}
+.livechip{border-color:var(--ag-ink-mute)} .livechip.on{border-color:var(--ag-proof);color:var(--ag-proof)}
+.actionbar{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 24px}
+.abtn{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--ag-accent);background:var(--ag-surface);color:var(--ag-accent);border-radius:8px;padding:9px 14px;cursor:pointer;font-weight:700}
+.abtn:hover{background:var(--ag-accent);color:var(--ag-paper)}
+.abtn.ghost{border-color:var(--ag-line);color:var(--ag-ink-soft)} .abtn.ghost:hover{background:var(--ag-surface);border-color:var(--ag-accent);color:var(--ag-accent)}
+.abtn.on{background:var(--ag-accent);color:var(--ag-paper)}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:26px}
 .tile{background:var(--ag-surface);border:1px solid var(--ag-line);border-radius:10px;padding:16px 18px}
 .tile .k{font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ag-ink-mute);display:block;margin-bottom:7px}
@@ -23,9 +37,9 @@ h1{font-size:42px;letter-spacing:-.01em;margin:6px 0 2px} h1 em{font-family:var(
 .panel{background:var(--ag-surface);border:1px solid var(--ag-line);border-radius:12px;padding:22px 24px;margin-bottom:18px}
 .panel h2{font-size:17px;margin-bottom:4px} .panel h2 em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--ag-accent)}
 .panel .note{font-size:12.5px;color:var(--ag-ink-mute);margin-bottom:14px}
-.badge{font-family:var(--mono);font-size:8px;letter-spacing:.14em;border-radius:3px;padding:3px 8px;font-weight:700}
-.badge.ok{background:color-mix(in oklab,var(--ag-proof) 14%,white);color:var(--ag-proof)}
-.badge.bad{background:color-mix(in oklab,var(--ag-risk) 12%,white);color:var(--ag-risk)}
+.badge{font-family:var(--mono);font-size:8px;letter-spacing:.14em;border-radius:3px;padding:3px 8px;font-weight:700;flex-shrink:0}
+.badge.ok{background:color-mix(in oklab,var(--ag-proof) 14%,var(--ag-surface));color:var(--ag-proof)}
+.badge.bad{background:color-mix(in oklab,var(--ag-risk) 12%,var(--ag-surface));color:var(--ag-risk)}
 .badge.wait{background:var(--ag-paper);color:var(--ag-ink-mute);border:1px solid var(--ag-line)}
 .verdict{display:flex;align-items:center;gap:12px;margin-bottom:6px}
 .pbar{height:8px;background:var(--ag-paper);border:1px solid var(--ag-line);border-radius:999px;overflow:hidden;margin:10px 0 16px}
@@ -37,27 +51,51 @@ h1{font-size:42px;letter-spacing:-.01em;margin:6px 0 2px} h1 em{font-family:var(
 .axis{font:9.5px var(--mono);fill:var(--ag-ink-mute)}
 .dlabel{font:700 11px var(--mono);fill:var(--ag-ink-soft)}
 .blabel{font:700 12px var(--sans);fill:var(--ag-ink)}
-.cbar:hover{opacity:.85;cursor:default}
+.cbar{cursor:pointer} .cbar:hover{opacity:.85}
 .filters{margin-bottom:10px}
 .fbtn{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--ag-line);background:var(--ag-paper);border-radius:999px;padding:5px 12px;cursor:pointer;color:var(--ag-ink-soft);margin-right:6px}
-.fbtn.on{background:var(--ag-accent);color:white;border-color:var(--ag-accent)}
+.fbtn.on{background:var(--ag-accent);color:var(--ag-paper);border-color:var(--ag-accent)}
 table{width:100%;border-collapse:collapse;font-size:12.5px}
 th{font-family:var(--mono);font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ag-ink-mute);text-align:left;padding:6px 8px;border-bottom:1px solid var(--ag-line)}
 td{padding:7px 8px;border-bottom:1px solid var(--ag-line);color:var(--ag-ink-soft)}
+#betrows tr[data-conf]{cursor:pointer} #betrows tr[data-conf]:hover td{background:color-mix(in oklab,var(--ag-accent) 6%,var(--ag-surface))}
+tr.detail td{font-family:var(--mono);font-size:10.5px;color:var(--ag-ink-mute);background:var(--ag-paper)}
 td.win{color:var(--ag-proof);font-weight:700} td.loss{color:var(--ag-risk);font-weight:700}
 .integrity{border-left:3px solid var(--ag-accent);padding:12px 16px;background:var(--ag-surface);border-radius:0 10px 10px 0;font-size:13px;color:var(--ag-ink-soft);margin-bottom:18px}
 .empty{font-size:13px;color:var(--ag-ink-mute);padding:20px 0}
-#tip{position:fixed;pointer-events:none;background:var(--ag-ink);color:white;font:11px var(--mono);padding:6px 10px;border-radius:6px;display:none;z-index:9}
-footer{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--ag-ink-mute);margin-top:28px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini .mk{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ag-ink-mute);margin-bottom:8px}
+.lrow{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--ag-line);font-size:12px}
+.lrow:last-child{border-bottom:0}
+.lt{font-family:var(--mono);font-size:10px;color:var(--ag-ink-mute);flex-shrink:0}
+.ln{color:var(--ag-ink-soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cardlink{color:var(--ag-accent);text-decoration:none;font-family:var(--mono);font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cardlink:hover{text-decoration:underline}
+.lanes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.lane{border:1px solid var(--ag-line);border-radius:10px;padding:14px 16px;background:var(--ag-paper)}
+.lane .lk{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;display:block;margin-bottom:6px}
+.lane p{font-size:12px;color:var(--ag-ink-soft)}
+#conffilter{font-family:var(--mono);font-size:10px;color:var(--ag-accent);margin-bottom:8px;display:block}
+#tip{position:fixed;pointer-events:none;background:var(--ag-ink);color:var(--ag-paper);font:11px var(--mono);padding:6px 10px;border-radius:6px;display:none;z-index:9}
+footer{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--ag-ink-mute);margin-top:28px;line-height:1.8}
 </style></head><body><div class="wrap">
-<div class="kicker">MASTERY FORGE · INSTANCE #1 · RENDERED 2026-08-06 12:44</div>
-<h1>THE <em>ORACLE</em></h1>
+<header>
+  <div><span class="kicker">MASTERY FORGE · INSTANCE #1 · RENDERED 2026-08-06 13:05</span><h1>THE <em>ORACLE</em></h1></div>
+  <span class="homenav"><a href="file:///Users/farricecain/Google%20Antigravity/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html">🎨 asset board ↗</a></span>
+</header>
 <div class="sub">A forged betting master under a falsifiable graduation exam. It decides; a human executes. Real money stays locked until the gate says GO.</div>
-<div class="chips"><span class="chip">MODE: PAPER EXAM</span><span class="chip dark">NBA · DARK UNTIL LATE OCT</span><span class="chip">WNBA · PORT QUEUED</span><span class="chip">KALSHI · LANE QUEUED</span><span class="chip">SENSING: 9 LISTENER RUNS · 3 MISSIONS QUEUED · 13 DONE</span></div>
+<div class="chips"><span class="chip livechip" id="livechip">static — buttons copy commands</span><span class="chip">MODE: PAPER EXAM</span><span class="chip">ODDS API: UNCONFIRMED — no API call recorded yet; first line-fetch will populate this</span></div>
+<div class="actionbar">
+  <button class="abtn" data-action="refresh">↻ Refresh</button>
+  <button class="abtn" data-action="oracle-closes">⏱ Capture closing lines</button>
+  <button class="abtn" data-action="oracle-gate">⚖ Run gate check</button>
+  <button class="abtn" data-action="oracle-note">✎ Drop note to overnight run</button>
+  <button class="abtn ghost" id="demobtn">◉ Demo mode</button>
+</div>
 
 <div class="tiles">
-<div class="tile"><span class="k">Paper bankroll</span><span class="v">$1,960</span><div class="d">started $1,000</div></div>
-<div class="tile"><span class="k">Net P/L (paper)</span><span class="v">$+850</span><div class="d">ROI +21.3% on staked</div></div>
+<div class="tile"><span class="k">Paper bankroll</span><span class="v money">$1,960</span><div class="d money">started $1,000</div></div>
+<div class="tile"><span class="k">Net P/L (paper)</span><span class="v money">$+850</span><div class="d">ROI +21.3% on staked</div></div>
 <div class="tile"><span class="k">Hit rate · prospective</span><span class="v">57.9%</span><div class="d">38 forward-logged bets</div></div>
 <div class="tile"><span class="k">Gate progress</span><span class="v">38/200</span><div class="d">19% of the exam sat</div></div>
 </div>
@@ -70,6 +108,12 @@ footer{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--a
 
 <div class="integrity">⚖ <b>Integrity rule:</b> 226 of 264 historical bets were retroactive backfills. This dashboard and the gate count <b>prospective bets only</b> — a system that grades its own homework with hindsight is lying to you. That refusal is the product.</div>
 
+<div class="panel"><h2>System <em>activity</em></h2>
+<div class="note">What the harness is doing right now: the event listener polls every 30 minutes; queued cards run unattended at 2 AM; weekly self-evals mint Sunday 8 PM. Click a card to open it.</div>
+<div class="lrow"><span class="badge wait">QUEUED</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/pending/card-event-inbox-2026-08-06-oracle-note-130348.md" class="cardlink">card-event-inbox-2026-08-06-oracle-note-130348.md</a><span class="lt">08-06 13:04</span></div><div class="lrow"><span class="badge wait">QUEUED</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/pending/card-verdict-to-diff-2026-W32.md" class="cardlink">card-verdict-to-diff-2026-W32.md</a><span class="lt">08-06 09:53</span></div><div class="lrow"><span class="badge wait">QUEUED</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/pending/card-harness-evals-2026-W32.md" class="cardlink">card-harness-evals-2026-W32.md</a><span class="lt">08-06 09:53</span></div><div class="lrow"><span class="badge wait">QUEUED</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/pending/card-event-inbox-2026-08-06-test-thought.md" class="cardlink">card-event-inbox-2026-08-06-test-thought.md</a><span class="lt">08-06 09:53</span></div><div class="lrow"><span class="badge ok">DONE</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-outcome-chase-2026-08-02-transcript.md" class="cardlink">card-outcome-chase-2026-08-02-transcript.md</a><span class="lt">08-03 02:33</span></div><div class="lrow"><span class="badge ok">DONE</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-outcome-chase-2026-08-02.md" class="cardlink">card-outcome-chase-2026-08-02.md</a><span class="lt">08-02 04:30</span></div><div class="lrow"><span class="badge ok">DONE</span><a href="#" data-open="/Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-phase2-2026-07-24.md" class="cardlink">card-phase2-2026-07-24.md</a><span class="lt">07-24 16:33</span></div>
+<div style="height:10px"></div>
+<div class="lrow"><span class="lt">2026-08-06T13:04:02</span><span class="ln">inbox: OK</span></div><div class="lrow"><span class="lt">2026-08-06T12:51:44</span><span class="ln">inbox: OK · gmail: SKIPPED (Request had insufficient authentication scopes.) · calendar: SKIPPED (Request had </span></div><div class="lrow"><span class="lt">2026-08-06T12:21:43</span><span class="ln">inbox: OK · gmail: SKIPPED (Request had insufficient authentication scopes.) · calendar: SKIPPED (Request had </span></div><div class="lrow"><span class="lt">2026-08-06T11:51:40</span><span class="ln">inbox: OK · gmail: SKIPPED (Request had insufficient authentication scopes.) · calendar: SKIPPED (Request had </span></div></div>
+
 <div class="panel"><h2>Cumulative paper <em>profit</em></h2>
 <div class="note">Ledger order, suggested stakes, -110 style payouts. Hover the line for per-bet values.</div>
 <div class="filters"><button class="fbtn on" data-set="all">All settled (264)</button><button class="fbtn" data-set="prosp">Prospective only (38)</button></div>
@@ -78,7 +122,7 @@ footer{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--a
   <text x="34" y="130.2" class="axis">$0</text>
   <path d="M34.0,156 L34.0,130.2 L37.1,135.0 L40.2,139.8 L43.3,144.6 L46.3,149.3 L49.4,155.3 L52.5,146.5 L55.6,151.2 L58.7,156.0 L61.8,147.4 L64.9,138.6 L68.0,129.5 L71.0,120.5 L74.1,111.6 L77.2,103.3 L80.3,108.1 L83.4,99.2 L86.5,90.4 L89.6,81.3 L92.7,86.1 L95.7,90.9 L98.8,82.3 L101.9,74.4 L105.0,70.1 L108.1,74.9 L111.2,71.0 L114.3,73.0 L117.4,75.1 L120.4,77.1 L123.5,79.1 L126.6,74.9 L129.7,71.3 L132.8,67.1 L135.9,69.1 L139.0,65.9 L142.1,61.9 L145.1,58.6 L148.2,55.9 L151.3,54.8 L154.4,56.2 L157.5,57.0 L160.6,58.5 L163.7,60.1 L166.8,59.3 L169.8,60.1 L172.9,60.9 L176.0,62.0 L179.1,62.8 L182.2,63.9 L185.3,63.1 L188.4,62.4 L191.5,63.6 L194.5,65.8 L197.6,63.8 L200.7,62.5 L203.8,60.9 L206.9,59.9 L210.0,61.3 L213.1,60.0 L216.2,58.9 L219.2,59.8 L222.3,60.8 L225.4,62.1 L228.5,60.7 L231.6,59.4 L234.7,58.4 L237.8,57.4 L240.9,56.4 L243.9,57.9 L247.0,56.4 L250.1,58.2 L253.2,60.0 L256.3,59.3 L259.4,60.2 L262.5,61.5 L265.6,63.5 L268.6,65.7 L271.7,63.2 L274.8,61.9 L277.9,60.8 L281.0,60.0 L284.1,61.2 L287.2,60.1 L290.3,58.9 L293.3,57.9 L296.4,59.2 L299.5,58.3 L302.6,57.5 L305.7,56.8 L308.8,57.7 L311.9,59.7 L315.0,58.0 L318.0,59.1 L321.1,59.9 L324.2,58.9 L327.3,57.5 L330.4,56.3 L333.5,55.3 L336.6,56.4 L339.7,55.6 L342.7,54.7 L345.8,53.9 L348.9,52.9 L352.0,51.9 L355.1,51.1 L358.2,52.0 L361.3,51.0 L364.4,52.2 L367.4,51.1 L370.5,52.3 L373.6,54.2 L376.7,52.7 L379.8,51.5 L382.9,50.3 L386.0,52.0 L389.1,51.1 L392.1,49.7 L395.2,48.5 L398.3,50.2 L401.4,52.2 L404.5,54.5 L407.6,52.2 L410.7,50.8 L413.8,48.7 L416.8,50.4 L419.9,49.1 L423.0,50.6 L426.1,52.6 L429.2,51.2 L432.3,52.2 L435.4,53.3 L438.5,55.5 L441.5,53.8 L444.6,56.2 L447.7,54.7 L450.8,53.3 L453.9,52.3 L457.0,51.6 L460.1,50.5 L463.2,49.6 L466.2,50.9 L469.3,50.1 L472.4,50.9 L475.5,51.9 L478.6,52.7 L481.7,51.9 L484.8,52.8 L487.9,54.3 L490.9,55.5 L494.0,56.8 L497.1,55.8 L500.2,57.3 L503.3,55.9 L506.4,54.8 L509.5,55.8 L512.6,56.8 L515.6,58.3 L518.7,57.0 L521.8,58.4 L524.9,56.9 L528.0,55.5 L531.1,54.8 L534.2,53.9 L537.3,55.6 L540.3,58.1 L543.4,55.9 L546.5,54.2 L549.6,52.7 L552.7,51.6 L555.8,50.9 L558.9,52.5 L562.0,51.7 L565.0,50.9 L568.1,52.1 L571.2,53.4 L574.3,55.0 L577.4,53.5 L580.5,55.2 L583.6,53.6 L586.7,52.2 L589.7,53.0 L592.8,54.5 L595.9,53.6 L599.0,54.8 L602.1,53.8 L605.2,56.1 L608.3,59.1 L611.4,56.4 L614.4,54.8 L617.5,53.3 L620.6,52.0 L623.7,50.5 L626.8,52.5 L629.9,50.9 L633.0,50.0 L636.1,51.5 L639.1,53.1 L642.2,51.5 L645.3,49.9 L648.4,48.5 L651.5,47.4 L654.6,46.6 L657.7,45.6 L660.8,44.8 L663.8,45.7 L666.9,47.1 L670.0,47.9 L673.1,47.1 L676.2,48.2 L679.3,47.3 L682.4,48.2 L685.5,49.3 L688.5,51.0 L691.6,50.1 L694.7,50.9 L697.8,51.9 L700.9,52.9 L704.0,54.7 L707.1,57.6 L710.2,55.0 L713.2,58.2 L716.3,55.2 L719.4,52.2 L722.5,49.0 L725.6,47.7 L728.7,47.0 L731.8,48.5 L734.9,50.0 L737.9,52.0 L741.0,53.9 L744.1,55.8 L747.2,53.8 L750.3,56.4 L753.4,53.7 L756.5,51.8 L759.6,50.9 L762.6,49.6 L765.7,48.7 L768.8,47.6 L771.9,48.5 L775.0,44.4 L778.1,48.8 L781.2,44.8 L784.3,43.6 L787.3,42.4 L790.4,41.2 L793.5,40.0 L796.6,39.1 L799.7,40.0 L802.8,41.2 L805.9,40.4 L809.0,39.4 L812.0,40.2 L815.1,41.1 L818.2,40.1 L821.3,39.1 L824.4,37.9 L827.5,36.6 L830.6,38.8 L833.7,37.3 L836.7,35.6 L839.8,34.8 L842.9,34.0 L846.0,34.9 L846.0,156 Z" fill="var(--ag-accent)" opacity="0.08"/>
   <path d="M34.0,130.2 L37.1,135.0 L40.2,139.8 L43.3,144.6 L46.3,149.3 L49.4,155.3 L52.5,146.5 L55.6,151.2 L58.7,156.0 L61.8,147.4 L64.9,138.6 L68.0,129.5 L71.0,120.5 L74.1,111.6 L77.2,103.3 L80.3,108.1 L83.4,99.2 L86.5,90.4 L89.6,81.3 L92.7,86.1 L95.7,90.9 L98.8,82.3 L101.9,74.4 L105.0,70.1 L108.1,74.9 L111.2,71.0 L114.3,73.0 L117.4,75.1 L120.4,77.1 L123.5,79.1 L126.6,74.9 L129.7,71.3 L132.8,67.1 L135.9,69.1 L139.0,65.9 L142.1,61.9 L145.1,58.6 L148.2,55.9 L151.3,54.8 L154.4,56.2 L157.5,57.0 L160.6,58.5 L163.7,60.1 L166.8,59.3 L169.8,60.1 L172.9,60.9 L176.0,62.0 L179.1,62.8 L182.2,63.9 L185.3,63.1 L188.4,62.4 L191.5,63.6 L194.5,65.8 L197.6,63.8 L200.7,62.5 L203.8,60.9 L206.9,59.9 L210.0,61.3 L213.1,60.0 L216.2,58.9 L219.2,59.8 L222.3,60.8 L225.4,62.1 L228.5,60.7 L231.6,59.4 L234.7,58.4 L237.8,57.4 L240.9,56.4 L243.9,57.9 L247.0,56.4 L250.1,58.2 L253.2,60.0 L256.3,59.3 L259.4,60.2 L262.5,61.5 L265.6,63.5 L268.6,65.7 L271.7,63.2 L274.8,61.9 L277.9,60.8 L281.0,60.0 L284.1,61.2 L287.2,60.1 L290.3,58.9 L293.3,57.9 L296.4,59.2 L299.5,58.3 L302.6,57.5 L305.7,56.8 L308.8,57.7 L311.9,59.7 L315.0,58.0 L318.0,59.1 L321.1,59.9 L324.2,58.9 L327.3,57.5 L330.4,56.3 L333.5,55.3 L336.6,56.4 L339.7,55.6 L342.7,54.7 L345.8,53.9 L348.9,52.9 L352.0,51.9 L355.1,51.1 L358.2,52.0 L361.3,51.0 L364.4,52.2 L367.4,51.1 L370.5,52.3 L373.6,54.2 L376.7,52.7 L379.8,51.5 L382.9,50.3 L386.0,52.0 L389.1,51.1 L392.1,49.7 L395.2,48.5 L398.3,50.2 L401.4,52.2 L404.5,54.5 L407.6,52.2 L410.7,50.8 L413.8,48.7 L416.8,50.4 L419.9,49.1 L423.0,50.6 L426.1,52.6 L429.2,51.2 L432.3,52.2 L435.4,53.3 L438.5,55.5 L441.5,53.8 L444.6,56.2 L447.7,54.7 L450.8,53.3 L453.9,52.3 L457.0,51.6 L460.1,50.5 L463.2,49.6 L466.2,50.9 L469.3,50.1 L472.4,50.9 L475.5,51.9 L478.6,52.7 L481.7,51.9 L484.8,52.8 L487.9,54.3 L490.9,55.5 L494.0,56.8 L497.1,55.8 L500.2,57.3 L503.3,55.9 L506.4,54.8 L509.5,55.8 L512.6,56.8 L515.6,58.3 L518.7,57.0 L521.8,58.4 L524.9,56.9 L528.0,55.5 L531.1,54.8 L534.2,53.9 L537.3,55.6 L540.3,58.1 L543.4,55.9 L546.5,54.2 L549.6,52.7 L552.7,51.6 L555.8,50.9 L558.9,52.5 L562.0,51.7 L565.0,50.9 L568.1,52.1 L571.2,53.4 L574.3,55.0 L577.4,53.5 L580.5,55.2 L583.6,53.6 L586.7,52.2 L589.7,53.0 L592.8,54.5 L595.9,53.6 L599.0,54.8 L602.1,53.8 L605.2,56.1 L608.3,59.1 L611.4,56.4 L614.4,54.8 L617.5,53.3 L620.6,52.0 L623.7,50.5 L626.8,52.5 L629.9,50.9 L633.0,50.0 L636.1,51.5 L639.1,53.1 L642.2,51.5 L645.3,49.9 L648.4,48.5 L651.5,47.4 L654.6,46.6 L657.7,45.6 L660.8,44.8 L663.8,45.7 L666.9,47.1 L670.0,47.9 L673.1,47.1 L676.2,48.2 L679.3,47.3 L682.4,48.2 L685.5,49.3 L688.5,51.0 L691.6,50.1 L694.7,50.9 L697.8,51.9 L700.9,52.9 L704.0,54.7 L707.1,57.6 L710.2,55.0 L713.2,58.2 L716.3,55.2 L719.4,52.2 L722.5,49.0 L725.6,47.7 L728.7,47.0 L731.8,48.5 L734.9,50.0 L737.9,52.0 L741.0,53.9 L744.1,55.8 L747.2,53.8 L750.3,56.4 L753.4,53.7 L756.5,51.8 L759.6,50.9 L762.6,49.6 L765.7,48.7 L768.8,47.6 L771.9,48.5 L775.0,44.4 L778.1,48.8 L781.2,44.8 L784.3,43.6 L787.3,42.4 L790.4,41.2 L793.5,40.0 L796.6,39.1 L799.7,40.0 L802.8,41.2 L805.9,40.4 L809.0,39.4 L812.0,40.2 L815.1,41.1 L818.2,40.1 L821.3,39.1 L824.4,37.9 L827.5,36.6 L830.6,38.8 L833.7,37.3 L836.7,35.6 L839.8,34.8 L842.9,34.0 L846.0,34.9" fill="none" stroke="var(--ag-accent)" stroke-width="2" stroke-linejoin="round"/>
-  <text x="842.0" y="24.9" text-anchor="end" class="dlabel">$+850</text>
+  <text x="842.0" y="24.9" text-anchor="end" class="dlabel money">$+850</text>
   <line class="crosshair" y1="34" y2="156" stroke="var(--ag-line)" stroke-width="1" style="display:none"/>
   <circle class="hoverdot" r="4" fill="var(--ag-accent)" stroke="var(--ag-surface)" stroke-width="2" style="display:none"/>
 </svg></div><div id="curveProsp" style="display:none"><svg viewBox="0 0 880 190" class="chart" id="svgProsp" role="img" aria-label="Cumulative paper profit by bet">
@@ -86,40 +130,134 @@ footer{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--a
   <text x="34" y="125.9" class="axis">$0</text>
   <path d="M34.0,156 L34.0,124.6 L55.9,130.4 L77.9,136.2 L99.8,142.0 L121.8,147.9 L143.7,155.1 L165.7,144.4 L187.6,150.2 L209.6,156.0 L231.5,145.5 L253.5,134.8 L275.4,123.7 L297.4,112.7 L319.3,101.9 L341.2,91.8 L363.2,97.6 L385.1,86.8 L407.1,76.1 L429.0,65.0 L451.0,70.8 L472.9,76.6 L494.9,66.2 L516.8,56.6 L538.8,51.3 L560.7,57.1 L582.6,52.4 L604.6,54.9 L626.5,57.4 L648.5,59.8 L670.4,62.3 L692.4,57.1 L714.3,52.8 L736.3,47.6 L758.2,50.1 L780.2,46.2 L802.1,41.3 L824.1,37.3 L846.0,34.0 L846.0,156 Z" fill="var(--ag-accent)" opacity="0.08"/>
   <path d="M34.0,124.6 L55.9,130.4 L77.9,136.2 L99.8,142.0 L121.8,147.9 L143.7,155.1 L165.7,144.4 L187.6,150.2 L209.6,156.0 L231.5,145.5 L253.5,134.8 L275.4,123.7 L297.4,112.7 L319.3,101.9 L341.2,91.8 L363.2,97.6 L385.1,86.8 L407.1,76.1 L429.0,65.0 L451.0,70.8 L472.9,76.6 L494.9,66.2 L516.8,56.6 L538.8,51.3 L560.7,57.1 L582.6,52.4 L604.6,54.9 L626.5,57.4 L648.5,59.8 L670.4,62.3 L692.4,57.1 L714.3,52.8 L736.3,47.6 L758.2,50.1 L780.2,46.2 L802.1,41.3 L824.1,37.3 L846.0,34.0" fill="none" stroke="var(--ag-accent)" stroke-width="2" stroke-linejoin="round"/>
-  <text x="842.0" y="24.0" text-anchor="end" class="dlabel">$+673</text>
+  <text x="842.0" y="24.0" text-anchor="end" class="dlabel money">$+673</text>
   <line class="crosshair" y1="34" y2="156" stroke="var(--ag-line)" stroke-width="1" style="display:none"/>
   <circle class="hoverdot" r="4" fill="var(--ag-accent)" stroke="var(--ag-surface)" stroke-width="2" style="display:none"/>
 </svg></div></div>
 
 <div class="panel"><h2>Hit rate by <em>confidence</em></h2>
-<div class="note">All settled bets. The exam's honest finding: highest-confidence picks (C5) underperform mid-confidence — flagged red until the calibration layer (Platt scaling) ships and proves itself. The gate's calibration row uses prospective bets only.</div>
-<svg viewBox="0 0 760 132" class="chart" role="img" aria-label="Hit rate by confidence level"><text x="0" y="24" class="blabel">C3</text><rect x="42" y="8" width="316" height="22" rx="4" fill="var(--ag-accent)" class="cbar" data-tip="Confidence 3: 56.5% over 237 bets"/><text x="366" y="24" class="dlabel">56.5% · 237 bets</text><text x="0" y="58" class="blabel">C4</text><rect x="42" y="42" width="316" height="22" rx="4" fill="var(--ag-accent)" class="cbar" data-tip="Confidence 4: 56.5% over 23 bets"/><text x="366" y="58" class="dlabel">56.5% · 23 bets</text><text x="0" y="92" class="blabel">C5</text><rect x="42" y="76" width="280" height="22" rx="4" fill="var(--ag-risk)" class="cbar" data-tip="Confidence 5: 50.0% over 4 bets"/><text x="330" y="92" class="dlabel">50.0% · 4 bets</text><line x1="339" y1="0" x2="339" y2="110" stroke="var(--ag-ink-mute)" stroke-width="1" stroke-dasharray="3,3"/><text x="339" y="124" class="axis" text-anchor="middle">53% gate</text></svg></div>
+<div class="note">All settled bets. The exam's honest finding: highest-confidence picks (C5) underperform mid-confidence — flagged red until the Platt-scaling calibration layer ships and proves itself. Click a bar to filter the bets table below.</div>
+<svg viewBox="0 0 760 132" class="chart" role="img" aria-label="Hit rate by confidence level"><text x="0" y="24" class="blabel">C3</text><rect x="42" y="8" width="316" height="22" rx="4" fill="var(--ag-accent)" class="cbar" data-conf="3" data-tip="Confidence 3: 56.5% over 237 bets — click to filter the bets table"/><text x="366" y="24" class="dlabel">56.5% · 237 bets</text><text x="0" y="58" class="blabel">C4</text><rect x="42" y="42" width="316" height="22" rx="4" fill="var(--ag-accent)" class="cbar" data-conf="4" data-tip="Confidence 4: 56.5% over 23 bets — click to filter the bets table"/><text x="366" y="58" class="dlabel">56.5% · 23 bets</text><text x="0" y="92" class="blabel">C5</text><rect x="42" y="76" width="280" height="22" rx="4" fill="var(--ag-risk)" class="cbar" data-conf="5" data-tip="Confidence 5: 50.0% over 4 bets — click to filter the bets table"/><text x="330" y="92" class="dlabel">50.0% · 4 bets</text><line x1="339" y1="0" x2="339" y2="110" stroke="var(--ag-ink-mute)" stroke-width="1" stroke-dasharray="3,3"/><text x="339" y="124" class="axis" text-anchor="middle">53% gate</text></svg></div>
+
+<div class="panel"><h2>Where the record <em>splits</em></h2>
+<div class="note">Hit rate and ROI by market — the view that shows where edge actually lives (all settled bets).</div>
+<div class="minis"><div class="mini"><div class="mk">BY PROP TYPE</div><table><tr><th></th><th>N</th><th>HIT</th><th>ROI</th></tr><tr><td>points</td><td>243</td><td>57.6%</td><td class="win">+25.1%</td></tr><tr><td>assists</td><td>11</td><td>45.5%</td><td class="win">+16.4%</td></tr><tr><td>rebounds</td><td>10</td><td>40.0%</td><td class="loss">-50.8%</td></tr></table></div><div class="mini"><div class="mk">BY DIRECTION</div><table><tr><th></th><th>N</th><th>HIT</th><th>ROI</th></tr><tr><td>under</td><td>196</td><td>59.2%</td><td class="win">+31.9%</td></tr><tr><td>over</td><td>68</td><td>48.5%</td><td class="loss">-11.4%</td></tr></table></div></div></div>
 
 <div class="panel"><h2>Closing Line <em>Value</em></h2>
-<div class="note">The #1 edge indicator: did we beat the number the market closed at?</div>
-<div class="grow"><span class="gk">Average CLV</span><span class="gv">Capture live as of 2026-08-06 — accrues from the next slate</span><span class="badge wait">PENDING</span></div></div>
+<div class="note">The #1 edge indicator: did we beat the number the market closed at? Use the button above to capture closes on any pending slate.</div>
+<div class="grow"><span class="gk">Average CLV</span><span class="gv">Capture live as of 2026-08-06 — accrues from the next slate</span><span class="badge wait">PENDING</span></div>
+<div class="grow"><span class="gk">Odds API budget</span><span class="gv">UNCONFIRMED — no API call recorded yet; first line-fetch will populate this</span><span class="badge wait">FREE TIER</span></div></div>
+
+<div class="panel"><h2>The <em>lanes</em></h2>
+<div class="note">Honest state of each market the Oracle can play. No fake-live: a dark lane shows nothing until it has real lines.</div>
+<div class="lanes">
+<div class="lane"><span class="lk" style="color:var(--ag-ink-mute)">NBA · DARK</span><p>Season returns late October. The engine is built and waiting; graduation exam resumes with opening night lines.</p></div>
+<div class="lane"><span class="lk" style="color:var(--ag-accent)">WNBA · PORT QUEUED</span><p>The decided interim lane — season and playoffs run Aug–Oct. Unlocks when the sport port + stats feed ship (next build session).</p></div>
+<div class="lane"><span class="lk" style="color:var(--ag-accent)">KALSHI · LANE QUEUED</span><p>Event-contract track, separate ledger — a different discipline (information vs stats). Starts from the existing prediction-market skills.</p></div>
+</div></div>
 
 <div class="panel"><h2>Recent <em>bets</em></h2>
-<table><tr><th>Date</th><th>Player</th><th>Bet</th><th>Result</th><th>Class</th></tr><tr><td>Jan 20, 2026</td><td>Stephen Curry</td><td>assists over 5.1</td><td class="loss">LOSS</td><td>backfill</td></tr><tr><td>Jan 15, 2026</td><td>Stephen Curry</td><td>points under 28.1</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Jan 17, 2026</td><td>Stephen Curry</td><td>points under 28.1</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Jan 19, 2026</td><td>Stephen Curry</td><td>points under 27.6</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Jan 20, 2026</td><td>Stephen Curry</td><td>points under 27.4</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Jan 22, 2026</td><td>Stephen Curry</td><td>points under 27.1</td><td class="loss">LOSS</td><td>backfill</td></tr><tr><td>Jan 25, 2026</td><td>Stephen Curry</td><td>points under 27.4</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Jan 28, 2026</td><td>Stephen Curry</td><td>points under 27.3</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Jan 30, 2026</td><td>Stephen Curry</td><td>points under 27.3</td><td class="win">WIN</td><td>backfill</td></tr><tr><td>Mar 16, 2026</td><td>LeBron James</td><td>points under 21.3</td><td class="win">WIN</td><td>backfill</td></tr></table></div>
+<div class="note">Click a row for the full decision receipt (projection, edge, stake math, CLV).</div>
+<span id="conffilter"></span>
+<table><tr><th>Date</th><th>Player</th><th>Bet</th><th>Result</th><th>Conf</th><th>Class</th></tr><tbody id="betrows"><tr data-conf="3"><td>Jan 20, 2026</td><td>Stephen Curry</td><td>assists over 5.1</td><td class="loss">LOSS</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 6.7 vs line — actual 3 · edge 1.6 pts · stake <span class="money">$7.27</span> at -110 · CLV not captured · GSW vs. TOR</td></tr><tr data-conf="3"><td>Jan 15, 2026</td><td>Stephen Curry</td><td>points under 28.1</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 26.4 vs line — actual 27 · edge -1.7 pts · stake <span class="money">$7.73</span> at -110 · CLV not captured · GSW vs. NYK</td></tr><tr data-conf="3"><td>Jan 17, 2026</td><td>Stephen Curry</td><td>points under 28.1</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 26.6 vs line — actual 14 · edge -1.5 pts · stake <span class="money">$6.82</span> at -110 · CLV not captured · GSW vs. CHA</td></tr><tr data-conf="3"><td>Jan 19, 2026</td><td>Stephen Curry</td><td>points under 27.6</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 24.2 vs line — actual 19 · edge -3.4 pts · stake <span class="money">$15.45</span> at -110 · CLV not captured · GSW vs. MIA</td></tr><tr data-conf="3"><td>Jan 20, 2026</td><td>Stephen Curry</td><td>points under 27.4</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 24.2 vs line — actual 16 · edge -3.2 pts · stake <span class="money">$14.55</span> at -110 · CLV not captured · GSW vs. TOR</td></tr><tr data-conf="3"><td>Jan 22, 2026</td><td>Stephen Curry</td><td>points under 27.1</td><td class="loss">LOSS</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 23.0 vs line — actual 38 · edge -4.1 pts · stake <span class="money">$18.64</span> at -110 · CLV not captured · GSW @ DAL</td></tr><tr data-conf="3"><td>Jan 25, 2026</td><td>Stephen Curry</td><td>points under 27.4</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 24.7 vs line — actual 26 · edge -2.7 pts · stake <span class="money">$12.27</span> at -110 · CLV not captured · GSW @ MIN</td></tr><tr data-conf="3"><td>Jan 28, 2026</td><td>Stephen Curry</td><td>points under 27.3</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 25.0 vs line — actual 27 · edge -2.3 pts · stake <span class="money">$10.45</span> at -110 · CLV not captured · GSW @ UTA</td></tr><tr data-conf="3"><td>Jan 30, 2026</td><td>Stephen Curry</td><td>points under 27.3</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 25.3 vs line — actual 23 · edge -2.0 pts · stake <span class="money">$9.09</span> at -110 · CLV not captured · GSW vs. DET</td></tr><tr data-conf="3"><td>Mar 16, 2026</td><td>LeBron James</td><td>points under 21.3</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 19.1 vs line — actual 18 · edge -2.2 pts · stake <span class="money">$10.0</span> at -110 · CLV not captured · LAL @ HOU</td></tr><tr data-conf="3"><td>Mar 18, 2026</td><td>LeBron James</td><td>points under 21.2</td><td class="loss">LOSS</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 19.5 vs line — actual 30 · edge -1.7 pts · stake <span class="money">$7.73</span> at -110 · CLV not captured · LAL @ HOU</td></tr><tr data-conf="3"><td>Jan 19, 2026</td><td>Jimmy Butler III</td><td>points over 20.1</td><td class="loss">LOSS</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 21.6 vs line — actual 17 · edge 1.5 pts · stake <span class="money">$6.82</span> at -110 · CLV not captured · GSW vs. MIA</td></tr><tr data-conf="3"><td>Feb 09, 2026</td><td>Bam Adebayo</td><td>points over 18.2</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 20.2 vs line — actual 23 · edge 2.0 pts · stake <span class="money">$9.09</span> at -110 · CLV not captured · MIA vs. UTA</td></tr><tr data-conf="3"><td>Feb 11, 2026</td><td>Bam Adebayo</td><td>points over 18.3</td><td class="win">WIN</td><td>C3</td><td>backfill</td></tr><tr class="detail" style="display:none"><td colspan="6">projection 20.0 vs line — actual 27 · edge 1.7 pts · stake <span class="money">$7.73</span> at -110 · CLV not captured · MIA @ NOP</td></tr></tbody></table></div>
 
-<footer>REFRESH: python3 execution/oracle_dashboard.py --open · $0 TO RUN — READS LOCAL LEDGERS ONLY · ANTIGRAVITY / MASTERY FORGE</footer>
+<footer>SERVE LIVE: python3 execution/pulse_serve.py --open → http://127.0.0.1:8765/oracle · STATIC REFRESH: python3 execution/oracle_dashboard.py --open<br>
+$0 TO RUN — LOCAL LEDGERS + LOCALHOST ONLY · ANTIGRAVITY / MASTERY FORGE</footer>
 </div><div id="tip"></div>
 <script>
 const D_ALL=[{"x": 34.0, "y": 130.2, "v": 50.0, "i": 1}, {"x": 37.1, "y": 135.0, "v": 10.0, "i": 2}, {"x": 40.2, "y": 139.8, "v": -30.0, "i": 3}, {"x": 43.3, "y": 144.6, "v": -70.0, "i": 4}, {"x": 46.3, "y": 149.3, "v": -110.0, "i": 5}, {"x": 49.4, "y": 155.3, "v": -160.0, "i": 6}, {"x": 52.5, "y": 146.5, "v": -86.0, "i": 7}, {"x": 55.6, "y": 151.2, "v": -126.0, "i": 8}, {"x": 58.7, "y": 156.0, "v": -166.0, "i": 9}, {"x": 61.8, "y": 147.4, "v": -94.0, "i": 10}, {"x": 64.9, "y": 138.6, "v": -20.0, "i": 11}, {"x": 68.0, "y": 129.5, "v": 56.0, "i": 12}, {"x": 71.0, "y": 120.5, "v": 132.0, "i": 13}, {"x": 74.1, "y": 111.6, "v": 206.0, "i": 14}, {"x": 77.2, "y": 103.3, "v": 276.0, "i": 15}, {"x": 80.3, "y": 108.1, "v": 236.0, "i": 16}, {"x": 83.4, "y": 99.2, "v": 310.0, "i": 17}, {"x": 86.5, "y": 90.4, "v": 384.0, "i": 18}, {"x": 89.6, "y": 81.3, "v": 460.0, "i": 19}, {"x": 92.7, "y": 86.1, "v": 420.0, "i": 20}, {"x": 95.7, "y": 90.9, "v": 380.0, "i": 21}, {"x": 98.8, "y": 82.3, "v": 452.0, "i": 22}, {"x": 101.9, "y": 74.4, "v": 518.0, "i": 23}, {"x": 105.0, "y": 70.1, "v": 554.36, "i": 24}, {"x": 108.1, "y": 74.9, "v": 514.36, "i": 25}, {"x": 111.2, "y": 71.0, "v": 546.66, "i": 26}, {"x": 114.3, "y": 73.0, "v": 529.66, "i": 27}, {"x": 117.4, "y": 75.1, "v": 512.66, "i": 28}, {"x": 120.4, "y": 77.1, "v": 495.66, "i": 29}, {"x": 123.5, "y": 79.1, "v": 478.66, "i": 30}, {"x": 126.6, "y": 74.9, "v": 514.36, "i": 31}, {"x": 129.7, "y": 71.3, "v": 544.11, "i": 32}, {"x": 132.8, "y": 67.1, "v": 579.81, "i": 33}, {"x": 135.9, "y": 69.1, "v": 562.81, "i": 34}, {"x": 139.0, "y": 65.9, "v": 589.16, "i": 35}, {"x": 142.1, "y": 61.9, "v": 623.16, "i": 36}, {"x": 145.1, "y": 58.6, "v": 650.36, "i": 37}, {"x": 148.2, "y": 55.9, "v": 673.31, "i": 38}, {"x": 151.3, "y": 54.8, "v": 682.81, "i": 39}, {"x": 154.4, "y": 56.2, "v": 670.99, "i": 40}, {"x": 157.5, "y": 57.0, "v": 663.72, "i": 41}, {"x": 160.6, "y": 58.5, "v": 651.45, "i": 42}, {"x": 163.7, "y": 60.1, "v": 637.81, "i": 43}, {"x": 166.8, "y": 59.3, "v": 645.25, "i": 44}, {"x": 169.8, "y": 60.1, "v": 638.43, "i": 45}, {"x": 172.9, "y": 60.9, "v": 631.16, "i": 46}, {"x": 176.0, "y": 62.0, "v": 622.52, "i": 47}, {"x": 179.1, "y": 62.8, "v": 615.7, "i": 48}, {"x": 182.2, "y": 63.9, "v": 606.15, "i": 49}, {"x": 185.3, "y": 63.1, "v": 612.76, "i": 50}, {"x": 188.4, "y": 62.4, "v": 618.96, "i": 51}, {"x": 191.5, "y": 63.6, "v": 608.96, "i": 52}, {"x": 194.5, "y": 65.8, "v": 590.32, "i": 53}, {"x": 197.6, "y": 63.8, "v": 606.85, "i": 54}, {"x": 200.7, "y": 62.5, "v": 618.42, "i": 55}, {"x": 203.8, "y": 60.9, "v": 631.23, "i": 56}, {"x": 206.9, "y": 59.9, "v": 639.49, "i": 57}, {"x": 210.0, "y": 61.3, "v": 628.13, "i": 58}, {"x": 213.1, "y": 60.0, "v": 639.29, "i": 59}, {"x": 216.2, "y": 58.9, "v": 647.97, "i": 60}, {"x": 219.2, "y": 59.8, "v": 640.24, "i": 61}, {"x": 222.3, "y": 60.8, "v": 632.51, "i": 62}, {"x": 225.4, "y": 62.1, "v": 621.15, "i": 63}, {"x": 228.5, "y": 60.7, "v": 632.72, "i": 64}, {"x": 231.6, "y": 59.4, "v": 644.29, "i": 65}, {"x": 234.7, "y": 58.4, "v": 652.56, "i": 66}, {"x": 237.8, "y": 57.4, "v": 660.41, "i": 67}, {"x": 240.9, "y": 56.4, "v": 669.09, "i": 68}, {"x": 243.9, "y": 57.9, "v": 656.82, "i": 69}, {"x": 247.0, "y": 56.4, "v": 669.22, "i": 70}, {"x": 250.1, "y": 58.2, "v": 653.77, "i": 71}, {"x": 253.2, "y": 60.0, "v": 638.77, "i": 72}, {"x": 256.3, "y": 59.3, "v": 644.97, "i": 73}, {"x": 259.4, "y": 60.2, "v": 637.7, "i": 74}, {"x": 262.5, "y": 61.5, "v": 626.79, "i": 75}, {"x": 265.6, "y": 63.5, "v": 609.52, "i": 76}, {"x": 268.6, "y": 65.7, "v": 591.34, "i": 77}, {"x": 271.7, "y": 63.2, "v": 612.01, "i": 78}, {"x": 274.8, "y": 61.9, "v": 622.75, "i": 79}, {"x": 277.9, "y": 60.8, "v": 632.67, "i": 80}, {"x": 281.0, "y": 60.0, "v": 639.28, "i": 81}, {"x": 284.1, "y": 61.2, "v": 628.83, "i": 82}, {"x": 287.2, "y": 60.1, "v": 637.92, "i": 83}, {"x": 290.3, "y": 58.9, "v": 648.25, "i": 84}, {"x": 293.3, "y": 57.9, "v": 656.51, "i": 85}, {"x": 296.4, "y": 59.2, "v": 646.06, "i": 86}, {"x": 299.5, "y": 58.3, "v": 653.5, "i": 87}, {"x": 302.6, "y": 57.5, "v": 659.7, "i": 88}, {"x": 305.7, "y": 56.8, "v": 665.9, "i": 89}, {"x": 308.8, "y": 57.7, "v": 658.63, "i": 90}, {"x": 311.9, "y": 59.7, "v": 641.36, "i": 91}, {"x": 315.0, "y": 58.0, "v": 655.4, "i": 92}, {"x": 318.0, "y": 59.1, "v": 646.31, "i": 93}, {"x": 321.1, "y": 59.9, "v": 639.49, "i": 94}, {"x": 324.2, "y": 58.9, "v": 648.58, "i": 95}, {"x": 327.3, "y": 57.5, "v": 660.16, "i": 96}, {"x": 330.4, "y": 56.3, "v": 669.66, "i": 97}, {"x": 333.5, "y": 55.3, "v": 678.34, "i": 98}, {"x": 336.6, "y": 56.4, "v": 669.25, "i": 99}, {"x": 339.7, "y": 55.6, "v": 675.86, "i": 100}, {"x": 342.7, "y": 54.7, "v": 683.71, "i": 101}, {"x": 345.8, "y": 53.9, "v": 690.32, "i": 102}, {"x": 348.9, "y": 52.9, "v": 698.18, "i": 103}, {"x": 352.0, "y": 51.9, "v": 706.86, "i": 104}, {"x": 355.1, "y": 51.1, "v": 713.47, "i": 105}, {"x": 358.2, "y": 52.0, "v": 706.2, "i": 106}, {"x": 361.3, "y": 51.0, "v": 714.46, "i": 107}, {"x": 364.4, "y": 52.2, "v": 704.46, "i": 108}, {"x": 367.4, "y": 51.1, "v": 713.96, "i": 109}, {"x": 370.5, "y": 52.3, "v": 703.96, "i": 110}, {"x": 373.6, "y": 54.2, "v": 687.6, "i": 111}, {"x": 376.7, "y": 52.7, "v": 700.0, "i": 112}, {"x": 379.8, "y": 51.5, "v": 710.33, "i": 113}, {"x": 382.9, "y": 50.3, "v": 720.25, "i": 114}, {"x": 386.0, "y": 52.0, "v": 705.7, "i": 115}, {"x": 389.1, "y": 51.1, "v": 713.96, "i": 116}, {"x": 392.1, "y": 49.7, "v": 725.53, "i": 117}, {"x": 395.2, "y": 48.5, "v": 735.45, "i": 118}, {"x": 398.3, "y": 50.2, "v": 720.9, "i": 119}, {"x": 401.4, "y": 52.2, "v": 704.54, "i": 120}, {"x": 404.5, "y": 54.5, "v": 685.45, "i": 121}, {"x": 407.6, "y": 52.2, "v": 704.04, "i": 122}, {"x": 410.7, "y": 50.8, "v": 716.02, "i": 123}, {"x": 413.8, "y": 48.7, "v": 733.38, "i": 124}, {"x": 416.8, "y": 50.4, "v": 719.29, "i": 125}, {"x": 419.9, "y": 49.1, "v": 730.44, "i": 126}, {"x": 423.0, "y": 50.6, "v": 718.17, "i": 127}, {"x": 426.1, "y": 52.6, "v": 701.35, "i": 128}, {"x": 429.2, "y": 51.2, "v": 712.51, "i": 129}, {"x": 432.3, "y": 52.2, "v": 704.78, "i": 130}, {"x": 435.4, "y": 53.3, "v": 695.23, "i": 131}, {"x": 438.5, "y": 55.5, "v": 676.59, "i": 132}, {"x": 441.5, "y": 53.8, "v": 691.05, "i": 133}, {"x": 444.6, "y": 56.2, "v": 670.6, "i": 134}, {"x": 447.7, "y": 54.7, "v": 683.83, "i": 135}, {"x": 450.8, "y": 53.3, "v": 694.98, "i": 136}, {"x": 453.9, "y": 52.3, "v": 703.25, "i": 137}, {"x": 457.0, "y": 51.6, "v": 709.45, "i": 138}, {"x": 460.1, "y": 50.5, "v": 718.95, "i": 139}, {"x": 463.2, "y": 49.6, "v": 725.97, "i": 140}, {"x": 466.2, "y": 50.9, "v": 715.52, "i": 141}, {"x": 469.3, "y": 50.1, "v": 722.13, "i": 142}, {"x": 472.4, "y": 50.9, "v": 715.31, "i": 143}, {"x": 475.5, "y": 51.9, "v": 707.13, "i": 144}, {"x": 478.6, "y": 52.7, "v": 700.31, "i": 145}, {"x": 481.7, "y": 51.9, "v": 706.51, "i": 146}, {"x": 484.8, "y": 52.8, "v": 699.24, "i": 147}, {"x": 487.9, "y": 54.3, "v": 686.97, "i": 148}, {"x": 490.9, "y": 55.5, "v": 676.52, "i": 149}, {"x": 494.0, "y": 56.8, "v": 665.61, "i": 150}, {"x": 497.1, "y": 55.8, "v": 674.29, "i": 151}, {"x": 500.2, "y": 57.3, "v": 661.56, "i": 152}, {"x": 503.3, "y": 55.9, "v": 673.14, "i": 153}, {"x": 506.4, "y": 54.8, "v": 682.23, "i": 154}, {"x": 509.5, "y": 55.8, "v": 674.05, "i": 155}, {"x": 512.6, "y": 56.8, "v": 665.41, "i": 156}, {"x": 515.6, "y": 58.3, "v": 653.14, "i": 157}, {"x": 518.7, "y": 57.0, "v": 664.29, "i": 158}, {"x": 521.8, "y": 58.4, "v": 652.47, "i": 159}, {"x": 524.9, "y": 56.9, "v": 665.28, "i": 160}, {"x": 528.0, "y": 55.5, "v": 676.44, "i": 161}, {"x": 531.1, "y": 54.8, "v": 682.64, "i": 162}, {"x": 534.2, "y": 53.9, "v": 690.07, "i": 163}, {"x": 537.3, "y": 55.6, "v": 675.52, "i": 164}, {"x": 540.3, "y": 58.1, "v": 655.07, "i": 165}, {"x": 543.4, "y": 55.9, "v": 673.25, "i": 166}, {"x": 546.5, "y": 54.2, "v": 687.72, "i": 167}, {"x": 549.6, "y": 52.7, "v": 700.53, "i": 168}, {"x": 552.7, "y": 51.6, "v": 709.21, "i": 169}, {"x": 555.8, "y": 50.9, "v": 715.41, "i": 170}, {"x": 558.9, "y": 52.5, "v": 702.23, "i": 171}, {"x": 562.0, "y": 51.7, "v": 708.43, "i": 172}, {"x": 565.0, "y": 50.9, "v": 715.46, "i": 173}, {"x": 568.1, "y": 52.1, "v": 705.46, "i": 174}, {"x": 571.2, "y": 53.4, "v": 694.1, "i": 175}, {"x": 574.3, "y": 55.0, "v": 680.92, "i": 176}, {"x": 577.4, "y": 53.5, "v": 693.32, "i": 177}, {"x": 580.5, "y": 55.2, "v": 679.23, "i": 178}, {"x": 583.6, "y": 53.6, "v": 692.45, "i": 179}, {"x": 586.7, "y": 52.2, "v": 704.44, "i": 180}, {"x": 589.7, "y": 53.0, "v": 697.62, "i": 181}, {"x": 592.8, "y": 54.5, "v": 684.89, "i": 182}, {"x": 595.9, "y": 53.6, "v": 692.32, "i": 183}, {"x": 599.0, "y": 54.8, "v": 682.77, "i": 184}, {"x": 602.1, "y": 53.8, "v": 690.63, "i": 185}, {"x": 605.2, "y": 56.1, "v": 671.99, "i": 186}, {"x": 608.3, "y": 59.1, "v": 646.54, "i": 187}, {"x": 611.4, "y": 56.4, "v": 668.85, "i": 188}, {"x": 614.4, "y": 54.8, "v": 682.9, "i": 189}, {"x": 617.5, "y": 53.3, "v": 694.88, "i": 190}, {"x": 620.6, "y": 52.0, "v": 706.45, "i": 191}, {"x": 623.7, "y": 50.5, "v": 718.85, "i": 192}, {"x": 626.8, "y": 52.5, "v": 701.58, "i": 193}, {"x": 629.9, "y": 50.9, "v": 715.63, "i": 194}, {"x": 633.0, "y": 50.0, "v": 723.07, "i": 195}, {"x": 636.1, "y": 51.5, "v": 710.34, "i": 196}, {"x": 639.1, "y": 53.1, "v": 696.7, "i": 197}, {"x": 642.2, "y": 51.5, "v": 710.33, "i": 198}, {"x": 645.3, "y": 49.9, "v": 723.56, "i": 199}, {"x": 648.4, "y": 48.5, "v": 735.13, "i": 200}, {"x": 651.5, "y": 47.4, "v": 744.22, "i": 201}, {"x": 654.6, "y": 46.6, "v": 751.66, "i": 202}, {"x": 657.7, "y": 45.6, "v": 759.92, "i": 203}, {"x": 660.8, "y": 44.8, "v": 766.53, "i": 204}, {"x": 663.8, "y": 45.7, "v": 758.8, "i": 205}, {"x": 666.9, "y": 47.1, "v": 747.44, "i": 206}, {"x": 670.0, "y": 47.9, "v": 740.62, "i": 207}, {"x": 673.1, "y": 47.1, "v": 746.82, "i": 208}, {"x": 676.2, "y": 48.2, "v": 738.18, "i": 209}, {"x": 679.3, "y": 47.3, "v": 745.21, "i": 210}, {"x": 682.4, "y": 48.2, "v": 737.94, "i": 211}, {"x": 685.5, "y": 49.3, "v": 728.39, "i": 212}, {"x": 688.5, "y": 51.0, "v": 714.75, "i": 213}, {"x": 691.6, "y": 50.1, "v": 722.19, "i": 214}, {"x": 694.7, "y": 50.9, "v": 715.37, "i": 215}, {"x": 697.8, "y": 51.9, "v": 707.19, "i": 216}, {"x": 700.9, "y": 52.9, "v": 698.55, "i": 217}, {"x": 704.0, "y": 54.7, "v": 683.1, "i": 218}, {"x": 707.1, "y": 57.6, "v": 659.46, "i": 219}, {"x": 710.2, "y": 55.0, "v": 680.53, "i": 220}, {"x": 713.2, "y": 58.2, "v": 654.17, "i": 221}, {"x": 716.3, "y": 55.2, "v": 678.96, "i": 222}, {"x": 719.4, "y": 52.2, "v": 704.58, "i": 223}, {"x": 722.5, "y": 49.0, "v": 731.44, "i": 224}, {"x": 725.6, "y": 47.7, "v": 741.77, "i": 225}, {"x": 728.7, "y": 47.0, "v": 747.97, "i": 226}, {"x": 731.8, "y": 48.5, "v": 735.7, "i": 227}, {"x": 734.9, "y": 50.0, "v": 722.52, "i": 228}, {"x": 737.9, "y": 52.0, "v": 706.16, "i": 229}, {"x": 741.0, "y": 53.9, "v": 689.8, "i": 230}, {"x": 744.1, "y": 55.8, "v": 673.89, "i": 231}, {"x": 747.2, "y": 53.8, "v": 690.83, "i": 232}, {"x": 750.3, "y": 56.4, "v": 669.01, "i": 233}, {"x": 753.4, "y": 53.7, "v": 691.74, "i": 234}, {"x": 756.5, "y": 51.8, "v": 707.44, "i": 235}, {"x": 759.6, "y": 50.9, "v": 715.3, "i": 236}, {"x": 762.6, "y": 49.6, "v": 726.04, "i": 237}, {"x": 765.7, "y": 48.7, "v": 733.48, "i": 238}, {"x": 768.8, "y": 47.6, "v": 742.57, "i": 239}, {"x": 771.9, "y": 48.5, "v": 735.3, "i": 240}, {"x": 775.0, "y": 44.4, "v": 770.01, "i": 241}, {"x": 778.1, "y": 48.8, "v": 732.74, "i": 242}, {"x": 781.2, "y": 44.8, "v": 766.21, "i": 243}, {"x": 784.3, "y": 43.6, "v": 776.54, "i": 244}, {"x": 787.3, "y": 42.4, "v": 786.46, "i": 245}, {"x": 790.4, "y": 41.2, "v": 796.37, "i": 246}, {"x": 793.5, "y": 40.0, "v": 806.7, "i": 247}, {"x": 796.6, "y": 39.1, "v": 814.56, "i": 248}, {"x": 799.7, "y": 40.0, "v": 806.83, "i": 249}, {"x": 802.8, "y": 41.2, "v": 796.38, "i": 250}, {"x": 805.9, "y": 40.4, "v": 803.4, "i": 251}, {"x": 809.0, "y": 39.4, "v": 811.67, "i": 252}, {"x": 812.0, "y": 40.2, "v": 804.85, "i": 253}, {"x": 815.1, "y": 41.1, "v": 797.12, "i": 254}, {"x": 818.2, "y": 40.1, "v": 806.21, "i": 255}, {"x": 821.3, "y": 39.1, "v": 814.47, "i": 256}, {"x": 824.4, "y": 37.9, "v": 823.97, "i": 257}, {"x": 827.5, "y": 36.6, "v": 835.13, "i": 258}, {"x": 830.6, "y": 38.8, "v": 816.49, "i": 259}, {"x": 833.7, "y": 37.3, "v": 829.71, "i": 260}, {"x": 836.7, "y": 35.6, "v": 843.76, "i": 261}, {"x": 839.8, "y": 34.8, "v": 849.96, "i": 262}, {"x": 842.9, "y": 34.0, "v": 856.99, "i": 263}, {"x": 846.0, "y": 34.9, "v": 849.72, "i": 264}],D_PROSP=[{"x": 34.0, "y": 124.6, "v": 50.0, "i": 1}, {"x": 55.9, "y": 130.4, "v": 10.0, "i": 2}, {"x": 77.9, "y": 136.2, "v": -30.0, "i": 3}, {"x": 99.8, "y": 142.0, "v": -70.0, "i": 4}, {"x": 121.8, "y": 147.9, "v": -110.0, "i": 5}, {"x": 143.7, "y": 155.1, "v": -160.0, "i": 6}, {"x": 165.7, "y": 144.4, "v": -86.0, "i": 7}, {"x": 187.6, "y": 150.2, "v": -126.0, "i": 8}, {"x": 209.6, "y": 156.0, "v": -166.0, "i": 9}, {"x": 231.5, "y": 145.5, "v": -94.0, "i": 10}, {"x": 253.5, "y": 134.8, "v": -20.0, "i": 11}, {"x": 275.4, "y": 123.7, "v": 56.0, "i": 12}, {"x": 297.4, "y": 112.7, "v": 132.0, "i": 13}, {"x": 319.3, "y": 101.9, "v": 206.0, "i": 14}, {"x": 341.2, "y": 91.8, "v": 276.0, "i": 15}, {"x": 363.2, "y": 97.6, "v": 236.0, "i": 16}, {"x": 385.1, "y": 86.8, "v": 310.0, "i": 17}, {"x": 407.1, "y": 76.1, "v": 384.0, "i": 18}, {"x": 429.0, "y": 65.0, "v": 460.0, "i": 19}, {"x": 451.0, "y": 70.8, "v": 420.0, "i": 20}, {"x": 472.9, "y": 76.6, "v": 380.0, "i": 21}, {"x": 494.9, "y": 66.2, "v": 452.0, "i": 22}, {"x": 516.8, "y": 56.6, "v": 518.0, "i": 23}, {"x": 538.8, "y": 51.3, "v": 554.36, "i": 24}, {"x": 560.7, "y": 57.1, "v": 514.36, "i": 25}, {"x": 582.6, "y": 52.4, "v": 546.66, "i": 26}, {"x": 604.6, "y": 54.9, "v": 529.66, "i": 27}, {"x": 626.5, "y": 57.4, "v": 512.66, "i": 28}, {"x": 648.5, "y": 59.8, "v": 495.66, "i": 29}, {"x": 670.4, "y": 62.3, "v": 478.66, "i": 30}, {"x": 692.4, "y": 57.1, "v": 514.36, "i": 31}, {"x": 714.3, "y": 52.8, "v": 544.11, "i": 32}, {"x": 736.3, "y": 47.6, "v": 579.81, "i": 33}, {"x": 758.2, "y": 50.1, "v": 562.81, "i": 34}, {"x": 780.2, "y": 46.2, "v": 589.16, "i": 35}, {"x": 802.1, "y": 41.3, "v": 623.16, "i": 36}, {"x": 824.1, "y": 37.3, "v": 650.36, "i": 37}, {"x": 846.0, "y": 34.0, "v": 673.31, "i": 38}];
-const tip=document.getElementById('tip');
-function wireCurve(svgId,data){const box=document.getElementById(svgId);if(!box||!data.length)return;
-const dot=box.querySelector('.hoverdot');const ch=box.querySelector('.crosshair');
-box.addEventListener('mousemove',e=>{const r=box.getBoundingClientRect();const sx=(e.clientX-r.left)*(box.viewBox.baseVal.width/r.width);
-let best=data[0];for(const p of data){if(Math.abs(p.x-sx)<Math.abs(best.x-sx))best=p}
-dot.style.display='block';dot.setAttribute('cx',best.x);dot.setAttribute('cy',best.y);
-ch.style.display='block';ch.setAttribute('x1',best.x);ch.setAttribute('x2',best.x);
-tip.style.display='block';tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY-10)+'px';
-tip.textContent='bet #'+best.i+' · cumulative $'+best.v.toLocaleString();});
-box.addEventListener('mouseleave',()=>{dot.style.display='none';ch.style.display='none';tip.style.display='none'});}
-wireCurve('svgAll',D_ALL);wireCurve('svgProsp',D_PROSP);
-document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{
-document.querySelectorAll('.fbtn').forEach(x=>x.classList.remove('on'));b.classList.add('on');
-const s=b.dataset.set;document.getElementById('curveAll').style.display=s==='all'?'':'none';
-document.getElementById('curveProsp').style.display=s==='prosp'?'':'none';}));
-document.querySelectorAll('.cbar').forEach(r=>{r.addEventListener('mousemove',e=>{tip.style.display='block';tip.style.left=(e.clientX+14)+'px';tip.style.top=(e.clientY-10)+'px';tip.textContent=r.dataset.tip});r.addEventListener('mouseleave',()=>tip.style.display='none')});
+
+const LIVE = location.protocol.startsWith('http');
+const tip = document.getElementById('tip');
+const livechip = document.getElementById('livechip');
+if (LIVE) { livechip.textContent = 'live — buttons act instantly'; livechip.classList.add('on'); }
+
+function copyText(t, msg) {
+  navigator.clipboard && navigator.clipboard.writeText(t);
+  livechip.textContent = msg; setTimeout(() => {
+    livechip.textContent = LIVE ? 'live — buttons act instantly' : 'static — buttons copy commands';
+  }, 2500);
+}
+function cli(action, args) {
+  let c = 'python3 execution/pulse_actions.py ' + action;
+  if (args && args.text) c += " '" + args.text.replace(/'/g, "'\\''") + "'";
+  return c;
+}
+function doAction(action, args) {
+  if (!LIVE) { copyText(cli(action, args), 'server offline — command copied'); return; }
+  fetch('/action', { method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({action: action, args: args || {}}) })
+    .then(r => r.json())
+    .then(j => { if (j.ok) { livechip.textContent = 'done — refreshing…'; setTimeout(() => location.reload(), 700); }
+                 else { livechip.textContent = 'action failed — see server log'; } })
+    .catch(() => copyText(cli(action, args), 'server lost — command copied'));
+}
+document.querySelectorAll('[data-action]').forEach(b => b.addEventListener('click', () => {
+  const a = b.dataset.action;
+  if (a === 'refresh') { LIVE ? location.reload() : copyText('python3 execution/oracle_dashboard.py --open', 'refresh command copied'); return; }
+  if (a === 'oracle-note') { const t = prompt('Drop a note for the overnight run:'); if (t) doAction(a, {text: t}); return; }
+  doAction(a, {});
+}));
+document.querySelectorAll('[data-open]').forEach(el => el.addEventListener('click', e => {
+  e.preventDefault();
+  if (LIVE) doAction('open-path', {uri: el.dataset.open});
+  else window.location = 'file://' + el.dataset.open;
+}));
+
+function wireCurve(svgId, data) {
+  const box = document.getElementById(svgId); if (!box || !data.length) return;
+  const dot = box.querySelector('.hoverdot'); const ch = box.querySelector('.crosshair');
+  box.addEventListener('mousemove', e => {
+    const r = box.getBoundingClientRect();
+    const sx = (e.clientX - r.left) * (box.viewBox.baseVal.width / r.width);
+    let best = data[0];
+    for (const p of data) { if (Math.abs(p.x - sx) < Math.abs(best.x - sx)) best = p; }
+    dot.style.display = 'block'; dot.setAttribute('cx', best.x); dot.setAttribute('cy', best.y);
+    ch.style.display = 'block'; ch.setAttribute('x1', best.x); ch.setAttribute('x2', best.x);
+    tip.style.display = 'block'; tip.style.left = (e.clientX + 14) + 'px'; tip.style.top = (e.clientY - 10) + 'px';
+    tip.textContent = 'bet #' + best.i + ' · cumulative $' + best.v.toLocaleString();
+  });
+  box.addEventListener('mouseleave', () => { dot.style.display = 'none'; ch.style.display = 'none'; tip.style.display = 'none'; });
+}
+wireCurve('svgAll', D_ALL); wireCurve('svgProsp', D_PROSP);
+
+document.querySelectorAll('.fbtn[data-set]').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.fbtn[data-set]').forEach(x => x.classList.remove('on')); b.classList.add('on');
+  const s = b.dataset.set;
+  document.getElementById('curveAll').style.display = s === 'all' ? '' : 'none';
+  document.getElementById('curveProsp').style.display = s === 'prosp' ? '' : 'none';
+}));
+document.querySelectorAll('.cbar').forEach(r => {
+  r.addEventListener('mousemove', e => { tip.style.display = 'block'; tip.style.left = (e.clientX + 14) + 'px';
+    tip.style.top = (e.clientY - 10) + 'px'; tip.textContent = r.dataset.tip; });
+  r.addEventListener('mouseleave', () => tip.style.display = 'none');
+  r.addEventListener('click', () => filterConf(r.dataset.conf));
+});
+let confFilter = null;
+function filterConf(c) {
+  confFilter = (confFilter === c) ? null : c;
+  document.querySelectorAll('#betrows tr[data-conf]').forEach(tr => {
+    tr.style.display = (!confFilter || tr.dataset.conf === confFilter) ? '' : 'none';
+    if (tr.nextElementSibling && tr.nextElementSibling.classList.contains('detail')) tr.nextElementSibling.style.display = 'none';
+  });
+  document.getElementById('conffilter').textContent = confFilter ? ('showing C' + confFilter + ' only — click the bar again to clear') : '';
+}
+document.querySelectorAll('#betrows tr[data-conf]').forEach(tr => tr.addEventListener('click', () => {
+  const det = tr.nextElementSibling;
+  if (det && det.classList.contains('detail')) det.style.display = det.style.display === 'none' ? '' : 'none';
+}));
+document.getElementById('demobtn').addEventListener('click', () => {
+  document.body.classList.toggle('demo');
+  document.getElementById('demobtn').classList.toggle('on');
+});
+if (LIVE) {
+  let baseline = null;
+  setInterval(() => {
+    fetch('/ping').then(r => r.json()).then(j => {
+      if (baseline === null) { baseline = j.oracle_mtime; return; }
+      if (j.oracle_mtime > baseline) location.reload();
+    }).catch(() => {});
+  }, 5000);
+}
+
 </script></body></html>

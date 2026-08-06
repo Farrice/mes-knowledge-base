@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T16:08:16.882238+00:00",
+  "generated_at": "2026-08-06T19:57:55.633330+00:00",
   "rows": [
     {
       "stamped_after_touch": false,
@@ -92,7 +92,7 @@
       "prefix_collisions": {}
     },
     {
-      "stamped_after_touch": true,
+      "stamped_after_touch": false,
       "name": "codex-harvest-2026-06-11",
       "root": "_active",
       "path": "_active/codex-harvest-2026-06-11",
@@ -101,9 +101,9 @@
       "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-06-11",
+      "last_touched": "2026-08-06",
       "last_touched_source": "git",
-      "days": 55,
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -163,7 +163,7 @@
       "index_exists": true,
       "last_touched": "2026-07-02",
       "last_touched_source": "git",
-      "days": 34,
+      "days": 35,
       "prefix_collisions": {}
     },
     {
@@ -178,7 +178,7 @@
       "index_exists": false,
       "last_touched": "2026-08-05",
       "last_touched_source": "git",
-      "days": 0,
+      "days": 1,
       "prefix_collisions": {}
     },
     {
@@ -223,7 +223,7 @@
       "index_exists": true,
       "last_touched": "2026-07-15",
       "last_touched_source": "git",
-      "days": 21,
+      "days": 22,
       "prefix_collisions": {}
     },
     {
@@ -448,7 +448,7 @@
       "index_exists": true,
       "last_touched": "2026-07-09",
       "last_touched_source": "git",
-      "days": 27,
+      "days": 28,
       "prefix_collisions": {}
     },
     {
@@ -558,7 +558,7 @@
       "index_exists": true,
       "last_touched": "2026-07-19",
       "last_touched_source": "git",
-      "days": 17,
+      "days": 18,
       "prefix_collisions": {}
     },
     {
@@ -618,7 +618,7 @@
       "index_exists": true,
       "last_touched": "2026-06-30",
       "last_touched_source": "mtime",
-      "days": 36,
+      "days": 37,
       "prefix_collisions": {}
     },
     {
@@ -633,7 +633,7 @@
       "index_exists": true,
       "last_touched": "2026-04-20",
       "last_touched_source": "git",
-      "days": 107,
+      "days": 108,
       "prefix_collisions": {}
     },
     {
@@ -648,7 +648,7 @@
       "index_exists": true,
       "last_touched": "2026-07-02",
       "last_touched_source": "git",
-      "days": 34,
+      "days": 35,
       "prefix_collisions": {}
     },
     {
@@ -663,7 +663,7 @@
       "index_exists": true,
       "last_touched": "2026-06-11",
       "last_touched_source": "git",
-      "days": 55,
+      "days": 56,
       "prefix_collisions": {}
     },
     {
@@ -798,7 +798,7 @@
       "index_exists": true,
       "last_touched": "2026-07-07",
       "last_touched_source": "mtime",
-      "days": 29,
+      "days": 30,
       "prefix_collisions": {}
     },
     {
@@ -813,7 +813,7 @@
       "index_exists": true,
       "last_touched": "2026-05-30",
       "last_touched_source": "git",
-      "days": 67,
+      "days": 68,
       "prefix_collisions": {}
     },
     {
@@ -828,7 +828,7 @@
       "index_exists": true,
       "last_touched": "2026-07-15",
       "last_touched_source": "git",
-      "days": 21,
+      "days": 22,
       "prefix_collisions": {}
     },
     {
@@ -878,6 +878,11 @@
     }
   ],
   "drift": [
+    {
+      "kind": "status_done_but_live",
+      "project": "_active/codex-harvest-2026-06-11",
+      "detail": "stamped done, then touched 0d ago"
+    },
     {
       "kind": "missing_index",
       "project": "_active/digital-product-lane-2026-08-05",

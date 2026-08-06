@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** brad-bonanno-explainer-architecture  
-**Full path:** .agent/handoffs/2026-08-06-brad-bonanno-explainer-architecture.md  
-**Date:** 2026-08-06 (today)  
-**Status:** active  
-**Title:** Brad Bonanno Explainer Architecture — Skill
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume brad-bonanno-explainer-architecture` for this one.
-
----
-
 ---
 thread: brad-bonanno-explainer-architecture
 status: active
@@ -29,4 +17,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

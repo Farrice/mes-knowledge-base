@@ -449,8 +449,8 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 165,
-            "total_feedback": 6,
+            "total_routings": 171,
+            "total_feedback": 7,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -462,7 +462,7 @@
                 "Content": 6,
                 "Analysis": 3,
                 "alex-copper-creative-strategy": 1,
-                "System": 10,
+                "System": 11,
                 "supercomputer": 6,
                 "Creative": 1,
                 "Strategy": 5,
@@ -499,7 +499,7 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "Extraction": 8,
-                "nate-b-jones-context-engineering": 14,
+                "nate-b-jones-context-engineering": 17,
                 "ethan-smith-aeo": 1,
                 "riley-brown-marketing-automation": 2,
                 "Client Work": 3,
@@ -511,8 +511,9 @@
                 "donald-miller-business-growth": 1,
                 "fashion-coupids": 1,
                 "dr-kriukow-humanization": 1,
-                "brand-operating-system": 1,
-                "dave-clark": 1
+                "brand-operating-system": 2,
+                "dave-clark": 1,
+                "forge-os": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 4,
@@ -554,7 +555,7 @@
                 "alex-myatt-creative-engine": 1,
                 "coaching-business-os": 1,
                 "mcp-builder": 1,
-                "fantastic-posters": 1,
+                "fantastic-posters": 2,
                 "samuel-thompson": 2,
                 "stefan-georgi-dopamine-copy": 1,
                 "creative-campaign-strategy": 4,
@@ -573,7 +574,7 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 2,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 15,
+                "nate-b-jones-context-engineering": 18,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
@@ -600,20 +601,21 @@
                 "chief-of-staff-os": 3,
                 "scott-norton": 1,
                 "cody-schneider": 1,
-                "corey-mcclain-persona-engineering": 3,
-                "riley-brown": 4,
+                "corey-mcclain-persona-engineering": 6,
+                "riley-brown": 5,
                 "nba-betting-edge": 1,
                 "sharran-srivatsaa-scaling": 1,
                 "oren": 1,
                 "donald-miller-business-growth": 1,
                 "donald-miller": 1,
-                "brand-operating-system": 1,
+                "brand-operating-system": 2,
                 "dave-clark": 1,
                 "seena-rez-tiktok-commerce": 1,
-                "alex-content-science": 1
+                "alex-content-science": 1,
+                "forge-os": 1
             },
             "tier_counts": {
-                "0": 165,
+                "0": 171,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -621,11 +623,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 119,
-                "finalize-auto": 46
+                "hybrid": 124,
+                "finalize-auto": 47
             },
-            "ensemble_count": 90,
-            "auto_miss_count": 5,
+            "ensemble_count": 94,
+            "auto_miss_count": 6,
             "auto_match_count": 1
         }
     },
@@ -683,6 +685,15 @@
             "rating": "auto_miss",
             "correction": "nick-saraev-agentic-workflows",
             "notes": "expert skill 'nick-saraev-agentic-workflows' loaded not matching suggestion ['kallaway-social-commerce', 'kallaway-illusion-of-novelty']"
+        },
+        {
+            "feedback_id": "fb_20260806_202514_1bf5",
+            "timestamp": "2026-08-06T20:25:14.280263+00:00",
+            "session_id": "f8e0e074-2426-4eeb-b569-cfb667b1ceb5",
+            "routing_id": "rt_20260806_202514_5fd8",
+            "rating": "auto_miss",
+            "correction": "extract-mastery",
+            "notes": "expert skill 'extract-mastery' loaded not matching suggestion ['nate-b-jones-context-engineering', 'corey-mcclain-persona-engineering']"
         }
     ],
     "routing_decisions": [
@@ -3569,6 +3580,112 @@
             "ensemble": true,
             "compound_pairing": "sean-dollwet-kdp-publishing + kallaway-illusion-of-novelty",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_200244_6a8a",
+            "timestamp": "2026-08-06T20:02:44.466627+00:00",
+            "session_id": "3d5dfa5b-0d04-4c62-a82e-de9e889f75e5",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary that synthesizes these part-summaries into one ",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "fantastic-posters"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + fantastic-posters",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_200548_2012",
+            "timestamp": "2026-08-06T20:05:48.429993+00:00",
+            "session_id": "",
+            "request_summary": "Oracle Board v2: live clickable cockpit extending the pulse localhost pattern — 3 new allow-listed actions w/ CLI twins, system-activity strip, ROI splits, drill-down receipts, demo mode, quota readou",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "riley-brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "oracle-board",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_202326_0aeb",
+            "timestamp": "2026-08-06T20:23:26.191651+00:00",
+            "session_id": "f8e0e074-2426-4eeb-b569-cfb667b1ceb5",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_202341_9691",
+            "timestamp": "2026-08-06T20:23:41.684274+00:00",
+            "session_id": "76e53886-a6b0-4043-934a-6d661cc2bbba",
+            "request_summary": "run the /watch:watch and /extract-forge https://www.youtube.com/watch?v=OMR73JQdsFQ&t=82s",
+            "intent_score": 0,
+            "domain_detected": "forge-os",
+            "experts_deployed": [
+                "forge-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "forge-os",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_202423_3781",
+            "timestamp": "2026-08-06T20:24:23.136244+00:00",
+            "session_id": "76e53886-a6b0-4043-934a-6d661cc2bbba",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_202514_5fd8",
+            "timestamp": "2026-08-06T20:25:14.165241+00:00",
+            "session_id": "f8e0e074-2426-4eeb-b569-cfb667b1ceb5",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
+            "feedback": "fb_20260806_202514_1bf5"
         }
     ]
 }

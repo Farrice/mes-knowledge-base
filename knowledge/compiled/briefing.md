@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-08-06 | 833 sources | 3,063,892 words*
+*Generated: 2026-08-06 | 833 sources | 3,063,925 words*
 
 ---
 
@@ -10,8 +10,8 @@
 - **sample-003** (copywriting) — 80 words — `knowledge/expert-benchmarks/jen-listing-content/sample-003.md`
 - **sample-004** (copywriting) — 93 words — `knowledge/expert-benchmarks/jen-listing-content/sample-004.md`
 - **sample-005** (copywriting) — 77 words — `knowledge/expert-benchmarks/jen-listing-content/sample-005.md`
-- **index** (content) — 5,571 words — `knowledge/index.md`
-- **log** (general) — 17,368 words — `knowledge/log.md`
+- **index** (content) — 5,576 words — `knowledge/index.md`
+- **log** (general) — 17,396 words — `knowledge/log.md`
 - **gauntlet-loop-blind-bar-mechanism** (screenwriting) — 1,261 words — `knowledge/synthesis/gauntlet-loop-blind-bar-mechanism.md`
 - **blind-pass-log** (systems) — 1,076 words — `extractions/cody-schneider-signal-outbound/blind-pass-log.md`
 - **extraction-report** (content) — 7,487 words — `extractions/cody-schneider-signal-outbound/extraction-report.md`

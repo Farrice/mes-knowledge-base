@@ -56,6 +56,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-08-06 | done |
 | `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-07-29 | done |
 | `alignment-architect-2026-07-07` | _active/ | `_active/alignment-architect-2026-07-07/INDEX.md` | 2026-07-28 | done |
 | `memory-bakeoff` | _active/ | `_active/memory-bakeoff/INDEX.md` | 2026-07-28 | done |
@@ -74,7 +75,6 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `fork-harvest-2026-07-02` | _active/ | `_active/fork-harvest-2026-07-02/INDEX.md` | 2026-07-02 | done |
 | `path-decision-2026-07-01` | _active/ | `_active/path-decision-2026-07-01/INDEX.md` | 2026-07-02 | done |
 | `operator-core-backport` | _active/ | `_active/operator-core-backport/INDEX.md` | 2026-06-30 | done |
-| `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
 | `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
 
 **58 projects** — 18 active, 20 parked, 20 done.
@@ -83,6 +83,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 Contradictions only — not a list of unstamped projects.
 
+- **status_done_but_live** — `_active/codex-harvest-2026-06-11`: stamped done, then touched 0d ago
 - **missing_index** — `_active/digital-product-lane-2026-08-05`: no INDEX.md — project has no entry point
 - **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
 - **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 8d ago

@@ -25,6 +25,10 @@ domain: "explainer-video architecture for technical creators"
 
 **First visual-aware extraction in the system**: 6 of 7 patterns required visual evidence to extract. Transcript-only ingestion would have missed the entire meta-skill.
 
+**Corpus** (multi-source; extend here, never mint a duplicate Bonanno skill):
+- `extractions/brad-bonanno/` — "My Claude Code Can INSTANTLY Watch Any Video" (QZMljuD10sU, 2026-05-03) — the explainer-architecture source behind this skill.
+- `extractions/brad-bonanno-edit-bay/` — "My Claude Code Edits FULL Videos in One Shot" (mlhhZSHIS-w, 2026-08-06) — his 6-stage agentic EDITING pipeline (WhisperX → cuts → B-roll → HyperFrames → SFX → export + watch-loop QA). MES 3.0 report: `extraction-report.md` there. Operationalized as the Edit Bay: `skills/video-studio/`.
+
 ## Available Workflows
 
 | # | Workflow | Produces | Use When |

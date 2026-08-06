@@ -151,3 +151,20 @@
     }
   }
 }
+{
+  "minted": 0,
+  "results": {
+    "inbox": {
+      "minted": [],
+      "note": "OK"
+    },
+    "gmail": {
+      "minted": [],
+      "note": "SKIPPED (Request had insufficient authentication scopes.)"
+    },
+    "calendar": {
+      "minted": [],
+      "note": "SKIPPED (Request had insufficient authentication scopes.)"
+    }
+  }
+}

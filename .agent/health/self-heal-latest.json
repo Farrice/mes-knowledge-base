@@ -1,21 +1,19 @@
 {
- "ts": "2026-08-06T12:57:46.091479",
+ "ts": "2026-08-06T13:28:22.291960",
  "mode": "heal",
  "rows": [
   {
    "id": "born_intent_drift",
    "cls": "EVIDENCE",
-   "what": "3 anchor(s) drifted, every one traceable to a commit since the last bless",
+   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
    "fix": "python3 execution/verify_born_intent_drift.py --bless",
    "detail": {
     "explained": [
-     "workflow:briefs <- ceea98cc6 2026-08-06 fix(readout-os): closing corrections \u2014 md first-class + Drive vault road, 30d auto-archive both periodicals, archived-never-gone doctrine; doctor pass clean",
-     "workflow:dual-format-docs <- dd6f56e0d 2026-08-06 feat(readout-os): Visual Delivery OS \u2014 doctrine, librarian lifecycle, live side-window, Codex parity",
-     "workflow:pulse-board <- bec5de524 2026-08-06 feat(pulse): live layer \u2014 click-to-complete via on-demand localhost server + real cards for outcomes/threads"
+     "workflow:oracle-board <- 94addb69e 2026-08-06 feat(oracle): board v2 \u2014 live cockpit on the pulse server (plan Part 4)"
     ]
    },
    "action": "healed",
-   "note": "workflow:briefs <- ceea98cc6 2026-08-06 fix(readout-os): closing corrections \u2014 md first-class + Drive vault road, 30d auto-archive both periodicals, archived-never-gone doctrine; doctor pass clean; workflow:dual-format-docs <- dd6f56e0d 2026-08-06 feat(readout-os): Visual Delivery OS \u2014 doctrine, lib",
+   "note": "workflow:oracle-board <- 94addb69e 2026-08-06 feat(oracle): board v2 \u2014 live cockpit on the pulse server (plan Part 4)",
    "commit": "commit skipped (--no-commit; the caller owns the commit)"
   },
   {
@@ -100,10 +98,15 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 dual taxonomy; 1 missing index; 1 status done but live \u2014 e.g. _active/digital-product-lane-2026-08-05, _active/linkedin-launch, _active/operator-cockpit-v2",
+   "what": "organization drift: 1 dual taxonomy; 1 missing index; 2 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/codex-harvest-2026-06-11, _active/digital-product-lane-2026-08-05, _active/linkedin-launch",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
+     {
+      "kind": "status_done_but_live",
+      "project": "_active/codex-harvest-2026-06-11",
+      "detail": "stamped done, then touched 0d ago"
+     },
      {
       "kind": "missing_index",
       "project": "_active/digital-product-lane-2026-08-05",
@@ -120,7 +123,7 @@
       "detail": "stamped done, then touched 8d ago"
      }
     ],
-    "deferred_files": 0
+    "deferred_files": 1
    },
    "action": "escalated"
   },
