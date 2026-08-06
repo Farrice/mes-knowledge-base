@@ -308,6 +308,7 @@
 
 
 ## Pending enrichment
+- [2026-08-06 — Mark Forsyth Forge — Enchantment OS Shipped (16 workflows, /enchant live, merged to main)](2026-08-06-forsyth-enchantment-os.md) — operator-guide stub, needs enrichment
 - [2026-08-06 — Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born)](2026-08-06-mastery-forge.md) — operator-guide stub, needs enrichment
 - [2026-08-06 — Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Benoit Vatere — Blind Pass Sample](2026-08-05-.md) — **spurious empty-slug stub** (spine derived it from `blind-pass-sample.md`, not a session); same-day sessions collide on this `<date>-.md` filename — see Forge Radar note in the Benoit guide

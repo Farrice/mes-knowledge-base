@@ -2,8 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-06** [marketing-intelligence-engine/ready] [Marketing Intelligence Engine — Overnight Build (Cody Forge + Signal Scout + Angle Brief)](2026-08-06-marketing-intelligence-engine.md) — Fill listening-creators.md (10-20 real creators via /creator-aperture) then first full scout run + Organic Engine v1 pen card
 - **2026-08-06** [forsyth-enchantment-os/ready] [Mark Forsyth Forge — Enchantment OS Shipped (16 workflows, /enchant live, merged to main)](2026-08-06-forsyth-enchantment-os.md) — /enchant elevate on the LinkedIn profile copy — misquote test on the headline first
-- **2026-08-06** [marketing-intelligence-engine/ready] [Mark Forsyth Forge — Enchantment OS Shipped (16 workflows, /enchant live, merged to main)](2026-08-06-marketing-intelligence-engine.md) — Fill listening-creators.md (10-20 real creators via /creator-aperture) then first full scout run + Organic Engine v1 pen card
 - **2026-08-06** [mastery-forge/ready] [Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born)](2026-08-06-mastery-forge.md) — WNBA port next (odds_fetcher sport param + WNBA stats feed) then Platt calibration — exam starts ticking; human-pending: 5 sends, Chris text, gws auth, ntfy
 - **2026-08-06** [video-studio-edit-bay/ready] [Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)](2026-08-06-video-studio-edit-bay.md) — Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
 - **2026-08-06** [solutions/active] [Solutions — Auto Caption Proper Nouns Poison Extraction Slug](2026-08-06-solutions.md) — Solutions — Auto Caption Proper Nouns Poison Extraction Slug
