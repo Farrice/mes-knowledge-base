@@ -91,8 +91,11 @@ Present picks in this EXACT format (clean enough to screenshot and share):
 
   Total Exposure: $[X] ([X]% of bankroll)
   Slate Confidence: [X]/10
+  Graduation: [N]/200 prospective bets · CLV [avg or "pending"]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+The Graduation line comes from `python execution/live_trader.py check` — it tracks progress toward the real-money gate (200+ prospective bets, positive CLV, >53%, calibrated confidence). Backfilled bets never count.
 
 ### Step 8 — Auto-Log Paper Bets
 Log all picks automatically:
@@ -101,6 +104,17 @@ python execution/bet_tracker.py log "[Player]" [prop] [line] [direction] --proje
 ```
 
 Tell the user: "Picks logged. Run `/picks-review` tomorrow after games finish to record results."
+
+### Step 9 — Closing Line Capture (the CLV discipline)
+Closing lines are the #1 edge indicator and the reason the graduation gate exists. Near game start (within the hour), run:
+```bash
+python execution/paper_trader.py closes
+```
+This fetches the current line for every pending bet and records CLV automatically. If tonight's session ends before game time, say so explicitly: "Run `python execution/paper_trader.py closes` just before tip-off — without it tonight's picks can't count toward graduation CLV."
+
+## Oracle Mode (post-graduation)
+
+When `python execution/live_trader.py check` returns **GO**, this workflow switches from paper card to **ready-to-place slip**: same format, plus per-pick real-dollar stake (from live_trader's conservative limits), the exact book to place at, and a one-line reasoning receipt. Farrice places the bets himself — the system never touches money (standing rule; browser-automation-safety Tier 2). Until the gate says GO, every card is paper and says so.
 
 ## Output Rules
 - Use plain English — no jargon about CV, Kelly criterion, or projection formulas

@@ -430,6 +430,66 @@ def cmd_result(args):
     print(f"  Paper Bankroll: ${data['bankroll']['current']:.2f}")
 
 
+def cmd_closes(args):
+    """Capture closing lines for pending paper bets and compute CLV.
+
+    Run near game start (or any time before entering results). Groups pending
+    bets by event to minimize Odds API calls. A bet whose market has been
+    pulled is left untouched and reported.
+    """
+    data = load_paper_data()
+    pending = [
+        b for b in data['bets']
+        if b.get('outcome') is None
+        and b.get('closing_line') is None
+        and b.get('event_id')
+    ]
+    if not pending:
+        print("\nNo pending paper bets awaiting closing lines.")
+        return
+
+    by_event = {}
+    for b in pending:
+        by_event.setdefault(b['event_id'], []).append(b)
+
+    captured = 0
+    missing = []
+    for event_id, bets in by_event.items():
+        props = fetch_props_for_game(event_id)
+        for bet in bets:
+            player_props = props.get(bet['player'], {})
+            market = player_props.get(bet['prop'])
+            if not market or not market.get('line'):
+                missing.append(bet)
+                continue
+            closing = market['line']
+            bet['closing_line'] = closing
+            if bet['direction'] == 'over':
+                clv = closing - bet['line']
+            else:
+                clv = bet['line'] - closing
+            bet['clv'] = round(clv, 1)
+            captured += 1
+        time.sleep(0.5)
+
+    save_paper_data(data)
+
+    print(f"\n{'='*60}")
+    print(f"  CLOSING LINE CAPTURE")
+    print(f"{'='*60}")
+    print(f"  Pending bets checked:  {len(pending)}")
+    print(f"  Closing lines captured: {captured}")
+    if captured:
+        clvs = [b['clv'] for b in pending if b.get('clv') is not None]
+        avg = sum(clvs) / len(clvs)
+        print(f"  Avg CLV this batch:    {avg:+.1f} pts")
+    if missing:
+        print(f"  Markets unavailable:   {len(missing)} (line pulled or player renamed)")
+        for b in missing[:10]:
+            print(f"    - {b['id']}: {b['player']} {b['prop']} {b['direction']} {b['line']}")
+    print()
+
+
 def cmd_status(args):
     """Show paper trading progress dashboard."""
     data = load_paper_data()
@@ -564,6 +624,9 @@ def main():
     # status
     sub.add_parser('status', help='Paper trading progress dashboard')
 
+    # closes
+    sub.add_parser('closes', help='Capture closing lines for pending bets (CLV)')
+
     args = parser.parse_args()
 
     if args.command == 'slate':
@@ -574,6 +637,8 @@ def main():
         cmd_result(args)
     elif args.command == 'status':
         cmd_status(args)
+    elif args.command == 'closes':
+        cmd_closes(args)
     else:
         parser.print_help()
 

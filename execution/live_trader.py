@@ -90,11 +90,17 @@ def check_gate():
         return False, {'error': 'No paper trading data found. Run Phase 2 first.'}
 
     bets = paper.get('bets', [])
-    settled = [b for b in bets if b.get('outcome') is not None]
+    all_settled = [b for b in bets if b.get('outcome') is not None]
+    # Gate integrity (2026-08-06): backfilled bets are retroactive reconstructions —
+    # they can never carry CLV and inherit hindsight bias. Only prospectively
+    # logged bets count toward graduation. Backfills are reported as context.
+    settled = [b for b in all_settled if not b.get('backfilled')]
+    backfilled = [b for b in all_settled if b.get('backfilled')]
 
     report = {
         'total_paper_bets': len(bets),
         'settled': len(settled),
+        'backfilled_excluded': len(backfilled),
         'required': 200,
         'criteria': {},
     }
@@ -242,7 +248,9 @@ def cmd_check(args):
         print()
         return
 
-    print(f"\n  Paper Trading: {report['settled']}/{report['required']} settled bets")
+    print(f"\n  Paper Trading: {report['settled']}/{report['required']} prospective settled bets")
+    if report.get('backfilled_excluded'):
+        print(f"  ({report['backfilled_excluded']} backfilled bets excluded — retroactive, no CLV possible)")
     print(f"  {'─'*55}")
 
     for name, criteria in report['criteria'].items():
