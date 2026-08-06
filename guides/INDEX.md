@@ -9,6 +9,16 @@
 ## By use case
 
 | I want to… | Go to |
+| **Launch or relaunch a $1K+ course/product (Sam Vander Wielen Launch OS)** | |
+| Plan a full launch: ramp → ONE live webinar → replay → 4-day cart | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-launch-system` |
+| Write a live webinar that sells without pressure (consent, then disqualify) | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-webinar-script` |
+| Fix a webinar where registrations are fine but attendance isn't | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-showup-engine` |
+| Add ~25% launch revenue from a checkout I already have | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-order-bump-stack` |
+| Grow an email list with no lead magnet at all | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-newsletter-magnet` |
+| Write subject lines that make the subscriber the hero (cheapest $0 proof) | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-subject-line-hero` |
+| Answer "why buy this if I can just use ChatGPT?" without becoming anti-AI | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-ai-objection-kill` |
+| Diagnose why a launch underperformed → exactly ONE fix | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-launch-teardown` |
+| Decide which unscalable acts are worth a founder's hours | [Launch OS](2026-08-06-sam-vander-wielen-forge.md) — `/sv-unscalable-layer`, Two-Minute Test |
 | **Ship / view work as visual assets (Readout OS)** | |
 | Open my library of visual briefs | [Readout OS](2026-08-06-readout-os.md) — `/briefing-room` |
 | Run the live operator console and scratch off missions | [Readout OS](2026-08-06-readout-os.md) — `/pulse-board` or `pulse_serve.py --open` |
@@ -231,6 +241,8 @@
 ## Chronology
 
 *(newest first)*
+
+- 2026-08-06 — [Sam Vander Wielen Launch OS — Watch + Forge + Skill System](2026-08-06-sam-vander-wielen-forge.md) — a 61-minute Nathan Barry Show interview became a **12-workflow live-webinar launch capability** the arsenal did not have (nearest prior match `/jh-show-rate-diagnostics`, diagnostics only). `/watch` first established that the **visual channel carries no craft** — 34 frames, two camera setups, zero slides across the full hour — so the extraction is honestly spoken-track-grounded, the opposite of the 07-07 thin-transcript scar. Shipped: 12 workflows in 3 tiers, `genius.md` with the **Recognition Test** (*would a non-buyer still feel they got the better end of the deal?*) and a 5-level named rubric, 20 genius patterns, 12 born-v2 prompts, a 35-claim source ledger, and a `/source-to-skill-system` contract carrying a real before/after proof (generic webinar open at rubric level 2 → consent-then-disqualify at level 4). **The session's scar became its most portable asset**: auto-captions mangled the expert's surname across all 2,093 segments, so the entire skill was built under the wrong slug before the gate caught it — verified off-source on five identifiers, fully renamed, and carded (`docs/solutions/2026-08-06-auto-caption-proper-nouns-poison-extraction-slug.md`). Gates: skill_auditor **7/7**, renaissance_audit 0 fail, contract PASS, menu parity 12/12. **Ships B-tier — blind pass genuinely unrun, gap and close procedure named, not hidden.** Core doctrine: *automate 95% so you can afford to be unscalable in the 5% that actually sells; a slug is an identity, not a filename*
 
 - 2026-08-06 — [Readout OS — Visual Delivery System Build (Briefing Room + Live Pulse + Premium Minimal)](2026-08-06-readout-os.md) — one session turned the research-brief engine into the system's **delivery layer**: every surface re-skinned to Farrice's own **Premium Minimal** brand (rescued from unversioned Codex scratch into `_active/farrice-brand/premium-minimal/`, tan retired, report-dialect exceptions documented); **Briefing Room v2** (sidebar shelf/priority/category filters, pagination, compiled-date sort, per-card `path`/`copy brief` grammar, auto **context packs**, `--share` client-safe export, `--gdoc` + `md_to_gdoc.py` Drive-vault road); **live Pulse** (cockpit + context-rich console; `pulse_actions.py` = the system's FIRST mission-close writers incl. reopen; `pulse_serve.py` on-demand localhost server with dual-mode buttons, ROOT-jailed open-path, idle-exit — pattern banked in docs/solutions/); **Visual Delivery Doctrine** ratified BOTH harnesses (5 family recipes, semantic-document activation map, suggestion-only binding; markdown stays first-class); **librarian lifecycle** (30d periodical auto-archive, archived-never-gone, audit + housekeeping strip); side-window live-reload (marker-verified); Monday-breaking angle-runner path bug caught by gap audit. ICP exemplar `icp-invisible-expert`. Verdicts: great · great · good. Doctor pass: 0 new hooks, nothing blocks. Core doctrine: *complex process → simple visual result; the delivery mechanism is what makes extracted intelligence get used*
 
