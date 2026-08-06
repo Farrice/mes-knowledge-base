@@ -17,4 +17,5 @@
 ## Tracks
 1. **God Agent harvest** — Riley Brown "They Built an AI 'God Agent' for 1,000 Employees" (HQXi4snP36I) → corpus extension of `extractions/riley-brown/` (new-video assets in `extractions/riley-brown-god-agent/`) → delta memo vs the Antigravity harness.
 2. **The Oracle** — LEARN (deep-research + nba-betting-edge fusion) → VERIFY (paper loop w/ CLV capture from bet one) → GRADUATE (`live_trader.py check` gate) → PRODUCTION (nightly ready-to-place slip).
+   - **Exam-lane decision (Farrice, 2026-08-06): BOTH — port the pipeline to WNBA props (Oracle's stats exam through October) AND stand up a prediction-markets track (Kalshi/Polymarket event contracts).** The two are separate disciplines (stats modeling vs information arb) and get separate ledgers — never blended into one track record. Next build: `odds_fetcher` sport parameterization + WNBA stats feed; prediction-market track starts from the 4 existing prediction-market skills (`/edge-validation-sizing` first), NOT the parked arb project.
 3. **Phase D (later)** — extract the repeatable Forge pipeline into forge-os once the Oracle proves the shape.
