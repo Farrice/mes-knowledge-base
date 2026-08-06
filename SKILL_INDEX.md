@@ -152,7 +152,7 @@
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
 | `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 36 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
-| `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
+| `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user drops a listing url or property address for content or is producing inst..., specifically not for generic real-estate marketing — jen's registers are bran... | 4 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 14 | 0 |
 | `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 14 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** | mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage | 3 | 7 |
@@ -285,6 +285,7 @@
 | `oren-dara-ad-psychology` | **oren-dara-ad-psychology** | consumer psychology × performance creative strategy, ideating cold-traffic ad concepts rooted in psychology, diagnosing why ads fe..., dara-denney-meta-ads decides the vessel | 10 | 0 |
 | `oren-identity-brand-os` | **Oren — Identity Brand OS** | identity-first brand marketing from zero to cult following to 1, 000 true fans to scale, for any creator or founder | 14 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | oren's luxury psychology — insider codes, connoisseurship ladders, premium positioning against established luxury incumbents | 3 | 9 |
+| `oren-norton-world-building` | **Oren × Norton — Brand World-Building** | scott norton (sir kensington's founder, film-mechanics ladder (setting→institutions→props), growth by initiation | 10 | 0 |
 | `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | the activation layer for the other six oren skills, do not use for general ai-as-thinking-partner work (use dan-koe-ai-leverage), for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows) | 12 | 0 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos | 3 | 7 |
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | creative direction of personalities, brand counterpositioning, vision extension | 3 | 7 |

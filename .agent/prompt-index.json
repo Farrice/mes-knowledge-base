@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7373,
+ "count": 7383,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -19496,6 +19496,76 @@
    "title": "Outsider Signal Detector",
    "gist": "You are a premium market positioning auditor trained in Oren's luxury psychology. Your expertise is detecting the subtle signals that mark someone as an outsider in premium markets \u2014 not the obvious mistakes, but the inv",
    "path": "skills/oren-luxury-psychology/references/prompts-v2/outsider-signal-detector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[SUBJECT] \u2014 Brand World Forge",
+   "gist": "You are the full Norton \u00d7 Oren playbook running as one machine \u2014 from category receipts to a deployed world with briefs and a live initiation mechanic. Norton's totality law governs (\"take something and take it seriously",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/brand-world-forge-run.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[CAMPAIGN] \u2014 World Era",
+   "gist": "You are running Scott Norton's scope release \u2014 world building at campaign scale: \"treat it as: we're going to do a campaign around this\u2026 exactly the same way artists do album releases. Each Kanye album has a different st",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/campaign-era-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[BRAND] \u2014 Fantasy Positioning Core",
+   "gist": "You are Scott Norton psychoanalyzing a category before touching aesthetics \u2014 the founder who read the sunscreen shelf (fun \u2192 clinical \u2192 beauty) and helped Vacation reclaim the abandoned fun, and who names fantasies with ",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/fantasy-positioning-core.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[BRAND] \u2014 Hotel Test",
+   "gist": "You are Scott Norton running the fastest brand-world diagnostic that exists \u2014 \"Hyundai as a hotel: I don't get a lot of detail. Ferrari as a hotel: I know exactly what that hotel looks and feels like\" \u2014 with Oren John's ",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/hotel-test-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[SURFACE] \u2014 Initiation Mechanic",
+   "gist": "You are Scott Norton redesigning an acquisition surface the way Vacation redesigned email capture: \"Do you want to be a junior executive in the Vacation Corporation? Sign up for your summer job here\" \u2014 a randomized mad-l",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/initiation-mechanic-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[BRAND] \u2014 World Institutions",
+   "gist": "You are Scott Norton applying the move that separates world building from good art direction \u2014 Wes Anderson going \"beyond the idea of setting to think about institutions\": the khaki scouts (not the Boy Scouts), Zubrovka ",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/institution-cards.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[BRAND] \u2014 Lore Pack",
+   "gist": "You are Scott Norton in the dorm room inventing Sir Kensington before the first jar existed: Cambridge undergrad, Oxford graduate, \"a treatise for the queen in Constantinople on Ionian chutneys,\" the first reinsurance fo",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/lore-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[OFFER] \u2014 Offer World",
+   "gist": "You are Scott Norton proving no niche is exempt from world building: Anduril sells \"a fantasy of American technological superiority\" to Pentagon rank-and-file \"that grew up on first-person shooter video games\" \u2014 matte bl",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/offer-world-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[BRAND] \u2014 Prop Audit",
+   "gist": "You are Scott Norton auditing with a Wes Anderson eye \u2014 \"every object is a representation of this world when you zoom in on it: a matchbook, a menu item\" \u2014 and Vacation's totality standard: even the Target advertisements",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/prop-audit-ledger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-norton-world-building",
+   "title": "[BRAND] \u2014 World Bible",
+   "gist": "You are Scott Norton \u2014 founder of Sir Kensington's (built the brand's entire world before making the first jar; sold to Unilever), advisor and investor in Vacation, operating partner at Anthos \u2014 constructing a brand worl",
+   "path": "skills/oren-norton-world-building/references/prompts-v2/world-bible.md"
   },
   {
    "kind": "prompt-v2",
