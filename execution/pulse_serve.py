@@ -38,7 +38,7 @@ def regen():
         print(f"[pulse_serve] WARN regen failed: {e}", file=sys.stderr)
 
 
-ACTIONS = {"done", "park", "outcome", "outcome-dismiss", "outcome-snooze", "thread-archive", "open-path"}
+ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze", "thread-archive", "open-path"}
 
 
 def _open_path(uri):
@@ -65,6 +65,8 @@ def dispatch(action, args):
         return pa.act_done(args.get("slug", ""), args.get("outcome", ""))
     if action == "park":
         return pa.act_park(args.get("slug", ""), args.get("reason", ""))
+    if action == "reopen":
+        return pa.act_reopen(args.get("slug", ""))
     if action == "outcome":
         return pa.act_outcome(args.get("deliverable", ""), args.get("revenue", 0), args.get("outcome", ""))
     if action == "outcome-dismiss":

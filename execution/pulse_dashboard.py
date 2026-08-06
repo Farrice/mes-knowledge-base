@@ -140,7 +140,7 @@ def copy_target(m):
     return (m.get("mission") or "?"), "copy mission"
 
 
-def mission_card(m, names, show_verdict=False, show_actions=False):
+def mission_card(m, names, show_verdict=False, show_actions=False, show_reopen=False):
     age = mission_age_days(m)
     age_html = f'<span class="m">{age}d old</span>' if age is not None else ""
     tier = f'<span class="m">{esc(m.get("tier"))}</span>' if m.get("tier") else ""
@@ -159,6 +159,8 @@ def mission_card(m, names, show_verdict=False, show_actions=False):
     if show_actions:
         actions = (f'<button class="actbtn ok" type="button" data-action="done" data-slug="{slug}">✓ done</button>'
                    f'<button class="actbtn" type="button" data-action="park" data-slug="{slug}">park</button>')
+    if show_reopen:
+        actions += f'<button class="actbtn" type="button" data-action="reopen" data-slug="{slug}">↺ reopen</button>'
     return (f'<div class="mcard" data-goal="{esc(m.get("serves"))}">'
             f'<div class="row1"><h3>{esc(m.get("mission"))}</h3>{pill(m.get("status"))}{verdict}</div>'
             f'<div class="gline">{esc(goal_words(names, m.get("serves")))}</div>'
@@ -331,10 +333,10 @@ def main():
     lock_html = (f'<span class="pill warn">lock: {esc(lock["mission"])}</span>' if lock
                  else '<span class="pill ok">tree: single driver</span>')
 
-    def cards(ms, show_verdict=False, show_actions=False):
+    def cards(ms, show_verdict=False, show_actions=False, show_reopen=False):
         if not ms:
             return '<div class="empty">none — clean</div>'
-        return "".join(mission_card(m, names, show_verdict, show_actions) for m in ms)
+        return "".join(mission_card(m, names, show_verdict, show_actions, show_reopen) for m in ms)
 
     from pathlib import Path as _P
     room_uri = _P(os.path.join(ROOT, "deliverables", "research-briefs", "index.html")).as_uri()
@@ -463,7 +465,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 {fresh_intel()}
 <div class="chips">{chips}</div>
 <section><h2 class="tog">Missions — live ({len(active)})</h2><div class="body f">{cards(active, show_actions=True)}</div></section>
-<section class="closed"><h2 class="tog">Recently closed</h2><div class="body f">{cards(recent_done, show_verdict=True)}</div></section>
+<section class="closed"><h2 class="tog">Recently closed</h2><div class="body f">{cards(recent_done, show_verdict=True, show_reopen=True)}</div></section>
 <section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
 <section class="closed"><h2 class="tog">Threads (handoff store)</h2><div class="body">{threads_html}</div></section>
 <footer><span>ANTIGRAVITY PULSE</span><span>@farricecain</span></footer>
@@ -496,6 +498,7 @@ function _cli(action, args) {{
   const base = 'python3 execution/pulse_actions.py ';
   if (action === 'done') return base + 'done ' + _sq(args.slug) + ' --outcome ' + _sq(args.outcome || '');
   if (action === 'park') return base + 'park ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
+  if (action === 'reopen') return base + 'reopen ' + _sq(args.slug);
   if (action === 'outcome') return base + 'outcome ' + _sq(args.deliverable) + ' --revenue ' + (args.revenue || 0) + ' --outcome ' + _sq(args.outcome || '');
   if (action === 'outcome-snooze') return base + 'outcome-snooze ' + _sq(args.deliverable);
   if (action === 'outcome-dismiss') return base + 'outcome-dismiss ' + _sq(args.deliverable);
@@ -524,6 +527,8 @@ document.querySelectorAll('.actbtn[data-action]').forEach(b => b.addEventListene
     const reason = prompt('Park reason (one line):');
     if (reason === null) return;
     doAction('park', {{ slug: b.dataset.slug, reason }});
+  }} else if (act === 'reopen') {{
+    doAction('reopen', {{ slug: b.dataset.slug }});
   }} else if (act === 'outcome') {{
     card.querySelector('.oform').classList.toggle('show');
   }} else if (act === 'outcome-snooze') {{

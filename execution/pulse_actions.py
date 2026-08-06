@@ -88,6 +88,18 @@ def act_done(slug, outcome):
     return ok
 
 
+def act_reopen(slug):
+    """Inverse of done/park — appends a compiled line so the mission re-enters
+    the open set (open = status in compiled/running per pulse_dashboard)."""
+    prev = _latest_mission(slug) or {}
+    line = _close_line(slug, "compiled",
+                       f"REOPENED from pulse board (was {prev.get('status') or 'closed'})")
+    ok = _append_mission(line)
+    if ok:
+        print(f"reopened: {slug}")
+    return ok
+
+
 def act_park(slug, reason):
     reason = reason or "parked from pulse board"
     line = _close_line(slug, "stopped",
@@ -179,6 +191,7 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     d = sub.add_parser("done"); d.add_argument("slug"); d.add_argument("--outcome", default="")
     p = sub.add_parser("park"); p.add_argument("slug"); p.add_argument("--reason", default="")
+    r = sub.add_parser("reopen"); r.add_argument("slug")
     o = sub.add_parser("outcome"); o.add_argument("deliverable")
     o.add_argument("--revenue", type=float, default=0); o.add_argument("--outcome", default="")
     x = sub.add_parser("outcome-dismiss"); x.add_argument("deliverable")
@@ -188,6 +201,7 @@ def main():
     ok = {
         "done": lambda: act_done(a.slug, a.outcome),
         "park": lambda: act_park(a.slug, a.reason),
+        "reopen": lambda: act_reopen(a.slug),
         "outcome": lambda: act_outcome(a.deliverable, a.revenue, a.outcome),
         "outcome-dismiss": lambda: act_outcome_dismiss(a.deliverable),
         "outcome-snooze": lambda: act_outcome_snooze(a.deliverable, a.days),
