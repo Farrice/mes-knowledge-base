@@ -1,16 +1,7 @@
 {
- "ts": "2026-08-06T16:27:52.077931",
+ "ts": "2026-08-06T16:40:49.804799",
  "mode": "heal",
  "rows": [
-  {
-   "id": "stale_registries",
-   "cls": "AUTO",
-   "what": "SKILL_INDEX.md / AGENT_INDEX.md are behind the filesystem",
-   "fix": "python3 execution/sync_registries.py",
-   "action": "healed",
-   "note": "registries rebuilt; verify_system no longer flags them",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "born_intent_drift",
    "cls": "EVIDENCE",
@@ -18,19 +9,12 @@
    "fix": "python3 execution/verify_born_intent_drift.py --bless",
    "detail": {
     "explained": [
-     "skill:generate <- 7d43c4fb6 2026-08-06 Phase 1 Complete: Video Studio Edit Bay \u2014 production-ready pipeline"
+     "skill:mark-forsyth-rhetoric <- a039a0d59 2026-08-06 feat(forsyth): memorable-language mastery forge + Enchantment OS"
     ]
    },
    "action": "healed",
-   "note": "skill:generate <- 7d43c4fb6 2026-08-06 Phase 1 Complete: Video Studio Edit Bay \u2014 production-ready pipeline",
+   "note": "skill:mark-forsyth-rhetoric <- a039a0d59 2026-08-06 feat(forsyth): memorable-language mastery forge + Enchantment OS",
    "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
-  {
-   "id": "stale_slash_commands",
-   "cls": "JUDGMENT",
-   "what": "2 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
-   "fix": "debug the append region in execution/generate_slash_commands.py",
-   "action": "escalated"
   },
   {
    "id": "platform_drift",
@@ -107,7 +91,7 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 dual taxonomy; 1 missing index; 2 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/codex-harvest-2026-06-11, _active/digital-product-lane-2026-08-05, _active/linkedin-launch",
+   "what": "organization drift: 1 dual taxonomy; 3 missing index; 2 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/codex-harvest-2026-06-11, _active/digital-product-lane-2026-08-05, _active/hyperframes-studio",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
@@ -122,6 +106,11 @@
       "detail": "no INDEX.md \u2014 project has no entry point"
      },
      {
+      "kind": "missing_index",
+      "project": "_active/hyperframes-studio",
+      "detail": "no INDEX.md \u2014 project has no entry point"
+     },
+     {
       "kind": "dual_taxonomy",
       "project": "_active/linkedin-launch",
       "detail": "05-* collision: 05-assets + 05-lead-gen"
@@ -130,6 +119,11 @@
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
       "detail": "stamped done, then touched 8d ago"
+     },
+     {
+      "kind": "missing_index",
+      "project": "_active/video-studio-shakedown",
+      "detail": "no INDEX.md \u2014 project has no entry point"
      }
     ],
     "deferred_files": 1
@@ -155,6 +149,13 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py",
+   "action": "escalated"
+  },
+  {
+   "id": "verify_system.py",
+   "cls": "JUDGMENT",
+   "what": "verify_system.py is red in the 11d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

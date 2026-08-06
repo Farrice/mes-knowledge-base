@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-06** [mastery-forge/ready] [Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born)](2026-08-06-mastery-forge.md) — WNBA port next (odds_fetcher sport param + WNBA stats feed) then Platt calibration — exam starts ticking; human-pending: 5 sends, Chris text, gws auth, ntfy
 - **2026-08-06** [video-studio-edit-bay/ready] [Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)](2026-08-06-video-studio-edit-bay.md) — Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
 - **2026-08-06** [solutions/active] [Solutions — Auto Caption Proper Nouns Poison Extraction Slug](2026-08-06-solutions.md) — Solutions — Auto Caption Proper Nouns Poison Extraction Slug
 - **2026-08-06** [brad-bonanno-explainer-architecture/active] [Brad Bonanno Explainer Architecture — Skill](2026-08-06-brad-bonanno-explainer-architecture.md) — Brad Bonanno Explainer Architecture — Skill
@@ -9,7 +10,6 @@ Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 - **2026-08-06** [one-liner/active] [Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris proof-install plan + send-ready text, 10-min demo kit. Customer frame locked: 'AI employee that knows your whole business.'](2026-08-06-one-liner.md) — Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris proof-install plan + send-ready text, 10-min demo kit. Customer frame locked: 'AI employee that knows your whole business.
 - **2026-08-06** [god-agent-offer/active] [Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-god-agent-offer.md) — UNCAGED 2026-08-06 by Farrice explicit overrule (Compass) + new fact: warm network (Chris x3 restaurants w/ owner relationship + April audit delivered, dog business, title shop) = proof instances without cold sales. Positioning package + demo kit in _active/mastery-forge/02-offer/
 - **2026-08-06** [execution/active] [Execution — Brief Library](2026-08-06-execution.md) — Execution — Brief Library
-- **2026-08-06** [mastery-forge/active] [Mastery Forge — Gate Baseline](2026-08-06-mastery-forge.md) — Mastery Forge — Gate Baseline
 - **2026-08-06** [directives/active] [Directives — Cli Reference](2026-08-06-directives.md) — Directives — Cli Reference
 - **2026-08-05** [linkedin-launch/active] [Linkedin Launch — Hotel Test Proof To Market 2026 08 05](2026-08-05-linkedin-launch.md) — Linkedin Launch — Hotel Test Proof To Market 2026 08 05
 - **2026-08-05** [jen-listings/ready] [Jen Listings — 5200 Armida Package + Listing Engine v2 (/listing-package pipeline)](2026-08-05-jen-listings.md) — Fire /listing-package cold on Jen's next listing URL — first live acceptance test

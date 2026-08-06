@@ -1,92 +1,80 @@
 # Latest Handoff
 
-**Thread:** video-studio-edit-bay  
-**Full path:** .agent/handoffs/2026-08-06-video-studio-edit-bay.md  
+**Thread:** mastery-forge  
+**Full path:** .agent/handoffs/2026-08-06-mastery-forge.md  
 **Date:** 2026-08-06 (today)  
 **Status:** ready  
-**Title:** Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)
+**Title:** Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume video-studio-edit-bay` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume mastery-forge` for this one.
 
 ---
-thread: video-studio-edit-bay
+
+---
+thread: mastery-forge
 status: ready
-resume_hint: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
-unfinished: P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive
+resume_hint: WNBA port next (odds_fetcher sport param + WNBA stats feed) then Platt calibration — exam starts ticking; human-pending: 5 sends, Chris text, gws auth, ntfy
+unfinished: WNBA port, calibration layer, CLV data accrual; god-agent first instance awaits Farrice's Chris text
 branch: main
 pin: true
 ---
 
-# Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)
+# Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born)
 
 ## Purpose
-- **Next session should do:** Run **Pilot P1 — a Parallax essay → VOX-style explainer** end-to-end through the Edit Bay: annotate the script, record Farrice VO, transcribe, cut, build 2-3 graphics through the taste gate, source free B-roll, mix, caption, export 3 formats, run the QA loop, deliver a publish-ready package for him to post.
-- **Not in scope:** Rebuilding any part of the studio (it is verified live). Voice cloning or TTS narration (banned by his ruling). Higgsfield anything (retired). Auto-publishing (he posts).
+- **Next session should do:** the WNBA port — parameterize `execution/odds_fetcher.py` (SPORT is hardcoded `basketball_nba`) so `paper_trader.py` / `picks-tonight` can run `basketball_wnba`, stand up a WNBA stats source for `execution/projection_engine.py`, and generate the first real prospective WNBA paper slate tonight. Then ship the Platt-scaling calibration layer (feature-leakage shallow-tree check first) per `skills/nba-betting-edge/references/oracle-2026-research.md` §3, with an ECE readout wired into `live_trader.py check`.
+- **Not in scope:** real-money anything (gate is NO-GO: 38/200 prospective), the prediction-markets/Kalshi track (separate ledger, later), re-researching anything (52-source brief is on disk), re-extracting the God Agent video, selling the god-agent offer (uncaged but first move is Chris's $0 proof install — Farrice sends the text himself).
 
 ## Load First
-- `skills/video-studio/SKILL.md` — the front door: 6-stage pipeline, three modes, hard rules
-- `skills/video-studio/workflows/produce-explainer.md` — the exact production cycle to follow for P1
-- `skills/video-studio/style/graphics-taste.md` — MANDATORY named load before any comp (10 citable rules + slop tells + pre-render grep)
-- `_active/farrice-brand/voice/video-style.md` — his brand video style + the Correction Log that must absorb every note before close-out
-- `directives/video-studio-policy.md` — the 10 binding rules (no Higgsfield, free-first ladder, his VO, 3 formats, he posts)
-- `extractions/brad-bonanno-edit-bay/extraction-report.md` — the MES 3.0 source decode (12 genius patterns, 8 hidden-knowledge points)
-- `_active/video-studio-shakedown/05-assets/video/` — working reference: a real cutlist + render chain that passed QA
+- `_active/mastery-forge/INDEX.md` — project doctrine, decisions, Oracle quick reference
+- `_active/mastery-forge/01-research/gate-baseline.md` — honest ledger state + open items
+- `skills/nba-betting-edge/references/oracle-2026-research.md` — edge sources, no-vig CLV method, calibration fix path, WNBA lane rationale
+- `~/.claude/plans/i-need-you-to-joyful-fountain.md` — the living plan (Parts 1-4, expand never replace)
 
 ## Current State
-- **Objective:** Give Farrice a conversational in-house video studio so production time stops being his content bottleneck — VOX explainers, shorts, LinkedIn video at credible quality from a laptop.
-- **What is already done:**
-  - Source video watched with 54 frames + full MES 3.0 extraction filed; folded into the existing brad-bonanno corpus (no duplicate expert minted).
-  - **Execution layer built and verified live:** `execution/transcribe_local.py` (WhisperX local, word-level), `execution/edit_bay.py` (probe · cutlist-apply · overlay · captions-burn · audio-mix · transcode · qa-probe), `execution/video_qa.py` (seam-targeted inspect · fixlist-validate · apply-log), `execution/broll_source.py` (Pexels/Pixabay + owned-first search).
-  - **Skill layer built:** `skills/video-studio/` — SKILL.md, 6 workflows, REVIEW.md picky-editor contract, cutlist/fixlist schemas, caption-style presets, global + brand style files, graphics-taste canon.
-  - **E2E proof at $0:** 90s of real footage → transcript (310 timed words) → 6-shot cutlist → 1920×1080 render → burned captions → vertical + LinkedIn exports → qa-probe caught a genuine −17 LUFS defect → audio-mix → **all six checks pass**.
-  - **Higgsfield fully retired** across `creative_router.py` (people → `fal-people`, cinema → seedance-720p, virality → manual-review), craft-map, `skills/generate/SKILL.md`, and the routing memory.
-  - Memories written: `project_video-studio-edit-bay.md` + MEMORY.md row; `feedback_visual-tool-routing.md` updated for the retirement.
-  - Commits on main: `7d43c4fb6` (build) · `ea01feaa3` (close-out) · `c8f605811` (taste layer) — pushed.
-- **What is uncertain or stale:**
-  - **HyperFrames is cloned but NOT wired** (`_active/hyperframes-studio/`, gitignored) — needs inspection before the overlay lane is real. Remotion remains the working comp engine meanwhile.
-  - Stock B-roll is **untested** — `broll_source.py` has never made a live API call (no keys yet).
-  - 9:16 export is naive center-crop (fine for talking-head, wrong for screen recordings) — subject-aware reframe is a known v2.
-  - `graphics-taste.md` rules have never been exercised on a real comp; first pilot will show whether they bite or need sharpening.
-- **Latest proof/receipt:** `_active/video-studio-shakedown/05-assets/video/renders/v02.mp4` — qa-probe PASS on all checks (resolution, fps, duration-vs-cutlist, loudness, black frames, silences). Frames at `renders/v01-captioned-frames/`.
-
-## Blocking on Farrice (both trivial)
-1. **Free API keys** → `.env`: `PEXELS_API_KEY` (pexels.com/api) and `PIXABAY_API_KEY` (pixabay.com/api/docs). ~2 minutes, no cost.
-2. **A VO recording** for P1 — AirPods/phone quality is fine; the mix normalizes it. Nothing else about his kit is a blocker.
+- **Objective:** a forged betting master under a falsifiable graduation exam; it decides, Farrice executes; real money locked until `live_trader.py check` says GO (200+ prospective bets, >53%, positive CLV, calibrated confidence).
+- **What is already done (2026-08-06, all committed on main):** gate integrity (226 backfills excluded; prospective baseline 38/200 · 57.9%); `paper_trader.py closes` (CLV auto-capture) + quota persistence in `odds_fetcher.api_request`; Oracle Board v2 LIVE cockpit at `http://127.0.0.1:8765/oracle` (pulse_serve `/oracle` route, 3 allow-listed actions with CLI twins, system-activity strip, ROI splits, drill-downs, demo mode, nav quad) — every action verified over HTTP; event listener + Desktop "Agent Inbox" + weekly harness-evals/verdict-to-diff card minters + notify.py (all launchd-loaded); God Agent harvest (riley-brown corpus extension + delta memo, all 5 adoptable moves SHIPPED); god-agent offer UNCAGED with Miller positioning package + Chris 2-week proof-install plan + demo kit (`_active/mastery-forge/02-offer/`); Sean Perry verified (poker pro; replicable part = receipts-driven content lane, plan Part 3F).
+- **What is uncertain or stale:** Odds API remaining quota (UNCONFIRMED until first line fetch; page shows it once `.agent/odds-api-quota.json` populates); WNBA stats source for the projection engine not yet chosen (the NBA engine reads `execution/nba_stats.py` — a WNBA equivalent is the port's real work); C5 confidence inversion stands until calibration ships; gmail/calendar listener sources SKIPPED until Farrice runs `gws auth login`.
+- **Latest proof/receipt:** live-server battery 2026-08-06 ~13:00 — all 3 oracle actions `{ok:true}` with real side effects (note→minted card `card-event-inbox-2026-08-06-oracle-note-130348.md`), jail holds, siblings regression-clean; finalize rows 8.33/8.33/8.0/8.33 PASS in `knowledge/log.md`.
 
 ## Suggested Skills / Workflows
-- `/video-studio` → `workflows/produce-explainer.md` — the P1 production cycle
-- `/parallax` — to pick and adapt the source essay (restructure for the ear before annotating)
-- `/voice-os` + `_active/farrice-brand/voice/VOICE-CARD.md` — if any script lines get rewritten
-- `frontend-design` skill + `/satori-design-think` — the named taste loads for graphics
-- `/jenny-hoyos-shorts` — when deriving shorts from the finished long-form
-- `/assets-board` — every render/export lands there automatically
+- `/oracle-board` — the live cockpit (serve-first; static fallback `python3 execution/oracle_dashboard.py --open`)
+- `/picks-tonight` — nightly slate once WNBA lines flow; Step 9 closes discipline
+- `/betting-edge` + `/edge-validation-sizing` — the domain skills the port extends
+- `python3 execution/live_trader.py check` — graduation readout after any slate
 
 ## Exact Next Prompt
 ```text
-Run Pilot P1 through the Edit Bay: pick a Parallax essay and turn it into a VOX-style
-explainer (VO-only mode — I'll record the voiceover myself). Start with
-skills/video-studio/workflows/script-annotation.md so the script is beat-mapped and
-annotated before anything else, then tell me exactly what to record. Load the
-graphics-taste named stack before you build any comp. I want the publish-ready
-package at the end: 16:9 + vertical + LinkedIn, titles, description, thumbnail.
+Continue the Mastery Forge / Oracle project (thread: mastery-forge). Read
+_active/mastery-forge/INDEX.md, 01-research/gate-baseline.md, and
+skills/nba-betting-edge/references/oracle-2026-research.md first.
+
+Build 1 — WNBA port: parameterize execution/odds_fetcher.py (SPORT hardcoded
+basketball_nba) so paper_trader.py and picks-tonight run basketball_wnba too;
+stand up a WNBA stats source for execution/projection_engine.py (nba_stats.py
+is the NBA analog). Done = a real WNBA paper slate generated tonight, logged
+prospectively, closes captured before tip-off.
+
+Build 2 — calibration: feature-leakage shallow-tree check on projection
+features, then a Platt-scaling layer over confidence scores with an ECE
+readout in live_trader.py check (research brief §3; <1,000 samples = Platt).
+
+Binding: prospective-only counting, separate ledger per lane, no real money
+(decides-he-executes), cost card on anything new, verify everything you claim
+(run it, screenshot it) before reporting.
 ```
 
 ## Acceptance Criteria
-- An annotated, beat-mapped script exists with ≥1 annotation per beat and a named first-5-seconds treatment.
-- Farrice records VO once, from a single clear instruction list (no back-and-forth about what to say).
-- A rendered explainer with ≥2 graphics built through the taste gate, ≥1 B-roll source, music bed ducked, −14 LUFS, captions burned where required.
-- `qa-probe` passes all checks; the picky-editor loop reaches verdict `pass` within 3 iterations.
-- Three exports plus titles/description/thumbnail delivered as one package Farrice would actually post.
-- Every note he gives lands in the brand style file's Correction Log before the edit closes.
+- `paper_trader.py slate` produces a WNBA slate from live lines; bets logged with `event_id`, prospective class.
+- `paper_trader.py closes` captures WNBA closing lines; CLV data points > 0 on the gate readout.
+- Calibration layer merged: gate calibration row driven by Platt-adjusted scores + ECE shown; leakage check result documented in `_active/mastery-forge/01-research/`.
+- Oracle Board reflects all of it after one refresh; Odds API quota visible on-page.
 
 ## Risk Notes
-- **Concurrent sessions:** two sibling sessions edited files in this tree during the build and committed mid-work (golden rule violated). Check `git status` and the session lock before writing; a sibling also pushed between commits.
-- **ffmpeg trap:** Homebrew's ffmpeg on this Mac lacks libass — it cannot burn captions or draw text. The full static build at `tools/bin/ffmpeg` is preferred automatically by the scripts; never hardcode `/opt/homebrew/bin/ffmpeg` for filter work.
-- **WhisperX SSL:** the wrapper wires certifi itself now; if alignment-model downloads still fail, that's the cause to check first.
-- **Cost:** the whole pilot is $0 unless a beat genuinely needs generated B-roll (fal rung 4 — quote first, inside the $20/day cap, seedance-1080p stays hard-blocked).
-- **Taste risk:** graphics are the fails-by-default stage; do not skip the named load or the pre-render grep because a comp "looks fine."
+- Odds API free-tier budget is finite and now the exam's fuel — batch requests per event (existing pattern), watch the on-page quota readout.
+- WNBA player-name matching may differ from `nba_stats.find_player`; verify before trusting projections (factual veto applies to any stated stat).
+- Two-driver tree: a Codex session was active today (pulse/readout-os commits) — check `git status` before starting; never run both tools concurrently.
+- Human-pending items (not the next session's to do, only to surface): five LinkedIn sends · Chris text (`positioning-plain-terms.md` §7) · `gws auth login` · ntfy `NTFY_TOPIC` in `.env`.
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
