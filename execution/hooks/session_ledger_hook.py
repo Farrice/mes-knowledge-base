@@ -330,6 +330,21 @@ def _staleness_line() -> str:
             parts.append(f"{len(pending)} deliverables awaiting revenue/outcome data")
     except Exception:
         pass
+    try:
+        # Live-data under-use nudge (2026-08-05): Apify sat at 2-3% for months while
+        # content was ideated from scratch. Surface utilization + zeitgeist freshness.
+        apify = json.loads((REPO_ROOT / ".agent" / "apify-usage.json").read_text())
+        pct = 100.0 * apify.get("spent_dollars", 0.0) / max(apify.get("plan_dollars", 29.0), 1)
+        zg = json.loads((REPO_ROOT / ".agent" / "zeitgeist-state.json").read_text())
+        last_runs = zg.get("last_run", {}).values()
+        newest = max(last_runs) if last_runs else None
+        zg_days = (datetime.now().date() - datetime.fromisoformat(newest).date()).days if newest else None
+        if zg_days is None or zg_days > 2:
+            age = "never" if zg_days is None else f"{zg_days}d ago"
+            parts.append(f"Apify {pct:.0f}% used, last zeitgeist brief {age} — "
+                         f"`python3 execution/zeitgeist_engine.py run` or /zeitgeist")
+    except Exception:
+        pass
     if not parts:
         return ""
     return ("OUTER LOOP STALE (" + "; ".join(parts) +

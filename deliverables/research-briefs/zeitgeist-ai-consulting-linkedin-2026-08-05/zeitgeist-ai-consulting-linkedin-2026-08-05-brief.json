@@ -1,0 +1,164 @@
+{
+  "slug": "zeitgeist-ai-consulting-linkedin-2026-08-05",
+  "chip": "ZEITGEIST · AI CONSULTING / LINKEDIN",
+  "title": "the trust gap is the *opening*",
+  "dek": "First live run of the daily zeitgeist engine. What Reddit, Threads, and LinkedIn are actually saying about AI consulting today — and the content moves the data supports, in order.",
+  "window": "aug 5, 2026 · daily lane",
+  "lens": "what's working in AI-consulting content · LinkedIn + X + Reddit + Threads",
+  "sources": "4 pulls · 39 live items (twitter pull discarded as vendor mock data)",
+  "compiled": "aug 5, 2026",
+  "footer_left": "ZEITGEIST ENGINE · LANE 01",
+  "footer_right": "farrice cain",
+  "run_cost_usd": 0.0357,
+  "stack": [
+    "reddit",
+    "threads-search",
+    "linkedin-search"
+  ],
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the big picture",
+      "kicker": "WHAT'S FORMING",
+      "body": "The AI-consulting conversation is splitting into two loud camps: operators posting income proof ('$22,000 this month from AI receptionists') and skeptics calling the field confident bluffing. The question buyers are actually asking — on Reddit's front page for this term — is 'do these people actually know anything?' That trust gap, not another how-to, is where content lands this week. Practitioners with receipts are winning both camps."
+    },
+    {
+      "kind": "evidence",
+      "heading": "what the data says",
+      "tag": "39 LIVE ITEMS",
+      "rows": [
+        {
+          "claim": "the #1 organic question is competence skepticism, verbatim",
+          "evidence": "'Do AI consultants actually know AI, or is half of it just confident bluffing?' — top reddit result for the term today, contrasting consultants who understand 'workflows, automation, LLM limitations, data privacy, integration costs' with buzzword sellers.",
+          "source_url": "https://www.reddit.com/search/?q=AI+consulting&type=link&sort=relevance",
+          "source_label": "reddit search · top result",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "income-proof posts are the engagement engine of the niche",
+          "evidence": "'I made 22,000$ this month from ai consulting/ai receptionists' — grind narrative ('15 hours a day... so worth it') plus an open AMA offer. The proof-first + open-thread format recurs across the pull.",
+          "source_url": "https://www.reddit.com/search/?q=AI+consulting&type=link&sort=relevance",
+          "source_label": "r/ subreddit income thread",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "practitioners are publicly turning on their own category",
+          "evidence": "'The AI consulting gold rush turned us into the thing we used to mock: expensive generalists selling other people's IP' — 18-month UK SME consultant, ex-AWS/GCP, calling the field 'a collective delusion.' Insider-critique is a live, high-tension angle.",
+          "source_url": "https://www.reddit.com/search/?q=AI+consulting&type=link&sort=relevance",
+          "source_label": "reddit · insider critique thread",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "the beginner funnel question is 'first client came from network — now what?'",
+          "evidence": "Two separate threads today: a consultant with a free-for-testimonial first client asking 'how to move forward,' and another with one paying client asking 'how do I consistently get more.' Client-acquisition content meets an explicitly stated demand.",
+          "source_url": "https://www.reddit.com/search/?q=AI+consulting&type=link&sort=relevance",
+          "source_label": "reddit · 2 acquisition threads",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "agent productization is the threads-side frame",
+          "evidence": "'We build custom AI Agents... Fixed price agreed before anything starts, delivered in days — and you own all of it: code, data, prompts' (@agentsondemandai, posted today) — plus Axios covering OpenAI agents finding a real vulnerability. Agents = the noun buyers now use.",
+          "source_url": "https://www.threads.com/@agentsondemandai/post/DbriPeMDpZW",
+          "source_label": "threads · posted 2026-08-06",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "linkedin 'AI consultant' positioning skews enterprise-architecture, not operator-outcomes",
+          "evidence": "Top profile summaries lead with stacks ('platform-level RAG framework... Azure AI Search hybrid + vector') and decades-of-experience claims; almost none lead with a small-business outcome. Outcome-first positioning is comparatively open ground.",
+          "source_label": "linkedin-search · 10 profiles sampled",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "x/twitter signal unavailable today — vendor returned mock data",
+          "evidence": "The kaitoeasyapi actor padded an empty result with 15 identical 'we returned N pieces of mock data' notices (their minimum-charge policy). Discarded entirely; flagged for actor review in the policy directive.",
+          "source_label": ".tmp/zeitgeist/2026-08-05-ai-consulting-linkedin-signals.json",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "what to post, *in order*",
+      "kicker": "THE OPENING",
+      "dek": "ranked against today's evidence — each move cites the signal that justifies it.",
+      "items": [
+        {
+          "action": "take the skeptic's side, then flip it with receipts",
+          "why": "The top organic question is 'confident bluffing?' — answering the accusation from inside (what a real engagement actually looks like, artifacts on screen) serves both camps. Insider-critique posts like 'the thing we used to mock' show the register that lands."
+        },
+        {
+          "action": "publish one proof-first operator post this week",
+          "why": "Income/outcome proof threads are the niche's engagement engine ($22k AMA-style thread today). Farrice's version: a real deliverable receipt (brief, teardown, before/after) — proof of craft, not income claims."
+        },
+        {
+          "action": "answer 'first client from network — now what?' as a post",
+          "why": "Two separate threads today asked exactly this. It's a Cash-Launch-adjacent question he has lived experience in, and it self-selects early-stage buyers."
+        },
+        {
+          "action": "position against enterprise-architecture speak",
+          "why": "LinkedIn sample skews Azure-stack vocabulary; 'I make AI useful for a business like yours, fixed price, you own everything' (the Threads productized frame, posted today) is open ground on LinkedIn."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "STARTERS",
+      "blocks": [
+        {
+          "label": "hook draft — skeptic flip",
+          "text": "Someone asked Reddit yesterday if AI consultants actually know AI or if it's confident bluffing.\n\nFair question. I watched the answers roll in.\n\nHere's what a real engagement looks like — artifacts included:"
+        },
+        {
+          "label": "hook draft — first-client thread answer",
+          "text": "Two people asked the same question this week: \"My first client came from my network. How do I get the next one?\"\n\nI've been inside that exact gap. Here's the move that isn't 'post more':"
+        },
+        {
+          "label": "rerun this lane now",
+          "text": "python3 execution/zeitgeist_engine.py run --lane ai-consulting-linkedin"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "Single-day snapshot from three of four planned sources — the X pull failed honest (mock-data padding, discarded, actor under review). Reddit threads are verbatim and linkable: most reliable. The LinkedIn positioning read is a 10-profile sample, a direction not a census. Engagement numbers were not captured on this run (trim fields exclude reddit vote counts for search results) — treat popularity claims as LIKELY until a second day corroborates. Nothing here is revenue data.",
+      "cta": {
+        "label": "OKAY, SO DRAFT THE POST",
+        "href": "#deploy-blocks"
+      }
+    }
+  ],
+  "ledger": [
+    {
+      "source": "reddit search 'AI consulting' via trudax/reddit-scraper-lite (10 items)",
+      "url": "https://www.reddit.com/search/?q=AI+consulting&type=link&sort=relevance",
+      "retrieved": "2026-08-05",
+      "used_for": "skeptic question, income proof, insider critique, acquisition threads",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "threads-search 'ai agents' via jungle_synthesizer (4 items)",
+      "url": "https://www.threads.com/@agentsondemandai/post/DbriPeMDpZW",
+      "retrieved": "2026-08-05",
+      "used_for": "productized-agent frame, Axios agents story",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "linkedin-search 'AI consultant' via harvestapi (10 profiles, Short mode)",
+      "url": "",
+      "retrieved": "2026-08-05",
+      "used_for": "positioning-language sample",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": "twitter 'AI consulting' via kaitoeasyapi — DISCARDED (mock-data padding)",
+      "url": "",
+      "retrieved": "2026-08-05",
+      "used_for": "nothing — data-quality flag only",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "gdoc_url": "https://docs.google.com/document/d/1BNeCaU3bZ2doDzLunkVLkwq7MRoCfp54kYj_8IIa8kk/edit"
+}

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the trust gap is the opening · Research Brief</title>
+<style>
+  /* ── Codex Antigravity Design System tokens (_active/codex-harvest-2026-06-11/DESIGN.md) ── */
+  :root{
+    --ag-ink: oklch(18% 0.012 245);
+    --ag-paper: oklch(97% 0.008 92);
+    --ag-surface: oklch(93% 0.012 100);
+    --ag-line: oklch(76% 0.018 95);
+    --ag-accent: oklch(55% 0.115 43);
+    --ag-proof: oklch(49% 0.082 168);
+    --ag-risk: oklch(56% 0.126 23);
+    --ag-focus: oklch(50% 0.105 265);
+    --ag-ink-soft: oklch(38% 0.012 245);
+    --ag-ink-mute: oklch(52% 0.012 245);
+    --ag-paper-ink: oklch(94% 0.01 92);   /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(34% 0.012 245);  /* rules on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:oklch(70% 0.02 92) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:oklch(75% 0.1 43) }
+  .decision .dek{ color:oklch(78% 0.015 92); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:oklch(75% 0.1 43); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:oklch(75% 0.015 92); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-big-picture">the big picture</a><a href="#what-the-data-says">what the data says</a><a href="#what-to-post-in-order">what to post, in order</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">ZEITGEIST · AI CONSULTING / LINKEDIN</span>
+    <h1 class="display">the trust gap is the <em>opening</em></h1>
+    <p class="dek">First live run of the daily zeitgeist engine. What Reddit, Threads, and LinkedIn are actually saying about AI consulting today — and the content moves the data supports, in order.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">aug 5, 2026 · daily lane</span></div>
+      <div><span class="k">Lens</span><span class="v">what&#x27;s working in AI-consulting content · LinkedIn + X + Reddit + Threads</span></div>
+      <div><span class="k">Sources</span><span class="v">4 pulls · 39 live items (twitter pull discarded as vendor mock data)</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 5, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-big-picture"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the big picture</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>The AI-consulting conversation is splitting into two loud camps: operators posting income proof (&#x27;$22,000 this month from AI receptionists&#x27;) and skeptics calling the field confident bluffing. The question buyers are actually asking — on Reddit&#x27;s front page for this term — is &#x27;do these people actually know anything?&#x27; That trust gap, not another how-to, is where content lands this week. Practitioners with receipts are winning both camps.</p></div></section><section class="blk" id="what-the-data-says"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what the data says</h2><span class="sectag">39 LIVE ITEMS</span></div><div class="ev"><span class="mark">✓</span><div><h3>the #1 organic question is competence skepticism, verbatim</h3><p>&#x27;Do AI consultants actually know AI, or is half of it just confident bluffing?&#x27; — top reddit result for the term today, contrasting consultants who understand &#x27;workflows, automation, LLM limitations, data privacy, integration costs&#x27; with buzzword sellers.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/search/?q=AI+consulting&amp;type=link&amp;sort=relevance" target="_blank" rel="noopener">reddit search · top result ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>income-proof posts are the engagement engine of the niche</h3><p>&#x27;I made 22,000$ this month from ai consulting/ai receptionists&#x27; — grind narrative (&#x27;15 hours a day... so worth it&#x27;) plus an open AMA offer. The proof-first + open-thread format recurs across the pull.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/search/?q=AI+consulting&amp;type=link&amp;sort=relevance" target="_blank" rel="noopener">r/ subreddit income thread ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>practitioners are publicly turning on their own category</h3><p>&#x27;The AI consulting gold rush turned us into the thing we used to mock: expensive generalists selling other people&#x27;s IP&#x27; — 18-month UK SME consultant, ex-AWS/GCP, calling the field &#x27;a collective delusion.&#x27; Insider-critique is a live, high-tension angle.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/search/?q=AI+consulting&amp;type=link&amp;sort=relevance" target="_blank" rel="noopener">reddit · insider critique thread ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>the beginner funnel question is &#x27;first client came from network — now what?&#x27;</h3><p>Two separate threads today: a consultant with a free-for-testimonial first client asking &#x27;how to move forward,&#x27; and another with one paying client asking &#x27;how do I consistently get more.&#x27; Client-acquisition content meets an explicitly stated demand.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/search/?q=AI+consulting&amp;type=link&amp;sort=relevance" target="_blank" rel="noopener">reddit · 2 acquisition threads ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>agent productization is the threads-side frame</h3><p>&#x27;We build custom AI Agents... Fixed price agreed before anything starts, delivered in days — and you own all of it: code, data, prompts&#x27; (@agentsondemandai, posted today) — plus Axios covering OpenAI agents finding a real vulnerability. Agents = the noun buyers now use.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.threads.com/@agentsondemandai/post/DbriPeMDpZW" target="_blank" rel="noopener">threads · posted 2026-08-06 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>linkedin &#x27;AI consultant&#x27; positioning skews enterprise-architecture, not operator-outcomes</h3><p>Top profile summaries lead with stacks (&#x27;platform-level RAG framework... Azure AI Search hybrid + vector&#x27;) and decades-of-experience claims; almost none lead with a small-business outcome. Outcome-first positioning is comparatively open ground.</p><div class="meta"><span class="conf likely">LIKELY</span><span class="srcref">linkedin-search · 10 profiles sampled</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>x/twitter signal unavailable today — vendor returned mock data</h3><p>The kaitoeasyapi actor padded an empty result with 15 identical &#x27;we returned N pieces of mock data&#x27; notices (their minimum-charge policy). Discarded entirely; flagged for actor review in the policy directive.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">.tmp/zeitgeist/2026-08-05-ai-consulting-linkedin-signals.json</span></div></div></div></section><section class="decision" id="what-to-post-in-order"><span class="kicker">THE OPENING</span><h2>what to post, <em>in order</em></h2><p class="dek">ranked against today&#x27;s evidence — each move cites the signal that justifies it.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>take the skeptic&#x27;s side, then flip it with receipts</h3><p>The top organic question is &#x27;confident bluffing?&#x27; — answering the accusation from inside (what a real engagement actually looks like, artifacts on screen) serves both camps. Insider-critique posts like &#x27;the thing we used to mock&#x27; show the register that lands.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>publish one proof-first operator post this week</h3><p>Income/outcome proof threads are the niche&#x27;s engagement engine ($22k AMA-style thread today). Farrice&#x27;s version: a real deliverable receipt (brief, teardown, before/after) — proof of craft, not income claims.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>answer &#x27;first client from network — now what?&#x27; as a post</h3><p>Two separate threads today asked exactly this. It&#x27;s a Cash-Launch-adjacent question he has lived experience in, and it self-selects early-stage buyers.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>position against enterprise-architecture speak</h3><p>LinkedIn sample skews Azure-stack vocabulary; &#x27;I make AI useful for a business like yours, fixed price, you own everything&#x27; (the Threads productized frame, posted today) is open ground on LinkedIn.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">04</span><h2 class="sec">deploy blocks</h2><span class="sectag">STARTERS</span></div><div class="deploy"><div class="bar"><span class="k">hook draft — skeptic flip</span><button class="copybtn" type="button">copy</button></div><pre>Someone asked Reddit yesterday if AI consultants actually know AI or if it&#x27;s confident bluffing.
+
+Fair question. I watched the answers roll in.
+
+Here&#x27;s what a real engagement looks like — artifacts included:</pre></div><div class="deploy"><div class="bar"><span class="k">hook draft — first-client thread answer</span><button class="copybtn" type="button">copy</button></div><pre>Two people asked the same question this week: &quot;My first client came from my network. How do I get the next one?&quot;
+
+I&#x27;ve been inside that exact gap. Here&#x27;s the move that isn&#x27;t &#x27;post more&#x27;:</pre></div><div class="deploy"><div class="bar"><span class="k">rerun this lane now</span><button class="copybtn" type="button">copy</button></div><pre>python3 execution/zeitgeist_engine.py run --lane ai-consulting-linkedin</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Single-day snapshot from three of four planned sources — the X pull failed honest (mock-data padding, discarded, actor under review). Reddit threads are verbatim and linkable: most reliable. The LinkedIn positioning read is a 10-profile sample, a direction not a census. Engagement numbers were not captured on this run (trim fields exclude reddit vote counts for search results) — treat popularity claims as LIKELY until a second day corroborates. Nothing here is revenue data.</p><a class="cta" href="#deploy-blocks">OKAY, SO DRAFT THE POST</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">06</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.04 — stack: reddit · threads-search · linkedin-search</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>reddit search &#x27;AI consulting&#x27; via trudax/reddit-scraper-lite (10 items)</td><td><a href="https://www.reddit.com/search/?q=AI+consulting&amp;type=link&amp;sort=relevance" target="_blank" rel="noopener">https://www.reddit.com/search/?q=AI+consulting&amp;type=link&amp;sort=relevance</a></td><td>2026-08-05</td><td>skeptic question, income proof, insider critique, acquisition threads</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>threads-search &#x27;ai agents&#x27; via jungle_synthesizer (4 items)</td><td><a href="https://www.threads.com/@agentsondemandai/post/DbriPeMDpZW" target="_blank" rel="noopener">https://www.threads.com/@agentsondemandai/post/DbriPeMDpZW</a></td><td>2026-08-05</td><td>productized-agent frame, Axios agents story</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>linkedin-search &#x27;AI consultant&#x27; via harvestapi (10 profiles, Short mode)</td><td>—</td><td>2026-08-05</td><td>positioning-language sample</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>04</td><td>twitter &#x27;AI consulting&#x27; via kaitoeasyapi — DISCARDED (mock-data padding)</td><td>—</td><td>2026-08-05</td><td>nothing — data-quality flag only</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+
+  <footer class="brief">
+    <span>ZEITGEIST ENGINE · LANE 01</span>
+    <span>farrice cain</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var pre=btn.closest('.deploy').querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -58,7 +58,7 @@ Complex process → simple result: find the single truth, deliver it through the
 
 **Step 3: ROUTE.** The router hook surfaces `[CORE]` matches per prompt; long-tail needs explicit `/name`. Matched bindings are **suggestions, never forced** (scar: 2026-07-27 — the prompt-blocking trial force-routed a prose-QA question into a rhetoric workflow; disarmed). Bindings table: `directives/routing-bindings.md` (machine source `routing_enforcer.py BINDINGS` — update together). **`/arsenal <task>` before building anything.**
 
-**Step 4: LOAD via Context Engine** (table below). Recall grounding auto-fires for content/copy/brand/voice/strategy/design (`directives/recall-grounding-protocol.md`). Memory: `python3 execution/memory_facade.py "<task intent>" --top 10` — one call across all stores. **Never produce expert-domain output without loading the expert first.** Content: minimum 2 skill files loaded before writing.
+**Step 4: LOAD via Context Engine** (table below). Recall grounding auto-fires for content/copy/brand/voice/strategy/design (`directives/recall-grounding-protocol.md`); its live-web twin auto-fires for market-fresh content work — today's zeitgeist brief first, cheap pull if stale (`directives/live-data-grounding-protocol.md`, suppress `--no-live`). Memory: `python3 execution/memory_facade.py "<task intent>" --top 10` — one call across all stores. **Never produce expert-domain output without loading the expert first.** Content: minimum 2 skill files loaded before writing.
 
 **Step 5: PRODUCE** — their thinking, not their terminology.
 

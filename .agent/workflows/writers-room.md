@@ -15,6 +15,12 @@
 
 ## Phase 1: Load the Writers' Room (3 layers, 10 sources)
 
+> **Layer 0 — zeitgeist first (free, ≤1 min):** before structural work, read the freshest
+> zeitgeist brief for the draft's lane (`deliverables/research-briefs/zeitgeist-*/`, ≤48h).
+> The draft is judged against what's live, not against memory. No fresh brief → one cheap
+> pull per `/create` Stage 2 step 0b, or proceed and say so. (Fixes the dangling
+> "Zeitgeist Layer 0" reference — defined 2026-08-05.)
+
 > **LOADING PROTOCOL (2026-07-27, binding — replaces "load every genius.md").**
 > The full room is ~78,000 words (~106k tokens) and does NOT fit a working context
 > alongside the draft, the voice card, and session history. The old instruction

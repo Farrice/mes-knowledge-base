@@ -1017,6 +1017,25 @@ BINDINGS = [
         # Social listening & audience intelligence (2026-07-16) — Apify-first pipeline.
         # Mirrors CLAUDE.md row "Social/audience/trend listening" in mandatory routing table.
         # Update both together when modifying signals or workflows.
+        "id": "content_production_live_grounding",
+        "signal_phrases": [
+            "write a post about", "draft a linkedin post", "draft a post",
+            "content ideas for", "what should i post", "post ideas",
+            "hooks for", "content angles", "write content about",
+            "linkedin post about", "make a post about", "content for this week",
+        ],
+        "mandatory_workflow_any_of": ["create", "zeitgeist", "briefs"],
+        "forbidden_workflows": [],
+        "reason": (
+            "Content production starts from live market signal, never from a blank page "
+            "(directives/live-data-grounding-protocol.md). Today's zeitgeist brief "
+            "(deliverables/research-briefs/zeitgeist-*/, <=48h) is free and already paid "
+            "for by the 06:20 engine; /create Stage 2 step 0 consumes it automatically. "
+            "Suggestion only — no workflow is forbidden; the nudge exists because Apify "
+            "sat at 2-3% utilization while content was ideated from scratch (2026-08-05)."
+        ),
+    },
+    {
         "id": "social_listening_apify_first",
         "signal_phrases": [
             "what's happening in", "what is happening in",
