@@ -199,6 +199,7 @@
 | `sabrina-ramonov` | **Agent: Sabrina Ramonov** | sabrina ramonov |
 | `sam-goddard` | **Sam Goddard** | agent configuration, signature advantage |
 | `sam-parr` | **Sam Parr** | copywriting (direct response + short-form) • taste acquisition • identity architecture • competitive moat, sam parr |
+| `sam-vander-wielen` | **sam-vander-wielen** | consent-then-disqualify selling, engineered non-scalability, live-webinar launch systems and high-ticket course sales, multi-bump checkout, newsletter as its own lead magnet, relaunch without a new product, show-up-rate engineering, subscriber-as-hero subject lines, the know-what-you-don't-know ai reframe |
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sarah-levinger` | **sarah-levinger** | avatar-to-structure matching, emotional avatar diagnosis, micro-movie script architecture, performance creative strategist, product placement timing, psychology-driven video ad creative / micro-movie storytelling, story-vs-sales architecture auditing |
 | `satori-graphics` | **Satori Graphics** | design psychology, graphic design — composition, layout, logo systems, satori graphics |

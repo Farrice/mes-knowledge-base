@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 73 agent(s) had no invocation card. Stubs below are machine-
+> 74 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2221,6 +2221,16 @@ DOMAIN: Copywriting (Direct Response + Short-Form) • Taste Acquisition • Ide
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: The two connect at **copy work / steal-and-twist** — the taste skill teaches the copy-work *drill*; the copywriting skill is the *deploy* layer (`/parr-swipe...
 ENTRY PROMPT: agents/sam-parr/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Sam Vander Wielen
+DOMAIN: live-webinar launch systems and high-ticket course sales
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Sam Vander Wielen — attorney turned entrepreneur, running a legal-education business for online business owners. Sells **one product** (the Ultimate Bundle,...
+ENTRY PROMPT: agents/sam-vander-wielen/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

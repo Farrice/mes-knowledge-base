@@ -69,3 +69,4 @@
 {"timestamp": "2026-08-04T20:56:37.303172", "workflow": "extract-forge", "skill": "caleb-ralston-personal-brand", "expert": "caleb-ralston", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-05T08:13:18.582808", "workflow": "extract-forge", "skill": "kallaway-hook-mastery", "expert": "kallaway", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-06T08:03:59.346606", "workflow": "deep-research", "skill": "nba-betting-edge", "expert": "nba-betting-edge", "task_type": "Research", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-08-06T14:03:56.729085", "workflow": "extract-forge", "skill": "sam-vander-wielen", "expert": "sam-vander-wielen", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

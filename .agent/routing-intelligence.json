@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 171,
+            "total_routings": 172,
             "total_feedback": 7,
             "positive_count": 0,
             "negative_count": 0,
@@ -498,7 +498,7 @@
                 "kallaway-social-commerce": 2,
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
-                "Extraction": 8,
+                "Extraction": 9,
                 "nate-b-jones-context-engineering": 17,
                 "ethan-smith-aeo": 1,
                 "riley-brown-marketing-automation": 2,
@@ -612,10 +612,11 @@
                 "dave-clark": 1,
                 "seena-rez-tiktok-commerce": 1,
                 "alex-content-science": 1,
-                "forge-os": 1
+                "forge-os": 1,
+                "sam-vander-wielen": 1
             },
             "tier_counts": {
-                "0": 171,
+                "0": 172,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -624,7 +625,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 124,
-                "finalize-auto": 47
+                "finalize-auto": 48
             },
             "ensemble_count": 94,
             "auto_miss_count": 6,
@@ -3686,6 +3687,23 @@
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
             "feedback": "fb_20260806_202514_1bf5"
+        },
+        {
+            "routing_id": "rt_20260806_210356_dea1",
+            "timestamp": "2026-08-06T21:03:56.694567+00:00",
+            "session_id": "",
+            "request_summary": "Sam Vander Wielen — live-webinar launch systems mastery extraction (forge)",
+            "intent_score": 8,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "sam-vander-wielen"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }

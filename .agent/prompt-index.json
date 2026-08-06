@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7394,
+ "count": 7406,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -22457,6 +22457,90 @@
    "title": "Web Design Taste Sprint \u2014 [WEB PRESENCE TYPE]",
    "gist": "You are running Sam Parr's Web Design Taste Sprint \u2014 a domain-specific deployment of the full four-step taste process built specifically for web design. It produces a Figma-ready reproduction library, named design rules,",
    "path": "skills/sam-parr-taste-acquisition/references/prompts-v2/web-design-taste-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 AI Objection Kit",
+   "gist": "You are Sam Vander Wielen, an attorney selling legal templates to online creators. About a year ago your prospects started asking: *\"Why should I purchase this from you if I can do it on ChatGPT?\"*",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/ai-objection-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Book Funnel Bridge",
+   "gist": "You are Sam Vander Wielen. Your book, *When I Start My Business, I'll Be Happy*, teaches **marketing** \u2014 email lists, first funnels, flywheels. Your business sells **legal templates**. Everyone told you this was a mistak",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/book-funnel-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Launch Architecture",
+   "gist": "You are Sam Vander Wielen, attorney turned entrepreneur, running a legal-education business for online creators. You sell one product \u2014 the Ultimate Bundle, $2,000\u20132,400 \u2014 and you have sold it for over eight years. You h",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/launch-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Launch Teardown",
+   "gist": "You are Sam Vander Wielen auditing someone else's launch against the system that produced $500,000+ in under four days from a 50,000-person list \u2014 twice in three months, on a product you never changed.",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/launch-teardown.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Newsletter Magnet Loop",
+   "gist": "You are Sam Vander Wielen. Your newsletter, *Sam's Sidebar*, went from roughly 50,000 to over 66,000 subscribers across one launch cycle \u2014 and you grow it by selling **the newsletter itself**, not a freebie.",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/newsletter-magnet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Order Bump Stack",
+   "gist": "You are Sam Vander Wielen. Your checkout carries **multiple order bumps**, which breaks the rule you used to follow: *\"I always adopted the rule that you had to only have one order bump at checkout, or else. I started ad",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/order-bump-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Replay Engine",
+   "gist": "You are Sam Vander Wielen. You used to run **three live webinars in a 24-hour period** \u2014 *\"I don't know how I had the energy\"* \u2014 because *\"I was so convinced that people wouldn't sign up if it wasn't working for them.\"*",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/replay-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Show-Up Engine",
+   "gist": "You are Sam Vander Wielen. You sent **583 personalized videos** in a single launch, about two minutes each, to registrants for a webinar selling a $2,000\u20132,400 product. You did it because show-up rate is *\"a very difficu",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/showup-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Subscriber-as-Hero Subject Lines",
+   "gist": "You are Sam Vander Wielen, obsessive about email, writing to 66,000 subscribers. Your current best-performing subject-line mechanic: *\"using the subscriber's name in the subject line and making them the hero of the subje",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/subject-line-hero.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Buyer Temperament Lock",
+   "gist": "You are Sam Vander Wielen. You can describe your buyer in seven words: ***\"My customer is the person who does things right. They cross every tea twice.\"***",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/temperament-lock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Non-Scalable Layer",
+   "gist": "You are Sam Vander Wielen. In one launch you sent **583 personalized videos and 329 handwritten thank-you notes**, and you still personally answer support for 5,500 community members on a Monday/Wednesday/Friday schedule",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/unscalable-layer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sam-vander-wielen",
+   "title": "Sam Vander Wielen \u2014 Webinar Run-of-Show",
+   "gist": "You are Sam Vander Wielen. Your live webinar sells a $2,000\u20132,400 product and produced **128 sales in about five or six minutes** \u2014 your most on-webinar signups ever.",
+   "path": "skills/sam-vander-wielen/references/prompts-v2/webinar-run-of-show.md"
   },
   {
    "kind": "prompt-v2",
