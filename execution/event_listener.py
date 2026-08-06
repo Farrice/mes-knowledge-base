@@ -42,6 +42,7 @@ import sys
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
 PENDING = os.path.join(ROOT, '.agent', 'mission-queue', 'pending')
 INBOX = os.path.join(ROOT, '.agent', 'inbox')
 PROCESSED = os.path.join(INBOX, 'processed')
@@ -251,6 +252,13 @@ def cmd_poll(args):
         minted_total += minted
     state['runs'].append({'ts': datetime.now().isoformat(timespec='seconds'), 'results': results})
     save_state(state)
+    if minted_total:
+        try:
+            from execution.notify import send as notify_send
+            names = ', '.join(os.path.basename(p) for p in minted_total)
+            notify_send('Antigravity: new mission cards', f'{len(minted_total)} card(s) queued: {names}')
+        except Exception:
+            pass
     print(json.dumps({'minted': len(minted_total), 'results': results}, indent=2))
 
 
