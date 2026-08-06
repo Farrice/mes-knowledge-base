@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
-"""Pulse board generator — the operator console (Maestro layer, 2026-07-13).
+"""Pulse board generator — the operator console (Maestro layer, 2026-07-13;
+cockpit+console rebuild 2026-08-06, Farrice-shaped).
 
-Reads live system state and renders .agent/pulse/pulse-board.html for
-publication as an artifact via /pulse-board. Deterministic; no LLM.
+Reads live system state and renders .agent/pulse/pulse-board.html.
+Deterministic; no LLM. Design system: Farrice Cain Premium Minimal report
+dialect (_active/farrice-brand/premium-minimal/REPORT-DIALECT.md) — light
+canvas by default, Premium Minimal dark variant for dark mode.
+
+Shape (Farrice, 2026-08-06): COCKPIT first (scoreboard · needs-you cards with
+goal words + copy affordance · fresh intel from the Briefing Room), full
+CONSOLE below (context-rich mission cards, collapsed history/threads).
 
 Sources: .agent/missions.jsonl · .agent/cos/goals.json · .agent/jam/taste-ledger.jsonl
-         .agent/handoffs (via handoff_store) · .agent/session.lock
+         .agent/handoffs (via handoff_store) · .agent/session.lock ·
+         deliverables/research-briefs (via brief_library.collect)
 """
 import html
 import json
@@ -43,6 +51,19 @@ def pill(status):
     return f'<span class="pill {cls}">{esc(status)}</span>'
 
 
+def mission_key(m):
+    return m.get("slug") or " ".join((m.get("mission") or "?").split())
+
+
+def mission_age_days(m):
+    try:
+        ts = m.get("ts", "")
+        return max(0, int((time.time() - time.mktime(
+            time.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S"))) // 86400))
+    except Exception:
+        return None
+
+
 def open_missions():
     """The open set — latest state per mission, keyed on slug (falls back to
     title). Apex W1 (2026-07-29): this calc existed only inside the HTML
@@ -51,19 +72,11 @@ def open_missions():
     missions = jsonl(os.path.join(ROOT, ".agent", "missions.jsonl"))
     latest = {}
     for m in missions:
-        key = m.get("slug") or " ".join((m.get("mission") or "?").split())
-        latest[key] = m
+        latest[mission_key(m)] = m
     out = []
     for key, m in latest.items():
         if m.get("status") in ("compiled", "running"):
-            age_days = None
-            try:
-                ts = m.get("ts", "")
-                age_days = max(0, int((time.time() - time.mktime(
-                    time.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S"))) // 86400))
-            except Exception:
-                pass
-            out.append({"key": key, "age_days": age_days,
+            out.append({"key": key, "age_days": mission_age_days(m),
                         "serves": m.get("serves") or "?",
                         "title": (m.get("mission") or key)[:90]})
     out.sort(key=lambda r: -(r["age_days"] if r["age_days"] is not None else 0))
@@ -93,19 +106,101 @@ def cmd_open(alarm: bool) -> int:
     return 0
 
 
+def load_goals():
+    try:
+        goals = json.load(open(os.path.join(ROOT, ".agent", "cos", "goals.json"))).get("goals", [])
+    except (OSError, ValueError):
+        goals = []
+    names = {}
+    for g in goals:
+        gid = g.get("id")
+        if gid:
+            names[gid] = str(g.get("target") or gid)
+    return goals, names
+
+
+def goal_words(names, gid):
+    if not gid or gid in ("orphan", "?"):
+        return "ORPHAN ⚑ — not tied to a goal yet"
+    t = names.get(gid)
+    if not t:
+        return gid
+    return t if len(t) <= 90 else t[:87] + "…"
+
+
+def copy_target(m):
+    """What the card's copy button yields: the mission's portable run-packet
+    path when one exists (agent-feedable, the briefing-room path grammar),
+    else the mission title for pasting into any session."""
+    slug = m.get("slug")
+    if slug:
+        p = os.path.join(ROOT, ".agent", "missions", slug, "portable.md")
+        if os.path.exists(p):
+            return p, "copy packet"
+    return (m.get("mission") or "?"), "copy mission"
+
+
+def mission_card(m, names, show_verdict=False):
+    age = mission_age_days(m)
+    age_html = f'<span class="m">{age}d old</span>' if age is not None else ""
+    tier = f'<span class="m">{esc(m.get("tier"))}</span>' if m.get("tier") else ""
+    pat = f'<span class="m">{esc(m.get("pattern"))}</span>' if m.get("pattern") else ""
+    outcome = ""
+    if m.get("outcome"):
+        outcome = f'<p class="last">{esc(str(m["outcome"])[:180])}</p>'
+    verdict = ""
+    if show_verdict and m.get("verdict"):
+        v = str(m["verdict"])
+        vcls = {"good": "ok", "marginal": "warn", "off": "crit"}.get(v, "muted")
+        verdict = f'<span class="pill {vcls}">{esc(v)}</span>'
+    txt, label = copy_target(m)
+    return (f'<div class="mcard" data-goal="{esc(m.get("serves"))}">'
+            f'<div class="row1"><h3>{esc(m.get("mission"))}</h3>{pill(m.get("status"))}{verdict}</div>'
+            f'<div class="gline">{esc(goal_words(names, m.get("serves")))}</div>'
+            f'{outcome}'
+            f'<div class="meta">{age_html}{tier}{pat}'
+            f'<button class="copybtn" type="button" data-copy="{esc(txt)}">{label}</button></div></div>')
+
+
+def fresh_intel():
+    """Newest briefs from the Briefing Room — links only, never a duplicate
+    of the room (Farrice's two-surfaces ruling, 2026-08-06)."""
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "execution"))
+        import brief_library as bl
+        entries = bl.collect()[:3]
+    except Exception:
+        return ""
+    rows = []
+    for e in entries:
+        pri = f'<span class="pill warn">P{e["priority"]}</span>' if e.get("priority") else ""
+        rows.append(
+            f'<a class="intel" href="{esc(e["html"].as_uri())}">'
+            f'<span class="ik">📋 {esc(e["category"])}</span>'
+            f'<span class="it">{esc(str(e["title"]).replace("*", ""))}</span>'
+            f'{pri}<span class="m">{esc(e["compiled"])}</span></a>')
+    if not rows:
+        return ""
+    room = os.path.join(ROOT, "deliverables", "research-briefs", "index.html")
+    from pathlib import Path as _P
+    return (f'<section><h2 class="tog">Fresh intel — from the briefing room</h2>'
+            f'<div class="intelgrid f">{"".join(rows)}</div>'
+            f'<a class="roomlink" href="{esc(_P(room).as_uri())}">open the briefing room ↗</a></section>')
+
+
 def main():
     if "--open" in sys.argv:
         raise SystemExit(cmd_open(alarm="--alarm" in sys.argv))
     now = time.strftime("%Y-%m-%d %H:%M")
     missions = jsonl(os.path.join(ROOT, ".agent", "missions.jsonl"))
-    # latest state per mission
     latest = {}
     for m in missions:
-        latest[m.get("mission", "?")] = m
+        latest[mission_key(m)] = m
     active = [m for m in latest.values() if m.get("status") in ("compiled", "running")]
-    recent_done = [m for m in latest.values() if m.get("status") == "done"][-6:]
+    active.sort(key=lambda m: -(mission_age_days(m) or 0))
+    recent_done = [m for m in latest.values() if m.get("status") == "done"][-6:][::-1]
 
-    goals = json.load(open(os.path.join(ROOT, ".agent", "cos", "goals.json"))).get("goals", [])
+    goals, names = load_goals()
     sprint = next((g for g in goals if "SPRINT" in (g.get("why") or "")), None)
 
     taste = jsonl(os.path.join(ROOT, ".agent", "jam", "taste-ledger.jsonl"))
@@ -116,9 +211,8 @@ def main():
         due_lines = [l.strip() for l in due_raw.splitlines() if l.strip().startswith(("-", "•"))]
         due_count = len(due_lines)
     except Exception:
-        due_raw, due_lines, due_count = "", [], 0
+        due_lines, due_count = [], 0
 
-    # corpus health (audit pass/fail summary, cheap re-scan)
     try:
         import importlib.util as _iu
         spec = _iu.spec_from_file_location("ra", os.path.join(ROOT, "execution", "renaissance_audit.py"))
@@ -129,9 +223,6 @@ def main():
         corpus_ok = _fails == 0
     except Exception:
         corpus, corpus_ok = "?", True
-
-    # sprint countdown (deadline parsed from goal why, e.g. "~08-12")
-    sprint_days = None
 
     try:
         threads_raw = subprocess.run(["python3", os.path.join(ROOT, "execution", "handoff_store.py"), "list"],
@@ -146,16 +237,14 @@ def main():
     except (OSError, ValueError):
         pass
 
-    waiting = [m for m in latest.values() if m.get("tier") in ("T2", "T3") and m.get("status") == "compiled"]
-
-    def mission_rows(ms):
-        if not ms:
-            return '<tr><td colspan="4" class="empty">none</td></tr>'
-        return "\n".join(
-            f"<tr data-goal=\"{esc(m.get('serves'))}\"><td>{esc(m.get('mission'))}</td>"
-            f"<td class='mono'>{esc(m.get('serves'))}</td>"
-            f"<td>{esc(m.get('pattern'))}</td><td>{pill(m.get('status'))}</td></tr>"
-            for m in ms)
+    # Needs-you = T2/T3 compiled (explicitly awaiting his sign-off) first,
+    # then the stalest open missions at the 7-day finisher threshold.
+    # Tier match is prefix-loose: records carry values like "T2 waiting".
+    def _t23(m):
+        return str(m.get("tier") or "").upper().startswith(("T2", "T3"))
+    waiting = [m for m in latest.values() if _t23(m) and m.get("status") == "compiled"]
+    stale = [m for m in active if (mission_age_days(m) or 0) >= 7 and m not in waiting]
+    needs_you = (waiting + stale)[:3]
 
     goal_ids = sorted({m.get("serves", "?") for m in latest.values()})
     chips = '<button class="chip active" data-f="all">all</button>' + "".join(
@@ -164,101 +253,169 @@ def main():
     sprint_html = ""
     if sprint:
         import re as _re
-        m = _re.search(r"~(\d{2})-(\d{2})", sprint.get("why", ""))
+        mm = _re.search(r"~(\d{2})-(\d{2})", sprint.get("why", ""))
         cd = ""
-        if m and 1 <= int(m.group(1)) <= 12:
+        if mm and 1 <= int(mm.group(1)) <= 12:
             year = time.strftime("%Y")
-            deadline = time.mktime(time.strptime(f"{year}-{m.group(1)}-{m.group(2)}", "%Y-%m-%d"))
+            deadline = time.mktime(time.strptime(f"{year}-{mm.group(1)}-{mm.group(2)}", "%Y-%m-%d"))
             days = int((deadline - time.time()) // 86400)
             if 0 <= days <= 366:
                 cd = f'<span class="pill warn">{days} days left</span>'
         sprint_html = (f'<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span>'
                        f'<strong>{esc(sprint.get("target"))}</strong>{cd}'
-                       f'<span class="muted">goal: {esc(sprint.get("id"))}</span></div>')
+                       f'<span class="m">goal: {esc(sprint.get("id"))}</span></div>')
 
     lock_html = (f'<span class="pill warn">lock: {esc(lock["mission"])}</span>' if lock
                  else '<span class="pill ok">tree: single driver</span>')
 
-    body = f"""<title>Antigravity Pulse</title>
+    def cards(ms, show_verdict=False):
+        if not ms:
+            return '<div class="empty">none — clean</div>'
+        return "".join(mission_card(m, names, show_verdict) for m in ms)
+
+    from pathlib import Path as _P
+    room_uri = _P(os.path.join(ROOT, "deliverables", "research-briefs", "index.html")).as_uri()
+    board_uri = _P(os.path.join(ROOT, ".agent", "assets", "assets-board.html")).as_uri()
+
+    body = f"""<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the pulse · Antigravity</title>
 <style>
+/* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ── */
 :root {{
-  --ground:#f7f7f9; --panel:#ffffff; --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec;
-  --accent:#5b6ee1; --ok:#3fa96c; --warn:#d99a2b; --crit:#c4554d;
-  --mono:"SF Mono",Menlo,Consolas,monospace;
-  --display:"Avenir Next",Seravek,"Segoe UI",sans-serif;
+  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
+  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
+  --mono:'JetBrains Mono',ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,sans-serif;
+  --serif:'Source Serif 4',Georgia,serif;
 }}
 @media (prefers-color-scheme: dark) {{ :root {{
-  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
-  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
+  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
 }} }}
 :root[data-theme="dark"] {{
-  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
-  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
+  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
 }}
 :root[data-theme="light"] {{
-  --ground:#f7f7f9; --panel:#ffffff; --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec;
-  --accent:#5b6ee1; --ok:#3fa96c; --warn:#d99a2b; --crit:#c4554d;
+  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
+  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
 }}
-body {{ background:var(--ground); color:var(--ink); font:15px/1.5 -apple-system,"Segoe UI",sans-serif;
-  margin:0; padding:32px 24px; }}
-.wrap {{ max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:20px; }}
-header {{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; }}
-h1 {{ font-family:var(--display); font-size:22px; font-weight:600; margin:0; letter-spacing:-.01em; }}
-h1 b {{ color:var(--accent); font-weight:600; }}
-.stamp {{ color:var(--muted); font-family:var(--mono); font-size:12px; }}
+* {{ box-sizing:border-box; }}
+body {{ background:var(--ground); color:var(--ink); font:14px/1.5 var(--sans); margin:0; padding:40px 24px 80px; }}
+.wrap {{ max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:18px; }}
+header {{ display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; }}
+.kicker {{ font-family:var(--mono); font-size:9px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:8px; }}
+h1 {{ font-size:38px; font-weight:700; letter-spacing:-.022em; margin:0; line-height:1.05; }}
+h1 em {{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--accent); }}
+.homenav {{ margin-left:auto; display:flex; gap:6px; align-items:center; }}
+.homenav a {{ font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; text-decoration:none;
+  color:var(--soft); border:1px solid var(--line); border-radius:99px; padding:4px 11px; }}
+.homenav a:hover {{ border-color:var(--accent); color:var(--accent); }}
+.stamp {{ color:var(--muted); font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  display:flex; gap:10px; align-items:center; flex-wrap:wrap; border-top:1px solid var(--ink); padding-top:10px; }}
 .sprint {{ background:var(--panel); border:1px solid var(--accent); border-radius:8px; padding:12px 16px;
   display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }}
-.sprint-tag {{ font-family:var(--mono); font-size:11px; letter-spacing:.08em; color:var(--accent); }}
+.sprint-tag {{ font-family:var(--mono); font-size:9px; letter-spacing:.18em; color:var(--accent); text-transform:uppercase; }}
 .tiles {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }}
-.tile {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 16px; }}
-.tile .n {{ font-family:var(--mono); font-size:26px; font-variant-numeric:tabular-nums; }}
-.tile .l {{ color:var(--muted); font-size:12px; letter-spacing:.04em; text-transform:uppercase; }}
+.tile {{ border-top:2px solid var(--ink); padding-top:10px; }}
+.tile .n {{ font-size:28px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }}
+.tile .l {{ color:var(--muted); font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; margin-top:4px; }}
 section {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }}
-h2 {{ font-family:var(--display); font-size:13px; letter-spacing:.06em; text-transform:uppercase;
-  color:var(--muted); margin:0 0 10px; }}
-table {{ width:100%; border-collapse:collapse; font-size:14px; }}
-td, th {{ text-align:left; padding:7px 10px 7px 0; border-top:1px solid var(--line); vertical-align:top; }}
-tr:first-child td {{ border-top:none; }}
-.mono {{ font-family:var(--mono); font-size:12.5px; color:var(--muted); }}
-.pill {{ font-family:var(--mono); font-size:11px; padding:2px 8px; border-radius:999px; white-space:nowrap; }}
-.pill.ok {{ background:color-mix(in srgb,var(--ok) 15%,transparent); color:var(--ok); }}
-.pill.warn {{ background:color-mix(in srgb,var(--warn) 18%,transparent); color:var(--warn); }}
-.pill.crit {{ background:color-mix(in srgb,var(--crit) 16%,transparent); color:var(--crit); }}
-.pill.muted {{ background:color-mix(in srgb,var(--muted) 14%,transparent); color:var(--muted); }}
-.empty {{ color:var(--muted); font-style:italic; }}
-pre {{ overflow-x:auto; font-family:var(--mono); font-size:12px; color:var(--muted); margin:0; }}
+h2 {{ font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 12px; border-bottom:1px solid var(--line); padding-bottom:8px; }}
+.mcard {{ border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:12px 14px; margin-bottom:10px; }}
+.mcard:last-child {{ margin-bottom:0; }}
+.mcard .row1 {{ display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }}
+.mcard h3 {{ font-size:13.5px; font-weight:600; margin:0; line-height:1.35; flex:1; min-width:200px; }}
+.mcard .gline {{ font-size:11.5px; color:var(--soft); margin-top:5px; }}
+.mcard .gline::before {{ content:"goal · "; font-family:var(--mono); font-size:8.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); }}
+.mcard .last {{ font-size:11.5px; color:var(--muted); margin:5px 0 0; line-height:1.45; }}
+.mcard .meta {{ display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap; }}
+.m {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }}
+.pill {{ font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; padding:2px 8px;
+  border-radius:3px; white-space:nowrap; font-weight:700; }}
+.pill.ok {{ color:var(--ok); border:1px solid var(--ok); }}
+.pill.warn {{ color:var(--warn); border:1px solid var(--warn); }}
+.pill.crit {{ color:var(--crit); border:1px solid var(--crit); }}
+.pill.muted {{ color:var(--muted); border:1px solid var(--line); }}
+.copybtn {{ margin-left:auto; font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
+  cursor:pointer; background:none; border:1px solid var(--line); border-radius:4px; padding:3px 9px; color:var(--soft); }}
+.copybtn:hover {{ border-color:var(--accent); color:var(--accent); }}
+.intelgrid {{ display:flex; flex-direction:column; gap:8px; }}
+.intel {{ display:flex; gap:12px; align-items:baseline; text-decoration:none; color:var(--ink);
+  border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:10px 14px; flex-wrap:wrap; }}
+.intel:hover {{ border-color:var(--accent); }}
+.intel .ik {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }}
+.intel .it {{ font-size:13px; font-weight:600; flex:1; min-width:200px; }}
+.roomlink {{ display:inline-block; margin-top:10px; font-family:var(--mono); font-size:9px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--accent); text-decoration:none; }}
+.roomlink:hover {{ text-decoration:underline; }}
+.empty {{ color:var(--muted); font-style:italic; font-size:12.5px; }}
+pre {{ overflow-x:auto; font-family:var(--mono); font-size:11px; color:var(--soft); margin:0; line-height:1.7; }}
 .chips {{ display:flex; gap:8px; flex-wrap:wrap; }}
-.chip {{ font-family:var(--mono); font-size:12px; padding:4px 12px; border-radius:999px;
-  border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; }}
+.chip {{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; padding:4px 12px;
+  border-radius:99px; border:1px solid var(--line); background:var(--panel); color:var(--soft); cursor:pointer; }}
 .chip.active {{ border-color:var(--accent); color:var(--accent); }}
 .tog {{ cursor:pointer; user-select:none; }}
 .tog::before {{ content:"▾ "; color:var(--accent); }}
+section.closed .tog {{ margin-bottom:0; border-bottom:none; padding-bottom:0; }}
 section.closed .tog::before {{ content:"▸ "; }}
-section.closed table, section.closed pre {{ display:none; }}
+section.closed .body {{ display:none; }}
+#toast {{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--panel);
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+  border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99; }}
+#toast.show {{ opacity:1; }}
+footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
+  font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }}
 </style>
 <div class="wrap">
-<header><h1><b>Antigravity</b> Pulse</h1><div class="stamp">{now} · {lock_html}</div></header>
+<header>
+  <div><span class="kicker">ANTIGRAVITY · OPERATOR CONSOLE</span><h1>the <em>pulse</em></h1></div>
+  <span class="homenav"><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a></span>
+</header>
+<div class="stamp"><span>{now}</span>{lock_html}</div>
 {sprint_html}
 <div class="tiles">
   <div class="tile"><div class="n">{len(active)}</div><div class="l">missions live</div></div>
-  <div class="tile"><div class="n">{len(waiting)}</div><div class="l">waiting on Farrice</div></div>
+  <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
   <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
   <div class="tile"><div class="n">{len(taste)}</div><div class="l">taste verdicts banked</div></div>
   <div class="tile"><div class="n" style="color:var(--{'ok' if corpus_ok else 'crit'})">{corpus}</div><div class="l">v2 corpus pass</div></div>
 </div>
+<section><h2 class="tog">⚑ Needs you — top {len(needs_you)}</h2><div class="body">{cards(needs_you)}</div></section>
+{fresh_intel()}
 <div class="chips">{chips}</div>
-<section><h2 class="tog">⚑ Waiting on you</h2><table class="f">{mission_rows(waiting)}</table></section>
-<section><h2 class="tog">Missions — live</h2><table class="f">{mission_rows(active)}</table></section>
-<section><h2 class="tog">Recently closed</h2><table class="f">{mission_rows(recent_done)}</table></section>
-<section><h2 class="tog">Outcomes due ({due_count})</h2><pre>{esc(chr(10).join(due_lines[:10])) or "none"}</pre></section>
-<section><h2 class="tog">Threads (handoff store)</h2><pre>{esc(chr(10).join(threads)) or "none"}</pre></section>
+<section><h2 class="tog">Missions — live ({len(active)})</h2><div class="body f">{cards(active)}</div></section>
+<section class="closed"><h2 class="tog">Recently closed</h2><div class="body f">{cards(recent_done, show_verdict=True)}</div></section>
+<section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body"><pre>{esc(chr(10).join(due_lines[:10])) or "none"}</pre></div></section>
+<section class="closed"><h2 class="tog">Threads (handoff store)</h2><div class="body"><pre>{esc(chr(10).join(threads)) or "none"}</pre></div></section>
+<footer><span>ANTIGRAVITY PULSE</span><span>@farricecain</span></footer>
 </div>
+<div id="toast">copied</div>
 <script>
+function _toast(msg) {{
+  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1600);
+}}
+document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {{
+  const txt = b.dataset.copy || '';
+  function done() {{ _toast('copied'); }}
+  if (navigator.clipboard && navigator.clipboard.writeText) {{
+    navigator.clipboard.writeText(txt).then(done, () => {{
+      const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try {{ document.execCommand('copy'); }} catch (e) {{}}
+      document.body.removeChild(ta); done();
+    }});
+  }}
+}}));
 document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {{
   document.querySelectorAll(".chip").forEach(x => x.classList.remove("active"));
   c.classList.add("active");
   const f = c.dataset.f;
-  document.querySelectorAll("table.f tr[data-goal]").forEach(r =>
+  document.querySelectorAll(".body.f .mcard[data-goal]").forEach(r =>
     r.style.display = (f === "all" || r.dataset.goal === f) ? "" : "none");
 }}));
 document.querySelectorAll(".tog").forEach(h => h.addEventListener("click", () =>

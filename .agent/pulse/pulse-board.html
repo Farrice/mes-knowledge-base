@@ -1,106 +1,162 @@
-<title>Antigravity Pulse</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the pulse · Antigravity</title>
 <style>
+/* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ── */
 :root {
-  --ground:#f7f7f9; --panel:#ffffff; --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec;
-  --accent:#5b6ee1; --ok:#3fa96c; --warn:#d99a2b; --crit:#c4554d;
-  --mono:"SF Mono",Menlo,Consolas,monospace;
-  --display:"Avenir Next",Seravek,"Segoe UI",sans-serif;
+  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
+  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
+  --mono:'JetBrains Mono',ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,sans-serif;
+  --serif:'Source Serif 4',Georgia,serif;
 }
 @media (prefers-color-scheme: dark) { :root {
-  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
-  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
+  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
 } }
 :root[data-theme="dark"] {
-  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
-  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
+  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
 }
 :root[data-theme="light"] {
-  --ground:#f7f7f9; --panel:#ffffff; --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec;
-  --accent:#5b6ee1; --ok:#3fa96c; --warn:#d99a2b; --crit:#c4554d;
+  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
+  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
 }
-body { background:var(--ground); color:var(--ink); font:15px/1.5 -apple-system,"Segoe UI",sans-serif;
-  margin:0; padding:32px 24px; }
-.wrap { max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:20px; }
-header { display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; }
-h1 { font-family:var(--display); font-size:22px; font-weight:600; margin:0; letter-spacing:-.01em; }
-h1 b { color:var(--accent); font-weight:600; }
-.stamp { color:var(--muted); font-family:var(--mono); font-size:12px; }
+* { box-sizing:border-box; }
+body { background:var(--ground); color:var(--ink); font:14px/1.5 var(--sans); margin:0; padding:40px 24px 80px; }
+.wrap { max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:18px; }
+header { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; }
+.kicker { font-family:var(--mono); font-size:9px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:8px; }
+h1 { font-size:38px; font-weight:700; letter-spacing:-.022em; margin:0; line-height:1.05; }
+h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(--accent); }
+.homenav { margin-left:auto; display:flex; gap:6px; align-items:center; }
+.homenav a { font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; text-decoration:none;
+  color:var(--soft); border:1px solid var(--line); border-radius:99px; padding:4px 11px; }
+.homenav a:hover { border-color:var(--accent); color:var(--accent); }
+.stamp { color:var(--muted); font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  display:flex; gap:10px; align-items:center; flex-wrap:wrap; border-top:1px solid var(--ink); padding-top:10px; }
 .sprint { background:var(--panel); border:1px solid var(--accent); border-radius:8px; padding:12px 16px;
   display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }
-.sprint-tag { font-family:var(--mono); font-size:11px; letter-spacing:.08em; color:var(--accent); }
+.sprint-tag { font-family:var(--mono); font-size:9px; letter-spacing:.18em; color:var(--accent); text-transform:uppercase; }
 .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
-.tile { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
-.tile .n { font-family:var(--mono); font-size:26px; font-variant-numeric:tabular-nums; }
-.tile .l { color:var(--muted); font-size:12px; letter-spacing:.04em; text-transform:uppercase; }
+.tile { border-top:2px solid var(--ink); padding-top:10px; }
+.tile .n { font-size:28px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.tile .l { color:var(--muted); font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; margin-top:4px; }
 section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
-h2 { font-family:var(--display); font-size:13px; letter-spacing:.06em; text-transform:uppercase;
-  color:var(--muted); margin:0 0 10px; }
-table { width:100%; border-collapse:collapse; font-size:14px; }
-td, th { text-align:left; padding:7px 10px 7px 0; border-top:1px solid var(--line); vertical-align:top; }
-tr:first-child td { border-top:none; }
-.mono { font-family:var(--mono); font-size:12.5px; color:var(--muted); }
-.pill { font-family:var(--mono); font-size:11px; padding:2px 8px; border-radius:999px; white-space:nowrap; }
-.pill.ok { background:color-mix(in srgb,var(--ok) 15%,transparent); color:var(--ok); }
-.pill.warn { background:color-mix(in srgb,var(--warn) 18%,transparent); color:var(--warn); }
-.pill.crit { background:color-mix(in srgb,var(--crit) 16%,transparent); color:var(--crit); }
-.pill.muted { background:color-mix(in srgb,var(--muted) 14%,transparent); color:var(--muted); }
-.empty { color:var(--muted); font-style:italic; }
-pre { overflow-x:auto; font-family:var(--mono); font-size:12px; color:var(--muted); margin:0; }
+h2 { font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 12px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+.mcard { border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:12px 14px; margin-bottom:10px; }
+.mcard:last-child { margin-bottom:0; }
+.mcard .row1 { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }
+.mcard h3 { font-size:13.5px; font-weight:600; margin:0; line-height:1.35; flex:1; min-width:200px; }
+.mcard .gline { font-size:11.5px; color:var(--soft); margin-top:5px; }
+.mcard .gline::before { content:"goal · "; font-family:var(--mono); font-size:8.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); }
+.mcard .last { font-size:11.5px; color:var(--muted); margin:5px 0 0; line-height:1.45; }
+.mcard .meta { display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap; }
+.m { font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+.pill { font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; padding:2px 8px;
+  border-radius:3px; white-space:nowrap; font-weight:700; }
+.pill.ok { color:var(--ok); border:1px solid var(--ok); }
+.pill.warn { color:var(--warn); border:1px solid var(--warn); }
+.pill.crit { color:var(--crit); border:1px solid var(--crit); }
+.pill.muted { color:var(--muted); border:1px solid var(--line); }
+.copybtn { margin-left:auto; font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
+  cursor:pointer; background:none; border:1px solid var(--line); border-radius:4px; padding:3px 9px; color:var(--soft); }
+.copybtn:hover { border-color:var(--accent); color:var(--accent); }
+.intelgrid { display:flex; flex-direction:column; gap:8px; }
+.intel { display:flex; gap:12px; align-items:baseline; text-decoration:none; color:var(--ink);
+  border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:10px 14px; flex-wrap:wrap; }
+.intel:hover { border-color:var(--accent); }
+.intel .ik { font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }
+.intel .it { font-size:13px; font-weight:600; flex:1; min-width:200px; }
+.roomlink { display:inline-block; margin-top:10px; font-family:var(--mono); font-size:9px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--accent); text-decoration:none; }
+.roomlink:hover { text-decoration:underline; }
+.empty { color:var(--muted); font-style:italic; font-size:12.5px; }
+pre { overflow-x:auto; font-family:var(--mono); font-size:11px; color:var(--soft); margin:0; line-height:1.7; }
 .chips { display:flex; gap:8px; flex-wrap:wrap; }
-.chip { font-family:var(--mono); font-size:12px; padding:4px 12px; border-radius:999px;
-  border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; }
+.chip { font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; padding:4px 12px;
+  border-radius:99px; border:1px solid var(--line); background:var(--panel); color:var(--soft); cursor:pointer; }
 .chip.active { border-color:var(--accent); color:var(--accent); }
 .tog { cursor:pointer; user-select:none; }
 .tog::before { content:"▾ "; color:var(--accent); }
+section.closed .tog { margin-bottom:0; border-bottom:none; padding-bottom:0; }
 section.closed .tog::before { content:"▸ "; }
-section.closed table, section.closed pre { display:none; }
+section.closed .body { display:none; }
+#toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--panel);
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+  border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99; }
+#toast.show { opacity:1; }
+footer { border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
+  font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
 </style>
 <div class="wrap">
-<header><h1><b>Antigravity</b> Pulse</h1><div class="stamp">2026-07-13 17:13 · <span class="pill ok">tree: single driver</span></div></header>
-<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span><strong>Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</strong><span class="pill warn">29 days left</span><span class="muted">goal: revenue-5k-incumbency</span></div>
+<header>
+  <div><span class="kicker">ANTIGRAVITY · OPERATOR CONSOLE</span><h1>the <em>pulse</em></h1></div>
+  <span class="homenav"><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html">🎨 asset board ↗</a></span>
+</header>
+<div class="stamp"><span>2026-08-06 11:16</span><span class="pill ok">tree: single driver</span></div>
+<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span><strong>Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</strong><span class="pill warn">5 days left</span><span class="m">goal: revenue-5k-incumbency</span></div>
 <div class="tiles">
-  <div class="tile"><div class="n">4</div><div class="l">missions live</div></div>
-  <div class="tile"><div class="n">3</div><div class="l">waiting on Farrice</div></div>
-  <div class="tile"><div class="n">5</div><div class="l">outcomes due</div></div>
-  <div class="tile"><div class="n">3</div><div class="l">taste verdicts banked</div></div>
-  <div class="tile"><div class="n" style="color:var(--ok)">3510/3510</div><div class="l">v2 corpus pass</div></div>
+  <div class="tile"><div class="n">11</div><div class="l">missions live</div></div>
+  <div class="tile"><div class="n">3</div><div class="l">need you now</div></div>
+  <div class="tile"><div class="n">32</div><div class="l">outcomes due</div></div>
+  <div class="tile"><div class="n">7</div><div class="l">taste verdicts banked</div></div>
+  <div class="tile"><div class="n" style="color:var(--ok)">3826/3826</div><div class="l">v2 corpus pass</div></div>
 </div>
-<div class="chips"><button class="chip active" data-f="all">all</button><button class="chip" data-f="revenue-5k-incumbency">revenue-5k-incumbency</button><button class="chip" data-f="system-leverage">system-leverage</button></div>
-<section><h2 class="tog">⚑ Waiting on you</h2><table class="f"><tr data-goal="system-leverage"><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
-<tr data-goal="revenue-5k-incumbency"><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr>
-<tr data-goal="revenue-5k-incumbency"><td>PMF Product/Offer/Cash fit evaluation</td><td class='mono'>revenue-5k-incumbency</td><td>surface-not-regenerate</td><td><span class="pill warn">compiled</span></td></tr></table></section>
-<section><h2 class="tog">Missions — live</h2><table class="f"><tr data-goal="system-leverage"><td>Maestro layer — /go v2, doctrine, session lock, pulse board, /voice-over</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill warn">running</span></td></tr>
-<tr data-goal="system-leverage"><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
-<tr data-goal="revenue-5k-incumbency"><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr>
-<tr data-goal="revenue-5k-incumbency"><td>PMF Product/Offer/Cash fit evaluation</td><td class='mono'>revenue-5k-incumbency</td><td>surface-not-regenerate</td><td><span class="pill warn">compiled</span></td></tr></table></section>
-<section><h2 class="tog">Recently closed</h2><table class="f"><tr data-goal="system-leverage"><td>Prompt Wiring OS — hook + pointers + forging gate + 1,650 born-v2 backfill + verification</td><td class='mono'>system-leverage</td><td>fleet + proof-first + verify-fleet</td><td><span class="pill ok">done</span></td></tr>
-<tr data-goal="revenue-5k-incumbency"><td>MyBPM Week-1 hero video (Kandi Keeper)</td><td class='mono'>revenue-5k-incumbency</td><td>solo + jam stage</td><td><span class="pill ok">done</span></td></tr>
-<tr data-goal="system-leverage"><td>Maestro stress test — 3 live Mission Cards</td><td class='mono'>system-leverage</td><td>solo (system exercise)</td><td><span class="pill ok">done</span></td></tr>
-<tr data-goal="system-leverage"><td>Conductor Ladder into constitutions (CLAUDE/GEMINI/AGENTS/rules) + compiler bless</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill ok">done</span></td></tr></table></section>
-<section><h2 class="tog">Outcomes due (5)</h2><pre>- [2026-06-27] Anne Lamott + Neal Allen Really Real Writing package
-- [2026-06-28] Kobi Brown / AstroKobi educational-virality re-forge: re-sourced the r
-- [2026-06-28] LinkedIn Week 1 Health Performance AI Search Client Attraction V3 high | expected: V3 receives Farrice taste approval or a concrete taste delta, then becomes publish-ready Week 1 LinkedIn content.
-- [2026-07-04] Novelty Engine flagship — AI-as-buyer wellness LinkedIn post (live-res
-- [2026-07-05] LinkedIn Week 1 Health Performance AI Search Client Attraction V2 publ | expected: publishable LinkedIn packet that attracts audit requests and first client conversations</pre></section>
-<section><h2 class="tog">Threads (handoff store)</h2><pre>1. swarm-apex  (2026-07-13)
-2. prompts-v2  (2026-07-13)
-3. andrew-stanton-audience-engineering  (2026-07-13)
-4. chief-of-staff-os  (2026-07-11)
-5. cooz-war-funnel  (2026-07-11)
-6. context-engineering-os  (2026-07-11)
-7. farrice-final-10  (2026-07-11)
-8. directives  (2026-07-10)
-9. health-performance-geo-daily-brief  (2026-07-10)
-10. harness-apex  (2026-07-09)
-11. trendscale-trial  (2026-07-09)
-12. none  (2026-07-09)</pre></section>
+<section><h2 class="tog">⚑ Needs you — top 3</h2><div class="body"><div class="mcard" data-goal="orphan"><div class="row1"><h3>raw intent bridge for Codex run packets</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T2 waiting</span><span class="m">codex-bridge/source-to-skill-system</span><button class="copybtn" type="button" data-copy="raw intent bridge for Codex run packets">copy mission</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Create one final copy-and-paste LinkedIn authority reset master for Farrice Cain: coherent supplement and performance brand positioning, profile fields, proof-l</h3><span class="pill warn">compiled</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><div class="meta"><span class="m">6d old</span><span class="m">T2 waiting</span><span class="m">codex-bridge/first-10k</span><button class="copybtn" type="button" data-copy="Create one final copy-and-paste LinkedIn authority reset master for Farrice Cain: coherent supplement and performance brand positioning, profile fields, proof-l">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>I have this crazy idea that crossed my mind to make a digital product for gacha games that would allow players that understand the game faster to be able to mak</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T2 waiting</span><span class="m">codex-bridge/extraction-governor-agent</span><button class="copybtn" type="button" data-copy="I have this crazy idea that crossed my mind to make a digital product for gacha games that would allow players that understand the game faster to be able to mak">copy mission</button></div></div></div></section>
+<section><h2 class="tog">Fresh intel — from the briefing room</h2><div class="intelgrid f"><a class="intel" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html"><span class="ik">📋 research</span><span class="it">ai marketing agents: hype vs. harness</span><span class="pill warn">P1</span><span class="m">aug 6, 2026</span></a><a class="intel" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/night-shift-2026-08-06/night-shift-2026-08-06-brief.html"><span class="ik">📋 build report</span><span class="it">what got built while you slept</span><span class="pill warn">P2</span><span class="m">aug 6, 2026 · ~00:45</span></a><a class="intel" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/design-system-showcase/design-system-showcase-brief.html"><span class="ik">📋 system</span><span class="it">the briefing room, in premium minimal</span><span class="pill warn">P2</span><span class="m">aug 6, 2026</span></a></div><a class="roomlink" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">open the briefing room ↗</a></section>
+<div class="chips"><button class="chip active" data-f="all">all</button><button class="chip" data-f="?">?</button><button class="chip" data-f="operating-system">operating-system</button><button class="chip" data-f="orphan">orphan</button><button class="chip" data-f="orphan (system health — enables every goal)">orphan (system health — enables every goal)</button><button class="chip" data-f="revenue-5k-incumbency">revenue-5k-incumbency</button><button class="chip" data-f="revenue-scale-20-30k">revenue-scale-20-30k</button><button class="chip" data-f="system-leverage">system-leverage</button></div>
+<section><h2 class="tog">Missions — live (11)</h2><div class="body f"><div class="mcard" data-goal="orphan"><div class="row1"><h3>Research ten solutions with current paid-demand evidence that match Farrice&#x27;s capabilities in AI research and ICP intelligence, AI consulting and auditing, copy</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">7d old</span><span class="m">T1 auto</span><span class="m">codex-bridge/first-10k</span><button class="copybtn" type="button" data-copy="Research ten solutions with current paid-demand evidence that match Farrice&#x27;s capabilities in AI research and ICP intelligence, AI consulting and auditing, copy">copy mission</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Profile copy final: fresh-session run per five-move recipe (banner + headline + entries + services + lead page)</h3><span class="pill warn">running</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><p class="last">fresh-pen session picked up the packet, stack loaded</p><div class="meta"><span class="m">7d old</span><span class="m">T1</span><span class="m">solo+jam (fresh session)</span><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.agent/missions/profile-copy-fresh-0730/portable.md">copy packet</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Create one final copy-and-paste LinkedIn authority reset master for Farrice Cain: coherent supplement and performance brand positioning, profile fields, proof-l</h3><span class="pill warn">compiled</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><div class="meta"><span class="m">6d old</span><span class="m">T2 waiting</span><span class="m">codex-bridge/first-10k</span><button class="copybtn" type="button" data-copy="Create one final copy-and-paste LinkedIn authority reset master for Farrice Cain: coherent supplement and performance brand positioning, profile fields, proof-l">copy mission</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Build the Angle Map industry listening engine: fuse health-performance-geo-daily-brief + insight-brief into one scheduled daily automation (local launchd 05:30)</h3><span class="pill warn">compiled</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><div class="meta"><span class="m">5d old</span><span class="m">T1 auto</span><span class="m">codex-bridge/first-10k</span><button class="copybtn" type="button" data-copy="Build the Angle Map industry listening engine: fuse health-performance-geo-daily-brief + insight-brief into one scheduled daily automation (local launchd 05:30)">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>raw intent bridge for Codex run packets</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T2 waiting</span><span class="m">codex-bridge/source-to-skill-system</span><button class="copybtn" type="button" data-copy="raw intent bridge for Codex run packets">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>messy context and I do not know how to ask Codex</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T1 auto</span><span class="m">codex-bridge/autopilot</span><button class="copybtn" type="button" data-copy="messy context and I do not know how to ask Codex">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>I have a messy business idea and need the right execution path</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T1 auto</span><span class="m">codex-bridge/autopilot</span><button class="copybtn" type="button" data-copy="I have a messy business idea and need the right execution path">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>I have a rough offer idea but do not know how to ask Codex</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T1 auto</span><span class="m">codex-bridge/first-10k</span><button class="copybtn" type="button" data-copy="I have a rough offer idea but do not know how to ask Codex">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>audit this raw task and give me the first safe action</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T1 auto</span><span class="m">codex-bridge/system-audit</span><button class="copybtn" type="button" data-copy="audit this raw task and give me the first safe action">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>I have this crazy idea that crossed my mind to make a digital product for gacha games that would allow players that understand the game faster to be able to mak</h3><span class="pill warn">compiled</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><div class="meta"><span class="m">2d old</span><span class="m">T2 waiting</span><span class="m">codex-bridge/extraction-governor-agent</span><button class="copybtn" type="button" data-copy="I have this crazy idea that crossed my mind to make a digital product for gacha games that would allow players that understand the game faster to be able to mak">copy mission</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Teardown #1 — fresh pen, v1.3 card + atlas + conversion spine</h3><span class="pill warn">compiled</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><p class="last">packet at .agent/missions/teardown-1-fresh-0805/portable.md; first test of the v1.3 Production Path pen; replication n=2 for the fresh-pen primitive</p><div class="meta"><span class="m">1d old</span><span class="m">T1</span><span class="m">fresh-pen packet (five-move recipe)</span><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.agent/missions/teardown-1-fresh-0805/portable.md">copy packet</button></div></div></div></section>
+<section class="closed"><h2 class="tog">Recently closed</h2><div class="body f"><div class="mcard" data-goal="orphan"><div class="row1"><h3>Readout OS — Premium Minimal re-skin + enrichment + board retheme + briefing-room quick-copy</h3><span class="pill ok">done</span><span class="pill ok">good</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><p class="last">Farrice verdict: &#x27;great&#x27; / &#x27;beautifully done&#x27; — briefing room + copy grammar landed; v2 nav (sidebar/pagination/priority) requested same session</p><div class="meta"><span class="m">0d old</span><span class="m">T2</span><span class="m">solo+jam</span><button class="copybtn" type="button" data-copy="Readout OS — Premium Minimal re-skin + enrichment + board retheme + briefing-room quick-copy">copy mission</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Angle Map Listening Engine v4 fusion build</h3><span class="pill ok">done</span><span class="pill ok">good</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><p class="last">v4 prompt live, ledger seeded, COS wired, launchd 05:30 installed, cloud routine paused, Apify pipe proven ($0.005); first scheduled brief 2026-08-01. Spawn variance: 1 Explore age</p><div class="meta"><span class="m">5d old</span><span class="m">T2</span><span class="m">solo build (extend v3.5)</span><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.agent/missions/angle-map-listening-engine/portable.md">copy packet</button></div></div><div class="mcard" data-goal="system-leverage"><div class="row1"><h3>Harness Apex: metabolism + focus + generation (deepest-cut program)</h3><span class="pill ok">done</span><span class="pill ok">good</span></div><div class="gline">system-leverage</div><p class="last">Farrice verdict GOOD 2026-07-29 (&#x27;you covered a lot of bases&#x27;). Session extended past the program: OPERATOR-ROUTINE.md driver card, interactive-rhythm made constitutional, 7:15 COS</p><div class="meta"><span class="m">7d old</span><button class="copybtn" type="button" data-copy="Harness Apex: metabolism + focus + generation (deepest-cut program)">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), warg</h3><span class="pill ok">done</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><p class="last">TRIAGE 2026-07-29: superseded: closed as linkedin-cash-launch-0728 verdict GOOD (variant key)</p><div class="meta"><span class="m">7d old</span><button class="copybtn" type="button" data-copy="LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), warg">copy mission</button></div></div><div class="mcard" data-goal="orphan"><div class="row1"><h3>Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, </h3><span class="pill ok">done</span></div><div class="gline">ORPHAN ⚑ — not tied to a goal yet</div><p class="last">TRIAGE 2026-07-29: superseded: tracked in CAMPAIGN.md queue (missions 2b/4) — one tracker</p><div class="meta"><span class="m">7d old</span><button class="copybtn" type="button" data-copy="Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, ">copy mission</button></div></div><div class="mcard" data-goal="revenue-5k-incumbency"><div class="row1"><h3>Week 1 LinkedIn launch content for the Proof-to-Market offer — posts that feel like receip</h3><span class="pill ok">done</span></div><div class="gline">Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</div><p class="last">TRIAGE 2026-07-29 (Farrice: execute all): shipped + felt-judged 2026-07-22 (calibration log rows)</p><div class="meta"><span class="m">7d old</span><button class="copybtn" type="button" data-copy="Week 1 LinkedIn launch content for the Proof-to-Market offer — posts that feel like receip">copy mission</button></div></div></div></section>
+<section class="closed"><h2 class="tog">Outcomes due (32)</h2><div class="body"><pre>- [2026-07-27] Receipt Arc launch sequence — 14-post Stanton-produced LinkedIn launch
+- [2026-07-27] Today I asked my AI system to verify itself.
+- [2026-07-27] Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map
+- [2026-07-29] DWA presale page — 3 audit fixes applied (credential section, day-0-at
+- [2026-07-30] LinkedIn pivot pressure-test — 5-seat expert panel (assemble): no-pivo
+- [2026-07-30] Panel re-convene with Adam Sandler evidence — MODIFY verdict: no pivot
+- [2026-07-30] Second-Brain Foundation Audit package — contact-first: offer one-pager
+- [2026-07-30] Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / co
+- [2026-07-30] LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light l
+- [2026-07-30] Authority Flywheel viral treatment via /jenny-anything-viral — Voice-M</pre></div></section>
+<section class="closed"><h2 class="tog">Threads (handoff store)</h2><div class="body"><pre>1. one-liner  (2026-08-06)
+2. god-agent-offer  (2026-08-06)
+3. execution  (2026-08-06)
+4. mastery-forge  (2026-08-06)
+5. directives  (2026-08-06)
+6. linkedin-launch  (2026-08-05)
+7. jen-listings  (2026-08-05)
+8. digital-product-lane-2026-08-05  (2026-08-05)
+9. kallaway-hook-mastery  (2026-08-05)
+10. benoit-vatere  (2026-08-05)
+11. hilary-gridley-forge  (2026-08-05)
+12. caleb-ralston-forge  (2026-08-05)</pre></div></section>
+<footer><span>ANTIGRAVITY PULSE</span><span>@farricecain</span></footer>
 </div>
+<div id="toast">copied</div>
 <script>
+function _toast(msg) {
+  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1600);
+}
+document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {
+  const txt = b.dataset.copy || '';
+  function done() { _toast('copied'); }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(done, () => {
+      const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta); done();
+    });
+  }
+}));
 document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
   document.querySelectorAll(".chip").forEach(x => x.classList.remove("active"));
   c.classList.add("active");
   const f = c.dataset.f;
-  document.querySelectorAll("table.f tr[data-goal]").forEach(r =>
+  document.querySelectorAll(".body.f .mcard[data-goal]").forEach(r =>
     r.style.display = (f === "all" || r.dataset.goal === f) ? "" : "none");
 }));
 document.querySelectorAll(".tog").forEach(h => h.addEventListener("click", () =>
