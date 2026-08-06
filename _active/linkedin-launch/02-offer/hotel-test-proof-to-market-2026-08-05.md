@@ -10,10 +10,20 @@ But imagine Proof-to-Market as a hotel: the *thesis* is vivid and the *building*
 
 ## The route (3 moves, none touch pricing/scope/claims)
 
+✅ **IMPLEMENTED 2026-08-05**
+
 1. **Prop the Claim Ledger** — it's already named like an artifact; make it LOOK like one. The deliverable ships as "The Claim Ledger of [Brand]" — dossier-grade document design, numbered claims, evidence-grade stamps (VERIFIED / LIKELY / UNCONFIRMED already in the method — those are in-world stamps). A ledger that reads like an evidence file gets forwarded to the founder's cofounder; a Google Doc gets filed. (prop-audit)
+   - **Implementation:** `PROOF-TO-MARKET-BLUEPRINT-TEMPLATE.md` (primary deliverable) + `CLAIM-LEDGER-ARTIFACT-DESIGN-BRIEF.md` (craft-map routing)
+   - **Status:** Ready to use; generate craft-map visual via `/generate` masters before each client delivery
+
 2. **Initiate the founder slots** — the 3 conditioned pilot slots are a proto-initiation already (Hickman conditions, named out loud). Confer the role: each pilot founder becomes a numbered **Founding Source** ("Founding Source № 2 of 3"), stated in the deliverable's frontmatter and the testimonial ask. Role-conferral makes the conditions feel like membership, not discount terms — and "Founding Source" is exactly the fantasy the offer sells. (initiation-mechanic)
+   - **Implementation:** `FOUNDING-SOURCE-ROLE-CONFERRAL.md` (full mechanic + contract language + sales frames)
+   - **Status:** Ready; integrate into all Sprint agreements and delivery documents starting next pilot
+
 3. **One institution, later** — when case studies exist: the practice's proof infrastructure gets a name (the Trust Layer is already halfway there — e.g., "the Source Registry"). Not now; send-before-build governs. Parked deliberately.
+   - **Implementation:** `SOURCE-REGISTRY-INSTITUTION-PARKED.md` (design + trigger conditions)
+   - **Status:** Parked until 2+ case stories + approvals (expected Sep 2026)
 
 **Anti-cringe calibration:** this buyer (Dana/Marcus, regulated category) rewards evidence-room gravitas, not whimsy. Intensity ceiling ~6/10 — dossier register, stamps, numbered slots. No lore characters, no tongue-in-cheek. 6 committed beats 2 decorated.
 
-**Craft-gate note:** any visual pass on the Ledger template routes through the generate craft-map masters, never freehand.
+**Craft-gate note:** any visual pass on the Ledger template routes through the generate craft-map masters, never freehand. ✅ Design brief filed with requirement.

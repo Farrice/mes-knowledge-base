@@ -5113,7 +5113,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1784352323.5779846
   },
   {
@@ -5128,7 +5128,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1784352282.1222086
   },
   {
@@ -5143,7 +5143,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1784352293.6065078
   },
   {
@@ -5158,7 +5158,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1784352349.9230647
   },
   {
@@ -24283,7 +24283,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "skill_last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1784342406.9245124
   },
   {
@@ -24298,7 +24298,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "skill_last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1784342406.924971
   },
   {
@@ -24313,7 +24313,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "skill_last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1784342406.925357
   },
   {
@@ -24328,7 +24328,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "skill_last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1784342406.925752
   },
   {
@@ -24343,7 +24343,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "skill_last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1784342406.9261174
   },
   {
@@ -24358,7 +24358,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "skill_last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1784342406.9265597
   },
   {
@@ -25198,7 +25198,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1785711870.741766
   },
   {
@@ -25213,7 +25213,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1785711610.7910533
   },
   {
@@ -25228,7 +25228,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "skill_last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1785711649.7736783
   },
   {
@@ -45523,7 +45523,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785299203.5442839
+   "mtime": 1785985189.6741157
   },
   {
    "id": "creative-brief-gen",
@@ -46077,12 +46077,12 @@
    "skill": null,
    "path": ".agent/workflows/daily-zeitgeist-brief.md",
    "description": "Daily morning zeitgeist brief delivered to Gmail \u2014 primes content creation by surfacing jackable angles, adjacent trends, build-in-public threads, crystal ball signals, format intelligence, client conversation gold, and personal-integration prompts. Pulls from external scan + prospect list cross-reference + conversation memory.",
-   "menu_status": "reachable",
+   "menu_status": "exempt",
    "front_door": "/daily-zeitgeist-brief",
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1777975587.8803482
+   "mtime": 1785985189.675089
   },
   {
    "id": "daisy-chain",
@@ -49149,7 +49149,7 @@
    "front_door": "/extract-forge",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-08-05T15:13:18.537283+00:00",
+   "last_fired": "2026-08-06T02:51:10.153615+00:00",
    "mtime": 1784827873.926048
   },
   {
@@ -72589,7 +72589,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785387081.489788
+   "mtime": 1785985189.6756005
   },
   {
    "id": "weekly-pulse",
@@ -73090,13 +73090,13 @@
    "kind": "command-workflow",
    "skill": null,
    "path": ".agent/workflows/writers-room.md",
-   "description": "**LOADING PROTOCOL (2026-07-27, binding \u2014 replaces \"load every genius.md\").**",
+   "description": "**Layer 0 \u2014 zeitgeist first (free, \u22641 min):** before structural work, read the freshest",
    "menu_status": "reachable",
    "front_door": "/writers-room",
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785298805.4298959
+   "mtime": 1785985189.6765218
   },
   {
    "id": "youtube-video-context-audit",
@@ -73227,6 +73227,19 @@
    "family": null,
    "last_fired": null,
    "mtime": 1785006847.4244423
+  },
+  {
+   "id": "zeitgeist",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/zeitgeist.md",
+   "description": "The daily zeitgeist engine \u2014 live social signals (Apify/Monid, pulse-budgeted) rendered as a research brief on the Asset Command board every morning; run on demand for any lane or topic",
+   "menu_status": "reachable",
+   "front_door": "/zeitgeist",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": "2026-08-06T03:01:01.835902+00:00",
+   "mtime": 1785985189.677383
   },
   {
    "id": "zero-resistance-closing-system",
@@ -74004,7 +74017,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 4,
-   "last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1785983714.3336732
   },
   {
@@ -74620,7 +74633,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1785983714.3466103
   },
   {
@@ -76762,7 +76775,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 6,
-   "last_fired": "2026-08-06T01:35:16.743909+00:00",
+   "last_fired": "2026-08-06T06:42:34.852274+00:00",
    "mtime": 1785983714.3986924
   },
   {
@@ -76916,7 +76929,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-08-06T02:18:00.855269+00:00",
+   "last_fired": "2026-08-06T02:59:18.573141+00:00",
    "mtime": 1785983714.4011192
   },
   {
@@ -81321,13 +81334,13 @@
    "kind": "agent",
    "skill": null,
    "path": "agents/scott-norton/AGENT.md",
-   "description": "Scott Norton \u2014 Agent Configuration",
+   "description": "Scott Norton \u2014 Brand World-Building, Initiation Mechanics, Lore Design, Fantasy Positioning",
    "menu_status": "reachable",
    "front_door": "/scott-norton",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": null,
-   "mtime": 1785983749.0089934
+   "last_fired": "2026-08-06T02:51:10.153615+00:00",
+   "mtime": 1785983893.1392224
   },
   {
    "id": "sean-dollwet",
@@ -81825,7 +81838,7 @@
   }
  ],
  "fingerprint": [
-  9200,
-  1785983850.332
+  9202,
+  1785985189.679
  ]
 }
