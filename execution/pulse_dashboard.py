@@ -140,7 +140,7 @@ def copy_target(m):
     return (m.get("mission") or "?"), "copy mission"
 
 
-def mission_card(m, names, show_verdict=False):
+def mission_card(m, names, show_verdict=False, show_actions=False):
     age = mission_age_days(m)
     age_html = f'<span class="m">{age}d old</span>' if age is not None else ""
     tier = f'<span class="m">{esc(m.get("tier"))}</span>' if m.get("tier") else ""
@@ -154,12 +154,86 @@ def mission_card(m, names, show_verdict=False):
         vcls = {"good": "ok", "marginal": "warn", "off": "crit"}.get(v, "muted")
         verdict = f'<span class="pill {vcls}">{esc(v)}</span>'
     txt, label = copy_target(m)
+    slug = esc(m.get("slug") or " ".join((m.get("mission") or "?").split()))
+    actions = ""
+    if show_actions:
+        actions = (f'<button class="actbtn ok" type="button" data-action="done" data-slug="{slug}">✓ done</button>'
+                   f'<button class="actbtn" type="button" data-action="park" data-slug="{slug}">park</button>')
     return (f'<div class="mcard" data-goal="{esc(m.get("serves"))}">'
             f'<div class="row1"><h3>{esc(m.get("mission"))}</h3>{pill(m.get("status"))}{verdict}</div>'
             f'<div class="gline">{esc(goal_words(names, m.get("serves")))}</div>'
             f'{outcome}'
             f'<div class="meta">{age_html}{tier}{pat}'
-            f'<button class="copybtn" type="button" data-copy="{esc(txt)}">{label}</button></div></div>')
+            f'<span class="acts">{actions}'
+            f'<button class="copybtn" type="button" data-copy="{esc(txt)}">{label}</button></span></div></div>')
+
+
+def outcomes_due_cards():
+    """Outcome check-ins as actionable cards, straight from the JSON (the CLI's
+    `due` output truncates deliverables to 70 chars and is un-round-trippable)."""
+    try:
+        data = json.load(open(os.path.join(ROOT, ".agent", "revenue-outcomes.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        return "", 0
+    today = time.strftime("%Y-%m-%d")
+    due = [o for o in data.get("outcomes", [])
+           if o.get("outcome_type") == "pending" and (o.get("check_in_date") or "9999") <= today]
+    due.sort(key=lambda o: o.get("check_in_date") or "")
+    cards = []
+    for o in due[:10]:
+        d = str(o.get("deliverable") or "?")
+        exp = f'<p class="last">expected: {esc(o.get("expected_outcome"))}</p>' if o.get("expected_outcome") else ""
+        cards.append(
+            f'<div class="mcard" data-deliverable="{esc(d)}">'
+            f'<div class="row1"><h3>{esc(d[:140])}</h3><span class="pill warn">due {esc(o.get("check_in_date"))}</span></div>'
+            f'<div class="gline">delivered {esc(o.get("date"))}'
+            + (f' · {esc(o.get("expert"))}' if o.get("expert") else "") + "</div>"
+            f'{exp}'
+            '<div class="meta"><span class="acts">'
+            '<button class="actbtn ok" type="button" data-action="outcome">log outcome</button>'
+            '<button class="actbtn" type="button" data-action="outcome-snooze">snooze +14d</button>'
+            '<button class="actbtn" type="button" data-action="outcome-dismiss">no outcome</button>'
+            "</span></div>"
+            '<div class="oform"><input class="o-rev" type="number" step="any" placeholder="$ revenue (0 ok)">'
+            '<input class="o-out" type="text" placeholder="what actually happened — one line">'
+            '<button class="actbtn ok o-save" type="button">save</button></div></div>')
+    more = f'<div class="empty">+{len(due) - 10} more — python3 execution/revenue_tracker.py due</div>' if len(due) > 10 else ""
+    return ("".join(cards) + more) if cards else '<div class="empty">nothing due — outer loop is current</div>', len(due)
+
+
+def thread_cards():
+    """Handoff threads as resumable cards (module import — no CLI text parsing)."""
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "execution"))
+        import handoff_store as hs
+        metas = hs.threads()[:10]
+    except Exception:
+        return '<div class="empty">handoff store unavailable</div>'
+    if not metas:
+        return '<div class="empty">no live threads</div>'
+    from pathlib import Path as _P
+    cards = []
+    for m in metas:
+        pin = " 📌" if m.get("pin") else ""
+        scls = {"blocked": "crit", "mid-build": "warn", "ready": "ok", "active": "ok"}.get(m.get("status"), "muted")
+        hint = f'<p class="last">↪ {esc(str(m.get("resume_hint"))[:160])}</p>' if m.get("resume_hint") else ""
+        unf = f'<p class="last">⧗ {esc(str(m.get("unfinished"))[:160])}</p>' if m.get("unfinished") else ""
+        try:
+            open_uri = _P(m["path"]).as_uri()
+        except Exception:
+            open_uri = "#"
+        cards.append(
+            f'<div class="mcard" data-thread="{esc(m.get("thread"))}">'
+            f'<div class="row1"><h3>{esc(m.get("thread"))}{pin}</h3>'
+            f'<span class="pill {scls}">{esc(m.get("status"))}</span>'
+            f'<span class="m">{esc(m.get("date"))}</span></div>'
+            f'{hint}{unf}'
+            f'<div class="meta"><span class="acts">'
+            f'<button class="copybtn" type="button" data-copy="/resume {esc(m.get("thread"))}">copy /resume</button>'
+            f'<a class="actbtn alink" href="{esc(open_uri)}">open</a>'
+            f'<button class="actbtn" type="button" data-action="thread-archive">archive</button>'
+            f"</span></div></div>")
+    return "".join(cards)
 
 
 def fresh_intel():
@@ -205,13 +279,7 @@ def main():
 
     taste = jsonl(os.path.join(ROOT, ".agent", "jam", "taste-ledger.jsonl"))
 
-    try:
-        due_raw = subprocess.run(["python3", os.path.join(ROOT, "execution", "revenue_tracker.py"), "due"],
-                                 capture_output=True, text=True, timeout=20).stdout
-        due_lines = [l.strip() for l in due_raw.splitlines() if l.strip().startswith(("-", "•"))]
-        due_count = len(due_lines)
-    except Exception:
-        due_lines, due_count = [], 0
+    outcomes_html, due_count = outcomes_due_cards()
 
     try:
         import importlib.util as _iu
@@ -224,12 +292,7 @@ def main():
     except Exception:
         corpus, corpus_ok = "?", True
 
-    try:
-        threads_raw = subprocess.run(["python3", os.path.join(ROOT, "execution", "handoff_store.py"), "list"],
-                                     capture_output=True, text=True, timeout=15).stdout
-        threads = [l for l in threads_raw.splitlines() if l.strip()][:12]
-    except Exception:
-        threads = []
+    threads_html = thread_cards()
 
     lock = None
     try:
@@ -268,10 +331,10 @@ def main():
     lock_html = (f'<span class="pill warn">lock: {esc(lock["mission"])}</span>' if lock
                  else '<span class="pill ok">tree: single driver</span>')
 
-    def cards(ms, show_verdict=False):
+    def cards(ms, show_verdict=False, show_actions=False):
         if not ms:
             return '<div class="empty">none — clean</div>'
-        return "".join(mission_card(m, names, show_verdict) for m in ms)
+        return "".join(mission_card(m, names, show_verdict, show_actions) for m in ms)
 
     from pathlib import Path as _P
     room_uri = _P(os.path.join(ROOT, "deliverables", "research-briefs", "index.html")).as_uri()
@@ -340,9 +403,21 @@ h2 {{ font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transfor
 .pill.warn {{ color:var(--warn); border:1px solid var(--warn); }}
 .pill.crit {{ color:var(--crit); border:1px solid var(--crit); }}
 .pill.muted {{ color:var(--muted); border:1px solid var(--line); }}
-.copybtn {{ margin-left:auto; font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
-  cursor:pointer; background:none; border:1px solid var(--line); border-radius:4px; padding:3px 9px; color:var(--soft); }}
-.copybtn:hover {{ border-color:var(--accent); color:var(--accent); }}
+.acts {{ margin-left:auto; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }}
+.copybtn, .actbtn {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
+  cursor:pointer; background:none; border:1px solid var(--line); border-radius:4px; padding:3px 9px; color:var(--soft);
+  text-decoration:none; display:inline-block; }}
+.copybtn:hover, .actbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
+.actbtn.ok {{ color:var(--ok); border-color:var(--ok); }}
+.actbtn.ok:hover {{ background:var(--ok); color:var(--panel); }}
+.oform {{ display:none; gap:8px; margin-top:10px; flex-wrap:wrap; }}
+.oform.show {{ display:flex; }}
+.oform input {{ font-family:var(--mono); font-size:11px; background:var(--panel); color:var(--ink);
+  border:1px solid var(--line); border-radius:4px; padding:6px 9px; }}
+.oform .o-rev {{ width:120px; }}
+.oform .o-out {{ flex:1; min-width:200px; }}
+.livechip {{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; padding:2px 8px;
+  border-radius:3px; font-weight:700; }}
 .intelgrid {{ display:flex; flex-direction:column; gap:8px; }}
 .intel {{ display:flex; gap:12px; align-items:baseline; text-decoration:none; color:var(--ink);
   border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:10px 14px; flex-wrap:wrap; }}
@@ -375,7 +450,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
   <div><span class="kicker">ANTIGRAVITY · OPERATOR CONSOLE</span><h1>the <em>pulse</em></h1></div>
   <span class="homenav"><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a></span>
 </header>
-<div class="stamp"><span>{now}</span>{lock_html}</div>
+<div class="stamp"><span>{now}</span>{lock_html}<span class="livechip pill muted" id="livechip">static — actions copy commands</span></div>
 {sprint_html}
 <div class="tiles">
   <div class="tile"><div class="n">{len(active)}</div><div class="l">missions live</div></div>
@@ -384,24 +459,29 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
   <div class="tile"><div class="n">{len(taste)}</div><div class="l">taste verdicts banked</div></div>
   <div class="tile"><div class="n" style="color:var(--{'ok' if corpus_ok else 'crit'})">{corpus}</div><div class="l">v2 corpus pass</div></div>
 </div>
-<section><h2 class="tog">⚑ Needs you — top {len(needs_you)}</h2><div class="body">{cards(needs_you)}</div></section>
+<section><h2 class="tog">⚑ Needs you — top {len(needs_you)}</h2><div class="body">{cards(needs_you, show_actions=True)}</div></section>
 {fresh_intel()}
 <div class="chips">{chips}</div>
-<section><h2 class="tog">Missions — live ({len(active)})</h2><div class="body f">{cards(active)}</div></section>
+<section><h2 class="tog">Missions — live ({len(active)})</h2><div class="body f">{cards(active, show_actions=True)}</div></section>
 <section class="closed"><h2 class="tog">Recently closed</h2><div class="body f">{cards(recent_done, show_verdict=True)}</div></section>
-<section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body"><pre>{esc(chr(10).join(due_lines[:10])) or "none"}</pre></div></section>
-<section class="closed"><h2 class="tog">Threads (handoff store)</h2><div class="body"><pre>{esc(chr(10).join(threads)) or "none"}</pre></div></section>
+<section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
+<section class="closed"><h2 class="tog">Threads (handoff store)</h2><div class="body">{threads_html}</div></section>
 <footer><span>ANTIGRAVITY PULSE</span><span>@farricecain</span></footer>
 </div>
 <div id="toast">copied</div>
 <script>
+const PULSE_LIVE = location.protocol.startsWith('http');
+if (PULSE_LIVE) {{
+  const lc = document.getElementById('livechip');
+  lc.textContent = 'live — actions write instantly';
+  lc.classList.remove('muted'); lc.classList.add('ok');
+}}
 function _toast(msg) {{
   const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 1600);
 }}
-document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {{
-  const txt = b.dataset.copy || '';
-  function done() {{ _toast('copied'); }}
+function _copy(txt, msg) {{
+  function done() {{ _toast(msg || 'copied'); }}
   if (navigator.clipboard && navigator.clipboard.writeText) {{
     navigator.clipboard.writeText(txt).then(done, () => {{
       const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
@@ -410,7 +490,71 @@ document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', (
       document.body.removeChild(ta); done();
     }});
   }}
+}}
+function _sq(s) {{ return "'" + String(s).replace(/'/g, `'\\''`) + "'"; }}
+function _cli(action, args) {{
+  const base = 'python3 execution/pulse_actions.py ';
+  if (action === 'done') return base + 'done ' + _sq(args.slug) + ' --outcome ' + _sq(args.outcome || '');
+  if (action === 'park') return base + 'park ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
+  if (action === 'outcome') return base + 'outcome ' + _sq(args.deliverable) + ' --revenue ' + (args.revenue || 0) + ' --outcome ' + _sq(args.outcome || '');
+  if (action === 'outcome-snooze') return base + 'outcome-snooze ' + _sq(args.deliverable);
+  if (action === 'outcome-dismiss') return base + 'outcome-dismiss ' + _sq(args.deliverable);
+  if (action === 'thread-archive') return base + 'thread-archive ' + _sq(args.thread);
+  return base;
+}}
+function doAction(action, args) {{
+  if (!PULSE_LIVE) {{ _copy(_cli(action, args), 'server offline — command copied'); return; }}
+  fetch('/action', {{ method: 'POST', headers: {{ 'Content-Type': 'application/json' }},
+                     body: JSON.stringify({{ action, args }}) }})
+    .then(r => r.json())
+    .then(j => {{
+      if (j.ok) {{ _toast('done — refreshing'); setTimeout(() => location.reload(), 700); }}
+      else {{ _toast('action failed — see server log'); }}
+    }})
+    .catch(() => {{ _copy(_cli(action, args), 'server unreachable — command copied'); }});
+}}
+document.querySelectorAll('.actbtn[data-action]').forEach(b => b.addEventListener('click', () => {{
+  const card = b.closest('.mcard');
+  const act = b.dataset.action;
+  if (act === 'done') {{
+    const outcome = prompt('One-line outcome for the log:', 'closed from pulse board');
+    if (outcome === null) return;
+    doAction('done', {{ slug: b.dataset.slug, outcome }});
+  }} else if (act === 'park') {{
+    const reason = prompt('Park reason (one line):');
+    if (reason === null) return;
+    doAction('park', {{ slug: b.dataset.slug, reason }});
+  }} else if (act === 'outcome') {{
+    card.querySelector('.oform').classList.toggle('show');
+  }} else if (act === 'outcome-snooze') {{
+    doAction('outcome-snooze', {{ deliverable: card.dataset.deliverable }});
+  }} else if (act === 'outcome-dismiss') {{
+    if (confirm('Mark as no-outcome-expected? (writes archived-no-data)'))
+      doAction('outcome-dismiss', {{ deliverable: card.dataset.deliverable }});
+  }} else if (act === 'thread-archive') {{
+    if (confirm('Archive this thread? (moves the handoff to archive/)'))
+      doAction('thread-archive', {{ thread: card.dataset.thread }});
+  }}
 }}));
+document.querySelectorAll('.o-save').forEach(b => b.addEventListener('click', () => {{
+  const card = b.closest('.mcard');
+  doAction('outcome', {{ deliverable: card.dataset.deliverable,
+                        revenue: parseFloat(card.querySelector('.o-rev').value) || 0,
+                        outcome: card.querySelector('.o-out').value || '' }});
+}}));
+document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {{
+  if (b.dataset.copy !== undefined) _copy(b.dataset.copy);
+}}));
+if (PULSE_LIVE) {{
+  // http pages cannot navigate to file:// — route those clicks through the server's OS opener.
+  document.querySelectorAll('a[href^="file:"]').forEach(a => a.addEventListener('click', ev => {{
+    ev.preventDefault();
+    fetch('/action', {{ method: 'POST', headers: {{ 'Content-Type': 'application/json' }},
+                       body: JSON.stringify({{ action: 'open-path', args: {{ uri: a.href }} }}) }})
+      .then(r => r.json()).then(j => _toast(j.ok ? 'opened' : 'open failed'))
+      .catch(() => _toast('open failed'));
+  }}));
+}}
 document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {{
   document.querySelectorAll(".chip").forEach(x => x.classList.remove("active"));
   c.classList.add("active");

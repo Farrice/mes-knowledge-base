@@ -14,6 +14,11 @@ the missing verb, zero new Python.
 
 ## Steps (all deterministic — run them, don't paraphrase them)
 
+> Shortcut (2026-08-06): `python3 execution/pulse_actions.py park <slug> --reason "<one line>"`
+> writes step 2 and annotates an existing handoff thread blocked — it's what the live
+> Pulse board's park button calls. Steps 3-4 (fresh handoff, T2/T3 queue copy) remain
+> the session's job when parking rich in-flight work.
+
 1. **Identify** the mission: `python3 execution/pulse_dashboard.py --open` —
    match the slug/title fragment. Ambiguous → ask, one line.
 2. **Log the close**: append to `.agent/missions.jsonl`:
