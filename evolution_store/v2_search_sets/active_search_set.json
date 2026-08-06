@@ -3819,8 +3819,36 @@
         "gaming_flag": false
       },
       "notes": "Corpus extension of existing extraction, not a new persona build \u2014 no generative emulation artifact exists to blind-judge, so Bar: N/A per blind-bar protocol (never improvise a reference). Delta memo deflates its own source's framing (dissent preserved). ~85% of substance is guest's (Guillermo Rauch), correctly attributed. | Factual Grounding: 9 | Verification: N/A | Anchor: Dimension 4 Anchor 9: every claim timestamped against transcript, UNCONFIRMED explicitly labeled (consortium claim), visual pass documented"
+    },
+    {
+      "trace_id": "20260806_134456",
+      "timestamp": "2026-08-06T13:44:56.575967",
+      "schema_version": "v3",
+      "component": "video-studio",
+      "expert": "brad-bonanno",
+      "workflow": "extract-and-build",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Shakedown verified every subcommand live; ffmpeg-no-libass gotcha solved via tools/bin static build; concurrent-session edits repaired twice | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 135,
-  "last_updated": "2026-08-06T07:53:17.606097"
+  "total_cases": 136,
+  "last_updated": "2026-08-06T13:44:56.577740"
 }

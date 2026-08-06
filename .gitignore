@@ -126,3 +126,7 @@ _active/andrea-dj/launch/03-visual-variants/variant-c-hero-shots-v3/
 
 # Large local archives (never commit — .git bloat; raw sources live in sovereign.db / original services)
 _archive/*.tar.gz
+
+# Edit Bay: local binaries + sandboxed clones (2026-08-06)
+tools/bin/
+_active/hyperframes-studio/

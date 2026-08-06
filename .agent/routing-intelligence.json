@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 171,
+            "total_routings": 172,
             "total_feedback": 7,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,7 +462,7 @@
                 "Content": 6,
                 "Analysis": 3,
                 "alex-copper-creative-strategy": 1,
-                "System": 11,
+                "System": 12,
                 "supercomputer": 6,
                 "Creative": 1,
                 "Strategy": 5,
@@ -612,10 +612,11 @@
                 "dave-clark": 1,
                 "seena-rez-tiktok-commerce": 1,
                 "alex-content-science": 1,
-                "forge-os": 1
+                "forge-os": 1,
+                "brad-bonanno": 1
             },
             "tier_counts": {
-                "0": 171,
+                "0": 172,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -624,9 +625,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 124,
-                "finalize-auto": 47
+                "finalize-auto": 48
             },
-            "ensemble_count": 94,
+            "ensemble_count": 95,
             "auto_miss_count": 6,
             "auto_match_count": 1
         }
@@ -3686,6 +3687,23 @@
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering",
             "feedback": "fb_20260806_202514_1bf5"
+        },
+        {
+            "routing_id": "rt_20260806_204456_5fbc",
+            "timestamp": "2026-08-06T20:44:56.572739+00:00",
+            "session_id": "",
+            "request_summary": "Edit Bay video studio: Bonanno pipeline watched (54 frames) + MES 3.0 extraction; built transcribe_local.py (WhisperX), edit_bay.py (7 subcommands), video_qa.py, broll_source.py, skills/video-studio (",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "brad-bonanno"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-and-build",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }
