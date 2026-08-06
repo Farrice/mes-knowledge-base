@@ -335,7 +335,8 @@ def _staleness_line() -> str:
         # content was ideated from scratch. Surface utilization + zeitgeist freshness.
         apify = json.loads((REPO_ROOT / ".agent" / "apify-usage.json").read_text())
         pct = 100.0 * apify.get("spent_dollars", 0.0) / max(apify.get("plan_dollars", 29.0), 1)
-        zg = json.loads((REPO_ROOT / ".agent" / "zeitgeist-state.json").read_text())
+        zg_path = REPO_ROOT / ".agent" / "zeitgeist-state.json"
+        zg = json.loads(zg_path.read_text()) if zg_path.exists() else {}
         last_runs = zg.get("last_run", {}).values()
         newest = max(last_runs) if last_runs else None
         zg_days = (datetime.now().date() - datetime.fromisoformat(newest).date()).days if newest else None

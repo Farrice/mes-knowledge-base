@@ -1,0 +1,25 @@
+{
+  "last_run": {
+    "ai-consulting-linkedin": "2026-08-05"
+  },
+  "history": [
+    {
+      "ts": "2026-08-06T01:42:52Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0,
+      "live_pulls": 0
+    },
+    {
+      "ts": "2026-08-06T01:45:42Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.0237,
+      "live_pulls": 2
+    },
+    {
+      "ts": "2026-08-06T02:00:09Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.0357,
+      "live_pulls": 4
+    }
+  ]
+}
