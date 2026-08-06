@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** sam-vander-wielen-forge  
-**Full path:** .agent/handoffs/2026-08-06-sam-vander-wielen-forge.md  
-**Date:** 2026-08-06 (today)  
-**Status:** ready  
-**Title:** Sam Vander Wielen Launch OS — Watch + Forge + Skill System (12 workflows)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume sam-vander-wielen-forge` for this one.
-
----
-
 ---
 thread: sam-vander-wielen-forge
 status: ready
@@ -116,4 +104,3 @@ Do not extend or rebuild the skill. It is complete and carded.
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-
