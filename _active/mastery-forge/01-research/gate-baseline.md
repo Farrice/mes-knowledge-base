@@ -15,8 +15,9 @@
 - `execution/paper_trader.py closes` — **automatic closing-line capture**: fetches current lines for all pending bets near game start (grouped per event to conserve Odds API quota), records `closing_line` + `clv` per bet. CLV accrues from bet one of the new exam window.
 - `.agent/workflows/picks-tonight.md` — Step 9 (closing-line discipline), Graduation line on the pick card, and **Oracle Mode** section: when the gate returns GO, cards become ready-to-place slips (stake, book, receipt); Farrice places them; the system never touches money.
 
-## Open items for the exam window
+## Open items for the exam window (updated 2026-08-06 after deep research — see `deep-research-2026-08-06-full.md`)
 
-- **Season gap**: pipeline is NBA-only (`odds_fetcher.SPORT='basketball_nba'`); no NBA lines until late October. Decision needed on interim cadence (deep-research brief in flight covers MLB/WNBA/event-market feasibility).
-- **Calibration fix**: confidence scorer needs re-derivation before the new window — otherwise C5 keeps failing the gate. Candidate for Phase A corpus work.
-- 200 prospective bets at ~5/day ≈ 6-8 weeks of nightly slates once lines are live.
+- **Season gap — RESEARCHED, decision pending Farrice**: recommended interim lane = **WNBA props** (thin market, high dispersion, Aug-Oct season+playoffs, lowest port cost — same API + projection architecture). MLB viable but needs a new engine; tennis/CFB pass; prediction markets = a different skill, separate decision. Build item if greenlit: `odds_fetcher` sport parameterization + WNBA stats source for the projection engine.
+- **Calibration fix — path defined**: (1) feature-leakage check on projection features (shallow-tree dominance test), (2) Platt-scaling layer over confidence scores (right tool at <1,000 samples), ECE < 0.05 target. Receipt: Bath study — calibration-optimized +34.69% ROI vs accuracy-optimized −35.17%. See `skills/nba-betting-edge/references/oracle-2026-research.md` §3.
+- **CLV upgrade path**: current `closes` records raw line delta (v1 proxy); standard is no-vig probability-point CLV — requires closing odds capture, not just closing lines. CLV verdicts provisional until ~300 bets (research standard); gate's 200-bet floor unchanged — flag at graduation review, never silently retune.
+- 200 prospective bets at ~5/day ≈ 6-8 weeks of nightly slates once a live lane exists.
