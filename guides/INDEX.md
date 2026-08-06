@@ -9,6 +9,18 @@
 ## By use case
 
 | I want to… | Go to |
+| **Run the Oracle / money lane (Mastery Forge)** | |
+| See how the Oracle is doing, or demo it to someone | [Mastery Forge](2026-08-06-mastery-forge.md) — `/oracle-board` (live cockpit; demo mode blurs dollars) |
+| Check graduation progress toward real money | [Mastery Forge](2026-08-06-mastery-forge.md) — `live_trader.py check` (prospective-only, NO-GO until 4/4) |
+| Capture closing lines so bets count (CLV) | [Mastery Forge](2026-08-06-mastery-forge.md) — `paper_trader.py closes` near tip-off |
+| Hand the system a thought/file to work overnight | [Mastery Forge](2026-08-06-mastery-forge.md) — drop into Desktop "Agent Inbox" |
+| Pitch an AI-employee build to a business owner | [Mastery Forge](2026-08-06-mastery-forge.md) — `02-offer/positioning-plain-terms.md` + demo kit |
+| **Listen to the niche + get angles (Marketing Intelligence Engine)** | |
+| See who engaged with my niche this week + the words they use | [Marketing Intelligence Engine](2026-08-06-marketing-intelligence-engine.md) — `signal_scout.py` (LISTENING-ONLY) |
+| Get hook/content angles tied to my live work | [Marketing Intelligence Engine](2026-08-06-marketing-intelligence-engine.md) — Angle Brief, board Mon/Thu ~07:30; ad-hoc: `/resonance-to-angle` |
+| Build/expand my 10–20 listening-creator list | [Marketing Intelligence Engine](2026-08-06-marketing-intelligence-engine.md) — `/creator-aperture` → `listening-creators.md` |
+| Design an outbound/organic system (without automating sends) | [Marketing Intelligence Engine](2026-08-06-marketing-intelligence-engine.md) — `/cody-schneider` T2 blueprints |
+| Sanity-check any "we need an agent" idea | [Marketing Intelligence Engine](2026-08-06-marketing-intelligence-engine.md) — `/agent-or-automation` |
 | **Make video (Edit Bay)** | |
 | Edit raw footage into a finished cut | [Edit Bay](2026-08-06-video-studio-edit-bay.md) — `/video-studio` → `produce-explainer` |
 | Turn an essay or post into a VOX-style explainer | [Edit Bay](2026-08-06-video-studio-edit-bay.md) — `script-annotation` first, then `produce-explainer` |
@@ -317,7 +329,6 @@
 
 
 ## Pending enrichment
-- [2026-08-06 — Marketing Intelligence Engine — Overnight Build (Cody Forge + Signal Scout + Angle Brief)](2026-08-06-marketing-intelligence-engine.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Benoit Vatere — Blind Pass Sample](2026-08-05-.md) — **spurious empty-slug stub** (spine derived it from `blind-pass-sample.md`, not a session); same-day sessions collide on this `<date>-.md` filename — see Forge Radar note in the Benoit guide
 - [2026-08-04 — Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped](2026-08-04-creative-generation-os.md) — operator-guide stub, needs enrichment
 - [2026-08-04 — Farrice Brand — Eleven Day Sentence Script](2026-08-04-.md) — operator-guide stub, needs enrichment
