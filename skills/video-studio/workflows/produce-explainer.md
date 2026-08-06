@@ -22,7 +22,7 @@ The full production cycle. Every step names its artifact; nothing ships without 
 
 ## 4. B-roll + graphics (FAILS-BY-DEFAULT stage)
 - Per annotated beat: source visuals via `broll-ladder.md`. Fire any paid generation EARLY (async — keep working while it renders; quote cost first).
-- Graphics: build comps (HyperFrames overlay / Remotion full-frame) with the design stack loaded — every graphic is front-end design; default styling is a defect. Render each → `graphics/` → add as `role:"graphic"` shots with `render:` paths, or overlay via `edit_bay.py overlay`.
+- Graphics: **TASTE GATE FIRST — load the named stack in `style/graphics-taste.md` § "The named load"** (graphics-taste rules + `frontend-design` skill + style-file merge; grace-liu on taste-fog). A comp built without the load is a defect even if it looks fine — the 2026-08-02 freehand-vs-loaded scar applies to graphics too. Run the file's deterministic pre-render grep before every render. Then build comps (HyperFrames overlay / Remotion full-frame) → `graphics/` → add as `role:"graphic"` shots with `render:` paths, or overlay via `edit_bay.py overlay`.
 - Honor `[gesture:]` cues: time overlay entrances to gesture/emphasis moments found in the rough-cut frames.
 
 ## 5. Audio

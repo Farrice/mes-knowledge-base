@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-06** [solutions/active] [Solutions — Auto Caption Proper Nouns Poison Extraction Slug](2026-08-06-solutions.md) — Solutions — Auto Caption Proper Nouns Poison Extraction Slug
 - **2026-08-06** [brad-bonanno-explainer-architecture/active] [Brad Bonanno Explainer Architecture — Skill](2026-08-06-brad-bonanno-explainer-architecture.md) — Brad Bonanno Explainer Architecture — Skill
 - **2026-08-06** [readout-os/ready] [Readout OS — Visual Delivery System Build (Briefing Room + Live Pulse + Premium Minimal)](2026-08-06-readout-os.md) — Deploy phase: /briefing-room + /pulse-board daily; scratch off 3 waiting missions; verify Mon 07:30 angle brief lands
 - **2026-08-06** [one-liner/active] [Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris proof-install plan + send-ready text, 10-min demo kit. Customer frame locked: 'AI employee that knows your whole business.'](2026-08-06-one-liner.md) — Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioning with 5 variants + stress tests, Chris proof-install plan + send-ready text, 10-min demo kit. Customer frame locked: 'AI employee that knows your whole business.

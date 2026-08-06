@@ -8,6 +8,7 @@ An agreeable review is a defective review.
 1. The render: `renders/vNN.mp4`
 2. `renders/vNN-frames/` + `inspection.json` — seam-targeted frames (each maps to shot_id + timestamp + why-extracted). Read EVERY frame.
 3. The style files, merged in order: `skills/video-studio/style/video-style-default.md` → `_active/farrice-brand/voice/video-style.md` → project `style-overrides.md`
+   Plus the taste canon for graphics fixes: `skills/video-studio/style/graphics-taste.md` — its numbered rules are citable as `graphics-taste#<n>`, and its §10 slop tells are auto-blockers.
 4. `cutlist.json` (what was intended) and the previous fixlist if iteration > 1
 
 ## What to inspect, in priority order

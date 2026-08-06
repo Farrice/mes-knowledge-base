@@ -25,7 +25,7 @@ produced conversationally, reviewed by the agent's own eyes, compounding taste e
 | 1 | Transcribe | `python3 execution/transcribe_local.py <media> --project <slug> --srt` | $0 local |
 | 2 | Rough cut | agent writes `cutlist.json` from transcript (silences, filler, bad takes out) → `python3 execution/edit_bay.py cutlist-apply --project <slug>` | $0 |
 | 3 | B-roll | ladder per `workflows/broll-ladder.md`: own footage → manifest search → free stock → graphics → `/generate` (fal, cost-gated) | $0 default |
-| 4 | Graphics | HyperFrames (overlays on footage) / Remotion (full comps) — graphics render FIRST, enter cutlist as `render:` shots. Taste = front-end design: load the design stack, never default-style | $0 |
+| 4 | Graphics | HyperFrames (overlays on footage) / Remotion (full comps) — graphics render FIRST, enter cutlist as `render:` shots. **Taste gate: load `style/graphics-taste.md` § named stack (graphics-taste + `frontend-design` skill + style merge; grace-liu on fog) before ANY comp — never default-style** | $0 |
 | 5 | Audio | `edit_bay.py audio-mix` — music bed, VO sidechain ducking, −14 LUFS | $0 |
 | 6 | Export + QA | `edit_bay.py transcode` ×3 presets · `qa-probe` · `workflows/qa-review-loop.md` | $0 |
 

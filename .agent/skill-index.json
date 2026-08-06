@@ -364,7 +364,7 @@
     "directory": "brad-bonanno-explainer-architecture",
     "description": "Architects technical explainer videos using Brad Bonanno's structural patterns \u2014 survives short attention spans, communicates complete systems (not just teasers), and functions as a channel-building artifact (one video pulls subscribers, not just views). Use when planning a long-form technical explainer (5-20 min) for YouTube, structuring an explanation of a complex system the user knows but can't teach yet, balancing depth vs accessibility for a technical audience, or building an evergreen video meant to compound subscriber growth over years rather than spike then die. Trigger proactively whenever the user says \"explainer video\", \"technical explainer\", \"how do I explain X\", \"long-form YouTube\", \"evergreen video\", or has a complex system that needs to land with a non-expert. For Instagram-format shareworthy content use brock-johnson-shareworthy-content; for short-form video patterns use a TikTok/Reels-specific skill.",
     "when_to_use": "- Long-form podcasts (45-90 min) \u2014 different cognitive contract\n- Live event recordings \u2014 modality mix is constrained by physical setup\n- Pure audio content \u2014 visual patterns don't transfer (but Pause Test does \u2014 applies to \"is any 30-second segment skippable?\")\n- One-take vlogs without editing \u2014 these workflows assume post-production planning",
-    "mtime": 1786001789.390315,
+    "mtime": 1786048042.1519618,
     "slash": "/brad-bonanno-explainer-architecture",
     "routing": "",
     "status": ""
@@ -1252,9 +1252,9 @@
   {
     "name": "generate",
     "directory": "generate",
-    "description": "The /generate front door \u2014 in-house, pay-as-you-go creative generation (Higgsfield replacement). One command for image, video, and audio: routes each request to the right model recipe (skills/generate/models/*.json), defers to binding creative_router lanes (people \u2192 Higgsfield Soul, style-family \u2192 fantastic-posters), quotes paid video before running, honors prompt-level budgets (\"total budget $3\"), runs comparison batches across models, logs every prompt beside its asset, and auto-refreshes the Asset Command Center (/assets-board). Use when the user says \"generate\", \"make an image/video/voiceover\", \"create ads/assets/creative\", names a model (recraft, kling, seedance, nano banana, gpt image), or asks for a multi-model comparison. Source: RoboNuggets 9C4TRbucmhQ, rebuilt on our fal-first stack.",
+    "description": "The /generate front door \u2014 in-house, pay-as-you-go creative generation (Higgsfield replacement). One command for image, video, and audio: routes each request to the right model recipe (skills/generate/models/*.json), defers to binding creative_router lanes (people \u2192 fal-people, style-family \u2192 fantastic-posters; Higgsfield fully retired 2026-08-06), quotes paid video before running, honors prompt-level budgets (\"total budget $3\"), runs comparison batches across models, logs every prompt beside its asset, and auto-refreshes the Asset Command Center (/assets-board). Use when the user says \"generate\", \"make an image/video/voiceover\", \"create ads/assets/creative\", names a model (recraft, kling, seedance, nano banana, gpt image), or asks for a multi-model comparison. Source: RoboNuggets 9C4TRbucmhQ, rebuilt on our fal-first stack.",
     "when_to_use": "",
-    "mtime": 1786001789.424769,
+    "mtime": 1786049019.8418071,
     "slash": "/generate",
     "routing": "",
     "status": ""
@@ -3736,6 +3736,16 @@
     "when_to_use": "- Building a business from $0 and need a velocity-first operating system\n- Engineering subscription models with world-class unit economics (CAC/LTV)\n- Structuring celebrity or influencer partnerships that actually work\n- Pivoting an existing business to a new market using existing infrastructure\n- Scaling DTC globally without retail dependency\n- Compressing decision cycles from weeks to hours\n- Building creative factories (50\u21921,500 ads)",
     "mtime": 1786001789.5051103,
     "slash": "/velocity-scaling",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "video-studio",
+    "directory": "video-studio",
+    "description": "The Edit Bay \u2014 in-house conversational video studio (VOX-style explainers, documentaries, shorts, LinkedIn video). Transcript-driven cutting, B-roll ladder, motion graphics as code, captions, music, publish-ready packages \u2014 all agent-operated, free-first. Use when Farrice says \"edit this video/footage\", \"make an explainer/documentary/short\", \"cut this recording\", \"add B-roll/captions/music\", \"turn this essay/post into a video\", or any video production ask. Front door for three modes: talking-head, VO-only, zero-camera (his recorded VO + assembled visuals \u2014 NO voice clone, NO TTS narration, his ruling 2026-08-06). Source: Brad Bonanno agentic edit pipeline (extractions/brad-bonanno-edit-bay/), rebuilt on the house stack: WhisperX local + edit_bay.py ffmpeg assembly + HyperFrames/Remotion graphics + /generate (fal) \u2014 NO Higgsfield (retired 2026-08-06).",
+    "when_to_use": "",
+    "mtime": 1786048453.0265326,
+    "slash": "/video-studio",
     "routing": "",
     "status": ""
   },

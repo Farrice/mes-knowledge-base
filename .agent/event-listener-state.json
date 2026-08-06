@@ -202,6 +202,23 @@
           "note": "SKIPPED (Request had insufficient authentication scopes.)"
         }
       }
+    },
+    {
+      "ts": "2026-08-06T13:51:47",
+      "results": {
+        "inbox": {
+          "minted": [],
+          "note": "OK"
+        },
+        "gmail": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        },
+        "calendar": {
+          "minted": [],
+          "note": "SKIPPED (Request had insufficient authentication scopes.)"
+        }
+      }
     }
   ]
 }
