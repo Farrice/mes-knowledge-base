@@ -1,7 +1,25 @@
 {
- "ts": "2026-08-05T07:48:11.648801",
+ "ts": "2026-08-05T18:18:59.664825",
  "mode": "report",
  "rows": [
+  {
+   "id": "born_intent_drift",
+   "cls": "EVIDENCE",
+   "what": "2 anchor(s) drifted, every one traceable to a commit since the last bless",
+   "fix": "python3 execution/verify_born_intent_drift.py --bless",
+   "detail": {
+    "explained": [
+     "prompt:jen-santulan-listing-content/listing-hook-set <- 885b7a8cc 2026-08-05 feat(listing-engine-v2): /listing-package \u2014 URL to sendable package pipeline, codified from the 5200 Armida arc",
+     "skill:jen-santulan-listing-content <- 78c312b0e 2026-08-05 refactor(listing-package): one-shot delivery per Farrice's rule \u2014 no mid-run taste gates"
+    ]
+   }
+  },
+  {
+   "id": "platform_drift",
+   "cls": "JUDGMENT",
+   "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
+   "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
+  },
   {
    "id": "dead_hooks",
    "cls": "JUDGMENT",
@@ -66,10 +84,15 @@
   {
    "id": "org_drift",
    "cls": "JUDGMENT",
-   "what": "organization drift: 1 dual taxonomy; 1 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/linkedin-launch, _active/operator-cockpit-v2",
+   "what": "organization drift: 1 dual taxonomy; 1 missing index; 1 status done but live; 1 file(s) the sweep deferred for judgment \u2014 e.g. _active/digital-product-lane-2026-08-05, _active/linkedin-launch, _active/operator-cockpit-v2",
    "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
    "detail": {
     "drift": [
+     {
+      "kind": "missing_index",
+      "project": "_active/digital-product-lane-2026-08-05",
+      "detail": "no INDEX.md \u2014 project has no entry point"
+     },
      {
       "kind": "dual_taxonomy",
       "project": "_active/linkedin-launch",
@@ -78,17 +101,11 @@
      {
       "kind": "status_done_but_live",
       "project": "_active/operator-cockpit-v2",
-      "detail": "stamped done, then touched 6d ago"
+      "detail": "stamped done, then touched 7d ago"
      }
     ],
     "deferred_files": 1
    }
-  },
-  {
-   "id": "verify_born_intent_drift.py",
-   "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
-   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
    "id": "verify_contextual_next_prompts.py",
@@ -111,7 +128,7 @@
   {
    "id": "verify_system.py",
    "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 9d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_system.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {

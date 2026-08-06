@@ -1,34 +1,34 @@
 # Knowledge Briefing
-*Generated: 2026-08-04 | 787 sources | 2,951,663 words*
+*Generated: 2026-08-05 | 815 sources | 2,996,350 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,326 words — `knowledge/index.md`
-- **log** (general) — 16,751 words — `knowledge/log.md`
-- **master-hunt-2026-08-02-creative-floor-dossier** (general) — 873 words — `extractions/master-hunt-2026-08-02-creative-floor-dossier.md`
-- **2026-08-03-pulse** (strategy) — 1,452 words — `research_outputs/market-pulse/2026-08-03-pulse.md`
-- **00-START-HERE** (strategy) — 483 words — `extractions/alex-copper-static-ads/00-START-HERE.md`
-- **THE-ANGLE-MAP-READINESS** (copywriting) — 862 words — `extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md`
-- **PRODUCTION-AND-AUDIT** (copywriting) — 783 words — `extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md`
-- **STATIC-ACQUISITION-SPRINT** (copywriting) — 1,044 words — `extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md`
-- **analysis** (content) — 585 words — `extractions/video-context/9C4TRbucmhQ/analysis.md`
-- **uncertainty-report** (screenwriting) — 150 words — `extractions/video-context/9C4TRbucmhQ/uncertainty-report.md`
+- **sample-001** (copywriting) — 96 words — `knowledge/expert-benchmarks/jen-listing-content/sample-001.md`
+- **sample-002** (content) — 116 words — `knowledge/expert-benchmarks/jen-listing-content/sample-002.md`
+- **sample-003** (copywriting) — 80 words — `knowledge/expert-benchmarks/jen-listing-content/sample-003.md`
+- **sample-004** (copywriting) — 93 words — `knowledge/expert-benchmarks/jen-listing-content/sample-004.md`
+- **sample-005** (copywriting) — 77 words — `knowledge/expert-benchmarks/jen-listing-content/sample-005.md`
+- **log** (general) — 17,056 words — `knowledge/log.md`
+- **blind-pass-log** (general) — 128 words — `extractions/benoit-vatere/blind-pass-log.md`
+- **blind-pass-sample** (brand) — 744 words — `extractions/benoit-vatere/blind-pass-sample.md`
+- **extraction-report** (content) — 3,248 words — `extractions/benoit-vatere/extraction-report.md`
+- **2025-05-entertain-or-die-keynote** (content) — 5,611 words — `extractions/benoit-vatere/reference-corpus/2025-05-entertain-or-die-keynote.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 276 | nick-saraev |
-| copywriting | 108 | luke-iha |
-| general | 95 | nick-saraev |
-| strategy | 86 | april-dunford |
+| content | 285 | nick-saraev |
+| copywriting | 118 | luke-iha |
+| general | 96 | nick-saraev |
+| strategy | 87 | april-dunford |
 | screenwriting | 57 | connelly |
+| brand | 55 | oren-john |
 | systems | 50 | nick-saraev |
-| brand | 50 | oren-john |
-| seo | 27 | nathan-gotch |
-| research | 27 | dai-media |
+| seo | 28 | nathan-gotch |
+| research | 28 | dai-media |
 | sales | 11 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)

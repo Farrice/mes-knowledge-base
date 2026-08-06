@@ -1,9 +1,4 @@
 {
- "90b9bae9-d9d4-43b5-8e78-517eebc5de67": {
-  "stems": {},
-  "updated": "2026-08-05T00:50:29.224151",
-  "last_feedback_exchange": 0
- },
  "a8bfb6cb-179e-4d9e-b7a7-f38f4f457958": {
   "stems": {},
   "updated": "2026-08-05T05:30:24.386407",
@@ -36,17 +31,29 @@
  },
  "27489b5d-bbb2-4ded-8b32-3c0d453e6704": {
   "stems": {},
-  "updated": "2026-08-05T12:12:53.444715",
+  "updated": "2026-08-05T18:18:42.029815",
   "last_feedback_exchange": 2
  },
  "e1f75e1e-5dfe-4e63-8963-576aa9d84829": {
-  "stems": {},
-  "updated": "2026-08-05T12:13:53.155193",
-  "last_feedback_exchange": 0
+  "stems": {
+   "send-package-template": {
+    "rejections": 1
+   },
+   "claude": {
+    "rejections": 1
+   }
+  },
+  "updated": "2026-08-05T18:14:53.889897",
+  "last_feedback_exchange": 11
  },
  "ebb2c16f-ee08-47db-9c36-17e4a14dd489": {
   "stems": {},
   "updated": "2026-08-05T12:14:55.368592",
+  "last_feedback_exchange": 0
+ },
+ "8c715f5f-716c-4dea-b4dd-0ebded4fca42": {
+  "stems": {},
+  "updated": "2026-08-05T18:17:06.005515",
   "last_feedback_exchange": 0
  }
 }

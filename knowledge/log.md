@@ -683,3 +683,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-05 06:34]` **finalize** | 2026-08-05 Angle Map Listening Brief: trust has an owner, promises-not-kept ownership-event deep div | general | health-performance-geo-creative-strategist — composite:5.33 status:Needs Improvement
 - `[2026-08-05 08:13]` **finalize** | Kallaway — Hook Mastery (Interrupt Theory) forge extraction: skill + 10 workflows + 7 born-v2 prompt | general | kallaway — composite:6.67 status:Needs Improvement
 - `[2026-08-05 11:56]` **finalize** | Eddy Ballesteros Monid research-brief extraction: MES 3.0 W01 report + frame-cited brief-anatomy tea | general | eddy-ballesteros — composite:7.0 status:Needs Improvement
+- `[2026-08-05 12:45]` **finalize** | 5200 Armida Dr reel shoot sheet — 6 Jen hooks + 3 team variations + IG caption + verification ledger | content | Jen Santulan — composite:6.67 status:Needs Improvement
+- `[2026-08-05 13:01]` **finalize** | 5200 Armida shoot sheet v2 — 6 hooks rebuilt on Kallaway Interrupt Theory after Farrice rejected v1  | content | Jen Santulan — composite:6.67 status:Needs Improvement
+- `[2026-08-05 15:10]` **finalize** | 5200 Armida v3 — story pass on full package after Jen rejected the warm-hook external version: v2 fa | content | Jen Santulan — composite:6.67 status:Needs Improvement
+- `[2026-08-05 18:08]` **finalize** | Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apif | general | eddy-ballesteros — composite:8.33 status:Keep

@@ -1,9 +1,9 @@
 # Knowledge Index
-*787 sources | 2,951,663 words | Updated: 2026-08-04*
+*815 sources | 2,996,350 words | Updated: 2026-08-05*
 
 ---
 
-## Content (276 files)
+## Content (285 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -12,15 +12,18 @@
 - [visual-context](../extractions/jeremy-haynes/visual-context.md) — 15,631 words
 - [visual-context](../extractions/mike-taylor/visual-context.md) — 15,039 words
 - [visual-context](../extractions/second-brain-seller/visual-context.md) — 13,695 words
+- [2026-shoptalk-cpg-guys-episode](../extractions/benoit-vatere/reference-corpus/2026-shoptalk-cpg-guys-episode.md) — 12,492 words
 - [Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2](extractions/inbox/Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2.md) — 12,387 words (stale)
 - [visual-context](../extractions/agentic-os-v2-agentic-os/visual-context.md) [nick-saraev] — 11,544 words
 - [visual-context](../extractions/kieran-flanagan-second-brain/visual-context.md) [kieran-flanagan] — 9,217 words
 - [mastery-extraction](../extractions/oren-1person-ai-marketing/mastery-extraction.md) [oren-john] — 8,389 words
 - [visual-context](../extractions/meg-heckman/video-context-iFvHwZBIwoA/visual-context.md) — 8,135 words
+- [visual-context](../extractions/eddy-ballesteros/visual-context.md) — 6,808 words
 - [weatherbot-extraction](../extractions/prediction-market-trading/weatherbot-extraction.md) — 6,774 words
 - [visual-context](../extractions/customer-lang-research/visual-context.md) — 6,760 words
 - [visual-context](../extractions/agentic-os-v1-skills-upgrade/visual-context.md) [nick-saraev] — 6,035 words
 - [Guide_5_Trailer_Storytelling_Narrative](creative-direction/guides/Guide_5_Trailer_Storytelling_Narrative.md) — 5,775 words (stale)
+- [2025-05-entertain-or-die-keynote](../extractions/benoit-vatere/reference-corpus/2025-05-entertain-or-die-keynote.md) — 5,611 words
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words (stale)
 - [index](index.md) — 5,326 words
@@ -53,6 +56,7 @@
 - [extraction-report](../extractions/oren/extraction-report.md) [oren-john] — 3,351 words (stale)
 - [DESIGN](design-libraries/brands/linear-app/DESIGN.md) — 3,342 words (stale)
 - [deep-notes-CZgZmPd-ETY](../extractions/sean-dollwet/deep-notes-CZgZmPd-ETY.md) — 3,286 words
+- [extraction-report](../extractions/benoit-vatere/extraction-report.md) — 3,248 words
 - [DESIGN](design-libraries/brands/sanity/DESIGN.md) — 3,204 words (stale)
 - [extraction-report](../extractions/michael-connelly/extraction-report.md) [connelly] — 3,159 words (stale)
 - [DESIGN](design-libraries/brands/composio/DESIGN.md) — 3,151 words (stale)
@@ -68,6 +72,7 @@
 - [extraction-report](../extractions/satori-graphics/extraction-report.md) — 2,971 words (stale)
 - [extraction-report](../extractions/oren-dara-ad-psychology/extraction-report.md) [oren-john] — 2,927 words
 - [extraction-report](../extractions/dara-denney/extraction-report.md) — 2,925 words (stale)
+- [mastery-extraction](../extractions/oren-slop-era-creative-strategy/mastery-extraction.md) [oren-john] — 2,900 words
 - [extraction-report](../extractions/ray-amjad/extraction-report.md) [nick-saraev] — 2,895 words
 - [extraction-report](../extractions/ai-social-media-panel/extraction-report.md) [nathan-gotch] — 2,868 words (stale)
 - [DESIGN](design-libraries/brands/resend/DESIGN.md) — 2,859 words (stale)
@@ -110,6 +115,7 @@
 - [extraction-report](../extractions/mark-kashef-claude-claw/extraction-report.md) — 2,051 words (stale)
 - [extraction-report](../extractions/sabrina-ramonov/extraction-report.md) — 2,049 words (stale)
 - [caleb-ralston-2026-extraction-report](../extractions/caleb-ralston/caleb-ralston-2026-extraction-report.md) — 2,040 words (stale)
+- [extraction-report](../extractions/eddy-ballesteros/extraction-report.md) [dai-media] — 2,039 words
 - [dr-kriukow-humanization-extraction-report](../extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md) — 1,991 words (stale)
 - [extraction-report](../extractions/nicolas-cole-digital-products/extraction-report.md) [nicolas-cole] — 1,989 words (stale)
 - [DESIGN](design-libraries/brands/spotify/DESIGN.md) — 1,984 words (stale)
@@ -218,6 +224,7 @@
 - [sample-005](expert-benchmarks/linkedin/sample-005.md) [nicolas-cole] — 534 words (stale)
 - [source-ledger](../extractions/kobi-brown-educational-virality/source-ledger.md) — 501 words
 - [visual-capitalist-infographic](../extractions/mark-kashef-banana-squad/prompts-v2/visual-capitalist-infographic.md) — 483 words
+- [vision](../extractions/oren-slop-era-creative-strategy/vision.md) [oren-john] — 475 words
 - [extraction-brief](../extractions/mark-kashef-perfect-agentic-os-kit/extraction-brief.md) [nick-saraev] — 463 words
 - [visual-context](../extractions/tommy-clark/visual-context.md) — 463 words
 - [evidence-map](../extractions/video-context/ohKt066uFhg/evidence-map.md) — 459 words
@@ -226,6 +233,7 @@
 - [blind-pass-sample-win-audit](../extractions/briar-cochran-content-science/blind-pass-sample-win-audit.md) — 399 words
 - [validation-report](../extractions/mark-kashef-perfect-agentic-os-kit/validation-report.md) [nick-saraev] — 398 words
 - [source-to-skill-brief](../extractions/video-context/Zc4E_K48v48/source-to-skill-brief.md) — 394 words
+- [monid-research-brief-2026-08-05-vision](../extractions/eddy-ballesteros/monid-research-brief-2026-08-05-vision.md) — 393 words
 - [visual-context](../extractions/daniel-priestley-sll-engine/visual-context.md) — 390 words
 - [fourth-wall-experience-os](../extractions/rafa-conde/amplifications/fourth-wall-experience-os.md) — 370 words
 - [analysis](../extractions/video-context/3iR3kHxCwfo/analysis.md) — 366 words
@@ -272,6 +280,7 @@
 - [validation-report](../extractions/ross-mckay/validation-report.md) [april-dunford] — 167 words (stale)
 - [README](../extractions/tess-barclay/README.md) — 133 words
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
+- [sample-002](expert-benchmarks/jen-listing-content/sample-002.md) — 116 words
 - [blind-pass-log](../extractions/seth-godin-marketing-mind/blind-pass-log.md) — 90 words
 - [blind-pass-log](../extractions/briar-cochran-content-science/blind-pass-log.md) — 88 words
 - [2023-09-ai-content-ideas-post](../extractions/matthew-lakajev-linkedin/reference-corpus/2023-09-ai-content-ideas-post.md) — 86 words
@@ -282,7 +291,7 @@
 - [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
 - [source-metadata](../extractions/ron-lynch/source-metadata.md) — 36 words
 
-## Copywriting (108 files)
+## Copywriting (118 files)
 
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md) [cardinal-mason] — 60,673 words (stale)
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2.md) [cardinal-mason] — 54,838 words (stale)
@@ -362,6 +371,7 @@
 - [integrity-patch](../extractions/kallaway-content-system/integrity-patch.md) [kallaway] — 590 words
 - [skill-system-contract](../extractions/alex-suzuki-digital-product-revenue-os/skill-system-contract.md) — 576 words
 - [persuasion-level-audit](../extractions/joanna-wiebe-persuasion-mastery/prompts-v2/persuasion-level-audit.md) — 576 words
+- [killer-hooks-2026-08-05-vision](../extractions/kallaway/killer-hooks-2026-08-05-vision.md) [kallaway] — 568 words
 - [council-rubric](council-rubric.md) [april-dunford] — 552 words
 - [blind-pass-specimen-2026-07-19](../extractions/jason-fladlien-marketing/blind-pass-specimen-2026-07-19.md) [jason-fladlien] — 549 words
 - [the-3-percent-disruption-principle](synthesis/the-3-percent-disruption-principle.md) [luke-iha] — 544 words (stale)
@@ -376,24 +386,33 @@
 - [2026-marshmallow-save-live-monologue](../extractions/jason-fladlien-marketing/reference-corpus/2026-marshmallow-save-live-monologue.md) [jason-fladlien] — 490 words
 - [greenfield_vs_audit_detection](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/references/greenfield_vs_audit_detection.md) [nick-saraev] — 468 words
 - [joey-character-prompt-and-seedance-prompt](../extractions/joey-cinema-os/reference-corpus/joey-character-prompt-and-seedance-prompt.md) — 453 words
+- [blind-pass-sample](../extractions/oren-slop-era-creative-strategy/blind-pass-sample.md) [oren-john] — 451 words
 - [05-sub-agent-roles](../extractions/chase-hughes/_forge-output/05-sub-agent-roles.md) [connelly] — 431 words
 - [behavior-proof-plan](../extractions/alex-copper-static-ads/behavior-proof-plan.md) — 429 words
 - [system-one-optimizer](../extractions/joanna-wiebe-persuasion-mastery/prompts/system-one-optimizer.md) [connelly] — 412 words (stale)
 - [persuasion-level-audit](../extractions/joanna-wiebe-persuasion-mastery/prompts/persuasion-level-audit.md) — 385 words (stale)
+- [blind-pass-generated-sample](../extractions/kallaway-hook-mastery/blind-pass-generated-sample.md) [kallaway] — 352 words
 - [sample-003](expert-benchmarks/linkedin/sample-003.md) [nicolas-cole] — 328 words (stale)
 - [analysis](../extractions/meg-heckman/video-context-7MNa2YTPGs4/analysis.md) — 299 words
 - [source-metadata](../extractions/sean-macintyre/source-metadata.md) — 287 words (stale)
+- [kallaway-video-open-annotated](../extractions/kallaway-hook-mastery/reference-corpus/kallaway-video-open-annotated.md) [kallaway] — 276 words
 - [cross-vertical-transfer](../extractions/meg-heckman/codex-prior-art/skill/workflows/cross-vertical-transfer.md) — 240 words
+- [kallaway-real-hooks-top-performers](../extractions/kallaway-hook-mastery/reference-corpus/kallaway-real-hooks-top-performers.md) [kallaway] — 215 words
 - [sample-005](expert-benchmarks/copywriting/sample-005.md) [luke-iha] — 213 words (stale)
 - [buyer-trigger-audit](../extractions/meg-heckman/codex-prior-art/skill/workflows/buyer-trigger-audit.md) — 208 words
 - [sample-002](expert-benchmarks/copywriting/sample-002.md) [luke-iha] — 206 words (stale)
 - [metadata](../extractions/alex-suzuki-digital-product-revenue-os/metadata.md) — 158 words
 - [sample-003](expert-benchmarks/copywriting/sample-003.md) [luke-iha] — 157 words (stale)
 - [blind-pass-log](../extractions/sean-dollwet-kdp-publishing/blind-pass-log.md) — 117 words
+- [sample-001](expert-benchmarks/jen-listing-content/sample-001.md) — 96 words
+- [sample-004](expert-benchmarks/jen-listing-content/sample-004.md) — 93 words
 - [sample-004](expert-benchmarks/copywriting/sample-004.md) [luke-iha] — 92 words (stale)
+- [blind-pass-log](../extractions/kallaway-hook-mastery/blind-pass-log.md) [kallaway] — 88 words
+- [sample-003](expert-benchmarks/jen-listing-content/sample-003.md) — 80 words
+- [sample-005](expert-benchmarks/jen-listing-content/sample-005.md) — 77 words
 - [sample-001](expert-benchmarks/copywriting/sample-001.md) [luke-iha] — 63 words (stale)
 
-## General (95 files)
+## General (96 files)
 
 - [Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average](extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md) — 64,760 words (stale)
 - [Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2](extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md) — 62,412 words (stale)
@@ -409,7 +428,7 @@
 - [Guide_3_Streetwear_Design_Mastery](creative-direction/guides/Guide_3_Streetwear_Design_Mastery.md) — 32,225 words (stale)
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
-- [log](log.md) — 16,751 words
+- [log](log.md) — 17,056 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
@@ -479,6 +498,7 @@
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/devon_saas/OPPORTUNITIES.md) [nick-saraev] — 181 words
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/sally_law/OPPORTUNITIES.md) [nick-saraev] — 169 words
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_mehra_clinic/OPPORTUNITIES.md) [dai-media] — 167 words
+- [blind-pass-log](../extractions/benoit-vatere/blind-pass-log.md) — 128 words
 - [blind-pass-log](../extractions/paolo-trivellato-lead-magnet-engine/blind-pass-log.md) — 105 words
 - [blind-pass-log](../extractions/david-baldacci-books-that-sell/blind-pass-log.md) — 90 words
 - [blind-pass-log](../extractions/satori-graphics/blind-pass-log.md) — 90 words
@@ -491,7 +511,7 @@
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Strategy (86 files)
+## Strategy (87 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -577,6 +597,7 @@
 - [assembly-rubric](assembly-rubric.md) — 209 words
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [blind-pass-generated-01](../extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md) — 193 words
+- [blind-pass-log](../extractions/oren-slop-era-creative-strategy/blind-pass-log.md) [oren-john] — 114 words
 - [blind-pass-log](../extractions/jason-fladlien-marketing/blind-pass-log.md) [jason-fladlien] — 77 words
 - [blind-pass-log](../extractions/riley-brown-marketing-automation/blind-pass-log.md) — 74 words
 
@@ -640,6 +661,64 @@
 - [frame-notes](../extractions/video-context/Zc4E_K48v48/frame-notes.md) — 18 words
 - [ocr-notes](../extractions/video-context/Zc4E_K48v48/ocr-notes.md) — 18 words
 
+## Brand (55 files)
+
+- [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md) [dai-media] — 69,583 words (stale)
+- [Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out](extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md) — 63,227 words (stale)
+- [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated pt.2](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated pt.2.md) [dai-media] — 46,237 words (stale)
+- [Claude-⭐️ 📱💎 Erica Mallet 505 Podcast ! How to Make Your Brand So Magnetic They Stop Scrolling](extractions/inbox/Claude-⭐️ 📱💎 Erica Mallet 505 Podcast ! How to Make Your Brand So Magnetic They Stop Scrolling.md) — 11,837 words (stale)
+- [creatives-guide-to-personal-branding](../extractions/oren-identity-brand-os/reference-corpus/creatives-guide-to-personal-branding.md) [oren-john] — 9,840 words
+- [video-narration-transcript](../extractions/ray-amjad-agentic-ladder/reference-corpus/video-narration-transcript.md) [nick-saraev] — 7,217 words
+- [companion-stussy-art-direction-transcript](../extractions/oren-john-identity-marketing/companion-stussy-art-direction-transcript.md) [oren-john] — 5,153 words
+- [source-transcript](../extractions/oren-john-identity-marketing/source-transcript.md) [oren-john] — 4,856 words
+- [mastery-extraction](../extractions/oren-john-identity-marketing/mastery-extraction.md) [oren-john] — 4,257 words
+- [anatomy-of-a-dream-2026-08-04-extraction-report](../extractions/caleb-ralston/anatomy-of-a-dream-2026-08-04-extraction-report.md) — 4,217 words
+- [DESIGN](design-libraries/brands/renault/DESIGN.md) — 3,632 words (stale)
+- [DESIGN](design-libraries/brands/clickhouse/DESIGN.md) — 3,194 words (stale)
+- [DESIGN](design-libraries/brands/stripe/DESIGN.md) — 3,041 words (stale)
+- [extraction-report](../extractions/david-placek/extraction-report.md) — 2,637 words (stale)
+- [DESIGN](design-libraries/brands/nvidia/DESIGN.md) — 2,633 words (stale)
+- [DESIGN](design-libraries/brands/mintlify/DESIGN.md) — 2,601 words (stale)
+- [mastery-extraction-system](mes-3.0/mastery-extraction-system.md) — 2,468 words (stale)
+- [DESIGN](design-libraries/brands/mistral-ai/DESIGN.md) — 2,441 words (stale)
+- [source-digest](../extractions/oren-john-identity-marketing/source-digest.md) [oren-john] — 2,365 words
+- [DESIGN](design-libraries/brands/mongodb/DESIGN.md) — 2,364 words (stale)
+- [DESIGN](design-libraries/brands/opencode-ai/DESIGN.md) — 2,339 words (stale)
+- [DESIGN](design-libraries/brands/supabase/DESIGN.md) — 2,230 words (stale)
+- [kb-visual-language-cinematography](creative-direction/guides/kb-visual-language-cinematography.md) — 2,212 words (stale)
+- [kb-streetwear-design-mastery](creative-direction/guides/kb-streetwear-design-mastery.md) — 2,092 words (stale)
+- [kb-creative-direction-art-direction](creative-direction/guides/kb-creative-direction-art-direction.md) — 1,878 words (stale)
+- [research-llm-wiki-deployment](../research_outputs/research-llm-wiki-deployment.md) — 1,839 words (stale)
+- [DESIGN](design-libraries/brands/pinterest/DESIGN.md) — 1,789 words (stale)
+- [INDEX](design-libraries/INDEX.md) — 1,578 words (stale)
+- [companion-stussy-art-direction](../extractions/oren-john-identity-marketing/companion-stussy-art-direction.md) [oren-john] — 1,531 words
+- [heath_brothers](../research_outputs/ai_authority_architect_agents/heath_brothers.md) — 1,508 words
+- [jeremy_miner](../research_outputs/ai_authority_architect_agents/jeremy_miner.md) — 1,456 words
+- [michael_bernoff](../research_outputs/ai_authority_architect_agents/michael_bernoff.md) — 1,423 words
+- [arsenal-map](../extractions/oren-john-identity-marketing/arsenal-map.md) [oren-john] — 1,373 words
+- [blind-pass-candidate-driver-diagnostic](../extractions/oren-identity-brand-os/blind-pass-candidate-driver-diagnostic.md) [oren-john] — 1,298 words
+- [master-system-prompt](creative-direction/guides/master-system-prompt.md) — 905 words (stale)
+- [vision](../extractions/oren-john-identity-marketing/vision.md) [oren-john] — 865 words
+- [higgsfield.ai_blog_Prompt-Guide-to-Cinematic-AI-Videos](../extractions/creative-direction/higgsfield.ai_blog_Prompt-Guide-to-Cinematic-AI-Videos.md) — 853 words (stale)
+- [vision](../extractions/benoit-vatere/vision.md) — 761 words
+- [blind-pass-sample](../extractions/benoit-vatere/blind-pass-sample.md) — 744 words
+- [sample-003](expert-benchmarks/brand-strategy/sample-003.md) [oren-john] — 740 words (stale)
+- [DESIGN](design-libraries/brands/kraken/DESIGN.md) — 669 words (stale)
+- [insider-code-deployment](synthesis/insider-code-deployment.md) [nicolas-cole] — 648 words (stale)
+- [money-words-miner](../extractions/joanna-wiebe-persuasion-mastery/prompts-v2/money-words-miner.md) — 645 words
+- [sample-002](expert-benchmarks/brand-strategy/sample-002.md) [oren-john] — 628 words (stale)
+- [blind-pass-sample-brand-journey-farrice](../extractions/caleb-ralston-personal-brand/blind-pass-sample-brand-journey-farrice.md) — 548 words
+- [money-words-miner](../extractions/joanna-wiebe-persuasion-mastery/prompts/money-words-miner.md) — 427 words (stale)
+- [genius-patterns](../extractions/meg-heckman/codex-prior-art/skill/references/genius-patterns.md) — 404 words
+- [apparel_design_research](../extractions/creative-direction/apparel_design_research.md) — 403 words (stale)
+- [sample-taboo-concept-hairloss](../extractions/oren-dara-ad-psychology/blind-pass-samples/sample-taboo-concept-hairloss.md) [dai-media] — 402 words
+- [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md) — 370 words
+- [kittl_notes](../extractions/creative-direction/kittl_notes.md) — 324 words (stale)
+- [quality-rubric](../extractions/meg-heckman/codex-prior-art/skill/references/quality-rubric.md) — 261 words
+- [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/marco_ecommerce/OPPORTUNITIES.md) [nick-saraev] — 229 words
+- [blind-pass-log](../extractions/caleb-ralston-personal-brand/blind-pass-log.md) — 111 words
+- [blind-pass-log](../extractions/oren-identity-brand-os/blind-pass-log.md) [oren-john] — 90 words
+
 ## Systems (50 files)
 
 - [Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026](extractions/inbox/Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026.md) — 50,355 words (stale)
@@ -693,60 +772,7 @@
 - [blind-pass-log](../extractions/ray-amjad-agentic-ladder/blind-pass-log.md) [nick-saraev] — 83 words
 - [blind-pass-log](../extractions/jenny-hoyos/blind-pass-log.md) — 60 words
 
-## Brand (50 files)
-
-- [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md) [dai-media] — 69,583 words (stale)
-- [Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out](extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md) — 63,227 words (stale)
-- [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated pt.2](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated pt.2.md) [dai-media] — 46,237 words (stale)
-- [Claude-⭐️ 📱💎 Erica Mallet 505 Podcast ! How to Make Your Brand So Magnetic They Stop Scrolling](extractions/inbox/Claude-⭐️ 📱💎 Erica Mallet 505 Podcast ! How to Make Your Brand So Magnetic They Stop Scrolling.md) — 11,837 words (stale)
-- [creatives-guide-to-personal-branding](../extractions/oren-identity-brand-os/reference-corpus/creatives-guide-to-personal-branding.md) [oren-john] — 9,840 words
-- [video-narration-transcript](../extractions/ray-amjad-agentic-ladder/reference-corpus/video-narration-transcript.md) [nick-saraev] — 7,217 words
-- [companion-stussy-art-direction-transcript](../extractions/oren-john-identity-marketing/companion-stussy-art-direction-transcript.md) [oren-john] — 5,153 words
-- [source-transcript](../extractions/oren-john-identity-marketing/source-transcript.md) [oren-john] — 4,856 words
-- [mastery-extraction](../extractions/oren-john-identity-marketing/mastery-extraction.md) [oren-john] — 4,257 words
-- [DESIGN](design-libraries/brands/renault/DESIGN.md) — 3,632 words (stale)
-- [DESIGN](design-libraries/brands/clickhouse/DESIGN.md) — 3,194 words (stale)
-- [DESIGN](design-libraries/brands/stripe/DESIGN.md) — 3,041 words (stale)
-- [extraction-report](../extractions/david-placek/extraction-report.md) — 2,637 words (stale)
-- [DESIGN](design-libraries/brands/nvidia/DESIGN.md) — 2,633 words (stale)
-- [DESIGN](design-libraries/brands/mintlify/DESIGN.md) — 2,601 words (stale)
-- [mastery-extraction-system](mes-3.0/mastery-extraction-system.md) — 2,468 words (stale)
-- [DESIGN](design-libraries/brands/mistral-ai/DESIGN.md) — 2,441 words (stale)
-- [source-digest](../extractions/oren-john-identity-marketing/source-digest.md) [oren-john] — 2,365 words
-- [DESIGN](design-libraries/brands/mongodb/DESIGN.md) — 2,364 words (stale)
-- [DESIGN](design-libraries/brands/opencode-ai/DESIGN.md) — 2,339 words (stale)
-- [DESIGN](design-libraries/brands/supabase/DESIGN.md) — 2,230 words (stale)
-- [kb-visual-language-cinematography](creative-direction/guides/kb-visual-language-cinematography.md) — 2,212 words (stale)
-- [kb-streetwear-design-mastery](creative-direction/guides/kb-streetwear-design-mastery.md) — 2,092 words (stale)
-- [kb-creative-direction-art-direction](creative-direction/guides/kb-creative-direction-art-direction.md) — 1,878 words (stale)
-- [research-llm-wiki-deployment](../research_outputs/research-llm-wiki-deployment.md) — 1,839 words (stale)
-- [DESIGN](design-libraries/brands/pinterest/DESIGN.md) — 1,789 words (stale)
-- [INDEX](design-libraries/INDEX.md) — 1,578 words (stale)
-- [companion-stussy-art-direction](../extractions/oren-john-identity-marketing/companion-stussy-art-direction.md) [oren-john] — 1,531 words
-- [heath_brothers](../research_outputs/ai_authority_architect_agents/heath_brothers.md) — 1,508 words
-- [jeremy_miner](../research_outputs/ai_authority_architect_agents/jeremy_miner.md) — 1,456 words
-- [michael_bernoff](../research_outputs/ai_authority_architect_agents/michael_bernoff.md) — 1,423 words
-- [arsenal-map](../extractions/oren-john-identity-marketing/arsenal-map.md) [oren-john] — 1,373 words
-- [blind-pass-candidate-driver-diagnostic](../extractions/oren-identity-brand-os/blind-pass-candidate-driver-diagnostic.md) [oren-john] — 1,298 words
-- [master-system-prompt](creative-direction/guides/master-system-prompt.md) — 905 words (stale)
-- [vision](../extractions/oren-john-identity-marketing/vision.md) [oren-john] — 865 words
-- [higgsfield.ai_blog_Prompt-Guide-to-Cinematic-AI-Videos](../extractions/creative-direction/higgsfield.ai_blog_Prompt-Guide-to-Cinematic-AI-Videos.md) — 853 words (stale)
-- [sample-003](expert-benchmarks/brand-strategy/sample-003.md) [oren-john] — 740 words (stale)
-- [DESIGN](design-libraries/brands/kraken/DESIGN.md) — 669 words (stale)
-- [insider-code-deployment](synthesis/insider-code-deployment.md) [nicolas-cole] — 648 words (stale)
-- [money-words-miner](../extractions/joanna-wiebe-persuasion-mastery/prompts-v2/money-words-miner.md) — 645 words
-- [sample-002](expert-benchmarks/brand-strategy/sample-002.md) [oren-john] — 628 words (stale)
-- [money-words-miner](../extractions/joanna-wiebe-persuasion-mastery/prompts/money-words-miner.md) — 427 words (stale)
-- [genius-patterns](../extractions/meg-heckman/codex-prior-art/skill/references/genius-patterns.md) — 404 words
-- [apparel_design_research](../extractions/creative-direction/apparel_design_research.md) — 403 words (stale)
-- [sample-taboo-concept-hairloss](../extractions/oren-dara-ad-psychology/blind-pass-samples/sample-taboo-concept-hairloss.md) [dai-media] — 402 words
-- [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md) — 370 words
-- [kittl_notes](../extractions/creative-direction/kittl_notes.md) — 324 words (stale)
-- [quality-rubric](../extractions/meg-heckman/codex-prior-art/skill/references/quality-rubric.md) — 261 words
-- [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/marco_ecommerce/OPPORTUNITIES.md) [nick-saraev] — 229 words
-- [blind-pass-log](../extractions/oren-identity-brand-os/blind-pass-log.md) [oren-john] — 90 words
-
-## Seo (27 files)
+## Seo (28 files)
 
 - [ethan-smith-aeo-extraction-report](../extractions/ethan-smith/ethan-smith-aeo-extraction-report.md) [nathan-gotch] — 3,441 words (stale)
 - [human_values_collective_profile](../research_outputs/human_values_collective_profile.md) — 2,767 words (stale)
@@ -774,9 +800,10 @@
 - [guide_research_styles_movements](../extractions/creative-direction/guide_research_styles_movements.md) — 430 words (stale)
 - [gap-seo-content-psychology-bridge](synthesis/gap-seo-content-psychology-bridge.md) [lara-acosta] — 339 words (stale)
 - [nano_banana_notes](../extractions/creative-direction/nano_banana_notes.md) — 311 words (stale)
+- [monid-facts](../extractions/eddy-ballesteros/reference-corpus/monid-facts.md) — 311 words
 - [sample-001](expert-benchmarks/seo/sample-001.md) [nathan-gotch] — 120 words (stale)
 
-## Research (27 files)
+## Research (28 files)
 
 - [Guide_2_Creative_Directors_Playbook](creative-direction/guides/Guide_2_Creative_Directors_Playbook.md) — 49,000 words (stale)
 - [ai-event-analysis-extraction](../extractions/prediction-market-trading/ai-event-analysis-extraction.md) — 9,247 words (stale)
@@ -796,6 +823,7 @@
 - [tom_noske](../research_outputs/ai_authority_architect_agents/tom_noske.md) — 1,406 words
 - [jim_oshaughnessy](../research_outputs/ai_authority_architect_agents/jim_oshaughnessy.md) [nicolas-cole] — 1,397 words
 - [alen_sultanic](../research_outputs/ai_authority_architect_agents/alen_sultanic.md) — 1,270 words
+- [brief-anatomy](../extractions/eddy-ballesteros/reference-corpus/brief-anatomy.md) — 1,070 words
 - [agi-definition-analysis](../research_outputs/agi-definition-analysis.md) — 998 words
 - [trailer_comprehensive_notes](../extractions/creative-direction/trailer_comprehensive_notes.md) — 905 words (stale)
 - [vision](../extractions/meg-heckman/vision.md) — 773 words

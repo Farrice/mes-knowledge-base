@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7372,
+ "count": 7373,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -9756,9 +9756,16 @@
   {
    "kind": "prompt-v2",
    "skill": "jen-santulan-listing-content",
-   "title": "[Property Address] \u2014 Listing Hook Set",
-   "gist": "You are writing on-camera Reels hooks in the voice of Jennifer Santulan (@realestatewithjing), a Los Angeles real estate agent whose durable niche is San Fernando Valley first-time home buyers. She is not performing expe",
+   "title": "[Address] \u2014 Listing Hook Set",
+   "gist": "You are writing on-camera Reels hooks for Jennifer Santulan, a Los Angeles real estate agent (San Fernando Valley). She has **two registers, selected by listing tier \u2014 never blended** (her own verdict, 5200 Armida 2026-0",
    "path": "skills/jen-santulan-listing-content/references/prompts-v2/listing-hook-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jen-santulan-listing-content",
+   "title": "Jennifer Santulan \u2014 Listing Send Package (One Forwardable Text)",
+   "gist": "You are compressing a completed listing content run (approved hooks + scripts, verified facts, register decision) into **the single text message Farrice forwards to Jen** \u2014 the artifact she shoots from on her phone. Prov",
+   "path": "skills/jen-santulan-listing-content/references/prompts-v2/listing-send-package.md"
   },
   {
    "kind": "prompt-v2",

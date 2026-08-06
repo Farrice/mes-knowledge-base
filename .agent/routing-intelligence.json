@@ -449,8 +449,8 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 116,
-            "total_feedback": 4,
+            "total_routings": 129,
+            "total_feedback": 5,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -462,22 +462,22 @@
                 "Content": 6,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 5,
+                "System": 6,
                 "supercomputer": 6,
                 "Creative": 1,
                 "Strategy": 4,
                 "luke-iha-copy-blocks": 4,
                 "adam-sandler-second-brain-gtm": 1,
-                "jen-santulan-listing-content": 5,
+                "jen-santulan-listing-content": 7,
                 "joey-cinema-os": 2,
                 "creative-direction": 1,
-                "kallaway-illusion-of-novelty": 3,
+                "kallaway-illusion-of-novelty": 5,
                 "satori-graphics": 1,
                 "ben-watkins-storytelling": 4,
                 "gemini-api-dev": 1,
                 "jason-fladlien-marketing": 2,
                 "nicolas-cole-digital-products": 1,
-                "generate": 1,
+                "generate": 2,
                 "omar-eltakrori": 1,
                 "story-bible-builder": 1,
                 "wordsatscale-seo-ranking": 1,
@@ -487,7 +487,7 @@
                 "luke-iha-vsl-leads": 1,
                 "ali-abdaal-action-bias": 1,
                 "lamott-allen-really-real-writing": 1,
-                "gpt-image-2-director": 6,
+                "gpt-image-2-director": 7,
                 "creative-campaign-strategy": 2,
                 "briar-cochran-content-science": 1,
                 "sweat-equity-speedrun-social-os": 1,
@@ -499,11 +499,14 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "Extraction": 4,
-                "nate-b-jones-context-engineering": 8,
-                "ethan-smith-aeo": 1
+                "nate-b-jones-context-engineering": 9,
+                "ethan-smith-aeo": 1,
+                "riley-brown-marketing-automation": 1,
+                "Client Work": 3,
+                "dakota-content-design": 1
             },
             "expert_counts": {
-                "meg-heckman-buyer-trigger-os": 2,
+                "meg-heckman-buyer-trigger-os": 3,
                 "context-profile-architect": 1,
                 "sean-dollwet-kdp-publishing": 9,
                 "oren-operational-systems": 4,
@@ -514,25 +517,25 @@
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
                 "supercomputer": 6,
-                "doc-coauthoring": 14,
+                "doc-coauthoring": 15,
                 "luke-iha-copy-blocks": 4,
                 "jonathan-franzen-storytelling": 1,
                 "adam-sandler-second-brain-gtm": 1,
                 "health-performance-angle-map-listening-engine": 2,
-                "jen-santulan-listing-content": 5,
+                "jen-santulan-listing-content": 7,
                 "joey-cinema-os": 2,
                 "ben-watkins-storytelling": 6,
                 "RoboNuggets source-to-skill": 1,
                 "creative-direction": 1,
                 "hilary-gridley": 1,
-                "kallaway-illusion-of-novelty": 4,
+                "kallaway-illusion-of-novelty": 6,
                 "satori-graphics": 1,
                 "kobi-brown-educational-virality": 1,
                 "gemini-api-dev": 1,
                 "jason-fladlien-marketing": 2,
                 "nicolas-cole-digital-products": 1,
                 "luke-iha-million-dollar-mechanisms": 1,
-                "generate": 1,
+                "generate": 2,
                 "fashion-coupids": 1,
                 "Health Performance Angle Map Listening Engine": 1,
                 "omar-eltakrori": 1,
@@ -551,8 +554,8 @@
                 "ali-abdaal-action-bias": 1,
                 "chase-hughes-context-engineering": 1,
                 "luke-iha-vicious-hooks": 3,
-                "gpt-image-2-director": 6,
-                "fraser-cottrell-paid-ads": 6,
+                "gpt-image-2-director": 7,
+                "fraser-cottrell-paid-ads": 7,
                 "system-audit": 2,
                 "justin-welsh-solopreneur": 1,
                 "briar-cochran-content-science": 1,
@@ -561,7 +564,7 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "design-md": 2,
                 "diandra-escobar-linkedin-growth": 1,
-                "nate-b-jones-context-engineering": 9,
+                "nate-b-jones-context-engineering": 10,
                 "evan-spiegel-distribution-architecture": 2,
                 "luisa-zhou-coaching": 1,
                 "meg-heckman": 4,
@@ -572,16 +575,19 @@
                 "mickmumpitz": 1,
                 "cinematic-documentary": 1,
                 "david-bayer-elite-communication": 2,
-                "dr-kriukow-humanization": 1,
+                "dr-kriukow-humanization": 2,
                 "oren-john": 1,
                 "caleb-ralston": 1,
                 "health-performance-geo-creative-strategist": 1,
                 "ethan-smith-aeo": 1,
                 "kallaway": 1,
-                "eddy-ballesteros": 1
+                "eddy-ballesteros": 2,
+                "riley-brown-marketing-automation": 1,
+                "Jen Santulan": 3,
+                "dakota-content-design": 1
             },
             "tier_counts": {
-                "0": 116,
+                "0": 129,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -589,11 +595,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 86,
-                "finalize-auto": 30
+                "hybrid": 95,
+                "finalize-auto": 34
             },
-            "ensemble_count": 64,
-            "auto_miss_count": 4
+            "ensemble_count": 69,
+            "auto_miss_count": 4,
+            "auto_match_count": 1
         }
     },
     "feedback_log": [
@@ -632,6 +639,15 @@
             "rating": "auto_miss",
             "correction": "ghostwriting-voice-engine",
             "notes": "expert skill 'ghostwriting-voice-engine' loaded not matching suggestion ['supercomputer', 'doc-coauthoring']"
+        },
+        {
+            "feedback_id": "fb_20260806_001953_a68c",
+            "timestamp": "2026-08-06T00:19:53.121938+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "routing_id": "rt_20260806_000232_bf83",
+            "rating": "auto_match",
+            "correction": "jen-santulan-listing-content",
+            "notes": "expert skill 'jen-santulan-listing-content' loaded matching suggestion ['jen-santulan-listing-content']"
         }
     ],
     "routing_decisions": [
@@ -2661,6 +2677,231 @@
             "workflow_used": "nate-b-jones-context-engineering",
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_193458_9cd7",
+            "timestamp": "2026-08-05T19:34:58.546878+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "here is the link and I'm logged into zillow please pull the information needed to eecute our workflow and task /go https://www.zillow.com/homedetails/5200-Armida-Dr-Woodland-Hills-CA-91364/19941676_zp",
+            "intent_score": 0,
+            "domain_detected": "riley-brown-marketing-automation",
+            "experts_deployed": [
+                "riley-brown-marketing-automation",
+                "dr-kriukow-humanization"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "riley-brown-marketing-automation",
+            "ensemble": true,
+            "compound_pairing": "riley-brown-marketing-automation + dr-kriukow-humanization",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_194521_237a",
+            "timestamp": "2026-08-05T19:45:21.556025+00:00",
+            "session_id": "",
+            "request_summary": "5200 Armida Dr reel shoot sheet — 6 Jen hooks + 3 team variations + IG caption + verification ledger for a $3.199M Woodland Hills listing Jen co-lists",
+            "intent_score": 4,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "Jen Santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_195608_de0b",
+            "timestamp": "2026-08-05T19:56:08.974612+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "I like the format of everything, but I think the part that misses the hooks and who this could be aimed at the buyer is potentially... I just feel like, personally speaking, it doesn't read that well.",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_200156_efd0",
+            "timestamp": "2026-08-05T20:01:56.833025+00:00",
+            "session_id": "",
+            "request_summary": "5200 Armida shoot sheet v2 — 6 hooks rebuilt on Kallaway Interrupt Theory after Farrice rejected v1 hooks as feature announcements",
+            "intent_score": 4,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "Jen Santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_200925_edad",
+            "timestamp": "2026-08-05T20:09:25.156589+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "I want to text this to her, so can you give me the hooks, the caption, and the formatting so I can send it to her that has the cover overlay text for the reel and everything organized and easy to read",
+            "intent_score": 0,
+            "domain_detected": "dakota-content-design",
+            "experts_deployed": [
+                "dakota-content-design",
+                "meg-heckman-buyer-trigger-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dakota-content-design",
+            "ensemble": true,
+            "compound_pairing": "dakota-content-design + meg-heckman-buyer-trigger-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_201333_53c7",
+            "timestamp": "2026-08-05T20:13:33.629535+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "I feel like we need to rework the caption. The caption needs to be more universal and actually execute and list out things that could work for multiple types of buyers, like property facts. It should ",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_221059_7784",
+            "timestamp": "2026-08-05T22:10:59.900859+00:00",
+            "session_id": "",
+            "request_summary": "5200 Armida v3 — story pass on full package after Jen rejected the warm-hook external version: v2 fact-tension hooks kept, all 6 script bodies + caption rewritten as lived scenes",
+            "intent_score": 4,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "Jen Santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_000232_bf83",
+            "timestamp": "2026-08-06T00:02:32.404145+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "run /go how about a plan for how we can codify this, get better this output, this level of intelligence and utilization of building out our hooks and scripts so that it can be fully automated? That I ",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": "fb_20260806_001953_a68c"
+        },
+        {
+            "routing_id": "rt_20260806_002310_8ccd",
+            "timestamp": "2026-08-06T00:23:10.402950+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "gpt-image-2-director",
+            "experts_deployed": [
+                "gpt-image-2-director",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gpt-image-2-director",
+            "ensemble": true,
+            "compound_pairing": "gpt-image-2-director + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_010851_10dc",
+            "timestamp": "2026-08-06T01:08:51.018214+00:00",
+            "session_id": "",
+            "request_summary": "Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apify actors schema-verified live, $5/run cap) + Monid wired on Claude Code/Codex with cost-gate governa",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "eddy-ballesteros"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "briefs",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_011431_6b36",
+            "timestamp": "2026-08-06T01:14:31.190571+00:00",
+            "session_id": "27489b5d-bbb2-4ded-8b32-3c0d453e6704",
+            "request_summary": "Fallback wakeup: check whether the two Explore agents (video pipeline; asset board + Apify) have completed, then finish the plan file and call ExitPlanMode.",
+            "intent_score": 0,
+            "domain_detected": "generate",
+            "experts_deployed": [
+                "generate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "generate",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_011454_31d2",
+            "timestamp": "2026-08-06T01:14:54.851164+00:00",
+            "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260806_011842_906d",
+            "timestamp": "2026-08-06T01:18:42.917255+00:00",
+            "session_id": "27489b5d-bbb2-4ded-8b32-3c0d453e6704",
+            "request_summary": "is there anything else we need to do to execute in this session for it to be done, and show me proof of everything that was done? Let me see the links to the asset menu. How do I fire this? How do I l",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

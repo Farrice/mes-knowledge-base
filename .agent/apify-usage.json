@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.5922,
+  "spent_dollars": 0.8399,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -231,6 +231,83 @@
       "results": 15,
       "cost": 0.0027,
       "pricing_model": "pay_per_result"
+    },
+    {
+      "ts": "2026-08-06T00:57:59.192651+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0037,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-06T00:59:49.695902+00:00",
+      "actor": "threads-search",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-06T01:00:30.654634+00:00",
+      "actor": "facebook-ads",
+      "results": 1,
+      "cost": 0.002,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:01:14.958901+00:00",
+      "actor": "threads-search",
+      "results": 4,
+      "cost": 0.002,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-06T01:01:32.407535+00:00",
+      "actor": "facebook-ads",
+      "results": 1,
+      "cost": 0.002,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:01:56.077939+00:00",
+      "actor": "facebook-ads",
+      "results": 1,
+      "cost": 0.002,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:02:39.367156+00:00",
+      "actor": "facebook-ads",
+      "results": 10,
+      "cost": 0.02,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:02:58.949744+00:00",
+      "actor": "linkedin-posts",
+      "results": 100,
+      "cost": 0.2,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:03:49.167443+00:00",
+      "actor": "linkedin-posts",
+      "results": 3,
+      "cost": 0.006,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:03:52.912642+00:00",
+      "actor": "linkedin-search",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-08-06T01:04:32.656241+00:00",
+      "actor": "linkedin-search",
+      "results": 5,
+      "cost": 0.01,
+      "pricing_model": "pay_per_event"
     }
   ],
   "pulse_budget_dollars": 5.0,

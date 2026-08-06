@@ -1,1 +1,17 @@
-{}
+{
+  "jen-listing-content": {
+    "experts": [
+      "Jen Santulan"
+    ],
+    "skills": [],
+    "output_types": [
+      "hook",
+      "script",
+      "caption",
+      "send-package"
+    ],
+    "description": "Register-aware listing content for Jen Santulan \u2014 hooks, scripts, captions, send packages; two-register ladder (FTHB warm / luxury Quiet Flex authority-POV)",
+    "registered_at": "2026-08-05",
+    "registered_via": "init_domain"
+  }
+}
