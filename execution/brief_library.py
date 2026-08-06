@@ -29,11 +29,13 @@ ROOT = Path(__file__).resolve().parent.parent
 BRIEFS = ROOT / "deliverables" / "research-briefs"
 PAGE_SIZE = 10
 
-# ── Lifecycle policy (the librarian; Farrice 2026-08-06) ─────────────────────
+# ── Lifecycle policy (the librarian; Farrice 2026-08-06, tuned same day) ─────
 # Periodical categories auto-archive after N days — applied on every regen, so
 # currency needs no cron and no memory. Everything else archives manually only
-# (archive <slug>). Nothing is ever deleted: archived = one filter away.
-AUTO_ARCHIVE_DAYS = {"zeitgeist": 7, "angles": 14}
+# (archive <slug>). ARCHIVED IS NEVER GONE: files, md mirrors, and context
+# packs stay exactly where they are — still openable, referenceable, and
+# agent-feedable; the shelf filter is presentation only. Nothing is deleted.
+AUTO_ARCHIVE_DAYS = {"zeitgeist": 30, "angles": 30}
 STALE_DAYS = 30  # active non-periodical briefs older than this get flagged, never moved
 
 

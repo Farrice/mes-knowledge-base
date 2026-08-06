@@ -38,7 +38,7 @@ Design system: **Farrice Cain Premium Minimal, report dialect** — tokens live 
 
 ## What ships as a brief (Visual Delivery Doctrine — Farrice-ratified 2026-08-06, both harnesses)
 
-**Reusable deliverables default to visual briefs, not markdown walls.** The line: outputs meant to be REUSED ship as briefs; quick answers, corrections, and conversation stay conversation. This is the default offer, never a cage. Lineage: the Nate B Jones work-primitive rule ("a document is complete only when an agent can use it to decide, act, check, and know when not to act" — `skills/semantic-document-library-os/`); the brief's `.md` mirror + context pack ARE the agent half of that contract, the HTML is the human half. Grounding: before this doctrine, 96% of all deliverables shipped as markdown (338 md vs 13 html, audit 2026-08-06).
+**Reusable deliverables default to visual briefs.** The line: outputs meant to be REUSED ship as briefs; quick answers, corrections, and conversation stay conversation. This is the default offer, never a cage. **Markdown stays first-class** (Farrice, 2026-08-06): standalone md deliverables remain fully legitimate — the doctrine adds a visual layer, it never demotes md. Every brief already ships its md mirror; any markdown, brief-born or standalone, has a paved road to the Drive content vault (below). Lineage: the Nate B Jones work-primitive rule ("a document is complete only when an agent can use it to decide, act, check, and know when not to act" — `skills/semantic-document-library-os/`); the brief's `.md` mirror + context pack ARE the agent half of that contract, the HTML is the human half. Grounding: before this doctrine, 96% of all deliverables shipped as markdown (338 md vs 13 html, audit 2026-08-06).
 
 Family recipes (chip · category · default priority · section spine):
 
@@ -52,11 +52,11 @@ Family recipes (chip · category · default priority · section spine):
 
 Semantic-document activation map (how the 13-section semantic schema lands in brief kinds): Decision Rules→`decision` · Quality Tests/Failure Modes→`caveats`+`evidence` chips · Execution Protocol→`playbook`/`deploy` · Inputs/Outputs/Authority→`stats`/`matrix`/`assets` · Maintenance→`ledger`+`timeline`.
 
-**Portable backstop**: `--gdoc` uploads any brief as a native Google Doc on request (graceful on OAuth expiry) — use when Farrice wants it portable outside the repo.
+**Portable backstop → the Drive content vault** (Farrice has 30TB — leverage it): `--gdoc` uploads any brief as a native Google Doc on request (graceful on OAuth expiry). Any standalone markdown ports the same way: `python3 execution/md_to_gdoc.py <file.md> [--folder-id …|--create-folder …|--mirror-folders]` (styled tables, pageless-friendly). Offer the Drive port whenever a deliverable is worth keeping outside the repo — content vaults and asset libraries live there.
 
 ## The librarian (housekeeping — deterministic, runs on every regen)
 
-`brief_library.py` keeps the shelves: `archive <slug>` / `unarchive <slug>` (also live buttons on room cards when served) · `audit` (counts + stale + broken context-pack paths; same line renders in the room header). **Auto-currency**: `zeitgeist` briefs auto-archive after 7 days, `angles` after 14 (periodicals; constants at top of `brief_library.py`). Nothing is ever deleted — archived = one sidebar filter away. Supersession: set `"superseded_by": "<slug>"` in the old brief's JSON; the room chips it with a link to the successor.
+`brief_library.py` keeps the shelves: `archive <slug>` / `unarchive <slug>` (also live buttons on room cards when served) · `audit` (counts + stale + broken context-pack paths; same line renders in the room header). **Auto-currency**: periodical categories (`zeitgeist`, `angles`) auto-archive after **30 days** (constants at top of `brief_library.py` — tune freely, never a cage). **Archived is never gone**: files, md mirrors, and context packs stay exactly where they are — still openable, citable in `related` sections, and agent-feedable; the shelf filter changes presentation only, and `unarchive` is always one action away. Supersession: set `"superseded_by": "<slug>"` in the old brief's JSON; the room chips it with a link to the successor.
 
 ## Share-safe export (BINDING rule: internal briefs never go out)
 

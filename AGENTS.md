@@ -117,7 +117,7 @@ Reusable deliverables (research, strategy, audits, ICP/avatar profiles, extracti
 
 - Author brief JSON per the schema in `execution/render_brief.py`'s docstring (family recipes: `.agent/workflows/briefs.md` § What ships as a brief) → `python3 execution/render_brief.py <json>` renders HTML + `.md` agent mirror + `-context.json` agent pack and auto-refreshes the room index.
 - Library: `/briefing-room` (`python3 execution/brief_library.py --open`); librarian: `brief_library.py archive|unarchive|audit` (periodicals auto-archive; nothing is deleted). Live boards: `python3 execution/pulse_serve.py --open` (localhost, idle-exit; `/` = pulse console, `/room` = briefing room; buttons write for real when served).
-- Outward-facing = `--share` render ONLY (BINDING); `--gdoc` for a portable Google Doc on request. Quick answers, corrections, and conversation stay conversation — the doctrine covers outputs meant to be REUSED.
+- Outward-facing = `--share` render ONLY (BINDING); `--gdoc` for a portable Google Doc on request, and any standalone markdown ports to the Drive content vault via `python3 execution/md_to_gdoc.py` (30TB — use it). **Markdown stays first-class** — the doctrine adds a visual layer, never demotes md. Quick answers, corrections, and conversation stay conversation — the doctrine covers outputs meant to be REUSED.
 
 ## CRITICAL — placed last deliberately
 1. **CHAIN ON EVERY DELIVERABLE.** Trivial is not a skip condition for content/copy/strategy/research.
