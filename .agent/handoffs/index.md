@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-06** [god-agent-offer/blocked] [Handoff — God Agent Offer (parked 2026-08-06, Farrice-ratified)](2026-08-06-god-agent-offer.md) — Parked behind first collected P2M dollar (red-team ratified). Everything designed; un-park = POV post + backend upsell + instance #2
+- **2026-08-06** [mastery-forge/active] [Mastery Forge — Gate Baseline](2026-08-06-mastery-forge.md) — Mastery Forge — Gate Baseline
 - **2026-08-06** [directives/active] [Directives — Cli Reference](2026-08-06-directives.md) — Directives — Cli Reference
 - **2026-08-05** [linkedin-launch/active] [Linkedin Launch — Hotel Test Proof To Market 2026 08 05](2026-08-05-linkedin-launch.md) — Linkedin Launch — Hotel Test Proof To Market 2026 08 05
 - **2026-08-05** [jen-listings/ready] [Jen Listings — 5200 Armida Package + Listing Engine v2 (/listing-package pipeline)](2026-08-05-jen-listings.md) — Fire /listing-package cold on Jen's next listing URL — first live acceptance test
