@@ -687,3 +687,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-05 13:01]` **finalize** | 5200 Armida shoot sheet v2 — 6 hooks rebuilt on Kallaway Interrupt Theory after Farrice rejected v1  | content | Jen Santulan — composite:6.67 status:Needs Improvement
 - `[2026-08-05 15:10]` **finalize** | 5200 Armida v3 — story pass on full package after Jen rejected the warm-hook external version: v2 fa | content | Jen Santulan — composite:6.67 status:Needs Improvement
 - `[2026-08-05 18:08]` **finalize** | Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apif | general | eddy-ballesteros — composite:8.33 status:Keep
+- `[2026-08-05 18:29]` **finalize** | Gauntlet-loop mechanism card + integration verdict: watched BNjzXcEXmg4 (transcript + 7 cue frames), | general | MES 3.0 — composite:6.67 status:Needs Improvement
+- `[2026-08-05 18:29]` **finalize** | Gauntlet-loop mechanism card + integration verdict (rescore: prior run mis-passed Step-1 sharpness 5 | general | MES 3.0 — composite:8.33 status:Keep

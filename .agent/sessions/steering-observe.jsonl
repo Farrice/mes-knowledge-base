@@ -123,3 +123,4 @@
 {"ts": "2026-08-05T19:19:36.762141+00:00", "session_id": "ebb2c16f-ee08-47db-9c36-17e4a14dd489", "exchange": 2, "event": "next-moves-missing", "chars": 3421}
 {"ts": "2026-08-05T19:25:46.602066+00:00", "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829", "exchange": 1, "event": "next-moves-missing", "chars": 1844}
 {"ts": "2026-08-05T20:12:01.019062+00:00", "session_id": "e1f75e1e-5dfe-4e63-8963-576aa9d84829", "exchange": 5, "event": "next-moves-missing", "chars": 6981}
+{"ts": "2026-08-06T01:19:42.087780+00:00", "session_id": "27489b5d-bbb2-4ded-8b32-3c0d453e6704", "exchange": 6, "event": "next-moves-missing", "chars": 3153}

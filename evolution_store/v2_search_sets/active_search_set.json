@@ -3735,8 +3735,36 @@
         "gaming_flag": false
       },
       "notes": "Jen's real-world rejection reversed the same-day warm-hook lesson \u2014 logged to voice_ratchet + memory corrected (shape survived, hook style died). v3: hooks unchanged from v2, bodies+caption rebuilt as scenes carrying the facts. Caption = narrative walk + compact fine-print block (his no-hunting constraint). | Factual Grounding: 9 | Verification: PASS | Anchor: fact-inside-a-moment: every spec lands inside a scene the viewer is standing in (stand at the stove\u2026 you're watching the deep end)"
+    },
+    {
+      "trace_id": "20260805_182916",
+      "timestamp": "2026-08-05T18:29:16.463668",
+      "schema_version": "v3",
+      "component": "extract-mastery",
+      "expert": "MES 3.0",
+      "workflow": "01-extract-virtuoso-mastery",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Focused extraction (mechanism only, per Farrice scope) not full MES report. Anchor for 8s: Expert Standard Anchor 9 test \u2014 Layer-2 finds (bar-as-artifact, commit-before-reveal) were never named on camera, verbatim quotes + exact numbers throughout; Adversarial Anchor 9 test \u2014 verdict cites both prior kill decisions with dates/files rather than contradicting them silently. Watched frames, not transcript-only (anti-pattern 1 honored). Token cost of watch step: captions free + 7 frames @1024px, well under the 50-80k full-scan estimate. | Factual Grounding: 9 | Verification: PASS"
     }
   ],
-  "total_cases": 132,
-  "last_updated": "2026-08-05T15:10:59.911044"
+  "total_cases": 133,
+  "last_updated": "2026-08-05T18:29:16.465869"
 }

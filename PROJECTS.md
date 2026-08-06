@@ -11,12 +11,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `digital-product-lane-2026-08-05` | _active/ | **— none —** | 2026-08-05 | active* |
 | `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-05 | active |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-05 | active* |
+| `jen-listings` | _active/ | `_active/jen-listings/INDEX.md` | 2026-08-05 | active* |
 | `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-05 | active* |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
 | `positioning-cowork-2026-07-25` | _active/ | `_active/positioning-cowork-2026-07-25/INDEX.md` | 2026-07-28 | active* |
 | `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-07-28 | active |
 | `offer-rederivation-2026-07-25` | _active/ | `_active/offer-rederivation-2026-07-25/INDEX.md` | 2026-07-26 | active* |
-| `jen-listings` | _active/ | `_active/jen-listings/INDEX.md` | 2026-07-25 | active* |
 | `loop-engineering-integration` | _active/ | `_active/loop-engineering-integration/INDEX.md` | 2026-07-24 | active* |
 | `frontier-elevation-2026-07-17` | _active/ | `_active/frontier-elevation-2026-07-17/INDEX.md` | 2026-07-21 | active* |
 | `elevation-track` | _active/ | `_active/elevation-track/INDEX.md` | 2026-07-18 | active* |

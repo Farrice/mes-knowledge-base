@@ -1,5 +1,5 @@
 # Knowledge Index
-*815 sources | 2,996,350 words | Updated: 2026-08-05*
+*816 sources | 2,997,814 words | Updated: 2026-08-05*
 
 ---
 
@@ -25,8 +25,8 @@
 - [Guide_5_Trailer_Storytelling_Narrative](creative-direction/guides/Guide_5_Trailer_Storytelling_Narrative.md) — 5,775 words (stale)
 - [2025-05-entertain-or-die-keynote](../extractions/benoit-vatere/reference-corpus/2025-05-entertain-or-die-keynote.md) — 5,611 words
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
+- [index](index.md) — 5,476 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words (stale)
-- [index](index.md) — 5,326 words
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
@@ -428,7 +428,7 @@
 - [Guide_3_Streetwear_Design_Mastery](creative-direction/guides/Guide_3_Streetwear_Design_Mastery.md) — 32,225 words (stale)
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
-- [log](log.md) — 17,056 words
+- [log](log.md) — 17,109 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
@@ -601,7 +601,7 @@
 - [blind-pass-log](../extractions/jason-fladlien-marketing/blind-pass-log.md) [jason-fladlien] — 77 words
 - [blind-pass-log](../extractions/riley-brown-marketing-automation/blind-pass-log.md) — 74 words
 
-## Screenwriting (57 files)
+## Screenwriting (58 files)
 
 - [Claude-💎💎 Shaan Puri's Storytelling Formula](extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md) — 50,755 words (stale)
 - [Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound](extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md) — 50,452 words (stale)
@@ -621,6 +621,7 @@
 - [higgsfield.ai_blog_Best-Ways-to-Organize-Your-Workflow-on-Higgsfield-AI](../extractions/creative-direction/higgsfield.ai_blog_Best-Ways-to-Organize-Your-Workflow-on-Higgsfield-AI.md) [dai-media] — 1,503 words (stale)
 - [deep-extraction](../extractions/alex-copper-static-ads/deep-extraction.md) — 1,349 words
 - [lucas_alpay](../research_outputs/ai_authority_architect_agents/lucas_alpay.md) [connelly] — 1,287 words
+- [gauntlet-loop-blind-bar-mechanism](synthesis/gauntlet-loop-blind-bar-mechanism.md) — 1,261 words
 - [blind-pass-generated-3panel](../extractions/joey-cinema-os/blind-pass-generated-3panel.md) — 1,090 words
 - [trailer-storytelling](creative-direction/trailer-storytelling.md) — 1,071 words (stale)
 - [07-model-upgrade-migration-planner](../extractions/sherwin-wu/prompts-v2/07-model-upgrade-migration-planner.md) — 1,044 words
@@ -857,6 +858,7 @@
 - [four-act-revenue-sequence](knowledge/synthesis/four-act-revenue-sequence.md)
 - [gap-sales-psychology-screenwriting-bridge](knowledge/synthesis/gap-sales-psychology-screenwriting-bridge.md)
 - [gap-seo-content-psychology-bridge](knowledge/synthesis/gap-seo-content-psychology-bridge.md)
+- [gauntlet-loop-blind-bar-mechanism](knowledge/synthesis/gauntlet-loop-blind-bar-mechanism.md)
 - [insider-code-deployment](knowledge/synthesis/insider-code-deployment.md)
 - [machine-readable-identity](knowledge/synthesis/machine-readable-identity.md)
 - [mechanism-over-outcome](knowledge/synthesis/mechanism-over-outcome.md)

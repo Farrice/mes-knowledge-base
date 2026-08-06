@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-08-05 | 815 sources | 2,996,350 words*
+*Generated: 2026-08-05 | 816 sources | 2,997,814 words*
 
 ---
 
@@ -10,11 +10,11 @@
 - **sample-003** (copywriting) — 80 words — `knowledge/expert-benchmarks/jen-listing-content/sample-003.md`
 - **sample-004** (copywriting) — 93 words — `knowledge/expert-benchmarks/jen-listing-content/sample-004.md`
 - **sample-005** (copywriting) — 77 words — `knowledge/expert-benchmarks/jen-listing-content/sample-005.md`
-- **log** (general) — 17,056 words — `knowledge/log.md`
+- **index** (content) — 5,476 words — `knowledge/index.md`
+- **log** (general) — 17,109 words — `knowledge/log.md`
+- **gauntlet-loop-blind-bar-mechanism** (screenwriting) — 1,261 words — `knowledge/synthesis/gauntlet-loop-blind-bar-mechanism.md`
 - **blind-pass-log** (general) — 128 words — `extractions/benoit-vatere/blind-pass-log.md`
 - **blind-pass-sample** (brand) — 744 words — `extractions/benoit-vatere/blind-pass-sample.md`
-- **extraction-report** (content) — 3,248 words — `extractions/benoit-vatere/extraction-report.md`
-- **2025-05-entertain-or-die-keynote** (content) — 5,611 words — `extractions/benoit-vatere/reference-corpus/2025-05-entertain-or-die-keynote.md`
 
 ## Domain Coverage
 
@@ -24,7 +24,7 @@
 | copywriting | 118 | luke-iha |
 | general | 96 | nick-saraev |
 | strategy | 87 | april-dunford |
-| screenwriting | 57 | connelly |
+| screenwriting | 58 | connelly |
 | brand | 55 | oren-john |
 | systems | 50 | nick-saraev |
 | seo | 28 | nathan-gotch |
