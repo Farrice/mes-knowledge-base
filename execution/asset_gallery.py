@@ -124,12 +124,15 @@ TEMPLATE = r"""<!doctype html><html><head><meta charset="utf-8">
 <title>Asset Command Center</title>
 <style>
 :root {
-  /* Netflix register, blue edition (Farrice 2026-08-02): true-black gloss,
-     electric blue where Netflix runs red, white type. No navy/purple cast. */
-  --ground:#0a0a0a; --panel:#141414; --ink:#ffffff; --muted:#b3b3b3;
-  --accent:#0f6fff; --warn:#e3ad45; --ok:#4dbd7f;
+  /* Netflix register, Premium Minimal dark edition (Farrice 2026-08-06):
+     same gloss UI + shelf/hover functionality, tokens from the Farrice Cain
+     Premium Minimal family (_active/farrice-brand/premium-minimal/REPORT-DIALECT.md):
+     ink-black ground w/ the brand's warm-neutral cast, paper-white type,
+     stone muted, steel-blue accent where Netflix runs red. */
+  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82;
+  --accent:#7c9fd9; --warn:#c9a868; --ok:#6fae8c;
   --mono:"SF Mono",Menlo,Consolas,monospace;
-  --display:"Avenir Next",Seravek,"Segoe UI",sans-serif;
+  --display:"Helvetica Neue",Seravek,"Segoe UI",sans-serif;
 }
 * { box-sizing:border-box; }
 html, body { background:var(--ground); color:var(--ink); margin:0;
@@ -137,9 +140,9 @@ html, body { background:var(--ground); color:var(--ink); margin:0;
 /* ── top nav (thin, translucent over hero) ── */
 nav { position:fixed; top:0; left:0; right:0; z-index:30; display:flex;
   align-items:center; gap:22px; padding:14px 4%;
-  background:linear-gradient(to bottom, rgba(10,10,10,.92), rgba(10,10,10,0));
+  background:linear-gradient(to bottom, rgba(14,14,13,.92), rgba(14,14,13,0));
   transition:background .25s; }
-nav.solid { background:rgba(10,10,10,.96); box-shadow:0 1px 0 rgba(255,255,255,.06); }
+nav.solid { background:rgba(14,14,13,.96); box-shadow:0 1px 0 rgba(255,255,255,.06); }
 nav .brand { font-family:var(--display); font-weight:700; font-size:17px;
   letter-spacing:.02em; }
 nav .brand b { color:var(--accent); }
@@ -153,8 +156,8 @@ nav input[type=search] { margin-left:auto; background:rgba(20,20,20,.85);
 .hero { position:relative; min-height:72vh; display:flex; align-items:flex-end;
   background-size:cover; background-position:center 30%; }
 .hero::after { content:""; position:absolute; inset:0;
-  background:linear-gradient(to top, var(--ground) 4%, rgba(10,10,10,.55) 38%, rgba(10,10,10,.12) 70%, rgba(10,10,10,.35) 100%),
-             linear-gradient(to right, rgba(10,10,10,.78) 0%, rgba(10,10,10,0) 55%); }
+  background:linear-gradient(to top, var(--ground) 4%, rgba(14,14,13,.55) 38%, rgba(14,14,13,.12) 70%, rgba(14,14,13,.35) 100%),
+             linear-gradient(to right, rgba(14,14,13,.78) 0%, rgba(14,14,13,0) 55%); }
 .hero .inner { position:relative; z-index:2; padding:0 4% 56px; max-width:640px; }
 .hero.mini { min-height:42vh; }
 .hero.mini .inner { padding-bottom:34px; }
@@ -169,8 +172,8 @@ nav input[type=search] { margin-left:auto; background:rgba(20,20,20,.85);
 .btn { display:inline-flex; align-items:center; gap:8px; font-size:14px;
   font-weight:600; padding:10px 22px; border-radius:6px; border:none;
   cursor:pointer; }
-.btn.primary { background:var(--ink); color:#0b0c10; }
-.btn.primary:hover { background:#d8dae2; }
+.btn.primary { background:var(--ink); color:#101010; }
+.btn.primary:hover { background:#e7e7e3; }
 .btn.ghost { background:rgba(128,128,128,.32); color:var(--ink); }
 .btn.ghost:hover { background:rgba(128,128,128,.5); }
 .pill { font-family:var(--mono); font-size:10.5px; padding:2px 9px; border-radius:999px;
@@ -194,14 +197,15 @@ nav input[type=search] { margin-left:auto; background:rgba(20,20,20,.85);
 .card .glyph { display:flex; align-items:center; justify-content:center;
   height:100%; font-size:40px; }
 .card .brief-glyph { flex-direction:column; gap:8px; padding:14px;
-  background:linear-gradient(135deg, #23201a, #191713); border-top:2px solid #b0622f; }
+  /* Premium Minimal report dialect (_active/farrice-brand/premium-minimal/REPORT-DIALECT.md) */
+  background:linear-gradient(135deg, #F3F3F0, #E9E9E5); border-top:2px solid #3D5A94; }
 .card .brief-glyph .bg-icon { font-size:26px; }
 .card .brief-glyph .bg-title { font-size:12px; line-height:1.35; text-align:center;
-  color:#e8e2d6; font-weight:600; letter-spacing:.01em; max-height:3.9em; overflow:hidden; }
+  color:#101010; font-weight:600; letter-spacing:.01em; max-height:3.9em; overflow:hidden; }
 .card .tbadge { position:absolute; top:8px; left:8px; font-size:12px;
-  background:rgba(10,10,10,.7); border-radius:6px; padding:2px 7px; z-index:2; }
+  background:rgba(14,14,13,.7); border-radius:6px; padding:2px 7px; z-index:2; }
 .card .ov { position:absolute; inset:auto 0 0 0; padding:26px 12px 10px;
-  background:linear-gradient(to top, rgba(10,10,10,.92), rgba(10,10,10,0));
+  background:linear-gradient(to top, rgba(14,14,13,.92), rgba(14,14,13,0));
   opacity:0; transition:opacity .18s; z-index:2; }
 .card:hover { transform:scale(1.16); z-index:5;
   box-shadow:0 18px 50px rgba(0,0,0,.65); }
@@ -232,13 +236,13 @@ nav input[type=search] { margin-left:auto; background:rgba(20,20,20,.85);
 .tile .glyph { display:flex; align-items:center; justify-content:center;
   height:120px; font-size:36px; }
 .tile .ov { position:absolute; inset:auto 0 0 0; padding:24px 10px 8px;
-  background:linear-gradient(to top, rgba(10,10,10,.92), rgba(10,10,10,0));
+  background:linear-gradient(to top, rgba(14,14,13,.92), rgba(14,14,13,0));
   opacity:0; transition:opacity .15s; }
 .tile:hover .ov { opacity:1; }
 .tile .ov .nm { font-size:11.5px; overflow:hidden; text-overflow:ellipsis;
   white-space:nowrap; }
 .tile .tbadge { position:absolute; top:8px; left:8px; font-size:12px;
-  background:rgba(10,10,10,.7); border-radius:6px; padding:2px 7px; }
+  background:rgba(14,14,13,.7); border-radius:6px; padding:2px 7px; }
 .more { display:block; margin:22px auto; padding:9px 26px; border-radius:8px;
   border:1px solid rgba(255,255,255,.15); background:var(--panel);
   color:var(--muted); cursor:pointer; }
@@ -272,7 +276,7 @@ nav input[type=search] { margin-left:auto; background:rgba(20,20,20,.85);
 button.act { font-family:var(--mono); font-size:11.5px; padding:6px 13px;
   border-radius:7px; border:1px solid var(--accent); background:transparent;
   color:var(--accent); cursor:pointer; margin:4px 6px 0 0; }
-button.act:hover { background:var(--accent); color:#0b0c10; }
+button.act:hover { background:var(--accent); color:#101010; }
 #lb .x { position:fixed; top:16px; right:22px; font-size:26px; color:var(--muted);
   cursor:pointer; background:none; border:none; z-index:51; }
 #toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%);
@@ -689,10 +693,10 @@ def render_highlights(records, recent_n):
             f'<span>{cap}{cost}</span></figcaption></figure>')
     body = f"""<title>Asset Highlights</title>
 <style>
-:root {{ --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
-  --accent:#7c8cf0; }}
-@media (prefers-color-scheme: light) {{ :root {{ --ground:#f7f7f9; --panel:#fff;
-  --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec; }} }}
+:root {{ --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --line:#2c2c2a;
+  --accent:#7c9fd9; }}
+@media (prefers-color-scheme: light) {{ :root {{ --ground:#f3f3f0; --panel:#fafaf8;
+  --ink:#101010; --muted:#8c8c82; --line:#d8d8d3; --accent:#3d5a94; }} }}
 body {{ background:var(--ground); color:var(--ink);
   font:14px/1.4 -apple-system,"Segoe UI",sans-serif; margin:0; padding:28px; }}
 h1 {{ font-size:20px; }} h1 b {{ color:var(--accent); }}

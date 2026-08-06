@@ -60,6 +60,10 @@ This is a single-day snapshot built from one creator's demo plus our local track
 5. .agent/apify-usage.json (local tracker) (retrieved 2026-08-05, VERIFIED; used for: spend $0.59/$29.00, 29 runs, per-actor counts)
 6. execution/apify_client.py ACTORS registry (local) (retrieved 2026-08-05, VERIFIED; used for: 17 registered actors, no LinkedIn coverage)
 
-_run cost $0.00 — stack: /watch frames · yt-dlp captions · web search · local trackers_
+## Context pack (agent feed)
+- https://monid.ai/ — monid.ai + video t=01:52–06:24
+- https://www.youtube.com/watch?v=PmvqIaLC6AY — video t=06:04
+- https://moge.ai/product/monid — moge.ai listing + monid docs
+- https://docs.monid.ai/ — Monid docs
 
-_Google Doc: https://docs.google.com/document/d/14othlhwn33y00hh6WCIv0xLGNMHaks846VwRUU9d150/edit_
+_run cost $0.00 — stack: /watch frames · yt-dlp captions · web search · local trackers_

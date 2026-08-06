@@ -53,4 +53,12 @@ First unattended runs are still ahead: zeitgeist at 06:20 today, the angle brief
 ## Source ledger
 1. This session's build log (todos, receipts, commits on main) — file:///Users/farricecain/Google%20Antigravity/.agent/session-state.md (retrieved 2026-08-06, VERIFIED; used for: everything in this brief)
 
+## Context pack (agent feed)
+- `skills/cody-schneider-signal-outbound/SKILL.md` — forge-log + blind-pass-log in extractions/
+- `.agent/health/signal-scout-2026-08-06-test.json` — health receipt
+- `deliverables/research-briefs/angle-brief-2026-08-06` — supervised first edition
+- `.agent/zeitgeist-run.log` — launchctl verified 00:04
+- `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness` — sibling brief
+- `.agent/session-state.md` — This session's build log (todos, receipts, commits on main)
+
 _run cost $1.00 — stack: extract-forge · signal_scout · render_brief · launchd_

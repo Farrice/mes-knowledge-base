@@ -19,18 +19,18 @@ Codex Antigravity should feel like a calm command center for serious creative an
 - Do not default to blue CTAs or purple-blue gradients.
 - Favor palettes with useful contrast across state and hierarchy.
 
-Suggested tokens:
+Suggested tokens (re-based 2026-08-06 on Farrice Cain Premium Minimal — canonical source: `_active/farrice-brand/premium-minimal/` incl. `REPORT-DIALECT.md`; the earlier tan/terracotta set is retired):
 
 ```css
 :root {
-  --ag-ink: oklch(18% 0.012 245);
-  --ag-paper: oklch(97% 0.008 92);
-  --ag-surface: oklch(93% 0.012 100);
-  --ag-line: oklch(76% 0.018 95);
-  --ag-accent: oklch(55% 0.115 43);
-  --ag-proof: oklch(49% 0.082 168);
-  --ag-risk: oklch(56% 0.126 23);
-  --ag-focus: oklch(50% 0.105 265);
+  --ag-ink: oklch(18% 0 0);           /* #101010 ink */
+  --ag-paper: oklch(96% 0.003 107);   /* #F3F3F0 canvas */
+  --ag-surface: oklch(98% 0.002 107); /* #FAFAF8 paper (lifted field) */
+  --ag-line: oklch(88% 0.005 107);    /* #D8D8D3 silver line */
+  --ag-accent: oklch(46% 0.084 262);  /* steel blue ≈#3D5A94 */
+  --ag-proof: oklch(48% 0.07 165);    /* muted proof green */
+  --ag-risk: oklch(52% 0.10 25);      /* muted risk red */
+  --ag-focus: oklch(46% 0.084 262);   /* links/bars — unified with accent */
 }
 ```
 

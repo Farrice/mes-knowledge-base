@@ -1,0 +1,198 @@
+{
+  "system": {
+    "name": "Farrice Cain Premium Minimal",
+    "version": "0.9-review",
+    "approved_visual_parent": "P2-01 Premium Minimal V1",
+    "package_state": "P3-review-candidate",
+    "mood": [
+      "restrained",
+      "contemporary",
+      "decisive"
+    ]
+  },
+  "identity": {
+    "master_brand": "Farrice Cain",
+    "flagship_offer": "The Angle Map",
+    "public_cta": "DM ANGLE",
+    "master_brand_masthead": "FARRICE CAIN",
+    "offer_masthead": "THE ANGLE MAP"
+  },
+  "color": {
+    "canvas": "#F3F3F0",
+    "paper": "#FAFAF8",
+    "ink": "#101010",
+    "graphite": "#555553",
+    "line": "#D8D8D3",
+    "stone": "#8C8C82",
+    "white": "#FFFFFF",
+    "approved_banner_legacy_canvas": "#F3F0EA",
+    "approved_banner_legacy_ink": "#151514"
+  },
+  "typography": {
+    "primary_family": "Helvetica Neue",
+    "fallback_stack": [
+      "Helvetica Neue",
+      "Helvetica",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "display": {
+      "case": "sentence",
+      "tracking_em": -0.025,
+      "leading": "close-optical"
+    },
+    "functional_label": {
+      "case": "uppercase",
+      "tracking_em": 0.16,
+      "weight": 700
+    },
+    "prohibited": [
+      "serif",
+      "italic",
+      "outline",
+      "decorative quotation marks",
+      "faux small caps",
+      "artificial luxury tracking"
+    ]
+  },
+  "layout": {
+    "columns": 12,
+    "minimum_open_space_fraction": 0.333333,
+    "maximum_hierarchy_levels": 3,
+    "dominant_ideas_per_surface": 1,
+    "thumbnail_test_width_px": 320,
+    "alignment_priority": [
+      "optical balance",
+      "grid alignment",
+      "mathematical centering"
+    ]
+  },
+  "rules": {
+    "hairline_px": 1,
+    "structural_px": 2,
+    "recommended_route_px": 6,
+    "quiet_route_px": [
+      1,
+      2
+    ],
+    "maximum_dark_interruptions_per_sequence": 1
+  },
+  "spacing": {
+    "unit_px": 12,
+    "scale_px": [
+      12,
+      18,
+      24,
+      36,
+      48,
+      72,
+      84,
+      96,
+      120
+    ]
+  },
+  "modes": {
+    "master_brand": {
+      "masthead": "FARRICE CAIN",
+      "primary_content": [
+        "category point of view",
+        "lived observation",
+        "teardown",
+        "framework"
+      ],
+      "offer_reference": "restrained and optional"
+    },
+    "offer": {
+      "masthead": "THE ANGLE MAP",
+      "author": "FARRICE CAIN",
+      "primary_content": [
+        "three campaign arguments",
+        "one lead recommendation"
+      ],
+      "route_grammar": "only when genuine choices are compared"
+    }
+  },
+  "components": {
+    "functional_masthead": {
+      "position": "top-left",
+      "style": "small uppercase identity label",
+      "decorative_logo": false
+    },
+    "field_index": {
+      "examples": [
+        "FIELD / 01",
+        "NOTE / 02",
+        "02"
+      ],
+      "colors": [
+        "stone",
+        "graphite"
+      ]
+    },
+    "decision_line": {
+      "default_weight": "hairline-or-structural",
+      "recommendation_weight": "heavier-only-for-decision"
+    },
+    "three_route_grammar": {
+      "routes": 3,
+      "differentiators": [
+        "number",
+        "position",
+        "weight"
+      ],
+      "decorative_color": false
+    },
+    "proof_boundary": {
+      "fields": [
+        "supported",
+        "qualified review",
+        "outside supplied proof"
+      ],
+      "warning_theater": false
+    },
+    "dark_recommendation": {
+      "background": "ink",
+      "primary_text": "paper",
+      "use": "consequential decision only"
+    }
+  },
+  "portrait": {
+    "source_when_authorized": "Private identity add-on: FARRICE-ORIGINAL-PORTRAIT-DO-NOT-REGENERATE.jpg",
+    "allowed": [
+      "crop",
+      "uniform scale",
+      "nondestructive placement",
+      "mask outside original face pixels"
+    ],
+    "prohibited": [
+      "face regeneration",
+      "face replacement",
+      "inpainting",
+      "reshaping",
+      "beauty filter",
+      "face-specific color alteration",
+      "AI upscaling that invents facial detail"
+    ]
+  },
+  "prohibited_visual_signals": [
+    "serif type",
+    "gradients",
+    "shadows",
+    "rounded pills",
+    "badges",
+    "seals",
+    "ornamental icons",
+    "contours",
+    "card-heavy layouts",
+    "black-and-gold luxury theater",
+    "decorative route colors",
+    "generic stock supplement imagery",
+    "unearned logos",
+    "route lines without a real comparison"
+  ]
+}

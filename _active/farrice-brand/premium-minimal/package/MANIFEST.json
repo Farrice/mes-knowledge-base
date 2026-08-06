@@ -1,0 +1,639 @@
+{
+  "package": {
+    "name": "Farrice-Cain-Premium-Minimal-Portable-Design-System-v0.9-review",
+    "version": "0.9-review",
+    "created": "2026-08-01",
+    "state": "review",
+    "portable_paths": true,
+    "portrait_included": false,
+    "font_files_included": false,
+    "external_action_authorized": false,
+    "payload_files_count": 54,
+    "inventory_excludes": [
+      "MANIFEST.json",
+      "CHECKSUMS.sha256"
+    ]
+  },
+  "authority_order": [
+    "current Farrice instruction",
+    "03-ASSET-STATE-LEDGER.md",
+    "content/P1-LINKEDIN-PASTE-MASTER.md",
+    "01-BRAND-FOUNDATION.md",
+    "02-DESIGN-CONTRACT.md",
+    "tokens/design-tokens.json",
+    "closest supplied template"
+  ],
+  "files": [
+    {
+      "path": "00-READ-ME-FIRST.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 3963,
+      "sha256": "8d41527a4b23ae831cc274bf675a8a311fa06da8c6f161aa027fe3133b25fa66"
+    },
+    {
+      "path": "01-BRAND-FOUNDATION.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 4411,
+      "sha256": "07169c7d18d5d1e4dc8d5a2100054ed342b198930f27314e2373e8b1fa4174a0"
+    },
+    {
+      "path": "02-DESIGN-CONTRACT.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 5262,
+      "sha256": "67ca68eab312922d84abccb23564a3e825ee0aa3842ee7bbbbf23499893da687"
+    },
+    {
+      "path": "03-ASSET-STATE-LEDGER.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 2779,
+      "sha256": "2a71720bc8edc946851a0b020d767eb5beb6665c9e6d19ab4f7d8adc036c6a3a"
+    },
+    {
+      "path": "04-PORTABLE-USAGE-GUIDE.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 3110,
+      "sha256": "504c16d542a132d99e5c027050d0f87a9b32c7d38783468859da423efff6f775"
+    },
+    {
+      "path": "APPROVAL-STATE.json",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "application/json",
+      "size_bytes": 2636,
+      "sha256": "1812e2df291a803f460a50e00b57e5595b8e66826b7aebd25e2cf14ca2a09172"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 772,
+      "sha256": "e6c859a3d2e619ac6fea9048a539ca852e341951453b50df3c98d73e5de5f39a"
+    },
+    {
+      "path": "LICENSE-AND-USAGE.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 2319,
+      "sha256": "df4db8fa617e66d3526c283b01db804e10400402ffa0312bb107ab0d16c3ff0c"
+    },
+    {
+      "path": "ai/CLAUDE-DESIGN-ADAPTER.md",
+      "role": "AI handoff instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 2080,
+      "sha256": "44c2b027c811318361def21a3f0ce03aa61c31143529adcd6f86a413ddb2bec0"
+    },
+    {
+      "path": "ai/CODEX-ADAPTER.md",
+      "role": "AI handoff instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 1527,
+      "sha256": "e6fcce8f0c1daf1977abf2c5e0cfd6e4684b318d875b7afba46a978b097aff11"
+    },
+    {
+      "path": "ai/IMAGE-GENERATION-GUARDRAILS.md",
+      "role": "AI handoff instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 1468,
+      "sha256": "6394e4e18588ecea8f818c888484946e08dfeec38c430cc583619a4d049abf17"
+    },
+    {
+      "path": "ai/REQUEST-BRIEF-TEMPLATE.md",
+      "role": "AI handoff instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 1380,
+      "sha256": "bb7f6be9927d837a1c37da4a5ea8ea91f1fd26e81e4e376f95584b3af3fa48c7"
+    },
+    {
+      "path": "ai/UNIVERSAL-AI-BRAND-DIRECTOR-PROMPT.md",
+      "role": "AI handoff instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 3670,
+      "sha256": "2aac8f4ecc8e7df20bf9684192febe82d32e895547cb23327f1d9c34f723c08b"
+    },
+    {
+      "path": "content/LINKEDIN-SYSTEM.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 4668,
+      "sha256": "ae569937735dcc33c4082e01ed491e169e334e8dc72dee9d636a236456c4c5b1"
+    },
+    {
+      "path": "content/P1-LINKEDIN-PASTE-MASTER.md",
+      "role": "protected LinkedIn copy primary",
+      "state": "protected-primary",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 14908,
+      "sha256": "5fb62a856f2bcff53e722119fa35b954037a1f1a815877af5349e97ba83731c2"
+    },
+    {
+      "path": "examples/asset-family-contact-sheet.png",
+      "role": "visual reference",
+      "state": "reference",
+      "mode": "system",
+      "media_type": "image/png",
+      "size_bytes": 967505,
+      "sha256": "fdc3aec388a05b15d84969fad893d4695634a833542a10ad47fe963da94855f9",
+      "dimensions": {
+        "width": 1800,
+        "height": 2760,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "examples/brand-review-hub.html",
+      "role": "portable visual review hub",
+      "state": "reference",
+      "mode": "system",
+      "media_type": "text/html",
+      "size_bytes": 26862,
+      "sha256": "397c7bebb53320d88f66e0c33d4b44861ad633eab416f3f3774d3592cbaa6859"
+    },
+    {
+      "path": "examples/field-guide-contact-sheet.png",
+      "role": "visual reference",
+      "state": "reference",
+      "mode": "system",
+      "media_type": "image/png",
+      "size_bytes": 297220,
+      "sha256": "ceca596d3dd4efa9d844e1a4f6588a40a5e7558d0f7d4cf455fd3028b8f26557",
+      "dimensions": {
+        "width": 1800,
+        "height": 1030,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "examples/linkedin-system-preview-core.png",
+      "role": "visual reference",
+      "state": "reference",
+      "mode": "system",
+      "media_type": "image/png",
+      "size_bytes": 616273,
+      "sha256": "a08adb0286db7b333d43f33b8d848a9d48a0c69f9362155bb66b467211eb6961",
+      "dimensions": {
+        "width": 1600,
+        "height": 1200,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "identity/INSTALL-PRIVATE-IDENTITY-ADD-ON.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 642,
+      "sha256": "5e88809f9138c4e1fee824a884fe23e128a74e7971ce113af140b82921c1985d"
+    },
+    {
+      "path": "quality/CLAIM-AND-PROOF-CONTRACT.md",
+      "role": "quality and governance instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 1801,
+      "sha256": "d8f8ea80d631505e8a09d238e35a9ca01596df2d3f8d205e6c0f6ea649fb017c"
+    },
+    {
+      "path": "quality/PORTABILITY-CHECKLIST.md",
+      "role": "quality and governance instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 1067,
+      "sha256": "48af06add7b8d7af81ac28489c24cf2abcb36fc3c2534fd528c44557ee7f5b62"
+    },
+    {
+      "path": "quality/QA-CHECKLIST.md",
+      "role": "quality and governance instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 3182,
+      "sha256": "18c3568a9366551727686e99d922a4484bd6172a0722e8a737cb9c99e85b0cbd"
+    },
+    {
+      "path": "quality/RIGHTS-AND-PROVENANCE.md",
+      "role": "quality and governance instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 1713,
+      "sha256": "c74cbf61dee5cf990797dff8678e89bdb4e2efb82f9125a61b1fe3279f9f1398"
+    },
+    {
+      "path": "source-record/APPROVED-P2-01-VISUAL-CONTRACT.md",
+      "role": "governing documentation",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/markdown",
+      "size_bytes": 3690,
+      "sha256": "570fb709381d1a1c2809ab68a599ec4b6416691f597b1e4d74bea9f06f669fa3"
+    },
+    {
+      "path": "templates/banner/angle-map-linkedin-banner-premium-minimal-v2-background.png",
+      "role": "approved banner texture dependency",
+      "state": "approved",
+      "mode": "offer",
+      "media_type": "image/png",
+      "size_bytes": 2041241,
+      "sha256": "5a97f7099ba2f176b93ae0241709de8cbc05baa33fad66f8d9c2d60668ef3357",
+      "dimensions": {
+        "width": 1774,
+        "height": 887,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/banner/angle-map-linkedin-banner-premium-minimal-v2.png",
+      "role": "approved banner upload export",
+      "state": "approved",
+      "mode": "offer",
+      "media_type": "image/png",
+      "size_bytes": 661094,
+      "sha256": "57823fa0c08b8970d0825285be1abc8020992aa649f3f72ab8fac49fb00114fa",
+      "dimensions": {
+        "width": 1584,
+        "height": 396,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/banner/angle-map-linkedin-banner-premium-minimal-v2.svg",
+      "role": "approved editable banner source",
+      "state": "approved",
+      "mode": "offer",
+      "media_type": "image/svg+xml",
+      "size_bytes": 1546,
+      "sha256": "2d37c449c60cd35088faa03730bd6c6c90473ef570c8ee0e9a5122a8b7ed1c9d",
+      "dimensions": {
+        "width": 1584,
+        "height": 396,
+        "unit": "svg-user-unit"
+      },
+      "dependencies": [
+        "templates/banner/angle-map-linkedin-banner-premium-minimal-v2-background.png"
+      ]
+    },
+    {
+      "path": "templates/carousel/README-EDITABILITY.md",
+      "role": "governing documentation",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "text/markdown",
+      "size_bytes": 648,
+      "sha256": "d0748343b974d59643e5fbbf38f39fbdfbfce0592de0b6ea31d80f9bba427413"
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_01_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/png",
+      "size_bytes": 50943,
+      "sha256": "420bc0b613a93a82bce50bf6918e7d864a79df7eb4d5a1de0491a5294b39851b",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_01_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/svg+xml",
+      "size_bytes": 1463,
+      "sha256": "ab3f6ed187c627ba3f88b396b0eea24cacf8ef76d9a9f7b414b5c84143257d09",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_02_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/png",
+      "size_bytes": 47748,
+      "sha256": "83301a8825760bc13e6869bbb13e9f4f46e39200f09bcf122c1bf623ba54c431",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_02_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/svg+xml",
+      "size_bytes": 1604,
+      "sha256": "f2cb9c41c34781fe61b32ccf54af7153054c4e6be41a869eae7fe8a7d750836b",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_03_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/png",
+      "size_bytes": 42101,
+      "sha256": "0189cc37991333eef6707a1f58e34e84205691ea9072b5c158f15709fe5a81a9",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_03_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/svg+xml",
+      "size_bytes": 2177,
+      "sha256": "93e1631163b38bf6a592331de0a4959b7b1cdd872cd8a42550491d6853bf0c2a",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_04_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/png",
+      "size_bytes": 42045,
+      "sha256": "2844688ed2bbfa561d6e98ece9b7e46fa4f495c1fa5283bbe8235e04b7575bc2",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_04_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "image/svg+xml",
+      "size_bytes": 2342,
+      "sha256": "f10524133ec304faa496b7ea5e6df9748bdc062530b2081d780dbf040bc5207b",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_review_v01.pdf",
+      "role": "flattened review export",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "application/pdf",
+      "size_bytes": 238229,
+      "sha256": "a8be2949a38bbbda44cd8261467c76d8d9a0740c63352cf0ae1acbcd8e93ff5f"
+    },
+    {
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_review_v01.pptx",
+      "role": "assembled flat-page presentation container",
+      "state": "review",
+      "mode": "mixed",
+      "media_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "size_bytes": 361093,
+      "sha256": "09a156ada71882b3d401b008e3d2f2e75e8dfe9c15106db658050fd57d659815",
+      "editability": "assembled-flat-page-container",
+      "editable_sources": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_0X_review_v01.svg"
+    },
+    {
+      "path": "templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf",
+      "role": "flattened review export",
+      "state": "review",
+      "mode": "system",
+      "media_type": "application/pdf",
+      "size_bytes": 240681,
+      "sha256": "4681fbe9d530910dd7d063b395897f6602d5de245dfe6193395b998cca3ff13e"
+    },
+    {
+      "path": "templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pptx",
+      "role": "editable presentation source",
+      "state": "review",
+      "mode": "system",
+      "media_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "size_bytes": 302723,
+      "sha256": "1f7f947aa72fed0c75f7f3263f93e66ff07944fbf57612feac07bdc1b1cbd197"
+    },
+    {
+      "path": "templates/static/fc-pm1_li-angle-card-label-review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "offer",
+      "media_type": "image/png",
+      "size_bytes": 84320,
+      "sha256": "756585d97279363acc078886aca48714b35df47f7ab94a4f8765935c340e0b6c",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-angle-card-label-review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "offer",
+      "media_type": "image/svg+xml",
+      "size_bytes": 3129,
+      "sha256": "b6ec534535c09e54cae26fd924d1358ca41f49629c8a09f9b612613dfc0681c0",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-article-belief_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "master-brand",
+      "media_type": "image/png",
+      "size_bytes": 77310,
+      "sha256": "dd075ad561810200eecaa8ce14c1dd650771a3db128a09c7afda0a4c3cb17e84",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-article-belief_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "master-brand",
+      "media_type": "image/svg+xml",
+      "size_bytes": 1626,
+      "sha256": "d19daad6cc881e14c1df52e2a6f63f195879b9ec85aa4c36e571ec4c03e2867b",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-featured-angle-map_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "offer",
+      "media_type": "image/png",
+      "size_bytes": 53364,
+      "sha256": "55c32a7f6cbd0f444c591605fda2c3655c04477552de379f144c895084be9050",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-featured-angle-map_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "offer",
+      "media_type": "image/svg+xml",
+      "size_bytes": 2326,
+      "sha256": "6fc8cfd6c0d942661c38db96a9ae5a18676cd76cb8160ab48e0c984623231ba3",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-insight-hook-vs-angle_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "master-brand",
+      "media_type": "image/png",
+      "size_bytes": 51409,
+      "sha256": "07681d88c7d97dcd53f03d1fe134028762bd73889748892d40813dd9e7d1727d",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-insight-hook-vs-angle_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "master-brand",
+      "media_type": "image/svg+xml",
+      "size_bytes": 2381,
+      "sha256": "2856932bdea00246f2b5b403bf71a8539229fd48f76d10f6c077dab3451d6be0",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-proof-boundary_review_v01.png",
+      "role": "native-size reference export",
+      "state": "review",
+      "mode": "master-brand",
+      "media_type": "image/png",
+      "size_bytes": 78162,
+      "sha256": "838c343f6574c1a0130f0af9f6a45f88a33ae8a6d93c9efd544326b5c0375a61",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "px"
+      }
+    },
+    {
+      "path": "templates/static/fc-pm1_li-proof-boundary_review_v01.svg",
+      "role": "editable visual source",
+      "state": "review",
+      "mode": "master-brand",
+      "media_type": "image/svg+xml",
+      "size_bytes": 2372,
+      "sha256": "1ab957762549fa08f4748a9ded2c645cfcb03a922fe7cae1f901c23f1d1cd41b",
+      "dimensions": {
+        "width": 1080,
+        "height": 1350,
+        "unit": "svg-user-unit"
+      }
+    },
+    {
+      "path": "tokens/asset-recipes.json",
+      "role": "machine-readable design instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "application/json",
+      "size_bytes": 4194,
+      "sha256": "243abd1bfe61fe6c3bd49b460d6aacd7119828927d14c45a6c085dac22c75f00"
+    },
+    {
+      "path": "tokens/design-tokens.css",
+      "role": "machine-readable design instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "text/css",
+      "size_bytes": 1312,
+      "sha256": "31a98797a0922c0608dc63ce88c03a6618aeace5d0fbe5b7a00ae0df33436f06"
+    },
+    {
+      "path": "tokens/design-tokens.json",
+      "role": "machine-readable design instruction",
+      "state": "governing",
+      "mode": "system",
+      "media_type": "application/json",
+      "size_bytes": 4425,
+      "sha256": "e902b1c082122cdd38d788f8219766bf5ec6b159c16ccd437bb63ecc7f99f2d8"
+    }
+  ]
+}

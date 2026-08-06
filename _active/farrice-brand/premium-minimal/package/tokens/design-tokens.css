@@ -1,0 +1,65 @@
+:root {
+  --fc-canvas: #f3f3f0;
+  --fc-paper: #fafaf8;
+  --fc-ink: #101010;
+  --fc-graphite: #555553;
+  --fc-line: #d8d8d3;
+  --fc-stone: #8c8c82;
+  --fc-white: #ffffff;
+
+  --fc-font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --fc-weight-regular: 400;
+  --fc-weight-medium: 500;
+  --fc-weight-bold: 700;
+  --fc-tracking-display: -0.025em;
+  --fc-tracking-label: 0.16em;
+
+  --fc-space-1: 12px;
+  --fc-space-2: 18px;
+  --fc-space-3: 24px;
+  --fc-space-4: 36px;
+  --fc-space-5: 48px;
+  --fc-space-6: 72px;
+  --fc-space-7: 84px;
+  --fc-space-8: 96px;
+  --fc-space-9: 120px;
+
+  --fc-rule-hairline: 1px;
+  --fc-rule-structural: 2px;
+  --fc-route-lead: 6px;
+}
+
+.fc-canvas {
+  background: var(--fc-canvas);
+  color: var(--fc-ink);
+  font-family: var(--fc-font-sans);
+}
+
+.fc-functional-label {
+  color: var(--fc-graphite);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-label);
+  text-transform: uppercase;
+}
+
+.fc-display {
+  color: var(--fc-ink);
+  font-weight: var(--fc-weight-bold);
+  letter-spacing: var(--fc-tracking-display);
+}
+
+.fc-secondary {
+  color: var(--fc-graphite);
+}
+
+.fc-rule {
+  border-color: var(--fc-line);
+  border-style: solid;
+  border-width: var(--fc-rule-hairline) 0 0;
+}
+
+.fc-dark-recommendation {
+  background: var(--fc-ink);
+  color: var(--fc-paper);
+}
+

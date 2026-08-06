@@ -66,4 +66,13 @@ Edition 001 runs on a 2-creator seed list (welsh + isenberg) — solopreneur-lan
 3. Campaign state — mission queue + standing facts — file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md (retrieved 2026-08-06, VERIFIED; used for: tying angles to live missions (2b, carousels, About Take A))
 4. Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats — file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md (retrieved 2026-08-06, VERIFIED; used for: deploy-block hooks (diandra = formats only, body voice = his))
 
+## Context pack (agent feed)
+- `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05` — zeitgeist · ai-consulting-linkedin lane
+- `_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md` — Signal Scout roster + resonance (test run)
+- `_active/linkedin-launch/CAMPAIGN.md` — Campaign state — mission queue + standing facts
+- `_active/farrice-brand/voice/VOICE-CARD.md` — Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats
+- https://www.linkedin.com/posts/justinwelsh_people-dont-believe-you-can-own-your-time-activity-7490373065147674 — justinwelsh · scout sample 30r/31c
+- https://www.linkedin.com/posts/justinwelsh_solopreneurship-used-to-be-fringe-it-wasnt-activity-749073545258962 — justinwelsh · scout sample 30r/31c
+- https://www.linkedin.com/posts/gisenberg — gisenberg · scout sample 30r/31c
+
 _run cost $0.50 — stack: signal_scout · apify apimaestro · zeitgeist_

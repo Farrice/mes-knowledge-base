@@ -1,0 +1,41 @@
+{
+  "slug": "night-shift-2026-08-06",
+  "title": "what got built while you slept",
+  "compiled": "aug 6, 2026 · ~00:45",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/night-shift-2026-08-06/night-shift-2026-08-06-brief.html",
+  "brief_md": "deliverables/research-briefs/night-shift-2026-08-06/night-shift-2026-08-06-brief.md",
+  "paths": [
+    {
+      "path": "skills/cody-schneider-signal-outbound/SKILL.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/cody-schneider-signal-outbound/SKILL.md",
+      "role": "forge-log + blind-pass-log in extractions/"
+    },
+    {
+      "path": ".agent/health/signal-scout-2026-08-06-test.json",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/health/signal-scout-2026-08-06-test.json",
+      "role": "health receipt"
+    },
+    {
+      "path": "deliverables/research-briefs/angle-brief-2026-08-06",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/angle-brief-2026-08-06",
+      "role": "supervised first edition"
+    },
+    {
+      "path": ".agent/zeitgeist-run.log",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/zeitgeist-run.log",
+      "role": "launchctl verified 00:04"
+    },
+    {
+      "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness",
+      "role": "sibling brief"
+    },
+    {
+      "path": ".agent/session-state.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/session-state.md",
+      "role": "This session's build log (todos, receipts, commits on main)"
+    }
+  ],
+  "urls": []
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#101010"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="84" y="92" font-size="22" font-weight="700" fill="#FAFAF8" text-anchor="start" class="label"><tspan x="84" dy="0">THE ANGLE MAP</tspan></text>
+     <text x="996" y="92" font-size="19" font-weight="700" fill="#8C8C82" text-anchor="end" class="label"><tspan x="996" dy="0">04 / 04</tspan></text>
+     <line x1="84" y1="128" x2="996" y2="128" stroke="#555553" stroke-width="2"/>
+     <text x="84" y="420" font-size="86" font-weight="700" fill="#FAFAF8" text-anchor="start" class="display"><tspan x="84" dy="0">Choose the argument</tspan><tspan x="84" dy="94">before you</tspan><tspan x="84" dy="94">multiply it.</tspan></text>
+     <line x1="84" y1="870" x2="996" y2="870" stroke="#8C8C82" stroke-width="2"/>
+      <circle cx="996" cy="870" r="4" fill="#101010" stroke="#8C8C82" stroke-width="2"/>
+      <text x="992" y="852" font-size="15" font-weight="400" fill="#8C8C82" text-anchor="end" letter-spacing="1.2"><tspan x="992" dy="0">01</tspan></text><line x1="84" y1="922" x2="996" y2="922" stroke="#FAFAF8" stroke-width="6"/>
+      <circle cx="996" cy="922" r="7" fill="#FAFAF8" stroke="#FAFAF8" stroke-width="0"/>
+      <text x="992" y="904" font-size="15" font-weight="700" fill="#FAFAF8" text-anchor="end" letter-spacing="1.2"><tspan x="992" dy="0">02  LEAD</tspan></text><line x1="84" y1="974" x2="996" y2="974" stroke="#8C8C82" stroke-width="2"/>
+      <circle cx="996" cy="974" r="4" fill="#101010" stroke="#8C8C82" stroke-width="2"/>
+      <text x="992" y="956" font-size="15" font-weight="400" fill="#8C8C82" text-anchor="end" letter-spacing="1.2"><tspan x="992" dy="0">03</tspan></text>
+     <text x="84" y="1180" font-size="17" font-weight="700" fill="#8C8C82" text-anchor="start" class="label"><tspan x="84" dy="0">THREE CAMPAIGN ANGLES · ONE LEAD RECOMMENDATION</tspan></text>
+     <text x="84" y="1260" font-size="24" font-weight="700" fill="#FAFAF8" text-anchor="start" letter-spacing="3"><tspan x="84" dy="0">DM ANGLE</tspan></text>
+</svg>

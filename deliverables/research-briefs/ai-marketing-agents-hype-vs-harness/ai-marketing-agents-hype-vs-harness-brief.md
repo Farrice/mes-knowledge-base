@@ -53,4 +53,10 @@ Three things are wired but not yet battle-proven: the zeitgeist loop's first sch
 3. Repo inventory — outbound/extraction assets (no send capability anywhere) — file:///Users/farricecain/Google%20Antigravity/execution/apify_client.py (retrieved 2026-08-06, VERIFIED; used for: send-capability flag, Apify actor registry, budget state)
 4. signal_scout.py live test receipt — file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json (retrieved 2026-08-06, VERIFIED; used for: 229-engager benchmark, $0.50 run cost)
 
+## Context pack (agent feed)
+- `directives/orchestration-doctrine.md` — Repo inventory — agent infrastructure (22 launchd jobs, 3 headless loops, mission-runner gates)
+- `execution/apify_client.py` — Repo inventory — outbound/extraction assets (no send capability anywhere)
+- `.agent/health/signal-scout-2026-08-06-test.json` — signal_scout.py live test receipt
+- https://www.youtube.com/watch?v=mD7JpNHLT70 — isenberg × schneider · 02:27
+
 _stack: yt-dlp · watch-plugin · apify · repo-grep_

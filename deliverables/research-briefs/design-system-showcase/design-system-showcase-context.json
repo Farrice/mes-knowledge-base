@@ -1,0 +1,71 @@
+{
+  "slug": "design-system-showcase",
+  "title": "the briefing room, in premium minimal",
+  "compiled": "aug 6, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/design-system-showcase/design-system-showcase-brief.html",
+  "brief_md": "deliverables/research-briefs/design-system-showcase/design-system-showcase-brief.md",
+  "paths": [
+    {
+      "path": "_active/farrice-brand/premium-minimal/REPORT-DIALECT.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/premium-minimal/REPORT-DIALECT.md",
+      "role": "report dialect doctrine"
+    },
+    {
+      "path": "execution/brief_library.py",
+      "abs": "/Users/farricecain/Google Antigravity/execution/brief_library.py",
+      "role": "briefing room generator"
+    },
+    {
+      "path": ".agent/workflows/briefs.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/workflows/briefs.md",
+      "role": "authoring workflow"
+    },
+    {
+      "path": "_active/farrice-brand/premium-minimal/package/tokens/design-tokens.json",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/premium-minimal/package/tokens/design-tokens.json",
+      "role": "design-tokens.json"
+    },
+    {
+      "path": "_active/farrice-brand/premium-minimal/package/02-DESIGN-CONTRACT.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/premium-minimal/package/02-DESIGN-CONTRACT.md",
+      "role": "design contract"
+    },
+    {
+      "path": "execution/render_brief.py",
+      "abs": "/Users/farricecain/Google Antigravity/execution/render_brief.py",
+      "role": "playbook · Render (or re-render) a brief"
+    },
+    {
+      "path": "templates/research-brief/template.html",
+      "abs": "/Users/farricecain/Google Antigravity/templates/research-brief/template.html",
+      "role": "playbook · Render (or re-render) a brief"
+    },
+    {
+      "path": "deliverables/research-briefs/index.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html",
+      "role": "playbook · Refresh the Briefing Room"
+    },
+    {
+      "path": "_active/farrice-brand/premium-minimal/package/templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/premium-minimal/package/templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf",
+      "role": "asset · BRAND GUIDE"
+    },
+    {
+      "path": "deliverables/research-briefs/night-shift-2026-08-06/night-shift-2026-08-06-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/night-shift-2026-08-06/night-shift-2026-08-06-brief.html",
+      "role": "related · BRIEF"
+    },
+    {
+      "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+      "role": "related · BRIEF"
+    },
+    {
+      "path": "_active/farrice-brand/premium-minimal/package/MANIFEST.json",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/premium-minimal/package/MANIFEST.json",
+      "role": "Farrice Cain Premium Minimal portable package v0.9-review (imported from Codex scratch 2026-08-06)"
+    }
+  ],
+  "urls": []
+}

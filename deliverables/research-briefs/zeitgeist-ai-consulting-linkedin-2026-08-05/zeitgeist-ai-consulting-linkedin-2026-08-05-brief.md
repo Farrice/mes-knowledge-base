@@ -54,6 +54,8 @@ Single-day snapshot from three of four planned sources — the X pull failed hon
 3. linkedin-search 'AI consultant' via harvestapi (10 profiles, Short mode) (retrieved 2026-08-05, LIKELY; used for: positioning-language sample)
 4. twitter 'AI consulting' via kaitoeasyapi — DISCARDED (mock-data padding) (retrieved 2026-08-05, VERIFIED; used for: nothing — data-quality flag only)
 
-_run cost $0.04 — stack: reddit · threads-search · linkedin-search_
+## Context pack (agent feed)
+- https://www.reddit.com/search/?q=AI+consulting&type=link&sort=relevance — reddit search · top result
+- https://www.threads.com/@agentsondemandai/post/DbriPeMDpZW — threads · posted 2026-08-06
 
-_Google Doc: https://docs.google.com/document/d/1BNeCaU3bZ2doDzLunkVLkwq7MRoCfp54kYj_8IIa8kk/edit_
+_run cost $0.04 — stack: reddit · threads-search · linkedin-search_

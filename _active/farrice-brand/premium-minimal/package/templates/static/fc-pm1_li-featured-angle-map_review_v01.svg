@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="120" y="92" font-size="24" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="120" dy="0">THE ANGLE MAP</tspan></text>
+     <text x="1800" y="92" font-size="20" font-weight="700" fill="#555553" text-anchor="end" class="label"><tspan x="1800" dy="0">FARRICE CAIN · OFFER MODE</tspan></text>
+     <line x1="120" y1="132" x2="1800" y2="132" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="120" y="380" font-size="94" font-weight="700" fill="#101010" text-anchor="start" class="display"><tspan x="120" dy="0">Three campaign angles.</tspan></text>
+     <text x="120" y="500" font-size="76" font-weight="400" fill="#101010" text-anchor="start" class="display"><tspan x="120" dy="0">One clear decision on what to build first.</tspan></text>
+     <line x1="120" y1="700" x2="1680" y2="700" stroke="#D8D8D3" stroke-width="2"/>
+      <circle cx="1680" cy="700" r="4" fill="#FAFAF8" stroke="#D8D8D3" stroke-width="2"/>
+      <text x="1676" y="682" font-size="15" font-weight="400" fill="#D8D8D3" text-anchor="end" letter-spacing="1.2"><tspan x="1676" dy="0">01</tspan></text><line x1="120" y1="754" x2="1680" y2="754" stroke="#101010" stroke-width="6"/>
+      <circle cx="1680" cy="754" r="7" fill="#101010" stroke="#101010" stroke-width="0"/>
+      <text x="1676" y="736" font-size="15" font-weight="700" fill="#101010" text-anchor="end" letter-spacing="1.2"><tspan x="1676" dy="0">02  LEAD</tspan></text><line x1="120" y1="808" x2="1680" y2="808" stroke="#D8D8D3" stroke-width="2"/>
+      <circle cx="1680" cy="808" r="4" fill="#FAFAF8" stroke="#D8D8D3" stroke-width="2"/>
+      <text x="1676" y="790" font-size="15" font-weight="400" fill="#D8D8D3" text-anchor="end" letter-spacing="1.2"><tspan x="1676" dy="0">03</tspan></text>
+     <text x="120" y="1010" font-size="19" font-weight="700" fill="#555553" text-anchor="start" class="label"><tspan x="120" dy="0">FOR SUPPLEMENT + PERFORMANCE BRANDS</tspan></text>
+</svg>

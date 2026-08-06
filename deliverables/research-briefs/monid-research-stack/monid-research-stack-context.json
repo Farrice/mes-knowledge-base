@@ -1,0 +1,27 @@
+{
+  "slug": "monid-research-stack",
+  "title": "the stack that gives claude hands",
+  "compiled": "aug 5, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/monid-research-stack/monid-research-stack-brief.html",
+  "brief_md": "deliverables/research-briefs/monid-research-stack/monid-research-stack-brief.md",
+  "paths": [],
+  "urls": [
+    {
+      "url": "https://monid.ai/",
+      "label": "monid.ai + video t=01:52–06:24"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PmvqIaLC6AY",
+      "label": "video t=06:04"
+    },
+    {
+      "url": "https://moge.ai/product/monid",
+      "label": "moge.ai listing + monid docs"
+    },
+    {
+      "url": "https://docs.monid.ai/",
+      "label": "Monid docs"
+    }
+  ]
+}

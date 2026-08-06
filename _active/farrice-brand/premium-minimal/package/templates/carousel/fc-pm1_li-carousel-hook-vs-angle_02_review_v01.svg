@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="84" y="92" font-size="22" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="84" dy="0">FARRICE CAIN</tspan></text>
+     <text x="996" y="92" font-size="19" font-weight="700" fill="#555553" text-anchor="end" class="label"><tspan x="996" dy="0">02 / 04</tspan></text>
+     <line x1="84" y1="128" x2="996" y2="128" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="84" y="260" font-size="20" font-weight="700" fill="#555553" text-anchor="start" class="label"><tspan x="84" dy="0">SO THE TEAM ASKS FOR</tspan></text>
+     <text x="84" y="430" font-size="88" font-weight="700" fill="#101010" text-anchor="start" class="display"><tspan x="84" dy="0">More UGC.</tspan><tspan x="84" dy="124">More statics.</tspan><tspan x="84" dy="124">Another creator.</tspan></text>
+     <line x1="84" y1="930" x2="996" y2="930" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="84" y="1010" font-size="19" font-weight="700" fill="#555553" text-anchor="start" class="label"><tspan x="84" dy="0">WHAT STAYED THE SAME</tspan></text>
+     <text x="84" y="1110" font-size="50" font-weight="400" fill="#555553" text-anchor="start" class="display"><tspan x="84" dy="0">The familiar category claim.</tspan></text>
+</svg>

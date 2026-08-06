@@ -188,6 +188,9 @@ Deliver the output, then close the loop — this is where /go finally learns:
 3. **Next-Prompts** (canonical order, unchanged): **Deepen** / **Adjacent** /
    **Next milestone** (read `.agent/cos/goals.json`, name the specific active
    goal — never generic). Skip only on explicit terse-mode.
+4. **Mission report as a brief (2026-08-06)**: for substantive builds, offer the
+   close-out as a brief-format build report in the Briefing Room — recipe in
+   `.agent/workflows/briefs.md` § Mission reports (exemplar: night-shift-2026-08-06).
 
 ## Reuse, Not Duplication (v3 inversion)
 

@@ -1,0 +1,153 @@
+{
+  "slug": "design-system-showcase",
+  "chip": "READOUT OS · SYSTEM BRIEF",
+  "title": "the briefing room, in *premium minimal*",
+  "dek": "the report system, re-skinned to your approved brand and enriched into a briefing + playbook object. this brief is also the living reference: every section kind the engine can render appears below, once, doing real work.",
+  "window": "brand system aug 1 · re-skin aug 6, 2026",
+  "lens": "design system · reports · agent feeding",
+  "sources": "premium minimal package + repo inventory",
+  "compiled": "aug 6, 2026",
+  "footer_left": "ANTIGRAVITY RESEARCH",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 0.0,
+  "stack": ["render_brief.py", "brief_library.py", "premium-minimal tokens"],
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "what changed",
+      "kicker": "THE ONE-MINUTE VERSION",
+      "body": "Your reports now wear your own brand. The tan Codex Antigravity palette is retired; every brief renders in Farrice Cain Premium Minimal — gray off-white canvas, ink black, silver hairlines, one steel-blue accent — the system you designed on the Codex side and named for Kith-grade restraint. The layout and schema you called close-to-perfect are untouched. Around them: seven new section kinds, an automatic agent context pack beside every brief, and a Briefing Room index page that makes the library one click deep."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "items": [
+        {"value": "14", "unit": "kinds", "label": "SECTION VOCABULARY", "note": "7 original + 7 new, all additive"},
+        {"value": "6", "unit": "neutrals", "label": "PREMIUM MINIMAL PALETTE", "note": "+ 1 steel accent, 2 semantic hues"},
+        {"value": "5", "unit": "briefs", "label": "LIBRARY RE-RENDERED", "note": "from preserved JSON, zero edits"},
+        {"value": "$0", "label": "RUN COST", "note": "deterministic local python"}
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how we got here",
+      "items": [
+        {"date": "aug 1", "title": "Premium Minimal born on the Codex side", "body": "Palette, Helvetica Neue system, 12-col grid law, portable token package — approved visual parent P2-01.", "done": true},
+        {"date": "aug 5", "title": "Research-brief engine ships", "body": "render_brief.py + /briefs + board shelf; briefs become the readout format you actually want to read.", "done": true},
+        {"date": "aug 6", "title": "Readout OS: re-skin + enrichment", "body": "Brand imported into the repo, template re-tokened, playbook/assets/visual kinds added, context packs and the Briefing Room go live.", "done": true},
+        {"date": "next", "title": "Phase 2, on your word", "body": "COS primer rendered through this engine; pulse/arsenal/assets boards join the same token family."}
+      ]
+    },
+    {
+      "kind": "flow",
+      "heading": "the pipeline",
+      "caption": "one JSON in, four artifacts out — human view, agent mirror, provenance, context pack",
+      "steps": [
+        {"title": "author brief JSON", "note": "any session, any launchd loop"},
+        {"title": "render_brief.py", "note": "HTML + md mirror + context.json"},
+        {"title": "briefing room", "note": "brief_library.py indexes the library"},
+        {"title": "feed any agent", "note": "context pack = instant grounding"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what this stands on",
+      "tag": "THE RECEIPTS",
+      "rows": [
+        {"claim": "The palette is your approved brand, verbatim", "evidence": "canvas #F3F3F0, paper #FAFAF8, ink #101010, graphite #555553, line #D8D8D3, stone #8C8C82 — copied from the portable package's design-tokens.json into the template as oklch.", "source_url": "file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/premium-minimal/package/tokens/design-tokens.json", "source_label": "design-tokens.json", "confidence": "VERIFIED"},
+        {"claim": "Kith restraint is the system's own stated reference", "evidence": "“Kith-like restraint applied to business communication” — a taste principle, not a copy instruction. Mood: restrained, contemporary, decisive.", "source_url": "file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/premium-minimal/package/02-DESIGN-CONTRACT.md", "source_label": "design contract", "confidence": "VERIFIED"},
+        {"claim": "The italic-serif accent word survives as a sanctioned report dialect", "evidence": "Brand law prohibits serif/italic on outward assets; you kept the signature move for internal reports. Documented with rationale and scope.", "source_url": "file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/premium-minimal/REPORT-DIALECT.md", "source_label": "REPORT-DIALECT.md", "confidence": "VERIFIED"},
+        {"claim": "There was never blue in the approved system — steel blue is a report-dialect addition", "evidence": "The remembered blue was the rejected Midnight Editorial direction (regression evidence). Steel ≈#3D5A94 was chosen fresh as the single functional accent.", "source_label": "APPROVAL-STATE.json · excluded_branches", "confidence": "VERIFIED"}
+      ]
+    },
+    {
+      "kind": "matrix",
+      "heading": "when to reach for which section",
+      "axes": {"x": "acting →", "y": "↑ digesting"},
+      "quads": [
+        {"label": "DIGEST · FAST", "items": [{"name": "summary", "note": "the one-minute version"}, {"name": "stats", "note": "big numbers first"}, {"name": "bars", "note": "shape comparisons"}]},
+        {"label": "DIGEST · DEEP", "items": [{"name": "evidence", "note": "claims with chips + sources"}, {"name": "timeline", "note": "how we got here"}, {"name": "matrix", "note": "this thing"}]},
+        {"label": "ACT · NOW", "items": [{"name": "deploy", "note": "copy-paste blocks"}, {"name": "playbook", "note": "plays with receipts"}, {"name": "decision", "note": "the ranked opening"}]},
+        {"label": "ACT · NEXT", "items": [{"name": "related", "note": "swing links"}, {"name": "assets", "note": "the rail"}, {"name": "caveats", "note": "what this isn't"}]}
+      ]
+    },
+    {
+      "kind": "bars",
+      "heading": "the library so far",
+      "caption": "briefs rendered per day since the engine shipped",
+      "series": [
+        {"label": "aug 5", "values": [2]},
+        {"label": "aug 6", "values": [4]}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "how to *use* it",
+      "kicker": "THE OPERATING MODEL",
+      "dek": "the report is now the default readout surface. in order:",
+      "items": [
+        {"action": "Open the Briefing Room, not folders", "why": "deliverables/research-briefs/index.html lists everything newest-first with md + ctx one click away."},
+        {"action": "Ask for any readout “as a brief”", "why": "research, audits, mission close-outs, build reports — the engine renders them all; night-shift proved the mission-report shape."},
+        {"action": "Feed agents the context pack, not prose", "why": "every brief ships <slug>-context.json — paths with roles — so a fresh session grounds itself in seconds."},
+        {"action": "Say the word for Phase 2", "why": "COS primer through this engine + the boards re-themed to the same tokens; parked, named, ready."}
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "the playbook",
+      "tag": "RUN THIS",
+      "plays": [
+        {"title": "Render (or re-render) a brief", "intent": "Any brief JSON becomes the full four-artifact set.", "command": "python3 execution/render_brief.py deliverables/research-briefs/<slug>/<slug>-brief.json --open", "touches": ["execution/render_brief.py", "templates/research-brief/template.html"], "receipt": "console prints OK/md/ctx lines; browser opens the brief"},
+        {"title": "Refresh the Briefing Room", "intent": "After new briefs land, rebuild the index.", "command": "python3 execution/brief_library.py --open", "touches": ["execution/brief_library.py", "deliverables/research-briefs/index.html"], "receipt": "count line at the top matches the number of brief folders"},
+        {"title": "Re-skin everything after a token change", "intent": "Tokens live in ONE place now — change them there, re-render the library.", "command": "for j in deliverables/research-briefs/*/*-brief.json; do python3 execution/render_brief.py \"$j\"; done && python3 execution/brief_library.py", "touches": ["templates/research-brief/template.html"], "receipt": "all briefs + index show the new tokens; no tan anywhere"}
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "the rail",
+      "tag": "LINKED ASSETS",
+      "items": [
+        {"title": "Premium Minimal brand guide (12-page field guide)", "role": "BRAND GUIDE", "path": "_active/farrice-brand/premium-minimal/package/templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf", "note": "the approved system, as a book"},
+        {"title": "Machine-readable design tokens", "role": "TOKENS", "path": "_active/farrice-brand/premium-minimal/package/tokens/design-tokens.json", "note": "single source of truth for palette + type"},
+        {"title": "Report template (implementation of record)", "role": "TEMPLATE", "path": "templates/research-brief/template.html", "note": "all report CSS lives here, never inline"},
+        {"title": "Report dialect decision record", "role": "DOCTRINE", "path": "_active/farrice-brand/premium-minimal/REPORT-DIALECT.md", "note": "why serif accent + steel blue are sanctioned"}
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {"k": "BRIEF", "title": "night shift build report — the mission-report shape", "path": "deliverables/research-briefs/night-shift-2026-08-06/night-shift-2026-08-06-brief.html"},
+        {"k": "BRIEF", "title": "ai marketing agents: hype vs. harness — the exemplar you named", "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html"},
+        {"k": "LIBRARY", "title": "the briefing room (all briefs)", "path": "deliverables/research-briefs/index.html"},
+        {"k": "WORKFLOW", "title": "/briefs — authoring + rendering doctrine", "path": ".agent/workflows/briefs.md"}
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {"label": "open the briefing room", "text": "python3 execution/brief_library.py --open"},
+        {"label": "ask for any readout in this format", "text": "render that as a research brief (brief JSON → execution/render_brief.py) and refresh the briefing room"}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "This is the internal report dialect, not the outward brand: LinkedIn, banners, and client assets still follow the strict Premium Minimal law (no serif, no added hues) and the package's approval state still reads 0.9-review with external action unauthorized. The steel accent value is a first pass — if it reads too cool or too loud after a week of real briefs, it is one token in one file. And the brand system's only fully-approved asset remains the banner; everything else in the package is review-state.",
+      "cta": {"label": "OPEN THE BRIEFING ROOM", "href": "../index.html"}
+    }
+  ],
+  "ledger": [
+    {"source": "Farrice Cain Premium Minimal portable package v0.9-review (imported from Codex scratch 2026-08-06)", "url": "file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/premium-minimal/package/MANIFEST.json", "retrieved": "2026-08-06", "used_for": "palette, typography, grid law, prohibitions, approval state", "confidence": "VERIFIED"},
+    {"source": "Repo exploration — brief engine + every HTML surface inventoried", "url": "file:///Users/farricecain/Google%20Antigravity/execution/render_brief.py", "retrieved": "2026-08-06", "used_for": "template/token architecture, section renderer map, re-theme surface list", "confidence": "VERIFIED"}
+  ],
+  "context": [
+    {"path": "_active/farrice-brand/premium-minimal/REPORT-DIALECT.md", "role": "report dialect doctrine"},
+    {"path": "execution/brief_library.py", "role": "briefing room generator"},
+    {"path": ".agent/workflows/briefs.md", "role": "authoring workflow"}
+  ]
+}

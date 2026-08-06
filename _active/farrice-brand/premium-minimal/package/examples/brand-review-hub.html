@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Farrice Cain — Premium Minimal Brand Review</title>
+  <style>
+    :root {
+      --canvas: #f3f3f0;
+      --paper: #fafaf8;
+      --ink: #101010;
+      --graphite: #555553;
+      --line: #d8d8d3;
+      --stone: #8c8c82;
+      --max: 1480px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--canvas); color: var(--ink); }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background: var(--canvas);
+      color: var(--ink);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    button { font: inherit; }
+    img { display: block; width: 100%; height: auto; }
+
+    .shell {
+      width: min(calc(100% - 64px), var(--max));
+      margin: 0 auto;
+    }
+
+    .masthead {
+      min-height: 164px;
+      padding: 36px 0 26px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: 28px;
+    }
+
+    .eyebrow,
+    .label,
+    .state,
+    .tab,
+    .file-kicker {
+      font-size: 11px;
+      line-height: 1.25;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .masthead h1 {
+      margin: 14px 0 0;
+      max-width: 920px;
+      font-size: clamp(34px, 4.1vw, 68px);
+      line-height: .98;
+      letter-spacing: -.045em;
+    }
+
+    .masthead-meta {
+      min-width: 230px;
+      color: var(--graphite);
+      text-align: right;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .tabs-wrap {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: color-mix(in srgb, var(--canvas) 96%, transparent);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .tabs {
+      min-height: 58px;
+      display: flex;
+      align-items: stretch;
+      gap: 30px;
+      overflow-x: auto;
+    }
+
+    .tab {
+      appearance: none;
+      padding: 0;
+      border: 0;
+      border-bottom: 3px solid transparent;
+      background: transparent;
+      color: var(--stone);
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .tab:hover,
+    .tab:focus-visible { color: var(--ink); }
+    .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+
+    main { min-height: calc(100vh - 222px); }
+    .panel { display: none; padding: 52px 0 88px; }
+    .panel.active { display: block; }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr);
+      gap: 48px;
+      align-items: start;
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      margin: 10px 0 0;
+      font-size: clamp(34px, 4vw, 62px);
+      line-height: 1;
+      letter-spacing: -.04em;
+      max-width: 980px;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.12;
+      letter-spacing: -.025em;
+    }
+
+    p { margin: 0; }
+
+    .lede {
+      max-width: 500px;
+      color: var(--graphite);
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    .decision-question {
+      padding-top: 15px;
+      border-top: 3px solid var(--ink);
+      font-size: 22px;
+      line-height: 1.3;
+      letter-spacing: -.015em;
+    }
+
+    .status-grid,
+    .two-col,
+    .three-col,
+    .file-grid,
+    .mode-grid {
+      display: grid;
+      gap: 24px;
+    }
+
+    .status-grid { grid-template-columns: repeat(3, 1fr); }
+    .two-col { grid-template-columns: repeat(2, 1fr); }
+    .three-col { grid-template-columns: repeat(3, 1fr); }
+    .file-grid { grid-template-columns: repeat(3, 1fr); }
+    .mode-grid { grid-template-columns: repeat(2, 1fr); margin-top: 42px; }
+
+    .rule-block {
+      min-height: 190px;
+      padding: 20px 0 24px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .rule-block .state { display: block; margin-bottom: 36px; color: var(--stone); }
+    .rule-block h3 { max-width: 380px; }
+    .rule-block p { margin-top: 15px; color: var(--graphite); line-height: 1.48; }
+    .rule-block.dark { padding: 24px; border: 0; background: var(--ink); color: var(--paper); }
+    .rule-block.dark p, .rule-block.dark .state { color: #aaa9a2; }
+
+    .image-frame {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .image-frame + .caption { margin-top: 14px; }
+
+    .caption {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      color: var(--graphite);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .table-wrap { overflow-x: auto; border-top: 3px solid var(--ink); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      line-height: 1.42;
+    }
+
+    th, td {
+      padding: 18px 12px 18px 0;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--stone);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+
+    td:first-child { width: 26%; font-weight: 700; }
+
+    .fact-list,
+    .plain-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .fact-list li,
+    .plain-list li {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 18px;
+      padding: 15px 0;
+      border-bottom: 1px solid var(--line);
+      line-height: 1.4;
+    }
+
+    .fact-list span,
+    .plain-list span { color: var(--stone); font-variant-numeric: tabular-nums; }
+
+    .mode {
+      min-height: 310px;
+      padding: 34px;
+      background: var(--paper);
+      border-top: 3px solid var(--ink);
+    }
+
+    .mode.offer { background: var(--ink); color: var(--paper); border-top-color: var(--paper); }
+    .mode .label { color: var(--stone); }
+    .mode h3 { margin-top: 74px; font-size: 38px; }
+    .mode p { margin-top: 18px; max-width: 480px; color: var(--graphite); line-height: 1.5; }
+    .mode.offer p { color: #aaa9a2; }
+
+    .path {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 3px solid var(--ink);
+      margin: 42px 0 56px;
+    }
+
+    .path-step {
+      min-height: 190px;
+      padding: 20px 18px 24px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .path-step + .path-step { padding-left: 18px; border-left: 1px solid var(--line); }
+    .path-step .state { color: var(--stone); }
+    .path-step h3 { margin-top: 42px; }
+    .path-step p { margin-top: 12px; color: var(--graphite); line-height: 1.45; }
+
+    .file {
+      min-height: 176px;
+      padding: 20px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .file-kicker { color: var(--stone); }
+    .file a { font-size: 20px; line-height: 1.25; font-weight: 700; letter-spacing: -.02em; }
+    .file p { color: var(--graphite); font-size: 13px; line-height: 1.45; }
+
+    .page-index {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      border-top: 1px solid var(--line);
+      margin-top: 48px;
+    }
+
+    .page-index a {
+      padding: 18px 10px 18px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--graphite);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .page-index a + a { padding-left: 14px; border-left: 1px solid var(--line); }
+
+    .spacer { height: 50px; }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 26px 0 38px;
+      color: var(--stone);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    @media (max-width: 900px) {
+      .shell { width: min(calc(100% - 34px), var(--max)); }
+      .masthead, .section-head { grid-template-columns: 1fr; }
+      .masthead-meta { text-align: left; }
+      .status-grid, .three-col, .file-grid, .path { grid-template-columns: repeat(2, 1fr); }
+      .page-index { grid-template-columns: repeat(3, 1fr); }
+      .two-col, .mode-grid { grid-template-columns: 1fr; }
+      .path-step + .path-step:nth-child(odd) { padding-left: 0; border-left: 0; }
+      .masthead { min-height: 0; }
+    }
+
+    @media (max-width: 580px) {
+      .status-grid, .three-col, .file-grid, .path { grid-template-columns: 1fr; }
+      .page-index { grid-template-columns: repeat(2, 1fr); }
+      .tabs { gap: 22px; }
+      .panel { padding-top: 36px; }
+      .path-step + .path-step { padding-left: 0; border-left: 0; }
+      footer { flex-direction: column; }
+    }
+
+    @media print {
+      .tabs-wrap { display: none; }
+      .panel { display: block !important; break-before: page; }
+      .panel:first-child { break-before: auto; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="shell masthead">
+    <div>
+      <div class="eyebrow">Farrice Cain · Personal-brand system</div>
+      <h1>Premium Minimal, translated into one coherent business identity.</h1>
+    </div>
+    <div class="masthead-meta">
+      Portable v0.9 review candidate<br>
+      P2-01 visual parent approved<br>
+      Local review · no external action
+    </div>
+  </header>
+
+  <div class="tabs-wrap">
+    <nav class="shell tabs" aria-label="Brand review sections" role="tablist">
+      <button class="tab" id="tab-start" role="tab" aria-controls="start" aria-selected="true">Start</button>
+      <button class="tab" id="tab-brand" role="tab" aria-controls="brand" aria-selected="false">Brand</button>
+      <button class="tab" id="tab-linkedin" role="tab" aria-controls="linkedin" aria-selected="false">LinkedIn</button>
+      <button class="tab" id="tab-templates" role="tab" aria-controls="templates" aria-selected="false">Templates</button>
+      <button class="tab" id="tab-guide" role="tab" aria-controls="guide" aria-selected="false">Field Guide</button>
+      <button class="tab" id="tab-governance" role="tab" aria-controls="governance" aria-selected="false">Governance</button>
+    </nav>
+  </div>
+
+  <main class="shell">
+    <section class="panel active" id="start" role="tabpanel" aria-labelledby="tab-start">
+      <div class="section-head">
+        <div>
+          <div class="label">Review checkpoint / 01</div>
+          <h2>One visual law across the person, the point of view, and the offer.</h2>
+        </div>
+        <p class="decision-question">Judge the family as a whole before promoting any new asset from review to approved.</p>
+      </div>
+
+      <div class="status-grid">
+        <article class="rule-block">
+          <span class="state">Locked</span>
+          <h3>Farrice Cain is the durable master brand.</h3>
+          <p>The identity survives any one offer. Lived experience and judgment belong to the person.</p>
+        </article>
+        <article class="rule-block">
+          <span class="state">Locked</span>
+          <h3>The Angle Map is the flagship paid expression.</h3>
+          <p>It is the clearest commercial application of the point of view—not a replacement for Farrice.</p>
+        </article>
+        <article class="rule-block dark">
+          <span class="state">Review decision</span>
+          <h3>Launch banner or evergreen banner next?</h3>
+          <p>The current Angle Map banner is approved. Its permanent profile role is deliberately still open.</p>
+        </article>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="image-frame">
+        <img src="linkedin-system-preview-core.png" alt="Preview of the Farrice Cain LinkedIn banner, headline, and first two Featured assets.">
+      </div>
+      <div class="caption">
+        <span>Profile buyer path · launch-mode preview</span>
+        <span>P1 B copy protected · Premium Minimal V1 applied</span>
+      </div>
+    </section>
+
+    <section class="panel" id="brand" role="tabpanel" aria-labelledby="tab-brand" hidden>
+      <div class="section-head">
+        <div>
+          <div class="label">Brand architecture / 02</div>
+          <h2>Stronger arguments for honest products.</h2>
+        </div>
+        <p class="lede">An internal strategic idea—not a newly approved public tagline. The public brand earns authority through clear distinctions, lived texture, and bounded claims.</p>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Level</th><th>Job</th><th>Rule</th></tr></thead>
+          <tbody>
+            <tr><td>Farrice Cain</td><td>Durable trust container</td><td>Name, lived experience, judgment, and point of view survive every individual offer.</td></tr>
+            <tr><td>Category point of view</td><td>Reason to follow</td><td>Honest products, real proof, and the campaign argument before more creative.</td></tr>
+            <tr><td>The Angle Map</td><td>Flagship paid expression</td><td>One concrete way Farrice applies the point of view to a live message decision.</td></tr>
+            <tr><td>Decision Book and cards</td><td>Functional deliverable parts</td><td>Never separate brands, logos, or public offers.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mode-grid">
+        <article class="mode">
+          <div class="label">Master-brand mode</div>
+          <h3>FARRICE CAIN</h3>
+          <p>Evergreen authority, category observations, product truth, lived experience, and future offers.</p>
+        </article>
+        <article class="mode offer">
+          <div class="label">Offer mode</div>
+          <h3>THE ANGLE MAP</h3>
+          <p>Three campaign arguments, one recommendation, and the decision the team should build first.</p>
+        </article>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="two-col">
+        <div>
+          <div class="label">Lived authority · usable</div>
+          <ul class="fact-list">
+            <li><span>01</span>Five years at The Vitamin Shoppe</li>
+            <li><span>02</span>Coaching since 2008</li>
+            <li><span>03</span>More than 1,000 people coached</li>
+            <li><span>04</span>Tier X at Equinox</li>
+            <li><span>05</span>Independent training and holistic coaching</li>
+          </ul>
+        </div>
+        <div>
+          <div class="label">Authority boundary · do not imply</div>
+          <ul class="fact-list">
+            <li><span>01</span>ROAS or campaign-performance proof</li>
+            <li><span>02</span>Conversion or revenue outcomes</li>
+            <li><span>03</span>Medical, scientific, legal, or compliance authority</li>
+            <li><span>04</span>Unconfirmed credentials or client results</li>
+            <li><span>05</span>Testimonials or logos without permission</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="linkedin" role="tabpanel" aria-labelledby="tab-linkedin" hidden>
+      <div class="section-head">
+        <div>
+          <div class="label">LinkedIn system / 03</div>
+          <h2>Recognition earns the click. Proof earns attention. The offer earns the DM.</h2>
+        </div>
+        <p class="lede">The top fold is an identity and relevance gate. The About and Experience sections carry the full offer mechanics, price, delivery clock, authority, and boundaries.</p>
+      </div>
+
+      <div class="image-frame">
+        <img src="linkedin-system-preview-core.png" alt="LinkedIn system preview showing the approved banner, a clearly labeled private identity add-on slot, Farrice Cain profile headline, and two Featured positions.">
+      </div>
+
+      <div class="path" aria-label="LinkedIn buyer path">
+        <article class="path-step"><span class="state">01</span><h3>Recognize</h3><p>Banner and headline name the buyer, object, output, decision, and next action.</p></article>
+        <article class="path-step"><span class="state">02</span><h3>Believe</h3><p>The flagship article establishes Farrice's standard for product truth and buyer belief.</p></article>
+        <article class="path-step"><span class="state">03</span><h3>Understand</h3><p>The launch post and profile explain three angles, pre-review, the live session, and delivery.</p></article>
+        <article class="path-step"><span class="state">04</span><h3>Act</h3><p>One commercial invitation only: DM ANGLE. No competing offer or CTA.</p></article>
+      </div>
+
+      <div class="two-col">
+        <article class="rule-block">
+          <span class="state">Lane 01 · 60%</span>
+          <h3>The decision before the creative</h3>
+          <p>Hooks versus angles, message fatigue disguised as creative fatigue, and the argument the team has not chosen.</p>
+        </article>
+        <article class="rule-block">
+          <span class="state">Lane 02 · 40%</span>
+          <h3>Product truth a buyer can believe</h3>
+          <p>Proof scope, claim boundaries, and why an honest formula can disappear inside generic category language.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="templates" role="tabpanel" aria-labelledby="tab-templates" hidden>
+      <div class="section-head">
+        <div>
+          <div class="label">Reusable asset family / 04</div>
+          <h2>Six formats. One tonal system. No template noise.</h2>
+        </div>
+        <p class="lede">Every asset uses Helvetica Neue, near-monochrome color, an open grid, thin rules, and recommendation through weight and position—not bright color or decorative chrome.</p>
+      </div>
+
+      <div class="image-frame">
+        <img src="asset-family-contact-sheet.png" alt="Contact sheet showing the Farrice Cain Premium Minimal LinkedIn asset family.">
+      </div>
+      <div class="caption">
+        <span>Full family and thumbnail behavior</span>
+        <span>Review files · no external use approved</span>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="file-grid">
+        <article class="file"><span class="file-kicker">Article cover</span><a href="../templates/static/fc-pm1_li-article-belief_review_v01.png">Open PNG</a><p>Belief-led Featured position one.</p></article>
+        <article class="file"><span class="file-kicker">Offer cover</span><a href="../templates/static/fc-pm1_li-featured-angle-map_review_v01.png">Open PNG</a><p>Commercial Featured position two.</p></article>
+        <article class="file"><span class="file-kicker">Single image</span><a href="../templates/static/fc-pm1_li-insight-hook-vs-angle_review_v01.png">Open PNG</a><p>One sharp argument in the feed.</p></article>
+        <article class="file"><span class="file-kicker">Carousel</span><a href="../templates/carousel/fc-pm1_li-carousel-hook-vs-angle_review_v01.pdf">Open PDF</a><p>Four-page demonstration; edit the four SVG page sources.</p></article>
+        <article class="file"><span class="file-kicker">Decision card</span><a href="../templates/static/fc-pm1_li-angle-card-label-review_v01.png">Open PNG</a><p>Shows the actual Angle Map grammar.</p></article>
+        <article class="file"><span class="file-kicker">Proof boundary</span><a href="../templates/static/fc-pm1_li-proof-boundary_review_v01.png">Open PNG</a><p>Teaches evidence use without implying approval.</p></article>
+      </div>
+    </section>
+
+    <section class="panel" id="guide" role="tabpanel" aria-labelledby="tab-guide" hidden>
+      <div class="section-head">
+        <div>
+          <div class="label">Landscape field guide / 05</div>
+          <h2>The complete system in twelve decision pages.</h2>
+        </div>
+        <p class="lede">This guide is a practical brand control surface: strategic core, hierarchy, audience, authority, content, voice, visuals, LinkedIn path, assets, and governance.</p>
+      </div>
+
+      <div class="image-frame">
+        <img src="field-guide-contact-sheet.png" alt="Contact sheet of the twelve-page Farrice Cain Premium Minimal brand-system field guide.">
+      </div>
+      <div class="caption">
+        <span>12 pages · 16:9 landscape · Helvetica Neue embedded</span>
+        <span>P3 review candidate</span>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="file-grid">
+        <article class="file"><span class="file-kicker">Presentation</span><a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf">Open review PDF</a><p>Best format for judgment and sharing locally.</p></article>
+        <article class="file"><span class="file-kicker">Editable source</span><a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pptx">Open PPTX</a><p>Editable master for later approved refinements.</p></article>
+        <article class="file"><span class="file-kicker">System source</span><a href="../01-BRAND-FOUNDATION.md">Open brand source</a><p>Strategic and verbal source of truth.</p></article>
+      </div>
+      <nav class="page-index" aria-label="Open individual field-guide pages">
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=1">Page 01</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=2">Page 02</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=3">Page 03</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=4">Page 04</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=5">Page 05</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=6">Page 06</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=7">Page 07</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=8">Page 08</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=9">Page 09</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=10">Page 10</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=11">Page 11</a>
+        <a href="../templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf#page=12">Page 12</a>
+      </nav>
+    </section>
+
+    <section class="panel" id="governance" role="tabpanel" aria-labelledby="tab-governance" hidden>
+      <div class="section-head">
+        <div>
+          <div class="label">Governance / 06</div>
+          <h2>Preserve the primary. Keep candidates visible. Never let rejected work drift back in.</h2>
+        </div>
+        <p class="lede">Approval is explicit and state-based. Production readiness does not silently become permission to publish, upload, edit a profile, or make a performance claim.</p>
+      </div>
+
+      <div class="three-col">
+        <article class="rule-block"><span class="state">Locked</span><h3>Foundation</h3><p>Farrice master brand, P1 B copy, P2-01 visual parent, DM ANGLE, and zero-proof authority boundary.</p></article>
+        <article class="rule-block"><span class="state">Candidate</span><h3>This translation</h3><p>Evergreen banner line, portrait frequency, four-piece editorial rhythm, and all new template exports.</p></article>
+        <article class="rule-block dark"><span class="state">Rejected</span><h3>Regression guard</h3><p>Hero C, synthetic Farrice voice, serif-led visual system, decorative route coding, prestige theater, and invented proof.</p></article>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Gate</th><th>Required before external use</th></tr></thead>
+          <tbody>
+            <tr><td>Taste approval</td><td>Farrice approves the exact copy and visual asset—not merely the parent system.</td></tr>
+            <tr><td>Offer operations</td><td>Payment rail, session capacity, make-right language, confidentiality, and 48-hour clock are operational.</td></tr>
+            <tr><td>Claim safety</td><td>No unconfirmed credentials, invented proof, client-result language, legal approval, or performance implication.</td></tr>
+            <tr><td>Action approval</td><td>Profile edits, publication, Featured changes, outreach, DMs, and uploads each require separate authorization.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="file-grid">
+        <article class="file"><span class="file-kicker">LinkedIn source</span><a href="../content/LINKEDIN-SYSTEM.md">Open LinkedIn system</a><p>Buyer path, lanes, Featured, CTA, and platform gates.</p></article>
+        <article class="file"><span class="file-kicker">Production rules</span><a href="../02-DESIGN-CONTRACT.md">Open design contract</a><p>Tokens, grids, layout grammar, and QA.</p></article>
+        <article class="file"><span class="file-kicker">Asset ledger</span><a href="../03-ASSET-STATE-LEDGER.md">Open asset manifest</a><p>States, formats, exports, intended use, and alt text.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <span>Farrice Cain · Premium Minimal V1</span>
+    <span>Local review only · no external action</span>
+  </footer>
+
+  <script>
+    const tabs = [...document.querySelectorAll('[role="tab"]')];
+    const panels = [...document.querySelectorAll('[role="tabpanel"]')];
+
+    function activate(id, updateHash = true) {
+      const target = tabs.find((tab) => tab.getAttribute('aria-controls') === id) || tabs[0];
+      tabs.forEach((tab) => tab.setAttribute('aria-selected', String(tab === target)));
+      panels.forEach((panel) => {
+        const active = panel.id === target.getAttribute('aria-controls');
+        panel.classList.toggle('active', active);
+        panel.hidden = !active;
+      });
+      if (updateHash) history.replaceState(null, '', `#${target.getAttribute('aria-controls')}`);
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => activate(tab.getAttribute('aria-controls')));
+      tab.addEventListener('keydown', (event) => {
+        if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+        event.preventDefault();
+        let next = index;
+        if (event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+        if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+        if (event.key === 'Home') next = 0;
+        if (event.key === 'End') next = tabs.length - 1;
+        tabs[next].focus();
+        activate(tabs[next].getAttribute('aria-controls'));
+      });
+    });
+
+    activate(location.hash.slice(1) || 'start', false);
+  </script>
+</body>
+</html>

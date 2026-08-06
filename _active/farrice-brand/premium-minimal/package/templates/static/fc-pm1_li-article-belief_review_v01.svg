@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="120" y="92" font-size="24" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="120" dy="0">FARRICE CAIN</tspan></text>
+     <text x="1800" y="92" font-size="20" font-weight="700" fill="#555553" text-anchor="end" class="label"><tspan x="1800" dy="0">FIELD / 01 · PRODUCT TRUTH</tspan></text>
+     <line x1="120" y1="132" x2="1800" y2="132" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="120" y="385" font-size="96" font-weight="700" fill="#101010" text-anchor="start" class="display"><tspan x="120" dy="0">The Most Expensive Thing</tspan><tspan x="120" dy="102">a Bad Supplement Steals</tspan><tspan x="120" dy="102">Is Belief</tspan></text>
+     <line x1="120" y1="810" x2="610" y2="810" stroke="#101010" stroke-width="3"/>
+     <text x="120" y="875" font-size="32" font-weight="400" fill="#555553" text-anchor="start"><tspan x="120" dy="0">A weak product can waste one purchase.</tspan><tspan x="120" dy="46">A promise it cannot carry can make the next honest product harder to believe.</tspan></text>
+     <text x="1800" y="1010" font-size="18" font-weight="700" fill="#555553" text-anchor="end" class="label"><tspan x="1800" dy="0">CREATIVE STRATEGY FOR SUPPLEMENT + PERFORMANCE BRANDS</tspan></text>
+</svg>

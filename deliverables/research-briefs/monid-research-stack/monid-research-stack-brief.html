@@ -5,20 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>the stack that gives claude hands · Research Brief</title>
 <style>
-  /* ── Codex Antigravity Design System tokens (_active/codex-harvest-2026-06-11/DESIGN.md) ── */
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
   :root{
-    --ag-ink: oklch(18% 0.012 245);
-    --ag-paper: oklch(97% 0.008 92);
-    --ag-surface: oklch(93% 0.012 100);
-    --ag-line: oklch(76% 0.018 95);
-    --ag-accent: oklch(55% 0.115 43);
-    --ag-proof: oklch(49% 0.082 168);
-    --ag-risk: oklch(56% 0.126 23);
-    --ag-focus: oklch(50% 0.105 265);
-    --ag-ink-soft: oklch(38% 0.012 245);
-    --ag-ink-mute: oklch(52% 0.012 245);
-    --ag-paper-ink: oklch(94% 0.01 92);   /* paper-toned text on ink surfaces */
-    --ag-line-ink: oklch(34% 0.012 245);  /* rules on ink surfaces */
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
     --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
     --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
     --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
@@ -81,15 +85,15 @@
 
   /* decision layer — the one inverted section */
   .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
-  .decision .kicker{ color:oklch(70% 0.02 92) }
+  .decision .kicker{ color:var(--ag-mute-dark) }
   .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
-  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:oklch(75% 0.1 43) }
-  .decision .dek{ color:oklch(78% 0.015 92); font-size:14px; margin-top:12px }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
   .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
   .dec-item:last-child{ border-bottom:none }
-  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:oklch(75% 0.1 43); min-width:22px; margin-top:1px }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
   .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
-  .dec-item p{ font-size:12.5px; line-height:1.55; color:oklch(75% 0.015 92); margin-top:4px }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
 
   /* bars — same-scale small multiples */
   .bars-group{ display:grid; gap:14px; margin-top:6px }
@@ -136,6 +140,75 @@
   .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
   .ledger td a:hover{ text-decoration:underline }
 
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
   footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
     font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
 
@@ -144,6 +217,9 @@
     .trust{ grid-template-columns:1fr 1fr }
     .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
     .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
   }
   @media print{
     .brief-nav{ position:static }
@@ -154,7 +230,7 @@
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row"><a href="#the-big-picture">the big picture</a><a href="#what-we-verified">what we verified</a><a href="#where-our-apify-runs-actually-went">where our apify runs actually went</a><a href="#what-we-re-wiring-in-order">what we&#x27;re wiring, in order</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#the-big-picture">the big picture</a><a href="#what-we-verified">what we verified</a><a href="#where-our-apify-runs-actually-went">where our apify runs actually went</a><a href="#what-we-re-wiring-in-order">what we&#x27;re wiring, in order</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a></div></nav>
 
 <div class="wrap">
   <header>
@@ -172,7 +248,33 @@
   <section class="blk" id="the-big-picture"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the big picture</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>Research is moving from &#x27;read what the model remembers&#x27; to &#x27;render what the tools just fetched.&#x27; Eddy Ballesteros&#x27;s workflow closes the loop on screen: one sentence in, live data pulled through Monid&#x27;s pay-per-call router, and a designed decision-document out — for three cents. Our system already has the governance layer (budget trackers, cost gate) and the missing piece was exactly this consumption layer: briefs you can scan, verify, and deploy from.</p></div></section><section class="blk" id="what-we-verified"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what we verified</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>monid is a pay-per-call tool router — one wallet, agent discovers and pays per tool</h3><p>Demonstrated live: Claude discovers tools, pulls Semrush/Reddit/X/YouTube, renders report. Homepage claims &#x27;Live · 1500+ tools&#x27;; script doc says 13+ providers, calls from ~a tenth of a cent.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://monid.ai/" target="_blank" rel="noopener">monid.ai + video t=01:52–06:24 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>a full research report cost him $0.03</h3><p>Cost shown on screen with the tool stack that produced it (Semrush keyword metrics, Reddit top posts + community sizes, X, YouTube last-30-days).</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=PmvqIaLC6AY" target="_blank" rel="noopener">video t=06:04 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>our apify plan is 98% unused this month</h3><p>$0.59 of $29.00 spent as of today (29 runs). The scraping capacity Farrice wants largely already exists and sits idle.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">.agent/apify-usage.json · 2026-08</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>we have zero linkedin scraping coverage</h3><p>No LinkedIn actor in apify_client.py ACTORS (17 registered: Reddit, IG, TikTok, YouTube, Amazon, Maps, web, Scrape Creators). LinkedIn is the primary content platform in the current campaign.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">execution/apify_client.py ACTORS</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>monid&#x27;s catalog covers linkedin, x, tiktok, instagram, amazon, google reviews</h3><p>Listed in Monid&#x27;s public catalog descriptions. Not yet exercised by us — needs a funded wallet and one smoke call per endpoint before we rely on it.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://moge.ai/product/monid" target="_blank" rel="noopener">moge.ai listing + monid docs ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>ai search converts at 10–40% vs 1–2% for traditional seo</h3><p>Claim by Greg Eisenberg surfaced in Eddy&#x27;s report; Eddy himself flags it for fact-checking on camera. Included here as a live example of an UNCONFIRMED chip doing its job.</p><div class="meta"><span class="conf unconfirmed">UNCONFIRMED</span><a class="srcref" href="https://www.youtube.com/watch?v=PmvqIaLC6AY" target="_blank" rel="noopener">video t=07:40 · secondhand X claim ↗</a></div></div></div></section><section class="blk" id="where-our-apify-runs-actually-went"><div class="sechead"><span class="secnum">03</span><h2 class="sec">where our apify runs actually went</h2><span class="sectag">AUG 2026 · 29 RUNS</span></div><div class="bars-card"><div class="hbar-row"><div class="hbar-label">reddit<span class="hnote">15 runs — the workhorse</span></div><div class="hbar-track"><i style="width:100%"></i></div><div class="hbar-val">15</div></div><div class="hbar-row"><div class="hbar-label">youtube<span class="hnote">6 runs</span></div><div class="hbar-track"><i style="width:40%"></i></div><div class="hbar-val">6</div></div><div class="hbar-row"><div class="hbar-label">tiktok (sc)<span class="hnote">6 runs across sc-tiktok + hashtag</span></div><div class="hbar-track"><i style="width:40%"></i></div><div class="hbar-val">6</div></div><div class="hbar-row"><div class="hbar-label">instagram + web<span class="hnote">2 runs</span></div><div class="hbar-track"><i style="width:13%"></i></div><div class="hbar-val">2</div></div><div class="hbar-row"><div class="hbar-label">linkedin<span class="hnote">0 runs — no actor exists</span></div><div class="hbar-track"><i style="width:1%" class=zero></i></div><div class="hbar-val">0</div></div></div><div class="bars-caption">same scale · runs this month by actor · reddit dominates, linkedin impossible</div></section><section class="decision" id="what-we-re-wiring-in-order"><span class="kicker">THE OPENING</span><h2>what we&#x27;re wiring, <em>in order</em></h2><p class="dek">decisions locked with farrice on aug 5 — each line carries the number that justifies it.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>wire monid on all three surfaces, hard-capped</h3><p>Claude Code + Codex via config, claude.ai via connector card. $1 free credit covers smoke tests; cost gate denies unknown services by default, so registration is deliberate. $5/run default cap ≈ 150+ reports at Eddy&#x27;s demonstrated $0.03.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>expand apify actors — linkedin first</h3><p>98% of the $29/mo plan is unused and the priority platform has zero coverage. Verify actor pricing and maintenance on the store before registering; smoke-test under $0.25 total.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>render every research run as a brief on the asset board</h3><p>Markdown blobs are the stated failure (&#x27;gets a little wearing on me&#x27;). This document is the template proving the alternative: trust header, sourced claims, ranked decisions, one CTA.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>keep $25 runs as deliberate deep-dives only</h3><p>A $25 default cap exceeds the entire $29/mo Apify budget in two runs. Above $5, the existing 15-minute approval token is the unlock — friction exactly where spend gets real.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">one-sentence research prompt (adapted from eddy, t=04:54)</span><button class="copybtn" type="button">copy</button></div><pre>Using Monid, research [TOPIC] in depth. Identify the tools available for this research — Reddit, subreddits, X, web search, and any social platforms that make sense — pull the live data, and render the result as a research brief JSON per templates/research-brief/ (trust header, sourced evidence rows with VERIFIED/LIKELY/UNCONFIRMED confidence, ranked decision section, source ledger), then run: python3 execution/render_brief.py &lt;brief.json&gt; --open</pre></div><div class="deploy"><div class="bar"><span class="k">claude.ai connector setup (2 minutes)</span><button class="copybtn" type="button">copy</button></div><pre>1. claude.ai → Settings → Connectors → Add custom connector
 2. Name: Monid — URL: https://mcp.monid.ai/v1 → Add
 3. Log in / authorize when prompted (new accounts get $1 free credit)
-4. Test: &quot;Find the latest posts about AI consulting for supplement brands using Monid MCP&quot;</pre></div><div class="deploy"><div class="bar"><span class="k">render this brief</span><button class="copybtn" type="button">copy</button></div><pre>python3 execution/render_brief.py deliverables/research-briefs/monid-research-stack/monid-research-stack-brief.json --open</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>This is a single-day snapshot built from one creator&#x27;s demo plus our local trackers. The Apify numbers and the missing-LinkedIn fact are ours and fully reliable. Monid&#x27;s costs are Eddy&#x27;s receipts from one report on one day — treat the $0.03 as an order of magnitude, not a quote. The catalog-coverage claim is the vendor&#x27;s own copy and stays LIKELY until we run one paid call per endpoint we care about. Nothing here has revenue attached yet; the decision section is infrastructure, not income.</p><a class="cta" href="#deploy-blocks">OKAY, SO WIRE IT</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.00 — stack: /watch frames · yt-dlp captions · web search · local trackers</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Eddy Ballesteros — I Connected Claude to Monid AI (video, watched via /watch, 37 frames)</td><td><a href="https://www.youtube.com/watch?v=PmvqIaLC6AY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=PmvqIaLC6AY</a></td><td>2026-08-05</td><td>workflow, brief anatomy, cost receipts, connector steps</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>monid.ai homepage</td><td><a href="https://monid.ai/" target="_blank" rel="noopener">https://monid.ai/</a></td><td>2026-08-05</td><td>router mechanics, 1500+ tools claim, SKILL.md setup path</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Monid docs</td><td><a href="https://docs.monid.ai/" target="_blank" rel="noopener">https://docs.monid.ai/</a></td><td>2026-08-05</td><td>skill quickstart existence</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>MOGE product listing — Monid</td><td><a href="https://moge.ai/product/monid" target="_blank" rel="noopener">https://moge.ai/product/monid</a></td><td>2026-08-05</td><td>catalog platform coverage (LinkedIn, X, TikTok, IG, Amazon)</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>05</td><td>.agent/apify-usage.json (local tracker)</td><td>—</td><td>2026-08-05</td><td>spend $0.59/$29.00, 29 runs, per-actor counts</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>execution/apify_client.py ACTORS registry (local)</td><td>—</td><td>2026-08-05</td><td>17 registered actors, no LinkedIn coverage</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+4. Test: &quot;Find the latest posts about AI consulting for supplement brands using Monid MCP&quot;</pre></div><div class="deploy"><div class="bar"><span class="k">render this brief</span><button class="copybtn" type="button">copy</button></div><pre>python3 execution/render_brief.py deliverables/research-briefs/monid-research-stack/monid-research-stack-brief.json --open</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>This is a single-day snapshot built from one creator&#x27;s demo plus our local trackers. The Apify numbers and the missing-LinkedIn fact are ours and fully reliable. Monid&#x27;s costs are Eddy&#x27;s receipts from one report on one day — treat the $0.03 as an order of magnitude, not a quote. The catalog-coverage claim is the vendor&#x27;s own copy and stays LIKELY until we run one paid call per endpoint we care about. Nothing here has revenue attached yet; the decision section is infrastructure, not income.</p><a class="cta" href="#deploy-blocks">OKAY, SO WIRE IT</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.00 — stack: /watch frames · yt-dlp captions · web search · local trackers</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Eddy Ballesteros — I Connected Claude to Monid AI (video, watched via /watch, 37 frames)</td><td><a href="https://www.youtube.com/watch?v=PmvqIaLC6AY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=PmvqIaLC6AY</a></td><td>2026-08-05</td><td>workflow, brief anatomy, cost receipts, connector steps</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>monid.ai homepage</td><td><a href="https://monid.ai/" target="_blank" rel="noopener">https://monid.ai/</a></td><td>2026-08-05</td><td>router mechanics, 1500+ tools claim, SKILL.md setup path</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Monid docs</td><td><a href="https://docs.monid.ai/" target="_blank" rel="noopener">https://docs.monid.ai/</a></td><td>2026-08-05</td><td>skill quickstart existence</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>MOGE product listing — Monid</td><td><a href="https://moge.ai/product/monid" target="_blank" rel="noopener">https://moge.ai/product/monid</a></td><td>2026-08-05</td><td>catalog platform coverage (LinkedIn, X, TikTok, IG, Amazon)</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>05</td><td>.agent/apify-usage.json (local tracker)</td><td>—</td><td>2026-08-05</td><td>spend $0.59/$29.00, 29 runs, per-actor counts</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>execution/apify_client.py ACTORS registry (local)</td><td>—</td><td>2026-08-05</td><td>17 registered actors, no LinkedIn coverage</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="https://monid.ai/" target="_blank" rel="noopener">https://monid.ai/</a></td><td>monid.ai + video t=01:52–06:24</td></tr><tr><td>02</td><td><a href="https://www.youtube.com/watch?v=PmvqIaLC6AY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=PmvqIaLC6AY</a></td><td>video t=06:04</td></tr><tr><td>03</td><td><a href="https://moge.ai/product/monid" target="_blank" rel="noopener">https://moge.ai/product/monid</a></td><td>moge.ai listing + monid docs</td></tr><tr><td>04</td><td><a href="https://docs.monid.ai/" target="_blank" rel="noopener">https://docs.monid.ai/</a></td><td>Monid docs</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;monid-research-stack&quot;,
+  &quot;title&quot;: &quot;the stack that gives claude hands&quot;,
+  &quot;compiled&quot;: &quot;aug 5, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/monid-research-stack/monid-research-stack-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/monid-research-stack/monid-research-stack-brief.md&quot;,
+  &quot;paths&quot;: [],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://monid.ai/&quot;,
+      &quot;label&quot;: &quot;monid.ai + video t=01:52–06:24&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.youtube.com/watch?v=PmvqIaLC6AY&quot;,
+      &quot;label&quot;: &quot;video t=06:04&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://moge.ai/product/monid&quot;,
+      &quot;label&quot;: &quot;moge.ai listing + monid docs&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://docs.monid.ai/&quot;,
+      &quot;label&quot;: &quot;Monid docs&quot;
+    }
+  ]
+}</pre></div></section>
 
   <footer class="brief">
     <span>ANTIGRAVITY RESEARCH · PILOT</span>
@@ -194,7 +296,9 @@
   }
   document.querySelectorAll('.copybtn').forEach(function(btn){
     btn.addEventListener('click', function(){
-      var pre=btn.closest('.deploy').querySelector('pre');
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
       if(pre) copyText(pre.textContent, btn);
     });
   });

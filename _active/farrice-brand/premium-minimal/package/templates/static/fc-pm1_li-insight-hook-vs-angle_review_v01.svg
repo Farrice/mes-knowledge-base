@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="84" y="92" font-size="22" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="84" dy="0">FARRICE CAIN</tspan></text>
+     <text x="996" y="92" font-size="19" font-weight="700" fill="#555553" text-anchor="end" class="label"><tspan x="996" dy="0">FIELD / 02</tspan></text>
+     <line x1="84" y1="128" x2="996" y2="128" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="84" y="390" font-size="92" font-weight="700" fill="#101010" text-anchor="start" class="display"><tspan x="84" dy="0">A new hook is</tspan><tspan x="84" dy="98">not always</tspan><tspan x="84" dy="98">a new angle.</tspan></text>
+     <text x="84" y="770" font-size="66" font-weight="400" fill="#555553" text-anchor="start" class="display"><tspan x="84" dy="0">A new format</tspan><tspan x="84" dy="72">definitely is not.</tspan></text>
+     <line x1="84" y1="1005" x2="996" y2="1005" stroke="#D8D8D3" stroke-width="2"/>
+      <circle cx="996" cy="1005" r="4" fill="#FAFAF8" stroke="#D8D8D3" stroke-width="2"/>
+      <text x="992" y="987" font-size="15" font-weight="400" fill="#D8D8D3" text-anchor="end" letter-spacing="1.2"><tspan x="992" dy="0">01</tspan></text><line x1="84" y1="1051" x2="996" y2="1051" stroke="#101010" stroke-width="6"/>
+      <circle cx="996" cy="1051" r="7" fill="#101010" stroke="#101010" stroke-width="0"/>
+      <text x="992" y="1033" font-size="15" font-weight="700" fill="#101010" text-anchor="end" letter-spacing="1.2"><tspan x="992" dy="0">02  LEAD</tspan></text><line x1="84" y1="1097" x2="996" y2="1097" stroke="#D8D8D3" stroke-width="2"/>
+      <circle cx="996" cy="1097" r="4" fill="#FAFAF8" stroke="#D8D8D3" stroke-width="2"/>
+      <text x="992" y="1079" font-size="15" font-weight="400" fill="#D8D8D3" text-anchor="end" letter-spacing="1.2"><tspan x="992" dy="0">03</tspan></text>
+     <text x="84" y="1260" font-size="18" font-weight="700" fill="#555553" text-anchor="start" class="label"><tspan x="84" dy="0">THE DECISION BEFORE THE CREATIVE</tspan></text>
+</svg>

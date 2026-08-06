@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="84" y="92" font-size="22" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="84" dy="0">FARRICE CAIN</tspan></text>
+     <text x="996" y="170" font-size="20" font-weight="700" fill="#101010" text-anchor="end" class="label"><tspan x="996" dy="0">FICTIONAL DEMONSTRATION · NOT CLIENT WORK</tspan></text>
+     <line x1="84" y1="128" x2="996" y2="128" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="84" y="330" font-size="78" font-weight="700" fill="#101010" text-anchor="start" class="display"><tspan x="84" dy="0">Proof should sharpen</tspan><tspan x="84" dy="84">the argument.</tspan><tspan x="84" dy="84">Not decorate it.</tspan></text>
+     <line x1="84" y1="650" x2="996" y2="650" stroke="#101010" stroke-width="3"/>
+     <text x="84" y="725" font-size="18" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="84" dy="0">WHAT SUPPLIED PROOF SUPPORTS</tspan></text>
+     <text x="84" y="810" font-size="30" font-weight="400" fill="#555553" text-anchor="start"><tspan x="84" dy="0">Packaging facts</tspan><tspan x="84" dy="50">Serving information</tspan><tspan x="84" dy="50">Approved product language</tspan></text>
+     <line x1="540" y1="700" x2="540" y2="1120" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="590" y="725" font-size="18" font-weight="700" fill="#555553" text-anchor="start" class="label"><tspan x="590" dy="0">WHAT RETURNS FOR QUALIFIED REVIEW</tspan></text>
+     <text x="590" y="810" font-size="30" font-weight="400" fill="#555553" text-anchor="start"><tspan x="590" dy="0">Outcome language</tspan><tspan x="590" dy="50">Comparative language</tspan><tspan x="590" dy="50">Any regulated claim</tspan></text>
+     <line x1="84" y1="1180" x2="996" y2="1180" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="84" y="1248" font-size="22" font-weight="400" fill="#555553" text-anchor="start"><tspan x="84" dy="0">Editorial strategy is not legal, medical, scientific, or regulatory approval.</tspan></text>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "slug": "ai-marketing-agents-hype-vs-harness",
+  "title": "ai marketing agents: hype vs. harness",
+  "compiled": "aug 6, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+  "brief_md": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.md",
+  "paths": [
+    {
+      "path": "directives/orchestration-doctrine.md",
+      "abs": "/Users/farricecain/Google Antigravity/directives/orchestration-doctrine.md",
+      "role": "Repo inventory — agent infrastructure (22 launchd jobs, 3 headless loops, mission-runner gates)"
+    },
+    {
+      "path": "execution/apify_client.py",
+      "abs": "/Users/farricecain/Google Antigravity/execution/apify_client.py",
+      "role": "Repo inventory — outbound/extraction assets (no send capability anywhere)"
+    },
+    {
+      "path": ".agent/health/signal-scout-2026-08-06-test.json",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/health/signal-scout-2026-08-06-test.json",
+      "role": "signal_scout.py live test receipt"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=mD7JpNHLT70",
+      "label": "isenberg × schneider · 02:27"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#F3F3F0"/>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .label { font-weight: 700; letter-spacing: .16em; }
+    .display { letter-spacing: -.025em; }
+  </style>
+  <text x="84" y="92" font-size="22" font-weight="700" fill="#101010" text-anchor="start" class="label"><tspan x="84" dy="0">FARRICE CAIN</tspan></text>
+     <text x="996" y="92" font-size="19" font-weight="700" fill="#555553" text-anchor="end" class="label"><tspan x="996" dy="0">01 / 04</tspan></text>
+     <line x1="84" y1="128" x2="996" y2="128" stroke="#D8D8D3" stroke-width="2"/>
+     <text x="84" y="460" font-size="84" font-weight="700" fill="#101010" text-anchor="start" class="display"><tspan x="84" dy="0">Another creative round</tspan><tspan x="84" dy="92">is easy to approve.</tspan></text>
+     <text x="84" y="730" font-size="60" font-weight="400" fill="#555553" text-anchor="start" class="display"><tspan x="84" dy="0">Choosing one argument</tspan><tspan x="84" dy="68">is harder to own.</tspan></text>
+     <line x1="84" y1="1150" x2="996" y2="1150" stroke="#101010" stroke-width="3"/>
+     <text x="84" y="1230" font-size="18" font-weight="700" fill="#555553" text-anchor="start" class="label"><tspan x="84" dy="0">THE DECISION BEFORE THE CREATIVE</tspan></text>
+</svg>

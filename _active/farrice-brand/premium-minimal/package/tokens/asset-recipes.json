@@ -1,0 +1,102 @@
+{
+  "version": "0.9-review",
+  "recipes": {
+    "linkedin_banner": {
+      "mode": "offer",
+      "canvas_px": [1584, 396],
+      "format": ["svg", "png"],
+      "outer_margin_px": 48,
+      "quiet_profile_field": {"x_min": 0, "x_max": 360},
+      "live_type_field": {"x_min": 438, "x_max": 1510, "y_min": 52, "y_max": 340},
+      "hierarchy": ["offer masthead", "dominant outcome", "buyer cue"],
+      "approved_source": "templates/banner/angle-map-linkedin-banner-premium-minimal-v2.svg",
+      "state": "approved-baseline",
+      "note": "Preserve the supplied approved file exactly; its legacy colors are not canonical future tokens."
+    },
+    "article_featured_cover": {
+      "mode": "master_brand",
+      "canvas_px": [1920, 1080],
+      "format": ["svg", "png"],
+      "outer_margin_px": 120,
+      "essential_title_safe_fraction": 0.8,
+      "hierarchy": ["master-brand masthead", "article title", "one-sentence belief cue"],
+      "template": "templates/static/fc-pm1_li-article-belief_review_v01.svg",
+      "state": "review"
+    },
+    "featured_offer_cover": {
+      "mode": "offer",
+      "canvas_px": [1920, 1080],
+      "format": ["svg", "png"],
+      "outer_margin_px": 120,
+      "hierarchy": ["offer masthead", "three-angle outcome", "lead-route signal"],
+      "template": "templates/static/fc-pm1_li-featured-angle-map_review_v01.svg",
+      "state": "review"
+    },
+    "single_image_insight": {
+      "mode": "master_brand",
+      "canvas_px": [1080, 1350],
+      "format": ["svg", "png"],
+      "safe_area_px": {"left": 84, "right": 84, "top": 96, "bottom": 108},
+      "visible_word_target_max": 24,
+      "hierarchy": ["master-brand masthead", "one argument", "optional functional motif"],
+      "template": "templates/static/fc-pm1_li-insight-hook-vs-angle_review_v01.svg",
+      "state": "review"
+    },
+    "document_carousel": {
+      "mode": "mixed-master-and-offer",
+      "canvas_px": [1080, 1350],
+      "format": ["pptx", "pdf", "png", "svg"],
+      "recommended_pages": [6, 10],
+      "provided_example_pages": 4,
+      "safe_area_px": {"left": 84, "right": 84, "top": 96, "bottom": 108},
+      "dark_interruption_max": 1,
+      "hierarchy": ["functional masthead", "one point per page", "clear final decision"],
+      "editable_sources": [
+        "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_01_review_v01.svg",
+        "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_02_review_v01.svg",
+        "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_03_review_v01.svg",
+        "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_04_review_v01.svg"
+      ],
+      "assembled_flat_page_container": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_review_v01.pptx",
+      "review_export": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_review_v01.pdf",
+      "state": "review"
+    },
+    "angle_decision_card": {
+      "mode": "offer",
+      "canvas_px": [1080, 1350],
+      "format": ["svg", "png"],
+      "required_fields": [
+        "angle number and name",
+        "core buyer belief",
+        "hook directions",
+        "approved-proof direction",
+        "editorial boundary"
+      ],
+      "proof_label_required_for_demo": "FICTIONAL DEMONSTRATION · NOT CLIENT WORK",
+      "template": "templates/static/fc-pm1_li-angle-card-label-review_v01.svg",
+      "state": "review"
+    },
+    "proof_boundary_card": {
+      "mode": "master_brand",
+      "canvas_px": [1080, 1350],
+      "format": ["svg", "png"],
+      "required_fields": [
+        "what supplied proof supports",
+        "what returns for qualified review",
+        "editorial non-approval line"
+      ],
+      "proof_label_required_for_demo": "FICTIONAL DEMONSTRATION · NOT CLIENT WORK",
+      "template": "templates/static/fc-pm1_li-proof-boundary_review_v01.svg",
+      "state": "review"
+    },
+    "landscape_field_guide": {
+      "mode": "master_brand",
+      "aspect_ratio": "16:9",
+      "format": ["pptx", "pdf"],
+      "provided_pages": 12,
+      "hierarchy": ["section chrome", "one governing decision", "supporting evidence"],
+      "template": "templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pptx",
+      "state": "review"
+    }
+  }
+}

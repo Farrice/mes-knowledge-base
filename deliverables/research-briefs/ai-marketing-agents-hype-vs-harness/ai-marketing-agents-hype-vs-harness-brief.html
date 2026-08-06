@@ -5,20 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ai marketing agents: hype vs. harness · Research Brief</title>
 <style>
-  /* ── Codex Antigravity Design System tokens (_active/codex-harvest-2026-06-11/DESIGN.md) ── */
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
   :root{
-    --ag-ink: oklch(18% 0.012 245);
-    --ag-paper: oklch(97% 0.008 92);
-    --ag-surface: oklch(93% 0.012 100);
-    --ag-line: oklch(76% 0.018 95);
-    --ag-accent: oklch(55% 0.115 43);
-    --ag-proof: oklch(49% 0.082 168);
-    --ag-risk: oklch(56% 0.126 23);
-    --ag-focus: oklch(50% 0.105 265);
-    --ag-ink-soft: oklch(38% 0.012 245);
-    --ag-ink-mute: oklch(52% 0.012 245);
-    --ag-paper-ink: oklch(94% 0.01 92);   /* paper-toned text on ink surfaces */
-    --ag-line-ink: oklch(34% 0.012 245);  /* rules on ink surfaces */
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
     --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
     --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
     --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
@@ -81,15 +85,15 @@
 
   /* decision layer — the one inverted section */
   .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
-  .decision .kicker{ color:oklch(70% 0.02 92) }
+  .decision .kicker{ color:var(--ag-mute-dark) }
   .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
-  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:oklch(75% 0.1 43) }
-  .decision .dek{ color:oklch(78% 0.015 92); font-size:14px; margin-top:12px }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
   .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
   .dec-item:last-child{ border-bottom:none }
-  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:oklch(75% 0.1 43); min-width:22px; margin-top:1px }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
   .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
-  .dec-item p{ font-size:12.5px; line-height:1.55; color:oklch(75% 0.015 92); margin-top:4px }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
 
   /* bars — same-scale small multiples */
   .bars-group{ display:grid; gap:14px; margin-top:6px }
@@ -136,6 +140,75 @@
   .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
   .ledger td a:hover{ text-decoration:underline }
 
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
   footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
     font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
 
@@ -144,6 +217,9 @@
     .trust{ grid-template-columns:1fr 1fr }
     .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
     .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
   }
   @media print{
     .brief-nav{ position:static }
@@ -154,7 +230,7 @@
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row"><a href="#the-verdict">the verdict</a><a href="#his-claims-vs-what-checked-out">his claims vs. what checked out</a><a href="#what-your-harness-actually-runs-without-you">what your harness actually runs without you</a><a href="#what-got-built-overnight-and-where-it-stops">what got built overnight — and where it stops</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#the-verdict">the verdict</a><a href="#his-claims-vs-what-checked-out">his claims vs. what checked out</a><a href="#what-your-harness-actually-runs-without-you">what your harness actually runs without you</a><a href="#what-got-built-overnight-and-where-it-stops">what got built overnight — and where it stops</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a></div></nav>
 
 <div class="wrap">
   <header>
@@ -169,7 +245,37 @@
     </div>
   </header>
 
-  <section class="blk" id="the-verdict"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the verdict</h2></div><span class="kicker" style="margin-bottom:8px">IS HE BLOWING SMOKE?</span><div class="panel"><p>No — but he is not ahead of you architecturally. Cody&#x27;s own definition of an agent is &#x27;plain code on a cron job with an LLM attached where judgment is needed.&#x27; That is exactly your proven angle-map listening loop: 22 scheduled jobs, 3 of them spawning headless Claude, one log-verified daily run that scrapes, writes a brief, and commits while you sleep. His real edge was domain plumbing you lacked: engager scraping, enrichment, sending infrastructure. As of this morning the listening half of that edge is yours — and the sending half stays human by your own decision, which the audit says is the right call: nothing in this repo can send a message, and that is a feature protecting your reputation and deliverability, not a gap.</p></div></section><section class="blk" id="his-claims-vs-what-checked-out"><div class="sechead"><span class="secnum">02</span><h2 class="sec">his claims vs. what checked out</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Reply rates are collapsing as AI volume floods inboxes; intent signals beat firmographics</h3><p>Directionally consistent with the market; his fix — target people who ENGAGED with niche content (&#x27;a like is a hand-raise&#x27;) — is a targeting doctrine, not a tool claim. Extracted as durable core.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 02:27 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>10–20 source creators ≈ 80% surface-area coverage of a niche audience</h3><p>His stated heuristic from running this at scale; unverifiable externally but matches power-law audience overlap. Adopted as the sizing rule for your listening-creators config.</p><div class="meta"><span class="conf unconfirmed">UNCONFIRMED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 04:26 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>One post yields ~63 deduped engagers via Apify apimaestro actors</h3><p>Replicated and beaten in your harness overnight: 4 posts → 229 unique engagers, $0.50 total, inside the existing $29/mo Apify budget. Both actors live-tested with verified input schemas.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">live demo 10:59 vs. signal_scout test run ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>~$200/mo covers sending infra + inboxes for ~10,000 cold emails</h3><p>Plausible market pricing (Instantly $97 tier + ~$100 domains/inboxes). NOT built: no SMTP, no ESP, no send tool exists anywhere in the repo — and you ruled sending stays human. Parked, not lost: logic captured in the era-bound appendix.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 25:38 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>&#x27;An agent is plain code on a cron job with an LLM attached where judgment is needed&#x27;</h3><p>This is your architecture already: launchd + deterministic Python + headless claude -p where judgment matters. The angle-map loop proved it in production Aug 5 (scraped, wrote GEO brief, committed 10 files, zero human touches).</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 12:59 vs. listening-run.log ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Organic engine: real source material → LLM drafts → scheduler → analytics remix loop</h3><p>You already own ~80% of this: voice card, thought-bank capture, LinkedIn content engines, blind-bar QA (he shows NO quality layer). Missing piece is only the scheduler/analytics loop — deferred to the Organic Engine build with your Lara×Cole hybrid pen.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 31:41 vs. repo inventory ↗</a></div></div></div></section><section class="blk" id="what-your-harness-actually-runs-without-you"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what your harness actually runs without you</h2></div><p>Twenty-two launchd jobs run on schedule. Nineteen are deterministic Python: memory harvest and decay, health audits, registry sync, social pulse scrapes, notion mirror. Three spawn a headless Claude: the angle-map listening engine (05:30 daily, log-proven), the zeitgeist daily brief (06:20 — loaded and healthy, first live fire is this morning), and the AFK mission runner (02:30, drains T1-tier cards only, with a regex net that refuses any card containing publish, send, post-to, payment, purchase, or deploy).</p><p>The honest gap the inventory surfaced: 235 expert personas and 406 skills are context loaded into sessions, not free-roaming employees — and your one runtime persona factory (agent-forge) mints markdown, not processes. That is by design (your 2026-05-25 ruling killed the subagent roster as a quality regression). The leverage move is not more skills; it is more scheduled loops that LOAD those skills and leave artifacts on your board — which is exactly what got built tonight.</p></section><section class="decision" id="what-got-built-overnight-and-where-it-stops"><span class="kicker">THE OPENING</span><h2>what got built overnight — and where it <em>stops</em></h2><p class="dek">each loop listens, drafts, and files a receipt. none of them can touch your reputation.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Signal Scout — execution/signal_scout.py + two new Apify actors (post-reactions, post-comments)</h3><p>Listening-only. Test run: 4 posts → 229 scored engagers + resonance report + ICP-verbatim comment language for $0.50. Config: _active/linkedin-launch/05-lead-gen/listening-creators.md (seeded with 2 verified handles — add your real 10–20).</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Angle Brief loop — com.antigravity.angle-brief, Mon/Thu 07:00</h3><p>Fuses scout resonance + zeitgeist lanes + thought-bank into one visual HTML brief of hook and content angles tied to live work. First supervised edition renders this morning; launchd owns it from Monday.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Cody Schneider skill — skills/cody-schneider-signal-outbound/ + /cody commands</h3><p>Forge-grade extraction: signal doctrine and system-design workflows as durable core, tool stack quarantined in a dated era-bound appendix, waterfall and outbound blueprints preserved for the day you explicitly unlock outreach.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Zeitgeist confirmed armed</h3><p>The &#x27;not loaded&#x27; warning was stale — plist loaded, engine healthy, budget green ($0.84 spent of $29). First scheduled synthesis fires 06:20 today; its receipt is the log to check.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>NOT built, on purpose: sending, enrichment purchases, reply automation</h3><p>Your call, and the audit backs it: outbound send touches reputation and deliverability; enrichment costs ~$50–100/mo before a single dollar of demand is proven. Both revive only on your explicit unlock — the campaign&#x27;s real blocker is the missing $750 payment URL, not automation.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">run the scout by hand (any creators, any time)</span><button class="copybtn" type="button">copy</button></div><pre>python3 execution/signal_scout.py --creators justinwelsh,gisenberg --posts-per-creator 3</pre></div><div class="deploy"><div class="bar"><span class="k">read this week&#x27;s intelligence</span><button class="copybtn" type="button">copy</button></div><pre>open the briefs board: /briefs — angle briefs land Mon/Thu by 07:30; zeitgeist daily by 06:40</pre></div><div class="deploy"><div class="bar"><span class="k">deploy the extracted expert</span><button class="copybtn" type="button">copy</button></div><pre>/cody-schneider-signal-outbound — or load skills/cody-schneider-signal-outbound/SKILL.md and pick a workflow</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Three things are wired but not yet battle-proven: the zeitgeist loop&#x27;s first scheduled fire is this morning, the angle-brief loop&#x27;s first unattended run is Monday, and the new actors&#x27; per-event pricing has one data point each — watch the first week of receipts in .agent/health/. The scout samples page one of engagement (up to 100 reactions + 100 comments per post), so mega-posts are sampled, not exhausted. One standing risk worth knowing: the Playwright browser tools in this session could technically drive a logged-in LinkedIn — no workflow uses them for that and nothing authorizes it, but the capability exists and is worth a future explicit gate. And the 80% coverage heuristic is Cody&#x27;s experience, not a law — your creators file is the lever that decides signal quality.</p><a class="cta" href="#deploy-blocks">OKAY, SHOW ME THE ANGLES</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">stack: yt-dlp · watch-plugin · apify · repo-grep</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>These AI Marketing Agents Get You Customers — Greg Isenberg × Cody Schneider</td><td><a href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">https://www.youtube.com/watch?v=mD7JpNHLT70</a></td><td>2026-08-06</td><td>all Cody claims; transcript 8,932 words + 100 frames on disk</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Repo inventory — agent infrastructure (22 launchd jobs, 3 headless loops, mission-runner gates)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/directives/orchestration-doctrine.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/directives/orchestration-doctrine.md</a></td><td>2026-08-06</td><td>autonomy audit; verified via launchctl list + run logs</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Repo inventory — outbound/extraction assets (no send capability anywhere)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/execution/apify_client.py" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/execution/apify_client.py</a></td><td>2026-08-06</td><td>send-capability flag, Apify actor registry, budget state</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>signal_scout.py live test receipt</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json</a></td><td>2026-08-06</td><td>229-engager benchmark, $0.50 run cost</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+  <section class="blk" id="the-verdict"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the verdict</h2></div><span class="kicker" style="margin-bottom:8px">IS HE BLOWING SMOKE?</span><div class="panel"><p>No — but he is not ahead of you architecturally. Cody&#x27;s own definition of an agent is &#x27;plain code on a cron job with an LLM attached where judgment is needed.&#x27; That is exactly your proven angle-map listening loop: 22 scheduled jobs, 3 of them spawning headless Claude, one log-verified daily run that scrapes, writes a brief, and commits while you sleep. His real edge was domain plumbing you lacked: engager scraping, enrichment, sending infrastructure. As of this morning the listening half of that edge is yours — and the sending half stays human by your own decision, which the audit says is the right call: nothing in this repo can send a message, and that is a feature protecting your reputation and deliverability, not a gap.</p></div></section><section class="blk" id="his-claims-vs-what-checked-out"><div class="sechead"><span class="secnum">02</span><h2 class="sec">his claims vs. what checked out</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Reply rates are collapsing as AI volume floods inboxes; intent signals beat firmographics</h3><p>Directionally consistent with the market; his fix — target people who ENGAGED with niche content (&#x27;a like is a hand-raise&#x27;) — is a targeting doctrine, not a tool claim. Extracted as durable core.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 02:27 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>10–20 source creators ≈ 80% surface-area coverage of a niche audience</h3><p>His stated heuristic from running this at scale; unverifiable externally but matches power-law audience overlap. Adopted as the sizing rule for your listening-creators config.</p><div class="meta"><span class="conf unconfirmed">UNCONFIRMED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 04:26 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>One post yields ~63 deduped engagers via Apify apimaestro actors</h3><p>Replicated and beaten in your harness overnight: 4 posts → 229 unique engagers, $0.50 total, inside the existing $29/mo Apify budget. Both actors live-tested with verified input schemas.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">live demo 10:59 vs. signal_scout test run ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>~$200/mo covers sending infra + inboxes for ~10,000 cold emails</h3><p>Plausible market pricing (Instantly $97 tier + ~$100 domains/inboxes). NOT built: no SMTP, no ESP, no send tool exists anywhere in the repo — and you ruled sending stays human. Parked, not lost: logic captured in the era-bound appendix.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 25:38 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>&#x27;An agent is plain code on a cron job with an LLM attached where judgment is needed&#x27;</h3><p>This is your architecture already: launchd + deterministic Python + headless claude -p where judgment matters. The angle-map loop proved it in production Aug 5 (scraped, wrote GEO brief, committed 10 files, zero human touches).</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 12:59 vs. listening-run.log ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Organic engine: real source material → LLM drafts → scheduler → analytics remix loop</h3><p>You already own ~80% of this: voice card, thought-bank capture, LinkedIn content engines, blind-bar QA (he shows NO quality layer). Missing piece is only the scheduler/analytics loop — deferred to the Organic Engine build with your Lara×Cole hybrid pen.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">isenberg × schneider · 31:41 vs. repo inventory ↗</a></div></div></div></section><section class="blk" id="what-your-harness-actually-runs-without-you"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what your harness actually runs without you</h2></div><p>Twenty-two launchd jobs run on schedule. Nineteen are deterministic Python: memory harvest and decay, health audits, registry sync, social pulse scrapes, notion mirror. Three spawn a headless Claude: the angle-map listening engine (05:30 daily, log-proven), the zeitgeist daily brief (06:20 — loaded and healthy, first live fire is this morning), and the AFK mission runner (02:30, drains T1-tier cards only, with a regex net that refuses any card containing publish, send, post-to, payment, purchase, or deploy).</p><p>The honest gap the inventory surfaced: 235 expert personas and 406 skills are context loaded into sessions, not free-roaming employees — and your one runtime persona factory (agent-forge) mints markdown, not processes. That is by design (your 2026-05-25 ruling killed the subagent roster as a quality regression). The leverage move is not more skills; it is more scheduled loops that LOAD those skills and leave artifacts on your board — which is exactly what got built tonight.</p></section><section class="decision" id="what-got-built-overnight-and-where-it-stops"><span class="kicker">THE OPENING</span><h2>what got built overnight — and where it <em>stops</em></h2><p class="dek">each loop listens, drafts, and files a receipt. none of them can touch your reputation.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Signal Scout — execution/signal_scout.py + two new Apify actors (post-reactions, post-comments)</h3><p>Listening-only. Test run: 4 posts → 229 scored engagers + resonance report + ICP-verbatim comment language for $0.50. Config: _active/linkedin-launch/05-lead-gen/listening-creators.md (seeded with 2 verified handles — add your real 10–20).</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Angle Brief loop — com.antigravity.angle-brief, Mon/Thu 07:00</h3><p>Fuses scout resonance + zeitgeist lanes + thought-bank into one visual HTML brief of hook and content angles tied to live work. First supervised edition renders this morning; launchd owns it from Monday.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Cody Schneider skill — skills/cody-schneider-signal-outbound/ + /cody commands</h3><p>Forge-grade extraction: signal doctrine and system-design workflows as durable core, tool stack quarantined in a dated era-bound appendix, waterfall and outbound blueprints preserved for the day you explicitly unlock outreach.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Zeitgeist confirmed armed</h3><p>The &#x27;not loaded&#x27; warning was stale — plist loaded, engine healthy, budget green ($0.84 spent of $29). First scheduled synthesis fires 06:20 today; its receipt is the log to check.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>NOT built, on purpose: sending, enrichment purchases, reply automation</h3><p>Your call, and the audit backs it: outbound send touches reputation and deliverability; enrichment costs ~$50–100/mo before a single dollar of demand is proven. Both revive only on your explicit unlock — the campaign&#x27;s real blocker is the missing $750 payment URL, not automation.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">run the scout by hand (any creators, any time)</span><button class="copybtn" type="button">copy</button></div><pre>python3 execution/signal_scout.py --creators justinwelsh,gisenberg --posts-per-creator 3</pre></div><div class="deploy"><div class="bar"><span class="k">read this week&#x27;s intelligence</span><button class="copybtn" type="button">copy</button></div><pre>open the briefs board: /briefs — angle briefs land Mon/Thu by 07:30; zeitgeist daily by 06:40</pre></div><div class="deploy"><div class="bar"><span class="k">deploy the extracted expert</span><button class="copybtn" type="button">copy</button></div><pre>/cody-schneider-signal-outbound — or load skills/cody-schneider-signal-outbound/SKILL.md and pick a workflow</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Three things are wired but not yet battle-proven: the zeitgeist loop&#x27;s first scheduled fire is this morning, the angle-brief loop&#x27;s first unattended run is Monday, and the new actors&#x27; per-event pricing has one data point each — watch the first week of receipts in .agent/health/. The scout samples page one of engagement (up to 100 reactions + 100 comments per post), so mega-posts are sampled, not exhausted. One standing risk worth knowing: the Playwright browser tools in this session could technically drive a logged-in LinkedIn — no workflow uses them for that and nothing authorizes it, but the capability exists and is worth a future explicit gate. And the 80% coverage heuristic is Cody&#x27;s experience, not a law — your creators file is the lever that decides signal quality.</p><a class="cta" href="#deploy-blocks">OKAY, SHOW ME THE ANGLES</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">stack: yt-dlp · watch-plugin · apify · repo-grep</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>These AI Marketing Agents Get You Customers — Greg Isenberg × Cody Schneider</td><td><a href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">https://www.youtube.com/watch?v=mD7JpNHLT70</a></td><td>2026-08-06</td><td>all Cody claims; transcript 8,932 words + 100 frames on disk</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Repo inventory — agent infrastructure (22 launchd jobs, 3 headless loops, mission-runner gates)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/directives/orchestration-doctrine.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/directives/orchestration-doctrine.md</a></td><td>2026-08-06</td><td>autonomy audit; verified via launchctl list + run logs</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Repo inventory — outbound/extraction assets (no send capability anywhere)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/execution/apify_client.py" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/execution/apify_client.py</a></td><td>2026-08-06</td><td>send-capability flag, Apify actor registry, budget state</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>signal_scout.py live test receipt</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json</a></td><td>2026-08-06</td><td>229-engager benchmark, $0.50 run cost</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/directives/orchestration-doctrine.md">directives/orchestration-doctrine.md</a></td><td>Repo inventory — agent infrastructure (22 launchd jobs, 3 headless loops, mission-runner gates)</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/execution/apify_client.py">execution/apify_client.py</a></td><td>Repo inventory — outbound/extraction assets (no send capability anywhere)</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.agent/health/signal-scout-2026-08-06-test.json">.agent/health/signal-scout-2026-08-06-test.json</a></td><td>signal_scout.py live test receipt</td></tr><tr><td>04</td><td><a href="https://www.youtube.com/watch?v=mD7JpNHLT70" target="_blank" rel="noopener">https://www.youtube.com/watch?v=mD7JpNHLT70</a></td><td>isenberg × schneider · 02:27</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;ai-marketing-agents-hype-vs-harness&quot;,
+  &quot;title&quot;: &quot;ai marketing agents: hype vs. harness&quot;,
+  &quot;compiled&quot;: &quot;aug 6, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;directives/orchestration-doctrine.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/directives/orchestration-doctrine.md&quot;,
+      &quot;role&quot;: &quot;Repo inventory — agent infrastructure (22 launchd jobs, 3 headless loops, mission-runner gates)&quot;
+    },
+    {
+      &quot;path&quot;: &quot;execution/apify_client.py&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/execution/apify_client.py&quot;,
+      &quot;role&quot;: &quot;Repo inventory — outbound/extraction assets (no send capability anywhere)&quot;
+    },
+    {
+      &quot;path&quot;: &quot;.agent/health/signal-scout-2026-08-06-test.json&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.agent/health/signal-scout-2026-08-06-test.json&quot;,
+      &quot;role&quot;: &quot;signal_scout.py live test receipt&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.youtube.com/watch?v=mD7JpNHLT70&quot;,
+      &quot;label&quot;: &quot;isenberg × schneider · 02:27&quot;
+    }
+  ]
+}</pre></div></section>
 
   <footer class="brief">
     <span>ANTIGRAVITY RESEARCH</span>
@@ -191,7 +297,9 @@
   }
   document.querySelectorAll('.copybtn').forEach(function(btn){
     btn.addEventListener('click', function(){
-      var pre=btn.closest('.deploy').querySelector('pre');
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
       if(pre) copyText(pre.textContent, btn);
     });
   });

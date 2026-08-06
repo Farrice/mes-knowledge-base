@@ -6,12 +6,17 @@ Takes a structured brief JSON, injects it into templates/research-brief/template
 writes deliverables/research-briefs/<slug>/<slug>-brief.html (+ copies the source JSON
 alongside for provenance). The asset board indexes that directory as the Briefs shelf.
 
-Design system: Codex Antigravity (_active/codex-harvest-2026-06-11/DESIGN.md) — tokens
-live in the template, never here. All content strings are html-escaped (XSS discipline
+Design system: Farrice Cain Premium Minimal, report dialect
+(_active/farrice-brand/premium-minimal/ + REPORT-DIALECT.md) — tokens live in the
+template, never here. All content strings are html-escaped (XSS discipline
 mirrors asset_gallery.py: briefs carry arbitrary scraped text).
 
 Usage:
     python3 execution/render_brief.py <brief.json> [--out-dir DIR] [--open]
+
+Outputs per slug: <slug>-brief.html, <slug>-brief.json (provenance copy),
+<slug>-brief.md (agent-paste mirror), <slug>-context.json (agent context pack —
+every file path + source URL the brief references, with roles).
 
 Brief JSON schema (all content fields are plain text; wrap ONE word in *asterisks*
 inside title/heading fields to set it in the italic-serif accent voice):
@@ -44,10 +49,34 @@ inside title/heading fields to set it in the italic-serif accent voice):
       "blocks":[{"label":"research prompt", "text":"..."}]},
     {"kind":"caveats",  "heading":"what this *isn't*", "kicker":"CAVEATS WORTH KEEPING",
       "body":"reliability ranking of this brief's own data.",
-      "cta":{"label":"OKAY, SO MAKE THE POST", "href":"#deploy-blocks"}}
+      "cta":{"label":"OKAY, SO MAKE THE POST", "href":"#deploy-blocks"}},
+
+    # ── enrichment kinds (2026-08-06, all additive) ──
+    {"kind":"playbook", "heading":"the playbook", "tag":"RUN THIS",
+      "plays":[{"title":"...", "intent":"one line on why this play", "command":"python3 …",
+                "touches":["execution/foo.py", ".agent/bar.json"], "receipt":"what to check after"}]},
+    {"kind":"assets",   "heading":"linked assets", "tag":"THE RAIL",
+      "items":[{"title":"...", "role":"POSTER", "path":"deliverables/…/x.png",
+                "thumb":"deliverables/…/x.png",   # optional image preview
+                "note":"..."}]},
+    {"kind":"timeline", "heading":"how we got here",
+      "items":[{"date":"2026-08-05", "title":"...", "body":"...", "done":true}]},
+    {"kind":"flow",     "heading":"the pipeline", "caption":"optional",
+      "steps":[{"title":"...", "note":"..."}]},
+    {"kind":"stats",    "heading":"by the numbers",
+      "items":[{"value":"229", "unit":"engagers", "label":"4 POSTS SCRAPED", "note":"$0.50 total"}]},
+    {"kind":"matrix",   "heading":"where things sit",
+      "axes":{"x":"effort →", "y":"↑ impact"},
+      "quads":[{"label":"HIGH IMPACT · LOW EFFORT",
+                "items":[{"name":"...", "note":"..."}]}]},   # 4 quads: TL TR BL BR
+    {"kind":"related",  "heading":"swings to", "tag":"CONNECTED",
+      "links":[{"k":"BRIEF", "title":"...", "path":"deliverables/…/x-brief.html"},
+               {"k":"SOLUTION", "title":"...", "path":"docs/solutions/….md"},
+               {"k":"WEB", "title":"...", "href":"https://…"}]}
   ],
   "ledger":[{"source":"...", "url":"https://…", "retrieved":"2026-08-05",
-             "used_for":"...", "confidence":"VERIFIED"}]
+             "used_for":"...", "confidence":"VERIFIED"}],
+  "context":[{"path":"FARRICE-MASTER-CONTEXT.md", "role":"canonical identity"}]  # optional extras for the pack
 }
 """
 import argparse
@@ -57,6 +86,7 @@ import re
 import shutil
 import subprocess
 import sys
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -192,6 +222,129 @@ def render_caveats(num, s):
             f'<h2>{accent(s["heading"])}</h2>{paragraphs(s.get("body"))}{cta}</section>')
 
 
+def _is_url(s):
+    return bool(re.match(r"^[a-z][a-z0-9+.-]*://", str(s or "")))
+
+
+def _file_href(path):
+    """repo-relative or absolute path → file:// href."""
+    p = str(path or "")
+    if _is_url(p):
+        return p
+    ap = Path(p)
+    if not ap.is_absolute():
+        ap = ROOT / p
+    return ap.as_uri()
+
+
+def _rel_display(path):
+    """Show paths repo-relative wherever possible."""
+    p = str(path or "")
+    root = str(ROOT) + "/"
+    return p[len(root):] if p.startswith(root) else p
+
+
+def render_playbook(num, s):
+    plays = []
+    for i, p in enumerate(s.get("plays", []), 1):
+        intent = f'<p class="intent">{esc(p.get("intent"))}</p>' if p.get("intent") else ""
+        touches = ""
+        if p.get("touches"):
+            touches = ('<div class="touches">'
+                       + "".join(f"<span>{esc(_rel_display(t))}</span>" for t in p["touches"])
+                       + "</div>")
+        receipt = f'<div class="receipt"><b>receipt</b>{esc(p.get("receipt"))}</div>' if p.get("receipt") else ""
+        plays.append(
+            '<div class="play"><div class="head">'
+            f'<span class="n">{i:02d}</span><h3>{esc(p.get("title"))}</h3>'
+            '<button class="copybtn" type="button">copy</button></div>'
+            f'<div class="body">{intent}<pre>{esc(p.get("command"))}</pre>{touches}{receipt}</div></div>'
+        )
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag") or "RUN THIS")}'
+            + "".join(plays) + "</section>")
+
+
+def render_assets(num, s):
+    cards = []
+    for it in s.get("items", []):
+        role = f'<span class="role">{esc(it.get("role") or "ASSET")}</span>'
+        thumb = ""
+        if it.get("thumb"):
+            thumb = f'<img src="{esc(_file_href(it["thumb"]))}" alt="{esc(it.get("title"))}" loading="lazy">'
+        note = f"<p>{esc(it.get('note'))}</p>" if it.get("note") else ""
+        path_abs = str((ROOT / it["path"]) if it.get("path") and not _is_url(it["path"]) and not Path(it["path"]).is_absolute()
+                       else it.get("path") or "")
+        pathrow = ""
+        if it.get("path"):
+            pathrow = ('<div class="pathrow">'
+                       f'<a class="path" href="{esc(_file_href(it["path"]))}">{esc(_rel_display(it["path"]))}</a>'
+                       f'<button class="copybtn" type="button" data-copy="{esc(path_abs)}">copy path</button></div>')
+        cards.append(f'<div class="asset">{role}<h3>{esc(it.get("title"))}</h3>{thumb}{note}{pathrow}</div>')
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag") or "THE RAIL")}'
+            f'<div class="assetgrid">{"".join(cards)}</div></section>')
+
+
+def render_timeline(num, s):
+    items = []
+    for it in s.get("items", []):
+        done = " done" if it.get("done") else ""
+        date = f'<span class="date">{esc(it.get("date"))}</span>' if it.get("date") else ""
+        body = f"<p>{esc(it.get('body'))}</p>" if it.get("body") else ""
+        items.append(f'<div class="tl-item{done}">{date}<h3>{esc(it.get("title"))}</h3>{body}</div>')
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
+            f'<div class="timeline">{"".join(items)}</div></section>')
+
+
+def render_flow(num, s):
+    parts = []
+    steps = s.get("steps", [])
+    for i, st in enumerate(steps, 1):
+        note = f"<p>{esc(st.get('note'))}</p>" if st.get("note") else ""
+        parts.append(f'<div class="step"><span class="n">{i:02d}</span><h3>{esc(st.get("title"))}</h3>{note}</div>')
+        if i < len(steps):
+            parts.append('<span class="arrow">→</span>')
+    caption = f'<div class="bars-caption">{esc(s.get("caption"))}</div>' if s.get("caption") else ""
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
+            f'<div class="flow">{"".join(parts)}</div>{caption}</section>')
+
+
+def render_stats(num, s):
+    tiles = []
+    for it in s.get("items", []):
+        unit = f"<small> {esc(it['unit'])}</small>" if it.get("unit") else ""
+        note = f'<div class="note">{esc(it.get("note"))}</div>' if it.get("note") else ""
+        tiles.append(f'<div class="stat"><div class="num">{esc(it.get("value"))}{unit}</div>'
+                     f'<span class="lab">{esc(it.get("label"))}</span>{note}</div>')
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
+            f'<div class="stats">{"".join(tiles)}</div></section>')
+
+
+def render_matrix(num, s):
+    axes = ""
+    if s.get("axes"):
+        axes = f'<div class="matrix-axes">{esc(s["axes"].get("y") or "")} · {esc(s["axes"].get("x") or "")}</div>'
+    quads = []
+    for q in (s.get("quads") or [])[:4]:
+        lis = []
+        for i in q.get("items", []):
+            note = f"<small>{esc(i.get('note'))}</small>" if i.get("note") else ""
+            lis.append(f"<li>{esc(i.get('name'))}{note}</li>")
+        quads.append(f'<div class="quad"><span class="qlab">{esc(q.get("label"))}</span><ul>{"".join(lis)}</ul></div>')
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
+            f'{axes}<div class="matrix">{"".join(quads)}</div></section>')
+
+
+def render_related(num, s):
+    links = []
+    for l in s.get("links", []):
+        href = l.get("href") or (_file_href(l["path"]) if l.get("path") else "#")
+        ext = ' target="_blank" rel="noopener"' if _is_url(l.get("href") or "") else ""
+        links.append(f'<a href="{esc(href)}"{ext}><span class="k">{esc(l.get("k") or "LINK")}</span>'
+                     f'<span class="t">{esc(l.get("title"))}</span></a>')
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag") or "CONNECTED")}'
+            f'<div class="swing">{"".join(links)}</div></section>')
+
+
 RENDERERS = {
     "summary": render_summary,
     "prose": render_prose,
@@ -200,6 +353,13 @@ RENDERERS = {
     "decision": render_decision,
     "deploy": render_deploy,
     "caveats": render_caveats,
+    "playbook": render_playbook,
+    "assets": render_assets,
+    "timeline": render_timeline,
+    "flow": render_flow,
+    "stats": render_stats,
+    "matrix": render_matrix,
+    "related": render_related,
 }
 
 
@@ -237,7 +397,100 @@ def render_ledger(num, brief):
             f"<tbody>{body_rows}</tbody></table></section>")
 
 
-def build_nav(brief):
+def build_context_pack(brief):
+    """Collect every file path + source URL the brief references, with roles.
+
+    This is the agent-feed manifest: hand it (or <slug>-context.json) to any
+    agent/LLM and it knows exactly which documents ground this brief.
+    """
+    paths, urls, seen_p, seen_u = [], [], set(), set()
+
+    def add_path(p, role):
+        p = str(p or "").strip()
+        if not p:
+            return
+        if p.startswith("file://"):
+            p = urllib.parse.unquote(p[len("file://"):])
+        ap = Path(p)
+        if not ap.is_absolute():
+            ap = ROOT / p
+        key = str(ap)
+        if key in seen_p:
+            return
+        seen_p.add(key)
+        paths.append({"path": _rel_display(str(ap)), "abs": str(ap), "role": role})
+
+    def add_url(u, label):
+        u = str(u or "").strip()
+        if not u:
+            return
+        if u.startswith("file://"):
+            add_path(u, label)
+            return
+        if not _is_url(u) or u in seen_u:
+            return
+        seen_u.add(u)
+        urls.append({"url": u, "label": label})
+
+    for extra in brief.get("context", []):
+        add_path(extra.get("path"), extra.get("role") or "context")
+    for s in brief.get("sections", []):
+        kind = s.get("kind")
+        if kind == "evidence":
+            for r in s.get("rows", []):
+                add_url(r.get("source_url"), r.get("source_label") or "evidence source")
+        elif kind == "playbook":
+            for p in s.get("plays", []):
+                for t in p.get("touches", []):
+                    add_path(t, f"playbook · {p.get('title') or 'play'}")
+        elif kind == "assets":
+            for it in s.get("items", []):
+                add_path(it.get("path"), f"asset · {it.get('role') or 'asset'}")
+        elif kind == "related":
+            for l in s.get("links", []):
+                if l.get("path"):
+                    add_path(l["path"], f"related · {l.get('k') or 'link'}")
+                add_url(l.get("href"), l.get("title") or "related")
+    for r in brief.get("ledger", []):
+        add_url(r.get("url"), r.get("source") or "ledger source")
+
+    slug = brief.get("slug") or "brief"
+    return {
+        "slug": slug,
+        "title": _plain(brief.get("title")),
+        "compiled": brief.get("compiled"),
+        "generated_by": "execution/render_brief.py",
+        "brief_html": f"deliverables/research-briefs/{slug}/{slug}-brief.html",
+        "brief_md": f"deliverables/research-briefs/{slug}/{slug}-brief.md",
+        "paths": paths,
+        "urls": urls,
+    }
+
+
+def render_context_pack(num, pack):
+    if not pack["paths"] and not pack["urls"]:
+        return ""
+    rows = []
+    for i, p in enumerate(pack["paths"], 1):
+        rows.append(f'<tr><td>{i:02d}</td><td><a href="{esc(Path(p["abs"]).as_uri())}">{esc(p["path"])}</a></td>'
+                    f'<td>{esc(p["role"])}</td></tr>')
+    off = len(pack["paths"])
+    for i, u in enumerate(pack["urls"], 1):
+        rows.append(f'<tr><td>{off + i:02d}</td><td><a href="{esc(u["url"])}" target="_blank" rel="noopener">'
+                    f'{esc(u["url"])}</a></td><td>{esc(u["label"])}</td></tr>')
+    pack_json = json.dumps(pack, indent=2, ensure_ascii=False)
+    return (f'<section class="blk" id="context-pack">{sec_head(num, "context pack", "AGENT FEED")}'
+            '<p>every document and source this brief stands on — feed the block below (or the '
+            '<span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) '
+            "to any agent and it has the full grounding instantly.</p>"
+            '<table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table>'
+            '<div class="deploy"><div class="bar"><span class="k">agent context pack · json</span>'
+            '<button class="copybtn" type="button">copy</button></div>'
+            f"<pre>{esc(pack_json)}</pre></div></section>")
+
+
+def build_nav(brief, has_pack=False):
     links = []
     for s in brief.get("sections", []):
         if s.get("heading"):
@@ -245,6 +498,8 @@ def build_nav(brief):
             links.append(f'<a href="#{anchor(s["heading"])}">{esc(plain)}</a>')
     if brief.get("ledger"):
         links.append('<a href="#source-ledger">sources</a>')
+    if has_pack:
+        links.append('<a href="#context-pack">context pack</a>')
     return "".join(links)
 
 
@@ -259,11 +514,16 @@ def render(brief):
         sections_html.append(RENDERERS[kind](n, s))
     ledger_html = render_ledger(n + 1, brief)
     if ledger_html:
+        n += 1
         sections_html.append(ledger_html)
+    pack = build_context_pack(brief)
+    pack_html = render_context_pack(n + 1, pack)
+    if pack_html:
+        sections_html.append(pack_html)
     title_plain = re.sub(r"\*", "", brief.get("title", "untitled"))
     subs = {
         "{{TITLE_PLAIN}}": esc(title_plain),
-        "{{NAV}}": build_nav(brief),
+        "{{NAV}}": build_nav(brief, has_pack=bool(pack_html)),
         "{{CHIP}}": esc(brief.get("chip") or "RESEARCH BRIEF"),
         "{{TITLE}}": accent(brief.get("title") or "untitled"),
         "{{DEK}}": esc(brief.get("dek") or ""),
@@ -316,6 +576,45 @@ def render_markdown(brief):
         elif kind == "deploy":
             for b in s.get("blocks", []):
                 out += [f"**{b.get('label')}**", "```", str(b.get("text", "")), "```"]
+        elif kind == "playbook":
+            for i, p in enumerate(s.get("plays", []), 1):
+                intent = f" — {p.get('intent')}" if p.get("intent") else ""
+                out.append(f"{i}. **{p.get('title')}**{intent}")
+                if p.get("command"):
+                    out += ["```", str(p["command"]), "```"]
+                if p.get("touches"):
+                    out.append("   touches: " + " · ".join(_rel_display(t) for t in p["touches"]))
+                if p.get("receipt"):
+                    out.append(f"   receipt: {p['receipt']}")
+        elif kind == "assets":
+            for it in s.get("items", []):
+                note = f" — {it.get('note')}" if it.get("note") else ""
+                out.append(f"- **{it.get('title')}** [{it.get('role') or 'ASSET'}] `{_rel_display(it.get('path'))}`{note}")
+        elif kind == "timeline":
+            for it in s.get("items", []):
+                body = f" — {it.get('body')}" if it.get("body") else ""
+                out.append(f"- {it.get('date', '')} · **{it.get('title')}**{body}")
+        elif kind == "flow":
+            out.append(" → ".join(str(st.get("title")) for st in s.get("steps", [])))
+            for st in s.get("steps", []):
+                if st.get("note"):
+                    out.append(f"  - {st.get('title')}: {st['note']}")
+        elif kind == "stats":
+            for it in s.get("items", []):
+                unit = f" {it.get('unit')}" if it.get("unit") else ""
+                note = f" ({it.get('note')})" if it.get("note") else ""
+                out.append(f"- {it.get('label')}: **{it.get('value')}{unit}**{note}")
+        elif kind == "matrix":
+            for q in s.get("quads", []):
+                names = ", ".join(
+                    str(i.get("name")) + (f" ({i.get('note')})" if i.get("note") else "")
+                    for i in q.get("items", [])
+                )
+                out.append(f"- **{q.get('label')}**: {names}")
+        elif kind == "related":
+            for l in s.get("links", []):
+                ref = l.get("href") or _rel_display(l.get("path"))
+                out.append(f"- [{l.get('k') or 'LINK'}] {l.get('title')} — {ref}")
         else:  # summary / prose / caveats
             if s.get("kicker"):
                 out.append(f"_{s['kicker']}_")
@@ -326,6 +625,13 @@ def render_markdown(brief):
             url = f" — {r['url']}" if r.get("url") else ""
             out.append(f"{i}. {r.get('source')}{url} (retrieved {r.get('retrieved', '?')}, "
                        f"{str(r.get('confidence', 'UNCONFIRMED')).upper()}; used for: {r.get('used_for', '')})")
+    pack = build_context_pack(brief)
+    if pack["paths"] or pack["urls"]:
+        out += ["", "## Context pack (agent feed)"]
+        for p in pack["paths"]:
+            out.append(f"- `{p['path']}` — {p['role']}")
+        for u in pack["urls"]:
+            out.append(f"- {u['url']} — {u['label']}")
     if brief.get("run_cost_usd") is not None or brief.get("stack"):
         bits = []
         if brief.get("run_cost_usd") is not None:
@@ -396,6 +702,12 @@ def main():
     if gdoc_url:
         md += f"\n_Google Doc: {gdoc_url}_\n"
     (out_dir / f"{slug}-brief.md").write_text(md, encoding="utf-8")
+
+    pack = build_context_pack(brief)
+    if pack["paths"] or pack["urls"]:
+        (out_dir / f"{slug}-context.json").write_text(
+            json.dumps(pack, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"[render_brief] ctx → {out_dir / (slug + '-context.json')}")
 
     print(f"[render_brief] OK → {out_html}")
     print(f"[render_brief] md → {out_dir / (slug + '-brief.md')}")

@@ -1,0 +1,79 @@
+{
+  "package": {
+    "version": "0.9-review",
+    "state": "review",
+    "approved_visual_parent": "P2-01 Premium Minimal V1",
+    "protected_copy_primary": "P1 Variant B",
+    "promotion_owner": "Farrice Cain",
+    "external_action_authorized": false
+  },
+  "assets": [
+    {
+      "id": "linkedin-banner-angle-map-premium-minimal-v2",
+      "path": "templates/banner/angle-map-linkedin-banner-premium-minimal-v2.png",
+      "state": "approved",
+      "role": "launch-mode baseline",
+      "note": "Permanent profile role remains open."
+    },
+    {
+      "id": "linkedin-copy-p1-variant-b",
+      "path": "content/P1-LINKEDIN-PASTE-MASTER.md",
+      "state": "protected-primary",
+      "role": "headline, About, Experience, article, and launch post",
+      "note": "Preserve verbatim unless Farrice promotes a specific revision."
+    },
+    {
+      "id": "article-belief-cover",
+      "path": "templates/static/fc-pm1_li-article-belief_review_v01.svg",
+      "state": "review",
+      "role": "master-brand Featured and article cover"
+    },
+    {
+      "id": "featured-angle-map-cover",
+      "path": "templates/static/fc-pm1_li-featured-angle-map_review_v01.svg",
+      "state": "review",
+      "role": "offer-mode Featured cover"
+    },
+    {
+      "id": "single-image-hook-vs-angle",
+      "path": "templates/static/fc-pm1_li-insight-hook-vs-angle_review_v01.svg",
+      "state": "review",
+      "role": "single-image authority format"
+    },
+    {
+      "id": "carousel-hook-vs-angle",
+      "path": "templates/carousel/fc-pm1_li-carousel-hook-vs-angle_review_v01.pdf",
+      "state": "review",
+      "role": "four-page document example",
+      "editability": "Edit the supplied page SVG files; the PPTX is an assembled flat-page container."
+    },
+    {
+      "id": "angle-decision-card",
+      "path": "templates/static/fc-pm1_li-angle-card-label-review_v01.svg",
+      "state": "review",
+      "role": "fictional deliverable demonstration"
+    },
+    {
+      "id": "proof-boundary-card",
+      "path": "templates/static/fc-pm1_li-proof-boundary_review_v01.svg",
+      "state": "review",
+      "role": "fictional proof-boundary demonstration"
+    },
+    {
+      "id": "brand-field-guide",
+      "path": "templates/field-guide/Farrice-Cain-Premium-Minimal-Brand-System-V1.pdf",
+      "state": "review",
+      "role": "twelve-page system reference"
+    }
+  ],
+  "excluded_branches": [
+    "Hero C",
+    "Variant A as a public blend",
+    "Editorial Cartography V0",
+    "Authority V3 banner",
+    "Professional V4 banner",
+    "unconfirmed NASM language",
+    "AI-altered portrait references",
+    "rejected busy P1 banner"
+  ]
+}

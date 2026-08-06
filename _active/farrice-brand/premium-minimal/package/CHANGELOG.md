@@ -1,0 +1,14 @@
+# Change Log
+
+## 0.9-review — 2026-08-01
+
+- Packaged the approved P2-01 Premium Minimal visual parent as a vendor-neutral design system.
+- Preserved Farrice Cain as the master brand and The Angle Map as the flagship offer mode.
+- Included the protected P1 Variant B LinkedIn copy.
+- Included the approved launch-mode banner and its required texture source.
+- Included six P3 review templates and the twelve-page brand field guide.
+- Added machine-readable tokens and surface recipes.
+- Added universal, Claude Design, and Codex handoff instructions.
+- Added portrait, claim, approval, and external-action guards.
+- Separated the original portrait into a restricted private identity add-on.
+- Did not promote any P3 review asset or resolve the evergreen-banner decision.

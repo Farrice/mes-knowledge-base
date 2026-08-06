@@ -5,20 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>what your niche raised its hand for this week · Research Brief</title>
 <style>
-  /* ── Codex Antigravity Design System tokens (_active/codex-harvest-2026-06-11/DESIGN.md) ── */
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
   :root{
-    --ag-ink: oklch(18% 0.012 245);
-    --ag-paper: oklch(97% 0.008 92);
-    --ag-surface: oklch(93% 0.012 100);
-    --ag-line: oklch(76% 0.018 95);
-    --ag-accent: oklch(55% 0.115 43);
-    --ag-proof: oklch(49% 0.082 168);
-    --ag-risk: oklch(56% 0.126 23);
-    --ag-focus: oklch(50% 0.105 265);
-    --ag-ink-soft: oklch(38% 0.012 245);
-    --ag-ink-mute: oklch(52% 0.012 245);
-    --ag-paper-ink: oklch(94% 0.01 92);   /* paper-toned text on ink surfaces */
-    --ag-line-ink: oklch(34% 0.012 245);  /* rules on ink surfaces */
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
     --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
     --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
     --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
@@ -81,15 +85,15 @@
 
   /* decision layer — the one inverted section */
   .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
-  .decision .kicker{ color:oklch(70% 0.02 92) }
+  .decision .kicker{ color:var(--ag-mute-dark) }
   .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
-  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:oklch(75% 0.1 43) }
-  .decision .dek{ color:oklch(78% 0.015 92); font-size:14px; margin-top:12px }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
   .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
   .dec-item:last-child{ border-bottom:none }
-  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:oklch(75% 0.1 43); min-width:22px; margin-top:1px }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
   .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
-  .dec-item p{ font-size:12.5px; line-height:1.55; color:oklch(75% 0.015 92); margin-top:4px }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
 
   /* bars — same-scale small multiples */
   .bars-group{ display:grid; gap:14px; margin-top:6px }
@@ -136,6 +140,75 @@
   .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
   .ledger td a:hover{ text-decoration:underline }
 
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
   footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
     font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
 
@@ -144,6 +217,9 @@
     .trust{ grid-template-columns:1fr 1fr }
     .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
     .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
   }
   @media print{
     .brief-nav{ position:static }
@@ -154,7 +230,7 @@
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row"><a href="#the-thesis-this-week">the thesis this week</a><a href="#what-pulled-hand-raises">what pulled hand-raises</a><a href="#reactions-per-sampled-post">reactions per sampled post</a><a href="#icp-verbatim-language-worth-stealing">icp verbatim — language worth stealing</a><a href="#angles-for-what-s-live">angles for what&#x27;s live</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#the-thesis-this-week">the thesis this week</a><a href="#what-pulled-hand-raises">what pulled hand-raises</a><a href="#reactions-per-sampled-post">reactions per sampled post</a><a href="#icp-verbatim-language-worth-stealing">icp verbatim — language worth stealing</a><a href="#angles-for-what-s-live">angles for what&#x27;s live</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a></div></nav>
 
 <div class="wrap">
   <header>
@@ -171,7 +247,50 @@
 
   <section class="blk" id="the-thesis-this-week"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the thesis this week</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>Skepticism is the engagement engine of your niche right now, on both sides of your work. The AI-consulting lane&#x27;s top organic question is &#x27;do these people actually know anything?&#x27; — and the single biggest post the scout sampled (4,557 reactions) is Justin Welsh saying people don&#x27;t believe you can own your time AND make good money. Same emotion, two markets: buyers doubt the operators, workers doubt the freedom. The content that wins this week doesn&#x27;t argue with the doubt — it agrees with it, then shows a receipt. You are unusually armed for that move: you spent last night building a listening system that runs while you sleep, which is itself the receipt.</p></div></section><section class="blk" id="what-pulled-hand-raises"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what pulled hand-raises</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Doubt-about-freedom is the biggest emotional draw sampled: &#x27;People don&#x27;t believe you can own your time and make good money&#x27; — 4,557 reactions, 1,264 comments</h3><p>Top comment language is about suspicion and handcuffs, not tactics. The audience wants the doubt named, not resolved with hype.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/posts/justinwelsh_people-dont-believe-you-can-own-your-time-activity-7490373065147674" target="_blank" rel="noopener">justinwelsh · scout sample 30r/31c ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>&#x27;Solopreneurship used to be fringe&#x27; — 3,509 reactions, 1,167 comments; category-normalization content still outperforms</h3><p>Comments split between believers and &#x27;everyone is a builder just to survive cost&#x27; — the counter-voice is live in the thread, which is engagement fuel.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/posts/justinwelsh_solopreneurship-used-to-be-fringe-it-wasnt-activity-749073545258962" target="_blank" rel="noopener">justinwelsh · scout sample 30r/31c ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Isenberg&#x27;s &#x27;every startup should have a daily what_the_market_is_telling_us.md file&#x27; pulled 412 reactions from a builder-heavy audience</h3><p>The most-liked comment: &#x27;the value sits in the diff rather than the digest… summaries always read fine and tell you nothing.&#x27; Builders want delta-detection, not recaps — you now literally run this file daily.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/posts/gisenberg" target="_blank" rel="noopener">gisenberg · scout sample 30r/31c ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Zeitgeist (aug 5): competence skepticism is the #1 organic question in AI consulting; income-proof posts are the engagement engine; positioning skews enterprise-speak</h3><p>Practitioners with receipts are winning both the believer and skeptic camps. Operator-outcome language is underowned on LinkedIn.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/" target="_blank" rel="noopener">zeitgeist · ai-consulting-linkedin lane ↗</a></div></div></div></section><section class="blk" id="reactions-per-sampled-post"><div class="sechead"><span class="secnum">03</span><h2 class="sec">reactions per sampled post</h2></div><div class="bars-group"><div class="bars-card"><h3>sampled posts (reactions)</h3><div class="note">welsh ×2, isenberg ×2</div><div class="bars"><i style="height:100%"></i><i style="height:77%"></i><i style="height:9%"></i><i style="height:7%"></i></div></div></div><div class="bars-caption">one welsh identity post out-pulls the category&#x27;s how-to content by an order of magnitude</div></section><section class="blk" id="icp-verbatim-language-worth-stealing"><div class="sechead"><span class="secnum">04</span><h2 class="sec">icp verbatim — language worth stealing</h2></div><p>&quot;People get suspicious of freedom because they&#x27;ve been taught money only comes with handcuffs.&quot;</p><p>&quot;Skepticism makes sense here — survivorship bias means we mostly see the wins, not the years others spent trying and quitting.&quot;</p><p>&quot;Love this honesty!! owning your time while still making good money genuinely sounds like the actual dream honestly.&quot;</p><p>&quot;The value sits in the diff rather than the digest… catching what changed needs the agent to hold last week&#x27;s state and flag the deltas.&quot;</p><p>&quot;&#x27;Notice what changed&#x27; instead of summarizing what happened is the whole point. summaries always read fine and tell you nothing.&quot;</p><p>These are exact quotes from real engager comments (scout run, aug 6). Use their words, not elevated versions of their words.</p></section><section class="decision" id="angles-for-what-s-live"><span class="kicker">THE OPENING</span><h2>angles for what&#x27;s <em>live</em></h2><p class="dek">each angle is tied to a piece of active work and an evidence row above. drafts only — you decide what ships.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>CASH LAUNCH — &#x27;the skeptics are right&#x27; receipts post: agree with &#x27;do these people actually know anything?&#x27;, then show the terminal, not a deck</h3><p>Competence skepticism is the #1 buyer question (zeitgeist, VERIFIED) and doubt-agreement is the top resonance pattern (4,557 reactions). Practitioner Test: you ARE the operator with 18 years and a running system.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>AUTHORITY — the what_the_market_is_telling_us.md post: you built the exact file Isenberg told startups to keep, and it ran unattended this morning</h3><p>412 builder reactions + the &#x27;diff not digest&#x27; comment; your zeitgeist + scout receipts are dated proof. Strongest bridge between your AI-consulting authority and the supplement-brand offer (market-listening IS the Angle Map&#x27;s engine).</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>PARALLAX — the handcuffs essay: &#x27;I make my money during naptime&#x27; against the suspicion-of-freedom wound</h3><p>The single most-reacted sampled post is this exact emotion (VERIFIED); the commenter language (&#x27;money only comes with handcuffs&#x27;) is a ready-made frame for your deep-voice lane — pattern, not family specifics, per privacy law.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>CASH LAUNCH CONTENT — answer &#x27;first client came from my network — now what?&#x27; from the room, not the stage</h3><p>Zeitgeist flags it as the beginner funnel&#x27;s live question (VERIFIED); teach-from-the-room is your proven channel and it self-selects operators who then meet the $750 Angle Map.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>POSITIONING — name the enemy: enterprise-architecture speak vs operator outcomes</h3><p>LinkedIn &#x27;AI consultant&#x27; positioning skews enterprise-speak (LIKELY); your About (Take A, The Mirror) already lives on the operator side — content should widen that gap, not restate credentials.</p></div></div><div class="dec-item"><span class="n">06</span><div><h3>TODAY — Puori teardown carousel #3 is scheduled to publish (08-06); pair it with one proof-first line from last night&#x27;s build</h3><p>Income/proof posts are the niche engagement engine (VERIFIED); a dated receipt (&#x27;this ran at 6am without me&#x27;) beats a claim. Publishing stays your hand — mission 2b send rule unchanged.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">06</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE (DRAFTS — YOUR CALL)</span></div><div class="deploy"><div class="bar"><span class="k">hook — authority angle (dense, prose-checked CLEAN)</span><button class="copybtn" type="button">copy</button></div><pre>Greg Isenberg told every startup to keep a file called what_the_market_is_telling_us.md. Mine wrote itself at 6am while my son was asleep.</pre></div><div class="deploy"><div class="bar"><span class="k">hook — skeptic-flip angle (stacked, prose-checked CLEAN)</span><button class="copybtn" type="button">copy</button></div><pre>&quot;Do these people actually know anything?&quot;
 That is the top question buyers ask about AI consultants right now.
-They&#x27;re right to ask. I stopped answering with a deck and started answering with the terminal.</pre></div><div class="deploy"><div class="bar"><span class="k">hook — parallax handcuffs angle (single-line + turn, prose-checked CLEAN)</span><button class="copybtn" type="button">copy</button></div><pre>I make my money during naptime. That sentence makes people more suspicious than any income screenshot — and the suspicion is the interesting part.</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Edition 001 runs on a 2-creator seed list (welsh + isenberg) — solopreneur-lane signal is strong, supplement-brand-ICP signal is absent until you add those creators to listening-creators.md. Scout samples page one of engagement (30 reactions + 31 comments per post this run), so comment language is a sample, not a census. Three zeitgeist lanes (supplement-brands, ai-tools-creator, jen-sfv-realestate) had never run as of this edition — future editions get richer as those fire. Post URLs for the two welsh posts carry truncated activity IDs from the actor payload; the hooks and numbers are from the same payload and stand.</p><a class="cta" href="#deploy-blocks">OKAY, PICK AN ANGLE</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">08</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.50 — stack: signal_scout · apify apimaestro · zeitgeist</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Signal Scout roster + resonance (test run)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md</a></td><td>2026-08-06</td><td>all engagement numbers, hooks, ICP verbatim quotes</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Zeitgeist daily brief — ai-consulting-linkedin lane</td><td><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/</a></td><td>2026-08-06</td><td>trust-gap thesis, beginner funnel question, positioning gap</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Campaign state — mission queue + standing facts</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md</a></td><td>2026-08-06</td><td>tying angles to live missions (2b, carousels, About Take A)</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md</a></td><td>2026-08-06</td><td>deploy-block hooks (diandra = formats only, body voice = his)</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+They&#x27;re right to ask. I stopped answering with a deck and started answering with the terminal.</pre></div><div class="deploy"><div class="bar"><span class="k">hook — parallax handcuffs angle (single-line + turn, prose-checked CLEAN)</span><button class="copybtn" type="button">copy</button></div><pre>I make my money during naptime. That sentence makes people more suspicious than any income screenshot — and the suspicion is the interesting part.</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Edition 001 runs on a 2-creator seed list (welsh + isenberg) — solopreneur-lane signal is strong, supplement-brand-ICP signal is absent until you add those creators to listening-creators.md. Scout samples page one of engagement (30 reactions + 31 comments per post this run), so comment language is a sample, not a census. Three zeitgeist lanes (supplement-brands, ai-tools-creator, jen-sfv-realestate) had never run as of this edition — future editions get richer as those fire. Post URLs for the two welsh posts carry truncated activity IDs from the actor payload; the hooks and numbers are from the same payload and stand.</p><a class="cta" href="#deploy-blocks">OKAY, PICK AN ANGLE</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">08</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.50 — stack: signal_scout · apify apimaestro · zeitgeist</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Signal Scout roster + resonance (test run)</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md</a></td><td>2026-08-06</td><td>all engagement numbers, hooks, ICP verbatim quotes</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Zeitgeist daily brief — ai-consulting-linkedin lane</td><td><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/</a></td><td>2026-08-06</td><td>trust-gap thesis, beginner funnel question, positioning gap</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Campaign state — mission queue + standing facts</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md</a></td><td>2026-08-06</td><td>tying angles to live missions (2b, carousels, About Take A)</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md" target="_blank" rel="noopener">file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md</a></td><td>2026-08-06</td><td>deploy-block hooks (diandra = formats only, body voice = his)</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">09</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05">deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05</a></td><td>zeitgeist · ai-consulting-linkedin lane</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md">_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md</a></td><td>Signal Scout roster + resonance (test run)</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md">_active/linkedin-launch/CAMPAIGN.md</a></td><td>Campaign state — mission queue + standing facts</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md">_active/farrice-brand/voice/VOICE-CARD.md</a></td><td>Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats</td></tr><tr><td>05</td><td><a href="https://www.linkedin.com/posts/justinwelsh_people-dont-believe-you-can-own-your-time-activity-7490373065147674" target="_blank" rel="noopener">https://www.linkedin.com/posts/justinwelsh_people-dont-believe-you-can-own-your-time-activity-7490373065147674</a></td><td>justinwelsh · scout sample 30r/31c</td></tr><tr><td>06</td><td><a href="https://www.linkedin.com/posts/justinwelsh_solopreneurship-used-to-be-fringe-it-wasnt-activity-749073545258962" target="_blank" rel="noopener">https://www.linkedin.com/posts/justinwelsh_solopreneurship-used-to-be-fringe-it-wasnt-activity-749073545258962</a></td><td>justinwelsh · scout sample 30r/31c</td></tr><tr><td>07</td><td><a href="https://www.linkedin.com/posts/gisenberg" target="_blank" rel="noopener">https://www.linkedin.com/posts/gisenberg</a></td><td>gisenberg · scout sample 30r/31c</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;angle-brief-2026-08-06&quot;,
+  &quot;title&quot;: &quot;what your niche raised its hand for this week&quot;,
+  &quot;compiled&quot;: &quot;aug 6, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/angle-brief-2026-08-06/angle-brief-2026-08-06-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/angle-brief-2026-08-06/angle-brief-2026-08-06-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05&quot;,
+      &quot;role&quot;: &quot;zeitgeist · ai-consulting-linkedin lane&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md&quot;,
+      &quot;role&quot;: &quot;Signal Scout roster + resonance (test run)&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin-launch/CAMPAIGN.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin-launch/CAMPAIGN.md&quot;,
+      &quot;role&quot;: &quot;Campaign state — mission queue + standing facts&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/farrice-brand/voice/VOICE-CARD.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md&quot;,
+      &quot;role&quot;: &quot;Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/posts/justinwelsh_people-dont-believe-you-can-own-your-time-activity-7490373065147674&quot;,
+      &quot;label&quot;: &quot;justinwelsh · scout sample 30r/31c&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/posts/justinwelsh_solopreneurship-used-to-be-fringe-it-wasnt-activity-749073545258962&quot;,
+      &quot;label&quot;: &quot;justinwelsh · scout sample 30r/31c&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/posts/gisenberg&quot;,
+      &quot;label&quot;: &quot;gisenberg · scout sample 30r/31c&quot;
+    }
+  ]
+}</pre></div></section>
 
   <footer class="brief">
     <span>ANTIGRAVITY RESEARCH</span>
@@ -193,7 +312,9 @@ They&#x27;re right to ask. I stopped answering with a deck and started answering
   }
   document.querySelectorAll('.copybtn').forEach(function(btn){
     btn.addEventListener('click', function(){
-      var pre=btn.closest('.deploy').querySelector('pre');
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
       if(pre) copyText(pre.textContent, btn);
     });
   });
