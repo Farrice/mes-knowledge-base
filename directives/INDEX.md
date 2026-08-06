@@ -44,6 +44,7 @@ These directives fire conditionally during execution. They do not govern The Cha
 | [multi-expert-synthesis.md](multi-expert-synthesis.md) | When 3+ experts loaded for a single deliverable |
 | [research-protocol.md](research-protocol.md) | Research tasks — Gemini-primary priority order |
 | [ai-slop-detector.md](ai-slop-detector.md) | Chain Step 5.5 — prose pattern detection |
+| [blind-bar-protocol.md](blind-bar-protocol.md) | Taste-bearing deliverables with a named Bar artifact — in-context blind side-by-side vs golden ref, cap 2 rounds, nudge never blocks (2026-08-05) |
 | ~~quality_assurance.md~~ | SUPERSEDED 2026-07-29 (amnesty) → quality_gate.md (provenance tags folded in) |
 | [expertise-gap-protocol.md](expertise-gap-protocol.md) | When the routed expert lacks coverage of the request |
 | [arsenal-loop.md](arsenal-loop.md) | Any time an asset is built (auto-mints wrappers/shims — never hand-write them) OR before building anything (`/arsenal` = "what do I already have?") |

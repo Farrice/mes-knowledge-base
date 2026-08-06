@@ -93,6 +93,7 @@ python3 execution/prose_classifier.py check _active/jen-listings/<slug>/SEND-TO-
 - fair_housing_lint exit 2 → fix and re-run; this is a hard floor, not a suggestion.
 - prose_classifier: judge findings against the register (production-sheet structure flags are expected; em-dashes/slop vocab in SPOKEN lines are real and get fixed).
 - **Claims coverage:** every $/rate/eligibility/spec claim in spoken text exists in the ledger as VERIFIED, or its fallback line is used instead (**high-stakes rule — real estate is a regulated domain; primary-source only for program/rate claims**).
+- **Blind Bar pass (trial surface, Farrice-approved 2026-08-05 — `directives/blind-bar-protocol.md`):** set the generated hook set blind side-by-side with the golden ref (6853 Willis; plus any ground-truth performers in `knowledge/expert-benchmarks/jen-listing-content/`) and answer: which set would Jen film first? Generated set loses → name the single biggest gap (register, hook shape, specificity), repair that one thing, re-check once. Cap: 1 repair round, in-context only, no subagents. This is a self-check inside the run, NEVER a question to Farrice (his no-mid-run-taste-gates rule stands); result goes in finalize notes as `BlindBar: PASS|FAIL(gap)|N/A — <n> rounds`. Nudge, never a delivery block — the only vetoes remain fair-housing and factual.
 
 ## PHASE 7 — FINALIZE
 

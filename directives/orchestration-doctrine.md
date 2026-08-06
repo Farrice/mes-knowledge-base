@@ -69,6 +69,14 @@ dispatches**. Every dispatch names its seat:
 Workflow scripts obey the same law via `agent(opts.model/effort)`; pre-launch review of any
 workflow includes checking its seats.
 
+**Bar clause (Farrice 2026-08-05 — gauntlet-loop extraction, `directives/blind-bar-protocol.md`):**
+every dispatch/production brief for a taste-bearing deliverable carries one line naming its bar as
+an ARTIFACT — `Bar: <golden ref / rubric-anchor example / register exemplar path>. Nothing else
+counts as done.` — or explicitly `Bar: none`. Adjectives ("high quality", "on-brand") are not a
+bar; an unanchored quality loop polishes the wrong target (KetoneIQ edge). The Blind Bar pass
+itself runs in-context in the producing loop, never as a spawned critic (Seating Charter stands:
+verification never gets its own seat).
+
 ### Executor Model Registry (hard-coded 2026-07-24 — Farrice standing instruction; update on model launches)
 
 Current seat → model resolution (Agent/Workflow `model:` values map to these):
