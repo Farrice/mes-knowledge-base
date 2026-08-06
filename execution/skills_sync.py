@@ -9,6 +9,7 @@ import subprocess
 import json
 import os
 import shutil
+import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -26,6 +27,21 @@ HEALTH_RECEIPT = HEALTH_DIR / "skills-sync.json"
 
 # Log file at user level (shared with launchd job)
 LOG_FILE = Path.home() / ".agents" / "skill-sync-detailed.log"
+
+# launchd strips the user PATH; npx/node live in ~/.local/bin on this machine.
+# Without this, every scheduled run would fail to find npx and misreport.
+EXTRA_PATH = [str(Path.home() / ".local" / "bin"), "/opt/homebrew/bin", "/usr/local/bin"]
+
+# Upstream source of truth for deprecation mirroring (Farrice's standing
+# decision 2026-08-05: mirror upstream exactly; archive removed skills, never delete).
+UPSTREAM_SOURCE = "mattpocock/skills"
+UPSTREAM_TREE_API = "https://api.github.com/repos/mattpocock/skills/git/trees/main?recursive=1"
+
+
+def _env_with_path():
+    env = dict(os.environ)
+    env["PATH"] = os.pathsep.join(EXTRA_PATH + [env.get("PATH", "/usr/bin:/bin")])
+    return env
 
 
 def log_msg(msg):
@@ -48,6 +64,7 @@ def run_cmd(cmd, description, timeout=300):
             text=True,
             timeout=timeout,
             cwd=str(Path.home() / ".agents"),
+            env=_env_with_path(),
         )
         if result.returncode == 0:
             log_msg(f"✓ {description}")
@@ -64,21 +81,25 @@ def run_cmd(cmd, description, timeout=300):
 
 
 def check_drift():
-    """Run npx skills check -g and return True if drift detected."""
+    """Run npx skills check -g. Returns (check_ok, drift_detected).
+
+    A failed check must never be reported as "no drift" — self_heal watches the
+    receipt, and a lying receipt hides a dead automation for weeks.
+    """
     cmd = "npx skills@latest check -g 2>&1"
     success, output = run_cmd(cmd, "npx skills@latest check -g")
 
     if not success:
-        log_msg("Drift check command failed; skipping update")
-        return False
+        log_msg("Drift check command failed")
+        return False, False
 
     # Detect drift from output
     if "up to date" in output.lower():
         log_msg("No drift detected; skills are up to date")
-        return False
+        return True, False
 
     log_msg("Drift detected; will proceed with update")
-    return True
+    return True, True
 
 
 def apply_updates():
@@ -107,20 +128,47 @@ def get_installed_skills():
         return set()
 
 
+def get_upstream_skill_names():
+    """Skill folder names currently in mattpocock/skills, or None on failure."""
+    try:
+        req = urllib.request.Request(
+            UPSTREAM_TREE_API, headers={"User-Agent": "antigravity-skills-sync"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            tree = json.load(resp)
+        return {
+            e["path"].split("/")[-2] for e in tree.get("tree", [])
+            if e["path"].startswith("skills/") and e["path"].endswith("/SKILL.md")
+        }
+    except Exception as e:  # network, rate-limit, schema — all non-blocking
+        log_msg(f"⚠ Upstream tree fetch failed; deprecation mirror skipped this run: {e}")
+        return None
+
+
 def archive_deprecated_skills():
     """
-    Archive skills that are no longer in mattpocock/skills.
-    This is a heuristic: if a skill folder exists in .agents/skills but is NOT in the lockfile,
-    it was likely archived upstream. Move it and remove its symlink.
+    Archive lockfile-tracked mattpocock/skills entries that no longer exist
+    upstream (compared against the live repo tree — never a disk-vs-lockfile
+    heuristic, which would wrongly archive intentionally-untracked strays like
+    tavily-* or source-command-video-*). Archived folders move to a dated
+    directory; nothing is ever deleted.
     """
     try:
-        skills_on_disk = set(
-            p.name for p in AGENTS_SKILLS_DIR.iterdir()
-            if p.is_dir() and not p.name.startswith(".")
-        )
-        skills_in_lockfile = get_installed_skills()
+        upstream = get_upstream_skill_names()
+        if not upstream:
+            return True  # couldn't verify upstream — touch nothing
 
-        to_archive = skills_on_disk - skills_in_lockfile
+        try:
+            with open(LOCKFILE) as f:
+                lock = json.load(f)
+            tracked = {
+                n for n, v in lock.get("skills", {}).items()
+                if isinstance(v, dict) and v.get("source") == UPSTREAM_SOURCE
+            }
+        except Exception as e:
+            log_msg(f"⚠ Lockfile unreadable; deprecation mirror skipped: {e}")
+            return True
+
+        to_archive = sorted(tracked - upstream)
         if not to_archive:
             log_msg("No deprecated skills to archive")
             return True
@@ -137,11 +185,27 @@ def archive_deprecated_skills():
                 shutil.move(str(src), str(dst))
                 log_msg(f"  Archived: {skill}")
 
-                # Remove symlink if it exists
-                symlink = CLAUDE_SKILLS_DIR / skill
-                if symlink.is_symlink():
-                    symlink.unlink()
-                    log_msg(f"  Removed symlink: {skill}")
+            # Remove symlink if it exists
+            symlink = CLAUDE_SKILLS_DIR / skill
+            if symlink.is_symlink():
+                symlink.unlink()
+                log_msg(f"  Removed symlink: {skill}")
+
+        # Drop archived entries from the lockfile (CLI remove first, direct edit fallback)
+        success, _ = run_cmd(
+            "npx skills@latest remove " + " ".join(to_archive) + " -y 2>&1",
+            "npx skills remove (deprecated)")
+        if not success:
+            try:
+                with open(LOCKFILE) as f:
+                    lock = json.load(f)
+                for skill in to_archive:
+                    lock.get("skills", {}).pop(skill, None)
+                with open(LOCKFILE, "w") as f:
+                    json.dump(lock, f, indent=2)
+                log_msg("  Lockfile pruned directly (CLI remove failed)")
+            except Exception as e:
+                log_msg(f"⚠ Lockfile prune failed: {e}")
 
         return True
     except Exception as e:
@@ -236,21 +300,20 @@ def main():
     log_msg("=== SKILLS SYNC STARTED ===")
 
     # Check for drift
-    if not check_drift():
-        log_msg("=== SKILLS SYNC COMPLETE: no drift ===")
-        write_health_receipt("no_drift")
+    check_ok, drift = check_drift()
+    if not check_ok:
+        log_msg("=== SKILLS SYNC FAILED: drift check failed (npx unreachable?) ===")
+        write_health_receipt("check_failed")
         return
 
     # Apply updates
-    if not apply_updates():
+    if drift and not apply_updates():
         log_msg("=== SKILLS SYNC FAILED: update error ===")
         write_health_receipt("update_failed")
         return
 
-    # Archive deprecated skills
+    # Deprecations and symlinks are independent of hash drift — always reconcile.
     archive_deprecated_skills()
-
-    # Reconcile symlinks
     reconcile_symlinks()
 
     # Verify lockfile
@@ -259,8 +322,9 @@ def main():
         write_health_receipt("verification_failed")
         return
 
-    log_msg("=== SKILLS SYNC COMPLETE: updates applied ===")
-    write_health_receipt("success")
+    status = "success" if drift else "no_drift"
+    log_msg(f"=== SKILLS SYNC COMPLETE: {status} ===")
+    write_health_receipt(status)
 
 
 if __name__ == "__main__":
