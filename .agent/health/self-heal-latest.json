@@ -1,22 +1,7 @@
 {
- "ts": "2026-08-05T18:19:39.634137",
+ "ts": "2026-08-05T18:38:10.326853",
  "mode": "heal",
  "rows": [
-  {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "2 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "prompt:jen-santulan-listing-content/listing-hook-set <- 885b7a8cc 2026-08-05 feat(listing-engine-v2): /listing-package \u2014 URL to sendable package pipeline, codified from the 5200 Armida arc",
-     "skill:jen-santulan-listing-content <- 78c312b0e 2026-08-05 refactor(listing-package): one-shot delivery per Farrice's rule \u2014 no mid-run taste gates"
-    ]
-   },
-   "action": "healed",
-   "note": "prompt:jen-santulan-listing-content/listing-hook-set <- 885b7a8cc 2026-08-05 feat(listing-engine-v2): /listing-package \u2014 URL to sendable package pipeline, codified from the 5200 Armida arc; skill:jen-santulan-listing-content <- 78c312b0e 2026-08-05 refactor(listing-package): one-shot delivery per Fa",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
@@ -114,6 +99,13 @@
     ],
     "deferred_files": 1
    },
+   "action": "escalated"
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 10d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

@@ -2,8 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-05** [directives/active] [Directives — Index](2026-08-05-directives.md) — Directives — Index
 - **2026-08-05** [jen-listings/active] [Jen Listings — Armida Shoot Sheet](2026-08-05-jen-listings.md) — Jen Listings — Armida Shoot Sheet
-- **2026-08-05** [directives/active] [Directives — Apify Usage Policy](2026-08-05-directives.md) — Directives — Apify Usage Policy
 - **2026-08-05** [execution/active] [Execution — Skills Sync](2026-08-05-execution.md) — Execution — Skills Sync
 - **2026-08-05** [digital-product-lane-2026-08-05/active] [Digital Product Lane 2026 08 05 — Demand Receipts](2026-08-05-digital-product-lane-2026-08-05.md) — Digital Product Lane 2026 08 05 — Demand Receipts
 - **2026-08-05** [kallaway-hook-mastery/ready] [Kallaway Hook Mastery — Interrupt Theory Forge (watch + extract-forge, same-day source)](2026-08-05-kallaway-hook-mastery.md) — Judge the blind-pass sample vs the real corpus for A-tier, then run /hook-anything on the next three Cash Launch posts
