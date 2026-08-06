@@ -160,5 +160,7 @@
       "confidence": "VERIFIED"
     }
   ],
-  "gdoc_url": "https://docs.google.com/document/d/1BNeCaU3bZ2doDzLunkVLkwq7MRoCfp54kYj_8IIa8kk/edit"
+  "gdoc_url": "https://docs.google.com/document/d/1BNeCaU3bZ2doDzLunkVLkwq7MRoCfp54kYj_8IIa8kk/edit",
+  "category": "zeitgeist",
+  "priority": 3
 }

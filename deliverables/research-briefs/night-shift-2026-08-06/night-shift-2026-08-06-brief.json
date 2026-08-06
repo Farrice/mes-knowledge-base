@@ -10,7 +10,12 @@
   "footer_left": "ANTIGRAVITY NIGHT SHIFT",
   "footer_right": "@farricecain",
   "run_cost_usd": 1.0,
-  "stack": ["extract-forge", "signal_scout", "render_brief", "launchd"],
+  "stack": [
+    "extract-forge",
+    "signal_scout",
+    "render_brief",
+    "launchd"
+  ],
   "sections": [
     {
       "kind": "summary",
@@ -109,7 +114,10 @@
       "heading": "what's still *unproven*",
       "kicker": "HONEST LEDGER",
       "body": "First unattended runs are still ahead: zeitgeist at 06:20 today, the angle brief Monday 07:00. The scout has one run of pricing data. The Cody skill is single-source until a second video or essay corpus extends it. And the extraction's sharpest unconfirmed claim — 10–20 creators covering ~80% of a niche — gets tested empirically the first time you fill in the real creators file and compare two scout runs.",
-      "cta": { "label": "OKAY — READ THE ANGLE BRIEF", "href": "#deploy-blocks" }
+      "cta": {
+        "label": "OKAY — READ THE ANGLE BRIEF",
+        "href": "#deploy-blocks"
+      }
     }
   ],
   "ledger": [
@@ -120,5 +128,7 @@
       "used_for": "everything in this brief",
       "confidence": "VERIFIED"
     }
-  ]
+  ],
+  "category": "build report",
+  "priority": 2
 }

@@ -9,8 +9,12 @@
   "compiled": "aug 6, 2026",
   "footer_left": "ANTIGRAVITY RESEARCH",
   "footer_right": "@farricecain",
-  "run_cost_usd": 0.50,
-  "stack": ["signal_scout", "apify apimaestro", "zeitgeist"],
+  "run_cost_usd": 0.5,
+  "stack": [
+    "signal_scout",
+    "apify apimaestro",
+    "zeitgeist"
+  ],
   "sections": [
     {
       "kind": "summary",
@@ -61,7 +65,12 @@
         {
           "label": "sampled posts (reactions)",
           "note": "welsh ×2, isenberg ×2",
-          "values": [4557, 3509, 412, 301]
+          "values": [
+            4557,
+            3509,
+            412,
+            301
+          ]
         }
       ]
     },
@@ -126,7 +135,10 @@
       "heading": "what this *isn't*",
       "kicker": "CAVEATS WORTH KEEPING",
       "body": "Edition 001 runs on a 2-creator seed list (welsh + isenberg) — solopreneur-lane signal is strong, supplement-brand-ICP signal is absent until you add those creators to listening-creators.md. Scout samples page one of engagement (30 reactions + 31 comments per post this run), so comment language is a sample, not a census. Three zeitgeist lanes (supplement-brands, ai-tools-creator, jen-sfv-realestate) had never run as of this edition — future editions get richer as those fire. Post URLs for the two welsh posts carry truncated activity IDs from the actor payload; the hooks and numbers are from the same payload and stand.",
-      "cta": { "label": "OKAY, PICK AN ANGLE", "href": "#deploy-blocks" }
+      "cta": {
+        "label": "OKAY, PICK AN ANGLE",
+        "href": "#deploy-blocks"
+      }
     }
   ],
   "ledger": [
@@ -158,5 +170,7 @@
       "used_for": "deploy-block hooks (diandra = formats only, body voice = his)",
       "confidence": "VERIFIED"
     }
-  ]
+  ],
+  "category": "angles",
+  "priority": 1
 }

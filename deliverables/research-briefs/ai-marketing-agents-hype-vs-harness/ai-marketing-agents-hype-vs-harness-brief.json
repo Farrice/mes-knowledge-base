@@ -9,7 +9,12 @@
   "compiled": "aug 6, 2026",
   "footer_left": "ANTIGRAVITY RESEARCH",
   "footer_right": "@farricecain",
-  "stack": ["yt-dlp", "watch-plugin", "apify", "repo-grep"],
+  "stack": [
+    "yt-dlp",
+    "watch-plugin",
+    "apify",
+    "repo-grep"
+  ],
   "sections": [
     {
       "kind": "summary",
@@ -123,7 +128,10 @@
       "heading": "what this *isn't*",
       "kicker": "CAVEATS WORTH KEEPING",
       "body": "Three things are wired but not yet battle-proven: the zeitgeist loop's first scheduled fire is this morning, the angle-brief loop's first unattended run is Monday, and the new actors' per-event pricing has one data point each — watch the first week of receipts in .agent/health/. The scout samples page one of engagement (up to 100 reactions + 100 comments per post), so mega-posts are sampled, not exhausted. One standing risk worth knowing: the Playwright browser tools in this session could technically drive a logged-in LinkedIn — no workflow uses them for that and nothing authorizes it, but the capability exists and is worth a future explicit gate. And the 80% coverage heuristic is Cody's experience, not a law — your creators file is the lever that decides signal quality.",
-      "cta": { "label": "OKAY, SHOW ME THE ANGLES", "href": "#deploy-blocks" }
+      "cta": {
+        "label": "OKAY, SHOW ME THE ANGLES",
+        "href": "#deploy-blocks"
+      }
     }
   ],
   "ledger": [
@@ -155,5 +163,7 @@
       "used_for": "229-engager benchmark, $0.50 run cost",
       "confidence": "VERIFIED"
     }
-  ]
+  ],
+  "category": "research",
+  "priority": 1
 }

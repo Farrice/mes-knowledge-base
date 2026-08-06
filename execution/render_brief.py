@@ -34,6 +34,8 @@ inside title/heading fields to set it in the italic-serif accent voice):
   "footer_right": "@farricecain",
   "run_cost_usd": 0.03,                # optional — shown in ledger section head
   "stack": ["semrush", "reddit"],      # optional — tool provenance line
+  "category": "research",              # optional — Briefing Room sidebar shelf (brief_library.py)
+  "priority": 1,                       # optional — 1-3 (1 highest; also accepts "P1"/"high")
   "sections": [
     {"kind":"summary",  "heading":"the big picture", "kicker":"WHAT'S FORMING", "body":"..."},
     {"kind":"prose",    "heading":"context", "body":"...\n\nparagraphs split on blank lines"},
