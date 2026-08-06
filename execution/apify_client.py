@@ -114,6 +114,8 @@ ACTORS = {
     # Content & Knowledge Work Expansion (added 2026-08-05)
     "linkedin-search": {"id": "harvestapi/linkedin-profile-search", "pricing": "pay_per_event"},
     "linkedin-posts":  {"id": "apimaestro/linkedin-profile-posts",  "pricing": "pay_per_event"},
+    "linkedin-post-reactions": {"id": "apimaestro/linkedin-post-reactions", "pricing": "pay_per_event"},
+    "linkedin-post-comments":  {"id": "apimaestro/linkedin-post-comments-replies-engagements-scraper-no-cookies", "pricing": "pay_per_event"},
     "twitter":         {"id": "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest", "pricing": "per_result", "cost_per_result": 0.00025},
     "facebook-ads":    {"id": "curious_coder/facebook-ads-library-scraper", "pricing": "pay_per_event", "memory_mb": 512},
     "threads-search":  {"id": "jungle_synthesizer/threads-search-scraper",  "pricing": "per_result", "cost_per_result": 0.0005},
@@ -961,6 +963,75 @@ def cmd_linkedin_posts(args):
     print(json.dumps(result, indent=2))
 
 
+def cmd_linkedin_post_reactions(args):
+    """
+    apimaestro/linkedin-post-reactions: who reacted to a LinkedIn post.
+    Real schema (verified 2026-08-06 via builds/default/openapi.json):
+    post_urls (array of URLs or IDs, 1-1000), page_number (int, from 1),
+    reaction_type (ALL|LIKE|PRAISE|EMPATHY|APPRECIATION|INTEREST), limit (1-100 per post).
+    Usage:
+        python execution/apify_client.py linkedin-post-reactions "<post_url>" --limit 100 --page 1
+    """
+    if not args.post:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "linkedin-post-reactions requires a LinkedIn post URL or ID.",
+            "items": []
+        }, indent=2))
+        return
+
+    run_input = {
+        "post_urls": [args.post],
+        "page_number": args.page,
+        "reaction_type": "ALL",
+        "limit": max(1, min(args.limit, 100)),
+    }
+    result = run_actor(
+        "linkedin-post-reactions",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
+def cmd_linkedin_post_comments(args):
+    """
+    apimaestro/linkedin-post-comments-replies-engagements-scraper-no-cookies:
+    who commented on a LinkedIn post (with reply/engagement context).
+    Real schema (verified 2026-08-06 via builds/default/openapi.json):
+    postIds (array, required, 1-500), page_number (int, from 1),
+    sortOrder ("most recent"|"most relevant"), limit (1-100 per post).
+    Usage:
+        python execution/apify_client.py linkedin-post-comments "<post_url>" --limit 100 --page 1
+    """
+    if not args.post:
+        print(json.dumps({
+            "status": "error",
+            "fallback": True,
+            "message": "linkedin-post-comments requires a LinkedIn post URL or ID.",
+            "items": []
+        }, indent=2))
+        return
+
+    run_input = {
+        "postIds": [args.post],
+        "page_number": args.page,
+        "sortOrder": "most recent",
+        "limit": max(1, min(args.limit, 100)),
+    }
+    result = run_actor(
+        "linkedin-post-comments",
+        run_input,
+        args.limit,
+        max_cost=args.max_cost,
+        allow_expensive=args.allow_expensive
+    )
+    print(json.dumps(result, indent=2))
+
+
 def cmd_twitter(args):
     """
     kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest:
@@ -1205,6 +1276,18 @@ def main():
     pli_posts.add_argument("--limit", type=int, default=50)
     _add_pay_per_event_args(pli_posts)
 
+    pli_reactions = sub.add_parser("linkedin-post-reactions", help="Who reacted to a LinkedIn post")
+    pli_reactions.add_argument("post", help="LinkedIn post URL or ID")
+    pli_reactions.add_argument("--limit", type=int, default=100)
+    pli_reactions.add_argument("--page", type=int, default=1, help="Pagination page (from 1)")
+    _add_pay_per_event_args(pli_reactions)
+
+    pli_comments = sub.add_parser("linkedin-post-comments", help="Who commented on a LinkedIn post")
+    pli_comments.add_argument("post", help="LinkedIn post URL or ID")
+    pli_comments.add_argument("--limit", type=int, default=100)
+    pli_comments.add_argument("--page", type=int, default=1, help="Pagination page (from 1)")
+    _add_pay_per_event_args(pli_comments)
+
     ptwitter = sub.add_parser("twitter", help="X/Twitter search (low-cost)")
     ptwitter.add_argument("query", nargs="?", default="", help="Search query")
     ptwitter.add_argument("--username", help="Twitter username (@handle)")
@@ -1252,6 +1335,8 @@ def main():
         "sc-youtube-comments":    cmd_sc_youtube_comments,
         "linkedin-search": cmd_linkedin_search,
         "linkedin-posts":  cmd_linkedin_posts,
+        "linkedin-post-reactions": cmd_linkedin_post_reactions,
+        "linkedin-post-comments":  cmd_linkedin_post_comments,
         "twitter":         cmd_twitter,
         "facebook-ads":    cmd_facebook_ads,
         "threads-search":  cmd_threads_search,

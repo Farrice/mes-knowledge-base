@@ -13,6 +13,8 @@ python execution/skill_converter.py
 python execution/sync_registries.py
 python execution/fetch-transcript.py "<youtube_url>" "<expert>"          # transcript-only
 python execution/fetch-video-context.py "<video_url>" "<expert>"          # frame-grounded vision (claude-video wrapper)
+python3 execution/signal_scout.py [--creators a,b | --posts url,..]       # LinkedIn listening: engager roster + resonance (LISTENING-ONLY, never contacts; feeds Angle Brief Mon/Thu via execution/angle_brief_run.sh)
+python3 execution/render_brief.py <brief.json> [--open|--gdoc]            # research-brief JSON → house-style HTML on the briefs board
 ```
 
 (`execution/parallel_swarm.py` is deprecated — superseded by `/convene` and the Workflow-tool swarms.)

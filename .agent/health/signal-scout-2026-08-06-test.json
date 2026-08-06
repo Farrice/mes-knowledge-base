@@ -1,0 +1,14 @@
+{
+  "run": "2026-08-06T00:10:45",
+  "posts": 4,
+  "engagers": 229,
+  "actor_calls": 10,
+  "call_cap": 80,
+  "budget_spent_before": 1.4239,
+  "budget_spent_after": 1.9199,
+  "outputs": [
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md",
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.json"
+  ],
+  "contacted_anyone": false
+}
