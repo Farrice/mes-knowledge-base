@@ -96,6 +96,10 @@ never date-suffixed variants (one exception: Haiku 4.5's real API ID IS date-suf
 model launch, update THIS table + model-notes.md in one commit (the claude-api skill is the
 verification source, never memory).
 
+### Latency-Class Seating (adopted 2026-08-06 — God Agent delta move #5; goal: right cost per urgency, scar: none — preventive)
+
+Seat by **latency class**, not just capability: **interactive work** (Farrice waiting on the answer) seats for speed at the capability floor the task needs; **async work** (overnight missions, mission-queue cards, launchd jobs — nobody waiting) seats for accuracy per dollar — prefer a cheaper/slower seat at higher effort over a premium seat at default effort, and batch-shaped async work (many independent units) is the first candidate for the cheapest quality-bearing seat. One-line test when dispatching: *is a human waiting?* No → optimize $/quality, never wall-clock.
+
 ## Seating Charter — the Grounding Chain (council-ratified 2026-07-28, Farrice Fork-1B)
 
 Full deliberation: `knowledge/council-sessions/2026-07-28-seating-charter-harness-diet-ratification-contex.md`.

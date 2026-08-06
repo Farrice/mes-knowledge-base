@@ -24,7 +24,7 @@ Nothing in the video approaches verified mastery or taste. V's skills are generi
 
 ## 3. Adoptable moves, ranked by leverage
 
-**1. Event ingestion into the mission queue.** Add a thin webhook/email-poll listener that drops events (Stripe, inbound client email, calendar) as mission-queue entries the existing launchd/COS machinery already consumes. Extends `.agent/mission-queue` + campaign beacon; closes the same gap Riley couldn't (33:52–34:20). Biggest unlock: the harness can react to the world, not just the clock.
+**1. Event ingestion into the mission queue.** ✅ SHIPPED 2026-08-06 — `execution/event_listener.py` + `com.antigravity.event-listener` launchd (30-min poll); inbox source live, gmail/calendar dormant pending one `gws` re-auth. Add a thin webhook/email-poll listener that drops events (Stripe, inbound client email, calendar) as mission-queue entries the existing launchd/COS machinery already consumes. Extends `.agent/mission-queue` + campaign beacon; closes the same gap Riley couldn't (33:52–34:20). Biggest unlock: the harness can react to the world, not just the clock.
 
 **2. Harness evals-as-regression-suite.** Encode a small eval set for the *system itself* — routing bindings fire correctly, register/verbosity per model dialect, mirror fires on raw dumps — run weekly by the evolution orchestrator, report-only per Compass Doctrine. Extends ground-truth rubric + `blind_pass.py` from deliverables to the harness (their 39:57–40:30 move).
 
@@ -32,7 +32,7 @@ Nothing in the video approaches verified mastery or taste. V's skills are generi
 
 **4. Channel delivery for briefs.** Deliver COS digests / campaign-beacon pings to a chat surface via API (not a resident bot — the Jarvis Telegram lesson stands), so Farrice gets Monday-download proactivity (33:16–33:31) away from the terminal. Extends `/cos` + render_brief.
 
-**5. Latency-class routing note in the Conductor Ladder.** Adopt "interactive = fast, async = accurate" (51:33–51:41) as an explicit seating rule: overnight missions may seat cheaper/slower or batch-priced executors. Extends orchestration-doctrine; one paragraph, no new machinery.
+**5. Latency-class routing note in the Conductor Ladder.** ✅ SHIPPED 2026-08-06 — Latency-Class Seating rule in `directives/orchestration-doctrine.md`. Adopt "interactive = fast, async = accurate" (51:33–51:41) as an explicit seating rule: overnight missions may seat cheaper/slower or batch-priced executors. Extends orchestration-doctrine; one paragraph, no new machinery.
 
 ## 4. Verdict
 
