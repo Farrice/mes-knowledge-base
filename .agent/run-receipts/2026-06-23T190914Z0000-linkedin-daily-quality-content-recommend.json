@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-23T19:09:14+00:00",
+  "query": "Run linkedin-daily, quality-content, and recommend for Source-to-Search GLP-1 inbound sprint",
+  "route": "linkedin-daily + quality-content + recommend",
+  "status": "PASS",
+  "owner": "main-thread",
+  "support_gates": "export_format_guard; grounding_guard; content_finish_gate; prose_classifier; banned-term scan",
+  "expert_lenses": "Lara Acosta; Diandra Escobar; Fresh Voice System",
+  "subagent_boundary": "sub-agents 0; no real subagents authorized",
+  "meta_intent": "turn Source-to-Search proof into GLP-1 audit sample and LinkedIn content system",
+  "composition_owner": "Lara Acosta revenue authority with Diandra content architecture",
+  "feedback_hook": "add Farrice raw thoughts to selected briefs before drafting final posts",
+  "changed": "Added 5-page audit sample, LinkedIn creative brief system, legacy claim-safety review, metadata, README/status/source-map updates",
+  "passed": "metadata JSON valid; export guard passed; grounding guard passed; content finish gate warning only; banned-term scan clean",
+  "failed": "memory_retrieve degraded: google.genai missing; chain_runner system-python attempt missing dotenv",
+  "needs_judgment": "Project is organized and ready for raw-thought capture plus final public-readiness pass",
+  "next_action": "Pick 2-3 briefs and add raw thoughts; convert into a 7-day posting queue"
+}
