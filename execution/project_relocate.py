@@ -78,6 +78,11 @@ class GrepFailure(RuntimeError):
     referrers" — that silently downgrades a move to one with zero rewrites."""
 
 
+# Arenas nest projects one level deeper than the old flat `_active/<project>/`.
+# 3 covers `_active/<arena>/<initiative>/` with a level of headroom.
+_SNAPSHOT_SCAN_DEPTH = 3
+
+
 def _snapshot_roots() -> tuple[str, ...]:
     """Projects that are a COPY of this repo, not part of it.
 
@@ -89,13 +94,33 @@ def _snapshot_roots() -> tuple[str, ...]:
 
     Checking for two `_active/` segments in a path is NOT enough — files at the
     snapshot's own root (its 06-system/, its .agent/) have only one.
+
+    Scanning only the immediate children of `_active/` is also not enough. The
+    2026-08-07 arena sweep moves every project one level down, to
+    `_active/<arena>/<initiative>/`. A fixed one-level scan would have found
+    zero snapshots the moment the sweep landed — silently, with the tool still
+    reporting success — and the next move would have rewritten history inside a
+    4,363-file harvest. Detection must survive the reorganisation that this
+    same tool performs. Walk until found, and never descend INTO a snapshot:
+    its inner tree is a copy of this repo and would match forever.
     """
-    roots = []
+    roots: list[str] = []
     active = ROOT / "_active"
-    if active.is_dir():
-        for child in active.iterdir():
-            if child.is_dir() and (child / "_active").is_dir():
-                roots.append(f"_active/{child.name}/")
+    if not active.is_dir():
+        return ()
+
+    def walk(d: Path, depth: int) -> None:
+        if depth > _SNAPSHOT_SCAN_DEPTH:
+            return
+        for child in sorted(d.iterdir()):
+            if not child.is_dir() or child.is_symlink():
+                continue
+            if (child / "_active").is_dir():
+                roots.append(f"{child.relative_to(ROOT)}/")
+                continue  # a snapshot's insides are a copy of this repo
+            walk(child, depth + 1)
+
+    walk(active, 1)
     return tuple(roots)
 
 
