@@ -1,6 +1,6 @@
 # Coach Cooz — start here
 
-*Generated 2026-08-07 11:19 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:28 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -292,7 +292,7 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Drift
 
-- **5 files claim to be the front door** — `15-final-package/00-START-HERE.md`, `16-may-2026-pivot/V6-START-HERE.md`, `16-may-2026-pivot/_archive-V4/00-START-HERE.md`, `16-may-2026-pivot/_archive-V4/V4-00-START-HERE.md`, `_DEPRECATED/11-handoff-package/README-START-HERE.md`. START-HERE.md is the front door; the rest are history.
+- **6 files claim to be the front door** — `15-final-package/00-START-HERE.md`, `16-may-2026-pivot/V6-START-HERE.md`, `16-may-2026-pivot/_archive-V4/00-START-HERE.md`, `16-may-2026-pivot/_archive-V4/V4-00-START-HERE.md`, `START-HERE.md`, `_DEPRECATED/11-handoff-package/README-START-HERE.md`. START-HERE.md is the front door; the rest are history.
 
 ## Media
 

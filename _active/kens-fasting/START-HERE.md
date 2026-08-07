@@ -1,6 +1,6 @@
 # Kens Fasting — start here
 
-*Generated 2026-08-07 11:19 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:28 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -40,6 +40,10 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 - **04-deliverables/instagram_content_strategy** — 2 files: `04-deliverables/client-package/3_Content_Strategy/Instagram_Content_Strategy.md` (2026-07-28), `04-deliverables/instagram-and-landing/instagram_content_strategy.md` (2026-07-28)
 - **04-deliverables/landing_page_copy** — 2 files: `04-deliverables/client-package/2_Sales_and_Copy/Landing_Page_Copy.md` (2026-07-28), `04-deliverables/instagram-and-landing/landing_page_copy.md` (2026-07-28)
+
+## Drift
+
+- **2 files claim to be the front door** — `04-deliverables/client-package/START_HERE_Read_This_First.md`, `START-HERE.md`. START-HERE.md is the front door; the rest are history.
 
 ## Health
 

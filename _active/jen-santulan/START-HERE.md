@@ -1,6 +1,6 @@
 # Jen Santulan — start here
 
-*Generated 2026-08-07 11:19 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:28 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -38,6 +38,10 @@
 - `recon/current-state-audit.md` — touched 2026-07-28
 - `recon/verified-claims.md` — touched 2026-07-28
 - `recon/market-conditions-2026.md` — touched 2026-07-28
+
+## Drift
+
+- **2 files claim to be the front door** — `START-HERE.md`, `deliverables/00-START-HERE.md`. START-HERE.md is the front door; the rest are history.
 
 ## Media
 

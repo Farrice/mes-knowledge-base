@@ -1,6 +1,6 @@
 # Andrea Dj — start here
 
-*Generated 2026-08-07 11:19 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:28 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -410,7 +410,7 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Drift
 
-- **8 files claim to be the front door** — `ai-team/00-START-HERE-andrea.md`, `ai-team/_build-2026-06-05/_pool/master-index.md`, `ai-team/_build-2026-06-05/rooms/1 — Planning & Strategy/master-index.md`, `ai-team/_build-2026-06-05/rooms/★ START HERE - how to set up your team.md`, `ai-team/claude-project-uploads/1-front-of-house/00-master-index.md`, `brand-operating-system/00-foundation/00-master-index.md`. START-HERE.md is the front door; the rest are history.
+- **9 files claim to be the front door** — `START-HERE.md`, `ai-team/00-START-HERE-andrea.md`, `ai-team/_build-2026-06-05/_pool/master-index.md`, `ai-team/_build-2026-06-05/rooms/1 — Planning & Strategy/master-index.md`, `ai-team/_build-2026-06-05/rooms/★ START HERE - how to set up your team.md`, `ai-team/claude-project-uploads/1-front-of-house/00-master-index.md`. START-HERE.md is the front door; the rest are history.
 
 ## Media
 
