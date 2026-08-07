@@ -122,10 +122,19 @@ An official personal NASM badge may enter the proof strip later if it is retriev
 **PASTE**
 
 ```text
-Claims your buyers believe | Creative strategy & positioning for supplement, recovery & performance brands | 18 yrs human performance · 1,000+ clients · Free teardown
+The one claim your buyer will actually buy | Creative strategy & positioning for supplement, recovery & performance brands | 18 yrs human performance · 1,000+ clients · Free teardown
 ```
 
-This opens with what you get (claims your buyers believe), grounds it in category, and closes with proof and offer. GET-first, clean.
+184 of 220 characters. GET-first, category keywords intact for search retrieval, proof and offer at the close.
+
+**Changed 2026-08-06 via `/enchant elevate`** (Farrice's verdict: Take A). Two things moved:
+
+- **Plural → singular.** "Claims" reads as a service menu; "the one claim" reads as a verdict, which is what the offer actually is — a decision, written down. It does the 5-second test's work for free.
+- **A shape the ear can hold.** *buyer / buy* is one word in two forms, and "buy" carries both senses at once — buys the claim, buys the product. It lands on a hard one-syllable Saxon word, per the Latin×Saxon delivery fix in the voice card §6.
+
+Prior version — `Claims your buyers believe | …` — failed the misquote test: a bare noun phrase with no repetition, reversal, or hard landing, so nothing for memory to grab. It was built for search retrieval and did that job; the keyword and proof segments are therefore unchanged.
+
+Runner-up (gate-clean, no wordplay), kept for reference: `The one claim your buyer believes | …`
 
 ---
 
@@ -583,7 +592,7 @@ If you want me to read the live page and point to the first message gap I see, D
 
 - Complete Sections 2 through 9.
 - View the profile once on desktop and once on mobile.
-- Confirm the first line visible under your name says **Creative Strategist for Supplement & Performance Brands**.
+- Confirm the first line visible under your name reads **The one claim your buyer will actually buy** (the headline's first segment — this is what shows under your name in feeds and comments).
 
 ### T+20 minutes: article
 
