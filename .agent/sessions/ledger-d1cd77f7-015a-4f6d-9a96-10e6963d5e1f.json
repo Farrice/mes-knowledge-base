@@ -1,0 +1,21 @@
+{
+ "session_id": "d1cd77f7-015a-4f6d-9a96-10e6963d5e1f",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/THREADS-LAUNCH-STRATEGY.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/THREADS-LAUNCH-POSTS.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": "2026-07-02T19:17:25.606221",
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-02T19:17:25.606233",
+ "pin_nudged": false
+}

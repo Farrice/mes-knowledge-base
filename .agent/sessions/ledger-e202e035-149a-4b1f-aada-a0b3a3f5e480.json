@@ -1,0 +1,20 @@
+{
+ "session_id": "e202e035-149a-4b1f-aada-a0b3a3f5e480",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/execution/control_intent.py",
+  "/Users/farricecain/Google Antigravity/execution/workflow_router.py"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": false
+}

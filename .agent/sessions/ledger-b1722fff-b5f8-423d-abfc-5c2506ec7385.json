@@ -1,0 +1,65 @@
+{
+ "session_id": "b1722fff-b5f8-423d-abfc-5c2506ec7385",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "alex-hormozi-business",
+   "ts": "2026-07-01T17:53:20.559785"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "greg-hickman-service-scaling",
+   "ts": "2026-07-01T17:53:21.347163"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "matthew-lakajev-linkedin",
+   "ts": "2026-07-01T17:53:22.811025"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-copy-blocks",
+   "ts": "2026-07-01T19:09:02.434441"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alex-m-smith-natural-strategy",
+   "ts": "2026-07-01T19:30:22.740890"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-cognitive-load",
+   "ts": "2026-07-01T19:52:32.564195"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-storybrand",
+   "ts": "2026-07-01T19:52:34.146718"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/OFFER-ONE-PAGER.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/outreach/dm-scripts.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/SOUND-BITES.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/featured-section-and-profile.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/lead-magnet-ai-search-visibility-test.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/THE-CLAIM-CHECK-artifact-kit.md",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/b1722fff-b5f8-423d-abfc-5c2506ec7385/scratchpad/handoff-2026-07-01-geo-content-launch.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/LAUNCH-PACKET-CLAIM-CHECK.md"
+ ],
+ "subagent_spawns": 5,
+ "finalized_at": null,
+ "last_debt_at": "2026-07-01T19:52:34.146727",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-02T11:45:56.543384",
+ "pin_nudged": true,
+ "handoff_saved_at": "2026-07-02T11:45:56.543375"
+}
