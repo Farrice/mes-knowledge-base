@@ -629,3 +629,17 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-29 15:35]` **finalize** | Diagnosed the profile-copy v3 FAIL to root cause (briefed from a ban list, not an architecture; rein | brand | voice-os — composite:6.67 status:Needs Improvement
 - `[2026-07-29 15:56]` **finalize** | Mission 4: 10-slide LinkedIn carousel from Transparent Labs teardown. All copy sourced from teardown | general | John Whiting + teardown source — composite:6.33 status:Needs Improvement
 - `[2026-07-29 19:27]` **finalize** | Rule amnesty executed: per-prompt hook injection cut 58-72% (measured 340->144w deliverable, 205->58 | general | system-architect — composite:6.67 status:Needs Improvement
+- `[2026-07-30 15:14]` **finalize** | Built the Dhar Mann Transformational Community Storytelling expert and connected content factory | general | dhar-mann — composite:7.0 status:Needs Improvement
+- `[2026-07-30 18:46]` **finalize** | PR-001 development-intake component validation receipt | general | dhar-mann — composite:7.0 status:Needs Improvement
+- `[2026-07-30 18:47]` **finalize** | PR-002 published-story continuity component validation receipt | general | dhar-mann — composite:7.6 status:Keep
+- `[2026-07-30 18:47]` **finalize** | PR-003 capacity-learning component validation receipt | general | dhar-mann — composite:7.6 status:Keep
+- `[2026-08-02 18:30]` **finalize** | Dhar Mann Production OS end-session handoff, retrieval state, and enriched operator guide | general | dhar-mann — composite:7.0 status:Needs Improvement
+- `[2026-08-04 08:33]` **finalize** | FT-001 LinkedIn transformation story: The 11th Prompt Can Wait | general | dhar-mann — composite:7.67 status:Keep
+- `[2026-08-04 09:01]` **finalize** | The Work Has to Leave: seven-part Farrice transformation content-series system with formats, angles, | general | dhar-mann — composite:8.6 status:Keep
+- `[2026-08-04 09:02]` **finalize** | The Work Has to Leave: seven-part Farrice transformation content-series system with formats, angles, | general | dhar-mann — composite:8.6 status:Keep
+- `[2026-08-04 09:42]` **finalize** | FP-001 Parallax transformation LinkedIn post and proof-to-market comparison packet | content | Dhar Transformational Community Storytelling — composite:7.0 status:Needs Improvement
+- `[2026-08-04 10:00]` **finalize** | Reality Before Rhetoric co-creative depth protocol and use-now master prompt | general | Source-to-skill-system — composite:8.0 status:Keep
+- `[2026-08-04 10:00]` **finalize** | Reality Before Rhetoric co-creative depth protocol and use-now master prompt | general | Source-to-skill-system — composite:8.0 status:Keep
+- `[2026-08-04 11:38]` **finalize** | Reality Before Rhetoric workspace-local integration and frozen cross-domain regression benchmark | general | source-to-skill-system — composite:8.67 status:Keep
+- `[2026-08-04 15:21]` **finalize** | Capability-preserving Reality Before Rhetoric restoration with Dhar storytelling and production expe | general | dhar-mann — composite:7.0 status:Needs Improvement
+- `[2026-08-04 15:21]` **finalize** | Capability-preserving Reality Before Rhetoric restoration with Dhar storytelling and production expe | general | dhar-mann — composite:8.0 status:Keep

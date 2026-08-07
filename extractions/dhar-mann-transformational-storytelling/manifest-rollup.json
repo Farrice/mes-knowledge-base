@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-07-30",
+  "system": "dhar-mann-transformational-storytelling",
+  "base_manifest": "manifest.json",
+  "delta_manifests": [
+    "manifest-delta-02.json"
+  ],
+  "corpus_words": {
+    "base": 7530,
+    "delta_02": 4951,
+    "total": 12481
+  },
+  "shipped": {
+    "base_workflows": 7,
+    "delta_workflows": 2,
+    "total_workflows": 9,
+    "base_prompts": 8,
+    "delta_prompts": 2,
+    "total_prompts": 10
+  },
+  "interpretation": "The base MID-band manifest remains immutable build history. The THIN extension independently earns two workflows and two prompts. Totals are an additive rollup, not a fresh non-extension derivation.",
+  "unsupported_components": [
+    "screenplay and dialogue craft",
+    "actor direction and blocking",
+    "shot design and coverage",
+    "editing, sound, music, color, and VFX",
+    "casting, staffing, budgets, legal, labor, and safety",
+    "proprietary software implementation"
+  ]
+}

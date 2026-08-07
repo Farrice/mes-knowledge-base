@@ -1,0 +1,8 @@
+{
+  "artifact_type": "implementation_receipt",
+  "title": "Reality Before Rhetoric: Implementation Receipt",
+  "status": "behavior-delta-verified",
+  "created": "2026-08-04",
+  "workspace_local": true,
+  "accepted_behavior_sha256": "20fd35a3dfb99c088d481649a71a73eecfef8afaec73cffb11e288d263ce6077"
+}

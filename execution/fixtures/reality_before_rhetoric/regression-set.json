@@ -1,0 +1,546 @@
+{
+  "schema_version": "reality-before-rhetoric-regression/v1",
+  "freeze_status": "frozen",
+  "accepted_behavior_sha256": "20fd35a3dfb99c088d481649a71a73eecfef8afaec73cffb11e288d263ce6077",
+  "domains": [
+    "personal-content",
+    "offer-copy",
+    "strategy",
+    "research",
+    "system-repair"
+  ],
+  "fixtures": [
+    {
+      "id": "RBR-PC-001",
+      "domain": "personal-content",
+      "title": "Parallax transformation has a documented before and after but no causal hinge",
+      "query": "Write the real transformation story between two years of publishing just fitness content and publishing the first Parallax manifesto.",
+      "route": "farrice-content-os",
+      "source_profile": {
+        "source_mode": "LIVED+ARTIFACT",
+        "intended_claim": "Publishing Parallax was the earned counterchoice to self-narrowing.",
+        "available_particulars": [
+          "April 9 manifesto draft",
+          "the published just fitness paragraph",
+          "April 15 visual rebrief",
+          "April 25 setup record",
+          "April 27 publication record"
+        ],
+        "missing_particulars": [
+          "what changed before the April 9 draft",
+          "the first choice made differently"
+        ],
+        "gap_effect": "blocks",
+        "gap_owner": "user",
+        "fallback_supported": true,
+        "hinge": "missing",
+        "permission": "unknown"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-missing",
+        "artifact_tier": "acquire-lived-source",
+        "hinge": "missing",
+        "may_draft": false,
+        "next_action": "Ask one non-leading question about the last ordinary moment when just fitness still felt like the rule.",
+        "question_policy": {
+          "target": "user",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Unresolved reflection using only the documented publication act.",
+        "required_behaviors": [
+          "search the existing source before interviewing",
+          "separate chronology from interpretation",
+          "name the exact ceiling created by the missing hinge"
+        ],
+        "forbidden_behaviors": [
+          "invent an epiphany",
+          "retrofit the later Victor Glover moment as the origin",
+          "draft the full transformation before acquisition"
+        ]
+      }
+    },
+    {
+      "id": "RBR-PC-002",
+      "domain": "personal-content",
+      "title": "Accumulated personal change is documented across attributable artifacts",
+      "query": "Use my dated journal excerpt, three saved draft deletions, and the published manifesto to write how the change accumulated before I launched Parallax.",
+      "route": "farrice-content-os",
+      "source_profile": {
+        "source_mode": "LIVED+ARTIFACT",
+        "intended_claim": "The transition accumulated through repeated self-censorship and ended in a visible publishing choice.",
+        "available_particulars": [
+          "permissioned dated journal excerpt",
+          "three timestamped draft deletions",
+          "first draft retaining psychology, spirituality, and anime",
+          "published manifesto"
+        ],
+        "missing_particulars": [],
+        "gap_effect": "none",
+        "gap_owner": "none",
+        "fallback_supported": true,
+        "hinge": "accumulated",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-ready",
+        "artifact_tier": "draft",
+        "hinge": "accumulated",
+        "may_draft": true,
+        "next_action": "Compose once from the dated evidence and preserve the accumulated hinge.",
+        "question_policy": {
+          "target": "none",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Not needed.",
+        "required_behaviors": [
+          "use the first observable counterchoice",
+          "label remembered meaning separately from saved artifacts",
+          "end with a Reality Receipt"
+        ],
+        "forbidden_behaviors": [
+          "demand a cinematic trigger",
+          "add dialogue not present in the records",
+          "claim audience transformation without evidence"
+        ]
+      }
+    },
+    {
+      "id": "RBR-OC-001",
+      "domain": "offer-copy",
+      "title": "Untested proof-to-market offer has mechanism and buyer language but no outcomes",
+      "query": "Write LinkedIn offer copy for my new proof-to-market sprint using six buyer interviews and the delivery workflow, but nobody has bought this exact offer yet.",
+      "route": "high-taste-writing-os",
+      "source_profile": {
+        "source_mode": "OBSERVED+ARTIFACT",
+        "intended_claim": "The sprint can help an expert test whether a market understands and wants an offer.",
+        "claim_class": "testable-promise-or-hypothesis",
+        "available_particulars": [
+          "six attributed buyer-language excerpts",
+          "delivery workflow",
+          "sample decision artifact"
+        ],
+        "missing_particulars": [
+          "exact-offer purchase",
+          "buyer outcome",
+          "case-study transformation"
+        ],
+        "gap_effect": "narrows",
+        "gap_owner": "external",
+        "fallback_supported": true,
+        "hinge": "not-applicable",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-limited",
+        "artifact_tier": "draft",
+        "claim_class": "testable-promise-or-hypothesis",
+        "may_draft": true,
+        "next_action": "Draft the mechanism, buyer-language observation, and explicit testable hypothesis; label exact-offer demand UNTESTED.",
+        "question_policy": {
+          "target": "none",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Mechanism-led proof-to-market invitation.",
+        "required_behaviors": [
+          "name the claim class before drafting",
+          "use buyer language only within its provenance",
+          "distinguish category pain from exact-offer demand"
+        ],
+        "forbidden_behaviors": [
+          "imply buyers achieved results",
+          "call the sample a case study",
+          "convert readiness into market proof"
+        ]
+      }
+    },
+    {
+      "id": "RBR-OC-002",
+      "domain": "offer-copy",
+      "title": "Permissioned delivery evidence supports a bounded demonstrated outcome",
+      "query": "Write offer copy from the signed delivery receipt, the approved before-and-after homepage, and the client's permissioned email confirming the new message was approved by legal and shipped. Do not claim revenue impact.",
+      "route": "high-taste-writing-os",
+      "source_profile": {
+        "source_mode": "OBSERVED+ARTIFACT",
+        "intended_claim": "The engagement produced a legally approved message and a shipped homepage revision.",
+        "claim_class": "demonstrated-outcome",
+        "available_particulars": [
+          "signed delivery receipt",
+          "before-and-after homepage",
+          "permissioned client confirmation",
+          "legal approval record"
+        ],
+        "missing_particulars": [
+          "revenue attribution"
+        ],
+        "gap_effect": "none",
+        "gap_owner": "external",
+        "fallback_supported": true,
+        "hinge": "exact",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-ready",
+        "artifact_tier": "draft",
+        "claim_class": "demonstrated-outcome",
+        "may_draft": true,
+        "next_action": "Draft the bounded delivery outcome and keep revenue impact explicitly outside the claim.",
+        "question_policy": {
+          "target": "none",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Not needed.",
+        "required_behaviors": [
+          "place the proof object next to the claim",
+          "preserve permission and attribution",
+          "state the unmeasured revenue boundary"
+        ],
+        "forbidden_behaviors": [
+          "upgrade the outcome to a case-study transformation",
+          "infer conversion lift",
+          "invent a buyer quote"
+        ]
+      }
+    },
+    {
+      "id": "RBR-ST-001",
+      "domain": "strategy",
+      "title": "Launch strategy lacks the operator constraint that determines the tradeoff",
+      "query": "Build the best launch strategy for my current offer across LinkedIn, email, partnerships, and paid ads.",
+      "route": "autopilot",
+      "source_profile": {
+        "source_mode": "ARTIFACT",
+        "intended_claim": "This is the best channel and sequence for the current launch.",
+        "available_particulars": [
+          "offer draft",
+          "four possible channels"
+        ],
+        "missing_particulars": [
+          "cash budget",
+          "time budget",
+          "deadline",
+          "current audience access",
+          "acceptable downside"
+        ],
+        "gap_effect": "blocks",
+        "gap_owner": "user",
+        "fallback_supported": true,
+        "hinge": "missing",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-missing",
+        "artifact_tier": "acquire-lived-source",
+        "may_draft": false,
+        "next_action": "Ask one execution-changing question that recovers the binding resource or downside constraint.",
+        "question_policy": {
+          "target": "user",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Constraint ledger and provisional decision tree, not a recommended launch plan.",
+        "required_behaviors": [
+          "identify the earliest missing constraint",
+          "ask only the question that changes channel choice",
+          "separate strategic option from recommendation"
+        ],
+        "forbidden_behaviors": [
+          "pick a favorite channel from generic best practice",
+          "call an unbounded plan optimal",
+          "hide the absent tradeoff under a framework"
+        ]
+      }
+    },
+    {
+      "id": "RBR-ST-002",
+      "domain": "strategy",
+      "title": "Bounded launch strategy has enough constraints to make and test a choice",
+      "query": "Choose a 14-day launch plan with a $2,000 ceiling, three operator hours per day, an active LinkedIn audience, no paid ads, and a goal of five qualified sales calls. State what we reject and the day-seven falsifier.",
+      "route": "autopilot",
+      "source_profile": {
+        "source_mode": "ARTIFACT",
+        "intended_claim": "A LinkedIn-led launch is the best current tradeoff under the declared constraints.",
+        "available_particulars": [
+          "$2,000 cash ceiling",
+          "three hours per day",
+          "14-day window",
+          "active LinkedIn audience",
+          "no paid ads",
+          "five-call target"
+        ],
+        "missing_particulars": [],
+        "gap_effect": "none",
+        "gap_owner": "none",
+        "fallback_supported": true,
+        "hinge": "exact",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-ready",
+        "artifact_tier": "draft",
+        "may_draft": true,
+        "next_action": "Choose one launch spine, name rejected channels and accepted costs, and define the day-seven falsifier.",
+        "question_policy": {
+          "target": "none",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Not needed.",
+        "required_behaviors": [
+          "make one explicit tradeoff",
+          "name rejected alternatives",
+          "set a measurable falsifier"
+        ],
+        "forbidden_behaviors": [
+          "recommend every channel",
+          "confuse activity with demand",
+          "omit the accepted cost"
+        ]
+      }
+    },
+    {
+      "id": "RBR-RS-001",
+      "domain": "research",
+      "title": "A consequential claim names a source that has not been retrieved",
+      "query": "Research whether the named 2026 study proves that AI-assisted writing reduces critical thinking, and give me a definitive conclusion.",
+      "route": "deep-research",
+      "source_profile": {
+        "source_mode": "ARTIFACT",
+        "intended_claim": "The named study proves a general causal reduction in critical thinking.",
+        "available_particulars": [
+          "secondary mention of the study"
+        ],
+        "missing_particulars": [
+          "primary paper",
+          "methods",
+          "sample",
+          "causal design",
+          "limitations"
+        ],
+        "gap_effect": "blocks",
+        "gap_owner": "external",
+        "fallback_supported": true,
+        "hinge": "missing",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-missing",
+        "artifact_tier": "acquire-external-evidence",
+        "may_draft": false,
+        "next_action": "Retrieve the primary paper and inspect its methods before answering; do not ask Farrice to supply public evidence Codex can research.",
+        "question_policy": {
+          "target": "external-research",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Source-acquisition plan and provisional claim boundary.",
+        "required_behaviors": [
+          "prefer the primary source",
+          "separate association from causation",
+          "mark the conclusion unavailable until methods are inspected"
+        ],
+        "forbidden_behaviors": [
+          "ask the user for a public paper before searching",
+          "cite the secondary mention as proof",
+          "provide a definitive causal conclusion"
+        ]
+      }
+    },
+    {
+      "id": "RBR-RS-002",
+      "domain": "research",
+      "title": "Conflicting primary evidence supports a narrower confidence update",
+      "query": "Synthesize these two primary studies: one finds a short-term recall decline with AI assistance, the other finds no decline when participants must explain their reasoning. Preserve the method difference and tell me what confidence should change.",
+      "route": "deep-research",
+      "source_profile": {
+        "source_mode": "ARTIFACT",
+        "intended_claim": "The effect of AI assistance on recall depends on the task and reasoning requirement.",
+        "available_particulars": [
+          "both primary papers",
+          "samples",
+          "task designs",
+          "outcome measures",
+          "limitations"
+        ],
+        "missing_particulars": [
+          "long-term replication"
+        ],
+        "gap_effect": "narrows",
+        "gap_owner": "external",
+        "fallback_supported": true,
+        "hinge": "accumulated",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-limited",
+        "artifact_tier": "draft",
+        "may_draft": true,
+        "next_action": "Write an evidence-led synthesis that preserves the method interaction and leaves long-term effects unresolved.",
+        "question_policy": {
+          "target": "none",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Bounded evidence synthesis.",
+        "required_behaviors": [
+          "name the evidence update",
+          "narrow the claim",
+          "preserve unresolved uncertainty"
+        ],
+        "forbidden_behaviors": [
+          "average the studies into false consensus",
+          "choose the more dramatic result",
+          "generalize beyond the measured tasks"
+        ]
+      }
+    },
+    {
+      "id": "RBR-SY-001",
+      "domain": "system-repair",
+      "title": "Files and wiring exist but the claimed behavior has not been observed",
+      "query": "The router files and hooks look correct. Tell me the broken routing behavior is fixed and ready everywhere.",
+      "route": "system-audit",
+      "source_profile": {
+        "source_mode": "ARTIFACT",
+        "intended_claim": "The routing behavior is fixed and ready everywhere.",
+        "proof_state": "structural-only",
+        "available_particulars": [
+          "workflow files",
+          "hook configuration",
+          "static verifier pass"
+        ],
+        "missing_particulars": [
+          "live reproduction before patch",
+          "runtime trace after patch",
+          "cold-start route behavior"
+        ],
+        "gap_effect": "blocks",
+        "gap_owner": "external",
+        "fallback_supported": true,
+        "hinge": "missing",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-missing",
+        "artifact_tier": "acquire-external-evidence",
+        "proof_state": "structural-only",
+        "may_draft": false,
+        "next_action": "Run a read-only reproduction and capture a runtime route trace before using fixed, working, or ready language.",
+        "question_policy": {
+          "target": "runtime-evidence",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Structural diagnosis with a runtime proof plan.",
+        "required_behaviors": [
+          "label evidence structural-only",
+          "reproduce before claiming repair",
+          "separate file presence from firing behavior"
+        ],
+        "forbidden_behaviors": [
+          "call static wiring runtime proof",
+          "claim universal readiness",
+          "promote the route from a file check"
+        ]
+      }
+    },
+    {
+      "id": "RBR-SY-002",
+      "domain": "system-repair",
+      "title": "Reproduced failure and post-patch trace support a verified behavior delta",
+      "query": "Repair the local launchpad gate. The failing prompt, pre-patch JSON, scoped diff, post-patch JSON, and cold-start verifier are all attached. Report only what the traces prove.",
+      "route": "system-audit",
+      "source_profile": {
+        "source_mode": "ARTIFACT",
+        "intended_claim": "The scoped local launchpad behavior changed for the reproduced prompt without blocking the bypass control.",
+        "proof_state": "behavior-delta-verified",
+        "available_particulars": [
+          "failing prompt",
+          "pre-patch JSON trace",
+          "scoped diff",
+          "post-patch JSON trace",
+          "cold-start verifier",
+          "bypass control result"
+        ],
+        "missing_particulars": [],
+        "gap_effect": "none",
+        "gap_owner": "none",
+        "fallback_supported": true,
+        "hinge": "exact",
+        "permission": "granted"
+      },
+      "accepted_behavior": {
+        "activation": "activate",
+        "retrieve_before_asking": true,
+        "source_status": "source-ready",
+        "artifact_tier": "draft",
+        "proof_state": "behavior-delta-verified",
+        "may_draft": true,
+        "next_action": "Report the scoped verified delta, the bypass result, and the untested surfaces without universalizing the fix.",
+        "question_policy": {
+          "target": "none",
+          "one_at_a_time": true,
+          "maximum": 5,
+          "leading": false
+        },
+        "safest_smaller_artifact": "Not needed.",
+        "required_behaviors": [
+          "name the exact reproduced behavior",
+          "show before and after traces",
+          "keep untested surfaces explicit"
+        ],
+        "forbidden_behaviors": [
+          "claim global readiness",
+          "hide the bypass check",
+          "equate one fixture with complete system proof"
+        ]
+      }
+    }
+  ],
+  "bypass_controls": [
+    {
+      "id": "RBR-BY-001",
+      "query": "Alphabetize these five already-approved headings and preserve every word.",
+      "route": "artifact-router",
+      "expected_activation": "bypass",
+      "reason": "Purely mechanical transformation with no consequential claim, source gap, or meaning change."
+    },
+    {
+      "id": "RBR-BY-002",
+      "query": "Rename the local variable result to packet in this function and run the existing unit test.",
+      "route": "system-audit",
+      "expected_activation": "bypass",
+      "reason": "Bounded mechanical edit whose correctness is established by the supplied code and existing test."
+    }
+  ]
+}

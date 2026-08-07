@@ -56,7 +56,10 @@ Load these sources before drafting or polishing:
     - `skills/attention-hijack-hooks/SKILL.md`
     - `skills/attention-hijack-hooks/genius.md`
 
-If a source is unavailable, write the gap to `_active/farrice-content-os/context-index.md` and continue with a clearly marked assumption. Do not fabricate missing voice, research, visual, or platform evidence.
+If a source is unavailable, write the gap to
+`_active/farrice-content-os/context-index.md` and continue with a clearly marked
+assumption. Narrow, omit, or visibly label any claim the source cannot support;
+do not fabricate missing voice, research, visual, platform, or lived evidence.
 
 ## Local State Home
 
@@ -285,6 +288,9 @@ Reject or revise if:
 - The body was not written before the hook.
 - The draft sounds like AI, a template, or a generic LinkedIn strategist.
 - The piece uses Diandra mechanics without Farrice's voice and worldview.
+- A lived, outcome, causal, or readiness claim exceeds its cited or available
+  evidence.
+- Private or permission-bound material is used beyond its authorized boundary.
 - Brandjacking copies an idea instead of extracting a mechanic.
 - The hook uses a format but does not create a real curiosity gap.
 - The writers' room, taste pass, anti-slop audit, or copy gate is skipped for public/revenue content.

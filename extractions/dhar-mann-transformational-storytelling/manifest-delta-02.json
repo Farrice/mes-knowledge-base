@@ -1,0 +1,25 @@
+{
+  "band": "THIN",
+  "corpus_words": 4951,
+  "extension": true,
+  "yields": {
+    "patterns": 4,
+    "hidden": 2,
+    "exemplars": 3,
+    "deliverables": 2,
+    "stacking_hits": 1
+  },
+  "workflows": 2,
+  "tiers": {
+    "placement": "into existing skill's tier table (Foundation for gates/audits, Practitioner for asset production, Stacking for cross-expert)"
+  },
+  "prompts_floor": 2,
+  "references": [
+    "source-quotes append (quote bank + claims-ledger entries)",
+    "provenance entries for new anti-pattern/exemplar anchors"
+  ],
+  "orchestrator_eligible": false,
+  "agent": "required (AGENT.md + memory + front door via sync_registries)",
+  "fidelity": "low",
+  "note": "THIN after enrichment: ship the honest count, flag fidelity: low, never pad."
+}

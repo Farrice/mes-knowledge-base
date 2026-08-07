@@ -1,0 +1,54 @@
+{
+  "schema_version": "content-series-planning-receipt/v1",
+  "receipt_id": "CS-001-the-work-has-to-leave",
+  "created_at": "2026-08-04T16:02:13Z",
+  "evidence_class": "PROSPECTIVE_SERIES_ARCHITECTURE_LOCAL",
+  "objective": "Expand FT-001 into a higher-ceiling Farrice transformation content series with formats, angles, sequence, reusable taste rules, and evidence gates.",
+  "source_artifact": "outputs/dhar-mann-field-tests/FT-001-content-factory-meets-audience/artifact.md",
+  "route": {
+    "conductor": "content-series-plan",
+    "transformation_owner": "dhar-mann-transformational-storytelling",
+    "bounded_support": [
+      "nicolas-cole-tangible-faucet",
+      "steven-pressfield-series-arc",
+      "kieran-flanagan-content-ops",
+      "farrice-voice-blend"
+    ],
+    "review_workers": 3,
+    "review_worker_scope": "READ_ONLY",
+    "edit_owner": "ROOT_MAIN_THREAD"
+  },
+  "outputs": [
+    "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/00-series-system.md",
+    "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/01-taste-rules.md",
+    "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/series-manifest.json",
+    "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/00-series-system.metadata.json"
+  ],
+  "checks": {
+    "manifest_json": "PASS",
+    "part_count": 7,
+    "one_mode_and_route_per_part": "PASS",
+    "voice_evaluator": "PASS_NO_DETERMINISTIC_TELLS",
+    "claim_risk_scan": "PASS_CLEAN",
+    "grounding_guard": "PASS",
+    "export_format_guard": "PASS",
+    "content_finish_gate": "WARN_STRUCTURED_PARALLELISM_ONLY",
+    "prose_classifier": "WARNING_2_OF_10_STRUCTURED_PARALLELISM_ONLY",
+    "dhar_factory_verifier": "PASS",
+    "chain_finalization": {
+      "composite": 8.6,
+      "quality_gate": "KEEP",
+      "notion": "SKIPPED",
+      "regression_note": "Notion regression comparison unavailable because NOTION_API_KEY was not set."
+    }
+  },
+  "publication": "NO_PUBLICATION",
+  "human_felt_verdict": "PENDING_ON_FT_001",
+  "production_owner_acceptance": "PENDING",
+  "audience_evidence": "NONE",
+  "plugin_readiness": "54/100_KEEP_AS_WORKFLOW",
+  "plugin_readiness_effect": "NO_SCORE_CHANGE",
+  "independence_boundary": "This seven-part campaign counts as at most one creator-run family, not three independent accepted runs.",
+  "claim_boundary": "No format performance, audience recognition, action, community, transformation, or plugin portability is claimed.",
+  "next_action": "Record Farrice USE, REVISE, or REJECT verdict on FT-001 before drafting or releasing Parts 2 through 7."
+}

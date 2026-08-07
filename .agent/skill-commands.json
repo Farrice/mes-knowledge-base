@@ -333,6 +333,10 @@
       "skill": "deya-business-systems"
     },
     {
+      "command": "/dhar-mann-transformational-storytelling",
+      "skill": "dhar-mann-transformational-storytelling"
+    },
+    {
       "command": "/diandra-escobar-linkedin-growth",
       "skill": "diandra-escobar-linkedin-growth"
     },
@@ -1832,6 +1836,12 @@
       "command": "/deya",
       "skills": [
         "deya-business-systems"
+      ]
+    },
+    "dhar-mann": {
+      "command": "/dhar-mann",
+      "skills": [
+        "dhar-mann-transformational-storytelling"
       ]
     },
     "diandra-escobar": {

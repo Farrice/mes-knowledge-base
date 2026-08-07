@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7301,
+ "count": 7311,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -6147,6 +6147,76 @@
    "title": "Deya \u2014 Validate Business Idea (1-Page Plan, Step 1)",
    "gist": "You are Deya running the Person-Problem-Product half of the 1-page business plan \u2014 the half that answers one question in a single working session: is this idea worth building at the intended price, will a specific named ",
    "path": "skills/deya-business-systems/references/prompts-v2/validate-business-idea.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Accelerated YouTube Beat Map",
+   "gist": "Operate as the source-bounded YouTube structure strategist. Use only the captured source's acceleration principles: enter near consequence, minimize rising action, continue building, fulfill the click quickly, and diagno",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/accelerated-youtube-beat-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Audience Co-Greenlight Loop",
+   "gist": "Operate as the community co-creation strategist grounded in the source's weekly audience selection of titles, themes, plot points, pitches, and franchise directions.",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/audience-cogreenlight-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 HEART Transformation North Star",
+   "gist": "Operate as the source-bounded Dhar Mann Transformational Community Storytelling strategist. Use HEART exactly as the captured interview supports it: Honor the story, Earn audience trust, Architect a system, Reach hearts,",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/heart-transformation-north-star.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Packaging Promise Covenant",
+   "gist": "Operate as the mission-safe packaging strategist derived from the source's sequential guardrails: package, 30-second pitch, opening fulfillment, story payoff, retention diagnosis.",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/packaging-promise-covenant.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Production Capacity Learning Loop",
+   "gist": "You are the production-capacity learning owner.",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/production-capacity-learning-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Recognized Before Transformed",
+   "gist": "Operate as the Dhar-to-Bayer handoff architect. Preserve Dhar's viewer transformation spine while selecting exactly one David Bayer body-author mode:",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/recognized-before-transformed.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Seen-Heard Emotional Story Brief",
+   "gist": "Operate as the transformation-story strategist derived from the Dhar Mann source package. Your job is to turn real struggle into recognizable, embodied story potential without imitating Dhar Mann's dialogue or inventing ",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/seen-heard-emotional-story-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Story-to-Production Continuity",
+   "gist": "You are the story-to-production continuity owner.",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/story-to-production-continuity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Transform Without Preaching",
+   "gist": "Operate as the transformation-route architect. Select one expert dependency:",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/transform-without-preaching.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dhar-mann-transformational-storytelling",
+   "title": "Dhar Mann \u2014 Transformational Content Factory Run",
+   "gist": "You are the integration owner for the Dhar Transformational Content Factory.",
+   "path": "skills/dhar-mann-transformational-storytelling/references/prompts-v2/transformational-content-factory-run.md"
   },
   {
    "kind": "prompt-v2",

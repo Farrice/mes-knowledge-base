@@ -8,6 +8,10 @@ One composer, many scalpels.
 
 The final writer owns the voice and flow. Specialist experts diagnose specific layers and hand back concise line-level changes. Do not concatenate expert outputs or let the piece become a visible stack of frameworks.
 
+Craft may not create missing facts, scenes, causal bridges, outcomes, or
+permission. Repair the smallest unsupported unit and continue supported
+adjacent work.
+
 ## Mandatory Sequence
 
 1. Reader contract.
@@ -60,6 +64,8 @@ The piece must create:
 - Outline logic: coherent order but no emotional flow.
 - Clean wallpaper: professional language with no lived texture.
 - Clever fog: hook creates confusion instead of curiosity.
+- Source laundering: better craft makes an unsupported story, claim, strategy,
+  research conclusion, or readiness statement feel earned.
 
 ## Validation
 

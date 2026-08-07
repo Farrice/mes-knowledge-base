@@ -1,0 +1,66 @@
+[
+  {
+    "time": "04:19-04:44",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Toni Gray, Head of Production, Dhar Mann Studios",
+    "signal": "Gray describes weekly personal incidents moving from a showrunner conversation into written stories on an approximately 30-day delivery cycle.",
+    "translation": "Use a provenance-bearing everyday incident as a development input, then record the owner, next artifact, and capacity decision required before writing."
+  },
+  {
+    "time": "06:48-07:26",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Toni Gray, Head of Production, Dhar Mann Studios",
+    "signal": "Gray reports roughly eight crews running concurrently across three studios and about 90 sets during 30-day idea-to-publication cycles.",
+    "translation": "Treat concurrency and turnaround as local operating constraints to map, not numerical targets to copy."
+  },
+  {
+    "time": "08:12-08:39",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Sean Atkins, CEO, Dhar Mann Studios",
+    "signal": "Atkins says a bespoke software system ingests a finished script, breaks it into component parts, and sends department-specific checklists such as actor, outfit, location, and time requirements.",
+    "translation": "Convert an approved script or beat map into explicit production units and department handoffs; do not infer the proprietary software's algorithm or implementation."
+  },
+  {
+    "time": "09:17-09:34",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Sean Atkins, CEO, Dhar Mann Studios",
+    "signal": "Atkins describes the same hallway or room playing multiple locations when filmed or configured differently.",
+    "translation": "Maintain an asset-topology map that records reusable environments and their transformation limits."
+  },
+  {
+    "time": "10:10-11:34",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Sean Atkins, CEO, Dhar Mann Studios",
+    "signal": "Atkins describes self-contained production lots, quarterly crew-space analysis, and duplicating or reconfiguring a frequently blocking set when capacity data warrants it.",
+    "translation": "Log production stoppages by constrained asset, then review the repeated bottleneck before adding, duplicating, or reconfiguring capacity."
+  },
+  {
+    "time": "12:08-12:46",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Toni Gray, Head of Production, Dhar Mann Studios",
+    "signal": "Gray describes pre-production collaboration and table-read changes when material feels recently seen or repeated.",
+    "translation": "Add a freshness and continuity checkpoint before production lock; revision remains a creative decision, not an automatic similarity score."
+  },
+  {
+    "time": "13:22-14:06",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Sean Atkins, CEO, Dhar Mann Studios",
+    "signal": "Atkins recounts a Christmas-film idea moving through loglines, a production-capacity conversation, a treatment, and a writer handoff within one day, with production reportedly planned about a week later.",
+    "translation": "Require a capacity conversation between concept selection and writer handoff; treat the anecdote's speed as descriptive, not a universal service-level target."
+  },
+  {
+    "time": "21:47-22:46",
+    "type": "observed_spoken",
+    "claim_status": "SELF_REPORTED",
+    "speaker": "Toni Gray, Head of Production, Dhar Mann Studios",
+    "signal": "Gray recounts a phone-and-car incident being told to a showrunner the next day and becoming a storyline she reports as relatable and viral.",
+    "translation": "Capture the incident, the recognizable predicament, and the audience-relatability hypothesis separately; never convert the reported virality into a guaranteed outcome."
+  }
+]

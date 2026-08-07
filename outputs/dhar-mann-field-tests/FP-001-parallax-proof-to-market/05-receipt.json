@@ -1,0 +1,27 @@
+{
+  "id": "FP-001",
+  "status": "prospective_taste_review",
+  "artifacts": [
+    "01-parallax-transformation-post.md",
+    "02-proof-to-market-branch-post.md"
+  ],
+  "factory_packet": "04-factory-packet.md",
+  "source_ledger": "03-source-and-claim-ledger.md",
+  "publication": "not_performed",
+  "farrice_verdict": "pending",
+  "audience_evidence": "none",
+  "offer_state": "untested",
+  "commercial_branch_status": "hold_primary_wins_cold_comparison",
+  "deterministic_verification": "pass",
+  "factory_verifier": "pass",
+  "chain_finalize": "7.0_marginal_needs_improvement",
+  "follow_on_depth_system": {
+    "protocol": "07-reality-before-rhetoric-co-creative-depth-protocol.md",
+    "master_prompt": "08-reality-before-rhetoric-master-prompt.md",
+    "receipt": "09-reality-before-rhetoric-receipt.md",
+    "status": "use_now_not_wired"
+  },
+  "plugin_assessment": "54/100_keep_as_workflow",
+  "plugin_readiness_credit": 0,
+  "proof_boundary": "Local artifact existence only; no acceptance, publication, audience, demand, revenue, or transformation claim."
+}

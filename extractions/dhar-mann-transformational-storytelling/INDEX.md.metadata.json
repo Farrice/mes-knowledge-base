@@ -1,0 +1,16 @@
+{
+  "title": "Dhar Mann Transformational Community Storytelling System",
+  "artifactType": "extraction-system",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "status": "expanded-and-verified",
+  "sourceVideoIds": [
+    "Ht241IIaDCA",
+    "8GfgSz7LfLw"
+  ],
+  "pluginReadiness": {
+    "score": 54,
+    "decision": "KEEP AS WORKFLOW"
+  }
+}

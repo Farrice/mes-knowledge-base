@@ -1,13 +1,13 @@
 {
-  "last_synced_commit": "e934b9d4581162e0bdfbe90f27abf50d3c5b9875",
-  "last_synced_at": "2026-07-30T06:54:36Z",
+  "last_synced_commit": "b62a703d5112501dd9037c8b35b92a0a46a212ca",
+  "last_synced_at": "2026-08-03T01:35:22Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
-    "directives/feedback-ratchet.md": "e3be9cff4ae87c656f3fc8cf5c31bb29cc451b53",
+    "directives/feedback-ratchet.md": "2f7b249677519958b0bed86b0c90aaa62ee2bbc8",
     "directives/intent-pipeline.md": "e9ec4f6f857421fb2d198dc4191e206d022ea909",
-    "directives/quality_gate.md": "7f766346e7f7f5ccbf0bf69bbcea04ea6db070ed",
-    "directives/session-state-protocol.md": "126f8071f279ae0074a71c9463dadda2b84cd069",
+    "directives/quality_gate.md": "5d6d8190c1b2ddcf437d7b0be96585d2723f66b5",
+    "directives/session-state-protocol.md": "52737044671e6cefc49ce1b37a07cea2fd064b9e",
     "directives/skill-craft-standard.md": "2101773a8dcee8cbbf74c900c72c0f77b468f674",
     "docs/agents/issue-tracker.md": "1687dc77356b6e91c5200d94e9dee152f4635b3c",
     "skills/ben-watkins-storytelling/SKILL.md": "6f032cf67f257efef7fb1e9866f53528b945181d",
@@ -53,6 +53,20 @@
     ".agent/workflows/sll-cadence-audit.md": "8d59b8bb75713cc5f715c4f830f8691dee251ea1",
     ".agent/workflows/sll-lead-form.md": "9335bbd12045245f8414d050727caf2bb79b6e34",
     ".agent/workflows/sll-long-form-explainer.md": "d218fff2c2d7d962b6c8a237d3e912032566628b",
-    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2"
+    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2",
+    "docs/solutions/index.md": "c25cf80a9c6b51cb2438cfb7693d068092c7825a",
+    ".agent/workflows/dhar-mann.md": "e1e5679fab8acff12621054a75db6424226496f6",
+    ".agent/workflows/dhar-transformational-content-factory.md": "4e84defbc361f748e88e910347a61f160adb913f",
+    "docs/solutions/2026-07-30-dhar-transformational-story-system-forge.md": "976f1a912f19b69c6cd43f1da48c892b6e7fe945",
+    "skills/dhar-mann-transformational-storytelling/SKILL.md": "263a707d27c99927aa493979358caef64883e37b",
+    "skills/dhar-mann-transformational-storytelling/workflows/09-production-capacity-learning-loop.md": "e8fe756dcbb13082198440205e906baf9bc3f73c",
+    "skills/dhar-mann-transformational-storytelling/workflows/01-heart-transformation-north-star.md": "ad8cfa9f488dc37f2ccbeadfc891a70bc08cffa7",
+    "skills/dhar-mann-transformational-storytelling/workflows/02-seen-heard-emotional-story-brief.md": "5b190c0209d798732132f2e5eb753f33396be16c",
+    "skills/dhar-mann-transformational-storytelling/workflows/04-accelerated-youtube-beat-map.md": "2cb20131e00897feb025d68b08bc1b9fd370e0c2",
+    "skills/dhar-mann-transformational-storytelling/workflows/06-recognized-before-transformed.md": "089ece5447e1bdb9a49cee207b838a520e2dd46f",
+    "skills/dhar-mann-transformational-storytelling/workflows/05-audience-cogreenlight-loop.md": "e9d7d52584e48f267cdabb07e96264df7a359831",
+    "skills/dhar-mann-transformational-storytelling/workflows/03-packaging-promise-covenant.md": "f5bb1d6bc501be8b895b5973e33b449b5abb93eb",
+    "skills/dhar-mann-transformational-storytelling/workflows/08-story-to-production-continuity.md": "a08db46b1f33fdff933ffd0c211081a918c460a2",
+    "skills/dhar-mann-transformational-storytelling/workflows/07-transform-without-preaching.md": "7a72aae572facf4925ed47e54d51f02522263a3e"
   }
 }

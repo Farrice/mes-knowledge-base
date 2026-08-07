@@ -1,0 +1,15 @@
+{
+  "schema_version": "codex-artifact/v1",
+  "artifact_id": "FT-001-content-factory-meets-audience",
+  "artifact_type": "linkedin_post",
+  "title": "The 11th Prompt Can Wait",
+  "status": "ready_for_publish_review",
+  "owner": "Farrice Cain",
+  "voice_mode": "BLEND",
+  "created_at": "2026-08-04",
+  "source_packet": "outputs/dhar-mann-field-tests/FT-001-content-factory-meets-audience/factory-packet.md",
+  "prospective_receipt": "outputs/dhar-mann-field-tests/FT-001-content-factory-meets-audience/receipt.json",
+  "publication": "NOT_PUBLISHED",
+  "human_felt_verdict": "PENDING",
+  "promotion_credit": "PROSPECTIVE_FIELD_TEST_ONLY"
+}

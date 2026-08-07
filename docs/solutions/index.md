@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-07-30 · dhar-transformational-story-system-forge · Turn one source-rich interview into a distinct reusable content system without expert soup, invented craft, or premature plugin packaging
 - 2026-07-28 · front-door-masks-first-workflow-from-minter · the generated expert front door cites the first workflow path as its example row, which arsenal_index reads as "reachable," so the minter silently skips that workflow's /command on every fresh forge
 - 2026-07-27 · every-failure-defaults-to-the-human · a check reports pass/fail with no notion of WHO fixes it, so every failure escalates to the human by default
 - 2026-07-27 · verification-with-no-reader · verification machinery that reports to a log file nobody reads is indistinguishable from no verification

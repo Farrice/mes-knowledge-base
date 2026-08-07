@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "PR-001-development-intake",
+  "created_at": "2026-07-30T18:42:57-07:00",
+  "evidence_class": "LOCAL_SOURCE_CORPUS_COMPONENT_VALIDATION",
+  "input": {
+    "path": "extractions/video-context/8GfgSz7LfLw/transcript_segments.json",
+    "kind": "public_panel_anecdote",
+    "provenance": "captioned source, 21:47-22:46",
+    "synthetic": false
+  },
+  "sources": [
+    {
+      "source_id": "8GfgSz7LfLw",
+      "anchors": [
+        "21:47-22:46"
+      ]
+    }
+  ],
+  "route": {
+    "owner": "dhar-mann-transformational-storytelling",
+    "workflow": "08-story-to-production-continuity",
+    "selection_reason": "real incident required a provenance, capacity, unit, and specialist-handoff packet"
+  },
+  "run_mode": "development_intake_component_validation",
+  "composition": {
+    "spine": "dhar-mann-transformational-storytelling",
+    "external_dependencies": [],
+    "body_author": null
+  },
+  "components_invoked": [
+    "development intake",
+    "concept-to-capacity checkpoint",
+    "production-unit map",
+    "department handoff matrix",
+    "freshness and continuity review",
+    "craft-gap register"
+  ],
+  "outputs": [
+    "extractions/dhar-mann-transformational-storytelling/production-receipts/PR-001-development-intake/output.md"
+  ],
+  "source_mechanics_activated": [
+    "provenance-bearing incident intake",
+    "relatability hypothesis separated from reported performance",
+    "specialist handoff without invented craft"
+  ],
+  "checks": {
+    "provenance": "PASS",
+    "claim_labels": "PASS",
+    "output_contract": "PASS",
+    "unsupported_gaps_exposed": "PASS",
+    "publication_evidence": "NOT_APPLICABLE"
+  },
+  "run_verdict": "READY FOR SPECIALIST HANDOFF",
+  "routing_id": "rt_20260731_014657_0535",
+  "finalization": {
+    "composite": 7.0,
+    "quality_gate": "MARGINAL",
+    "notion": "SKIPPED",
+    "regression_note": "Notion mirror check unavailable because NOTION_API_KEY was not set."
+  },
+  "publication": "NOT_PUBLISHED",
+  "human_felt_verdict": "PENDING",
+  "promotion_credit": "COMPONENT_VALIDATION_ONLY",
+  "claim_boundary": "No screenplay, directing, editing, product-behavior, or virality claim is completed by this run.",
+  "next_action": "Run with a real creator incident and named production inventory before treating the component as field-proven."
+}

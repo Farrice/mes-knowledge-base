@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-07-28 | 755 sources | 2,909,603 words*
+*Generated: 2026-08-04 | 758 sources | 2,751,449 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
-- **2026-07-28-seating-charter-harness-diet-ratification-contex** (general) — 1,303 words — `knowledge/council-sessions/2026-07-28-seating-charter-harness-diet-ratification-contex.md`
-- **index** (content) — 5,148 words — `knowledge/index.md`
-- **log** (general) — 15,452 words — `knowledge/log.md`
-- **blind-pass-log** (content) — 79 words — `extractions/hilary-gridley/blind-pass-log.md`
-- **blind-pass-sample** (systems) — 669 words — `extractions/hilary-gridley/blind-pass-sample.md`
-- **extraction** (content [kieran-flanagan]) — 3,747 words — `extractions/hilary-gridley/extraction.md`
-- **how-to-stop-using-ai-so-badly** (content) — 736 words — `extractions/hilary-gridley/reference-corpus/how-to-stop-using-ai-so-badly.md`
-- **todays-managers-will-decide-what** (content) — 568 words — `extractions/hilary-gridley/reference-corpus/todays-managers-will-decide-what.md`
-- **vision** (content) — 999 words — `extractions/hilary-gridley/vision.md`
+- **index** (content) — 4,810 words — `knowledge/index.md`
+- **log** (general) — 15,904 words — `knowledge/log.md`
+- **INDEX** (screenwriting) — 438 words — `extractions/dhar-mann-transformational-storytelling/INDEX.md`
+- **SKILL-SYSTEM-CONTRACT** (content) — 737 words — `extractions/dhar-mann-transformational-storytelling/SKILL-SYSTEM-CONTRACT.md`
+- **amplification-report** (screenwriting) — 1,098 words — `extractions/dhar-mann-transformational-storytelling/amplification-report.md`
+- **composition-ledger** (screenwriting [connelly]) — 646 words — `extractions/dhar-mann-transformational-storytelling/composition-ledger.md`
+- **delta-02-production-operations** (content) — 835 words — `extractions/dhar-mann-transformational-storytelling/delta-02-production-operations.md`
+- **mastery-extraction** (content) — 2,013 words — `extractions/dhar-mann-transformational-storytelling/mastery-extraction.md`
+- **plugin-readiness-scorecard-2026-07-30** (content) — 240 words — `extractions/dhar-mann-transformational-storytelling/plugin-readiness-scorecard-2026-07-30.md`
+- **plugin-readiness** (content) — 639 words — `extractions/dhar-mann-transformational-storytelling/plugin-readiness.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 267 | lara-acosta |
-| copywriting | 103 | luke-iha |
-| general | 93 | nick-saraev |
-| strategy | 82 | april-dunford |
-| screenwriting | 54 | connelly |
+| content | 261 | lara-acosta |
+| copywriting | 104 | luke-iha |
+| general | 95 | nick-saraev |
+| strategy | 80 | april-dunford |
+| screenwriting | 63 | connelly |
 | brand | 50 | oren-john |
-| systems | 44 | nick-saraev |
+| systems | 45 | nick-saraev |
 | seo | 27 | nathan-gotch |
-| research | 24 | dai-media |
-| sales | 11 | dai-media |
+| research | 23 | dai-media |
+| sales | 10 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

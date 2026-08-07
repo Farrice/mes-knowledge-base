@@ -139,6 +139,10 @@ If this table is weak, gather better material before writing.
 
 Do not try to sound better before the material is better.
 
+Treat a source gap at the smallest claim, scene, or causal bridge. Retrieve,
+label, narrow, omit, or use a visible placeholder; do not refill the gap with
+plausible language. Supported adjacent work continues.
+
 Required material:
 
 - one private sentence from the reader or buyer
@@ -246,6 +250,9 @@ Before final delivery, ask:
 - Does the format feel like AI learned LinkedIn?
 - Is the CTA or next step asking for trust too early?
 - Is the output impressive by receipts, not expert names?
+- Did any craft pass invent or promote a fact, scene, causal bridge, outcome,
+  or permission beyond the available source? If so, repair that unit without
+  suppressing supported adjacent work.
 
 Apply fixes before verification.
 
