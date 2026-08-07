@@ -1,0 +1,32 @@
+{
+  "audience": "supplement brand founder or marketing lead",
+  "brief_id": "brief-4924573714cd",
+  "channel": "visual_brief",
+  "created_at": "2026-08-05T15:15:52.563818+00:00",
+  "cta": "Send me the live page or campaign. I will point to one consequential message or proof gap using your public words\u2014nothing invented.",
+  "information_gain_requirement": "Make the proof chain inspectable in one frame: exact proof, evidence limit, buyer tension, defensible belief, hook direction, and reviewer boundary.",
+  "intent": "informational",
+  "measurement_hypothesis": {
+    "falsifier": "After 7 days, an internal reviewer still cannot identify the exact proof, evidence limit, buyer belief, hook direction, and reviewer boundary from the visual.",
+    "observation_window_days": 7,
+    "prediction": "An inspectable proof-to-angle visual may improve correct identification of the evidence limit and reviewer boundary in an internal comprehension test.",
+    "primary_stage": "PREDICTED"
+  },
+  "notes": "Approved for a local visual production handoff only. Paid generation and publication remain approval-bound.",
+  "operator_taste_refs": [
+    "project-pack/context/operator-taste.json",
+    "_active/farrice-brand/voice/VOICE-CARD.md"
+  ],
+  "project_id": "the-angle-map-search-answer-prototype",
+  "record_type": "SearchBrief",
+  "risk_boundary": "This is marketing and source-organization guidance, not legal, medical, regulatory, ranking, citation, traffic, or revenue advice.",
+  "schema_version": "search-brief/v1",
+  "source_receipts": [
+    "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md",
+    "owned-answer-page.md"
+  ],
+  "status": "APPROVED",
+  "structural_pattern": "one-row proof chain -> risk callout -> reviewer gate -> Angle Map attribution",
+  "target_query": "how to create supplement marketing angles without overclaiming"
+}

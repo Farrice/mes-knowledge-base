@@ -1,0 +1,48 @@
+{
+  "schema_version": "search-import-profiles/v1",
+  "profiles": {
+    "gsc": {
+      "required": ["date", "query", "page", "clicks", "impressions", "ctr", "position"],
+      "optional": ["country", "device", "search_appearance"],
+      "date_field": "date",
+      "numeric": ["clicks", "impressions", "ctr", "position"]
+    },
+    "ga4": {
+      "required": ["date", "landing_page", "sessions", "users", "conversions"],
+      "optional": ["source", "medium", "revenue"],
+      "date_field": "date",
+      "numeric": ["sessions", "users", "conversions", "revenue"]
+    },
+    "gbp": {
+      "required": ["date", "location_id", "search_views", "website_clicks", "calls", "direction_requests"],
+      "optional": ["business_name", "query"],
+      "date_field": "date",
+      "numeric": ["search_views", "website_clicks", "calls", "direction_requests"]
+    },
+    "youtube": {
+      "required": ["date", "video_id", "views", "watch_time_minutes", "subscribers_gained"],
+      "optional": ["impressions", "impressions_ctr", "average_view_duration_seconds"],
+      "date_field": "date",
+      "numeric": ["views", "watch_time_minutes", "subscribers_gained", "impressions", "impressions_ctr", "average_view_duration_seconds"]
+    },
+    "clarity": {
+      "required": ["date", "url", "sessions", "dead_clicks", "rage_clicks"],
+      "optional": ["quick_backs", "scroll_depth_percent"],
+      "date_field": "date",
+      "numeric": ["sessions", "dead_clicks", "rage_clicks", "quick_backs", "scroll_depth_percent"]
+    },
+    "rank_tracker": {
+      "required": ["date", "query", "url", "position", "engine"],
+      "optional": ["location", "device", "serp_features"],
+      "date_field": "date",
+      "numeric": ["position"]
+    },
+    "ai_citation": {
+      "required": ["observed_at", "query", "engine", "cited", "cited_url", "evidence_ref"],
+      "optional": ["answer_excerpt", "position", "brand"],
+      "date_field": "observed_at",
+      "numeric": ["position"],
+      "boolean": ["cited"]
+    }
+  }
+}

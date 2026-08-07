@@ -1,0 +1,29 @@
+{
+  "gaps": [
+    "No live keyword-volume export",
+    "No current GSC query export",
+    "No client support, sales-call, review, or search-term export",
+    "No owned URL or baseline observation set"
+  ],
+  "imports": [],
+  "queries": [
+    {
+      "query": "how to market supplements without making health claims",
+      "status": "HYPOTHESIS"
+    },
+    {
+      "query": "how to create supplement marketing angles without overclaiming",
+      "status": "HYPOTHESIS"
+    },
+    {
+      "query": "how should a supplement brand turn product evidence into ad angles without overclaiming",
+      "status": "HYPOTHESIS"
+    }
+  ],
+  "schema_version": "search-context/v1",
+  "surfaces": [
+    "Owned answer page; live URL absent",
+    "Organic LinkedIn derivative; publication not approved",
+    "Embeddable proof-to-angle receipt; implementation surface absent"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "Search Content Mastery fixture reviewer",
+  "dimensions": {
+    "intent_fit": 8.5,
+    "information_gain": 8.0,
+    "source_quality": 7.5,
+    "technical_on_page_readiness": 8.0,
+    "aeo_geo_readiness": 8.0,
+    "human_usefulness": 8.5,
+    "format_fit": 8.5,
+    "conversion_alignment": 7.5,
+    "claim_risk": 9.0,
+    "measurement_readiness": 9.0
+  },
+  "notes": "Fixture judgment is bounded and does not claim market effect."
+}

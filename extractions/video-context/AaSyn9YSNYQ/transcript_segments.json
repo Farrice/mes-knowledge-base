@@ -1,0 +1,1640 @@
+[
+  {
+    "start": "00:00:02.149",
+    "end": "00:00:02.159",
+    "start_seconds": 2.149,
+    "end_seconds": 2.159,
+    "text": "So, here's how to rank your SEO content",
+    "source_text": "So, here's how to rank your SEO content",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:02.159",
+    "end": "00:00:04.950",
+    "start_seconds": 2.159,
+    "end_seconds": 4.95,
+    "text": "in Google and AI platforms like ChatGpt.",
+    "source_text": "So, here's how to rank your SEO content in Google and AI platforms like ChatGpt.",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:04.960",
+    "end": "00:00:07.190",
+    "start_seconds": 4.96,
+    "end_seconds": 7.19,
+    "text": "Step number one, pick a valuable keyword",
+    "source_text": "in Google and AI platforms like ChatGpt. Step number one, pick a valuable keyword",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:07.200",
+    "end": "00:00:08.790",
+    "start_seconds": 7.2,
+    "end_seconds": 8.79,
+    "text": "you can actually compete on. For",
+    "source_text": "Step number one, pick a valuable keyword you can actually compete on. For",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:08.800",
+    "end": "00:00:10.470",
+    "start_seconds": 8.8,
+    "end_seconds": 10.47,
+    "text": "example, there's a website ranking in",
+    "source_text": "you can actually compete on. For example, there's a website ranking in",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:10.480",
+    "end": "00:00:12.549",
+    "start_seconds": 10.48,
+    "end_seconds": 12.549,
+    "text": "the top five for some pump repair",
+    "source_text": "example, there's a website ranking in the top five for some pump repair",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:12.559",
+    "end": "00:00:15.190",
+    "start_seconds": 12.559,
+    "end_seconds": 15.19,
+    "text": "Chicago that has a DR of zero. That",
+    "source_text": "the top five for some pump repair Chicago that has a DR of zero. That",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:15.200",
+    "end": "00:00:17.510",
+    "start_seconds": 15.2,
+    "end_seconds": 17.51,
+    "text": "means if your website has even a tiny",
+    "source_text": "Chicago that has a DR of zero. That means if your website has even a tiny",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:17.520",
+    "end": "00:00:19.029",
+    "start_seconds": 17.52,
+    "end_seconds": 19.029,
+    "text": "bit of authority, you'll be able to",
+    "source_text": "means if your website has even a tiny bit of authority, you'll be able to",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:19.039",
+    "end": "00:00:21.910",
+    "start_seconds": 19.039,
+    "end_seconds": 21.91,
+    "text": "outrank them. Use HF's lowest DR filter",
+    "source_text": "bit of authority, you'll be able to outrank them. Use HF's lowest DR filter",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:21.920",
+    "end": "00:00:23.830",
+    "start_seconds": 21.92,
+    "end_seconds": 23.83,
+    "text": "to find more keywords with weak",
+    "source_text": "outrank them. Use HF's lowest DR filter to find more keywords with weak",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:23.840",
+    "end": "00:00:25.590",
+    "start_seconds": 23.84,
+    "end_seconds": 25.59,
+    "text": "competition. So now that you've selected",
+    "source_text": "to find more keywords with weak competition. So now that you've selected",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:25.600",
+    "end": "00:00:27.670",
+    "start_seconds": 25.6,
+    "end_seconds": 27.67,
+    "text": "a keyword, it's time for step number",
+    "source_text": "competition. So now that you've selected a keyword, it's time for step number",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:27.680",
+    "end": "00:00:30.070",
+    "start_seconds": 27.68,
+    "end_seconds": 30.07,
+    "text": "two, which is create a knowledge base.",
+    "source_text": "a keyword, it's time for step number two, which is create a knowledge base.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:30.080",
+    "end": "00:00:32.630",
+    "start_seconds": 30.08,
+    "end_seconds": 32.63,
+    "text": "So open chat GBT, go to projects, and",
+    "source_text": "two, which is create a knowledge base. So open chat GBT, go to projects, and",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:32.640",
+    "end": "00:00:34.790",
+    "start_seconds": 32.64,
+    "end_seconds": 34.79,
+    "text": "create a new project for your SEO",
+    "source_text": "So open chat GBT, go to projects, and create a new project for your SEO",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:34.800",
+    "end": "00:00:37.110",
+    "start_seconds": 34.8,
+    "end_seconds": 37.11,
+    "text": "campaign. This project should act as the",
+    "source_text": "create a new project for your SEO campaign. This project should act as the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:37.120",
+    "end": "00:00:39.910",
+    "start_seconds": 37.12,
+    "end_seconds": 39.91,
+    "text": "brain behind your SEO content. It's",
+    "source_text": "campaign. This project should act as the brain behind your SEO content. It's",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:39.920",
+    "end": "00:00:42.150",
+    "start_seconds": 39.92,
+    "end_seconds": 42.15,
+    "text": "absolutely critical because it'll help",
+    "source_text": "brain behind your SEO content. It's absolutely critical because it'll help",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:42.160",
+    "end": "00:00:44.630",
+    "start_seconds": 42.16,
+    "end_seconds": 44.63,
+    "text": "you create SEO content that's unique and",
+    "source_text": "absolutely critical because it'll help you create SEO content that's unique and",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:00:44.640",
+    "end": "00:00:46.630",
+    "start_seconds": 44.64,
+    "end_seconds": 46.63,
+    "text": "on brand. Start by creating a document",
+    "source_text": "you create SEO content that's unique and on brand. Start by creating a document",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:46.640",
+    "end": "00:00:48.549",
+    "start_seconds": 46.64,
+    "end_seconds": 48.549,
+    "text": "that includes information like business",
+    "source_text": "on brand. Start by creating a document that includes information like business",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:48.559",
+    "end": "00:00:50.709",
+    "start_seconds": 48.559,
+    "end_seconds": 50.709,
+    "text": "basics like brand name, website, phone,",
+    "source_text": "that includes information like business basics like brand name, website, phone,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:00:50.719",
+    "end": "00:00:53.270",
+    "start_seconds": 50.719,
+    "end_seconds": 53.27,
+    "text": "address, etc. what products or services",
+    "source_text": "basics like brand name, website, phone, address, etc. what products or services",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:53.280",
+    "end": "00:00:55.270",
+    "start_seconds": 53.28,
+    "end_seconds": 55.27,
+    "text": "you offer, what makes your products or",
+    "source_text": "address, etc. what products or services you offer, what makes your products or",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:55.280",
+    "end": "00:00:57.189",
+    "start_seconds": 55.28,
+    "end_seconds": 57.189,
+    "text": "services different compared to the",
+    "source_text": "you offer, what makes your products or services different compared to the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:57.199",
+    "end": "00:00:59.029",
+    "start_seconds": 57.199,
+    "end_seconds": 59.029,
+    "text": "competition, social proof like",
+    "source_text": "services different compared to the competition, social proof like",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:00:59.039",
+    "end": "00:01:01.189",
+    "start_seconds": 59.039,
+    "end_seconds": 61.189,
+    "text": "testimonials and Google reviews, and",
+    "source_text": "competition, social proof like testimonials and Google reviews, and",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:01:01.199",
+    "end": "00:01:04.149",
+    "start_seconds": 61.199,
+    "end_seconds": 64.149,
+    "text": "policies or guarantees. Then upload this",
+    "source_text": "testimonials and Google reviews, and policies or guarantees. Then upload this",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:04.159",
+    "end": "00:01:07.030",
+    "start_seconds": 64.159,
+    "end_seconds": 67.03,
+    "text": "file to your chat GBT project. And if",
+    "source_text": "policies or guarantees. Then upload this file to your chat GBT project. And if",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:07.040",
+    "end": "00:01:08.469",
+    "start_seconds": 67.04,
+    "end_seconds": 68.469,
+    "text": "you want to go to the next level, I",
+    "source_text": "file to your chat GBT project. And if you want to go to the next level, I",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:08.479",
+    "end": "00:01:09.990",
+    "start_seconds": 68.479,
+    "end_seconds": 69.99,
+    "text": "recommend uploading sales call",
+    "source_text": "you want to go to the next level, I recommend uploading sales call",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:01:10.000",
+    "end": "00:01:12.630",
+    "start_seconds": 70.0,
+    "end_seconds": 72.63,
+    "text": "transcripts, NPS surveys, or anything",
+    "source_text": "recommend uploading sales call transcripts, NPS surveys, or anything",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:01:12.640",
+    "end": "00:01:14.950",
+    "start_seconds": 72.64,
+    "end_seconds": 74.95,
+    "text": "that gives the AI context. And once",
+    "source_text": "transcripts, NPS surveys, or anything that gives the AI context. And once",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:14.960",
+    "end": "00:01:17.190",
+    "start_seconds": 74.96000000000001,
+    "end_seconds": 77.19,
+    "text": "you're done, ask the AI some questions",
+    "source_text": "that gives the AI context. And once you're done, ask the AI some questions",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:17.200",
+    "end": "00:01:19.429",
+    "start_seconds": 77.2,
+    "end_seconds": 79.429,
+    "text": "about details that are specific to the",
+    "source_text": "you're done, ask the AI some questions about details that are specific to the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:19.439",
+    "end": "00:01:21.190",
+    "start_seconds": 79.439,
+    "end_seconds": 81.19,
+    "text": "documents you've uploaded. It'll then",
+    "source_text": "about details that are specific to the documents you've uploaded. It'll then",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:21.200",
+    "end": "00:01:23.190",
+    "start_seconds": 81.2,
+    "end_seconds": 83.19,
+    "text": "respond and usually site where it",
+    "source_text": "documents you've uploaded. It'll then respond and usually site where it",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:23.200",
+    "end": "00:01:25.350",
+    "start_seconds": 83.2,
+    "end_seconds": 85.35,
+    "text": "retrieved that information in the files.",
+    "source_text": "respond and usually site where it retrieved that information in the files.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:25.360",
+    "end": "00:01:27.429",
+    "start_seconds": 85.36,
+    "end_seconds": 87.429,
+    "text": "This is what's called grounding, meaning",
+    "source_text": "retrieved that information in the files. This is what's called grounding, meaning",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:27.439",
+    "end": "00:01:29.670",
+    "start_seconds": 87.439,
+    "end_seconds": 89.67,
+    "text": "the AI won't make stuff up. It'll",
+    "source_text": "This is what's called grounding, meaning the AI won't make stuff up. It'll",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:29.680",
+    "end": "00:01:31.670",
+    "start_seconds": 89.68,
+    "end_seconds": 91.67,
+    "text": "prioritize the documents you've given it",
+    "source_text": "the AI won't make stuff up. It'll prioritize the documents you've given it",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:31.680",
+    "end": "00:01:33.670",
+    "start_seconds": 91.68,
+    "end_seconds": 93.67,
+    "text": "instead of just going to the web or",
+    "source_text": "prioritize the documents you've given it instead of just going to the web or",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:33.680",
+    "end": "00:01:35.590",
+    "start_seconds": 93.68,
+    "end_seconds": 95.59,
+    "text": "hallucinating. Now, moving on to step",
+    "source_text": "instead of just going to the web or hallucinating. Now, moving on to step",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:35.600",
+    "end": "00:01:37.670",
+    "start_seconds": 95.6,
+    "end_seconds": 97.67,
+    "text": "number three, which is research to build",
+    "source_text": "hallucinating. Now, moving on to step number three, which is research to build",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:37.680",
+    "end": "00:01:40.230",
+    "start_seconds": 97.68,
+    "end_seconds": 100.22999999999999,
+    "text": "an intelligent SEO content brief. This",
+    "source_text": "number three, which is research to build an intelligent SEO content brief. This",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:40.240",
+    "end": "00:01:43.190",
+    "start_seconds": 100.24000000000001,
+    "end_seconds": 103.19,
+    "text": "step is critical for both human and AI",
+    "source_text": "an intelligent SEO content brief. This step is critical for both human and AI",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:43.200",
+    "end": "00:01:45.030",
+    "start_seconds": 103.2,
+    "end_seconds": 105.03,
+    "text": "written content. Create a Google sheet",
+    "source_text": "step is critical for both human and AI written content. Create a Google sheet",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:45.040",
+    "end": "00:01:47.109",
+    "start_seconds": 105.03999999999999,
+    "end_seconds": 107.10900000000001,
+    "text": "to collect all of your competitors. Then",
+    "source_text": "written content. Create a Google sheet to collect all of your competitors. Then",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:47.119",
+    "end": "00:01:48.710",
+    "start_seconds": 107.119,
+    "end_seconds": 108.71000000000001,
+    "text": "start with Google by entering your",
+    "source_text": "to collect all of your competitors. Then start with Google by entering your",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:48.720",
+    "end": "00:01:50.550",
+    "start_seconds": 108.72,
+    "end_seconds": 110.55,
+    "text": "keyword, exporting the top 10",
+    "source_text": "start with Google by entering your keyword, exporting the top 10",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:50.560",
+    "end": "00:01:52.469",
+    "start_seconds": 110.56,
+    "end_seconds": 112.469,
+    "text": "competitors using the data scraper",
+    "source_text": "keyword, exporting the top 10 competitors using the data scraper",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:52.479",
+    "end": "00:01:54.310",
+    "start_seconds": 112.479,
+    "end_seconds": 114.31,
+    "text": "Chrome extension and add it to your",
+    "source_text": "competitors using the data scraper Chrome extension and add it to your",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:54.320",
+    "end": "00:01:57.109",
+    "start_seconds": 114.32,
+    "end_seconds": 117.10900000000001,
+    "text": "sheet. Next, open chat GBT perplexity",
+    "source_text": "Chrome extension and add it to your sheet. Next, open chat GBT perplexity",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:57.119",
+    "end": "00:01:59.429",
+    "start_seconds": 117.119,
+    "end_seconds": 119.429,
+    "text": "and Google AI mode. Then go to the free",
+    "source_text": "sheet. Next, open chat GBT perplexity and Google AI mode. Then go to the free",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:59.439",
+    "end": "00:02:01.190",
+    "start_seconds": 119.439,
+    "end_seconds": 121.19,
+    "text": "AI search query generator on",
+    "source_text": "and Google AI mode. Then go to the free AI search query generator on",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:02:01.200",
+    "end": "00:02:03.830",
+    "start_seconds": 121.2,
+    "end_seconds": 123.83,
+    "text": "Rankability. Enter your seed keyword and",
+    "source_text": "AI search query generator on Rankability. Enter your seed keyword and",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:03.840",
+    "end": "00:02:05.749",
+    "start_seconds": 123.84,
+    "end_seconds": 125.749,
+    "text": "the tool will convert it to natural",
+    "source_text": "Rankability. Enter your seed keyword and the tool will convert it to natural",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:05.759",
+    "end": "00:02:07.830",
+    "start_seconds": 125.759,
+    "end_seconds": 127.83,
+    "text": "language prompts. Now run one of these",
+    "source_text": "the tool will convert it to natural language prompts. Now run one of these",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:07.840",
+    "end": "00:02:10.150",
+    "start_seconds": 127.84,
+    "end_seconds": 130.15,
+    "text": "prompts on all three AI platforms. In",
+    "source_text": "language prompts. Now run one of these prompts on all three AI platforms. In",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:10.160",
+    "end": "00:02:12.630",
+    "start_seconds": 130.16,
+    "end_seconds": 132.63,
+    "text": "chat GBT, click on sources, then use the",
+    "source_text": "prompts on all three AI platforms. In chat GBT, click on sources, then use the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:12.640",
+    "end": "00:02:14.390",
+    "start_seconds": 132.64,
+    "end_seconds": 134.39,
+    "text": "bookmark lid that I'll have below the",
+    "source_text": "chat GBT, click on sources, then use the bookmark lid that I'll have below the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:02:14.400",
+    "end": "00:02:16.869",
+    "start_seconds": 134.4,
+    "end_seconds": 136.869,
+    "text": "video to export all the citations. Add",
+    "source_text": "bookmark lid that I'll have below the video to export all the citations. Add",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:16.879",
+    "end": "00:02:18.470",
+    "start_seconds": 136.879,
+    "end_seconds": 138.47,
+    "text": "these to the Google sheet and then",
+    "source_text": "video to export all the citations. Add these to the Google sheet and then",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:18.480",
+    "end": "00:02:20.470",
+    "start_seconds": 138.48,
+    "end_seconds": 140.47,
+    "text": "repeat on the other platforms. Now,",
+    "source_text": "these to the Google sheet and then repeat on the other platforms. Now,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:20.480",
+    "end": "00:02:22.550",
+    "start_seconds": 140.48,
+    "end_seconds": 142.55,
+    "text": "export this list of competitors. Open",
+    "source_text": "repeat on the other platforms. Now, export this list of competitors. Open",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:22.560",
+    "end": "00:02:25.589",
+    "start_seconds": 142.56,
+    "end_seconds": 145.589,
+    "text": "chat GBT, select agent, and use this",
+    "source_text": "export this list of competitors. Open chat GBT, select agent, and use this",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:25.599",
+    "end": "00:02:28.390",
+    "start_seconds": 145.599,
+    "end_seconds": 148.39,
+    "text": "prompt. Copy the report and add it to a",
+    "source_text": "chat GBT, select agent, and use this prompt. Copy the report and add it to a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:28.400",
+    "end": "00:02:30.630",
+    "start_seconds": 148.4,
+    "end_seconds": 150.63,
+    "text": "Google doc. Now, for step number four,",
+    "source_text": "prompt. Copy the report and add it to a Google doc. Now, for step number four,",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:02:30.640",
+    "end": "00:02:33.030",
+    "start_seconds": 150.64,
+    "end_seconds": 153.03,
+    "text": "create an SEO driven outline. So, go to",
+    "source_text": "Google doc. Now, for step number four, create an SEO driven outline. So, go to",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:33.040",
+    "end": "00:02:34.949",
+    "start_seconds": 153.04,
+    "end_seconds": 154.949,
+    "text": "the chat GBT project for the campaign",
+    "source_text": "create an SEO driven outline. So, go to the chat GBT project for the campaign",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:02:34.959",
+    "end": "00:02:36.790",
+    "start_seconds": 154.959,
+    "end_seconds": 156.79,
+    "text": "and upload the competitor research",
+    "source_text": "the chat GBT project for the campaign and upload the competitor research",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:36.800",
+    "end": "00:02:39.030",
+    "start_seconds": 156.8,
+    "end_seconds": 159.03,
+    "text": "report you just created. Then use this",
+    "source_text": "and upload the competitor research report you just created. Then use this",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:39.040",
+    "end": "00:02:41.270",
+    "start_seconds": 159.04,
+    "end_seconds": 161.27,
+    "text": "prompt to create an outline with chat",
+    "source_text": "report you just created. Then use this prompt to create an outline with chat",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:41.280",
+    "end": "00:02:43.670",
+    "start_seconds": 161.28,
+    "end_seconds": 163.67000000000002,
+    "text": "GBT's thinking model. It'll then produce",
+    "source_text": "prompt to create an outline with chat GBT's thinking model. It'll then produce",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:43.680",
+    "end": "00:02:46.390",
+    "start_seconds": 163.68,
+    "end_seconds": 166.39,
+    "text": "an intelligent SEO driven outline that's",
+    "source_text": "GBT's thinking model. It'll then produce an intelligent SEO driven outline that's",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:46.400",
+    "end": "00:02:48.470",
+    "start_seconds": 166.4,
+    "end_seconds": 168.47,
+    "text": "relevant and on brand. Which brings us",
+    "source_text": "an intelligent SEO driven outline that's relevant and on brand. Which brings us",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:48.480",
+    "end": "00:02:50.869",
+    "start_seconds": 168.48,
+    "end_seconds": 170.869,
+    "text": "to step number five. Create your first",
+    "source_text": "relevant and on brand. Which brings us to step number five. Create your first",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:50.879",
+    "end": "00:02:52.710",
+    "start_seconds": 170.879,
+    "end_seconds": 172.71,
+    "text": "draft. If you're using AI, you can just",
+    "source_text": "to step number five. Create your first draft. If you're using AI, you can just",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:52.720",
+    "end": "00:02:54.710",
+    "start_seconds": 172.72,
+    "end_seconds": 174.71,
+    "text": "follow up in the same thread and ask it",
+    "source_text": "draft. If you're using AI, you can just follow up in the same thread and ask it",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:02:54.720",
+    "end": "00:02:56.790",
+    "start_seconds": 174.72,
+    "end_seconds": 176.79,
+    "text": "to write the draft based on the outline",
+    "source_text": "follow up in the same thread and ask it to write the draft based on the outline",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:02:56.800",
+    "end": "00:02:58.949",
+    "start_seconds": 176.8,
+    "end_seconds": 178.949,
+    "text": "using this prompt. At this stage, bring",
+    "source_text": "to write the draft based on the outline using this prompt. At this stage, bring",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:02:58.959",
+    "end": "00:03:01.509",
+    "start_seconds": 178.959,
+    "end_seconds": 181.509,
+    "text": "a human into the loop to verify facts.",
+    "source_text": "using this prompt. At this stage, bring a human into the loop to verify facts.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:01.519",
+    "end": "00:03:03.509",
+    "start_seconds": 181.519,
+    "end_seconds": 183.509,
+    "text": "And then once the copy passes quality",
+    "source_text": "a human into the loop to verify facts. And then once the copy passes quality",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:03.519",
+    "end": "00:03:05.509",
+    "start_seconds": 183.519,
+    "end_seconds": 185.50900000000001,
+    "text": "control, it's time for step number six,",
+    "source_text": "And then once the copy passes quality control, it's time for step number six,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:05.519",
+    "end": "00:03:07.350",
+    "start_seconds": 185.519,
+    "end_seconds": 187.35,
+    "text": "which is page design. Most local",
+    "source_text": "control, it's time for step number six, which is page design. Most local",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:07.360",
+    "end": "00:03:09.509",
+    "start_seconds": 187.36,
+    "end_seconds": 189.50900000000001,
+    "text": "businesses just slap content on a page",
+    "source_text": "which is page design. Most local businesses just slap content on a page",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:09.519",
+    "end": "00:03:11.030",
+    "start_seconds": 189.519,
+    "end_seconds": 191.03,
+    "text": "without designing the page for",
+    "source_text": "businesses just slap content on a page without designing the page for",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:11.040",
+    "end": "00:03:13.030",
+    "start_seconds": 191.04,
+    "end_seconds": 193.03,
+    "text": "conversions. And this is a massive",
+    "source_text": "without designing the page for conversions. And this is a massive",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:13.040",
+    "end": "00:03:14.949",
+    "start_seconds": 193.04,
+    "end_seconds": 194.949,
+    "text": "mistake. If it's a keyword that has",
+    "source_text": "conversions. And this is a massive mistake. If it's a keyword that has",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:14.959",
+    "end": "00:03:16.790",
+    "start_seconds": 194.959,
+    "end_seconds": 196.79,
+    "text": "commercial intent, the page should be",
+    "source_text": "mistake. If it's a keyword that has commercial intent, the page should be",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:16.800",
+    "end": "00:03:18.550",
+    "start_seconds": 196.8,
+    "end_seconds": 198.55,
+    "text": "built to convert. Go into the same",
+    "source_text": "commercial intent, the page should be built to convert. Go into the same",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:18.560",
+    "end": "00:03:20.229",
+    "start_seconds": 198.56,
+    "end_seconds": 200.22899999999998,
+    "text": "thread you've created the outline and",
+    "source_text": "built to convert. Go into the same thread you've created the outline and",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:20.239",
+    "end": "00:03:22.229",
+    "start_seconds": 200.239,
+    "end_seconds": 202.22899999999998,
+    "text": "draft in and enter the following prompt.",
+    "source_text": "thread you've created the outline and draft in and enter the following prompt.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:22.239",
+    "end": "00:03:24.470",
+    "start_seconds": 202.239,
+    "end_seconds": 204.47,
+    "text": "Once the wireframe is done, just send",
+    "source_text": "draft in and enter the following prompt. Once the wireframe is done, just send",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:24.480",
+    "end": "00:03:26.630",
+    "start_seconds": 204.48,
+    "end_seconds": 206.63,
+    "text": "this off to a designer and get the page",
+    "source_text": "Once the wireframe is done, just send this off to a designer and get the page",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:26.640",
+    "end": "00:03:28.630",
+    "start_seconds": 206.64,
+    "end_seconds": 208.63,
+    "text": "published. Now, this entire SEO content",
+    "source_text": "this off to a designer and get the page published. Now, this entire SEO content",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:03:28.640",
+    "end": "00:03:30.710",
+    "start_seconds": 208.64,
+    "end_seconds": 210.71,
+    "text": "system might seem like it's incredibly",
+    "source_text": "published. Now, this entire SEO content system might seem like it's incredibly",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:30.720",
+    "end": "00:03:32.949",
+    "start_seconds": 210.72,
+    "end_seconds": 212.949,
+    "text": "difficult and complex to set up, but",
+    "source_text": "system might seem like it's incredibly difficult and complex to set up, but",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:32.959",
+    "end": "00:03:34.949",
+    "start_seconds": 212.959,
+    "end_seconds": 214.949,
+    "text": "it's completely automated for you using",
+    "source_text": "difficult and complex to set up, but it's completely automated for you using",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:34.959",
+    "end": "00:03:37.509",
+    "start_seconds": 214.959,
+    "end_seconds": 217.50900000000001,
+    "text": "Rankability's new copywriter tool. You",
+    "source_text": "it's completely automated for you using Rankability's new copywriter tool. You",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:37.519",
+    "end": "00:03:39.589",
+    "start_seconds": 217.519,
+    "end_seconds": 219.589,
+    "text": "just enter your target keyword and",
+    "source_text": "Rankability's new copywriter tool. You just enter your target keyword and",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:39.599",
+    "end": "00:03:41.430",
+    "start_seconds": 219.599,
+    "end_seconds": 221.43,
+    "text": "domain, and the system will",
+    "source_text": "just enter your target keyword and domain, and the system will",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:41.440",
+    "end": "00:03:44.070",
+    "start_seconds": 221.44,
+    "end_seconds": 224.07,
+    "text": "automatically detect the intent. Next,",
+    "source_text": "domain, and the system will automatically detect the intent. Next,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:44.080",
+    "end": "00:03:46.630",
+    "start_seconds": 224.07999999999998,
+    "end_seconds": 226.63,
+    "text": "and most important, is to enter or speak",
+    "source_text": "automatically detect the intent. Next, and most important, is to enter or speak",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:46.640",
+    "end": "00:03:48.550",
+    "start_seconds": 226.64,
+    "end_seconds": 228.55,
+    "text": "about why this brand is unique and",
+    "source_text": "and most important, is to enter or speak about why this brand is unique and",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:48.560",
+    "end": "00:03:50.309",
+    "start_seconds": 228.56,
+    "end_seconds": 230.309,
+    "text": "better than the competition. There's a",
+    "source_text": "about why this brand is unique and better than the competition. There's a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:50.319",
+    "end": "00:03:51.990",
+    "start_seconds": 230.31900000000002,
+    "end_seconds": 231.99,
+    "text": "meter that will measure the uniqueness",
+    "source_text": "better than the competition. There's a meter that will measure the uniqueness",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:52.000",
+    "end": "00:03:54.149",
+    "start_seconds": 232.0,
+    "end_seconds": 234.149,
+    "text": "level. Then just add relevant URLs like",
+    "source_text": "meter that will measure the uniqueness level. Then just add relevant URLs like",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:54.159",
+    "end": "00:03:56.470",
+    "start_seconds": 234.159,
+    "end_seconds": 236.47,
+    "text": "the service page and click the toggle to",
+    "source_text": "level. Then just add relevant URLs like the service page and click the toggle to",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:56.480",
+    "end": "00:03:58.470",
+    "start_seconds": 236.48,
+    "end_seconds": 238.47,
+    "text": "use the knowledge base you'll have built",
+    "source_text": "the service page and click the toggle to use the knowledge base you'll have built",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:58.480",
+    "end": "00:04:00.789",
+    "start_seconds": 238.48,
+    "end_seconds": 240.789,
+    "text": "within rankability. Copywriter then does",
+    "source_text": "use the knowledge base you'll have built within rankability. Copywriter then does",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:00.799",
+    "end": "00:04:03.110",
+    "start_seconds": 240.799,
+    "end_seconds": 243.11,
+    "text": "all of the heavy lifting for research.",
+    "source_text": "within rankability. Copywriter then does all of the heavy lifting for research.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:03.120",
+    "end": "00:04:05.030",
+    "start_seconds": 243.12,
+    "end_seconds": 245.03,
+    "text": "It finds all of your competitors for",
+    "source_text": "all of the heavy lifting for research. It finds all of your competitors for",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:05.040",
+    "end": "00:04:07.110",
+    "start_seconds": 245.04,
+    "end_seconds": 247.11,
+    "text": "this keyword across nine search engines",
+    "source_text": "It finds all of your competitors for this keyword across nine search engines",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:07.120",
+    "end": "00:04:09.990",
+    "start_seconds": 247.12,
+    "end_seconds": 249.99,
+    "text": "and AI platforms. Extracts their content",
+    "source_text": "this keyword across nine search engines and AI platforms. Extracts their content",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:10.000",
+    "end": "00:04:11.750",
+    "start_seconds": 250.0,
+    "end_seconds": 251.75,
+    "text": "and creates a content strategy and",
+    "source_text": "and AI platforms. Extracts their content and creates a content strategy and",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:11.760",
+    "end": "00:04:13.750",
+    "start_seconds": 251.76,
+    "end_seconds": 253.75,
+    "text": "outline ready for your approval. Once",
+    "source_text": "and creates a content strategy and outline ready for your approval. Once",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:13.760",
+    "end": "00:04:16.310",
+    "start_seconds": 253.76,
+    "end_seconds": 256.31,
+    "text": "you approve, the AI crafts a highly",
+    "source_text": "outline ready for your approval. Once you approve, the AI crafts a highly",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:16.320",
+    "end": "00:04:18.310",
+    "start_seconds": 256.32,
+    "end_seconds": 258.31,
+    "text": "relevant draft that covers all the",
+    "source_text": "you approve, the AI crafts a highly relevant draft that covers all the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:18.320",
+    "end": "00:04:20.229",
+    "start_seconds": 258.32,
+    "end_seconds": 260.229,
+    "text": "important topics and entities and",
+    "source_text": "relevant draft that covers all the important topics and entities and",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:20.239",
+    "end": "00:04:22.310",
+    "start_seconds": 260.239,
+    "end_seconds": 262.31,
+    "text": "includes unique content about your",
+    "source_text": "important topics and entities and includes unique content about your",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:22.320",
+    "end": "00:04:24.070",
+    "start_seconds": 262.32,
+    "end_seconds": 264.07,
+    "text": "brand. I'll post a special link below",
+    "source_text": "includes unique content about your brand. I'll post a special link below",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:24.080",
+    "end": "00:04:25.909",
+    "start_seconds": 264.08,
+    "end_seconds": 265.909,
+    "text": "for you to try it. So, the last question",
+    "source_text": "brand. I'll post a special link below for you to try it. So, the last question",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:25.919",
+    "end": "00:04:28.070",
+    "start_seconds": 265.919,
+    "end_seconds": 268.07,
+    "text": "is, what do you do after you publish",
+    "source_text": "for you to try it. So, the last question is, what do you do after you publish",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:04:28.080",
+    "end": "00:04:30.469",
+    "start_seconds": 268.08,
+    "end_seconds": 270.469,
+    "text": "your perfect SEO asset? Well, the work",
+    "source_text": "is, what do you do after you publish your perfect SEO asset? Well, the work",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:04:30.479",
+    "end": "00:04:32.310",
+    "start_seconds": 270.479,
+    "end_seconds": 272.31,
+    "text": "has just begun because now you have to",
+    "source_text": "your perfect SEO asset? Well, the work has just begun because now you have to",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:32.320",
+    "end": "00:04:34.469",
+    "start_seconds": 272.32,
+    "end_seconds": 274.469,
+    "text": "do a few things. First, you need to",
+    "source_text": "has just begun because now you have to do a few things. First, you need to",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:04:34.479",
+    "end": "00:04:36.310",
+    "start_seconds": 274.479,
+    "end_seconds": 276.31,
+    "text": "track your performance. Just throw your",
+    "source_text": "do a few things. First, you need to track your performance. Just throw your",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:04:36.320",
+    "end": "00:04:38.310",
+    "start_seconds": 276.32,
+    "end_seconds": 278.31,
+    "text": "keyword into Rankability's AI search",
+    "source_text": "track your performance. Just throw your keyword into Rankability's AI search",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:38.320",
+    "end": "00:04:40.150",
+    "start_seconds": 278.32,
+    "end_seconds": 280.15,
+    "text": "analyzer and it'll help you track your",
+    "source_text": "keyword into Rankability's AI search analyzer and it'll help you track your",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:40.160",
+    "end": "00:04:42.150",
+    "start_seconds": 280.15999999999997,
+    "end_seconds": 282.15,
+    "text": "performance across AI platforms like",
+    "source_text": "analyzer and it'll help you track your performance across AI platforms like",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:42.160",
+    "end": "00:04:44.950",
+    "start_seconds": 282.15999999999997,
+    "end_seconds": 284.95,
+    "text": "ChatGpt and Google's AI mode. Second,",
+    "source_text": "performance across AI platforms like ChatGpt and Google's AI mode. Second,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:44.960",
+    "end": "00:04:47.270",
+    "start_seconds": 284.96,
+    "end_seconds": 287.27,
+    "text": "look for internal linking opportunities.",
+    "source_text": "ChatGpt and Google's AI mode. Second, look for internal linking opportunities.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:47.280",
+    "end": "00:04:49.510",
+    "start_seconds": 287.28,
+    "end_seconds": 289.51,
+    "text": "So, run a screaming frog crawl on your",
+    "source_text": "look for internal linking opportunities. So, run a screaming frog crawl on your",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:49.520",
+    "end": "00:04:51.590",
+    "start_seconds": 289.52,
+    "end_seconds": 291.59000000000003,
+    "text": "website, export the report, add a",
+    "source_text": "So, run a screaming frog crawl on your website, export the report, add a",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:04:51.600",
+    "end": "00:04:53.430",
+    "start_seconds": 291.6,
+    "end_seconds": 293.43,
+    "text": "filter, and go to the title column.",
+    "source_text": "website, export the report, add a filter, and go to the title column.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:53.440",
+    "end": "00:04:55.350",
+    "start_seconds": 293.44,
+    "end_seconds": 295.35,
+    "text": "Search for relevant pages where you can",
+    "source_text": "filter, and go to the title column. Search for relevant pages where you can",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:55.360",
+    "end": "00:04:56.950",
+    "start_seconds": 295.36,
+    "end_seconds": 296.95,
+    "text": "add internal links. If you don't find",
+    "source_text": "Search for relevant pages where you can add internal links. If you don't find",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:56.960",
+    "end": "00:04:59.110",
+    "start_seconds": 296.96,
+    "end_seconds": 299.11,
+    "text": "many relevant pages, it's a symptom of",
+    "source_text": "add internal links. If you don't find many relevant pages, it's a symptom of",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:59.120",
+    "end": "00:05:01.270",
+    "start_seconds": 299.12,
+    "end_seconds": 301.27,
+    "text": "poor topical coverage. And that brings",
+    "source_text": "many relevant pages, it's a symptom of poor topical coverage. And that brings",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:01.280",
+    "end": "00:05:04.230",
+    "start_seconds": 301.28,
+    "end_seconds": 304.23,
+    "text": "me to step number two in the postpublish",
+    "source_text": "poor topical coverage. And that brings me to step number two in the postpublish",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:04.240",
+    "end": "00:05:07.029",
+    "start_seconds": 304.24,
+    "end_seconds": 307.029,
+    "text": "process, which is to make more topically",
+    "source_text": "me to step number two in the postpublish process, which is to make more topically",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:07.039",
+    "end": "00:05:09.590",
+    "start_seconds": 307.039,
+    "end_seconds": 309.59,
+    "text": "relevant pages and content. So find your",
+    "source_text": "process, which is to make more topically relevant pages and content. So find your",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:09.600",
+    "end": "00:05:11.189",
+    "start_seconds": 309.6,
+    "end_seconds": 311.189,
+    "text": "top competitor, run them through",
+    "source_text": "relevant pages and content. So find your top competitor, run them through",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:11.199",
+    "end": "00:05:13.270",
+    "start_seconds": 311.199,
+    "end_seconds": 313.27,
+    "text": "Screaming Frog, export the report, and",
+    "source_text": "top competitor, run them through Screaming Frog, export the report, and",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:05:13.280",
+    "end": "00:05:15.270",
+    "start_seconds": 313.28,
+    "end_seconds": 315.27,
+    "text": "search for pages that are relevant to",
+    "source_text": "Screaming Frog, export the report, and search for pages that are relevant to",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:15.280",
+    "end": "00:05:17.110",
+    "start_seconds": 315.28,
+    "end_seconds": 317.11,
+    "text": "your asset. Or if you want to keep it",
+    "source_text": "search for pages that are relevant to your asset. Or if you want to keep it",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:17.120",
+    "end": "00:05:19.590",
+    "start_seconds": 317.12,
+    "end_seconds": 319.59,
+    "text": "simple, just use a site: search like",
+    "source_text": "your asset. Or if you want to keep it simple, just use a site: search like",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:05:19.600",
+    "end": "00:05:21.430",
+    "start_seconds": 319.6,
+    "end_seconds": 321.43,
+    "text": "this in Google. In this case, I'm",
+    "source_text": "simple, just use a site: search like this in Google. In this case, I'm",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:21.440",
+    "end": "00:05:23.670",
+    "start_seconds": 321.44,
+    "end_seconds": 323.67,
+    "text": "looking for commercial pages related to",
+    "source_text": "this in Google. In this case, I'm looking for commercial pages related to",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:23.680",
+    "end": "00:05:25.590",
+    "start_seconds": 323.68,
+    "end_seconds": 325.59,
+    "text": "sump pumps. And within a few seconds, I",
+    "source_text": "looking for commercial pages related to sump pumps. And within a few seconds, I",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:25.600",
+    "end": "00:05:27.990",
+    "start_seconds": 325.6,
+    "end_seconds": 327.99,
+    "text": "found Sump pump plumbing inspection and",
+    "source_text": "sump pumps. And within a few seconds, I found Sump pump plumbing inspection and",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:28.000",
+    "end": "00:05:30.390",
+    "start_seconds": 328.0,
+    "end_seconds": 330.39,
+    "text": "Sump Pump battery backups, which are",
+    "source_text": "found Sump pump plumbing inspection and Sump Pump battery backups, which are",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:30.400",
+    "end": "00:05:32.790",
+    "start_seconds": 330.4,
+    "end_seconds": 332.79,
+    "text": "both perfect for supporting our primary",
+    "source_text": "Sump Pump battery backups, which are both perfect for supporting our primary",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:32.800",
+    "end": "00:05:34.469",
+    "start_seconds": 332.8,
+    "end_seconds": 334.469,
+    "text": "topic. So now, all you have to do is",
+    "source_text": "both perfect for supporting our primary topic. So now, all you have to do is",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:34.479",
+    "end": "00:05:37.189",
+    "start_seconds": 334.479,
+    "end_seconds": 337.189,
+    "text": "repeat this same process from this video",
+    "source_text": "topic. So now, all you have to do is repeat this same process from this video",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:05:37.199",
+    "end": "00:05:39.350",
+    "start_seconds": 337.199,
+    "end_seconds": 339.35,
+    "text": "for these new pages. And the last step",
+    "source_text": "repeat this same process from this video for these new pages. And the last step",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:39.360",
+    "end": "00:05:41.670",
+    "start_seconds": 339.36,
+    "end_seconds": 341.67,
+    "text": "to creating SEO content that ranks is to",
+    "source_text": "for these new pages. And the last step to creating SEO content that ranks is to",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:41.680",
+    "end": "00:05:43.749",
+    "start_seconds": 341.68,
+    "end_seconds": 343.749,
+    "text": "build website authority through backlink",
+    "source_text": "to creating SEO content that ranks is to build website authority through backlink",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:43.759",
+    "end": "00:05:45.749",
+    "start_seconds": 343.759,
+    "end_seconds": 345.749,
+    "text": "acquisition. So the first technique is",
+    "source_text": "build website authority through backlink acquisition. So the first technique is",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:05:45.759",
+    "end": "00:05:47.830",
+    "start_seconds": 345.759,
+    "end_seconds": 347.83,
+    "text": "to reverse engineer your competitors.",
+    "source_text": "acquisition. So the first technique is to reverse engineer your competitors.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:47.840",
+    "end": "00:05:49.909",
+    "start_seconds": 347.84000000000003,
+    "end_seconds": 349.909,
+    "text": "Just find your top organic search",
+    "source_text": "to reverse engineer your competitors. Just find your top organic search",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:05:49.919",
+    "end": "00:05:52.230",
+    "start_seconds": 349.919,
+    "end_seconds": 352.23,
+    "text": "competitor, run them through HF's link",
+    "source_text": "Just find your top organic search competitor, run them through HF's link",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:52.240",
+    "end": "00:05:53.990",
+    "start_seconds": 352.24,
+    "end_seconds": 353.99,
+    "text": "intersect tool, and you'll see where",
+    "source_text": "competitor, run them through HF's link intersect tool, and you'll see where",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:54.000",
+    "end": "00:05:56.070",
+    "start_seconds": 354.0,
+    "end_seconds": 356.07,
+    "text": "they've acquired backlinks. This is your",
+    "source_text": "intersect tool, and you'll see where they've acquired backlinks. This is your",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:56.080",
+    "end": "00:05:58.310",
+    "start_seconds": 356.08,
+    "end_seconds": 358.31,
+    "text": "first group of targets. Next, sign up",
+    "source_text": "they've acquired backlinks. This is your first group of targets. Next, sign up",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:58.320",
+    "end": "00:06:00.950",
+    "start_seconds": 358.32,
+    "end_seconds": 360.95,
+    "text": "for featured, quoted, or HARO. You can",
+    "source_text": "first group of targets. Next, sign up for featured, quoted, or HARO. You can",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:00.960",
+    "end": "00:06:02.550",
+    "start_seconds": 360.96,
+    "end_seconds": 362.55,
+    "text": "then use your knowledge base to respond",
+    "source_text": "for featured, quoted, or HARO. You can then use your knowledge base to respond",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:02.560",
+    "end": "00:06:04.550",
+    "start_seconds": 362.56,
+    "end_seconds": 364.55,
+    "text": "to these press requests on behalf of",
+    "source_text": "then use your knowledge base to respond to these press requests on behalf of",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:04.560",
+    "end": "00:06:05.749",
+    "start_seconds": 364.56,
+    "end_seconds": 365.749,
+    "text": "your client. And if you want to take",
+    "source_text": "to these press requests on behalf of your client. And if you want to take",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:05.759",
+    "end": "00:06:07.350",
+    "start_seconds": 365.759,
+    "end_seconds": 367.35,
+    "text": "this to the next level, make sure you",
+    "source_text": "your client. And if you want to take this to the next level, make sure you",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:06:07.360",
+    "end": "00:06:09.110",
+    "start_seconds": 367.36,
+    "end_seconds": 369.11,
+    "text": "conduct a subject matter expert",
+    "source_text": "this to the next level, make sure you conduct a subject matter expert",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:06:09.120",
+    "end": "00:06:11.270",
+    "start_seconds": 369.12,
+    "end_seconds": 371.27,
+    "text": "interview during new client onboarding.",
+    "source_text": "conduct a subject matter expert interview during new client onboarding.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:06:11.280",
+    "end": "00:06:13.510",
+    "start_seconds": 371.28,
+    "end_seconds": 373.51,
+    "text": "I explain this entire process inside of",
+    "source_text": "interview during new client onboarding. I explain this entire process inside of",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:06:13.520",
+    "end": "00:06:15.909",
+    "start_seconds": 373.52,
+    "end_seconds": 375.909,
+    "text": "Search OS. Lastly, you can use Chat",
+    "source_text": "I explain this entire process inside of Search OS. Lastly, you can use Chat",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:15.919",
+    "end": "00:06:18.390",
+    "start_seconds": 375.919,
+    "end_seconds": 378.39,
+    "text": "GBT's agent to automate link prospecting",
+    "source_text": "Search OS. Lastly, you can use Chat GBT's agent to automate link prospecting",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:18.400",
+    "end": "00:06:20.230",
+    "start_seconds": 378.4,
+    "end_seconds": 380.23,
+    "text": "for pretty much any link type like",
+    "source_text": "GBT's agent to automate link prospecting for pretty much any link type like",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:20.240",
+    "end": "00:06:22.070",
+    "start_seconds": 380.24,
+    "end_seconds": 382.07,
+    "text": "donations and guest posts. I'll have the",
+    "source_text": "for pretty much any link type like donations and guest posts. I'll have the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:22.080",
+    "end": "00:06:23.909",
+    "start_seconds": 382.08,
+    "end_seconds": 383.909,
+    "text": "prompts below the video and watch the",
+    "source_text": "donations and guest posts. I'll have the prompts below the video and watch the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:23.919",
+    "end": "00:06:26.790",
+    "start_seconds": 383.919,
+    "end_seconds": 386.79,
+    "text": "next video to learn what AI SEO skills",
+    "source_text": "prompts below the video and watch the next video to learn what AI SEO skills",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:26.800",
+    "end": "00:06:29.919",
+    "start_seconds": 386.8,
+    "end_seconds": 389.919,
+    "text": "you need to master this",
+    "source_text": "next video to learn what AI SEO skills you need to master this",
+    "caption_overlap_words": 8
+  }
+]

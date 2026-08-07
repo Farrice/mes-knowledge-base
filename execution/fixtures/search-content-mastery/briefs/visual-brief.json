@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "target_query": "SEO outcome stages explained",
+  "intent": "informational",
+  "audience": "solopreneur reviewing search performance",
+  "information_gain_requirement": "A visual system that prevents readiness and later outcome stages from collapsing into one score.",
+  "source_receipts": ["https://example.com/visual-source-receipt"],
+  "structural_pattern": "one spine -> eight independent proof cards -> boundary footer",
+  "channel": "visual_brief",
+  "cta": "Log the stage you can actually prove.",
+  "risk_boundary": "No arrow may imply that one outcome stage automatically causes or proves the next.",
+  "measurement_hypothesis": {
+    "prediction": "The visual may improve correct stage labeling in the next internal review.",
+    "primary_stage": "PREDICTED",
+    "observation_window_days": 7,
+    "falsifier": "The next internal review still collapses two or more outcome stages after 7 days."
+  }
+}

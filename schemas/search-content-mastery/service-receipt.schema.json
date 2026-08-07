@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "service-receipt/v1",
+  "title": "ServiceReceipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_type", "service_id", "project_id", "created_at", "prototype_state", "delivery_state", "artifacts", "boundaries", "proof_gaps"],
+  "properties": {
+    "schema_version": {"const": "service-receipt/v1"},
+    "record_type": {"const": "ServiceReceipt"},
+    "service_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "prototype_state": {"const": "UNTESTED"},
+    "delivery_state": {"enum": ["INCOMPLETE", "READY_FOR_INTERNAL_REVIEW"]},
+    "artifacts": {"type": "object", "minProperties": 9},
+    "boundaries": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "proof_gaps": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  }
+}

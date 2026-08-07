@@ -636,6 +636,18 @@ def _existing_command_basenames():
     return {f[:-3] for f in os.listdir(COMMANDS_DIR) if f.endswith(".md")}
 
 
+def _skill_command_exempt(slug):
+    """Return True when a skill deliberately uses another public command.
+
+    Companion OS skills may have a canonical hand-written conductor such as
+    `/search-content-mastery`. Generating a second short-name shim would create
+    a competing front door, so explicit `command_exempt: true` frontmatter
+    keeps registry generation convergent without hiding the skill itself.
+    """
+    fm, _ = extract_frontmatter_and_content(os.path.join(SKILLS_DIR, slug, "SKILL.md"))
+    return str(fm.get("command_exempt", "")).strip().lower() in {"1", "true", "yes", "on"}
+
+
 def _detect_primary_workflow(slug, fm):
     """Pick the skill's flagship internal workflow, if any.
 
@@ -792,6 +804,8 @@ def sync_skill_commands(reserved=None, subsumed=None, check=False):
       - short names in `reserved` (expert slugs) demote to full slugs
       - skills whose FULL slug is in `subsumed` (expert front doors in scope)
         emit no separate shim — the front door subsumes the exact name
+      - `command_exempt: true` skills use their declared conductor/front door
+        and emit no duplicate short-name shim
       - check=True reports would-create/would-change/orphans and writes NOTHING
     """
     reserved = reserved or set()
@@ -805,11 +819,15 @@ def sync_skill_commands(reserved=None, subsumed=None, check=False):
     slugs = _discover_skill_slugs()
     names = compute_command_names(slugs, reserved=reserved)
     existing = _existing_command_basenames()
+    command_exempt = {slug for slug in slugs if _skill_command_exempt(slug)}
 
-    created = refreshed = unchanged = skipped_foreign = collided = subsumed_count = 0
+    created = refreshed = unchanged = skipped_foreign = collided = subsumed_count = exempt_count = 0
     manifest = []
 
     for slug in slugs:
+        if slug in command_exempt:
+            exempt_count += 1
+            continue
         if slug in subsumed:
             # The expert front door owns this exact name — no per-skill shim.
             subsumed_count += 1
@@ -859,7 +877,10 @@ def sync_skill_commands(reserved=None, subsumed=None, check=False):
             if _short_name(s) != s and _short_name(s) in reserved
             and short_counts[_short_name(s)] == 1
         )
-        would_names = {names[s] for s in slugs if s not in subsumed}
+        would_names = {
+            names[s] for s in slugs
+            if s not in subsumed and s not in command_exempt
+        }
         orphans = sorted(
             base for base in existing
             if base not in would_names and base not in subsumed
@@ -868,7 +889,8 @@ def sync_skill_commands(reserved=None, subsumed=None, check=False):
         print(
             f"🔎 Skill commands (--check): {created} would-create, {refreshed} would-change, "
             f"{unchanged} unchanged, {skipped_foreign} foreign-skipped, "
-            f"{subsumed_count} subsumed by expert front doors, {len(orphans)} orphan shim(s)."
+            f"{subsumed_count} subsumed by expert front doors, {exempt_count} explicit command-exempt, "
+            f"{len(orphans)} orphan shim(s)."
         )
         if demoted:
             print(
@@ -882,7 +904,8 @@ def sync_skill_commands(reserved=None, subsumed=None, check=False):
             f"✅ Skill commands: {created} created, {refreshed} refreshed, "
             f"{unchanged} unchanged, {skipped_foreign} foreign-skipped "
             f"(name already owned by a workflow/hand-written command), "
-            f"{subsumed_count} subsumed by expert front doors."
+            f"{subsumed_count} subsumed by expert front doors, "
+            f"{exempt_count} explicit command-exempt."
         )
     if collided and not check:
         print(

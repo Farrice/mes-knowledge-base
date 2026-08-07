@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "video_id": "4tqCKkGilXI",
+  "claims": [
+    {"time": "00:19-01:56", "state": "OBSERVED", "claim": "Crawl access, indexability directives, and a 200 response are prerequisites to page optimization.", "proof_type": "transcript"},
+    {"time": "01:58-03:29", "state": "OBSERVED", "claim": "Direct LLM retrieval should be tested with the URL and one returned fact should be verified against the page.", "proof_type": "transcript"},
+    {"time": "03:31-06:07", "state": "OBSERVED", "claim": "The method checks Google, Bing, and Brave indexation plus HTML/server-rendered text and a self-canonical.", "proof_type": "transcript"},
+    {"time": "06:09-08:36", "state": "OBSERVED", "claim": "The page type should match dominant live-SERP intent and visible SERP features.", "proof_type": "transcript"},
+    {"time": "08:38-10:08", "state": "OBSERVED", "claim": "Freshness is investigated through visible dates and stale years in page source.", "proof_type": "transcript"},
+    {"time": "10:10-14:39", "state": "OBSERVED", "claim": "Transactional pages are evaluated for scannability, headline/CTA prominence, link affordances, trust, and goal completion.", "proof_type": "transcript+frames"},
+    {"time": "14:41-17:02", "state": "OBSERVED", "claim": "Median competitor word count is used as a context range while the leaner viable end is preferred.", "proof_type": "transcript"},
+    {"time": "17:04-20:10", "state": "OBSERVED", "claim": "Grammar, heading hierarchy, mobile speed, and audience reading level are part of on-page readiness.", "proof_type": "transcript"},
+    {"time": "20:12-22:55", "state": "OBSERVED", "claim": "Keyword placement is baseline; relevant-topic coverage and brand context determine whether an AI draft is useful.", "proof_type": "transcript"},
+    {"time": "22:56-25:50", "state": "OBSERVED", "claim": "Click-to-call, form submission, thank-you flow, and confirmation email are tested as conversion continuity.", "proof_type": "transcript"},
+    {"time": "25:53-27:32", "state": "OBSERVED", "claim": "The demo compares a lean AI draft against a longer original and requires a one-to-two-hour human editorial pass.", "proof_type": "transcript+frames"},
+    {"time": "27:35-28:59", "state": "UNCONFIRMED", "claim": "The speaker's personal allocation assigns 5% to on-page, 20% to content quality, 20% to topical authority, 5% to technical SEO, 25% to backlinks, and 25% to third-party signals.", "proof_type": "transcript+frame", "boundary": "Personal opinion; not an outcome model."}
+  ]
+}

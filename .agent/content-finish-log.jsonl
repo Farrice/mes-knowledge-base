@@ -469,3 +469,12 @@
 {"ts": "2026-08-04T16:58:15Z", "label": "RBR-001", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-08-04T16:59:23Z", "label": "RBR-001", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-04T17:00:03Z", "label": "RBR-PROMPT-001", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-05T15:24:42Z", "label": "Angle Map LinkedIn answer bridge", "verdict": "FAIL", "fails": ["3 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-05T15:24:43Z", "label": "Angle Map answer prototype", "verdict": "FAIL", "fails": ["3 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-05T15:28:33Z", "label": "Angle Map answer prototype", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-05T15:28:34Z", "label": "Angle Map LinkedIn answer bridge", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-05T15:29:39Z", "label": "Angle Map answer prototype", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-05T15:29:40Z", "label": "Proof-to-Angle visual brief", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-05T15:40:05Z", "label": "_active/search-content-mastery/angle-map-search-answer-prototype/linkedin-answer-bridge.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-05T15:40:05Z", "label": "_active/search-content-mastery/angle-map-search-answer-prototype/proof-to-angle-media-brief.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-05T15:40:06Z", "label": "_active/search-content-mastery/angle-map-search-answer-prototype/owned-answer-page.md", "verdict": "CLEAN", "fails": [], "warns": []}

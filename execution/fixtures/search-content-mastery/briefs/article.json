@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "target_query": "how to structure supplement claims for AI search",
+  "intent": "informational",
+  "audience": "health performance brand founder",
+  "information_gain_requirement": "A source-graded distinction between retrieval readiness and observed citation performance.",
+  "source_receipts": ["https://example.com/source-receipt"],
+  "structural_pattern": "direct answer -> evidence -> limits -> action",
+  "channel": "article",
+  "cta": "Review the source receipt.",
+  "risk_boundary": "This is marketing and source-organization guidance, not medical, legal, ranking, or citation advice.",
+  "measurement_hypothesis": {
+    "prediction": "The answer asset may earn a dated citation observation for the target question.",
+    "primary_stage": "CITED",
+    "observation_window_days": 30,
+    "falsifier": "No citation appears in the declared observation set after 30 days."
+  }
+}

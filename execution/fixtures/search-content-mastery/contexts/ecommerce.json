@@ -1,0 +1,11 @@
+{
+  "project_name": "TrailFuel Creatine",
+  "vertical": "ecommerce sports nutrition",
+  "entity_truth": {"schema_version": "search-context/v1", "entities": ["TrailFuel", "creatine monohydrate"], "verified_facts": ["Product uses creatine monohydrate and supplied label facts."], "unresolved": ["No external ranking or citation proof."]},
+  "brand_context": {"schema_version": "search-context/v1", "brand": {"name": "TrailFuel"}, "offer": {"primary": "creatine monohydrate product"}, "audience": {"primary": "buyer comparing creatine for a sensitive stomach"}, "voice": {"mode": "direct and evidence-aware"}},
+  "source_policy": {"schema_version": "search-context/v1", "allowed_sources": ["product label", "approved research", "dated customer-language research"], "prohibited_sources": ["invented clinical outcomes"], "claim_labels": ["OBSERVED", "INFERRED", "CORROBORATED", "UNCONFIRMED"]},
+  "claim_policy": {"schema_version": "search-context/v1", "allowed": ["approved label facts"], "requires_review": ["performance and digestive-tolerance claims"], "prohibited": ["treatment or guaranteed outcome language"]},
+  "competitor_patterns": {"schema_version": "search-context/v1", "patterns": ["comparison/listicle plus product/category support"], "evidence_refs": ["fixtures/ecommerce-serp-observation"]},
+  "search_inputs": {"schema_version": "search-context/v1", "queries": ["best creatine for sensitive stomachs"], "surfaces": ["Google", "AI answers", "YouTube", "marketplaces"], "imports": []},
+  "operator_taste": {"schema_version": "search-context/v1", "decisions": ["concede competitor strengths", "specific price and evidence fields"], "overrides": []}
+}

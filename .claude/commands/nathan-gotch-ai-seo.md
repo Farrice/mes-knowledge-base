@@ -1,5 +1,5 @@
 ---
-description: "AI SEO domination system - operate at the retrieval layer where AI engines cite sources, not just the visibility layer"
+description: "Evidence-bounded traditional, retrieval, local, ecommerce, on-page, audit, search-everywhere, and AI-search mechanics"
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

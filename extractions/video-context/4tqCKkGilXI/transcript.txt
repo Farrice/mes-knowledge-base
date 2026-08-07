@@ -1,0 +1,854 @@
+[00:03] Just follow this 49point onpage SEO
+[00:03] checklist and you'll get results like
+[00:04] this, this, and this. Let's dive right
+[00:07] in. Okay, so if you look on the right
+[00:08] hand side, this is going to be the
+[00:09] onpage SEO checklist. I'm going to be
+[00:11] walking you through, and you're going to
+[00:12] have access to this checklist below the
+[00:14] video. So, there'll be a link either in
+[00:16] the description or in the pinned
+[00:18] comments. So, let's just dive right into
+[00:19] it. So, number one, is the URL allowed
+[00:22] in the robots.ext file for Googlebot and
+[00:25] Bingbot? Okay. So, all we have to do is
+[00:27] just go to the page itself and just open
+[00:29] up the detailed Chrome extension and
+[00:31] then click on the robots.ext here. And
+[00:33] you can see as long as there's nothing
+[00:35] being blocked here by the disallow, then
+[00:37] you're going to be good to go. Okay? But
+[00:39] if you saw anything in here that like
+[00:40] any any bots are being blocked,
+[00:43] generally we don't want that to happen.
+[00:44] Okay? And especially we don't we we
+[00:46] don't want any of the traditional search
+[00:48] engines to be blocked and we also don't
+[00:50] want the AI crawlers to be blocked. So
+[00:52] if you see anything like GPT bot or
+[00:55] Google extended or perplexitybot, you
+[00:57] don't want any of that in there. Okay.
+[00:59] So this is this is the appropriate setup
+[01:01] here. This is this is going to be a pass
+[01:03] for them. Okay. So we can pass both of
+[01:04] these. And then the next thing here is
+[01:07] you want to see is the page actually
+[01:08] indexable? Like are there any directives
+[01:11] being used that would potentially be
+[01:12] blocking this page? Okay. So we're going
+[01:14] to go back over here once again detailed
+[01:15] Chrome extension. Go over to the robots
+[01:17] tag section. And if we see index follow,
+[01:20] that's perfectly fine. Also, if this is
+[01:23] completely blank, that's also okay.
+[01:25] Okay, so we can go over here. This is
+[01:27] passed. No worries there. And then, does
+[01:29] the page return a 200 status? 200 just
+[01:31] means that it's actually accessible.
+[01:33] It's not a 404 or it's being redirected
+[01:35] or there's some sort of server error.
+[01:37] Uh, that's what we want to see. Okay, so
+[01:39] we're going to go back over here, and
+[01:41] there's a little tool you can use, and
+[01:42] you'll see it here. Just run the URL
+[01:44] through this little tool, and it's
+[01:46] obviously in the checklist. and we just
+[01:47] want to see that it's actually showing
+[01:48] up as a 200 uh across all these
+[01:51] different uh areas that they ran this
+[01:54] test. Okay, so very simple. All right,
+[01:56] so this page is pretty much good to go.
+[01:58] Now the next one is can the page be
+[01:59] fetched directly? And we're looking at
+[02:02] chat GPT in this context. You could also
+[02:04] do this across any of the LLMs as well
+[02:07] because they do have the ability to do
+[02:08] direct retrieval, meaning when you put a
+[02:11] a domain or URL into chat GBT, it can
+[02:15] actually go and retrieve that directly.
+[02:17] Okay, so let's go ahead and grab this
+[02:20] URL here. And we're going to go into
+[02:22] chat GBT. And if you do the thinking
+[02:25] model typically the one I'm going to use
+[02:26] when I'm going to do any type of
+[02:27] retrieval and you can just do something
+[02:30] like you know tell me about this website
+[02:34] or actually you know we'll do more
+[02:36] specifically tell me about this page you
+[02:38] can actually look through the logic of
+[02:40] going through this. So it looks like
+[02:41] browsing page or key details uh it
+[02:44] actually did go through that that page
+[02:45] and then it scrolled. So, um, so based
+[02:48] on what we're seeing here, uh, you can
+[02:49] actually go and verify this, too, right?
+[02:51] If you want to make sure that it's
+[02:52] being, you know, not making things up
+[02:54] and it's not hallucinating, you can
+[02:56] actually go and verify these facts in
+[02:58] here. So, what you can do is just grab a
+[02:59] random piece of information like this
+[03:01] and just see if uh, hallucination has
+[03:03] been prevented. And you can see if we
+[03:05] search this, uh, this is actually legit,
+[03:07] which means the only way they would have
+[03:08] gotten this information is through uh,
+[03:11] retrieval. Okay? So, and just keep in
+[03:13] mind it can still hallucinate. So, just
+[03:15] be careful. always do some factchecking.
+[03:17] But what we're trying to do here is just
+[03:18] make sure like the purpose of this
+[03:20] little activity is just to see that chat
+[03:22] GBT can actually retrieve this page.
+[03:24] Okay, that's what we want to see. It can
+[03:26] actually go and it's not being blocked.
+[03:28] That's really what we want to see. All
+[03:29] right, so we can go and give that one a
+[03:30] pass. And then next we're going to see
+[03:31] is this page actually indexed in the
+[03:33] three search engines that matter the
+[03:35] most. Google, Bing, and Brave. Now,
+[03:38] here's why. Obviously, we want to we
+[03:40] want to be indexed in Google because
+[03:41] it's the number one search engine. Uh,
+[03:43] and it's also going to directly
+[03:45] influence Google's AI mode and it's
+[03:47] going to be influencing Google's Google
+[03:49] Gemini as well. Okay, so those two
+[03:51] products, if we're not indexed in
+[03:53] Google, we have basically no chance of
+[03:54] showing up uh in those products. Okay,
+[03:57] Bing, we know that we know that chat GBT
+[04:00] uses Bing and uh so does Perplexity. So,
+[04:03] we want to make sure that we're showing
+[04:04] up there as well when it I'm speaking in
+[04:07] reference to actually when it uses
+[04:08] retrieval. And then the third one is
+[04:11] Brave. and Brave. Uh there's some
+[04:13] evidence that Claude uses Brave as its
+[04:15] source of retrieval. So we just want to
+[04:17] make sure that we're indexable across
+[04:19] all these major search engines. That's
+[04:20] really important. Very easy. Just go and
+[04:22] do a site search. In fact, you don't
+[04:24] even have to do site. You could just
+[04:25] search the raw URL. And you just want to
+[04:27] see that it's popping up. Okay. So in
+[04:28] Google, we're good. When we do it in
+[04:30] Bing, we'll go over here. They're
+[04:32] actually indexed over here as well. And
+[04:34] then we look at Brave. They're indexed
+[04:35] here as well. Okay. So they're doing
+[04:37] well. They've they've got uh they've got
+[04:39] the proper foundation set up. Now, let's
+[04:41] dive into some of the other stuff. Is
+[04:43] the page HTML? Okay, so this is really
+[04:45] important. So, we know that the LLMs
+[04:49] prefer HTML. Okay, and if you're if your
+[04:52] page is if your page is built in
+[04:53] JavaScript, you're not going to you're
+[04:55] not going to be a good source of
+[04:57] retrieval uh for the LLM. So, just just
+[05:00] use HTML. Okay, I'm not going to get
+[05:01] super demon. Just use HTML. Make your
+[05:03] life e easier. Okay, it's quite simple.
+[05:05] If we go here and look at this view page
+[05:08] source, we can go ahead and just see,
+[05:09] you know, it is this actually HTML. The
+[05:12] answer is yes. But more importantly, we
+[05:13] want to see that the text is actually
+[05:15] crawable uh and retrievable in this
+[05:18] content. So, if you go past all this
+[05:20] like crazy uh code up here, we can see
+[05:23] we see actual meat in here, actual text
+[05:27] that's in the HTML, we can see that H1
+[05:29] popping up in here. We can see that H2.
+[05:31] And we can see these paragraph tags.
+[05:33] Okay, that's what you want to see. You
+[05:34] want to see that that text is actually
+[05:36] showing up right here in the code. Okay,
+[05:38] that's exactly what you want to see. So
+[05:40] that's a pass. Then uh is the core
+[05:43] content server rendered and visible in
+[05:44] the page source? Once again, this tells
+[05:46] you that it is being rendered. Okay, so
+[05:48] that kind of you pass both those checks
+[05:50] right away. Uh is a canonical URL set?
+[05:53] Just go right back in here. We're going
+[05:55] to go to the detail Chrome extension and
+[05:57] just see that it is a self-referencing
+[05:59] canonical tag. That's what you want to
+[06:00] see, right? Self-referencing. That's
+[06:02] exactly what you want. All right. Uh,
+[06:05] okay. So, we're good on all of these. We
+[06:07] They've passed everything so far. Okay.
+[06:09] So, does the page match the dominant
+[06:12] intent shown in the live SER for the
+[06:14] target keyword. Okay. So, basically what
+[06:18] we want to do is like we want to study
+[06:19] the the SERs and we want to see are we
+[06:22] actually matching what's in the SERs?
+[06:24] Like we don't want to reinvent the
+[06:25] wheel. Like there's a lot of things that
+[06:27] you can get fancy about and get uh
+[06:30] creative about, but one of the things
+[06:31] you don't want to do is when it comes to
+[06:33] intent, you want to copy the first page.
+[06:36] Okay? Don't ever try to go against that.
+[06:38] Uh unless you're very skilled, uh if
+[06:40] you're very skilled at this, you can,
+[06:42] but it's it's risky. Okay? What we want
+[06:44] to do is look at this and see, okay,
+[06:46] what is the general type of page that is
+[06:48] ranking? So when we look at the types of
+[06:50] pages that are ranking here, we see
+[06:51] we've got lots of lawyers who all have,
+[06:54] you know, really kind of commercial
+[06:55] pages. Okay, these are all just
+[06:57] commercial pages.
+[06:59] And, you know, obviously they there's
+[07:00] some room for improvement because
+[07:02] technically they function more
+[07:03] likeformational pages even though
+[07:04] they're commercial. But the the main
+[07:06] point is like mostly commercial pages.
+[07:08] Uh cool thing about inside of
+[07:10] Rankability here, if you click on view
+[07:11] SER, this will give you an unbiased view
+[07:15] of what the SERs look like right now.
+[07:17] Okay? And so you can actually go down
+[07:19] here and see what I like to do this
+[07:21] because I can actually determine like,
+[07:22] okay, what is a CTR going to look like?
+[07:24] And we see we've got a big ad block
+[07:26] here. So that's already going to hurt
+[07:27] CTR. Then we go down here. We've got a
+[07:29] local pack, meaning we have to focus on
+[07:30] the local pack number one above the
+[07:32] traditional search results. And then
+[07:34] we've got the And then we've got the
+[07:36] traditional search results here. Okay,
+[07:38] but we can see it's like 99.9%
+[07:42] commercial pages. So that tells us
+[07:43] everything we need to know. That means
+[07:45] we need to go and build a commercial
+[07:46] page as well. Now, based on what we're
+[07:48] seeing here, they've done that. Um,
+[07:50] obviously room for improvement, but in
+[07:52] general, they have they have matched the
+[07:55] intent to a certain extent. Okay. All
+[07:58] right. So, we're going to go and pass
+[07:59] them on that. Now, does the page include
+[08:02] elements needed to qualify for features?
+[08:04] Now, in this case,
+[08:06] if you look here on the competitors tab
+[08:08] on rankability, you can see any features
+[08:10] that exist. So, in this case, there
+[08:12] really aren't any features. The only
+[08:14] surf feature that we see major surf
+[08:16] feature is is the Google business
+[08:17] profiles the local pack here. So you
+[08:20] know that's kind of a separate
+[08:21] discussion alto together right but
+[08:22] there's no like people also ask or any
+[08:24] or there's not even actually an AI
+[08:26] overview in this case which is pretty
+[08:28] rare. So just one feature here and
+[08:30] obviously as long as they have a Google
+[08:31] business profile and they have an
+[08:33] address in Chicago and they're actively
+[08:34] require uh acquiring reviews that's like
+[08:36] 80 to 90% of the equation. Okay. Does
+[08:39] the page display a visible publish date
+[08:41] and clearly labeled uh last update? And
+[08:44] is the content current reflected any
+[08:46] changes? So, this is really important
+[08:48] here, which is the LLMs tend to prefer
+[08:50] fresh pages that have been updated very
+[08:52] recently. So, this is it's important to
+[08:54] constantly be refreshing your pages and
+[08:56] making them up to date as much as
+[08:58] possible. Now, because this is a
+[08:59] commercial page, it's not likely to see
+[09:01] like a publish date or last updated. So,
+[09:03] what you can do is actually go into the
+[09:04] code and try to find the uh various
+[09:08] years that pop up in here. So, what I'll
+[09:10] do is I'll just do like 20 and then I'll
+[09:12] try to find anything that's going to
+[09:14] give us signals of how old this page
+[09:16] really is. Now, when we see this right
+[09:18] away, we see we found 2016. Okay, that's
+[09:21] not a good sign. All right, because what
+[09:23] that's telling us already is that this
+[09:25] page is very old. This page has not been
+[09:28] updated very often. Uh we've got 2023 in
+[09:31] here. We keep going down and more 2020
+[09:36] in here. So, we have we have we have
+[09:38] elements on this page that are go as far
+[09:42] back as 2016. Okay, that's really old.
+[09:45] All right, so that's going to be a big
+[09:47] fail here. Now, for commercial pages,
+[09:49] this is typically what you're going to
+[09:50] have to do because you're not going to
+[09:51] be able to see uh usually like a last
+[09:54] update or or publish it. Even then, even
+[09:56] on anformational page, you still want to
+[09:59] go through that same practice because
+[10:00] you want to see like is are there
+[10:02] outdated elements on this page and we
+[10:05] don't want to have that. We need to make
+[10:06] sure that it's extremely upto-date if we
+[10:08] want to have good performance. Okay, now
+[10:10] we're just talking about readability,
+[10:11] which is like having a TLDDR or
+[10:13] scannability, which is really important
+[10:14] for LLMs because they go and uh extract
+[10:17] through retrieval. They're pulling
+[10:18] elements and chunks from the page. So,
+[10:21] you want to make sure it's really really
+[10:22] clear what you guys do at like right
+[10:24] above the fold. Um, and the just the
+[10:28] general structure of this page, there's
+[10:30] a lot of room for improvement. Okay, so
+[10:32] I'm just going to go through a couple of
+[10:33] things here just because I I can't help
+[10:35] myself. So, couple of things here.
+[10:38] Number one, [snorts] this section up
+[10:40] here is very problematic because number
+[10:42] one, when you use this blue here, this
+[10:45] is the universal sign of a link and the
+[10:48] universal color of a link on the
+[10:50] internet. Okay? So, when you do when you
+[10:52] use this color here for text, it looks
+[10:54] like a link. Okay? And this here
+[10:56] actually is a link. So, we have text
+[10:59] that looks like a link that isn't a
+[11:01] link. And then we have an actual link
+[11:03] that's using the right color. So,
+[11:05] there's just some color issues here. And
+[11:06] then this one here is using actually a
+[11:08] different color for this link. So you
+[11:10] you want links to look like links, but
+[11:12] you want to make sure that the general
+[11:14] theme and and color scheme isn't going
+[11:16] to compete with those links. Okay? So
+[11:18] right now, this is not the appropriate
+[11:20] setup. In fact, I'd be moving away from
+[11:23] blue headings like this and I would move
+[11:26] to like, you know, maybe a darker blue
+[11:28] or even just black. Okay? That's just
+[11:30] much easier. And let and let links be
+[11:32] links. Uh, as far as that blue color,
+[11:35] another thing is too, the the phone
+[11:37] number is one of the most important
+[11:38] things on this page, yet it's very
+[11:40] muted, okay? It's a very muted color.
+[11:42] So, we want to make that I want to make
+[11:44] that phone number be the star of the
+[11:45] show because it's critical that we get
+[11:47] people actually call us to to actually
+[11:50] drive conversions. Okay? Uh, so that's
+[11:52] really important. And then right here,
+[11:54] you know, the general structure here
+[11:56] like uh UX 101 is that the primary
+[11:59] headline is above the fold. Okay? So,
+[12:02] there should be at any page that you're
+[12:04] on on a website, the the headline should
+[12:06] be one of the first things that you see
+[12:07] because it helps the user understand
+[12:09] where they are uh in that moment. Okay?
+[12:12] But right now, if we were to just kind
+[12:14] of like move this up, if someone landed
+[12:16] on this page, they'd have no idea where
+[12:18] they are. They don't know what this page
+[12:19] is. They don't know, you know, there's a
+[12:21] happy truck driver here, but we don't
+[12:23] really know what this page is about,
+[12:24] right? If you're just on this alone with
+[12:26] no context. So, you have to shift this
+[12:28] around. And what I would do is I would
+[12:30] use just like a left right format. So
+[12:31] you'd have headline on the left, uh, sub
+[12:34] headline, call to action, then maybe a
+[12:36] form over here too, and then like maybe
+[12:38] some testimonials. Like you could
+[12:40] restructure this page quite easily.
+[12:42] Okay. And right now it this page is not
+[12:44] really built for for maximum
+[12:46] conversions. So this is this is much
+[12:49] bigger than just an SEO content and an
+[12:51] on-page SEO issue. There's there's like
+[12:54] full-on structural issues going on here
+[12:56] with this page. Um, if you want some
+[12:58] like a good in inspo, I would use Look
+[13:01] at these guys here. Okay, I've I've
+[13:03] talked about them before. Uh, this is
+[13:05] not my client or anything. I just think
+[13:06] that one of my favorite websites I've
+[13:08] seen on the local level. It's beautiful.
+[13:11] Does so many things well and um just
+[13:14] just model this, okay? Because you got a
+[13:17] beautiful phone number above the fold,
+[13:19] very prominent. You've got another CTA
+[13:21] here for people that are not ready to
+[13:23] call. And then you see the CTAs
+[13:25] throughout, right? the calls to action.
+[13:27] We got a [clears throat] nice beautiful
+[13:28] format like I said left right format. So
+[13:30] we got a nice left left here with the
+[13:32] context and then we've got the call to
+[13:33] action. So and then obviously we've got
+[13:35] some social proof. It's just overall
+[13:38] this is you it doesn't get much better
+[13:40] than this. This is about as good as it
+[13:41] gets. Okay. So model this. This is what
+[13:44] a beautiful conversion focused design
+[13:46] will look like. And you can still get
+[13:48] maximum SEO benefits uh by do in fact
+[13:51] you'll get more SEO benefits by doing
+[13:53] this because you're going to get the
+[13:55] goal completions that are are supposed
+[13:57] to happen on your page which is likely
+[13:59] also a Google ranking factor. Okay. So I
+[14:02] would go ahead and give this one a fail
+[14:03] on that. Uh if applicable does a page
+[14:06] include a short verdict box? The answer
+[14:08] is no. This is like very textheavy.
+[14:12] uh most people are never going to read
+[14:13] this and this is really just an attempt
+[14:16] to manipulate Google but not necessarily
+[14:19] uh drive conversions which that should
+[14:21] be the number one objective. The number
+[14:23] one objective should not be how do we
+[14:24] manipulate Google to rank and how do I
+[14:26] manipulate the uh AI platforms. The goal
+[14:29] should be how do we drive maximum goal
+[14:31] completions on this page considering
+[14:33] this is a transactional page. That's the
+[14:35] number one objective. Then the SEO is
+[14:37] second to that. Okay. So we're going to
+[14:40] give that a fail. Uh, does a page
+[14:41] provide information gain compared to the
+[14:43] top results? Probably not. Okay, we can
+[14:46] we don't have to do much analysis there.
+[14:48] Okay. Is the word count sufficient to
+[14:50] satisfy search intent without necess
+[14:52] unnecessary padding? I'm going to go
+[14:54] ahead and say no, but just because we'll
+[14:57] go ahead and take you get some
+[14:58] quantifiable proof here. We can see uh
+[15:02] we we actually placed all the content
+[15:04] here. So if you do a uh content
+[15:06] optimizer here, you can actually extract
+[15:08] even if and if you don't, you can
+[15:09] actually go over here to URL extraction
+[15:11] and then it will in will go ahead and
+[15:13] retrieve that information, bring it back
+[15:15] uh into this editor. [clears throat] But
+[15:18] right here in the word count, word count
+[15:20] is not a ranking factor per se. Um but
+[15:24] we we want to be within range as to
+[15:28] where the competitors are, but we don't
+[15:29] want to be super aggressive there. And
+[15:32] so in the context is we're using median
+[15:34] word count. So we're eliminating the
+[15:35] outliers. So like some some competitor
+[15:37] has, you know, I don't know, 10,000
+[15:39] words and some competitors got 50. We're
+[15:41] just eliminating them all together and
+[15:43] bringing to that true middle. So this
+[15:45] optimal range is like you want to be in
+[15:48] here. In fact, I would argue you'd want
+[15:49] to be more on the low end because if
+[15:51] you're on the low end, you're going to
+[15:52] practice brevity. You're going to focus
+[15:54] on conversions. Um, and you're not going
+[15:56] to just fluff up your content, which is
+[15:58] not beneficial really. So, we're looking
+[16:00] at 4,300 words. If I was working on this
+[16:03] page, I'd delete
+[16:06] nearly 3,000 of the words on this page.
+[16:08] Like, I would literally just just chop
+[16:11] away at it. And I'll show you how we can
+[16:13] restructure this page. But, in general,
+[16:15] this target word count is critical
+[16:17] because, you know, it word count's a
+[16:19] tricky thing because just having words
+[16:21] is not a ranking factor, but you need
+[16:22] words to have context, right? like the
+[16:26] uh search engine crawlers and LLMs, they
+[16:29] need meat. They need actual words to
+[16:32] understand what the page is about. So,
+[16:34] in that way, you could argue that it is
+[16:37] a factor. Uh but it's not like a
+[16:39] specific word count is a fact. It's not
+[16:41] like the LM say, oh, this page has 1500
+[16:44] words, therefore it's going to rank
+[16:46] better. That's not what it that's not
+[16:48] what it is. It's more that, oh, this
+[16:50] page has something that I can
+[16:51] understand, and then I know what I can
+[16:53] do with this, right? And that's really
+[16:55] what it is. It's it's it's the
+[16:57] substance. It's not the quantity. Okay.
+[17:00] All right. So, we're going to go and uh
+[17:02] that one's going to be a fail. And then
+[17:04] uh you know, basic grammar and spelling.
+[17:06] Actually kind of cool. Most people don't
+[17:07] know like some of the functions in here,
+[17:09] but you can actually go in here and
+[17:10] click on AI.
+[17:12] And what this will do is if you just
+[17:13] click on spelling and grammar, this will
+[17:15] just do a full spelling and grammar
+[17:16] analysis uh with with our AI. Um, so
+[17:20] there's like some little features in
+[17:21] here that I don't really talk about, but
+[17:22] this is a quick way you can do this. Is
+[17:24] it means you don't even need Grammarly
+[17:25] to be honest. I canceled Grammarly like
+[17:27] a year and a half ago. So, uh, all
+[17:29] right. So, is the are the headings, uh,
+[17:32] hierarchy logical with short paragraphs,
+[17:34] list tables. Okay. So, going back to
+[17:36] here, we can see, uh, there there's a
+[17:38] bunch of grammatical errors and
+[17:40] opportunities to improve uh, this
+[17:42] overall. So, if [clears throat] you just
+[17:44] do accept and replace, it will actually
+[17:45] just clean all of this up automatically
+[17:48] for you. Okay. Okay. So, if you want to
+[17:49] do a quick analysis of the headings,
+[17:51] just go over to the brief here and then
+[17:53] click on outline. And you can see the
+[17:55] heading structure all set up here. So,
+[17:57] this is actual headings pulled from that
+[17:59] page. And we can see this is this is not
+[18:01] exactly what we want. Uh we want to make
+[18:04] sure that we've got like, you know, a
+[18:05] solid H1, which is good. This is
+[18:07] perfect. Got a good H1. Then we would
+[18:09] have an H2, but then within that H2, we
+[18:12] would start to layer in, you know, H3s.
+[18:14] Um, so this is just a little H2 heavy.
+[18:17] We don't want it to be like this. So
+[18:18] like if you look at this competitor
+[18:19] here, they've got a nice setup. They got
+[18:21] H1, H2, then they've got the H3s within
+[18:23] that H2 and so on and so forth. This is
+[18:25] a good setup. This is uh a little too H2
+[18:28] heavy. Okay, moving on to loading speed.
+[18:30] Just run the page through Google Page
+[18:31] Speed Insights and you can see check on
+[18:33] mobile and check on desktop. So they're
+[18:36] about a 57 on mobile and they're 98 on
+[18:39] desktop. Knowing that most of their
+[18:41] traffic is likely mobile, then this is a
+[18:44] problem. Okay. Um, for B2B, desktop
+[18:46] tends to be the much more prevalent, but
+[18:49] for, you know, BTOC type of situation
+[18:51] like this, you're going to see a lot
+[18:52] more mobile traffic. So, this is
+[18:54] definitely something we're going to want
+[18:55] to fix. Okay. Uh, is it mobile friendly?
+[18:58] All right. There's a very simple thing
+[18:59] you could do here. If you want to check
+[19:00] to see mobile friendliness, just go
+[19:02] ahead and like open up the URL like this
+[19:04] and just condense this down. And this
+[19:07] will give you a pretty rough idea of
+[19:08] what it's going to look like on mobile.
+[19:10] Okay? It's not perfect, but it gives you
+[19:11] a pretty good idea. The the only true
+[19:13] way to do this is just literally pick up
+[19:15] your phone and and look on your actual
+[19:17] device. Okay, that's the best way to
+[19:18] really do it. All right, but this one
+[19:20] looks good on that front. Pass. And then
+[19:23] is the reading level appropriate for the
+[19:24] target audience in general online? Like
+[19:27] any internet level content should be
+[19:29] very simple, like very very simple
+[19:31] content, easy to understand, easy to
+[19:33] read. And what we'll see here if we go
+[19:35] over here to the readability, uh this is
+[19:37] a college level content even up to
+[19:40] college graduate. This is way too way
+[19:43] too intense. And so this is one of the
+[19:45] biggest issues I see with lawyers. They
+[19:46] always have really really technical
+[19:48] content and but their clients are not
+[19:51] highly technical in the legal space. So
+[19:54] you have to convert this to something
+[19:55] they can actually understand. Okay, this
+[19:57] is not what we want. We want it to be
+[19:59] much lower high school, elementary, like
+[20:02] as low as we can go. Uh first grade
+[20:05] level, you know, try to go to that
+[20:07] level. that's going to make a big
+[20:08] difference uh as far as conversion rates
+[20:10] on the internet. Okay, now we're talking
+[20:12] about some basic onpage SEO 101 which is
+[20:14] really just about keyword placement and
+[20:16] then of course uh overall topic
+[20:18] coverage. So what you can do is go to
+[20:19] the brief here and you can actually
+[20:21] click on this and we actually have it
+[20:22] built in here. So you can see uh the
+[20:25] primary keyword you want to see that
+[20:26] primary keyword is actually popping up
+[20:28] in the URL. So this did not pass. So
+[20:31] this is going to be a fail. And when I
+[20:33] say primary keyword I mean Chicago truck
+[20:35] accident lawyer. So, we don't see
+[20:36] Chicago in here at all. And my my test
+[20:40] for this is what I do is like I pretend
+[20:42] there is no context. So, just looking at
+[20:44] this page, we see practice area truck
+[20:46] accidents. I don't know where that is,
+[20:48] right? I don't know if that's Chicago. I
+[20:51] don't know if that's Florida. You know,
+[20:53] it there's no context. So, you need to
+[20:56] have the city to give context. That's
+[20:58] just my personal opinion. All right.
+[21:00] This one here is about title tag. They
+[21:01] passed that. They're good to go. Uh
+[21:03] we'll look at the metad description.
+[21:05] Metad description looks good. Uh,
+[21:07] actually, sorry, pass that one. Pass
+[21:08] that. Uh, there is a keyword in the H1.
+[21:12] Yes, we know that. Is the keyword in the
+[21:14] first 100 words? Uh, we can go ahead and
+[21:16] look in here. Yeah, I mean, I would say
+[21:18] that I'll give that one a pass. That
+[21:20] that's fair. Um, variation in the H2.
+[21:24] Uh, yeah. Yeah, we go to give that one a
+[21:26] pass. Descriptive headings overall.
+[21:29] Okay. I'm not going to be too gruff on
+[21:31] that. And then this one, although it is
+[21:32] the last point, is the most important
+[21:34] point in this section, which is does it
+[21:36] cover all the relevant topics. Okay, so
+[21:38] go over here. You look at relevance, but
+[21:40] we're actually going to go to unused,
+[21:41] and we're going to see we've got tons of
+[21:44] unused topics that the competitors are
+[21:47] using. Okay, so I would argue that this
+[21:49] page needs to be completely redone.
+[21:52] Like, and so, you know, we passed all
+[21:54] those things, but the reality is if this
+[21:55] was my client, this page I would just
+[21:57] start from scratch. Okay? And the way I
+[21:59] would do it is pretty simple. I would
+[22:00] just start with AI as the base using AI
+[22:03] to build that base content and then use
+[22:06] the human editorial process to make it
+[22:08] better. Okay? So go into here, you use
+[22:10] the AI writer inside of rankability if
+[22:13] you wanted to. Uh and what I do in this
+[22:15] section is obviously pick service page
+[22:16] because it's a commercial page. And then
+[22:18] what I'll do is I'll use chat GBT to go
+[22:20] and give me context. Okay? So right here
+[22:22] you can see you can use this little
+[22:24] prompt but basically we can go and
+[22:25] retrieve that information. It will go
+[22:26] and give us context about that brand.
+[22:29] And then this is how we can make that AI
+[22:31] content uh a lot more unique relative to
+[22:34] the people that are ranking because a
+[22:35] commercial page is really easy to
+[22:37] actually make unique because it should
+[22:39] be about your brand and there is only
+[22:42] you. So it's automatically unique out of
+[22:45] the gate. So what you can do though is
+[22:47] like I'll have it turn into a markdown
+[22:49] file and then we'll just copy this over.
+[22:51] We'll put this into the context window
+[22:53] and then I will generate that content.
+[22:56] And then in the last section under goal
+[22:57] completions, this is really really
+[22:59] important. So what I recommend doing is
+[23:00] just making sure that all of their calls
+[23:02] to action actually work. Okay? And I
+[23:04] already said that you like this page I I
+[23:06] would personally this should be
+[23:09] redesigned in my opinion, but let's just
+[23:11] say they were to keep this. I want to
+[23:12] make sure that the phone number is
+[23:13] actually clickable. So like if I click
+[23:14] on this, will it actually call? The
+[23:16] answer is yes. Okay, so it actually does
+[23:18] work. But then we want to do is actually
+[23:19] want to test this form. So you can use a
+[23:21] service like Mailinator. Just do this
+[23:23] real quickly. and I want to see if this
+[23:25] form actually works because if it
+[23:27] doesn't work then that's going to cause
+[23:28] a lot of problems. All right, so we're
+[23:30] gonna run this through use mailinator
+[23:34] and I apologize uh to this brand that
+[23:36] I'm doing this but just for the sake of
+[23:38] for the argument here it seems to have
+[23:41] worked. I would go ahead and say that uh
+[23:43] this is a solid pass. However, I would
+[23:46] argue that this is an area this is where
+[23:48] now we're starting to step outside of
+[23:49] the SEO realm here. But as far as
+[23:52] conversion rate optimization, as far as
+[23:54] building trust leading up to a call, all
+[23:56] of those things, what you want to do is
+[23:58] build in a proper funnel. So what we're
+[24:01] seeing here is like, okay, you contact
+[24:03] them. What happens next? Okay, going to
+[24:05] get in touch with you shortly. Okay, so
+[24:08] it just kind of leaves the user up, you
+[24:10] know, you don't really know what's going
+[24:11] to happen after this. Am I get are they
+[24:12] going to get in touch with me? I'm not
+[24:13] sure. Right? So if you're trying to win
+[24:16] deals, you want to be the one that's
+[24:18] controlling that sales environment. So,
+[24:20] what I would do personally is soon as
+[24:22] someone submits this form, I'd send them
+[24:23] to a thank you page. On the thank you
+[24:25] page, it would be a video of one of the
+[24:27] lawyers, and I would say, "Hey, thank
+[24:28] you so much for uh, you know, submitting
+[24:30] your free case review. Here's what's
+[24:32] going to happen next. Uh, here's what
+[24:34] you can expect." And you you set those
+[24:36] expectations for them, right? And then
+[24:38] even maybe give them some additional
+[24:40] resources that they can use. Even maybe
+[24:42] show some uh some social proof, some
+[24:44] case studies, or even uh outcomes that
+[24:47] you've gotten for your clients. So
+[24:48] you're building trust like right there.
+[24:50] So now they feel like, okay, I
+[24:51] understand the process. I'm good to go.
+[24:53] Uh but this is like basically, you know,
+[24:56] and this happens a lot with with legal
+[24:58] based websites. Uh actually happens a
+[25:01] lot with basically every local business
+[25:03] I've seen. Um but we need to actually
+[25:06] continue that process because you you
+[25:07] don't just want to have this form
+[25:09] submission then nothing happens after.
+[25:10] You want to continue to build that trust
+[25:12] and get get that prospect to know, like,
+[25:14] and trust you. This deal has not been
+[25:16] closed, right? you got to you have to
+[25:17] continually sell to to close that deal.
+[25:20] And then also when we go into the inbox,
+[25:22] we see that there is actually no
+[25:23] confirmation email that has even come
+[25:25] through from that contact submission. So
+[25:28] once again, we've got two things that
+[25:29] have to happen. Number one is when
+[25:30] someone submits a form, they go to a
+[25:32] thank you page, they they know what's
+[25:34] coming next. Number two, they get an
+[25:36] email confirmation about that contact
+[25:39] submission. Okay, so very basic stuff.
+[25:41] I'm not talking about like complex
+[25:42] funnels here, which we could talk about,
+[25:44] but I'm just saying that's like just the
+[25:46] basic that every business should be
+[25:48] doing in the context of uh anyone that
+[25:51] has a lead generation focused business.
+[25:53] So, we can see that the AI content is
+[25:54] already done. We'll go ahead and click
+[25:56] through. So, this is going to be very
+[25:57] good to show the distinct difference
+[25:58] between this draft versus the other one.
+[26:01] On the right hand side here, they
+[26:02] they're missing a lot of kind of core
+[26:04] topics in here. Okay, a lot of those
+[26:05] really important topics. With this
+[26:07] draft, we can see we've covered
+[26:09] basically all the important topics.
+[26:11] Okay? That's why it's scored so well
+[26:12] because it's covering what it needs to
+[26:14] cover, right? But also, as I mentioned
+[26:16] earlier, when you can see like the the
+[26:18] really juiced up word count. So, you can
+[26:21] see here only about 1,400 words. Okay?
+[26:23] So, we've chopped that word count down
+[26:25] dramatically. Um, and it it's already in
+[26:28] a much better place. Now, I would say
+[26:31] that the readability is still a little
+[26:33] it's a little strong. It's a little
+[26:35] strong. So the AI went a little went a
+[26:38] little too college graduate in this
+[26:40] case. So I would this is where the human
+[26:41] edits come in. I would start to kind of
+[26:43] simplify this a little bit more. This is
+[26:45] where you need a human. Okay. But this
+[26:48] in general, this is what you want to
+[26:49] see. You want to have it be lean and
+[26:51] highly relevant and personalized and
+[26:54] also obviously have that good
+[26:55] readability. So this is what this is
+[26:57] what a good draft looks like. Now I've
+[26:59] said this a million times at this point.
+[27:02] This is a draft. This is just the first
+[27:04] draft. Uh for us, you know, like I said,
+[27:06] this took, you know, less than five
+[27:07] minutes to make this draft. We'll then
+[27:10] spend an hour, maybe up to two hours, uh
+[27:13] with a human going through reworking
+[27:15] this, make sure it's going to flow well
+[27:16] on that commercial page and all of that
+[27:19] stuff. Okay? So, this is like all that
+[27:21] time that you save from the writing,
+[27:23] reinvest it into the back end of that
+[27:26] content production process or that
+[27:28] editorial process. And that's going to
+[27:30] ensure that your content does much
+[27:32] better uh and you're and you're you're
+[27:33] practicing proper on-page SEO. Okay. And
+[27:35] the last point of today, I just want to
+[27:37] make sure that it's clear that when it
+[27:38] comes to on-page SEO, it is only one
+[27:41] sliver of the total equation as far as
+[27:43] performance in Google and ChatGBT and
+[27:45] LLM. Okay. What what really matters like
+[27:48] and this this is unfortunately people
+[27:50] think that like if they just focus on
+[27:52] site, they're going to get good results.
+[27:54] And unless you're in a really
+[27:55] uncompetitive industry, it's not going
+[27:57] to be the case. you still need to carve
+[27:59] out all of these other elements. So,
+[28:01] I'll have a video uh that you can watch
+[28:03] next that's going to show you how to do
+[28:05] chat GBT SEO specifically. Uh and
+[28:07] there'll be other videos on my channel
+[28:08] also about how to how to optimize for
+[28:10] Google as well. But you'll see that like
+[28:12] there's much more to this equation in
+[28:14] particular uh offsite, okay? And you can
+[28:17] see your backlink profile and your third
+[28:19] party. And by the way, this chart is
+[28:20] just my personal opinion of like impact
+[28:23] of these these particular categories,
+[28:25] but 50% in my opinion at least, I'm
+[28:28] being maybe a little uh conservative
+[28:30] here, is what's happening off of your
+[28:32] website. That's where most of the impact
+[28:35] is going to come from is what's
+[28:36] happening off of your website, not what
+[28:37] you're doing on your site. Uh that's
+[28:39] only equates you maybe 50% of the total
+[28:42] equation. So, just wanted to show you
+[28:43] this to make sure we're, you know, we're
+[28:44] being realistic that even if you follow
+[28:46] this checklist and there's a lot of
+[28:48] content stuff on there as well, we're
+[28:50] only looking about, you know, maybe 25%
+[28:52] a quarter of the equation. So, make sure
+[28:54] you're covering all of these different
+[28:56] areas if you want to maximize your AI
+[28:59] search uh and SEO performance.

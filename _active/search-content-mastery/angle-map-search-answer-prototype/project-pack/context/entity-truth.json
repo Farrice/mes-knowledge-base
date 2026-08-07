@@ -1,0 +1,24 @@
+{
+  "entities": [
+    "Farrice Cain",
+    "The Angle Map",
+    "Proof-to-Market Sprint",
+    "Search Content Mastery OS"
+  ],
+  "schema_version": "search-context/v1",
+  "unresolved": [
+    "The Angle Map canon records no exact-offer sale or collected revenue.",
+    "No client-approved Angle Map has been supplied for implementation.",
+    "No live owned publishing URL or crawl/index state has been supplied.",
+    "No GSC, GA4, rank-tracker, or AI-citation baseline has been supplied.",
+    "No asset from this prototype has been published, indexed, ranked, cited, visited, converted, or connected to collected revenue."
+  ],
+  "verified_facts": [
+    "The Angle Map is the current live offer canon at $750 prepaid.",
+    "The Angle Map is a 60-minute live message read that returns three named angles within 48 hours.",
+    "Each Angle Map direction includes a core belief, hook directions, approved-proof direction, and an editorial claim-safety line.",
+    "The Proof-to-Market Sprint is the current warm rung at $2,500 prepaid for 10 business days.",
+    "The Proof-to-Market Sprint already includes one priority campaign asset and treats AEO/GEO as a supporting module.",
+    "Search Content Mastery OS is locally runtime-observed; market effects remain untested."
+  ]
+}

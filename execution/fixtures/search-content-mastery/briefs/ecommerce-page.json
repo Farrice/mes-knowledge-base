@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "target_query": "best creatine for sensitive stomachs",
+  "intent": "commercial",
+  "audience": "buyer comparing creatine for a sensitive stomach",
+  "information_gain_requirement": "A source-backed comparison of formulation, serving, price, and uncertainty without inventing digestive outcomes.",
+  "source_receipts": ["https://example.com/ecommerce-source-receipt"],
+  "structural_pattern": "quick picks -> comparison -> evidence -> buying decision",
+  "channel": "ecommerce_page",
+  "cta": "Compare the verified product details before choosing.",
+  "risk_boundary": "Do not promise digestive tolerance, performance, treatment, ranking, or citation outcomes.",
+  "measurement_hypothesis": {
+    "prediction": "The comparison page may earn commercial-query traffic and product-detail visits.",
+    "primary_stage": "TRAFFIC",
+    "observation_window_days": 60,
+    "falsifier": "No target-query impression or product-detail visit is recorded during the 60-day window."
+  }
+}

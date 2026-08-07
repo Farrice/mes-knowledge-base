@@ -1,0 +1,29 @@
+{
+  "boundaries": [
+    "No publishing, outreach, connector writes, scheduling, deployment, payment creation, or paid generation.",
+    "Scores are predictions; outcome stages require separate dated evidence.",
+    "Workflow recommendations are queue-only and require human promotion."
+  ],
+  "created_at": "2026-08-05T00:05:37.294501+00:00",
+  "extensions": {},
+  "ledgers": {
+    "execution": "ledgers/execution.jsonl",
+    "outcomes": "ledgers/outcomes.jsonl",
+    "recommendations": "ledgers/recommendations.jsonl"
+  },
+  "project_id": "health-performance-search-pilot",
+  "project_name": "Health Performance Search Pilot",
+  "proof_state": "UNTESTED",
+  "record_type": "SearchProjectManifest",
+  "references": {
+    "brand_context": "context/brand-offer-audience-voice.json",
+    "claim_policy": "context/claim-policy.json",
+    "competitor_patterns": "context/competitor-patterns.json",
+    "entity_truth": "context/entity-truth.json",
+    "operator_taste": "context/operator-taste.json",
+    "search_inputs": "context/search-inputs.json",
+    "source_policy": "context/source-policy.json"
+  },
+  "schema_version": "search-project-manifest/v1",
+  "vertical": "supplement, recovery, functional nutrition, and performance brands"
+}

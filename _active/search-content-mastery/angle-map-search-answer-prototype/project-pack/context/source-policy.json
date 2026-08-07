@@ -1,0 +1,27 @@
+{
+  "allowed_sources": [
+    "Current Angle Map and Proof-to-Market canon",
+    "Current audience, voice, and proof library",
+    "Client-approved product, claim, customer, and reviewer records",
+    "Dated local search and analytics exports",
+    "Official Google, Bing, OpenAI, FDA, FTC, LinkedIn, IndexNow, and Schema.org documentation",
+    "Captured creator transcripts when labeled as practitioner evidence"
+  ],
+  "claim_labels": [
+    "OBSERVED",
+    "INFERRED",
+    "CORROBORATED",
+    "UNCONFIRMED",
+    "UNTESTED",
+    "NO EVENT"
+  ],
+  "corroboration_rule": "State whether corroboration means recurrence across captured corpus items or alignment with a separately named authoritative source. Creator recurrence is not independent validation or causation.",
+  "prohibited_sources": [
+    "Generated product or efficacy facts",
+    "Competitor copy treated as factual authority",
+    "Anonymous claims without a dated receipt",
+    "Creator advice presented as causal outcome proof",
+    "Search-volume or citation estimates without a source"
+  ],
+  "schema_version": "search-context/v1"
+}

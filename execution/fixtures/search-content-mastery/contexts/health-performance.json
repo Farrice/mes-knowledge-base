@@ -1,0 +1,45 @@
+{
+  "project_name": "Health Performance Search Pilot",
+  "vertical": "supplement, recovery, functional nutrition, and performance brands",
+  "entity_truth": {
+    "schema_version": "search-context/v1",
+    "entities": ["Farrice Cain", "The Angle Map"],
+    "verified_facts": ["The Angle Map is the current $750 prepaid offer canon."],
+    "unresolved": ["No client has purchased this search-service prototype."]
+  },
+  "brand_context": {
+    "schema_version": "search-context/v1",
+    "brand": {"name": "Farrice Cain"},
+    "offer": {"live_canon": "The Angle Map", "prototype": "Source-to-Search Snapshot V2"},
+    "audience": {"primary": "founder or marketing lead at an already-selling health-performance brand"},
+    "voice": {"mode": "BLEND", "source": "_active/farrice-brand/voice/VOICE-CARD.md"}
+  },
+  "source_policy": {
+    "schema_version": "search-context/v1",
+    "allowed_sources": ["primary research", "official guidance", "dated first-party observations"],
+    "prohibited_sources": ["invented claims", "unreceipted medical promises"],
+    "claim_labels": ["OBSERVED", "INFERRED", "CORROBORATED", "UNCONFIRMED"]
+  },
+  "claim_policy": {
+    "schema_version": "search-context/v1",
+    "allowed": ["marketing and source-organization guidance"],
+    "requires_review": ["health claims", "legal or regulatory implications"],
+    "prohibited": ["medical advice", "treatment claims", "ranking or citation guarantees"]
+  },
+  "competitor_patterns": {
+    "schema_version": "search-context/v1",
+    "patterns": ["proof is scattered across pages, calls, and source links"],
+    "evidence_refs": ["_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-adversarial-review.md"]
+  },
+  "search_inputs": {
+    "schema_version": "search-context/v1",
+    "queries": ["how should supplement brands structure product claims for human trust and AI inspection"],
+    "surfaces": ["Google", "answer engines", "LinkedIn"],
+    "imports": []
+  },
+  "operator_taste": {
+    "schema_version": "search-context/v1",
+    "decisions": ["plain-spoken", "one useful answer asset", "no abstract AI service language"],
+    "overrides": []
+  }
+}

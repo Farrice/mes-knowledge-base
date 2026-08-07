@@ -1,0 +1,10 @@
+{
+  "download/video.info.json": "fb680a16fb8e537f054f4c6c7a6fc4e74326c277e06573f4b818adacec24e68a",
+  "transcript.vtt": "abfbfb238a0f61fad15c5388062f444b66e7a9478e0f27923bba994f63c550d9",
+  "transcript.txt": "2a8be78166ac48140e61e70e69f1a4687157163ded95982f5f6dea683819bd8d",
+  "transcript_segments.json": "6f451e46bac9e579a0837cbb17b85bf1f55a2e10ecbf12029a937ca858be199c",
+  "metadata.json": "b278fc63835cd01b2ed373f48e6d4cb52da7714ac6442310b84d53197932fa9d",
+  "provenance.json": "81440216afd91d92e7ee9e4f5e31fa52dd279cd7b7b8feb7796598c063d26498",
+  "analysis.md": "0e9b89a59ab053132ebf4d3e4e891eec913709866cd8d39e43b1645fb6701254",
+  "bundle_manifest_sha256": "eb065eeaaf401057a0376598f385f5337bcda5744fe43b78c7691987966a8331"
+}

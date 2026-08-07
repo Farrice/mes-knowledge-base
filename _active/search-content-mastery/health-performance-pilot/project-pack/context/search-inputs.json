@@ -1,0 +1,12 @@
+{
+  "imports": [],
+  "queries": [
+    "how should supplement brands structure product claims for human trust and AI inspection"
+  ],
+  "schema_version": "search-context/v1",
+  "surfaces": [
+    "Google",
+    "answer engines",
+    "LinkedIn"
+  ]
+}

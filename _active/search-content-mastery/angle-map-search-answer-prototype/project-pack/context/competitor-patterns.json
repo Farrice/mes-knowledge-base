@@ -1,0 +1,16 @@
+{
+  "evidence_refs": [
+    "_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md",
+    "_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md",
+    "_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-adversarial-review.md",
+    "docs/solutions/2026-07-21-three-offer-stress-test-signal-pilot-verdict.md",
+    "official-standards-crosswalk.md"
+  ],
+  "patterns": [
+    "Generic AEO packages lead with platform novelty before resolving the brand message.",
+    "Bulk-content offers optimize article count while information gain and claim review stay implicit.",
+    "Prior local Source-to-Search materials already cover trust-layer mechanics and must be extended, not relaunched as a competing offer.",
+    "The strongest local fit is one approved angle transformed into one inspectable answer asset."
+  ],
+  "schema_version": "search-context/v1"
+}

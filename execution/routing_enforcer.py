@@ -110,6 +110,37 @@ BINDINGS = [
         ),
     },
     {
+        # Narrow on purpose: focused SEO, AEO, or GEO requests should continue
+        # to reach their specialist workflows. This binding owns only the
+        # unified operating-system shape introduced by Search Content Mastery.
+        "id": "operator_search_content_mastery",
+        "signal_phrases": [
+            "search content mastery",
+            "seo aeo geo content system",
+            "seo aeo geo system",
+            "search content system",
+            "search content audit plan create score measure",
+            "search content scoring and measurement",
+            "rate any search content",
+            "search project foundation",
+            "search everywhere content system",
+            "seo content service delivery",
+            "aeo and seo writing prototype",
+            "seo and aeo writing prototype",
+            "prototype aeo and seo writing",
+            "prototype seo and aeo writing",
+        ],
+        "mandatory_workflow": "search-content-mastery",
+        "forbidden_workflows": [],
+        "reason": (
+            "Unified SEO/AEO/GEO system requests require the Search Content "
+            "Mastery conductor so project truth, source rules, content scoring, "
+            "strict measurement imports, and outcome receipts remain connected. "
+            "Focused specialist tasks still route directly to Nathan Gotch, "
+            "Ethan Smith, /create, or the relevant media workflow."
+        ),
+    },
+    {
         # Amnesty 2026-07-29: signals narrowed 122 -> 53. Bare mood/maintenance
         # phrases ("not usable", "draining", "handcuff", "check and repair",
         # "running into walls") misfiled content verdicts and a partnership

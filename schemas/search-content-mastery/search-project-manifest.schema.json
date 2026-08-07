@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "search-project-manifest/v1",
+  "title": "SearchProjectManifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_type", "project_id", "project_name", "vertical",
+    "created_at", "proof_state", "references", "ledgers", "boundaries"
+  ],
+  "properties": {
+    "schema_version": {"const": "search-project-manifest/v1"},
+    "record_type": {"const": "SearchProjectManifest"},
+    "project_id": {"type": "string", "minLength": 3},
+    "project_name": {"type": "string", "minLength": 1},
+    "vertical": {"type": "string", "minLength": 1},
+    "created_at": {"type": "string", "format": "date-time"},
+    "proof_state": {"enum": ["UNTESTED", "RUNTIME_OBSERVED"]},
+    "references": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_truth", "brand_context", "source_policy", "claim_policy", "competitor_patterns", "search_inputs", "operator_taste"],
+      "properties": {
+        "entity_truth": {"type": "string"},
+        "brand_context": {"type": "string"},
+        "source_policy": {"type": "string"},
+        "claim_policy": {"type": "string"},
+        "competitor_patterns": {"type": "string"},
+        "search_inputs": {"type": "string"},
+        "operator_taste": {"type": "string"}
+      }
+    },
+    "ledgers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["execution", "outcomes", "recommendations"],
+      "properties": {
+        "execution": {"type": "string"},
+        "outcomes": {"type": "string"},
+        "recommendations": {"type": "string"}
+      }
+    },
+    "boundaries": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "extensions": {"type": "object"}
+  }
+}

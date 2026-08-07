@@ -1,0 +1,32 @@
+{
+  "video_id": "53h_-LoEGiw",
+  "metadata": {
+    "video_id": "53h_-LoEGiw",
+    "title": "Local SEO & AI Search Masterclass for 2026",
+    "creator": "Nathan Gotch",
+    "channel_id": "UCNEsahyXxNJvYNsMhru-UzQ",
+    "published_date": "2026-03-17",
+    "duration_seconds": 1067,
+    "duration_string": "17:47",
+    "source_url": "https://www.youtube.com/watch?v=53h_-LoEGiw",
+    "language": "en-US",
+    "capture_timestamp_utc": "2026-08-04T23:52:06.754626+00:00"
+  },
+  "provenance": {
+    "capture_method": "watch 0.2.0 via yt-dlp native/automatic caption fetch",
+    "caption_kind": "automatic",
+    "caption_language_file": "video.en-orig.vtt",
+    "whisper_used": false,
+    "raw_vtt_preserved": "transcript.vtt",
+    "cleaning_method": "temporary deterministic cleaner mirroring execution/video_context/transcript.py rolling-caption overlap collapse",
+    "derived_files": [
+      "transcript.txt",
+      "transcript_segments.json"
+    ],
+    "visual_capture": "cue-based only where screen demonstrations carry essential evidence; recorded separately in visual-ledger.json"
+  },
+  "segment_count": 537,
+  "word_count": 3631,
+  "hashes_file": "hashes.json",
+  "uncertainty_file": "uncertainty.md"
+}

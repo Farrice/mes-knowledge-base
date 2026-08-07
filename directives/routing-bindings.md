@@ -89,6 +89,7 @@ Non-zero exit = violation. `finalize()` also runs a post-hoc check.
 | `operator_mission_control` | /mission | 6 |
 | `operator_source_to_skill_system` | /source-to-skill-system | 9 |
 | `kdp_book_one_coldstart` | /kdp-engine | 9 |
+| `operator_search_content_mastery` | /search-content-mastery | 14 |
 | `operator_system_audit` | /system-audit | 53 |
 | `operator_steering_compass` | /steering-compass | 7 |
 | `operator_expert_composition` | /expert-composition-governor | 6 |

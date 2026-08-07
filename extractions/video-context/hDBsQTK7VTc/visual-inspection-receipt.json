@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "video_id": "hDBsQTK7VTc",
+  "reviewed_at": "2026-08-04T23:34:58.104140+00:00",
+  "all_frames_inspected": true,
+  "frames": [
+    {
+      "path": "frames/cue_0000.jpg",
+      "sha256": "2de5951f14baf2950a51a292cb71971981e7c1a9ea803855468461782bd7cf95"
+    },
+    {
+      "path": "frames/cue_0001.jpg",
+      "sha256": "fe8059be315d03ff2d76c4d5318b6833c0f682c644eadf8c8161b09f0a73637c"
+    },
+    {
+      "path": "frames/cue_0002.jpg",
+      "sha256": "52b89734371559977e2b602ff8fb22b7a7019a4678cf1a45c219bae4039ea9fe"
+    },
+    {
+      "path": "frames/cue_0003.jpg",
+      "sha256": "c7f25af53337102063ed752fdc4ab21cc7b0c0791665c13bde0036be2c89f144"
+    },
+    {
+      "path": "frames/cue_0004.jpg",
+      "sha256": "3f13db0ad68890720b80c9dc1fcb7129f006571b25c050f5bdaec9461c7b8f4b"
+    },
+    {
+      "path": "frames/cue_0005.jpg",
+      "sha256": "2488533ebafc4fadbc436745503a7862ef89ec6d5cf0cf47d6af5bb5aa31ea53"
+    },
+    {
+      "path": "frames/cue_0006.jpg",
+      "sha256": "6493029c3ec27c079cdc7ab2a177a4fcf9c5eef93ee6d6eb3c20cc0c69f70c72"
+    }
+  ]
+}

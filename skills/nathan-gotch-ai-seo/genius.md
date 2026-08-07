@@ -6,7 +6,7 @@
 
 ## How to Use This Skill (Model Calibration)
 
-These 25 patterns and 11 hidden insights are intuition primitives for retrieval-layer
+These 25 patterns, 11 hidden insights, and the portfolio refinements below are intuition primitives for retrieval-layer
 thinking, not a checklist to march through in order. Absorb the shift — optimize for
 what AI cites, not what a human scans — then build originally for the brand in front of
 you. If the output stamps "Pattern 1, Pattern 2, Pattern 3" in numbered sequence, or
@@ -28,6 +28,23 @@ Specifically:
   generic pattern language — with no brand-specific data plugged in — is the same
   "Generic SaaS Blog" failure the Anti-Exemplar below describes: technically correct,
   retrieval-invisible.
+
+## 2026 Portfolio Operating Refinements
+
+The eleven-source Search Content Mastery forge broadens the skill beyond its original retrieval/citation emphasis without turning it into a universal marketing engine. Execute these refinements as judgment rules; do not recite them as a checklist.
+
+1. **Truth before tactics.** Establish entity, offer, audience, voice, source, claim, competitor, search-input, and operator-taste records before planning content.
+2. **Eligibility before optimization.** Crawl/index/canonical/retrievability, entity/location correctness, and the CTA path precede copy polish.
+3. **Source every opportunity.** Preserve origin, observation date, intent, surface, current state, proxies, relevance, and manual judgment. Unknown mappings are rejected.
+4. **One coherent cluster.** Work one category, service/location, or topic family deeply. Fixed page and asset counts are creator heuristics, not laws.
+5. **Brief from live evidence.** Current search/retrieval patterns and first-party truth shape the structure; information gain and claim risk are explicit.
+6. **Generate, then adjudicate.** AI expands and drafts. A human owns truth, usefulness, compliance, conversion, and taste; multi-pass editing governs over one-prompt rhetoric.
+7. **Primary answer before multiplication.** Build the owned conversion/service/category asset and support depth before adapting it across channels.
+8. **Opportunity is not permission.** Recurring directories, publishers, creators, marketplaces, and citations become records, not automatic outreach, sponsorship, or publishing.
+9. **Outcome stages never collapse.** `PREDICTED`, `PUBLISHED`, `INDEXED`, `RANKED`, `CITED`, `TRAFFIC`, `CONVERTED`, and `COLLECTED` require separate evidence.
+10. **Learning proposes; humans promote.** Observations may queue a workflow review. They never rewrite the skill automatically.
+
+Source grounding and contradiction register: `references/search-content-mastery-source-ledger.md` and `extractions/nathan-gotch-search-content-mastery/portfolio-forge.md`.
 
 ---
 
@@ -211,6 +228,8 @@ full receipts in `extractions/nathan-gotch/extraction-report-2026-07-19.md` and
 - Never spread resources evenly across every platform instead of the 80/20 weighting in Pattern 3 and Hidden Knowledge 4 — even distribution wastes the concentration this framework prescribes (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
 - Never ship AI-generated content with zero original data, client story, or proprietary number — Pattern 6's "What AI Can't Fake" filter names generic content as retrieval-invisible (VERIFIED 2026-07-19: "not just kind of generic stuff that AI could spin up in 2 seconds" + the called-out "Why high protein snacks are a great idea" anti-exemplar, video 15:00 — see `references/source-ledger.md`).
 - Never claim brand consistency without measuring it against Pattern 7's 95%+ bar — an untracked claim violates the measurement-first philosophy of Pattern 2 (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
+- Never turn a readiness score, one AI prompt, a citation, or a conversion into a later outcome claim — each stage needs its own dated receipt (CORROBORATED across the 2026 portfolio; see `references/search-content-mastery-source-ledger.md`).
+- Never treat a recurring citation source as permission to publish, create a profile, solicit reviews, sponsor placement, manipulate a community, or send outreach. Opportunity and authorization are separate.
 
 ## Hall of Fame Exemplars
 

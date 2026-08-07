@@ -1,0 +1,9 @@
+{
+  "schema_version": "visual-ledger/v1",
+  "video_id": "Fh_54G6p_cs",
+  "status": "TRANSCRIPT_FIRST_NO_ESSENTIAL_FRAME_PASS",
+  "frame_count": 0,
+  "frame_files_persisted": false,
+  "evidence_refs": ["analysis.md", "transcript_segments.json"],
+  "reason": "The transferable keyword mechanics were recoverable from timestamped speech. Visual UI demonstrations were treated as tool examples, not required proof for the import-first system."
+}

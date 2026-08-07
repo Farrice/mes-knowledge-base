@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "video_id": "4tqCKkGilXI",
+  "capture_mode": "transcript-cue",
+  "resolution_width": 1024,
+  "frames": [
+    {"timestamp": "00:08", "path": "frames/cue_0000.jpg", "proves": "A live page and multi-section on-page checklist are used together.", "boundary": "Small text prevents verification of every checklist item."},
+    {"timestamp": "06:59", "path": "frames/cue_0001.jpg", "proves": "A commercial legal page is inspected alongside the checklist during intent analysis.", "boundary": "Does not prove the claimed page-type share in the SERP."},
+    {"timestamp": "10:38", "path": "frames/cue_0002.jpg", "proves": "The audited page's above-fold image/form, lower headline, phone treatment, and blue interface elements are visible.", "boundary": "The quality verdict remains expert judgment."},
+    {"timestamp": "13:03", "path": "frames/cue_0003.jpg", "proves": "The comparison page foregrounds service promise, phone number, CTA, review signals, and company imagery.", "boundary": "Selected exemplar, not conversion proof."},
+    {"timestamp": "26:01", "path": "frames/cue_0004.jpg", "proves": "A 1,493-word draft with score 85 is shown beside a 4,303-word original.", "boundary": "Tool state does not prove later ranking or conversion lift."},
+    {"timestamp": "28:19", "path": "frames/cue_0005.jpg", "proves": "The speaker's six-part impact allocation is visible.", "boundary": "Explicitly personal opinion; UNCONFIRMED."}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "capture_method": "watch 0.2.0 via yt-dlp native/automatic caption fetch",
+  "caption_kind": "automatic",
+  "caption_language_file": "video.en-orig.vtt",
+  "whisper_used": false,
+  "raw_vtt_preserved": "transcript.vtt",
+  "cleaning_method": "temporary deterministic cleaner mirroring execution/video_context/transcript.py rolling-caption overlap collapse",
+  "derived_files": [
+    "transcript.txt",
+    "transcript_segments.json"
+  ],
+  "visual_capture": "seed only; recorded separately in visual-ledger.json"
+}

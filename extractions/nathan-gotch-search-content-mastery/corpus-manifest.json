@@ -1,0 +1,123 @@
+{
+  "schema_version": "search-content-corpus/v1",
+  "creator": "Nathan Gotch",
+  "selection_rule": "locked mastery-balanced corpus supplied and approved by Farrice; practitioner coverage outranks brittle popularity",
+  "captured_at": "2026-08-04",
+  "source_count": 11,
+  "sources": [
+    {
+      "video_id": "vVJB2FjOF2k",
+      "title": "Do This Before Creating Any SEO Content",
+      "published_date": "2026-08-03",
+      "role": "intelligence foundation",
+      "evidence_package": "../video-context/vVJB2FjOF2k",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "balanced plus cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "3sHPiOIHPTY",
+      "title": "A Simple SEO Strategy That Actually Works",
+      "published_date": "2026-07-15",
+      "role": "category and citation strategy",
+      "evidence_package": "../video-context/3sHPiOIHPTY",
+      "transcript_mode": "reused canonical transcript; fresh timestamped derivative exact-match verified",
+      "visual_policy": "existing plus cue ledger",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "Fh_54G6p_cs",
+      "title": "If I Had to Do Keyword Research in 2026, I'd Do This",
+      "published_date": "2026-03-03",
+      "role": "keyword research",
+      "evidence_package": "../video-context/Fh_54G6p_cs",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "AaSyn9YSNYQ",
+      "title": "How to Create SEO Content That Actually Ranks in 2026",
+      "published_date": "2026-02-11",
+      "role": "content production",
+      "evidence_package": "../video-context/AaSyn9YSNYQ",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "4tqCKkGilXI",
+      "title": "The On-Page SEO System I'd Use for Google and ChatGPT",
+      "published_date": "2025-10-28",
+      "role": "on-page optimization",
+      "evidence_package": "../video-context/4tqCKkGilXI",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "hDBsQTK7VTc",
+      "title": "The SEO Audit Process I'd Use in 2026",
+      "published_date": "2025-09-22",
+      "role": "technical and strategic audit",
+      "evidence_package": "../video-context/hDBsQTK7VTc",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "lkFA-aBN_LM",
+      "title": "SEO Is Bigger Than Google Now: The New Playbook",
+      "published_date": "2026-03-10",
+      "role": "cross-platform search",
+      "evidence_package": "../video-context/lkFA-aBN_LM",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "qzMAGdzra88",
+      "title": "How to Rank Everywhere With SEO Content",
+      "published_date": "2026-07-01",
+      "role": "omnichannel authority",
+      "evidence_package": "../video-context/qzMAGdzra88",
+      "transcript_mode": "reused canonical transcript; fresh preamble-stripped exact-match verified",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "53h_-LoEGiw",
+      "title": "Local SEO and AI Search Masterclass",
+      "published_date": "2026-03-17",
+      "role": "local SEO",
+      "evidence_package": "../video-context/53h_-LoEGiw",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "6o0mabKRmIo",
+      "title": "Ecommerce SEO Strategy",
+      "published_date": "2026-06-23",
+      "role": "ecommerce SEO",
+      "evidence_package": "../video-context/6o0mabKRmIo",
+      "transcript_mode": "reused canonical transcript; fresh preamble-stripped exact-match verified",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    },
+    {
+      "video_id": "LiLD7_tjn4o",
+      "title": "Why AI Search Rank Trackers Are Misleading You",
+      "published_date": "2025-08-05",
+      "role": "measurement honesty",
+      "evidence_package": "../video-context/LiLD7_tjn4o",
+      "transcript_mode": "captured native automatic captions",
+      "visual_policy": "cue-based",
+      "claim_state": "OBSERVED"
+    }
+  ],
+  "future_series_state": "NO_EVENT",
+  "future_ingestion_route": "future-ingestion-route.md",
+  "portfolio_forge": "portfolio-forge.md",
+  "market_effect_state": "UNTESTED"
+}

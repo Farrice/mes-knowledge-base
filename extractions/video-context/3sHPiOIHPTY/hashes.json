@@ -1,0 +1,11 @@
+{
+  "download/video.info.json": "cf6020c291b860cc964e5248eb2b5b7b5b95fbc178b284ee50a8d90649772476",
+  "transcript.vtt": "422a93b18ee83980dc17518234a0b557bed68a41ce85370a04b1d09dad3b95de",
+  "captured_timed_derivative_transcript_sha256": "67f5dbe27aecc10ad5ebf995162712d6cf9b64ca16a5ceeb7e45a11d785518de",
+  "transcript_segments.json": "8ce474307f37cff75a32c79658379055142835d225cf7ee4ca9eb693ac00524f",
+  "metadata.json": "4ab559f7ae7049808206011859cc37cbd1c60e718d284c43f7b9569c45fb88cb",
+  "provenance.json": "2841fe52ce33d46c1cbbd79e44b662ffd0ed946d637b8ea225a0034ad00c2f89",
+  "analysis.md": "5f3687bea6b2dda3bc87be8e86407aa646ca5a5c7be90151be1876426524e67f",
+  "../../nathan-gotch/transcript.txt": "d3bb6771bc95a35cd683f4397ecf2518eb9b9dd4db129741a3802a0cf358533e",
+  "capture_bundle_manifest_sha256": "527dc0e5cb833a7ad1a21d3fcd8c46d8b9238a80991b0cec476a34d8453ed47d"
+}

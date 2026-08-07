@@ -1,0 +1,446 @@
+{
+  "brief_id": "brief-36fd9b330fef",
+  "content_hash": "39728766340ce9e2311b9e076104b26b8e2d88170df7614439ee0f2d1cb46160",
+  "content_ref": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/search-content-mastery/_active/search-content-mastery/health-performance-pilot/before-answer-fixture.md",
+  "created_at": "2026-08-05T00:08:39.320021+00:00",
+  "dimensions": {
+    "aeo_geo_readiness": {
+      "checks": [
+        {
+          "available_points": 3,
+          "evidence": "answer-like language appears in opening",
+          "id": "direct_answer",
+          "passed": true,
+          "points": 3
+        },
+        {
+          "available_points": 2,
+          "evidence": "question heading present",
+          "id": "question_heading",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "list or table present",
+          "id": "structured_answer",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 1,
+          "evidence": "named entity definition",
+          "id": "entity_definition",
+          "passed": true,
+          "points": 1
+        },
+        {
+          "available_points": 2,
+          "evidence": "multiple source-support markers",
+          "id": "source_support",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 4.0,
+      "deterministic_score": 4.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "claim_risk": {
+      "checks": [
+        {
+          "available_points": 4,
+          "evidence": "0 guarantee-risk terms",
+          "id": "no_guarantees",
+          "passed": true,
+          "points": 4
+        },
+        {
+          "available_points": 2,
+          "evidence": "0 absolute terms",
+          "id": "few_absolutes",
+          "passed": true,
+          "points": 2
+        },
+        {
+          "available_points": 2,
+          "evidence": "0 numbers; 0 support markers",
+          "id": "numbers_supported",
+          "passed": true,
+          "points": 2
+        },
+        {
+          "available_points": 2,
+          "evidence": "brief boundary or equivalent visible",
+          "id": "risk_boundary_visible",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 8.0,
+      "deterministic_score": 8.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "conversion_alignment": {
+      "checks": [
+        {
+          "available_points": 5,
+          "evidence": "CTA='Review one claim against the receipt before publication.'",
+          "id": "cta_present",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "CTA is present without obvious repetition",
+          "id": "single_next_action",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "audience language supports CTA",
+          "id": "audience_bridge",
+          "passed": true,
+          "points": 2
+        },
+        {
+          "available_points": 1,
+          "evidence": "0 guarantee-risk terms",
+          "id": "no_outcome_guarantee",
+          "passed": true,
+          "points": 1
+        }
+      ],
+      "combined_score": 3.0,
+      "deterministic_score": 3.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "format_fit": {
+      "checks": [
+        {
+          "available_points": 5,
+          "evidence": "0/3 channel markers",
+          "id": "channel_markers",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 3,
+          "evidence": "brief structural pattern appears",
+          "id": "structural_pattern",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "81 words",
+          "id": "length_present",
+          "passed": true,
+          "points": 2
+        }
+      ],
+      "combined_score": 2.0,
+      "deterministic_score": 2.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "human_usefulness": {
+      "checks": [
+        {
+          "available_points": 2,
+          "evidence": "81 words",
+          "id": "substantive",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "average sentence length 11.6",
+          "id": "readable_sentences",
+          "passed": true,
+          "points": 2
+        },
+        {
+          "available_points": 2,
+          "evidence": "steps or scannable actions",
+          "id": "actionable",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "example or scenario present",
+          "id": "example",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "limitation or caveat visible",
+          "id": "limits",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 2.0,
+      "deterministic_score": 2.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "information_gain": {
+      "checks": [
+        {
+          "available_points": 3,
+          "evidence": "brief information-gain requirement appears verbatim",
+          "id": "explicit_gain",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 3,
+          "evidence": "original-data, observation, case, or first-hand marker",
+          "id": "originality_marker",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "worked example or scenario marker",
+          "id": "worked_example",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "0 distinct numeric anchors",
+          "id": "specificity",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 0.0,
+      "deterministic_score": 0.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "intent_fit": {
+      "checks": [
+        {
+          "available_points": 4,
+          "evidence": "title='Supplement Claim Content'",
+          "id": "query_in_title",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "6/11 query tokens present",
+          "id": "query_token_coverage",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "1/6 audience tokens present",
+          "id": "audience_language",
+          "passed": true,
+          "points": 2
+        },
+        {
+          "available_points": 2,
+          "evidence": "intent=informational",
+          "id": "intent_marker",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 2.0,
+      "deterministic_score": 2.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "measurement_readiness": {
+      "checks": [
+        {
+          "available_points": 3,
+          "evidence": "prediction appears in content or attached plan",
+          "id": "prediction_visible",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "primary stage=PREDICTED",
+          "id": "stage_visible",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "window=7 days",
+          "id": "window_visible",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 3,
+          "evidence": "falsifier appears in content or attached plan",
+          "id": "falsifier_visible",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 0.0,
+      "deterministic_score": 0.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "source_quality": {
+      "checks": [
+        {
+          "available_points": 4,
+          "evidence": "0/3 source refs visible",
+          "id": "brief_receipts_visible",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 3,
+          "evidence": "0 URLs",
+          "id": "linked_sources",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 3,
+          "evidence": "0 citation markers",
+          "id": "citation_markers",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 0.0,
+      "deterministic_score": 0.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    },
+    "technical_on_page_readiness": {
+      "checks": [
+        {
+          "available_points": 2,
+          "evidence": "title or first-line label exists",
+          "id": "title",
+          "passed": true,
+          "points": 2
+        },
+        {
+          "available_points": 2,
+          "evidence": "1 headings",
+          "id": "structured_headings",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 2,
+          "evidence": "0 bullets or numbered steps",
+          "id": "scannable_units",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 1,
+          "evidence": "explicit meta description field",
+          "id": "meta_description",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 1,
+          "evidence": "internal-link marker or multiple links",
+          "id": "internal_link",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 1,
+          "evidence": "schema or FAQ marker",
+          "id": "schema_or_faq",
+          "passed": false,
+          "points": 0
+        },
+        {
+          "available_points": 1,
+          "evidence": "URL/canonical marker",
+          "id": "url_or_canonical",
+          "passed": false,
+          "points": 0
+        }
+      ],
+      "combined_score": 2.0,
+      "deterministic_score": 2.0,
+      "expert_judgment": {
+        "notes": null,
+        "reviewer": null,
+        "score": null,
+        "status": "NOT_PROVIDED"
+      }
+    }
+  },
+  "final_composite": 2.3,
+  "method": "transparent-heuristics-plus-bounded-judgment",
+  "observed_outcomes": [],
+  "operator_override": {
+    "applied": false,
+    "operator": null,
+    "original_score": 2.3,
+    "override_score": null,
+    "reason": null,
+    "recorded_at": null
+  },
+  "original_composite": 2.3,
+  "project_id": "health-performance-search-pilot",
+  "proof_state": "PREDICTED",
+  "receipt_id": "score-4fdc0818b8ce",
+  "record_type": "ContentScoreReceipt",
+  "schema_version": "content-score-receipt/v1"
+}

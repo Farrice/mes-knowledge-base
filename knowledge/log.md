@@ -740,3 +740,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-04 16:35]` **finalize** | David Perell Deep MES extraction and Idea-to-Culture Architecture Checkpoint 2 | general | david-perell — composite:7.8 status:Keep
 - `[2026-08-04 18:00]` **finalize** | David Perell — Idea-to-Culture mastery extraction (forge) | general | david-perell — composite:7.0 status:Needs Improvement
 - `[2026-08-04 13:34]` **finalize** | KDP Book One proof system: 11-video source harvest, policy-safe conductor, persistent cockpit, live  | general | sean-dollwet — composite:9.0 status:Keep
+- `[2026-08-04 17:35]` **finalize** | Nathan Gotch Search Content Mastery connected skill system, evidence corpus, local runtime, evaluati | content | nathan-gotch — composite:9.33 status:Keep
+- `[2026-08-05 08:42]` **finalize** | Built and applied the Search Content Mastery OS to The Angle Map as a private Angle-to-Answer track  | content | nathan-gotch — composite:9.0 status:Keep

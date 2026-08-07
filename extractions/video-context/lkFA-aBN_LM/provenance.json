@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-08-04T23:34:25.282633+00:00",
+  "capture_tool": "claude-video watch 0.2.0",
+  "capture_mode": "transcript-first",
+  "caption_track": "en-orig",
+  "caption_provenance": "YouTube automatic captions",
+  "whisper_used": false,
+  "paid_api_used": false,
+  "visual_capture_status": "COMPLETE_ALL_FRAMES_INSPECTED",
+  "raw_info_path": "/private/tmp/search-content-mastery/operations/lkFA-aBN_LM/download/video.info.json",
+  "raw_caption_path": "/private/tmp/search-content-mastery/operations/lkFA-aBN_LM/transcript.vtt",
+  "visual_capture_mode": "transcript-cue",
+  "visual_resolution_width": 1024,
+  "visual_frame_count": 6,
+  "visual_reviewed_at": "2026-08-04T23:34:58.104140+00:00"
+}

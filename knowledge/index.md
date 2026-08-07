@@ -1527,3 +1527,57 @@
 ## Systems (45 files)
 - [receipt](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-003-capacity-learning/receipt.md) — 115 words
 ## Research (23 files)
+*809 sources | 2,796,244 words | Updated: 2026-08-05*
+## Content (283 files)
+- [index](index.md) — 5,096 words
+- [channel-portfolio](../extractions/nathan-gotch-search-content-mastery/channel-portfolio.md) [nathan-gotch] — 1,525 words
+- [evidence-analysis](../extractions/video-context/hDBsQTK7VTc/evidence-analysis.md) — 1,119 words
+- [analysis](../extractions/video-context/6o0mabKRmIo/analysis.md) [nathan-gotch] — 1,034 words
+- [evidence-analysis](../extractions/video-context/4tqCKkGilXI/evidence-analysis.md) — 941 words
+- [analysis](../extractions/video-context/LiLD7_tjn4o/analysis.md) [nathan-gotch] — 889 words
+- [analysis](../extractions/video-context/qzMAGdzra88/analysis.md) [nathan-gotch] — 831 words
+- [harness-verification-receipt](../extractions/nathan-gotch-search-content-mastery/harness-verification-receipt.md) [nathan-gotch] — 747 words
+- [analysis](../extractions/video-context/vVJB2FjOF2k/analysis.md) [nathan-gotch] — 680 words
+- [foundation-lane-report](../extractions/nathan-gotch-search-content-mastery/foundation-lane-report.md) [nathan-gotch] — 581 words
+- [analysis](../extractions/video-context/3sHPiOIHPTY/analysis.md) [nathan-gotch] — 545 words
+- [skill-system-contract](../extractions/nathan-gotch-search-content-mastery/skill-system-contract.md) [nathan-gotch] — 513 words
+- [analysis](../extractions/video-context/AaSyn9YSNYQ/analysis.md) [nathan-gotch] — 414 words
+- [goal-packet](../extractions/nathan-gotch-search-content-mastery/goal-packet.md) [nathan-gotch] — 287 words
+- [future-ingestion-route](../extractions/nathan-gotch-search-content-mastery/future-ingestion-route.md) [nathan-gotch] — 268 words
+- [channel-lane-receipt](../extractions/nathan-gotch-search-content-mastery/channel-lane-receipt.md) [nathan-gotch] — 126 words
+- [blind-pass-log](../extractions/search-content-mastery-os/blind-pass-log.md) — 102 words
+- [uncertainty](../extractions/video-context/6o0mabKRmIo/uncertainty.md) — 81 words
+- [uncertainty](../extractions/video-context/qzMAGdzra88/uncertainty.md) — 81 words
+- [uncertainty](../extractions/video-context/3sHPiOIHPTY/uncertainty.md) — 78 words
+- [uncertainty](../extractions/video-context/53h_-LoEGiw/uncertainty.md) — 62 words
+- [uncertainty](../extractions/video-context/AaSyn9YSNYQ/uncertainty.md) — 62 words
+- [uncertainty](../extractions/video-context/Fh_54G6p_cs/uncertainty.md) — 62 words
+- [uncertainty](../extractions/video-context/LiLD7_tjn4o/uncertainty.md) — 62 words
+- [uncertainty](../extractions/video-context/vVJB2FjOF2k/uncertainty.md) — 62 words
+## Copywriting (113 files)
+- [00-START-HERE](../extractions/nathan-gotch-search-content-mastery/00-START-HERE.md) [nathan-gotch] — 380 words
+- [composition-ledger](../extractions/nathan-gotch-search-content-mastery/composition-ledger.md) [nathan-gotch] — 246 words
+- [uncertainty-report](../extractions/video-context/4tqCKkGilXI/uncertainty-report.md) — 108 words
+- [uncertainty-report](../extractions/video-context/hDBsQTK7VTc/uncertainty-report.md) — 108 words
+- [uncertainty-report](../extractions/video-context/lkFA-aBN_LM/uncertainty-report.md) — 108 words
+## General (96 files)
+- [log](log.md) — 16,703 words
+- [visual-ledger](../extractions/video-context/53h_-LoEGiw/visual-ledger.md) — 152 words
+- [visual-ledger](../extractions/video-context/6o0mabKRmIo/visual-ledger.md) — 208 words
+- [visual-ledger](../extractions/video-context/LiLD7_tjn4o/visual-ledger.md) — 182 words
+## Screenwriting (57 files)
+- [visual-ledger](../extractions/video-context/Fh_54G6p_cs/visual-ledger.md) — 47 words
+## Brand (51 files)
+- [visual-ledger](../extractions/video-context/vVJB2FjOF2k/visual-ledger.md) [nathan-gotch] — 1,309 words
+## Systems (50 files)
+## Seo (37 files)
+- [portfolio-forge](../extractions/nathan-gotch-search-content-mastery/portfolio-forge.md) [nathan-gotch] — 1,982 words
+- [evidence-analysis](../extractions/video-context/lkFA-aBN_LM/evidence-analysis.md) [nathan-gotch] — 1,003 words
+- [operations-lane-report](../extractions/nathan-gotch-search-content-mastery/operations-lane-report.md) [nathan-gotch] — 890 words
+- [analysis](../extractions/video-context/53h_-LoEGiw/analysis.md) [nathan-gotch] — 834 words
+- [analysis](../extractions/video-context/Fh_54G6p_cs/analysis.md) [nathan-gotch] — 616 words
+- [agentic-engineering-packet](../extractions/nathan-gotch-search-content-mastery/agentic-engineering-packet.md) [nathan-gotch] — 444 words
+- [visual-ledger](../extractions/video-context/qzMAGdzra88/visual-ledger.md) — 180 words
+- [routing-regression-before](../extractions/nathan-gotch-search-content-mastery/routing-regression-before.md) [nathan-gotch] — 147 words
+- [visual-ledger](../extractions/video-context/3sHPiOIHPTY/visual-ledger.md) [nathan-gotch] — 51 words
+- [visual-ledger](../extractions/video-context/AaSyn9YSNYQ/visual-ledger.md) — 47 words

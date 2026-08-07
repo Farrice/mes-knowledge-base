@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "search-brief/v1",
+  "title": "SearchBrief",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_type", "brief_id", "project_id", "created_at", "status",
+    "target_query", "intent", "audience", "information_gain_requirement", "source_receipts",
+    "structural_pattern", "channel", "cta", "risk_boundary", "measurement_hypothesis"
+  ],
+  "properties": {
+    "schema_version": {"const": "search-brief/v1"},
+    "record_type": {"const": "SearchBrief"},
+    "brief_id": {"type": "string", "minLength": 3},
+    "project_id": {"type": "string", "minLength": 3},
+    "created_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["DRAFT", "APPROVED", "REJECTED"]},
+    "target_query": {"type": "string", "minLength": 1},
+    "intent": {"enum": ["informational", "commercial", "transactional", "navigational", "local", "mixed"]},
+    "audience": {"type": "string", "minLength": 1},
+    "information_gain_requirement": {"type": "string", "minLength": 1},
+    "source_receipts": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "structural_pattern": {"type": "string", "minLength": 1},
+    "channel": {"enum": ["article", "local_service_page", "ecommerce_page", "linkedin_post", "video_script", "visual_brief", "audio_script"]},
+    "cta": {"type": "string", "minLength": 1},
+    "risk_boundary": {"type": "string", "minLength": 1},
+    "measurement_hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prediction", "primary_stage", "observation_window_days", "falsifier"],
+      "properties": {
+        "prediction": {"type": "string", "minLength": 1},
+        "primary_stage": {"enum": ["PREDICTED", "PUBLISHED", "INDEXED", "RANKED", "CITED", "TRAFFIC", "CONVERTED", "COLLECTED"]},
+        "observation_window_days": {"type": "integer", "minimum": 1},
+        "falsifier": {"type": "string", "minLength": 1}
+      }
+    },
+    "operator_taste_refs": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  }
+}
