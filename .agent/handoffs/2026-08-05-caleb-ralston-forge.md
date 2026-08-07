@@ -19,7 +19,7 @@ pin: true
 - `extractions/caleb-ralston/anatomy-of-a-dream-2026-08-04-extraction-report.md` — full extraction + vision/leverage analysis + the logged "like" verdict
 - `extractions/caleb-ralston-personal-brand/blind-pass-sample-brand-journey-farrice.md` — the generated sample awaiting Farrice's A-tier read
 - `extractions/caleb-ralston-personal-brand/reference-corpus/2026-08-04-aod-origin-story-monologue.txt` — the real Caleb piece to judge it against
-- `_active/linkedin-launch/CAMPAIGN.md` — the campaign the sandbag lane serves
+- `_active/linkedin/CAMPAIGN.md` — the campaign the sandbag lane serves
 
 ## Current State
 - **Objective:** Turn today's Caleb Ralston interview into deployed skill capability, then point it at the live cash campaign.
@@ -38,7 +38,7 @@ pin: true
 Read extractions/caleb-ralston-personal-brand/blind-pass-sample-brand-journey-farrice.md next to
 extractions/caleb-ralston-personal-brand/reference-corpus/2026-08-04-aod-origin-story-monologue.txt and give me the
 A-tier verdict (does the sample read as Caleb's thinking, or as his vocabulary?). Then run /caleb-sandbag-strategy
-against the five named targets in _active/linkedin-launch/CAMPAIGN.md — I want conversion pieces the creative
+against the five named targets in _active/linkedin/CAMPAIGN.md — I want conversion pieces the creative
 director at each of those brands would recognize as their own situation, not another growth post.
 ```
 

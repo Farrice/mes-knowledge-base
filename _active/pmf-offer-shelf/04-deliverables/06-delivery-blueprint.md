@@ -22,7 +22,7 @@ Scope line for every deliverable: *marketing-side claim hygiene, not legal advic
 - Check ChatGPT, Perplexity, Google AI Overview: 3 engines × 6 queries = 18 rows, one pass each, ~35-40 min total including logging.
 - This is a single snapshot for the audit (not the weekly cadence; that starts at the retainer). State plainly in the deliverable that one pass is directional, not proof of a trend.
 
-**Deliverable template outline** (reuse `_active/linkedin-launch/02-offer/claim-safe-citation-audit-TEMPLATE.md` as the fulfillment script; do not rebuild it):
+**Deliverable template outline** (reuse `_active/linkedin/02-offer/claim-safe-citation-audit-TEMPLATE.md` as the fulfillment script; do not rebuild it):
 1-page scorecard (5 scored sections /10, composite /50) → AI-Citation Visibility → Claim-Safety Map → Proof-Carry Gap → Sameness/Angle Gap → Divergence + Named Position. Guardrail paragraph restated verbatim on every audit. Ends with the retainer bridge line, never a hard pitch.
 
 **Hours budget (target ≈6 hrs across 5 days, ~1-1.2 hr/day):**

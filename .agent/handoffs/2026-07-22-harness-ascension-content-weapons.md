@@ -19,7 +19,7 @@ pin: true
 - Social pulses repaired: all actor schemas fixed, first real signal ever (myBPM 92 + farrice 60 items), all three lanes → 06:10 wake-aligned; status bug fixed (empty runs now exit 2)
 
 **Content (evening)**
-- Week-1 LinkedIn posts v4 READY: `_active/linkedin-launch/03-launch/WEEK1-POSTS-2026-07-21.md` — Farrice-graded 8.5s; post Monday 9am with engagement protocol (20 min before, every comment 30-60 min)
+- Week-1 LinkedIn posts v4 READY: `_active/linkedin/03-launch/WEEK1-POSTS-2026-07-21.md` — Farrice-graded 8.5s; post Monday 9am with engagement protocol (20 min before, every comment 30-60 min)
 - Reader Contract installed (Payoff/Pull/Recognition — lifecycle 2.5 + memory + voice card)
 - Weapons minted: **/receipts-post** (Week-1 recipe, I-spine) · **/bayer-mirror** (deep-topic recognition-you, ONE-touch dose) · /texture-over RETIRED same-day (negative result kept)
 - 8 felt verdicts banked (ratchet at 20 entries; taste ledger 5 dials); Bayer test bench with TAKE FINAL (his cut)

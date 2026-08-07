@@ -41,7 +41,7 @@ This skill serves two functions:
 | Genius Context | [genius.md](genius.md) | Load before any workflow — serial narrative principles, meta-prompt, hidden knowledge |
 | Voice-First Pipeline | `.agent/workflows/voice-first-content.md` | Extended pipeline for research-heavy content |
 | Comedy System | `agents/robert-mack/AGENT.md` | Deep comedy mechanics when needed |
-| Active Arcs | `_active/linkedin-launch/04-deliverables/content-os/arcs/` | Current narrative arc plans and chapters |
+| Active Arcs | `_active/linkedin/04-deliverables/content-os/arcs/` | Current narrative arc plans and chapters |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

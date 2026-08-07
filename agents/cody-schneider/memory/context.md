@@ -1,7 +1,7 @@
 # Cody Schneider — Agent Memory
 
 ## Active Projects
-- **Proof-to-Market signal loop** — the listening half is live as `execution/signal_scout.py`; creators file at `_active/linkedin-launch/05-lead-gen/listening-creators.md`; rosters land in `_active/linkedin-launch/05-lead-gen/engager-rosters/`. First aperture and first audit run not yet logged here.
+- **Proof-to-Market signal loop** — the listening half is live as `execution/signal_scout.py`; creators file at `_active/linkedin/05-lead-gen/listening-creators.md`; rosters land in `_active/linkedin/05-lead-gen/engager-rosters/`. First aperture and first audit run not yet logged here.
 
 ## User Context
 - **Sends are human-only** (Farrice decision 2026-08-06). Nothing this agent designs dispatches a message in-house. Outbound infrastructure and reply handling are client-facing design knowledge.

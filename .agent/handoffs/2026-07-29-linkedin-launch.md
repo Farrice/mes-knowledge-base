@@ -10,7 +10,7 @@ pin: true
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/CAMPAIGN.md
+**Artifacts:** /Users/farricecain/Google Antigravity/_active/linkedin/03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md, /Users/farricecain/Google Antigravity/_active/linkedin/CAMPAIGN.md
 
 **Retrieve:** `/resume linkedin-launch`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

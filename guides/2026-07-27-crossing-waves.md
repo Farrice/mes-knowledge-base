@@ -7,7 +7,7 @@ status: enriched
 
 # Antigravity Crossings — What We Built 2026-07-27 and How to Use It
 
-> Two crossing waves (9 new design-time expert fusions), a resurrected buyer-panel premise built into `/buyer-council`, and a watched-source Mike Taylor extraction that gives the panel real research depth. Plus the live offer this machinery was tested on: Proof-to-Market v2.1, founder-primary, guaranteed on both rungs, DM set ready to send. Companion files: handoff `.agent/handoffs/2026-07-27-crossing-waves.md`, verdicts `_active/linkedin-launch/02-offer/buyer-council-verdict-v2-2026-07-19.md`, prediction ledger `councils/buyers/calibration.jsonl`.
+> Two crossing waves (9 new design-time expert fusions), a resurrected buyer-panel premise built into `/buyer-council`, and a watched-source Mike Taylor extraction that gives the panel real research depth. Plus the live offer this machinery was tested on: Proof-to-Market v2.1, founder-primary, guaranteed on both rungs, DM set ready to send. Companion files: handoff `.agent/handoffs/2026-07-27-crossing-waves.md`, verdicts `_active/linkedin/02-offer/buyer-council-verdict-v2-2026-07-19.md`, prediction ledger `councils/buyers/calibration.jsonl`.
 
 ## ⚡ If you only read 10 lines
 
@@ -20,7 +20,7 @@ status: enriched
 7. **Gap-fill is automatic**: no first-party transcripts → harvest via `/social-listen` (Apify, cost-gated) or degrade to $0 (`research.py`, WebSearch, Recall). Corpora live in `councils/buyers/corpora/<panel>/`, expire at 45 days.
 8. **Every council run logs a falsifiable prediction** to `councils/buyers/calibration.jsonl` — 3 lines are pending real outcomes right now. The ledger is the entire reason this stack compounds.
 9. **Offer state**: cold rung = $250-500 walkthrough (LIVE), warm = $2,500 sprint, both carry make-right clauses. Panel verdict S1 SHIP, S3 SHIP-with-watch. Binding constraint: **no first case study exists.**
-10. **First thing to run Monday**: send the 10 DMs from `_active/linkedin-launch/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md`, then update the 3 pending ledger lines.
+10. **First thing to run Monday**: send the 10 DMs from `_active/linkedin/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md`, then update the 3 pending ledger lines.
 
 ## Command table
 

@@ -39,7 +39,7 @@
 ## Pre-publish checklist (before anything ships publicly)
 
 - [ ] 2-minute primary check of both FTC dockets on ftc.gov (dates are cross-verified against Benesch Law's 2026 tracker, but they're load-bearing in posts 1/3 and script 2 — check the primary once).
-- [ ] Day-1 protocol alignment: queue posts per `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md`; post 6 = Marcus probe.
+- [ ] Day-1 protocol alignment: queue posts per `_active/linkedin/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md`; post 6 = Marcus probe.
 - [ ] Record teardown #1 (SOP in `03` §1) before sending any touch.
 
 ## Scoreboard (from `07`, aligned to council kill criteria)

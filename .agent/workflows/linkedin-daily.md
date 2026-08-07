@@ -31,7 +31,7 @@ Every post descends into **specificity** instead of climbing the abstraction lad
 ## Steps
 
 ### 0. Init
-- Resolve today's date → output `_active/linkedin-launch/06-automation/daily/briefing-YYYY-MM-DD.md`; create `daily/` if missing. Parse flags.
+- Resolve today's date → output `_active/linkedin/06-automation/daily/briefing-YYYY-MM-DD.md`; create `daily/` if missing. Parse flags.
 
 ### 1. Context Load (non-negotiable — this is what makes the output Farrice's)
 
@@ -42,22 +42,22 @@ Read ALL of:
 | `_active/farrice-brand/CLAUDE.md` | Voice rules — banned MOVES, required moves, anti-patterns (SOURCE OF TRUTH). "Structurally sound but flat = 5/10." |
 | `_active/farrice-brand/thought-bank/pov-anchors.md` | POV anchors (no-cheap-question-closes, private-language rule) |
 | `FARRICE.md` | Interest stack, tribal vocabulary, avatar, 80/20 + Inclusion Insurance + Revelation Sequence |
-| `_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md` | Pillars, lanes, rotation, barbell, 90-day arc, distribution motion |
-| `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md` | Pass/fail gate run before any draft ships |
-| `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` | ICP beliefs / identity-resistance / Bridge Message |
+| `_active/linkedin/04-deliverables/content-os/CONTENT-OS.md` | Pillars, lanes, rotation, barbell, 90-day arc, distribution motion |
+| `_active/linkedin/04-deliverables/content-os/voice-gate.md` | Pass/fail gate run before any draft ships |
+| `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` | ICP beliefs / identity-resistance / Bridge Message |
 | `knowledge/synthesis/the-persuasion-stack.md` | Single Truth → Mechanism → Matched Proof → Identity Dissolution |
-| `_active/linkedin-launch/06-automation/daily/performance-log.md` | Last 7 entries + Carry-Forward Directives |
+| `_active/linkedin/06-automation/daily/performance-log.md` | Last 7 entries + Carry-Forward Directives |
 | Yesterday's `daily/briefing-*.md` + most recent post set | Continuity; never repeat an angle, hook format, or close structure within 7 days |
 
 **Quality benchmark (REQUIRED — load before drafting; a fresh session may not run this engine without it):**
-- `_active/linkedin-launch/04-deliverables/content-os/ai-boom-content-package.md` — the proven-recipe benchmark edition. This is the bar. If today's cook doesn't clear it, that's the gate failing, not a style nitpick.
+- `_active/linkedin/04-deliverables/content-os/ai-boom-content-package.md` — the proven-recipe benchmark edition. This is the bar. If today's cook doesn't clear it, that's the gate failing, not a style nitpick.
 - The loaded memory note `feedback_content-quality-pipeline-recipe.md` — the recipe pattern behind that benchmark: scaffold × parallel-depth × expert-lens × voice-rules × dual-QA. Apply the pattern, not just the artifact shape.
 
 **Voice + cognitive-signature layer (load the depth — this is the antidote to flat AND what makes it world-class):**
 - `skills/fresh-voice-system/genius.md` — **THE depth engine.** Load the **Cognitive Signature** (Paradox Reveal → False-Frame Demolition → Reframe Landing = the "Goddamn That's True" sequence), the "value is the new generic / story-first, insight-second" principle, and the **AI-stigma reframe** (lead with the transformation + brand truth, never tool-talk).
 - Parallax exemplars (live voice texture): `_active/farrice-brand/content/linkedin-posts/parallax-launch-week/`, `.../2026-05-05-jj-manipulation-variants.md` (9/10), `.../substack-v2-drafts/02-anti-hustle.md` + `03-filter-babel.md`. Extract: scene-first openings, confession pivot, embodied metaphors (performance/training/gaming — never abstract), varied rhythm, recognition closes.
 - Aha layer: invoke `aha-engine` / `kobi-brown` (cognitive-change architecture) so the cook targets a real perception shift, not information.
-- **Empathy + brand-intel layer (front-and-center, every run):** `_active/linkedin-launch/01-research/icp-emotional-map.md` — the ICP's **broken promises**, the **2am replaceability fear**, the **daily lived life**, and the rule *reassure the human, indict the machine*; plus the latest `daily/brand-radar-*.md` (named-brand specifics for narrative/tension/authority) and `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md` (the operating frame). If no current Brand Radar exists, run `/farrice-engine radar` first.
+- **Empathy + brand-intel layer (front-and-center, every run):** `_active/linkedin/01-research/icp-emotional-map.md` — the ICP's **broken promises**, the **2am replaceability fear**, the **daily lived life**, and the rule *reassure the human, indict the machine*; plus the latest `daily/brand-radar-*.md` (named-brand specifics for narrative/tension/authority) and `_active/linkedin/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md` (the operating frame). If no current Brand Radar exists, run `/farrice-engine radar` first.
 
 Chain Step 4 compliance (content domain — ≥2 skill files per `directives/content_creation_gate.md`):
 - `skills/diandra-escobar-linkedin-growth/references/hook-format-library.md` (REAL hook ceilings) + `hook-writing-rules.md`
@@ -175,7 +175,7 @@ Layered through the build:
 
 ### 8. Voice Gate + Mechanical Audit (pass/fail — fail = REGENERATE the section, never patch)
 
-Run `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md` top to bottom, PLUS the Parallax mechanical checks:
+Run `_active/linkedin/04-deliverables/content-os/voice-gate.md` top to bottom, PLUS the Parallax mechanical checks:
 - **The Aha gate (the apex bar — fail if it only informs).** Name the specific perception shift the piece creates: the reader's belief BEFORE → the belief AFTER. If you can't name a real before/after, it's information, not transformation — regenerate. Confirm the Cognitive Signature is doing work (at least a Reframe Landing). The standard: a reader is *left better off* and would come back (addictive-in-a-good-way), not just nodding.
 - **The Empathy gate (the trust/authority engine — fail if it doesn't make them feel seen).** Does the piece articulate the ICP's truth/worldview/problem **better than they could themselves** ("he gets it better than my own team")? Name the broken-promise / deepest-problem / daily-life moment it touches (`icp-emotional-map.md`). Enforce *reassure the human, indict the machine* — flag any line that shames or makes the decision-maker feel MORE replaceable. If it only informs or impresses, it fails.
 - **"Polished but flat" is a FAIL, not a pass.** Each piece must have a beating center (a real moment, a real stake) — not just clean sentences.
@@ -210,6 +210,6 @@ Factual Grounding veto: scored <6 = re-verify before delivery.
 
 ## Output Files
 ```
-_active/linkedin-launch/06-automation/daily/briefing-YYYY-MM-DD.md     # daily deliverable (incl. opportunity menu + variants)
-_active/linkedin-launch/06-automation/daily/performance-log.md          # rolling ratchet (append)
+_active/linkedin/06-automation/daily/briefing-YYYY-MM-DD.md     # daily deliverable (incl. opportunity menu + variants)
+_active/linkedin/06-automation/daily/performance-log.md          # rolling ratchet (append)
 ```

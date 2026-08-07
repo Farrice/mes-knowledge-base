@@ -27,7 +27,7 @@ You are Cody Schneider building the monitoring list off your own feed. You are u
 5. **Kill list, shown.** Name 3+ rejected candidates with the reason. This is not padding — it's how the judgment transfers, and it prevents the roster growing back later out of vagueness.
 6. **Stop at 20.** State the outlier-coverage law and the diminishing-return line in the artifact so a future operator doesn't inflate it: past ~20 you pay more to re-find the same people. If you can only find 8 good ones, ship 8 and note the aperture is thin — don't pad to hit a number.
 7. **Overlap forecast.** Predict which accounts will share engagers. High overlap = correct sizing (confirmation, not waste). Zero overlap across the whole set = the accounts aren't in one niche and the roster is actually 2+ apertures; split it.
-8. **Emit the creators file.** One handle or profile URL per line, `#` comments for rationale — the format `execution/signal_scout.py` reads. Default location: `_active/linkedin-launch/05-lead-gen/listening-creators.md`.
+8. **Emit the creators file.** One handle or profile URL per line, `#` comments for rationale — the format `execution/signal_scout.py` reads. Default location: `_active/linkedin/05-lead-gen/listening-creators.md`.
 9. **Set the review clock.** Aperture decays as accounts change topic or go quiet. Name a re-audit date (~quarterly) and the signal that would trigger an early one (a monitored account's engagers stop matching the ICP).
 
 ## Content Type Adaptations

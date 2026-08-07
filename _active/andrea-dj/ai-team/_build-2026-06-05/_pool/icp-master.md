@@ -588,7 +588,7 @@ NON-NEGOTIABLES (any output that violates these is wrong):
 
 ### Internal (methodology)
 
-- `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State canonical example
+- `_active/linkedin/research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State canonical example
 - `MEMORY.md` — Deep ICP Profile entry (2026-03-19), language-map and wince-test methodology
 - `directives/feedback-ratchet.md`, `directives/quality_gate.md` — quality standards
 

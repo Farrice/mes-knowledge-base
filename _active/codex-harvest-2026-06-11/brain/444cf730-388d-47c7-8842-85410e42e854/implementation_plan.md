@@ -8,7 +8,7 @@ Build a full Antigravity skill + agent + 15 workflow commands from Kieran Flanag
 > **15 new workflow commands** are proposed below. Several interact with existing workflows — `/content-sprint`, `/atomize`, `/parallel-content`, `/ip-flywheel`. The new commands **enrich** these existing pipelines (e.g., `/content-enrich` can be called from `/content-sprint`), but none overwrite or modify them.
 
 > [!IMPORTANT]
-> **Platform-specific writing style cards** are a new concept. Currently Farrice has voice captures in `_active/linkedin-launch/voice-captures/`. The new `/content-style-card` workflow creates structured per-platform style cards that the existing voice system can optionally reference, but does not replace the ghostwriting voice engine.
+> **Platform-specific writing style cards** are a new concept. Currently Farrice has voice captures in `_active/linkedin/voice-captures/`. The new `/content-style-card` workflow creates structured per-platform style cards that the existing voice system can optionally reference, but does not replace the ghostwriting voice engine.
 
 ---
 

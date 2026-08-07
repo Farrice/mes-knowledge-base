@@ -10,13 +10,13 @@ pin: true
 # Context Engineering OS — Build + Path Decision (Hughes forge, /ce-* suite, council verdict)
 
 ## Purpose
-- **Next session should do:** Execute **Day 1 of the 14-day exposure protocol** (~2 hours, one sitting): (1) profile + Featured live per `_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md`; (2) queue ALL 14 posts from `_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md` into LinkedIn's native scheduler (skip the 4 [VERIFY LIVE] scaffolds); (3) pull 3 finished deliverables into Featured; (4) start the 30-minute daily contact unit + nightly 3-line log in `_active/linkedin-launch/06-automation/daily/performance-log.md`. Include the Marcus probe: rewrite Post 1 ("The Translation Reframe") one rung down for funded founders and ship it inside week-one cadence.
+- **Next session should do:** Execute **Day 1 of the 14-day exposure protocol** (~2 hours, one sitting): (1) profile + Featured live per `_active/linkedin/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md`; (2) queue ALL 14 posts from `_active/linkedin/04-deliverables/content-os/starter-content-batch.md` into LinkedIn's native scheduler (skip the 4 [VERIFY LIVE] scaffolds); (3) pull 3 finished deliverables into Featured; (4) start the 30-minute daily contact unit + nightly 3-line log in `_active/linkedin/06-automation/daily/performance-log.md`. Include the Marcus probe: rewrite Post 1 ("The Translation Reframe") one rung down for funded founders and ship it inside week-one cadence.
 - **Not in scope:** Any offer edits, new strategy documents, new niches, repositioning — the **Incumbency Rule** (no repositioning until $5K/mo COLLECTED) and the 14-day document freeze are binding. Pivot impulses go to the thought-bank inbox with a 90-day seal.
 
 ## Load First
 - `_active/path-decision-2026-07-01/README.md` — the decision record: ruling, reading order, binding rules, win/kill conditions
 - `_active/path-decision-2026-07-01/04-deliverables/2026-07-01-path-council-synthesis.md` §5 — the day-by-day protocol being executed (§4 = the personal read; re-read around day 8)
-- `_active/linkedin-launch/00-CONTROL-TOWER.md` — §DO THIS TODAY + canonical file map for launch assets
+- `_active/linkedin/00-CONTROL-TOWER.md` — §DO THIS TODAY + canonical file map for launch assets
 - `_active/context-engineering-os/deliverables/2026-07-01-authority-flywheel-linkedin-week1.md` — the 3 posts incl. Post 1 (becomes the Marcus probe)
 - Memory: `project_path-decision-2026-07-01.md` — Incumbency Rule + 2026-07-07 addendum (freeze consciously overridden for a BOUNDED Alignment Architect test at `_active/alignment-architect-2026-07-07/`; Path A execution continues alongside)
 

@@ -12,7 +12,7 @@ status: enriched
 ## ⚡ If you only read 10 lines
 
 - Doctrine line: **engagement is a hand-raise** — who engaged beats who fits the firmographic; and **sends stay human, permanently, until you explicitly unlock otherwise.**
-- Run the scout: `python3 execution/signal_scout.py` (reads `_active/linkedin-launch/05-lead-gen/listening-creators.md`).
+- Run the scout: `python3 execution/signal_scout.py` (reads `_active/linkedin/05-lead-gen/listening-creators.md`).
 - That creators file is the quality lever — 10–20 creators your BUYER follows; it's still a 2-handle seed. Fill it via `/creator-aperture`.
 - Scout output: `engager-rosters/ROSTER-YYYY-MM-DD.md` — resonance table + ICP-verbatim quotes + scored roster (comment=3, reaction=1, ICP title +2).
 - Test-run economics: 4 posts → 229 engagers → **$0.50**, inside the $29/mo Apify budget; receipts in `.agent/health/signal-scout-*.json`.
@@ -48,7 +48,7 @@ status: enriched
 
 ## Capability: Signal Scout (listening-only)
 
-**What it is.** `execution/signal_scout.py` — deterministic Python, no LLM. Reads creators from the config file → pulls each one's recent posts (`apimaestro/linkedin-profile-posts`) → pulls who reacted and who commented (two actors added this session, schemas verified against `builds/default/openapi.json`) → dedupes by profile URL → scores (comment=3, reaction=1, +2 ICP-title regex match) → writes `ROSTER-YYYY-MM-DD.md` + `.json` to `_active/linkedin-launch/05-lead-gen/engager-rosters/` and a receipt to `.agent/health/`.
+**What it is.** `execution/signal_scout.py` — deterministic Python, no LLM. Reads creators from the config file → pulls each one's recent posts (`apimaestro/linkedin-profile-posts`) → pulls who reacted and who commented (two actors added this session, schemas verified against `builds/default/openapi.json`) → dedupes by profile URL → scores (comment=3, reaction=1, +2 ICP-title regex match) → writes `ROSTER-YYYY-MM-DD.md` + `.json` to `_active/linkedin/05-lead-gen/engager-rosters/` and a receipt to `.agent/health/`.
 
 **When to reach for it.** Before writing content for the niche (the resonance table shows which hooks pulled hand-raises, in whose words); before any manual prospecting session (the roster is a ranked list of people who just publicly cared about your topic).
 

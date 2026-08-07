@@ -11,7 +11,7 @@ Cody Schneider is now a deployable expert in your arsenal (11 workflows, blind-p
 ## your three moves this morning
 everything else runs itself. these three need your hands, ~15 minutes total.
 1. **Read the two sibling briefs on the board: 'Hype vs. Harness' (the audit you asked for) and 'Angle Brief edition 001' (six angles + three CLEAN hooks tied to your live campaign)** — The angle brief's skeptic-flip and what_the_market_is_telling_us.md angles are time-sensitive — the trust-gap conversation is live this week.
-2. **Edit _active/linkedin-launch/05-lead-gen/listening-creators.md — replace the 2-handle seed with your real 10–20 creators (Cody's aperture rule: creators your BUYER follows)** — This one file decides signal quality for every future scout run and angle brief. Supplement-brand-ICP signal is zero until their creators are in.
+2. **Edit _active/linkedin/05-lead-gen/listening-creators.md — replace the 2-handle seed with your real 10–20 creators (Cody's aperture rule: creators your BUYER follows)** — This one file decides signal quality for every future scout run and angle brief. Supplement-brand-ICP signal is zero until their creators are in.
 3. **The campaign blocker is unchanged: the $750 payment URL still doesn't exist, and mission 2b's five DMs stay send-ready without it** — All the intelligence in the world converts nothing without the rail. This remains the highest-leverage 30 minutes available to you.
 
 ## what exists now (receipts)

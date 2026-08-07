@@ -29,7 +29,7 @@
 - FARRICE.md: anti-guru positioning, pattern-breaking, "AI with Heart"
 - Content service: LinkedIn ghostwriting for coaches/consultants who can't translate expertise into content
 - Revenue target: $20-30K/month in compressed work window (1-3 hours/day)
-- ICP doc location: `_active/linkedin-launch/ICP-and-avatar.md`
+- ICP doc location: `_active/linkedin/ICP-and-avatar.md`
 
 ## Learnings
 - Source extraction: "The 6 Types of Digital Products" YouTube video (7,343 words)

@@ -52,7 +52,7 @@ Concretely, this week:
 
 **Internal:**
 - `/Users/farricecain/Google Antigravity/_active/farrice-brand/offers/authority-flywheel-ladder.md` (the offer ladder being validated)
-- `/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` (the ICP this thesis flags as mis-targeted)
+- `/Users/farricecain/Google Antigravity/_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` (the ICP this thesis flags as mis-targeted)
 
 **External (all live-fetched or Perplexity deep-research with URLs, 2025–2026):**
 - Pricing/who-pays: mylance.co, windmillgrowth.com, executivecontentwriter.com, petecodes.io, unkoa.com, nycghostwriting.com, postiv.ai (all 2026 or 2025)

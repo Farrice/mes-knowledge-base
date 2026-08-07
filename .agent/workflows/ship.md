@@ -19,7 +19,7 @@ This is a streamlined content workflow. It skips the multi-expert ensemble, writ
 Ask Farrice:
 - **What's the topic or idea?** (Can be a sentence, a question, a half-formed thought)
 - **What platform?** (LinkedIn default, unless specified)
-- **Is there an existing draft?** (Check `_active/linkedin-launch/` for ready-to-publish drafts)
+- **Is there an existing draft?** (Check `_active/linkedin/` for ready-to-publish drafts)
 
 If there's already a draft ready to publish → skip to Step 4.
 

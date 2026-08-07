@@ -92,4 +92,4 @@ The money is in **founder-led health/wellness brands, sold founder-authority con
 
 **Confidence caveats worth your due diligence:** The influencer-spend figures come from vendor/industry reports (CreatorIQ, Digital Applied, Socioapt) — directionally consistent across sources and anchored to the primary CreatorIQ press release, but vendor incentive to inflate exists; treat the 171% and $4.1B as LIKELY-to-VERIFIED trend signals, not audited accounting. No source I found isolates *"founder-led supplement brands buying founder ghostwriting"* as a sized market — the intersection demand is proven to *exist and transact* (priced job posts, EcomGhosts, healthcare-ghostwriting demand) but its *volume* is UNCONFIRMED; the recommended 5-lead outreach test is designed precisely to price that gap before you commit.
 
-Relevant internal file (Pool B ICP, already in your system): `/Users/farricecain/Google Antigravity/_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md`
+Relevant internal file (Pool B ICP, already in your system): `/Users/farricecain/Google Antigravity/_active/linkedin/research/deep-icp-profile-invisible-expert.md`

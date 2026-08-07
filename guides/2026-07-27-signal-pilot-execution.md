@@ -7,7 +7,7 @@ status: enriched
 
 # Signal Pilot Flagship Spec Samples — What We Built 2026-07-27 and How to Use It
 
-> This session turned the locked Signal Pilot offer into its first two live weapons: SEND-ready flagship spec samples for Jonah Rosner and Jennifer Broxterman (POV read + conversion email + LinkedIn post in the prospect's receipted voice + paste-ready delivery DM each), gauntlet-passed and finalized at 8.67. The reusable capability it shipped is the **receipted-override protocol** for building copy in a real person's voice without tripping fabrication or slop gates: `docs/solutions/2026-07-21-spec-sample-receipted-override-protocol.md`. Companion files: the two artifacts in `_active/linkedin-launch/04-deliverables/spec-samples/`, corrected prospect sheet in `05-lead-gen/`, corrected buyer panel in `councils/buyers/practitioner-founders.md`.
+> This session turned the locked Signal Pilot offer into its first two live weapons: SEND-ready flagship spec samples for Jonah Rosner and Jennifer Broxterman (POV read + conversion email + LinkedIn post in the prospect's receipted voice + paste-ready delivery DM each), gauntlet-passed and finalized at 8.67. The reusable capability it shipped is the **receipted-override protocol** for building copy in a real person's voice without tripping fabrication or slop gates: `docs/solutions/2026-07-21-spec-sample-receipted-override-protocol.md`. Companion files: the two artifacts in `_active/linkedin/04-deliverables/spec-samples/`, corrected prospect sheet in `05-lead-gen/`, corrected buyer panel in `councils/buyers/practitioner-founders.md`.
 
 ## ⚡ If you only read 10 lines
 

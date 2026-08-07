@@ -14,7 +14,7 @@
 - Voice rules: `content-voice-calibration` memory + `skills/fresh-voice/` (Show>Tell, no forced jargon, pull-through, reader-as-protagonist, banned AI-tells per `directives/ai-slop-ban-bank.md`)
 
 ## The ICP (deep research — real, reuse it)
-The Invisible Expert / multi-passionate operator. Deep McRaney deep-canvass profile: `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md`. Core beliefs to shift: "my work should speak for itself," "self-promotion is bragging," "content is for influencers not serious pros," "I just need one more tool/course." The felt problem: "I know what to do, I just can't seem to DO it."
+The Invisible Expert / multi-passionate operator. Deep McRaney deep-canvass profile: `_active/linkedin/research/deep-icp-profile-invisible-expert.md`. Core beliefs to shift: "my work should speak for itself," "self-promotion is bragging," "content is for influencers not serious pros," "I just need one more tool/course." The felt problem: "I know what to do, I just can't seem to DO it."
 
 ## The freedom math (real, from the vehicle decision)
 Current burn $20–25K/mo · ideal life $40–50K/mo → Freedom # ~$12–15M · reach-freedom working target ~$55–70K/mo net · constraints: 1–3 hr/day, solo + VA + AI, no agency team, architect not operator. The Final 10% wins the vehicle decision decisively (skill-fit HIGH, operator-load LOW, reaches freedom); the Flywheel was a capped operator-trap. Content/propaganda = the FILL mechanism for this advisory (not a product he sells).

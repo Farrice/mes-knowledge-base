@@ -32,6 +32,6 @@
 ## Where the related work lives
 
 - **The 3 LinkedIn posts** that sparked this (incl. Post 1, which becomes the Marcus probe): [`_active/context-engineering-os/deliverables/2026-07-01-authority-flywheel-linkedin-week1.md`](../context-engineering-os/deliverables/2026-07-01-authority-flywheel-linkedin-week1.md)
-- **The execution assets** the protocol runs on: `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md` (§DO THIS TODAY)
+- **The execution assets** the protocol runs on: `_active/linkedin/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md` (§DO THIS TODAY)
 - **The session that produced all of this** (Context Engineering OS build + demo): [`_active/context-engineering-os/INDEX.md`](../context-engineering-os/INDEX.md)
 - Finalize record: Notion (Strategy, 2026-07-01) · resume thread: `/resume convene`

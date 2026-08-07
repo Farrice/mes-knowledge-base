@@ -12,7 +12,7 @@ live; Farrice reviews in the morning.
 ## Context to load first
 - `_active/farrice-brand/offers/authority-flywheel-ladder.md` (the locked surface set + decision blocks)
 - `_active/farrice-brand/voice/VOICE-CARD.md` (BLEND dial)
-- `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` (ICP language map)
+- `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` (ICP language map)
 - `strategy_briefs/2026-07-18-authority-flywheel-positioning-strike.md` (the Dunford/Haynes strike brief)
 
 ## Constraints

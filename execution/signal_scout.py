@@ -17,11 +17,11 @@ Pipeline (deterministic, no LLM):
   → (2) ENGAGER ROSTER: deduped, scored (comment=3, reaction=1, +2 ICP-title match)
 
 Outputs:
-  _active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md (+.json)
+  _active/linkedin/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md (+.json)
   .agent/health/signal-scout-YYYY-MM-DD.json (receipt)
 
 Usage:
-  python3 execution/signal_scout.py --creators-file _active/linkedin-launch/05-lead-gen/listening-creators.md
+  python3 execution/signal_scout.py --creators-file _active/linkedin/05-lead-gen/listening-creators.md
   python3 execution/signal_scout.py --posts "<post_url1>,<post_url2>"
   python3 execution/signal_scout.py --creators justinwelsh,gisenberg --posts-per-creator 2
 
@@ -49,8 +49,8 @@ except ImportError:
 
 import apify_client as ac  # noqa: E402  (needs sys.path + dotenv first)
 
-DEFAULT_CREATORS_FILE = REPO / "_active/linkedin-launch/05-lead-gen/listening-creators.md"
-DEFAULT_OUT_DIR = REPO / "_active/linkedin-launch/05-lead-gen/engager-rosters"
+DEFAULT_CREATORS_FILE = REPO / "_active/linkedin/05-lead-gen/listening-creators.md"
+DEFAULT_OUT_DIR = REPO / "_active/linkedin/05-lead-gen/engager-rosters"
 HEALTH_DIR = REPO / ".agent/health"
 
 # Campaign ICP (Proof-to-Market: funded supplement/performance brand deciders)

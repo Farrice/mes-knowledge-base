@@ -15,10 +15,10 @@ pin: true
 
 ## Load First
 - `.agent/handoffs/2026-07-28-about-rebuild-ship.md` — the full ship checklist + binding critiques distilled (THE working doc)
-- `_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md` — the three takes (Mirror / Aisle / Decision), all classifier-CLEAN ≤2,600
+- `_active/linkedin/03-launch/2026-07-28-about-rebuild-three-takes.md` — the three takes (Mirror / Aisle / Decision), all classifier-CLEAN ≤2,600
 - `_active/farrice-brand/voice/VOICE-CARD.md` v1.2 — named-place principle, payoff punch, heat-in-nouns now in §6
 - `.agent/handoffs/2026-07-27-positioning-before-headline.md` — headline is STILL the open positioning decision
-- `_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md` — §7 featured section, §1-2 banner/photo, rest of profile copy
+- `_active/linkedin/03-launch/2026-07-27-profile-top-to-bottom.md` — §7 featured section, §1-2 banner/photo, rest of profile copy
 
 ## Current State
 - **Objective:** LinkedIn profile live + first teardown sent = inbound for the Proof-to-Market offer ($2,500 sprint, supplement/performance brands).
@@ -51,6 +51,6 @@ Read .agent/handoffs/2026-07-28-about-rebuild-ship.md, run /voice-compile, then 
 ## Do NOT Rebuild (shipped this session — extend, never re-derive)
 - **Pen Protocol** — `.agent/workflows/writers-room.md` Phase 3 (binding) + `docs/solutions/2026-07-28-writers-room-pen-protocol.md`
 - **Co-Creation Enforcement Layer** — `execution/hooks/steering_loop_hook.py` (spiral brake / feedback-turn protocol / work-mode front door) + `docs/solutions/2026-07-28-co-creation-enforcement-layer.md`; kill switch `.agent/co-creation.off`
-- **The three About takes** — `_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md`; pick, don't regenerate
+- **The three About takes** — `_active/linkedin/03-launch/2026-07-28-about-rebuild-three-takes.md`; pick, don't regenerate
 - **VOICE-CARD 1.2 + 15 lens cards + expert-load truth** — loaded room is solved; never grep a genius file
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.

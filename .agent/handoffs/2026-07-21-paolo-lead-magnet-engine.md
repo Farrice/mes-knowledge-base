@@ -17,7 +17,7 @@ pin: true
 - `skills/paolo-trivellato-lead-magnet-engine/genius.md` — the spine + verbatim templates + claims quarantine
 - `skills/paolo-trivellato-lead-magnet-engine/workflows/pt-lead-engine.md` — the workflow to execute
 - `skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/engine-30-day-plan.md` — the output contract
-- `_active/linkedin-launch/02-offer/` — Proof-to-Market master doc (the offer the engine distributes)
+- `_active/linkedin/02-offer/` — Proof-to-Market master doc (the offer the engine distributes)
 - `_active/farrice-brand/voice/VOICE-CARD.md` — mandatory voice layer (binding farrice_voice_alignment)
 - `FARRICE-MASTER-CONTEXT.md` — authority-line raw material
 
@@ -35,7 +35,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-/pt-lead-engine Proof-to-Market $2,500 10-day sprint for supplement/performance brands — build the full engine: pain map from our supplement-brand call transcripts (ask me where they live if not found in _active/linkedin-launch/ or projects/), my authority line, profile rebuild, and the first comment-gated lead magnet. VOICE-CARD layer on, compliance = outputs/time specificity, never income claims.
+/pt-lead-engine Proof-to-Market $2,500 10-day sprint for supplement/performance brands — build the full engine: pain map from our supplement-brand call transcripts (ask me where they live if not found in _active/linkedin/ or projects/), my authority line, profile rebuild, and the first comment-gated lead magnet. VOICE-CARD layer on, compliance = outputs/time specificity, never income claims.
 ```
 
 ## Acceptance Criteria

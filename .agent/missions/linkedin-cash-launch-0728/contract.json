@@ -24,10 +24,10 @@
   },
   "gates": ["send-before-build", "prose_classifier", "factual-grounding", "cost_gate (auto-approved, ultra quota)"],
   "deliverable_paths": [
-    "_active/linkedin-launch/01-research/2026-07-28-FRESH-RESEARCH/",
-    "_active/linkedin-launch/02-offer/OFFER-WARGAME-2026-07-28.md",
-    "_active/linkedin-launch/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
-    "_active/linkedin-launch/01-research/ICP-BATTLE-CARD.md"
+    "_active/linkedin/01-research/2026-07-28-FRESH-RESEARCH/",
+    "_active/linkedin/02-offer/OFFER-WARGAME-2026-07-28.md",
+    "_active/linkedin/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+    "_active/linkedin/01-research/ICP-BATTLE-CARD.md"
   ],
   "decisions_for_farrice": [
     "About take A/B/C verdict (2026-07-28-about-rebuild-three-takes.md)",

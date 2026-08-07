@@ -35,7 +35,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Read extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md and the two reference-corpus pieces next to it. I'll give my gut verdict on whether the sample passes as Tommy Clark's method (A-tier) or not. Then run /tc-uncopyable-filter on my 5 most recent LinkedIn drafts from _active/linkedin-launch/ and give me the moat audit table for each.
+Read extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md and the two reference-corpus pieces next to it. I'll give my gut verdict on whether the sample passes as Tommy Clark's method (A-tier) or not. Then run /tc-uncopyable-filter on my 5 most recent LinkedIn drafts from _active/linkedin/ and give me the moat audit table for each.
 ```
 
 ## Acceptance Criteria

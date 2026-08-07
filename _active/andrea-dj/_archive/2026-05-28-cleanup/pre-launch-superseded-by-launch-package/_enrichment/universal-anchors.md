@@ -473,7 +473,7 @@ Use Universal Anchors when the audience is unknown. Use the Recognition Map when
 - Farrice direct prompt, 2026-05-19 — *"specific in channel, universal in public"* operating principle. This brief is the operational answer to that principle.
 
 ### Methodology lineage
-- `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State methodology
+- `_active/linkedin/research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State methodology
 - `MEMORY.md` — Deep ICP Profile entry, language-map and wince-test methodology
 
 ---

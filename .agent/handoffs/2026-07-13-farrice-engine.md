@@ -24,13 +24,13 @@ Authoritative summary in memory: `~/.claude/projects/-Users-farricecain-Google-A
 - `farrice-engine.md` — master OS. Modes: `daily` · `acquire` (dual-track) · `offer "<who>"` · `weekly` · `repoint` · `radar` · `teardown "<brand>"` · `export`. One-command top-to-bottom.
 - `linkedin-daily.md` — daily cook: **Creative Daily Brief** (players/themes/emotional-target/full-breakout/priming) → Farrice's raw dump → 3 variants → gates. Co-pilot; without his raw take it goes flat.
 
-**Brain files (`_active/linkedin-launch/`):** `CREATIVE-BOOK.md` (the ONE doc he opens daily) · `MASTER-STRATEGY.md` · `content-os.md` · `icp-emotional-map.md` (**the empathy moat** — "Dana" persona; broken promises, 2am replaceability fear, daily life, consumer-emotion; rule *reassure the human, indict the machine*) · `research/wellness-supplement-brand-niche.md` (22 named brands, 10 starred) · `offers/OFFER-LADDER.md` + `offers/teardown-system.md` (Teardown = keystone) · `voice-gate.md` · `pipeline.md` + `proof-tracker.md` (human-tagged, NEVER invent outcomes) · `daily/performance-log.md` (the ratchet) · `daily/brand-radar-2026-W25.md`.
+**Brain files (`_active/linkedin/`):** `CREATIVE-BOOK.md` (the ONE doc he opens daily) · `MASTER-STRATEGY.md` · `content-os.md` · `icp-emotional-map.md` (**the empathy moat** — "Dana" persona; broken promises, 2am replaceability fear, daily life, consumer-emotion; rule *reassure the human, indict the machine*) · `research/wellness-supplement-brand-niche.md` (22 named brands, 10 starred) · `offers/OFFER-LADDER.md` + `offers/teardown-system.md` (Teardown = keystone) · `voice-gate.md` · `pipeline.md` + `proof-tracker.md` (human-tagged, NEVER invent outcomes) · `daily/performance-log.md` (the ratchet) · `daily/brand-radar-2026-W25.md`.
 
 **Depth/skills:** `skills/fresh-voice-system/genius.md` (Cognitive Signature: Paradox Reveal → False-Frame Demolition → Reframe Landing), `/aha-engine` + `kobi-brown-educational-virality`.
 
 **Scripts (`execution/`):** `brand_radar.py` (Apify brand sweep), `export_to_drive.py` (markdown→Google Docs, idempotent, globs `daily/`), `apify_client.py`, `chain_runner.py`.
 
-## Content already produced (ready to publish — paths under `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot/`)
+## Content already produced (ready to publish — paths under `_active/linkedin/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot/`)
 - `2026-06-15-post-the-replaceable-fear.md` — enriched empathy post (gated PASS).
 - `2026-06-15-brand-vertical-post.md` — the "sameness/divergence" post (Farrice rated **8/10, post as-is**).
 - `2026-W25-content-set.md` — **the week's main content**: flagship article *"The Most Expensive Average in Wellness"* + 3 aha-engineered posts (Compliance / Fatigue / Consumer-Truth). All gated PASS (article breakthrough-leaning).
@@ -42,7 +42,7 @@ Cognitive Signature + **Aha gate** (real before→after perception shift) + **Em
 ## State + quirks
 - **The ratchet is DARK.** Farrice has not logged real metrics yet. The entire learning loop activates when he publishes + logs (impressions, **out-of-network %**, decision-maker profile views, DMs) in `performance-log.md`. Keep nudging — the #1 unlock.
 - **Apify** works + is used (~$29/mo, self-governs, never hard-blocks). Brand Radar got real data on **6/10** brands; **Gorgie, Momentous, Hilma, Joovv** handles returned nothing — fix in `execution/brand_radar.py` (`BRANDS`).
-- **Drive export** uses the `gws` CLI (auth ~7-day expiry). If it fails: `gws auth login -s drive,gmail,calendar,sheets,docs`. Folder: "Farrice LinkedIn Engine — Content & Strategy OS" (~20 Docs); links in `_active/linkedin-launch/drive-export-manifest.json`.
+- **Drive export** uses the `gws` CLI (auth ~7-day expiry). If it fails: `gws auth login -s drive,gmail,calendar,sheets,docs`. Folder: "Farrice LinkedIn Engine — Content & Strategy OS" (~20 Docs); links in `_active/linkedin/drive-export-manifest.json`.
 - **`chain_runner.py finalize` logs 7.25 every time** — calibration discounts self-rated 9s. Accept with eyes open; do NOT loop cosmetic retries.
 - **No `.claude/agents/` files** (Farrice's rule). In-session Agent-tool subagents (prose-doctor, fact-verifier, icp-deep-canvasser) are fine.
 
@@ -66,4 +66,4 @@ Teardown (free **Elite Magnet** + keystone proof) → **Angle Audit** $500–1.5
 
 ## Notes
 - No secrets appeared this session (nothing redacted). The Drive folder link is Farrice's own workspace.
-- Conventions: durable work in `_active/linkedin-launch/`; daily content in `daily/` (auto-exports to Drive). Match existing density + voice; client-facing docs ≤2 pages.
+- Conventions: durable work in `_active/linkedin/`; daily content in `daily/` (auto-exports to Drive). Match existing density + voice; client-facing docs ≤2 pages.

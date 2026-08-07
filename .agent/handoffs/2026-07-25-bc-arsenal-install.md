@@ -21,7 +21,7 @@ pin: true
 
 - `skills/briar-cochran-content-science/SKILL.md` + `genius.md` — the 12-workflow OS; genius.md is
   the decision framework every `/bc-*` run loads.
-- `_active/linkedin-launch/04-deliverables/content-os/BC-ARSENAL-INSTALL-2026-07-25.md` — the install pack:
+- `_active/linkedin/04-deliverables/content-os/BC-ARSENAL-INSTALL-2026-07-25.md` — the install pack:
   through-line, 14-entry keyword ledger, five-input source map, cold-start arsenal ledger,
   week-1 slate, baseline capture dashboard, anti-pattern contract.
 - `extractions/briar-cochran-content-science/reference-corpus/` (2 transcripts) +

@@ -27,7 +27,7 @@ The active offer docs were updated alongside this packet so the module is visibl
 ## What This Connects
 
 - `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md` is the current health-performance offer source of truth.
-- `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md` is the current 4-pillar public sales brief.
+- `_active/linkedin/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md` is the current 4-pillar public sales brief.
 - The Nate B. Jones skill family supplies the backend method spine for agent-readable intent, context, trust, quality, and handoff design.
 - Ethan Smith supplies AEO strategy: long-tail question ownership, information gain, and citation compulsion.
 - Nathan Gotch supplies retrieval-layer architecture: entity trust, citation source mapping, and knowledge-base buildout.
@@ -130,8 +130,8 @@ We build the trust layer underneath your content system: what claims can be made
 - `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md`
 - `_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md`
 - `_active/health-performance-ip-library/daily/2026-06-23-health-performance-geo-brief.md`
-- `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md`
-- `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-one-pager.md`
+- `_active/linkedin/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md`
+- `_active/linkedin/99-archive/superseded-offer-2026-07-01/unified-offer-brief-one-pager.md`
 - Nate B. Jones files: `skills/nate-b-jones-orchestration-intelligence/SKILL.md`, `skills/nate-b-jones-context-engineering/SKILL.md`, `skills/nate-b-jones-intent-engineering/SKILL.md`, `skills/nate-b-jones-trust-architecture/SKILL.md`, `skills/nate-b-jones-agent-deployment-strategy/SKILL.md`, `skills/nate-b-jones-ai-taste-mastery/SKILL.md`, `skills/nate-b-jones-auto-improvement-loops/SKILL.md`
 - Search files: `skills/ethan-smith-aeo/SKILL.md`, `skills/nathan-gotch-ai-seo/SKILL.md`
 - `_active/codex-harvest-2026-06-11/brain/archive/marketing-voice-tone-cleanup-2026-05-10/hybrid-path-validation-pack-v1/06 Semantic Library And AI Operating Partner Moat.md`

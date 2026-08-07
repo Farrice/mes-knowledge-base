@@ -7,7 +7,7 @@ status: enriched
 
 # Angle Map Listening Engine — What We Built 2026-07-31→08-04 and How to Use It
 
-> This session fused the health-performance GEO daily brief and the insight brief into ONE scheduled listening engine (v4.0), then upgraded it to a content factory (v4.1): story-seat composition bench, rotating finished-format calendar, four-tag assets, a content vault with queue states, and a two-ring identity-level audience/ICP dossier. Companion files: engine spec `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` · standard-setting brief `_active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` · ring definitions `_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
+> This session fused the health-performance GEO daily brief and the insight brief into ONE scheduled listening engine (v4.0), then upgraded it to a content factory (v4.1): story-seat composition bench, rotating finished-format calendar, four-tag assets, a content vault with queue states, and a two-ring identity-level audience/ICP dossier. Companion files: engine spec `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` · standard-setting brief `_active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` · ring definitions `_active/linkedin/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
 
 ## ⚡ If you only read 10 lines
 

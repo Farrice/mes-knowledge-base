@@ -71,7 +71,7 @@ The example is constructed. A real supplement brand must use its current product
 3. **Comment strategy:** No engagement-bait question. If published, source links can sit in the first comment only after the final claim review.
 4. **DM path:** Use the existing low-friction observation. Do not introduce a new SEO audit offer.
 5. **Structural pattern:** concrete operating scene -> regulatory truth -> evidence-to-angle receipt -> understated Angle Map bridge
-6. **Sources:** `https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance`, `_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md`, and `owned-answer-page.md`.
+6. **Sources:** `https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance`, `_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md`, and `owned-answer-page.md`.
 7. **Prediction:** A proof-to-angle post may create saves, meaningful comments, or qualified profile actions from health-performance brand operators without claiming search performance.
 8. **Primary stage:** `PREDICTED`.
 9. **Observation window:** 7 days.

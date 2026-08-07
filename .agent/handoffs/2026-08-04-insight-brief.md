@@ -16,9 +16,9 @@ pin: true
 ## Load First
 - `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` — v4.1 engine spec (Angle Map center, Daily Core, rotating deep-focus calendar, story bench, factory + vault contracts)
 - `_active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` — the standard-setting inaugural brief (verdict: good; §12 = factory re-run shape)
-- `_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — two-ring ICP/audience identity build (extends 07; ring definitions for all content tagging)
+- `_active/linkedin/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — two-ring ICP/audience identity build (extends 07; ring definitions for all content tagging)
 - `_active/farrice-brand/content/vault/INDEX.md` — vault state (3 READY: drawer post, proof-decay essay, drawer video script)
-- `_active/linkedin-launch/CAMPAIGN.md` — campaign queue (mission #6 next)
+- `_active/linkedin/CAMPAIGN.md` — campaign queue (mission #6 next)
 
 ## Current State
 - **Objective:** one $750 Angle Map sold within 14 selling days of first five logged sends; the engine exists to power content → inbound → cash.

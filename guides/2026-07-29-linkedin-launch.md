@@ -7,7 +7,7 @@ status: enriched
 
 # LinkedIn Cash Launch — What We Built 2026-07-28/29 and How to Use It
 
-> Two sessions of one campaign: an adversarially-wargamed offer path to $500–$2K in 14 days, a paste-ready profile package, a 7-doc Context OS that makes any external AI context-complete on the offer, and three permanent system layers born along the way — the campaign/missions continuity layer, the canon layer (stale docs redirect at read time), and the replication lesson. Companions: `_active/linkedin-launch/CAMPAIGN.md` (state) · `knowledge/lessons/2026-07-28-replication-lesson.md` (method) · `.agent/handoffs/2026-07-28-linkedin-launch.md` (next session's packet).
+> Two sessions of one campaign: an adversarially-wargamed offer path to $500–$2K in 14 days, a paste-ready profile package, a 7-doc Context OS that makes any external AI context-complete on the offer, and three permanent system layers born along the way — the campaign/missions continuity layer, the canon layer (stale docs redirect at read time), and the replication lesson. Companions: `_active/linkedin/CAMPAIGN.md` (state) · `knowledge/lessons/2026-07-28-replication-lesson.md` (method) · `.agent/handoffs/2026-07-28-linkedin-launch.md` (next session's packet).
 
 ## ⚡ If you only read 10 lines
 
@@ -16,7 +16,7 @@ status: enriched
 3. The middle rung is **the Angle Map: $750, prepaid, 48h, make-right clause** — it lives in teardown follow-up message 2, Featured Card 2, then the About.
 4. Close deadline is **day 10**, not 14 — new payment accounts clear in 2–7 days. Prepaid only.
 5. Tripwires: day 7 = 5 fit-conversations or lead with the $750 ask · day 10 = 60 sends/0 replies means red-team the DM · day 14 = $750 cleared or drop to a $250 same-day read.
-6. Feed any AI the Context OS: `_active/linkedin-launch/04-deliverables/context-os/` — load 01 first, 04 for any writing (it carries the privacy law).
+6. Feed any AI the Context OS: `_active/linkedin/04-deliverables/context-os/` — load 01 first, 04 for any writing (it carries the privacy law).
 7. Reading a superseded doc now triggers a one-line redirect (canon layer). Per-project map: `CANON.md`. Audit: `python3 execution/canon_audit.py <project-folder>`.
 8. Voice register, Farrice verbatim: "silent confidence and swag with wit and humor." Banned: grand-noun labels, "room", em-dashes, exclamation marks.
 9. About = Take A, LOCKED. Headline = Treatment A, LOCKED. v3 copy for everything else awaits verdict in `03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md`.

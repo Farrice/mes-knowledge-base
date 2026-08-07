@@ -107,4 +107,4 @@ Post in this order Mon / Wed / Fri. Each installs a different category word, so 
 
 ---
 
-*Promote to the content library when ready: `_active/farrice-brand/content/`. To generate more angles, run `/ce-write` (vertical: social) against another content theme from `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` §5.*
+*Promote to the content library when ready: `_active/farrice-brand/content/`. To generate more angles, run `/ce-write` (vertical: social) against another content theme from `_active/linkedin/research/deep-icp-profile-invisible-expert.md` §5.*

@@ -50,7 +50,7 @@ RECEIPTS_DIR = ORG_HOME / "receipts"
 # SCAR 2026-07-28: CANON.md, CAMPAIGN.md and MOVED.md were missing here. The
 # sweep had been silently timing out, so the gap never bit; the moment it ran
 # fast enough to finish it filed 27 of them into 04-deliverables/ — including
-# _active/linkedin-launch/CAMPAIGN.md, which the SessionStart campaign beacon
+# _active/linkedin/CAMPAIGN.md, which the SessionStart campaign beacon
 # reads by exact path, and 11 MOVED.md relocation pointers, whose entire job is
 # to sit at the old location. Each of these is a contract with another tool:
 #   INDEX.md    project entry point + lifecycle stamp (projects_index.py)

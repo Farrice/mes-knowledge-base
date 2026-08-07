@@ -4,7 +4,7 @@ description: Farrice's master content + creative-strategy + client-acquisition O
 
 # /farrice-engine — Master Content & Creative-Strategy OS
 
-The single front door. Composes Farrice's best assets — the Parallax voice, the daily content cook, the brandjack/newsjack engine, the expert roster, and the client-acquisition motion — into one content→authority→client machine, in his voice, pointed at the beachhead in `_active/linkedin-launch/01-research/MASTER-STRATEGY.md`.
+The single front door. Composes Farrice's best assets — the Parallax voice, the daily content cook, the brandjack/newsjack engine, the expert roster, and the client-acquisition motion — into one content→authority→client machine, in his voice, pointed at the beachhead in `_active/linkedin/01-research/MASTER-STRATEGY.md`.
 
 This does NOT reinvent anything. It orchestrates what already exists.
 
@@ -26,17 +26,17 @@ Universal front door: `/create` composes this engine for personal-brand work.
 
 ## Step 0 — Load the brain (every run)
 
-Read `_active/linkedin-launch/01-research/MASTER-STRATEGY.md` (beachhead, lane sequence, ICP, offer, pipeline, KPIs) + `01-research/wellness-supplement-brand-niche.md` (the brand buyer + target list). Everything below serves that. If beachhead is empty/stale → run `repoint` first.
+Read `_active/linkedin/01-research/MASTER-STRATEGY.md` (beachhead, lane sequence, ICP, offer, pipeline, KPIs) + `01-research/wellness-supplement-brand-niche.md` (the brand buyer + target list). Everything below serves that. If beachhead is empty/stale → run `repoint` first.
 
 ## Step 0.5 — Load the depth + empathy layer (every content/offer run — this is the apex bar)
 
-Load before any public artifact: `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md` (the operating frame), `_active/linkedin-launch/01-research/icp-emotional-map.md` (**the empathy moat** — broken promises, the 2am replaceability fear, daily life; *reassure the human, indict the machine*), the latest `daily/brand-radar-*.md` (named specifics), `skills/fresh-voice-system/genius.md` (the **Cognitive Signature**), `aha-engine` + `kobi-brown` (cognitive-change). The bar: every piece creates a real perception shift, makes the ICP feel **seen better than their own team gets them**, leaves them better off. "Polished but flat" fails; "informs but doesn't make them feel seen" fails.
+Load before any public artifact: `_active/linkedin/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md` (the operating frame), `_active/linkedin/01-research/icp-emotional-map.md` (**the empathy moat** — broken promises, the 2am replaceability fear, daily life; *reassure the human, indict the machine*), the latest `daily/brand-radar-*.md` (named specifics), `skills/fresh-voice-system/genius.md` (the **Cognitive Signature**), `aha-engine` + `kobi-brown` (cognitive-change). The bar: every piece creates a real perception shift, makes the ICP feel **seen better than their own team gets them**, leaves them better off. "Polished but flat" fails; "informs but doesn't make them feel seen" fails.
 
 ## Mode: `daily` (content + distribution + lead motion)
 
 1. **Cook** — run `.agent/workflows/linkedin-daily.md` (v2): Apify-first research → brandjack menu + raw-take priming → HALT for Farrice's take → 3 cooked variants (Cognitive Signature) → voice gate + Aha gate + fact-verify. Lane = current beachhead (brand vertical). This is the content layer; do not duplicate it here.
 2. **Finalize + self-improve** — `chain_runner.py finalize` the shipped variant(s); then `evolution_orchestrator.py` flags any underperforming format/lane (log-only if no traces). Harness-tuning only, never auto-rewrites content.
-3. **Distribute** — 10 commenting targets per `_active/linkedin-launch/05-lead-gen/commenting-engine.md` (5 brand founders / marketing-content leads / category voices + 5 peers), each comment a micro-demo of the wedge (practitioner depth, not "great post") — in the rooms where brands hire.
+3. **Distribute** — 10 commenting targets per `_active/linkedin/05-lead-gen/commenting-engine.md` (5 brand founders / marketing-content leads / category voices + 5 peers), each comment a micro-demo of the wedge (practitioner depth, not "great post") — in the rooms where brands hire.
 4. **Lead motion** — scan `performance-log.md` + recent engagement for **decision-maker** signal (profile views, saves, substantive comments from brand founders/marketing leads). Surface 1-3 warm names + a soft, non-pitch DM opener (a real idea for their brand). Never mass-DM.
 5. **Export (portability)** — `python3 execution/export_to_drive.py` syncs the updated strategy/content assets to the Google Drive folder as Docs (idempotent — updates in place, stable links). If gws auth is expired it fails loud with the re-auth command; not a blocker for the rest of the run.
 
@@ -44,9 +44,9 @@ Load before any public artifact: `_active/linkedin-launch/99-archive/2026-08-07-
 
 Two tracks run in parallel (take whichever lands first):
 - **ROLE / SEAT track** — target brand founders, marketing/brand directors, heads of content/social, and the agencies they use (from `01-research/wellness-supplement-brand-niche.md`). Content = portfolio/audition. The ask is a fractional/embedded/FTE creative-strategist seat. Use Apify/`research.py` to pull the brand's current content + pain, then a value-first DM that reads like a strategist already on their team.
-- **CLIENT track** — same decision-makers; the ask is a project/retainer. Compose `skills/linkedin-cs-outreach/` or `skills/client-acquire/` (outreach + qualification) + `_active/linkedin-launch/02-offer/` + `skills/proof-copy-engine/` + `skills/authority-flywheel/`.
+- **CLIENT track** — same decision-makers; the ask is a project/retainer. Compose `skills/linkedin-cs-outreach/` or `skills/client-acquire/` (outreach + qualification) + `_active/linkedin/02-offer/` + `skills/proof-copy-engine/` + `skills/authority-flywheel/`.
 
-**The opener for both tracks = the Teardown** (`teardown "<brand>"`): a custom teardown DM'd to the lead is the warmest, most-proof-dense first touch there is (the research's "override signal"). Output per warm lead: track (role/client), stage (cold/warm/hot), the next single action, the asset to send (teardown → Angle Audit → Proof Run → Embed, per `02-offer/OFFER-LADDER.md`). Log lead stage to `_active/linkedin-launch/05-lead-gen/pipeline.md` and real outcomes to `_active/linkedin-launch/05-lead-gen/proof-tracker.md` (both **human-tagged only — never invent results**); register revenue via `execution/revenue_tracker.py`.
+**The opener for both tracks = the Teardown** (`teardown "<brand>"`): a custom teardown DM'd to the lead is the warmest, most-proof-dense first touch there is (the research's "override signal"). Output per warm lead: track (role/client), stage (cold/warm/hot), the next single action, the asset to send (teardown → Angle Audit → Proof Run → Embed, per `02-offer/OFFER-LADDER.md`). Log lead stage to `_active/linkedin/05-lead-gen/pipeline.md` and real outcomes to `_active/linkedin/05-lead-gen/proof-tracker.md` (both **human-tagged only — never invent results**); register revenue via `execution/revenue_tracker.py`.
 
 ## Mode: `offer "<who>"`
 
@@ -71,7 +71,7 @@ Change the beachhead. Ask Farrice: which lane leads, what proof he has, where hi
 
 ## Mode: `export` (make the assets portable)
 
-Run `python3 execution/export_to_drive.py` — pushes the strategy + content + research + workflow assets to the Google Drive folder **"Farrice LinkedIn Engine — Content & Strategy OS"** as Google Docs (markdown → Doc), so the content is usable anywhere. Deterministic + idempotent: find-or-creates the folder, **updates existing Docs in place (stable links)**, creates new ones. Links are written to `_active/linkedin-launch/90-exports/drive-export-manifest.json`. To add a new deliverable to the export set, append `(path, "Doc Name")` to `ASSETS` in the script. `--dry-run` previews; `--folder "<name>"` overrides. On gws auth expiry (the known 7-day quirk) it prints `gws auth login -s drive,gmail,calendar,sheets,docs` and exits non-zero — never silent.
+Run `python3 execution/export_to_drive.py` — pushes the strategy + content + research + workflow assets to the Google Drive folder **"Farrice LinkedIn Engine — Content & Strategy OS"** as Google Docs (markdown → Doc), so the content is usable anywhere. Deterministic + idempotent: find-or-creates the folder, **updates existing Docs in place (stable links)**, creates new ones. Links are written to `_active/linkedin/90-exports/drive-export-manifest.json`. To add a new deliverable to the export set, append `(path, "Doc Name")` to `ASSETS` in the script. `--dry-run` previews; `--folder "<name>"` overrides. On gws auth expiry (the known 7-day quirk) it prints `gws auth login -s drive,gmail,calendar,sheets,docs` and exits non-zero — never silent.
 
 ## Mode: `radar` (refresh named-brand intelligence)
 
@@ -79,7 +79,7 @@ Run `python3 execution/brand_radar.py` — an Apify sweep of the Top-10 target b
 
 ## Mode: `teardown "<brand>"` (the keystone proof asset)
 
-Build a named-brand content teardown per `_active/linkedin-launch/02-offer/teardown-system.md`: read the brand's data from the latest `daily/brand-radar-*.md` (run `radar` first if stale) + `icp-emotional-map.md` §7 (the body-level consumer truth) + the divergence lens. Produce the 6-part teardown (credit → sameness tell → body-level truth → 3 angles I'd ship → compliance note → close). Voice + Empathy gate it. Triple-route the output: (1) a constructive **public proof post**, (2) the full **Elite Magnet DM** to the brand's founder/growth lead, (3) the **Angle Audit on-ramp**. Log the target + outcome in `pipeline.md`. **≥1/week** — it's the highest-leverage proof + lead act.
+Build a named-brand content teardown per `_active/linkedin/02-offer/teardown-system.md`: read the brand's data from the latest `daily/brand-radar-*.md` (run `radar` first if stale) + `icp-emotional-map.md` §7 (the body-level consumer truth) + the divergence lens. Produce the 6-part teardown (credit → sameness tell → body-level truth → 3 angles I'd ship → compliance note → close). Voice + Empathy gate it. Triple-route the output: (1) a constructive **public proof post**, (2) the full **Elite Magnet DM** to the brand's founder/growth lead, (3) the **Angle Audit on-ramp**. Log the target + outcome in `pipeline.md`. **≥1/week** — it's the highest-leverage proof + lead act.
 
 ## Layer map (kill the redundancy)
 
@@ -90,7 +90,7 @@ Build a named-brand content teardown per `_active/linkedin-launch/02-offer/teard
 ## Standing principles
 
 - **Depth standard** — every public artifact runs the Cognitive Signature (Paradox Reveal → False-Frame Demolition → Reframe Landing) and passes the **Aha gate** (real perception shift, left-better-off, addictive-in-a-good-way). Information-only = fail.
-- **Voice first** — every public artifact passes `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md`. Polished-but-flat = fail (see `linkedin-daily` Step 8).
+- **Voice first** — every public artifact passes `_active/linkedin/04-deliverables/content-os/voice-gate.md`. Polished-but-flat = fail (see `linkedin-daily` Step 8).
 - **The content is the demo** — never ship a post that doesn't prove the service (AI + human depth).
 - **Acquisition > applause** — optimize for decision-maker profile views/DMs/calls/seats, never likes.
 - **Apify-first research, deterministic fallback** — raw data via `execution/apify_client.py` (budgeted, never blocks); degrade to `research.py`/Perplexity/Tavily; always report which was used.

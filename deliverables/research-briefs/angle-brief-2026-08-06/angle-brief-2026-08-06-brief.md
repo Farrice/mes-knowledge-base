@@ -61,15 +61,15 @@ _CAVEATS WORTH KEEPING_
 Edition 001 runs on a 2-creator seed list (welsh + isenberg) — solopreneur-lane signal is strong, supplement-brand-ICP signal is absent until you add those creators to listening-creators.md. Scout samples page one of engagement (30 reactions + 31 comments per post this run), so comment language is a sample, not a census. Three zeitgeist lanes (supplement-brands, ai-tools-creator, jen-sfv-realestate) had never run as of this edition — future editions get richer as those fire. Post URLs for the two welsh posts carry truncated activity IDs from the actor payload; the hooks and numbers are from the same payload and stand.
 
 ## Source ledger
-1. Signal Scout roster + resonance (test run) — file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md (retrieved 2026-08-06, VERIFIED; used for: all engagement numbers, hooks, ICP verbatim quotes)
+1. Signal Scout roster + resonance (test run) — file:///Users/farricecain/Google%20Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md (retrieved 2026-08-06, VERIFIED; used for: all engagement numbers, hooks, ICP verbatim quotes)
 2. Zeitgeist daily brief — ai-consulting-linkedin lane — file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/ (retrieved 2026-08-06, VERIFIED; used for: trust-gap thesis, beginner funnel question, positioning gap)
-3. Campaign state — mission queue + standing facts — file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/CAMPAIGN.md (retrieved 2026-08-06, VERIFIED; used for: tying angles to live missions (2b, carousels, About Take A))
+3. Campaign state — mission queue + standing facts — file:///Users/farricecain/Google%20Antigravity/_active/linkedin/CAMPAIGN.md (retrieved 2026-08-06, VERIFIED; used for: tying angles to live missions (2b, carousels, About Take A))
 4. Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats — file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md (retrieved 2026-08-06, VERIFIED; used for: deploy-block hooks (diandra = formats only, body voice = his))
 
 ## Context pack (agent feed)
 - `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05` — zeitgeist · ai-consulting-linkedin lane
-- `_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md` — Signal Scout roster + resonance (test run)
-- `_active/linkedin-launch/CAMPAIGN.md` — Campaign state — mission queue + standing facts
+- `_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md` — Signal Scout roster + resonance (test run)
+- `_active/linkedin/CAMPAIGN.md` — Campaign state — mission queue + standing facts
 - `_active/farrice-brand/voice/VOICE-CARD.md` — Craft loads: VOICE-CARD v1.3 · kallaway hook-engineering-matrix · diandra crown-jewel-4 hook formats
 - https://www.linkedin.com/posts/justinwelsh_people-dont-believe-you-can-own-your-time-activity-7490373065147674 — justinwelsh · scout sample 30r/31c
 - https://www.linkedin.com/posts/justinwelsh_solopreneurship-used-to-be-fringe-it-wasnt-activity-749073545258962 — justinwelsh · scout sample 30r/31c

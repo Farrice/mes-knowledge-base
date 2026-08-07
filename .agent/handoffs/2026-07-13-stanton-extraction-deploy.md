@@ -16,8 +16,8 @@ pin: true
 ## Load First
 - `skills/andrew-stanton-audience-engineering/OPERATORS-GUIDE.md` — the full deployment map (what fires automatically, maintenance rules, failure modes)
 - `skills/andrew-stanton-audience-engineering/USER-GUIDE.md` — the leverage map (3 ways to use it, per-situation workflow table)
-- `_active/linkedin-launch/04-deliverables/content-os/launch-sequence-stanton.md` — the Receipt Arc: 14-post order, 13 paste-ready loop lines, finale bookend, watch-items
-- `_active/linkedin-launch/content-os/REVIEW-clean-posts.md` — the 14 bodies awaiting PASS/FAIL/FIX
+- `_active/linkedin/04-deliverables/content-os/launch-sequence-stanton.md` — the Receipt Arc: 14-post order, 13 paste-ready loop lines, finale bookend, watch-items
+- `_active/linkedin/content-os/REVIEW-clean-posts.md` — the 14 bodies awaiting PASS/FAIL/FIX
 - `skills/andrew-stanton-audience-engineering/references/exemplars.md` — the eight-point Stanton-Grade Gate + exemplar bank (append on every felt PASS)
 
 ## Current State

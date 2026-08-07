@@ -1,6 +1,6 @@
 # Farrice — Irresistible Offer + Belief-Shift Map
 
-> Built by running `/oe-belief-shift-architect` on Farrice's likely offer. Grounded in Omar Eltakrori's actual words (two 2026 videos) and Farrice's documented ICP (`_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md`). This is a first-pass draft to refine. Every `[FARRICE: …]` is a spot where his real number, name, or proof sharpens the map — nothing below is finished until those are filled.
+> Built by running `/oe-belief-shift-architect` on Farrice's likely offer. Grounded in Omar Eltakrori's actual words (two 2026 videos) and Farrice's documented ICP (`_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`). This is a first-pass draft to refine. Every `[FARRICE: …]` is a spot where his real number, name, or proof sharpens the map — nothing below is finished until those are filled.
 >
 > The job, per Omar, is almost anticlimactic: *"Your job is for someone to think about or believe about the thing differently than they did before they met you."* You move a belief by making three things felt — *"by making people feel like it's possible, by making people feel like it's easy, by making people feel like they can trust you."* This document is that map.
 

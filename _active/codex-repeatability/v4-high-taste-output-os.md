@@ -2,7 +2,7 @@
 
 This is the repeatability packet for the V4 LinkedIn content package Farrice marked as the new 9/10 bar.
 
-Golden sample: `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
+Golden sample: `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 
 Machine repair made during codification: `.codex/tools/codex_orchestration_preflight.py` now recognizes "reverse engineer", "codify this", "quality bar", "golden sample", and related language as `/repeatability-spine` intent.
 
@@ -21,7 +21,7 @@ The important thing is that none of the expert names were allowed to be the proo
 ## Repeatability Spine Result
 
 - **Failure class**: wrong workflow/routing, with creative revision degradation as the downstream symptom.
-- **Good example**: `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
+- **Good example**: `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 - **Failed pattern**: earlier drafts felt consultant-clean, structurally neat, over-formatted, and too much like an AI applying LinkedIn rules.
 - **Original route/context**: preflight first routed LinkedIn content to `/big-project`; repairing the route to `/content-sprint` with Lara Acosta as owner changed the output quality.
 - **Expert stack**: one owner plus bounded support. Owner: `lara-acosta-linkedin-mastery`. Support: `fresh-voice-system`, `new-media-ghostwriting`, `nicolas-cole-client-acquisition`, plus verification gates.
@@ -237,7 +237,7 @@ Use this when you want Codex to reproduce the V4 bar on a new task:
 ```text
 Run the V4 High-Taste Output OS on this task.
 
-Good example: /Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md
+Good example: /Users/farricecain/Google Antigravity/_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md
 
 Preserve: preflight before drafting, one owner skill, SKILL.md + genius.md + workflow loaded, verified source spine, human scene/wound/stakes, no invented authority, no expert soup, clean gates, orchestration receipt.
 

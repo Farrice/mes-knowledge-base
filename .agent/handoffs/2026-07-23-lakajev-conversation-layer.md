@@ -17,7 +17,7 @@ pin: true
 - `skills/matthew-lakajev-linkedin/SKILL.md` + `genius.md` — the A-tier spine (13 workflows, 8 v2 prompts)
 - `skills/matthew-lakajev-linkedin/references/prompts-v2/closed-lost-campaign-build.md` — Output Contract for the first deliverable
 - `_active/farrice-brand/voice/VOICE-CARD.md` + `skills/voice-os/SKILL.md` — BLEND layer (binding: anything in Farrice's voice)
-- `_active/linkedin-launch/02-offer/` — Signal Pilot offer master doc ($2K exec-ghostwriting pilot; the campaign's scarcity ask must match its real capacity)
+- `_active/linkedin/02-offer/` — Signal Pilot offer master doc ($2K exec-ghostwriting pilot; the campaign's scarcity ask must match its real capacity)
 - `docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md` — if corpus refresh (2026-era posts) comes up
 
 ## Current State

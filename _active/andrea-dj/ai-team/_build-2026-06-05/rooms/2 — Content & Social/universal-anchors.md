@@ -494,7 +494,7 @@ Use Universal Anchors when the audience is unknown. Use the Recognition Map when
 
 ### Methodology lineage
 
-- _active/linkedin-launch/research/deep-icp-profile-invisible-expert.md — McRaney Deep Canvassing × Cimorelli Audience State methodology
+- _active/linkedin/research/deep-icp-profile-invisible-expert.md — McRaney Deep Canvassing × Cimorelli Audience State methodology
 - MEMORY.md — Deep ICP Profile entry, language-map and wince-test methodology
 
 End of Universal Anchors v1.0. Update cadence: refresh after each batch of public-facing copy passes through the four-tier recognition test and surfaces a new pain or promise pattern that was not in this draft. Andrea + Farrice adjudicate additions.

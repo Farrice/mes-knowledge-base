@@ -62,7 +62,7 @@ State it in one line: `Engine: <archetype> · job=<EYEBALLS+PIPELINE> · sequenc
 
 Assemble context in priority order, cheapest first, **without halting**:
 
-1. **Your own system (free, instant):** `FARRICE.md`, the active ICP (`_active/linkedin-launch/...`), brand files, `_active/farrice-brand/thought-bank/`, any project `CLAUDE.md`. For client work, the client folder.
+1. **Your own system (free, instant):** `FARRICE.md`, the active ICP (`_active/linkedin/...`), brand files, `_active/farrice-brand/thought-bank/`, any project `CLAUDE.md`. For client work, the client folder.
 2. **The grounding cache (`$0` on reuse):**
    ```bash
    python3 execution/avatar_manifold_runner.py ground --slug <market-slug> --market "<market>" --product "<offer>" --tier <free|lean|deep>

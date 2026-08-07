@@ -11,7 +11,7 @@ Google Drive export: disabled
 
 - Owner workflow: `/farrice-engine`, with the Health Performance GEO Client Acquisition Engine as the governing local prompt.
 - Route proof: `.codex/tools/codex_orchestration_preflight.py` selected `/farrice-engine`; `execution/workflow_router.py search` ranked `/farrice-engine` first; `execution/routing_enforcer.py check` returned valid true.
-- Golden sample status: V4 sample loaded from `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
+- Golden sample status: V4 sample loaded from `_active/linkedin/99-archive/2026-08-07-dupe-trees/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
 - Local context used: 2026-06-29 brief, automation memory, service ladder, client acquisition offer, V4 repeatability packet, Oren Operational Systems, Ethan Smith AEO, and Lara Acosta LinkedIn genius files.
 - Memory status: `execution/memory_retrieve.py` degraded on embed/network resolution, so prior context came from local files and automation memory.
 - Required proof work: live source spine, claim labels, source-quality audit, retrieval questions, offer bridge, local JSONL capture.

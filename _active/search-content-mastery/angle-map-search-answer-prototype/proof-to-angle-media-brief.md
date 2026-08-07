@@ -67,7 +67,7 @@ Use the six-row receipt above. Highlight the evidence limit before the angle nam
 
 1. **Structural pattern:** one-row proof chain -> risk callout -> reviewer gate -> Angle Map attribution
 2. **Risk boundary:** This is marketing and source-organization guidance. Legal review, medical review, and regulatory review sit outside this scope. Market effects remain `UNTESTED`.
-3. **Source receipts:** `https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance`, `_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md`, and `owned-answer-page.md`.
+3. **Source receipts:** `https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance`, `_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md`, and `owned-answer-page.md`.
 4. **Prediction:** An inspectable proof-to-angle visual may improve correct identification of the evidence limit and reviewer boundary in an internal comprehension test.
 5. **Primary stage:** `PREDICTED`.
 6. **Observation window:** 7 days.

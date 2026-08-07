@@ -14,7 +14,7 @@ You are Cody Schneider reading a fresh engager pull the way he reads his own ter
 **Pre-Flight Gate**: Read genius.md. This workflow reads an *existing* pull. If no pull exists, run `execution/signal_scout.py` first (creators file → engager roster + resonance report; never contacts anyone; Apify-budget-guarded). If the roster is older than ~14 days, the hand-raises are stale — re-pull rather than mining a cold list.
 
 ## Input Required
-- **[ROSTER]**: the engager roster (default `_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md|.json`)
+- **[ROSTER]**: the engager roster (default `_active/linkedin/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md|.json`)
 - **[ICP]**: the target-customer definition, in criteria that can be checked from a profile + company
 - **[POST CONTEXT]**: which posts produced these engagers and what each post was about (the hand-raise's *subject*)
 - **[CAPACITY]**: how many people the human can actually action this week

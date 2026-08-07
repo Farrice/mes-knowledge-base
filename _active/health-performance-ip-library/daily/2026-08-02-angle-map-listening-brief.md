@@ -4,7 +4,7 @@
 
 - **Owner:** Health Performance Angle Map Listening Engine (Oren operating spine). **Mode:** full. **Intent score:** 5 (scheduled contract run, deliverable and end state fully specified in AUTOMATION_PROMPT v4.1).
 - **Route proof:** `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` v4.1 → Sunday row of the Rotating Deep Focus Calendar (education chapter) and the Content Factory Contract (second format = education long-form, finished).
-- **Golden sample:** `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md` loaded in this Codex verification pass, along with `_active/codex-repeatability/v4-high-taste-output-os.md`. The earlier scheduled-local draft had marked both absent; that metadata was repaired here without changing the content thesis, ledger rows, or vault assets.
+- **Golden sample:** `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md` loaded in this Codex verification pass, along with `_active/codex-repeatability/v4-high-taste-output-os.md`. The earlier scheduled-local draft had marked both absent; that metadata was repaired here without changing the content thesis, ledger rows, or vault assets.
 - **Local context used:** VOICE-CARD v1.2 · 02-OFFER-CANON (locked) · 05-CONTENT-STRATEGY (two pillars, 360Brew mechanics) · 08-TWO-RING-RESONANCE-DOSSIER · vault INDEX (cross-piece repetition check) · last two daily briefs (repetition penalty).
 - **Social listening lane:** LIVE, not degraded. Apify reddit actor ×4 calls, $0.042 today, month-to-date $0.213 of $29.00. Real threads read, verbatim captured with URLs.
 
@@ -380,7 +380,7 @@ This is the structural chapter behind today's angle. The public-readable version
 
 **Daily Core delta line:** today added an evidence-resolution axis to the ICP's decision map (the claims review as an unowned search), a new outer-ring buyer behavior to the audience profile (buyers now read methodology critiques, not just reviews), and three promises-not-kept rows including the category's most-used proof claim.
 
-**Appended to `_active/linkedin-launch/04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md`:**
+**Appended to `_active/linkedin/04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md`:**
 
 ```
 ### 2026-08-02 — the audience now audits methodology in public, not just products
@@ -390,7 +390,7 @@ This is the structural chapter behind today's angle. The public-readable version
 - Implication for format: "show the query, show the column" is a save-carrier for this audience.
 ```
 
-**Appended to `_active/linkedin-launch/04-deliverables/context-os/03-ICP-TRUTH-MAP.md`:**
+**Appended to `_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md`:**
 
 ```
 ### 2026-08-02 — the claims review is an unowned search, and that is a buying trigger

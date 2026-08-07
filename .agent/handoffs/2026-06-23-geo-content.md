@@ -10,7 +10,7 @@ pin: true
 # HANDOFF — geo-content (GEO/SEO LinkedIn business, health/wellness/performance)
 _2026-07-01 · thread: `geo-content` · Resume: `/resume geo-content`_
 
-**Front door:** `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md` (the one index — read first)
+**Front door:** `_active/linkedin/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md` (the one index — read first)
 **Detailed open-job handoff:** `.agent/handoffs/2026-06-23-content-os-slop-fix.md`
 
 ## STATE AT CLOSE (all committed on `main` = single source of truth)

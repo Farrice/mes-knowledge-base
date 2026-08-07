@@ -24,7 +24,7 @@ If purpose class is ambiguous, Stage 0 asks one question round — never guesses
 
 Declare, in order:
 1. **Purpose class**: `education | value | aha | personal-brand | client | campaign`
-2. **Audience**: default = Deep ICP "Invisible Expert" (`_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md`) for personal work; for client work, the client's own CLAUDE.md ICP (see Stage 3 table).
+2. **Audience**: default = Deep ICP "Invisible Expert" (`_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`) for personal work; for client work, the client's own CLAUDE.md ICP (see Stage 3 table).
 3. **Minimum TWO engineered outcomes**, written as testable statements — not vibes. Example: "positions Farrice as the only voice naming X to Y" + "drives N replies/booked calls this week."
 
 No contract from the request → sharpen with one question round (Chain Step 2 rules apply), then proceed. Do not skip this stage for "just a quick post" — Score/DICE logic from CLAUDE.md Step 1 still applies underneath it.
@@ -79,7 +79,7 @@ Narrative/story pieces may also pull the story-stack (Runia → Hawley → Stant
 
 ## Stage 4 — PRODUCE
 
-Follow the proven recipe: **scaffold × parallel-depth × expert-lens × voice-rules × dual-QA**. Required benchmark read before drafting: `_active/linkedin-launch/04-deliverables/content-os/ai-boom-content-package.md`.
+Follow the proven recipe: **scaffold × parallel-depth × expert-lens × voice-rules × dual-QA**. Required benchmark read before drafting: `_active/linkedin/04-deliverables/content-os/ai-boom-content-package.md`.
 
 Voice rules (house standard, already in memory): Show > Tell, reader-as-protagonist, no forced jargon, 3-variant process (content-voice-calibration memory note).
 

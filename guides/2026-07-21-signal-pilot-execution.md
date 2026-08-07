@@ -7,11 +7,11 @@ status: enriched
 
 # Signal Pilot — What We Built 2026-07-21 and How to Use It
 
-> One marathon session: the COS daily board, three blind adversarial passes (audit kill → three-offer test → channel/pricing pressure test), a locked sprint offer with paste-ready LinkedIn assets and 30 prospects, and three permanent system organs — the $0 offer-truth gate, the /offer-redteam loop, and the dispatch seating law. Companions: `docs/solutions/2026-07-21-*.md` (three cards), `_active/linkedin-launch/{02-offer,03-launch,05-lead-gen}/`, `.agent/handoffs/2026-07-21-signal-pilot-execution.md`.
+> One marathon session: the COS daily board, three blind adversarial passes (audit kill → three-offer test → channel/pricing pressure test), a locked sprint offer with paste-ready LinkedIn assets and 30 prospects, and three permanent system organs — the $0 offer-truth gate, the /offer-redteam loop, and the dispatch seating law. Companions: `docs/solutions/2026-07-21-*.md` (three cards), `_active/linkedin/{02-offer,03-launch,05-lead-gen}/`, `.agent/handoffs/2026-07-21-signal-pilot-execution.md`.
 
 ## ⚡ If you only read 10 lines
 
-1. Sprint offer LOCKED: **Signal Pilot: Practitioner Edition** — $2,000 prepaid/14d; extraction → 7-email sequence SENT to their list + 4 posts + 1 sales asset. Spec: `_active/linkedin-launch/02-offer/OFFER-LANE-VERDICT-2026-07-21.md`
+1. Sprint offer LOCKED: **Signal Pilot: Practitioner Edition** — $2,000 prepaid/14d; extraction → 7-email sequence SENT to their list + 4 posts + 1 sales asset. Spec: `_active/linkedin/02-offer/OFFER-LANE-VERDICT-2026-07-21.md`
 2. Pricing frame, verbatim, never improvised: *"Founder pricing for the first three pilots is $2,000 prepaid — less than what you charge one cohort of your own program. It goes up the day the first case study exists."* No Cooz citations. No discounting.
 3. **Two-gate dispatch:** LinkedIn activity (30d) gates the SEND CHANNEL; authority-asymmetry gates the FLAGSHIP bet. Dormant prospect ≠ dead prospect ≠ dead lane — re-route to their live channel.
 4. Day-1 flagships: **Rosner** (20K beehiiv) + **Broxterman** ($42K launch precedent). Rusin/Hanson = cycle two, IG/funnel only.

@@ -14,11 +14,11 @@ pin: true
 - **Not in scope:** rebuilding the Context OS (done, committed), touching the About Take A or headline (LOCKED), mission 2b execution (a sibling session holds that lock — coordinate, never collide), new research.
 
 ## Load First
-- `_active/linkedin-launch/CAMPAIGN.md` — campaign state + mission queue
-- `_active/linkedin-launch/03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md` — THE artifact awaiting verdict; its frontmatter carries the binding register + banned tells + spiral brake
-- `_active/linkedin-launch/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` — merge target (canonical)
-- `_active/linkedin-launch/04-deliverables/context-os/` — the 7-doc Context OS (done; source for Drive)
-- `_active/linkedin-launch/CANON.md` — which docs are live vs superseded
+- `_active/linkedin/CAMPAIGN.md` — campaign state + mission queue
+- `_active/linkedin/03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md` — THE artifact awaiting verdict; its frontmatter carries the binding register + banned tells + spiral brake
+- `_active/linkedin/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` — merge target (canonical)
+- `_active/linkedin/04-deliverables/context-os/` — the 7-doc Context OS (done; source for Drive)
+- `_active/linkedin/CANON.md` — which docs are live vs superseded
 
 ## Current State
 - **Objective:** $500–$2,000 collected by ~08-10 (`revenue-5k-incumbency`); this thread finishes the profile/packaging layer so content and DMs run on top.
@@ -33,7 +33,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Read _active/linkedin-launch/03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md and show me the 8 blocks for my verdict. Register bar and banned tells are in its frontmatter — hold them. On my PASS: merge into 2026-07-28-PROFILE-GO-LIVE-TONIGHT.md, prose-check, commit, then verify and complete the Drive export ("Farrice — LinkedIn Launch OS") including uploading the final go-live doc as "Profile Go-Live Master", and close mission context-os-package-0729. On my FAIL: spiral brake — no rendition 4; collect my raw voice-dump per job first.
+Read _active/linkedin/03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md and show me the 8 blocks for my verdict. Register bar and banned tells are in its frontmatter — hold them. On my PASS: merge into 2026-07-28-PROFILE-GO-LIVE-TONIGHT.md, prose-check, commit, then verify and complete the Drive export ("Farrice — LinkedIn Launch OS") including uploading the final go-live doc as "Profile Go-Live Master", and close mission context-os-package-0729. On my FAIL: spiral brake — no rendition 4; collect my raw voice-dump per job first.
 ```
 
 ## Acceptance Criteria

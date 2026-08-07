@@ -33,7 +33,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Run /lynch-copy-pass on my current Proof-to-Market outreach DM (pull the latest from _active/linkedin-launch/). Show the five filter verdicts and the revised copy side-by-side with the original — this is the arsenal's first live rep, so judge honestly whether the Lynch pass earned its keep.
+Run /lynch-copy-pass on my current Proof-to-Market outreach DM (pull the latest from _active/linkedin/). Show the five filter verdicts and the revised copy side-by-side with the original — this is the arsenal's first live rep, so judge honestly whether the Lynch pass earned its keep.
 ```
 
 ## Acceptance Criteria

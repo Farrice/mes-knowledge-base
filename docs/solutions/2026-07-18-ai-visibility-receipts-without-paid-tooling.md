@@ -14,7 +14,7 @@ The Proof-to-Market Sprint's AI-Search Shadow module was spec'd on Ahrefs Brand 
 
 ## Solution
 
-Live-query receipts with three honesty rules baked into the spec (now in `_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md`, AI-Search Shadow section):
+Live-query receipts with three honesty rules baked into the spec (now in `_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md`, AI-Search Shadow section):
 1. **Pattern, not roll** — run each buying question 2-3 times per engine (ChatGPT, Perplexity, Google AI Overviews) and report the recurring names/descriptions, stated as a pattern with engine + date + exact prompt shown. Survives the prospect's own re-run.
 2. **Invisible IS the finding** — scripted reframe for small brands: "the machine doesn't describe you wrongly; it doesn't describe you at all — every category question is answered with someone else's name." Turns the empty-result failure mode into the sharpest version of the pitch.
 3. **Always resolve to positioning** — the module ends in a message implication, never an SEO to-do list, keeping it a diagnostic inside the strategy sprint rather than a standalone audit the council found no budget line for.

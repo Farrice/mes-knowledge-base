@@ -25,7 +25,7 @@ invisibility, counted, screenshotted, and framed in sales language — not SEO l
 - **[COMPETITOR_SET]**: who they lose the recommendation to
 
 > **🔒 Pre-Flight Gate**: genius.md § How to Use This Skill + Proof-to-Market positioning
-> (`_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md`): Shadow is a module inside the
+> (`_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md`): Shadow is a module inside the
 > positioning sprint, never the lead. Client-facing = implementation-grade depth (binding).
 
 ## Workflow

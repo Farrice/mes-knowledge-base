@@ -23,7 +23,7 @@ The honest gap the inventory surfaced: 235 expert personas and 406 skills are co
 
 ## what got built overnight — and where it stops
 each loop listens, drafts, and files a receipt. none of them can touch your reputation.
-1. **Signal Scout — execution/signal_scout.py + two new Apify actors (post-reactions, post-comments)** — Listening-only. Test run: 4 posts → 229 scored engagers + resonance report + ICP-verbatim comment language for $0.50. Config: _active/linkedin-launch/05-lead-gen/listening-creators.md (seeded with 2 verified handles — add your real 10–20).
+1. **Signal Scout — execution/signal_scout.py + two new Apify actors (post-reactions, post-comments)** — Listening-only. Test run: 4 posts → 229 scored engagers + resonance report + ICP-verbatim comment language for $0.50. Config: _active/linkedin/05-lead-gen/listening-creators.md (seeded with 2 verified handles — add your real 10–20).
 2. **Angle Brief loop — com.antigravity.angle-brief, Mon/Thu 07:00** — Fuses scout resonance + zeitgeist lanes + thought-bank into one visual HTML brief of hook and content angles tied to live work. First supervised edition renders this morning; launchd owns it from Monday.
 3. **Cody Schneider skill — skills/cody-schneider-signal-outbound/ + /cody commands** — Forge-grade extraction: signal doctrine and system-design workflows as durable core, tool stack quarantined in a dated era-bound appendix, waterfall and outbound blueprints preserved for the day you explicitly unlock outreach.
 4. **Zeitgeist confirmed armed** — The 'not loaded' warning was stale — plist loaded, engine healthy, budget green ($0.84 spent of $29). First scheduled synthesis fires 06:20 today; its receipt is the log to check.

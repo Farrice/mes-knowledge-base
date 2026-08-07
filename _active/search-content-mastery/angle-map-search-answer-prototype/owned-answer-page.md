@@ -190,6 +190,6 @@ Send me the live page or campaign. I will point to one consequential message or 
 
 External receipts: `https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance`; `https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-substantiation-dietary-supplement-claims-made-under-section-403r-6-federal-food`; `https://developers.google.com/search/docs/appearance/ai-features`.
 
-Local receipts: `_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md`; `_active/linkedin-launch/04-deliverables/context-os/06-PROOF-LIBRARY.md`.
+Local receipts: `_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md`; `_active/linkedin/04-deliverables/context-os/06-PROOF-LIBRARY.md`.
 
 **Internal link candidates after a live site exists:** The Angle Map offer page; Proof-to-Market Sprint page; a future claim-evidence example; author page.

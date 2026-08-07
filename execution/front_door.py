@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """front_door.py — the one generated entry point per initiative.
 
-WHY THIS EXISTS (Farrice, 2026-08-07). `_active/linkedin-launch/` held 440
+WHY THIS EXISTS (Farrice, 2026-08-07). `_active/linkedin/` held 440
 files behind FOUR competing front doors — CAMPAIGN.md, CANON.md, INDEX.md and
 04-deliverables/00-CONTROL-TOWER.md, the last of which announced itself as
 "The ONE index. Open this first" while pointing at a $500 offer killed five
@@ -125,17 +125,42 @@ def discover_initiatives() -> list[Path]:
 
 # ── git dating ───────────────────────────────────────────────────────────────
 
+_DATE_CACHE: dict[str, dict[str, int]] = {}
+
+
 def git_dates(base: Path) -> dict[str, int]:
     """repo-relative path -> newest non-bulk commit timestamp. One subprocess.
 
     Bulk commits are kept only as a fallback: a file whose ONLY history is a
     sweep still deserves a real date, but a sweep must not make every file in
     the tree read as touched today.
+
+    SCOPE IS `_active/`, NOT THE INITIATIVE — and that is load-bearing.
+    Scoping the log to the initiative path meant that the moment a project was
+    renamed or restructured, `git log -- <new path>` had no history at all:
+    every file fell back to filesystem mtime, every date read as "today", and
+    because the dates were uniform nothing could appear newer than anything
+    else. Reorganising a folder silently destroyed the one signal Farrice
+    asked for ("dated so I know what's current"). Measured: the pilot's 16
+    unabsorbed records dropped to 0 the instant the directory was renamed.
+
+    So: scan `_active/` once with --name-status -M, follow renames backwards,
+    and key every historical path to the path it occupies TODAY. Cached per
+    process — one subprocess no matter how many initiatives are built.
     """
     try:
-        rel = str(base.relative_to(ROOT))
+        base.relative_to(ROOT)
     except ValueError:
         return {}
+    full = _git_dates_all()
+    prefix = str(base.relative_to(ROOT)) + "/"
+    return {k: v for k, v in full.items() if k.startswith(prefix)}
+
+
+def _git_dates_all() -> dict[str, int]:
+    if "all" in _DATE_CACHE:
+        return _DATE_CACHE["all"]
+    rel = "_active"
     try:
         # %at (AUTHOR time), not %ct. A rebased or merged commit carries a
         # later committer date, which made the board disagree with what plain
@@ -154,9 +179,9 @@ def git_dates(base: Path) -> dict[str, int]:
         # cross-checking every file against `git log --date=short`.
         proc = subprocess.run(
             ["git", "-c", "core.quotepath=false", "log",
-             "--pretty=format:C%at", "--name-only",
+             "--pretty=format:C%at", "--name-status", "-M",
              "--diff-merges=first-parent", "--", rel],
-            cwd=ROOT, capture_output=True, text=True, timeout=120,
+            cwd=ROOT, capture_output=True, text=True, timeout=180,
         )
     except (OSError, subprocess.SubprocessError):
         return {}
@@ -165,8 +190,19 @@ def git_dates(base: Path) -> dict[str, int]:
 
     focused: dict[str, int] = {}
     fallback: dict[str, int] = {}
+    # historical path -> the path that content occupies TODAY. Built walking
+    # newest -> oldest, so by the time an old commit names an old path we
+    # already know where it ended up.
+    alias: dict[str, str] = {}
     stamp: int | None = None
     batch: list[str] = []
+
+    def present(path: str) -> str:
+        seen = set()
+        while path in alias and path not in seen:
+            seen.add(path)
+            path = alias[path]
+        return path
 
     def flush() -> None:
         if stamp is None or not batch:
@@ -180,12 +216,22 @@ def git_dates(base: Path) -> dict[str, int]:
             flush()
             stamp = int(line[1:])
             batch = []
-        elif line.strip():
-            batch.append(line.strip())
+            continue
+        if not line.strip():
+            continue
+        parts = line.split("\t")
+        code = parts[0]
+        if code.startswith("R") and len(parts) >= 3:
+            old, new = parts[1], parts[2]
+            alias[old] = present(new)
+            batch.append(present(new))
+        elif len(parts) >= 2:
+            batch.append(present(parts[1]))
     flush()
 
     for k, v in fallback.items():
         focused.setdefault(k, v)
+    _DATE_CACHE["all"] = focused
     return focused
 
 

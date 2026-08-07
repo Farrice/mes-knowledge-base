@@ -25,9 +25,9 @@ Deploy the format engine: shoot/test the 4 **"Invisible Expert Teardown"** video
 - Skill: `skills/sky-tan-format-engine/` (SKILL.md, genius.md, references/, workflows/)
 - Agent: `agents/sky-tan/AGENT.md`
 - Extraction + verification: `extractions/Sky Tan/mastery-extraction.md`, `extractions/Sky Tan/verification-record.md`
-- Farrice format: `_active/linkedin-launch/sky-format-farrice.md`
+- Farrice format: `_active/linkedin/sky-format-farrice.md`
 - Jen format: `_active/jen-listings/04-deliverables/sky-format-jen-reacts.md`
-- Offer one-pager: `_active/linkedin-launch/authority-flywheel-format-finder-onepager.md`
+- Offer one-pager: `_active/linkedin/authority-flywheel-format-finder-onepager.md`
 
 ## Open items / flags for next session
 - **Pricing is from an 87-day-old memo** (`authority-flywheel-pivot.md`, 2026-03-18). Confirm current Sprint/Autopilot numbers before the one-pager goes to a buyer. Flagged inline in the asset.

@@ -15,7 +15,7 @@ Full brief text lives at `assets/wargame-folder-template/tasks/NN-slug.md` — t
 |---|---|
 | `{{BUSINESS}}` | Client CLAUDE.md identity line (`_active/jen-listings/CLAUDE.md`, `_active/andrea-dj/CLAUDE.md`, or equivalent) |
 | `{{PROBLEM}}` | Farrice's stated pain point, or a `competitive-intel` finding if the gap isn't self-evident |
-| `{{AUDIENCE}}` | Deep ICP profile (`_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` or client-specific ICP doc) |
+| `{{AUDIENCE}}` | Deep ICP profile (`_active/linkedin/research/deep-icp-profile-invisible-expert.md` or client-specific ICP doc) |
 | `{{CTA}}` | Decided at `/wargame-brief` time — one CTA only, never inherited from a vague ask |
 | `{{LIST THEM}}` (sections) | Site IA, frozen before wargaming per Heuristic 2 |
 | `{{URL OR DESCRIPTION}}` (reference) | Actual URL/screenshot Farrice supplies, or a `brand-system-builder`/`mood-board` output |

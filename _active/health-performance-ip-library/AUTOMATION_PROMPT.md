@@ -52,7 +52,7 @@ If the run cannot produce one angle Farrice could immediately talk about, the ru
 
 ## The Offer Canon (LOCKED 2026-07-30 — every bridge points here)
 
-Source of truth: `_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md` and the 2026-07-30 Rory Behavioral Alchemy deployment lock. The facts, verbatim and non-negotiable:
+Source of truth: `_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md` and the 2026-07-30 Rory Behavioral Alchemy deployment lock. The facts, verbatim and non-negotiable:
 
 - **Public offer:** The Angle Map. $750 prepaid. One 60-minute live message read. Three named campaign angles — each with a core belief, hook directions, approved-proof direction, and an editorial claim-safety line — plus ONE lead-angle recommendation. Delivered within 48 hours after payment and required inputs.
 - **Buyer:** founder or marketing lead at an already-selling supplement, recovery, functional-nutrition, or performance brand with a live occasion (launch, reformulation, retail push, new creative cycle, repositioning).
@@ -113,8 +113,8 @@ Budget exhaustion degrades one rung down the ladder; it never stalls the run and
 
 Every run appends — never rewrites — dated delta blocks to the living docs:
 
-- `_active/linkedin-launch/04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` (GOVERNING audience doc) — append under a `## Live deltas (engine-fed)` section: `### YYYY-MM-DD — <one-line delta>` + ≤5 lines of evidence.
-- `_active/linkedin-launch/04-deliverables/context-os/03-ICP-TRUTH-MAP.md` (fast offer-facing reference) — same append pattern; if a delta contradicts doc 07, doc 07 wins and the conflict is named.
+- `_active/linkedin/04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` (GOVERNING audience doc) — append under a `## Live deltas (engine-fed)` section: `### YYYY-MM-DD — <one-line delta>` + ≤5 lines of evidence.
+- `_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md` (fast offer-facing reference) — same append pattern; if a delta contradicts doc 07, doc 07 wins and the conflict is named.
 - `_active/health-performance-ip-library/ledger/promises-not-kept.jsonl` — one row per receipt: `{date, brand_or_category, promise, reality_evidence, buyer_verbatim, source_url, grade, content_angle}`.
 - `_active/health-performance-ip-library/ledger/insights.jsonl` — continues unchanged (schema in Ledger + Receipt).
 
@@ -142,7 +142,7 @@ The brief is a factory, not just a report. Farrice's mandate verbatim: *"a conte
 
 **Every asset carries four tags:** content pillar (`Proof` | `Thesis` — 05-CONTENT-STRATEGY law: a third topic is off-strategy) · narrative pillar (`P1-P5` from PROOF-TO-MARKET-OS) · bucket (`Growth` | `Authority` | `Conversion` | `Personal`) · **ring** (`Outer` = relatable/perspective-shift for the wide audience · `Inner` = buyer-recognition for the founder/growth-lead ICP · `Bridge` = both).
 
-**The two-ring resonance dial (Farrice 2026-07-31):** content resonates broad, converts narrow. Every outer-ring asset passes the better-off test: *the reader leaves better off than they arrived, even if they never buy — a hot moment, a shifted perspective, a thing they can use today.* Every inner-ring asset passes buyer recognition: the founder sees their own private sentence. Ring definitions live in `_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
+**The two-ring resonance dial (Farrice 2026-07-31):** content resonates broad, converts narrow. Every outer-ring asset passes the better-off test: *the reader leaves better off than they arrived, even if they never buy — a hot moment, a shifted perspective, a thing they can use today.* Every inner-ring asset passes buyer recognition: the founder sees their own private sentence. Ring definitions live in `_active/linkedin/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
 
 **Vault filing (mandatory):** every FINISHED asset is filed to `_active/farrice-brand/content/vault/` as its own dated file (`YYYY-MM-DD-<slug>.md`) with frontmatter: `status: READY`, the four tags, source brief path, and format. The run appends one line per asset to `_active/farrice-brand/content/vault/INDEX.md`. States move READY → POSTED → an outcome note (Farrice or a session updates them; the engine only adds READY rows). The vault may stock faster than the 3-5/week posting ceiling — that is the point; the queue is the gate, the vault is the magazine. `/content-queue` remains the idea-selection layer and composes freely with the vault (never forced wiring).
 
@@ -316,7 +316,7 @@ Changed lines, verified claims, reader pull, specificity, and receipts are proof
 Required calibration:
 
 - Load the V4 golden sample before drafting when available:
-  `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
+  `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 - Load the repeatability packet when available:
   `_active/codex-repeatability/v4-high-taste-output-os.md`
 - Preserve the V4 chain:

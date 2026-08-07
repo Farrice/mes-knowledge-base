@@ -309,7 +309,7 @@ This works because it: (a) names the behavioral truth (stopped going out) withou
 - `_active/andrea-dj/pre-launch/02-male-acquisition-strategy.md` — Marcus + Daniel hook bank (existing tries — context for what is being remixed)
 
 ### Internal (methodology)
-- `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` — McRaney × Cimorelli canonical example, "Bridge Message" pattern
+- `_active/linkedin/research/deep-icp-profile-invisible-expert.md` — McRaney × Cimorelli canonical example, "Bridge Message" pattern
 - `MEMORY.md` — Deep ICP Profile entry (2026-03-19), language-map + wince-test methodology
 
 ### External (cultural-moment grounding, May 2026)

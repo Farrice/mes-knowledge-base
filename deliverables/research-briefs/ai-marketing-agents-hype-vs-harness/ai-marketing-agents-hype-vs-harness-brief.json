@@ -84,7 +84,7 @@
       "items": [
         {
           "action": "Signal Scout — execution/signal_scout.py + two new Apify actors (post-reactions, post-comments)",
-          "why": "Listening-only. Test run: 4 posts → 229 scored engagers + resonance report + ICP-verbatim comment language for $0.50. Config: _active/linkedin-launch/05-lead-gen/listening-creators.md (seeded with 2 verified handles — add your real 10–20)."
+          "why": "Listening-only. Test run: 4 posts → 229 scored engagers + resonance report + ICP-verbatim comment language for $0.50. Config: _active/linkedin/05-lead-gen/listening-creators.md (seeded with 2 verified handles — add your real 10–20)."
         },
         {
           "action": "Angle Brief loop — com.antigravity.angle-brief, Mon/Thu 07:00",

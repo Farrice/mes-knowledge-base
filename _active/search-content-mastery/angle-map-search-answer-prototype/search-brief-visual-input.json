@@ -6,7 +6,7 @@
   "information_gain_requirement": "Make the proof chain inspectable in one frame: exact proof, evidence limit, buyer tension, defensible belief, hook direction, and reviewer boundary.",
   "source_receipts": [
     "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
-    "_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md",
+    "_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md",
     "owned-answer-page.md"
   ],
   "structural_pattern": "one-row proof chain -> risk callout -> reviewer gate -> Angle Map attribution",

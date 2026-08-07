@@ -13,7 +13,7 @@ The 5 strategic clarity documents were built primarily from **recycled internal 
 | **Duplicate zones** | `_active/content/` overlaps with `deliverables/`, `_active/offers/` overlaps with `deliverables/revenue-sprint/`, `_active/research/` overlaps with `research_outputs/` |
 | **Orphan files** | 3 `.skill` files at workspace root (`lara-acosta-linkedin-growth.skill`, `sean-mabry-voice-mastery.skill`, `tyler-denk-audience-monetization.skill`) |
 | **Zombie directory** | `00_FOCUS_MODE/` contains 19 stub files (7-21 bytes each) — placeholder configs that serve no purpose |
-| **Sprawl in `_active/linkedin-launch/`** | 31 items (13 subdirs + 18 files) with no index — this is where most of the "bleeding" is |
+| **Sprawl in `_active/linkedin/`** | 31 items (13 subdirs + 18 files) with no index — this is where most of the "bleeding" is |
 | **Unnamed swarm outputs** | `swarm_outputs/` has 36 timestamp-named dirs with no description or index |
 | **No clear "current work" zone** | `strategic-clarity/` at root, `_active/`, and `00_FOCUS_MODE/` all compete to be "where current work lives" |
 
@@ -80,12 +80,12 @@ After Phase 2 rebuild, this becomes an active project, not a root-level artifact
 
 ##### [CREATE] Index files for directories that lack them
 - `swarm_outputs/INDEX.md` — catalog of what each timestamp dir contains
-- `_active/linkedin-launch/INDEX.md` — map of the 31 items
+- `_active/linkedin/INDEX.md` — map of the 31 items
 
-##### [MOVE] `_active/demos/` → `_active/linkedin-launch/demos/`
+##### [MOVE] `_active/demos/` → `_active/linkedin/demos/`
 Demos are part of the LinkedIn launch workflow.
 
-##### [MOVE] `_active/platforms/` → `_active/linkedin-launch/platforms/`
+##### [MOVE] `_active/platforms/` → `_active/linkedin/platforms/`
 Platform configs are part of the launch workflow.
 
 ---

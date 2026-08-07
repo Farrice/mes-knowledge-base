@@ -19,7 +19,7 @@ performing "storytelling technique"? If it's the second, rebuild.
 Specifically:
 - Do NOT label sections "here's the hook," "here's the open loop," "here's the
   cross-domain weave." Execute the move; never announce it. The source case study this
-  methodology was built from (`_active/linkedin-launch/04-deliverables/content-os/voice-captures/
+  methodology was built from (`_active/linkedin/04-deliverables/content-os/voice-captures/
   genspark-20-post-serial-arc.md`) is explicit that the breakthrough came only once
   readers could no longer feel it was constructed — see the Hidden Knowledge table below.
 - Do NOT stamp the Five Story Beats as visible headers inside a post. They are a
@@ -112,7 +112,7 @@ Connect disparate experiences to reveal deeper patterns the reader couldn't see 
 
 ## Anti-Patterns (Sourced)
 
-Every item below is a verbatim quote (escaping artifacts from the source file's JSON-style backslash-quotes normalized, wording untouched) pulled directly from the primary source — `_active/linkedin-launch/04-deliverables/content-os/voice-captures/genspark-20-post-serial-arc.md` (added to the repo 2026-03-10, commit `4da54d14e`) — plus one from this skill's own exemplar file. Full claim-by-claim provenance: `references/source-ledger.md`.
+Every item below is a verbatim quote (escaping artifacts from the source file's JSON-style backslash-quotes normalized, wording untouched) pulled directly from the primary source — `_active/linkedin/04-deliverables/content-os/voice-captures/genspark-20-post-serial-arc.md` (added to the repo 2026-03-10, commit `4da54d14e`) — plus one from this skill's own exemplar file. Full claim-by-claim provenance: `references/source-ledger.md`.
 
 - **Corporate-thought-leadership voice bleed.** Sourced: genspark-20-post-serial-arc.md, Post 3 "The Expensive Mistake" (2026-03-10) — the source arc's own case study catches a founder's real posts reading like "Here are 5 ways to improve your decision-making..." "In today's fast-paced business environment..." "Leadership isn't about having all the answers..." — the exact register this skill exists to prevent.
 - **"Just be authentic" as instruction.** Sourced: genspark-20-post-serial-arc.md, Post 12 "The Voice Myth" (2026-03-10) — named directly in the source as the failure mode: "Just be authentic. Worst advice in the history of personal branding." — useless because it never specifies which of the writer's several voices to amplify.

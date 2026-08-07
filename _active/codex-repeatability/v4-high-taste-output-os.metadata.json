@@ -2,7 +2,7 @@
   "title": "V4 High-Taste Output OS",
   "artifact_type": "repeatability_playbook",
   "created": "2026-06-22",
-  "golden_sample": "_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md",
+  "golden_sample": "_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md",
   "owner_workflow": "repeatability-spine",
   "support_workflow": "source-to-skill-system",
   "codex_repair": ".codex/tools/codex_orchestration_preflight.py repeatability signal expansion",

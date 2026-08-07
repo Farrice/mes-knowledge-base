@@ -266,7 +266,7 @@
     ".agent/cos/board-ledger.md"
    ],
    "skills/cody-schneider-signal-outbound/workflows/engager-signal-audit.md": [
-    "_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md"
+    "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-YYYY-MM-DD.md"
    ],
    "skills/dai-media-consumer-posture/references/PROVENANCE-2026-07-17.md": [
     "skills/dai-media-consumer-posture/PROVENANCE.md"
@@ -529,7 +529,7 @@
     "extractions/wargame-source/visual-context.md"
    ],
    "skills/mark-kashef-wargame-os/references/mission-brief-library.md": [
-    "_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md"
+    "_active/linkedin/research/deep-icp-profile-invisible-expert.md"
    ],
    "skills/mark-manson-values-psychology/references/PROVENANCE-2026-07-18.md": [
     "_active/claude-export/harvest/census-full.json"
@@ -859,10 +859,10 @@
     "skills/dakota-content-design/03-audit-carousel-performance.md"
    ],
    "agents/nicolas-cole/memory/context.md": [
-    "_active/linkedin-launch/ICP-and-avatar.md"
+    "_active/linkedin/ICP-and-avatar.md"
    ],
    "agents/nicolas-cole/workflows/health-wellness-positioning-session.md": [
-    "_active/linkedin-launch/ICP-and-avatar.md"
+    "_active/linkedin/ICP-and-avatar.md"
    ],
    "agents/operator-autopilot/AGENT.md": [
     ".agent/workflows/excellence-gate.md",
@@ -1200,7 +1200,7 @@
     "agents/knowledge-librarian/AGENT.md"
    ],
    ".agent/workflows/linkedin-daily.md": [
-    "_active/linkedin-launch/06-automation/daily/briefing-YYYY-MM-DD.md"
+    "_active/linkedin/06-automation/daily/briefing-YYYY-MM-DD.md"
    ],
    ".agent/workflows/low-cognitive-load-message-gate.md": [
     "extractions/donald-miller/storybrand-message-clarity-system/source-map.md",
@@ -1436,18 +1436,18 @@
     "extractions/source/visual-context.md"
    ],
    ".agent/handoffs/2026-06-20-diandra-hooks-only.md": [
-    "_active/linkedin-launch/ai-boom-content-DIANDRA-upgrade.md",
-    "_active/linkedin-launch/ai-boom-Post1-SANDWICH-result.md"
+    "_active/linkedin/ai-boom-content-DIANDRA-upgrade.md",
+    "_active/linkedin/ai-boom-Post1-SANDWICH-result.md"
    ],
    ".agent/handoffs/2026-06-23-content-os-slop-fix.md": [
-    "_active/linkedin-launch/content-engine/CONTENT-ENGINE.md"
+    "_active/linkedin/content-engine/CONTENT-ENGINE.md"
    ],
    ".agent/handoffs/2026-07-01-john-whiting-propaganda-os.md": [
-    "_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md"
+    "_active/linkedin/research/deep-icp-profile-invisible-expert.md"
    ],
    ".agent/handoffs/2026-07-01-sky-tan-format-engine.md": [
-    "_active/linkedin-launch/sky-format-farrice.md",
-    "_active/linkedin-launch/authority-flywheel-format-finder-onepager.md"
+    "_active/linkedin/sky-format-farrice.md",
+    "_active/linkedin/authority-flywheel-format-finder-onepager.md"
    ],
    ".agent/handoffs/2026-07-02-claude-export-harvest.md": [
     "_active/claude-export/harvest/census-full.json"
@@ -1498,13 +1498,13 @@
     ".agent/cos/jj-playbook.md"
    ],
    ".agent/handoffs/2026-07-11-context-engineering-os.md": [
-    "_active/linkedin-launch/00-CONTROL-TOWER.md"
+    "_active/linkedin/00-CONTROL-TOWER.md"
    ],
    ".agent/handoffs/2026-07-13-codex-parity.md": [
     ".agent/missions.jsonl"
    ],
    ".agent/handoffs/2026-07-13-farrice-engine.md": [
-    "_active/linkedin-launch/drive-export-manifest.json"
+    "_active/linkedin/drive-export-manifest.json"
    ],
    ".agent/handoffs/2026-07-13-joey-cinema-v2.md": [
     "/Users/farricecain/Google Antigravity/extractions/joey-cinema-v3/visual-context.md",
@@ -1516,7 +1516,7 @@
     ".agent/missions.jsonl"
    ],
    ".agent/handoffs/2026-07-13-stanton-extraction-deploy.md": [
-    "_active/linkedin-launch/content-os/REVIEW-clean-posts.md",
+    "_active/linkedin/content-os/REVIEW-clean-posts.md",
     ".agent/handoffs/LATEST.md"
    ],
    ".agent/handoffs/2026-07-13-swarm-apex.md": [

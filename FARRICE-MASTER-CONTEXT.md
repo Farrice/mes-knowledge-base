@@ -30,10 +30,10 @@
 
 | You need | Canonical source | This doc's role |
 |---|---|---|
-| **The current offer, price, ladder, campaign state** | `_active/linkedin-launch/CAMPAIGN.md` (+ `02-offer/PROOF-TO-MARKET-OS.md`) | **Pointer only.** Never inline a price here. |
+| **The current offer, price, ladder, campaign state** | `_active/linkedin/CAMPAIGN.md` (+ `02-offer/PROOF-TO-MARKET-OS.md`) | **Pointer only.** Never inline a price here. |
 | **Voice — full stylometrics, registers, dial, calibration** | `_active/farrice-brand/voice/VOICE-CARD.md` (v1.2, `status: canonical`) + `voice/REGISTER-ATLAS.md` (how he talks off the clock, measured from 30,606 sent messages) | §6 carries the law + the calibration bank; the card and atlas carry the depth |
 | **His raw, unedited words** | `_active/farrice-brand/thought-bank/inbox/*.md` | **Load this before writing in his voice.** Use his words, not better-written versions of his words. |
-| **Buyer / ICP intelligence** | `_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md` (`status: canonical`), `ICP-BATTLE-CARD.md` | Pointer |
+| **Buyer / ICP intelligence** | `_active/linkedin/01-research/MARKET-ICP-DOSSIER-2026-06.md` (`status: canonical`), `ICP-BATTLE-CARD.md` | Pointer |
 | **Per-project context** | that project's `INDEX.md`; the map is root `PROJECTS.md` | Pointer |
 | **Brand/voice project rules** | `_active/farrice-brand/CLAUDE.md` | Pointer |
 | **Who he is, the story, the wounds, the values, the thesis** | **THIS DOCUMENT** | Canonical and deep — this is the only home |

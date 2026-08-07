@@ -100,16 +100,26 @@ def find_referrers(needle: str) -> list[Path]:
         p = ROOT / line
         if p.is_file() and (p.suffix.lower() in TEXT_SUFFIXES or not p.suffix):
             hits.append(p)
-    # git grep --untracked still skips GITIGNORED trees. _active/claude-export/
-    # is gitignored and holds real referrers, so sweep it with plain grep.
-    for extra in (ROOT / "_active" / "claude-export",):
-        if extra.is_dir():
-            r2 = subprocess.run(["grep", "-rIlF", needle, str(extra)],
-                                capture_output=True, text=True, timeout=180)
-            if r2.returncode not in (0, 1):
-                raise GrepFailure(f"grep of {extra} exited {r2.returncode}")
-            hits += [Path(l) for l in r2.stdout.splitlines()
-                     if l.strip() and _keep(l)]
+    # `git grep --untracked` still skips GITIGNORED trees — untracked is not
+    # the same as ignored. Measured 2026-08-07: five real referrers inside a
+    # gitignored `_build-*` tree were never offered to the rewriter and kept
+    # pointing at the old path after a 439-file move. Special-casing one
+    # directory was not enough; sweep the whole repo with plain grep and union.
+    r2 = subprocess.run(
+        ["grep", "-rIlF", "--exclude-dir=.git", "--exclude-dir=node_modules",
+         "--exclude-dir=.venv", needle, str(ROOT)],
+        capture_output=True, text=True, timeout=300)
+    if r2.returncode not in (0, 1):
+        raise GrepFailure(f"repo-wide grep exited {r2.returncode}")
+    for line in r2.stdout.splitlines():
+        if not line.strip():
+            continue
+        rel = line[len(str(ROOT)) + 1:] if line.startswith(str(ROOT)) else line
+        if not _keep(rel):
+            continue
+        p = Path(line)
+        if p.is_file() and (p.suffix.lower() in TEXT_SUFFIXES or not p.suffix):
+            hits.append(p)
     # The user-memory dir lives outside the repo; project_filer rewrites it too.
     mem = Path.home() / ".claude" / "projects" / "-Users-farricecain-Google-Antigravity" / "memory"
     if mem.is_dir():

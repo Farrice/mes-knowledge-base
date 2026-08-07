@@ -35,9 +35,9 @@ Research fresh topics that are psychologically resonant for the coaching audienc
 3. Score each topic on: timeliness, psychological depth, Farrice's unique angle
 4. Rank and present top 5-7 for the batch
 
-**Serial Narrative Mode:** If producing content for an active arc, skip topic research — topics come from the arc plan in `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/arc-plan.md`. Each chapter's topic is pre-defined by the arc architecture.
+**Serial Narrative Mode:** If producing content for an active arc, skip topic research — topics come from the arc plan in `_active/linkedin/04-deliverables/content-os/arcs/[arc-name]/arc-plan.md`. Each chapter's topic is pre-defined by the arc architecture.
 
-**Output:** Topic research document saved to `_active/linkedin-launch/01-research/[date]-topic-research.md`
+**Output:** Topic research document saved to `_active/linkedin/01-research/[date]-topic-research.md`
 
 **Principle:** Topics must pass the **Psychology-First Test**: Is the psychological insight the CORE of the post, with tactics emerging naturally from it? If the psychology is decorative, reject the topic framing.
 
@@ -59,7 +59,7 @@ For each selected topic, create a set of 5-7 talking point prompts designed to d
 - Leading questions that contain the answer ("Don't you think coaches should...")
 - Questions that produce tip lists ("What are your top 3...")
 
-**Output:** Prompt sets saved to `_active/linkedin-launch/04-deliverables/content-os/prompt-sets/batch-[N]/[topic-slug].md`
+**Output:** Prompt sets saved to `_active/linkedin/04-deliverables/content-os/prompt-sets/batch-[N]/[topic-slug].md`
 
 ---
 
@@ -80,7 +80,7 @@ Farrice talks through each prompt set. Raw, unpolished, real.
 - Name the client. Name the moment. Name the feeling. Specificity is everything.
 - If you feel your energy shift on a topic — lean into that. That's the post.
 
-**Output:** Raw voice capture saved to `_active/linkedin-launch/04-deliverables/content-os/voice-captures/batch-[N]/[topic-slug].md`
+**Output:** Raw voice capture saved to `_active/linkedin/04-deliverables/content-os/voice-captures/batch-[N]/[topic-slug].md`
 
 ---
 
@@ -125,7 +125,7 @@ NEXT CHAPTER SETUP — Open 1-2 loops. "More on this later." / "But here's where
 ```
 For serial narrative, load `skills/fresh-voice-system/genius.md` for the full methodology.
 
-**Output:** Drafted posts saved to `_active/linkedin-launch/drafts/batch-[N]/[topic-slug].md`
+**Output:** Drafted posts saved to `_active/linkedin/drafts/batch-[N]/[topic-slug].md`
 
 ---
 
@@ -164,7 +164,7 @@ Platform-specific optimization without losing the voice.
 - [ ] Factual safety
 - [ ] AI stigma check: zero references to AI tools as value props
 
-**Output:** Edited posts saved to `_active/linkedin-launch/04-deliverables/content-os/posts/[post-number]-[slug].md`
+**Output:** Edited posts saved to `_active/linkedin/04-deliverables/content-os/posts/[post-number]-[slug].md`
 
 ---
 
@@ -195,7 +195,7 @@ Farrice reads each post and adjusts anything that doesn't sound like him.
 ## File Structure
 
 ```
-_active/linkedin-launch/
+_active/linkedin/
 ├── research/              — Topic research documents
 ├── prompt-sets/           — Prompt sets organized by batch
 │   ├── batch-01/

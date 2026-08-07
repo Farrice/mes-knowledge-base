@@ -8,7 +8,7 @@
 - **Operating wrapper**: high-taste-writing-os
 - **Route proof**: `workflow_router.py search` ranked `/high-taste-os` and `/high-taste-writing-os` first and second for this task. `codex_operator_preflight.py` misrouted to `/albom-brand-story`, so the explicit user-invoked high-taste route and task shape overrode it.
 - **Memory/context retrieved**: prior anti-flatness rule, owner-wrapper rule, V4 repeatability packet
-- **Golden sample loaded**: `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
+- **Golden sample loaded**: `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 - **Repeatability packet loaded**: `_active/codex-repeatability/v4-high-taste-output-os.md`
 - **Owner files loaded**: `skills/luke-iha-copy-blocks/SKILL.md`, `skills/luke-iha-copy-blocks/genius.md`, `skills/luke-iha-copy-blocks/workflows/ad-script-writer.md`, `references/genius-patterns.md`, `references/hidden-knowledge.md`, `references/craves-and-velocity.md`
 - **Required source/proof work**: preserve verified PDP links, source-backed L-carnitine and magnesium claims, and existing original source concepts

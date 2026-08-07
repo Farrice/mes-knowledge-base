@@ -11,7 +11,7 @@ A pre-publish content test — load a deep-ICP profile into the simulate-room en
 ## Quick Use
 Provide:
 1. The actual draft that will publish, in full (Parallax edition / LinkedIn post / Jen listing / client asset)
-2. The deep-ICP profile to load as the reader (e.g. `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md`) — if you don't have one, build it first with `icp-deep-canvasser`
+2. The deep-ICP profile to load as the reader (e.g. `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`) — if you don't have one, build it first with `icp-deep-canvasser`
 3. Platform + the ONE thing this piece is for (save / reply / DM / booked call / keep-reading)
 
 ## Output

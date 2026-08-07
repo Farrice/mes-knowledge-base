@@ -19,7 +19,7 @@ status: enriched
 - PASS bank (VOICE-CARD §6) is a **floor, never a freeze list** — old passes aren't immune to today's diagnosis.
 - Kill switch if the layer annoys: `touch .agent/co-creation.off` (or `CO_CREATION_OFF=1`). Nothing ever blocks you.
 - First thing to run next session: `/resume about-rebuild-ship` → `/voice-compile` (12 verdicts pending) → pick a take.
-- Three About takes live at `_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md` — pick, don't regenerate.
+- Three About takes live at `_active/linkedin/03-launch/2026-07-28-about-rebuild-three-takes.md` — pick, don't regenerate.
 - Teardowns #1-3 still UNSENT. Send-before-build is the open verb blocking inbound.
 
 ## Command table

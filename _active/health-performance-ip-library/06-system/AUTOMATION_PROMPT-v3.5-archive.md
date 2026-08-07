@@ -229,7 +229,7 @@ Changed lines, verified claims, reader pull, specificity, and receipts are proof
 Required calibration:
 
 - Load the V4 golden sample before drafting when available:
-  `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
+  `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 - Load the repeatability packet when available:
   `_active/codex-repeatability/v4-high-taste-output-os.md`
 - Preserve the V4 chain:

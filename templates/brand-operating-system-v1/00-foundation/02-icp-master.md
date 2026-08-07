@@ -476,7 +476,7 @@ NON-NEGOTIABLES (any output that violates these is wrong):
 - `_active/andrea-dj/deliverables/2026-04-11-monday-package/01-pulse-brand.md` — brand spine, voice rules
 
 ### Internal (methodology)
-- `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State canonical example
+- `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State canonical example
 - `MEMORY.md` — Deep ICP Profile entry (2026-03-19), language-map and wince-test methodology
 - `directives/feedback-ratchet.md`, `directives/quality_gate.md` — quality standards
 

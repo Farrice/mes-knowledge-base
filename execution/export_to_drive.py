@@ -15,7 +15,7 @@ What it does:
     post reads as clean body text — no system overhead in the portable Docs.
   - Updates existing Docs in place (stable links); creates new ones; trashes stale "Farrice —"
     Docs no longer in the set (no duplicates as content rotates).
-  - Writes links to `_active/linkedin-launch/90-exports/drive-export-manifest.json`.
+  - Writes links to `_active/linkedin/90-exports/drive-export-manifest.json`.
   - Auth-expiry aware: on a gws token error, prints the re-auth command and exits non-zero.
 
 Usage:
@@ -34,8 +34,8 @@ import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_FOLDER = "Farrice LinkedIn Engine — Content & Strategy OS"
-MANIFEST_OUT = os.path.join(REPO, "_active/linkedin-launch/90-exports/drive-export-manifest.json")
-DAILY_DIR = os.path.join(REPO, "_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot")
+MANIFEST_OUT = os.path.join(REPO, "_active/linkedin/90-exports/drive-export-manifest.json")
+DAILY_DIR = os.path.join(REPO, "_active/linkedin/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot")
 FOLDER_MIME = "application/vnd.google-apps.folder"
 DOC_MIME = "application/vnd.google-apps.document"
 REAUTH = "gws auth login -s drive,gmail,calendar,sheets,docs"
@@ -43,16 +43,16 @@ AUTH_HINTS = ("invalid_grant", "token", "unauthorized", "401", "credential", "ex
 
 # Curated, non-daily assets: (relative path, Doc name, kind). kind: doc | system | content
 CORE = [
-    ("_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md", "Farrice — The Creative Book (Daily)", "doc"),
-    ("_active/linkedin-launch/01-research/MASTER-STRATEGY.md", "Farrice — Master Strategy", "doc"),
-    ("_active/linkedin-launch/content-os.md", "Farrice — Content OS", "doc"),
-    ("_active/linkedin-launch/01-research/icp-emotional-map.md", "Farrice — ICP Emotional Map", "doc"),
-    ("_active/linkedin-launch/01-research/wellness-supplement-brand-niche.md", "Farrice — Wellness & Supplement Brand Niche Research", "doc"),
-    ("_active/linkedin-launch/02-offer/OFFER-LADDER.md", "Farrice — Offer Ladder", "doc"),
-    ("_active/linkedin-launch/02-offer/teardown-system.md", "Farrice — Teardown System", "doc"),
-    ("_active/linkedin-launch/05-lead-gen/pipeline.md", "Farrice — Pipeline Tracker", "doc"),
-    ("_active/linkedin-launch/05-lead-gen/proof-tracker.md", "Farrice — Proof Tracker", "doc"),
-    ("_active/linkedin-launch/04-deliverables/content-os/voice-gate.md", "Farrice — Voice Gate", "doc"),
+    ("_active/linkedin/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md", "Farrice — The Creative Book (Daily)", "doc"),
+    ("_active/linkedin/01-research/MASTER-STRATEGY.md", "Farrice — Master Strategy", "doc"),
+    ("_active/linkedin/content-os.md", "Farrice — Content OS", "doc"),
+    ("_active/linkedin/01-research/icp-emotional-map.md", "Farrice — ICP Emotional Map", "doc"),
+    ("_active/linkedin/01-research/wellness-supplement-brand-niche.md", "Farrice — Wellness & Supplement Brand Niche Research", "doc"),
+    ("_active/linkedin/02-offer/OFFER-LADDER.md", "Farrice — Offer Ladder", "doc"),
+    ("_active/linkedin/02-offer/teardown-system.md", "Farrice — Teardown System", "doc"),
+    ("_active/linkedin/05-lead-gen/pipeline.md", "Farrice — Pipeline Tracker", "doc"),
+    ("_active/linkedin/05-lead-gen/proof-tracker.md", "Farrice — Proof Tracker", "doc"),
+    ("_active/linkedin/04-deliverables/content-os/voice-gate.md", "Farrice — Voice Gate", "doc"),
     (".agent/workflows/farrice-engine.md", "Farrice Engine — Master Workflow", "system"),
     (".agent/workflows/linkedin-daily.md", "Farrice — LinkedIn Daily Workflow", "system"),
 ]

@@ -70,7 +70,7 @@ status: enriched
 
 **How to invoke.** `plan` writes nothing · `apply … --stub` leaves a `MOVED.md` pointer · `verify` asserts 0 stale referrers.
 
-**Worked example.** `_active/linkedin-launch/04-content-os` → `04-deliverables/content-os`: 67 files, 42 files rewritten, 90 path replacements across 25 control-plane files including `/farrice-engine` and `/linkedin-daily`. Every rewritten workflow path was then spot-checked to resolve.
+**Worked example.** `_active/linkedin/04-content-os` → `04-deliverables/content-os`: 67 files, 42 files rewritten, 90 path replacements across 25 control-plane files including `/farrice-engine` and `/linkedin-daily`. Every rewritten workflow path was then spot-checked to resolve.
 
 **Honest edges.** `*/move-plan.md` is frozen — a before/after record must not be rewritten to the after-state. Rewrites are idempotent: the destination usually *contains* the source as a substring, which would otherwise corrupt on a second run.
 

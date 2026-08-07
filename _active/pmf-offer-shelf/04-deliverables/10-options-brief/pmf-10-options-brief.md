@@ -354,7 +354,7 @@ This brief BREAKS if:
 ## Source Inventory
 
 **Internal:**
-- `_active/linkedin-launch/01-research/MARKET-OFFER-INTEL-2026-07-01.md` — all pricing receipts
+- `_active/linkedin/01-research/MARKET-OFFER-INTEL-2026-07-01.md` — all pricing receipts
 - `_active/path-decision-2026-07-01/README.md` + `2026-07-01-FINAL-VERDICT-path-arbitration.md` — Path A binding, Incumbency Rule, Marcus probe
 - `PRODUCTION_CORE.md` — capability inventory (copy-engine, ghostwrite, avatar-machine, build-bos, extract-mastery)
 - `FARRICE.md` — Interest hierarchy, Anti-Guru positioning, content pillars

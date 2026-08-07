@@ -44,7 +44,7 @@ Rejected or review-required:
 
 ## References
 
-- `_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md`
+- `_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md`
 - `_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md`
 - `_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-adversarial-review.md`
 - `_active/health-performance-ip-library/public-assets/glp-1-movement-receipt-public-demo.md`

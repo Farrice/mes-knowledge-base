@@ -1,6 +1,6 @@
 # Red-Team: "God Agent Builds for Businesses"
 
-**Date:** 2026-08-06 · **Discipline:** /offer-redteam (prosecutor / defender / evidence run in one seat; dissent preserved) · **Grounding:** `01-research/god-agent-delta.md`, `extractions/riley-brown/mes-extension-god-agent.md`, `_active/linkedin-launch/CAMPAIGN.md`, `skills/nick-saraev-agentic-workflows/` (offer-selection workflow, 900-deal dataset)
+**Date:** 2026-08-06 · **Discipline:** /offer-redteam (prosecutor / defender / evidence run in one seat; dissent preserved) · **Grounding:** `01-research/god-agent-delta.md`, `extractions/riley-brown/mes-extension-god-agent.md`, `_active/linkedin/CAMPAIGN.md`, `skills/nick-saraev-agentic-workflows/` (offer-selection workflow, 900-deal dataset)
 
 ## 1. The offer, steel-manned
 

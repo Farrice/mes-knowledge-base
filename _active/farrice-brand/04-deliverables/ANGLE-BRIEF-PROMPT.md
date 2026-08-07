@@ -13,14 +13,14 @@ input file below, labeled VERIFIED / LIKELY / UNCONFIRMED.
 
 ## Inputs (read in this order; skip gracefully if missing)
 
-1. **Resonance + roster** — newest `_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-*.md`
+1. **Resonance + roster** — newest `_active/linkedin/05-lead-gen/engager-rosters/ROSTER-*.md`
    (the runner refreshes this before you start). Hooks that pulled hand-raises,
    reaction mixes, ICP-verbatim comment language.
 2. **Zeitgeist** — newest `deliverables/research-briefs/zeitgeist-*/` brief JSON(s)
    (there may be several lanes: ai-consulting-linkedin, supplement-brands, jen-sfv-realestate).
 3. **Thought bank** — `_active/farrice-brand/thought-bank/inbox/` unprocessed items (his raw ideas; connect,
    don't consume — do not mark or move them).
-4. **Active work context** — `_active/linkedin-launch/CAMPAIGN.md` (top section only:
+4. **Active work context** — `_active/linkedin/CAMPAIGN.md` (top section only:
    offer + queue) so angles serve live revenue work.
 
 ## Craft loads (before writing any hook or angle)
