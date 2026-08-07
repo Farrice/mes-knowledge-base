@@ -109,8 +109,8 @@ Examples:
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
-| **30-Day Review Date** | 2026-04-11 |
+| **Last Activated** | 2026-08-04 |
+| **Activation Count** | 1 |
+| **30-Day Review Date** | 2026-09-03 |
 
 **Update Rule**: When this protocol fires (extraction converted to skill), update the date and increment count.

@@ -71,7 +71,7 @@
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
 | `david-gelb` | **David Gelb** | agent configuration |
 | `david-mcraney` | **David McRaney** | belief change architect |
-| `david-perell` | **david-perell** | audience connection, compression to memorable, connection engineering, memorable communication, pop diagnosis, reading as extraction, sizzle calibration, writing craft — compelling nonfiction |
+| `david-perell` | **david-perell** | and memorable communication, core preservation, cultural timing, current-fit judgment, historical and placeful diagnosis, idea development, idea-courage-craft triage, memorable compression, observation mining, oral bit refinement, pop craft, writing craft |
 | `david-placek` | **Agent: David Placek** | david placek |
 | `deya` | **deya** | 1-page business planning, business model selection, business systems, business validation, freelance/service business operations, offer engineering and pricing, rapid business validation, service/freelance business building, simplified funnel design, validation strategist |
 | `dhar-mann` | **Dhar Mann: Transformational Community Story Strategist** | transformational community story strategist |

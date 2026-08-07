@@ -1,0 +1,23 @@
+{
+  "title": "Extraction Vision: David Perell - The Idea-to-Culture Loop",
+  "slug": "david-perell-idea-to-culture-loop-vision",
+  "artifact_type": "extraction_vision",
+  "summary": "Checkpoint-1 vision for a source-grounded expansion of the existing david-perell-writing skill, completing the loop from idea discovery through current-aware distribution without duplicating adjacent capabilities.",
+  "created": "2026-08-04",
+  "workspace": "/private/tmp/antigravity-extract-forge-qshm-0mehx8",
+  "primary_file": "VISION.md",
+  "source_role": "Local Codex-readable artifact source with sidecar metadata.",
+  "explicitExportRequest": false,
+  "approvedExports": [],
+  "source_video_id": "QsHm_0MEhX8",
+  "source_url": "https://www.youtube.com/watch?v=QsHm_0MEhX8",
+  "featured_expert": "David Perell",
+  "existing_skill": "skills/david-perell-writing",
+  "build_state": "VISION_CHECKPOINT_ONLY",
+  "proof_state": "SOURCE_VERIFIED_BUILD_UNTESTED",
+  "subagents_used": [
+    "source_mechanics",
+    "coverage_audit",
+    "leverage_vision"
+  ]
+}

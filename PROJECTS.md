@@ -108,3 +108,27 @@ Contradictions only — not a list of unstamped projects.
 | `swarm-apex-2026-07-07` | _active/ | `_active/swarm-apex-2026-07-07/INDEX.md` | 2026-08-06 | done |
 | `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-08-06 | done |
 **57 projects** — 18 active, 20 parked, 19 done.
+Generated 2026-08-04 by `execution/projects_index.py`. **Do not edit manually.**
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-04 | active |
+| `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-08-04 | active* |
+| `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-04 | active* |
+| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-04 | active* |
+| `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-08-04 | active |
+| `jen-listings` | _active/ | `_active/jen-listings/INDEX.md` | 2026-07-25 | active* |
+| `josh-swing-nerd-shirts-v1` | _active/ | `_active/josh-swing-nerd-shirts-v1/INDEX.md` | 2026-07-06 | active* |
+| `andrea-dj` | _active/ | `_active/andrea-dj/RISKS.md` | 2026-08-04 | parked |
+| `claude-code-harness-analysis` | _active/ | `_active/claude-code-harness-analysis/README.md` | 2026-08-04 | parked |
+| `farrice-creative-strategist-portfolio` | _active/ | `_active/farrice-creative-strategist-portfolio/INDEX.md` | 2026-08-04 | parked |
+| `javier-human-values` | _active/ | `_active/javier-human-values/INDEX.md` | 2026-08-04 | parked |
+| `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-08-04 | parked |
+| `kens-fasting` | _active/ | `_active/kens-fasting/INDEX.md` | 2026-08-04 | parked |
+| `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-08-04 | parked |
+| `remotion-studio` | _active/ | `_active/remotion-studio/INDEX.md` | 2026-08-04 | parked |
+| `harness-apex-2026-07-07` | _active/ | `_active/harness-apex-2026-07-07/INDEX.md` | 2026-08-04 | done |
+| `memory-bakeoff` | _active/ | `_active/memory-bakeoff/INDEX.md` | 2026-08-04 | done |
+| `operator-core-backport` | _active/ | `_active/operator-core-backport/INDEX.md` | 2026-08-04 | done |
+| `pmf-offer-shelf` | _active/ | `_active/pmf-offer-shelf/INDEX.md` | 2026-08-04 | done |
+| `swarm-apex-2026-07-07` | _active/ | `_active/swarm-apex-2026-07-07/INDEX.md` | 2026-08-04 | done |
+| `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-08-04 | done |
+| `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
+**55 projects** — 17 active, 19 parked, 19 done.

@@ -1,0 +1,23 @@
+{
+  "title": "David Perell: Idea-to-Culture Mastery Extraction",
+  "slug": "david-perell-idea-to-culture-mastery-extraction",
+  "artifact_type": "mastery_extraction",
+  "created": "2026-08-04",
+  "source_video_id": "QsHm_0MEhX8",
+  "featured_expert": "David Perell",
+  "interviewer": "Nathan Barry",
+  "depth_tier": "Deep",
+  "corpus_words": 20537,
+  "genius_patterns": 17,
+  "hidden_knowledge_items": 14,
+  "hall_of_fame_exemplars": 6,
+  "anti_exemplars": 10,
+  "signature_moves": 10,
+  "rubric_criteria": 12,
+  "existing_skill": "skills/david-perell-writing",
+  "build_state": "PHASE_7_VERIFIED_AWAITING_CHECKPOINT_3",
+  "proof_state": "SOURCE_VERIFIED_RUNTIME_OBSERVED_FIXTURE_HUMAN_RECOGNITION_PENDING",
+  "visual_context": "UNAVAILABLE_DURATION_CAP",
+  "explicitExportRequest": false,
+  "approvedExports": []
+}

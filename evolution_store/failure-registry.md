@@ -56,3 +56,7 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **Prevention Rule:** Any rollback, demotion, or contract replacement must search for prior documents asserting the superseded behavior, mark them clearly as historical or superseded in the same patch, publish the current authority order in the implementation receipt, and fail validation when an unlabeled document contradicts active behavior.
 - **Last Triggered:** 2026-08-04
 - **Occurrences:** 1
+### [ROTTING]: born_intent_drift
+- **Root Cause:** 1 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: skill:david-perell-writing
+- **Prevention Rule:** Decide born_intent_drift or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
+- **Occurrences:** 7

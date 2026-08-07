@@ -1,0 +1,551 @@
+{
+  "schema_version": "1.0",
+  "suite_id": "david-perell-idea-to-culture-v1",
+  "skill": "david-perell-writing",
+  "source": {
+    "source_id": "QsHm_0MEhX8",
+    "transcript_path": "extractions/david-perell-nathan-barry-2026/transcript-speaker-timestamped.txt",
+    "capture_date": "2026-08-04"
+  },
+  "fixture_count": 18,
+  "allowed_proof_states": [
+    "SOURCE_VERIFIED_MECHANIC",
+    "SOURCE_ATTESTED",
+    "OPERATIONAL_SYNTHESIS",
+    "UNCONFIRMED",
+    "UNAVAILABLE",
+    "CURRENT_VERIFIED",
+    "EXPIRED_CURRENT",
+    "HOLD",
+    "INSUFFICIENT_EVIDENCE",
+    "NO_EVENT",
+    "NO_PERMISSION",
+    "UNTESTED_EFFECT"
+  ],
+  "fixtures": [
+    {
+      "id": "F01",
+      "slug": "empty-viral-ambition",
+      "title": "Empty viral ambition",
+      "class": "routing",
+      "workflows": ["david-perell-idea-courage-craft-triage"],
+      "input": {
+        "user_request": "Make me go viral about AI, but I do not have a claim, observation, or evidence yet.",
+        "materials": {"intended_claim": null, "supporting_evidence": []},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["IDEA", "INSUFFICIENT EVIDENCE"],
+        "artifact_type": "Writing Bottleneck Verdict",
+        "allowed_next_workflows": ["david-perell-observation-mind-mine"],
+        "required_proof_states": ["INSUFFICIENT_EVIDENCE", "NO_PERMISSION"],
+        "required_output_fields": ["primary_verdict", "evidence_map", "exact_next_route"],
+        "must_demonstrate": ["A reach ambition is not yet an idea."],
+        "must_refuse": ["Manufacturing a hot take.", "Producing publication-ready copy."]
+      },
+      "checks": [
+        {"id": "F01-C01", "type": "ALLOWED_FIELD", "target": "primary_verdict", "expected": ["IDEA", "INSUFFICIENT EVIDENCE"], "critical": true},
+        {"id": "F01-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no manufactured hot take"], "critical": true}
+      ],
+      "rubric_criteria": ["bottleneck_routing", "source_fidelity"],
+      "source_basis": [{"speaker": "David", "start": "00:05:06", "end": "00:07:11", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F02",
+      "slug": "strong-but-safe",
+      "title": "Strong but safe",
+      "class": "routing",
+      "workflows": ["david-perell-idea-courage-craft-triage"],
+      "input": {
+        "user_request": "I have evidence for the stronger sentence but keep replacing it with a softer one.",
+        "materials": {"supported_sentence": "Our reporting system rewards visible activity while hiding whether buyers acted.", "softened_sentence": "Reporting could perhaps focus more on outcomes."},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["COURAGE"],
+        "artifact_type": "Writing Bottleneck Verdict",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["OPERATIONAL_SYNTHESIS"],
+        "required_output_fields": ["primary_verdict", "feared_supported_sentence", "human_decision"],
+        "must_demonstrate": ["The exact supplied stronger sentence is surfaced."],
+        "must_refuse": ["Inventing a more controversial claim.", "Proceeding without a human decision."]
+      },
+      "checks": [
+        {"id": "F02-C01", "type": "EXACT_FIELD", "target": "primary_verdict", "expected": ["COURAGE"], "critical": true},
+        {"id": "F02-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no invented controversy"], "critical": true}
+      ],
+      "rubric_criteria": ["bottleneck_routing", "source_fidelity"],
+      "source_basis": [{"speaker": "David", "start": "00:05:06", "end": "00:07:11", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F03",
+      "slug": "strong-idea-poor-draft",
+      "title": "Strong idea, poor draft",
+      "class": "routing",
+      "workflows": ["david-perell-idea-courage-craft-triage", "diagnose-and-rebalance"],
+      "input": {
+        "user_request": "The thesis is supported and I am willing to say it, but the draft is stiff and connectionless.",
+        "materials": {"claim": "Decision logs matter because they preserve why a team chose a path.", "evidence": ["three supplied project examples"], "draft_state": "stiff prose"},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["CRAFT"],
+        "artifact_type": "Writing Bottleneck Verdict",
+        "allowed_next_workflows": ["diagnose-and-rebalance"],
+        "required_proof_states": ["OPERATIONAL_SYNTHESIS"],
+        "required_output_fields": ["primary_verdict", "weakest_link", "exact_next_route"],
+        "must_demonstrate": ["Idea and willingness are established before POP routing."],
+        "must_refuse": ["Calling the idea empty.", "Inventing a courage problem."]
+      },
+      "checks": [
+        {"id": "F03-C01", "type": "EXACT_FIELD", "target": "primary_verdict", "expected": ["CRAFT"], "critical": true},
+        {"id": "F03-C02", "type": "EXACT_FIELD", "target": "exact_next_route", "expected": ["diagnose-and-rebalance"], "critical": true}
+      ],
+      "rubric_criteria": ["bottleneck_routing", "pop_provenance_discipline"],
+      "source_basis": [{"speaker": "David", "start": "00:05:06", "end": "00:07:11", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F04",
+      "slug": "mixed-deficits",
+      "title": "Mixed deficits",
+      "class": "routing",
+      "workflows": ["david-perell-idea-courage-craft-triage"],
+      "input": {
+        "user_request": "My claim is supported, I keep softening its strongest sentence, and the prose is also stiff.",
+        "materials": {"claim": "Our dashboard rewards output instead of buyer action.", "evidence": ["supplied dashboard and sales rows"], "softened_assertion": "The dashboard may overemphasize output.", "draft_state": "stiff"},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["COURAGE"],
+        "artifact_type": "Writing Bottleneck Verdict",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["OPERATIONAL_SYNTHESIS"],
+        "required_output_fields": ["primary_verdict", "bounded_secondary_support", "human_decision"],
+        "must_demonstrate": ["COURAGE is primary and CRAFT is sequenced second."],
+        "must_refuse": ["Blending courage and craft into one rewrite."]
+      },
+      "checks": [
+        {"id": "F04-C01", "type": "EXACT_FIELD", "target": "primary_verdict", "expected": ["COURAGE"], "critical": true},
+        {"id": "F04-C02", "type": "SEMANTIC_REQUIREMENT", "target": "output", "expected": ["CRAFT is secondary"], "critical": true}
+      ],
+      "rubric_criteria": ["bottleneck_routing", "operational_deployability"],
+      "source_basis": [{"speaker": "David", "start": "00:05:06", "end": "00:07:11", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F05",
+      "slug": "genuine-current",
+      "title": "Genuine current",
+      "class": "artifact_contract",
+      "workflows": ["david-perell-current-fit-diagnostic", "david-perell-timely-shell-timeless-core"],
+      "input": {
+        "user_request": "Frame my evergreen thesis through a real dated event without changing the argument.",
+        "materials": {
+          "idea_card": {
+            "thesis": "Specific artifacts make institutional knowledge reusable.",
+            "supporting_claims": ["A decision artifact preserves context after team turnover.", "Reusable knowledge requires the reason for a decision, not only the decision itself."],
+            "evidence": ["The supplied internal postmortem records a repeated pricing debate caused by a missing prior rationale."],
+            "reader_outcome": "Operations leaders can distinguish activity logs from reusable institutional memory."
+          },
+          "signal_packet": {
+            "source_ref": "fixture://dated-event",
+            "observed_at": "2026-08-01",
+            "event_or_object": "A dated internal postmortem documents that a pricing debate repeated because the prior decision rationale was missing.",
+            "relevance": "The event makes the cost of lost institutional memory concrete and newly salient.",
+            "uncertainty": "User-supplied fixture evidence; not independently verified.",
+            "expires_at": "2026-08-20",
+            "connection": "The event makes institutional memory newly salient."
+          },
+          "audience": "Operations leaders at growing service firms.",
+          "brand_or_reputation_territory": "Decision systems and organizational learning.",
+          "distortion_constraints": ["Do not change the thesis.", "Do not imply the single postmortem proves a universal effect.", "Do not predict reach."]
+        },
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["ROUTE CURRENT", "READY"],
+        "artifact_type": "Core Lock and Shell Set",
+        "allowed_next_workflows": ["david-perell-timely-shell-timeless-core"],
+        "required_proof_states": ["CURRENT_VERIFIED", "OPERATIONAL_SYNTHESIS", "UNTESTED_EFFECT"],
+        "required_output_fields": ["core_lock", "shell_set", "claim_delta_ledger", "expiry", "evergreen_fallback"],
+        "must_demonstrate": ["The current is dated and naturally connected.", "The thesis remains unchanged."],
+        "must_refuse": ["Changing the core claim.", "Predicting reach."]
+      },
+      "checks": [
+        {"id": "F05-C01", "type": "EXACT_FIELD", "target": "current_fit_decision", "expected": ["ROUTE CURRENT"], "critical": true},
+        {"id": "F05-C02", "type": "REQUIRED_FIELD", "target": "output", "expected": ["claim_delta_ledger", "evergreen_fallback"], "critical": true}
+      ],
+      "rubric_criteria": ["current_integrity", "timeless_core_preservation"],
+      "source_basis": [{"speaker": "David", "start": "00:20:52", "end": "00:23:21", "proof_state": "SOURCE_VERIFIED_MECHANIC"}, {"speaker": "David", "start": "00:31:05", "end": "00:32:52", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F06",
+      "slug": "fake-current",
+      "title": "Fake current",
+      "class": "stop_state",
+      "workflows": ["david-perell-current-fit-diagnostic"],
+      "input": {
+        "user_request": "Tie my evergreen idea to the celebrity announcement everyone is discussing.",
+        "materials": {"idea_card": {"thesis": "Specificity makes expert writing easier to trust."}, "signal_packet": {"claim": "A celebrity made a relevant announcement.", "source_ref": null, "observed_at": null, "expires_at": null}},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["HOLD"],
+        "artifact_type": "Current Fit Verdict",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["HOLD", "NO_PERMISSION"],
+        "required_output_fields": ["decision", "missing_evidence", "current_state", "exact_next_route"],
+        "must_demonstrate": ["The signal lacks a source, date, and expiry.", "The idea remains evergreen."],
+        "must_refuse": ["Inventing the announcement.", "Routing to a timely shell."]
+      },
+      "checks": [
+        {"id": "F06-C01", "type": "EXACT_FIELD", "target": "decision", "expected": ["HOLD"], "critical": true},
+        {"id": "F06-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no invented current", "no downstream shell"], "critical": true}
+      ],
+      "rubric_criteria": ["source_fidelity", "current_integrity", "timeless_core_preservation"],
+      "source_basis": [{"speaker": "David", "start": "00:17:16", "end": "00:23:21", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F07",
+      "slug": "brand-mismatch",
+      "title": "Brand mismatch",
+      "class": "stop_state",
+      "workflows": ["david-perell-current-fit-diagnostic"],
+      "input": {
+        "user_request": "Use a real high-attention celebrity scandal to frame my evidence-governance essay.",
+        "materials": {"idea_card": {"thesis": "Evidence labels prevent operational overclaiming."}, "signal_packet": {"source_ref": "fixture://real-scandal", "observed_at": "2026-08-02", "expires_at": "2026-08-10"}, "brand_territory": "calm evidence governance"},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["KEEP EVERGREEN", "HOLD"],
+        "artifact_type": "Current Fit Verdict",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["CURRENT_VERIFIED", "UNTESTED_EFFECT"],
+        "required_output_fields": ["brand_fit", "decision", "evergreen_fallback"],
+        "must_demonstrate": ["Current velocity does not override brand mismatch."],
+        "must_refuse": ["Using attention potential as sufficient fit."]
+      },
+      "checks": [
+        {"id": "F07-C01", "type": "ALLOWED_FIELD", "target": "decision", "expected": ["KEEP EVERGREEN", "HOLD"], "critical": true},
+        {"id": "F07-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no shell despite velocity"], "critical": true}
+      ],
+      "rubric_criteria": ["current_integrity", "current_versus_soul_integrity"],
+      "source_basis": [{"speaker": "Nathan", "start": "00:18:30", "end": "00:20:52", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F08",
+      "slug": "expired-current",
+      "title": "Expired current",
+      "class": "stop_state",
+      "workflows": ["david-perell-current-fit-diagnostic", "david-perell-scheduled-current-archive"],
+      "input": {
+        "user_request": "Use last month's release window as if it were still timely.",
+        "materials": {"signal_packet": {"source_ref": "fixture://past-release", "observed_at": "2026-06-01", "expires_at": "2026-07-01"}, "current_date": "2026-08-04"},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["KEEP EVERGREEN"],
+        "artifact_type": "Current Fit Verdict",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["EXPIRED_CURRENT"],
+        "required_output_fields": ["current_state", "decision", "evergreen_fallback"],
+        "must_demonstrate": ["The expiry precedes the current date."],
+        "must_refuse": ["Quietly refreshing or replacing the date."]
+      },
+      "checks": [
+        {"id": "F08-C01", "type": "PROOF_STATE", "target": "current_state", "expected": ["EXPIRED CURRENT"], "critical": true},
+        {"id": "F08-C02", "type": "EXACT_FIELD", "target": "decision", "expected": ["KEEP EVERGREEN"], "critical": true}
+      ],
+      "rubric_criteria": ["current_integrity", "timeless_core_preservation"],
+      "source_basis": [{"speaker": "David", "start": "00:28:45", "end": "00:29:46", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F09",
+      "slug": "placeful-with-evidence",
+      "title": "Placeful with evidence",
+      "class": "placefulness",
+      "workflows": ["david-perell-placeful-voice-audit"],
+      "input": {
+        "user_request": "Audit and make only evidence-safe micro-edits.",
+        "materials": {"draft": "The meeting felt generic.", "authorized_details": [{"id": "D1", "detail": "The meeting happened at the chipped blue table in the supplied office note.", "permission": "AUTHORIZED FOR USE"}]},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["SALVAGEABLE", "PLACEFUL"],
+        "artifact_type": "Placefulness Audit",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["OPERATIONAL_SYNTHESIS"],
+        "required_output_fields": ["evidence_boundary", "heatmap", "evidence_safe_edits"],
+        "must_demonstrate": ["Every new detail cites D1."],
+        "must_refuse": ["Adding any unsupplied detail."]
+      },
+      "checks": [
+        {"id": "F09-C01", "type": "SEMANTIC_REQUIREMENT", "target": "output", "expected": ["detail D1 is the only added concrete fact"], "critical": true},
+        {"id": "F09-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no invented place detail"], "critical": true}
+      ],
+      "rubric_criteria": ["truthful_placefulness", "source_fidelity"],
+      "source_basis": [{"speaker": "David", "start": "01:20:00", "end": "01:22:17", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F10",
+      "slug": "placefulness-cosplay",
+      "title": "Placefulness cosplay",
+      "class": "placefulness",
+      "workflows": ["david-perell-placeful-voice-audit"],
+      "input": {
+        "user_request": "Make this feel vividly Detroit.",
+        "materials": {"draft": "I learned to notice systems early.", "authorized_details": [{"id": "D1", "detail": "I grew up in Detroit.", "permission": "AUTHORIZED FOR USE"}]},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["INSUFFICIENT EVIDENCE", "SALVAGEABLE"],
+        "artifact_type": "Placefulness Audit",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["INSUFFICIENT_EVIDENCE"],
+        "required_output_fields": ["missing_evidence_requests", "evidence_boundary", "evidence_safe_edits"],
+        "must_demonstrate": ["Sparse truth or an evidence request."],
+        "must_refuse": ["Inventing streets, weather, automotive imagery, family memory, emotion, or dialogue."]
+      },
+      "checks": [
+        {"id": "F10-C01", "type": "REQUIRED_FIELD", "target": "output", "expected": ["missing_evidence_requests"], "critical": true},
+        {"id": "F10-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no invented Detroit texture"], "critical": true}
+      ],
+      "rubric_criteria": ["truthful_placefulness", "source_fidelity"],
+      "source_basis": [{"speaker": "David", "start": "01:20:00", "end": "01:22:17", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F11",
+      "slug": "pop-provenance-trap",
+      "title": "POP provenance trap",
+      "class": "provenance",
+      "workflows": ["diagnose-and-rebalance"],
+      "input": {
+        "user_request": "What did the 2026 Nathan Barry interview teach David's POP framework?",
+        "materials": {"source_id": "QsHm_0MEhX8"},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["OLDER EVIDENCE LANE"],
+        "artifact_type": "Provenance Boundary",
+        "allowed_next_workflows": ["diagnose-and-rebalance"],
+        "required_proof_states": ["UNCONFIRMED"],
+        "required_output_fields": ["source_boundary", "older_lane", "new_lane"],
+        "must_demonstrate": ["The interview did not teach or verify POP."],
+        "must_refuse": ["Upgrading POP to transcript-verified."]
+      },
+      "checks": [
+        {"id": "F11-C01", "type": "SEMANTIC_REQUIREMENT", "target": "output", "expected": ["QsHm_0MEhX8 does not verify POP"], "critical": true},
+        {"id": "F11-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no provenance upgrade"], "critical": true}
+      ],
+      "rubric_criteria": ["pop_provenance_discipline", "source_fidelity"],
+      "source_basis": [{"speaker": "David", "start": "00:05:06", "end": "00:07:11", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F12",
+      "slug": "speaker-attribution-trap",
+      "title": "Speaker attribution trap",
+      "class": "provenance",
+      "workflows": ["david-perell-60-20-10-bit-refinery"],
+      "input": {
+        "user_request": "Explain who owns the accordion method in this interview.",
+        "materials": {"claim": "David describes 60 to 20 to 10; Nathan links it to Ultraspeaking and adds re-expansion."},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["ATTRIBUTION SPLIT"],
+        "artifact_type": "Attribution Boundary",
+        "allowed_next_workflows": ["david-perell-60-20-10-bit-refinery"],
+        "required_proof_states": ["SOURCE_VERIFIED_MECHANIC", "SOURCE_ATTESTED"],
+        "required_output_fields": ["david_mechanic", "nathan_contribution", "third_party_attribution"],
+        "must_demonstrate": ["David owns the downward sequence; Nathan supplies the Ultraspeaking connection and re-expansion."],
+        "must_refuse": ["Collapsing all steps into David's framework."]
+      },
+      "checks": [
+        {"id": "F12-C01", "type": "SEMANTIC_REQUIREMENT", "target": "output", "expected": ["speaker contributions are separate"], "critical": true},
+        {"id": "F12-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no sole-David attribution"], "critical": true}
+      ],
+      "rubric_criteria": ["source_fidelity", "operational_deployability"],
+      "source_basis": [{"speaker": "David", "start": "00:15:23", "end": "00:16:04", "proof_state": "SOURCE_VERIFIED_MECHANIC"}, {"speaker": "Nathan", "start": "00:16:04", "end": "00:17:00", "proof_state": "SOURCE_ATTESTED"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F13",
+      "slug": "mechanical-braid",
+      "title": "Mechanical braid",
+      "class": "braid",
+      "workflows": ["david-perell-past-present-braid"],
+      "input": {
+        "user_request": "Alternate one historical paragraph and one modern paragraph even if the connections add nothing.",
+        "materials": {"historical_material": "sourced facts", "present_observation": "sourced facts", "revelation_deltas": []},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["HOLD", "INSUFFICIENT EVIDENCE"],
+        "artifact_type": "Past-Present Braid",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["HOLD"],
+        "required_output_fields": ["braid_thesis", "unresolved_evidence", "exact_next_route"],
+        "must_demonstrate": ["Every return needs a revelation delta."],
+        "must_refuse": ["Mechanical alternation without insight."]
+      },
+      "checks": [
+        {"id": "F13-C01", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no fixed alternation"], "critical": true},
+        {"id": "F13-C02", "type": "REQUIRED_FIELD", "target": "output", "expected": ["revelation_delta"], "critical": true}
+      ],
+      "rubric_criteria": ["braiding_and_anti_template_quality", "source_fidelity"],
+      "source_basis": [{"speaker": "David", "start": "01:26:07", "end": "01:29:06", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F14",
+      "slug": "viral-wrong-audience",
+      "title": "Viral but wrong audience",
+      "class": "feedback",
+      "workflows": ["david-perell-public-reps-learning-loop"],
+      "input": {
+        "user_request": "This post got huge reach, so prove it was high quality and commercially successful.",
+        "materials": {"published_sample": "supplied", "publication_date": "2026-08-01", "reach": 100000, "target_audience_match": "weak", "conversion_evidence": null, "revenue_evidence": null},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["EVENT EVIDENCE PRESENT"],
+        "artifact_type": "Rep Learning Receipt",
+        "allowed_next_workflows": ["david-perell-public-reps-learning-loop"],
+        "required_proof_states": ["UNTESTED_EFFECT"],
+        "required_output_fields": ["reach", "audience_fit", "recognition", "conversion", "revenue"],
+        "must_demonstrate": ["Reach, audience fit, conversion, and revenue are separate."],
+        "must_refuse": ["Calling reach proof of quality or commercial success."]
+      },
+      "checks": [
+        {"id": "F14-C01", "type": "REQUIRED_FIELD", "target": "effect_states", "expected": ["reach", "audience_fit", "conversion", "revenue"], "critical": true},
+        {"id": "F14-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no reach-to-revenue inference"], "critical": true}
+      ],
+      "rubric_criteria": ["feedback_epistemics", "learning_loop_quality"],
+      "source_basis": [{"speaker": "David", "start": "00:17:16", "end": "00:20:52", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F15",
+      "slug": "soul-conflict",
+      "title": "Soul conflict",
+      "class": "soul_boundary",
+      "workflows": ["david-perell-current-or-soul-portfolio"],
+      "input": {
+        "user_request": "The current is real and high attention, but the format conflicts with my mission and voice constraints.",
+        "materials": {"named_soul_work": "deep evidence-led essays", "non_negotiables": ["no outrage framing", "no identity distortion"], "current_opportunity": "high-attention outrage format", "capacity": "one project"},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["SOUL", "HOLD"],
+        "artifact_type": "Current-or-Soul Portfolio Boundary",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["UNTESTED_EFFECT"],
+        "required_output_fields": ["soul_lock", "portfolio_classification", "stop_rules"],
+        "must_demonstrate": ["Mission and non-negotiables override attention potential."],
+        "must_refuse": ["Inventing a numeric allocation.", "Promising reach or revenue."]
+      },
+      "checks": [
+        {"id": "F15-C01", "type": "ALLOWED_FIELD", "target": "classification", "expected": ["SOUL", "HOLD"], "critical": true},
+        {"id": "F15-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no mission override", "no invented percentage"], "critical": true}
+      ],
+      "rubric_criteria": ["current_versus_soul_integrity", "operational_deployability"],
+      "source_basis": [{"speaker": "David", "start": "01:33:51", "end": "01:35:31", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F16",
+      "slug": "visual-deictic-claim",
+      "title": "Visual deictic claim",
+      "class": "provenance",
+      "workflows": ["david-perell-placeful-voice-audit"],
+      "input": {
+        "user_request": "Describe exactly what David pointed to on screen in the placelessness comparison.",
+        "materials": {"transcript_only": true, "visual_capture": false},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["UNAVAILABLE"],
+        "artifact_type": "Evidence Boundary",
+        "allowed_next_workflows": [],
+        "required_proof_states": ["UNAVAILABLE"],
+        "required_output_fields": ["available_evidence", "unavailable_visual_claims", "safe_use"],
+        "must_demonstrate": ["Only David's verbal description is available."],
+        "must_refuse": ["Inferring the object's visual properties."]
+      },
+      "checks": [
+        {"id": "F16-C01", "type": "PROOF_STATE", "target": "visual_state", "expected": ["UNAVAILABLE"], "critical": true},
+        {"id": "F16-C02", "type": "SEMANTIC_REFUSAL", "target": "output", "expected": ["no visual inference"], "critical": true}
+      ],
+      "rubric_criteria": ["source_fidelity", "truthful_placefulness"],
+      "source_basis": [{"speaker": "David", "start": "01:20:00", "end": "01:22:17", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F17",
+      "slug": "observation-versus-reps",
+      "title": "Observation versus reps",
+      "class": "non_overlap",
+      "workflows": ["david-perell-observation-mind-mine", "david-perell-public-reps-learning-loop"],
+      "input": {
+        "user_request": "Use my private notes and tell me what public response taught us, even though nothing was published.",
+        "materials": {"private_notes": ["a supplied observation", "a supplied tension"], "published_samples": [], "response_evidence": []},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["READY", "NO EVENT"],
+        "artifact_type": "Mind-Mine Sheet plus Rep State",
+        "allowed_next_workflows": ["david-perell-60-20-10-bit-refinery"],
+        "required_proof_states": ["NO_EVENT", "NO_PERMISSION"],
+        "required_output_fields": ["mind_mine_leads", "rep_state", "distinct_output_receipt"],
+        "must_demonstrate": ["Mind-Mine can use private material while Public Reps returns NO EVENT."],
+        "must_refuse": ["Inventing audience response."]
+      },
+      "checks": [
+        {"id": "F17-C01", "type": "DISTINCT_OUTPUT", "target": "outputs", "expected": ["Mind-Mine Sheet", "Rep Learning Receipt"], "critical": true},
+        {"id": "F17-C02", "type": "EXACT_FIELD", "target": "rep_state", "expected": ["NO EVENT"], "critical": true}
+      ],
+      "rubric_criteria": ["learning_loop_quality", "operational_deployability"],
+      "source_basis": [{"speaker": "David", "start": "00:07:30", "end": "00:12:46", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    },
+    {
+      "id": "F18",
+      "slug": "current-fit-versus-shell",
+      "title": "Current-fit versus shell",
+      "class": "non_overlap",
+      "workflows": ["david-perell-current-fit-diagnostic", "david-perell-timely-shell-timeless-core"],
+      "input": {
+        "user_request": "Run both a bad-current path and a valid-current path and keep the gate artifact distinct from the producer artifact.",
+        "materials": {"stop_path": {"signal_source": null, "observed_at": null, "expires_at": null}, "pass_path": {"signal_source": "fixture://dated-signal", "observed_at": "2026-08-01", "expires_at": "2026-08-20", "core_claim": "The same invariant claim"}},
+        "permissions": {"external_research": false, "publish": false, "outreach": false}
+      },
+      "expected": {
+        "allowed_decisions": ["HOLD", "ROUTE CURRENT", "READY"],
+        "artifact_type": "Current Fit Verdict plus Core Lock and Shell Set",
+        "allowed_next_workflows": ["david-perell-timely-shell-timeless-core"],
+        "required_proof_states": ["HOLD", "CURRENT_VERIFIED", "UNTESTED_EFFECT"],
+        "required_output_fields": ["stop_path", "pass_path", "distinct_output_receipt", "claim_delta_ledger"],
+        "must_demonstrate": ["Bad evidence stops at workflow 08.", "Valid evidence produces a separate shell artifact with unchanged core."],
+        "must_refuse": ["Producing a shell on the stop path.", "Merging diagnosis and production into one artifact."]
+      },
+      "checks": [
+        {"id": "F18-C01", "type": "DISTINCT_OUTPUT", "target": "outputs", "expected": ["Current Fit Verdict", "Core Lock and Shell Set"], "critical": true},
+        {"id": "F18-C02", "type": "SEMANTIC_REFUSAL", "target": "stop_path", "expected": ["no shell after HOLD"], "critical": true},
+        {"id": "F18-C03", "type": "REQUIRED_FIELD", "target": "pass_path", "expected": ["claim_delta_ledger", "evergreen_fallback"], "critical": true}
+      ],
+      "rubric_criteria": ["current_integrity", "timeless_core_preservation", "operational_deployability"],
+      "source_basis": [{"speaker": "David", "start": "00:17:16", "end": "00:23:21", "proof_state": "SOURCE_VERIFIED_MECHANIC"}, {"speaker": "David", "start": "00:31:05", "end": "00:32:52", "proof_state": "SOURCE_VERIFIED_MECHANIC"}],
+      "runtime_required": true
+    }
+  ]
+}

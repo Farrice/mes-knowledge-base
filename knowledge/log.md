@@ -735,3 +735,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-04 11:38]` **finalize** | Reality Before Rhetoric workspace-local integration and frozen cross-domain regression benchmark | general | source-to-skill-system — composite:8.67 status:Keep
 - `[2026-08-04 15:21]` **finalize** | Capability-preserving Reality Before Rhetoric restoration with Dhar storytelling and production expe | general | dhar-mann — composite:7.0 status:Needs Improvement
 - `[2026-08-04 15:21]` **finalize** | Capability-preserving Reality Before Rhetoric restoration with Dhar storytelling and production expe | general | dhar-mann — composite:8.0 status:Keep
+- `[2026-08-04 16:04]` **finalize** | David Perell Idea-to-Culture extraction Vision and source ledger at Checkpoint 1 | general | david-perell — composite:6.0 status:Needs Improvement
+- `[2026-08-04 16:05]` **finalize** | David Perell Idea-to-Culture extraction Vision and source ledger at Checkpoint 1 | general | david-perell — composite:7.0 status:Needs Improvement
+- `[2026-08-04 16:35]` **finalize** | David Perell Deep MES extraction and Idea-to-Culture Architecture Checkpoint 2 | general | david-perell — composite:7.8 status:Keep
+- `[2026-08-04 18:00]` **finalize** | David Perell — Idea-to-Culture mastery extraction (forge) | general | david-perell — composite:7.0 status:Needs Improvement
