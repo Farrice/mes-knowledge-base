@@ -40,6 +40,7 @@ import sys
 import re
 import shutil
 import tempfile
+import time
 import argparse
 import difflib
 import subprocess
@@ -282,23 +283,44 @@ def _git(*a) -> str:
 
 
 # ── commands ────────────────────────────────────────────────────────
-def _newest_temp():
-    cands = sorted(Path(tempfile.gettempdir()).glob("handoff-*.md"),
-                   key=lambda p: p.stat().st_mtime, reverse=True)
+FRESH_TEMP_WINDOW_SEC = 30 * 60  # >1 candidate this fresh = ambiguous (2026-07-25 collision card)
+
+
+def _temp_candidates(slug=None):
+    pat = f"handoff-*{slug}*.md" if slug else "handoff-*.md"
+    return sorted(Path(tempfile.gettempdir()).glob(pat),
+                  key=lambda p: p.stat().st_mtime, reverse=True)
+
+
+def _newest_temp(slug=None):
+    cands = _temp_candidates(slug)
     return cands[0] if cands else None
 
 
 def cmd_save(args) -> int:
+    source = args.source or getattr(args, "source_opt", None)
     if args.from_temp:
-        src = _newest_temp()
-        if src is None:
-            print(f"ERROR: no handoff-*.md in temp ({tempfile.gettempdir()})", file=sys.stderr)
+        cands = _temp_candidates(args.slug)
+        if not cands:
+            pat = f"handoff-*{args.slug}*.md" if args.slug else "handoff-*.md"
+            print(f"ERROR: no {pat} in temp ({tempfile.gettempdir()})", file=sys.stderr)
             return 1
+        now = time.time()
+        fresh = [c for c in cands if now - c.stat().st_mtime < FRESH_TEMP_WINDOW_SEC]
+        if len(fresh) > 1:
+            print("ERROR: multiple fresh handoff temps — more than one live writer. "
+                  "Newest-wins is unsafe here; pick one explicitly:", file=sys.stderr)
+            for c in fresh:
+                age = int((now - c.stat().st_mtime) / 60)
+                print(f"  --from {c}   ({age}m old)", file=sys.stderr)
+            print("or narrow with --slug <thread-slug>.", file=sys.stderr)
+            return 1
+        src = cands[0]
         print(f"from-temp: {src}")
-    elif args.source:
-        src = Path(args.source).expanduser()
+    elif source:
+        src = Path(source).expanduser()
     else:
-        print("ERROR: provide a source path or --from-temp", file=sys.stderr)
+        print("ERROR: provide a source path, --from <path>, or --from-temp", file=sys.stderr)
         return 1
     if not src.exists():
         print(f"ERROR: source not found: {src}", file=sys.stderr)
@@ -613,6 +635,8 @@ def main() -> int:
 
     sp = sub.add_parser("save")
     sp.add_argument("source", nargs="?")
+    sp.add_argument("--from", dest="source_opt", metavar="PATH",
+                    help="explicit source file (safe alternative to --from-temp)")
     sp.add_argument("--from-temp", action="store_true")
     sp.add_argument("--thread"); sp.add_argument("--status"); sp.add_argument("--hint")
     sp.add_argument("--unfinished"); sp.add_argument("--branch")

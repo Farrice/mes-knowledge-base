@@ -136,3 +136,14 @@ _active/hyperframes-studio/
 # lock from whichever session last committed it, and session_lock.py claim
 # BLOCKED in a brand-new worktree that no session was writing to.
 .agent/session.lock
+
+# Worktree lanes (2026-08-06, parallel-session-lanes build).
+# .claude/worktrees/ holds full nested checkouts created by EnterWorktree —
+# BUG fixed here: they were untracked-but-visible, so a `git add .` in main
+# could ingest an entire second checkout.
+.claude/worktrees/
+# Lane runtime state — registry + merge mutex live in main's .agent, never tracked
+# (same class as .agent/session.lock above).
+.agent/lanes.json
+.agent/lane-merge.lock
+.agent/hook-failures.log
