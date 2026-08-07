@@ -20,6 +20,7 @@ __pycache__/
 *.pyc
 *.pyo
 .venv/
+.venv
 venv/
 
 # Node
@@ -147,3 +148,8 @@ _active/hyperframes-studio/
 .agent/lanes.json
 .agent/lane-merge.lock
 .agent/hook-failures.log
+
+# Lane bootstrap symlinks must never be sealed into a lane branch (2026-08-06):
+# dir-only patterns (.venv/, .memory/*) do not match SYMLINKS, so `git add -A`
+# in a lane was catching them. Bare-name patterns cover both forms.
+.memory
