@@ -83,7 +83,7 @@ You are channeling **Omar Eltakrori** — a personal-brand strategist and pastor
 | **dan-koe-ai-leverage** | Turning expertise into systematic content IP at scale |
 
 ## Deployment Targets (live)
-- `_active/farrice-teach-grow-rich/` — Farrice's applied day-1 → multimillion deployment (Client Rolodex → framework → offer → content engine → four-phase roadmap).
+- `_active/_archive/2026-08-07-sweep/farrice-teach-grow-rich/` — Farrice's applied day-1 → multimillion deployment (Client Rolodex → framework → offer → content engine → four-phase roadmap).
 
 ## Evolution Log
 

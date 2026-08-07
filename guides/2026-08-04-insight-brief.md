@@ -7,11 +7,11 @@ status: enriched
 
 # Angle Map Listening Engine — What We Built 2026-07-31→08-04 and How to Use It
 
-> This session fused the health-performance GEO daily brief and the insight brief into ONE scheduled listening engine (v4.0), then upgraded it to a content factory (v4.1): story-seat composition bench, rotating finished-format calendar, four-tag assets, a content vault with queue states, and a two-ring identity-level audience/ICP dossier. Companion files: engine spec `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` · standard-setting brief `_active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` · ring definitions `_active/linkedin/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
+> This session fused the health-performance GEO daily brief and the insight brief into ONE scheduled listening engine (v4.0), then upgraded it to a content factory (v4.1): story-seat composition bench, rotating finished-format calendar, four-tag assets, a content vault with queue states, and a two-ring identity-level audience/ICP dossier. Companion files: engine spec `_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md` · standard-setting brief `_active/knowledge/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` · ring definitions `_active/linkedin/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md`.
 
 ## ⚡ If you only read 10 lines
 
-1. The engine runs daily at **05:30 local** via `com.antigravity.angle-map-listening`; log: `_active/health-performance-ip-library/06-system/listening-run.log` — check it FIRST if a brief is missing.
+1. The engine runs daily at **05:30 local** via `com.antigravity.angle-map-listening`; log: `_active/knowledge/health-performance-ip-library/06-system/listening-run.log` — check it FIRST if a brief is missing.
 2. Your COS morning brief now carries a **🎧 Industry listening** section from `daily/LATEST-EXEC-CUT.md` (fresh ≤1 day, silent when stale).
 3. Every brief = **Daily Core** (3-min read: tension · promises-not-kept receipts · thesis · post seed · delta line) + one **rotating deep focus** (Mon audience → Sun education chapter; Fri = weekly synthesis).
 4. Finished assets land in `_active/farrice-brand/content/vault/` as `status: READY`; flip to POSTED by editing the file + `INDEX.md` row when you publish.
@@ -27,7 +27,7 @@ status: enriched
 | Command | Produces | Reach for it when |
 |---|---|---|
 | `launchctl list \| grep angle-map-listening` | job registration status | brief didn't land; confirm the job is loaded |
-| `tail -50 "_active/health-performance-ip-library/06-system/listening-run.log"` | run transcript incl. lock claims + exit codes | diagnosing a missed/failed 05:30 run |
+| `tail -50 "_active/knowledge/health-performance-ip-library/06-system/listening-run.log"` | run transcript incl. lock claims + exit codes | diagnosing a missed/failed 05:30 run |
 | `zsh execution/angle_map_listening_run.sh` | a full engine run NOW (claims tree lock; skips if a session is live) | manual re-run after a failure or a missed day |
 | `python3 execution/apify_client.py budget-status` | month spend vs $29 cap | before a heavy scrape day |
 | `python3 execution/apify_client.py reddit "subreddit:X <q>" --limit N` | verbatim buyer threads as JSON | you need real buyer language for a receipt |

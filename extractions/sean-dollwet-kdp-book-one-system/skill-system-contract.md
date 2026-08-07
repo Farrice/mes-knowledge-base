@@ -81,7 +81,7 @@ The exact before/after receipt is `behavior-proof.md`; deterministic structural 
 
 ## Result surface
 
-The user sees `_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md` plus concise checkpoint briefs. Machine state stays in `06-system/`.
+The user sees `_active/publishing/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md` plus concise checkpoint briefs. Machine state stays in `06-system/`.
 
 ## Context policy
 

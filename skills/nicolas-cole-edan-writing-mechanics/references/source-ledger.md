@@ -6,12 +6,12 @@
 - **Channel/Expert**: Nicolas Cole
 - **Video ID**: `gAVbSZHwzNU`
 - **Published**: 2026-05-01 · **Duration**: 33:38 (2018s per `metadata.json`)
-- **Actual on-disk location** (VERIFIED, wc -c confirmed 2026-07-18): `_active/codex-harvest-2026-06-11/extractions/video-context/gAVbSZHwzNU/`
+- **Actual on-disk location** (VERIFIED, wc -c confirmed 2026-07-18): `_active/harness/codex-harvest-2026-06-11/extractions/video-context/gAVbSZHwzNU/`
   - `transcript.txt` — 124,718 bytes, timestamped spoken transcript, full 33:38 read for this repair.
   - `metadata.json` — 3,749 bytes, YouTube metadata (title, uploader, upload_date, duration).
   - `video-context-ledger.md` / `.json` — 223,211 / 441,301 bytes, frame + evidence rows (not read for this repair; not needed — all anchors below are transcript-verified).
   - `analysis.md` — 2,275 bytes. `frame-notes.md` — 2,452 bytes. `uncertainty-report.md` — 422 bytes.
-- **Note on path drift**: `references/source-map.md` (existing, passing file, not modified in this repair) points to `extractions/video-context/gAVbSZHwzNU/`, which does **not exist** at that path in the live repo — the package only exists under the `_active/codex-harvest-2026-06-11/` legacy-harvest mirror. This is a stale pointer, not an absent source: the transcript is real, large (124KB), and was read in full for this repair. Flagged in REPAIR-NOTES.md; not fixed here because `source_ledger` was already a PASSING check and source-map.md is outside this batch's failing-check scope.
+- **Note on path drift**: `references/source-map.md` (existing, passing file, not modified in this repair) points to `extractions/video-context/gAVbSZHwzNU/`, which does **not exist** at that path in the live repo — the package only exists under the `_active/harness/codex-harvest-2026-06-11/` legacy-harvest mirror. This is a stale pointer, not an absent source: the transcript is real, large (124KB), and was read in full for this repair. Flagged in REPAIR-NOTES.md; not fixed here because `source_ledger` was already a PASSING check and source-map.md is outside this batch's failing-check scope.
 
 ## Claim-by-Claim Verification
 

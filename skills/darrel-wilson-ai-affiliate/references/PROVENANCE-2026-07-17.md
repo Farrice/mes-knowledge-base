@@ -20,6 +20,6 @@ this repair pass.
 ## Absence Checks (per envelope Rule 2 — sources checked before claiming absence)
 
 - `extractions/` — `ls extractions/ | grep -i darrel` → exactly `darrel-wilson-affiliate-marketing/` (14,540-byte extraction-report.md + 21,929-byte transcript.txt) and `darrel-wilson-ai-money/` (14,562-byte transcript.txt). Both read in full.
-- `_active/codex-harvest-2026-06-11/extractions/` — checked, zero Wilson-named entries.
+- `_active/harness/codex-harvest-2026-06-11/extractions/` — checked, zero Wilson-named entries.
 - `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) — listed via `tar -tzf`, grepped for "darrel", zero matching entries.
 - `agents/darrel-wilson/AGENT.md` (cited in SKILL.md Quick Reference) — file not found on disk; recorded as UNCONFIRMED in source-ledger.md row 25, not corrected (SKILL.md was not a failing-check target this pass).

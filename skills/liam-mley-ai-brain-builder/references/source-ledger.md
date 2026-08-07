@@ -20,7 +20,7 @@ recorded with real file sizes:
 - `grep -ril "liam mley" --include="*.md" .` (repo-wide, excluding
   `.claude/worktrees/`) → hits in `AGENT_INDEX.md`, `SKILL_INDEX.md`,
   `SLASH_COMMANDS.md` (auto-generated registries pointing back at this
-  skill) and `_active/codex-harvest-2026-06-11/agents/liam-mley/AGENT.md`
+  skill) and `_active/harness/codex-harvest-2026-06-11/agents/liam-mley/AGENT.md`
   (a duplicate persona card, same claims, no independent sourcing).
 - `grep -ril "liam ottley" --include="*.md" .` → hits are all for the
   **sibling skill** `liam-ottley-linkedin-lead-magnet` (different topic,
@@ -39,7 +39,7 @@ recorded with real file sizes:
 | `extractions/ai-brain-os/extraction-report.md` | 10,847 | Mastery Extraction report derived from the transcript above (8 Genius Patterns, 6 Hidden Knowledge items). Internally consistent with the transcript except one compression flagged below (line 61, the "$1M in 7 days" framing). |
 | `skills/liam-mley-ai-brain-builder/SKILL.md` | ~1,800 (unread-modified, baseline) | Current skill card — not modified by this repair. |
 | `skills/liam-mley-ai-brain-builder/genius.md` | ~9,200 (baseline, pre-repair) | Baseline genius file this repair extends. |
-| `_active/codex-harvest-2026-06-11/agents/liam-mley/AGENT.md` | ~4,700 | Duplicate persona card; same claims as genius.md, no independent citations — corroborates the extraction's own framing but adds no new source. |
+| `_active/harness/codex-harvest-2026-06-11/agents/liam-mley/AGENT.md` | ~4,700 | Duplicate persona card; same claims as genius.md, no independent citations — corroborates the extraction's own framing but adds no new source. |
 
 ## Live web check (2026-07-18, one query, used only for identity resolution)
 

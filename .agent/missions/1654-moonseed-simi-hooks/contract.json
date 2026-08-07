@@ -9,5 +9,5 @@
   "tier": "T1",
   "cost": "$0",
   "gates": ["v2 quality gate (11 tests)", "prose/slop", "proof-claims footer"],
-  "deliverable_paths": ["_active/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md"]
+  "deliverable_paths": ["_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md"]
 }

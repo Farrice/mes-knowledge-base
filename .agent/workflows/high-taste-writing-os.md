@@ -30,7 +30,7 @@ doing sharper work, not like a generic high-taste commentator.
 Always treat these as required references for high-stakes runs:
 
 - V4 golden sample: `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
-- Repeatability packet: `_active/codex-repeatability/v4-high-taste-output-os.md`
+- Repeatability packet: `_active/_archive/2026-08-07-sweep/codex-repeatability/v4-high-taste-output-os.md`
 
 The V4 equation:
 

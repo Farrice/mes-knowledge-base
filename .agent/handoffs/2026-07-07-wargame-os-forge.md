@@ -27,7 +27,7 @@ Read side by side:
 PASS = indistinguishable or preferred. If PASS: update EVAL-033 (`calibrated_by_human: true`), note A-tier in `skills/mark-kashef-wargame-os/SKILL.md` frontmatter, log via finalize note. Known caveat to weigh: blind-pass Move 5's executor-mistake prediction reuses the exemplar's aria-hidden genre (apt transfer, not novel-class proof).
 
 ### Task 2 — First real deployment: `/wargame-client` on Jen listing engine
-- Client context: `_active/jen-listings/CLAUDE.md` + `skills/jen-santulan-listing-content/` + golden ref: 6853 Willis production sheet (memory: `feedback-jen-reel-hook-style`, `feedback-client-content-production-format`).
+- Client context: `_active/clients/jen-listings/CLAUDE.md` + `skills/jen-santulan-listing-content/` + golden ref: 6853 Willis production sheet (memory: `feedback-jen-reel-hook-style`, `feedback-client-content-production-format`).
 - Goal: wargame the listing-content production route ONCE at frontier tier (frozen choices = Jen's hook style, production-sheet format, ADU-as-bonus rule), grade to DONE, store under the client project. Every future listing = `/wargame-execute` with instance inputs at Sonnet cost.
 
 ## Key artifacts (reference, don't rebuild)

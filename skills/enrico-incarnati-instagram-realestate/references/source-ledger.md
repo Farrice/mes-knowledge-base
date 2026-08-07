@@ -7,9 +7,9 @@ Every claim in this skill traced to its source, labeled VERIFIED / LIKELY / UNCO
 | Source | Path | Size | Status |
 |---|---|---|---|
 | Primary transcript | `extractions/enrico-incarnati/transcript.txt` | 18,909 bytes | Read in full — confirmed non-empty, single continuous YouTube transcript |
-| Codex harvest audit | `_active/codex-harvest-2026-06-11/brain/121fe594-3b12-4ae1-9339-c14ac503ee83/enrico_audit_jiing.md` | present, read in full | Secondary artifact — a `/enrico-audit` deliverable run against @_jiing, not a source of Enrico's own teaching; used only to confirm the workflow's output shape matches what a real deployment produced |
+| Codex harvest audit | `_active/harness/codex-harvest-2026-06-11/brain/121fe594-3b12-4ae1-9339-c14ac503ee83/enrico_audit_jiing.md` | present, read in full | Secondary artifact — a `/enrico-audit` deliverable run against @_jiing, not a source of Enrico's own teaching; used only to confirm the workflow's output shape matches what a real deployment produced |
 | claude-export tarball | `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) | checked via `tar -tzf ... | grep -i enrico` | Zero matches — no additional Enrico source material found in the tarball. Absence confirmed by listing, not assumed. |
-| codex-harvest directory-wide | `_active/codex-harvest-2026-06-11/` | checked via `find -iname "*enrico*"` | Only the one audit deliverable file found (above) — no additional raw source material |
+| codex-harvest directory-wide | `_active/harness/codex-harvest-2026-06-11/` | checked via `find -iname "*enrico*"` | Only the one audit deliverable file found (above) — no additional raw source material |
 
 **Conclusion**: `extractions/enrico-incarnati/transcript.txt` is the ONLY primary source for Enrico Incarnati's teaching in this system. No second transcript, article, or course exists in the codebase as of this repair pass.
 

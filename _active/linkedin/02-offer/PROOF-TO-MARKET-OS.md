@@ -332,7 +332,7 @@ Only **sent, held, sold, and collected** validate this offer. Likes, comments, d
 2. **Contact routing:** Use Dream 100 list + warmth paths in §6. Do NOT cold-pitch; use the occasion as the hook (fundraise, launch, retail expansion). **Teardown rule (binding, 2026-07-18 review):** named-brand critique is PRIVATE (a value-drop DM to that brand only, constructive, no pitch); public posts use category-language rebuilds, dead brands, or anonymized composites — never a named live prospect, and never a public claim-risk assertion about a named company (defamation-adjacent in the one domain where credibility is the product).
 3. **Content seeding:** The 5 pillars + 24-angle bank feed the content bank (`_active/farrice-brand/content/bank/`). File angles as drafts; refine on publication cadence.
 4. **Loop integration:** The 2x/week ear-to-ground routine (`market-pulse.md` workflow) scans for new purchase occasions and files fresh angles to the bank.
-5. **Prospect qualification:** If prospect doesn't have a dated occasion (launch, raise, retail, repositioning) or isn't in the founder-band budget, route to the PMF shelf (parking reasons documented in `_active/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md` §5).
+5. **Prospect qualification:** If prospect doesn't have a dated occasion (launch, raise, retail, repositioning) or isn't in the founder-band budget, route to the PMF shelf (parking reasons documented in `_active/offer-strategy/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md` §5).
 
 ---
 

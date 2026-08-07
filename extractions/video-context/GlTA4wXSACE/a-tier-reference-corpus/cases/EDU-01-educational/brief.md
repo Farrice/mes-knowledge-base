@@ -34,7 +34,7 @@ Run the complete `/shaan-story-deploy` workflow. Return the finished asset follo
 
 ## Source Paths
 
-- `_active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md`.
+- `_active/knowledge/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md`.
 - `_active/farrice-brand/content/vault/2026-08-02-six-rungs-education-longform.md` is the held-out prior asset and must not be read during replay.
 
 ## Truth Constraints

@@ -18,7 +18,7 @@ The economics that make sold work margin-positive: "Make the smartest model you'
 
 ## Skill Acquisition
 
-- The client's own CLAUDE.md (e.g. `_active/jen-listings/CLAUDE.md`, `_active/andrea-dj/CLAUDE.md`) — the frozen-choice source: voice rules and format contracts, read in full before any freeze decision
+- The client's own CLAUDE.md (e.g. `_active/clients/jen-listings/CLAUDE.md`, `_active/clients/andrea-dj/CLAUDE.md`) — the frozen-choice source: voice rules and format contracts, read in full before any freeze decision
 - `genius.md` — the Economics section ("judgment arbitrage," "pay for the genius once, keep it forever"), Decision Heuristic 2 (freeze ambiguous choices now)
 - Tier 1 workflows (`wargame-order`, `wargame-run`, `wargame-grade`, `wargame-execute`) and `/wargame-brief` — pointed to for mechanics, never duplicated here
 
@@ -33,7 +33,7 @@ This is the same conductor pattern as `/wargame-mission` (compose Tier 1, don't 
 3. **Write the mission brief per `/wargame-brief`**, with the client's format contract as the physical constraint. Jen's precedent: per-asset labeled production-sheet cards, never prose blobs (`feedback-client-content-production-format.md`) — that discipline gets written into the brief as a hard rule, not a style preference.
 4. **Run `/wargame-order` → `/wargame-run` → `/wargame-grade` at frontier tier, highest effort.** This is the one expensive pass the economics section describes — "pay for the genius once."
 5. **Grade to DONE before storing anything.** A client route that hasn't survived a red-team pass isn't bankable — it's still a draft that happens to have the client's name on it.
-6. **Store the DONE wargame under the client project**, not `.agent/missions/` — e.g. `_active/jen-listings/wargames/<deliverable-slug>.md`, `_active/andrea-dj/wargames/<deliverable-slug>.md`. Client-owned artifacts live with client context, since they outlive any single mission session.
+6. **Store the DONE wargame under the client project**, not `.agent/missions/` — e.g. `_active/clients/jen-listings/wargames/<deliverable-slug>.md`, `_active/clients/andrea-dj/wargames/<deliverable-slug>.md`. Client-owned artifacts live with client context, since they outlive any single mission session.
 7. **Each new instance runs `/wargame-execute`** with the stored wargame as its route plus that instance's specific inputs — at cheap tier, since the judgment is already banked. This is the repeated, margin-positive execution the whole workflow exists to produce.
 8. **Re-run from step 2 if the format contract changes.** A wargame's frozen choices are only valid as long as they match the client's actual current constraints — client feedback that shifts voice or format invalidates the old freeze.
 
@@ -41,8 +41,8 @@ This is the same conductor pattern as `/wargame-mission` (compose Tier 1, don't 
 
 | Client deliverable type | Frozen-choice source | Stored-route location pattern |
 |---|---|---|
-| **Listing/production content** (Jen) | Client CLAUDE.md + production-sheet format contract | `_active/jen-listings/wargames/` |
-| **Event/ops route** (Andrea/Resonance) | Client CLAUDE.md + Ticket Tailor/venue constraints | `_active/andrea-dj/wargames/` |
+| **Listing/production content** (Jen) | Client CLAUDE.md + production-sheet format contract | `_active/clients/jen-listings/wargames/` |
+| **Event/ops route** (Andrea/Resonance) | Client CLAUDE.md + Ticket Tailor/venue constraints | `_active/clients/andrea-dj/wargames/` |
 | **Launch/drop content** (MyBPM) | Brand voice doc + launch-week format | `mybpm-streetwear-brand` project wargames dir |
 | **Any new repeatable client engagement** | That client's CLAUDE.md, once one exists | `<client-project>/wargames/` — create the dir on first use |
 

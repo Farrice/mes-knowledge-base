@@ -12,7 +12,7 @@ content added in this repair pass.
 | "don't try to use a finance format if you don't understand money" | `extractions/niche-bending/transcript.txt` | Line 1, same sentence cluster as the expertise-constraint rule |
 | "you're competing against the likes of National Geographic" | `extractions/niche-bending/transcript.txt` | Line 1, in the Tazoo/nature-documentary passage |
 | "this isn't due to a lack of interest. It's an opportunity" | `extractions/niche-bending/transcript.txt` | Line 1, in the empty-square grid-mapping passage |
-| 2026-02-16 publish date | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` | `upload_date`/`publish_date` fields: `"20260216"` |
+| 2026-02-16 publish date | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` | `upload_date`/`publish_date` fields: `"20260216"` |
 | Video title "The NEW YouTube Strategy Dominating in 2026" | same `metadata.json` | `title` field |
 | Video URL `https://www.youtube.com/watch?v=fLDrB_wmbNE` | same `metadata.json` | `webpage_url` field |
 | Uploader "vidIQ" | same `metadata.json` | `uploader`/`channel` fields |

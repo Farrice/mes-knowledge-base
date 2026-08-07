@@ -2,7 +2,7 @@
 """
 Skill Auditor — Tier-grade 209 skill directories using heuristics + trace data.
 
-Fix 3a from system audit (_active/system-audit/audit-2026-04-24.md).
+Fix 3a from system audit (_active/harness/system-audit/audit-2026-04-24.md).
 
 The audit found that skill quality variance is currently UNKNOWN — worse than
 known-bad. This auditor produces an auditable A/B/C/REVIEW classification for
@@ -440,7 +440,7 @@ def log_advisory_run(context: str) -> None:
 # Build-time workflows whose traces certify the BUILD of a skill, not its
 # production USE. Counting them let extract-forge self-certify new skills as
 # "used" on ship day (root cause of Sean Macintyre's manufactured A-tier —
-# see _active/sean-macintyre-audit-2026-06-09.md).
+# see _active/harness/system-audit/02-research/sean-macintyre-audit-2026-06-09.md).
 BUILD_WORKFLOWS = {"extract-forge", "extract"}
 
 

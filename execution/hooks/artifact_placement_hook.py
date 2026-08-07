@@ -146,7 +146,7 @@ def main() -> int:
 
     # Depth check: file must sit exactly one level under _active/<p> or projects/<p>.
     # Resolve the LAST occurrence of the anchor — nested repo copies exist (e.g.
-    # _active/codex-harvest-2026-06-11/_active/...) and first-occurrence matching
+    # _active/harness/codex-harvest-2026-06-11/_active/...) and first-occurrence matching
     # anchored on the outer one, computed the wrong project, and went silent.
     project = None
     project_dir = None

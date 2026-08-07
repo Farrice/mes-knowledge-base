@@ -68,7 +68,7 @@ models for non-orchestration work, fill him in on anything he must do.
   this session's own /resume). Ledger: `.agent/sessions/routing-enforce-log.jsonl`.
   Fixtures 3/3, golden set 24/24 + 7/7. Revert = active:false, no code change.
 - **Wave 2 step 2 PROPOSAL**: grading-loop redesign at
-  `_active/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md` —
+  `_active/harness/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md` —
   verdict-first (SHIP/MARGINAL/FAIL), cite-the-precedent-by-EVAL-ID (machine-checked),
   producer-never-grades-alone, felt-verdicts compound the eval set. AWAITING FARRICE.
   (The finalize this session tripped the inflation guardrail on its own 9s — live proof

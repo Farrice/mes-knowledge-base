@@ -139,7 +139,7 @@ The answer is now in the objects, the membership tier, and the named institution
 
 ## Cross-reference: Jen luxury lane diagnostics
 
-The same three moves are being implemented on Jen's luxury listings ($2M+ lane). See `_active/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md`:
+The same three moves are being implemented on Jen's luxury listings ($2M+ lane). See `_active/clients/jen-listings/04-deliverables/hotel-test-luxury-lane-2026-08-05.md`:
 
 1. **Prop:** The Private Market Brief (named, numbered publication)
 2. **Initiate:** [Pending — brief DM keyword access]

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:34:11.812718+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/chris-restaurants",
+  "dst": "_active/clients/chris-restaurants",
+  "stub_left": false,
+  "files_moved": 5,
+  "rewrites": {},
+  "total_rewrites": 0,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

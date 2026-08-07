@@ -29,7 +29,7 @@ file, located by CONTENT grep of `_archive/claude-export-2026-07-01.tar.gz` afte
 
 1. `ls extractions/ | grep -i franzen` → empty.
 2. `grep -rli franzen extractions/` → one incidental hit only (`extractions/steven-pressfield/extraction-report.md`, 27,217 bytes — a cross-reference mention, not a Franzen source).
-3. `_active/codex-harvest-2026-06-11/` — has a `jonathan-franzen-storytelling/genius.md` (13,738 bytes) and `agents/jonathan-franzen/AGENT.md` (3,428 bytes). Diffed byte-for-byte against the live skill file — identical except the live file has one extra section. Not an independent source.
+3. `_active/harness/codex-harvest-2026-06-11/` — has a `jonathan-franzen-storytelling/genius.md` (13,738 bytes) and `agents/jonathan-franzen/AGENT.md` (3,428 bytes). Diffed byte-for-byte against the live skill file — identical except the live file has one extra section. Not an independent source.
 4. `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) — filename listing (`tar -tzf`) showed nothing; **content** grep (`tar -xzOf ... | grep -a -c -i franzen`) returned 83 hits, which located the real transcript. Extracted to scratchpad (1.1GB uncompressed) and read directly.
 
 This confirms rule #2 from the envelope: a "no source" claim without a content grep would have been false here.

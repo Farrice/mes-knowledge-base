@@ -28,7 +28,7 @@ Both conversations follow the same shape: a single long human turn pastes the ra
 ## Absence Check (verified, not assumed)
 
 - `ls extractions/ | grep -i hiette` → no output (run 2026-07-17). No file under `extractions/` matches this expert — confirmed by direct listing, not inferred.
-- `grep -ril "hiette" _active/codex-harvest-2026-06-11` → no output (run 2026-07-17) — codex-harvest does not contain Jay Hiette material.
+- `grep -ril "hiette" _active/harness/codex-harvest-2026-06-11` → no output (run 2026-07-17) — codex-harvest does not contain Jay Hiette material.
 - `grep -ril "hiette" _active/claude-export` → hits only in index/triage/census JSON metadata files (titles, routing pointers), not raw conversation content — those files were checked and confirmed to be indexes, not sources.
 - `tar tzf _archive/claude-export-2026-07-01.tar.gz | grep -i hiette` → no filename hits (conversation files are named by UUID, not by title), so the two source conversations were located via `_active/claude-export/index.json` (which maps UUID → title) rather than by filename search, then extracted by exact path with `tar xzf ... -O <path>` and confirmed present by `wc -c` (58,164 and 53,884 bytes — non-empty, real content, not a 0-byte or truncated pull).
 

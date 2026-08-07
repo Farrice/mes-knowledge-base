@@ -9,7 +9,7 @@ Before labeling anything "no source exists," the following were actually searche
 | Location searched | Method | Result |
 |---|---|---|
 | `extractions/` (193 entries) | `ls extractions/` | No `perell` entry |
-| `_active/codex-harvest-2026-06-11/extractions/` (27 entries) | `ls` + `grep -rli perell` on whole harvest tree | No `perell` entry; zero hits anywhere in tree |
+| `_active/harness/codex-harvest-2026-06-11/extractions/` (27 entries) | `ls` + `grep -rli perell` on whole harvest tree | No `perell` entry; zero hits anywhere in tree |
 | `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, ~332MB) | `tar -tzf ... \| grep -i perell` over the **full** archive listing | Zero path matches |
 | `agents/david-perell/AGENT.md`, `agents/david-perell/memory/context.md` | Read in full | Derived persona files, not raw source; `context.md` is an unpopulated stub ("To be populated") — no extraction content |
 | `.claude/worktrees/w3-lane3-repair-execution/skills/david-perell-writing/` | `find` | Sibling worktree copy of the same skill (no additional source material — same genius.md content) |

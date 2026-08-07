@@ -7,7 +7,7 @@ status: enriched
 
 # Swarm Conductor + Frontier Loops — What We Built 2026-07-06/07 and How to Use It
 
-> Two adjacent sessions, one operating shape. **Harness Frontier Loops** (2026-07-06) closed the router's feedback loop — it LEARNS now — and shipped `/go` as the anti-bottleneck front door. **Swarm Apex Session 1** (2026-07-07) turned `/swarm` from sequential persona simulation into a real conductor on the native Workflow engine: deterministic plan, ONE gate, unattended parallel execution, honest receipt. Plan + verified platform research: `_active/swarm-apex-2026-07-07/PLAN.md` and `research/` (don't redo the research — the briefs are on disk). This guide's job: know when to reach for `/swarm` vs `/go` vs a plain Agent dispatch.
+> Two adjacent sessions, one operating shape. **Harness Frontier Loops** (2026-07-06) closed the router's feedback loop — it LEARNS now — and shipped `/go` as the anti-bottleneck front door. **Swarm Apex Session 1** (2026-07-07) turned `/swarm` from sequential persona simulation into a real conductor on the native Workflow engine: deterministic plan, ONE gate, unattended parallel execution, honest receipt. Plan + verified platform research: `_active/harness/swarm-apex-2026-07-07/PLAN.md` and `research/` (don't redo the research — the briefs are on disk). This guide's job: know when to reach for `/swarm` vs `/go` vs a plain Agent dispatch.
 
 ## ⚡ If you only read 10 lines
 

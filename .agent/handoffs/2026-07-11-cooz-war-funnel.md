@@ -14,9 +14,9 @@ pin: true
 - **Not in scope:** Rebuilding any playbook doc (format LOCKED per DOC-FORMAT-SPEC + jam register), re-running market research (receipts are on disk), printing flyers (gated on the booking page being live).
 
 ## Load First
-- `_active/coach-cooz/16-war-on-fitness-industry/07-cooz-playbook/00-THE-PLAYBOOK.md` — the client package front door; everything else hangs off it
-- `_active/coach-cooz/16-war-on-fitness-industry/00-strategy/DOC-FORMAT-SPEC.md` — the LOCKED client-doc format + complete-package rule
-- `_active/coach-cooz/INDEX.md` — project map (folder 16 row is current)
+- `_active/clients/coach-cooz/16-war-on-fitness-industry/07-cooz-playbook/00-THE-PLAYBOOK.md` — the client package front door; everything else hangs off it
+- `_active/clients/coach-cooz/16-war-on-fitness-industry/00-strategy/DOC-FORMAT-SPEC.md` — the LOCKED client-doc format + complete-package rule
+- `_active/clients/coach-cooz/INDEX.md` — project map (folder 16 row is current)
 - `.agent/jam/taste-ledger.jsonl` — jam verdicts so far (register: "A's cards, B's mouth")
 
 ## Current State

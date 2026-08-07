@@ -15,7 +15,7 @@ status" below for the full recovery trail before trusting any claim in
   zero lines; the earlier case-insensitive directory match was a false
   positive from `grep -ril`'s handling of a binary-adjacent byte sequence,
   not an actual mention). Checked 2026-07-17.
-- `_active/codex-harvest-2026-06-11/` (full mirrored repo snapshot) was
+- `_active/harness/codex-harvest-2026-06-11/` (full mirrored repo snapshot) was
   checked the same way: no `extractions/gabe*` or `*novotny*` directory;
   a `grep -ril "novotny\|gabe"` hit inside a `research_outputs/.../gemini.json`
   file was verified to be a false positive (the string only appears inside a

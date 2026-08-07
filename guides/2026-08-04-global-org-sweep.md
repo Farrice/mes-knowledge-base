@@ -92,6 +92,6 @@ status: enriched
 ## Honest edges — the whole session
 
 - **Three self-inflicted breaks, all caught and fixed:** filed a live site's script into `03-working-drafts/` (site broken, restored, web assets now pinned); a benchmark sweep moved 27 protected files including the campaign file (all reversed from the ledger); a `git grep` speed fix used `:!` pathspec syntax that silently matches nothing, evaporating every control-plane pin. Each is now covered by a verifier proven to fail without the fix.
-- **Open:** 5 files in `deliverables/` with no correct default; `_active/re-compliance` arguably belongs inside `jen-listings`; a **new** `05-assets` vs `05-lead-gen` collision in `linkedin-launch` created 2026-08-02 by the asset-board work.
+- **Open:** 5 files in `deliverables/` with no correct default; `_active/clients/re-compliance` arguably belongs inside `jen-listings`; a **new** `05-assets` vs `05-lead-gen` collision in `linkedin-launch` created 2026-08-02 by the asset-board work.
 - **Concurrent sessions are the live hazard.** A sibling session's commit gate swept this session's in-flight edits once. Claim `session_lock.py` or use a worktree.
 - A `post-commit` hook auto-pushes; `git push` reports a misleading "remote rejected" lock error even on success.

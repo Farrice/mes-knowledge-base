@@ -26,8 +26,8 @@ recorded with real file sizes (`wc -c`, not `wc -l`):
 | `skills/ali-abdaal-action-bias/genius.md` | 8,070 bytes | Current genius file (this repair's baseline) |
 | `skills/ali-abdaal-action-bias/SKILL.md.old` | 2,668 bytes | Prior skill-card version; same framework claims, no additional sourcing |
 | `agents/ali-abdaal/AGENT.md` | 1,639 bytes | Agent persona card; source of the "Two-Way Door," "70% confident," and "Overthinking Tax" phrasing used in genius.md patterns |
-| `_active/codex-harvest-2026-06-11/skills/ali-abdaal-action-bias/SKILL.md` | 1,874 bytes | Harvested duplicate, same claims, no citations |
-| `_active/codex-harvest-2026-06-11/agents/ali-abdaal/AGENT.md` | 2,353 bytes | Harvested duplicate of AGENT.md + a generic "Routing Interop" block (diffed against current AGENT.md — the only delta, unrelated to sourcing) |
+| `_active/harness/codex-harvest-2026-06-11/skills/ali-abdaal-action-bias/SKILL.md` | 1,874 bytes | Harvested duplicate, same claims, no citations |
+| `_active/harness/codex-harvest-2026-06-11/agents/ali-abdaal/AGENT.md` | 2,353 bytes | Harvested duplicate of AGENT.md + a generic "Routing Interop" block (diffed against current AGENT.md — the only delta, unrelated to sourcing) |
 | `evolution_store/v2_variants/genius_compressed/ali-abdaal-action-bias_genius.md` | 4,395 bytes | Compressed variant of genius.md; independently states "No genius patterns extracted yet" — corroborates that no primary extraction ever ran |
 | `.agents/skills/source-command-ali-abdaal/SKILL.md` | 1,399 bytes | Auto-generated command shim (`sync_registries.py`); points back at the same SKILL.md/genius.md, adds no source |
 | `.claude/commands/ali-abdaal-action-bias.md`, `.claude/commands/ali-abdaal.md` | 1,230 / 1,331 bytes | Slash-command wrappers; no independent content |

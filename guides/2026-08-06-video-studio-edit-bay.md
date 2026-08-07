@@ -64,7 +64,7 @@ python3 execution/edit_bay.py cutlist-apply --project <slug> --dry-run   # inspe
 python3 execution/edit_bay.py cutlist-apply --project <slug>             # render vNN
 ```
 
-**Worked example.** 90 seconds of source → 14 segments, 310 timed words → a hand-written 6-shot cutlist dropping two dead sections → 59.65s render at 1920×1080, duration drift 0.06s against the cutlist. Receipts in `_active/video-studio-shakedown/05-assets/video/`.
+**Worked example.** 90 seconds of source → 14 segments, 310 timed words → a hand-written 6-shot cutlist dropping two dead sections → 59.65s render at 1920×1080, duration drift 0.06s against the cutlist. Receipts in `_active/video-studio/video-studio-shakedown/05-assets/video/`.
 
 **Honest edges.** `--model small` is the default and is good; `large-v3` is slower on CPU and rarely changes cut decisions. The wrapper wires certifi itself because the venv python couldn't fetch the alignment model over SSL — if downloads fail, that's the first thing to check. xfade transitions add intermediate re-encodes; on long projects that costs time and disk.
 
@@ -134,4 +134,4 @@ python3 execution/broll_source.py fetch --id pexels:12345 --project <slug> --tag
 - Skill: `skills/video-studio/` — SKILL.md, 6 workflows, REVIEW.md, `schemas/`, `style/`, `caption-styles.json`
 - Policy: `directives/video-studio-policy.md` · Extraction: `extractions/brad-bonanno-edit-bay/`
 - Brand style (the compounding file): `_active/farrice-brand/voice/video-style.md`
-- Proof: `_active/video-studio-shakedown/05-assets/video/` · Commits `7d43c4fb6`, `ea01feaa3`, `c8f605811`
+- Proof: `_active/video-studio/video-studio-shakedown/05-assets/video/` · Commits `7d43c4fb6`, `ea01feaa3`, `c8f605811`

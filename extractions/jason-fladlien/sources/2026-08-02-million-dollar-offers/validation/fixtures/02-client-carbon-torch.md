@@ -2,7 +2,7 @@
 
 ## Frozen source
 
-- **Path:** _active/josh-katie-fitness/josh/COACHING-OFFER-BRIEF.md
+- **Path:** _active/clients/josh-katie-fitness/josh/COACHING-OFFER-BRIEF.md
 - **SHA-256:** d0608c8990130e2be1c6065aa9ef36ac7f8a35f55f94cd42500c4c76e77dd28f
 - **Lane:** Client fitness offer.
 

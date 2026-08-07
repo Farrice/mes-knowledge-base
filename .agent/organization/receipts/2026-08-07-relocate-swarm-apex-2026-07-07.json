@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:38:55.196602+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/swarm-apex-2026-07-07",
+  "dst": "_active/harness/swarm-apex-2026-07-07",
+  "stub_left": false,
+  "files_moved": 10,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_swarm-apex.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-convene.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-09-harness-apex.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-swarm-apex.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/swarm.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/frontier-elevation-2026-07-17/PLAN.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/harness-apex-2026-07-07/PLAN.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/swarm-apex-2026-07-07/START-HERE.html": 42,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-07-parallel-builders-stale-contracts.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-07-zero-survivor-phantom-deliverable.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/swarm_conductor.py": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-07-13-swarm-and-frontier-loops.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/lance-yichao-context-engineering/genius.md": 24,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/lance-yichao-context-engineering/references/PROVENANCE-2026-07-18.md": 11,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/lance-yichao-context-engineering/references/source-ledger.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/manus-ai-consulting/genius.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/manus-ai-consulting/references/PROVENANCE-2026-07-18.md": 7,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/manus-ai-consulting/references/source-ledger.md": 3
+  },
+  "total_rewrites": 108,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

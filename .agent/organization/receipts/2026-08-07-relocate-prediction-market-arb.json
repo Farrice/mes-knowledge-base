@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:45:49.361434+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/prediction-market-arb",
+  "dst": "_active/wagering/prediction-market-arb",
+  "stub_left": false,
+  "files_moved": 31,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/prediction-market-arb-project.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/reground-money-briefings.workflow.js": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/wagering/prediction-market-arb/02-research/prediction-market-full-cost-analysis.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/wagering/prediction-market-arb/START-HERE.html": 49,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/agents/prediction-market-strategist/memory/context.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/prediction-market-trading/weatherbot-extraction.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/research_outputs/research-integrity-audit.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/prediction-market-ai-event-analysis/references/source-ledger.md": 1
+  },
+  "total_rewrites": 67,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

@@ -47,4 +47,4 @@ A weaker implementation will summarize the videos, generate one opaque “SEO sc
 - `skills/search-content-mastery-os/SKILL.md`
 - `execution/search_content_mastery.py`
 - `execution/verify_search_content_mastery.py`
-- `_active/search-content-mastery/health-performance-pilot/00-START-HERE.md`
+- `_active/knowledge/search-content-mastery/health-performance-pilot/00-START-HERE.md`

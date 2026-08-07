@@ -9,7 +9,7 @@
    - The chat-session "assistant" replies after the transcript (both files) are an AI extraction attempt (MES 2.0 protocol) whose actual artifact content did not survive export (`"Viewing artifacts created via the Analysis Tool web feature preview isn't yet supported on mobile"` placeholder text only). That AI-generated material is **not used as a source** here — it is a prior AI's analysis, not Kaufman's own words, and cannot be verified against anything. Every claim below is checked against the **raw transcript text only**.
 2. **Existing skill files**: `skills/josh-kaufman-business-fundamentals/SKILL.md`, `genius.md` (pre-repair versions) — audited claim-by-claim against the transcript above.
 
-No `extractions/josh-kaufman*` directory exists; no codex-harvest match (`_active/codex-harvest-2026-06-11` has no kaufman/personal-mba file). This absence was verified by directory listing and grep, not assumed.
+No `extractions/josh-kaufman*` directory exists; no codex-harvest match (`_active/harness/codex-harvest-2026-06-11` has no kaufman/personal-mba file). This absence was verified by directory listing and grep, not assumed.
 
 ## Claim-by-claim labels
 

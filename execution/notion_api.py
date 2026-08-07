@@ -433,7 +433,7 @@ class NotionAPI:
 
         Target: the Simon Intellectual Library "💬 Session Memory" DB
         (NOTION_DB_SESSION_MEMORY). Created via the Notion AI deployment pack at
-        _active/notion-intellectual-library/notion-ai-deployment-prompts.md.
+        _active/knowledge/notion-intellectual-library/notion-ai-deployment-prompts.md.
         """
         from datetime import date as _date
 
@@ -441,7 +441,7 @@ class NotionAPI:
         if not db_id:
             raise RuntimeError(
                 "NOTION_DB_SESSION_MEMORY not set. Run Prompt 1 in "
-                "_active/notion-intellectual-library/notion-ai-deployment-prompts.md "
+                "_active/knowledge/notion-intellectual-library/notion-ai-deployment-prompts.md "
                 "to create the Session Memory DB in Notion AI, then add its id to .env."
             )
         if date_str is None:

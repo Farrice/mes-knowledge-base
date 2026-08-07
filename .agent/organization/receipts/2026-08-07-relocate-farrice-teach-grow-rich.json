@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:33:10.853056+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/farrice-teach-grow-rich",
+  "dst": "_active/_archive/2026-08-07-sweep/farrice-teach-grow-rich",
+  "stub_left": true,
+  "files_moved": 10,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_omar-eltakrori-teach-grow-rich.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/farrice-teach-grow-rich/START-HERE.html": 35,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-06-14-omar-eltakrori-teach-grow-rich.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/omar-eltakrori/SKILL.md": 1
+  },
+  "total_rewrites": 41,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

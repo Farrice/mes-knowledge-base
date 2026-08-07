@@ -13,7 +13,7 @@ matching text found in any source file read for this repair).
 | `extractions/darrel-wilson-affiliate-marketing/extraction-report.md` | 14,540 bytes | Read in full — the MES extraction this skill was built from. |
 | `extractions/darrel-wilson-affiliate-marketing/transcript.txt` | 21,929 bytes | Read in full — primary source, "affiliate marketing 2026" tutorial video. |
 | `extractions/darrel-wilson-ai-money/transcript.txt` | 14,562 bytes | Read in full — second primary source, "5 ways to make money with AI" video (this is the direct source for the AI-utility-site, lead-scraper, and AI-website-sales patterns; it has no matching extraction-report.md of its own). |
-| `_active/codex-harvest-2026-06-11/extractions/` | — | Checked per envelope instruction: `ls extractions/ \| grep -i wilson` returns nothing under this path; no Darrel Wilson material exists in the Codex harvest import. |
+| `_active/harness/codex-harvest-2026-06-11/extractions/` | — | Checked per envelope instruction: `ls extractions/ \| grep -i wilson` returns nothing under this path; no Darrel Wilson material exists in the Codex harvest import. |
 | `_archive/claude-export-2026-07-01.tar.gz` | 332,779,255 bytes | Checked per envelope instruction: `tar -tzf ... \| grep -i darrel` returns zero matching entries. No additional Darrel Wilson source material exists in the Claude export archive. |
 
 No `agents/darrel-wilson/AGENT.md` file was located during this repair (SKILL.md's Quick
@@ -54,5 +54,5 @@ Reference cites one) — flagged here as an open gap, not fabricated as present.
 
 No claim of source absence is made without a file read or listing check first:
 - `extractions/` for "wilson"/"darrel" surfaced exactly the two directories used above — confirmed via `ls extractions/ | grep -i darrel`, not assumed.
-- `_active/codex-harvest-2026-06-11/extractions/` — checked via `ls | grep -i darrel`, zero results, confirmed empty of Wilson material (directory itself exists and is non-empty for other experts).
+- `_active/harness/codex-harvest-2026-06-11/extractions/` — checked via `ls | grep -i darrel`, zero results, confirmed empty of Wilson material (directory itself exists and is non-empty for other experts).
 - `_archive/claude-export-2026-07-01.tar.gz` — 332MB archive, listed via `tar -tzf` and grepped for "darrel", zero matching entries. Full extraction was not performed (not warranted given zero listing hits and archive size), but this is a listing-based negative, not an unread assumption.

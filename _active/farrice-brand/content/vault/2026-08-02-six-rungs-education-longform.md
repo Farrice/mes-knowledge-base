@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P2
 bucket: Authority
 ring: Bridge
-source_brief: _active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md
 notes: Entry one of a named education series ("Rungs"). Publish after proof posts exist, per 05-CONTENT-STRATEGY. The ladder itself is the save object — the six rungs should be liftable as a standalone graphic. Pair with the 2026-08-02 flagship post; do not publish same day.
 ---
 

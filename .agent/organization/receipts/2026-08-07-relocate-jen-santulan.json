@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:35:01.566651+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/jen-santulan",
+  "dst": "_active/clients/jen-santulan",
+  "stub_left": false,
+  "files_moved": 33,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_jen-fthb-engine.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/system-integration/2026-05-12-agentic-os-elevation-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/jen-santulan/START-HERE.html": 147,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/jen-santulan/deliverables/08-edm-appendix.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/jen-santulan/production/08-edm-appendix.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/jen-santulan/state.yaml": 11,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/agentic-os-integration/pattern-inventory-and-delta.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/fantastic-posters/templates/listing-batch.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/fantastic-posters/workflows/poster-to-video.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/jen-santulan-listing-content/references/source-ledger.md": 1
+  },
+  "total_rewrites": 170,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

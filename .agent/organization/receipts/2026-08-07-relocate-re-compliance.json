@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:35:13.968706+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/re-compliance",
+  "dst": "_active/clients/re-compliance",
+  "stub_left": false,
+  "files_moved": 10,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-08-04-global-org-sweep.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/re-compliance/04-deliverables/IMMEDIATE-NEXT-STEPS.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/re-compliance/04-deliverables/JEN-COORDINATION-WEEK1.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/re-compliance/04-deliverables/JEN-EMAIL-TEMPLATE.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/re-compliance/04-deliverables/WEEK1-SUMMARY.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/re-compliance/START-HERE.html": 42,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-08-04-global-org-sweep.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/re-compliance-pack/SKILL.md": 2
+  },
+  "total_rewrites": 61,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

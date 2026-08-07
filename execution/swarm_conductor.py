@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 swarm_conductor.py — deterministic mission scaffolding for the /swarm conductor
-(Swarm Apex Session 1: `_active/swarm-apex-2026-07-07/PLAN.md`).
+(Swarm Apex Session 1: `_active/harness/swarm-apex-2026-07-07/PLAN.md`).
 
 Does the boring, deterministic parts of "plan → gate → launch → receipt" so the
 orchestrator (Fable/Sonnet main loop) only has to do the judgment parts:
@@ -45,7 +45,7 @@ EXEC_DIR = ROOT / "execution"
 SKILLS = ROOT / "skills"
 SWARM_DIR = ROOT / ".tmp" / "swarm"
 PRODUCTION_CORE = ROOT / "PRODUCTION_CORE.md"
-PATH_DECISION_DOC = "_active/path-decision-2026-07-01/README.md"
+PATH_DECISION_DOC = "_active/offer-strategy/path-decision-2026-07-01/README.md"
 
 sys.path.insert(0, str(EXEC_DIR))
 

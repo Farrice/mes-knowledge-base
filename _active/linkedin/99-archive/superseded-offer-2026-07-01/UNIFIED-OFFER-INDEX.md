@@ -212,7 +212,7 @@ All three documents live in:
 
 **Original source documents (preserved for reference):**
 - `_active/linkedin/02-offer/OFFER-LADDER.md`
-- `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md`
+- `_active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md`
 
 ---
 

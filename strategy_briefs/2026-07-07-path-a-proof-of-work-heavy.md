@@ -2,7 +2,7 @@
 
 **Mission**: `.tmp/swarm/path-a-proof-of-work/mission.md` · 8 diverge takes · aggregated + adversarially verified 2026-07-07
 
-**PATH DECISION GUARD** 🟢 GROUNDED (`_active/path-decision-2026-07-01/README.md`): Incumbency Rule is live — no repositioning, no new offers until $5K/mo COLLECTED. All 8 takes independently verified this recommendation stays inside Path A execution (a sales/proof asset for the existing offer), not a pivot. No dissent on this point.
+**PATH DECISION GUARD** 🟢 GROUNDED (`_active/offer-strategy/path-decision-2026-07-01/README.md`): Incumbency Rule is live — no repositioning, no new offers until $5K/mo COLLECTED. All 8 takes independently verified this recommendation stays inside Path A execution (a sales/proof asset for the existing offer), not a pivot. No dissent on this point.
 
 ---
 

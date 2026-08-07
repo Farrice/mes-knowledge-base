@@ -1,6 +1,6 @@
 # Notion Port Blueprint — The Antigravity Intellectual Library
 
-The mapping from Simon's architecture to Farrice's Notion. This is the design source for `/library-notion-port` and the deployment prompt pack in `_active/notion-intellectual-library/`.
+The mapping from Simon's architecture to Farrice's Notion. This is the design source for `/library-notion-port` and the deployment prompt pack in `_active/knowledge/notion-intellectual-library/`.
 
 ## The problem this solves
 
@@ -64,7 +64,7 @@ Orchestration layer listing all advisor modes: what it does / when to pick / whe
 
 ## Build paths (two options)
 
-1. **Notion AI builds it** (Simon's way, recommended — it exercises the system immediately): paste the deployment prompts from `_active/notion-intellectual-library/notion-ai-deployment-prompts.md` into Notion AI (best model available, e.g. Claude Opus-class).
+1. **Notion AI builds it** (Simon's way, recommended — it exercises the system immediately): paste the deployment prompts from `_active/knowledge/notion-intellectual-library/notion-ai-deployment-prompts.md` into Notion AI (best model available, e.g. Claude Opus-class).
 2. **Claude builds it via Notion MCP/API**: `execution/notion_api.py` (pinned 2022-06-28) creating the DBs directly — deterministic but skips Notion AI's native view/dashboard assembly. Use when Notion AI access is unavailable.
 
 ## Acceptance tests (port-specific)

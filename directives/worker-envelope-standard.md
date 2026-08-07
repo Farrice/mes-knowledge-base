@@ -25,7 +25,7 @@ and add mission specifics, never subtract rules. Companion failure catalog:
    directions the same day): an absence claim ("no source exists") must name searches of
    ALL THREE source locations — root `extractions/`, the claude-export archive tarball
    (python tarfile per-member CONTENT scan — filenames are UUIDs), and
-   `_active/codex-harvest-2026-06-11/extractions/` — fewer searched = the claim is
+   `_active/harness/codex-harvest-2026-06-11/extractions/` — fewer searched = the claim is
    unverified. "Scan not needed" is itself an absence claim. Search name FRAGMENTS
    without apostrophes/punctuation; record sizes with `wc -c` (never `wc -l`).
 5. **Deliverable paths, not self-report.** End by reporting the file count, the output

@@ -7,7 +7,7 @@ status: enriched
 
 # Jen Listings — 5200 Armida Package + Listing Engine v2 — What We Built 2026-08-05 and How to Use It
 
-> A live client run (5200 Armida Dr, $3.199M Woodland Hills) went through three hook generations and two taste rejections before Jen shipped her own version. That arc got codified the same day into `/listing-package`: a one-shot pipeline turning a listing URL into a complete, compliance-linted brief. Companion files: the engine at `skills/jen-santulan-listing-content/workflows/listing-package.md`, the register ladder in `_active/jen-listings/CLAUDE.md`, the recipe in `docs/solutions/2026-08-05-listing-package-pipeline.md`, the worked example in `_active/jen-listings/5200-armida-woodland-hills/`.
+> A live client run (5200 Armida Dr, $3.199M Woodland Hills) went through three hook generations and two taste rejections before Jen shipped her own version. That arc got codified the same day into `/listing-package`: a one-shot pipeline turning a listing URL into a complete, compliance-linted brief. Companion files: the engine at `skills/jen-santulan-listing-content/workflows/listing-package.md`, the register ladder in `_active/clients/jen-listings/CLAUDE.md`, the recipe in `docs/solutions/2026-08-05-listing-package-pipeline.md`, the worked example in `_active/clients/jen-listings/5200-armida-woodland-hills/`.
 
 ## ⚡ If you only read 10 lines
 
@@ -20,7 +20,7 @@ status: enriched
 7. `python3 execution/fair_housing_lint.py check --file <f> --context script|caption|package` — **exit 2 = no ship**. No safe/family/great-for-kids; schools off camera.
 8. `python3 execution/voice_ratchet.py add --client jen --verdict pass|fail --line "..." --why "..."` — felt verdicts; the log **outranks prompt defaults**.
 9. Fetch never fabricates: Playwright → Apify `web` actor (~$0.003) → ask for a paste.
-10. Re-running the same property **resumes** from `_active/jen-listings/<slug>/listing.json` — iterations are $0.
+10. Re-running the same property **resumes** from `_active/clients/jen-listings/<slug>/listing.json` — iterations are $0.
 
 ## Command table
 

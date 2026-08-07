@@ -116,7 +116,7 @@ Does the text have at least one moment of slight imperfection — a passive cons
 > with this KEY RULE" (2,901 words / 15,818 characters, per report line 6). Confirmed
 > by content grep to be the only Kriukow source in this repo — see
 > `references/source-ledger.md` for the absence check across `extractions/`,
-> `_active/codex-harvest-2026-06-11/`, and `_archive/claude-export-2026-07-01.tar.gz`.
+> `_active/harness/codex-harvest-2026-06-11/`, and `_archive/claude-export-2026-07-01.tar.gz`.
 
 - **Word-swap-only humanization** — treating "delve → explore" as the fix while sentence order, rhythm, and argument flow stay untouched. The report names this the industry-wide failure mode: "95%+ of AI content deployers are doing word-swapping" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Market Signals, line 126 — sentence continues "...or using 'humanizer' tools that are trivially detectable").
 - **Sentence-by-sentence patching** — fixing sentence 1, then separately fixing sentence 2, and calling it done. The report names this the Oscillation Trap: "sentence-level edits preserve the inter-sentence statistical relationships" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Hidden Knowledge #1, line 73).

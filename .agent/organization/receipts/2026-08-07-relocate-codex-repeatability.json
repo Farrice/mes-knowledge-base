@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:33:22.955752+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/codex-repeatability",
+  "dst": "_active/_archive/2026-08-07-sweep/codex-repeatability",
+  "stub_left": true,
+  "files_moved": 8,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-06-23-high-taste-writing-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-06-24-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/high-taste-writing-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/trendscale-brief-revision/02-research/TrendScale_v4_High_Taste_Orchestration_Receipt.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/codex-repeatability/04-deliverables/session-brief-v4-high-taste-os-2026-06-24.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/codex-repeatability/START-HERE.html": 21,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/codex-repeatability/high-taste-os-smoke-practitioner-2026-06-23.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/06-system/AUTOMATION_PROMPT-v3.5-archive.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/AUTOMATION_PROMPT.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-06-26-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-28-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-31-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/verify_high_taste_os.py": 1
+  },
+  "total_rewrites": 35,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

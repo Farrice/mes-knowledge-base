@@ -1,6 +1,6 @@
 # Kallaway — Social Commerce 3.0: Genius Context
 
-> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words. Verified against primary source: Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, uploader "Kallaway," published 2026-04-29 (https://www.youtube.com/watch?v=ImzoNTrgvFg) — transcript archived at `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` (metadata confirming title/date/URL: `.../ImzoNTrgvFg/metadata.json`).
+> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words. Verified against primary source: Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, uploader "Kallaway," published 2026-04-29 (https://www.youtube.com/watch?v=ImzoNTrgvFg) — transcript archived at `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` (metadata confirming title/date/URL: `.../ImzoNTrgvFg/metadata.json`).
 > **Domain**: Content Psychology → Social Commerce & Distribution Economics
 > **Tier**: Deep Extraction (Forge — Expansion)
 > **Provenance**: Claim-by-claim verification status lives in `references/source-ledger.md`. Read it before citing any number, name, or acquisition detail from this file in client-facing work.
@@ -190,7 +190,7 @@ Meta didn't build agentic commerce — they ACQUIRED it for $2B. This signals th
 
 ## Anti-Patterns (Source-Attributed)
 
-Kallaway names these outright, on-camera, as the failure modes of operators still running 1.0/2.0 playbooks in the 3.0 era. Each anchor cites the verified transcript of Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, published 2026-04-29 — `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`.
+Kallaway names these outright, on-camera, as the failure modes of operators still running 1.0/2.0 playbooks in the 3.0 era. Each anchor cites the verified transcript of Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, published 2026-04-29 — `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`.
 
 - **Treating AI as full content automation instead of a creativity multiplier.** Kallaway rejects the binary of "robotic, sanitized, soulless content" versus "amazing artistic, creative human content" as lazy: "most people assume using AI means fully replacing creative thinking... But that's kind of a lazy way of thinking about it." (transcript @ 00:01:17–00:01:30, video published 2026-04-29)
 - **Letting AI do the thinking and ideating instead of the research.** He draws the line explicitly: "If you're letting AI do the thinking and the ideating, that's where your content gets stale and robotic." (transcript @ 00:05:33–00:05:38)

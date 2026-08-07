@@ -16,7 +16,7 @@ When files conflict, use this order:
 2. `_active/linkedin/01-research/MARKET-ICP-DOSSIER-2026-06.md`
 3. `_active/linkedin/04-deliverables/content-os/CONTENT-OS.md`
 4. `_active/linkedin/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
-5. `_active/health-performance-ip-library/AUTOMATION_PROMPT.md`
+5. `_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md`
 6. This `content-team-os/` package
 
 Treat older launch files as source material unless they match the current offer and ICP.

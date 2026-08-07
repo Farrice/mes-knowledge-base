@@ -37,7 +37,7 @@
 | **Per-project context** | that project's `INDEX.md`; the map is root `PROJECTS.md` | Pointer |
 | **Brand/voice project rules** | `_active/farrice-brand/CLAUDE.md` | Pointer |
 | **Who he is, the story, the wounds, the values, the thesis** | **THIS DOCUMENT** | Canonical and deep — this is the only home |
-| **Notion self-work extracts (9 docs, Sept 2025–May 2026)** | `_active/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` | Cited source |
+| **Notion self-work extracts (9 docs, Sept 2025–May 2026)** | `_active/farrice-brand/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` | Cited source |
 | **Nine years of private notes (2017–2026, eras + finds)** | `_active/farrice-brand/identity/notes-excavation-2026-08-04.md` | Cited source — the excavation report; raw notes never committed |
 
 ---
@@ -233,4 +233,4 @@ The interview is otherwise complete. New self-knowledge merges in with a version
 
 ---
 
-*Sources: 9 Notion self-work docs (`_active/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md`) · workspace sweep (`extracts/WORKSPACE-SELF.md`) · FOUNDER-CONTEXT-BRIEF v1.0 §12, absorbed and retired · thought-bank verbatim (`_active/farrice-brand/thought-bank/inbox/2026-07-27.md`, `2026-07-29.md`) · his own biography corrections and voice rules issued in-session (archive `e8728194`) · path-council record 2026-07-01. Every quoted line is his, verbatim.*
+*Sources: 9 Notion self-work docs (`_active/farrice-brand/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md`) · workspace sweep (`extracts/WORKSPACE-SELF.md`) · FOUNDER-CONTEXT-BRIEF v1.0 §12, absorbed and retired · thought-bank verbatim (`_active/farrice-brand/thought-bank/inbox/2026-07-27.md`, `2026-07-29.md`) · his own biography corrections and voice rules issued in-session (archive `e8728194`) · path-council record 2026-07-01. Every quoted line is his, verbatim.*

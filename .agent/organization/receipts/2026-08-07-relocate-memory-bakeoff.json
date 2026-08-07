@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:37:48.836495+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/memory-bakeoff",
+  "dst": "_active/harness/memory-bakeoff",
+  "stub_left": false,
+  "files_moved": 5,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_three-layer-memory-system.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/MEMORY-SYSTEM-DELIVERY-SUMMARY.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-06-23-three-layer-memory-second-brain.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/memory-system-usage.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/memory-bakeoff/START-HERE.html": 7,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/directives/archive/claude-md-cut-2026-07-28.md": 1
+  },
+  "total_rewrites": 16,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

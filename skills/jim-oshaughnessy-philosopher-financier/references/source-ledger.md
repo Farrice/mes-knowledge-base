@@ -45,7 +45,7 @@ Pre-Fall/Post-Fall, Four Horsemen") — confirmatory, not independent sources.
 | `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, 7,720 files) | Python `tarfile`, per-member `.decode('utf-8', errors='ignore')`, substring match on `"shaughnessy"` / `"marduk"` / `"gestabo"` / `"gestapo"` (not `"oshaughnessy"` — see false-negative note above) | **5 hits** — one primary extraction source (above) + 4 confirmatory downstream conversations |
 | `extractions/` | `ls \| grep -i osh` | 0 hits (unchanged from prior pass) |
 | `research_outputs/ai_authority_architect_agents/jim_oshaughnessy.md` | Read in full (10,052 bytes) | Confirmed AI-generated market-strategy memo, not a transcript — still correctly excluded as a source |
-| `_active/codex-harvest-2026-06-11/` | `grep -rli oshaughnessy` | Downstream copies of this repo's own skill/agent files — still correctly excluded as an independent source |
+| `_active/harness/codex-harvest-2026-06-11/` | `grep -rli oshaughnessy` | Downstream copies of this repo's own skill/agent files — still correctly excluded as an independent source |
 
 ## Claim-by-claim status (corrected)
 

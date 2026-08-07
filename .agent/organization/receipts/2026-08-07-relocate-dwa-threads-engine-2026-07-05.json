@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:36:23.319625+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/dwa-threads-engine-2026-07-05",
+  "dst": "_active/clients/dwa-threads-engine-2026-07-05",
+  "stub_left": false,
+  "files_moved": 92,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_dwa-threads-engine.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-05-dwa-threads-engine-2026-07-05.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-15-cold-offer-frontdoor.md": 4,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-dwa-threads-engine-2026-07-05.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/dwa-affiliate-battle-test/02-research/research-summary.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/dwa-affiliate-battle-test/04-deliverables/09-question-led-content-engine.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-threads-engine-2026-07-05/02-research/11-competitor-inventory.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-threads-engine-2026-07-05/02-research/19-competitor-conversion.md": 6,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-threads-engine-2026-07-05/START-HERE.html": 280,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-07-15-cold-offer-frontdoor.md": 1
+  },
+  "total_rewrites": 309,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

@@ -148,13 +148,13 @@
 | **MASTER-STRATEGY.md** | Master positioning + beachhead + ICP + phase sequence + depth standard + content→client pipeline | `_active/linkedin/` |
 | **research/deep-icp-profile-invisible-expert.md** | Deep canvassing ICP (McRaney 6-layer model): The Invisible Expert (brand decision-maker pain language, resistance, identity-level needs) | `_active/linkedin/research/` |
 | **research/wellness-supplement-brand-niche.md** | Niche research: top 10 brands, decision-maker titles + email addresses, pain language, buying process, alternative vendors | `_active/linkedin/research/` |
-| **daily/2026-06-21/22/23-health-performance-geo-brief.md** | 3x completed daily GEO briefs with 11-section format (Executive Signal Stack, Claim Safety Audit, Creative Strategy, Acquisition Opportunity Map, Ready-To-Deploy Assets, etc.) | `_active/health-performance-ip-library/daily/` |
-| **CLIENT_ACQUISITION_OFFER.md** | Original 5-rung offer ladder (Signal-To-Authority Audit through Creative Strategy Intensive) — now reconciled into unified brief | `_active/health-performance-ip-library/` |
-| **SERVICE_LADDER.md** | Original 8-tier service ladder (AI Listening Operator through Offer Architect) — now simplified to 4 pillars | `_active/health-performance-ip-library/` |
-| **AUTOMATION_PROMPT.md** | v3.0 daily engine spec (9-step client acquisition ladder, 7 source lanes, 11 required output sections, hard boundaries) | `_active/health-performance-ip-library/` |
-| **proof-tracker.md** | Manual outcome tracking (never fabricate; real results only) | `_active/health-performance-ip-library/` |
-| **pipeline.md** | Human-tagged lead pipeline (signal → call → conversion tracking) | `_active/health-performance-ip-library/` |
-| **teardown-system.md** | Worked example + 6-part template for brand teardowns (the keystone proof asset) | `_active/health-performance-ip-library/` |
+| **daily/2026-06-21/22/23-health-performance-geo-brief.md** | 3x completed daily GEO briefs with 11-section format (Executive Signal Stack, Claim Safety Audit, Creative Strategy, Acquisition Opportunity Map, Ready-To-Deploy Assets, etc.) | `_active/knowledge/health-performance-ip-library/daily/` |
+| **CLIENT_ACQUISITION_OFFER.md** | Original 5-rung offer ladder (Signal-To-Authority Audit through Creative Strategy Intensive) — now reconciled into unified brief | `_active/knowledge/health-performance-ip-library/` |
+| **SERVICE_LADDER.md** | Original 8-tier service ladder (AI Listening Operator through Offer Architect) — now simplified to 4 pillars | `_active/knowledge/health-performance-ip-library/` |
+| **AUTOMATION_PROMPT.md** | v3.0 daily engine spec (9-step client acquisition ladder, 7 source lanes, 11 required output sections, hard boundaries) | `_active/knowledge/health-performance-ip-library/` |
+| **proof-tracker.md** | Manual outcome tracking (never fabricate; real results only) | `_active/knowledge/health-performance-ip-library/` |
+| **pipeline.md** | Human-tagged lead pipeline (signal → call → conversion tracking) | `_active/knowledge/health-performance-ip-library/` |
+| **teardown-system.md** | Worked example + 6-part template for brand teardowns (the keystone proof asset) | `_active/knowledge/health-performance-ip-library/` |
 
 ---
 

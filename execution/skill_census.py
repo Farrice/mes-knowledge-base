@@ -3,7 +3,7 @@
 skill_census.py — E2 vintage-stratified embodiment census over skills/.
 
 Implements the seven mechanical heuristics derived in the E1 factory audit
-(_active/elevation-track/E1-factory-audit.md). Deterministic, read-only,
+(_active/harness/elevation-track/E1-factory-audit.md). Deterministic, read-only,
 offline. Calibrated against the 8 E1-labeled skills before trusting output.
 
 Grades:
@@ -257,7 +257,7 @@ def census():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", nargs="?", default="run", choices=["run"])
-    ap.add_argument("--json", default=str(ROOT / "_active/elevation-track/E2-census.json"))
+    ap.add_argument("--json", default=str(ROOT / "_active/harness/elevation-track/E2-census.json"))
     args = ap.parse_args()
 
     records = census()

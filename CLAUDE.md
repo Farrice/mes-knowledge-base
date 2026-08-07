@@ -13,7 +13,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - `.env` at project root with `NOTION_API_KEY` — required for all Notion operations. Python deps: `python-dotenv`, `requests` (no requirements.txt). No build step, no test suite — this is an AI orchestration system.
 - **Notion: always `execution/notion_api.py`** (pins `Notion-Version: 2022-06-28`). Never the JS client — v5.9.0 silently breaks schema updates. Database IDs: `directives/notion-databases.md`.
-- CLI reference: `directives/cli-reference.md` · Directive nav: `directives/INDEX.md` · Read `_active/system-audit/audit-2026-04-24.md` before significantly changing the system.
+- CLI reference: `directives/cli-reference.md` · Directive nav: `directives/INDEX.md` · Read `_active/harness/system-audit/audit-2026-04-24.md` before significantly changing the system.
 
 ## Compass Doctrine (Farrice, 2026-07-27)
 
@@ -131,7 +131,7 @@ Suite lives in `~/.agents/skills/` (source `mattpocock/skills`, lockfile `~/.age
 
 - **3 layers**: `directives/` (SOPs) · orchestration (you — routing, decisions, error handling) · `execution/` (deterministic Python — push complexity here). Primitives map: `directives/system-primitives.md`.
 - **Skills** `skills/[name]/` (SKILL.md + genius.md + workflows/; frontmatter `routing: long-tail` demotes, `status: archived` de-indexes) · **Agents** `agents/[name]/` · **Workflows** `.agent/workflows/` · `.tmp/` intermediates (never commit) · `extractions/` · `knowledge/` · `deliverables/` · `projects/`.
-- **Per-client CLAUDE.md inheritance** (auto-loads on `cd`): Andrea/Resonance `_active/andrea-dj/` · Jen Santulan `_active/jen-listings/` · Farrice/Parallax `_active/farrice-brand/`. Contract: declare inheritance, one-paragraph identity pointer, Override List, client anti-patterns.
+- **Per-client CLAUDE.md inheritance** (auto-loads on `cd`): Andrea/Resonance `_active/clients/andrea-dj/` · Jen Santulan `_active/clients/jen-listings/` · Farrice/Parallax `_active/farrice-brand/`. Contract: declare inheritance, one-paragraph identity pointer, Override List, client anti-patterns.
 - **Memory (3-layer)**: episodic L1 (superpowers plugin — **never install claude-mem**) → `.memory/sovereign.db` L2 (launchd harvest/distill) → Notion Simon Library L3 (nightly mirror). Front door: `memory_facade.py`. Knowledge sources: local files · Notion (5 DBs) · Recall (~3k cards, Tier 1.5 auto) · NotebookLM · Hermes (`directives/hermes-usage-policy.md`).
 - **Key on-demand files**: `PRODUCTION_CORE.md` · `OPERATING_MANUAL.md` · `COUNCIL.md` · `DOMAIN_REGISTRY.md` · `JARVIS.md` · `FARRICE.md`.
 - **Session state**: write `.agent/session-state.md` after intent validation / expert deployment / 10+ reads. **After context compaction, read it immediately before continuing.**

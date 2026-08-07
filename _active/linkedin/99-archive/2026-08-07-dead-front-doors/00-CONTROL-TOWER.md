@@ -54,10 +54,10 @@
 The market/supplements/brands/FDA-FTC/news intelligence engine.
 | File | Role |
 |---|---|
-| `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` | **The operating prompt** (v3.2) — the 10-section daily brief spec. |
-| `_active/health-performance-ip-library/daily/YYYY-MM-DD-health-performance-geo-brief.md` | The dated daily briefs (live through 2026-06-30). |
-| `_active/health-performance-ip-library/ledger/insights.jsonl` | The reusable IP ledger (every insight, structured). |
-| `_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md` | The service ladder these briefs feed. |
+| `_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md` | **The operating prompt** (v3.2) — the 10-section daily brief spec. |
+| `_active/knowledge/health-performance-ip-library/daily/YYYY-MM-DD-health-performance-geo-brief.md` | The dated daily briefs (live through 2026-06-30). |
+| `_active/knowledge/health-performance-ip-library/ledger/insights.jsonl` | The reusable IP ledger (every insight, structured). |
+| `_active/knowledge/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md` | The service ladder these briefs feed. |
 > **To run today's brief:** open a session and invoke the AUTOMATION_PROMPT (or `/geo-content --research` for a lighter content-focused scan). **⚠ Scheduling status — NOT truly automated:** briefs run through 2026-06-30 but with gaps (missing 06-25, 06-28) and NO launchd/cron job — it's being run by hand. To make it real, schedule a daily cloud agent (`/schedule`) or add a launchd job. See §OPEN THREADS → "schedule the brief."
 
 ### 7 · BRAND & VOICE (the pass/fail law)

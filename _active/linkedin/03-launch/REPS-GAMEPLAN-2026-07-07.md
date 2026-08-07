@@ -50,7 +50,7 @@ Count only what you control. From the playbook + council protocol:
 
 ## 4 · What feeds what (so the reps feel connected to money)
 
-Post + comments + teardowns → decision-maker profile views → "DM me AUDIT" → free 7-check test → $500 pilot audit (template ready: `02-offer/claim-safe-citation-audit-TEMPLATE.md`) → $2.5K/mo retainer pilot → the $5K/mo threshold that releases every parked path on the PMF shelf (`_active/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md`). Warm-lane S&C builds keep collecting in parallel — those dollars count toward the same threshold.
+Post + comments + teardowns → decision-maker profile views → "DM me AUDIT" → free 7-check test → $500 pilot audit (template ready: `02-offer/claim-safe-citation-audit-TEMPLATE.md`) → $2.5K/mo retainer pilot → the $5K/mo threshold that releases every parked path on the PMF shelf (`_active/offer-strategy/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md`). Warm-lane S&C builds keep collecting in parallel — those dollars count toward the same threshold.
 
 ## 5 · If you only remember three rules
 

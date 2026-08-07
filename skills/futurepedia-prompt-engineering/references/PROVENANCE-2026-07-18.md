@@ -22,7 +22,7 @@ All quotes above were read directly from the cited file/line before being used â
 memory or inferred. No claim of "source absent" was made without a file-size-recorded check (see
 `references/source-ledger.md` "Not found / explicitly checked absent" section: `extractions/`
 directory listing, `_archive/claude-export-2026-07-01.tar.gz` 332,779,255-byte tar-listing scan,
-and `_active/codex-harvest-2026-06-11/` tree).
+and `_active/harness/codex-harvest-2026-06-11/` tree).
 
 **Honesty caveat carried forward**: the source file itself is a secondary AI-generated MES 3.0
 extraction of a Futurepedia YouTube video (dated 2026-01-18 in its own header), not the raw video

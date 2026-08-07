@@ -61,5 +61,5 @@ Procedural trap: not wrong about what it observed, wrong to stop observing.
 ## Pointers
 
 - This session's task brief (parallel builder note + either-or instruction)
-- `_active/swarm-apex-2026-07-07/PLAN.md` §"Binding Constraints" ("no forced wiring")
+- `_active/harness/swarm-apex-2026-07-07/PLAN.md` §"Binding Constraints" ("no forced wiring")
 - `execution/solution_recorder.py --help` / `draft --help` / `save --help`

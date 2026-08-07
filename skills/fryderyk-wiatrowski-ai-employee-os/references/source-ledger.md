@@ -2,7 +2,7 @@
 
 Every claim used in `SKILL.md`, `genius.md`, and `references/*.md` traced to its source, claim-by-claim. Labels: **VERIFIED** (directly present in the source package, checked verbatim), **LIKELY** (reasonable inference from directly observed evidence, not itself stated verbatim), **UNCONFIRMED** (could not be checked against a primary source in this package).
 
-Ground truth package: `extractions/video-context/ohKt066uFhg/` — `transcript.txt` (900 spoken rows, fully read), `evidence-map.md`, `analysis.md`, `metadata.json`, `uncertainty-report.md`. No other extraction package exists for this expert (checked `extractions/`, `_active/codex-harvest-2026-06-11/`, and the claude-export tarball by content — see Absence Note below).
+Ground truth package: `extractions/video-context/ohKt066uFhg/` — `transcript.txt` (900 spoken rows, fully read), `evidence-map.md`, `analysis.md`, `metadata.json`, `uncertainty-report.md`. No other extraction package exists for this expert (checked `extractions/`, `_active/harness/codex-harvest-2026-06-11/`, and the claude-export tarball by content — see Absence Note below).
 
 ## Video / Speaker Facts
 
@@ -39,6 +39,6 @@ Ground truth package: `extractions/video-context/ohKt066uFhg/` — `transcript.t
 ## Absence Note (searched, not assumed)
 
 - `extractions/` contains no other file or directory matching `wiatrowski` or `fryderyk` beyond the `ohKt066uFhg` video-context package — confirmed via `ls extractions/ | grep -i` on both surname and first name (no hits).
-- `_active/codex-harvest-2026-06-11/skills/fryderyk-wiatrowski-ai-employee-os/` exists and contains the same reference files as the live skill (verified by `wc -c`: SKILL.md 4074B, workflows/ai-employee-os.md 5321B, references/*.md 875B-1715B each) — a prior harvest of this same skill, not an independent additional source.
-- `_active/codex-harvest-2026-06-11/agents/fryderyk-wiatrowski/AGENT.md` (3255B) and `memory/context.md` (837B) exist as a persona wrapper around the same skill; read for cross-check, no new sourced claims beyond the video package.
+- `_active/harness/codex-harvest-2026-06-11/skills/fryderyk-wiatrowski-ai-employee-os/` exists and contains the same reference files as the live skill (verified by `wc -c`: SKILL.md 4074B, workflows/ai-employee-os.md 5321B, references/*.md 875B-1715B each) — a prior harvest of this same skill, not an independent additional source.
+- `_active/harness/codex-harvest-2026-06-11/agents/fryderyk-wiatrowski/AGENT.md` (3255B) and `memory/context.md` (837B) exist as a persona wrapper around the same skill; read for cross-check, no new sourced claims beyond the video package.
 - `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) — checked via `tar -tzf ... | grep -i "wiatrowski\|fryderyk"` (filename-level content listing, not a full extraction): zero matches. No file inside the archive is named for this expert. A full byte-content grep of every archived file was not run (would require extracting 332MB); the filename-level check is recorded honestly as what was actually done, not upgraded to a stronger claim.

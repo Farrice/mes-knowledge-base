@@ -20,7 +20,7 @@
     "name": "Final 10% Diagnostic",
     "steps": ["evidence intake", "bottleneck diagnosis", "Ship Map", "one-page architecture sketch", "Sprint go-or-no-go"],
     "dependencies": ["access to current offer, authority, and operating-system evidence"],
-    "evidence": ["_active/farrice-final-10/strategy/offer-the-final-10.md"],
+    "evidence": ["_active/farrice-brand/farrice-final-10/strategy/offer-the-final-10.md"],
     "claims": {
       "allowed": ["identify and map a supported authority or business-system bottleneck"],
       "restricted": ["attribute downstream revenue or visibility changes only when measured"],

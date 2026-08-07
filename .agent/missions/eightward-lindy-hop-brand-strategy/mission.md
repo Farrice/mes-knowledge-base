@@ -31,20 +31,20 @@
 ## Mission Activation Queue
 | ID | Owner | Workflow/Skill | Status | Expected artifact | Evidence path | Assertion | Blocker | Next action |
 |---|---|---|---|---|---|---|---|---|
-| source-research | Codex main thread + bounded research agents | mission/deep-research | complete | Source-backed cultural dossier and visual reference board | _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md | cultural-grounding |  | Use source board and research dossier for counsel, cultural review, and mockup testing. |
-| strategy-artifact | Codex main thread | mission | complete | _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_COMPLETE_LINDY_HOP_BRAND_STRATEGY_PACKET.md | _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md | product-risk-validation |  | Share with Josh for review before counsel, paid cultural review, and private mockups. |
+| source-research | Codex main thread + bounded research agents | mission/deep-research | complete | Source-backed cultural dossier and visual reference board | _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md | cultural-grounding |  | Use source board and research dossier for counsel, cultural review, and mockup testing. |
+| strategy-artifact | Codex main thread | mission | complete | _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_COMPLETE_LINDY_HOP_BRAND_STRATEGY_PACKET.md | _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md | product-risk-validation |  | Share with Josh for review before counsel, paid cultural review, and private mockups. |
 
 ## Execution Receipt
 - Planned lanes: source-research, strategy-artifact
 - Executed lanes: strategy-artifact, source-research
 - Skipped or blocked lanes: [none]
-- Proof artifacts: _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md
+- Proof artifacts: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md
 - Validators run: source-backed citation review, row-count and source-link review, artifact section review
 - Resume command: /mission resume eightward-lindy-hop-brand-strategy
 
 ## Fresh Session Packet
 - Required: False
-- Fresh session packet: `Continue from .agent/missions/eightward-lindy-hop-brand-strategy/mission.json and _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. Next useful action: turn the brief into a 2-page Josh-facing founder brief or 3 private mockup briefs.`
+- Fresh session packet: `Continue from .agent/missions/eightward-lindy-hop-brand-strategy/mission.json and _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. Next useful action: turn the brief into a 2-page Josh-facing founder brief or 3 private mockup briefs.`
 - Resume command: `/mission eightward-lindy-hop-brand-strategy`
 - Next command: `/mission eightward-lindy-hop-brand-strategy`
 - State sources: .agent/missions/eightward-lindy-hop-brand-strategy/mission.json

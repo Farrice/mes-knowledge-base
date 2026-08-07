@@ -63,7 +63,7 @@ MAX_APIFY_CALLS = 3
 
 LINKEDIN_MESSAGE = (
     "LinkedIn scraping is not in the approved actor whitelist — see "
-    "_active/youtube-notion-replication/FULL-PICTURE.md § LinkedIn gap"
+    "_active/knowledge/youtube-notion-replication/FULL-PICTURE.md § LinkedIn gap"
 )
 
 

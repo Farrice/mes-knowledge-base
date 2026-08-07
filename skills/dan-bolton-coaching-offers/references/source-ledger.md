@@ -11,7 +11,7 @@ for this specific claim as of this repair pass — carried forward, not invented
 ```
 ls extractions/ | grep -i bolton                                  → no results (193 total entries in extractions/, none match)
 grep -ril "bolton" extractions/ 2>/dev/null                        → no results
-ls _active/codex-harvest-2026-06-11/extractions/ 2>/dev/null | grep -i bolton   → no results
+ls _active/harness/codex-harvest-2026-06-11/extractions/ 2>/dev/null | grep -i bolton   → no results
 find . -iname "*bolton*" -not -path "*/node_modules/*"             → skills/dan-bolton-coaching-offers, agents/dan-bolton,
                                                                        .claude/commands/dan-bolton*.md, and their worktree mirrors —
                                                                        all consumers/mirrors of THIS skill, not a source for it

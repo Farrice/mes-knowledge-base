@@ -129,7 +129,7 @@ Jacoby's own naming of this: "that process of zooming in and out, I think is is 
 
 ## Anti-Patterns
 
-Each item below is sourced against the Dive Club transcript (`extractions/brandon-jacoby-taste-mastery/transcript.txt`, mirrored copy under `_active/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/transcript.txt`; 56,449-byte single-paragraph transcript) — verified 2026-07-17 by direct file read and byte count, not inference.
+Each item below is sourced against the Dive Club transcript (`extractions/brandon-jacoby-taste-mastery/transcript.txt`, mirrored copy under `_active/harness/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/transcript.txt`; 56,449-byte single-paragraph transcript) — verified 2026-07-17 by direct file read and byte count, not inference.
 
 - **Novelty everywhere**: Breaking convention where users need trust and speed, treated as a fixed rule rather than a judgment call. Jacoby's own correction: "it's not a hard and fast rule where, you know, tastemakers break all the rules and reinvent the wheel."
 - **Pattern worship**: Calling inherited sameness "best practice" instead of questioning it. His diagnosis of the industry: "a lot of like the issue our industry faces right now is like people trying to stick to the pattern a little bit too much and kind of like revert to the mean a little bit too much." (source: transcript.txt)

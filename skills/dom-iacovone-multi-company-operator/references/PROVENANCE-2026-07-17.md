@@ -4,7 +4,7 @@ Anchor → source file + location. All source files below were read in full befo
 
 | Anchor in repaired output | Source file | Location |
 |---|---|---|
-| "founder involvement can create yes-men..." blockquote | `_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/operator-principles.md` | line 27 (Principle 4) |
+| "founder involvement can create yes-men..." blockquote | `_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/operator-principles.md` | line 27 (Principle 4) |
 | "A buyer request produced SKUs that fit shelf demands but drifted..." blockquote | `.../examples-bank.md` | line 27 ("Walmart Buyer Mistake") |
 | "Dom argues AI makes offline relationships more important..." blockquote | `.../timestamped-insight-ledger.md` | line 18, row `49:55` |
 | "The video is useful because it gives the harness concrete entrepreneurial examples..." blockquote | `.../harness-application-notes.md` | line 5 |
@@ -19,7 +19,7 @@ Anchor → source file + location. All source files below were read in full befo
 
 ## Absence Claims (verified, not assumed)
 
-- Raw transcript (`transcript.txt`, `transcript.vtt`) and `extractions/video-context/TUdTU1pwoZ4/`: searched `extractions/`, `_active/codex-harvest-2026-06-11/extractions/`, and the `_archive/claude-export-2026-07-01.tar.gz` listing (via `tar -tzf | grep -i iacovone`) — zero matches in all three. This is a re-confirmation of a gap the pre-existing SKILL.md and the extraction README.md already flagged; not a fresh unverified "no source" claim.
+- Raw transcript (`transcript.txt`, `transcript.vtt`) and `extractions/video-context/TUdTU1pwoZ4/`: searched `extractions/`, `_active/harness/codex-harvest-2026-06-11/extractions/`, and the `_archive/claude-export-2026-07-01.tar.gz` listing (via `tar -tzf | grep -i iacovone`) — zero matches in all three. This is a re-confirmation of a gap the pre-existing SKILL.md and the extraction README.md already flagged; not a fresh unverified "no source" claim.
 
 ## Not Independently Re-Verified
 

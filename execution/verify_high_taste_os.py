@@ -21,7 +21,7 @@ REQUIRED_FILES = {
     "slash_index": "SLASH_COMMANDS.md",
     "codex_preflight": "execution/codex_operator_preflight.py",
     "compat_preflight": ".codex/tools/codex_orchestration_preflight.py",
-    "smoke_artifact": "_active/codex-repeatability/high-taste-os-smoke-practitioner-2026-06-23.md",
+    "smoke_artifact": "_active/_archive/2026-08-07-sweep/codex-repeatability/high-taste-os-smoke-practitioner-2026-06-23.md",
 }
 
 WORKFLOW_TERMS = [

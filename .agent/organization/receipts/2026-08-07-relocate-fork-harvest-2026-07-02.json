@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:37:20.049253+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/fork-harvest-2026-07-02",
+  "dst": "_active/harness/fork-harvest-2026-07-02",
+  "stub_left": false,
+  "files_moved": 5,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_codex-fork-harvest-complete.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1
+  },
+  "total_rewrites": 2,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

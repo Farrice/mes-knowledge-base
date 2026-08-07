@@ -7,7 +7,7 @@ status: enriched
 
 # Simon Intellectual Library OS — What We Built 2026-06-11 and How to Use It
 
-> Forge extraction of Simon (Better Creating / Systems Made Better) — the knowledge-architecture layer that governs how extracted knowledge gets STORED, ORGANIZED, MADE GLANCEABLE, and KEPT SELF-IMPROVING. One skill (`skills/simon-intellectual-library-os/`, 12 `/library-*` workflows), one agent (`agents/simon-better-creating/`), and the Notion Intellectual Library (hub + 5 databases) with its deployment prompt pack at `_active/notion-intellectual-library/notion-ai-deployment-prompts.md`. Deeper spec: the skill's `genius.md` + `references/kb-schema.md` + `references/notion-port-blueprint.md`.
+> Forge extraction of Simon (Better Creating / Systems Made Better) — the knowledge-architecture layer that governs how extracted knowledge gets STORED, ORGANIZED, MADE GLANCEABLE, and KEPT SELF-IMPROVING. One skill (`skills/simon-intellectual-library-os/`, 12 `/library-*` workflows), one agent (`agents/simon-better-creating/`), and the Notion Intellectual Library (hub + 5 databases) with its deployment prompt pack at `_active/knowledge/notion-intellectual-library/notion-ai-deployment-prompts.md`. Deeper spec: the skill's `genius.md` + `references/kb-schema.md` + `references/notion-port-blueprint.md`.
 
 ## ⚡ If you only read 10 lines
 

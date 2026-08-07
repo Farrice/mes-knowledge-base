@@ -7,7 +7,7 @@ status: enriched
 
 # Meg Heckman Buyer-Trigger OS — What We Built 2026-06-10 and How to Use It
 
-> A 6-video forge (13,339 words + 240 frames) produced `skills/meg-heckman-buyer-trigger-os/` — purchase-trigger psychology for physical/visual products, where the PRODUCT ITSELF is the conversion mechanism. **12 skill workflows + the `/merch-os` orchestrator = 13 commands**, 6 buyer triggers, 16 genius patterns, a 10-criterion rubric — deployed same-session on MyBPM at `_active/mybpm-merch-os-run-1/`. Sources: `skills/meg-heckman-buyer-trigger-os/SKILL.md` · `genius.md` · `.agent/workflows/merch-os.md`. Spelling: HECKMAN, not Hackman.
+> A 6-video forge (13,339 words + 240 frames) produced `skills/meg-heckman-buyer-trigger-os/` — purchase-trigger psychology for physical/visual products, where the PRODUCT ITSELF is the conversion mechanism. **12 skill workflows + the `/merch-os` orchestrator = 13 commands**, 6 buyer triggers, 16 genius patterns, a 10-criterion rubric — deployed same-session on MyBPM at `_active/mybpm/mybpm-merch-os-run-1/`. Sources: `skills/meg-heckman-buyer-trigger-os/SKILL.md` · `genius.md` · `.agent/workflows/merch-os.md`. Spelling: HECKMAN, not Hackman.
 
 ## ⚡ If you only read 10 lines
 

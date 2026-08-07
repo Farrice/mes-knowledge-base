@@ -115,7 +115,7 @@ By end of session:
 - `execution/ground_truth.py:init_domain` — domain registration + sidecar JSON merge
 - `execution/anchor_memory.py` — project state + anchors for the new vertical
 - `execution/routing_enforcer.py` BINDINGS — routing layer (manually extended)
-- Inheritance template sources: `_active/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`, `_active/farrice-brand/CLAUDE.md`
+- Inheritance template sources: `_active/clients/andrea-dj/CLAUDE.md`, `_active/clients/jen-listings/CLAUDE.md`, `_active/farrice-brand/CLAUDE.md`
 
 ## v1 status
 

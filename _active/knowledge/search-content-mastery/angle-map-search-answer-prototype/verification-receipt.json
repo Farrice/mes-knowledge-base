@@ -1,0 +1,390 @@
+{
+  "boundaries": [
+    "Runtime observation proves local behavior, not rankings, citations, traffic, leads, conversions, or revenue.",
+    "No external publishing, outreach, connector write, payment, deployment, or paid generation occurred."
+  ],
+  "checks": [
+    {
+      "evidence": {
+        "missing": [],
+        "required_files": 13
+      },
+      "name": "system-files",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "details": {
+          "3sHPiOIHPTY": {
+            "analysis": "extractions/video-context/3sHPiOIHPTY/analysis.md",
+            "metadata": "extractions/video-context/3sHPiOIHPTY/metadata.json",
+            "transcript": "extractions/video-context/3sHPiOIHPTY/transcript-reference.json",
+            "verified_hashes": 6,
+            "visual": "extractions/video-context/3sHPiOIHPTY/visual-ledger.json"
+          },
+          "4tqCKkGilXI": {
+            "analysis": "extractions/video-context/4tqCKkGilXI/evidence-analysis.md",
+            "metadata": "extractions/video-context/4tqCKkGilXI/metadata.json",
+            "transcript": "extractions/video-context/4tqCKkGilXI/transcript.txt",
+            "verified_hashes": 11,
+            "visual": "extractions/video-context/4tqCKkGilXI/visual-ledger.json"
+          },
+          "53h_-LoEGiw": {
+            "analysis": "extractions/video-context/53h_-LoEGiw/analysis.md",
+            "metadata": "extractions/video-context/53h_-LoEGiw/metadata.json",
+            "transcript": "extractions/video-context/53h_-LoEGiw/transcript.txt",
+            "verified_hashes": 9,
+            "visual": "extractions/video-context/53h_-LoEGiw/visual-ledger.json"
+          },
+          "6o0mabKRmIo": {
+            "analysis": "extractions/video-context/6o0mabKRmIo/analysis.md",
+            "metadata": "extractions/video-context/6o0mabKRmIo/metadata.json",
+            "transcript": "extractions/video-context/6o0mabKRmIo/transcript-reference.json",
+            "verified_hashes": 8,
+            "visual": "extractions/video-context/6o0mabKRmIo/visual-ledger.json"
+          },
+          "AaSyn9YSNYQ": {
+            "analysis": "extractions/video-context/AaSyn9YSNYQ/analysis.md",
+            "metadata": "extractions/video-context/AaSyn9YSNYQ/metadata.json",
+            "transcript": "extractions/video-context/AaSyn9YSNYQ/transcript.txt",
+            "verified_hashes": 6,
+            "visual": "extractions/video-context/AaSyn9YSNYQ/visual-ledger.json"
+          },
+          "Fh_54G6p_cs": {
+            "analysis": "extractions/video-context/Fh_54G6p_cs/analysis.md",
+            "metadata": "extractions/video-context/Fh_54G6p_cs/metadata.json",
+            "transcript": "extractions/video-context/Fh_54G6p_cs/transcript.txt",
+            "verified_hashes": 6,
+            "visual": "extractions/video-context/Fh_54G6p_cs/visual-ledger.json"
+          },
+          "LiLD7_tjn4o": {
+            "analysis": "extractions/video-context/LiLD7_tjn4o/analysis.md",
+            "metadata": "extractions/video-context/LiLD7_tjn4o/metadata.json",
+            "transcript": "extractions/video-context/LiLD7_tjn4o/transcript.txt",
+            "verified_hashes": 9,
+            "visual": "extractions/video-context/LiLD7_tjn4o/visual-ledger.json"
+          },
+          "hDBsQTK7VTc": {
+            "analysis": "extractions/video-context/hDBsQTK7VTc/evidence-analysis.md",
+            "metadata": "extractions/video-context/hDBsQTK7VTc/metadata.json",
+            "transcript": "extractions/video-context/hDBsQTK7VTc/transcript.txt",
+            "verified_hashes": 11,
+            "visual": "extractions/video-context/hDBsQTK7VTc/visual-ledger.json"
+          },
+          "lkFA-aBN_LM": {
+            "analysis": "extractions/video-context/lkFA-aBN_LM/evidence-analysis.md",
+            "metadata": "extractions/video-context/lkFA-aBN_LM/metadata.json",
+            "transcript": "extractions/video-context/lkFA-aBN_LM/transcript.txt",
+            "verified_hashes": 11,
+            "visual": "extractions/video-context/lkFA-aBN_LM/visual-ledger.json"
+          },
+          "qzMAGdzra88": {
+            "analysis": "extractions/video-context/qzMAGdzra88/analysis.md",
+            "metadata": "extractions/video-context/qzMAGdzra88/metadata.json",
+            "transcript": "extractions/video-context/qzMAGdzra88/transcript-reference.json",
+            "verified_hashes": 8,
+            "visual": "extractions/video-context/qzMAGdzra88/visual-ledger.json"
+          },
+          "vVJB2FjOF2k": {
+            "analysis": "extractions/video-context/vVJB2FjOF2k/analysis.md",
+            "metadata": "extractions/video-context/vVJB2FjOF2k/metadata.json",
+            "transcript": "extractions/video-context/vVJB2FjOF2k/transcript.txt",
+            "verified_hashes": 8,
+            "visual": "extractions/video-context/vVJB2FjOF2k/visual-ledger.json"
+          }
+        },
+        "packages": 11,
+        "video_ids": [
+          "vVJB2FjOF2k",
+          "3sHPiOIHPTY",
+          "Fh_54G6p_cs",
+          "AaSyn9YSNYQ",
+          "4tqCKkGilXI",
+          "hDBsQTK7VTc",
+          "lkFA-aBN_LM",
+          "qzMAGdzra88",
+          "53h_-LoEGiw",
+          "6o0mabKRmIo",
+          "LiLD7_tjn4o"
+        ]
+      },
+      "name": "locked-eleven-source-corpus",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "3sHPiOIHPTY": {
+          "canonical": "extractions/nathan-gotch/transcript.txt",
+          "canonical_sha256": "d3bb6771bc95a35cd683f4397ecf2518eb9b9dd4db129741a3802a0cf358533e",
+          "normalized_exact_match": true,
+          "reference": "extractions/video-context/3sHPiOIHPTY/transcript-reference.json",
+          "timed_derivative_sha256": "8ce474307f37cff75a32c79658379055142835d225cf7ee4ca9eb693ac00524f"
+        },
+        "6o0mabKRmIo": {
+          "canonical": "extractions/nathan-gotch-ai-seo/reference-corpus/ecommerce-seo-strategy-2026.txt",
+          "canonical_sha256": "281ce12eafa1f655d0ca3672785ba4f2527e82c14ed54918f173495dfd525d47",
+          "normalized_exact_match": true,
+          "reference": "extractions/video-context/6o0mabKRmIo/transcript-reference.json",
+          "timed_derivative_sha256": "63f8e025d9014872f664d066f753b68c33292a7f4e35f2271d1b1f190aed5553"
+        },
+        "qzMAGdzra88": {
+          "canonical": "extractions/nathan-gotch-ai-seo/reference-corpus/how-to-rank-everywhere-seo-content.txt",
+          "canonical_sha256": "9c772cd2b6c66a969d55d8be07c23938ff50de97de3f741fad7e204357584ff4",
+          "normalized_exact_match": true,
+          "reference": "extractions/video-context/qzMAGdzra88/transcript-reference.json",
+          "timed_derivative_sha256": "4cd3e2e227a3aabbe547edab4ea3f799727e039ba32111cddaa3aa0f15293234"
+        }
+      },
+      "name": "reused-source-hash-and-stream-check",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "cases": {
+          "natural-language-angle-map": {
+            "autopilot_route": "search-content-mastery",
+            "binding_signal": "prototype aeo and seo writing",
+            "command_menu_first": "1. `/search-content-mastery` | score 50025",
+            "workflow_router_first": "/search-content-mastery                   [BINDING \u2014 mandatory route, signal: 'prototype aeo and seo writing'] \u2014 One evidence-bounded SEO, AEO, GEO, search-everywhere and content-evaluation front door for project foundation, site/content audit, keyword and opportunity planning, content/media creation handoff, scoring, import-first measurement, and service delivery."
+          },
+          "system-language": {
+            "autopilot_route": "search-content-mastery",
+            "binding_signal": "seo aeo geo content system",
+            "command_menu_first": "1. `/search-content-mastery` | score 50051",
+            "workflow_router_first": "/search-content-mastery                   [BINDING \u2014 mandatory route, signal: 'seo aeo geo content system'] \u2014 One evidence-bounded SEO, AEO, GEO, search-everywhere and content-evaluation front door for project foundation, site/content audit, keyword and opportunity planning, content/media creation handoff, scoring, import-first measurement, and service delivery."
+          }
+        },
+        "negative_cases": 4
+      },
+      "name": "routing-first-with-negative-boundary",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "cold_starts": {
+          "ecommerce": "READY_FOR_PLANNING",
+          "health": "READY_FOR_PLANNING",
+          "local": "READY_FOR_PLANNING"
+        },
+        "evaluator_fixtures": [
+          {
+            "brief": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/search-content-mastery-verify-v0vqe9n3/health/briefs/brief-1d8a616fd46a.json",
+            "dimensions": 10,
+            "final_score": 7.4,
+            "fixture": "article",
+            "handoff_route": [
+              "/search-content-mastery",
+              "/create",
+              "nathan-gotch-ai-seo",
+              "ethan-smith-aeo"
+            ],
+            "original_score": 9.12
+          },
+          {
+            "brief": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/search-content-mastery-verify-v0vqe9n3/local/briefs/brief-6a837311258d.json",
+            "dimensions": 10,
+            "final_score": 9.8,
+            "fixture": "local-service-page",
+            "handoff_route": [
+              "/search-content-mastery",
+              "/create",
+              "nathan-gotch-ai-seo",
+              "ethan-smith-aeo"
+            ],
+            "original_score": 9.8
+          },
+          {
+            "brief": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/search-content-mastery-verify-v0vqe9n3/ecommerce/briefs/brief-3109436e4f41.json",
+            "dimensions": 10,
+            "final_score": 9.8,
+            "fixture": "ecommerce-page",
+            "handoff_route": [
+              "/search-content-mastery",
+              "/create",
+              "nathan-gotch-ai-seo",
+              "ethan-smith-aeo"
+            ],
+            "original_score": 9.8
+          },
+          {
+            "brief": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/search-content-mastery-verify-v0vqe9n3/health/briefs/brief-2a901618d834.json",
+            "dimensions": 10,
+            "final_score": 9.6,
+            "fixture": "linkedin-post",
+            "handoff_route": [
+              "/search-content-mastery",
+              "/create",
+              "farrice-voice-card"
+            ],
+            "original_score": 9.6
+          },
+          {
+            "brief": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/search-content-mastery-verify-v0vqe9n3/health/briefs/brief-99060bd2ded6.json",
+            "dimensions": 10,
+            "final_score": 9.5,
+            "fixture": "video-script",
+            "handoff_route": [
+              "/search-content-mastery",
+              "/create",
+              "video craft master",
+              "skills/generate"
+            ],
+            "original_score": 9.5
+          },
+          {
+            "brief": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/search-content-mastery-verify-v0vqe9n3/health/briefs/brief-24624eb0b893.json",
+            "dimensions": 10,
+            "final_score": 8.9,
+            "fixture": "visual-brief",
+            "handoff_route": [
+              "/search-content-mastery",
+              "/create",
+              "/fantastic-studio",
+              "skills/generate"
+            ],
+            "original_score": 8.9
+          }
+        ],
+        "imports": {
+          "ai_citation": "ACCEPTED",
+          "aliased": "ACCEPTED",
+          "rejections": {
+            "conflicting": "CONFLICTING_DATE_RANGE",
+            "duplicate": "DUPLICATE_IMPORT",
+            "malformed": "MALFORMED_IMPORT",
+            "partial": "INCOMPLETE_SCHEMA",
+            "unknown": "UNKNOWN_SCHEMA"
+          },
+          "valid": "ACCEPTED"
+        },
+        "independent_outcome_stages": [
+          "CITED",
+          "TRAFFIC"
+        ],
+        "learning_loop": {
+          "recommendations": [
+            {
+              "causal_status": "UNCONFIRMED",
+              "content_id": "ecommerce-page-fixture",
+              "created_at": "2026-08-05T15:39:26.623064+00:00",
+              "evidence_event_ids": [
+                "event-029d865a59a5"
+              ],
+              "missing_stage": "CONVERTED",
+              "observed_stage": "TRAFFIC",
+              "project_id": "trailfuel-creatine",
+              "promotion": "HUMAN_REQUIRED",
+              "recommendation": "Inspect CTA-message continuity, offer fit, page friction, and measurement instrumentation.",
+              "recommendation_id": "recommendation-360c0c05487c",
+              "schema_version": "search-workflow-recommendation/v1",
+              "signature": "1bc9c2c8ce08a7c4ace4e3a610a0ff98e2e9866bc127ccacb0b602566d3a1cd8",
+              "state": "PROPOSED"
+            }
+          ],
+          "recommendations_appended": 1,
+          "status": "PROPOSALS_READY"
+        },
+        "ordered_local_batch": {
+          "jobs": 2,
+          "statuses": [
+            "CREATED",
+            "READY_FOR_PLANNING"
+          ]
+        },
+        "portable_resumes": {
+          "ecommerce": "VALID",
+          "health": "VALID",
+          "local": "VALID"
+        },
+        "project_proof_states": {
+          "ecommerce": "UNTESTED",
+          "health": "UNTESTED",
+          "local": "UNTESTED"
+        }
+      },
+      "name": "portable-runtime-imports-scoring-and-cold-starts",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "asserted_terms": [
+          "will rank"
+        ],
+        "safe_terms": []
+      },
+      "name": "claim-risk-negation-regression",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "draft": "2020-12",
+        "validated": {
+          "content-score-receipt.schema.json": "score-29653ecf671a.json",
+          "search-brief.schema.json": "brief-36fd9b330fef.json",
+          "search-event.schema.json": "event-1c788bf27602",
+          "search-project-manifest.schema.json": "manifest.json",
+          "service-receipt.schema.json": "service-05967e00aed1.json"
+        }
+      },
+      "name": "versioned-record-json-schemas",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md": "d02422402dd4d9435510d06d44b3c65385e1cab295e1c6c1d1e30b11011abe1b",
+        "_active/knowledge/health-performance-ip-library/ledger/insights.jsonl": "2400d50880c5164065ea624315dc8cb8606fb98ab216693969577db09ca43fd5",
+        "_active/knowledge/health-performance-ip-library/ledger/promises-not-kept.jsonl": "6dcc0663f26bf119dddac05d2ba5a2b5df1ad95dc6afb88662f865ada8df7a70",
+        "_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md": "e485f8f386e085710dd5985de0dfe12612be715ed7a9298ebfd7da9975c92b05"
+      },
+      "name": "protected-health-and-offer-files-unchanged",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "artifacts": 9,
+        "behavior_proof": {
+          "after": 9.1,
+          "before": 2.3,
+          "delta": 6.8
+        },
+        "delivery_state": "READY_FOR_INTERNAL_REVIEW",
+        "pilot": "_active/knowledge/search-content-mastery/health-performance-pilot",
+        "prototype_state": "UNTESTED"
+      },
+      "name": "health-performance-service-pilot",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "artifacts": 14,
+        "baseline": 1.4,
+        "briefs": 3,
+        "delivery_state": "READY_FOR_INTERNAL_REVIEW",
+        "outcome_rows": 0,
+        "prototype": "_active/knowledge/search-content-mastery/angle-map-search-answer-prototype",
+        "prototype_state": "UNTESTED",
+        "recommendation_rows": 0,
+        "score_delta": 8.03,
+        "scores": {
+          "linkedin_answer_bridge": 8.83,
+          "owned_answer_page": 9.43,
+          "visual_brief": 8.68
+        },
+        "service_receipt": "service-9adc4e1b9e52.json",
+        "target_query": "how to create supplement marketing angles without overclaiming"
+      },
+      "name": "angle-map-search-answer-application",
+      "status": "PASS"
+    }
+  ],
+  "market_effect_state": "UNTESTED",
+  "proof_state": "RUNTIME_OBSERVED",
+  "schema_version": "search-content-mastery-verification/v1",
+  "status": "PASS",
+  "summary": {
+    "failed": 0,
+    "passed": 10,
+    "total": 10
+  },
+  "verified_at": "2026-08-05T15:39:26.931570+00:00"
+}

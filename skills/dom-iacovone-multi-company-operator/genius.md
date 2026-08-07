@@ -34,7 +34,7 @@ The video shows entrepreneurial excellence under real constraints:
 - partner-led product launches,
 - and AI-era relationship moats.
 
-It is strongest as an operator skill and harness example corpus. It should not become a generic "motivation" or "founder mindset" skill. This is confirmed against 10,300 observed spoken transcript rows and 20 sampled video frames (`_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/README.md`); OCR evidence is unavailable (0 rows), so no on-screen-text claim is asserted anywhere in this skill.
+It is strongest as an operator skill and harness example corpus. It should not become a generic "motivation" or "founder mindset" skill. This is confirmed against 10,300 observed spoken transcript rows and 20 sampled video frames (`_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/README.md`); OCR evidence is unavailable (0 rows), so no on-screen-text claim is asserted anywhere in this skill.
 
 ## Operating Lens
 
@@ -72,20 +72,20 @@ The source includes medical and regenerative-health discussion. Keep that lane r
 The raw video transcript (`transcript.txt`/`transcript.vtt`) is not present in this repo — it lived in the retired Codex fork's evidence package and was not restored. The following blockquotes are verbatim sentences pulled from the extraction package's own analysis files (harvested 2026-06-11), which themselves paraphrase the transcript. They are NOT Dom's spoken words and must not be presented as direct quotes of him. Each is labeled LIKELY: an accurate paraphrase of a timestamped source row, verified against the extraction file text itself, but not independently re-checked against the raw transcript.
 
 > "Dom's leadership lesson is that founder involvement can create yes-men and weaken executive argument. The mature operator builds a room where strong people can disagree before the founder enters."
-> — `_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/operator-principles.md`, Principle 4, line 27. Label: LIKELY (paraphrase anchored to the 22:17 chapter).
+> — `_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/operator-principles.md`, Principle 4, line 27. Label: LIKELY (paraphrase anchored to the 22:17 chapter).
 
 > "Pattern: A buyer request produced SKUs that fit shelf demands but drifted from brand/product truth."
-> — `_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/examples-bank.md`, "Walmart Buyer Mistake," line 27. Label: LIKELY (paraphrase anchored to the 64:40 chapter).
+> — `_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/examples-bank.md`, "Walmart Buyer Mistake," line 27. Label: LIKELY (paraphrase anchored to the 64:40 chapter).
 
 > "Dom argues AI makes offline relationships more important because work and intelligence become less scarce."
-> — `_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/timestamped-insight-ledger.md`, row 49:55, line 18. Label: LIKELY (paraphrase anchored to the 49:55 chapter).
+> — `_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/timestamped-insight-ledger.md`, row 49:55, line 18. Label: LIKELY (paraphrase anchored to the 49:55 chapter).
 
 > "The video is useful because it gives the harness concrete entrepreneurial examples instead of abstract systems language."
-> — `_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/harness-application-notes.md`, line 5. Label: VERIFIED (this is the extraction author's own framing statement, not a transcript paraphrase — no timestamp claim attached).
+> — `_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/harness-application-notes.md`, line 5. Label: VERIFIED (this is the extraction author's own framing statement, not a transcript paraphrase — no timestamp claim attached).
 
 ## Anti-Patterns (Sourced)
 
-Every item below is drawn from `_active/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/failure-modes.md`, cross-referenced against the matching chapter timestamp in `timestamped-insight-ledger.md`, video `TUdTU1pwoZ4` (published 2026-05-26). Recovery moves are the extraction's own recovery column, not invented.
+Every item below is drawn from `_active/harness/codex-harvest-2026-06-11/extractions/dom-iacovone/multi-company-operator/failure-modes.md`, cross-referenced against the matching chapter timestamp in `timestamped-insight-ledger.md`, video `TUdTU1pwoZ4` (published 2026-05-26). Recovery moves are the extraction's own recovery column, not invented.
 
 - **Founder stays in every meeting** — team becomes less opinionated and defaults to yes (22:17 Delegate/Elevate chapter; `failure-modes.md` row 1). Recovery: remove the founder from routine calls, define escalation triggers.
 - **Annual plan carries too many priorities** — no weekly truth surface can show what matters (04:47 SGM chapter; `failure-modes.md` row 2). Recovery: collapse to four initiative blocks, assign owners and metrics.

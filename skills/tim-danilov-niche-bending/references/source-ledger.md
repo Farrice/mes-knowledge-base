@@ -12,8 +12,8 @@ Claim-by-claim provenance for `genius.md` and `SKILL.md`. Labels: **VERIFIED**
 | 1 | Video transcript (plain text) | `extractions/niche-bending/transcript.txt` | 11,053 bytes (`wc -c`) | VERIFIED — read in full |
 | 2 | Video transcript (duplicate copy) | `extractions/transcripts/fLDrB_wmbNE.txt` | 11,053 bytes (`wc -c`) | VERIFIED — identical byte count to #1, same content |
 | 3 | Mastery extraction report | `extractions/niche-bending/extraction-report.md` | 18,269 bytes (`wc -c`) | VERIFIED — read in full, cross-checked against transcript |
-| 4 | Video metadata | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` | 1,654 bytes (`wc -c`) | VERIFIED — read in full |
-| 5 | Video context ledger (timestamped transcript) | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/video-context-ledger.md` | 78,900 bytes (`wc -c`) | VERIFIED — spot-checked, confirms transcript.txt content with timestamps |
+| 4 | Video metadata | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` | 1,654 bytes (`wc -c`) | VERIFIED — read in full |
+| 5 | Video context ledger (timestamped transcript) | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/video-context-ledger.md` | 78,900 bytes (`wc -c`) | VERIFIED — spot-checked, confirms transcript.txt content with timestamps |
 
 **Canonical source video**: "​The NEW YouTube Strategy Dominating in 2026" — vidIQ (YouTube channel), video ID `fLDrB_wmbNE`, published 2026-02-16 (per `metadata.json` `upload_date`/`publish_date`: `20260216`), duration 11:04, URL `https://www.youtube.com/watch?v=fLDrB_wmbNE`. Featured guest: Tim Danilov (`@timdanilovhi`).
 

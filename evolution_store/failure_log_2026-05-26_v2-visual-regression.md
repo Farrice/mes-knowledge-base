@@ -40,7 +40,7 @@ Per user direct quote: *"Maybe we need to take a different approach and have you
 
 **Pivot**: image generation moves OUT of MCP pipelines entirely for v3. Claude produces high-density deployment-ready prompts. User deploys manually in ChatGPT (GPT Image 2) or Gemini (Nano Banana Pro web tier). User holds the iteration loop. Claude holds the prompt grammar.
 
-**New deliverable**: `_active/andrea-dj/launch/03-visual-variants/prompt-set-for-manual-deployment.md` — 6 hero prompts (2 per variant) calibrated to:
+**New deliverable**: `_active/clients/andrea-dj/launch/03-visual-variants/prompt-set-for-manual-deployment.md` — 6 hero prompts (2 per variant) calibrated to:
 - Heterosexual M/F partnership focus
 - Age 30-38
 - Named ICP multicultural specifics (Costa Rican / Mexican / Colombian / Black mixed-Caribbean / Polish-Italian / Filipino / Korean)

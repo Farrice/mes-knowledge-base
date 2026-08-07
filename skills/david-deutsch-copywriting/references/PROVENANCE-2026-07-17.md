@@ -33,4 +33,4 @@ All 7 carry an explicit `2026-07-17` search date + `references/source-ledger.md`
 
 ## references/source-ledger.md (new file)
 
-Built from the search log performed live this session: `ls extractions/ | grep -i deutsch`, `_active/codex-harvest-2026-06-11/` tree check, `agents/david-deutsch/AGENT.md` read, `.agents/skills/source-command-david-deutsch/SKILL.md` read, `tar -tzf _archive/claude-export-2026-07-01.tar.gz | grep -ic deutsch` (0 of 3,864 archived paths), and `wc -c` on every file checked (sizes recorded in the ledger table). No claim of absence was made without a corresponding file read.
+Built from the search log performed live this session: `ls extractions/ | grep -i deutsch`, `_active/harness/codex-harvest-2026-06-11/` tree check, `agents/david-deutsch/AGENT.md` read, `.agents/skills/source-command-david-deutsch/SKILL.md` read, `tar -tzf _archive/claude-export-2026-07-01.tar.gz | grep -ic deutsch` (0 of 3,864 archived paths), and `wc -c` on every file checked (sizes recorded in the ledger table). No claim of absence was made without a corresponding file read.

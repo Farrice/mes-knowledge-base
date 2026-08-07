@@ -5,7 +5,7 @@ narrative_pillar: P4
 bucket: Authority
 ring: Outer
 format: linkedin-post
-source_brief: _active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md
 filed: 2026-07-31
 ---
 

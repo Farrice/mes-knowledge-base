@@ -1,6 +1,6 @@
 # Provenance — nicolas-cole-edan-writing-mechanics repair
 
-All anchors below trace to `_active/codex-harvest-2026-06-11/extractions/video-context/gAVbSZHwzNU/transcript.txt` (124,718 bytes, full 33:38 video read for this repair). See `references/source-ledger.md` for claim-by-claim status.
+All anchors below trace to `_active/harness/codex-harvest-2026-06-11/extractions/video-context/gAVbSZHwzNU/transcript.txt` (124,718 bytes, full 33:38 video read for this repair). See `references/source-ledger.md` for claim-by-claim status.
 
 | Anchor (used in) | Quote (abbreviated) | Transcript location |
 |---|---|---|

@@ -20,7 +20,7 @@ status: enriched
 - `seedance-1080p` is hard-blocked at script level. Video pre-flight: `python3 execution/fal_budget_guard.py check --mode=<kling|seedance-720p|...> --duration=<N>`.
 - Image cost: `--quality=low` ~$0.011 (drafts) · `medium` ~$0.04 (client review) · `high` ~$0.17 (final).
 - Skip the Studio only for one-off quick drafts or a `--template` replicate of a proven layout.
-- Proven live: MyBPM "Still Synced" — 3 orthogonal directions across 2 models for $0.15 (`_active/mybpm-merch-os-run-1/04-deliverables/10-studio-job-still-synced.md`).
+- Proven live: MyBPM "Still Synced" — 3 orthogonal directions across 2 models for $0.15 (`_active/mybpm/mybpm-merch-os-run-1/04-deliverables/10-studio-job-still-synced.md`).
 
 ## Command table
 

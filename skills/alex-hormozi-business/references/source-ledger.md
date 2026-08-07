@@ -9,15 +9,15 @@ Claim-by-claim provenance for `skills/alex-hormozi-business/genius.md` and `SKIL
 - `agents/alex-hormozi/memory/context.md` — read in full, **366 bytes** (`wc -c`), contents are unpopulated template placeholders ("(to be populated...)"). No usable source material.
 - `agents/alex-hormozi/AGENT.md` — read in full, **4,522 bytes** (`wc -c`), a persona/routing summary derived from the same claims as SKILL.md/genius.md, not an independent source.
 - `skills/alex-hormozi-business/SKILL.md` frontmatter states `source: claude.ai export 2026-07-01` — i.e., the skill was originally authored from an AI-assisted conversation export, not a verbatim transcript or book-page capture. This is the honest root cause of the pre-repair `source_ledger` FAIL: no ledger existed because no primary-source discipline was applied at authoring time.
-- `_active/elevation-track/e3/real-pieces.json` (12,667 bytes, `wc -c`) — a human-and-provenance-verified corpus built for a separate blind bake-off exercise; it independently contains 3 Hormozi excerpts with real external sources (book + 2 LinkedIn posts). These are the only externally-verified Hormozi material found in the repo and are used below as the basis for the new Anti-Patterns section.
+- `_active/harness/elevation-track/e3/real-pieces.json` (12,667 bytes, `wc -c`) — a human-and-provenance-verified corpus built for a separate blind bake-off exercise; it independently contains 3 Hormozi excerpts with real external sources (book + 2 LinkedIn posts). These are the only externally-verified Hormozi material found in the repo and are used below as the basis for the new Anti-Patterns section.
 
 ## VERIFIED / LIKELY claims (external source located)
 
 | Claim / Quote | Label | Source | Location |
 |---|---|---|---|
-| "No offer? No business. No life. Bad offer? Negative profit. No business. Miserable life. Decent offer? No profit. Stagnating business. Stagnating life. Good offer? Some profit. Okay business. Okay life. Grand Slam Offer? Fantastic profit. Insane business. Freedom." | LIKELY | *$100M Offers* (2021), Ch. 2 offer ladder | `_active/elevation-track/e3/real-pieces.json` idx 1 (skill: alex-hormozi-business) — recorded caveat: "first rungs double-confirmed, full ladder single-source" |
-| "10 Truths I live by" (10-item list; used here: #2 comparison, #5 failure-as-feedback) | VERIFIED | LinkedIn @alexhormozi, activity-7057390440928432128 | `_active/elevation-track/e3/real-pieces.json` idx 2 |
-| "Super real talk: If you're working all the time, and you're not making progress, you're doing the wrong stuff. Most people don't need to solve more problems, they just need to pick better problems to solve." | VERIFIED | LinkedIn @alexhormozi, activity-7080243902582005761 | `_active/elevation-track/e3/real-pieces.json` idx 3 |
+| "No offer? No business. No life. Bad offer? Negative profit. No business. Miserable life. Decent offer? No profit. Stagnating business. Stagnating life. Good offer? Some profit. Okay business. Okay life. Grand Slam Offer? Fantastic profit. Insane business. Freedom." | LIKELY | *$100M Offers* (2021), Ch. 2 offer ladder | `_active/harness/elevation-track/e3/real-pieces.json` idx 1 (skill: alex-hormozi-business) — recorded caveat: "first rungs double-confirmed, full ladder single-source" |
+| "10 Truths I live by" (10-item list; used here: #2 comparison, #5 failure-as-feedback) | VERIFIED | LinkedIn @alexhormozi, activity-7057390440928432128 | `_active/harness/elevation-track/e3/real-pieces.json` idx 2 |
+| "Super real talk: If you're working all the time, and you're not making progress, you're doing the wrong stuff. Most people don't need to solve more problems, they just need to pick better problems to solve." | VERIFIED | LinkedIn @alexhormozi, activity-7080243902582005761 | `_active/harness/elevation-track/e3/real-pieces.json` idx 3 |
 
 ## UNCONFIRMED claims (genius.md / SKILL.md content, no primary source located this session)
 

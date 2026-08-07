@@ -232,7 +232,7 @@ Update pricing, positioning language, and messaging based on what the market res
 
 Original source documents (preserved for reference):
 - `_active/linkedin/02-offer/OFFER-LADDER.md` (proof-first, creative-led)
-- `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md` (claim-safety, GEO-readiness)
+- `_active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md` (claim-safety, GEO-readiness)
 
 ---
 

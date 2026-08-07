@@ -3,13 +3,13 @@
 ## Project Status
 - **Phase 0**: Extraction COMPLETE. 4 MES 3.0 deep extractions finalized. 4 skills + 1 compound agent built.
 - **Phase 1**: Data infrastructure COMPLETE. 9 modules built, tested, and verified against live Polymarket data.
-  - Package: `_active/prediction-market-arb/` (9 Python modules)
+  - Package: `_active/wagering/prediction-market-arb/` (9 Python modules)
   - CLI wrappers: `execution/polymarket_paper.py`, `execution/polymarket_client.py`, `execution/weather_data.py`, `execution/risk_manager.py`, `execution/polymarket_ws.py`
   - First paper trade executed: London weather market, $20 @ $0.002 (99.8% edge from METAR ground truth)
   - HRRR + ECMWF + METAR all operational. 20 cities across 4 continents.
   - 5-layer paper-only safety architecture verified (two-key gate tested)
 - **Phase 2**: Intelligence Layer COMPLETE. 4 new modules + orchestrator built.
-  - Package: `_active/prediction-market-arb/` (13 Python modules, up from 9)
+  - Package: `_active/wagering/prediction-market-arb/` (13 Python modules, up from 9)
   - New modules: `sportsbook.py`, `ensemble.py`, `market_selector.py`, `strategy_orchestrator.py`
   - CLI wrapper: `execution/strategy_orchestrator.py` (scan, scan-weather, scan-sports, status, run, run-weather)
   - Sportsbook: OddsPapi ($49/mo) with Pinnacle vig stripping (multiplicative + Power auto-switch)
@@ -24,7 +24,7 @@
 - Goal: Multi-strategy AI trading platform on Polymarket (+ eventually Kalshi)
 - Financial context: Starting small ($20-50 weather), scaling up per graduated deployment plan
 - Plan file: `.claude/plans/twinkly-juggling-coral.md`
-- Feasibility doc: `_active/prediction-market-arb/02-research/polymarket-kalshi-arbitrage-feasibility.md`
+- Feasibility doc: `_active/wagering/prediction-market-arb/02-research/polymarket-kalshi-arbitrage-feasibility.md`
 
 ## Extraction Reports — Complete Inventory
 

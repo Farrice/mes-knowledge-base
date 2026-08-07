@@ -7,8 +7,8 @@
 | Source | Path | Size (bytes, `wc -c`) | What it is |
 |---|---|---|---|
 | Primary transcript | `extractions/andrew-dun/transcript.txt` | 87,837 | Full ~80-min interview transcript, Andrew Dun's own words (podcast/interview format) |
-| Internal amplification report | `_active/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-amplification-report.md` | 14,691 | v2.0 research synthesis that proposed Workflows 11-15 and the pricing/acquisition additions to genius.md — cites "Research shows..." internally with NO external URL/study attached |
-| Internal extraction doc | `_active/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-extraction.md` | 22,019 | Original v1 extraction; source of the "Revenue Architecture" pricing table also carried into genius.md |
+| Internal amplification report | `_active/harness/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-amplification-report.md` | 14,691 | v2.0 research synthesis that proposed Workflows 11-15 and the pricing/acquisition additions to genius.md — cites "Research shows..." internally with NO external URL/study attached |
+| Internal extraction doc | `_active/harness/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-extraction.md` | 22,019 | Original v1 extraction; source of the "Revenue Architecture" pricing table also carried into genius.md |
 
 No other `extractions/` file matches "dun" besides `extractions/andrew-dun/transcript.txt` (confirmed via `ls extractions/ | grep -i dun`, single hit).
 

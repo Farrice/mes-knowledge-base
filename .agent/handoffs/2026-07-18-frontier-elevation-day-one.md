@@ -56,7 +56,7 @@ pin: true
   Farrice installs: cp launchd/com.antigravity.mission-runner.plist ~/Library/LaunchAgents/
   && launchctl load ~/Library/LaunchAgents/com.antigravity.mission-runner.plist (02:30
   nightly). Morning: python3 execution/mission_runner.py receipt → .agent/cos/.
-- **W5 SPLIT PROPOSAL staged** at _active/frontier-elevation-2026-07-17/04-deliverables/
+- **W5 SPLIT PROPOSAL staged** at _active/harness/frontier-elevation-2026-07-17/04-deliverables/
   W5-KERNEL-SPLIT-PROPOSAL.md — 3 judgment calls await Farrice (eval-set-is-personal,
   slop-bank copy-not-share, skills-ship-empty). Nod unlocks distro/ scaffold next session.
 
@@ -109,7 +109,7 @@ models for non-orchestration work, fill him in on anything he must do.
   found in the archive that were never linked to their skills.
 - **LANE 4 COMPLETE 2026-07-18 — 279/279 through the 6/6 gate, all pushed.** Batches
   17-18 closed same pattern. Final verify trio: thrivecart CLEAN; sweat-equity NOT CLEAN
-  (FALSE ABSENCE — Malbon/payphone source EXISTS in _active/codex-harvest-2026-06-11/
+  (FALSE ABSENCE — Malbon/payphone source EXISTS in _active/harness/codex-harvest-2026-06-11/
   extractions/, worker searched only 2 of 3 source locations; provenance restored);
   tom-noske-personal-brand NOT CLEAN (LAZY-UNCONFIRMED — all 4 headline stats verbatim
   in archive masterclass transcripts the worker skipped; labels corrected VERIFIED
@@ -167,7 +167,7 @@ models for non-orchestration work, fill him in on anything he must do.
   this session's own /resume). Ledger: `.agent/sessions/routing-enforce-log.jsonl`.
   Fixtures 3/3, golden set 24/24 + 7/7. Revert = active:false, no code change.
 - **Wave 2 step 2 PROPOSAL**: grading-loop redesign at
-  `_active/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md` —
+  `_active/harness/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md` —
   verdict-first (SHIP/MARGINAL/FAIL), cite-the-precedent-by-EVAL-ID (machine-checked),
   producer-never-grades-alone, felt-verdicts compound the eval set. AWAITING FARRICE.
   (The finalize this session tripped the inflation guardrail on its own 9s — live proof

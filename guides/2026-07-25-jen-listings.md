@@ -7,7 +7,7 @@ status: enriched
 
 # Jen Listings — 1654 Moonseed Shoot Sheet + Voice Lock (@_jiing) — What We Built 2026-07-25 and How to Use It
 
-> This session shipped a filmable hook set for Jen's own Simi Valley co-listing and, more durably, replaced the *guessed* version of her voice with a sourced one. The correction matters beyond Jen: our golden reference had calibrated format correctly and voice wrongly, because we wrote it instead of sourcing it from the client. Companion files: the deliverable at `_active/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md`, the new voice source at `skills/jen-santulan-listing-content/references/jen-real-voice-profile.md`, the reusable method at `docs/solutions/2026-07-25-instagram-voice-scrape-without-downloads.md`.
+> This session shipped a filmable hook set for Jen's own Simi Valley co-listing and, more durably, replaced the *guessed* version of her voice with a sourced one. The correction matters beyond Jen: our golden reference had calibrated format correctly and voice wrongly, because we wrote it instead of sourcing it from the client. Companion files: the deliverable at `_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md`, the new voice source at `skills/jen-santulan-listing-content/references/jen-real-voice-profile.md`, the reusable method at `docs/solutions/2026-07-25-instagram-voice-scrape-without-downloads.md`.
 
 ## ⚡ If you only read 10 lines
 

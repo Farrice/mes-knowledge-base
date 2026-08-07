@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:33:48.504669+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/system-integration",
+  "dst": "_active/_archive/2026-08-07-sweep/system-integration",
+  "stub_left": true,
+  "files_moved": 12,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/find-skill.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/JARVIS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/system-integration/02-research/2026-05-21-best-practices-research-synthesis.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/system-integration/02-research/2026-05-22-autopilot-wave5-validation.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/system-integration/02-research/2026-05-24-autopilot-wave5-revalidation.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/system-integration/02-research/2026-05-28-autopilot-wave5-revalidation.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/system-integration/06-system/2026-05-22-hookify-audit.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/directives/sub_agent_protocol.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/directives/workflow-gate-convention.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/evolution_store/ground_truth/rubric_v1.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/chain_runner.py": 1
+  },
+  "total_rewrites": 14,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

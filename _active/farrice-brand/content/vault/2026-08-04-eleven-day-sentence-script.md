@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P2
 bucket: Growth
 ring: Outer
-source_brief: _active/health-performance-ip-library/daily/2026-08-04-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-04-angle-map-listening-brief.md
 ---
 
 # The eleven-day sentence (45-60s talking-head script)

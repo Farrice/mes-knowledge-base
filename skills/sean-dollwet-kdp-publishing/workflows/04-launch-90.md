@@ -20,7 +20,7 @@ Load `references/kdp-policy-and-evidence-boundary.md`, the Book One cockpit, com
 
 Confirm account readiness, rights, asset-level AI disclosure, metadata/cover/interior match, title length, categories/keywords, ebook format, print file if used, Kindle Previewer/link checks, pricing/royalty calculation, and KDP Select choice. Book One defaults to Select off.
 
-Run `python3 execution/kdp_book_one.py preflight --project _active/kdp-book-one-pilot --json`. Stop at `READY_FOR_APPROVAL` until explicit upload permission exists.
+Run `python3 execution/kdp_book_one.py preflight --project _active/publishing/kdp-book-one-pilot --json`. Stop at `READY_FOR_APPROVAL` until explicit upload permission exists.
 
 ### 2. Set a current pricing hypothesis
 

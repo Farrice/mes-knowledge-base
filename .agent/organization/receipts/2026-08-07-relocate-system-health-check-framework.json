@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:39:03.927512+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/system-health-check-framework",
+  "dst": "_active/harness/system-health-check-framework",
+  "stub_left": false,
+  "files_moved": 7,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-15-system-health-check-framework.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/baseline-citation-2026-08-07.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-system-health-check-framework.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/system-health-check-framework/START-HERE.html": 21
+  },
+  "total_rewrites": 29,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

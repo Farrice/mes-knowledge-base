@@ -72,7 +72,7 @@ absence + 1 dropped-word "verbatim" + 1 wrong-file citation). The verify prompt'
 A worker declared sweat-equity-speedrun's Malbon/payphone case study sourceless and
 relabeled VERIFIED extraction facts "illustrative-only" after searching only TWO of the
 repo's THREE source locations (root `extractions/` + the archive tarball). The real
-source sat in the third: `_active/codex-harvest-2026-06-11/extractions/<skill-id>/`
+source sat in the third: `_active/harness/codex-harvest-2026-06-11/extractions/<skill-id>/`
 (the Codex fork-harvest drop — semantic-document-library-os and sam-parr-copywriting-
 mechanics sources also live there). Only the Opus verifier's independent repo-wide grep
 caught it; the relabeling was an integrity REGRESSION dressed as honesty. **Worker

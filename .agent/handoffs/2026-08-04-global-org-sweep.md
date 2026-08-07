@@ -33,7 +33,7 @@ pin: true
   - `self_heal` wiring-orphan count corrected 46 → 9 (37 were already-archived scripts).
 - **What is uncertain or stale:**
   - 5 files still in `deliverables/` with no correct default — the two MyBPM docs, `suzuki-general-use-demo-pack.md`, `prompt-course-consumer-posture.md`, `IN-BETWEENER_pitch_deck.html`. Farrice deferred these.
-  - `_active/re-compliance` is Jen's work; arguably belongs folded into `_active/jen-listings`.
+  - `_active/clients/re-compliance` is Jen's work; arguably belongs folded into `_active/clients/jen-listings`.
   - `ai_misfire_sprint_guard.py` — the only orphan Farrice hasn't ruled on; the suite still appears in 2 live workflows.
 - **Latest proof/receipt:** `.agent/organization/receipts/` (26 filing receipts + relocate receipts) · `.agent/organization/REVERT-2026-07-28.sh` · verifiers `verify_artifact_router` / `verify_projects_index` / `verify_project_filer` all PASS.
 

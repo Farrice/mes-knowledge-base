@@ -118,6 +118,42 @@ def is_arena(path: Path) -> bool:
     return not any(BUCKET_RE.match(d.name) for d in dirs)
 
 
+def nested_initiatives(path: Path) -> list[Path]:
+    """Initiatives living inside a directory that is ALSO a project itself.
+
+    `is_arena` is exclusive: buckets present means project, so not an arena.
+    But `_active/farrice-brand/` is genuinely both — it has its own 02-voice/
+    and 04-deliverables/, and the 2026-08-07 sweep moved three sibling
+    initiatives in beside them. The alternative was relocating farrice-brand
+    into itself, rewriting 583 references to land where it started.
+
+    A nested initiative must itself LOOK LIKE A PROJECT — it has its own
+    numbered buckets. "Any child that is not a bucket" is far too broad: tried
+    2026-08-07, it read farrice-brand's own content/, identity/, voice/,
+    proof/, leads/ … as initiatives and generated 48 front doors nobody asked
+    for, including inside folders holding three files. A folder the parent
+    project keeps its work in is not an initiative; a folder with its own
+    lifecycle is.
+
+    `06-system/` does not count as evidence — this tool writes it. Reading it
+    as a signal would mean the first bad run makes every later run agree.
+    """
+    if not path.is_dir():
+        return []
+    out = []
+    for c in sorted(path.iterdir()):
+        if (not c.is_dir() or c.name.startswith(".")
+                or c.name in SKIP_DIRS or c.name in ARCHIVE_DIRS
+                or BUCKET_RE.match(c.name)):
+            continue
+        buckets = [g for g in c.iterdir()
+                   if g.is_dir() and BUCKET_RE.match(g.name)
+                   and g.name != "06-system"]
+        if buckets:
+            out.append(c)
+    return out
+
+
 def discover_initiatives() -> list[Path]:
     out: list[Path] = []
     if not ACTIVE.is_dir():
@@ -125,11 +161,17 @@ def discover_initiatives() -> list[Path]:
     for child in sorted(ACTIVE.iterdir()):
         if not child.is_dir() or child.name.startswith(".") or child.name in SKIP_DIRS:
             continue
+        # An archive is a resting place, not a work surface. Generating front
+        # doors in it makes retired work look as live as everything else.
+        if child.name in ARCHIVE_DIRS:
+            continue
         if is_arena(child):
             out += [g for g in sorted(child.iterdir())
-                    if g.is_dir() and g.name not in SKIP_DIRS]
+                    if g.is_dir() and g.name not in SKIP_DIRS
+                    and g.name not in ARCHIVE_DIRS]
         else:
             out.append(child)
+            out += nested_initiatives(child)
     return out
 
 

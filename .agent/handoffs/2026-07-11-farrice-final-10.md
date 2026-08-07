@@ -17,7 +17,7 @@ pin: true
 3. Ran `/jw-engine` on the coaching offer "The Final 10%" with a parallel deep-research red-team (10 agents). **Verdict: viable, SHIP-WITH-RESHAPE (7/10).** The red-team caught real flaws in the offer sketch and reshaped it. Built 5 assets on the reshaped offer.
 
 ## Where it lives (the home)
-`_active/farrice-final-10/` — [`README.md`](../../_active/farrice-final-10/README.md) is the front door (verdict, 5 reshapes, asset index, decision log).
+`_active/farrice-brand/farrice-final-10/` — [`README.md`](../../_active/farrice-brand/farrice-final-10/README.md) is the front door (verdict, 5 reshapes, asset index, decision log).
 - `assets/big-domino.md` (9/10), `assets/attention-content.md` (5 LinkedIn posts + 1 Parallax edition, publish-ready, prose-clean 0/10), `assets/objection-arsenal.md` (18, labeled)
 - `strategy/offer-the-final-10.md` (production spec, reshaped), `strategy/distribution-and-tracking.md` (fill plan + tracking-sheet spec)
 - `research/RED-TEAM-VERDICT.md` + 3 red-team legs + icp-substrate

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:42:50.078480+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/farrice-final-10",
+  "dst": "_active/farrice-brand/farrice-final-10",
+  "stub_left": false,
+  "files_moved": 16,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-11-farrice-final-10.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-threads-engine-2026-07-05/02-research/13-postpurchase-sentiment.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-threads-engine-2026-07-05/04-deliverables/16-standalone-product-concept.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-final-10/START-HERE.html": 77,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-final-10/research/icp-substrate.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/expert-practice-os/references/adapters/ai-consulting.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/expert-practice-os/tests/fixtures/final-10-ai-consulting/acceptance-contract.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/expert-practice-os/tests/fixtures/final-10-ai-consulting/expected-route.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/expert-practice-os/tests/fixtures/final-10-ai-consulting/practitioner-protocol-packet.json": 1
+  },
+  "total_rewrites": 87,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

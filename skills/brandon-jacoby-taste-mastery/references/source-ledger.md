@@ -6,10 +6,10 @@ Every claim, quote, and anchor used across `SKILL.md`, `genius.md`, and `referen
 
 | Source | Path | Verified size | Status |
 |---|---|---|---|
-| Video transcript | `_active/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/transcript.txt` | 56,449 bytes (confirmed via `wc -c`, 2026-07-17) | VERIFIED — read in full |
-| Source metadata | `_active/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/source-metadata.md` | 741 bytes (confirmed via `wc -c`, 2026-07-17) | VERIFIED — read in full |
+| Video transcript | `_active/harness/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/transcript.txt` | 56,449 bytes (confirmed via `wc -c`, 2026-07-17) | VERIFIED — read in full |
+| Source metadata | `_active/harness/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/source-metadata.md` | 741 bytes (confirmed via `wc -c`, 2026-07-17) | VERIFIED — read in full |
 
-**Note on location**: No `extractions/brandon-jacoby-taste-mastery/` directory exists at repo root (confirmed by directory listing, 2026-07-17) — the only copy of the source transcript lives under `_active/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/`. `SKILL.md`'s "Source Transcript" pointer (`extractions/brandon-jacoby-taste-mastery/transcript.txt`) is therefore a stale root-relative path from an earlier repo layout; the file itself is real, present, and was read for this repair. This is flagged, not silently fixed, since correcting the pointer is outside this repair's scope (not a failing check).
+**Note on location**: No `extractions/brandon-jacoby-taste-mastery/` directory exists at repo root (confirmed by directory listing, 2026-07-17) — the only copy of the source transcript lives under `_active/harness/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/`. `SKILL.md`'s "Source Transcript" pointer (`extractions/brandon-jacoby-taste-mastery/transcript.txt`) is therefore a stale root-relative path from an earlier repo layout; the file itself is real, present, and was read for this repair. This is flagged, not silently fixed, since correcting the pointer is outside this repair's scope (not a failing check).
 
 ## Video Metadata (from source-metadata.md)
 

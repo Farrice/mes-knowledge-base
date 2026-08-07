@@ -10,12 +10,12 @@ pin: true
 # Angle Map Listening Engine — v4.1 Content Factory Build (fusion + vault + two-ring dossier)
 
 ## Purpose
-- **Next session should do:** (1) Verify the 05:30 local listening runs have landed daily briefs + COS exec cuts since 08-01 (`_active/health-performance-ip-library/06-system/listening-run.log`, `daily/`) and mark published vault assets POSTED in `_active/farrice-brand/content/vault/INDEX.md`. (2) Recover the three diverged branches main lacks: `codex/end-session-control-plane` (+30 files/2333 lines — live Codex thread, coordinate before merging), `codex/global-adaptive-judgment-floor` (its verifier `execution/verify_global_adaptive_judgment_floor.py` sits untracked in the tree), `origin/claude/youtube-notion-integration-analysis-ubiusy` (`execution/social_to_notion.py`, 681 lines, never landed). (3) Campaign mission #6: week-2 POV post batch — draw from the stocked vault (3 READY assets) + `2026-08-04-week-2-pov-batch.md`. (4) Log DM-send status vs the 07-31 commitment (5 one-gap DMs; the 14-day clock starts at first five logged sends).
+- **Next session should do:** (1) Verify the 05:30 local listening runs have landed daily briefs + COS exec cuts since 08-01 (`_active/knowledge/health-performance-ip-library/06-system/listening-run.log`, `daily/`) and mark published vault assets POSTED in `_active/farrice-brand/content/vault/INDEX.md`. (2) Recover the three diverged branches main lacks: `codex/end-session-control-plane` (+30 files/2333 lines — live Codex thread, coordinate before merging), `codex/global-adaptive-judgment-floor` (its verifier `execution/verify_global_adaptive_judgment_floor.py` sits untracked in the tree), `origin/claude/youtube-notion-integration-analysis-ubiusy` (`execution/social_to_notion.py`, 681 lines, never landed). (3) Campaign mission #6: week-2 POV post batch — draw from the stocked vault (3 READY assets) + `2026-08-04-week-2-pov-batch.md`. (4) Log DM-send status vs the 07-31 commitment (5 one-gap DMs; the 14-day clock starts at first five logged sends).
 - **Not in scope:** rebuilding any part of the engine (v4.1 is the standard); touching the paused cloud routine (trig_01LPK9dSCmABXfq1g3pRWGsq, re-enable only at claude.ai/code/routines); editing canon bodies of docs 03/07/08 (engine feeds deltas; curation is explicit).
 
 ## Load First
-- `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` — v4.1 engine spec (Angle Map center, Daily Core, rotating deep-focus calendar, story bench, factory + vault contracts)
-- `_active/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` — the standard-setting inaugural brief (verdict: good; §12 = factory re-run shape)
+- `_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md` — v4.1 engine spec (Angle Map center, Daily Core, rotating deep-focus calendar, story bench, factory + vault contracts)
+- `_active/knowledge/health-performance-ip-library/daily/2026-07-31-angle-map-listening-brief.md` — the standard-setting inaugural brief (verdict: good; §12 = factory re-run shape)
 - `_active/linkedin/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — two-ring ICP/audience identity build (extends 07; ring definitions for all content tagging)
 - `_active/farrice-brand/content/vault/INDEX.md` — vault state (3 READY: drawer post, proof-decay essay, drawer video script)
 - `_active/linkedin/CAMPAIGN.md` — campaign queue (mission #6 next)
@@ -34,7 +34,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Resume the insight-brief thread. First verify the Angle Map Listening Engine's scheduled runs: read _active/health-performance-ip-library/06-system/listening-run.log and list which daily briefs landed since 2026-08-01; fix silently-failed runs before anything else. Then run /voice-compile, then draft campaign mission #6 (week-2 POV batch, 3 posts) pulling hooks and tags from _active/farrice-brand/content/vault/ and the 08-TWO-RING-RESONANCE-DOSSIER ring definitions. Before drafting, ask Farrice for DM-send status against the 07-31 five-send commitment and log it.
+Resume the insight-brief thread. First verify the Angle Map Listening Engine's scheduled runs: read _active/knowledge/health-performance-ip-library/06-system/listening-run.log and list which daily briefs landed since 2026-08-01; fix silently-failed runs before anything else. Then run /voice-compile, then draft campaign mission #6 (week-2 POV batch, 3 posts) pulling hooks and tags from _active/farrice-brand/content/vault/ and the 08-TWO-RING-RESONANCE-DOSSIER ring definitions. Before drafting, ask Farrice for DM-send status against the 07-31 five-send commitment and log it.
 ```
 
 ## Acceptance Criteria

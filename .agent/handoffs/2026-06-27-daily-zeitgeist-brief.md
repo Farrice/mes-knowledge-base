@@ -8,7 +8,7 @@ pin: true
 
 # Revised Health Performance GEO Daily Brief 2026-06-27: receipt updated with local verifier results; Proof-Surface Audit remains the sellable daily asset; Google Drive export disabled; JSONL rows appended and validated.
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-06-27-health-performance-geo-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-06-27-health-performance-geo-brief.md`
 
 **Next session focus**: Resume the `daily-zeitgeist-brief` work-stream — see the deliverable above.
 

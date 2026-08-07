@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:34:31.258568+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/javier-human-values",
+  "dst": "_active/clients/javier-human-values",
+  "stub_left": false,
+  "files_moved": 25,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/MEMORY.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/javier-payano-context.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/parallax-icp-offer/proof/before-after-artifacts.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/javier-human-values/brand/START-HERE.html": 41,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/javier-human-values/content/START-HERE.html": 27,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/javier-human-values/research/START-HERE.html": 34,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/javier-human-values/strategy/START-HERE.html": 34,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/javier-human-values/sunday-dinners/START-HERE.html": 27,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/agentic-os-integration/pattern-inventory-and-delta.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/research_outputs/research-integrity-audit.md": 1
+  },
+  "total_rewrites": 172,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

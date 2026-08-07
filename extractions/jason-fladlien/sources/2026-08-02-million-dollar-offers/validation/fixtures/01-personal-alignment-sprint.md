@@ -2,7 +2,7 @@
 
 ## Frozen source
 
-- **Path:** _active/alignment-architect-2026-07-07/01-offer/OFFER.md
+- **Path:** _active/offer-strategy/alignment-architect-2026-07-07/01-offer/OFFER.md
 - **SHA-256:** 1af323ae2dcb352304f385ca2c42b6bc0aef8eabccc64c722136f093a4ff365c
 - **Lane:** Farrice personal offer.
 

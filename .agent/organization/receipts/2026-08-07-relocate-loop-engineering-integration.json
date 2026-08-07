@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:39:50.072526+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/loop-engineering-integration",
+  "dst": "_active/harness/loop-engineering-integration",
+  "stub_left": false,
+  "files_moved": 14,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-24-loop-engineering-integration.md": 4,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-loop-engineering-integration.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/loop-engineering-integration/START-HERE.html": 49,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/loop-engineering-integration/wayfinder/tickets/0001-canon-research-proven-vs-hype.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/loop-engineering-integration/wayfinder/tickets/0005-assemble-integration-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-24-loops-die-at-the-last-mile.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-07-24-loop-engineering-integration.md": 3
+  },
+  "total_rewrites": 66,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

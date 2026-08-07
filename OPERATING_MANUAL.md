@@ -19,8 +19,8 @@
 | LinkedIn post from scratch | `/ghostwrite` | Lara/Diandra load automatically |
 | Parallax edition | `/parallax` | Phase 2.5 GROUND mandatory (Edition 02 lesson) |
 | Refine an EXISTING draft | `/writers-room` | Never use for production-from-scratch |
-| Jen Santulan work | `cd _active/jen-listings/` then work | Client CLAUDE.md auto-loads |
-| Andrea / Resonance work | `cd _active/andrea-dj/` then work | Client CLAUDE.md auto-loads |
+| Jen Santulan work | `cd _active/clients/jen-listings/` then work | Client CLAUDE.md auto-loads |
+| Andrea / Resonance work | `cd _active/clients/andrea-dj/` then work | Client CLAUDE.md auto-loads |
 | Brand system build | `/build-bos` | 7-phase, full BOS |
 | Posters / visuals | "make a poster..." | fantastic-posters; cost gate fires automatically — approve or decline |
 

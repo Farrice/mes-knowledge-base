@@ -15,7 +15,7 @@ Take ANY artifact (an expert-pure draft, a v2-prompt output, a client piece) and
 
 ### 1. Load the layer (never skip)
 - Personal voice: `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode per `skills/voice-os/SKILL.md` (default BLEND — "better version of me," never blanket mimicry)
-- Brand context: the brand's CLAUDE.md / ground doc (e.g. `_active/mybpm-merch-os-run-1/01-ground.md`, `_active/jen-listings/CLAUDE.md`)
+- Brand context: the brand's CLAUDE.md / ground doc (e.g. `_active/mybpm/mybpm-merch-os-run-1/01-ground.md`, `_active/clients/jen-listings/CLAUDE.md`)
 
 ### 2. Read the source artifact fully
 Identify what carries the EXPERT'S signature (structure, methodology, signature moves, argument architecture) vs. what carries SURFACE VOICE (word choice, rhythm, register, asides).

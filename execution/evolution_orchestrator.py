@@ -2,7 +2,7 @@
 """
 Evolution Orchestrator — Closes the Phase 1-4 loop (Fix 4 / 2026-04-25).
 
-The audit (_active/system-audit/audit-2026-04-24.md) found that Phase 1-4
+The audit (_active/harness/system-audit/audit-2026-04-24.md) found that Phase 1-4
 scripts existed (log_performance, skill_benchmark, pattern_propagation,
 gap_analysis) but no orchestrator ran them as a continuous cycle. Evolution
 was logging without learning. This module fixes that.

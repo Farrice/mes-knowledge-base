@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:43:03.699868+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/farrice-master-context-2026-07-07",
+  "dst": "_active/farrice-brand/farrice-master-context-2026-07-07",
+  "stub_left": false,
+  "files_moved": 6,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-alignment-architect-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/FARRICE-MASTER-CONTEXT.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-master-context-2026-07-07/extracts/START-HERE.html": 14
+  },
+  "total_rewrites": 18,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

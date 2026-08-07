@@ -8,7 +8,7 @@ pin: true
 
 # Health Performance GEO Daily Brief 2026-07-29: review-authenticity convergence (FTC TruHeight order + Google incentivized-review exclusion) angle, publishable assets, Clean Review Audit offer bridge
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-07-29-health-performance-geo-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-07-29-health-performance-geo-brief.md`
 
 **Next session focus**: Resume the `health-performance-geo-daily-automation` work-stream — see the deliverable above.
 

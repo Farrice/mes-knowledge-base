@@ -1,0 +1,148 @@
+{
+  "acquisition": "organic_only",
+  "approvals": {
+    "cover": {
+      "approved_at": null,
+      "evidence": null,
+      "status": "PENDING"
+    },
+    "gold_chapter": {
+      "approved_at": null,
+      "evidence": null,
+      "status": "PENDING"
+    },
+    "niche": {
+      "approved_at": null,
+      "evidence": null,
+      "status": "PENDING"
+    },
+    "outline": {
+      "approved_at": null,
+      "evidence": null,
+      "status": "PENDING"
+    },
+    "upload": {
+      "approved_at": null,
+      "evidence": null,
+      "status": "PENDING"
+    }
+  },
+  "artifacts": {
+    "ai_asset_ledger": {
+      "path": "02-research/ai-asset-ledger.jsonl",
+      "status": "MISSING"
+    },
+    "claim_ledger": {
+      "path": "02-research/claim-ledger.md",
+      "status": "DRAFT"
+    },
+    "cover": {
+      "path": "05-assets/cover.jpg",
+      "status": "MISSING"
+    },
+    "manuscript": {
+      "path": "04-deliverables/manuscript.epub",
+      "status": "MISSING"
+    },
+    "market_dossier": {
+      "path": "02-research/market-dossier.md",
+      "status": "READY"
+    },
+    "metadata": {
+      "path": "04-deliverables/metadata.md",
+      "status": "MISSING"
+    },
+    "preview_receipt": {
+      "path": "06-system/preview-receipt.json",
+      "status": "MISSING"
+    },
+    "review_plan": {
+      "path": "04-deliverables/review-plan.md",
+      "status": "MISSING"
+    },
+    "rights_ledger": {
+      "path": "02-research/rights-ledger.md",
+      "status": "MISSING"
+    }
+  },
+  "author_identity": {
+    "lock_status": "PENDING",
+    "mode": "market_first_pen_name",
+    "pen_name": ""
+  },
+  "book": {
+    "audience": "",
+    "problem": "",
+    "promise": "",
+    "risk_class": "low_risk_unclassified",
+    "subtitle": "",
+    "title": "",
+    "topic": ""
+  },
+  "book_id": "book-one-11326c3e",
+  "channel": "amazon_kdp",
+  "created_at": "2026-08-04T20:13:39.659959+00:00",
+  "gates": {
+    "ai_disclosure": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "claim_support": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "cover": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "demand": {
+      "evidence": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/kdp-book-one-proof-system/_active/publishing/kdp-book-one-pilot/02-research/market-dossier.md",
+      "note": "Conditional GO only: niche approval, reader interviews, competitor sample audit, and qualified fact review remain open.",
+      "state": "HOLD"
+    },
+    "manuscript": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "metadata": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "originality": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "preview": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "review_integrity": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "rights": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    },
+    "sources": {
+      "evidence": null,
+      "note": "",
+      "state": "NOT_RUN"
+    }
+  },
+  "kdp_select": false,
+  "next_action": "Approve or reject the conditional family scam-defense niche; if approved, complete the operator interview and five-reader validation before outline work.",
+  "pace_profile": "launch_14",
+  "schema_version": "1.0",
+  "stage": "MARKET_VALIDATION",
+  "updated_at": "2026-08-04T20:27:08.068557+00:00"
+}

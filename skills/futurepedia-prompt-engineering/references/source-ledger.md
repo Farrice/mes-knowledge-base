@@ -35,7 +35,7 @@ tree).
 | "Once an AI is mid-response, it's much harder to restructure. It has momentum." | source file line 241 | VERIFIED / LIKELY |
 | "looks right and sounds professional" / "execution test" | source file lines 141, 143 | VERIFIED / LIKELY |
 | "Ask me a series of questions one by one... Do not move on until I've answered each one." | source file line 187 | VERIFIED / LIKELY |
-| Creator of "30+ courses with 1,000+ lessons" (AGENT.md identity claim) | `_active/codex-harvest-2026-06-11/agents/futurepedia/AGENT.md` line 9 | UNCONFIRMED — this figure is asserted by the extraction/agent files but not independently checked against a Futurepedia bio, course catalog, or company page; not used as a new anchor in this repair, flagged for any future pass |
+| Creator of "30+ courses with 1,000+ lessons" (AGENT.md identity claim) | `_active/harness/codex-harvest-2026-06-11/agents/futurepedia/AGENT.md` line 9 | UNCONFIRMED — this figure is asserted by the extraction/agent files but not independently checked against a Futurepedia bio, course catalog, or company page; not used as a new anchor in this repair, flagged for any future pass |
 
 ## Not found / explicitly checked absent
 
@@ -44,7 +44,7 @@ tree).
   matches `*futurepedia*` in the tar listing (checked via `tar -tzf`, 2026-07-17). Content-level grep
   across the full uncompressed tarball was not run (cost/time); absence is confirmed at the filename
   level only, not exhaustively at the content level.
-- `_active/codex-harvest-2026-06-11/` — contains `agents/futurepedia/AGENT.md` (persona file, no new
+- `_active/harness/codex-harvest-2026-06-11/` — contains `agents/futurepedia/AGENT.md` (persona file, no new
   raw source) and `.agents/skills/source-command-futurepedia-prompt/SKILL.md` /
   `.claude/commands/futurepedia*.md` (thin pointer/command files, 8-16 lines each, no additional
   source material beyond what's already reflected in the skill).

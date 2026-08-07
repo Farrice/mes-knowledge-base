@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:40:32.093926+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/path-decision-2026-07-01",
+  "dst": "_active/offer-strategy/path-decision-2026-07-01",
+  "stub_left": false,
+  "files_moved": 12,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_path-decision-2026-07-01.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-05-cos-launch.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-11-context-engineering-os.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/swarm.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/context-engineering-os/INDEX.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/pmf-offer-shelf/04-deliverables/10-options-brief/pmf-10-options-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/swarm_conductor.py": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md": 1
+  },
+  "total_rewrites": 16,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

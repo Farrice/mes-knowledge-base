@@ -38,7 +38,7 @@ extractions/darrel-wilson-affiliate-marketing/transcript.txt  21,929 bytes
 extractions/darrel-wilson-affiliate-marketing/extraction-report.md  14,540 bytes
 ```
 
-`_active/codex-harvest-2026-06-11/extractions/` and the claude-export tarball
+`_active/harness/codex-harvest-2026-06-11/extractions/` and the claude-export tarball
 were not searched — the two files above already supplied ≥5 sourced
 anti-patterns, so the gate did not require the deeper archival sweep. Noted
 as scope, not as a false "nothing else exists" claim.

@@ -72,7 +72,7 @@ All outputs from this domain are evaluated on:
 ```
 skills/kallaway-ai-content-engine/
 ├── SKILL.md                           ← You are here
-├── genius.md                          ← Core intelligence (7 patterns, 2 exemplars, 5 moves; Patterns 1-6 verified against `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`; Pattern 7 = AI Trust Goldilocks Window, tranche 2 2026-07-10 — source UNCONFIRMED, see references/source-ledger.md)
+├── genius.md                          ← Core intelligence (7 patterns, 2 exemplars, 5 moves; Patterns 1-6 verified against `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`; Pattern 7 = AI Trust Goldilocks Window, tranche 2 2026-07-10 — source UNCONFIRMED, see references/source-ledger.md)
 ├── references/
 │   └── source-ledger.md               ← Claim-by-claim VERIFIED/LIKELY/UNCONFIRMED provenance
 └── workflows/

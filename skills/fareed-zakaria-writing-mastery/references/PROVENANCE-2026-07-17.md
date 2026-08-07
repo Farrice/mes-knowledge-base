@@ -4,7 +4,7 @@ Anchor → source file/location table for every claim added or changed in this r
 
 | Anchor (in genius.md) | Source | Location |
 |---|---|---|
-| "No primary extraction transcript... exists anywhere in this repository" | Repo search performed this session | `extractions/` grep (0 hits), `_active/codex-harvest-2026-06-11/` (mirrors only, no raw source), `_archive/claude-export-2026-07-01.tar.gz` (`tar -tzf` index, 0 hits) |
+| "No primary extraction transcript... exists anywhere in this repository" | Repo search performed this session | `extractions/` grep (0 hits), `_active/harness/codex-harvest-2026-06-11/` (mirrors only, no raw source), `_archive/claude-export-2026-07-01.tar.gz` (`tar -tzf` index, 0 hits) |
 | "hosted CNN's weekly *Fareed Zakaria GPS* since 2008" | WebSearch 2026-07-17 | Wikipedia "Fareed Zakaria"; cnn.com/specials/fareed-zakaria-gps-2021-archive |
 | "writes a syndicated Washington Post column" | WebSearch 2026-07-17 | washingtonpost.com/people/fareed-zakaria/ |
 | "Ten Lessons for a Post-Pandemic World" (2020) | WebFetch/WebSearch 2026-07-17 | Simon & Schuster publisher page; NPR (2020-10-13); Washington Post essay (2020-10-06) |

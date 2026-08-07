@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:45:25.619503+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/kdp-book-one-pilot",
+  "dst": "_active/publishing/kdp-book-one-pilot",
+  "stub_left": false,
+  "files_moved": 11,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-08-04-kdp-book-one-proof-system.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/publishing/kdp-book-one-pilot/06-system/book-one-state.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/publishing/kdp-book-one-pilot/START-HERE.html": 42,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-08-04-kdp-book-one-policy-safe-runtime-proof.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/sean-dollwet-kdp-book-one-system/cold-start-fixture.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/sean-dollwet-kdp-book-one-system/skill-system-contract.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-08-04-kdp-book-one-proof-system.md": 6,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-one-pilot-cockpit.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/sean-dollwet-kdp-publishing/workflows/00-book-one-pilot.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/sean-dollwet-kdp-publishing/workflows/04-launch-90.md": 1
+  },
+  "total_rewrites": 61,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

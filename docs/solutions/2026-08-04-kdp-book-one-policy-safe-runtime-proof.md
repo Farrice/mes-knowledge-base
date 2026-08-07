@@ -51,4 +51,4 @@ A weaker model will summarize the videos, repeat the income claims, produce a to
 - `skills/sean-dollwet-kdp-publishing/workflows/00-book-one-pilot.md`
 - `execution/kdp_book_one.py`
 - `execution/verify_kdp_book_one_system.py`
-- `_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md`
+- `_active/publishing/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md`

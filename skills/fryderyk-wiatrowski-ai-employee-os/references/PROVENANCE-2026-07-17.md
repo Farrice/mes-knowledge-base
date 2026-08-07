@@ -24,5 +24,5 @@ Anchor → source file + location. Full claim table lives in `references/source-
 | Leibniz-attributed closing quote | transcript.txt | [00:18:04]-[00:18:46] (attribution UNCONFIRMED — see source-ledger.md) |
 | Video/speaker metadata | `extractions/video-context/ohKt066uFhg/metadata.json` | full file |
 | Absence check — extractions/ | `extractions/` directory listing | `ls extractions/ \| grep -i "wiatrowski\|fryderyk"` → only `video-context/ohKt066uFhg/` |
-| Absence check — codex-harvest | `_active/codex-harvest-2026-06-11/skills/fryderyk-wiatrowski-ai-employee-os/` + `agents/fryderyk-wiatrowski/` | `wc -c` on all files (recorded in source-ledger.md); same skill, no new source |
+| Absence check — codex-harvest | `_active/harness/codex-harvest-2026-06-11/skills/fryderyk-wiatrowski-ai-employee-os/` + `agents/fryderyk-wiatrowski/` | `wc -c` on all files (recorded in source-ledger.md); same skill, no new source |
 | Absence check — claude-export tarball | `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) | `tar -tzf ... \| grep -i "wiatrowski\|fryderyk"` → zero matches |

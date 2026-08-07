@@ -9,7 +9,7 @@ The envelope requires verifying absence by content, not filename, before claimin
 | Location | Method | Result |
 |---|---|---|
 | `extractions/` | `ls -R extractions/ \| grep -i hickman` + `grep -rli hickman` across the tree | 0 matches. No file or filename contains "hickman." |
-| `_active/codex-harvest-2026-06-11/` | `du -sh` (81M) + `grep -rli hickman` | 0 matches. |
+| `_active/harness/codex-harvest-2026-06-11/` | `du -sh` (81M) + `grep -rli hickman` | 0 matches. |
 | `_archive/claude-export-2026-07-01.tar.gz` | `tar -tzf \| grep -i hickman` (filenames) then `tar -xzOf ... \| grep -ic hickman` (full decompressed content, 332,779,255 bytes compressed → 1,148,391,696 bytes decompressed, confirmed via `wc -c`) | 0 matches, both passes. |
 
 **Conclusion**: no primary Greg Hickman transcript, interview, podcast, or extraction file exists anywhere in this repository. SKILL.md's prior frontmatter claim (`source: claude.ai export 2026-07-01`) is itself unconfirmed and has been corrected in this pass to say so explicitly.

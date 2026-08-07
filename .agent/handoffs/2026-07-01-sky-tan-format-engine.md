@@ -26,7 +26,7 @@ Deploy the format engine: shoot/test the 4 **"Invisible Expert Teardown"** video
 - Agent: `agents/sky-tan/AGENT.md`
 - Extraction + verification: `extractions/Sky Tan/mastery-extraction.md`, `extractions/Sky Tan/verification-record.md`
 - Farrice format: `_active/linkedin/sky-format-farrice.md`
-- Jen format: `_active/jen-listings/04-deliverables/sky-format-jen-reacts.md`
+- Jen format: `_active/clients/jen-listings/04-deliverables/sky-format-jen-reacts.md`
 - Offer one-pager: `_active/linkedin/authority-flywheel-format-finder-onepager.md`
 
 ## Open items / flags for next session

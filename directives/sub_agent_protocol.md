@@ -293,7 +293,7 @@ python3 execution/chain_runner.py finalize "..." --workflow parallax --sub-agent
 - If miss rate drops naturally (AI starts spawning correctly without escalation) → leave gate as soft warning, do not escalate to blocking
 - If misses concentrate on workflows that don't actually benefit from sub-agents → remove those from `_SUB_AGENT_QUALIFYING_WORKFLOWS` set in `execution/chain_runner.py`
 
-Source: `_active/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 2 Phase D.
+Source: `_active/_archive/2026-08-07-sweep/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 2 Phase D.
 
 ---
 

@@ -8,7 +8,7 @@ pin: true
 
 # 2026-08-02 Angle Map Listening Brief verified and risk-repaired; Sunday education chapter plus two READY vault assets; Drive disabled per current-run instruction
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md`
 
 **Next session focus**: Resume the `health-performance-geo-daily-brief` work-stream — see the deliverable above.
 

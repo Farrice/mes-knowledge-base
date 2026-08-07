@@ -15,7 +15,7 @@ pin: true
 A cost-safe, deterministically-grounded copywriting engine — from ungrounded "sophisticated guessing" to real research → verified claims → converting copy — proven end-to-end on a live market (Jen Santulan's SFV first-time-homebuyers).
 
 ## State: DONE + deployed. Nothing of mine is uncommitted.
-Working tree's only dirty items are transient session ledgers + unrelated `_active/elevation-track/e3/` work (not this session's — leave it).
+Working tree's only dirty items are transient session ledgers + unrelated `_active/harness/elevation-track/e3/` work (not this session's — leave it).
 
 ## The system (all committed; don't rebuild — extend)
 - **`execution/avatar_manifold_runner.py`** — the deterministic GROUND chokepoint. 3 tiers (`free $0` / `lean $0.11` / `deep $0.12`), per-market WARM reuse ($0 on iterations), STALE = $0 nudge (never auto-spends), budget-exhaustion fails **closed**. Research stack (fixed this session): **fast Gemini Search-grounding primary (~3s, ~$0)** → **Tavily free fallback** → free Reddit/HN + Apify YouTube for VOC → recall/[MODELED] degrade. **Perplexity dropped** (API key returns 401 quota-exceeded — consumer Pro ≠ API credits). The old slow Gemini Deep Research *interaction* API is now `--mode max` only.
@@ -25,7 +25,7 @@ Working tree's only dirty items are transient session ledgers + unrelated `_acti
 - Freshness-tax hookify hook extended to recognize copy-grounding evidence.
 
 ## Deliverable produced (real, verified)
-`_active/jen-listings/deliverables/sfv-fthb-lead-copy/` — lead-magnet opt-in + VSL lead + re-engagement email for SFV first-time-homebuyers, mechanism "The Stacked-Door Path." Claims **primary-source verified** vs LAHD/LACDA/CalHFA (found+fixed 2 material errors: "stack-five" overstatement; missing $700k/$850k purchase-price caps below the $1M median). Uploaded to Jen's Drive folder "Jen Santulan — 2026 First-Time Buyer Engine" as 3 Google Docs (IDs in the folder; markdown converted clean).
+`_active/clients/jen-listings/deliverables/sfv-fthb-lead-copy/` — lead-magnet opt-in + VSL lead + re-engagement email for SFV first-time-homebuyers, mechanism "The Stacked-Door Path." Claims **primary-source verified** vs LAHD/LACDA/CalHFA (found+fixed 2 material errors: "stack-five" overstatement; missing $700k/$850k purchase-price caps below the $1M median). Uploaded to Jen's Drive folder "Jen Santulan — 2026 First-Time Buyer Engine" as 3 Google Docs (IDs in the folder; markdown converted clean).
 
 ## Next session focus (from Farrice)
 1. **Review the 3 SFV Google Docs** + confirm the **3 Verify-At-Send figures** (current 30-yr rate, the "$200k" illustration, current $1M median) — they're LIKELY, not primary-verified (flagged by `--high-stakes`). Toggle each Doc to **Pageless** (View menu — the Docs API can't set it programmatically).

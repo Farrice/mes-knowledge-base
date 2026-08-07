@@ -13,7 +13,7 @@ pin: true
 
 ## Where things stand
 
-The Harness Apex Plan (`_active/harness-apex-2026-07-07/PLAN.md`) is approved and merged with Swarm Apex (`_active/swarm-apex-2026-07-07/PLAN.md`). Core thesis: quality-defining mechanics lived in prose only frontier models execute reliably; move every load-bearing judgment into runnable verifiers, schema contracts, or mid-tier calibration blocks. **Waves 0, 1, 2 are SHIPPED and committed.** Waves 3-5 queued.
+The Harness Apex Plan (`_active/harness/harness-apex-2026-07-07/PLAN.md`) is approved and merged with Swarm Apex (`_active/harness/swarm-apex-2026-07-07/PLAN.md`). Core thesis: quality-defining mechanics lived in prose only frontier models execute reliably; move every load-bearing judgment into runnable verifiers, schema contracts, or mid-tier calibration blocks. **Waves 0, 1, 2 are SHIPPED and committed.** Waves 3-5 queued.
 
 ### Shipped this session (verify by running, not re-reading)
 - **Wave 0:** `execution/world_brief.py` + `.agent/cos/interests.json` → World Pulse section in the COS morning brief (Tavily $0 floor; perplexity-research cost-gate approval still PENDING Farrice). Question engine v2 in `execution/cos_prep.py` (3 archetypes, specificity-anchored, no repeats).
@@ -47,6 +47,6 @@ The Harness Apex Plan (`_active/harness-apex-2026-07-07/PLAN.md`) is approved an
 
 ## Core context to load (only if needed beyond this doc)
 
-- `_active/harness-apex-2026-07-07/PLAN.md` (status header + Waves 3-5)
-- `_active/swarm-apex-2026-07-07/PLAN.md` (Session 1 spec + Binding Constraints)
+- `_active/harness/harness-apex-2026-07-07/PLAN.md` (status header + Waves 3-5)
+- `_active/harness/swarm-apex-2026-07-07/PLAN.md` (Session 1 spec + Binding Constraints)
 - `.agent/run-receipts/2026-07-10T00*` (Wave 2 receipts with fixture evidence)

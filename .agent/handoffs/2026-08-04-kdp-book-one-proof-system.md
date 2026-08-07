@@ -41,9 +41,9 @@ This session proved that Watch, extract-forge, source-to-skill-system, and extra
 
 ## Essential context to load
 
-- `_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md`
-- `_active/kdp-book-one-pilot/02-research/market-dossier.md`
-- `_active/kdp-book-one-pilot/02-research/operator-interview.md`
+- `_active/publishing/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md`
+- `_active/publishing/kdp-book-one-pilot/02-research/market-dossier.md`
+- `_active/publishing/kdp-book-one-pilot/02-research/operator-interview.md`
 - `extractions/sean-dollwet-kdp-book-one-system/source-ledger.md`
 - `extractions/sean-dollwet-kdp-book-one-system/skill-system-contract.md`
 - `extractions/sean-dollwet-kdp-book-one-system/behavior-proof.md`

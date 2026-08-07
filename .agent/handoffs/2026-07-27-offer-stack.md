@@ -16,7 +16,7 @@ pin: true
 ## Load First
 - `_active/linkedin/02-offer/PREMIUM-ARC-2026-07-21.md` — the session's deliverable: 5-rung offer arc (door → $2K Signal Pilot / $2.5K PtM Sprint → $5–7.5K Full Build → $3–8K/mo Retainer → $7.5–15K Engine Install), executor screen v2 (7 conditions), momentum steps. Fact-verified (2 misattributions caught + fixed).
 - `docs/solutions/2026-07-21-three-offer-stress-test-signal-pilot-verdict.md` — binding Pilot spec: buyer, free-spec-sample door, send-before-build gate, kill conditions (20 convos/0 pilots → stop; day-7 zero fit → teardown side-bet primary).
-- `_active/alignment-architect-2026-07-07/02-outreach/WARM-DM-SCRIPTS.md` — 6 named warm lists + 3-touch cadence (swap offer line to Pilot).
+- `_active/offer-strategy/alignment-architect-2026-07-07/02-outreach/WARM-DM-SCRIPTS.md` — 6 named warm lists + 3-touch cadence (swap offer line to Pilot).
 - `_active/farrice-brand/leads/prospects_final.csv` — 50 researched prospects with hooks.
 - `_active/farrice-brand/voice/VOICE-CARD.md` — voice law for every DM/post.
 - Memory: `user_wizard-seminar-channel.md` — teach-from-the-room is his proven channel; AI Engine Install = passion payload sequenced behind delivery receipts.

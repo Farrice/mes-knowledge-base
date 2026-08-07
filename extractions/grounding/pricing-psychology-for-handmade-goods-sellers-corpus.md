@@ -59,7 +59,7 @@ Translation card: anchor exploratory/system · deliverable: eventually a skill �
 
 ## Entry 10: Oren doctrine-on-disk — every price is a job (entry/core/aspirational/halo) and price-style must match brand position
 - Excerpt: "Price is a signal, not only a number... Identify anchors, charm/rounded pricing, lost price points, underpricing risk, and quality-signal gaps... [Aspirational =] Higher-price item that anchors perception... Premium brand: favor rounded pricing, insider proof, and aspirational/halo anchors; Value brand: use charm pricing selectively and make value explicit without cheapening trust."
-- Receipt: _active/codex-harvest-2026-06-11/skills/oren-archetype-social-strategy/workflows/oren-pricing-psychology-map.md
+- Receipt: _active/harness/codex-harvest-2026-06-11/skills/oren-archetype-social-strategy/workflows/oren-pricing-psychology-map.md
 - Confidence: VERIFIED (canonical doctrine-on-disk)
 
 ## Entry 11: Nicolas Cole doctrine-on-disk — below the impulse threshold, default to the TOP of the valid range (adjacent domain; transfer with care)

@@ -152,7 +152,7 @@
 
 **Source (18:18-20:38):** "We've used the inbuilt context inheritance from parent folders inside Claude Code. So we have one master claude.md, and that is the parent folder that passes down a lot of the methodology that is consistent across multiple clients. Then inside the root folder, we have individual client folders. Inside those client folders we have client one, client two, etc. Wherever we want specific client instructions, we've actually duplicated that Claude.md at the top and just added specific instructions which either conflict or override the Claude.md from the parent methodology."
 
-**Antigravity equivalent:** Root `CLAUDE.md` ✓. Client folders exist (`_active/javier-human-values/`, `_active/jen-santulan/`, `_active/farrice-brand/`, etc.) but **`find` returned ZERO per-client CLAUDE.md files** — no inheritance is actually wired up. Skills live at root `skills/`, available to all projects but not per-client customizable.
+**Antigravity equivalent:** Root `CLAUDE.md` ✓. Client folders exist (`_active/clients/javier-human-values/`, `_active/clients/jen-santulan/`, `_active/farrice-brand/`, etc.) but **`find` returned ZERO per-client CLAUDE.md files** — no inheritance is actually wired up. Skills live at root `skills/`, available to all projects but not per-client customizable.
 
 **Delta: `MISSING`** — This is a real, clean gap. Client work currently inherits global behavior; client-specific voice/constraints have to be re-prompted each session. The Claude Code parent-folder inheritance feature is real and Antigravity isn't using it.
 

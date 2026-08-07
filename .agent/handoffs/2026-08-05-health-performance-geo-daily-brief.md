@@ -8,7 +8,7 @@ pin: true
 
 # 2026-08-05 Angle Map Listening Brief: trust has an owner, promises-not-kept ownership-event deep dive, flagship post, teardown post, +3 insight rows, +2 promises rows; Google Drive disabled by current automation instruction
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md`
 
 **Next session focus**: Resume the `health-performance-geo-daily-brief` work-stream — see the deliverable above.
 

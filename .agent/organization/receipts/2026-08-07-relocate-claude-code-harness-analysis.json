@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:39:12.314144+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/claude-code-harness-analysis",
+  "dst": "_active/harness/claude-code-harness-analysis",
+  "stub_left": false,
+  "files_moved": 11,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_org-sweep-one-tree.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/claude-code-harness-analysis/kuberwastaken-analysis/START-HERE.html": 10,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/claude-code-harness-analysis/source-code-v2.1.88/START-HERE.html": 10,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/claude-code-harness-analysis/system-prompts/START-HERE.html": 10,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/hooks/session_ledger_hook.py": 1
+  },
+  "total_rewrites": 33,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

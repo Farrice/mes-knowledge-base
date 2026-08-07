@@ -81,7 +81,7 @@ python3 execution/memory_review.py            # Approve/reject (human gate)
 | `execution/memory_facade.py` | Added `episodic` source to router | Unified retrieval now includes full conversation history |
 | `execution/episodic_ingest.py` | NEW file | L1→L2 bridge; deterministic, idempotent, PII-redacted |
 | `execution/notion_api.py` | Added `session-memory` subcommand | Allow-listed push to Notion Session Memory DB |
-| `_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md` | DEPLOYED status + gotcha fix | Integration-owned DBs bypass Notion AI data-source trap |
+| `_active/knowledge/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md` | DEPLOYED status + gotcha fix | Integration-owned DBs bypass Notion AI data-source trap |
 | `.env` | Added NOTION_DB_SESSION_MEMORY | Points to integration-owned Session Memory DB |
 | CLAUDE.md | Updated memory stack docs (line 115) | Documents clean 3-layer architecture |
 
@@ -93,7 +93,7 @@ python3 execution/memory_review.py            # Approve/reject (human gate)
 - No ungated API calls (costs ~$0.05/session in background, hidden from cost-gate)
 - Already live (133k indexed exchanges across all projects)
 - No hook conflicts (one SessionStart hook, not double PostToolUse)
-- Bake-off protocol locked the decision: `_active/memory-bakeoff/`
+- Bake-off protocol locked the decision: `_active/harness/memory-bakeoff/`
 
 ---
 
@@ -128,7 +128,7 @@ For understanding the system:
 2. **How to use it** → `.agent/memory-system-usage.md`
 3. **Architecture** → `.claude/projects/.../memory/project_three-layer-memory-system.md`
 4. **The Notion gotcha we solved** → `.claude/projects/.../memory/reference_notion-ai-database-integration-gotcha.md`
-5. **Why episodic-memory** → `_active/memory-bakeoff/04-deliverables/bake-off-protocol.md`
+5. **Why episodic-memory** → `_active/harness/memory-bakeoff/04-deliverables/bake-off-protocol.md`
 
 ---
 
@@ -148,7 +148,7 @@ Result: **One query, five stores, zero bloat.**
 
 ## ⚡ Next Steps (Optional/Human Gate)
 
-1. **Deploy advisors** (optional): Run Notion AI Prompts 2-4 from `_active/notion-intellectual-library/` to create grounded advisors
+1. **Deploy advisors** (optional): Run Notion AI Prompts 2-4 from `_active/knowledge/notion-intellectual-library/` to create grounded advisors
 2. **Wire handoff** (optional Phase 4): Have `/handoff` also push Session Memory rows
 3. **Automate weekly** (optional): cron job or launchd task for episodic_ingest + distill loop
 

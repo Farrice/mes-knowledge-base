@@ -293,7 +293,7 @@ def _auto_log_sub_agent_miss(
     is None or 0 → MISS logged. False positives are tolerable here — this is
     observation only, never blocks finalize, never fails the quality gate.
 
-    Source: _active/system-integration/2026-05-12-agentic-os-elevation-brief.md Move 2.
+    Source: _active/_archive/2026-08-07-sweep/system-integration/2026-05-12-agentic-os-elevation-brief.md Move 2.
     """
     workflow_normalized = (workflow or "").lower().strip()
     qualifies = workflow_normalized in _SUB_AGENT_QUALIFYING_WORKFLOWS

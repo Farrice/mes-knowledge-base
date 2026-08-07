@@ -982,21 +982,21 @@
     "extractions/video-context/5TEMdTopdy8/uncertainty-report.md"
    ],
    ".agent/workflows/cooz-flywheel-v5.md": [
-    "_active/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md",
-    "_active/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md",
-    "_active/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md",
-    "_active/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md",
-    "_active/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md",
-    "_active/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md",
-    "_active/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-CONTENT-SYSTEM.md",
-    "_active/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-PROFILE.md",
-    "_active/coach-cooz/16-may-2026-pivot/V5-VISUAL-BRAND-BRIEF.md",
-    "_active/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md",
-    "_active/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md"
+    "_active/clients/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-CONTENT-SYSTEM.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-PROFILE.md",
+    "_active/clients/coach-cooz/16-may-2026-pivot/V5-VISUAL-BRAND-BRIEF.md",
+    "_active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md",
+    "_active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md"
    ],
    ".agent/workflows/cooz-flywheel.md": [
-    "_active/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md",
-    "_active/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md"
+    "_active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md",
+    "_active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md"
    ],
    ".agent/workflows/council.md": [
     "skills/mark-kashef-ai-councils/references/prompts/council-commander.md"
@@ -1530,7 +1530,7 @@
     "/Users/farricecain/Google Antigravity/skills/jeremy-haynes-cold-offer/references/prompts-v2/offer-articulation-brief.md"
    ],
    ".agent/handoffs/2026-07-15-system-health-check-framework.md": [
-    "/Users/farricecain/Google Antigravity/_active/system-health-check-framework/FRAMEWORK.md"
+    "/Users/farricecain/Google Antigravity/_active/harness/system-health-check-framework/FRAMEWORK.md"
    ],
    ".agent/handoffs/2026-07-15-tommy-clark-2026-expansion.md": [
     "extractions/tommy-clark/visual-context.md"
@@ -1614,7 +1614,7 @@
     ".agent/missions.jsonl"
    ],
    ".agent/handoffs/2026-08-05-digital-product-lane-2026-08-05.md": [
-    "/Users/farricecain/Google Antigravity/_active/digital-product-lane-2026-08-05/DEMAND-RECEIPTS.md"
+    "/Users/farricecain/Google Antigravity/_active/offer-strategy/digital-product-lane-2026-08-05/DEMAND-RECEIPTS.md"
    ],
    ".agent/handoffs/2026-08-05-jen-listings.md": [
     ".agent/intent-memory/current.json"

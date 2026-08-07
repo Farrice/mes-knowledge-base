@@ -1,6 +1,6 @@
 # Farrice Brand — start here
 
-*Generated 2026-08-07 11:28 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 16:50 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -109,6 +109,34 @@
 - `content/ip-flywheel/flywheel_package_1.md` — touched 2026-03-02
 - `content/ip-flywheel/flywheel_package_2_ai_slop.md` — touched 2026-03-02
 - `content/linkedin-posts/ai_slop_post_variations.md` — touched 2026-03-02
+
+**farrice-creative-strategist-portfolio**
+
+- `farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md` — touched 2026-08-07
+- `farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md` — touched 2026-08-07
+- `farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md` — touched 2026-08-07
+- `farrice-creative-strategist-portfolio/04-deliverables/CMS_DEPLOYMENT_GUIDE.md` — touched 2026-08-07
+- `farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md` — touched 2026-08-07
+- `farrice-creative-strategist-portfolio/04-deliverables/LIVE_EDITOR_WALKTHROUGH.md` — touched 2026-08-07
+
+**farrice-final-10**
+
+- `farrice-final-10/research/icp-substrate.md` — touched 2026-08-07
+- `farrice-final-10/04-deliverables/SEED.md` — touched 2026-08-07
+- `farrice-final-10/research/redteam-demand.md` — touched 2026-08-07
+- `farrice-final-10/research/redteam-differentiation.md` — touched 2026-08-07
+- `farrice-final-10/research/redteam-killshots.md` — touched 2026-08-07
+- `farrice-final-10/research/RED-TEAM-VERDICT.md` — touched 2026-08-07
+- `farrice-final-10/assets/objection-arsenal.md` — touched 2026-08-07
+- `farrice-final-10/assets/big-domino.md` — touched 2026-08-07
+- `farrice-final-10/assets/attention-content.md` — touched 2026-08-07
+- `farrice-final-10/strategy/distribution-and-tracking.md` — touched 2026-08-07
+- `farrice-final-10/strategy/offer-the-final-10.md` — touched 2026-08-07
+
+**farrice-master-context-2026-07-07**
+
+- `farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md` — touched 2026-08-07
+- `farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` — touched 2026-08-07
 
 **icp-intelligence**
 
@@ -279,18 +307,20 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 - `identity/notes-excavation-2026-08-04.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
 - `voice/VOICE-CARD.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
 - `voice/REGISTER-ATLAS.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
+- **4 files claim to be the front door** — `START-HERE.md`, `farrice-creative-strategist-portfolio/START-HERE.md`, `farrice-final-10/START-HERE.md`, `farrice-master-context-2026-07-07/extracts/START-HERE.md`. START-HERE.md is the front door; the rest are history.
 
 ## Media
 
 - `premium-minimal` — 27 file(s)
 - `05-assets` — 26 file(s)
+- `farrice-creative-strategist-portfolio` — 20 file(s)
 - `parallax-design-system` — 17 file(s)
 - `content` — 2 file(s)
 
 ## Health
 
-- living docs: 183
+- living docs: 202
 - records: 35
 - archived (not counted above): 0
-- broken links in this tree: 93
+- broken links in this tree: 144
 

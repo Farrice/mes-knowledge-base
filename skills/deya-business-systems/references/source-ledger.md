@@ -9,7 +9,7 @@
    - `a819015f-b9dd-4ecb-a218-731847ee4b86.md` — "💎🧑🏽‍💻 12-9-25 Deya: how to start a $100K online business in 2026" — **68,202 bytes** — captured 2025-12-05T18:42
    - The remaining 14 Deya-tagged files are follow-on "crown jewel prompt" derivative conversations (Farrice building AI prompts on top of the extraction) — checked for additional verbatim Deya quotes, none found beyond what's captured below; their content is meta-commentary about prompt engineering, not new source material.
 2. **`extractions/`** — checked (`ls extractions/ | grep -i deya`): zero results. No dedicated Deya extraction file exists in this directory.
-3. **`_active/codex-harvest-2026-06-11/extractions/`** — checked (`find ... -iname "*deya*"`): zero results. One unrelated hit for the literal string "deya" inside `research_outputs/.../gemini.json`, which is an AI-plugin-market research file, not Deya content.
+3. **`_active/harness/codex-harvest-2026-06-11/extractions/`** — checked (`find ... -iname "*deya*"`): zero results. One unrelated hit for the literal string "deya" inside `research_outputs/.../gemini.json`, which is an AI-plugin-market research file, not Deya content.
 4. **`agents/deya/AGENT.md`**, **`agents/deya/memory/context.md`** — existing repo files, cross-referenced for consistency; the memory file is an unpopulated stub ("To be populated") and contributes no source content.
 
 ## Claim-by-Claim Ledger

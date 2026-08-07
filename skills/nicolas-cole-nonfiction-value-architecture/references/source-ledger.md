@@ -4,7 +4,7 @@ Claim-by-claim confidence labels. Ground truth checked against the real, byte-ve
 source transcript (not the path `references/source-map.md` originally pointed to — see
 Gap Note below).
 
-**Primary source found**: `_active/codex-harvest-2026-06-11/extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md`
+**Primary source found**: `_active/harness/codex-harvest-2026-06-11/extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md`
 (460 lines) and the identical `transcript.txt` (447 lines) in the same directory.
 - Expert: Nicolas Cole
 - Video: "The Framework I Use To Make Any Nonfiction Piece More Valuable" (YouTube, xv5E5ZSzlHM)
@@ -16,7 +16,7 @@ Gap Note below).
 `references/source-map.md` (pre-existing file, left in place) cites
 `extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md` — that exact path
 does **not** exist under top-level `extractions/`. The file exists only under the
-`_active/codex-harvest-2026-06-11/` archive (confirmed via direct read, 460 lines, real
+`_active/harness/codex-harvest-2026-06-11/` archive (confirmed via direct read, 460 lines, real
 content, not a stub). This is a stale-path problem, not a fabrication problem: every
 quote in source-map.md's claim table was checked against the archived transcript and is
 genuinely verbatim (see VERIFIED rows below). Per the envelope's rule 2 (a claim that

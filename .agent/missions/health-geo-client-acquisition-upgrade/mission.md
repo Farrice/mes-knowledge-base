@@ -42,15 +42,15 @@
 ## Mission Activation Queue
 | ID | Owner | Workflow/Skill | Status | Expected artifact | Evidence path | Assertion | Blocker | Next action |
 |---|---|---|---|---|---|---|---|---|
-| A1 | Oren Operational Systems | source-command-mission | complete | AUTOMATION_PROMPT.md upgraded to client-acquisition engine | _active/health-performance-ip-library/AUTOMATION_PROMPT.md | VA1 |  |  |
-| A2 | Luke Iha plus Nicolas Cole | source-command-convene | complete | SERVICE_LADDER.md offer progression from audit to creative strategy | _active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md | VA2 |  |  |
-| A3 | Farrice Engine offer layer | farrice-engine offer | complete | CLIENT_ACQUISITION_OFFER.md polished offer source of truth | _active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md | VA3 |  |  |
+| A1 | Oren Operational Systems | source-command-mission | complete | AUTOMATION_PROMPT.md upgraded to client-acquisition engine | _active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md | VA1 |  |  |
+| A2 | Luke Iha plus Nicolas Cole | source-command-convene | complete | SERVICE_LADDER.md offer progression from audit to creative strategy | _active/knowledge/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md | VA2 |  |  |
+| A3 | Farrice Engine offer layer | farrice-engine offer | complete | CLIENT_ACQUISITION_OFFER.md polished offer source of truth | _active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md | VA3 |  |  |
 
 ## Execution Receipt
 - Planned lanes: A1, A2, A3
 - Executed lanes: A1, A2, A3
 - Skipped or blocked lanes: [none]
-- Proof artifacts: _active/health-performance-ip-library/AUTOMATION_PROMPT.md, _active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md, _active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md
+- Proof artifacts: _active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md, _active/knowledge/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md, _active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md
 - Validators run: rg Client Acquisition Opportunity Map AUTOMATION_PROMPT.md, read SERVICE_LADDER.md, test -f CLIENT_ACQUISITION_OFFER.md
 - Resume command: /mission resume health-geo-client-acquisition-upgrade
 

@@ -141,4 +141,4 @@ A future automation can populate this section nightly via a script that walks th
 
 ---
 
-*Last updated: 2026-04-24. Generated as part of Fix 6 from the system audit at `_active/system-audit/audit-2026-04-24.md`.*
+*Last updated: 2026-04-24. Generated as part of Fix 6 from the system audit at `_active/harness/system-audit/audit-2026-04-24.md`.*

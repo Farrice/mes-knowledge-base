@@ -31,9 +31,9 @@ Context-engineering tooling targets engineers/software; knowledge work (non-soft
 - Pricing is UNCONFIRMED — "$1000s" is the interviewer's title framing; Adam quotes no dollar figure.
 
 ## First-Audit Candidates (live clients in this system)
-- Jen Santulan (`_active/jen-listings/`) — SFV realtor, messy listing context.
-- Andrea / Resonance (`_active/andrea-dj/`) — sober daytime party, Chicago.
-- Josh & Katie (`_active/josh-katie-fitness/`) — fitness programs.
+- Jen Santulan (`_active/clients/jen-listings/`) — SFV realtor, messy listing context.
+- Andrea / Resonance (`_active/clients/andrea-dj/`) — sober daytime party, Chicago.
+- Josh & Katie (`_active/clients/josh-katie-fitness/`) — fitness programs.
 
 ## Engagement Log
 - (none yet — initialize on first real engagement)

@@ -11,7 +11,7 @@ Build the smallest durable local runtime that makes search-content decisions sou
 - `skills/ethan-smith-aeo/` for AEO/GEO experiment design.
 - `semantic_libraries/antigravity/primitives/skill-system-contract.md`.
 - `semantic_libraries/antigravity/primitives/agentic-engineering-loop-contract.md`.
-- `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` as a read-only example of append-only learning, not a target for modification.
+- `_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md` as a read-only example of append-only learning, not a target for modification.
 - `_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md` as the offer authority.
 
 ## Context Plan

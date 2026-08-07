@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:38:33.210003+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/prompt-wiring-os-2026-07-13",
+  "dst": "_active/harness/prompt-wiring-os-2026-07-13",
+  "stub_left": false,
+  "files_moved": 15,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_prompt-wiring-os-complete.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-maestro-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-prompt-wiring-os-complete.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/jam/taste-ledger.jsonl": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/mybpm-merch-os-run-1/04-deliverables/week1-hero-video.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-wiring-os-2026-07-13/START-HERE.html": 28,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-wiring-os-2026-07-13/forge-wave.js": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-07-13-prompt-wiring-os.md": 1
+  },
+  "total_rewrites": 38,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

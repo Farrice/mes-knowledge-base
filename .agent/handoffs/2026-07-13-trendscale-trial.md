@@ -10,7 +10,7 @@ pin: false
 # TrendScale Creative Strategist Trial — Package Polish + Loom Rework (JCKED + Puravita)
 
 **Status:** DONE (ship-ready; will not be revisited). Not pinned.
-**Home:** `_active/trendscale-trial/` (moved out of `_active/` this session).
+**Home:** `_active/clients/trendscale-trial/` (moved out of `_active/` this session).
 
 ## What this was
 Polish an existing GenSpark-built creative-strategist trial package to a 10/10 and make the Loom script recordable. Deliverables for TrendScale Media: 2 creative briefs (JCKED L-carnitine "Locked Vault"; Puravita magnesium "Battery You Can't See") + a 3–5 min Loom.

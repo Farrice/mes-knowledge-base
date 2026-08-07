@@ -5,7 +5,7 @@ supersedes: swarm-commander tier-1.5 simulation (2026-07-07)
 
 # /swarm Workflow — Conductor v2
 
-> **Session 1 of Swarm Apex** (`_active/swarm-apex-2026-07-07/PLAN.md`). This replaces the
+> **Session 1 of Swarm Apex** (`_active/harness/swarm-apex-2026-07-07/PLAN.md`). This replaces the
 > SEQUENTIAL-SIMULATION behavior of swarm-commander (its own docs call it "80-95% of
 > parallelism benefits" — it isn't) with a real conductor: deterministic scaffolding
 > (`execution/swarm_conductor.py`) → ONE plan gate → unattended native-Workflow execution
@@ -117,7 +117,7 @@ swarm run does not get a lighter finalize pass than a single-expert one.
 
 ---
 
-## Binding Constraints (quoted from `_active/swarm-apex-2026-07-07/PLAN.md` — do not paraphrase)
+## Binding Constraints (quoted from `_active/harness/swarm-apex-2026-07-07/PLAN.md` — do not paraphrase)
 
 > Constraints that BIND this design: no `.claude/agents/` named subagents (generic
 > Agent-tool dispatch with Tier-3 expert file injection only) · no new orchestration hub
@@ -137,7 +137,7 @@ Concretely, every pattern run obeys:
   tier, don't stall.
 - **PATH DECISION surfaced on strategy-shaped briefs** — `swarm_conductor.py plan`
   auto-detects strategy-shaped language (positioning/pricing/offer/pivot/brand/etc.) and
-  writes the `_active/path-decision-2026-07-01/README.md` Incumbency Rule guard directly
+  writes the `_active/offer-strategy/path-decision-2026-07-01/README.md` Incumbency Rule guard directly
   into the mission's Constraints section. Do not drop it from the deliverable.
 
 ## DEPTH CONTRACT (mandatory on every research-shaped brief — added 2026-07-26)

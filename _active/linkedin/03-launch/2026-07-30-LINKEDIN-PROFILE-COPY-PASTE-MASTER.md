@@ -51,7 +51,7 @@ Make these changes before publishing:
 
 Use:
 
-`_active/farrice-creative-strategist-portfolio/assets/farrice-studio.jpg`
+`_active/farrice-brand/farrice-creative-strategist-portfolio/assets/farrice-studio.jpg`
 
 It reads as creative leadership without looking corporate, fitness-specific, or AI-generated. Keep the crop close enough that your face remains clear at comment-avatar size.
 

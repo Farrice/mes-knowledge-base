@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:36:33.665965+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/dwa-affiliate-battle-test",
+  "dst": "_active/clients/dwa-affiliate-battle-test",
+  "stub_left": false,
+  "files_moved": 17,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/feedback_project-organization-populated-subfolders.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-dwa-affiliate-battle-test.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-dwa-affiliate-battle-test.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-threads-engine-2026-07-05/02-research/00-research-and-whitespace.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/dwa-affiliate-battle-test/START-HERE.html": 70,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-07-project-artifacts-loose-plus-empty-scaffold.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/alex-suzuki-digital-product-revenue-os/references/real-post-teardowns.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/alex-suzuki-digital-product-revenue-os/references/voice-and-texture.md": 1
+  },
+  "total_rewrites": 78,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

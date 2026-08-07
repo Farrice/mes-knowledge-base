@@ -154,7 +154,7 @@ def render_markdown(manifest: dict[str, object]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build Codex-to-Google operator parity manifest.")
-    parser.add_argument("--write", action="store_true", help="Write manifest JSON and Markdown into _active/operator-core-backport.")
+    parser.add_argument("--write", action="store_true", help="Write manifest JSON and Markdown into _active/harness/operator-core-backport.")
     args = parser.parse_args()
 
     manifest = build_manifest()

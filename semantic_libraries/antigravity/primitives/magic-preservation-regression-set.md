@@ -9,8 +9,8 @@ structural verifier.
 Evidence anchors:
 
 - `.agent/workflows/cooz-flywheel.md`
-- `_active/coach-cooz/15-final-package/03-cooz-voice-profile.md`
-- `_active/coach-cooz/15-final-package/06-cooz-flywheel-quickstart.md`
+- `_active/clients/coach-cooz/15-final-package/03-cooz-voice-profile.md`
+- `_active/clients/coach-cooz/15-final-package/06-cooz-flywheel-quickstart.md`
 
 Preservation lock:
 
@@ -30,7 +30,7 @@ Regression signs:
 
 Evidence anchor:
 
-- `_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md`
+- `_active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md`
 
 Preservation lock:
 

@@ -8,7 +8,7 @@ pin: true
 
 # High-Taste OS command system final smoke artifact
 
-**Pointer:** `_active/codex-repeatability/high-taste-os-smoke-practitioner-2026-06-23.md`
+**Pointer:** `_active/_archive/2026-08-07-sweep/codex-repeatability/high-taste-os-smoke-practitioner-2026-06-23.md`
 
 **Next session focus**: Resume the `high-taste-writing-os` work-stream — see the deliverable above.
 

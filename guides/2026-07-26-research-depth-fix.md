@@ -7,7 +7,7 @@ status: enriched
 
 # Research Depth Fix: What We Built 2026-07-26 and How to Use It
 
-> Shallow research can no longer ship as trusted insight. A single depth contract (`execution/research_depth.py`) now governs every research floor in the system; full-page reads replaced snippets; verification scaled to all load-bearing claims by agents that didn't find them; and a depth gate binds the ARTIFACT rather than the pipeline, so ad-hoc Workflow swarms can't bypass it. Companion files: the autopsy sits at `docs/solutions/2026-07-26-shallow-research-passed-as-trusted.md`, the measured proof is `_active/offer-rederivation-2026-07-25/04-deliverables/DEPTH-FIX-PROOF.md`, and the paste-ready external prompt is `DEEP-RESEARCH-PROMPT.md` in that same folder.
+> Shallow research can no longer ship as trusted insight. A single depth contract (`execution/research_depth.py`) now governs every research floor in the system; full-page reads replaced snippets; verification scaled to all load-bearing claims by agents that didn't find them; and a depth gate binds the ARTIFACT rather than the pipeline, so ad-hoc Workflow swarms can't bypass it. Companion files: the autopsy sits at `docs/solutions/2026-07-26-shallow-research-passed-as-trusted.md`, the measured proof is `_active/offer-strategy/offer-rederivation-2026-07-25/04-deliverables/DEPTH-FIX-PROOF.md`, and the paste-ready external prompt is `DEEP-RESEARCH-PROMPT.md` in that same folder.
 
 ## ⚡ If you only read 10 lines
 

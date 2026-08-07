@@ -104,7 +104,7 @@ python3 execution/memory_review.py
 ## ⚙️ Technical Notes
 
 - **episodic-memory plugin** (superpowers v1.0.15): 413 project exchanges indexed. SessionStart hook fires at every session. No ungated spend. ✅
-- **claude-mem NOT installed**: Would add ungated API calls (~$0.05/session). Violates cost-gate principle. Bake-off decision locked in `_active/memory-bakeoff/`. ✅
+- **claude-mem NOT installed**: Would add ungated API calls (~$0.05/session). Violates cost-gate principle. Bake-off decision locked in `_active/harness/memory-bakeoff/`. ✅
 - **Notion integration gotcha solved**: AI-made DBs use data-source model (linked views); integration can't write. Fix: integration creates its own classic DB under hub. See `reference_notion-ai-database-integration-gotcha.md`. ✅
 - **No new 8th memory store**: episodic-memory IS the capture layer. No manual episodic logging needed. ✅
 
@@ -125,8 +125,8 @@ python3 execution/memory_review.py
 Read these in order:
 1. `project_three-layer-memory-system.md` (architecture + rationale)
 2. `reference_notion-ai-database-integration-gotcha.md` (the gotcha + fix)
-3. `_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md` (Notion setup)
-4. `_active/memory-bakeoff/04-deliverables/bake-off-protocol.md` (why episodic-memory wins)
+3. `_active/knowledge/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md` (Notion setup)
+4. `_active/harness/memory-bakeoff/04-deliverables/bake-off-protocol.md` (why episodic-memory wins)
 5. This file (quick reference)
 
 ---

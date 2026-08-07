@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P1
 bucket: Growth
 ring: Outer
-source_brief: _active/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md
 notes: Mechanic stolen from the DOAC winner: the on-screen title is the buyer's literal search question. Retention beats marked. Leads the pair; run 36-women script two days later.
 ---
 

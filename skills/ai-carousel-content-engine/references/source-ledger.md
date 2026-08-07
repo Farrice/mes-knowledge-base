@@ -6,7 +6,7 @@ Claim-by-claim provenance for anchors added during Wave 3 Lane 4 Batch 1 repair 
 
 **Video**: "I Replaced My Social Media Designer With ONE AI Prompt" — Luke Carter, published 2026-05-06, https://www.youtube.com/watch?v=_3SEUgRCXX0 (duration 9:11, video ID `_3SEUgRCXX0`).
 
-**Live-path correction (verified by real file reads, not assumed)**: `skills/ai-carousel-content-engine/references/luke-carter-video-extraction-notes.md` cites `extractions/video-context/_3SEUgRCXX0/` at repo root. That path does **not** exist in the main tree — confirmed via `find . -iname "*3SEUgRCXX0*"`, zero hits under `extractions/`. The real extraction package is filed under `_active/codex-harvest-2026-06-11/extractions/video-context/_3SEUgRCXX0/` (confirmed present, three files, real byte sizes via `wc -c`, not `wc -l`):
+**Live-path correction (verified by real file reads, not assumed)**: `skills/ai-carousel-content-engine/references/luke-carter-video-extraction-notes.md` cites `extractions/video-context/_3SEUgRCXX0/` at repo root. That path does **not** exist in the main tree — confirmed via `find . -iname "*3SEUgRCXX0*"`, zero hits under `extractions/`. The real extraction package is filed under `_active/harness/codex-harvest-2026-06-11/extractions/video-context/_3SEUgRCXX0/` (confirmed present, three files, real byte sizes via `wc -c`, not `wc -l`):
 
 - `frame-notes.md` — 1,426 bytes
 - `analysis.md` — 2,258 bytes

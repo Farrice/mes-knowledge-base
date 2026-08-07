@@ -65,8 +65,8 @@ intent.
 
 ## Pointers
 
-- `_active/coach-cooz/16-war-on-fitness-industry/03-testimonial-weaponization/RAW-PROOF-INVENTORY.md`
-- `_active/coach-cooz/16-war-on-fitness-industry/05-review-gates/FACT-VERIFY-REPORT.md`
+- `_active/clients/coach-cooz/16-war-on-fitness-industry/03-testimonial-weaponization/RAW-PROOF-INVENTORY.md`
+- `_active/clients/coach-cooz/16-war-on-fitness-industry/05-review-gates/FACT-VERIFY-REPORT.md`
 - Workflow script: session `workflows/scripts/cooz-war-funnel-wf_0ae371b7-0f0.js`
 - Related: [[2026-07-07-parallel-builders-stale-contracts]] (the stale sibling
   files this session's fixer quarantined into `_archive-stale-pass/` are the

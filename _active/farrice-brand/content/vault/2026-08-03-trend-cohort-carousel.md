@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P1
 bucket: Authority
 ring: Bridge
-source_brief: _active/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md
 notes: |
   Save-carrier: slide 9 (the three-column cohort-by-creative read).
   Design: dark slides, one oversized number or line per slide, no stock imagery; per 05 teardown-carousel mechanics.

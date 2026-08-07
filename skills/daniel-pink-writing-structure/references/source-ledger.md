@@ -10,7 +10,7 @@ source is absent. See "Source Recovery" below for the full trail, run 2026-07-17
 | Check | Method | Result |
 |---|---|---|
 | `extractions/` directory for Daniel Pink | `ls extractions/ \| grep -i pink` (193 total extraction dirs) | 0 hits — no dedicated extraction folder for this expert |
-| Codex-harvest extractions | `ls _active/codex-harvest-2026-06-11/extractions/ \| grep -i pink` | 0 hits |
+| Codex-harvest extractions | `ls _active/harness/codex-harvest-2026-06-11/extractions/ \| grep -i pink` | 0 hits |
 | Repo-wide search for a landed raw-source file | `grep -ril "daniel pink" --include="*.md" .` | Only the skill's own files (`SKILL.md`, `genius.md`, workflows, prompts-v2), `agents/daniel-pink/`, `SKILL_INDEX.md`, `SLASH_COMMANDS.md`, `invocation-cards.md` — no separate raw-transcript file exists anywhere in the checked-out repo tree |
 | Archived claude.ai export tarball | `tar -tzf _archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, 3,864 entries, confirmed listable) — then extracted `claude-export/normalized/{conversations,memories,projects}/` (275 MB) to scratchpad and grepped for `daniel pink\|kakistocracy\|Charlie Yarnoff\|fresh yet familiar\|The Invisible Present` (case-insensitive) | 9 files matched; 2 are the actual Pink source conversations (below), the rest are incidental hits |
 | Primary source conversation | `claude-export/normalized/conversations/2bf2299f-cbfd-4936-8b08-2bee19fc22e2.md` (95,102 bytes) | title: "✍️ 💎💡 Daniel Pink \| How to Write Something Truly Useful" — a YouTube transcript (Merlin AI auto-transcription of `youtube.com/watch?v=gCNNwjyQQIA`) pasted as a claude.ai attachment; conversation created 2026-01-14, updated 2026-01-18. Read in full this session (~5,600 words of Pink's actual speech). |

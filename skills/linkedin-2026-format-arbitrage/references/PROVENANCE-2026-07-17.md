@@ -6,13 +6,13 @@ Patterns 2/3/4/6/7 bodies) was NOT touched and is not re-anchored here.
 
 | Anchor added in genius.md | Source file | Location |
 |---|---|---|
-| "$56,000 a month in just 30 days" / "150 million views" / "$23,000 in less than 90 days" (Pattern 1) | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` | lines 27-38, ~00:00:26–00:00:41 |
-| Video title/uploader/date "vidIQ, 'The NEW YouTube Strategy Dominating in 2026,' 2026-02-16" | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` | `upload_date: "20260216"`, `uploader: "vidIQ"` |
+| "$56,000 a month in just 30 days" / "150 million views" / "$23,000 in less than 90 days" (Pattern 1) | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` | lines 27-38, ~00:00:26–00:00:41 |
+| Video title/uploader/date "vidIQ, 'The NEW YouTube Strategy Dominating in 2026,' 2026-02-16" | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` | `upload_date: "20260216"`, `uploader: "vidIQ"` |
 | "If you want to get *through* to people, first get *in front* of people" (Pattern 5) | `extractions/Jasmin_Alic_Extraction.md` | "Core Philosophy," Agent Configuration section |
 | "4x more profile views daily" / 1+3 Comment Formula credited to Alic (Pattern 8) | `extractions/lara-acosta/2026-linkedin-playbook-extraction.md` | Pattern 7, "The 1+3 Comment Formula (Credited to Jasmin Alic)" |
-| "Most people think a niche is just a topic" (Anti-Patterns #1) | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` | lines 56-58, ~00:00:59 |
+| "Most people think a niche is just a topic" (Anti-Patterns #1) | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` | lines 56-58, ~00:00:59 |
 | "Anyone can copy a format, but very few can fill the formats with..." (Anti-Patterns #2) | same transcript.txt | lines 580-586, ~00:10:26–00:10:36 |
-| "Big-channel bias" / "No experiment" failure modes (Anti-Patterns #3, #7) | `_active/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/failure-modes.md` | table rows "Big-channel bias" and "No experiment" |
+| "Big-channel bias" / "No experiment" failure modes (Anti-Patterns #3, #7) | `_active/harness/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/failure-modes.md` | table rows "Big-channel bias" and "No experiment" |
 | "This defeats the typical viral LinkedIn slop" (Anti-Patterns #4) | `extractions/lara-acosta-content-system/transcript.txt` | Cameron/Lara dialogue, mid-transcript (image workflow discussion) |
 | "Where people fail in the execution is that they'll try and copy a viral post but they won't copy it correctly. They won't emulate it." (Anti-Patterns #5) | `extractions/lara-acosta-content-system/transcript.txt` | same section, immediately preceding the "typical viral LinkedIn slop" line |
 | "...generic AI fluff that Chad GPT writes" (Anti-Patterns #6) | `extractions/lara-acosta-content-system/transcript.txt` | closing section, "how do I remain authentic" exchange |

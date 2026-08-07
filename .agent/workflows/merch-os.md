@@ -67,7 +67,7 @@ Write `04-listings.md` + `05-prompt-pack.md`.
 
 Channel-specific, smallest honest test first ("Find one shirt people actually want, not build a whole brand yet" — the Josh V1 doctrine):
 
-- **Bonfire** (no-store test): batch campaign, ~10 days, ≤3 shirts, Smart Launch off for real scarcity; founder approval gate on joke text, art, price/profit preview, page copy, IP notes, launch posts. (Template: `_active/josh-swing-nerd-shirts-v1/BONFIRE_PUBLISHING_CHECKLIST.md`.)
+- **Bonfire** (no-store test): batch campaign, ~10 days, ≤3 shirts, Smart Launch off for real scarcity; founder approval gate on joke text, art, price/profit preview, page copy, IP notes, launch posts. (Template: `_active/clients/josh-swing-nerd-shirts-v1/BONFIRE_PUBLISHING_CHECKLIST.md`.)
 - **Shopify** (existing store): placement via `/meg-store-stack` — which identity collection the leads join, PDP trust stack, mobile CTA check; email announce to list (the list is pre-paid traffic).
 - **Drop**: capsule framing (concept family = pre-built cohesion per `/meg-aov-architect`), scarcity window, announce sequence.
 

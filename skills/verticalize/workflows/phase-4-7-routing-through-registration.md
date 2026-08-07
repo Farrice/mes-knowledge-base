@@ -14,7 +14,7 @@ Read the existing `BINDINGS` structure (`grep -A 5 "^BINDINGS" execution/routing
 
 ### Phase 5 — Per-project CLAUDE.md (inheritance contract)
 
-Generate `projects/<slug>/CLAUDE.md` against the fixed 6-section template already proven at `_active/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`, and `_active/farrice-brand/CLAUDE.md`: inheritance declaration, one-paragraph brand identity (a pointer, never a duplicate of the brand bible), voice test, when-to-load-context table, override list, vertical-specific anti-patterns. Append a row to root CLAUDE.md's "Per-Client / Per-Project CLAUDE.md Inheritance" table.
+Generate `projects/<slug>/CLAUDE.md` against the fixed 6-section template already proven at `_active/clients/andrea-dj/CLAUDE.md`, `_active/clients/jen-listings/CLAUDE.md`, and `_active/farrice-brand/CLAUDE.md`: inheritance declaration, one-paragraph brand identity (a pointer, never a duplicate of the brand bible), voice test, when-to-load-context table, override list, vertical-specific anti-patterns. Append a row to root CLAUDE.md's "Per-Client / Per-Project CLAUDE.md Inheritance" table.
 
 ### Phase 6 — First deliverable (optional, default ON)
 
