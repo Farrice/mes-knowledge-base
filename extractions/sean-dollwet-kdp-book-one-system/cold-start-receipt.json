@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-08-04T20:30:46.456794+00:00",
+  "checks": [
+    "state, pace, permission, and append-only transition fixture passed",
+    "undisclosed AI, missing rights, review exchange, and PDF-only fixtures held or blocked",
+    "contract fields and unsafe-instruction regression scan passed",
+    "three cold KDP queries surfaced the Book One owner",
+    "detached fresh-context probe observed local routing, dry-run HOLD, and permission behavior"
+  ],
+  "market_proof": "NO_EVENT",
+  "runtime_observed": true,
+  "runtime_scope": "local_behavior_only",
+  "status": "RUNTIME_OBSERVED"
+}

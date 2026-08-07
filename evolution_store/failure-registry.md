@@ -60,3 +60,4 @@ and `Occurrences` in place — rules are never duplicated or rewritten.
 - **Root Cause:** 1 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: skill:david-perell-writing
 - **Prevention Rule:** Decide born_intent_drift or explicitly park it. An escalation nobody answers is indistinguishable from a check nobody runs.
 - **Occurrences:** 7
+- **Root Cause:** 13 anchor(s) changed with NO commit trail since the last bless — that silence is the loss signal: prompt:sean-dollwet-kdp-publishing/book-do

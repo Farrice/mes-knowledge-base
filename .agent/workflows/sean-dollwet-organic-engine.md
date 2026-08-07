@@ -1,9 +1,9 @@
 ---
-description: "/sean-dollwet-organic-engine — Builds the no-ads short-form marketing system for a published book — kills the useless free tactics, installs the 7-type video taxonomy, mines the book itself for an inexhaustible content calendar (1 page = 1 video), runs posting as a probabilistic volume game, and clones the outlier the moment the feed reveals it."
+description: "/sean-dollwet-organic-engine — Build an organic-only, audience-matched content experiment system from approved book material, then track content to discovery and sales without channel dogma or attribution theater."
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
-# /sean-dollwet-organic-engine — Organic Engine — The No-Ads Short-Form System
+# /sean-dollwet-organic-engine — Organic Engine — Experiments, Not Guarantees
 
 Thin wrapper — the full methodology lives in the skill.
 

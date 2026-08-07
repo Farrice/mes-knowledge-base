@@ -387,6 +387,7 @@ def intent_flags(phrase: str) -> dict[str, bool]:
         "productized_ai_service_os": productized_ai_service_os,
         "ai_employee_os": is_ai_employee_os_intent(phrase),
         "diandra_linkedin_system": diandra_linkedin_system,
+        "kdp_book_one": is_kdp_book_one_query(phrase),
         "publishable_copy": is_publishable_copy_query(phrase),
         "steering": is_steering_query(phrase),
         "video_context": is_video_context_query(phrase),
@@ -529,9 +530,19 @@ def score_workflow(workflow: Workflow, query: str) -> int:
         score += ai_employee_os_route_bonus(workflow.name)
     if flags["diandra_linkedin_system"]:
         score += diandra_linkedin_system_bonus(workflow.name)
+    if flags["kdp_book_one"]:
+        kdp_bonuses = {
+            "kdp-engine": 360,
+            "sean-dollwet-book-one-pilot": 300,
+            "publishable-copy-gate": -220,
+            "ocean-content-anti-slop": -80,
+            "anti-slop-audit": -80,
+        }
+        score += kdp_bonuses.get(workflow.name, 0)
     if (
         workflow.name == "publishable-copy-gate"
         and flags["publishable_copy"]
+        and not flags["kdp_book_one"]
         and not flags["productized_ai_service_os"]
         and not flags["diandra_linkedin_system"]
         and not flags["kishotenketsu_storytelling"]
@@ -901,8 +912,32 @@ def diandra_linkedin_system_bonus(workflow_name: str) -> int:
     return bonuses.get(workflow_name, 0)
 
 
+def is_kdp_book_one_query(query: str) -> bool:
+    """Detect a first-book or AI-ebook request owned by the KDP conductor."""
+    direct_phrases = (
+        "amazon kdp",
+        "kindle direct publishing",
+        "first kdp book",
+        "kdp book from scratch",
+        "first book on amazon",
+        "ai ebook that is not slop",
+        "ai ebook without slop",
+        "book under a pen name",
+        "ebook under a pen name",
+    )
+    if any(phrase in query for phrase in direct_phrases):
+        return True
+    platform = any(term in query for term in ("amazon", "kdp", "kindle"))
+    book = any(term in query for term in ("book", "ebook", "paperback"))
+    coldstart = any(term in query for term in ("first", "from scratch", "pen name", "without ads", "no ads"))
+    return platform and book and coldstart
+
+
 def is_publishable_copy_query(query: str) -> bool:
     """Detect public/revenue copy that should surface the publishable copy gate."""
+    if is_kdp_book_one_query(query):
+        return False
+
     creative_visual_terms = (
         "creative brief",
         "visual direction",

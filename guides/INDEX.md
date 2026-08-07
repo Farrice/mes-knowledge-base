@@ -388,3 +388,8 @@
 | Repair placeless writing without inventing lived detail or local color | [David Perell Idea-to-Culture](2026-08-04-extract-forge.md) |
 | Protect soul work when attention opportunities keep taking over the portfolio | [David Perell Idea-to-Culture](2026-08-04-extract-forge.md) |
 - 2026-08-04 — [David Perell Idea-to-Culture](2026-08-04-extract-forge.md) — 13-workflow writing system for idea-courage-craft triage, evidence-safe cultural timing, POP craft, placefulness, public reps, and soul-work protection; locally finalized B-tier with human recognition deferred
+| Read the original 2026-07-13 cold-hunt mechanics and creator heuristics | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
+| Inspect the current policy-safe Book One proof and its four independent proof axes | [KDP Book One Proof System](2026-08-04-kdp-book-one-proof-system.md) |
+| Understand why a plausible market cannot override zero operator fit | [KDP Book One Proof System](2026-08-04-kdp-book-one-proof-system.md) |
+| Resume the closed proof without rebuilding or reviving the rejected niche | [KDP Book One Proof System](2026-08-04-kdp-book-one-proof-system.md) |
+- 2026-08-04 — [KDP Book One Proof System](2026-08-04-kdp-book-one-proof-system.md) — 11-video source harvest into a policy-safe conductor, persistent four-axis cockpit, detached runtime proof, live conditional niche scan, and the decisive operator-fit rejection; no active book or market proof remains

@@ -132,3 +132,6 @@ Generated 2026-08-04 by `execution/projects_index.py`. **Do not edit manually.**
 | `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-08-04 | done |
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
 **55 projects** — 17 active, 19 parked, 19 done.
+| `kdp-book-one-pilot` | _active/ | `_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md` | 2026-08-04 | active* |
+**56 projects** — 18 active, 19 parked, 19 done.
+- **missing_index** — `_active/kdp-book-one-pilot`: no INDEX.md — project has no entry point

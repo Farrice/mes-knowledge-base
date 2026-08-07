@@ -1,9 +1,9 @@
 ---
-description: "/sean-dollwet-book-blueprint — Sean Dollwet's full pre-production package. Stalks competitor TOCs, mines reviews for loves/complaints, builds the pain-point inventory and detailed outline, locks the spec, engineers the irreversible title, and sets cover direction — everything decided BEFORE a manuscript word is drafted."
+description: "/sean-dollwet-book-blueprint — Turn an approved topic into a rights-safe source dossier, reader promise, claim ledger, outline, metadata/title package, gold-chapter brief, and cover brief before manuscript drafting."
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
-# /sean-dollwet-book-blueprint — Book Blueprint — the Pre-Production Package
+# /sean-dollwet-book-blueprint — Book Blueprint — Evidence, Architecture, and Approval
 
 Thin wrapper — the full methodology lives in the skill.
 

@@ -1,25 +1,28 @@
 ---
 name: sean-dollwet-kdp-publishing
-description: Sean Dollwet's Amazon KDP self-publishing business system — demand-first niche validation (BSR gate + soft-underbelly scan), title/subtitle engineering, the 5-prompt AI production chain, the 30-day honeymoon + 90-day review sprint, $3–5/day diagnostic ads, format multiplication into 7+ income streams, and multi-niche portfolio scaling toward a sellable catalog exit — all inside a 12–18-month market window.
-version: "3.0"
+description: Sean Dollwet's demand-first Amazon KDP system, extended with a zero-to-Book-One conductor, current policy and rights gates, world-class editorial controls, organic-only launch, and separate production, market, and cash proof.
+version: "4.0"
 format: completion-engine
-workflows: 10
-source: claude.ai export 2026-07-01 + 5-video forge extraction 2026-07-13 (watched, frame-verified)
+workflows: 11
+source: claude.ai export 2026-07-01 + 5-video forge extraction 2026-07-13 + 11-video Book One corpus and official-policy audit 2026-08-04
 ---
 
 # Sean Dollwet — Amazon KDP Publishing
 
-Sean Dollwet built two Amazon KDP publishing businesses, made ~$2M from ebooks, and sold his first book catalog for **$820,000** on Empire Flippers — the business that took him from four years of failed models to self-made millionaire by 26. His system treats books as digital real estate: validate demand BEFORE creating anything, sell where buyers already are (Amazon controls ~74% of US book sales), and multiply one validated book into paperback, audiobook, translation, and bundle income streams. The core inversion: most people write the book first and hunt for buyers after; Dollwet finds proof buyers already exist (competing books under 80,000 BSR), builds a better book on the proven topic, and drops it where the buyers already shop. The window thesis frames the urgency: **barrier DOWN × demand UP × competition SHRINKING is a once-in-a-decade convergence that realigns within 12–18 months** — enter with genuine quality, sprint to social proof, and the door closes behind you.
+Sean Dollwet's useful inversion is simple: study current buyer demand before drafting, then create a more useful book for one reader and one problem. His earnings, student results, BSR conversions, review targets, launch windows, and catalog economics are `SOURCE_REPORTED`, not operating truth. The 2026-08-04 extension keeps the method but adds the parts a safe Book One needs: official policy, rights and AI-asset evidence, editorial proof, approvals, upload-readiness, and honest market measurement.
+
+Official KDP and U.S. Copyright Office sources override creator tactics. Production activity is never reported as discovery, sales, or income.
 
 ## Available Workflows
 
 ### Tier 1 — Foundation (the core pipeline)
 | # | Workflow | Produces |
 |---|----------|----------|
-| 01 | [hunt-and-validate](workflows/01-hunt-and-validate.md) | GO/NO-GO demand verdict per topic — BSR<80k gate, soft-underbelly scan, red-flag check |
+| 00 | [book-one-pilot](workflows/00-book-one-pilot.md) | Zero-to-upload-ready cockpit: interview, 5–10-topic scan, approvals, manuscript/cover/policy gates, and proof ledger |
+| 01 | [hunt-and-validate](workflows/01-hunt-and-validate.md) | Dated GO/HOLD/NO-GO demand verdict using multiple marketplace signals and explicit uncertainty |
 | 02 | [book-blueprint](workflows/02-book-blueprint.md) | TOC + review-mining → outline, title engineering, book spec, cover direction |
-| 03 | [produce-manuscript](workflows/03-produce-manuscript.md) | The 5-prompt chain: generate → humanize loop → formatting, into a copyright-eligible manuscript |
-| 04 | [launch-90](workflows/04-launch-90.md) | 30-day honeymoon plan: 15 reviews → pricing → $3–5/day diagnostic ads → 90-day sprint to 50–100 reviews |
+| 03 | [produce-manuscript](workflows/03-produce-manuscript.md) | Controlled section drafting, human authorship, claim/source ledger, developmental and reader QA |
+| 04 | [launch-90](workflows/04-launch-90.md) | Policy-safe organic launch and 90-day observation plan; no ads or review quotas in Book One |
 
 ### Tier 2 — Practitioner (fix, feed, and multiply)
 | # | Workflow | Produces |
@@ -37,20 +40,17 @@ Sean Dollwet built two Amazon KDP publishing businesses, made ~$2M from ebooks, 
 
 ## Quick Reference
 
-- **Demand gate**: **3+ books under 80,000 BSR** on page one (paperback) = proven demand pattern; 80k BSR ≈ **$500/month** per format. One selling book is a fluke; three is a pattern.
-- **Soft underbelly**: enter niches with steady buyers whose top books are weak — Door A: **under 300 reviews** ("the easiest target you can find"); Door B: outdated covers / generic titles / content untouched in years.
-- **Red-flag inversion**: your book ranking #1–2 for its keyword while not selling = no demand exists, not a win.
-- **Title formula**: main title = exact searched keyword (+ flair); subtitle stacks 3–4 concrete reader benefits + keywords. Clarity breaks ties; artsy/curiosity titles are the worst move in non-fiction. Title is irreversible post-publish — get it right pre-launch.
-- **Book spec**: 30,000 words standard (5x8–6x9, ~150–200pp), 6–10 chapters, ~1,250 words per subchapter; 10,000–15,000 words acceptable for a first book. Value = problem solved, not page count. Ship in ≤1 week (max, "if you're a perfectionist").
-- **AI rule**: AI drafts ONE subchapter at a time as a first draft; human humanizes (stories, fact-check, Grammarly) — raw AI paste is uncopyrightable and degrades after ch.2–3. Never publish raw output.
-- **Reviews**: minimum **15 before any marketing** (hard gate); target 10–15 in month one, sprint to **50–100 honest reviews by day 90**. Book Bounty (~$25/mo, verified, triangulated) or Book Reverb (bid-based ~$6, fast, unverified); never family or direct swaps.
-- **Honeymoon window**: Amazon gives new books extra visibility in the first **30 days** and rewards velocity across the first **90 days** — front-load reviews and low pricing to pass the audition.
-- **Ads**: start Amazon ads at **$3–5/day** as a diagnostic (high impressions + low clicks = fix cover/title/reviews); scale only from a profitable baseline.
-- **Launch pricing**: ebook **$0.99**, paperback **$5.99–$6.99** — price low to harvest proof, raise only after reviews accumulate.
-- **Content pyramid**: low-content (journals) = most competition, least money; high-content (nonfiction/fiction) = fewest competitors, most money. AI erases high-content's creation difficulty while leaving its competition moat — default to high-content.
-- **Organic**: high-volume short-form video, TikTok-first, faceless-preferred; **1 page = 1 video** (100-page book → 100 videos → restart); clone the winner 10×; repurpose TikTok → IG → YouTube.
-- **Multiplication order**: ebook → paperback → audiobook (ACX ~$200 one-time, ~$3.40/sale) → translations → bundles → other stores → sell the catalog.
-- **Honest median**: **$300–$400 per published book per month**. A $3–5k/mo target = a portfolio of **8–12 books**. $1,000/mo from one book is the only real learning milestone; the rest is duplication ($1k→$10k→$100k). No guarantees.
+- **Book One owner**: workflow 00 conducts the existing pipeline and persists every approval, gate, artifact, and proof event.
+- **Demand evidence**: use dated Amazon observations plus independent problem-language corroboration. BSR, result count, review count, and price are signals; static thresholds and revenue conversions remain `SOURCE_REPORTED`.
+- **Reader lock**: one problem, one reader, one useful promise. Reject high-stakes claims unless a qualified reviewer owns them.
+- **Title and metadata**: clarity and search language matter, but every field must be accurate, rights-safe, and consistent. Title changes are constrained after publication, so approval happens before upload.
+- **Pace**: `rapid_7`, `launch_14`, and `editorial_30` share identical gates. A missed gate extends the schedule.
+- **AI rule**: draft in controlled sections, keep a rolling context packet, verify claims, remove repetition, add real human analysis/examples, and disclose every AI-generated KDP asset. Editing does not erase disclosure duties or guarantee copyright.
+- **Editorial rule**: approve a gold chapter, then run developmental, source, structural-tempo, redundancy, line/copy, originality, and reader QA. No placeholders survive `QA_PASSED`.
+- **Reviews**: neutral and optional only. No required, influenced, compensated, points-based, reciprocal, insider, or sentiment-filtered reviews.
+- **Files**: narrative ebook defaults to previewed DOCX/KPF/EPUB; print uses a separate print-ready PDF.
+- **Organic**: test channel/format hypotheses and record content → discovery → sale attribution honestly. TikTok is an option, not doctrine.
+- **Scale**: formats and additional books stay parked until Book One produces observed quality, conversion, refund, and net-collection evidence. Thousands per month remains `UNTESTED`.
 
 ## References
 
@@ -60,6 +60,8 @@ Sean Dollwet built two Amazon KDP publishing businesses, made ~$2M from ebooks, 
 | [prompt-chain.md](references/prompt-chain.md) | The verbatim 5-prompt production chain (topics → pain points → outline → titles → draft → cover) + the competitor-TOC/review-mining method |
 | [price-sheet.md](references/price-sheet.md) | Every frame-verified number: outsource price matrix, royalty math, launch pricing, book spec, platform facts, portfolio & exit math, review economics |
 | [organic-taxonomy.md](references/organic-taxonomy.md) | The 7-type TikTok video taxonomy, volume-game doctrine, winner-repetition, faceless>face, 1-page=1-video, repurpose waterfall, wound-accusation hooks |
+| [kdp-policy-and-evidence-boundary.md](references/kdp-policy-and-evidence-boundary.md) | Current official-policy boundary, evidence labels, AI/rights schema, prohibited review tactics, and four proof axes |
+| [Book One source ledger](../../extractions/sean-dollwet-kdp-book-one-system/source-ledger.md) | The anchor plus ten companion videos, incentives, dedupe, official sources, and evidence disposition |
 
 ## Stacking Guide (optional cross-skill handoffs — workflow 10)
 
@@ -73,20 +75,21 @@ These are OPTIONS the operator picks per book on competitive/premium niches, nev
 | Cover direction | `/fantastic-posters` / `creative_router.py` pre-flight | Dated incumbent covers (Door B) — cover is the primary attack surface | A clean $10–20 Fiverr / text-forward cover already stands out |
 | TikTok hooks | `kallaway` content psychology | Running the organic engine hard; hook quality compounds across volume | Format is doing the work; still in pure-volume testing phase |
 
-Door-close play: superior quality + a fast review sprint = both moats held at once. The stack builds the quality half; it only pays when paired with the 90-day review sprint (workflow 04).
+Book One rule: use a bounded handoff only when it improves the approved artifact. Quality and real buyer evidence—not expert count or review volume—decide whether the stack earned its cost.
 
 <!-- BEGIN:execution-prompts (generated by execution/wire_prompt_pointers.py — do not hand-edit; re-run to refresh) -->
 
 ## Execution Prompts (structure-pure v2)
 
-7 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+8 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
-- **Book Doctor Diagnostic — [BOOK TITLE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-doctor-report.md`
+- **Book Doctor Report — [BOOK]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-doctor-report.md`
+- **Book One Cockpit — [BOOK ID]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-one-pilot-cockpit.md`
 - **Book Production Package — [WORKING TITLE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-production-package.md`
 - **Demand Validation Report — [DATE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/demand-validation-report.md`
-- **Launch & Multiplication Plan — [BOOK TITLE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/launch-and-multiplication-plan.md`
-- **Organic Content System — [BOOK TITLE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/organic-content-pack.md`
-- **Outsource Brief Pack — [BOOK TITLE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/outsource-brief-pack.md`
-- **Portfolio Command Sheet — [QUARTER/DATE]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/portfolio-command-sheet.md`
+- **Launch and Multiplication Plan — [BOOK]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/launch-and-multiplication-plan.md`
+- **Organic Content System — [BOOK]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/organic-content-pack.md`
+- **Outsource Brief Pack — [BOOK]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/outsource-brief-pack.md`
+- **Portfolio Command Sheet — [PERIOD]** — `skills/sean-dollwet-kdp-publishing/references/prompts-v2/portfolio-command-sheet.md`
 
 <!-- END:execution-prompts -->

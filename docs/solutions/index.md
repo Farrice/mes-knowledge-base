@@ -54,3 +54,4 @@ One line per card: date · name · problem_signature.
 - 2026-08-02 · storytelling-input-sufficiency · A cross-domain storytelling router treated missing presentation context as a hard failure even when story evidence was sufficient.
 - 2026-07-30 · dhar-transformational-story-system-forge · Turn one source-rich interview into a distinct reusable content system without expert soup, invented craft, or premature plugin packaging
 - 2026-07-28 · front-door-masks-first-workflow-from-minter · the generated expert front door cites the first workflow path as its example row, which arsenal_index reads as "reachable," so the minter silently skips that workflow's /command on every fresh forge
+- 2026-08-04 · kdp-book-one-policy-safe-runtime-proof · A creator-led KDP extraction can turn unsafe or unverified tactics into a fast AI-book workflow unless policy truth, proof axes, permission gates, and detached runtime behavior are built into the owner.

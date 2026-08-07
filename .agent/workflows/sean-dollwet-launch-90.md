@@ -1,9 +1,9 @@
 ---
-description: "/sean-dollwet-launch-90 — Sean Dollwet's launch execution. Works the 30-day honeymoon (15 reviews FIRST via the verbatim Facebook-group script or triangulated paid services), sets launch pricing, runs $3–5/day Amazon ads as diagnostic data, then sprints to 50–100 reviews across the 90-day algorithm window before the door closes."
+description: "/sean-dollwet-launch-90 — Prepare and run a policy-safe, organic-only Book One launch with current pricing, neutral optional review language, controlled content experiments, and a 90-day discovery-to-cash observation ledger."
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
-# /sean-dollwet-launch-90 — Launch 90 — Honeymoon + 90-Day Review Sprint
+# /sean-dollwet-launch-90 — Launch 90 — Policy-Safe Organic Learning
 
 Thin wrapper — the full methodology lives in the skill.
 

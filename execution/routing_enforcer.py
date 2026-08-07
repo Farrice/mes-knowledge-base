@@ -89,6 +89,27 @@ BINDINGS = [
         ),
     },
     {
+        "id": "kdp_book_one_coldstart",
+        "signal_phrases": [
+            "amazon kdp",
+            "kindle direct publishing",
+            "first kdp book",
+            "kdp book from scratch",
+            "first book on amazon",
+            "ai ebook that is not slop",
+            "ai ebook without slop",
+            "book under a pen name",
+            "ebook under a pen name",
+        ],
+        "mandatory_workflow": "kdp-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Amazon/KDP and first-book language requires the KDP function owner so "
+            "demand, editorial, rights, AI disclosure, metadata, preview, organic "
+            "launch, permission, and market proof stay in one Book One conductor."
+        ),
+    },
+    {
         # Amnesty 2026-07-29: signals narrowed 122 -> 53. Bare mood/maintenance
         # phrases ("not usable", "draining", "handcuff", "check and repair",
         # "running into walls") misfiled content verdicts and a partnership
@@ -282,6 +303,13 @@ BINDINGS = [
             "taste roadmap",
             "taste stage",
             "design taste",
+            "amazon kdp",
+            "kindle direct publishing",
+            "first kdp book",
+            "kdp book from scratch",
+            "first book on amazon",
+            "book under a pen name",
+            "ebook under a pen name",
         ],
         "mandatory_workflow_any_of": [
             "high-taste-writing-os",
