@@ -164,6 +164,20 @@ def main() -> None:
     except Exception:
         pass
 
+    # Full-power watchdog (2026-08-06 lanes build): a hook that could not
+    # resolve python ran degraded somewhere — surface it until the log is cleared.
+    try:
+        import time as _t
+        beacon = ROOT / ".agent" / "hook-failures.log"
+        if beacon.exists() and (_t.time() - beacon.stat().st_mtime) < 24 * 3600:
+            n = len(beacon.read_text().splitlines())
+            lines.append(
+                f"⚠ HOOK DEGRADATION: {n} entr(ies) in .agent/hook-failures.log — a tree ran "
+                "with degraded hooks → `python3 execution/worktree_lane.py doctor --fix`, then "
+                "clear the log.")
+    except Exception:
+        pass
+
     # Silence when clean. This is the whole discipline.
     if lines:
         print("PENDING DECISIONS (deterministic, from pending_decisions_hook.py — "

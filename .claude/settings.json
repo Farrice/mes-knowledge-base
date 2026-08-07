@@ -129,6 +129,16 @@
             "timeout": 5
           }
         ]
+      },
+      {
+        "matcher": "EnterWorktree",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/worktree_lane.py\" bootstrap --if-needed --quiet",
+            "timeout": 20
+          }
+        ]
       }
     ],
     "Stop": [
@@ -161,6 +171,11 @@
     "SessionStart": [
       {
         "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/worktree_lane.py\" bootstrap --if-needed --quiet",
+            "timeout": 20
+          },
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/divergence_alarm_hook.py\"",

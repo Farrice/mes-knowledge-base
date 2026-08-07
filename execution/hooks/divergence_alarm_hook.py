@@ -84,18 +84,46 @@ def _detect_empty_absorbs(baseline: str = "main", since: str = "14.days"):
     return lost
 
 
+def _lane_exemptions():
+    """Branches that are ACTIVE worktree lanes or registered parked lanes are
+    expected to diverge — that's a live lane, not lost work (2026-08-06 lanes
+    build). Ground truth from `git worktree list`; parked set from lanes.json.
+    Returns (exempt_refs, n_active, parked_info)."""
+    exempt, active, parked = set(), [], []
+    try:
+        sys.path.insert(0, str(ROOT / "execution"))
+        import worktree_lane as wl
+        lanes = wl.active_lanes(ROOT)
+        for b in lanes:
+            exempt.add(b)
+            exempt.add(f"origin/{b}")
+            active.append(b)
+        for b, meta in wl.load_registry(ROOT).items():
+            if meta.get("status") == "parked":
+                exempt.add(b)
+                exempt.add(f"origin/{b}")
+                parked.append((b, meta.get("reason", "?"), meta.get("parked_at", "")))
+    except Exception:
+        pass
+    return exempt, active, parked
+
+
 def main():
     lines = []
+    exempt, active_lanes_, parked_lanes = _lane_exemptions()
 
     # 1) Branches with work main lacks (local + remote, skip HEAD pointers).
     #    --cherry-pick drops commits whose PATCH already exists on main under a
     #    different SHA (rebased / recovered file-wise), killing that false-
     #    positive class. A true alarm here means real unabsorbed content.
+    #    Active/parked LANES are exempt — they are announced separately below.
     refs = _git("for-each-ref", "--format=%(refname:short)", "refs/heads", "refs/remotes/origin")
     diverged = []
     for ref in refs.splitlines():
         ref = ref.strip()
         if not ref or ref in ("main", "origin/main", "origin/HEAD") or ref.endswith("/HEAD"):
+            continue
+        if ref in exempt:
             continue
         count = _git("rev-list", "--cherry-pick", "--right-only", "--count", f"main...{ref}")
         if count.isdigit() and int(count) > 0:
@@ -160,6 +188,28 @@ def main():
                 lines.append(f"⚠ STALE FETCH: last `git fetch` was {age_h:.0f}h ago — divergence counts may be stale; run `git fetch --all`.")
     except Exception:
         pass
+
+    # 6) Lanes — informational, never an alarm (they merge back automatically).
+    #    Parked lanes older than 7 days escalate to a nudge.
+    if active_lanes_ or parked_lanes:
+        import time as _t
+        from datetime import datetime as _dt
+        stale_parked = []
+        for b, reason, at in parked_lanes:
+            try:
+                age_d = (_t.time() - _dt.fromisoformat(at).timestamp()) / 86400
+            except Exception:
+                age_d = 0
+            if age_d > 7:
+                stale_parked.append(f"{b} ({age_d:.0f}d)")
+        info = (f"LANES: {len(active_lanes_)} active"
+                + (f" ({', '.join(active_lanes_[:3])})" if active_lanes_ else "")
+                + (f", {len(parked_lanes)} parked — resolve: python3 execution/"
+                   f"worktree_lane.py merge --lane <branch>" if parked_lanes else ""))
+        lines.append(info)
+        if stale_parked:
+            lines.append(f"⚠ PARKED >7d: {', '.join(stale_parked[:3])} — merge or teardown "
+                         f"(worktree_lane.py doctor shows the full picture).")
 
     if lines:
         print("GIT INTEGRITY (deterministic, from divergence_alarm_hook.py):")

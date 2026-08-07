@@ -15,11 +15,27 @@ Usage:
 """
 import json
 import os
+import subprocess
 import sys
 import time
 import uuid
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _in_lane() -> bool:
+    """A worktree lane is single-writer by construction — the lock models
+    contention on the MAIN tree only (worktree_lane.py, 2026-08-06)."""
+    try:
+        cwd = os.getcwd()
+        gd = subprocess.run(["git", "-C", cwd, "rev-parse", "--path-format=absolute",
+                             "--git-dir"], capture_output=True, text=True, timeout=5)
+        gcd = subprocess.run(["git", "-C", cwd, "rev-parse", "--path-format=absolute",
+                              "--git-common-dir"], capture_output=True, text=True, timeout=5)
+        return (gd.returncode == 0 and gcd.returncode == 0
+                and gd.stdout.strip() != gcd.stdout.strip())
+    except Exception:
+        return False
 # SESSION_LOCK_PATH override exists for test isolation ONLY (verify_mission_runner
 # fixtures were 5/5-or-0/5 depending on the live tree's lock state, 2026-07-18) —
 # never set it in production runs.
@@ -41,6 +57,12 @@ def fresh(d):
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "status"
     arg = sys.argv[2] if len(sys.argv) > 2 else None
+
+    if cmd in ("claim", "check") and not os.environ.get("SESSION_LOCK_PATH") and _in_lane():
+        print("clear (lane tree — single writer by construction; "
+              "the main tree remains the contended resource)")
+        sys.exit(0)
+
     d = read()
 
     if cmd == "claim":
