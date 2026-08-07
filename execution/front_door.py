@@ -98,14 +98,24 @@ def _iter_files(base: Path):
         yield p
 
 
+BUCKET_RE = re.compile(r"^\d{2}-")
+
+
 def is_arena(path: Path) -> bool:
-    """An arena holds initiatives and nothing of its own but pinned files."""
+    """An arena holds INITIATIVES and nothing of its own but pinned files.
+
+    A directory whose children are numbered buckets (02-offer, 04-deliverables)
+    is a project, not an arena — those are its lifecycle folders, and treating
+    them as initiatives would drop a front door inside every bucket.
+    """
     if not path.is_dir():
         return False
     kids = [c for c in path.iterdir() if c.name not in SKIP_DIRS]
-    dirs = [c for c in kids if c.is_dir()]
+    dirs = [c for c in kids if c.is_dir() and not c.name.startswith(".")]
     own = [c for c in kids if c.is_file() and c.name not in PINNED]
-    return bool(dirs) and not own
+    if not dirs or own:
+        return False
+    return not any(BUCKET_RE.match(d.name) for d in dirs)
 
 
 def discover_initiatives() -> list[Path]:

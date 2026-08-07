@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jen Santulan · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#live-now">Live now</a><a href="#health">Health</a><a href="#context-pack">context pack</a><span class="navtools"></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">START HERE · _ACTIVE</span>
+    <h1 class="display">Jen Santulan</h1>
+    <p class="dek">Undated filename = living and current. A filename leading with a date is a record — a receipt of one session, never the truth to build on.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">21 living</span></div>
+      <div><span class="k">Lens</span><span class="v">_active</span></div>
+      <div><span class="k">Sources</span><span class="v">21 docs</span></div>
+      <div><span class="k">Compiled</span><span class="v">2026-08-07 11:19 UTC</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="live-now"><div class="sechead"><span class="secnum">01</span><h2 class="sec">Live now</h2><span class="sectag">THE LIVING SET</span></div><div class="assetgrid"><div class="asset"><span class="role">foundation</span><h3>01-repositioning-brief.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/01-repositioning-brief.md">_active/jen-santulan/foundation/01-repositioning-brief.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/01-repositioning-brief.md">copy path</button></div></div><div class="asset"><span class="role">foundation</span><h3>02-messaging-voice-spine.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/02-messaging-voice-spine.md">_active/jen-santulan/foundation/02-messaging-voice-spine.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/02-messaging-voice-spine.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>05-instagram-batch.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/05-instagram-batch.md">_active/jen-santulan/deliverables/05-instagram-batch.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/05-instagram-batch.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>01-repositioning-brief.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/01-repositioning-brief.md">_active/jen-santulan/deliverables/01-repositioning-brief.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/01-repositioning-brief.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>06-lead-engine.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/06-lead-engine.md">_active/jen-santulan/deliverables/06-lead-engine.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/06-lead-engine.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>09-market-and-sources.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/09-market-and-sources.md">_active/jen-santulan/deliverables/09-market-and-sources.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/09-market-and-sources.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>02-messaging-voice-spine.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/02-messaging-voice-spine.md">_active/jen-santulan/deliverables/02-messaging-voice-spine.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/02-messaging-voice-spine.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>03-youtube-engine-system.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/03-youtube-engine-system.md">_active/jen-santulan/deliverables/03-youtube-engine-system.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/03-youtube-engine-system.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>00-START-HERE.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/00-START-HERE.md">_active/jen-santulan/deliverables/00-START-HERE.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/00-START-HERE.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>07-launch-plan-ai-leverage.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md">_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>04-youtube-flagship-script.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/04-youtube-flagship-script.md">_active/jen-santulan/deliverables/04-youtube-flagship-script.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/04-youtube-flagship-script.md">copy path</button></div></div><div class="asset"><span class="role">deliverables</span><h3>08-edm-appendix.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/08-edm-appendix.md">_active/jen-santulan/deliverables/08-edm-appendix.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/08-edm-appendix.md">copy path</button></div></div><div class="asset"><span class="role">production</span><h3>05-instagram-batch.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/05-instagram-batch.md">_active/jen-santulan/production/05-instagram-batch.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/05-instagram-batch.md">copy path</button></div></div><div class="asset"><span class="role">production</span><h3>06-lead-engine.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/06-lead-engine.md">_active/jen-santulan/production/06-lead-engine.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/06-lead-engine.md">copy path</button></div></div><div class="asset"><span class="role">production</span><h3>03-youtube-engine-system.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/03-youtube-engine-system.md">_active/jen-santulan/production/03-youtube-engine-system.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/03-youtube-engine-system.md">copy path</button></div></div><div class="asset"><span class="role">production</span><h3>07-launch-plan-ai-leverage.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/07-launch-plan-ai-leverage.md">_active/jen-santulan/production/07-launch-plan-ai-leverage.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/07-launch-plan-ai-leverage.md">copy path</button></div></div><div class="asset"><span class="role">production</span><h3>04-youtube-flagship-script.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/04-youtube-flagship-script.md">_active/jen-santulan/production/04-youtube-flagship-script.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/04-youtube-flagship-script.md">copy path</button></div></div><div class="asset"><span class="role">production</span><h3>08-edm-appendix.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/08-edm-appendix.md">_active/jen-santulan/production/08-edm-appendix.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/08-edm-appendix.md">copy path</button></div></div><div class="asset"><span class="role">recon</span><h3>current-state-audit.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/current-state-audit.md">_active/jen-santulan/recon/current-state-audit.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/current-state-audit.md">copy path</button></div></div><div class="asset"><span class="role">recon</span><h3>verified-claims.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/verified-claims.md">_active/jen-santulan/recon/verified-claims.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/verified-claims.md">copy path</button></div></div><div class="asset"><span class="role">recon</span><h3>market-conditions-2026.md</h3><p>touched 2026-07-28</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/market-conditions-2026.md">_active/jen-santulan/recon/market-conditions-2026.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/market-conditions-2026.md">copy path</button></div></div></div></section><section class="blk" id="health"><div class="sechead"><span class="secnum">02</span><h2 class="sec">Health</h2><span class="sectag">DERIVED</span></div><div class="stats"><div class="stat"><div class="num">21</div><span class="lab">living docs</span></div><div class="stat"><div class="num">0</div><span class="lab">records</span></div><div class="stat"><div class="num">0</div><span class="lab">archived</span></div><div class="stat"><div class="num">2</div><span class="lab">broken links</span><div class="note">0 is the target</div></div><div class="stat"><div class="num">2</div><span class="lab">media files</span></div></div></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">03</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/01-repositioning-brief.md">_active/jen-santulan/foundation/01-repositioning-brief.md</a></td><td>asset · foundation</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/02-messaging-voice-spine.md">_active/jen-santulan/foundation/02-messaging-voice-spine.md</a></td><td>asset · foundation</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/05-instagram-batch.md">_active/jen-santulan/deliverables/05-instagram-batch.md</a></td><td>asset · deliverables</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/01-repositioning-brief.md">_active/jen-santulan/deliverables/01-repositioning-brief.md</a></td><td>asset · deliverables</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/06-lead-engine.md">_active/jen-santulan/deliverables/06-lead-engine.md</a></td><td>asset · deliverables</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/09-market-and-sources.md">_active/jen-santulan/deliverables/09-market-and-sources.md</a></td><td>asset · deliverables</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/02-messaging-voice-spine.md">_active/jen-santulan/deliverables/02-messaging-voice-spine.md</a></td><td>asset · deliverables</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/03-youtube-engine-system.md">_active/jen-santulan/deliverables/03-youtube-engine-system.md</a></td><td>asset · deliverables</td></tr><tr><td>09</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/00-START-HERE.md">_active/jen-santulan/deliverables/00-START-HERE.md</a></td><td>asset · deliverables</td></tr><tr><td>10</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md">_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md</a></td><td>asset · deliverables</td></tr><tr><td>11</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/04-youtube-flagship-script.md">_active/jen-santulan/deliverables/04-youtube-flagship-script.md</a></td><td>asset · deliverables</td></tr><tr><td>12</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/08-edm-appendix.md">_active/jen-santulan/deliverables/08-edm-appendix.md</a></td><td>asset · deliverables</td></tr><tr><td>13</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/05-instagram-batch.md">_active/jen-santulan/production/05-instagram-batch.md</a></td><td>asset · production</td></tr><tr><td>14</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/06-lead-engine.md">_active/jen-santulan/production/06-lead-engine.md</a></td><td>asset · production</td></tr><tr><td>15</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/03-youtube-engine-system.md">_active/jen-santulan/production/03-youtube-engine-system.md</a></td><td>asset · production</td></tr><tr><td>16</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/07-launch-plan-ai-leverage.md">_active/jen-santulan/production/07-launch-plan-ai-leverage.md</a></td><td>asset · production</td></tr><tr><td>17</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/04-youtube-flagship-script.md">_active/jen-santulan/production/04-youtube-flagship-script.md</a></td><td>asset · production</td></tr><tr><td>18</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/08-edm-appendix.md">_active/jen-santulan/production/08-edm-appendix.md</a></td><td>asset · production</td></tr><tr><td>19</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/current-state-audit.md">_active/jen-santulan/recon/current-state-audit.md</a></td><td>asset · recon</td></tr><tr><td>20</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/verified-claims.md">_active/jen-santulan/recon/verified-claims.md</a></td><td>asset · recon</td></tr><tr><td>21</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/market-conditions-2026.md">_active/jen-santulan/recon/market-conditions-2026.md</a></td><td>asset · recon</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;jen-santulan&quot;,
+  &quot;title&quot;: &quot;Jen Santulan&quot;,
+  &quot;compiled&quot;: &quot;2026-08-07 11:19 UTC&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/jen-santulan/jen-santulan-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/jen-santulan/jen-santulan-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/foundation/01-repositioning-brief.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/01-repositioning-brief.md&quot;,
+      &quot;role&quot;: &quot;asset · foundation&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/foundation/02-messaging-voice-spine.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/foundation/02-messaging-voice-spine.md&quot;,
+      &quot;role&quot;: &quot;asset · foundation&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/05-instagram-batch.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/05-instagram-batch.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/01-repositioning-brief.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/01-repositioning-brief.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/06-lead-engine.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/06-lead-engine.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/09-market-and-sources.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/09-market-and-sources.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/02-messaging-voice-spine.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/02-messaging-voice-spine.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/03-youtube-engine-system.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/03-youtube-engine-system.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/00-START-HERE.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/00-START-HERE.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/07-launch-plan-ai-leverage.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/04-youtube-flagship-script.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/04-youtube-flagship-script.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/deliverables/08-edm-appendix.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/deliverables/08-edm-appendix.md&quot;,
+      &quot;role&quot;: &quot;asset · deliverables&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/production/05-instagram-batch.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/05-instagram-batch.md&quot;,
+      &quot;role&quot;: &quot;asset · production&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/production/06-lead-engine.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/06-lead-engine.md&quot;,
+      &quot;role&quot;: &quot;asset · production&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/production/03-youtube-engine-system.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/03-youtube-engine-system.md&quot;,
+      &quot;role&quot;: &quot;asset · production&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/production/07-launch-plan-ai-leverage.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/07-launch-plan-ai-leverage.md&quot;,
+      &quot;role&quot;: &quot;asset · production&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/production/04-youtube-flagship-script.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/04-youtube-flagship-script.md&quot;,
+      &quot;role&quot;: &quot;asset · production&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/production/08-edm-appendix.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/production/08-edm-appendix.md&quot;,
+      &quot;role&quot;: &quot;asset · production&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/recon/current-state-audit.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/current-state-audit.md&quot;,
+      &quot;role&quot;: &quot;asset · recon&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/recon/verified-claims.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/verified-claims.md&quot;,
+      &quot;role&quot;: &quot;asset · recon&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/jen-santulan/recon/market-conditions-2026.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/jen-santulan/recon/market-conditions-2026.md&quot;,
+      &quot;role&quot;: &quot;asset · recon&quot;
+    }
+  ],
+  &quot;urls&quot;: []
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY · FRONT DOOR</span>
+    <span>generated — do not edit</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+})();
+</script>
+</body>
+</html>
