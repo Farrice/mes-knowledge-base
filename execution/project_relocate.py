@@ -32,6 +32,7 @@ Safety contract, same as project_filer:
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from datetime import date, datetime, timezone
@@ -77,10 +78,14 @@ class GrepFailure(RuntimeError):
     referrers" — that silently downgrades a move to one with zero rewrites."""
 
 
+def _is_frozen(line: str) -> bool:
+    return any(str(line).startswith(f) or f in str(line) for f in FROZEN)
+
+
 def _keep(line: str) -> bool:
     if not line.strip():
         return False
-    return not any(line.startswith(f) or f in line for f in FROZEN)
+    return not _is_frozen(line)
 
 
 def find_referrers(needle: str) -> list[Path]:
@@ -132,12 +137,33 @@ def rewrite(path: Path, src_rel: str, dst_rel: str) -> int:
         text = path.read_text(encoding="utf-8")
     except (OSError, UnicodeDecodeError):
         return 0
-    masked = text.replace(dst_rel, SENTINEL)
-    if src_rel not in masked:
-        return 0
-    n = masked.count(src_rel)
-    path.write_text(masked.replace(src_rel, dst_rel).replace(SENTINEL, dst_rel),
-                    encoding="utf-8")
+
+    if src_rel in dst_rel:
+        # Destination CONTAINS the source (deliverables/x.md ->
+        # .../04-deliverables/x.md). Mask first so a second run cannot rewrite
+        # inside an already-correct path. This is the original 2026-07 scar.
+        masked = text.replace(dst_rel, SENTINEL)
+        if src_rel not in masked:
+            return 0
+        n = masked.count(src_rel)
+        out = masked.replace(src_rel, dst_rel).replace(SENTINEL, dst_rel)
+    else:
+        # SCAR 2026-08-07: when the SOURCE contains the destination — any
+        # rename that SHORTENS a path, e.g. `<x>-launch` -> `<x>` — masking
+        # the destination first destroyed the source string, `src_rel not in
+        # masked` was true, and the function returned 0. A 439-file move
+        # reported "total_rewrites: 0" and left 308 referrers pointing at a
+        # path that no longer existed. Caught only because 0 looked wrong.
+        #
+        # Boundary guard instead: never match the source as a prefix of a
+        # longer sibling name. A trailing "." or "/" still matches.
+        pat = re.compile(re.escape(src_rel) + r"(?![\w-])")
+        n = len(pat.findall(text))
+        if not n:
+            return 0
+        out = pat.sub(lambda _m: dst_rel, text)
+
+    path.write_text(out, encoding="utf-8")
     return n
 
 
@@ -248,6 +274,17 @@ def apply(plan: dict, stub: bool) -> dict:
             print(f"  (internal link recompute skipped: {exc})")
     if internal:
         rewrites["<internal links in moved files>"] = internal
+
+    # A plan that found referrers but produced no rewrites is not a clean move,
+    # it is a silent failure — that is exactly how the prefix bug above shipped
+    # a 439-file move with 308 orphaned referrers and printed a tidy receipt.
+    # Say it loudly; the REVERT script is already written at this point.
+    expected = [r for r in plan["referrers"] if not _is_frozen(r)]
+    substantive = sum(v for k, v in rewrites.items() if not k.startswith("<"))
+    if expected and substantive == 0:
+        print(f"!! WARNING: {len(expected)} referrer(s) were found but ZERO were "
+              f"rewritten. Every one of them still points at {src_rel!r}.")
+        print(f"!! This move is NOT complete. Revert with: sh {rev}")
 
     if stub:
         src.mkdir(parents=True, exist_ok=True)
