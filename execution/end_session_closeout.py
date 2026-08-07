@@ -362,14 +362,36 @@ def step_archive_session_state(ctx: Dict[str, Any], degraded: bool, dry_run: boo
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def _lane_helpers():
+    """Import worktree_lane lazily (stdlib-only module, same dir)."""
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "execution"))
+    import worktree_lane as wl
+    return wl
+
+
+def _in_lane() -> bool:
+    try:
+        return _lane_helpers().is_lane(ROOT)
+    except Exception:
+        return False
+
+
 def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
     """Commit gate (Farrice policy 2026-07-13, all-work-on-main): no session ends
     with silent uncommitted changes. Auto-commits the working tree with a session
     label (the post-commit hook then auto-pushes). Decline explicitly with
     END_SESSION_NO_AUTOCOMMIT=1 — the decline is logged, never silent. Born from
-    docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md."""
+    docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md.
+
+    Lane-aware (2026-08-06): in a worktree lane, `add -A` is safe — single
+    writer by construction. In MAIN with a fresh main-tree sibling session,
+    `add -A` would sweep the sibling's in-flight edits into this commit (it
+    happened 2026-08-04) — scope to this session's ledger paths instead, or
+    skip loudly."""
     import os
     try:
+        in_lane = _in_lane()
         r = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
                            capture_output=True, text=True, timeout=15)
         dirty = [l for l in r.stdout.splitlines() if l.strip()]
@@ -377,20 +399,72 @@ def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
             return "SKIP", "working tree clean — nothing to commit"
         if os.environ.get("END_SESSION_NO_AUTOCOMMIT") == "1":
             return "OK", f"DECLINED (env): {len(dirty)} changed files left uncommitted — logged, not silent"
+
+        scope_note = ""
+        add_cmd = ["git", "add", "-A"]
+        label = "session"
+        if in_lane:
+            label = "lane"
+        else:
+            sibling = None
+            try:
+                wl = _lane_helpers()
+                sibling = wl.fresh_main_writer(ROOT)
+            except Exception:
+                sibling = None
+            if sibling:
+                # Never sweep a sibling's tree. Scope to what THIS session produced.
+                produced = _own_session_paths()
+                if not produced:
+                    return "OK", (f"SKIPPED add -A: fresh sibling on main ({sibling}) and no "
+                                  f"session ledger to scope by — {len(dirty)} files left; commit "
+                                  f"manually or re-run when the tree is quiet")
+                add_cmd = ["git", "add", "--"] + produced
+                scope_note = f" (scoped to {len(produced)} own paths; sibling: {sibling})"
+
         if dry_run:
-            return "OK", f"[dry-run] would auto-commit {len(dirty)} changed files"
-        subprocess.run(["git", "add", "-A"], cwd=ROOT, capture_output=True, timeout=30)
-        msg = (f"chore(session): end-session commit gate — {datetime.now().date().isoformat()}\n\n"
+            return "OK", f"[dry-run] would auto-commit {len(dirty)} changed files{scope_note}"
+        subprocess.run(add_cmd, cwd=ROOT, capture_output=True, timeout=30)
+        staged = subprocess.run(["git", "diff", "--cached", "--name-only"], cwd=ROOT,
+                                capture_output=True, text=True, timeout=15)
+        if not staged.stdout.strip():
+            return "OK", f"nothing staged after scoping{scope_note} — no commit"
+        msg = (f"chore({label}): end-session commit gate — {datetime.now().date().isoformat()}\n\n"
                "Auto-committed by the closeout spine so no work is left uncommitted\n"
                "(all-work-on-main policy, 2026-07-13).\n\n"
                "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>")
         c = subprocess.run(["git", "commit", "-m", msg], cwd=ROOT,
                            capture_output=True, text=True, timeout=60)
         if c.returncode == 0:
-            return "OK", f"auto-committed {len(dirty)} changed files (post-commit hook pushes to origin)"
+            return "OK", f"auto-committed{scope_note or f' {len(dirty)} changed files'} (post-commit hook pushes)"
         return "FAIL", f"git commit failed: {(c.stderr or c.stdout)[:120]}"
     except Exception as e:
         return "FAIL", f"{type(e).__name__}: {e}"
+
+
+def _own_session_paths() -> list:
+    """Paths this session produced, from the newest session ledger, plus the
+    handoff store — the safe commit scope when a sibling shares the main tree."""
+    paths = []
+    try:
+        import os as _os
+        sid = _os.environ.get("CLAUDE_SESSION_ID", "")
+        own = (ROOT / ".agent" / "sessions" / f"ledger-{sid}.json") if sid else None
+        if own and own.exists():
+            ledgers = [own]
+        else:
+            ledgers = sorted((ROOT / ".agent" / "sessions").glob("ledger-*.json"),
+                             key=lambda p: p.stat().st_mtime, reverse=True)
+        if ledgers:
+            data = json.loads(ledgers[0].read_text(encoding="utf-8"))
+            for p in data.get("produced_paths", []) or data.get("files", []):
+                if (ROOT / p).exists():
+                    paths.append(p)
+    except Exception:
+        pass
+    if (ROOT / ".agent" / "handoffs").exists():
+        paths.append(".agent/handoffs")
+    return paths
 
 
 def step_friction_nudge(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
@@ -756,6 +830,33 @@ def step_self_heal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_lane_merge(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """LAST step, lane-only (2026-08-06 lanes build): auto-merge-when-clean.
+    worktree_lane.py merge re-seals first, so files written by the intermediate
+    closeout steps are captured; on conflict it PARKS the branch and surfaces
+    one line — never silent loss. Its final act removes this worktree, which is
+    why nothing may run after this step. Decline: END_SESSION_NO_AUTOMERGE=1."""
+    import os, sys as _sys
+    if not _in_lane():
+        return "SKIP", "main tree — no lane to merge"
+    if os.environ.get("END_SESSION_NO_AUTOMERGE") == "1":
+        return "OK", "DECLINED (env): lane left in place — logged, not silent; " \
+                     "merge later: python3 execution/worktree_lane.py merge"
+    if dry_run:
+        return "OK", "[dry-run] would run worktree_lane.py merge (seal -> gate -> merge -> teardown)"
+    try:
+        r = subprocess.run([_sys.executable, str(ROOT / "execution" / "worktree_lane.py"),
+                            "merge"], capture_output=True, text=True, timeout=600,
+                           cwd=str(ROOT))
+        out = (r.stdout or "").strip().splitlines()
+        last = out[-1] if out else "(no output)"
+        if r.returncode == 0:
+            return "OK", last
+        return "FAIL", f"{last} — stderr: {(r.stderr or '')[:120]}"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 # ─────────────────────────────────────────────────────────────
 # spine runner
 # ─────────────────────────────────────────────────────────────
@@ -779,6 +880,9 @@ def run(slug: str, degraded: bool, dry_run: bool) -> int:
         ("friction-nudge", lambda: step_friction_nudge(ctx, degraded, dry_run)),
         ("finalize-debt-nudge", lambda: step_finalize_debt_nudge(ctx, degraded, dry_run)),
         ("solution-cards", lambda: step_solution_cards(ctx, degraded, dry_run)),
+        # LAST by contract: its final act removes the worktree this process
+        # may be running in — nothing can run after it (lanes build 2026-08-06).
+        ("lane-merge", lambda: step_lane_merge(ctx, degraded, dry_run)),
     ]
 
     counts = {"OK": 0, "SKIP": 0, "FAIL": 0}

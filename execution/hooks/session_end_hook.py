@@ -57,6 +57,12 @@ def main() -> None:
         session_id = payload.get("session_id", "unknown")
         reason = payload.get("reason", "")
 
+        # Lanes build 2026-08-06: if this session's tree was a worktree lane
+        # that lane-merge already tore down, there is nothing left to close out
+        # — a degraded run against a vanished tree would only produce noise.
+        if not REPO_ROOT.exists() or not (REPO_ROOT / ".git").exists():
+            sys.exit(0)
+
         ledger_path = _ledger_path(session_id)
         if not ledger_path.exists():
             sys.exit(0)
