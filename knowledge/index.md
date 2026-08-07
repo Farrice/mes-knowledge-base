@@ -875,3 +875,15 @@
 
 ---
 *Auto-maintained by `execution/knowledge_compiler.py`. Updated on every ingest, extraction, and compilation.*
+*748 sources | 2,761,241 words | Updated: 2026-07-31*
+## Content (256 files)
+- [index](index.md) — 5,235 words
+## Copywriting (103 files)
+## General (94 files)
+- [log](log.md) — 16,115 words
+## Strategy (82 files)
+## Screenwriting (53 files)
+## Brand (50 files)
+## Systems (47 files)
+## Seo (27 files)
+## Research (26 files)
