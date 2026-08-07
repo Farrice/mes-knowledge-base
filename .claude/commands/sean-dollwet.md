@@ -9,7 +9,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 
 | Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
 |-------|------------------------|-------------------------|-------------------|
-| sean-dollwet-kdp-publishing | `skills/sean-dollwet-kdp-publishing/SKILL.md` | `skills/sean-dollwet-kdp-publishing/genius.md` | `skills/sean-dollwet-kdp-publishing/workflows/01-hunt-and-validate.md` |
+| sean-dollwet-kdp-publishing | `skills/sean-dollwet-kdp-publishing/SKILL.md` | `skills/sean-dollwet-kdp-publishing/genius.md` | `skills/sean-dollwet-kdp-publishing/workflows/00-book-one-pilot.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
 
