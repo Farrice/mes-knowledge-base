@@ -1,0 +1,78 @@
+{
+ "verify-dialect-injector": {
+  "stems": {},
+  "updated": "2026-07-29T23:58:25.331269",
+  "last_feedback_exchange": 0
+ },
+ "d0499498-4dd7-4ae9-a3af-02809583daab": {
+  "stems": {},
+  "updated": "2026-07-29T15:21:35.049358",
+  "last_feedback_exchange": 10
+ },
+ "f45108f6-954b-456f-bec6-69bd23c426ca": {
+  "stems": {},
+  "updated": "2026-07-29T15:23:42.472767",
+  "last_feedback_exchange": 0
+ },
+ "b5ea07a5-4db6-40fe-9963-eb0d0f7b07a6": {
+  "stems": {
+   "campaign": {
+    "rejections": 1
+   },
+   "claude": {
+    "rejections": 2
+   },
+   "skill_router_hook": {
+    "rejections": 1
+   },
+   "steering-loop": {
+    "rejections": 1
+   },
+   "task-lifecycle-content": {
+    "rejections": 1
+   },
+   "agents": {
+    "rejections": 2
+   },
+   "routing_enforcer": {
+    "rejections": 1
+   }
+  },
+  "updated": "2026-07-30T09:30:12.123233",
+  "last_feedback_exchange": 14
+ },
+ "amnesty-test": {
+  "stems": {},
+  "updated": "2026-07-29T19:15:16.717342",
+  "last_feedback_exchange": 0
+ },
+ "amnesty-receipt": {
+  "stems": {},
+  "updated": "2026-07-29T19:26:37.266973",
+  "last_feedback_exchange": 0
+ },
+ "56734188-bf22-4922-ab54-870e8cbc2db1": {
+  "stems": {},
+  "updated": "2026-07-31T08:16:43.461410",
+  "last_feedback_exchange": 9
+ },
+ "183f09dd-7862-43c3-9629-812b4305f3ff": {
+  "stems": {
+   "campaign": {
+    "rejections": 1
+   }
+  },
+  "updated": "2026-07-31T17:58:36.717201",
+  "last_feedback_exchange": 7
+ },
+ "5a324f30-ab96-4830-94d0-d2fd6e0c2d00": {
+  "stems": {},
+  "updated": "2026-08-01T08:28:28.245849",
+  "last_feedback_exchange": 0
+ },
+ "d1906adf-cbdc-43ae-bfca-b23d0afc56b8": {
+  "stems": {},
+  "updated": "2026-08-01T05:32:29.406959",
+  "last_feedback_exchange": 1
+ }
+}
