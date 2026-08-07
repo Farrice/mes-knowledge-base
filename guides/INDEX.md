@@ -343,6 +343,7 @@
 
 
 ## Pending enrichment
+- [2026-08-07 — Farrice Identity & Voice Stack — Master Context v3.3 + Register Atlas + VOICE-CARD v1.3 (full excavation arc)](2026-08-07-voice-identity-stack.md) — session-brief stub, needs enrichment
 - [2026-08-07 — Thought Bank — Oracle Slip Clv Sparkline](2026-08-07-.md) — operator-guide stub, needs enrichment
 - [2026-08-06 — Sam Vander Wielen Launch OS — Watch + Forge + Skill System (12 workflows)](2026-08-06-parallel-session-lanes.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Benoit Vatere — Blind Pass Sample](2026-08-05-.md) — **spurious empty-slug stub** (spine derived it from `blind-pass-sample.md`, not a session); same-day sessions collide on this `<date>-.md` filename — see Forge Radar note in the Benoit guide

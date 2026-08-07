@@ -1,0 +1,73 @@
+{
+  "slug": "teardown-bpn",
+  "title": "a standard nobody wrote down",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html",
+  "brief_md": "deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.md",
+  "paths": [
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "the pen (v1.3)"
+    },
+    {
+      "path": "_active/linkedin/03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md",
+      "role": "the brand named in the switching review"
+    },
+    {
+      "path": ".agent/missions/teardown-1-fresh-0805/portable.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/missions/teardown-1-fresh-0805/portable.md",
+      "role": "mission packet"
+    },
+    {
+      "path": "_active/linkedin/03-launch/teardowns/assets/bpn-header-1200x627.png",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/bpn-header-1200x627.png",
+      "role": "asset · ARTICLE HEADER"
+    },
+    {
+      "path": "_active/linkedin/03-launch/teardowns/assets/bpn-square-1080x1080.png",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/bpn-square-1080x1080.png",
+      "role": "asset · QUOTE CARD"
+    },
+    {
+      "path": "_active/linkedin/03-launch/teardowns/assets/bpn-portrait-1080x1350.png",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/bpn-portrait-1080x1350.png",
+      "role": "asset · CAROUSEL COVER"
+    },
+    {
+      "path": "_active/linkedin/03-launch/teardowns/2026-08-07-teardown-06-bpn.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/2026-08-07-teardown-06-bpn.md",
+      "role": "related · SOURCE"
+    },
+    {
+      "path": "deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html",
+      "role": "related · BRIEF"
+    },
+    {
+      "path": "deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.html",
+      "role": "related · BRIEF"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.bareperformancenutrition.com/",
+      "label": "BPN homepage"
+    },
+    {
+      "url": "https://www.bareperformancenutrition.com/pages/about",
+      "label": "site probe ×2 · /pages/quality 404"
+    },
+    {
+      "url": "https://www.bareperformancenutrition.com/products/creatine-monohydrate",
+      "label": "whey + creatine PDPs"
+    },
+    {
+      "url": "https://www.bareperformancenutrition.com/products/whey-protein-powder",
+      "label": "review widget, sorted Most Recent"
+    }
+  ]
+}

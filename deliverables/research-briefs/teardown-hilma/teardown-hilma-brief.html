@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the headline is arguing with the footnote, and the footnote is right · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-gap-in-one-line">the gap in one line</a><a href="#by-the-numbers">by the numbers</a><a href="#claim-proof-gap">claim → proof → gap</a><a href="#three-angles-i-d-ship">three angles I&#x27;d ship</a><a href="#deploy-blocks">deploy blocks</a><a href="#platform-ready-assets">platform-ready assets</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#swings-to">swings to</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">TEARDOWN · HILMA</span>
+    <h1 class="display">the headline is arguing with the <em>footnote</em>, and the footnote is right</h1>
+    <p class="dek">Hilma ran a clinical study on a finished product — almost nobody in supplements does — then disclosed its weakest feature honestly in small type and wrote &quot;Clinically Proven&quot; above it. The fix costs nothing and makes the claim more defensible, not less persuasive. Public-surface teardown, every claim sourced.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">public surface, read 2026-08-07</span></div>
+      <div><span class="k">Lens</span><span class="v">claim → proof → gap · claim-safety</span></div>
+      <div><span class="k">Sources</span><span class="v">homepage · 2 PDPs · science page · ratings across 6 products</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 7, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-gap-in-one-line"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the gap in one <em>line</em></h2></div><span class="kicker" style="margin-bottom:8px">THE VERDICT</span><div class="panel"><p>They ran the study nobody else runs, then wrote a headline their own footnote contradicts.</p><p>The category standard is to find research on an ingredient, buy that ingredient, and let the research follow it onto your label. Hilma took a finished product and put it in front of 101 people. Then they printed the part that makes it weaker — &quot;Single arm observational study with 101 completed participants&quot; — in small type, but they printed it. In a category where &quot;clinically studied&quot; usually means somebody read an abstract, that footnote is more honest than the entire shelf around it.</p><p>Directly above it, the heading says &quot;Clinically Proven To Work Quickly.&quot; Single-arm means no control group. Nobody got a placebo, so nothing separates the formula from thirty minutes passing. It is a claim about causation resting on a design that cannot establish it — and their own footnote already says so, three lines lower.</p></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">02</span><h2 class="sec">by the numbers</h2></div><div class="stats"><div class="stat"><div class="num">94%<small> of 101</small></div><span class="lab">HEARTBURN + INDIGESTION</span><div class="note">single-arm, no control group</div></div><div class="stat"><div class="num">79%<small> of 70</small></div><span class="lab">TENSION RELIEF</span><div class="note">same design, same disclosure</div></div><div class="stat"><div class="num">127<small> reviews</small></div><span class="lab">ON THE FLAGSHIP PRODUCT</span><div class="note">vs 4,675 and 9,263 elsewhere in category</div></div><div class="stat"><div class="num">6<small> named MDs</small></div><span class="lab">SCIENTIFIC ADVISORY BOARD</span><div class="note">currently six headshots</div></div></div></section><section class="blk" id="claim-proof-gap"><div class="sechead"><span class="secnum">03</span><h2 class="sec">claim → proof → <em>gap</em></h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Heading &quot;Clinically Proven To Work Quickly&quot; sits directly above &quot;94% of participants saw a decrease in feelings of upset stomach after 30 minutes**&quot; — asterisks resolving to &quot;Single arm observational study with 101 completed participants.&quot;</h3><p>PROVEN — 94 of ~101 people reported feeling better; that happened and they measured it. GAP — single-arm means no control. &quot;Clinically Proven&quot; claims causation from a design that cannot establish it. The honest version is already on the page, in smaller type.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.hilma.co/products/heartburn-indigestion-relief" target="_blank" rel="noopener">heartburn PDP · DOM-extracted ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Badge row: &quot;Herbal antacid · Clinically studied · Drug-free.&quot; Benefits: &quot;RELIEVES HEARTBURN · RELIEVES ACID INDIGESTION.&quot; The panel on the same page is a Supplement Facts panel.</h3><p>GAP — &quot;antacid&quot; names an OTC drug category with its own FDA monograph, and &quot;relieves heartburn&quot; is that category&#x27;s phrasing. Every claim carries an asterisk landing on the DSHEA disclaimer, so the asterisk is doing structural work where a word choice could do it instead. Not a legal opinion — the sentence a regulator&#x27;s eye stops on. &quot;Soothes after a heavy meal&quot; does the same commercial job inside the fence.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.hilma.co/products/heartburn-indigestion-relief" target="_blank" rel="noopener">heartburn PDP ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Homepage hero: &quot;Debloat + Digest.&quot; Sub: &quot;Everything you need to tackle bloat, ease digestion, + get regular—naturally.&quot;</h3><p>GAP — interchangeable with every gut-health brand launched since 2020. Nothing in the hero says the one thing no competitor can say: they tested this product on people and published the number and the study design. The homepage sells the category; the science page holds the moat.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.hilma.co/" target="_blank" rel="noopener">hilma.co homepage ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>&quot;We only use ingredients that have been deeply researched in clinical settings with double blind, placebo controlled studies&quot; — alongside their own single-arm study on the formula.</h3><p>GAP — the strong design belongs to somebody else&#x27;s molecules; the weak design belongs to their formula. The page presents both as one body of evidence. Separating them is more credible, not less.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.hilma.co/pages/our-science" target="_blank" rel="noopener">/pages/our-science ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Clean Label Project™ Certified (named certifier), &quot;Four Rounds Of Testing,&quot; &quot;Third-Party Verified,&quot; advisory board incl. Dr. Georgia Close (gastroenterologist), Dr. Aviva Romm (Yale-trained MD + herbalist), Dr. Paul Grewal (Internal Medicine).</h3><p>PROVEN and genuinely strong. Named certifier beats &quot;third-party tested&quot; every time. This is the material Angle 3 turns into arguments instead of headshots.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.hilma.co/pages/our-science" target="_blank" rel="noopener">PDP + science page ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Ratings across the digestion line: heartburn 4.7 (127) · gas+bloat 4.5 (325) · enzymes 4.5 (77) · constipation 4.2 (100) · fiber powder 4.0 (23) · fiber gummy 4.7 (23).</h3><p>Good scores, thin volume. A brand whose entire argument is evidence has the least evidence of people using it — 101 study participants is now a meaningful fraction of everyone who has said anything about the product in public.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.hilma.co/products/heartburn-indigestion-relief" target="_blank" rel="noopener">PDP comparison module ↗</a></div></div></div></section><section class="decision" id="three-angles-i-d-ship"><span class="kicker">THE OPENING</span><h2>three angles I&#x27;d <em>ship</em></h2><p class="dek">Ranked. Angle 1 replaces a weaker claim with a stronger one for free.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Publish the study design as the pitch.</h3><p>Retire &quot;Clinically Proven.&quot; Run: we tested this product, not an ingredient, on 101 people; 94% felt better in 30 minutes; there was no placebo group, so this is what we measured, not what we proved; here&#x27;s what we&#x27;re running next. Stronger than the claim it replaces, and no competitor copies it because copying means admitting they never tested anything.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Move the moat to the homepage.</h3><p>&quot;Debloat + Digest&quot; is the category&#x27;s sentence. &quot;We test our finished formulas on people and publish what we find, including the parts that make the numbers smaller&quot; is theirs. Hero, PDP, packaging, retail sell sheet.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Turn the advisory board into arguments.</h3><p>Six named doctors are currently six headshots. Dr. Close on why observational studies still matter when the alternative is nothing. Dr. Romm on where herbal evidence is genuinely strong and where it isn&#x27;t. The brand that publishes its own limits owns the trust position nobody else will risk.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">LinkedIn post — ~2,300 chars</span><button class="copybtn" type="button">copy</button></div><pre>There&#x27;s a footnote on Hilma&#x27;s heartburn page that most brands in their category would have quietly deleted.
+
+&quot;Single arm observational study with 101 completed participants.&quot;
+
+For eighteen years my job included being the last person somebody asked before they bought something. You learn fast that &quot;does this work&quot; and &quot;how do you know&quot; are two different questions, and only one of them has a good answer most of the time.
+
+I&#x27;m only reading the public surface here. No access to Hilma&#x27;s internal strategy, and there may be reasons for all of it I can&#x27;t see from out here.
+
+Hilma ran a study on the product they actually sell. That is rare. The normal move in supplements is to find research on an ingredient, buy the ingredient, and let somebody else&#x27;s study ride along on your label. They tested the finished formula, on people, and published the number: 94% reported less upset stomach in 30 minutes.
+
+Then they published the part that makes it weaker. Single arm. No placebo group. Nobody got a sugar pill, so nothing in the study separates the formula from time passing.
+
+They printed that themselves. In small type, but they printed it.
+
+Above it, the heading says &quot;Clinically Proven To Work Quickly.&quot;
+
+So the headline and the footnote are having an argument on the same screen, and the footnote is winning.
+
+The fix costs nothing. &quot;We tested this product on 101 people. 94% felt better in half an hour. There was no placebo group, so this is what we measured, not what we proved. Here&#x27;s the study we&#x27;re running next.&quot;
+
+That paragraph is more convincing than the claim it replaces. It&#x27;s also the one thing nobody in that category can copy, because copying it means admitting they never tested anything.
+
+I see this outside supplements constantly. A team does the expensive, honest work, then describes it in the borrowed language of people who didn&#x27;t. The strong version always sounds smaller than the puffed one. It just happens to survive contact with a skeptic.
+
+The move, if you have real evidence: write the sentence that includes your own limitation. Then read it next to your competitor&#x27;s claim and notice which one you&#x27;d believe.
+
+Somebody at Hilma fought to run that study. The footnote is the proof they won.
+
+If your product actually works and nobody can tell, DM PROOF.</pre></div><div class="deploy"><div class="bar"><span class="k">The DM — send before publishing</span><button class="copybtn" type="button">copy</button></div><pre>Hey [name]. I wrote a breakdown of Hilma&#x27;s public messaging. It goes out next week.
+
+Wanted you to have it first, and to tell me if I&#x27;ve got something wrong.
+
+Short version: running your own study on a finished formula puts you in a tiny minority in this category, and disclosing &quot;single arm observational, 101 completed participants&quot; in the footnote is more honest than almost anything on the shelf. Then the heading above it says &quot;Clinically Proven To Work Quickly,&quot; which is the one claim a single-arm design can&#x27;t carry. Your footnote is stronger copy than your headline and it&#x27;s currently in smaller type.
+
+One other thing I&#x27;d look at before somebody else does: &quot;herbal antacid&quot; and &quot;relieves heartburn&quot; sitting above a Supplement Facts panel. Antacid is a drug-category word. Not a legal opinion, just the sentence an eye stops on.
+
+Not a dunk. I spent eighteen years as the last person people asked before they bought something, and your evidence page is one of the few I&#x27;ve read that didn&#x27;t make me wince.
+
+Full thing attached. If anything&#x27;s wrong or unfair, tell me and I&#x27;ll fix it before it goes up.
+
+Farrice</pre></div></section><section class="blk" id="platform-ready-assets"><div class="sechead"><span class="secnum">06</span><h2 class="sec">platform-ready <em>assets</em></h2><span class="sectag">THE RAIL</span></div><div class="assetgrid"><div class="asset"><span class="role">ARTICLE HEADER</span><h3>HILMA · Article Header</h3><img src="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png" alt="HILMA · Article Header" loading="lazy"><p>LinkedIn article header · link preview · blog hero</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png">_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png">copy path</button></div></div><div class="asset"><span class="role">QUOTE CARD</span><h3>HILMA · Quote Card</h3><img src="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png" alt="HILMA · Quote Card" loading="lazy"><p>LinkedIn + Instagram + X square</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png">_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png">copy path</button></div></div><div class="asset"><span class="role">CAROUSEL COVER</span><h3>HILMA · Carousel Cover</h3><img src="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png" alt="HILMA · Carousel Cover" loading="lazy"><p>LinkedIn / Instagram carousel cover</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png">_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png">copy path</button></div></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Public surface only. Individual customer review text sits in a third-party widget that did not render — ratings and counts are reported, customer sentences are not, and none were invented to fill the gap.</p><p>The regulatory read on &quot;antacid&quot; is hedged twice in the piece and flagged as not a legal opinion. The FDA OTC antacid monograph is a real category; no enforcement action against Hilma was found or claimed.</p><p>Not claimed anywhere: that Hilma has received any regulatory action, that the study was improperly conducted, or anything about internal strategy.</p><p>The founder&#x27;s best rebuttal, conceded in the piece: &quot;A placebo-controlled trial on a $20 supplement costs more than the line earns.&quot; Correct — and the critique isn&#x27;t that the study is weak, it&#x27;s that the headline oversells a study they were honest about. That gap is free to close.</p><a class="cta" href="#deploy-blocks">OKAY, GIVE ME THE POST</a></section><section class="blk" id="swings-to"><div class="sechead"><span class="secnum">08</span><h2 class="sec">swings to</h2><span class="sectag">CONNECTED</span></div><div class="swing"><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md"><span class="k">SOURCE</span><span class="t">Full teardown — analysis, DM, verification ledger, adversarial pass</span></a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html"><span class="k">BRIEF</span><span class="t">Teardown · Create Wellness — the world&#x27;s only NSF creatine gummy, in an accordion</span></a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html"><span class="k">BRIEF</span><span class="t">Teardown · BPN — a standard nobody wrote down</span></a></div></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">09</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.00 — stack: playwright · webfetch</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Hilma homepage</td><td><a href="https://www.hilma.co/" target="_blank" rel="noopener">https://www.hilma.co/</a></td><td>2026-08-07</td><td>hero copy, doctor-formulation claims</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Occasional Heartburn + Indigestion Relief PDP</td><td><a href="https://www.hilma.co/products/heartburn-indigestion-relief" target="_blank" rel="noopener">https://www.hilma.co/products/heartburn-indigestion-relief</a></td><td>2026-08-07</td><td>94%/101 study, footnote, antacid badge, Supplement Facts, ratings</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Tension Relief PDP</td><td><a href="https://www.hilma.co/products/tension-relief" target="_blank" rel="noopener">https://www.hilma.co/products/tension-relief</a></td><td>2026-08-07</td><td>79%/70 study, same design</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>Our Science</td><td><a href="https://www.hilma.co/pages/our-science" target="_blank" rel="noopener">https://www.hilma.co/pages/our-science</a></td><td>2026-08-07</td><td>single-arm disclosure, advisory board, ingredient-research claim</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">10</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/farrice-brand/voice/VOICE-CARD.md">_active/farrice-brand/voice/VOICE-CARD.md</a></td><td>the pen (v1.3)</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/01-research/ICP-BATTLE-CARD.md">_active/linkedin/01-research/ICP-BATTLE-CARD.md</a></td><td>buyer language</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.agent/missions/teardown-1-fresh-0805/portable.md">.agent/missions/teardown-1-fresh-0805/portable.md</a></td><td>mission packet</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png">_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png</a></td><td>asset · ARTICLE HEADER</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png">_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png</a></td><td>asset · QUOTE CARD</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png">_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png</a></td><td>asset · CAROUSEL COVER</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/_active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md">_active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md</a></td><td>related · SOURCE</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html">deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html</a></td><td>related · BRIEF</td></tr><tr><td>09</td><td><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html">deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html</a></td><td>related · BRIEF</td></tr><tr><td>10</td><td><a href="https://www.hilma.co/products/heartburn-indigestion-relief" target="_blank" rel="noopener">https://www.hilma.co/products/heartburn-indigestion-relief</a></td><td>heartburn PDP · DOM-extracted</td></tr><tr><td>11</td><td><a href="https://www.hilma.co/" target="_blank" rel="noopener">https://www.hilma.co/</a></td><td>hilma.co homepage</td></tr><tr><td>12</td><td><a href="https://www.hilma.co/pages/our-science" target="_blank" rel="noopener">https://www.hilma.co/pages/our-science</a></td><td>/pages/our-science</td></tr><tr><td>13</td><td><a href="https://www.hilma.co/products/tension-relief" target="_blank" rel="noopener">https://www.hilma.co/products/tension-relief</a></td><td>Tension Relief PDP</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;teardown-hilma&quot;,
+  &quot;title&quot;: &quot;the headline is arguing with the footnote, and the footnote is right&quot;,
+  &quot;compiled&quot;: &quot;aug 7, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/farrice-brand/voice/VOICE-CARD.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md&quot;,
+      &quot;role&quot;: &quot;the pen (v1.3)&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/01-research/ICP-BATTLE-CARD.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/01-research/ICP-BATTLE-CARD.md&quot;,
+      &quot;role&quot;: &quot;buyer language&quot;
+    },
+    {
+      &quot;path&quot;: &quot;.agent/missions/teardown-1-fresh-0805/portable.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.agent/missions/teardown-1-fresh-0805/portable.md&quot;,
+      &quot;role&quot;: &quot;mission packet&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png&quot;,
+      &quot;role&quot;: &quot;asset · ARTICLE HEADER&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png&quot;,
+      &quot;role&quot;: &quot;asset · QUOTE CARD&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png&quot;,
+      &quot;role&quot;: &quot;asset · CAROUSEL COVER&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md&quot;,
+      &quot;role&quot;: &quot;related · SOURCE&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html&quot;,
+      &quot;role&quot;: &quot;related · BRIEF&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html&quot;,
+      &quot;role&quot;: &quot;related · BRIEF&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.hilma.co/products/heartburn-indigestion-relief&quot;,
+      &quot;label&quot;: &quot;heartburn PDP · DOM-extracted&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.hilma.co/&quot;,
+      &quot;label&quot;: &quot;hilma.co homepage&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.hilma.co/pages/our-science&quot;,
+      &quot;label&quot;: &quot;/pages/our-science&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.hilma.co/products/tension-relief&quot;,
+      &quot;label&quot;: &quot;Tension Relief PDP&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>TEARDOWN No. 5</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/teardown-hilma/teardown-hilma-context.json\nCOMPILED: aug 7, 2026\n\n# the headline is arguing with the footnote, and the footnote is right\n\n> TEARDOWN · HILMA · window: public surface, read 2026-08-07 · lens: claim → proof → gap · claim-safety · sources: homepage · 2 PDPs · science page · ratings across 6 products · compiled: aug 7, 2026\n\nHilma ran a clinical study on a finished product — almost nobody in supplements does — then disclosed its weakest feature honestly in small type and wrote \"Clinically Proven\" above it. The fix costs nothing and makes the claim more defensible, not less persuasive. Public-surface teardown, every claim sourced.\n\n## the gap in one line\n_THE VERDICT_\nThey ran the study nobody else runs, then wrote a headline their own footnote contradicts.\n\nThe category standard is to find research on an ingredient, buy that ingredient, and let the research follow it onto your label. Hilma took a finished product and put it in front of 101 people. Then they printed the part that makes it weaker — \"Single arm observational study with 101 completed participants\" — in small type, but they printed it. In a category where \"clinically studied\" usually means somebody read an abstract, that footnote is more honest than the entire shelf around it.\n\nDirectly above it, the heading says \"Clinically Proven To Work Quickly.\" Single-arm means no control group. Nobody got a placebo, so nothing separates the formula from thirty minutes passing. It is a claim about causation resting on a design that cannot establish it — and their own footnote already says so, three lines lower.\n\n## by the numbers\n- HEARTBURN + INDIGESTION: **94% of 101** (single-arm, no control group)\n- TENSION RELIEF: **79% of 70** (same design, same disclosure)\n- ON THE FLAGSHIP PRODUCT: **127 reviews** (vs 4,675 and 9,263 elsewhere in category)\n- SCIENTIFIC ADVISORY BOARD: **6 named MDs** (currently six headshots)\n\n## claim → proof → gap\n- **Heading \"Clinically Proven To Work Quickly\" sits directly above \"94% of participants saw a decrease in feelings of upset stomach after 30 minutes**\" — asterisks resolving to \"Single arm observational study with 101 completed participants.\"** [VERIFIED] — PROVEN — 94 of ~101 people reported feeling better; that happened and they measured it. GAP — single-arm means no control. \"Clinically Proven\" claims causation from a design that cannot establish it. The honest version is already on the page, in smaller type. (https://www.hilma.co/products/heartburn-indigestion-relief)\n- **Badge row: \"Herbal antacid · Clinically studied · Drug-free.\" Benefits: \"RELIEVES HEARTBURN · RELIEVES ACID INDIGESTION.\" The panel on the same page is a Supplement Facts panel.** [LIKELY] — GAP — \"antacid\" names an OTC drug category with its own FDA monograph, and \"relieves heartburn\" is that category's phrasing. Every claim carries an asterisk landing on the DSHEA disclaimer, so the asterisk is doing structural work where a word choice could do it instead. Not a legal opinion — the sentence a regulator's eye stops on. \"Soothes after a heavy meal\" does the same commercial job inside the fence. (https://www.hilma.co/products/heartburn-indigestion-relief)\n- **Homepage hero: \"Debloat + Digest.\" Sub: \"Everything you need to tackle bloat, ease digestion, + get regular—naturally.\"** [VERIFIED] — GAP — interchangeable with every gut-health brand launched since 2020. Nothing in the hero says the one thing no competitor can say: they tested this product on people and published the number and the study design. The homepage sells the category; the science page holds the moat. (https://www.hilma.co/)\n- **\"We only use ingredients that have been deeply researched in clinical settings with double blind, placebo controlled studies\" — alongside their own single-arm study on the formula.** [VERIFIED] — GAP — the strong design belongs to somebody else's molecules; the weak design belongs to their formula. The page presents both as one body of evidence. Separating them is more credible, not less. (https://www.hilma.co/pages/our-science)\n- **Clean Label Project™ Certified (named certifier), \"Four Rounds Of Testing,\" \"Third-Party Verified,\" advisory board incl. Dr. Georgia Close (gastroenterologist), Dr. Aviva Romm (Yale-trained MD + herbalist), Dr. Paul Grewal (Internal Medicine).** [VERIFIED] — PROVEN and genuinely strong. Named certifier beats \"third-party tested\" every time. This is the material Angle 3 turns into arguments instead of headshots. (https://www.hilma.co/pages/our-science)\n- **Ratings across the digestion line: heartburn 4.7 (127) · gas+bloat 4.5 (325) · enzymes 4.5 (77) · constipation 4.2 (100) · fiber powder 4.0 (23) · fiber gummy 4.7 (23).** [VERIFIED] — Good scores, thin volume. A brand whose entire argument is evidence has the least evidence of people using it — 101 study participants is now a meaningful fraction of everyone who has said anything about the product in public. (https://www.hilma.co/products/heartburn-indigestion-relief)\n\n## three angles I'd ship\nRanked. Angle 1 replaces a weaker claim with a stronger one for free.\n1. **Publish the study design as the pitch.** — Retire \"Clinically Proven.\" Run: we tested this product, not an ingredient, on 101 people; 94% felt better in 30 minutes; there was no placebo group, so this is what we measured, not what we proved; here's what we're running next. Stronger than the claim it replaces, and no competitor copies it because copying means admitting they never tested anything.\n2. **Move the moat to the homepage.** — \"Debloat + Digest\" is the category's sentence. \"We test our finished formulas on people and publish what we find, including the parts that make the numbers smaller\" is theirs. Hero, PDP, packaging, retail sell sheet.\n3. **Turn the advisory board into arguments.** — Six named doctors are currently six headshots. Dr. Close on why observational studies still matter when the alternative is nothing. Dr. Romm on where herbal evidence is genuinely strong and where it isn't. The brand that publishes its own limits owns the trust position nobody else will risk.\n\n## deploy blocks\n**LinkedIn post — ~2,300 chars**\n```\nThere's a footnote on Hilma's heartburn page that most brands in their category would have quietly deleted.\n\n\"Single arm observational study with 101 completed participants.\"\n\nFor eighteen years my job included being the last person somebody asked before they bought something. You learn fast that \"does this work\" and \"how do you know\" are two different questions, and only one of them has a good answer most of the time.\n\nI'm only reading the public surface here. No access to Hilma's internal strategy, and there may be reasons for all of it I can't see from out here.\n\nHilma ran a study on the product they actually sell. That is rare. The normal move in supplements is to find research on an ingredient, buy the ingredient, and let somebody else's study ride along on your label. They tested the finished formula, on people, and published the number: 94% reported less upset stomach in 30 minutes.\n\nThen they published the part that makes it weaker. Single arm. No placebo group. Nobody got a sugar pill, so nothing in the study separates the formula from time passing.\n\nThey printed that themselves. In small type, but they printed it.\n\nAbove it, the heading says \"Clinically Proven To Work Quickly.\"\n\nSo the headline and the footnote are having an argument on the same screen, and the footnote is winning.\n\nThe fix costs nothing. \"We tested this product on 101 people. 94% felt better in half an hour. There was no placebo group, so this is what we measured, not what we proved. Here's the study we're running next.\"\n\nThat paragraph is more convincing than the claim it replaces. It's also the one thing nobody in that category can copy, because copying it means admitting they never tested anything.\n\nI see this outside supplements constantly. A team does the expensive, honest work, then describes it in the borrowed language of people who didn't. The strong version always sounds smaller than the puffed one. It just happens to survive contact with a skeptic.\n\nThe move, if you have real evidence: write the sentence that includes your own limitation. Then read it next to your competitor's claim and notice which one you'd believe.\n\nSomebody at Hilma fought to run that study. The footnote is the proof they won.\n\nIf your product actually works and nobody can tell, DM PROOF.\n```\n**The DM — send before publishing**\n```\nHey [name]. I wrote a breakdown of Hilma's public messaging. It goes out next week.\n\nWanted you to have it first, and to tell me if I've got something wrong.\n\nShort version: running your own study on a finished formula puts you in a tiny minority in this category, and disclosing \"single arm observational, 101 completed participants\" in the footnote is more honest than almost anything on the shelf. Then the heading above it says \"Clinically Proven To Work Quickly,\" which is the one claim a single-arm design can't carry. Your footnote is stronger copy than your headline and it's currently in smaller type.\n\nOne other thing I'd look at before somebody else does: \"herbal antacid\" and \"relieves heartburn\" sitting above a Supplement Facts panel. Antacid is a drug-category word. Not a legal opinion, just the sentence an eye stops on.\n\nNot a dunk. I spent eighteen years as the last person people asked before they bought something, and your evidence page is one of the few I've read that didn't make me wince.\n\nFull thing attached. If anything's wrong or unfair, tell me and I'll fix it before it goes up.\n\nFarrice\n```\n\n## platform-ready assets\n- **HILMA · Article Header** [ARTICLE HEADER] `_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png` — LinkedIn article header · link preview · blog hero\n- **HILMA · Quote Card** [QUOTE CARD] `_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png` — LinkedIn + Instagram + X square\n- **HILMA · Carousel Cover** [CAROUSEL COVER] `_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png` — LinkedIn / Instagram carousel cover\n\n## what this isn't\n_CAVEATS WORTH KEEPING_\nPublic surface only. Individual customer review text sits in a third-party widget that did not render — ratings and counts are reported, customer sentences are not, and none were invented to fill the gap.\n\nThe regulatory read on \"antacid\" is hedged twice in the piece and flagged as not a legal opinion. The FDA OTC antacid monograph is a real category; no enforcement action against Hilma was found or claimed.\n\nNot claimed anywhere: that Hilma has received any regulatory action, that the study was improperly conducted, or anything about internal strategy.\n\nThe founder's best rebuttal, conceded in the piece: \"A placebo-controlled trial on a $20 supplement costs more than the line earns.\" Correct — and the critique isn't that the study is weak, it's that the headline oversells a study they were honest about. That gap is free to close.\n\n## swings to\n- [SOURCE] Full teardown — analysis, DM, verification ledger, adversarial pass — _active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md\n- [BRIEF] Teardown · Create Wellness — the world's only NSF creatine gummy, in an accordion — deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html\n- [BRIEF] Teardown · BPN — a standard nobody wrote down — deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html\n\n## Source ledger\n1. Hilma homepage — https://www.hilma.co/ (retrieved 2026-08-07, VERIFIED; used for: hero copy, doctor-formulation claims)\n2. Occasional Heartburn + Indigestion Relief PDP — https://www.hilma.co/products/heartburn-indigestion-relief (retrieved 2026-08-07, VERIFIED; used for: 94%/101 study, footnote, antacid badge, Supplement Facts, ratings)\n3. Tension Relief PDP — https://www.hilma.co/products/tension-relief (retrieved 2026-08-07, VERIFIED; used for: 79%/70 study, same design)\n4. Our Science — https://www.hilma.co/pages/our-science (retrieved 2026-08-07, VERIFIED; used for: single-arm disclosure, advisory board, ingredient-research claim)\n\n## Context pack (agent feed)\n- `_active/farrice-brand/voice/VOICE-CARD.md` — the pen (v1.3)\n- `_active/linkedin/01-research/ICP-BATTLE-CARD.md` — buyer language\n- `.agent/missions/teardown-1-fresh-0805/portable.md` — mission packet\n- `_active/linkedin/03-launch/teardowns/assets/hilma-header-1200x627.png` — asset · ARTICLE HEADER\n- `_active/linkedin/03-launch/teardowns/assets/hilma-square-1080x1080.png` — asset · QUOTE CARD\n- `_active/linkedin/03-launch/teardowns/assets/hilma-portrait-1080x1350.png` — asset · CAROUSEL COVER\n- `_active/linkedin/03-launch/teardowns/2026-08-07-teardown-05-hilma.md` — related · SOURCE\n- `deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html` — related · BRIEF\n- `deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html` — related · BRIEF\n- https://www.hilma.co/products/heartburn-indigestion-relief — heartburn PDP · DOM-extracted\n- https://www.hilma.co/ — hilma.co homepage\n- https://www.hilma.co/pages/our-science — /pages/our-science\n- https://www.hilma.co/products/tension-relief — Tension Relief PDP\n\n_run cost $0.00 — stack: playwright · webfetch_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+})();
+</script>
+</body>
+</html>

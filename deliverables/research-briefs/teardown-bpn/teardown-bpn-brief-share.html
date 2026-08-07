@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>a standard nobody wrote down · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-gap-in-one-line">the gap in one line</a><a href="#by-the-numbers">by the numbers</a><a href="#claim-proof-gap">claim → proof → gap</a><a href="#three-angles-i-d-ship">three angles I&#x27;d ship</a><a href="#deploy-blocks">deploy blocks</a><a href="#platform-ready-assets">platform-ready assets</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><span class="navtools"></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">TEARDOWN · BARE PERFORMANCE NUTRITION</span>
+    <h1 class="display">a standard nobody <em>wrote down</em></h1>
+    <p class="dek">BPN holds NSF Certified for Sport on the whey and NSF plus Creapure on the creatine — the strongest quality position in their competitive set. There is no quality page, no science page, no testing page anywhere on the site. &quot;The Bare Standard&quot; is a slogan with no document behind it. Public-surface teardown, every claim sourced.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">public surface, read 2026-08-07</span></div>
+      <div><span class="k">Lens</span><span class="v">claim → proof → gap · rentable vs unrentable assets</span></div>
+      <div><span class="k">Sources</span><span class="v">homepage · 2 PDPs · about page · 5 latest reviews · 2 site probes</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 7, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-gap-in-one-line"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the gap in one <em>line</em></h2></div><span class="kicker" style="margin-bottom:8px">THE VERDICT</span><div class="panel"><p>The product is built for people who get drug-tested and the marketing is built for people who get inspired, and only one of those two things can&#x27;t be copied.</p><p>NSF Certified for Sport is what a drug-tested athlete&#x27;s compliance officer looks for. It is expensive, it is per-batch, and it is the reason a college strength coach can hand somebody a tub without taking on liability. BPN has it on the whey, and on the creatine alongside Creapure from a named plant in Trostberg, Germany.</p><p>Then there is no page about it. /pages/quality returns a 404. No science, testing, ingredient-sourcing, or quality page appears in the navigation or the footer. The claims exist as badge text and a slogan — &quot;THE BARE STANDARD: Built on quality and proven by results, without compromise.&quot; A standard nobody wrote down is a slogan.</p></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">02</span><h2 class="sec">by the numbers</h2></div><div class="stats"><div class="stat"><div class="num">0<small> pages</small></div><span class="lab">ON QUALITY OR TESTING</span><div class="note">/pages/quality returns 404</div></div><div class="stat"><div class="num">920K+<small> customers</small></div><span class="lab">SINCE 2012</span><div class="note">the rentable asset</div></div><div class="stat"><div class="num">9,263<small> reviews</small></div><span class="lab">WHEY PROTEIN, 4.9 STARS</span><div class="note">creatine: 3,304 at 4.9</div></div><div class="stat"><div class="num">0 of 5<small> mention</small></div><span class="lab">NSF, CREAPURE OR A LAB</span><div class="note">five most recent reviews</div></div></div></section><section class="blk" id="claim-proof-gap"><div class="sechead"><span class="secnum">03</span><h2 class="sec">claim → proof → <em>gap</em></h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Hero: &quot;GO ONE MORE&quot; / &quot;JOIN THE 920,000+ CUSTOMERS Since 2012, BPN has been on a mission to equip people with the supplements, resources, and community to Go One More every day.&quot;</h3><p>PROVEN — the community is real and the number is theirs to claim. GAP — the hero sells belonging, and belonging is rentable. Any founder with a camera and a decade of consistency can build it; several are building it now; the day the founder posts less, the moat drains. The unrentable asset is the certification, and it is not above the fold.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.bareperformancenutrition.com/" target="_blank" rel="noopener">BPN homepage ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>No quality, science, testing, or ingredient-sourcing page exists. /pages/quality returns HTTP 404; two independent link extractions found none in nav or footer.</h3><p>GAP — the strongest claims exist only as badge text: &quot;THIRD-PARTY CERTIFIED,&quot; &quot;All BPN supplements are third party tested for banned substances, quality standards and label accuracy,&quot; and the slogan &quot;THE BARE STANDARD.&quot; Competitors publish COAs and name their labs; BPN holds a better certification than most of them and has nowhere to send anyone who wants to check.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.bareperformancenutrition.com/pages/about" target="_blank" rel="noopener">site probe ×2 · /pages/quality 404 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Whey PDP: &quot;NSF Certified for Sport® to verify it does not contain unsafe levels of contaminants or prohibited substances.&quot; Creatine PDP: NSF Certified for Sport plus Creapure®, produced in Trostberg, Germany, 5g per serving.</h3><p>PROVEN, and it is the asset. NSF for Sport is the certification that matters when a failed test ends a career. On the page it sits as a spec bullet next to &quot;GLUTEN FREE.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.bareperformancenutrition.com/products/creatine-monohydrate" target="_blank" rel="noopener">whey + creatine PDPs ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Five most-recent verified-buyer whey reviews: flavor in four of five. &quot;Chocolate fudge is hands down the best tasting protein i&#x27;ve ever had… I&#x27;ve been using transparent labs whey protein isolate for the last year… Glad i made the switch to BPN.&quot;</h3><p>The fourth review is the whole teardown in a customer&#x27;s handwriting. A buyer left Transparent Labs — the brand whose entire position is label honesty — and switched over chocolate, then wrote a review about chocolate. Neither brand&#x27;s proof had anything to do with it. Not one of the five mentions NSF, Creapure, banned-substance testing, or a lab.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.bareperformancenutrition.com/products/whey-protein-powder" target="_blank" rel="noopener">review widget, sorted Most Recent ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>About page: &quot;Since 2012, BPN has been on a mission to equip people with the tools, resources, and community to Go One More everyday.&quot; Testing and certification appear only in separate badge sections.</h3><p>GAP — the origin story is the product story. Nothing in it explains why the label is trustworthy, which is the question a first-time buyer who isn&#x27;t already in the community is actually asking.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.bareperformancenutrition.com/pages/about" target="_blank" rel="noopener">/pages/about ↗</a></div></div></div></section><section class="decision" id="three-angles-i-d-ship"><span class="kicker">THE OPENING</span><h2>three angles I&#x27;d <em>ship</em></h2><p class="dek">Ranked. Everything below Angle 1 depends on Angle 1 existing.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Build the page that doesn&#x27;t exist.</h3><p>One URL: the labs, certificate numbers, what NSF Certified for Sport actually screens for, what Creapure is and why the Trostberg plant matters, what gets rejected and how often. &quot;The Bare Standard&quot; becomes a document instead of a slogan.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Sell to the person who can&#x27;t afford to be wrong.</h3><p>Drug-tested athletes, military, first responders, anyone whose job does urinalysis. The existing base already skews this way and the certification was bought for exactly them. Competitors can&#x27;t chase this segment without paying for the same cert, and the copy writes itself from the certificate.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Put the cert in the founder&#x27;s mouth.</h3><p>The community is the distribution and the founder is the channel. The missing content is the one nobody in the category makes: what per-batch testing costs, what it caught, why the company keeps paying when 920,000 people would buy on flavor anyway. That converts belonging into a reason.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">LinkedIn post — ~2,400 chars</span><button class="copybtn" type="button">copy</button></div><pre>A guy left Transparent Labs for BPN and wrote a review about chocolate.
+
+That&#x27;s it. That&#x27;s the whole review. Best tasting protein he&#x27;s ever had, blends well, no aftertaste, glad he switched. Transparent Labs has one of the most honest labels in the supplement business. It lost that customer on flavor and the customer never mentioned a label at all.
+
+I was that buyer once. Bodybuilding magazines, back when the ad and the article were the same thing. I bought the physique, the look, the feeling of having it handled. Mostly the confidence.
+
+Reading only the public surface here, no access to anyone&#x27;s internal strategy.
+
+BPN&#x27;s whey is NSF Certified for Sport. Their creatine is NSF Certified for Sport and made from Creapure, out of a named plant in Trostberg, Germany. NSF for Sport is the certification that matters when a failed test ends a career. It&#x27;s per batch. It&#x27;s expensive. It&#x27;s the reason a strength coach can hand somebody a tub and not take on liability.
+
+Now try to find the page about it.
+
+There isn&#x27;t one. No quality page, no testing page, no science page, nothing in the nav or the footer. I checked. The claims live as badge text and a slogan: &quot;The Bare Standard. Built on quality and proven by results, without compromise.&quot;
+
+A standard nobody wrote down is a slogan.
+
+The homepage sells the other thing: GO ONE MORE, 920,000 customers, since 2012. And it works, genuinely. But belonging is rentable. Any founder with a camera and ten consistent years can build it, several are building it right now, and it thins out the month the founder posts less.
+
+The certification is the part nobody can rent. It&#x27;s sitting in a bullet next to GLUTEN FREE.
+
+This shows up everywhere, not just here. A company builds one asset that&#x27;s expensive and one that&#x27;s charming, then markets the charming one because it performs faster. It does perform faster. It also walks out the door with whoever was carrying it.
+
+The move I&#x27;d make this week: write down the standard you say you hold. Not the slogan, the document. Which lab, which batch, what gets rejected, how often. If a buyer can&#x27;t verify your best claim without emailing you, it isn&#x27;t working for you yet.
+
+Somebody at that company signed off on paying for per-batch certification when flavor was already closing the sale. That decision deserves a page.
+
+If your product actually works and nobody can tell, DM PROOF.</pre></div><div class="deploy"><div class="bar"><span class="k">The DM — send before publishing</span><button class="copybtn" type="button">copy</button></div><pre>Hey [name]. I wrote a breakdown of BPN&#x27;s public messaging. It goes out next week.
+
+Wanted you to have it first, and to tell me if I&#x27;ve got something wrong.
+
+Short version: NSF Certified for Sport on the whey, NSF plus Creapure from a named plant on the creatine. That&#x27;s the strongest quality position in your competitive set and there is no page on the site about it. /pages/quality 404s, and there&#x27;s no science or testing page in the nav or footer. &quot;The Bare Standard&quot; is a slogan with no document behind it.
+
+Meanwhile the five most recent whey reviews are all flavor. One of them is a guy who left Transparent Labs for you over chocolate fudge — which is a great problem and also a fragile one, because taste is the easiest thing in this category to copy and a certification isn&#x27;t.
+
+Not a dunk. I was the kid buying supplements out of bodybuilding magazines and then spent eighteen years on the other side of that conversation, and the cert you&#x27;re paying for is the thing I&#x27;d want a client to know about first.
+
+Full thing attached. If anything&#x27;s wrong or unfair, tell me and I&#x27;ll fix it before it goes up.
+
+Farrice</pre></div></section><section class="blk" id="platform-ready-assets"><div class="sechead"><span class="secnum">06</span><h2 class="sec">platform-ready <em>assets</em></h2><span class="sectag">THE RAIL</span></div><div class="assetgrid"><div class="asset"><span class="role">ARTICLE HEADER</span><h3>BARE PERFORMANCE NUTRITION · Article Header</h3><p>LinkedIn article header · link preview · blog hero</p></div><div class="asset"><span class="role">QUOTE CARD</span><h3>BARE PERFORMANCE NUTRITION · Quote Card</h3><p>LinkedIn + Instagram + X square</p></div><div class="asset"><span class="role">CAROUSEL COVER</span><h3>BARE PERFORMANCE NUTRITION · Carousel Cover</h3><p>LinkedIn / Instagram carousel cover</p></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Public surface only. A quality page could exist behind a login or inside their app — the public site was checked twice and is what&#x27;s reported.</p><p>Calling belonging &quot;rentable&quot; is a judgment, phrased as mine, not a fact. Whether NSF Certified for Sport covers the entire catalog is UNCONFIRMED and raised as a question rather than an accusation: the blanket sentence &quot;all BPN supplements are third party tested&quot; runs wider than the per-product NSF badges, and naming which products carry which certification costs nothing.</p><p>Not claimed anywhere: that any BPN product failed a test, anything about internal strategy, or that the founder&#x27;s involvement is declining.</p><p>The founder&#x27;s best rebuttal, conceded in the piece: &quot;Community IS the moat — no certification page would have added one of those 920,000 customers.&quot; True historically. The argument isn&#x27;t that community failed; it&#x27;s that community is the asset that can be competed away and the cert is the one that can&#x27;t. Both can run.</p><a class="cta" href="#deploy-blocks">OKAY, GIVE ME THE POST</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">08</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>BPN homepage</td><td><a href="https://www.bareperformancenutrition.com/" target="_blank" rel="noopener">https://www.bareperformancenutrition.com/</a></td><td>2026-08-07</td><td>hero, 920K customers, Bare Standard slogan, badge text</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Whey Protein PDP</td><td><a href="https://www.bareperformancenutrition.com/products/whey-protein-powder" target="_blank" rel="noopener">https://www.bareperformancenutrition.com/products/whey-protein-powder</a></td><td>2026-08-07</td><td>NSF for Sport language, 4.9/9,263, five latest reviews</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Creatine Monohydrate PDP</td><td><a href="https://www.bareperformancenutrition.com/products/creatine-monohydrate" target="_blank" rel="noopener">https://www.bareperformancenutrition.com/products/creatine-monohydrate</a></td><td>2026-08-07</td><td>Creapure/Trostberg, NSF, 5g, 4.9/3,304</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>About page</td><td><a href="https://www.bareperformancenutrition.com/pages/about" target="_blank" rel="noopener">https://www.bareperformancenutrition.com/pages/about</a></td><td>2026-08-07</td><td>mission text, absence of testing narrative</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+
+  <footer class="brief">
+    <span>TEARDOWN No. 6</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+})();
+</script>
+</body>
+</html>

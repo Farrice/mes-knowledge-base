@@ -14,6 +14,7 @@
 | 3 | One-gap DM system + 5 evidence-grounded examples + first-wave candidate research | ✅ DONE 07-29 | `05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` · `05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md` |
 | 4 | Teardown #1 → 10-slide PDF carousel (publishes Fri 07-31) | ✅ DONE 07-29 | `03-launch/carousels/2026-07-29-carousel-01-transparent-labs-10-slide.md` · source: teardown-01 |
 | 5 | Teardowns #2/#3 → carousels (publish 08-04, 08-06) | ✅ DONE 08-04 | `03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md` · `03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md` |
+| 5b | Teardowns #4/#5/#6 (Create Wellness, Hilma, BPN) — first run of the v1.3 pen; briefs + platform assets | 🟡 AWAITING VERDICT 08-07 | `03-launch/teardowns/2026-08-07-teardown-0{4,5,6}-*.md` · `deliverables/research-briefs/teardown-{create-wellness,hilma,bpn}/` · `03-launch/teardowns/assets/` (10 cards) |
 | 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ✅ DONE 08-04 | `03-launch/2026-08-04-week-2-pov-batch.md` |
 | 7 | Day-7 checkpoint review after clock starts: sent/held/sold/collected verdict | ⚪ WAITING FOR DAY 1 | cash scoreboard + activation decision tests |
 | 8 | Carousel visual assets | ⚪ PARKED UNTIL DAILY SENDS | mission 4 output feeds it |

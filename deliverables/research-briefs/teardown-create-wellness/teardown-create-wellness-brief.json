@@ -1,0 +1,279 @@
+{
+  "slug": "teardown-create-wellness",
+  "chip": "TEARDOWN · CREATE WELLNESS",
+  "title": "the only *NSF certified* creatine gummy in the world, in an accordion",
+  "dek": "Create Wellness holds the one receipt their entire category is accused of faking — an outside lab measured 4.59g against a 4.5g label while two competitors measured zero. Their homepage is running a summer sale. Public-surface teardown, every claim sourced, sent to the brand before publication.",
+  "window": "public surface, read 2026-08-07",
+  "lens": "claim → proof → gap",
+  "sources": "homepage · 2 PDPs · science page · quality page · 5 latest reviews · 1 third-party lab report",
+  "compiled": "aug 7, 2026",
+  "footer_left": "TEARDOWN No. 4",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 0,
+  "stack": [
+    "playwright",
+    "webfetch"
+  ],
+  "category": "teardown",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the gap in one *line*",
+      "kicker": "THE VERDICT",
+      "body": "The most valuable sentence about this company was written by somebody else, in a lab report, and it is nowhere on their site.\n\nAn independent test put six creatine gummies through a lab. Four failed. Two had no detectable creatine at all. Create came back at 4.59 grams against a 4.5 gram label — over the label, in the category currently being accused of selling candy. Their quality page publishes impurity caps, heavy-metal limits, batch-level NSF Certified for Sport, and 18-month stability retests. Nobody publishes numbers like that unless they hold, because publishing them is how you get caught.\n\nThen the homepage says \"Creatine for Everybody\" over \"Save Big and Have the Hottest Summer Ever,\" and the category-of-one claim sits in a collapsed FAQ underneath a question about whether kids can take them."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "items": [
+        {
+          "value": "4.59g",
+          "unit": "measured",
+          "label": "AGAINST A 4.5G LABEL",
+          "note": "independent third-party test"
+        },
+        {
+          "value": "4 of 6",
+          "unit": "failed",
+          "label": "GUMMIES IN THE SAME TEST",
+          "note": "two at zero detectable creatine"
+        },
+        {
+          "value": "0",
+          "unit": "mentions",
+          "label": "OF A GRAM, LAB OR TEST",
+          "note": "across the 5 most recent reviews"
+        },
+        {
+          "value": "100K+",
+          "unit": "vs 4,675",
+          "label": "TWO REVIEW COUNTS, ONE PAGE",
+          "note": "5.0 stars claimed, 4.82 shown"
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "claim → proof → *gap*",
+      "tag": "THE EVIDENCE",
+      "rows": [
+        {
+          "claim": "Hero: \"Creatine for Everybody\" / \"Save Big and Have the Hottest Summer Ever.\"",
+          "evidence": "PROVEN — the mass-market read is right; Target rollout began April 2026. GAP — the mainstream buyer's 2026 question is whether gummies contain creatine at all, and the hero answers a different one. Flagged as a seasonal promo, not permanent positioning.",
+          "source_url": "https://trycreate.co/",
+          "source_label": "trycreate.co homepage",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "FAQ, last item, below \"Are your gummies safe for children?\": \"Yes, our core creatine gummies are the only NSF for Sport Certified® creatine gummies in the world!\"",
+          "evidence": "PROVEN — NSF Certified for Sport is the most expensive certification in the business. GAP — the strongest sentence they own is the last answer in a collapsed accordion. Nothing on the site says it where a buyer decides.",
+          "source_url": "https://trycreate.co/products/creatine-monohydrate-gummies",
+          "source_label": "gummies PDP · DOM-extracted",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "\"5.0 Stars · 100K+ Reviews\" sits one scroll above the widget's own \"Customer reviews 4.82 · 4,675 reviews.\"",
+          "evidence": "PROVEN — 4.82 across 4,675 is excellent, and the 100K may be an all-channel count. GAP — two review numbers on one page, and the bigger one is rounder. Survivable for anyone else; expensive for the one brand whose position is that its numbers survive an outside check.",
+          "source_url": "https://trycreate.co/products/creatine-monohydrate-gummies",
+          "source_label": "gummies PDP, same page",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Science page, MEMORY chart — \"Memory Improvement With Creatine\" plotting adults 11–31 vs 66–76 — footnoted to Volek et al., \"Performance and muscle fiber adaptations to creatine supplementation and heavy resistance training.\"",
+          "evidence": "GAP — that footnote is a bench-press and muscle-fiber study sitting under a memory chart. The same citation also appears under the strength chart, where it belongs. On the one page carrying two real creatine researchers' names, the memory claim is sourced to a lifting paper. Cheapest fix in the teardown.",
+          "source_url": "https://trycreate.co/pages/the-science",
+          "source_label": "/pages/the-science · read directly",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Quality page: creatinine ≤100 ppm, DCD ≤50 ppm, DHT ≤3 ppm, heavy metals ≤0.1 ppm, \"100% of Create's purity and potency testing is third-party,\" \"every batch is NSF Certified for Sport®,\" product retested at 18 months still meeting label.",
+          "evidence": "PROVEN, and it is the asset. Creatine degrades to creatinine in water and heat — exactly what making a gummy involves — which is why most of the shelf fails. They also didn't round up: three gummies is 4.5g and they printed 4.5g.",
+          "source_url": "https://trycreate.co/pages/our-quality-promise",
+          "source_label": "/pages/our-quality-promise",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Five most recent verified-buyer reviews: \"The best flavor I've had so far.\" · \"Love them.\" · \"So convenient to grab and go.\"",
+          "evidence": "Flavor in four of five, convenience in three. Not one gram, not one lab, not one test. Their own auto-generated summary agrees: \"delicious flavors and highly convenient, travel-friendly packaging.\" One curated testimonial higher on the page says the missing headline out loud — \"something this delicious is NSF certified and backed by real science.\"",
+          "source_url": "https://trycreate.co/products/creatine-monohydrate-gummies",
+          "source_label": "review widget, sorted Latest",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "three angles I'd *ship*",
+      "kicker": "THE OPENING",
+      "dek": "Ranked. Angle 1 is the only one a competitor cannot copy this quarter.",
+      "items": [
+        {
+          "action": "Put the number in the hero.",
+          "why": "Replace the seasonal sale line with the test result and its source. Four of six gummies failed; ours measured 4.59 against a 4.5 label. Copying this means paying for testing that might not go their way — and the category's failure is still in the news."
+        },
+        {
+          "action": "Take the FAQ answer out of the FAQ.",
+          "why": "\"The only NSF Certified for Sport creatine gummy in the world\" is a category-of-one claim buried under a question about children. It belongs on the pack, the PDP above the fold, the Target shelf-talker, and line one of every retail sell sheet."
+        },
+        {
+          "action": "Fix the memory footnote before somebody screenshots it.",
+          "why": "Then use the repair as content — Smith-Ryan or Candow on what creatine and cognition research actually shows, real citations under real charts. The brand caught being careful about its own footnotes owns a position nobody is competing for."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "LinkedIn post — 2,130 chars, prose gate 2.0/10",
+          "text": "An outside lab tested six creatine gummies. Four failed. Two had no detectable creatine in them at all.\n\nIn 2018 I wrote a sales page promising to turn ordinary guys into extraordinary ones. I meant it. That's how I know the dialect I'm about to describe.\n\nBefore anything: I'm only reading the public surface. I don't have access to Create Wellness's internal strategy, and there may be reasons for all of this I can't see from out here.\n\nIn that same test, Create's gummies came back at 4.59 grams against a 4.5 gram label.\n\nOver the label. In a category where two competitors measured zero.\n\nTheir quality page goes further. Creatinine capped at 100 ppm. Heavy metals at 0.1. Every batch NSF Certified for Sport. Product pulled and retested at eighteen months, still meeting label. Nobody publishes numbers like that unless they hold, because publishing them is how you get caught.\n\nThen you open the homepage.\n\n\"Creatine for Everybody.\" Under it: \"Save Big and Have the Hottest Summer Ever.\"\n\nScroll the product page past the eight flavors, past \"Are your gummies safe for children,\" and open the last question in the FAQ.\n\n\"Yes, our core creatine gummies are the only NSF for Sport Certified creatine gummies in the world.\"\n\nThe only ones in the world. Inside an accordion, under a question about kids.\n\nSo I read the five most recent customer reviews. Best flavor by far. So convenient to grab and go. Love them. Four of five talk about flavor. None of them mention a gram, a lab, or a test.\n\nThe proof is doing nothing, and it cost more than the sale did.\n\nEvery business with a measured advantage lands here eventually. The uptime figure sits in a PDF nobody opens and the homepage says reliable. Reliable is free. Somebody already took it.\n\nHere's the part I'd act on this week if it were mine. Find the hardest, most expensive true thing you own. The one that would hurt to publish if it weren't true. Then check whether a buyer can find it without clicking anything.\n\nSomebody at that company fought for 4.59 grams. I'd like them to win the argument twice.\n\nIf your product actually works and nobody can tell, DM PROOF."
+        },
+        {
+          "label": "The DM — send before publishing",
+          "text": "Hey [name]. I wrote a breakdown of Create's public messaging. It goes out Thursday.\n\nWanted you to have it first, and to tell me if I've got something wrong.\n\nShort version: SuppCo's test had four of six gummies failing and two at zero, and yours came back at 4.59g against a 4.5g label. That result plus your batch NSF cert is the strongest thing anybody in your category owns right now, and on the site it lives in the last FAQ answer under a question about whether kids can take them. The homepage is running a summer sale instead.\n\nTwo smaller things. Your review header says 5.0 stars and 100K+ reviews about a scroll above the widget saying 4.82 across 4,675 — fine for anyone else, expensive for the brand whose whole position is that its numbers survive an outside check. And on the science page the memory chart is footnoted to Volek's heavy-resistance-training study, which is a lifting paper under a memory claim. That one I'd fix before someone screenshots it.\n\nNot a dunk. I've been on the buyer's side of this shelf and the trainer's side of it for eighteen years, and yours is one of the few gummies I'd hand somebody without a caveat. That's exactly why the marketing bugs me.\n\nFull thing attached. If anything in it is wrong or unfair, tell me and I'll fix it before it goes up.\n\nFarrice"
+        },
+        {
+          "label": "Contacts — confirm on LinkedIn before sending (LIKELY, not verified)",
+          "text": "Beckley Mason — Head of Marketing (first choice; owns the surface, can act on all three angles)\nCaroline Stoddard — Brand Director (second; hero copy + packaging, Angle 2 is hers)\nDan McCormick / Sienna McCormick — Co-founders, Co-CEOs (founder door; use if no reply in a week)\n\nCreate Wellness, Inc., New York NY. $20M growth round 2026-03-30 (Alliance Consumer Growth, Impact Capital, Unilever Ventures). Target rollout began 2026-04-12."
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "platform-ready *assets*",
+      "tag": "THE RAIL",
+      "items": [
+        {
+          "title": "CREATE WELLNESS · Article Header",
+          "role": "ARTICLE HEADER",
+          "path": "_active/linkedin/03-launch/teardowns/assets/create-header-1200x627.png",
+          "thumb": "_active/linkedin/03-launch/teardowns/assets/create-header-1200x627.png",
+          "note": "LinkedIn article header · link preview · blog hero"
+        },
+        {
+          "title": "CREATE WELLNESS · Quote Card",
+          "role": "QUOTE CARD",
+          "path": "_active/linkedin/03-launch/teardowns/assets/create-square-1080x1080.png",
+          "thumb": "_active/linkedin/03-launch/teardowns/assets/create-square-1080x1080.png",
+          "note": "LinkedIn + Instagram + X square"
+        },
+        {
+          "title": "CREATE WELLNESS · Carousel Cover",
+          "role": "CAROUSEL COVER",
+          "path": "_active/linkedin/03-launch/teardowns/assets/create-portrait-1080x1350.png",
+          "thumb": "_active/linkedin/03-launch/teardowns/assets/create-portrait-1080x1350.png",
+          "note": "LinkedIn / Instagram carousel cover"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "Public surface only. No access to internal strategy, and there may be reasons for all of it not visible from outside — the published post says so in its first three lines.\n\nThe hero being critiqued is a seasonal sale banner, named as a promo rather than treated as permanent positioning. The 100K review count is plausibly an all-channel total, said before the critique. The publication date of the third-party lab test is UNCONFIRMED and no date is asserted anywhere in the piece. A second round of testing commissioned by NOW Foods reported similar failures but its source returned 403, so it was deliberately excluded from the published version.\n\nNot claimed anywhere: that their marketing caused any business outcome, anything about internal strategy, or that the electrolyte mix is or isn't NSF certified — the FAQ names the gummies only.\n\nThe founder's best rebuttal, answered in the piece rather than argued at them: \"NSF Certified for Sport means nothing to a mom in a Target aisle.\" Real, and half right — the gummy failures reached mainstream health press, so \"does this contain creatine\" is now the mass buyer's question, not the lab nerd's.",
+      "cta": {
+        "label": "OKAY, GIVE ME THE POST",
+        "href": "#deploy-blocks"
+      }
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "SOURCE",
+          "title": "Full teardown — analysis, DM, verification ledger, adversarial pass",
+          "path": "_active/linkedin/03-launch/teardowns/2026-08-07-teardown-04-create-wellness.md"
+        },
+        {
+          "k": "BRIEF",
+          "title": "Teardown · Hilma — the headline arguing with its own footnote",
+          "path": "deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.html"
+        },
+        {
+          "k": "BRIEF",
+          "title": "Teardown · BPN — a standard nobody wrote down",
+          "path": "deliverables/research-briefs/teardown-bpn/teardown-bpn-brief.html"
+        },
+        {
+          "k": "WEB",
+          "title": "SuppCo — independent creatine gummy lab testing",
+          "href": "https://supp.co/articles/suppco-tested-creatine-testing-results-gummies-failed-lab-analysis"
+        }
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "source": "Create Wellness homepage",
+      "url": "https://trycreate.co/",
+      "retrieved": "2026-08-07",
+      "used_for": "hero copy, promo banners, trust bar",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Creatine Monohydrate Gummies PDP",
+      "url": "https://trycreate.co/products/creatine-monohydrate-gummies",
+      "retrieved": "2026-08-07",
+      "used_for": "FAQ text, review counts, 1.5g/gummy, latest reviews",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Creatine + Electrolytes Mix PDP",
+      "url": "https://trycreate.co/products/creatine-electrolytes-mix",
+      "retrieved": "2026-08-07",
+      "used_for": "5g dose, benefit bar, 53 reviews",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Our Quality Promise",
+      "url": "https://trycreate.co/pages/our-quality-promise",
+      "retrieved": "2026-08-07",
+      "used_for": "impurity caps, batch NSF, 18-month stability retest",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "The Science",
+      "url": "https://trycreate.co/pages/the-science",
+      "retrieved": "2026-08-07",
+      "used_for": "memory chart citation mismatch, advisor names",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "SuppCo independent creatine testing",
+      "url": "https://supp.co/articles/suppco-tested-creatine-testing-results-gummies-failed-lab-analysis",
+      "retrieved": "2026-08-07",
+      "used_for": "4.59g result, 4 of 6 failures, two at zero",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Create Wellness $20M growth round",
+      "url": "https://www.nutraingredients.com/Article/2026/03/30/create-raises-20m-in-series-b-to-expand-creatine-access-and-innovation/",
+      "retrieved": "2026-08-07",
+      "used_for": "funding trigger, Target rollout timing",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "context": [
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "the pen (v1.3)"
+    },
+    {
+      "path": "_active/linkedin/01-research/ICP-BATTLE-CARD.md",
+      "role": "buyer language, verbatim doctrine"
+    },
+    {
+      "path": "_active/linkedin/02-offer/teardown-system.md",
+      "role": "teardown mechanics"
+    },
+    {
+      "path": ".agent/missions/teardown-1-fresh-0805/portable.md",
+      "role": "mission packet"
+    }
+  ]
+}

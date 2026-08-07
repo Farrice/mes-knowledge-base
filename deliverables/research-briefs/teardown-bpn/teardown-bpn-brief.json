@@ -1,0 +1,238 @@
+{
+  "slug": "teardown-bpn",
+  "chip": "TEARDOWN · BARE PERFORMANCE NUTRITION",
+  "title": "a standard nobody *wrote down*",
+  "dek": "BPN holds NSF Certified for Sport on the whey and NSF plus Creapure on the creatine — the strongest quality position in their competitive set. There is no quality page, no science page, no testing page anywhere on the site. \"The Bare Standard\" is a slogan with no document behind it. Public-surface teardown, every claim sourced.",
+  "window": "public surface, read 2026-08-07",
+  "lens": "claim → proof → gap · rentable vs unrentable assets",
+  "sources": "homepage · 2 PDPs · about page · 5 latest reviews · 2 site probes",
+  "compiled": "aug 7, 2026",
+  "footer_left": "TEARDOWN No. 6",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 0,
+  "stack": [
+    "playwright",
+    "webfetch"
+  ],
+  "category": "teardown",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the gap in one *line*",
+      "kicker": "THE VERDICT",
+      "body": "The product is built for people who get drug-tested and the marketing is built for people who get inspired, and only one of those two things can't be copied.\n\nNSF Certified for Sport is what a drug-tested athlete's compliance officer looks for. It is expensive, it is per-batch, and it is the reason a college strength coach can hand somebody a tub without taking on liability. BPN has it on the whey, and on the creatine alongside Creapure from a named plant in Trostberg, Germany.\n\nThen there is no page about it. /pages/quality returns a 404. No science, testing, ingredient-sourcing, or quality page appears in the navigation or the footer. The claims exist as badge text and a slogan — \"THE BARE STANDARD: Built on quality and proven by results, without compromise.\" A standard nobody wrote down is a slogan."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "items": [
+        {
+          "value": "0",
+          "unit": "pages",
+          "label": "ON QUALITY OR TESTING",
+          "note": "/pages/quality returns 404"
+        },
+        {
+          "value": "920K+",
+          "unit": "customers",
+          "label": "SINCE 2012",
+          "note": "the rentable asset"
+        },
+        {
+          "value": "9,263",
+          "unit": "reviews",
+          "label": "WHEY PROTEIN, 4.9 STARS",
+          "note": "creatine: 3,304 at 4.9"
+        },
+        {
+          "value": "0 of 5",
+          "unit": "mention",
+          "label": "NSF, CREAPURE OR A LAB",
+          "note": "five most recent reviews"
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "claim → proof → *gap*",
+      "tag": "THE EVIDENCE",
+      "rows": [
+        {
+          "claim": "Hero: \"GO ONE MORE\" / \"JOIN THE 920,000+ CUSTOMERS Since 2012, BPN has been on a mission to equip people with the supplements, resources, and community to Go One More every day.\"",
+          "evidence": "PROVEN — the community is real and the number is theirs to claim. GAP — the hero sells belonging, and belonging is rentable. Any founder with a camera and a decade of consistency can build it; several are building it now; the day the founder posts less, the moat drains. The unrentable asset is the certification, and it is not above the fold.",
+          "source_url": "https://www.bareperformancenutrition.com/",
+          "source_label": "BPN homepage",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "No quality, science, testing, or ingredient-sourcing page exists. /pages/quality returns HTTP 404; two independent link extractions found none in nav or footer.",
+          "evidence": "GAP — the strongest claims exist only as badge text: \"THIRD-PARTY CERTIFIED,\" \"All BPN supplements are third party tested for banned substances, quality standards and label accuracy,\" and the slogan \"THE BARE STANDARD.\" Competitors publish COAs and name their labs; BPN holds a better certification than most of them and has nowhere to send anyone who wants to check.",
+          "source_url": "https://www.bareperformancenutrition.com/pages/about",
+          "source_label": "site probe ×2 · /pages/quality 404",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Whey PDP: \"NSF Certified for Sport® to verify it does not contain unsafe levels of contaminants or prohibited substances.\" Creatine PDP: NSF Certified for Sport plus Creapure®, produced in Trostberg, Germany, 5g per serving.",
+          "evidence": "PROVEN, and it is the asset. NSF for Sport is the certification that matters when a failed test ends a career. On the page it sits as a spec bullet next to \"GLUTEN FREE.\"",
+          "source_url": "https://www.bareperformancenutrition.com/products/creatine-monohydrate",
+          "source_label": "whey + creatine PDPs",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Five most-recent verified-buyer whey reviews: flavor in four of five. \"Chocolate fudge is hands down the best tasting protein i've ever had… I've been using transparent labs whey protein isolate for the last year… Glad i made the switch to BPN.\"",
+          "evidence": "The fourth review is the whole teardown in a customer's handwriting. A buyer left Transparent Labs — the brand whose entire position is label honesty — and switched over chocolate, then wrote a review about chocolate. Neither brand's proof had anything to do with it. Not one of the five mentions NSF, Creapure, banned-substance testing, or a lab.",
+          "source_url": "https://www.bareperformancenutrition.com/products/whey-protein-powder",
+          "source_label": "review widget, sorted Most Recent",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "About page: \"Since 2012, BPN has been on a mission to equip people with the tools, resources, and community to Go One More everyday.\" Testing and certification appear only in separate badge sections.",
+          "evidence": "GAP — the origin story is the product story. Nothing in it explains why the label is trustworthy, which is the question a first-time buyer who isn't already in the community is actually asking.",
+          "source_url": "https://www.bareperformancenutrition.com/pages/about",
+          "source_label": "/pages/about",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "three angles I'd *ship*",
+      "kicker": "THE OPENING",
+      "dek": "Ranked. Everything below Angle 1 depends on Angle 1 existing.",
+      "items": [
+        {
+          "action": "Build the page that doesn't exist.",
+          "why": "One URL: the labs, certificate numbers, what NSF Certified for Sport actually screens for, what Creapure is and why the Trostberg plant matters, what gets rejected and how often. \"The Bare Standard\" becomes a document instead of a slogan."
+        },
+        {
+          "action": "Sell to the person who can't afford to be wrong.",
+          "why": "Drug-tested athletes, military, first responders, anyone whose job does urinalysis. The existing base already skews this way and the certification was bought for exactly them. Competitors can't chase this segment without paying for the same cert, and the copy writes itself from the certificate."
+        },
+        {
+          "action": "Put the cert in the founder's mouth.",
+          "why": "The community is the distribution and the founder is the channel. The missing content is the one nobody in the category makes: what per-batch testing costs, what it caught, why the company keeps paying when 920,000 people would buy on flavor anyway. That converts belonging into a reason."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "LinkedIn post — ~2,400 chars",
+          "text": "A guy left Transparent Labs for BPN and wrote a review about chocolate.\n\nThat's it. That's the whole review. Best tasting protein he's ever had, blends well, no aftertaste, glad he switched. Transparent Labs has one of the most honest labels in the supplement business. It lost that customer on flavor and the customer never mentioned a label at all.\n\nI was that buyer once. Bodybuilding magazines, back when the ad and the article were the same thing. I bought the physique, the look, the feeling of having it handled. Mostly the confidence.\n\nReading only the public surface here, no access to anyone's internal strategy.\n\nBPN's whey is NSF Certified for Sport. Their creatine is NSF Certified for Sport and made from Creapure, out of a named plant in Trostberg, Germany. NSF for Sport is the certification that matters when a failed test ends a career. It's per batch. It's expensive. It's the reason a strength coach can hand somebody a tub and not take on liability.\n\nNow try to find the page about it.\n\nThere isn't one. No quality page, no testing page, no science page, nothing in the nav or the footer. I checked. The claims live as badge text and a slogan: \"The Bare Standard. Built on quality and proven by results, without compromise.\"\n\nA standard nobody wrote down is a slogan.\n\nThe homepage sells the other thing: GO ONE MORE, 920,000 customers, since 2012. And it works, genuinely. But belonging is rentable. Any founder with a camera and ten consistent years can build it, several are building it right now, and it thins out the month the founder posts less.\n\nThe certification is the part nobody can rent. It's sitting in a bullet next to GLUTEN FREE.\n\nThis shows up everywhere, not just here. A company builds one asset that's expensive and one that's charming, then markets the charming one because it performs faster. It does perform faster. It also walks out the door with whoever was carrying it.\n\nThe move I'd make this week: write down the standard you say you hold. Not the slogan, the document. Which lab, which batch, what gets rejected, how often. If a buyer can't verify your best claim without emailing you, it isn't working for you yet.\n\nSomebody at that company signed off on paying for per-batch certification when flavor was already closing the sale. That decision deserves a page.\n\nIf your product actually works and nobody can tell, DM PROOF."
+        },
+        {
+          "label": "The DM — send before publishing",
+          "text": "Hey [name]. I wrote a breakdown of BPN's public messaging. It goes out next week.\n\nWanted you to have it first, and to tell me if I've got something wrong.\n\nShort version: NSF Certified for Sport on the whey, NSF plus Creapure from a named plant on the creatine. That's the strongest quality position in your competitive set and there is no page on the site about it. /pages/quality 404s, and there's no science or testing page in the nav or footer. \"The Bare Standard\" is a slogan with no document behind it.\n\nMeanwhile the five most recent whey reviews are all flavor. One of them is a guy who left Transparent Labs for you over chocolate fudge — which is a great problem and also a fragile one, because taste is the easiest thing in this category to copy and a certification isn't.\n\nNot a dunk. I was the kid buying supplements out of bodybuilding magazines and then spent eighteen years on the other side of that conversation, and the cert you're paying for is the thing I'd want a client to know about first.\n\nFull thing attached. If anything's wrong or unfair, tell me and I'll fix it before it goes up.\n\nFarrice"
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "platform-ready *assets*",
+      "tag": "THE RAIL",
+      "items": [
+        {
+          "title": "BARE PERFORMANCE NUTRITION · Article Header",
+          "role": "ARTICLE HEADER",
+          "path": "_active/linkedin/03-launch/teardowns/assets/bpn-header-1200x627.png",
+          "thumb": "_active/linkedin/03-launch/teardowns/assets/bpn-header-1200x627.png",
+          "note": "LinkedIn article header · link preview · blog hero"
+        },
+        {
+          "title": "BARE PERFORMANCE NUTRITION · Quote Card",
+          "role": "QUOTE CARD",
+          "path": "_active/linkedin/03-launch/teardowns/assets/bpn-square-1080x1080.png",
+          "thumb": "_active/linkedin/03-launch/teardowns/assets/bpn-square-1080x1080.png",
+          "note": "LinkedIn + Instagram + X square"
+        },
+        {
+          "title": "BARE PERFORMANCE NUTRITION · Carousel Cover",
+          "role": "CAROUSEL COVER",
+          "path": "_active/linkedin/03-launch/teardowns/assets/bpn-portrait-1080x1350.png",
+          "thumb": "_active/linkedin/03-launch/teardowns/assets/bpn-portrait-1080x1350.png",
+          "note": "LinkedIn / Instagram carousel cover"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "Public surface only. A quality page could exist behind a login or inside their app — the public site was checked twice and is what's reported.\n\nCalling belonging \"rentable\" is a judgment, phrased as mine, not a fact. Whether NSF Certified for Sport covers the entire catalog is UNCONFIRMED and raised as a question rather than an accusation: the blanket sentence \"all BPN supplements are third party tested\" runs wider than the per-product NSF badges, and naming which products carry which certification costs nothing.\n\nNot claimed anywhere: that any BPN product failed a test, anything about internal strategy, or that the founder's involvement is declining.\n\nThe founder's best rebuttal, conceded in the piece: \"Community IS the moat — no certification page would have added one of those 920,000 customers.\" True historically. The argument isn't that community failed; it's that community is the asset that can be competed away and the cert is the one that can't. Both can run.",
+      "cta": {
+        "label": "OKAY, GIVE ME THE POST",
+        "href": "#deploy-blocks"
+      }
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "SOURCE",
+          "title": "Full teardown — analysis, DM, verification ledger, adversarial pass",
+          "path": "_active/linkedin/03-launch/teardowns/2026-08-07-teardown-06-bpn.md"
+        },
+        {
+          "k": "BRIEF",
+          "title": "Teardown · Create Wellness — the world's only NSF creatine gummy, in an accordion",
+          "path": "deliverables/research-briefs/teardown-create-wellness/teardown-create-wellness-brief.html"
+        },
+        {
+          "k": "BRIEF",
+          "title": "Teardown · Hilma — the headline arguing with its own footnote",
+          "path": "deliverables/research-briefs/teardown-hilma/teardown-hilma-brief.html"
+        }
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "source": "BPN homepage",
+      "url": "https://www.bareperformancenutrition.com/",
+      "retrieved": "2026-08-07",
+      "used_for": "hero, 920K customers, Bare Standard slogan, badge text",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Whey Protein PDP",
+      "url": "https://www.bareperformancenutrition.com/products/whey-protein-powder",
+      "retrieved": "2026-08-07",
+      "used_for": "NSF for Sport language, 4.9/9,263, five latest reviews",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "Creatine Monohydrate PDP",
+      "url": "https://www.bareperformancenutrition.com/products/creatine-monohydrate",
+      "retrieved": "2026-08-07",
+      "used_for": "Creapure/Trostberg, NSF, 5g, 4.9/3,304",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "About page",
+      "url": "https://www.bareperformancenutrition.com/pages/about",
+      "retrieved": "2026-08-07",
+      "used_for": "mission text, absence of testing narrative",
+      "confidence": "VERIFIED"
+    }
+  ],
+  "context": [
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "the pen (v1.3)"
+    },
+    {
+      "path": "_active/linkedin/03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md",
+      "role": "the brand named in the switching review"
+    },
+    {
+      "path": ".agent/missions/teardown-1-fresh-0805/portable.md",
+      "role": "mission packet"
+    }
+  ]
+}
