@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "FT-001-content-factory-meets-audience",
+  "created_at": "2026-08-04T15:33:54Z",
+  "evidence_class": "PROSPECTIVE_FARRICE_CREATOR_RUN_LOCAL",
+  "input": {
+    "kind": "current_operating_evidence",
+    "paths": [
+      ".agent/handoffs/2026-08-02-dhar-mann-production-os.md",
+      "extractions/dhar-mann-transformational-storytelling/plugin-readiness.md"
+    ],
+    "synthetic": false
+  },
+  "route": {
+    "conductor": "creative-assembly",
+    "owner": "dhar-mann-transformational-storytelling",
+    "workflow": "dhar-transformational-content-factory",
+    "production_interface": "08-story-to-production-continuity",
+    "selection_reason": "the verified factory needed its first real Farrice artifact and a transformation-preserving publish handoff"
+  },
+  "run_mode": "production_to_publish_review",
+  "composition": {
+    "spine": "dhar-mann-transformational-storytelling",
+    "body_mode": "bayer-mirror-recognition-you",
+    "change_route": "kobi-brown-universal-aha-engine",
+    "body_voice": "farrice-blend"
+  },
+  "outputs": [
+    "outputs/dhar-mann-field-tests/FT-001-content-factory-meets-audience/artifact.md",
+    "outputs/dhar-mann-field-tests/FT-001-content-factory-meets-audience/factory-packet.md"
+  ],
+  "checks": {
+    "prose_classifier": "PASS_CLEAN_0_OF_10",
+    "voice_evaluator": "PASS_NO_DETERMINISTIC_TELLS",
+    "claim_risk_scan": "PASS_CLEAN",
+    "grounding_guard": "PASS",
+    "content_finish_gate": "PASS_CLEAN",
+    "export_format_guard": "PASS",
+    "dhar_factory_verifier": "PASS"
+  },
+  "run_verdict": "READY_TO_PUBLISH_REVIEW",
+  "routing_id": "rt_20260804_153354_c074",
+  "finalization": {
+    "composite": 7.67,
+    "quality_gate": "KEEP",
+    "notion": "SKIPPED",
+    "regression_note": "Notion regression comparison unavailable because NOTION_API_KEY was not set."
+  },
+  "publication": "NOT_PUBLISHED",
+  "human_felt_verdict": "PENDING",
+  "production_owner_acceptance": "PENDING",
+  "audience_evidence": "NONE",
+  "promotion_credit": "PROSPECTIVE_FIELD_TEST_PENDING_ACCEPTANCE",
+  "plugin_readiness_effect": "NO_SCORE_CHANGE",
+  "claim_boundary": "No engagement, retention, impact, transformation, or plugin-portability result is claimed by this local run.",
+  "next_action": "Record Farrice's USE, REVISE, or REJECT verdict; publish only with explicit approval; review audience evidence seven days after any publication."
+}

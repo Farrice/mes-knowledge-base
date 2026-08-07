@@ -1,0 +1,16 @@
+{
+  "id": "RBR-001",
+  "status": "use_now_not_wired",
+  "high_taste_wrapper": "high-taste-writing-os",
+  "system_owner": "source-to-skill-system",
+  "behavior_proof": "FP-001",
+  "cold_start_scenarios": 3,
+  "cold_start_result": "pass_after_one_repair_cycle",
+  "master_prompt_prose": "clean_0_of_10",
+  "master_prompt_finish_gate": "clean",
+  "grounding": "pass",
+  "chain_finalize": "8.0_keep_pass",
+  "protocol_surface": "operational_parallelism_warning",
+  "live_front_door_wiring": "not_performed",
+  "external_action": "not_performed"
+}

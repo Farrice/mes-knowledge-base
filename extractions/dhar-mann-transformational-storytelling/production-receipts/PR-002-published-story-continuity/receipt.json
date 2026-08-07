@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "PR-002-published-story-continuity",
+  "created_at": "2026-07-30T18:42:57-07:00",
+  "evidence_class": "LOCAL_PUBLISHED_SOURCE_COMPONENT_VALIDATION",
+  "input": {
+    "path": "extractions/dhar-mann-transformational-storytelling/reference-corpus/01-son-ditches-his-mom-on-mothers-day.txt",
+    "kind": "published_work_caption_transcript",
+    "provenance": "Dhar Mann Studios YouTube publication",
+    "synthetic": false
+  },
+  "sources": [
+    {
+      "source_id": "1G1EZuFELhc",
+      "anchors": [
+        "00:02-21:46"
+      ]
+    }
+  ],
+  "route": {
+    "owner": "dhar-mann-transformational-storytelling",
+    "workflow": "08-story-to-production-continuity",
+    "selection_reason": "a complete published story was available for retrospective unit, invariant, and handoff reconstruction"
+  },
+  "run_mode": "retrospective_story_continuity_component_validation",
+  "composition": {
+    "spine": "dhar-mann-transformational-storytelling",
+    "external_dependencies": [],
+    "body_author": null
+  },
+  "components_invoked": [
+    "development intake",
+    "concept-to-capacity checkpoint",
+    "production-unit map",
+    "transformation-invariant map",
+    "department handoff matrix",
+    "freshness and continuity review",
+    "craft-gap register"
+  ],
+  "outputs": [
+    "extractions/dhar-mann-transformational-storytelling/production-receipts/PR-002-published-story-continuity/output.md"
+  ],
+  "source_mechanics_activated": [
+    "script-unit decomposition",
+    "department-specific completeness",
+    "transformation invariants across production units",
+    "freshness and continuity checkpoint"
+  ],
+  "checks": {
+    "provenance": "PASS",
+    "claim_labels": "PASS",
+    "output_contract": "PASS",
+    "unsupported_gaps_exposed": "PASS",
+    "publication_evidence": "INPUT_ONLY"
+  },
+  "run_verdict": "READY FOR SPECIALIST HANDOFF",
+  "routing_id": "rt_20260731_014718_40e6",
+  "finalization": {
+    "composite": 7.6,
+    "quality_gate": "PASS",
+    "notion": "SKIPPED",
+    "regression_note": "Notion mirror check unavailable because NOTION_API_KEY was not set."
+  },
+  "publication": "DERIVED_PACKET_NOT_PUBLISHED",
+  "human_felt_verdict": "PENDING",
+  "promotion_credit": "COMPONENT_VALIDATION_ONLY",
+  "claim_boundary": "Retrospective transcript reconstruction; no claim about the original production plan or missing audiovisual craft.",
+  "next_action": "Run the packet prospectively with a real creator story and production owner feedback."
+}

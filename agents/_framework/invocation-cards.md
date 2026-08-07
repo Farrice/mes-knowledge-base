@@ -204,6 +204,15 @@ PAIRS WITH: Lucas Alpay (fiction), Kallaway (psychology)
 ```
 
 ```
+AGENT: Dhar Mann
+DOMAIN: Transformational community storytelling, mission-safe YouTube packaging, viewer after-state, positive action, audience co-creation
+CORE METHOD: HEART transformation spine — recognition before lesson, tension repaid by meaningful choice, honest 10–30 second promise fulfillment, and separate discovery/retention/connection/transformation scoreboards
+BEST FOR: Creator content that should make a specific viewer feel seen, earn a perspective shift, leave them better oriented, and convert feedback into the next production decision
+ENTRY PROMPT: agents/dhar-mann/AGENT.md
+PAIRS WITH: David Bayer in exactly one recognition/testimony mode; Andrew Stanton for narrative change or Kobi Brown for educational change; Kallaway only after a draft
+```
+
+```
 AGENT: Tao Prompts
 DOMAIN: AI video production, cinematic prompting, storyboard architecture
 CORE METHOD: Deterministic video pipeline — multi-shot scene structuring with component decoupling and tool-agnostic translation

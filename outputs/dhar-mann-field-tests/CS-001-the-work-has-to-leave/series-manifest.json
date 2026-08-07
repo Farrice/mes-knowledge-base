@@ -1,0 +1,130 @@
+{
+  "schema_version": "content-series-system/v1",
+  "series_id": "CS-001-the-work-has-to-leave",
+  "title": "The Work Has to Leave",
+  "objective": "Farrice transformation story field test through the Dhar transformational content factory",
+  "state": "PROSPECTIVE_SERIES_ARCHITECTURE",
+  "source_artifact": "FT-001-content-factory-meets-audience",
+  "primary_platform": "LinkedIn",
+  "owner": "dhar-mann-transformational-storytelling",
+  "voice": "farrice-blend",
+  "dramatic_question": "Can a creator build a powerful system without using it to avoid audience contact and then learn from the audience without handing over the pen?",
+  "viewer_progression": [
+    "distinguish",
+    "diagnose",
+    "design",
+    "risk",
+    "measure",
+    "decide",
+    "integrate"
+  ],
+  "collection": "Audience Contact Kit",
+  "receipt": "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/receipt.json",
+  "parts": [
+    {
+      "part": 1,
+      "title": "The 11th Prompt Can Wait",
+      "status": "READY_FOR_FARRICE_FELT_REVIEW_NOT_PUBLISHED",
+      "format": "linkedin_text_post",
+      "body_mode": "recognition-you",
+      "change_route": "educational",
+      "field_card": "Proof Boundary Card",
+      "source_gate": "SATISFIED_LOCAL",
+      "release_gate": "FARRICE_USE_AND_EXPLICIT_PUBLISH_APPROVAL"
+    },
+    {
+      "part": 2,
+      "title": "The Safest Work Still Looks Like Work",
+      "status": "PROVISIONAL_UNTIL_FT_001_RECEIPT",
+      "format": "talking_head_video_design_hypothesis",
+      "body_mode": "recognition-you",
+      "change_route": "educational",
+      "field_card": "Safe-Work Audit",
+      "source_gate": "REAL_TASK_LOG_REQUIRED",
+      "release_gate": "FT_001_HUMAN_AND_AUDIENCE_RECEIPT"
+    },
+    {
+      "part": 3,
+      "title": "A Post Is Not a Field Test Just Because It Shipped",
+      "status": "PROVISIONAL_UNTIL_FT_001_RECEIPT",
+      "format": "linkedin_document_carousel_design_hypothesis",
+      "body_mode": "recognition-you",
+      "change_route": "educational",
+      "field_card": "Smallest Complete Test Spec",
+      "source_gate": "CURRENT_FACTORY_EVIDENCE",
+      "release_gate": "FT_001_HUMAN_AND_AUDIENCE_RECEIPT"
+    },
+    {
+      "part": 4,
+      "title": "You Can't Edit Out the Risk of Being Misunderstood",
+      "status": "EVENT_GATED",
+      "format": "field_receipt_story_design_hypothesis",
+      "body_mode": "testimony-I",
+      "change_route": "narrative",
+      "field_card": "Authorship Risk Budget",
+      "source_gate": "REAL_FIELD_EVENT_AND_FARRICE_LANGUAGE_REQUIRED",
+      "release_gate": "AUTHORSHIP_CHECKPOINT"
+    },
+    {
+      "part": 5,
+      "title": "The Dashboard Can Be Full and Still Miss the Answer",
+      "status": "EVENT_GATED_FOR_CLAIMS",
+      "format": "whiteboard_video_design_hypothesis",
+      "body_mode": "recognition-you",
+      "change_route": "educational",
+      "field_card": "Four-Scoreboard Card",
+      "source_gate": "PUBLISHED_RESULT_RECEIPT_REQUIRED_FOR_EXAMPLES",
+      "release_gate": "ACT_TWO_EVIDENCE_CHECK"
+    },
+    {
+      "part": 6,
+      "title": "The Audience Gets a Vote. Not the Pen.",
+      "status": "PROVISIONAL",
+      "format": "linkedin_text_decision_essay",
+      "body_mode": "recognition-you",
+      "change_route": "educational",
+      "field_card": "Co-Greenlight Matrix",
+      "source_gate": "REAL_SERIES_EVIDENCE_REQUIRED_FOR_EXAMPLES",
+      "release_gate": "ACT_TWO_EVIDENCE_CHECK"
+    },
+    {
+      "part": 7,
+      "title": "The Factory Is the Feedback Loop",
+      "status": "EVENT_GATED",
+      "format": "flagship_video_and_loop_diagram_design_hypothesis",
+      "body_mode": "testimony-I",
+      "change_route": "educational",
+      "field_card": "Release-Return Protocol",
+      "source_gate": "ACCEPTED_CAMPAIGN_RECEIPTS_REQUIRED",
+      "release_gate": "CLIMAX_PROOF_CHECK"
+    }
+  ],
+  "mystery_threads": [
+    {
+      "question": "What does it mean for the factory to work?",
+      "open": 1,
+      "resolve": 7
+    },
+    {
+      "question": "How much control does the audience receive?",
+      "open": 1,
+      "resolve": 6
+    },
+    {
+      "question": "Can meaning scale without flattening voice?",
+      "open": 3,
+      "resolve": null,
+      "purpose": "next_series_frontier"
+    }
+  ],
+  "proof_state": {
+    "publication": "NO_PUBLICATION",
+    "audience_evidence": "NONE",
+    "ft_001_human_verdict": "PENDING",
+    "production_owner_acceptance": "PENDING",
+    "plugin_readiness": "54/100_KEEP_AS_WORKFLOW",
+    "plugin_readiness_effect": "NO_SCORE_CHANGE",
+    "campaign_counting_rule": "ONE_CREATOR_RUN_FAMILY_NOT_THREE_INDEPENDENT_RUNS"
+  },
+  "next_action": "Record Farrice USE, REVISE, or REJECT verdict on FT-001 before drafting or releasing Parts 2 through 7."
+}

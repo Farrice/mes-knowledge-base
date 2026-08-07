@@ -1,0 +1,19 @@
+{
+  "schema_version": "codex-artifact/v1",
+  "artifact_id": "CS-001-the-work-has-to-leave",
+  "artifact_type": "content_series_system",
+  "title": "The Work Has to Leave",
+  "status": "ready_for_series_architecture_review",
+  "owner": "Farrice Cain",
+  "voice_mode": "BLEND",
+  "created_at": "2026-08-04",
+  "source_artifact": "outputs/dhar-mann-field-tests/FT-001-content-factory-meets-audience/artifact.md",
+  "primary_artifact": "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/00-series-system.md",
+  "taste_system": "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/01-taste-rules.md",
+  "manifest": "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/series-manifest.json",
+  "receipt": "outputs/dhar-mann-field-tests/CS-001-the-work-has-to-leave/receipt.json",
+  "publication": "NO_PUBLICATION",
+  "audience_evidence": "NONE",
+  "human_felt_verdict": "PENDING_ON_FT_001",
+  "promotion_credit": "NO_PLUGIN_CREDIT"
+}

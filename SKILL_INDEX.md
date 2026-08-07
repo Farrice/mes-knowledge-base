@@ -99,6 +99,7 @@
 | `deliberate` | **deliberate** | built for high-stakes decisions where opaque single-model output is risky, distinct from /council (single-model multi-persona), this is single-prompt multi-model | 1 | 0 |
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |
 | `deya-business-systems` | **deya-business-systems** | problem-severity pricing, remarkable offer engineering, beta price ladders | 3 | 0 |
+| `dhar-mann-transformational-storytelling` | **Dhar Mann: Transformational Community Storytelling** | storytelling, youtube, creator strategy | 9 | 0 |
 | `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 22 | 0 |
 | `diandra-escobar-linkedin-mastery` | **diandra-escobar-linkedin-mastery** | the linkedin journey system + domain arsenal | 0 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |

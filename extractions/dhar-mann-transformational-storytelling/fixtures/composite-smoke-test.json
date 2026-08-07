@@ -1,0 +1,38 @@
+{
+  "fixture_id": "dhar-factory-composite-001",
+  "purpose": "Behavior-changing cold fixture for the Dhar Transformational Content Factory",
+  "raw_thought": "Every time I feel behind, I build another system. It feels productive, but it is really a way to avoid showing the work before I feel ready.",
+  "audience": "Capable founders and creators who collect tools and build systems but do not publish",
+  "format": "6-8 minute YouTube essay",
+  "intended_after_state": "I can publish one imperfect proof today",
+  "belief_before": "I lack discipline",
+  "belief_after": "More system-building may be protecting me from exposure; one imperfect public proof creates the feedback I actually need",
+  "desired_safe_positive_action": "Choose one already-started asset and publish the smallest honest proof within 24 hours",
+  "creator_mission": "Help capable people replace shame and performative productivity with honest, useful action",
+  "run_mode": "strategy",
+  "content_class": "deep-topic creator education",
+  "voice_owner": "Farrice, BLEND, but no visible body is authorized in this fixture",
+  "real_lived_scene": null,
+  "provenance_status": "PROVENANCE MISSING",
+  "required_stop": "Do not invent a Farrice scene or write a full first-person body",
+  "expected_route": {
+    "spine": "dhar-mann-transformational-storytelling",
+    "bayer_mode": "recognition-you",
+    "transformation_route": "educational",
+    "body_author": "bayer-mirror after provenance is supplied",
+    "audit": "none until a body exists",
+    "operations": "none until authorship"
+  },
+  "required_invariants": [
+    "The viewer private sentence appears before advice",
+    "Three honest package directions are produced",
+    "The selected package is fulfilled within 10-30 seconds",
+    "The shift is earned through an observable choice, not declared as a moral",
+    "One safe positive action is offered",
+    "Discovery, retention, connection, and transformation remain separate",
+    "No therapy-equivalence claim appears",
+    "No engagement or transformation guarantee appears",
+    "Exactly one Bayer mode and one transformation route are active",
+    "Authorship stops because the real lived scene is missing"
+  ]
+}

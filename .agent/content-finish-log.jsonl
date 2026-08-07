@@ -442,3 +442,30 @@
 {"ts": "2026-08-03T02:03:38Z", "label": "Angle Map TERMS patch", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('what \u2026 what \u2026 what') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-08-03T02:04:47Z", "label": "Angle Map TERMS patch", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-03T02:04:47Z", "label": "Angle Map TERMS patch", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T15:32:29Z", "label": "FT-001", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-04T15:32:56Z", "label": "FT-001", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T15:35:15Z", "label": "FT-001-final", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T15:57:04Z", "label": "CS-001 series system", "verdict": "FAIL", "fails": ["29 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T15:57:05Z", "label": "CS-001 series system", "verdict": "FAIL", "fails": ["3 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T15:58:38Z", "label": "CS-001 series system", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T15:58:38Z", "label": "CS-001 series system", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T15:59:22Z", "label": "CS-001 series system", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T15:59:22Z", "label": "CS-001 series system", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T15:59:37Z", "label": "CS-001 series system", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T15:59:54Z", "label": "CS-001 series system", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T16:01:49Z", "label": "CS-001 series system", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T16:01:50Z", "label": "CS-001 series system", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T16:33:14Z", "label": "fp-001-parallax", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:33:14Z", "label": "fp-001-proof-to-market", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": []}
+{"ts": "2026-08-04T16:33:33Z", "label": "fp-001-proof-to-market", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:37:37Z", "label": "fp-001-parallax", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:37:37Z", "label": "fp-001-proof-to-market", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T16:38:42Z", "label": "fp-001-parallax", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:38:42Z", "label": "fp-001-proof-to-market", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:42:22Z", "label": "FP-001-A", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:42:22Z", "label": "FP-001-B", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-04T16:56:59Z", "label": "RBR-001", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T16:57:18Z", "label": "RBR-001", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T16:58:15Z", "label": "RBR-001", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-04T16:59:23Z", "label": "RBR-001", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-04T17:00:03Z", "label": "RBR-PROMPT-001", "verdict": "CLEAN", "fails": [], "warns": []}

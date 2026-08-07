@@ -1494,3 +1494,36 @@
 - [03-content-to-lead-magnet](../extractions/jonathan-courtney/prompts/03-content-to-lead-magnet.md) [jason-fladlien] — 913 words
 - [genius](../extractions/meg-heckman/codex-prior-art/skill/genius.md) [jason-fladlien] — 882 words
 - [uncertainty-report](../extractions/alex-suzuki-digital-product-revenue-os/uncertainty-report.md) [jason-fladlien] — 223 words
+*758 sources | 2,751,449 words | Updated: 2026-08-04*
+## Content (261 files)
+- [index](index.md) — 4,810 words
+- [mastery-extraction](../extractions/dhar-mann-transformational-storytelling/mastery-extraction.md) — 2,013 words
+- [delta-02-production-operations](../extractions/dhar-mann-transformational-storytelling/delta-02-production-operations.md) — 835 words
+- [SKILL-SYSTEM-CONTRACT](../extractions/dhar-mann-transformational-storytelling/SKILL-SYSTEM-CONTRACT.md) — 737 words
+- [video-context-ledger](../extractions/video-context/Ht241IIaDCA/video-context-ledger.md) — 660 words
+- [plugin-readiness](../extractions/dhar-mann-transformational-storytelling/plugin-readiness.md) — 639 words
+- [video-context-ledger](../extractions/video-context/8GfgSz7LfLw/video-context-ledger.md) — 523 words
+- [uncertainty-report](../extractions/video-context/8GfgSz7LfLw/uncertainty-report.md) — 302 words
+- [plugin-readiness-scorecard-2026-07-30](../extractions/dhar-mann-transformational-storytelling/plugin-readiness-scorecard-2026-07-30.md) — 240 words
+- [frame-notes](../extractions/video-context/Ht241IIaDCA/frame-notes.md) — 225 words
+- [frame-notes](../extractions/video-context/8GfgSz7LfLw/frame-notes.md) — 178 words
+## Copywriting (104 files)
+- [source-claims-ledger](../extractions/dhar-mann-transformational-storytelling/source-claims-ledger.md) — 834 words
+## General (95 files)
+- [log](log.md) — 15,904 words
+- [output](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-003-capacity-learning/output.md) — 719 words
+## Strategy (80 files)
+## Screenwriting (63 files)
+- [behavior-proof](../extractions/dhar-mann-transformational-storytelling/behavior-proof.md) — 2,543 words
+- [amplification-report](../extractions/dhar-mann-transformational-storytelling/amplification-report.md) — 1,098 words
+- [output](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-002-published-story-continuity/output.md) — 896 words
+- [output](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-001-development-intake/output.md) — 722 words
+- [composition-ledger](../extractions/dhar-mann-transformational-storytelling/composition-ledger.md) [connelly] — 646 words
+- [INDEX](../extractions/dhar-mann-transformational-storytelling/INDEX.md) — 438 words
+- [uncertainty-report](../extractions/video-context/Ht241IIaDCA/uncertainty-report.md) — 245 words
+- [receipt](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-002-published-story-continuity/receipt.md) — 130 words
+- [receipt](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-001-development-intake/receipt.md) — 117 words
+- [README](../extractions/dhar-mann-transformational-storytelling/production-receipts/README.md) — 98 words
+## Systems (45 files)
+- [receipt](../extractions/dhar-mann-transformational-storytelling/production-receipts/PR-003-capacity-learning/receipt.md) — 115 words
+## Research (23 files)

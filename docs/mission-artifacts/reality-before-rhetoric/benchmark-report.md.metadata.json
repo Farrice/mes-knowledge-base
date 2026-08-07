@@ -1,0 +1,9 @@
+{
+  "artifact_type": "benchmark_report",
+  "title": "Reality Before Rhetoric: Cross-Domain Benchmark",
+  "status": "passed",
+  "created": "2026-08-04",
+  "fixture_count": 10,
+  "bypass_control_count": 2,
+  "accepted_behavior_sha256": "20fd35a3dfb99c088d481649a71a73eecfef8afaec73cffb11e288d263ce6077"
+}
