@@ -1,5 +1,11 @@
 # Farrice Cain — PHOTOREAL character canon (living)
 
+> **⚠ READ [`QUALITY-FLOOR.md`](QUALITY-FLOOR.md) FIRST — BINDING (Farrice 2026-08-07).** The floor is
+> `gpt_image_2` + the **`Farrice-1` reference element** (`1e3e0cae-e3ba-47cc-a099-26456d94b103`) bound
+> inline as `<<<uuid>>>`, plus five verbatim clauses. Exemplars + their exact prompts:
+> `REFERENCE-BAR/`. **The Soul lane described below is BELOW the floor** — cheap volume only, never a
+> deliverable. Check every new frame against `REFERENCE-BAR/` before it ships.
+
 Sibling to the anime canon at `../anime-avatar/CANON.md` (trigger `frbpm`). Same person, two
 registers. The anime lane is style-authored from a captioned dataset; **this lane is Soul-authored** —
 identity comes from a trained model, not from stacked references. That difference decides every rule
@@ -83,7 +89,43 @@ higgsfield generate create text2image_soul_v2 \
 Light must be **named and placed** (source, direction, quality) — "beautiful lighting" is a silent
 delegation to the model's defaults.
 
-## The reference law (v1 — learned the expensive way, 9 images)
+## ⚠ THE WARDROBE LANE — `gpt_image_2`, two references (CORRECTED 2026-08-07)
+
+**Real branded garments on Farrice: SOLVED.** `gpt_image_2` takes `image_references` as an
+**array with no cap**. Pass **reference 1 = a real photo of Farrice, reference 2 = the real garment
+product shot** in one call. Face holds, and the actual print/wordmark/logo reproduces.
+
+```bash
+higgsfield generate create gpt_image_2 \
+  --prompt "Photorealistic <framing>. The man from the FIRST reference image — keep his face, skin
+            tone, hair and identity exactly as they are — is wearing the exact <garment> from the
+            SECOND reference image. Reproduce that garment precisely: <name the print, wordmark,
+            colour blocking, logo placement>. <scene, pose, named+placed light>. Natural skin texture
+            with visible pores, no beauty filter, no airbrushing. Single person only." \
+  --image <real photo of Farrice> --image <real garment shot> \
+  --quality high --resolution 2k --aspect-ratio 2:3 --wait
+```
+
+Verified: Kith x The Matrix hoodie (code print + wordmark + KITH logo) and Kith x Peanuts Woodstock
+tee (bird, flower, grass band, box tab) both reproduced accurately on his face. **7 credits/image.**
+
+**The scar this corrects:** the table below was written from `text2image_soul_v2` alone, which has a
+hard `at most one image reference` constraint — the face and the garment could never occupy the same
+call. That constraint was generalised into "image models can't reproduce specific graphics," which was
+**wrong**, and it was stated to Farrice as settled fact after three experiments on one model. *A
+constraint of one model is never a law of the medium — check the whole roster (`model list`,
+`model get <id>` CONSTRAINTS, `workflow list`) before declaring anything impossible.* Cheapest model
+first is a false economy when it caps the capability you actually need.
+
+**Model selection, corrected:**
+
+| Need | Model | Cost |
+|---|---|---|
+| Identity-only (no branded garment) | `text2image_soul_v2` + Soul, 1 ref max | 0.12 |
+| **Real branded garment on him** | **`gpt_image_2`, person ref + garment ref** | **7** |
+| Cinematic register | `soul_cinema_studio` (adds `style_id`, 21:9) | 0.12 |
+
+## The single-reference law (applies to `text2image_soul_v2` ONLY — not the medium)
 
 The single image reference is powerful enough to **override the Soul entirely**. What the reference
 *is* decides whether you get your face or the reference's.

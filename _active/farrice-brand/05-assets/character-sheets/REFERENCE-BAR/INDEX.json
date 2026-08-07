@@ -1,0 +1,188 @@
+[
+  {
+    "id": "BAR01",
+    "job_id": "6090c4c3-1de0-42e8-85dd-8b1238b287ce",
+    "created_at": "2026-08-07T19:55:58.732027Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [],
+    "prompt": "Create one high-end photorealistic identity reference photograph of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>. Preserve Farrice Cain as the exact same recognizable adult man from the character reference and the approved GPT Image 2 anchor: true-to-life age and facial geometry, warm-brown skin with natural texture, authentic hairline and short tapered hair, thin mustache and soul-patch goatee. No beauty retouching, age shift, face substitution, stylization or collage. All garments are plain and unbranded with no logos, trademarks, graphic text or invented fashion products. Chest-up left three-quarter identity view, body and head turned about 30 degrees toward frame right, eyes into camera, calm relaxed expression. Plain black turtleneck and tailored black blazer, seamless warm-gray background, soft large key and gentle fill, natural 85mm perspective."
+  },
+  {
+    "id": "BAR02",
+    "job_id": "0951ac8c-acbf-4b91-b138-4ab14ddaece9",
+    "created_at": "2026-08-07T19:56:00.247746Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [],
+    "prompt": "Create one high-end photorealistic identity reference photograph of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>. Preserve Farrice Cain as the exact same recognizable adult man from the character reference and the approved GPT Image 2 anchor: true-to-life age and facial geometry, warm-brown skin with natural texture, authentic hairline and short tapered hair, thin mustache and soul-patch goatee. No beauty retouching, age shift, face substitution, stylization or collage. All garments are plain and unbranded with no logos, trademarks, graphic text or invented fashion products. Chest-up right near-profile identity test, camera sees the right side of his face, head rotated about 70 degrees toward frame left with the far eye still slightly visible, neutral expression, eyes just past camera. Preserve forehead, nose, lips, jaw and ear proportions. Plain black turtleneck and tailored black blazer, warm-gray background, soft studio light, natural 85mm perspective. Do not invent a strict silhouette profile."
+  },
+  {
+    "id": "BAR03",
+    "job_id": "98dbda2f-b39b-4422-b3f1-0347191677cf",
+    "created_at": "2026-08-07T20:38:00.661283Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/f62fbfc8-c04a-420f-96ba-5b287a64f6ec_resize.jpg"
+    ],
+    "prompt": "Photorealistic studio character reference portrait of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, skin tone and natural grooming from the Farrice-1 identity element. Use the attached image only as an expression target, never as a replacement identity. Plain unbranded black crewneck shirt, neutral warm-gray seamless background, chest-up centered composition, soft editorial studio lighting, realistic skin texture, no beauty-filter plasticity, no logos, no text, no eyewear. Expression: warm closed-mouth smile, relaxed eyes, approachable and confident."
+  },
+  {
+    "id": "BAR04",
+    "job_id": "55d7598f-011b-4403-ba35-d2146a5e6dc2",
+    "created_at": "2026-08-07T20:38:02.282316Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/f6e016d3-2773-4a46-aa6b-f37c62d327ea_resize.jpg"
+    ],
+    "prompt": "Photorealistic studio character reference portrait of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, skin tone and natural grooming from the Farrice-1 identity element. Use the attached image only as an expression target, never as a replacement identity. Plain unbranded black crewneck shirt, neutral warm-gray seamless background, chest-up centered composition, soft editorial studio lighting, realistic skin texture, no beauty-filter plasticity, no logos, no text, no eyewear. Expression: genuine open smile with natural teeth visible, joyful but professional."
+  },
+  {
+    "id": "BAR05",
+    "job_id": "fe27a212-8dde-46d9-aa12-ffe0641b510e",
+    "created_at": "2026-08-07T20:38:03.36423Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/1eca8ff6-ba7e-4898-9172-606329b0d6a3_resize.jpg"
+    ],
+    "prompt": "Photorealistic studio character reference portrait of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, skin tone and natural grooming from the Farrice-1 identity element. Use the attached image only as an expression target, never as a replacement identity. Plain unbranded black crewneck shirt, neutral warm-gray seamless background, chest-up centered composition, soft editorial studio lighting, realistic skin texture, no beauty-filter plasticity, no logos, no text, no eyewear. Expression: focused, serious attention, mouth relaxed and closed, steady direct eye contact."
+  },
+  {
+    "id": "BAR06",
+    "job_id": "672b77bb-1ccf-4d06-8368-3f0ce0490de2",
+    "created_at": "2026-08-07T20:38:05.429135Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/1eca8ff6-ba7e-4898-9172-606329b0d6a3_resize.jpg"
+    ],
+    "prompt": "Photorealistic studio character reference portrait of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, skin tone and natural grooming from the Farrice-1 identity element. Use the attached image only as an expression target, never as a replacement identity. Plain unbranded black crewneck shirt, neutral warm-gray seamless background, chest-up centered composition, soft editorial studio lighting, realistic skin texture, no beauty-filter plasticity, no logos, no text, no eyewear. Expression: subtly skeptical, one eyebrow slightly raised, restrained and intelligent, no caricature."
+  },
+  {
+    "id": "BAR07",
+    "job_id": "00745a1c-7e76-4c10-836c-e37920db28e1",
+    "created_at": "2026-08-07T20:38:06.744119Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/fe647002-a1d1-43ad-a666-f5d0fb07946e_resize.jpg"
+    ],
+    "prompt": "Photorealistic studio character reference portrait of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, skin tone and natural grooming from the Farrice-1 identity element. Use the attached image only as an expression target, never as a replacement identity. Plain unbranded black crewneck shirt, neutral warm-gray seamless background, chest-up centered composition, soft editorial studio lighting, realistic skin texture, no beauty-filter plasticity, no logos, no text, no eyewear. Expression: thoughtful half-smile, calm reflective eyes, poised and natural."
+  },
+  {
+    "id": "BAR08",
+    "job_id": "fea429bc-2e26-4de9-b77a-f6ff131d5633",
+    "created_at": "2026-08-07T20:39:06.439639Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/63994376-2957-48ff-b01f-ff175905e69c_resize.jpg"
+    ],
+    "prompt": "Photorealistic editorial image of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, warm brown skin tone, natural skin texture and grooming from the Farrice-1 identity element. The attached image is a front-face control only. No face substitution. Contemporary understated personal-brand photography, realistic anatomy and hands, no logos, no text, no fabricated branded apparel, no eyewear. Full-body seated pose on a simple black stool in a warm-gray studio, plain unbranded black bomber jacket over white crewneck tee, black trousers, clean white leather low-top sneakers. Relaxed upright posture, hands naturally resting, approachable half-smile, full figure and both feet visible."
+  },
+  {
+    "id": "BAR09",
+    "job_id": "ba935580-b915-42c3-a3d8-0e91421a5208",
+    "created_at": "2026-08-07T20:39:07.538384Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/63994376-2957-48ff-b01f-ff175905e69c_resize.jpg"
+    ],
+    "prompt": "Photorealistic editorial image of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, warm brown skin tone, natural skin texture and grooming from the Farrice-1 identity element. The attached image is a front-face control only. No face substitution. Contemporary understated personal-brand photography, realistic anatomy and hands, no logos, no text, no fabricated branded apparel, no eyewear. Full-body walking pose in a minimal concrete corridor with soft daylight, plain unbranded charcoal overshirt over black tee, black trousers, clean white leather low-top sneakers. Natural mid-stride movement, confident neutral expression, both hands and feet anatomically correct."
+  },
+  {
+    "id": "BAR10",
+    "job_id": "83f3bf71-0c92-4b38-a932-f0c776274fc2",
+    "created_at": "2026-08-07T20:39:09.151822Z",
+    "aspect_ratio": "3:4",
+    "quality": "medium",
+    "resolution": "2k",
+    "reference_elements": [
+      {
+        "name": "Farrice-1",
+        "id": "1e3e0cae-e3ba-47cc-a099-26456d94b103",
+        "category": "character"
+      }
+    ],
+    "control_images": [
+      "https://d2ol7oe51mr4n9.cloudfront.net/user_367BCVd2S3Tj262bWnP148Gamiw/63994376-2957-48ff-b01f-ff175905e69c_resize.jpg"
+    ],
+    "prompt": "Photorealistic editorial image of <<<1e3e0cae-e3ba-47cc-a099-26456d94b103>>>, Farrice Cain. Preserve the exact identity, facial proportions, hairline, warm brown skin tone, natural skin texture and grooming from the Farrice-1 identity element. The attached image is a front-face control only. No face substitution. Contemporary understated personal-brand photography, realistic anatomy and hands, no logos, no text, no fabricated branded apparel, no eyewear. Three-quarter-body presentation gesture in a modern neutral studio, plain unbranded black crewneck and black trousers. Farrice faces camera and gestures naturally with one open hand as if explaining an idea, composed energetic expression, ample clean negative space."
+  }
+]
