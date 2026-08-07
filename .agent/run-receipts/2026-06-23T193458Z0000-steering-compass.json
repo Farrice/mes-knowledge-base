@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-23T19:34:58+00:00",
+  "query": "Persist Insightful Momentum steering globally and per exchange, not only slash commands",
+  "route": "steering-compass",
+  "status": "PASS",
+  "owner": "steering-compass",
+  "support_gates": "system-audit,end-session",
+  "expert_lenses": "",
+  "subagent_boundary": "No subagents used; main thread patched global and workspace instruction surfaces, added verifier coverage, and ran full verification.",
+  "meta_intent": "operating-alignment",
+  "composition_owner": "steering-compass",
+  "feedback_hook": "",
+  "changed": "Added Persistent Per-Exchange Steering to workspace AGENTS.md; added the same global default to ~/.codex/AGENTS.md; added verify_global_steering_persistence.py; wired the new verifier into verify_google_operator_core.py. The contract now says every meaningful final exchange gets enriched steering by default, not only slash commands or workflows.",
+  "passed": "py_compile PASS; verify_global_steering_persistence.py PASS; verify_steering_compass_quality.py PASS; verify_global_execution_bias_bridge.py PASS; verify_google_operator_core.py PASS with global_steering_persistence PASS; contextual_next_prompts sample renders enriched fields visibly.",
+  "failed": "none",
+  "needs_judgment": "The persistence contract is now present globally and locally, verifier-backed, and not command-only. Actual behavior still depends on higher-priority silence/terse-answer/tool constraints, but the default Codex instruction surface now requires it for meaningful final answers.",
+  "next_action": "Fresh-session smoke prompt: Answer a normal non-command request and close with Insightful Momentum follow-ups plus Operator Lesson; do not wait for /steering-compass or /end-session."
+}

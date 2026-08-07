@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-23T20:15:24+00:00",
+  "query": "Verify and refine visible answer surface for persistent global per-exchange steering",
+  "route": "steering-compass",
+  "status": "PASS",
+  "owner": "steering-compass",
+  "support_gates": "system-audit",
+  "expert_lenses": "",
+  "subagent_boundary": "No subagents used; main thread patched renderer inference and persistence verifier, then ran full verification.",
+  "meta_intent": "operating-alignment",
+  "composition_owner": "steering-compass",
+  "feedback_hook": "",
+  "changed": "Added steering_persistence work type to contextual_next_prompts for per-exchange, command-only, visible-answer-surface, persistent-global prompts; updated verify_global_steering_persistence.py to test this exact phrase family and require normal-answer smoke test, instruction-surface audit, and visible-answer benchmark language.",
+  "passed": "py_compile PASS; contextual_next_prompts sample for the exact user prompt now renders normal-answer smoke test, global/workspace instruction surface audit, and visible-answer benchmark with enriched fields; verify_global_steering_persistence.py PASS; verify_steering_compass_quality.py PASS; verify_google_operator_core.py PASS with global_steering_persistence PASS.",
+  "failed": "Initial visible sample over-routed the exact user prompt into generic system repair language; patched and reverified.",
+  "needs_judgment": "The persistence contract is present globally and locally, and the visible answer surface now has a dedicated proof pattern instead of generic repair prompts.",
+  "next_action": "Fresh-session smoke prompt: Ask a normal question, then verify the final answer includes enriched steering without invoking any command."
+}

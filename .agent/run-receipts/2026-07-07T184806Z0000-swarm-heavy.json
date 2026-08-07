@@ -1,0 +1,20 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-07-07T18:48:06+00:00",
+  "query": "Given Path A (claim-safe content for funded health/wellness brands; incumbency rule: no repositioning or new offers until $5K/mo collected) and today's research finding that compliance-first agencies have converged on positioning language but show ZERO public proof of funded-brand clients: what is the single best proof-of-work artifact Farrice should build to win his first funded health-brand client, and exactly how should it be packaged and delivered? Constraint: must be buildable solo with his AI system in under a week.",
+  "route": "swarm/heavy",
+  "status": "PASS — 16 agent(s), 1017744 token(s) spent",
+  "owner": "swarm",
+  "support_gates": "12-worker cap; plan-gate compass-not-cage; fan_out=8",
+  "expert_lenses": "Nate Herk [mechanism-first]; Ross McKay [risk-first]; Paul Harding [buyer-psychology]; Dan Wang [distribution]; dan-bolton-coaching-offers [economics]; deya-business-systems [contrarian]; jay-hiette-coaching-positioning [evidence-audit]; Sky Tan [simplicity]",
+  "subagent_boundary": "fan_out=8",
+  "subagents_requested": "8",
+  "meta_intent": "swarm/heavy mission 'path-a-proof-of-work'",
+  "composition_owner": "swarm_conductor.py",
+  "feedback_hook": "",
+  "changed": "strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md",
+  "passed": "First live heavy run. 16/16 agents, 0 errors, 7.9 min, $0. 6/8 lens convergence + 5 preserved forks w/ falsifiable resolvers. Verify pass REFUTED the mission's own load-bearing premise (from this morning's research) and the answer was corrected in place. PATH DECISION guard honored by all 8 takes.",
+  "failed": "",
+  "needs_judgment": "",
+  "next_action": "Review deliverable; re-run `plan` for any flagged fork/gap."
+}

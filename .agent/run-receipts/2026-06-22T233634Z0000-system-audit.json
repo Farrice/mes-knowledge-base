@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-22T23:36:34+00:00",
+  "query": "Make Google Antigravity execution-bias repair run globally in Codex",
+  "route": "system-audit",
+  "status": "PASS",
+  "owner": "system-audit",
+  "support_gates": "autopilot,steering-compass",
+  "expert_lenses": "",
+  "subagent_boundary": "No subagents used for global bridge; main thread owned global instruction edits after explicit user request and approval-gated write.",
+  "meta_intent": "operating-alignment",
+  "composition_owner": "system-audit",
+  "feedback_hook": "",
+  "changed": "/Users/farricecain/.codex/AGENTS.md; /Users/farricecain/.codex/skills/system-audit/SKILL.md; /Users/farricecain/.codex/skills/autopilot/SKILL.md; /Users/farricecain/.codex/skills/source-command-autopilot/SKILL.md; /Users/farricecain/.codex/skills/source-command-system-audit/SKILL.md",
+  "passed": "global bridge rg proof; Google operator core verifier PASS; preflight emits Run Locally with local_next_action; run receipt verifier PASS; subagent approval verifier PASS",
+  "failed": "none",
+  "needs_judgment": "Global behavior is now bridged, not forked: ~/.codex carries the execution-bias contract and points current-workspace Google work to the Google preflight/local_next_action path.",
+  "next_action": "Fresh-session smoke prompt: Codex is planning instead of acting; run the safe local next action and prove it."
+}
