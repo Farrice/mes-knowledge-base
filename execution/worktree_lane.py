@@ -707,14 +707,24 @@ def cmd_doctor(args) -> int:
         if state == "LEGACY":
             notes.append("unregistered — merge or park by hand once, "
                          "or `bootstrap` inside it to adopt")
-        broken = [rel for rel in SHARED_LINKS
-                  if (path / rel).is_symlink() and not (path / rel).exists()]
+        broken = []
+        for rel in SHARED_LINKS + SPEND_LINKS:
+            p = path / rel
+            src = main / rel
+            if not os.path.lexists(src) or _is_tracked(path, rel):
+                continue  # nothing to provide, or pre-migration tracked copy
+            if p.is_symlink() and not p.exists():
+                broken.append(rel)          # dangling
+            elif not os.path.lexists(p):
+                broken.append(rel)          # deleted entirely
         if broken:
             issues += 1
-            notes.append(f"broken links: {', '.join(broken[:3])}")
+            notes.append(f"broken/missing links: {', '.join(broken[:3])}")
             if args.fix:
                 for rel in broken:
-                    (path / rel).unlink()
+                    p = path / rel
+                    if p.is_symlink():
+                        p.unlink()
                     _link(main, path, rel)
                 notes.append("(re-linked)")
         try:

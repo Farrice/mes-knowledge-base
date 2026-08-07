@@ -184,3 +184,4 @@ _active/hyperframes-studio/
 .agent/event-listener.log
 .agent/sessions/observe-log.jsonl
 .agent/sessions/steering-observe.jsonl
+.agent/pulse-serve.log
