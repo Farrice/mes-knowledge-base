@@ -21,7 +21,7 @@ pin: true
    - Farrice pastes the kit's Step-1 block into claude.ai (or CoWork) as one message → Claude builds the artifact → QA with the kit's 3 test claims (expect LANDMINE / CAUTION / CLEAR) → Publish → public link into Featured card [1] (card copy in kit Step 3) → ship the launch post (kit Step 4, voice-gated).
    - Note: artifact must be published from FARRICE's claude.ai account; an agent can't do it for him. Viewers need a free Claude login for the AI grading (zero-login fallback = the 7-check Google-Doc test; they cross-link).
 2. **Profile + Featured live** per `_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md` (~45 min). About/headlines are rewritten and ready in `02-offer/featured-section-and-profile.md`.
-3. **The daily loop starts** — `_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md` §4 (90-min run w/ exit criteria), week 1 of 14 (§10). Build the 30-name warm list (three buckets, §9-motion) and book 3–5 ICP interviews (§7-B script + §7-C golden question).
+3. **The daily loop starts** — `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md` §4 (90-min run w/ exit criteria), week 1 of 14 (§10). Build the 30-name warm list (three buckets, §9-motion) and book 3–5 ICP interviews (§7-B script + §7-C golden question).
 
 ## Standing decisions (do NOT re-litigate)
 
@@ -34,7 +34,7 @@ pin: true
 - `git push origin main` **from Farrice's terminal** is the one pending sync step (the block-dangerous-git hook stops agents from pushing — by design, don't route around).
 - Content OS: 14 exemplar posts deslopped + sameness-verified; canonical text = `04-content-os/starter-content-batch.md`.
 - Offer: `02-offer/CANONICAL-OFFER-BRIEF.md` (enhanced + red-teamed + zero-load §5) · one-pager rewritten as story (`02-offer/OFFER-ONE-PAGER.md`) · lead magnet de-lectured.
-- Hub reorg done: domain folders `00-start-here … 99-archive` mirror the Control Tower; front door = `_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md`.
+- Hub reorg done: domain folders `00-start-here … 99-archive` mirror the Control Tower; front door = `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md`.
 
 ## Open items (small, tracked)
 

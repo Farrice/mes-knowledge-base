@@ -9,7 +9,7 @@
 
 ## ⚡ DO THIS TODAY (ship — this is what makes money)
 0. **The daily rep card (open this one first):** `_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md` — Day 1 sequence + daily 45-min oracle/DM reps + scoreboard, all pointing at the files below.
-1. **Set profile + Featured + go live:** `_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md` → then the step-by-step `_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md`.
+1. **Set profile + Featured + go live:** `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/START-HERE-2026-06-23.md` → then the step-by-step `_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md`.
 2. **Post the blitz (copy-paste ready):** `_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md` (+ `_active/linkedin-launch/03-launch/QUICK_REFERENCE_COPYPASTE.md`).
 3. **First DM lands → fulfill the $500 audit:** `_active/linkedin-launch/02-offer/claim-safe-citation-audit-TEMPLATE.md`.
 > The launch is DONE and committed. The bottleneck is publishing — not building. Ship first, polish later.
@@ -37,7 +37,7 @@
 | `_active/linkedin-launch/02-offer/featured-section-and-profile.md` | Profile headline + About + the 4 Featured cards. |
 
 ### 3 · LAUNCH (ship today — see §DO THIS TODAY)
-`../00-start-here/START-HERE-2026-06-23.md` · `../03-launch/LAUNCH-DECK-2026-06-23.md` · `../03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md` · `../03-launch/QUICK_REFERENCE_COPYPASTE.md`.
+`../00-start-here/START-HERE-2026-06-23.md` · `../../03-launch/LAUNCH-DECK-2026-06-23.md` · `../../03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md` · `../../03-launch/QUICK_REFERENCE_COPYPASTE.md`.
 
 ### 4 · CONTENT OS (ongoing content — run daily)
 | Canonical | What it is |

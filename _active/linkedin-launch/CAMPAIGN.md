@@ -8,18 +8,18 @@
 
 | # | Mission | Status | Artifacts |
 |---|---|---|---|
-| 1 | Offer wargame + cash-first activation + battle card + fresh research | ✅ DONE 07-29 | `../02-offer/OFFER-WARGAME-2026-07-28.md` · `../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md` · `../01-research/ICP-BATTLE-CARD.md` |
-| 2 | Profile go-live master doc (Take A locked, banner brief, Featured w/ $750 Angle Map, all fields) | ✅ DONE 07-28 | `../03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` |
+| 1 | Offer wargame + cash-first activation + battle card + fresh research | ✅ DONE 07-29 | `02-offer/OFFER-WARGAME-2026-07-28.md` · `03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md` · `01-research/ICP-BATTLE-CARD.md` |
+| 2 | Profile go-live master doc (Take A locked, banner brief, Featured w/ $750 Angle Map, all fields) | ✅ DONE 07-28 | `03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` |
 | 2b | External activation: send first 5 verified one-gap DMs and log them; add real $750 payment rail before second touch/quote | 🟡 PREP READY 07-31 | `05-lead-gen/2026-07-31-MISSION-2B-SEND-READINESS.md` · DMs finalized + payment setup guide + send checklist |
-| 3 | One-gap DM system + 5 evidence-grounded examples + first-wave candidate research | ✅ DONE 07-29 | `../05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` · `../05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md` |
-| 4 | Teardown #1 → 10-slide PDF carousel (publishes Fri 07-31) | ✅ DONE 07-29 | `../03-launch/carousels/2026-07-29-carousel-01-transparent-labs-10-slide.md` · source: teardown-01 |
-| 5 | Teardowns #2/#3 → carousels (publish 08-04, 08-06) | ✅ DONE 08-04 | `../03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md` · `../03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md` |
-| 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ✅ DONE 08-04 | `../03-launch/2026-08-04-week-2-pov-batch.md` |
+| 3 | One-gap DM system + 5 evidence-grounded examples + first-wave candidate research | ✅ DONE 07-29 | `05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` · `05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md` |
+| 4 | Teardown #1 → 10-slide PDF carousel (publishes Fri 07-31) | ✅ DONE 07-29 | `03-launch/carousels/2026-07-29-carousel-01-transparent-labs-10-slide.md` · source: teardown-01 |
+| 5 | Teardowns #2/#3 → carousels (publish 08-04, 08-06) | ✅ DONE 08-04 | `03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md` · `03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md` |
+| 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ✅ DONE 08-04 | `03-launch/2026-08-04-week-2-pov-batch.md` |
 | 7 | Day-7 checkpoint review after clock starts: sent/held/sold/collected verdict | ⚪ WAITING FOR DAY 1 | cash scoreboard + activation decision tests |
 | 8 | Carousel visual assets | ⚪ PARKED UNTIL DAILY SENDS | mission 4 output feeds it |
 | 10 | Context OS package (7 docs) + Google Drive export for global AI use | ✅ DONE 07-29 (Drive 17/17 verified) | `04-deliverables/context-os/` + Drive folder "Farrice — LinkedIn Launch OS" |
-| 11 | Non-About profile copy (Experience ×3, Featured ×3, Services) to the Take A bar | ✅ DONE 07-30 (v8.5 POP-first) | `../03-launch/2026-07-30-profile-copy-v8-POP.md` · `../03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md` (updated with v8.5) · banners A & B rendered HTML + PNG `../03-launch/banner/` |
-| 12 | Cash operating rails: canonical offer OS, activation packet, delivery/intake, pipeline, cash scoreboard, stale-asset retirement | ✅ DONE 07-29 — external links still blocked | `../02-offer/ANGLE-MAP-ACTIVATION-PACKET.md` · `../05-lead-gen/pipeline.md` · `../05-lead-gen/CASH-SCOREBOARD-2026-07-29.md` |
+| 11 | Non-About profile copy (Experience ×3, Featured ×3, Services) to the Take A bar | ✅ DONE 07-30 (v8.5 POP-first) | `03-launch/2026-07-30-profile-copy-v8-POP.md` · `03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md` (updated with v8.5) · banners A & B rendered HTML + PNG `03-launch/banner/` |
+| 12 | Cash operating rails: canonical offer OS, activation packet, delivery/intake, pipeline, cash scoreboard, stale-asset retirement | ✅ DONE 07-29 — external links still blocked | `02-offer/ANGLE-MAP-ACTIVATION-PACKET.md` · `05-lead-gen/pipeline.md` · `05-lead-gen/CASH-SCOREBOARD-2026-07-29.md` |
 | 9 | SYSTEM: Global org sweep — propose-first move-plan + PROJECTS.md + repo-wide canon stamps (Opus 5 A/B candidate) | ✅ DONE 07-28 (approved in-session, then executed) | `PROJECTS.md` · `.agent/missions/global-org-sweep/move-plan.md` · `execution/projects_index.py` |
 
 ## Standing facts (so no session re-asks)

@@ -224,6 +224,31 @@ def apply(plan: dict, stub: bool) -> dict:
         if n:
             rewrites[str(p)] = n
 
+    # Recompute the OUTBOUND relative links inside the files that just moved.
+    #
+    # SCAR 2026-08-07: this tool rewrote every reference TO the moved thing but
+    # never touched references FROM inside it. Moving a tree to a different
+    # DEPTH therefore silently broke its own links: `../02-offer/x.md` was
+    # correct at <project>/00-start-here/ and points into the archive from
+    # <project>/99-archive/<date>/00-start-here-june-era/. Measured: archiving
+    # two dead front doors ADDED 16 broken links. project_filer.rewrite_file
+    # already solves exactly this, so borrow it rather than reimplement.
+    internal = 0
+    if dst.is_dir():
+        try:
+            import project_filer as _pf
+            for moved in dst.rglob("*"):
+                if not moved.is_file() or moved.suffix.lower() not in {".md", ".txt"}:
+                    continue
+                old_dir = src / moved.relative_to(dst).parent
+                # rel_pairs=[] — the src->dst string swap already ran above;
+                # this pass is only for path RECOMPUTATION.
+                internal += _pf.rewrite_file(moved, old_dir, {}, [])
+        except Exception as exc:
+            print(f"  (internal link recompute skipped: {exc})")
+    if internal:
+        rewrites["<internal links in moved files>"] = internal
+
     if stub:
         src.mkdir(parents=True, exist_ok=True)
         (src / "MOVED.md").write_text(

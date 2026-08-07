@@ -1,6 +1,10 @@
 #!/bin/sh
 # Auto-generated inverse moves (newest first). Re-run to revert.
 
+mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/00-start-here"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/04-deliverables/content-os/launch-sequence-stanton.md" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/content-os/launch-sequence-stanton.md"
 # Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/04-deliverables/content-os/receipt-arc-novelty-pass" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/content-os/receipt-arc-novelty-pass"

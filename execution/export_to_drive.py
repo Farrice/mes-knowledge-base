@@ -43,7 +43,7 @@ AUTH_HINTS = ("invalid_grant", "token", "unauthorized", "401", "credential", "ex
 
 # Curated, non-daily assets: (relative path, Doc name, kind). kind: doc | system | content
 CORE = [
-    ("_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md", "Farrice — The Creative Book (Daily)", "doc"),
+    ("_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md", "Farrice — The Creative Book (Daily)", "doc"),
     ("_active/linkedin-launch/01-research/MASTER-STRATEGY.md", "Farrice — Master Strategy", "doc"),
     ("_active/linkedin-launch/content-os.md", "Farrice — Content OS", "doc"),
     ("_active/linkedin-launch/01-research/icp-emotional-map.md", "Farrice — ICP Emotional Map", "doc"),

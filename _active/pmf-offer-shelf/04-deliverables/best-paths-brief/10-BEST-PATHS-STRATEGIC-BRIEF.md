@@ -54,7 +54,7 @@ These are paths where market demand is **already validated** (receipts exist), c
 
 **Pricing Readiness**: 8/10 (comps set, solo economics proven, $500 founder-pilot → $1.5K standard is defensible). Only risk: underpriced if case studies arrive before month 2.
 
-**Delivery Playbook**: Locked. See `_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md` (Marcus probe + 14-day protocol).
+**Delivery Playbook**: Locked. See `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md` (Marcus probe + 14-day protocol).
 
 **PMF Evidence**: 
 - ✅ Audit lead-gen motion is third-party validated (My Web Audit agency playbook)

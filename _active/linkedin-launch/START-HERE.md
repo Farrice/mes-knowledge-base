@@ -1,17 +1,10 @@
 # Linkedin Launch — start here
 
-*Generated 2026-08-07 11:07 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:09 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
 ## Live now
-
-**00-start-here**
-
-- `00-start-here/CREATIVE-BOOK.md` — touched 2026-07-01
-- `00-start-here/SYSTEM-FLOWCHART.md` — touched 2026-07-01
-- `00-start-here/PLAYBOOK-README.md` — touched 2026-07-01
-- `00-start-here/START-HERE-2026-06-23.md` — touched 2026-07-01
 
 **01-research**
 
@@ -183,8 +176,8 @@
 
 - `04-deliverables/content-os/launch-sequence-stanton.md` — touched 2026-08-07
 - `04-deliverables/content-os/receipt-arc-novelty-pass/CAMPAIGN-MAP.md` — touched 2026-08-07
+- `04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` — touched 2026-08-07
 - `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` — touched 2026-08-05
-- `04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` — touched 2026-08-05
 - `04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — touched 2026-07-31
 - `04-deliverables/lane-briefs-2026-07-29.md` — touched 2026-07-29
 - `04-deliverables/context-os/06-PROOF-LIBRARY.md` — touched 2026-07-29
@@ -262,7 +255,6 @@
 - `04-deliverables/content-os/mini-briefs/concept-dossier.md` — touched 2026-07-28
 - `04-deliverables/spec-samples/SPEC-BROXTERMAN-2026-07-21.md` — touched 2026-07-22
 - `04-deliverables/spec-samples/SPEC-ROSNER-2026-07-21.md` — touched 2026-07-22
-- `04-deliverables/00-CONTROL-TOWER.md` — touched 2026-07-09
 
 **05-lead-gen**
 
@@ -364,7 +356,7 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 - `05-lead-gen/SEND-READY-FIRST-WAVE-2026-07-31.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
 - `05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
 - `05-lead-gen/CASH-SCOREBOARD-2026-07-29.md` still carries `status: canonical` — delete the stamp; position and date are the truth now
-- **7 files claim to be the front door** — `00-start-here/START-HERE-2026-06-23.md`, `02-offer/00-START-HERE-FEATURED-FUNNEL.md`, `02-offer/INDEX-AI-SEARCH-SHADOW.md`, `02-offer/INDEX-FEATURED-SECTION.md`, `04-deliverables/00-CONTROL-TOWER.md`, `04-deliverables/content-os/content-team-os/launch-assets/00-START-HERE.md`. START-HERE.md is the front door; the rest are history.
+- **5 files claim to be the front door** — `02-offer/00-START-HERE-FEATURED-FUNNEL.md`, `02-offer/INDEX-AI-SEARCH-SHADOW.md`, `02-offer/INDEX-FEATURED-SECTION.md`, `04-deliverables/content-os/content-team-os/launch-assets/00-START-HERE.md`, `START-HERE.md`. START-HERE.md is the front door; the rest are history.
 
 ## Media
 
@@ -374,8 +366,8 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Health
 
-- living docs: 278
+- living docs: 273
 - records: 32
-- archived (not counted above): 87
-- broken links in this tree: 547
+- archived (not counted above): 93
+- broken links in this tree: 537
 

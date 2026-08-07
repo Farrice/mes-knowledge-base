@@ -30,7 +30,7 @@ Read `_active/linkedin-launch/01-research/MASTER-STRATEGY.md` (beachhead, lane s
 
 ## Step 0.5 — Load the depth + empathy layer (every content/offer run — this is the apex bar)
 
-Load before any public artifact: `_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md` (the operating frame), `_active/linkedin-launch/01-research/icp-emotional-map.md` (**the empathy moat** — broken promises, the 2am replaceability fear, daily life; *reassure the human, indict the machine*), the latest `daily/brand-radar-*.md` (named specifics), `skills/fresh-voice-system/genius.md` (the **Cognitive Signature**), `aha-engine` + `kobi-brown` (cognitive-change). The bar: every piece creates a real perception shift, makes the ICP feel **seen better than their own team gets them**, leaves them better off. "Polished but flat" fails; "informs but doesn't make them feel seen" fails.
+Load before any public artifact: `_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era/CREATIVE-BOOK.md` (the operating frame), `_active/linkedin-launch/01-research/icp-emotional-map.md` (**the empathy moat** — broken promises, the 2am replaceability fear, daily life; *reassure the human, indict the machine*), the latest `daily/brand-radar-*.md` (named specifics), `skills/fresh-voice-system/genius.md` (the **Cognitive Signature**), `aha-engine` + `kobi-brown` (cognitive-change). The bar: every piece creates a real perception shift, makes the ICP feel **seen better than their own team gets them**, leaves them better off. "Polished but flat" fails; "informs but doesn't make them feel seen" fails.
 
 ## Mode: `daily` (content + distribution + lead motion)
 

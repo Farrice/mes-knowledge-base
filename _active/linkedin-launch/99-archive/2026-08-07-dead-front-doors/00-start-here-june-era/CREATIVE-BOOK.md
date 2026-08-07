@@ -8,7 +8,7 @@ superseded_by: ../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md
 # The Creative Book — Farrice Cain · LinkedIn
 ## The every-morning production playbook. Open this, run it top to bottom, close the laptop.
 
-> **Refreshed 2026-07-01** against the enhanced offer + market receipts. Sources it composes: `../02-offer/CANONICAL-OFFER-BRIEF.md` (THE offer) · `../02-offer/OFFER-ONE-PAGER.md` (send this) · `../01-research/MARKET-ICP-DOSSIER-2026-06.md` (buyer truth) · `../01-research/MARKET-OFFER-INTEL-2026-07-01.md` (price receipts) · `../04-content-os/CONTENT-OS.md` + `starter-content-batch.md` (14 ready posts) · `../05-lead-gen/pipeline.md` + `proof-tracker.md`.
+> **Refreshed 2026-07-01** against the enhanced offer + market receipts. Sources it composes: `../../../02-offer/CANONICAL-OFFER-BRIEF.md` (THE offer) · `../../../02-offer/OFFER-ONE-PAGER.md` (send this) · `../../../01-research/MARKET-ICP-DOSSIER-2026-06.md` (buyer truth) · `../../../01-research/MARKET-OFFER-INTEL-2026-07-01.md` (price receipts) · `../04-content-os/CONTENT-OS.md` + `starter-content-batch.md` (14 ready posts) · `../../../05-lead-gen/pipeline.md` + `proof-tracker.md`.
 > **The rule this whole doc obeys:** content earns attention; **conversations convert it.** A morning that ships a post but sends zero DMs is half a morning.
 
 ---
@@ -17,7 +17,7 @@ superseded_by: ../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md
 **The credentialed body-expert who makes health brands the source AI search names — and whose claims survive scrutiny.** 18 years in human performance (NASM CPT/CES/PES), deployed as evidence, never as a résumé bullet. Not a coach. Not an "AI guy." The one operator who reads the evidence behind the physiology claim AND structures it so the machine carries it.
 
 **The one-liner (say it exactly like this):** *"AI is answering your buyers' questions with someone else's name. I fix that — with claims that can't blow up."*
-**The five sound bites** live in `../02-offer/SOUND-BITES.md` — open every asset on one, close on the End Result (*"Type the question in front of your founder. Watch your name come back."*). Repeat them verbatim until strangers can. (Internal framing, for your own head only: the two-gate insight — content that survives the FTC is the content AI cites.)
+**The five sound bites** live in `../../../02-offer/SOUND-BITES.md` — open every asset on one, close on the End Result (*"Type the question in front of your founder. Watch your name come back."*). Repeat them verbatim until strangers can. (Internal framing, for your own head only: the two-gate insight — content that survives the FTC is the content AI cites.)
 
 ## 2. Who I serve + what they feel (the 2am truths — echo, never lecture)
 **Dana** (Head of Brand/Growth, $3–40M DTC wellness): *"Rankings say we're fine but the clicks are gone. If the founder types our category into ChatGPT and sees three competitors named, that's my job."* Reassure the human, indict the machine. Hand her a scoreboard she can win.
@@ -35,7 +35,7 @@ Every post: a real accommodation-surprise (the corrected mechanism, "Oh!" not "H
 | 2 | **Post** | 20–30 min | Ship today's post from the interleave in `starter-content-batch.md`, or run `/geo-content` for net-new (`--jack` if the moment is hot and in-window). | 1 post live |
 | 3 | **Comments** | 20 min | 10 substantive comments: 5 on target-brand decision-makers' posts, 5 on peers/adjacent experts. Each = a micro-read or missing mechanism. Never "great post." | 10 comments |
 | 4 | **DMs — the conversion block** | 20–30 min | (a) Reply to every inbound. (b) Message new connection-acceptances with a familiarity opener. (c) 2–3 warm-list touches (scripts in §7). (d) Any profile-view/save/comment from a brand lead = a signal → soft teardown DM. | Inbox zero + 3 outbound |
-| 5 | **Log** | 5 min | Yesterday's numbers → `../06-automation/daily/performance-log.md`. New warm lead → `../05-lead-gen/pipeline.md` with stage. | Logged |
+| 5 | **Log** | 5 min | Yesterday's numbers → `../../../06-automation/daily/performance-log.md`. New warm lead → `../../../05-lead-gen/pipeline.md` with stage. | Logged |
 
 **Weekly (non-negotiable):** 1 named-brand teardown (post it + DM it to that brand's lead — the single best proof-and-lead act) · 200 blank connection requests into the target-brand orbit (10 minutes, no notes) · 1 Pennock-play check (am I citable yet for a performance query? screenshot progress) · Friday: pipeline review + next week's post picks.
 
@@ -63,7 +63,7 @@ Signal (profile view / comment / save / connection-accept from a brand lead) →
 **Decision-maker profile views → decision-maker DMs → calls/audits → signed.** Likes and impressions are noise. Log daily in `performance-log.md`; stage every lead in `pipeline.md`; real outcomes only in `proof-tracker.md` (never invented).
 
 ## 9. Ammunition (who I'm aiming at — refresh via the weekly radar)
-Top targets: **Create Wellness, Gorgie, Gainful, Momentous, Four Sigmatic, Hilma, Bala, Joovv, Plunge, Rasa** (+ the 20-brand list in `../01-research/wellness-supplement-brand-niche.md`). The teardown target each week = whichever is running activity-not-angle or sitting on a claim the machine won't carry.
+Top targets: **Create Wellness, Gorgie, Gainful, Momentous, Four Sigmatic, Hilma, Bala, Joovv, Plunge, Rasa** (+ the 20-brand list in `../../../01-research/wellness-supplement-brand-niche.md`). The teardown target each week = whichever is running activity-not-angle or sitting on a claim the machine won't carry.
 
 ## 10. The 90-day focus (which week am I in?)
 - **Weeks 1–2 — SETUP:** profile + Featured live (per GO-LIVE). Warm list built: 30+ names across past pipeline / past contacts / peers with ICP access. First teardown shipped. Pennock play started. 3–5 interviews booked. Daily run starts.
@@ -71,7 +71,7 @@ Top targets: **Create Wellness, Gorgie, Gainful, Momentous, Four Sigmatic, Hilma
 - **Weeks 7–10 — PROOF:** audit #3 → install attaches → first case-study drafts. Screenshots into the feed.
 - **Weeks 10–14 — CONVERT:** first retainer(s) at $2.5–3.5K. Prices step to standard. Raise-path fires after case study #3.
 - **The trap to refuse at every stage:** building more system instead of sending more DMs. The machine is built. The bottleneck is conversations.
-- **The stop-loss (ratified 2026-07-01, after the path comparison — `../01-research/PATH-DECISION-BRIEF-2026-07-01.md`):** this offer sells UNCHANGED until 3 paid clients or 60 days, whichever is later. No re-architecting inside the window. If week 6 feels wrong, the fix is the motion (DMs, warm list, teardowns), never the identity. Re-open the path question only with conversion data, not a feeling.
+- **The stop-loss (ratified 2026-07-01, after the path comparison — `../../../01-research/PATH-DECISION-BRIEF-2026-07-01.md`):** this offer sells UNCHANGED until 3 paid clients or 60 days, whichever is later. No re-architecting inside the window. If week 6 feels wrong, the fix is the motion (DMs, warm list, teardowns), never the identity. Re-open the path question only with conversion data, not a feeling.
 
 ## 11. Today's card (fill in 60 seconds, then run §4)
 - Ride-able moment: [ ] · Post shipping: [batch # or /geo-content] · Teardown day? [Y/N → brand]

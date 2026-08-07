@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T11:09:22.221723+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/linkedin-launch/00-start-here",
+  "dst": "_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-start-here-june-era",
+  "stub_left": false,
+  "files_moved": 5,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-01-geo-content.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/baseline-linkedin-2026-08-07.json": 94,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/farrice-engine.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/linkedin-daily.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/projects/2026-06-23-revenue-source-to-search-trust-layer-glp1/06-content-system/2026-06-23-linkedin-creative-briefs-pillars-themes-angles-post-ideas.metadata.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/90-exports/drive-export-manifest.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/export_to_drive.py": 1
+  },
+  "total_rewrites": 101,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}
