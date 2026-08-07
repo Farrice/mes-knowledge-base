@@ -11789,7 +11789,7 @@
       "skill": "fresh-voice-system",
       "file_type": "SKILL.md",
       "section": "Key References",
-      "content": "## Key References\n| Reference | Path | Purpose |\n|-----------|------|---------|\n| Genius Context | [genius.md](genius.md) | Load before any workflow \u2014 serial narrative principles, meta-prompt, hidden knowledge |\n| Voice-First Pipeline | `.agent/workflows/voice-first-content.md` | Extended pipeline for research-heavy content |\n| Comedy System | `agents/robert-mack/AGENT.md` | Deep comedy mechanics when needed |\n| Active Arcs | `_active/linkedin/arcs/` | Current narrative arc plans and chapters |",
+      "content": "## Key References\n| Reference | Path | Purpose |\n|-----------|------|---------|\n| Genius Context | [genius.md](genius.md) | Load before any workflow \u2014 serial narrative principles, meta-prompt, hidden knowledge |\n| Voice-First Pipeline | `.agent/workflows/voice-first-content.md` | Extended pipeline for research-heavy content |\n| Comedy System | `agents/robert-mack/AGENT.md` | Deep comedy mechanics when needed |\n| Active Arcs | `_active/linkedin-launch/arcs/` | Current narrative arc plans and chapters |",
       "word_count": 63,
       "id": 1178
     },

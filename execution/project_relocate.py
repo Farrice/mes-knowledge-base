@@ -78,8 +78,36 @@ class GrepFailure(RuntimeError):
     referrers" — that silently downgrades a move to one with zero rewrites."""
 
 
+def _snapshot_roots() -> tuple[str, ...]:
+    """Projects that are a COPY of this repo, not part of it.
+
+    A harvest/snapshot project contains its own `_active/` tree. A repo-wide
+    rewrite reaches inside it and edits what that snapshot said on the day it
+    was taken — that is editing history, not maintenance. Detected 2026-08-07:
+    an arena rename rewrote 20 references across 8 files inside a 2026-06-11
+    harvest, including its own HARVEST-MANIFEST.md.
+
+    Checking for two `_active/` segments in a path is NOT enough — files at the
+    snapshot's own root (its 06-system/, its .agent/) have only one.
+    """
+    roots = []
+    active = ROOT / "_active"
+    if active.is_dir():
+        for child in active.iterdir():
+            if child.is_dir() and (child / "_active").is_dir():
+                roots.append(f"_active/{child.name}/")
+    return tuple(roots)
+
+
+_SNAPSHOTS = _snapshot_roots()
+
+
 def _is_frozen(line: str) -> bool:
-    return any(str(line).startswith(f) or f in str(line) for f in FROZEN)
+    s = str(line)
+    rel = s[len(str(ROOT)) + 1:] if s.startswith(str(ROOT)) else s
+    if any(rel.startswith(sr) for sr in _SNAPSHOTS):
+        return True
+    return any(s.startswith(f) or f in s for f in FROZEN)
 
 
 def _keep(line: str) -> bool:

@@ -274,7 +274,7 @@ Profile copy (headline, About, Featured) requires ADDITIONAL diagnostics beyond 
 4. The writing itself must **demonstrate** the service being sold
 
 ### Pre-Treatment: Content Ecosystem Check
-Before ANY draft, read ALL active content in `_active/linkedin/arcs/` and map off-limits language:
+Before ANY draft, read ALL active content in `_active/linkedin-launch/arcs/` and map off-limits language:
 - Distinctive phrases from upcoming/recent posts
 - Metaphors, proof stories, dialogue that posts own
 - Any language that would overlap and flatten impact

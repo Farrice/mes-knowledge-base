@@ -100,12 +100,12 @@ From the [LinkedIn Launch Status](file:///Users/farricecain/.gemini/antigravity/
 
 ### Key Project Files
 
-- [service-architecture.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin/service-architecture.md)
-- [ICP-and-avatar.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin/ICP-and-avatar.md)
-- [LAUNCH-GUIDE.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin/LAUNCH-GUIDE.md)
-- [profile-blueprint.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin/profile-blueprint.md)
-- [concept-dossier.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin/mini-briefs/concept-dossier.md)
-- [commenting-engine.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin/commenting-engine.md)
+- [service-architecture.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/service-architecture.md)
+- [ICP-and-avatar.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/ICP-and-avatar.md)
+- [LAUNCH-GUIDE.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/LAUNCH-GUIDE.md)
+- [profile-blueprint.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/profile-blueprint.md)
+- [concept-dossier.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/mini-briefs/concept-dossier.md)
+- [commenting-engine.md](file:///Users/farricecain/Google%20Antigravity/_active/linkedin-launch/commenting-engine.md)
 
 ---
 

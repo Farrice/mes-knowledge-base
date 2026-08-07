@@ -38,7 +38,7 @@ This ledger supports the 48-72 hour revenue offer ranking for Farrice's Codex An
 | S19 | verified-local | Guessproof objection pass | `_active/deep-research-os/04-deliverables/guessproof-buyer-objection-pass-2026-05-27.md` | Workflow rescue survives when sold as proof-backed repair, not a generic skill package. |
 | S20 | verified-local | Productized AI Service OS | `_active/productized-ai-service-os/04-deliverables/farrice-ai-service-offer-proof-sprint.md` | Existing service architecture for turning messy AI-assisted work into a productized delivery system. |
 | S21 | verified-local | Rapid revenue opportunity map | `_active/rapid-skill-revenue/00-start-here/rapid-revenue-opportunity-map-2026-05-27.md` | Prior fast-cash ranking already identified skill/workflow rescue as the cleanest skill-package ladder. |
-| S22 | verified-local | LinkedIn launch system | `_active/linkedin/` | Existing profile, proof-run, proposal, prompt-kit, DM, and content assets can support audience-led service sales. |
+| S22 | verified-local | LinkedIn launch system | `_active/linkedin-launch/` | Existing profile, proof-run, proposal, prompt-kit, DM, and content assets can support audience-led service sales. |
 
 ## Evidence Handling
 

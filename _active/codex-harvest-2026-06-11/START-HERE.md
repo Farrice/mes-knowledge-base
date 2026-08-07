@@ -1,6 +1,6 @@
 # Codex Harvest 2026 06 11 — start here
 
-*Generated 2026-08-07 11:19 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:25 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -3453,7 +3453,7 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Drift
 
-- **13 files claim to be the front door** — `.agent/workflows/index-conversations.md`, `_active/coach-cooz/16-may-2026-pivot/00-START-HERE.md`, `_active/guessproof-launch/00-start-here/START-HERE.md`, `_active/myhouse-sellers-ready-buyer-engine/00-start-here/START-HERE.md`, `_active/oren-solo-ai-marketing-client-service-os/00-start-here/START-HERE.md`, `_active/productized-ai-service-os/00-start-here/START-HERE.md`. START-HERE.md is the front door; the rest are history.
+- **14 files claim to be the front door** — `.agent/workflows/index-conversations.md`, `START-HERE.md`, `_active/coach-cooz/16-may-2026-pivot/00-START-HERE.md`, `_active/guessproof-launch/00-start-here/START-HERE.md`, `_active/myhouse-sellers-ready-buyer-engine/00-start-here/START-HERE.md`, `_active/oren-solo-ai-marketing-client-service-os/00-start-here/START-HERE.md`. START-HERE.md is the front door; the rest are history.
 
 ## Media
 
@@ -3467,5 +3467,5 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 - living docs: 3275
 - records: 16
 - archived (not counted above): 154
-- broken links in this tree: 6142
+- broken links in this tree: 6138
 
