@@ -1,0 +1,10 @@
+{
+  "artifact_type": "deep_extraction",
+  "title": "Authority.io Online Coaching Blueprint - Deep MES Extraction",
+  "source_video_id": "4HqO0h13MX4",
+  "status": "architecture_input",
+  "evidence_tier": "source_grounded_operational_synthesis",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "run_id": "life-design-paid-pop-v1-attested",
+  "provenance": "ORCHESTRATOR_ATTESTED",
+  "verifier_status": "PASS",
+  "terminal_decision": "ADVANCE_TO_REPEATABILITY",
+  "terminal_reason_code": "ADVANCE_STAGE_0_GATE_MET",
+  "practice_type": "LIFE_COACHING_OR_LIFE_DESIGN",
+  "proof_stage": "STAGE_0_PAID_PROOF",
+  "next_stage": "STAGE_1_REPEATABLE_PRACTICE",
+  "selected_lane_owner": "skills/luisa-zhou-coaching/",
+  "function_owners": {
+    "conductor": "skills/expert-practice-os/",
+    "capacity": "skills/taki-moore-lifestyle-business/",
+    "pop": "skills/sunny-lenarduzzi-youtube/",
+    "lane": "skills/luisa-zhou-coaching/",
+    "protocol_ip": "PRACTITIONER_OWNED",
+    "revenue_gate": "NONE"
+  },
+  "selected_workflow_paths": [
+    "skills/expert-practice-os/workflows/01-diagnose-and-route-practice.md",
+    "skills/taki-moore-lifestyle-business/workflows/01-lifestyle-blueprint.md",
+    "skills/sunny-lenarduzzi-youtube/workflows/04-profitable-offer-prototype.md",
+    "skills/luisa-zhou-coaching/workflows/01-launch-coaching-offer.md",
+    "skills/luisa-zhou-coaching/workflows/02-deliver-first-session.md"
+  ],
+  "loaded_context_paths": ["skills/expert-practice-os/"],
+  "active_public_offer": "Life Design Decision Sprint - Founding 1:1",
+  "demand_status": "ONE_SYNTHETIC_PAID_FOUNDING_EVENT",
+  "truth_counters": {"sent": 5, "held": 2, "sold": 1, "collected": 1, "delivered_units": 1},
+  "delivery_components": ["four 1:1 sessions", "bounded async support", "90-day experiment plan", "review cadence"],
+  "accepted_evidence": ["synthetic collected payment", "synthetic completed unit", "bounded anonymized outcome evidence"],
+  "rejected_evidence": ["one unit as repeatability proof", "source revenue examples", "clinical outcome claims"],
+  "assumptions_and_unknowns": ["real-market acquisition rate", "retention", "repeat delivery variance", "actual margin"],
+  "missing_fields": ["several comparable clients", "repeatable acquisition", "retention and margin actuals"],
+  "rejected_owner_paths": [
+    "skills/andrew-dun-vibe-consulting/",
+    "skills/coaching-business-os/",
+    "skills/dan-koe-multipassionate-mastery/",
+    "skills/justin-welsh-solopreneur/",
+    "skills/growth-ecosystems/"
+  ],
+  "rejected_routes": ["Final 10 payload", "generic AI consulting", "clinical treatment", "YouTube or content-first launch", "premature economics"],
+  "forbidden_next_moves": ["claim repeatability", "publish proof", "reuse quotation", "registration", "economics modeling"],
+  "required_output": "repeatability work plan for several comparable paid units without a scale claim",
+  "next_human_checkpoint": "review Stage 0 evidence before authorizing a repeatability run",
+  "economics_status": "LOCKED_PRE_RUNTIME",
+  "economics_model": null,
+  "registration_eligible": false,
+  "external_actions_taken": [],
+  "proof_reuse_requested": false,
+  "verifier_error_codes": []
+}

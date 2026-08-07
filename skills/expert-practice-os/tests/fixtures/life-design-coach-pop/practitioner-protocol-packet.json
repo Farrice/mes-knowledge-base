@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "life-design-paid-pop-v1",
+  "practitioner": {
+    "identity": "Synthetic qualified life-design practitioner",
+    "public_role": "non-clinical life-design coach",
+    "experience": ["five years facilitating bounded career and life-design decisions"],
+    "credentials": ["recognized coach training", "documented non-clinical scope and referral policy"],
+    "scope": {
+      "allowed": ["values clarification", "constraint mapping", "decision experiments", "accountability"],
+      "excluded": ["mental-health diagnosis", "clinical treatment", "legal advice", "financial advice"]
+    },
+    "repeated_results": ["clients complete a selected decision experiment and review cycle"],
+    "evidence_provenance": "SYNTHETIC_ACCEPTANCE_FIXTURE"
+  },
+  "protocol": {
+    "name": "Values to Experiment Life-Design Protocol",
+    "steps": ["Values", "Constraints", "Options", "Experiment", "Review"],
+    "dependencies": ["client can make a non-clinical decision and complete bounded actions"],
+    "evidence": ["one synthetic completed founding engagement for verifier testing"],
+    "claims": {
+      "allowed": ["support one non-clinical decision and a 90-day experiment plan"],
+      "restricted": ["wellbeing language without clinical claims"],
+      "unsupported": ["treat depression", "guaranteed happiness", "guaranteed career income"]
+    }
+  },
+  "buyer": {
+    "specific_buyer": "mid-career professional choosing between two credible career or life-design directions",
+    "observable_problem": "several plausible options remain unresolved because values, constraints, and testable next actions are not connected",
+    "present_state": "stalled between options without a bounded decision experiment",
+    "desired_state": "one selected 90-day life experiment, dated action plan, and review cadence",
+    "desired_feeling": "grounded enough to act without pretending certainty",
+    "outcome_limits": ["one non-clinical decision experiment", "no mental-health or employment outcome promised"],
+    "alternatives": ["self-guided journaling", "career counseling", "therapy when clinically indicated"],
+    "failed_attempts": ["unstructured reflection without a decision test"],
+    "investment_conditions": ["clear boundaries", "private 1:1 support", "observable plan"],
+    "disqualifiers": ["clinical crisis", "needs licensed treatment", "wants guaranteed life outcome"]
+  },
+  "offer": {
+    "name": "Life Design Decision Sprint - Founding 1:1",
+    "scope": ["four 1:1 sessions", "bounded async support", "90-day experiment plan", "review cadence"],
+    "format": "four weeks, one-to-one",
+    "price": "$600",
+    "price_status": "TEST_PRICE",
+    "terms_status": "SYNTHETIC_ACCEPTANCE_FIXTURE",
+    "paid_event_gate": "cleared $600 payment for the named founding Sprint"
+  },
+  "proof": {
+    "source": ["Authority.io source 4HqO0h13MX4 supplies the POP proof-loop method"],
+    "practitioner": ["synthetic scope, protocol, and prior facilitation evidence"],
+    "demand": [{"kind": "paid_founding_event", "date": "2026-07-10", "amount": 600, "currency": "USD", "evidence_class": "SYNTHETIC_ACCEPTANCE_FIXTURE"}],
+    "delivery": [{"kind": "completed_unit", "date": "2026-07-31", "evidence_class": "SYNTHETIC_ACCEPTANCE_FIXTURE", "observed_friction": "option criteria needed ordering"}],
+    "outcome": [{"kind": "bounded_outcome", "date": "2026-07-31", "evidence_class": "SYNTHETIC_ACCEPTANCE_FIXTURE", "result": "one 90-day experiment and review cadence documented"}],
+    "repeatability": [],
+    "permissions": {
+      "measurement": "PERMISSION_GRANTED_SYNTHETIC",
+      "quotation": "NO_PERMISSION",
+      "anonymization": "PERMISSION_GRANTED_SYNTHETIC",
+      "reuse": "NO_PERMISSION"
+    }
+  },
+  "stage": {
+    "proof_stage": "STAGE_0_PAID_PROOF",
+    "requested_next_stage": "STAGE_1_REPEATABLE_PRACTICE"
+  },
+  "capacity": {
+    "available_hours_per_week": 8,
+    "working_weeks": 44,
+    "delivery_hours_per_unit": 5,
+    "support_hours_per_unit": 1,
+    "concurrency": 2,
+    "sales_call_limit": 3,
+    "life_constraints": ["no evening sessions", "maximum two concurrent clients"],
+    "margin_floor": "70_PERCENT_TEST_FLOOR"
+  },
+  "acquisition": {
+    "primary_path": "WARM_REFERRALS",
+    "secondary_paths": []
+  },
+  "actuals": {
+    "sent": [
+      {"kind": "outreach", "date": "2026-07-01", "event_id": "s1"},
+      {"kind": "outreach", "date": "2026-07-02", "event_id": "s2"},
+      {"kind": "outreach", "date": "2026-07-03", "event_id": "s3"},
+      {"kind": "outreach", "date": "2026-07-04", "event_id": "s4"},
+      {"kind": "outreach", "date": "2026-07-05", "event_id": "s5"}
+    ],
+    "held": [
+      {"kind": "conversation", "date": "2026-07-07", "event_id": "h1"},
+      {"kind": "conversation", "date": "2026-07-08", "event_id": "h2"}
+    ],
+    "sold": [{"kind": "sale", "date": "2026-07-09", "event_id": "so1"}],
+    "collected": [{"kind": "payment", "date": "2026-07-10", "event_id": "c1", "amount": 600, "currency": "USD"}],
+    "delivered_units": [{"kind": "delivery", "date": "2026-07-31", "event_id": "d1", "completed": true}]
+  },
+  "economics": {
+    "requested_model": "NONE",
+    "revenue_target": "UNKNOWN",
+    "owner_income_target": "UNKNOWN",
+    "price": "$600_TEST_PRICE",
+    "capacity": "ONE_OBSERVED_SYNTHETIC_UNIT",
+    "acquisition_actuals": "ONE_SYNTHETIC_PATH",
+    "retention": "NO_EVENT",
+    "costs": "SYNTHETIC_PARTIAL",
+    "margin": "SYNTHETIC_PARTIAL",
+    "timeline": "NO_REPEATABILITY_WINDOW"
+  },
+  "authorization": {
+    "requested_result": "local route receipt and repeatability handoff",
+    "authorized_local_outputs": ["cold fixture", "local route receipt", "local verifier receipt"],
+    "forbidden_external_actions": ["outreach", "publishing", "payment setup", "client contact", "registration"],
+    "provenance": "ORCHESTRATOR_ATTESTED"
+  }
+}

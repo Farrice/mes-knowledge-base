@@ -102,3 +102,59 @@ Performance is data, not emotion. Read metrics in causal order: CTR (2â€“10%) â†
 - **Posting content with nothing to sell.** "If you don't have something to sell, no amount of posting is actually going to make you any money. And in fact, the more you post, the more it's actually costing you money" (Sunny Lenarduzzi, "The Blueprint To Make Money Without Social Media On Day 1 | Online Course Mastery," claude.ai export interview transcript, conversation created 2026-02-25).
 - **Running every growth lever at once.** "You don't have to do all these at once. That's actually not a good strategy. I would recommend doing one at a time in the order of your choice" (same "Blueprint To Make Money Without Social Media" transcript, conversation created 2026-02-25).
 - **Keyword-stuffing tags and descriptions to chase reach.** "If you put irrelevant keywords or tags to try and get more reach, YouTube will flag it" (Sunny Lenarduzzi, "Watch me Create a $1M YouTube Channel in 38 Minutes (Using AI)," youtube.com/watch?v=swBwRtHVVlA, timestamp 30:51).
+
+## Source Delta: Paid POP and Live-to-Proof Loop
+
+This bounded addition comes from Authority.io's [online coaching business guide](https://www.youtube.com/watch?v=4HqO0h13MX4). It extends the existing pre-sell rule into one complete evidence loop. Revenue and client-result examples in that source remain `SOURCE_REPORTED`; they are not operating benchmarks or proof for a new practitioner.
+
+### Pattern: Need, Not Proximity
+
+A yes from someone who already trusts the practitioner may reflect the relationship rather than need for the outcome. Validation must record why a person moved and whether the problem would create action without relational goodwill.
+
+**Execute:** Separate relationship-driven interest from problem-driven demand. Interviews remain research until an agreed payment is collected.
+
+**Source:** `transcript_segments.json` seg-99 through seg-117 and seg-122 through seg-150, [03:07-04:44](https://www.youtube.com/watch?v=4HqO0h13MX4&t=187s).
+
+### Pattern: Same Conversation, Paid Ending
+
+Validation rehearses the listening needed for sales. Keep the diagnostic questions, present-state and desired-state contrast, and fit judgment. Add a paid next step only when the practitioner can responsibly help.
+
+**Execute:** Do not switch from listening to feature pitching. Preserve the conversation and add a bounded offer at the end.
+
+**Source:** seg-770 through seg-808, [24:39-25:57](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1479s).
+
+### Pattern: Paid Founding Version
+
+The Profitable Offer Prototype is sold before the full program is built. The first clients receive a bounded founding version and their observed friction changes the method.
+
+**Execute:** Define the paid unit, founding scope, price status, terms, capacity, and paid-event gate before building curriculum or automation.
+
+**Source:** seg-809 through seg-821, [25:57-26:24](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1557s).
+
+### Pattern: Capacity Before Forecast
+
+Sales and delivery volume must fit the founder's attention and life. A source example describes limiting calls around energy and family; its personal numbers are an example, not a universal target.
+
+**Execute:** Record sustainable weekly sales calls, delivery hours, support hours, working weeks, and client concurrency before projecting revenue.
+
+**Source:** seg-822 through seg-838 and seg-846 through seg-859, [26:24-27:42](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1584s).
+
+### Pattern: Delivery Components Have Jobs
+
+Curriculum supplies a route, coaching adapts it to the client's situation, and community can add peer support and accountability. These are functions, not mandatory features.
+
+**Execute:** Include only components needed for the promised transformation. A consulting diagnostic may use an analysis packet and live review without curriculum or community.
+
+**Source:** seg-895 through seg-937, [28:56-30:46](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1736s).
+
+### Pattern: Live Delivery Creates the Product Record
+
+Questions, friction, missing steps, wins, and permissioned evidence from live delivery revise the method. Recording or delegation follows observed delivery; it does not precede it.
+
+**Execute:** Keep a delivery-learning ledger and issue `ADVANCE_TO_REPEATABILITY`, `REVISE_POP`, or `STOP_OR_HOLD` from actual evidence.
+
+**Source:** live-building feedback at seg-906 through seg-909, [29:24-29:35](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1764s); iteration data at seg-969 through seg-978, [32:03-32:28](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1923s); and the live-before-scale gate at seg-995 through seg-1008, [33:06-33:32](https://www.youtube.com/watch?v=4HqO0h13MX4&t=1986s).
+
+### Recognition Test
+
+The POP delta is present only when one paid founding unit, one primary acquisition path, honest `sent / held / sold / collected` counters, delivery-learning capture, permission handling, capacity limits, and a hard terminal decision all appear together. Interviews, assets, or testimonials alone do not satisfy paid proof.

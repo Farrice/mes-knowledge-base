@@ -1,0 +1,36 @@
+{
+  "fixture_id": "final10-ai-stage0-v1",
+  "expected_practice_type": "AI_CONSULTING",
+  "expected_proof_stage": "STAGE_0_PAID_PROOF",
+  "expected_next_stage": "STAGE_0_PAID_PROOF",
+  "expected_lane_owner": "skills/andrew-dun-vibe-consulting/",
+  "expected_public_offer": "The Final 10% Diagnostic",
+  "expected_terminal_decision": "STOP_OR_HOLD",
+  "expected_terminal_reason_code": "HOLD_AWAITING_PAID_EVENT",
+  "expected_economics_status": "LOCKED_PRE_RUNTIME",
+  "expected_workflow_paths": [
+    "skills/expert-practice-os/workflows/01-diagnose-and-route-practice.md",
+    "skills/taki-moore-lifestyle-business/workflows/06-profit-floor-architecture.md",
+    "skills/sunny-lenarduzzi-youtube/workflows/04-profitable-offer-prototype.md",
+    "skills/andrew-dun-vibe-consulting/workflows/09-first-client-engine.md"
+  ],
+  "expected_function_owners": {
+    "conductor": "skills/expert-practice-os/",
+    "capacity": "skills/taki-moore-lifestyle-business/",
+    "pop": "skills/sunny-lenarduzzi-youtube/",
+    "lane": "skills/andrew-dun-vibe-consulting/",
+    "protocol_ip": "_active/farrice-final-10/",
+    "revenue_gate": ".agent/workflows/first-10k.md"
+  },
+  "expected_loaded_context_paths": ["skills/expert-practice-os/"],
+  "forbidden_owner_paths": [
+    "skills/luisa-zhou-coaching/",
+    "skills/coaching-business-os/",
+    "skills/dan-koe-multipassionate-mastery/",
+    "skills/justin-welsh-solopreneur/",
+    "skills/growth-ecosystems/"
+  ],
+  "forbidden_delivery_components": ["community", "cohort", "coaching curriculum"],
+  "requires_registration_eligible": false,
+  "requires_no_external_actions": true
+}

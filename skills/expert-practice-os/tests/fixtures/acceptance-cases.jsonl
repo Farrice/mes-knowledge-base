@@ -1,0 +1,21 @@
+{"id":"M01","base_fixture":"final-10-ai-consulting","target":"packet","op":"delete","path":"practitioner.scope.excluded","expected_error":"E_INPUT_QUALIFICATION_MISSING"}
+{"id":"M02","base_fixture":"life-design-coach-pop","target":"packet","op":"append","path":"protocol.claims.allowed","value":"treat depression without clinical referral","expected_error":"E_SCOPE_HIGH_STAKES_UNCLEARED"}
+{"id":"M03","base_fixture":"final-10-ai-consulting","target":"packet","op":"set","path":"buyer.specific_buyer","value":"people who want a better life","expected_error":"E_ROUTE_BUYER_GENERIC"}
+{"id":"M04","base_fixture":"final-10-ai-consulting","target":"packet","op":"set","path":"buyer.desired_state","value":"become your best self","expected_error":"E_ROUTE_OUTCOME_NONOBSERVABLE"}
+{"id":"M05","base_fixture":"life-design-coach-pop","target":"packet","op":"set","path":"buyer.desired_state","value":"build a six-figure business in 90 days through journaling","expected_error":"E_ROUTE_PROTOCOL_PROMISE_MISMATCH"}
+{"id":"M06","base_fixture":"final-10-ai-consulting","target":"packet","op":"delete","path":"offer.paid_event_gate","expected_error":"E_OFFER_PAID_UNIT_UNDEFINED"}
+{"id":"M07","base_fixture":"life-design-coach-pop","target":"packet","op":"set","path":"actuals.collected.0.amount","value":0,"expected_error":"E_PROOF_FREE_AS_PAID"}
+{"id":"M08","base_fixture":"life-design-coach-pop","target":"packet","op":"set","path":"actuals.sold.0.kind","value":"interview","expected_error":"E_PROOF_INTERVIEW_AS_SALE"}
+{"id":"M09","base_fixture":"life-design-coach-pop","target":"packet","op":"set","path":"actuals.collected.0.date","value":"2099-01-01","expected_error":"E_PROOF_FUTURE_EVENT_INFLATION"}
+{"id":"M10","base_fixture":"life-design-coach-pop","target":"packet","op":"set","path":"proof.outcome.0.evidence_class","value":"SOURCE_REPORTED","expected_error":"E_PROOF_SOURCE_AS_CLIENT_OUTCOME"}
+{"id":"M11","base_fixture":"final-10-ai-consulting","target":"packet","op":"append","path":"protocol.claims.allowed","value":"guaranteed six figures in 90 days","expected_error":"E_CLAIM_UNSUPPORTED_GUARANTEE"}
+{"id":"M12","base_fixture":"life-design-coach-pop","target":"actual","op":"set","path":"proof_reuse_requested","value":true,"expected_error":"E_PROOF_PERMISSION_VIOLATION"}
+{"id":"M13","base_fixture":"final-10-ai-consulting","target":"packet","op":"append","path":"acquisition.secondary_paths","value":{"path":"YOUTUBE","status":"ACTIVE"},"expected_error":"E_ROUTE_MULTIPLE_ACQUISITION_PATHS"}
+{"id":"M14","base_fixture":"final-10-ai-consulting","target":"actual","op":"append","path":"loaded_context_paths","value":"skills/growth-ecosystems/","expected_error":"E_CONTEXT_EXPERT_SOUP"}
+{"id":"M15","base_fixture":"final-10-ai-consulting","target":"actual","op":"set","path":"selected_lane_owner","value":["skills/andrew-dun-vibe-consulting/","skills/luisa-zhou-coaching/"],"expected_error":"E_ROUTE_MULTIPLE_LANE_OWNERS"}
+{"id":"M16","base_fixture":"life-design-coach-pop","target":"actual","op":"set","path":"selected_lane_owner","value":"skills/andrew-dun-vibe-consulting/","expected_error":"E_ROUTE_LANE_PAYLOAD_LEAK"}
+{"id":"M17","base_fixture":"final-10-ai-consulting","target":"actual","op":"append","path":"delivery_components","value":"community","expected_error":"E_DELIVERY_FORCED_COMMUNITY"}
+{"id":"M18","base_fixture":"life-design-coach-pop","target":"packet","op":"set","path":"stage.proof_stage","value":"STAGE_1_REPEATABLE_PRACTICE","expected_error":"E_STAGE_PROOF_INFLATION"}
+{"id":"M19","base_fixture":"final-10-ai-consulting","target":"actual","op":"set","path":"economics_model","value":{"annual_revenue_target":100000},"expected_error":"E_ECON_PREMATURE_OUTPUT"}
+{"id":"M20","base_fixture":"final-10-ai-consulting","target":"actual","op":"append","path":"external_actions_taken","value":"sent outreach message","expected_error":"E_ACTION_UNAUTHORIZED_EXTERNAL"}
+{"id":"M21","base_fixture":"final-10-ai-consulting","target":"actual","op":"set","path":"provenance","value":"RUNTIME_OBSERVED","expected_error":"E_PROVENANCE_SELF_DECLARED_RUNTIME"}

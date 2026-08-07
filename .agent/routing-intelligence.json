@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 46,
+            "total_routings": 50,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
@@ -478,7 +478,8 @@
                 "jason-fladlien-marketing": 1,
                 "nicolas-cole-digital-products": 1,
                 "generate": 1,
-                "omar-eltakrori": 1
+                "omar-eltakrori": 1,
+                "Extraction": 4
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
@@ -513,10 +514,12 @@
                 "generate": 1,
                 "fashion-coupids": 1,
                 "Health Performance Angle Map Listening Engine": 1,
-                "omar-eltakrori": 1
+                "omar-eltakrori": 1,
+                "sunny-lenarduzzi-youtube": 2,
+                "source-to-skill-system": 2
             },
             "tier_counts": {
-                "0": 46,
+                "0": 50,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -525,9 +528,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 32,
-                "finalize-auto": 14
+                "finalize-auto": 18
             },
-            "ensemble_count": 15,
+            "ensemble_count": 19,
             "auto_miss_count": 3
         }
     },
@@ -1354,6 +1357,74 @@
             "mode": "hybrid",
             "workflow_used": "omar-eltakrori",
             "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_194005_cfe2",
+            "timestamp": "2026-08-03T19:40:05.881047+00:00",
+            "session_id": "",
+            "request_summary": "Authority.io coaching-business extraction and expanded Expert Practice OS Vision checkpoint",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "sunny-lenarduzzi-youtube"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_194027_47da",
+            "timestamp": "2026-08-03T19:40:27.449441+00:00",
+            "session_id": "",
+            "request_summary": "Expanded Expert Practice OS Vision checkpoint grounded in Authority.io source",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "sunny-lenarduzzi-youtube"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "source-to-skill-system",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_202746_9499",
+            "timestamp": "2026-08-03T20:27:46.686336+00:00",
+            "session_id": "",
+            "request_summary": "Drafted the Expert Practice OS Architecture checkpoint and Skill System Contract for source 4HqO0h13MX4, with AI-powered Final 10% Diagnostic as the first public lane, universal cold adapters, and pro",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "source-to-skill-system"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "source-to-skill-system",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_213251_8802",
+            "timestamp": "2026-08-03T21:32:51.622240+00:00",
+            "session_id": "",
+            "request_summary": "Built the approved cold Expert Practice OS plus Authority.io/Sunny-led POP addition, two divergent fixtures, and deterministic structural and behavior gates; stopped before runtime, registration, econ",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "source-to-skill-system"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "source-to-skill-system",
+            "ensemble": true,
             "compound_pairing": null,
             "feedback": null
         }

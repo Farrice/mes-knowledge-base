@@ -1,0 +1,37 @@
+{
+  "fixture_id": "life-design-paid-pop-v1",
+  "expected_practice_type": "LIFE_COACHING_OR_LIFE_DESIGN",
+  "expected_proof_stage": "STAGE_0_PAID_PROOF",
+  "expected_next_stage": "STAGE_1_REPEATABLE_PRACTICE",
+  "expected_lane_owner": "skills/luisa-zhou-coaching/",
+  "expected_public_offer": "Life Design Decision Sprint - Founding 1:1",
+  "expected_terminal_decision": "ADVANCE_TO_REPEATABILITY",
+  "expected_terminal_reason_code": "ADVANCE_STAGE_0_GATE_MET",
+  "expected_economics_status": "LOCKED_PRE_RUNTIME",
+  "expected_workflow_paths": [
+    "skills/expert-practice-os/workflows/01-diagnose-and-route-practice.md",
+    "skills/taki-moore-lifestyle-business/workflows/01-lifestyle-blueprint.md",
+    "skills/sunny-lenarduzzi-youtube/workflows/04-profitable-offer-prototype.md",
+    "skills/luisa-zhou-coaching/workflows/01-launch-coaching-offer.md",
+    "skills/luisa-zhou-coaching/workflows/02-deliver-first-session.md"
+  ],
+  "expected_function_owners": {
+    "conductor": "skills/expert-practice-os/",
+    "capacity": "skills/taki-moore-lifestyle-business/",
+    "pop": "skills/sunny-lenarduzzi-youtube/",
+    "lane": "skills/luisa-zhou-coaching/",
+    "protocol_ip": "PRACTITIONER_OWNED",
+    "revenue_gate": "NONE"
+  },
+  "expected_loaded_context_paths": ["skills/expert-practice-os/"],
+  "forbidden_owner_paths": [
+    "skills/andrew-dun-vibe-consulting/",
+    "skills/coaching-business-os/",
+    "skills/dan-koe-multipassionate-mastery/",
+    "skills/justin-welsh-solopreneur/",
+    "skills/growth-ecosystems/"
+  ],
+  "forbidden_delivery_components": ["clinical treatment", "community by default", "Final 10 Ship Map"],
+  "requires_registration_eligible": false,
+  "requires_no_external_actions": true
+}

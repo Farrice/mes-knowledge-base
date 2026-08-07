@@ -3,7 +3,7 @@ name: sunny-lenarduzzi-youtube
 description: Sunny Lenarduzzi's authority-channel methodology — build a YouTube channel that monetizes from day one with a small, hyper-targeted audience. The CODE framework (Client, Offer, Differentiation, Engagement), One Viewer Model, reverse content funnel (BOFU-first hockey stick), HOT script formula, and the Authority Engine for turning expertise into a scalable program.
 version: "2.0"
 format: completion-engine
-workflows: 3
+workflows: 4
 source: claude.ai export 2026-07-01
 ---
 
@@ -18,6 +18,9 @@ Sunny Lenarduzzi built a 600K-subscriber channel and a ~$40M online business by 
 | 01 | [decode-ideal-viewer](workflows/01-decode-ideal-viewer.md) | Ideal client profile + transformation statement + PAIN-framework messaging |
 | 02 | [engineer-authority-channel](workflows/02-engineer-authority-channel.md) | BOFU-first channel plan: Market-of-One topics, titles/thumbnails, HOT scripts, CTAs, metrics dashboard |
 | 03 | [build-authority-engine](workflows/03-build-authority-engine.md) | Zero-to-Hero program design + pre-sell validation plan + 8-step consistency checklist |
+| 04 | [profitable-offer-prototype](workflows/04-profitable-offer-prototype.md) | Paid founding-offer contract + live-delivery evidence loop + advance/revise/hold verdict |
+
+Workflow 04 is a **cold addition**. It is loadable by exact path for diagnostic testing but remains menu-exempt until `RUNTIME_OBSERVED` proof and a separate registration decision. Its execution prompt may appear in the generated prompt-asset catalog for discovery; catalog presence does not authorize automatic routing, a public command, client use, or registration.
 
 ## Quick Reference
 
@@ -35,12 +38,13 @@ Sunny Lenarduzzi built a 600K-subscriber channel and a ~$40M online business by 
 
 ## Execution Prompts (structure-pure v2)
 
-5 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+6 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Authority Engine — [PROGRAM NAME]** — `skills/sunny-lenarduzzi-youtube/references/prompts-v2/authority-engine-program-build.md`
 - **Distribution & Metrics Playbook — [VIDEO_OR_SLATE]** — `skills/sunny-lenarduzzi-youtube/references/prompts-v2/distribution-metrics-diagnostic.md`
 - **Ideal Viewer Decode — [CREATOR_EXPERTISE / NICHE]** — `skills/sunny-lenarduzzi-youtube/references/prompts-v2/ideal-viewer-decode.md`
 - **Market-of-One Topic Slate — [CHANNEL / NICHE]** — `skills/sunny-lenarduzzi-youtube/references/prompts-v2/market-of-one-topic-slate.md`
+- **POP Decision Packet: [OFFER]** — `skills/sunny-lenarduzzi-youtube/references/prompts-v2/profitable-offer-prototype.md`
 - **Video Package — [TOPIC]** — `skills/sunny-lenarduzzi-youtube/references/prompts-v2/video-package-hot-script.md`
 
 <!-- END:execution-prompts -->

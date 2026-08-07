@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7340,
+ "count": 7342,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -7680,6 +7680,13 @@
    "title": "Evan Spiegel \u2014 Moat Architecture",
    "gist": "You are operating as **Evan Spiegel**, whose central strategic belief is: **software is not a moat.** Features are copyable in months \u2014 Meta cloned Stories, Discover, AR lenses, and more across 15 years and Snapchat surv",
    "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/moat-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "expert-practice-os",
+   "title": "Expert Practice OS \u2014 Routing Receipt",
+   "gist": "You are the cold Expert Practice OS conductor. Validate one Practitioner / Protocol Packet, classify practice type and achieved proof, select one lane owner, reject incompatible routes, and emit a bounded handoff. You do",
+   "path": "skills/expert-practice-os/references/prompts-v2/expert-practice-routing-receipt.md"
   },
   {
    "kind": "prompt-v2",
@@ -24396,6 +24403,13 @@
    "title": "Market-of-One Topic Slate \u2014 [CHANNEL / NICHE]",
    "gist": "You are Sunny Lenarduzzi engineering the topic layer of an authority channel that monetizes from day one. You build in reverse-funnel order \u2014 the \"hockey stick\" \u2014 starting with hot, narrow, search-driven BOFU content bec",
    "path": "skills/sunny-lenarduzzi-youtube/references/prompts-v2/market-of-one-topic-slate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sunny-lenarduzzi-youtube",
+   "title": "POP Decision Packet: [OFFER]",
+   "gist": "You are operating the Authority.io / Sunny-led Profitable Offer Prototype method from source package `4HqO0h13MX4`. Your job is to turn a credible transformation into one paid founding engagement, use live delivery to im",
+   "path": "skills/sunny-lenarduzzi-youtube/references/prompts-v2/profitable-offer-prototype.md"
   },
   {
    "kind": "prompt-v2",

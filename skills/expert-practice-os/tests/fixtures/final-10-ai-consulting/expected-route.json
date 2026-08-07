@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "run_id": "final10-ai-stage0-v1-attested",
+  "provenance": "ORCHESTRATOR_ATTESTED",
+  "verifier_status": "PASS",
+  "terminal_decision": "STOP_OR_HOLD",
+  "terminal_reason_code": "HOLD_AWAITING_PAID_EVENT",
+  "practice_type": "AI_CONSULTING",
+  "proof_stage": "STAGE_0_PAID_PROOF",
+  "next_stage": "STAGE_0_PAID_PROOF",
+  "selected_lane_owner": "skills/andrew-dun-vibe-consulting/",
+  "function_owners": {
+    "conductor": "skills/expert-practice-os/",
+    "capacity": "skills/taki-moore-lifestyle-business/",
+    "pop": "skills/sunny-lenarduzzi-youtube/",
+    "lane": "skills/andrew-dun-vibe-consulting/",
+    "protocol_ip": "_active/farrice-final-10/",
+    "revenue_gate": ".agent/workflows/first-10k.md"
+  },
+  "selected_workflow_paths": [
+    "skills/expert-practice-os/workflows/01-diagnose-and-route-practice.md",
+    "skills/taki-moore-lifestyle-business/workflows/06-profit-floor-architecture.md",
+    "skills/sunny-lenarduzzi-youtube/workflows/04-profitable-offer-prototype.md",
+    "skills/andrew-dun-vibe-consulting/workflows/09-first-client-engine.md"
+  ],
+  "loaded_context_paths": ["skills/expert-practice-os/"],
+  "active_public_offer": "The Final 10% Diagnostic",
+  "demand_status": "UNTESTED",
+  "truth_counters": {"sent": 0, "held": 0, "sold": 0, "collected": 0, "delivered_units": 0},
+  "delivery_components": [
+    "async authority and business-system evidence review",
+    "one live diagnostic",
+    "Ship Map",
+    "one-page architecture sketch",
+    "Sprint go-or-no-go"
+  ],
+  "accepted_evidence": [
+    "source method evidence",
+    "operator-attested practitioner experience",
+    "current Final 10 offer architecture"
+  ],
+  "rejected_evidence": ["source-reported revenue as Farrice proof", "prepared assets as demand", "interviews as sales"],
+  "assumptions_and_unknowns": ["current accepted price", "buyer response", "delivery friction", "client outcome", "margin"],
+  "missing_fields": ["collected paid event", "completed delivery", "permissioned client evidence"],
+  "rejected_owner_paths": [
+    "skills/luisa-zhou-coaching/",
+    "skills/coaching-business-os/",
+    "skills/dan-koe-multipassionate-mastery/",
+    "skills/justin-welsh-solopreneur/",
+    "skills/growth-ecosystems/"
+  ],
+  "rejected_routes": [
+    "generic enterprise AI readiness offer",
+    "life coaching",
+    "generic solopreneurship",
+    "YouTube or content-first launch",
+    "technical implementation before diagnosis"
+  ],
+  "forbidden_next_moves": ["outreach", "publishing", "payment setup", "client contact", "registration", "economics modeling"],
+  "required_output": "Final 10 paid POP decision packet and evidence required for the first paid event",
+  "next_human_checkpoint": "review the cold route and POP artifact before any external action",
+  "economics_status": "LOCKED_PRE_RUNTIME",
+  "economics_model": null,
+  "registration_eligible": false,
+  "external_actions_taken": [],
+  "proof_reuse_requested": false,
+  "verifier_error_codes": []
+}
