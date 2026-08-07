@@ -1,4 +1,8 @@
-# Archived by the 2026-08-07 arena sweep
+# What lives in this archive
+
+*Living index — appended to whenever something is archived. Pinned name: `MOVED.md` is exempt from auto-filing (project_filer EXEMPT_NAMES), which `MOVED-2026-08-07.md` was not — the organizer filed it into `99-archive/` within the hour.*
+
+## 2026-08-07 arena sweep
 
 Cold 30+ days, few or no inbound references. **Nothing was deleted** — each
 folder moved intact and every referrer was repointed. To bring one back, run

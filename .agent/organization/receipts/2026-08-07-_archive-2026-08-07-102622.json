@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-08-07T17:26:22+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_archive/MOVED-2026-08-07.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_archive/99-archive/MOVED-2026-08-07.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/_archive/MOVED-2026-08-07.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/_archive",
+  "project_slug": "_archive",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-07.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

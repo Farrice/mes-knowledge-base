@@ -1,5 +1,23 @@
 {
   "aliases": {
+    "/Users/farricecain/Google Antigravity/_active/_archive/MOVED-2026-08-07.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_archive/99-archive/MOVED-2026-08-07.md",
+      "lifecycle": "archive",
+      "moved_at": "2026-08-07T17:26:22+00:00",
+      "project": "_archive"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-arenas-proposal.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/2026-08-07-sweep-arenas-proposal.md",
+      "lifecycle": "research",
+      "moved_at": "2026-08-07T17:26:19+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-decisions-proposal.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/2026-08-07-sweep-decisions-proposal.md",
+      "lifecycle": "research",
+      "moved_at": "2026-08-07T17:26:19+00:00",
+      "project": "_ledgers"
+    },
     "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260521120512-test.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260521120512-test.md",
       "lifecycle": "research",
@@ -2113,6 +2131,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-06T23:42:27+00:00",
+  "updated_at": "2026-08-07T17:26:22+00:00",
   "version": 1
 }

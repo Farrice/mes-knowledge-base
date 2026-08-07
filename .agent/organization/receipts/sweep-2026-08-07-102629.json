@@ -1,0 +1,41 @@
+{
+  "auto_moved": 3,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.html",
+      "project": "farrice-brand",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.md",
+      "project": "farrice-brand",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/_ledgers/START-HERE.html",
+      "project": "_ledgers",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/_ledgers/START-HERE.md",
+      "project": "_ledgers",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/linkedin/START-HERE.html",
+      "project": "linkedin",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/linkedin/START-HERE.md",
+      "project": "linkedin",
+      "reason": "pinned/control referrer"
+    }
+  ],
+  "projects_touched": [
+    "_archive",
+    "_ledgers"
+  ],
+  "since_minutes": 1440,
+  "swept_at": "2026-08-07T17:26:29+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "applied_at": "2026-08-07T17:26:19+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-arenas-proposal.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/2026-08-07-sweep-arenas-proposal.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-decisions-proposal.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/2026-08-07-sweep-decisions-proposal.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-arenas-proposal.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-decisions-proposal.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/_ledgers",
+  "project_slug": "_ledgers",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-07.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

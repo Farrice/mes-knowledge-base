@@ -1,6 +1,12 @@
 #!/bin/sh
 # Auto-generated inverse moves (newest first). Re-run to revert.
 
+mkdir -p "/Users/farricecain/Google Antigravity/_active/_archive" && mv -n "/Users/farricecain/Google Antigravity/_active/_archive/99-archive/MOVED-2026-08-07.md" "/Users/farricecain/Google Antigravity/_active/_archive/MOVED-2026-08-07.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/_ledgers" && mv -n "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/2026-08-07-sweep-decisions-proposal.md" "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-decisions-proposal.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/_ledgers" && mv -n "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/2026-08-07-sweep-arenas-proposal.md" "/Users/farricecain/Google Antigravity/_active/_ledgers/2026-08-07-sweep-arenas-proposal.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/_active/video-studio/hyperframes-studio" "/Users/farricecain/Google Antigravity/_active/hyperframes-studio"
 # Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/wagering/prediction-market-arb" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/prediction-market-arb"
