@@ -153,8 +153,10 @@ Never default to `/autopilot` as a catch-all.
 **Lock gate (merge-discipline.md Law 0):** fleet / swarm / verify-fleet /
 wargame-batch patterns, or long autonomous runs, claim the tree first:
 `python3 execution/session_lock.py claim "<mission>"` (heartbeat between
-waves, release at close). BLOCKED on a fresh foreign lock = surface and wait.
-Solo/content conductors skip the claim.
+waves, release at close). BLOCKED on a fresh foreign lock = take a lane
+(EnterWorktree; bootstrap + merge-back are automatic) instead of waiting.
+In a lane the lock gate auto-clears (session_lock.py knows — single writer
+by construction). Solo/content conductors skip the claim.
 
 Hand the RUN PACKET (= the approved card + contract.json path) to the chosen
 conductor as its intent input, then let the conductor run its own sequence.

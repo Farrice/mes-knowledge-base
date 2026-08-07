@@ -5,15 +5,26 @@ Codifies `docs/solutions/2026-07-15-concurrent-session-race-accept-repair-dedupe
 `docs/solutions/2026-07-15-ours-merge-absorbs-silently-drop-branch-content.md` into the
 standing SOP those cards proved. The lock is the brake; this discipline is the seatbelt.
 
-## Law 0 — One driver per tree (prevention beats merging)
+## Law 0 — One writer per tree; lanes are automatic (updated 2026-08-06)
 
-- Any build/forge/fleet/multi-file session **claims the lock first**:
+- **Lanes are the mechanism now** (`execution/worktree_lane.py`): the first session keeps
+  the main tree; every additional session takes a git worktree lane. Claude sessions get
+  the AUTO-LANE directive at SessionStart (call EnterWorktree before any write); Codex
+  follows the lane protocol in AGENTS.md. A lane is **single-writer by construction** —
+  `session_lock.py claim/check` auto-clear there. The MAIN tree remains the only
+  contended resource.
+- On main, any build/forge/fleet/multi-file session still **claims the lock first**:
   `python3 execution/session_lock.py claim "<mission>"` — and heartbeats between waves.
-- `session_lock.py check` before wave-building. A fresh foreign lock = do not build; wait,
-  coordinate with Farrice, or move to a `git worktree`.
+- `session_lock.py check` before wave-building. A fresh foreign lock = do not build on
+  main; take a lane (EnterWorktree / worktree_lane.py) — waiting is now the fallback,
+  not the plan.
 - Opt-in locks don't fire — claiming is part of the kickoff ritual in `/go`,
-  `/extract-forge`, and `/swarm` (wired 2026-07-17). A second concurrent session belongs
-  in its own worktree, never in this tree.
+  `/extract-forge`, and `/swarm` (wired 2026-07-17).
+- **Lane merge-back is mechanized**: `worktree_lane.py merge` seals, gates (dirty main /
+  fresh writer / merge mutex), merges `--no-ff`, runs the Law-3 added-file audit,
+  regenerates generated indexes (never hand-merges them), pushes, tears down. Conflicts
+  PARK the branch + surface one line. Parked-lane SLA: resolve within 7 days
+  (`doctor` nudges; the divergence alarm lists parked lanes without alarming).
 
 ## Law 1 — Fleet writes are quarantined (hook-enforced since 2026-07-17)
 
