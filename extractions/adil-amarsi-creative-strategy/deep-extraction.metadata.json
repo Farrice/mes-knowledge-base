@@ -1,0 +1,11 @@
+{
+  "artifact_type": "research",
+  "title": "Adil Amarsi: Deep Extraction",
+  "status": "phase_3_complete",
+  "source_id": "zX61pyC1vLM",
+  "primary_file": "deep-extraction.md",
+  "created_at": "2026-08-04",
+  "depth_tier": "deep",
+  "genius_patterns": 14,
+  "build_disposition": "single_in_place_extension"
+}

@@ -1,0 +1,12 @@
+{
+  "artifact_type": "strategy",
+  "title": "Architecture Checkpoint: Profit-Finder Opportunity Scan",
+  "status": "checkpoint_2_approved",
+  "source_id": "zX61pyC1vLM",
+  "owner_skill": "luke-iha-creative-strategy",
+  "primary_file": "architecture-checkpoint.md",
+  "created_at": "2026-08-04",
+  "recommended_build_shape": "single_in_place_extension",
+  "proposed_workflow": "profit-finder-opportunity-scan",
+  "approved_at": "2026-08-04"
+}

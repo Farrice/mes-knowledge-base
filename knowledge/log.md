@@ -707,3 +707,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-03 12:40]` **finalize** | Expanded Expert Practice OS Vision checkpoint grounded in Authority.io source | general | sunny-lenarduzzi-youtube — composite:7.7 status:Keep
 - `[2026-08-03 13:27]` **finalize** | Drafted the Expert Practice OS Architecture checkpoint and Skill System Contract for source 4HqO0h13 | general | source-to-skill-system — composite:7.73 status:Keep
 - `[2026-08-03 14:32]` **finalize** | Built the approved cold Expert Practice OS plus Authority.io/Sunny-led POP addition, two divergent f | general | source-to-skill-system — composite:7.87 status:Keep
+- `[2026-08-04 16:02]` **finalize** | Adil Amarsi source-grounded extract-forge Vision checkpoint | general | extract-mastery — composite:7.0 status:Needs Improvement
+- `[2026-08-04 16:03]` **finalize** | Adil Amarsi source-grounded extract-forge Vision checkpoint | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-08-04 16:32]` **finalize** | Adil Amarsi Deep Extraction and Profit-Finder Opportunity Scan architecture checkpoint | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-08-04 17:56]` **finalize** | Adil Amarsi source delta — Luke Iha Profit-Finder Opportunity Scan in-place extraction forge | strategy | luke-iha — composite:7.67 status:Keep
