@@ -55,6 +55,13 @@ FROZEN = (
     # it describe moves it says haven't happened yet — history, not a live pointer.
     "/move-plan.md",
     ".git/",
+    # 2026-08-07: protected by NEITHER tool before today. An append-only asset
+    # index keyed by live path (5,032 lines, one _active/ research path alone
+    # accounts for them) — regenerate it after a move via asset_index.py,
+    # never rewrite it in place.
+    ".agent/assets/manifest.jsonl",
+    ".agent/organization/sweep-state.json",
+    "_active/_ledgers/",
 )
 
 TEXT_SUFFIXES = {".md", ".py", ".json", ".jsonl", ".js", ".ts", ".tsx", ".yml",
@@ -65,24 +72,47 @@ def _git(*args: str) -> subprocess.CompletedProcess:
     return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
 
 
+class GrepFailure(RuntimeError):
+    """A referrer scan failed. An empty result must never be read as "no
+    referrers" — that silently downgrades a move to one with zero rewrites."""
+
+
+def _keep(line: str) -> bool:
+    if not line.strip():
+        return False
+    return not any(line.startswith(f) or f in line for f in FROZEN)
+
+
 def find_referrers(needle: str) -> list[Path]:
     """Every tracked-or-untracked text file mentioning the old path."""
-    out = _git("grep", "-I", "-l", "-F", "--untracked", needle).stdout
+    r = _git("grep", "-I", "-l", "-F", "--untracked", needle)
+    if r.returncode not in (0, 1):  # 1 == no matches, which is a real answer
+        raise GrepFailure(f"git grep exited {r.returncode}: {r.stderr.strip()[:200]}")
     hits = []
-    for line in out.splitlines():
-        if not line.strip():
-            continue
-        if any(line.startswith(f) or f in line for f in FROZEN):
+    for line in r.stdout.splitlines():
+        if not _keep(line):
             continue
         p = ROOT / line
         if p.is_file() and (p.suffix.lower() in TEXT_SUFFIXES or not p.suffix):
             hits.append(p)
+    # git grep --untracked still skips GITIGNORED trees. _active/claude-export/
+    # is gitignored and holds real referrers, so sweep it with plain grep.
+    for extra in (ROOT / "_active" / "claude-export",):
+        if extra.is_dir():
+            r2 = subprocess.run(["grep", "-rIlF", needle, str(extra)],
+                                capture_output=True, text=True, timeout=180)
+            if r2.returncode not in (0, 1):
+                raise GrepFailure(f"grep of {extra} exited {r2.returncode}")
+            hits += [Path(l) for l in r2.stdout.splitlines()
+                     if l.strip() and _keep(l)]
     # The user-memory dir lives outside the repo; project_filer rewrites it too.
     mem = Path.home() / ".claude" / "projects" / "-Users-farricecain-Google-Antigravity" / "memory"
     if mem.is_dir():
-        r = subprocess.run(["grep", "-rIlF", needle, str(mem)],
-                           capture_output=True, text=True)
-        hits += [Path(l) for l in r.stdout.splitlines() if l.strip()]
+        r3 = subprocess.run(["grep", "-rIlF", needle, str(mem)],
+                            capture_output=True, text=True, timeout=180)
+        if r3.returncode not in (0, 1):
+            raise GrepFailure(f"grep of memory dir exited {r3.returncode}")
+        hits += [Path(l) for l in r3.stdout.splitlines() if l.strip()]
     return sorted(set(hits))
 
 

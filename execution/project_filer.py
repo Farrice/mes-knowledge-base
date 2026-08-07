@@ -71,6 +71,27 @@ CONTROL_PREFIXES = (".agent/workflows/",)
 # ignored entirely as referrers (rewriting router snapshots is noise).
 BOOKKEEPING_PREFIXES = ("_system/organization/", ".agent/organization/", ".git/")
 
+# Append-only ledgers and rebuildable indexes. History must keep saying where a
+# file WAS, so a path rewrite here is corruption, not maintenance.
+# .agent/assets/manifest.jsonl is a rebuildable index keyed by live path (5,032
+# lines) and was protected by NEITHER tool before 2026-08-07 — regenerate it
+# after a move, never rewrite it in place.
+FROZEN_LEDGERS = (
+    ".agent/assets/manifest.jsonl",
+    ".agent/organization/sweep-state.json",
+    "_active/_ledgers/",
+)
+
+
+class GrepFailure(RuntimeError):
+    """A referrer scan failed to complete.
+
+    SCAR 2026-08-07: both grep helpers did `except Exception: return []` on a
+    30s timeout. An empty list is indistinguishable from "no referrers", so a
+    slow grep silently downgraded to a move with zero reference rewrites. A
+    failed scan must abort the move, never be read as a clean one.
+    """
+
 LIFECYCLE_TO_FOLDER = {
     "archive": "99-archive",
     "asset": "05-assets",
@@ -187,12 +208,14 @@ def _git_grep(needle: str) -> list[Path]:
         r = subprocess.run(
             ["git", "grep", "-I", "-l", "-F", "--untracked", needle,
              "--", *_GREP_EXCLUDES],
-            capture_output=True, text=True, cwd=str(ROOT), timeout=30,
+            capture_output=True, text=True, cwd=str(ROOT), timeout=120,
         )
-    except Exception:
-        return []
+    except Exception as exc:  # SCAR 2026-08-07 — see GrepFailure
+        raise GrepFailure(f"git grep failed for {needle!r}: {exc}") from exc
     if r.returncode not in (0, 1):
-        return []
+        raise GrepFailure(
+            f"git grep exited {r.returncode} for {needle!r}: {r.stderr.strip()[:200]}"
+        )
     out = []
     for line in r.stdout.splitlines():
         line = line.strip()
@@ -207,12 +230,14 @@ def _plain_grep(needle: str, root: Path) -> list[Path]:
     try:
         r = subprocess.run(
             ["grep", "-rIlF", needle, str(root)],
-            capture_output=True, text=True, timeout=30,
+            capture_output=True, text=True, timeout=120,
         )
-    except Exception:
-        return []
+    except Exception as exc:  # SCAR 2026-08-07 — see GrepFailure
+        raise GrepFailure(f"grep failed for {needle!r} under {root}: {exc}") from exc
     if r.returncode not in (0, 1):
-        return []
+        raise GrepFailure(
+            f"grep exited {r.returncode} for {needle!r}: {r.stderr.strip()[:200]}"
+        )
     return [Path(line).resolve() for line in r.stdout.splitlines() if line.strip()]
 
 
@@ -364,14 +389,77 @@ def print_plan(plan: dict[str, Any]) -> None:
 # reference rewriting
 # ─────────────────────────────────────────────────────────────
 
+def _repo_abs_prefixes() -> tuple[str, ...]:
+    """Absolute path spellings that mean "this repository".
+
+    SCAR 2026-08-07: _is_pathlike() hard-rejected every target starting with
+    "/", "~" or "$", and scan_broken_refs() shares that gate — so ~26,000
+    absolute references into _active/ were REWRITTEN (by the rel_pairs
+    substring swap) but never VERIFIED. A move that shattered every one of them
+    would still print RESULT: PASS. The repo path also contains a space
+    ("Google Antigravity"), which the space rule rejected independently, so
+    repo-absolute refs were invisible twice over.
+
+    Worktree lanes make it sharper: a ref names the MAIN repo path while ROOT
+    is the lane, so both spellings must resolve against the tree under test.
+    """
+    roots = [str(ROOT)]
+    try:
+        r = subprocess.run(["git", "rev-parse", "--git-common-dir"],
+                           capture_output=True, text=True, cwd=str(ROOT), timeout=10)
+        if r.returncode == 0 and r.stdout.strip():
+            common = Path(r.stdout.strip())
+            if not common.is_absolute():
+                common = ROOT / common
+            main_root = str(common.resolve().parent)
+            if main_root not in roots:
+                roots.append(main_root)
+    except Exception:
+        pass
+    home = str(Path.home())
+    out: list[str] = []
+    for base in roots:
+        forms = [base]
+        if base.startswith(home + "/"):
+            forms += ["~" + base[len(home):], "$HOME" + base[len(home):]]
+        for f in forms:
+            pfx = f.rstrip("/") + "/"
+            if pfx not in out:
+                out.append(pfx)
+    # Longest first so a lane path never matches as the main-repo prefix.
+    return tuple(sorted(out, key=len, reverse=True))
+
+
+REPO_ABS_PREFIXES = _repo_abs_prefixes()
+
+
+def _strip_repo_prefix(target: str) -> str | None:
+    """Repo-absolute (or ~/$HOME) ref → repo-relative. None if not repo-absolute."""
+    for pfx in REPO_ABS_PREFIXES:
+        if target.startswith(pfx):
+            return target[len(pfx):]
+    return None
+
+
 def _is_pathlike(target: str) -> bool:
-    if not target or " " in target:
+    if not target:
         return False
+    stripped = _strip_repo_prefix(target)
+    if stripped is not None:
+        if not stripped:
+            return False
+        # Repo-absolute. The space rule cannot apply (the repo path itself has
+        # one) and neither can the leading-"/" reject — the prefix match is
+        # already proof this is a path. The suffix check below still gates it.
+        target = stripped
+    else:
+        if " " in target:
+            return False
+        if target.startswith(("#", "mailto:", "/", "u/", "$", "~")):
+            return False
     if "://" in target:
         return False
     if "<" in target or ">" in target:  # template placeholders like agents/<slug>/AGENT.md
-        return False
-    if target.startswith(("#", "mailto:", "/", "u/", "$", "~")):
         return False
     stem = target.split("#", 1)[0]
     last = stem.rsplit("/", 1)[-1]
@@ -385,6 +473,15 @@ def _resolve_target(target: str, base_dir: Path) -> Path | None:
     t = target.split("#", 1)[0]
     if not t:
         return None
+    stripped = _strip_repo_prefix(t)
+    if stripped is not None:
+        # Resolve against THIS tree's ROOT, not the literal absolute string:
+        # in a worktree lane the ref names the main repo but the file under
+        # test lives in the lane.
+        try:
+            return (ROOT / stripped).resolve()
+        except Exception:
+            return None
     try:
         if t.startswith("/"):
             cand = Path(t)
@@ -407,6 +504,10 @@ def rewrite_file(
     file's NEW directory. Returns the number of substitutions made."""
     if current.suffix.lower() in BINARY_SUFFIXES:
         return 0
+    rel_current = _rel_to_root(current)
+    if rel_current and any(rel_current.startswith(f) or rel_current == f.rstrip("/")
+                           for f in FROZEN_LEDGERS):
+        return 0  # append-only history / rebuildable index — see FROZEN_LEDGERS
     try:
         text = current.read_text(encoding="utf-8")
     except (UnicodeDecodeError, OSError):
@@ -426,6 +527,7 @@ def rewrite_file(
     def _recompute(target: str) -> str | None:
         if not _is_pathlike(target):
             return None
+        abs_prefix = next((p for p in REPO_ABS_PREFIXES if target.startswith(p)), None)
         abs_old = _resolve_target(target, old_dir)
         if abs_old is None:
             return None
@@ -440,6 +542,14 @@ def rewrite_file(
             # Ref did not resolve pre-move: pre-existing breakage, leave
             # byte-identical (never "fix" garbage into different garbage).
             return None
+        if abs_prefix is not None:
+            # Preserve the author's absolute spelling — an absolute ref must
+            # not silently become relative (it may be read from elsewhere).
+            rel_new = _rel_to_root(Path(new_abs))
+            if not rel_new:
+                return None
+            new_target = abs_prefix + rel_new
+            return new_target if new_target != target else None
         new_target = os.path.relpath(new_abs, new_dir)
         return new_target if new_target != target else None
 
@@ -671,7 +781,10 @@ def scan_broken_refs(project_root: Path) -> list[dict[str, str]]:
             if not t:
                 continue
             resolved = _resolve_target(t, md.parent)
-            repo_resolved = (ROOT / t).resolve() if not t.startswith("/") else None
+            # Second chance: many refs are written repo-relative from anywhere.
+            t_rel = _strip_repo_prefix(t)
+            probe = t_rel if t_rel is not None else (None if t.startswith(("/", "~", "$")) else t)
+            repo_resolved = (ROOT / probe).resolve() if probe else None
             if (resolved and resolved.exists()) or (repo_resolved and repo_resolved.exists()):
                 continue
             broken.append({"file": _display(md), "target": target})
@@ -1062,4 +1175,11 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except GrepFailure as exc:
+        # Never let a failed referrer scan read as "no referrers" — abort loud.
+        print(f"ABORT: referrer scan incomplete — {exc}", file=sys.stderr)
+        print("Nothing was moved. Re-run; if it repeats, the grep is the bug.",
+              file=sys.stderr)
+        sys.exit(2)

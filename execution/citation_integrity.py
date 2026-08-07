@@ -23,6 +23,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -34,12 +35,50 @@ KNOWN_ROOTS = (
     "execution/", "directives/", "skills/", "agents/", "docs/", "knowledge/",
     "councils/", "extractions/", "strategy_briefs/", "research_outputs/",
     "deliverables/", "products/", "projects/", "_active/", "evolution_store/",
-    ".agent/", ".claude/", "evolution/", "config/",
+    ".agent/", ".claude/", "evolution/", "config/", "_system/", "guides/",
+    "templates/", "hooks/",
 )
 
 # A path: known root + path chars, ending in an extension we care about.
 PATH_RE = re.compile(
-    r"(?<![\w/])((?:" + "|".join(re.escape(r) for r in KNOWN_ROOTS) + r")[\w./-]+\.(?:md|py|json|jsonl|txt|yaml|yml|csv|sh))\b"
+    r"(?<![\w/])((?:" + "|".join(re.escape(r) for r in KNOWN_ROOTS) + r")[\w./-]+\.(?:md|py|json|jsonl|txt|yaml|yml|csv|sh|html))\b"
+)
+
+# Absolute (or ~/$HOME) spellings of the same repo. Stripped to repo-relative
+# before the existence check — otherwise every absolute citation is invisible.
+# In a worktree lane the citation names the MAIN repo while ROOT is the lane,
+# so both roots resolve against the tree under test.
+def _repo_abs_prefixes() -> tuple:
+    roots = [str(ROOT)]
+    try:
+        r = subprocess.run(["git", "rev-parse", "--git-common-dir"],
+                           capture_output=True, text=True, cwd=str(ROOT), timeout=10)
+        if r.returncode == 0 and r.stdout.strip():
+            common = Path(r.stdout.strip())
+            if not common.is_absolute():
+                common = ROOT / common
+            main = str(common.resolve().parent)
+            if main not in roots:
+                roots.append(main)
+    except Exception:
+        pass
+    home = str(Path.home())
+    out = []
+    for base in roots:
+        forms = [base]
+        if base.startswith(home + "/"):
+            forms += ["~" + base[len(home):], "$HOME" + base[len(home):]]
+        for f in forms:
+            pfx = f.rstrip("/") + "/"
+            if pfx not in out:
+                out.append(pfx)
+    return tuple(sorted(out, key=len, reverse=True))
+
+
+_ABS_PREFIXES = _repo_abs_prefixes()
+ABS_PATH_RE = re.compile(
+    r"((?:" + "|".join(re.escape(p) for p in _ABS_PREFIXES) +
+    r")[\w./ -]+\.(?:md|py|json|jsonl|txt|yaml|yml|csv|sh|html))"
 )
 # Markdown link targets inside a memory dir file: [title](file.md) — relative to that dir.
 MEMLINK_RE = re.compile(r"\]\(([\w./-]+\.md)\)")
@@ -81,6 +120,15 @@ def scan_file(fp: Path, memory_mode: bool) -> list:
         seen.add(cited)
         if not _existing(cited):
             missing.append(cited)
+    # Absolute spellings of in-repo paths (2026-08-07): previously invisible.
+    for m in ABS_PATH_RE.finditer(text):
+        cited = m.group(1).rstrip(".")
+        rel = next((cited[len(p):] for p in _ABS_PREFIXES if cited.startswith(p)), None)
+        if rel is None or rel in seen or NOISE.search(rel) or RUNTIME_ALLOWLIST.match(rel):
+            continue
+        seen.add(rel)
+        if not _existing(rel):
+            missing.append(cited)
     if memory_mode:
         for m in MEMLINK_RE.finditer(text):
             cited = m.group(1)
@@ -106,6 +154,24 @@ def collect_sources() -> list:
     if sol.exists():
         for fp in sorted(sol.glob("*.md")):
             sources.append((fp, False, "SOLUTIONS"))
+
+    # WIRING tier (2026-08-07). KNOWN_ROOTS already listed skills/, agents/ and
+    # .agent/ as valid citation TARGETS — but nothing in those trees was ever
+    # scanned as a citation SOURCE. They are the largest referrer clusters in
+    # the repo (~530 skill files reference _active/ alone), so a move that
+    # orphaned every one of them produced a silent, clean-looking report.
+    wiring = [
+        ("skills", "**/*.md"), ("agents", "**/*.md"), ("guides", "**/*.md"),
+        (".agent/workflows", "*.md"), (".agent/handoffs", "*.md"),
+        ("_system/organization", "*.md"),
+        ("deliverables/research-briefs", "**/*.md"),
+    ]
+    for sub, pattern in wiring:
+        base = ROOT / sub
+        if base.is_dir():
+            for fp in sorted(base.glob(pattern)):
+                if fp.is_file():
+                    sources.append((fp, False, "WIRING"))
     return sources
 
 
@@ -134,7 +200,7 @@ def main():
         print(f"\n{'='*62}\n  CITATION INTEGRITY — {scanned} sources scanned\n{'='*62}")
         if not total_missing:
             print("  All cited paths resolve. Clean.")
-        for tier in ("BINDING", "MEMORY", "SOLUTIONS"):
+        for tier in ("BINDING", "MEMORY", "SOLUTIONS", "WIRING"):
             if tier not in report:
                 continue
             print(f"\n  [{tier}] — {sum(len(v) for v in report[tier].values())} missing")

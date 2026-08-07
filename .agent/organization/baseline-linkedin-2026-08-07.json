@@ -1,0 +1,4187 @@
+{
+  "project": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch",
+  "ok": false,
+  "baseline_source": "none",
+  "broken_links": [
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../02-offer/OFFER-WARGAME-2026-07-28.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../01-research/ICP-BATTLE-CARD.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/carousels/2026-07-29-carousel-01-transparent-labs-10-slide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-08-04-week-2-pov-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-30-profile-copy-v8-POP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../02-offer/ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/CASH-SCOREBOARD-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "MOVED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "PROOF-TO-MARKET-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "FIRST-WAVE-PROSPECTS-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../ONE-GAP-DM-SYSTEM-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../ONE-GAP-DM-SYSTEM-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/content-os/launch-sequence-stanton.md",
+      "target": "REVIEW-clean-posts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/content-os/receipt-arc-novelty-pass/CAMPAIGN-MAP.md",
+      "target": "../04-content-os/REVIEW-clean-posts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/LAUNCH-PACKET-CLAIM-CHECK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "offers/00-START-HERE-FEATURED-FUNNEL.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "offers/featured-section-funnel-v1.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LANE-VERDICT-2026-07-21.md",
+      "target": "offer_gate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/featured-section-funnel-v1.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/AI-SEARCH-SHADOW-QUICK-REFERENCE.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/INDEX-FEATURED-SECTION.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/teardown-system.md",
+      "target": "offers/OFFER-LADDER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/teardown-system.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/teardown-system.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/INDEX-AI-SEARCH-SHADOW.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/INDEX-AI-SEARCH-SHADOW.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md",
+      "target": "market-pulse.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/buyer-council-verdict-2026-07-19.md",
+      "target": "cold-dm-set-founder-walkthrough.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/buyer-council-verdict-2026-07-19.md",
+      "target": "2026-07-07-alignment-architect-launch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/AI-SEARCH-SHADOW-DM-TEMPLATE.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/featured-section-and-profile.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/featured-section-and-profile.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/buyer-council-verdict-v2-2026-07-19.md",
+      "target": "cold-dm-set-founder-walkthrough.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SOURCE-REGISTRY-INSTITUTION-PARKED.md",
+      "target": "./SOURCE-REGISTRY-ACTIVE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "./LAUNCH-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-offer-page.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-offer-page.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/WORLD-BUILDING-INTEGRATION-2026-08-05.md",
+      "target": "SOURCE-REGISTRY-ACTIVE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/AI-SEARCH-SHADOW-LAUNCH-BRIEF.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/FEATURED-SECTION-LAUNCH-TODAY.md",
+      "target": "offers/proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "_active/offers/intake-form-questions.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "voice-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "vsl-script.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "notes.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "tracking.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "_active/offers/voice-profile-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "_active/clients/[client-name]/tracking.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/custom-gpt-instructions.md",
+      "target": "ICP-and-avatar-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "offer_market_fit_blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/source/proof-to-market-v1-lara-gpt-2026-07-18.md",
+      "target": "PROOF-TO-MARKET-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/PLAYBOOK-README.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/PLAYBOOK-README.md",
+      "target": "feedback_ai-writing-tells.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "../04-content-os/CONTENT-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "OFFER-ONE-PAGER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-magnet-ai-search-visibility-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-magnet-ai-search-visibility-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/WEEK1-POSTS-2026-07-21.md",
+      "target": "02-offer/OFFER-LANE-VERDICT-2026-07-21.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md",
+      "target": "revenue_tracker.py"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md",
+      "target": "06-automation/daily/briefing-2026-06-11.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md",
+      "target": "03-launch/platforms/linkedin_overhaul_playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "2026-06-15-post-the-replaceable-fear.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "publish-copy-v3-high-taste.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-15-brand-vertical-post.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "novelty-engine-flagship/FLAGSHIP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-ship-copy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-15-post-the-replaceable-fear.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "health-performance-ai-search-week-1/publish-copy-v3-high-taste.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "03-launch/DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "02-offer/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "05-lead-gen/pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "04-content-os/starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "02-offer/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "02-offer/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md",
+      "target": "01-research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "signal-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+      "target": "02-offer/OFFER-WARGAME-2026-07-28.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+      "target": "OFFER-WARGAME-2026-07-28.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "service-architecture.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "LAUNCH-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "proof-run-offer-page.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "client-onboarding-sop.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "client-proposal-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "posts/01-invisible-expert.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md",
+      "target": "02-offer/OFFER-LANE-VERDICT-2026-07-21.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md",
+      "target": "02-offer/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/CONTENT-DOMINATION-RESEARCH.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/icp-emotional-map.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md",
+      "target": "CLIENT_ACQUISITION_OFFER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md",
+      "target": "CLIENT_ACQUISITION_OFFER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+      "target": "CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+      "target": "OFFER-ONE-PAGER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+      "target": "CREATIVE-BOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "voice-gate.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "ICP-and-avatar-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "...-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "_active/health-performance-ip-library/daily/YYYY-MM-DD-health-performance-geo-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "scratchpad/postgate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "../04-content-os/starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "README.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "INDEX.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "MASTER-INDEX-ALL-SYSTEMS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "START-HERE-READ-THIS-FIRST.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "LINKEDIN-MASTER-INDEX.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "LAUNCH-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "LAUNCH-SUMMARY-WHAT-YOU-HAVE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "INDEX.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "START-HERE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "ICP-and-avatar-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "*-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "daily/2026-06-22-bakeoff-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md",
+      "target": "ai-boom-content-DIANDRA-upgrade.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-engine/CONTENT-ENGINE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/content-creation-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/social-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/content-creation-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/social-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "CONTENT-ENGINE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "daily/performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/authority-flywheel-format-finder-onepager.md",
+      "target": "authority-flywheel.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md",
+      "target": "CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/README.md",
+      "target": "../04-deliverables/00-CONTROL-TOWER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+      "target": "../../strategy_briefs/Trend_Report_AI-Agentic-x-Wellness.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+      "target": "genius.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+      "target": "genius.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md",
+      "target": "content-os/CONTENT-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md",
+      "target": "scratchpad/postgate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/social-playbook.md",
+      "target": "signature-post-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/social-playbook.md",
+      "target": "CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/social-playbook.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/exemplars/_p3-training-performance.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-team-os/07-quality-gates-and-kill-list.md",
+      "target": "CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-team-os/07-quality-gates-and-kill-list.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-team-os/07-quality-gates-and-kill-list.md",
+      "target": "CONTENT-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/12-recognizability-test.md",
+      "target": "posts/12-voice-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/02-deployment-gap-calculator.md",
+      "target": "posts/02-47-google-docs-trap.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/04-client-language-miner.md",
+      "target": "posts/04-clients-wrote-your-content.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13a-build-in-public-launch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13b-build-in-public-weekly.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13c-build-in-public-first-client.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13d-build-in-public-origin.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/06-unique-version-finder.md",
+      "target": "posts/06-imposter-syndrome-deployment.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/03-pipeline-fragility-score.md",
+      "target": "posts/03-referral-ceiling.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/10-post-rewrite-kit.md",
+      "target": "posts/10-live-rewrite-demo.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/07-framework-decomposition-engine.md",
+      "target": "posts/07-framework-content-machine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/08-content-to-client-audit.md",
+      "target": "posts/08-content-that-presells.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/05-voice-match-scorecard.md",
+      "target": "posts/05-30-minute-lie.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/11-content-quality-audit.md",
+      "target": "posts/11-consistency-trap.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/01-invisible-expert-diagnostic.md",
+      "target": "posts/01-invisible-expert.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/09-recognition-post-generator.md",
+      "target": "posts/09-recognition-over-teaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "_active/content/ip-flywheel/ghostwriting-flywheel-[1-5].md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-1.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-2.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-3.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-4.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-5.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/context-os/06-PROOF-LIBRARY.md",
+      "target": "01-research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md",
+      "target": "promises-not-kept.jsonl"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/session-prompts.md",
+      "target": "_active/linkedin-launch/content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/session-prompts.md",
+      "target": "_active/linkedin-launch/content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "feedback_multi-engine-rebuild-degrades-elevated-content.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "ai-boom-Post1-ELEVATED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "context_ethics_gate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/briefing-2026-06-11.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "context_ethics_gate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/briefing-2026-06-11.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-Post1-SANDWICH-result.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-Post1-SANDWICH-result.md",
+      "target": "ai-boom-Post1-ELEVATED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-Post1-SANDWICH-result.md",
+      "target": "memory/feedback_diandra-hooks-only-separation.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "ai-boom-Post1-ELEVATED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "memory/feedback_diandra-hooks-only-separation.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "_active/linkedin-launch/ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "research.py"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "ai-boom-content-DIANDRA-upgrade.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-content-DIANDRA-upgrade.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md",
+      "target": "../01-research/MARKET-OFFER-INTEL-2026-07-01.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md",
+      "target": "CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "pov-anchors.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "voice-gate.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "daily/performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "./SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "./SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "./SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-[arc-name]/arc-plan.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-[arc-name]/ch01-[slug].md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-[arc-name]/bridge-[slug].md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch01-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch02-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch03-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch04-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch05-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/bridge-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "mini-briefs/concept-dossier.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/[arc-name]/ch0X-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "mini-briefs/concept-dossier.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "service-architecture.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "commenting-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "demo-pipeline-and-conversion-math.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "demo-proof-strategy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "session-prompts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "session-research-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "skill-test-context.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "prompt-kit-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "concept-dossier.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "001-the-audit-lessons.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "genspark-20-post-serial-arc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin_and_social_profiles.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin_overhaul_playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-copy-med.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-v3.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-v4-sections.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-v4.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "coach-cooz-final/02-linkedin-10-post-series.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "revenue-sprint/linkedin-content.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "design-brief-linkedin-carousel-PENCIL-HANDOFF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "design-brief-linkedin-carousel-authenticity-trap.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-ghostwriting-outreach-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "commenting-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "demo-proof-strategy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/QUICK_REFERENCE_COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "QUICK_REFERENCE_COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/featured-section-funnel-v1.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "research/deep-icp-profile-invisible-expert.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "farrice-brand/CLAUDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "_pillar-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-4-the-human-premium.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-4-the-human-premium.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "fresh-voice-system/genius.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "diandra-escobar-linkedin-growth/references/hook-format-library.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-1-the-new-shelf.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-1-the-new-shelf.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-1-the-new-shelf.md",
+      "target": "farrice-brand/CLAUDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-2-proof-machine-can-carry.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-2-proof-machine-can-carry.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-5-the-operators-notebook.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-5-the-operators-notebook.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/11-consistency-trap.md",
+      "target": "prompt-kits/11-content-quality-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/02-47-google-docs-trap.md",
+      "target": "prompt-kits/02-deployment-gap-calculator.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/09-recognition-over-teaching.md",
+      "target": "prompt-kits/09-recognition-post-generator.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/06-imposter-syndrome-deployment.md",
+      "target": "prompt-kits/06-unique-version-finder.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/12-voice-test.md",
+      "target": "prompt-kits/12-recognizability-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/10-live-rewrite-demo.md",
+      "target": "prompt-kits/10-post-rewrite-kit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13d-build-in-public-origin.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13b-build-in-public-weekly.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/07-framework-content-machine.md",
+      "target": "prompt-kits/07-framework-decomposition-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13a-build-in-public-launch.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/08-content-that-presells.md",
+      "target": "prompt-kits/08-content-to-client-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/04-clients-wrote-your-content.md",
+      "target": "prompt-kits/04-client-language-miner.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/01-invisible-expert.md",
+      "target": "prompt-kits/01-invisible-expert-diagnostic.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/05-30-minute-lie.md",
+      "target": "prompt-kits/05-voice-match-scorecard.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/03-referral-ceiling.md",
+      "target": "prompt-kits/03-pipeline-fragility-score.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13c-build-in-public-first-client.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/demo-proof-strategy.md",
+      "target": "post-001-comment-copy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/demo-pipeline-and-conversion-math.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/demo-pipeline-and-conversion-math.md",
+      "target": "prompt-kit-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "OFFER-LADDER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "OFFER-LADDER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "offers/client-onboarding-sop.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/dream-100-v1.md",
+      "target": "01-research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/dream-100-v1.md",
+      "target": "wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/proof-tracker.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md",
+      "target": "PROOF-TO-MARKET-OS.md"
+    }
+  ],
+  "net_new_broken": [
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../02-offer/OFFER-WARGAME-2026-07-28.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../01-research/ICP-BATTLE-CARD.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/carousels/2026-07-29-carousel-01-transparent-labs-10-slide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-08-04-week-2-pov-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-30-profile-copy-v8-POP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../02-offer/ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "../05-lead-gen/CASH-SCOREBOARD-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CAMPAIGN.md",
+      "target": "MOVED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "PROOF-TO-MARKET-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "ANGLE-MAP-ACTIVATION-PACKET.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../../03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "FIRST-WAVE-PROSPECTS-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../ONE-GAP-DM-SYSTEM-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/CANON.md",
+      "target": "../ONE-GAP-DM-SYSTEM-2026-07-29.md"
+    },
+    {
+      "file": "_active/linkedin-launch/content-os/launch-sequence-stanton.md",
+      "target": "REVIEW-clean-posts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/content-os/receipt-arc-novelty-pass/CAMPAIGN-MAP.md",
+      "target": "../04-content-os/REVIEW-clean-posts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/LAUNCH-PACKET-CLAIM-CHECK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "offers/00-START-HERE-FEATURED-FUNNEL.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "offers/featured-section-funnel-v1.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/lead-gen-playbook.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LANE-VERDICT-2026-07-21.md",
+      "target": "offer_gate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/featured-section-funnel-v1.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/AI-SEARCH-SHADOW-QUICK-REFERENCE.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/INDEX-FEATURED-SECTION.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/teardown-system.md",
+      "target": "offers/OFFER-LADDER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/teardown-system.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/teardown-system.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/INDEX-AI-SEARCH-SHADOW.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/INDEX-AI-SEARCH-SHADOW.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md",
+      "target": "market-pulse.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/buyer-council-verdict-2026-07-19.md",
+      "target": "cold-dm-set-founder-walkthrough.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/buyer-council-verdict-2026-07-19.md",
+      "target": "2026-07-07-alignment-architect-launch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/AI-SEARCH-SHADOW-DM-TEMPLATE.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/featured-section-and-profile.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/featured-section-and-profile.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/buyer-council-verdict-v2-2026-07-19.md",
+      "target": "cold-dm-set-founder-walkthrough.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SOURCE-REGISTRY-INSTITUTION-PARKED.md",
+      "target": "./SOURCE-REGISTRY-ACTIVE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "./LAUNCH-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-offer-page.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-offer-page.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "offers/proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/SERVICE-SALES-GUIDE.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/WORLD-BUILDING-INTEGRATION-2026-08-05.md",
+      "target": "SOURCE-REGISTRY-ACTIVE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/AI-SEARCH-SHADOW-LAUNCH-BRIEF.md",
+      "target": ".agent/cos/ai-shadow-outreach-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/FEATURED-SECTION-LAUNCH-TODAY.md",
+      "target": "offers/proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "_active/offers/intake-form-questions.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "voice-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "vsl-script.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "notes.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "tracking.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "_active/offers/voice-profile-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/client-onboarding-sop.md",
+      "target": "_active/clients/[client-name]/tracking.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/custom-gpt-instructions.md",
+      "target": "ICP-and-avatar-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "offer_market_fit_blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/OFFER-LADDER.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/02-offer/source/proof-to-market-v1-lara-gpt-2026-07-18.md",
+      "target": "PROOF-TO-MARKET-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/PLAYBOOK-README.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/PLAYBOOK-README.md",
+      "target": "feedback_ai-writing-tells.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "../04-content-os/CONTENT-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "OFFER-ONE-PAGER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-magnet-ai-search-visibility-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "LAUNCH-DECK-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-magnet-ai-search-visibility-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/claim-safe-citation-audit-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "featured-section-and-profile.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/00-start-here/START-HERE-2026-06-23.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/WEEK1-POSTS-2026-07-21.md",
+      "target": "02-offer/OFFER-LANE-VERDICT-2026-07-21.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md",
+      "target": "revenue_tracker.py"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md",
+      "target": "06-automation/daily/briefing-2026-06-11.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md",
+      "target": "03-launch/platforms/linkedin_overhaul_playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "2026-06-15-post-the-replaceable-fear.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "publish-copy-v3-high-taste.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-15-brand-vertical-post.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "novelty-engine-flagship/FLAGSHIP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-ship-copy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-15-post-the-replaceable-fear.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "daily/2026-06-22-bakeoff-shipcopy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/LAUNCH-DECK-2026-06-23.md",
+      "target": "health-performance-ai-search-week-1/publish-copy-v3-high-taste.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "03-launch/DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "02-offer/lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "05-lead-gen/pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "04-content-os/starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "lead-gen-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "02-offer/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md",
+      "target": "02-offer/claim-safe-citation-audit-TEMPLATE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md",
+      "target": "01-research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "signal-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md",
+      "target": "proof-tracker.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+      "target": "02-offer/OFFER-WARGAME-2026-07-28.md"
+    },
+    {
+      "file": "_active/linkedin-launch/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+      "target": "OFFER-WARGAME-2026-07-28.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "service-architecture.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "LAUNCH-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "proof-run-offer-page.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "proof-run-delivery-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "client-onboarding-sop.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "client-proposal-template.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/session-research-brief.md",
+      "target": "posts/01-invisible-expert.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md",
+      "target": "02-offer/OFFER-LANE-VERDICT-2026-07-21.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md",
+      "target": "02-offer/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/CONTENT-DOMINATION-RESEARCH.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/icp-emotional-map.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md",
+      "target": "CLIENT_ACQUISITION_OFFER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md",
+      "target": "CLIENT_ACQUISITION_OFFER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+      "target": "CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+      "target": "OFFER-ONE-PAGER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md",
+      "target": "CREATIVE-BOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "voice-gate.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "ICP-and-avatar-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/01-research/MASTER-STRATEGY.md",
+      "target": "content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "...-EXAMPLE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "_active/health-performance-ip-library/daily/YYYY-MM-DD-health-performance-geo-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "pipeline.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "scratchpad/postgate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "../04-content-os/starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "README.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "INDEX.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "MASTER-INDEX-ALL-SYSTEMS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "START-HERE-READ-THIS-FIRST.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "LINKEDIN-MASTER-INDEX.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "LAUNCH-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "LAUNCH-SUMMARY-WHAT-YOU-HAVE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "INDEX.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "START-HERE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "ICP-and-avatar.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "ICP-and-avatar-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "*-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+      "target": "daily/2026-06-22-bakeoff-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md",
+      "target": "ai-boom-content-DIANDRA-upgrade.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-engine/CONTENT-ENGINE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/content-creation-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/social-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/content-creation-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "content-os/social-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "CONTENT-ENGINE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md",
+      "target": "daily/performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/authority-flywheel-format-finder-onepager.md",
+      "target": "authority-flywheel.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md",
+      "target": "CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/README.md",
+      "target": "../04-deliverables/00-CONTROL-TOWER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+      "target": "../../strategy_briefs/Trend_Report_AI-Agentic-x-Wellness.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+      "target": "genius.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+      "target": "genius.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md",
+      "target": "content-os/CONTENT-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md",
+      "target": "scratchpad/postgate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md",
+      "target": "prose_classifier.py"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/social-playbook.md",
+      "target": "signature-post-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/social-playbook.md",
+      "target": "CONTENT-DOMINATION-RESEARCH.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/social-playbook.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/exemplars/_p3-training-performance.md",
+      "target": "starter-content-batch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-team-os/07-quality-gates-and-kill-list.md",
+      "target": "CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-team-os/07-quality-gates-and-kill-list.md",
+      "target": "MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/content-team-os/07-quality-gates-and-kill-list.md",
+      "target": "CONTENT-OS.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/12-recognizability-test.md",
+      "target": "posts/12-voice-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/02-deployment-gap-calculator.md",
+      "target": "posts/02-47-google-docs-trap.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/04-client-language-miner.md",
+      "target": "posts/04-clients-wrote-your-content.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13a-build-in-public-launch.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13b-build-in-public-weekly.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13c-build-in-public-first-client.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/13-build-in-public-toolkit.md",
+      "target": "posts/13d-build-in-public-origin.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/06-unique-version-finder.md",
+      "target": "posts/06-imposter-syndrome-deployment.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/03-pipeline-fragility-score.md",
+      "target": "posts/03-referral-ceiling.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/10-post-rewrite-kit.md",
+      "target": "posts/10-live-rewrite-demo.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/07-framework-decomposition-engine.md",
+      "target": "posts/07-framework-content-machine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/08-content-to-client-audit.md",
+      "target": "posts/08-content-that-presells.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/05-voice-match-scorecard.md",
+      "target": "posts/05-30-minute-lie.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/11-content-quality-audit.md",
+      "target": "posts/11-consistency-trap.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/01-invisible-expert-diagnostic.md",
+      "target": "posts/01-invisible-expert.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/prompt-kits/09-recognition-post-generator.md",
+      "target": "posts/09-recognition-over-teaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "_active/content/ip-flywheel/ghostwriting-flywheel-[1-5].md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-1.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-2.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-3.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-4.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/content-os/mini-briefs/concept-dossier.md",
+      "target": "ghostwriting-flywheel-5.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/context-os/06-PROOF-LIBRARY.md",
+      "target": "01-research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md",
+      "target": "promises-not-kept.jsonl"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/session-prompts.md",
+      "target": "_active/linkedin-launch/content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/session-prompts.md",
+      "target": "_active/linkedin-launch/content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "feedback_multi-engine-rebuild-degrades-elevated-content.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "ai-boom-Post1-ELEVATED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "context_ethics_gate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/briefing-2026-06-11.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/06-automation/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+      "target": "context_ethics_gate.py"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/briefing-2026-06-11.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/daily/briefing-2026-06-15.md",
+      "target": "content-os.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-Post1-SANDWICH-result.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-Post1-SANDWICH-result.md",
+      "target": "ai-boom-Post1-ELEVATED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-Post1-SANDWICH-result.md",
+      "target": "memory/feedback_diandra-hooks-only-separation.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "ai-boom-Post1-ELEVATED.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "memory/feedback_diandra-hooks-only-separation.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "_active/linkedin-launch/ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/ai-boom-content-DIANDRA-upgrade.md",
+      "target": "research.py"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "ai-boom-content-DIANDRA-upgrade.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-content-package.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-content-DIANDRA-upgrade.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md",
+      "target": "../01-research/MARKET-OFFER-INTEL-2026-07-01.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md",
+      "target": "CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "pov-anchors.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "voice-gate.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-os.md",
+      "target": "daily/performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/START-HERE-READ-THIS-FIRST.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "./SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "./SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "./SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-[arc-name]/arc-plan.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-[arc-name]/ch01-[slug].md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-[arc-name]/bridge-[slug].md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch01-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch02-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch03-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch04-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/ch05-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/01-*/bridge-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "mini-briefs/concept-dossier.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "arcs/[arc-name]/ch0X-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-GUIDE.md",
+      "target": "mini-briefs/concept-dossier.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "service-architecture.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "SERVICE-SALES-GUIDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "commenting-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "content-calendar-sc-coaching.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "demo-pipeline-and-conversion-math.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "demo-proof-strategy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "session-prompts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "session-research-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "skill-test-context.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "prompt-kit-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "concept-dossier.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "001-the-audit-lessons.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "genspark-20-post-serial-arc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin_and_social_profiles.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin_overhaul_playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-copy-med.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-v3.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-v4-sections.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-profile-v4.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "coach-cooz-final/02-linkedin-10-post-series.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "revenue-sprint/linkedin-content.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "design-brief-linkedin-carousel-PENCIL-HANDOFF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "design-brief-linkedin-carousel-authenticity-trap.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "linkedin-ghostwriting-outreach-playbook.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "profile-blueprint-sc.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "commenting-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "demo-proof-strategy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md",
+      "target": "outreach/dm-scripts.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/QUICK_REFERENCE_COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "QUICK_REFERENCE_COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LAUNCH-SUMMARY-WHAT-YOU-HAVE.md",
+      "target": "DEPLOYMENT_SEQUENCE_2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "GO-LIVE-DEPLOYMENT-JUNE-23-2026.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "QUICK-REFERENCE-COPYPASTE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DEPLOYMENT-SEQUENCE-2026-06-23.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/FEATURED-SECTION-LAUNCH-TODAY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/FEATURED-SECTION-EXACT-COPY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/featured-section-funnel-v1.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-one-pager.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "offers/unified-offer-brief-usage-guide.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-LEAD-GEN-PLAYBOOK.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "DUAL-TRACK-FIRST-WEEK-SETUP.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "SIGNAL-DETECTION-QUICK-REF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "research/deep-icp-profile-invisible-expert.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/MASTER-INDEX-ALL-SYSTEMS.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "farrice-brand/CLAUDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/CONTENT-ENGINE.md",
+      "target": "_pillar-*.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-4-the-human-premium.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-4-the-human-premium.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "fresh-voice-system/genius.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-3-average-is-a-choice.md",
+      "target": "diandra-escobar-linkedin-growth/references/hook-format-library.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-1-the-new-shelf.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-1-the-new-shelf.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-1-the-new-shelf.md",
+      "target": "farrice-brand/CLAUDE.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-2-proof-machine-can-carry.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-2-proof-machine-can-carry.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-5-the-operators-notebook.md",
+      "target": "research/MARKET-ICP-DOSSIER-2026-06.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/content-engine/_pillar-5-the-operators-notebook.md",
+      "target": "offers/CANONICAL-OFFER-BRIEF.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/11-consistency-trap.md",
+      "target": "prompt-kits/11-content-quality-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/02-47-google-docs-trap.md",
+      "target": "prompt-kits/02-deployment-gap-calculator.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/09-recognition-over-teaching.md",
+      "target": "prompt-kits/09-recognition-post-generator.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/06-imposter-syndrome-deployment.md",
+      "target": "prompt-kits/06-unique-version-finder.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/12-voice-test.md",
+      "target": "prompt-kits/12-recognizability-test.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/10-live-rewrite-demo.md",
+      "target": "prompt-kits/10-post-rewrite-kit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13d-build-in-public-origin.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13b-build-in-public-weekly.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/07-framework-content-machine.md",
+      "target": "prompt-kits/07-framework-decomposition-engine.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13a-build-in-public-launch.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/08-content-that-presells.md",
+      "target": "prompt-kits/08-content-to-client-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/04-clients-wrote-your-content.md",
+      "target": "prompt-kits/04-client-language-miner.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/01-invisible-expert.md",
+      "target": "prompt-kits/01-invisible-expert-diagnostic.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/05-30-minute-lie.md",
+      "target": "prompt-kits/05-voice-match-scorecard.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/03-referral-ceiling.md",
+      "target": "prompt-kits/03-pipeline-fragility-score.md"
+    },
+    {
+      "file": "_active/linkedin-launch/99-archive/_archive/standalone-v1/posts/13c-build-in-public-first-client.md",
+      "target": "prompt-kits/13-build-in-public-toolkit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/demo-proof-strategy.md",
+      "target": "post-001-comment-copy.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/demo-pipeline-and-conversion-math.md",
+      "target": "profile-blueprint.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/demo-pipeline-and-conversion-math.md",
+      "target": "prompt-kit-audit.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "daily/brand-radar-YYYY-WW.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "OFFER-LADDER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "MASTER-STRATEGY.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "OFFER-LADDER.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "icp-emotional-map.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "performance-log.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md",
+      "target": "offers/client-onboarding-sop.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/dream-100-v1.md",
+      "target": "01-research/wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/dream-100-v1.md",
+      "target": "wellness-supplement-brand-niche.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/proof-tracker.md",
+      "target": "offers/teardown-system.md"
+    },
+    {
+      "file": "_active/linkedin-launch/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md",
+      "target": "PROOF-TO-MARKET-OS.md"
+    }
+  ],
+  "old_path_residue": [],
+  "empty_dirs": []
+}
