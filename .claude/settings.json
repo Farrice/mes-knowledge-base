@@ -22,22 +22,22 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/skill_router_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/skill_router_hook.py\"",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" prompt",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" prompt",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/guard_stranded_deliverables.py\" check",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/guard_stranded_deliverables.py\" check",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/steering_loop_hook.py\" prompt",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/steering_loop_hook.py\" prompt",
             "timeout": 10
           }
         ]
@@ -49,7 +49,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/fleet_write_guard.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/fleet_write_guard.py\"",
             "timeout": 5
           }
         ]
@@ -59,7 +59,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/cost_gate_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/cost_gate_hook.py\"",
             "timeout": 15
           },
           {
@@ -69,7 +69,7 @@
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/active_tool_lock.py\" claude-code",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/active_tool_lock.py\" claude-code",
             "timeout": 10
           }
         ]
@@ -81,12 +81,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" posttool",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" posttool",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/superseded_read_guard.py\""
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/superseded_read_guard.py\""
           }
         ]
       },
@@ -95,7 +95,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/mcp_spend_log_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/mcp_spend_log_hook.py\"",
             "timeout": 5
           }
         ]
@@ -105,7 +105,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/artifact_placement_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/artifact_placement_hook.py\"",
             "timeout": 5
           }
         ]
@@ -115,7 +115,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/prompt_menu_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/prompt_menu_hook.py\"",
             "timeout": 5
           }
         ]
@@ -125,7 +125,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/menu_parity_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/menu_parity_hook.py\"",
             "timeout": 5
           }
         ]
@@ -136,12 +136,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" stop",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" stop",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/steering_loop_hook.py\" stop",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/steering_loop_hook.py\" stop",
             "timeout": 10
           }
         ]
@@ -152,7 +152,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_end_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/session_end_hook.py\"",
             "timeout": 120
           }
         ]
@@ -163,36 +163,36 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/divergence_alarm_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/divergence_alarm_hook.py\"",
             "timeout": 30
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/concurrent_session_alarm.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/concurrent_session_alarm.py\"",
             "timeout": 15
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/menu_parity_hook.py\" sessionstart",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/menu_parity_hook.py\" sessionstart",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/pending_decisions_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/pending_decisions_hook.py\"",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/campaign_beacon.py\""
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/hooks/campaign_beacon.py\""
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/pulse_dashboard.py\" --open --alarm",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/pulse_dashboard.py\" --open --alarm",
             "timeout": 15
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/voice_ratchet.py\" nudge",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/py.sh \"$CLAUDE_PROJECT_DIR/execution/voice_ratchet.py\" nudge",
             "timeout": 10
           }
         ]
