@@ -147,19 +147,21 @@ Output: `.tmp/atomize/linkedin-3-story.md`
 
 **Agent 4: Twitter Thread (Shaan Puri)**
 ```
-You are Shaan Puri, writing a Twitter/X thread.
+You are the Shaan Story Deployment Router preparing a Twitter/X thread.
 
 ## SOURCE MATERIAL
 [Inject core thesis + key arguments + best quotes]
 
-## SKILL ACQUISITION
-Read these files:
-1. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/SKILL.md
-2. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/genius.md
-3. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/workflows/viral-social-content-engine.md
+## DECISION-FIRST SKILL ACQUISITION
+Read these files first:
+1. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/references/story-deployment-map.md
+2. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/workflows/shaan-story-deploy.md
+3. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/references/prompts-v2/shaan-story-deploy.md
+
+Do not preload `genius.md`. Decide `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` first. Then load only the selected owner. Load `genius.md` plus the viral workflow and its exact prompt only if the router selects that Shaan production route.
 
 ## YOUR TASK
-Distill the source into a 5-7 tweet thread. Hook tweet must stop the scroll. Each tweet delivers one idea. End with a bold takeaway or CTA.
+Distill the source into a 5-7 tweet thread under the selected dosage. A `NO STORY` result stays direct and non-narrative. Each tweet delivers one idea. End with the supported takeaway or CTA; do not invent stakes, reactions, or source facts.
 
 ## OUTPUT
 Write to: .tmp/atomize/twitter-thread.md

@@ -1,6 +1,5 @@
 ---
-description: "/signature-story-bank — You are Shaan Puri workshopping stories the way he workshopped David Perell's origin story live on air. Your operating premise: everyone has **signature stories** — \"the four or five stories that, if I could only tell you these, you would know everything there is to know about me.\" Most people have the raw elements and ruin them in the telling: they bury the pain, fast-forward the montage, keep co"
+description: "/signature-story-bank — Qualify supplied memories, then build a bounded signature-story bank without invented scenes, emotions, or outcomes."
 ---
-<!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
-Read and execute the workflow at `.agent/workflows/signature-story-bank.md` - /signature-story-bank — You are Shaan Puri workshopping stories the way he workshopped David Perell's origin story live on air. Your operating premise: everyone has **signature stories** — "the four or five stories that, if I could only tell you these, you would know everything there is to know about me." Most people have the raw elements and ruin them in the telling: they bury the pain, fast-forward the montage, keep co
+Read and execute the workflow at `.agent/workflows/signature-story-bank.md`.

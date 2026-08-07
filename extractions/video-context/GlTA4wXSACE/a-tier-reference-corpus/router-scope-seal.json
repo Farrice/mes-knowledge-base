@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "shaan-story-router-scope-seal/v1",
+  "algorithm": "sha256",
+  "sealedAt": "2026-08-02T23:00:02Z",
+  "decisions": ["FULL STORY", "STORY FRAGMENT", "NO STORY"],
+  "maxBodyOwners": 1,
+  "files": {
+    "skills/shaan-puri-storytelling/references/story-deployment-map.md": "5d0e702c6f8b6a9f029ab2c434a483d17d63306de3a263ca7241bca2dd0e1c35",
+    "skills/shaan-puri-storytelling/workflows/shaan-story-deploy.md": "7cccddb7023077abb4021fc4eda517b2f5e1b8a9a515bae32778770a1955f73c",
+    "skills/shaan-puri-storytelling/references/prompts-v2/shaan-story-deploy.md": "5f108019f876096e569fc9828c4d1c7339b6604f0cb0373f6a3e9331210ccefd"
+  }
+}

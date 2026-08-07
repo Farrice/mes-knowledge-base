@@ -1,6 +1,27 @@
-# PROVENANCE — shaan-puri-storytelling repair
+# PROVENANCE — shaan-puri-storytelling
 
-Primary source for every new anchor: `claude-export/normalized/conversations/
+## Current canonical package — 2026-08-02
+
+The active native source package is:
+
+`extractions/video-context/GlTA4wXSACE/`
+
+It contains the My First Million republication “How To Master Storytelling ft. David Perell,” uploaded 2024-05-24, with 3,211 timestamped segments, 24,480 clean words, metadata, source video, sampled frames, evidence ledgers, and an uncertainty report. `execution/verify_video_context_source_package.py` passes against the package.
+
+The upload metadata links the original How I Write recording at `Z2BnqYArwaw`. Shaan Puri is the teaching expert; David Perell is the interviewer.
+
+Net-new operational anchors:
+
+| Mechanic | Timestamp | Build consequence |
+|---|---|---|
+| Story is a tool and does not belong in every piece | 00:25:37–00:25:58 | Decision-first full story, story fragment, or no-story router |
+| Study the field that performs a named weak function best | 01:44:41–01:44:55 | Function-specific transfer handoff; no duplicate generic workflow |
+
+Evidence limits: automatic captions lack speaker labels, OCR was unavailable, and this one interview cannot prove universal or market effectiveness. See `source-ledger.md` for current claim classes.
+
+## Historical repair receipt — 2026-07-18
+
+Primary source for the earlier repair anchors: `claude-export/normalized/conversations/
 c1749a67-aa1d-4afb-b3f3-ae69b4b26145.md` ("Shaan Puri: Masterclass in
 Storytelling (for beginners)", 158,270 bytes per `wc -c`) inside
 `_archive/claude-export-2026-07-01.tar.gz`. Located by: `extractions/`
@@ -31,13 +52,14 @@ the raw timestamped transcript vs. downstream drafts).
 | Anti-Patterns (6 items) | "You're not in college anymore..." (33:06–33:13); dinner failure (12:02–12:20); Clubhouse jargon/homework + fix (21:58–22:29 + 22:12–22:17); "shorter the better... too long is too boring" misconception (16:36–16:55); "vacation romp"/no-stakes warning (26:22–26:38); icebreaker "boring, boring, boring" (9:28–10:11) | see column | All opened directly in transcript, exact match |
 | Model Calibration section | Recombination of the above anchors (no new claims) | — | Derived, not new sourcing |
 
-Pre-existing content NOT re-verified in detail (already had passing
+Pre-existing content not re-verified in detail during the earlier repair (already had passing
 attribution before this repair, spot-checked only): the "Patterns from
 claude.ai export — Shaan Puri conversations (2026-07-01)" block (Patterns
 A–J), Hall of Fame Exemplars, Signature Moves — untouched by this repair
 except where noted above.
 
-No quote in this repair was invented, paraphrased-then-quoted, or pulled
-from a source not opened directly. Where a claim could not be independently
-confirmed (interviewer identity as David Perell), it is labeled LIKELY in
-`references/source-ledger.md`, not presented as VERIFIED.
+No quote in that repair was invented, paraphrased-then-quoted, or pulled
+from a source not opened directly. At the time of that repair, interviewer
+identity was not independently confirmed. The current native package metadata,
+title, and source context identify David Perell; the active source ledger now
+records that newer evidence while preserving this earlier receipt.

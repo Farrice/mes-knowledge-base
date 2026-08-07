@@ -1,24 +1,29 @@
 ---
 name: "Shaan Puri Storytelling Mastery"
-description: "Storytelling and audience building frameworks for emotion-first content that creates loyal audiences"
-version: "2.0"
+description: "Decision-first storytelling deployment for full stories, truthful fragments, and explicit no-story routes, with source-grounded Shaan Puri production workflows."
+version: "2.1"
 format: "completion-engine"
-workflows: 6
+workflows: 7
+primary_workflow: shaan-story-deploy
+context_retrieval: skill-only-until-selected
 ---
 
 # Shaan Puri Storytelling Mastery
 
-> Transform content from information delivery into emotion transfer using systematic storytelling architecture.
-Shaan Puri's methodology reverse-engineers mastery from non-writers (comedians, screenwriters, performers) and packages it into deployable systems. The core insight: **content is emotion transfer**. Every piece has one job—make the reader feel something so powerfully they must share it.
-**Core Philosophy:** *"I'm a merchant of feelings."*
-**What Made Shaan Revolutionary:**
-1. Content i
+> Decide whether story belongs, then use the smallest story mechanic the material can honestly support.
+
+Shaan Puri's methodology treats story as transformation, frames as more important than hooks, and audience attention as earned. The front door adds the boundary he states in the source: story is a tool, not a mandate for every piece.
+
+**Primary route:** Start with `shaan-story-deploy`. It selects `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` before loading the full methodology.
+
+**Truth invariant:** Preserve supplied facts and uncertainty. Never invent dialogue, chronology, metrics, outcomes, motives, emotions, or sensory details as real. Label analogies, composites, and constructed examples.
 
 ## Available Workflows
 
 | # | Workflow | Produces | Use When |
 |---|---------|----------|----------|
-| brand | [Brand Identity & Audience Emotional Blueprint](workflows/brand-identity-emotional-blueprint.md) | A comprehensive Brand Voice & Audience Strategy Document | You are launching a new brand, pivoting your voice, or need to define the exact psychological profile of your ideal customer. |
+| deploy | [Shaan Story Deployment Router](workflows/shaan-story-deploy.md) | A final communication asset plus a Story Deployment Receipt | Story may help, but the correct dosage, truth boundary, or production owner is not settled. This is the default front door. |
+| brand | [Brand Identity & Audience Emotional Blueprint](workflows/brand-identity-emotional-blueprint.md) | A comprehensive Brand Voice & Audience Strategy Document | You are launching a new brand, pivoting your voice, or need an evidence-labeled working model of a specific audience and its decision context. |
 | viral | [Viral Social Content Engine](workflows/viral-social-content-engine.md) | A high-reach social media content calendar and hook library | You need to generate high-engagement social content, capitalize on trends, or turn raw creative ideas into viral assets. |
 | narrative | [Narrative Script & Content Optimization Audit](workflows/narrative-script-optimization-audit.md) | A polished, humor-infused narrative script or article | You have a draft or a video concept that feels flat and needs to be restructured into a compelling story with high retention. |
 | story | [Story-Driven Sales Conversion Funnel](workflows/story-driven-sales-conversion-funnel.md) | A complete sales page and automated email sequence | You are launching a product or service and want to sell through persuasion and emotion rather than hard-selling features. |
@@ -26,14 +31,32 @@ Shaan Puri's methodology reverse-engineers mastery from non-writers (comedians, 
 | voice | [Voice Transfer Engine (Milk Road Method)](workflows/voice-transfer-engine.md) | A trainable voice system: format spec, rationale, example bank, and filters | You need a ghostwriter, teammate, or AI to publish in your voice without dilution — the system Shaan used to hand Milk Road to a first-time writer. |
 
 ## Quick Reference
-- **Genius Context**: [genius.md](genius.md) — load before any workflow
-- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+
+- **Decision map**: [references/story-deployment-map.md](references/story-deployment-map.md) — load first when story fit is uncertain
+- **Genius Context**: [genius.md](genius.md) — load only after a Shaan production route is selected
+- **Source Ledger**: [references/source-ledger.md](references/source-ledger.md) — claim classes, timestamps, and evidence limits
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived; never use as the active execution layer
+
+## Context Policy
+
+- **Hot:** user brief, Story Deployment Map, narrative decision, truth constraints.
+- **On demand:** `genius.md`, exactly one workflow and its execution prompt, Story Compass, How I Write, or one transfer owner.
+- **Cold:** transcript, frames, full ledgers, unselected workflows and prompts, unrelated experts.
+
+## Stacking Guide
+
+| Need | Route | Boundary |
+|---|---|---|
+| Confirm candidate material is actually a story | Story Compass | Activate only after `FULL STORY` is selected; failure means source gathering or downgrade, never invention |
+| Compose long-form or high-stakes writing | How I Write | One body-voice owner; Shaan supplies only the selected mechanism |
+| Transfer a mechanism from another field | Existing function-specific transfer route | One named weakness, one mechanism, one detached test; no surface-style copying |
+| Evidence-sensitive claims | Domain evidence and verification gate | Story supports comprehension or recall; it cannot replace proof or strengthen causality |
 
 <!-- BEGIN:execution-prompts (generated by execution/wire_prompt_pointers.py — do not hand-edit; re-run to refresh) -->
 
 ## Execution Prompts (structure-pure v2)
 
-16 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+23 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **SHAAN PURI - SALES PAGE NARRATIVE ALCHEMIST** — `skills/shaan-puri-storytelling/references/prompts-v2/08-sales-page-narrative.md`
 - **SHAAN PURI - VIRAL CONTENT ENGINEERING SYSTEM** — `skills/shaan-puri-storytelling/references/prompts-v2/09-viral-content-engineering.md`
@@ -45,11 +68,18 @@ Shaan Puri's methodology reverse-engineers mastery from non-writers (comedians, 
 - **SHAAN PURI - CULTURAL MOMENT CAPITALIZER** — `skills/shaan-puri-storytelling/references/prompts-v2/15-cultural-moment-capitalizer.md`
 - **SHAAN PURI - CREATIVE DIRECTION TRANSLATOR** — `skills/shaan-puri-storytelling/references/prompts-v2/16-creative-direction-translator.md`
 - **SHAAN PURI - AUDIENCE FEELING STRATEGY BLUEPRINT** — `skills/shaan-puri-storytelling/references/prompts-v2/audience-feeling-blueprint.md`
+- **Shaan Puri — Brand Identity and Audience Emotional Blueprint** — `skills/shaan-puri-storytelling/references/prompts-v2/brand-identity-emotional-blueprint.md`
 - **SHAAN PURI - CONTENT DIAGNOSIS & REFRAME ENGINE** — `skills/shaan-puri-storytelling/references/prompts-v2/content-diagnosis-reframe.md`
 - **SHAAN PURI - HUMOR INTEGRATION ENGINE** — `skills/shaan-puri-storytelling/references/prompts-v2/humor-integration.md`
+- **Shaan Puri — Narrative Script and Content Optimization Audit** — `skills/shaan-puri-storytelling/references/prompts-v2/narrative-script-optimization-audit.md`
 - **SHAAN PURI - NESTED STORY PERSUASION BUILDER** — `skills/shaan-puri-storytelling/references/prompts-v2/nested-story-persuasion.md`
+- **Shaan Puri — Story Deployment Router** — `skills/shaan-puri-storytelling/references/prompts-v2/shaan-story-deploy.md`
+- **Shaan Puri — Signature Story Bank and Origin Story Workshop** — `skills/shaan-puri-storytelling/references/prompts-v2/signature-story-bank.md`
 - **SHAAN PURI - STORY ARCHITECTURE ENGINE** — `skills/shaan-puri-storytelling/references/prompts-v2/story-architecture-engine.md`
+- **Shaan Puri — Story-Driven Sales Conversion Funnel** — `skills/shaan-puri-storytelling/references/prompts-v2/story-driven-sales-conversion-funnel.md`
 - **SHAAN PURI - VIRAL HOOK & FRAME GENERATOR** — `skills/shaan-puri-storytelling/references/prompts-v2/viral-hook-frame.md`
+- **Shaan Puri — Viral Social Content Engine** — `skills/shaan-puri-storytelling/references/prompts-v2/viral-social-content-engine.md`
 - **SHAAN PURI - VOICE MEMO TO POLISHED DRAFT TRANSFORMER** — `skills/shaan-puri-storytelling/references/prompts-v2/voice-memo-transformer.md`
+- **Shaan Puri — Voice Transfer Engine** — `skills/shaan-puri-storytelling/references/prompts-v2/voice-transfer-engine.md`
 
 <!-- END:execution-prompts -->

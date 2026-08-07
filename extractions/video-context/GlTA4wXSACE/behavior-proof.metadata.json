@@ -1,0 +1,12 @@
+{
+  "artifact_type": "behavior-proof",
+  "title": "Behavior Proof: Shaan Story Deployment",
+  "source_id": "GlTA4wXSACE",
+  "userFacingSurface": "native-codex-artifact",
+  "status": "checkpoint-3-validated",
+  "claims": {
+    "component_behavior": "fresh-context-replay-and-runtime-pass",
+    "market_performance": "not-tested",
+    "a_tier_recognition": "pending"
+  }
+}

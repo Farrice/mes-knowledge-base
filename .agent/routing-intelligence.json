@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 19,
+            "total_routings": 22,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,12 +462,13 @@
                 "Content": 1,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 2,
+                "System": 4,
                 "supercomputer": 1,
                 "Creative": 1,
                 "Strategy": 2,
                 "luke-iha-copy-blocks": 1,
-                "adam-sandler-second-brain-gtm": 1
+                "adam-sandler-second-brain-gtm": 1,
+                "Extraction": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
@@ -484,10 +485,11 @@
                 "doc-coauthoring": 1,
                 "luke-iha-copy-blocks": 1,
                 "jonathan-franzen-storytelling": 1,
-                "adam-sandler-second-brain-gtm": 1
+                "adam-sandler-second-brain-gtm": 1,
+                "shaan-puri": 3
             },
             "tier_counts": {
-                "0": 19,
+                "0": 22,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -496,9 +498,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 10,
-                "finalize-auto": 9
+                "finalize-auto": 12
             },
-            "ensemble_count": 4
+            "ensemble_count": 6
         }
     },
     "feedback_log": [],
@@ -826,6 +828,57 @@
             "tier_loaded": 0,
             "mode": "finalize-auto",
             "workflow_used": "angle-map-listening-engine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_211620_bfaf",
+            "timestamp": "2026-08-02T21:16:20.911342+00:00",
+            "session_id": "",
+            "request_summary": "Shaan Puri decision-first cross-domain storytelling deployment expansion",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "shaan-puri"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "source-to-skill-system",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_234831_144b",
+            "timestamp": "2026-08-02T23:48:31.108408+00:00",
+            "session_id": "",
+            "request_summary": "Six-domain Shaan storytelling reference corpus and blind replay regression system",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "shaan-puri"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "repeatability-spine",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_004631_eb68",
+            "timestamp": "2026-08-03T00:46:31.613188+00:00",
+            "session_id": "",
+            "request_summary": "Storytelling corpus AAR, operator user guide, and executable capability-handoff boundary",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "shaan-puri"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "aar",
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null

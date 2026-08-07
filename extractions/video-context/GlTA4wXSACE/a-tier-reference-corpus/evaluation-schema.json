@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "shaan-story-corpus-evaluation/v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "caseId",
+    "initialVerdict",
+    "finalVerdict",
+    "decisionObserved",
+    "dimensions",
+    "failures",
+    "firstReplay"
+  ],
+  "properties": {
+    "schemaVersion": {"const": "shaan-story-corpus-evaluation/v1"},
+    "caseId": {"type": "string"},
+    "initialVerdict": {"enum": ["PASS", "REPAIR", "INVALID"]},
+    "finalVerdict": {"enum": ["PASS", "PENDING"]},
+    "decisionObserved": {"enum": ["FULL STORY", "STORY FRAGMENT", "NO STORY"]},
+    "repairDecisionObserved": {
+      "type": ["string", "null"],
+      "enum": ["FULL STORY", "STORY FRAGMENT", "NO STORY", null]
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "dosageJudgment",
+        "sourceFidelity",
+        "domainFitness",
+        "narrativeRestraint",
+        "practitionerUsefulness",
+        "recognition"
+      ],
+      "additionalProperties": {"enum": ["PASS", "PARTIAL", "FAIL"]}
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "summary", "regressionFixture", "status"],
+        "properties": {
+          "id": {"type": "string"},
+          "summary": {"type": "string"},
+          "regressionFixture": {"type": "string"},
+          "status": {"enum": ["OPEN", "REPAIRED", "PENDING"]}
+        }
+      }
+    },
+    "firstReplay": {"type": "string"},
+    "repairReplay": {"type": ["string", "null"]},
+    "judgeNotes": {"type": "array", "items": {"type": "string"}}
+  }
+}

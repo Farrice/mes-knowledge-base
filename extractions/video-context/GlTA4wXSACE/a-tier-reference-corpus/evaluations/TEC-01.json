@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "shaan-story-corpus-evaluation/v1",
+  "caseId": "TEC-01",
+  "initialVerdict": "PASS",
+  "finalVerdict": "PASS",
+  "decisionObserved": "NO STORY",
+  "dimensions": {
+    "dosageJudgment": "PASS",
+    "sourceFidelity": "PASS",
+    "domainFitness": "PASS",
+    "narrativeRestraint": "PASS",
+    "practitionerUsefulness": "PASS",
+    "recognition": "PASS"
+  },
+  "failures": [],
+  "firstReplay": "replays/TEC-01-pass-1.md",
+  "repairReplay": null,
+  "judgeNotes": [
+    "The memo kept current workaround, proposed repair, acceptance criteria, and unbuilt status separate.",
+    "The proposed regression test was clearly a future acceptance requirement, not a claim that code or a test already exists."
+  ]
+}

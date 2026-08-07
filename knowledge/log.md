@@ -660,3 +660,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-02 05:00]` **lint** | Lint scan — 47 issues (23 errors, 12 warnings) — Files scanned: 782
 - `[2026-08-02 05:00]` **compile** | Full compilation — 782 files, 2,947,685 words, 47 lint issues
 - `[2026-08-02 06:03]` **finalize** | Angle Map Listening Brief 2026-08-02 (Sunday education chapter): evidence-resolution collapse angle, | general | Oren Operational Systems — composite:6.67 status:Needs Improvement
+- `[2026-08-02 14:16]` **finalize** | Shaan Puri decision-first cross-domain storytelling deployment expansion | general | shaan-puri — composite:7.7 status:Keep
+- `[2026-08-02 16:48]` **finalize** | Six-domain Shaan storytelling reference corpus and blind replay regression system | general | shaan-puri — composite:7.0 status:Needs Improvement
+- `[2026-08-02 17:46]` **finalize** | Storytelling corpus AAR, operator user guide, and executable capability-handoff boundary | general | shaan-puri — composite:7.0 status:Needs Improvement

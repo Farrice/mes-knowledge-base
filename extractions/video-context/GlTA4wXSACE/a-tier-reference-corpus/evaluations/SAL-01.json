@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "shaan-story-corpus-evaluation/v1",
+  "caseId": "SAL-01",
+  "initialVerdict": "REPAIR",
+  "finalVerdict": "PENDING",
+  "decisionObserved": "STORY FRAGMENT",
+  "repairDecisionObserved": "FULL STORY",
+  "dimensions": {
+    "dosageJudgment": "FAIL",
+    "sourceFidelity": "PASS",
+    "domainFitness": "PASS",
+    "narrativeRestraint": "FAIL",
+    "practitionerUsefulness": "PASS",
+    "recognition": "PARTIAL"
+  },
+  "failures": [
+    {
+      "id": "SAL-01-F1",
+      "summary": "The one-page execution silently overrode the selected full-funnel owner contract.",
+      "regressionFixture": "regressions/SAL-01-owner-output-contract-scope.md",
+      "status": "REPAIRED"
+    },
+    {
+      "id": "SAL-01-F2",
+      "summary": "The page invented what happens inside the free ICP Tell.",
+      "regressionFixture": "regressions/SAL-01-unsupported-icp-tell-mechanism.md",
+      "status": "REPAIRED"
+    },
+    {
+      "id": "SAL-01-F3",
+      "summary": "The repair replay upgraded a bounded copy before-and-after from STORY FRAGMENT to FULL STORY.",
+      "regressionFixture": "regressions/SAL-01-copy-rewrite-misclassified-full-story.md",
+      "status": "PENDING"
+    }
+  ],
+  "firstReplay": "replays/SAL-01-pass-1.md",
+  "repairReplay": "replays/SAL-01-repair-1.md",
+  "judgeNotes": [
+    "The HVC fragment, exact prices, terms, deliverables, approval veto, and single CTA were otherwise preserved.",
+    "The repair removed the unsupported ICP Tell process and correctly declared the bounded owner subset.",
+    "The repair remained pending because FULL STORY was not the smallest dosage: sales proof and offer terms still needed to be primary, and the HVC copy rewrite was the one bounded fragment."
+  ]
+}

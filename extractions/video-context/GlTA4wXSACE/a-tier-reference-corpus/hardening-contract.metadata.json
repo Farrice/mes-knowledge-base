@@ -1,0 +1,8 @@
+{
+  "title": "Hardening Contract: Six-Domain Blind Story Deployment",
+  "artifactType": "goal-packet-and-skill-system-contract",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "status": "locked"
+}

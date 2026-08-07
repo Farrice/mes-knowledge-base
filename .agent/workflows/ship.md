@@ -39,6 +39,8 @@ Match the content type to the right expert:
 
 Load SKILL.md only (Tier 1). Not genius.md. Not the full workflow suite. Just enough to write well.
 
+**Storytelling exception:** When Shaan is selected, execute `.agent/workflows/shaan-story-deploy.md` instead of applying a pattern directly from `SKILL.md`. Decide `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` before any deeper methodology loads, then let exactly one selected owner write the body.
+
 Also load: `FARRICE.md` (voice reference — always).
 
 ---
@@ -47,7 +49,7 @@ Also load: `FARRICE.md` (voice reference — always).
 
 - Write ONE version. Not 3 variants. One.
 - Target: 150-400 words for LinkedIn.
-- Apply the loaded expert's core pattern (e.g., Lara's Pattern 20 for headlines).
+- Apply the loaded expert's core pattern (e.g., Lara's Pattern 20 for headlines). For Shaan, apply only the mechanic approved by the Story Deployment Receipt; a `NO STORY` decision stays direct.
 - Read FARRICE.md voice rules: Show don't tell. No forced jargon. Real open loops.
 
 ---

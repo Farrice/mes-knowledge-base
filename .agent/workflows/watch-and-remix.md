@@ -62,12 +62,12 @@ Read these files:
 If `extractions/source/visual-context.md` exists, READ IT — and READ the first 5 frames in `extractions/source/frames/` directly via the Read tool. The visual hook is often a different beat than the verbal hook (cut-driven, on-screen text, gesture). Analyze BOTH the verbal hook AND the visual hook patterns.
 
 ## YOUR ANALYSIS
-Focus ONLY on the hook — the first 1-3 lines that stopped the scroll. Analyze:
+Focus only on the hook—the first 1–3 lines. Describe visible structure first, then label any audience-response explanation as a hypothesis unless supplied performance evidence supports it. Analyze:
 
 1. **Hook type**: Question / Bold claim / Story open / Contrarian / Data shock / Pattern interrupt / Identity call-out
 2. **Hook template**: Write the structural pattern with blanks (e.g., "I [shocking action]. Here's what happened:")
-3. **Psychological trigger**: What emotion fires in the first 3 seconds? (Curiosity gap, identity threat, FOMO, outrage, recognition)
-4. **Scroll-stop mechanics**: What visual/structural element makes someone stop? (Short line? Bold claim? Number? Emoji?)
+3. **Possible psychological response**: What emotion or attention response might the opening invite? Label it `OBSERVED` only when supported by supplied evidence; otherwise `HYPOTHESIS`.
+4. **Opening mechanics**: What visible or structural element could attract attention? Describe the element as observed and its behavioral effect as a hypothesis.
 
 Write to: .tmp/watch-and-remix/analysis-hook.md
 ```
@@ -99,23 +99,25 @@ Write to: .tmp/watch-and-remix/analysis-framework.md
 
 **Agent 3: Engagement Analyst**
 ```
-You are a viral content analyst studying WHY content spreads.
+You are an engagement-pattern analyst studying observable content mechanics and forming labeled hypotheses about audience response.
 
-## SKILL ACQUISITION
-Read these files:
-1. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/SKILL.md
-2. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/genius.md
-3. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/workflows/viral-social-content-engine.md
+## DECISION-FIRST SKILL ACQUISITION
+Read these files first:
+1. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/references/story-deployment-map.md
+2. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/workflows/shaan-story-deploy.md
+3. /Users/farricecain/Google Antigravity/skills/shaan-puri-storytelling/references/prompts-v2/shaan-story-deploy.md
+
+Do not preload `genius.md`. Use the router to decide whether a Shaan mechanic belongs. If the viral workflow is selected, load it and `genius.md` only after the decision. This agent analyzes; it does not become a second body writer.
 
 ## SOURCE CONTENT
 [Full text of the viral piece]
 
 ## YOUR ANALYSIS
-Focus ONLY on why people engaged — what drove comments, shares, saves:
+Focus only on observable mechanics and clearly labeled hypotheses about why people may have engaged. Do not claim a mechanic drove behavior unless causal evidence is supplied:
 
-1. **Primary emotion triggered**: Outrage / Recognition ("that's so me") / Aspiration / Fear / Curiosity / Humor / Validation
-2. **Shareability lever**: Why would someone share this? Identity signal ("this is what I believe") / Useful ("my friends need this") / Controversial ("watch people fight in comments") / Status ("I found this first")
-3. **Comment triggers**: What specific elements invite responses? Open questions? Controversial claims? "Tag someone who..."?
+1. **Possible audience response**: Label as `OBSERVED` when evidenced by comments or other supplied data; otherwise `HYPOTHESIS`.
+2. **Shareability hypothesis**: Identity signal, usefulness, controversy, status, or another mechanism—never present motive as known without evidence.
+3. **Response invitations**: Identify structural elements that may invite comments or shares; separate visible behavior from interpretation.
 4. **CTA pattern**: How does it drive action? Soft ask? Hard sell? No CTA (pure engagement)?
 5. **Audience tribe**: Who is this written FOR? What group identity does it activate?
 
@@ -136,7 +138,7 @@ After all 3 agents return, read their analyses and produce a unified blueprint:
 ### The Hook
 - **Type**: [from hook analyst]
 - **Template**: "[pattern with blanks]"
-- **Trigger**: [psychological mechanism]
+- **Possible response**: [OBSERVED or HYPOTHESIS + psychological mechanism + evidence]
 
 ### The Framework
 - **Pattern**: [from framework analyst]
@@ -147,12 +149,12 @@ After all 3 agents return, read their analyses and produce a unified blueprint:
 - **Pacing**: [description]
 
 ### The Engagement Engine
-- **Primary emotion**: [from engagement analyst]
-- **Share trigger**: [why people spread it]
-- **Comment driver**: [what invites responses]
+- **Possible audience response**: [OBSERVED or HYPOTHESIS + evidence]
+- **Shareability hypothesis**: [possible mechanism; do not state motive as known]
+- **Response invitation**: [visible element + hypothesized effect]
 
 ### Remix Instructions
-- **KEEP** (the mechanic): [hook structure, framework pattern, emotional arc, pacing]
+- **KEEP** (the mechanic): [observed hook structure, framework pattern, pacing, and only evidence-labeled response hypotheses]
 - **REPLACE** (the content): [their topic, their examples, their voice, their CTA]
 - **ADAPT** (for Farrice): Apply multi-passionate identity, anti-guru positioning, "systems AND soul" lens, training arc metaphors
 ```
@@ -171,6 +173,8 @@ You are Lara Acosta (if LinkedIn) / Shaan Puri (if Twitter) / Nicolas Cole (if b
 
 ## SKILL ACQUISITION
 Read the relevant expert's skill files.
+
+If the selected expert is Shaan Puri, execute `.agent/workflows/shaan-story-deploy.md` first and do not preload `genius.md`. Use only the selected dosage and production route.
 
 ## MECHANIC BLUEPRINT
 [Inject the full mechanic blueprint from Step 3]
@@ -217,6 +221,8 @@ You are [platform-appropriate expert — if source is LinkedIn, use Shaan Puri f
 
 ## SKILL ACQUISITION
 Read the relevant expert's skill files.
+
+If the selected expert is Shaan Puri, execute `.agent/workflows/shaan-story-deploy.md` first and do not preload `genius.md`. Use only the selected dosage and production route.
 
 ## MECHANIC BLUEPRINT
 [Inject blueprint]

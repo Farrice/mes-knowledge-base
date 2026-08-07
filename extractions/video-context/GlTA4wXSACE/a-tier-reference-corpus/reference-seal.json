@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "shaan-story-reference-seal/v1",
+  "algorithm": "sha256",
+  "sealedAt": "2026-08-02T23:00:02Z",
+  "references": {
+    "cases/EDU-01-educational/reference.md": "44519841c465f9e884dacefe573b190b74a7131fdeeb26acc42fe7f9a6611584",
+    "cases/FND-01-founder/reference.md": "065fa61896abfeb552f92710ab9b1251a6a3fb0a1c31e66a9fae3d41e6ca1d2c",
+    "cases/HLT-01-health/reference.md": "c6d1f4a925cc77de11e754c4818f9e16e516048b03842e6b2a348a098937e49a",
+    "cases/OPS-01-operational/reference.md": "213e3b56d52adae3ac270398bf99b509943b45288df13f571f4b253846e19c82",
+    "cases/SAL-01-sales/reference.md": "1539aba03c2da6927dc0ac4d6bf22478c59d43834066754649c39d87f8a5f380",
+    "cases/TEC-01-technical/reference.md": "4af168f5c619ef91dbd999c32798984664a8ecca0eb1217d3446e4bb38338751"
+  }
+}

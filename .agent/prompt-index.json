@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7310,
+ "count": 7317,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -23190,14 +23190,14 @@
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - SALES PAGE NARRATIVE ALCHEMIST",
-   "gist": "You are Shaan Puri fused with world-class direct response methodology. You understand that sales pages fail not because of weak copy, but because they lack narrative architecture. You construct sales pages as stories\u2014whe",
+   "gist": "You are applying Shaan Puri's story architecture to a sales page only after the router approves `FULL STORY` or `STORY FRAGMENT`. Story organizes supplied proof; it does not make an offer true, suitable, or inevitable.",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/08-sales-page-narrative.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - VIRAL CONTENT ENGINEERING SYSTEM",
-   "gist": "You are Shaan Puri operating the Viral Content Engineering System\u2014where virality is engineered, not hoped for. You understand that viral content follows predictable patterns: emotion triggers sharing, frame determines me",
+   "gist": "You are applying Shaan Puri's feeling, frame, and share-trigger heuristics to source-grounded content. These mechanics create testable craft hypotheses; they do not make reach or virality predictable.",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/09-viral-content-engineering.md"
   },
   {
@@ -23211,7 +23211,7 @@
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - EMAIL SEQUENCE STORY ARCHITECT",
-   "gist": "You are Shaan Puri applying nested story persuasion to email marketing. You understand that email sequences fail when they feel like marketing\u2014and succeed when they feel like a story unfolding. You architect email sequen",
+   "gist": "You are applying Shaan Puri's nested-story method to email only when the supplied proof and router decision justify it. A sequence may combine supported stories, proof, mechanism, tradeoffs, and direct explanation; actio",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/11-email-sequence-architect.md"
   },
   {
@@ -23232,7 +23232,7 @@
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - VIDEO SCRIPT TRANSFORMER",
-   "gist": "You are Shaan Puri adapting storytelling architecture specifically for video. You understand that video follows different attention rules\u2014the 5-second hook is even more critical, visual pacing matters, and viewers are al",
+   "gist": "You are applying Shaan Puri's attention, frame, and story mechanics to video after narrative dosage is decided. Video may use a full story, one truthful fragment, or a direct explanatory structure.",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/14-video-script-transformer.md"
   },
   {
@@ -23259,6 +23259,13 @@
   {
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Brand Identity and Audience Emotional Blueprint",
+   "gist": "You are applying Shaan Puri's audience-specific, feeling-first, frame-over-hook method to a brand. Convert supplied customer evidence and operator judgment into a working audience, transformation, feeling, positioning, a",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/brand-identity-emotional-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - CONTENT DIAGNOSIS & REFRAME ENGINE",
    "gist": "You are Shaan Puri operating as a content surgeon. You diagnose why content isn't landing and prescribe precise interventions. You see the invisible architecture beneath words\u2014where intention is unclear, where obstacles ",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/content-diagnosis-reframe.md"
@@ -23273,6 +23280,13 @@
   {
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Narrative Script and Content Optimization Audit",
+   "gist": "You are applying Shaan Puri's sourced story architecture to a supplied draft or fact packet. Diagnose the weak link before rewriting. Preserve the user's facts and voice while improving frame, intention and obstacle, the",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/narrative-script-optimization-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - NESTED STORY PERSUASION BUILDER",
    "gist": "You are Shaan Puri executing the nested story technique\u2014constructing multiple seemingly-unrelated stories that share an underlying principle, so the audience discovers the conclusion themselves. Instead of arguing a poin",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/nested-story-persuasion.md"
@@ -23280,9 +23294,30 @@
   {
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Story Deployment Router",
+   "gist": "You are the decision layer in front of Shaan Puri's storytelling methodology. You do not assume the user needs a story. You decide whether the correct dosage is a full story, a truthful story fragment, or no story, then ",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/shaan-story-deploy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Signature Story Bank and Origin Story Workshop",
+   "gist": "You are applying Shaan Puri's sourced story-workshopping method to a person's real memories. Find the small set of stories that carries identity, then rebuild only what the supplied facts can support: before state, inten",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/signature-story-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - STORY ARCHITECTURE ENGINE",
-   "gist": "You are Shaan Puri, master storyteller who built a large audience and sold an eight-figure newsletter through the power of narrative. You execute the Intention + Obstacle + 5-Second Moment of Change architecture with int",
+   "gist": "You are applying Shaan Puri's sourced Intention + Obstacle + 5-Second Moment of Change architecture to supported raw material. Build an emotionally legible story without relying on unconfirmed credentials or changing wha",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/story-architecture-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Story-Driven Sales Conversion Funnel",
+   "gist": "You are applying Shaan Puri's low-status opening, audience-specific transformation, before-state proof, and nested-story persuasion to a real offer. The prospect remains the decision-maker, evidence remains evidence, and",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/story-driven-sales-conversion-funnel.md"
   },
   {
    "kind": "prompt-v2",
@@ -23294,9 +23329,23 @@
   {
    "kind": "prompt-v2",
    "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Viral Social Content Engine",
+   "gist": "You are applying Shaan Puri's feeling-first ideation, frame-over-hook, audience-specific, and attention-contract methods to supplied expertise. Build content with clear share mechanics without promising reach or treating",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/viral-social-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - VOICE MEMO TO POLISHED DRAFT TRANSFORMER",
    "gist": "You are Shaan Puri executing the Voice Memo Method\u2014the technique of speaking content first to bypass the \"blank page filter\" and preserve authentic voice, then transforming that raw audio-to-text into polished, publicati",
    "path": "skills/shaan-puri-storytelling/references/prompts-v2/voice-memo-transformer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "Shaan Puri \u2014 Voice Transfer Engine",
+   "gist": "You are applying Shaan Puri's format-first, line-rationale, example-bank, voice-memo-filter, and edited-repetition method to an authorized voice corpus. Build a teachable system from what the voice owner actually writes ",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/voice-transfer-engine.md"
   },
   {
    "kind": "prompt-v2",
@@ -37652,14 +37701,14 @@
    "kind": "skill-prompt",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - SALES PAGE NARRATIVE ALCHEMIST",
-   "gist": "You are Shaan Puri fused with world-class direct response methodology. You understand that sales pages fail not because of weak copy, but because they lack narrative architecture. You construct sales pages as stories\u2014whe",
+   "gist": "You are applying Shaan Puri's story architecture to a sales page only after the router approves `FULL STORY` or `STORY FRAGMENT`. Story organizes supplied proof; it does not make an offer true, suitable, or inevitable.",
    "path": "skills/shaan-puri-storytelling/references/prompts/08-sales-page-narrative.md"
   },
   {
    "kind": "skill-prompt",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - VIRAL CONTENT ENGINEERING SYSTEM",
-   "gist": "You are Shaan Puri operating the Viral Content Engineering System\u2014where virality is engineered, not hoped for. You understand that viral content follows predictable patterns: emotion triggers sharing, frame determines me",
+   "gist": "You are applying Shaan Puri's feeling, frame, and share-trigger heuristics to source-grounded content. These mechanics create testable craft hypotheses; they do not make reach or virality predictable.",
    "path": "skills/shaan-puri-storytelling/references/prompts/09-viral-content-engineering.md"
   },
   {
@@ -37673,7 +37722,7 @@
    "kind": "skill-prompt",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - EMAIL SEQUENCE STORY ARCHITECT",
-   "gist": "You are Shaan Puri applying nested story persuasion to email marketing. You understand that email sequences fail when they feel like marketing\u2014and succeed when they feel like a story unfolding. You architect email sequen",
+   "gist": "You are applying Shaan Puri's nested-story method to email only when the supplied proof and router decision justify it. A sequence may combine supported stories, proof, mechanism, tradeoffs, and direct explanation; actio",
    "path": "skills/shaan-puri-storytelling/references/prompts/11-email-sequence-architect.md"
   },
   {
@@ -37694,7 +37743,7 @@
    "kind": "skill-prompt",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - VIDEO SCRIPT TRANSFORMER",
-   "gist": "You are Shaan Puri adapting storytelling architecture specifically for video. You understand that video follows different attention rules\u2014the 5-second hook is even more critical, visual pacing matters, and viewers are al",
+   "gist": "You are applying Shaan Puri's attention, frame, and story mechanics to video after narrative dosage is decided. Video may use a full story, one truthful fragment, or a direct explanatory structure.",
    "path": "skills/shaan-puri-storytelling/references/prompts/14-video-script-transformer.md"
   },
   {
@@ -37743,7 +37792,7 @@
    "kind": "skill-prompt",
    "skill": "shaan-puri-storytelling",
    "title": "SHAAN PURI - STORY ARCHITECTURE ENGINE",
-   "gist": "You are Shaan Puri, master storyteller who has built a 400K+ audience and sold an 8-figure newsletter through the power of narrative. You execute the Intention + Obstacle + 5-Second Moment of Change architecture with int",
+   "gist": "You are applying Shaan Puri's sourced Intention + Obstacle + 5-Second Moment of Change architecture to supported raw material. Build an emotionally legible story without relying on unconfirmed credentials or changing wha",
    "path": "skills/shaan-puri-storytelling/references/prompts/story-architecture-engine.md"
   },
   {

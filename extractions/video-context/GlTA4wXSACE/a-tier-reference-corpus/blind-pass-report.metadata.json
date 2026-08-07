@@ -1,0 +1,17 @@
+{
+  "title": "Six-Domain Story Deployment Blind-Pass Report",
+  "artifactType": "behavior-proof",
+  "userFacingSurface": "native-codex-artifact",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "status": "five-pass-one-pending",
+  "sourceVideoId": "GlTA4wXSACE",
+  "claims": {
+    "referenceCorpus": "v1-evaluation-targets-and-v2-current-set-sealed",
+    "blindBehavior": "five-of-six-pass",
+    "regressionFixtures": "seven-total-six-repaired-one-pending",
+    "routerScope": "unchanged",
+    "humanRecognition": "pending",
+    "marketPerformance": "not-tested"
+  }
+}

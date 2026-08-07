@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "shaan-story-corpus-evaluation/v1",
+  "caseId": "OPS-01",
+  "initialVerdict": "PASS",
+  "finalVerdict": "PASS",
+  "decisionObserved": "NO STORY",
+  "dimensions": {
+    "dosageJudgment": "PASS",
+    "sourceFidelity": "PASS",
+    "domainFitness": "PASS",
+    "narrativeRestraint": "PASS",
+    "practitionerUsefulness": "PASS",
+    "recognition": "PASS"
+  },
+  "failures": [],
+  "firstReplay": "replays/OPS-01-pass-1.md",
+  "repairReplay": null,
+  "judgeNotes": [
+    "The output separated prepared, sent, held, sold, and collected, and treated holding as the current recommendation rather than a retroactive event.",
+    "Stale dates, post-acceptance gates, the no-result boundary, and external-action prohibition remained explicit."
+  ]
+}
