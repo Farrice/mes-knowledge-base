@@ -1,0 +1,29 @@
+{
+  "conversation_id": "5cfb26f0-96d8-4539-a171-44b66cf12923",
+  "classified_at": "2026-07-01T17:04:43.389305+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4445,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 10,
+      "knowledge-grade": 26,
+      "personal-context-grade": 7,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 38,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation establishes a structured framework for leveraging specific skill sets (prompt engineering, marketing, coaching) into a business model. It utilizes an expert panel approach to synthesize actionable strategies, making it a high-value methodology for career pivoting and income generation.",
+  "extraction_value": 8,
+  "expert_named": "Dr. Victoria Zhang",
+  "reusable_asset": true,
+  "title": "Leveraging Prompt Engineering and Marketing Skills for Passive Income",
+  "md_path": ".tmp/claude-export/normalized/conversations/5cfb26f0-96d8-4539-a171-44b66cf12923.md",
+  "recommended_route": "extract-forge"
+}

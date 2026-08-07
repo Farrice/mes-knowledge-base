@@ -1,0 +1,29 @@
+{
+  "conversation_id": "7f13ec1c-6848-480e-85ba-a9b10db70289",
+  "classified_at": "2026-07-01T17:01:08.326006+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2958,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 2,
+      "knowledge-grade": 32,
+      "personal-context-grade": 18,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation is a comprehensive strategic planning session for a specific digital product launch, resulting in a structured business plan and marketing roadmap. It functions as a project deliverable for the user's business launch.",
+  "extraction_value": 7,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Developing a Digital Product Strategy",
+  "md_path": ".tmp/claude-export/normalized/conversations/7f13ec1c-6848-480e-85ba-a9b10db70289.md",
+  "recommended_route": "ingest-only"
+}

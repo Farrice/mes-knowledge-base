@@ -1,0 +1,741 @@
+{
+  "fitness_build_lanes": [
+    {
+      "expert": "Jiang Xueqin",
+      "count": 2,
+      "richness": 10,
+      "skill": null,
+      "top_domain": "cognitive autonomy, mental mastery"
+    },
+    {
+      "expert": "Tom Young",
+      "count": 6,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "life transformation and personal development"
+    },
+    {
+      "expert": "Michael Israetel",
+      "count": 2,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "hypertrophy training & muscle building"
+    },
+    {
+      "expert": "Taylor Welch",
+      "count": 11,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "manifestation & new age consciousness"
+    },
+    {
+      "expert": "Steven Kotler",
+      "count": 5,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "peak creativity & flow states"
+    },
+    {
+      "expert": "Alan Aragon",
+      "count": 5,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "nutrition science & body composition"
+    },
+    {
+      "expert": "Mark Manson",
+      "count": 4,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "values-based psychology & wellbeing"
+    },
+    {
+      "expert": "Gabe",
+      "count": 4,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "fitness coaching, social media monetization"
+    },
+    {
+      "expert": "Eugene Teo",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "strength training, minimalist fitness"
+    },
+    {
+      "expert": "Gabe Novotny",
+      "count": 2,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "content creation, viral content systems"
+    },
+    {
+      "expert": "Yuri Elkalayev",
+      "count": 2,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "health coaching business"
+    },
+    {
+      "expert": "Unknown",
+      "count": 4,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "Facebook ads & marketing"
+    },
+    {
+      "expert": "Jonathan Mast",
+      "count": 2,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "personal training AI tools"
+    },
+    {
+      "expert": "Coach Cooz",
+      "count": 2,
+      "richness": 6,
+      "skill": null,
+      "top_domain": "fitness coaching business"
+    }
+  ],
+  "fitness_build_marginal": [
+    {
+      "expert": "Daniel Lieberman",
+      "count": 1,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "exercise health sleep nutrition"
+    },
+    {
+      "expert": "Steve Magness",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "elite performance coaching"
+    },
+    {
+      "expert": "Dr. Michael Israetel",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "hypertrophy training & muscle building"
+    },
+    {
+      "expert": "Judson Brewer",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "habit change and behavioral neuroscience"
+    },
+    {
+      "expert": "Leon Hendrix",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "neuroscience, peak performance"
+    },
+    {
+      "expert": "Jeremy Ethier",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "hypertrophy training, muscle gain strategies"
+    },
+    {
+      "expert": "Jason van Blerk",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "fascia science & body programming"
+    },
+    {
+      "expert": "Joe Hudson",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "emotional patterns & consciousness"
+    },
+    {
+      "expert": "Rian Doris",
+      "count": 1,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "focus & peak performance"
+    },
+    {
+      "expert": "Benjamin Bikman",
+      "count": 1,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "insulin, glucose, nutrition science"
+    },
+    {
+      "expert": "Dr. Amishi Jha",
+      "count": 1,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "neuroscience, attention, focus"
+    },
+    {
+      "expert": "Dr. Tara Swart",
+      "count": 1,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "neuroscience, intuition, wellness"
+    },
+    {
+      "expert": "James Smith",
+      "count": 1,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "content creation, fitness coaching"
+    },
+    {
+      "expert": "Ariel Kim",
+      "count": 1,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "health coaching business"
+    },
+    {
+      "expert": "Unknown creator",
+      "count": 1,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "Instagram marketing, fitness coaching"
+    },
+    {
+      "expert": "Eric Helms",
+      "count": 1,
+      "richness": 6,
+      "skill": null,
+      "top_domain": "nutrition science"
+    }
+  ],
+  "fitness_enrich_existing": [
+    {
+      "expert": "David Bayer",
+      "count": 16,
+      "richness": 9,
+      "skill": "david-bayer-elite-communication",
+      "top_domain": "coaching business launch"
+    },
+    {
+      "expert": "Andy Galpin",
+      "count": 6,
+      "richness": 9,
+      "skill": "andy-galpin-training-intelligence",
+      "top_domain": "performance physiology, fitness, training"
+    },
+    {
+      "expert": "Chase Hughes",
+      "count": 2,
+      "richness": 9,
+      "skill": "chase-hughes-context-engineering",
+      "top_domain": "linguistics, communication, mind architecture"
+    }
+  ],
+  "other_build_candidates": [
+    {
+      "expert": "Brendan Kane",
+      "count": 32,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "viral content strategy"
+    },
+    {
+      "expert": "Ash Maurya",
+      "count": 17,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "startup metrics"
+    },
+    {
+      "expert": "Sunny Lenarduzzi",
+      "count": 14,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "YouTube monetization"
+    },
+    {
+      "expert": "Alex Hormozi",
+      "count": 8,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "business, entrepreneurship"
+    },
+    {
+      "expert": "David Perell",
+      "count": 6,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "writing & content creation with AI"
+    },
+    {
+      "expert": "Pat Flynn",
+      "count": 6,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "passive income business"
+    },
+    {
+      "expert": "Matthew Lakajev",
+      "count": 6,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "LinkedIn personal branding"
+    },
+    {
+      "expert": "Justin Welsh",
+      "count": 6,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "solopreneur business systems"
+    },
+    {
+      "expert": "Luke Alexander",
+      "count": 5,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "AI million-dollar business blueprint"
+    },
+    {
+      "expert": "Marisa Murgatroyd",
+      "count": 4,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "online courses, product design"
+    },
+    {
+      "expert": "Greg Hickman",
+      "count": 4,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "service provider scaling and productization"
+    },
+    {
+      "expert": "Jason Fladien",
+      "count": 4,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "offer architecture and sales mechanism design"
+    },
+    {
+      "expert": "Matthew Volkwyn",
+      "count": 3,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "copywriting & business"
+    },
+    {
+      "expert": "Deya",
+      "count": 3,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "business planning systems"
+    },
+    {
+      "expert": "Dakota",
+      "count": 3,
+      "richness": 9,
+      "skill": null,
+      "top_domain": "carousel design, viral content, Instagram growth"
+    },
+    {
+      "expert": "Russell Brunson",
+      "count": 10,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "direct response marketing"
+    },
+    {
+      "expert": "Matt McGarry",
+      "count": 4,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "email marketing, newsletters"
+    },
+    {
+      "expert": "Damon Cart",
+      "count": 4,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "NLP persuasion mindset"
+    },
+    {
+      "expert": "Packy McCormick",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "online writing mastery"
+    },
+    {
+      "expert": "Alex Cooper",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "creative strategy AI"
+    },
+    {
+      "expert": "Benjamin Hardy",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "identity coaching"
+    },
+    {
+      "expert": "Jenny Hoyos",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "viral storytelling"
+    },
+    {
+      "expert": "KJ Rainey",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "copywriting and offer design"
+    },
+    {
+      "expert": "Matt Lakajev",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "LinkedIn sales funnel optimization"
+    },
+    {
+      "expert": "Fraser Cottrell",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "paid advertising, creative strategy, performance marketing"
+    },
+    {
+      "expert": "Oren John",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "creative trend prediction, hooks, virality, storytelling"
+    },
+    {
+      "expert": "Dan Bolton",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "coaching offer design, AI-proofing, ROI optimization"
+    },
+    {
+      "expert": "Ross Minchev",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "niche selection, digital products, AI-powered validation"
+    },
+    {
+      "expert": "Luisa Zhou",
+      "count": 3,
+      "richness": 8,
+      "skill": null,
+      "top_domain": "coaching methodology, client onboarding"
+    },
+    {
+      "expert": "Reid Hoffman",
+      "count": 4,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "AI investment strategy"
+    },
+    {
+      "expert": "Dr. Steven Young",
+      "count": 3,
+      "richness": 7,
+      "skill": null,
+      "top_domain": "hermetic philosophy & consciousness"
+    }
+  ],
+  "other_enrich_top": [
+    {
+      "expert": "Daniel Priestley",
+      "count": 96,
+      "richness": 9,
+      "skill": "daniel-priestley-oversubscribed",
+      "top_domain": "business monetization"
+    },
+    {
+      "expert": "Seth Godin",
+      "count": 80,
+      "richness": 9,
+      "skill": "seth-godin-ideavirus",
+      "top_domain": "marketing strategy"
+    },
+    {
+      "expert": "Jason Fladlien",
+      "count": 76,
+      "richness": 9,
+      "skill": "jason-fladlien-marketing",
+      "top_domain": "webinar copywriting"
+    },
+    {
+      "expert": "Kallaway",
+      "count": 49,
+      "richness": 10,
+      "skill": "kallaway-social-commerce",
+      "top_domain": "social media strategy"
+    },
+    {
+      "expert": "Nicolas Cole",
+      "count": 31,
+      "richness": 9,
+      "skill": "nicolas-cole-client-acquisition",
+      "top_domain": "writing monetization"
+    },
+    {
+      "expert": "Luke Iha",
+      "count": 22,
+      "richness": 9,
+      "skill": "luke-iha-creative-strategy",
+      "top_domain": "copywriting mastery"
+    },
+    {
+      "expert": "Chris Do",
+      "count": 22,
+      "richness": 9,
+      "skill": "chris-cimorelli-copywriting",
+      "top_domain": "personal branding & visual design strategy"
+    },
+    {
+      "expert": "Maria Wendt",
+      "count": 13,
+      "richness": 9,
+      "skill": "maria-wendt-digital-products",
+      "top_domain": "digital product marketing & sales"
+    },
+    {
+      "expert": "Alen Sultanic",
+      "count": 10,
+      "richness": 9,
+      "skill": "alen-sultanic-copywriting",
+      "top_domain": "copywriting mastery"
+    },
+    {
+      "expert": "Shaan Puri",
+      "count": 9,
+      "richness": 8,
+      "skill": "shaan-puri-storytelling",
+      "top_domain": "storytelling, content creation"
+    },
+    {
+      "expert": "Craig Clemens",
+      "count": 9,
+      "richness": 9,
+      "skill": "craig-clemens-copywriting",
+      "top_domain": "direct response copywriting & ecommerce"
+    },
+    {
+      "expert": "Lara Acosta",
+      "count": 9,
+      "richness": 9,
+      "skill": "lara-acosta-linkedin-growth",
+      "top_domain": "LinkedIn marketing, content creation"
+    },
+    {
+      "expert": "Adam Enfroy",
+      "count": 8,
+      "richness": 9,
+      "skill": "adam-enfroy-affiliate-marketing",
+      "top_domain": "affiliate marketing"
+    },
+    {
+      "expert": "Dan Koe",
+      "count": 8,
+      "richness": 9,
+      "skill": "dan-koe-ai-leverage",
+      "top_domain": "AI content creation"
+    },
+    {
+      "expert": "Stefan Georgi",
+      "count": 8,
+      "richness": 9,
+      "skill": "stefan-georgi-dopamine-copy",
+      "top_domain": "copywriting"
+    },
+    {
+      "expert": "Mark Kashef",
+      "count": 8,
+      "richness": 9,
+      "skill": "mark-kashef-claude-claw",
+      "top_domain": "AI prompt engineering, model mastery"
+    },
+    {
+      "expert": "Joanna Wiebe",
+      "count": 8,
+      "richness": 9,
+      "skill": "joanna-wiebe-writing-careers",
+      "top_domain": "direct-response copywriting"
+    },
+    {
+      "expert": "John Whiting",
+      "count": 7,
+      "richness": 8,
+      "skill": "john-whiting-propaganda-machine",
+      "top_domain": "client acquisition & offer design"
+    },
+    {
+      "expert": "Nate B Jones",
+      "count": 7,
+      "richness": 9,
+      "skill": "nate-b-jones-intent-engineering",
+      "top_domain": "AI taste, design intelligence"
+    },
+    {
+      "expert": "Donald Miller",
+      "count": 6,
+      "richness": 9,
+      "skill": "donald-miller-cognitive-load",
+      "top_domain": "messaging, StoryBrand framework"
+    },
+    {
+      "expert": "Rory Sutherland",
+      "count": 6,
+      "richness": 9,
+      "skill": "rory-sutherland-marketing",
+      "top_domain": "marketing strategy, behavioral economics"
+    },
+    {
+      "expert": "Ward Farnsworth",
+      "count": 6,
+      "richness": 9,
+      "skill": "ward-farnsworth-rhetorical-mastery",
+      "top_domain": "writing and rhetoric"
+    },
+    {
+      "expert": "Nick Saraev",
+      "count": 6,
+      "richness": 8,
+      "skill": "nick-saraev-bottleneck-thinking",
+      "top_domain": "AI automation agents"
+    },
+    {
+      "expert": "Dara Denney",
+      "count": 5,
+      "richness": 9,
+      "skill": "dara-denney-meta-ads",
+      "top_domain": "creative strategy & brand auditing"
+    },
+    {
+      "expert": "Oren",
+      "count": 5,
+      "richness": 9,
+      "skill": "oren-taste-development",
+      "top_domain": "creative direction"
+    },
+    {
+      "expert": "Omar Eltakrori",
+      "count": 5,
+      "richness": 9,
+      "skill": "omar-eltakrori",
+      "top_domain": "content monetization"
+    },
+    {
+      "expert": "Vincent Hu",
+      "count": 5,
+      "richness": 9,
+      "skill": "vincent-hu",
+      "top_domain": "sales coaching, close rates"
+    },
+    {
+      "expert": "David McRaney",
+      "count": 5,
+      "richness": 9,
+      "skill": "david-mcraney-belief-change",
+      "top_domain": "psychology of persuasion, mind change"
+    },
+    {
+      "expert": "Rachel Woods",
+      "count": 5,
+      "richness": 8,
+      "skill": "rachel-woods-ai-operations",
+      "top_domain": "AI operations and automation"
+    },
+    {
+      "expert": "Tom Noske",
+      "count": 5,
+      "richness": 9,
+      "skill": "tom-noske-personal-brand",
+      "top_domain": "personal branding and monetization"
+    },
+    {
+      "expert": "Nathan Gotch",
+      "count": 5,
+      "richness": 9,
+      "skill": "nathan-gotch-ai-seo",
+      "top_domain": "AI SEO"
+    },
+    {
+      "expert": "Eric Roth",
+      "count": 4,
+      "richness": 8,
+      "skill": "eric-roth-writing-mastery",
+      "top_domain": "screenwriting, narrative craft"
+    },
+    {
+      "expert": "Seena Rez",
+      "count": 4,
+      "richness": 9,
+      "skill": "seena-rez-tiktok-commerce",
+      "top_domain": "TikTok viral commerce"
+    },
+    {
+      "expert": "Ali Abdaal",
+      "count": 3,
+      "richness": 9,
+      "skill": "ali-abdaal-action-bias",
+      "top_domain": "business idea generation & entrepreneurship"
+    },
+    {
+      "expert": "Sam Parr",
+      "count": 3,
+      "richness": 7,
+      "skill": "sam-parr-taste-acquisition",
+      "top_domain": "content creation, newsletter strategy"
+    },
+    {
+      "expert": "Jun Yuh",
+      "count": 3,
+      "richness": 9,
+      "skill": "jun-yuh-creator-vision",
+      "top_domain": "personal brand growth"
+    },
+    {
+      "expert": "Caleb Ralston",
+      "count": 3,
+      "richness": 8,
+      "skill": "caleb-ralston-personal-brand",
+      "top_domain": "brand scaling, content strategy"
+    },
+    {
+      "expert": "April Dunford",
+      "count": 3,
+      "richness": 8,
+      "skill": "april-dunford-positioning",
+      "top_domain": "sales strategy, positioning, messaging"
+    },
+    {
+      "expert": "Tobias Allen",
+      "count": 3,
+      "richness": 9,
+      "skill": "tobias-allen-marketing-mastery",
+      "top_domain": "marketing sales ICP"
+    },
+    {
+      "expert": "Michael Bernoff",
+      "count": 3,
+      "richness": 9,
+      "skill": "michael-bernoff-identity-engineering",
+      "top_domain": "sales and identity psychology"
+    }
+  ],
+  "other_build_marginal_count": 137
+}

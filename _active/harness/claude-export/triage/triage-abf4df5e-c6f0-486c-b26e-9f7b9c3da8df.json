@@ -1,0 +1,29 @@
+{
+  "conversation_id": "abf4df5e-c6f0-486c-b26e-9f7b9c3da8df",
+  "classified_at": "2026-07-01T17:14:39.497893+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6988,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 24,
+      "knowledge-grade": 45,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 9,
+    "has_attachments": true,
+    "message_count": 18
+  },
+  "rationale": "The conversation involves refining a specific methodology ('The Resilience Method') into a more actionable lead magnet. It utilizes an expert-panel simulation to extract core principles and improve copy, making the framework more effective for a specific target audience.",
+  "extraction_value": 8,
+  "expert_named": "The Resilience Method",
+  "reusable_asset": true,
+  "title": "Improving Lead Magnet Effectiveness",
+  "md_path": ".tmp/claude-export/normalized/conversations/abf4df5e-c6f0-486c-b26e-9f7b9c3da8df.md",
+  "recommended_route": "extract-forge"
+}

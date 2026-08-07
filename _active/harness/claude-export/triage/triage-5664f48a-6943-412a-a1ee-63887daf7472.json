@@ -1,0 +1,29 @@
+{
+  "conversation_id": "5664f48a-6943-412a-a1ee-63887daf7472",
+  "classified_at": "2026-07-01T16:56:06.459675+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5471,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 47,
+      "knowledge-grade": 5,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 9
+    },
+    "expert_hits": [],
+    "code_blocks": 4,
+    "has_attachments": false,
+    "message_count": 12
+  },
+  "rationale": "The conversation resulted in a structured, repeatable system for prompt engineering, including specific templates and a step-by-step workflow for Notion integration. It provides a clear methodology for managing prompt iterations.",
+  "extraction_value": 9,
+  "expert_named": "Collaborative Prompt Engineering System",
+  "reusable_asset": true,
+  "title": "Optimizing Prompt Engineering Workflow",
+  "md_path": ".tmp/claude-export/normalized/conversations/5664f48a-6943-412a-a1ee-63887daf7472.md",
+  "recommended_route": "extract-forge"
+}

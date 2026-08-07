@@ -1,0 +1,31 @@
+{
+  "conversation_id": "71f7200f-161c-42f9-a67e-f804a0200e65",
+  "classified_at": "2026-07-01T17:07:43.775616+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 8432,
+    "marker_hits": {
+      "prompt-tool-grade": 5,
+      "extraction-grade": 31,
+      "knowledge-grade": 76,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [
+      "kallaway"
+    ],
+    "code_blocks": 3,
+    "has_attachments": true,
+    "message_count": 6
+  },
+  "rationale": "The user is systematically extracting a specific creator's (Kallaway) methodology and converting it into a structured framework (CAP analysis) and reusable prompt system. The content is being distilled into an expert-level skill set.",
+  "extraction_value": 9,
+  "expert_named": "Kallaway",
+  "reusable_asset": true,
+  "title": "Kallway-Social Media Is A Video Game (Here Are The Cheat Codes)",
+  "md_path": ".tmp/claude-export/normalized/conversations/71f7200f-161c-42f9-a67e-f804a0200e65.md",
+  "recommended_route": "extract-forge"
+}

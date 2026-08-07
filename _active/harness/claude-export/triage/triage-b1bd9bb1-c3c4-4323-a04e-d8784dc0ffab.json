@@ -1,0 +1,29 @@
+{
+  "conversation_id": "b1bd9bb1-c3c4-4323-a04e-d8784dc0ffab",
+  "classified_at": "2026-07-01T17:11:05.686882+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1901,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 4,
+      "knowledge-grade": 33,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 12
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 1
+  },
+  "rationale": "The user is providing a comprehensive project brief and requesting specific marketing assets (content, scripts, outreach templates) for a defined business campaign. This is a classic project-deliverable workflow.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "",
+  "md_path": ".tmp/claude-export/normalized/conversations/b1bd9bb1-c3c4-4323-a04e-d8784dc0ffab.md",
+  "recommended_route": "ingest-only"
+}

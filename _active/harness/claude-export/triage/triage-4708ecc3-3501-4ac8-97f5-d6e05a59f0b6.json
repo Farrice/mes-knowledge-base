@@ -1,0 +1,29 @@
+{
+  "conversation_id": "4708ecc3-3501-4ac8-97f5-d6e05a59f0b6",
+  "classified_at": "2026-07-01T17:16:22.362895+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 8695,
+    "marker_hits": {
+      "prompt-tool-grade": 31,
+      "extraction-grade": 132,
+      "knowledge-grade": 67,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 10
+    },
+    "expert_hits": [],
+    "code_blocks": 14,
+    "has_attachments": true,
+    "message_count": 17
+  },
+  "rationale": "The conversation is explicitly focused on refining a complex system prompt (KACE framework) for Claude 3.7 Sonnet. The user is iterating on the structure, tone, and execution logic of their custom instructions, making this a high-value reusable asset for their workflow.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "3.7 sonnet: KACE Custom Instructions",
+  "md_path": ".tmp/claude-export/normalized/conversations/4708ecc3-3501-4ac8-97f5-d6e05a59f0b6.md",
+  "recommended_route": "convert-prompt"
+}

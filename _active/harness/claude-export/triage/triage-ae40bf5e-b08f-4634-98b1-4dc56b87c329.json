@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ae40bf5e-b08f-4634-98b1-4dc56b87c329",
+  "classified_at": "2026-07-01T16:53:35.392965+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 13160,
+    "marker_hits": {
+      "prompt-tool-grade": 10,
+      "extraction-grade": 5,
+      "knowledge-grade": 59,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 6
+    },
+    "expert_hits": [],
+    "code_blocks": 15,
+    "has_attachments": true,
+    "message_count": 26
+  },
+  "rationale": "The conversation involves the iterative design, refinement, and structural optimization of a complex system prompt ('Fresh AI'). The user successfully developed a reusable, modular prompt architecture with defined variables and persona-based logic, which is a high-value asset for future AI interactions.",
+  "extraction_value": 9,
+  "expert_named": "AI Architect",
+  "reusable_asset": true,
+  "title": "Designing an Intelligent AI Assistant System",
+  "md_path": ".tmp/claude-export/normalized/conversations/ae40bf5e-b08f-4634-98b1-4dc56b87c329.md",
+  "recommended_route": "convert-prompt"
+}

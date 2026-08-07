@@ -1,0 +1,29 @@
+{
+  "conversation_id": "990b7397-5f29-4b7e-b9b6-c44758199423",
+  "classified_at": "2026-07-01T16:55:44.851412+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4525,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 4,
+      "knowledge-grade": 18,
+      "personal-context-grade": 25,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 10
+  },
+  "rationale": "The conversation provides a structured, systematic approach to troubleshooting dietary-induced gastrointestinal distress in a specific demographic (55-year-old female). It synthesizes nutritional advice, potential medication interactions, and actionable optimization steps, making it a valuable knowledge resource for a personal trainer.",
+  "extraction_value": 6,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Troubleshooting Teri's Protein Shake Stomach Issues",
+  "md_path": ".tmp/claude-export/normalized/conversations/990b7397-5f29-4b7e-b9b6-c44758199423.md",
+  "recommended_route": "convert-prompt"
+}

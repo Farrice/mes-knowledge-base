@@ -1,0 +1,31 @@
+{
+  "conversation_id": "374c67ff-e1ba-4487-a8af-d48d0b1ce6f1",
+  "classified_at": "2026-07-01T17:09:09.764747+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4164,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 10,
+      "knowledge-grade": 43,
+      "personal-context-grade": 30,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "roth"
+    ],
+    "code_blocks": 5,
+    "has_attachments": true,
+    "message_count": 15
+  },
+  "rationale": "The conversation utilizes a structured expert panel methodology to synthesize personal brand pillars into a constrained format (Instagram bio). The framework applied\u2014balancing SEO, storytelling, and personal identity\u2014is a repeatable methodology for personal branding.",
+  "extraction_value": 8,
+  "expert_named": "Dr. Maya Sullivan",
+  "reusable_asset": true,
+  "title": "Crafting an Impactful Instagram Bio for a Real Estate Agent",
+  "md_path": ".tmp/claude-export/normalized/conversations/374c67ff-e1ba-4487-a8af-d48d0b1ce6f1.md",
+  "recommended_route": "extract-forge"
+}

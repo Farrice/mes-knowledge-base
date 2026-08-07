@@ -1,0 +1,29 @@
+{
+  "conversation_id": "c73d1b2e-bc1d-4d8c-96a6-ab6973b53cc5",
+  "classified_at": "2026-07-01T17:13:09.214251+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 9525,
+    "marker_hits": {
+      "prompt-tool-grade": 26,
+      "extraction-grade": 43,
+      "knowledge-grade": 167,
+      "personal-context-grade": 20,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 11,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation is a comprehensive, multi-turn strategic consulting engagement focused on solving a specific business problem (client acquisition) for a specific individual (Coach Cooz). It resulted in a structured plan and actionable deliverables, fitting the project-deliverable-grade criteria perfectly.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "High-Ticket Client Acquisition Strategy for Coach Cooz",
+  "md_path": ".tmp/claude-export/normalized/conversations/c73d1b2e-bc1d-4d8c-96a6-ab6973b53cc5.md",
+  "recommended_route": "ingest-only"
+}

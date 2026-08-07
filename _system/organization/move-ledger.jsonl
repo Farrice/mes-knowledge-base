@@ -474,3 +474,4 @@
 {"action": "project-relocate", "moved_at": "2026-08-07T16:45:25.619503+00:00", "from": "_active/kdp-book-one-pilot", "to": "_active/publishing/kdp-book-one-pilot", "tool": "project_relocate.py"}
 {"action": "project-relocate", "moved_at": "2026-08-07T16:45:36.663784+00:00", "from": "_active/mybpm-merch-os-run-1", "to": "_active/mybpm/mybpm-merch-os-run-1", "tool": "project_relocate.py"}
 {"action": "project-relocate", "moved_at": "2026-08-07T16:45:49.361434+00:00", "from": "_active/prediction-market-arb", "to": "_active/wagering/prediction-market-arb", "tool": "project_relocate.py"}
+{"action": "project-relocate", "moved_at": "2026-08-07T17:16:09.513805+00:00", "from": "_active/hyperframes-studio", "to": "_active/video-studio/hyperframes-studio", "tool": "project_relocate.py"}

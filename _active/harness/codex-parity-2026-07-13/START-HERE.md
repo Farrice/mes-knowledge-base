@@ -1,6 +1,6 @@
 # Codex Parity 2026 07 13 — start here
 
-*Generated 2026-08-07 16:50 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 17:18 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -8,9 +8,9 @@
 
 **proof**
 
-- `proof/take-a-claude-code.md` — touched 2026-08-07
-- `proof/take-b-codex.md` — touched 2026-08-07
-- `proof/JUDGMENT.md` — touched 2026-08-07
+- `proof/take-a-claude-code.md` — touched 2026-07-13
+- `proof/take-b-codex.md` — touched 2026-07-13
+- `proof/JUDGMENT.md` — touched 2026-07-13
 
 ## Drift
 
@@ -26,6 +26,7 @@
 ## Elsewhere in this arena
 
 - `claude-code-harness-analysis/`
+- `claude-export/`
 - `codex-harvest-2026-06-11/`
 - `context-engineering-os/`
 - `elevation-track/`

@@ -1,0 +1,202 @@
+[
+  {
+    "mode": "lane",
+    "skill": "jonah-berger-contagious",
+    "agent": "jonah-berger",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/7b9d2b88-17fe-4ba4-ac9b-aac8d6737987.md",
+      ".tmp/claude-export/normalized/conversations/3f0330ba-7e80-4e39-b254-de079ff724cd.md"
+    ],
+    "total": 2,
+    "note": "Contagious/STEPPS \u2014 academic viral science; complements brendan-kane (note handoff)."
+  },
+  {
+    "mode": "lane",
+    "skill": "josh-kaufman-business-fundamentals",
+    "agent": "josh-kaufman",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/f8acd07a-a3a1-46f3-9ebd-8bd0c14aa31b.md",
+      ".tmp/claude-export/normalized/conversations/531b46ea-2cf4-4726-ae10-86dd963118d5.md"
+    ],
+    "total": 2,
+    "note": "Personal MBA \u2014 business mental models."
+  },
+  {
+    "mode": "lane",
+    "skill": "robert-greene-power-mastery",
+    "agent": "robert-greene",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/62cc2c58-d75c-42ea-9a1b-aecb42728c28.md",
+      ".tmp/claude-export/normalized/conversations/ebfc87de-d96e-4adc-b094-7539dbd5ae4b.md"
+    ],
+    "total": 2,
+    "note": "48 Laws / Mastery \u2014 power dynamics & craft mastery."
+  },
+  {
+    "mode": "lane",
+    "skill": "daniel-pink-writing-structure",
+    "agent": "daniel-pink",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/2bf2299f-cbfd-4936-8b08-2bee19fc22e2.md",
+      ".tmp/claude-export/normalized/conversations/2d9a5291-20b3-4cbb-9b36-d6cf57a8d180.md"
+    ],
+    "total": 2,
+    "note": "Writing & book structure, motivation science."
+  },
+  {
+    "mode": "lane",
+    "skill": "kunal-shah-consumer-psychology",
+    "agent": "kunal-shah",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/366b1ef4-cb21-4983-93d1-9492d0f0b835.md",
+      ".tmp/claude-export/normalized/conversations/004a47f6-905b-4e98-afe2-136dd0aae2b1.md"
+    ],
+    "total": 2,
+    "note": "CRED founder \u2014 delta-4 consumer psychology & motivation."
+  },
+  {
+    "mode": "lane",
+    "skill": "sarah-levinger-ad-psychology",
+    "agent": "sarah-levinger",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/f7154662-7772-4b23-a2bd-997afcfd91ab.md",
+      ".tmp/claude-export/normalized/conversations/3a87573e-ff17-4822-93b1-8554ce26abb9.md"
+    ],
+    "total": 2,
+    "note": "Psychology-driven video ad storytelling; pairs with dara-denney, fraser-cottrell."
+  },
+  {
+    "mode": "lane",
+    "skill": "patrick-dang-online-business",
+    "agent": "patrick-dang",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/7ea68873-caed-4cd8-af6f-a95e19d1aa7f.md",
+      ".tmp/claude-export/normalized/conversations/89f8a04d-9480-44d1-85c8-82f0709099d6.md"
+    ],
+    "total": 2,
+    "note": "Online business + personal brand (r9)."
+  },
+  {
+    "mode": "lane",
+    "skill": "henrik-werdelin-portfolio-entrepreneurship",
+    "agent": "henrik-werdelin",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/156550f6-a849-4598-91b7-25d096d72413.md",
+      ".tmp/claude-export/normalized/conversations/94abf42c-387a-400a-8062-89cf5c3d9382.md"
+    ],
+    "total": 2,
+    "note": "BarkBox/Prehype \u2014 portfolio entrepreneurship with AI (r9)."
+  },
+  {
+    "mode": "lane",
+    "skill": "sean-dollwet-kdp-publishing",
+    "agent": "sean-dollwet",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/3c9dfa9c-b0ad-4745-adf1-9d1d6f9a202c.md",
+      ".tmp/claude-export/normalized/conversations/8a8a33df-6cb7-4d4f-9826-4137677896ae.md"
+    ],
+    "total": 2,
+    "note": "Digital products / Amazon KDP publishing (r9)."
+  },
+  {
+    "mode": "lane",
+    "skill": "mike-sherrard-realtor-branding",
+    "agent": "mike-sherrard",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/327fae11-77f5-4cae-9a5a-6f10a08639e5.md",
+      ".tmp/claude-export/normalized/conversations/1804507d-a25e-415b-916b-1b04822b03cd.md"
+    ],
+    "total": 2,
+    "note": "Personal branding for real estate \u2014 DIRECTLY relevant to Jen Santulan client work; note handoff to jen-santulan + enrico skills."
+  },
+  {
+    "mode": "lane",
+    "skill": "gary-vaynerchuk-attention",
+    "agent": "gary-vaynerchuk",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/71f5e64b-d2d5-4be6-b3dc-053ca1058eaa.md",
+      ".tmp/claude-export/normalized/conversations/0bd6be95-5038-493c-ae05-95327eb88522.md",
+      ".tmp/claude-export/normalized/conversations/8cd48606-d4ec-479c-beb5-b4f137ce7e43.md",
+      ".tmp/claude-export/normalized/conversations/db960189-81af-4747-8774-7eda6192a168.md"
+    ],
+    "total": 4,
+    "note": "GaryVee \u2014 attention/personal branding. Merge the misspelled census variant."
+  },
+  {
+    "mode": "lane",
+    "skill": "jiang-xueqin-cognitive-autonomy",
+    "agent": "jiang-xueqin",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/7a3d28e5-5cd5-4d7c-a11f-b01f0d414d8f.md",
+      ".tmp/claude-export/normalized/conversations/5ce34135-b064-4be9-b627-5d215e5cc77a.md"
+    ],
+    "total": 2,
+    "note": "Cognitive autonomy & mental mastery (r10 \u2014 highest richness in the unhandled set)."
+  },
+  {
+    "mode": "lane",
+    "skill": "michael-margolis-user-research",
+    "agent": "michael-margolis",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/8f994738-1c58-451a-8435-6f475c739237.md",
+      ".tmp/claude-export/normalized/conversations/81526288-a470-4353-b247-20ebab6da854.md"
+    ],
+    "total": 2,
+    "note": "GV research partner \u2014 user research & customer discovery."
+  },
+  {
+    "mode": "lane",
+    "skill": "andrew-lane-design-systems",
+    "agent": "andrew-lane",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/ce1d69ed-7a70-437f-96f8-29bdaeeac154.md",
+      ".tmp/claude-export/normalized/conversations/32c10665-07da-4ee9-84ab-4302c63f5aae.md"
+    ],
+    "total": 2,
+    "note": "Branding & design systems (r7)."
+  },
+  {
+    "mode": "lane",
+    "skill": "mark-forsyth-rhetoric",
+    "agent": "mark-forsyth",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/bcea35e7-f3b4-4932-9ee5-dafd638abdc3.md",
+      ".tmp/claude-export/normalized/conversations/bac1d757-06ab-407f-8d92-af135cf3fbe4.md"
+    ],
+    "total": 2,
+    "note": "Etymologicon/Elements of Eloquence \u2014 English rhetoric; pairs with ward-farnsworth. Self-skip if redundant with existing rhetoric coverage."
+  },
+  {
+    "mode": "lane",
+    "skill": "tess-barclay-social-content",
+    "agent": "tess-barclay",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/6c48787f-c4f5-4654-9625-e93a6ee8a882.md",
+      ".tmp/claude-export/normalized/conversations/8ce69d1b-10d5-427e-a982-7e7a3890e00c.md"
+    ],
+    "total": 2,
+    "note": "Social media content creation (r8)."
+  },
+  {
+    "mode": "lane",
+    "skill": "daniel-thrasher-affiliate",
+    "agent": "daniel-thrasher",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/95bf31f8-08bc-421c-96f7-44d91a50833a.md",
+      ".tmp/claude-export/normalized/conversations/edf9bee0-194b-4aa6-8ff6-abd91ed7b968.md"
+    ],
+    "total": 2,
+    "note": "Affiliate marketing skills; self-skip if redundant with adam-enfroy coverage."
+  },
+  {
+    "mode": "lane",
+    "skill": "tobi-lutke-business-leadership",
+    "agent": "tobi-lutke",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/6b6febd9-abbe-4a5a-80bc-767c98ea258c.md",
+      ".tmp/claude-export/normalized/conversations/33cc1e36-efde-4949-a847-0d5a08546a42.md"
+    ],
+    "total": 2,
+    "note": "Shopify founder \u2014 business leadership & systems thinking."
+  }
+]

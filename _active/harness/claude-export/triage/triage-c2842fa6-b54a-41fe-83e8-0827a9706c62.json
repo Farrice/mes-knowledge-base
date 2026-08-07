@@ -1,0 +1,29 @@
+{
+  "conversation_id": "c2842fa6-b54a-41fe-83e8-0827a9706c62",
+  "classified_at": "2026-07-01T17:00:51.169064+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 12576,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 23,
+      "knowledge-grade": 33,
+      "personal-context-grade": 17,
+      "project-deliverable-grade": 28
+    },
+    "expert_hits": [],
+    "code_blocks": 10,
+    "has_attachments": true,
+    "message_count": 14
+  },
+  "rationale": "The conversation is explicitly focused on developing and refining a suite of high-quality prompts for digital entrepreneurship. The output is a structured, reusable set of instructions designed to help users launch a business, making it a clear prompt-tool-grade asset.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Comprehensive Prompts for Digital Entrepreneurship",
+  "md_path": ".tmp/claude-export/normalized/conversations/c2842fa6-b54a-41fe-83e8-0827a9706c62.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,31 @@
+{
+  "conversation_id": "ec9f700a-7768-4181-89d0-18b5120c715c",
+  "classified_at": "2026-07-01T16:53:56.729684+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 83390,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 2,
+      "knowledge-grade": 8,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "stanton"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is requesting a structured extraction of a book's core principles into a reference guide, which is a classic extraction-grade task. It transforms raw content into a reusable, high-value knowledge asset.",
+  "extraction_value": 9,
+  "expert_named": "Hollywood Screenwriter",
+  "reusable_asset": true,
+  "title": "Writer's Guide to \"The Secrets of Character\"",
+  "md_path": ".tmp/claude-export/normalized/conversations/ec9f700a-7768-4181-89d0-18b5120c715c.md",
+  "recommended_route": "extract-forge"
+}

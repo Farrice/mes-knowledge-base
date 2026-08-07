@@ -1,0 +1,29 @@
+{
+  "conversation_id": "d51e54fd-3e2c-4549-aa46-33636423e297",
+  "classified_at": "2026-07-01T16:59:08.136163+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 10763,
+    "marker_hits": {
+      "prompt-tool-grade": 11,
+      "extraction-grade": 76,
+      "knowledge-grade": 55,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 18
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation is a meta-prompting exercise where the user is refining a sophisticated system prompt designed to act as an 'AI prompt engineer'. It is a highly reusable asset for generating high-quality prompts.",
+  "extraction_value": 9,
+  "expert_named": "Collaborative Prompt Engineering Framework",
+  "reusable_asset": true,
+  "title": "Collaborative Prompt Engineering for Advanced AI Assistance",
+  "md_path": ".tmp/claude-export/normalized/conversations/d51e54fd-3e2c-4549-aa46-33636423e297.md",
+  "recommended_route": "convert-prompt"
+}

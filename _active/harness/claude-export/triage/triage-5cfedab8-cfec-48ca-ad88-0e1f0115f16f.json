@@ -1,0 +1,29 @@
+{
+  "conversation_id": "5cfedab8-cfec-48ca-ad88-0e1f0115f16f",
+  "classified_at": "2026-07-01T17:21:05.783587+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3040,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 14,
+      "knowledge-grade": 74,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 8,
+    "has_attachments": false,
+    "message_count": 9
+  },
+  "rationale": "The conversation focuses on refining a meta-prompting framework (PIER) to optimize interactions with an AI agent (manus.ai). It extracts a structured methodology for prompt engineering that is highly reusable for business strategy execution.",
+  "extraction_value": 8,
+  "expert_named": "PIER (Prompt Intelligence & Enhancement Resource)",
+  "reusable_asset": true,
+  "title": "Optimizing Business Strategies for Coach Cooz",
+  "md_path": ".tmp/claude-export/normalized/conversations/5cfedab8-cfec-48ca-ad88-0e1f0115f16f.md",
+  "recommended_route": "extract-forge"
+}

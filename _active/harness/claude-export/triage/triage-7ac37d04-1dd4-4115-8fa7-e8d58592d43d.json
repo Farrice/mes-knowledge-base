@@ -1,0 +1,29 @@
+{
+  "conversation_id": "7ac37d04-1dd4-4115-8fa7-e8d58592d43d",
+  "classified_at": "2026-07-01T17:14:35.300242+00:00",
+  "classified_by": "llm",
+  "bucket": "low-signal",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 10299,
+    "marker_hits": {
+      "prompt-tool-grade": 6,
+      "extraction-grade": 30,
+      "knowledge-grade": 83,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 15
+    },
+    "expert_hits": [],
+    "code_blocks": 11,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation is primarily a user seeking assistance with course quiz answers, which is a one-off task. While the user includes some reflections at the end, the core utility of the chat is transactional and lacks long-term reusable value.",
+  "extraction_value": 1,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Coursera AI Agents and Multi-Agent Workflows",
+  "md_path": ".tmp/claude-export/normalized/conversations/7ac37d04-1dd4-4115-8fa7-e8d58592d43d.md",
+  "recommended_route": "skip"
+}

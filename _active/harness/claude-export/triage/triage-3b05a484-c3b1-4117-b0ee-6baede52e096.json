@@ -1,0 +1,29 @@
+{
+  "conversation_id": "3b05a484-c3b1-4117-b0ee-6baede52e096",
+  "classified_at": "2026-07-01T16:51:31.322408+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5426,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 5,
+      "knowledge-grade": 80,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is explicitly refining a prompt template designed to act as a business consultant for offer optimization. This is a classic example of creating a reusable system prompt or tool for iterative business development.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Grand Slam Offer Improver prompt",
+  "md_path": ".tmp/claude-export/normalized/conversations/3b05a484-c3b1-4117-b0ee-6baede52e096.md",
+  "recommended_route": "convert-prompt"
+}

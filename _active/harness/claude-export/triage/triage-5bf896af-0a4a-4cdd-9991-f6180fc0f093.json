@@ -1,0 +1,29 @@
+{
+  "conversation_id": "5bf896af-0a4a-4cdd-9991-f6180fc0f093",
+  "classified_at": "2026-07-01T17:03:34.124529+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 1.0,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6429,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 33,
+      "knowledge-grade": 115,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 16
+    },
+    "expert_hits": [],
+    "code_blocks": 23,
+    "has_attachments": true,
+    "message_count": 34
+  },
+  "rationale": "The conversation is a structured, multi-turn project to develop a specific lead magnet and associated marketing collateral for a business, resulting in a finished professional asset.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "The 7-Figure Service Provider's Guide to AI Implementation",
+  "md_path": ".tmp/claude-export/normalized/conversations/5bf896af-0a4a-4cdd-9991-f6180fc0f093.md",
+  "recommended_route": "ingest-only"
+}

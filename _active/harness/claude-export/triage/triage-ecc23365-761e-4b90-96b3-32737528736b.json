@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ecc23365-761e-4b90-96b3-32737528736b",
+  "classified_at": "2026-07-01T16:52:22.504492+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 15874,
+    "marker_hits": {
+      "prompt-tool-grade": 37,
+      "extraction-grade": 14,
+      "knowledge-grade": 63,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 44
+    },
+    "expert_hits": [],
+    "code_blocks": 15,
+    "has_attachments": false,
+    "message_count": 49
+  },
+  "rationale": "The conversation is dedicated to developing and refining a complex system prompt (custom instructions) for Claude 3.5 Sonnet, specifically focusing on an 'Expert Panel' framework. The user has iterated extensively to create a reusable meta-prompting structure.",
+  "extraction_value": 9,
+  "expert_named": "Expert Panel Framework",
+  "reusable_asset": true,
+  "title": "Important-Custom Sonnet Instructions for Claude.ai",
+  "md_path": ".tmp/claude-export/normalized/conversations/ecc23365-761e-4b90-96b3-32737528736b.md",
+  "recommended_route": "convert-prompt"
+}

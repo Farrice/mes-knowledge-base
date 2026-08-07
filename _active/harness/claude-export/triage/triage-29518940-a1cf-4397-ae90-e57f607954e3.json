@@ -1,0 +1,29 @@
+{
+  "conversation_id": "29518940-a1cf-4397-ae90-e57f607954e3",
+  "classified_at": "2026-07-01T16:58:29.526647+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2488,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 8,
+      "knowledge-grade": 14,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is actively managing and testing a meta-prompting framework (the 'Universal Prompt for Integrating Domain-Specific Enhancements'). The conversation is focused on the operationalization and refinement of this reusable system prompt, making it a clear example of prompt-tool-grade activity.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Integrating Domain-Specific Enhancements",
+  "md_path": ".tmp/claude-export/normalized/conversations/29518940-a1cf-4397-ae90-e57f607954e3.md",
+  "recommended_route": "convert-prompt"
+}

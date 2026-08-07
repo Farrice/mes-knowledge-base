@@ -1,0 +1,31 @@
+{
+  "conversation_id": "f5c91eee-94d5-4ca2-bdfc-5b6974d3cc81",
+  "classified_at": "2026-07-01T17:20:18.483503+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 16366,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 11,
+      "knowledge-grade": 5,
+      "personal-context-grade": 13,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [
+      "roth"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The conversation extracts a specific, actionable methodology from a viral video expert (Adley) and codifies it into a structured framework and set of reusable prompts for content creation.",
+  "extraction_value": 9,
+  "expert_named": "Adley",
+  "reusable_asset": true,
+  "title": "Meet the expert that makes anyone go viral",
+  "md_path": ".tmp/claude-export/normalized/conversations/f5c91eee-94d5-4ca2-bdfc-5b6974d3cc81.md",
+  "recommended_route": "extract-forge"
+}

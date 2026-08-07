@@ -1,0 +1,29 @@
+{
+  "conversation_id": "4458f4b6-fa91-4e87-a0f9-5a076b0e4203",
+  "classified_at": "2026-07-01T17:09:27.141619+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1639,
+    "marker_hits": {
+      "prompt-tool-grade": 5,
+      "extraction-grade": 10,
+      "knowledge-grade": 48,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 3,
+    "has_attachments": false,
+    "message_count": 8
+  },
+  "rationale": "The user requested a meta-prompt to generate a simulation framework for buyer persona research. The assistant provided a structured, reusable prompt template designed to be saved and reused for future market research tasks.",
+  "extraction_value": 8,
+  "expert_named": "Buyer Persona Simulation Framework",
+  "reusable_asset": true,
+  "title": "Crafting Buyer Persona Insights",
+  "md_path": ".tmp/claude-export/normalized/conversations/4458f4b6-fa91-4e87-a0f9-5a076b0e4203.md",
+  "recommended_route": "convert-prompt"
+}

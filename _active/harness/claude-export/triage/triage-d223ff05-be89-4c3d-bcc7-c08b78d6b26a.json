@@ -1,0 +1,31 @@
+{
+  "conversation_id": "d223ff05-be89-4c3d-bcc7-c08b78d6b26a",
+  "classified_at": "2026-07-01T17:11:01.485881+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 23233,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 17,
+      "knowledge-grade": 10,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "gotch"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The conversation is a structured, multi-step workflow designed to distill a long-form interview into a formal, reusable methodology and deployable AI agent training assets. It systematically extracts expert frameworks and converts them into actionable system prompts and knowledge bases.",
+  "extraction_value": 9,
+  "expert_named": "Sam Parr",
+  "reusable_asset": true,
+  "title": "2.0: (Sam Parr Interview)-Inside the Mind of a Newsletter Mogul.",
+  "md_path": ".tmp/claude-export/normalized/conversations/d223ff05-be89-4c3d-bcc7-c08b78d6b26a.md",
+  "recommended_route": "extract-forge"
+}

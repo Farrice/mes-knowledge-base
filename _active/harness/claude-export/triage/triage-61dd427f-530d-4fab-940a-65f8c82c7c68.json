@@ -1,0 +1,29 @@
+{
+  "conversation_id": "61dd427f-530d-4fab-940a-65f8c82c7c68",
+  "classified_at": "2026-07-01T17:17:18.551243+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5078,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 12,
+      "knowledge-grade": 24,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": false,
+    "message_count": 8
+  },
+  "rationale": "The conversation functions as a structured expert consultation, synthesizing developmental psychology and occupational therapy principles into a actionable framework for parenting a sensory-seeking toddler. It provides a repeatable methodology for activity selection and behavioral boundary setting.",
+  "extraction_value": 8,
+  "expert_named": "Pediatric Occupational Therapy and Developmental Psychology Panel",
+  "reusable_asset": true,
+  "title": "Sensory-Seeking Toddler: Stimulating Activities",
+  "md_path": ".tmp/claude-export/normalized/conversations/61dd427f-530d-4fab-940a-65f8c82c7c68.md",
+  "recommended_route": "extract-forge"
+}

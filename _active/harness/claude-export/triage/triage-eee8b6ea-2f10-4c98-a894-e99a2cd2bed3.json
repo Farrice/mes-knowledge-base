@@ -1,0 +1,31 @@
+{
+  "conversation_id": "eee8b6ea-2f10-4c98-a894-e99a2cd2bed3",
+  "classified_at": "2026-07-01T17:17:39.725142+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 16533,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 113,
+      "knowledge-grade": 36,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 9
+    },
+    "expert_hits": [
+      "connelly"
+    ],
+    "code_blocks": 2,
+    "has_attachments": true,
+    "message_count": 24
+  },
+  "rationale": "The conversation documents a sophisticated, repeatable methodology for distilling expert knowledge into deployable system prompts and mastery pathways. It functions as a meta-framework for knowledge engineering.",
+  "extraction_value": 9,
+  "expert_named": "Connelly",
+  "reusable_asset": true,
+  "title": "Automating Expert Knowledge Extraction",
+  "md_path": ".tmp/claude-export/normalized/conversations/eee8b6ea-2f10-4c98-a894-e99a2cd2bed3.md",
+  "recommended_route": "extract-forge"
+}

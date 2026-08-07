@@ -1,0 +1,29 @@
+{
+  "conversation_id": "538b1c8b-a205-40bb-bd8e-17a6471d3f18",
+  "classified_at": "2026-07-01T16:57:32.178533+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 14385,
+    "marker_hits": {
+      "prompt-tool-grade": 15,
+      "extraction-grade": 9,
+      "knowledge-grade": 26,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 14
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The user is setting up a system prompt to transform the AI into an expert on prompt engineering based on a specific source transcript. This is a classic example of creating a reusable persona/tool for future interactions.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Extracting Insights from Diverse Data Sources",
+  "md_path": ".tmp/claude-export/normalized/conversations/538b1c8b-a205-40bb-bd8e-17a6471d3f18.md",
+  "recommended_route": "convert-prompt"
+}

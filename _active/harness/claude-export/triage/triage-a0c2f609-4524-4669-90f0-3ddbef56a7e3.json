@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a0c2f609-4524-4669-90f0-3ddbef56a7e3",
+  "classified_at": "2026-07-01T17:14:09.339051+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 23831,
+    "marker_hits": {
+      "prompt-tool-grade": 10,
+      "extraction-grade": 80,
+      "knowledge-grade": 154,
+      "personal-context-grade": 18,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 13
+  },
+  "rationale": "The user is systematically reverse-engineering a high-performing knowledge transfer workflow into a repeatable framework (KACE-OHKIF). This involves extracting structural methodologies, prompt patterns, and knowledge architecture principles from a successful interaction to create a reusable system.",
+  "extraction_value": 9,
+  "expert_named": "KACE-OHKIF Unified Knowledge Architecture Framework",
+  "reusable_asset": true,
+  "title": "Reverse Engineering a Comprehensive Knowledge Transfer System",
+  "md_path": ".tmp/claude-export/normalized/conversations/a0c2f609-4524-4669-90f0-3ddbef56a7e3.md",
+  "recommended_route": "extract-forge"
+}

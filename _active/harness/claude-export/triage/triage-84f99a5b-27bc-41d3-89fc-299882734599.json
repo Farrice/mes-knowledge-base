@@ -1,0 +1,29 @@
+{
+  "conversation_id": "84f99a5b-27bc-41d3-89fc-299882734599",
+  "classified_at": "2026-07-01T16:53:05.310273+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2665,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 12,
+      "knowledge-grade": 16,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 6,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation is a structured prompt engineering exercise where the user iterates on a specific system prompt ('Coach Fresh 5.0'). The output is a highly refined, reusable system instruction set for an AI agent, making it a clear prompt-tool-grade asset.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Enhancing Coach Fresh 5.0 AI Agent Prompts for Optimal Performance",
+  "md_path": ".tmp/claude-export/normalized/conversations/84f99a5b-27bc-41d3-89fc-299882734599.md",
+  "recommended_route": "convert-prompt"
+}

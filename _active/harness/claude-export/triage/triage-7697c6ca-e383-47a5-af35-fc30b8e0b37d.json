@@ -1,0 +1,29 @@
+{
+  "conversation_id": "7697c6ca-e383-47a5-af35-fc30b8e0b37d",
+  "classified_at": "2026-07-01T17:03:12.696488+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1239,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 8,
+      "knowledge-grade": 9,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 10,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user has defined a sophisticated, multi-layered analytical framework for psychological profiling and brand voice analysis. This is a repeatable methodology that can be applied to any brand voice guide to extract deep psychological insights, making it a high-value extraction-grade asset.",
+  "extraction_value": 9,
+  "expert_named": "Psychological Linguistics and Behavioral Analyst",
+  "reusable_asset": true,
+  "title": "Uncovering Hidden Psychological Patterns",
+  "md_path": ".tmp/claude-export/normalized/conversations/7697c6ca-e383-47a5-af35-fc30b8e0b37d.md",
+  "recommended_route": "extract-forge"
+}

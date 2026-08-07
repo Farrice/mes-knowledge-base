@@ -1,0 +1,32 @@
+{
+  "conversation_id": "d07aa27a-50c0-47e7-8e32-9eb86d881aba",
+  "classified_at": "2026-07-01T16:56:02.122036+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 102591,
+    "marker_hits": {
+      "prompt-tool-grade": 12,
+      "extraction-grade": 8,
+      "knowledge-grade": 5,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 15
+    },
+    "expert_hits": [
+      "godin",
+      "roth"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 24
+  },
+  "rationale": "The user successfully transformed a specific book (Everybody Writes) into a functional expert persona and knowledge base, which was then applied to a practical marketing project. This represents a high-value extraction of methodology into a reusable persona.",
+  "extraction_value": 9,
+  "expert_named": "Ann Handley",
+  "reusable_asset": true,
+  "title": "Embodying \"Everybody Writes\" Expertise",
+  "md_path": ".tmp/claude-export/normalized/conversations/d07aa27a-50c0-47e7-8e32-9eb86d881aba.md",
+  "recommended_route": "extract-forge"
+}

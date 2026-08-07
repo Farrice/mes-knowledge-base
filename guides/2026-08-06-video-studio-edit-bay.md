@@ -122,7 +122,7 @@ python3 execution/broll_source.py fetch --id pexels:12345 --project <slug> --tag
 | Stacks with | What it adds | When it earns its cost |
 |---|---|---|
 | `skills/remotion-video-creation/` (34 rules) | Full programmatic comps: charts, maps, caption pipelines; `rules/high-retention-editing.md` is the pacing law | Data-heavy or full-frame graphic beats |
-| HyperFrames (`_active/hyperframes-studio/`, cloned) | HTML overlay graphics on real footage, no build step | Once inspected and wired — lower thirds and callouts |
+| HyperFrames (`_active/video-studio/hyperframes-studio/`, cloned) | HTML overlay graphics on real footage, no build step | Once inspected and wired — lower thirds and callouts |
 | `skills/brad-bonanno-explainer-architecture` | What to *say* — explainer structure, demo discipline, trust anchors | Planning a video before annotating the script |
 | `skills/jenny-hoyos-shorts` | Shorts grammar for `derive-shorts.md` | Cutting verticals from a finished long-form |
 | `/generate` + craft-map masters | Generated B-roll with real direction (cinema-worldbuilder, Dave Clark flatness audit) | Rung 4 only, when nothing else can serve the beat |

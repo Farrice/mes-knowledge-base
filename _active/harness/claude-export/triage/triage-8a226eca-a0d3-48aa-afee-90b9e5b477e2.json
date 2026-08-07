@@ -1,0 +1,29 @@
+{
+  "conversation_id": "8a226eca-a0d3-48aa-afee-90b9e5b477e2",
+  "classified_at": "2026-07-01T16:45:48.508672+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.9,
+  "heuristic_score": 77.6,
+  "signals": {
+    "word_count": 1885,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 2,
+      "knowledge-grade": 9,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 4
+  },
+  "rationale": "The conversation provides a structured analysis and comparison of consumer products (car seats) based on specific constraints (vehicle type, child age, space requirements). While it provides useful research and decision-making support, it is a one-off lookup rather than a reusable tool or methodology.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Compact Convertible Car Seat for 8-Month-Old",
+  "md_path": ".tmp/claude-export/normalized/conversations/8a226eca-a0d3-48aa-afee-90b9e5b477e2.md",
+  "recommended_route": "ingest-only"
+}

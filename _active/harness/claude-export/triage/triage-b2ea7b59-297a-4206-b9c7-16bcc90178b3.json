@@ -1,0 +1,29 @@
+{
+  "conversation_id": "b2ea7b59-297a-4206-b9c7-16bcc90178b3",
+  "classified_at": "2026-07-01T16:45:48.506966+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.9,
+  "heuristic_score": 70.4,
+  "signals": {
+    "word_count": 469,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 13,
+      "knowledge-grade": 2,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 2
+  },
+  "rationale": "The conversation outlines a structured methodology for building a Personal Knowledge Management (PKM) system in Notion, focusing on systematic extraction workflows for books and PDFs.",
+  "extraction_value": 8,
+  "expert_named": "Dr. Sophia Chen",
+  "reusable_asset": true,
+  "title": "Personal Knowledge Repository in Notion",
+  "md_path": ".tmp/claude-export/normalized/conversations/b2ea7b59-297a-4206-b9c7-16bcc90178b3.md",
+  "recommended_route": "extract-forge"
+}

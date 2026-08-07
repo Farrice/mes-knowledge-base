@@ -1,0 +1,29 @@
+{
+  "conversation_id": "feaaa2d9-7f5d-475a-87a6-f0d4cf06ecd1",
+  "classified_at": "2026-07-01T16:56:10.686083+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 18499,
+    "marker_hits": {
+      "prompt-tool-grade": 159,
+      "extraction-grade": 19,
+      "knowledge-grade": 126,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 24
+  },
+  "rationale": "The conversation is heavily focused on refining a sophisticated, multi-stage prompt system for buyer persona development. The user is building a reusable framework for AI-assisted innovation, making it a clear prompt-tool-grade asset.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Developing Buyer Personas for Digital Product Sales",
+  "md_path": ".tmp/claude-export/normalized/conversations/feaaa2d9-7f5d-475a-87a6-f0d4cf06ecd1.md",
+  "recommended_route": "convert-prompt"
+}

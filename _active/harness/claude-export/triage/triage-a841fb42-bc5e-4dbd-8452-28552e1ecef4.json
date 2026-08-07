@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a841fb42-bc5e-4dbd-8452-28552e1ecef4",
+  "classified_at": "2026-07-01T16:55:23.404721+00:00",
+  "classified_by": "llm",
+  "bucket": "personal-context-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3936,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 5,
+      "knowledge-grade": 18,
+      "personal-context-grade": 22,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 4
+  },
+  "rationale": "The conversation is primarily focused on establishing the user's personal and professional context, including family dynamics, time constraints, and the spouse's business structure. While it touches on business strategy, the core value is the detailed personal profile provided.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Building a Sustainable Online Income Stream",
+  "md_path": ".tmp/claude-export/normalized/conversations/a841fb42-bc5e-4dbd-8452-28552e1ecef4.md",
+  "recommended_route": "ingest-only"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "d77a6109-75cd-42c1-b62a-60bff563ee91",
+  "classified_at": "2026-07-01T17:05:13.501550+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 9257,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 4,
+      "knowledge-grade": 17,
+      "personal-context-grade": 8,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 62,
+    "has_attachments": true,
+    "message_count": 30
+  },
+  "rationale": "The conversation is a deep-dive synthesis of pediatric sleep advice, specifically tailored to a 13-month-old's developmental stage and teething challenges. It provides actionable, structured frameworks for sleep schedules and behavioral management, making it a high-value knowledge resource.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Helping 13-Month-Old Sleep Through the Night",
+  "md_path": ".tmp/claude-export/normalized/conversations/d77a6109-75cd-42c1-b62a-60bff563ee91.md",
+  "recommended_route": "convert-prompt"
+}

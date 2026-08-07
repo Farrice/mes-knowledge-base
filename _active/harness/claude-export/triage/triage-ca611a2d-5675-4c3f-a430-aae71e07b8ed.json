@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ca611a2d-5675-4c3f-a430-aae71e07b8ed",
+  "classified_at": "2026-07-01T17:13:35.087365+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 7722,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 58,
+      "knowledge-grade": 67,
+      "personal-context-grade": 35,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 23,
+    "has_attachments": false,
+    "message_count": 24
+  },
+  "rationale": "The conversation focuses on refining a meta-prompting framework (PROSE) to improve the interaction between a non-technical domain expert and a technical prompt engineer. The output is a highly reusable system instruction set designed to govern future project development.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Optimizing a Technical Prompt for a Collaborative Project",
+  "md_path": ".tmp/claude-export/normalized/conversations/ca611a2d-5675-4c3f-a430-aae71e07b8ed.md",
+  "recommended_route": "convert-prompt"
+}

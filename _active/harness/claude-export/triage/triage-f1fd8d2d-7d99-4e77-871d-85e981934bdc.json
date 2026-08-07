@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f1fd8d2d-7d99-4e77-871d-85e981934bdc",
+  "classified_at": "2026-07-01T17:08:31.569474+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 13402,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 33,
+      "knowledge-grade": 99,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 26,
+    "has_attachments": true,
+    "message_count": 50
+  },
+  "rationale": "The conversation involves a systematic application of a specific 'Offer Transformation' framework across 50 messages. The user is refining a high-ticket offer using a structured methodology, resulting in a repeatable process for crafting marketing copy.",
+  "extraction_value": 9,
+  "expert_named": "Premium Authority Transformation System",
+  "reusable_asset": true,
+  "title": "Analyzing Profitable Offer Skills",
+  "md_path": ".tmp/claude-export/normalized/conversations/f1fd8d2d-7d99-4e77-871d-85e981934bdc.md",
+  "recommended_route": "extract-forge"
+}

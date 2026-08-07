@@ -1,0 +1,29 @@
+{
+  "conversation_id": "28b01df6-f131-492b-862b-5a55d3123e67",
+  "classified_at": "2026-07-01T16:52:05.705031+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3202,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 4,
+      "knowledge-grade": 14,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 3,
+    "has_attachments": false,
+    "message_count": 6
+  },
+  "rationale": "The user is explicitly developing a structured toolkit of prompts for commercial resale, focusing on system-level prompt engineering and iterative refinement of a specific copywriting framework.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Supercharged Copywriting Prompts for Digital Marketing",
+  "md_path": ".tmp/claude-export/normalized/conversations/28b01df6-f131-492b-862b-5a55d3123e67.md",
+  "recommended_route": "convert-prompt"
+}

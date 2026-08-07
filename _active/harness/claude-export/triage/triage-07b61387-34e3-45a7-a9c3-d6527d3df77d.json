@@ -1,0 +1,29 @@
+{
+  "conversation_id": "07b61387-34e3-45a7-a9c3-d6527d3df77d",
+  "classified_at": "2026-07-01T16:56:44.983994+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 11333,
+    "marker_hits": {
+      "prompt-tool-grade": 13,
+      "extraction-grade": 22,
+      "knowledge-grade": 38,
+      "personal-context-grade": 11,
+      "project-deliverable-grade": 19
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 12
+  },
+  "rationale": "The user is actively refining a meta-prompting system designed to generate high-quality, persona-driven prompts. The conversation focuses on structural improvements to how an AI maintains expert nuance across a prompt-generation workflow, making it a highly reusable asset for prompt engineering.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Emotion-Enhancing Customized AI Instructions",
+  "md_path": ".tmp/claude-export/normalized/conversations/07b61387-34e3-45a7-a9c3-d6527d3df77d.md",
+  "recommended_route": "convert-prompt"
+}

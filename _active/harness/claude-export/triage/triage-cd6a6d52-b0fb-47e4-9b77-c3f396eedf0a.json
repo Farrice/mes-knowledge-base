@@ -1,0 +1,29 @@
+{
+  "conversation_id": "cd6a6d52-b0fb-47e4-9b77-c3f396eedf0a",
+  "classified_at": "2026-07-01T17:13:47.890053+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2987,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 12,
+      "knowledge-grade": 28,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The conversation involves the systematic application of a business framework (likely a high-ticket offer design methodology) to a specific fitness coaching business model. It extracts core value propositions, ICP definitions, and pricing structures into a structured format.",
+  "extraction_value": 8,
+  "expert_named": "None",
+  "reusable_asset": true,
+  "title": "Executive Fitness Coaching for Successful Professionals",
+  "md_path": ".tmp/claude-export/normalized/conversations/cd6a6d52-b0fb-47e4-9b77-c3f396eedf0a.md",
+  "recommended_route": "extract-forge"
+}

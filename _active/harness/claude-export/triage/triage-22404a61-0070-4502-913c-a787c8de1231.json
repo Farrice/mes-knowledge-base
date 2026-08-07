@@ -1,0 +1,29 @@
+{
+  "conversation_id": "22404a61-0070-4502-913c-a787c8de1231",
+  "classified_at": "2026-07-01T16:55:13.905710+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2735,
+    "marker_hits": {
+      "prompt-tool-grade": 17,
+      "extraction-grade": 19,
+      "knowledge-grade": 9,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is refining a meta-prompt framework designed to generate other prompts. This is a classic example of a reusable system prompt or tool-building exercise.",
+  "extraction_value": 8,
+  "expert_named": "Ultimate Golden Prompt Formula 2.0",
+  "reusable_asset": true,
+  "title": "Enhancing Prompt Engineering for Effective AI Interactions",
+  "md_path": ".tmp/claude-export/normalized/conversations/22404a61-0070-4502-913c-a787c8de1231.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "31a3e414-5eb7-4263-aae6-665ec0bbebbc",
+  "classified_at": "2026-07-01T17:14:48.203675+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 12372,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 16,
+      "knowledge-grade": 47,
+      "personal-context-grade": 13,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 21,
+    "has_attachments": true,
+    "message_count": 21
+  },
+  "rationale": "The user successfully prompted the model to act as a 'Neuropsychological Viral Engineering System' to deconstruct content strategy into repeatable frameworks. The output provides a structured methodology for content creation that can be applied to any niche, making it a high-value extraction of expert-level strategy.",
+  "extraction_value": 9,
+  "expert_named": "Neuropsychological Viral Engineering System",
+  "reusable_asset": true,
+  "title": "Viral LinkedIn Fitness Transformation Coaching Strategies",
+  "md_path": ".tmp/claude-export/normalized/conversations/31a3e414-5eb7-4263-aae6-665ec0bbebbc.md",
+  "recommended_route": "extract-forge"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "2a6d90ec-118c-493a-ac61-552a56155080",
+  "classified_at": "2026-07-01T16:52:30.862874+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 7614,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 8,
+      "knowledge-grade": 49,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 16,
+    "has_attachments": true,
+    "message_count": 11
+  },
+  "rationale": "The user is refining and implementing a complex system prompt ('Coach Fresh 5.2') designed to act as an orchestrator and mentor. The conversation focuses on the structural design, command integration, and behavioral guidelines of this AI agent, making it a highly reusable prompt-tool asset.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Seeking Collaborative AI Experts for Real-Time Assistance",
+  "md_path": ".tmp/claude-export/normalized/conversations/2a6d90ec-118c-493a-ac61-552a56155080.md",
+  "recommended_route": "convert-prompt"
+}

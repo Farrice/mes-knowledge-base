@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a87287cb-4e77-491d-89dd-0a087000a646",
+  "classified_at": "2026-07-01T16:53:26.725756+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3274,
+    "marker_hits": {
+      "prompt-tool-grade": 5,
+      "extraction-grade": 11,
+      "knowledge-grade": 6,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 9
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": false,
+    "message_count": 8
+  },
+  "rationale": "The conversation focuses on engineering a high-quality, reusable prompt structure for literary and screenwriting analysis. It provides a template for extracting actionable insights from books, which is a highly reusable asset for writers and researchers.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Optimized Prompt and Sequences for Literary Analysis",
+  "md_path": ".tmp/claude-export/normalized/conversations/a87287cb-4e77-491d-89dd-0a087000a646.md",
+  "recommended_route": "convert-prompt"
+}

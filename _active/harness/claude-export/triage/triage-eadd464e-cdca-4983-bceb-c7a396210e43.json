@@ -1,0 +1,29 @@
+{
+  "conversation_id": "eadd464e-cdca-4983-bceb-c7a396210e43",
+  "classified_at": "2026-07-01T16:56:32.019100+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2927,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 6,
+      "knowledge-grade": 17,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is actively refining a complex system prompt to improve its operational efficiency and interaction flow. The output is a direct optimization of a reusable system instruction set, making it a high-value prompt-tool asset.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Streamlining Complex System Instructions",
+  "md_path": ".tmp/claude-export/normalized/conversations/eadd464e-cdca-4983-bceb-c7a396210e43.md",
+  "recommended_route": "convert-prompt"
+}

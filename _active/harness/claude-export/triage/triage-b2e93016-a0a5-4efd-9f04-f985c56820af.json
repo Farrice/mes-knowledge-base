@@ -1,0 +1,29 @@
+{
+  "conversation_id": "b2e93016-a0a5-4efd-9f04-f985c56820af",
+  "classified_at": "2026-07-01T17:00:08.282065+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 35667,
+    "marker_hits": {
+      "prompt-tool-grade": 156,
+      "extraction-grade": 4,
+      "knowledge-grade": 25,
+      "personal-context-grade": 34,
+      "project-deliverable-grade": 9
+    },
+    "expert_hits": [],
+    "code_blocks": 4,
+    "has_attachments": false,
+    "message_count": 94
+  },
+  "rationale": "The conversation is a highly iterative, multi-turn development process aimed at building a sophisticated, reusable prompt suite for buyer persona creation. It functions as a meta-prompting exercise to generate a tool for future marketing and product development.",
+  "extraction_value": 9,
+  "expert_named": "Dr. Emilia Cortez",
+  "reusable_asset": true,
+  "title": "!!Very Important!!-Crafting a Transformative Buyer Persona",
+  "md_path": ".tmp/claude-export/normalized/conversations/b2e93016-a0a5-4efd-9f04-f985c56820af.md",
+  "recommended_route": "convert-prompt"
+}

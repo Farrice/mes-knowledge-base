@@ -1,0 +1,29 @@
+{
+  "conversation_id": "4f86f425-03b5-40ba-a120-89a2b22ba7df",
+  "classified_at": "2026-07-01T16:51:27.378017+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2708,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 12,
+      "knowledge-grade": 101,
+      "personal-context-grade": 8,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 4
+  },
+  "rationale": "The user is requesting a comprehensive, robust, and repeatable process for AI-driven market research. This constitutes a methodology or framework that can be codified into a structured workflow for entrepreneurial decision-making.",
+  "extraction_value": 9,
+  "expert_named": "AI-Driven Entrepreneurial Market Research Framework",
+  "reusable_asset": true,
+  "title": "Leveraging AI for Informed Entrepreneurial Decisions",
+  "md_path": ".tmp/claude-export/normalized/conversations/4f86f425-03b5-40ba-a120-89a2b22ba7df.md",
+  "recommended_route": "extract-forge"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ead6680b-1ae6-48b5-8891-5978f7c55180",
+  "classified_at": "2026-07-01T17:07:48.176266+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 8732,
+    "marker_hits": {
+      "prompt-tool-grade": 5,
+      "extraction-grade": 53,
+      "knowledge-grade": 135,
+      "personal-context-grade": 18,
+      "project-deliverable-grade": 12
+    },
+    "expert_hits": [],
+    "code_blocks": 14,
+    "has_attachments": true,
+    "message_count": 16
+  },
+  "rationale": "The user is extracting a specific business methodology ('no-sales-call business model') from a transcript and formalizing it into a repeatable framework ('Premium Content Transformation'). The assistant is actively building a system of prompts to apply this methodology, making it a clear extraction-grade task.",
+  "extraction_value": 8,
+  "expert_named": "Premium Content Transformation",
+  "reusable_asset": true,
+  "title": "Tom Noske-I made $1M+ in 2024 without a single sales call",
+  "md_path": ".tmp/claude-export/normalized/conversations/ead6680b-1ae6-48b5-8891-5978f7c55180.md",
+  "recommended_route": "extract-forge"
+}

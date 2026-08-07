@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a536c0d6-aaec-4feb-abe7-1d58770528de",
+  "classified_at": "2026-07-01T17:02:59.752776+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6010,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 26,
+      "knowledge-grade": 48,
+      "personal-context-grade": 10,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 12,
+    "has_attachments": false,
+    "message_count": 22
+  },
+  "rationale": "The conversation culminates in the creation of a sophisticated, reusable system prompt designed to generate high-converting copywriting based on psychological frameworks. It functions as a tool for the user to apply across various projects.",
+  "extraction_value": 9,
+  "expert_named": "Brain Glue",
+  "reusable_asset": true,
+  "title": "Crafting Resonant Copywriting Prompts",
+  "md_path": ".tmp/claude-export/normalized/conversations/a536c0d6-aaec-4feb-abe7-1d58770528de.md",
+  "recommended_route": "convert-prompt"
+}

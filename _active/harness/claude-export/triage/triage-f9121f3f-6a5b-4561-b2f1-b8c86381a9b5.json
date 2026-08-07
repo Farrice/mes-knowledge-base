@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f9121f3f-6a5b-4561-b2f1-b8c86381a9b5",
+  "classified_at": "2026-07-01T17:12:56.506620+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 13379,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 30,
+      "knowledge-grade": 142,
+      "personal-context-grade": 32,
+      "project-deliverable-grade": 6
+    },
+    "expert_hits": [],
+    "code_blocks": 30,
+    "has_attachments": true,
+    "message_count": 20
+  },
+  "rationale": "The conversation involves a structured research process and the development of a proprietary 'Lead Magnet Selection Matrix' and 'Brave Transformer Assessment' framework, which are highly reusable methodologies for content strategy.",
+  "extraction_value": 9,
+  "expert_named": "Brave Transformer Framework",
+  "reusable_asset": true,
+  "title": "Transformative Coaching Content Strategies",
+  "md_path": ".tmp/claude-export/normalized/conversations/f9121f3f-6a5b-4561-b2f1-b8c86381a9b5.md",
+  "recommended_route": "extract-forge"
+}

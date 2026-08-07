@@ -1,0 +1,29 @@
+{
+  "conversation_id": "0fe14eb4-021e-42e0-98c6-34c79948526b",
+  "classified_at": "2026-07-01T17:15:52.238671+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 1.0,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 31126,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 38,
+      "knowledge-grade": 20,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 15
+  },
+  "rationale": "The conversation is a structured implementation of the KACE (Knowledge Acquisition & Command Encapsulation) framework, designed to turn raw content into reusable mastery pathways and expert prompts. It functions as a meta-framework for knowledge extraction.",
+  "extraction_value": 9,
+  "expert_named": "KACE Framework",
+  "reusable_asset": true,
+  "title": "Copy Blocks: Fast Track and Slides Extraction (Massive List of Zero-shot Prompts)",
+  "md_path": ".tmp/claude-export/normalized/conversations/0fe14eb4-021e-42e0-98c6-34c79948526b.md",
+  "recommended_route": "extract-forge"
+}

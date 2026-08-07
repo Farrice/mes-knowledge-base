@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ea6a864b-0fa3-47ac-b9c8-3b674bf74a43",
+  "classified_at": "2026-07-01T16:54:05.382740+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 53025,
+    "marker_hits": {
+      "prompt-tool-grade": 6,
+      "extraction-grade": 4,
+      "knowledge-grade": 16,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 9
+  },
+  "rationale": "The conversation involves a comprehensive extraction and synthesis of fitness principles from a specific book (Brad Schoenfeld's 'Strong & Sculpted'). It serves as a high-quality knowledge repository of training methodologies.",
+  "extraction_value": 8,
+  "expert_named": "Brad Schoenfeld",
+  "reusable_asset": true,
+  "title": "Detailed Summary of Key Fitness Principles from \"Strong & Sculpted\"",
+  "md_path": ".tmp/claude-export/normalized/conversations/ea6a864b-0fa3-47ac-b9c8-3b674bf74a43.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,32 @@
+{
+  "conversation_id": "7a05ceaa-926a-4be5-8d7d-0a6e81559312",
+  "classified_at": "2026-07-01T17:16:48.215198+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 10521,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 44,
+      "knowledge-grade": 29,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [
+      "kallaway",
+      "roth"
+    ],
+    "code_blocks": 15,
+    "has_attachments": true,
+    "message_count": 16
+  },
+  "rationale": "The conversation extracts a specific methodology for content creation (hook psychology) from a transcript and applies it to a new context (The Resilience Code), resulting in a structured framework for writing viral hooks.",
+  "extraction_value": 9,
+  "expert_named": "Kallaway",
+  "reusable_asset": true,
+  "title": "Kallaway: How to Create Irresistible Hooks (and blow up your content)",
+  "md_path": ".tmp/claude-export/normalized/conversations/7a05ceaa-926a-4be5-8d7d-0a6e81559312.md",
+  "recommended_route": "extract-forge"
+}

@@ -1,0 +1,31 @@
+{
+  "conversation_id": "ef30fb57-f62f-4eb5-9bef-f4bd23ebb1d5",
+  "classified_at": "2026-07-01T16:56:36.363741+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 45396,
+    "marker_hits": {
+      "prompt-tool-grade": 12,
+      "extraction-grade": 0,
+      "knowledge-grade": 17,
+      "personal-context-grade": 10,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [
+      "roth"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The user provided a highly structured, multi-step prompt designed to transform a specific book into a pedagogical tool, including persona adoption, Socratic dialogue, and practical application scenarios. This is a classic example of a reusable system prompt or 'meta-prompt' for knowledge synthesis.",
+  "extraction_value": 8,
+  "expert_named": "James I. Bond",
+  "reusable_asset": true,
+  "title": "Transforming Knowledge into Thought Leadership",
+  "md_path": ".tmp/claude-export/normalized/conversations/ef30fb57-f62f-4eb5-9bef-f4bd23ebb1d5.md",
+  "recommended_route": "convert-prompt"
+}

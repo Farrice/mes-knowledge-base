@@ -1,0 +1,31 @@
+{
+  "conversation_id": "a4189bdb-2806-4ab5-8e1b-edcaf9b55d89",
+  "classified_at": "2026-07-01T16:52:13.977175+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 40598,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 4,
+      "knowledge-grade": 29,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "iha"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 6
+  },
+  "rationale": "The user successfully extracted a complex, proprietary methodology ('Integrated Copywriting Mastery System') from a raw transcript. The assistant synthesized this into a structured framework with diagnostic questions, effectively turning unstructured meeting data into a reusable pedagogical tool.",
+  "extraction_value": 9,
+  "expert_named": "Integrated Copywriting Mastery System",
+  "reusable_asset": true,
+  "title": "Transforming Transcript into Learning Journey",
+  "md_path": ".tmp/claude-export/normalized/conversations/a4189bdb-2806-4ab5-8e1b-edcaf9b55d89.md",
+  "recommended_route": "extract-forge"
+}

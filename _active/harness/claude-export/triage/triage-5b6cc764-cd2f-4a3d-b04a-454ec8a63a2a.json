@@ -1,0 +1,31 @@
+{
+  "conversation_id": "5b6cc764-cd2f-4a3d-b04a-454ec8a63a2a",
+  "classified_at": "2026-07-01T17:10:49.097575+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 27934,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 2,
+      "knowledge-grade": 7,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "roth"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation successfully extracts a specific, high-value methodology (Shaan Puri's storytelling framework) from a transcript and formalizes it into a structured, actionable system. It goes beyond simple summarization by creating a theoretical framework and implementation guide.",
+  "extraction_value": 9,
+  "expert_named": "Shaan Puri",
+  "reusable_asset": true,
+  "title": "Shaan Puri-Masterclass in Storytelling (for beginners)",
+  "md_path": ".tmp/claude-export/normalized/conversations/5b6cc764-cd2f-4a3d-b04a-454ec8a63a2a.md",
+  "recommended_route": "extract-forge"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f1a5b906-d6d5-4af3-abaa-5a13f8a3da8f",
+  "classified_at": "2026-07-01T16:58:38.107013+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4171,
+    "marker_hits": {
+      "prompt-tool-grade": 11,
+      "extraction-grade": 20,
+      "knowledge-grade": 23,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The user is refining a complex, multi-step system prompt designed to function as a meta-prompting framework for ChatGPT/Custom GPTs. It is a highly reusable asset intended to govern AI behavior across multiple sessions.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Optimizing Custom Instructions for ChatGPT",
+  "md_path": ".tmp/claude-export/normalized/conversations/f1a5b906-d6d5-4af3-abaa-5a13f8a3da8f.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "cd863632-c47f-4c6d-8c26-23e5bfefd783",
+  "classified_at": "2026-07-01T17:03:17.864890+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5054,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 16,
+      "knowledge-grade": 37,
+      "personal-context-grade": 31,
+      "project-deliverable-grade": 10
+    },
+    "expert_hits": [],
+    "code_blocks": 12,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation successfully extracts a unique linguistic fingerprint and brand voice from raw user content, codifying it into a reusable style guide. This methodology for voice extraction and documentation is a high-value asset for content creation.",
+  "extraction_value": 9,
+  "expert_named": "Linguistic Brand Voice Architect",
+  "reusable_asset": true,
+  "title": "Linguistic Analysis and Personal Branding Style Guide",
+  "md_path": ".tmp/claude-export/normalized/conversations/cd863632-c47f-4c6d-8c26-23e5bfefd783.md",
+  "recommended_route": "extract-forge"
+}

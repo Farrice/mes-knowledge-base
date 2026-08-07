@@ -1,0 +1,32 @@
+{
+  "conversation_id": "58092c44-ab00-4e3b-90fd-43c03bf4ee4b",
+  "classified_at": "2026-07-01T16:58:46.848266+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 44413,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 7,
+      "knowledge-grade": 49,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "cole",
+      "iha"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 16
+  },
+  "rationale": "The user provided a structured prompt to extract a comprehensive study guide from a large course transcript. The output is a highly organized, reusable knowledge asset derived from expert-level copywriting material.",
+  "extraction_value": 9,
+  "expert_named": "Cole, Iha",
+  "reusable_asset": true,
+  "title": "Day 2- Ai Avatar Copywriting Study Guide Extraction",
+  "md_path": ".tmp/claude-export/normalized/conversations/58092c44-ab00-4e3b-90fd-43c03bf4ee4b.md",
+  "recommended_route": "extract-forge"
+}

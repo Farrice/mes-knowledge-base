@@ -33,7 +33,7 @@ pin: true
   - Memories written: `project_video-studio-edit-bay.md` + MEMORY.md row; `feedback_visual-tool-routing.md` updated for the retirement.
   - Commits on main: `7d43c4fb6` (build) · `ea01feaa3` (close-out) · `c8f605811` (taste layer) — pushed.
 - **What is uncertain or stale:**
-  - **HyperFrames is cloned but NOT wired** (`_active/hyperframes-studio/`, gitignored) — needs inspection before the overlay lane is real. Remotion remains the working comp engine meanwhile.
+  - **HyperFrames is cloned but NOT wired** (`_active/video-studio/hyperframes-studio/`, gitignored) — needs inspection before the overlay lane is real. Remotion remains the working comp engine meanwhile.
   - Stock B-roll is **untested** — `broll_source.py` has never made a live API call (no keys yet).
   - 9:16 export is naive center-crop (fine for talking-head, wrong for screen recordings) — subject-aware reframe is a known v2.
   - `graphics-taste.md` rules have never been exercised on a real comp; first pilot will show whether they bite or need sharpening.

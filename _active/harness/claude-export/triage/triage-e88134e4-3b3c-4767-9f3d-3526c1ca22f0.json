@@ -1,0 +1,29 @@
+{
+  "conversation_id": "e88134e4-3b3c-4767-9f3d-3526c1ca22f0",
+  "classified_at": "2026-07-01T16:45:48.505837+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3028,
+    "marker_hits": {
+      "prompt-tool-grade": 12,
+      "extraction-grade": 2,
+      "knowledge-grade": 17,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 10
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The user is refining a complex system prompt designed to govern AI behavior for prompt engineering tasks. The conversation focuses on optimizing the structure, grounding the instructions in LLM capabilities, and improving the functional output of the custom instructions themselves.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Optimizing Custom AI Instructions",
+  "md_path": ".tmp/claude-export/normalized/conversations/e88134e4-3b3c-4767-9f3d-3526c1ca22f0.md",
+  "recommended_route": "convert-prompt"
+}

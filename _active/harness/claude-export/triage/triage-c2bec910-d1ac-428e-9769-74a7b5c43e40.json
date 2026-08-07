@@ -1,0 +1,29 @@
+{
+  "conversation_id": "c2bec910-d1ac-428e-9769-74a7b5c43e40",
+  "classified_at": "2026-07-01T16:56:19.287125+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 9586,
+    "marker_hits": {
+      "prompt-tool-grade": 29,
+      "extraction-grade": 32,
+      "knowledge-grade": 31,
+      "personal-context-grade": 8,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 10
+  },
+  "rationale": "The conversation is a structured development of a prompt suite designed to transform book content into an LLM-ready knowledge base. It results in a reusable system of prompts for personal knowledge management and AI training, fitting the prompt-tool-grade definition perfectly.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Enhancing Prompt Design for AI Assistance",
+  "md_path": ".tmp/claude-export/normalized/conversations/c2bec910-d1ac-428e-9769-74a7b5c43e40.md",
+  "recommended_route": "convert-prompt"
+}

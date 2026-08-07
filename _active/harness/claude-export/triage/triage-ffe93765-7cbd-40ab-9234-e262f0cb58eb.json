@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ffe93765-7cbd-40ab-9234-e262f0cb58eb",
+  "classified_at": "2026-07-01T17:09:52.568158+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3393,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 12,
+      "knowledge-grade": 21,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 4,
+    "has_attachments": true,
+    "message_count": 3
+  },
+  "rationale": "The conversation involves a structured methodology for business transformation and high-ticket client acquisition, utilizing a specific 'VOC + conversion' framework. It functions as a repeatable expert-led process for content creation.",
+  "extraction_value": 8,
+  "expert_named": "Premium Performance Campaign Methodology",
+  "reusable_asset": true,
+  "title": "Transforming Fitness Business to Attract High-Ticket Clients",
+  "md_path": ".tmp/claude-export/normalized/conversations/ffe93765-7cbd-40ab-9234-e262f0cb58eb.md",
+  "recommended_route": "extract-forge"
+}

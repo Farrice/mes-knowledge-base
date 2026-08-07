@@ -1,0 +1,29 @@
+{
+  "conversation_id": "dd9730a3-345b-4ddc-bf82-57766f41206d",
+  "classified_at": "2026-07-01T17:12:40.305059+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 9217,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 21,
+      "knowledge-grade": 20,
+      "personal-context-grade": 11,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 60,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user provided a sophisticated, multi-step system prompt designed to act as a 'Viral Content Creation System'. The conversation is essentially the deployment of this reusable framework to optimize specific content, making the prompt itself the primary asset.",
+  "extraction_value": 8,
+  "expert_named": "Viral Content Creation System",
+  "reusable_asset": true,
+  "title": "Is a $2M Miami Beach Condo Worth It?",
+  "md_path": ".tmp/claude-export/normalized/conversations/dd9730a3-345b-4ddc-bf82-57766f41206d.md",
+  "recommended_route": "convert-prompt"
+}

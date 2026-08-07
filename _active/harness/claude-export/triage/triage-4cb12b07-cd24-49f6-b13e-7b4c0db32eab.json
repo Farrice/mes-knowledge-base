@@ -1,0 +1,29 @@
+{
+  "conversation_id": "4cb12b07-cd24-49f6-b13e-7b4c0db32eab",
+  "classified_at": "2026-07-01T16:59:03.849733+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1789,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 12,
+      "knowledge-grade": 12,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is actively refining a system prompt designed to govern the AI's behavior for prompt engineering tasks. This is a meta-prompting tool intended for reuse across future sessions.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Enhancing Custom Prompt Instructions",
+  "md_path": ".tmp/claude-export/normalized/conversations/4cb12b07-cd24-49f6-b13e-7b4c0db32eab.md",
+  "recommended_route": "convert-prompt"
+}

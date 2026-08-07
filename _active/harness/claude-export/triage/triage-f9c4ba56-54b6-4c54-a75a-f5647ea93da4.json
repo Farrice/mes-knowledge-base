@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f9c4ba56-54b6-4c54-a75a-f5647ea93da4",
+  "classified_at": "2026-07-01T16:54:39.791124+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 20753,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 0,
+      "knowledge-grade": 6,
+      "personal-context-grade": 45,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation involves extracting a structured methodology (Miles Beckler's Niche Navigator framework) from a provided document. This is a clear example of distilling expert-led instructional content into a reusable process.",
+  "extraction_value": 8,
+  "expert_named": "Miles Beckler",
+  "reusable_asset": true,
+  "title": "Profitable Niche Selection Process",
+  "md_path": ".tmp/claude-export/normalized/conversations/f9c4ba56-54b6-4c54-a75a-f5647ea93da4.md",
+  "recommended_route": "extract-forge"
+}

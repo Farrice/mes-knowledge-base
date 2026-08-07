@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f2c9dbcd-7867-4c95-bb1e-60b57198474f",
+  "classified_at": "2026-07-01T17:00:42.475720+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 28015,
+    "marker_hits": {
+      "prompt-tool-grade": 8,
+      "extraction-grade": 7,
+      "knowledge-grade": 48,
+      "personal-context-grade": 33,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 28
+  },
+  "rationale": "The conversation involves a deep strategic analysis of two specific business products (BIP and DWA) and their application to a target audience. It functions as a synthesis of marketing strategy and product positioning rather than a standalone tool or a simple deliverable.",
+  "extraction_value": 7,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "BIP & DWA-Optimizing Content Strategy for Beginner Entrepreneurs",
+  "md_path": ".tmp/claude-export/normalized/conversations/f2c9dbcd-7867-4c95-bb1e-60b57198474f.md",
+  "recommended_route": "convert-prompt"
+}

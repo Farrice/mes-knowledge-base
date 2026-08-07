@@ -1,0 +1,29 @@
+{
+  "conversation_id": "8fb61f01-c21b-467d-b21f-64ebdfbe4b10",
+  "classified_at": "2026-07-01T16:55:49.226865+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4772,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 9,
+      "knowledge-grade": 39,
+      "personal-context-grade": 20,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 6
+  },
+  "rationale": "The conversation establishes a sophisticated meta-prompting framework designed to facilitate collaborative prompt engineering. It functions as a reusable system instruction set for iterative, high-quality prompt development.",
+  "extraction_value": 8,
+  "expert_named": "Collaborative Prompt Engineering Framework",
+  "reusable_asset": true,
+  "title": "Advanced Collaborative Prompt Engineering",
+  "md_path": ".tmp/claude-export/normalized/conversations/8fb61f01-c21b-467d-b21f-64ebdfbe4b10.md",
+  "recommended_route": "convert-prompt"
+}

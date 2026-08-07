@@ -1,0 +1,29 @@
+{
+  "conversation_id": "12a1fa6b-9ea2-40ed-8789-4792144668cb",
+  "classified_at": "2026-07-01T17:19:39.723714+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 28760,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 2,
+      "knowledge-grade": 10,
+      "personal-context-grade": 14,
+      "project-deliverable-grade": 17
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation involves the synthesis and structural analysis of a specific methodology ('Essay Architecture') derived from a transcript. It organizes complex conceptual frameworks into a reusable knowledge base, making it highly valuable for reference.",
+  "extraction_value": 8,
+  "expert_named": "Michael Dean",
+  "reusable_asset": true,
+  "title": "Micheal Dean-The Secret Architecture of Great Writing",
+  "md_path": ".tmp/claude-export/normalized/conversations/12a1fa6b-9ea2-40ed-8789-4792144668cb.md",
+  "recommended_route": "convert-prompt"
+}

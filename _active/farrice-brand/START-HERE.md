@@ -1,6 +1,6 @@
 # Farrice Brand — start here
 
-*Generated 2026-08-07 16:50 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 17:18 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -112,31 +112,31 @@
 
 **farrice-creative-strategist-portfolio**
 
-- `farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md` — touched 2026-08-07
-- `farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md` — touched 2026-08-07
-- `farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md` — touched 2026-08-07
-- `farrice-creative-strategist-portfolio/04-deliverables/CMS_DEPLOYMENT_GUIDE.md` — touched 2026-08-07
-- `farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md` — touched 2026-08-07
-- `farrice-creative-strategist-portfolio/04-deliverables/LIVE_EDITOR_WALKTHROUGH.md` — touched 2026-08-07
+- `farrice-creative-strategist-portfolio/04-deliverables/CMS_DEPLOYMENT_GUIDE.md` — touched 2026-07-28
+- `farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md` — touched 2026-07-28
+- `farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md` — touched 2026-07-28
+- `farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md` — touched 2026-07-28
+- `farrice-creative-strategist-portfolio/04-deliverables/LIVE_EDITOR_WALKTHROUGH.md` — touched 2026-07-28
+- `farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md` — touched 2026-07-28
 
 **farrice-final-10**
 
-- `farrice-final-10/research/icp-substrate.md` — touched 2026-08-07
 - `farrice-final-10/04-deliverables/SEED.md` — touched 2026-08-07
-- `farrice-final-10/research/redteam-demand.md` — touched 2026-08-07
-- `farrice-final-10/research/redteam-differentiation.md` — touched 2026-08-07
-- `farrice-final-10/research/redteam-killshots.md` — touched 2026-08-07
-- `farrice-final-10/research/RED-TEAM-VERDICT.md` — touched 2026-08-07
-- `farrice-final-10/assets/objection-arsenal.md` — touched 2026-08-07
-- `farrice-final-10/assets/big-domino.md` — touched 2026-08-07
-- `farrice-final-10/assets/attention-content.md` — touched 2026-08-07
-- `farrice-final-10/strategy/distribution-and-tracking.md` — touched 2026-08-07
-- `farrice-final-10/strategy/offer-the-final-10.md` — touched 2026-08-07
+- `farrice-final-10/research/icp-substrate.md` — touched 2026-07-28
+- `farrice-final-10/research/redteam-demand.md` — touched 2026-07-07
+- `farrice-final-10/research/redteam-differentiation.md` — touched 2026-07-07
+- `farrice-final-10/research/redteam-killshots.md` — touched 2026-07-07
+- `farrice-final-10/research/RED-TEAM-VERDICT.md` — touched 2026-07-07
+- `farrice-final-10/assets/objection-arsenal.md` — touched 2026-07-07
+- `farrice-final-10/assets/big-domino.md` — touched 2026-07-07
+- `farrice-final-10/assets/attention-content.md` — touched 2026-07-07
+- `farrice-final-10/strategy/distribution-and-tracking.md` — touched 2026-07-07
+- `farrice-final-10/strategy/offer-the-final-10.md` — touched 2026-07-07
 
 **farrice-master-context-2026-07-07**
 
-- `farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md` — touched 2026-08-07
-- `farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` — touched 2026-08-07
+- `farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md` — touched 2026-07-09
+- `farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` — touched 2026-07-07
 
 **icp-intelligence**
 
@@ -255,10 +255,10 @@
 
 **voice**
 
+- `voice/VOICE-CARD.md` — touched 2026-08-07
+- `voice/PORTABLE-VOICE-CARD.md` — touched 2026-08-07
 - `voice/calibration-log.md` — touched 2026-08-06
 - `voice/video-style.md` — touched 2026-08-06
-- `voice/VOICE-CARD.md` — touched 2026-08-04
-- `voice/PORTABLE-VOICE-CARD.md` — touched 2026-08-04
 - `voice/REGISTER-ATLAS.md` — touched 2026-08-04
 - `voice/PLATFORM-NARRATIVE-CARD.md` — touched 2026-07-16
 
@@ -273,6 +273,8 @@ Every file here is a dated record. There is nothing current to read or update �
 
 Session work newer than the living doc in the same folder. Fold it in, or the next session builds on the older truth.
 
+- `content/vault/2026-08-07-nobody-owns-selection-essay.md` (2026-08-07) — newer than everything living in `content`
+- `content/vault/2026-08-07-count-whats-left-post.md` (2026-08-07) — newer than everything living in `content`
 - `offers/drafts/2026-07-19-dm-ig-drafts.md` (2026-07-19) — newer than everything living in `offers`
 - `offers/drafts/2026-07-19-about-page-section.md` (2026-07-19) — newer than everything living in `offers`
 
@@ -291,6 +293,8 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Recent records
 
+- 2026-08-07 — `content/vault/2026-08-07-nobody-owns-selection-essay.md`
+- 2026-08-07 — `content/vault/2026-08-07-count-whats-left-post.md`
 - 2026-08-06 — `content/bank/angles/2026-08-06-pulse-angles.md`
 - 2026-08-05 — `content/vault/2026-08-05-trust-has-an-owner-post.md`
 - 2026-08-05 — `content/vault/2026-08-05-buyers-ledger-teardown-post.md`
@@ -299,8 +303,6 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 - 2026-08-03 — `content/vault/2026-08-03-trend-cohort-carousel.md`
 - 2026-08-03 — `content/bank/angles/2026-08-03-pulse-angles.md`
 - 2026-08-03 — `content/vault/2026-08-03-wave-lends-you-customers-post.md`
-- 2026-08-02 — `content/vault/2026-08-02-audit-the-search-post.md`
-- 2026-08-02 — `content/vault/2026-08-02-six-rungs-education-longform.md`
 
 ## Drift
 
@@ -311,16 +313,16 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Media
 
+- `05-assets` — 33 file(s)
+- `farrice-creative-strategist-portfolio` — 32 file(s)
 - `premium-minimal` — 27 file(s)
-- `05-assets` — 26 file(s)
-- `farrice-creative-strategist-portfolio` — 20 file(s)
 - `parallax-design-system` — 17 file(s)
 - `content` — 2 file(s)
 
 ## Health
 
 - living docs: 202
-- records: 35
+- records: 37
 - archived (not counted above): 0
-- broken links in this tree: 144
+- broken links in this tree: 147
 

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ec5d9400-6148-4ad3-a480-5e26a3edfd0d",
+  "classified_at": "2026-07-01T17:10:39.789516+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 14776,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 44,
+      "knowledge-grade": 61,
+      "personal-context-grade": 8,
+      "project-deliverable-grade": 12
+    },
+    "expert_hits": [],
+    "code_blocks": 44,
+    "has_attachments": true,
+    "message_count": 29
+  },
+  "rationale": "The conversation is a highly specific, tactical execution plan for a client acquisition campaign. It involves the creation of a 5-day implementation system, sales infrastructure, and lead generation strategy, which are direct project deliverables rather than general knowledge or reusable tools.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Premium Performance Acquisition Campaign Implementation",
+  "md_path": ".tmp/claude-export/normalized/conversations/ec5d9400-6148-4ad3-a480-5e26a3edfd0d.md",
+  "recommended_route": "ingest-only"
+}

@@ -1,0 +1,31 @@
+{
+  "conversation_id": "7a469fc7-b84d-4cc1-b3ff-fcea7fd54146",
+  "classified_at": "2026-07-01T17:08:48.281154+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5838,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 6,
+      "knowledge-grade": 37,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 13
+    },
+    "expert_hits": [
+      "hormozi"
+    ],
+    "code_blocks": 6,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The user is systematically extracting a specific business methodology (Alex Hormozi's $100M sales system) from a transcript and converting it into a reusable framework/skill set for their own professional branding and sales operations.",
+  "extraction_value": 9,
+  "expert_named": "Alex Hormozi",
+  "reusable_asset": true,
+  "title": "I've Built Alex Hormozi's $100M Sales System with AI",
+  "md_path": ".tmp/claude-export/normalized/conversations/7a469fc7-b84d-4cc1-b3ff-fcea7fd54146.md",
+  "recommended_route": "extract-forge"
+}

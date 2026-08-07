@@ -263,13 +263,44 @@ def apply(plan: dict, stub: bool) -> dict:
         raise SystemExit(f"destination appeared, refusing: {dst_rel}")
 
     dst.parent.mkdir(parents=True, exist_ok=True)
+    import shutil
+
     r = _git("mv", src_rel, dst_rel)
     if r.returncode != 0:  # untracked dirs aren't git-movable; fall back
-        import shutil
         shutil.move(str(src), str(dst))
         moved_by = "shutil (untracked)"
     else:
         moved_by = "git mv"
+
+    # `git mv` moves TRACKED files and silently leaves everything else — it
+    # exits 0 having relocated half a project. Measured 2026-08-07 on the arena
+    # sweep: twelve projects ended up split across old and new paths, with
+    # node_modules/, dist/, 90-exports/ and a project's own 03-video-samples/
+    # stranded behind. The old fallback only fired when `git mv` failed
+    # OUTRIGHT, so a partial success was indistinguishable from a clean one.
+    # A move is not done while anything remains at the source.
+    stranded = 0
+    if src.exists():
+        def drain(s: Path, d: Path) -> int:
+            n = 0
+            d.mkdir(parents=True, exist_ok=True)
+            for item in list(s.iterdir()):
+                target = d / item.name
+                if not target.exists():
+                    shutil.move(str(item), str(target)); n += 1
+                elif item.is_dir() and target.is_dir():
+                    n += drain(item, target)
+                # else: destination already has it — it is the live copy, keep it
+            return n
+
+        stranded = drain(src, dst)
+        for p in sorted(src.rglob("*"), reverse=True):
+            if p.is_dir() and not any(p.iterdir()):
+                p.rmdir()
+        if src.is_dir() and not any(src.iterdir()):
+            src.rmdir()
+    if stranded:
+        moved_by += f" + {stranded} untracked item(s) drained"
 
     # Inverse FIRST, before the rewrite phase, so a crash mid-rewrite is still
     # undoable (the 2026-07-08 lesson).

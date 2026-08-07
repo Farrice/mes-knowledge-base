@@ -1,0 +1,29 @@
+{
+  "conversation_id": "aafe168d-5c26-40fe-b9cf-3abb61b0143a",
+  "classified_at": "2026-07-01T16:45:48.507284+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 66.4,
+  "signals": {
+    "word_count": 477,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 9,
+      "knowledge-grade": 2,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 2
+  },
+  "rationale": "The conversation focuses on designing a structured methodology for information extraction and knowledge management, which is a classic use case for creating a reusable framework or system.",
+  "extraction_value": 8,
+  "expert_named": "Dr. Sophia Chen",
+  "reusable_asset": true,
+  "title": "Personal Knowledge Management System in Notion",
+  "md_path": ".tmp/claude-export/normalized/conversations/aafe168d-5c26-40fe-b9cf-3abb61b0143a.md",
+  "recommended_route": "extract-forge"
+}

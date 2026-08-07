@@ -1,0 +1,32 @@
+{
+  "conversation_id": "1104996c-eace-40fa-91b5-725509ae670d",
+  "classified_at": "2026-07-01T17:03:51.616696+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 38851,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 2,
+      "knowledge-grade": 21,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 15
+    },
+    "expert_hits": [
+      "godin",
+      "roth"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 16
+  },
+  "rationale": "The user is utilizing a specific, repeatable framework (/transform-content) to distill a long-form transcript into a structured, reusable knowledge asset. The process involves extracting expert methodology from Packy McCormick's masterclass and converting it into a suite of actionable prompts, which is the definition of extraction-grade work.",
+  "extraction_value": 9,
+  "expert_named": "Packy McCormick",
+  "reusable_asset": true,
+  "title": "Transformative Content Creation Framework",
+  "md_path": ".tmp/claude-export/normalized/conversations/1104996c-eace-40fa-91b5-725509ae670d.md",
+  "recommended_route": "extract-forge"
+}

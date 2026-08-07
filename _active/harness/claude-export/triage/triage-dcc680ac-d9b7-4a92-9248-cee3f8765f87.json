@@ -1,0 +1,29 @@
+{
+  "conversation_id": "dcc680ac-d9b7-4a92-9248-cee3f8765f87",
+  "classified_at": "2026-07-01T16:45:48.506352+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5933,
+    "marker_hits": {
+      "prompt-tool-grade": 9,
+      "extraction-grade": 130,
+      "knowledge-grade": 11,
+      "personal-context-grade": 14,
+      "project-deliverable-grade": 10
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 10
+  },
+  "rationale": "The conversation resulted in a structured toolkit of reusable prompt sequences and templates designed to extract insights from documents, which directly aligns with the definition of a prompt-tool-grade asset.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "AI Prompt Engineering Toolkit for Document Insights",
+  "md_path": ".tmp/claude-export/normalized/conversations/dcc680ac-d9b7-4a92-9248-cee3f8765f87.md",
+  "recommended_route": "convert-prompt"
+}

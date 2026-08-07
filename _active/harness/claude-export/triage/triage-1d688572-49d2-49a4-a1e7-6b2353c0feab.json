@@ -1,0 +1,29 @@
+{
+  "conversation_id": "1d688572-49d2-49a4-a1e7-6b2353c0feab",
+  "classified_at": "2026-07-01T17:20:01.244724+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 18664,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 14,
+      "knowledge-grade": 40,
+      "personal-context-grade": 10,
+      "project-deliverable-grade": 21
+    },
+    "expert_hits": [],
+    "code_blocks": 23,
+    "has_attachments": true,
+    "message_count": 20
+  },
+  "rationale": "The user is systematically processing a transcript into a structured framework (Scorecard Concepts) for a specific business application (Brave Transformation Readiness Assessment). The high volume of extraction-grade markers and the focus on distilling complex concepts into reusable, concise assets confirms this classification.",
+  "extraction_value": 8,
+  "expert_named": "Scorecard Concept Framework",
+  "reusable_asset": true,
+  "title": "Organizing Chat Content with Artifacts",
+  "md_path": ".tmp/claude-export/normalized/conversations/1d688572-49d2-49a4-a1e7-6b2353c0feab.md",
+  "recommended_route": "extract-forge"
+}

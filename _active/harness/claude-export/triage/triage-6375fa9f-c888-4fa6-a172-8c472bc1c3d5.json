@@ -1,0 +1,29 @@
+{
+  "conversation_id": "6375fa9f-c888-4fa6-a172-8c472bc1c3d5",
+  "classified_at": "2026-07-01T16:45:48.507841+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.9,
+  "heuristic_score": 77.1,
+  "signals": {
+    "word_count": 1310,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 3,
+      "knowledge-grade": 19,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 4
+  },
+  "rationale": "The conversation provides a structured brainstorming session involving a simulated expert panel to address the user's request for AI-driven income generation. While it touches on personal financial needs, the core content is a synthesis of business strategies and AI application methods.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Urgent: Leveraging AI for Quick Online Income",
+  "md_path": ".tmp/claude-export/normalized/conversations/6375fa9f-c888-4fa6-a172-8c472bc1c3d5.md",
+  "recommended_route": "ingest-only"
+}

@@ -130,7 +130,7 @@ _archive/*.tar.gz
 
 # Edit Bay: local binaries + sandboxed clones (2026-08-06)
 tools/bin/
-_active/hyperframes-studio/
+_active/video-studio/hyperframes-studio/
 
 # Session lock is per-working-tree RUNTIME state — never tracked (2026-08-06).
 # Scar: it was committed, so every `git worktree add` was born holding a phantom

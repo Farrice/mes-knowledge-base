@@ -1,0 +1,29 @@
+{
+  "conversation_id": "118a9c31-44c5-43f0-b6f9-c5f038e782b2",
+  "classified_at": "2026-07-01T17:15:13.574339+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 17021,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 32,
+      "knowledge-grade": 67,
+      "personal-context-grade": 14,
+      "project-deliverable-grade": 18
+    },
+    "expert_hits": [],
+    "code_blocks": 24,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation resulted in a highly specific, actionable 4-week content implementation plan tailored to a specific user persona (Coach Cooz). It functions as a strategic deliverable rather than a general knowledge base or a reusable tool.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Optimizing Content for Viral Engagement",
+  "md_path": ".tmp/claude-export/normalized/conversations/118a9c31-44c5-43f0-b6f9-c5f038e782b2.md",
+  "recommended_route": "ingest-only"
+}

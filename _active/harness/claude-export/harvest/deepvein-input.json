@@ -1,0 +1,82 @@
+[
+  {
+    "target": "daniel-priestley-oversubscribed",
+    "agent": "daniel-priestley",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/f3d4c8ff-6715-4f00-8936-b6e4451ea540.md",
+      ".tmp/claude-export/normalized/conversations/f8a56bd6-eed2-4093-93b6-4ade5af51ee5.md",
+      ".tmp/claude-export/normalized/conversations/53438eb3-1f71-4128-a7a3-8e87f61f3792.md",
+      ".tmp/claude-export/normalized/conversations/db7209bb-71ed-42d1-8b57-d8654983bbad.md",
+      ".tmp/claude-export/normalized/conversations/7f177e11-2ce9-40a3-bf6b-ee0c9e0ffd6d.md",
+      ".tmp/claude-export/normalized/conversations/ef0398f4-8170-4d88-a7d5-1e5c33749762.md",
+      ".tmp/claude-export/normalized/conversations/c3efecac-3d74-49ba-911b-f9ab4d31f93e.md",
+      ".tmp/claude-export/normalized/conversations/1dc68cc7-1a4a-4c90-b13b-60419f4345b4.md",
+      ".tmp/claude-export/normalized/conversations/d7b84ae0-f1bf-4ec8-8b1e-d04086fbb4ff.md",
+      ".tmp/claude-export/normalized/conversations/b6f783e8-03e2-4e89-b938-ff35cc0c8fdd.md",
+      ".tmp/claude-export/normalized/conversations/fd3a0526-bb1e-416a-a35e-fe0a3d400042.md",
+      ".tmp/claude-export/normalized/conversations/dcf18333-d341-472d-8ae8-c8dd42c12fa9.md"
+    ],
+    "total_convs": 96,
+    "note": "TRANCHE 2 (convs 13-24 by depth; tranche 1 already mined 2026-07-02 \u2014 its patterns are IN genius.md now, so dedup against the CURRENT skill state). 7 skills+24-assets family: route net-new to the right one."
+  },
+  {
+    "target": "seth-godin-ideavirus",
+    "agent": "seth-godin",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/810b792b-0fe0-4dc1-85df-558fa576521e.md",
+      ".tmp/claude-export/normalized/conversations/9bd606d7-7b6e-44ff-a09a-eb5fb99bb8d6.md",
+      ".tmp/claude-export/normalized/conversations/63be4032-83ac-4c72-818d-3374f2091fc6.md",
+      ".tmp/claude-export/normalized/conversations/11084d9c-c6a7-4855-b031-a120f1536aec.md",
+      ".tmp/claude-export/normalized/conversations/07b3da09-81d5-4819-8685-2ea2ab761327.md",
+      ".tmp/claude-export/normalized/conversations/6115a6b9-af79-4495-ad65-30f3419aeaeb.md",
+      ".tmp/claude-export/normalized/conversations/d9574491-3d29-4c4b-b4c2-3ae2d5b9f91d.md",
+      ".tmp/claude-export/normalized/conversations/a034f396-806f-4c55-99dd-c29c2c4c849b.md",
+      ".tmp/claude-export/normalized/conversations/b3807cb6-d99a-4b84-9677-d71e608590f6.md",
+      ".tmp/claude-export/normalized/conversations/2f651b98-f2f2-4c3b-9246-9120262d956e.md",
+      ".tmp/claude-export/normalized/conversations/13be38d6-a992-45d6-9336-5500875222ce.md",
+      ".tmp/claude-export/normalized/conversations/c179bcac-77fc-489f-8da4-8d545d899e4e.md"
+    ],
+    "total_convs": 80,
+    "note": "TRANCHE 2 (convs 13-24). You own all seth-godin-* skills; dedup against their CURRENT state incl. the 2026-07-02 export sections."
+  },
+  {
+    "target": "jason-fladlien-marketing",
+    "agent": "jason-fladlien",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/4d961e9c-54fc-49b0-be2a-aab7f105b68b.md",
+      ".tmp/claude-export/normalized/conversations/61a3bd44-47b8-47d6-9adf-54b05603ae68.md",
+      ".tmp/claude-export/normalized/conversations/dc528df2-afa3-450a-abf8-6e960160412a.md",
+      ".tmp/claude-export/normalized/conversations/82492281-59c9-4b65-bf1e-62a3049254d3.md",
+      ".tmp/claude-export/normalized/conversations/7896718c-dcee-4820-8922-a16a37c12897.md",
+      ".tmp/claude-export/normalized/conversations/37801e60-df3c-4e23-b345-8fc44bc09176.md",
+      ".tmp/claude-export/normalized/conversations/cadd2de7-36bf-4565-a4e0-6fdaaf4bd176.md",
+      ".tmp/claude-export/normalized/conversations/43047e3f-a9eb-4ca2-a433-d2d451d17023.md",
+      ".tmp/claude-export/normalized/conversations/03b791e2-5797-4d95-9695-80acd21b31b6.md",
+      ".tmp/claude-export/normalized/conversations/9a01021a-28e7-4c31-b15e-450d01010e70.md",
+      ".tmp/claude-export/normalized/conversations/d3a6c57c-f930-47ca-afeb-ea3db1be6c87.md",
+      ".tmp/claude-export/normalized/conversations/b48c0349-ce95-44c7-9836-e5b2b79d5635.md"
+    ],
+    "total_convs": 80,
+    "note": "TRANCHE 2 (convs 13-24). Skill is now 30 workflows incl. the 2026-07-02 Tier-6 additions \u2014 dedup hard against those."
+  },
+  {
+    "target": "kallaway-content-psychology",
+    "agent": "kallaway",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/5d207cc0-cb15-4747-8064-801bd306f8a8.md",
+      ".tmp/claude-export/normalized/conversations/1c9e0bfc-2c95-47dd-87c2-a793c9f10e57.md",
+      ".tmp/claude-export/normalized/conversations/25f200fc-0ea9-4b4e-9189-bd99152905ac.md",
+      ".tmp/claude-export/normalized/conversations/9174b927-c49f-4f10-8f4a-caa4e317aded.md",
+      ".tmp/claude-export/normalized/conversations/4e44c987-f36f-4e10-a9b0-ee5c967fe57c.md",
+      ".tmp/claude-export/normalized/conversations/a6950417-d963-4546-96c2-24608a8fdf41.md",
+      ".tmp/claude-export/normalized/conversations/6d32db9e-b6da-4c15-be5c-6a1c62280a3a.md",
+      ".tmp/claude-export/normalized/conversations/d190d349-8437-4b49-9fe8-f27a03aa6e55.md",
+      ".tmp/claude-export/normalized/conversations/ba42e906-7298-45ba-a2b2-f2296cd7ede1.md",
+      ".tmp/claude-export/normalized/conversations/d03cb8ed-e5c4-401d-8bab-3718abd0ad03.md",
+      ".tmp/claude-export/normalized/conversations/ae8bef6b-e31d-4247-88c9-f2f2c9026005.md",
+      ".tmp/claude-export/normalized/conversations/7a05ceaa-926a-4be5-8d7d-0a6e81559312.md"
+    ],
+    "total_convs": 49,
+    "note": "TRANCHE 2 (convs 11-22). You own all 7 kallaway-* skills; dedup against current state incl. Patterns 38-47 added 2026-07-02."
+  }
+]

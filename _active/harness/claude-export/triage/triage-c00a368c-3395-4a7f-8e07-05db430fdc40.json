@@ -1,0 +1,33 @@
+{
+  "conversation_id": "c00a368c-3395-4a7f-8e07-05db430fdc40",
+  "classified_at": "2026-07-01T17:21:14.225284+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 12656,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 57,
+      "knowledge-grade": 127,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "halbert",
+      "ogilvy",
+      "roth"
+    ],
+    "code_blocks": 22,
+    "has_attachments": true,
+    "message_count": 12
+  },
+  "rationale": "The conversation centers on the creation and refinement of a high-value, 1591-word 'Mega Prompt' for market research, synthesizing expert copywriting methodologies (Halbert, Ogilvy, Roth) into a reusable system prompt.",
+  "extraction_value": 9,
+  "expert_named": "Luke (Copywriter)",
+  "reusable_asset": true,
+  "title": "Luke-1591 Word \"Mega Prompt\" Automates Market Research",
+  "md_path": ".tmp/claude-export/normalized/conversations/c00a368c-3395-4a7f-8e07-05db430fdc40.md",
+  "recommended_route": "convert-prompt"
+}

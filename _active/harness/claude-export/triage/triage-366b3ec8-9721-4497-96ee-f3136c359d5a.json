@@ -1,0 +1,29 @@
+{
+  "conversation_id": "366b3ec8-9721-4497-96ee-f3136c359d5a",
+  "classified_at": "2026-07-01T16:58:59.683914+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 10706,
+    "marker_hits": {
+      "prompt-tool-grade": 18,
+      "extraction-grade": 32,
+      "knowledge-grade": 50,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 22
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 16
+  },
+  "rationale": "The conversation is explicitly focused on refining and optimizing a complex system prompt (custom instructions) for an AI-driven expert panel framework. The user is iterating on the prompt's architecture to ensure high-quality, multi-perspective outputs, making it a highly reusable asset for prompt engineering workflows.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Important Version-Enhancing Expert Panel Prompt",
+  "md_path": ".tmp/claude-export/normalized/conversations/366b3ec8-9721-4497-96ee-f3136c359d5a.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,31 @@
+{
+  "conversation_id": "41547fd8-9100-464c-a09d-a8aeb2e63340",
+  "classified_at": "2026-07-01T17:20:35.650395+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 64059,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 3,
+      "knowledge-grade": 43,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "iha"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 7
+  },
+  "rationale": "The conversation involves the systematic extraction and synthesis of a specific methodology ('The Guide to Going Viral' by Brendan Kane) into actionable, implementation-ready prompts. It transforms book content into a reusable expert framework.",
+  "extraction_value": 9,
+  "expert_named": "Brendan Kane",
+  "reusable_asset": true,
+  "title": "Brendan Kane: The Guide to going viral book",
+  "md_path": ".tmp/claude-export/normalized/conversations/41547fd8-9100-464c-a09d-a8aeb2e63340.md",
+  "recommended_route": "extract-forge"
+}

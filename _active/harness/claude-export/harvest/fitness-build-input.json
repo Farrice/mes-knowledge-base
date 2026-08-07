@@ -1,0 +1,33 @@
+{
+  "michael-israetel-hypertrophy": [
+    ".tmp/claude-export/normalized/conversations/5405342c-7ba5-4d1c-9e74-76567eb75cbc.md",
+    ".tmp/claude-export/normalized/conversations/715413da-8a4d-4388-9199-8ab7111661f5.md"
+  ],
+  "eugene-teo-training": [
+    ".tmp/claude-export/normalized/conversations/e1467ecf-3d23-459d-9405-288897f11799.md",
+    ".tmp/claude-export/normalized/conversations/d72a9620-1118-4b0f-a067-d80a06690b97.md",
+    ".tmp/claude-export/normalized/conversations/8b2453c0-eca7-4e67-aa3b-3ebf8804c070.md"
+  ],
+  "alan-aragon-nutrition": [
+    ".tmp/claude-export/normalized/conversations/31c83d77-6e5b-4966-9b84-e70a814e446c.md",
+    ".tmp/claude-export/normalized/conversations/a68ee5f7-6258-48c7-9469-151c38367620.md",
+    ".tmp/claude-export/normalized/conversations/375a40ce-46f0-43c4-8336-158eed3b6a1b.md",
+    ".tmp/claude-export/normalized/conversations/7e474b9e-16d2-4808-b683-13b3aaf1934f.md",
+    ".tmp/claude-export/normalized/conversations/1db2cbc6-69fa-4016-a4c6-ed5f052fee69.md"
+  ],
+  "andy-galpin-ENRICH": [
+    ".tmp/claude-export/normalized/conversations/62bc60da-6ab9-4c81-99f8-bb15303e123c.md",
+    ".tmp/claude-export/normalized/conversations/73e73f97-ae8b-4ca0-8f68-f14a941d3326.md",
+    ".tmp/claude-export/normalized/conversations/c5097fef-9a41-4486-8bcd-967a91d6d6cf.md",
+    ".tmp/claude-export/normalized/conversations/99f7153d-63d0-4dd1-9f92-37b3245c0eaa.md",
+    ".tmp/claude-export/normalized/conversations/96248da4-ce6d-4fc5-b99d-9ec3f8fd2149.md",
+    ".tmp/claude-export/normalized/conversations/c2b939b8-da58-42bb-a422-b9212a151a89.md"
+  ],
+  "hub-fieldguide": [
+    ".tmp/claude-export/normalized/conversations/c2fcccec-7b06-4d92-98e5-f78b9f20c886.md",
+    ".tmp/claude-export/normalized/conversations/e464ae2a-48d6-4c4d-b48e-dec983388416.md",
+    ".tmp/claude-export/normalized/conversations/240cea6e-e181-46c0-b2fd-48d673a8f01a.md",
+    ".tmp/claude-export/normalized/conversations/97d01c04-74a7-47f5-ad26-228dfc202cdc.md",
+    ".tmp/claude-export/normalized/conversations/118835a4-e967-43e3-9f4d-9284b1b22ed4.md"
+  ]
+}

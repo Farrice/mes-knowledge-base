@@ -1,0 +1,29 @@
+{
+  "conversation_id": "3a1055e1-ba30-4a5e-a39e-061159dcbbf8",
+  "classified_at": "2026-07-01T16:55:27.603918+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 9237,
+    "marker_hits": {
+      "prompt-tool-grade": 105,
+      "extraction-grade": 5,
+      "knowledge-grade": 28,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 2,
+    "has_attachments": false,
+    "message_count": 18
+  },
+  "rationale": "The conversation documents the creation of a sophisticated meta-prompt system designed to generate specialized AI personas. It includes a structured framework, usage instructions, and a modular design, making it a highly reusable tool for users to generate custom AI experts.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Advanced AI Expert Persona Generator",
+  "md_path": ".tmp/claude-export/normalized/conversations/3a1055e1-ba30-4a5e-a39e-061159dcbbf8.md",
+  "recommended_route": "convert-prompt"
+}

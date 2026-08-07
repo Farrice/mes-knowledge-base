@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ff9ee27c-f37a-475a-9d36-ce1df4ac9325",
+  "classified_at": "2026-07-01T16:55:36.315986+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3216,
+    "marker_hits": {
+      "prompt-tool-grade": 61,
+      "extraction-grade": 12,
+      "knowledge-grade": 16,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 10
+  },
+  "rationale": "The conversation is explicitly focused on refining a reusable system prompt (an expert persona generator) intended for commercial distribution as a digital product. The user is iterating on the prompt structure to ensure high-quality, consistent outputs.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Prompt Engineering Tool for Productivity",
+  "md_path": ".tmp/claude-export/normalized/conversations/ff9ee27c-f37a-475a-9d36-ce1df4ac9325.md",
+  "recommended_route": "convert-prompt"
+}

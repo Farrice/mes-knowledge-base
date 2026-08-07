@@ -1,0 +1,29 @@
+{
+  "conversation_id": "82381e90-3e88-4237-ba54-55a14ae7fbb5",
+  "classified_at": "2026-07-01T17:18:01.189100+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6218,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 18,
+      "knowledge-grade": 43,
+      "personal-context-grade": 15,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 12
+  },
+  "rationale": "The conversation is focused on generating specific, ready-to-deploy business content for a client ('Coach Cooz') based on a provided assessment. While it references a 'Master Prompt', the primary output is the creation of a business deployment package, making it a project deliverable.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Comprehensive Business Deployment Package",
+  "md_path": ".tmp/claude-export/normalized/conversations/82381e90-3e88-4237-ba54-55a14ae7fbb5.md",
+  "recommended_route": "ingest-only"
+}

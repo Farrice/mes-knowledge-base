@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a1d95885-9150-4be6-b473-a9b9c8436346",
+  "classified_at": "2026-07-01T17:10:26.867255+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 8398,
+    "marker_hits": {
+      "prompt-tool-grade": 5,
+      "extraction-grade": 57,
+      "knowledge-grade": 43,
+      "personal-context-grade": 7,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 18,
+    "has_attachments": true,
+    "message_count": 6
+  },
+  "rationale": "The conversation is a direct execution of a specific marketing task: drafting landing page copy for a personal trainer's lead magnet. It is a functional deliverable rather than a reusable framework or general knowledge.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Personal Trainer Lead Magnet Landing Page",
+  "md_path": ".tmp/claude-export/normalized/conversations/a1d95885-9150-4be6-b473-a9b9c8436346.md",
+  "recommended_route": "ingest-only"
+}

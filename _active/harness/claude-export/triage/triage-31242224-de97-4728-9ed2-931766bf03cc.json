@@ -1,0 +1,29 @@
+{
+  "conversation_id": "31242224-de97-4728-9ed2-931766bf03cc",
+  "classified_at": "2026-07-01T16:59:55.298963+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2397,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 1,
+      "knowledge-grade": 21,
+      "personal-context-grade": 14,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user provided a highly structured system prompt defining a 'Rhythm and Flow Specialist' persona, which is a reusable asset designed to be applied to future writing tasks.",
+  "extraction_value": 8,
+  "expert_named": "Rhythm and Flow Specialist",
+  "reusable_asset": true,
+  "title": "Passion into Profit: AI-Driven Digital Wealth Strategy",
+  "md_path": ".tmp/claude-export/normalized/conversations/31242224-de97-4728-9ed2-931766bf03cc.md",
+  "recommended_route": "convert-prompt"
+}

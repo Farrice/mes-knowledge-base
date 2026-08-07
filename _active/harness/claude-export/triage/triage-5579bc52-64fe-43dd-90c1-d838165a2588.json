@@ -1,0 +1,29 @@
+{
+  "conversation_id": "5579bc52-64fe-43dd-90c1-d838165a2588",
+  "classified_at": "2026-07-01T17:04:56.354114+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4389,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 8,
+      "knowledge-grade": 23,
+      "personal-context-grade": 11,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 37,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation provides a strategic business framework tailored to the user's specific background in coaching and AI, offering actionable steps to generate income. It synthesizes personal context with professional expertise to create a roadmap.",
+  "extraction_value": 7,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Leveraging AI and Copywriting Skills for Passive Income",
+  "md_path": ".tmp/claude-export/normalized/conversations/5579bc52-64fe-43dd-90c1-d838165a2588.md",
+  "recommended_route": "convert-prompt"
+}

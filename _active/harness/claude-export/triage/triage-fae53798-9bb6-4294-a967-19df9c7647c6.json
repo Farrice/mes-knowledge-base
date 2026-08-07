@@ -1,0 +1,29 @@
+{
+  "conversation_id": "fae53798-9bb6-4294-a967-19df9c7647c6",
+  "classified_at": "2026-07-01T17:12:27.304338+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4226,
+    "marker_hits": {
+      "prompt-tool-grade": 9,
+      "extraction-grade": 10,
+      "knowledge-grade": 61,
+      "personal-context-grade": 11,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation is a direct request for a strategic business document (a brand pivot analysis) tailored to a specific persona (Coach Cooz). It functions as a professional deliverable for a business transition.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Strategic Brand Pivot for Holistic Coaching",
+  "md_path": ".tmp/claude-export/normalized/conversations/fae53798-9bb6-4294-a967-19df9c7647c6.md",
+  "recommended_route": "ingest-only"
+}

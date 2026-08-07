@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f29a7375-a199-4151-a853-db5b3011e646",
+  "classified_at": "2026-07-01T17:05:56.865705+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1911,
+    "marker_hits": {
+      "prompt-tool-grade": 20,
+      "extraction-grade": 15,
+      "knowledge-grade": 30,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 13,
+    "has_attachments": false,
+    "message_count": 8
+  },
+  "rationale": "The conversation focuses on refining and structuring a system prompt for a Claude Project, specifically optimizing custom instructions for consistency and execution. This is a classic example of building a reusable tool/system prompt.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Optimizing Custom AI Transformation Instructions",
+  "md_path": ".tmp/claude-export/normalized/conversations/f29a7375-a199-4151-a853-db5b3011e646.md",
+  "recommended_route": "convert-prompt"
+}

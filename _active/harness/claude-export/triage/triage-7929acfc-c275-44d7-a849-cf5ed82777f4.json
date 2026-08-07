@@ -1,0 +1,29 @@
+{
+  "conversation_id": "7929acfc-c275-44d7-a849-cf5ed82777f4",
+  "classified_at": "2026-07-01T16:53:13.794171+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1528,
+    "marker_hits": {
+      "prompt-tool-grade": 19,
+      "extraction-grade": 2,
+      "knowledge-grade": 4,
+      "personal-context-grade": 13,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 2
+  },
+  "rationale": "The user is defining a meta-prompt (a prompt engineer persona) designed to refine and optimize other prompts. This is a classic reusable system prompt pattern intended to improve the quality of future AI interactions.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Optimizing Prompts for Enhanced AI Outputs",
+  "md_path": ".tmp/claude-export/normalized/conversations/7929acfc-c275-44d7-a849-cf5ed82777f4.md",
+  "recommended_route": "convert-prompt"
+}

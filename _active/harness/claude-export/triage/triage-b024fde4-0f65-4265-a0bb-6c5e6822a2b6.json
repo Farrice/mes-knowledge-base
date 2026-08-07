@@ -1,0 +1,31 @@
+{
+  "conversation_id": "b024fde4-0f65-4265-a0bb-6c5e6822a2b6",
+  "classified_at": "2026-07-01T16:52:48.217148+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 70983,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 10,
+      "knowledge-grade": 30,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "iha"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation demonstrates a high-value workflow for transforming unstructured educational transcripts into a structured, referenceable knowledge base. The user has defined a clear methodology for information extraction, term identification, and hierarchical organization, which is highly reusable for other course materials.",
+  "extraction_value": 9,
+  "expert_named": "iha",
+  "reusable_asset": true,
+  "title": "Extracting Structured Copywriting Course Content",
+  "md_path": ".tmp/claude-export/normalized/conversations/b024fde4-0f65-4265-a0bb-6c5e6822a2b6.md",
+  "recommended_route": "extract-forge"
+}

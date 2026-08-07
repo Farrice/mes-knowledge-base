@@ -1,0 +1,29 @@
+{
+  "conversation_id": "bb3b7503-b2eb-4367-b14b-378d4b916e69",
+  "classified_at": "2026-07-01T17:01:16.770661+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6145,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 18,
+      "knowledge-grade": 62,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 2,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The user is constructing a structured prompt template designed to turn an AI into a specialized tutor for a specific book. This is a reusable system prompt/instruction set intended to be applied to various knowledge sources.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Facilitating Ongoing Learning and Skill Development",
+  "md_path": ".tmp/claude-export/normalized/conversations/bb3b7503-b2eb-4367-b14b-378d4b916e69.md",
+  "recommended_route": "convert-prompt"
+}

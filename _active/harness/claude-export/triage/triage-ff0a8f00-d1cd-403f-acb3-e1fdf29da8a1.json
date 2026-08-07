@@ -1,0 +1,29 @@
+{
+  "conversation_id": "ff0a8f00-d1cd-403f-acb3-e1fdf29da8a1",
+  "classified_at": "2026-07-01T17:00:55.507142+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6052,
+    "marker_hits": {
+      "prompt-tool-grade": 24,
+      "extraction-grade": 23,
+      "knowledge-grade": 50,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The user is explicitly building a meta-prompting framework designed to elevate prompt engineering. The conversation develops a structured methodology for prompt refinement, which constitutes a reusable expert framework.",
+  "extraction_value": 9,
+  "expert_named": "Meta-Prompting Refinement Framework",
+  "reusable_asset": true,
+  "title": "Crafting Emotionally Compelling Prompts",
+  "md_path": ".tmp/claude-export/normalized/conversations/ff0a8f00-d1cd-403f-acb3-e1fdf29da8a1.md",
+  "recommended_route": "extract-forge"
+}

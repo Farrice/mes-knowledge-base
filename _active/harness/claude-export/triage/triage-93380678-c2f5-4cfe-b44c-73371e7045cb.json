@@ -1,0 +1,29 @@
+{
+  "conversation_id": "93380678-c2f5-4cfe-b44c-73371e7045cb",
+  "classified_at": "2026-07-01T17:16:26.818663+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6920,
+    "marker_hits": {
+      "prompt-tool-grade": 79,
+      "extraction-grade": 38,
+      "knowledge-grade": 45,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 32,
+    "has_attachments": true,
+    "message_count": 32
+  },
+  "rationale": "The conversation culminates in the creation and refinement of a 'meta-prompt' designed to manage custom instructions and system behavior, which is a highly reusable asset for the user.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Comparing Sonnet 3.7 and 3.5 Performance",
+  "md_path": ".tmp/claude-export/normalized/conversations/93380678-c2f5-4cfe-b44c-73371e7045cb.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "cc08c828-4ca5-47e3-9aa1-df8e2228f54e",
+  "classified_at": "2026-07-01T16:52:17.929985+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6942,
+    "marker_hits": {
+      "prompt-tool-grade": 12,
+      "extraction-grade": 34,
+      "knowledge-grade": 90,
+      "personal-context-grade": 9,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 10
+  },
+  "rationale": "The user is iteratively refining a complex prompt designed to act as a specialized 'Copywriting Analyst and Coach'. The conversation focuses on building a reusable system prompt that transforms raw transcripts into structured educational resources and actionable coaching programs.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Copywriting Transcripts Extractor Prompt ",
+  "md_path": ".tmp/claude-export/normalized/conversations/cc08c828-4ca5-47e3-9aa1-df8e2228f54e.md",
+  "recommended_route": "convert-prompt"
+}

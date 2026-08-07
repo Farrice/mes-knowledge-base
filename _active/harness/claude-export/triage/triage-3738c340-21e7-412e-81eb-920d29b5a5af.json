@@ -1,0 +1,29 @@
+{
+  "conversation_id": "3738c340-21e7-412e-81eb-920d29b5a5af",
+  "classified_at": "2026-07-01T17:11:26.987216+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 14879,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 16,
+      "knowledge-grade": 11,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation successfully distills Mark Forsyth's rhetorical techniques into a structured, actionable framework and a reusable system prompt, effectively turning expert knowledge into a deployable skill.",
+  "extraction_value": 9,
+  "expert_named": "Mark Forsyth",
+  "reusable_asset": true,
+  "title": "2.o: Mark Forsyth-How to Make Everyone Remember Your Writing ",
+  "md_path": ".tmp/claude-export/normalized/conversations/3738c340-21e7-412e-81eb-920d29b5a5af.md",
+  "recommended_route": "extract-forge"
+}

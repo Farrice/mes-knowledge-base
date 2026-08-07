@@ -1,0 +1,29 @@
+{
+  "conversation_id": "6a704f51-39ad-42c0-959f-aa2738d4a0b0",
+  "classified_at": "2026-07-01T17:03:25.479101+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 21923,
+    "marker_hits": {
+      "prompt-tool-grade": 14,
+      "extraction-grade": 9,
+      "knowledge-grade": 55,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 2,
+    "has_attachments": true,
+    "message_count": 28
+  },
+  "rationale": "The user is actively deploying a structured system ('Deployable Master Prompt Suite') to process content, indicating the development and refinement of a reusable prompt-based workflow.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "This AI Prompt Gets You Customer Insights in 5 Minutes",
+  "md_path": ".tmp/claude-export/normalized/conversations/6a704f51-39ad-42c0-959f-aa2738d4a0b0.md",
+  "recommended_route": "convert-prompt"
+}

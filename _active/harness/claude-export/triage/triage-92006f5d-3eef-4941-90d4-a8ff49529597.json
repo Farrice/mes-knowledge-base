@@ -1,0 +1,29 @@
+{
+  "conversation_id": "92006f5d-3eef-4941-90d4-a8ff49529597",
+  "classified_at": "2026-07-01T17:12:18.799822+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 14328,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 22,
+      "knowledge-grade": 45,
+      "personal-context-grade": 19,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 19
+  },
+  "rationale": "The conversation is a focused effort to rewrite and optimize marketing copy and a content strategy for a specific client ('Coach Cooz'). It functions as a professional copywriting and strategy project rather than a general knowledge base or reusable tool.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Generating Leads for Coach Cooz",
+  "md_path": ".tmp/claude-export/normalized/conversations/92006f5d-3eef-4941-90d4-a8ff49529597.md",
+  "recommended_route": "ingest-only"
+}

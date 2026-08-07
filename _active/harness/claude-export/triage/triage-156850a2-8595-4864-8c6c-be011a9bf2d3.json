@@ -1,0 +1,29 @@
+{
+  "conversation_id": "156850a2-8595-4864-8c6c-be011a9bf2d3",
+  "classified_at": "2026-07-01T17:02:42.560062+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 11380,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 6,
+      "knowledge-grade": 26,
+      "personal-context-grade": 54,
+      "project-deliverable-grade": 14
+    },
+    "expert_hits": [],
+    "code_blocks": 5,
+    "has_attachments": true,
+    "message_count": 14
+  },
+  "rationale": "The conversation is a direct execution of a prompt to generate specific marketing copy (Instagram bios) for a personal brand. It is a creative deliverable based on provided user context.",
+  "extraction_value": 2,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Elevating Your Personal Brand with Tailored Instagram Bios",
+  "md_path": ".tmp/claude-export/normalized/conversations/156850a2-8595-4864-8c6c-be011a9bf2d3.md",
+  "recommended_route": "ingest-only"
+}

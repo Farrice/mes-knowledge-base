@@ -1,0 +1,32 @@
+{
+  "conversation_id": "63a1cb8b-b02c-431d-b456-ff2154bdac10",
+  "classified_at": "2026-07-01T17:21:31.340518+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 44292,
+    "marker_hits": {
+      "prompt-tool-grade": 12,
+      "extraction-grade": 7,
+      "knowledge-grade": 20,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "priestley",
+      "roth"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 6
+  },
+  "rationale": "The conversation involves the systematic extraction and distillation of a specific business methodology (Daniel Priestley's 24 Assets framework) into structured, reusable expert prompts and actionable business assets.",
+  "extraction_value": 9,
+  "expert_named": "Daniel Priestley",
+  "reusable_asset": true,
+  "title": "Daniel Priestley- 24 Assets Book (Extraction)",
+  "md_path": ".tmp/claude-export/normalized/conversations/63a1cb8b-b02c-431d-b456-ff2154bdac10.md",
+  "recommended_route": "extract-forge"
+}

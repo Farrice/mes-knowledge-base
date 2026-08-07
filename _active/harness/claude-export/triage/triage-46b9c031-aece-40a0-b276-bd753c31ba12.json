@@ -1,0 +1,31 @@
+{
+  "conversation_id": "46b9c031-aece-40a0-b276-bd753c31ba12",
+  "classified_at": "2026-07-01T17:17:48.223281+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 42107,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 58,
+      "knowledge-grade": 69,
+      "personal-context-grade": 18,
+      "project-deliverable-grade": 10
+    },
+    "expert_hits": [
+      "priestley"
+    ],
+    "code_blocks": 10,
+    "has_attachments": true,
+    "message_count": 63
+  },
+  "rationale": "The conversation explicitly adopts the 'Name-Same-Fame-Aim-Game' methodology, a structured framework for high-ticket positioning. The user is applying this specific expert methodology to refine their business messaging, making it a clear extraction-grade asset.",
+  "extraction_value": 9,
+  "expert_named": "Name-Same-Fame-Aim-Game (Priestley)",
+  "reusable_asset": true,
+  "title": "Coach Cooz-High ticket positioning & messaging outline",
+  "md_path": ".tmp/claude-export/normalized/conversations/46b9c031-aece-40a0-b276-bd753c31ba12.md",
+  "recommended_route": "extract-forge"
+}

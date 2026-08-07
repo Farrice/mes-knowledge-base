@@ -1,6 +1,6 @@
 # Linkedin — start here
 
-*Generated 2026-08-07 16:50 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 17:18 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -149,7 +149,7 @@
 
 **03-launch**
 
-- `03-launch/REPS-GAMEPLAN-2026-07-07.md` — touched 2026-07-28
+- `03-launch/REPS-GAMEPLAN-2026-07-07.md` — touched 2026-08-07
 - `03-launch/PROFILE-REBUILD-2026-07-21.md` — touched 2026-07-28
 - `03-launch/proof-to-market-profile-package.md` — touched 2026-07-28
 - `03-launch/profile-blueprint.md` — touched 2026-07-28
@@ -175,7 +175,7 @@
 **04-deliverables**
 
 - `04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` — touched 2026-08-07
-- `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` — touched 2026-08-05
+- `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` — touched 2026-08-07
 - `04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — touched 2026-07-31
 - `04-deliverables/lane-briefs-2026-07-29.md` — touched 2026-07-29
 - `04-deliverables/context-os/06-PROOF-LIBRARY.md` — touched 2026-07-29
@@ -297,23 +297,6 @@
 - `06-automation/daily/briefing-2026-06-15.md` — touched 2026-06-19
 - `06-automation/daily/briefing-2026-06-11.md` — touched 2026-06-11
 
-## ⚠ Unabsorbed records
-
-Session work newer than the living doc in the same folder. Fold it in, or the next session builds on the older truth.
-
-- `03-launch/2026-08-06-skills-and-media-PLAN.md` (2026-08-06) — newer than everything living in `03-launch`
-- `03-launch/2026-08-06-experience-entries-DEPLOY.md` (2026-08-06) — newer than everything living in `03-launch`
-- `03-launch/2026-08-06-enchant-takes-AB.md` (2026-08-06) — newer than everything living in `03-launch`
-- `03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md` (2026-08-06) — newer than everything living in `03-launch`
-- `03-launch/2026-08-04-week-2-pov-batch.md` (2026-08-04) — newer than everything living in `03-launch`
-- `03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md` (2026-08-04) — newer than everything living in `03-launch`
-- `03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md` (2026-08-04) — newer than everything living in `03-launch`
-- `03-launch/2026-07-30-profile-copy-v8-POP.md` (2026-07-31) — newer than everything living in `03-launch`
-- `03-launch/2026-07-30-profile-copy-v7-FRESH-PEN.md` (2026-07-30) — newer than everything living in `03-launch`
-- `03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md` (2026-07-30) — newer than everything living in `03-launch`
-- `03-launch/2026-07-29-profile-copy-v6-ROUTED.md` (2026-07-29) — newer than everything living in `03-launch`
-- `03-launch/2026-07-29-profile-copy-v5-EXPERT.md` (2026-07-29) — newer than everything living in `03-launch`
-
 ## Competing versions
 
 Several undated files claim the same slot. One is the living doc; the rest belong in `99-archive/` or need a date prefix.
@@ -369,5 +352,5 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 - living docs: 273
 - records: 32
 - archived (not counted above): 93
-- broken links in this tree: 515
+- broken links in this tree: 517
 

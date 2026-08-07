@@ -1,0 +1,29 @@
+{
+  "conversation_id": "2fe0bb74-ca95-4c56-8114-5712eeccce6e",
+  "classified_at": "2026-07-01T17:02:33.944741+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6027,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 0,
+      "knowledge-grade": 5,
+      "personal-context-grade": 7,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 12,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation is a multi-turn drafting process for a specific personal event (a first birthday thank-you note). It involves iterative refinement of tone and content based on a specific stylistic reference, resulting in a finished creative deliverable.",
+  "extraction_value": 2,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Heartfelt Thanks for Celebrating Baby's First Birthday",
+  "md_path": ".tmp/claude-export/normalized/conversations/2fe0bb74-ca95-4c56-8114-5712eeccce6e.md",
+  "recommended_route": "ingest-only"
+}

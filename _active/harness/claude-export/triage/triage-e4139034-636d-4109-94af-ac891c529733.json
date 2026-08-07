@@ -1,0 +1,29 @@
+{
+  "conversation_id": "e4139034-636d-4109-94af-ac891c529733",
+  "classified_at": "2026-07-01T17:16:56.822292+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 11510,
+    "marker_hits": {
+      "prompt-tool-grade": 13,
+      "extraction-grade": 66,
+      "knowledge-grade": 38,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 4,
+    "has_attachments": true,
+    "message_count": 6
+  },
+  "rationale": "The user explicitly defines a workflow for deep analysis, knowledge distillation, and prompt engineering based on a transcript. The output is a structured, named methodology (Progressive Virtuosity Framework) that synthesizes complex information into a reusable, teachable system.",
+  "extraction_value": 9,
+  "expert_named": "Progressive Virtuosity Framework",
+  "reusable_asset": true,
+  "title": "Brenden Kane: How This SMALL Business Got 800,000 Followers in 6 Months",
+  "md_path": ".tmp/claude-export/normalized/conversations/e4139034-636d-4109-94af-ac891c529733.md",
+  "recommended_route": "extract-forge"
+}

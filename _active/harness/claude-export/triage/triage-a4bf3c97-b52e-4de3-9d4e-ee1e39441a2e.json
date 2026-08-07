@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a4bf3c97-b52e-4de3-9d4e-ee1e39441a2e",
+  "classified_at": "2026-07-01T17:12:44.428657+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 24742,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 21,
+      "knowledge-grade": 99,
+      "personal-context-grade": 55,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 3,
+    "has_attachments": true,
+    "message_count": 23
+  },
+  "rationale": "The user is utilizing a sophisticated 'Conversation Continuation Framework' to maintain high-level strategic continuity across sessions. The volume of content (24k+ words) and the structured approach to extracting methodologies and frameworks indicate a high-value, expert-level business development process.",
+  "extraction_value": 9,
+  "expert_named": "Coaching Business Strategy Framework",
+  "reusable_asset": true,
+  "title": "Continuing Coaching Business Strategy",
+  "md_path": ".tmp/claude-export/normalized/conversations/a4bf3c97-b52e-4de3-9d4e-ee1e39441a2e.md",
+  "recommended_route": "extract-forge"
+}

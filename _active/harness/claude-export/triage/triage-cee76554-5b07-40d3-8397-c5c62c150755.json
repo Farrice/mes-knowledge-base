@@ -1,0 +1,31 @@
+{
+  "conversation_id": "cee76554-5b07-40d3-8397-c5c62c150755",
+  "classified_at": "2026-07-01T16:54:01.046022+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 83429,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 2,
+      "knowledge-grade": 8,
+      "personal-context-grade": 6,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [
+      "stanton"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user provided a book text and requested a structured extraction of key principles and techniques into a reference guide. This is a classic extraction task that transforms raw content into a reusable knowledge asset.",
+  "extraction_value": 8,
+  "expert_named": "Stanton",
+  "reusable_asset": true,
+  "title": "Key Writing Principles from \"The Secrets of Character\"",
+  "md_path": ".tmp/claude-export/normalized/conversations/cee76554-5b07-40d3-8397-c5c62c150755.md",
+  "recommended_route": "extract-forge"
+}

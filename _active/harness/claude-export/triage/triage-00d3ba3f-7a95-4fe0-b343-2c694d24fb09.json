@@ -1,0 +1,29 @@
+{
+  "conversation_id": "00d3ba3f-7a95-4fe0-b343-2c694d24fb09",
+  "classified_at": "2026-07-01T17:18:31.098884+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 11261,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 4,
+      "knowledge-grade": 11,
+      "personal-context-grade": 17,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 30
+  },
+  "rationale": "The conversation documents the development and refinement of a proprietary coaching framework called the 'Brave Transformation Method'. It provides a structured methodology for personal development that is highly reusable for the client's marketing and coaching practice.",
+  "extraction_value": 9,
+  "expert_named": "Brave Transformation Method",
+  "reusable_asset": true,
+  "title": "Transforming Professionals' Lives Through Brave Method",
+  "md_path": ".tmp/claude-export/normalized/conversations/00d3ba3f-7a95-4fe0-b343-2c694d24fb09.md",
+  "recommended_route": "extract-forge"
+}

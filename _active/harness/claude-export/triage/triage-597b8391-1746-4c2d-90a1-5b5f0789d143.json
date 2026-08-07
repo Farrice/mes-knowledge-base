@@ -1,0 +1,29 @@
+{
+  "conversation_id": "597b8391-1746-4c2d-90a1-5b5f0789d143",
+  "classified_at": "2026-07-01T17:16:00.907989+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 24510,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 21,
+      "knowledge-grade": 61,
+      "personal-context-grade": 12,
+      "project-deliverable-grade": 14
+    },
+    "expert_hits": [],
+    "code_blocks": 25,
+    "has_attachments": true,
+    "message_count": 41
+  },
+  "rationale": "The conversation is a comprehensive, multi-turn strategic planning session focused on a specific business goal (acquiring local coaching clients in Burbank). It synthesizes existing business context into a concrete LinkedIn execution plan and content strategy, making it a clear project deliverable.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "LinkedIn Strategy for Coach Cooz's Business",
+  "md_path": ".tmp/claude-export/normalized/conversations/597b8391-1746-4c2d-90a1-5b5f0789d143.md",
+  "recommended_route": "ingest-only"
+}

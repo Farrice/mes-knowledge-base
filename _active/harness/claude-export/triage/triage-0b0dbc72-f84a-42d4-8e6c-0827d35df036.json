@@ -1,0 +1,29 @@
+{
+  "conversation_id": "0b0dbc72-f84a-42d4-8e6c-0827d35df036",
+  "classified_at": "2026-07-01T17:14:18.095098+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4299,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 30,
+      "knowledge-grade": 52,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 5,
+    "has_attachments": false,
+    "message_count": 4
+  },
+  "rationale": "The conversation synthesizes a comprehensive business strategy for a specific coaching niche, resulting in a structured framework (Calendar Chaos Transformation Format) and an engagement protocol that can be applied as a repeatable methodology.",
+  "extraction_value": 8,
+  "expert_named": "LinkedIn Growth Strategist",
+  "reusable_asset": true,
+  "title": "Developing a LinkedIn Strategy for Coach Cooz's Business",
+  "md_path": ".tmp/claude-export/normalized/conversations/0b0dbc72-f84a-42d4-8e6c-0827d35df036.md",
+  "recommended_route": "extract-forge"
+}

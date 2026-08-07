@@ -1,0 +1,29 @@
+{
+  "conversation_id": "69f259c3-a0d7-4385-a7ca-5a8ed1a8b6b6",
+  "classified_at": "2026-07-01T17:07:00.927927+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 14728,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 39,
+      "knowledge-grade": 15,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 14
+  },
+  "rationale": "The conversation focuses on building a comprehensive, plug-and-play prompt suite and framework for automated content processing. The user is explicitly creating a reusable system of prompts to be applied across various LLMs, which fits the definition of a prompt-tool-grade asset.",
+  "extraction_value": 9,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Comprehensive Prompt Frameworks for Automated Content Processing",
+  "md_path": ".tmp/claude-export/normalized/conversations/69f259c3-a0d7-4385-a7ca-5a8ed1a8b6b6.md",
+  "recommended_route": "convert-prompt"
+}

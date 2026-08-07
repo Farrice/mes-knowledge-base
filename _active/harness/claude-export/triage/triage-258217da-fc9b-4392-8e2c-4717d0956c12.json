@@ -1,0 +1,29 @@
+{
+  "conversation_id": "258217da-fc9b-4392-8e2c-4717d0956c12",
+  "classified_at": "2026-07-01T16:59:50.975150+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 11705,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 2,
+      "knowledge-grade": 66,
+      "personal-context-grade": 56,
+      "project-deliverable-grade": 13
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The user has developed a structured system prompt ('Rhythm and Flow Specialist') designed to be reused for prose optimization tasks. The conversation focuses on refining and applying this specific tool to a large text input.",
+  "extraction_value": 8,
+  "expert_named": "Rhythm and Flow Specialist",
+  "reusable_asset": true,
+  "title": "Optimizing Text for Readability",
+  "md_path": ".tmp/claude-export/normalized/conversations/258217da-fc9b-4392-8e2c-4717d0956c12.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "40d7b106-09d1-42e1-8ac8-e19a458a2dd6",
+  "classified_at": "2026-07-01T16:57:40.998526+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5564,
+    "marker_hits": {
+      "prompt-tool-grade": 6,
+      "extraction-grade": 2,
+      "knowledge-grade": 22,
+      "personal-context-grade": 14,
+      "project-deliverable-grade": 0
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 10
+  },
+  "rationale": "The conversation provides a comprehensive, evidence-based guide on managing infant teething, gas, and sleep transitions. It synthesizes developmental advice into actionable strategies, making it a high-value reference for parents, though it does not constitute a formal 'named' methodology.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Teething Troubles: Helping Your 8-Month-Old Cope",
+  "md_path": ".tmp/claude-export/normalized/conversations/40d7b106-09d1-42e1-8ac8-e19a458a2dd6.md",
+  "recommended_route": "convert-prompt"
+}

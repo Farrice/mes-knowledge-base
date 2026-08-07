@@ -1,0 +1,29 @@
+{
+  "conversation_id": "8556b6a4-5eb1-438c-a346-72f68908cafc",
+  "classified_at": "2026-07-01T17:09:18.253170+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 17485,
+    "marker_hits": {
+      "prompt-tool-grade": 8,
+      "extraction-grade": 0,
+      "knowledge-grade": 24,
+      "personal-context-grade": 32,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 12
+  },
+  "rationale": "The conversation involves a deep synthesis of pedagogical research, personal context regarding a specific educator's mission, and the development of a thought-leadership strategy. It functions as a knowledge repository for a specific educational framework (HVC) and its application in market positioning.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Spreading Principles of Human Values in Education",
+  "md_path": ".tmp/claude-export/normalized/conversations/8556b6a4-5eb1-438c-a346-72f68908cafc.md",
+  "recommended_route": "convert-prompt"
+}

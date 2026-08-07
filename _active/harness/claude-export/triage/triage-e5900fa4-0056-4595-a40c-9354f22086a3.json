@@ -1,0 +1,29 @@
+{
+  "conversation_id": "e5900fa4-0056-4595-a40c-9354f22086a3",
+  "classified_at": "2026-07-01T17:04:00.101432+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 77669,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 2,
+      "knowledge-grade": 7,
+      "personal-context-grade": 3,
+      "project-deliverable-grade": 8
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 30
+  },
+  "rationale": "The conversation focuses on operationalizing a specific content transformation framework into a 'plug-and-play' suite of prompts. The user is building a reusable system for content processing, which aligns perfectly with the prompt-tool-grade definition.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Enhancing Content Transformation with Unified System",
+  "md_path": ".tmp/claude-export/normalized/conversations/e5900fa4-0056-4595-a40c-9354f22086a3.md",
+  "recommended_route": "convert-prompt"
+}

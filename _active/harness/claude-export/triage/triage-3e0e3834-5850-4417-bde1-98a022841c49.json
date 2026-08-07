@@ -1,0 +1,31 @@
+{
+  "conversation_id": "3e0e3834-5850-4417-bde1-98a022841c49",
+  "classified_at": "2026-07-01T16:58:42.408271+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 40731,
+    "marker_hits": {
+      "prompt-tool-grade": 3,
+      "extraction-grade": 6,
+      "knowledge-grade": 31,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "iha"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 12
+  },
+  "rationale": "The conversation represents a comprehensive synthesis of a large-scale copywriting course into a structured study guide. It distills complex marketing frameworks (anti-hero's journey, levels of consciousness) into a reusable educational resource, making it high-value knowledge.",
+  "extraction_value": 8,
+  "expert_named": "IHA",
+  "reusable_asset": true,
+  "title": "Day 3- Ai Avatar Comprehensive Copywriting Study Guide",
+  "md_path": ".tmp/claude-export/normalized/conversations/3e0e3834-5850-4417-bde1-98a022841c49.md",
+  "recommended_route": "convert-prompt"
+}

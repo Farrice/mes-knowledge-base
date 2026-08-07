@@ -1,0 +1,29 @@
+{
+  "conversation_id": "dbfc0fd1-74fe-46ee-a313-bb9d2e9977b7",
+  "classified_at": "2026-07-01T17:10:07.466276+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 35489,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 39,
+      "knowledge-grade": 32,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 10
+    },
+    "expert_hits": [],
+    "code_blocks": 25,
+    "has_attachments": true,
+    "message_count": 47
+  },
+  "rationale": "The conversation is a high-volume, multi-turn project execution session focused on creating specific marketing assets (a 5-day campaign) for a client. It involves drafting content, strategy implementation, and iterative refinement, which is the definition of a project deliverable.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Virtuoso-Enhanced 5-Day Campaign March 3,2025",
+  "md_path": ".tmp/claude-export/normalized/conversations/dbfc0fd1-74fe-46ee-a313-bb9d2e9977b7.md",
+  "recommended_route": "ingest-only"
+}

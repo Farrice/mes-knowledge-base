@@ -1,0 +1,29 @@
+{
+  "conversation_id": "4a9b3206-4306-4adf-91d2-f43eadd1e889",
+  "classified_at": "2026-07-01T17:15:09.520040+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 10722,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 41,
+      "knowledge-grade": 84,
+      "personal-context-grade": 13,
+      "project-deliverable-grade": 6
+    },
+    "expert_hits": [],
+    "code_blocks": 28,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation involves the development of a comprehensive, structured content strategy and a specific methodology for a premium coaching business. It includes a 30-day calendar, engagement tactics, and high-quality copy templates that function as a repeatable framework for client acquisition.",
+  "extraction_value": 9,
+  "expert_named": "Coach Cooz Performance Methodology",
+  "reusable_asset": true,
+  "title": "Premium Performance Coaching Content Strategy",
+  "md_path": ".tmp/claude-export/normalized/conversations/4a9b3206-4306-4adf-91d2-f43eadd1e889.md",
+  "recommended_route": "extract-forge"
+}

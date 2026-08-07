@@ -1,0 +1,31 @@
+{
+  "conversation_id": "edb1d0d0-7689-4b5f-9187-e53b165c43aa",
+  "classified_at": "2026-07-01T16:59:21.115633+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 44583,
+    "marker_hits": {
+      "prompt-tool-grade": 13,
+      "extraction-grade": 0,
+      "knowledge-grade": 16,
+      "personal-context-grade": 10,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [
+      "roth"
+    ],
+    "code_blocks": 5,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is explicitly requesting the creation of a reusable system prompt (custom instructions) based on the methodology found in the provided book 'Brain Glue'. This is a classic use case for building a specialized AI persona or tool.",
+  "extraction_value": 8,
+  "expert_named": "Roth",
+  "reusable_asset": true,
+  "title": "Copywriting Instructions from Brain Glue",
+  "md_path": ".tmp/claude-export/normalized/conversations/edb1d0d0-7689-4b5f-9187-e53b165c43aa.md",
+  "recommended_route": "convert-prompt"
+}

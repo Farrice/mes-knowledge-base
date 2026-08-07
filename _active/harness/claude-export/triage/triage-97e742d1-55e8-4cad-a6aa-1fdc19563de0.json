@@ -1,0 +1,29 @@
+{
+  "conversation_id": "97e742d1-55e8-4cad-a6aa-1fdc19563de0",
+  "classified_at": "2026-07-01T16:57:19.266967+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 9387,
+    "marker_hits": {
+      "prompt-tool-grade": 239,
+      "extraction-grade": 6,
+      "knowledge-grade": 36,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 12
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 10
+  },
+  "rationale": "The conversation focuses on the mechanics of persona-based prompt engineering, resulting in the creation of a meta-prompt system and a suite of reusable prompt assets for the user.",
+  "extraction_value": 8,
+  "expert_named": "null",
+  "reusable_asset": true,
+  "title": "Persona-Based Prompt Engineering jul 29 2024",
+  "md_path": ".tmp/claude-export/normalized/conversations/97e742d1-55e8-4cad-a6aa-1fdc19563de0.md",
+  "recommended_route": "convert-prompt"
+}

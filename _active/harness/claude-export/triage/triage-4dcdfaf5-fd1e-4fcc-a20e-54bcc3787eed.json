@@ -1,0 +1,29 @@
+{
+  "conversation_id": "4dcdfaf5-fd1e-4fcc-a20e-54bcc3787eed",
+  "classified_at": "2026-07-01T17:05:52.189545+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 5506,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 17,
+      "knowledge-grade": 53,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 4
+    },
+    "expert_hits": [],
+    "code_blocks": 2,
+    "has_attachments": true,
+    "message_count": 8
+  },
+  "rationale": "The conversation centers on refining a sophisticated meta-prompt system designed to be reused across various LLMs. It functions as a tool for prompt generation, making it a high-value reusable asset.",
+  "extraction_value": 9,
+  "expert_named": "Prompt Architect",
+  "reusable_asset": true,
+  "title": "Prompt Engineering System for Transformative AI Outputs",
+  "md_path": ".tmp/claude-export/normalized/conversations/4dcdfaf5-fd1e-4fcc-a20e-54bcc3787eed.md",
+  "recommended_route": "convert-prompt"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "f12761ef-f991-4feb-9fb1-550a972b87e4",
+  "classified_at": "2026-07-01T16:54:09.684790+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 114329,
+    "marker_hits": {
+      "prompt-tool-grade": 7,
+      "extraction-grade": 5,
+      "knowledge-grade": 24,
+      "personal-context-grade": 12,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The user provided a large source text (a book on injury rehabilitation) and requested a structured, in-depth extraction of principles and techniques. The output serves as a condensed, expert-level knowledge base derived from the source material.",
+  "extraction_value": 9,
+  "expert_named": "Injury Rehabilitation Specialist",
+  "reusable_asset": true,
+  "title": "Comprehensive Principles for Injury Rehabilitation",
+  "md_path": ".tmp/claude-export/normalized/conversations/f12761ef-f991-4feb-9fb1-550a972b87e4.md",
+  "recommended_route": "extract-forge"
+}

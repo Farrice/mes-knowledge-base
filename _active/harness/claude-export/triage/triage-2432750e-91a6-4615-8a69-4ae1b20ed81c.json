@@ -1,0 +1,29 @@
+{
+  "conversation_id": "2432750e-91a6-4615-8a69-4ae1b20ed81c",
+  "classified_at": "2026-07-01T17:19:44.344123+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 3806,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 12,
+      "knowledge-grade": 42,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 4,
+    "has_attachments": false,
+    "message_count": 8
+  },
+  "rationale": "The conversation focuses on formalizing a structured methodology for 'Customer Needs Analysis' by refining a multi-step implementation framework. It transforms a high-level project plan into a repeatable, actionable system for business assessment and client acquisition.",
+  "extraction_value": 8,
+  "expert_named": "Enhanced Customer Needs Analysis Framework",
+  "reusable_asset": true,
+  "title": "Implementing Enhanced Customer Needs Analysis",
+  "md_path": ".tmp/claude-export/normalized/conversations/2432750e-91a6-4615-8a69-4ae1b20ed81c.md",
+  "recommended_route": "extract-forge"
+}

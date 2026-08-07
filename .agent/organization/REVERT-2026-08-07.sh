@@ -1,6 +1,8 @@
 #!/bin/sh
 # Auto-generated inverse moves (newest first). Re-run to revert.
 
+mv -n "/Users/farricecain/Google Antigravity/_active/video-studio/hyperframes-studio" "/Users/farricecain/Google Antigravity/_active/hyperframes-studio"
+# Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/wagering/prediction-market-arb" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/prediction-market-arb"
 # Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/mybpm/mybpm-merch-os-run-1" "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/mybpm-merch-os-run-1"

@@ -1,0 +1,109 @@
+[
+  {
+    "mode": "lane",
+    "skill": "taylor-welch-wealthy-consultant",
+    "agent": "taylor-welch",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/434e4da9-ddf2-464f-a5c3-a7375cfd170b.md",
+      ".tmp/claude-export/normalized/conversations/7dc66297-299e-4594-8720-29f56d128b27.md",
+      ".tmp/claude-export/normalized/conversations/5d969590-9d8a-4a72-9a4c-5c743e5cd0b0.md",
+      ".tmp/claude-export/normalized/conversations/7778381e-dd03-4ea9-af31-9fec6326fefc.md",
+      ".tmp/claude-export/normalized/conversations/a27eec81-c9e2-4d27-913b-6eb88ea9b4cb.md",
+      ".tmp/claude-export/normalized/conversations/92b287b2-6402-46ee-b21a-1c6849e106ed.md",
+      ".tmp/claude-export/normalized/conversations/8d259419-600e-484c-84c2-e55f44c9bf80.md",
+      ".tmp/claude-export/normalized/conversations/99620950-ae2d-4563-8dc1-7e99ed2fb8b0.md",
+      ".tmp/claude-export/normalized/conversations/e8e1c310-8784-457e-adb7-62baf0342646.md",
+      ".tmp/claude-export/normalized/conversations/93604f19-c9a5-458d-a7a4-61ab0e9958d5.md"
+    ],
+    "total": 11,
+    "note": "Taylor Welch (Traffic & Funnels / The Wealthy Consultant): sales & wealth systems for coaches/consultants. Census mislabeled him \"manifestation\" \u2014 VERIFY identity from sources; his current work blends wealth psychology with consulting-business mechanics. Keep both layers if genuinely his."
+  },
+  {
+    "mode": "lane",
+    "skill": "jay-hiette-coaching-positioning",
+    "agent": "jay-hiette",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/8e18a4b6-fae7-4f41-9fe5-133a1613b3a1.md",
+      ".tmp/claude-export/normalized/conversations/a54b5e3f-2b1a-4dca-87fd-272df45486a6.md"
+    ],
+    "total": 2,
+    "note": "Jay Hiette: online coaching offers, belief-shifting, positioning (r9). Directly serves productizing coaching."
+  },
+  {
+    "mode": "lane",
+    "skill": "gabe-novotny-fitness-content-business",
+    "agent": "gabe-novotny",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/1d2c702c-9525-4b02-a10b-524afcae536e.md",
+      ".tmp/claude-export/normalized/conversations/6ccc454c-eef5-426a-8c18-7cc93afc3585.md",
+      ".tmp/claude-export/normalized/conversations/d1d8c7a9-a034-4990-8ae2-4f00cedb29c4.md",
+      ".tmp/claude-export/normalized/conversations/5827dfe6-b140-4cca-bc0d-e9354f6845bd.md",
+      ".tmp/claude-export/normalized/conversations/8bb8755f-d4e0-4c71-85e6-63adab5ee1c9.md",
+      ".tmp/claude-export/normalized/conversations/d7c54367-ed86-4e02-a462-4eb2f82d054f.md"
+    ],
+    "total": 6,
+    "note": "Gabe Novotny: fitness coaching + social-media monetization + viral content systems. VERIFY \"Gabe\" and \"Gabe Novotny\" are the same person from sources; merge into ONE lane. This is the business model of the user's S&C practice."
+  },
+  {
+    "mode": "lane",
+    "skill": "steven-kotler-flow-performance",
+    "agent": "steven-kotler",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/d844ffc0-8133-4dee-a383-8477dc181a4e.md",
+      ".tmp/claude-export/normalized/conversations/b8e5e232-4cf9-432a-922c-74e40c26dcbf.md",
+      ".tmp/claude-export/normalized/conversations/8338117f-f0a5-4760-bc80-b3b6fee81822.md",
+      ".tmp/claude-export/normalized/conversations/15e19af2-92d6-4954-bc5e-6bfb16ece900.md",
+      ".tmp/claude-export/normalized/conversations/7c705b11-9e4c-43a3-9ef7-2e361e6ade05.md"
+    ],
+    "total": 5,
+    "note": "Steven Kotler: flow states, peak performance & creativity science (Flow Research Collective). The transformation layer for premium coaching."
+  },
+  {
+    "mode": "lane",
+    "skill": "nir-eyal-habit-design",
+    "agent": "nir-eyal",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/d95fe4e8-4d78-404c-8943-8ea0354ed5cb.md",
+      ".tmp/claude-export/normalized/conversations/24e77828-419c-4250-a60b-112fd85bcb31.md"
+    ],
+    "total": 2,
+    "note": "Nir Eyal: Hooked/Indistractable \u2014 habit formation + distraction design. Behavior-change layer for coaching offers."
+  },
+  {
+    "mode": "lane",
+    "skill": "mark-manson-values-psychology",
+    "agent": "mark-manson",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/2a2e8433-feda-477c-ae37-e4f1c49a1f5f.md",
+      ".tmp/claude-export/normalized/conversations/5c9b1db0-a6dc-401d-9ea9-dc2a2dc1f3a9.md",
+      ".tmp/claude-export/normalized/conversations/61aa7f40-9624-4799-9524-b551f81002c7.md",
+      ".tmp/claude-export/normalized/conversations/b425a61a-5930-42c5-870a-9ffaaa810c19.md"
+    ],
+    "total": 4,
+    "note": "Mark Manson: values-based psychology & wellbeing. Mindset layer for transformation coaching."
+  },
+  {
+    "mode": "lane",
+    "skill": "yuri-elkaim-health-coaching-business",
+    "agent": "yuri-elkaim",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/3c7fe82a-5236-4429-bae9-51d8756a6ede.md",
+      ".tmp/claude-export/normalized/conversations/dcbc85af-a5d5-4390-8eb0-d39451094c44.md"
+    ],
+    "total": 2,
+    "note": "Yuri Elkaim: health coaching business building (r8). Small focused lane; self-skip if material is thin."
+  },
+  {
+    "mode": "hub",
+    "skill": "coaching-business-os",
+    "agent": "coaching-business-os",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/6d0b4b59-851c-40f6-a272-76a52a22c091.md",
+      ".tmp/claude-export/normalized/conversations/e7750d05-c6dc-4e6a-b7e7-5f1c0997383f.md",
+      ".tmp/claude-export/normalized/conversations/d91d258e-903f-4679-8a6c-0c4473832990.md",
+      ".tmp/claude-export/normalized/conversations/e5ac6852-9071-446f-8756-3284705aa4ac.md"
+    ],
+    "total": 4,
+    "note": "CONDUCTOR hub for the business-of-coaching vertical \u2014 a STANDALONE, self-sufficient system. Routes WITHIN its own lanes: offers/sales/wealth \u2192 taylor-welch-wealthy-consultant; positioning/beliefs \u2192 jay-hiette-coaching-positioning; fitness-content monetization \u2192 gabe-novotny-fitness-content-business; health-coaching biz \u2192 yuri-elkaim-health-coaching-business; transformation psychology \u2192 steven-kotler-flow-performance, nir-eyal-habit-design, mark-manson-values-psychology. IMPORTANT DESIGN RULE (user's explicit instruction): do NOT hardwire any handoff to strength-conditioning-os or any other hub \u2014 they are independent peer systems. At most, ONE line in Quick Reference may note that peers like strength-conditioning-os or existing lanes (luisa-zhou-coaching, dan-bolton-coaching-offers, greg-hickman-service-scaling) 'compose freely with this hub when a mission needs both' \u2014 an option, never a pipeline step, never a required route, never listed inside the Routing Map or workflow phases. No unnecessary experts stuffed anywhere. ALSO build references/field-guide.md from the input mds (Jonathan Mast: personal-training AI tools; Ariel Kim + James Smith: health-coaching content/business) one tight section each. Workflows: 01-diagnose-and-route-business-need (within THIS hub's lanes), 02-design-coaching-offer-stack (compose THIS hub's lanes into one offer architecture)."
+  }
+]

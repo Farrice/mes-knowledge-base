@@ -1,0 +1,29 @@
+{
+  "conversation_id": "7127fcc7-db94-4146-baad-523e67bcf589",
+  "classified_at": "2026-07-01T17:15:22.587191+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 4526,
+    "marker_hits": {
+      "prompt-tool-grade": 8,
+      "extraction-grade": 4,
+      "knowledge-grade": 20,
+      "personal-context-grade": 11,
+      "project-deliverable-grade": 9
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 12
+  },
+  "rationale": "The user is developing a structured framework for content creation (screenwriting advice for social media) that functions as a reusable system for generating high-quality, platform-specific scripts. The output is a repeatable prompt-based workflow.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Captivating Screenwriting Advice for Social Media",
+  "md_path": ".tmp/claude-export/normalized/conversations/7127fcc7-db94-4146-baad-523e67bcf589.md",
+  "recommended_route": "convert-prompt"
+}

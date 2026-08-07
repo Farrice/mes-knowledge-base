@@ -11,7 +11,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-07 | active |
 | `health-performance-ip-library` | _active/ | `_active/knowledge/health-performance-ip-library/INDEX.md` | 2026-08-07 | active* |
 | `linkedin-launch` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-07 | active* |
-| `hyperframes-studio` | _active/ | `_active/hyperframes-studio/README.md` | 2026-08-06 | active* |
+| `hyperframes-studio` | _active/ | `_active/video-studio/hyperframes-studio/README.md` | 2026-08-06 | active* |
 | `kdp-book-one-pilot` | _active/ | `_active/publishing/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md` | 2026-08-06 | active* |
 | `mastery-forge` | _active/ | `_active/knowledge/mastery-forge/INDEX.md` | 2026-08-06 | active* |
 | `search-content-mastery` | _active/ | **— none —** | 2026-08-06 | active* |
@@ -90,7 +90,7 @@ Contradictions only — not a list of unstamped projects.
 
 - **status_done_but_live** — `_active/harness/codex-harvest-2026-06-11`: stamped done, then touched 0d ago
 - **missing_index** — `_active/offer-strategy/digital-product-lane-2026-08-05`: no INDEX.md — project has no entry point
-- **missing_index** — `_active/hyperframes-studio`: no INDEX.md — project has no entry point
+- **missing_index** — `_active/video-studio/hyperframes-studio`: no INDEX.md — project has no entry point
 - **missing_index** — `_active/publishing/kdp-book-one-pilot`: no INDEX.md — project has no entry point
 - **dual_taxonomy** — `_active/linkedin`: 05-* collision: 05-assets + 05-lead-gen
 - **status_done_but_live** — `_active/harness/operator-cockpit-v2`: stamped done, then touched 8d ago

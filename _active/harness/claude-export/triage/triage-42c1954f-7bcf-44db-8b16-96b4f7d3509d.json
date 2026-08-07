@@ -1,0 +1,32 @@
+{
+  "conversation_id": "42c1954f-7bcf-44db-8b16-96b4f7d3509d",
+  "classified_at": "2026-07-01T16:54:26.811473+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 47607,
+    "marker_hits": {
+      "prompt-tool-grade": 11,
+      "extraction-grade": 5,
+      "knowledge-grade": 11,
+      "personal-context-grade": 12,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [
+      "roth",
+      "schwartz"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 20
+  },
+  "rationale": "The conversation involves a systematic extraction of principles and techniques from a specific book (The Persuasion Story Code) into a structured summary, which is then converted into a reusable prompt format.",
+  "extraction_value": 9,
+  "expert_named": "David Garfinkel",
+  "reusable_asset": true,
+  "title": "In-Depth Summary of Persuasion Story Principles",
+  "md_path": ".tmp/claude-export/normalized/conversations/42c1954f-7bcf-44db-8b16-96b4f7d3509d.md",
+  "recommended_route": "extract-forge"
+}

@@ -1,0 +1,31 @@
+{
+  "conversation_id": "d3aafa68-70ff-4149-b0b3-9c263cd9aa54",
+  "classified_at": "2026-07-01T16:52:09.362192+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 38680,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 6,
+      "knowledge-grade": 36,
+      "personal-context-grade": 5,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "iha"
+    ],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The conversation is a deep-dive analysis of a comprehensive course transcript, synthesizing complex copywriting principles and pedagogical content into structured insights. It functions as a knowledge repository for the user's learning materials.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Day 1 of Ai Avatar Course Transcript",
+  "md_path": ".tmp/claude-export/normalized/conversations/d3aafa68-70ff-4149-b0b3-9c263cd9aa54.md",
+  "recommended_route": "convert-prompt"
+}

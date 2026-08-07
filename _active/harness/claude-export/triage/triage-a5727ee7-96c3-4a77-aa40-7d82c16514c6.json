@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a5727ee7-96c3-4a77-aa40-7d82c16514c6",
+  "classified_at": "2026-07-01T17:01:33.930474+00:00",
+  "classified_by": "llm",
+  "bucket": "personal-context-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 8173,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 4,
+      "knowledge-grade": 65,
+      "personal-context-grade": 33,
+      "project-deliverable-grade": 5
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The conversation serves as a foundational briefing document where the user establishes their personal background, constraints, and strategic vision for a new business venture. It functions primarily as a context-setting session for future collaboration.",
+  "extraction_value": 3,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Developing an AI-Driven Digital Wealth Strategy",
+  "md_path": ".tmp/claude-export/normalized/conversations/a5727ee7-96c3-4a77-aa40-7d82c16514c6.md",
+  "recommended_route": "ingest-only"
+}

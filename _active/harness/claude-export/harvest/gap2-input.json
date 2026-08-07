@@ -1,0 +1,271 @@
+[
+  {
+    "target": "nate-b-jones-*",
+    "agent": "nate-b-jones",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/3cdabc06-a9e7-427a-83f8-1b83f6ffa7a0.md",
+      ".tmp/claude-export/normalized/conversations/366d70e8-272a-4ef6-80ef-e725324c870c.md",
+      ".tmp/claude-export/normalized/conversations/1b8a489c-6d96-42da-a68c-81f082353bbc.md",
+      ".tmp/claude-export/normalized/conversations/ff125538-9818-401a-b4f5-4902f0400828.md",
+      ".tmp/claude-export/normalized/conversations/a8e9b3ee-cd0e-4fec-8682-20b5a258762d.md",
+      ".tmp/claude-export/normalized/conversations/c0ffc21a-7ce6-4632-a9aa-64a4415e3efb.md",
+      ".tmp/claude-export/normalized/conversations/0ee5fc4c-9a58-447a-9a1e-b93f6d2c8aaf.md"
+    ],
+    "total": 7,
+    "note": "Nate B. Jones has 7 skills (context-engineering, intent-engineering, auto-improvement-loops, orchestration-intelligence, trust-architecture, ai-taste-mastery, agent-deployment-strategy) \u2014 read all SKILL.mds, route net-new to the right one(s). CORE skills \u2014 quality bar is high."
+  },
+  {
+    "target": "alen-sultanic-copywriting",
+    "agent": "alen-sultanic",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/f9e44c84-b412-4f30-b2aa-f6602fd9b9c9.md",
+      ".tmp/claude-export/normalized/conversations/5831fd1c-7daa-46f3-8308-9392adbac550.md",
+      ".tmp/claude-export/normalized/conversations/23f3a0b0-15f8-43ed-8f61-869fc8a3369b.md",
+      ".tmp/claude-export/normalized/conversations/c7d84a7e-b249-48f4-bbbb-a3bfbdbe23f8.md",
+      ".tmp/claude-export/normalized/conversations/152e785f-497d-4c0c-bb6c-366f43673c7b.md",
+      ".tmp/claude-export/normalized/conversations/b0dde734-a365-47ac-9c4a-b044bdcbacf5.md",
+      ".tmp/claude-export/normalized/conversations/0212b1d1-9517-4416-867c-d5a6d4fe5e01.md",
+      ".tmp/claude-export/normalized/conversations/a16bab86-a49d-486b-9fb8-7b3eb01d8fcc.md",
+      ".tmp/claude-export/normalized/conversations/997f7351-364c-4202-9157-abb1f3372842.md",
+      ".tmp/claude-export/normalized/conversations/7522d0d6-77e1-4a65-97f4-559b7190a8fb.md"
+    ],
+    "total": 10,
+    "note": "NHB/fastforward copy + buyer psychology depth."
+  },
+  {
+    "target": "shaan-puri-storytelling",
+    "agent": "shaan-puri",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/dd92843b-67bb-4aae-b7b0-89d8c36219aa.md",
+      ".tmp/claude-export/normalized/conversations/5970a8e5-b590-41a7-b07c-b1facf409b36.md",
+      ".tmp/claude-export/normalized/conversations/af291be1-fa5f-444d-bd37-75598dec85c4.md",
+      ".tmp/claude-export/normalized/conversations/f773975e-264e-46a9-a9fb-3c427f94f52f.md",
+      ".tmp/claude-export/normalized/conversations/e1074598-6839-491c-a948-605723e892b3.md",
+      ".tmp/claude-export/normalized/conversations/4e3c0d98-3ccc-45b6-b15e-a554fcb2002b.md",
+      ".tmp/claude-export/normalized/conversations/c1749a67-aa1d-4afb-b3f3-ae69b4b26145.md",
+      ".tmp/claude-export/normalized/conversations/5b6cc764-cd2f-4a3d-b04a-454ec8a63a2a.md",
+      ".tmp/claude-export/normalized/conversations/cc35cfa7-fdd1-4698-bcc5-75483e16b651.md"
+    ],
+    "total": 9,
+    "note": "Storytelling/MFM frameworks; also check shaan-puri-* variants."
+  },
+  {
+    "target": "lara-acosta-linkedin-growth",
+    "agent": "lara-acosta",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/7bbb5bf2-dcba-487d-b730-a700d0d81966.md",
+      ".tmp/claude-export/normalized/conversations/e2b35f60-6b9e-4b6e-8089-1fc390f68f7c.md",
+      ".tmp/claude-export/normalized/conversations/b51f40c7-6bd8-4c21-b144-07d792920773.md",
+      ".tmp/claude-export/normalized/conversations/b5ed3682-11ce-4aaf-8d57-f64a81fe893c.md",
+      ".tmp/claude-export/normalized/conversations/6902ef8a-212a-469d-9d08-2cb5e2dcdfe8.md",
+      ".tmp/claude-export/normalized/conversations/21aca2bd-36aa-400a-9461-45cf2b2a1a37.md",
+      ".tmp/claude-export/normalized/conversations/c43e8309-4297-433f-9927-86ddd5e8830b.md",
+      ".tmp/claude-export/normalized/conversations/392218e9-db93-45d1-b245-8eb1c6c0c4d4.md",
+      ".tmp/claude-export/normalized/conversations/f06b784a-a2fb-45b5-920f-6efbb584194c.md"
+    ],
+    "total": 9,
+    "note": "Lara has 3 skills (linkedin-growth, linkedin-mastery, content-system) \u2014 route net-new appropriately. CORE."
+  },
+  {
+    "target": "adam-enfroy-affiliate-marketing",
+    "agent": "adam-enfroy",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/0399ec2e-4fb3-46e4-8c25-8aa9791e90b2.md",
+      ".tmp/claude-export/normalized/conversations/0e373324-0607-4260-bf39-91e96288e9ac.md",
+      ".tmp/claude-export/normalized/conversations/37ffb888-c7f6-42ab-915d-ae731acc7800.md",
+      ".tmp/claude-export/normalized/conversations/52105d38-d38a-40ce-a34e-2fa4ef5e3405.md",
+      ".tmp/claude-export/normalized/conversations/53c149d7-49f9-47bf-a221-a2669ed817a3.md",
+      ".tmp/claude-export/normalized/conversations/2eb25f36-28c1-4164-b3fb-b8b8a9ccfa7c.md",
+      ".tmp/claude-export/normalized/conversations/a351d01b-3a35-49ad-a30f-09e57bd8eec5.md"
+    ],
+    "total": 7,
+    "note": "Blogging/affiliate velocity systems."
+  },
+  {
+    "target": "dan-koe-ai-leverage",
+    "agent": "dan-koe",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/c3481ab9-71a1-436d-a9c9-de286aa09517.md",
+      ".tmp/claude-export/normalized/conversations/c8f344dd-24af-4b82-9be2-c439940221dc.md",
+      ".tmp/claude-export/normalized/conversations/9a37af35-ed61-446c-83ea-f8ea5d625d99.md",
+      ".tmp/claude-export/normalized/conversations/688d0de0-a0f7-4f4f-bf35-2641e579df61.md",
+      ".tmp/claude-export/normalized/conversations/e61ef267-21c6-4542-abf8-4ca0db1970f8.md",
+      ".tmp/claude-export/normalized/conversations/928d2201-82e6-4111-9f00-7fd7f330c1b6.md",
+      ".tmp/claude-export/normalized/conversations/bb1cac15-6917-48ea-bce6-391bc7695794.md",
+      ".tmp/claude-export/normalized/conversations/4b3ec8b3-d3f2-4db6-ad31-6512cd96075b.md"
+    ],
+    "total": 8,
+    "note": "Dan Koe has 2 skills (ai-leverage, multipassionate-mastery) \u2014 route net-new."
+  },
+  {
+    "target": "stefan-georgi-dopamine-copy",
+    "agent": "stefan-georgi",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/139e786f-e933-4aab-9378-96f5b279c4f5.md",
+      ".tmp/claude-export/normalized/conversations/0ad78f8d-144e-4741-8840-32385280f932.md",
+      ".tmp/claude-export/normalized/conversations/277d75db-bec8-4db0-814d-20794746afe2.md",
+      ".tmp/claude-export/normalized/conversations/015509f3-8e42-40e1-a197-1064366a5555.md",
+      ".tmp/claude-export/normalized/conversations/2b8d6ff8-3847-4560-9e81-3c50692c7477.md",
+      ".tmp/claude-export/normalized/conversations/c5896776-edd5-462a-8ee7-ca0581108ee0.md",
+      ".tmp/claude-export/normalized/conversations/f3cb469c-a5f2-4924-ba05-12e5c0d42950.md",
+      ".tmp/claude-export/normalized/conversations/b73a7e4f-15c4-434a-be34-154bbf8cf8c3.md"
+    ],
+    "total": 8,
+    "note": "RMBC + dopamine copy. CORE skill."
+  },
+  {
+    "target": "mark-kashef-*",
+    "agent": "mark-kashef",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/800d4004-2ca1-4dc2-ab52-64ad6439c8df.md",
+      ".tmp/claude-export/normalized/conversations/5d7b918e-77c4-4c8e-8762-71bbfcf3d424.md",
+      ".tmp/claude-export/normalized/conversations/71b29c56-50ec-488e-9e9c-04c8c2fd8f52.md",
+      ".tmp/claude-export/normalized/conversations/6bb7beba-ee38-4802-af0b-33f1642655bc.md",
+      ".tmp/claude-export/normalized/conversations/36d86a93-1b3a-4737-a203-11ed6359f4c0.md",
+      ".tmp/claude-export/normalized/conversations/6c33c47b-56cf-4c99-a974-e7f26c6145cf.md",
+      ".tmp/claude-export/normalized/conversations/f9ac602d-0444-4a7b-88d3-4ddeaf49fbd1.md",
+      ".tmp/claude-export/normalized/conversations/cf8bed2f-efb2-4933-b819-e1a218ce5257.md"
+    ],
+    "total": 8,
+    "note": "Mark Kashef has 5 skills (agent-orchestration, ai-councils, banana-squad, claude-claw, visual-design) \u2014 route net-new."
+  },
+  {
+    "target": "joanna-wiebe-*",
+    "agent": "joanna-wiebe",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/620ee27d-c9a0-4fff-89db-347c628d88f5.md",
+      ".tmp/claude-export/normalized/conversations/4adf47d2-ffeb-498e-b2fb-0787b8cd62b0.md",
+      ".tmp/claude-export/normalized/conversations/6fc6efb5-4479-4711-a6a5-cc079a5196b3.md",
+      ".tmp/claude-export/normalized/conversations/4dc84696-183c-4b4a-ba62-2ffaad005a43.md",
+      ".tmp/claude-export/normalized/conversations/11102c5f-8030-46ac-b3b6-3b29e3f1fce5.md",
+      ".tmp/claude-export/normalized/conversations/7978a5e2-7a8a-4e8f-a41e-def957840b04.md",
+      ".tmp/claude-export/normalized/conversations/73ab729f-d9d1-4f8c-9632-3d8d597ebf8c.md",
+      ".tmp/claude-export/normalized/conversations/06ca0e74-a8f1-48c2-a98b-cef62033425b.md"
+    ],
+    "total": 8,
+    "note": "2 skills (persuasion-mastery, writing-careers) \u2014 route net-new."
+  },
+  {
+    "target": "john-whiting-propaganda-machine",
+    "agent": "john-whiting",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/08dc89e0-d630-4170-b41c-f04183909573.md",
+      ".tmp/claude-export/normalized/conversations/d6886b75-f0a2-450b-8da4-e4bc8148eb41.md",
+      ".tmp/claude-export/normalized/conversations/d948edd0-0bc3-4ca1-92ec-0ed3675d8719.md",
+      ".tmp/claude-export/normalized/conversations/fa8ea0cb-17c0-4095-b8df-a13a85c4fb0f.md",
+      ".tmp/claude-export/normalized/conversations/ef6dcb1a-8a14-4789-ae0e-c67e37f690da.md",
+      ".tmp/claude-export/normalized/conversations/582a0277-aade-4eb2-a593-e4d5312978f4.md",
+      ".tmp/claude-export/normalized/conversations/ec97898a-97c8-452c-a068-c6f5ee7974b3.md"
+    ],
+    "total": 7,
+    "note": "Also /jw-engine exists \u2014 enrich the skill, note engine."
+  },
+  {
+    "target": "donald-miller-*",
+    "agent": "donald-miller",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/7d1b3890-2846-46a0-97b2-2c0a7735203a.md",
+      ".tmp/claude-export/normalized/conversations/5d39c8c8-8bf8-41eb-b370-1e85482d0a8a.md",
+      ".tmp/claude-export/normalized/conversations/ec11e932-88f1-455e-adf4-034c00c3dd71.md",
+      ".tmp/claude-export/normalized/conversations/552f58aa-9cb0-4cb1-a5de-0cc579cebcd7.md",
+      ".tmp/claude-export/normalized/conversations/070d6d65-89ed-416c-9c8f-98f1d02f8080.md",
+      ".tmp/claude-export/normalized/conversations/e1be8f45-a105-4bc4-b631-e1430e7da7d9.md"
+    ],
+    "total": 6,
+    "note": "5 storybrand-family skills \u2014 route net-new."
+  },
+  {
+    "target": "rory-sutherland-marketing",
+    "agent": "rory-sutherland",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/cc8137fe-a600-4dec-8841-44c571bdd6be.md",
+      ".tmp/claude-export/normalized/conversations/af891b20-121c-4aa1-9ed7-856e5b23535f.md",
+      ".tmp/claude-export/normalized/conversations/b48c2624-c6be-4b2f-b104-74325e915fc3.md",
+      ".tmp/claude-export/normalized/conversations/239d5849-8061-42d4-81da-4357beca9c50.md",
+      ".tmp/claude-export/normalized/conversations/6454e30a-8ee0-4c19-9625-7b13e60aac63.md",
+      ".tmp/claude-export/normalized/conversations/64042c51-d89b-4c8c-8b87-0f33c70a2179.md"
+    ],
+    "total": 6,
+    "note": "Behavioral/alchemy lens. CORE-adjacent."
+  },
+  {
+    "target": "ward-farnsworth-rhetorical-mastery",
+    "agent": "ward-farnsworth",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/e7f74d9b-b9d7-4ea6-ae22-eb62d2551a02.md",
+      ".tmp/claude-export/normalized/conversations/a7e84633-fbfa-4e8c-8792-f62be21e63e8.md",
+      ".tmp/claude-export/normalized/conversations/71836eb8-70e5-49f3-a81c-f8fd7806d1f2.md",
+      ".tmp/claude-export/normalized/conversations/f5041af0-7f6c-4cd3-93a1-a337363fd078.md",
+      ".tmp/claude-export/normalized/conversations/1227a4fe-e8ff-455a-b2d0-7679e5e276e8.md",
+      ".tmp/claude-export/normalized/conversations/206b7b62-df69-4a3f-a247-a21ca3a762e4.md"
+    ],
+    "total": 6,
+    "note": "Classical rhetoric depth."
+  },
+  {
+    "target": "nick-saraev-*",
+    "agent": "nick-saraev",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/c0bb74f5-f806-4bcb-9d0b-33ac53a4c76e.md",
+      ".tmp/claude-export/normalized/conversations/33b67fa6-bbd5-405b-babc-349d66126511.md",
+      ".tmp/claude-export/normalized/conversations/d7386e0a-68a1-4a51-ac97-1f334853704d.md",
+      ".tmp/claude-export/normalized/conversations/17a1845f-e53e-4eb7-9fe4-b48f9974a4f4.md",
+      ".tmp/claude-export/normalized/conversations/a0ac86b6-0cf5-4b99-8f82-3afdb9c109e6.md",
+      ".tmp/claude-export/normalized/conversations/67868b7a-ad52-4ffa-afad-0b5cc1195c34.md"
+    ],
+    "total": 6,
+    "note": "2 skills (agentic-workflows, bottleneck-thinking) \u2014 route net-new."
+  },
+  {
+    "target": "dara-denney-meta-ads",
+    "agent": "dara-denney",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/09f02312-13b3-469c-9269-d5c59b6e7fc8.md",
+      ".tmp/claude-export/normalized/conversations/ded1bb9a-3a66-4b93-b473-4e406db2bd40.md",
+      ".tmp/claude-export/normalized/conversations/27e98287-4603-4202-9223-eea563597375.md",
+      ".tmp/claude-export/normalized/conversations/c9b17cef-7ba8-4ba2-a087-4d82f1326bb3.md",
+      ".tmp/claude-export/normalized/conversations/d1ead71f-c4f8-44e6-b2dd-27acfb1c5ded.md"
+    ],
+    "total": 5,
+    "note": "DTC creative strategy 2026 formats. CORE."
+  },
+  {
+    "target": "oren-taste-development",
+    "agent": "oren",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/022735b3-58c0-41cb-ae1b-2694691b209f.md",
+      ".tmp/claude-export/normalized/conversations/db1b5d13-92ab-41cc-84c2-18eefa74d34b.md",
+      ".tmp/claude-export/normalized/conversations/3b78b3ab-ad68-4196-bec9-80b8482dc1a9.md",
+      ".tmp/claude-export/normalized/conversations/8cd31d61-381d-4e45-95ba-277a4f400c41.md",
+      ".tmp/claude-export/normalized/conversations/0736fd3d-e878-4e97-9b58-e6b6e41732cf.md"
+    ],
+    "total": 5,
+    "note": "Distinct \"Oren\" convs beyond the Oren John batch already folded \u2014 dedup EXTRA hard vs all oren-* skills including the hook-stack-2026 additions."
+  },
+  {
+    "target": "omar-eltakrori",
+    "agent": "omar-eltakrori",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/5faedbc7-fb3f-4a11-8288-986937b22aab.md",
+      ".tmp/claude-export/normalized/conversations/2529334e-4400-4380-92ec-91dad5f43b2b.md",
+      ".tmp/claude-export/normalized/conversations/e7815dbd-cd3f-4dec-b300-67717c1664bd.md",
+      ".tmp/claude-export/normalized/conversations/2280f7ce-017f-4fd1-b64d-fa8498819c54.md",
+      ".tmp/claude-export/normalized/conversations/42449c0b-7ec4-4cc7-8c96-4ff833fc0fd3.md"
+    ],
+    "total": 5,
+    "note": "Teach & Grow Rich OS (15 /oe-* workflows) \u2014 route net-new."
+  },
+  {
+    "target": "vincent-hu",
+    "agent": "vincent-hu",
+    "mds": [
+      ".tmp/claude-export/normalized/conversations/57182f1b-7e63-46cb-bc62-efad0ba0a0f8.md",
+      ".tmp/claude-export/normalized/conversations/6ffefdfc-786f-4df4-b7ab-d641e9150c09.md",
+      ".tmp/claude-export/normalized/conversations/11610313-a395-4ec5-ba6d-fa4b0842427c.md",
+      ".tmp/claude-export/normalized/conversations/346c8dbb-2121-4c46-8115-fe874ad44ea0.md",
+      ".tmp/claude-export/normalized/conversations/387b806b-f793-4fdb-bf6f-deaa5b258630.md"
+    ],
+    "total": 5,
+    "note": "Info-business architecture / growth ecosystems."
+  }
+]

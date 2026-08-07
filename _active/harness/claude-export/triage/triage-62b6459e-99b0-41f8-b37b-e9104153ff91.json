@@ -1,0 +1,29 @@
+{
+  "conversation_id": "62b6459e-99b0-41f8-b37b-e9104153ff91",
+  "classified_at": "2026-07-01T17:00:34.052729+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 23421,
+    "marker_hits": {
+      "prompt-tool-grade": 132,
+      "extraction-grade": 38,
+      "knowledge-grade": 48,
+      "personal-context-grade": 7,
+      "project-deliverable-grade": 3
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation is a structured meta-prompting exercise where the user is iteratively refining a prompt by embedding multi-disciplinary expert personas into a single, high-performance system prompt. The output is a reusable asset designed to improve future LLM interactions.",
+  "extraction_value": 8,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "DWA & Buisness in a Prompt- Research Material",
+  "md_path": ".tmp/claude-export/normalized/conversations/62b6459e-99b0-41f8-b37b-e9104153ff91.md",
+  "recommended_route": "convert-prompt"
+}

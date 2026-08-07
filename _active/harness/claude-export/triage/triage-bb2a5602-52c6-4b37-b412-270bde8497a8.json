@@ -1,0 +1,29 @@
+{
+  "conversation_id": "bb2a5602-52c6-4b37-b412-270bde8497a8",
+  "classified_at": "2026-07-01T17:05:09.193517+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2216,
+    "marker_hits": {
+      "prompt-tool-grade": 9,
+      "extraction-grade": 18,
+      "knowledge-grade": 15,
+      "personal-context-grade": 1,
+      "project-deliverable-grade": 6
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": false,
+    "message_count": 4
+  },
+  "rationale": "The user is explicitly installing a complex, multi-step prompt engineering framework into the AI's system instructions. This is a classic example of creating a reusable tool or system-level configuration to govern future interactions.",
+  "extraction_value": 9,
+  "expert_named": "Enhanced Advanced Collaborative Prompt Engineering Process",
+  "reusable_asset": true,
+  "title": "Integrating Advanced Prompt Engineering Framework",
+  "md_path": ".tmp/claude-export/normalized/conversations/bb2a5602-52c6-4b37-b412-270bde8497a8.md",
+  "recommended_route": "convert-prompt"
+}

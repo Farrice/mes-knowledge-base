@@ -1,0 +1,32 @@
+{
+  "conversation_id": "a7f0b3e3-c779-44af-aea3-10509aa024b5",
+  "classified_at": "2026-07-01T17:12:55.357290+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 2921,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 22,
+      "knowledge-grade": 46,
+      "personal-context-grade": 0,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [
+      "halbert",
+      "ogilvy"
+    ],
+    "code_blocks": 5,
+    "has_attachments": true,
+    "message_count": 10
+  },
+  "rationale": "The conversation involves the systematic refinement of a B2B research framework, incorporating expert methodologies like Customer Awareness Mapping. It transforms a raw prompt into a structured, reusable research methodology.",
+  "extraction_value": 9,
+  "expert_named": "Eugene Schwartz",
+  "reusable_asset": true,
+  "title": "Optimizing User Prompts for AI Assistance",
+  "md_path": ".tmp/claude-export/normalized/conversations/a7f0b3e3-c779-44af-aea3-10509aa024b5.md",
+  "recommended_route": "extract-forge"
+}

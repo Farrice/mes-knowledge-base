@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T17:16:09.513805+00:00",
+  "action": "project-relocate",
+  "moved_by": "shutil (untracked)",
+  "src": "_active/hyperframes-studio",
+  "dst": "_active/video-studio/hyperframes-studio",
+  "stub_left": false,
+  "files_moved": 5198,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_video-studio-edit-bay.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-06-video-studio-edit-bay.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/health/self-heal-latest.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/health/self-heal-report.json": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-08-06-video-studio-edit-bay.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.gitignore": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-08-06-video-studio-edit-bay.md": 1,
+    "/Users/farricecain/Google Antigravity/.gitignore": 1,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 2,
+    "/Users/farricecain/Google Antigravity/guides/2026-08-06-video-studio-edit-bay.md": 1
+  },
+  "total_rewrites": 17,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-07.sh"
+}

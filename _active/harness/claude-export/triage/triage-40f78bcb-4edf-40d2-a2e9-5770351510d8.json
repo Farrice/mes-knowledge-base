@@ -1,0 +1,29 @@
+{
+  "conversation_id": "40f78bcb-4edf-40d2-a2e9-5770351510d8",
+  "classified_at": "2026-07-01T16:54:35.534337+00:00",
+  "classified_by": "llm",
+  "bucket": "knowledge-grade",
+  "confidence": 0.9,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 20423,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 0,
+      "knowledge-grade": 7,
+      "personal-context-grade": 45,
+      "project-deliverable-grade": 1
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 2
+  },
+  "rationale": "The user is analyzing a specific document ('Niche Navigator') to extract actionable strategies and frameworks for a digital marketing brand and ebook. While it involves content creation, the primary value is the synthesis of existing knowledge into a structured guide for niche selection.",
+  "extraction_value": 7,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "Strategies for Choosing a Profitable Digital Marketing Niche",
+  "md_path": ".tmp/claude-export/normalized/conversations/40f78bcb-4edf-40d2-a2e9-5770351510d8.md",
+  "recommended_route": "convert-prompt"
+}

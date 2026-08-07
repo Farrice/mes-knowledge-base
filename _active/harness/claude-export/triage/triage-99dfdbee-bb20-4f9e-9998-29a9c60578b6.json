@@ -1,0 +1,31 @@
+{
+  "conversation_id": "99dfdbee-bb20-4f9e-9998-29a9c60578b6",
+  "classified_at": "2026-07-01T16:58:55.325638+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 6769,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 37,
+      "knowledge-grade": 100,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 6
+    },
+    "expert_hits": [
+      "ogilvy"
+    ],
+    "code_blocks": 0,
+    "has_attachments": false,
+    "message_count": 12
+  },
+  "rationale": "The conversation focuses on refining a meta-prompt designed to extract and structure educational content from transcripts into actionable frameworks. This is a classic prompt engineering task aimed at creating a reusable tool for knowledge synthesis.",
+  "extraction_value": 8,
+  "expert_named": "Ogilvy",
+  "reusable_asset": true,
+  "title": "Copywriting Prompt Enhancement for Practical Insights",
+  "md_path": ".tmp/claude-export/normalized/conversations/99dfdbee-bb20-4f9e-9998-29a9c60578b6.md",
+  "recommended_route": "convert-prompt"
+}

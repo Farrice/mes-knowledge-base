@@ -1,0 +1,29 @@
+{
+  "conversation_id": "692aedec-e7fe-42c9-83a3-ed4711669544",
+  "classified_at": "2026-07-01T17:16:30.860085+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 42372,
+    "marker_hits": {
+      "prompt-tool-grade": 1,
+      "extraction-grade": 47,
+      "knowledge-grade": 97,
+      "personal-context-grade": 8,
+      "project-deliverable-grade": 13
+    },
+    "expert_hits": [],
+    "code_blocks": 12,
+    "has_attachments": true,
+    "message_count": 22
+  },
+  "rationale": "The conversation is a structured, multi-phase business development project for a specific client (Coach Cooz). It involves strategic planning, lead generation, and platform building, making it a clear project deliverable.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": false,
+  "title": "Coaching Business Growth Plan for Coach Cooz",
+  "md_path": ".tmp/claude-export/normalized/conversations/692aedec-e7fe-42c9-83a3-ed4711669544.md",
+  "recommended_route": "ingest-only"
+}

@@ -1,0 +1,29 @@
+{
+  "conversation_id": "7f2ea067-468f-4901-8e64-59ead89f9591",
+  "classified_at": "2026-07-01T17:03:29.829352+00:00",
+  "classified_by": "llm",
+  "bucket": "project-deliverable-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 1198,
+    "marker_hits": {
+      "prompt-tool-grade": 0,
+      "extraction-grade": 4,
+      "knowledge-grade": 35,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 7
+    },
+    "expert_hits": [],
+    "code_blocks": 5,
+    "has_attachments": false,
+    "message_count": 8
+  },
+  "rationale": "The conversation is a direct request for specific business assets (outreach scripts, content calendars, and implementation frameworks) for a defined project, the AI Profit Accelerator. It functions as a tactical execution plan for a business launch.",
+  "extraction_value": 4,
+  "expert_named": "",
+  "reusable_asset": true,
+  "title": "LinkedIn Outreach Strategy for AI Profit Accelerator",
+  "md_path": ".tmp/claude-export/normalized/conversations/7f2ea067-468f-4901-8e64-59ead89f9591.md",
+  "recommended_route": "ingest-only"
+}

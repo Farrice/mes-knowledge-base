@@ -1,0 +1,29 @@
+{
+  "conversation_id": "40e6ec93-4d97-49dc-8279-9ac085ba6fdb",
+  "classified_at": "2026-07-01T16:57:02.365938+00:00",
+  "classified_by": "llm",
+  "bucket": "prompt-tool-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 25666,
+    "marker_hits": {
+      "prompt-tool-grade": 26,
+      "extraction-grade": 15,
+      "knowledge-grade": 50,
+      "personal-context-grade": 4,
+      "project-deliverable-grade": 26
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 32
+  },
+  "rationale": "The conversation is a meta-analysis and iterative refinement of a system prompt architecture. The user is building a sophisticated 'prompt-generator' system that embeds expert-panel personas into output prompts, which is a highly reusable tool for prompt engineering workflows.",
+  "extraction_value": 8,
+  "expert_named": "Prompt Engineering Expert Panel",
+  "reusable_asset": true,
+  "title": "Aug 1 2024-Enhancing Customized Instructions (Foundation Model)",
+  "md_path": ".tmp/claude-export/normalized/conversations/40e6ec93-4d97-49dc-8279-9ac085ba6fdb.md",
+  "recommended_route": "convert-prompt"
+}

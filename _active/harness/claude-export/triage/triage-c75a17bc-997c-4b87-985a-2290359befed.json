@@ -1,0 +1,29 @@
+{
+  "conversation_id": "c75a17bc-997c-4b87-985a-2290359befed",
+  "classified_at": "2026-07-01T17:15:48.210136+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 179980,
+    "marker_hits": {
+      "prompt-tool-grade": 4,
+      "extraction-grade": 36,
+      "knowledge-grade": 19,
+      "personal-context-grade": 7,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 0,
+    "has_attachments": true,
+    "message_count": 11
+  },
+  "rationale": "The conversation explicitly implements the KACE framework to process and structure complex knowledge into reusable expert systems. It functions as a meta-framework for knowledge extraction and prompt engineering.",
+  "extraction_value": 9,
+  "expert_named": "KACE (Knowledge Acquisition & Command Encapsulation Framework)",
+  "reusable_asset": true,
+  "title": "Copy Blocks: PDF Directors Cuts Edition Extraction",
+  "md_path": ".tmp/claude-export/normalized/conversations/c75a17bc-997c-4b87-985a-2290359befed.md",
+  "recommended_route": "extract-forge"
+}

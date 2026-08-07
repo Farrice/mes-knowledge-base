@@ -1,6 +1,6 @@
 # Javier Human Values — start here
 
-*Generated 2026-08-07 16:50 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 17:18 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -8,27 +8,27 @@
 
 **brand**
 
-- `brand/storybrand-message-audit.md` — touched 2026-08-07
-- `brand/brand-foundation.md` — touched 2026-08-07
-- `brand/storybrand-brandscript.md` — touched 2026-08-07
+- `brand/storybrand-message-audit.md` — touched 2026-07-28
+- `brand/brand-foundation.md` — touched 2026-07-28
+- `brand/storybrand-brandscript.md` — touched 2026-07-28
 
 **content**
 
-- `content/newsletter-flywheel.md` — touched 2026-08-07
+- `content/newsletter-flywheel.md` — touched 2026-07-28
 
 **research**
 
-- `research/brand-intelligence.md` — touched 2026-08-07
-- `research/grounding-document.md` — touched 2026-08-07
+- `research/brand-intelligence.md` — touched 2026-07-28
+- `research/grounding-document.md` — touched 2026-07-28
 
 **strategy**
 
-- `strategy/grace-city-blueprint.md` — touched 2026-08-07
-- `strategy/intent-validation-and-strategy.md` — touched 2026-08-07
+- `strategy/grace-city-blueprint.md` — touched 2026-07-28
+- `strategy/intent-validation-and-strategy.md` — touched 2026-07-28
 
 **sunday-dinners**
 
-- `sunday-dinners/growth-strategy.md` — touched 2026-08-07
+- `sunday-dinners/growth-strategy.md` — touched 2026-07-28
 
 ## Drift
 

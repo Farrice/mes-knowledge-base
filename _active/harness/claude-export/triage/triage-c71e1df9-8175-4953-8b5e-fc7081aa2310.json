@@ -1,0 +1,29 @@
+{
+  "conversation_id": "c71e1df9-8175-4953-8b5e-fc7081aa2310",
+  "classified_at": "2026-07-01T17:06:09.408283+00:00",
+  "classified_by": "llm",
+  "bucket": "extraction-grade",
+  "confidence": 0.95,
+  "heuristic_score": 100.0,
+  "signals": {
+    "word_count": 14403,
+    "marker_hits": {
+      "prompt-tool-grade": 2,
+      "extraction-grade": 15,
+      "knowledge-grade": 9,
+      "personal-context-grade": 2,
+      "project-deliverable-grade": 2
+    },
+    "expert_hits": [],
+    "code_blocks": 1,
+    "has_attachments": true,
+    "message_count": 4
+  },
+  "rationale": "The user provided a transcript of a high-value marketing strategy session and requested a systematic framework for building a 'swipe file'. The assistant utilized a structured methodology (CAPS) to synthesize the raw transcript into a reusable, actionable framework, making it a prime example of extracting expert-level knowledge into a structured format.",
+  "extraction_value": 9,
+  "expert_named": "Complete Content Analysis & Prompt Generation System (CAPS)",
+  "reusable_asset": true,
+  "title": "Comprehensive Swipe File Framework",
+  "md_path": ".tmp/claude-export/normalized/conversations/c71e1df9-8175-4953-8b5e-fc7081aa2310.md",
+  "recommended_route": "extract-forge"
+}
