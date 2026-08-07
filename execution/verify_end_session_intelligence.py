@@ -58,6 +58,8 @@ def base_args(tmp: Path, state: str) -> list[str]:
         str(tmp / "reports"),
         "--skip-registrar",
         "--skip-snapshots",
+        "--guard-file",
+        str(tmp / "closeout-intelligence-guard.jsonl"),
     ]
 
 
@@ -72,6 +74,8 @@ def check_workflow_wiring() -> str:
         "end_session_closeout.py run",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        "codex_end_session.py run --manifest",
+        "--handoff \"<exact-stored-handoff-path>\"",
     ]
     missing = [item for item in required if item not in workflow]
     if missing:
@@ -193,6 +197,27 @@ def check_status(tmp: Path) -> str:
     return "status surface"
 
 
+def check_no_prune(tmp: Path) -> str:
+    report_dir = tmp / "reports"
+    report_dir.mkdir(parents=True, exist_ok=True)
+    originals = []
+    for index in range(12):
+        path = report_dir / f"2026-07-{index + 1:02d}T000000-session-closeout-intelligence.md"
+        path.write_text(f"report {index}\n", encoding="utf-8")
+        originals.append(path)
+    run([
+        sys.executable,
+        "execution/session_closeout_intelligence.py",
+        "run",
+        *base_args(tmp, "success-session-state.md"),
+        "--no-prune",
+    ])
+    missing = [path.name for path in originals if not path.exists()]
+    if missing or (report_dir / "archive").exists():
+        raise AssertionError(f"--no-prune moved existing reports: {missing}")
+    return "manifest-scoped no-prune retention"
+
+
 def main() -> int:
     checks = [check_workflow_wiring()]
     with tempfile.TemporaryDirectory() as temp:
@@ -203,6 +228,7 @@ def main() -> int:
         checks.append(check_ambiguous_inbox(tmp / "ambiguous"))
         checks.append(check_meta_language_not_inboxed(tmp / "meta"))
         checks.append(check_status(tmp / "ambiguous"))
+        checks.append(check_no_prune(tmp / "no-prune"))
 
     print("END SESSION INTELLIGENCE VERIFICATION PASS")
     for check in checks:

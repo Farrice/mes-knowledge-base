@@ -21,7 +21,8 @@ Design rules (match memory_facade.py's degraded-reporting principle):
     - Always exits 0. This is a reporting spine, not a gate.
 
 Usage:
-    python3 execution/end_session_closeout.py run [--slug S] [--degraded] [--dry-run]
+    python3 execution/end_session_closeout.py run [--slug S] [--handoff PATH]
+        [--git-policy legacy|codex-owned|off] [--degraded] [--dry-run]
 
 Steps (in order): commit-gate, resolve-handoff, closeout-intelligence,
 memory-bridge, cos-journal, archive-session-state, session-guide,
@@ -106,28 +107,44 @@ def _first_h1(body: str, fallback: str) -> str:
     return fallback
 
 
-def _resolve_from_handoff() -> Optional[Dict[str, Any]]:
+def _handoff_context(path: Path) -> Dict[str, Any]:
+    import handoff_store  # noqa: E402
+
+    raw = path.read_text(encoding="utf-8")
+    _fm, body = handoff_store.parse_frontmatter(raw)
+    meta = handoff_store.read_meta(path)
+    title = _first_h1(body, meta.get("title") or meta["thread"])
+    completed = _grep_labeled(body, COMPLETED_RE)
+    remaining = (_grep_labeled(body, REMAINING_RE) or
+                 (meta.get("unfinished") or "") or (meta.get("resume_hint") or ""))
+    return {
+        "source_type": "handoff",
+        "source_path": str(path.resolve()),
+        "title": title,
+        "thread": meta["thread"],
+        "completed": completed,
+        "remaining": remaining,
+        "handoff_file": meta["name"],
+        "mtime": meta.get("mtime", 0),
+    }
+
+
+def _resolve_from_handoff(path: Optional[Path] = None) -> Optional[Dict[str, Any]]:
     try:
         import handoff_store  # noqa: E402
+
+        if path is not None:
+            resolved = path.expanduser()
+            if not resolved.is_absolute():
+                resolved = ROOT / resolved
+            if not resolved.exists():
+                return None
+            return _handoff_context(resolved)
 
         metas = handoff_store.all_metas()
         if not metas:
             return None
-        m = metas[0]
-        raw = m["path"].read_text(encoding="utf-8")
-        _fm, body = handoff_store.parse_frontmatter(raw)
-        title = _first_h1(body, m.get("title") or m["thread"])
-        completed = _grep_labeled(body, COMPLETED_RE)
-        remaining = _grep_labeled(body, REMAINING_RE) or (m.get("unfinished") or "") or (m.get("resume_hint") or "")
-        return {
-            "source_type": "handoff",
-            "title": title,
-            "thread": m["thread"],
-            "completed": completed,
-            "remaining": remaining,
-            "handoff_file": m["name"],
-            "mtime": m.get("mtime", 0),
-        }
+        return _handoff_context(metas[0]["path"])
     except Exception:
         return None
 
@@ -166,10 +183,15 @@ def _resolve_from_session_state() -> Optional[Dict[str, Any]]:
         return None
 
 
-def resolve_content_source(degraded: bool) -> Tuple[Optional[Dict[str, Any]], str]:
+def resolve_content_source(degraded: bool, handoff_path: Optional[Path] = None) -> Tuple[Optional[Dict[str, Any]], str]:
     """Returns (ctx | None, detail-string). ctx carries title/thread/
     completed/remaining plus a dedup key (handoff_file or session_state_ts)."""
-    handoff_ctx = _resolve_from_handoff()
+    handoff_ctx = _resolve_from_handoff(handoff_path)
+
+    if handoff_path is not None:
+        if handoff_ctx:
+            return handoff_ctx, f"using exact handoff '{handoff_ctx['source_path']}'"
+        return None, f"exact handoff not found or unreadable: {handoff_path}"
 
     if degraded:
         stale = True
@@ -198,7 +220,7 @@ def resolve_content_source(degraded: bool) -> Tuple[Optional[Dict[str, Any]], st
 # ─────────────────────────────────────────────────────────────
 
 def step_resolve_handoff(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
-    content, detail = resolve_content_source(degraded)
+    content, detail = resolve_content_source(degraded, ctx.get("handoff_path"))
     if content is None:
         return "SKIP", detail
     ctx["content"] = content
@@ -209,8 +231,15 @@ def step_closeout_intelligence(ctx: Dict[str, Any], degraded: bool, dry_run: boo
     if dry_run:
         return "OK", "[dry-run] would run session_closeout_intelligence.py run --source end-session"
     try:
+        command = [sys.executable, str(EXEC / "session_closeout_intelligence.py"),
+                   "run", "--source", "end-session"]
+        if ctx.get("git_policy") == "codex-owned":
+            command.append("--no-prune")
+        content = ctx.get("content") or {}
+        if content.get("source_path"):
+            command.extend(["--state-file", content["source_path"]])
         r = subprocess.run(
-            [sys.executable, str(EXEC / "session_closeout_intelligence.py"), "run", "--source", "end-session"],
+            command,
             capture_output=True, text=True, timeout=60, cwd=str(ROOT),
         )
         out_lines = [ln for ln in (r.stdout or "").splitlines() if ln.strip()]
@@ -339,7 +368,10 @@ def step_cos_journal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
 
 def step_archive_session_state(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug: str) -> Tuple[str, str]:
     try:
-        if not SESSION_STATE.exists() or not SESSION_STATE.read_text(encoding="utf-8").strip():
+        content = ctx.get("content") or {}
+        exact_source = Path(content["source_path"]) if content.get("source_path") else None
+        source = exact_source if exact_source and exact_source.exists() else SESSION_STATE
+        if not source.exists() or not source.read_text(encoding="utf-8").strip():
             return "SKIP", "session-state.md missing or empty"
 
         date_str = datetime.now().date().isoformat()
@@ -353,11 +385,12 @@ def step_archive_session_state(ctx: Dict[str, Any], degraded: bool, dry_run: boo
             n += 1
 
         if dry_run:
-            return "OK", f"[dry-run] would archive session-state.md to .agent/sessions/state-archive/{dest.name}"
+            return "OK", f"[dry-run] would archive {source.name} to .agent/sessions/state-archive/{dest.name}"
 
         dest_dir.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(SESSION_STATE, dest)
-        return "OK", f"archived to .agent/sessions/state-archive/{dest.name} (original left in place)"
+        shutil.copy2(source, dest)
+        return "OK", (f"archived exact source to .agent/sessions/state-archive/{dest.name} "
+                      "(original left in place)")
     except Exception as e:
         return "FAIL", f"{type(e).__name__}: {e}"
 
@@ -377,7 +410,7 @@ def _in_lane() -> bool:
         return False
 
 
-def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool, git_policy: str = "legacy") -> Tuple[str, str]:
     """Commit gate (Farrice policy 2026-07-13, all-work-on-main): no session ends
     with silent uncommitted changes. Auto-commits the working tree with a session
     label (the post-commit hook then auto-pushes). Decline explicitly with
@@ -391,6 +424,10 @@ def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
     skip loudly."""
     import os
     try:
+        if git_policy == "codex-owned":
+            return "SKIP", "Codex-owned Git gate runs after closeout through codex_end_session.py"
+        if git_policy == "off":
+            return "SKIP", "Git policy is off — no commit or push attempted"
         in_lane = _in_lane()
         r = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
                            capture_output=True, text=True, timeout=15)
@@ -774,7 +811,8 @@ def step_menu_parity(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
-def step_self_heal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+def step_self_heal(ctx: Dict[str, Any], degraded: bool, dry_run: bool,
+                   mutation_allowed: bool = True) -> Tuple[str, str]:
     """PRIMARY healing path (Farrice, 2026-07-27, binding).
 
     "When I run the end session or close out a session, self-heal should run as
@@ -794,6 +832,22 @@ def step_self_heal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[
     self-heal minting a second. Never blocks: a heal that fails or times out
     degrades to a reported line and the closeout continues.
     """
+    if not mutation_allowed:
+        if dry_run:
+            return "OK", "[dry-run] would scan self-heal findings into the Codex review queue"
+        try:
+            r = subprocess.run(
+                [sys.executable, str(ROOT / "execution" / "self_heal.py"),
+                 "report", "--json", "--no-cache"],
+                cwd=ROOT, capture_output=True, text=True, timeout=180,
+            )
+            findings = json.loads(r.stdout or "[]") if r.returncode == 0 else []
+            ctx["self_heal_findings"] = findings
+            if r.returncode != 0:
+                return "FAIL", f"self-heal report failed: {(r.stderr or r.stdout)[-180:]}"
+            return "OK", f"{len(findings)} finding(s) captured for review; no automatic mutation"
+        except (subprocess.TimeoutExpired, json.JSONDecodeError) as exc:
+            return "FAIL", f"self-heal review scan failed: {type(exc).__name__}"
     if dry_run:
         return "OK", "[dry-run] would sweep this session and apply AUTO/EVIDENCE repairs"
     try:
@@ -861,22 +915,33 @@ def step_lane_merge(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple
 # spine runner
 # ─────────────────────────────────────────────────────────────
 
-def run(slug: str, degraded: bool, dry_run: bool) -> int:
-    ctx: Dict[str, Any] = {}
+def run(slug: str, degraded: bool, dry_run: bool,
+        handoff_path: Optional[Path] = None, git_policy: str = "legacy") -> int:
+    ctx: Dict[str, Any] = {"handoff_path": handoff_path, "git_policy": git_policy}
+    codex_owned = git_policy == "codex-owned"
     steps = [
         # self-heal runs BEFORE commit-gate so its repairs land in the session's
         # own commit rather than a second one (see step_self_heal docstring).
-        ("self-heal", lambda: step_self_heal(ctx, degraded, dry_run)),
-        ("commit-gate", lambda: step_commit_gate(ctx, degraded, dry_run)),
+        ("self-heal", lambda: step_self_heal(ctx, degraded, dry_run, not codex_owned)),
+        ("commit-gate", lambda: step_commit_gate(ctx, degraded, dry_run, git_policy)),
         ("resolve-handoff", lambda: step_resolve_handoff(ctx, degraded, dry_run)),
         ("closeout-intelligence", lambda: step_closeout_intelligence(ctx, degraded, dry_run)),
         ("memory-bridge", lambda: step_memory_bridge(ctx, degraded, dry_run)),
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),
-        ("artifact-sweep", lambda: step_artifact_sweep(ctx, degraded, dry_run)),
-        ("projects-index", lambda: step_projects_index(ctx, degraded, dry_run)),
-        ("menu-parity", lambda: step_menu_parity(ctx, degraded, dry_run)),
+        ("artifact-sweep", lambda: (
+            ("SKIP", "Codex organization is manifest-scoped in codex_end_session.py")
+            if codex_owned else step_artifact_sweep(ctx, degraded, dry_run)
+        )),
+        ("projects-index", lambda: (
+            ("SKIP", "Codex closeout does not rewrite unrelated project indexes")
+            if codex_owned else step_projects_index(ctx, degraded, dry_run)
+        )),
+        ("menu-parity", lambda: (
+            ("SKIP", "Codex closeout does not regenerate broad command indexes")
+            if codex_owned else step_menu_parity(ctx, degraded, dry_run)
+        )),
         ("friction-nudge", lambda: step_friction_nudge(ctx, degraded, dry_run)),
         ("finalize-debt-nudge", lambda: step_finalize_debt_nudge(ctx, degraded, dry_run)),
         ("solution-cards", lambda: step_solution_cards(ctx, degraded, dry_run)),
@@ -905,13 +970,17 @@ def main() -> int:
     sub = ap.add_subparsers(dest="command", required=True)
     rp = sub.add_parser("run", help="Run the closeout spine")
     rp.add_argument("--slug", default="", help="Thread slug — used to name the archived session-state file")
+    rp.add_argument("--handoff", default="", help="Exact stored handoff path; disables newest-handoff fallback")
+    rp.add_argument("--git-policy", choices=("legacy", "codex-owned", "off"), default="legacy",
+                    help="Legacy auto-commit, Codex coordinator-owned Git, or no Git mutation")
     rp.add_argument("--degraded", action="store_true", help="Run in degraded mode (SessionEnd-hook backstop path)")
     rp.add_argument("--dry-run", action="store_true", help="Perform reads and print intent; write nothing")
     args = ap.parse_args()
 
     if args.command == "run":
         try:
-            return run(args.slug, args.degraded, args.dry_run)
+            handoff_path = Path(args.handoff).expanduser() if args.handoff else None
+            return run(args.slug, args.degraded, args.dry_run, handoff_path, args.git_policy)
         except Exception as e:
             print(f"CLOSEOUT SPINE COMPLETE (0 ok, 0 skip, 1 fail) — fatal: {type(e).__name__}: {e}")
             return 0

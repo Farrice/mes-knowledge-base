@@ -865,7 +865,7 @@ def main() -> int:
     mode = sys.argv[1] if len(sys.argv) > 1 else "report"
     if mode not in ("report", "heal"):
         print(__doc__.strip().splitlines()[-6:][0], file=sys.stderr)
-        print("usage: self_heal.py [report|heal] [--json]", file=sys.stderr)
+        print("usage: self_heal.py [report|heal] [--json] [--no-cache]", file=sys.stderr)
         return 2
     rows = scan()
     if mode == "heal":
@@ -886,12 +886,13 @@ def main() -> int:
     #
     # A `report` run NEVER touches LATEST — see the D1 note at the top. It is a
     # read-only diagnostic and must not overwrite the record of what was healed.
-    try:
-        HEALTH.mkdir(parents=True, exist_ok=True)
-        (LATEST if mode == "heal" else REPORT_CACHE).write_text(json.dumps(
-            {"ts": datetime.now().isoformat(), "mode": mode, "rows": rows}, indent=1))
-    except OSError:
-        pass
+    if "--no-cache" not in sys.argv:
+        try:
+            HEALTH.mkdir(parents=True, exist_ok=True)
+            (LATEST if mode == "heal" else REPORT_CACHE).write_text(json.dumps(
+                {"ts": datetime.now().isoformat(), "mode": mode, "rows": rows}, indent=1))
+        except OSError:
+            pass
     if "--json" in sys.argv:
         print(json.dumps(rows, indent=2))
     else:

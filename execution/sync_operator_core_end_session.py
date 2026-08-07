@@ -28,6 +28,12 @@ COMMON_REQUIREMENTS = (
     "Reuse hook",
     "session_closeout_intelligence.py run --source end-session",
     "conversation_index.py stats",
+    "handoff_store.py verify",
+    "codex_end_session.py run --manifest",
+    "[Domain]: [Specific Object] - [Outcome]",
+    "archive only",
+    "dedicated `codex/*` worktree",
+    "Never auto-commit, auto-merge, or auto-push `main`",
     "real Codex subagents require explicit authorization",
     "thin compatibility wrapper",
     "no competing behavior contract",
@@ -43,6 +49,12 @@ PATH_REQUIREMENTS = {
         "Operator Lesson",
         "session_closeout_intelligence.py run --source end-session",
         "conversation_index.py stats",
+        "handoff_store.py verify",
+        "codex_end_session.py run --manifest",
+        "[Domain]: [Specific Object] - [Outcome]",
+        "archive only",
+        "dedicated `codex/*` worktree",
+        "Never auto-commit, auto-merge, or auto-push `main`",
         "Optional cleanup must be reviewed",
         "Real Codex subagents require explicit authorization",
     ),
@@ -60,6 +72,13 @@ PATH_REQUIREMENTS = {
     + (
         CANONICAL_PATH,
         "Project Source Of Truth",
+        "Insightful Momentum/frontier standard",
+        "legacy thin prompt shell",
+        "contextual_next_prompts.py",
+        "Output/Capability Move",
+        "Operator Insight",
+        "Hidden Gap/Opportunity",
+        "Capability Revealed",
     ),
     GLOBAL_WRAPPER: COMMON_REQUIREMENTS
     + (
@@ -90,13 +109,18 @@ The canonical Antigravity End-session workflow is `{CANONICAL_PATH}`. Global
 End-session wrappers are thin compatibility wrappers with no competing behavior
 contract.
 
-Default behavior: session naming metadata -> concise handoff -> `3 Next Prompts`
--> `Operator Lesson` -> closeout intelligence via
+Default behavior: native task naming with `[Domain]: [Specific Object] - [Outcome]`
+-> exact named handoff save and `handoff_store.py verify` -> Codex coordination via
+`codex_end_session.py run --manifest` -> `3 Next Prompts` -> `Operator Lesson`
+-> closeout intelligence via
 `session_closeout_intelligence.py run --source end-session` ->
 `conversation_index.py stats` -> artifact organization checks when relevant.
 Treat `/handoff` as a focused transfer packet and `/steering-compass` as
-standalone next-prompt coaching. Optional cleanup needs review; never publish,
-push, broadly delete, or do destructive cleanup without explicit approval.
+standalone next-prompt coaching. Pin unfinished tasks and archive only a verified
+`done` closeout. Automatic Git synchronization is limited to manifest-owned
+paths in a dedicated `codex/*` worktree. Never auto-commit, auto-merge, or
+auto-push `main`. Optional cleanup needs review; never broadly delete or perform
+destructive cleanup without explicit approval.
 Real Codex subagents require explicit authorization.
 """
 
@@ -131,6 +155,11 @@ Preserve the current End-session contract:
 - include `Reuse hook`
 - use `session_closeout_intelligence.py run --source end-session`
 - use `conversation_index.py stats` before any rebuild
+- save from an exact named source and require `handoff_store.py verify <thread> --source <path> --json`
+- coordinate Codex closeout through `codex_end_session.py run --manifest <json>`
+- use `[Domain]: [Specific Object] - [Outcome]`; rename every meaningful task, pin unfinished work, and archive only verified `done`
+- allow automatic commit and push only for manifest-owned paths in a dedicated `codex/*` worktree
+- Never auto-commit, auto-merge, or auto-push `main`
 - optional cleanup needs review and no publish, push, broad deletion, or destructive cleanup without explicit approval
 - real Codex subagents require explicit authorization
 - this global skill stays a thin compatibility wrapper with no competing behavior contract
@@ -141,7 +170,14 @@ Produce a concise session closeout: session name, slug, searchable keywords,
 completed work, remaining priority, essential context paths, hot experts or
 workflows, `3 Next Prompts`, and an `Operator Lesson`. Run or request the
 project workflow's local closeout intelligence steps when operating inside the
-Antigravity workspace.
+Antigravity workspace. For native Codex closeout, read the coordinator receipt
+before applying title, pin, or archive task actions.
+
+Meaningful closeouts must preserve the Insightful Momentum/frontier standard,
+not the legacy thin prompt shell. When the workspace renderer exists, run
+`execution/contextual_next_prompts.py` and retain its Output/Capability Move,
+Operator Insight, Hidden Gap/Opportunity, Capability Revealed, prompt, expected
+output, quality bar, skip condition, and suggested workflow fields.
 """
 
 GLOBAL_WRAPPER_TEXT = f"""---
@@ -168,7 +204,10 @@ current End-session contract: whole-session closeout, retrieval handoff,
 closeout intelligence capture, `3 Next Prompts`, `Operator Lesson`,
 `Next-time prompt`, `Subagent worth it?`, `Reuse hook`,
 `session_closeout_intelligence.py run --source end-session`,
-`conversation_index.py stats`, real Codex subagents require explicit
+`conversation_index.py stats`, `handoff_store.py verify`,
+`codex_end_session.py run --manifest`, `[Domain]: [Specific Object] - [Outcome]`,
+archive only after verified `done`, automatic Git only in a dedicated `codex/*`
+worktree, Never auto-commit, auto-merge, or auto-push `main`, real Codex subagents require explicit
 authorization, and no competing behavior contract.
 
 Route focused transfer packets to `/handoff` and standalone next-prompt coaching
@@ -188,6 +227,11 @@ This project wrapper follows `.agent/workflows/end-session.md` as the canonical 
 - `Reuse hook`
 - `session_closeout_intelligence.py run --source end-session`
 - `conversation_index.py stats`
+- exact named handoff save plus `handoff_store.py verify <thread> --source <path> --json`
+- Codex coordination through `codex_end_session.py run --manifest <json>`
+- `[Domain]: [Specific Object] - [Outcome]`, rename every meaningful task, pin unfinished work, and archive only verified `done`
+- automatic commit and push only in a dedicated `codex/*` worktree
+- Never auto-commit, auto-merge, or auto-push `main`
 - real Codex subagents require explicit authorization
 - no competing behavior contract
 """
@@ -205,6 +249,9 @@ Preserve these invariants:
 - Meaningful closeouts include session naming metadata, a concise handoff, `3 Next Prompts`, and an `Operator Lesson`.
 - Closeout intelligence runs through `python3 execution/session_closeout_intelligence.py run --source end-session`.
 - Conversation indexing uses the safe `python3 execution/conversation_index.py stats` check before any rebuild.
+- Codex closeout saves an exact named source, requires `handoff_store.py verify`, and runs `python3 execution/codex_end_session.py run --manifest <json>`.
+- Codex titles use `[Domain]: [Specific Object] - [Outcome]`; unfinished tasks stay pinned and archive only follows a verified `done` receipt.
+- Automatic Git synchronization is limited to manifest-owned paths in a dedicated `codex/*` worktree. Never auto-commit, auto-merge, or auto-push `main`.
 - Optional cleanup must be reviewed; never publish, push, broadly delete, or perform destructive cleanup without explicit approval.
 - Real Codex subagents require explicit authorization.
 """

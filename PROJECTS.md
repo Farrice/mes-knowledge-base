@@ -17,8 +17,12 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `digital-product-lane-2026-08-05` | _active/ | **— none —** | 2026-08-05 | active* |
 | `jen-listings` | _active/ | `_active/jen-listings/INDEX.md` | 2026-08-05 | active* |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-01 | active |
+| `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-08-01 | active* |
+| `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-08-01 | active* |
+| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-08-01 | active* |
+| `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-08-01 | active |
 | `positioning-cowork-2026-07-25` | _active/ | `_active/positioning-cowork-2026-07-25/INDEX.md` | 2026-07-28 | active* |
-| `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-07-28 | active |
 | `offer-rederivation-2026-07-25` | _active/ | `_active/offer-rederivation-2026-07-25/INDEX.md` | 2026-07-26 | active* |
 | `loop-engineering-integration` | _active/ | `_active/loop-engineering-integration/INDEX.md` | 2026-07-24 | active* |
 | `frontier-elevation-2026-07-17` | _active/ | `_active/frontier-elevation-2026-07-17/INDEX.md` | 2026-07-21 | active* |
@@ -33,10 +37,14 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `andrea-dj` | _active/ | `_active/andrea-dj/RISKS.md` | 2026-07-28 | parked |
-| `farrice-creative-strategist-portfolio` | _active/ | `_active/farrice-creative-strategist-portfolio/INDEX.md` | 2026-07-28 | parked |
-| `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-07-28 | parked |
-| `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-07-28 | parked |
+| `andrea-dj` | _active/ | `_active/andrea-dj/RISKS.md` | 2026-08-01 | parked |
+| `claude-code-harness-analysis` | _active/ | `_active/claude-code-harness-analysis/README.md` | 2026-08-01 | parked |
+| `farrice-creative-strategist-portfolio` | _active/ | `_active/farrice-creative-strategist-portfolio/INDEX.md` | 2026-08-01 | parked |
+| `javier-human-values` | _active/ | `_active/javier-human-values/INDEX.md` | 2026-08-01 | parked |
+| `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-08-01 | parked |
+| `kens-fasting` | _active/ | `_active/kens-fasting/INDEX.md` | 2026-08-01 | parked |
+| `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-08-01 | parked |
+| `remotion-studio` | _active/ | `_active/remotion-studio/INDEX.md` | 2026-08-01 | parked |
 | `mybpm-merch-os-run-1` | _active/ | `_active/mybpm-merch-os-run-1/INDEX.md` | 2026-07-19 | parked |
 | `josh-swing-nerd-shirts-v1` | _active/ | `_active/josh-swing-nerd-shirts-v1/INDEX.md` | 2026-07-06 | parked* |
 | `codex-repeatability` | _active/ | `_active/codex-repeatability/INDEX.md` | 2026-07-01 | parked* |
@@ -45,33 +53,29 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `trendscale-brief-revision` | _active/ | `_active/trendscale-brief-revision/INDEX.md` | 2026-07-01 | parked* |
 | `_ledgers` | _active/ | `_active/_ledgers/INDEX.md` | 2026-06-19 | parked* |
 | `disney-crowd-app` | _active/ | `_active/disney-crowd-app/INDEX.md` | 2026-06-11 | parked* |
-| `kens-fasting` | _active/ | `_active/kens-fasting/INDEX.md` | 2026-06-02 | parked |
 | `system-audit` | _active/ | `_active/system-audit/INDEX.md` | 2026-05-30 | parked* |
 | `system-integration` | _active/ | `_active/system-integration/INDEX.md` | 2026-05-28 | parked* |
 | `content-system-audit` | _active/ | `_active/content-system-audit/INDEX.md` | 2026-05-01 | parked* |
 | `parallax-icp-offer` | _active/ | `_active/parallax-icp-offer/INDEX.md` | 2026-04-20 | parked* |
-| `claude-code-harness-analysis` | _active/ | `_active/claude-code-harness-analysis/README.md` | 2026-04-09 | parked |
-| `javier-human-values` | _active/ | `_active/javier-human-values/INDEX.md` | 2026-03-30 | parked |
-| `remotion-studio` | _active/ | `_active/remotion-studio/INDEX.md` | 2026-03-14 | parked |
 
 ## Done
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-08-06 | done |
+| `harness-apex-2026-07-07` | _active/ | `_active/harness-apex-2026-07-07/INDEX.md` | 2026-08-01 | done |
+| `memory-bakeoff` | _active/ | `_active/memory-bakeoff/INDEX.md` | 2026-08-01 | done |
+| `operator-core-backport` | _active/ | `_active/operator-core-backport/INDEX.md` | 2026-08-01 | done |
+| `pmf-offer-shelf` | _active/ | `_active/pmf-offer-shelf/INDEX.md` | 2026-08-01 | done |
+| `swarm-apex-2026-07-07` | _active/ | `_active/swarm-apex-2026-07-07/INDEX.md` | 2026-08-01 | done |
+| `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-08-01 | done |
 | `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-07-29 | done |
 | `alignment-architect-2026-07-07` | _active/ | `_active/alignment-architect-2026-07-07/INDEX.md` | 2026-07-28 | done |
-| `memory-bakeoff` | _active/ | `_active/memory-bakeoff/INDEX.md` | 2026-07-28 | done |
-| `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-07-28 | done |
 | `second-brain-audits` | _active/ | `_active/second-brain-audits/INDEX.md` | 2026-07-16 | done |
 | `system-health-check-framework` | _active/ | `_active/system-health-check-framework/INDEX.md` | 2026-07-15 | done |
 | `prompt-wiring-os-2026-07-13` | _active/ | `_active/prompt-wiring-os-2026-07-13/INDEX.md` | 2026-07-13 | done |
-| `claude-export` | _active/ | `_active/claude-export/INDEX.md` | 2026-07-11 | done |
 | `prompt-renaissance` | _active/ | `_active/prompt-renaissance/INDEX.md` | 2026-07-11 | done |
-| `harness-apex-2026-07-07` | _active/ | `_active/harness-apex-2026-07-07/INDEX.md` | 2026-07-09 | done |
-| `pmf-offer-shelf` | _active/ | `_active/pmf-offer-shelf/INDEX.md` | 2026-07-09 | done |
 | `farrice-master-context-2026-07-07` | _active/ | `_active/farrice-master-context-2026-07-07/INDEX.md` | 2026-07-07 | done |
-| `swarm-apex-2026-07-07` | _active/ | `_active/swarm-apex-2026-07-07/INDEX.md` | 2026-07-07 | done |
 | `notion-intellectual-library` | _active/ | `_active/notion-intellectual-library/INDEX.md` | 2026-07-06 | done |
 | `context-engineering-os` | _active/ | `_active/context-engineering-os/INDEX.md` | 2026-07-02 | done |
 | `fork-harvest-2026-07-02` | _active/ | `_active/fork-harvest-2026-07-02/INDEX.md` | 2026-07-02 | done |
@@ -135,3 +139,8 @@ Generated 2026-08-04 by `execution/projects_index.py`. **Do not edit manually.**
 | `kdp-book-one-pilot` | _active/ | `_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md` | 2026-08-04 | active* |
 **56 projects** — 18 active, 19 parked, 19 done.
 - **missing_index** — `_active/kdp-book-one-pilot`: no INDEX.md — project has no entry point
+| `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
+| `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
+
+**55 projects** — 17 active, 19 parked, 19 done.
+

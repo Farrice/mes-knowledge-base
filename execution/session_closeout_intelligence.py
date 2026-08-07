@@ -761,7 +761,8 @@ def perform_closeout(args: argparse.Namespace, dry_run: bool) -> CloseoutResult:
     result.report_path = write_report(report, args, dry_run)
     if not dry_run:
         guard_record(args, session_id)
-        prune_reports(args)
+        if not getattr(args, "no_prune", False):
+            prune_reports(args)
     return result
 
 
@@ -817,6 +818,12 @@ def add_common_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--report-dir", default="", help="Optional report directory override.")
     parser.add_argument("--skip-registrar", action="store_true", help="Skip session_log_registrar; useful for isolated tests.")
     parser.add_argument("--skip-snapshots", action="store_true", help="Skip health/protocol/routing snapshots; useful for isolated tests.")
+    parser.add_argument(
+        "--no-prune",
+        action="store_true",
+        help="Write the current report without moving older reports; used by manifest-scoped Codex closeout.",
+    )
+    parser.add_argument("--guard-file", default="", help="Optional run-guard ledger JSONL override (tests).")
 
 
 def main() -> int:
@@ -830,7 +837,6 @@ def main() -> int:
     add_common_args(run)
     run.add_argument("--dry-run", action="store_true", help="Show capture actions without writing.")
     run.add_argument("--force", action="store_true", help="Bypass the per-session run guard and regenerate snapshots + report.")
-    run.add_argument("--guard-file", default="", help="Optional run-guard ledger JSONL override (tests).")
 
     status = sub.add_parser("status", help="Show closeout intelligence counts.")
     add_common_args(status)

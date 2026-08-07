@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import subprocess
 import sys
@@ -125,6 +126,12 @@ END_SESSION_REQUIRED_TEXT = (
     "Operator Lesson",
     "session_closeout_intelligence.py run --source end-session",
     "conversation_index.py stats",
+    "handoff_store.py verify",
+    "codex_end_session.py run --manifest",
+    "[Domain]: [Specific Object] - [Outcome]",
+    "archive only",
+    "dedicated `codex/*` worktree",
+    "Never auto-commit, auto-merge, or auto-push `main`",
     "Optional cleanup must be reviewed",
     "Real Codex subagents require explicit authorization",
 )
@@ -632,6 +639,12 @@ def check_end_session_closeout_contract() -> list[str]:
             "Operator Lesson",
             "session_closeout_intelligence.py run --source end-session",
             "conversation_index.py stats",
+            "handoff_store.py verify",
+            "codex_end_session.py run --manifest",
+            "[Domain]: [Specific Object] - [Outcome]",
+            "archive only",
+            "dedicated `codex/*` worktree",
+            "Never auto-commit, auto-merge, or auto-push `main`",
             "real Codex subagents require explicit authorization",
             "no competing behavior contract",
         ),
@@ -899,6 +912,12 @@ def check_protocol_activation() -> list[str]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--section", choices=("end-session",),
+        help="Run one component contract without suppressing the full default suite.",
+    )
+    args = parser.parse_args()
     checks = []
     sections = [
         ("golden queries", check_golden_queries),
@@ -921,6 +940,8 @@ def main() -> int:
         ("extraction-governor contract", check_extraction_governor_contract),
         ("protocol activation", check_protocol_activation),
     ]
+    if args.section == "end-session":
+        sections = [("end-session closeout contract", check_end_session_closeout_contract)]
     for label, check in sections:
         start = time.monotonic()
         print(f"running: {label}", flush=True)
