@@ -192,3 +192,6 @@ _active/hyperframes-studio/
 .agent/health/projects-index.json
 .agent/health/born-intent-baseline.json
 .agent/organization/sweep-state.json
+.agent/health/self-heal-report.json
+.agent/handoffs/index.md
+.agent/handoffs/LATEST.md
