@@ -184,13 +184,25 @@ def apply(plan: dict, stub: bool) -> dict:
 
     # Inverse FIRST, before the rewrite phase, so a crash mid-rewrite is still
     # undoable (the 2026-07-08 lesson).
+    #
+    # SCAR 2026-08-07, found by actually REHEARSING the rollback: with --stub,
+    # a MOVED.md pointer is left behind, so the source directory still exists
+    # when the inverse runs. `mv -n <dst> <existing-dir>` then moves the tree
+    # INSIDE it — producing foo/foo/ — instead of restoring it. The revert
+    # reported exit 0 while silently corrupting the tree. A stubbed move must
+    # clear its own stub before the inverse.
     ORG_HOME.mkdir(parents=True, exist_ok=True)
     rev = ORG_HOME / f"REVERT-{date.today().isoformat()}.sh"
     prior = rev.read_text(encoding="utf-8").splitlines() if rev.exists() else []
     body = [l for l in prior if l and not l.startswith("#!")]
+    inverse = []
+    if stub:
+        inverse.append(f'rm -f "{src / "MOVED.md"}"')
+        inverse.append(f'rmdir "{src}" 2>/dev/null || true')
+    inverse.append(f'mv -n "{dst}" "{src}"')
     rev.write_text("\n".join(
-        ["#!/bin/sh", "# Auto-generated inverse moves (newest first). Re-run to revert.", "",
-         f'mv -n "{dst}" "{src}"'] + body) + "\n", encoding="utf-8")
+        ["#!/bin/sh", "# Auto-generated inverse moves (newest first). Re-run to revert.", ""]
+        + inverse + body) + "\n", encoding="utf-8")
     rev.chmod(0o755)
 
     rewrites = {}
