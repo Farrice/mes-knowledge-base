@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 11,
                 "marketing-studio-director": 1,
-                "System": 97,
+                "System": 100,
                 "brand-operating-system": 14,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -120,11 +120,13 @@
                 "susan-orlean-narrative-nonfiction": 1,
                 "rory-sutherland-marketing": 2,
                 "prediction-market-weather-trading": 1,
-                "semantic-document-library-os": 1
+                "semantic-document-library-os": 1,
+                "mark-kashef-claude-claw": 1,
+                "webapp-testing": 1
             },
-            "total_routings": 777,
+            "total_routings": 782,
             "tier_counts": {
-                "0": 777,
+                "0": 782,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -134,8 +136,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 463,
-                "finalize-auto": 314
+                "hybrid": 465,
+                "finalize-auto": 317
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -210,7 +212,7 @@
                 "creative-director": 1,
                 "doc-coauthoring": 73,
                 "dan-wang-literary-analysis": 2,
-                "webapp-testing": 3,
+                "webapp-testing": 4,
                 "brand-operating-system": 27,
                 "chase-hughes-conversational-influence": 14,
                 "daniel-priestley": 1,
@@ -278,7 +280,7 @@
                 "supercomputer": 71,
                 "design-md": 23,
                 "alex-content-science": 6,
-                "system-audit": 24,
+                "system-audit": 27,
                 "david-bayer-elite-communication": 19,
                 "lamott-allen-really-real-writing": 8,
                 "fantastic-posters": 15,
@@ -383,7 +385,7 @@
                 "luke-iha": 2,
                 "offer-redteam": 1,
                 "ray-amjad": 5,
-                "mark-kashef-claude-claw": 1,
+                "mark-kashef-claude-claw": 3,
                 "oren-luxury-psychology": 2,
                 "swarm": 1,
                 "swarm: deep-research + competitive-intel + icp-deep-canvasser + fact-verifier": 1,
@@ -442,7 +444,7 @@
             },
             "total_feedback": 98,
             "negative_count": 0,
-            "ensemble_count": 565,
+            "ensemble_count": 566,
             "auto_miss_count": 78,
             "positive_count": 0
         }
@@ -15399,6 +15401,92 @@
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
             "feedback": "fb_20260731_151457_d51f"
+        },
+        {
+            "routing_id": "rt_20260731_181445_b7f7",
+            "timestamp": "2026-07-31T18:14:45.917382+00:00",
+            "session_id": "019fb94a-595b-7693-b8d9-5ce3a19d90de",
+            "request_summary": "Approve the thin global Capability Stewardship bridge after local proof passes.",
+            "intent_score": 0,
+            "domain_detected": "mark-kashef-claude-claw",
+            "experts_deployed": [
+                "mark-kashef-claude-claw"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "mark-kashef-claude-claw",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_182440_7b45",
+            "timestamp": "2026-07-31T18:24:40.157886+00:00",
+            "session_id": "",
+            "request_summary": "Capability Stewardship Phase 2 thin global bridge, regression receipt, and operator handoff",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_190925_0809",
+            "timestamp": "2026-07-31T19:09:25.414925+00:00",
+            "session_id": "019fb94a-595b-7693-b8d9-5ce3a19d90de",
+            "request_summary": "Can we finish phase one and get this capability stewardship fully functional, please?",
+            "intent_score": 0,
+            "domain_detected": "webapp-testing",
+            "experts_deployed": [
+                "webapp-testing",
+                "mark-kashef-claude-claw"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "webapp-testing",
+            "ensemble": true,
+            "compound_pairing": "webapp-testing + mark-kashef-claude-claw",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_193436_f00b",
+            "timestamp": "2026-07-31T19:34:36.411602+00:00",
+            "session_id": "",
+            "request_summary": "Capability Stewardship Phase 1 canonical integration, no-override projectless cold-start proof, semantic hook verification, and current clean fallback write lane",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260731_193458_9a43",
+            "timestamp": "2026-07-31T19:34:58.752000+00:00",
+            "session_id": "",
+            "request_summary": "Capability Stewardship Phase 1 canonical integration, no-override projectless cold-start proof, semantic hook verification, and current clean fallback write lane",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }
