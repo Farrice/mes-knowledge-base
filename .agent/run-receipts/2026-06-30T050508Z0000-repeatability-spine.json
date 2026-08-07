@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-30T05:05:08+00:00",
+  "query": "I copied over everything from my Claude Code workspace and nothing works at the same caliber; import from my previous session shows the massive difference.",
+  "route": "repeatability-spine",
+  "status": "PASS",
+  "owner": "repeatability-spine",
+  "support_gates": "system-audit,routing-intelligence",
+  "expert_lenses": "",
+  "subagent_boundary": "none; main thread only",
+  "meta_intent": "prior-session quality drift and copied-workspace caliber mismatch",
+  "composition_owner": "",
+  "feedback_hook": "",
+  "changed": "Routed prior-session/import/caliber drift language to repeatability-spine, restored local repeatability contract, added verifier probe, and made launchpad respect repeatability before cockpit pause gates.",
+  "passed": "workflow_router ranks /repeatability-spine first; codex_operator_preflight returns Run Locally with no questions; routing_enforcer accepts repeatability-spine; py_compile passes; verify_google_operator_core passes.",
+  "failed": "Generic system audit remains insufficient for output-caliber replay without a good/failed example comparison.",
+  "needs_judgment": "Use repeatability-spine differential replay before system-audit for copied-workspace quality complaints.",
+  "next_action": "Run a concrete differential replay using the prior session/golden output and a current degraded sample."
+}

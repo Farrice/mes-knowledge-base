@@ -1,0 +1,14 @@
+{
+  "plan_dollars": 25.0,
+  "month_date": "2026-08-01",
+  "month_spent_usd": 0.015,
+  "month_calls": 1,
+  "log": [
+    {
+      "ts": "2026-08-05T19:18:22Z",
+      "query_preview": "test query",
+      "results": 8,
+      "cost": 0.015
+    }
+  ]
+}

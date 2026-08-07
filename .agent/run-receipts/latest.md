@@ -1,0 +1,23 @@
+# Run Receipt
+
+- **Timestamp**: 2026-08-04T17:16:02+00:00
+- **Route**: /system-audit
+- **Status**: PASS
+- **Owner**: system-audit
+- **Meta intent**: operating-alignment
+- **Composition owner**: system-audit
+- **Support gates**: autopilot,repeatability-spine,raw-intent-bridge,after-action-review
+- **Expert lenses**: market evidence,commercial judgment,build and legal feasibility
+- **Subagents requested**: none
+- **Subagent boundary**: One read-only evolution reviewer produced the AAR; main thread owned every edit and integration decision
+- **Container decision**: preserve
+- **Capability move**: Global Adaptive Judgment Floor with automatic raw-intent translation and optional explicit packet inspection
+- **Why now**: Farrice explicitly marked the prior verdict near-ideal and requested repeatability without magic words
+- **Approval boundary**: Global Codex writes explicitly approved; no publishing, outreach, connector, paid, destructive, commit, or push action
+- **Raw intent**: Make the gacha-verdict level of judgment, pushback, evidence, insight, and execution a common global Codex-native behavior without requiring raw-intent-bridge
+- **What changed**: Global AGENTS adaptive judgment floor; global raw-intent and Autopilot front doors; canonical operating contract; gacha preservation fixture and AAR; routing scoreboard unknown-rating guard; Operator Core verifier
+- **What passed**: Adaptive judgment floor; raw-intent compatibility; Autopilot; Google Operator Core; Codex-Claude parity; full control plane; live surface strict audit; constitution lint; routing scoreboard; Python compilation; projectless global bridge
+- **What failed**: No behavioral verifier failures; legacy chain finalizer still scores intent alignment 4/10 despite the explicit human verdict and is parked as calibration debt; broader health still reports dormant protocols
+- **Needs Farrice judgment**: Default the reasoning principles and adapt workflow depth; explicit raw-intent invocation is optional
+- **Next action**: Run a fresh projectless Codex smoke test with an unprefixed raw strategic idea
+- **Feedback hook**: AAR mission log plus Casual Gacha Copilot preservation fixture

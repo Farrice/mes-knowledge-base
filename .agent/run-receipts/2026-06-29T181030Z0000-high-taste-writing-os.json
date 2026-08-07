@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-29T18:10:30+00:00",
+  "query": "TrendScale v5 deployable script rebuild",
+  "route": "high-taste-writing-os",
+  "status": "PASS",
+  "owner": "copy-engine / Luke Iha copy blocks",
+  "support_gates": "content_finish_gate; prose_classifier; grounding_guard; DOCX structure check; package leak scan; export_format_guard; chain_runner finalize",
+  "expert_lenses": "Luke Iha copy-block velocity; Harry Dry specificity; Dara Denney Meta ad risk",
+  "subagent_boundary": "0 real subagents; main thread owned integration and file edits",
+  "meta_intent": "client-facing paid-ad brief repair",
+  "composition_owner": "Luke Iha copy-block sequencing with high-taste wrapper",
+  "feedback_hook": "If recruiter/founder has objections, audit against claim safety, production clarity, hook strength, and PDP alignment",
+  "changed": "Rebuilt script rows as exact spoken voiceover; added final clean DOCX aliases; removed internal media-buyer/package leakage; verified live PDP/product JSON context",
+  "passed": "content_finish_gate CLEAN; prose_classifier CLEAN AI score 0/10; grounding_guard PASS; DOCX structure PASS; export_format_guard PASS; package contains only 3 send-safe files; chain finalize PASS 8.67",
+  "failed": "memory_retrieve unavailable due embed/network dependency; live execution/export_format_guard.py absent, harvested fallback used; Notion regression lookup unreachable but skipped for external sync",
+  "needs_judgment": "Send-ready for recruiter/founder review after normal final brand label/compliance review",
+  "next_action": "Send the FINAL DOCX files in the package with the recruiter note, not the internal red-team receipt"
+}

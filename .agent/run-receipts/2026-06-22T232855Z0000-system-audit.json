@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-22T23:28:55+00:00",
+  "query": "Google Antigravity execution bias repair",
+  "route": "system-audit",
+  "status": "PASS",
+  "owner": "Google operator core",
+  "support_gates": "steering-compass, subagent-approval-language, routing-enforcer",
+  "expert_lenses": "",
+  "subagent_boundary": "One read-only diagnostic subagent was used for validation; main thread owned all file edits and integration; no subagent writes or further subagents.",
+  "meta_intent": "Make Codex default to Patch + Verify for safe workspace-local work instead of handing Farrice another prompt",
+  "composition_owner": "system-audit",
+  "feedback_hook": "Run codex_operator_preflight.py and prefer local_next_action when no risk boundary is detected",
+  "changed": "Added Execution Bias Contract; routed execution-bias complaints to system-audit; added local_next_action and execute-next helper mode; strengthened subagent approval boundaries and verifier; updated run receipt validation",
+  "passed": "verify_google_operator_core.py; verify_subagent_approval_language.py; contextual_next_prompts closeout and execute-next; risk probes for subagents, external writes, destructive actions, global scope, and paid tools; targeted py_compile",
+  "failed": "none",
+  "needs_judgment": "",
+  "next_action": "Fresh-session smoke: ask 'Codex explains and plans instead of executing safe local next actions' and confirm /system-audit returns local_next_action mode patch_and_verify."
+}

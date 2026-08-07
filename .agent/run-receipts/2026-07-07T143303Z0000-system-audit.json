@@ -1,0 +1,20 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-07-07T14:33:03+00:00",
+  "query": "Wave 1 routing spine",
+  "route": "/system-audit",
+  "status": "PASS",
+  "owner": "/system-audit",
+  "support_gates": "",
+  "expert_lenses": "",
+  "subagent_boundary": "",
+  "subagents_requested": "",
+  "meta_intent": "",
+  "composition_owner": "",
+  "feedback_hook": "",
+  "changed": "execution/routing_enforcer.py (match_bindings pure matcher), execution/workflow_router.py (bindings-first pinning + stopword/short-token filter), execution/skill_router_hook.py (upstream bindings consult + abstention escalation), execution/evolution_orchestrator.py (quality->routing weight loop from v2 finalize traces)",
+  "passed": "misroute query now ranks /supercomputer+/autopilot #1 with BINDING marker (was /bw-but-therefore); parallax/ghostwrite/build-bos bound routes rank #1; verify_system_control_plane.py all helpers ok; verify_google_operator_core.py unchanged vs baseline (pre-existing hook_parity 8v6); routing_test_suite 20/20; run_routing_learning counted 24 finalizes, clamp held, cursor idempotent",
+  "failed": "none",
+  "needs_judgment": "Bindings now consulted upstream of fuzzy ranking, connective-noise misroutes killed, and finalize quality composites feed router weights — three surgical patches, no rebuild.",
+  "next_action": "Wave 2 verifier layer"
+}

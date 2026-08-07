@@ -1,0 +1,20 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-07-10T00:46:25+00:00",
+  "query": "Wave 2a claim_audit + anchor_verify",
+  "route": "/system-audit",
+  "status": "PASS",
+  "owner": "/system-audit",
+  "support_gates": "",
+  "expert_lenses": "",
+  "subagent_boundary": "",
+  "subagents_requested": "",
+  "meta_intent": "",
+  "composition_owner": "",
+  "feedback_hook": "",
+  "changed": "execution/claim_audit.py (new), execution/anchor_verify.py (new), skills/john-whiting-propaganda-machine/workflows/jw-engine.md (P4 Gate-0 wired to claim_audit + gates.py cross-ref), .agent/workflows/supercomputer.md (P3 wired to anchor_verify), skills/supercomputer/SKILL.md (P3 wired), skills/supercomputer/genius.md (open question 2 closed), directives/verification-agent-protocol.md (claim_audit pointer)",
+  "passed": "py_compile clean; claim_audit fixtures PASS(exit 0)/FAIL(exit 1); anchor_verify fixtures 8/10 PASS(exit 0) and 1/10 FAIL(exit 1); --json + --strict + tag-help verified; real trials: strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md -> 50 carriers, 38 tagged, 12 untagged, FAIL as expected; andrea-dj voice-doc -> announcement-package propagation 6/10 explainable",
+  "failed": "none",
+  "needs_judgment": "Both load-bearing prose checks (jw Gate-0 fabrication scan, supercomputer P3 anchor grep) are now exit codes a mid-tier model cannot skip; overrides logged, never blocking",
+  "next_action": "Wave 2 integration check"
+}

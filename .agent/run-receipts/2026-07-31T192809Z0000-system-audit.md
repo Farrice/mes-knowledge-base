@@ -1,0 +1,23 @@
+# Run Receipt
+
+- **Timestamp**: 2026-07-31T19:28:09+00:00
+- **Route**: /system-audit
+- **Status**: PASS
+- **Owner**: System Audit
+- **Meta intent**: operating-alignment
+- **Composition owner**: System Audit
+- **Support gates**: autopilot,source-to-skill-system
+- **Expert lenses**: none; one function owner with bounded build support
+- **Subagents requested**: none
+- **Subagent boundary**: No real Codex subagents were used. One explicitly authorized fresh projectless Codex task was created only for cold-start acceptance proof.
+- **Container decision**: preserve
+- **Capability move**: Integrate Capability Stewardship into canonical main, prove projectless default routing, and refresh the clean configured Codex fallback worktree.
+- **Why now**: Google-local and global bridge proof passed, so canonical integration and cold-start acceptance could be completed safely.
+- **Approval boundary**: No automatic user-owned task creation, real subagents, external writes, publishing, connectors, paid tools, destructive actions, Angle Map edits, or broad harness refactors.
+- **Raw intent**: Can we finish phase one and get this capability stewardship fully functional, please?
+- **What changed**: Canonical main now contains Capability Stewardship lifecycle behavior and semantic hook verification; the clean configured Codex write root now matches canonical HEAD.
+- **What passed**: Exact no-override projectless request selected /system-audit; genuine wrap selected /end-session; all nine lifecycle cases, Raw Intent transport, global steering, Google Operator Core, system integrity, and receipt schema passed.
+- **What failed**: None in assigned Phase 1 scope.
+- **Needs Farrice judgment**: No further approval or taste decision required.
+- **Next action**: Use the default in normal work and patch only a verifier-backed observed regression.
+- **Feedback hook**: Preserve the exact lifecycle request and nine container cases as regression fixtures; log only observed future misroutes.
