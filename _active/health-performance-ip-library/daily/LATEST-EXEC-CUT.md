@@ -1,6 +1,6 @@
-# Listening cut — 2026-08-05 (Wed deep focus: promises-not-kept deep dive)
-- Tension: the premium founder's "trusted brand" slide just got a market price: P&G is buying Thorne for $3.8B, and Thorne's buyers churned in public the same evening.
-- Receipt: promise "trusted partner to healthcare practitioners" vs reality: "RIP Thorne, it was nice knowing you" (855 up) and a 329-up replacement pick praised for "an owner who refuses to bend over or sell out."
-- Thesis: trust is underwritten by ownership, people, and visible process, not by the label, and buyers keep that ledger more accurately than brands assume.
-- Post seed: "Monday afternoon, CNBC. P&G announces it is buying Thorne... By dinner, the top post on r/Supplements was a funeral." → full draft in the brief.
-- Docs fed: 07 gained the ledger-keeping buyer, 03 gained the tier-acquisition trigger, +3 insight rows, +2 promises rows (first ownership-event row) · Full brief: _active/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md
+# Listening cut — 2026-08-07 (Fri deep focus: WEEKLY SYNTHESIS)
+- Tension: the founder is quietly blaming his creative team for a CPA chart that broke because a competitor's marketing is 70% pre-funded by an outside fund.
+- Receipt: promise "buy independent and stop re-vetting" vs reality, a buyer naming his replacement brand and its exit in one breath: "I will stick with Sports Research until they get bought out."
+- Thesis: spend, placement and targeting all moved upstream out of the founder's reach this year; the one lever left is which belief the money buys, and nobody in the company is assigned to pull it.
+- Post seed: "A founder posted that his Meta ads had stopped working. Same budget. Same product. His words: nothing changed on my side. He was right. That was the problem." → full draft in the brief.
+- Docs fed: 07 gained the pre-priced exit, 03 gained an external dated cause for the LTV:CAC trigger, +3 insight rows, +2 promises rows, W32 synthesis saved · Full brief: _active/health-performance-ip-library/daily/2026-08-07-angle-map-listening-brief.md

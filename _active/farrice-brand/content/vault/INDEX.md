@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-07 | [count-whats-left-post](2026-08-07-count-whats-left-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |
+| 2026-08-07 | [nobody-owns-selection-essay](2026-08-07-nobody-owns-selection-essay.md) | Synthesis essay (long-form) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-05 | [trust-has-an-owner-post](2026-08-05-trust-has-an-owner-post.md) | LinkedIn post | Thesis · P3 | Authority | Bridge | READY |
 | 2026-08-05 | [buyers-ledger-teardown-post](2026-08-05-buyers-ledger-teardown-post.md) | Teardown post | Proof · P2 | Authority | Inner | READY |
 | 2026-08-04 | [eleven-day-sentence-post](2026-08-04-eleven-day-sentence-post.md) | LinkedIn post | Thesis · P2 | Authority | Bridge | READY |
