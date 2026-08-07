@@ -1,0 +1,42 @@
+{
+  "source_id": "JF-TERMS-2026-08-02",
+  "video_id": "cEEO2TPpL0U",
+  "url": "https://www.youtube.com/watch?v=cEEO2TPpL0U",
+  "title": "Million Dollar Offers (I’ve done this 32 times)",
+  "uploader": "Jason Fladlien",
+  "channel": "Jason Fladlien",
+  "upload_date": "2026-08-02",
+  "duration_seconds": 3187,
+  "capture_date": "2026-08-02",
+  "capture_method": "watch skill with yt-dlp native captions, scene selection, and no Whisper fallback",
+  "evidence_counts": {
+    "native_caption_segments": 1386,
+    "scene_candidates": 501,
+    "frames_read": 100
+  },
+  "working_evidence_hashes": {
+    "video.en-orig.vtt": "94403007e0e03fcca63e8020873703f9fa4b2e1415a58ee81cbcae66d268c85f",
+    "video.info.json": "a2adc729cd28538bbc00554f0dd79a56358d4c97bfc46e3c873445da9d5a28e9",
+    "video.mp4": "49d520aaed0127074fd9526eaf480256d657f62b0804b4b5a781403715d29541"
+  },
+  "retention_policy": {
+    "committed": [
+      "source-receipt.json",
+      "segment-index.jsonl",
+      "visual-context-ledger.md",
+      "uncertainty-report.md"
+    ],
+    "not_committed": [
+      "full video",
+      "wholesale transcript",
+      "raw metadata dump",
+      "extracted frame set"
+    ],
+    "replay": "Reacquire the public source from the URL and compare hashes where the upstream files remain unchanged."
+  },
+  "known_discrepancies": [
+    "The title says 32 times; the spoken opening says 26 seven-figure offers.",
+    "Jason says the framework has 19 components; RAW 3 + FAT 3 + HOP 3 + FAVOR 5 + RISE 4 yields 18 named components."
+  ],
+  "proof_boundary": "The video is primary evidence for Jason's stated method, not independent verification of financial performance, causal claims, or exact-offer market demand."
+}

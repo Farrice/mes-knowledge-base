@@ -713,3 +713,8 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-04 17:56]` **finalize** | Adil Amarsi source delta — Luke Iha Profit-Finder Opportunity Scan in-place extraction forge | strategy | luke-iha — composite:7.67 status:Keep
 - `[2026-07-31 12:34]` **finalize** | Capability Stewardship Phase 1 canonical integration, no-override projectless cold-start proof, sema | strategy | system-audit — composite:7.33 status:Needs Improvement
 - `[2026-07-31 12:34]` **finalize** | Capability Stewardship Phase 1 canonical integration, no-override projectless cold-start proof, sema | strategy | system-audit — composite:9.0 status:Keep
+- `[2026-08-02 14:02]` **finalize** | Jason Fladlien Offer TERMS connected skill-system expansion with canonical 18-lever reference, gover | general | jason-fladlien-marketing — composite:8.67 status:Keep
+- `[2026-08-02 18:33]` **finalize** | Angle Map Offer TERMS rebuild packet: HOLD current activation, bounded three-decision PATCH after li | general | jason-fladlien — composite:7.67 status:Needs Improvement
+- `[2026-08-02 18:34]` **finalize** | Angle Map Offer TERMS rebuild packet: primary FAT-A blocker, current HOLD, three-decision post-resol | general | jason-fladlien — composite:9.0 status:Keep
+- `[2026-08-02 19:05]` **finalize** | Approved local Angle Map TERMS patch: ordered readiness before payment, objective make-right, Ready- | general | jason-fladlien — composite:9.0 status:Keep
+- `[2026-08-02 19:06]` **finalize** | Approved local Angle Map TERMS patch: readiness before payment, objective make-right, Ready-to-Start | general | jason-fladlien — composite:9.0 status:Keep

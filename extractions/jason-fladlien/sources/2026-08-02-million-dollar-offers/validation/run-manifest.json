@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "source_id": "JF-TERMS-2026-08-02",
+  "created_date": "2026-08-02",
+  "branch": "codex/fladlien-offer-terms",
+  "fork_commit": "6cf0bf6a3964679161924978632d7d4a35faa6a7",
+  "semantic_behavior_claim": "independent-human-or-blinded-review-required",
+  "suite_verdict": "partial-pass-2-of-3-blinded-fixtures",
+  "evidence_boundaries": {
+    "exact_model_identifiers": "not exposed by the orchestration surface",
+    "platform_file_read_transcripts": "not exposed; read boundaries rely on fork=none, task instructions, fixture hashes, and returned allowed-read lists",
+    "verbatim_generation_task_messages": "not retained in this artifact; normalized instruction summaries and exact prompt artifacts are recorded instead",
+    "saved_output_identity": "substantive returned outputs were persisted; minor punctuation normalization may have occurred, so byte identity with chat messages is not claimed",
+    "market_proof": "none; sent, held, sold, and collected remain untested",
+    "external_actions": "none"
+  },
+  "artifacts": [
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/source-receipt.json",
+      "sha256": "1d72116e005e8a713f90a3681dae5fa8ed879216c5772710bce235d985cf66b3"
+    },
+    {
+      "path": "skills/jason-fladlien-marketing/references/offer-terms.md",
+      "sha256": "013cd257fdd6455d5fc27d94733a941262b621576b6d6e9f9b5c138441dec725"
+    },
+    {
+      "path": "extractions/jason-fladlien/offer-terms-skill-system-contract.md",
+      "sha256": "41f50fe8ff00edca048acaecc34e4b7ddaa9437f823bf3f9903a4bef9b7876ca"
+    },
+    {
+      "path": ".agent/workflows/fladlien-terms.md",
+      "sha256": "5eb03fd3e2243c770346194a3cbe82739c70ab92f3145b3cc473319cb54b6da1"
+    },
+    {
+      "path": ".agent/workflows/revenue-offer-agent.md",
+      "sha256": "5ce58393da41fe115abf9712cce1189ad969c11cfde57fe209cd874ac759d8d3"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/01-personal-alignment-sprint.md",
+      "sha256": "1a68559ba5a024c783f37641ca51219c3e59edf9e60c18c7cc4ca5311e77f0eb"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/02-client-carbon-torch.md",
+      "sha256": "18b8f4b7a4598f9edbe73a5d756c4fe0143d1cf765edd0085f78e9c80703a121"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/03-official-offer-os-pilot.md",
+      "sha256": "67e3164594f8a34c38290058a5ea690f59cb4a89474a3173755fda395bc07cf5"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/baselines/01-personal-alignment-sprint.md",
+      "sha256": "5ad947893cfa9a704cc0d5d12954916e1d22778204d007b706e53c2d19622f09"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/baselines/02-client-carbon-torch.md",
+      "sha256": "96204c547da5518997c671c5539a8692991848157ed245c7eb2c0e9537cd81a3"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/baselines/03-official-offer-os-pilot.md",
+      "sha256": "a79d5e1c910fdd7b5dc48c825510ed11aca8b9aa0986485889d537613a78d3f3"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/enhanced/01-personal-alignment-sprint.md",
+      "sha256": "ccb57a0f29d43cfd315f6be8b9a0be43c0014b8d572c707f3b0171a2aef794eb"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/enhanced/02-client-carbon-torch.md",
+      "sha256": "9407337093cd4832804ba889e7a506932bee2182bfb451d04d5ed6eac0a26795"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/enhanced/03-official-offer-os-pilot.md",
+      "sha256": "db6884333157cbf14b1ec3ed5ce946b5ab52325029334df85d124d768d548017"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/negative-path/04-no-adoption-trigger-fixture.md",
+      "sha256": "cefac103a57395ac59a85a18faf92d4093388ef862c6fba7cdf117b44b94c4a8"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/negative-path/04-no-adoption-trigger-result.md",
+      "sha256": "3f365d30695b27fcf9ce6396bb43d4c1eacfa9acfe11e5b53b0da7f06a36bf6c"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/cold-start/03-official-offer-os-pilot-receipt.md",
+      "sha256": "37261c5b07f68665d864f3c6e4d73fe32fd49549df23ab47405f42e557e7261a"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/personal-judge.md",
+      "sha256": "21cebc12ea97ef9de36ab4416707a85632c4214b87a942d31e84a76754c872a5"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/client-judge.md",
+      "sha256": "8089dfeac2045afbee5e6a8e134341313c9d026a196a915c3cec68939d4f029d"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/official-judge.md",
+      "sha256": "883ac331f736e8320ff79df994b7f48b31c0f97c1ad0d99cbbac1bad91d474d7"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/mapping-and-suite-verdict.md",
+      "sha256": "1aa57b37537756daedbc3aee6a037e9b29b539e6efbd96cb410acde7130801d7"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/calibration/03-official-patch-label-replay.md",
+      "sha256": "8bf60894cf175a086934712cdb4a40ae49e45170b0f1e3bd4fbbb1b3773d64de"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/decision-delta-ledger.md",
+      "sha256": "440712d9f10d9fb3fa90f8d647610086787d985431fc6e2f87d1592a29b378d6"
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/VALIDATION.md",
+      "sha256": "63764c6ae93029b8ba4b4825da39ba57fe61e2006e9897d49cd0e6575a800443"
+    }
+  ],
+  "runs": [
+    {
+      "task": "/root/personal_baseline_v2",
+      "role": "pre-expansion baseline",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/01-personal-alignment-sprint.md",
+      "fixture_sha256": "1a68559ba5a024c783f37641ca51219c3e59edf9e60c18c7cc4ca5311e77f0eb",
+      "instruction_summary": "Use only the frozen fixture and named pre-expansion blobs from the fork commit to make the best Revenue Offer Agent decision without TERMS.",
+      "allowed_read_boundary": "fixture plus the exact git-show paths listed in the saved output",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/baselines/01-personal-alignment-sprint.md",
+      "output_sha256": "5ad947893cfa9a704cc0d5d12954916e1d22778204d007b706e53c2d19622f09",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/personal_enhanced_v2",
+      "role": "TERMS enhanced",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/01-personal-alignment-sprint.md",
+      "fixture_sha256": "1a68559ba5a024c783f37641ca51219c3e59edf9e60c18c7cc4ca5311e77f0eb",
+      "instruction_summary": "Execute the public TERMS path from the frozen fixture and the six named current runtime files; do not inspect baseline or other validation evidence.",
+      "prompt_artifact": "skills/jason-fladlien-marketing/references/prompts-v2/offer-terms-diagnostic-and-rebuild.md",
+      "allowed_read_boundary": "fixture, public wrapper, function owner, canonical reference, diagnostic workflow, conditional internal workflow",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/enhanced/01-personal-alignment-sprint.md",
+      "output_sha256": "ccb57a0f29d43cfd315f6be8b9a0be43c0014b8d572c707f3b0171a2aef794eb",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/client_baseline_v2",
+      "role": "pre-expansion baseline",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/02-client-carbon-torch.md",
+      "fixture_sha256": "18b8f4b7a4598f9edbe73a5d756c4fe0143d1cf765edd0085f78e9c80703a121",
+      "instruction_summary": "Use only the frozen fixture and named pre-expansion blobs from the fork commit to make the best Revenue Offer Agent decision without TERMS.",
+      "allowed_read_boundary": "fixture plus the exact git-show paths listed in the saved output",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/baselines/02-client-carbon-torch.md",
+      "output_sha256": "96204c547da5518997c671c5539a8692991848157ed245c7eb2c0e9537cd81a3",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/client_enhanced_v2",
+      "role": "TERMS enhanced",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/02-client-carbon-torch.md",
+      "fixture_sha256": "18b8f4b7a4598f9edbe73a5d756c4fe0143d1cf765edd0085f78e9c80703a121",
+      "instruction_summary": "Execute the public TERMS path from the frozen fixture and the six named current runtime files; do not inspect baseline or other validation evidence.",
+      "prompt_artifact": "skills/jason-fladlien-marketing/references/prompts-v2/offer-terms-diagnostic-and-rebuild.md",
+      "allowed_read_boundary": "fixture, public wrapper, function owner, canonical reference, diagnostic workflow, conditional internal workflow",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/enhanced/02-client-carbon-torch.md",
+      "output_sha256": "9407337093cd4832804ba889e7a506932bee2182bfb451d04d5ed6eac0a26795",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/heldout_baseline_v2",
+      "role": "pre-expansion baseline",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/03-official-offer-os-pilot.md",
+      "fixture_sha256": "67e3164594f8a34c38290058a5ea690f59cb4a89474a3173755fda395bc07cf5",
+      "instruction_summary": "Use only the frozen fixture and named pre-expansion blobs from the fork commit to make the best Revenue Offer Agent decision without TERMS.",
+      "allowed_read_boundary": "fixture plus the exact git-show paths listed in the saved output",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/baselines/03-official-offer-os-pilot.md",
+      "output_sha256": "a79d5e1c910fdd7b5dc48c825510ed11aca8b9aa0986485889d537613a78d3f3",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/heldout_enhanced_v2",
+      "role": "TERMS enhanced before blind-review calibration repair",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/03-official-offer-os-pilot.md",
+      "fixture_sha256": "67e3164594f8a34c38290058a5ea690f59cb4a89474a3173755fda395bc07cf5",
+      "instruction_summary": "Execute the public TERMS path from the frozen fixture and the six named current runtime files; do not inspect baseline or other validation evidence.",
+      "allowed_read_boundary": "fixture, public wrapper, function owner, canonical reference, diagnostic workflow, conditional internal workflow",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/enhanced/03-official-offer-os-pilot.md",
+      "output_sha256": "db6884333157cbf14b1ec3ed5ce946b5ab52325029334df85d124d768d548017",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/negative_trigger",
+      "role": "internal-component negative path",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/negative-path/04-no-adoption-trigger-fixture.md",
+      "fixture_sha256": "cefac103a57395ac59a85a18faf92d4093388ef862c6fba7cdf117b44b94c4a8",
+      "instruction_summary": "Run only the internal adoption/proof trigger gate and return NOT TRIGGERED with zero changes when the fixture provides no named trigger.",
+      "allowed_read_boundary": "negative fixture and internal adoption/proof workflow",
+      "output_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/negative-path/04-no-adoption-trigger-result.md",
+      "output_sha256": "3f365d30695b27fcf9ce6396bb43d4c1eacfa9acfe11e5b53b0da7f06a36bf6c",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/blind_personal_judge",
+      "role": "blind comparative judge",
+      "fork_turns": "none",
+      "fixture_sha256": "1a68559ba5a024c783f37641ca51219c3e59edf9e60c18c7cc4ca5311e77f0eb",
+      "instruction_summary": "Judge the fixture and two anonymized candidates on material decision quality, evidence, preservation, minimum change, trade-offs, and operational usefulness; ignore terminology and length.",
+      "candidate_mapping_withheld": true,
+      "result_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/personal-judge.md",
+      "result_sha256": "21cebc12ea97ef9de36ab4416707a85632c4214b87a942d31e84a76754c872a5",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/blind_client_judge",
+      "role": "blind comparative judge",
+      "fork_turns": "none",
+      "fixture_sha256": "18b8f4b7a4598f9edbe73a5d756c4fe0143d1cf765edd0085f78e9c80703a121",
+      "instruction_summary": "Judge the fixture and two anonymized candidates on material decision quality, evidence, preservation, minimum change, trade-offs, and operational usefulness; ignore terminology and length.",
+      "candidate_mapping_withheld": true,
+      "result_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/client-judge.md",
+      "result_sha256": "8089dfeac2045afbee5e6a8e134341313c9d026a196a915c3cec68939d4f029d",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/blind_official_judge",
+      "role": "blind comparative judge",
+      "fork_turns": "none",
+      "fixture_sha256": "67e3164594f8a34c38290058a5ea690f59cb4a89474a3173755fda395bc07cf5",
+      "instruction_summary": "Judge the fixture and two anonymized candidates on material decision quality, evidence, preservation, minimum change, trade-offs, and operational usefulness; call a tie and FAIL if differences are immaterial.",
+      "candidate_mapping_withheld": true,
+      "result_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/blind-review/official-judge.md",
+      "result_sha256": "883ac331f736e8320ff79df994b7f48b31c0f97c1ad0d99cbbac1bad91d474d7",
+      "files_edited_by_agent": false
+    },
+    {
+      "task": "/root/official_calibration_replay",
+      "role": "post-judge change-class replay",
+      "fork_turns": "none",
+      "fixture_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/03-official-offer-os-pilot.md",
+      "fixture_sha256": "67e3164594f8a34c38290058a5ea690f59cb4a89474a3173755fda395bc07cf5",
+      "instruction_summary": "Execute the final TERMS path from the frozen official fixture and six sealed reads, paying attention to the written smallest-honest-change-class rule without assuming a desired outcome.",
+      "allowed_read_boundary": "fixture, public wrapper, function owner, canonical reference, diagnostic workflow, conditional internal workflow",
+      "excluded_reads": "all baselines, enhanced outputs, verdicts, amplification, architecture contract, conversation, memory, other fixtures, and all other repository files",
+      "result_path": "extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/calibration/03-official-patch-label-replay.md",
+      "result_sha256": "8bf60894cf175a086934712cdb4a40ae49e45170b0f1e3bd4fbbb1b3773d64de",
+      "files_edited_by_agent": false
+    }
+  ]
+}

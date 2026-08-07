@@ -129,3 +129,41 @@ UNCONFIRMED items deliberately excluded from genius.md tranche 3: exact Hormozi 
 **Tranche-3 addendum (same date, gap-close pass)**: Consult Ratio/Goodwill Question, One Word Per Market, State Perishability, Views≠Commerce+AI stance, Three-Element Game Test, Hundredth Webinar Confession — all grep-verified verbatim against `extractions/jason-fladlien/sources/2026-07-19-charlie-morgan-250m/transcript.txt` ("six hours just on offer", "one word per industry", "every emotional state has leverage", "commercial intention right now is so negligible", "three elements that require success", "took 99 steps").
 
 **Tranche-3 completion (2026-07-23)**: full "Persuasive Patterns" library — source: public Notion site `jumpy-oregano-409.notion.site/38abc67d4986803b93c8d8dc22ddf656` (link provided by Fladlien to Farrice via Instagram DM). Scraped via Notion public api/v3 (queryCollection + per-row loadCachedPageChunk); raw row properties + compiled doc archived at `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/`. 56 rows / 10 categories verified programmatically; deployed to `skills/jason-fladlien-marketing/references/pattern-bank/`.
+
+---
+
+## Tranche 4 (2026-08-02) — Offer TERMS watched-source expansion
+
+| Source | Durable evidence | Notes |
+|---|---|---|
+| “Million Dollar Offers (I’ve done this 32 times)” — Jason Fladlien, YouTube `cEEO2TPpL0U`, 53:07 | `extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/` | Native English captions, video metadata, and 100-frame review. The title says 32 while the spoken opening says 26 seven-figure offers; both are unverified. Durable layer retains hashes, receipt, 19-row framework/lever segment index, visual ledger, and uncertainty report; the 158 MB video, wholesale transcript, raw frame set, and raw metadata remain temporary and are not committed. |
+
+### Provenance
+
+- VTT SHA-256: `94403007e0e03fcca63e8020873703f9fa4b2e1415a58ee81cbcae66d268c85f`
+- Metadata SHA-256: `a2adc729cd28538bbc00554f0dd79a56358d4c97bfc46e3c873445da9d5a28e9`
+- Video SHA-256: `49d520aaed0127074fd9526eaf480256d657f62b0804b4b5a781403715d29541`
+- Capture: 1,386 native-caption segments, 501 scene candidates, 100 frames read.
+
+### Framework claims
+
+| Claim | Status | Anchor |
+|---|---|---|
+| TERMS = Time, Effort, Routine, Money, Status | VERIFIED in source | Caption and notebook, 00:08–00:52. |
+| Time / RAW = Recover, Available, Win | VERIFIED in source | Retained lever envelope 03:30–11:42. |
+| Effort / FAT = Feel, Act, Thinking | VERIFIED in source | Retained lever envelope 12:41–22:45. Source wording is “Thinking”; “Think” is shorthand only. |
+| Routine / HOP = Habit, Order, Process | VERIFIED in source | Retained lever envelope 23:47–30:26. |
+| Money / FAVOR = Free, Anchor, Value, Outcome, Resistance | VERIFIED in source | Retained lever envelope 31:13–42:31. Auto-caption “money part of risk” near 30:57 is contradicted by section order and the notebook. |
+| Status / RISE = Relative, Internal, Social, External | VERIFIED in source | Retained lever envelope 43:30–52:34. |
+| Framework contains 19 components | DISCREPANT | Jason says 19 around 02:48–02:55 and 52:49–52:53; the formulas visibly and verbally total 18. Runtime uses the 18 observed levers and invents no nineteenth. |
+
+### Claim boundaries
+
+- The title’s “32 times” and Jason’s spoken claim of 26 seven-figure offers conflict; both remain source-reported and unverified.
+- Numerical ratios, universal term rankings, performance claims, client-result claims, causal assertions, and channel-description credentials remain source-reported unless independently verified.
+- The strict prior `energy > time > money` order was not located in the available prior source pass and is no longer a mandatory runtime ranking. TERMS diagnoses all five burdens in context.
+- `Recover`, `Win`, `Feel`, `Act`, `Thinking`, `Habit`, `Order`, `Process`, `Free`, `Anchor`, `Value`, `Internal`, and `Social` are observed mechanics.
+- `Available` and `Outcome` include source-reported heuristics rather than guaranteed compression or certainty ratios.
+- `Resistance`, `Relative`, and `External` are observed with added system guardrails against vulnerability targeting, enemy manufacture, fake status, compelled sharing, and permissionless reuse.
+- A screenshot proves only the event it accurately depicts. It does not automatically prove attribution, repeatability, consent, conversion, demand, or revenue.
+- Primary-burden selection, the three-change ceiling, cross-term non-regression, the five-stage permission chain, and market-state reporting are Antigravity runtime controls, not Jason claims.

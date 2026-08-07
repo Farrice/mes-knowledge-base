@@ -100,7 +100,7 @@
 | `henry-shukman` | **Henry Shukman: Contemplative & Poetic Writing Master** | contemplative, poetic writing master |
 | `hilary-gridley` | **Hilary Gridley** | agent configuration |
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
-| `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
+| `jason-fladlien` | **Jason Fladlien** | adoption & proof, agent profile, brand strategy, buyer-burden design, copywriting, market research, marketing psychology, offer design, sales/closing |
 | `jay-hiette` | **jay-hiette** | belief-shifting messaging, coaching positioning architect, coaching-business deal flow, compounding acquisition design, contrarian message engineering, identity-led content systems, online coaching positioning, reality matrix architecture, symptom-language copywriting |
 | `jenny-hoyos` | **jenny-hoyos** | creator business, format and niche strategy, hook engineering, loop & rewatch physics, production economics, retention diagnosis, short-form viral storytelling (youtube shorts / vertical video), viral short scripting |
 | `jeremy-haynes` | **Jeremy Haynes** | agent, mindset is the operator's internal os, offer is their external market-facing os. 13 workflows across 3 tiers: |
