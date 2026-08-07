@@ -333,6 +333,7 @@
 | `sam-parr-copywriting` | **Sam Parr - Copywriting Mastery** | story ads, the tangibility engine, live ad-rewrite | 10 | 0 |
 | `sam-parr-copywriting-mechanics` | **Sam Parr Copywriting Mechanics** | deploy the sam parr copywriting companion os for headline gravity, proof-first rescue, curiosity gaps | 14 | 0 |
 | `sam-parr-taste-acquisition` | **Sam Parr - Taste Acquisition Mastery** | the 4-step system for building taste from scratch in any domain — decide, history — deployed as competitive moat, taste acquisition mastery | 12 | 0 |
+| `sam-vander-wielen` | **sam-vander-wielen** | webinar launch, live webinar, course launch | 12 | 0 |
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai-powered info product launch methodology from serial entrepreneur samuel th..., ai product launch system | 4 | 11 |
 | `sarah-levinger-ad-psychology` | **sarah-levinger-ad-psychology** | emotional-avatar diagnosis, avatar-to-story-structure matching, human-story-first scripting | 3 | 0 |
 | `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | the design-thinking brain: originates concepts and color systems, then engineers composition, layout | 26 | 0 |

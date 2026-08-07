@@ -91,4 +91,20 @@ Contradictions only — not a list of unstamped projects.
 - **dual_taxonomy** — `_active/linkedin-launch`: 05-* collision: 05-assets + 05-lead-gen
 - **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 8d ago
 - **missing_index** — `_active/video-studio-shakedown`: no INDEX.md — project has no entry point
-
+| `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-08-06 | active* |
+| `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-08-06 | active |
+| `andrea-dj` | _active/ | `_active/andrea-dj/RISKS.md` | 2026-08-06 | parked |
+| `claude-code-harness-analysis` | _active/ | `_active/claude-code-harness-analysis/README.md` | 2026-08-06 | parked |
+| `farrice-creative-strategist-portfolio` | _active/ | `_active/farrice-creative-strategist-portfolio/INDEX.md` | 2026-08-06 | parked |
+| `javier-human-values` | _active/ | `_active/javier-human-values/INDEX.md` | 2026-08-06 | parked |
+| `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-08-06 | parked |
+| `kens-fasting` | _active/ | `_active/kens-fasting/INDEX.md` | 2026-08-06 | parked |
+| `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-08-06 | parked |
+| `remotion-studio` | _active/ | `_active/remotion-studio/INDEX.md` | 2026-08-06 | parked |
+| `harness-apex-2026-07-07` | _active/ | `_active/harness-apex-2026-07-07/INDEX.md` | 2026-08-06 | done |
+| `memory-bakeoff` | _active/ | `_active/memory-bakeoff/INDEX.md` | 2026-08-06 | done |
+| `operator-core-backport` | _active/ | `_active/operator-core-backport/INDEX.md` | 2026-08-06 | done |
+| `pmf-offer-shelf` | _active/ | `_active/pmf-offer-shelf/INDEX.md` | 2026-08-06 | done |
+| `swarm-apex-2026-07-07` | _active/ | `_active/swarm-apex-2026-07-07/INDEX.md` | 2026-08-06 | done |
+| `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-08-06 | done |
+**57 projects** — 18 active, 20 parked, 19 done.
