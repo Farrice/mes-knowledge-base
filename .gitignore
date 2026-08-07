@@ -153,3 +153,34 @@ _active/hyperframes-studio/
 # dir-only patterns (.venv/, .memory/*) do not match SYMLINKS, so `git add -A`
 # in a lane was catching them. Bare-name patterns cover both forms.
 .memory
+
+# ── Phase 3 lane migration (2026-08-06): high-churn per-tree runtime state ──
+# These fork in every worktree lane and guarantee merge conflicts; hooks
+# rewrite them on every prompt. Spend/cost files are SYMLINKED into lanes by
+# worktree_lane.py bootstrap so budgets stay single-source (no double-spend).
+# Same class as .agent/session.lock and .agent/session-state.md above.
+.agent/routing-intelligence.json
+.agent/performance-log.jsonl
+.agent/performance-log-inbox.jsonl
+.agent/performance-log-skipped.jsonl
+.agent/missions.jsonl
+.agent/arsenal-index.json
+.agent/prompt-index.json
+.agent/skill-index.json
+.agent/skill-commands.json
+.agent/cost-gate-state.json
+.agent/cost-gate-log.jsonl
+.agent/cost-gate-approvals.jsonl
+.agent/fal-usage.json
+.agent/higgsfield-usage.json
+.agent/monid-usage.json
+.agent/steering-loop-state.json
+.agent/voice-ratchet-state.json
+.agent/operator-guide-state.json
+.agent/co-creation-state.json
+.agent/mcp-spend.jsonl
+.agent/active-model.json
+.agent/event-listener-state.json
+.agent/event-listener.log
+.agent/sessions/observe-log.jsonl
+.agent/sessions/steering-observe.jsonl
