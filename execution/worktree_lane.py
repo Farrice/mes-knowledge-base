@@ -598,7 +598,9 @@ def cmd_merge(args) -> int:
         return _park(main, lane, branch,
                      f"main tree dirty ({len(tracked_dirty)} tracked change(s)) — "
                      f"first driver owns it")
-    writer = fresh_main_writer(main)
+    exclude = _lane_session_ids(main) | set(getattr(args, "exclude_session", None) or [])
+    writer = fresh_main_writer(main, exclude_ids=exclude,
+                               own_lock_token=getattr(args, "lock_token", None))
     if writer:
         return _park(main, lane, branch, f"main has a fresh writer: {writer}")
     lockfile = (main / ".agent" / "lane-merge.lock")
@@ -847,6 +849,10 @@ def main() -> int:
     m.add_argument("--lane", help="branch name (default: the lane you're in)")
     m.add_argument("--no-teardown", action="store_true", dest="no_teardown")
     m.add_argument("--dry-run", action="store_true", dest="dry_run")
+    m.add_argument("--lock-token", dest="lock_token",
+                   help="session_lock token owned by the caller (own lock ≠ foreign writer)")
+    m.add_argument("--exclude-session", dest="exclude_session", action="append",
+                   help="session id to exclude from fresh-writer detection (repeatable)")
     m.set_defaults(fn=cmd_merge)
 
     t = sub.add_parser("teardown")
