@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T11:06:08.481726+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/linkedin-launch/daily",
+  "dst": "_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot",
+  "stub_left": true,
+  "files_moved": 15,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-farrice-engine.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/baseline-linkedin-2026-08-07.json": 8,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/content/signal-loop/evidence/source-inventory.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-14-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-15-health-performance-geo-brief-cloud.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-16-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-17-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-19-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-21-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-22-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-23-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-24-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-25-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-26-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-31-health-performance-geo-brief-cloud-run.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/health-performance-ip-library/daily/2026-07-31-health-performance-geo-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin-launch/04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/brand_radar.py": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/export_to_drive.py": 1
+  },
+  "total_rewrites": 26,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

@@ -26,7 +26,7 @@ import subprocess
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT_DIR = os.path.join(REPO, "_active/linkedin-launch/daily")
+OUT_DIR = os.path.join(REPO, "_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot")
 
 # (display name, instagram handle, website) — Top-10 from research/wellness-supplement-brand-niche.md.
 # Correct any handle that returns no data (Apify will just report empty + we note it).

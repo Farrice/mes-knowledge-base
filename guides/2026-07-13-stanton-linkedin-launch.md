@@ -30,7 +30,7 @@ status: enriched
 | `/stanton-clamp-audit` | Attention-drop audit on one draft | Clean-but-flat draft nobody would finish |
 | `/stanton-series-escalation` | A batch re-ordered into an escalating series | Posts filed by topic pillar hiding a ladder |
 | `story-compass` (Runia) | Is-there-a-story-at-all verdict | Before Stanton, when the story itself is in doubt |
-| `_active/linkedin-launch/content-os/launch-sequence-stanton.md` | Ladder table + 13 loop lines + finale bookend + watch-items | Executing or resuming the Receipt Arc mid-sequence |
+| `_active/linkedin-launch/04-deliverables/content-os/launch-sequence-stanton.md` | Ladder table + 13 loop lines + finale bookend + watch-items | Executing or resuming the Receipt Arc mid-sequence |
 | `_active/linkedin-launch/04-deliverables/content-os/REVIEW-clean-posts.md` | The 14 post bodies awaiting verdicts | The PASS/FAIL/FIX verdict pass |
 | `skills/andrew-stanton-audience-engineering/USER-GUIDE.md` | 20-workflow situation table, five proven plays, quick-start recipes | Learning to use the skill |
 | `skills/andrew-stanton-audience-engineering/OPERATORS-GUIDE.md` | Deployment map, quality system, failure modes → fixes | Understanding or extending how the system runs it |
@@ -93,7 +93,7 @@ Three components:
 
 ### Where the assets live
 
-- Sequence + loop lines + watch-items: `_active/linkedin-launch/content-os/launch-sequence-stanton.md`
+- Sequence + loop lines + watch-items: `_active/linkedin-launch/04-deliverables/content-os/launch-sequence-stanton.md`
 - Post bodies (awaiting verdicts): `_active/linkedin-launch/04-deliverables/content-os/REVIEW-clean-posts.md`
 
 ### How to execute / resume the posting sequence

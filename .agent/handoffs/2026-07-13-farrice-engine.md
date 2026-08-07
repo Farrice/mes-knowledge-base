@@ -30,7 +30,7 @@ Authoritative summary in memory: `~/.claude/projects/-Users-farricecain-Google-A
 
 **Scripts (`execution/`):** `brand_radar.py` (Apify brand sweep), `export_to_drive.py` (markdown→Google Docs, idempotent, globs `daily/`), `apify_client.py`, `chain_runner.py`.
 
-## Content already produced (ready to publish — paths under `_active/linkedin-launch/daily/`)
+## Content already produced (ready to publish — paths under `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot/`)
 - `2026-06-15-post-the-replaceable-fear.md` — enriched empathy post (gated PASS).
 - `2026-06-15-brand-vertical-post.md` — the "sameness/divergence" post (Farrice rated **8/10, post as-is**).
 - `2026-W25-content-set.md` — **the week's main content**: flagship article *"The Most Expensive Average in Wellness"* + 3 aha-engineered posts (Compliance / Fatigue / Consumer-Truth). All gated PASS (article breakthrough-leaning).

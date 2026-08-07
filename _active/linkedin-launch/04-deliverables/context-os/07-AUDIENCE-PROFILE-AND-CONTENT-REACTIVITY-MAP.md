@@ -524,7 +524,7 @@ The profile is an operating hypothesis, not a permanent identity.
 ### Owned and local evidence
 
 - Authenticated eight-post LinkedIn snapshot: `_active/linkedin-launch/01-research/page-farrice-profile-full.yml`
-- Empty current-lane metric logs: `_active/linkedin-launch/06-automation/daily/performance-log.md` and `_active/linkedin-launch/daily/performance-log.md`
+- Empty current-lane metric logs: `_active/linkedin-launch/06-automation/daily/performance-log.md` and `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot/performance-log.md`
 - Farrice’s 8/10 supplement-brand taste verdict: `_active/linkedin-launch/06-automation/daily/2026-06-15-brand-vertical-post.md`
 - Current article, foundational post, profile, and offer copy: `_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md`
 - Offer boundary: `02-OFFER-CANON.md`

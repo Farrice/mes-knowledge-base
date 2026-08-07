@@ -1,6 +1,6 @@
 # Health Performance GEO Daily Brief | 2026-07-22
 
-**CONTEXT GAPS**: `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md` and `_active/linkedin-launch/research/CONTENT-DOMINATION-RESEARCH.md` are not present in this checkout. Not loaded, not fabricated. `_active/health-performance-ip-library/SERVICE_LADDER.md` does not exist at that exact path; an equivalent file exists at `_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md` and was read and used in its place. The latest available `brand-radar-*.md` is `_active/linkedin-launch/daily/brand-radar-2026-W25.md`, dated 2026-06-15, five weeks stale. Skimmed for named-brand texture only, not used as a live signal.
+**CONTEXT GAPS**: `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md` and `_active/linkedin-launch/research/CONTENT-DOMINATION-RESEARCH.md` are not present in this checkout. Not loaded, not fabricated. `_active/health-performance-ip-library/SERVICE_LADDER.md` does not exist at that exact path; an equivalent file exists at `_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md` and was read and used in its place. The latest available `brand-radar-*.md` is `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot/brand-radar-2026-W25.md`, dated 2026-06-15, five weeks stale. Skimmed for named-brand texture only, not used as a live signal.
 
 ## 0. Compact Quality Spine
 

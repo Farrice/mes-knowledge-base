@@ -35,7 +35,7 @@ import sys
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_FOLDER = "Farrice LinkedIn Engine — Content & Strategy OS"
 MANIFEST_OUT = os.path.join(REPO, "_active/linkedin-launch/90-exports/drive-export-manifest.json")
-DAILY_DIR = os.path.join(REPO, "_active/linkedin-launch/daily")
+DAILY_DIR = os.path.join(REPO, "_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot")
 FOLDER_MIME = "application/vnd.google-apps.folder"
 DOC_MIME = "application/vnd.google-apps.document"
 REAUTH = "gws auth login -s drive,gmail,calendar,sheets,docs"

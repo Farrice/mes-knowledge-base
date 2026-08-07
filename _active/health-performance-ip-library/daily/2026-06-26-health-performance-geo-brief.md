@@ -11,7 +11,7 @@ Run status: REAL with degraded local vector memory. Live public source research 
 - Owner: Health Performance GEO Client Acquisition Engine, with Oren Operational Systems as the operating spine.
 - Mode: full daily brief plus Friday weekly synthesis.
 - Route proof: `.codex/tools/codex_orchestration_preflight.py` routed the request to `/daily-zeitgeist-brief`; `execution/routing_enforcer.py check` returned `valid: true`.
-- Golden sample status: loaded `_active/linkedin-launch/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
+- Golden sample status: loaded `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
 - Repeatability packet: loaded `_active/codex-repeatability/v4-high-taste-output-os.md`.
 - Local context used: `AUTOMATION_PROMPT.md`, `CLIENT_ACQUISITION_OFFER.md`, `SERVICE_LADDER.md`, 2026-06-24 daily brief, insight ledger tail, automation memory.
 - Memory/context retrieved: vector retrieval degraded; local library fallback used.

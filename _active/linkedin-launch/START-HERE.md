@@ -1,6 +1,6 @@
 # Linkedin Launch — start here
 
-*Generated 2026-08-07 11:01 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
+*Generated 2026-08-07 11:07 UTC by `execution/front_door.py`. Do not edit — every line is derived from the tree and from git, so it cannot go stale. Dates are when the file was last actually WORKED ON: a commit that touches 40+ files here is housekeeping and does not count, so a date may read older than `git log`.*
 
 > **Undated filename = LIVING** (current, update it in place). **Filename leading with a date = RECORD** (a session receipt — never truth, never build on it).
 
@@ -181,6 +181,8 @@
 
 **04-deliverables**
 
+- `04-deliverables/content-os/launch-sequence-stanton.md` — touched 2026-08-07
+- `04-deliverables/content-os/receipt-arc-novelty-pass/CAMPAIGN-MAP.md` — touched 2026-08-07
 - `04-deliverables/context-os/03-ICP-TRUTH-MAP.md` — touched 2026-08-05
 - `04-deliverables/context-os/07-AUDIENCE-PROFILE-AND-CONTENT-REACTIVITY-MAP.md` — touched 2026-08-05
 - `04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md` — touched 2026-07-31
@@ -303,37 +305,6 @@
 - `06-automation/daily/2026-W25-content-set.md` — touched 2026-07-01
 - `06-automation/daily/briefing-2026-06-15.md` — touched 2026-07-01
 
-**content-os**
-
-- `content-os/receipt-arc-novelty-pass/CAMPAIGN-MAP.md` — touched 2026-07-13
-- `content-os/launch-sequence-stanton.md` — touched 2026-07-13
-
-**daily**
-
-- `daily/performance-log.md` — touched 2026-07-13
-- `daily/brand-radar-2026-W25.md` — touched 2026-07-13
-- `daily/briefing-2026-06-22.md` — touched 2026-07-13
-- `daily/briefing-2026-06-11.md` — touched 2026-07-13
-- `daily/2026-W25-content-set.md` — touched 2026-07-13
-- `daily/briefing-2026-06-15.md` — touched 2026-07-13
-
-**health-performance-ai-search-week-1**
-
-- `health-performance-ai-search-week-1/content-packet.md` — touched 2026-07-13
-- `health-performance-ai-search-week-1/publish-copy-v3-high-taste.md` — touched 2026-07-13
-- `health-performance-ai-search-week-1/publish-copy-v2-polished.md` — touched 2026-07-13
-- `health-performance-ai-search-week-1/content-packet-v3-high-taste.md` — touched 2026-07-13
-- `health-performance-ai-search-week-1/content-packet-v2-polished.md` — touched 2026-07-13
-- `health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md` — touched 2026-07-13
-
-**novelty-engine-flagship**
-
-- `novelty-engine-flagship/FLAGSHIP.md` — touched 2026-07-13
-- `novelty-engine-flagship/FLAGSHIP-draft.md` — touched 2026-07-13
-- `novelty-engine-flagship/aha-variations/V1-the-interview.md` — touched 2026-07-13
-- `novelty-engine-flagship/aha-variations/V3-the-empty-shelf.md` — touched 2026-07-13
-- `novelty-engine-flagship/aha-variations/V2-unreadable-excellence.md` — touched 2026-07-13
-
 ## ⚠ Unabsorbed records
 
 Session work newer than the living doc in the same folder. Fold it in, or the next session builds on the older truth.
@@ -360,9 +331,6 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 - **04-deliverables/transition** — 2 files: `04-deliverables/content-os/arcs/00-transition/transition-02-FINAL.md` (2026-07-28), `04-deliverables/content-os/arcs/00-transition/transition-01-FINAL.md` (2026-07-28)
 - **06-automation/briefing-2026** — 4 files: `06-automation/daily/briefing-2026-06-22.md` (2026-07-01), `06-automation/daily/briefing-2026-06-23.md` (2026-07-01), `06-automation/daily/briefing-2026-06-11.md` (2026-07-01), `06-automation/daily/briefing-2026-06-15.md` (2026-07-01)
 - **06-automation/content-packet** — 2 files: `06-automation/health-performance-ai-search-week-1/content-packet.md` (2026-07-01), `06-automation/health-performance-ai-search-week-1/content-packet-v2-polished.md` (2026-07-01)
-- **daily/briefing-2026** — 3 files: `daily/briefing-2026-06-22.md` (2026-07-13), `daily/briefing-2026-06-11.md` (2026-07-13), `daily/briefing-2026-06-15.md` (2026-07-13)
-- **health-performance-ai-search-week-1/content-packet** — 2 files: `health-performance-ai-search-week-1/content-packet.md` (2026-07-13), `health-performance-ai-search-week-1/content-packet-v2-polished.md` (2026-07-13)
-- **novelty-engine-flagship/flagship** — 2 files: `novelty-engine-flagship/FLAGSHIP.md` (2026-07-13), `novelty-engine-flagship/FLAGSHIP-draft.md` (2026-07-13)
 
 ## Recent records
 
@@ -406,8 +374,8 @@ Several undated files claim the same slot. One is the living doc; the rest belon
 
 ## Health
 
-- living docs: 295
-- records: 41
-- archived (not counted above): 55
-- broken links in this tree: 522
+- living docs: 278
+- records: 32
+- archived (not counted above): 87
+- broken links in this tree: 547
 

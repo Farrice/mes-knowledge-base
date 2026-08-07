@@ -11,7 +11,7 @@ Google Drive export: disabled
 
 - Owner workflow: `/daily-zeitgeist-brief`, governed by `_active/health-performance-ip-library/AUTOMATION_PROMPT.md`.
 - Route proof: `.codex/tools/codex_orchestration_preflight.py` selected `/daily-zeitgeist-brief`; workspace routing suggested `/supercomputer` as the creative mission orchestrator; local prompt remained the governing contract.
-- Golden sample status: V4 sample loaded from `_active/linkedin-launch/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
+- Golden sample status: V4 sample loaded from `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
 - Local context used: automation memory, 2026-06-30 brief, service ladder, client acquisition offer, V4 repeatability packet, Supercomputer SKILL.md and genius.md.
 - Memory status: `execution/memory_facade.py` degraded on vector and episodic paths, then used FTS/local fallback. Automation memory supplied the recent run history.
 - Required proof work: live source spine, claim labels, source-quality audit, retrieval questions, offer bridge, local JSONL capture.

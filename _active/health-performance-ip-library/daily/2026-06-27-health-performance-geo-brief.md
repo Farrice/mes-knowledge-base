@@ -9,7 +9,7 @@ Run status: local-first. Google Drive export disabled.
 - Owner: Health Performance GEO Client Acquisition Engine, with Oren Operational Systems as operating spine.
 - Mode: auto, generate plus enrich.
 - Route proof: `codex_operator_preflight.py` chose `/daily-zeitgeist-brief`; `workflow_router.py search` ranked `/daily-zeitgeist-brief` first; `routing_enforcer.py check` returned valid.
-- Golden sample status: loaded `_active/linkedin-launch/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
+- Golden sample status: loaded `_active/linkedin-launch/99-archive/2026-08-07-dupe-trees/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`.
 - Local context used: automation prompt v3.2, V4 repeatability packet, client acquisition offer, service ladder, prior insight ledger, automation memory.
 - Memory retrieval: degraded. `execution/memory_retrieve.py` failed on embedding/network resolution, so the run used local prior artifacts and ledger continuity.
 - Required source/proof work: label all real-world claims as VERIFIED, LIKELY, or UNCONFIRMED; avoid medical advice and unsupported health claims.

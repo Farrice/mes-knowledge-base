@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T11:06:20.588774+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/linkedin-launch/content-os/receipt-arc-novelty-pass",
+  "dst": "_active/linkedin-launch/04-deliverables/content-os/receipt-arc-novelty-pass",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/baseline-linkedin-2026-08-07.json": 2
+  },
+  "total_rewrites": 2,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}
