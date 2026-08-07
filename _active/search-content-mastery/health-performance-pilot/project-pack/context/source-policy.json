@@ -1,0 +1,18 @@
+{
+  "allowed_sources": [
+    "primary research",
+    "official guidance",
+    "dated first-party observations"
+  ],
+  "claim_labels": [
+    "OBSERVED",
+    "INFERRED",
+    "CORROBORATED",
+    "UNCONFIRMED"
+  ],
+  "prohibited_sources": [
+    "invented claims",
+    "unreceipted medical promises"
+  ],
+  "schema_version": "search-context/v1"
+}

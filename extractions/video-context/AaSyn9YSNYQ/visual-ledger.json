@@ -1,0 +1,9 @@
+{
+  "schema_version": "visual-ledger/v1",
+  "video_id": "AaSyn9YSNYQ",
+  "status": "TRANSCRIPT_FIRST_NO_ESSENTIAL_FRAME_PASS",
+  "frame_count": 0,
+  "frame_files_persisted": false,
+  "evidence_refs": ["analysis.md", "transcript_segments.json"],
+  "reason": "The short source states a linear target-to-measurement workflow. No screen-only claim was required to implement the brief and production handoff."
+}

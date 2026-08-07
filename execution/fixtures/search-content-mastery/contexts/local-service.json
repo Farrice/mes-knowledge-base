@@ -1,0 +1,11 @@
+{
+  "project_name": "Northstar Emergency Plumbing",
+  "vertical": "local residential plumbing",
+  "entity_truth": {"schema_version": "search-context/v1", "entities": ["Northstar Emergency Plumbing", "Sacramento"], "verified_facts": ["Provides 24-hour emergency plumbing in the declared service area."], "unresolved": []},
+  "brand_context": {"schema_version": "search-context/v1", "brand": {"name": "Northstar Emergency Plumbing"}, "offer": {"primary": "24-hour emergency visit"}, "audience": {"primary": "Sacramento homeowner with an active leak"}, "voice": {"mode": "calm and specific"}},
+  "source_policy": {"schema_version": "search-context/v1", "allowed_sources": ["business records", "GBP exports", "local authority sources"], "prohibited_sources": ["invented reviews", "fake locations"], "claim_labels": ["OBSERVED", "INFERRED", "CORROBORATED", "UNCONFIRMED"]},
+  "claim_policy": {"schema_version": "search-context/v1", "allowed": ["verified service and location facts"], "requires_review": ["price and response-time claims"], "prohibited": ["guaranteed arrival time without operations approval"]},
+  "competitor_patterns": {"schema_version": "search-context/v1", "patterns": ["service-location page with emergency triage and proof"], "evidence_refs": ["fixtures/local-serp-observation"]},
+  "search_inputs": {"schema_version": "search-context/v1", "queries": ["emergency plumber sacramento"], "surfaces": ["Google organic", "local pack", "GBP"], "imports": []},
+  "operator_taste": {"schema_version": "search-context/v1", "decisions": ["answer the emergency first", "no fear-mongering"], "overrides": []}
+}

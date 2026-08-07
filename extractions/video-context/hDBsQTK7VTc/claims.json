@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "video_id": "hDBsQTK7VTc",
+  "claims": [
+    {"time": "00:31-03:39", "state": "OBSERVED", "claim": "The audit joins a lean crawl to GA4, GSC, and PageSpeed data, with near-duplicate, spelling, and semantic checks enabled.", "proof_type": "transcript+frames"},
+    {"time": "03:40-06:01", "state": "OBSERVED", "claim": "Pages deeper than three clicks or with fewer than roughly five unique internal inlinks are investigation candidates.", "proof_type": "transcript"},
+    {"time": "06:03-09:23", "state": "OBSERVED", "claim": "A performance score below 80 is used as a prioritization threshold, followed by representative desktop/mobile inspection.", "proof_type": "transcript"},
+    {"time": "09:24-11:31", "state": "OBSERVED", "claim": "404s are prioritized only when joined to positive traffic, impression, click, event, or engagement evidence.", "proof_type": "transcript+frame"},
+    {"time": "11:31-14:17", "state": "OBSERVED", "claim": "Thin and duplicate thresholds create review buckets rather than automatic expansion or deletion decisions.", "proof_type": "transcript+frame"},
+    {"time": "14:18-18:29", "state": "OBSERVED", "claim": "Cannibalization requires the same topic and intent; a sales page and buyer guide can coexist.", "proof_type": "transcript"},
+    {"time": "18:30-22:49", "state": "OBSERVED", "claim": "Off-topic assets and weak clusters are reviewed against positive KPIs and topic-support depth.", "proof_type": "transcript"},
+    {"time": "22:50-25:35", "state": "OBSERVED", "claim": "Low impressions select the qualitative review set; established pages with no traffic, impressions, or backlinks are prune/rethink candidates.", "proof_type": "transcript"},
+    {"time": "25:36-29:52", "state": "OBSERVED", "claim": "Baseline placement and current topic relevance are audited, while a perfect optimizer score is explicitly unnecessary.", "proof_type": "transcript+frame"},
+    {"time": "29:53-36:14", "state": "OBSERVED", "claim": "Positions 2-15 are low-hanging-fruit candidates and established position-50-plus queries can reveal missing dedicated pages.", "proof_type": "transcript"},
+    {"time": "36:15-42:39", "state": "OBSERVED", "claim": "Topic domination and citation auditing extend work to YouTube, Reddit, third-party SERP surfaces, and pooled AI citation sources.", "proof_type": "transcript+frame"},
+    {"time": "42:40-44:23", "state": "OBSERVED", "claim": "Best-linked competitor pages reveal reusable formats that can be transferred across industries.", "proof_type": "transcript"},
+    {"time": "44:24-46:15", "state": "OBSERVED", "claim": "Static-corpus brand probing is only a rough observation because the model may hallucinate.", "proof_type": "transcript"},
+    {"time": "27:25-29:52", "state": "UNCONFIRMED", "claim": "The speaker reports that a relevance refresh often lifts a page two to four positions.", "proof_type": "transcript", "boundary": "No dated controlled outcome receipt in the source."}
+  ]
+}

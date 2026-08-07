@@ -1,0 +1,27 @@
+{
+  "status": "APPROVED",
+  "target_query": "how to create supplement marketing angles without overclaiming",
+  "intent": "informational",
+  "audience": "supplement brand founder or marketing lead",
+  "information_gain_requirement": "Make the proof chain inspectable in one frame: exact proof, evidence limit, buyer tension, defensible belief, hook direction, and reviewer boundary.",
+  "source_receipts": [
+    "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md",
+    "owned-answer-page.md"
+  ],
+  "structural_pattern": "one-row proof chain -> risk callout -> reviewer gate -> Angle Map attribution",
+  "channel": "visual_brief",
+  "cta": "Send me the live page or campaign. I will point to one consequential message or proof gap using your public words—nothing invented.",
+  "risk_boundary": "This is marketing and source-organization guidance, not legal, medical, regulatory, ranking, citation, traffic, or revenue advice.",
+  "measurement_hypothesis": {
+    "prediction": "An inspectable proof-to-angle visual may improve correct identification of the evidence limit and reviewer boundary in an internal comprehension test.",
+    "primary_stage": "PREDICTED",
+    "observation_window_days": 7,
+    "falsifier": "After 7 days, an internal reviewer still cannot identify the exact proof, evidence limit, buyer belief, hook direction, and reviewer boundary from the visual."
+  },
+  "operator_taste_refs": [
+    "project-pack/context/operator-taste.json",
+    "_active/farrice-brand/voice/VOICE-CARD.md"
+  ],
+  "notes": "Approved for a local visual production handoff only. Paid generation and publication remain approval-bound."
+}

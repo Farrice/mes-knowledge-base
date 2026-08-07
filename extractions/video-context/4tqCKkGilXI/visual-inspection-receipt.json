@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "video_id": "4tqCKkGilXI",
+  "reviewed_at": "2026-08-04T23:34:58.104140+00:00",
+  "all_frames_inspected": true,
+  "frames": [
+    {
+      "path": "frames/cue_0000.jpg",
+      "sha256": "4d0a3e5efec2a21e69aef0ddac00e67fa71f7146dea8e70cac211ec452f6a251"
+    },
+    {
+      "path": "frames/cue_0001.jpg",
+      "sha256": "8f4d7910fdb3c80505f42677ca5a5e0120115cd75b81cab14054ef03bf77f9e5"
+    },
+    {
+      "path": "frames/cue_0002.jpg",
+      "sha256": "b4f98e82ed372144e077814a61f5b0e2f06295db2887eed9b0871dfca31a64af"
+    },
+    {
+      "path": "frames/cue_0003.jpg",
+      "sha256": "d83746f3655a9a1d8518f4bcd294bc40c453d79d130cfa436334b23ebb4f6617"
+    },
+    {
+      "path": "frames/cue_0004.jpg",
+      "sha256": "3a21b2ec11410cd1bebd7c0465fe1f420dd7ccdb4b4b870dc7fca12d97c82fe6"
+    },
+    {
+      "path": "frames/cue_0005.jpg",
+      "sha256": "06a280abb41c4cef9bb2c81095621c05ddf7c63185dd8187abea86fe6ac6636b"
+    }
+  ]
+}

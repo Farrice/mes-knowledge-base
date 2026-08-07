@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "video_id": "4tqCKkGilXI",
+  "required_files": [
+    "metadata.json",
+    "transcript.vtt",
+    "transcript.txt",
+    "transcript_segments.json",
+    "provenance.json",
+    "claims.json",
+    "visual-ledger.json",
+    "visual-inspection-receipt.json",
+    "evidence-analysis.md",
+    "uncertainty-report.md",
+    "hashes.json"
+  ],
+  "segment_count": 854,
+  "package_status": "EVIDENCE_COMPLETE",
+  "frame_count": 6,
+  "claim_count": 12,
+  "claim_state_counts": {
+    "OBSERVED": 11,
+    "UNCONFIRMED": 1
+  }
+}

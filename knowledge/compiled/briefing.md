@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-08-02 | 782 sources | 2,947,685 words*
+*Generated: 2026-08-05 | 809 sources | 2,796,244 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,295 words — `knowledge/index.md`
-- **log** (general) — 16,284 words — `knowledge/log.md`
-- **00-START-HERE** (strategy) — 483 words — `extractions/alex-copper-static-ads/00-START-HERE.md`
-- **amplification-report** (systems) — 1,003 words — `extractions/alex-copper-static-ads/amplification-report.md`
-- **architecture-checkpoint** (systems) — 315 words — `extractions/alex-copper-static-ads/architecture-checkpoint.md`
-- **behavior-proof-plan** (copywriting) — 429 words — `extractions/alex-copper-static-ads/behavior-proof-plan.md`
-- **deep-extraction** (screenwriting) — 1,349 words — `extractions/alex-copper-static-ads/deep-extraction.md`
-- **THE-ANGLE-MAP-READINESS** (copywriting) — 862 words — `extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md`
-- **PRODUCTION-AND-AUDIT** (copywriting) — 783 words — `extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md`
-- **STATIC-ACQUISITION-SPRINT** (copywriting) — 1,044 words — `extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md`
+- **march_2026_briefing** (seo) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
+- **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
+- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
+- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
+- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
+- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
+- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
+- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [april-dunford]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 275 | nick-saraev |
-| copywriting | 108 | luke-iha |
-| general | 94 | nick-saraev |
-| strategy | 85 | april-dunford |
-| screenwriting | 55 | connelly |
+| content | 283 | nathan-gotch |
+| copywriting | 113 | luke-iha |
+| general | 96 | nick-saraev |
+| strategy | 86 | april-dunford |
+| screenwriting | 57 | connelly |
+| brand | 51 | oren-john |
 | systems | 50 | nick-saraev |
-| brand | 50 | oren-john |
-| seo | 27 | nathan-gotch |
-| research | 27 | dai-media |
-| sales | 11 | dai-media |
+| seo | 37 | nathan-gotch |
+| research | 26 | dai-media |
+| sales | 10 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

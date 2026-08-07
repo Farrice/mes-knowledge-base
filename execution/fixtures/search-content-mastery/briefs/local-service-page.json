@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "target_query": "emergency plumber sacramento",
+  "intent": "local",
+  "audience": "Sacramento homeowner with an active leak",
+  "information_gain_requirement": "A first-hand emergency triage sequence tied to the verified service area and booking path.",
+  "source_receipts": ["https://example.com/local-source-receipt"],
+  "structural_pattern": "emergency answer -> service area -> proof -> booking",
+  "channel": "local_service_page",
+  "cta": "Call Northstar for the next available emergency visit.",
+  "risk_boundary": "Response time, pricing, licensing, and service-area claims require current business verification.",
+  "measurement_hypothesis": {
+    "prediction": "The local service page may produce qualified call events from the target area.",
+    "primary_stage": "CONVERTED",
+    "observation_window_days": 45,
+    "falsifier": "No qualified call event is recorded from the target area during the 45-day window."
+  }
+}

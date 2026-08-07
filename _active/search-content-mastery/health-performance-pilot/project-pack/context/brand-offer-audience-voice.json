@@ -1,0 +1,17 @@
+{
+  "audience": {
+    "primary": "founder or marketing lead at an already-selling health-performance brand"
+  },
+  "brand": {
+    "name": "Farrice Cain"
+  },
+  "offer": {
+    "live_canon": "The Angle Map",
+    "prototype": "Source-to-Search Snapshot V2"
+  },
+  "schema_version": "search-context/v1",
+  "voice": {
+    "mode": "BLEND",
+    "source": "_active/farrice-brand/voice/VOICE-CARD.md"
+  }
+}

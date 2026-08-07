@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-08-04T23:53:03.757817+00:00",
+  "root": "/private/tmp/search-content-mastery/channels",
+  "repository_edits": false,
+  "whisper_used": false,
+  "packages": [
+    {
+      "video_id": "qzMAGdzra88",
+      "status": "PASS",
+      "missing": [],
+      "hash_failures": [],
+      "bundle_manifest_sha256": "6a905eb2e07e3fe756b88221f03198aa41496e3e262d4032c89dd2f7fb401b0c",
+      "segment_count": 920,
+      "word_count": 6563,
+      "frame_count": 10,
+      "segments_monotonic": true,
+      "automatic_caption_provenance": true,
+      "all_frames_inspected": true,
+      "repo_reuse_exact_after_preamble": true
+    },
+    {
+      "video_id": "53h_-LoEGiw",
+      "status": "PASS",
+      "missing": [],
+      "hash_failures": [],
+      "bundle_manifest_sha256": "68542c08144352a39751626f189673bad012a5243de651f10563be09ecdeae02",
+      "segment_count": 537,
+      "word_count": 3631,
+      "frame_count": 8,
+      "segments_monotonic": true,
+      "automatic_caption_provenance": true,
+      "all_frames_inspected": true,
+      "repo_reuse_exact_after_preamble": null
+    },
+    {
+      "video_id": "6o0mabKRmIo",
+      "status": "PASS",
+      "missing": [],
+      "hash_failures": [],
+      "bundle_manifest_sha256": "4adaa1ef399738206d12889da426db51da9697004c3b02ef060076a5c4bbe533",
+      "segment_count": 1964,
+      "word_count": 13776,
+      "frame_count": 10,
+      "segments_monotonic": true,
+      "automatic_caption_provenance": true,
+      "all_frames_inspected": true,
+      "repo_reuse_exact_after_preamble": true
+    },
+    {
+      "video_id": "LiLD7_tjn4o",
+      "status": "PASS",
+      "missing": [],
+      "hash_failures": [],
+      "bundle_manifest_sha256": "ad60f443abd6f2966686b5d4fe12685aa5484d73d7bda24024ae48652bbbc6c5",
+      "segment_count": 728,
+      "word_count": 5163,
+      "frame_count": 9,
+      "segments_monotonic": true,
+      "automatic_caption_provenance": true,
+      "all_frames_inspected": true,
+      "repo_reuse_exact_after_preamble": null
+    }
+  ],
+  "status": "PASS"
+}

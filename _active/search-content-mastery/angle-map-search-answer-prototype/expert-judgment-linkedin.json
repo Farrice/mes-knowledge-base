@@ -1,0 +1,16 @@
+{
+  "reviewer": "Codex bounded LinkedIn-and-voice review",
+  "dimensions": {
+    "intent_fit": 8.0,
+    "information_gain": 8.5,
+    "source_quality": 8.0,
+    "technical_on_page_readiness": 8.0,
+    "aeo_geo_readiness": 7.0,
+    "human_usefulness": 8.5,
+    "format_fit": 7.5,
+    "conversion_alignment": 8.0,
+    "claim_risk": 8.5,
+    "measurement_readiness": 7.5
+  },
+  "notes": "The post translates the same proof chain without making AEO the public category. It is production-ready for internal review, not taste-approved: the constructed example still lacks the lived specificity of a real client page, and no publication baseline or Farrice override exists."
+}

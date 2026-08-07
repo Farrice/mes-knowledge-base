@@ -1,0 +1,12 @@
+{
+  "source": "gsc",
+  "field_map": {
+    "Day": "date",
+    "Search Term": "query",
+    "Landing URL": "page",
+    "Total Clicks": "clicks",
+    "Total Impressions": "impressions",
+    "Click Rate": "ctr",
+    "Average Rank": "position"
+  }
+}

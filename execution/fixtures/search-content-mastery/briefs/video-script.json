@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "target_query": "how to measure AI search visibility honestly",
+  "intent": "informational",
+  "audience": "marketing operator evaluating AI search visibility",
+  "information_gain_requirement": "A visual demonstration that unstable AI answers require dated query and evidence receipts.",
+  "source_receipts": ["https://example.com/video-source-receipt"],
+  "structural_pattern": "visual hook -> unstable answer -> receipt method -> proof boundary",
+  "channel": "video_script",
+  "cta": "Record the next query with a timestamp.",
+  "risk_boundary": "Do not claim a tracker proves stable citations, causation, traffic, leads, or revenue.",
+  "measurement_hypothesis": {
+    "prediction": "The script may produce a completed manual AI-citation observation.",
+    "primary_stage": "CITED",
+    "observation_window_days": 7,
+    "falsifier": "No completed dated observation is recorded during the 7-day window."
+  }
+}

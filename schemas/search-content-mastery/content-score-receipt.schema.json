@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "content-score-receipt/v1",
+  "title": "ContentScoreReceipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_type", "receipt_id", "project_id", "brief_id", "content_ref",
+    "content_hash", "created_at", "method", "dimensions", "original_composite",
+    "operator_override", "final_composite", "observed_outcomes", "proof_state"
+  ],
+  "properties": {
+    "schema_version": {"const": "content-score-receipt/v1"},
+    "record_type": {"const": "ContentScoreReceipt"},
+    "receipt_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "brief_id": {"type": "string"},
+    "content_ref": {"type": "string"},
+    "content_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "method": {"const": "transparent-heuristics-plus-bounded-judgment"},
+    "dimensions": {"type": "object", "minProperties": 10},
+    "original_composite": {"type": "number", "minimum": 0, "maximum": 10},
+    "operator_override": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["applied", "original_score"],
+      "properties": {
+        "applied": {"type": "boolean"},
+        "original_score": {"type": "number", "minimum": 0, "maximum": 10},
+        "override_score": {"type": ["number", "null"], "minimum": 0, "maximum": 10},
+        "operator": {"type": ["string", "null"]},
+        "reason": {"type": ["string", "null"]},
+        "recorded_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    },
+    "final_composite": {"type": "number", "minimum": 0, "maximum": 10},
+    "observed_outcomes": {"type": "array"},
+    "proof_state": {"const": "PREDICTED"}
+  }
+}

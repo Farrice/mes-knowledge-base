@@ -1,0 +1,16 @@
+{
+  "reviewer": "Codex bounded baseline review",
+  "dimensions": {
+    "intent_fit": 2.0,
+    "information_gain": 0.5,
+    "source_quality": 0.0,
+    "technical_on_page_readiness": 2.0,
+    "aeo_geo_readiness": 2.0,
+    "human_usefulness": 2.0,
+    "format_fit": 2.0,
+    "conversion_alignment": 3.0,
+    "claim_risk": 0.0,
+    "measurement_readiness": 0.5
+  },
+  "notes": "This rejected fixture collapses offer strategy, production volume, platform eligibility, and market outcomes. It contains unsupported guarantee language, no sources, no evidence-to-angle mechanism, no claim boundary, no measurement falsifier, and no reason the content should exist beyond visibility."
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "6o0mabKRmIo",
+  "capture_policy": "cue-based; screen demonstrations only",
+  "inspection_status": "all_extracted_frames_inspected",
+  "frames": [
+    {
+      "file": "frames/cue_0000.jpg",
+      "timestamp": "00:02:05",
+      "inspected": true,
+      "observed": "Rankability audit table with URL rows and columns for word count, crawl depth, GSC impressions/clicks/CTR/position, and Bing metrics; a checklist titled AEO/SEO Strategy for Ecom is visible.",
+      "evidence_value": "Confirms that the demonstrated audit interface combines crawl rows with imported search-performance fields.",
+      "limitation": "The screen does not establish data completeness, field accuracy, causal value, or results for the target ecommerce brand."
+    },
+    {
+      "file": "frames/cue_0001.jpg",
+      "timestamp": "00:07:45",
+      "inspected": true,
+      "observed": "Advisor interface shows Knowledge base complete, five of five sources, and a response about a creatine content ecosystem.",
+      "evidence_value": "Confirms the source-grounding step shown in the narration.",
+      "limitation": "The generated claims and strategy are vendor output and have not been independently validated."
+    },
+    {
+      "file": "frames/cue_0002.jpg",
+      "timestamp": "00:12:04",
+      "inspected": true,
+      "observed": "A benchmark snapshot screen displays tabs for Traditional search, AI answers, AI citations, Compare, Video search, and GSC; result panels are loading.",
+      "evidence_value": "Confirms that the demonstrated workflow separates search surfaces.",
+      "limitation": "No loaded result is visible in this frame, so it does not verify any brand-performance claim."
+    },
+    {
+      "file": "frames/cue_0003.jpg",
+      "timestamp": "00:17:21",
+      "inspected": true,
+      "observed": "Google Sheet combines domain, title, URL, platform, score, mention status, opportunity status/type, brand URL, analysis date, sentiment, and search term fields.",
+      "evidence_value": "Confirms the blend ledger used to compare traditional and AI-source opportunities.",
+      "limitation": "The sheet is an operator-created interpretation; opportunity labels and scores are not externally validated."
+    },
+    {
+      "file": "frames/cue_0004.jpg",
+      "timestamp": "00:31:54",
+      "inspected": true,
+      "observed": "Google results for an Ahrefs-versus-NeuronWriter query show a Rankability citation in an AI Overview and a Rankability organic result.",
+      "evidence_value": "Confirms the specific search snapshot used as the creator's comparison-query example.",
+      "limitation": "A single time-, locale-, and account-dependent snapshot does not prove repeatable ranking or conversion impact."
+    },
+    {
+      "file": "frames/cue_0005.jpg",
+      "timestamp": "00:37:28",
+      "inspected": true,
+      "observed": "Topic matrix lists many competitor-versus-1st-Phorm pages tagged Product Aware and Website.",
+      "evidence_value": "Confirms the competitor-intent and channel-mapping method.",
+      "limitation": "The matrix is a plan; it does not prove that the pages should all exist or will add distinct value."
+    },
+    {
+      "file": "frames/cue_0006.jpg",
+      "timestamp": "00:42:00",
+      "inspected": true,
+      "observed": "Owned-content sheet repeats creatine topics across YouTube and LinkedIn channel rows and shows 163 of 203 rows displayed.",
+      "evidence_value": "Confirms how the creator derived the large multi-channel asset count.",
+      "limitation": "Row count is not evidence of production quality, indexation, audience response, or business value."
+    },
+    {
+      "file": "frames/cue_0007.jpg",
+      "timestamp": "00:55:04",
+      "inspected": true,
+      "observed": "Content-brief editor shows Discover intent, one knowledge-base source, target topic, title, evidence-first meta description, URL slug, and entity/topic chips.",
+      "evidence_value": "Confirms the brief structure before drafting.",
+      "limitation": "Displayed recommendations come from the vendor system and are not outcome evidence."
+    },
+    {
+      "file": "frames/cue_0008.jpg",
+      "timestamp": "00:57:57",
+      "inspected": true,
+      "observed": "Generated draft titled Best Creatine for Vegans in 2026 shows a vendor content score of 75, optimization terms, and a table containing Contact for pricing.",
+      "evidence_value": "Confirms both the generated first draft and the visible defect the creator later critiques.",
+      "limitation": "The score is proprietary; the frame does not verify factual accuracy, human usefulness, search performance, or compliance."
+    },
+    {
+      "file": "frames/cue_0009.jpg",
+      "timestamp": "01:01:12",
+      "inspected": true,
+      "observed": "Audit menu displays Site Auditor, Google Business Profile Auditor, Batch URL Analyzer, Brand Consistency Auditor, and Page Content Auditor.",
+      "evidence_value": "Confirms the set of audit surfaces available in the demonstrated product.",
+      "limitation": "The frame shows a menu, not the page-level criteria or their validity."
+    }
+  ]
+}

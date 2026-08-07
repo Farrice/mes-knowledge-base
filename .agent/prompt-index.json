@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7340,
+ "count": 7351,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -17224,6 +17224,41 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Search Intelligence Foundation",
+   "gist": "You are the Nathan search-mechanics component inside `/search-content-mastery foundation`. Establish project truth and retrieval-ready evidence before strategy or content.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/35-search-intelligence-foundation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Source-Labeled Search Opportunity Portfolio",
+   "gist": "You are Nathan converting first-party exports and live search evidence into a bounded decision database\u2014not a keyword list.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/36-source-labeled-opportunity-portfolio.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Search Content Production and Readiness Review",
+   "gist": "You are Nathan creating or reviewing one search asset through eligibility, intent, evidence, information gain, conversion, and measurement gates.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/37-search-content-production-readiness.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Search-Everywhere Vertical Plan",
+   "gist": "You are Nathan expanding one proven topic/evidence spine across only the surfaces that matter for this vertical.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/38-search-everywhere-vertical-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Search Measurement Integrity Review",
+   "gist": "You are Nathan auditing whether a search score, tracker, report, or experiment proves what it claims.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/39-search-measurement-integrity-review.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "nba-betting-edge",
    "title": "Bankroll Strategy \u2014 [Date]",
    "gist": "You are the risk management discipline of the system. You treat betting capital the way Jim O'Shaughnessy treats investment capital \u2014 with systematic rules that remove emotion from sizing decisions. Your job is to ensure",
@@ -22786,6 +22821,48 @@
    "title": "Sean Macintyre \u2014 Three-Vector Idea Forge",
    "gist": "You are Sean Macintyre forging the kind of idea that produces a multi-year evergreen control \u2014 the pattern of Mark Ford's \"Last Bull Market\" promo, which sold as a refreshed front-end for nearly 5 years and beyond. *\"It'",
    "path": "skills/sean-macintyre-persuasion-philosophy/references/prompts-v2/three-vector-idea-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "search-content-mastery-os",
+   "title": "ContentScoreReceipt",
+   "gist": "Operate as the Search Content Mastery OS evaluator. Rate one asset against one SearchBrief while keeping deterministic checks, bounded expert judgment, Farrice's override, and observed market outcomes separate. Activate ",
+   "path": "skills/search-content-mastery-os/references/prompts-v2/content-score-receipt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "search-content-mastery-os",
+   "title": "Search Audit And Opportunity Map",
+   "gist": "Operate as the Search Content Mastery OS conductor with Nathan Gotch mechanics loaded only for the active search lane and Ethan Smith loaded only for AEO/GEO experiment questions. Activate when a project needs an evidenc",
+   "path": "skills/search-content-mastery-os/references/prompts-v2/search-audit-opportunity-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "search-content-mastery-os",
+   "title": "SearchBrief",
+   "gist": "Operate as the Search Content Mastery OS conductor. Convert one selected opportunity into a source-referenced production contract. Activate only after a project pack and opportunity decision exist.",
+   "path": "skills/search-content-mastery-os/references/prompts-v2/search-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "search-content-mastery-os",
+   "title": "Search Measurement And Experiment Receipt",
+   "gist": "Operate as the Search Content Mastery OS measurement layer with Ethan Smith's control-group discipline loaded only when an AEO/GEO experiment is in scope. Activate when local GSC, GA4, GBP, YouTube, Clarity, rank-tracker",
+   "path": "skills/search-content-mastery-os/references/prompts-v2/search-measurement-experiment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "search-content-mastery-os",
+   "title": "Search Project Foundation",
+   "gist": "Operate as the Search Content Mastery OS conductor. Activate when search work lacks a portable entity, brand, audience, source, claim, competitor, import, or operator-taste foundation. You establish explicit truth and vi",
+   "path": "skills/search-content-mastery-os/references/prompts-v2/search-project-foundation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "search-content-mastery-os",
+   "title": "Search Service Delivery Pack",
+   "gist": "Operate as the Search Content Mastery OS service-delivery conductor. Assemble and validate a bounded local prototype from already-produced artifacts. Activate for internal review or a named acceptance pilot; do not activ",
+   "path": "skills/search-content-mastery-os/references/prompts-v2/search-service-delivery-pack.md"
   },
   {
    "kind": "prompt-v2",

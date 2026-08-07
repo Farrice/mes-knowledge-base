@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "video_id": "lkFA-aBN_LM",
+  "reviewed_at": "2026-08-04T23:34:58.104140+00:00",
+  "all_frames_inspected": true,
+  "frames": [
+    {
+      "path": "frames/cue_0000.jpg",
+      "sha256": "ec7b2bd052f682ded7efdecd90cbe05b971df2095d2318543d63330a28206c31"
+    },
+    {
+      "path": "frames/cue_0001.jpg",
+      "sha256": "cf74240099037b60493a1ffded8d16ee4426165b336436440cf3234327e0c226"
+    },
+    {
+      "path": "frames/cue_0002.jpg",
+      "sha256": "745f386972e4a3b140c841f9e225aa3d98cdd2a5113074ebe31f983dca8cd032"
+    },
+    {
+      "path": "frames/cue_0003.jpg",
+      "sha256": "62ef9d738be08319bcc9fc3e690a8d49ccce4d8039c497773bfc494f7c3c1dcd"
+    },
+    {
+      "path": "frames/cue_0004.jpg",
+      "sha256": "ea95a4f37393104e456144cb89174c8e8ccb0e7105b07126906579d8ed12f16c"
+    },
+    {
+      "path": "frames/cue_0005.jpg",
+      "sha256": "5f1fc1f89a3d5b706ecdf85f2f003ad8e50caed7ec645d5250fbc99019f21795"
+    }
+  ]
+}

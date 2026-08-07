@@ -1,0 +1,23 @@
+{
+  "capture_method": "watch 0.2.0 via yt-dlp native/automatic caption fetch",
+  "caption_kind": "automatic",
+  "caption_language_file": "video.en-orig.vtt",
+  "whisper_used": false,
+  "raw_vtt_preserved": "transcript.vtt",
+  "cleaning_method": "temporary deterministic cleaner mirroring execution/video_context/transcript.py rolling-caption overlap collapse",
+  "derived_files": [
+    "transcript_segments.json"
+  ],
+  "transcript_reference": "../../nathan-gotch/transcript.txt",
+  "reuse_policy": "The existing clean transcript remains canonical; this package preserves the new raw VTT and timed segments without copying the clean text.",
+  "visual_capture": "seed only; recorded separately in visual-ledger.json",
+  "local_reuse_check": {
+    "repo_path": "extractions/nathan-gotch/transcript.txt",
+    "repo_sha256": "d3bb6771bc95a35cd683f4397ecf2518eb9b9dd4db129741a3802a0cf358533e",
+    "derived_clean_sha256": "67f5dbe27aecc10ad5ebf995162712d6cf9b64ca16a5ceeb7e45a11d785518de",
+    "normalized_token_stream_exact_match": true,
+    "normalized_similarity_ratio": 1.0,
+    "repo_word_count": 3888,
+    "derived_word_count": 3888
+  }
+}

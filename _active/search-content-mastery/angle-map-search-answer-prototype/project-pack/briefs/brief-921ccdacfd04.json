@@ -1,0 +1,32 @@
+{
+  "audience": "supplement brand founder or marketing lead",
+  "brief_id": "brief-921ccdacfd04",
+  "channel": "linkedin_post",
+  "created_at": "2026-08-05T15:15:51.509778+00:00",
+  "cta": "Send me the live page or campaign. I will point to one consequential message or proof gap using your public words\u2014nothing invented.",
+  "information_gain_requirement": "A safer adjective list does not solve the decision. Show how one exact source fact becomes one buyer belief, one angle, and one review boundary.",
+  "intent": "informational",
+  "measurement_hypothesis": {
+    "falsifier": "After approved publication, the post produces no meaningful operator response or commercial movement within the fixed 7-day observation window.",
+    "observation_window_days": 7,
+    "prediction": "A proof-to-angle post may create saves, meaningful comments, or qualified profile actions from health-performance brand operators without claiming search performance.",
+    "primary_stage": "PREDICTED"
+  },
+  "notes": "Approved for a local LinkedIn production handoff only. Publication remains NO_PERMISSION.",
+  "operator_taste_refs": [
+    "project-pack/context/operator-taste.json",
+    "_active/farrice-brand/voice/VOICE-CARD.md"
+  ],
+  "project_id": "the-angle-map-search-answer-prototype",
+  "record_type": "SearchBrief",
+  "risk_boundary": "This is marketing and source-organization guidance, not legal, medical, regulatory, ranking, citation, traffic, or revenue advice.",
+  "schema_version": "search-brief/v1",
+  "source_receipts": [
+    "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md",
+    "owned-answer-page.md"
+  ],
+  "status": "APPROVED",
+  "structural_pattern": "concrete operating scene -> regulatory truth -> evidence-to-angle receipt -> understated Angle Map bridge",
+  "target_query": "how to create supplement marketing angles without overclaiming"
+}

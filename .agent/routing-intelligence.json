@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 76,
+            "total_routings": 78,
             "total_feedback": 4,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,7 +462,7 @@
                 "Content": 5,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 5,
+                "System": 6,
                 "supercomputer": 5,
                 "Creative": 1,
                 "Strategy": 4,
@@ -491,7 +491,8 @@
                 "creative-campaign-strategy": 1,
                 "briar-cochran-content-science": 1,
                 "sweat-equity-speedrun-social-os": 1,
-                "design-md": 1
+                "design-md": 1,
+                "Extraction": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 2,
@@ -550,10 +551,11 @@
                 "nick-st-pierre": 1,
                 "rory-sutherland": 2,
                 "sweat-equity-speedrun-social-os": 1,
-                "design-md": 1
+                "design-md": 1,
+                "nathan-gotch": 2
             },
             "tier_counts": {
-                "0": 76,
+                "0": 78,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -562,9 +564,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 56,
-                "finalize-auto": 20
+                "finalize-auto": 22
             },
-            "ensemble_count": 35,
+            "ensemble_count": 37,
             "auto_miss_count": 4
         }
     },
@@ -1930,6 +1932,40 @@
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring",
             "feedback": "fb_20260804_230525_1e85"
+        },
+        {
+            "routing_id": "rt_20260805_003506_458a",
+            "timestamp": "2026-08-05T00:35:06.985282+00:00",
+            "session_id": "",
+            "request_summary": "Nathan Gotch Search Content Mastery connected skill system, evidence corpus, local runtime, evaluation and measurement spine, and Health Performance acceptance pilot",
+            "intent_score": 10,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "nathan-gotch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "search-content-mastery",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_154240_c44d",
+            "timestamp": "2026-08-05T15:42:40.490334+00:00",
+            "session_id": "",
+            "request_summary": "Built and applied the Search Content Mastery OS to The Angle Map as a private Angle-to-Answer track inside Proof-to-Market, with source evidence, routing, records, scoring, measurement boundaries, thr",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "nathan-gotch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "search-content-mastery",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }

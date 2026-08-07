@@ -1,0 +1,11 @@
+{
+  "project_manifest": "manifest.json",
+  "intake": "../intake.md",
+  "entity_context_pack": "../entity-context-pack.md",
+  "baseline_audit": "../baseline-audit.md",
+  "opportunity_map": "../opportunity-map.md",
+  "improved_answer_asset": "../owned-answer-page.md",
+  "media_brief": "../proof-to-angle-media-brief.md",
+  "evaluation_receipt": "scores/score-fe0bf69c65c4.json",
+  "experiment_plan": "../experiment-plan.md"
+}

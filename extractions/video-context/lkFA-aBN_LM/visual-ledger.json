@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "video_id": "lkFA-aBN_LM",
+  "capture_mode": "transcript-cue",
+  "resolution_width": 1024,
+  "frames": [
+    {"timestamp": "06:20", "path": "frames/cue_0000.jpg", "proves": "The conceptual map links traditional search to web search and AI search while separating the static corpus.", "boundary": "Conceptual model, not verified platform architecture."},
+    {"timestamp": "18:48", "path": "frames/cue_0001.jpg", "proves": "The local branch runs through GBP/local pack toward an AI-mode commercial-intent answer, with non-Google platforms parallel.", "boundary": "Retrieval rules are query- and platform-sensitive."},
+    {"timestamp": "23:32", "path": "frames/cue_0002.jpg", "proves": "The opportunity map includes traditional engines, AI products, local, ecommerce, non-Google, and social search.", "boundary": "Coverage map does not require every branch for every project."},
+    {"timestamp": "27:25", "path": "frames/cue_0003.jpg", "proves": "Traditional and AI search are highlighted as linked core systems surrounded by vertical branches.", "boundary": "Priority highlighting is not contribution measurement."},
+    {"timestamp": "34:32", "path": "frames/cue_0004.jpg", "proves": "Goals include commercial-query AI mentions, becoming a retrieval source, and presence on top retrieval sources.", "boundary": "No outcome receipt is shown."},
+    {"timestamp": "36:44", "path": "frames/cue_0005.jpg", "proves": "An AI execution branch is added beside the goals and linked search architecture.", "boundary": "Orchestration intent is not autonomous-runtime proof."}
+  ]
+}

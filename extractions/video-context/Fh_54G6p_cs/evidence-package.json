@@ -1,0 +1,32 @@
+{
+  "video_id": "Fh_54G6p_cs",
+  "metadata": {
+    "video_id": "Fh_54G6p_cs",
+    "title": "If I Had to Do Keyword Research in 2026, I'd Do This",
+    "creator": "Nathan Gotch",
+    "channel_id": "UCNEsahyXxNJvYNsMhru-UzQ",
+    "published_date": "2026-03-03",
+    "duration_seconds": 1834,
+    "duration_string": "30:34",
+    "source_url": "https://www.youtube.com/watch?v=Fh_54G6p_cs",
+    "language": "en",
+    "capture_timestamp_utc": "2026-08-04T23:34:35.555592+00:00"
+  },
+  "provenance": {
+    "capture_method": "watch 0.2.0 via yt-dlp native/automatic caption fetch",
+    "caption_kind": "automatic",
+    "caption_language_file": "video.en-orig.vtt",
+    "whisper_used": false,
+    "raw_vtt_preserved": "transcript.vtt",
+    "cleaning_method": "temporary deterministic cleaner mirroring execution/video_context/transcript.py rolling-caption overlap collapse",
+    "derived_files": [
+      "transcript.txt",
+      "transcript_segments.json"
+    ],
+    "visual_capture": "seed only; recorded separately in visual-ledger.json"
+  },
+  "segment_count": 918,
+  "word_count": 6390,
+  "hashes_file": "hashes.json",
+  "uncertainty_file": "uncertainty.md"
+}

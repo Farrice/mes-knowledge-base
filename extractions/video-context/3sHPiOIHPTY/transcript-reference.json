@@ -1,0 +1,10 @@
+{
+  "schema_version": "transcript-reference/v1",
+  "video_id": "3sHPiOIHPTY",
+  "canonical_path": "../../nathan-gotch/transcript.txt",
+  "canonical_sha256": "d3bb6771bc95a35cd683f4397ecf2518eb9b9dd4db129741a3802a0cf358533e",
+  "timed_derivative_sha256": "8ce474307f37cff75a32c79658379055142835d225cf7ee4ca9eb693ac00524f",
+  "normalized_token_stream_exact_match": true,
+  "normalized_similarity_ratio": 1.0,
+  "reason": "Reuse the existing clean transcript while adding timestamped provenance; do not duplicate source text."
+}

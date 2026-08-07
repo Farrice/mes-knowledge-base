@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "video_id": "lkFA-aBN_LM",
+  "required_files": [
+    "metadata.json",
+    "transcript.vtt",
+    "transcript.txt",
+    "transcript_segments.json",
+    "provenance.json",
+    "claims.json",
+    "visual-ledger.json",
+    "visual-inspection-receipt.json",
+    "evidence-analysis.md",
+    "uncertainty-report.md",
+    "hashes.json"
+  ],
+  "segment_count": 1294,
+  "package_status": "EVIDENCE_COMPLETE",
+  "frame_count": 6,
+  "claim_count": 14,
+  "claim_state_counts": {
+    "OBSERVED": 12,
+    "INFERRED": 1,
+    "UNCONFIRMED": 1
+  }
+}

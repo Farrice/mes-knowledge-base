@@ -1,0 +1,15 @@
+{
+  "rows": [
+    {
+      "observed_at": "2026-07-03T18:00:00Z",
+      "query": "what creatine is easiest on the stomach",
+      "engine": "manual-test-surface",
+      "cited": true,
+      "cited_url": "https://example.com/creatine-sensitive",
+      "evidence_ref": "receipts/manual-ai-observation-2026-07-03.png",
+      "answer_excerpt": "Example brand appeared in the cited source list.",
+      "position": 2,
+      "brand": "Example Brand"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "allowed": [
+    "marketing and source-organization guidance"
+  ],
+  "prohibited": [
+    "medical advice",
+    "treatment claims",
+    "ranking or citation guarantees"
+  ],
+  "requires_review": [
+    "health claims",
+    "legal or regulatory implications"
+  ],
+  "schema_version": "search-context/v1"
+}

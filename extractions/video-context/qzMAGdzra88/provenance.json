@@ -1,0 +1,25 @@
+{
+  "capture_method": "watch 0.2.0 via yt-dlp native/automatic caption fetch",
+  "caption_kind": "automatic",
+  "caption_language_file": "video.en-orig.vtt",
+  "whisper_used": false,
+  "raw_vtt_preserved": "transcript.vtt",
+  "cleaning_method": "temporary deterministic cleaner mirroring execution/video_context/transcript.py rolling-caption overlap collapse",
+  "derived_files": [
+    "transcript.txt",
+    "transcript_segments.json"
+  ],
+  "visual_capture": "cue-based only where screen demonstrations carry essential evidence; recorded separately in visual-ledger.json",
+  "local_reuse_check": {
+    "repo_path": "extractions/nathan-gotch-ai-seo/reference-corpus/how-to-rank-everywhere-seo-content.txt",
+    "repo_sha256": "9c772cd2b6c66a969d55d8be07c23938ff50de97de3f741fad7e204357584ff4",
+    "derived_clean_sha256": "acbba82ab296cdf4cfbf935bb6bdbbb4824ff725e057eda3ffaaeb7f8ec43cd6",
+    "normalized_token_stream_exact_match": false,
+    "preamble_stripped_normalized_exact_match": true,
+    "preamble_stripped_normalized_sha256": "632eca7fe787a9896b2a4cb86599aac0b5bf17a327a668095388657e77cc4257",
+    "derived_normalized_sha256": "632eca7fe787a9896b2a4cb86599aac0b5bf17a327a668095388657e77cc4257",
+    "normalized_similarity_ratio": 1.0,
+    "repo_word_count": 6583,
+    "derived_word_count": 6563
+  }
+}

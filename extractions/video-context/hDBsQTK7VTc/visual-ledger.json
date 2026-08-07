@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "video_id": "hDBsQTK7VTc",
+  "capture_mode": "transcript-cue",
+  "resolution_width": 1024,
+  "frames": [
+    {"timestamp": "01:33", "path": "frames/cue_0000.jpg", "proves": "The workflow begins in Screaming Frog crawl configuration with a broad integration surface.", "boundary": "Not every crawl setting is visible."},
+    {"timestamp": "02:29", "path": "frames/cue_0001.jpg", "proves": "Near duplicates are enabled for indexable pages with a visible 90% threshold.", "boundary": "A tool threshold is not a universal law."},
+    {"timestamp": "02:53", "path": "frames/cue_0002.jpg", "proves": "GA4, GSC, and PageSpeed are connected in API Access.", "boundary": "V1 remains import-first; no connector authorization follows."},
+    {"timestamp": "10:26", "path": "frames/cue_0003.jpg", "proves": "The sheet joins crawl, GA4, GSC, position, speed, and core-vitals fields.", "boundary": "The frame does not independently total the five-million-impression claim."},
+    {"timestamp": "21:58", "path": "frames/cue_0004.jpg", "proves": "A live pillar page is used as the cluster example.", "boundary": "Supporting-asset count and performance are not visible."},
+    {"timestamp": "28:04", "path": "frames/cue_0005.jpg", "proves": "The Dashword alternatives asset appears in the optimizer list at score 45 and 957 words.", "boundary": "A score is diagnostic, not outcome proof."},
+    {"timestamp": "41:51", "path": "frames/cue_0006.jpg", "proves": "ChatGPT presents a sourced SEO-book answer with a sources control.", "boundary": "The citation list is not expanded and no coverage result is shown."}
+  ]
+}

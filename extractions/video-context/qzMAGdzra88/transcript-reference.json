@@ -1,0 +1,11 @@
+{
+  "schema_version": "transcript-reference/v1",
+  "video_id": "qzMAGdzra88",
+  "canonical_path": "../../nathan-gotch-ai-seo/reference-corpus/how-to-rank-everywhere-seo-content.txt",
+  "canonical_sha256": "9c772cd2b6c66a969d55d8be07c23938ff50de97de3f741fad7e204357584ff4",
+  "timed_derivative_sha256": "4cd3e2e227a3aabbe547edab4ea3f799727e039ba32111cddaa3aa0f15293234",
+  "preamble_stripped_normalized_sha256": "632eca7fe787a9896b2a4cb86599aac0b5bf17a327a668095388657e77cc4257",
+  "preamble_stripped_normalized_exact_match": true,
+  "normalized_similarity_ratio": 1.0,
+  "reason": "Reuse the existing clean transcript while preserving the new timestamped derivative and visual evidence; do not duplicate source text."
+}

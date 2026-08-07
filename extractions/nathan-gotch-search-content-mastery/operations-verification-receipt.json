@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-08-04T23:35:35.534677+00:00",
+  "status": "PASS",
+  "packages": [
+    {
+      "video_id": "4tqCKkGilXI",
+      "status": "PASS",
+      "errors": [],
+      "source_package_hash": "a82da86072aac6f514165ea0dc28839dc90f73aa1ff11681ba5c47ee1b9054e9",
+      "segment_count": 854,
+      "claim_count": 12,
+      "frame_count": 6
+    },
+    {
+      "video_id": "hDBsQTK7VTc",
+      "status": "PASS",
+      "errors": [],
+      "source_package_hash": "25085730e67cc5441fae253b3d923da178e752915484dad6b416ce4ab52941b6",
+      "segment_count": 1351,
+      "claim_count": 14,
+      "frame_count": 7
+    },
+    {
+      "video_id": "lkFA-aBN_LM",
+      "status": "PASS",
+      "errors": [],
+      "source_package_hash": "05b2ec9ca85d92b5cf5718de744114e4e1b51dbfd9a2fb5eea2ecf945d174f79",
+      "segment_count": 1294,
+      "claim_count": 14,
+      "frame_count": 6
+    }
+  ]
+}

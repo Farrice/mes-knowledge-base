@@ -1,0 +1,1351 @@
+[00:03] agencies charge 10,000 or more for the
+[00:03] SEO audit checklist process I'm about to
+[00:06] show you. Just follow this process step
+[00:08] by step and you'll have a complete
+[00:10] battle plan for improving your rankings
+[00:12] in Google Chat GBT and everywhere your
+[00:15] customers are searching. I'm Nathan
+[00:17] Gotch and I've led hundreds of
+[00:19] successful SEO campaigns over the last
+[00:21] decade and have helped thousands of
+[00:23] businesses get predictable SEO results
+[00:26] through my SEO systems. So, let's get
+[00:28] right into it with number one, which is
+[00:31] find crawling and indexing
+[00:32] opportunities. So, there are two things
+[00:34] you need to do to get started with this
+[00:36] audit. Number one, you're going to need
+[00:37] a simple Google sheet. Now, I'm going to
+[00:39] be building this from scratch, but
+[00:41] normally I'd be using templates, which
+[00:43] are actually available inside of Gotcha
+[00:45] SEO Academy, but for the sake of doing
+[00:47] this, I'm going to show you how to do it
+[00:48] completely from scratch from N to end.
+[00:50] So, first get a Google sheet, and we're
+[00:52] going to create the first tab, which is
+[00:54] crawl, and then we're going to go over
+[00:56] to Screaming Frog. So, I highly
+[00:58] recommend investing in Screaming Frog. I
+[01:00] don't get any affiliate commission or
+[01:02] anything by making this recommendation.
+[01:03] I've just been using this tool for
+[01:05] probably about a decade now, and it's
+[01:08] really critical for this audit process.
+[01:11] So, I highly, highly recommend. There's
+[01:12] other ones out there, but this is the
+[01:14] one I prefer cuz it's just nice and raw
+[01:16] and does exactly what it needs to do.
+[01:17] Now, it's extremely powerful and so you
+[01:20] have to make sure that you set it up the
+[01:22] right way. So, we're going to go through
+[01:23] some real quick configuration, you know,
+[01:25] protocols here, and then we'll get into
+[01:27] kind of the more analysis, quantitative
+[01:29] analysis. Okay, first things first, go
+[01:32] to configuration. Okay, we're going to
+[01:33] go to crawl config up here. And a couple
+[01:35] of things I usually like to make this
+[01:36] very simple. I'll get rid of I'll
+[01:38] uncheck all the resource links. I'll
+[01:40] uncheck a lot of things that are just
+[01:42] going to put a heavy load when you do
+[01:43] this crawl. So, if you just want to
+[01:45] follow the settings that I have, this is
+[01:46] going to be the quickest crawl that you
+[01:48] can get and get the most bang for your
+[01:50] buck, right? Okay? because you don't
+[01:51] want to get lost in in all the little
+[01:53] minutia. Okay, so I would just do this
+[01:55] first. Now, next we're going to go to
+[01:57] extraction. Once again, follow the same
+[01:59] settings that I have. You can also
+[02:00] include structured data here, but I'm
+[02:02] going to be doing this for go.com. We
+[02:04] don't have a ton of structured data on
+[02:05] that site, so it's not really a concern
+[02:07] of mine, but if you're doing local or
+[02:09] you're doing ecom, it might make a lot
+[02:11] of sense to use the structured data
+[02:13] audit as well. Okay, limits, nothing to
+[02:16] do here. Rendering, all good. Advanced.
+[02:19] You can play with some settings here,
+[02:20] but I keep this pretty standard.
+[02:22] Preferences, once again, all pretty
+[02:23] standard. Now, go to content. Once
+[02:25] again, this is all standard. And then
+[02:27] for duplicates, I do enable near
+[02:29] duplicates. I do enable spell and
+[02:33] grammar check. And then for the
+[02:35] embeddings, I do enable all of these as
+[02:37] well. So, semantic similarity and low
+[02:40] relevance as well. Okay, so these are
+[02:43] important because this can help us, you
+[02:45] know, kind of do some deeper analysis.
+[02:46] So I won't get into it right now, but
+[02:47] for now just the settings. All right, so
+[02:49] that's the first part. Now what we want
+[02:50] to do is go into the API access and
+[02:53] there's four things, no a three minimum
+[02:55] that I would recommend. Number one is
+[02:57] Google Analytics 4. So go ahead and set
+[02:59] that up. Just click this little gear
+[03:00] icon and you need the API. It will just
+[03:02] you can go and log in. Google search
+[03:04] console, the same thing. Going to go and
+[03:06] log in as well. And then the page speed
+[03:09] insights as well. So that's another one
+[03:11] that's going to require an API. But
+[03:13] these three here are going to give you a
+[03:15] massive amount of data to work with. And
+[03:18] we're going to be able to make really
+[03:19] datadriven decisions. And if you want to
+[03:21] do anything more advanced, you can
+[03:22] certainly integrate some of the AI
+[03:24] platforms as well, but it's not really
+[03:26] entirely necessary really. You just need
+[03:28] these three to get a really good idea of
+[03:31] what's going on. So that is the setup.
+[03:33] Go ahead and get all this set up, get
+[03:35] all the APIs right, and then you're just
+[03:37] going to start that crawl, and then I'll
+[03:38] show you the next steps from here.
+[03:40] Number two, find internal linking
+[03:42] opportunities. So once the crawl is
+[03:43] complete, go ahead and export this
+[03:45] report and we're going to put it into a
+[03:47] Google sheet. But I would actually keep
+[03:48] this open because I'm going to be
+[03:49] showing you some other stuff later on in
+[03:50] this video where you can use Screaming
+[03:52] Frog to see some visualizations. Okay.
+[03:55] First, let's go over here to this
+[03:57] section. You can see I've already
+[03:58] imported the crawl. Okay. And first
+[04:00] thing I want to do is you want to find
+[04:02] internal linking opportunities because
+[04:03] in my opinion, when it comes to
+[04:05] technical SEO, internal linking is one
+[04:07] of the most powerful moves you can make.
+[04:09] So, what I like to do right away is go
+[04:11] ahead and freeze the top row, add a
+[04:13] filter, and then what we're going to do
+[04:14] is we're going to look at just indexable
+[04:16] content. And we'll go ahead and look at
+[04:18] this other stuff here coming soon. But
+[04:19] for now, we're going to scroll over and
+[04:21] immediately go to very, very important
+[04:24] columns when it comes to internal
+[04:25] linking. First is crawl depth. So, this
+[04:27] column right here, I'm going go and open
+[04:29] that up. And what we want to look at is
+[04:31] any page that is deeper than three
+[04:33] clicks. Okay? So, we're going to go down
+[04:35] here, and you can do conditional
+[04:37] formatting if you want to, you know, do
+[04:39] this quicker. If you've got a bigger
+[04:40] website, you'll probably need to do
+[04:41] that. But for a smaller website like
+[04:43] this one, we're just going to go ahead
+[04:44] and mark it like this. Okay. Then, what
+[04:46] we're going to do is, and by the way,
+[04:48] crawl depth is simply how many clicks
+[04:50] does it take to get to that URL. So, the
+[04:54] deeper it is into your website, the
+[04:56] worse it's going to be for crawling and
+[04:58] most importantly for indexing. And if
+[04:59] your page doesn't get indexed, you're
+[05:01] simply not going to rank. So it's really
+[05:03] one of the most important things that
+[05:04] you can do. All right. Unique in links
+[05:06] very important is the quantity of unique
+[05:10] pages that are linking to that page.
+[05:12] Okay. Internal links only. Okay. So for
+[05:15] me what I like to do is do a toz and any
+[05:18] page that has we'll say in this case
+[05:19] maybe less than three internal links
+[05:22] we're going to go ahead and mark it. But
+[05:23] you know for the sake of this argument
+[05:24] let's go ahead and mark anything less
+[05:26] than five. Okay less than five. So what
+[05:28] we're starting to see here is a trend
+[05:30] that we've got a lot of pages that are
+[05:32] already based on the data. We've got
+[05:34] tons of pages are buried deep into the
+[05:36] architecture and we've got a lot of
+[05:38] pages that do not have a lot of internal
+[05:40] link support. So that's typically a
+[05:42] symptom of a few things. Number one, we
+[05:44] just haven't gone through the process to
+[05:45] inject internal links on relevant pages.
+[05:48] And number two, it can sometimes be a
+[05:51] symptom that those pages don't have a
+[05:52] lot of topic support. And we'll be
+[05:54] talking more about that here in a
+[05:55] second. But this is one of the best
+[05:56] places to start because you can really
+[05:58] get a good look into some really quick
+[06:00] wins that you can attack. Number three,
+[06:03] find page loading speed opportunities.
+[06:05] All right, so now let's use this report
+[06:07] to go and find some page loading speed
+[06:10] opportunities. So go ahead and just
+[06:11] scroll over and you're going to go all
+[06:13] the way past here and we're going to
+[06:14] look specifically at this column here,
+[06:17] which is performance score. Okay, so
+[06:19] when you are running your crawl with
+[06:21] screwing frog, you can if you have it
+[06:23] enabled, it will give you tons of data
+[06:25] about loading speed. I don't think
+[06:27] that's particularly important. I think
+[06:28] you just like in the case of the audit,
+[06:31] we're just trying to identify the really
+[06:33] lowest performing opportunities. Okay,
+[06:35] so right here we're going to see that
+[06:37] based on the performance score to me,
+[06:39] anything that's below an 80 is something
+[06:41] I'm probably just going to go in and
+[06:43] mark. Okay? Because once you get to
+[06:45] about an 80 performance score, you're
+[06:47] going to be pretty good. The law of
+[06:49] diminishing returns will start to set
+[06:50] in. So, there's probably not going to be
+[06:52] much benefit beyond that. But all of
+[06:54] these are relatively low. Okay? So,
+[06:57] basically, nearly every page on the site
+[06:59] needs a lift as far as loading speed,
+[07:02] core web vital, whatever it may be.
+[07:04] Okay? And this is not because optimizing
+[07:06] for core web vitals is a direct ranking
+[07:08] factor. It's more of an indirect ranking
+[07:11] factor. Meaning, if a user gets to your
+[07:13] website and they're having a poor
+[07:15] experience, there's a high probability
+[07:17] that they're not going to stay there
+[07:18] long and they might bounce back to
+[07:20] Google, which is also known as pogo
+[07:22] sticking. They may have, you know,
+[07:24] produce really low engagement rate on
+[07:26] that page itself. So, all of those are
+[07:28] negative signals, but that's not all. On
+[07:30] top of it, we know that large language
+[07:32] models when they land on a site, they
+[07:34] give very, very little time. you have
+[07:36] probably less than 3 seconds for that
+[07:39] page to load before that, you know, that
+[07:42] crawler bounces. So, if you want to get
+[07:44] good performance on Google Chat, GBT and
+[07:46] AI search platforms, loading speed is
+[07:49] really, really critical. So, it's not
+[07:51] necessarily because it's a direct
+[07:52] ranking factor. It's more because it's
+[07:54] going to make your crawling and your
+[07:56] indexing better. And of course, it's
+[07:58] going to make user experience better,
+[08:00] which we know translates to better
+[08:02] conversions. So, there's no reason to
+[08:05] not do it. It's something that it should
+[08:07] absolutely be a priority because it is
+[08:09] one of those lead domino things that
+[08:10] affects so many different areas in your
+[08:12] campaign. So, I'll be showing you what
+[08:14] we can do to fix this. But for now, we
+[08:16] can just get a really highle overview.
+[08:18] And if we want, I'll show you a real
+[08:19] quick example of this. You if you
+[08:20] download the Lighthouse extension, it
+[08:22] might actually be native inside of
+[08:25] Google Chrome. But if you go in here and
+[08:27] then you do view page source, okay,
+[08:29] actually, we'll just do inspect. And
+[08:30] then we're going to do do this and we're
+[08:32] going to scroll over and you'll see here
+[08:34] lighthouse. Okay. Okay. And if you want
+[08:36] on a page by page basis, you can run
+[08:38] this. Okay. So, for example, we'll do
+[08:39] desktop since most of my traffic is
+[08:41] desktop. And then we'll just do this.
+[08:43] And what it's going to do, it's actually
+[08:44] going to on the spot analyze just this
+[08:46] one dedicated page. And if you do this
+[08:49] for 5 to 10 pages, you're going to get a
+[08:51] really good idea of the opportunities
+[08:53] that exists. Now, the good news is when
+[08:55] you fix one page as far as loading
+[08:58] speed, it typically impacts the whole
+[09:00] site as a whole. So it's not like you
+[09:02] need to go page by page and try to fix
+[09:04] these. Okay. So based on what we're
+[09:06] seeing here, this one is actually doing
+[09:08] really well on desktop. So not any
+[09:11] issues on that front. So what I would do
+[09:13] is I would actually run this on mobile
+[09:14] and see if mobile's the thing that's
+[09:16] causing a problem. Okay. So but just to
+[09:18] give you an idea, this is how quickly we
+[09:20] can see this and then we can start to
+[09:21] diagnose and fix this. Number four, find
+[09:24] 404s and broken links. All right. So now
+[09:27] let's find some 404 errors. So, not
+[09:29] every 404 is bad. It's okay to have a
+[09:32] 404 error if that was the actual intent.
+[09:34] Meaning, you wanted to delete that page
+[09:36] and you want Google to remove it from
+[09:38] the index. That is totally okay. Not all
+[09:40] 404s are bad, but the 404s that are
+[09:43] actually bad are the ones that have
+[09:45] positive KPIs or that were accidental in
+[09:48] nature. Okay? So, scroll back over in
+[09:51] your crawl and you're going to look
+[09:52] under the status code column here and
+[09:54] make sure that for indexable, we're
+[09:56] going to go ahead and actually do
+[09:57] non-indexable. So, we're going to get a
+[09:59] good idea of these different status
+[10:01] codes that we can work with. So, but for
+[10:02] this one, we're just going to focus on
+[10:04] the 404 specifically. So, we're going to
+[10:06] click on this. And you can see we've got
+[10:09] a significant amount of 404s. We've got
+[10:11] about 53 404 pages. Okay. Now, a lot of
+[10:14] these are intentional. All right? A lot
+[10:16] of them are intentional, outdated
+[10:17] content, stuff that shouldn't be around
+[10:18] anymore. We just went ahead and deleted
+[10:20] it. However, what you want to do is you
+[10:23] want to scroll over all the way over
+[10:25] here. Then we're going to look to see if
+[10:26] these pages have KPIs. Okay. Now, what
+[10:29] I'm seeing here is a lot of these pages
+[10:32] do have KPIs. Okay. So, we have, you
+[10:34] know, actually every single one of the
+[10:36] 404s with the exception of one has some
+[10:39] positive KPIs. Okay. So, pretty much all
+[10:42] of these are going to need some sort of
+[10:45] action here. Okay. So, we have almost
+[10:47] all of them have traffic. Most of them
+[10:50] have impressions in Google Search
+[10:51] Console. Some are even getting clicks.
+[10:53] Some are actually getting events as well
+[10:56] and the engagement rate is pretty decent
+[10:58] on some of these even though they're
+[10:59] 404s now. So, this is not a good sign.
+[11:02] This is something that we need to go and
+[11:04] fix, right? So, we need to figure out
+[11:05] where can we send these 404 pages? Where
+[11:08] can we redirect these pages or how can
+[11:10] we improve these pages to recapture this
+[11:14] potential traffic and engagement? Okay?
+[11:16] Because based on what we're seeing here,
+[11:17] this is over the last year or so. We're
+[11:19] looking at 5 million impressions that
+[11:22] are now going to be lost basically to
+[11:24] zero. Like we're going to go to zero on
+[11:26] these pages because they're 404s if we
+[11:29] don't act on this now. So this is really
+[11:31] not a good thing. Number five, find thin
+[11:34] content. All right, so now we're going
+[11:35] to find some thin content. And so
+[11:38] there's lots of different ways to define
+[11:40] what thin content actually is. I would
+[11:42] argue that it's not just about word
+[11:44] count. You could technically have a page
+[11:46] that has a significant word count that
+[11:48] doesn't add anything new to the equation
+[11:50] that could be considered thin in my
+[11:52] opinion. However, for the sake of this
+[11:54] argument, we're just going to focus on
+[11:56] word count alone. So, go ahead and
+[11:57] scroll over and we're going to look at
+[11:59] the word count column. Now, for me to be
+[12:02] for a page to be considered low word
+[12:04] count, in my opinion, it has to
+[12:05] basically be below 500 words. So, if
+[12:08] it's below 500 words, it's going to get
+[12:11] flagged. Okay? This doesn't mean that
+[12:13] we're going to go and just add a bunch
+[12:14] of junk content on here. It just means
+[12:17] that now it's been flagged and now we're
+[12:19] going to put it into further
+[12:21] investigation. Okay, so that is it. It
+[12:23] doesn't mean we're going to act on it.
+[12:24] Doesn't mean we're going to actually go
+[12:25] and try to fix these pages necessarily,
+[12:28] but they are now in a little bucket
+[12:30] where now we can start to see what's
+[12:32] going on and see if there's an
+[12:33] opportunity to improve these pages,
+[12:35] possibly delete some of these pages,
+[12:37] whatever it may be. Number six, find
+[12:39] duplicate content. So for a page to be
+[12:41] considered duplicate, it means that it
+[12:43] has the same exact content on more than
+[12:46] one page. Okay? And this is obviously
+[12:48] not a good thing. We don't want to have
+[12:49] multiple pages with the same exact
+[12:51] content on our website. Now, if you did
+[12:53] the screaming frog crawl configuration
+[12:55] correctly, you can scroll over to the
+[12:57] right and you go to this little section
+[13:00] right here, which is closest near
+[13:02] duplicate match or number of near
+[13:04] duplicates. This is the amount of pages
+[13:06] that are basically exactly the same.
+[13:09] Now, in the case of Gotch SEO, there
+[13:11] aren't any. So, this is not showing up.
+[13:13] However, if you want to double check,
+[13:15] you want to make sure that there's not
+[13:16] any pages that are, you know, exactly
+[13:18] the same, go ahead and run a sighteliner
+[13:21] crawl. And you run a scri a sighteliner
+[13:23] crawl and then you go to duplicate
+[13:25] content. And anything that's below 30%
+[13:28] is probably not anything you need to be
+[13:30] concerned about. But, we do want to look
+[13:32] here and go ahead and sort this by match
+[13:34] percentage and see if there's any
+[13:36] alarming issues here. Now, we see that
+[13:38] there's, you know, pageionation going on
+[13:39] here from the blog. This is all stuff
+[13:41] you can ignore. Nothing to be concerned
+[13:43] about. But I'd be more concerned about
+[13:45] actual pages where there's a lot of
+[13:46] duplication. Okay? So, this one here
+[13:49] where there's like 32%. We want to see
+[13:52] where there is duplication occurring.
+[13:54] Okay? So, based on what we're seeing
+[13:55] here, there is some stuff that is
+[13:58] relatively similar across multiple
+[14:00] pages. So, this may be a situation where
+[14:02] we may want to consider making this a
+[14:05] little more unique than what it
+[14:06] currently is. It's not an exact match,
+[14:09] but it's very, very close to the point
+[14:11] where I would actually flag this page as
+[14:14] an opportunity to upgrade and improve.
+[14:17] Okay, so use Sideliner to your
+[14:18] advantage. Number seven, find keyword
+[14:21] cannibalization. So now we want to find
+[14:22] instances of keyword cannibalization,
+[14:25] which is when you have two pages that
+[14:27] are basically competing against each
+[14:28] other for the same exact keywords with
+[14:30] the same exact intent. Now, this is one
+[14:33] of the most confusing concepts for a lot
+[14:35] of people. So I'm going to try to make
+[14:36] this really, really clear. Okay? So I'm
+[14:39] going to show you an example of one that
+[14:41] you might think is keyword
+[14:43] cannibalization, but it isn't. Okay? I'm
+[14:45] going to show you an example of this. So
+[14:47] I'm going to go to rankability.com and
+[14:48] I'm going to show you how I do this.
+[14:52] on our website here. So an example is
+[14:55] like we go over here to the products and
+[14:57] we go to content optimizer. Okay. Now if
+[15:00] we look at the detailed Chrome
+[15:02] extension, you'll see that this is
+[15:03] optimized for best AI content
+[15:06] optimization tool for SEO. Okay. So
+[15:08] specifically best you know SEO content
+[15:11] optimization tool. So singular version
+[15:13] of that keyword. But then, as we just
+[15:16] did recently, we published a blog post
+[15:19] and we're actually going after, you
+[15:21] know, once again, best AI SEO content
+[15:23] optimization tools. Okay? So, some
+[15:25] people would think that those two pages
+[15:27] are going to compete with each other,
+[15:28] but they actually are not. And the
+[15:31] reason is because cannibalization isn't
+[15:33] just about the seed topic that you have
+[15:36] here. It's also about the intent of the
+[15:38] page and how it's structured. So, for
+[15:40] example, that previous one I showed has
+[15:42] commercial intent. It's talking about
+[15:44] our one tool that we have and we're
+[15:47] stating the benefits of using that tool
+[15:50] specifically on that page. It's a sales
+[15:52] page, right? It's a sales page. It's not
+[15:54] the same. This here is for someone who's
+[15:56] doing investigative research and trying
+[15:59] to come to a buying decision. They're
+[16:01] trying to figure out what is the best
+[16:02] tool that I should use. So, this is
+[16:04] different because this is helping. This
+[16:06] is a buyer's guide. Okay? It's very,
+[16:08] very different. Plus the commercial page
+[16:11] as I showed you before is a singular
+[16:14] variation here you know for the keyword.
+[16:15] So we're talking about one tool just one
+[16:18] tool and it's this one and this is the
+[16:20] one we're talking about. The other ones
+[16:22] are plural. Okay. So we're talking about
+[16:24] many different tools in this instance.
+[16:26] Okay. So very very different. This is
+[16:28] not keyword cannibalization. And in fact
+[16:30] this is exactly what you should be doing
+[16:32] pretty much in any SEO situation. You
+[16:35] can have your commercial page and then
+[16:37] you can have your, you know, buyer guide
+[16:39] with commercial intent/investigative
+[16:42] intent. Okay, those two things are not
+[16:43] going to compete with each other. In
+[16:45] fact, they actually tend to lift each
+[16:47] other up. It's quite cool when you see
+[16:48] it happen. Okay, now if we wanted to
+[16:51] find keyword cannibalization within our
+[16:53] crawl, it's actually really simple. So,
+[16:55] let's just pretend like I'm going to
+[16:56] find some in here. Now, more than
+[16:58] likely, we're not going to have keyword
+[16:59] cannibalization, but let's give you an
+[17:00] example of what I would do if I was
+[17:02] trying to find it. So I usually start
+[17:04] with the title. Okay. And let's say I
+[17:06] wanted to find keyword cannibalization
+[17:08] for SEO training specifically. Okay. So
+[17:10] we're going to run that through. We're
+[17:12] going to do text contains. We're just
+[17:13] going to look at SEO training. Okay. So
+[17:15] what we find here is a bunch of pages
+[17:18] that are all optimized for that one
+[17:20] seed, right? Just SEO training. But when
+[17:23] you look at these, none of these are
+[17:25] cannibalizing each other. Okay? Because
+[17:27] each of them is targeting a different
+[17:29] location. Some of them are targeting,
+[17:31] you know, kind of that the homepage has
+[17:33] more national intent, but none of these
+[17:36] are actually competing against each
+[17:38] other. Okay, that is the key. So, you
+[17:39] can still have that same seed in there
+[17:42] as long as there's other modifiers in
+[17:45] there to modify the intent, right? And
+[17:48] that's all that matters. So, you know,
+[17:49] if this was, let's say I did have
+[17:51] multiple pages about, you know, SEO
+[17:54] training in Baltimore, like let's say I
+[17:56] had two or three of those pages, then we
+[17:58] start to possibly cause some problems
+[18:00] and that's not going to probably produce
+[18:02] any positive outcomes. Okay? But as long
+[18:05] as the intent is different, as long as
+[18:07] it truly is a different page, then
+[18:09] you're probably not going to run into
+[18:10] keyword cannibalization. It's one of
+[18:12] those things where people really put way
+[18:14] too much emphasis on it. And I've seen
+[18:16] tons of websites that just don't care
+[18:18] about it at all and they do pretty well.
+[18:20] But I wouldn't recommend that. I would
+[18:21] still, you know, focus on one core topic
+[18:23] per page. And then the general rule of
+[18:26] thumb is if you want to create another
+[18:27] page, make sure that it has different
+[18:29] intent. Number eight, find irrelevant
+[18:31] content. All right, so now it's time to
+[18:33] find irrelevant content. So this is
+[18:35] really important because we want to make
+[18:36] sure that our topic authority and our
+[18:38] topic focus on our website is very, very
+[18:41] tight. We don't want to start venturing
+[18:42] off into topics where we don't have
+[18:44] subject matter expertise. And so, and on
+[18:46] top of it, it's also really, really hard
+[18:48] to build a really tight cluster, which
+[18:50] I'll be showing you here in a second.
+[18:51] But first, we want to identify this
+[18:53] content that's just totally off base.
+[18:56] Okay? So, there's a lot of ways we can
+[18:57] do this, but let's just make it really
+[18:58] simple. So, we know that obviously this
+[19:00] website's about SEO. So, what I'm going
+[19:03] to do is I'm going to look and I'm going
+[19:04] to search the title tags. Okay? So, text
+[19:06] does not contain can be a quite powerful
+[19:08] ally here. And I'm going to do SEO.
+[19:11] Okay? Because anything that doesn't have
+[19:12] SEO in it is probably a good candidate
+[19:15] to start investigating. Okay? So, when I
+[19:17] look at here, I can immediately start to
+[19:19] identify some irrelevant topics. So,
+[19:21] like this one here, which is best script
+[19:24] timer for 2025. Now, funny enough, this
+[19:27] page I built back in I think it was
+[19:29] maybe the beginning of 2023 because I
+[19:32] was actually showing people how to build
+[19:34] a free tool using Chat GBT. And this
+[19:36] thing still actually ranks pretty well,
+[19:38] but it isn't very closely related to the
+[19:42] core subject matter expertise that we
+[19:43] have on the site. So, this would be a
+[19:45] candidate likely for redirection, maybe
+[19:48] deleting, something like that. Okay? And
+[19:51] we can go down the list and kind of find
+[19:53] these ideas. So, this is what you want
+[19:55] to do though. You want to kind of go
+[19:56] through these and look for these
+[19:57] opportunities. We have another one here
+[19:58] that's about pocket alternatives. Once
+[20:00] again, this was an experiment that I ran
+[20:02] to show people how quickly they could
+[20:04] build a website using vibe coding. Okay?
+[20:07] And so I created this post so I could
+[20:09] help lift a test project that I created.
+[20:12] Now, once again, not very relevant. And
+[20:14] you can see it doesn't connect well to
+[20:16] the core topic really at all. Okay, so
+[20:18] these are the types of pages that you
+[20:19] want to start to be pretty ruthless
+[20:21] about. And if they have positive KPIs as
+[20:24] we can go over here and check, you have
+[20:26] to think about how can we try to
+[20:28] preserve some of these positive KPIs
+[20:30] that exist. Okay, so like this one here
+[20:33] has pretty significant amount of traffic
+[20:35] over the last year. Same with this one.
+[20:37] Okay, so you know, we could just totally
+[20:40] eradicate it and lose out on that
+[20:41] traffic or we try to figure out a way to
+[20:43] rework it to make it relevant. So
+[20:45] there's a lot of options. Number nine,
+[20:47] find weak clusters. All right, so now
+[20:49] what we want to do is identify weak
+[20:50] clusters. So a cluster is simply a group
+[20:53] of pages that are all around one
+[20:55] particular topic. So let's say at the
+[20:58] core of a cluster, we have content
+[21:00] optimization tools. We're going to have,
+[21:02] you know, various posts about
+[21:04] alternatives and reviews about various
+[21:06] tools that are all going to link back to
+[21:08] that one core center. And so we want to
+[21:10] find these really tight clusters, but we
+[21:13] also want to find these really weak
+[21:15] clusters. And you can usually improve
+[21:18] performance for SEO just by improving
+[21:20] the strength of a single cluster. So
+[21:22] I'll show you an example of this. So
+[21:23] let's look on Gotch SEO specifically and
+[21:27] look for an example of like a pretty
+[21:28] strong cluster. So if you look at like
+[21:30] you know SEO training for example, you
+[21:33] can see we've got a pretty significant
+[21:35] amount of pages that are on this core
+[21:37] topic. Okay? So around 20 pages give or
+[21:40] take. So I would say this is a a
+[21:42] moderately strong cluster. Okay? It's
+[21:45] not super strong, but it's pretty
+[21:46] decent. Okay, then I'll show you an
+[21:48] example on rankability of another of one
+[21:51] that I would consider a very strong
+[21:53] cluster. Okay, so we'll go over here and
+[21:55] we'll go to blog and we'll look at this
+[21:58] one here. Okay, this is an example of a
+[22:00] pillar post. This is a a listicle that's
+[22:03] obviously targeting the kind of
+[22:04] investigative intent for these AI search
+[22:06] rank tracking tools. But within this,
+[22:09] we've covered each of these tools that
+[22:11] exist, but on top of it, we've also
+[22:14] created individual reviews for each of
+[22:17] the brands that are in this cluster.
+[22:19] Okay? And we're building out
+[22:20] alternatives and a bunch of other
+[22:22] different versions of this. So, by the
+[22:23] end of this, this one pillar post will
+[22:26] have potentially 75 to 100 supporting
+[22:30] assets around it. Okay? So people do not
+[22:33] go that deep and you can get a huge
+[22:36] advantage over your competitors by going
+[22:38] a mile deep on these topics. So the best
+[22:41] thing to do is if you're seeing low
+[22:43] performance for a particular topic,
+[22:45] examine the support that you've built
+[22:47] around that topic. Number 10, find
+[22:50] content quality opportunities. So now
+[22:52] we're at a point where you're going to
+[22:53] have to start to analyze each individual
+[22:55] page on a qualitative basis. We're going
+[22:57] to let the data lead us to these pages,
+[23:00] but then you're actually going to have
+[23:01] to look at them and and really kind of
+[23:03] diagnose each individual page. And so,
+[23:05] the way that I'm going to do this as far
+[23:06] as content quality is I'm just going to
+[23:09] look at the metrics. The best place to
+[23:10] start and see what pages are not
+[23:12] performing particularly well from an
+[23:14] organic search perspective. So, we're
+[23:16] going to go over here and the best thing
+[23:18] to do is just filter by impressions
+[23:20] because impressions is directly from
+[23:22] Google Search Console. And so, we have a
+[23:24] very low number of impressions. it means
+[23:26] we're this page is not ranking for very
+[23:28] many keywords within the top 100. So
+[23:30] that's a very good place to start. And
+[23:32] so based on what we're seeing here, if
+[23:34] we just look at these, we'll just take
+[23:36] the top, you know, 10 to 15 pages here
+[23:39] and we'll just highlight them in yellow.
+[23:41] And we can go over here and see what are
+[23:42] the types of pages that tend to not
+[23:43] perform very well from an organic search
+[23:45] perspective on our website. Now, this
+[23:47] website is very unique because we have a
+[23:49] lot of alumni from Gotcha SEO Academy.
+[23:51] So, these are all alumni pages. And I'll
+[23:53] show you an example of, you know, Chris
+[23:54] Dryer. This is a dedicated page
+[23:57] specifically for Chris Dryer, who's the
+[23:59] founder of rankings.io. And it naturally
+[24:01] is not going to get that much traffic
+[24:03] because that's not really what it's
+[24:04] designed for, right? You can tell it's
+[24:06] just pretty simple. It kind of shows his
+[24:08] credentials and his certifications and
+[24:10] obviously a quick testimonial and that's
+[24:12] it. Okay. Now, if I wanted to, I could
+[24:15] certainly beef this page up a little bit
+[24:18] more, right? I could add a little meat
+[24:20] to this page. I can give a little bit of
+[24:22] a better bio about Chris. I could
+[24:25] interview Chris and put that transcript
+[24:27] on there. So, there's a lot of options
+[24:29] for adding a little bit of relevant meat
+[24:31] to this page, but at the end of the day,
+[24:34] you know, this isn't your traditional
+[24:36] SEO driven page. So, but this is these
+[24:38] are the types of pages you want to pay
+[24:39] attention to. And we just don't want
+[24:41] lowquality stuff. That's really what
+[24:43] matters. And that is what you should be
+[24:45] on the hunt for is find the stuff that's
+[24:47] just not worth keeping on the site
+[24:49] anymore. And typically if you find
+[24:52] pages, my general criteria is pretty
+[24:54] simple. If the page has no traffic, no
+[24:58] impressions, and it has no back links,
+[25:01] it's a pretty good sign that it really
+[25:02] shouldn't exist anymore. Okay? And that
+[25:05] like all of the signals are pointing
+[25:07] towards that page just generally not
+[25:10] performing well unless it's new. But if
+[25:12] it's an established page and it has all
+[25:14] of those, you know, the lack of metrics,
+[25:17] either A, you know, the strategy wasn't
+[25:19] good or B, you know, you're going have
+[25:21] to go back to the drawing board and kind
+[25:22] of reformulate a strategy or in most
+[25:24] cases just delete it and, you know, move
+[25:26] on. Okay, so we have to identify these
+[25:29] pages so we can keep our site very very
+[25:31] lean and not waste precious crawl
+[25:34] resources on pages that just didn't
+[25:36] work. Number 11, find onpage SEO
+[25:39] opportunities. Okay, so now you want to
+[25:40] look for just basic onpage SEO 101
+[25:43] opportunities. And so a couple key
+[25:45] things you want to look for on any page
+[25:46] that we're actually trying to drive
+[25:47] organic search traffic on is you want to
+[25:49] make sure that the keyword appears in
+[25:52] the title, the meta description, also in
+[25:56] the URL, and we want it to appear in the
+[25:59] H1 and the first sentence. So when we
+[26:02] look at this page, once again, this is
+[26:03] an alumni page, so it's not necessarily
+[26:05] really built for SEO performance, but it
+[26:07] doesn't mean we can't squeeze more out
+[26:09] of it if we don't want. So if we or if
+[26:11] we wanted to. So what I would do is to
+[26:14] squeeze more out of this is think about,
+[26:15] okay, you know, Graham, you know,
+[26:17] instead of just trying to rank for his
+[26:18] name, what else can we rank for? Can we
+[26:20] rank for his brand name? You know, what
+[26:22] else can we do to drive more organic
+[26:25] awareness? And so what I would show you
+[26:27] an example here of like proper onpage
+[26:30] SEO. Okay, so like this one here is just
+[26:33] and this is what I call bare minimum on
+[26:34] page SEO. Okay, so this is an example.
+[26:37] We've got the keyword in the title tag.
+[26:39] We've got the keyword in the metad
+[26:41] description, right? We've got the
+[26:43] keyword in the actual slug in the URL.
+[26:46] And when we go to the headings, we've
+[26:48] got it in that first H1. We've got a
+[26:50] variation in the H2, which is also a
+[26:53] good idea. And then we've got it also in
+[26:56] the first sentence. Okay. So, if you do
+[26:58] that, that's like 50% of onpage SEO. The
+[27:03] other part of this that's really
+[27:05] important is using NLP, natural language
+[27:07] processing, or sometimes also called
+[27:09] NLU, which is natural language
+[27:11] understanding, which is a subset of NLP.
+[27:14] And we want to use that technology to
+[27:16] our advantage to make sure that we're
+[27:18] covering the most relevant topics inside
+[27:20] of our content. This is literally proven
+[27:22] to work. So, I'm going to show you here
+[27:23] in a second how to do that. Number 12,
+[27:25] find content optimization opportunities.
+[27:28] All right, so now you're at a point
+[27:29] where you're going to want to start to
+[27:30] audit each individual page to see how
+[27:32] relevant it is. And typically what I'm
+[27:34] doing is I'm focusing obviously on the
+[27:36] pages that are not performing really
+[27:37] well. So an example of this is for this
+[27:40] page here targeting dashword
+[27:42] alternatives. So in SAS, this is a very
+[27:45] common type of content framework to use.
+[27:48] And so based on what we're seeing here
+[27:49] right now, we're sitting around number
+[27:51] six, give or take. So, we'll go ahead
+[27:54] and just run this through Rankability.
+[27:55] Very simply, we're going to put the
+[27:56] keyword in here. We're going to select
+[27:58] import URL content. Then, we're going to
+[28:00] put the URL in there and then just run
+[28:02] the optimizer. All right. As soon as the
+[28:04] report is done, go ahead and click
+[28:05] through and we're going to go ahead and
+[28:06] take a look at the opportunities that
+[28:08] exist. So, based on what I'm seeing here
+[28:10] is we already have some opportunities to
+[28:12] improve this content. And so you have to
+[28:14] keep in mind whenever you optimize a
+[28:16] piece of content sometimes at the time
+[28:19] it was well optimized but as it starts
+[28:21] to age as it starts to get older you
+[28:23] have new competitors that are coming up
+[28:25] which means the overall amount of topics
+[28:28] can change and it can change the whole
+[28:30] dynamic. So it is to a certain extent
+[28:32] I'd say within you know a year or so it
+[28:35] is worth revisiting assets and there's a
+[28:37] good chance that you're going to
+[28:38] potentially fall if you don't keep up
+[28:40] with this. So, an example of this is
+[28:42] right now, you know, we see the
+[28:43] competitors, the ones that are ahead of
+[28:45] us are pretty well optimized. And
+[28:47] obviously, you expect Dashword to be
+[28:49] number two because it's their brand.
+[28:51] They're probably going to do pretty well
+[28:52] for this keyword. But the other ones, at
+[28:55] least as of right now, are more relevant
+[28:57] than we are. Okay. So, if we want to
+[28:59] improve our performance here, it's as
+[29:01] simple as going in here and sorting this
+[29:04] by unused and making sure we're covering
+[29:06] all of these topics that we have not
+[29:08] covered in this content. Okay. Now, you
+[29:10] don't have to cover every single one. We
+[29:12] typically recommend getting within, you
+[29:13] know, the optimal range of about 73 or
+[29:16] whatever the optimal range is telling
+[29:17] you, but aside from that, once you get
+[29:19] there, you're pretty much good to go. We
+[29:21] don't typically recommend people going
+[29:22] up to 100. That just is usually very
+[29:25] very aggressive and not necessary, but
+[29:27] based on our experience, just a simple
+[29:29] reworking of content, a little refresh,
+[29:31] a little reoptimization usually gives a
+[29:34] nice lift of at least two, three,
+[29:36] sometimes even four spots. It is that
+[29:38] effective. So, especially when Google's
+[29:40] already telling you that you're doing,
+[29:42] you know, pretty decently for this
+[29:44] keyword, right? You already have a page
+[29:46] that's pretty relevant. It's doing what
+[29:47] it should for the most part. You just
+[29:49] need to kind of rework it and make it
+[29:51] more relevant. Number 13, find
+[29:53] lowhanging fruits. So, at this point,
+[29:54] you probably already have a lot of work
+[29:56] to do just from this preliminary audit.
+[29:58] But what you can also do is start to
+[30:00] look at your keyword footprint. This is
+[30:02] really, really important because there's
+[30:03] so many opportunities that people are
+[30:05] just sitting on and not even attacking,
+[30:07] including myself. Okay, so I want to
+[30:09] show you a quick example of this. So
+[30:11] what I would recommend doing is going
+[30:12] and clicking average position and then
+[30:15] we're going to go down here and you can
+[30:17] sort this based on a particular cluster.
+[30:18] So like if you want to add a filter, we
+[30:20] could just go ahead and sort this by we
+[30:22] could do like you know training for
+[30:23] example since it's kind of our core
+[30:25] thing. We'll put this in here and we're
+[30:27] going to see what pages are doing that
+[30:29] are doing pretty well but would have a
+[30:32] would need a nice lift to go a little
+[30:34] bit higher. So you sort this by
+[30:35] position. So we can see, you know, the
+[30:37] ones that are performing well obviously,
+[30:39] but we really want to look at the pages
+[30:41] that are from positions 2 to 15. Okay,
+[30:44] that's really the sweet spot where we
+[30:45] want to go after particular keywords,
+[30:48] particular pages. So based on this, we
+[30:50] see Houston SEO training. We'll go and
+[30:52] verify incognito and see what this looks
+[30:54] like. And we could be number one. So
+[30:56] like this is why it's good to verify
+[30:58] because this one, it would be wasted
+[30:59] effort for us to go in here and
+[31:00] reoptimize since we're already doing
+[31:02] well. Okay. So, let's go with one that's
+[31:04] maybe a little bit further down here in
+[31:06] the ranking. So, like this one here,
+[31:08] which is AI SEO training. We'll go ahead
+[31:11] and take a look and we'll see how we're
+[31:12] performing for this one. We're going to
+[31:14] go and scroll down and let's take a
+[31:16] look. It said we're around page two,
+[31:18] give or take. So, it looks like we're
+[31:19] actually not page three possibly. Okay.
+[31:22] So, at this point, if we're not even on
+[31:23] the first three pages for that keyword,
+[31:25] some work has to be done, right? So,
+[31:27] we're going to have to go and reoptimize
+[31:30] for this keyword depending on, you know,
+[31:32] what page was getting picked up. Could
+[31:33] be the homepage, could be an internal
+[31:35] page. We'd have to do further
+[31:37] investigation. But this is the type of
+[31:38] work you want to do because these
+[31:40] keywords that are sitting in this sweet
+[31:42] spot, it doesn't take a lot to lift
+[31:44] them. Typically, usually some
+[31:46] reoptimization with rankability, that's
+[31:48] the first move. Making sure the
+[31:49] content's obviously high quality and
+[31:51] then going through and looking for
+[31:53] internal linking opportunities, right?
+[31:54] Because what you can do is you can go
+[31:56] and like take one of these pages for
+[31:58] example. And so we could take, you know,
+[32:01] one of these that's not doing super
+[32:02] well. So like I don't know, Orlando SEO
+[32:04] training. We'll go ahead and grab this
+[32:06] URL. And then we can go back here into
+[32:09] this section and we'll actually sort
+[32:12] this to find it. Okay. So we're going to
+[32:13] go ahead and find that specific URL. And
+[32:16] then what we can do is go and see how
+[32:17] much internal link coverage does this
+[32:19] URL have. Okay. We're going to take a
+[32:21] look. So based on what we're seeing
+[32:22] here, crawl depth of 16. Remember, we
+[32:24] found this earlier. So, it's buried
+[32:26] super deep into the architecture and it
+[32:29] has very little internal links. So,
+[32:31] right away, I've already got two quick
+[32:33] wins that I could go and attack right
+[32:34] now to improve the performance of that
+[32:36] one page. Either create more content,
+[32:38] look for more internal linking
+[32:39] opportunities. There's a lot of things
+[32:41] that I can do right away. And then on
+[32:43] top of it, it's also loading incredibly
+[32:45] slowly for some reason. So, another
+[32:47] opportunity for us to improve. So, right
+[32:49] away, we've already got optimize it with
+[32:52] rankability to improve the relevance.
+[32:53] We've got driving more internal links to
+[32:56] it and we've got improving loading speed
+[32:58] just by those three actions alone.
+[33:00] You're it's almost impossible to not see
+[33:02] performance gains. If that doesn't get
+[33:04] you to number one for whatever keyword
+[33:06] you're looking at as a lowhanging fruit,
+[33:08] then the next obvious step is to drive
+[33:10] back links to that asset and the
+[33:12] supporting assets around it. Okay,
+[33:14] that's the next level. But for the most
+[33:16] part, you can get very, very far with
+[33:19] content optimization, internal links,
+[33:22] and more topic support. Those three
+[33:24] things are very, very powerful and
+[33:26] wildly underestimated. So, I would
+[33:28] highly recommend looking at this bucket
+[33:30] of keywords as like you're sitting on
+[33:32] gold. You should attack them right away.
+[33:34] Number 14, find clustering
+[33:36] opportunities. So, once you've
+[33:37] identified your lowhanging fruits, the
+[33:39] next group of keywords that I really
+[33:41] love to go after are what I call
+[33:43] clustering opportunities. So any keyword
+[33:46] that's from position 50 and beyond falls
+[33:49] into this bucket of a clustering
+[33:50] opportunity. Now one nuance here. If you
+[33:53] have a brand new page that you just
+[33:55] published, it's very common to perform,
+[33:58] you know, between 50 and 100 in the
+[34:00] rankings. Okay, that's totally fine.
+[34:01] Ignore those. But it's more about the
+[34:03] ones that are established that are not
+[34:05] doing very well. So once again, Google
+[34:07] Search Console, you go right in here.
+[34:08] You can sort by position and you can
+[34:10] obviously filter by a keyword that
+[34:12] matters to you. And then we're going to
+[34:13] go in here and we're going to look for
+[34:14] opportunities that clearly we're not
+[34:17] doing a good job for. Okay, that's
+[34:19] basically what this tells us is that
+[34:21] whatever page is being picked up that's,
+[34:23] you know, driving impressions here is
+[34:25] not that relevant, is not that good in
+[34:27] one way or another. Okay, so an example
+[34:29] of this is technical SEO training. Now,
+[34:31] I know our site very well. We don't have
+[34:33] a technical SEO training page. We don't
+[34:35] have a technical SEO training sales page
+[34:37] or anything. Now, we have technical SEO
+[34:39] training inside of Gotach SEO Academy,
+[34:41] but we don't have a dedicated landing
+[34:42] page for it. And this is really
+[34:44] important because what this tells me is
+[34:46] that there is actual search demand for
+[34:49] this, which means it's worth pursuing.
+[34:51] It's worth building a dedicated page. I
+[34:53] have the proof now. Okay. So, sometimes
+[34:56] you can look at these clustering
+[34:57] opportunities as a way to measure
+[34:59] demand. Okay? That's really, really
+[35:01] important. So once you've identified
+[35:02] that demand, go and build those
+[35:04] dedicated pages because you have the
+[35:06] proof. Very likely it's going to do very
+[35:08] well. Now the question is how would I do
+[35:10] this? Not much of a surprise here. I
+[35:12] take this keyword. I go into rankability
+[35:14] and I run it through specifically the
+[35:18] content optimizer and I'm going to grab
+[35:20] all the NLP keywords from this. Okay?
+[35:22] I'm going to I'm going to build a whole
+[35:23] list of NLP keywords and I'm going to
+[35:25] build an outline. Now you can do this
+[35:26] with AI inside the platform. But my
+[35:28] criteria for determining whether I'm
+[35:30] going to use AI or manual is based on
+[35:32] competition. So if it's lower
+[35:34] competition, I'll go basically fully AI.
+[35:37] If it's higher competition, in the case
+[35:39] of the SEO industry is much higher
+[35:41] competition, I'm typically going to, you
+[35:43] know, get do a little bit of more manual
+[35:45] work to attack that keyword. Okay. So an
+[35:48] example like this, I'll probably build
+[35:49] out a commercial page and I'll probably
+[35:52] use a lot of artificial intelligence for
+[35:54] that. Okay, but just to give you an
+[35:56] idea, this is where I always begin
+[35:58] because the most important ranking
+[36:00] factor in Google is relevance. There's
+[36:03] nothing more important than just getting
+[36:04] a relevant page other than actually
+[36:07] getting it indexed. But after it's
+[36:08] indexed, making sure that it's highly
+[36:11] relevant to the keyword you're
+[36:12] attacking. And this is a tool that you
+[36:13] can use to do that. Number 15, find
+[36:15] topic domination opportunities. So topic
+[36:18] domination is simply the process of
+[36:20] attacking a keyword or topic on your
+[36:23] website and then taking that same exact
+[36:25] topic and attacking it across other
+[36:27] platforms that Google is known to index
+[36:31] on the first page very well. And also
+[36:33] that chat GBT and other AI platforms are
+[36:36] known to use as a source of retrieval.
+[36:38] Okay. So you want to try to blanket as
+[36:41] many of these surfaces as possible to
+[36:44] greatly influence the AI generator
+[36:47] responses inside of chat GBT and the
+[36:49] other AI platforms, but also to cover
+[36:52] more surface area in traditional search
+[36:54] as well. So an example of this is what I
+[36:56] would do is I'd go into Google search
+[36:58] console and look at some keywords that
+[36:59] I'm doing really well for just from a
+[37:01] traditional SEO perspective. An example
+[37:03] of this would be SEO books. Okay, so we
+[37:06] could take this seed and this can be our
+[37:08] focus of topic domination. So we'll go
+[37:10] ahead and take a look and we're going to
+[37:12] go over here and we're going to look at
+[37:13] how we're doing for this keyword. Now,
+[37:15] as of right now, we only have one asset
+[37:18] that's popping up, which is our actual
+[37:19] book here, the SEO entrepreneur. Okay,
+[37:21] so that's good that this is popping up.
+[37:23] We've got one win here, but that's not
+[37:25] good enough. We're going to scroll down
+[37:26] here and we're going to go all past this
+[37:29] and we're going to try to find other
+[37:31] situations where we also have some
+[37:32] coverage. Now, it looks like this blog
+[37:35] are covered our uh book as well. Okay,
+[37:36] so we're actually covered right here.
+[37:38] That's also really good. Okay, so we've
+[37:40] got two coverages on the first page,
+[37:42] which is really, really good. But our
+[37:44] website, our actual page here is ranking
+[37:48] not really that great. So, we'd want to
+[37:50] focus here and push this page up much
+[37:52] further. Maybe needs a little bit of a
+[37:53] refresh, needs a little bit of love, and
+[37:55] we can push it back up towards the top.
+[37:57] Okay, so that would be focus number one.
+[37:59] Once that has been reoptimized and
+[38:01] improved, my next move is immediately
+[38:04] going to go to YouTube and I'm going to
+[38:06] see if we've published any content about
+[38:08] that particular topic. Okay. So, we're
+[38:10] going to go to YouTube and we're going
+[38:12] to take a look. So, we'll go to my
+[38:13] channel and we know YouTube is one of
+[38:15] the most powerful mechanisms for driving
+[38:18] performance inside of Google cuz Google
+[38:20] owns YouTube. So, we're going to go
+[38:22] here. We'll look at SEO book and see if
+[38:24] we have anything about that. And I have
+[38:26] one kind of book here or one short about
+[38:29] it, but I don't have a dedicated video
+[38:32] about SEO books in general. So, that's a
+[38:34] golden opportunity to attack that
+[38:36] keyword knowing that it's very likely to
+[38:39] perform inside of Google. Okay, we know
+[38:41] that that's typically what's going to
+[38:42] happen and it's a source of retrieval
+[38:44] for the AI platform. So, we can see here
+[38:46] we've got a block right here where we
+[38:48] could go and attack this keyword. This
+[38:50] is the process of topic domination. Then
+[38:52] what I'm going to do is I'm going to
+[38:53] start to examine the first page and say,
+[38:55] "Okay, what other stuff is getting
+[38:56] picked up here?" Well, I see Reddit's
+[38:59] getting picked up. So, I need to go here
+[39:00] and see is there an opportunity for us
+[39:02] to, you know, inject our book into this
+[39:05] thread. The answer is no because it's
+[39:07] archived. So, we can't do anything about
+[39:09] this, but we can keep tabs on future
+[39:11] threads that will come that may replace
+[39:14] this thread in the future. Okay. So, we
+[39:16] see we've got a bunch of other ones here
+[39:17] that maybe we could go and investigate
+[39:19] further. Once again, that's archived.
+[39:21] And this is also archived. So, we'd have
+[39:23] to just kind of keep a pulse on this.
+[39:24] But what we can do is we can take note
+[39:26] of the subreddit that tends to pop up
+[39:29] the most. It's the SEO subreddit. So, we
+[39:32] need to stay on top of this and and set
+[39:33] up alerts in case books plus SEO gets
+[39:37] mentioned inside of this subreddit so we
+[39:39] can jump on it and try to promote our
+[39:41] book, right? It's very, very important.
+[39:43] Okay. Then, we're going to go down here
+[39:44] and I'm going to look for any other
+[39:46] places where I might be able to score
+[39:48] some coverage. We already got coverage
+[39:50] here. So then we'd look here on search
+[39:52] engine journal and try to see if we
+[39:53] could pitch trying to get on this list
+[39:55] as well. Now this looks like all branded
+[39:57] stuff. We're probably not going to be
+[39:58] able to get on here. So you're going to
+[40:00] have to kind of vet some of these
+[40:02] opportunities. We've got hrefs here.
+[40:04] Once again, are we showing up in this
+[40:06] list? It doesn't appear. So it doesn't
+[40:08] appear that we're actually showing up on
+[40:10] this list as of right now. So we would
+[40:12] want to go and try to pitch our book to
+[40:15] be on this list. Okay, very simple as
+[40:17] that. and so on and so forth. This is
+[40:19] the process. And so you're looking at
+[40:21] the opportunities here and then you're
+[40:23] going and attacking those. That way you
+[40:25] can get as many rankings as possible on
+[40:27] the first page of Google. That's topic
+[40:29] domination. Number 16, find critical
+[40:31] citation opportunities. So one of the
+[40:33] most powerful things you can do right
+[40:35] now to influence the AI platforms is to
+[40:39] just reverse engineer the citations or
+[40:41] in other words reverse engineer the
+[40:44] sources of retrieval that the AI is
+[40:46] going to. So as you know I won't get
+[40:48] deep into it here when you go into a
+[40:51] platform like chat GBT and you ask a
+[40:52] question and it doesn't know the answer
+[40:55] based on its training data or its
+[40:57] training cutoff it uses rag to go and
+[41:00] retrieve the information. so it can
+[41:03] generate a an accurate response so it
+[41:05] doesn't have to hallucinate through this
+[41:07] process. And so what you should do is
+[41:09] based on whatever keyword or topic
+[41:11] you're going to go after, run that same
+[41:13] exact topic through all of these
+[41:15] different platforms. Now, what I
+[41:16] recommend doing is run it through
+[41:18] ChatGBT, run it through Perplexity, run
+[41:21] it through Claude, and then run it
+[41:23] through Grock. Okay? And the reason you
+[41:25] want to do that is because each of these
+[41:27] systems uses slightly different forms of
+[41:30] retrieval. And you want to try to get
+[41:32] kind of a cumulative look at all the
+[41:34] different citation opportunities. And
+[41:36] this is super simple. Okay, it's simple
+[41:38] to understand but not easy to implement.
+[41:40] I want to be very clear on this. But
+[41:42] what I like to do is I will run these
+[41:44] queries through and I will look for the
+[41:45] gaps. Okay, so I ran, you know, best SEO
+[41:48] books here and we go down here and I'm
+[41:51] going to go ahead and look at the
+[41:52] citations and see are we being mentioned
+[41:55] on these citations. Okay, and so I'm
+[41:57] going to go one by one and I'm going to
+[41:59] see which of these were being mentioned
+[42:00] on and which we are not being mentioned
+[42:02] on. Okay? And then the ones that we're
+[42:04] not, we're going to go and do outreach.
+[42:06] I'm going to repeat the same exact thing
+[42:07] on Perplexity. Okay? Look at all the
+[42:10] citations and find those where we're not
+[42:12] getting coverage. Okay? Same thing on
+[42:15] Claude. Okay, same exact thing. We can
+[42:17] go here, click on the citations once
+[42:19] again. Boom. We can see all the
+[42:20] different citations where we can get or
+[42:22] coverage. And once again on Grock. Okay,
+[42:25] you'll notice you're going to find a lot
+[42:27] of similar citations, but you are going
+[42:29] to find some unique gaps that maybe you
+[42:31] didn't see if you only ran it on Chad
+[42:33] GBT. So run it across all of them, and
+[42:35] that's going to give you the greatest
+[42:37] pool of opportunities. Number 17, find
+[42:40] your competitor's top performing pages.
+[42:42] While you can certainly go in chat GBT
+[42:44] or an AI platform and help it generate
+[42:46] content ideas for you, it's never going
+[42:48] to be as good as actually going and
+[42:50] finding content ideas that have
+[42:52] quantifiable proof that they're actually
+[42:55] a good idea to build upon. The good news
+[42:57] is if you have some competitors that
+[42:59] have had some levels of SEO success or
+[43:02] even content success, you can go and see
+[43:04] the types of frameworks or templates
+[43:06] that they've used and you can produce a
+[43:09] you know use that same template to build
+[43:11] something unique knowing that it it has
+[43:13] a pretty high probability of working.
+[43:15] Okay, so go into HFS or Semrush, you
+[43:18] know, your tool of choice and then go to
+[43:20] Best Buy links. Okay. And you put your
+[43:22] competitor in here. And what we want to
+[43:24] do is we want to see the types of pages
+[43:26] that are proven to attract links. Now,
+[43:28] I'm looking at exploding topics here,
+[43:30] and there's clearly a trend. Okay? You
+[43:32] can start to see the commonality among
+[43:35] the pages that tend to attract a lot of
+[43:37] links. It just so happens to be
+[43:39] statistics driven pages. Okay? And once
+[43:42] you find a framework that's already
+[43:44] proven to actually attract these links,
+[43:46] you want to repeat that over and over as
+[43:48] they have done very intelligently. Okay?
+[43:51] And so we know that this works. We know
+[43:53] statistics are a very powerful technique
+[43:55] for linkbait, but it is going to be
+[43:57] different based on the industry that
+[43:58] you're in, but you can look at an
+[44:00] industry that is not yours and you can
+[44:03] find templates and then apply those in
+[44:05] your industry. And sometimes your
+[44:07] competitors have never done that and
+[44:08] you'll get a huge advantage there. So,
+[44:11] you know, deploying the same exact
+[44:12] strategy that's already been done a
+[44:14] million times in a particular industry
+[44:16] may not work as well. So, it's really
+[44:18] advantageous to transfer these ideas to
+[44:21] different industries and you might get
+[44:22] more bang for your buck. Number 18, find
+[44:24] misinformation about your brand. So, I
+[44:27] could dedicate an entire video to
+[44:29] cleaning up and auditing your brand for
+[44:32] consistency and accuracy, but just for a
+[44:34] very quick thing that you can do today
+[44:37] is you can probe Chat GBT's internal
+[44:40] training data to see what it knows about
+[44:43] your brand. Okay? So, and this is
+[44:44] actually completely free to do. So you
+[44:46] can just go into chat GBT and go to the
+[44:48] GPT section and then search generative
+[44:52] engine optimization. Okay, search that
+[44:55] and you're going to find free GPT that I
+[44:58] built a couple of months ago and it's
+[45:00] going to look like this. And all you
+[45:01] have to do is just go in here and enter
+[45:03] your brand name. But more importantly, I
+[45:05] would if it's a brand that's not like
+[45:07] really well-known like Nike for example
+[45:09] or Disney, then maybe add a little bit
+[45:12] of clarification in there so it can go
+[45:14] through the the neural network and try
+[45:16] to, you know, look in its training its
+[45:18] base training data to see more detail
+[45:20] about the brand itself. You need to add
+[45:22] maybe a little bit of context, but just
+[45:23] for the sake of argument, we'll just do,
+[45:25] you know, Disney like this. Okay, so
+[45:27] we're going to run Disney. And this is
+[45:29] built to only look at the at the core
+[45:32] training data. So, I do not have web
+[45:33] search enabled for this, and that's by
+[45:35] design. We do not want it to go to web
+[45:37] search. We just want to probe GPT5's
+[45:40] training data. Okay, that's all we're
+[45:42] trying to look for. So, this gives us
+[45:43] just a rough ballpark idea of, you know,
+[45:46] how what at least what chat GBT knows
+[45:49] about this brand to a certain extent.
+[45:51] Keep in mind, this is not a perfect
+[45:53] science. Some of this could be
+[45:54] hallucinated. If it doesn't know, it
+[45:56] might just make it up because of course,
+[45:58] it's not relying on web search. And when
+[46:00] it doesn't rely on web search, it can be
+[46:02] a little more inaccurate. So just keep
+[46:04] that in mind. It's not going to be
+[46:05] perfect, but it can at least give you a
+[46:07] ballpark idea and help you see like,
+[46:09] okay, doesn't look like, you know, chatb
+[46:12] knows a whole lot about our brand. So we
+[46:13] need to go and and take the necessary
+[46:15] actions to improve

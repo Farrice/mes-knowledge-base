@@ -1,0 +1,12 @@
+{
+  "schema_version": "visual-ledger/v1",
+  "video_id": "3sHPiOIHPTY",
+  "status": "REUSED_EXISTING_VISUAL_CAPTURE",
+  "frame_count": 26,
+  "frame_files_persisted": false,
+  "evidence_refs": [
+    "../../nathan-gotch/extraction-report-2026-07-19.md",
+    "../../../skills/nathan-gotch-ai-seo/references/source-ledger.md"
+  ],
+  "reason": "The prior 26-frame forge is already documented. The new package adds timestamped transcript provenance without duplicating regenerable frame binaries."
+}

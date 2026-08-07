@@ -1,0 +1,23 @@
+{
+  "allowed": [
+    "Marketing and source-organization guidance",
+    "Message differentiation grounded in client-approved product truth",
+    "Search eligibility and implementation specifications",
+    "Dated observation design"
+  ],
+  "prohibited": [
+    "Medical, legal, or regulatory approval",
+    "Disease-treatment or prevention claims without the required qualified process",
+    "Invented product facts, credentials, sources, or customer language",
+    "Guaranteed rankings, citations, traffic, leads, conversions, or revenue",
+    "Bulk AI content created mainly to manipulate rankings"
+  ],
+  "requires_review": [
+    "Health-benefit, safety, efficacy, or structure/function language",
+    "Finished-product claims derived from ingredient research",
+    "Testimonials, endorsements, and typical-results implications",
+    "Merchant Center or paid-platform eligibility",
+    "Schema values describing a real product or reviewer"
+  ],
+  "schema_version": "search-context/v1"
+}

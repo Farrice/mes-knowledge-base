@@ -1,0 +1,16 @@
+{
+  "reviewer": "Codex bounded search-and-claims review",
+  "dimensions": {
+    "intent_fit": 8.5,
+    "information_gain": 8.5,
+    "source_quality": 8.5,
+    "technical_on_page_readiness": 7.5,
+    "aeo_geo_readiness": 8.0,
+    "human_usefulness": 8.5,
+    "format_fit": 8.0,
+    "conversion_alignment": 7.5,
+    "claim_risk": 8.5,
+    "measurement_readiness": 7.5
+  },
+  "notes": "The evidence-to-angle chain is a useful original synthesis and the boundary language is strong. The expert score is lower than the deterministic pass because target demand, a live URL, real client evidence, qualified claim review, CMS implementation, baseline data, and Farrice's felt taste verdict are absent."
+}

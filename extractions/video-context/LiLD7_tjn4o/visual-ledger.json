@@ -1,0 +1,79 @@
+{
+  "video_id": "LiLD7_tjn4o",
+  "capture_policy": "cue-based; screen demonstrations only",
+  "inspection_status": "all_extracted_frames_inspected",
+  "frames": [
+    {
+      "file": "frames/cue_0000.jpg",
+      "timestamp": "00:01:58",
+      "inspected": true,
+      "observed": "Slide quotes the marketing claim: Explore keyword and topic volume across AI platforms.",
+      "evidence_value": "Confirms the exact claim the source critiques.",
+      "limitation": "The underlying vendor and methodology are not identified; the frame does not itself prove the claim false."
+    },
+    {
+      "file": "frames/cue_0001.jpg",
+      "timestamp": "00:05:54",
+      "inspected": true,
+      "observed": "Personalization slide shows a ChatGPT account identifying Nathan Gotch and a reasoning excerpt that references knowing Rankability is his product.",
+      "evidence_value": "Demonstrates a plausible account-history confounder in brand recommendation tests.",
+      "limitation": "One account example does not quantify the size or frequency of personalization effects."
+    },
+    {
+      "file": "frames/cue_0002.jpg",
+      "timestamp": "00:07:52",
+      "inspected": true,
+      "observed": "Model Variance slide shows the 2025 ChatGPT model selector with GPT-4o, o3, o4-mini, o4-mini-high, GPT-4.5 research preview, GPT-4.1, and GPT-4.1-mini.",
+      "evidence_value": "Confirms that multiple selectable model variants existed in the demonstrated interface.",
+      "limitation": "The menu is time-bound and does not by itself prove output variance."
+    },
+    {
+      "file": "frames/cue_0003.jpg",
+      "timestamp": "00:08:33",
+      "inspected": true,
+      "observed": "The same Model Variance slide/model menu remains on screen.",
+      "evidence_value": "Confirms continuity of the model-variance section.",
+      "limitation": "This duplicate cue adds no independent result evidence."
+    },
+    {
+      "file": "frames/cue_0004.jpg",
+      "timestamp": "00:10:56",
+      "inspected": true,
+      "observed": "A ChatGPT o3 answer to a best-SEO-content-tools prompt is shown with a visible citations panel and multiple sourced results.",
+      "evidence_value": "Confirms one model/run used retrieval and exposed citations.",
+      "limitation": "It is one account, prompt, model, and run; the frame cannot establish stability or unbiased brand coverage."
+    },
+    {
+      "file": "frames/cue_0005.jpg",
+      "timestamp": "00:12:20",
+      "inspected": true,
+      "observed": "Slide states Responses, Queries, and Citations Are a Rotating Door.",
+      "evidence_value": "Confirms the creator's summary of stochastic variance.",
+      "limitation": "This is a thesis slide, not a quantitative variance study."
+    },
+    {
+      "file": "frames/cue_0006.jpg",
+      "timestamp": "00:18:06",
+      "inspected": true,
+      "observed": "A generated answer lists SEO content tools and highlights Rankability despite the absence of a visible referral link in the answer body.",
+      "evidence_value": "Illustrates brand prominence as a distinct observation from click/referral attribution.",
+      "limitation": "The source notes that this is the creator's account; personalization may contaminate the example."
+    },
+    {
+      "file": "frames/cue_0007.jpg",
+      "timestamp": "00:20:48",
+      "inspected": true,
+      "observed": "Formula slide reads: Prompt Diversity (query fan-out) + Volume (> 25) + Reruns.",
+      "evidence_value": "Confirms the creator's sampling heuristic.",
+      "limitation": "No statistical validation, representativeness proof, or universal threshold is provided."
+    },
+    {
+      "file": "frames/cue_0008.jpg",
+      "timestamp": "00:24:43",
+      "inspected": true,
+      "observed": "Two GSC Performance on Search results screenshots show long natural-language queries under URL/path filters described as `/overview` and `/search` in the narration.",
+      "evidence_value": "Confirms the proxy-discovery interface the creator discusses.",
+      "limitation": "The creator explicitly says he cannot prove these filters map to AI Overviews or AI Mode; treat as an investigation lead only."
+    }
+  ]
+}

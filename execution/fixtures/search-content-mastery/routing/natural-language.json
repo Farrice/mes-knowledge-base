@@ -1,0 +1,8 @@
+{
+  "schema_version": "search-content-mastery-routing-fixture/v1",
+  "request": "run the search workflows on my LinkedIn Angle Map offer and prototype AEO and SEO writing that can increase organic and answer-engine traffic",
+  "expected_first_route": "search-content-mastery",
+  "expected_binding": "operator_search_content_mastery",
+  "regression_origin": "The low-confidence Autopilot fallback previously hid the unified search conductor behind generic workflow and revenue routes.",
+  "boundary": "This fixture is intentionally prototype-shaped so focused technical SEO, single AEO experiments, and ordinary content creation retain their specialist routes."
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "53h_-LoEGiw",
+  "capture_policy": "cue-based; screen demonstrations only",
+  "inspection_status": "all_extracted_frames_inspected",
+  "frames": [
+    {
+      "file": "frames/cue_0000.jpg",
+      "timestamp": "00:00:40",
+      "inspected": true,
+      "observed": "Google result/knowledge panel for Legacy Dental Care shows Chesterfield wording while the visible street address is in Ballwin, Missouri.",
+      "evidence_value": "Confirms the public entity/location mismatch used to begin the audit.",
+      "limitation": "The frame does not establish business intent, service-area rules, or whether the profile was later corrected."
+    },
+    {
+      "file": "frames/cue_0001.jpg",
+      "timestamp": "00:02:14",
+      "inspected": true,
+      "observed": "Local tracker shows a rank-history chart and a table of nearby dental competitors with ratings, review counts, categories, and addresses.",
+      "evidence_value": "Confirms the local-pack benchmark surface.",
+      "limitation": "Tool methodology, grid coverage, and current repeatability are not independently validated."
+    },
+    {
+      "file": "frames/cue_0002.jpg",
+      "timestamp": "00:04:19",
+      "inspected": true,
+      "observed": "AI answers tab shows a proprietary performance score, mention rate, average position, platform coverage, and a brand ranking table across several platform icons.",
+      "evidence_value": "Confirms that brand mentions are tracked separately from citations.",
+      "limitation": "Scores and sampling methodology are vendor-defined and do not represent true demand or stable rank."
+    },
+    {
+      "file": "frames/cue_0003.jpg",
+      "timestamp": "00:06:13",
+      "inspected": true,
+      "observed": "AI citations tab lists domains with scores and labels several, including Healthgrades, as opportunities.",
+      "evidence_value": "Confirms the recurring-source opportunity view.",
+      "limitation": "A tool label does not prove attainability, independent endorsement, or impact."
+    },
+    {
+      "file": "frames/cue_0004.jpg",
+      "timestamp": "00:07:00",
+      "inspected": true,
+      "observed": "Healthgrades page for dentists near Ballwin displays sponsored listings at the top.",
+      "evidence_value": "Confirms that paid placement is a distinct option on the demonstrated third-party surface.",
+      "limitation": "The frame does not prove AI citation treatment, value, compliance, or cost-effectiveness."
+    },
+    {
+      "file": "frames/cue_0005.jpg",
+      "timestamp": "00:08:15",
+      "inspected": true,
+      "observed": "Extracted third-party dentist profile appears in a content editor with a score of 9 and a list of topical terms.",
+      "evidence_value": "Confirms the thin-profile/topic-gap analysis step.",
+      "limitation": "The proprietary score and recommendations are not ranking or citation evidence."
+    },
+    {
+      "file": "frames/cue_0006.jpg",
+      "timestamp": "00:10:37",
+      "inspected": true,
+      "observed": "ChatGPT research output lists internal contradictions, provider/profile inconsistencies, severity labels, and recommended fixes for the dental brand.",
+      "evidence_value": "Confirms the AI-assisted inconsistency-queue workflow.",
+      "limitation": "The findings are model output and require primary-source verification before any edit."
+    },
+    {
+      "file": "frames/cue_0007.jpg",
+      "timestamp": "00:15:55",
+      "inspected": true,
+      "observed": "Draft titled Dentist in Ballwin, MO appears in an optimizer with a score of 37 and visible location/service topic terms.",
+      "evidence_value": "Confirms the service-plus-location page pattern and coverage-review interface.",
+      "limitation": "The draft and score do not establish factual accuracy, conversion quality, or ranking performance."
+    }
+  ]
+}

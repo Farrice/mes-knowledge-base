@@ -1,5 +1,15 @@
 # Nathan Gotch AI SEO — Source Ledger
 
+## UPDATE 2026-08-04 — Eleven-source Search Content Mastery portfolio
+
+The skill now has a locked, mastery-balanced eleven-video primary-source corpus spanning context foundation, keyword research, content production, on-page, audit, cross-platform, omnichannel, local, ecommerce, category/citation strategy, and measurement honesty. Evidence packages live at `extractions/video-context/<video-id>/`; the deduplicated forge is `extractions/nathan-gotch-search-content-mastery/portfolio-forge.md`; the operational routing ledger is `references/search-content-mastery-source-ledger.md`.
+
+This update grounds workflows 15–19. It also preserves an important boundary: recurrence across the creator's sources can `CORROBORATE` a practitioner mechanic, but it does not verify causal market effect. Original numeric success targets remain `UNCONFIRMED`; rankings, citations, traffic, leads, conversions, and revenue remain `UNTESTED`.
+
+Three canonical transcripts were reused and hash-checked rather than duplicated: `3sHPiOIHPTY`, `qzMAGdzra88`, and `6o0mabKRmIo`. Future announced episodes remain `NO EVENT` until captured.
+
+---
+
 ## UPDATE 2026-07-19 — First primary source acquired
 
 The absence documented below is now partially resolved. `/extract-forge` (2026-07-19) acquired

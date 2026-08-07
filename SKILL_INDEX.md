@@ -256,7 +256,7 @@
 | `nate-b-jones-orchestration-intelligence` | **nate-b-jones-orchestration-intelligence** | ai/automation — multi-agent orchestration, designs, audits, and optimizes multi-agent orchestration using nate b, classifies work by domain verifiability to determine safe delegation | 12 | 0 |
 | `nate-b-jones-trust-architecture` | **Nate B Jones - AI Trust Architecture** | zero-trust agentic architecture & systemic hallucination defense, ai trust architecture | 5 | 12 |
 | `nate-herk-client-acquisition` | **Nate Herk: AI Client Acquisition** | acquire ai workflow clients without an audience by leveraging asymmetric trus..., ai client acquisition | 1 | 3 |
-| `nathan-gotch-ai-seo` | **Nathan Gotch AI SEO** | not just the visibility layer | 15 | 28 |
+| `nathan-gotch-ai-seo` | **Nathan Gotch AI SEO** | evidence-bounded traditional, retrieval, ecommerce | 20 | 28 |
 | `nba-betting-edge` | **NBA Betting Edge: Player Prop & Parlay Prediction System** | research-driven predictions with honest confidence scoring, correlation-aware parlay construction, and kelly criterion bankroll discipline | 3 | 0 |
 | `new-media-ghostwriting` | **new-media-ghostwriting** | premium ghostwriting × new media strategy × content architecture, " compounds nicolas cole's voice capture, a16z's new-media doctrine (joe rogan ceo test | 1 | 0 |
 | `new-media-kingmaker` | **new-media-kingmaker** | new media × copywriting × content strategy × ghostwriting × marketing, takes any founder, compound skill orchestrating a16z new-media doctrine | 3 | 0 |
@@ -336,6 +336,7 @@
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | sean kochel's systematic research-to-design-to-build pipeline for landing pag..., design-first web building | 2 | 6 |
 | `sean-mabry-voice-mastery` | **sean-mabry-voice-mastery** | memoir architecture, and the authorship pyramid, built from sean mabry's 10-year methodology spanning in-house copywriting | 1 | 12 |
 | `sean-macintyre-persuasion-philosophy` | **Sean Macintyre — Persuasion Philosophy** | copywriting / marketing / behavioral psychology / entrepreneurship, cross-domain diagnostic copywriting, persuasion philosophy | 17 | 0 |
+| `search-content-mastery-os` | **Search Content Mastery OS** | seo, aeo, geo | 4 | 0 |
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** | tiktok viral content and e-commerce system - 23 prompts for hyperdopamine hooks, psaep sales framework, multi-platform deployment | 4 | 23 |
 | `self-evolving-systems` | **self-evolving-systems** | ai/automation — self-improving systems, prompts, retrieval logic | 1 | 0 |
 | `semantic-document-library-os` | **Semantic Document Library OS** | ai/automation - semantic work primitives, agent-readable knowledge systems, document architecture | 6 | 0 |

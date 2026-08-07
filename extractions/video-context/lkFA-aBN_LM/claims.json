@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "video_id": "lkFA-aBN_LM",
+  "claims": [
+    {"time": "01:36-03:13", "state": "OBSERVED", "claim": "SEO is framed as search-everywhere optimization, with traditional search retained for traffic and AI retrieval infrastructure.", "proof_type": "transcript"},
+    {"time": "03:14-06:48", "state": "OBSERVED", "claim": "AI answers are separated into static-corpus knowledge and current web/RAG retrieval.", "proof_type": "transcript+frame"},
+    {"time": "06:49-12:37", "state": "OBSERVED", "claim": "Google AI products and independent AI platforms are separate observation surfaces because answers and citations vary.", "proof_type": "transcript"},
+    {"time": "12:38-18:48", "state": "OBSERVED", "claim": "Local visibility depends on GBP/local-pack performance plus third-party sources used by non-Google systems.", "proof_type": "transcript+frame"},
+    {"time": "19:08-23:24", "state": "OBSERVED", "claim": "Ecommerce and social platforms become vertical search branches; topical consistency is emphasized within each channel.", "proof_type": "transcript+frame"},
+    {"time": "23:25-24:24", "state": "INFERRED", "claim": "Traditional and AI search form the universal core, with local, ecommerce, social, and other surfaces activated by vertical fit.", "proof_type": "transcript+frame"},
+    {"time": "24:25-27:17", "state": "OBSERVED", "claim": "Traditional rank, AI citation, and brand mention coverage are distinct states that can diverge.", "proof_type": "transcript"},
+    {"time": "27:18-34:35", "state": "OBSERVED", "claim": "The goal set includes ranking owned pages, ranking external properties, commercial-query brand mentions, becoming a retrieval source, and appearing on top retrieval sources.", "proof_type": "transcript+frames"},
+    {"time": "29:34-30:10", "state": "OBSERVED", "claim": "Video scripts should state the target topic clearly because transcripts are machine-readable retrieval material.", "proof_type": "transcript"},
+    {"time": "31:18-33:21", "state": "OBSERVED", "claim": "Distribution should target platforms already visible for the query rather than defaulting to every channel.", "proof_type": "transcript"},
+    {"time": "35:01-39:06", "state": "OBSERVED", "claim": "One-URL SEO is insufficient; agent execution requires a strategy and skills iterated against real outputs.", "proof_type": "transcript+frame"},
+    {"time": "39:07-42:50", "state": "OBSERVED", "claim": "Agentic execution needs persistence and checkpoints because long browser jobs can crash and lose work.", "proof_type": "transcript"},
+    {"time": "42:51-46:47", "state": "OBSERVED", "claim": "Practitioner process knowledge and a systemized SOP/skill environment are presented as the bottleneck to effective execution.", "proof_type": "transcript"},
+    {"time": "24:25-27:17", "state": "UNCONFIRMED", "claim": "Unlinked brand mentions on recurring retrieval-source sites can influence AI answers.", "proof_type": "transcript", "boundary": "No independent experiment receipt in the source."}
+  ]
+}

@@ -17,6 +17,12 @@ from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Iterable
 
+try:
+    from routing_enforcer import match_bindings
+except Exception:  # pragma: no cover - routing must remain available defensively
+    def match_bindings(text: str) -> list[dict[str, object]]:  # type: ignore
+        return []
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -2726,6 +2732,14 @@ def evaluate(
     menu_routes = tuple(command_menu_winners)
     workflow_routes = tuple(workflow_router_winners)
     combined = list(dict.fromkeys([*menu_routes, *workflow_routes]))
+    search_mastery_binding = next(
+        (
+            hit
+            for hit in match_bindings(query)
+            if hit.get("binding_id") == "operator_search_content_mastery"
+        ),
+        None,
+    )
 
     if is_operating_alignment_intent(query):
         chosen = choose_route(query, combined)
@@ -3292,6 +3306,37 @@ def evaluate(
                 "`python3 execution/routing_intelligence.py misroute --request "
                 "\"...\" --wrong \"...\" --correct \"autopilot\"` or "
                 "`--correct \"system-audit\"` for direct audit requests."
+            ),
+        )
+
+    # Search Content Mastery owns a unified SEO/AEO writing prototype even
+    # when the same request mentions an offer or service. The specific binding
+    # comes after all control-plane lanes above, so audit, repair, routing,
+    # closeout, and explicit front-door intents retain precedence; it comes
+    # before generic revenue routing because the conductor has its own service
+    # mode and preserves the search evidence/measurement spine.
+    if search_mastery_binding:
+        chosen = str(search_mastery_binding["workflow"])
+        skipped = tuple(route for route in combined[:8] if route and route != chosen)
+        return GovernorDecision(
+            query=query,
+            detected_lane="search-content-mastery",
+            confidence=0.95,
+            required_candidates=(chosen,),
+            command_menu_winners=menu_routes,
+            workflow_router_winners=workflow_routes,
+            chosen_route=chosen,
+            skipped_routes=skipped,
+            reason=(
+                "Unified SEO/AEO writing-prototype intent matched the narrow "
+                "Search Content Mastery binding. Keep project truth, source "
+                "rules, content scoring, and measurement receipts under one "
+                "conductor; revenue and production routes remain bounded support."
+            ),
+            feedback_recommendation=(
+                "If this prototype-shaped request falls back to /autopilot or a "
+                "generic revenue route, preserve it as a Search Content Mastery "
+                "routing regression."
             ),
         )
 

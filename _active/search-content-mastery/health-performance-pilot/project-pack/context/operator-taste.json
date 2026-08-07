@@ -1,0 +1,9 @@
+{
+  "decisions": [
+    "plain-spoken",
+    "one useful answer asset",
+    "no abstract AI service language"
+  ],
+  "overrides": [],
+  "schema_version": "search-context/v1"
+}

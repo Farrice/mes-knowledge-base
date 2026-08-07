@@ -1,0 +1,11 @@
+{
+  "schema_version": "transcript-reference/v1",
+  "video_id": "6o0mabKRmIo",
+  "canonical_path": "../../nathan-gotch-ai-seo/reference-corpus/ecommerce-seo-strategy-2026.txt",
+  "canonical_sha256": "281ce12eafa1f655d0ca3672785ba4f2527e82c14ed54918f173495dfd525d47",
+  "timed_derivative_sha256": "63f8e025d9014872f664d066f753b68c33292a7f4e35f2271d1b1f190aed5553",
+  "preamble_stripped_normalized_sha256": "2963de88759b18c4dcab76b96b43ab3462e9d7215962b5cc0d21ab8043587f58",
+  "preamble_stripped_normalized_exact_match": true,
+  "normalized_similarity_ratio": 1.0,
+  "reason": "Reuse the existing clean transcript while preserving the new timestamped derivative and visual evidence; do not duplicate source text."
+}

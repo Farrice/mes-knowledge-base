@@ -1,0 +1,18 @@
+{
+  "status": "APPROVED",
+  "target_query": "why a high content score does not prove SEO results",
+  "intent": "informational",
+  "audience": "founder deciding whether to trust an SEO content score",
+  "information_gain_requirement": "A concrete separation of readiness, judgment, override, and observed outcomes.",
+  "source_receipts": ["https://example.com/score-source-receipt"],
+  "structural_pattern": "hook -> false proxy -> four truths -> operator move",
+  "channel": "linkedin_post",
+  "cta": "Keep the score; add the outcome receipt.",
+  "risk_boundary": "Do not turn a readiness score into a ranking, citation, traffic, conversion, or revenue claim.",
+  "measurement_hypothesis": {
+    "prediction": "The post may generate qualified saves or replies about measurement integrity.",
+    "primary_stage": "CONVERTED",
+    "observation_window_days": 14,
+    "falsifier": "No qualified save, reply, or conversation is recorded during the 14-day window."
+  }
+}

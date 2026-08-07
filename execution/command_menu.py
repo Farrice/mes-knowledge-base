@@ -67,6 +67,16 @@ from routing_governor import (
     deep_research_os_route_bonus,
 )
 
+# Keep the Codex-facing menu aligned with workflow_router: mandatory domain
+# bindings pin their owner before lexical scoring, while control-plane intents
+# retain precedence. The fallback keeps menu discovery available if the
+# enforcer is temporarily unavailable.
+try:
+    from routing_enforcer import match_bindings
+except Exception:  # pragma: no cover - defensive import boundary
+    def match_bindings(text: str) -> list[dict[str, object]]:  # type: ignore
+        return []
+
 ROOT = Path(__file__).resolve().parent.parent
 WORKFLOW_DIR = ROOT / ".agent" / "workflows"
 COMMAND_DIR = ROOT / ".claude" / "commands"
@@ -1278,7 +1288,90 @@ def normalize_terms(query: str) -> list[str]:
 
 
 def search(workflows: Iterable[Workflow], query: str, limit: int) -> list[tuple[int, Workflow]]:
-    scored = [(score_workflow(workflow, query), workflow) for workflow in workflows]
+    phrase = query.lower().strip()
+    flags = intent_flags(phrase)
+    binding_hits = match_bindings(query)
+    control_plane_active = any(
+        flags[key]
+        for key in (
+            "explicit_autopilot_invocation",
+            "autopilot",
+            "operating_alignment",
+            "virtuoso",
+            "deep_research_os",
+            "front_door_choice",
+            "explicit_menu_backend",
+            "end_session_closeout",
+            "health_check",
+            "routing_intelligence",
+            "skill_anneal",
+            "transfer_handoff",
+            "steering_compass",
+            "mission",
+            "extraction_governor",
+            "self_evolution",
+            "knowledge_librarian",
+            "system_orchestration",
+            "repeatability",
+            "system_audit",
+            "system_failure",
+            "skill_system",
+            "expert_composition",
+            "revenue",
+            "ai_employee_os",
+        )
+    )
+    # "Run the search workflows" is ordinary operator language in a search
+    # prototype request, but the generic system-orchestration detector also
+    # sees the word "workflows". Let the narrowly matched Search Content
+    # Mastery binding survive that one weak control-plane signal while keeping
+    # explicit Autopilot, audit, mission, handoff, and other control intents in
+    # charge.
+    search_mastery_hit = any(
+        hit.get("binding_id") == "operator_search_content_mastery"
+        for hit in binding_hits
+    )
+    strong_control_plane_active = any(
+        flags[key]
+        for key in (
+            "explicit_autopilot_invocation",
+            "autopilot",
+            "operating_alignment",
+            "virtuoso",
+            "deep_research_os",
+            "front_door_choice",
+            "explicit_menu_backend",
+            "end_session_closeout",
+            "health_check",
+            "routing_intelligence",
+            "skill_anneal",
+            "transfer_handoff",
+            "steering_compass",
+            "mission",
+            "extraction_governor",
+            "self_evolution",
+            "knowledge_librarian",
+            "repeatability",
+            "system_audit",
+            "system_failure",
+            "skill_system",
+            "expert_composition",
+            "ai_employee_os",
+        )
+    )
+    binding_boost: dict[str, int] = {}
+    if not control_plane_active or (search_mastery_hit and not strong_control_plane_active):
+        for position, hit in enumerate(binding_hits):
+            for subposition, workflow_name in enumerate(hit.get("workflows", [])):
+                binding_boost.setdefault(
+                    str(workflow_name),
+                    50_000 - position * 200 - subposition * 50,
+                )
+
+    scored = [
+        (score_workflow(workflow, query) + binding_boost.get(workflow.name, 0), workflow)
+        for workflow in workflows
+    ]
     matches = [(score, workflow) for score, workflow in scored if score > 0]
     matches.sort(key=lambda item: (-item[0], item[1].name))
     return matches[:limit]

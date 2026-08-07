@@ -1,0 +1,533 @@
+[
+  {
+    "frame": "frame_0001.jpg",
+    "timestamp_seconds": 0.0,
+    "reason": "first-frame",
+    "observation": "Nathan Gotch talking head in Rankability shirt.",
+    "evidence_impact": "OBSERVED identity/presenter context only.",
+    "sha256": "e1f475f26b0a30599148c7f94c2899077df8c275ec06e9b9614bc40d736afcb3",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0002.jpg",
+    "timestamp_seconds": 1.0,
+    "reason": "scene-change",
+    "observation": "Six-part intelligence diagram: raw intelligence, data, brand, expertise/experience, competitor intelligence, execution.",
+    "evidence_impact": "OBSERVED system architecture; materially expands transcript wording.",
+    "sha256": "38e9a644cabc3da362dc475863923b240ade7eaec3baff1d870c4dd8a2d265cd",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0003.jpg",
+    "timestamp_seconds": 4.0,
+    "reason": "scene-change",
+    "observation": "Talking head.",
+    "evidence_impact": "No new method evidence.",
+    "sha256": "239ed41a410e2f3f3b41059f297004b879f15f732f055c8619ffffcb9ca1ba5e",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0004.jpg",
+    "timestamp_seconds": 5.0,
+    "reason": "scene-change",
+    "observation": "Google AI Mode result for HubSpot AEO alternatives with Rankability highlighted.",
+    "evidence_impact": "UNCONFIRMED self-presented citation/ranking example.",
+    "sha256": "1df19eb52b10c419104ae85fb3307ecc10d90ec89b15a303b0d9e6a04050f22f",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0005.jpg",
+    "timestamp_seconds": 5.1,
+    "reason": "scene-change",
+    "observation": "AI search rankings dashboard showing Rankability at 86% visibility and 4.5 average position.",
+    "evidence_impact": "UNCONFIRMED self-presented tracker snapshot; useful only as claimed measurement shape.",
+    "sha256": "cbc4ea5d45e971ff69e3ed7986e814e017f6f3acf6baf9305028b4d9590261bf",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0006.jpg",
+    "timestamp_seconds": 6.0,
+    "reason": "scene-change",
+    "observation": "Google AI Mode answer and side citations with Rankability highlighted multiple times.",
+    "evidence_impact": "UNCONFIRMED self-presented retrieval example.",
+    "sha256": "10aee30bd9f49af27fbb06bcc6b05cb3f2410ac40ceab73b976d3ad9113cf305",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0007.jpg",
+    "timestamp_seconds": 7.0,
+    "reason": "scene-change",
+    "observation": "Talking head.",
+    "evidence_impact": "No new method evidence.",
+    "sha256": "af766a23c6aedacd46cf7875e38fec24443f8b4f9da24ffc74ce5bbf7bd77f02",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0008.jpg",
+    "timestamp_seconds": 8.0,
+    "reason": "scene-change",
+    "observation": "Data-behind-the-work page with GSC growth and AI visibility panels.",
+    "evidence_impact": "UNCONFIRMED self-presented traffic/citation figures; confirms he juxtaposes traditional and AI metrics.",
+    "sha256": "ee47ad9dc33169fe08d2f36b4c6bd44f25c0470e4c1a0d1d187dcf13370b28fb",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0009.jpg",
+    "timestamp_seconds": 12.0,
+    "reason": "scene-change",
+    "observation": "Talking head.",
+    "evidence_impact": "No new method evidence.",
+    "sha256": "5d1df8b96d7556beb6183edcf4d1ccd6983390028d48879575b112f8a20689d0",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0010.jpg",
+    "timestamp_seconds": 22.0,
+    "reason": "scene-change",
+    "observation": "Faded six-part intelligence diagram behind presenter inset.",
+    "evidence_impact": "Corroborates the architecture in frame_0002.",
+    "sha256": "88e3d4d499bb00927b3f5fbd85f8db8d9943c437f96e458c0504159cb34a0e49",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0000.jpg",
+    "timestamp_seconds": 28.0,
+    "reason": "transcript-cue",
+    "observation": "Faded six-part intelligence diagram at component overview.",
+    "evidence_impact": "Pins the architecture to the transcript's component explanation.",
+    "sha256": "6b86d9bc46bd459f07f4ed4969e5345ec3829b1111f3d1dc0decd2839cf00e9b",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0011.jpg",
+    "timestamp_seconds": 240.0,
+    "reason": "scene-change",
+    "observation": "Codex desktop and Claude Projects interfaces side-by-side.",
+    "evidence_impact": "OBSERVED model-agnostic project-container pattern.",
+    "sha256": "9b369cf5e2985b6fe246b43943a357b4ee9c7fd43d4376b866015fa3787d403c",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0001.jpg",
+    "timestamp_seconds": 274.0,
+    "reason": "transcript-cue",
+    "observation": "Codex desktop and Claude Projects interfaces side-by-side.",
+    "evidence_impact": "Confirms project creation is demonstrated in both tools.",
+    "sha256": "9ca99f843d7bc9bc0e232be8f1c25b6881d9fc0e072b61eaa384147a70718525",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0002.jpg",
+    "timestamp_seconds": 303.0,
+    "reason": "transcript-cue",
+    "observation": "Local desktop folder picker attached to the Codex project.",
+    "evidence_impact": "OBSERVED local-folder portability mechanism.",
+    "sha256": "1a09929c69618b68430fb5e1df166c9c7dbe9a6ca5308c90f54caebaf21564e5",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0012.jpg",
+    "timestamp_seconds": 315.0,
+    "reason": "scene-change",
+    "observation": "Claude Create a project modal with name, goal, folder, and private visibility controls.",
+    "evidence_impact": "OBSERVED project-container setup details.",
+    "sha256": "a43c048bbc0ff9aafc89871cc1f7060cf89e2bd6bb98b891a6fb4dcc13b05beb",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0013.jpg",
+    "timestamp_seconds": 319.0,
+    "reason": "scene-change",
+    "observation": "Created Codex project and Claude project surface.",
+    "evidence_impact": "Corroborates container creation; no new method.",
+    "sha256": "9574724611c1c9ffe71013424381f8172667f93d17b472fdb34589f2c4a1fe64",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0014.jpg",
+    "timestamp_seconds": 380.0,
+    "reason": "scene-change",
+    "observation": "Claude prompt beside Gotch Digital site; prompt requests five campaign artifacts and an entity record.",
+    "evidence_impact": "OBSERVED artifact-generation workflow and source-site input.",
+    "sha256": "8c338648a4b8fb4358a324ed8a18716b601ffaf1eba6f67e9c5588b7026e3c5a",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0003.jpg",
+    "timestamp_seconds": 385.0,
+    "reason": "transcript-cue",
+    "observation": "Same split-screen prompt/site view.",
+    "evidence_impact": "Pins artifact workflow to brand-intelligence step.",
+    "sha256": "6451471dd993bf8ee2b40f89292a605cf20aa8c70f9d11a692f1678c8d370942",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0004.jpg",
+    "timestamp_seconds": 481.0,
+    "reason": "transcript-cue",
+    "observation": "Same prompt/site view at entity-record explanation.",
+    "evidence_impact": "Confirms entity record is specified in the prompt, not added later.",
+    "sha256": "c07a228e802e18b78358820252bb5fa79567de8b42c93a24fdde1533b0a00ce6",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0015.jpg",
+    "timestamp_seconds": 508.0,
+    "reason": "scene-change",
+    "observation": "Prompt beside Products, Services & Offers markdown template.",
+    "evidence_impact": "OBSERVED schema/template-driven artifact construction.",
+    "sha256": "323ffe5b89d224359ca66b30921fb53d60432631da31d21347369ae6cf6d8391",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0005.jpg",
+    "timestamp_seconds": 516.0,
+    "reason": "transcript-cue",
+    "observation": "Claude task progress and generated markdown files beside the offer template.",
+    "evidence_impact": "OBSERVED five-file output and explicit verification task.",
+    "sha256": "57ff638710f15deca0c59266eb325b7c67582e33269514ac3a1e83fe97601ceb",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0006.jpg",
+    "timestamp_seconds": 683.0,
+    "reason": "transcript-cue",
+    "observation": "Generated entity record and related markdown files shown with local folder path.",
+    "evidence_impact": "OBSERVED portable local artifact pack and entity truth file.",
+    "sha256": "200e365fb7eb9f2bc522a49f32f5d7f811e25ecebc63209e8c41020b5214d183",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0016.jpg",
+    "timestamp_seconds": 730.0,
+    "reason": "scene-change",
+    "observation": "Desktop with local project folder.",
+    "evidence_impact": "OBSERVED local ownership; no readable schema detail.",
+    "sha256": "2d8a3b5d2380bd1de3f02fc0356aaef8049ed8cf5de00834b2a73efcb14d3da3",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0017.jpg",
+    "timestamp_seconds": 769.0,
+    "reason": "scene-change",
+    "observation": "Claude output explicitly says entity record is the source of truth.",
+    "evidence_impact": "OBSERVED source-of-truth designation inside generated workflow.",
+    "sha256": "21e22914c0247548a6aa1f7debd2acb764cd24e75a5df3b73df1ffc3cdeb42a0",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0018.jpg",
+    "timestamp_seconds": 781.0,
+    "reason": "scene-change",
+    "observation": "Entity output beside a YouTube SME interview page.",
+    "evidence_impact": "OBSERVED transition from brand artifacts to expert-source ingestion.",
+    "sha256": "99599c5ccba78710637d982770d98a02d3a00341941cdee640f9870e7e0a252f",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0007.jpg",
+    "timestamp_seconds": 827.0,
+    "reason": "transcript-cue",
+    "observation": "Entity output lists 15 conflicts and 19 private input fields beside the SME interview.",
+    "evidence_impact": "OBSERVED conflict surfacing and private-input gap handling; materially strengthens human-review requirement.",
+    "sha256": "cd71c006542da3506d7376549ef8d30d26c859f7d1158328a70934f54654581a",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0008.jpg",
+    "timestamp_seconds": 930.0,
+    "reason": "transcript-cue",
+    "observation": "YouTube auto-generated transcript visible beside a Claude extraction task.",
+    "evidence_impact": "OBSERVED raw-transcript ingestion before restructuring.",
+    "sha256": "7ea3962ab09a401a555c2cb938aa673faa4b3137d431e726a27ffd298f9c87c1",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0019.jpg",
+    "timestamp_seconds": 943.0,
+    "reason": "scene-change",
+    "observation": "Claude processing copied transcript.",
+    "evidence_impact": "No new method beyond cue_0008.",
+    "sha256": "098ff32e8469f59043846a09cf7bfda3b7504ac93f09f87afc82cd2ee0004034",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0020.jpg",
+    "timestamp_seconds": 947.0,
+    "reason": "scene-change",
+    "observation": "NotebookLM notebook library beside Claude.",
+    "evidence_impact": "OBSERVED alternative source-ingestion tool.",
+    "sha256": "0679319613f81c3be454190f712995ff877c6fb3144bfbb55f80717d20e3171b",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0009.jpg",
+    "timestamp_seconds": 1042.0,
+    "reason": "transcript-cue",
+    "observation": "Claude and NotebookLM outputs side-by-side for the same interview.",
+    "evidence_impact": "OBSERVED multiple extraction paths; no quality comparison is proven visually.",
+    "sha256": "47531a292a5830cc96faba26c0594e20668429932d676e428cda38f21cddf1d4",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0021.jpg",
+    "timestamp_seconds": 1043.0,
+    "reason": "scene-change",
+    "observation": "YouTube share link dialog beside extraction task.",
+    "evidence_impact": "OBSERVED URL handoff into the context process.",
+    "sha256": "7f6bf61eb6f61ee007ad527999858e9454ed5b03417fb9bc3f70327581be3398",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0022.jpg",
+    "timestamp_seconds": 1045.0,
+    "reason": "scene-change",
+    "observation": "Private Distill-style tool: Turn YouTube into AI-ready context.",
+    "evidence_impact": "OBSERVED deterministic compression-tool interface.",
+    "sha256": "b5cb16809d9a0646addd5b9b25630848e42a4bfe413904a2a43d37460e77afa8",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0010.jpg",
+    "timestamp_seconds": 1082.0,
+    "reason": "transcript-cue",
+    "observation": "Downloaded source-grounded markdown file open in TextEdit beside the compression tool.",
+    "evidence_impact": "OBSERVED portable derived artifact; transcript/source claims remain self-described.",
+    "sha256": "d2a45b9042aeb93e9a68b039a4e9feef2b027ea26ea0a4e86b7a20d8dbc41e21",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0023.jpg",
+    "timestamp_seconds": 1082.1,
+    "reason": "scene-change",
+    "observation": "Local folder and distilled markdown file displayed together.",
+    "evidence_impact": "OBSERVED file-based portability.",
+    "sha256": "caa019c4f2c1fff62f0821d7f6af684b49e3596dbbf0e27b75058d02dd4406b5",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0024.jpg",
+    "timestamp_seconds": 1127.0,
+    "reason": "scene-change",
+    "observation": "Context library lists outputs with word counts (2,151; 3,242; 5,878; 2,933).",
+    "evidence_impact": "OBSERVED compression-output sizes, not quality proof.",
+    "sha256": "6ae77fe1160000048df68e0b58ac87f50f5587873830bc59e10bd8401072cb2e",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0025.jpg",
+    "timestamp_seconds": 1127.1,
+    "reason": "scene-change",
+    "observation": "Same context library and Claude extraction task.",
+    "evidence_impact": "Corroborates frame_0024.",
+    "sha256": "57aa678b904a68210ccd4e35031c0bfccbc72dc7998f064866eec5722fc708af",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0026.jpg",
+    "timestamp_seconds": 1165.0,
+    "reason": "scene-change",
+    "observation": "Distilled context result for Nathan interview shows 2,151 words.",
+    "evidence_impact": "OBSERVED concrete compressed-output size.",
+    "sha256": "660098897d5782deb09302cca8791f9ed6035f14bfb4d8de16f31cc202cb4d58",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0027.jpg",
+    "timestamp_seconds": 1168.0,
+    "reason": "scene-change",
+    "observation": "Distill landing/result interface.",
+    "evidence_impact": "No new evidence beyond frame_0026.",
+    "sha256": "01d20d2b2e8d9da177d36a055b0634726fdafee1533b77ff63e29f3de247241f",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0028.jpg",
+    "timestamp_seconds": 1171.0,
+    "reason": "scene-change",
+    "observation": "Distill landing/result interface.",
+    "evidence_impact": "No new evidence beyond frame_0026.",
+    "sha256": "2e2f93860f2eca590bb9fe49e0858e8b3c431a0aad160cc1483a96981a0a8fc0",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0029.jpg",
+    "timestamp_seconds": 1243.0,
+    "reason": "scene-change",
+    "observation": "Gotch Digital site beside the project surface.",
+    "evidence_impact": "Marks shift from brand pack to performance-data ingestion.",
+    "sha256": "6463fa6bd216f92da9d11c4247e4422668371d2217d732147143cc65c9ed5351",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0030.jpg",
+    "timestamp_seconds": 1307.0,
+    "reason": "scene-change",
+    "observation": "Google Search Console 16-month performance view beside project.",
+    "evidence_impact": "OBSERVED import-first GSC workflow and long date-range selection.",
+    "sha256": "ed46d2a821db68fe9b7a1e5a910bda3a5f6dc7e6b14d9f1c7a73ba9fac28b265",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0011.jpg",
+    "timestamp_seconds": 1307.1,
+    "reason": "transcript-cue",
+    "observation": "Same GSC 16-month view with top queries.",
+    "evidence_impact": "Pins GSC export instructions to the visual interface.",
+    "sha256": "1fd4345e05be3f106cabd48c55a7c58d43003c704561dcdd916023e371114776",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0031.jpg",
+    "timestamp_seconds": 1356.0,
+    "reason": "scene-change",
+    "observation": "Google Cloud site beside project.",
+    "evidence_impact": "OBSERVED API/cloud alternative referenced by transcript; setup details not shown.",
+    "sha256": "e0586faa3eec1d39d1f9e3d49d2579ab3012fc18d3342bfbc70b4fb943147992",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0032.jpg",
+    "timestamp_seconds": 1381.0,
+    "reason": "scene-change",
+    "observation": "Page-filtered GSC view showing 4.92K impressions and query rows.",
+    "evidence_impact": "OBSERVED per-page export workaround; displayed metrics are project-specific and not outcome proof.",
+    "sha256": "88a3153573de94a5f9c00dd48b4c2362fd9603087e1a6db6cd0c6e1708338fdd",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0033.jpg",
+    "timestamp_seconds": 1397.0,
+    "reason": "scene-change",
+    "observation": "Desktop window arrangement with project, GSC, and local folder.",
+    "evidence_impact": "OBSERVED manual import workflow.",
+    "sha256": "92c999452fdbb7bbbf93481c9673f3dcefe0259e51bdbde1a939d2b084617259",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0012.jpg",
+    "timestamp_seconds": 1398.0,
+    "reason": "transcript-cue",
+    "observation": "Local folder contains dated GSC export plus brand, entity, and expert files.",
+    "evidence_impact": "OBSERVED naming/organization convention; directly supports portable project-pack design.",
+    "sha256": "94671f48f43d3e9e395939d2a322cb07b872b3d414852bf197dbd837edba475c",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0034.jpg",
+    "timestamp_seconds": 1421.0,
+    "reason": "scene-change",
+    "observation": "Project and page-filtered GSC view.",
+    "evidence_impact": "Corroborates the data-analysis pairing.",
+    "sha256": "c916e6bc1cb2982578ab67f892de4d85b891e84a9de66ef9739dfb96d8902cae",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0035.jpg",
+    "timestamp_seconds": 1421.1,
+    "reason": "scene-change",
+    "observation": "Project and page-filtered GSC view.",
+    "evidence_impact": "No new evidence beyond frame_0034.",
+    "sha256": "120db5085a08b4461f37bc51ed291282a0e1422c4f2e9d8fb096a258402c9639",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0013.jpg",
+    "timestamp_seconds": 1573.0,
+    "reason": "transcript-cue",
+    "observation": "Google results for best SEO consultants right now.",
+    "evidence_impact": "OBSERVED SERP-sampling start for competitor swipe file.",
+    "sha256": "02b411da681789542acf5c150f97b190fb5d06d45c59e348f259f59117200412",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0036.jpg",
+    "timestamp_seconds": 1638.0,
+    "reason": "scene-change",
+    "observation": "Competitor listicle with scoring factors, reviews, and agency entries.",
+    "evidence_impact": "OBSERVED structural-feature analysis target; does not prove the page's claims.",
+    "sha256": "fec6da6c6491aab2aa4e7264084134008536e2bd16f1b680bb9a3df31ecad3a6",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0014.jpg",
+    "timestamp_seconds": 1672.0,
+    "reason": "transcript-cue",
+    "observation": "First Page Sage top-SEO-agencies listicle with table and stated methodology weights.",
+    "evidence_impact": "OBSERVED example of a rich-data listicle structure.",
+    "sha256": "39be96d7cd31e1819ff080e5b20ed332a5ac9c928fd105a6af4177fd4a7287a5",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0015.jpg",
+    "timestamp_seconds": 1774.0,
+    "reason": "transcript-cue",
+    "observation": "Reverse Engineer Competitor Content Assets prompt with page-type classifications.",
+    "evidence_impact": "OBSERVED prompt structure and intent-specific template extraction.",
+    "sha256": "b769377e6d5ce33ee9c79f0116e970cc61c4fbb8626421388b6b3b526ef0b4d7",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0016.jpg",
+    "timestamp_seconds": 1870.0,
+    "reason": "transcript-cue",
+    "observation": "Same reverse-engineering prompt while Claude produces a 22,486-character output.",
+    "evidence_impact": "OBSERVED large output; not evidence of quality or performance.",
+    "sha256": "7c474515e91594827d3a2bcc79ea37064af4f255c600e4af7507bf6e62b330b0",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0037.jpg",
+    "timestamp_seconds": 2035.0,
+    "reason": "scene-change",
+    "observation": "Desktop with competitor prompt, analysis, project, and design windows.",
+    "evidence_impact": "OBSERVED multi-artifact manual workflow; details mostly unreadable.",
+    "sha256": "abf903125f70c395c8cfac42797a6bce99c85194a3382af45b8c0a2257444099",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0017.jpg",
+    "timestamp_seconds": 2035.1,
+    "reason": "transcript-cue",
+    "observation": "Same multi-window desktop workflow.",
+    "evidence_impact": "No new evidence beyond frame_0037.",
+    "sha256": "d017d5a55fc56dbb7c9b4adc6055a4c2d94f5895c2626bc837dd116acb0d7337",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0038.jpg",
+    "timestamp_seconds": 2037.0,
+    "reason": "scene-change",
+    "observation": "Rankability client dashboard with research plan, content draft, GBP audit, and review tasks.",
+    "evidence_impact": "OBSERVED productized task-state surface; claimed automation effects remain UNCONFIRMED.",
+    "sha256": "2ee23c1a598b9d842baef4bbc11f4643ca65fc2bea59b9be5f0c3f156790a782",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0018.jpg",
+    "timestamp_seconds": 2056.0,
+    "reason": "transcript-cue",
+    "observation": "Rankability add-project form requesting website, brand name, and optional location.",
+    "evidence_impact": "OBSERVED minimum-input onboarding flow.",
+    "sha256": "388428d4c3d5541f94cfe22eaad737a126d129091fa792d89222d4fe42a53aeb",
+    "personally_inspected": true
+  },
+  {
+    "frame": "cue_0019.jpg",
+    "timestamp_seconds": 2105.0,
+    "reason": "transcript-cue",
+    "observation": "Rankability client dashboard with weekly-plan prompt and task history.",
+    "evidence_impact": "OBSERVED persistent client context/task ledger surface.",
+    "sha256": "5f73db28b78a72ba1843a3b5068206d1988d22a784cdf13e3335f5f6c43f156a",
+    "personally_inspected": true
+  },
+  {
+    "frame": "frame_0039.jpg",
+    "timestamp_seconds": 2246.0,
+    "reason": "scene-change",
+    "observation": "Blurred closing view of a generated weekly plan.",
+    "evidence_impact": "No reliable new evidence because text is unreadable.",
+    "sha256": "f7e1cf10b8cb368115cff42a4512f9d9e398cbdccfd0d48d0267e53f992b9754",
+    "personally_inspected": true
+  }
+]

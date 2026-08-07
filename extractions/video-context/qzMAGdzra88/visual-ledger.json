@@ -1,0 +1,87 @@
+{
+  "video_id": "qzMAGdzra88",
+  "capture_policy": "cue-based; screen demonstrations only",
+  "inspection_status": "all_extracted_frames_inspected",
+  "frames": [
+    {
+      "file": "frames/cue_0000.jpg",
+      "timestamp": "00:01:08",
+      "inspected": true,
+      "observed": "Canva slide asks what it means to rank everywhere and contains a small SERP screenshot; an adjacent project checklist identifies current performance, on-page, intent, topic coverage, site quality, strategy, and owned/earned work.",
+      "evidence_value": "Confirms the creator's multi-component framing.",
+      "limitation": "The embedded SERP is too small to validate individual result claims."
+    },
+    {
+      "file": "frames/cue_0001.jpg",
+      "timestamp": "00:02:24",
+      "inspected": true,
+      "observed": "Benchmark snapshot shows a search-performance index of zero, separate traditional/AI/video/citation dimensions, and a competitor list beside the example roofing page.",
+      "evidence_value": "Confirms a pre-intervention cross-surface baseline interface.",
+      "limitation": "The proprietary index and result completeness are not independently validated."
+    },
+    {
+      "file": "frames/cue_0002.jpg",
+      "timestamp": "00:06:23",
+      "inspected": true,
+      "observed": "The example page headline combines Chesterfield homes, retail centers, and commercial properties while the benchmark remains visible.",
+      "evidence_value": "Confirms the mixed-intent page used in the conversion critique.",
+      "limitation": "The frame does not prove that splitting the page will improve either ranking or conversion."
+    },
+    {
+      "file": "frames/cue_0003.jpg",
+      "timestamp": "00:11:15",
+      "inspected": true,
+      "observed": "Content editor shows a score of 17 and covered/unused topic terms beside the roofing page copy.",
+      "evidence_value": "Confirms the competitor/topic-coverage diagnostic shown.",
+      "limitation": "The score and term recommendations are proprietary proxies, not outcome evidence."
+    },
+    {
+      "file": "frames/cue_0004.jpg",
+      "timestamp": "00:14:52",
+      "inspected": true,
+      "observed": "Compare-pages overlay highlights shared passages and displays 64% and 83% similarity for two location-page comparisons.",
+      "evidence_value": "Confirms the specific templated-location-page evidence behind the pruning recommendation.",
+      "limitation": "The similarity method and corpus-wide distribution are not shown."
+    },
+    {
+      "file": "frames/cue_0005.jpg",
+      "timestamp": "00:17:05",
+      "inspected": true,
+      "observed": "Proposed service copy includes a trust bar, services overview, and reasons to choose, shown beside the existing generic page and CTAs.",
+      "evidence_value": "Confirms the conversion-wireframe components and before/after direction.",
+      "limitation": "This is a draft comparison with no user-test or conversion data."
+    },
+    {
+      "file": "frames/cue_0006.jpg",
+      "timestamp": "00:25:05",
+      "inspected": true,
+      "observed": "An AI-assisted prototype displays a localized hero, trust signals, CTA, and service sections; the adjacent pane contains generation/editing instructions.",
+      "evidence_value": "Confirms the demonstrated prototype-production workflow.",
+      "limitation": "The cue occurs near topic-map narration but visually shows the page prototype; it does not verify topic-map counts."
+    },
+    {
+      "file": "frames/cue_0007.jpg",
+      "timestamp": "00:29:35",
+      "inspected": true,
+      "observed": "The rank-everywhere Canva slide reappears with the small SERP screenshot and the project checklist.",
+      "evidence_value": "Confirms the portfolio framing remains the organizing objective.",
+      "limitation": "The visual does not show the citation-extraction spreadsheet described in the narration."
+    },
+    {
+      "file": "frames/cue_0008.jpg",
+      "timestamp": "00:25:50",
+      "inspected": true,
+      "observed": "UTZ Roofing topic map places Roofer in Chesterfield, MO above tiers for money pages, storm/insurance, systems/materials, components/problems, adjacent exterior, and trust/conversion.",
+      "evidence_value": "Confirms the pillar/support taxonomy and intent-gap markers.",
+      "limitation": "The map is a proposed plan; its page count, categories, and outcomes are not validated."
+    },
+    {
+      "file": "frames/cue_0009.jpg",
+      "timestamp": "00:30:10",
+      "inspected": true,
+      "observed": "The same UTZ Roofing topic map remains on screen while the checklist highlights owned/earned work.",
+      "evidence_value": "Confirms continuity between topic planning and the off-site phase.",
+      "limitation": "This is a duplicate topic-map view and does not visually verify recurring citation sources."
+    }
+  ]
+}
