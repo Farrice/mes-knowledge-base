@@ -119,6 +119,7 @@
 | `eugene-teo-training` | **Eugene Teo — Minimalist Strength Training** | strength, mobility, endurance) in under 2 hours a week by removing redundancy | 3 | 0 |
 | `evan-spiegel-distribution-architecture` | **evan-spiegel-distribution-architecture** | distribution-first product strategy × defensible moats × founder evolution, methodology covers defensible distribution moats, "make don't think" velocity | 13 | 0 |
 | `expert-assembly-os` | **Expert Assembly OS** | hybrid expert panel system — roster selection + bespoke persona synthesis + m... | 2 | 0 |
+| `expert-practice-os` | **expert-practice-os** | expert-practice-routing, cold conductor that validates a practitioner or protocol packet, classifies proof stage and risk | 1 | 0 |
 | `extract-mastery` | **MES 3.0 — Mastery Extraction & Expert Replication** | forges it into copy-paste-deployable crown jewel prompts, and designs the pathway to surpass the original expert within 30 days, mastery extraction & expert replication | 3 | 0 |
 | `fantastic-posters` | **fantastic-posters** | 0 + kling v3 pro, image-to-video bridge — any poster output becomes a video input frame | 14 | 0 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | for memoir / narrative-personal work use lamott-craft, writing mastery | 5 | 36 |
@@ -193,6 +194,7 @@
 | `knowledge-architecture-studio` | **Knowledge Architecture Studio — Expertise Extraction & Agent Encapsulation** | structure it into a progressive mastery pathway, not a lookup table | 3 | 0 |
 | `kobi-brown-educational-virality` | **kobi-brown-educational-virality** | educational virality, educator content, coach content | 10 | 9 |
 | `kunal-shah-consumer-psychology` | **kunal-shah-consumer-psychology** | rivers-vs-dams motivation mapping, trust-concentration analysis for low-trust markets, and status/shame/pride dynamics as the hidden engine of consumer behavior | 3 | 0 |
+| `kyle-milligan-copy-chief` | **kyle-milligan-copy-chief** | direct-response copy chiefing, opening architecture, swipe research | 8 | 0 |
 | `lamott-allen-really-real-writing` | **lamott-allen-really-real-writing** | writing craft x reader trust x emotional truth x plain prose, clarity, reader trust | 12 | 0 |
 | `lamott-craft` | **lamott-craft** | writing craft × creative process × relational methodology, manages the writer's relationships with inner critic, material | 12 | 0 |
 | `lance-yichao-context-engineering` | **lance-yichao-context-engineering** | sandbox configurations, security guardrails, reversible compaction | 3 | 17 |
@@ -367,7 +369,7 @@
 | `story-bible-builder` | **story-bible-builder** | output is a ready-to-install skill | 4 | 0 |
 | `story-compass` | **story-compass** | story diagnosis × narrative architecture × pre-creation compass, compresses any idea into one gps sentence "i wanted ___, but ___, until ___, " binary story-vs-topic test (all three present = story | 13 | 0 |
 | `strength-conditioning-os` | **strength-conditioning-os** | conductor hub for the strength-&-conditioning / fitness coaching package, the coaching conductor | 2 | 0 |
-| `sunny-lenarduzzi-youtube` | **sunny-lenarduzzi-youtube** | hyper-targeted audience, the code framework (client, differentiation | 3 | 0 |
+| `sunny-lenarduzzi-youtube` | **sunny-lenarduzzi-youtube** | hyper-targeted audience, the code framework (client, differentiation | 4 | 0 |
 | `supercomputer` | **supercomputer** | reference architecture documented in `skills/supercomputer/genius | 4 | 0 |
 | `susan-orlean-narrative-nonfiction` | **Susan Orlean — Narrative Nonfiction & The Telling Subject** | grounded in her how i write interview with david perell, the three hard-walled phases (research, then thinking | 12 | 0 |
 | `swarm-commander` | **swarm-commander** | file-based coordination, and unified synthesis | 0 | 4 |
