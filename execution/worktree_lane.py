@@ -542,10 +542,15 @@ def cmd_merge(args) -> int:
             _teardown_lane(main, lane, branch)
         return 0
 
-    # 2 GATE
+    # 2 GATE — tracked modifications only: untracked files (telemetry, scratch)
+    # can't be swept into a merge commit; a path collision with a branch file
+    # surfaces as "merge refused" below and parks anyway.
     rc, out, _ = _git(main, "status", "--porcelain")
-    if out.strip():
-        return _park(main, lane, branch, "main tree dirty — first driver owns it")
+    tracked_dirty = [l for l in out.splitlines() if l.strip() and not l.startswith("??")]
+    if tracked_dirty:
+        return _park(main, lane, branch,
+                     f"main tree dirty ({len(tracked_dirty)} tracked change(s)) — "
+                     f"first driver owns it")
     writer = fresh_main_writer(main)
     if writer:
         return _park(main, lane, branch, f"main has a fresh writer: {writer}")
