@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 19,
+            "total_routings": 24,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,12 +462,13 @@
                 "Content": 1,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 2,
+                "System": 4,
                 "supercomputer": 1,
                 "Creative": 1,
-                "Strategy": 2,
+                "Strategy": 4,
                 "luke-iha-copy-blocks": 1,
-                "adam-sandler-second-brain-gtm": 1
+                "adam-sandler-second-brain-gtm": 1,
+                "Extraction": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
@@ -484,10 +485,12 @@
                 "doc-coauthoring": 1,
                 "luke-iha-copy-blocks": 1,
                 "jonathan-franzen-storytelling": 1,
-                "adam-sandler-second-brain-gtm": 1
+                "adam-sandler-second-brain-gtm": 1,
+                "jason-fladlien-marketing": 1,
+                "jason-fladlien": 4
             },
             "tier_counts": {
-                "0": 19,
+                "0": 24,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -496,9 +499,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 10,
-                "finalize-auto": 9
+                "finalize-auto": 14
             },
-            "ensemble_count": 4
+            "ensemble_count": 5
         }
     },
     "feedback_log": [],
@@ -826,6 +829,91 @@
             "tier_loaded": 0,
             "mode": "finalize-auto",
             "workflow_used": "angle-map-listening-engine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260802_210256_c9d3",
+            "timestamp": "2026-08-02T21:02:56.732248+00:00",
+            "session_id": "",
+            "request_summary": "Jason Fladlien Offer TERMS connected skill-system expansion with canonical 18-lever reference, governed public and internal workflows, Revenue Offer Agent ownership, source receipts, blind behavior su",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "jason-fladlien-marketing"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "source-to-skill-system",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_013350_3828",
+            "timestamp": "2026-08-03T01:33:50.401637+00:00",
+            "session_id": "",
+            "request_summary": "Angle Map Offer TERMS rebuild packet: HOLD current activation, bounded three-decision PATCH after live rails and contract repair",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fladlien-terms",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_013419_3857",
+            "timestamp": "2026-08-03T01:34:19.266016+00:00",
+            "session_id": "",
+            "request_summary": "Angle Map Offer TERMS rebuild packet: primary FAT-A blocker, current HOLD, three-decision post-resolution PATCH",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fladlien-terms",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_020544_01db",
+            "timestamp": "2026-08-03T02:05:44.633838+00:00",
+            "session_id": "",
+            "request_summary": "Approved local Angle Map TERMS patch: ordered readiness before payment, objective make-right, Ready-to-Start Receipt, and confidential-input procedure",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fladlien-terms",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260803_020606_ed3c",
+            "timestamp": "2026-08-03T02:06:06.263481+00:00",
+            "session_id": "",
+            "request_summary": "Approved local Angle Map TERMS patch: readiness before payment, objective make-right, Ready-to-Start Receipt, and confidential-input procedure",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fladlien-terms",
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null

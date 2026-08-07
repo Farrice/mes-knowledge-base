@@ -660,3 +660,8 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-02 05:00]` **lint** | Lint scan — 47 issues (23 errors, 12 warnings) — Files scanned: 782
 - `[2026-08-02 05:00]` **compile** | Full compilation — 782 files, 2,947,685 words, 47 lint issues
 - `[2026-08-02 06:03]` **finalize** | Angle Map Listening Brief 2026-08-02 (Sunday education chapter): evidence-resolution collapse angle, | general | Oren Operational Systems — composite:6.67 status:Needs Improvement
+- `[2026-08-02 14:02]` **finalize** | Jason Fladlien Offer TERMS connected skill-system expansion with canonical 18-lever reference, gover | general | jason-fladlien-marketing — composite:8.67 status:Keep
+- `[2026-08-02 18:33]` **finalize** | Angle Map Offer TERMS rebuild packet: HOLD current activation, bounded three-decision PATCH after li | general | jason-fladlien — composite:7.67 status:Needs Improvement
+- `[2026-08-02 18:34]` **finalize** | Angle Map Offer TERMS rebuild packet: primary FAT-A blocker, current HOLD, three-decision post-resol | general | jason-fladlien — composite:9.0 status:Keep
+- `[2026-08-02 19:05]` **finalize** | Approved local Angle Map TERMS patch: ordered readiness before payment, objective make-right, Ready- | general | jason-fladlien — composite:9.0 status:Keep
+- `[2026-08-02 19:06]` **finalize** | Approved local Angle Map TERMS patch: readiness before payment, objective make-right, Ready-to-Start | general | jason-fladlien — composite:9.0 status:Keep

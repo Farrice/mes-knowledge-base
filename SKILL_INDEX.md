@@ -143,7 +143,7 @@
 | `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
 | `james-i-bond-brain-glue` | **James I. Bond — Brain Glue** | deploy brain glue stickiness across offers, sales copy, social content | 12 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
-| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 36 | 26 |
+| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, fear-first conversion, incomparable offer engineering | 38 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 14 | 0 |

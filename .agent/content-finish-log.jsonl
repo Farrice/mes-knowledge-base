@@ -394,3 +394,12 @@
 {"ts": "2026-08-02T12:57:31Z", "label": "education longform 2026-08-02", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["A 577-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-02T12:58:42Z", "label": "education longform 2026-08-02", "verdict": "WARN", "fails": [], "warns": ["A 377-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-02T12:58:57Z", "label": "flagship post 2026-08-02", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-03T01:28:01Z", "label": "Angle Map TERMS packet", "verdict": "FAIL", "fails": ["3 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-03T01:29:09Z", "label": "Angle Map TERMS packet", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-03T01:30:13Z", "label": "Angle Map TERMS packet", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-03T01:32:24Z", "label": "Angle Map TERMS packet", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-03T01:33:31Z", "label": "Angle Map TERMS packet", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-03T02:03:38Z", "label": "Angle Map TERMS patch", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-03T02:03:38Z", "label": "Angle Map TERMS patch", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('what \u2026 what \u2026 what') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-03T02:04:47Z", "label": "Angle Map TERMS patch", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-03T02:04:47Z", "label": "Angle Map TERMS patch", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}

@@ -3203,8 +3203,36 @@
         "gaming_flag": false
       },
       "notes": "Sunday education chapter run. Winning angle: science-backed asserted at ingredient level while evidence/regulators/buyers operate 1-4 levels lower; same-day primary receipt from an evidence-site operator self-audit (277 of 475 zero-scored pairings had real RCTs). Creatine SATURATED and excluded. Social listening LIVE (4 Apify calls, 0.042 USD). Long-form initially FAILED content_finish_gate on a reveal pattern and WARNED on prose_classifier parallel structure; both fixed and re-checked CLEAN. | Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260802_183350",
+      "timestamp": "2026-08-02T18:33:50.403805",
+      "schema_version": "v3",
+      "component": "jason-fladlien-marketing",
+      "expert": "jason-fladlien",
+      "workflow": "fladlien-terms",
+      "quality": {
+        "composite": 7.67,
+        "intent_alignment": 9.0,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 9.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Official/local decision artifact only; protected primary preserved; current HOLD and post-resolution PATCH separated; platform: codex | Verification: PASS | Receipt: VERIFIED: 242/242 TERMS structural and integrity checks; VERIFIED: 18 lever states and exactly three changes; VERIFIED: independent final artifact review PASS; UNCONFIRMED: buyer demand and market performance remain 0 sent, 0 held, 0 sold, 0 collected | Anchor: Anchor 9 \u2014 Exemplary"
     }
   ],
-  "total_cases": 113,
-  "last_updated": "2026-08-02T06:02:59.978235"
+  "total_cases": 114,
+  "last_updated": "2026-08-02T18:33:50.404919"
 }

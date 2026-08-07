@@ -488,3 +488,27 @@ Emotionally green-lighting the Zig Ziglar webinar because Ziglar mattered to him
 #### Tranche 3 completion (2026-07-23) — the full 55-pattern library acquired
 
 Fladlien sent the complete "Persuasive Patterns" document via Instagram DM (public Notion site, scraped in full). Correction to the video's own numbers: the live database holds **56 patterns across 10 categories** — Building Block, Commitment, Constraints, Contrast, Elicitation, Future Pacing, Identity, Linking, Reframe, Resource (the video taught 15 patterns from 5 of these). Each pattern ships with a structure template, examples, and multi-section "Why It Works" mechanics (~28k words total). Full library: `references/pattern-bank/` (INDEX.md + one file per category) — deployed via `/fladlien-pattern-bank`, which now REQUIRES fire-time reads of the relevant category files. Notable mechanics the video never covered: repetition familiarity for embedded commands ("the real power comes from repetition — decide, decide, decide"), negation processing ("the mind must represent the idea before it can process the negation"), and the Minimum Acceptable Outcome structure ("If this didn't {extraordinary outcomes} and all it did was {modest outcome}, would that still be worth it?" — several big claims embedded inside a reasonable question).
+
+---
+
+### Watched-source expansion: tranche 4 (2026-08-02)
+
+#### 45. TERMS Buyer-Burden Architecture: Observed Source Mechanics
+
+- **Observed mechanics**: Evaluate an offer by the life reconfiguration it demands, not only by deliverables or price. Audit **Time / RAW** (Recover, Available, Win), **Effort / FAT** (Feel, Act, Thinking), **Routine / HOP** (Habit, Order, Process), **Money / FAVOR** (Free, Anchor, Value, Outcome, Resistance), and **Status / RISE** (Relative, Internal, Social, External).
+- **Source**: `JF-TERMS-2026-08-02`, Jason Fladlien, “Million Dollar Offers (I’ve done this 32 times),” YouTube `cEEO2TPpL0U`, native captions plus notebook-frame verification, 00:08–52:34. The title says 32; Jason’s spoken opening says 26 seven-figure offers. Both are source-reported and unverified. Jason also says 19 components, while the written and spoken formulas total 18; no nineteenth component is inferred.
+- **Deployment Context**: Offer diagnosis after game viability and before package copy or acquisition; personal offers, client offers, and internal initiatives. Load the complete runtime ontology from `references/offer-terms.md` only when this capability fires.
+
+#### Antigravity Runtime Controls (Not Jason Claims)
+
+- Assess all 18 levers before selecting one primary burden.
+- Change no more than three offer decisions in one run.
+- Reject a change that shifts more burden into another term than it removes.
+- Keep source status separate from the current offer’s evidence state.
+- Keep usage, observed outcome, voluntary sharing, permission, external reuse, and market proof separate.
+- **Success metric**: One primary-burden verdict, no more than three traceable changes, a cross-term check, and separate component-validity, portability, and market-proof states.
+
+**Observed insight: Adoption and visible proof can be designed into the offer**
+
+- **Source mechanics**: Jason separately teaches decision, tangible, and ideal wins; habit, order, and context; positive-intent check-ins; and earned visible progress or screenshot moments. These can shape Time, Routine, and Status before purchase.
+- **Antigravity adaptation**: Treat those as independent conditional modules. A screenshot becomes reusable proof only after separate usage, observed outcome, voluntary sharing, named permission, and external-reuse gates. Invoke the internal `offer-adoption-and-proof-loop` only for modules supported by a named trigger and count its accepted changes inside the public three-change ceiling.

@@ -1,6 +1,6 @@
 ---
 name: jason-fladlien-marketing
-description: Deploys Jason Fladlien's high-status persuasion physics — Success by Subtraction (remove the one weight, don't add ten tactics), Fear-First Conversion (get them to run out of reasons to say no), Incomparable Offer Engineering (don't make a better offer — make an incomparable one), and Radical Candor as Scarcity. 36 workflows across Tier 1-8 covering authority content, inertia-breaker presentations, identity-based offers, fear-mapped copy, indirect communication, spoken close architecture, one-to-many webinar campaigns, quantity-leap product creation, game selection, five-component offer anatomy with Setup-Payoff-Tie-Down scripting, the 15-pattern conversational persuasion taxonomy, point-level teaching architecture (4×4 grid + 50/45/5 SPT ratios), tie-down density audits, the Best-90-Minutes diagnostic with Two Agendas framing, and set-and-setting outcome reframes. Use when building high-ticket sales presentations, designing offer stacks that resist comparison, writing fear-first conversion copy, structuring webinar / VSL closes, dissolving prospect inertia, or when generic persuasion templates aren't converting. Trigger proactively when the user mentions "Guru's Guru" tier work, $5K+ offers, sales-presentation polish, or compares their offer favorably to competitors (the "comparable offer" trap is exactly what Fladlien dissolves).
+description: Deploys Jason Fladlien's offer design and persuasion practice — Success by Subtraction, Fear-First Conversion, Incomparable Offer Engineering, Radical Candor as Scarcity, and source-traceable TERMS diagnosis across Time, Effort, Routine, Money, and Status. 38 workflow files across Tier 1-8 (37 public plus one internal adoption/proof component) cover offer burden, game selection, five-component offer anatomy, authority content, inertia-breaker presentations, identity-based offers, spoken closes, webinar campaigns, conversational patterns, point architecture, and tie-down audits. Use when shaping a viable offer before copy or acquisition, reducing buyer adoption burden, designing high-ticket sales presentations, building stacks that resist comparison, or diagnosing why a valuable offer still feels too slow, difficult, disruptive, expensive, or identity-threatening.
 expert: Jason Fladlien
 domain: High-status marketing × persuasion physics × incomparable offer engineering
 ---
@@ -12,11 +12,12 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 ## Core Philosophy
 - **Success by Subtraction**: Remove the one weight, don't add ten tactics
 - **Fear-First Conversion**: Get them to run out of reasons to say no, not decide to say yes
+- **TERMS Buyer-Burden Architecture**: Diagnose Time, Effort, Routine, Money, and Status before adding persuasion
 - **Incomparable Offer Engineering**: Don't make a better offer — make an incomparable one
 - **Indirect Communication Mastery**: At the highest levels, get them to sell themselves
 - **Radical Candor as Scarcity**: Honesty is the rarest differentiator in a manipulative market
 
-## Workflows (36)
+## Workflows (38 files: 37 public + 1 internal)
 
 ### Tier 1 — Foundation (7)
 | Workflow | Command | Produces |
@@ -72,10 +73,12 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 | One-Sitting Product Machine | `/fladlien-one-sitting` | Quantity-Leap Info-Product Plan (Four Multipliers + inevitable-success cadence + e-class ladder) |
 | Game Selection & Advantage Audit | `/fladlien-game-selection` | Play/Pass Verdict + Squint-Test Advantage + Brown Paper Bag Beta Design |
 
-### Tier 7 — Offer Anatomy (1)
+### Tier 7 — Offer Architecture and Buyer Burden (3 files: 2 public + 1 internal)
 | Workflow | Command | Produces |
 |---------|---------|----------|
 | Offer Anatomy & Tie-Down Architecture | `/fladlien-offer-anatomy` | Five-Component Offer Blueprint (Get/Cost/Bonus/Risk/Scarcity) + Setup-Payoff-Tie-Down Scripts |
+| Offer TERMS Diagnostic and Rebuild | `/fladlien-terms` | 18-Lever Evidence Map + One Primary Burden + Maximum-Three-Change Offer TERMS Rebuild Packet |
+| Offer Adoption and Proof Loop | Internal via `/fladlien-terms` | Three-Win Ladder + Routine Hinge + Positive-Intent Check-In + Permissioned Proof Loop |
 
 ### Tier 8 — Conversational Patterns & Point Architecture (5, 2026-07-19 watched-source expansion)
 | Workflow | Command | Produces |
@@ -87,16 +90,16 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 | Set & Setting Outcome Reframe | `/fladlien-set-setting` | Solve-for reframe + ideal-vs-realistic dual frame + least-change milestone ladder |
 
 ## Expert Context
-- **genius.md**: Full extraction intelligence — 15 genius patterns + 20 patterns from claude.ai export enrichment (2026-07-01 tranche 1: webinar campaign physics, quantity-leap product formula, game selection; 2026-07-10 tranche 2: compound skill stacking, crowd-inversion market arbitrage, absurdity amplification, heartbeat-of-the-market intelligence, format multiplication ladder; 2026-07-19 tranche 3 from watched sources: Two Agendas frame, local-transformation-global-promise, 4×4 grid, point-level SPT 50/45/5, tie-down density, set & setting, identity-by-collapse, best-90-minutes, whale-door assertion), 23 hidden knowledge items, 7 exemplars + 2 anti-exemplars, 11 signature moves, 10-criterion quality rubric
-- **Source Material**: 2 transcript extractions, interview with extended analysis; enriched 2026-07-01 from 12 claude.ai export conversations (One-to-Many interviews, Product eClass 5.0, Project Mona Lisa/AI, NLP sales secrets, productivity panel); enriched 2026-07-10 from 12 additional claude.ai export conversations (offer architecture + info product secrets, 5 Key Components of a Killer Offer, Webinars Aren't Dead, NLP Sales Secrets, Turning Entrepreneurs into Millionaires, Harnessing Webinars for Video Marketing, One-to-Many author interview, Why Most Sales Happen After No); expanded 2026-07-19 from 2 WATCHED sources (his own "15 Persuasion Patterns" video, frames read, + the 2h21m Charlie Morgan "$250M Online" interview — tranche 3: patterns §36-44, reference corpus established); completed 2026-07-23 with his FULL "Persuasive Patterns" library (56 patterns / 10 categories, ~28k words, sent by Fladlien via Instagram DM) → `references/pattern-bank/` (INDEX + per-category files, fire-time loaded by `/fladlien-pattern-bank`)
-- **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing, indirect persuasion, conversational copy
+- **genius.md**: Full extraction intelligence — foundational and enriched patterns across persuasion, offer architecture, teaching, game selection, and watched-source expansions; tranche 4 adds TERMS Buyer-Burden Architecture and the adoption/proof-as-offer-term insight. Full 18-lever runtime depth remains cold in `references/offer-terms.md`.
+- **Source Material**: 2 transcript extractions and extended analysis; 2026-07-01 and 2026-07-10 claude.ai export tranches; 2026-07-19 watched persuasion-patterns and Charlie Morgan sources; the 2026-07-23 full Persuasive Patterns library; and the 2026-08-02 watched “Million Dollar Offers” source with native captions, notebook-frame review, hashes, segment index, visual ledger, and uncertainty report.
+- **Domain Coverage**: Offer burden and adoption, copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing, indirect persuasion, and conversational copy
 - **Prompt Library**: [references/prompts/](references/prompts/) — 26 crown-jewel practitioner prompts (mirrored in [references/_legacy-prompts/](references/_legacy-prompts/); searchable via `python3 execution/prompt_library.py search "<topic>"`)
 
 <!-- BEGIN:execution-prompts (generated by execution/wire_prompt_pointers.py — do not hand-edit; re-run to refresh) -->
 
 ## Execution Prompts (structure-pure v2)
 
-31 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+33 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Jason Fladlien — Agitation Without Anxiety** — `skills/jason-fladlien-marketing/references/prompts-v2/agitation-without-anxiety.md`
 - **Jason Fladlien — Best 90 Minutes Blueprint** — `skills/jason-fladlien-marketing/references/prompts-v2/best-90-minutes-blueprint.md`
@@ -113,6 +116,8 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 - **Jason Fladlien — Limiting Belief Destruction** — `skills/jason-fladlien-marketing/references/prompts-v2/limiting-belief-destruction.md`
 - **Jason Fladlien — Micro-Commitment Funnel Architecture** — `skills/jason-fladlien-marketing/references/prompts-v2/micro-commitment-funnel-architecture.md`
 - **Jason Fladlien — Objection Preemption Sequence** — `skills/jason-fladlien-marketing/references/prompts-v2/objection-preemption-sequence.md`
+- **Jason Fladlien — Offer Adoption and Proof Loop** — `skills/jason-fladlien-marketing/references/prompts-v2/offer-adoption-and-proof-loop.md`
+- **Jason Fladlien — Offer TERMS Diagnostic and Rebuild** — `skills/jason-fladlien-marketing/references/prompts-v2/offer-terms-diagnostic-and-rebuild.md`
 - **Jason Fladlien — Point Architecture (4×4 + Setup/Payoff/Tie-Down)** — `skills/jason-fladlien-marketing/references/prompts-v2/point-architecture-engine.md`
 - **Jason Fladlien — Procrastination-to-Action Email Sequence** — `skills/jason-fladlien-marketing/references/prompts-v2/procrastination-alchemy-emails.md`
 - **Jason Fladlien — Radical Candor Framing** — `skills/jason-fladlien-marketing/references/prompts-v2/radical-candor-framing.md`

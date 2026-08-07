@@ -1,0 +1,14 @@
+{
+  "title": "Offer TERMS Rebuild Packet: The Angle Map",
+  "artifact_type": "strategy",
+  "status": "local-decision-artifact",
+  "date": "2026-08-02",
+  "lane": "official-local",
+  "owner": "revenue-offer-agent",
+  "diagnostic": "fladlien-terms",
+  "decision": "HOLD",
+  "post_resolution_class": "PATCH",
+  "primary_burden": "FAT-A",
+  "change_count": 3,
+  "external_actions_authorized": false
+}

@@ -1,48 +1,48 @@
 # Knowledge Briefing
-*Generated: 2026-08-02 | 782 sources | 2,947,685 words*
+*Generated: 2026-08-02 | 785 sources | 2,798,176 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,295 words — `knowledge/index.md`
-- **log** (general) — 16,284 words — `knowledge/log.md`
-- **00-START-HERE** (strategy) — 483 words — `extractions/alex-copper-static-ads/00-START-HERE.md`
-- **amplification-report** (systems) — 1,003 words — `extractions/alex-copper-static-ads/amplification-report.md`
-- **architecture-checkpoint** (systems) — 315 words — `extractions/alex-copper-static-ads/architecture-checkpoint.md`
-- **behavior-proof-plan** (copywriting) — 429 words — `extractions/alex-copper-static-ads/behavior-proof-plan.md`
-- **deep-extraction** (screenwriting) — 1,349 words — `extractions/alex-copper-static-ads/deep-extraction.md`
-- **THE-ANGLE-MAP-READINESS** (copywriting) — 862 words — `extractions/alex-copper-static-ads/hardening/THE-ANGLE-MAP-READINESS.md`
-- **PRODUCTION-AND-AUDIT** (copywriting) — 783 words — `extractions/alex-copper-static-ads/production/morrow-sleep-concept-a/PRODUCTION-AND-AUDIT.md`
-- **STATIC-ACQUISITION-SPRINT** (copywriting) — 1,044 words — `extractions/alex-copper-static-ads/productization/STATIC-ACQUISITION-SPRINT.md`
+- **march_2026_briefing** (seo [jason-fladlien]) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
+- **assembly-rubric** (strategy [jason-fladlien]) — 209 words — `knowledge/assembly-rubric.md`
+- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy [jason-fladlien]) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [jason-fladlien]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
+- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content [jason-fladlien]) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
+- **council-rubric** (copywriting [jason-fladlien]) — 552 words — `knowledge/council-rubric.md`
+- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
+- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
+- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [jason-fladlien]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 275 | nick-saraev |
-| copywriting | 108 | luke-iha |
-| general | 94 | nick-saraev |
-| strategy | 85 | april-dunford |
-| screenwriting | 55 | connelly |
-| systems | 50 | nick-saraev |
-| brand | 50 | oren-john |
-| seo | 27 | nathan-gotch |
-| research | 27 | dai-media |
-| sales | 11 | dai-media |
+| content | 259 | jason-fladlien |
+| copywriting | 115 | jason-fladlien |
+| general | 99 | jason-fladlien |
+| strategy | 86 | jason-fladlien |
+| screenwriting | 54 | jason-fladlien |
+| brand | 52 | jason-fladlien |
+| systems | 51 | jason-fladlien |
+| research | 32 | jason-fladlien |
+| seo | 27 | jason-fladlien |
+| sales | 10 | jason-fladlien |
 
 ## Deepest Knowledge Sources (by word count)
 
-1. **video-context-ledger** (content) — 75,408 words — `extractions/video-context/3iR3kHxCwfo/video-context-ledger.md`
+1. **video-context-ledger** (content [jason-fladlien]) — 75,408 words — `extractions/video-context/3iR3kHxCwfo/video-context-ledger.md`
 1. **Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated** (brand [dai-media]) — 69,583 words — `knowledge/extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md`
-1. **Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average** (general) — 64,760 words — `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
-1. **Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out** (brand) — 63,227 words — `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
-1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2** (general) — 62,412 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
-1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers** (general) — 61,240 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`
-1. **Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them** (content) — 60,850 words — `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
+1. **Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average** (general [jason-fladlien]) — 64,760 words — `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
+1. **Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out** (brand [jason-fladlien]) — 63,227 words — `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
+1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2** (general [jason-fladlien]) — 62,412 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
+1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers** (general [jason-fladlien]) — 61,240 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`
+1. **Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them** (content [jason-fladlien]) — 60,850 words — `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
 1. **Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026** (copywriting [cardinal-mason]) — 60,673 words — `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md`
-1. **Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time** (general) — 59,927 words — `knowledge/extractions/inbox/Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time.md`
-1. **Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China** (general) — 58,573 words — `knowledge/extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China.md`
+1. **Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time** (general [jason-fladlien]) — 59,927 words — `knowledge/extractions/inbox/Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time.md`
+1. **Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China** (general [jason-fladlien]) — 58,573 words — `knowledge/extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China.md`
 
 ## Knowledge Gaps
 

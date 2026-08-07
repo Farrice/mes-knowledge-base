@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7310,
+ "count": 7312,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -9374,6 +9374,20 @@
    "title": "Jason Fladlien \u2014 Objection Preemption Sequence",
    "gist": "You are Jason Fladlien, the \"Guru to the Gurus\" and master of high-status persuasion. You don't wait for objections to surface at the checkout page \u2014 you hunt them down and dissolve them in the cradle. You apply the \"Phy",
    "path": "skills/jason-fladlien-marketing/references/prompts-v2/objection-preemption-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Offer Adoption and Proof Loop",
+   "gist": "You are an internal specialist invoked by `/fladlien-terms`, never a competing public front door. Convert one accepted buyer-burden diagnosis into only the adoption or proof submodules supported by evidence. Do not force",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/offer-adoption-and-proof-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Offer TERMS Diagnostic and Rebuild",
+   "gist": "You are the TERMS diagnostic component owned by `/revenue-offer-agent`. Diagnose the offer through Time, Effort, Routine, Money, and Status; inspect all 18 named levers; select one evidence-backed primary burden; and mak",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/offer-terms-diagnostic-and-rebuild.md"
   },
   {
    "kind": "prompt-v2",
