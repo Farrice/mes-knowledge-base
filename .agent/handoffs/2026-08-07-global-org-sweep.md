@@ -115,5 +115,9 @@ until I confirm the recommendations.
   inside it edits history. Detection is now depth-3; do not narrow it.
 - `_ledgers/` and `move-plan.md` are FROZEN in `project_relocate` — a move-plan is a
   before/after record and must not be rewritten to its own after-state.
-- The push of 25 commits to `origin/main` was still transferring at close
-  (~145 KiB/s). **Verify `git status -sb` shows 0 ahead before starting.**
+- Push COMPLETE and confirmed: `origin/main` == local `HEAD` (`6fb7dbde4`), verified
+  by `git ls-remote`, not by the cached ref. Nothing outstanding.
+- Four `git push --quiet` processes were found hung 1h+ at session start, launched by
+  scripts. A `--quiet` push that stalls emits no output and no error, so the session
+  that started it believes it pushed. If `origin` ever looks behind, check for hung
+  pushes before assuming a failure.
