@@ -479,6 +479,27 @@ def _is_generated(path: str) -> bool:
     return path in GENERATED_FILES or path.startswith(GENERATED_PREFIXES)
 
 
+STAMP_LINE = re.compile(
+    r"^\s*(\|\s*\*\*(Last Activated|Activation Count|30-Day Review|Last Updated|"
+    r"Last Run|Last Synced)|\*Last activated)")
+
+
+def _theirs_only_stamps(main: Path, path: str) -> bool:
+    """During a conflict: True when the branch side's ONLY changes vs the merge
+    base are activation-stamp rows (chain_runner bumps counters inside tracked
+    directive files, per tree — divergent-but-worthless). Taking ours keeps
+    main's newer stamps and loses nothing."""
+    rc1, base, _ = _git(main, "show", f":1:{path}")
+    rc3, theirs, _ = _git(main, "show", f":3:{path}")
+    if rc1 != 0 or rc3 != 0:
+        return False
+    import difflib
+    changed = [l[1:] for l in difflib.unified_diff(base.splitlines(), theirs.splitlines(), n=0)
+               if (l.startswith("+") or l.startswith("-"))
+               and not l.startswith(("+++", "---"))]
+    return bool(changed) and all(not l.strip() or STAMP_LINE.match(l) for l in changed)
+
+
 def _theirs_is_stale(main: Path, path: str, depth: int = 60) -> bool:
     """During a conflict: True when THEIR version of `path` (stage 3) matches
     some historical version of the file on main — the branch side is a stale
@@ -625,9 +646,9 @@ def cmd_merge(args) -> int:
                         _git(main, "add", "--", u)
                     else:
                         unresolved.append(u)
-                elif _theirs_is_stale(main, u):
-                    # Branch side's content is (an ancestor of) main history for
-                    # this path — provably holds no information main lacks.
+                elif _theirs_is_stale(main, u) or _theirs_only_stamps(main, u):
+                    # Branch side provably holds no information main lacks
+                    # (stale snapshot of main history, or stamp-only churn).
                     _git(main, "checkout", "--ours", "--", u)
                     _git(main, "add", "--", u)
                 else:
