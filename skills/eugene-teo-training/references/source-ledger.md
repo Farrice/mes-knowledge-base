@@ -15,7 +15,7 @@ pasted into claude.ai as the seed of an extraction conversation, then
 re-extracted 2-3 times in separate sessions. No `extractions/eugene-teo*`
 directory exists on disk (`ls extractions/ | grep -i teo` and `| grep -i
 eugene` both return nothing) — every source file lives inside the
-claude.ai-export archive, located via `_active/claude-export/index.json`
+claude.ai-export archive, located via `_active/harness/claude-export/index.json`
 (conversation index) and pulled from `_archive/claude-export-2026-07-01.tar.gz`
 (`claude-export/normalized/conversations/<id>.md`). All five files were opened
 and read in full this session; none were 0 bytes or unrecoverable.

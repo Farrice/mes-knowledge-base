@@ -29,7 +29,7 @@ Anchor → source file + location. Full labels/reasoning in
 - No raw transcript for "2 Hour Copywriting Masterclass" or "Emily June Wilcox"
   found on disk: `find . -iname "*emily*wilcox*" -o -iname "*2*hour*copywriting*"
   -o -iname "*NHB*" -o -iname "*FastForward*"` → empty (excluding worktrees).
-  `_active/claude-export/` index/harvest/triage JSON + `reports/harvest-roadmap.md`
+  `_active/harness/claude-export/` index/harvest/triage JSON + `reports/harvest-roadmap.md`
   grepped for "sultanic" → zero matches.
 - `agents/alen-sultanic/AGENT.md` — 2,737 bytes, read in full, no source date.
 - `research_outputs/ai_authority_architect_agents/alen_sultanic.md` — 9,504

@@ -125,7 +125,7 @@ def last_touched_git() -> tuple[dict[str, int], dict[str, int]]:
 
 
 def last_touched_fs(project_dir: Path) -> int | None:
-    """Fallback for git-invisible projects (today: only _active/claude-export,
+    """Fallback for git-invisible projects (today: only _active/harness/claude-export,
     which is gitignored). Prunes machine-noise dirs so the answer means
     'a human touched this', not 'npm ran'.
     """

@@ -10,7 +10,7 @@ the auditor-sampling verifier.
 - No `extractions/eugene-teo*` or `extractions/*teo*` directory exists on
   disk — confirmed via `ls extractions/ | grep -i teo` and `| grep -i
   eugene` (both empty).
-- Ground truth located via `_active/claude-export/index.json` →
+- Ground truth located via `_active/harness/claude-export/index.json` →
   `conversations` array, filtered for "teo"/"eugene" (case-insensitive) → 5
   matching conversation records.
 - Actual transcript text extracted from

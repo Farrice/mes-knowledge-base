@@ -12,7 +12,7 @@ _archive/claude-export-2026-07-01.tar.gz  (332,779,255 bytes)
   → claude-export/normalized/conversations/f8acd07a-a3a1-46f3-9ebd-8bd0c14aa31b.md  (154,769 bytes, extracted)
 ```
 
-Recovery command: `tar -xzf _archive/claude-export-2026-07-01.tar.gz -C <scratch> claude-export/normalized/conversations/531b46ea-...md claude-export/normalized/conversations/f8acd07a-...md`. File index confirming these paths belong to this skill: `_active/claude-export/harvest/gap3-input.json` (entry `"skill": "josh-kaufman-business-fundamentals", "agent": "josh-kaufman"`).
+Recovery command: `tar -xzf _archive/claude-export-2026-07-01.tar.gz -C <scratch> claude-export/normalized/conversations/531b46ea-...md claude-export/normalized/conversations/f8acd07a-...md`. File index confirming these paths belong to this skill: `_active/harness/claude-export/harvest/gap3-input.json` (entry `"skill": "josh-kaufman-business-fundamentals", "agent": "josh-kaufman"`).
 
 ## Anchor → source table (new Anti-Patterns section, genius.md)
 

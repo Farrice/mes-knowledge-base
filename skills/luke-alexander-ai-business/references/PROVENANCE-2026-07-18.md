@@ -1,7 +1,7 @@
 # Provenance — luke-alexander-ai-business repair
 
 Ground truth: no `extractions/luke-alexander*` file exists. Source located via
-`_active/claude-export/harvest/census-full.json` ("Luke Alexander" expert entry, 5 conversation
+`_active/harness/claude-export/harvest/census-full.json` ("Luke Alexander" expert entry, 5 conversation
 IDs) → extracted from `_archive/claude-export-2026-07-01.tar.gz` (Python `tarfile`, per-member
 scan, sizes recorded in source-ledger.md — all 5 real, non-empty, no 0-byte files).
 

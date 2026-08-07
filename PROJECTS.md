@@ -69,7 +69,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `second-brain-audits` | _active/ | `_active/second-brain-audits/INDEX.md` | 2026-07-16 | done |
 | `system-health-check-framework` | _active/ | `_active/system-health-check-framework/INDEX.md` | 2026-07-15 | done |
 | `prompt-wiring-os-2026-07-13` | _active/ | `_active/prompt-wiring-os-2026-07-13/INDEX.md` | 2026-07-13 | done |
-| `claude-export` | _active/ | `_active/claude-export/INDEX.md` | 2026-07-11 | done |
+| `claude-export` | _active/ | `_active/harness/claude-export/INDEX.md` | 2026-07-11 | done |
 | `prompt-renaissance` | _active/ | `_active/prompt-renaissance/INDEX.md` | 2026-07-11 | done |
 | `harness-apex-2026-07-07` | _active/ | `_active/harness-apex-2026-07-07/INDEX.md` | 2026-07-09 | done |
 | `pmf-offer-shelf` | _active/ | `_active/pmf-offer-shelf/INDEX.md` | 2026-07-09 | done |

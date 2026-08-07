@@ -19,7 +19,7 @@ material — not the training-memory paraphrase the failing audit flagged.
   bytes) rather than `extractions/`.
 - `python3 tarfile` scan of the export archive for `hoffman` in member names → 0 (filenames
   are UUIDs, not titles).
-- Cross-referenced `_active/claude-export/triage/triage-index.json` (the harvest's own
+- Cross-referenced `_active/harness/claude-export/triage/triage-index.json` (the harvest's own
   title index) for "hoffman" / interview titles → 5 conversation IDs matched, spanning
   `extraction-grade`, `prompt-tool-grade`, and `knowledge-grade` buckets.
 - Extracted the 5 matched conversation `.md` files from the tarball and read them directly —

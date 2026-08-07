@@ -13,7 +13,7 @@ not silently dropped).
 All six are claude.ai project-export conversations, extracted 2026-07-17 from
 `_archive/claude-export-2026-07-01.tar.gz` (path inside archive:
 `claude-export/normalized/conversations/<id>.md`) because the unpacked
-`.tmp/claude-export/normalized/` tree referenced by `_active/claude-export/index.json`
+`.tmp/claude-export/normalized/` tree referenced by `_active/harness/claude-export/index.json`
 no longer exists on disk. Each contains a full pasted YouTube transcript
 (Merlin AI transcription, with minor transcription-error artifacts noted
 inline where relevant) as the first human message, followed by an
@@ -77,7 +77,7 @@ anchor table.
 2. **Interference-effect / concurrent-training terminology** not found
    verbatim in these six sources — labeled LIKELY, not VERIFIED.
 3. The `.tmp/claude-export/normalized/` path referenced by
-   `_active/claude-export/index.json` does not exist on disk; source text was
+   `_active/harness/claude-export/index.json` does not exist on disk; source text was
    recovered by extracting the matching paths directly from
    `_archive/claude-export-2026-07-01.tar.gz` (verified non-zero file sizes:
    19KB–311KB per file — see table above).

@@ -18,6 +18,6 @@ Anchor → source file + location. Every VERIFIED row was confirmed by `python3 
 | "a funnel is very soulless... remove the heart" | `90a84bdf-b478-4882-aba5-5ae3d471cbd5.md` | 74,958 B | timestamp 12:33-12:51 |
 | "Hyatt he's like a leader of leaders" (supports mastermind claim, LIKELY not full verbatim of pre-existing sentence) | `fa99b805-bab2-48ca-909f-455969b0cd69.md` | 183,789 B | timestamp 30:09 |
 
-Locating method (repeatable): `_active/claude-export/index.json` gives conversation `id` + `title` for all 21 Pat Flynn-titled entries; `python3 tarfile` opened `_archive/claude-export-2026-07-01.tar.gz`, matched `member.name.split('/')[-1] == f"{id}.md"`, and `tf.extractfile(m).read()` pulled the actual bytes (sizes above = `len(data)`, confirmed non-zero before any claim was made). No member was assumed absent without this direct check.
+Locating method (repeatable): `_active/harness/claude-export/index.json` gives conversation `id` + `title` for all 21 Pat Flynn-titled entries; `python3 tarfile` opened `_archive/claude-export-2026-07-01.tar.gz`, matched `member.name.split('/')[-1] == f"{id}.md"`, and `tf.extractfile(m).read()` pulled the actual bytes (sizes above = `len(data)`, confirmed non-zero before any claim was made). No member was assumed absent without this direct check.
 
 Full claim-by-claim table with VERIFIED/LIKELY/UNCONFIRMED labels: `references/source-ledger.md`.

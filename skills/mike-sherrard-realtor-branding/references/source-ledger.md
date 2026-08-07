@@ -12,7 +12,7 @@ standing instruction for future passes).
 Ground truth = two YouTube-transcript conversations pulled from
 `_archive/claude-export-2026-07-01.tar.gz` (confirmed present via
 `python3 -m tarfile`/`tarfile` per-member scan on conversation IDs named in
-`_active/claude-export/harvest/gap3-input.json`, which lists exactly these two
+`_active/harness/claude-export/harvest/gap3-input.json`, which lists exactly these two
 `.mds` for `skill: mike-sherrard-realtor-branding`). Both extracted to the
 repair scratchpad and read in full this session; sizes below are `wc -c` on
 the extracted files, matching the tarfile member sizes exactly (no

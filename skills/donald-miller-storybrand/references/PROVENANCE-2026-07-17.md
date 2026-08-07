@@ -18,7 +18,7 @@ Anchor → source file+location table for every new/changed claim introduced by 
 
 ## How these were verified
 
-For every claude-export anchor, the specific conversation `.md` file was extracted from `_archive/claude-export-2026-07-01.tar.gz` with `tar -xzf ... <exact member path>` and read in full before the quote was used — not inferred from the conversation title or from `_active/claude-export/index.json` metadata alone. For every `extractions/` anchor, the quote was located with a direct string/regex search inside the transcript file and read in surrounding context to confirm it wasn't a mis-transcription or a different speaker's line.
+For every claude-export anchor, the specific conversation `.md` file was extracted from `_archive/claude-export-2026-07-01.tar.gz` with `tar -xzf ... <exact member path>` and read in full before the quote was used — not inferred from the conversation title or from `_active/harness/claude-export/index.json` metadata alone. For every `extractions/` anchor, the quote was located with a direct string/regex search inside the transcript file and read in surrounding context to confirm it wasn't a mis-transcription or a different speaker's line.
 
 ## Contamination found and cleaned (not part of this repair's output, reported separately to the conductor)
 

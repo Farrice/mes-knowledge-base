@@ -4,7 +4,7 @@
 
 1. `ls extractions/ | grep -i sherrard` → no hits. No dedicated `extractions/mike-sherrard/` directory exists.
 2. Name-fragment search without punctuation across the repo (`grep -rli "sherrard"`) surfaced
-   `_active/claude-export/index.json`, `.../triage/triage-index.json`, `.../triage/heuristic-scores.json`,
+   `_active/harness/claude-export/index.json`, `.../triage/triage-index.json`, `.../triage/heuristic-scores.json`,
    `.../harvest/census-full.json`, `.../harvest/gap3-input.json`, `.../harvest/census-input.json`.
 3. `gap3-input.json` names the skill directly: `{"mode": "lane", "skill": "mike-sherrard-realtor-branding",
    "agent": "mike-sherrard", "mds": [".tmp/claude-export/normalized/conversations/327fae11-....md",

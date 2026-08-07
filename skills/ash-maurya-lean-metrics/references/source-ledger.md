@@ -20,7 +20,7 @@ with real file sizes (`wc -c`, not `wc -l`):
 - **Primary source located**: `SKILL.md` frontmatter states `source:
   claude.ai export 2026-07-01`. The claude.ai conversation export archive
   (`_archive/claude-export-2026-07-01.tar.gz`, 332,779,255 bytes) contains
-  a manifest at `_active/claude-export/index.json` (3,711 conversations
+  a manifest at `_active/harness/claude-export/index.json` (3,711 conversations
   total). Filtering titles for "maurya" returns **93 conversations** — real
   claude.ai sessions where a user pasted Ash Maurya YouTube transcripts
   (via the Merlin AI transcript tool) and ran MES-style extraction prompts

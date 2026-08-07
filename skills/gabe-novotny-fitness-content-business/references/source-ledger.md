@@ -24,12 +24,12 @@ status" below for the full recovery trail before trusting any claim in
 - `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) — the
   already-imported claude.ai conversation export referenced in project memory
   (`project_claude-export-harvest.md`) — was checked by **content**, not
-  filename, per the envelope's hard rule. `_active/claude-export/harvest/census-full.json`
+  filename, per the envelope's hard rule. `_active/harness/claude-export/harvest/census-full.json`
   (a pre-built census of the same export, already on disk, 10 MB total for
-  `_active/claude-export/`) contains a real entry: `{"expert": "Gabe Novotny",
+  `_active/harness/claude-export/`) contains a real entry: `{"expert": "Gabe Novotny",
   "count": 2, "max_richness": 8, "fitness": true, "ids": ["1d2c702c-9525-4b02-a10b-524afcae536e",
   "5827dfe6-b140-4cca-bc0d-e9354f6845bd"]}`. Cross-referencing those IDs against
-  `_active/claude-export/index.json`'s `conversations` array resolved both to
+  `_active/harness/claude-export/index.json`'s `conversations` array resolved both to
   real, titled conversations:
   - `5827dfe6-b140-4cca-bc0d-e9354f6845bd` — "Gabe Novotny: How to make
     $10k-$25k month as an online fitness coach (no ads or cold dm)",

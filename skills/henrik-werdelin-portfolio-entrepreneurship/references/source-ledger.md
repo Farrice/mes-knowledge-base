@@ -6,7 +6,7 @@ the full `extractions/` listing). SKILL.md's own frontmatter already names the c
 source: `source: claude.ai export 2026-07-01`. That export is `_archive/claude-export-
 2026-07-01.tar.gz` (332,779,255 bytes — confirmed via `ls -la`, not 0-byte, not
 unrecoverable). The four Werdelin-titled conversations inside it were located via
-`_active/claude-export/index.json` (which lists conversation metadata + `md_path`
+`_active/harness/claude-export/index.json` (which lists conversation metadata + `md_path`
 pointers) and extracted from the tarball this pass with `tar -xzf ... claude-export/
 normalized/conversations/<id>.md`:
 

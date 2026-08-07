@@ -10,7 +10,7 @@ Ran per envelope instructions before writing any claim:
 1. `ls extractions/ | grep -i packy` and `grep -i mccormick` — **zero hits**. No `extractions/packy-mccormick*` directory exists in this repo.
 2. `find . -iname "*packy*"` / `*not-boring*` / `*notboring*` (excluding `skills/` and `.tmp/`) — found `agents/packy-mccormick/AGENT.md` + `memory/context.md` (persona files, not raw source) and `.claude/commands/packy-mccormick*.md` (routing pointers only).
 3. SKILL.md frontmatter says `source: claude.ai export 2026-07-01`, pointing at `_archive/claude-export-2026-07-01.tar.gz`. Ran a **Python `tarfile` per-member scan** (`tarfile.open(...).getmembers()`, 7,728 total members) filtering names for `packy`/`mccormick`/`not-boring`/`notboring` — **zero name hits** (the archive stores conversations by UUID, not by title).
-4. Cross-checked `_active/claude-export/index.json` (a 1,988,307-byte harvest index with per-conversation titles) for the string "packy"/"mccormick" — **2 hits**: two archived Claude conversations both titled a variant of *"Packy McCormick: A Tactical Masterclass in Online Writing"* (the David Perell "How I Write" interview transcript, pasted into Claude for analysis), with `md_path` pointers into the (now-purged, `.tmp/`-only) normalized-conversation cache.
+4. Cross-checked `_active/harness/claude-export/index.json` (a 1,988,307-byte harvest index with per-conversation titles) for the string "packy"/"mccormick" — **2 hits**: two archived Claude conversations both titled a variant of *"Packy McCormick: A Tactical Masterclass in Online Writing"* (the David Perell "How I Write" interview transcript, pasted into Claude for analysis), with `md_path` pointers into the (now-purged, `.tmp/`-only) normalized-conversation cache.
 5. The `md_path` files no longer exist on disk (`.tmp/` is gitignored and this harvest is from 2026-07-01), but their exact UUIDs (`98be524c-d84e-44aa-b1a9-85c81629088c`, `5335f577-bd49-4833-92f3-a6a09ee6c8b0`) were used as the second `tarfile` name-filter pass against `_archive/claude-export-2026-07-01.tar.gz` — **4 members matched** (2 real files + 2 macOS AppleDouble `._*` sidecar files), confirming the raw conversation markdown IS present inside the archive under `claude-export/normalized/conversations/<uuid>.md`.
 6. Extracted both members with `tarfile.extractfile()` and read them in full.
 
@@ -20,9 +20,9 @@ This is the only ground-truth source recoverable for this skill. No "sources are
 
 | # | File | Size (bytes) | Status | Notes |
 |---|------|---------------|--------|-------|
-| 1 | `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/98be524c-d84e-44aa-b1a9-85c81629088c.md` | 116,734 (tar member `.size`, confirmed on extraction) | VERIFIED | David Perell "How I Write" interview transcript with Packy McCormick, conversation created 2025-05-05T05:35:28Z per `_active/claude-export/index.json`. Read in full via Python `tarfile.extractfile()`. |
+| 1 | `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/98be524c-d84e-44aa-b1a9-85c81629088c.md` | 116,734 (tar member `.size`, confirmed on extraction) | VERIFIED | David Perell "How I Write" interview transcript with Packy McCormick, conversation created 2025-05-05T05:35:28Z per `_active/harness/claude-export/index.json`. Read in full via Python `tarfile.extractfile()`. |
 | 2 | `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/5335f577-bd49-4833-92f3-a6a09ee6c8b0.md` | 121,187 (tar member `.size`, confirmed on extraction) | VERIFIED | Second archived capture of the same interview, conversation created 2025-10-16T19:01:55Z per index.json. Contains the fullest inline timecodes (used for all Anti-Patterns anchors below). Read in full via Python `tarfile.extractfile()`. |
-| 3 | `_active/claude-export/index.json` | 1,988,307 | VERIFIED | Harvest index; queried programmatically (recursive string walk) for "packy"/"mccormick" to locate source #1 and #2's conversation IDs, titles, and creation dates. |
+| 3 | `_active/harness/claude-export/index.json` | 1,988,307 | VERIFIED | Harvest index; queried programmatically (recursive string walk) for "packy"/"mccormick" to locate source #1 and #2's conversation IDs, titles, and creation dates. |
 | 4 | `skills/packy-mccormick-writing/genius.md` (pre-repair) | 14,781 | VERIFIED | Existing compiled genius file — all 9 Genius Patterns and 5 Hidden Knowledge quotes cross-checked against sources #1/#2 and confirmed verbatim (see spot-checks below). Preserved unchanged; only additive sections appended. |
 | 5 | `skills/packy-mccormick-writing/SKILL.md` | 4,159 | VERIFIED | Read for consistency; not modified (recognition-test and anti-pattern gaps were both fixable inside genius.md per envelope instructions). |
 | 6 | `agents/packy-mccormick/AGENT.md` + `memory/context.md` | 5,129 + 460 | VERIFIED | Persona/routing file; read for corroboration of pattern names, not cited as an independent primary source. |
@@ -56,7 +56,7 @@ Confirms the quotes already inside genius.md (which drove the passing `verbatim_
 | Anti-Pattern: 20-to-1 sponsorship selection ratio | VERIFIED | source #2, lines 1109-1111 ("there's 20 companies that want me to write one of those for every one that I do") |
 | Anti-Pattern: paywall quote (45:12-45:16) | VERIFIED | source #2, lines 1037-1040 |
 | Anti-Pattern: hyperbole/hooky quote (5:20-5:26) | VERIFIED | source #2, lines 5-8 of source #2 (opening section) |
-| Conversation dates 2025-05-05 / 2025-10-16 | VERIFIED | `_active/claude-export/index.json`, `conversations[762]` and `conversations[2359]` `created` fields |
+| Conversation dates 2025-05-05 / 2025-10-16 | VERIFIED | `_active/harness/claude-export/index.json`, `conversations[762]` and `conversations[2359]` `created` fields |
 
 ## Method
 

@@ -21,7 +21,7 @@ No `extractions/` directory exists for Michael Margolis. `SKILL.md` frontmatter 
 described in `docs/claude-export-import.md`, whose raw conversation files are staged only
 inside `_archive/claude-export-2026-07-01.tar.gz` (a 332,779,255-byte archive; `wc -c`
 confirmed) and are NOT present in the working tree (`.tmp/claude-export/` does not exist
-on disk; only `_active/claude-export/` metadata/index does). This repair opened the
+on disk; only `_active/harness/claude-export/` metadata/index does). This repair opened the
 archive directly rather than declaring the source unrecoverable.
 
 ## Locating the source (name fragments, no punctuation, per-member tarfile scan)
@@ -35,7 +35,7 @@ for m in t:
 ```
 → 0 filename matches (conversation files are named by UUID, not by title).
 
-Cross-referenced `_active/claude-export/index.json` (present on disk, not git-ignored) by
+Cross-referenced `_active/harness/claude-export/index.json` (present on disk, not git-ignored) by
 grepping the `title` field for "margolis" — found 3 conversation records with `md_path`
 pointers into the archive's `claude-export/normalized/conversations/<uuid>.md` layout.
 Re-scanned the tarball for those exact UUIDs (still no punctuation in the match string)
@@ -85,7 +85,7 @@ and not in the primary transcript (#1/#2) is UNCONFIRMED as an authentic Margoli
 
 - Did not fabricate a YouTube publish date for the underlying podcast episode — every
   date cited is the claude.ai export's own capture timestamp (2025-09-05 / 2025-10-09),
-  which is independently verifiable in this repo's `_active/claude-export/index.json`.
+  which is independently verifiable in this repo's `_active/harness/claude-export/index.json`.
 - Did not cite conversation #3 (the AI-research-prompt follow-up) as a source of any
   Margolis quote — it is Claude-generated derivative content and is labeled as such.
 - Did not delete or silently "fix" the pre-existing Gong/Linear claim in the Comically

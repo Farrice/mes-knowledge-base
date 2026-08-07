@@ -9,7 +9,7 @@ Claude **Code/Codex CLI** history). The web export is a net-new body of ~3,700 d
 sessions that had never touched this repo.
 
 > **Privacy:** raw transcripts live only under git-ignored `.tmp/claude-export/`; derived JSON
-> under git-ignored `_active/claude-export/`. Redaction (email/phone/6+digit) runs at parse and
+> under git-ignored `_active/harness/claude-export/`. Redaction (email/phone/6+digit) runs at parse and
 > ingest. Nothing from this import is committed, and it never writes to Notion. The `.zip`s in
 > `~/Downloads/` are the irreplaceable backup-of-record (the export URLs are single-use).
 
@@ -26,7 +26,7 @@ sessions that had never touched this repo.
 
 | File | Role |
 |------|------|
-| `claude_export_state.py` | Shared atomic checkpoint (`_active/claude-export/state.json`) — makes every stage resumable. Also the single source of path constants. |
+| `claude_export_state.py` | Shared atomic checkpoint (`_active/harness/claude-export/state.json`) — makes every stage resumable. Also the single source of path constants. |
 | `claude_export_parser.py` | Streams the 1.37 GB of `conversations.json` with `ijson`, normalizes conversations/projects/memories → redacted markdown + `index.json`. Captures `attachments[].extracted_content`. |
 | `claude_export_ingest.py` | Normalized conversations → sovereign `episodic/milestone` rows (workspace `claude-export`); + built-in memory; + (optional) 112 project prompts as `procedural/template`. Dedup by conversation uuid. |
 | `claude_export_triage.py` | Stage A heuristic (all convs, $0) → Stage B Gemini classify (high-value subset, paced) → `rollup` → ranked deployables `menu`. |
@@ -67,7 +67,7 @@ ANTIGRAVITY_DISTILL_INCLUDE_EXPORT=1 python3 execution/memory_distill.py run --d
 python3 execution/memory_review.py list          # human gate — nothing auto-promotes
 
 # 6. DEPLOY  (human picks from the ranked menu)
-#    open _active/claude-export/reports/extraction-menu.md, then per pick:
+#    open _active/harness/claude-export/reports/extraction-menu.md, then per pick:
 /convert-prompt .tmp/claude-export/normalized/projects/<uuid>.md      # project prompt → skill
 /extract-forge  .tmp/claude-export/normalized/conversations/<uuid>.md # rich dialogue → skill
 ```

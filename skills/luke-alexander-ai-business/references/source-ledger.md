@@ -5,7 +5,7 @@ Repair pass: Wave 3 Lane 4 Batch 9 (2026-07-18). Ground truth located and read i
 The skill's actual source is the claude.ai account export archive
 (`_archive/claude-export-2026-07-01.tar.gz`, 332MB, present on disk, opened via Python
 `tarfile` per-member scan — no name-fragment match on "alexander"/"kendo" in tar member
-*names*, so the census index was used instead). `_active/claude-export/harvest/census-full.json`
+*names*, so the census index was used instead). `_active/harness/claude-export/harvest/census-full.json`
 lists a `"Luke Alexander"` expert entry with 5 conversation IDs (`count: 5, max_richness: 9`).
 All 5 were located inside the tar under `claude-export/normalized/conversations/<id>.md` and
 extracted for direct read (sizes recorded below — these are YouTube-transcript-in-chat

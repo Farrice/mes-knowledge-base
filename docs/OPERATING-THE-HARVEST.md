@@ -29,7 +29,7 @@
 **Not done / by design:**
 - **Embeddings ~75% incomplete** — free-tier caps at 1,000/day. Keyword search works NOW; vector recall grows daily. Fix instantly with a paid `GEMINI_API_KEY` (~$0.08 total) then `python3 execution/memory_embed.py backfill`.
 - **Distill → semantic rules not yet run** — the generate quota (500/day) was spent on triage; first batch runs on the next quota window: `ANTIGRAVITY_DISTILL_INCLUDE_EXPORT=1 python3 execution/memory_distill.py run --days 3 --max-clusters 15`. Then **you** approve via `python3 execution/memory_review.py list` → `approve <id>` / `reject <id>`. Nothing auto-promotes.
-- **Deep veins unmined** — we took each big expert's top ~10-12 conversations. Remaining: Priestley 84, Godin 68, Fladlien 68, Kallaway 39. Rerun anytime: the census (`_active/claude-export/harvest/census-full.json`) has every conversation ID.
+- **Deep veins unmined** — we took each big expert's top ~10-12 conversations. Remaining: Priestley 84, Godin 68, Fladlien 68, Kallaway 39. Rerun anytime: the census (`_active/harness/claude-export/harvest/census-full.json`) has every conversation ID.
 - **137 marginal experts** — searchable in memory, deliberately not skill-ified (anti-bloat).
 - **Not battle-tested** — structure is verified; heartbeat isn't. First real client program through `/strength-conditioning` is the true gate. Your rule: felt verdict > gate scores.
 - **Coach Cooz excluded** (your call — client work).
@@ -43,4 +43,4 @@
 
 ## 4 · Where everything lives
 
-`execution/claude_export_*.py` (pipeline) · `docs/claude-export-import.md` (pipeline runbook) · `_active/claude-export/reports/` (harvest-roadmap, consolidation-plan — git-ignored, local) · `_active/claude-export/harvest/census-full.json` (281 experts → conversation IDs) · `.tmp/claude-export/normalized/` (full redacted transcripts) · **Downloads zips = irreplaceable backup** (export URLs were single-use — don't delete) · Memory pin: `project_claude-export-harvest` in auto-memory.
+`execution/claude_export_*.py` (pipeline) · `docs/claude-export-import.md` (pipeline runbook) · `_active/harness/claude-export/reports/` (harvest-roadmap, consolidation-plan — git-ignored, local) · `_active/harness/claude-export/harvest/census-full.json` (281 experts → conversation IDs) · `.tmp/claude-export/normalized/` (full redacted transcripts) · **Downloads zips = irreplaceable backup** (export URLs were single-use — don't delete) · Memory pin: `project_claude-export-harvest` in auto-memory.

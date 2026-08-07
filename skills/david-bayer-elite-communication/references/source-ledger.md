@@ -6,7 +6,7 @@ No primary extraction source (video transcript, podcast episode, interview, or b
 
 1. `extractions/` — `grep -rli "david bayer" extractions/` → 0 results.
 2. `_active/codex-harvest-2026-06-11/` — contains a prior copy of this same skill (`skills/david-bayer-elite-communication/genius.md`, diffed against the current version: it is missing only the 2026-05-30 Radical Distillation update, confirming it's an earlier snapshot of the same engineered material, not an independent source) and `agents/david-bayer/AGENT.md` (56-line persona card, same architecture — no transcript).
-3. `_active/claude-export/` — unpacked export, 10 MB, 441+ files at depth 3. `find _active/claude-export -iname "*bayer*"` → 0 results.
+3. `_active/harness/claude-export/` — unpacked export, 10 MB, 441+ files at depth 3. `find _active/harness/claude-export -iname "*bayer*"` → 0 results.
 4. `_archive/claude-export-2026-07-01.tar.gz` — 332,779,255 bytes. `tar -tzf _archive/claude-export-2026-07-01.tar.gz | grep -i bayer` → 0 results.
 
 Everything this skill contains — the four architectural signature moves, the Twelve Approval-Seeking Patterns, the 15 Desperation Patterns, the 10 Complexity Types, the Hall of Fame Exemplars — lives in `references/prompts/`, `references/prompts-v2/`, and `references/_legacy-prompts/`: 27 practitioner prompt files (8.7–9.4 KB each, read directly, confirmed non-empty) engineered to model Bayer's publicly known teaching style. These are this skill's actual source material per the repair envelope's ground-truth rule (verbatim quotes already inside the skill files) — but they are not a recovered primary transcript, so claims about literal Bayer authorship of specific phrasing are labeled UNCONFIRMED below even where the content is verified present in this repo.
@@ -32,7 +32,7 @@ Everything this skill contains — the four architectural signature moves, the T
 - `_active/codex-harvest-2026-06-11/skills/david-bayer-elite-communication/genius.md` — diffed against current genius.md to confirm it is an earlier snapshot, not an independent source.
 - `_active/codex-harvest-2026-06-11/agents/david-bayer/AGENT.md` — read for cross-check on Signature Moves consistency.
 - `extractions/` — searched, 0 hits (see Provenance Summary).
-- `_active/claude-export/` — searched, 0 hits (see Provenance Summary).
+- `_active/harness/claude-export/` — searched, 0 hits (see Provenance Summary).
 - `_archive/claude-export-2026-07-01.tar.gz` — searched via `tar -tzf | grep`, 0 hits (see Provenance Summary).
 - `_active/_ledgers/autopilot-ap-20260530164740-bayer-skill-elevation.md` — read in full.
 

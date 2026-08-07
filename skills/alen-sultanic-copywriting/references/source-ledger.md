@@ -36,7 +36,7 @@ grounded extractions of the '2 Hour Copywriting Masterclass' and the Emily
 June Wilcox 'Mastering Marketing Psychology' interview... 2026-07-01 export."
 I searched the repo for the raw transcript (`find . -iname "*emily*wilcox*"`,
 `*2*hour*copywriting*`, `*NHB*`, `*FastForward*`; grep for "sultanic" across
-`_active/claude-export/` index/harvest/triage JSON and reports) and found no
+`_active/harness/claude-export/` index/harvest/triage JSON and reports) and found no
 independent copy of the source text — only the claim inside genius.md itself.
 The claim is specific (named episode, named interviewer, exact date) and
 internally consistent with the file's existing Evolution Log conventions, so
@@ -82,4 +82,4 @@ provenance claim to label.
 - `skills/alen-sultanic-copywriting/references/hidden-knowledge.md` — 1,776 bytes (read in full)
 - `skills/alen-sultanic-copywriting/references/implementation.md` — 1,394 bytes (read in full)
 - `skills/alen-sultanic-copywriting/SKILL.md.old` — 8,991 bytes (read in full)
-- `_active/claude-export/` index/harvest/triage JSON + `reports/harvest-roadmap.md` — searched for "sultanic", zero matches
+- `_active/harness/claude-export/` index/harvest/triage JSON + `reports/harvest-roadmap.md` — searched for "sultanic", zero matches

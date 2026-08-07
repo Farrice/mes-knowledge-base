@@ -5,7 +5,7 @@
 `extractions/` has zero Dakota entries (`ls extractions/ | grep -ic dakota` → 0;
 recursive `grep -ril` across `extractions/` → 0 hits). But the envelope's rule
 2 requires verifying absence, not asserting it — so before writing UNCONFIRMED
-labels, the archived export was searched: `_active/claude-export/harvest/census-full.json`
+labels, the archived export was searched: `_active/harness/claude-export/harvest/census-full.json`
 entry `{"expert": "Dakota", "count": 3, "ids": [...]}` names three conversation
 IDs. Those IDs resolved inside `_archive/claude-export-2026-07-01.tar.gz` at
 `claude-export/normalized/conversations/<id>.md` — raw Claude.ai sessions

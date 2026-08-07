@@ -3,7 +3,7 @@
 Anchor → source file + location. All source files extracted from
 `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) under
 `claude-export/normalized/conversations/<id>.md`, discovered via
-`_active/claude-export/triage/triage-index.json` title match on "hoffman" /
+`_active/harness/claude-export/triage/triage-index.json` title match on "hoffman" /
 interview names (name-fragment search; filenames in the tarball are UUIDs).
 
 | # | Anchor (genius.md Anti-Patterns bullet) | Source file | Location |
