@@ -67,6 +67,34 @@ complementary lanes, and picking the wrong one is how quality drops:
 | **Real branded garment (Kith etc.)** | **WARDROBE** | `gpt_image_2` + person ref + **real garment product photo** as second `--image`; drop clause 3, keep 1/2/4/5 |
 | Cheap volume where likeness is not load-bearing | Soul | `text2image_soul_v2` + `6e8a9e71-…` — **below the floor; never for deliverables** |
 
+## Wardrobe-lane result (5 frames, 2026-08-07) — `wardrobe-lane/`
+
+Floor clauses + real garment reference. **Identity held on all five** — the reference element is
+doing its job regardless of what the garment reference contains, which is exactly what the Soul lane
+could never manage. Garment fidelity, however, is not uniform:
+
+| Frame | Garment fidelity | Note |
+|---|---|---|
+| W1 Matrix hoodie | **High** | code print + KITH logo exact; wordmark letters still drift ("HE MATRI") |
+| W2 Peanuts tee | **High** | bird, flower, grass band, box logo all correct |
+| W5 Patchwork overshirt | Medium | colour and cut right, panel/topstitch layout simplified |
+| W4 Crest overshirt | Medium | navy pinstripe right, embroidered star motifs dropped |
+| W3 Knicks bomber | **Low — invented** | produced a generic NEW YORK varsity jacket, not the Ewing satin bomber |
+
+**The pattern: bold high-contrast surface graphics transfer; subtle construction detail does not.**
+Prints, wordmarks and colour blocking survive. Embroidery, patchwork panels and topstitching get
+smoothed away. Licensed team apparel is the worst case — the model substitutes its own strong prior
+(generic varsity/NBA) over the referenced garment.
+
+Routing that follows from it:
+- **Graphic-led pieces** (prints, code, artwork, box logos) → wardrobe lane, ships as-is.
+- **Construction-led pieces** (embroidery, patchwork, tailoring detail) → wardrobe lane gets you the
+  silhouette; exact detail needs a compositing pass.
+- **Licensed team apparel** → do not trust the lane. Either composite or shoot it.
+
+Small-text wordmarks are an open defect in both lanes — treat any legible garment text as
+approximate until proven per-frame.
+
 ## Waste rules (why this document exists)
 
 1. **Never generate a batch before one frame clears the bar.** One image, compared against
