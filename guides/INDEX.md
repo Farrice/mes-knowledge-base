@@ -335,6 +335,7 @@
 
 
 ## Pending enrichment
+- [2026-08-07 — Thought Bank — Oracle Slip Clv Sparkline](2026-08-07-.md) — operator-guide stub, needs enrichment
 - [2026-08-06 — Sam Vander Wielen Launch OS — Watch + Forge + Skill System (12 workflows)](2026-08-06-parallel-session-lanes.md) — operator-guide stub, needs enrichment
 - [2026-08-05 — Benoit Vatere — Blind Pass Sample](2026-08-05-.md) — **spurious empty-slug stub** (spine derived it from `blind-pass-sample.md`, not a session); same-day sessions collide on this `<date>-.md` filename — see Forge Radar note in the Benoit guide
 - [2026-08-04 — Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped](2026-08-04-creative-generation-os.md) — operator-guide stub, needs enrichment

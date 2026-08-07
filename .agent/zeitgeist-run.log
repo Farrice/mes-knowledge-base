@@ -8,3 +8,17 @@ claimed: 7ff2453efcf4  (heartbeat every wave: session_lock.py heartbeat 7ff2453e
 Not logged in · Please run /login
 released
 === 2026-08-06 07:04:46 zeitgeist run end rc=1 ===
+=== 2026-08-07 06:20:01 zeitgeist run start ===
+claimed: b4e31b9a60c2  (heartbeat every wave: session_lock.py heartbeat b4e31b9a60c2)
+[zeitgeist] ai-consulting-linkedin: 3/4 pulls live, $0.0257 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-07-ai-consulting-linkedin-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-07-ai-consulting-linkedin-signals.json"]}
+**ai-consulting-linkedin** → `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html` · gdoc skipped (`gws` binary not on PATH) · $0.0257 · indexed into the Briefing Room (8 briefs, shelves clean).
+
+Two things worth flagging from the run, both mechanical, neither invented:
+
+- **The X/twitter actor returned no data.** All 15 items were identical KaitoEasyAPI billing placeholders (`type: mock_tweet`, `id: -1`) — the actor bills per call and returns mock rows when the query matches nothing. Cost $0.0037 for zero signal. If this repeats tomorrow it's a dead pull, not a quiet lane.
+- **The Reddit actor failed** with `400 Bad Request` on `trudax~reddit-scraper-lite`. Second Reddit issue this week (a recency bug was fixed yesterday per commit `2bc27e922`), so this one is worth a look rather than a retry.
+
+The brief itself is built on the 14 items that were real — 10 LinkedIn profiles and 4 Threads posts — and says so in the caveats rather than padding to look full. The finding that survived: 0 of 10 profiles ranking for "AI consultant" name an offer or a price, and the most concrete line in the entire set is a VAT registration.
+released
+=== 2026-08-07 06:27:39 zeitgeist run end rc=0 ===

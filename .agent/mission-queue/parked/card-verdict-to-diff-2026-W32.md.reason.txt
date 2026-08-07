@@ -1,0 +1,2 @@
+refused: matched outward-action pattern 'send' (publish/send/post-to/payment/purchase/deploy are never auto-run)
+parked: 2026-08-07T02:37:04

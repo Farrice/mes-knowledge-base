@@ -1,0 +1,188 @@
+{
+  "slug": "zeitgeist-ai-consulting-linkedin-2026-08-07",
+  "chip": "ZEITGEIST · AI CONSULTING / LINKEDIN",
+  "title": "ten *consultants*, zero offers",
+  "dek": "Today's pull on the AI-consulting lane came back thin and lopsided: the X actor returned nothing but billing placeholders, Reddit failed outright, and what survived was ten LinkedIn profiles and four Threads posts. That small sample still says one useful thing clearly — the people ranking for 'AI consultant' are credentialed incumbents with nothing a buyer can say yes to.",
+  "window": "aug 7, 2026 · daily lane",
+  "lens": "what's working in AI-consulting content · LinkedIn + X + Reddit",
+  "sources": "3 live pulls · 29 items returned · 14 usable",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY ZEITGEIST",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 0.0257,
+  "stack": ["linkedin-search", "threads-search", "twitter"],
+  "category": "zeitgeist",
+  "priority": 3,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the big picture",
+      "kicker": "WHAT'S FORMING",
+      "body": "Two of four actors produced usable data. The LinkedIn search for \"AI consultant\" returned ten people, and none of them is an AI consultant by title. They are technical program managers, strategy consultants, enterprise architects, a cybersecurity account lead, and a recruiter. Every profile that carries a summary sells the same way: firm names, years, degrees, and a closing sentence about applying AI to business outcomes. None names a service. None names a price. The most specific profile in the set gets specific about VAT registration.\n\nThreads is a different room with the same split. Four posts came back. Today's post frames agents as an open question and takes no position. Another posts bare numbers with no adjectives around them. A third is a hype template with a siren emoji. The fourth is nine months old and still surfacing, which says more about the pull than about demand.\n\nThe read for this week: the search term belongs to repositioning incumbents, not to AI natives, and all ten of them are standing in the same undifferentiated line."
+    },
+    {
+      "kind": "stats",
+      "heading": "the pull, honestly",
+      "items": [
+        {"value": "29", "unit": "items", "label": "RETURNED ACROSS 3 LIVE PULLS", "note": "$0.0257 total"},
+        {"value": "15", "unit": "mock", "label": "X / TWITTER ACTOR", "note": "KaitoEasyAPI billing placeholders — zero real posts"},
+        {"value": "14", "unit": "usable", "label": "10 LINKEDIN PROFILES + 4 THREADS POSTS", "note": "the entire evidence base below"},
+        {"value": "0", "unit": "of 10", "label": "PROFILES NAMING AN OFFER OR PRICE", "note": "the opening"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what the data says",
+      "tag": "THE EVIDENCE",
+      "rows": [
+        {
+          "claim": "Searching \"AI consultant\" on LinkedIn surfaces repositioning incumbents, not AI-native consultants.",
+          "evidence": "All 10 returned profiles carry non-AI primary identities: \"Project Manager I Prince 2 I CSM I SAFE Agilist\", \"Technical Program Manager\", \"Strategy consultant\", \"B2B/Contract Enterprise Engineer & Architect\", plus a Palo Alto Networks account lead and a marketing recruiter. Zero headline as an AI consultant.",
+          "source_label": "linkedin-search · \"AI consultant\" · 10 profiles",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "Credential stacking is the default proof move in this lane.",
+          "evidence": "Waqas Rafique, PhD leads with institutions before capability: \"delivering large scale Data Science projects across banking at J.P. Morgan and academia at University of Oxford and the University of Cambridge\" — then \"My expertise lies in AI strategy and transformation\".",
+          "source_url": "https://www.linkedin.com/in/ACwAAAtPNFkBRkrPKYNLl-RU6M93X5kusZYgAOo",
+          "source_label": "linkedin-search · profile summary",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Deal size is used as a substitute for a named outcome.",
+          "evidence": "Jimmy Thibodeau: \"Proven track record driving $15M–$100M+ transformations by operating at the intersection of engineering, product, strategy, and executive leadership.\" The number sizes the room he stood in, not the result he produced.",
+          "source_url": "https://www.linkedin.com/in/ACwAACNrVjYBU5Htqfy4fiKi3vMZlqhc81TpbbI",
+          "source_label": "linkedin-search · profile summary",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "AI itself is hedged into a final clause rather than led with.",
+          "evidence": "Darren H. spends the summary on \"prior roles at Boston Consulting Group, the Chicago Cubs, and Jefferson Health\" and closes with \"Passionate about applying data, analytics, and generative AI\". The AI claim arrives last and unquantified.",
+          "source_url": "https://www.linkedin.com/in/ACwAABw54q4BLwm7WY-p3deYIr0SknWuqSYXipQ",
+          "source_label": "linkedin-search · profile summary",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The most specific profile in the set is specific about paperwork, not results.",
+          "evidence": "Daniel Malczyk: \"Available for hybrid contracts in Prague, Czech Republic... Legal setup: VAT registered (Fully compliant for cross-border EU/Swiss B2B contracts).\" No other profile names anything a buyer transacts on.",
+          "source_url": "https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY",
+          "source_label": "linkedin-search · profile summary",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The same abstract phrasing recurs across unrelated profiles — usable verbatim for mirroring.",
+          "evidence": "Thibodeau: \"translating complex technical constraints - including emerging AI capabilities - into scalable business outcomes\". Sneh Sweta Singh: \"delivering high-quality solutions that enhance customer satisfaction and drive innovation\". Different people, different countries, same sentence shape.",
+          "source_label": "linkedin-search · 2 of 10 profiles",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "The only Threads post published today takes a question posture, not a claim posture.",
+          "evidence": "@iang0h, posted 2026-08-07: \"I built Freeman Protocol to see what happens when AI agents are given jobs of their own instead of waiting for us to control everything.\" No superlative, no promise, no CTA.",
+          "source_url": "https://www.threads.com/@iang0h/post/DbvVlrfDWqY",
+          "source_label": "threads-search · \"ai agents\" · 2026-08-07",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The bare-numbers receipt post is still running in this feed.",
+          "evidence": "@kevbuildsai, 2026-07-02: \"Yesterdays Etsy numbers: ● 24 orders ● $433 in sales ● 0 hours worked.\" Three numbers, zero adjectives, no link.",
+          "source_url": "https://www.threads.com/@kevbuildsai/post/DaTrvIgDzrv",
+          "source_label": "threads-search · \"ai agents\"",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The hype template occupies the same query surface and carries no numbers at all.",
+          "evidence": "@aicreatormentor, 2026-07-07: \"🚨 BREAKING: Claude is one of the most POWERFUL AI tools online right now.\" One superlative, no evidence, no specifics.",
+          "source_url": "https://www.threads.com/@aicreatormentor/post/DaeKAn7CErX",
+          "source_label": "threads-search · \"ai agents\"",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The X lane produced zero real signal today and should not be read as quiet.",
+          "evidence": "All 15 items from the twitter actor are identical KaitoEasyAPI placeholders: \"we returned N pieces of mock data\", each tagged type \"mock_tweet\" with id -1. The Reddit actor failed separately with a 400 Bad Request.",
+          "source_label": ".tmp/zeitgeist/2026-08-07-ai-consulting-linkedin-signals.json",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "where the lane actually *is*",
+      "kicker": "THE OPENING",
+      "dek": "Five moves this week, ranked. Each one is downstream of a number in the evidence above.",
+      "items": [
+        {
+          "action": "Write to the repositioning incumbent, not the AI-native builder.",
+          "why": "10 of 10 profiles returned for \"AI consultant\" are program managers, strategy consultants, architects and a recruiter. The people who rank for the term are the people who need help holding it."
+        },
+        {
+          "action": "Put a named offer and a price in the first two lines of every post and the profile itself.",
+          "why": "0 of 10 profiles name a service or a number a buyer can act on; the most concrete line in the whole set is a VAT registration."
+        },
+        {
+          "action": "Run the receipt format: three numbers, one lesson, no adjectives.",
+          "why": "The @kevbuildsai post carries three specific figures (24 orders, $433, 0 hours) and no claims, while the superlative post in the same pull carries zero figures."
+        },
+        {
+          "action": "Mirror their sentence back before you break it.",
+          "why": "Two unrelated profiles reach for the same abstraction: \"translating complex technical constraints... into scalable business outcomes\" and \"solutions that enhance customer satisfaction and drive innovation\". Quote it, then show what it costs them."
+        },
+        {
+          "action": "Skip agent-architecture explainer content this week.",
+          "why": "The only agent-criteria post the pull surfaced (@leadgenman on memory, loops and observability) is dated 2025-10-31. Nine months old, and nothing fresher came with it."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "hook draft · the ten-profile read",
+          "text": "I searched \"AI consultant\" on LinkedIn this morning and read the first ten profiles.\n\nTen profiles. Zero offers. Zero prices.\n\nNine of them lead with where they used to work. One leads with his VAT registration.\n\nThe buyer scrolling that list has nothing to say yes to. Neither do you, if your first two lines are a résumé."
+        },
+        {
+          "label": "angle sentence · the phrase nobody buys",
+          "text": "Two of those ten profiles, in different countries, wrote almost the same sentence: translating complex technical constraints into scalable business outcomes.\n\nNobody has ever paid for that sentence.\n\nWhat gets paid for is narrower: here is the one thing your market is already asking about that you are not saying yet, and here is the post that says it."
+        },
+        {
+          "label": "receipt-post skeleton",
+          "text": "[what I ran, in five words or fewer]\n\n· [n] [unit]\n· $[n]\n· [n] hours\n\nThe number I got wrong: [x].\nWhat changes next week: [one sentence, no hedging]."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "Rank this brief's data from most to least reliable.\n\nMost reliable: the ten LinkedIn profile summaries and the four Threads post texts. Those are verbatim from the pull, each with a resolvable URL, and the quotes above are unedited.\n\nLess reliable: every pattern claim drawn across those profiles. Ten results from a single query is a sample, not a census, and LinkedIn people-search ranking is opaque. A different query string would likely return a different ten.\n\nNot reliable at all: anything about X today. The twitter actor returned fifteen identical KaitoEasyAPI billing placeholders and no posts, so silence from that lane means the actor failed, not that the conversation stopped. The Reddit pull failed separately with a 400 Bad Request and contributed nothing.\n\nMissing entirely: engagement. No item in this pull carries a like, reply, or view count, so nothing here is ranked by performance. It is ranked only by what was said and when. Recency is uneven too: of four Threads posts, the dates are today, a month ago, five weeks ago, and October 2025.\n\nThis is a single-day snapshot of a daily lane. Treat today's shape as a hypothesis and check it against tomorrow's pull before building a week on it.",
+      "cta": {"label": "OKAY, SO MAKE THE POST", "href": "#deploy-blocks"}
+    }
+  ],
+  "ledger": [
+    {
+      "source": "linkedin-search (Apify) · query \"AI consultant\"",
+      "retrieved": "2026-08-07",
+      "used_for": "10 profile summaries — the positioning read and every profile quote",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "threads-search (Apify) · query \"ai agents\"",
+      "retrieved": "2026-08-07",
+      "used_for": "4 post texts — format read (question posture, receipt post, hype template, stale explainer)",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "twitter (Apify / KaitoEasyAPI) · query \"AI consulting\"",
+      "retrieved": "2026-08-07",
+      "used_for": "nothing — 15 of 15 items were mock billing placeholders; logged as an actor failure",
+      "confidence": "UNCONFIRMED"
+    },
+    {
+      "source": "reddit (Apify trudax~reddit-scraper-lite) · query \"AI consulting\"",
+      "retrieved": "2026-08-07",
+      "used_for": "nothing — pull failed with 400 Bad Request",
+      "confidence": "UNCONFIRMED"
+    }
+  ]
+}

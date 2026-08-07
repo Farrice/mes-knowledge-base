@@ -478,3 +478,5 @@
 {"ts": "2026-08-07T13:08:55Z", "label": "2026-08-07 flagship", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-07T13:08:55Z", "label": "2026-08-07 essay", "verdict": "WARN", "fails": [], "warns": ["A 338-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-07T13:09:20Z", "label": "2026-08-07 essay", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-07T13:18:34Z", "label": "flagship final", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-07T13:18:34Z", "label": "essay final", "verdict": "CLEAN", "fails": [], "warns": []}

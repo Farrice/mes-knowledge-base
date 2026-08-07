@@ -56,3 +56,9 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 ## 2026-08-06
 
 - `extract-forge` -> `kallaway-hook-mastery` (manual load, 2026-08-05T08:13:18.582808)
+
+## 2026-08-07
+
+- `deep-research` -> `nba-betting-edge` (manual load, 2026-08-06T08:03:59.346606)
+- `extract-forge` -> `mark-forsyth-rhetoric` (manual load, 2026-08-06T14:16:45.557642)
+- `extract-forge` -> `sam-vander-wielen` (manual load, 2026-08-06T14:03:56.729085)

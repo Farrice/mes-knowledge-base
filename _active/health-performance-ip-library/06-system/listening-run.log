@@ -120,3 +120,34 @@ released
 === 2026-08-06 05:40:23 listening run end rc=1 ===
 === 2026-08-07 05:30:02 listening run start ===
 claimed: 92069dcf808c  (heartbeat every wave: session_lock.py heartbeat 92069dcf808c)
+Run closed out. Two commits: `f68c660b2` (the run) and `2bc27e922` (late lane + root-cause fix).
+
+## One correction to what I told you earlier
+
+I reported the social listening lane as **DEGRADED on freshness**. That was true when I said it, but wrong by the end. The agent returned 43 minutes late having reached Reddit through **Atom/RSS feeds with backoff** — a path I hadn't tried — and read **17 full comment threads**, all dated this week. Lane status corrected to **LIVE** in the brief, with the correction logged rather than quietly swapped.
+
+## What the late lane added
+
+**The strongest receipt this ledger has ever held.** NARB Case #7487-346 (2026-05-21) ordered Niagen Bioscience to discontinue its "clinically proven" NAD+ claims. Three months later, buyers reached the same verdict independently — *"the NAD+ hype ran way ahead of the outcomes."* A regulator and the market agreeing on the same claim from opposite directions, both on the record, publishable with zero accusation.
+
+To be precise, since I flagged the regulatory blind spot earlier: **NARB is dated May, not this week.** It does not close that gap.
+
+**Tuesday's finding hardened into a segment.** The omega-3 thread produced *"Nope. Feels fake tbh but I keep taking them"* — the same compliance-purchaser state as Tuesday's CoQ10, different ingredient, same week. Two data points make it a segment. A buyer in that same thread named the escape route: *"I never 'felt' anything but it does reflect in my bloodwork."*
+
+**The commercially useful one** went to doc 07: buyers set their own abandonment clock because no brand sets one. *"If you don't notice anything in 4–6 weeks, move on"* versus *"Quit at three weeks on a compound studied for eight and you never really tested it."* A brand that publishes the second sentence converts churn into adherence without making a single new claim.
+
+The ashwagandha receipt is graded UNCONFIRMED and ships nowhere — verified only as things buyers said.
+
+## The bug worth knowing about
+
+The agent diagnosed why *every* fresh pull failed today, mine included. `cmd_reddit()` hardcoded `sort=relevance` with **no recency window**, so listening queries structurally could not ask for this week — they returned 2024 threads. It also emitted two competing start URLs when given a query *and* a subreddit, letting global search drown the subreddit.
+
+Fixed with `--sort`, `--time`, `--scope-query-to-subreddit`. **Defaults unchanged**, verified byte-identical on old URL shapes. This has been silently degrading freshness on an unknown number of prior runs — the engine was reporting live listening while pulling two-year-old threads.
+
+Two things I did **not** fix, both needing your call:
+- The `trudax/reddit-scraper-lite` actor fails actor-side on subreddit calls. Upstream — needs an actor swap or a ticket. Meanwhile the free RSS path outperformed it today ($0, 17 threads, versus three paid calls returning junk) and is worth promoting to rung 1 for text.
+- **Upvote counts are gone** until Playwright gets navigation permission in this lane. Today's receipts report comment entries read — a floor, not a count. That's the difference between reading a community's real current and one loud person.
+
+Total spend: **$0.07 of $29**.
+ERROR: lock not held by this token
+=== 2026-08-07 06:20:13 listening run end rc=0 ===

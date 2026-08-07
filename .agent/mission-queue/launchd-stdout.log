@@ -57,3 +57,9 @@ released
 claimed: 3dc57f48e3be  (heartbeat every wave: session_lock.py heartbeat 3dc57f48e3be)
 no pending cards
 released
+claimed: fca54ad78020  (heartbeat every wave: session_lock.py heartbeat fca54ad78020)
+T1 EXECUTED card-event-inbox-2026-08-06-oracle-note-130348.md: COMPLETED -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-event-inbox-2026-08-06-oracle-note-130348-transcript.md
+T1 EXECUTED card-event-inbox-2026-08-06-test-thought.md: COMPLETED -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-event-inbox-2026-08-06-test-thought-transcript.md
+T1 EXECUTED card-harness-evals-2026-W32.md: COMPLETED -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-harness-evals-2026-W32-transcript.md
+PARKED card-verdict-to-diff-2026-W32.md: refused: matched outward-action pattern 'send' (publish/send/post-to/payment/purchase/deploy are never auto-run)
+released

@@ -2900,3 +2900,67 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-07T07:12:17.047974",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-07.md",
+        "traces_24h": 10,
+        "routing_decisions_24h": 10,
+        "queued_phase2": 6,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 6,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.05,
+            "joey-cinema-os": 1.1,
+            "ben-watkins-storytelling": 1.36,
+            "banana-pro-director": 1.05,
+            "gemini-api-dev": 0.86,
+            "dave-clark": 1.14,
+            "ghostwriting-voice-engine": 1.11,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.6,
+            "nick-saraev-agentic-workflows": 1.05,
+            "kallaway-social-commerce": 0.95,
+            "kallaway-illusion-of-novelty": 1.75,
+            "extract-mastery": 0.9,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.05,
+            "nba-betting-edge": 0.95,
+            "design-md": 0.65,
+            "donald-miller-storybrand": 0.89,
+            "video-studio": 0.95
+          },
+          "candidates_appended": 3,
+          "quality_finalizes_counted": 9,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 144.2
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-01T07:00:06.761884",
+      "reason": "not_due_yet",
+      "days_remaining": 0.99
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 1.99
+    }
+  ]
+}

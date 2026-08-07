@@ -1,7 +1,7 @@
-# Health Performance Ip Library — Latest Exec Cut
+# Health Performance Ip Library — W32 Health Performance Synthesis
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-05-trust-has-an-owner-post.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-05-buyers-ledger-teardown-post.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md, /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md
+**Artifacts:** /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/weekly/2026-W32-health-performance-synthesis.md
 
 **Retrieve:** `/resume health-performance-ip-library`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
