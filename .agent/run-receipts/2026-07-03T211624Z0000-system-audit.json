@@ -1,0 +1,20 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-07-03T21:16:24+00:00",
+  "query": "Fix skill_router_hook overmatching normal client work as /system-audit",
+  "route": "system-audit",
+  "status": "PARTIAL",
+  "owner": "system-audit",
+  "support_gates": "autopilot,routing-intelligence",
+  "expert_lenses": "",
+  "subagent_boundary": "main-thread-only; no subagents",
+  "subagents_requested": "",
+  "meta_intent": "control-plane hook overmatch repair",
+  "composition_owner": "system-audit",
+  "feedback_hook": "",
+  "changed": "execution/control_intent.py; execution/skill_router_hook.py; execution/verify_codex_claude_parity.py",
+  "passed": "py_compile PASS; false-positive raw-intent skill-link prompt emits no /system-audit override; real hook complaint still emits /system-audit; source-command-health-check-status routes /health-check; broad broken-subsystem prompts route /autopilot; verify_codex_claude_parity.py PASS; verify_google_operator_core.py PASS",
+  "failed": "verify_system_control_plane.py still fails unrelated command-menu case: focused-transfer-handoff expected /handoff but got /end-session because /handoff workflow bridge is absent",
+  "needs_judgment": "Requested hook/system-audit overmatch problem repaired; do not expand into handoff bridge creation without separate approval",
+  "next_action": "Fresh prompt smoke: invoke raw-intent-bridge with client content containing copyright issues and confirm no CONTROL ROUTING OVERRIDE appears"
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-23T13:59:38+00:00",
+  "query": "Enhance Health Performance GEO automation into client-acquisition content data moat",
+  "route": "source-command-mission + source-command-convene + farrice-engine support",
+  "status": "PASS",
+  "owner": "Oren Operational Systems",
+  "support_gates": "Mission OS, Convene council synthesis, Farrice Engine, Diandra content engine",
+  "expert_lenses": "Luke Iha, Nicolas Cole, Ethan Smith, Nathan Gotch, Harry Dry, Diandra, Alex Copper",
+  "subagent_boundary": "No real Codex subagents used",
+  "meta_intent": "automation upgrade for client acquisition",
+  "composition_owner": "Oren operating spine",
+  "feedback_hook": "Next daily brief must prove new sections fire",
+  "changed": "AUTOMATION_PROMPT.md, SERVICE_LADDER.md, README.md, CLIENT_ACQUISITION_OFFER.md, mission artifacts",
+  "passed": "mission activations complete; export guard pass; safety boundaries preserved",
+  "failed": "knowledge_compiler.py solutions unavailable; command_menu.py absent",
+  "needs_judgment": "Ready for next daily run behavior test",
+  "next_action": "Run the next daily Health Performance GEO brief and verify client-acquisition sections"
+}

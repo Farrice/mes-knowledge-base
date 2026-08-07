@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-30T20:58:56+00:00",
+  "query": "Use Now Harden Expand MCP auth verifier and full harness rerun",
+  "route": "system-audit",
+  "status": "PASS",
+  "owner": "system-audit",
+  "support_gates": "mcp,recall,health-check,routing-intelligence",
+  "expert_lenses": "",
+  "subagent_boundary": "No real Codex subagents used",
+  "meta_intent": "system-failure",
+  "composition_owner": "",
+  "feedback_hook": "",
+  "changed": "Added execution/verify_recall_mcp_auth.py and reran outside-sandbox MCP plus full harness checklist",
+  "passed": "canonical baseline, surface counts, routing, hook bridge, MCP list, Recall o_auth verifier",
+  "failed": "None",
+  "needs_judgment": "Google Antigravity Codex harness is green; Notion MCP remains not_logged_in but was not part of the Recall requirement",
+  "next_action": "Use execution/verify_recall_mcp_auth.py outside sandbox when MCP auth looks unsupported in sandbox"
+}
