@@ -1,0 +1,26 @@
+{
+  "artifact_type": "strategy_checkpoint",
+  "title": "Expert Practice OS - Expanded Extraction Vision Checkpoint",
+  "source_video_id": "4HqO0h13MX4",
+  "status": "vision_approved_architecture_pending_approval",
+  "proof_state": "source_captured_market_untested",
+  "recommended_build_shape": "connected_cold_skill_system",
+  "recommended_owner": "source-to-skill-system",
+  "source_specific_component_owner": "sunny-lenarduzzi-youtube",
+  "first_public_lane": "ai_powered_authority_business_system_consulting",
+  "first_paid_offer": "final_10_percent_diagnostic",
+  "universal_adapters": [
+    "life_coaching",
+    "life_design",
+    "solopreneurship",
+    "other_qualified_practices"
+  ],
+  "economics_build_gate": "RUNTIME_OBSERVED",
+  "architecture_checkpoint": "architecture-checkpoint.md",
+  "skill_system_contract": "skill-system-contract.md",
+  "market_proof": "UNTESTED",
+  "revenue_target_policy": "planning_input_not_guarantee",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false
+}

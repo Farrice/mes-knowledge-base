@@ -703,3 +703,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-06 13:44]` **finalize** | Edit Bay video studio: Bonanno pipeline watched (54 frames) + MES 3.0 extraction; built transcribe_l | general | brad-bonanno — composite:6.67 status:Needs Improvement
 - `[2026-08-06 14:16]` **finalize** | Mark Forsyth — memorable-language mastery forge + Enchantment OS | general | mark-forsyth — composite:8.33 status:Keep
 - `[2026-08-06 14:03]` **finalize** | Sam Vander Wielen — live-webinar launch systems mastery extraction (forge) | general | sam-vander-wielen — composite:7.33 status:Needs Improvement
+- `[2026-08-03 12:40]` **finalize** | Authority.io coaching-business extraction and expanded Expert Practice OS Vision checkpoint | general | sunny-lenarduzzi-youtube — composite:7.0 status:Needs Improvement
+- `[2026-08-03 12:40]` **finalize** | Expanded Expert Practice OS Vision checkpoint grounded in Authority.io source | general | sunny-lenarduzzi-youtube — composite:7.7 status:Keep
+- `[2026-08-03 13:27]` **finalize** | Drafted the Expert Practice OS Architecture checkpoint and Skill System Contract for source 4HqO0h13 | general | source-to-skill-system — composite:7.73 status:Keep
+- `[2026-08-03 14:32]` **finalize** | Built the approved cold Expert Practice OS plus Authority.io/Sunny-led POP addition, two divergent f | general | source-to-skill-system — composite:7.87 status:Keep

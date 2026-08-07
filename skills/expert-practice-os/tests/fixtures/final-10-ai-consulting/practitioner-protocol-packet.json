@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "fixture_id": "final10-ai-stage0-v1",
+  "practitioner": {
+    "identity": "Farrice",
+    "public_role": "execution architect using AI inside authority and business-system consulting",
+    "experience": [
+      "18 years of transformation and operating experience",
+      "AI-assisted business-system and authority-system design"
+    ],
+    "credentials": ["experience-based consulting scope; no clinical, legal, or financial credential claimed"],
+    "scope": {
+      "allowed": ["authority-system diagnosis", "business-system diagnosis", "AI-assisted workflow architecture"],
+      "excluded": ["clinical treatment", "legal advice", "financial advice", "guaranteed revenue"]
+    },
+    "repeated_results": ["practitioner-owned system analysis and architecture work"],
+    "evidence_provenance": "OPERATOR_ATTESTED"
+  },
+  "protocol": {
+    "name": "Final 10% Diagnostic",
+    "steps": ["evidence intake", "bottleneck diagnosis", "Ship Map", "one-page architecture sketch", "Sprint go-or-no-go"],
+    "dependencies": ["access to current offer, authority, and operating-system evidence"],
+    "evidence": ["_active/farrice-final-10/strategy/offer-the-final-10.md"],
+    "claims": {
+      "allowed": ["identify and map a supported authority or business-system bottleneck"],
+      "restricted": ["attribute downstream revenue or visibility changes only when measured"],
+      "unsupported": ["guaranteed inbound", "guaranteed revenue", "universal AI transformation"]
+    }
+  },
+  "buyer": {
+    "specific_buyer": "established expert with real expertise, an existing offer or audience, and a visibility or referral ceiling",
+    "observable_problem": "authority and business assets do not form one reliable system, leaving growth dependent on referrals or founder effort",
+    "present_state": "credible expertise and scattered assets without a verified bottleneck or coherent ship sequence",
+    "desired_state": "one verified bottleneck, a Ship Map, a one-page architecture sketch, and a defensible Sprint go-or-no-go",
+    "desired_feeling": "clear and able to act without another broad rebuild",
+    "outcome_limits": ["diagnosis and architecture only", "no implementation or revenue outcome promised"],
+    "alternatives": ["generic AI audit", "content strategy", "full implementation sprint"],
+    "failed_attempts": ["adding assets without resolving the system bottleneck"],
+    "investment_conditions": ["bounded scope", "usable Ship Map", "clear go-or-no-go"],
+    "disqualifiers": ["no established expertise", "expects guaranteed revenue", "needs technical implementation before diagnosis"]
+  },
+  "offer": {
+    "name": "The Final 10% Diagnostic",
+    "scope": ["async evidence review", "one live diagnostic", "Ship Map", "one-page architecture sketch", "Sprint go-or-no-go"],
+    "format": "async plus one live session over one to two weeks",
+    "price": "$300-$1,500",
+    "price_status": "UNCONFIRMED_CURRENT",
+    "terms_status": "DRAFT",
+    "paid_event_gate": "cleared payment greater than zero for the named Diagnostic"
+  },
+  "proof": {
+    "source": ["Authority.io source 4HqO0h13MX4 supplies the POP proof-loop method"],
+    "practitioner": ["current Final 10 offer architecture", "operator-attested experience"],
+    "demand": [],
+    "delivery": [],
+    "outcome": [],
+    "repeatability": [],
+    "permissions": {
+      "measurement": "UNKNOWN",
+      "quotation": "NO_PERMISSION",
+      "anonymization": "NO_PERMISSION",
+      "reuse": "NO_PERMISSION"
+    }
+  },
+  "stage": {
+    "proof_stage": "STAGE_0_PAID_PROOF",
+    "requested_next_stage": "STAGE_0_PAID_PROOF"
+  },
+  "capacity": {
+    "available_hours_per_week": 10,
+    "working_weeks": 46,
+    "delivery_hours_per_unit": 4,
+    "support_hours_per_unit": 1,
+    "concurrency": 2,
+    "sales_call_limit": 4,
+    "life_constraints": ["preserve deep-work time", "no high-volume call calendar"],
+    "margin_floor": "UNKNOWN"
+  },
+  "acquisition": {
+    "primary_path": "WARM_NETWORK",
+    "secondary_paths": []
+  },
+  "actuals": {
+    "sent": [],
+    "held": [],
+    "sold": [],
+    "collected": [],
+    "delivered_units": []
+  },
+  "economics": {
+    "requested_model": "NONE",
+    "revenue_target": "six figures annually or more",
+    "owner_income_target": "UNKNOWN",
+    "price": "UNCONFIRMED_CURRENT",
+    "capacity": "PARTIAL",
+    "acquisition_actuals": "NO_EVENT",
+    "retention": "NO_EVENT",
+    "costs": "UNKNOWN",
+    "margin": "UNKNOWN",
+    "timeline": "UNKNOWN"
+  },
+  "authorization": {
+    "requested_result": "local route receipt and POP handoff",
+    "authorized_local_outputs": ["cold fixture", "local route receipt", "local verifier receipt"],
+    "forbidden_external_actions": ["outreach", "publishing", "payment setup", "client contact", "registration"],
+    "provenance": "ORCHESTRATOR_ATTESTED"
+  }
+}

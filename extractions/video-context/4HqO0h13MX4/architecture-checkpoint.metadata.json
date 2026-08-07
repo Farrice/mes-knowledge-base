@@ -1,0 +1,23 @@
+{
+  "artifact_type": "architecture_checkpoint",
+  "title": "Expert Practice OS - Architecture Checkpoint",
+  "source_video_id": "4HqO0h13MX4",
+  "status": "cold_build_complete_runtime_pending",
+  "approved_vision": true,
+  "first_public_lane": "ai_powered_authority_business_system_consulting",
+  "first_paid_offer": "final_10_percent_diagnostic",
+  "recommended_build_shape": "cold_two_component_skill_system",
+  "system_component": "expert-practice-os",
+  "source_specific_component": "sunny-lenarduzzi-youtube/04-profitable-offer-prototype",
+  "economics_build_gate": "RUNTIME_OBSERVED",
+  "market_proof": "UNTESTED",
+  "publicly_active": false,
+  "cold_state": "snapshot_cold_unregistered_no_command",
+  "diagnostic_proof": "ORCHESTRATOR_ATTESTED",
+  "registration_eligible": false,
+  "economics_eligible": false,
+  "external_actions_taken": [],
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false
+}
