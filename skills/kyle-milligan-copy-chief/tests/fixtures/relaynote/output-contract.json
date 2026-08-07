@@ -1,0 +1,59 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-output-contract/v2",
+  "deliverable": "Exactly three distinct multi-line openings plus one recommendation",
+  "sections_in_order": [
+    "Opening 1",
+    "Opening 1 Evidence Map",
+    "Opening 2",
+    "Opening 2 Evidence Map",
+    "Opening 3",
+    "Opening 3 Evidence Map",
+    "Recommendation",
+    "Recommendation Evidence Map"
+  ],
+  "opening_rules": {
+    "count": 3,
+    "word_count_each": {
+      "minimum": 55,
+      "maximum": 115
+    },
+    "line_count_each": {
+      "minimum": 4,
+      "maximum": 8
+    },
+    "distinct_hypotheses_required": true,
+    "required_action": "Book a demo",
+    "action_may_appear": "Exactly once per opening and only after the promise/proof spine is clear.",
+    "factual_annotation_format": "Each nonblank opening line must have one exact `- Line N: <verbatim line> | Evidence: <comma-separated PT-* IDs>` row in its adjacent Evidence Map.",
+    "hypothesis_annotation_format": "Each opening Evidence Map begins with `- Hypothesis: <short distinct hypothesis name>`.",
+    "unsupported_fact_policy": "No factual clause without an exact PT-* mapping."
+  },
+  "recommendation_rules": {
+    "choose_exactly_one": true,
+    "explain_with": [
+      "audience fit",
+      "singular promise",
+      "proof fit",
+      "continuation strength"
+    ],
+    "word_count_maximum": 90,
+    "must_not_blend_options": true,
+    "machine_selection_format": "Recommendation Evidence Map begins with exactly one `- Selected: Opening N` row, followed by `- Audience fit:`, `- Singular promise:`, `- Proof fit:`, and `- Continuation strength:` rows; every rationale row ends with `| Evidence: <comma-separated PT-* IDs>`."
+  },
+  "shared_constraints": [
+    "Use only product-truth.json facts.",
+    "Treat every metric as synthetic fixture data.",
+    "Do not copy control brands, metrics, testimonials, or claims.",
+    "Do not claim revenue, conversion, pipeline, closed-won, customer, or market outcomes.",
+    "Do not invent a mechanism, authority, endorsement, owner, or date.",
+    "Do not attack or shame the writer.",
+    "Do not name the route, expert, or workflow in the copy."
+  ],
+  "machine_parse_markers": {
+    "opening_heading_regex": "^## Opening [1-3]$",
+    "evidence_heading_regex": "^### Opening [1-3] Evidence Map$",
+    "recommendation_heading": "## Recommendation",
+    "recommendation_evidence_heading": "### Recommendation Evidence Map"
+  }
+}

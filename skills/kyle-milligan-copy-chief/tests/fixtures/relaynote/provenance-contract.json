@@ -1,0 +1,53 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-provenance-contract/v1",
+  "grades": {
+    "RUNTIME_OBSERVED": {
+      "registration_eligible": true,
+      "requires": [
+        "trusted orchestration event order",
+        "runtime-observed input/read boundary",
+        "runtime-observed fresh context",
+        "runtime-observed model and settings parity",
+        "runtime-observed complete attempt history"
+      ]
+    },
+    "ORCHESTRATOR_ATTESTED": {
+      "registration_eligible": false,
+      "requires": [
+        "orchestrator-created cold worker IDs",
+        "orchestrator-recorded task names and attempt ordinals",
+        "hash-bound declared read paths",
+        "same inherited model declaration"
+      ],
+      "limitation": "The current worker surface does not export tamper-evident actual-read or complete-attempt traces into the run bundle."
+    },
+    "OPERATOR_ATTESTED": {
+      "registration_eligible": false,
+      "limitation": "Final-bundle statements alone cannot prove chronology, route isolation, fresh context, or absence of hidden attempts."
+    }
+  },
+  "verdict_policy": {
+    "PASS_INCREMENTAL_BEHAVIOR": "All content and score thresholds pass with RUNTIME_OBSERVED provenance.",
+    "PASS_DIAGNOSTIC_BEHAVIOR": "All content and score thresholds pass, but provenance is ORCHESTRATOR_ATTESTED or OPERATOR_ATTESTED. This verdict never authorizes registration.",
+    "FAIL_NO_REGISTRATION": "A content, score, fidelity, acceptance, fairness, or provenance-integrity condition fails."
+  },
+  "deterministically_provable": [
+    "inventory and path containment",
+    "file hashes and schemas",
+    "structured output constraints",
+    "score arithmetic, medians, and revealed pair identity",
+    "literal same-replicate initial-to-final deltas"
+  ],
+  "not_provable_from_final_bundle_alone": [
+    "temporal order",
+    "actual reads",
+    "fresh context",
+    "model parity",
+    "absence of extra attempts",
+    "evaluator judgment quality",
+    "causal embodiment",
+    "market performance"
+  ],
+  "proof_boundary": "A diagnostic pass is detached synthetic-fixture evidence only. It is not registration authority, market evidence, or A-tier embodiment proof."
+}

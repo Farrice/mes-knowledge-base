@@ -1,0 +1,40 @@
+{
+  "title": "Source Ledger - Kyle Milligan Copy-Chief System",
+  "artifact_type": "extraction_source_ledger",
+  "status": "human_reviewed_machine_frozen_verified",
+  "source_video_id": "UFNlbNa2T4w",
+  "source_url": "https://www.youtube.com/watch?v=UFNlbNa2T4w&t=31s",
+  "created_date": "2026-08-02",
+  "primary_file": "source-ledger.md",
+  "canonical_source_package": "../video-context/UFNlbNa2T4w",
+  "speaker_classes": [
+    "KYLE-SPOKEN",
+    "MATTHEW-SPOKEN",
+    "CO-AUTHORED",
+    "SELF-REPORTED",
+    "VISUAL",
+    "OPERATIONAL-SYNTHESIS",
+    "UNRESOLVED"
+  ],
+  "planned_machine_speaker_classes": [
+    "KYLE",
+    "MATTHEW",
+    "CO_AUTHORED",
+    "VISUAL",
+    "UNRESOLVED"
+  ],
+  "planned_machine_truth_classes": [
+    "OBSERVED",
+    "SELF_REPORTED",
+    "ILLUSTRATIVE",
+    "THIRD_PARTY",
+    "INFERRED"
+  ],
+  "machine_ledger_status": "frozen_verified_69_atomic_rows",
+  "machine_ledger": "speaker-ledger.jsonl",
+  "machine_ledger_manifest": "speaker-ledger.manifest.json",
+  "machine_ledger_schema": "speaker-ledger.schema.json",
+  "verification_command": "python3 skills/kyle-milligan-copy-chief/tests/verify_source_ledger.py",
+  "verification_status": "PASS",
+  "proof_boundary": "Observed mechanics and attribution only; no commercial-performance or behavior-reproduction claim."
+}

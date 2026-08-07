@@ -1,0 +1,36 @@
+{
+  "atomic_split_human_rows": [
+    "H-001",
+    "H-005",
+    "H-009",
+    "H-015",
+    "H-022",
+    "H-023",
+    "H-025",
+    "H-028",
+    "H-031",
+    "H-036",
+    "H-048",
+    "H-049",
+    "H-054",
+    "H-055"
+  ],
+  "frozen_date": "2026-08-02",
+  "human_ledger_row_count": 55,
+  "ledger_path": "extractions/kyle-milligan-copywriting/speaker-ledger.jsonl",
+  "ledger_sha256": "ea68b46c7ab766a556aae1cf227e23c8db6ab6405c5302c1df9fd369e1b35a3a",
+  "machine_ledger_row_count": 69,
+  "proof_boundary": "Internal source trace and reviewed attribution only; not independent fact, embodiment, behavior, or market proof.",
+  "schema_path": "extractions/kyle-milligan-copywriting/speaker-ledger.schema.json",
+  "schema_sha256": "eab7b3cfa29d35448c73852fe5c4c88ae76816960ee5d6880644eedc924268ce",
+  "schema_version": "kyle-speaker-ledger-manifest/v1",
+  "segment_id_convention": "UFNlbNa2T4w:sNNNNNN; zero-based array index",
+  "source_hashes": {
+    "extractions/video-context/UFNlbNa2T4w/transcript.vtt": "786522ea1ca546c699d7bee62754a939a15d28fc22d19f8faa7c0d4de96e4cd7",
+    "extractions/video-context/UFNlbNa2T4w/transcript_segments.json": "7290780704cd1cefd51d6919e2d6dcf4b6535b6537903e2be58572aa5eb6b0a2",
+    "extractions/video-context/UFNlbNa2T4w/video-context-ledger.json": "c778deadfb590df36ac203db8cf462911fa9d64b2c330de2b7a83f50bb6ee44f"
+  },
+  "source_segment_count": 2915,
+  "source_video_id": "UFNlbNa2T4w",
+  "status": "FROZEN"
+}

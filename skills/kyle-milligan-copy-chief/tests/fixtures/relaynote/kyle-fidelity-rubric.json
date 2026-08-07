@@ -1,0 +1,104 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-kyle-fidelity-rubric/v1",
+  "route_visibility": "unblinded_diagnostic_only",
+  "scale": "0–10 per criterion",
+  "minimum_each": 7,
+  "evidence_policy": {
+    "main_arm_workflows": [
+      "01-531-swipe-discipline",
+      "02-unique-promise-spine",
+      "03-four-beat-opening-builder",
+      "04-first-four-lines-audit"
+    ],
+    "main_arm_required_ids": ["KF-01", "KF-02", "KF-03", "KF-04", "KF-05", "KF-06", "KF-07", "KF-08", "KF-09", "KF-11", "KF-12"],
+    "acceptance_case_evidence": {
+      "KF-07": ["AC-12"],
+      "KF-08": ["AC-09"],
+      "KF-09": ["AC-08"],
+      "KF-10": ["AC-11", "AC-15"],
+      "KF-11": ["AC-05"],
+      "KF-12": ["AC-04", "AC-05", "AC-07", "AC-13", "AC-14", "AC-16", "AC-17", "AC-18"]
+    },
+    "n_a_policy": "N/A cannot pass. A criterion not exercised by the main Arm C build must cite its named isolated acceptance receipt.",
+    "no_all_eight_rule": "Acceptance cases execute independently with one selected route each. They must never be concatenated into an all-eight treatment run."
+  },
+  "criteria": [
+    {
+      "id": "KF-01",
+      "name": "context before copy",
+      "source_owner": "KYLE",
+      "visible_evidence": "The method receipt grounds the draft in the Product Truth Packet, audience, action, and swipe set before writing."
+    },
+    {
+      "id": "KF-02",
+      "name": "5-3-1 swipe discipline",
+      "source_owner": "KYLE",
+      "visible_evidence": "All five controls are read, S2/S1/S3 are broken down, and S2 remains primary for relevance."
+    },
+    {
+      "id": "KF-03",
+      "name": "promise hierarchy",
+      "source_owner": "KYLE",
+      "visible_evidence": "One evidence-derived promise governs beats, sentences, and emotional language."
+    },
+    {
+      "id": "KF-04",
+      "name": "evidence-derived mechanism",
+      "source_owner": "MATTHEW_WITH_KYLE_AGREEMENT",
+      "visible_evidence": "No causal explanation is invented backward from a desired headline."
+    },
+    {
+      "id": "KF-05",
+      "name": "four-beat opening progression",
+      "source_owner": "KYLE",
+      "visible_evidence": "Interrupt, consequential claim, credibility, and demonstrated result remain distinct and ordered."
+    },
+    {
+      "id": "KF-06",
+      "name": "first-four continuation test",
+      "source_owner": "KYLE",
+      "visible_evidence": "The first lines make the reader want the next line without stacking compensating questions."
+    },
+    {
+      "id": "KF-07",
+      "name": "thumbtack continuity",
+      "source_owner": "KYLE",
+      "visible_evidence": "One named concept carries across adjacent sentences."
+    },
+    {
+      "id": "KF-08",
+      "name": "proof texture",
+      "source_owner": "KYLE",
+      "visible_evidence": "Naked adjectives are replaced with relevant, fixture-grounded comparative detail."
+    },
+    {
+      "id": "KF-09",
+      "name": "mumbo-jumbo control",
+      "source_owner": "KYLE",
+      "visible_evidence": "Undefined abstractions are removed or reduced to one supported idea."
+    },
+    {
+      "id": "KF-10",
+      "name": "negative-space diagnosis",
+      "source_owner": "KYLE",
+      "visible_evidence": "The system identifies the missing structural element before line editing."
+    },
+    {
+      "id": "KF-11",
+      "name": "Four Punches distinction and bounded use",
+      "source_owner": "KYLE",
+      "visible_evidence": "Four Punches is treated as a move language, never mislabeled as the separate four-beat opening."
+    },
+    {
+      "id": "KF-12",
+      "name": "truth and attribution discipline",
+      "source_owner": "CROSS_CUTTING",
+      "required_score": 10,
+      "visible_evidence": "Synthetic facts stay qualified, self-reported credentials do not transfer, Matthew-owned material remains attributed, and feedback is non-shaming."
+    }
+  ],
+  "visible_mechanics_required": 3,
+  "pass_rule": "All twelve criteria score at least 7 from declared main-arm or named acceptance-case evidence, KF-12 scores exactly 10, all eighteen isolated acceptance cases pass, and at least three named Kyle mechanics create inspectable main-arm output deltas.",
+  "proof_boundary": "A pass is source-fidelity evidence on one synthetic fixture, not A-tier embodiment proof."
+}

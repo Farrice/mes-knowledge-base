@@ -1,0 +1,27 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-audience-brief/v1",
+  "audience_id": "PT-AUD-001",
+  "primary_reader": "Agency owner or operations lead at a 5–20-person agency",
+  "situation": "They leave client calls with assigned next steps and must turn the transcript into a clear first follow-up.",
+  "job_to_be_done": "Prepare a usable follow-up draft that preserves the named owner and date without spending the median 18 minutes shown in the synthetic manual condition.",
+  "felt_problem": "The follow-up is slow to draft and assigned details can disappear between the call and the first email.",
+  "awareness": "Problem aware; tool-category aware; not assumed to know RelayNote.",
+  "desired_action_id": "PT-ACT-001",
+  "placement": "Problem-aware B2B demo-page opening with unknown prior trust.",
+  "voice_evidence": "UNAVAILABLE",
+  "tone": [
+    "specific",
+    "operational",
+    "calm",
+    "non-shaming"
+  ],
+  "voice_rule": "Use the frozen tone only. Do not imitate Kyle, Matthew, a founder, or an unstated brand voice.",
+  "forbidden_assumptions": [
+    "The reader has lost revenue because of follow-up omissions.",
+    "The reader currently uses a particular CRM or meeting platform.",
+    "The agency is a RelayNote customer.",
+    "The synthetic test represents the market.",
+    "Faster drafting causes higher conversion."
+  ]
+}

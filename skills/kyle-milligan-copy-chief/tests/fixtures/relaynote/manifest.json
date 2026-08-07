@@ -1,0 +1,133 @@
+{
+  "file_count_excluding_manifest": 24,
+  "files": [
+    {
+      "bytes": 2677,
+      "path": "README.md",
+      "sha256": "98f24be9ecdd90570e99c92fb3ce139acffdee1fa47e697a14bdab9a4c33fd8a"
+    },
+    {
+      "bytes": 5601,
+      "path": "acceptance-cases.jsonl",
+      "sha256": "24e759e9997f55bd7a4e4c48c82707152cc0420e109cd4bc606c006d4e65783c"
+    },
+    {
+      "bytes": 8447,
+      "path": "acceptance-contracts.json",
+      "sha256": "f4686f8ad48ac2369074995636bf5a4fb758e67f49cba6dab04d57e0e0f3b7c9"
+    },
+    {
+      "bytes": 2535,
+      "path": "arm-b-adapter.md",
+      "sha256": "806896f687d4c7e4d18ff9e0d75a34c32aa0a0bac62f704058edb2dc42afed01"
+    },
+    {
+      "bytes": 6956,
+      "path": "arm-contracts.json",
+      "sha256": "de6f44130f58afd828ff2c66e24f445ef66c1c81bcb2e2bc5759aa9939af650b"
+    },
+    {
+      "bytes": 1388,
+      "path": "audience-brief.json",
+      "sha256": "a96bec45b4b46c801fb8413732934bfd47dc32301cfce8b6271ce61ecb84ea73"
+    },
+    {
+      "bytes": 2625,
+      "path": "blind-quality-rubric.json",
+      "sha256": "16285471a1051115c257370730aca9e9e2afae64b49d1f6cf7536a678791859c"
+    },
+    {
+      "bytes": 565,
+      "path": "breakdown-lock.json",
+      "sha256": "8f6b3c745b752ea9d9fd80ec4fe9116f1fa7a2498fbee58df29224d5736a8d4a"
+    },
+    {
+      "bytes": 3687,
+      "path": "context-packet.md",
+      "sha256": "ec0d0f16cfbee4ae2ec9165ae12d8f137b3fbb183ebfe8b4fdbce1a4b5ed4ab9"
+    },
+    {
+      "bytes": 2353,
+      "path": "evaluation-protocol.json",
+      "sha256": "c2d07e40aee3c748e8b36b602e1e113afa2882374887107918266f1c80e76734"
+    },
+    {
+      "bytes": 4281,
+      "path": "kyle-fidelity-rubric.json",
+      "sha256": "5cc9c4961991064f7899b92231f47ae2db1cfec032d7d1f604724ca8c5ec59fc"
+    },
+    {
+      "bytes": 2473,
+      "path": "output-contract.json",
+      "sha256": "da0d654be72d0abe580462221585564d02349be0d6c1bc6d622801722a4f0cda"
+    },
+    {
+      "bytes": 13592,
+      "path": "post-run-receipt.schema.json",
+      "sha256": "4849d3eba51cab93fa6338b8899f09722eda3af00aee47dcb1686325ab161201"
+    },
+    {
+      "bytes": 4653,
+      "path": "product-truth.json",
+      "sha256": "e95a166e95e6dcc9cf8993cad9c02a6a0e7141f96ba73476e4f3298c09684dc1"
+    },
+    {
+      "bytes": 2230,
+      "path": "provenance-contract.json",
+      "sha256": "835a453657cfe1b70b9c015de829780fed78917b789ad2cde22ac875319f4aba"
+    },
+    {
+      "bytes": 2311,
+      "path": "run-config.json",
+      "sha256": "a29a4cc2909e53c221a85fbd1f1e8f293b198a98d51dbfa57b848afae1ecd590"
+    },
+    {
+      "bytes": 975,
+      "path": "swipes/S1.md",
+      "sha256": "882eb5b299fc8f76ef5cd485bd848bbacb5042a8e025ead9d5af443909fe1d26"
+    },
+    {
+      "bytes": 1100,
+      "path": "swipes/S2.md",
+      "sha256": "192988e1bfa7fa40e504e58db8c585ac405c0b94cc44b756c24ecca3b8190202"
+    },
+    {
+      "bytes": 1012,
+      "path": "swipes/S3.md",
+      "sha256": "fcf7207dcb66b0869a7f1f01d25c3414e85b734d1ecf8f7419d2c5c5c1d86965"
+    },
+    {
+      "bytes": 899,
+      "path": "swipes/S4.md",
+      "sha256": "d3e57621298386af240ffb5629be7511dcff8f99727352b9ea3596903e1523eb"
+    },
+    {
+      "bytes": 884,
+      "path": "swipes/S5.md",
+      "sha256": "69fc8dc9b95c12b864324ae850f3aa39f3ede6872abb066c7ce1cf98d65b4986"
+    },
+    {
+      "bytes": 1578,
+      "path": "swipes/index.json",
+      "sha256": "b0cfb9ca497d86dee2f613b2ffbedd2be6d775554a06312aee676ac70788b7c4"
+    },
+    {
+      "bytes": 1314,
+      "path": "transfer-veto.json",
+      "sha256": "ace083c20198c6ce7dde0f1d1e16795c2e9f309de3c0b29fba46bf49ce871e12"
+    },
+    {
+      "bytes": 330,
+      "path": "weak-draft.md",
+      "sha256": "84101832546bfc97f03e13ba8199e14310c9685add8e7d74260802f71dc6f20f"
+    }
+  ],
+  "fixture_id": "relaynote-detached-behavior-v1",
+  "frozen_date": "2026-08-02",
+  "immutable_boundary": "Any byte change invalidates prior run receipts and requires a new fixture version and manifest.",
+  "notice": "Fixture data. Not market evidence.",
+  "proof_boundary": "Synthetic detached fixture inputs only; not market evidence, behavior proof, or A-tier embodiment proof until separately run and evaluated.",
+  "run_evidence_boundary": "Generated outputs, route receipts, label maps, and evaluator scores belong outside this directory.",
+  "schema_version": "relaynote-fixture-manifest/v1",
+  "status": "FROZEN_BEFORE_GENERATION"
+}

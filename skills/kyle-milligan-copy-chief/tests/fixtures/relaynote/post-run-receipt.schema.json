@@ -1,0 +1,285 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://antigravity.local/schemas/relaynote-behavior-proof-receipt-v2.json",
+  "title": "RelayNote detached behavior-proof receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_id",
+    "fixture_manifest_sha256",
+    "provenance_grade",
+    "registration_eligible",
+    "provenance_limitations",
+    "label_map_sha256",
+    "arm_b_route_receipts",
+    "arm_c_route_receipts",
+    "replicate_scores",
+    "acceptance_receipts",
+    "arm_b_median",
+    "arm_c_median",
+    "c_minus_b",
+    "blind_preferences_for_c",
+    "hard_failures",
+    "visible_kyle_mechanics",
+    "kyle_fidelity",
+    "verdict",
+    "proof_boundary"
+  ],
+  "properties": {
+    "schema_version": {"const": "relaynote-behavior-proof-receipt/v2"},
+    "run_id": {"type": "string", "minLength": 8},
+    "fixture_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "provenance_grade": {"enum": ["RUNTIME_OBSERVED", "ORCHESTRATOR_ATTESTED", "OPERATOR_ATTESTED"]},
+    "registration_eligible": {"type": "boolean"},
+    "provenance_limitations": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 8}},
+    "label_map_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "arm_b_route_receipts": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "additionalProperties": false,
+        "required": ["replicate_id", "worker_task", "worker_id", "attempt_ordinal", "parent_snapshot", "model_family", "model_version", "settings_sha256", "read_paths", "read_hashes", "owner_path", "owner_sha256", "support_path", "support_sha256", "adapter_path", "adapter_sha256", "fixture_manifest_sha256", "cold_start", "kyle_excluded", "initial_sha256", "audit_sha256", "final_sha256"],
+        "properties": {
+          "replicate_id": {"type": "integer", "minimum": 1, "maximum": 3},
+          "worker_task": {"type": "string", "minLength": 8},
+          "worker_id": {"type": "string", "minLength": 8},
+          "attempt_ordinal": {"const": 1},
+          "parent_snapshot": {"type": "string", "minLength": 8},
+          "model_family": {"type": "string", "minLength": 3},
+          "model_version": {"type": "string", "minLength": 3},
+          "settings_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "read_paths": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 3}},
+          "read_hashes": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+          "owner_path": {"const": "skills/luke-iha-vsl-leads/workflows/vsl-lead-writer.md"},
+          "owner_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "support_path": {"const": "skills/matthew-volkwyn-copywriting/workflows/01-audit-copy.md"},
+          "support_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "adapter_path": {"const": "skills/kyle-milligan-copy-chief/tests/fixtures/relaynote/arm-b-adapter.md"},
+          "adapter_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "fixture_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "cold_start": {"const": true},
+          "kyle_excluded": {"const": true},
+          "initial_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "audit_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "final_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    },
+    "arm_c_route_receipts": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["replicate_id", "worker_task", "worker_id", "attempt_ordinal", "parent_snapshot", "model_family", "model_version", "settings_sha256", "read_paths", "read_hashes", "skill_path", "skill_sha256", "workflow_paths", "workflow_sha256", "speaker_ledger_manifest_sha256", "fixture_manifest_sha256", "cold_start", "baseline_methods_excluded", "swipe_packet_sha256", "promise_card_sha256", "initial_sha256", "audit_sha256", "final_sha256"],
+        "properties": {
+          "replicate_id": {"type": "integer", "minimum": 1, "maximum": 3},
+          "worker_task": {"type": "string", "minLength": 8},
+          "worker_id": {"type": "string", "minLength": 8},
+          "attempt_ordinal": {"const": 1},
+          "parent_snapshot": {"type": "string", "minLength": 8},
+          "model_family": {"type": "string", "minLength": 3},
+          "model_version": {"type": "string", "minLength": 3},
+          "settings_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "read_paths": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 3}},
+          "read_hashes": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}},
+          "skill_path": {"const": "skills/kyle-milligan-copy-chief/SKILL.md"},
+          "skill_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "workflow_paths": {"type": "array", "minItems": 1, "uniqueItems": true},
+          "workflow_sha256": {"type": "object", "minProperties": 1},
+          "speaker_ledger_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "fixture_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "cold_start": {"const": true},
+          "baseline_methods_excluded": {"const": true},
+          "swipe_packet_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "promise_card_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "initial_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "audit_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "final_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    },
+    "replicate_scores": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["replicate_id", "arm_b_score", "arm_c_score", "arm_b_hard_failures", "arm_c_hard_failures", "blind_preference"],
+        "properties": {
+          "replicate_id": {"type": "integer", "minimum": 1, "maximum": 3},
+          "arm_b_score": {"type": "number", "minimum": 0, "maximum": 100},
+          "arm_c_score": {"type": "number", "minimum": 0, "maximum": 100},
+          "arm_b_hard_failures": {"type": "array", "items": {"type": "string"}},
+          "arm_c_hard_failures": {"type": "array", "items": {"type": "string"}},
+          "blind_preference": {"enum": ["B", "C"]}
+        }
+      }
+    },
+    "acceptance_receipts": {
+      "type": "array",
+      "minItems": 18,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["case_id", "case_sha256", "selected_route", "loaded_routes", "read_paths", "expected", "derived_decision", "output_sha256", "route_receipt_sha256", "hard_failures", "pass"],
+        "properties": {
+          "case_id": {"type": "string", "pattern": "^AC-[0-9]{2}$"},
+          "case_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "selected_route": {"type": "string", "minLength": 3},
+          "loaded_routes": {"type": "array", "minItems": 1, "maxItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 3}},
+          "read_paths": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 3}},
+          "expected": {"type": "string", "minLength": 3},
+          "derived_decision": {"type": "string", "minLength": 3},
+          "output_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "route_receipt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "hard_failures": {"type": "array", "items": {"type": "string"}},
+          "pass": {"type": "boolean"}
+        }
+      }
+    },
+    "arm_b_median": {"type": "number", "minimum": 0, "maximum": 100},
+    "arm_c_median": {"type": "number", "minimum": 0, "maximum": 100},
+    "c_minus_b": {"type": "number", "minimum": -100, "maximum": 100},
+    "blind_preferences_for_c": {"type": "integer", "minimum": 0, "maximum": 3},
+    "hard_failures": {"type": "array", "items": {"type": "string"}},
+    "visible_kyle_mechanics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["mechanic_id", "name", "replicate_id", "source_rows", "delta_sha256", "output_delta"],
+        "properties": {
+          "mechanic_id": {"type": "string", "pattern": "^KM-[A-Z0-9-]+$"},
+          "name": {"type": "string", "minLength": 3},
+          "replicate_id": {"type": "integer", "minimum": 1, "maximum": 3},
+          "source_rows": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^SL-[0-9]{3}$"}},
+          "delta_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "output_delta": {"type": "string", "minLength": 12}
+        }
+      }
+    },
+    "kyle_fidelity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["criteria", "truth_score", "minimum_score", "pass"],
+      "properties": {
+        "criteria": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "score", "evidence", "evidence_sources", "evidence_citations"],
+            "properties": {
+              "id": {"type": "string", "pattern": "^KF-[0-9]{2}$"},
+              "score": {"type": "number", "minimum": 0, "maximum": 10},
+              "evidence": {"type": "string", "minLength": 8},
+              "evidence_sources": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": {"type": "string", "pattern": "^(ARM-C-[1-3]|AC-[0-9]{2})$"}
+              },
+              "evidence_citations": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["path", "line_start", "line_end", "excerpt_sha256"],
+                  "properties": {
+                    "path": {"type": "string", "minLength": 3},
+                    "line_start": {"type": "integer", "minimum": 1},
+                    "line_end": {"type": "integer", "minimum": 1},
+                    "excerpt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+                  }
+                }
+              }
+            }
+          }
+        },
+        "truth_score": {"type": "number", "minimum": 0, "maximum": 10},
+        "minimum_score": {"type": "number", "minimum": 0, "maximum": 10},
+        "pass": {"type": "boolean"}
+      }
+    },
+    "verdict": {"enum": ["PASS_INCREMENTAL_BEHAVIOR", "PASS_DIAGNOSTIC_BEHAVIOR", "FAIL_NO_REGISTRATION"]},
+    "proof_boundary": {"const": "Synthetic detached fixture behavior only; not market evidence or A-tier embodiment proof."}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"verdict": {"const": "PASS_INCREMENTAL_BEHAVIOR"}}},
+      "then": {
+        "properties": {
+          "provenance_grade": {"const": "RUNTIME_OBSERVED"},
+          "registration_eligible": {"const": true},
+          "arm_b_median": {"minimum": 65},
+          "arm_c_median": {"minimum": 80},
+          "c_minus_b": {"minimum": 15},
+          "blind_preferences_for_c": {"minimum": 2},
+          "hard_failures": {"maxItems": 0},
+          "visible_kyle_mechanics": {"minItems": 3},
+          "acceptance_receipts": {
+            "items": {
+              "properties": {
+                "hard_failures": {"maxItems": 0},
+                "pass": {"const": true}
+              }
+            }
+          },
+          "kyle_fidelity": {
+            "properties": {
+              "truth_score": {"const": 10},
+              "minimum_score": {"minimum": 7},
+              "pass": {"const": true}
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {"properties": {"verdict": {"const": "PASS_DIAGNOSTIC_BEHAVIOR"}}},
+      "then": {
+        "properties": {
+          "provenance_grade": {"enum": ["ORCHESTRATOR_ATTESTED", "OPERATOR_ATTESTED"]},
+          "registration_eligible": {"const": false},
+          "arm_b_median": {"minimum": 65},
+          "arm_c_median": {"minimum": 80},
+          "c_minus_b": {"minimum": 15},
+          "blind_preferences_for_c": {"minimum": 2},
+          "hard_failures": {"maxItems": 0},
+          "visible_kyle_mechanics": {"minItems": 3},
+          "acceptance_receipts": {
+            "items": {
+              "properties": {
+                "hard_failures": {"maxItems": 0},
+                "pass": {"const": true}
+              }
+            }
+          },
+          "kyle_fidelity": {
+            "properties": {
+              "truth_score": {"const": 10},
+              "minimum_score": {"minimum": 7},
+              "pass": {"const": true}
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {"properties": {"verdict": {"const": "FAIL_NO_REGISTRATION"}}},
+      "then": {"properties": {"registration_eligible": {"const": false}}}
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-product-truth/v1",
+  "product": {
+    "name": "RelayNote",
+    "status": "fictional",
+    "category": "post-call follow-up drafting tool"
+  },
+  "truths": [
+    {
+      "id": "PT-AUD-001",
+      "kind": "audience",
+      "value": "agencies with 5–20 people",
+      "copy_permission": "May identify the intended buyer; do not imply all such agencies share the measured problem."
+    },
+    {
+      "id": "PT-CAP-001",
+      "kind": "capability",
+      "value": "turns a call transcript into a draft follow-up email",
+      "copy_permission": "May say drafts or prepares; never say sends, guarantees, or autonomously executes follow-up."
+    },
+    {
+      "id": "PT-CAP-002",
+      "kind": "capability",
+      "value": "extracts an assigned next-step owner and date when those details appear in the transcript",
+      "copy_permission": "Must always retain the when-present qualifier. PT-MET-004 does not remove or weaken it."
+    },
+    {
+      "id": "PT-TEST-001",
+      "kind": "test_design",
+      "value": "30-day synthetic test",
+      "copy_permission": "If used, must include synthetic or fixture language."
+    },
+    {
+      "id": "PT-TEST-002",
+      "kind": "test_design",
+      "value": "12 fictional agencies",
+      "copy_permission": "May describe fixture scale only; never call these customers."
+    },
+    {
+      "id": "PT-TEST-003",
+      "kind": "test_design",
+      "value": "1,248 synthetic call records",
+      "copy_permission": "May describe fixture scale only; never call these live calls."
+    },
+    {
+      "id": "PT-MET-001",
+      "kind": "synthetic_metric",
+      "value": "23% of assigned next steps were absent from the first manually drafted follow-up",
+      "denominator": "all assigned next steps recorded across 1,248 synthetic call records",
+      "copy_permission": "Must identify manual follow-ups and the synthetic test; does not prove RelayNote prevents every omission."
+    },
+    {
+      "id": "PT-MET-002",
+      "kind": "synthetic_metric",
+      "value": "18 minutes median manual drafting time",
+      "denominator": "the 30-day synthetic test",
+      "copy_permission": "May compare directly with PT-MET-003 only when both are labeled fixture results."
+    },
+    {
+      "id": "PT-MET-003",
+      "kind": "synthetic_metric",
+      "value": "4 minutes median RelayNote drafting time",
+      "denominator": "the 30-day synthetic test",
+      "copy_permission": "May compare directly with PT-MET-002 only when both are labeled fixture results."
+    },
+    {
+      "id": "PT-MET-004",
+      "kind": "synthetic_metric",
+      "value": "91% owner-and-date extraction accuracy",
+      "denominator": "a held-out 200-call synthetic fixture",
+      "copy_permission": "Must include the held-out 200-call fixture context; does not prove live-customer accuracy."
+    },
+    {
+      "id": "PT-ACT-001",
+      "kind": "action",
+      "value": "Book a demo",
+      "copy_permission": "The only permitted call to action."
+    }
+  ],
+  "mechanism_status": {
+    "status": "NOT_VERIFIED_NON_APPLICABLE",
+    "rule": "Mechanism-led claims and proprietary causal explanations are forbidden."
+  },
+  "opportunity_graph": {
+    "classification": "fixture synthesis from listed PT IDs; no new fact",
+    "catalyst": {
+      "statement": "A completed agency call can produce a transcript containing an assigned next-step owner or date when those details were stated.",
+      "truth_ids": ["PT-CAP-001", "PT-CAP-002"]
+    },
+    "recurring_pattern": {
+      "statement": "The synthetic manual condition shows both assigned-detail omission and drafting-time burden.",
+      "truth_ids": ["PT-TEST-001", "PT-TEST-002", "PT-TEST-003", "PT-MET-001", "PT-MET-002"]
+    },
+    "bounded_path": {
+      "statement": "RelayNote uses the completed transcript to prepare a draft follow-up and extract the owner/date when present.",
+      "truth_ids": ["PT-CAP-001", "PT-CAP-002"]
+    },
+    "supported_fixture_result": {
+      "statement": "The frozen synthetic conditions report a 4-minute median draft and 91% owner/date accuracy on the held-out 200-call fixture.",
+      "truth_ids": ["PT-MET-003", "PT-MET-004"]
+    }
+  },
+  "explicitly_unproven": [
+    "revenue lift",
+    "conversion lift",
+    "pipeline efficiency",
+    "pipeline growth",
+    "closed-won impact",
+    "customer adoption",
+    "live-market performance",
+    "causal business outcomes",
+    "endorsements",
+    "78% faster",
+    "14 minutes saved",
+    "perfect capture of next steps"
+  ],
+  "proof_boundary": "All facts are synthetic fixture facts. None are market evidence."
+}
