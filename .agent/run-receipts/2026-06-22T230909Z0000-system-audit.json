@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-22T23:09:09+00:00",
+  "query": "Google Antigravity operator core back-port",
+  "route": "system-audit",
+  "status": "PASS",
+  "owner": "Google operator core",
+  "support_gates": "source-to-skill-system, steering-compass, routing-enforcer",
+  "expert_lenses": "",
+  "subagent_boundary": "No real Codex subagents used or authorized",
+  "meta_intent": "Back-port Codex-style operator preflight, hot command parity, manual hook gates, and steering closeout into Google Antigravity",
+  "composition_owner": "system-audit",
+  "feedback_hook": "Use codex_operator_preflight.py before meaningful raw-intent system work",
+  "changed": "Hot routes added; system-audit upgraded; preflight/verifier/contextual prompts/run receipts/parity manifest installed; routing boosts and bindings repaired",
+  "passed": "verify_google_operator_core.py; workflow_router.py stats; targeted routing_enforcer.py check; preflight smoke prompts; py_compile for new helpers",
+  "failed": "none",
+  "needs_judgment": "",
+  "next_action": "Use python3 execution/codex_operator_preflight.py \"<raw intent>\" --plain before the next meaningful system run."
+}

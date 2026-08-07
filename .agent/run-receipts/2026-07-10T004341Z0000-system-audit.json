@@ -1,0 +1,20 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-07-10T00:43:41+00:00",
+  "query": "Wave 2c gates.py + autopilot compression",
+  "route": "/system-audit",
+  "status": "PASS",
+  "owner": "/system-audit",
+  "support_gates": "",
+  "expert_lenses": "",
+  "subagent_boundary": "",
+  "subagents_requested": "",
+  "meta_intent": "",
+  "composition_owner": "",
+  "feedback_hook": "",
+  "changed": "execution/gates.py (new), .agent/workflows/autopilot.md",
+  "passed": "G1 fixture (--dice 1, exit 2); G2 est-cost fixture (--dice 4 --est-cost 12, exit 2); G2 live cost_gate service fixture (higgsfield-cinema needs_approval, exit 2); G3 slop fixture (known-slop.md FLAGGED 10/10, exit 2); clean run (--dice 5, exit 0); G3 sub-threshold expert-score pass; py_compile clean",
+  "failed": "none",
+  "needs_judgment": "Three autopilot taste gates now deterministic via gates.py; claim_audit companion wired into G3 row; blind_pass.py not landed yet",
+  "next_action": "live autopilot run with gates.py"
+}

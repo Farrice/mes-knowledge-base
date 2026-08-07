@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-23T04:38:10+00:00",
+  "query": "Add clean public build for portfolio editor workflow",
+  "route": "local portfolio editing tool",
+  "status": "PASS",
+  "owner": "main-thread",
+  "support_gates": "publish safety",
+  "expert_lenses": "",
+  "subagent_boundary": "No subagents used",
+  "meta_intent": "Keep editor local-only while producing publishable static site",
+  "composition_owner": "main-thread",
+  "feedback_hook": "",
+  "changed": "build-public.mjs; dist/ public build; recruiter send guide",
+  "passed": "Public build script removes edit-mode script and excludes editor.html/editor-server.mjs/edit-mode.js while preserving site-edits.json and content-overrides.js",
+  "failed": "No external publish performed",
+  "needs_judgment": "Clean dist folder is the correct publishing target",
+  "next_action": "Publish dist after host approval"
+}

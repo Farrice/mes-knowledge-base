@@ -1,0 +1,20 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-07-10T00:55:23+00:00",
+  "query": "Wave 2b blind_pass + chain_runner latches + auditor promotion",
+  "route": "/system-audit",
+  "status": "PASS",
+  "owner": "/system-audit",
+  "support_gates": "",
+  "expert_lenses": "",
+  "subagent_boundary": "",
+  "subagents_requested": "",
+  "meta_intent": "",
+  "composition_owner": "",
+  "feedback_hook": "",
+  "changed": "execution/blind_pass.py (new), execution/chain_runner.py, execution/skill_auditor.py, .agent/workflows/extract.md, .agent/workflows/extract-forge.md",
+  "passed": "py_compile x3; 25/25 fixture tests (.tmp/wave2-fixtures/test_wave2.py); blind_pass full cycle sandboxed; finalize refusals exit 1 (BLIND-PASS MISSING, ANCHOR REQUIRED); ben-watkins heartbeat 5/6 gate-clear; kallaway-content-operating-system 1/6 gate-capped; full audit 3s, 8 skills A→B capped; --advisory logged",
+  "failed": "none",
+  "needs_judgment": "7.25 flatten = intended taste_signature Rule 2 per-dim cap (E3-confirmed), now refused loudly at input instead of silently flattened",
+  "next_action": "extraction QC live trial"
+}
