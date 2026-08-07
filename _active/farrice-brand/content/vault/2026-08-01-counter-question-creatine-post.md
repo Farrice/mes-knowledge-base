@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P1
 bucket: Authority
 ring: Bridge
-source_brief: _active/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md
 notes: Save-carrier is the 36-women/four-groups/different-form nugget — pin as first comment. Post 7-9am PT weekday, 60-90 min replies. Visual: creatine tub shot from buyer eye level in a store aisle.
 ---
 

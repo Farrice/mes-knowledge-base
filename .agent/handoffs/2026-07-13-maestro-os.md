@@ -18,8 +18,8 @@ pin: true
 - `directives/orchestration-doctrine.md` — the Conductor Ladder + pattern table + tiers (canonical conducting law; in all 4 constitutions)
 - `.agent/workflows/go.md` — /go v2 Mission Card spec (goal spine, T1/T2/T3, missions log)
 - `.agent/missions.jsonl` — 3 missions WAITING on Farrice (PMF card, fidelity review, Kandi shoot)
-- `_active/prompt-wiring-os-2026-07-13/proof/JUDGMENT.md` — the A/B proof + jam record
-- `_active/mybpm-merch-os-run-1/04-deliverables/week1-hero-video.md` — FINAL shoot-ready hero asset
+- `_active/harness/prompt-wiring-os-2026-07-13/proof/JUDGMENT.md` — the A/B proof + jam record
+- `_active/mybpm/mybpm-merch-os-run-1/04-deliverables/week1-hero-video.md` — FINAL shoot-ready hero asset
 
 ## Current State
 - **Objective:** world-class harness operation — deterministic floor, uncapped ceiling, model-agnostic conducting.

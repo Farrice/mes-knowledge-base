@@ -32,7 +32,7 @@ Plan and produce serial narrative LinkedIn content — posts that function as ch
 Read:
 - `skills/fresh-voice-system/genius.md` (serial narrative methodology)
 - `skills/fresh-voice-system/SKILL.md` (voice DNA)
-- `_active/linkedin-launch/04-deliverables/content-os/arcs/` (check for active arcs — avoid theme collisions)
+- `_active/linkedin/04-deliverables/content-os/arcs/` (check for active arcs — avoid theme collisions)
 
 #### 2. Execute Workflow
 Run `skills/fresh-voice-system/workflows/01-arc-planning.md`:
@@ -41,8 +41,8 @@ Run `skills/fresh-voice-system/workflows/01-arc-planning.md`:
 - Design the arc with chapter outlines, open loops, and bridge point
 
 #### 3. Save Output
-Create directory: `_active/linkedin-launch/04-deliverables/content-os/arcs/[NN]-[arc-slug]/`
-Save arc plan to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[NN]-[arc-slug]/arc-plan.md`
+Create directory: `_active/linkedin/04-deliverables/content-os/arcs/[NN]-[arc-slug]/`
+Save arc plan to: `_active/linkedin/04-deliverables/content-os/arcs/[NN]-[arc-slug]/arc-plan.md`
 
 #### 4. Present for Review
 Show the arc plan to Farrice. This is a checkpoint — the arc plan must be approved before producing chapters.
@@ -55,7 +55,7 @@ Show the arc plan to Farrice. This is a checkpoint — the arc plan must be appr
 Read:
 - `skills/fresh-voice-system/genius.md` (methodology + meta-prompt)
 - `skills/fresh-voice-system/SKILL.md` (voice DNA)
-- The arc plan: `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/arc-plan.md`
+- The arc plan: `_active/linkedin/04-deliverables/content-os/arcs/[arc-name]/arc-plan.md`
 - All existing chapters in the arc (for continuity)
 
 #### 2. Determine Next Chapter
@@ -74,7 +74,7 @@ Run `skills/fresh-voice-system/workflows/02-serial-content-production.md`:
 Every chapter must pass the Serial Narrative Standard (genius.md) AND Voice Quality checks (SKILL.md) before delivery.
 
 #### 5. Save Output
-Save each chapter to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/ch[NN]-[slug].md`
+Save each chapter to: `_active/linkedin/04-deliverables/content-os/arcs/[arc-name]/ch[NN]-[slug].md`
 
 ---
 
@@ -82,7 +82,7 @@ Save each chapter to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[
 
 #### 1. Load Context
 Same as `/serial-arc next` plus:
-- Current offer details from `_active/linkedin-launch/02-offer/proof-run-offer-page.md`
+- Current offer details from `_active/linkedin/02-offer/proof-run-offer-page.md`
 
 #### 2. Execute Workflow
 Run `skills/fresh-voice-system/workflows/03-bridge-post-production.md`:
@@ -93,14 +93,14 @@ Run `skills/fresh-voice-system/workflows/03-bridge-post-production.md`:
 Must pass all serial narrative checks PLUS bridge-specific checks (Remove-the-Offer Test, Earn Test, Understatement Test, Friend Test).
 
 #### 4. Save Output
-Save to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/bridge-[slug].md`
+Save to: `_active/linkedin/04-deliverables/content-os/arcs/[arc-name]/bridge-[slug].md`
 
 ---
 
 ### For `/serial-arc status`
 
 #### 1. Scan Active Arcs
-Read `_active/linkedin-launch/04-deliverables/content-os/arcs/` directory.
+Read `_active/linkedin/04-deliverables/content-os/arcs/` directory.
 
 #### 2. For Each Arc
 - Read the arc plan

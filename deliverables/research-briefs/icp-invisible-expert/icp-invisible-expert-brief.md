@@ -82,9 +82,9 @@ Dr. Maya Patel is a composite built from published research and community langua
 Staleness: the source document is dated March 2026 by its own header, so community language and platform mechanics carry several months of drift. Re-verify the LinkedIn algorithm claims and refresh the language map before any paid campaign leans on this profile.
 
 ## swings to
-- [SOURCE] deep icp profile: the invisible expert — _active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md
+- [SOURCE] deep icp profile: the invisible expert — _active/linkedin/01-research/deep-icp-profile-invisible-expert.md
 - [BRIEF] briefing room index — deliverables/research-briefs/index.html
 
 ## Context pack (agent feed)
-- `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` — primary ICP research
+- `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` — primary ICP research
 - `deliverables/research-briefs/index.html` — related · BRIEF

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:38:14.078010+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/platform-bakeoff",
+  "dst": "_active/harness/platform-bakeoff",
+  "stub_left": false,
+  "files_moved": 13,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_platform-portability-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/memory-bakeoff/04-deliverables/bake-off-protocol.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/platform-bakeoff/START-HERE.html": 56
+  },
+  "total_rewrites": 60,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

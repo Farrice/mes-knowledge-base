@@ -57,7 +57,7 @@ CLIENTS = {
             "Felt verdicts on Jen listing hooks/scripts/captions — Farrice's taste calls "
             "and Jen's own picks/rejections. Consumed by prompts-v2/listing-hook-set.md "
             "(calibration outranks defaults); register ladder canon lives in "
-            "_active/jen-listings/CLAUDE.md."
+            "_active/clients/jen-listings/CLAUDE.md."
         ),
     },
 }

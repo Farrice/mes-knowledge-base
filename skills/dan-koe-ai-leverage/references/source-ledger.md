@@ -9,7 +9,7 @@
 > (14,529 chars, MES extraction report — confirmed present, non-empty).
 > No 0-byte or missing source files found for this skill; the earlier
 > "codex-harvest" and claude-export tarball checks turned up nothing
-> additional (`_active/codex-harvest-2026-06-11/extractions/` has no
+> additional (`_active/harness/codex-harvest-2026-06-11/extractions/` has no
 > Dan Koe entry) — extraction-report + transcript are the full source set.
 
 ## Sources Consulted
@@ -18,7 +18,7 @@
 |---|---|---|
 | `extractions/dan-koe/transcript.txt` | 26,836 chars | VERIFIED present, read in full |
 | `extractions/dan-koe/extraction-report-ai-leverage.md` | 14,529 chars | VERIFIED present, read in full |
-| `_active/codex-harvest-2026-06-11/extractions/` (Dan Koe entry) | — | UNCONFIRMED / absent — searched, no match found |
+| `_active/harness/codex-harvest-2026-06-11/extractions/` (Dan Koe entry) | — | UNCONFIRMED / absent — searched, no match found |
 | claude-export tarball (`_archive/claude-export-2026-07-01.tar.gz`) | 332,779,255 bytes | Not opened — extraction-report + transcript already provide full coverage for this skill's claims; no gap required cracking the archive |
 
 ## Claim-by-Claim Ledger

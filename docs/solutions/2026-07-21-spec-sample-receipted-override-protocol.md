@@ -20,4 +20,4 @@ Absence claims must be scope-limited to the sample actually read ("in the issues
 Before rewriting ANY flagged line in prospect-voice copy: (1) is the line in the verbatim corpus? → keep + receipt. (2) Is it an intimate marker? → de-mimic + name aloud. (3) Is it ours? → rewrite. If the research agent captured no verbatim corpus, stop: the sample cannot be built yet.
 
 ## Where it lives
-Applied artifacts: `_active/linkedin-launch/04-deliverables/spec-samples/SPEC-ROSNER-2026-07-21.md`, `SPEC-BROXTERMAN-2026-07-21.md` (internal notes carry the receipt pattern). Buyer panel: `councils/buyers/practitioner-founders.md`.
+Applied artifacts: `_active/linkedin/04-deliverables/spec-samples/SPEC-ROSNER-2026-07-21.md`, `SPEC-BROXTERMAN-2026-07-21.md` (internal notes carry the receipt pattern). Buyer panel: `councils/buyers/practitioner-founders.md`.

@@ -3,7 +3,7 @@
 event_listener.py — External events → mission-queue cards (deterministic, no LLM).
 
 Born 2026-08-06 from the God Agent delta memo, adoptable move #1
-(`_active/mastery-forge/01-research/god-agent-delta.md`): the harness was
+(`_active/knowledge/mastery-forge/01-research/god-agent-delta.md`): the harness was
 clock-driven only — nothing outside the machine could wake it. This listener
 closes that gap by POLLING event sources and minting T1 Mission Cards into
 `.agent/mission-queue/pending/`, which execution/mission_runner.py already

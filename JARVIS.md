@@ -302,8 +302,8 @@ Active client projects use Claude Code's parent-folder CLAUDE.md inheritance. Wh
 
 | Project | File | When it loads |
 |---------|------|---------------|
-| Andrea / Resonance | `_active/andrea-dj/CLAUDE.md` | Working from `_active/andrea-dj/` or subfolders |
-| Jen Santulan | `_active/jen-listings/CLAUDE.md` | Working from `_active/jen-listings/` or subfolders |
+| Andrea / Resonance | `_active/clients/andrea-dj/CLAUDE.md` | Working from `_active/clients/andrea-dj/` or subfolders |
+| Jen Santulan | `_active/clients/jen-listings/CLAUDE.md` | Working from `_active/clients/jen-listings/` or subfolders |
 | Farrice / Parallax | `_active/farrice-brand/CLAUDE.md` | Working from `_active/farrice-brand/` or subfolders |
 
 Each child CLAUDE.md declares (a) inheritance from root, (b) one-paragraph brand identity, (c) "when to load full context" table, (d) override list (where this project diverges from root), (e) anti-patterns specific to the client.
@@ -351,4 +351,4 @@ Your council is ready. Your skill library is loaded. Your evolution tissue is wi
 *Last full review: 2026-05-12*
 *Refresh trigger: drift > 60 days OR significant architectural change (new tier, new chain step, new protocol category)*
 *Protocol version: 2.0*
-*Source for v2.0 refresh: `_active/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 5*
+*Source for v2.0 refresh: `_active/_archive/2026-08-07-sweep/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 5*

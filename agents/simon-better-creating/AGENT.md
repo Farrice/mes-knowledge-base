@@ -22,4 +22,4 @@
 ## Skill Integration
 - **Home skill**: `skills/simon-intellectual-library-os/` (12 workflows, `/library-*`)
 - **Compounds with**: `/extract`/`/extract-forge` (bridge extractions into the library) · `/convene` (grounded advisor boards) · Recall + sovereign memory (shared atom) · memory-architect (tiers/decay × schema) · boris-claude (Claude ops) · nate-b-jones context engineering.
-- **Deployment scenarios**: the Antigravity Intellectual Library in Notion (`_active/notion-intellectual-library/`) · grounded client advisors (Jen, Andrea, MyBPM brand KBs) · `knowledge/` wiki layer upgrade · post-extraction bridging as standard pipeline step.
+- **Deployment scenarios**: the Antigravity Intellectual Library in Notion (`_active/knowledge/notion-intellectual-library/`) · grounded client advisors (Jen, Andrea, MyBPM brand KBs) · `knowledge/` wiki layer upgrade · post-extraction bridging as standard pipeline step.

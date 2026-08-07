@@ -30,14 +30,14 @@
 
 | You need | Canonical source | This doc's role |
 |---|---|---|
-| **The current offer, price, ladder, campaign state** | `_active/linkedin-launch/CAMPAIGN.md` (+ `02-offer/PROOF-TO-MARKET-OS.md`) | **Pointer only.** Never inline a price here. |
+| **The current offer, price, ladder, campaign state** | `_active/linkedin/CAMPAIGN.md` (+ `02-offer/PROOF-TO-MARKET-OS.md`) | **Pointer only.** Never inline a price here. |
 | **Voice — full stylometrics, registers, dial, calibration** | `_active/farrice-brand/voice/VOICE-CARD.md` (v1.2, `status: canonical`) + `voice/REGISTER-ATLAS.md` (how he talks off the clock, measured from 30,606 sent messages) | §6 carries the law + the calibration bank; the card and atlas carry the depth |
 | **His raw, unedited words** | `_active/farrice-brand/thought-bank/inbox/*.md` | **Load this before writing in his voice.** Use his words, not better-written versions of his words. |
-| **Buyer / ICP intelligence** | `_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md` (`status: canonical`), `ICP-BATTLE-CARD.md` | Pointer |
+| **Buyer / ICP intelligence** | `_active/linkedin/01-research/MARKET-ICP-DOSSIER-2026-06.md` (`status: canonical`), `ICP-BATTLE-CARD.md` | Pointer |
 | **Per-project context** | that project's `INDEX.md`; the map is root `PROJECTS.md` | Pointer |
 | **Brand/voice project rules** | `_active/farrice-brand/CLAUDE.md` | Pointer |
 | **Who he is, the story, the wounds, the values, the thesis** | **THIS DOCUMENT** | Canonical and deep — this is the only home |
-| **Notion self-work extracts (9 docs, Sept 2025–May 2026)** | `_active/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` | Cited source |
+| **Notion self-work extracts (9 docs, Sept 2025–May 2026)** | `_active/farrice-brand/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md` | Cited source |
 | **Nine years of private notes (2017–2026, eras + finds)** | `_active/farrice-brand/identity/notes-excavation-2026-08-04.md` | Cited source — the excavation report; raw notes never committed |
 
 ---
@@ -233,4 +233,4 @@ The interview is otherwise complete. New self-knowledge merges in with a version
 
 ---
 
-*Sources: 9 Notion self-work docs (`_active/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md`) · workspace sweep (`extracts/WORKSPACE-SELF.md`) · FOUNDER-CONTEXT-BRIEF v1.0 §12, absorbed and retired · thought-bank verbatim (`_active/farrice-brand/thought-bank/inbox/2026-07-27.md`, `2026-07-29.md`) · his own biography corrections and voice rules issued in-session (archive `e8728194`) · path-council record 2026-07-01. Every quoted line is his, verbatim.*
+*Sources: 9 Notion self-work docs (`_active/farrice-brand/farrice-master-context-2026-07-07/extracts/NOTION-SELF-WORK.md`) · workspace sweep (`extracts/WORKSPACE-SELF.md`) · FOUNDER-CONTEXT-BRIEF v1.0 §12, absorbed and retired · thought-bank verbatim (`_active/farrice-brand/thought-bank/inbox/2026-07-27.md`, `2026-07-29.md`) · his own biography corrections and voice rules issued in-session (archive `e8728194`) · path-council record 2026-07-01. Every quoted line is his, verbatim.*

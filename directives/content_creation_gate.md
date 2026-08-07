@@ -26,7 +26,7 @@ amnesty_note: >
 | Long-form / Guide | Dan Koe + Nicolas Cole + Harry Dry |
 
 ### Step 1b: Writers' Room (Profile Content Only)
-Profile content → `.agent/workflows/writers-room.md` EXPECTED from draft 1. 3-layer treatment: Structure → Emotion → Platform/Voice. Additional: check `_active/linkedin-launch/04-deliverables/content-os/arcs/` for off-limits language, write reader-as-protagonist (≥4 recognition beats), confirm char limits via `memory/content-voice-calibration.md`.
+Profile content → `.agent/workflows/writers-room.md` EXPECTED from draft 1. 3-layer treatment: Structure → Emotion → Platform/Voice. Additional: check `_active/linkedin/04-deliverables/content-os/arcs/` for off-limits language, write reader-as-protagonist (≥4 recognition beats), confirm char limits via `memory/content-voice-calibration.md`.
 
 ## Step 2: Card Check (T0 — EXPECTED)
 Read `agents/_framework/invocation-cards.md` → confirm experts, identify PAIRS WITH, find ENTRY PROMPT.

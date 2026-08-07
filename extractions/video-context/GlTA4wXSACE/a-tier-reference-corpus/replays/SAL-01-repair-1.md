@@ -177,9 +177,9 @@ The minimum strategy, transformation, proof, truth-boundary, and deployment info
 
 ## Source paths named by the brief but not opened
 
-- `_active/parallax-icp-offer/offer/sales-page-brief.md`
-- `_active/parallax-icp-offer/proof/before-after-artifacts.md`
-- `_active/parallax-icp-offer/bridge/landing-page.md`
+- `_active/_archive/2026-08-07-sweep/parallax-icp-offer/offer/sales-page-brief.md`
+- `_active/_archive/2026-08-07-sweep/parallax-icp-offer/proof/before-after-artifacts.md`
+- `_active/_archive/2026-08-07-sweep/parallax-icp-offer/bridge/landing-page.md`
 
 ## Exit condition used
 

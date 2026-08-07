@@ -41,7 +41,7 @@ Grounding: Luke Carter's own demo instantiates #3 and #4 directly — before gen
 
 ## Verbatim Source Material (Luke Carter, Timestamped Transcript)
 
-Every quote below is reconstructed from overlapping auto-caption rows in `_active/codex-harvest-2026-06-11/extractions/video-context/_3SEUgRCXX0/video-context-ledger.md` (506 timestamped spoken-evidence rows, confidence: high/caption-subtitle) against *I Replaced My Social Media Designer With ONE AI Prompt* (Luke Carter, published 2026-05-06, https://www.youtube.com/watch?v=_3SEUgRCXX0). Two known ASR artifacts are preserved verbatim below rather than silently corrected: "GBT" for "GPT," and one likely "go optimized" mis-hear (probably "GEO optimized").
+Every quote below is reconstructed from overlapping auto-caption rows in `_active/harness/codex-harvest-2026-06-11/extractions/video-context/_3SEUgRCXX0/video-context-ledger.md` (506 timestamped spoken-evidence rows, confidence: high/caption-subtitle) against *I Replaced My Social Media Designer With ONE AI Prompt* (Luke Carter, published 2026-05-06, https://www.youtube.com/watch?v=_3SEUgRCXX0). Two known ASR artifacts are preserved verbatim below rather than silently corrected: "GBT" for "GPT," and one likely "go optimized" mis-hear (probably "GEO optimized").
 
 > "I specifically didn't want to make this fully autonomous. I wanted to make the writing automated." (00:01:55–00:02:00)
 

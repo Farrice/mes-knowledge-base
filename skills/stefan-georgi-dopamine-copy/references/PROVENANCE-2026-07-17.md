@@ -37,7 +37,7 @@ absent from the repo. This absence claim was checked, not assumed:
   references/prompts-v2/, workflows/copy-thinker-judgment-loop.md, and
   .agent/prompt-index.json, which indexes those same files) — zero hits in
   any raw source/extraction location.
-- `find _active/codex-harvest-2026-06-11/skills/stefan-georgi-dopamine-copy` →
+- `find _active/harness/codex-harvest-2026-06-11/skills/stefan-georgi-dopamine-copy` →
   contains only a mirrored SKILL.md, no additional source material.
 
 Conclusion: the RMBC 2.0 / Copy Thinker layer's underlying transcript is

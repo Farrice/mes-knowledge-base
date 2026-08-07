@@ -43,7 +43,7 @@ model conducts; when Fable is gone, that's Opus. Sonnet never conducts a fleet.
 |---|---|---|---|
 | 1 | Instrument false-negative (auditor regex) | worker reading auditor source | `Output Contract` accepted; re-census after big repair waves |
 | 2 | Quarantine path drift | merge from contract path only | fleet_merge copies from contract path; path claims are claims |
-| 3 | False absence claim ("0 bytes", "no source exists") | Opus verify | envelope rule 2; verify prompt checks negatives; `wc -c` not `wc -l`; THREE-LOCATION RULE: absence claims must name searches of root `extractions/`, the claude-export tarball, AND `_active/codex-harvest-2026-06-11/extractions/` — fewer = unverified (fired 2026-07-18, sweat-equity). Inverse form (lazy-UNCONFIRMED on findable facts) fired same day (tom-noske) — "scan not needed" is itself an absence claim |
+| 3 | False absence claim ("0 bytes", "no source exists") | Opus verify | envelope rule 2; verify prompt checks negatives; `wc -c` not `wc -l`; THREE-LOCATION RULE: absence claims must name searches of root `extractions/`, the claude-export tarball, AND `_active/harness/codex-harvest-2026-06-11/extractions/` — fewer = unverified (fired 2026-07-18, sweat-equity). Inverse form (lazy-UNCONFIRMED on findable facts) fired same day (tom-noske) — "scan not needed" is itself an absence claim |
 | 4 | Workers running git writes | reflog forensics | envelope git-read-only rule; conductor-only commits |
 | 5 | Hollow delivery (paperwork, no payload) | empty-dir check | fleet_merge exit 3 on empty; never merge a summary |
 
@@ -75,7 +75,7 @@ One flip per week, each gated on the prior gate's week-1 review in `/weekly-clos
 
 `finalize --verdict SHIP|MARGINAL|FAIL --precedent EVAL-0XX` is live and advisory;
 results accrue in `evolution_store/verdict_advisory.jsonl`. R2 (blocking) ships ONLY
-after Farrice ratifies `_active/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md`
+after Farrice ratifies `_active/harness/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md`
 and a week of advisory data shows sane behavior. Spec + rollout table live in that doc.
 
 ## Hard rules that never bend

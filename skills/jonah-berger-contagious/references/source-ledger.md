@@ -12,7 +12,7 @@ below was run by content, not filename, before writing that conclusion down
 |---|---|---|
 | `extractions/` | `ls extractions/ \| grep -i berger` | 0 matches — no berger/jonah/contagious file exists |
 | `agents/jonah-berger/` | Read `AGENT.md`, `memory/context.md` | Persona + activation card only, no source transcript, no verbatim quotes beyond what's already in genius.md |
-| `_active/codex-harvest-2026-06-11/` | `find ... -iname "*berger*"` | 0 matches |
+| `_active/harness/codex-harvest-2026-06-11/` | `find ... -iname "*berger*"` | 0 matches |
 | `_archive/claude-export-2026-07-01.tar.gz` | File exists, 332,779,255 bytes, 3,864 entries (`tar tzf` count). `tar tzf ... \| grep -i jonah`, `grep -i berger`, `grep -i contagio` | 0 matches on all three terms — the export this skill's frontmatter cites (`source: claude.ai export 2026-07-01`) does not contain a Jonah Berger file |
 | Repo-wide grep | `grep -rl "STEPPS\|Trojan-horse\|REDUCE.*Reactance\|Valuetainment"` across `.md/.txt/.json`, excluding the skill itself and worktree mirrors | Only hits: `SLASH_COMMANDS.md`, `.claude/commands/jonah-berger-contagious.md`, `agents/_framework/invocation-cards.md`, `agents/jonah-berger/AGENT.md`, `.agent/prompt-index.json`, `agents/jonah-berger/memory/context.md` — all downstream references to this skill, not an independent primary source |
 

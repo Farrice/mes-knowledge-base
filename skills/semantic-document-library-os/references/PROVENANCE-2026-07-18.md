@@ -10,7 +10,7 @@ use; none were paraphrased into quotation marks.
 repo root. Before concluding sources were absent, ran a per-fragment search
 across the repo (`grep -rli "work primitive"` / `"semantic document"`) which
 surfaced the real extraction inside the historical harvest copy:
-`_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/`.
+`_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/`.
 Confirmed with `wc -c` (not `wc -l`):
 
 - `transcript.txt` — 26,202 bytes
@@ -26,7 +26,7 @@ transcript, so that was ground truth.
 ## Quote → Source Line Map
 
 All quotes below are verbatim substrings of
-`_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/transcript.txt`
+`_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/transcript.txt`
 (single continuous paragraph, no line numbers in the source file — located by
 exact-string presence, confirmed by direct read of the full 26,202-byte
 file during this repair).
@@ -62,4 +62,4 @@ Two anti-pattern anchors are NOT Jones quotes and are labeled as such in
 
 ## Metadata (video title, channel, URL, date)
 
-Source: `_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/extraction-brief.md`, confirmed also in the live `skills/semantic-document-library-os/SKILL.md` frontmatter line 10 (`source: "Nate B. Jones - The Work Primitive: What Every AI Product Leader Gets Wrong (YouTube, 2026-05) + existing Nate B. Jones Antigravity skills"`) — both agree, so this was treated as VERIFIED metadata rather than re-fetched from YouTube.
+Source: `_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/extraction-brief.md`, confirmed also in the live `skills/semantic-document-library-os/SKILL.md` frontmatter line 10 (`source: "Nate B. Jones - The Work Primitive: What Every AI Product Leader Gets Wrong (YouTube, 2026-05) + existing Nate B. Jones Antigravity skills"`) — both agree, so this was treated as VERIFIED metadata rather than re-fetched from YouTube.

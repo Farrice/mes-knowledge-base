@@ -3,14 +3,14 @@
 
 Selects canonical prompts that don't yet have a structure-pure v2 (v2-exists check = the
 resume mechanism), ranks money-path first, groups by skill (one fleet agent per group, no
-shared files), writes `_active/prompt-renaissance/wave-input.json`.
+shared files), writes `_active/harness/prompt-renaissance/wave-input.json`.
 
 Usage:
     python3 execution/renaissance_queue.py --wave-size 150     # next wave (default)
     python3 execution/renaissance_queue.py --wave-size 200 --include-extractions
     python3 execution/renaissance_queue.py --status            # remaining counts only
 
-Standard + fleet-prompt template: _active/prompt-renaissance/04-deliverables/RUNBOOK.md
+Standard + fleet-prompt template: _active/harness/prompt-renaissance/04-deliverables/RUNBOOK.md
 Legacy mirrors (skills/*/references/_legacy-prompts/) are duplicates of the canonical
 prompts and are NEVER queued.
 """
@@ -74,7 +74,7 @@ def main() -> int:
     groups: dict = {}
     for e in wave:
         groups.setdefault(e["skill"], []).append({"path": e["path"], "title": e["title"]})
-    data = {"standard": "structure-pure-v2 (see _active/prompt-renaissance/04-deliverables/RUNBOOK.md)",
+    data = {"standard": "structure-pure-v2 (see _active/harness/prompt-renaissance/04-deliverables/RUNBOOK.md)",
             "total": len(wave), "remaining_after_wave": len(cands) - len(wave),
             "groups": [{"skill": s, "prompts": ps}
                        for s, ps in sorted(groups.items(), key=lambda kv: -len(kv[1]))]}

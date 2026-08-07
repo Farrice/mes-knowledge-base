@@ -10,8 +10,8 @@ The build will not create a second Model Council, generic autonomy doctrine, ski
 
 - Primary source: [Inside Perplexity’s AI-Powered Go-To-Market Team](https://www.youtube.com/watch?v=DHc6NtoZzAM)
 - Extraction evidence: [source ledger](source-ledger.md) and [Deep MES extraction](deep-mes-extraction.md)
-- Revenue truth: [pipeline](../../_active/linkedin-launch/05-lead-gen/pipeline.md), [proof tracker](../../_active/linkedin-launch/05-lead-gen/proof-tracker.md), [cash scoreboard](../../_active/linkedin-launch/05-lead-gen/CASH-SCOREBOARD-2026-07-29.md), and [Angle Map activation packet](../../_active/linkedin-launch/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md)
-- Customer truth: [ICP Truth Map](../../_active/linkedin-launch/04-deliverables/context-os/03-ICP-TRUTH-MAP.md) and [Proof Library](../../_active/linkedin-launch/04-deliverables/context-os/06-PROOF-LIBRARY.md)
+- Revenue truth: [pipeline](../../_active/linkedin/05-lead-gen/pipeline.md), [proof tracker](../../_active/linkedin/05-lead-gen/proof-tracker.md), [cash scoreboard](../../_active/linkedin/05-lead-gen/CASH-SCOREBOARD-2026-07-29.md), and [Angle Map activation packet](../../_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md)
+- Customer truth: [ICP Truth Map](../../_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md) and [Proof Library](../../_active/linkedin/04-deliverables/context-os/06-PROOF-LIBRARY.md)
 - Content truth: [Signal Loop README](../../_active/farrice-brand/content/signal-loop/README.md), [audience profile](../../_active/farrice-brand/content/signal-loop/audience-profile.md), [winning-content profile](../../_active/farrice-brand/content/signal-loop/profiles/winning-content-linkedin.md), [content queue](../../_active/farrice-brand/content/signal-loop/queues/content-queue.md), and [first idea run](../../_active/farrice-brand/content/signal-loop/runs/ideas-2026-07-30-linkedin.md)
 
 ## Skill System Contract
@@ -271,10 +271,10 @@ Each substantial artifact receives a metadata sidecar. The deployment is read-on
 
 Canonical inputs:
 
-- `_active/linkedin-launch/05-lead-gen/pipeline.md`
-- `_active/linkedin-launch/05-lead-gen/proof-tracker.md`
-- `_active/linkedin-launch/05-lead-gen/CASH-SCOREBOARD-2026-07-29.md`
-- `_active/linkedin-launch/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md`
+- `_active/linkedin/05-lead-gen/pipeline.md`
+- `_active/linkedin/05-lead-gen/proof-tracker.md`
+- `_active/linkedin/05-lead-gen/CASH-SCOREBOARD-2026-07-29.md`
+- `_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md`
 
 Required output:
 
@@ -291,8 +291,8 @@ The deployment must not send messages, change lead status, create an invoice, or
 
 Canonical inputs:
 
-- `_active/linkedin-launch/04-deliverables/context-os/03-ICP-TRUTH-MAP.md`
-- `_active/linkedin-launch/04-deliverables/context-os/06-PROOF-LIBRARY.md`
+- `_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md`
+- `_active/linkedin/04-deliverables/context-os/06-PROOF-LIBRARY.md`
 - revenue artifacts listed above
 
 Required output:
@@ -331,11 +331,11 @@ The deployment will not mutate the canonical content queue. A candidate can ente
 
 The current live evidence says:
 
-- The [pipeline](../../_active/linkedin-launch/05-lead-gen/pipeline.md) contains 15 research-backed candidates and 7 contact-verified candidates.
-- The [cash scoreboard](../../_active/linkedin-launch/05-lead-gen/CASH-SCOREBOARD-2026-07-29.md) records `sent: 0`, `held: 0`, `sold: 0`, and `collected: $0`.
-- The [pipeline](../../_active/linkedin-launch/05-lead-gen/pipeline.md) keeps exact-offer demand **UNCONFIRMED**.
-- The [proof tracker](../../_active/linkedin-launch/05-lead-gen/proof-tracker.md) records no paid Angle Maps.
-- The [Proof Library](../../_active/linkedin-launch/04-deliverables/context-os/06-PROOF-LIBRARY.md) records no client case studies for the offer.
+- The [pipeline](../../_active/linkedin/05-lead-gen/pipeline.md) contains 15 research-backed candidates and 7 contact-verified candidates.
+- The [cash scoreboard](../../_active/linkedin/05-lead-gen/CASH-SCOREBOARD-2026-07-29.md) records `sent: 0`, `held: 0`, `sold: 0`, and `collected: $0`.
+- The [pipeline](../../_active/linkedin/05-lead-gen/pipeline.md) keeps exact-offer demand **UNCONFIRMED**.
+- The [proof tracker](../../_active/linkedin/05-lead-gen/proof-tracker.md) records no paid Angle Maps.
+- The [Proof Library](../../_active/linkedin/04-deliverables/context-os/06-PROOF-LIBRARY.md) records no client case studies for the offer.
 - The [Signal Loop README](../../_active/farrice-brand/content/signal-loop/README.md) keeps the current content system **PROVISIONAL** because live performance evidence is absent.
 
 Historical tracked paid receipts may support Farrice’s practitioner history, but they are not proof that the $750 Angle Map sells. The deployment verifier will fail if any artifact collapses that distinction.

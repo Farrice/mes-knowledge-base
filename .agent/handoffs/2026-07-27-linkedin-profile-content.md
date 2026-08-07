@@ -16,7 +16,7 @@ pin: true
 
 ## Load First
 
-- `_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md` — all final copy. **§3 About v9 is the register reference**; §0 holds the Wide→Deep→Bridge→Home architecture that governs every downstream piece.
+- `_active/linkedin/03-launch/2026-07-27-profile-and-content-package.md` — all final copy. **§3 About v9 is the register reference**; §0 holds the Wide→Deep→Bridge→Home architecture that governs every downstream piece.
 - `_active/farrice-brand/voice/VOICE-CARD.md` v1.1 — §4 "The Spine Choice" (confession-I vs recognition-you vs banned dictation-you) and §6 "The imperfection principle."
 - `_active/farrice-brand/thought-bank/inbox/2026-07-27.md` — Farrice's raw supplement lived-experience, verbatim. Use his words, not better-written versions of them.
 - `.agent/missions/teardown-first-sends/portable.md` — the paste-ready prompt for the fresh session.

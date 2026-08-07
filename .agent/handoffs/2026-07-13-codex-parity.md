@@ -14,8 +14,8 @@ pin: true
 - **Not in scope:** re-verifying the hook layer (live-fire receipts exist), rebuilding the raw-intent bridge, anything against the Gemini CLI (dead platform, EOL'd 2026-06-18).
 
 ## Load First
-- `_active/codex-parity-2026-07-13/proof/JUDGMENT.md` — the A/B scorecard + the one actionable gap (voice card), already patched
-- `_active/codex-parity-2026-07-13/proof/take-a-claude-code.md` + `take-b-codex.md` — the jam material
+- `_active/harness/codex-parity-2026-07-13/proof/JUDGMENT.md` — the A/B scorecard + the one actionable gap (voice card), already patched
+- `_active/harness/codex-parity-2026-07-13/proof/take-a-claude-code.md` + `take-b-codex.md` — the jam material
 - `docs/solutions/2026-07-13-codex-hooks-config-present-not-firing.md` — live-fire verification method; read before ANY "is X wired?" question
 - `AGENTS.md` §"Hooks on Codex" + §"Voice layer" — the rewritten constitution sections the re-run tests
 - `.agent/handoffs/2026-07-13-codex-parity.md` — full mission record (what shipped, do-NOTs)
@@ -33,7 +33,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-/resume codex-parity — jam time: show me take-a and take-b side by side from _active/codex-parity-2026-07-13/proof/, take my gut verdict, bank it via voice-ratchet, then re-run the same golden brief on Codex (codex exec, read-only) and tell me if the voice-card rule in AGENTS.md closed the texture gap.
+/resume codex-parity — jam time: show me take-a and take-b side by side from _active/harness/codex-parity-2026-07-13/proof/, take my gut verdict, bank it via voice-ratchet, then re-run the same golden brief on Codex (codex exec, read-only) and tell me if the voice-card rule in AGENTS.md closed the texture gap.
 ```
 
 ## Acceptance Criteria

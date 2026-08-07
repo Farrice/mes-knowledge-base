@@ -92,7 +92,7 @@ Route here for `buyer-trigger-os`, `Meg Heckman buyer psychology`, `apparel buye
 
 Josh and MyBPM are proof lanes from the original deployment request. They are not default templates and must not narrow generic use.
 
-- Load `_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_TRIGGER_PASS.md` only when the query explicitly mentions Josh, swing-nerd shirts, or asks for Josh examples.
+- Load `_active/clients/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_TRIGGER_PASS.md` only when the query explicitly mentions Josh, swing-nerd shirts, or asks for Josh examples.
 - Load `deliverables/designs/20260414_181005_mybpm_edm_streetwear_tee_with_prompt.json` and the MyBPM proof section in `extractions/video-context/7MNa2YTPGs4/meg-heckman-buyer-trigger-os-harvest.md` only when the query explicitly mentions MyBPM, EDM streetwear, or asks for MyBPM examples.
 - For generic apparel, POD, offer, product, landing-page, or client work, start from the user's actual buyer, product, and use context.
 

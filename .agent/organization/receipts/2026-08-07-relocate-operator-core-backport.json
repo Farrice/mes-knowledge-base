@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:38:07.003477+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/operator-core-backport",
+  "dst": "_active/harness/operator-core-backport",
+  "stub_left": false,
+  "files_moved": 7,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/operator-core-backport/START-HERE.html": 14,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/archive/google_operator_core_parity_manifest.py": 1
+  },
+  "total_rewrites": 16,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

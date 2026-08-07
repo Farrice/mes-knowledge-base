@@ -7,7 +7,7 @@ status: enriched
 
 # Antigravity Harness — Amnesty + Apex Unhobble v1 — What We Built 2026-07-29 and How to Use It
 
-> The biggest single-day rebuild since the system existed: the Rule Amnesty stripped ~70% of per-message machinery and resolved 16 rule contradictions; Harness Apex closed the two organs that were missing (metabolism — telemetry that gets READ; focus — work that gets FINISHED); the constitutions became generated artifacts; Farrice got a driver's card, a morning notification, and a fresh-pen run packet for the profile copy after 4 renditions hit the brake. Companions: `OPERATOR-ROUTINE.md` (the driver's card) · `.agent/missions/profile-copy-fresh-0730/portable.md` (the queued mission) · `_active/linkedin-launch/04-deliverables/lane-briefs-2026-07-29.md` (the three-lane business map) · memories `project_rule-amnesty-2026-07-29` + `project_harness-apex-2026-07-29`.
+> The biggest single-day rebuild since the system existed: the Rule Amnesty stripped ~70% of per-message machinery and resolved 16 rule contradictions; Harness Apex closed the two organs that were missing (metabolism — telemetry that gets READ; focus — work that gets FINISHED); the constitutions became generated artifacts; Farrice got a driver's card, a morning notification, and a fresh-pen run packet for the profile copy after 4 renditions hit the brake. Companions: `OPERATOR-ROUTINE.md` (the driver's card) · `.agent/missions/profile-copy-fresh-0730/portable.md` (the queued mission) · `_active/linkedin/04-deliverables/lane-briefs-2026-07-29.md` (the three-lane business map) · memories `project_rule-amnesty-2026-07-29` + `project_harness-apex-2026-07-29`.
 
 ## ⚡ If you only read 10 lines
 

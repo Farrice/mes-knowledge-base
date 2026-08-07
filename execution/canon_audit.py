@@ -69,11 +69,23 @@ def main() -> int:
         return 1
     canonical, superseded, drift, unmarked = audit(root)
 
+    # CANON.md is DEMOTED as of 2026-08-07. It used to open with "Canonical
+    # (read these)", which is exactly the attractor Farrice diagnosed: a
+    # stamped snapshot outranking newer cumulative work. The front door is the
+    # entry point now; this file survives only as a wrong-not-just-old list,
+    # because project_filer.EXEMPT_NAMES and the placement hook both pin the
+    # name and other tools still expect it to exist.
     lines = [f"# CANON — {root.name}", "",
-             f"Generated {date.today().isoformat()} by canon_audit.py. Regenerate after any mission that adds or retires a load-bearing doc. Frontmatter is the source of truth; this file is the map.", ""]
-    lines.append("## Canonical (read these)")
-    lines += [f"- `{r}`" + (f" (supersedes {s})" if s else "") for r, s in canonical] or ["- none stamped yet"]
-    lines.append("")
+             "> **This is not the front door. Read `START-HERE.md`.**",
+             "> Current-ness is decided by the living-vs-record rule, not by a",
+             "> stamp: an undated filename is the living doc, a filename leading",
+             "> with a date is a record. See `directives/artifact-placement.md`.",
+             "",
+             f"Generated {date.today().isoformat()} by canon_audit.py. This file now lists only docs that were *wrong* (explicitly superseded), plus stamp drift. Merely-older is the date rule's job.", ""]
+    if canonical:
+        lines.append("## ⚠ Retired `status: canonical` stamps — delete these")
+        lines += [f"- `{r}` — remove the stamp; if it is truth, it should be the undated living doc in its folder" for r, _s in canonical]
+        lines.append("")
     lines.append("## Superseded / archived (do NOT build on these)")
     lines += [f"- `{r}` → read `{s}` instead" for r, s in superseded] or ["- none"]
     if drift:

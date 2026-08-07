@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:45:36.663784+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/mybpm-merch-os-run-1",
+  "dst": "_active/mybpm/mybpm-merch-os-run-1",
+  "stub_left": false,
+  "files_moved": 29,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_fantastic-studio.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_meg-heckman-buyer-trigger-os.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-maestro-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/jam/taste-ledger.jsonl": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/workflows/voice-over.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/platform-bakeoff/tasks/task-02-copy-block-cold-start.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-wiring-os-2026-07-13/proof/take-b-wired.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/mybpm/mybpm-merch-os-run-1/START-HERE.html": 154,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/councils/buyers/calibration.jsonl": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/councils/buyers/mybpm-streetwear.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-06-10-meg-heckman-buyer-trigger-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-07-13-fantastic-studio.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/meg-heckman-buyer-trigger-os/SKILL.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/meg-heckman-buyer-trigger-os/references/implementation.md": 1
+  },
+  "total_rewrites": 169,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

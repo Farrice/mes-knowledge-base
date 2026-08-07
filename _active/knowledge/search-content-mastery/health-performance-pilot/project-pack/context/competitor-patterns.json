@@ -1,0 +1,9 @@
+{
+  "evidence_refs": [
+    "_active/knowledge/health-performance-ip-library/review-packets/source-to-search-trust-layer-adversarial-review.md"
+  ],
+  "patterns": [
+    "proof is scattered across pages, calls, and source links"
+  ],
+  "schema_version": "search-context/v1"
+}

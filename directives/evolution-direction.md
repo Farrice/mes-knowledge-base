@@ -26,7 +26,7 @@
 - Phase 3 cross-pollination (audit's prescription remains: don't activate until tier classification is verified)
 - Autonomous skill modification on skills WITHOUT ground-truth coverage
 
-**Authority**: Plan file `/Users/farricecain/.claude/plans/i-ve-been-noticing-performance-abstract-unicorn.md` (verification test passed). Audit at `_active/system-audit/audit-2026-04-24.md`. Verification trace: `evolution_store/v2_traces/trace_20260504_105639_lara-acosta-linkedin-mastery.json`.
+**Authority**: Plan file `/Users/farricecain/.claude/plans/i-ve-been-noticing-performance-abstract-unicorn.md` (verification test passed). Audit at `_active/harness/system-audit/audit-2026-04-24.md`. Verification trace: `evolution_store/v2_traces/trace_20260504_105639_lara-acosta-linkedin-mastery.json`.
 
 ---
 

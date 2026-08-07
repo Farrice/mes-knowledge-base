@@ -14,14 +14,14 @@ pin: true
 - **Not in scope:** real-money anything (gate is NO-GO: 38/200 prospective), the prediction-markets/Kalshi track (separate ledger, later), re-researching anything (52-source brief is on disk), re-extracting the God Agent video, selling the god-agent offer (uncaged but first move is Chris's $0 proof install — Farrice sends the text himself).
 
 ## Load First
-- `_active/mastery-forge/INDEX.md` — project doctrine, decisions, Oracle quick reference
-- `_active/mastery-forge/01-research/gate-baseline.md` — honest ledger state + open items
+- `_active/knowledge/mastery-forge/INDEX.md` — project doctrine, decisions, Oracle quick reference
+- `_active/knowledge/mastery-forge/01-research/gate-baseline.md` — honest ledger state + open items
 - `skills/nba-betting-edge/references/oracle-2026-research.md` — edge sources, no-vig CLV method, calibration fix path, WNBA lane rationale
 - `~/.claude/plans/i-need-you-to-joyful-fountain.md` — the living plan (Parts 1-4, expand never replace)
 
 ## Current State
 - **Objective:** a forged betting master under a falsifiable graduation exam; it decides, Farrice executes; real money locked until `live_trader.py check` says GO (200+ prospective bets, >53%, positive CLV, calibrated confidence).
-- **What is already done (2026-08-06, all committed on main):** gate integrity (226 backfills excluded; prospective baseline 38/200 · 57.9%); `paper_trader.py closes` (CLV auto-capture) + quota persistence in `odds_fetcher.api_request`; Oracle Board v2 LIVE cockpit at `http://127.0.0.1:8765/oracle` (pulse_serve `/oracle` route, 3 allow-listed actions with CLI twins, system-activity strip, ROI splits, drill-downs, demo mode, nav quad) — every action verified over HTTP; event listener + Desktop "Agent Inbox" + weekly harness-evals/verdict-to-diff card minters + notify.py (all launchd-loaded); God Agent harvest (riley-brown corpus extension + delta memo, all 5 adoptable moves SHIPPED); god-agent offer UNCAGED with Miller positioning package + Chris 2-week proof-install plan + demo kit (`_active/mastery-forge/02-offer/`); Sean Perry verified (poker pro; replicable part = receipts-driven content lane, plan Part 3F).
+- **What is already done (2026-08-06, all committed on main):** gate integrity (226 backfills excluded; prospective baseline 38/200 · 57.9%); `paper_trader.py closes` (CLV auto-capture) + quota persistence in `odds_fetcher.api_request`; Oracle Board v2 LIVE cockpit at `http://127.0.0.1:8765/oracle` (pulse_serve `/oracle` route, 3 allow-listed actions with CLI twins, system-activity strip, ROI splits, drill-downs, demo mode, nav quad) — every action verified over HTTP; event listener + Desktop "Agent Inbox" + weekly harness-evals/verdict-to-diff card minters + notify.py (all launchd-loaded); God Agent harvest (riley-brown corpus extension + delta memo, all 5 adoptable moves SHIPPED); god-agent offer UNCAGED with Miller positioning package + Chris 2-week proof-install plan + demo kit (`_active/knowledge/mastery-forge/02-offer/`); Sean Perry verified (poker pro; replicable part = receipts-driven content lane, plan Part 3F).
 - **What is uncertain or stale:** Odds API remaining quota (UNCONFIRMED until first line fetch; page shows it once `.agent/odds-api-quota.json` populates); WNBA stats source for the projection engine not yet chosen (the NBA engine reads `execution/nba_stats.py` — a WNBA equivalent is the port's real work); C5 confidence inversion stands until calibration ships; gmail/calendar listener sources SKIPPED until Farrice runs `gws auth login`.
 - **Latest proof/receipt:** live-server battery 2026-08-06 ~13:00 — all 3 oracle actions `{ok:true}` with real side effects (note→minted card `card-event-inbox-2026-08-06-oracle-note-130348.md`), jail holds, siblings regression-clean; finalize rows 8.33/8.33/8.0/8.33 PASS in `knowledge/log.md`.
 
@@ -34,7 +34,7 @@ pin: true
 ## Exact Next Prompt
 ```text
 Continue the Mastery Forge / Oracle project (thread: mastery-forge). Read
-_active/mastery-forge/INDEX.md, 01-research/gate-baseline.md, and
+_active/knowledge/mastery-forge/INDEX.md, 01-research/gate-baseline.md, and
 skills/nba-betting-edge/references/oracle-2026-research.md first.
 
 Build 1 — WNBA port: parameterize execution/odds_fetcher.py (SPORT hardcoded
@@ -55,7 +55,7 @@ Binding: prospective-only counting, separate ledger per lane, no real money
 ## Acceptance Criteria
 - `paper_trader.py slate` produces a WNBA slate from live lines; bets logged with `event_id`, prospective class.
 - `paper_trader.py closes` captures WNBA closing lines; CLV data points > 0 on the gate readout.
-- Calibration layer merged: gate calibration row driven by Platt-adjusted scores + ECE shown; leakage check result documented in `_active/mastery-forge/01-research/`.
+- Calibration layer merged: gate calibration row driven by Platt-adjusted scores + ECE shown; leakage check result documented in `_active/knowledge/mastery-forge/01-research/`.
 - Oracle Board reflects all of it after one refresh; Odds API quota visible on-page.
 
 ## Risk Notes

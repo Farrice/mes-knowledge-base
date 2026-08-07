@@ -30,7 +30,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## CLI Reference
 
 All script commands (calibration, audit, knowledge compiler, cost/forge gates): **`directives/cli-reference.md`**.
-**Read `_active/system-audit/audit-2026-04-24.md` before significantly changing the system.** Directive nav: `directives/INDEX.md`.
+**Read `_active/harness/system-audit/audit-2026-04-24.md` before significantly changing the system.** Directive nav: `directives/INDEX.md`.
 
 ---
 
@@ -190,7 +190,7 @@ Primitives table (who owns what): `directives/system-primitives.md`.
 
 **Knowledge Sources**: Local files (primary) · Notion (5 DBs) · **Recall** (3,000+ cards, Tier 1.5 auto) · **Episodic memory** (full CC/Codex conversation history, superpowers plugin; query via `memory_facade --sources episodic`) · Video Vision (`/watch` + `fetch-video-context.py`) · NotebookLM (100/mo) · Perplexity ($30/mo) · Hermes (shell-only, `directives/hermes-usage-policy.md`).
 
-**Memory stack (3-layer, 2026-06-23)**: L1 episodic capture = superpowers `episodic-memory` plugin (mechanical SessionStart hook, ~133k exchanges, local, $0; the canonical auto-capture layer — **do NOT install claude-mem**, it adds ungated spend) → L2 semantic = `.memory/sovereign.db` (fed from L1 via launchd `harvest-memory-daily` 07:40 + `distill-weekly` Sun 04:00, both running ingest→embed→distill; human review via `memory_review.py` stays manual) → L3 second brain = Notion Simon Library (live sync = `mirror_notion.py` → `.memory/sovereign.db` nightly `mirror-nightly`; `_active/notion-intellectual-library/` is historical deploy docs, not a live mirror). `memory_facade.py` is the single front door. Bake-off protocol: `_active/memory-bakeoff/`.
+**Memory stack (3-layer, 2026-06-23)**: L1 episodic capture = superpowers `episodic-memory` plugin (mechanical SessionStart hook, ~133k exchanges, local, $0; the canonical auto-capture layer — **do NOT install claude-mem**, it adds ungated spend) → L2 semantic = `.memory/sovereign.db` (fed from L1 via launchd `harvest-memory-daily` 07:40 + `distill-weekly` Sun 04:00, both running ingest→embed→distill; human review via `memory_review.py` stays manual) → L3 second brain = Notion Simon Library (live sync = `mirror_notion.py` → `.memory/sovereign.db` nightly `mirror-nightly`; `_active/knowledge/notion-intellectual-library/` is historical deploy docs, not a live mirror). `memory_facade.py` is the single front door. Bake-off protocol: `_active/harness/memory-bakeoff/`.
 
 **Key files (on-demand)**: `PRODUCTION_CORE.md` (the ~25 that do the work) · `OPERATING_MANUAL.md` (how Farrice runs this) · `COUNCIL.md` · `DOMAIN_REGISTRY.md` · `JARVIS.md` · `FARRICE.md`.
 
@@ -219,8 +219,8 @@ Child CLAUDE.md files auto-load client-specific voice/constraints when you `cd` 
 
 | Project | File | Domain |
 |---------|------|--------|
-| Andrea / Resonance | `_active/andrea-dj/CLAUDE.md` | Curated daytime sober dance party, Chicago |
-| Jen Santulan | `_active/jen-listings/CLAUDE.md` | LA real estate, SFV specialist |
+| Andrea / Resonance | `_active/clients/andrea-dj/CLAUDE.md` | Curated daytime sober dance party, Chicago |
+| Jen Santulan | `_active/clients/jen-listings/CLAUDE.md` | LA real estate, SFV specialist |
 | Farrice / Parallax | `_active/farrice-brand/CLAUDE.md` | Substack + LinkedIn, memoir-grade interiority |
 
 **Inheritance contract**: declare inheritance from root; one-paragraph brand identity (pointer, not duplicate); "When to Load Full Context" table; **Override List**; client-specific Anti-Patterns.

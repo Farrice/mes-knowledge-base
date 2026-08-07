@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:44:46.452067+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/video-studio-shakedown",
+  "dst": "_active/video-studio/video-studio-shakedown",
+  "stub_left": false,
+  "files_moved": 47,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_video-studio-edit-bay.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/assets/assets-board.html": 47,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-08-06-video-studio-edit-bay.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/inspection.json": 41,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/video-studio/video-studio-shakedown/05-assets/video/transcript.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-08-06-video-studio-edit-bay.md": 2
+  },
+  "total_rewrites": 95,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

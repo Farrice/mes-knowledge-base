@@ -55,7 +55,7 @@ Magnetic They Stop Scrolling ft. Erica Mallett," THE 505 PODCAST ep. 177).
 
 ```
 ls extractions/ | grep -i mallet                     # → zero results
-find _active/codex-harvest-2026-06-11 -iname "*mallet*"  # → agents/erica-mallet/AGENT.md (8,285 bytes)
+find _active/harness/codex-harvest-2026-06-11 -iname "*mallet*"  # → agents/erica-mallet/AGENT.md (8,285 bytes)
                                                           #   skills/erica-mallet-brand-magnetism/ (mirror, +2 unshipped sections)
 tar tzf _archive/claude-export-2026-07-01.tar.gz | grep -i mallet   # → zero filename hits (expected: it's one big JSON)
 tar xzOf _archive/claude-export-2026-07-01.tar.gz | grep -a -c -i mallet  # → 252 content hits

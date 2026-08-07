@@ -4,7 +4,7 @@ created: 2026-08-05
 
 # Jen Listing-Content Calibration Log
 
-Felt verdicts on Jen listing hooks/scripts/captions — Farrice's taste calls and Jen's own picks/rejections. Consumed by prompts-v2/listing-hook-set.md (calibration outranks defaults); register ladder canon lives in _active/jen-listings/CLAUDE.md.
+Felt verdicts on Jen listing hooks/scripts/captions — Farrice's taste calls and Jen's own picks/rejections. Consumed by prompts-v2/listing-hook-set.md (calibration outranks defaults); register ladder canon lives in _active/clients/jen-listings/CLAUDE.md.
 
 | date | verdict | line | why | source |
 |------|---------|------|-----|--------|

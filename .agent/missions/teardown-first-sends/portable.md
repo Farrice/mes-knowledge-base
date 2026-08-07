@@ -7,7 +7,7 @@
 
 I'm Farrice Cain. Positioning and creative strategy for supplement, recovery, and performance brands. Read these three files before you write anything:
 
-1. `_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md` — the finished profile copy. **Section 3 (About v9) is the register reference. Match its voice, not your default.**
+1. `_active/linkedin/03-launch/2026-07-27-profile-and-content-package.md` — the finished profile copy. **Section 3 (About v9) is the register reference. Match its voice, not your default.**
 2. `_active/farrice-brand/voice/VOICE-CARD.md` v1.1 — especially §4 "The Spine Choice" and §6 "The imperfection principle."
 3. `_active/farrice-brand/thought-bank/inbox/2026-07-27.md` — my raw lived experience, verbatim. Use my words, not better-written versions of my words.
 

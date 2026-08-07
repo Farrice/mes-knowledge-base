@@ -2,8 +2,8 @@
 
 All anchors trace to two files, both verified present via direct read + `wc -c` on 2026-07-17 (no root-level `extractions/brandon-jacoby-taste-mastery/` exists; the repo's live copy is under the codex-harvest mirror):
 
-- `_active/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/transcript.txt` — 56,449 bytes
-- `_active/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/source-metadata.md` — 741 bytes
+- `_active/harness/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/transcript.txt` — 56,449 bytes
+- `_active/harness/codex-harvest-2026-06-11/extractions/brandon-jacoby-taste-mastery/source-metadata.md` — 741 bytes
 
 Every quote inserted into `genius.md` (Core Genius, Master Principle, Genius Patterns 1-10, Signature Moves, Anti-Patterns, Verbatim Exemplars, Stacking Notes) is an exact contiguous substring of `transcript.txt`, checked by manual string comparison against the full transcript read into context during this repair. Full claim-by-claim table with VERIFIED/LIKELY/UNCONFIRMED labels: `references/source-ledger.md`.
 

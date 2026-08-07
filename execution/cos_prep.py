@@ -998,7 +998,7 @@ def render_listening(listening) -> list:
     cut = listening.get("lines") if listening else None
     if not cut:
         return []
-    rel = "_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md"
+    rel = "_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md"
     out = ["", f"## 🎧 Industry listening — [exec cut]({rel})"]
     for l in cut:
         if l.startswith("#"):

@@ -38,8 +38,8 @@ Inverting this order produces beautiful decorations that sell nothing.
 
 | Target | Entry point | Context |
 |---|---|---|
-| Josh — swing-nerd shirts | `/meg-trigger-audit` on V1 re-score; `/merch-os` for V2 | `_active/josh-swing-nerd-shirts-v1/` (Bonfire, 3 candidates, trigger pass in production) |
-| MyBPM — EDM streetwear | `/merch-os` full run | `_active/mybpm-merch-os-run-1/`, mybpm.store, PLUR culture, ~30 products |
+| Josh — swing-nerd shirts | `/meg-trigger-audit` on V1 re-score; `/merch-os` for V2 | `_active/clients/josh-swing-nerd-shirts-v1/` (Bonfire, 3 candidates, trigger pass in production) |
+| MyBPM — EDM streetwear | `/merch-os` full run | `_active/mybpm/mybpm-merch-os-run-1/`, mybpm.store, PLUR culture, ~30 products |
 | Client work | `/meg-trigger-audit` (productized audit) or `/merch-os` | 2-page deliverable cap per density rule |
 | Non-merch surfaces | `/meg-trigger-transfer` | Offers, hooks, landing pages, positioning |
 

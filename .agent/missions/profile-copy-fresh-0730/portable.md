@@ -7,7 +7,7 @@ Produce the final LinkedIn banner, headline, 3 Experience entries, Services blur
 
 ## The recipe (his rated "what I've been begging for" — follow the shape)
 1. **Inventory first**: read the files below. Build nothing that exists.
-2. **Receipts exist — skip fresh research**: `_active/linkedin-launch/01-research/2026-07-28-FRESH-RESEARCH/` (3 Gemini deep runs, 146 sources) + `ICP-BATTLE-CARD.md` are current.
+2. **Receipts exist — skip fresh research**: `_active/linkedin/01-research/2026-07-28-FRESH-RESEARCH/` (3 Gemini deep runs, 146 sources) + `ICP-BATTLE-CARD.md` are current.
 3. **Isolated wargame**: after drafting, dispatch ONE adversarial reviewer subagent (brief verbatim: "no Chain, no finalize, no Notion, no Next Moves, return only the artifact") to attack the copy as a skeptical supplement founder with 5 seconds. Fix what survives contact.
 4. **Felt standard is the test**: present to Farrice for good/marginal/off + winces. His verdict is the ONLY gate. Two rejections = stop, ask for his gut on the fork, never a variant spray.
 5. **Decisions, not homework**: bring him choices with recommendations marked, one tap each.

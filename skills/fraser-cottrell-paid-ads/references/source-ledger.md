@@ -1,7 +1,7 @@
 # Source Ledger — fraser-cottrell-paid-ads
 
 Ground truth for this skill is NOT under `extractions/` (grep of `extractions/` and
-`_active/codex-harvest-2026-06-11/extractions/` for "fraser cottrell"/"fraggle" returned
+`_active/harness/codex-harvest-2026-06-11/extractions/` for "fraser cottrell"/"fraggle" returned
 zero hits — confirmed by directory listing, not assumed). It also is not findable by
 filename in `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, 3,864 file
 entries per `tar -tzf`).

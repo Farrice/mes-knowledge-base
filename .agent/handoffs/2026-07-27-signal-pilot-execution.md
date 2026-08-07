@@ -14,11 +14,11 @@ pin: true
 - **Not in scope:** Re-litigating offer/lane/pricing (locked, 3× red-teamed); editing the Rosner/Broxterman artifacts beyond prospect-supplied placeholders (they carry SEND status with gauntlet receipts); Rusin/Hanson (cycle two, re-channeled, only after a logged flagship send); Cooz pitching; any build on a day whose sends aren't logged (send-before-build binding).
 
 ## Load First
-- `_active/linkedin-launch/04-deliverables/spec-samples/SPEC-ROSNER-2026-07-21.md` — SEND-ready. POV read + cohort-conversion email + LinkedIn post in his receipted voice + delivery DM. Placeholders (SAC price/date/link) are HIS to fill — price is genuinely not public, never guess it.
-- `_active/linkedin-launch/04-deliverables/spec-samples/SPEC-BROXTERMAN-2026-07-21.md` — SEND-ready. Built to her REAL mechanics: $2,500 rolling 1-on-1 VIP, email application, "&" program-name spelling per her live page.
+- `_active/linkedin/04-deliverables/spec-samples/SPEC-ROSNER-2026-07-21.md` — SEND-ready. POV read + cohort-conversion email + LinkedIn post in his receipted voice + delivery DM. Placeholders (SAC price/date/link) are HIS to fill — price is genuinely not public, never guess it.
+- `_active/linkedin/04-deliverables/spec-samples/SPEC-BROXTERMAN-2026-07-21.md` — SEND-ready. Built to her REAL mechanics: $2,500 rolling 1-on-1 VIP, email application, "&" program-name spelling per her live page.
 - `docs/solutions/2026-07-21-spec-sample-receipted-override-protocol.md` — THE reusable crack for every future spec build: resolve QA flags by corpus receipt not rewrite; de-mimic intimate markers + name the mimicry aloud; preempt the selectivity objection on capacity-capped offers; corpus-first with URLs or don't build.
-- `_active/linkedin-launch/03-launch/PROFILE-REBUILD-2026-07-21.md` — paste-ready profile; gate: live before first flagship send.
-- `_active/linkedin-launch/05-lead-gen/PRACTITIONER-PROSPECTS-2026-07-21.md` — CORRECTED 2026-07-21: Rosner cohort price = not publicly listed (only public product is $59 bundle); Broxterman entry rewritten to live-page economics ($45K launch is Prosper-side, "five-figure launch" is the safe phrasing).
+- `_active/linkedin/03-launch/PROFILE-REBUILD-2026-07-21.md` — paste-ready profile; gate: live before first flagship send.
+- `_active/linkedin/05-lead-gen/PRACTITIONER-PROSPECTS-2026-07-21.md` — CORRECTED 2026-07-21: Rosner cohort price = not publicly listed (only public product is $59 bundle); Broxterman entry rewritten to live-page economics ($45K launch is Prosper-side, "five-figure launch" is the safe phrasing).
 - `councils/buyers/practitioner-founders.md` — Seat 4 corrected to match; standing gauntlet panel for Robertson's spec.
 
 ## Current State

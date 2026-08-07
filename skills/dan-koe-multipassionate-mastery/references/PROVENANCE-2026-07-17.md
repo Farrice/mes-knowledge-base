@@ -29,7 +29,7 @@ Calibration section).
 Before treating any source as absent, this repair verified: `extractions/`
 contains a real `dan-koe/` directory with two non-trivial files (26,836 +
 14,529 bytes, both read in full — not 0-byte, not unrecoverable). The
-`_active/codex-harvest-2026-06-11/` tree was checked and contains only a
+`_active/harness/codex-harvest-2026-06-11/` tree was checked and contains only a
 duplicate `SKILL.md` (already reflected in `SKILL.md.old`), no new source
 material. The claude-export tarball was confirmed to exist and sized (332MB)
 rather than assumed absent or fabricated as read.

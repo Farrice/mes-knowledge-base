@@ -2,7 +2,7 @@
 
 > **Trigger**: Any new or revised system-tier workflow (multi-phase orchestration). Loaded by Skill Architecture — Atoms vs Systems (CLAUDE.md).
 > **Distinct from**: `directives/quality_gate.md` (post-execution 4-dim scoring). This doc is about MID-execution halt/proceed gates between phases.
-> **Source**: 2026-05-12 integration brief, Phase C Move 4 (`_active/system-integration/2026-05-12-agentic-os-elevation-brief.md`).
+> **Source**: 2026-05-12 integration brief, Phase C Move 4 (`_active/_archive/2026-08-07-sweep/system-integration/2026-05-12-agentic-os-elevation-brief.md`).
 
 ---
 
@@ -130,7 +130,7 @@ Heuristic: a system-tier workflow with `< 3 gate-keyword mentions` likely lacks 
 - Gold-standard implementation: `.agent/workflows/parallax.md` Phase 2.5
 - Worked example (added 2026-05-12): `.agent/workflows/writers-room.md` diagnosis gate
 - Quality scoring (different concept): `directives/quality_gate.md`
-- Source brief: `_active/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 4
+- Source brief: `_active/_archive/2026-08-07-sweep/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 4
 
 ---
 

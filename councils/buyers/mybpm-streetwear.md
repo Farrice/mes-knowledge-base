@@ -1,6 +1,6 @@
 # Buyer Panel — MyBPM Streetwear (EDM/Rave)
 
-Source: `_active/mybpm-merch-os-run-1/01-ground.md` (Phase 0 GROUND, the Raver-as-Identity-Keeper sub-identity) + `00-run-config.md` brand context. Detail below marked LIKELY is inferred from the ground doc's behavioral-moment research, not from real customer interviews or Shopify order data — the honest fix is to run a `mcclain-dai-audience-persona` pass against actual reviews/Discord threads/repeat-buyer data once MyBPM has post-launch traffic to mine.
+Source: `_active/mybpm/mybpm-merch-os-run-1/01-ground.md` (Phase 0 GROUND, the Raver-as-Identity-Keeper sub-identity) + `00-run-config.md` brand context. Detail below marked LIKELY is inferred from the ground doc's behavioral-moment research, not from real customer interviews or Shopify order data — the honest fix is to run a `mcclain-dai-audience-persona` pass against actual reviews/Discord threads/repeat-buyer data once MyBPM has post-launch traffic to mine.
 
 ---
 

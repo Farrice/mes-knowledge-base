@@ -25,5 +25,5 @@ Anchor → source file + location. All quotes confirmed via direct string match 
 
 ## Sources checked for completeness (per envelope Rule 2 — absence claims are provenance claims)
 - `extractions/` — searched `grep -rl "Greg Hoffman"`, found `extractions/brand-master/` (transcript.txt 108,208 bytes + extraction-report.md 21,783 bytes). NOT thin — full extraction present, no fallback needed.
-- `_active/codex-harvest-2026-06-11/` — checked by content: `skills/greg-hoffman-brand-mastery/SKILL.md` (4,111 bytes, near-duplicate of live SKILL.md, no new claims) and `agents/greg-hoffman/AGENT.md` (3,487 bytes, contains an unsourced 7-item Anti-Patterns list used only as directional corroboration, never as an anchor).
+- `_active/harness/codex-harvest-2026-06-11/` — checked by content: `skills/greg-hoffman-brand-mastery/SKILL.md` (4,111 bytes, near-duplicate of live SKILL.md, no new claims) and `agents/greg-hoffman/AGENT.md` (3,487 bytes, contains an unsourced 7-item Anti-Patterns list used only as directional corroboration, never as an anchor).
 - `_archive/claude-export-2026-07-01.tar.gz` — not opened; extractions/brand-master was sufficient and already primary-source-grade (full transcript), so the archive tarball was not needed for this repair.

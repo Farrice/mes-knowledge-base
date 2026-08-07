@@ -28,11 +28,11 @@ mid-session, re-title, or pin a session that shipped through some other route.
   Title Case; ` — ` is the sanctioned separator (display title, exempt from the prose em-dash
   ban). Only ask if the session's primary object is genuinely ambiguous.
 - **--file PATH** (optional) — markdown to stamp. DEFAULT: today's LinkedIn briefing
-  `_active/linkedin-launch/06-automation/daily/briefing-<today>.md`. If that file is missing, **ASK**
+  `_active/linkedin/06-automation/daily/briefing-<today>.md`. If that file is missing, **ASK**
   which file to stamp — never invent one.
 - **--thread SLUG** (optional) — stable work-stream selector (the `/resume` row label +
   the dedup key). DEFAULT derivation:
-    - file under `_active/linkedin-launch/06-automation/daily/` → `linkedin-daily`
+    - file under `_active/linkedin/06-automation/daily/` → `linkedin-daily`
     - else slugify the basename with any leading `YYYY-MM-DD` and `briefing-` stripped
   Always pass it **explicitly** to `handoff_store.py` — a drifted auto-derived slug splits
   the `/resume` menu into two rows.

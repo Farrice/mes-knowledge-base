@@ -36,7 +36,7 @@ Farrice is **pre-first-close** on the Authority Flywheel and is questioning the 
 ## Reference artifacts (don't duplicate — read these)
 - `extractions/john-whiting/vision.md` — leverage analysis + creative direction
 - `skills/john-whiting-propaganda-machine/genius.md` + `references/objective-router.md` — the OS brain
-- Memory: `project_propaganda-engine-os.md`, `project_john-whiting-propaganda-machine.md` (if present), `authority-flywheel-pivot.md`, deep ICP at `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md`
+- Memory: `project_propaganda-engine-os.md`, `project_john-whiting-propaganda-machine.md` (if present), `authority-flywheel-pivot.md`, deep ICP at `_active/linkedin/research/deep-icp-profile-invisible-expert.md`
 
 ## Suggested skills for next session
 - `/jw-vehicle-engineer` — the vehicle decision (needs the coaching/consulting sketch first)

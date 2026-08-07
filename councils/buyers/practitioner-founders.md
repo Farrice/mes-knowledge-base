@@ -1,6 +1,6 @@
 # Buyer Panel — Practitioner-Founders (Signal Pilot: Practitioner Edition)
 
-Source: `_active/linkedin-launch/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md` (identity map, language bank, wince-list — avatar/content layer only; the $400 audit it once sold is KILLED) × `_active/linkedin-launch/05-lead-gen/PRACTITIONER-PROSPECTS-2026-07-21.md` (real Tier-1 prospect shapes). Reuse for any Signal Pilot artifact — cold DMs, profile copy, POV posts, the offer page, pricing.
+Source: `_active/linkedin/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md` (identity map, language bank, wince-list — avatar/content layer only; the $400 audit it once sold is KILLED) × `_active/linkedin/05-lead-gen/PRACTITIONER-PROSPECTS-2026-07-21.md` (real Tier-1 prospect shapes). Reuse for any Signal Pilot artifact — cold DMs, profile copy, POV posts, the offer page, pricing.
 
 **Grounding tier: cold-generated (Tier 3), prospect-anchored.** Seats 1-4 are modeled on real, named, search-verified prospects (Robertson, Rusin, Rosner, Broxterman) — profile facts VERIFIED per the prospect doc; interior monologue, objection voice, and yes-triggers are inferences and carry **[LIKELY]** throughout. Seat 5 is the mandatory NO-FIT. Seat 4 doubles as the mandatory economic gatekeeper (these buyers write personal checks; the founder IS the CFO). No corpus harvested yet — before a high-stakes run, harvest per `mt-persona-grounding.md` Tier 2.5.
 

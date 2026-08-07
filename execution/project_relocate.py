@@ -32,6 +32,7 @@ Safety contract, same as project_filer:
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from datetime import date, datetime, timezone
@@ -55,6 +56,13 @@ FROZEN = (
     # it describe moves it says haven't happened yet — history, not a live pointer.
     "/move-plan.md",
     ".git/",
+    # 2026-08-07: protected by NEITHER tool before today. An append-only asset
+    # index keyed by live path (5,032 lines, one _active/ research path alone
+    # accounts for them) — regenerate it after a move via asset_index.py,
+    # never rewrite it in place.
+    ".agent/assets/manifest.jsonl",
+    ".agent/organization/sweep-state.json",
+    "_active/_ledgers/",
 )
 
 TEXT_SUFFIXES = {".md", ".py", ".json", ".jsonl", ".js", ".ts", ".tsx", ".yml",
@@ -65,24 +73,114 @@ def _git(*args: str) -> subprocess.CompletedProcess:
     return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True)
 
 
+class GrepFailure(RuntimeError):
+    """A referrer scan failed. An empty result must never be read as "no
+    referrers" — that silently downgrades a move to one with zero rewrites."""
+
+
+# Arenas nest projects one level deeper than the old flat `_active/<project>/`.
+# 3 covers `_active/<arena>/<initiative>/` with a level of headroom.
+_SNAPSHOT_SCAN_DEPTH = 3
+
+
+def _snapshot_roots() -> tuple[str, ...]:
+    """Projects that are a COPY of this repo, not part of it.
+
+    A harvest/snapshot project contains its own `_active/` tree. A repo-wide
+    rewrite reaches inside it and edits what that snapshot said on the day it
+    was taken — that is editing history, not maintenance. Detected 2026-08-07:
+    an arena rename rewrote 20 references across 8 files inside a 2026-06-11
+    harvest, including its own HARVEST-MANIFEST.md.
+
+    Checking for two `_active/` segments in a path is NOT enough — files at the
+    snapshot's own root (its 06-system/, its .agent/) have only one.
+
+    Scanning only the immediate children of `_active/` is also not enough. The
+    2026-08-07 arena sweep moves every project one level down, to
+    `_active/<arena>/<initiative>/`. A fixed one-level scan would have found
+    zero snapshots the moment the sweep landed — silently, with the tool still
+    reporting success — and the next move would have rewritten history inside a
+    4,363-file harvest. Detection must survive the reorganisation that this
+    same tool performs. Walk until found, and never descend INTO a snapshot:
+    its inner tree is a copy of this repo and would match forever.
+    """
+    roots: list[str] = []
+    active = ROOT / "_active"
+    if not active.is_dir():
+        return ()
+
+    def walk(d: Path, depth: int) -> None:
+        if depth > _SNAPSHOT_SCAN_DEPTH:
+            return
+        for child in sorted(d.iterdir()):
+            if not child.is_dir() or child.is_symlink():
+                continue
+            if (child / "_active").is_dir():
+                roots.append(f"{child.relative_to(ROOT)}/")
+                continue  # a snapshot's insides are a copy of this repo
+            walk(child, depth + 1)
+
+    walk(active, 1)
+    return tuple(roots)
+
+
+_SNAPSHOTS = _snapshot_roots()
+
+
+def _is_frozen(line: str) -> bool:
+    s = str(line)
+    rel = s[len(str(ROOT)) + 1:] if s.startswith(str(ROOT)) else s
+    if any(rel.startswith(sr) for sr in _SNAPSHOTS):
+        return True
+    return any(s.startswith(f) or f in s for f in FROZEN)
+
+
+def _keep(line: str) -> bool:
+    if not line.strip():
+        return False
+    return not _is_frozen(line)
+
+
 def find_referrers(needle: str) -> list[Path]:
     """Every tracked-or-untracked text file mentioning the old path."""
-    out = _git("grep", "-I", "-l", "-F", "--untracked", needle).stdout
+    r = _git("grep", "-I", "-l", "-F", "--untracked", needle)
+    if r.returncode not in (0, 1):  # 1 == no matches, which is a real answer
+        raise GrepFailure(f"git grep exited {r.returncode}: {r.stderr.strip()[:200]}")
     hits = []
-    for line in out.splitlines():
-        if not line.strip():
-            continue
-        if any(line.startswith(f) or f in line for f in FROZEN):
+    for line in r.stdout.splitlines():
+        if not _keep(line):
             continue
         p = ROOT / line
+        if p.is_file() and (p.suffix.lower() in TEXT_SUFFIXES or not p.suffix):
+            hits.append(p)
+    # `git grep --untracked` still skips GITIGNORED trees — untracked is not
+    # the same as ignored. Measured 2026-08-07: five real referrers inside a
+    # gitignored `_build-*` tree were never offered to the rewriter and kept
+    # pointing at the old path after a 439-file move. Special-casing one
+    # directory was not enough; sweep the whole repo with plain grep and union.
+    r2 = subprocess.run(
+        ["grep", "-rIlF", "--exclude-dir=.git", "--exclude-dir=node_modules",
+         "--exclude-dir=.venv", needle, str(ROOT)],
+        capture_output=True, text=True, timeout=300)
+    if r2.returncode not in (0, 1):
+        raise GrepFailure(f"repo-wide grep exited {r2.returncode}")
+    for line in r2.stdout.splitlines():
+        if not line.strip():
+            continue
+        rel = line[len(str(ROOT)) + 1:] if line.startswith(str(ROOT)) else line
+        if not _keep(rel):
+            continue
+        p = Path(line)
         if p.is_file() and (p.suffix.lower() in TEXT_SUFFIXES or not p.suffix):
             hits.append(p)
     # The user-memory dir lives outside the repo; project_filer rewrites it too.
     mem = Path.home() / ".claude" / "projects" / "-Users-farricecain-Google-Antigravity" / "memory"
     if mem.is_dir():
-        r = subprocess.run(["grep", "-rIlF", needle, str(mem)],
-                           capture_output=True, text=True)
-        hits += [Path(l) for l in r.stdout.splitlines() if l.strip()]
+        r3 = subprocess.run(["grep", "-rIlF", needle, str(mem)],
+                            capture_output=True, text=True, timeout=180)
+        if r3.returncode not in (0, 1):
+            raise GrepFailure(f"grep of memory dir exited {r3.returncode}")
+        hits += [Path(l) for l in r3.stdout.splitlines() if l.strip()]
     return sorted(set(hits))
 
 
@@ -102,12 +200,33 @@ def rewrite(path: Path, src_rel: str, dst_rel: str) -> int:
         text = path.read_text(encoding="utf-8")
     except (OSError, UnicodeDecodeError):
         return 0
-    masked = text.replace(dst_rel, SENTINEL)
-    if src_rel not in masked:
-        return 0
-    n = masked.count(src_rel)
-    path.write_text(masked.replace(src_rel, dst_rel).replace(SENTINEL, dst_rel),
-                    encoding="utf-8")
+
+    if src_rel in dst_rel:
+        # Destination CONTAINS the source (deliverables/x.md ->
+        # .../04-deliverables/x.md). Mask first so a second run cannot rewrite
+        # inside an already-correct path. This is the original 2026-07 scar.
+        masked = text.replace(dst_rel, SENTINEL)
+        if src_rel not in masked:
+            return 0
+        n = masked.count(src_rel)
+        out = masked.replace(src_rel, dst_rel).replace(SENTINEL, dst_rel)
+    else:
+        # SCAR 2026-08-07: when the SOURCE contains the destination — any
+        # rename that SHORTENS a path, e.g. `<x>-launch` -> `<x>` — masking
+        # the destination first destroyed the source string, `src_rel not in
+        # masked` was true, and the function returned 0. A 439-file move
+        # reported "total_rewrites: 0" and left 308 referrers pointing at a
+        # path that no longer existed. Caught only because 0 looked wrong.
+        #
+        # Boundary guard instead: never match the source as a prefix of a
+        # longer sibling name. A trailing "." or "/" still matches.
+        pat = re.compile(re.escape(src_rel) + r"(?![\w-])")
+        n = len(pat.findall(text))
+        if not n:
+            return 0
+        out = pat.sub(lambda _m: dst_rel, text)
+
+    path.write_text(out, encoding="utf-8")
     return n
 
 
@@ -154,13 +273,25 @@ def apply(plan: dict, stub: bool) -> dict:
 
     # Inverse FIRST, before the rewrite phase, so a crash mid-rewrite is still
     # undoable (the 2026-07-08 lesson).
+    #
+    # SCAR 2026-08-07, found by actually REHEARSING the rollback: with --stub,
+    # a MOVED.md pointer is left behind, so the source directory still exists
+    # when the inverse runs. `mv -n <dst> <existing-dir>` then moves the tree
+    # INSIDE it — producing foo/foo/ — instead of restoring it. The revert
+    # reported exit 0 while silently corrupting the tree. A stubbed move must
+    # clear its own stub before the inverse.
     ORG_HOME.mkdir(parents=True, exist_ok=True)
     rev = ORG_HOME / f"REVERT-{date.today().isoformat()}.sh"
     prior = rev.read_text(encoding="utf-8").splitlines() if rev.exists() else []
     body = [l for l in prior if l and not l.startswith("#!")]
+    inverse = []
+    if stub:
+        inverse.append(f'rm -f "{src / "MOVED.md"}"')
+        inverse.append(f'rmdir "{src}" 2>/dev/null || true')
+    inverse.append(f'mv -n "{dst}" "{src}"')
     rev.write_text("\n".join(
-        ["#!/bin/sh", "# Auto-generated inverse moves (newest first). Re-run to revert.", "",
-         f'mv -n "{dst}" "{src}"'] + body) + "\n", encoding="utf-8")
+        ["#!/bin/sh", "# Auto-generated inverse moves (newest first). Re-run to revert.", ""]
+        + inverse + body) + "\n", encoding="utf-8")
     rev.chmod(0o755)
 
     rewrites = {}
@@ -181,6 +312,42 @@ def apply(plan: dict, stub: bool) -> dict:
         n = rewrite(p, src_rel, dst_rel)
         if n:
             rewrites[str(p)] = n
+
+    # Recompute the OUTBOUND relative links inside the files that just moved.
+    #
+    # SCAR 2026-08-07: this tool rewrote every reference TO the moved thing but
+    # never touched references FROM inside it. Moving a tree to a different
+    # DEPTH therefore silently broke its own links: `../02-offer/x.md` was
+    # correct at <project>/00-start-here/ and points into the archive from
+    # <project>/99-archive/<date>/00-start-here-june-era/. Measured: archiving
+    # two dead front doors ADDED 16 broken links. project_filer.rewrite_file
+    # already solves exactly this, so borrow it rather than reimplement.
+    internal = 0
+    if dst.is_dir():
+        try:
+            import project_filer as _pf
+            for moved in dst.rglob("*"):
+                if not moved.is_file() or moved.suffix.lower() not in {".md", ".txt"}:
+                    continue
+                old_dir = src / moved.relative_to(dst).parent
+                # rel_pairs=[] — the src->dst string swap already ran above;
+                # this pass is only for path RECOMPUTATION.
+                internal += _pf.rewrite_file(moved, old_dir, {}, [])
+        except Exception as exc:
+            print(f"  (internal link recompute skipped: {exc})")
+    if internal:
+        rewrites["<internal links in moved files>"] = internal
+
+    # A plan that found referrers but produced no rewrites is not a clean move,
+    # it is a silent failure — that is exactly how the prefix bug above shipped
+    # a 439-file move with 308 orphaned referrers and printed a tidy receipt.
+    # Say it loudly; the REVERT script is already written at this point.
+    expected = [r for r in plan["referrers"] if not _is_frozen(r)]
+    substantive = sum(v for k, v in rewrites.items() if not k.startswith("<"))
+    if expected and substantive == 0:
+        print(f"!! WARNING: {len(expected)} referrer(s) were found but ZERO were "
+              f"rewritten. Every one of them still points at {src_rel!r}.")
+        print(f"!! This move is NOT complete. Revert with: sh {rev}")
 
     if stub:
         src.mkdir(parents=True, exist_ok=True)

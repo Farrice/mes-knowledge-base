@@ -18,7 +18,7 @@ Component scorecards measure the presence and strength of discrete ingredients (
 
 ## Approach That Worked
 
-1. Ran the 13-workflow × 2-specimen benchmark to isolate where the human/scorecard divergence lives (report: `_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md`). Verdict: skill honest, lane-blind.
+1. Ran the 13-workflow × 2-specimen benchmark to isolate where the human/scorecard divergence lives (report: `_active/linkedin/99-archive/kallaway-novelty-benchmark/00-REPORT.md`). Verdict: skill honest, lane-blind.
 2. Routed original-vs-rewrite quality calls to the loop-integrity lens instead — `/novelty-to-addictive` caught the rewrite's dropped narrative loop, the exact flatness Farrice felt.
 3. Set the routing rule: ceiling-level pieces are never ranked on the novelty scorecard alone; add a loop-integrity or prose/writers-room read before declaring a winner.
 
@@ -29,7 +29,7 @@ Component scorecards measure the presence and strength of discrete ingredients (
 
 ## Verification
 
-Benchmark artifacts on disk: 13 workflows run against both specimens, human ranking as ground truth. `/novelty-to-addictive` independently flagged the rewrite's broken loop, matching the human verdict the scorecard missed. Report at `_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md`.
+Benchmark artifacts on disk: 13 workflows run against both specimens, human ranking as ground truth. `/novelty-to-addictive` independently flagged the rewrite's broken loop, matching the human verdict the scorecard missed. Report at `_active/linkedin/99-archive/kallaway-novelty-benchmark/00-REPORT.md`.
 
 ## Weaker-Model Trap
 
@@ -38,5 +38,5 @@ Trusting a clean 10/10 as "better" and shipping the flat rewrite. A perfect comp
 ## Pointers
 
 - `skills/kallaway-illusion-of-novelty/references/gut-check-scorecard.md` — the component scorecard (honest, lane-scoped)
-- `_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md` — benchmark report proving the lane-blindness
+- `_active/linkedin/99-archive/kallaway-novelty-benchmark/00-REPORT.md` — benchmark report proving the lane-blindness
 - `/novelty-to-addictive` — the loop-integrity lens that caught the dropped loop

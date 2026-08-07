@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:43:43.388745+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/mastery-forge",
+  "dst": "_active/knowledge/mastery-forge",
+  "stub_left": false,
+  "files_moved": 10,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_mastery-forge-oracle.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-08-06-god-agent-offer.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-08-06-mastery-forge.md": 5,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-mastery-forge.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/knowledge/mastery-forge/START-HERE.html": 42,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/event_listener.py": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-08-06-mastery-forge.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/nba-betting-edge/references/oracle-2026-research.md": 1
+  },
+  "total_rewrites": 61,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

@@ -10,12 +10,12 @@ Every claim added or touched during the Wave 3 Lane 4 repair pass, labeled VERIF
 | `references/hidden-knowledge.md` | 9,033 bytes | 13 "Hidden Knowledge" tacit-insight items, cross-referenced into genius.md's Hidden Knowledge section | VERIFIED (file exists, content read in full) |
 | `references/genius-patterns.md` | 18,215 bytes | Legacy standalone copy of Patterns 1-23 (pre-dates Patterns 24-26, which only exist in genius.md and the interview notes) | VERIFIED (file exists, content read; noted as the older/partial version — genius.md is the current merged file and the one the heartbeat auditor grades) |
 | `references/prompts-v2/*.md` (14 files) | ~6-19 KB each | structure-pure-v2 execution prompts, already carrying Output Contract / Output Skeleton / Quality Gate | VERIFIED (pre-existing, unchanged by this repair) |
-| `_active/codex-harvest-2026-06-11/agents/david-mcraney/AGENT.md` | 89 lines | Parallel agent persona file (Codex harvest), independent corroboration of McRaney's core thesis and Voice & Style — not used as a primary source for repair content, consulted only for cross-check | VERIFIED (file exists, read in full) |
+| `_active/harness/codex-harvest-2026-06-11/agents/david-mcraney/AGENT.md` | 89 lines | Parallel agent persona file (Codex harvest), independent corroboration of McRaney's core thesis and Voice & Style — not used as a primary source for repair content, consulted only for cross-check | VERIFIED (file exists, read in full) |
 
 ## Sources Searched and Confirmed Absent (not fabricated-absence — verified by direct search)
 
 - `extractions/` (repo root): `ls extractions/ | grep -i mcraney` and a repo-wide `grep -ril "mcraney"` outside `skills/david-mcraney-belief-change/` returned no dedicated raw-transcript extraction folder for McRaney. The only per-expert artifact found was the codex-harvest `AGENT.md` above (a derivative persona file, not a raw transcript).
-- `_active/codex-harvest-2026-06-11/extractions/`: no McRaney-specific subfolder found via the same search.
+- `_active/harness/codex-harvest-2026-06-11/extractions/`: no McRaney-specific subfolder found via the same search.
 - `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes): `tar -tzf ... | grep -i mcraney` against the full archive index (no extraction performed, per scratch-directory discipline) returned zero matching paths — confirmed absent, not unread.
 - **Conclusion**: This skill's only primary-source artifact on disk is the Spencer Greenberg interview notes file plus the pre-existing genius-patterns.md/hidden-knowledge.md synthesis (itself derived from McRaney's book *How Minds Change* per SKILL.md's description line, which is UNCONFIRMED against a source file — no book excerpt exists in this repo).
 

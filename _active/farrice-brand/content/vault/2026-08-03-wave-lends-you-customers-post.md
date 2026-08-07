@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P1
 bucket: Authority
 ring: Bridge
-source_brief: _active/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-03-angle-map-listening-brief.md
 notes: |
   Save-carrier: the cohort-filter reframe (retention is an acquisition decision) plus the honest split of the US FOMO survey and the UK attribution data.
   First comment carries the single CTA: pointer to the carousel + "DM ANGLE if the belief column comes back blank."

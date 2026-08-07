@@ -64,4 +64,4 @@ For affiliate + "make money online" + info-product niches, the audience's questi
 - **Show the reps, not the results.** A filmed boring loop ("kid down at 1pm, one post, 3 DMs, done by 1:30") out-converts an income screenshot with a skeptical buyer — and a flexer can't fake it.
 - **Honest curve, not the dream.** "Month one is $0–100; first sale ranges days-to-months; count reps; first target = $1,000." Naming the unglamorous truth IS the differentiation.
 - **Disqualify.** Tell the wrong-fit buyer not to buy — a real coach turns people away.
-This is the compliant-grip rule taken to positioning: specificity lives in the *next step*, trust is earned by answering what the flexers can't. Applied engine: `_active/dwa-affiliate-battle-test/04-deliverables/09-question-led-content-engine.md`.
+This is the compliant-grip rule taken to positioning: specificity lives in the *next step*, trust is earned by answering what the flexers can't. Applied engine: `_active/clients/dwa-affiliate-battle-test/04-deliverables/09-question-led-content-engine.md`.

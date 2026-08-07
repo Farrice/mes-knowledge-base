@@ -10,7 +10,7 @@ pin: true
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-02-audit-the-search-post.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-02-six-rungs-education-longform.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md, /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md
+**Artifacts:** /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-02-audit-the-search-post.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-02-six-rungs-education-longform.md, /Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md, /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md
 
 **Retrieve:** `/resume health-performance-ip-library`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

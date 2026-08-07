@@ -4,7 +4,7 @@ version: 1.4
 compiled: 2026-08-07
 owner: voice-os
 supersedes:
-  - _active/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
+  - _active/harness/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
 sources:
   - _active/farrice-brand/voice/REGISTER-ATLAS.md (2026-08-04 — 30,606 sent messages across 4 relationship registers; the ONLY source sampled from Farrice OFF the clock. v1.3 recompile MUST ingest: one voice/four volumes, the invariants, and the client-register ancestry of the brand voice)
   - FARRICE-MASTER-CONTEXT.md (§5 values, §6 texture, §7 voice law, §6c wince-line + real register)

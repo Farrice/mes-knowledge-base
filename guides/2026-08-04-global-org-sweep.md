@@ -70,7 +70,7 @@ status: enriched
 
 **How to invoke.** `plan` writes nothing · `apply … --stub` leaves a `MOVED.md` pointer · `verify` asserts 0 stale referrers.
 
-**Worked example.** `_active/linkedin-launch/04-content-os` → `04-deliverables/content-os`: 67 files, 42 files rewritten, 90 path replacements across 25 control-plane files including `/farrice-engine` and `/linkedin-daily`. Every rewritten workflow path was then spot-checked to resolve.
+**Worked example.** `_active/linkedin/04-content-os` → `04-deliverables/content-os`: 67 files, 42 files rewritten, 90 path replacements across 25 control-plane files including `/farrice-engine` and `/linkedin-daily`. Every rewritten workflow path was then spot-checked to resolve.
 
 **Honest edges.** `*/move-plan.md` is frozen — a before/after record must not be rewritten to the after-state. Rewrites are idempotent: the destination usually *contains* the source as a substring, which would otherwise corrupt on a second run.
 
@@ -92,6 +92,6 @@ status: enriched
 ## Honest edges — the whole session
 
 - **Three self-inflicted breaks, all caught and fixed:** filed a live site's script into `03-working-drafts/` (site broken, restored, web assets now pinned); a benchmark sweep moved 27 protected files including the campaign file (all reversed from the ledger); a `git grep` speed fix used `:!` pathspec syntax that silently matches nothing, evaporating every control-plane pin. Each is now covered by a verifier proven to fail without the fix.
-- **Open:** 5 files in `deliverables/` with no correct default; `_active/re-compliance` arguably belongs inside `jen-listings`; a **new** `05-assets` vs `05-lead-gen` collision in `linkedin-launch` created 2026-08-02 by the asset-board work.
+- **Open:** 5 files in `deliverables/` with no correct default; `_active/clients/re-compliance` arguably belongs inside `jen-listings`; a **new** `05-assets` vs `05-lead-gen` collision in `linkedin-launch` created 2026-08-02 by the asset-board work.
 - **Concurrent sessions are the live hazard.** A sibling session's commit gate swept this session's in-flight edits once. Claim `session_lock.py` or use a worktree.
 - A `post-commit` hook auto-pushes; `git push` reports a misleading "remote rejected" lock error even on success.

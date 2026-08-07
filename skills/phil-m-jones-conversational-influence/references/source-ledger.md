@@ -6,8 +6,8 @@ Claim-by-claim provenance for every sourced statement in `SKILL.md` and `genius.
 
 - **Expert**: Phil M Jones, author of *Exactly What to Say*, sales trainer.
 - **Material**: Jones' own audio-book-style read-through of *Exactly What to Say* plus applied commentary (YouTube video `H4YArR-TMEc`).
-- **Local file — VERIFIED**: `_active/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` — 112,045 characters / ~20,448 words, confirmed present and readable 2026-07-18. **Correction to `references/source-notes.md`**: that file lists the local transcript path as `extractions/phil-m-jones/transcript.txt`. That path does not exist in the current repo (`extractions/` has no `phil-m-jones` directory — verified via directory listing 2026-07-18). The real, readable copy lives under the codex-harvest archive path above. Do not trust the `extractions/phil-m-jones/` path until it is restored; use the codex-harvest path for any future extraction work on this skill.
-- **Companion file — VERIFIED**: `_active/codex-harvest-2026-06-11/extractions/phil-m-jones/extraction-report.md` (3,401 bytes) — extraction summary, confirms 20,448-word source and depth tier.
+- **Local file — VERIFIED**: `_active/harness/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` — 112,045 characters / ~20,448 words, confirmed present and readable 2026-07-18. **Correction to `references/source-notes.md`**: that file lists the local transcript path as `extractions/phil-m-jones/transcript.txt`. That path does not exist in the current repo (`extractions/` has no `phil-m-jones` directory — verified via directory listing 2026-07-18). The real, readable copy lives under the codex-harvest archive path above. Do not trust the `extractions/phil-m-jones/` path until it is restored; use the codex-harvest path for any future extraction work on this skill.
+- **Companion file — VERIFIED**: `_active/harness/codex-harvest-2026-06-11/extractions/phil-m-jones/extraction-report.md` (3,401 bytes) — extraction summary, confirms 20,448-word source and depth tier.
 
 ## Claim-by-Claim Table
 

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:35:56.883570+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/josh-katie-fitness",
+  "dst": "_active/clients/josh-katie-fitness",
+  "stub_left": false,
+  "files_moved": 67,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_carbon-torch-josh-katie.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-08-cos-os.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/mission-queue/done/card-outcome-chase-2026-07-21.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/josh-katie-fitness/START-HERE.html": 280,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/josh-katie-fitness/josh/SENDABLE-PACKAGE-SUMMARY.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/second-brain-audits/04-deliverables/RUN-ON-YES-RUNBOOK.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/agents/adam-sandler/memory/context.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/02-client-carbon-torch.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/video-context/GlTA4wXSACE/a-tier-reference-corpus/cases/OPS-01-operational/brief.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/adam-sandler-second-brain-gtm/genius.md": 1
+  },
+  "total_rewrites": 293,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

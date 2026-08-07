@@ -22,8 +22,8 @@ note below.
 
 | File | Git-add date | Status |
 |---|---|---|
-| `_active/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/architecture.md` | 2026-06-11 | VERIFIED to exist, 771 bytes, read in full |
-| `_active/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/vision.md` | 2026-06-11 | VERIFIED to exist, 997 bytes, read in full |
+| `_active/harness/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/architecture.md` | 2026-06-11 | VERIFIED to exist, 771 bytes, read in full |
+| `_active/harness/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/vision.md` | 2026-06-11 | VERIFIED to exist, 997 bytes, read in full |
 | `references/source-notes.md` | 2026-07-02 | VERIFIED to exist, read in full |
 | `references/bank-code-field-guide.md` | 2026-07-02 | VERIFIED to exist, read in full |
 | `references/genius-patterns.md` | 2026-07-02 | VERIFIED to exist, read in full |

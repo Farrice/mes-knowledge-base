@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:35:24.620017+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/josh-dancewear-brand",
+  "dst": "_active/clients/josh-dancewear-brand",
+  "stub_left": false,
+  "files_moved": 35,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/assets/assets-board.html": 22,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/josh-dancewear-brand/START-HERE.html": 56,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/josh-dancewear-brand/research/swing-dance-ground-truth.md": 3
+  },
+  "total_rewrites": 82,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

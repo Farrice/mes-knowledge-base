@@ -18,7 +18,7 @@ Before execution, read:
 - `extractions/sean-dollwet-kdp-book-one-system/source-ledger.md`
 - `references/kdp-policy-and-evidence-boundary.md`
 
-Initialize or resume the cockpit with `python3 execution/kdp_book_one.py init --project _active/kdp-book-one-pilot --pace launch_14`. Never overwrite an existing pilot. Use `status` when it already exists.
+Initialize or resume the cockpit with `python3 execution/kdp_book_one.py init --project _active/publishing/kdp-book-one-pilot --pace launch_14`. Never overwrite an existing pilot. Use `status` when it already exists.
 
 Do not publish, open the KDP account, spend money, enroll in Select, contact readers, or create a client/factory layer without separate permission.
 
@@ -84,7 +84,7 @@ Checkpoint: approve one cover and its rights receipt.
 
 ### 7. Compliance and upload-readiness
 
-Prepare a reflowable DOCX/KPF/EPUB for the ebook, a separate print-ready PDF if print is in scope, and Kindle Previewer/link receipts. Run `python3 execution/kdp_book_one.py preflight --project _active/kdp-book-one-pilot --json`.
+Prepare a reflowable DOCX/KPF/EPUB for the ebook, a separate print-ready PDF if print is in scope, and Kindle Previewer/link receipts. Run `python3 execution/kdp_book_one.py preflight --project _active/publishing/kdp-book-one-pilot --json`.
 
 - `HOLD`: a remediable artifact or quality gap exists.
 - `BLOCKED`: rights, policy, or excluded-risk failure exists.

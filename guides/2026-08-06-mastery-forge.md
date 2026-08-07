@@ -7,7 +7,7 @@ status: enriched
 
 # Mastery Forge — Oracle Round 1 + God Agent Uncage (dashboard live, forge born) — What We Built 2026-08-06 and How to Use It
 
-> One session took "could a meta-agent master a domain and run in production?" from question to standing system: the Oracle (a betting master under a falsifiable graduation exam) with a live clickable cockpit, an event layer that lets the outside world wake the harness, weekly self-improvement cards, and the god-agent offer uncaged with plain-terms positioning. Companions: `_active/mastery-forge/INDEX.md` (doctrine + decisions) · `01-research/gate-baseline.md` (ledger truth) · `02-offer/` (positioning, demo kit, red-team) · living plan `~/.claude/plans/i-need-you-to-joyful-fountain.md`.
+> One session took "could a meta-agent master a domain and run in production?" from question to standing system: the Oracle (a betting master under a falsifiable graduation exam) with a live clickable cockpit, an event layer that lets the outside world wake the harness, weekly self-improvement cards, and the god-agent offer uncaged with plain-terms positioning. Companions: `_active/knowledge/mastery-forge/INDEX.md` (doctrine + decisions) · `01-research/gate-baseline.md` (ledger truth) · `02-offer/` (positioning, demo kit, red-team) · living plan `~/.claude/plans/i-need-you-to-joyful-fountain.md`.
 
 ## ⚡ If you only read 10 lines
 
@@ -67,7 +67,7 @@ status: enriched
 
 ## Capability: God-agent offer kit (uncaged)
 
-**What it is.** `_active/mastery-forge/02-offer/`: red-team (steel-man $10K Company Agent Install + $2K/mo retainer; SEQUENCE verdict superseded by Farrice's overrule + the warm-network fact), Miller one-liner positioning with 5 variants + per-instance versions (Chris restaurants / dog business / title shop), the Chris 2-week proof-install scope + send-ready text, and the 10-minute demo kit (cockpit + Agent Inbox as the two surfaces).
+**What it is.** `_active/knowledge/mastery-forge/02-offer/`: red-team (steel-man $10K Company Agent Install + $2K/mo retainer; SEQUENCE verdict superseded by Farrice's overrule + the warm-network fact), Miller one-liner positioning with 5 variants + per-instance versions (Chris restaurants / dog business / title shop), the Chris 2-week proof-install scope + send-ready text, and the 10-minute demo kit (cockpit + Agent Inbox as the two surfaces).
 **When to reach for it.** Before any conversation about building an agent for someone.
 **When NOT to.** Cold outreach — the whole design rides warm deploys; and never the internal vocabulary with buyers.
 **Honest edges.** Zero external instances exist yet; the offer's proof depends on instance #2 (Chris) actually running.

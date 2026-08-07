@@ -15,7 +15,7 @@
 ## 🔴 BLOCKING — IMMEDIATE ACTION REQUIRED
 
 ### Campaign: Payment URL Setup (1 task, ~15 min)
-**File:** `_active/linkedin-launch/05-lead-gen/2026-07-31-MISSION-2B-SEND-READINESS.md`  
+**File:** `_active/linkedin/05-lead-gen/2026-07-31-MISSION-2B-SEND-READINESS.md`  
 **What:** Create $750 Stripe Checkout (or Square) payment link for "The Angle Map" offer  
 **Why:** This blocks the 5 verified DMs in Mission 2b, which starts the 14-day selling clock  
 **Next after:** Add link to line 63 → 5 DMs send → update pipeline.md + CASH-SCOREBOARD → clock activates
@@ -25,7 +25,7 @@
 ## 🔵 WAITING FOR VERDICTS — DEPLOYMENT READY
 
 ### Profile Copy v8.5 Finalization (4 lines for approval)
-**File:** `_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md`  
+**File:** `_active/linkedin/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md`  
 **Flagged lines:** 116–121 in the go-live master (lived-line confirmations)  
 **Status:** Copy is complete, prose ✓, voice ✓, ready to deploy once you approve  
 **Next:** Verdicts → deploy to LinkedIn → activate carousel publishing schedule

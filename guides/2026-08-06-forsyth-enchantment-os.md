@@ -34,7 +34,7 @@ status: enriched
 9. Blind pass is **B+, not A** — it passed on retry after v1 failed the recognition test on an instructional
    close. Heartbeat 7/7. Merged to main at `fd6ebf817` and verified fireable.
 10. **First thing to run:** `/enchant elevate` on the LinkedIn profile copy —
-    `_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md`.
+    `_active/linkedin/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md`.
 
 ## Command table
 

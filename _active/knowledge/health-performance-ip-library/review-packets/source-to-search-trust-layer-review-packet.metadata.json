@@ -1,0 +1,15 @@
+{
+  "title": "Source-to-Search Trust Layer Review Packet",
+  "artifact_type": "strategy_review_packet",
+  "created": "2026-06-23",
+  "status": "draft-ready-for-review",
+  "primary_offer_module": "Source-to-Search Trust Layer",
+  "source_paths": [
+    "_active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md",
+    "_active/knowledge/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md",
+    "_active/unified-offer-brief.md",
+    "_active/unified-offer-brief-one-pager.md",
+    "_active/harness/codex-harvest-2026-06-11/brain/archive/marketing-voice-tone-cleanup-2026-05-10/hybrid-path-validation-pack-v1/06 Semantic Library And AI Operating Partner Moat.md"
+  ],
+  "external_export": "none"
+}

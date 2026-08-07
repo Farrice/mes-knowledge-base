@@ -8,7 +8,7 @@ pin: true
 
 # Retried Health Performance GEO Daily Brief for 2026-06-30 after hard-pattern style repairs and receipt update. Deliverable includes complete required brief sections, ready-to-deploy content, 45-minute sprint, acquisition scorecard, local save, and JSONL capture. Google Drive export disabled.
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-06-30-health-performance-geo-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-06-30-health-performance-geo-brief.md`
 
 **Next session focus**: Resume the `farrice-engine` work-stream — see the deliverable above.
 

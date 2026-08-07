@@ -10,7 +10,7 @@ session: suzuki-os-embodiment-dwa-rebuild
 
 ## Problem
 
-A built project (`_active/dwa-affiliate-battle-test/`) had all its deliverables committed and present — but loose at the folder root. The global artifact router had auto-created a full generic scaffold (`00-start-here` … `99-archive`) and, by its own policy (`active project file is governed but not automatically moved`), left every subfolder empty. The user opened the numbered subfolders, found them all empty, and reasonably concluded "all the folders are empty / this isn't organized," even though nothing was lost.
+A built project (`_active/clients/dwa-affiliate-battle-test/`) had all its deliverables committed and present — but loose at the folder root. The global artifact router had auto-created a full generic scaffold (`00-start-here` … `99-archive`) and, by its own policy (`active project file is governed but not automatically moved`), left every subfolder empty. The user opened the numbered subfolders, found them all empty, and reasonably concluded "all the folders are empty / this isn't organized," even though nothing was lost.
 
 ## Root Cause
 

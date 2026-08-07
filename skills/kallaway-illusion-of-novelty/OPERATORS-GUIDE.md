@@ -18,7 +18,7 @@ The system-level view: how the engine composes, what the benchmark proved about 
 
 ## 2. The benchmark verdict (the one thing every operator must know)
 
-2026-07-13: 13 workflows × 2 specimens (original vs. Diandra-upgraded post) = 26 runs against Farrice's ranking as ground truth. Report: `_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/00-REPORT.md`. Findings:
+2026-07-13: 13 workflows × 2 specimens (original vs. Diandra-upgraded post) = 26 runs against Farrice's ranking as ground truth. Report: `_active/linkedin/99-archive/kallaway-novelty-benchmark/00-REPORT.md`. Findings:
 
 - **The scorecard is honest inside its lane.** No workflow forced a component it didn't believe in; six returned clean "ship it"; `/novelty-meta` and `/novelty-pattern` correctly declined to run rather than manufacture output. The over-engineering trap the test was built to catch did not spring.
 - **It is lane-blind to body coherence.** Both specimens scored 10/10 Integrity PASS while Farrice ranked them apart. The deciding axis (loop closure, narrative tissue, rhythm) lives between components, not inside any of them. Solution card: `docs/solutions/2026-07-13-novelty-scorecard-lane-blind-to-coherence.md`.
@@ -49,7 +49,7 @@ Front end only: this skill manufactures the LOOK, then hands off. `/novelty-to-a
 ## 7. Source ground truth
 
 - **Primary:** Kallaway, "The Illusion of Novelty" (YouTube `LvuoNlYRs7g`, ~20 min, 6,310-word transcript at `extractions/kallaway/transcript.txt`). Verbatim anchors in `genius.md` and `references/source-quotes.md`; never paraphrase as exact quotes.
-- **Session-proven exemplars:** the flagship (`_active/linkedin-launch/04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP.md`) and the benchmark's three surviving fixes (close the loop, re-aim the stat, real anecdote over composite) are ground truth for what a passing run looks like in Farrice's domains.
+- **Session-proven exemplars:** the flagship (`_active/linkedin/04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP.md`) and the benchmark's three surviving fixes (close the loop, re-aim the stat, real anecdote over composite) are ground truth for what a passing run looks like in Farrice's domains.
 - **Calibration evidence:** the benchmark report + solution card in §2. These are load-bearing; a future session that trusts a scorecard tie is repeating a solved failure.
 
 ## 8. Extend-never-rebuild rules
@@ -74,6 +74,6 @@ Front end only: this skill manufactures the LOOK, then hands off. `/novelty-to-a
 
 ## 10. Session receipts (evidence, not claims)
 
-- **2026-07-13, benchmark:** 13 workflows × 2 specimens, 26 runs; verdict honest-but-lane-blind; routing rule set; solution card written. Report archived at `_active/linkedin-launch/99-archive/kallaway-novelty-benchmark/`.
+- **2026-07-13, benchmark:** 13 workflows × 2 specimens, 26 runs; verdict honest-but-lane-blind; routing rule set; solution card written. Report archived at `_active/linkedin/99-archive/kallaway-novelty-benchmark/`.
 - **2026-07-13, flagship:** `/novelty-engine` run on AI answer-engine discovery for wellness brands; 10/10 Gut-Check, coherence pass TRUE, seven VERIFIED claims, one deliberately-open closing rehook. The standing template for sprint posts.
 - **Standing:** the composite-founder rule from the flagship (generic peer, never a named real person without permission) applies to every bullseye-proof composite this skill produces.

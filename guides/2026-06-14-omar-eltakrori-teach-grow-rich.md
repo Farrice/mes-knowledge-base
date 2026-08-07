@@ -7,7 +7,7 @@ status: enriched
 
 # The Teach & Grow Rich OS (Omar Eltakrori) — What We Built 2026-06-14 and How to Use It
 
-> An `/extract-forge` run on two Omar Eltakrori videos (~13K words) expanded `skills/omar-eltakrori/` in place from a 4-workflow light extraction to full forge standard — now **17 `/oe-*` workflows** (15 at forge, +2 from the 2026-07-01 claude.ai export enrichment), 5+ references, AGENT.md, and a 12-criterion rubric. The engine: **teaching is the highest-paying skill** — build a no-sales-team business by teaching at every phase. Sources: `skills/omar-eltakrori/SKILL.md` · `skills/omar-eltakrori/genius.md` · applied deployment at `_active/farrice-teach-grow-rich/`.
+> An `/extract-forge` run on two Omar Eltakrori videos (~13K words) expanded `skills/omar-eltakrori/` in place from a 4-workflow light extraction to full forge standard — now **17 `/oe-*` workflows** (15 at forge, +2 from the 2026-07-01 claude.ai export enrichment), 5+ references, AGENT.md, and a 12-criterion rubric. The engine: **teaching is the highest-paying skill** — build a no-sales-team business by teaching at every phase. Sources: `skills/omar-eltakrori/SKILL.md` · `skills/omar-eltakrori/genius.md` · applied deployment at `_active/_archive/2026-08-07-sweep/farrice-teach-grow-rich/`.
 
 ## ⚡ If you only read 10 lines
 
@@ -20,7 +20,7 @@ status: enriched
 - The close is a belief triad — Possible · Easy · Trust — built via `/oe-belief-shift-architect`. "Making it seem easy IS the close."
 - Offer not selling or price feels capped: `/oe-what-people-buy` (8 Buyables audit) → `/oe-offer-packaging`.
 - Load `genius.md` before any workflow — it carries all three layers (Interior, Exterior, Sales & Offers) plus the rubric.
-- Honest edge: `_active/farrice-teach-grow-rich/` is a refine-from draft **awaiting Farrice's Step-0 centering decision** (3 options in `00-day1-build-sequence.md`). All of Omar's revenue figures are UNCONFIRMED.
+- Honest edge: `_active/_archive/2026-08-07-sweep/farrice-teach-grow-rich/` is a refine-from draft **awaiting Farrice's Step-0 centering decision** (3 options in `00-day1-build-sequence.md`). All of Omar's revenue figures are UNCONFIRMED.
 
 ## Command table
 
@@ -70,7 +70,7 @@ Full 17-workflow table with tiers: `skills/omar-eltakrori/SKILL.md`.
 
 **Honest edges.** The 12-criterion rubric gate is a self-score; pair with `/two-axis-verify` on anything client-facing.
 
-## 3. The applied deployment — `_active/farrice-teach-grow-rich/`
+## 3. The applied deployment — `_active/_archive/2026-08-07-sweep/farrice-teach-grow-rich/`
 
 **What it is.** Six files, day-1→multimillion, built as a refine-from draft: Client Rolodex → named framework → offer → content engine → four-phase roadmap. Every file carries `[FARRICE: ...]` prompts for real client data, pricing, and story choices.
 

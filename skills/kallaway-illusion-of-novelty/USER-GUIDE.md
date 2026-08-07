@@ -14,7 +14,7 @@ This skill manufactures the FEELING of novelty for topics that are objectively o
 
 **3. Pattern Analyst (`/novelty-pattern`).** Winner/loser extraction on your own published content. Converts the one-size framework into your niche-specific execution rules (words, structures, topics that separate your winners). Needs real performance data; it correctly refuses to run at N=1.
 
-**Front door: `/novelty-engine`.** The conductor over all 13 workflows. It routes by job (full asset, angles, hooks, audit, retention handoff, campaign, calibration) and carries a live-research grounding phase (Phase 0.5) so reveals, urgency windows, and proof come from verified current sources, never training memory. The flagship post proved the pattern: every factual claim in it traces to a VERIFIED source (`_active/linkedin-launch/04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP.md`).
+**Front door: `/novelty-engine`.** The conductor over all 13 workflows. It routes by job (full asset, angles, hooks, audit, retention handoff, campaign, calibration) and carries a live-research grounding phase (Phase 0.5) so reveals, urgency windows, and proof come from verified current sources, never training memory. The flagship post proved the pattern: every factual claim in it traces to a VERIFIED source (`_active/linkedin/04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP.md`).
 
 ## Pick by situation
 

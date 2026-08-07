@@ -5,8 +5,8 @@ Anchor → source file + location. All source files were opened and read in full
 | Source | Path | Size (bytes) |
 |---|---|---|
 | Primary transcript | `extractions/andrew-dun/transcript.txt` | 87,837 |
-| Internal amplification report (v2.0 origin) | `_active/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-amplification-report.md` | 14,691 |
-| Internal v1 extraction (Revenue Architecture origin) | `_active/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-extraction.md` | 22,019 |
+| Internal amplification report (v2.0 origin) | `_active/harness/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-amplification-report.md` | 14,691 |
+| Internal v1 extraction (Revenue Architecture origin) | `_active/harness/codex-harvest-2026-06-11/brain/70d4034d-7603-456b-9b97-89bfe2613f97/artifacts/andrew-dun-extraction.md` | 22,019 |
 
 ## genius.md — "How to Use This Skill (Model Calibration)" section (new)
 

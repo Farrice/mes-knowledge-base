@@ -14,7 +14,7 @@ pin: true
 - **Not in scope:** rebuilding anything shipped today (swarm conductor/patterns, closeout spine, Solution Recorder are LIVE — extend only); browser pattern and packaging automation (Session 4); any repositioning (PATH DECISION incumbency holds).
 
 ## Load First
-- `_active/swarm-apex-2026-07-07/PLAN.md` — the merged mission plan, 4-session build sequence, S1 marked shipped
+- `_active/harness/swarm-apex-2026-07-07/PLAN.md` — the merged mission plan, 4-session build sequence, S1 marked shipped
 - `strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md` — the heavy-run decision brief (Named-Brand Claim Redline & Rescue, 5 forks with resolvers, claim ledger)
 - `research_outputs/2026-07-07-claim-safe-content-landscape.md` — Path A market research (enforcement shift to review/endorsement integrity)
 - `docs/solutions/index.md` — 6 Solution Cards; read matching cards before re-solving anything
@@ -34,7 +34,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-/resume swarm-apex — start Swarm Apex Session 2: build claim_audit.py and gates.py (Harness Apex Wave 2 spec in _active/harness-apex-2026-07-07/PLAN.md), wire claim_audit into swarm-heavy and swarm-research synthesis phases as a deterministic post-synthesis step, fixture-test both (known-PASS and known-FAIL artifacts), and check docs/solutions/index.md before solving anything that feels familiar.
+/resume swarm-apex — start Swarm Apex Session 2: build claim_audit.py and gates.py (Harness Apex Wave 2 spec in _active/harness/harness-apex-2026-07-07/PLAN.md), wire claim_audit into swarm-heavy and swarm-research synthesis phases as a deterministic post-synthesis step, fixture-test both (known-PASS and known-FAIL artifacts), and check docs/solutions/index.md before solving anything that feels familiar.
 ```
 
 ## Acceptance Criteria

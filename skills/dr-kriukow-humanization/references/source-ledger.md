@@ -22,7 +22,7 @@ content grep, not assumed, before concluding the extraction report is the sole s
 | Location checked | Method | Result |
 |---|---|---|
 | `extractions/` | `ls extractions/ \| grep -i kriukow` | Only `extractions/dr-kriukow/` — one file, 14,355 bytes |
-| `_active/codex-harvest-2026-06-11/` | `find ... -iname "*kriukow*"` | `skills/dr-kriukow-humanization/SKILL.md` (1,652 bytes — an older/shorter SKILL.md variant, no genius.md) and `agents/dr-kriukow/AGENT.md` (4,106 bytes — derivative persona config, no new source quotes) |
+| `_active/harness/codex-harvest-2026-06-11/` | `find ... -iname "*kriukow*"` | `skills/dr-kriukow-humanization/SKILL.md` (1,652 bytes — an older/shorter SKILL.md variant, no genius.md) and `agents/dr-kriukow/AGENT.md` (4,106 bytes — derivative persona config, no new source quotes) |
 | `_archive/claude-export-2026-07-01.tar.gz` | `tar -tzf ... \| grep -i kriukow` | Zero matches — confirmed empty by content grep, not assumed |
 | `evolution_store/v2_variants/genius_compressed/dr-kriukow-humanization_genius.md` | `diff` against current genius.md | A compressed/reworded variant of the same 7 patterns already in genius.md — no new source material, no new quotes |
 

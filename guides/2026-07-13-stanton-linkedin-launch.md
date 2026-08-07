@@ -20,7 +20,7 @@ status: enriched
 - Ship rule: your PASS/FAIL/FIX verdict per body FIRST → post → paste the loop line as the FIRST COMMENT → finale bookend on post 14. If a FIX changes a body, re-read its loop line.
 - P3-1 and P3-2 are the closest pair — if either draws a FAIL, cut one, never both.
 - First live `/stanton-produce` run: 8.33/10 finalize, gate 8/8 with two catches — one proof, not a track record.
-- First thing to run: the verdict pass on `_active/linkedin-launch/04-deliverables/content-os/REVIEW-clean-posts.md` — it's the open loop blocking the whole sequence.
+- First thing to run: the verdict pass on `_active/linkedin/04-deliverables/content-os/REVIEW-clean-posts.md` — it's the open loop blocking the whole sequence.
 
 ## Command table
 
@@ -30,8 +30,8 @@ status: enriched
 | `/stanton-clamp-audit` | Attention-drop audit on one draft | Clean-but-flat draft nobody would finish |
 | `/stanton-series-escalation` | A batch re-ordered into an escalating series | Posts filed by topic pillar hiding a ladder |
 | `story-compass` (Runia) | Is-there-a-story-at-all verdict | Before Stanton, when the story itself is in doubt |
-| `_active/linkedin-launch/content-os/launch-sequence-stanton.md` | Ladder table + 13 loop lines + finale bookend + watch-items | Executing or resuming the Receipt Arc mid-sequence |
-| `_active/linkedin-launch/04-deliverables/content-os/REVIEW-clean-posts.md` | The 14 post bodies awaiting verdicts | The PASS/FAIL/FIX verdict pass |
+| `_active/linkedin/04-deliverables/content-os/launch-sequence-stanton.md` | Ladder table + 13 loop lines + finale bookend + watch-items | Executing or resuming the Receipt Arc mid-sequence |
+| `_active/linkedin/04-deliverables/content-os/REVIEW-clean-posts.md` | The 14 post bodies awaiting verdicts | The PASS/FAIL/FIX verdict pass |
 | `skills/andrew-stanton-audience-engineering/USER-GUIDE.md` | 20-workflow situation table, five proven plays, quick-start recipes | Learning to use the skill |
 | `skills/andrew-stanton-audience-engineering/OPERATORS-GUIDE.md` | Deployment map, quality system, failure modes → fixes | Understanding or extending how the system runs it |
 
@@ -67,7 +67,7 @@ Objective + raw material in, finished piece out: Runia story gate → Stanton ar
 ### How to invoke
 
 ```
-/stanton-produce — objective: sequence the 14 reviewed posts into a launch arc; material: _active/linkedin-launch/04-deliverables/content-os/REVIEW-clean-posts.md
+/stanton-produce — objective: sequence the 14 reviewed posts into a launch arc; material: _active/linkedin/04-deliverables/content-os/REVIEW-clean-posts.md
 ```
 
 ### Honest edges
@@ -93,8 +93,8 @@ Three components:
 
 ### Where the assets live
 
-- Sequence + loop lines + watch-items: `_active/linkedin-launch/content-os/launch-sequence-stanton.md`
-- Post bodies (awaiting verdicts): `_active/linkedin-launch/04-deliverables/content-os/REVIEW-clean-posts.md`
+- Sequence + loop lines + watch-items: `_active/linkedin/04-deliverables/content-os/launch-sequence-stanton.md`
+- Post bodies (awaiting verdicts): `_active/linkedin/04-deliverables/content-os/REVIEW-clean-posts.md`
 
 ### How to execute / resume the posting sequence
 

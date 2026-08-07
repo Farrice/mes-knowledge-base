@@ -14,7 +14,7 @@ pin: true
 - **Not in scope:** rewriting the hook set (Farrice-calibrated, delivered), re-scraping her IG (profile is current as of 2026-07-25), building a scraper tool (flagged on Forge Radar, not approved).
 
 ## Load First
-- `_active/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md` — the deliverable: 6 hooks (hook separated from body script), IG caption, 3 team variations, pre-filming verify footer.
+- `_active/clients/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md` — the deliverable: 6 hooks (hook separated from body script), IG caption, 3 team variations, pre-filming verify footer.
 - `skills/jen-santulan-listing-content/references/jen-real-voice-profile.md` — NEW canonical voice source, built from her actual IG (bio + 20 posts/reels + 3 reels watched frame-by-frame). Wins over genius.md on any energy/register conflict.
 - `~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/feedback-jen-reel-hook-style.md` — updated format contract (hook-separated structure + calm-warm register).
 

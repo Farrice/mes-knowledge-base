@@ -2,9 +2,9 @@
 name: jen-santulan-listing-content
 description: Produces register-aware real-estate content for Jennifer Santulan's Instagram — Reels hooks, scripts, captions, and full sendable listing packages. Two registers by listing tier — FTHB/everyday (<$1.5M, warm-friend voice, SFV first-time buyers) and luxury (≥$2M, "Quiet Flex Elite Advisor" authority-POV). Use when working on Jen Santulan's listings/social content, when the user drops ANY listing URL (Zillow/Redfin/realtor), an MLS listing, or a property address/photo — her listing pipeline is the default real-estate context; /listing-package is the URL→sendable-package front door.
 paths:
-  - "_active/jen-listings/**"
+  - "_active/clients/jen-listings/**"
   - "projects/jen-*/**"
-when_to_use: User drops a listing URL or property address for content OR is producing Instagram content for Jen Santulan's real-estate practice OR needs a full listing package (hooks + scripts + caption + forwardable send text) OR is drafting SFV/LA real-estate copy for Jen. Specifically NOT for generic real-estate marketing — Jen's registers are brand-specific and tier-gated (_active/jen-listings/CLAUDE.md ladder).
+when_to_use: User drops a listing URL or property address for content OR is producing Instagram content for Jen Santulan's real-estate practice OR needs a full listing package (hooks + scripts + caption + forwardable send text) OR is drafting SFV/LA real-estate copy for Jen. Specifically NOT for generic real-estate marketing — Jen's registers are brand-specific and tier-gated (_active/clients/jen-listings/CLAUDE.md ladder).
 version: "3.0"
 format: completion-engine
 workflows: 4
@@ -46,7 +46,7 @@ Full voice DNA, signature patterns, anti-patterns, and quality bar in `genius.md
 
 ### Register Ladder (binding — Jen's own verdict, 2026-08-05)
 
-Tier decides register BEFORE any generation (canon: `_active/jen-listings/CLAUDE.md` Override List; calibration: `references/jen-calibration-log.md`):
+Tier decides register BEFORE any generation (canon: `_active/clients/jen-listings/CLAUDE.md` Override List; calibration: `references/jen-calibration-log.md`):
 - **<$1.5M (FTHB/everyday):** warm-friend voice, FTHB-Permission hook mandatory.
 - **≥$2M (luxury):** "Quiet Flex Elite Advisor" — authority-POV hooks (market thesis, property as evidence), FTHB-Permission hook forbidden.
 - Fair-housing floor on all spoken text: `execution/fair_housing_lint.py` (no safe/family/great-for-kids, schools off camera).

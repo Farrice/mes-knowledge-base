@@ -9,7 +9,7 @@ for narrative, tension, and authority. Deterministic; interpretation happens in 
 Per directives/apify-usage-policy.md: Apify self-governs budget and NEVER throws — on
 `{"fallback": true}` we log the gap and move on (no silent break, no blocking).
 
-Output: `_active/linkedin-launch/06-automation/daily/brand-radar-YYYY-WW.md`
+Output: `_active/linkedin/06-automation/daily/brand-radar-YYYY-WW.md`
 Config: edit BRANDS below (correct any IG handle that returns no data).
 
 Usage:
@@ -26,7 +26,7 @@ import subprocess
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT_DIR = os.path.join(REPO, "_active/linkedin-launch/daily")
+OUT_DIR = os.path.join(REPO, "_active/linkedin/99-archive/2026-08-07-dupe-trees/daily-pre-0623-snapshot")
 
 # (display name, instagram handle, website) — Top-10 from research/wellness-supplement-brand-niche.md.
 # Correct any handle that returns no data (Apify will just report empty + we note it).

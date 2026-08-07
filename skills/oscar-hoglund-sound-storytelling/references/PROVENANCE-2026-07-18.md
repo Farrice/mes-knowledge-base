@@ -4,7 +4,7 @@
 
 - `ls extractions/ | grep -i hoglund` → 0 hits. `grep -i "hoglund\|epidemic sound"` repo-wide
   (excluding the skill's own tree and worktree mirrors) → hits only in routing/index files and
-  `_active/codex-harvest-2026-06-11/agents/oscar-hoglund/AGENT.md` (a persona pointer file, no
+  `_active/harness/codex-harvest-2026-06-11/agents/oscar-hoglund/AGENT.md` (a persona pointer file, no
   new sourced content).
 - Ran a full Python `tarfile` per-member scan of `_archive/claude-export-2026-07-01.tar.gz`
   (archive size 332,779,255 bytes; 7,720 members total; all `.md`/`.txt`/`.json`/`.jsonl` bodies

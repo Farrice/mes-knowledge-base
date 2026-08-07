@@ -120,9 +120,9 @@ extractions/*/download/
 
 # Andrea Resonance — large PNG hero-shot archives (added 2026-05-28 session cleanup)
 # These are render artifacts; keep them local or in cloud storage, not in git
-_active/andrea-dj/launch/03-visual-variants/_archive/
-_active/andrea-dj/launch/03-visual-variants/variant-b-hero-shots-v3/
-_active/andrea-dj/launch/03-visual-variants/variant-c-hero-shots-v3/
+_active/clients/andrea-dj/launch/03-visual-variants/_archive/
+_active/clients/andrea-dj/launch/03-visual-variants/variant-b-hero-shots-v3/
+_active/clients/andrea-dj/launch/03-visual-variants/variant-c-hero-shots-v3/
 .agent/active-tool.lock
 
 # Large local archives (never commit — .git bloat; raw sources live in sovereign.db / original services)

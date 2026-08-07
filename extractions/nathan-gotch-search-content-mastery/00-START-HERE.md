@@ -37,7 +37,7 @@ Future episodes in the planned series are `NO EVENT`. They may enter through the
 - Command front door: `.agent/workflows/search-content-mastery.md`.
 - Deterministic runtime: `execution/search_content_mastery.py`.
 - Core schemas: `schemas/search-content-mastery/`.
-- Acceptance pilot: `_active/search-content-mastery/health-performance-pilot/`.
+- Acceptance pilot: `_active/knowledge/search-content-mastery/health-performance-pilot/`.
 
 ## Proof State Rules
 
@@ -51,6 +51,6 @@ Future episodes in the planned series are `NO EVENT`. They may enter through the
 - Machine acceptance receipt: `runtime-verification-receipt.json` (`9/9 PASS`).
 - Whole-system verification: `harness-verification-receipt.md`.
 - Blind-pass record: `../search-content-mastery-os/blind-pass-log.md` (`EVAL-058`, model-judged and not human-calibrated).
-- Health Performance pilot: `../../_active/search-content-mastery/health-performance-pilot/00-START-HERE.md`.
+- Health Performance pilot: `../../_active/knowledge/search-content-mastery/health-performance-pilot/00-START-HERE.md`.
 
 `RUNTIME_OBSERVED` means the local command, records, fixtures, routing, imports, scoring, batches, cold starts, and pilot ran under verification. It does not promote any market-effect claim.

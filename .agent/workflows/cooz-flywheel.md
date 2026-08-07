@@ -35,12 +35,12 @@ Takes a raw voice memo from Coach Cooz (Acusio Bivona / The Resurrection Coach) 
 
 Read these files in order:
 
-1. **Cooz Voice Profile** — `_active/coach-cooz/15-final-package/03-cooz-voice-profile.md` — machine-readable voice DNA
-2. **The Man in the Valley Playbook** — `_active/coach-cooz/15-final-package/02-man-in-the-valley-playbook.md` — unified ICP + content pillars + pain points bank
-3. **The Ignition Plan Section 5** — `_active/coach-cooz/14-ignition-plan/THE-IGNITION-PLAN.md` (sections 5, 7 for content engine rules and brand calibration)
-4. **Voice guide** — `_active/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md` — phrases to use / phrases to never use
-5. **The 8 Tenets framework** — `_active/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md` — curriculum spine, use for Lane A educational posts
-6. **WS1.6 voice rule** — `_active/coach-cooz/03-research/WS1.6-voice-validation-and-data-recovery.md` — Sheedy 6-step template
+1. **Cooz Voice Profile** — `_active/clients/coach-cooz/15-final-package/03-cooz-voice-profile.md` — machine-readable voice DNA
+2. **The Man in the Valley Playbook** — `_active/clients/coach-cooz/15-final-package/02-man-in-the-valley-playbook.md` — unified ICP + content pillars + pain points bank
+3. **The Ignition Plan Section 5** — `_active/clients/coach-cooz/14-ignition-plan/THE-IGNITION-PLAN.md` (sections 5, 7 for content engine rules and brand calibration)
+4. **Voice guide** — `_active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md` — phrases to use / phrases to never use
+5. **The 8 Tenets framework** — `_active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md` — curriculum spine, use for Lane A educational posts
+6. **WS1.6 voice rule** — `_active/clients/coach-cooz/03-research/WS1.6-voice-validation-and-data-recovery.md` — Sheedy 6-step template
 
 ---
 
@@ -307,8 +307,8 @@ Every 4-6 weeks, the flywheel produces a free lead magnet as a side output from 
 
 ## Related Assets
 
-- Cooz Voice Profile: `_active/coach-cooz/15-final-package/03-cooz-voice-profile.md`
-- Man in the Valley Playbook: `_active/coach-cooz/15-final-package/02-man-in-the-valley-playbook.md`
-- Ignition Plan: `_active/coach-cooz/14-ignition-plan/THE-IGNITION-PLAN.md`
-- 8 Tenets: `_active/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md`
-- Voice Guide: `_active/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md`
+- Cooz Voice Profile: `_active/clients/coach-cooz/15-final-package/03-cooz-voice-profile.md`
+- Man in the Valley Playbook: `_active/clients/coach-cooz/15-final-package/02-man-in-the-valley-playbook.md`
+- Ignition Plan: `_active/clients/coach-cooz/14-ignition-plan/THE-IGNITION-PLAN.md`
+- 8 Tenets: `_active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md`
+- Voice Guide: `_active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md`

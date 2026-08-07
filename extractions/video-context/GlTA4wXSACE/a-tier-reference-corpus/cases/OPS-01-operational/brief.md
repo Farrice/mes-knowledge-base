@@ -28,8 +28,8 @@ Run the complete `/shaan-story-deploy` workflow. Return the finished asset follo
 
 ## Source Paths
 
-- `_active/josh-katie-fitness/josh/SEND-TODAY-CHECKLIST.md`.
-- `_active/josh-katie-fitness/josh/COACHING-OFFER-BRIEF.md`.
+- `_active/clients/josh-katie-fitness/josh/SEND-TODAY-CHECKLIST.md`.
+- `_active/clients/josh-katie-fitness/josh/COACHING-OFFER-BRIEF.md`.
 
 ## Truth Constraints
 

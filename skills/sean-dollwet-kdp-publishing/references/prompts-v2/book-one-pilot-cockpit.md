@@ -15,7 +15,7 @@ Activate for zero-to-KDP, first-book, AI-ebook-without-slop, Book One pilot, or 
 
 ## Input Required
 
-1. `[PROJECT_PATH]` — default `_active/kdp-book-one-pilot`
+1. `[PROJECT_PATH]` — default `_active/publishing/kdp-book-one-pilot`
 2. `[PACE_PROFILE]` — `rapid_7`, `launch_14`, or `editorial_30`; default `launch_14`
 3. `[OPERATOR_EVIDENCE]` — experience, stories, exclusions, voice, anonymity, and taste
 4. `[MARKET_EVIDENCE]` — 5–10 dated candidate snapshots; may initially be empty

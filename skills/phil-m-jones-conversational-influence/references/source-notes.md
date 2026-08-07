@@ -45,4 +45,4 @@ The skill uses short phrase labels and paraphrased mechanics. It does not reprod
 
 ## Path Correction (2026-07-18 heartbeat repair)
 
-The "Local transcript" path above (`extractions/phil-m-jones/transcript.txt`) does not exist in the current repo — verified by directory listing during the 2026-07-18 heartbeat repair pass. The actual, readable transcript lives at `_active/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` (112,045 characters, ~20,448 words, confirmed by direct read). Full claim-by-claim provenance for every quote pulled from it during this repair is in `references/source-ledger.md`.
+The "Local transcript" path above (`extractions/phil-m-jones/transcript.txt`) does not exist in the current repo — verified by directory listing during the 2026-07-18 heartbeat repair pass. The actual, readable transcript lives at `_active/harness/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` (112,045 characters, ~20,448 words, confirmed by direct read). Full claim-by-claim provenance for every quote pulled from it during this repair is in `references/source-ledger.md`.

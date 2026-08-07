@@ -1,6 +1,6 @@
 # Phil M Jones - Genius Context
 
-> Source: Phil M Jones' read-through of his own book *Exactly What to Say* (YouTube video `H4YArR-TMEc`, 20,448-word transcript). Local copy verified at `_active/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` (112,045 characters, confirmed by direct read 2026-07-18 — see `references/source-ledger.md`). All "transcript.txt, ~word N" citations below point into that file.
+> Source: Phil M Jones' read-through of his own book *Exactly What to Say* (YouTube video `H4YArR-TMEc`, 20,448-word transcript). Local copy verified at `_active/harness/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` (112,045 characters, confirmed by direct read 2026-07-18 — see `references/source-ledger.md`). All "transcript.txt, ~word N" citations below point into that file.
 
 ## How to Use This Skill (Model Calibration)
 

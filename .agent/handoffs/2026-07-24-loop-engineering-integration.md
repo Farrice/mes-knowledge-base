@@ -14,10 +14,10 @@ pin: true
 - **Not in scope:** new loop machinery (standing refusals ratified in the brief: no Every plugin, no Ralph, no new producers without named consumers, no append-to-CLAUDE.md compounding, no human-optional review of taste work).
 
 ## Load First
-- `_active/loop-engineering-integration/04-deliverables/LOOP-ENGINEERING-INTEGRATION-BRIEF.md` — the locked decision record + execution checklist (all 13 rows ✅)
-- `_active/loop-engineering-integration/wayfinder/MAP.md` — full decision trail (5 tickets, all closed)
+- `_active/harness/loop-engineering-integration/04-deliverables/LOOP-ENGINEERING-INTEGRATION-BRIEF.md` — the locked decision record + execution checklist (all 13 rows ✅)
+- `_active/harness/loop-engineering-integration/wayfinder/MAP.md` — full decision trail (5 tickets, all closed)
 - `docs/solutions/2026-07-24-loops-die-at-the-last-mile.md` — the banked method (audit both arms, repair closers not producers)
-- `_active/loop-engineering-integration/research/` — canon (proven-vs-hype), 12-loop audit, gap map
+- `_active/harness/loop-engineering-integration/research/` — canon (proven-vs-hype), 12-loop audit, gap map
 
 ## Current State
 - **Objective:** integrate loop/compound engineering without breaking anything, zero context cost — DONE.
@@ -32,7 +32,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Run /cos, then clear anything the Memory Review section surfaces (approve/reject/veto/bless via the prefilled commands). If it's on/after 2026-08-24: re-run the 12-loop audit per docs/solutions/2026-07-24-loops-die-at-the-last-mile.md and compare against _active/loop-engineering-integration/research/2026-07-24-loop-inventory-audit.md.
+Run /cos, then clear anything the Memory Review section surfaces (approve/reject/veto/bless via the prefilled commands). If it's on/after 2026-08-24: re-run the 12-loop audit per docs/solutions/2026-07-24-loops-die-at-the-last-mile.md and compare against _active/harness/loop-engineering-integration/research/2026-07-24-loop-inventory-audit.md.
 ```
 
 ## Acceptance Criteria

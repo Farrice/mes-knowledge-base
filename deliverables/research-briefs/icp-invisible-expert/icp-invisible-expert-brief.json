@@ -257,7 +257,7 @@
         {
           "k": "SOURCE",
           "title": "deep icp profile: the invisible expert",
-          "path": "_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md"
+          "path": "_active/linkedin/01-research/deep-icp-profile-invisible-expert.md"
         },
         {
           "k": "BRIEF",
@@ -269,7 +269,7 @@
   ],
   "context": [
     {
-      "path": "_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md",
+      "path": "_active/linkedin/01-research/deep-icp-profile-invisible-expert.md",
       "role": "primary ICP research"
     }
   ]

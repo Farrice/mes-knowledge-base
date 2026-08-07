@@ -30,7 +30,7 @@ label is preserved here, not upgraded to VERIFIED.
 | `extractions/prediction-market-trading/raw-sources/polymarket-agents-source.md` | 44,828 bytes | Polymarket's official agents framework source | VERIFIED — exists on disk; not independently re-read claim-by-claim this pass (Source 8 in the compilation covers the same ground) |
 | `extractions/prediction-market-trading/raw-sources/polymarket-arbitrage-source.md` | 21,015 bytes | Open-source arbitrage bot reference | VERIFIED — exists, grepped ("net edge = gross edge - (taker fees + gas costs)") |
 | `extractions/prediction-market-trading/raw-sources/weatherbot-source.md` | 85,946 bytes | Weather-market bot source (belongs primarily to the sibling `prediction-market-weather-trading` skill, not this one) | VERIFIED — exists; out of scope for this skill's claims |
-| `_active/prediction-market-arb/` (polymarket_client.py, market_selector.py, polymarket_ws.py) | — | Farrice's own live project implementing a Polymarket client | VERIFIED to exist; confirms this skill has an active downstream consumer, not cited as a content source for any GP/HK claim |
+| `_active/wagering/prediction-market-arb/` (polymarket_client.py, market_selector.py, polymarket_ws.py) | — | Farrice's own live project implementing a Polymarket client | VERIFIED to exist; confirms this skill has an active downstream consumer, not cited as a content source for any GP/HK claim |
 
 No claude.ai export, transcript, podcast, or interview underlies this
 skill — it is grounded entirely in written research artifacts, all present

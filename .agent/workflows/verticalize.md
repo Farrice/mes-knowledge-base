@@ -161,7 +161,7 @@ Stop condition:
 
 ## Phase 5 — Per-Project CLAUDE.md (Inheritance Contract)
 
-**Goal**: Generate the inheritance contract per the template established by `_active/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`, and `_active/farrice-brand/CLAUDE.md`.
+**Goal**: Generate the inheritance contract per the template established by `_active/clients/andrea-dj/CLAUDE.md`, `_active/clients/jen-listings/CLAUDE.md`, and `_active/farrice-brand/CLAUDE.md`.
 
 Required sections (per the 2026-05-12 inheritance contract):
 

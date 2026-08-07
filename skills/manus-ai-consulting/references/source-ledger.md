@@ -15,13 +15,13 @@ swarm-apex-2026-07-07 research brief, per the envelope's pointer.
 
 | # | Claim | Label | Source | Notes |
 |---|---|---|---|---|
-| 1 | Peak Ji quote: "we do not divide by role... very cautious about adding more sub agents because communication is very hard" | VERIFIED | `_active/swarm-apex-2026-07-07/research/manus.md`, line 9 | Quote located verbatim in the local brief file by direct read. The brief itself tags this VERIFIED against a LangChain webinar + Recall card; this worker did not independently re-fetch the YouTube source, so the "VERIFIED" label here is inherited from the brief's own primary-source tag, not re-confirmed against the video by this pass. |
+| 1 | Peak Ji quote: "we do not divide by role... very cautious about adding more sub agents because communication is very hard" | VERIFIED | `_active/harness/swarm-apex-2026-07-07/research/manus.md`, line 9 | Quote located verbatim in the local brief file by direct read. The brief itself tags this VERIFIED against a LangChain webinar + Recall card; this worker did not independently re-fetch the YouTube source, so the "VERIFIED" label here is inherited from the brief's own primary-source tag, not re-confirmed against the video by this pass. |
 | 2 | KV-cache hit rate = "the single most important metric"; $0.30/MTok cached vs $3 uncached | VERIFIED | `manus.md`, lines 13-14 | Quote located verbatim. Brief tags this VERIFIED against manus.im/blog (primary). Not independently re-fetched by this worker. |
 | 3 | "Failed actions and stack traces deliberately left in context... implicitly updates the model's internal beliefs" | VERIFIED | `manus.md`, line 17 | Quote located verbatim. Same manus.im/blog primary source, not independently re-fetched. |
 | 4 | `todo.md` recitation as attention hack, "avoiding lost-in-the-middle goal drift across ~50 tool calls" | VERIFIED | `manus.md`, line 15 | Quote located verbatim. Same manus.im/blog primary source, not independently re-fetched. |
 | 5 | Opaque credit burn: "400 credits on 4 Google Maps lookups, 1000 credits before first output, no real-time spend alerts, billing on failed runs" | VERIFIED (brief's tag) — secondary-sourced | `manus.md`, line 28 | Quote located verbatim. Brief itself sources this to review roundups (lindy.ai, allaboutai.com, metaflow.life) — secondary, not primary — while still tagging it VERIFIED at the brief level (consistent reviews). Flagged here as secondary-sourced so the distinction isn't lost downstream. |
 
-`_active/swarm-apex-2026-07-07/research/manus.md` — confirmed non-empty,
+`_active/harness/swarm-apex-2026-07-07/research/manus.md` — confirmed non-empty,
 `wc -c` = 5,141 bytes (checked this repair pass; rules out a false
 "unrecoverable/0-byte" claim).
 
@@ -45,7 +45,7 @@ swarm-apex-2026-07-07 research brief, per the envelope's pointer.
 ## Files consulted this repair (with sizes)
 
 ```
-_active/swarm-apex-2026-07-07/research/manus.md    5,141 bytes
+_active/harness/swarm-apex-2026-07-07/research/manus.md    5,141 bytes
 skills/manus-ai-consulting/SKILL.md                 (read, not modified this pass)
 skills/manus-ai-consulting/SKILL.md.old             (read for diff context, not modified)
 skills/manus-ai-consulting/genius.md                (read; modified copy in this output dir)

@@ -18,7 +18,7 @@ reference files plus the codex-harvest architecture/vision docs.
 | "The method should help the right buyer understand the right offer. It should not pressure a poor-fit buyer into a bad decision." | `skills/cheri-tree-bank-buyology/references/genius-patterns.md` | Pattern 10, lines 59-60 |
 | "If code insights stay in the seller's head, they disappear. If code is stored and routed, the whole business can send better messages." | `skills/cheri-tree-bank-buyology/references/hidden-knowledge.md` | "CRM Is Where B.A.N.K. Becomes Compounding", lines 33-34 |
 | "12" downstream workflows claim | `skills/cheri-tree-bank-buyology/SKILL.md` | workflow table, 12 rows counted directly |
-| Extraction dating "2026-06-11" | `_active/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/architecture.md`, `vision.md` | Directory name + `git log --diff-filter=A --date=short` confirms both files added 2026-06-11 |
+| Extraction dating "2026-06-11" | `_active/harness/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/architecture.md`, `vision.md` | Directory name + `git log --diff-filter=A --date=short` confirms both files added 2026-06-11 |
 | Reference-file dating "2026-07-02" | `skills/cheri-tree-bank-buyology/references/*.md`, `genius.md` | `git log --diff-filter=A --date=short` confirms all added 2026-07-02 |
 
 ## Absence verification (per envelope hard rule 2)
@@ -28,7 +28,7 @@ Claim: no `extractions/` coverage exists for this expert.
 Verification performed:
 - `ls extractions/ | grep -i cheri` → empty (193 total top-level entries in `extractions/`)
 - `find . -iname "*why they buy*"` and `find . -iname "*.pdf"` (filtered buy/bank/tree) → zero hits, run 2026-07-17
-- Found instead: `_active/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/` (a different, non-top-level path) containing `architecture.md` (771 bytes) and `vision.md` (997 bytes) — both read in full. Neither contains a verbatim quote from *Why They Buy*; both are structural/synthesis notes (workflow list, capability-gap framing).
+- Found instead: `_active/harness/codex-harvest-2026-06-11/extractions/cheri-tree-bank-buyology/` (a different, non-top-level path) containing `architecture.md` (771 bytes) and `vision.md` (997 bytes) — both read in full. Neither contains a verbatim quote from *Why They Buy*; both are structural/synthesis notes (workflow list, capability-gap framing).
 - File sizes recorded via `wc -c`, not `wc -l`, per envelope instruction.
 
 Conclusion: absence of a primary-source extraction is real, not an unread-file false

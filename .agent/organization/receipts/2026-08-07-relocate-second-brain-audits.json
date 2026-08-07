@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:38:43.626533+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/second-brain-audits",
+  "dst": "_active/harness/second-brain-audits",
+  "stub_left": false,
+  "files_moved": 8,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/second-brain-audits/START-HERE.html": 28
+  },
+  "total_rewrites": 29,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

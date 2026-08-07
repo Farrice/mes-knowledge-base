@@ -5,7 +5,7 @@
 ## Load Context
 
 1. Read `../genius.md` (mandatory).
-2. Load the ICP/avatar source if one exists (for Farrice: `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md`; for clients: their avatar doc). Lane language must come from the buyer's own words — never invent a customer.
+2. Load the ICP/avatar source if one exists (for Farrice: `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`; for clients: their avatar doc). Lane language must come from the buyer's own words — never invent a customer.
 
 ## Steps
 

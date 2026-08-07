@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:44:57.791036+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/disney-crowd-app",
+  "dst": "_active/video-studio/disney-crowd-app",
+  "stub_left": false,
+  "files_moved": 10,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/video-studio/disney-crowd-app/START-HERE.html": 7
+  },
+  "total_rewrites": 8,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

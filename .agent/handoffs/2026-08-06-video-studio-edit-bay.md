@@ -20,7 +20,7 @@ pin: true
 - `_active/farrice-brand/voice/video-style.md` — his brand video style + the Correction Log that must absorb every note before close-out
 - `directives/video-studio-policy.md` — the 10 binding rules (no Higgsfield, free-first ladder, his VO, 3 formats, he posts)
 - `extractions/brad-bonanno-edit-bay/extraction-report.md` — the MES 3.0 source decode (12 genius patterns, 8 hidden-knowledge points)
-- `_active/video-studio-shakedown/05-assets/video/` — working reference: a real cutlist + render chain that passed QA
+- `_active/video-studio/video-studio-shakedown/05-assets/video/` — working reference: a real cutlist + render chain that passed QA
 
 ## Current State
 - **Objective:** Give Farrice a conversational in-house video studio so production time stops being his content bottleneck — VOX explainers, shorts, LinkedIn video at credible quality from a laptop.
@@ -37,7 +37,7 @@ pin: true
   - Stock B-roll is **untested** — `broll_source.py` has never made a live API call (no keys yet).
   - 9:16 export is naive center-crop (fine for talking-head, wrong for screen recordings) — subject-aware reframe is a known v2.
   - `graphics-taste.md` rules have never been exercised on a real comp; first pilot will show whether they bite or need sharpening.
-- **Latest proof/receipt:** `_active/video-studio-shakedown/05-assets/video/renders/v02.mp4` — qa-probe PASS on all checks (resolution, fps, duration-vs-cutlist, loudness, black frames, silences). Frames at `renders/v01-captioned-frames/`.
+- **Latest proof/receipt:** `_active/video-studio/video-studio-shakedown/05-assets/video/renders/v02.mp4` — qa-probe PASS on all checks (resolution, fps, duration-vs-cutlist, loudness, black frames, silences). Frames at `renders/v01-captioned-frames/`.
 
 ## Blocking on Farrice (both trivial)
 1. **Free API keys** → `.env`: `PEXELS_API_KEY` (pexels.com/api) and `PIXABAY_API_KEY` (pixabay.com/api/docs). ~2 minutes, no cost.

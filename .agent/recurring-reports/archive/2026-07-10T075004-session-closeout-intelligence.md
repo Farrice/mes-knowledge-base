@@ -161,8 +161,8 @@ PASS
     • workflow-gate-convention.md: overdue since 2026-06-12 (count: 0)
 
   ✅ ACTIVE (8):
-    • feedback-ratchet.md: 2026-07-10 (chain_runner finalize for _active/health-performance-ip-library) (count: 603)
-    • quality_gate.md: 2026-07-10 (chain_runner finalize for _active/health-performance-ip-library) (count: 591)
+    • feedback-ratchet.md: 2026-07-10 (chain_runner finalize for _active/knowledge/health-performance-ip-library) (count: 603)
+    • quality_gate.md: 2026-07-10 (chain_runner finalize for _active/knowledge/health-performance-ip-library) (count: 591)
     • session-state-protocol.md: 2026-07-10 (chain_runner session checkpoint) (count: 591)
     • token-efficiency-protocol.md: 2026-04-03 (count: 2)
     • embodiment-standard.md: 2026-07-02 (E4 ship — standard created and wired into both extraction routes + validator) (count: 1)

@@ -7,9 +7,9 @@ export const meta = {
 const ROOT = '/Users/farricecain/Google Antigravity'
 
 const BRIEFINGS = [
-  '_active/prediction-market-arb/02-research/prediction-market-business-briefing.md',
-  '_active/prediction-market-arb/02-research/prediction-market-partner-briefing.md',
-  '_active/prediction-market-arb/02-research/prediction-market-proposal-package.md',
+  '_active/wagering/prediction-market-arb/02-research/prediction-market-business-briefing.md',
+  '_active/wagering/prediction-market-arb/02-research/prediction-market-partner-briefing.md',
+  '_active/wagering/prediction-market-arb/02-research/prediction-market-proposal-package.md',
   'research_outputs/prediction-market-arb/00-research-dossier.md',
   'research_outputs/dj-event-matchmaking-research.md',
   'research_outputs/ghostwriting_niche_selection.md',

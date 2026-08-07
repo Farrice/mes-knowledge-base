@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:37:05.065728+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/context-engineering-os",
+  "dst": "_active/harness/context-engineering-os",
+  "stub_left": false,
+  "files_moved": 5,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-11-context-engineering-os.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/path-decision-2026-07-01/README.md": 2,
+    "<internal links in moved files>": 2
+  },
+  "total_rewrites": 6,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

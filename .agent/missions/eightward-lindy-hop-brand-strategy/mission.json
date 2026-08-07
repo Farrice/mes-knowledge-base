@@ -2,7 +2,7 @@
   "activation_queue": [
     {
       "blocker": "",
-      "evidence_path": "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md",
+      "evidence_path": "_active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md",
       "expected_artifact": "Source-backed cultural dossier and visual reference board",
       "id": "source-research",
       "kind": "workstream",
@@ -15,8 +15,8 @@
     },
     {
       "blocker": "",
-      "evidence_path": "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md",
-      "expected_artifact": "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_COMPLETE_LINDY_HOP_BRAND_STRATEGY_PACKET.md",
+      "evidence_path": "_active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md",
+      "expected_artifact": "_active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_COMPLETE_LINDY_HOP_BRAND_STRATEGY_PACKET.md",
       "id": "strategy-artifact",
       "kind": "workstream",
       "next_action": "Share with Josh for review before counsel, paid cultural review, and private mockups.",
@@ -46,7 +46,7 @@
       "strategy-artifact"
     ],
     "proof_artifacts": [
-      "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md"
+      "_active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md"
     ],
     "resume_command": "/mission resume eightward-lindy-hop-brand-strategy",
     "skipped_lanes": [],
@@ -67,7 +67,7 @@
   "name": "Eightward Lindy Hop Brand Strategy",
   "package_boundaries": [],
   "resume_packet": {
-    "fresh_session_packet": "Continue from .agent/missions/eightward-lindy-hop-brand-strategy/mission.json and _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. Next useful action: turn the brief into a 2-page Josh-facing founder brief or 3 private mockup briefs.",
+    "fresh_session_packet": "Continue from .agent/missions/eightward-lindy-hop-brand-strategy/mission.json and _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. Next useful action: turn the brief into a 2-page Josh-facing founder brief or 3 private mockup briefs.",
     "next_command": "/mission eightward-lindy-hop-brand-strategy",
     "notes": "Mission produced complete cultural brand and legal consult brief.",
     "required": false,

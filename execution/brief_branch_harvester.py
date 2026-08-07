@@ -37,7 +37,7 @@ HARVEST_PREFIXES = ("_active/", ".agent/handoffs/")
 HARVEST_SUFFIX = ".md"
 # JSONL files merged row-wise with dedupe.
 MERGE_JSONL = (
-    "_active/health-performance-ip-library/ledger/insights.jsonl",
+    "_active/knowledge/health-performance-ip-library/ledger/insights.jsonl",
     ".agent/content-finish-log.jsonl",
 )
 # Shared mutable state: never harvested (main is authoritative).

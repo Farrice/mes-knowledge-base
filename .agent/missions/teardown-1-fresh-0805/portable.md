@@ -51,9 +51,9 @@ origin story swallow the deliverable — the reader came for the teardown.
 | `_active/farrice-brand/voice/REGISTER-ATLAS.md` | The person off the clock. One short line is the unit; reported speech is the humor engine; client-register warmth is the brand-voice ancestor. |
 | `FARRICE-MASTER-CONTEXT.md` §2b + §5b + §6 | The biography facts AND HIS ISSUED CORRECTIONS (counter = 3 yrs vitamin shop ONLY; never a gym-bag bottle — "that's fabricated"), the public thesis, voice law. |
 | `_active/farrice-brand/identity/notes-excavation-2026-08-04.md` | The conversion story source — the 2018 "Zero to Hero" note verbatim. |
-| `_active/linkedin-launch/02-offer/teardown-system.md` | The teardown mechanics as systematized. |
-| `_active/linkedin-launch/01-research/ICP-BATTLE-CARD.md` | The buyer's own words — ship them EXACTLY (verbatim doctrine below). |
-| `_active/linkedin-launch/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` §3 (About Take A) | The felt exemplar. Match its register, not your default. |
+| `_active/linkedin/02-offer/teardown-system.md` | The teardown mechanics as systematized. |
+| `_active/linkedin/01-research/ICP-BATTLE-CARD.md` | The buyer's own words — ship them EXACTLY (verbatim doctrine below). |
+| `_active/linkedin/03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` §3 (About Take A) | The felt exemplar. Match its register, not your default. |
 | `skills/kallaway-hook/` → `/text-hook-forge` | Hook craft for the opening line — structure only, never vocabulary. |
 | `execution/prose_classifier.py check <file>` | Pre-delivery gate. Known false positives on his work: his six questions (anaphora), bare "DM PROOF" (mic-drop). |
 
@@ -89,7 +89,7 @@ origin story swallow the deliverable — the reader came for the teardown.
 
 ## Negative references
 
-- `_active/linkedin-launch/03-launch/2026-07-29-profile-copy-v3…v6*` + `2026-07-30-profile-copy-v8-POP.md` — **do-not-build-on** (architecture failures documented in the wall).
+- `_active/linkedin/03-launch/2026-07-29-profile-copy-v3…v6*` + `2026-07-30-profile-copy-v8-POP.md` — **do-not-build-on** (architecture failures documented in the wall).
 - About v10–v14 drafts — do-not-build-on.
 - Take A — **harvest register only** (rhythm, heat, plainness), never lines.
 

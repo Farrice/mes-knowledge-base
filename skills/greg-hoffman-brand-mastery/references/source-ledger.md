@@ -8,8 +8,8 @@
 |---|---|---|---|
 | Interview transcript, "505 Podcast Ep. 197" (~60 min, per extraction-report metadata) | `extractions/brand-master/transcript.txt` | 108,208 bytes (`wc -c`) | VERIFIED — read in full, all quotes below grepped against this file |
 | Extraction report (12 Genius Patterns, 8 Hidden Knowledge items, methodology) | `extractions/brand-master/extraction-report.md` | 21,783 bytes (`wc -c`) | VERIFIED — read in full |
-| Codex-harvest duplicate skill (SKILL.md) | `_active/codex-harvest-2026-06-11/skills/greg-hoffman-brand-mastery/SKILL.md` | 4,111 bytes | VERIFIED (checked, content near-identical to live SKILL.md — no new claims found) |
-| Codex-harvest AGENT.md (unsourced anti-pattern list) | `_active/codex-harvest-2026-06-11/agents/greg-hoffman/AGENT.md` | 3,487 bytes | VERIFIED as existing, but its own Anti-Patterns list carries no anchors — used only as corroboration, never as an anchor source. All anchors in this skill's genius.md instead trace to the transcript or extraction-report. |
+| Codex-harvest duplicate skill (SKILL.md) | `_active/harness/codex-harvest-2026-06-11/skills/greg-hoffman-brand-mastery/SKILL.md` | 4,111 bytes | VERIFIED (checked, content near-identical to live SKILL.md — no new claims found) |
+| Codex-harvest AGENT.md (unsourced anti-pattern list) | `_active/harness/codex-harvest-2026-06-11/agents/greg-hoffman/AGENT.md` | 3,487 bytes | VERIFIED as existing, but its own Anti-Patterns list carries no anchors — used only as corroboration, never as an anchor source. All anchors in this skill's genius.md instead trace to the transcript or extraction-report. |
 | Book: *Emotion by Design* (Hoffman's book, referenced in SKILL.md intro) | Not present in `extractions/` or `_active/` — no book text file found in repo | **UNCONFIRMED** — the book's existence and authorship is corroborated by the transcript's own introduction ("author of *Emotion by Design*" — not a literal transcript quote, this is host/producer framing, not searched as book content), but no chapter/page-level claim in this skill is sourced FROM the book itself. Any future claim attributed to specific book content must be labeled UNCONFIRMED until the book text is available in-repo. |
 
 ## Note on the Transcript File Format
@@ -44,4 +44,4 @@
 
 ## Honest Gaps
 - No specific air date for the "505 Podcast Ep. 197" episode was found in either source file — any date-stamped citation of this interview should read "undated per available source" rather than inventing a publish date.
-- The Anti-Patterns list in `_active/codex-harvest-2026-06-11/agents/greg-hoffman/AGENT.md` names the same failure modes this ledger sources independently, but that file itself carries zero anchors — it was NOT used as a source-of-record for any anchor in genius.md, only as directional confirmation that the pattern names are stable across the two extraction lineages.
+- The Anti-Patterns list in `_active/harness/codex-harvest-2026-06-11/agents/greg-hoffman/AGENT.md` names the same failure modes this ledger sources independently, but that file itself carries zero anchors — it was NOT used as a source-of-record for any anchor in genius.md, only as directional confirmation that the pattern names are stable across the two extraction lineages.

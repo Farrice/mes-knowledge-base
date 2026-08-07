@@ -10,7 +10,7 @@
 
 | Claim / Content | Label | Source | Note |
 |---|---|---|---|
-| 20-post serial narrative arc (Posts 1–20), the 5 Core Principles, the Five Story Beats, Open Loop Mechanics, the Meta-Prompt | VERIFIED | `_active/linkedin-launch/04-deliverables/content-os/voice-captures/genspark-20-post-serial-arc.md` | Read in full. Added to the repo 2026-03-10, commit `4da54d14e` ("feat: add LinkedIn transition posts + GenSpark voice extraction"). This is the ground-truth extraction genius.md's "The Discovery" section is built on. |
+| 20-post serial narrative arc (Posts 1–20), the 5 Core Principles, the Five Story Beats, Open Loop Mechanics, the Meta-Prompt | VERIFIED | `_active/linkedin/04-deliverables/content-os/voice-captures/genspark-20-post-serial-arc.md` | Read in full. Added to the repo 2026-03-10, commit `4da54d14e` ("feat: add LinkedIn transition posts + GenSpark voice extraction"). This is the ground-truth extraction genius.md's "The Discovery" section is built on. |
 | All 6 quotes in the new "Anti-Patterns (Sourced)" section (Posts 3, 4, 7, 12) | VERIFIED | same file, lines 59–286 (Post 3 ~L47-77, Post 4 ~L79-103, Post 7 ~L151-178, Post 12 ~L285-318) | Byte-checked against the raw file with a Python read (not the rendered view) to confirm exact wording. The source file carries a formatting artifact: an opening `\"` and often no closing `\"`, apparently unescaped-JSON residue from the original extraction. Quotes in this skill are normalized to drop the stray backslashes; the English content itself is unmodified. |
 | "I figured out the secret and now I'll share it with you" (genius.md, Principle 4 anti-pattern callout, pre-existing) | UNCONFIRMED | — | Pre-existing paraphrase in genius.md, not found verbatim in the primary source during this pass. Left untouched (out of repair scope — this line was not part of a failing check) but flagged here so it isn't mistaken for a checked quote. |
 
@@ -33,7 +33,7 @@
 |---|---|---|---|
 | "Robert Mack — Comedy mechanics, parenthetical asides, deflation" (SKILL.md Expert Stack) | VERIFIED (pointer exists) | `agents/robert-mack/AGENT.md`, `skills/robert-mack-comedy-writing/` | Confirmed both directories exist and are populated (AGENT.md + memory + skills; SKILL.md + genius.md + references + workflows). Depth of the comedy-mechanics attribution itself was not re-audited in this pass — that skill was not in scope. |
 | `.agent/workflows/voice-first-content.md` (Key References) | VERIFIED (pointer exists) | same path | File exists. |
-| `_active/linkedin-launch/04-deliverables/content-os/arcs/` (Key References, "Active Arcs") | VERIFIED (pointer exists) | same path | Directory exists, contains `00-transition`. |
+| `_active/linkedin/04-deliverables/content-os/arcs/` (Key References, "Active Arcs") | VERIFIED (pointer exists) | same path | Directory exists, contains `00-transition`. |
 
 ## What Was NOT Re-Verified
 

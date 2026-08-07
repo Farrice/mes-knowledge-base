@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P2
 bucket: Authority
 ring: Bridge
-source_brief: _active/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-02-angle-map-listening-brief.md
 notes: |
   Save-carrier: the Citrulline/L-Citrulline 0-vs-9 detail plus the 475/277/104 numbers.
   First comment: Zenodo DOI + source thread, and the single CTA ("DM ANGLE" for the resolution ladder).

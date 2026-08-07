@@ -8,7 +8,7 @@ Claim-by-claim provenance for `skills/dan-martell-business-scaling/`. Every sour
 |---|---|---|---|
 | `extractions/dan-martell/transcript.txt` | Primary — full transcript, YouTube "Give Me 20 Minutes and I'll Make You Insanely Rich" (~25 min) | 24,265 bytes (`wc -c`) | READ IN FULL |
 | `extractions/dan-martell/extraction-report.md` | Secondary — MES extraction summary derived from the transcript | 9,577 bytes (`wc -c`) | READ IN FULL |
-| `_active/codex-harvest-2026-06-11/extractions/` | Searched for `*martell*` (`find ... -iname "*martell*"`) | n/a | NO MATCHES — directory exists, glob returned zero files |
+| `_active/harness/codex-harvest-2026-06-11/extractions/` | Searched for `*martell*` (`find ... -iname "*martell*"`) | n/a | NO MATCHES — directory exists, glob returned zero files |
 | `_archive/claude-export-2026-07-01.tar.gz` | Searched via `tar -tzf ... \| grep -i martell` | 332,779,255 bytes (`ls -la`) | NO MATCHES — archive listed successfully, zero entries contain "martell" |
 
 No other Dan Martell source material exists in this repo as of this repair pass. All genius.md / SKILL.md claims trace to the two files above unless labeled otherwise.

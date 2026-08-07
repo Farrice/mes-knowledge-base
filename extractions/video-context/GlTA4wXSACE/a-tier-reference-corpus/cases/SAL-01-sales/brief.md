@@ -35,9 +35,9 @@ Run the complete `/shaan-story-deploy` workflow. Return the finished asset follo
 
 ## Source Paths
 
-- `_active/parallax-icp-offer/offer/sales-page-brief.md`.
-- `_active/parallax-icp-offer/proof/before-after-artifacts.md`.
-- `_active/parallax-icp-offer/bridge/landing-page.md` is a prior execution and must not be read during the blind replay.
+- `_active/_archive/2026-08-07-sweep/parallax-icp-offer/offer/sales-page-brief.md`.
+- `_active/_archive/2026-08-07-sweep/parallax-icp-offer/proof/before-after-artifacts.md`.
+- `_active/_archive/2026-08-07-sweep/parallax-icp-offer/bridge/landing-page.md` is a prior execution and must not be read during the blind replay.
 
 ## Truth Constraints
 

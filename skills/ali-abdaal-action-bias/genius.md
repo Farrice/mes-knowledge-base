@@ -7,7 +7,7 @@
 > **Provenance note (2026-07-17 repair pass)**: no primary Ali Abdaal
 > transcript/interview/podcast source file exists in this repo — a direct
 > search of `extractions/` (193 entries, none matching `*abdaal*`),
-> `agents/ali-abdaal/`, `_active/codex-harvest-2026-06-11/`, and
+> `agents/ali-abdaal/`, `_active/harness/codex-harvest-2026-06-11/`, and
 > `evolution_store/v2_variants/` turned up only derivative skill/agent
 > files, none of them a primary source. Every claim below is grounded in
 > those derivative files (real, on-disk, sized and cited in

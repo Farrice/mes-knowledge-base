@@ -5,7 +5,7 @@
 # Invocation pattern matches execution/mission_runner.py (claude -p + acceptEdits).
 set -u
 REPO="/Users/farricecain/Google Antigravity"
-LOG="$REPO/_active/health-performance-ip-library/06-system/listening-run.log"
+LOG="$REPO/_active/knowledge/health-performance-ip-library/06-system/listening-run.log"
 CLAUDE="/Users/farricecain/.npm-global/bin/claude"
 cd "$REPO" || exit 1
 mkdir -p "$(dirname "$LOG")"
@@ -20,7 +20,7 @@ if [[ "$CLAIM" != *"claimed:"* ]]; then
 fi
 TOKEN=$(echo "$CLAIM" | sed -n 's/.*claimed: \([a-z0-9]*\).*/\1/p')
 
-"$CLAUDE" -p "Read and execute _active/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary, and budget in that file. No publishing, outreach, or contact of any kind. Subagent brief if any are used: no Chain, no finalize, no Notion, no Next Moves, return only the artifact." \
+"$CLAUDE" -p "Read and execute _active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md for today's date. This is the scheduled Angle Map Listening Engine daily run (local, full-tool). Honor every gate, boundary, and budget in that file. No publishing, outreach, or contact of any kind. Subagent brief if any are used: no Chain, no finalize, no Notion, no Next Moves, return only the artifact." \
   --permission-mode acceptEdits >> "$LOG" 2>&1
 RC=$?
 

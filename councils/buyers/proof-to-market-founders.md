@@ -1,6 +1,6 @@
 # Buyer Panel — Proof-to-Market Founders
 
-Source: `_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md` v2.1 (2026-07-19). Reuse this panel for any Proof-to-Market artifact — pillar posts, DMs, the offer page, pricing pages, launch assets.
+Source: `_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md` v2.1 (2026-07-19). Reuse this panel for any Proof-to-Market artifact — pillar posts, DMs, the offer page, pricing pages, launch assets.
 
 **Grounding tier: 2.5 (social-grounded) — seats 1 and 3 only.** Corpus: `councils/buyers/corpora/proof-to-market-founders/` (`raw-quotes.md` — 26 verbatim quotes, 7 Reddit threads, real source URLs; `zeitgeist-digest.md` — one-pager on current worldview/objections/vocabulary), harvested 2026-07-19 via $0 sources only (WebSearch + Playwright, no Apify spend triggered) per `skills/mike-taylor-synthetic-research/workflows/mt-persona-grounding.md`'s Tier 2.5 Gap-Fill Protocol. Re-harvest before 2026-09-02 (45-day freshness rule) or before any high-stakes run past that date. The corpus is founder-forum voice for sub-$15M brands specifically — it grounds the Personal-Yes Founder and the Economic Gatekeeper (both are that same voice) but does NOT speak for a VP Brand at a larger funded company (seat 2) or a $20M+ in-house-team founder (seat 4, NO-FIT); those two and seat 5 remain cold-generated (Tier 3) until a matching corpus exists for their voice.
 

@@ -59,4 +59,4 @@ ask "did EVERYTHING in this stage die?", not "did enough survive to look done?"
 - `.agent/workflows/swarm-heavy.workflow.js` (guards: 152-165, 185-198, 249-262;
   degraded return: 277)
 - `.agent/run-receipts/2026-07-07T175051Z0000-swarm-research.md`
-- `_active/swarm-apex-2026-07-07/PLAN.md` §"Deliverable-shape acceptance"
+- `_active/harness/swarm-apex-2026-07-07/PLAN.md` §"Deliverable-shape acceptance"

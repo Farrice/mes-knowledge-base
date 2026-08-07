@@ -2,7 +2,7 @@
   "activation_queue": [
     {
       "blocker": "",
-      "evidence_path": "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "evidence_path": "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md",
       "expected_artifact": "AUTOMATION_PROMPT.md upgraded to client-acquisition engine",
       "id": "A1",
       "kind": "workstream",
@@ -15,7 +15,7 @@
     },
     {
       "blocker": "",
-      "evidence_path": "_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md",
+      "evidence_path": "_active/knowledge/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md",
       "expected_artifact": "SERVICE_LADDER.md offer progression from audit to creative strategy",
       "id": "A2",
       "kind": "workstream",
@@ -28,7 +28,7 @@
     },
     {
       "blocker": "",
-      "evidence_path": "_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md",
+      "evidence_path": "_active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md",
       "expected_artifact": "CLIENT_ACQUISITION_OFFER.md polished offer source of truth",
       "id": "A3",
       "kind": "workstream",
@@ -98,9 +98,9 @@
       "A3"
     ],
     "proof_artifacts": [
-      "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
-      "_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md",
-      "_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md"
+      "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "_active/knowledge/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md",
+      "_active/knowledge/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md"
     ],
     "resume_command": "/mission resume health-geo-client-acquisition-upgrade",
     "skipped_lanes": [],

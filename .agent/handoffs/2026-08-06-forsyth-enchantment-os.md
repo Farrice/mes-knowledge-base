@@ -20,7 +20,7 @@ pin: true
 
 ## Load First
 
-- `_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md` — the canonical
+- `_active/linkedin/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md` — the canonical
   working doc. Section 4 is the headline; the About section follows. Blocks marked **PASTE** are the live copy.
 - `skills/mark-forsyth-rhetoric/genius.md` — the method. 24 figures, the enchantment thesis, the announcer rule.
 - `skills/mark-forsyth-rhetoric/references/figure-catalog.md` — working cheat sheet, own-names not Greek.
@@ -75,7 +75,7 @@ pin: true
 
 ```text
 /enchant elevate on my LinkedIn profile copy — headline, About, and the Experience entries — in
-_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md
+_active/linkedin/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md
 
 Start with the misquote test on the headline. Load VOICE-CARD.md as a layer first. Two takes on
 anything taste-bearing, and tell me which one you believe in before I pick.

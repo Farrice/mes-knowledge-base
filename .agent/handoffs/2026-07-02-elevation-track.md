@@ -14,7 +14,7 @@ pin: true
 
 ## ADDENDUM (same session, post-handoff)
 
-Both next-lane options were EXECUTED before close: **E5 roadmap done** (`_active/elevation-track/04-deliverables/E5-harvest-roadmap.md` — 5 dedup-checked targets; #1 = claim-safe/regulatory health marketing, ZERO coverage in 338 skills vs Path A's literal definition = live liability, harvest first) and **score sweep done** (45 workflows — 5× the estimate — de-templated to `[evidence-based]`; convention centralized in `directives/feedback-ratchet.md`). Next session = the harvest wave itself, starting with target #1 via `/extract-forge`.
+Both next-lane options were EXECUTED before close: **E5 roadmap done** (`_active/harness/elevation-track/04-deliverables/E5-harvest-roadmap.md` — 5 dedup-checked targets; #1 = claim-safe/regulatory health marketing, ZERO coverage in 338 skills vs Path A's literal definition = live liability, harvest first) and **score sweep done** (45 workflows — 5× the estimate — de-templated to `[evidence-based]`; convention centralized in `directives/feedback-ratchet.md`). Next session = the harvest wave itself, starting with target #1 via `/extract-forge`.
 
 ## Where things stand (one paragraph)
 
@@ -24,7 +24,7 @@ The 2026-07-02 system audit found the harness skeleton healthy but every learnin
 
 - `42a3145a` — control-plane repairs: routing-intelligence auto-log (chain_runner finalize), gap-log auto-append (skill_router_hook), protocol-tracker review-date fix, MCP spend fire-log hook, memory-facade fire-log, `memory_weekly.sh` launchd pipeline, 49-record outcome amnesty, CLAUDE.md finalize-gate honesty (observe mode kept per Farrice).
 - `41da056c` — session churn + newly-live telemetry stores.
-- `d7dd6e79` — E1 factory audit (`_active/elevation-track/E1-factory-audit.md`).
+- `d7dd6e79` — E1 factory audit (`_active/harness/elevation-track/E1-factory-audit.md`).
 - `a9cc7603` — E2 census: `execution/skill_census.py` (12/13-calibrated), 324 skills, 81% of 2026-01 bulk stratum flagged vs 6% of 2026-07 harvest (`E2-census-report.md`).
 - `4bc3f6b2` — E3 blind packet (5 curator + 5 generator Opus agents, leak-checked).
 - `938f63f2` — E3 reveal + 15 ratings ingested as EVAL-014→028 (`e3/E3-results.md`; eval set 28 entries / 27 calibrated).
@@ -41,7 +41,7 @@ The 2026-07-02 system audit found the harness skeleton healthy but every learnin
 
 ## Next-session options (pick one, don't blend)
 
-**Option A — E5 breadth-harvest roadmap**: gap-log now auto-populates real routing misses (`.agent/gap-log.md`); combine with `DOMAIN_REGISTRY.md` + census gaps to build the target list of missing domains/experts; every new extraction inherits the standard automatically. Start: read `_active/elevation-track/INDEX.md` + `directives/embodiment-standard.md`.
+**Option A — E5 breadth-harvest roadmap**: gap-log now auto-populates real routing misses (`.agent/gap-log.md`); combine with `DOMAIN_REGISTRY.md` + census gaps to build the target list of missing domains/experts; every new extraction inherits the standard automatically. Start: read `_active/harness/elevation-track/INDEX.md` + `directives/embodiment-standard.md`.
 
 **Option B — templated-score sweep**: ~8 non-extraction workflows hardcode finalize scores (same bug class E4 killed in the extraction routes): `solopreneur-10k-post.md`, `grace-new-media.md`, `new-media-ghostwriting.md`, `sinem-quarterly-review.md`, `sinem-bestseller-campaign.md`, `sinem-about-page.md`, `sinem-notes-discovery.md`, `platform-launch.md` (find more: `grep -rl -- "--intent 8 --expert-score 8\|--intent 9 --expert-score 9" .agent/workflows/`). Replace with evidence-based + anchor-named per `embodiment-standard.md` § Scoring Discipline.
 

@@ -10,15 +10,15 @@ pin: true
 # Marketing Intelligence Engine — Overnight Build (Cody Forge + Signal Scout + Angle Brief)
 
 ## Purpose
-- **Next session should do:** (1) get Farrice's real 10–20 listening creators into `_active/linkedin-launch/05-lead-gen/listening-creators.md` (Cody's aperture rule: creators his BUYER follows — supplement/performance-brand ICP lane is currently empty), then run the first full `signal_scout.py` pass on them; (2) build Organic Engine v1 — ONE hybrid Lara×Cole pen card under VOICE-CARD (his tap 2026-08-06; single authored pen, honors one-author-per-body), `DAILY-DRAFT-PROMPT.md`, `com.antigravity.organic-drafts` plist (~2h, no new Python — clone the angle-brief runner pattern); (3) verify first unattended receipts: `.agent/zeitgeist-run.log` (daily 06:20) and `.agent/angle-brief-run.log` (Mon/Thu 07:00).
+- **Next session should do:** (1) get Farrice's real 10–20 listening creators into `_active/linkedin/05-lead-gen/listening-creators.md` (Cody's aperture rule: creators his BUYER follows — supplement/performance-brand ICP lane is currently empty), then run the first full `signal_scout.py` pass on them; (2) build Organic Engine v1 — ONE hybrid Lara×Cole pen card under VOICE-CARD (his tap 2026-08-06; single authored pen, honors one-author-per-body), `DAILY-DRAFT-PROMPT.md`, `com.antigravity.organic-drafts` plist (~2h, no new Python — clone the angle-brief runner pattern); (3) verify first unattended receipts: `.agent/zeitgeist-run.log` (daily 06:20) and `.agent/angle-brief-run.log` (Mon/Thu 07:00).
 - **Not in scope:** ANY outreach automation — sends/reputation/distribution stay HUMAN (binding, 2026-08-06; the DM-draft queue was killed, not disabled). Enrichment-stack purchases (Apollo/Prospeo/etc.) stay deferred. Never re-research the Isenberg×Schneider video — it's extracted.
 
 ## Load First
 - `deliverables/research-briefs/night-shift-2026-08-06/` — the build report; "judgment calls" section carries the open decisions
 - `_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md` — the loop's synthesis contract (filed to 04-deliverables post-session; runner updated to match)
 - `skills/cody-schneider-signal-outbound/SKILL.md` + `genius.md` — the extracted doctrine; `references/era-bound-2026-08-stack.md` for tool specifics
-- `_active/linkedin-launch/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md` — what scout output looks like (resonance + ICP verbatim + scored roster)
-- `_active/linkedin-launch/CAMPAIGN.md` — mission 2b still send-ready; $750 payment URL still missing (the real blocker)
+- `_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-06-test.md` — what scout output looks like (resonance + ICP verbatim + scored roster)
+- `_active/linkedin/CAMPAIGN.md` — mission 2b still send-ready; $750 payment URL still missing (the real blocker)
 
 ## Current State
 - **Objective:** AI marketing leverage without automating his reputation — listening loops + visual briefs + deployable expert, extend-never-rebuild.
@@ -35,7 +35,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Read .agent/handoffs/LATEST.md. Then: run /creator-aperture with me to build my real 10-20 listening creators (buyer-follows rule, both lanes: solopreneur/AI-consulting + supplement-brand ICP), write them to _active/linkedin-launch/05-lead-gen/listening-creators.md, run python3 execution/signal_scout.py, and read me the resonance report. Then build Organic Engine v1 per the deferred spec (hybrid Lara×Cole pen card — show me the pen card for a taste pass BEFORE wiring the plist).
+Read .agent/handoffs/LATEST.md. Then: run /creator-aperture with me to build my real 10-20 listening creators (buyer-follows rule, both lanes: solopreneur/AI-consulting + supplement-brand ICP), write them to _active/linkedin/05-lead-gen/listening-creators.md, run python3 execution/signal_scout.py, and read me the resonance report. Then build Organic Engine v1 per the deferred spec (hybrid Lara×Cole pen card — show me the pen card for a taste pass BEFORE wiring the plist).
 ```
 
 ## Acceptance Criteria

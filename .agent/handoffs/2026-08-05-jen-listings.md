@@ -15,12 +15,12 @@ pin: true
 
 ## Load First
 - `skills/jen-santulan-listing-content/workflows/listing-package.md` — the engine; phases, fetch ladder, gates, output schema
-- `_active/jen-listings/CLAUDE.md` — **register ladder** (FTHB <$1.5M warm / luxury ≥$2M "Quiet Flex Elite Advisor"); Override List is binding
+- `_active/clients/jen-listings/CLAUDE.md` — **register ladder** (FTHB <$1.5M warm / luxury ≥$2M "Quiet Flex Elite Advisor"); Override List is binding
 - `skills/jen-santulan-listing-content/references/jen-calibration-log.md` — 4 seeded felt verdicts; outranks prompt defaults
 - `skills/jen-santulan-listing-content/references/prompts-v2/listing-hook-set.md` — Register-Ladder v2.1, tier slot map (FTHB-Permission mandatory <$1.5M, FORBIDDEN ≥$2M)
 - `skills/jen-santulan-listing-content/references/prompts-v2/listing-send-package.md` — the forwardable-text contract
 - `docs/solutions/2026-08-05-listing-package-pipeline.md` — the recipe + why each layer exists
-- `_active/jen-listings/5200-armida-woodland-hills/` — worked example (shoot sheet v3 + 2 photo contact sheets)
+- `_active/clients/jen-listings/5200-armida-woodland-hills/` — worked example (shoot sheet v3 + 2 photo contact sheets)
 
 ## Current State
 - **Objective:** turn a manual, three-rejection listing-content arc into a one-shot pipeline: address/URL/description in → complete brief out (strategy card + 6 hooks + scripts + cover text + caption + forwardable send text), judged after delivery.

@@ -7,13 +7,13 @@ status: enriched
 
 # KDP Book One Proof System — What We Built 2026-08-04 and How to Use It
 
-> This session turned an anchor Sean Dollwet video and ten related KDP videos into a connected Book One capability: current policy boundaries, one stateful conductor, an evidence-led market scan, anti-slop production gates, explicit upload permission, and independent proof ledgers. It also produced the most important negative verdict: the first market candidate was rejected because Farrice had no experience or desire in that lane. Start with the [Book One cockpit](../_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md); use the [source ledger](../extractions/sean-dollwet-kdp-book-one-system/source-ledger.md) for provenance and the [behavior proof](../extractions/sean-dollwet-kdp-book-one-system/behavior-proof.md) for the before/after boundary.
+> This session turned an anchor Sean Dollwet video and ten related KDP videos into a connected Book One capability: current policy boundaries, one stateful conductor, an evidence-led market scan, anti-slop production gates, explicit upload permission, and independent proof ledgers. It also produced the most important negative verdict: the first market candidate was rejected because Farrice had no experience or desire in that lane. Start with the [Book One cockpit](../_active/publishing/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md); use the [source ledger](../extractions/sean-dollwet-kdp-book-one-system/source-ledger.md) for provenance and the [behavior proof](../extractions/sean-dollwet-kdp-book-one-system/behavior-proof.md) for the before/after boundary.
 
 ## ⚡ If you only read 10 lines
 
 - This session proves the **local capability**, not a profitable book: capability is `RUNTIME_OBSERVED`; production and market are `NO_EVENT`.
 - The proposed family scam-defense book is **rejected**. Do not outline, draft, package, or reopen it.
-- First command for the existing proof: `python3 execution/kdp_book_one.py status --project _active/kdp-book-one-pilot --plain`.
+- First command for the existing proof: `python3 execution/kdp_book_one.py status --project _active/publishing/kdp-book-one-pilot --plain`.
 - First front door for future KDP work: `/kdp-engine`; the Book One child route is `/sean-dollwet-book-one-pilot`.
 - Market evidence never substitutes for operator fit. A future run should add **Operator–Niche Fit as Gate 0** before researching demand.
 - One book moves through market → reader evidence → promise → outline → gold chapter → staged manuscript → cover/rights → preview/policy → upload approval.
@@ -28,9 +28,9 @@ status: enriched
 |---|---|---|
 | `/kdp-engine` | One state-aware KDP function owner and the correct child workflow | Any KDP request when the exact stage is not already known |
 | `/sean-dollwet-book-one-pilot` | The zero-to-upload-readiness Book One conductor | Starting one evidence-led nonfiction book from scratch |
-| `python3 execution/kdp_book_one.py status --project _active/kdp-book-one-pilot --plain` | Current stage, four proof axes, approvals, gates, and next action | Resuming this proof or checking whether a claim is actually earned |
-| `python3 execution/kdp_book_one.py preflight --project _active/kdp-book-one-pilot --json --dry-run` | A non-writing `HOLD`, `BLOCKED`, `READY_FOR_APPROVAL`, or `READY_TO_SUBMIT` verdict | Diagnosing readiness without creating a compliance receipt |
-| `python3 execution/kdp_book_one.py render --project _active/kdp-book-one-pilot --write` | A refreshed human-readable cockpit from machine state | State changed and the operator view needs regeneration |
+| `python3 execution/kdp_book_one.py status --project _active/publishing/kdp-book-one-pilot --plain` | Current stage, four proof axes, approvals, gates, and next action | Resuming this proof or checking whether a claim is actually earned |
+| `python3 execution/kdp_book_one.py preflight --project _active/publishing/kdp-book-one-pilot --json --dry-run` | A non-writing `HOLD`, `BLOCKED`, `READY_FOR_APPROVAL`, or `READY_TO_SUBMIT` verdict | Diagnosing readiness without creating a compliance receipt |
+| `python3 execution/kdp_book_one.py render --project _active/publishing/kdp-book-one-pilot --write` | A refreshed human-readable cockpit from machine state | State changed and the operator view needs regeneration |
 | `python3 execution/kdp_book_one.py init --project _active/<project> --pace launch_14` | A new persistent pilot with organic-only defaults | A future topic has passed operator-fit review and deserves its own dossier |
 | `python3 execution/verify_kdp_book_one_system.py` | Structural, policy, routing, permission, and detached-behavior regression checks | Before integrating or reusing the system |
 | `/resume kdp-book-one-proof-system` | The verified closeout and exact paths from this session | Revisiting the capability without rebuilding the rejected concept |
@@ -66,7 +66,7 @@ The market scan found a well-documented scam problem and an underdeveloped adult
 
 ### What it is
 
-`execution/kdp_book_one.py` stores one book's stage, pace, artifacts, approvals, gates, and append-only proof events. The current proof lives under `_active/kdp-book-one-pilot/`; the machine state is in `06-system/`, while the readable surface is `00-start-here/BOOK-ONE-COCKPIT.md`.
+`execution/kdp_book_one.py` stores one book's stage, pace, artifacts, approvals, gates, and append-only proof events. The current proof lives under `_active/publishing/kdp-book-one-pilot/`; the machine state is in `06-system/`, while the readable surface is `00-start-here/BOOK-ONE-COCKPIT.md`.
 
 Three pace profiles are available: `rapid_7`, `launch_14`, and `editorial_30`. Pace changes timing expectations, not evidence requirements. The existing proof uses `launch_14` but is no longer an active launch.
 

@@ -138,7 +138,7 @@
 - `[2026-06-07 13:48]` **finalize** | Oren — The One-Person AI Marketing Machine: mastery extraction (forge) → deployable skill, 12 workfl | general | oren — composite:7.25 status:Needs Improvement
 - `[2026-06-07 13:48]` **ingest** | Oren — The One-Person AI Marketing Machine | marketing | oren — extract-forge from YouTube 'How to Be a 1-Person Marketing Machine in 2026' (6051w). New deployable skill: 12 workflows/3 tiers, genius.md (18 patterns), 3 references, 12 slash wrappers. AI-execution layer activating the 6 existing Oren skills. 28 REAL/4 BORDERLINE/0 PLATITUDE adversarial verify.
 - `[2026-06-08 16:08]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240
-- `[2026-06-09]` **audit** | Sean Macintyre Persuasion Philosophy — 6-week deployment review: 0 post-ship workflow invocations (all 17 UNUSED), 0 Notion Performance Log entries (dedicated), forge build 8.7. Apex tier never tested. Root cause: no routing hook + work-volume mismatch. Verdict: no calibration changes, 3 intentional deployments needed before benchmarking. Report: `_active/sean-macintyre-audit-2026-06-09.md`
+- `[2026-06-09]` **audit** | Sean Macintyre Persuasion Philosophy — 6-week deployment review: 0 post-ship workflow invocations (all 17 UNUSED), 0 Notion Performance Log entries (dedicated), forge build 8.7. Apex tier never tested. Root cause: no routing hook + work-volume mismatch. Verdict: no calibration changes, 3 intentional deployments needed before benchmarking. Report: `_active/harness/system-audit/02-research/sean-macintyre-audit-2026-06-09.md`
 - `[2026-06-09 11:04]` **finalize** | Noah Hawley — Showrunner & Storytelling mastery extraction (forge) | general | noah-hawley — composite:7.25 status:Needs Improvement
 - `[2026-06-09 12:06]` **finalize** | Noah Hawley — Showrunner & Storytelling Mastery (Extract-Forge) | general | noah-hawley — composite:7.25 status:Needs Improvement
 - `[2026-06-09 18:53]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
@@ -335,10 +335,10 @@
 - `[2026-07-02 20:26]` **finalize** | Chief of Staff OS (/cos) v1.1 after retry pass — question engine enriched (25 phrasings across 5 lif | general | chief-of-staff-os — composite:7.25 status:Needs Improvement
 - `[2026-07-02 20:45]` **finalize** | Josh Eightward legal consult brief | brand | david-placek — composite:6.08 status:Needs Improvement
 - `[2026-07-02 20:46]` **finalize** | Produced Josh's 15-minute Eightward legal consult brief from the transfer packet: preserved David Pl | brand | david-placek — composite:6.08 status:Needs Improvement
-- `[2026-07-02 20:47]` **finalize** | _active/josh-swing-nerd-shirts-v1/deliverables/2026-07-03-josh-eightward-legal-consult-brief.md | general | David Placek — composite:7.25 status:Needs Improvement
+- `[2026-07-02 20:47]` **finalize** | _active/clients/josh-swing-nerd-shirts-v1/deliverables/2026-07-03-josh-eightward-legal-consult-brief.md | general | David Placek — composite:7.25 status:Needs Improvement
 - `[2026-07-02 20:58]` **finalize** | 6853 Willis Ave weekend Instagram Reels text/email/briefing for Jen | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
-- `[2026-07-02 20:59]` **finalize** | Created canonical artifact _active/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
-- `[2026-07-02 21:08]` **finalize** | Created canonical teleprompter pack _active/jen-listings/04-deliverables/6853-willis-teleprompter-pa | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
+- `[2026-07-02 20:59]` **finalize** | Created canonical artifact _active/clients/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
+- `[2026-07-02 21:08]` **finalize** | Created canonical teleprompter pack _active/clients/jen-listings/04-deliverables/6853-willis-teleprompter-pa | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
 - `[2026-07-02 21:34]` **finalize** | Created 6853 Willis persuasive Reels V2: repaired price-history-led safe draft into desire-first gat | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
 - `[2026-07-02 21:35]` **finalize** | Retried weakest intent section for 6853 Willis persuasive Reels V2 by adding explicit Intent Lock fo | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
 - `[2026-07-02 21:35]` **finalize** | Finalized polished 6853 Willis persuasive Reels V2 after removing stiff not-X-but-Y cadence; export  | content | jen-santulan-listing-content — composite:6.17 status:Needs Improvement
@@ -357,9 +357,9 @@
 - `[2026-07-03 06:39]` **finalize** | Complete Health Performance GEO Daily Brief delivered for Farrice Cain on 2026-07-03. Followed _acti | general | health-performance-geo-client-acquisition-engine — composite:6.17 status:Needs Improvement
 - `[2026-07-03 13:31]` **finalize** | Repaired Health Performance GEO automation prompt to stop GLP-1 capture and restore broad market-dom | strategy | system-audit — composite:6.17 status:Needs Improvement
 - `[2026-07-03 13:32]` **finalize** | Fixed the specific user-reported automation failure: Health Performance GEO was hyper-focused on GLP | strategy | system-audit — composite:6.17 status:Needs Improvement
-- `[2026-07-03 14:10]` **finalize** | Josh Eightward Lindy Hop Brand Positioning Packet at _active/josh-swing-nerd-shirts-v1/04-deliverabl | research | deep-research — composite:5.67 status:Needs Improvement
+- `[2026-07-03 14:10]` **finalize** | Josh Eightward Lindy Hop Brand Positioning Packet at _active/clients/josh-swing-nerd-shirts-v1/04-deliverabl | research | deep-research — composite:5.67 status:Needs Improvement
 - `[2026-07-03 14:10]` **finalize** | Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging p | research | deep-research — composite:6.08 status:Needs Improvement
-- `[2026-07-03 17:24]` **finalize** | Produced Josh Eightward Cultural Brand and Legal Consult Brief at _active/josh-swing-nerd-shirts-v1/ | general | nate-b-jones-orchestration-intelligence — composite:6.17 status:Needs Improvement
+- `[2026-07-03 17:24]` **finalize** | Produced Josh Eightward Cultural Brand and Legal Consult Brief at _active/clients/josh-swing-nerd-shirts-v1/ | general | nate-b-jones-orchestration-intelligence — composite:6.17 status:Needs Improvement
 - `[2026-07-03 17:25]` **finalize** | Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop appare | general | source-command-mission — composite:6.17 status:Needs Improvement
 - `[2026-07-03 18:33]` **finalize** | Produced the Eightward Visual Brand Book Preview package for Josh at _active/josh-swing-nerd-shirts- | general | creative-direction — composite:6.17 status:Needs Improvement
 - `[2026-07-03 18:34]` **finalize** | Created Josh's Eightward visual brand book and lookbook preview package at _active/josh-swing-nerd-s | general | creative-direction — composite:6.17 status:Needs Improvement
@@ -420,7 +420,7 @@
 - `[2026-07-07 14:11]` **finalize** | Katie progesterone-support insight brief (Carbon Torch) — evidence-based nutrition/lifestyle support | general | alan-aragon-nutrition — composite:8.33 status:Keep
 - `[2026-07-07 15:18]` **finalize** | Suzuki OS embodiment upgrade (watch-grounded) + DWA content rebuilt to the real bar + project reorga | general | alex-suzuki — composite:7.25 status:Needs Improvement
 - `[2026-07-07 15:44]` **finalize** | DWA question-led content engine — real-questions research to next-step-over-flex strategy + OS princ | general | alex-suzuki — composite:7.25 status:Needs Improvement
-- `[2026-07-07 16:23]` **finalize** | Alignment Architect launch package (_active/alignment-architect-2026-07-07/): freeze override on rec | general | jason-fladlien-marketing — composite:7.25 status:Needs Improvement
+- `[2026-07-07 16:23]` **finalize** | Alignment Architect launch package (_active/offer-strategy/alignment-architect-2026-07-07/): freeze override on rec | general | jason-fladlien-marketing — composite:7.25 status:Needs Improvement
 - `[2026-07-07 18:00]` **finalize** | FARRICE-MASTER-CONTEXT.md v2.0 — canonical master identity/context profile synthesized from 9 Notion | brand | farrice-master-context-synthesis — composite:7.25 status:Needs Improvement
 - `[2026-07-07 19:30]` **finalize** | REPS GAME PLAN — one-card execution layer for the content/visibility shift: Day 1 go-live sequence,  | brand | oren-john — composite:7.25 status:Needs Improvement
 - `[2026-07-07 19:53]` **finalize** | Router misfire root-cause + fix: tiered-evidence control-intent classifier (strong anchors, hook+sys | general | system-audit — composite:7.25 status:Needs Improvement
@@ -597,7 +597,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-25 10:41]` **finalize** | Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption co | content | jen-santulan — composite:8.67 status:Keep
 - `[2026-07-25 10:51]` **finalize** | social_intel.py hardening: date normalization across actor formats + single-video-URL guard resolvin | general | none — composite:8.33 status:Keep
 - `[2026-07-25 14:49]` **finalize** | Dara Denney Creative Strategy OS extraction forge extension | general | dara-denney — composite:8.0 status:Keep
-- `[2026-07-25 15:24]` **finalize** | Momentous 7-station reputation analysis — _active/linkedin-launch/01-research/momentous-reputation-analysis-2026-07-25.md | general | dara-denney — composite:8.33 status:Keep
+- `[2026-07-25 15:24]` **finalize** | Momentous 7-station reputation analysis — _active/linkedin/01-research/momentous-reputation-analysis-2026-07-25.md | general | dara-denney — composite:8.33 status:Keep
 - `[2026-07-25 17:54]` **finalize** | Testimonial Capture Kit for Josh & Katie (3 ghost-written drafts, transferable-layer positioning fra | general | Luke Iha — composite:8.33 status:Keep
 - `[2026-07-25 18:06]` **finalize** | Father-son training block for JJ (2y8m) — 20-min structure using JJ as load across 5 movement patter | general | Eugene Teo — composite:8.0 status:Keep
 - `[2026-07-25 18:21]` **finalize** | Wargame 01 — The Path A Fork: CoWork handoff bundle imported and harmonized against the 2026-07-07 P | general | Mark Kashef — composite:8.67 status:Keep

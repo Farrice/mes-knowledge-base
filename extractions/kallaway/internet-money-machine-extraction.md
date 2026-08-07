@@ -160,7 +160,7 @@ Kallaway announced he's running this exact system live on "Callaway Marketing" o
 ### Capability Unlocks
 
 - **Capability 1: Scientific Content Testing** — Farrice can now run batched 10-video tests with stack rotation instead of guessing what works. This removes creative anxiety and replaces it with data.
-- **Capability 2: Full-Funnel Ramp Design** — The ManyChat → lead magnet → email drip → product pipeline is directly applicable to the LinkedIn Launch's CTA keyword system (already partially built in `_active/linkedin-launch/`).
+- **Capability 2: Full-Funnel Ramp Design** — The ManyChat → lead magnet → email drip → product pipeline is directly applicable to the LinkedIn Launch's CTA keyword system (already partially built in `_active/linkedin/`).
 - **Capability 3: The 11-Brick Decomposition** — Upgrades the existing 7-brick analysis. More granular = better cloning precision. Especially the split of Hook into spoken/visual/text components.
 
 ### Market Signals
@@ -176,7 +176,7 @@ Kallaway announced he's running this exact system live on "Callaway Marketing" o
 
 ### Direct Application to LinkedIn Launch
 
-This extraction lands at the perfect time. Farrice's `_active/linkedin-launch/` system already has:
+This extraction lands at the perfect time. Farrice's `_active/linkedin/` system already has:
 - ✅ Avatar (coaches who need ghostwriting)
 - ✅ Offer (Proof Run at $500 → retainer)
 - ✅ CTA keyword system (INVISIBLE, DEPLOY, PIPELINE, MINE, VOICE)

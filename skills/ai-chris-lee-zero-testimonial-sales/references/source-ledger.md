@@ -22,11 +22,11 @@ Repo-wide search for a primary transcript, interview, or video source
 mentioning "AI Chris Lee" or "zero testimonial" outside this skill's own
 generated files also came back empty — the only hits were this skill's own
 `SKILL.md`/`genius.md`, its duplicate copy under
-`_active/codex-harvest-2026-06-11/skills/ai-chris-lee-zero-testimonial-sales/`,
+`_active/harness/codex-harvest-2026-06-11/skills/ai-chris-lee-zero-testimonial-sales/`,
 the parallel agent persona at `agents/ai-chris-lee/AGENT.md` (2,807 bytes)
-and `_active/codex-harvest-2026-06-11/agents/ai-chris-lee/AGENT.md` (3,522
+and `_active/harness/codex-harvest-2026-06-11/agents/ai-chris-lee/AGENT.md` (3,522
 bytes — a later variant with an added "Routing Interop" section, not
-identical), and one unrelated research file (`_active/codex-harvest-2026-06-11/
+identical), and one unrelated research file (`_active/harness/codex-harvest-2026-06-11/
 research_outputs/ai_authority_architect_agents/ai_chris_lee.md`, 4,744
 bytes) — read in full; it is a devil's-advocate red-team of a *different*
 offer (ghostwriting positioning for "conscious founders," MES 3.0
@@ -41,7 +41,7 @@ confirmed via `wc -c` (bytes, not `wc -l` lines) this session.
 | S2 | `skills/ai-chris-lee-zero-testimonial-sales/references/genius-patterns.md` | 3,211 | Duplicate of genius.md's 14-pattern list; same origin, not independent. |
 | S3 | `skills/ai-chris-lee-zero-testimonial-sales/SKILL.md.old` | 3,318 | Earlier SKILL.md revision; read in full — confirms the skill has iterated internally (v1 → v2) but names no external source, transcript, URL, or date for AI Chris Lee's original material either. |
 | — | `extractions/` (repo-wide) | n/a | Confirmed absent for this expert — see search command above. Not 0-byte or unrecoverable; simply never created. |
-| — | `_active/codex-harvest-2026-06-11/research_outputs/ai_authority_architect_agents/ai_chris_lee.md` | 4,744 | Read in full; unrelated content (different offer/methodology), excluded as a source. |
+| — | `_active/harness/codex-harvest-2026-06-11/research_outputs/ai_authority_architect_agents/ai_chris_lee.md` | 4,744 | Read in full; unrelated content (different offer/methodology), excluded as a source. |
 
 ## Verdict on Origin
 

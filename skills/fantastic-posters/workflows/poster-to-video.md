@@ -105,7 +105,7 @@ python3 execution/fal_budget_guard.py log --mode=kling --duration=3 --audio=off 
 ## Output Pipeline
 
 1. MP4 lands in `skills/fantastic-posters/out/<model>_<duration>s_<timestamp>.mp4`
-2. Move to project folder: `_active/mybpm/videos/`, `_active/farrice-brand/content/parallax-packages/<edition>/trailer.mp4`, `_active/jen-santulan/listings/<address>/reveal.mp4`, etc.
+2. Move to project folder: `_active/mybpm/videos/`, `_active/farrice-brand/content/parallax-packages/<edition>/trailer.mp4`, `_active/clients/jen-santulan/listings/<address>/reveal.mp4`, etc.
 3. For social distribution: re-encode if needed (Substack supports MP4 ≤256MB, Instagram has its own constraints)
 4. For video deck embedding: keep as-is (most slide tools handle MP4)
 

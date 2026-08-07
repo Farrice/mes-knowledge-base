@@ -8,7 +8,7 @@ pin: true
 
 # Health Performance GEO Daily Brief 2026-07-30: Boundary Map Audit angle for self-directed health buyers
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-07-30-health-performance-geo-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-07-30-health-performance-geo-brief.md`
 
 **Next session focus**: Resume the `health-performance-geo-daily-brief` work-stream — see the deliverable above.
 

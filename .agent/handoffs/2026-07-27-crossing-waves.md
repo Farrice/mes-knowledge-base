@@ -14,10 +14,10 @@ pin: true
 - **Not in scope:** Re-forging any shipped crossing (10 exist, all PoC-proven); re-extracting Mike Taylor (watched-source forge complete); re-running the buyer council on the current offer (v2 retest done — S1 SHIP, S3 SHIP-with-watch).
 
 ## Load First
-- `_active/linkedin-launch/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md` — the 5 first-touch variants + 3-step follow-up to send Monday; V1 free-screenshot lead is the sharpest.
-- `_active/linkedin-launch/02-offer/buyer-council-verdict-v2-2026-07-19.md` — latest panel verdict; names the one binding constraint (no first case study).
+- `_active/linkedin/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md` — the 5 first-touch variants + 3-step follow-up to send Monday; V1 free-screenshot lead is the sharpest.
+- `_active/linkedin/02-offer/buyer-council-verdict-v2-2026-07-19.md` — latest panel verdict; names the one binding constraint (no first case study).
 - `councils/buyers/calibration.jsonl` — 3 prediction lines awaiting `real_outcome`; the ledger is the reason this stack compounds.
-- `_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md` (v2.1) — founder-primary, cold/warm/hot ladder, make-right clauses both rungs (ratified 2026-07-19).
+- `_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md` (v2.1) — founder-primary, cold/warm/hot ladder, make-right clauses both rungs (ratified 2026-07-19).
 - `councils/buyers/corpora/proof-to-market-founders/zeitgeist-digest.md` — 26 receipt-carrying founder quotes; key finding: founders frame the problem as invisibility-inside-noise, not "unclear positioning."
 
 ## Current State
@@ -39,7 +39,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Monday DM send + calibration: send the 10 founder DMs from _active/linkedin-launch/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md (V1 free-screenshot lead), then log the real replies, bookings, and dominant objection to councils/buyers/calibration.jsonl against the 3 existing prediction lines. Run /mt-persona-grounding on any real founder replies to upgrade seats 1+3 toward transcript-grounded, and tell me where the panel was wrong.
+Monday DM send + calibration: send the 10 founder DMs from _active/linkedin/05-lead-gen/outreach/cold-dm-set-founder-walkthrough.md (V1 free-screenshot lead), then log the real replies, bookings, and dominant objection to councils/buyers/calibration.jsonl against the 3 existing prediction lines. Run /mt-persona-grounding on any real founder replies to upgrade seats 1+3 toward transcript-grounded, and tell me where the panel was wrong.
 ```
 
 ## Acceptance Criteria

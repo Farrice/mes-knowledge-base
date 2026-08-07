@@ -7,7 +7,7 @@ status: enriched
 
 # Prompt Wiring OS — What We Built 2026-07-13 and How to Use It
 
-> The session that closed the gap between having ~1,860 refactored crown-jewel prompts and actually *using* them. Every skill now carries verified born-v2 execution prompts, every SKILL.md points at them, a hook surfaces them the moment a skill loads, and every future extraction ships them by gate. Spec: `directives/prompt-forging-spec.md` · proof of why it matters: `_active/prompt-wiring-os-2026-07-13/proof/JUDGMENT.md` · final commit `64fe0e151`.
+> The session that closed the gap between having ~1,860 refactored crown-jewel prompts and actually *using* them. Every skill now carries verified born-v2 execution prompts, every SKILL.md points at them, a hook surfaces them the moment a skill loads, and every future extraction ships them by gate. Spec: `directives/prompt-forging-spec.md` · proof of why it matters: `_active/harness/prompt-wiring-os-2026-07-13/proof/JUDGMENT.md` · final commit `64fe0e151`.
 
 ## ⚡ If you only read 10 lines
 

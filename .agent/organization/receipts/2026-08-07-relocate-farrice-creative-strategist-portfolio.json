@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:43:17.488588+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/farrice-creative-strategist-portfolio",
+  "dst": "_active/farrice-brand/farrice-creative-strategist-portfolio",
+  "stub_left": false,
+  "files_moved": 39,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md": 4,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-brand/farrice-creative-strategist-portfolio/START-HERE.html": 42,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/deliverables/manus-to-codex-replacement-workflow/COLD_START_FIXTURE.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/deliverables/manus-to-codex-replacement-workflow/README.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/deliverables/manus-to-codex-replacement-workflow/SKILL_SYSTEM_CONTRACT.md": 3
+  },
+  "total_rewrites": 58,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

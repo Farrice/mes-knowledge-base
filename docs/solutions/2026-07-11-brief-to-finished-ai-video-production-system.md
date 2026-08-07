@@ -12,7 +12,7 @@ session: trendscale-trial
 
 **Problem:** A written ad brief/script must become finished, realistic, launch-ready video, with consistent characters and exact product labels across many AI-generated clips, assembled hands-off so the operator only applies taste. One-model/one-prompt approaches produce inconsistent voices, drifting faces, garbled labels, and burned-in subtitle bugs.
 
-**Context it was cracked in:** TrendScale trial (JCKED + Puravita scripts → video samples), session 2026-07-11. Assets: `_active/trendscale-trial/03-video-samples/`.
+**Context it was cracked in:** TrendScale trial (JCKED + Puravita scripts → video samples), session 2026-07-11. Assets: `_active/clients/trendscale-trial/03-video-samples/`.
 
 **The approach (repeatable recipe):**
 1. **Research before templates.** One deep-research pass against primary docs produces a CANONICAL LAW file (verified prompt ordering, timestamp syntax per model, subtitle mitigations, model-per-job rankings, flagged unknowns). Every downstream prompt cites it; UNCONFIRMED claims carry ⚠ flags into the prompts instead of being silently trusted. File: `research/AI-VIDEO-REALISM-RESEARCH.md`.

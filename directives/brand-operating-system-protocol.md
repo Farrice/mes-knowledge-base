@@ -13,7 +13,7 @@ The BOS skill exists to produce 6-layer brand systems at the Resonance quality b
 | `skills/brand-operating-system/` | The skill (SKILL.md + genius.md + 7 workflow files) | The build sequence, agent/skill invocation order, quality gates |
 | `.agent/workflows/build-bos.md` | The slash command entry point | Argument parsing, phase orchestration, top-level routing |
 | `templates/brand-operating-system-v1/` | The 47-file template scaffold | The structural skeleton + identity tokens |
-| `_active/andrea-dj/brand-operating-system/` | The live reference implementation (Resonance v1) | The proof it works end-to-end at the bar we want |
+| `_active/clients/andrea-dj/brand-operating-system/` | The live reference implementation (Resonance v1) | The proof it works end-to-end at the bar we want |
 
 These four components must stay in lockstep. Drift between any two breaks the system.
 
@@ -28,19 +28,19 @@ Triggered by: a worked-example improvement, a new universal token, a structural 
 **Required actions:**
 1. Update `templates/brand-operating-system-v1/<file>` directly.
 2. Update `templates/brand-operating-system-v1/TOKENS.md` if the change adds/renames a token.
-3. **Back-apply to Resonance** — `_active/andrea-dj/brand-operating-system/<file>` gets the same change. Otherwise template + reference diverge.
+3. **Back-apply to Resonance** — `_active/clients/andrea-dj/brand-operating-system/<file>` gets the same change. Otherwise template + reference diverge.
 4. If the change affects the structural skeleton (new section, reordered sections, new file), bump skill version (v1 → v2) and document in `skills/brand-operating-system/CHANGELOG.md (not yet created — start it on the next BOS change)`.
-5. If back-application to Resonance is intentionally skipped (e.g., Resonance has a unique constraint), note the divergence in `_active/andrea-dj/brand-operating-system/05-ops/01-change-log.md` AND in this directive's "Known Divergences" section below.
+5. If back-application to Resonance is intentionally skipped (e.g., Resonance has a unique constraint), note the divergence in `_active/clients/andrea-dj/brand-operating-system/05-ops/01-change-log.md` AND in this directive's "Known Divergences" section below.
 
 ### When Resonance amends (founder-driven)
 
 Triggered by: Andrea names an amendment per Constitution principle ("amend, don't rewrite").
 
 **Required actions:**
-1. Update `_active/andrea-dj/brand-operating-system/<file>` per `05-ops/00-update-protocol.md`.
+1. Update `_active/clients/andrea-dj/brand-operating-system/<file>` per `05-ops/00-update-protocol.md`.
 2. Re-render to Drive (`md_to_gdoc.py` overwrites or updates the corresponding native Google Doc).
 3. **Evaluate template back-application**: is this a Resonance-specific tweak or a universal pattern? If universal, back-apply to `templates/brand-operating-system-v1/<file>`. If Resonance-specific, log under "Known Divergences."
-4. Log in `_active/andrea-dj/brand-operating-system/05-ops/01-change-log.md`.
+4. Log in `_active/clients/andrea-dj/brand-operating-system/05-ops/01-change-log.md`.
 
 ### When the skill amends
 
@@ -71,7 +71,7 @@ Track in:
 
 ## Known Divergences (Template ↔ Resonance)
 
-This section logs any intentional differences between `templates/brand-operating-system-v1/` and `_active/andrea-dj/brand-operating-system/`. Empty at v1 ship.
+This section logs any intentional differences between `templates/brand-operating-system-v1/` and `_active/clients/andrea-dj/brand-operating-system/`. Empty at v1 ship.
 
 | Date | File | Divergence | Reason |
 |---|---|---|---|

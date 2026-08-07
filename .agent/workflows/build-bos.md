@@ -218,7 +218,7 @@ The orchestrator detects which phase outputs already exist and resumes from the 
 ## Reference Implementation
 
 **Resonance for Andrea** (shipped 2026-05-04):
-- Source: `_active/andrea-dj/brand-operating-system/`
+- Source: `_active/clients/andrea-dj/brand-operating-system/`
 - Drive: [Andrea DJ Package / 2026-05-04 — Brand Operating System v1](https://drive.google.com/drive/folders/18KsPdrORo-YNo_Yr4ejALWuw1fgeqvVE)
 - Quality: Composite 8.3/10, adversarial 7.6/10, all 43 native Google Docs in pageless format
 
@@ -232,7 +232,7 @@ The Resonance build is the live reference. When `/build-bos` amends, the Resonan
 # 1. Scaffold + token round-trip
 python3 execution/bos_scaffold.py --template templates/brand-operating-system-v1/ \
     --output /tmp/test-bos-rt/ --tokens-file scratch/resonance-tokens.json --force
-diff -r _active/andrea-dj/brand-operating-system/ /tmp/test-bos-rt/  # only _source/ should differ
+diff -r _active/clients/andrea-dj/brand-operating-system/ /tmp/test-bos-rt/  # only _source/ should differ
 
 # 2. Routing check
 python3 execution/routing_enforcer.py check --request "build a BOS" --workflow build-bos --quiet  # exit 0

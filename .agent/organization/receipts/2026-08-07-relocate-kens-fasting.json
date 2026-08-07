@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:34:40.573635+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/kens-fasting",
+  "dst": "_active/clients/kens-fasting",
+  "stub_left": false,
+  "files_moved": 27,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/kens-fasting/START-HERE.html": 154,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/research_outputs/research-integrity-audit.md": 3
+  },
+  "total_rewrites": 158,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

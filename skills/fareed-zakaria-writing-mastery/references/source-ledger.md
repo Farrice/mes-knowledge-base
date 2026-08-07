@@ -7,7 +7,7 @@ Claim-by-claim provenance. Labels: **VERIFIED** (confirmed against a primary or 
 Before labeling anything, this repair searched for a real Zakaria extraction transcript (interview, book excerpt, podcast) anywhere in the repo, per the envelope's rule that an "absence" claim must be verified, not assumed:
 
 - `extractions/` — content grep for "zakaria" across all files: **zero matches**.
-- `_active/codex-harvest-2026-06-11/` — matches found (`agents/fareed-zakaria/AGENT.md`, `skills/fareed-zakaria-writing-mastery/SKILL.md`) are prior mirrors of the *same* SKILL.md/AGENT.md content already in `skills/`, not a distinct raw source. No transcript file present.
+- `_active/harness/codex-harvest-2026-06-11/` — matches found (`agents/fareed-zakaria/AGENT.md`, `skills/fareed-zakaria-writing-mastery/SKILL.md`) are prior mirrors of the *same* SKILL.md/AGENT.md content already in `skills/`, not a distinct raw source. No transcript file present.
 - `_archive/claude-export-2026-07-01.tar.gz` — `tar -tzf` file-name index searched for "zakaria": **zero matches**.
 - `swarm_outputs/20260306_130322/agent_outputs/fareed-zakaria.md` — exists but is an unrelated LinkedIn-ghostwriting-demand research memo (Gemini 2.5 Flash output), not a Zakaria craft extraction.
 - `evolution_store/v2_variants/genius_compressed/fareed-zakaria-writing-mastery_genius.md` — a compressed variant of this same genius.md, same unsourced content, not an independent source.

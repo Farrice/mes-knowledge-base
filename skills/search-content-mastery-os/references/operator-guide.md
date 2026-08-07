@@ -98,7 +98,7 @@ No scheduler, external publishing, outreach, connector write, payment creation, 
 
 ## Applied Reference
 
-Use `_active/search-content-mastery/angle-map-search-answer-prototype/00-START-HERE.md` as the full self-application example. It demonstrates all seven modes, three channel routes, a rejected baseline, bounded expert scores, zero invented events, and a service receipt.
+Use `_active/knowledge/search-content-mastery/angle-map-search-answer-prototype/00-START-HERE.md` as the full self-application example. It demonstrates all seven modes, three channel routes, a rejected baseline, bounded expert scores, zero invented events, and a service receipt.
 
 ## Stop Conditions
 

@@ -24,7 +24,7 @@ machine" funnel breakdown), confirmed by direct file size (34,072 and 24,657 byt
 respectively — not empty, just off-topic) and content read.
 
 The real primary source was located at
-`_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/` (a prior Codex
+`_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/` (a prior Codex
 harvest import, not indexed under `extractions/kallaway*`):
 - `transcript.txt` — full line-timestamped transcript (1,487 lines), read in full for this repair.
 - `metadata.json` — confirms: title **"The NEW Way to WIN on Social Media in 2026,"**
@@ -87,6 +87,6 @@ gap this ledger closes.
 | `extractions/kallaway/word-mastery-extraction.md` | 16,292 bytes | Read in full — different topic (copywriting/word choice). |
 | `extractions/kallaway/transcript.txt` | 34,072 bytes | Read (head) + grepped — "illusion of novelty" storytelling transcript, zero social-commerce matches. |
 | `extractions/kallaway-content-system/*` (4 files incl. 398,725-byte .vtt) | — | Grepped for social-commerce terms — zero matches; this is the "content system / 10x batch" extraction, a different Kallaway skill (`kallaway-content-system`). |
-| `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` | 1,487 lines | **Read in full — this is the actual primary source for `kallaway-social-commerce`.** |
-| `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json` | — | Read in full — confirms title, channel, publish date, URL. |
-| `_active/codex-harvest-2026-06-11/brain/e51c78e9-.../artifacts/kallaway-expansion-vision.md` | — | Read (excerpt) — the original extraction vision doc that produced this skill; corroborates the four-tailwind framing and confirms "Manis" should read "Manifold" (this doc also uses "Manis," so the error predates this repair and traces to the original extraction). |
+| `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` | 1,487 lines | **Read in full — this is the actual primary source for `kallaway-social-commerce`.** |
+| `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json` | — | Read in full — confirms title, channel, publish date, URL. |
+| `_active/harness/codex-harvest-2026-06-11/brain/e51c78e9-.../artifacts/kallaway-expansion-vision.md` | — | Read (excerpt) — the original extraction vision doc that produced this skill; corroborates the four-tailwind framing and confirms "Manis" should read "Manifold" (this doc also uses "Manis," so the error predates this repair and traces to the original extraction). |

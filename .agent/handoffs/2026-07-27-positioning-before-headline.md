@@ -20,11 +20,11 @@ Never opened during the entire session, despite `MEMORY.md` stating FARRICE-MAST
 |---|---|
 | `FARRICE-MASTER-CONTEXT.md` | 2,808 |
 | `_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md` | 2,953 |
-| `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` | 3,885 |
-| `_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md` | 5,237 |
-| `_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md` | 5,930 |
-| `_active/linkedin-launch/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md` | 3,601 |
-| `_active/linkedin-launch/01-research/wellness-supplement-brand-niche.md` | 1,979 |
+| `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` | 3,885 |
+| `_active/linkedin/01-research/MARKET-ICP-DOSSIER-2026-06.md` | 5,237 |
+| `_active/linkedin/02-offer/CANONICAL-OFFER-BRIEF.md` | 5,930 |
+| `_active/linkedin/01-research/AVATAR-DOSSIER-ALIGNMENT-AUDIT-2026-07-21.md` | 3,601 |
+| `_active/linkedin/01-research/wellness-supplement-brand-niche.md` | 1,979 |
 
 ### Failure 3 — the artifact was iterated instead of the input
 A headline is a 220-character compression of a positioning decision. **The positioning decision was never made.** Every pass compressed something unresolved, which is why quality fell with each round. This is Farrice's own published thesis turned on him: *"They keep hiring writers to fix a decision nobody made."*
@@ -33,7 +33,7 @@ A headline is a 220-character compression of a positioning decision. **The posit
 
 ## What IS settled (don't re-litigate)
 
-- **Register reference:** `_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md` §3 (About v9). It passed the gate, Farrice approved the voice. Do not rewrite it.
+- **Register reference:** `_active/linkedin/03-launch/2026-07-27-profile-and-content-package.md` §3 (About v9). It passed the gate, Farrice approved the voice. Do not rewrite it.
 - **About section** — final. `DM PROOF` close is correct and passes Paolo Trivellato's profile gate.
 - **Featured section architecture** — decided: 3 slots, proof → offer → deep read. In `2026-07-27-profile-top-to-bottom.md` §7.
 - **Both conversion paths are broken** — no booking link, no email capture. Free 10-min Cal.com fix identified, not built.
@@ -56,6 +56,6 @@ A headline is a 220-character compression of a positioning decision. **The posit
 
 ## Other live state from this session
 
-- **Teardowns #1-3 built and DM-ready** — Transparent Labs, Momentous, Puori. `_active/linkedin-launch/03-launch/teardowns/`. **Nothing has been sent.** Send-before-build is still unmet.
+- **Teardowns #1-3 built and DM-ready** — Transparent Labs, Momentous, Puori. `_active/linkedin/03-launch/teardowns/`. **Nothing has been sent.** Send-before-build is still unmet.
 - **Compass doctrine shipped** — blocking gates retired system-wide except cost gate and factual veto. `docs/solutions/2026-07-27-compass-doctrine-blocking-gate-audit.md`. Committed and pushed.
 - All work committed: `46360778b` (content), `fbfe77bfd` (compass), `029b1c1eb` (telemetry).

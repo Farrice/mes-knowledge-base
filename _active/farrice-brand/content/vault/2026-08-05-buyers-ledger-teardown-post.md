@@ -5,7 +5,7 @@ content_pillar: Proof
 narrative_pillar: P2
 bucket: Authority
 ring: Inner
-source_brief: _active/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md
 ---
 
 # The buyer's ledger #1: the practitioner-trust promise (teardown post)

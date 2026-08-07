@@ -9,9 +9,9 @@ Before recording any "no source exists" finding, every location plausibly holdin
 | Location checked | Result | Size |
 |---|---|---|
 | `extractions/` (`ls extractions/ \| grep -i deutsch`) | 0 matches | — |
-| `_active/codex-harvest-2026-06-11/extractions/` | 0 matches | — |
-| `_active/codex-harvest-2026-06-11/skills/david-deutsch-copywriting/` | exists, mirrors current skill state — no additional source material | — |
-| `_active/codex-harvest-2026-06-11/agents/david-deutsch/` | exists, mirrors `agents/david-deutsch/` — no source citation | — |
+| `_active/harness/codex-harvest-2026-06-11/extractions/` | 0 matches | — |
+| `_active/harness/codex-harvest-2026-06-11/skills/david-deutsch-copywriting/` | exists, mirrors current skill state — no additional source material | — |
+| `_active/harness/codex-harvest-2026-06-11/agents/david-deutsch/` | exists, mirrors `agents/david-deutsch/` — no source citation | — |
 | `agents/david-deutsch/AGENT.md` | persona/routing file only; no transcript excerpt, no citation | 2,022 bytes |
 | `.agents/skills/source-command-david-deutsch/SKILL.md` | command shim only; no citation | 1,426 bytes |
 | `_archive/claude-export-2026-07-01.tar.gz` (`tar -tzf ... \| grep -ic deutsch`) | 0 matches among 3,864 archived paths | 332,779,255 bytes (~317 MB) |

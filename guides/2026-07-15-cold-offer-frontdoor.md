@@ -7,7 +7,7 @@ status: enriched
 
 # Cold-Offer OS + Expert Front Doors — What We Built 2026-07-15 and How to Use It
 
-> One session, four assets: **`skills/jeremy-haynes-cold-offer`** (cold-traffic offer mastery, 13 workflows, the gap the harness had been missing), the **Expert Front-Door System** (`/[expert-name]` summons persona + full arsenal, all 222 experts), **generator-enforced registration** across the entire Forge/extraction pipeline (fireable-but-invisible commands structurally ended), and the **concurrent-session alarm** (Golden Rule as a mechanism). Applied work: the DWA Ship Sprint presale page audited (7.75) and fixed — ticket 0006 conditions MET, GO gate is Farrice's. Companions: `extractions/jeremy-haynes/extraction-report-cold-offer.md`, `_active/dwa-threads-engine-2026-07-05/04-deliverables/26-jh-offer-audit-ship-sprint.md`, `docs/solutions/2026-07-15-concurrent-session-race-accept-repair-dedupe.md`.
+> One session, four assets: **`skills/jeremy-haynes-cold-offer`** (cold-traffic offer mastery, 13 workflows, the gap the harness had been missing), the **Expert Front-Door System** (`/[expert-name]` summons persona + full arsenal, all 222 experts), **generator-enforced registration** across the entire Forge/extraction pipeline (fireable-but-invisible commands structurally ended), and the **concurrent-session alarm** (Golden Rule as a mechanism). Applied work: the DWA Ship Sprint presale page audited (7.75) and fixed — ticket 0006 conditions MET, GO gate is Farrice's. Companions: `extractions/jeremy-haynes/extraction-report-cold-offer.md`, `_active/clients/dwa-threads-engine-2026-07-05/04-deliverables/26-jh-offer-audit-ship-sprint.md`, `docs/solutions/2026-07-15-concurrent-session-race-accept-repair-dedupe.md`.
 
 ## ⚡ If you only read 10 lines
 

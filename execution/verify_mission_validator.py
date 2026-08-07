@@ -195,7 +195,7 @@ def build_fixtures() -> dict:
                  "source": ".tmp/mission-validator-fixtures/clean/q/source.md"},
                 {"text": "This approach is likely the right shape for future stages.", "label": "LIKELY"},
                 {"text": "No source found for a fabricated fourth rule.", "label": "UNCONFIRMED",
-                 "searched": ["extractions/", "claude-export archive tarball", "_active/codex-harvest-2026-06-11/extractions/"]},
+                 "searched": ["extractions/", "claude-export archive tarball", "_active/harness/codex-harvest-2026-06-11/extractions/"]},
             ],
         }),
         "expect_pass": True,

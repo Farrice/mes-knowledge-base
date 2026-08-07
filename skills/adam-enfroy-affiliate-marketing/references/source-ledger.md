@@ -12,7 +12,7 @@ skill before this repair — it makes that content's provenance auditable.
   `grep -rli "adam" extractions/` also checked. No folder, file, or transcript for
   Adam Enfroy exists under `extractions/` in this repo. **CONFIRMED ABSENT** — not
   "unread," actually searched and empty.
-- **`_active/codex-harvest-2026-06-11/agents/adam-enfroy/AGENT.md`** — read in
+- **`_active/harness/codex-harvest-2026-06-11/agents/adam-enfroy/AGENT.md`** — read in
   full. File size confirmed via `wc -c` = 4,052 bytes / 72 lines (non-empty, real
   content, not a 0-byte artifact). This is a synthesized persona-card summarizing
   the same skill's genius.md content back to itself — not a primary transcript,

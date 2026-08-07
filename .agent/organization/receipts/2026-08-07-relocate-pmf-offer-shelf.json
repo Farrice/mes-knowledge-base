@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:40:48.886457+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/pmf-offer-shelf",
+  "dst": "_active/offer-strategy/pmf-offer-shelf",
+  "stub_left": false,
+  "files_moved": 16,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/MEMORY.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_pmf-offer-shelf-2026-07-07.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-05-pmf-offer-package-2026-07-05.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-alignment-architect-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-fladlien-game-selection.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-pmf-offer-research.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-pmf-ofm-options-2026-07-07.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-pmf-offer-package-2026-07-05.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-pmf-ofm-options-2026-07-07.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/linkedin/03-launch/REPS-GAMEPLAN-2026-07-07.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/pmf-offer-map-2026-07-07/MOVED.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/pmf-offer-shelf/START-HERE.html": 77,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/mark-kashef-wargame-os/references/mission-brief-library.md": 1
+  },
+  "total_rewrites": 95,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

@@ -2,7 +2,7 @@
 > Established 2026-07-18 by the Proof-to-Market mission. Fed twice weekly by the `/market-pulse` loop (Mon+Thu) and by any session that produces unused angles. Drawn down by `/farrice-engine`, `/linkedin-daily`, and manual drafting.
 
 ## Convention
-- `angles/` — dated angle/hook files: one line per angle, pillar-tagged (P1-P5 per `_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md`), source-labeled (VERIFIED/LIKELY/UNCONFIRMED where a claim is embedded). Never delete a used angle — strike it through with the post date.
+- `angles/` — dated angle/hook files: one line per angle, pillar-tagged (P1-P5 per `_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md`), source-labeled (VERIFIED/LIKELY/UNCONFIRMED where a claim is embedded). Never delete a used angle — strike it through with the post date.
 - `hooks/` — proven or borrowed hook patterns worth reusing (pattern, not copy).
 - `drafts/` — post drafts staged ahead of publishing, one file per post, named `YYYY-MM-DD-slug.md`.
 - Signals briefs live in `research_outputs/market-pulse/` (not here) — the bank holds AMMUNITION, the briefs hold receipts.

@@ -12,7 +12,7 @@ direct string search against the source file, not memory.
 |---|---|---|
 | "We're Basically Drug Dealers" masterclass transcript | `extractions/stefan-georgi/transcript.txt` (8,719 words, single continuous transcript, no line breaks — cited by search phrase, not line number) | **Primary source, VERIFIED present, full text read** |
 | "(New) AI Copywriting Masterclass" (RMBC 2.0 era, ~89 min, cited in genius.md Evolution Log 2026-07-01) | Not found. Searched: `extractions/` (only `stefan-georgi/transcript.txt` exists for this expert), repo-wide grep for `"Copy Thinker"`, `"whipped tallow"`, `"unified research document"`, `"category aware"` — zero hits outside this skill's own generated files (`SKILL.md`, `genius.md`, `references/prompts-v2/*`, `workflows/copy-thinker-judgment-loop.md`). | **UNCONFIRMED — source file not recoverable in this repo** |
-| Codex-harvest mirror of this skill | `_active/codex-harvest-2026-06-11/skills/stefan-georgi-dopamine-copy/SKILL.md` | Checked — no additional source material, mirrors current SKILL.md only |
+| Codex-harvest mirror of this skill | `_active/harness/codex-harvest-2026-06-11/skills/stefan-georgi-dopamine-copy/SKILL.md` | Checked — no additional source material, mirrors current SKILL.md only |
 
 ## Claim-by-Claim Ledger
 

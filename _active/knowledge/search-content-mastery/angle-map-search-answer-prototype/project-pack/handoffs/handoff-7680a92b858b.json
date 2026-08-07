@@ -1,0 +1,31 @@
+{
+  "brief_id": "brief-921ccdacfd04",
+  "channel": "linkedin_post",
+  "created_at": "2026-08-05T15:15:51.846349+00:00",
+  "external_action": "NO_PERMISSION",
+  "handoff_id": "handoff-7680a92b858b",
+  "inputs": {
+    "brief_ref": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/search-content-mastery/_active/knowledge/search-content-mastery/angle-map-search-answer-prototype/project-pack/briefs/brief-921ccdacfd04.json",
+    "operator_taste_refs": [
+      "project-pack/context/operator-taste.json",
+      "_active/farrice-brand/voice/VOICE-CARD.md"
+    ],
+    "project_manifest": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/search-content-mastery/_active/knowledge/search-content-mastery/angle-map-search-answer-prototype/project-pack/manifest.json",
+    "source_receipts": [
+      "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md",
+      "owned-answer-page.md"
+    ]
+  },
+  "output_contract": "Produce the channel-native asset, then return it to /search-content-mastery score before any external action.",
+  "paid_generation": "NOT_REQUESTED",
+  "project_id": "the-angle-map-search-answer-prototype",
+  "record_type": "SearchProductionHandoff",
+  "risk_boundary": "This is marketing and source-organization guidance, not legal, medical, regulatory, ranking, citation, traffic, or revenue advice.",
+  "route": [
+    "/search-content-mastery",
+    "/create",
+    "farrice-voice-card"
+  ],
+  "schema_version": "search-production-handoff/v1"
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:33:00.654705+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/parallax-icp-offer",
+  "dst": "_active/_archive/2026-08-07-sweep/parallax-icp-offer",
+  "stub_left": true,
+  "files_moved": 43,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/parallax-icp-offer/04-deliverables/EXECUTION-PACK.md": 9,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/parallax-icp-offer/06-system/ASSET-INDEX.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/parallax-icp-offer/START-HERE.html": 273,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/parallax-icp-offer/linkedin/content-ecosystem-map.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/video-context/GlTA4wXSACE/a-tier-reference-corpus/cases/SAL-01-sales/brief.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/video-context/GlTA4wXSACE/a-tier-reference-corpus/replays/SAL-01-repair-1.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/research_outputs/research-integrity-audit.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/skills/monk-ai-offer-architecture/references/source-ledger.md": 1
+  },
+  "total_rewrites": 293,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

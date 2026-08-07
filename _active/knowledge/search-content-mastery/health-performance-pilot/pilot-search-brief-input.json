@@ -1,0 +1,27 @@
+{
+  "status": "APPROVED",
+  "target_query": "how should a supplement brand structure claims for human trust and AI inspection",
+  "intent": "informational",
+  "audience": "health performance brand founder or marketing lead",
+  "information_gain_requirement": "Make the claim record inspectable as five adjacent fields—claim, source, limit, reviewer, and update date—and explicitly separate retrieval readiness from observed citation performance.",
+  "source_receipts": [
+    "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "https://developers.google.com/search/docs/fundamentals/ai-features",
+    "_active/knowledge/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md"
+  ],
+  "structural_pattern": "direct answer -> claim receipt -> worked example -> limits -> action",
+  "channel": "article",
+  "cta": "Review one claim against the receipt before publication.",
+  "risk_boundary": "This is marketing and source-organization guidance, not medical, legal, regulatory, ranking, or citation advice.",
+  "measurement_hypothesis": {
+    "prediction": "A claim-receipt answer may improve correct source-and-limit identification in internal review.",
+    "primary_stage": "PREDICTED",
+    "observation_window_days": 7,
+    "falsifier": "In the next internal review, a reviewer still cannot identify the claim, source, limit, reviewer, and update state after 7 days."
+  },
+  "operator_taste_refs": [
+    "project-pack/context/operator-taste.json",
+    "_active/farrice-brand/voice/VOICE-CARD.md"
+  ],
+  "notes": "Internal acceptance pilot only; The Angle Map remains the live offer canon."
+}

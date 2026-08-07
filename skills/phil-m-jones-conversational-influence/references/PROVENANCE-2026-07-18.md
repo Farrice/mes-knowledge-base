@@ -2,9 +2,9 @@
 
 Anchor → source file + location. Full claim-by-claim table (with VERIFIED/LIKELY/UNCONFIRMED labels) lives in `references/source-ledger.md`; this file is the compact anchor index for the adversarial verifier.
 
-**Ground-truth source**: `_active/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` (112,045 chars / ~20,448 words). Confirmed present and readable by direct read on 2026-07-18. This is a different, correct path from the one recorded in the skill's pre-existing `references/source-notes.md` (`extractions/phil-m-jones/transcript.txt`, which does not exist — see the Path Correction note appended to that file).
+**Ground-truth source**: `_active/harness/codex-harvest-2026-06-11/extractions/phil-m-jones/transcript.txt` (112,045 chars / ~20,448 words). Confirmed present and readable by direct read on 2026-07-18. This is a different, correct path from the one recorded in the skill's pre-existing `references/source-notes.md` (`extractions/phil-m-jones/transcript.txt`, which does not exist — see the Path Correction note appended to that file).
 
-Companion: `_active/codex-harvest-2026-06-11/extractions/phil-m-jones/extraction-report.md` (3,401 bytes) — original extraction summary.
+Companion: `_active/harness/codex-harvest-2026-06-11/extractions/phil-m-jones/extraction-report.md` (3,401 bytes) — original extraction summary.
 
 | Anchor (as used in genius.md) | Word position in transcript.txt | Verified |
 |---|---|---|

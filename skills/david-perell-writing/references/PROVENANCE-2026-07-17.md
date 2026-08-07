@@ -17,7 +17,7 @@ Model Calibration sections is copied verbatim from the pre-existing genius.md
 | Anti-Pattern 5 (information without connection) | `skills/david-perell-writing/genius.md`, Insight: Connection Is the X-Factor Information Can't Buy (orig. line 62) |
 | Anti-Pattern 6 (single-pillar failure modes: diary / scientific paper / tabloid) | `skills/david-perell-writing/genius.md`, Pattern: The Failure-Mode Diagnostic (orig. line 26) |
 | "source: claude.ai export 2026-07-01" | `skills/david-perell-writing/SKILL.md`, frontmatter, line 7 |
-| Absence-of-extraction finding | Direct commands this session: `ls extractions/` (193 entries, no match); `grep -rli perell _active/codex-harvest-2026-06-11/` (no match); `tar -tzf _archive/claude-export-2026-07-01.tar.gz \| grep -i perell` (0 of full listing, archive is 332,779,255 bytes); `Read agents/david-perell/AGENT.md` and `agents/david-perell/memory/context.md` in full (persona files, not raw source) |
+| Absence-of-extraction finding | Direct commands this session: `ls extractions/` (193 entries, no match); `grep -rli perell _active/harness/codex-harvest-2026-06-11/` (no match); `tar -tzf _archive/claude-export-2026-07-01.tar.gz \| grep -i perell` (0 of full listing, archive is 332,779,255 bytes); `Read agents/david-perell/AGENT.md` and `agents/david-perell/memory/context.md` in full (persona files, not raw source) |
 
 No new quotes were invented. No quote in the Anti-Patterns or Model Calibration
 sections appears anywhere except as a verbatim copy of text already present in

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:36:10.346514+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/trendscale-trial",
+  "dst": "_active/clients/trendscale-trial",
+  "stub_left": false,
+  "files_moved": 68,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-06-28-ad-script.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-04-trendscale-script-rework-v2.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-05-cos-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-09-trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/trendscale-trial/03-video-samples/flow-handoff/RUN-THIS-IN-FLOW.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/clients/trendscale-trial/START-HERE.html": 161,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-11-brief-to-finished-ai-video-production-system.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-13-ai-video-product-label-morphing-composite-fix.md": 1
+  },
+  "total_rewrites": 173,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

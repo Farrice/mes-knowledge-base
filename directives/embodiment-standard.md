@@ -1,6 +1,6 @@
 # Embodiment Standard — What Every Extraction Must Ship With
 
-> **Origin**: Elevation Track E1→E3 (2026-07-02). E1 found the factory verified structure, never embodiment (`_active/elevation-track/E1-factory-audit.md`). E3's blind bake-off proved the payoff: Farrice detected real experts only 5/15 and preferred skill-generated work 8-6-1 — when skills are built to this standard (`_active/elevation-track/e3/E3-results.md`).
+> **Origin**: Elevation Track E1→E3 (2026-07-02). E1 found the factory verified structure, never embodiment (`_active/harness/elevation-track/E1-factory-audit.md`). E3's blind bake-off proved the payoff: Farrice detected real experts only 5/15 and preferred skill-generated work 8-6-1 — when skills are built to this standard (`_active/harness/elevation-track/e3/E3-results.md`).
 > **Consumers**: `/extract` Step 8-9 · `/extract-forge` Phase 7-8 · `mes-3.0-validate.md` Check 3.5. This file is the single source of truth — the workflows point here, they do not duplicate.
 > **Non-gate**: extractions are NEVER cost/permission-gated (Farrice standing decision 2026-06-09). This standard governs ship *quality*, not extraction *permission*.
 

@@ -82,4 +82,4 @@ Cached at `.agent/skill-index.json`, keyed by per-file mtime. Auto-rebuilds when
 
 - **Skill index**: `.agent/skill-index.json` — JSON cache of all parsed SKILL.md frontmatter + when-to-use sections
 - **Synonym map**: `execution/find_skill.py:SYNONYMS` — user-curated idiom → canonical
-- **Audit doc that drove this**: `_active/system-integration/2026-05-22-description-rewrite-followup.md`
+- **Audit doc that drove this**: `_active/_archive/2026-08-07-sweep/system-integration/2026-05-22-description-rewrite-followup.md`

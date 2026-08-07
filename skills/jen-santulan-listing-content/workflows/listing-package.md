@@ -16,7 +16,7 @@ The end-to-end listing content engine, codified from the 5200 Armida arc (2026-0
 /listing-package --paste            (then paste any listing description)
 ```
 - **No flags needed, ever.** Input type auto-detected: URL → fetch · address-shaped → search-then-fetch · anything else → treated as pasted description. Tier auto-derived from list price. `--tier fthb|luxury` and `--client` exist only as overrides.
-- Re-running on the same property RESUMES: existing `_active/jen-listings/<slug>/listing.json` → skip fetch/research, regenerate downstream only (WARM pattern).
+- Re-running on the same property RESUMES: existing `_active/clients/jen-listings/<slug>/listing.json` → skip fetch/research, regenerate downstream only (WARM pattern).
 
 ## The cost model
 | When | Cost |
@@ -31,14 +31,14 @@ The end-to-end listing content engine, codified from the 5200 Armida arc (2026-0
 
 ## PHASE 0 — INTENT (Gate G0)
 
-Detect input type. Mint slug `<number>-<street>-<city>` (check `ls _active/jen-listings/` first — existing dir = RESUME, never duplicate). Guess tier from any visible price.
+Detect input type. Mint slug `<number>-<street>-<city>` (check `ls _active/clients/jen-listings/` first — existing dir = RESUME, never duplicate). Guess tier from any visible price.
 
 **Gate G0 — halt only if:** no URL, no address, no description — ask for one of the three. Otherwise proceed silently. *(Cheap gate; prevents researching the wrong property.)*
 
 ## PHASE 1 — INTAKE ($0 → $0.003)
 
 Fetch ladder — **never fabricate a fact a rung couldn't reach:**
-1. **Playwright** (listing page): navigate → `browser_evaluate` to pull JSON-LD + full facts text + photo IDs → save dump to `_active/jen-listings/<slug>/page-dump.json`. If "Browser is already in use" (sibling session lock) → rung 2, and note it.
+1. **Playwright** (listing page): navigate → `browser_evaluate` to pull JSON-LD + full facts text + photo IDs → save dump to `_active/clients/jen-listings/<slug>/page-dump.json`. If "Browser is already in use" (sibling session lock) → rung 2, and note it.
 2. **Apify `web` actor** (`rag-web-browser`): `python3 execution/apify_client.py` web fetch of the URL (~$0.003; on `budget_exhausted` → rung 3).
 3. **Ask for a paste.** One request to Farrice; `--paste` mode parses it. NEVER proceed on invented facts.
 
@@ -47,7 +47,7 @@ Photos: render the photo-ID grid in-page (numbered contact-sheet technique — 4
 Then:
 ```bash
 // turbo
-python3 execution/listing_intel.py parse _active/jen-listings/<slug>/page-dump.json --slug <slug>
+python3 execution/listing_intel.py parse _active/clients/jen-listings/<slug>/page-dump.json --slug <slug>
 python3 execution/listing_intel.py diff --slug <slug>
 python3 execution/listing_intel.py ledger --slug <slug>
 ```
@@ -66,7 +66,7 @@ Plus, per tier: FTHB → comparable rents (rent-vs-mortgage math inputs); luxury
 
 ## PHASE 3 — STRATEGY ($0, internal — no stop)
 
-Tier → **register** per `_active/jen-listings/CLAUDE.md` Override List ladder. Buyer map (3-5 named buyers, life-logistics framing, fair-housing-safe). Magic trifecta (pattern interrupt · the real pitch · bonus proof). **What-NOT-to-claim block** from the diff + honesty anchors. Ten lines, delivered as the brief's header so Farrice can judge the strategy read alongside the content.
+Tier → **register** per `_active/clients/jen-listings/CLAUDE.md` Override List ladder. Buyer map (3-5 named buyers, life-logistics framing, fair-housing-safe). Magic trifecta (pattern interrupt · the real pitch · bonus proof). **What-NOT-to-claim block** from the diff + honesty anchors. Ten lines, delivered as the brief's header so Farrice can judge the strategy read alongside the content.
 
 ## PHASE 4 — GENERATE ($0)
 
@@ -74,7 +74,7 @@ Load: `skills/kallaway-hook-mastery/SKILL.md` + this skill's `PROMPT.md` + `refe
 
 ## PHASE 5 — PACKAGE ($0 — no stop; the run goes straight through)
 
-Execute `references/prompts-v2/listing-send-package.md` → the forwardable text (numbers block → options w/ one top pick → cover pairs → register-matched caption → filming notes → don't-say list). Write the repo substrate: `_active/jen-listings/<slug>/<slug>-SHOOT-SHEET.md` (strategy, full research, ledger pointers, diagnostics) + `SEND-TO-JEN-text.md` + `.metadata.json` sidecar.
+Execute `references/prompts-v2/listing-send-package.md` → the forwardable text (numbers block → options w/ one top pick → cover pairs → register-matched caption → filming notes → don't-say list). Write the repo substrate: `_active/clients/jen-listings/<slug>/<slug>-SHOOT-SHEET.md` (strategy, full research, ledger pointers, diagnostics) + `SEND-TO-JEN-text.md` + `.metadata.json` sidecar.
 
 **Farrice's rule (2026-08-05, binding): no mid-run taste gates.** "I feed you the address… you punch out the output in the full brief — and I can judge from there." The deliverable is the COMPLETE brief in one shot: 10-line strategy card + 6 hooks + scripts + cover pairs + caption + send text, presented together. His judgment happens ON the finished package.
 
@@ -86,9 +86,9 @@ Feedback-turn protocol on the delivered brief: restate his verdicts → ONE take
 
 ```bash
 // turbo
-python3 execution/fair_housing_lint.py check --file _active/jen-listings/<slug>/SEND-TO-JEN-text.md --context package
-python3 execution/client_package_lint.py _active/jen-listings/<slug>/SEND-TO-JEN-text.md
-python3 execution/prose_classifier.py check _active/jen-listings/<slug>/SEND-TO-JEN-text.md || true
+python3 execution/fair_housing_lint.py check --file _active/clients/jen-listings/<slug>/SEND-TO-JEN-text.md --context package
+python3 execution/client_package_lint.py _active/clients/jen-listings/<slug>/SEND-TO-JEN-text.md
+python3 execution/prose_classifier.py check _active/clients/jen-listings/<slug>/SEND-TO-JEN-text.md || true
 ```
 - fair_housing_lint exit 2 → fix and re-run; this is a hard floor, not a suggestion.
 - prose_classifier: judge findings against the register (production-sheet structure flags are expected; em-dashes/slop vocab in SPOKEN lines are real and get fixed).
@@ -103,7 +103,7 @@ python3 execution/chain_runner.py finalize "<slug> listing package — hooks+scr
   --expert "Jen Santulan" --skill jen-santulan-listing-content --workflow listing-package \
   --type "Client Work" --intent N --expert-score N --adversarial N \
   --factual <from-ledger: all VERIFIED → ≥8> --sub-agents <n> \
-  --content-file _active/jen-listings/<slug>/SEND-TO-JEN-text.md \
+  --content-file _active/clients/jen-listings/<slug>/SEND-TO-JEN-text.md \
   --notes "Register: <tier> | Ledger: <n> claims, <n> contradictions surfaced | Fetch: <rung> | Factual Grounding: N | Verification: PASS"
 ```
 **Grep the output for `QUALITY GATE BLOCKED` and do NOT deliver on a match** (finalize exits 0 even when it blocks).
@@ -120,7 +120,7 @@ Fetch: Playwright → Apify web → ask-for-paste. Research: Gemini → Perplexi
 ## Output Schema
 | Artifact | Path | Valid when |
 |---|---|---|
-| Listing facts | `_active/jen-listings/<slug>/listing.json` | parses; nulls where unknown; never-invented values |
+| Listing facts | `_active/clients/jen-listings/<slug>/listing.json` | parses; nulls where unknown; never-invented values |
 | Claims ledger | `<slug>/claims-ledger.json` | every spoken claim traceable; contradictions carry fallback lines |
 | Diff report | `<slug>/claims-diff.json` | contradiction/risk/confirm items present when the data disagrees |
 | Photo sheets | `<slug>/photo-contact-sheet-*.jpeg` | numbered grid, reviewed |

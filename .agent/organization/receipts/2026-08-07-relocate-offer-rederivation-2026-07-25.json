@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:41:41.236480+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/offer-rederivation-2026-07-25",
+  "dst": "_active/offer-strategy/offer-rederivation-2026-07-25",
+  "stub_left": false,
+  "files_moved": 11,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-25-offer-rederivation-2026-07-25.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-26-research-depth-fix.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-offer-rederivation-2026-07-25.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/offer-rederivation-2026-07-25/04-deliverables/OFFER-VALIDATION-VERIFIED.md.depth-receipt.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/offer-rederivation-2026-07-25/04-deliverables/RESULTS.md.depth-receipt.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/offer-rederivation-2026-07-25/START-HERE.html": 35,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-26-shallow-research-passed-as-trusted.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/guides/2026-07-26-research-depth-fix.md": 1
+  },
+  "total_rewrites": 46,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

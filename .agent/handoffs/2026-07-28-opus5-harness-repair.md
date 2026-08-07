@@ -15,8 +15,8 @@ pin: true
 
 ## Load First
 - `.agent/handoffs/2026-07-27-positioning-before-headline.md` — why headline work is STOPPED; the failure post-mortem; what is settled vs open
-- `_active/linkedin-launch/03-launch/teardowns/` — 3 teardowns, each with publishable post (§7) + send-ready DM (§8); publish dates 07-30 / 08-04 / 08-06, DM-first rule with 72h lead
-- Scratchpad About v11 is ephemeral — the current About candidates live in `_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md` (§3 = v9 register reference) and the v10/v11 work described in the 07-27 session; re-derive v11 via the room if the scratchpad is gone
+- `_active/linkedin/03-launch/teardowns/` — 3 teardowns, each with publishable post (§7) + send-ready DM (§8); publish dates 07-30 / 08-04 / 08-06, DM-first rule with 72h lead
+- Scratchpad About v11 is ephemeral — the current About candidates live in `_active/linkedin/03-launch/2026-07-27-profile-and-content-package.md` (§3 = v9 register reference) and the v10/v11 work described in the 07-27 session; re-derive v11 via the room if the scratchpad is gone
 - `FARRICE-MASTER-CONTEXT.md` — canonical before ANY identity/voice/offer writing (§10.4: producing documents instead of contact = say so once)
 - `_active/farrice-brand/voice/VOICE-CARD.md` v1.1 — §4 spine choice, §6 imperfection principle
 - `docs/solutions/2026-07-27-expert-load-truth.md` — the laundered half-pass failure + the fix contract (lens cards, firing rule, grep telemetry)
@@ -35,7 +35,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Send day. Open _active/linkedin-launch/03-launch/teardowns/ and give me the three DMs verbatim with the best-guess recipient (name + title) researched per brand. I paste and send, I log them myself. No new assets, no edits to the teardowns unless I flag a factual error. After I confirm sends are logged: fresh-session /writers-room pass on the About under the new lens-card protocol — show me the load-truth line first, then the treatment, then I judge cold.
+Send day. Open _active/linkedin/03-launch/teardowns/ and give me the three DMs verbatim with the best-guess recipient (name + title) researched per brand. I paste and send, I log them myself. No new assets, no edits to the teardowns unless I flag a factual error. After I confirm sends are logged: fresh-session /writers-room pass on the About under the new lens-card protocol — show me the load-truth line first, then the treatment, then I judge cold.
 ```
 
 ## Acceptance Criteria

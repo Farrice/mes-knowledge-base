@@ -7,11 +7,11 @@ description: Farrice's health/wellness/performance CONTENT OS — one front door
 One command so you never chain workflows by hand. It loads the OS + the buyer truth + the voice law every run, points at the evergreen **Content OS**, and produces edu-first, value-first content that builds audience, authority, and pipeline from zero. **The spine is adjudication** — you settle the category's live fights out loud from inside 18 yrs credentialed physiology; edutainment is the delivery, never the topic. The offer is **earned by the work**, surfaced softly (`--cta`, ~1-in-5), never on every post.
 
 > **Always-loaded source of truth (read these every run):**
-> - `_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md` — the master doc (the 3 functions, the signature template, the 8 blends, the edutainment/aha/psychology stack, the playbook, the cadence)
-> - `_active/linkedin-launch/01-research/CONTENT-DOMINATION-RESEARCH.md` — the thesis + build spec (what's working, the gap, the blend map, the formula, the jacking protocol)
-> - `_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md` — the buyer (avatars, fears, VoC, labeled facts)
-> - `_active/farrice-brand/CLAUDE.md` + `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md` — the voice law (banned MOVES, pass/fail)
-> - `_active/linkedin-launch/06-automation/daily/performance-log.md` — rotation (never repeat a hook format/close/pillar inside 7 days)
+> - `_active/linkedin/04-deliverables/content-os/CONTENT-OS.md` — the master doc (the 3 functions, the signature template, the 8 blends, the edutainment/aha/psychology stack, the playbook, the cadence)
+> - `_active/linkedin/01-research/CONTENT-DOMINATION-RESEARCH.md` — the thesis + build spec (what's working, the gap, the blend map, the formula, the jacking protocol)
+> - `_active/linkedin/01-research/MARKET-ICP-DOSSIER-2026-06.md` — the buyer (avatars, fears, VoC, labeled facts)
+> - `_active/farrice-brand/CLAUDE.md` + `_active/linkedin/04-deliverables/content-os/voice-gate.md` — the voice law (banned MOVES, pass/fail)
+> - `_active/linkedin/06-automation/daily/performance-log.md` — rotation (never repeat a hook format/close/pillar inside 7 days)
 >
 > **SUPERSEDES** the old offer-coupled `content-engine/CONTENT-ENGINE.md` + the always-on `DM "AUDIT"` bridge. Value-first is the default; the offer is a toggle.
 
@@ -70,11 +70,11 @@ Quarterly / on a positioning shift. **Don't rebuild what's working — extend it
 
 ## Output files
 ```
-_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md              # the master OS (rebuilt on --rebuild)
-_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md # the signature template + blends + stack
-_active/linkedin-launch/04-deliverables/content-os/social-playbook.md         # distribution + newsjack + grid + repurpose
-_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md   # the cooked exemplar batch
-_active/linkedin-launch/06-automation/daily/performance-log.md              # rolling ratchet (append)
+_active/linkedin/04-deliverables/content-os/CONTENT-OS.md              # the master OS (rebuilt on --rebuild)
+_active/linkedin/04-deliverables/content-os/content-creation-system.md # the signature template + blends + stack
+_active/linkedin/04-deliverables/content-os/social-playbook.md         # distribution + newsjack + grid + repurpose
+_active/linkedin/04-deliverables/content-os/starter-content-batch.md   # the cooked exemplar batch
+_active/linkedin/06-automation/daily/performance-log.md              # rolling ratchet (append)
 ```
 
 ## Error handling

@@ -36,7 +36,7 @@ Three stacked causes, none visible from config inspection: (1) stale CLI version
 
 ## Verification
 
-Re-probe after each fix: `hook: SessionStart Completed` ×2 (was 1 Failed), full chain `SessionStart / UserPromptSubmit ×3 / PreToolUse ×3 / PostToolUse / Stop` all Completed on 0.144.3; `verify_raw_intent_run_packet.py` and `verify_control_intent.py` (27/27) green; `platform_compiler.py check` in sync after re-bless; golden-brief A/B (`_active/codex-parity-2026-07-13/proof/JUDGMENT.md`) confirms gates hold on both platforms.
+Re-probe after each fix: `hook: SessionStart Completed` ×2 (was 1 Failed), full chain `SessionStart / UserPromptSubmit ×3 / PreToolUse ×3 / PostToolUse / Stop` all Completed on 0.144.3; `verify_raw_intent_run_packet.py` and `verify_control_intent.py` (27/27) green; `platform_compiler.py check` in sync after re-bless; golden-brief A/B (`_active/harness/codex-parity-2026-07-13/proof/JUDGMENT.md`) confirms gates hold on both platforms.
 
 ## Weaker-Model Trap
 
@@ -48,5 +48,5 @@ A weaker session reads `enabled = true` + green verifiers and reports "hooks are
 - Hook runner + targets: `.codex/hooks.json`, `.codex/tools/codex_hook_runner.py`
 - Fixed script (3 copies): `~/.codex/plugins/cache/jcc-local/jarvis-command-center/1.0.3/hooks/session-start.sh`, `~/.claude/plugins/installed/...`, `~/.claude/plugins/cache/...`
 - Config backups: `~/.codex/config.toml.bak-pre-parity-2026-07-13`
-- A/B proof: `_active/codex-parity-2026-07-13/proof/` (take-a, take-b, JUDGMENT.md)
+- A/B proof: `_active/harness/codex-parity-2026-07-13/proof/` (take-a, take-b, JUDGMENT.md)
 - Sibling card: `docs/solutions/2026-07-07-parallel-builders-stale-contracts.md` (stale-state family)

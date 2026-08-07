@@ -71,7 +71,7 @@ python3 execution/skill_auditor.py archive --tier REVIEW --names a,b --annotate 
 python3 execution/skill_auditor.py archive --tier C --apply  # physical move — PREVIEW FIRST
 ```
 
-**Read `_active/system-audit/audit-2026-04-24.md` before significantly changing the system.** Directive nav: `directives/INDEX.md`.
+**Read `_active/harness/system-audit/audit-2026-04-24.md` before significantly changing the system.** Directive nav: `directives/INDEX.md`.
 
 ## Knowledge Compiler — Karpathy Wiki Engine
 

@@ -97,7 +97,7 @@
       "weekly": false,
       "log_age_days": 0.0,
       "last_exit": 1,
-      "log_path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log"
+      "log_path": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/06-system/listening-run.log"
     },
     "com.antigravity.citation-integrity": {
       "weekly": true,
@@ -245,7 +245,7 @@
     "total": 73
   },
   "flags": [
-    "routine com.antigravity.angle-map-listening: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log",
+    "routine com.antigravity.angle-map-listening: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/06-system/listening-run.log",
     "routine com.antigravity.citation-integrity: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log",
     "routine com.antigravity.zeitgeist-daily: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/zeitgeist-run.log",
     "25 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",

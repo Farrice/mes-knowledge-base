@@ -1,0 +1,32 @@
+{
+  "audience": "health performance brand founder or marketing lead",
+  "brief_id": "brief-36fd9b330fef",
+  "channel": "article",
+  "created_at": "2026-08-05T00:08:31.991535+00:00",
+  "cta": "Review one claim against the receipt before publication.",
+  "information_gain_requirement": "Make the claim record inspectable as five adjacent fields\u2014claim, source, limit, reviewer, and update date\u2014and explicitly separate retrieval readiness from observed citation performance.",
+  "intent": "informational",
+  "measurement_hypothesis": {
+    "falsifier": "In the next internal review, a reviewer still cannot identify the claim, source, limit, reviewer, and update state after 7 days.",
+    "observation_window_days": 7,
+    "prediction": "A claim-receipt answer may improve correct source-and-limit identification in internal review.",
+    "primary_stage": "PREDICTED"
+  },
+  "notes": "Internal acceptance pilot only; The Angle Map remains the live offer canon.",
+  "operator_taste_refs": [
+    "project-pack/context/operator-taste.json",
+    "_active/farrice-brand/voice/VOICE-CARD.md"
+  ],
+  "project_id": "health-performance-search-pilot",
+  "record_type": "SearchBrief",
+  "risk_boundary": "This is marketing and source-organization guidance, not medical, legal, regulatory, ranking, or citation advice.",
+  "schema_version": "search-brief/v1",
+  "source_receipts": [
+    "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "https://developers.google.com/search/docs/fundamentals/ai-features",
+    "_active/knowledge/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md"
+  ],
+  "status": "APPROVED",
+  "structural_pattern": "direct answer -> claim receipt -> worked example -> limits -> action",
+  "target_query": "how should a supplement brand structure claims for human trust and AI inspection"
+}

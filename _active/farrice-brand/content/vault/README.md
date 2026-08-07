@@ -9,5 +9,5 @@ The vault stocks faster than the 3-5/week posting ceiling on purpose — the vau
 the magazine, the posting queue is the gate. `/content-queue` composes freely with
 this (idea-selection layer); it is never forced wiring.
 
-Engine spec: `_active/health-performance-ip-library/AUTOMATION_PROMPT.md` (v4.1
+Engine spec: `_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md` (v4.1
 Content Factory Contract). Ring definitions: context-os `08-TWO-RING-RESONANCE-DOSSIER.md`.

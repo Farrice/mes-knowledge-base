@@ -12,13 +12,13 @@ the additive-only repair boundary).
 
 | Claim | Label | Source |
 |---|---|---|
-| "Niche = Format + Market" formula label | LIKELY | Paraphrase of Danilov's documented mechanic, anchored `00:01:12`–`00:02:02` in the source video per `_active/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/source-map.md`. The compact `Format + Market` equation is a summary label, not a verbatim Danilov quote — never anchor it as one. |
-| "Most people think a niche is just a topic" (anti-pattern) | VERIFIED | Verbatim, `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` line 56-58, ~00:00:59. |
+| "Niche = Format + Market" formula label | LIKELY | Paraphrase of Danilov's documented mechanic, anchored `00:01:12`–`00:02:02` in the source video per `_active/harness/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/source-map.md`. The compact `Format + Market` equation is a summary label, not a verbatim Danilov quote — never anchor it as one. |
+| "Most people think a niche is just a topic" (anti-pattern) | VERIFIED | Verbatim, `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` line 56-58, ~00:00:59. |
 | "Anyone can copy a format, but very few can fill the formats with [genuine expertise]" (anti-pattern) | VERIFIED | Verbatim, same transcript, lines 580-586, ~00:10:26–00:10:36. |
 | Tim Danilov took a channel "from zero to $56,000 a month in just 30 days," another to "150 million views," a third to "$23,000 in less than 90 days" | VERIFIED | Verbatim, same transcript, lines 27-38, ~00:00:26–00:00:41. |
-| Source video is vidIQ's *"The NEW YouTube Strategy Dominating in 2026,"* uploader vidIQ, published 2026-02-16 | VERIFIED | `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` (`upload_date: "20260216"`). |
-| "Big-channel bias" and "No experiment" failure modes | VERIFIED | `_active/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/failure-modes.md` (named table rows, not paraphrased). |
-| Note on provenance path | — | These Tim Danilov files live under `_active/codex-harvest-2026-06-11/extractions/`, a historical import archive, not the top-level `extractions/` directory. Verified present and readable on disk at full size (not 0-byte/unrecoverable) — checked directly, not assumed. |
+| Source video is vidIQ's *"The NEW YouTube Strategy Dominating in 2026,"* uploader vidIQ, published 2026-02-16 | VERIFIED | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/metadata.json` (`upload_date: "20260216"`). |
+| "Big-channel bias" and "No experiment" failure modes | VERIFIED | `_active/harness/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/failure-modes.md` (named table rows, not paraphrased). |
+| Note on provenance path | — | These Tim Danilov files live under `_active/harness/codex-harvest-2026-06-11/extractions/`, a historical import archive, not the top-level `extractions/` directory. Verified present and readable on disk at full size (not 0-byte/unrecoverable) — checked directly, not assumed. |
 
 ## Jasmin Alic — Three-Line Rule / Rhythm
 

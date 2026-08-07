@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:40:16.977987+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/codex-parity-2026-07-13",
+  "dst": "_active/harness/codex-parity-2026-07-13",
+  "stub_left": false,
+  "files_moved": 7,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-13-codex-parity.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/codex-parity-2026-07-13/proof/START-HERE.html": 21,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/solutions/2026-07-13-codex-hooks-config-present-not-firing.md": 2
+  },
+  "total_rewrites": 27,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

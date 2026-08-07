@@ -37,7 +37,7 @@ The **entire claude.ai account export** (3,711 conversations, 142 Projects, 1.37
 - **Known caveats (verification notes):** `steven-young-consciousness` (epistemic framing), `sarah-levinger`/`tess-barclay` (leaner attribution), `jiang-xueqin` ("Three Locks" possibly reconstructed), `daniel-thrasher` (name collides with YouTube musician — content verified as ClickBank manager). Prune if unused; all runnable.
 - **Deep veins deliberately unmined:** Priestley 84 more convs, Godin 68, Fladlien 68, Kallaway 39 — census has every ID: `_active/claude-export/harvest/census-full.json`.
 - **Raw export backup:** the zips in `~/Downloads/` are irreplaceable (single-use URLs). `.tmp/claude-export/` + `_active/claude-export/` are git-ignored (private).
-- **Pre-existing staged renames** in `_active/linkedin-launch/` (252 files) were NOT ours and remain staged-uncommitted — someone should commit or unstage deliberately.
+- **Pre-existing staged renames** in `_active/linkedin/` (252 files) were NOT ours and remain staged-uncommitted — someone should commit or unstage deliberately.
 
 ## Suggested skills for next session
 

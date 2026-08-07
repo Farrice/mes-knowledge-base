@@ -13,9 +13,9 @@ Full brief text lives at `assets/wargame-folder-template/tasks/NN-slug.md` — t
 
 | Placeholder | Maps to |
 |---|---|
-| `{{BUSINESS}}` | Client CLAUDE.md identity line (`_active/jen-listings/CLAUDE.md`, `_active/andrea-dj/CLAUDE.md`, or equivalent) |
+| `{{BUSINESS}}` | Client CLAUDE.md identity line (`_active/clients/jen-listings/CLAUDE.md`, `_active/clients/andrea-dj/CLAUDE.md`, or equivalent) |
 | `{{PROBLEM}}` | Farrice's stated pain point, or a `competitive-intel` finding if the gap isn't self-evident |
-| `{{AUDIENCE}}` | Deep ICP profile (`_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` or client-specific ICP doc) |
+| `{{AUDIENCE}}` | Deep ICP profile (`_active/linkedin/research/deep-icp-profile-invisible-expert.md` or client-specific ICP doc) |
 | `{{CTA}}` | Decided at `/wargame-brief` time — one CTA only, never inherited from a vague ask |
 | `{{LIST THEM}}` (sections) | Site IA, frozen before wargaming per Heuristic 2 |
 | `{{URL OR DESCRIPTION}}` (reference) | Actual URL/screenshot Farrice supplies, or a `brand-system-builder`/`mood-board` output |
@@ -71,7 +71,7 @@ Evidence rule carried into every wargame on this domain, verbatim: "Anything you
 
 | Placeholder | Maps to |
 |---|---|
-| `{{PROGRAM}}` / `{{PRICE}}` | Current offer stack, or the PMF offer brief (`_active/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md`) — surface, don't regenerate |
+| `{{PROGRAM}}` / `{{PRICE}}` | Current offer stack, or the PMF offer brief (`_active/offer-strategy/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md`) — surface, don't regenerate |
 | `{{ICP}}` | Deep ICP profile |
 | `{{X}}%` close rate / `{{LIST THEM HONESTLY}}` objections | Farrice's actual numbers and honest objection list — never smoothed into "strong close rate" |
 | `{{PASTE}}` current pitch | The live sales page/pitch text, read directly |

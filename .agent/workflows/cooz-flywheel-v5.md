@@ -43,12 +43,12 @@ This workflow points exclusively at V5 voice docs. Do not load V3-era files even
 
 Read these files in order. **DO NOT load V3-era voice docs.** If you find a `_DEPRECATED/` path or `15-final-package/` path, that's V3 — skip it.
 
-1. **V5-NOTEBOOK-KNOWLEDGE** — `_active/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md` (the canonical knowledge document — voice rules, 5-voice rotation, 3-lane spec, vocabulary banks, banned moves, 6-point quality gate)
-2. **V5-COOZ-TRUE-VOICE** (internal) — `_active/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md` (deeper voice DNA + jargon-to-real-voice translation guide)
-3. **V5-TESTIMONIAL-LIBRARY** (internal) — `_active/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md` (the proof spine — 18 verified testimonials, deployable phrases, anchor verbatims)
-4. **V5-WINNING-MECHANISMS** (internal) — `_active/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md` (6 durable structural mechanisms + Cooz's unique angle on each — for hook + structure variation)
-5. **V5-COOZ-HANDOFF** — `_active/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md` (brand frame in one line, pricing pathways, hard rules)
-6. **V5-CROSS-PLATFORM-ENGINE** — `_active/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md` (platform role hierarchy + repurposing rules per platform)
+1. **V5-NOTEBOOK-KNOWLEDGE** — `_active/clients/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md` (the canonical knowledge document — voice rules, 5-voice rotation, 3-lane spec, vocabulary banks, banned moves, 6-point quality gate)
+2. **V5-COOZ-TRUE-VOICE** (internal) — `_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md` (deeper voice DNA + jargon-to-real-voice translation guide)
+3. **V5-TESTIMONIAL-LIBRARY** (internal) — `_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md` (the proof spine — 18 verified testimonials, deployable phrases, anchor verbatims)
+4. **V5-WINNING-MECHANISMS** (internal) — `_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md` (6 durable structural mechanisms + Cooz's unique angle on each — for hook + structure variation)
+5. **V5-COOZ-HANDOFF** — `_active/clients/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md` (brand frame in one line, pricing pathways, hard rules)
+6. **V5-CROSS-PLATFORM-ENGINE** — `_active/clients/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md` (platform role hierarchy + repurposing rules per platform)
 
 ---
 
@@ -398,24 +398,24 @@ After publishing, log per asset:
 
 ## Related V5 Assets
 
-- V5-COOZ-HANDOFF: `_active/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md`
-- V5-NOTEBOOK-KNOWLEDGE: `_active/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md`
-- V5-LINKEDIN-CONTENT-SYSTEM: `_active/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-CONTENT-SYSTEM.md`
-- V5-LINKEDIN-PROFILE: `_active/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-PROFILE.md`
-- V5-CROSS-PLATFORM-ENGINE: `_active/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md`
-- V5-VISUAL-BRAND-BRIEF: `_active/coach-cooz/16-may-2026-pivot/V5-VISUAL-BRAND-BRIEF.md`
-- V5-TESTIMONIAL-LIBRARY (internal): `_active/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md`
-- V5-COOZ-TRUE-VOICE (internal): `_active/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md`
-- V5-WINNING-MECHANISMS (internal): `_active/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md`
+- V5-COOZ-HANDOFF: `_active/clients/coach-cooz/16-may-2026-pivot/V5-COOZ-HANDOFF.md`
+- V5-NOTEBOOK-KNOWLEDGE: `_active/clients/coach-cooz/16-may-2026-pivot/V5-NOTEBOOK-KNOWLEDGE.md`
+- V5-LINKEDIN-CONTENT-SYSTEM: `_active/clients/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-CONTENT-SYSTEM.md`
+- V5-LINKEDIN-PROFILE: `_active/clients/coach-cooz/16-may-2026-pivot/V5-LINKEDIN-PROFILE.md`
+- V5-CROSS-PLATFORM-ENGINE: `_active/clients/coach-cooz/16-may-2026-pivot/V5-CROSS-PLATFORM-ENGINE.md`
+- V5-VISUAL-BRAND-BRIEF: `_active/clients/coach-cooz/16-may-2026-pivot/V5-VISUAL-BRAND-BRIEF.md`
+- V5-TESTIMONIAL-LIBRARY (internal): `_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-TESTIMONIAL-LIBRARY.md`
+- V5-COOZ-TRUE-VOICE (internal): `_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-COOZ-TRUE-VOICE.md`
+- V5-WINNING-MECHANISMS (internal): `_active/clients/coach-cooz/16-may-2026-pivot/_internal/V5-WINNING-MECHANISMS.md`
 
 ## DO NOT load these (V3-era — superseded by V5)
 
-- ~~`_active/coach-cooz/15-final-package/03-cooz-voice-profile.md`~~
-- ~~`_active/coach-cooz/15-final-package/02-man-in-the-valley-playbook.md`~~
-- ~~`_active/coach-cooz/14-ignition-plan/THE-IGNITION-PLAN.md`~~
-- ~~`_active/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md`~~
-- ~~`_active/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md`~~
-- ~~`_active/coach-cooz/03-research/WS1.6-voice-validation-and-data-recovery.md`~~
-- ~~`_active/coach-cooz/_DEPRECATED/...`~~ (anything in this path)
+- ~~`_active/clients/coach-cooz/15-final-package/03-cooz-voice-profile.md`~~
+- ~~`_active/clients/coach-cooz/15-final-package/02-man-in-the-valley-playbook.md`~~
+- ~~`_active/clients/coach-cooz/14-ignition-plan/THE-IGNITION-PLAN.md`~~
+- ~~`_active/clients/coach-cooz/05-offers-and-frameworks/VOICE-GUIDE.md`~~
+- ~~`_active/clients/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md`~~
+- ~~`_active/clients/coach-cooz/03-research/WS1.6-voice-validation-and-data-recovery.md`~~
+- ~~`_active/clients/coach-cooz/_DEPRECATED/...`~~ (anything in this path)
 
 V5 is the source of truth. V3-era docs contain banned vocabulary and outdated archetypes.

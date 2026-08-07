@@ -13,7 +13,7 @@ kept as narrative texture only, never as a verbatim claim).
 | AI-workflow tutorial transcript | `extractions/dan-koe/transcript.txt` | 26,836 bytes | VERIFIED — read in full |
 | AI Leverage extraction report (derived from the transcript above) | `extractions/dan-koe/extraction-report-ai-leverage.md` | 14,529 bytes | VERIFIED — read in full |
 | claude-export tarball (checked per envelope Rule 2, before claiming any source is absent) | `_archive/claude-export-2026-07-01.tar.gz` | 332,779,255 bytes | CHECKED, not extracted — filename search for "koe" inside the archive listing returned zero hits (it is a bulk conversation export, not per-topic files); extracting and re-reading 332MB of raw conversation was out of scope for this repair. Quotes attributed to it below are labeled LIKELY, not VERIFIED. |
-| `_active/codex-harvest-2026-06-11/skills/dan-koe-multipassionate-mastery/SKILL.md` | same | — | VERIFIED present, reviewed — no new quotes beyond what's already in this skill's `SKILL.md.old` |
+| `_active/harness/codex-harvest-2026-06-11/skills/dan-koe-multipassionate-mastery/SKILL.md` | same | — | VERIFIED present, reviewed — no new quotes beyond what's already in this skill's `SKILL.md.old` |
 
 ## Claim-by-claim
 

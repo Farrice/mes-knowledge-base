@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:41:25.032623+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/positioning-cowork-2026-07-25",
+  "dst": "_active/offer-strategy/positioning-cowork-2026-07-25",
+  "stub_left": false,
+  "files_moved": 12,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/positioning-cowork-2026-07-25/START-HERE.html": 56,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/positioning-cowork-2026-07-25/wargames/01-path-a-fork.md": 1
+  },
+  "total_rewrites": 58,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

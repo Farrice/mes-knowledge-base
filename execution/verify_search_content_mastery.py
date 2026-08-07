@@ -37,10 +37,10 @@ CORPUS_IDS = (
     "LiLD7_tjn4o",
 )
 PROTECTED_HASHES = {
-    "_active/health-performance-ip-library/AUTOMATION_PROMPT.md": "d02422402dd4d9435510d06d44b3c65385e1cab295e1c6c1d1e30b11011abe1b",
-    "_active/linkedin-launch/04-deliverables/context-os/02-OFFER-CANON.md": "e485f8f386e085710dd5985de0dfe12612be715ed7a9298ebfd7da9975c92b05",
-    "_active/health-performance-ip-library/ledger/insights.jsonl": "2400d50880c5164065ea624315dc8cb8606fb98ab216693969577db09ca43fd5",
-    "_active/health-performance-ip-library/ledger/promises-not-kept.jsonl": "6dcc0663f26bf119dddac05d2ba5a2b5df1ad95dc6afb88662f865ada8df7a70",
+    "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md": "d02422402dd4d9435510d06d44b3c65385e1cab295e1c6c1d1e30b11011abe1b",
+    "_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md": "e485f8f386e085710dd5985de0dfe12612be715ed7a9298ebfd7da9975c92b05",
+    "_active/knowledge/health-performance-ip-library/ledger/insights.jsonl": "2400d50880c5164065ea624315dc8cb8606fb98ab216693969577db09ca43fd5",
+    "_active/knowledge/health-performance-ip-library/ledger/promises-not-kept.jsonl": "6dcc0663f26bf119dddac05d2ba5a2b5df1ad95dc6afb88662f865ada8df7a70",
 }
 ROUTING_QUERY = "build a source-grounded SEO AEO GEO content system that can audit plan create score and measure"
 ROUTING_FIXTURE = FIXTURES / "routing" / "natural-language.json"

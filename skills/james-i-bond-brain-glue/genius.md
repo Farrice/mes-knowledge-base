@@ -1,6 +1,6 @@
 # James I. Bond — Brain Glue Genius Context
 
-> Grounded in the 204-page Brain Glue book extraction (`references/genius-patterns.md`, `references/hidden-knowledge.md`; extraction dated 2026-06-11 — see `_active/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/`). The extraction deliberately captured mechanics, decision heuristics, and dry-run exemplars rather than long verbatim book passages (`references/hidden-knowledge.md`, Practitioner Constraints: "Avoid long verbatim quotes from source material. Use the extracted mechanics, not the book's prose."; `agents/james-i-bond/memory/context.md`: "Do not store raw copyrighted source text."). Full sourcing and confidence labels: `references/source-ledger.md`.
+> Grounded in the 204-page Brain Glue book extraction (`references/genius-patterns.md`, `references/hidden-knowledge.md`; extraction dated 2026-06-11 — see `_active/harness/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/`). The extraction deliberately captured mechanics, decision heuristics, and dry-run exemplars rather than long verbatim book passages (`references/hidden-knowledge.md`, Practitioner Constraints: "Avoid long verbatim quotes from source material. Use the extracted mechanics, not the book's prose."; `agents/james-i-bond/memory/context.md`: "Do not store raw copyrighted source text."). Full sourcing and confidence labels: `references/source-ledger.md`.
 
 ## How to Use This Skill (Model Calibration)
 
@@ -73,15 +73,15 @@ These are genuine verbatim passages already on disk in this repo (dry-run output
 
 > Stop rebuilding your genius from scratch.
 
-— Sample LinkedIn post closing line, `_active/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/04-verification.md`, Sample Dry Runs → LinkedIn Post Idea (the next line, on its own paragraph in the source, reads "Build the brain once. Deploy it everywhere.").
+— Sample LinkedIn post closing line, `_active/harness/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/04-verification.md`, Sample Dry Runs → LinkedIn Post Idea (the next line, on its own paragraph in the source, reads "Build the brain once. Deploy it everywhere.").
 
 > Bottle the brain. Deploy the business.
 
-— Sample campaign spine, `_active/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/04-verification.md`, Sample Dry Runs → Campaign Request.
+— Sample campaign spine, `_active/harness/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/04-verification.md`, Sample Dry Runs → Campaign Request.
 
 > If the buyer saw this once, could they explain it, feel why it matters, and remember the phrase later?
 
-— The extraction's own quality bar, `_active/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/03-extraction-summary.md`, Quality Standard.
+— The extraction's own quality bar, `_active/harness/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/03-extraction-summary.md`, Quality Standard.
 
 ## Quality Rubric
 
@@ -107,7 +107,7 @@ These are genuine verbatim passages already on disk in this repo (dry-run output
 
 ## Voice DNA
 
-Brain Glue execution should sound direct, commercial, vivid, and practical. It should not sound academic. The output should move quickly from diagnosis to usable language. Favor short candidate lines, clear rationales, and immediate deployment notes — the register of the extraction's own dry-run sample, "Stop rebuilding your genius from scratch," not a lecture about why rhyme works (`_active/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/04-verification.md`, dated 2026-06-11).
+Brain Glue execution should sound direct, commercial, vivid, and practical. It should not sound academic. The output should move quickly from diagnosis to usable language. Favor short candidate lines, clear rationales, and immediate deployment notes — the register of the extraction's own dry-run sample, "Stop rebuilding your genius from scratch," not a lecture about why rhyme works (`_active/harness/codex-harvest-2026-06-11/brain/brain-glue-extract-forge/04-verification.md`, dated 2026-06-11).
 
 When producing assets, use punchy labels:
 - **Sticky Core**

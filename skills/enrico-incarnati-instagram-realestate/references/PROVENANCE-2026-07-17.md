@@ -17,9 +17,9 @@ Anchor → source file + location. All quotes spot-checked verbatim via `grep -o
 | Nava Realy / Your New Texas Home | same file, Mistake #3 section | Read in full; both names + their specific claimed coverage present |
 | Ryan Sirhan, Freddy, Adrienne, Tom | same file, scattered mentions | Read in full; present as transcribed (Ryan Sirhan flagged as likely ASR misspelling of "Ryan Serhant") |
 | SKILL.md "Core Philosophy" quote (line 12) | Checked against same file — **NOT FOUND verbatim** | Full-text read; this line does not appear in the source transcript. Flagged UNCONFIRMED in `references/source-ledger.md`, left uncorrected (out of this repair's scope — SKILL.md content accuracy, not a failing heartbeat check) rather than silently passed over. |
-| @_jiing audit data | `_active/codex-harvest-2026-06-11/brain/121fe594-3b12-4ae1-9339-c14ac503ee83/enrico_audit_jiing.md` | Read in full; a prior system deliverable, not an Enrico-teaching source — used only to confirm workflow output shape |
+| @_jiing audit data | `_active/harness/codex-harvest-2026-06-11/brain/121fe594-3b12-4ae1-9339-c14ac503ee83/enrico_audit_jiing.md` | Read in full; a prior system deliverable, not an Enrico-teaching source — used only to confirm workflow output shape |
 | Absence check: claude-export tarball | `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) | `tar -tzf ... \| grep -i enrico` — zero matches, confirmed by command output not assumption |
-| Absence check: codex-harvest broader directory | `_active/codex-harvest-2026-06-11/` | `find -iname "*enrico*"` — only the one audit file found |
+| Absence check: codex-harvest broader directory | `_active/harness/codex-harvest-2026-06-11/` | `find -iname "*enrico*"` — only the one audit file found |
 | ben-watkins-storytelling genius.md calibration model | `skills/ben-watkins-storytelling/genius.md` lines 7-16 | Read directly per envelope instruction; new Enrico section modeled on structure, written fresh for Enrico's own texture (direct-to-camera coach voice, specificity-over-category), never copied |
 
 No quote in any changed file was invented — every blockquote in `genius.md`'s Anti-Patterns section and every claim in `references/source-ledger.md` traces to one of the two files above or is explicitly labeled UNCONFIRMED/LIKELY where it does not.

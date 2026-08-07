@@ -26,7 +26,7 @@ are required for every chapter; neither substitutes for the other.
 ## Input Required
 
 1. **[ARC PLAN]** — the completed arc plan (from the Narrative Arc Plan prompt, or an existing
-   file at `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/arc-plan.md`).
+   file at `_active/linkedin/04-deliverables/content-os/arcs/[arc-name]/arc-plan.md`).
 2. **[CHAPTER NUMBERS]** — which chapters to produce in this batch (e.g. "chapters 1-3").
 3. **[PREVIOUS CHAPTERS]** (if applicable) — already-written chapters in this arc, for continuity.
 4. **[PERSONAL CONTEXT]** (optional) — specific stories, memories, or details Fresh wants woven in.
@@ -168,7 +168,7 @@ grounded scene; closes on 1-2 open loops; contains at minimum one moment of genu
 - Next chapter setup: [what ch[N+1] needs to address]
 ```
 
-Save to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/ch[NN]-[slug].md`
+Save to: `_active/linkedin/04-deliverables/content-os/arcs/[arc-name]/ch[NN]-[slug].md`
 
 ## Quality Gate
 

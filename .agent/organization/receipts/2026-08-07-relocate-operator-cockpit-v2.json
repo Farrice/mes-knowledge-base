@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:37:59.847137+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/operator-cockpit-v2",
+  "dst": "_active/harness/operator-cockpit-v2",
+  "stub_left": false,
+  "files_moved": 4,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 2
+  },
+  "total_rewrites": 2,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

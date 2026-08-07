@@ -12,7 +12,7 @@ is the compact anchor index.
 | danbolton.co, "you. me. 8 weeks. magic." $8,000 offer | Real live website | WebFetch on danbolton.co returned this offer text directly |
 | "Scale School with Dan Bolton" podcast, podcasts.apple.com/podcast/scale-school-with-dan-bolton/id1671250753 | Real, ongoing podcast series | Existence confirmed via WebSearch; episodes not individually opened |
 | `extractions/dan-bolton*` absence claim | No such file/dir | `ls extractions/ | grep -i bolton` (0 results, 193 total entries checked) + `grep -ril bolton extractions/` (0 results) |
-| `_active/codex-harvest-2026-06-11/extractions/` absence claim | No such file | `ls _active/codex-harvest-2026-06-11/extractions/ | grep -i bolton` (0 results) |
+| `_active/harness/codex-harvest-2026-06-11/extractions/` absence claim | No such file | `ls _active/harness/codex-harvest-2026-06-11/extractions/ | grep -i bolton` (0 results) |
 | `_archive/claude-export-2026-07-01.tar.gz` absence claim | No filename match inside archive | `wc -c` → 332,779,255 bytes (real, non-empty); `tar tzf ... | grep -i bolton` → 0 results |
 | Pre-existing genius.md claims (Three I Framework name, client Jason $103K, 700+ GPT chats, "bored out of my brains," Coach-the-Gut quotes, mini-VSL 10,000-views/4-hour-shoot figures) | Unresolved — no primary source located | Multiple WebSearch queries (Three I Framework, mini-VSL, GPT infrastructure, co-creation) returned no matches to Bolton specifically; carried forward as UNCONFIRMED per the envelope's Rule 1 (no quote gets a fabricated anchor) |
 

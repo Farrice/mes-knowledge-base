@@ -11,7 +11,7 @@
 ## Failure 1 — Visual aesthetic (rated 0/10)
 
 ### What was produced
-12 launch poster prototypes at `_active/andrea-dj/launch/03-visual-variants/variant-{a,b,c}-hero-shots/` via fantastic-posters + `editorial-fashion` style, palette override per variant. Cost: $1.69 (medium quality, 12 × ~$0.14).
+12 launch poster prototypes at `_active/clients/andrea-dj/launch/03-visual-variants/variant-{a,b,c}-hero-shots/` via fantastic-posters + `editorial-fashion` style, palette override per variant. Cost: $1.69 (medium quality, 12 × ~$0.14).
 
 ### Direct user critique
 > "Visually they look like a group fitness classroom meeting, not a room full of life and energy, representing the resonance of meeting someone and meeting people you can connect with. This isn't hip, modern, or trending at all. It looks like an advertisement for a group fitness class for elderly people."

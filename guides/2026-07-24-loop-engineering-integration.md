@@ -7,7 +7,7 @@ status: enriched
 
 # Loop Engineering Integration — What We Built 2026-07-24 and How to Use It
 
-> One session took "should we adopt loop/compound engineering?" from wayfinder map → receipt-carrying research → 12-loop evidence audit → all-12 GO → every candidate shipped and live-fire verified, then added the act-then-veto memory lane and hard-coded the Opus 5 executor registry. Decision record: `_active/loop-engineering-integration/04-deliverables/LOOP-ENGINEERING-INTEGRATION-BRIEF.md` · method card: `docs/solutions/2026-07-24-loops-die-at-the-last-mile.md` · full paper trail: `_active/loop-engineering-integration/wayfinder/MAP.md`.
+> One session took "should we adopt loop/compound engineering?" from wayfinder map → receipt-carrying research → 12-loop evidence audit → all-12 GO → every candidate shipped and live-fire verified, then added the act-then-veto memory lane and hard-coded the Opus 5 executor registry. Decision record: `_active/harness/loop-engineering-integration/04-deliverables/LOOP-ENGINEERING-INTEGRATION-BRIEF.md` · method card: `docs/solutions/2026-07-24-loops-die-at-the-last-mile.md` · full paper trail: `_active/harness/loop-engineering-integration/wayfinder/MAP.md`.
 
 ## ⚡ If you only read 10 lines
 
@@ -54,7 +54,7 @@ status: enriched
 **What:** rubric load-bearing → R2 precedent gate live in `chain_runner.py`; finalize demands named anchors for ≥8 scores. **Worked example:** this session's own finalize was rejected once for unnamed anchors — the gate works on its author. **Honest edge:** EVAL-011 placeholder still unfilled (84/85).
 
 ### Deterministic closers (the 10 repairs)
-Sleep-proof plists · trial verdict recorded (extended to 08-07) · session-ledger report in health-metrics · offer-gate binding · injection hit-rate log · wargame→solutions banking · steering escalation (≥2 misses) · context-size ratchet (baselines: CLAUDE.md 18,943B / MEMORY.md 20,111B) · /cos memory surface · fleet triage. Per-candidate detail: gap map in `_active/loop-engineering-integration/research/`.
+Sleep-proof plists · trial verdict recorded (extended to 08-07) · session-ledger report in health-metrics · offer-gate binding · injection hit-rate log · wargame→solutions banking · steering escalation (≥2 misses) · context-size ratchet (baselines: CLAUDE.md 18,943B / MEMORY.md 20,111B) · /cos memory surface · fleet triage. Per-candidate detail: gap map in `_active/harness/loop-engineering-integration/research/`.
 
 ### Metric-ratchet pilot (ARMED, parked)
 **What:** overnight keep-if-better/revert-if-worse run, full terms banked in `.agent/mission-queue/parked/card-metric-ratchet-pilot-ARMED.md`. **Trigger:** ≥5 genuinely failing fleet contracts, or a Farrice-named deterministic metric. **When NOT to:** while the fleet is green — ratcheting a green metric is loop-sprawl (standing refusal #3).

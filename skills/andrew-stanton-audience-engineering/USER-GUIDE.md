@@ -10,7 +10,7 @@ Stanton is your **story-uncovering + audience-engagement** layer. It tells you w
 
 **1. Do nothing — it already fires.** Stanton is embedded inside six engines: `parallax` (architecture pass + clamp-audit), `linkedin-daily` (premise litmus + line-to-line clamp), `copy-engine` (Phase 6 clamp), `autopilot` (G3 internal clamp), `writers-room` (10th seat: Premise & Clamp Architect), and the depth layer (`/deepen` + `/depth-stack`, co-owner of the architecture deficit). Every edition, post, page, and deepening pass gets the premise check and the engagement audit without you invoking anything.
 
-**2. `/stanton-produce` — the end-to-end front door.** Objective + raw material in, finished piece out: story gate → Stanton architecture (premise/spine/change/arc) → routed to the engine that owns the format → clamp-audit QA → Stanton-Grade Gate → voice/prose/fact gates. It composes your engines; it never rewrites them. Proven run: the Receipt Arc launch sequence (`_active/linkedin-launch/content-os/launch-sequence-stanton.md`).
+**2. `/stanton-produce` — the end-to-end front door.** Objective + raw material in, finished piece out: story gate → Stanton architecture (premise/spine/change/arc) → routed to the engine that owns the format → clamp-audit QA → Stanton-Grade Gate → voice/prose/fact gates. It composes your engines; it never rewrites them. Proven run: the Receipt Arc launch sequence (`_active/linkedin/04-deliverables/content-os/launch-sequence-stanton.md`).
 
 **3. À la carte — the 20 workflows.** Pick by situation:
 

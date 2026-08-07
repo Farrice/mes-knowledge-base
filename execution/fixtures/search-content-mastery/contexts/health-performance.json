@@ -29,7 +29,7 @@
   "competitor_patterns": {
     "schema_version": "search-context/v1",
     "patterns": ["proof is scattered across pages, calls, and source links"],
-    "evidence_refs": ["_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-adversarial-review.md"]
+    "evidence_refs": ["_active/knowledge/health-performance-ip-library/review-packets/source-to-search-trust-layer-adversarial-review.md"]
   },
   "search_inputs": {
     "schema_version": "search-context/v1",

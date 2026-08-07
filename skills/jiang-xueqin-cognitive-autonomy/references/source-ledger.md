@@ -12,7 +12,7 @@ A fourth match (`f12761ef-f991-4feb-9fb1-550a972b87e4.md`, 752,424 bytes) contai
 
 ## Absence Check (an absence claim is itself a provenance claim — verified, not assumed)
 - `extractions/` has **zero** files matching `jiang` or `xueqin` (`ls extractions/ | grep -i jiang` → empty).
-- `_active/codex-harvest-2026-06-11/` — zero filename or content matches (`grep -rli "xueqin\|jiang"` → empty).
+- `_active/harness/codex-harvest-2026-06-11/` — zero filename or content matches (`grep -rli "xueqin\|jiang"` → empty).
 - `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) — `tar tzf | grep -i` on filenames returned zero (source text is embedded inside conversation markdown files, not named for the expert). A first-pass content check via `tar xzOf | grep -a -l` also returned a **false negative** (zero) because `grep -l` cannot attribute matches across a single concatenated stdin stream when `tar` decompresses all members into one pipe. Corrected by iterating the tarball member-by-member in Python and decoding each file individually — that pass found the 4 files listed above (161 total content hits for "jiang|xueqin", case-insensitive). Recorded here so the "false unrecoverable" failure mode (flagged in the envelope as caught by adversarial verification this session) isn't repeated.
 - `agents/jiang-xueqin/AGENT.md` (4,675 bytes) and `agents/jiang-xueqin/memory/context.md` (524 bytes) exist — read in full; persona/routing scaffolding only, no new factual claims beyond what's in genius.md already.
 

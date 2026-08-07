@@ -19,7 +19,7 @@ pin: true
 - `extractions/oren-slop-era-creative-strategy/mastery-extraction.md` — MES virtuoso dossier: 14 patterns, 7 hidden-knowledge points, 3 exemplars + anti-exemplar
 - `skills/oren-slop-era-creative-strategy/references/source-ledger.md` — VERIFIED/LIKELY/UNCONFIRMED per claim; several caption garbles (his "Hitmakers" attribution, "Dan Farmer"→likely Dan Frommer, the sociologist list) must be re-verified before anything client-facing
 - `extractions/oren-slop-era-creative-strategy/blind-pass-sample.md` — the Grüns standout map, the artifact awaiting A-tier judgment
-- `_active/linkedin-launch/CAMPAIGN.md` — if taking the lead-magnet path
+- `_active/linkedin/CAMPAIGN.md` — if taking the lead-magnet path
 
 ## Current State
 - **Objective:** turn Oren John's two freshest 2026 uploads into deployable capability, as an expansion of the existing Oren corpus.

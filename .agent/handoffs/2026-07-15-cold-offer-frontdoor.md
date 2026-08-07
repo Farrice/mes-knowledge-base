@@ -14,9 +14,9 @@ pin: true
 - **Not in scope:** rebuilding anything shipped today (cold-offer skill, expert front doors, forge wiring — all live, extend never rebuild); re-pivoting the LOCKED anti-guru frame.
 
 ## Load First
-- `_active/dwa-threads-engine-2026-07-05/04-deliverables/24-ship-sprint-presale.md` — the fixed page Farrice must judge (credential section, day-0-at-checkout, insurance frame; public copy passes voice law at 1 em-dash)
-- `_active/dwa-threads-engine-2026-07-05/04-deliverables/26-jh-offer-audit-ship-sprint.md` — the audit that ordered the fixes (composite 7.75; all 3 conditions now MET)
-- `_active/dwa-threads-engine-2026-07-05/wayfinder/tickets/0006-presale-go-no-go.md` + `0005-lock-name-and-price.md` — decision state
+- `_active/clients/dwa-threads-engine-2026-07-05/04-deliverables/24-ship-sprint-presale.md` — the fixed page Farrice must judge (credential section, day-0-at-checkout, insurance frame; public copy passes voice law at 1 em-dash)
+- `_active/clients/dwa-threads-engine-2026-07-05/04-deliverables/26-jh-offer-audit-ship-sprint.md` — the audit that ordered the fixes (composite 7.75; all 3 conditions now MET)
+- `_active/clients/dwa-threads-engine-2026-07-05/wayfinder/tickets/0006-presale-go-no-go.md` + `0005-lock-name-and-price.md` — decision state
 - `skills/jeremy-haynes-cold-offer/genius.md` — the cold-offer spine if any offer work continues (claims quarantine applies)
 
 ## Current State
@@ -37,7 +37,7 @@ pin: true
 
 ## Exact Next Prompt
 ```text
-Read _active/dwa-threads-engine-2026-07-05/04-deliverables/24-ship-sprint-presale.md end to end as Farrice. Give the felt verdict on the three new sections (credential, day-0-at-checkout, insurance pricing). If PASS: spec the Day-0 stall self-check form (4 stall types → pod-matching output, ≤5 min) so the gate can open, and run the TESS/connotation check to lock "The 14-Day Ship Sprint" + $47 per ticket 0005.
+Read _active/clients/dwa-threads-engine-2026-07-05/04-deliverables/24-ship-sprint-presale.md end to end as Farrice. Give the felt verdict on the three new sections (credential, day-0-at-checkout, insurance pricing). If PASS: spec the Day-0 stall self-check form (4 stall types → pod-matching output, ≤5 min) so the gate can open, and run the TESS/connotation check to lock "The 14-Day Ship Sprint" + $47 per ticket 0005.
 ```
 
 ## Acceptance Criteria

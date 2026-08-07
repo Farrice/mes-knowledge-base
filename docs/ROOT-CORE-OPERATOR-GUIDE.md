@@ -55,7 +55,7 @@ dispatch agents for every AFK ticket on the DWA frontier
 
 ### What a map looks like (live example)
 
-`_active/alignment-architect-2026-07-07/wayfinder/MAP.md` — destination: *the 30-day test reaches an honest verdict on real execution*. Five tickets:
+`_active/offer-strategy/alignment-architect-2026-07-07/wayfinder/MAP.md` — destination: *the 30-day test reaches an honest verdict on real execution*. Five tickets:
 
 | # | Ticket | Type | Blocked by |
 |---|---|---|---|

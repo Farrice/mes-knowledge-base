@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:32:51.850632+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/trendscale-brief-revision",
+  "dst": "_active/_archive/2026-08-07-sweep/trendscale-brief-revision",
+  "stub_left": true,
+  "files_moved": 86,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/trendscale-brief-revision/02-research/TrendScale_v10_Quality_Receipt.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/trendscale-brief-revision/02-research/generate_v10_clean_rescue_briefs.py": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/_archive/2026-08-07-sweep/trendscale-brief-revision/START-HERE.html": 280
+  },
+  "total_rewrites": 284,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

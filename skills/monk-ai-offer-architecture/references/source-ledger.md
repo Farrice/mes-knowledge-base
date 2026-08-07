@@ -10,7 +10,7 @@ per envelope discipline before any UNCONFIRMED label was applied:
   mirrors) → only this skill's own files, its `agents/monk-ai/` persona
   shell, generated indexes (`SKILL_INDEX.md`, `DOMAIN_REGISTRY.md`,
   `.claude/commands/monk-ai*.md`), swarm-output logs that *invoke* this
-  skill, and one downstream reference in `_active/parallax-icp-offer/` that
+  skill, and one downstream reference in `_active/_archive/2026-08-07-sweep/parallax-icp-offer/` that
   cites the skill's framework, not an external Monk.Ai source.
 - `find . -iname "*.tar*"` (repo-wide) checked for a possible archived
   extraction bundle — the only tarballs present are unrelated

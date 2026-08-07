@@ -11,7 +11,7 @@ Turn the Taste Profile build into a sellable, repeatable engagement. The market 
 ## Pre-Flight Gate
 
 - Load `skills/hilary-gridley/genius.md`, `references/taste-profile-spec.md`, `references/loop-frameworks.md`.
-- Input: target segment (default: Farrice's beachhead — wellness/fitness/supplement + performance brands), price anchor context, existing offer shelf (read `_active/linkedin-launch/02-offer/` + PMF shelf docs before positioning — extend, never contradict).
+- Input: target segment (default: Farrice's beachhead — wellness/fitness/supplement + performance brands), price anchor context, existing offer shelf (read `_active/linkedin/02-offer/` + PMF shelf docs before positioning — extend, never contradict).
 
 ## Skill Acquisition
 

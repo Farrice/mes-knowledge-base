@@ -33,7 +33,7 @@ confirming these are real, non-empty, off-topic files, not silently-assumed-abse
 | `extractions/kallaway-content-system/integrity-patch.md` | 5,108 bytes | Trend-hook-engine build-shape notes, not source transcript |
 
 The real primary source for Patterns 1-6 was located at
-`_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/` (a prior Codex
+`_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/` (a prior Codex
 harvest import, not indexed under `extractions/kallaway*` — this same mismatch was
 independently caught and documented by the sibling `kallaway-social-commerce` repair,
 which draws from the identical source video):
@@ -106,10 +106,10 @@ this repair pass could not locate the source file to verify them.
 | `extractions/kallaway-content-system/extraction-report.md` | 4,963 bytes | Ruled out as source |
 | `extractions/kallaway-content-system/integrity-patch.md` | 5,108 bytes | Ruled out as source |
 | `extractions/kallaway-content-system/B9l9TRhu5Vw.en-orig.vtt` | 398,725 bytes | Ruled out as source (raw VTT, same different video) |
-| `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` | 107,458 bytes | **Primary source — read in full** |
-| `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json` | 3,343 bytes | Title/date/URL verification |
-| `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/video-context-ledger.md` | (spot-checked, opening rows) | Corroborating caption-level evidence |
-| `_active/codex-harvest-2026-06-11/brain/.../kallaway-expansion-vision.md` | 10,158 bytes | Confirms this skill's own genesis document cites the same ImzoNTrgvFg source and video-date |
+| `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` | 107,458 bytes | **Primary source — read in full** |
+| `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json` | 3,343 bytes | Title/date/URL verification |
+| `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/video-context-ledger.md` | (spot-checked, opening rows) | Corroborating caption-level evidence |
+| `_active/harness/codex-harvest-2026-06-11/brain/.../kallaway-expansion-vision.md` | 10,158 bytes | Confirms this skill's own genesis document cites the same ImzoNTrgvFg source and video-date |
 | `skills/kallaway-social-commerce/genius.md` | 20,006 bytes | Sibling skill — same source video, format/anchor-style reference only, not copied verbatim |
 | `skills/kallaway-social-commerce/references/source-ledger.md` | (read in full) | Confirmed independent discovery of the same ImzoNTrgvFg mismatch by a different repair pass — cross-validates this finding |
 | `_active/claude-export/` (INDEX.md, state.json, index.json, routed-decisions.json, harvest/, reports/, triage/) | directory scan + grep | Searched for Pattern 7's "claude.ai export tranche 2" — not found |

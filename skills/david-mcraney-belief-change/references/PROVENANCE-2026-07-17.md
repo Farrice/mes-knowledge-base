@@ -20,7 +20,7 @@ Anchor → source file + location table for every quote/claim added during this 
 
 | Claim | How verified |
 |---|---|
-| No `extractions/` folder or file matches "mcraney" (repo root or `_active/codex-harvest-2026-06-11/extractions/`) | `ls extractions/ \| grep -i mcraney` (empty) + repo-wide `grep -ril "mcraney" . \| grep -v skills/david-mcraney-belief-change/` (only hit: `_active/codex-harvest-2026-06-11/agents/david-mcraney/AGENT.md`, a derivative persona file, read in full, not a raw transcript) |
+| No `extractions/` folder or file matches "mcraney" (repo root or `_active/harness/codex-harvest-2026-06-11/extractions/`) | `ls extractions/ \| grep -i mcraney` (empty) + repo-wide `grep -ril "mcraney" . \| grep -v skills/david-mcraney-belief-change/` (only hit: `_active/harness/codex-harvest-2026-06-11/agents/david-mcraney/AGENT.md`, a derivative persona file, read in full, not a raw transcript) |
 | No McRaney content in `_archive/claude-export-2026-07-01.tar.gz` | `tar -tzf _archive/claude-export-2026-07-01.tar.gz \| grep -i mcraney` against the full 332,779,255-byte archive's file index — zero matches, exit 0 (command succeeded, list was empty, not a failure being misread as absence) |
 
 ## Files read in full before repair (source-grounding pass)
@@ -32,5 +32,5 @@ Anchor → source file + location table for every quote/claim added during this 
 - `skills/david-mcraney-belief-change/references/spencer-greenberg-interview-notes.md`
 - `skills/david-mcraney-belief-change/references/prompts-v2/5_pluralistic_ignorance_breaker.md` (house-style reference for Output Contract/Skeleton/Quality Gate pattern)
 - All 14 files in `skills/david-mcraney-belief-change/workflows/` (full content, to confirm which 4 already passed and to build accurate Output Schema sections for the 10 that didn't)
-- `_active/codex-harvest-2026-06-11/agents/david-mcraney/AGENT.md` (cross-check only, not used as a repair source)
+- `_active/harness/codex-harvest-2026-06-11/agents/david-mcraney/AGENT.md` (cross-check only, not used as a repair source)
 - `execution/skill_auditor.py` (heartbeat_checks function + all six regex definitions, to target fixes precisely rather than guess)

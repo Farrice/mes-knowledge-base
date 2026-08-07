@@ -23,7 +23,7 @@ pin: true
 
 ## Canonical Artifact
 
-- `_active/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md`
+- `_active/clients/jen-listings/04-deliverables/6853-willis-jen-clean-recording-pack.md`
 - Metadata version: `clean-v4-approved-three-reels`
 
 ## Verification

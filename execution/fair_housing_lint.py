@@ -7,7 +7,7 @@ WHY THIS EXISTS
 ---------------
 Fair Housing Act steering language is a compliance risk that no self-score or
 finalize pass mechanically checks for. The client policy is explicit —
-`_active/jen-listings/CLAUDE.md` (Override List): "Still never: ... fair-housing
+`_active/clients/jen-listings/CLAUDE.md` (Override List): "Still never: ... fair-housing
 steering language (safe/family/great-for-kids, schools on camera)." Schools are
 allowed as DATA in captions; spoken on camera they read as targeting.
 
@@ -89,7 +89,7 @@ RULES: List[Dict[str, Any]] = [
      "pattern": r"\bschools?\b",
      "severity": "warn",
      "contexts": {"script"},
-     "why": "Schools belong in caption data, not spoken targeting (policy: _active/jen-listings/CLAUDE.md — schools off camera).",
+     "why": "Schools belong in caption data, not spoken targeting (policy: _active/clients/jen-listings/CLAUDE.md — schools off camera).",
      "fix_hint": "Move school names/ratings to the caption as a labeled data point; cut from the spoken script."},
     {"rule": "persona-label-leak",
      "pattern": r"^\s*for:\s*\S",

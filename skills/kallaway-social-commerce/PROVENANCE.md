@@ -6,8 +6,8 @@ adversarial verifier.
 
 ## Primary Source (located during this repair — not previously cited correctly)
 
-- **File**: `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`
-- **Metadata**: `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json`
+- **File**: `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`
+- **Metadata**: `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json`
 - **Video**: Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube,
   published 2026-04-29, https://www.youtube.com/watch?v=ImzoNTrgvFg, duration 24:14.
 - **Read**: full 1,487-line timestamped transcript read start to finish for this repair.
@@ -49,7 +49,7 @@ boundaries) still reads **"Manis"** for the Meta acquisition, in three places: P
 ("Meta × Manis"), Hidden Knowledge #3 ("The Manis Signal"), and Signature Moves ("$2B
 Manis acquisition"). The primary source names the company **"Manifold,"** not "Manis"
 (transcript.txt @ 00:13:44–00:13:58). This error predates this repair — it also appears
-in `_active/codex-harvest-2026-06-11/brain/e51c78e9-.../artifacts/kallaway-expansion-vision.md`,
+in `_active/harness/codex-harvest-2026-06-11/brain/e51c78e9-.../artifacts/kallaway-expansion-vision.md`,
 the original extraction vision doc, meaning it was introduced at extraction time, not
 during this pass. Recorded in `references/source-ledger.md` claim #12 as LIKELY (concept
 and dollar figure verified, name incorrect). Not corrected in-place per the envelope's

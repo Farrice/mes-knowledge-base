@@ -82,5 +82,5 @@ These rules are SOURCE-OF-TRUTH for Farrice's voice. They override any default A
 ## Cross-References
 
 - Memory anchors: `MEMORY.md` → multiple entries including "Farrice's Content Voice", "Parallax Substack Launch", "Farrice's Deep Suppression Wound", "Notes Trailer Playbook"
-- ICP profile: `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md`
+- ICP profile: `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`
 - Voice calibration: see [feedback_ai-writing-tells.md](../../.claude/projects/-Users-farricecain-Google-Antigravity/memory/feedback_ai-writing-tells.md) + [feedback_ai-structural-tells.md](../../.claude/projects/-Users-farricecain-Google-Antigravity/memory/feedback_ai-structural-tells.md)

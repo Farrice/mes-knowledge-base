@@ -22,10 +22,10 @@ pin: false
 4. **Action:** reverted/unwired. `/diandra-content-engine` re-scoped to **hooks-only**; produced an elevated single-author Post #1 (original tightened + one à la carte hook).
 
 ## Current state of the content (both kept — Farrice's call)
-- `_active/linkedin-launch/04-deliverables/content-os/ai-boom-content-package.md` — ORIGINAL Post #1 (longer, full-context). Canonical.
-- `_active/linkedin-launch/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md` — tightened (~300w) + reported-dialogue hook. Single voice.
-- `_active/linkedin-launch/ai-boom-content-DIANDRA-upgrade.md` — Diandra hook menu (à la carte). Marked SUPERSEDED.
-- `_active/linkedin-launch/ai-boom-Post1-SANDWICH-result.md` — the 4/10 experiment. Marked SUPERSEDED (kept as what-not-to-do record).
+- `_active/linkedin/04-deliverables/content-os/ai-boom-content-package.md` — ORIGINAL Post #1 (longer, full-context). Canonical.
+- `_active/linkedin/04-deliverables/content-os/ai-boom-Post1-ELEVATED.md` — tightened (~300w) + reported-dialogue hook. Single voice.
+- `_active/linkedin/ai-boom-content-DIANDRA-upgrade.md` — Diandra hook menu (à la carte). Marked SUPERSEDED.
+- `_active/linkedin/ai-boom-Post1-SANDWICH-result.md` — the 4/10 experiment. Marked SUPERSEDED (kept as what-not-to-do record).
 
 ## System changes this session
 - `.agent/workflows/diandra-content-engine.md` — re-scoped to hooks/format only; does NOT write body copy; "separate and unwired" scope banner. (Earlier this session it was briefly the "Sandwich"; that has been reverted.)
@@ -49,6 +49,6 @@ pin: false
 - `commit-commands:commit` — to checkpoint this session's files.
 
 ## Housekeeping
-- Uncommitted this session: the `diandra-content-engine.md` re-scope + 3 new `_active/linkedin-launch/` files. Memory files live outside the repo.
+- Uncommitted this session: the `diandra-content-engine.md` re-scope + 3 new `_active/linkedin/` files. Memory files live outside the repo.
 - `git push` is blocked by the `block-dangerous-git.sh` hook — Farrice must push manually.
 - No secrets in any artifact.

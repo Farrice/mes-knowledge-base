@@ -15,7 +15,7 @@ Profile rewrite went nine drafts. The winning architecture is **wide → deep �
 universal truth any founder recognizes → supplement specifics as lived proof of expertise →
 one bridge paragraph widening past supplements → the offer.
 
-**Canonical package (all final copy):** `_active/linkedin-launch/03-launch/2026-07-27-profile-and-content-package.md`
+**Canonical package (all final copy):** `_active/linkedin/03-launch/2026-07-27-profile-and-content-package.md`
 
 Contains: corrected biography (source of truth), 3 headline treatments, About v9,
 "Cards Face Up" LinkedIn post, "Why the Better Product Loses" long-form article (Bayer Mirror),

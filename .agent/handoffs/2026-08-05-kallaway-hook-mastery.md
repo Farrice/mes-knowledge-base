@@ -18,7 +18,7 @@ pin: true
 - `skills/kallaway-hook-mastery/genius.md` — 12 patterns, 7 exemplars, 10-dim rubric, sourced anti-patterns, recognition test
 - `extractions/kallaway-hook-mastery/blind-pass-generated-sample.md` — the generated output awaiting Farrice's felt verdict
 - `extractions/kallaway-hook-mastery/reference-corpus/` — 2 real-corpus pieces (his top-performing hooks; his own video's annotated open)
-- `_active/linkedin-launch/CAMPAIGN.md` — the active campaign whose posts are the first deployment target
+- `_active/linkedin/CAMPAIGN.md` — the active campaign whose posts are the first deployment target
 
 ## Current State
 - **Objective:** turn Kallaway's "The Psychology of Killer Hooks" (YouTube pNIYikmYsyw, published 2026-08-05) into a deployable hook operating system covering any asset type.
@@ -39,7 +39,7 @@ Read extractions/kallaway-hook-mastery/blind-pass-generated-sample.md next to
 extractions/kallaway-hook-mastery/reference-corpus/ and give me your felt verdict —
 if it passes, promote kallaway-hook-mastery to A-tier and record it. Then run
 /hook-anything on the next three LinkedIn Cash Launch posts in
-_active/linkedin-launch/CAMPAIGN.md, in my voice.
+_active/linkedin/CAMPAIGN.md, in my voice.
 ```
 
 ## Acceptance Criteria

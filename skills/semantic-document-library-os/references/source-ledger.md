@@ -4,7 +4,7 @@ Repair pass 2026-07-18 (Wave 3 Lane 4 Batch 15). Ground truth for this skill is
 NOT under `extractions/` at repo root — `ls extractions/ | grep -iE
 "semantic|document|library"` returns nothing there. The real extraction
 survives only inside the historical harvest copy:
-`_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/`.
+`_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/`.
 Confirmed present with `wc -c` before use (not assumed absent, not assumed
 present).
 
@@ -13,8 +13,8 @@ present).
 | Source | Path | Size | Status | Basis |
 |---|---|---:|---|---|
 | Source video | "The Work Primitive: What Every AI Product Leader Gets Wrong" — Nate B. Jones, *AI News & Strategy Daily* channel, YouTube, 2026-05. `https://www.youtube.com/watch?v=b1fxYGPbHeo` | n/a | LIKELY | Title, channel, URL, and date confirmed via `extraction-brief.md` metadata (below). Video itself was not re-fetched/re-watched during this repair pass — the transcript file is the working proxy. |
-| Transcript | `_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/transcript.txt` | 26,202 bytes | VERIFIED | Read in full during this repair. Every quote added to `genius.md` was checked character-for-character against this file. Caveat: the transcript reads as machine-generated (artifacts such as "llinters" for "linters" and "get history" for "git history" appear in it) — treat it as a faithful-but-imperfect capture of Jones's spoken words, not a publisher-certified transcript. |
-| Extraction brief | `_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/extraction-brief.md` | 987 bytes | VERIFIED | Read in full. Confirms source video, URL, channel, and that this extraction deployed as `skills/semantic-document-library-os` plus `semantic_libraries/`. |
+| Transcript | `_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/transcript.txt` | 26,202 bytes | VERIFIED | Read in full during this repair. Every quote added to `genius.md` was checked character-for-character against this file. Caveat: the transcript reads as machine-generated (artifacts such as "llinters" for "linters" and "get history" for "git history" appear in it) — treat it as a faithful-but-imperfect capture of Jones's spoken words, not a publisher-certified transcript. |
+| Extraction brief | `_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/extraction-brief.md` | 987 bytes | VERIFIED | Read in full. Confirms source video, URL, channel, and that this extraction deployed as `skills/semantic-document-library-os` plus `semantic_libraries/`. |
 
 ## Claim-by-Claim (genius.md additions)
 
@@ -49,7 +49,7 @@ present).
 |---|---|---|---|
 | Commercial pricing tiers ($750-$1,500 / $3,000-$7,500 / $10,000-$25,000) | `references/productized-service-blueprint.md` | UNCONFIRMED | Internally authored pricing hypothesis. Not benchmarked against a specific closed client deal — no client-outcome evidence found in `extractions/` or the harvest copy. |
 | "AI Operating Partner" positioning, offer ladder, sales-call narrative | `references/ai-operating-partner-story.md` | LIKELY | Internal productization synthesis consistent with the source thesis, not a Jones quote. Reasonable extrapolation, not verified against a real sale. |
-| Proof-demo file reference `extractions/semantic-document-library-os/proof-demos/codex-session-kickoff-first-proof-demo.md` | `references/productized-service-blueprint.md` | UNCONFIRMED (broken path at repo root) | Confirmed present only under `_active/codex-harvest-2026-06-11/extractions/semantic-document-library-os/proof-demos/codex-session-kickoff-first-proof-demo.md` (16,252 bytes). The path as written in the live skill file does not resolve from repo root. Flagged, not silently fixed — out of scope for this repair (additive-first boundary; the referencing file was already passing and untouched). |
+| Proof-demo file reference `extractions/semantic-document-library-os/proof-demos/codex-session-kickoff-first-proof-demo.md` | `references/productized-service-blueprint.md` | UNCONFIRMED (broken path at repo root) | Confirmed present only under `_active/harness/codex-harvest-2026-06-11/extractions/semantic-document-library-os/proof-demos/codex-session-kickoff-first-proof-demo.md` (16,252 bytes). The path as written in the live skill file does not resolve from repo root. Flagged, not silently fixed — out of scope for this repair (additive-first boundary; the referencing file was already passing and untouched). |
 | `semantic_libraries/antigravity/primitives/high-floor-operator-os.md`, `collaborative-steering-compass.md`, `references/no-lazy-path-gate.md`, `primitive-map.md` (Required Load Order in SKILL.md, Load section in `workflows/steering-compass.md`) | SKILL.md, steering-compass.md | VERIFIED | All four files confirmed present on disk at the cited paths. |
 
 ## Legend

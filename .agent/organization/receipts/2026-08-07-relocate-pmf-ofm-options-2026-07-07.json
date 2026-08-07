@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:42:19.890950+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/pmf-ofm-options-2026-07-07",
+  "dst": "_active/offer-strategy/pmf-ofm-options-2026-07-07",
+  "stub_left": false,
+  "files_moved": 5,
+  "rewrites": {},
+  "total_rewrites": 0,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

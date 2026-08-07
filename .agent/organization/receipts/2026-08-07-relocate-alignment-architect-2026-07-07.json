@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:41:04.266013+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/alignment-architect-2026-07-07",
+  "dst": "_active/offer-strategy/alignment-architect-2026-07-07",
+  "stub_left": false,
+  "files_moved": 23,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_path-decision-2026-07-01.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-alignment-architect-2026-07-07.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-07-alignment-architect-launch.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-11-context-engineering-os.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-27-offer-stack.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/sessions/autopin-alignment-architect-2026-07-07.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/offer-strategy/alignment-architect-2026-07-07/START-HERE.html": 126,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md": 3,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/docs/ROOT-CORE-OPERATOR-GUIDE.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/extractions/jason-fladlien/sources/2026-08-02-million-dollar-offers/validation/fixtures/01-personal-alignment-sprint.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/knowledge/log.md": 1
+  },
+  "total_rewrites": 144,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

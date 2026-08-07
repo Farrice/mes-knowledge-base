@@ -170,7 +170,7 @@ This is the operational counterpart to the overload problem: *"It's the overload
 - **Build backbone**: `simon-intellectual-library-os` (`/library-retrieval-audit` = the technical audit under ve-audit-offer; `/library-brain-ladder` = tier mechanics under ve-department-wedge; `/library-ingest-triage` = the flywheel/ACCEPT-EDIT loop) + `liam-mley-ai-brain-builder` (workflow 01 discovery, workflow 05 substrate install = the actual build under every Adam offer). Adam sells and packages; these build.
 - **Positioning**: `april-dunford-positioning` + `nicolas-cole-niche-positioning` under ve-knowledge-work-positioning.
 - **Voice enforcement**: `oren-anti-slop-classifier` + `execution/prose_classifier.py` under ve-client-ui-layer's voice charter.
-- **First-audit candidates (live clients)**: Jen Santulan (`_active/jen-listings/`), Andrea/Resonance (`_active/andrea-dj/`), Josh & Katie (`_active/josh-katie-fitness/`) — real small businesses whose messy context is an ideal ve-audit-offer target.
+- **First-audit candidates (live clients)**: Jen Santulan (`_active/clients/jen-listings/`), Andrea/Resonance (`_active/clients/andrea-dj/`), Josh & Katie (`_active/clients/josh-katie-fitness/`) — real small businesses whose messy context is an ideal ve-audit-offer target.
 
 ---
 

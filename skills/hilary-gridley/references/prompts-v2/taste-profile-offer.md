@@ -16,7 +16,7 @@ You are packaging the Taste Profile build as a sellable engagement, grounded in 
 ## Input Required
 
 - [SEGMENT] — target (default: wellness/fitness/supplement + performance brands beachhead)
-- [SHELF_CONTEXT] — existing offers to compose with (read `_active/linkedin-launch/02-offer/` + PMF shelf before positioning — extend, never contradict; Sprint Spine: present as option/module, never silent replacement)
+- [SHELF_CONTEXT] — existing offers to compose with (read `_active/linkedin/02-offer/` + PMF shelf before positioning — extend, never contradict; Sprint Spine: present as option/module, never silent replacement)
 - [PRICE_CONTEXT] — anchor band (final number is Farrice's call — flag, don't fix)
 - [VOICE] — send artifacts ship under Farrice's name: load VOICE-CARD.md + dial mode (binding: farrice_voice_alignment)
 

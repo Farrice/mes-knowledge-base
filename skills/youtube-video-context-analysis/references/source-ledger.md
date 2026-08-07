@@ -13,10 +13,10 @@ This skill is a system pipeline (the `/watch` + `execution/fetch-video-context.p
 | 5 | `directives/routing-bindings.md` (video source binding row) | Directive, grepped + read in context | VERIFIED |
 | 6 | `directives/cli-reference.md` (fetch-video-context.py invocation line) | Directive, grepped + read in context | VERIFIED |
 | 7 | `skills/youtube-video-context-analysis/references/prompts-v2/*.md` (all 8 files) | In-skill born-v2 prompts, read in full | VERIFIED |
-| 8 | `_active/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/04-deliverables/EXTRACTION_ENGINE_DRIFT_AUDIT_PLAN.md` | Archive conversation deliverable, read in full | VERIFIED |
-| 9 | `_active/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/04-deliverables/may-june-extraction-integrity-ledger.md` | Archive conversation deliverable, read (header + relevant rows) | VERIFIED |
-| 10 | `_active/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/INDEX.md` | Archive conversation index, read in full | VERIFIED |
-| 11 | `_active/codex-harvest-2026-06-11/skills/youtube-video-context-analysis/SKILL.md` (prior fork copy) | Archive copy, grepped for the row-shaped-ledger line | VERIFIED |
+| 8 | `_active/harness/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/04-deliverables/EXTRACTION_ENGINE_DRIFT_AUDIT_PLAN.md` | Archive conversation deliverable, read in full | VERIFIED |
+| 9 | `_active/harness/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/04-deliverables/may-june-extraction-integrity-ledger.md` | Archive conversation deliverable, read (header + relevant rows) | VERIFIED |
+| 10 | `_active/harness/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/INDEX.md` | Archive conversation index, read in full | VERIFIED |
+| 11 | `_active/harness/codex-harvest-2026-06-11/skills/youtube-video-context-analysis/SKILL.md` (prior fork copy) | Archive copy, grepped for the row-shaped-ledger line | VERIFIED |
 | 12 | `execution/skill_auditor.py` (heartbeat check implementations) | Code, read to confirm exact pass conditions before writing fixes | VERIFIED |
 
 ## Claim-by-Claim
@@ -30,7 +30,7 @@ This skill is a system pipeline (the `/watch` + `execution/fetch-video-context.p
 | 18 entries in `KNOWN_VIDEO_HOSTS` | `execution/fetch-video-context.py`, lines 61-70 | VERIFIED — hand-counted from the tuple literal |
 | "collapsing 'the speaker probably showed X' into an observed visual row" | `references/prompts-v2/full-visual-context-ledger.md`, line 43 | VERIFIED — verbatim |
 | "treating thumbnails, titles, or video descriptions as proof of in-video evidence" | `references/prompts-v2/frame-ledger.md`, line 29 | VERIFIED — verbatim |
-| "YouTube captions were preserved as row-shaped ledger evidence but not reconstructed into a clean transcript surface" | `_active/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/04-deliverables/EXTRACTION_ENGINE_DRIFT_AUDIT_PLAN.md`, line 7 | VERIFIED — verbatim |
+| "YouTube captions were preserved as row-shaped ledger evidence but not reconstructed into a clean transcript surface" | `_active/harness/codex-harvest-2026-06-11/_active/extraction-engine-drift-audit/04-deliverables/EXTRACTION_ENGINE_DRIFT_AUDIT_PLAN.md`, line 7 | VERIFIED — verbatim |
 | Repair landed ~2026-06-30 | `execution/video_context_ledger.py` and `execution/verify_video_context_source_package.py` filesystem mtimes (`Jun 30`) | LIKELY — inferred from mtime, not an explicit changelog entry; the causal link to "the Meg repair" is corroborated by `INDEX.md` naming the Meg Heckman deployment as the trigger, but no commit message was found tying the exact date |
 | `extractions/video-context/Zc4E_K48v48` (attention-hijack-hooks) quarantined "quarantine from arsenal" | `may-june-extraction-integrity-ledger.md`, row for `Zc4E_K48v48`, audit window 2026-05-01 to 2026-06-11 | VERIFIED — verbatim row content |
 | Governor over-triage risk (video source → conceptual template instead of preserving source mechanics) | `EXTRACTION_ENGINE_DRIFT_AUDIT_PLAN.md`, "Audit Goals" section | VERIFIED as an audit *question posed*, not a confirmed incident — genius.md phrases it as "named as an open audit risk," never as a settled failure, to avoid overclaiming |

@@ -1,0 +1,100 @@
+{
+  "_what": "The 66-folder _active/ sweep, as decided by Farrice 2026-08-07.",
+  "_decisions": [
+    "Fold the eight client arenas into one _active/clients/ — nine of the proposed eighteen arenas held exactly one folder, which buys a nesting level for nothing. 18 arenas -> 11.",
+    "Archive the cold ones (30d+ untouched, few or no inbound refs) to _active/_archive/2026-08-07-sweep/ with a stub left behind. Reversible; nothing deleted.",
+    "Clients stay FLAT under clients/ — clients/josh-katie-fitness/, not clients/josh-katie/fitness/. A third level buys nothing at this size.",
+    "farrice-brand, linkedin and _ledgers do not move: each is already its own arena name. Moving farrice-brand alone would rewrite 583 references to end up where it started."
+  ],
+  "stay_put": {
+    "farrice-brand": "arena name already; 583 inbound refs",
+    "linkedin": "arena name already; 253 inbound refs",
+    "_ledgers": "control-plane infra, 9 control-plane citations; underscore-prefixed like _archive"
+  },
+  "arenas": {
+    "clients": [
+      "andrea-dj",
+      "chris-restaurants",
+      "coach-cooz",
+      "javier-human-values",
+      "kens-fasting",
+      "jen-listings",
+      "jen-santulan",
+      "re-compliance",
+      "josh-dancewear-brand",
+      "josh-swing-nerd-shirts-v1",
+      "josh-katie-fitness",
+      "trendscale-trial",
+      "dwa-threads-engine-2026-07-05",
+      "dwa-affiliate-battle-test"
+    ],
+    "harness": [
+      "codex-harvest-2026-06-11",
+      "context-engineering-os",
+      "fork-harvest-2026-07-02",
+      "harness-apex-2026-07-07",
+      "memory-bakeoff",
+      "operator-cockpit-v2",
+      "operator-core-backport",
+      "platform-bakeoff",
+      "prompt-renaissance",
+      "prompt-wiring-os-2026-07-13",
+      "second-brain-audits",
+      "swarm-apex-2026-07-07",
+      "system-health-check-framework",
+      "claude-code-harness-analysis",
+      "elevation-track",
+      "system-audit",
+      "loop-engineering-integration",
+      "frontier-elevation-2026-07-17",
+      "codex-parity-2026-07-13"
+    ],
+    "offer-strategy": [
+      "path-decision-2026-07-01",
+      "pmf-offer-shelf",
+      "alignment-architect-2026-07-07",
+      "positioning-cowork-2026-07-25",
+      "offer-rederivation-2026-07-25",
+      "pmf-brief-2026-07-07",
+      "pmf-offer-map-2026-07-07",
+      "pmf-ofm-options-2026-07-07",
+      "digital-product-lane-2026-08-05"
+    ],
+    "farrice-brand": [
+      "farrice-final-10",
+      "farrice-master-context-2026-07-07",
+      "farrice-creative-strategist-portfolio"
+    ],
+    "knowledge": [
+      "health-performance-ip-library",
+      "mastery-forge",
+      "search-content-mastery",
+      "youtube-notion-replication",
+      "notion-intellectual-library"
+    ],
+    "video-studio": [
+      "video-studio-shakedown",
+      "disney-crowd-app",
+      "remotion-studio"
+    ],
+    "publishing": ["kdp-book-one-pilot"],
+    "mybpm": ["mybpm-merch-os-run-1"],
+    "wagering": ["prediction-market-arb"]
+  },
+  "archive": {
+    "_dest": "_active/_archive/2026-08-07-sweep",
+    "_stub": true,
+    "folders": [
+      "strategic-clarity",
+      "trendscale-brief-revision",
+      "parallax-icp-offer",
+      "farrice-teach-grow-rich",
+      "codex-repeatability",
+      "content-system-audit",
+      "system-integration"
+    ]
+  },
+  "frozen": {
+    "codex-harvest-2026-06-11": "a copy of this repo. It MOVES (the directory relocates like any other) but nothing is ever rewritten inside it. _snapshot_roots() was widened to depth 3 first, so detection survives this very sweep."
+  }
+}

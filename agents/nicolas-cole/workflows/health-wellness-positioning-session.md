@@ -19,7 +19,7 @@ Cole's job in this session: run the bias inversion, drill the specificity ladder
 **Load before session**:
 - `agents/nicolas-cole/memory/context.md`
 - `skills/nicolas-cole-niche-positioning/genius.md`
-- `_active/linkedin-launch/ICP-and-avatar.md` (Dr. Sarah Chen is already sketched)
+- `_active/linkedin/ICP-and-avatar.md` (Dr. Sarah Chen is already sketched)
 
 ---
 

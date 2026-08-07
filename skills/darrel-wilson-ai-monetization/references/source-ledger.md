@@ -16,7 +16,7 @@ rather than invented.
 | `extractions/darrel-wilson-affiliate-marketing/transcript.txt` | 21,929 bytes | Sibling-skill (darrel-wilson-ai-affiliate) transcript, same expert. Read in full; used only to cross-reference anti-patterns already visible in shared genius.md content (freemium avoidance, social-media conversion skepticism). No files under that sibling skill were modified. |
 | `extractions/darrel-wilson-affiliate-marketing/extraction-report.md` | 14,540 bytes | Synthesis document derived from the above transcript + Perplexity research swarms. Read for context only; not cited directly — every anti-pattern anchor in genius.md points to the raw transcript instead, since the extraction-report's phrasing is a paraphrase, not Wilson's own words. |
 
-No other `extractions/` folder matches "darrel" or "wilson" beyond these two. `_active/codex-harvest-2026-06-11/extractions/` and the claude-export tarball were not searched this pass — the two extraction folders above already ground every claim added; if deeper archival sourcing is needed later, note that as a gap, not an absence claim.
+No other `extractions/` folder matches "darrel" or "wilson" beyond these two. `_active/harness/codex-harvest-2026-06-11/extractions/` and the claude-export tarball were not searched this pass — the two extraction folders above already ground every claim added; if deeper archival sourcing is needed later, note that as a gap, not an absence claim.
 
 ## Claim-by-Claim Labels
 
@@ -36,4 +36,4 @@ No other `extractions/` folder matches "darrel" or "wilson" beyond these two. `_
 
 ## What Was NOT Done This Pass
 
-- Did not search `_active/codex-harvest-2026-06-11/extractions/` or the claude-export tarball — the two extraction folders already on record fully grounded the required ≥5 sourced anti-patterns, so a broader archival sweep was unnecessary for this gate. This is a scope note, not an absence claim about those locations.
+- Did not search `_active/harness/codex-harvest-2026-06-11/extractions/` or the claude-export tarball — the two extraction folders already on record fully grounded the required ≥5 sourced anti-patterns, so a broader archival sweep was unnecessary for this gate. This is a scope note, not an absence claim about those locations.

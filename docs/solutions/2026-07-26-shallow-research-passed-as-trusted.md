@@ -63,5 +63,5 @@ Before "fixing" shallow research again: (1) `python3 execution/research_depth.py
 - `execution/research_depth.py` · `execution/native_floor.py` · `execution/research.py` · `execution/research_quality_gate.py` · `execution/chain_runner.py` (Step 2.4)
 - `.agent/workflows/swarm-research.workflow.js` · `.agent/workflows/deep-research-swarm.workflow.js` · `.agent/workflows/swarm.md` § DEPTH CONTRACT
 - `directives/research-protocol.md` (now defers to the contract)
-- Incident artifact: `_active/offer-rederivation-2026-07-25/04-deliverables/RESULTS.md` (RECON-GRADE banner + FAIL receipt) · proof: `DEPTH-FIX-PROOF.md` (same folder) · corpus: `.tmp/research/offer-validation-deep/`
+- Incident artifact: `_active/offer-strategy/offer-rederivation-2026-07-25/04-deliverables/RESULTS.md` (RECON-GRADE banner + FAIL receipt) · proof: `DEPTH-FIX-PROOF.md` (same folder) · corpus: `.tmp/research/offer-validation-deep/`
 - Plan + five-failure autopsy: `~/.claude/plans/and-if-you-re-able-valiant-zebra.md`

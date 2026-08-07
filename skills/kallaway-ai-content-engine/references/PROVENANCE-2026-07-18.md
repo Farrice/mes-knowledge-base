@@ -4,7 +4,7 @@ Anchor → source file+location table for every new claim/quote added or re-anch
 
 | Anchor (as it appears in genius.md) | Source file | Location |
 |---|---|---|
-| Video identity (title, uploader, date, URL) | `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json` | full file (3,343 bytes) |
+| Video identity (title, uploader, date, URL) | `_active/harness/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json` | full file (3,343 bytes) |
 | "I'm going to walk through the three biggest social media shifts..." | `.../ImzoNTrgvFg/transcript.txt` | @ 00:00:54–00:00:59 |
 | "using AI to eliminate the boring task and free up more of your time for creativity" | `.../ImzoNTrgvFg/transcript.txt` | @ 00:01:06–00:01:15 |
 | "I call this AI-enabled creativity. The AI is clearing space so you can be more creative." | `.../ImzoNTrgvFg/transcript.txt` | @ 00:01:55–00:02:00 |

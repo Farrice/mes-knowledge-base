@@ -15,6 +15,6 @@ Anchor → source table for every claim added or verified in this repair. Full s
 | Archive existence/size | `_archive/claude-export-2026-07-01.tar.gz` | `ls -la` → 332,779,255 bytes, confirmed 2026-07-17 |
 | Conversation existence/size in tarball | `tar tzf` listing + `tar xzf ... -O <path> \| wc -c` | 58,164 bytes and 53,884 bytes respectively — non-empty, real content |
 | `extractions/` has no Jay Hiette file | `ls extractions/ \| grep -i hiette` | No output — confirmed absent, not assumed |
-| codex-harvest has no Jay Hiette content | `grep -ril "hiette" _active/codex-harvest-2026-06-11` | No output — confirmed absent, not assumed |
+| codex-harvest has no Jay Hiette content | `grep -ril "hiette" _active/harness/codex-harvest-2026-06-11` | No output — confirmed absent, not assumed |
 
 No quote in this repair was written without first being located verbatim in the extracted transcript text. No source was declared absent without a direct search command being run first (see Absence Check in `source-ledger.md`).

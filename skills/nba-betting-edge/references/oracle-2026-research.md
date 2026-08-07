@@ -1,6 +1,6 @@
 # Oracle Research Brief — 2026-08-06 (Gemini Deep Research, 52 sources, receipt REAL)
 
-Full report + source list: `_active/mastery-forge/01-research/deep-research-2026-08-06-full.md`. Confidence labels per source-backed claims; anything the projection engine adopts from here must be re-verified against live data before staking.
+Full report + source list: `_active/knowledge/mastery-forge/01-research/deep-research-2026-08-06-full.md`. Confidence labels per source-backed claims; anything the projection engine adopts from here must be re-verified against live data before staking.
 
 ## 1. Where NBA prop edge lives in 2025-26 (VERIFIED against cited sources)
 

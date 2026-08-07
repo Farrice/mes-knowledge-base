@@ -1,6 +1,6 @@
 # Offer Stack Blueprint — Authority Flywheel (Ghostwriting → Authority System, $2K–$5K)
 
-*Blind-pass generation artifact — produced via /jh-offer-stack + cold-offer-stack-blueprint.md prompt, 2026-07-15. Narrative grounded in `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md`.*
+*Blind-pass generation artifact — produced via /jh-offer-stack + cold-offer-stack-blueprint.md prompt, 2026-07-15. Narrative grounded in `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`.*
 
 ## Audience State
 

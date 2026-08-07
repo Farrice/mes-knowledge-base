@@ -8,7 +8,7 @@ pin: true
 
 # Health Performance GEO Daily Brief for 2026-07-31: Evidence-Fit Claim Audit angle, local daily brief, Friday weekly synthesis, and three JSONL insight rows
 
-**Pointer:** `_active/health-performance-ip-library/daily/2026-07-31-health-performance-geo-brief.md`
+**Pointer:** `_active/knowledge/health-performance-ip-library/daily/2026-07-31-health-performance-geo-brief.md`
 
 **Next session focus**: Resume the `insight-brief` work-stream — see the deliverable above.
 

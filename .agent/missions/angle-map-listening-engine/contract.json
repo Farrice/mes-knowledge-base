@@ -22,13 +22,13 @@
     "per_run_guidance": "Apify <= $0.25/actor call, <= $0.75/day"
   },
   "deliverable_paths": [
-    "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
-    "_active/health-performance-ip-library/06-system/AUTOMATION_PROMPT-v3.5-archive.md",
-    "_active/health-performance-ip-library/ledger/promises-not-kept.jsonl",
+    "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md",
+    "_active/knowledge/health-performance-ip-library/06-system/AUTOMATION_PROMPT-v3.5-archive.md",
+    "_active/knowledge/health-performance-ip-library/ledger/promises-not-kept.jsonl",
     "execution/cos_prep.py",
     "execution/angle_map_listening_run.sh",
     "~/Library/LaunchAgents/com.antigravity.angle-map-listening.plist",
-    "_active/health-performance-ip-library/daily/LATEST-EXEC-CUT.md"
+    "_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md"
   ],
   "compiled": "2026-07-31T13:20:12"
 }

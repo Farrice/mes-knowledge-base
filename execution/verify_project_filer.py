@@ -6,7 +6,7 @@ Two failures on 2026-07-28, both silent until they weren't:
 1. EXEMPT_NAMES lacked CANON.md / CAMPAIGN.md / MOVED.md. The sweep had been
    quietly TIMING OUT, so the gap never bit. The moment it ran fast enough to
    finish, it filed 27 of them into 04-deliverables/ — including
-   _active/linkedin-launch/CAMPAIGN.md, which hooks/campaign_beacon.py reads by
+   _active/linkedin/CAMPAIGN.md, which hooks/campaign_beacon.py reads by
    exact path, and 11 MOVED.md relocation pointers whose whole job is to sit at
    the old location.
 

@@ -81,7 +81,7 @@
 - proposed: 2026-07-21
 - action: archive
 - target: execution/verify_farrice_content_os.py
-- reason: pins the _active/farrice-content-os/ state home (12 files) + cold-skills wrapper; none ever committed (Codex-fork artifact, zero git history). Live LinkedIn OS is /farrice-engine v3 with state in _active/farrice-brand + _active/linkedin-launch — the OS this verifier guards was superseded before it landed
+- reason: pins the _active/farrice-content-os/ state home (12 files) + cold-skills wrapper; none ever committed (Codex-fork artifact, zero git history). Live LinkedIn OS is /farrice-engine v3 with state in _active/farrice-brand + _active/linkedin — the OS this verifier guards was superseded before it landed
 - status: approved (2026-07-21, Farrice-delegated batch review this session — moved to execution/_archived_verifiers/)
 
 ## PR-2026-07-21-V03

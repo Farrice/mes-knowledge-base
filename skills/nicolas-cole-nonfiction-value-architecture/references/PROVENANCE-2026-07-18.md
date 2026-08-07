@@ -1,7 +1,7 @@
 # Provenance — nicolas-cole-nonfiction-value-architecture
 
 Anchor → source file + location. Source file for all rows:
-`_active/codex-harvest-2026-06-11/extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md`
+`_active/harness/codex-harvest-2026-06-11/extractions/nicolas-cole-nonfiction-value/transcript-consolidated.md`
 (video: "The Framework I Use To Make Any Nonfiction Piece More Valuable," xv5E5ZSzlHM, 2026-05-05).
 
 | Anchor text (as it appears in genius.md) | Source location |

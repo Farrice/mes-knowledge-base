@@ -27,7 +27,7 @@ Brand So Magnetic They Stop Scrolling | 505 Podcast & Personal Brand
 Mastery," captured 2026-01-20), first human message's attachment
 `extracted_content` field — 118,576 characters, full transcript. This is the
 same source the skill's own `agents/erica-mallet/AGENT.md` (in
-`_active/codex-harvest-2026-06-11/`) footnotes as "Erica Mallet MES 3.0
+`_active/harness/codex-harvest-2026-06-11/`) footnotes as "Erica Mallet MES 3.0
 Extraction (505 Podcast)" — this repair pass independently re-opened and
 re-quoted the raw transcript rather than trusting that footnote at face
 value, per the envelope's rule against invented-provenance claims.
@@ -76,7 +76,7 @@ paraphrase.
 ## Absence checks (per envelope rule: verify before claiming "no source")
 
 - `extractions/` — `ls extractions/ | grep -i mallet` returns **zero results**. No dedicated `extractions/erica-mallett*` or `extractions/erica-mallet*` directory exists. Confirmed absent, not assumed.
-- `_active/codex-harvest-2026-06-11/` — **NOT absent.** Contains `agents/erica-mallet/AGENT.md` (8,285 bytes, read in full) and a near-duplicate `skills/erica-mallet-brand-magnetism/` mirror of the current skill (adds an unshipped "Pattern 16 / Tacit 16: Category Container" pair and a "category-of-one" workflow row not present in the live skill — out of scope for this repair pass since it targets different, non-failing content; noted in REPAIR-NOTES.md, not ported).
+- `_active/harness/codex-harvest-2026-06-11/` — **NOT absent.** Contains `agents/erica-mallet/AGENT.md` (8,285 bytes, read in full) and a near-duplicate `skills/erica-mallet-brand-magnetism/` mirror of the current skill (adds an unshipped "Pattern 16 / Tacit 16: Category Container" pair and a "category-of-one" workflow row not present in the live skill — out of scope for this repair pass since it targets different, non-failing content; noted in REPAIR-NOTES.md, not ported).
 - `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) — **NOT absent, and load-bearing.** Content-grepped (not just filename-grepped): 252 lines matching "mallet" case-insensitive across the full extracted archive. 23 conversation files in `claude-export/normalized/conversations/` reference Erica Mallett by name, several of them full MES 3.0 extraction sessions from real YouTube transcripts of her videos (not just this one — also a nostalgia-marketing/"Memory Lane Rule" video and a "cult-like fans" cognitive-bias video, which were not pulled into this skill and are out of scope here). The raw JSON (`claude-export/raw/batch-0001/conversations.json`, 867,859,945 bytes) was targeted with `ijson` streaming (not a full load) to pull the single relevant conversation object by uuid; this is how the T-series verbatim transcript above was recovered.
 
 ## What this repair pass did NOT verify

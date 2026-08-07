@@ -10,7 +10,7 @@
 
 ## Expected first action
 
-Initialize `_active/kdp-book-one-pilot`, run the operator interview, define excluded risk lanes, and gather 5–10 dated market candidates. Do not draft a book from an AI topic list.
+Initialize `_active/publishing/kdp-book-one-pilot`, run the operator interview, define excluded risk lanes, and gather 5–10 dated market candidates. Do not draft a book from an AI topic list.
 
 ## Required evidence
 

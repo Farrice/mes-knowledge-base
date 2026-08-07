@@ -5,7 +5,7 @@ content_pillar: Thesis
 narrative_pillar: P3
 bucket: Authority
 ring: Bridge
-source_brief: _active/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md
+source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-05-angle-map-listening-brief.md
 ---
 
 # Trust has an owner (flagship post)

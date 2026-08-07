@@ -470,13 +470,13 @@ NON-NEGOTIABLES (any output that violates these is wrong):
 ## Source Inventory
 
 ### Internal (canonical)
-- `_active/andrea-dj/source/andrea-internal-anchor.md` — §2 (The Person), §3 (Non-Negotiables), §7 (Drift Signals)
-- `_active/andrea-dj/source/andrea-manifesto-v2.md` — voice spine, body-vs-mind frame
-- `_active/andrea-dj/deliverables/2026-04-11-monday-package/02-pulse-who.md` — Maya/Simone/Darius archetypes (lineage for Profiles #2 and #3), anti-personas, curation ratio, decline scripts
-- `_active/andrea-dj/deliverables/2026-04-11-monday-package/01-pulse-brand.md` — brand spine, voice rules
+- `_active/clients/andrea-dj/source/andrea-internal-anchor.md` — §2 (The Person), §3 (Non-Negotiables), §7 (Drift Signals)
+- `_active/clients/andrea-dj/source/andrea-manifesto-v2.md` — voice spine, body-vs-mind frame
+- `_active/clients/andrea-dj/deliverables/2026-04-11-monday-package/02-pulse-who.md` — Maya/Simone/Darius archetypes (lineage for Profiles #2 and #3), anti-personas, curation ratio, decline scripts
+- `_active/clients/andrea-dj/deliverables/2026-04-11-monday-package/01-pulse-brand.md` — brand spine, voice rules
 
 ### Internal (methodology)
-- `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State canonical example
+- `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md` — McRaney Deep Canvassing × Cimorelli Audience State canonical example
 - `MEMORY.md` — Deep ICP Profile entry (2026-03-19), language-map and wince-test methodology
 - `directives/feedback-ratchet.md`, `directives/quality_gate.md` — quality standards
 

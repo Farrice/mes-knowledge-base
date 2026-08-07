@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T16:38:21.696002+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/prompt-renaissance",
+  "dst": "_active/harness/prompt-renaissance",
+  "stub_left": false,
+  "files_moved": 17,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-11-prompt-renaissance-complete.md": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-renaissance/01-source/wave-4-final-report.json": 2,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-renaissance/04-deliverables/WAVE-4-SUMMARY.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-renaissance/START-HERE.html": 14,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/harness/prompt-renaissance/wave-input.json": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/execution/renaissance_queue.py": 3
+  },
+  "total_rewrites": 24,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}

@@ -26,7 +26,7 @@ Run the complete `/shaan-story-deploy` workflow. Return the finished asset follo
 
 ## Source Paths
 
-- `_active/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md`.
+- `_active/knowledge/health-performance-ip-library/daily/2026-08-01-angle-map-listening-brief.md`.
 - The finished assets inside that brief are held out and must not be read during replay.
 
 ## Truth Constraints

@@ -43,8 +43,8 @@ Promote the 234KB research corpus at `.tmp/research/offer-validation-deep/` to d
 ## Core context to load
 
 - `docs/solutions/2026-07-26-shallow-research-passed-as-trusted.md` — the five-failure autopsy + re-solve guard
-- `_active/offer-rederivation-2026-07-25/04-deliverables/DEPTH-FIX-PROOF.md` — measured proof + the correction
-- `_active/offer-rederivation-2026-07-25/04-deliverables/DEEP-RESEARCH-PROMPT.md` — the paste-ready external prompt
+- `_active/offer-strategy/offer-rederivation-2026-07-25/04-deliverables/DEPTH-FIX-PROOF.md` — measured proof + the correction
+- `_active/offer-strategy/offer-rederivation-2026-07-25/04-deliverables/DEEP-RESEARCH-PROMPT.md` — the paste-ready external prompt
 - `execution/research_depth.py` — the contract every research floor now reads
 
 ## Hot experts this session

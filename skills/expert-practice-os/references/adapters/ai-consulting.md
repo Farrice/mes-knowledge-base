@@ -10,7 +10,7 @@
 - Buyer: established expert with a visibility or referral-ceiling bottleneck
 - Public posture: execution architect using AI inside an authority/business-system diagnosis
 - Lane owner: `skills/andrew-dun-vibe-consulting/`
-- Protocol IP: `_active/farrice-final-10/`
+- Protocol IP: `_active/farrice-brand/farrice-final-10/`
 - Proof state at cold build: pre-first-close; demand `UNTESTED`
 
 ## Required Handoff

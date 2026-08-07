@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "applied_at": "2026-08-07T11:09:14.584020+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md",
+  "dst": "_active/linkedin-launch/99-archive/2026-08-07-dead-front-doors/00-CONTROL-TOWER.md",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-06-23-geo-content.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-01-geo-content.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/handoffs/2026-07-05-cos-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/baseline-linkedin-2026-08-07.json": 46,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/path-decision-2026-07-01/README.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/pmf-offer-shelf/02-research/00-THESIS-AND-VERDICT.md": 1,
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/_active/pmf-offer-shelf/04-deliverables/best-paths-brief/10-BEST-PATHS-STRATEGIC-BRIEF.md": 1
+  },
+  "total_rewrites": 52,
+  "revert_script": "/Users/farricecain/Google Antigravity/.claude/worktrees/retrieval-architecture/.agent/organization/REVERT-2026-08-07.sh"
+}
