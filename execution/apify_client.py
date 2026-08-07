@@ -528,12 +528,27 @@ def cmd_reddit(args):
     trudax/reddit-scraper-lite uses startUrls (search URLs or subreddit URLs).
     There is no separate "searches" field — queries become search URLs.
     """
+    # 2026-08-07: search URLs previously hardcoded sort=relevance with no recency window,
+    # so natural-language listening queries returned semantically-adjacent threads from
+    # 2024 with no way to ask for this week. --sort/--time make recency reachable;
+    # defaults are unchanged so existing callers behave exactly as before.
     start_urls = []
+    sort = getattr(args, "sort", "relevance")
+    time_filter = getattr(args, "time_filter", "")
+    scope_to_sub = getattr(args, "scope_query_to_subreddit", False)
+
     if args.query:
         from urllib.parse import quote_plus
         q = quote_plus(args.query)
-        start_urls.append({"url": f"https://www.reddit.com/search/?q={q}&type=link&sort=relevance"})
-    if args.subreddit:
+        base = (f"https://www.reddit.com/r/{args.subreddit}/search/"
+                if (args.subreddit and scope_to_sub) else "https://www.reddit.com/search/")
+        url = f"{base}?q={q}&type=link&sort={sort}"
+        if args.subreddit and scope_to_sub:
+            url += "&restrict_sr=1"
+        if time_filter:
+            url += f"&t={time_filter}"
+        start_urls.append({"url": url})
+    if args.subreddit and not (args.query and scope_to_sub):
         start_urls.append({"url": f"https://www.reddit.com/r/{args.subreddit}/"})
     if not start_urls:
         print(json.dumps({"status": "error", "fallback": True,
@@ -1181,6 +1196,17 @@ def main():
     pr.add_argument("--subreddit", default="")
     pr.add_argument("--limit", type=int, default=50)
     pr.add_argument("--comments", action="store_true")
+    pr.add_argument("--sort", default="relevance",
+                    choices=["relevance", "new", "top", "hot", "comments"],
+                    help="Search sort order. Listening runs want 'new'. Default stays "
+                         "'relevance' so existing callers are unchanged.")
+    pr.add_argument("--time", default="", dest="time_filter",
+                    choices=["", "hour", "day", "week", "month", "year", "all"],
+                    help="Search recency window (Reddit 't='). Empty = all time (the old "
+                         "behaviour). Listening runs want 'week'.")
+    pr.add_argument("--scope-query-to-subreddit", action="store_true",
+                    help="When both a query and --subreddit are given, search INSIDE that "
+                         "subreddit instead of emitting two competing start URLs.")
 
     pi = sub.add_parser("instagram", help="Instagram profile/posts")
     pi.add_argument("handle")
