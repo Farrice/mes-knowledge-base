@@ -67,7 +67,7 @@ was *wrong*, not merely older.
 ## The other half: four front doors
 
 The same project had `CAMPAIGN.md`, `CANON.md`, `INDEX.md` and
-`04-deliverables/00-CONTROL-TOWER.md` all claiming to be the entry point.
+`04-deliverables/00-CONTROL-TOWER.md` (archived) all claiming to be the entry point.
 CONTROL-TOWER announced itself as *"The ONE index. Open this first"*, was dated
 2026-06-30, and pointed at a $500 offer killed five weeks earlier. Eight
 per-folder READMEs footered back to it. `CAMPAIGN.md`'s own 16 artifact links

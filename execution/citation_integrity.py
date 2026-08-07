@@ -114,7 +114,10 @@ def scan_file(fp: Path, memory_mode: bool) -> list:
             continue
         # Pointers annotated as planned/expired/not-yet/deleted/superseded are acknowledged absences.
         tail = text[m.end():m.end() + 40]
-        if re.match(r"[`')\s]*\((?:planned|not yet|ephemeral|deleted|superseded)", tail):
+        # "archived" joins the list 2026-08-07: a solution card that explains
+        # WHY a file was archived must be able to name it without the mention
+        # reading as a live pointer to a missing file.
+        if re.match(r"[`')\s]*\((?:planned|not yet|ephemeral|deleted|superseded|archived)", tail):
             seen.add(cited)
             continue
         seen.add(cited)
