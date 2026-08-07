@@ -8568,18 +8568,18 @@
   },
   {
    "id": "01-diagnose-and-rebalance",
-   "command": "david-perell",
+   "command": "david-perell-diagnose-and-rebalance",
    "kind": "skill-workflow",
    "skill": "david-perell-writing",
    "path": "skills/david-perell-writing/workflows/01-diagnose-and-rebalance.md",
-   "description": "You are David Perell eyeballing a piece of writing the way he reads investor memos at Capital Camp: ideas are probably fine, communication probably isn't. Your job is to color-map the draft into Personal / Observational / Playful, name its disease, and rewrite it so all three pillars fire at the right sizzle level.",
+   "description": "You are David Perell applying the preserved POP craft system after the upstream bottleneck has been checked. Do not assume the ideas are fine. Your job is to color-map a craft-ready draft into Personal / Observational / Playful, name its disease, and rewrite it so all three pillars fire at the right sizzle level.",
    "menu_status": "reachable",
    "front_door": "/david-perell-writing",
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1782937193.899203
+   "mtime": 1785890190.88337
   },
   {
    "id": "02-compress-to-memorable",
@@ -8594,7 +8594,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1782937215.628111
+   "mtime": 1785888745.716004
   },
   {
    "id": "03-draft-pop-first",
@@ -8609,7 +8609,7 @@
    "family": null,
    "last_fired": null,
    "skill_last_fired": null,
-   "mtime": 1782937237.3711832
+   "mtime": 1785888747.0127306
   },
   {
    "id": "content-audit",
@@ -45759,7 +45759,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785006847.34426
+   "mtime": 1785883335.5134268
   },
   {
    "id": "david-perell-draft-pop-first",
@@ -45772,7 +45772,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1785006847.3443985
+   "mtime": 1785883335.5135202
   },
   {
    "id": "deal-acceleration-champion-kit",
@@ -73113,14 +73113,14 @@
    "kind": "skill",
    "skill": "david-perell-writing",
    "path": "skills/david-perell-writing/SKILL.md",
-   "description": "David Perell's own writing methodology \u2014 POP Writing (Personal, Observational, Playful), the Sizzle Spectrum, the highlight diagnostic, and the clear-then-memorable compression ladder that took him to 430k Twitter followers and built Write of Passage. This is Perell's OWN craft, distinct from the how-i-write-os (which conducts his podcast GUESTS).",
+   "description": "Use when a writer needs to diagnose whether the real constraint is idea, courage, or craft; develop observations into repeatable ideas; preserve an evergreen thesis while framing it for a dated cultural current; or audit writing for POP balance, memorability, history-present contrast, placefulness, and creative-mission fit.",
    "menu_status": "reachable",
    "front_door": "/david-perell-writing",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 3,
+   "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1785717835.535783
+   "mtime": 1785889444.347298
   },
   {
    "id": "david-placek-naming",
@@ -78160,13 +78160,13 @@
    "kind": "agent",
    "skill": null,
    "path": "agents/david-perell/AGENT.md",
-   "description": "David Perell is \"the writing guy on Twitter\" \u2014 430k followers earned with three words (Personal, Observational, Playful), founder of Write of Passage, and host of the How I Write podcast, where he has interviewed Marc Andreessen, Morgan Housel, and Howard Marks. His operating belief: the world doesn't reward the people with the best ideas, it rewards the people who are best at communicating ideas ",
+   "description": "David Perell is the founder of Write of Passage and host of the How I Write podcast. This agent preserves his POP writing craft while adding a source-grounded decision layer from his 2026 interview with Nathan Barry: find a worthwhile idea, distinguish idea from courage from craft, develop the bit, judge whether a current truly fits, and protect the work attention is meant to serve.",
    "menu_status": "reachable",
    "front_door": "/david-perell",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": null,
-   "mtime": 1782937266.3429224
+   "last_fired": "2026-08-05T01:00:19.895936+00:00",
+   "mtime": 1785888437.056055
   },
   {
    "id": "david-placek",
@@ -80338,10 +80338,303 @@
    "family": null,
    "last_fired": null,
    "mtime": 1783006717.2643075
+  },
+  {
+   "id": "david-perell-60-20-10-bit-refinery",
+   "command": "david-perell-60-20-10-bit-refinery",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-60-20-10-bit-refinery.md",
+   "description": "Read `genius.md` and `references/claims-ledger-QsHm_0MEhX8.md`. Require a voice-note transcript or full raw expression, core idea, audience, and allowed durations. Begin from the full expression; never generate the ten-second version first. If this ships under Farrice's name, load `_active/farrice-brand/voice/VOICE-CARD.md` and declare the dial mode.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785890191.1915517
+  },
+  {
+   "id": "david-perell-current-fit-diagnostic",
+   "command": "david-perell-current-fit-diagnostic",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-current-fit-diagnostic.md",
+   "description": "Read `genius.md`, `references/claims-ledger-QsHm_0MEhX8.md`, and `references/cross-domain-patterns.md`. A positive route requires a developed Idea Card, sourced and dated Signal Packet, audience or brand territory, and expiry. Partial inputs may produce only a dispositive stop: unsupported evidence returns `HOLD`, and an already expired window may return `KEEP EVERGREEN` with `EXPIRED CURRENT`. Do",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785890190.431281
+  },
+  {
+   "id": "david-perell-current-or-soul-portfolio",
+   "command": "david-perell-current-or-soul-portfolio",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-current-or-soul-portfolio.md",
+   "description": "Read `genius.md` and the Current Riding as a Means pattern. Require a project inventory, desired reputation, explicitly named soul work, current opportunities, capacity, commercial constraints, non-negotiables, and review date. Missing mission boundaries return `HOLD`; do not infer what should matter. Missing current source, date, or expiry remains `UNCONFIRMED`. Use numbers only when the user sup",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888701.5013635
+  },
+  {
+   "id": "david-perell-idea-courage-craft-triage",
+   "command": "david-perell-idea-courage-craft-triage",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-idea-courage-craft-triage.md",
+   "description": "Read `genius.md` and `references/claims-ledger-QsHm_0MEhX8.md`. Require a raw idea or draft, intended claim, supporting evidence, reader outcome, and any assertion the writer keeps softening or removing. If the evidence cannot distinguish the bottleneck, return `INSUFFICIENT EVIDENCE`. Do not invoke POP before a `CRAFT` verdict, and do not infer a hidden belief.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888604.234252
+  },
+  {
+   "id": "david-perell-observation-mind-mine",
+   "command": "david-perell-observation-mind-mine",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-observation-mind-mine.md",
+   "description": "Read `genius.md` and the Constrained Mind Mining pattern. Require a question or domain, lived-material boundary, timebox, and privacy constraints. Treat the artifact as private unless publication is separately authorized. If no lived material exists yet, return a capture protocol marked `AWAITING LIVED MATERIAL`; do not perform the observation on the user's behalf.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888604.3966646
+  },
+  {
+   "id": "david-perell-past-present-braid",
+   "command": "david-perell-past-present-braid",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-past-present-braid.md",
+   "description": "Read `genius.md` and the Past-Present Braiding pattern. Require grounded historical material, a grounded present observation, thesis, sources, target format, and output mode. Missing thesis or present observation returns `INSUFFICIENT EVIDENCE`; unsupported load-bearing claims return `HOLD`. A full narrative needs `/shaan-story-deploy` for story dosage. Multi-expert finished prose routes through `",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888701.2064111
+  },
+  {
+   "id": "david-perell-placeful-voice-audit",
+   "command": "david-perell-placeful-voice-audit",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-placeful-voice-audit.md",
+   "description": "Read `genius.md` and `references/exemplars-QsHm_0MEhX8.md`. Require a draft or a specific evidence-boundary question, plus supplied lived details and permission boundaries. Audience, format, and protected lines are required before a deeper repair handoff, but their absence does not block a bounded evidence audit or supported micro-edit; mark them `NOT SUPPLIED` and do not infer them. A voice sampl",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785890028.605071
+  },
+  {
+   "id": "david-perell-public-reps-learning-loop",
+   "command": "david-perell-public-reps-learning-loop",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-public-reps-learning-loop.md",
+   "description": "Read `genius.md` and `references/implementation.md`. Select exactly one mode: `PLAN` for an explicitly approved practice window before any event, or `LEARN` for user-supplied published samples and dated response evidence. No approved window returns `NO PERMISSION`. No actual published event in LEARN mode returns `NO EVENT`. This workflow never publishes, schedules, queues, fetches analytics, or in",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888604.7070649
+  },
+  {
+   "id": "david-perell-scheduled-current-archive",
+   "command": "david-perell-scheduled-current-archive",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-scheduled-current-archive.md",
+   "description": "Read `genius.md` and `references/cross-domain-patterns.md`. Require an archive inventory, sourced future-event packet, workflow 08 `SCHEDULE` receipts, supplied lead times, planning horizon, current date, capacity, and expiry assumptions. Missing sources, dates, future windows, or receipts stay as HOLD rows. Do not research events, complete dates from memory, or mutate a queue.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888701.0507483
+  },
+  {
+   "id": "david-perell-timely-shell-timeless-core",
+   "command": "david-perell-timely-shell-timeless-core",
+   "kind": "skill-workflow",
+   "skill": "david-perell-writing",
+   "path": "skills/david-perell-writing/workflows/david-perell-timely-shell-timeless-core.md",
+   "description": "Read `genius.md`, `references/implementation.md`, and the workflow 08 receipt. Require `Decision: ROUTE CURRENT`, `Current state: ACTIVE`, a locked thesis and claim set, current source and date, audience connection, expiry, and distortion constraints. Missing evidence returns `HOLD`; an expired signal returns `EXPIRED CURRENT` plus the evergreen fallback. This workflow does not research a current ",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-writing",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "skill_last_fired": null,
+   "mtime": 1785888700.9037654
+  },
+  {
+   "id": "david-perell-60-20-10-bit-refinery",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-60-20-10-bit-refinery.md",
+   "description": "Read `genius.md` and `references/claims-ledger-QsHm_0MEhX8.md`. Require a voice-note transcript or full raw expression, core idea, audience, and allowed durations. Begin from the full expression; never generate the ten-second version first. If this ships under Farrice's name, load `_active/farrice-brand/voice/VOICE-CARD.md` and declare the dial mode.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-60-20-10-bit-refinery",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9698656
+  },
+  {
+   "id": "david-perell-current-fit-diagnostic",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-current-fit-diagnostic.md",
+   "description": "Read `genius.md`, `references/claims-ledger-QsHm_0MEhX8.md`, and `references/cross-domain-patterns.md`. Require a developed Idea Card, sourced and dated Signal Packet, audience or brand territory, and expiry. Missing or unsupported current evidence returns `HOLD`. This workflow judges fit; it does not research, repair the signal, or draft a timely shell. Nathan Barry owns the explicit brand-fit re",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-current-fit-diagnostic",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9700868
+  },
+  {
+   "id": "david-perell-current-or-soul-portfolio",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-current-or-soul-portfolio.md",
+   "description": "Read `genius.md` and the Current Riding as a Means pattern. Require a project inventory, desired reputation, explicitly named soul work, current opportunities, capacity, commercial constraints, non-negotiables, and review date. Missing mission boundaries return `HOLD`; do not infer what should matter. Missing current source, date, or expiry remains `UNCONFIRMED`. Use numbers only when the user sup",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-current-or-soul-portfolio",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.970269
+  },
+  {
+   "id": "david-perell-diagnose-and-rebalance",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-diagnose-and-rebalance.md",
+   "description": "run the preserved POP highlight diagnostic after a CRAFT verdict",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-diagnose-and-rebalance",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889430.390299
+  },
+  {
+   "id": "david-perell-idea-courage-craft-triage",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-idea-courage-craft-triage.md",
+   "description": "Read `genius.md` and `references/claims-ledger-QsHm_0MEhX8.md`. Require a raw idea or draft, intended claim, supporting evidence, reader outcome, and any assertion the writer keeps softening or removing. If the evidence cannot distinguish the bottleneck, return `INSUFFICIENT EVIDENCE`. Do not invoke POP before a `CRAFT` verdict, and do not infer a hidden belief.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-idea-courage-craft-triage",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.970458
+  },
+  {
+   "id": "david-perell-observation-mind-mine",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-observation-mind-mine.md",
+   "description": "Read `genius.md` and the Constrained Mind Mining pattern. Require a question or domain, lived-material boundary, timebox, and privacy constraints. Treat the artifact as private unless publication is separately authorized. If no lived material exists yet, return a capture protocol marked `AWAITING LIVED MATERIAL`; do not perform the observation on the user's behalf.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-observation-mind-mine",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9706385
+  },
+  {
+   "id": "david-perell-past-present-braid",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-past-present-braid.md",
+   "description": "Read `genius.md` and the Past-Present Braiding pattern. Require grounded historical material, a grounded present observation, thesis, sources, target format, and output mode. Missing thesis or present observation returns `INSUFFICIENT EVIDENCE`; unsupported load-bearing claims return `HOLD`. A full narrative needs `/shaan-story-deploy` for story dosage. Multi-expert finished prose routes through `",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-past-present-braid",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9708076
+  },
+  {
+   "id": "david-perell-placeful-voice-audit",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-placeful-voice-audit.md",
+   "description": "Read `genius.md` and `references/exemplars-QsHm_0MEhX8.md`. Require a draft, supplied lived details, permission boundaries, audience, format, and protected lines. A voice sample is optional; without it mark `VOICE MATCH UNAVAILABLE`. Classify each detail `AUTHORIZED FOR USE`, `PRIVATE CONTEXT ONLY`, `NO PERMISSION`, or `UNCONFIRMED`. This workflow audits and makes evidence-safe micro-edits; it doe",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-placeful-voice-audit",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9709723
+  },
+  {
+   "id": "david-perell-public-reps-learning-loop",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-public-reps-learning-loop.md",
+   "description": "Read `genius.md` and `references/implementation.md`. Select exactly one mode: `PLAN` for an explicitly approved practice window before any event, or `LEARN` for user-supplied published samples and dated response evidence. No approved window returns `NO PERMISSION`. No actual published event in LEARN mode returns `NO EVENT`. This workflow never publishes, schedules, queues, fetches analytics, or in",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-public-reps-learning-loop",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9711354
+  },
+  {
+   "id": "david-perell-scheduled-current-archive",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-scheduled-current-archive.md",
+   "description": "Read `genius.md` and `references/cross-domain-patterns.md`. Require an archive inventory, sourced future-event packet, workflow 08 `SCHEDULE` receipts, supplied lead times, planning horizon, current date, capacity, and expiry assumptions. Missing sources, dates, future windows, or receipts stay as HOLD rows. Do not research events, complete dates from memory, or mutate a queue.",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-scheduled-current-archive",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.9712892
+  },
+  {
+   "id": "david-perell-timely-shell-timeless-core",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/david-perell-timely-shell-timeless-core.md",
+   "description": "Read `genius.md`, `references/implementation.md`, and the workflow 08 receipt. Require `Decision: ROUTE CURRENT`, `Current state: ACTIVE`, a locked thesis and claim set, current source and date, audience connection, expiry, and distortion constraints. Missing evidence returns `HOLD`; an expired signal returns `EXPIRED CURRENT` plus the evergreen fallback. This workflow does not research a current",
+   "menu_status": "reachable",
+   "front_door": "/david-perell-timely-shell-timeless-core",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785889447.971628
   }
  ],
  "fingerprint": [
-  9041,
-  1785762008.724
+  9073,
+  1785890191.192
  ]
 }

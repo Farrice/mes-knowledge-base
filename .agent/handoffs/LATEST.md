@@ -1,56 +1,96 @@
 # Latest Handoff
 
-**Thread:** creative-generation-os  
-**Full path:** .agent/handoffs/2026-08-04-creative-generation-os.md  
+**Thread:** extract-forge
+**Full path:** .agent/handoffs/2026-08-04-extract-forge.md
 **Date:** 2026-08-04 (today)  
-**Status:** done  
-**Title:** Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped
+**Status:** ready
+**Title:** David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume creative-generation-os` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume extract-forge` for this one.
 
 ---
-thread: creative-generation-os
-status: done
-resume_hint: OS complete — start from guides/CREATIVE-OS-USER-GUIDE.md
-unfinished: frbpm public name; avatar repair round (~$0.16); first real production run
-branch: main
+
+---
+thread: extract-forge
+status: ready
+resume_hint: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
+unfinished: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
+branch: codex/extract-forge-qshm-0mehx8
 pin: true
 ---
 
-# Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped
+# David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
 ## Purpose
-- **Next session should do:** first REAL production run — Teardown carousel #2 assets via the user guide's prompt bank (gated behind mission 2b sends); or the avatar repair round (3 flagged objects + T3 sneaker re-roll, ~$0.16); or continue anything via /resume creative-generation-os.
-- **Not in scope:** rebuilding anything — OS complete, avatar locked (12/12 acceptance), guide shipped.
 
-## Load First
-- `guides/CREATIVE-OS-USER-GUIDE.md` — THE manual (copy-paste prompt bank, steering phrases, money map, troubleshooting)
-- `_active/farrice-brand/05-assets/anime-avatar/CANON.md` — frbpm canon + usage recipe + repair list
-- `skills/generate/references/craft-map.md` — the binding craft gate (8 masters wired)
+Preserve the completed source-to-capability build and make the next session start from the verified system instead of rebuilding it.
 
 ## Current State
-- **Done:** /generate engine · Netflix board (black/#0f6fff, hero billboards, approved) · craft gate + intent mirror BINDING IN BOTH CONSTITUTIONS (shared-intent-mirror block, blessed) · 8 masters extracted+wired · frbpm avatar locked (26-shot captioned dataset, 12/12 acceptance folder holds, 3 named repair objects) · $20/day caps · user guide + INDEX row. All pushed.
-- **Uncertain:** frbpm public display name (Farrice's to give); elevenlabs price (deferred stub); Codex mirror is constitution-grade not hook-grade.
-- **Latest proof:** acceptance folder on board (🎭 frbpm-acceptance); avatar total ~$2.20.
 
-## Suggested Skills / Workflows
-- The guide's prompt bank covers 12 outcomes — start there, not with raw commands
-- `/mickmumpitz-controlled-shot-spec` for any shot needing exact control · `/dave-clark-flat-to-cinematic-audit` before video ships
+**Completed**: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.
+
+**Remaining priority**: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.
+
+- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`
+- Custom verifier: `24/24 PASS`
+- Detached runtime fixtures: `18/18 PASS`
+- Skill heartbeat: `7/7 PASS`
+- Prompt regression: `3782/3782 PASS`
+- Codex live surface: `STRICT PASS`
+- Chain finalize: `7.0/10 B-TIER`
+- Forge record: `SHIPPED 2026-08-04`
+- Human blind recognition: `DEFERRED`
+- Market effect: `UNOBSERVED`
+
+## Load First
+
+1. `extractions/david-perell-nathan-barry-2026/FINALIZATION-RECEIPT.md`
+2. `skills/david-perell-writing/SKILL.md`
+3. `extractions/david-perell-nathan-barry-2026/CHECKPOINT-3.md`
+4. `extractions/david-perell-writing/BLIND-PASS-REVIEW.md` only if A-tier promotion matters
+
+## Exact Invocation Surfaces
+
+- `/david-perell` — expert front door and routing help
+- `/david-perell-idea-courage-craft-triage` — primary diagnostic route
+- `/david-perell-current-fit-diagnostic` — decide whether a real current exists
+- `/david-perell-placeful-voice-audit` — audit evidence-backed placefulness without cosplay
+- `/david-perell-current-or-soul-portfolio` — allocate work across current and soul lanes
+
+## Decisions That Must Persist
+
+- One David Perell expert and one expanded writing skill; no duplicate Idea-to-Culture owner.
+- Idea, courage, and craft remain separate gates. Craft cannot silently repair a weak idea or make a human courage decision.
+- The protected POP workflows stay in their older evidence lane.
+- Source attestation is not independent verification; runtime fixtures are not market proof.
+- A-tier requires Farrice's blind recognition judgment. Automated checks cannot substitute for it.
+
+## Do Not Rebuild
+
+- Do not create another David Perell skill, expert, or hot command for this source.
+- Do not rewrite the three byte-protected POP-era assets.
+- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.
+- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic.
+
+## Not Authorized
+
+- Global Codex mirrors
+- Publishing or outreach
+- Notion mirror refresh
+- Paid or quota-heavy actions
+- Market, buyer, sales, or revenue claims
+- Push or merge to a remote repository
 
 ## Exact Next Prompt
-```text
-/resume creative-generation-os — Open guides/CREATIVE-OS-USER-GUIDE.md. I want [pick: the Teardown #2 carousel via prompt #12 / the avatar repair round / my first solo run — watch me use prompt #2 and correct my steering].
-```
 
-## Acceptance Criteria
-- Next session starts from the guide, not from re-explanation.
+Use now: `Run /david-perell-idea-courage-craft-triage on this draft: [paste draft]. Preserve the proof boundaries and stop if the idea or courage gate fails.`
 
-## Risk Notes
-- Mission 2b (5 sends + payment URL) still gates campaign content publishing — creative is ready, revenue clock is not started.
+Optional promotion: `Open the David Perell blind pack, collect my A/B judgments without revealing the key, then record an honest promote-or-hold verdict.`
 
-## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
-- Previous handoff on this thread: `.agent/handoffs/2026-08-02-creative-generation-os.md` — everything it lists as shipped is EXTEND-ONLY.
-- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
+## Acceptance Criteria for Any Future Change
 
+- Preservation hashes remain unchanged.
+- Custom verifier stays `24/24 PASS` with runtime results supplied.
+- All 18 detached fixture envelopes still pass.
+- No duplicate owner or hot command appears.
+- Human recognition and market proof remain separately labeled.

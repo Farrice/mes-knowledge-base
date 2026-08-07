@@ -92,7 +92,7 @@
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | for written voice / brand voice use voice-document or voice-calibrate, for sales-call dynamics specifically use chase-hughes-conversational-influence, elite communication | 3 | 17 |
 | `david-deutsch-copywriting` | **David Deutsch - Copywriting Legend** | for surface-level dopamine craft use stefan-georgi-dopamine-copy, for big-idea financial promos use chris-cimorelli-copywriting, for pure dr fundamentals use bond-halbert-copywriting | 5 | 29 |
 | `david-mcraney-belief-change` | **David McRaney: Belief Change Architecture** | complete belief change architecture — from psychological diagnosis through pe..., belief change architecture | 14 | 14 |
-| `david-perell-writing` | **david-perell-writing** | david perell's own writing methodology — pop writing (personal, observational, playful) | 3 | 0 |
+| `david-perell-writing` | **david-perell-writing** | writing craft, idea development, observation | 13 | 0 |
 | `david-placek-naming` | **David Placek — Brand Naming Science** | brand naming science — applied linguistics, creative strategy, sound symbolism | 6 | 11 |
 | `deliberate` | **deliberate** | built for high-stakes decisions where opaque single-model output is risky, distinct from /council (single-model multi-persona), this is single-prompt multi-model | 1 | 0 |
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |

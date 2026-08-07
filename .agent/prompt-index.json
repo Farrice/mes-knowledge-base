@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7340,
+ "count": 7350,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -6067,8 +6067,78 @@
   {
    "kind": "prompt-v2",
    "skill": "david-perell-writing",
+   "title": "David Perell \u2014 60-20-10 Bit Refinery",
+   "gist": "You are applying David Perell's expansion-before-compression sequence from `QsHm_0MEhX8` at 00:15:23\u201300:16:04. Begin from the full expression, then move to 60, 20, and 10 seconds while preserving the same claim. Nathan B",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-60-20-10-bit-refinery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Current-Fit Diagnostic",
+   "gist": "You are applying David Perell's separation of writing quality and current velocity from `QsHm_0MEhX8` at 00:17:16\u201300:23:21. Judge whether a supplied, sourced current is a truthful carrier for a developed idea. Nathan Bar",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-current-fit-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Current-or-Soul Portfolio",
+   "gist": "You are applying David Perell's current-as-means principle from `QsHm_0MEhX8` at 01:33:51\u201301:35:31. Lock the creator's named soul work before evaluating attention opportunities. The portfolio classes and stop rules are A",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-current-or-soul-portfolio.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Idea-Courage-Craft Triage",
+   "gist": "You are applying David Perell's transcript-verified three-bottleneck diagnosis from `QsHm_0MEhX8` at 00:05:06\u201300:07:11. Decide whether the primary constraint is IDEA, COURAGE, CRAFT, or INSUFFICIENT EVIDENCE before touch",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-idea-courage-craft-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Observation Mind-Mine",
+   "gist": "You are applying David Perell's constrained mind-mining mechanic from `QsHm_0MEhX8` at 00:08:12\u201300:09:34 and his observation practice at 00:10:40\u201300:12:46. Surface what the writer actually noticed. Never simulate their e",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-observation-mind-mine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Past-Present Braid",
+   "gist": "You are applying David Perell's Modern World explanation from `QsHm_0MEhX8` at 01:26:07\u201301:29:06. The past earns its place only when a supported return changes how the reader sees the present. Do not mechanically alterna",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-past-present-braid.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Placeful Voice Audit",
+   "gist": "You are applying David Perell's placefulness diagnostic from `QsHm_0MEhX8` at 01:20:00\u201301:22:17. Ask whether the work could have come from anywhere or anyone. Diagnose human source from supplied evidence; do not create l",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-placeful-voice-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Public Reps Learning Loop",
+   "gist": "You are applying David Perell's account of public expression changing awareness at 00:10:40\u201300:12:46, with Antigravity permission and evidence controls. You may prepare a practice protocol or interpret supplied event evi",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-public-reps-learning-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Scheduled-Current Archive",
+   "gist": "You are operationalizing David Perell's scheduled-current preparation and modular readiness from `QsHm_0MEhX8` at 00:28:45\u201300:35:02. Map durable archive material only to sourced future windows that have a workflow 08 `SC",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-scheduled-current-archive.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Timely Shell, Timeless Core",
+   "gist": "You are applying David Perell's why-now frame swap from `QsHm_0MEhX8` at 00:31:05\u201300:32:52. The current may change the entrance, never the thesis, claim set, certainty, evidence, causality, or conclusion. Run only after ",
+   "path": "skills/david-perell-writing/references/prompts-v2/david-perell-timely-shell-timeless-core.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
    "title": "David Perell \u2014 Diagnose and Rebalance a Draft",
-   "gist": "You are David Perell, \"the writing guy on Twitter\" (430k followers), founder of Write of Passage, host of the How I Write podcast. Your core thesis: the world doesn't reward the people with the best ideas \u2014 it rewards th",
+   "gist": "You are David Perell, founder of Write of Passage and host of the How I Write podcast, applying the preserved POP craft system after the upstream bottleneck has been checked. Do not assume the idea is fine. Use this prom",
    "path": "skills/david-perell-writing/references/prompts-v2/diagnose-and-rebalance.md"
   },
   {

@@ -1,0 +1,47 @@
+{
+  "band": "RICH",
+  "corpus_words": 20537,
+  "extension": true,
+  "yields": {
+    "patterns": 17,
+    "hidden": 14,
+    "exemplars": 6,
+    "deliverables": 10,
+    "stacking_hits": 9
+  },
+  "workflows": 13,
+  "preserved_workflows": 3,
+  "new_workflows": 10,
+  "tiers": {
+    "placement": "into existing skill's tier table (Foundation for gates/audits, Practitioner for asset production, Stacking for cross-expert)"
+  },
+  "prompts_floor": 10,
+  "references": [
+    "genius patterns and hidden knowledge",
+    "claims ledger and source provenance",
+    "calibration exemplars and anti-exemplars",
+    "cross-domain boundaries and implementation schema",
+    "rubric, fixtures, and preservation lock"
+  ],
+  "orchestrator_eligible": false,
+  "agent": "required (AGENT.md + memory + front door via sync_registries)",
+  "fidelity": "full",
+  "build_state": "PHASE_8_FINALIZED_B_TIER",
+  "proof_state": "SOURCE_VERIFIED_RUNTIME_OBSERVED_FIXTURE_HUMAN_RECOGNITION_DEFERRED",
+  "verification": {
+    "static_contract_checks": "24/24 PASS",
+    "runtime_fixtures": "18/18 PASS",
+    "heartbeat": "7/7 PASS",
+    "prompt_renaissance": "3782/3782 PASS",
+    "codex_surface": "STRICT PASS",
+    "blind_reference_corpus": "2/2 READY",
+    "human_blind_verdict": "DEFERRED",
+    "market_effect": "UNOBSERVED"
+  },
+  "finalization": {
+    "chain_composite": "7.0/10 B-TIER",
+    "forge_record": "SHIPPED_LOCAL_2026-08-04",
+    "notion_mirror": "SKIPPED_NO_EXTERNAL_WRITE_AUTHORIZATION"
+  },
+  "note": "Floors are minimums earned by the corpus; scale up when yields demand it."
+}

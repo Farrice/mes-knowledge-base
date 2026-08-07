@@ -668,3 +668,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-03 16:08]` **lint** | Lint scan — 69 issues (45 errors, 12 warnings) — Files scanned: 782
 - `[2026-08-04 08:14]` **finalize** | Gacha companion market validation, narrow paid wedge, rights boundary, and one-game MVP architecture | general | samuel-thompson — composite:6.67 status:Needs Improvement
 - `[2026-08-04 08:14]` **finalize** | Research report answering whether roster-aware casual-player gacha companions already exist, how to  | general | samuel-thompson — composite:6.0 status:Needs Improvement
+- `[2026-08-04 16:04]` **finalize** | David Perell Idea-to-Culture extraction Vision and source ledger at Checkpoint 1 | general | david-perell — composite:6.0 status:Needs Improvement
+- `[2026-08-04 16:05]` **finalize** | David Perell Idea-to-Culture extraction Vision and source ledger at Checkpoint 1 | general | david-perell — composite:7.0 status:Needs Improvement
+- `[2026-08-04 16:35]` **finalize** | David Perell Deep MES extraction and Idea-to-Culture Architecture Checkpoint 2 | general | david-perell — composite:7.8 status:Keep
+- `[2026-08-04 18:00]` **finalize** | David Perell — Idea-to-Culture mastery extraction (forge) | general | david-perell — composite:7.0 status:Needs Improvement

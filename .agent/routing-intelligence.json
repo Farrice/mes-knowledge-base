@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 57,
+            "total_routings": 61,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
@@ -465,7 +465,7 @@
                 "System": 3,
                 "supercomputer": 4,
                 "Creative": 1,
-                "Strategy": 2,
+                "Strategy": 5,
                 "luke-iha-copy-blocks": 1,
                 "adam-sandler-second-brain-gtm": 1,
                 "jen-santulan-listing-content": 4,
@@ -483,7 +483,8 @@
                 "wordsatscale-seo-ranking": 1,
                 "alex-myatt-creative-engine": 1,
                 "mcp-builder": 1,
-                "stefan-georgi-dopamine-copy": 1
+                "stefan-georgi-dopamine-copy": 1,
+                "Extraction": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
@@ -528,10 +529,11 @@
                 "fantastic-posters": 1,
                 "samuel-thompson": 2,
                 "stefan-georgi-dopamine-copy": 1,
-                "creative-campaign-strategy": 1
+                "creative-campaign-strategy": 1,
+                "david-perell": 4
             },
             "tier_counts": {
-                "0": 57,
+                "0": 61,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -540,9 +542,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 41,
-                "finalize-auto": 16
+                "finalize-auto": 20
             },
-            "ensemble_count": 23,
+            "ensemble_count": 27,
             "auto_miss_count": 3
         }
     },
@@ -1563,6 +1565,74 @@
             "workflow_used": "stefan-georgi-dopamine-copy",
             "ensemble": true,
             "compound_pairing": "stefan-georgi-dopamine-copy + creative-campaign-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_230448_98ec",
+            "timestamp": "2026-08-04T23:04:48.867746+00:00",
+            "session_id": "",
+            "request_summary": "David Perell Idea-to-Culture extraction Vision and source ledger at Checkpoint 1",
+            "intent_score": 4,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "david-perell"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_230520_e4db",
+            "timestamp": "2026-08-04T23:05:20.258737+00:00",
+            "session_id": "",
+            "request_summary": "David Perell Idea-to-Culture extraction Vision and source ledger at Checkpoint 1",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "david-perell"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_233520_08ed",
+            "timestamp": "2026-08-04T23:35:20.459687+00:00",
+            "session_id": "",
+            "request_summary": "David Perell Deep MES extraction and Idea-to-Culture Architecture Checkpoint 2",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "david-perell"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_010019_0013",
+            "timestamp": "2026-08-05T01:00:19.895936+00:00",
+            "session_id": "",
+            "request_summary": "David Perell — Idea-to-Culture mastery extraction (forge)",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "david-perell"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

@@ -94,3 +94,113 @@ Failure modes Perell names explicitly and rejects — sourced to the passages al
 - **Sequence-rigid POP templates.** "You don't need all three [pillars] in order" — imposing a fixed Personal-then-Observational-then-Playful structure on every draft produces formulaic writing that fails the Playful pillar by construction. Never mechanically sequence the pillars. (source: skills/david-perell-writing/genius.md, Insight: The Pillars Don't Need Order or Equal Weight)
 - **Information without connection.** Perell's diagnosis of smart, credentialed writers: "Information is not enough. You also need to connect" — never assume more insight fixes flat engagement when the actual deficit is Personal + Playful. (source: skills/david-perell-writing/genius.md, Insight: Connection Is the X-Factor Information Can't Buy)
 - **Single-pillar drafts.** Perell's failure-mode table names the disease directly: Personal-only reads as "a diary entry," Observational-only as "a lame scientific paper," Playful-only as "a tabloid" — never ship a draft missing two of three pillars, however polished any one of them is. (source: skills/david-perell-writing/genius.md, Pattern: The Failure-Mode Diagnostic; per `SKILL.md` frontmatter, original session 2026-07-01)
+
+## Idea-to-Culture Operating Layer (QsHm_0MEhX8, 2026-08-04)
+
+This section is a separate source lane. It expands the Perell judgment system but does not upgrade the evidence labels for POP above.
+
+### Pattern: Seed-Investor Idea Selection
+
+David Perell treats a messy idea like an early bit: the writer invests attention before demanding polish. A topic or reach ambition is not enough; the seed needs a concrete observation, a claim, and repeatable potential. **Execute:** select the idea with the strongest evidence-backed tension, then name what is still unknown. **Success:** the idea can teach and travel without a topical wrapper. Source: David, 00:01:49–00:02:34.
+
+### Pattern: Three-Bottleneck Diagnosis
+
+David separates IDEA, COURAGE, and CRAFT before revision. This matters because the same flat draft can come from no thought, a supported thought the writer keeps softening, or weak execution. **Execute:** choose one primary bottleneck from supplied evidence; use `INSUFFICIENT EVIDENCE` when the distinction cannot be made. **Success:** the next workflow treats the cause, not the sentence-level symptom. Source: David, 00:05:06–00:07:11.
+
+### Pattern: Output Changes Perception
+
+For David, repeated writing changes what the writer notices in ordinary life. Public output is therefore an upstream sensor, not merely a distribution event. **Execute:** after an authorized rep, record the new observation separately from response metrics. **Success:** the writer can name a change in attention even when market effect remains `UNTESTED`. Source: David, 00:07:30–00:08:12 and 00:10:40–00:12:46.
+
+### Pattern: Constrained Mind Mining
+
+David's page-fill practice uses one sheet, a pen, no phone, and a finish condition. The constraint pushes past obvious thoughts before the writer chooses. **Execute:** preserve raw wording, label observations versus interpretations, and select only after the capture boundary is complete. **Success:** at least one grounded tension appears that was not copied from the immediate feed. Source: David, 00:08:12–00:09:34; dirty-water comparison credited by David to John Mayer or Ed Sheeran.
+
+### Pattern: Public Expression Reveals Awareness
+
+David describes public expression as practice that sharpens opinions and awareness. Antigravity adds permission and evidence safeguards. **Execute:** before publication return an Authorized Rep Protocol with `NO EVENT`; after supplied evidence return a Rep Learning Receipt with observed facts, confounds, and one next rep. **Success:** learning is specific while reach, fit, conversion, and revenue remain separate. Source: David, 00:10:40–00:12:46.
+
+### Pattern: Expansion Before Compression
+
+David's sequence is full expression, then 60 seconds, 20 seconds, and 10 seconds. Starting short removes the conceptual mass needed for truthful distillation. **Execute:** freeze the invariant claim, compress downward, and log every meaningful loss. **Success:** the shortest version is specific enough that it could not fit an unrelated idea. Source: David, 00:15:23–00:16:04. Nathan Barry's re-expansion step remains separately attributed to Ultraspeaking.
+
+### Pattern: Jargon on Trial
+
+While reviewing a source-attested 160 pages of script, David challenges technical language rather than deleting it automatically. **Execute:** require each term to provide precision that plain language cannot; otherwise replace it. **Success:** accessibility rises without changing scope, certainty, or causal meaning. Source: David, 00:03:18–00:04:51.
+
+### Pattern: Quality and Current as Separate Variables
+
+David refuses the shortcut that high response proves better writing. Current velocity changes the result without settling idea or execution quality. **Execute:** judge idea, execution, current, audience fit, and response in separate rows. **Success:** a viral wrong-audience artifact is not called a business or craft win. Source: David, 00:17:16–00:20:52.
+
+### Pattern: Culturally Shared-Object Lift
+
+David's Home Alone house example shows a familiar object carrying an abstract design claim. The object changes salience, not substance. **Execute:** lock the thesis and test whether the shared object creates a truthful reason to care now. **Success:** the claim set survives a before-and-after comparison. Source: David, 00:20:52–00:23:21; the referenced visual details are unavailable.
+
+### Pattern: Fast Current Scan
+
+David describes a brief scan of broad news and less-personalized discovery surfaces. The Perell skill does not perform that research. **Execute:** require a sourced Signal Packet from the Attention Hijack or equivalent owner. **Success:** source, date, audience relevance, uncertainty, and expiry exist before fit is judged. Source: David, 00:27:25–00:28:18.
+
+### Pattern: Scheduled-Current Preparation
+
+David looks ahead to predictable anniversaries, films, albums, sports events, and releases. Antigravity turns this into a calendar artifact. **Execute:** map durable archive material to a supported window with preparation date, release window, expiry, invariant core, and fallback. **Success:** invalid pairings remain HOLD rows instead of forced hooks. Source: David, 00:28:45–00:29:46.
+
+### Pattern: Timely Shell, Timeless Core
+
+David's highest-leverage current move is often a small frame swap around an unchanged idea. **Execute:** freeze thesis, claims, evidence, and conclusion; generate shells only after current fit passes; compare every shell to the lock. **Success:** a claim-delta ledger shows zero material drift and an evergreen fallback survives expiry. Source: David, 00:31:05–00:32:52.
+
+### Pattern: Modular Current Readiness
+
+David develops parts of a larger work so a matching current can activate one without severing it from the whole. **Execute:** give each module a claim, evidence, context, and return path. **Success:** the module works alone and still reconnects to the parent work. Source: David, 00:34:20–00:35:02.
+
+### Pattern: Reps Create Cultural Option Value
+
+David argues that current-sensitive speed depends on practice completed before the opening appears. **Execute:** name the rehearsal and archive work required before a future window. **Success:** the plan builds capacity rather than waiting for a trend. Source: David, 00:36:01–00:36:21.
+
+### Pattern: Past-Present Braiding
+
+In David's Modern World explanation, historical craft earns attention by revealing what standardized modern production has made normal. **Execute:** make every return to the present produce a supported contrast that changes interpretation. **Success:** removing a present beat would remove an insight, not merely a transition. Source: David, 01:26:07–01:29:06.
+
+### Pattern: Placefulness as an Anti-Template Test
+
+David asks whether work could have come from anywhere or anyone. Placefulness is evidence of a human source, not decorative specificity. **Execute:** identify supplied person/place facts, map generic zones, and request missing evidence. **Success:** sparse truth improves the draft without invented streets, memories, emotions, sensory facts, or dialogue. Source: David, 01:20:00–01:22:17; visual properties are unavailable.
+
+### Pattern: Current Riding as a Means
+
+David's Porter Robinson synthesis treats popular currents as a way to earn freedom for deeper work. The third-party career account is source-attested, not independently verified. **Execute:** record soul work and non-negotiables before classifying opportunities. **Success:** the system rejects a high-attention route when it would steadily replace the mission. Source: David, 01:33:51–01:35:31.
+
+## Idea-to-Culture Hidden Knowledge
+
+1. Weak prose can be a false symptom; an empty or withheld claim cannot be edited into life.
+2. Public output can change perception before it changes audience size.
+3. A complete capture constraint prevents the first respectable thought from winning too early.
+4. Compression needs conceptual mass; immediate brevity often creates slogans.
+5. Response is confounded evidence across craft, packaging, current, audience, and reach.
+6. A current changes the entrance more readily than the house.
+7. An archive is a store of future cultural options.
+8. Fast response is often the return on slow practice.
+9. Historical contrast matters when it diagnoses the present.
+10. Placelessness exposes template dependence across media.
+11. Brand fit is Nathan Barry's separately attributed refinement.
+12. Audience response is evidence, never an oracle.
+13. A tactic can fund freedom in one phase and become identity drift in another.
+14. `HOLD` is an Antigravity safety state, not a David Perell quote.
+
+## Idea-to-Culture Anti-Patterns
+
+- **Empty viral ambition** — distribution desire without a specific idea; David includes his younger self, 00:05:16–00:05:50.
+- **Synthetic courage** — inventing a controversial sentence because the writer supplied no supported stronger claim; forbidden by the 00:05:06–00:07:11 boundary.
+- **Immediate ten-second compression** — skipping David's expansion step, 00:15:42–00:16:04.
+- **Audience absolutism** — treating response as proof while deleting David's current caveats, 00:17:16–00:20:52.
+- **Forced cultural wrapper** — using a celebrity or event with no sourced payload fit; fails the Home Alone carrier logic at 00:20:52–00:23:21.
+- **Expired current cosplay** — publishing after a knowable window and calling it timely, against 00:28:45–00:29:46.
+- **Passive current waiting** — treating timing as a substitute for reps, against 00:36:01–00:36:21.
+- **Mechanical braid** — alternating eras without a revealing contrast, against 01:26:07–01:29:06.
+- **Placefulness cosplay** — inventing local color from one thin biography fact, against 01:20:00–01:22:17.
+- **Permanent optimization** — allowing current work to replace soul work, against 01:33:51–01:35:31.
+
+## Idea-to-Culture Recognition Test
+
+Would David Perell recognize this as a truthful movement from observation to idea to expression to cultural salience—or as generic content optimization wearing his nouns? The recognizable output diagnoses before editing, expands before compressing, keeps current separate from quality, preserves the core, and protects soul work. A manufactured hot take, audience-score oracle, thesis-drifting shell, or invented local detail fails on contact.
+
+## Decision Rubric
+
+Use `references/rubric_v1.md`. The five critical criteria are source fidelity and attribution, bottleneck routing, timeless-core preservation, current integrity and expiry, and truthful placefulness. A clean artifact with the wrong route is not a pass. A current-aware artifact with thesis drift is not a pass. Structural proof never becomes recognition or market proof by implication.

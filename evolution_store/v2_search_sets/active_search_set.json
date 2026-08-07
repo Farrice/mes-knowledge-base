@@ -3399,8 +3399,36 @@
         "gaming_flag": false
       },
       "notes": "Retried weakest intent-alignment dimension by naming all three requested outcomes and both games; current web evidence, pricing, user pain, legal constraints, and staged build plan included | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260804_160448",
+      "timestamp": "2026-08-04T16:04:48.869653",
+      "schema_version": "v3",
+      "component": "david-perell-writing",
+      "expert": "david-perell",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 6.0,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Source package verified; existing-skill expansion; POP provenance preserved; media companion parked | platform: codex | Verification: PASS"
     }
   ],
-  "total_cases": 120,
-  "last_updated": "2026-08-04T08:14:56.934370"
+  "total_cases": 121,
+  "last_updated": "2026-08-04T16:04:48.870821"
 }

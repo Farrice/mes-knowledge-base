@@ -14,7 +14,13 @@ Before labeling anything "no source exists," the following were actually searche
 | `agents/david-perell/AGENT.md`, `agents/david-perell/memory/context.md` | Read in full | Derived persona files, not raw source; `context.md` is an unpopulated stub ("To be populated") — no extraction content |
 | `.claude/worktrees/w3-lane3-repair-execution/skills/david-perell-writing/` | `find` | Sibling worktree copy of the same skill (no additional source material — same genius.md content) |
 
-**Conclusion: no raw transcript, interview, podcast, or chat-export file for David Perell exists anywhere in this repo.** `SKILL.md` frontmatter claims `source: claude.ai export 2026-07-01`, but that export session was never preserved as a file — only its distilled output (this skill's genius.md/SKILL.md/workflows) survived. This is a genuine, verified absence, not an unread gap.
+**Conclusion as of 2026-07-17: no raw transcript, interview, podcast, or chat-export file for David Perell existed anywhere in this repo.** `SKILL.md` frontmatter claimed `source: claude.ai export 2026-07-01`, but that export session was never preserved as a file — only its distilled output survived. This was a genuine, verified absence at that date, not an unread gap.
+
+## Addendum — new evidence lane captured 2026-08-04
+
+A later forge captured `extractions/david-perell-nathan-barry-2026/transcript-speaker-timestamped.txt` from `QsHm_0MEhX8`, SHA-256 `474df0c2c343e6e456223b78555f35598f6ced26e69d6848fc4f6aca910813b6`. It contains 20,537 speaker-labeled words from David Perell's 2026 interview with Nathan Barry.
+
+This does not make the earlier absence finding false; it records a new source acquired later. The new interview supports the Idea-to-Culture mechanics in `claims-ledger-QsHm_0MEhX8.md`. It does **not** verify POP, the Sizzle Spectrum, the highlight test, or the Buffett compression ladder, so the older labels below remain unchanged.
 
 ## Claims and labels
 

@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-08-04** [extract-forge/ready] [David Perell Idea-to-Culture — Forge Build (13 Workflows)](2026-08-04-extract-forge.md) — Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 - **2026-08-04** [creative-generation-os/done] [Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped](2026-08-04-creative-generation-os.md) — OS complete — start from guides/CREATIVE-OS-USER-GUIDE.md
 - **2026-08-04** [farrice-brand/active] [Farrice Brand — Eleven Day Sentence Script](2026-08-04-farrice-brand.md) — Farrice Brand — Eleven Day Sentence Script
 - **2026-08-03** [angle-map-listening-engine-v4-1/active] [2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean](2026-08-03-angle-map-listening-engine.md) — 2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean

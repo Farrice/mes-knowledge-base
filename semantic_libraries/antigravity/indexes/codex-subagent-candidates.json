@@ -1,0 +1,13 @@
+{
+  "candidate_count": 0,
+  "count": 0,
+  "generated_at": "2026-08-05T00:24:11.622852+00:00",
+  "generated_by": "execution/generate_codex_indexes.py",
+  "index_kind": "codex_subagent_candidates",
+  "items": [],
+  "schema_version": "1.0",
+  "source": ".claude/agents",
+  "sources": [
+    ".claude/agents/*.md"
+  ]
+}
