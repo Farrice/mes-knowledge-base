@@ -56,7 +56,12 @@ SPEND_LINKS = [
 # Committed generated artifacts: on merge conflict, keep ours + regenerate.
 GENERATED_FILES = {"SLASH_COMMANDS.md", "SKILL_INDEX.md", "AGENT_INDEX.md",
                    ".agent/handoffs/index.md", ".agent/handoffs/LATEST.md"}
-GENERATED_PREFIXES = (".claude/commands/",)
+GENERATED_PREFIXES = (".claude/commands/", "knowledge/compiled/")
+# Append-style ledger docs: both sides add entries; line-union preserves every
+# entry from both (same semantics as the .jsonl rule; dedupe per Law 2).
+UNION_DOCS = {"knowledge/log.md", "PROJECTS.md", "docs/solutions/index.md",
+              "guides/INDEX.md", "evolution_store/failure-registry.md",
+              "knowledge/index.md"}
 # (script, args) pairs, run against main after a merge that touched GENERATED
 GENERATORS = [("generate_slash_commands.py", []),
               ("sync_registries.py", []),
@@ -474,6 +479,26 @@ def _is_generated(path: str) -> bool:
     return path in GENERATED_FILES or path.startswith(GENERATED_PREFIXES)
 
 
+def _theirs_is_stale(main: Path, path: str, depth: int = 60) -> bool:
+    """During a conflict: True when THEIR version of `path` (stage 3) matches
+    some historical version of the file on main — the branch side is a stale
+    snapshot and taking ours provably loses nothing."""
+    rc, unmerged, _ = _git(main, "ls-files", "-u", "--", path)
+    th = None
+    for line in unmerged.splitlines():
+        parts = line.split()          # mode sha stage\tpath
+        if len(parts) >= 3 and parts[2] == "3":
+            th = parts[1]
+    if not th:
+        return False
+    rc, revs, _ = _git(main, "rev-list", f"-{depth}", "HEAD", "--", path)
+    for rev in revs.split():
+        rc2, h, _ = _git(main, "rev-parse", f"{rev}:{path}")
+        if rc2 == 0 and h == th:
+            return True
+    return False
+
+
 def _park(main, lane, branch, reason) -> int:
     _git(lane, "push", "-u", "origin", branch, timeout=90)  # best effort
     reg = load_registry(main)
@@ -589,7 +614,7 @@ def cmd_merge(args) -> int:
                     _git(main, "add", "--", u)
                     if u not in gen_touched:
                         gen_touched.append(u)
-                elif u.endswith(".jsonl"):
+                elif u.endswith(".jsonl") or u in UNION_DOCS:
                     rcA, ours, _ = _git(main, "show", f":2:{u}")
                     rcB, theirs, _ = _git(main, "show", f":3:{u}")
                     if rcA == 0 and rcB == 0:
@@ -600,6 +625,11 @@ def cmd_merge(args) -> int:
                         _git(main, "add", "--", u)
                     else:
                         unresolved.append(u)
+                elif _theirs_is_stale(main, u):
+                    # Branch side's content is (an ancestor of) main history for
+                    # this path — provably holds no information main lacks.
+                    _git(main, "checkout", "--ours", "--", u)
+                    _git(main, "add", "--", u)
                 else:
                     unresolved.append(u)
             if unresolved:

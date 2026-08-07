@@ -195,3 +195,5 @@ _active/hyperframes-studio/
 .agent/health/self-heal-report.json
 .agent/handoffs/index.md
 .agent/handoffs/LATEST.md
+.agent/forge-state.json
+.agent/run-receipts/
