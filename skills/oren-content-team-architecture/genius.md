@@ -285,7 +285,7 @@ Last cycle's midfunnel — value tips, how-to-use-your-product, bookmarkable edu
 
 ## Anti-Patterns (Sourced)
 
-Each anti-pattern below is anchored to a verbatim quote already carried in the "Patterns from claude.ai export — Oren John conversations (2026-07-01)" section above (genius.md, this file) — see `references/source-ledger.md` for the LIKELY/UNCONFIRMED status of each underlying quote (the raw transcript file could not be located in `extractions/` or `_active/claude-export/` at time of repair).
+Each anti-pattern below is anchored to a verbatim quote already carried in the "Patterns from claude.ai export — Oren John conversations (2026-07-01)" section above (genius.md, this file) — see `references/source-ledger.md` for the LIKELY/UNCONFIRMED status of each underlying quote (the raw transcript file could not be located in `extractions/` or `_active/harness/claude-export/` at time of repair).
 
 - **Blaming the algorithm when views drop.** Never treat a hook-rate decline as an algorithm change first — Oren John, 2026-07-01 (claude.ai export): "it's literally everyone is getting better." Diagnose competitive-bar creep before touching targeting.
 - **Running full AI-generated UGC as the entire asset.** Don't extend AI generation past the 1-3 second hook — Oren John, 2026-07-01: "we test everything — that does not work super well." Full AI UGC fails in live ad accounts.

@@ -22,5 +22,5 @@ sized (`wc -c`), extracted via selective `tar` member extraction from
 
 All 6 source conversation files, their real byte sizes, and the search
 process used to locate them (93 Ash Maurya conversations found in
-`_active/claude-export/index.json`, 6 sampled) are documented in full in
+`_active/harness/claude-export/index.json`, 6 sampled) are documented in full in
 `references/source-ledger.md`.

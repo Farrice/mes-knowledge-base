@@ -2,7 +2,7 @@
 
 Repair pass, Wave 3 Lane 4 Batch 13 (2026-07-17/18). Ground-truth check per envelope: `ls extractions/ | grep -i flynn` and `find . -iname "*pat*flynn*"` return **no dedicated Pat Flynn extraction folder** under `extractions/` — the skill's own frontmatter records `source: claude.ai export 2026-07-01`, pointing at the bulk Claude conversation archive, not a standalone extraction.
 
-That archive was located and read directly (not assumed empty): `_archive/claude-export-2026-07-01.tar.gz` (317MB) contains a normalized-conversations tree at `claude-export/normalized/conversations/*.md`. `_active/claude-export/index.json` lists 21 Pat Flynn-titled conversations. Five were opened this pass via `python3 tarfile` per-member extraction (member name, decompressed size recorded below) and grepped for the claims already asserted in `genius.md`. The remaining ~16 Pat Flynn conversations in the archive were **not** opened this pass — claims traceable only to those are labeled UNCONFIRMED, not silently assumed true.
+That archive was located and read directly (not assumed empty): `_archive/claude-export-2026-07-01.tar.gz` (317MB) contains a normalized-conversations tree at `claude-export/normalized/conversations/*.md`. `_active/harness/claude-export/index.json` lists 21 Pat Flynn-titled conversations. Five were opened this pass via `python3 tarfile` per-member extraction (member name, decompressed size recorded below) and grepped for the claims already asserted in `genius.md`. The remaining ~16 Pat Flynn conversations in the archive were **not** opened this pass — claims traceable only to those are labeled UNCONFIRMED, not silently assumed true.
 
 ## Sources Opened (size = decompressed member size, confirmed non-zero)
 

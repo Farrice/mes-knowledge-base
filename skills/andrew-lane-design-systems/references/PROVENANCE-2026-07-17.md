@@ -21,7 +21,7 @@ anchor-to-location index the adversarial verifier should open first.
 |---|---|---|
 | Expert-specific extraction directory | `find extractions -iname "*lane*"` | 0 results |
 | Archived claude.ai export tarball | `tar -tzf _archive/claude-export-2026-07-01.tar.gz \| wc -l` = 3,864; then grep for `lane\|mood.?board\|dude.?woof` | 0 matches |
-| Harvest manifest | `_active/claude-export/harvest/lanes-build-input.json`, 18,471 bytes, parsed fully as JSON | No entry for andrew-lane |
+| Harvest manifest | `_active/harness/claude-export/harvest/lanes-build-input.json`, 18,471 bytes, parsed fully as JSON | No entry for andrew-lane |
 | Raw conversation directory | `.tmp/claude-export/normalized/conversations/` | Does not exist |
 
 All six skill files' sizes were recorded with `wc -c` (not `wc -l`) before any edit, per

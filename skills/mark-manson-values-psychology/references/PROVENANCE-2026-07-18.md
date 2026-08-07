@@ -2,7 +2,7 @@
 
 Anchor → source file + location for every claim added or newly cited in this repair. Full claim table also lives in `references/source-ledger.md`; this file is the flat anchor index the adversarial verifier can walk quote-by-quote.
 
-Ground-truth discovery: `ls extractions/ | grep -i manson` returned nothing — no `extractions/` directory exists for this expert. Real source material was traced via `agents/mark-manson/memory/context.md` (names the two Solved Podcast episodes) → `_active/claude-export/harvest/census-full.json` (contains an "expert": "Mark Manson" entry with 4 unique conversation IDs) → the 332MB `_archive/claude-export-2026-07-01.tar.gz`, opened with Python's `tarfile` module and the 4 specific conversation `.md` members extracted by exact tarball path (never assumed absent — recovered and read in full).
+Ground-truth discovery: `ls extractions/ | grep -i manson` returned nothing — no `extractions/` directory exists for this expert. Real source material was traced via `agents/mark-manson/memory/context.md` (names the two Solved Podcast episodes) → `_active/harness/claude-export/harvest/census-full.json` (contains an "expert": "Mark Manson" entry with 4 unique conversation IDs) → the 332MB `_archive/claude-export-2026-07-01.tar.gz`, opened with Python's `tarfile` module and the 4 specific conversation `.md` members extracted by exact tarball path (never assumed absent — recovered and read in full).
 
 | Anchor location in genius.md | Source file (in `raw-sources/`) | Line range | Verbatim anchor |
 |---|---|---|---|

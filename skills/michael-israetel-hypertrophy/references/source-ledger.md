@@ -8,7 +8,7 @@ repair (`.tmp/wave3-batch2/ENVELOPE.md`).
 
 No `extractions/` folder exists for Israetel (`ls extractions/ | grep -i israetel` returns
 zero matches). But the primary source is **not absent** — it is the two claude.ai
-conversations referenced by `_active/claude-export/index.json`, whose transcripts are inside
+conversations referenced by `_active/harness/claude-export/index.json`, whose transcripts are inside
 the archive `_archive/claude-export-2026-07-01.tar.gz` (confirmed by `tar -tzf` listing and
 extraction; file sizes below, not "0-byte"/"unrecoverable"):
 

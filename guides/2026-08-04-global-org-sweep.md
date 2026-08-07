@@ -59,7 +59,7 @@ status: enriched
 
 **How to invoke.** `sync` (write) · `check` (dry-run drift) · `json`.
 
-**Honest edges.** Last-touched excludes bulk sweeps (≥10 projects in one commit) and generated maps, because raw mtime made 14 cold projects read "active" — but a housekeeping commit touching fewer than 10 projects still counts as activity. `_active/claude-export` is gitignored and falls back to filesystem mtime.
+**Honest edges.** Last-touched excludes bulk sweeps (≥10 projects in one commit) and generated maps, because raw mtime made 14 cold projects read "active" — but a housekeeping commit touching fewer than 10 projects still counts as activity. `_active/harness/claude-export` is gitignored and falls back to filesystem mtime.
 
 ### `execution/project_relocate.py` — move a directory with its links
 **What it is.** `git mv` (history preserved) + rewrite of every referrer including control-plane files + receipt + an inverse line flushed **before** the rewrite phase, so a mid-run crash is still undoable.

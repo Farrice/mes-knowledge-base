@@ -49,7 +49,7 @@ Media?" (claude.ai export tranche 2, 2026-07-10)*. Searched for this pass:
 `grep -rli "goldilocks\|grandfather" --include="*.md" .` (repo-wide, excluding
 node_modules) — zero hits outside the two `kallaway-ai-content-engine/genius.md` copies
 (this skill's own file and its untouched worktree mirror). Searched
-`_active/claude-export/` (INDEX.md, canonical-systems.json, index.json, state.json,
+`_active/harness/claude-export/` (INDEX.md, canonical-systems.json, index.json, state.json,
 routed-decisions.json, harvest/, reports/, triage/) by filename and grep — no
 Goldilocks/trust-grandfathering content found. Searched `_archive/claude-export-2026-07-01.tar.gz`
 by listing (`tar -tzf`) filtered for `kallaway` — zero matching entries. No file
@@ -112,5 +112,5 @@ this repair pass could not locate the source file to verify them.
 | `_active/harness/codex-harvest-2026-06-11/brain/.../kallaway-expansion-vision.md` | 10,158 bytes | Confirms this skill's own genesis document cites the same ImzoNTrgvFg source and video-date |
 | `skills/kallaway-social-commerce/genius.md` | 20,006 bytes | Sibling skill — same source video, format/anchor-style reference only, not copied verbatim |
 | `skills/kallaway-social-commerce/references/source-ledger.md` | (read in full) | Confirmed independent discovery of the same ImzoNTrgvFg mismatch by a different repair pass — cross-validates this finding |
-| `_active/claude-export/` (INDEX.md, state.json, index.json, routed-decisions.json, harvest/, reports/, triage/) | directory scan + grep | Searched for Pattern 7's "claude.ai export tranche 2" — not found |
+| `_active/harness/claude-export/` (INDEX.md, state.json, index.json, routed-decisions.json, harvest/, reports/, triage/) | directory scan + grep | Searched for Pattern 7's "claude.ai export tranche 2" — not found |
 | `_archive/claude-export-2026-07-01.tar.gz` | tarball listing only | Searched (filtered `kallaway`) for Pattern 7 source — no matching entries |

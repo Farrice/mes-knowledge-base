@@ -61,6 +61,6 @@ Every VERIFIED row above was located by direct string search inside the
 extracted `.md` transcript files, not inferred from the pre-existing
 `genius.md` prose. Extraction command used: `tar -xzf
 _archive/claude-export-2026-07-01.tar.gz -C <scratch> claude-export/normalized/conversations/<id>.md`
-for the three IDs listed in `_active/claude-export/harvest/census-full.json`
+for the three IDs listed in `_active/harness/claude-export/harvest/census-full.json`
 entry `expert: "Dakota"`. File sizes above are `wc -c` on the extracted
 files, not estimates.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """claude_export_state.py — shared checkpoint for the claude.ai export import pipeline.
 
-One JSON file (`_active/claude-export/state.json`) tracks every stage's progress at
+One JSON file (`_active/harness/claude-export/state.json`) tracks every stage's progress at
 conversation granularity so the whole import is resumable across sessions: kill any
 stage, re-run it, and it continues from the last-marked key.
 

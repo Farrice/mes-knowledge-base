@@ -6,7 +6,7 @@ detail (including the pre-existing genius.md patterns, spot-verified) is in
 
 ## Primary source located and used
 
-- `_active/claude-export/index.json` → two conversation records with `"israetel"` in the
+- `_active/harness/claude-export/index.json` → two conversation records with `"israetel"` in the
   title, each with an `md_path` pointing into `.tmp/claude-export/normalized/conversations/`
   (not present on disk — that `.tmp/` scratch was cleared).
 - Recovered from `_archive/claude-export-2026-07-01.tar.gz` (verified present, 332,779,255

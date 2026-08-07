@@ -15,7 +15,7 @@ certifies.
 |---|---|---|
 | `extractions/` directory for this expert | `find extractions -iname "*lane*"` | 0 hits — no extraction directory exists |
 | Archived claude.ai export | `tar -tzf _archive/claude-export-2026-07-01.tar.gz` (3,864 entries confirmed readable) then grepped for `lane\|mood.?board\|dude.?woof` | 0 matches — the tarball is real and large but contains nothing Lane-specific |
-| Harvest build manifest | `_active/claude-export/harvest/lanes-build-input.json` (18,471 bytes, read in full via Python `json.load`) | No entry with `skill` or `agent` containing "lane" — the file's name ("lanes") refers to build lanes, not Andrew Lane |
+| Harvest build manifest | `_active/harness/claude-export/harvest/lanes-build-input.json` (18,471 bytes, read in full via Python `json.load`) | No entry with `skill` or `agent` containing "lane" — the file's name ("lanes") refers to build lanes, not Andrew Lane |
 | Raw normalized conversations | `.tmp/claude-export/normalized/conversations/` (the path referenced by the harvest manifest) | Directory does not exist (`ls` error: No such file or directory) — the raw transcripts were never persisted past the original ingestion |
 | Skill's own file sizes (confirm not 0-byte / not truncated) | `wc -c` on every file in `skills/andrew-lane-design-systems/` | SKILL.md 3,928 B · genius.md 11,365 B · workflows/01 4,436 B · workflows/02 4,036 B · workflows/03 5,078 B · references/prompts-v2/brand-vibe-foundation.md 9,347 B · references/prompts-v2/brand-layer-library.md 7,969 B · references/prompts-v2/business-branding-decision-split.md 8,997 B — all non-empty, all real content |
 

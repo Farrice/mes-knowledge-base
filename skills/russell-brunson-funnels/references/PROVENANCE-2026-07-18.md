@@ -1,6 +1,6 @@
 # Provenance — russell-brunson-funnels repair
 
-Ground truth located via name-fragment search (`grep -ril brunson`) which found no `extractions/russell-brunson*` dir. Traced instead through `_active/claude-export/harvest/census-full.json` (expert="Russell Brunson", 10 conversation ids) to the raw tarball `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes). Used `python3 tarfile` to scan and extract the 10 matching conversation markdown files from `claude-export/normalized/conversations/<id>.md` — sizes recorded in `references/source-ledger.md`. Every quote cited below was read directly from the extracted transcript text, not from memory.
+Ground truth located via name-fragment search (`grep -ril brunson`) which found no `extractions/russell-brunson*` dir. Traced instead through `_active/harness/claude-export/harvest/census-full.json` (expert="Russell Brunson", 10 conversation ids) to the raw tarball `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes). Used `python3 tarfile` to scan and extract the 10 matching conversation markdown files from `claude-export/normalized/conversations/<id>.md` — sizes recorded in `references/source-ledger.md`. Every quote cited below was read directly from the extracted transcript text, not from memory.
 
 ## Anchor → Source Table (new content added this repair)
 

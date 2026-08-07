@@ -6,7 +6,7 @@ Ground-truth source located: no `extractions/` directory matches "aragon" (check
 instead. Confirmed real, non-empty source material (this satisfies rule #2 of the
 envelope — verified via actual file reads and recorded sizes, not asserted absent):
 
-- `_active/claude-export/index.json` lists 5 conversations with "Alan Aragon" in the
+- `_active/harness/claude-export/index.json` lists 5 conversations with "Alan Aragon" in the
   title (ids: `31c83d77-6e5b-4966-9b84-e70a814e446c`, `a68ee5f7-6258-48c7-9469-151c38367620`,
   `1db2cbc6-69fa-4016-a4c6-ed5f052fee69`, `7e474b9e-16d2-4808-b683-13b3aaf1934f`,
   `375a40ce-46f0-43c4-8336-158eed3b6a1b`).
