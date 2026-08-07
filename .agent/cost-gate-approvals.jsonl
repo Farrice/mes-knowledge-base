@@ -1,4 +1,0 @@
-{"service": "higgsfield-cinema", "ts": "2026-06-10T01:35:37.750649+00:00", "expires_at": "2026-06-10T01:50:37.750649+00:00", "request": "test approval", "used": "2026-06-10T01:35:37.785304+00:00"}
-{"service": "fal-poster", "ts": "2026-07-04T16:10:25.241779+00:00", "expires_at": "2026-07-04T16:25:25.241779+00:00", "request": ""}
-{"service": "fal-seedance-480p", "ts": "2026-08-02T21:34:59.055059+00:00", "expires_at": "2026-08-02T21:49:59.055059+00:00", "request": "5s teaser test: animate carousel01 cover-clean (Farrice explicit go this session)"}
-{"service": "fal-seedance-480p", "ts": "2026-08-02T22:03:10.181215+00:00", "expires_at": "2026-08-02T22:18:10.181215+00:00", "request": "teaser REDO w/ cinema-worldbuilder grammar (Farrice picked 480p in fork question)"}
