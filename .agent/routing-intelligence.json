@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 57,
+            "total_routings": 61,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
@@ -460,7 +460,7 @@
                 "Research": 4,
                 "fresh-voice-system": 4,
                 "Content": 5,
-                "Analysis": 1,
+                "Analysis": 4,
                 "alex-copper-creative-strategy": 1,
                 "System": 3,
                 "supercomputer": 4,
@@ -483,7 +483,8 @@
                 "wordsatscale-seo-ranking": 1,
                 "alex-myatt-creative-engine": 1,
                 "mcp-builder": 1,
-                "stefan-georgi-dopamine-copy": 1
+                "stefan-georgi-dopamine-copy": 1,
+                "Extraction": 1
             },
             "expert_counts": {
                 "meg-heckman-buyer-trigger-os": 1,
@@ -493,7 +494,7 @@
                 "fresh-voice-system": 4,
                 "luke-iha-creative-strategy": 4,
                 "Oren Operational Systems": 2,
-                "extract-mastery": 1,
+                "extract-mastery": 4,
                 "alex-copper-creative-strategy": 1,
                 "alex-copper": 5,
                 "supercomputer": 4,
@@ -528,10 +529,11 @@
                 "fantastic-posters": 1,
                 "samuel-thompson": 2,
                 "stefan-georgi-dopamine-copy": 1,
-                "creative-campaign-strategy": 1
+                "creative-campaign-strategy": 1,
+                "luke-iha": 1
             },
             "tier_counts": {
-                "0": 57,
+                "0": 61,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -540,9 +542,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 41,
-                "finalize-auto": 16
+                "finalize-auto": 20
             },
-            "ensemble_count": 23,
+            "ensemble_count": 27,
             "auto_miss_count": 3
         }
     },
@@ -1563,6 +1565,74 @@
             "workflow_used": "stefan-georgi-dopamine-copy",
             "ensemble": true,
             "compound_pairing": "stefan-georgi-dopamine-copy + creative-campaign-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_230240_7887",
+            "timestamp": "2026-08-04T23:02:40.541115+00:00",
+            "session_id": "",
+            "request_summary": "Adil Amarsi source-grounded extract-forge Vision checkpoint",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "extract-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_230313_4911",
+            "timestamp": "2026-08-04T23:03:13.016033+00:00",
+            "session_id": "",
+            "request_summary": "Adil Amarsi source-grounded extract-forge Vision checkpoint",
+            "intent_score": 8,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "extract-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_233216_16bc",
+            "timestamp": "2026-08-04T23:32:16.852003+00:00",
+            "session_id": "",
+            "request_summary": "Adil Amarsi Deep Extraction and Profit-Finder Opportunity Scan architecture checkpoint",
+            "intent_score": 8,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "extract-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260805_005633_43e4",
+            "timestamp": "2026-08-05T00:56:33.620836+00:00",
+            "session_id": "",
+            "request_summary": "Adil Amarsi source delta — Luke Iha Profit-Finder Opportunity Scan in-place extraction forge",
+            "intent_score": 8,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "luke-iha"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

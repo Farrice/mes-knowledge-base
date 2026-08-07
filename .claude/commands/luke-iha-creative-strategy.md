@@ -1,5 +1,5 @@
 ---
-description: "The meta-skill above copywriting — deciding WHAT to say, to WHOM, and WHY before writing begins. Includes Upwork mastery, portfolio architecture, Nuclear VSL technique, objection-annihilating proposals, offer cycling, the Agency Ladder, and 12 types of leverage for building a..."
+description: "Use before copywriting when the audience, buying situation, use case, encounter surface, market, angle, or proof burden is unresolved; also use for Luke Iha's freelance positioning, client acquisition, offer cycling, and control-beating systems."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

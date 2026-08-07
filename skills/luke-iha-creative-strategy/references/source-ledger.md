@@ -80,3 +80,24 @@ skills/luke-iha-creative-strategy/references/genius-patterns.md 6,476 bytes (ski
 skills/luke-iha-creative-strategy/references/hidden-knowledge.md 2,504 bytes (same — skill-internal duplicate)
 _archive/claude-export-2026-07-01.tar.gz                     332,779,255 bytes (one conversation extracted and verified; full-archive search out of scope)
 ```
+
+## Adil Amarsi Opportunity-Triage Delta (2026-08-04)
+
+The in-place `profit-finder-opportunity-scan` expansion uses a bounded source delta at `references/source-delta-zX61pyC1vLM.md` rather than attributing Adil Amarsi's material to Luke Iha.
+
+| Claim cluster | Label | Handling |
+|---|---|---|
+| Cosmetic variation versus strategic-variable change | `JOINT-SOURCE` | Matthew Volkwyn frames the same-hook/new-sentence failure at approximately 09:10–10:48; Adil's examples demonstrate the alternative |
+| Product truth crossed with a neglected buyer situation | `SOURCE-VERIFIED` | Preserve the decision mechanic; keep the campaign result and health assertions outside the durable claim set |
+| Adjacent identity or encounter surface | `SOURCE-VERIFIED` | Require overlap, native entry, permission, and reachability before selection |
+| Language/geography as a market variable | `SOURCE-VERIFIED`; outcomes `ANECDOTAL` | Preserve the hypothesis lane; require demand, native evidence, rights, operations, and economics |
+| `Profit Finder` strategist role | `SOURCE-VERIFIED` | Use as an ownership posture, never as profit proof |
+| Evidence labels, whitespace scopes, hold states, rejection ledger, falsifier, and proof ladder | `ANTIGRAVITY OPERATIONAL SYNTHESIS` | Do not attribute these controls to Adil or Luke |
+
+Local source receipts:
+
+- Transcript: `extractions/adil-amarsi-creative-strategy/source/transcript.txt`, SHA-256 `d5db63c24f7bccdfab02c442cbc97fc12a17645b49a7440a6aed469bef43ad52`
+- Captions: `extractions/adil-amarsi-creative-strategy/focused-visual-10m32/download/video.en-orig.vtt`, SHA-256 `d7bdfa1db86439a36adc502cccb0e140ab72562007b8c9b02393ff5eba0d0a60`
+- Full claim classes and visual-capture boundary: `extractions/adil-amarsi-creative-strategy/source-ledger.md`
+
+The source's health assertions, campaign outcomes, exit claim, story-result causality, foreign-market economics, and inconsistent practice benchmark remain quarantined as documented in the source delta.

@@ -668,3 +668,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-03 16:08]` **lint** | Lint scan — 69 issues (45 errors, 12 warnings) — Files scanned: 782
 - `[2026-08-04 08:14]` **finalize** | Gacha companion market validation, narrow paid wedge, rights boundary, and one-game MVP architecture | general | samuel-thompson — composite:6.67 status:Needs Improvement
 - `[2026-08-04 08:14]` **finalize** | Research report answering whether roster-aware casual-player gacha companions already exist, how to  | general | samuel-thompson — composite:6.0 status:Needs Improvement
+- `[2026-08-04 16:02]` **finalize** | Adil Amarsi source-grounded extract-forge Vision checkpoint | general | extract-mastery — composite:7.0 status:Needs Improvement
+- `[2026-08-04 16:03]` **finalize** | Adil Amarsi source-grounded extract-forge Vision checkpoint | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-08-04 16:32]` **finalize** | Adil Amarsi Deep Extraction and Profit-Finder Opportunity Scan architecture checkpoint | general | extract-mastery — composite:8.0 status:Keep
+- `[2026-08-04 17:56]` **finalize** | Adil Amarsi source delta — Luke Iha Profit-Finder Opportunity Scan in-place extraction forge | strategy | luke-iha — composite:7.67 status:Keep

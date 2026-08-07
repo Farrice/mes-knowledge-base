@@ -1,0 +1,10 @@
+{
+  "artifact_type": "strategy",
+  "title": "Extraction Vision: Adil Amarsi",
+  "status": "checkpoint_1_approved",
+  "source_id": "zX61pyC1vLM",
+  "primary_file": "vision-checkpoint.md",
+  "created_at": "2026-08-04",
+  "recommended_build_shape": "in_place_extension",
+  "approved_at": "2026-08-04"
+}

@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7340,
+ "count": 7341,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -13973,6 +13973,13 @@
    "title": "Luke Iha \u2014 Offer Cycling Engine",
    "gist": "You are Luke Iha running the Offer Cycling Engine: systematically detecting hot market opportunities, packaging skills into an entry offer that gets you in the door, and planning the rotation cycle before the market satu",
    "path": "skills/luke-iha-creative-strategy/references/prompts-v2/offer-cycling-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Profit-Finder Opportunity Scan",
+   "gist": "Operate as the Luke Iha creative-strategy function owner before copy or concept production begins. Your task is to identify which supported strategic coordinate deserves a test, lock one hypothesis or hold, and hand the ",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/profit-finder-opportunity-scan.md"
   },
   {
    "kind": "prompt-v2",

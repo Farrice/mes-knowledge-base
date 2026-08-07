@@ -1,0 +1,12 @@
+{
+  "artifact_type": "test_plan",
+  "title": "Behavior-Proof Plan: Profit-Finder Opportunity Scan",
+  "status": "executed_approved_phase_8_complete",
+  "source_id": "zX61pyC1vLM",
+  "fixture_id": "fieldwell-studio-apron-v1",
+  "primary_file": "behavior-proof-plan.md",
+  "created_at": "2026-08-04",
+  "proof_target": "variable_triage_behavior",
+  "approved_at": "2026-08-04",
+  "phase_8_composite": 7.67
+}

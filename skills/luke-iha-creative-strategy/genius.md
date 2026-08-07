@@ -3,6 +3,8 @@
 ## Core Philosophy
 Creative strategy is the meta-skill above copywriting. Copywriting is *how* you say it. Creative strategy is *what* to say, *to whom*, and *why*. A creative strategist decides the angle, the audience segment, the emotional lever, the competitive positioning — THEN hands that brief to a copywriter. This upstream thinking commands 2-3x the rates because it's where all leverage originates.
 
+When the audience or buying situation itself is unresolved, do not let the brief assume the answer. Fingerprint the current strategy, test whether the proposed change is structural, compare the evidence-bounded opportunity lanes, and lock one hypothesis or hold before copy begins.
+
 ## How to Use This Skill (Model Calibration)
 
 These patterns are intuition primitives, not a checklist to stamp. Absorb the decision-stack instinct (audit upward before touching a line of copy), the paid-to-feel instinct (judge output on bodily reaction before defending it with logic — see `extractions/luke-iha-client-acquisition/transcript.txt`: "what sensation do you feel, something in your chest, in your gut, in your neck"), and the vicious-hook instinct (commit to the kill, no dribbling) — then work originally from them. The test: would Luke Iha recognize this as a strategist deciding what to say, to whom, and why before a word gets written — or as someone reciting creative-strategy vocabulary? If it's the second, rebuild.
@@ -61,6 +63,55 @@ Specifically:
 - **Never Questioning Sacred Cows**: treating category myths and unwritten rules as untouchable produces derivative angles instead of ownable ones. Source (`extractions/luke-iha-hooks/transcript.txt`): "there's types of myths and sacred cows, things that you're never supposed to question."
 - **Adding Polish Instead of Subtracting the Block**: when a piece isn't landing, reaching for more words or embellishment instead of finding what's actually holding it back. Source (`extractions/luke-iha-insight-mastery/transcript.txt`): "the insight that was given to my friend was no, you don't need to add anything, you actually need to subtract what's holding you back."
 - **Generic "Here's My Work" Portfolio**: a gallery of screenshots labeled only "Landing Page for X Client" with no problem, brief, or result attached demonstrates execution, not strategy — see the Anti-Exemplar below. Source: `skills/luke-iha-creative-strategy/genius.md` Hall of Fame Exemplars section, itself derived from the Nuclear VSL pattern in `extractions/luke-iha/video-2-creative-strategy/transcript.txt` and `extraction-report.md`.
+
+## Profit-Finder Opportunity Layer (Adil Amarsi source delta, 2026-08-04)
+
+### Function Ownership
+
+Luke Iha remains the creative-strategy function owner. Adil Amarsi's interview adds a bounded pre-brief diagnostic: change a supported commercial coordinate before changing the sentence. The full provenance and claim boundaries live in `references/source-delta-zX61pyC1vLM.md`.
+
+### Strategic Fingerprint
+
+Record product truth, audience, triggering situation, desired outcome, encounter surface, geography/language, offer, proof burden, and destination. Word choice, syntax, tone, headline formula, story/format, and styling are cosmetic unless they accompany an evidence-supported change to one of those strategic fields and create a different learning question.
+
+### Evidence Scope
+
+- **Account whitespace** means the idea is absent from the inspected brand assets.
+- **Category whitespace** means the idea is absent from a named, bounded competitor sample.
+- **Market whitespace** requires wider evidence of demand and underserved supply.
+
+Do not collapse these levels. None proves profit.
+
+### Three Opportunity Lanes
+
+1. **Product/use case:** Cross substantiated product truths with observed buyer situations the current strategy does not address.
+2. **Adjacent surface:** Follow the buyer into another identity, ritual, community, channel, or encounter environment only when overlap and reachability have evidence.
+3. **Language/geography:** Treat another market as an entry hypothesis requiring demand, native evidence, cultural ownership, rights, compliance, operations, support, and economics. Translation alone fails.
+
+Any lane may return `HOLD`. All three may hold. One supported hypothesis is more valuable than three invented opportunities.
+
+### Source-Specific Anti-Patterns
+
+- **Same Hook, New Sentence:** Matthew Volkwyn's 09:10–10:48 diagnostic shows that rewording the same person, situation, offer, and channel is cosmetic.
+- **Account Absence Becomes Market Demand:** Adil's missing-market question surfaces a search direction; it does not supply demand or underserved-supply evidence.
+- **Plausible Product Use Becomes Product Intent:** The 11:56–14:27 case supports inspecting product truth and buyer situation, not inventing what a product was designed to do.
+- **Translation Becomes Market Entry:** The 15:10–16:29 language cases are anecdotal. Without readiness evidence, the lane holds.
+- **Profit-Finder Becomes Profit Prediction:** Adil's 19:01–20:38 role label names upstream ownership. It does not prove the hypothesis will make money.
+- **Three-Lane Template Filling:** The source offers search directions, not permission to fabricate one positive opportunity per lane.
+
+### Opportunity-Scan Recognition Test
+
+Would Luke recognize a strategist choosing what to test and why before the copy starts, or someone using the source to generate more unranked ideas? A passing packet has evidence limits, one selected-or-held hypothesis, rejected alternatives, a locked handoff, and a falsifier.
+
+### Opportunity-Scan Decision Rubric
+
+| Criterion | Score 4: Acceptable | Score 7: Good | Score 10: Savant |
+|---|---|---|---|
+| Strategic change | Names a different angle | Changes one strategic field | Changes the highest-value supported field and explains why the others stay fixed |
+| Evidence scope | Notes an absence | Labels account or category evidence | Separates account, category, and market evidence and refuses to upgrade absence into demand |
+| Hypothesis selection | Lists ideas | Selects one with rationale | Selects one or holds after explicit evidence, reachability, burden, exclusion, and risk comparison |
+| Handoff integrity | Writes a broad strategy note | Names audience, situation, angle direction, and proof need | Lets the existing brief proceed without reopening the decision or inventing evidence |
+| Test integrity | Suggests running ads | Names audience, variable, and metric | Isolates one strategic field, sets owner-defined guards, and names a falsifier and next branch |
 
 ---
 
@@ -144,3 +195,10 @@ Specifically:
 - **Result**: KEPT — 2 workflows added (5 → 7): `decision-stack-audit` and `control-beating-review`; genius.md gained 5 patterns + 3 hidden-knowledge insights.
 - **Change**: Added the Seven-Layer Decision Stack, Test Economics, Reverse Beat Map (+UMP Trigger), Character Casting, Micro-Lead Multiplication; Diamond & Bullseye, upstream review order, AI expectation ratchet.
 - **Lesson**: Dedup held hard — the same export's copy-blocks, SIN-mechanism, offer-cycling, mega-research-prompt, and story-prompt conversations were ALL already owned by sibling skills (copy-blocks v2.0, million-dollar-mechanisms, offer-cycling-engine, avatar-machine). The only genuinely net-new lane was Luke's live-review methodology: stack-first diagnosis and control-beating. Craft-level line patterns from the same recording went to `luke-iha-copy-blocks` (grammar layer owns them), preserving the ecosystem boundary discipline.
+
+### 2026-08-04 — Adil Amarsi Opportunity-Triage Extension
+
+- **Hypothesis**: A bounded Adil Amarsi source delta could close the pre-brief target-selection gap without creating a duplicate expert system.
+- **Result**: KEPT — Phase 8 scored 7.67/10 after one fresh frozen Fieldwell fixture passed 10/10 success assertions, triggered 0/9 hard failures, and passed 7/7 adversarial checks. Behavioral reliability, market performance, localization, and the formal Luke blind pass remain unproven.
+- **Change**: Added the strategic fingerprint, account/category/market evidence scopes, three opportunity lanes, hold discipline, source-specific anti-patterns, and the `profit-finder-opportunity-scan` workflow/prompt pair.
+- **Boundary**: Luke owns the integrated creative-strategy function. Adil's anecdotes remain source-reported, and the new layer produces no hooks, assets, localization, outreach, or market-performance claim.

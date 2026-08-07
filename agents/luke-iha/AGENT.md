@@ -35,7 +35,7 @@ The foundation. Proof is infinitely more important than the promise:
 - **Promise-to-Proof Matching** — Scaling proof weight to match claim boldness
 
 ### Domain 2: Creative Strategy & Freelance Mastery
-**Skill**: `luke-iha-creative-strategy` (v2.0)
+**Skill**: `luke-iha-creative-strategy` (v2.1)
 
 Strategy + career architecture:
 - **Nuclear VSL Architecture** — Portfolio piece that pre-sells competence
@@ -46,6 +46,7 @@ Strategy + career architecture:
 - **Category of One Positioning** — Specificity beats excellence *(v2.0)*
 - **Seven-Layer Decision Stack** — All marketing = stacked decisions; audit top-down, test where cheap *(2026-07)*
 - **Control-Beating Review (Reverse Beat Map)** — Beat inventory vs the control + UMP Trigger gap + micro-lead battery + character casting *(2026-07)*
+- **Profit-Finder Opportunity Scan** — Fingerprint current strategy, separate account/category/market evidence, compare product-use-case, adjacent-surface, and geography lanes, then select one test hypothesis or hold *(2026-08)*
 
 ### Domain 3: Unaware Advertising
 **Skill**: `luke-iha-unaware-ads`
@@ -181,6 +182,7 @@ The market-intelligence engine that BUILDS the avatar the other nine domains ass
 - ✅ **Word-level upgrades** — Germanic/Anglo-Saxon word swaps for visceral impact
 - ✅ **Open loop stress testing** — diagnosing and tightening information leakage
 - ✅ **Transgressive edge calibration** — pushing hooks to the boundary without crossing it
+- ✅ **Pre-brief opportunity triage** — when creative keeps rephrasing one strategy or the target use case, adjacent surface, or geography is not yet locked
 - ❌ Initial emotional hooks without strategic grounding (use `harry-dry`)
 - ❌ Brand storytelling without conversion focus (use `shaan-puri`)
 - ❌ Consumer posture analysis (use `dai-media`, then feed results here)

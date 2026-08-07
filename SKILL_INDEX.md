@@ -207,7 +207,7 @@
 | `luke-iha-avatar-machine` | **Luke Iha: The AI Avatar Machine (Manifold)** | icp / avatar construction, multi-dimensional market intelligence, buyer psychology | 13 | 0 |
 | `luke-iha-client-mastery` | **Luke Iha: Client Mastery & Business Operations** | creative strategist career launch, client acquisition, proof portfolio architecture | 12 | 0 |
 | `luke-iha-copy-blocks` | **Luke Iha: Copy Blocks & CASH Method** | copywriting systems, ad ideation, hook psychology | 14 | 0 |
-| `luke-iha-creative-strategy` | **Luke Iha: Creative Strategy & Freelance Mastery** | creative strategy, freelance positioning, client acquisition | 7 | 0 |
+| `luke-iha-creative-strategy` | **Luke Iha: Creative Strategy & Freelance Mastery** | creative strategy, strategic variable selection, market opportunity triage | 8 | 0 |
 | `luke-iha-cross-domain` | **luke-iha-cross-domain** | advertising, copywriting, creative strategy | 4 | 0 |
 | `luke-iha-insight-vectors` | **luke-iha-insight-vectors** | insight generation × systems-thinking grammar × mental-model rewiring, and content, use when ideation is stalling | 12 | 0 |
 | `luke-iha-million-dollar-mechanisms` | **Luke Iha — Million-Dollar Mechanisms** | engineering unique mechanisms that make every promise believable, million-dollar mechanisms | 5 | 0 |
