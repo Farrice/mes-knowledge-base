@@ -11,7 +11,10 @@ fix command. NEVER blocks, never exits nonzero, silent on canonical placements.
 
 from __future__ import annotations
 
+import datetime
 import json
+import os
+import re
 import sys
 
 # MUST stay in sync with project_filer.EXEMPT_NAMES — verify_project_filer.py
@@ -49,6 +52,60 @@ def suggest_folder(name: str) -> str:
     return "01-source"
 
 
+RECORD_RE = re.compile(r"^\d{4}-\d{2}-\d{2}[-_]")
+_VERSION_RE = re.compile(
+    r"(-v\d+(\.\d+)?|-final|-draft|-copy|-new|-old|-latest|-master|"
+    r"-pop|-clean|-polished|-\d{1,2})$", re.I)
+
+
+def _slot(stem: str) -> str:
+    s = stem.lower()
+    while True:
+        nxt = _VERSION_RE.sub("", s)
+        if nxt == s:
+            return nxt
+        s = nxt
+
+
+def slot_collision(file_path: str, name: str) -> str | None:
+    """Is this a new undated file competing with a living doc already here?
+
+    The living-vs-record rule (2026-08-07): an undated filename claims the
+    LIVING slot, and there is one living doc per slot. Writing a second
+    undated file for the same slot is how one project accumulated fourteen
+    parallel copies of the same profile — none of them marked, none of them
+    obviously current. Say it at the moment it happens; never block.
+    """
+    if RECORD_RE.match(name) or not name.lower().endswith((".md", ".txt")):
+        return None
+    d = os.path.dirname(file_path)
+    stem = name[: name.rfind(".")]
+    slot = _slot(stem)
+    try:
+        siblings = os.listdir(d)
+    except OSError:
+        return None
+    rivals = []
+    for s in siblings:
+        if s == name or s in PINNED_NAMES or not s.lower().endswith((".md", ".txt")):
+            continue
+        if RECORD_RE.match(s):
+            continue
+        if _slot(s[: s.rfind(".")]) == slot:
+            rivals.append(s)
+    if not rivals:
+        return None
+    today = datetime.date.today().isoformat()
+    return (
+        "LIVING SLOT (deterministic): "
+        + ", ".join(f"`{r}`" for r in sorted(rivals)[:3])
+        + f" already claim the '{slot}' slot in this folder. An undated filename "
+        "means LIVING — one per slot, updated in place. Either update the "
+        f"existing one, or lead this filename with `{today}-` to mark it as a "
+        "dated record of this session."
+    )
+
+
 def main() -> int:
     try:
         payload = json.load(sys.stdin)
@@ -74,6 +131,18 @@ def main() -> int:
     suffix = name[dot:].lower() if dot != -1 else ""
     if suffix not in CONTENT_SUFFIXES:
         return 0
+
+    # Living-slot check runs ANYWHERE under _active/ or projects/, not just at
+    # a project root — competing versions accumulate inside buckets, which is
+    # exactly where the fourteen profile copies were.
+    if "_active" in parts or "projects" in parts:
+        collision = slot_collision(file_path, name)
+        if collision:
+            print(json.dumps({"hookSpecificOutput": {
+                "hookEventName": "PostToolUse",
+                "additionalContext": collision,
+            }}))
+            return 0
 
     # Depth check: file must sit exactly one level under _active/<p> or projects/<p>.
     # Resolve the LAST occurrence of the anchor — nested repo copies exist (e.g.
