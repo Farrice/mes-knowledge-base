@@ -1,0 +1,21 @@
+{
+ "session_id": "74f2ee1d-cf72-4b53-9167-62579e6c06fa",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/execution/verify_codex_authority.py",
+  "/Users/farricecain/Google Antigravity/execution/verify_operator_lesson.py",
+  "/Users/farricecain/Google Antigravity/execution/run_receipt.py"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": true
+}

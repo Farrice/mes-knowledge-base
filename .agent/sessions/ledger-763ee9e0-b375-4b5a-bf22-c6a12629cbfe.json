@@ -1,0 +1,29 @@
+{
+ "session_id": "763ee9e0-b375-4b5a-bf22-c6a12629cbfe",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/AGENTS.md",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/763ee9e0-b375-4b5a-bf22-c6a12629cbfe/scratchpad/operating-guide.md",
+  "/Users/farricecain/Google Antigravity/.agents/skills/source-command-autopilot/SKILL.md",
+  "/Users/farricecain/Google Antigravity/semantic_libraries/antigravity/primitives/collaborative-steering-compass.md",
+  "/Users/farricecain/Google Antigravity/execution/codex_live_surface_audit.py",
+  "/Users/farricecain/Google Antigravity/execution/codex_harness_check.py",
+  "/Users/farricecain/Google Antigravity/execution/hooks/active_tool_lock.py",
+  "/Users/farricecain/Google Antigravity/docs/OPERATING-CODEX-AND-CLAUDE.md",
+  "/Users/farricecain/Google Antigravity/execution/workflow_router.py",
+  "/tmp/handoff-codex-coequal-harness-2026-07-01.md"
+ ],
+ "subagent_spawns": 5,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-01T20:19:25.580933",
+ "pin_nudged": true,
+ "handoff_saved_at": "2026-07-01T20:19:25.580920"
+}

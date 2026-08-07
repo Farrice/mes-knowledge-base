@@ -1,0 +1,18 @@
+{
+ "session_id": "019f1e43-345c-7b40-ac14-4a2b69b7bcaf",
+ "debts": [],
+ "produced": false,
+ "produced_paths": [],
+ "subagent_spawns": 0,
+ "finalized_at": "2026-07-02T13:31:07.404586",
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-01T14:06:23.592694",
+ "pin_nudged": false,
+ "handoff_saved_at": "2026-07-01T14:06:23.592669"
+}

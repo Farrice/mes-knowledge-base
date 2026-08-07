@@ -1,0 +1,462 @@
+{
+  "_schema": "fal-usage v2",
+  "_doc": "Tracks Fal API spend across posters + utility + video. v2 adds mode-aware pricing/ceilings (poster | edit | rembg | kling | seedance-480p | seedance-720p | seedance-1080p). rembg is the chained background-removal call that follows GPT-Image-2 generation when the --rembg flag is set. 1080p Seedance is HARD-BLOCKED (no override). See execution/fal_budget_guard.py and directives/fal-usage-policy.md.",
+  "wallet": {
+    "funded_total": 20.0,
+    "refill_threshold": 5.0,
+    "auto_refill": true,
+    "current_balance_estimate": 17.992,
+    "last_refill_confirmed_at": "2026-04-30T00:00:00Z",
+    "cycle_started_at": "2026-04-30T00:00:00Z"
+  },
+  "limits": {
+    "per_call_warn_usd": 0.3,
+    "per_day_warn_usd": 3.0,
+    "per_day_block_usd": 6.0,
+    "per_cycle_warn_usd": 10.0,
+    "per_cycle_block_usd": 15.0,
+    "low_balance_max_call_usd": 0.5,
+    "max_calls_per_5min": 5,
+    "max_consecutive_failures": 2,
+    "per_call_block_usd_by_mode": {
+      "poster": 1.0,
+      "edit": 1.0,
+      "rembg": 0.1,
+      "kling": 2.0,
+      "seedance-480p": 1.5,
+      "seedance-720p": 3.0,
+      "seedance-1080p": null
+    }
+  },
+  "pricing_estimates_usd": {
+    "poster": {
+      "low": 0.011,
+      "medium": 0.04,
+      "high": 0.17
+    },
+    "edit": {
+      "low": 0.011,
+      "medium": 0.04,
+      "high": 0.17
+    },
+    "rembg": {
+      "per_call": 0.005
+    },
+    "kling_per_second": {
+      "audio_off": 0.112,
+      "audio_on": 0.168,
+      "voice_control": 0.196
+    },
+    "seedance_per_second": {
+      "480p": 0.13,
+      "720p": 0.3024,
+      "1080p": 0.68
+    }
+  },
+  "state": {
+    "consecutive_failures": 0,
+    "halt_reason": null,
+    "halt_until": null,
+    "recent_call_timestamps": [
+      "2026-05-02T08:02:53Z",
+      "2026-05-02T08:04:13Z",
+      "2026-05-02T08:05:26Z",
+      "2026-05-02T08:07:02Z"
+    ]
+  },
+  "totals": {
+    "lifetime_calls": 28,
+    "lifetime_spent_usd": 2.008,
+    "current_cycle_calls": 28,
+    "current_cycle_spent_usd": 2.008,
+    "today_calls": 0,
+    "today_spent_usd": 0.0,
+    "today_date": "2026-05-30",
+    "today_spent_by_mode": {
+      "poster": 0.0,
+      "edit": 0.0,
+      "rembg": 0.0,
+      "kling": 0.0,
+      "seedance": 0.0
+    },
+    "cycle_spent_by_mode": {
+      "poster": 1.672,
+      "edit": 0.0,
+      "rembg": 0.0,
+      "kling": 0.336,
+      "seedance": 0.0
+    },
+    "lifetime_spent_by_mode": {
+      "poster": 1.672,
+      "edit": 0.0,
+      "rembg": 0.0,
+      "kling": 0.336,
+      "seedance": 0.0
+    }
+  },
+  "log": [
+    {
+      "ts": "2026-04-30T20:04:50Z",
+      "mode": "poster",
+      "brief": "synthwave product poster for My.BPM",
+      "style": "vaporwave-synth",
+      "quality": "low",
+      "n": 1,
+      "estimated_cost_usd": 0.011,
+      "actual_cost_usd": 0.011,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/vaporwave-synth_1777579481928_v1.png"
+    },
+    {
+      "ts": "2026-04-30T20:05:34Z",
+      "mode": "poster",
+      "brief": "vintage editorial cover Parallax",
+      "style": "editorial-fashion",
+      "quality": "low",
+      "n": 1,
+      "estimated_cost_usd": 0.011,
+      "actual_cost_usd": 0.011,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/editorial-fashion_1777579522210_v1.png"
+    },
+    {
+      "ts": "2026-04-30T21:07:39Z",
+      "mode": "kling",
+      "brief": "smoke test: animate vaporwave-synth poster",
+      "estimated_cost_usd": 0.336,
+      "actual_cost_usd": 0.336,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "(download failed locally; Fal generation succeeded \u2014 see fix in fal_video_kling.py download_video)",
+      "duration": 3,
+      "audio": "off"
+    },
+    {
+      "ts": "2026-05-01T19:05:53Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.17,
+      "actual_cost_usd": 0.17,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "high",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:07:02Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:08:11Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:09:14Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:10:24Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:11:32Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:15:08Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:16:31Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:17:52Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T20:50:46Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.17,
+      "actual_cost_usd": 0.17,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "high",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T20:53:30Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.17,
+      "actual_cost_usd": 0.17,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "high",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T20:54:35Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T20:56:01Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T20:57:22Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T20:58:31Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T07:53:00Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.17,
+      "actual_cost_usd": 0.17,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "high",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T07:56:02Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.17,
+      "actual_cost_usd": 0.17,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "high",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T07:57:15Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T07:58:42Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T08:00:00Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T08:01:15Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T08:02:53Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T08:04:13Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T08:05:26Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-02T08:07:02Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    }
+  ]
+}

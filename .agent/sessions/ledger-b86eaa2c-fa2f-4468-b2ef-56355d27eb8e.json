@@ -1,0 +1,27 @@
+{
+ "session_id": "b86eaa2c-fa2f-4468-b2ef-56355d27eb8e",
+ "debts": [
+  {
+   "type": "qualifying_workflow",
+   "name": "brief",
+   "ts": "2026-06-24T08:11:20.979067"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/execution/hooks/guard_stranded_deliverables.py",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/daily/2026-06-22-article-CE-WRITE.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/daily/2026-06-22-article-WRITERS-ROOM.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/daily/2026-06-22-article-HYBRID-RECOMMENDED.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": "2026-06-24T08:11:20.979078",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": true,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "pin_nudged": true
+}

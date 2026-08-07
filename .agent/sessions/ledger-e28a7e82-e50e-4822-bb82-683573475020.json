@@ -1,0 +1,90 @@
+{
+ "session_id": "e28a7e82-e50e-4822-bb82-683573475020",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-avatar-machine",
+   "ts": "2026-06-23T13:23:11.382288"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-mastery",
+   "ts": "2026-06-23T13:23:12.066524"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "noah-hawley-storytelling-mastery",
+   "ts": "2026-06-23T13:23:14.236279"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-illusion-of-novelty",
+   "ts": "2026-06-23T13:23:15.720045"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chris-cimorelli-copywriting",
+   "ts": "2026-06-23T13:23:16.820474"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chase-hughes-context-engineering",
+   "ts": "2026-06-23T13:23:17.249200"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nick-saraev-agentic-workflows",
+   "ts": "2026-06-23T13:23:56.980271"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-brand",
+   "ts": "2026-06-23T13:23:58.001771"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-sentence-craft",
+   "ts": "2026-06-23T13:23:59.986259"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "meg-heckman-buyer-trigger-os",
+   "ts": "2026-06-23T13:24:00.049943"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "josh-sanders-linkedin-growth",
+   "ts": "2026-06-23T13:24:04.487689"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-priestley-oversubscribed",
+   "ts": "2026-06-23T13:24:06.127874"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/execution/notion_api.py",
+  "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/DEPLOY-RUNBOOK.md",
+  "/Users/farricecain/Google Antigravity/CLAUDE.md",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e28a7e82-e50e-4822-bb82-683573475020/scratchpad/notion_probe.py",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e28a7e82-e50e-4822-bb82-683573475020/scratchpad/notion_probe2.py",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e28a7e82-e50e-4822-bb82-683573475020/scratchpad/notion_probe3.py",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e28a7e82-e50e-4822-bb82-683573475020/scratchpad/notion_probe4.py",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e28a7e82-e50e-4822-bb82-683573475020/scratchpad/notion_create_sessmem.py",
+  "/Users/farricecain/Google Antigravity/.env",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e28a7e82-e50e-4822-bb82-683573475020/scratchpad/build_library.py"
+ ],
+ "subagent_spawns": 5,
+ "finalized_at": "2026-06-23T12:39:43.346044",
+ "last_debt_at": "2026-06-23T13:24:06.127882",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "pin_nudged": true,
+ "handoff_saved_at": "2026-07-01T20:55:06.614755",
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-01T20:55:06.614764"
+}

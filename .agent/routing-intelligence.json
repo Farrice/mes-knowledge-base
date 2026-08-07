@@ -1,0 +1,349 @@
+{
+    "schema_version": "1.0",
+    "current_month": "2026-07",
+    "routing_decisions": [
+        {
+            "routing_id": "rt_20260702_170846_5acc",
+            "timestamp": "2026-07-02T17:08:46.872251+00:00",
+            "session_id": "",
+            "request_summary": "System audit + repair: woke 6 dormant feedback loops (routing intelligence writer, gap-log auto-append, protocol review-date bug, MCP spend telemetry, memory facade fire-log, weekly memory pipeline au",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_171831_404b",
+            "timestamp": "2026-07-02T17:18:31.882556+00:00",
+            "session_id": "",
+            "request_summary": "Josh & Katie v2 training programs (Carbon Torch): Katie_FullBody_Recomp_v2.md + Josh_FullBody_GLP1_v2.md + hub README + archived source brief in _active/josh-katie-fitness/ — 5-day 3-foundational+2-tr",
+            "intent_score": 7,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "strength-conditioning-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "02-build-integrated-program",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_171858_97a6",
+            "timestamp": "2026-07-02T17:18:58.073475+00:00",
+            "session_id": "",
+            "request_summary": "Josh & Katie v2 training programs (Carbon Torch) — retry with anchor flags: Katie_FullBody_Recomp_v2.md + Josh_FullBody_GLP1_v2.md + hub README + archived brief in _active/josh-katie-fitness/",
+            "intent_score": 9,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "strength-conditioning-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "02-build-integrated-program",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_172529_f8e3",
+            "timestamp": "2026-07-02T17:25:29.126393+00:00",
+            "session_id": "",
+            "request_summary": "E1 Factory Audit — Embodiment Delta: factory QC proven self-referential (never compares vs expert's real work; hardcoded 8/9 finalize scores at extract.md:100-106 = origin of 7.25 flattening); heartbe",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_175637_7caa",
+            "timestamp": "2026-07-02T17:56:37.858312+00:00",
+            "session_id": "",
+            "request_summary": "E2 Skill Census — 324 skills graded by deterministic classifier (execution/skill_census.py) calibrated 12/13 vs E1 ground truth + blind Opus validation: 81% of 2026-01 bulk stratum flagged vs 6% of 20",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_182222_6ce6",
+            "timestamp": "2026-07-02T18:22:22.061745+00:00",
+            "session_id": "",
+            "request_summary": "E3 Blind Bake-Off packet assembled — 15 comparisons across 5 skills (lara-linkedin-mastery, luke-copy-blocks, hormozi, stanton control, suzuki): 15 verbatim provenance-verified real pieces curated (co",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_190024_7007",
+            "timestamp": "2026-07-02T19:00:24.123739+00:00",
+            "session_id": "",
+            "request_summary": "Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM layer + verdict-flywheel prep) with independent cold-visitor stress-test — the undisclosed-login-wall ",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "nicolas-cole"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "offer-stack",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_192836_8dcf",
+            "timestamp": "2026-07-02T19:28:36.280415+00:00",
+            "session_id": "",
+            "request_summary": "Raw Intent Bridge installed as global Codex skill wrappers with local verifier proof",
+            "intent_score": 8,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "source-to-skill-system"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_201752_7e46",
+            "timestamp": "2026-07-02T20:17:52.883612+00:00",
+            "session_id": "",
+            "request_summary": "Global Raw Intent Bridge rebuilt from pointer wrapper into natural-intent adapter with bundled fallback compiler and verifier proof",
+            "intent_score": 8,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_201759_2944",
+            "timestamp": "2026-07-02T20:17:59.717655+00:00",
+            "session_id": "",
+            "request_summary": "Global Raw Intent Bridge rebuilt from pointer wrapper into natural-intent adapter with bundled fallback compiler and verifier proof",
+            "intent_score": 8,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_203107_0804",
+            "timestamp": "2026-07-02T20:31:07.312739+00:00",
+            "session_id": "",
+            "request_summary": "Raw Intent Bridge invocation repaired for prefix-style Packet + Run usage",
+            "intent_score": 8,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_215851_9436",
+            "timestamp": "2026-07-02T21:58:51.413951+00:00",
+            "session_id": "",
+            "request_summary": "E3 Blind Bake-Off REVEAL — Farrice detected real experts 5/15 (33%, below chance), preferred skill-generated 8-6-1 over real published work; 4/5 skills BLIND-PASS (Luke = training-bleed-controlled pro",
+            "intent_score": 9,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_220614_8656",
+            "timestamp": "2026-07-02T22:06:14.780421+00:00",
+            "session_id": "",
+            "request_summary": "E4 — Embodiment Standard encoded into the factory: directives/embodiment-standard.md (canonical: 10-item build checklist from E1, anti-overpolish rule from E3 blind notes, blind-pass ship protocol, ev",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_224257_a6b1",
+            "timestamp": "2026-07-02T22:42:57.273808+00:00",
+            "session_id": "",
+            "request_summary": "E5 harvest roadmap + repo-wide score sweep: 5 dedup-checked harvest targets (headline: claim-safe/regulatory health marketing = ZERO coverage in 338 skills vs Path A definition — live liability, ranke",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_002302_d6a9",
+            "timestamp": "2026-07-03T00:23:02.988513+00:00",
+            "session_id": "",
+            "request_summary": "Stage 0 Vision Translation layer for /raw-intent-bridge — root-caused Codex mis-routing of raw creative intent (lexical compiler), patched canonical workflow + Codex SKILL.md + Claude shim + AGENTS.md",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_014559_8e45",
+            "timestamp": "2026-07-03T01:45:59.117209+00:00",
+            "session_id": "",
+            "request_summary": "Fork harvest: 26 skill OSs + ~203 workflows ported from Codex Antigravity fork into canonical repo via 63-agent Sonnet workflow (analyze vs canonical -> port with path fixes + long-tail demotion -> or",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fork-harvest",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_014609_129c",
+            "timestamp": "2026-07-03T01:46:09.586145+00:00",
+            "session_id": "",
+            "request_summary": "Fork harvest: 26 skill OSs + ~203 workflows ported from Codex Antigravity fork into canonical repo via 63-agent Sonnet workflow (analyze vs canonical -> port with path fixes + long-tail demotion -> or",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_021725_d523",
+            "timestamp": "2026-07-03T02:17:25.031373+00:00",
+            "session_id": "",
+            "request_summary": "Founder Context Brief for Farrice Cain — holistic AI-grounding identity doc (past, wound, POV anchors, voice, zone of genius, interests, application layer for Threads + course, gap-fill interview). Di",
+            "intent_score": 7,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "founder-voice"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        }
+    ],
+    "feedback_log": [],
+    "monthly_summary": {
+        "2026-07": {
+            "total_routings": 18,
+            "total_feedback": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "mixed_count": 0,
+            "domain_counts": {
+                "System": 10,
+                "Client Work": 2,
+                "Analysis": 4,
+                "Strategy": 1,
+                "Creative": 1
+            },
+            "expert_counts": {
+                "system-audit": 13,
+                "strength-conditioning-os": 2,
+                "nicolas-cole": 1,
+                "source-to-skill-system": 1,
+                "founder-voice": 1
+            },
+            "tier_counts": {
+                "0": 18,
+                "1": 0,
+                "2": 0,
+                "3": 0
+            },
+            "mode_counts": {
+                "output": 0,
+                "expertise": 0,
+                "hybrid": 0,
+                "finalize-auto": 18
+            },
+            "ensemble_count": 7
+        }
+    }
+}

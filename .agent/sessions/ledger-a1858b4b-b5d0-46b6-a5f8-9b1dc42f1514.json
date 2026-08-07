@@ -1,0 +1,74 @@
+{
+ "session_id": "a1858b4b-b5d0-46b6-a5f8-9b1dc42f1514",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "noah-hawley-storytelling-mastery",
+   "ts": "2026-06-24T08:55:09.740312"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "eric-roth-screenwriting-mastery",
+   "ts": "2026-06-24T08:55:11.002688"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "story-compass",
+   "ts": "2026-06-24T08:55:11.860536"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "shaan-puri-storytelling",
+   "ts": "2026-06-24T08:55:12.602425"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mitch-albom-writing-mastery",
+   "ts": "2026-06-24T08:55:16.341050"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "steven-pressfield-narrative-mastery",
+   "ts": "2026-06-24T08:55:17.300791"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lamott-craft",
+   "ts": "2026-06-24T08:55:18.310395"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jonathan-franzen-storytelling",
+   "ts": "2026-06-24T08:55:19.013666"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "andrew-stanton-audience-engineering",
+   "ts": "2026-06-24T10:37:20.496523"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/workflows/stanton-brand-origin.md",
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/workflows/stanton-series-escalation.md",
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/workflows/stanton-30sec-arc.md",
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/SKILL.md",
+  "/Users/farricecain/Google Antigravity/agents/andrew-stanton/AGENT.md",
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/genius.md",
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/USER-GUIDE.md",
+  "/Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/workflows/stanton-produce.md",
+  "/Users/farricecain/Google Antigravity/skills/writing-depth-layer/references/routing-map.md",
+  "/Users/farricecain/Google Antigravity/skills/writing-depth-layer/workflows/depth-stack.md"
+ ],
+ "subagent_spawns": 4,
+ "finalized_at": "2026-06-25T09:32:35.300071",
+ "last_debt_at": "2026-06-24T10:37:20.496531",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-06-25T09:32:35.300083",
+ "pin_nudged": true
+}
