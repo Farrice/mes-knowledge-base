@@ -632,7 +632,18 @@ def cmd_merge(args) -> int:
             for u in u_raw.splitlines():
                 if not u:
                     continue
-                if _is_generated(u):
+                rc_ign, _, _ = _git(main, "check-ignore", "-q", "--", u)
+                rc_del, del_out, _ = _git(main, "ls-files", "-u", "--", u)
+                stages = {p.split()[2] for p in del_out.splitlines() if len(p.split()) >= 3}
+                if rc_ign == 0:
+                    # Tracked leftover that main's .gitignore now covers: drop
+                    # from index, file survives on disk (rule 4c, conflict form).
+                    _git(main, "rm", "-q", "--cached", "--", u)
+                elif "3" not in stages and "2" in stages:
+                    # modify/delete, theirs deleted ours modified: keep ours —
+                    # never let a lane's deletion erase main's evolved copy.
+                    _git(main, "add", "--", u)
+                elif _is_generated(u):
                     _git(main, "checkout", "--ours", "--", u)
                     _git(main, "add", "--", u)
                     if u not in gen_touched:
