@@ -178,8 +178,13 @@ def _git_dates_all() -> dict[str, int]:
         # mtime — i.e. read as "touched today", forever. Caught by
         # cross-checking every file against `git log --date=short`.
         proc = subprocess.run(
+            # -M5% -l0: a move that ALSO rewrites the file's contents (exactly
+            # what a relocation does — it repoints every inbound link) can drop
+            # below git's default 50% similarity threshold and get recorded as
+            # delete+add instead of a rename. The alias chain then breaks and
+            # the file loses its history. Low threshold, no rename limit.
             ["git", "-c", "core.quotepath=false", "log",
-             "--pretty=format:C%at", "--name-status", "-M",
+             "--pretty=format:C%at", "--name-status", "-M5%", "-l0",
              "--diff-merges=first-parent", "--", rel],
             cwd=ROOT, capture_output=True, text=True, timeout=180,
         )
@@ -188,14 +193,28 @@ def _git_dates_all() -> dict[str, int]:
     if proc.returncode != 0:
         return {}
 
+    # Three tiers, best first. A date is only as good as the evidence that
+    # someone actually WORKED on the file that day.
+    #   focused  — authored/modified in a small, focused commit
+    #   bulk     — authored/modified inside a housekeeping commit
+    #   renamed  — the file only ever MOVED that day. Not work at all; used
+    #              only so nothing ends up dateless.
+    #
+    # SCAR 2026-08-07: renames used to count as touches. A file whose entire
+    # history is reorganisations (moved 2026-07-01 by a hub reshuffle, moved
+    # again today) then read as "touched today" — so this very reorganisation
+    # would have made every dead file in the tree look freshly worked on,
+    # which is precisely backwards.
     focused: dict[str, int] = {}
-    fallback: dict[str, int] = {}
+    bulk: dict[str, int] = {}
+    renamed: dict[str, int] = {}
     # historical path -> the path that content occupies TODAY. Built walking
     # newest -> oldest, so by the time an old commit names an old path we
     # already know where it ended up.
     alias: dict[str, str] = {}
     stamp: int | None = None
     batch: list[str] = []
+    moves: list[str] = []
 
     def present(path: str) -> str:
         seen = set()
@@ -205,17 +224,20 @@ def _git_dates_all() -> dict[str, int]:
         return path
 
     def flush() -> None:
-        if stamp is None or not batch:
+        if stamp is None:
             return
-        target = fallback if len(batch) >= BULK_COMMIT_FILES else focused
-        for f in batch:
-            target.setdefault(f, stamp)
+        if batch:
+            target = bulk if len(batch) >= BULK_COMMIT_FILES else focused
+            for f in batch:
+                target.setdefault(f, stamp)
+        for f in moves:
+            renamed.setdefault(f, stamp)
 
     for line in proc.stdout.splitlines():
         if line.startswith("C") and line[1:].isdigit():
             flush()
             stamp = int(line[1:])
-            batch = []
+            batch, moves = [], []
             continue
         if not line.strip():
             continue
@@ -223,14 +245,16 @@ def _git_dates_all() -> dict[str, int]:
         code = parts[0]
         if code.startswith("R") and len(parts) >= 3:
             old, new = parts[1], parts[2]
-            alias[old] = present(new)
-            batch.append(present(new))
+            cur = present(new)
+            alias[old] = cur
+            moves.append(cur)          # a move is not work
         elif len(parts) >= 2:
             batch.append(present(parts[1]))
     flush()
 
-    for k, v in fallback.items():
-        focused.setdefault(k, v)
+    for tier in (bulk, renamed):
+        for k, v in tier.items():
+            focused.setdefault(k, v)
     _DATE_CACHE["all"] = focused
     return focused
 
