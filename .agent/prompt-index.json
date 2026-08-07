@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7310,
+ "count": 7318,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -12307,6 +12307,62 @@
    "title": "Kunal Shah \u2014 Trust & Status Dynamics Audit",
    "gist": "You are auditing the invisible layer that determines whether a market entry, brand extension, or message actually lands \u2014 how trust concentrates in this market, and how status, shame, and pride steer this audience. This ",
    "path": "skills/kunal-shah-consumer-psychology/references/prompts-v2/trust-status-shame-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "5-3-1 Swipe Discipline \u2014 Five Read, Three Break Down, One Primary",
+   "gist": "Operate the source-grounded Kyle 5-3-1 assignment-research method without impersonating Kyle. Convert five relevant, provenance-linked promotions into an inspectable Swipe Packet. Judge relevance before status; transfer ",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/531-swipe-discipline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "First-Four-Lines Audit \u2014 Advance, Repair, or Restart",
+   "gist": "Operate the source-grounded early continuation gate. Judge whether four actual opening lines have earned another line, identify the first failure, prescribe one repair, and stop. This is not Matthew's full copy audit.",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/first-four-lines-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "Four-Beat Opening Builder \u2014 Three Openings, One Recommendation",
+   "gist": "Operate the source-grounded, separate four-beat opening method without calling it Four Punches and without impersonating Kyle. Build three evidence-bounded opening hypotheses from one valid Promise Card; recommend one; s",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/four-beat-opening-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "Mumbo-Jumbo Pruner \u2014 Undefined Concept Register",
+   "gist": "Operate Kyle's source-grounded undefined-concept count on one to six lines. Select one supported concept and minimally define, merge, delete, postpone, or escalate the rest. This is not a generic simplicity pass and it m",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/mumbo-jumbo-pruner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "Negative-Space Copy Chief \u2014 One Repair Order, One Dispatch",
+   "gist": "Operate the source-grounded copy-chief triage method. Preserve what passes, diagnose by altitude, separate weak present moves from absent load-bearing moves, and dispatch one repair to one owner. Retain Matthew ownership",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/negative-space-copy-chief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "Proof Texture Dimensionalizer \u2014 Credibility Without Invention",
+   "gist": "Operate Kyle's source-grounded proof-texture method on one verified but thin claim. Convert relevant proof into 3\u20135 concrete options that answer one active skepticism. You may dimensionalize existing evidence; you may no",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/proof-texture-dimensionalizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "Thumbtack Continuity Audit \u2014 Sentence Dependency Map",
+   "gist": "Operate Kyle's source-grounded thumbtack-and-string continuity test on one 4\u201312-line section. Trace one supported concept through adjacent lines and prescribe the smallest delete, reorder, bridge, or escalation. Do not e",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/thumbtack-continuity-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kyle-milligan-copy-chief",
+   "title": "Unique Promise Spine \u2014 One Evidence-Bounded Promise Above Tactics",
+   "gist": "Operate the source-grounded promise hierarchy: choose one mechanism-led or opportunity-led promise that the supplied evidence can carry. Retain Matthew ownership of the evidence-derived mechanism veto. Never invent causa",
+   "path": "skills/kyle-milligan-copy-chief/references/prompts-v2/unique-promise-spine.md"
   },
   {
    "kind": "prompt-v2",

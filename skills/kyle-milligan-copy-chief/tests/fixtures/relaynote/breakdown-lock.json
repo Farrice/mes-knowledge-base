@@ -1,0 +1,10 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-breakdown-lock/v1",
+  "five_read_set": ["S1", "S2", "S3", "S4", "S5"],
+  "three_breakdown_set": ["S2", "S1", "S3"],
+  "primary_swipe_id": "S2",
+  "primary_selection_rule": "Choose the closest audience, problem, and desired-action match; synthetic score alone cannot choose the primary.",
+  "selection_reason": "S2 is the only agency-specific transcript-to-follow-up control. S5 has a higher synthetic label but a materially weaker mechanism and audience match.",
+  "locked": true
+}

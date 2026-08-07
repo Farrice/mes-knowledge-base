@@ -1,0 +1,136 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-arm-contracts/v1",
+  "shared_inputs": [
+    "product-truth.json",
+    "audience-brief.json",
+    "weak-draft.md",
+    "swipes/index.json",
+    "swipes/S1.md",
+    "swipes/S2.md",
+    "swipes/S3.md",
+    "swipes/S4.md",
+    "swipes/S5.md",
+    "transfer-veto.json",
+    "context-packet.md",
+    "output-contract.json"
+  ],
+  "provenance": {
+    "required_fields": [
+      "worker_task",
+      "worker_id",
+      "attempt_ordinal",
+      "parent_snapshot",
+      "model_family",
+      "model_version",
+      "settings_sha256",
+      "cold_start",
+      "read_paths"
+    ],
+    "required_read_rule": "Every shared input, every route-specific input, and every allowed method file is required—not merely allowed. Runtime parity is exact across all six generated replicates.",
+    "attempt_rule": "Exactly one completed generation attempt per arm and replicate unless the frozen Arm B fairness repair is activated for a complete replacement cohort.",
+    "current_runtime_limit": "The available worker surface can be orchestrator-attested but does not export tamper-evident actual-read traces. It cannot earn RUNTIME_OBSERVED registration authority."
+  },
+  "intermediate_machine_contract": {
+    "revision_directive": "Every method audit contains at least one adjacent `- Replace: <verbatim initial line>` and `- With: <verbatim final line>` pair. The before line must disappear and the after line must be newly present.",
+    "arm_b_audit_headings": ["# Matthew Audit", "## Hook", "## Flow", "## Close", "## Voice", "## Required Revision", "## Proof Boundary"],
+    "arm_c_swipe_markers": ["Breakdown set: S2,S1,S3", "Primary: S2", "Transfer boundary: CONTROL_FACTS_AND_WORDING_FORBIDDEN"],
+    "arm_c_promise_markers": ["Mode: OPPORTUNITY_LED", "Mechanism status: NOT_VERIFIED_NON_APPLICABLE", "Primary swipe: S2", "Locked promise: <one PT-grounded promise>"],
+    "arm_c_audit_headings": ["# First-Four-Lines Verdict", "## Context Lock", "## Line Job Map", "## Verdict", "## Required Revision", "## Handoff", "## Proof Boundary"]
+  },
+  "arm_a": {
+    "role": "untreated control",
+    "output": "weak-draft.md",
+    "generation": false,
+    "scoring_note": "Arm A is diagnostic context, not an output-equivalent comparator."
+  },
+  "arm_b": {
+    "role": "fair existing-stack comparator",
+    "route_specific_inputs": [
+      "arm-b-adapter.md"
+    ],
+    "required_owner": "skills/luke-iha-vsl-leads/workflows/vsl-lead-writer.md",
+    "required_support": "skills/matthew-volkwyn-copywriting/workflows/01-audit-copy.md",
+    "required_receipts": [
+      "Luke workflow path and hash",
+      "Matthew audit path and hash",
+      "shared fixture manifest hash",
+      "cold-start declaration",
+      "Kyle-artifact exclusion declaration",
+      "worker/task/attempt/runtime parity fields",
+      "exact required-read set"
+    ],
+    "allowed_method_reads": [
+      "skills/luke-iha-vsl-leads/SKILL.md",
+      "skills/luke-iha-vsl-leads/workflows/vsl-lead-writer.md",
+      "skills/luke-iha-vsl-leads/references/genius-patterns.md",
+      "skills/luke-iha-vsl-leads/references/hidden-knowledge.md",
+      "skills/matthew-volkwyn-copywriting/SKILL.md",
+      "skills/matthew-volkwyn-copywriting/genius.md",
+      "skills/matthew-volkwyn-copywriting/workflows/01-audit-copy.md"
+    ],
+    "execution_protocol": [
+      "Luke produces an initial three-opening set from the shared context under the constrained output contract.",
+      "Matthew audits that same set for Hook, Flow, Close, and Voice without seeing Kyle artifacts.",
+      "Luke receives only Matthew's bounded audit and performs one revision in the same cold replicate.",
+      "A deterministic format-and-truth check runs; it may reject but not creatively rewrite the output."
+    ],
+    "revision_rounds_per_replicate": 1,
+    "excluded": [
+      "skills/kyle-milligan-copy-chief",
+      "extractions/kyle-milligan-copywriting",
+      "breakdown-lock.json",
+      "Kyle transcript, ledger, workflows, prompt cards, and prior arm outputs"
+    ],
+    "output_contract": "output-contract.json"
+  },
+  "arm_c": {
+    "role": "Kyle system treatment",
+    "required_owner": "skills/kyle-milligan-copy-chief/SKILL.md",
+    "required_mode": "build",
+    "route_specific_inputs": [
+      "breakdown-lock.json",
+      "skills/kyle-milligan-copy-chief/references/mechanics-ledger.md"
+    ],
+    "required_receipts": [
+      "Kyle skill path and hash",
+      "selected workflow paths and hashes",
+      "source-ledger manifest hash",
+      "shared fixture manifest hash",
+      "cold-start declaration",
+      "worker/task/attempt/runtime parity fields",
+      "exact required-read set"
+    ],
+    "allowed_method_reads": [
+      "skills/kyle-milligan-copy-chief/SKILL.md",
+      "skills/kyle-milligan-copy-chief/genius.md",
+      "skills/kyle-milligan-copy-chief/references/source-ledger.md",
+      "skills/kyle-milligan-copy-chief/references/mechanics-ledger.md",
+      "skills/kyle-milligan-copy-chief/workflows/01-531-swipe-discipline.md",
+      "skills/kyle-milligan-copy-chief/workflows/02-unique-promise-spine.md",
+      "skills/kyle-milligan-copy-chief/workflows/03-four-beat-opening-builder.md",
+      "skills/kyle-milligan-copy-chief/workflows/04-first-four-lines-audit.md",
+      "skills/kyle-milligan-copy-chief/references/prompts-v2/531-swipe-discipline.md",
+      "skills/kyle-milligan-copy-chief/references/prompts-v2/unique-promise-spine.md",
+      "skills/kyle-milligan-copy-chief/references/prompts-v2/four-beat-opening-builder.md",
+      "skills/kyle-milligan-copy-chief/references/prompts-v2/first-four-lines-audit.md"
+    ],
+    "execution_protocol": [
+      "Kyle workflows 01–03 produce an initial three-opening set from the shared context plus the route-specific breakdown lock.",
+      "Kyle workflow 04 audits that same set without reading baseline methods or outputs.",
+      "Kyle workflow 03 receives only the bounded first-four audit and performs one revision in the same cold replicate.",
+      "A deterministic format-and-truth check runs; it may reject but not creatively rewrite the output."
+    ],
+    "revision_rounds_per_replicate": 1,
+    "excluded": [
+      "Arm B outputs",
+      "skills/luke-iha-vsl-leads",
+      "skills/matthew-volkwyn-copywriting",
+      "evaluator scores",
+      "label map"
+    ],
+    "output_contract": "output-contract.json"
+  },
+  "parity_invariant": "Arms B and C receive identical Product Truth, audience, action, five swipes, task wording, output contract, parent model, and runtime settings. Route-specific method files differ by definition and remain mutually excluded.",
+  "fairness_rerun_rule": "If Arm B misses the 65 floor because a required owner, support audit, revision, or format step was absent, repair that protocol once and rerun all three Arm B replicates. Never repair the prose from evaluator preferences and never add Kyle material."
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Deep MES Extraction - Kyle Milligan Copy-Chief System",
+  "artifact_type": "deep_mes_extraction",
+  "status": "conditional_architecture_pass_awaiting_approval",
+  "source_video_id": "UFNlbNa2T4w",
+  "created_date": "2026-08-02",
+  "primary_file": "deep-mes-extraction.md",
+  "source_ledger": "source-ledger.md",
+  "depth_tier": "deep",
+  "genius_pattern_count": 18,
+  "hidden_knowledge_count": 11,
+  "owned_output_family_count": 8,
+  "artifact_validation_status": "grounding_metadata_export_pass_structural_prose_warning_reviewed",
+  "proof_state": "Source-grounded extraction only; implementation, behavior change, market performance, and A-tier embodiment remain unproven."
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Forge Vision Checkpoint - Kyle Milligan Copy-Chief System",
+  "artifact_type": "extraction_vision_checkpoint",
+  "status": "approved",
+  "source_url": "https://www.youtube.com/watch?v=UFNlbNa2T4w&t=31s",
+  "source_video_id": "UFNlbNa2T4w",
+  "source_date": "2026-08-02",
+  "created_date": "2026-08-02",
+  "approval_date": "2026-08-02",
+  "workspace": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/ufnlbna2t4w-source-system",
+  "primary_file": "vision-checkpoint.md",
+  "source_package": "../video-context/UFNlbNa2T4w",
+  "status_detail": "Vision approved by Farrice; Deep MES extraction and conditional Architecture checkpoint completed without implementation."
+}

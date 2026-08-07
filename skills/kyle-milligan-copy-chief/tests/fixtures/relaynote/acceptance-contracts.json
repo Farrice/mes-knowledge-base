@@ -1,0 +1,223 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-acceptance-contract/v2",
+  "common_output_headings_exact": [
+    "# Acceptance Result",
+    "## Case",
+    "## Decision",
+    "## Evidence",
+    "## Required Action",
+    "## Prohibited Action",
+    "## Proof Boundary"
+  ],
+  "common_required_lines": [
+    "Proof boundary: Fixture-only behavior evidence; not market evidence."
+  ],
+  "output_rule": "The verifier parses the Markdown result. Receipt-supplied observed/pass values are never authoritative.",
+  "route_rule": "Exactly one frozen selected route may be loaded. Supporting non-workflow evidence paths may be read only when the case receipt allowlists them.",
+  "cases": {
+    "AC-01": {
+      "selected_route": "skills/kyle-milligan-copy-chief/SKILL.md",
+      "required_lines": [
+        "Case: AC-01",
+        "Decision: STOP_FOR_CONTEXT",
+        "Missing: OFFER_FACTS",
+        "Missing: AUDIENCE_CARD",
+        "Missing: PROOF_LEDGER",
+        "Missing: DESIRED_ACTION",
+        "Generation: NONE"
+      ],
+      "forbidden_lines": ["Decision: PROCEED", "Generation: COPY"]
+    },
+    "AC-02": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/01-531-swipe-discipline.md",
+      "required_lines": [
+        "Case: AC-02",
+        "Decision: STOP_FOR_FIVE",
+        "Provided swipes: 3",
+        "Required swipes: 5",
+        "Generation: NONE"
+      ],
+      "forbidden_lines": ["Decision: PROCEED", "Generated swipes: 2"]
+    },
+    "AC-03": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/01-531-swipe-discipline.md",
+      "required_lines": [
+        "Case: AC-03",
+        "Decision: KEEP_S2_PRIMARY",
+        "Primary: S2",
+        "Rejected primary: S4",
+        "Rejected primary: S5",
+        "Basis: AUDIENCE_PROBLEM_MECHANISM_FIT"
+      ],
+      "forbidden_lines": ["Primary: S4", "Primary: S5", "Decision: FOLLOW_HIGHEST_SCORE"]
+    },
+    "AC-04": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/02-unique-promise-spine.md",
+      "required_lines": [
+        "Case: AC-04",
+        "Decision: BLOCK_PROMISE",
+        "Failed edge: VERIFIED_MECHANISM",
+        "Claim status: REJECTED",
+        "Next owner: MECHANISM_PROOF_VALIDATION"
+      ],
+      "forbidden_lines": ["Decision: PROCEED", "Mechanism status: VERIFIED", "Claim status: APPROVED"]
+    },
+    "AC-05": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/03-four-beat-opening-builder.md",
+      "required_lines": [
+        "Case: AC-05",
+        "Decision: FAIL_SOURCE_FIDELITY",
+        "Four Punches: MOVE_LANGUAGE",
+        "Four-beat opening: DISTINCT_SEQUENCE",
+        "Correction required: true"
+      ],
+      "forbidden_lines": ["Four Punches = four-beat opening", "Decision: PASS_SOURCE_FIDELITY"]
+    },
+    "AC-06": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/06-proof-texture-dimensionalizer.md",
+      "required_lines": [
+        "Case: AC-06",
+        "Decision: REPLACE_WITH_EVIDENCE",
+        "Removed stack: new|effortless|safe|powerful|transformative",
+        "Replacement evidence: PT-MET-002,PT-MET-003",
+        "Synthetic qualifier: REQUIRED"
+      ],
+      "forbidden_lines": ["Decision: KEEP_ADJECTIVES", "Replacement evidence: NONE"]
+    },
+    "AC-07": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/02-unique-promise-spine.md",
+      "required_lines": [
+        "Case: AC-07",
+        "Decision: HARD_FAIL_REMOVE_OUTCOME",
+        "Unsupported classes: PIPELINE,REVENUE,CLOSED_WON",
+        "Action: REMOVE",
+        "Generation: NONE"
+      ],
+      "forbidden_lines": ["Action: KEEP", "Action: SOFTEN", "Decision: PASS"]
+    },
+    "AC-08": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/07-mumbo-jumbo-pruner.md",
+      "required_lines": [
+        "Case: AC-08",
+        "Decision: ONE_SUPPORTED_CONCEPT",
+        "Primary concept: PT-CAP-001_TRANSCRIPT_TO_DRAFT",
+        "Deferred concepts: CONVERSATION_INTELLIGENCE,WORKFLOW_AUTOMATION,ACTION_MEMORY,COMMITMENT_CAPTURE",
+        "Primary count: 1"
+      ],
+      "forbidden_lines": ["Primary concept: conversation intelligence", "Primary count: 4"]
+    },
+    "AC-09": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/06-proof-texture-dimensionalizer.md",
+      "required_lines": [
+        "Case: AC-09",
+        "Decision: PROOF_GAP",
+        "Authority claim status: REMOVED",
+        "Missing evidence: AUTHORITY_OR_ENDORSEMENT",
+        "Selected texture: NONE"
+      ],
+      "forbidden_lines": ["Authority status: VERIFIED", "Selected texture: university-grade accuracy"]
+    },
+    "AC-10": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/04-first-four-lines-audit.md",
+      "required_lines": [
+        "Case: AC-10",
+        "Decision: CONSOLIDATE_PROMISE",
+        "Question stack status: REMOVED",
+        "Governing claim count: 1",
+        "Next action: PROMISE_REPAIR"
+      ],
+      "forbidden_lines": ["Question stack status: KEEP", "Governing claim count: 4", "Action: ADD_HOOK"]
+    },
+    "AC-11": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/08-negative-space-copy-chief.md",
+      "required_lines": [
+        "Case: AC-11",
+        "Decision: DIAGNOSE_ABSENT_DEMONSTRATION",
+        "Missing move: DEMONSTRATED_RESULT",
+        "Line editing: BLOCKED",
+        "Preserve: VERIFIED_PROBLEM_CLAIM"
+      ],
+      "forbidden_lines": ["Missing move: NONE", "Line editing: PROCEED"]
+    },
+    "AC-12": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/05-thumbtack-continuity-audit.md",
+      "required_lines": [
+        "Case: AC-12",
+        "Decision: REJECT_OR_RELOCATE_PROOF",
+        "Claim evidence: PT-MET-004",
+        "Following proof evidence: PT-MET-003",
+        "Adjacency: MISMATCH",
+        "Action: REJECT_OR_RELOCATE"
+      ],
+      "forbidden_lines": ["Adjacency: MATCH", "Action: KEEP"]
+    },
+    "AC-13": {
+      "selected_route": "skills/kyle-milligan-copy-chief/SKILL.md",
+      "required_lines": [
+        "Case: AC-13",
+        "Decision: FAIL_ATTRIBUTION",
+        "Term: COMPENSATION_COPY",
+        "Term owner: MATTHEW",
+        "Kyle-only attribution: false"
+      ],
+      "forbidden_lines": ["Term owner: KYLE", "Kyle-only attribution: true"]
+    },
+    "AC-14": {
+      "selected_route": "skills/kyle-milligan-copy-chief/SKILL.md",
+      "required_lines": [
+        "Case: AC-14",
+        "Decision: FAIL_TONE",
+        "Feedback target: ARTIFACT",
+        "Writer attack: REMOVED",
+        "Required action: REWRITE_FEEDBACK_NON_SHAMING"
+      ],
+      "forbidden_lines": ["Feedback target: WRITER", "lazy", "incompetent"]
+    },
+    "AC-15": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/08-negative-space-copy-chief.md",
+      "required_lines": [
+        "Case: AC-15",
+        "Decision: SELECT_ONE_ROUTE",
+        "Selected diagnosis route: skills/kyle-milligan-copy-chief/workflows/08-negative-space-copy-chief.md",
+        "Dispatch count: 1",
+        "Recursive dispatch: false"
+      ],
+      "forbidden_lines": ["Dispatch count: 8", "Recursive dispatch: true", "Dispatch mode: ALL_EIGHT"]
+    },
+    "AC-16": {
+      "selected_route": "skills/kyle-milligan-copy-chief/SKILL.md",
+      "required_lines": [
+        "Case: AC-16",
+        "Decision: DOMAIN_GATE",
+        "Domain review: REQUIRED",
+        "Generation: NONE",
+        "Transferred source example: REMOVED"
+      ],
+      "forbidden_lines": ["Generation: PROCEED", "Domain review: PASS"]
+    },
+    "AC-17": {
+      "selected_route": "skills/kyle-milligan-copy-chief/workflows/06-proof-texture-dimensionalizer.md",
+      "required_lines": [
+        "Case: AC-17",
+        "Decision: REMOVE_SELF_REPORTED_PROOF",
+        "Truth class: SELF_REPORTED",
+        "Offer proof use: FORBIDDEN",
+        "Credential status: REMOVED"
+      ],
+      "forbidden_lines": ["Truth class: OBSERVED", "Offer proof use: ALLOWED"]
+    },
+    "AC-18": {
+      "selected_route": "skills/kyle-milligan-copy-chief/SKILL.md",
+      "required_lines": [
+        "Case: AC-18",
+        "Decision: KEEP_COLD",
+        "Registration: false",
+        "Global mirror: false",
+        "Required evidence: REPEATED_USE,HUMAN_REVIEW,TWO_REAL_KYLE_PIECES",
+        "Market proof: false"
+      ],
+      "forbidden_lines": ["Registration: true", "Global mirror: true", "Status: hot"]
+    }
+  }
+}

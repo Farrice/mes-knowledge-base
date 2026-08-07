@@ -1,0 +1,53 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-swipe-index/v1",
+  "label_definition": "Synthetic editorial control score used only to create a relevance-versus-status test; not a response, conversion, or market metric.",
+  "swipes": [
+    {
+      "id": "S1",
+      "path": "swipes/S1.md",
+      "fictional_brand": "Northstar Assist",
+      "synthetic_control_score": 74,
+      "audience_match": "adjacent",
+      "problem_match": "strong",
+      "mechanism_match": "moderate"
+    },
+    {
+      "id": "S2",
+      "path": "swipes/S2.md",
+      "fictional_brand": "BriefBridge",
+      "synthetic_control_score": 82,
+      "audience_match": "exact",
+      "problem_match": "exact",
+      "mechanism_match": "closest"
+    },
+    {
+      "id": "S3",
+      "path": "swipes/S3.md",
+      "fictional_brand": "MatterThread",
+      "synthetic_control_score": 78,
+      "audience_match": "distant",
+      "problem_match": "strong",
+      "mechanism_match": "strong"
+    },
+    {
+      "id": "S4",
+      "path": "swipes/S4.md",
+      "fictional_brand": "CartHarbor",
+      "synthetic_control_score": 88,
+      "audience_match": "weak",
+      "problem_match": "weak",
+      "mechanism_match": "weak"
+    },
+    {
+      "id": "S5",
+      "path": "swipes/S5.md",
+      "fictional_brand": "SignalDesk",
+      "synthetic_control_score": 94,
+      "audience_match": "weak",
+      "problem_match": "adjacent",
+      "mechanism_match": "weak"
+    }
+  ],
+  "selection_invariant": "S2 remains primary even though S4 and S5 have higher synthetic control scores."
+}

@@ -1,0 +1,54 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-run-config/v1",
+  "run_status": "frozen_before_generation",
+  "model": {
+    "family": "current Codex parent-task model",
+    "version": "same inherited task snapshot for both arms; provider build identifier unavailable",
+    "parity_requirement": "Arm B and Arm C workers must use the same inherited parent model without an override."
+  },
+  "settings": {
+    "replicates_per_generated_arm": 3,
+    "temperature": "runtime-controlled and identical by inheritance",
+    "seed": "not exposed; paired seed claims are forbidden",
+    "network": "disabled",
+    "external_cache": "disabled",
+    "hidden_chat_context": "forbidden",
+    "prior_arm_output_access": "forbidden",
+    "creative_passes_per_replicate": 2,
+    "method_specific_audit_passes_per_replicate": 1,
+    "deterministic_format_checks_per_replicate": 1
+  },
+  "fairness_repair": {
+    "arm_b_minimum_score": 65,
+    "maximum_repairs": 1,
+    "repair_scope": "Restore a missing Luke draft, Matthew audit, one Luke revision, or deterministic format check only; then rerun all three Arm B replicates. Do not use evaluator preferences or add Kyle artifacts."
+  },
+  "comparison": {
+    "aggregate": "median route-neutral score across three replicates",
+    "arm_c_minimum_median": 80,
+    "arm_c_minus_arm_b_minimum": 15,
+    "blind_pairwise_preferences_required": 2,
+    "blind_pairwise_trials": 3,
+    "hard_failures_override_score": true
+  },
+  "evaluator_separation": {
+    "labels_randomized_after_generation": true,
+    "label_map_sealed_until_scores_are_final": true,
+    "route_receipts_hidden_until_scores_are_final": true,
+    "route_neutral_score_before_kyle_fidelity_score": true
+  },
+  "provenance_policy": {
+    "registration_grade_required": "RUNTIME_OBSERVED",
+    "current_available_grade": "ORCHESTRATOR_ATTESTED",
+    "current_grade_limit": "A passing run may be retained as diagnostic fixture evidence but may not create command wrappers or authorize registration.",
+    "trusted_runtime_fields_required": [
+      "event order",
+      "actual reads",
+      "fresh context",
+      "model and settings parity",
+      "complete attempt history"
+    ]
+  },
+  "post_run_root": "extractions/kyle-milligan-copywriting/behavior-proof/relaynote/<run-id>/"
+}

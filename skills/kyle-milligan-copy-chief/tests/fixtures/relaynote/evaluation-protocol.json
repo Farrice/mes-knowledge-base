@@ -1,0 +1,52 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-evaluation-protocol/v1",
+  "label_generation": {
+    "unit": "paired replicate",
+    "labels": ["X", "Y"],
+    "method": "For each replicate, generate a fresh two-label permutation after both outputs exist. The parent keeps the mapping and a random secret salt out of the filesystem during scoring.",
+    "seal": "Before evaluation, write only SHA-256(canonical mapping JSON plus a random secret salt) to label-map.commitment.json. After evaluator scores are hash-sealed, write label-map.revealed.json with the mapping and salt so the run verifier can confirm the prior commitment.",
+    "anti_pattern": "Do not reuse a fixed X=B/Y=C mapping across replicates."
+  },
+  "blind_packet": {
+    "allowed_files": [
+      "product-truth.json",
+      "audience-brief.json",
+      "transfer-veto.json",
+      "output-contract.json",
+      "blind-quality-rubric.json",
+      "pair-1-X.md",
+      "pair-1-Y.md",
+      "pair-2-X.md",
+      "pair-2-Y.md",
+      "pair-3-X.md",
+      "pair-3-Y.md",
+      "label-map.commitment.json"
+    ],
+    "evaluator_context": "Fresh worker with no inherited task turns. It may read only the listed files and may not search the worktree.",
+    "forbidden_until_score_seal": [
+      "route receipts",
+      "original arm paths",
+      "skill or workflow files",
+      "label-map.revealed.json",
+      "prior evaluator commentary"
+    ]
+  },
+  "evaluation_order": [
+    "Validate both outputs against product truth and transfer veto.",
+    "Score each blinded output with blind-quality-rubric.json.",
+    "Record a forced pairwise preference plus rationale for each replicate.",
+    "Seal the score files.",
+    "Reveal the label map and route receipts.",
+    "Apply kyle-fidelity-rubric.json to Arm C as a separate unblinded diagnostic.",
+    "Compute medians and the C-minus-B delta.",
+    "Apply hard failures before declaring pass or fail."
+  ],
+  "evaluator_rules": [
+    "Do not reward a route name, expert identity, or recognizable terminology.",
+    "Do not repair an output while scoring it.",
+    "Cite exact lines for every deduction and hard failure.",
+    "Treat annotations as claims to verify, not proof by themselves.",
+    "State ties only in criterion scoring; pairwise preference must choose the more useful opening set."
+  ]
+}

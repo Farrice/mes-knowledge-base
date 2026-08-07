@@ -1,0 +1,46 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-transfer-veto/v1",
+  "vetoed_from_transfer": [
+    "control-swipe brand names",
+    "control-swipe product names",
+    "control-swipe metrics",
+    "control-swipe testimonials",
+    "control-swipe customer counts",
+    "source-video finance examples",
+    "source-video health examples",
+    "Kyle Milligan career or result claims",
+    "Matthew Volkwyn examples or labels presented as Kyle-owned",
+    "any mechanism not present in product-truth.json",
+    "any authority or endorsement not present in product-truth.json"
+  ],
+  "permitted_transfer": [
+    "abstract opening structure",
+    "claim-to-proof ordering",
+    "sentence-continuity patterns",
+    "degree of specificity",
+    "call-to-action placement"
+  ],
+  "hard_failure_tokens_in_output": [
+    "Northstar Assist",
+    "BriefBridge",
+    "MatterThread",
+    "CartHarbor",
+    "SignalDesk"
+  ],
+  "hard_failure_metric_tokens_in_output": [
+    "21-day",
+    "87%",
+    "16 minutes",
+    "19%",
+    "5 minutes",
+    "160 synthetic matters",
+    "89%",
+    "417 abandoned carts",
+    "31%",
+    "40 synthetic teams",
+    "93%",
+    "11 hours"
+  ],
+  "rule": "If a copied control fact cannot be mapped to a PT-* truth ID, remove it and record the transfer violation."
+}

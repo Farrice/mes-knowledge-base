@@ -1,0 +1,67 @@
+{
+  "notice": "Fixture data. Not market evidence.",
+  "schema_version": "relaynote-blind-quality-rubric/v1",
+  "route_visibility": "blind",
+  "score_total": 100,
+  "criteria": [
+    {
+      "id": "RQ-01",
+      "name": "truth and qualifier fidelity",
+      "weight": 20,
+      "full_credit": "Every factual clause maps exactly to a PT-* truth and preserves synthetic/held-out/manual qualifiers."
+    },
+    {
+      "id": "RQ-02",
+      "name": "audience relevance",
+      "weight": 15,
+      "full_credit": "The agency owner or operator immediately recognizes the post-call follow-up situation without invented pains."
+    },
+    {
+      "id": "RQ-03",
+      "name": "singular promise",
+      "weight": 15,
+      "full_credit": "Each option has one concrete promise and avoids generic AI, optimization, and pipeline abstractions."
+    },
+    {
+      "id": "RQ-04",
+      "name": "evidence specificity",
+      "weight": 15,
+      "full_credit": "The option uses relevant frozen proof with the exact denominator or context needed to interpret it."
+    },
+    {
+      "id": "RQ-05",
+      "name": "coherent opening progression",
+      "weight": 15,
+      "full_credit": "The opening moves from an audience-relevant entry into one consequential promise and claim-matched support without forcing any route-specific formula."
+    },
+    {
+      "id": "RQ-06",
+      "name": "claim-to-demonstration fit",
+      "weight": 10,
+      "full_credit": "The proof immediately following a claim proves that claim rather than a neighboring benefit."
+    },
+    {
+      "id": "RQ-07",
+      "name": "sentence continuity",
+      "weight": 5,
+      "full_credit": "Adjacent lines continue one carried concept; no hook barrage or unexplained conceptual jump."
+    },
+    {
+      "id": "RQ-08",
+      "name": "action and format compliance",
+      "weight": 5,
+      "full_credit": "Exactly three compliant multi-line options and one unblended recommendation use only the Book a demo action."
+    }
+  ],
+  "hard_failures": [
+    "unsupported revenue, conversion, pipeline, closed-won, customer, or causal outcome",
+    "copied control brand, metric, testimonial, or claim",
+    "invented authority, endorsement, mechanism, owner, or date",
+    "fixture result described as market or customer evidence",
+    "writer-shaming language",
+    "missing or false PT-* evidence mapping",
+    "route or expert identity exposed to the blind evaluator",
+    "output contract materially violated"
+  ],
+  "scoring_rule": "A hard failure sets the replicate to FAIL regardless of numeric score. Otherwise sum criterion points without route-aware adjustments."
+}
