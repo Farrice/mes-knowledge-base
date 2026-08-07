@@ -480,3 +480,8 @@
 {"ts": "2026-08-07T13:09:20Z", "label": "2026-08-07 essay", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-07T13:18:34Z", "label": "flagship final", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-07T13:18:34Z", "label": "essay final", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-07T16:30:40Z", "label": "_active/farrice-brand/content/vault/2026-08-07-count-whats-left-post.md", "verdict": "FAIL", "fails": ["4 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-07T16:31:50Z", "label": "_active/farrice-brand/content/vault/2026-08-07-count-whats-left-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-07T16:31:50Z", "label": "_active/farrice-brand/content/vault/2026-08-07-nobody-owns-selection-essay.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-07T16:32:18Z", "label": "_active/farrice-brand/content/vault/2026-08-07-count-whats-left-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-07T16:32:18Z", "label": "_active/farrice-brand/content/vault/2026-08-07-nobody-owns-selection-essay.md", "verdict": "CLEAN", "fails": [], "warns": []}

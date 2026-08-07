@@ -53,10 +53,10 @@ It was always the founder's job. It just stopped being in the room.
 
 ---
 
-**Reader save reason:** the four-complaints-one-function diagnostic is portable to any brand and runs in a single meeting.
+**Reader save reason:** the four-complaints-one-function read is portable to any brand and runs in a single meeting.
 **Buyer next thought:** "if I ask my four leads who decided what we claim, I already know I'll get four answers."
-**Soft CTA:** the closing diagnostic is the bridge; it lands on the unmade decision without naming the offer.
-**Visual direction:** optional four-row table — complaint on the left, where it was actually decided on the right.
+**Soft CTA:** the closing read is the bridge; it lands on the unmade decision without naming the offer.
+**Visual direction:** optional four-row table: complaint on the left, where it was actually decided on the right.
 **Proof moment:** the four complaints, each resolved to its actual decision point.
 **Turn:** the complaints are not four problems, they are four vocabularies for one absence.
 **Residue line:** "It was always the founder's job. It just stopped being in the room."
