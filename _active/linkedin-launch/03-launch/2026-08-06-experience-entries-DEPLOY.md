@@ -106,21 +106,60 @@ because you have never had a rack to move or an affiliate link to protect.
 **Do not position it as "I also do personal training."** That reads as a side hustle and splits the
 profile. Position it as the reason the strategy work is current.
 
-### Draft — PASTE
+### FINAL — deploy-ready (decided 2026-08-06: own entry, Sep 2018)
 
+**Title**
+```text
+Private Performance Coach · Executives, Founders & Talent
+```
+
+**Company**
+```text
+Farrice Cain
+```
+Self-employed · **Sep 2018 – Present · 8 yrs** · Los Angeles Metropolitan Area
+
+The overlap with Equinox (Aug 2008 – Oct 2025) is honest and it helps: you were building a private list
+while still on the floor. That reads as demand, not as a gap being filled after a job ended.
+
+**Description — PASTE**
 ```text
 I never stopped taking clients.
 
 The list is short on purpose and I can't name any of it. Presidents of companies, VPs, actors. People who can afford any trainer, any doctor, and any supplement on the shelf, and who still text me before they buy one.
 
-They ask because I have no stake in the answer. No brand deal, no affiliate link, no rack to move. Eighteen years of that, and the questions have not changed: is this doing anything, is it worth the money, will it interact with what my doctor already gave me.
+They ask because I have no stake in the answer. No brand deal, no affiliate link, no rack to move. Eighteen years of answering that question, eight of them independently, and at this tier the questions barely move: is this worth what they're charging, will it interact with what my doctor already gave me, is the guy on the podcast right.
 
 This is why the strategy work stays current. Most people selling opinions about your buyer left the floor years ago and are running on memory. I had that conversation this week. When I tell you what a high-income buyer will and won't believe about a label, I'm not remembering it. I'm reporting it.
 
 Discretion is half the job here. It's also why I won't name a brand I've worked with unless they name themselves first.
 ```
 
-**The turn** is *"I had that conversation this week"* — five words, all Saxon, and it's the entry's whole
-reason for existing. Everything before it sets up that the practice is real; everything after cashes it.
+**The turn** is *"I had that conversation this week."* Five words, all Saxon, and it's the entry's whole
+reason for existing. Everything before it establishes that the practice is real; everything after cashes it.
 
-**Blocked on two facts only you have** — see the question in chat.
+**Two craft notes:**
+
+- **"Eighteen years of answering that question, eight of them independently"** disambiguates the numbers
+  inside an entry dated 2018. Without it, an eighteen-year claim under an eight-year role reads as stretched.
+- **The three questions are tier-specific on purpose.** Equinox owns *"is this doing anything."* This entry
+  owns *"is it worth what they're charging / will it interact with what my doctor gave me / is the guy on
+  the podcast right"* — because executives and actors ask different questions than the gym floor does, and
+  a supplement CMO selling premium product recognizes those three immediately. Reuse across surfaces is
+  reuse, not reinforcement; every surface carries its own proof.
+
+**Optional strengthener:** a practice name in the Company field instead of "Farrice Cain" would separate
+this cleanly from the creative-strategy entry and stop LinkedIn from showing two identically-named
+self-employed roles. Not required — the titles already do the work.
+
+---
+
+## Paste order (revised)
+
+1. Founder & Creative Strategist — fix the `pushes` → `push` typo
+2. Private Performance Coach — new entry
+3. Equinox — replace description entirely
+4. The Vitamin Shoppe — replace description, settle `[N]`
+5. Delete **Creative Strategy & Transformation Systems**
+
+Delete last, so nothing is missing from the profile while you work.
