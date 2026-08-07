@@ -1,123 +1,76 @@
-# The Production Prompt Chain — Verbatim
+# Book One Prompt Chain — Governed Version
 
-Source: "Try This Digital Product Strategy for 30 days" (youtube.com/watch?v=vhuo0A7Oy74, 25:14), a live screen-recorded build, plus the outline-from-competitors method from the "COMPLETE Amazon KDP Tutorial" (youtube.com/watch?v=qn6VasGSexI). Dollwet ran it in Claude (Opus 4.7, Pro plan ~$20/mo) in one continuous thread titled "Profitable book topics to write." **Tool-agnostic: any strong model works — Claude, ChatGPT, Gemini.** A free model works too (slower, credit-limited). AI is the assistant; the human is editor-in-chief at every step.
+Source roots: `vhuo0A7Oy74`, `qn6VasGSexI`, and `sQQN53qx-VI`. Sean's historical prompts are useful scaffolds, not market research, authorship, rights, or policy proof. The human is accountable for every decision and asset.
 
-> "AI is just an assistant. It's not a replacement. So you want to work with AI and go back and forth until you're happy."
+## 1. Candidate ideation
 
----
-
-## Prompt 1 — Topic brainstorm
-
-```
-Give me 50 profitable book topics I can write about.
-```
-(Tutorial variant: "Give me 50 profitable book topics I can write about for my Amazon KDP business.")
-
-**What came back:** intermittent fasting for women over 40, air fryer, sourdough baking, anxiety workbook, ADHD productivity, Mediterranean diet meal prep, self-discipline, stoicism, decluttering for overwhelmed adults… and "how to stop overthinking," which he picked.
-
-**Human-judgment step → validate on Amazon, not in the model.** Take the candidate to Amazon, set category to Books, and confirm **3+ competitors below 80,000 BSR** in the **Paperback** format (DS Amazon Quick View shows BSR + ASIN inline). Live examples he confirmed: BSR 189, 312, #1,013 — "way below 80,000… selling extremely well." No cluster of sub-80k books = kill the topic, pick another candidate. Also narrow to one problem, one audience before proceeding (e.g., not "weight loss" but "intermittent fasting for women over 50").
-
----
-
-## Prompt 2 — Pain points
-
-```
-Let's go with the topic of how to stop overthinking. Please list out the biggest
-pain points of this target audience.
+```text
+Generate 30 nonfiction book problem/audience pairs that could fit the operator's
+real experience and stated exclusions. For each, name what must be researched;
+do not call any topic profitable or trending.
 ```
 
-**What came back (verbatim on screen):** "Lying awake at night replaying conversations… / Mentally rehearsing worst-case scenarios that almost never happen / Reading way too much into texts, emails, and tone of voice / Feeling exhausted before the day even starts / Making simple decisions feel impossible / Drafting and redrafting a message ten times before sending / Constantly second-guessing decisions they already made / Feeling stuck in 'analysis paralysis' / Beating themselves up over small mistakes for days / … Physical symptoms like tight chest, headaches, jaw clenching / Procrastinating because the thinking feels safer than doing / Ruminating on past failures, embarrassments, or regrets."
+Human gate: run the dated 5–10-topic marketplace and reader-problem scan. A model-generated candidate never receives `GO` by itself.
 
-**Human-judgment step → select the pain points to solve.** You choose which subset the book will actually address; this becomes the spine of the outline and the source of subtitle benefits. Don't let the model pick for you.
+## 2. Reader and interview map
 
----
-
-## Prompt 3 — Outline
-
-```
-Here are pain points that I think we should focus on solving. Based on this,
-please create a detailed book outline for this book.
+```text
+For [reader] facing [problem], create an interview map: decisions, frustrations,
+failed attempts, desired use, language to listen for, and claims that require an
+authoritative source. Do not invent answers, stories, symptoms, or credentials.
 ```
 
-**What came back:** a full title + structure — Introduction: "The Exhausting Loop You Can't Seem to Escape" (opening hook / what overthinking actually is / the hidden cost / why "just stop thinking about it" has never worked); Part One — Ch.1 "Why Your Brain Won't Shut Off," Ch.2 "The Six Faces of Overthinking," Ch.3 "When Thinking Feels Safer Than Doing," Ch.4 "Stop Second-Guessing Every Decision You Make."
+Human gate: Farrice supplies lived material and taste; current research supplies discoverable facts.
 
-**Stronger method — outline FROM competitors (from the tutorial).** The market has already A/B-tested chapter structures for you. Before or instead of a blank-slate outline:
-1. **TOC stalking:** open the top competitors' "Read sample," scroll to their table of contents, copy the standout chapters into your outline, skip the fluff. Combine the best chapters from multiple bestsellers.
-2. **Review mining:** read positive and negative reviews for repeated patterns — what buyers loved, and "I wish the author covered this." Build your book to *do the liked things and fix the complaints*.
-3. **The paste-reviews hack:** highlight the entire competitor review block → paste into the model → `summarize what people liked and what people didn't like` → feed that summary into the outline. Compresses hours of reading into seconds.
+## 3. Source-led outline
 
-> "Learning from the best-selling competitors, taking the best parts of their book and put it into ours… people are saying 'I wish the author covered this'… you make sure that your book covers that exact thing."
-
----
-
-## Prompt 4 — Titles
-
-```
-Give me 10 title ideas for this book. Give me versions of titles that are clear,
-but also catchy.
+```text
+Using only the approved reader promise, source dossier, claim ledger, and abstracted
+competitor complaint themes, propose a detailed outline. Map every section to a
+reader job, evidence need, example/tool, and non-goal. Do not retain competitor
+wording, chapter names, examples, or distinctive sequencing.
 ```
 
-**What came back + his verbatim taste verdicts (the taste-test rubric in action):**
+Human gate: approve the outline and reader promise.
 
-| Title | Verdict | Why |
-|---|---|---|
-| Unstuck | ❌ reject | "Catchy, but you have no idea what your book is about" — the anti-example |
-| Quiet the Noise | ➖ ding | Too vague |
-| The 2:00 a.m. Mind | ➖ ding | Too catchy |
-| Out of Your Head | okay | Passable |
-| Stop Overthinking Everything | ✅ | Catchier than plain, still clear |
-| The Overthinker's Escape Plan | ✅ | Clear + catchy |
-| The End of Overthinking | ✅ | Clear + catchy |
-| Stop Living in Your Head | ✅ | Clear + catchy |
+## 4. Title and metadata options
 
-**The rule:** reject anything you can't decode from the title alone; ding anything *too* catchy at the expense of clarity; **clarity breaks ties.** Then add a benefit-stacked subtitle (the keyword-plus-flair formula: main keyword + spice, e.g. "10-Minute Decluttering Cheat Sheet").
-
-**Chosen:** "Stop Overthinking Everything: A Practical Guide to Quieting Your Mind and Trusting Yourself Again."
-
-> "It's catchy, but you have no idea what your book is about, and that is a huge mistake people make when it comes to creating book titles."
-
----
-
-## Prompt 5 — Draft (the generate → humanize loop)
-
-```
-Let's go with this. Please write the introduction chapter.
+```text
+Create ten clear, accurate title/subtitle options grounded in the approved promise
+and observed search language. Keep each combined title/subtitle under 200 characters.
+Flag trademark, unauthorized-name, keyword-stuffing, promotion, or unsupported-claim
+risks. Clarity wins, but do not force an exact-match phrase that makes the title bad.
 ```
 
-**What came back (verbatim):** "It's 2:14 a.m. You've been lying in bed for hours. Your body's heavy, your eyes burn from being open too long, and yet your mind is sprinting…" → "Your Brain Is Doing Its Job a Little Too Well — Your brain has one main job: keep you alive. Not happy. Not peaceful. Not even particularly content. Alive."
+Human gate: run clearance, metadata/cover consistency, and approval.
 
-**Human-judgment step → humanize every chapter (the copyright unlock).** Generate ONE chapter → paste into a Google Doc → edit: add personal stories, insert your own speech patterns, break the repetition that starts around chapter 3–4 (the model forgets what it wrote), cut fluff, **fact-check every claim** (the model is confidently wrong). Then generate the next. Repeat to **10,000–15,000 words** for a first book. Raw paste is legally uncopyrightable and degrades — humanizing fixes both.
+## 5. Gold chapter and controlled manuscript
 
-> "You can copyright your book if you actually humanize AI content. But if you're just copy-pasting from AI, you cannot copyright that."
-
-Instruction seasoning for the draft prompt: "don't write in list style, focus on practical advice, use stories."
-
----
-
-## Prompt 6 — Cover (two prompts, realistic → text-based)
-
-Covers go through an image model (ChatGPT/GPT-Image or Gemini — "Claude is not the best with images"; free ChatGPT ≈ 3 image generations).
-
-**6a — realistic first pass:**
+```text
+Draft only [section] using the approved outline, source rows, operator interview
+material, terminology, prior-claim list, examples-used list, and repetition watchlist.
+Mark every factual claim with its source row. Do not invent stories, citations,
+credentials, quotes, cases, or results. Prefer mechanisms, concrete examples, tools,
+and exercises over generic advice.
 ```
-Please create a book cover for the book titled [Stop Overthinking Everything:
-A Practical Guide to Quieting Your Mind and Trusting Yourself Again].
+
+Human gate: truth, depth, non-repetition, voice, and editability. Approve one gold chapter before scaling. Update the rolling packet after every section.
+
+AI-generated prose remains AI-generated for KDP disclosure even after substantial editing. Human contributions and rights are documented per asset; copyright scope is case-specific.
+
+## 6. Cover brief before generation
+
+```text
+Create a cover design brief for [book] from the approved reader, category benchmark,
+positioning gap, title hierarchy, thumbnail test, trim/page-count inputs, wrap geometry,
+bleed/safe zones, resolution, rights, fonts/stock, AI disclosure, and metadata match.
+Return three distinct directions and the risk of each. Do not imitate a competitor.
 ```
-→ a realistic meditation-by-a-lake cover.
 
-**6b — re-prompt to text-forward (the on-trend style):**
-```
-make it a text based cover, make the text the main focus, images or vectors
-surround it just as a complimentary element.
-```
-→ a typographic cover (stacked "STOP / OVERTHINKING / EVERYTHING" + botanical vectors).
+Human gate: approve the brief, then the concept, then rights and production geometry.
 
-**Human-judgment step → pick by current trend.** In self-help, text-forward covers currently convert better; realistic-image covers are "old-school." Choose the text-based version.
+## Chain state
 
-> "These text-based covers are doing really well nowadays. So these realistic images type book cover designs is kind of old-school."
+`IDEATE → MARKET EVIDENCE → NICHE APPROVAL → INTERVIEW/SOURCES → OUTLINE → OUTLINE APPROVAL → TITLE/METADATA → GOLD CHAPTER → GOLD APPROVAL → CONTROLLED MANUSCRIPT → EDITORIAL QA → COVER → COMPLIANCE → UPLOAD APPROVAL`
 
----
-
-## The chain as a pipeline
-
-50 topics → **validate on Amazon (3+ sub-80k)** → narrow to one problem/one audience → pain points → **you select** → outline (blank-slate OR competitor-TOC + review-mining) → 10 clear-but-catchy titles → **taste-test (clarity breaks ties)** → chapter-by-chapter generate + **humanize** → two-style cover → pick text-based. Each prompt consumes the prior output so context compounds; the human is the gate between every step.
+No prompt may skip a human checkpoint, evidence gap, or policy gate.

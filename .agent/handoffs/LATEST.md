@@ -1,56 +1,91 @@
 # Latest Handoff
 
-**Thread:** creative-generation-os  
-**Full path:** .agent/handoffs/2026-08-04-creative-generation-os.md  
-**Date:** 2026-08-04 (today)  
-**Status:** done  
-**Title:** Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped
+**Thread:** kdp-book-one-proof-system
+**Full path:** .agent/handoffs/2026-08-04-kdp-book-one-proof-system.md
+**Date:** 2026-08-04 (today)
+**Status:** done
+**Title:** Extraction: KDP Book One System - Proven, Niche Rejected
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume creative-generation-os` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume kdp-book-one-proof-system` for this one.
 
 ---
-thread: creative-generation-os
+
+---
+thread: kdp-book-one-proof-system
 status: done
-resume_hint: OS complete — start from guides/CREATIVE-OS-USER-GUIDE.md
-unfinished: frbpm public name; avatar repair round (~$0.16); first real production run
-branch: main
-pin: true
+resume_hint: If revisited, add Operator-Niche Fit as Gate 0 before any new market scan.
+unfinished: No required work; optional Gate 0 repair and fit-first rerun in a personally credible lane.
+branch: codex/kdp-book-one-proof-system
+pin: false
 ---
 
-# Creative Generation OS — COMPLETE + frbpm Avatar Locked + User Guide Shipped
+# Extraction: KDP Book One System - Proven, Niche Rejected
 
-## Purpose
-- **Next session should do:** first REAL production run — Teardown carousel #2 assets via the user guide's prompt bank (gated behind mission 2b sends); or the avatar repair round (3 flagged objects + T3 sneaker re-roll, ~$0.16); or continue anything via /resume creative-generation-os.
-- **Not in scope:** rebuilding anything — OS complete, avatar locked (12/12 acceptance), guide shipped.
+## Session status
 
-## Load First
-- `guides/CREATIVE-OS-USER-GUIDE.md` — THE manual (copy-paste prompt bank, steering phrases, money map, troubleshooting)
-- `_active/farrice-brand/05-assets/anime-avatar/CANON.md` — frbpm canon + usage recipe + repair list
-- `skills/generate/references/craft-map.md` — the binding craft gate (8 masters wired)
+`done`
 
-## Current State
-- **Done:** /generate engine · Netflix board (black/#0f6fff, hero billboards, approved) · craft gate + intent mirror BINDING IN BOTH CONSTITUTIONS (shared-intent-mirror block, blessed) · 8 masters extracted+wired · frbpm avatar locked (26-shot captioned dataset, 12/12 acceptance folder holds, 3 named repair objects) · $20/day caps · user guide + INDEX row. All pushed.
-- **Uncertain:** frbpm public display name (Farrice's to give); elevenlabs price (deferred stub); Codex mirror is constitution-grade not hook-grade.
-- **Latest proof:** acceptance folder on board (🎭 frbpm-acceptance); avatar total ~$2.20.
+This session proved that Watch, extract-forge, source-to-skill-system, and extract-amplify can turn a creator-led YouTube corpus into a connected, policy-aware operating capability. It did not prove buyer demand, royalties, or personal fit with the selected market. The operator explicitly rejected the proposed family scam-defense niche because he has no experience, interest, or credible desire to speak in that lane.
 
-## Suggested Skills / Workflows
-- The guide's prompt bank covers 12 outcomes — start there, not with raw commands
-- `/mickmumpitz-controlled-shot-spec` for any shot needing exact control · `/dave-clark-flat-to-cinematic-audit` before video ships
+## Completed
 
-## Exact Next Prompt
-```text
-/resume creative-generation-os — Open guides/CREATIVE-OS-USER-GUIDE.md. I want [pick: the Teardown #2 carousel via prompt #12 / the avatar repair round / my first solo run — watch me use prompt #2 and correct my steering].
-```
+- Harvested Sean Dollwet's anchor video plus ten associated KDP videos into a caption-grounded source ledger with incentive, uncertainty, and policy corrections.
+- Extended the existing Sean Dollwet KDP capability instead of creating a duplicate expert: one function owner, an 11-workflow system, prompt surfaces, current KDP and rights boundaries, and an explicit Book One conductor.
+- Built a persistent local runtime with separate production, capability, market, and permission states; unsafe AI disclosure, rights, review-exchange, and PDF-only fixtures correctly hold or block.
+- Ran a live zero-budget niche scan. Family scam defense for adult children helping aging parents received a conditional-go research verdict, then an operator-fit rejection. No outline, manuscript, cover, upload, publication, outreach, spend, or KDP account action followed.
+- Proved local fresh-context behavior and passed 3,773/3,773 system checks, 7/7 skill checks, 11/11 menu-reachability checks, contract verification, export-format checks, and clean prose checks.
 
-## Acceptance Criteria
-- Next session starts from the guide, not from re-explanation.
+## Final decisions
 
-## Risk Notes
-- Mission 2b (5 sends + payment URL) still gates campaign content publishing — creative is ready, revenue clock is not started.
+- **LOCKED:** Preserve the build as proof that harvested skills can become an executable, policy-safe system.
+- **REJECTED:** The family scam-defense concept is not Farrice's Book One and must not silently reopen.
+- **UNTESTED:** Exact market demand, manuscript quality, KDP acceptance, discovery, sales, royalties, and thousands-per-month economics.
+- **NO PERMISSION:** Nothing may be published, purchased, enrolled, sent, or promoted from this session.
+- **OPTIONAL FUTURE REPAIR:** Add `Operator-Niche Fit` as Gate 0 so lived experience, sustained curiosity, reader access, and willingness constrain market research before niche scoring.
 
-## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
-- Previous handoff on this thread: `.agent/handoffs/2026-08-02-creative-generation-os.md` — everything it lists as shipped is EXTEND-ONLY.
-- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
+## Proof state at close
 
+- Capability: `RUNTIME_OBSERVED`
+- Production: `NO_EVENT`
+- Market: `NO_EVENT`
+- Permission: `NO_PERMISSION`
+- Active Book One: none
+
+## Essential context to load
+
+- `_active/kdp-book-one-pilot/00-start-here/BOOK-ONE-COCKPIT.md`
+- `_active/kdp-book-one-pilot/02-research/market-dossier.md`
+- `_active/kdp-book-one-pilot/02-research/operator-interview.md`
+- `extractions/sean-dollwet-kdp-book-one-system/source-ledger.md`
+- `extractions/sean-dollwet-kdp-book-one-system/skill-system-contract.md`
+- `extractions/sean-dollwet-kdp-book-one-system/behavior-proof.md`
+- `execution/kdp_book_one.py`
+- `execution/verify_kdp_book_one_system.py`
+
+## Workspace state
+
+- Dedicated worktree: `/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/kdp-book-one-proof-system`
+- Branch: `codex/kdp-book-one-proof-system`
+- Changes remain intentionally uncommitted because the installed closeout spine can stage and push the whole tree, while the manifest-scoped Codex coordinator required by the named End-session skill is unavailable.
+- The shared main worktree was not used for these edits.
+
+## Remaining priority
+
+No required work remains for this proof-of-concept. If the system is resumed, the first action is the fit-gate repair—not another market scan and not manuscript production. After that repair, rerun the search only inside a lane the operator can credibly discuss and wants to inhabit.
+
+## Suggested skills
+
+- `source-to-skill-system` — preserve the connected capability architecture and proof-axis discipline.
+- `repeatability-spine` — turn the rejected niche into an executable regression fixture without rewriting the whole KDP system.
+- `source-command-extract-forge` and `source-command-extract-amplify` — reuse the harvested corpus only when improving the system, not when resurrecting the rejected topic.
+- `kdp-engine` — invoke only after a future operator-fit shortlist is explicitly approved.
+
+## Searchable keywords
+
+KDP, Sean Dollwet, Book One, YouTube harvest, source-to-skill system, AI ebooks, anti-slop, policy-safe publishing, runtime observed, market no event, niche rejected, operator-niche fit, proof of concept
+
+## Do NOT Rebuild
+
+- Do not recreate the harvested corpus, KDP runtime, proof ledgers, routing, policy boundary, or verifier; load the shipped artifacts above.
+- Do not restart the rejected family scam-defense book. If this capability is resumed, add the fit gate first and begin with a personally credible lane.
+- Before building anything named above, inspect this handoff and run the existing KDP system verifier.

@@ -449,7 +449,7 @@
             "positive_count": 0
         },
         "2026-08": {
-            "total_routings": 57,
+            "total_routings": 58,
             "total_feedback": 3,
             "positive_count": 0,
             "negative_count": 0,
@@ -462,7 +462,7 @@
                 "Content": 5,
                 "Analysis": 1,
                 "alex-copper-creative-strategy": 1,
-                "System": 3,
+                "System": 4,
                 "supercomputer": 4,
                 "Creative": 1,
                 "Strategy": 2,
@@ -528,10 +528,11 @@
                 "fantastic-posters": 1,
                 "samuel-thompson": 2,
                 "stefan-georgi-dopamine-copy": 1,
-                "creative-campaign-strategy": 1
+                "creative-campaign-strategy": 1,
+                "sean-dollwet": 1
             },
             "tier_counts": {
-                "0": 57,
+                "0": 58,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -540,9 +541,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 41,
-                "finalize-auto": 16
+                "finalize-auto": 17
             },
-            "ensemble_count": 23,
+            "ensemble_count": 24,
             "auto_miss_count": 3
         }
     },
@@ -1563,6 +1564,23 @@
             "workflow_used": "stefan-georgi-dopamine-copy",
             "ensemble": true,
             "compound_pairing": "stefan-georgi-dopamine-copy + creative-campaign-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260804_203439_cbbc",
+            "timestamp": "2026-08-04T20:34:39.351280+00:00",
+            "session_id": "",
+            "request_summary": "KDP Book One proof system: 11-video source harvest, policy-safe conductor, persistent cockpit, live zero-budget market dossier, adversarial verifier, and detached local runtime proof",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "sean-dollwet"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "kdp-engine",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

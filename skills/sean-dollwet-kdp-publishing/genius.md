@@ -1,15 +1,15 @@
-# Sean Dollwet — Genius Context (v3)
+# Sean Dollwet — Genius Context (v4)
 
-Sean Dollwet: $40k in debt at 22, self-made millionaire by 26, ~$2.2M lifetime from ebooks. Sold his first KDP account for **$820,000** on Empire Flippers (Aug 24 2021, Listing #32231); a second account has booked **$526,055.73 across 364 books** and another **$495,736.13 across 183 books**. His whole doctrine is one inversion: most people write the book first and hunt for buyers after — Dollwet finds proof buyers already exist, then builds a better book on the proven topic and drops it where the buyers already shop. This file is the merged pattern bank (5 deep-source videos). Every number and quote traces to the extraction notes in `extractions/sean-dollwet/`.
+The durable method is demand-first publishing: study current reader demand before drafting, then build a more useful book for one problem and one audience. This pattern bank preserves Sean Dollwet's source-reported tactics while the Book One conductor applies current policy and evidence controls. Earnings, BSR conversions, review thresholds, launch-window effects, pricing prescriptions, and portfolio linearity are `SOURCE_REPORTED` or `UNTESTED`. Official KDP and U.S. Copyright Office rules always supersede creator advice. Source evidence lives in `extractions/sean-dollwet/` and `extractions/sean-dollwet-kdp-book-one-system/`.
 
 ---
 
 ## Genius Patterns
 
-### Pattern 1 — Demand-First, Product-Second (the BSR gate)
-**Mechanism:** You are selling *inside* Amazon's store, so query that store's own bestseller data before committing months. Best Sellers Rank is a live sales proxy — lower = faster-selling. One selling book could be a fluke; **three books under 80,000 BSR on page one is a *pattern*** proving durable demand. 80k BSR ≈ $500/month, a repeatable floor benchmark.
-**Execute:** Amazon → set category to Books → install free Chrome plugin **DS Amazon Quick View** (shows BSR + ASIN inline, no tab-opening) → search the topic → require **3+ books below 80,000 BSR** on page one. Research in the **Paperback** format specifically. Bonus signal: if ranked books have low review counts, ranking-friction is low — a 26-review book below 80k is a *green flag*, not a warning.
-**Success Metric:** Every topic pursued documents 3+ competitor books under 80,000 BSR before a single word is written.
+### Pattern 1 — Demand-First, Product-Second (the evidence stack)
+**Mechanism:** Query the marketplace before committing to a manuscript. BSR, review count, price, search placement, format, and incumbent quality are time-sensitive signals—not fixed revenue facts. A cluster is stronger than one outlier, but no threshold proves durable demand by itself.
+**Execute:** Record the Amazon marketplace, query, date, format, title/ASIN, visible BSR/reviews/price, and source path for several competing books. Add independent problem-language evidence, scan sensitivity to changed thresholds, and label any tool revenue estimate `SOURCE_REPORTED`.
+**Success Metric:** Every topic verdict has multiple dated marketplace observations, independent reader-problem corroboration, and explicit uncertainty before drafting.
 **Evidence:** *"If you find three other books that fits that criteria doing below 80,000 BSR, then we can safely assume that that's a pattern."* · *"This book right here only has 26 reviews, and yet it's below 80,000 BSR."*
 
 ### Pattern 2 — It's Not the Topic, It's the Book
@@ -36,11 +36,11 @@ Sean Dollwet: $40k in debt at 22, self-made millionaire by 26, ~$2.2M lifetime f
 **Success Metric:** The winning title passes the decode test — a stranger names the subject in one read — and is the catchiest option that still does so.
 **Evidence:** *"It's catchy, but you have no idea what your book is about, and that is a huge mistake people make when it comes to creating book titles."*
 
-### Pattern 6 — AI Drafts, Human Elevates (the copyright unlock)
-**Mechanism:** AI is an assistant, not a replacement. Generic AI degrades — intro and chapter 1 are fine, then "around chapter two or three it becomes extremely repetitive… surface level," because it forgets what it wrote and hallucinates confidently. Raw AI paste is *also legally uncopyrightable*. Human editing fixes both, and publishing raw output joins the "AI garbage" flood.
-**Execute:** Build the outline first, then generate ONE subchapter (~1,250 words) at a time with instructions like "don't write in list style, focus on practical advice, use stories." Paste into a Google Doc → edit, add personal stories + your own speech patterns, break the ch.3 repetition, cut fluff → fact-check every claim (AI is confidently wrong) → run Grammarly for grammar/plagiarism → then generate the next. For simple list-books (dad jokes) plain ChatGPT output can be enough.
-**Success Metric:** No section ships as-generated; each contains at least one story or concrete example the AI didn't produce; the book is copyright-eligible.
-**Evidence:** *"You can copyright your book if you actually humanize AI content. But if you're just copy-pasting from AI, you cannot copyright that."*
+### Pattern 6 — AI Drafts, Humans Author and Verify
+**Mechanism:** Generic AI degrades through hallucination, thin treatment, repetition, textbook voice, and mounting edit debt. Human work must supply accountable judgment, original expression, analysis, examples, source decisions, and final reader responsibility. Heavy editing does not change KDP's classification of an AI-generated asset.
+**Execute:** Build the outline first, draft one controlled section at a time, and carry a rolling context packet. Verify every claim; add real interview-sourced stories/examples; run developmental, redundancy, line/copy, originality, and reader QA; log each asset's human/AI creation mode and rights evidence.
+**Success Metric:** No section ships as-generated; every claim and asset has evidence; KDP AI disclosure is accurate; qualifying human authorship is documented without promising blanket copyright.
+**Evidence:** Sean's source warning about raw output is retained as quality guidance. The policy/copyright conclusion comes from current KDP and U.S. Copyright Office sources.
 
 ### Pattern 7 — Value = Organization + Time-Saved, Not Page Count
 **Mechanism:** Readers buy to solve a problem, not to read pages. Value doesn't require *new* information — it comes from organizing known information and teaching it clearly. "People just want reminders." This dissolves the "I'm not an expert" objection: you become the expert *as you publish*. A 100-page book that solves the problem beats a 500-page fluff book.
@@ -72,28 +72,28 @@ Sean Dollwet: $40k in debt at 22, self-made millionaire by 26, ~$2.2M lifetime f
 **Success Metric:** Each target niche has a named weak spot per incumbent (review count, cover date, title generic-ness, or content staleness).
 **Evidence:** *"These are niches with steady buyers, but where the top books have outdated covers, generic titles, content that haven't been touched in years, or surprisingly low review counts."*
 
-### Pattern 12 — Review-Moat Door-Close (reviews are not bulletproof)
-**Mechanism:** Buyers don't sort purely by review count — they scan **cover → title → Look Inside** and pick what looks best *once a trust threshold is cleared*. So a modern cover + harder title + on-trend content wins meaningful share even against a large review gap. A weak-but-reviewed book is beatable on quality; once YOU enter with quality AND stack reviews fast, you hold both — "no weak spot to attack" — and the door closes behind you. First-mover goes from exposed to entrenched.
-**Execute:** Audit the target's cover (dated?), title (generic?), content (stale?); beat all three on the buyer's decision path; then sprint reviews (Pattern 13). Quality + social proof = uncompetable.
+### Pattern 12 — Whole-Listing Quality Beats Review-Count Fatalism
+**Mechanism:** Review count is only one conversion signal. Cover, title, metadata, sample, content quality, price, and reader fit also shape the decision. A high-review incumbent can still expose a specific execution gap.
+**Execute:** Audit the target's cover, title, sample, complaints, freshness, price, and promise; name the gap the new book can honestly close. Acquire reviews only through policy-safe, optional reader behavior.
 **Success Metric:** Your listing out-executes incumbents on cover, title, AND content before review-count is even compared.
 **Evidence:** *"Reviews only protect the book when the rest of the book is also strong."* · *"AI gives you the quality. Speed gives you the reviews… The door closes behind you."*
 
-### Pattern 13 — The Honeymoon + 90-Day Review Sprint
-**Mechanism:** Amazon gives new books extra visibility in the first **30 days** (the honeymoon) and rewards early velocity across the first **90 days** — an audition you actively pass, not a passive grace period. Reviews remove the buyer's purchase hesitation (social proof), not a ranking spell. Crossing a review threshold flips organic distribution on — but ONLY if cover/title/content are already strong.
-**Execute:** Minimum **15 reviews before any marketing** (hard gate); target **10–15 in month one**, then sprint to **50–100 honest reviews in the first 90 days**. Sources: acquaintances / friend-of-a-friend / niche Facebook groups (NEVER close friends or family — Amazon prohibits), plus Book Bounty (verified, marketplace-targetable, ~$25/mo points system) and Book Reverb (bid-based from ~$6, fast, mostly unverified, now does audiobook reviews too). Free method: the Facebook-group script (see references/prompt-chain and price-sheet).
-**Success Metric:** 15+ reviews land before marketing spend; 50–100 within 90 days; zero direct swaps or family reviews.
-**Evidence:** *"You need to get reviews fast in the first 90 days because Amazon's algorithm rewards books that build momentum quickly."*
+### Pattern 13 — Launch as a 90-Day Observation Window
+**Mechanism:** Early launch activity is useful for learning, but creator claims about a fixed 30-day boost, 90-day reward, or review threshold are `SOURCE_REPORTED`. Amazon does not guarantee discovery or sales.
+**Execute:** Ship only after quality and compliance pass. Invite neutral, optional reader response with no obligation, influence, compensation, points, reciprocity, or close relationship. Track listing availability, discovery, clicks where observable, sales, refunds, and net collection across 90 days.
+**Success Metric:** Every early event is timestamped and attributed honestly; no review tactic violates current policy; no unobserved algorithm effect is asserted.
+**Evidence:** Creator launch sequencing is retained as a test hypothesis; current KDP review and search guidance controls behavior.
 
 ### Pattern 14 — Ads-as-Diagnostic-Data (impressions vs clicks)
 **Mechanism:** A tiny ad budget isn't for profit — it's a controlled test isolating *where* the funnel leaks. High impressions + low clicks = the listing (cover/title/reviews) is the problem, not demand. Converting = scale.
-**Execute:** Run Amazon Ads at **$3–5/day** → read impressions vs clicks → high-impressions/low-clicks means fix cover/title/reviews → if converting, increase budget only from a profitable baseline.
+**Execute:** Outside the organic-only Book One pilot, run a separately approved small test, read impressions, clicks, conversion, and net economics, then scale only from a profitable baseline. No universal daily budget is assumed.
 **Success Metric:** Ad budget is read as a diagnostic first; scaling only follows demonstrated profit.
 **Evidence:** *"If you get a lot of impressions, but you're not getting clicks… your book cover, title, reviews, one of those things are not as good."*
 
 ### Pattern 15 — Price-Low-to-Harvest-Proof, Then Raise
-**Mechanism:** The early goal is volume + reviews + social proof, not margin. Low launch price maximizes copies during the honeymoon; price rises only after proof accumulates. Conversely, pricing above category norm demands *visibly conveyed* extra value (stronger cover, denser subtitle, more reviews) or it simply won't sell.
-**Execute:** Launch ebook **$0.99**, paperback **$5.99–$6.99** → collect sales & reviews → raise price once proven.
-**Success Metric:** Launch pricing is below category norm; price rises are triggered by accumulated proof, not impatience.
+**Mechanism:** Price is a testable part of the offer, not a universal launch formula. Royalty option, territory, delivery cost, print cost, category norm, perceived value, taxes, and current KDP rules all matter.
+**Execute:** Model current KDP economics and category prices, choose an initial hypothesis, record it, and change only against observed conversion and net royalty evidence.
+**Success Metric:** Pricing is policy-valid, economically modeled, and tied to an explicit test rather than a source-reported default.
 **Evidence:** *"Your focus is not to make money, but to sell as many copies, pick up as many reviews, and pick up social proof."*
 
 ### Pattern 16 — Tedium Is the Moat
@@ -104,20 +104,20 @@ Sean Dollwet: $40k in debt at 22, self-made millionaire by 26, ~$2.2M lifetime f
 
 ### Pattern 17 — Time-or-Money Trade Doctrine
 **Mechanism:** Reframes "free vs paid" as an honest resource swap, not a moral choice — ads cost money and save time, organic costs time and saves money, and both scale. Every production step has a DIY-free path and a cheap-outsource path; the trade is always explicit.
-**Execute:** For each step, pick the lane deliberately by budget/speed. Ghostwriter ($1–2k) vs write-it-with-AI; $10–20 Fiverr cover vs Canva; paid review services vs Facebook-group grind; ads ($3–5/day, faster) vs organic short-form (slower). "You're always paying money to save time or paying time to save money." Scaling seriously → run both lanes.
+**Execute:** For each production step, compare the operator-time lane with a currently quoted vendor lane and state rights, privacy, AI disclosure, acceptance, and approval costs. Review acquisition is never a purchasable production task. Book One defaults to zero spend and organic distribution.
 **Success Metric:** Every outsource/DIY choice is a stated decision that names the cost of the other lane.
 **Evidence:** *"You're saving money by investing a lot more time… Or would you rather save time and just pay money to run ads… So, which do you want?"*
 
-### Pattern 18 — One-Day Timebox / Perfectionism Ceiling
-**Mechanism:** A hard time cap converts an intimidating creative project into a completable sprint and pre-empts self-sabotage. The book is not a masterpiece; it's a good-enough asset shipped fast into a marketplace with pre-existing demand.
-**Execute:** Write the first book in **one day**; a couple days is fine; **absolute max 1 week "if you're a perfectionist."** Anything longer = self-sabotage. Don't overthink pen-name vs real-name branding — pick and go.
-**Success Metric:** Time-to-ship stays inside the one-week ceiling; no book stalls in polishing.
+### Pattern 18 — Pace Without Gate Erosion
+**Mechanism:** Timeboxes prevent drift, but a deadline cannot make a weak or unsafe book ready. The quality source itself acknowledges that good work can take hours, days, or weeks.
+**Execute:** Use `rapid_7`, `launch_14`, or `editorial_30`. A failed Day-7 gate escalates to Day 14; a failed Day-14 gate remains open through Day 30. Pen-name, rights, claim, reader, cover, and preview standards stay fixed.
+**Success Metric:** Each day ends with a decision and next action; no schedule forces a failed artifact forward.
 **Evidence:** *"This is a one-day project… Maybe if you're a perfectionist, max 1 week. But anything longer than that… you're basically self-sabotaging."*
 
 ### Pattern 19 — Organic Marketing = Volume Game (post a lot, clone the winner, go faceless)
 **Mechanism:** Individual short-form video views are near-random, so you don't predict winners — you buy lottery tickets in bulk and let the feed surface the hit; judge the *account*, never the video. Once the algorithm reveals a hit format, the format (not luck) is the asset — clone it 10+ times while still testing new ideas (exploit + explore). And the book, not the creator, is the product: faceless out-performs and is easier. The single best-converting format is the lowest-effort one — literally holding the book to camera and talking about it.
-**Execute:** Post multiple short-form videos daily, TikTok-first. Kill useless free tactics (podcasts, Substack, blogging). Find your outlier → make 10+ near-identical variants → keep testing 3 new ideas in parallel. Default to faceless book-showcase + one-page-read formats. Model competitor accounts' winning formats (don't rip off). Repurpose every clip TikTok → Instagram → YouTube (marginal cost ~$0). Virality creates its own Amazon search demand — no link needed for spillover.
-**Success Metric:** Cadence is high-volume daily; the account has 10+ clones of its proven format; formats are faceless/low-production.
+**Execute:** Choose the channel where the target reader already pays attention, test several low-cost formats, record posts and attributable discovery, repeat observed winners without duplicating content, and repurpose only when the marginal work is justified.
+**Success Metric:** Cadence is sustainable and decisions follow observed reach, discovery, sales, and attribution gaps—not channel dogma.
 **Evidence:** *"Most of your videos probably will not get a lot of views. So, it's a volume game… you just never know which video does well."* · *"Literally just showing your book behind the camera. And for whatever reason, it converts really well."*
 
 ### Pattern 20 — One-Page = One-Video Content Math
@@ -126,27 +126,27 @@ Sean Dollwet: $40k in debt at 22, self-made millionaire by 26, ~$2.2M lifetime f
 **Success Metric:** The content calendar is derived from the book's own pages, not invented from scratch.
 **Evidence:** *"One page is one video. That means you can create 100 videos from one book… you essentially got unlimited content."*
 
-### Pattern 21 — One Book → 7+ Income Streams (multiplication)
-**Mechanism:** Research and writing are the expensive part — formats are near-free multipliers off the same content. High-content is favored precisely because it *can* become an audiobook.
-**Execute:** Sequence formats after the ebook proves itself: paperback (trivial POD conversion) → audiobook (sign up to **ACX**, post for audition, ~$200 one-time narration for a 30k-word book, ~$3.40 royalty per sale) → translations of winners (19 marketplaces) → bundles/box sets (once 2+ related books exist) → other stores (IngramSpark ~40k stores, Google Play, Draft2Digital) → ultimately sell the catalog.
-**Success Metric:** Every proven book exists in 3+ formats within its first months; no winner sits ebook-only.
+### Pattern 21 — One Book → Multiple Distribution Surfaces
+**Mechanism:** Reusing research can lower marginal production effort, but every format has new rights, quality, cost, channel, and customer-experience requirements. It becomes an income stream only after it earns.
+**Execute:** Evaluate print, audio, translation, bundle, and wide distribution after observed Book One sales. Require rights, economics, quality, KDP Select compatibility, and an explicit experiment hypothesis for each format.
+**Success Metric:** Every added format has a passed gate and measured result; no format count substitutes for net revenue.
 **Evidence:** *"For a typical 30,000 word book, it's probably going to be around $200 one-time payment… each sale is about $3.4 in royalties."* (He sold 100,000+ audiobooks by 2020.)
 
-### Pattern 22 — Multi-Niche Flag-Planting + the $1k→$10k→$100k Ladder
-**Mechanism:** The window is open across *many* niches, and scaling is duplication, not new tactics — "if you can do $1,000, you can do $10,000… rinse and repeat." Planting flags across several niches while the window is open converts a project into a compounding asset base; each entrenched book keeps paying as digital real estate.
-**Execute:** Master the single-book pipeline to $1,000/mo (the only real learning milestone); then publish into **2–5 different niches within 6 months**, treating each as a claimed position later entrants can't take. Don't invent new tactics for $10k — just republish the proven unit.
-**Success Metric:** A portfolio of 8–12 books across 2–5 niches, each a repeatable unit of one validated process.
+### Pattern 22 — Proof Before Portfolio
+**Mechanism:** Repetition compounds only after the operator knows which demand, quality, listing, and launch decisions produced a profitable result. Linear $1k→$10k→$100k claims are `SOURCE_REPORTED`, not a law.
+**Execute:** Complete one book, observe discovery, sales, refunds, costs, and net collection, repair the process, then approve one controlled next-book hypothesis. Keep cross-title similarity and account-risk gates active.
+**Success Metric:** Book Two is authorized by a Book One learning receipt, not by production speed or a catalog-size target.
 **Evidence:** *"If you can do $1,000, you can do $10,000. If you can do $10,000, you can do $100,000… all you have to do is rinse and repeat."* · *"One book is cool, but a portfolio of books is a real business."*
 
 ---
 
 ## Hidden Knowledge
 
-### Insight 1 — The Title Is Irreversible; Front-Load the Decision
-Amazon doesn't allow title changes after publishing; fixing a title means unpublishing and republishing, which typically destroys accumulated reviews. Run the full pain-point → main title → benefit-stacked subtitle process BEFORE upload and validate the main keyword shows buying demand. Most sellers learn this after they've burned their launch.
+### Insight 1 — Title Changes Are Constrained; Front-Load the Decision
+Kindle title/subtitle changes are locked after publication. Print has a limited correction window for certain fields before a new edition is required. Run the full title, metadata, clearance, and cover-match decision before upload.
 
-### Insight 2 — Review-Swap Triangulation Keeps You Inside KDP Rules
-Direct review swaps violate KDP guidelines. Book Bounty's points system works because it triangulates — A reviews B, B reviews C, C reviews A — so no two authors ever review each other, and it can request *verified-purchase* reviews and target specific marketplaces (e.g., Amazon Germany for a German book). Book Reverb reviews are mostly *unverified* (readers get a PDF, not an Amazon purchase). Never arrange direct swaps; never use close friends or family (prohibited).
+### Insight 2 — Review Integrity Has No Triangulation Loophole
+Anything of value beyond a free or discounted book can invalidate a review, and attempts to require or influence sentiment are unsafe. Exclude points, payment, gift cards, reciprocity, close relationships, sentiment-conditioned follow-up, and any service whose exact mechanics have not passed current policy review.
 
 ### Insight 3 — A Doubled Price Demands Conveyed Doubled Value
 A book priced 2x the category norm with the same-looking cover, fewer reviews, and a comparable value prop simply doesn't sell. The listing must *visibly* communicate why it's worth more (stronger cover, denser subtitle, more reviews than page-one peers) before price can rise.
@@ -166,20 +166,20 @@ Three distinct research tools, often conflated. **DS Amazon Quick View** = free 
 ### Insight 8 — Coco Wyo Is the Coloring Benchmark (handle correction)
 The biggest coloring-book brand on Amazon is **Coco Wyo** (also seen as "Kokoro/CocoWyo"; Dollwet once mis-says "Coco Real" — the correct name is **Coco Wyo**). Handles: TikTok **@cocowyocoloring** (551.8K followers, 8M likes), YouTube **@cocowyocoloring** (519K subs, 895 videos, 301M lifetime views, 5.45M last-30-days). Model their kawaii "Bold-Easy" design language into new niche subjects (his demo: their style → "Ballerina Bold-Easy Coloring Book").
 
-### Insight 9 — The 30-Day Honeymoon + 90-Day Algorithm Window
-Amazon gives new books extra visibility in the first **30 days** and rewards velocity across the first **90 days**. This is *why* reviews and low pricing are front-loaded — you're proving the book deserves more distribution during a limited audition window, not passively waiting.
+### Insight 9 — Early Launch Timing Is a Hypothesis, Not a Guarantee
+Use the first 90 days as a fixed observation period for availability, discovery, sales, refunds, and reviews. The claimed 30/90-day algorithm effects remain `SOURCE_REPORTED` until official or observed evidence supports them.
 
 ### Insight 10 — ACX Audiobook Economics
 Audiobooks via **ACX** (Amazon's sister company): post for audition, pick a narrator for **~$200 one-time** on a 30k-word book, earn **~$3.40 royalty per sale**. Proof points: Dollwet sold 100,000+ audiobooks by 2020; an audiobook-income thumbnail shows "$400,741 earned / $16K per month." High-content books unlock this stream; low-content can't.
 
 ### Insight 11 — The 26-Review Page-One Signal
-Low review counts on page-one books is a *second-order green flag*: low ranking-friction means you won't need a big review pile to break in. The concrete on-screen example: a book with only 26 reviews sitting below 80,000 BSR.
+Low review counts on relevant selling books can be one `SOURCE_REPORTED` competition-friction signal. It does not establish a required review count, future rank, or revenue; use it only inside the dated multi-signal market dossier.
 
 ### Insight 12 — Second-Person Wound-Accusation Hooks
 Every viral book-marketing overlay in his teardowns is a second-person accusation naming a painful self-recognition, weaponizing shame-relief as the scroll-stop. Verified examples: *"You say you love your family… but you snap at them, shut down, or overreact… and then hate yourself after"* (1.4M) · *"You're not broken. That's your inner child still carrying pain no one helped you process"* (1.4M) · *"What if you stopped trying to change people and instead changed how you react?"* (4.7M).
 
-### Insight 13 — The Honest Median: $300–400/mo per Book
-His own disclaimer pages repeatedly state the *realistic* expectation: **$300–$400 per published book per month** — an honesty anchor against the $40/day, $100k-month, and $161k-first-year outliers. This is the number to plan a portfolio against.
+### Insight 13 — Source-Reported Median Is Not a Forecast
+Sean repeatedly cites $300–400 per book per month. Keep it labeled `SOURCE_REPORTED`; Book One planning uses zero as the default until observed sales, costs, refunds, taxes, and net collection exist.
 
 ---
 
@@ -222,13 +222,13 @@ Jonathan / **@mindfulmindspublishing** (25.5K followers, 769.4K likes) earns ~**
 
 ## Quality Rubric (score each 1-10; Dollwet-grade = 8+ on all)
 
-1. **Demand evidence attached.** Does every topic/GO decision cite 3+ competitor books under 80,000 BSR (paperback), with ASIN/BSR/publisher? No evidence = fail.
-2. **Thresholds explicit and numeric.** Are the real numbers present and correct — 80k BSR, <300 reviews, 15-review gate, 50–100/90 days, $3–5/day ads, $0.99/$5.99–6.99 pricing, 30k words / 5x8–6x9 / 150–200pp? Vague "get some reviews" = fail.
+1. **Demand evidence attached.** Does every topic verdict cite multiple dated marketplace observations plus independent reader-problem evidence and uncertainty? No evidence = fail.
+2. **Evidence classes explicit.** Are official rules, observed facts, source-reported heuristics, pilot choices, and untested outcomes separated? Blended confidence = fail.
 3. **Time-or-money lanes stated.** Is every production decision framed as an explicit DIY-vs-outsource trade with the cost of the *other* lane named, priced from the sheet?
 4. **No artsy titles.** Does the title lead with the exact searched keyword and pass the taste-test (decode-in-one-read, clarity breaks ties)? Any clever/vague/curiosity title = fail.
-5. **Quality-moat logic present.** Does the output beat incumbents on cover AND title AND content (not just review count), and refuse raw-AI-paste / humanize for copyright?
-6. **Honest expectations.** Does it anchor to the $300–400/mo/book median and carry a no-guarantees caveat, rather than leading with outlier income?
-7. **Sequencing correct.** Validate → build → 15 reviews → market → multiply. Does anything market before reviews, or write before validating? Out-of-order = fail.
+5. **Quality proof present.** Does the output pass source, claim, developmental, redundancy, line/copy, originality, reader, cover, and preview gates?
+6. **Honest expectations.** Does it keep market and cash at `NO_EVENT` until receipts exist rather than forecasting from creator examples?
+7. **Sequencing correct.** Interview → validate → approve niche → blueprint → approve outline → gold chapter → approve → QA → cover → compliance → upload approval. A skipped checkpoint = fail.
 8. **Next-action clarity.** Is the very next physical action unambiguous (which tool, which prompt, which threshold to check), executable today?
 9. **Attack-surface named.** For a target niche, is each incumbent's specific weak spot identified (review count, cover date, title, or content staleness)?
 10. **Specificity of audience.** Does the book name ONE problem for ONE audience, not "everything for everyone"?
@@ -241,15 +241,15 @@ Jonathan / **@mindfulmindspublishing** (25.5K followers, 769.4K likes) earns ~**
 
 - **Write-first-validate-never.** Writing the book *you* want, or a brand-new unproven topic, without checking Amazon BSR. Following passion blind to demand.
 - **Artsy / curiosity / clever titles.** "The Money Tree," "Unstuck," anything vague or keyword-less. Amazon "has no idea what your book is about."
-- **Raw AI paste.** Uncopyrightable, degrades after ch.2–3, hallucinates. Never copy-paste; always humanize + fact-check + Grammarly.
+- **Raw AI paste.** Degrades, hallucinates, repeats, and creates disclosure/rights ambiguity. Never publish it; author, verify, classify, disclose, and document every asset. Source: `cBY4wENLqOY` (2026-03-30) plus the 2026-08-04 KDP policy audit.
 - **Volume over quality.** Cranking crappy AI slop / large catalogs of poor books — bad reviews suppress *every* book (the 141-book $0 pen name). Quality of a few beats volume of many.
-- **No-review launch.** Marketing before 15 reviews; wasting the 30-day honeymoon with upload-and-pray.
-- **Perfectionism.** Anything past 1 week on a first book = self-sabotage. "You're not writing a masterpiece."
-- **Useless free tactics.** Podcasts, Substack, blogging/website-blogs — "a complete waste of time" for selling books. Route 100% of free effort to short-form video.
-- **Direct review swaps / family reviews.** Violates KDP rules; use triangulated services (Book Bounty) or the Facebook-group script, never close friends/family or A-reviews-B swaps.
+- **Ungated launch.** Publishing without rights, AI disclosure, claim, metadata, format, preview, reader, and permission receipts.
+- **Deadline worship.** Treating Day 7, 14, or 30 as permission to lower quality.
+- **Channel dogma.** Declaring an organic channel useless or mandatory before running audience-specific experiments.
+- **Review manipulation.** Required, influenced, compensated, points-based, reciprocal, insider, or sentiment-filtered reviews.
 - **Cheap DIY covers.** Lose in the 3-second snap-test line-up; outsource $10–20 or generate a pro cover that stands out — never clone a competitor's design.
 - **Ripping off vs modeling.** Copying a bestseller outright rather than extracting and recombining its working elements.
-- **Stopping at one book.** Single-book thinking forfeits portfolio compounding (2–5 niches / 6 months).
+- **Scaling before proof.** Starting Book Two, client delivery, or factory mode before Book One has a net-collection and learning receipt.
 - **Building your own store first.** Gumroad/Squarespace = zero traffic; often taught by people sponsored to teach it. Amazon (buyer traffic) first, own site later.
 - **Assuming reviews are unbeatable.** The "3,000 reviews" paralysis is the exact mistake that keeps competitors out — and is therefore your opening.
 - **Padding page count with fluff.** A 500-page book that's 80% fluff loses to a tight 100-page one. Value-per-page, not page count.

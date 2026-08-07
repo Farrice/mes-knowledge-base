@@ -1,9 +1,9 @@
 ---
-description: "/sean-dollwet-multiply-formats — Format-multiplication sequence for a PROVEN book — turns one validated seller into paperback, hardcover, audiobook, translations, bundles, and wide distribution in the correct effort/return order, gated by per-format go/no-go criteria, on the research-once-multiply-free economics that make the catalog a compounding, sellable asset."
+description: "/sean-dollwet-multiply-formats — Evaluate print, audio, translation, bundle, and wide-distribution experiments only after observed Book One sales and net collection, with rights, quality, economics, and KDP Select compatibility gates."
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
-# /sean-dollwet-multiply-formats — Multiply Formats — Turn One Proven Book Into 7+ Streams
+# /sean-dollwet-multiply-formats — Multiply Formats — Distribution Surfaces After Proof
 
 Thin wrapper — the full methodology lives in the skill.
 

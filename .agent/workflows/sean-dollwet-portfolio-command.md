@@ -1,9 +1,9 @@
 ---
-description: "/sean-dollwet-portfolio-command — Sean Dollwet's multi-niche portfolio strategy. Takes an operator who has driven ONE book to proof and turns single-book cash flow into a compounding catalog — flag-planting across 2–5 niches while the window is open, honest per-book P&L, a quarterly scale/multiply/retire review, pen-name-per-niche architecture, and exit-ready branding."
+description: "/sean-dollwet-portfolio-command — Govern a KDP portfolio only after Book One has runtime and net-cash proof, using per-title economics, similarity/account-risk gates, one-hypothesis allocation, and no assumed linear scaling."
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
-# /sean-dollwet-portfolio-command — Portfolio Command — One Validated Unit, Duplicated
+# /sean-dollwet-portfolio-command — Portfolio Command — Scale Only What Book One Taught
 
 Thin wrapper — the full methodology lives in the skill.
 

@@ -1,0 +1,40 @@
+{
+  "independent_context": true,
+  "market_proof": "NO_EVENT",
+  "observed_on": "2026-08-04",
+  "permission": "NO_PERMISSION",
+  "probe_agent": "/root/detached_kdp_probe",
+  "probe_input": "I have no audience, no ads, no book idea, and want to create a useful nonfiction ebook under a pen name without AI slop; do not publish anything until I approve.",
+  "publishing_action": "NOT_PERFORMED",
+  "route": {
+    "child": "sean-dollwet-book-one-pilot",
+    "command_menu_first": "kdp-engine",
+    "mandatory_binding": "kdp-engine",
+    "owner": "kdp-engine"
+  },
+  "runtime_observed": true,
+  "scope": "local_behavior_only",
+  "state_hashes_after_probe": {
+    "book-one-state.json": "8278c3242744f16cfca01eea963e803f992b207b",
+    "cold-start-receipt.json": "152b412fa14f111ea3280bf2ecca6205d9daf233",
+    "proof-state.jsonl": "7131d7727262ff298341c649c1904ba53f996c9a"
+  },
+  "status": "RUNTIME_OBSERVED",
+  "tests": [
+    "command menu ranked kdp-engine first at 408 and the child pilot second at 355",
+    "workflow router marked only kdp-engine as the mandatory binding",
+    "routing enforcer accepted kdp-engine as the function owner",
+    "preflight --json --dry-run returned HOLD with NO_PERMISSION and wrote no receipt",
+    "state and proof hashes were identical before and after the detached probe",
+    "deterministic verifier passed state, permission, policy, contract, and routing fixtures"
+  ],
+  "unproven": [
+    "niche demand",
+    "manuscript quality",
+    "cover quality",
+    "KDP acceptance",
+    "discovery",
+    "sales",
+    "net collection"
+  ]
+}

@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7340,
+ "count": 7341,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -22335,50 +22335,57 @@
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
-   "title": "Book Doctor Diagnostic \u2014 [BOOK TITLE]",
-   "gist": "You are executing Sean Dollwet's stalled-book diagnostic. Dollwet went from $40k in debt at 22 to a self-made millionaire by 26, made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers, a",
+   "title": "Book Doctor Report \u2014 [BOOK]",
+   "gist": "You diagnose a stalled KDP book by locating the first evidenced bottleneck across demand, discovery, click, detail page, content, policy, and economics. You change one hypothesis at a time.",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-doctor-report.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
+   "title": "Book One Cockpit \u2014 [BOOK ID]",
+   "gist": "You are the conductor for one evidence-led, organic-only, market-first KDP nonfiction book. Your job is not to generate a quick ebook. Your job is to move one reader-useful book through explicit demand, authorship, edito",
+   "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-one-pilot-cockpit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-dollwet-kdp-publishing",
    "title": "Book Production Package \u2014 [WORKING TITLE]",
-   "gist": "You are executing Sean Dollwet's book production system: title-as-sales-copy, structured outline math, AI-drafts-human-elevates content, and cover direction that passes his three visual rules. Dollwet built two Amazon KD",
+   "gist": "You are the editorial architect for one approved KDP topic. Build the source dossier, reader promise, outline, title/metadata, gold-chapter brief, manuscript quality system, cover brief, and asset-level AI/rights plan. Y",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-production-package.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
    "title": "Demand Validation Report \u2014 [DATE]",
-   "gist": "You are executing Sean Dollwet's demand-first validation system. Dollwet built two Amazon KDP publishing businesses, made roughly $2M from ebooks, and sold his first book catalog for $820,000 on Empire Flippers \u2014 the sys",
+   "gist": "You are the demand analyst for one market-first KDP book. Compare 5\u201310 candidates using dated Amazon evidence, reader-problem corroboration, risk exclusions, and threshold sensitivity. BSR and tool revenue estimates are ",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/demand-validation-report.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
-   "title": "Launch & Multiplication Plan \u2014 [BOOK TITLE]",
-   "gist": "You are executing Sean Dollwet's post-publish system: uploading is not launching. Dollwet built two Amazon KDP publishing businesses, made roughly $2M from ebooks, and sold his first book catalog for $820,000 on Empire F",
+   "title": "Launch and Multiplication Plan \u2014 [BOOK]",
+   "gist": "You prepare a policy-safe, organic-only Book One launch and, only after paid proof, a format experiment. You do not publish, buy reviews, enroll in Select, spend, or contact readers without approval.",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/launch-and-multiplication-plan.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
-   "title": "Organic Content System \u2014 [BOOK TITLE]",
-   "gist": "You are executing Sean Dollwet's no-ads short-form marketing system. Dollwet made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers, and has sold 100,000+ audiobooks over a decade of KDP",
+   "title": "Organic Content System \u2014 [BOOK]",
+   "gist": "You design thirty audience-matched organic experiments from approved book material and track each piece to discovery and sales without channel dogma or fake attribution.",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/organic-content-pack.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
-   "title": "Outsource Brief Pack \u2014 [BOOK TITLE]",
-   "gist": "You are executing Sean Dollwet's time-or-money decision desk. Dollwet made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers, and has sold 100,000+ audiobooks over a decade of KDP publis",
+   "title": "Outsource Brief Pack \u2014 [BOOK]",
+   "gist": "You turn an approved Book One artifact into a bounded vendor brief with rights, confidentiality, AI disclosure, source-file, acceptance, cost, and approval controls. Review acquisition is out of scope.",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/outsource-brief-pack.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
-   "title": "Portfolio Command Sheet \u2014 [QUARTER/DATE]",
-   "gist": "You are executing Sean Dollwet's multi-niche portfolio strategy. Dollwet made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers (Aug 24 2021, Listing #32231), has sold 100,000+ audiobook",
+   "title": "Portfolio Command Sheet \u2014 [PERIOD]",
+   "gist": "You govern a KDP portfolio only after Book One has runtime and net-collection proof. You model gross-to-net economics, unknown causality, similarity/account risk, and one controlled next hypothesis. Creator medians and l",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/portfolio-command-sheet.md"
   },
   {
