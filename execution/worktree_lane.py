@@ -156,16 +156,17 @@ def _lane_session_ids(main: Path) -> set:
     return ids
 
 
-def fresh_main_writer(main: Path, exclude_ids=None) -> "str | None":
+def fresh_main_writer(main: Path, exclude_ids=None, own_lock_token=None) -> "str | None":
     exclude_ids = exclude_ids if exclude_ids is not None else _lane_session_ids(main)
-    # (a) session lock heartbeat
+    own_lock_token = own_lock_token or os.environ.get("SESSION_LOCK_TOKEN")
+    # (a) session lock heartbeat (our own lock doesn't make us a foreign writer)
     lock = main / ".agent" / "session.lock"
     if lock.exists():
         try:
             data = json.loads(lock.read_text())
             hb = float(data.get("heartbeat", 0))
             age_min = (time.time() - hb) / 60
-            if age_min < LOCK_TTL_MIN:
+            if age_min < LOCK_TTL_MIN and data.get("token") != own_lock_token:
                 return f"session lock '{data.get('mission', '?')}' (heartbeat {age_min:.0f}m ago)"
         except Exception:
             pass
