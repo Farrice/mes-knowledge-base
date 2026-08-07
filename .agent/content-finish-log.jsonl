@@ -352,12 +352,15 @@
 {"ts": "2026-07-30T14:25:29Z", "label": "2026-07-30 health-performance brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-30T14:26:03Z", "label": "2026-07-30 health-performance brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-30T14:29:55Z", "label": "2026-07-30 health-performance brief (drive link update)", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+<<<<<<< HEAD
 {"ts": "2026-07-31T13:37:35Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d78 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('a \u2026 a \u2026 a') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-31T13:39:03Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-31T13:39:55Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-31T13:40:28Z", "label": "health-performance-geo-2026-07-31", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-31T13:41:01Z", "label": "health-performance-geo-2026-07-31", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-31T13:41:47Z", "label": "health-performance-geo-2026-07-31-final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+=======
+>>>>>>> origin/brief/2026-07-31
 {"ts": "2026-07-31T14:18:36Z", "label": "2026-07-31 health-performance-geo-brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d73 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-31T14:19:28Z", "label": "2026-07-31 health-performance-geo-brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-31T14:20:29Z", "label": "2026-07-31 health-performance-geo-brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
@@ -367,6 +370,7 @@
 {"ts": "2026-07-31T14:31:17Z", "label": "_active/health-performance-ip-library/daily/2026-07-31-health-performance-geo-brief.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-31T14:31:17Z", "label": "_active/health-performance-ip-library/weekly/2026-W31-health-performance-synthesis.md", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('any \u2026 any \u2026 any') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-31T14:31:57Z", "label": "_active/health-performance-ip-library/weekly/2026-W31-health-performance-synthesis.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+<<<<<<< HEAD
 {"ts": "2026-08-01T12:57:29Z", "label": "2026-08-01-angle-map-listening-brief", "verdict": "FAIL", "fails": ["31 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-08-01T12:57:29Z", "label": "2026-08-01-counter-question-creatine-post", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-08-01T12:57:29Z", "label": "2026-08-01-nobody-sent-her-script", "verdict": "FAIL", "fails": ["3 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md"], "warns": []}
@@ -427,3 +431,5 @@
 {"ts": "2026-08-05T13:33:28Z", "label": "2026-08-05-teardown", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-05T13:34:36Z", "label": "2026-08-05-flagship", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-05T13:34:36Z", "label": "2026-08-05-teardown", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+=======
+>>>>>>> origin/brief/2026-07-31
