@@ -1,7 +1,7 @@
 ---
 status: canonical
-version: 1.3
-compiled: 2026-08-04
+version: 1.4
+compiled: 2026-08-07
 owner: voice-os
 supersedes:
   - _active/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
@@ -196,7 +196,8 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 - FAIL: metaphor delivered long-winded and abstract — *"outcome with no edges / built the plane mid-flight and called it customization."* Abstract-stacked images read as writing, not thinking.
 - The prescription is his, not the system's: **less abstract, more concrete-metaphorical, Saxon-punch delivery** — Farnsworth × Forsyth × Puri × Albom. Conceptual runway, then land the line on a short hard Germanic word. One device per line, never stacked.
 - PASS (2026-07-27, applied): *"Careful sounds like maybe. And maybe always loses to a lie."* End-weight built backwards from **lie**. Also *"This time I'd like him to be right"* — five monosyllables after a long runway.
-- Rhythm/articulation was named as **the last gap** at 8.5. This is the move that closes it.
+- **PASS (2026-08-06, evidence of reliability):** *"The one claim your buyer will actually buy."* Singular shape-shift on buy/buyer with both senses (buys the claim / buys the product), landing on hard Saxon **buy**. Chose ornamented over plain because his register runs "believes" (every competitor), he'd say "buys" (about himself). Rhythm/articulation the last gap — this move closes it. Now firing consistently.
+- Rhythm/articulation was named as **the last gap** at 8.5. 2026-08-06 proves it's working.
 
 **The imperfection principle (2026-07-27, entry 22 — the root cause under "reads AI-generated"):**
 - FAIL: *"every canister promised the physique, the look, and the feeling of being someone who finally had it handled."* His verdict: *"No one says every canister promise. I would say supplement. I wouldn't even say it like that."*
@@ -229,6 +230,9 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 **ICP verbatim > pageantry (2026-07-30 DOCTRINE, entry 49 — silent-failure class):**
 - FAIL: researched ICP language (creative fatigue, sea of sameness, Founder Fog) sat in `ICP-BATTLE-CARD.md` and the pen **paraphrased it into elevated prose.** His ruling: *"those are great and that should have been in there exactly instead of doing it with pageantry."*
 - Articulating their problem in *their* words = instant authority. Elevating it = *"no one talks like that in this industry"* — and the failure is **silent**. **When research carries the ICP's own words, ship those words.** (Same law as the imperfection principle, pointed outward: his words for his story, their words for their pain.)
+
+**OFF-MODE APPLICATION (client-voice work — Jen luxury-lane listing hooks, 2026-08-05/06):**
+- Jen's hook archetype triumphed: authority-POV (market thesis asserted with quiet confidence, property as evidence, buyer flattered as insider) beat both fact-in-tension (property-as-surprising) and warm anticipation (relationship). Example: *"true privacy in LA doesn't mean building a taller fence. it means a driveway so long the city doesn't even know you're here."* The Off-mode register for Jen luxury = Quiet Flex / Elite Advisor — Title Case, mild edge, 'let's talk strategy' closers — NOT the calm-warm lowercase of her scraped-grid default. This calibration transfers to any Jen listing work (note: OFF-mode voice is OFF-CLAUDE.md territory; only universal slop ban + no-fabrication floor + wince test apply).
 
 **Buyer-side authority beats inferred mind-reads (2026-07-30, entries 50–51):**
 - PASS (his verdict: *"actually really done well"*): *"Your buyer skips the hero. They go straight to the supplement facts panel, because it's the only part of the page nobody in marketing wrote… And if the panel gives them a blend where a number should be, they're gone. Not angry. Just gone."*
