@@ -185,3 +185,10 @@ _active/hyperframes-studio/
 .agent/sessions/observe-log.jsonl
 .agent/sessions/steering-observe.jsonl
 .agent/pulse-serve.log
+.agent/sessions/solution-injections.jsonl
+.agent/sessions/menu-parity.jsonl
+.agent/sessions/closeout-intelligence-guard.jsonl
+.agent/health/self-heal-latest.json
+.agent/health/projects-index.json
+.agent/health/born-intent-baseline.json
+.agent/organization/sweep-state.json

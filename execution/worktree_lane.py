@@ -54,9 +54,13 @@ SPEND_LINKS = [
     ".agent/cost-gate-approvals.jsonl", ".agent/mcp-spend.jsonl",
 ]
 # Committed generated artifacts: on merge conflict, keep ours + regenerate.
-GENERATED_FILES = {"SLASH_COMMANDS.md", "SKILL_INDEX.md", "AGENT_INDEX.md"}
+GENERATED_FILES = {"SLASH_COMMANDS.md", "SKILL_INDEX.md", "AGENT_INDEX.md",
+                   ".agent/handoffs/index.md", ".agent/handoffs/LATEST.md"}
 GENERATED_PREFIXES = (".claude/commands/",)
-GENERATORS = ["generate_slash_commands.py", "sync_registries.py"]
+# (script, args) pairs, run against main after a merge that touched GENERATED
+GENERATORS = [("generate_slash_commands.py", []),
+              ("sync_registries.py", []),
+              ("handoff_store.py", ["reindex"])]
 
 
 # ── git plumbing ────────────────────────────────────────────────────
@@ -612,12 +616,12 @@ def cmd_merge(args) -> int:
         if gen_touched:
             py = main / ".venv" / "bin" / "python3"
             py = str(py) if py.exists() else sys.executable
-            for g in GENERATORS:
-                subprocess.run([py, str(main / "execution" / g)],
+            for g, gargs in GENERATORS:
+                subprocess.run([py, str(main / "execution" / g), *gargs],
                                capture_output=True, timeout=600, cwd=str(main))
             rc, out, _ = _git(main, "status", "--porcelain")
             if out.strip():
-                _git(main, "add", "--", *GENERATED_FILES, ".claude/commands")
+                _git(main, "add", "--", *sorted(GENERATED_FILES), ".claude/commands")
                 _git(main, "commit", "-m",
                      "chore(lane): regenerate indexes post-merge")
 
