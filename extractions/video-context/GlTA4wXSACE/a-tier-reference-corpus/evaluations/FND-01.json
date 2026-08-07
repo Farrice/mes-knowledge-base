@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "shaan-story-corpus-evaluation/v1",
+  "caseId": "FND-01",
+  "initialVerdict": "PASS",
+  "finalVerdict": "PASS",
+  "decisionObserved": "FULL STORY",
+  "dimensions": {
+    "dosageJudgment": "PASS",
+    "sourceFidelity": "PASS",
+    "domainFitness": "PASS",
+    "narrativeRestraint": "PASS",
+    "practitionerUsefulness": "PASS",
+    "recognition": "PASS"
+  },
+  "failures": [],
+  "firstReplay": "replays/FND-01-pass-1.md",
+  "repairReplay": null,
+  "judgeNotes": [
+    "The replay independently found the last-10-percent transformation and kept the 90-plus-agent system bounded to build proof, not market proof.",
+    "No private family scene, dialogue, sensory detail, client-performance claim, or named-channel readiness claim was added."
+  ]
+}

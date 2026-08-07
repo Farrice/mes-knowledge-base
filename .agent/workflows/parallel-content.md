@@ -75,6 +75,8 @@ You are [Expert Name], writing a [format] about: [topic]
 4. Apply the expert's methodology to produce the content
 5. Write output to: .tmp/content-sprint/[format-slug].md
 
+**Decision-first exception for Shaan:** If `[skill-name]` is `shaan-puri-storytelling`, do not follow steps 1–3 in that order. Read `references/story-deployment-map.md`, execute `workflows/shaan-story-deploy.md` and its exact v2 prompt, and decide the dosage before loading `genius.md`. Then load only the selected owner. A `NO STORY` decision must remain direct and non-narrative.
+
 **Quality gate**: Would [Expert Name] be proud of this? Does it pass their quality test?
 ```
 

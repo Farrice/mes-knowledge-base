@@ -51,3 +51,4 @@ One line per card: date · name · problem_signature.
 - 2026-07-07 · SessionEnd Hook Re-Entry Guard · SessionEnd hook side-effects (closeout spine) double-fire on clear+exit because PostToolUse marker-detection can't see hook-internal subprocess calls
 - 2026-07-07 · Transcript-Only Extraction Produces Generic, Unusable Output · an expert extraction built from transcripts alone is mechanically correct but generic and low-grip (5/10) — it captures WHAT the expert does, not HOW; no real voice, no verbatim exemplars, no specificity; user says "I couldn't use any of this to see results"
 - 2026-07-07 · Zero-Survivor Phantom Deliverable in Fan-Out Pipelines · fan-out workflow where all workers at a stage die still reports complete and returns a deliverable path that was never written
+- 2026-08-02 · storytelling-input-sufficiency · A cross-domain storytelling router treated missing presentation context as a hard failure even when story evidence was sufficient.

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "shaan-story-current-reference-seal/v1",
+  "algorithm": "sha256",
+  "sealedAt": "2026-08-02T23:44:54Z",
+  "relationship": "Post-replay length and prose hardening. Historical blind judgments remain bound to reference-seal.json and the v1 reference paths.",
+  "references": {
+    "cases/EDU-01-educational/reference-v2.md": "699cd344f32d380b28bb15fcec8d32010759f57ee1431cabe665e8399d1aff61",
+    "cases/FND-01-founder/reference-v2.md": "946fae5e289b0bcf727f0256a11978f13a37179549d2a25ef70f1ce907d3d217",
+    "cases/HLT-01-health/reference-v2.md": "c4191d2193a1ca10cf2a81b9b38b7d7bd568785529b1cf3c321151f8834ea477",
+    "cases/OPS-01-operational/reference-v2.md": "a81134777c6551dd9afa6e5d1421d4477fb91f3d5313eb04ba87f56dbf147757",
+    "cases/SAL-01-sales/reference-v2.md": "7865e84437e8b126d2ada2d77338486c0fccfa58ce49b31085e0c02d3f700d4f",
+    "cases/TEC-01-technical/reference-v2.md": "426370b2d6b997aaf7efee61342edb275b2f7e4e25bdb4bb1feca0ce7c097ed0"
+  }
+}

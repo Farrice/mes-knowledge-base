@@ -145,6 +145,37 @@ def chunk_skill_file(filepath):
     return chunks
 
 
+def retrieval_file_names(skill_dir):
+    """Return the files safe to place in preselection retrieval for a skill.
+
+    Skills with ``context_retrieval: skill-only-until-selected`` keep their
+    deeper ``genius.md`` methodology out of the general retrieval index. The
+    selected workflow may still load that file explicitly after its decision
+    gate.
+    """
+    default = ["SKILL.md", "genius.md"]
+    skill_path = skill_dir / "SKILL.md"
+    try:
+        content = skill_path.read_text(encoding="utf-8")
+    except (UnicodeDecodeError, FileNotFoundError):
+        return default
+
+    if not content.startswith("---"):
+        return default
+    closing = content.find("\n---", 3)
+    if closing == -1:
+        return default
+
+    frontmatter = content[3:closing]
+    match = re.search(
+        r"(?m)^context_retrieval:\s*[\"']?([a-z0-9-]+)",
+        frontmatter,
+    )
+    if match and match.group(1) == "skill-only-until-selected":
+        return ["SKILL.md"]
+    return default
+
+
 def build_index():
     """Scan all skill files and build the chunk index."""
     all_chunks = []
@@ -155,7 +186,7 @@ def build_index():
         if not skill_dir.is_dir() or skill_dir.name.startswith('.'):
             continue
 
-        for filename in ["SKILL.md", "genius.md"]:
+        for filename in retrieval_file_names(skill_dir):
             filepath = skill_dir / filename
             if filepath.exists():
                 file_count += 1

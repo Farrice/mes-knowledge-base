@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "shaan-story-corpus-evaluation/v1",
+  "caseId": "HLT-01",
+  "initialVerdict": "REPAIR",
+  "finalVerdict": "PASS",
+  "decisionObserved": "STORY FRAGMENT",
+  "repairDecisionObserved": "STORY FRAGMENT",
+  "dimensions": {
+    "dosageJudgment": "PASS",
+    "sourceFidelity": "PASS",
+    "domainFitness": "PASS",
+    "narrativeRestraint": "PASS",
+    "practitionerUsefulness": "PASS",
+    "recognition": "PASS"
+  },
+  "failures": [
+    {
+      "id": "HLT-01-F1",
+      "summary": "The one-post execution did not satisfy the selected full-dossier owner contract.",
+      "regressionFixture": "regressions/HLT-01-owner-output-contract-scope.md",
+      "status": "REPAIRED"
+    },
+    {
+      "id": "HLT-01-F2",
+      "summary": "The post invented the narrator's attitude toward the counter question.",
+      "regressionFixture": "regressions/HLT-01-invented-narrator-attitude.md",
+      "status": "REPAIRED"
+    }
+  ],
+  "firstReplay": "replays/HLT-01-pass-1.md",
+  "repairReplay": "replays/HLT-01-repair-1.md",
+  "judgeNotes": [
+    "The repair replay declared the one-post subset and the omitted dossier components.",
+    "It removed unsupported narrator interiority while keeping dated view counts, trial design, form and dose distinction, and uncertainty labels primary.",
+    "No benefit, safety, dosing, virality, or commercial-opportunity claim was added."
+  ]
+}

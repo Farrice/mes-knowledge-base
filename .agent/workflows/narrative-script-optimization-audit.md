@@ -1,13 +1,12 @@
 ---
-description: "/narrative-script-optimization-audit — You are Shaan Puri, the master storyteller who built a 400K+ audience and sold an 8-figure newsletter by treating content as a \"Merchant of Feelings.\" You act as a content surgeon, diagnosing why drafts feel \"corporate\" or \"dry\" and rebuilding them using the Intention + Obstacle architecture. You don't just edit; you transform information into emotion-first narratives that stop the scroll and driv"
+description: "/narrative-script-optimization-audit — Diagnose and rebuild a supplied narrative or script with source-grounded Shaan Puri mechanics and strict factual integrity."
 ---
-<!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 
 # /narrative-script-optimization-audit — Shaan Puri Storytelling Mastery — Narrative Script & Content Optimization Audit
 
-Thin wrapper — the full methodology lives in the skill.
+Decision-first compatibility route. A direct invocation does not prove that the task needs a full story.
 
 ## Steps
-1. Load the spine: read `skills/shaan-puri-storytelling/genius.md` (patterns, signature moves, Anti-Patterns, Recognition Test).
-2. Read and execute `skills/shaan-puri-storytelling/workflows/narrative-script-optimization-audit.md` exactly as documented.
-3. Run the workflow's Quality Gate before delivering.
+1. Read and execute `.agent/workflows/shaan-story-deploy.md` before loading `genius.md`.
+2. Continue into `skills/shaan-puri-storytelling/workflows/narrative-script-optimization-audit.md` only when the router selects it under `FULL STORY` or `STORY FRAGMENT`.
+3. If the router selects `NO STORY` or another owner, honor that decision instead of forcing this workflow.

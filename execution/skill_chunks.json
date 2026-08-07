@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "file_count": 405,
-  "chunk_count": 3942,
+  "file_count": 404,
+  "chunk_count": 3931,
   "chunks": [
     {
       "source": "skills/adam-enfroy-affiliate-marketing/SKILL.md",
@@ -34689,8 +34689,8 @@
       "skill": "shaan-puri-storytelling",
       "file_type": "SKILL.md",
       "section": "Overview",
-      "content": "---\nname: \"Shaan Puri Storytelling Mastery\"\ndescription: \"Storytelling and audience building frameworks for emotion-first content that creates loyal audiences\"\nversion: \"2.0\"\nformat: \"completion-engine\"\nworkflows: 4\n---\n\n# Shaan Puri Storytelling Mastery\n\n> Transform content from information delivery into emotion transfer using systematic storytelling architecture.\nShaan Puri's methodology reverse-engineers mastery from non-writers (comedians, screenwriters, performers) and packages it into deployable systems. The core insight: **content is emotion transfer**. Every piece has one job\u2014make the reader feel something so powerfully they must share it.\n**Core Philosophy:** *\"I'm a merchant of feelings.\"*\n**What Made Shaan Revolutionary:**\n1. Content i",
-      "word_count": 96,
+      "content": "---\nname: \"Shaan Puri Storytelling Mastery\"\ndescription: \"Decision-first storytelling deployment for full stories, truthful fragments, and explicit no-story routes, with source-grounded Shaan Puri production workflows.\"\nversion: \"2.1\"\nformat: \"completion-engine\"\nworkflows: 7\nprimary_workflow: shaan-story-deploy\ncontext_retrieval: skill-only-until-selected\n---\n\n# Shaan Puri Storytelling Mastery\n\n> Decide whether story belongs, then use the smallest story mechanic the material can honestly support.\n\nShaan Puri's methodology treats story as transformation, frames as more important than hooks, and audience attention as earned. The front door adds the boundary he states in the source: story is a tool, not a mandate for every piece.\n\n**Primary route:** Start with `shaan-story-deploy`. It selects `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` before loading the full methodology.\n\n**Truth invariant:** Preserve supplied facts and uncertainty. Never invent dialogue, chronology, metrics, outcomes, motives, emotions, or sensory details as real. Label analogies, composites, and constructed examples.",
+      "word_count": 141,
       "id": 3468
     },
     {
@@ -34699,159 +34699,49 @@
       "skill": "shaan-puri-storytelling",
       "file_type": "SKILL.md",
       "section": "Available Workflows",
-      "content": "## Available Workflows\n| # | Workflow | Produces | Use When |\n|---|---------|----------|----------|\n| brand | [Brand Identity & Audience Emotional Blueprint](workflows/brand-identity-emotional-blueprint.md) | A comprehensive Brand Voice & Audience Strategy Document | You are launching a new brand, pivoting your voice, or need to define the exact psychological profile of your ideal customer. |\n| viral | [Viral Social Content Engine](workflows/viral-social-content-engine.md) | A high-reach social media content calendar and hook library | You need to generate high-engagement social content, capitalize on trends, or turn raw creative ideas into viral assets. |\n| narrative | [Narrative Script & Content Optimization Audit](workflows/narrative-script-optimization-audit.md) | A polished, humor-infused narrative script or article | You have a draft or a video concept that feels flat and needs to be restructured into a compelling story with high retention. |\n| story | [Story-Driven Sales Conversion Funnel](workflows/story-driven-sales-conversion-funnel.md) | A complete sales page and automated email sequence | You are launching a product or service and want to sell through persuasion and emotion rather than hard-selling features. |",
-      "word_count": 168,
+      "content": "## Available Workflows\n| # | Workflow | Produces | Use When |\n|---|---------|----------|----------|\n| deploy | [Shaan Story Deployment Router](workflows/shaan-story-deploy.md) | A final communication asset plus a Story Deployment Receipt | Story may help, but the correct dosage, truth boundary, or production owner is not settled. This is the default front door. |\n| brand | [Brand Identity & Audience Emotional Blueprint](workflows/brand-identity-emotional-blueprint.md) | A comprehensive Brand Voice & Audience Strategy Document | You are launching a new brand, pivoting your voice, or need an evidence-labeled working model of a specific audience and its decision context. |\n| viral | [Viral Social Content Engine](workflows/viral-social-content-engine.md) | A high-reach social media content calendar and hook library | You need to generate high-engagement social content, capitalize on trends, or turn raw creative ideas into viral assets. |\n| narrative | [Narrative Script & Content Optimization Audit](workflows/narrative-script-optimization-audit.md) | A polished, humor-infused narrative script or article | You have a draft or a video concept that feels flat and needs to be restructured into a compelling story with high retention. |\n| story | [Story-Driven Sales Conversion Funnel](workflows/story-driven-sales-conversion-funnel.md) | A complete sales page and automated email sequence | You are launching a product or service and want to sell through persuasion and emotion rather than hard-selling features. |\n| bank | [Signature Story Bank & Origin Story Workshop](workflows/signature-story-bank.md) | A bank of 4-5 workshopped signature stories plus a performance-ready origin story | You need the handful of stories that carry your whole identity (origin story, About page, podcast intros, pitches) workshopped from rough retellings into rom-com architecture. |\n| voice | [Voice Transfer Engine (Milk Road Method)](workflows/voice-transfer-engine.md) | A trainable voice system: format spec, rationale, example bank, and filters | You need a ghostwriter, teammate, or AI to publish in your voice without dilution \u2014 the system Shaan used to hand Milk Road to a first-time writer. |",
+      "word_count": 310,
       "id": 3469
     },
     {
-      "source": "skills/shaan-puri-storytelling/genius.md",
+      "source": "skills/shaan-puri-storytelling/SKILL.md",
       "expert": "shaan-puri-storytelling",
       "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Overview",
-      "content": "# Shaan Puri Storytelling Mastery \u2014 Genius Context\n\n> Load this file before executing any workflow. It contains the full\n> extraction intelligence \u2014 patterns, tacit knowledge, and operating\n> principles that make this expert's output actually work.",
-      "word_count": 38,
+      "file_type": "SKILL.md",
+      "section": "Quick Reference",
+      "content": "## Quick Reference\n- **Decision map**: [references/story-deployment-map.md](references/story-deployment-map.md) \u2014 load first when story fit is uncertain\n- **Genius Context**: [genius.md](genius.md) \u2014 load only after a Shaan production route is selected\n- **Source Ledger**: [references/source-ledger.md](references/source-ledger.md) \u2014 claim classes, timestamps, and evidence limits\n- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) \u2014 archived; never use as the active execution layer",
+      "word_count": 50,
       "id": 3470
     },
     {
-      "source": "skills/shaan-puri-storytelling/genius.md",
+      "source": "skills/shaan-puri-storytelling/SKILL.md",
       "expert": "shaan-puri-storytelling",
       "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 1: Intention + Obstacle Architecture",
-      "content": "## Pattern 1: Intention + Obstacle Architecture\n**The Pattern**: Every compelling story has a clear intention (what the protagonist wants) and a clear obstacle (what's blocking them). This creates the engine that pulls readers through.\n\n**Why It Works**: Readers need to know what to root for. Without intention, there's no investment. Without obstacle, there's no tension.\n\n---",
-      "word_count": 50,
+      "file_type": "SKILL.md",
+      "section": "Context Policy",
+      "content": "## Context Policy\n- **Hot:** user brief, Story Deployment Map, narrative decision, truth constraints.\n- **On demand:** `genius.md`, exactly one workflow and its execution prompt, Story Compass, How I Write, or one transfer owner.\n- **Cold:** transcript, frames, full ledgers, unselected workflows and prompts, unrelated experts.",
+      "word_count": 43,
       "id": 3471
     },
     {
-      "source": "skills/shaan-puri-storytelling/genius.md",
+      "source": "skills/shaan-puri-storytelling/SKILL.md",
       "expert": "shaan-puri-storytelling",
       "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 2: The 5-Second Moment",
-      "content": "## Pattern 2: The 5-Second Moment\n**The Pattern**: Find the exact pivot point\u2014the moment of decision, realization, or action where transformation became inevitable. Render it vividly.\n\n**Why It Works**: This is the heart of the story. Average stories gloss over it; great stories live in it.\n\n---",
-      "word_count": 41,
+      "file_type": "SKILL.md",
+      "section": "Stacking Guide",
+      "content": "## Stacking Guide\n| Need | Route | Boundary |\n|---|---|---|\n| Confirm candidate material is actually a story | Story Compass | Activate only after `FULL STORY` is selected; failure means source gathering or downgrade, never invention |\n| Compose long-form or high-stakes writing | How I Write | One body-voice owner; Shaan supplies only the selected mechanism |\n| Transfer a mechanism from another field | Existing function-specific transfer route | One named weakness, one mechanism, one detached test; no surface-style copying |\n| Evidence-sensitive claims | Domain evidence and verification gate | Story supports comprehension or recall; it cannot replace proof or strengthen causality |\n\n<!-- BEGIN:execution-prompts (generated by execution/wire_prompt_pointers.py \u2014 do not hand-edit; re-run to refresh) -->",
+      "word_count": 118,
       "id": 3472
     },
     {
-      "source": "skills/shaan-puri-storytelling/genius.md",
+      "source": "skills/shaan-puri-storytelling/SKILL.md",
       "expert": "shaan-puri-storytelling",
       "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 3: Frame > Hook",
-      "content": "## Pattern 3: Frame > Hook\n**The Pattern**: Great hooks don't come from wordsmithing\u2014they come from finding the right frame. An average idea brilliantly framed beats a brilliant idea poorly framed.\n\n**Why It Works**: Frames change how information is processed. The same content, differently framed, creates completely different reactions.\n\n---",
-      "word_count": 44,
+      "file_type": "SKILL.md",
+      "section": "Execution Prompts (structure-pure v2)",
+      "content": "## Execution Prompts (structure-pure v2)\n23 deterministic practitioner prompts \u2014 each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.\n\n- **SHAAN PURI - SALES PAGE NARRATIVE ALCHEMIST** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/08-sales-page-narrative.md`\n- **SHAAN PURI - VIRAL CONTENT ENGINEERING SYSTEM** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/09-viral-content-engineering.md`\n- **SHAAN PURI - BRAND VOICE & POSITION CRYSTALLIZER** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/10-brand-voice-crystallizer.md`\n- **SHAAN PURI - EMAIL SEQUENCE STORY ARCHITECT** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/11-email-sequence-architect.md`\n- **SHAAN PURI - SOCIAL CONTENT IDEATION MATRIX** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/12-social-ideation-matrix.md`\n- **SHAAN PURI - CONSUMER PSYCHOLOGY DECODER** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/13-consumer-psychology-decoder.md`\n- **SHAAN PURI - VIDEO SCRIPT TRANSFORMER** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/14-video-script-transformer.md`\n- **SHAAN PURI - CULTURAL MOMENT CAPITALIZER** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/15-cultural-moment-capitalizer.md`\n- **SHAAN PURI - CREATIVE DIRECTION TRANSLATOR** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/16-creative-direction-translator.md`\n- **SHAAN PURI - AUDIENCE FEELING STRATEGY BLUEPRINT** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/audience-feeling-blueprint.md`\n- **Shaan Puri \u2014 Brand Identity and Audience Emotional Blueprint** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/brand-identity-emotional-blueprint.md`\n- **SHAAN PURI - CONTENT DIAGNOSIS & REFRAME ENGINE** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/content-diagnosis-reframe.md`\n- **SHAAN PURI - HUMOR INTEGRATION ENGINE** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/humor-integration.md`\n- **Shaan Puri \u2014 Narrative Script and Content Optimization Audit** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/narrative-script-optimization-audit.md`\n- **SHAAN PURI - NESTED STORY PERSUASION BUILDER** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/nested-story-persuasion.md`\n- **Shaan Puri \u2014 Story Deployment Router** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/shaan-story-deploy.md`\n- **Shaan Puri \u2014 Signature Story Bank and Origin Story Workshop** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/signature-story-bank.md`\n- **SHAAN PURI - STORY ARCHITECTURE ENGINE** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/story-architecture-engine.md`\n- **Shaan Puri \u2014 Story-Driven Sales Conversion Funnel** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/story-driven-sales-conversion-funnel.md`\n- **SHAAN PURI - VIRAL HOOK & FRAME GENERATOR** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/viral-hook-frame.md`\n- **Shaan Puri \u2014 Viral Social Content Engine** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/viral-social-content-engine.md`\n- **SHAAN PURI - VOICE MEMO TO POLISHED DRAFT TRANSFORMER** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/voice-memo-transformer.md`\n- **Shaan Puri \u2014 Voice Transfer Engine** \u2014 `skills/shaan-puri-storytelling/references/prompts-v2/voice-transfer-engine.md`\n\n<!-- END:execution-prompts -->",
+      "word_count": 269,
       "id": 3473
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 4: Merchant of Feelings",
-      "content": "## Pattern 4: Merchant of Feelings\n**The Pattern**: Define ONE signature feeling and deliver it consistently across all content. You're not selling information\u2014you're selling an emotional state.\n\n**Why It Works**: Brands that own a feeling create irrational loyalty. Customers can't articulate why they love you, but they do.\n\n---",
-      "word_count": 43,
-      "id": 3474
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 5: Jenny in Her Bedroom",
-      "content": "## Pattern 5: Jenny in Her Bedroom\n**The Pattern**: Visualize ONE specific person in their physical and emotional context when creating content. Not a demographic\u2014a person.\n\n**Why It Works**: Content for a specific person resonates with millions. Content for millions resonates with no one.\n\n---",
-      "word_count": 38,
-      "id": 3475
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 6: Low-Status Opening",
-      "content": "## Pattern 6: Low-Status Opening\n**The Pattern**: Begin with vulnerability or relatability, not credentials. Connection before impression.\n\n**Why It Works**: High-status openings trigger skepticism. Low-status openings create connection and trust before you make your point.\n\n---",
-      "word_count": 31,
-      "id": 3476
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 7: Nested Story Persuasion",
-      "content": "## Pattern 7: Nested Story Persuasion\n**The Pattern**: Multiple unrelated stories that reveal a single principle. Let the audience discover the conclusion themselves.\n\n**Why It Works**: Direct argument triggers resistance. Self-discovered conclusions drive higher conviction.\n\n---",
-      "word_count": 30,
-      "id": 3477
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 8: State Before Create",
-      "content": "## Pattern 8: State Before Create\n**The Pattern**: Get into peak emotional state before creating. Your emotional state transfers through your output.\n\n**Why It Works**: Energy is contagious. If you're bored writing it, they'll be bored reading it.\n\n---",
-      "word_count": 33,
-      "id": 3478
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Pattern 9: Transformation Isomorphism (Story Selection Layer)",
-      "content": "## Pattern 9: Transformation Isomorphism (Story Selection Layer)\n**The Pattern**: Before constructing any story, explicitly map the READER's transformation arc: (1) their current state, (2) their desired state, (3) their internal obstacle blocking the shift. Then select or construct a story whose protagonist's journey is isomorphic to the reader's journey. The protagonist becomes a proxy \u2014 the reader should feel the story is ABOUT them, not told TO them.\n\n**Pre-Construction Protocol**:\n1. **Reader Current State**: What does the reader believe/feel/experience right now? (e.g., \"I'm invisible online and falling behind\")\n2. **Reader Desired State**: What do they want to believe/feel/experience? (e.g., \"My invisibility is proof of excellence, not failure\")\n3. **Reader Internal Obstacle**: What belief prevents the shift? (e.g., \"Online presence = professional legitimacy\")\n4. **Story Selection**: Choose/build a story where the protagonist's arc mirrors this exact transformation. The protagonist's obstacle should rhyme with the reader's obstacle.\n5. **Entry Point**: Open INSIDE the reader's current state (\"You've watched...\" not \"I once saw...\"). The reader enters the story already in it.\n\n**Why It Works**: Stories told AT readers inform. Stories that mirror the reader's own desired transformation MOVE them. When the protagonist's journey is isomorphic to the reader's, the resolution feels like personal permission \u2014 not external advice. The reader doesn't learn from the story; they see themselves completing the transformation through it.\n\n**Key Distinction from Pattern 5 (Jenny in Her Bedroom)**: Jenny visualizes WHO the reader is. Transformation Isomorphism maps WHERE the reader is trying to GO and ensures the story's arc is the vehicle that carries them there. Jenny is the person; Isomorphism is the journey.\n\n---",
-      "word_count": 259,
-      "id": 3479
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "The Quality Tests",
-      "content": "## The Quality Tests\n### The Yin-Yang Test\nDoes the end state contrast sharply with the beginning state?\n\n### The Intention Test  \nCan you state in one sentence what the protagonist wants?\n\n### The 5-Second Test\nIs there a vivid pivot point you could describe in 5 seconds?\n\n### The Feel Test\nDo you feel something when you read your own work?\n\n### The Isomorphism Test\nDoes the story's transformation arc mirror the reader's desired transformation? Would the reader feel this story is about THEIR journey, not just a story told to them?\n\n---",
-      "word_count": 90,
-      "id": 3480
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Hall of Fame Exemplars",
-      "content": "## Hall of Fame Exemplars\n**Exemplar 1: The \"Unseen Burden\" Founder Story**\n\n\"I remember the exact moment I realized my first startup was dead, even though the press releases still sang of our 'momentum.' It wasn't some grand implosion, but a quiet Tuesday evening. I was at my desk, staring at a spreadsheet of user acquisition costs, while my co-founder was across the office, laughing loudly on a sales call. We were supposedly a team, but in that moment, I felt the entire weight of our dwindling runway crushing *my* chest alone. My intention had been to build a revolutionary ed-tech platform; the obstacle was a silent, corrosive misalignment of vision and effort with the one person I trusted most. I distinctly remember the cold coffee in my hand, the ache in my shoulders, and the sickening realization that I was trying to carry a two-person load by myself. In that 5-second pivot, I knew I had to have the hardest conversation of my life, not about product, but about partnership. It transformed me from an idealistic founder into a pragmatic CEO who understood that the biggest threats aren't always external.\"\n\n*   **What makes this excellent**:\n    *   **Low-Status Opening**: Begins with a vulnerable, internal struggle (\"realized my first startup was dead,\" \"crushing *my* chest alone\").\n    *   **Intention + Obstacle Architecture**: Clearly states \"intention had been to build... obstacle was a silent, corrosive misalignment.\"\n    *   **The 5-Second",
-      "word_count": 231,
-      "id": 3481
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Hall of Fame Exemplars",
-      "content": "## Hall of Fame Exemplars\n**Exemplar 2: The \"Hidden Lever\" Insight**\n\n\"I used to think that to make a big impact, you needed a big platform, a huge team, or a massive budget. That was my intention\u2014to scale my message globally. The obstacle? A constant feeling of inadequacy and a lack of resources. I remember one Tuesday afternoon, staring at my analytics, seeing minimal growth, and feeling utterly deflated. Then, I read about a tiny blog, run by one person, that was generating millions in revenue by focusing on one niche. It wasn't the size of the audience, but the *depth* of connection. In that 5-second pivot, I realized my frame was wrong. I wasn't trying to build a media empire; I was trying to become a trusted guide for a specific type of person. The feeling I wanted to deliver was 'empowered clarity' \u2013 the idea that you already have everything you need, you just need to find the right lever. It transformed how I approached content, from chasing trends to cultivating genuine relationships.\"\n\n*   **What makes this excellent**:\n    *   **Intention + Obstacle Architecture**: Clear intention (\"scale message globally\") and obstacle (\"inadequacy, lack of resources\").\n    *   **The 5-Second Moment**: Vivid pivot point (\"read about a tiny blog... realized my frame was wrong\").\n    *   **Frame > Hook**: Explicitly states a shift in frame (\"my frame was wrong\").\n    *   **Merchant of Feelings**: Defines and delivers \"empowered clarity.\"\n\n**Exemplar 3: The \"Unspoken Loneliness\" of Success**\n\n\"Everyone sees the highlight reel: the big exits, the packed conferences, the 'overnight success' stories. But what they don't see is the quiet Saturday night, alone in a hotel room, scrolling through contacts, wondering who you can actually call when things get tough. My intention was to achieve external validation and success; the obstacle was the insidious loneliness that grew with every rung I climbed on the ladder. I remember standing on a stage, having just delivered a keynote to thousands, and feeling utterly hollow. The applause faded, the lights dimmed, and in that 5-second moment, I understood that I had built an empire of 'what' but forgotten the 'why.' I realized the true transformation wasn't in accumulating more, but in reconnecting with the human need for genuine connection. I'm telling this story for 'Jenny,' who's chasing the dream but feels a growing void inside, silently wondering if it's all worth it. The feeling I'm selling is profound empathy and a roadmap to authentic fulfillment.\"\n\n*   **What makes this excellent**:\n    *   **Low-Status Opening**: Begins with vulnerability despite external success (\"quiet Saturday night, alone in a hotel room\").\n    *   **Intention + Obstacle Architecture**: Clearly defines both (\"achieve external validation... insidious loneliness\").\n    *   **The 5-Second Moment**: Vivid and emotionally charged pivot (\"standing on a stage... feeling utterly hollow... understood I had built an empire of 'what' but forgotten the 'why'\").\n    *   **Jenny in Her Bedroom**: Directly addresses and visualizes the target audience (\"I'm telling this story for 'Jenny,' who's chasing the dream but feels a growing void inside\").\n    *   **Merchant of Feelings**: Clearly states the feeling being delivered (\"profound empathy and a roadmap to authentic fulfillment\").\n\n**Anti-Exemplar: The \"Standard Business Update\"**\n\n\"Last quarter, our company achieved a 12% revenue increase, primarily driven by our new marketing automation platform. Our goal was to enhance customer engagement and streamline lead nurturing processes. We encountered some initial integration challenges with legacy systems, which delayed full deployment by two weeks. However, our engineering team successfully resolved these issues, leading to a 25% improvement in conversion rates for qualified leads. We anticipate continued growth in the next fiscal year, with plans to expand into new geographical markets.\"\n\n*   **What makes this mediocre**:\n    *   **Lacks Low-Status Opening**: Starts with facts and figures, not connection.\n    *   **No Clear 5-Second Moment**: Presents a series of events, not a vivid pivot point.\n    *   **No Merchant of Feelings**: Delivers information, not an emotional state.\n    *   **No Jenny in Her Bedroom**: Targets a generic 'stakeholder' audience, not a specific person.\n    *   **Fails Yin-Yang Test**: Describes progress, but no profound transformation or contrasting states.\n    *   **Generic Intention/Obstacle**: \"Enhance customer engagement\" and \"integration challenges\" are common business objectives/problems, not deeply personal or transformative.",
-      "word_count": 686,
-      "id": 3482
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Signature Moves",
-      "content": "## Signature Moves\n*   **The \"Pre-Flight Feeling Check\"**: Before writing a single word, Shaan takes 5 minutes to identify the ONE feeling he wants the audience to experience. He then spends another 5 minutes listening to music or recalling a memory that embodies that feeling, ensuring his emotional state aligns before he creates. \u2192 **Deploy when**: Starting any new piece of content or feeling a dip in creative energy.\n*   **The \"One-Reader Visualization\"**: Shaan closes his eyes and visualizes one specific person\u2014her name, her specific problem, her physical environment (e.g., \"Jenny in her bedroom, scrolling on her phone, feeling overwhelmed\"). He then mentally \"speaks\" the story directly to her. \u2192 **Deploy when**: Beginning the outlining phase or struggling to connect with the audience.\n*   **The \"Pivot Point Hunt\"**: After drafting a rough narrative, Shaan meticulously scans for the single, most impactful 5-second moment where the internal or external shift occurred. He then ruthlessly expands and polishes *only* that moment, often stripping away surrounding detail to make it shine. \u2192 **Deploy when**: Refining a story's emotional core or when a story feels \"flat.\"\n*   **The \"Opposite End State Sketch\"**: Before developing the story's progression, Shaan explicitly defines the protagonist's emotional, intellectual, or circumstantial state at the beginning and then its precise opposite at the end. This \"yin-yang\" contrast serves as the story's emotional compass. \u2192 **Deploy when**: Initial story ideation or when a story lacks clear purpose/impact.\n*   **The \"Obstacle Definition Drill\"**: Shaan doesn't just identify *what* the protagonist wants (intention); he then spends significant time articulating the *specific, tangible, and often internal* forces blocking them. He ensures the obstacle isn't generic but deeply personal and resonant. \u2192 **Deploy when**: A story's tension feels weak or the stakes aren't clear.\n*   **The \"Isomorphism Map\"**: Before choosing which story to tell, map the reader's current state \u2192 desired state \u2192 internal obstacle. Then select a story whose protagonist's arc rhymes with this exact journey. Open inside the reader's reality, not outside it. \u2192 **Deploy when**: Starting any story from scratch, or when a draft feels well-crafted but emotionally distant.",
-      "word_count": 344,
-      "id": 3483
-    },
-    {
-      "source": "skills/shaan-puri-storytelling/genius.md",
-      "expert": "shaan-puri-storytelling",
-      "skill": "shaan-puri-storytelling",
-      "file_type": "genius.md",
-      "section": "Expert-Specific Quality Rubric",
-      "content": "## Expert-Specific Quality Rubric\n| Criterion                     | Score 4 (Acceptable)                                         | Score 7 (Good)                                                               | Score 10 (Savant)                                                                                                                                                                                                                               |\n| :---------------------------- | :----------------------------------------------------------- | :--------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| **Transformational Arc Clarity** | The story implies a change, but the before/after states are vague. | A clear change is evident, showing a reasonable contrast between beginning and end. | The initial state and final state are diametrically opposed, creating a powerful \"yin-yang\" transformation that feels inevitable and profound. The story *is* the transformation.                                                                  |\n| **Intention-Obstacle Engine** | The protagonist's desire is present, but the obstacle is generic or easily overcome. | Both a clear intention and a significant obstacle are identifiable, driving the narrative forward. | The intention is specific and deeply personal, met by an equally formidable, often internal or nuanced, obstacle that creates palpable tension and investment from the reader. The engine is humming, pulling the reader relentlessly.              |\n| **5-Second Moment Vividness** | A turning point is mentioned, but it's abstract or lacks sensory detail. | A distinct pivot point is described, conveying its significance to the plot. | The 5-second moment is rendered with such sensory detail, emotional punch, and specificity that it feels like a cinematic freeze-frame, the undeniable heart of the story where the transformation *visibly* takes hold.                               |\n| **Emotional Resonance (Feeling Delivery)** | The story conveys information; any emotion is incidental or intellectual. | The story evokes a general positive or negative feeling, but it's not sharply defined. | The story is a masterclass in emotional engineering, precisely defining and consistently delivering ONE signature feeling (e.g., 'empowered clarity,' 'unsettled curiosity') that creates irrational loyalty and deep, lasting impact.                    |\n| **Audience Specificity (Jenny)** | The content is for a broad demographic, hoping to appeal to many. | The story feels relevant to a specific segment, but the 'person' is still somewhat abstract. | The story speaks directly and intimately to \"Jenny in her bedroom\"\u2014a single, vividly imagined individual with specific pains and aspirations\u2014making millions feel personally addressed and understood.                                            |\n| **Frame Innovation**          | The story presents facts or common interpretations directly. | The story offers a novel perspective, but the framing might feel slightly forced or obvious. | The narrative employs a truly innovative frame that instantly shifts the audience's perception of familiar information, making the old feel new and the obvious feel revelatory, leading to immediate engagement beyond the content itself.          |\n| **Persuasion Architecture (Nested Stories)** | Arguments are made directly, or stories are loosely connected. | Multiple stories are used to illustrate a point, but the connection might require some reader effort. | Unrelated stories are artfully interwoven, each revealing a facet of a single, profound principle. The audience \"discovers\" the conclusion themselves, leading to conviction that feels self-generated and undeniable.                             |\n| **Transformation Isomorphism** | The story informs the reader about a topic. Reader is an observer. | The story's theme relates to the reader's situation, but the connection is implicit. | The protagonist's arc is a precise mirror of the reader's desired transformation. The reader enters the story already inside it, and the resolution feels like personal permission to complete their own shift. |",
-      "word_count": 525,
-      "id": 3484
     },
     {
       "source": "skills/shan-hanif-audience-monetization/SKILL.md",

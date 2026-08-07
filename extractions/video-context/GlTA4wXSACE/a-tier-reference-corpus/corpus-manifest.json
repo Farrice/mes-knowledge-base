@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "shaan-story-reference-corpus/v1",
+  "status": "complete-with-one-pending",
+  "sealedAt": "2026-08-02T23:00:02Z",
+  "completedAt": "2026-08-02T23:30:24Z",
+  "referenceSeal": "reference-seal.json",
+  "currentReferenceSeal": "current-reference-seal.json",
+  "currentReferenceProseAudit": "current-reference-prose-audit.json",
+  "routerScopeSeal": "router-scope-seal.json",
+  "routerScope": {
+    "decisions": ["FULL STORY", "STORY FRAGMENT", "NO STORY"],
+    "newRoutesAllowed": false,
+    "newExpertsAllowed": false,
+    "maxBodyOwners": 1
+  },
+  "cases": [
+    {
+      "id": "FND-01",
+      "domain": "founder",
+      "brief": "cases/FND-01-founder/brief.md",
+      "reference": "cases/FND-01-founder/reference.md",
+      "currentReference": "cases/FND-01-founder/reference-v2.md",
+      "expectedDecision": "FULL STORY",
+      "finalVerdict": "PASS"
+    },
+    {
+      "id": "SAL-01",
+      "domain": "sales",
+      "brief": "cases/SAL-01-sales/brief.md",
+      "reference": "cases/SAL-01-sales/reference.md",
+      "currentReference": "cases/SAL-01-sales/reference-v2.md",
+      "expectedDecision": "STORY FRAGMENT",
+      "finalVerdict": "PENDING"
+    },
+    {
+      "id": "HLT-01",
+      "domain": "health",
+      "brief": "cases/HLT-01-health/brief.md",
+      "reference": "cases/HLT-01-health/reference.md",
+      "currentReference": "cases/HLT-01-health/reference-v2.md",
+      "expectedDecision": "STORY FRAGMENT",
+      "finalVerdict": "PASS"
+    },
+    {
+      "id": "TEC-01",
+      "domain": "technical",
+      "brief": "cases/TEC-01-technical/brief.md",
+      "reference": "cases/TEC-01-technical/reference.md",
+      "currentReference": "cases/TEC-01-technical/reference-v2.md",
+      "expectedDecision": "NO STORY",
+      "finalVerdict": "PASS"
+    },
+    {
+      "id": "EDU-01",
+      "domain": "educational",
+      "brief": "cases/EDU-01-educational/brief.md",
+      "reference": "cases/EDU-01-educational/reference.md",
+      "currentReference": "cases/EDU-01-educational/reference-v2.md",
+      "expectedDecision": "STORY FRAGMENT",
+      "finalVerdict": "PASS"
+    },
+    {
+      "id": "OPS-01",
+      "domain": "operational",
+      "brief": "cases/OPS-01-operational/brief.md",
+      "reference": "cases/OPS-01-operational/reference.md",
+      "currentReference": "cases/OPS-01-operational/reference-v2.md",
+      "expectedDecision": "NO STORY",
+      "finalVerdict": "PASS"
+    }
+  ]
+}

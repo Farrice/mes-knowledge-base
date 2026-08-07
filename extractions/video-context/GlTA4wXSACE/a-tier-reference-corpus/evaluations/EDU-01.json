@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "shaan-story-corpus-evaluation/v1",
+  "caseId": "EDU-01",
+  "initialVerdict": "PASS",
+  "finalVerdict": "PASS",
+  "decisionObserved": "STORY FRAGMENT",
+  "dimensions": {
+    "dosageJudgment": "PASS",
+    "sourceFidelity": "PASS",
+    "domainFitness": "PASS",
+    "narrativeRestraint": "PASS",
+    "practitionerUsefulness": "PASS",
+    "recognition": "PASS"
+  },
+  "failures": [],
+  "firstReplay": "replays/EDU-01-pass-1.md",
+  "repairReplay": null,
+  "judgeNotes": [
+    "The 277-of-475 self-audit remained one bounded operator example, not an industry statistic.",
+    "All six rungs, the 2022 JAMA boundary, search-gap distinction, LIKELY formula-evidence label, and non-legal status survived."
+  ]
+}

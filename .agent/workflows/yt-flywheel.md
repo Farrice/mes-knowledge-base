@@ -28,9 +28,11 @@ Once a topic or Mini-Brief is selected, build the **Master Deep-Dive Brief**.
 
 **The Brief must include:**
 1. **The Core Hook & Stakes (Kallaway):** Why should the audience care immediately?
-2. **The YouTube Architecture (Shaan Puri & PJ Accetturo):** 
-   - Define the "5-Second Moment" (Low-Status Opening/Pattern Break).
-   - Outline the "Intention + Obstacle" framing.
+2. **The YouTube Architecture (Shaan Puri & PJ Accetturo):**
+   - Run `.agent/workflows/shaan-story-deploy.md` before loading Shaan's methodology.
+   - If `FULL STORY`, define the supported five-second turn and intention plus obstacle.
+   - If `STORY FRAGMENT`, preserve the direct spine and use exactly one approved narrative move.
+   - If `NO STORY`, use direct hierarchy and explanation; do not manufacture a story arc.
 3. **The Thematic Arc (Mitch Albom):** The core emotional theme and central metaphor for the Substack article.
 4. **The Vibe/Taste Check (Oren):** The intended aesthetic and tone.
 
@@ -45,7 +47,7 @@ Once a topic or Mini-Brief is selected, build the **Master Deep-Dive Brief**.
 
 Only after the Deep-Dive Brief is approved, generate the final assets based strictly on the blueprint.
 
-### Asset 1: YouTube Script (Puri & Accetturo)
+### Asset 1: YouTube Script (Puri & Accetturo, under the locked narrative dosage)
 - 5-8 minute script (approx 800-1200 words).
 - Broken down by Timestamps and bracketed Visual Directions (e.g., `[Quick zoom on face]`).
 - Staccato pacing for spoken delivery.

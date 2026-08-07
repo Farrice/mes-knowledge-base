@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "shaan-story-current-reference-prose-audit/v1",
+  "auditedAt": "2026-08-02T23:44:54Z",
+  "tool": "execution/prose_classifier.py check on Reference Asset body only",
+  "cases": {
+    "FND-01": {"wordCount": 726, "requiredRange": [650, 900], "verdict": "CLEAN", "aiScore": 1.6},
+    "SAL-01": {"wordCount": 672, "requiredRange": [650, 900], "verdict": "CLEAN", "aiScore": 0.3},
+    "HLT-01": {"wordCount": 505, "requiredRange": [450, 650], "verdict": "CLEAN", "aiScore": 0.0},
+    "TEC-01": {
+      "wordCount": 414,
+      "requiredRange": [350, 500],
+      "verdict": "WARNING_REVIEWED",
+      "aiScore": 2.0,
+      "review": "The only signal was parallel acceptance-criteria structure required by the engineering memo."
+    },
+    "EDU-01": {"wordCount": 798, "requiredRange": [700, 900], "verdict": "CLEAN", "aiScore": 0.0},
+    "OPS-01": {
+      "wordCount": 512,
+      "requiredRange": [450, 650],
+      "verdict": "WARNING_REVIEWED",
+      "aiScore": 3.5,
+      "review": "Signals came from functional gate/state lists and the exact historical READY TO SEND source label."
+    }
+  }
+}

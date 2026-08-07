@@ -76,6 +76,8 @@ Read these files in order:
 2. /Users/farricecain/Google Antigravity/skills/[skill-name]/genius.md
 3. /Users/farricecain/Google Antigravity/skills/[skill-name]/workflows/[workflow].md
 
+**Decision-first exception for `shaan-puri-storytelling`:** Do not use the generic order above. Read `references/story-deployment-map.md`, then `workflows/shaan-story-deploy.md` and its exact v2 prompt. Decide the dosage first. Load `genius.md` and only the selected Shaan production route afterward; a `NO STORY` decision stays direct.
+
 ## PHASE 2: CONTEXT
 **Topic**: [topic]
 **Core message**: [message]
@@ -99,7 +101,7 @@ SKILL FILES READ: [list] | PATTERNS APPLIED: [list] | QUALITY CHECK: [pass/fail]
 | Format | Skill Name | Workflow | Output File |
 |--------|-----------|----------|-------------|
 | LinkedIn | lara-acosta-linkedin-mastery | high-performance-content-engine.md | `.tmp/launch-day/linkedin-post.md` |
-| Twitter | shaan-puri-storytelling | viral-social-content-engine.md | `.tmp/launch-day/twitter-thread.md` |
+| Twitter | shaan-puri-storytelling | shaan-story-deploy.md | `.tmp/launch-day/twitter-thread.md` |
 | Email | cardinal-mason-ai-copywriting | 04-authority-content-multiplication.md | `.tmp/launch-day/email.md` |
 | TikTok | seena-rez-tiktok-commerce | viral-video-production-engine.md | `.tmp/launch-day/tiktok-script.md` |
 | Blog | nicolas-cole-sentence-craft | atomic-compression-density-audit.md | `.tmp/launch-day/blog-article.md` |

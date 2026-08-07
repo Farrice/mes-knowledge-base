@@ -718,3 +718,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-02 18:34]` **finalize** | Angle Map Offer TERMS rebuild packet: primary FAT-A blocker, current HOLD, three-decision post-resol | general | jason-fladlien — composite:9.0 status:Keep
 - `[2026-08-02 19:05]` **finalize** | Approved local Angle Map TERMS patch: ordered readiness before payment, objective make-right, Ready- | general | jason-fladlien — composite:9.0 status:Keep
 - `[2026-08-02 19:06]` **finalize** | Approved local Angle Map TERMS patch: readiness before payment, objective make-right, Ready-to-Start | general | jason-fladlien — composite:9.0 status:Keep
+- `[2026-08-02 14:16]` **finalize** | Shaan Puri decision-first cross-domain storytelling deployment expansion | general | shaan-puri — composite:7.7 status:Keep
+- `[2026-08-02 16:48]` **finalize** | Six-domain Shaan storytelling reference corpus and blind replay regression system | general | shaan-puri — composite:7.0 status:Needs Improvement
+- `[2026-08-02 17:46]` **finalize** | Storytelling corpus AAR, operator user guide, and executable capability-handoff boundary | general | shaan-puri — composite:7.0 status:Needs Improvement

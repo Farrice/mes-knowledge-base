@@ -1817,7 +1817,7 @@ Every command on disk that isn't already described in a curated section above. A
 | `/seth-godin-ideavirus` **seth-godin-ideavirus** | 5 | `/ideavirus-content-ip-creation`, `/permission-monetization-roadmap`, `/remarkable-narrative-design`, … | `/arsenal --family seth-godin-ideavirus` |
 | `/seth-godin-marketing-mind` **seth-godin-marketing-mind** | 16 | `/gmind-client-portfolio`, `/gmind-criticism-protocol`, `/gmind-farrice-map`, … | `/arsenal --family seth-godin-marketing-mind` |
 | `/seth-godin-philosophy` **seth-godin-philosophy** | 3 | `/seth-godin-audience-truth-audit`, `/seth-godin-decision-quality-audit`, `/seth-godin-four-threads-strategy-compass` | `/arsenal --family seth-godin-philosophy` |
-| `/shaan-puri-storytelling` **shaan-puri-storytelling** | 4 | `/narrative-script-optimization-audit`, `/signature-story-bank`, `/story-driven-sales-conversion-funnel`, … | `/arsenal --family shaan-puri-storytelling` |
+| `/shaan-puri-storytelling` **shaan-puri-storytelling** | 7 | `/shaan-story-deploy`, `/narrative-script-optimization-audit`, `/signature-story-bank`, … | `/arsenal --family shaan-puri-storytelling` |
 | `/shan-hanif-audience-monetization` **shan-hanif-audience-monetization** | 1 | `/high-status-authority-engine` | `/arsenal --family shan-hanif-audience-monetization` |
 | — **sharran-srivatsaa-scaling** | 7 | `/10x-diagnostic`, `/artifacts-build`, `/constraint-audit`, … | `/arsenal --family sharran-srivatsaa-scaling` |
 | `/sherwin-wu-ai-engineering` **sherwin-wu-ai-engineering** | 3 | `/agentic-infrastructure-lifecycle`, `/ai-adoption-alignment-audit`, `/production-hardening-sentinel` | `/arsenal --family sherwin-wu-ai-engineering` |

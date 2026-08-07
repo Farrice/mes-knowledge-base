@@ -1,76 +1,95 @@
 # Source Ledger — shaan-puri-storytelling
 
-Claim-by-claim provenance for genius.md. Labels: **VERIFIED** (quote/fact opened
-and confirmed verbatim in the cited source by this repair pass), **LIKELY**
-(consistent with cited source but not independently confirmed against a
-primary record — e.g., interviewer identity), **UNCONFIRMED** (no source file
-located; flagged, not anchored, not presented as fact).
+Claim-by-claim provenance for the active skill. Use these labels:
 
-## Primary source
+- **QUOTE-VERIFIED:** The spoken wording and timestamp were checked against the canonical local transcript package.
+- **SOURCE-REPORTED:** A result or biographical claim is spoken or written by the source but was not independently verified.
+- **OPERATIONAL SYNTHESIS:** A practical instruction derived from one or more verified source mechanics.
+- **INTERNAL EVOLUTION:** A repository-developed extension, not attributed to Shaan.
+- **SYSTEM GOVERNANCE:** Truth, routing, and verification behavior supplied by Antigravity.
+- **UNCONFIRMED:** No adequate source was found; remove from active factual surfaces or label plainly.
 
-**"Shaan Puri: Masterclass in Storytelling (for beginners)"** — a Merlin-AI
-transcript of a YouTube interview (attachment: `https://www.youtube.com/watch?v=Z2BnqYArwaw`),
-uploaded 2025-09-15, captured in `claude-export/normalized/conversations/
-c1749a67-aa1d-4afb-b3f3-ae69b4b26145.md` inside `_archive/claude-export-2026-07-01.tar.gz`
-(332MB; no `extractions/` folder exists for this expert — confirmed by
-`ls extractions/ | grep -i "puri\|shaan"` returning nothing, then a
-per-member content scan of the archive tarball, which surfaced 12 conversation
-exports referencing this same transcript; this one carries the full raw
-timestamped transcript as an attachment, the others are downstream
-Claude-generated skill drafts). File size 158,270 bytes (`wc -c`), read in
-full for this repair.
+## Canonical native package
 
-- **VERIFIED** — Every timestamped quote added to genius.md in this repair
-  pass (Core Philosophy yin-yang line 37:19; Pattern 1 "altar of intention and
-  obstacle" 7:05, Harry Potter/Voldemort 7:38, croissant 8:37; Pattern 2
-  "five-second moment of change" 0:00; Pattern 3 Clubhouse jargon/homework
-  21:58–22:29 and the ~20M-reader figure; Pattern 4 "LOL, WTF, OMG" 0:04;
-  Pattern 5 "Jenny in her bedroom" / "Debbie at her desk" 43:05–43:59; Pattern
-  6 "low status game" 12:33 and the dinner-party failure 12:02; Pattern 7 Dave
-  Chappelle/Netflix "these two stories" 75:26–75:51; Pattern 8 "physiology
-  first, focus second, story third" 54:15 and the poker-player wind-sprints
-  52:05; all six Anti-Patterns items) was opened directly against this file
-  and matches verbatim, including the timestamp markers.
-- **VERIFIED** — The pre-existing "Patterns from claude.ai export" block
-  (genius.md, Patterns A–J, added 2026-07-01) was spot-checked against this
-  same transcript during this repair: "Binge Bank" (lines 79–137 of the
-  transcript), "it's the arbitrage" (line 1242), "physiology, focus, story"
-  order (line 1319), Tony Robbins bathtub/hard-chair anecdote (lines 965–995),
-  "I can't unhear that" (line 1310) — all confirmed present and accurate.
-  These were already correctly attributed before this repair; not re-anchored
-  here since they already carried inline citations that pass the auditor.
-- **LIKELY** — The interviewer is credited as David Perell (already stated in
-  genius.md line 172 pre-repair, and consistent with "David" being addressed
-  directly at several points in the transcript, e.g. lines 101 and 1300).
-  This repair did not independently verify the interviewer's identity against
-  an external record (no web fetch performed); treat as likely-correct
-  attribution inherited from the prior extraction pass, not newly confirmed.
+- **Public source:** `https://www.youtube.com/watch?v=GlTA4wXSACE`
+- **Title:** “How To Master Storytelling ft. David Perell”
+- **Uploader:** My First Million
+- **Upload date:** 2024-05-24
+- **Duration:** 1:50:41
+**Local package:** `extractions/video-context/GlTA4wXSACE/`
 
-## Secondary / supporting files (read, not quoted into genius.md)
+The source metadata states that the episode features Shaan Puri with David Perell and was originally recorded for Perell's How I Write podcast. Shaan is the teaching expert; David is the interviewer.
 
-- `agents/shaan-puri/AGENT.md` — **UNCONFIRMED** for the biographical claims
-  "sold the Milk Road newsletter for 8 figures" and "400K+ Twitter following."
-  Neither figure appears in the transcript source and no other file in this
-  repo corroborates them. Not carried into genius.md by this repair. If used
-  elsewhere in the skill, they should be labeled UNCONFIRMED or removed.
-- `research_outputs/ai_authority_architect_agents/shaan_puri.md` — a
-  Farrice-specific applied dossier (client stories, hooks), not a source of
-  Shaan Puri's own teaching. Its own grounding-verification addendum
-  (2026-06-02) already flags its "client quotes" as `[MODELED]`/unsourced.
-  Not used as source material for this repair.
-- `.agent/evolution-logs/2026-04-09-shaan-puri-storytelling-transformation-isomorphism.md`
-  — internal A/B benchmark that originally justified Pattern 9
-  (Transformation Isomorphism). Confirms Pattern 9 was added via a scored
-  evolution cycle, not fabricated; not a Shaan Puri primary source, so not
-  cited as one.
+Package evidence:
 
-## Method note
+- 3,211 timestamped transcript segments;
+- 24,480 clean transcript words;
+- 3,211 observed-spoken ledger rows;
+- automatic English captions without speaker labels;
+- 23 sampled frames and a contact sheet;
+- OCR unavailable;
+- source-package verifier passes.
 
-Per the wave envelope's source-search discipline: `extractions/` was checked
-first (no match on "puri" or "shaan" fragments), then the archive tarball was
-scanned per-member by content (not filename) using `python3 tarfile`, first
-broadly ("shaan|puri" — 103 hits, mostly false positives from words like
-"purity"), then narrowed to distinctive terms ("shaan puri", "milk road",
-"masterclass in storytelling" — 27 hits), then confirmed which of those hits
-contained the actual raw transcript versus downstream drafts. No claim of
-source absence is made anywhere in this ledger without that scan having run.
+This upload republishes the interview at `https://www.youtube.com/watch?v=Z2BnqYArwaw`, which supplied the earlier archive transcript used by the skill. The native package is now the canonical evidence surface because it preserves transcript, timestamps, metadata, frames, uncertainty, and ledger rows together.
+
+## Net-new source anchors from this package
+
+| Mechanic | Evidence | Class | System use |
+|---|---|---|---|
+| Story is a tool, not a requirement for every piece | 00:25:37–00:25:58 | QUOTE-VERIFIED | `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` decision before methodology loads |
+| Study outside the field at the exact function another field performs best | 01:44:41–01:44:55 | QUOTE-VERIFIED | Named weakness -> best field -> mechanism -> adaptation -> one test -> keep or reject |
+
+The first anchor supports one new repository behavior: narrative-dosage judgment. The second is implemented as a handoff to existing transfer systems, not a new general transfer workflow.
+
+## Existing Shaan-derived anchors
+
+| Skill mechanic | Timestamp | Evidence note |
+|---|---|---|
+| Story as a five-second moment of change | 00:00:00–00:00:04 | QUOTE-VERIFIED |
+| Intention and obstacle | 00:07:05–00:08:43 | QUOTE-VERIFIED, including the high- and low-stakes examples |
+| Low-status opening | 00:12:02–00:12:42 | QUOTE-VERIFIED; dinner failure and comedy lesson |
+| Audience buy-in, not a universal length rule | 00:16:36–00:16:55 | QUOTE-VERIFIED |
+| Frame before hook and “how it goes down” cadence | 00:21:14–00:22:29 | QUOTE-VERIFIED method; the roughly 20-million-reader result is SOURCE-REPORTED |
+| Vacation-romp warning | 00:26:22–00:26:38 | QUOTE-VERIFIED |
+| Yin-yang beginning and end | 00:37:19 | QUOTE-VERIFIED |
+| Jenny in her bedroom and Debbie at her desk | 00:43:05–00:43:59 | QUOTE-VERIFIED |
+| Physiology, focus, story | 00:51:24–00:54:18 | QUOTE-VERIFIED |
+| Nested-story persuasion, Chappelle and Netflix | 01:14:37–01:15:51 | Method is QUOTE-VERIFIED; described audience and Netflix outcomes are SOURCE-REPORTED |
+| Earned distribution and repeated interesting things | 01:18:18 onward | QUOTE-VERIFIED in transcript package |
+
+Patterns A–J in `genius.md` were previously checked against the historical transcript and remain consistent with the canonical native transcript.
+
+## Internal and governance layers
+
+- **Transformation Isomorphism:** INTERNAL EVOLUTION. It came from `.agent/evolution-logs/2026-04-09-shaan-puri-storytelling-transformation-isomorphism.md`, not from Shaan's interview.
+- **Factual Integrity Invariant:** SYSTEM GOVERNANCE. It prohibits invented dialogue, chronology, metrics, outcomes, motives, emotions, and sensory details as real; it also requires labels for analogies, composites, hypotheticals, and fiction.
+- **Story Deployment Router:** OPERATIONAL SYNTHESIS grounded in the story-as-tool boundary and existing Antigravity routing and verification contracts.
+- **Story Deployment Receipt and one-production-owner rule:** SYSTEM GOVERNANCE.
+
+## Constructed material
+
+The Hall of Fame examples in `genius.md` and the long example outputs in the historical source prompt are constructed teaching specimens. They are not Shaan stories, customer case studies, or business evidence. Active surfaces must label them and must never reuse their names, metrics, dialogue, chronology, or outcomes as real.
+
+## Removed or restricted claims
+
+- **UNCONFIRMED:** “sold the Milk Road newsletter for 8 figures.” No adequate source exists in the package or current repository evidence.
+- **UNCONFIRMED:** “built a 400K+ Twitter audience.” No adequate source exists in the package or current repository evidence.
+- **SOURCE-REPORTED, not independently verified:** the roughly 20-million-reader Clubhouse rewrite result.
+
+The unconfirmed 8-figure and 400K claims must not appear in active Role and Activation surfaces.
+
+## Historical provenance
+
+The earlier repair used a full timestamped transcript stored at:
+
+`claude-export/normalized/conversations/c1749a67-aa1d-4afb-b3f3-ae69b4b26145.md`
+
+inside `_archive/claude-export-2026-07-01.tar.gz`. That source remains a valid historical receipt but is no longer the only local source surface.
+
+## Evidence limits
+
+- Automatic captions do not identify speakers. Speaker attribution uses the interview context, metadata, and surrounding dialogue.
+- Sampled frames contain no separate instructional method beyond the spoken interview.
+- OCR was unavailable.
+- A single interview cannot establish universal applicability, causality, market performance, or audience impact.
+- Detached fixtures can prove repository behavior and factual restraint, not creator results or commercial demand.
