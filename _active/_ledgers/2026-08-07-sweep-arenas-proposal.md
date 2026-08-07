@@ -174,3 +174,6 @@
 |---|---|---|---|---|
 | `prediction-market-arb` | 2026-07-28 (9d) | 7 | 31 | — |
 
+---
+
+**SUPERSEDED 2026-08-07.** This is the proposal, not what shipped. Farrice folded the eight client arenas into one `clients/` (66 folders -> 10 arenas, not 18) and archived the cold folders. What actually ran is `.agent/organization/sweep-plan-2026-08-07.json`; what the tree looks like now is each arena's generated `START-HERE.md`.

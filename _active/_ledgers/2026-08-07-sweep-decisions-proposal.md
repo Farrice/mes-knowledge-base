@@ -97,3 +97,6 @@ These contain their own `_active/` tree. Rewriting inside them edits what the sn
 
 Byte-identical duplicates are decided by `diff` and never reach you. Non-identical ones are listed per project in that project's `START-HERE.md` under **Competing versions** — I will surface the specific pairs for whichever projects you keep, once the arenas are settled.
 
+---
+
+**SUPERSEDED 2026-08-07.** This is the proposal, not what shipped. Farrice folded the eight client arenas into one `clients/` (66 folders -> 10 arenas, not 18) and archived the cold folders. What actually ran is `.agent/organization/sweep-plan-2026-08-07.json`; what the tree looks like now is each arena's generated `START-HERE.md`.
