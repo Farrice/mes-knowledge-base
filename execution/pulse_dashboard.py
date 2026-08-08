@@ -264,6 +264,47 @@ def fresh_intel():
             f'<a class="roomlink" href="{esc(_P(room).as_uri())}">open the briefing room ↗</a></section>')
 
 
+def mission_intel():
+    """Newest mission briefs — link row only (respects two-surfaces ruling).
+    Draws 3 newest mission briefs from deliverables/research-briefs/."""
+    try:
+        from pathlib import Path as _P
+        briefs_dir = _P(ROOT) / "deliverables" / "research-briefs"
+        mission_dirs = sorted(
+            [d for d in briefs_dir.iterdir() if d.is_dir() and d.name.startswith("mission-")],
+            key=lambda d: d.stat().st_mtime,
+            reverse=True
+        )[:3]
+    except Exception:
+        return ""
+
+    rows = []
+    for md in mission_dirs:
+        try:
+            slug = md.name  # e.g., "mission-extract-forge"
+            brief_json = md / f"{slug}-brief.json"
+            if not brief_json.exists():
+                continue
+            brief = json.load(open(brief_json, encoding="utf-8"))
+            title = brief.get("title", md.name)[:80]
+            html_path = md / f"{slug}-brief.html"
+            rows.append(
+                f'<a class="intel" href="{esc(html_path.as_uri())}">'
+                f'<span class="ik">🎯 MISSION</span>'
+                f'<span class="it">{esc(str(title).replace("*", ""))}</span>'
+                f'<span class="m">{esc(brief.get("compiled", ""))}</span></a>')
+        except Exception:
+            pass
+
+    if not rows:
+        return ""
+
+    board = _P(ROOT) / "deliverables" / "research-briefs" / "mission-board" / "mission-board-brief.html"
+    return (f'<section><h2 class="tog">Mission briefs</h2>'
+            f'<div class="intelgrid f">{"".join(rows)}</div>'
+            f'<a class="roomlink" href="{esc(board.as_uri())}">mission board ↗</a></section>')
+
+
 def main():
     if "--open" in sys.argv:
         raise SystemExit(cmd_open(alarm="--alarm" in sys.argv))
@@ -464,6 +505,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 </div>
 <section><h2 class="tog">⚑ Needs you — top {len(needs_you)}</h2><div class="body">{cards(needs_you, show_actions=True)}</div></section>
 {fresh_intel()}
+{mission_intel()}
 <div class="chips">{chips}</div>
 <section><h2 class="tog">Missions — live ({len(active)})</h2><div class="body f">{cards(active, show_actions=True)}</div></section>
 <section class="closed"><h2 class="tog">Recently closed</h2><div class="body f">{cards(recent_done, show_verdict=True, show_reopen=True)}</div></section>

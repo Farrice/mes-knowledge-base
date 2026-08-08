@@ -35,7 +35,7 @@ PAGE_SIZE = 10
 # (archive <slug>). ARCHIVED IS NEVER GONE: files, md mirrors, and context
 # packs stay exactly where they are — still openable, referenceable, and
 # agent-feedable; the shelf filter is presentation only. Nothing is deleted.
-AUTO_ARCHIVE_DAYS = {"zeitgeist": 30, "angles": 30}
+AUTO_ARCHIVE_DAYS = {"zeitgeist": 30, "angles": 30, "mission": 14}
 STALE_DAYS = 30  # active non-periodical briefs older than this get flagged, never moved
 
 

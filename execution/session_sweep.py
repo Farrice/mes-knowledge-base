@@ -11,12 +11,19 @@ the finalize ledger, session ledgers, the asset manifest, missions, git — and
 nowhere assembled. "What is the state of this thread" required hunting. This is
 the assembler; mission_brief.py is the surface.
 
-THE PROMOTION BAR IS THE POINT. A thread earns a card only if the window shows a
-finalized deliverable, a real file written outside the control plane, a generated
-asset, an open mission, or an active handoff. Read-only sessions and config
-fiddling mint nothing. The bar is mechanical on purpose: a judgment call here
-would drift, and a surface that files everything is the slop library this was
-built to avoid.
+THE PROMOTION BAR IS THE POINT, and it turns on one distinction:
+
+  DECLARING evidence mints a thread — a live handoff, an open mission, or a
+  finalized deliverable. Someone named this work, or it shipped.
+
+  ACTIVITY evidence only enriches one — files written, assets generated,
+  commits landed. These say "work happened", never "a mission exists".
+
+Letting activity mint cards is exactly how this becomes a slop library: the first
+run promoted 254 of 467 keys, because every generated image and every write into
+a shared output folder claimed to be its own mission. Read-only sessions, config
+fiddling and asset dumps now mint nothing. The bar is mechanical on purpose — a
+judgment call here would drift session to session.
 
 FACTS ONLY. Every field this writes is copied from a source of record. Nothing is
 inferred beyond counting and date arithmetic. The meaning layer is authored
@@ -59,7 +66,8 @@ GUIDES = ROOT / "guides"
 SOLUTIONS = ROOT / "docs" / "solutions"
 
 DEFAULT_DAYS = 14
-MAX_DAYS = 120  # a longer window reads history, not "recent" — cap it honestly
+MAX_DAYS = 120   # a longer window reads history, not "recent" — cap it honestly
+MAX_CARDS = 12   # front-door ceiling; the overflow is named, never silently dropped
 
 # Shared with session_ledger_hook.py: a write matching this is control plane, not
 # a deliverable. Kept in sync deliberately — the promotion bar and the ledger's
@@ -163,18 +171,64 @@ class Registry:
         self.canon[key] = key
         return key
 
+    def match_title(self, text, min_tokens=2):
+        """Best declared thread for a free-text session title.
+
+        Session titles are prose ("Edit Bay Video Studio — Build + Taste Layer"),
+        so slug containment never fires against `video-studio-edit-bay`. Token
+        overlap does. Requires >=2 shared tokens of >=4 chars: one shared word
+        ("build", "brand") matches half the repo and would cross-file work into
+        the wrong thread, which is worse than leaving it unattributed.
+        """
+        toks = {w for w in re.split(r"[^a-z0-9]+", (text or "").lower()) if len(w) >= 4}
+        if len(toks) < min_tokens:
+            return ""
+        best, best_n = "", 0
+        for n in self.named:
+            shared = len(toks & {w for w in n.split("-") if len(w) >= 4})
+            if shared > best_n:
+                best, best_n = n, shared
+        return best if best_n >= min_tokens else ""
+
+
+# Numbered buckets inside an initiative (directives/artifact-placement.md). These
+# are FILING SLOTS, never thread identity — "05-assets" as a card title was the
+# first thing the bar got wrong.
+BUCKET_RE = re.compile(r"^(\d{2}-|_|99-archive$|archive$)")
+BUCKET_NAMES = {"00-start-here", "01-source", "02-research", "03-working-drafts",
+                "04-deliverables", "05-assets", "06-system", "90-exports",
+                "99-archive", "_archive", "archive", "visuals", "assets"}
+
+# Shared output surfaces — many threads write here, so the directory name is a
+# destination, not a thread. Attributing to these merged unrelated work.
+NON_THREAD_DIRS = {"research-briefs", "generations", "images", "designs",
+                   "carousel-images", "video-enhancement", "exports", "tmp"}
+
 
 def thread_from_path(rel):
-    """_active/<arena>/<initiative>/... and deliverables/<name>/... are the two
-    placement shapes that name their own thread (directives/artifact-placement.md)."""
-    parts = Path(str(rel)).parts
+    """The INITIATIVE that owns a path — the unit front_door.py indexes.
+
+    Shape is `_active/<arena>/<initiative>/<NN-bucket>/…`, but arena-less
+    initiatives (`_active/<initiative>/<NN-bucket>/`) are equally common, so the
+    initiative is found as "the component before the first numbered bucket"
+    rather than by fixed depth.
+    """
+    parts = [p for p in Path(str(rel)).parts if p not in (".", "/")]
     if not parts:
         return ""
-    if parts[0] == "_active" and len(parts) >= 3:
-        return slugify(parts[2])
-    if parts[0] in ("deliverables", "projects", "extractions") and len(parts) >= 2:
-        return slugify(parts[1])
-    if parts[0] == "skills" and len(parts) >= 2:
+    if parts[0] == "_active":
+        rest = parts[1:]
+        for i, p in enumerate(rest):
+            if p.lower() in BUCKET_NAMES or BUCKET_RE.match(p.lower()):
+                return slugify(rest[i - 1]) if i >= 1 else ""
+        # No bucket in the path: <arena>/<initiative>/file → initiative.
+        if len(rest) >= 3:
+            return slugify(rest[1])
+        return slugify(rest[0]) if len(rest) >= 2 else ""
+    if parts[0] in ("deliverables", "projects", "extractions", "skills") and len(parts) >= 2:
+        name = parts[1].lower()
+        if name in NON_THREAD_DIRS or name in BUCKET_NAMES:
+            return ""
         return slugify(parts[1])
     return ""
 
@@ -285,10 +339,24 @@ def collect_ledgers(since):
             continue
         paths = [p for p in (data.get("produced_paths") or [])
                  if p and not INTERNAL_WRITE.search(str(p))]
+        # Prefer the FILE's own mtime over the ledger's: a ledger stamp is when
+        # the session last wrote anything, which stacks a week of work onto one
+        # day and makes the momentum chart lie. Fall back only if the file moved.
+        produced = []
+        for p in paths:
+            when = datetime.fromtimestamp(st.st_mtime)
+            try:
+                fp = Path(p)
+                if not fp.is_absolute():
+                    fp = ROOT / p
+                when = datetime.fromtimestamp(fp.stat().st_mtime)
+            except OSError:
+                pass
+            produced.append({"path": repo_rel(p), "ts": iso(when)})
         out.append({
             "session_id": data.get("session_id") or f.stem.replace("ledger-", ""),
             "ts": iso(datetime.fromtimestamp(st.st_mtime)),
-            "produced": [repo_rel(p) for p in paths],
+            "produced": produced,
             "spawns": data.get("subagent_spawns") or 0,
             "finalized": bool(data.get("finalized_at")),
             "pinned": bool(data.get("session_pinned")),
@@ -370,11 +438,18 @@ def collect_missions():
 
 
 def collect_threads():
-    """handoff_store.threads() — the thread IS already the unit there."""
+    """handoff_store.threads() — the thread IS already the unit there.
+
+    `include_done=False`: a closed thread is history, and history belongs in the
+    archive shelf, not on the front door.
+    """
     sys.path.insert(0, str(ROOT / "execution"))
     import handoff_store  # noqa: E402
     out = []
-    for m in handoff_store.threads(include_done=True):
+    for m in handoff_store.threads(include_done=False):
+        ts = parse_ts(m.get("date"))
+        mt = m.get("mtime")
+        touched = max(filter(None, [ts, parse_ts(mt) if mt else None]), default=None)
         out.append({
             "slug": slugify(m.get("thread")),
             "thread": m.get("thread") or "",
@@ -384,6 +459,7 @@ def collect_threads():
             "unfinished": m.get("unfinished") or "",
             "branch": m.get("branch") or "",
             "date": m.get("date") or "",
+            "touched": iso(touched) if touched else "",
             "pin": bool(m.get("pin")),
             "path": repo_rel(m.get("path")) if m.get("path") else "",
         })
@@ -456,7 +532,7 @@ def blank_thread(key):
         "sessions": [], "deliverables": [], "artifacts": [], "assets": [],
         "commits": [], "missions": [], "guides": [], "solutions": [],
         "outcomes": [], "harnesses": [],
-        "promoted": False, "promotion_reasons": [],
+        "promoted": False, "declares": [], "activity": [],
     }
 
 
@@ -524,9 +600,15 @@ def sweep(days=DEFAULT_DAYS, since=None):
             "title": h["title"] or h["thread"], "status": h["status"],
             "resume_hint": h["resume_hint"], "unfinished": h["unfinished"],
             "branch": h["branch"], "handoff": h["path"], "pin": h["pin"],
+            "touched": h["touched"],
         })
-        if h["status"] in LIVE_STATUS:
-            t["promotion_reasons"].append(f"handoff status: {h['status']}")
+        # A handoff DECLARES a live thread only if it was touched inside the
+        # window (or is explicitly pinned). 306 handoff files exist; a "ready"
+        # one from two months ago is a memory, not a mission, and treating it as
+        # live is what put 150+ dormant threads on the front door.
+        touched = parse_ts(h["touched"])
+        if h["status"] in LIVE_STATUS and (h["pin"] or (touched and touched >= since)):
+            t["declares"].append(f"handoff status: {h['status']}")
 
     missions = source("missions", collect_missions)
     for m in missions:
@@ -538,31 +620,44 @@ def sweep(days=DEFAULT_DAYS, since=None):
         if not t["title"]:
             t["title"] = m["title"]
         if m["open"]:
-            t["promotion_reasons"].append("open mission")
+            t["declares"].append("open mission")
 
     # 2. Windowed evidence.
     for d in source("deliverables", lambda: collect_deliverables(since)):
-        key = d["project"] or d["workflow"] or d["skill"] or d["expert"]
-        t = get(key)
+        # `project` is a real thread name. `workflow`/`skill` are ROUTES — "go",
+        # "resume", "deep-research" are how the work was made, not what it was
+        # for. A route-only deliverable declares a thread only when that thread
+        # already exists; otherwise it attaches as shipped work and surfaces in
+        # the mission board's "also shipped" list, never as its own card.
+        raw = d["project"] or d["workflow"] or d["skill"] or d["expert"]
+        key = reg.resolve(raw)
+        t = get(raw)
         t["deliverables"].append(d)
-        t["promotion_reasons"].append("finalized deliverable")
+        if d["project"] or key in reg.named:
+            t["declares"].append("finalized deliverable")
+        else:
+            t["activity"].append("shipped via route")
         if d["platform"] not in t["harnesses"]:
             t["harnesses"].append(d["platform"])
 
     ledgers = source("ledgers", lambda: collect_ledgers(since))
+    seen_art = set()
     for lg in ledgers:
-        for p in lg["produced"]:
-            t = get(thread_from_path(p))
-            if p not in t["artifacts"]:
-                t["artifacts"].append(p)
-            t["promotion_reasons"].append("artifact written")
+        for art in lg["produced"]:
+            path = art["path"]
+            t = get(thread_from_path(path))
+            if (t["slug"], path) in seen_art:
+                continue
+            seen_art.add((t["slug"], path))
+            t["artifacts"].append(art)
+            t["activity"].append("artifact written")
             if not t["arena"]:
-                t["arena"] = arena_from_path(p)
+                t["arena"] = arena_from_path(path)
 
     for a in source("assets", lambda: collect_assets(since)):
         t = get(a["project"] or thread_from_path(a["path"]))
         t["assets"].append(a)
-        t["promotion_reasons"].append("asset generated")
+        t["activity"].append("asset generated")
 
     for c in source("commits", lambda: collect_commits(since)):
         keys = {thread_from_path(f) for f in c["files"]}
@@ -576,7 +671,9 @@ def sweep(days=DEFAULT_DAYS, since=None):
     for s in sessions:
         if s["sidechain"]:
             continue  # subagent transcripts are not sessions of their own
-        key = thread_from_branch(s["branch"]) or (slugify(s["title"])[:60] if s["titled"] else "")
+        key = (thread_from_branch(s["branch"])
+               or reg.match_title(s["title"])
+               or (slugify(s["title"])[:60] if s["titled"] else ""))
         t = get(key)
         t["sessions"].append(s)
         if s["harness"] not in t["harnesses"]:
@@ -605,15 +702,21 @@ def sweep(days=DEFAULT_DAYS, since=None):
 
     # 3. The promotion bar. Mechanical — no judgment, no drift.
     for key, t in threads.items():
-        t["promotion_reasons"] = sorted(set(t["promotion_reasons"]))
-        t["promoted"] = bool(t["promotion_reasons"]) and key != "unattributed"
+        t["declares"] = sorted(set(t["declares"]))
+        t["activity"] = sorted(set(t["activity"]))
+        t["promotion_reasons"] = t["declares"] + t["activity"]
+        # THE BAR: a thread exists because it was DECLARED (handoff / open
+        # mission) or because it SHIPPED (finalize record). Files, assets and
+        # commits are evidence of activity ON a thread — they enrich a card,
+        # they never mint one. Without this split, every generated image and
+        # every write into a shared output folder became its own "mission"
+        # (254 of 467 keys promoted on the first run).
+        t["promoted"] = bool(t["declares"]) and key != "unattributed"
         t["stage"] = infer_stage(t)
         t["stage_index"] = STAGES.index(t["stage"])
         t["daily"] = {
             "sessions": daily_counts(t["sessions"], since, days),
-            "artifacts": daily_counts(
-                [{"ts": lg["ts"]} for lg in ledgers for _ in lg["produced"]
-                 if any(p in t["artifacts"] for p in lg["produced"])], since, days),
+            "artifacts": daily_counts(t["artifacts"], since, days),
             "assets": daily_counts(t["assets"], since, days),
         }
         stamps = [x.get("ts") or x.get("date") for x in
@@ -624,9 +727,37 @@ def sweep(days=DEFAULT_DAYS, since=None):
         if not t["title"]:
             t["title"] = key.replace("-", " ")
         if not t["arena"] and t["artifacts"]:
-            t["arena"] = arena_from_path(t["artifacts"][0])
+            t["arena"] = arena_from_path(t["artifacts"][0]["path"])
 
     promoted = {k: v for k, v in threads.items() if v["promoted"]}
+
+    # Final backstop. The bar above is principled, but upstream data can always
+    # surprise it, and a front door that quietly grows to 40 cards has failed
+    # whatever its reasoning was. Rank by substance, then recency, and keep the
+    # top MAX_CARDS. Everything cut is NAMED in `overflow` and printed — a
+    # silent cap reads as "that's everything", which is the lie that matters.
+    def substance(kv):
+        t = kv[1]
+        return (
+            len(t["deliverables"]) * 3 + len(t["missions"]) * 2 + t["pin"] * 2
+            + min(len(t["artifacts"]), 5) + min(len(t["assets"]), 3),
+            t["last_active"],
+        )
+
+    ranked = sorted(promoted.items(), key=substance, reverse=True)
+    overflow = [k for k, _ in ranked[MAX_CARDS:]]
+    promoted = dict(ranked[:MAX_CARDS])
+
+    # Shipped work that never earned a card still has to be visible somewhere.
+    also_shipped = []
+    for k, t in threads.items():
+        if k in promoted or not t["deliverables"]:
+            continue
+        for d in t["deliverables"]:
+            also_shipped.append({"thread": k, "date": d["date"], "output": d["output"][:160],
+                                 "workflow": d["workflow"], "type": d["type"]})
+    also_shipped.sort(key=lambda x: x["date"], reverse=True)
+
     bundle = {
         "generated": iso(datetime.now()),
         "window": {"since": iso(since), "until": iso(datetime.now()), "days": days},
@@ -640,8 +771,12 @@ def sweep(days=DEFAULT_DAYS, since=None):
             "assets": sum(len(t["assets"]) for t in threads.values()),
         },
         "threads": promoted,
+        "also_shipped": also_shipped[:40],
+        "overflow": overflow,
         "filtered_out": sorted(k for k, v in threads.items() if not v["promoted"]),
     }
+    bundle["counts"]["threads_promoted"] = len(promoted)
+    bundle["counts"]["overflow"] = len(overflow)
     return bundle
 
 
@@ -673,6 +808,12 @@ def cmd_run(args):
     for key, t in sorted(bundle["threads"].items(),
                          key=lambda kv: kv[1]["last_active"], reverse=True):
         print(f"  · {key:38} {t['stage']:8} {', '.join(t['promotion_reasons'])[:70]}")
+    if bundle["overflow"]:
+        print(f"[session_sweep] over the {MAX_CARDS}-card ceiling ({len(bundle['overflow'])}), "
+              f"not carded: {', '.join(bundle['overflow'][:10])}")
+    if bundle["also_shipped"]:
+        print(f"[session_sweep] shipped without a live thread: {len(bundle['also_shipped'])} "
+              f"(surfaces on the mission board)")
     if bundle["filtered_out"]:
         print(f"[session_sweep] below the bar ({len(bundle['filtered_out'])}): "
               f"{', '.join(bundle['filtered_out'][:8])}")

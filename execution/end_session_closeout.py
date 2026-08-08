@@ -734,6 +734,58 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_mission_briefs(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """Build mission briefs from the latest sweep bundle.
+
+    Reads .agent/sweep/latest.json (or most recent sweep-<date>.json) and
+    generates living briefs for each promoted thread in deliverables/research-briefs/mission-<slug>/.
+    Updates briefs in place so sessions append to the timeline section.
+
+    Skipped if sweep unavailable or degraded mode.
+    """
+    if degraded:
+        return "SKIP", "degraded mode — sweep infrastructure unavailable"
+
+    try:
+        # Check if sweep bundle exists
+        sweep_dir = ROOT / ".agent" / "sweep"
+        if not sweep_dir.exists():
+            return "SKIP", "no sweep data — run session_sweep.py first"
+
+        if dry_run:
+            # Count what would be built
+            briefs_dir = ROOT / "deliverables" / "research-briefs"
+            count = 0
+            if briefs_dir.exists():
+                count = len([d for d in briefs_dir.iterdir() if d.is_dir() and d.name.startswith("mission-")])
+            return "OK", f"[dry-run] would build ~{count} mission briefs"
+
+        # Run mission_brief.py build --all
+        import subprocess
+        r = subprocess.run(
+            [sys.executable, str(EXEC / "mission_brief.py"), "build", "--all"],
+            capture_output=True, text=True, timeout=120, cwd=str(ROOT),
+        )
+        if r.returncode != 0:
+            return "SKIP", f"mission-brief failed: check sweep data"
+
+        # Count briefs
+        briefs_dir = ROOT / "deliverables" / "research-briefs"
+        count = len([d for d in briefs_dir.iterdir() if d.is_dir() and d.name.startswith("mission-")])
+        if count == 0:
+            return "SKIP", "no promoted threads"
+
+        # Also build mission-board
+        subprocess.run(
+            [sys.executable, str(EXEC / "mission_brief.py"), "build-board"],
+            capture_output=True, text=True, timeout=30, cwd=str(ROOT),
+        )
+
+        return "OK", f"mission briefs: {count} threads + mission-board"
+    except Exception as e:
+        return "SKIP", f"mission-brief error: {e}"
+
+
 def step_menu_parity(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
     """Make everything this session built actually fireable (Arsenal Loop,
     2026-07-25).
@@ -930,6 +982,7 @@ def run(slug: str, degraded: bool, dry_run: bool,
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),
+        ("mission-briefs", lambda: step_mission_briefs(ctx, degraded, dry_run)),
         ("artifact-sweep", lambda: (
             ("SKIP", "Codex organization is manifest-scoped in codex_end_session.py")
             if codex_owned else step_artifact_sweep(ctx, degraded, dry_run)

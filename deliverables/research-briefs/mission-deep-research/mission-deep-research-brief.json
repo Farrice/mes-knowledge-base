@@ -1,0 +1,126 @@
+{
+  "slug": "mission-deep-research",
+  "chip": "MISSION · THREAD",
+  "title": "Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to cultur",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Covers brand identity punch, reach and remarkability, positioning, ambassador language, offer architecture, cultural safety, and lawyer questions. File: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md"
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "10",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Covers brand identity punch, reach and remarkability, positioning, ambassador language, offer architecture, cultural safety, and lawyer questions. File: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md",
+          "command": "python3 execution/handoff_store.py resume deep-research",
+          "touches": [
+            ".agent/handoffs/2026-07-03-deep-research.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Close the mission",
+          "intent": "Mark it done or park it with a reason.",
+          "command": "python3 execution/pulse_actions.py done deep-research --outcome \"<one line>\"",
+          "receipt": "It leaves the open set on the next pulse regen."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-06",
+          "title": "Finalized · deep-research",
+          "body": "Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vig CLV methodology, Platt-scaling calibration fix w/ Bath rec",
+          "done": true
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Finalized · deep-research",
+          "body": "Graph-engineering vetted deep research: 41-source hype audit (term=joke coinage w/ fabricated Anthropic attribution, predates Opus 5), substance benchmarks (graphs=compression not accuracy), 4-bucket harness verdict tabl",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-07-03-deep-research.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

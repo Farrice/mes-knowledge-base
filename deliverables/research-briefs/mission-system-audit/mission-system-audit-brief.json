@@ -1,0 +1,162 @@
+{
+  "slug": "mission-system-audit",
+  "chip": "MISSION · THREAD",
+  "title": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the st",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "claude · codex",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 9 deliverables finalized.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "9",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "11",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
+          "command": "python3 execution/handoff_store.py resume system-audit",
+          "touches": [
+            ".agent/handoffs/2026-07-02-system-audit.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-04",
+          "title": "Finalized · system-audit",
+          "body": "Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair",
+          "done": true
+        },
+        {
+          "date": "2026-08-04",
+          "title": "Finalized · system-audit",
+          "body": "Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptive depth and capture ",
+          "done": true
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Finalized · system-audit",
+          "body": "Model-Dialect Adaptation Layer: bound injector (dialect-card-keyed, exemplar-calibrated) + 5 dead-channel detectors in self_heal + full-asset wiring ratchet; 3 verifier suites, 12 sabotage controls; merged two concurrent",
+          "done": true
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Finalized · system-audit",
+          "body": "Unhobble mission: vetted the '80% deleted' video against Anthropic primary source (claim-vet table, six-shifts solution card), applied CLAUDE.md diet 3672→1601w with council-mandated scar restoration, fixed GEMINI.md sta",
+          "done": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Finalized · system-audit",
+          "body": "Compass doctrine: audited the enforcement layer, disarmed the live routing prompt-blocker and the 3-gate scheduled escalation ladder, converted chain_runner quality latches to nudges",
+          "done": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Finalized · system-audit",
+          "body": "Compass doctrine v2: silent earned-8 score cap waived under COMPASS_MODE so the visible nudge is the only consequence",
+          "done": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Finalized · system-audit",
+          "body": "Compass doctrine v3: anti-cluster cap no longer treats an unrun prose check as dirty prose",
+          "done": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Finalized · system-audit",
+          "body": "REGRESSION TEST - factual veto probe, ignore this row",
+          "done": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Finalized · system-audit",
+          "body": "Compass sweep round 2: softened 27 cage-language lines across 20 directives, audited the Codex hook surface, fixed the Codex git guard blocking all pushes",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-07-02-system-audit.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

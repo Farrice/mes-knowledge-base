@@ -1,0 +1,338 @@
+{
+  "slug": "mission-board",
+  "chip": "MISSION BOARD · ALL THREADS",
+  "title": "the *board*",
+  "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
+  "window": "last 14 days",
+  "lens": "claude · codex",
+  "sources": "131 sessions swept",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the state of *play*",
+      "kicker": "ALL LIVE THREADS",
+      "body": "12 threads are live. 72 deliverables were finalized and 247 assets generated in the last 14 days, across 131 sessions on both harnesses.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+    },
+    {
+      "kind": "stats",
+      "heading": "across every thread",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "12",
+          "label": "LIVE THREADS"
+        },
+        {
+          "value": "72",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "217",
+          "label": "FILES WRITTEN"
+        },
+        {
+          "value": "247",
+          "label": "ASSETS GENERATED"
+        },
+        {
+          "value": "131",
+          "label": "SESSIONS SWEPT"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "value": "4",
+          "note": "per day"
+        },
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            6,
+            10
+          ],
+          "value": "20",
+          "note": "per day"
+        },
+        {
+          "label": "assets",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            6
+          ],
+          "value": "9",
+          "note": "per day"
+        }
+      ],
+      "caption": "every live thread combined, last 14 days"
+    },
+    {
+      "kind": "bars",
+      "heading": "where the work *went*",
+      "caption": "weighted: deliverables ×3 + files + assets",
+      "series": [
+        {
+          "label": "linkedin launch",
+          "values": [
+            25
+          ]
+        },
+        {
+          "label": "video studio edit bay",
+          "values": [
+            52
+          ]
+        },
+        {
+          "label": "teardown 1 fresh",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "extract forge",
+          "values": [
+            39
+          ]
+        },
+        {
+          "label": "deep research",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "angle map listening engine v4 1",
+          "values": [
+            9
+          ]
+        },
+        {
+          "label": "01 listing content",
+          "values": [
+            9
+          ]
+        },
+        {
+          "label": "system audit",
+          "values": [
+            27
+          ]
+        },
+        {
+          "label": "go",
+          "values": [
+            12
+          ]
+        },
+        {
+          "label": "writers room",
+          "values": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "every live *thread*",
+      "tag": "OPEN ONE",
+      "links": [
+        {
+          "k": "ACTIVE",
+          "title": "linkedin launch",
+          "path": "deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "video studio edit bay",
+          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "teardown 1 fresh",
+          "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "extract forge",
+          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "deep research",
+          "path": "deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "angle map listening engine v4 1",
+          "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "01 listing content",
+          "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "system audit",
+          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "go",
+          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "listing hook set v2",
+          "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "proof to market",
+          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "also shipped",
+      "tag": "NO LIVE THREAD",
+      "items": [
+        {
+          "date": "2026-08-06",
+          "title": "one-liner",
+          "body": "Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioni",
+          "done": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "briefs",
+          "body": "Readout OS: research-brief system re-skinned to Farrice Cain Premium Minimal (Ink+Steel Blue report dialect), enriched with playbook/assets/timeline/flow/stats/",
+          "done": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "god-agent-delta",
+          "body": "Event ingestion layer: event_listener.py (watch-folder live, gmail/calendar dormant pending gws re-auth) + launchd 30-min poll + latency-class seating rule. Har",
+          "done": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "god-agent-delta",
+          "body": "God Agent delta moves 2-4 shipped (harness evals weekly card, verdict-to-diff compiler weekly card, notify channel) + offer red-team artifact with SEQUENCE verd",
+          "done": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "oracle-board",
+          "body": "Oracle Board v2: live clickable cockpit extending the pulse localhost pattern — 3 new allow-listed actions w/ CLI twins, system-activity strip, ROI splits, dril",
+          "done": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "extract-and-build",
+          "body": "Edit Bay video studio: Bonanno pipeline watched (54 frames) + MES 3.0 extraction; built transcribe_local.py (WhisperX), edit_bay.py (7 subcommands), video_qa.py",
+          "done": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "worktree-lanes",
+          "body": "Parallel Session Lanes OS (golden rule automated: shim+bootstrap+parity+auto-merge) + retirement of all 17 legacy worktrees with ~2,900 files of stranded work r",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "zeitgeist",
+          "body": "Ambient zeitgeist engine: /zeitgeist daily (launchd live), pulse sub-budget wired after never being used, reddit 400 root-caused+fixed, ambient live-data ground",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "briefs",
+          "body": "Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apify actors schema-verified live, $5/run cap) + Monid wired on ",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "01-extract-virtuoso-mastery",
+          "body": "Eddy Ballesteros Monid research-brief extraction: MES 3.0 W01 report + frame-cited brief-anatomy teardown + monid-facts capture (37 frames watched, 10 patterns,",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "01-extract-virtuoso-mastery",
+          "body": "Gauntlet-loop mechanism card + integration verdict: watched BNjzXcEXmg4 (transcript + 7 cue frames), decoded 5 load-bearing mechanics of Shumer's gauntlet-loop,",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "01-extract-virtuoso-mastery",
+          "body": "Gauntlet-loop mechanism card + integration verdict (rescore: prior run mis-passed Step-1 sharpness 5 as intent-alignment): card at knowledge/synthesis/gauntlet-",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this board *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, health performance geo daily brief, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content.\n\n227 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+    }
+  ]
+}

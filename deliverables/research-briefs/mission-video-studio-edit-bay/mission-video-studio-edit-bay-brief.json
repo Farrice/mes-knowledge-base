@@ -1,0 +1,340 @@
+{
+  "slug": "mission-video-studio-edit-bay",
+  "chip": "MISSION · SKILLS",
+  "title": "Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield *retired)*",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "1 sessions · 6 files · 46 assets",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 6 files written, 46 assets generated.\n\nHandoff status is ready. Last activity today.\n\nNext: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record"
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "6",
+          "label": "FILES WRITTEN"
+        },
+        {
+          "value": "46",
+          "label": "ASSETS GENERATED"
+        },
+        {
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "claude"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
+        },
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          "value": "6",
+          "unit": "files",
+          "note": "per day"
+        },
+        {
+          "label": "assets",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          "value": "6",
+          "unit": "made",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "current",
+          "note": "files are moving; nothing finalized"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Finish what's open",
+          "why": "P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive"
+        }
+      ]
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "insp_038.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_010.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_004.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_005.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_005.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_005.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_011.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_011.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_011.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_039.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_039.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_039.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_007.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_007.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_007.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_013.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_013.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_013.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_012.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_012.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_012.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_006.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_006.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_006.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_002.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_002.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_002.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "insp_016.jpg",
+          "role": "IMAGE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_016.jpg",
+          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_016.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "SKILL.md",
+          "role": "FILE",
+          "path": "skills/video-studio/SKILL.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "REVIEW.md",
+          "role": "FILE",
+          "path": "skills/video-studio/REVIEW.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "produce-explainer.md",
+          "role": "FILE",
+          "path": "skills/video-studio/workflows/produce-explainer.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "graphics-taste.md",
+          "role": "FILE",
+          "path": "skills/video-studio/style/graphics-taste.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "package-release.md",
+          "role": "FILE",
+          "path": "skills/video-studio/workflows/package-release.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "derive-shorts.md",
+          "role": "FILE",
+          "path": "skills/video-studio/workflows/derive-shorts.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "2026-08-06-video-studio-edit-bay.md",
+          "role": "GUIDE",
+          "path": "guides/2026-08-06-video-studio-edit-bay.md"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record",
+          "command": "python3 execution/handoff_store.py resume video-studio-edit-bay",
+          "touches": [
+            ".agent/handoffs/2026-08-06-video-studio-edit-bay.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-06",
+          "title": "claude session · 17 msgs",
+          "body": "Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-06-video-studio-edit-bay.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+=== session-sweep run @ Fri Aug  7 20:54:12 PDT 2026 ===
+BLOCKED: fresh lock held by another session — mission 'mission-sweep-build' (heartbeat 724s ago). One driver per tree; wait or coordinate with Farrice.
+[Fri Aug  7 20:54:12 PDT 2026] lock blocked — skipping
+[Fri Aug  7 20:54:12 PDT 2026] lock blocked — skipping
+++ date
++ echo '=== session-sweep run @ Fri Aug  7 20:56:36 PDT 2026 ==='
+=== session-sweep run @ Fri Aug  7 20:56:36 PDT 2026 ===
++ python3 '/Users/farricecain/Google Antigravity/execution/session_lock.py' claim nightly-session-sweep
+BLOCKED: fresh lock held by another session — mission 'nightly-session-sweep' (heartbeat 44s ago). One driver per tree; wait or coordinate with Farrice.
+++ date
++ echo '[Fri Aug  7 20:56:36 PDT 2026] lock blocked — skipping'
+[Fri Aug  7 20:56:36 PDT 2026] lock blocked — skipping
+++ date
++ echo '[Fri Aug  7 20:56:36 PDT 2026] lock blocked — skipping'
+[Fri Aug  7 20:56:36 PDT 2026] lock blocked — skipping
++ exit 0

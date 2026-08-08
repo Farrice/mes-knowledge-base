@@ -1,0 +1,144 @@
+{
+  "slug": "mission-go",
+  "chip": "MISSION · THREAD",
+  "title": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume en",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 deliverables finalized.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card"
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "4",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "10",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Decide: resume or park",
+          "why": "No recorded activity in 7 days while the handoff is still active."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
+          "command": "python3 execution/handoff_store.py resume go",
+          "touches": [
+            ".agent/handoffs/2026-07-28-go.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-07-31",
+          "title": "Finalized · go",
+          "body": "Angle Map Listening Engine v4: fused geo-brief + insight-brief into one scheduled daily listening engine — AUTOMATION_PROMPT v4.0 (Angle Map center, daily core + rotating deep focus, Apify-first tool ladder, compounding ",
+          "done": true
+        },
+        {
+          "date": "2026-07-29",
+          "title": "Finalized · go",
+          "body": "Diagnosed the profile-copy v3 FAIL to root cause (briefed from a ban list, not an architecture; reintroduced the confession-I spine that killed About v10-v14) and armed the spiral brake instead of writing rendition 4. Ve",
+          "done": true
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Finalized · go",
+          "body": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle",
+          "done": true
+        },
+        {
+          "date": "2026-07-28",
+          "title": "Finalized · go",
+          "body": "Profile-live-tonight mission: go-live master doc (Take A locked, banner design brief, Featured w/ $750 Angle Map, all fields inline), /missions front door workflow, canon layer (audit + read guard + CANON.md + 12 stamps)",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-07-28-go.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

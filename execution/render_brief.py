@@ -813,6 +813,66 @@ def export_gdoc(out_html, title):
         return None
 
 
+def write_brief(brief, out_root=None, share=False, src_json=None):
+    """Render a brief dict to disk and return the paths written.
+
+    `render()` is a pure function that returns HTML; the file layout used to live
+    only inside main(), so every non-CLI caller either reimplemented it or
+    silently wrote nothing. One layout, one owner.
+
+    Returns {"dir","html","md","json","context","share"} — values are Paths, and
+    "context"/"share" are None when not written.
+    """
+    slug = brief.get("slug") or "brief"
+    out_dir = (Path(out_root) if out_root else DEFAULT_OUT) / slug
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    out_html = out_dir / f"{slug}-brief.html"
+    out_md = out_dir / f"{slug}-brief.md"
+    out_json = out_dir / f"{slug}-brief.json"
+
+    md = render_markdown(brief)
+    pp_header = (f"SOURCE: {out_md}  (research brief · Antigravity)\n"
+                 f"HTML: {out_html}\nCONTEXT PACK: {out_dir / (slug + '-context.json')}\n"
+                 f"COMPILED: {brief.get('compiled') or '—'}\n\n")
+    out_html.write_text(render(brief, pagepack={"path": str(out_md), "brief": pp_header + md}),
+                        encoding="utf-8")
+    out_md.write_text(md, encoding="utf-8")
+
+    # Provenance copy. A generated brief (front door, mission sweep) has no
+    # source file on disk, so the dict itself is the record — and preserving an
+    # existing `status` keeps the librarian's archive flip from being undone on
+    # every re-render, which is what makes a LIVING brief safe to regenerate.
+    if src_json and Path(src_json).resolve() == out_json.resolve():
+        pass
+    elif src_json:
+        shutil.copyfile(src_json, out_json)
+    else:
+        prior = {}
+        if out_json.exists():
+            try:
+                prior = json.loads(out_json.read_text(encoding="utf-8"))
+            except ValueError:
+                prior = {}
+        if prior.get("status") and "status" not in brief:
+            brief = dict(brief, status=prior["status"])
+        out_json.write_text(json.dumps(brief, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    ctx_path = None
+    pack = build_context_pack(brief)
+    if pack["paths"] or pack["urls"]:
+        ctx_path = out_dir / f"{slug}-context.json"
+        ctx_path.write_text(json.dumps(pack, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    share_path = None
+    if share:
+        share_path = out_dir / f"{slug}-brief-share.html"
+        share_path.write_text(render(brief, share=True), encoding="utf-8")
+
+    return {"dir": out_dir, "html": out_html, "md": out_md, "json": out_json,
+            "context": ctx_path, "share": share_path}
+
+
 def main():
     ap = argparse.ArgumentParser(description="Render a research-brief JSON to house-style HTML.")
     ap.add_argument("brief_json")
@@ -830,39 +890,19 @@ def main():
     brief = json.loads(src.read_text(encoding="utf-8"))
     slug = brief.get("slug") or src.stem
     out_root = Path(args.out_dir) if args.out_dir else DEFAULT_OUT
-    out_dir = out_root / slug
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    out_html = out_dir / f"{slug}-brief.html"
-    out_md = out_dir / f"{slug}-brief.md"
-    out_json = out_dir / f"{slug}-brief.json"
-
-    md = render_markdown(brief)
-    pp_header = (f"SOURCE: {out_md}  (research brief · Antigravity)\n"
-                 f"HTML: {out_html}\nCONTEXT PACK: {out_dir / (slug + '-context.json')}\n"
-                 f"COMPILED: {brief.get('compiled') or '—'}\n\n")
-    out_html.write_text(render(brief, pagepack={"path": str(out_md), "brief": pp_header + md}),
-                        encoding="utf-8")
-    if src.resolve() != out_json.resolve():
-        shutil.copyfile(src, out_json)
+    paths = write_brief(brief, out_root=out_root, share=args.share, src_json=src)
+    out_dir, out_html, out_md, out_json = paths["dir"], paths["html"], paths["md"], paths["json"]
 
     gdoc_url = export_gdoc(out_html, _plain(brief.get("title") or slug)) if args.gdoc else None
     if gdoc_url:
         brief["gdoc_url"] = gdoc_url
         out_json.write_text(json.dumps(brief, indent=2, ensure_ascii=False), encoding="utf-8")
-        md += f"\n_Google Doc: {gdoc_url}_\n"
-    out_md.write_text(md, encoding="utf-8")
+        out_md.write_text(render_markdown(brief) + f"\n_Google Doc: {gdoc_url}_\n", encoding="utf-8")
 
-    pack = build_context_pack(brief)
-    if pack["paths"] or pack["urls"]:
-        (out_dir / f"{slug}-context.json").write_text(
-            json.dumps(pack, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"[render_brief] ctx → {out_dir / (slug + '-context.json')}")
-
-    if args.share:
-        share_html = out_dir / f"{slug}-brief-share.html"
-        share_html.write_text(render(brief, share=True), encoding="utf-8")
-        print(f"[render_brief] share → {share_html}  (internals stripped — the only client-visible form)")
+    if paths["context"]:
+        print(f"[render_brief] ctx → {paths['context']}")
+    if paths["share"]:
+        print(f"[render_brief] share → {paths['share']}  (internals stripped — the only client-visible form)")
 
     print(f"[render_brief] OK → {out_html}")
     print(f"[render_brief] md → {out_md}")

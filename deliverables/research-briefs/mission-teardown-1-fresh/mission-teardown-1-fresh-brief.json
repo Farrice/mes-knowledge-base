@@ -1,0 +1,166 @@
+{
+  "slug": "mission-teardown-1-fresh",
+  "chip": "MISSION · THREAD",
+  "title": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each;",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "1 sessions · 0 files · 0 assets",
+  "compiled": "aug 7, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.\n\nHandoff status is active. Last activity today.\n\nNext: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards"
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "claude"
+        },
+        {
+          "value": "11",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards",
+          "command": "python3 execution/handoff_store.py resume teardown-1-fresh",
+          "touches": [
+            ".agent/handoffs/2026-08-07-teardown-1-fresh.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Close the mission",
+          "intent": "Mark it done or park it with a reason.",
+          "command": "python3 execution/pulse_actions.py done teardown-1-fresh --outcome \"<one line>\"",
+          "receipt": "It leaves the open set on the next pulse regen."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-07",
+          "title": "Finalized · teardown-1-fresh",
+          "body": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share varian",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "claude session · 5 msgs",
+          "body": "<command-message>go</command-message> <command-name>/go</command-name> <command-args>run the packet at .agent/missions/teardown-1-fresh-0805/portable.md</command-args>",
+          "done": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "Finalized · teardown",
+          "body": "Teardowns #1-3 (Transparent Labs, Momentous, Puori) with DMs + published post copy, and the LinkedIn profile rebuilt top-to-bottom on the 2026-07-27 positioning",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-07-teardown-1-fresh.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

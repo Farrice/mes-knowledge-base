@@ -2964,3 +2964,27 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-07T20:46:47.614324",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-07T07:12:18.117108",
+      "reason": "already_ran_today",
+      "days_remaining": 0.43
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-01T07:00:06.761884",
+      "reason": "not_due_yet",
+      "days_remaining": 0.43
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 1.43
+    }
+  ]
+}
