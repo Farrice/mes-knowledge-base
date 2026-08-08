@@ -107,6 +107,7 @@ PAGE = """<!doctype html>
     --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 */
     --ag-accent: oklch(46% 0.084 262);    /* steel blue */
     --ag-proof: oklch(48% 0.07 165);
+    --ag-risk: oklch(52% 0.10 25);      /* muted risk red — broken grounding */
     --ag-ink-soft: oklch(44% 0.003 110);  /* graphite */
     --ag-ink-mute: oklch(62% 0.012 110);  /* stone */
     --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
@@ -118,6 +119,8 @@ PAGE = """<!doctype html>
   .wrap{ max-width:980px; margin:0 auto; padding:52px 28px 90px }
   .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--ag-ink-mute); display:block }
   .topline{ display:flex; align-items:center; gap:14px; flex-wrap:wrap }
+  .tagc.risk{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .brief-card .links span.warned{ border-color:var(--ag-risk); color:var(--ag-risk) }
   .homenav{ margin-left:auto; display:flex; gap:6px }
   .homenav a{ font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; text-decoration:none;
     color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
@@ -199,7 +202,7 @@ PAGE = """<!doctype html>
 <div class="wrap">
   <header>
     <div class="topline"><span class="kicker">ANTIGRAVITY RESEARCH · LIBRARY</span>
-      <span class="homenav"><a href="{{BOARD_URI}}">asset board ↗</a><a href="{{PULSE_URI}}">pulse board ↗</a><a href="{{ORACLE_URI}}">oracle ↗</a></span></div>
+      <span class="homenav"><a href="{{MISSIONS_URI}}">🎯 mission control ↗</a><a href="{{PULSE_URI}}">pulse board ↗</a><a href="{{BOARD_URI}}">asset board ↗</a><a href="{{ORACLE_URI}}">oracle ↗</a></span></div>
     <h1>the briefing <em>room</em></h1>
     <p class="dek">every rendered brief. click a card to open it; path feeds file-access tools, copy brief feeds any chat AI; md and ctx open the artifacts.</p>
     <div class="count">{{COUNT}} briefs on file · regenerated {{STAMP}}</div>
@@ -313,8 +316,55 @@ PAGE = """<!doctype html>
     on.classList.add('on');
   }
 
+  /* Card links are absolute file:// URIs so the Room works standalone. Served,
+     a browser refuses file: from http: — which made every card, md, ctx and
+     superseded link on this page a silent no-op under /room. Map them onto the
+     ROOT-jailed /repo/ route when live; leave them exactly as-is otherwise. */
+  var REPO_ROOT = {{REPO_ROOT_JSON}};
+  var PREFIX = REPO_ROOT ? ('file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/') : '';
+  function toRepo(uri){
+    if (!ROOM_LIVE || !PREFIX || !uri || uri.indexOf(PREFIX) !== 0) return null;
+    return '/repo/' + uri.slice(PREFIX.length);
+  }
+  function go(uri){ window.location = toRepo(uri) || uri; }
+
+  document.querySelectorAll('.brief-card').forEach(function(card){
+    var href = card.getAttribute('href');
+    if (!href || href.indexOf('file:') !== 0) return;
+    card.addEventListener('click', function(ev){
+      var mapped = toRepo(href);
+      if (!mapped) return;            // file:// mode — let the anchor do its job
+      ev.preventDefault(); window.location = mapped;
+    });
+  });
   document.querySelectorAll('.brief-card .links span[data-href]').forEach(function(el){
-    el.addEventListener('click', function(ev){ ev.preventDefault(); ev.stopPropagation(); window.location = el.dataset.href; });
+    el.addEventListener('click', function(ev){ ev.preventDefault(); ev.stopPropagation(); go(el.dataset.href); });
+  });
+  document.querySelectorAll('.brief-card a.tagc.sup').forEach(function(el){
+    el.addEventListener('click', function(ev){
+      var mapped = toRepo(el.getAttribute('href'));
+      if (!mapped) return;
+      ev.preventDefault(); ev.stopPropagation(); window.location = mapped;
+    });
+  });
+  /* Sibling boards get their live ROUTE, not their file. /repo/ would serve a
+     stale snapshot; the route regenerates on every hit. */
+  var BOARD_ROUTES = [['/.agent/pulse/pulse-board.html','/'],
+                      ['/.agent/missions/mission-control.html','/missions'],
+                      ['/.agent/oracle/oracle-dashboard.html','/oracle'],
+                      ['/deliverables/research-briefs/index.html','/room']];
+  document.querySelectorAll('.homenav a[href^="file:"]').forEach(function(el){
+    el.addEventListener('click', function(ev){
+      if (!ROOM_LIVE) return;
+      var href = decodeURI(el.getAttribute('href') || '');
+      for (var i = 0; i < BOARD_ROUTES.length; i++){
+        if (href.indexOf(BOARD_ROUTES[i][0]) !== -1){
+          ev.preventDefault(); window.location = BOARD_ROUTES[i][1]; return;
+        }
+      }
+      var mapped = toRepo(el.getAttribute('href'));
+      if (mapped){ ev.preventDefault(); window.location = mapped; }
+    });
   });
   document.querySelectorAll('.brief-card .links span[data-act]').forEach(function(el){
     el.addEventListener('click', function(ev){
@@ -445,6 +495,11 @@ def housekeeping(entries):
              if e["category"] not in AUTO_ARCHIVE_DAYS
              and (now - e["mtime"]) / 86400.0 > STALE_DAYS]
     broken = []
+    # Per-slug tally as well as the flat list. The aggregate "N broken paths"
+    # tells you a number and hides the diagnosis: a context pack whose paths no
+    # longer resolve grounds nothing, and it fails silently INSIDE the agent you
+    # fed it to, not on this page. Flagging the card is what makes it actionable.
+    by_slug = {}
     for e in entries:
         if not e["ctx"].exists():
             continue
@@ -452,19 +507,27 @@ def housekeeping(entries):
             pack = json.loads(e["ctx"].read_text(encoding="utf-8"))
         except (OSError, ValueError):
             broken.append((e["slug"], "context pack unreadable"))
+            by_slug[e["slug"]] = (1, 1)
             continue
-        for p in pack.get("paths", []):
-            if not os.path.exists(p.get("abs") or ""):
-                broken.append((e["slug"], p.get("path") or "?"))
+        paths = pack.get("paths", [])
+        gone = [p for p in paths if not os.path.exists(p.get("abs") or "")]
+        for p in gone:
+            broken.append((e["slug"], p.get("path") or "?"))
+        if gone:
+            by_slug[e["slug"]] = (len(gone), len(paths))
     return {"active": len(active), "archived": len(archived),
-            "stale": [e["slug"] for e in stale], "broken": broken}
+            "stale": [e["slug"] for e in stale], "broken": broken,
+            "broken_by_slug": by_slug}
 
 
-def card(e):
+def card(e, broken_by_slug=None):
     dek = e["dek"]
     if len(dek) > 220:
         dek = dek[:217].rstrip() + "…"
     pri_tag = f'<span class="tagp p{e["priority"]}">P{e["priority"]}</span>' if e["priority"] else ""
+    bk = (broken_by_slug or {}).get(e["slug"])
+    pri_tag += (f'<span class="tagc risk" title="the context pack cites files that are gone">'
+                f'ctx {bk[0]}/{bk[1]} paths gone</span>') if bk else ""
     cat_tag = f'<span class="tagc">{esc(e["category"])}</span>'
     if e["status"] != "active":
         cat_tag += '<span class="tagc arch">archived</span>'
@@ -476,7 +539,11 @@ def card(e):
              f'<span class="cp" data-act="brief" data-slug="{esc(e["slug"])}" title="copy the full brief inline — paste into any AI chat">copy brief</span>')
     for label, f in (("md", e["md"]), ("ctx", e["ctx"])):
         if f.exists():
-            links += f'<span data-href="{esc(f.as_uri())}">{label}</span>'
+            warn = ""
+            if label == "ctx" and (broken_by_slug or {}).get(e["slug"]):
+                gone, total = broken_by_slug[e["slug"]]
+                warn = f' class="warned" title="{gone} of {total} grounding paths no longer exist — re-render this brief before feeding its pack to an agent"'
+            links += f'<span data-href="{esc(f.as_uri())}"{warn}>{label}</span>'
     arch_act = "unarchive" if e["status"] != "active" else "archive"
     links += f'<span data-life="{arch_act}" data-slug="{esc(e["slug"])}" title="librarian action — live when served, copies the command otherwise">{arch_act}</span>'
     metas = ""
@@ -567,7 +634,7 @@ def generate(open_after=False):
     if hk["stale"]:
         hk_bits += f" · <b>{len(hk['stale'])} stale</b>"
     if hk["broken"]:
-        hk_bits += f" · <b>{len(hk['broken'])} broken paths</b>"
+        hk_bits += f" · <b>{len(hk['broken'])} broken paths</b> (flagged on cards)"
     if not hk["stale"] and not hk["broken"]:
         hk_bits += " · shelves clean"
     page = (PAGE
@@ -579,11 +646,13 @@ def generate(open_after=False):
             .replace("{{BOARD_URI}}", esc((ROOT / ".agent" / "assets" / "assets-board.html").as_uri()))
             .replace("{{PULSE_URI}}", esc((ROOT / ".agent" / "pulse" / "pulse-board.html").as_uri()))
             .replace("{{ORACLE_URI}}", esc((ROOT / ".agent" / "oracle" / "oracle-dashboard.html").as_uri()))
+            .replace("{{MISSIONS_URI}}", esc((ROOT / ".agent" / "missions" / "mission-control.html").as_uri()))
+            .replace("{{REPO_ROOT_JSON}}", json.dumps(str(ROOT)))
             .replace("{{PACKS}}", packs_json)
             .replace("{{PAGE_SIZE}}", str(PAGE_SIZE))
             .replace("{{PRI_BTNS}}", pri_btns)
             .replace("{{CAT_BTNS}}", cat_btns)
-            .replace("{{CARDS}}", "".join(card(e) for e in entries)))
+            .replace("{{CARDS}}", "".join(card(e, hk.get("broken_by_slug")) for e in entries)))
     out = BRIEFS / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding="utf-8")

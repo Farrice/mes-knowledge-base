@@ -105,6 +105,14 @@ def discover_files():
                 continue
             for dirpath, dirnames, filenames in os.walk(base):
                 dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+                # Mission briefs are machine-generated, one per live thread, and
+                # they re-render on every sweep. Indexed here they outnumbered the
+                # hand-made research briefs 36:16 and turned the board's brief
+                # shelf into exactly the overflow this system exists to prevent.
+                # They already have two homes: Mission Control and the Room's
+                # `mission` category. This shelf is for work you chose to make.
+                if zone == "research-briefs":
+                    dirnames[:] = [d for d in dirnames if not d.startswith("mission-")]
                 for name in filenames:
                     if name in SKIP_BASENAMES or name.startswith("."):
                         continue

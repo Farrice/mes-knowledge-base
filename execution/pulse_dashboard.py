@@ -21,6 +21,7 @@ import os
 import subprocess
 import sys
 import time
+from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
@@ -264,6 +265,39 @@ def fresh_intel():
             f'<a class="roomlink" href="{esc(_P(room).as_uri())}">open the briefing room ↗</a></section>')
 
 
+def money_line():
+    """Dollars actually collected, and how long since the last one.
+
+    The Pulse's stated job includes revenue check-ins, and this was the single
+    fact it never showed: the band could read "4 days left" on a $3-5K sprint
+    while the money file had been flat for two weeks. That gap is the difference
+    between a morning that builds and a morning that sends.
+
+    Counts only records with revenue > 0 — an outcome logged at $0 is a closed
+    loop, not income, and conflating the two is how a board starts flattering.
+    """
+    try:
+        data = json.load(open(os.path.join(ROOT, ".agent", "revenue-outcomes.json"), encoding="utf-8"))
+    except (OSError, ValueError):
+        return ""
+    paid = [o for o in data.get("outcomes", []) if float(o.get("revenue") or 0) > 0]
+    total = sum(float(o.get("revenue") or 0) for o in paid)
+    if not paid:
+        return ('<span class="pill crit">$0 logged</span>'
+                '<span class="m">no revenue recorded yet — the tracker is empty, not the pipeline</span>')
+    stamps = sorted((o.get("resolved_date") or o.get("date") or "") for o in paid)
+    last = stamps[-1]
+    since = ""
+    try:
+        d = (datetime.now() - datetime.strptime(last[:10], "%Y-%m-%d")).days
+        cls = "crit" if d >= 14 else ("warn" if d >= 7 else "ok")
+        since = f'<span class="pill {cls}">{d}d since the last logged dollar</span>'
+    except (ValueError, TypeError):
+        pass
+    return (f'<span class="pill ok">${total:,.0f} logged</span>{since}'
+            f'<span class="m">last {esc(last[:10])} · delivery dates, not collection dates</span>')
+
+
 def mission_intel():
     """Newest mission briefs — link row only (respects two-surfaces ruling).
     Draws 3 newest mission briefs from deliverables/research-briefs/."""
@@ -299,10 +333,13 @@ def mission_intel():
     if not rows:
         return ""
 
-    board = _P(ROOT) / "deliverables" / "research-briefs" / "mission-board" / "mission-board-brief.html"
-    return (f'<section><h2 class="tog">Mission briefs</h2>'
+    # Points at the BOARD, not the digest brief: Mission Control is the deciding
+    # surface (buttons, live) and the brief is the deep read. Sending someone to
+    # the static digest from here was a link into a dead end.
+    board = _P(ROOT) / ".agent" / "missions" / "mission-control.html"
+    return (f'<section><h2 class="tog">Mission threads</h2>'
             f'<div class="intelgrid f">{"".join(rows)}</div>'
-            f'<a class="roomlink" href="{esc(board.as_uri())}">mission board ↗</a></section>')
+            f'<a class="roomlink" href="{esc(board.as_uri())}">mission control ↗</a></section>')
 
 
 def main():
@@ -350,7 +387,29 @@ def main():
         return str(m.get("tier") or "").upper().startswith(("T2", "T3"))
     waiting = [m for m in latest.values() if _t23(m) and m.get("status") == "compiled"]
     stale = [m for m in active if (mission_age_days(m) or 0) >= 7 and m not in waiting]
-    needs_you = (waiting + stale)[:3]
+    flagged = waiting + stale
+
+    # Sprint service outranks tier and age. Sorting on tier+age alone put Codex
+    # demo packets above the sprint's own work on a board whose header says
+    # "N days left" — on a sprint morning the first three cards have to be the
+    # three that move the sprint.
+    sprint_id = (sprint or {}).get("id")
+
+    def _serves_sprint(m):
+        return bool(sprint_id) and m.get("serves") == sprint_id
+
+    flagged.sort(key=lambda m: (0 if _serves_sprint(m) else 1,
+                                0 if _t23(m) else 1,
+                                -(mission_age_days(m) or 0)))
+    needs_you = flagged[:3]
+    n_sprint = sum(1 for m in active if _serves_sprint(m))
+    n_orphan = sum(1 for m in active if (m.get("serves") or "orphan") == "orphan")
+    # No silent caps, and the split is what tells him whether the goal chips
+    # below are worth anything.
+    needs_label = f"⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged"
+    if sprint_id:
+        needs_label += (f" · {n_sprint} of {len(active)} live serve the sprint"
+                        + (f", {n_orphan} orphan" if n_orphan else ""))
 
     goal_ids = sorted({m.get("serves", "?") for m in latest.values()})
     chips = '<button class="chip active" data-f="all">all</button>' + "".join(
@@ -369,7 +428,8 @@ def main():
                 cd = f'<span class="pill warn">{days} days left</span>'
         sprint_html = (f'<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span>'
                        f'<strong>{esc(sprint.get("target"))}</strong>{cd}'
-                       f'<span class="m">goal: {esc(sprint.get("id"))}</span></div>')
+                       f'<span class="m">goal: {esc(sprint.get("id"))}</span>'
+                       f'{money_line()}</div>')
 
     lock_html = (f'<span class="pill warn">lock: {esc(lock["mission"])}</span>' if lock
                  else '<span class="pill ok">tree: single driver</span>')
@@ -383,6 +443,7 @@ def main():
     room_uri = _P(os.path.join(ROOT, "deliverables", "research-briefs", "index.html")).as_uri()
     board_uri = _P(os.path.join(ROOT, ".agent", "assets", "assets-board.html")).as_uri()
     oracle_uri = _P(os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")).as_uri()
+    missions_uri = _P(os.path.join(ROOT, ".agent", "missions", "mission-control.html")).as_uri()
 
     body = f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -492,7 +553,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="wrap">
 <header>
   <div><span class="kicker">ANTIGRAVITY · OPERATOR CONSOLE</span><h1>the <em>pulse</em></h1></div>
-  <span class="homenav"><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a><a href="{esc(oracle_uri)}">🔮 oracle ↗</a></span>
+  <span class="homenav"><a href="{esc(missions_uri)}">🎯 mission control ↗</a><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a><a href="{esc(oracle_uri)}">🔮 oracle ↗</a></span>
 </header>
 <div class="stamp"><span>{now}</span>{lock_html}<span class="livechip pill muted" id="livechip">static — actions copy commands</span></div>
 {sprint_html}
@@ -503,7 +564,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
   <div class="tile"><div class="n">{len(taste)}</div><div class="l">taste verdicts banked</div></div>
   <div class="tile"><div class="n" style="color:var(--{'ok' if corpus_ok else 'crit'})">{corpus}</div><div class="l">v2 corpus pass</div></div>
 </div>
-<section><h2 class="tog">⚑ Needs you — top {len(needs_you)}</h2><div class="body">{cards(needs_you, show_actions=True)}</div></section>
+<section><h2 class="tog">{esc(needs_label)}</h2><div class="body">{cards(needs_you, show_actions=True)}</div></section>
 {fresh_intel()}
 {mission_intel()}
 <div class="chips">{chips}</div>

@@ -429,6 +429,9 @@ FEED_FRESHNESS = {
     ".agent/health/latest.json": ("daily health-metrics launchd run", 3),
     ".agent/health/skills-sync.json": ("Sunday skills-sync launchd run (Matt Pocock)", 9),
     ".agent/sweep/latest.json": ("nightly session-sweep launchd run", 3),
+    # The always-on board server prints one heartbeat an hour; a log older than
+    # that means every bookmarked board URL is dead and nobody was told.
+    ".agent/pulse/serve.log": ("always-on pulse_serve daemon (com.antigravity.pulse-serve)", 1),
     "evolution_store/failure-registry.md": ("failure_learning (chronic-fail rules)", None),
 }
 LAUNCHD_DIR = Path.home() / "Library" / "LaunchAgents"

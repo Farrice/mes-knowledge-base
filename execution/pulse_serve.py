@@ -1,25 +1,43 @@
 #!/usr/bin/env python3
-"""pulse_serve.py — on-demand live server for the Pulse board (Readout OS
-phase 4, 2026-08-06). Stdlib only, localhost only, idle auto-exit — a session
-tool, not a daemon.
+"""pulse_serve.py — live server for every Readout OS board (2026-08-06;
+always-on + repo routes 2026-08-07). Stdlib only, 127.0.0.1 only.
 
-GET  /            regenerate the board (always fresh) and serve it
-POST /action      {"action": "...", "args": {...}} → pulse_actions dispatch →
-                  regenerate → {"ok": true}; the page reloads itself
+GET  /            Pulse board          — regenerated on every hit
+GET  /room        Briefing Room
+GET  /missions    Mission Control
+GET  /oracle      Oracle
+GET  /repo/<repo-relative-path>
+                  Any file inside the repo, ROOT-jailed. This is what makes the
+                  boards actually navigable: brief pages, thumbnails, md mirrors
+                  and context packs are all written as absolute file:// URIs
+                  (render_brief._file_href), and a browser refuses to load a
+                  file: URL from an http: page. Served over this route they
+                  resolve, so a brief opened from a board behaves like a page
+                  instead of a dead link.
+GET  /ping        {"pulse": true, "<surface>_mtime": ...} — liveness probe AND
+                  the mtime source every board polls for side-window reload
+POST /action      {"action": "...", "args": {...}} → dispatch → regen → {"ok"}
+
+Anything unmatched is a 404. It used to fall through to the Pulse board, so a
+mistyped or unrouted URL answered 200 with the wrong page — which reads as
+"the link worked and the page is wrong" instead of "there is no such route".
 
 Usage:
     python3 execution/pulse_serve.py [--port 8765] [--idle 7200] [--open]
+    --idle 0   never exit (the always-on launchd daemon uses this)
 
 If the port is already serving a healthy pulse (GET /ping ok), --open just
 opens the existing server instead of starting a second one.
 """
 import argparse
 import json
+import mimetypes
 import os
 import subprocess
 import sys
 import threading
 import time
+import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -27,14 +45,44 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOARD = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
 ROOM = os.path.join(ROOT, "deliverables", "research-briefs", "index.html")
 ORACLE = os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")
+MISSIONS = os.path.join(ROOT, ".agent", "missions", "mission-control.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
 
+# Paths that serve the Pulse board. Everything else routes explicitly or 404s.
+PULSE_PATHS = {"", "/", "/index.html", "/pulse"}
+
+# ROOT-jailing keeps /repo/ inside the repo — but the repo itself holds secrets
+# (.env carries NOTION_API_KEY) and history (.git). "Inside the repo" is not the
+# same as "safe to hand to a browser page", so hidden directories are denied by
+# default. .agent is the one exception: the boards live there and briefs link
+# into .agent/handoffs/, so denying it would break the thing this route exists
+# for. Deny-by-default on dotfiles, allow one known-safe tree.
+REPO_ALLOWED_DOTDIRS = {".agent"}
+REPO_DENIED_SUFFIXES = (".pem", ".key", ".p12", ".pfx", ".keystore")
+REPO_DENIED_NAMES = {".env", ".netrc", ".htpasswd", "id_rsa", "id_ed25519", "credentials"}
+
+
+def _repo_path_allowed(rel):
+    """True if this repo-relative path may be served. Denies dotfiles/dirs
+    (except .agent), credential-shaped names, and key material anywhere."""
+    parts = [p for p in rel.replace("\\", "/").split("/") if p and p != "."]
+    if not parts:
+        return False
+    for i, part in enumerate(parts):
+        low = part.lower()
+        if low in REPO_DENIED_NAMES or low.startswith(".env"):
+            return False
+        if part.startswith(".") and not (i == 0 and part in REPO_ALLOWED_DOTDIRS):
+            return False
+    return not parts[-1].lower().endswith(REPO_DENIED_SUFFIXES)
+
 
 def regen(which="pulse"):
     script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
-              "oracle": "oracle_dashboard.py"}.get(which, "pulse_dashboard.py")
+              "oracle": "oracle_dashboard.py",
+              "missions": "mission_board.py"}.get(which, "pulse_dashboard.py")
     try:
         subprocess.run([PY, os.path.join(ROOT, "execution", script)],
                        capture_output=True, text=True, timeout=90)
@@ -124,33 +172,75 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(data)
 
+    def _serve_repo(self, path):
+        """Serve one file from inside the repo. ROOT-jailed, read-only, GET-only.
+
+        The jail is the same realpath-prefix check _open_path() uses. It must
+        stay that way: this route is the one place the server hands file bytes
+        to a page, so a traversal here would expose anything the user can read.
+        `..` is normalised away by realpath BEFORE the prefix test, so the test
+        sees the true destination rather than the requested spelling.
+        """
+        rel = urllib.parse.unquote(path[len("/repo/"):]).split("?", 1)[0].split("#", 1)[0]
+        if not rel:
+            self._send(404, "not found", "text/plain; charset=utf-8")
+            return
+        if not _repo_path_allowed(rel):
+            print(f"[pulse_serve] refused sensitive path: {rel}", file=sys.stderr)
+            self._send(403, "not served", "text/plain; charset=utf-8")
+            return
+        real = os.path.realpath(os.path.join(ROOT, rel))
+        if not real.startswith(os.path.realpath(ROOT) + os.sep):
+            print(f"[pulse_serve] refused repo read outside root: {real}", file=sys.stderr)
+            self._send(403, "outside repo", "text/plain; charset=utf-8")
+            return
+        if not os.path.isfile(real):
+            self._send(404, f"no such file: {rel}", "text/plain; charset=utf-8")
+            return
+        ctype = mimetypes.guess_type(real)[0] or "application/octet-stream"
+        if ctype.startswith("text/") or ctype in ("application/json", "image/svg+xml"):
+            ctype += "; charset=utf-8" if "charset" not in ctype else ""
+        try:
+            with open(real, "rb") as f:
+                self._send(200, f.read(), ctype)
+        except OSError as e:
+            self._send(500, f"read failed: {e}", "text/plain; charset=utf-8")
+
+    def _serve_board(self, which, path, label):
+        regen(which)
+        try:
+            self._send(200, open(path, encoding="utf-8").read())
+        except OSError as e:
+            self._send(500, f"{label} missing: {e} — try: python3 execution/"
+                            f"{ {'missions': 'mission_board.py'}.get(which, 'pulse_dashboard.py') }")
+
     def do_GET(self):
         self._touch()
-        if self.path.startswith("/ping"):
+        route = self.path.split("?", 1)[0]
+        if route.startswith("/ping"):
             self._send(200, json.dumps({"pulse": True,
                                         "board_mtime": _mtime(BOARD),
                                         "room_mtime": _mtime(ROOM),
-                                        "oracle_mtime": _mtime(ORACLE)}), "application/json")
+                                        "oracle_mtime": _mtime(ORACLE),
+                                        "missions_mtime": _mtime(MISSIONS)}), "application/json")
             return
-        if self.path.startswith("/room"):
-            regen("room")
-            try:
-                self._send(200, open(ROOM, encoding="utf-8").read())
-            except OSError as e:
-                self._send(500, f"room missing: {e}")
+        if route.startswith("/repo/"):
+            self._serve_repo(route)
             return
-        if self.path.startswith("/oracle"):
-            regen("oracle")
-            try:
-                self._send(200, open(ORACLE, encoding="utf-8").read())
-            except OSError as e:
-                self._send(500, f"oracle board missing: {e}")
+        if route.startswith("/room"):
+            self._serve_board("room", ROOM, "room")
             return
-        regen("pulse")
-        try:
-            self._send(200, open(BOARD, encoding="utf-8").read())
-        except OSError as e:
-            self._send(500, f"board missing: {e}")
+        if route.startswith("/missions"):
+            self._serve_board("missions", MISSIONS, "mission control")
+            return
+        if route.startswith("/oracle"):
+            self._serve_board("oracle", ORACLE, "oracle board")
+            return
+        if route in PULSE_PATHS:
+            self._serve_board("pulse", BOARD, "board")
+            return
+        self._send(404, f"no route: {route}\n\ntry / · /room · /missions · /oracle · /repo/<path>",
+                   "text/plain; charset=utf-8")
 
     def do_POST(self):
         self._touch()
@@ -181,7 +271,8 @@ def already_serving(port):
 def main():
     ap = argparse.ArgumentParser(description="Serve the Pulse board live.")
     ap.add_argument("--port", type=int, default=8765)
-    ap.add_argument("--idle", type=int, default=7200, help="idle seconds before clean exit (default 2h)")
+    ap.add_argument("--idle", type=int, default=7200,
+                    help="idle seconds before clean exit; 0 = always-on daemon (no exit)")
     ap.add_argument("--open", action="store_true")
     args = ap.parse_args()
 
@@ -202,8 +293,22 @@ def main():
                 server.shutdown()
                 return
 
-    threading.Thread(target=watchdog, daemon=True).start()
-    print(f"[pulse_serve] live → {url}  (idle-exit after {args.idle}s)")
+    def heartbeat():
+        """Always-on mode has no idle exit and would otherwise print nothing
+        for days. detect_dead_launchd() reads the log's mtime as its only
+        liveness evidence, so a permanently silent daemon reads as a dead job —
+        one line an hour is what keeps the alarm honest."""
+        while True:
+            time.sleep(3600)
+            print(f"[pulse_serve] alive → {url}  "
+                  f"(last hit {int(time.time() - LAST_HIT)}s ago)", flush=True)
+
+    if args.idle > 0:
+        threading.Thread(target=watchdog, daemon=True).start()
+        print(f"[pulse_serve] live → {url}  (idle-exit after {args.idle}s)", flush=True)
+    else:
+        threading.Thread(target=heartbeat, daemon=True).start()
+        print(f"[pulse_serve] live → {url}  (always-on: no idle exit)", flush=True)
     if args.open:
         subprocess.run(["open", url], check=False)
     try:

@@ -299,6 +299,7 @@ button.act:hover { background:var(--accent); color:#101010; }
   <a class="navlink" data-v="gen">Gallery</a>
   <a class="navlink" data-v="styles" id="styleslink" style="display:none">Styles</a>
   <a class="navlink" href="../../deliverables/research-briefs/index.html">📋 Briefing Room</a>
+  <a class="navlink" href="../missions/mission-control.html">🎯 Mission Control</a>
   <a class="navlink" href="../pulse/pulse-board.html">📡 Pulse</a>
   <a class="navlink" href="../oracle/oracle-dashboard.html">🔮 Oracle</a>
   <input type="search" id="q" placeholder="🔍 search everything…">

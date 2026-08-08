@@ -6,6 +6,14 @@ description: Run deterministic session sweep and update mission briefs
 
 > **Command**: `python3 execution/session_sweep.py`
 
+```bash
+# // turbo
+python3 execution/session_sweep.py run --days 14 && python3 execution/mission_board.py && python3 execution/mission_brief.py build --all
+```
+
+Then open the board: `/mission-control` (or <http://127.0.0.1:8765/missions>).
+
+
 Run a deterministic sweep of recent sessions (Claude Code + Codex) and generate living mission briefs.
 
 ## Usage

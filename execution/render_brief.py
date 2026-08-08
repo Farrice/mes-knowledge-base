@@ -674,6 +674,9 @@ def render(brief, share=False, pagepack=None):
             "{{SECTIONS}}": "".join(sections_html),
             "{{FOOTER_LEFT}}": esc(brief.get("footer_left") or "ANTIGRAVITY RESEARCH"),
             "{{FOOTER_RIGHT}}": esc(brief.get("footer_right") or ""),
+            # Lets a SERVED page map its own file:// links back to /repo/ routes.
+            # Empty in share mode: an outward copy must carry no local paths.
+            "{{REPO_ROOT}}": "" if share else esc(str(ROOT)),
         }
         for k, v in subs.items():
             tpl = tpl.replace(k, v)

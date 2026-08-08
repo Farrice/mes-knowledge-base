@@ -77,3 +77,32 @@ status: enriched
 | `copy brief` → any chat LLM | Getting a second model's read with full grounding in one paste |
 | Side window (`/room` served) + working session | Long build/research blocks — watch assets land in real time |
 | `/nate-b-harness-design-audit` over this system | After a week of live use — the never-fired audit command, pointed at its own harness |
+
+## Mission Control + always-on boards (added 2026-08-07)
+
+A fourth surface joined the ring: **Mission Control** (`/mission-control`) — the *deciding*
+board. One card per live working thread, needs-you ranked by consequence (blocked → open
+mission → never-active → longest-idle), and four actions per card: open brief, resume,
+copy context, done/park/archive. Facts come from `.agent/sweep/latest.json`; it never
+re-derives.
+
+**All four boards are now permanently served** by `com.antigravity.pulse-serve`
+(`--idle 0`, KeepAlive):
+
+| route | surface |
+|---|---|
+| <http://127.0.0.1:8765/> | Pulse board |
+| <http://127.0.0.1:8765/room> | Briefing Room |
+| <http://127.0.0.1:8765/missions> | Mission Control |
+| <http://127.0.0.1:8765/oracle> | Oracle |
+
+`GET /repo/<repo-relative-path>` serves any repo file, ROOT-jailed, with hidden dirs and
+credential-shaped names denied (`.env`, `.git`, key material). **This is what makes briefs
+navigable**: every internal link in a brief is an absolute `file://` URI, which a browser
+refuses to load from an `http:` page — so before this route, clicking a brief card under
+`/room` was a silent no-op. Pages now rewrite their own `file://` links to `/repo/` when
+served, and leave them untouched under `file://`.
+
+Unmatched routes 404 (they used to return the Pulse board with HTTP 200).
+
+**Cost: $0.** Stdlib `http.server`, 127.0.0.1 only, ~12 MB RAM idle, no API calls.

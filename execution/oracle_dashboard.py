@@ -363,6 +363,7 @@ def render(d):
     pulse_uri = Path(os.path.join(ROOT, '.agent', 'pulse', 'pulse-board.html')).as_uri()
     room_uri = Path(os.path.join(ROOT, 'deliverables', 'research-briefs', 'index.html')).as_uri()
     assets_uri = Path(os.path.join(ROOT, '.agent', 'assets', 'assets-board.html')).as_uri()
+    missions_uri = Path(os.path.join(ROOT, '.agent', 'missions', 'mission-control.html')).as_uri()
 
     page = f'''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -447,7 +448,7 @@ footer{{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--
 </style></head><body><div class="wrap">
 <header>
   <div><span class="kicker">MASTERY FORGE · INSTANCE #1 · RENDERED {d['ts']}</span><h1>THE <em>ORACLE</em></h1></div>
-  <span class="homenav"><a href="{html.escape(pulse_uri)}">⚡ pulse ↗</a><a href="{html.escape(room_uri)}">📋 briefing room ↗</a><a href="{html.escape(assets_uri)}">🎨 asset board ↗</a></span>
+  <span class="homenav"><a href="{html.escape(missions_uri)}">🎯 mission control ↗</a><a href="{html.escape(pulse_uri)}">⚡ pulse ↗</a><a href="{html.escape(room_uri)}">📋 briefing room ↗</a><a href="{html.escape(assets_uri)}">🎨 asset board ↗</a></span>
 </header>
 <div class="sub">A forged betting master under a falsifiable graduation exam. It decides; a human executes. Real money stays locked until the gate says GO.</div>
 <div class="chips"><span class="chip livechip" id="livechip">static — buttons copy commands</span><span class="chip">MODE: PAPER EXAM</span><span class="chip">ODDS API: {html.escape(quota_str.split(' (')[0])}</span></div>
