@@ -68,11 +68,32 @@ EXTRA_CSS = """
 """
 
 
+def _reexec_in_venv() -> None:
+    """Find the interpreter that HAS markdown, instead of failing quietly.
+
+    Scar (2026-08-08): the first version fell back to <pre>{raw}</pre> when the
+    import failed. Run under system python3 — which is exactly what the README
+    line said to do — it produced a page of raw markdown that LOOKED like a
+    render bug rather than a missing dependency. A silent fallback is a failure
+    wearing the costume of success. Never ship one.
+    """
+    venv = ROOT / ".venv" / "bin" / "python3"
+    if venv.exists() and Path(sys.executable).resolve() != venv.resolve():
+        import os
+        os.execv(str(venv), [str(venv), str(Path(__file__).resolve()), *sys.argv[1:]])
+    sys.exit(
+        "mdview: the 'markdown' package is not importable and no usable .venv was found.\n"
+        "  fix:  .venv/bin/python3 -m pip install markdown\n"
+        "  (refusing to emit a raw-text page that would look like a rendering bug)"
+    )
+
+
 def render_markdown(text: str) -> str:
     try:
         import markdown
     except ImportError:
-        return f"<pre>{html.escape(text)}</pre>"
+        _reexec_in_venv()
+    import markdown
     return markdown.markdown(
         text,
         extensions=["tables", "fenced_code", "toc", "attr_list", "sane_lists", "nl2br"],
