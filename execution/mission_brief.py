@@ -555,7 +555,6 @@ def build_board(bundle, synth):
         "footer_right": "@farricecain",
         "category": CATEGORY,
         "priority": 1,
-        "status": "active",  # Mission-board is always active (never archived)
         "sections": sections,
     }
 
