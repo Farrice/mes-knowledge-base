@@ -196,7 +196,26 @@ def prove(key: str, c: Corpus) -> tuple[str, str]:
     if klass == "execution":
         base = name.rsplit("/", 1)[-1]
         if base.startswith("verify_") and "/" not in name:
-            return "PROVEN", "verify_* — run by the Sunday fleet glob"
+            # ASSERT the glob, never assume it (2026-08-08). This branch read
+            # "PROVEN — run by the Sunday fleet glob" for 13 days after commit
+            # 2397327cf replaced that glob with a hardcoded 2-item list naming
+            # two files that do not exist. 84 verifiers were stamped PROVEN by a
+            # firing path that had ceased to exist, and the auditor built to
+            # catch dead assets was blind to the largest dead class in the repo.
+            # An unverified claim about a firing path IS the failure mode this
+            # module exists to detect — so prove it against the runner's own
+            # discovery function.
+            try:
+                import importlib.util
+                spec = importlib.util.spec_from_file_location(
+                    "_vf_probe", EXEC_DIR / "verify_fleet.py")
+                vf = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(vf)
+                if any(p.name == base for p in vf.discover()):
+                    return "PROVEN", "verify_* — confirmed in verify_fleet.discover()"
+                return "ORPHAN", "verify_* but NOT discovered by verify_fleet.discover()"
+            except Exception as e:
+                return "ORPHAN", f"verify_* — fleet discovery unprovable ({type(e).__name__})"
         if name.startswith("hooks/"):
             if base in c._read(ROOT / ".claude" / "settings.json"):
                 return "PROVEN", "registered in .claude/settings.json"

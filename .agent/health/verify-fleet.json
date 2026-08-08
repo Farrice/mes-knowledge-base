@@ -1,182 +1,228 @@
 {
-  "ts": "2026-07-26T11:45:18",
-  "total": 73,
+  "ts": "2026-08-08T12:28:18.096787",
+  "total": 84,
   "counts": {
-    "PASS": 57,
+    "FAIL": 23,
     "TIMEOUT": 6,
-    "FAIL": 6,
-    "SKIP": 4
+    "PASS": 55
   },
   "failing": [
+    "verify_activation_governor.py",
+    "verify_antigravity_global_access.py",
     "verify_artifact_router.py",
     "verify_autopilot_routing.py",
     "verify_autopilot_runtime_preflight.py",
-    "verify_born_intent_drift.py",
-    "verify_contextual_next_prompts.py",
-    "verify_global_steering_closeout.py",
+    "verify_codex_claude_parity.py",
+    "verify_codex_end_session.py",
+    "verify_control_intent.py",
+    "verify_convene.py",
+    "verify_dhar_mann_transformational_content_factory.py",
+    "verify_google_operator_core.py",
+    "verify_health_performance_geo_prompt.py",
+    "verify_memory_stack.py",
     "verify_operator_cockpit.py",
+    "verify_operator_core_extraction_governor_agent.py",
     "verify_operator_core_fast_proof.py",
+    "verify_operator_core_health_check.py",
+    "verify_operator_core_knowledge_librarian.py",
+    "verify_operator_core_routing_intelligence.py",
+    "verify_operator_core_skill_anneal.py",
+    "verify_operator_core_source_to_skill_system.py",
+    "verify_performance_evidence_gate.py",
+    "verify_proof_ledger.py",
     "verify_savant_control_room.py",
-    "verify_steering_compass.py",
-    "verify_system.py",
-    "verify_system_control_plane.py"
+    "verify_search_content_mastery.py",
+    "verify_skill_evolution_candidate_freshness.py",
+    "verify_skill_evolution_local_first.py",
+    "verify_system_control_plane.py",
+    "verify_video_context_source_package.py"
   ],
   "results": [
     {
       "script": "verify_activation_governor.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 0.8
+      "status": "FAIL",
+      "detail": "- dependency import failed: No module named 'dotenv'",
+      "secs": 1.1
     },
     {
       "script": "verify_antigravity_global_access.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 3.3
+      "status": "FAIL",
+      "detail": "AssertionError: workflow router did not bind the mixed request to /system-audit",
+      "secs": 1.2
     },
     {
       "script": "verify_artifact_router.py",
       "status": "TIMEOUT",
-      "detail": ">90s",
+      "detail": "exceeded 90s",
       "secs": 90
     },
     {
       "script": "verify_autopilot_routing.py",
       "status": "TIMEOUT",
-      "detail": ">90s",
+      "detail": "exceeded 90s",
       "secs": 90
     },
     {
       "script": "verify_autopilot_runtime_preflight.py",
       "status": "TIMEOUT",
-      "detail": ">90s",
+      "detail": "exceeded 90s",
       "secs": 90
     },
     {
       "script": "verify_born_intent_drift.py",
-      "status": "FAIL",
-      "detail": "Deliberate? Review the diffs, then: python3 execution/verify_born_intent_drift.py --bless",
-      "secs": 1.2
+      "status": "PASS",
+      "detail": "",
+      "secs": 2.7
     },
     {
       "script": "verify_codex_authority.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_codex_claude_parity.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 918.3
+      "status": "FAIL",
+      "detail": "ImportError: cannot import name 'strip_explicit_invocation_artifacts' from 'control_intent' (/Users/farricecain/Google Antigravity/execution/control_intent.py)",
+      "secs": 10.8
     },
     {
       "script": "verify_codex_dynamic_workflow.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.4
+      "secs": 0.8
     },
     {
-      "script": "verify_contextual_next_prompts.py",
+      "script": "verify_codex_end_session.py",
       "status": "FAIL",
-      "detail": "  /jh-next-problem                          \u2014 map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer",
-      "secs": 680.9
+      "detail": "TypeError: cannot unpack non-iterable PosixPath object",
+      "secs": 0.7
     },
     {
       "script": "verify_control_intent.py",
-      "status": "PASS",
-      "detail": "",
+      "status": "FAIL",
+      "detail": "    text: draft a post about how neurons are chained into circuits",
       "secs": 0.1
     },
     {
       "script": "verify_convene.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 0.5
+      "status": "FAIL",
+      "detail": "ModuleNotFoundError: No module named 'execution'",
+      "secs": 0.4
     },
     {
       "script": "verify_cos_primer_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.8
+      "secs": 1.1
+    },
+    {
+      "script": "verify_dead_channels.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
     },
     {
       "script": "verify_deep_research_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.6
+      "secs": 4.7
     },
     {
-      "script": "verify_end_session_intelligence.py",
+      "script": "verify_dhar_mann_transformational_content_factory.py",
+      "status": "FAIL",
+      "detail": "- NOTE: direct command search surfaces Dhar factory",
+      "secs": 4.9
+    },
+    {
+      "script": "verify_dialect_injector.py",
       "status": "PASS",
       "detail": "",
       "secs": 1.1
     },
     {
+      "script": "verify_end_session_intelligence.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 1.6
+    },
+    {
+      "script": "verify_execution_receipt.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 2.2
+    },
+    {
       "script": "verify_expert_composition_standard.py",
       "status": "PASS",
       "detail": "",
-      "secs": 19.3
+      "secs": 21.4
     },
     {
       "script": "verify_extraction_command_surface.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1985.3
+      "secs": 24.4
     },
     {
-      "script": "verify_fleet.py",
-      "status": "SKIP",
-      "reason": "the runner itself \u2014 recursing would deadlock",
-      "secs": 0
+      "script": "verify_failure_learning.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 1.4
+    },
+    {
+      "script": "verify_global_adaptive_judgment_floor.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
     },
     {
       "script": "verify_global_autopilot_source_truth.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_global_execution_bias_bridge.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
-    },
-    {
-      "script": "verify_global_steering_closeout.py",
-      "status": "FAIL",
-      "detail": "  /jh-next-problem                          \u2014 map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer",
-      "secs": 1649.0
+      "secs": 0.8
     },
     {
       "script": "verify_global_steering_persistence.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.2
     },
     {
       "script": "verify_google_operator_core.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 22.1
+      "status": "FAIL",
+      "detail": "ImportError: cannot import name 'strip_explicit_invocation_artifacts' from 'control_intent' (/Users/farricecain/Google Antigravity/execution/control_intent.py)",
+      "secs": 17.9
     },
     {
       "script": "verify_health_performance_geo_prompt.py",
-      "status": "PASS",
-      "detail": "",
+      "status": "FAIL",
+      "detail": "FAIL: missing prompt: /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
       "secs": 0.1
     },
     {
       "script": "verify_high_taste_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.6
+      "secs": 1.9
     },
     {
       "script": "verify_high_taste_writing_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 970.1
+      "secs": 15.5
+    },
+    {
+      "script": "verify_kdp_book_one_system.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 30.9
     },
     {
       "script": "verify_markdown_readability_guard.py",
@@ -186,135 +232,135 @@
     },
     {
       "script": "verify_memory_stack.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 1044.2
+      "status": "FAIL",
+      "detail": "- genai_import: No module named 'google'",
+      "secs": 0.1
     },
     {
       "script": "verify_mission_activation_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.5
+      "secs": 7.0
     },
     {
       "script": "verify_mission_runner.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.6
     },
     {
       "script": "verify_mission_validator.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 2.1
     },
     {
       "script": "verify_operator_cockpit.py",
       "status": "TIMEOUT",
-      "detail": ">90s",
+      "detail": "exceeded 90s",
       "secs": 90
     },
     {
       "script": "verify_operator_core_ai_employee_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.4
+      "secs": 8.8
     },
     {
       "script": "verify_operator_core_end_session.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1543.4
+      "secs": 62.7
     },
     {
       "script": "verify_operator_core_expert_composition_governor.py",
       "status": "PASS",
       "detail": "",
-      "secs": 89.2
+      "secs": 73.2
     },
     {
       "script": "verify_operator_core_extraction_governor_agent.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 64.3
+      "status": "FAIL",
+      "detail": "AssertionError: workflow_router expected /autopilot first for 'extraction-governor-agent is broken and writes state automatically'; got /system-audit                             \u2014 Control-plane audit ",
+      "secs": 58.6
     },
     {
       "script": "verify_operator_core_fast_proof.py",
       "status": "TIMEOUT",
-      "detail": ">90s",
+      "detail": "exceeded 90s",
       "secs": 90
     },
     {
       "script": "verify_operator_core_health_check.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 53.6
+      "status": "FAIL",
+      "detail": "  /mission                                  \u2014 Mission OS - plan, validate, execute, and govern long-running agent work",
+      "secs": 17.0
     },
     {
       "script": "verify_operator_core_knowledge_librarian.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 51.2
+      "status": "FAIL",
+      "detail": "AssertionError: workflow_router expected /autopilot first for 'the knowledge library routing is broken'; got /system-audit                             \u2014 Control-plane audit for Autopilot, routing, bri",
+      "secs": 45.3
     },
     {
       "script": "verify_operator_core_orchestrate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 50.9
+      "secs": 48.8
     },
     {
       "script": "verify_operator_core_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 52.3
+      "secs": 50.2
     },
     {
       "script": "verify_operator_core_routing_intelligence.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 50.7
+      "status": "FAIL",
+      "detail": "AssertionError: workflow_router expected /autopilot first for 'the router is broken and routing intelligence is wrong'; got /system-audit                             \u2014 Control-plane audit for Autopilo",
+      "secs": 44.0
     },
     {
       "script": "verify_operator_core_self_evolve.py",
       "status": "PASS",
       "detail": "",
-      "secs": 52.8
+      "secs": 50.7
     },
     {
       "script": "verify_operator_core_skill_anneal.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 54.9
+      "status": "FAIL",
+      "detail": "AssertionError: workflow_router expected /autopilot first for 'skill-anneal is broken and rewriting everything'; got /system-audit                             \u2014 Control-plane audit for Autopilot, rout",
+      "secs": 46.3
     },
     {
       "script": "verify_operator_core_source_to_skill_system.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 76.7
+      "status": "FAIL",
+      "detail": "AssertionError: workflow_router expected /autopilot first for 'source-to-skill-system is broken and creates bloat'; got /system-audit                             \u2014 Control-plane audit for Autopilot, r",
+      "secs": 47.2
     },
     {
       "script": "verify_operator_core_status.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.4
     },
     {
       "script": "verify_operator_core_system_audit.py",
       "status": "PASS",
       "detail": "",
-      "secs": 50.3
+      "secs": 51.5
     },
     {
       "script": "verify_operator_lesson.py",
       "status": "PASS",
       "detail": "",
-      "secs": 5.8
+      "secs": 4.7
     },
     {
       "script": "verify_performance_evidence_gate.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 0.7
+      "status": "FAIL",
+      "detail": "ModuleNotFoundError: No module named 'dotenv'",
+      "secs": 0.5
     },
     {
       "script": "verify_plugin_readiness_stdout.py",
@@ -323,64 +369,94 @@
       "secs": 0.2
     },
     {
+      "script": "verify_project_filer.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 7.4
+    },
+    {
+      "script": "verify_projects_index.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
+    },
+    {
       "script": "verify_proof_ledger.py",
-      "status": "SKIP",
-      "reason": "per-artifact checker (requires --draft/--ledger); fires per-deliverable, not standalone",
-      "secs": 0
+      "status": "FAIL",
+      "detail": "verify_proof_ledger.py: error: the following arguments are required: --draft, --ledger",
+      "secs": 0.1
     },
     {
       "script": "verify_protocol_lifecycle.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.4
     },
     {
       "script": "verify_raw_intent_bridge_command.py",
       "status": "PASS",
       "detail": "",
-      "secs": 26.1
+      "secs": 24.5
     },
     {
       "script": "verify_raw_intent_global_skill.py",
       "status": "PASS",
       "detail": "",
-      "secs": 27.4
+      "secs": 23.5
     },
     {
       "script": "verify_raw_intent_run_packet.py",
       "status": "PASS",
       "detail": "",
-      "secs": 83.0
+      "secs": 66.1
+    },
+    {
+      "script": "verify_reality_before_rhetoric.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.7
     },
     {
       "script": "verify_recall_mcp_auth.py",
-      "status": "SKIP",
-      "reason": "needs live `codex mcp list` outside sandbox",
-      "secs": 0
+      "status": "PASS",
+      "detail": "",
+      "secs": 5.2
     },
     {
       "script": "verify_recurring_ops_dry_run.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.4
+      "secs": 0.5
     },
     {
       "script": "verify_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 28.2
+      "secs": 26.3
     },
     {
       "script": "verify_savant_control_room.py",
       "status": "TIMEOUT",
-      "detail": ">90s",
+      "detail": "exceeded 90s",
       "secs": 90
+    },
+    {
+      "script": "verify_search_content_mastery.py",
+      "status": "FAIL",
+      "detail": "}",
+      "secs": 29.2
+    },
+    {
+      "script": "verify_self_heal.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 10.0
     },
     {
       "script": "verify_session_lock_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.8
+      "secs": 1.3
     },
     {
       "script": "verify_session_state_freshness_loop.py",
@@ -390,45 +466,39 @@
     },
     {
       "script": "verify_skill_evolution_candidate_freshness.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 0.1
+      "status": "FAIL",
+      "detail": "- safe refresh command: python3 execution/skill_evolution_candidates.py scan --write",
+      "secs": 0.2
     },
     {
       "script": "verify_skill_evolution_candidates.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 0.5
     },
     {
       "script": "verify_skill_evolution_local_first.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 1.0
+      "status": "FAIL",
+      "detail": "ModuleNotFoundError: No module named 'dotenv'",
+      "secs": 0.1
     },
     {
       "script": "verify_skill_system_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 23.8
-    },
-    {
-      "script": "verify_steering_compass.py",
-      "status": "FAIL",
-      "detail": "  /jh-next-problem                          \u2014 map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer",
-      "secs": 27.3
+      "secs": 19.1
     },
     {
       "script": "verify_steering_compass_quality.py",
       "status": "PASS",
       "detail": "",
-      "secs": 2.3
+      "secs": 2.6
     },
     {
       "script": "verify_subagent_approval_language.py",
       "status": "PASS",
       "detail": "",
-      "secs": 2.3
+      "secs": 2.4
     },
     {
       "script": "verify_subagent_readiness.py",
@@ -438,27 +508,39 @@
     },
     {
       "script": "verify_system.py",
-      "status": "FAIL",
-      "detail": "- Run `python execution/sync_registries.py` to rebuild SKILL_INDEX.md and AGENT_INDEX.md",
-      "secs": 0.8
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.4
     },
     {
       "script": "verify_system_control_plane.py",
       "status": "FAIL",
-      "detail": "AssertionError: /Users/farricecain/Google Antigravity/.venv/bin/python3 execution/verify_operator_core_fast_proof.py timed out after 90s:",
-      "secs": 229.4
+      "detail": "AssertionError: workflow_router source-command-health-check-status expected first route in ['health-check'], got /system-audit",
+      "secs": 16.2
+    },
+    {
+      "script": "verify_systems_thinking_expertise_overlay.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
     },
     {
       "script": "verify_video_context_source_package.py",
-      "status": "SKIP",
-      "reason": "per-artifact checker (requires package arg); fires per-extraction, not standalone",
-      "secs": 0
+      "status": "FAIL",
+      "detail": "verify_video_context_source_package.py: error: the following arguments are required: package",
+      "secs": 0.1
     },
     {
       "script": "verify_virtuoso_orchestration.py",
       "status": "PASS",
       "detail": "",
-      "secs": 73.3
+      "secs": 42.1
+    },
+    {
+      "script": "verify_wiring_audit.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
     }
   ]
 }
