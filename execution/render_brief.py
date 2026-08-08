@@ -67,6 +67,17 @@ inside title/heading fields to set it in the italic-serif accent voice):
       "steps":[{"title":"...", "note":"..."}]},
     {"kind":"stats",    "heading":"by the numbers",
       "items":[{"value":"229", "unit":"engagers", "label":"4 POSTS SCRAPED", "note":"$0.50 total"}]},
+
+    # ── chart kinds (2026-08-07). Inline SVG, no libraries, tokens from the template.
+    # A chart earns its place or it is not emitted: the CALLER drops the section when
+    # the series is flat or too short (see mission_brief.py::chart_earns_place).
+    {"kind":"spark",    "heading":"momentum", "caption":"optional",
+      "series":[{"label":"sessions", "values":[0,1,3,2,4], "value":"10", "unit":"in 14d",
+                 "note":"per day"}]},            # each series scaled to its OWN range
+    {"kind":"progress", "heading":"where this stands", "note":"optional line under",
+      "stages":[{"label":"research", "state":"done"},      # done | current | todo | blocked
+                {"label":"draft",    "state":"current", "note":"optional"},
+                {"label":"shipped",  "state":"todo"}]},
     {"kind":"matrix",   "heading":"where things sit",
       "axes":{"x":"effort →", "y":"↑ impact"},
       "quads":[{"label":"HIGH IMPACT · LOW EFFORT",
@@ -325,6 +336,101 @@ def render_stats(num, s):
             f'<div class="stats">{"".join(tiles)}</div></section>')
 
 
+def _spark_svg(values):
+    """Inline sparkline SVG for one series. Returns "" when there's nothing to draw.
+
+    Non-uniform scaling (preserveAspectRatio=none) lets the chart fill its box at
+    any width; vector-effect keeps the strokes 1px instead of stretching with it.
+    That rules out circles as markers — a scaled circle becomes an ellipse — so
+    "you are here" is a vertical hairline, which survives the same transform.
+    """
+    vals = [float(v) for v in values if isinstance(v, (int, float))]
+    if len(vals) < 2:
+        return ""
+    W, H, PAD = 100.0, 30.0, 3.0
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or 1.0
+    step = W / (len(vals) - 1)
+
+    def xy(i, v):
+        x = i * step
+        # Flat series (hi == lo) draws down the middle rather than pinned to an edge.
+        y = H / 2 if hi == lo else (H - PAD) - ((v - lo) / span) * (H - 2 * PAD)
+        return f"{x:.2f},{y:.2f}"
+
+    pts = " ".join(xy(i, v) for i, v in enumerate(vals))
+    first_x, last_x = 0.0, (len(vals) - 1) * step
+    area = f"M0,{H:.2f} L" + " L".join(pts.split(" ")) + f" L{last_x:.2f},{H:.2f} Z"
+    return (
+        f'<svg class="sparksvg" viewBox="0 0 {W:.0f} {H:.0f}" preserveAspectRatio="none" '
+        f'aria-hidden="true" focusable="false">'
+        f'<path class="sparkarea" d="{area}"/>'
+        f'<polyline class="sparkline" points="{pts}" vector-effect="non-scaling-stroke"/>'
+        f'<line class="sparknow" x1="{last_x:.2f}" y1="0" x2="{last_x:.2f}" y2="{H:.0f}" '
+        f'vector-effect="non-scaling-stroke"/>'
+        f'<line class="sparkbase" x1="{first_x:.2f}" y1="{H:.0f}" x2="{last_x:.2f}" y2="{H:.0f}" '
+        f'vector-effect="non-scaling-stroke"/>'
+        f"</svg>"
+    )
+
+
+def render_spark(num, s):
+    """Momentum row: label · sparkline · current value. One card per series.
+
+    Each series is scaled to its OWN range — a sparkline answers "what shape is
+    this trend", not "how does it compare to that one" (that's what `bars` is for
+    with its shared scale). A series that can't be drawn degrades to its value
+    alone rather than printing an empty box.
+    """
+    cards = []
+    for x in s.get("series", []):
+        svg = _spark_svg(x.get("values") or [])
+        value = x.get("value")
+        val_html = ""
+        if value is not None and str(value) != "":
+            unit = f"<small> {esc(x['unit'])}</small>" if x.get("unit") else ""
+            val_html = f'<div class="sparkval">{esc(value)}{unit}</div>'
+        note = f'<span class="sparknote">{esc(x.get("note"))}</span>' if x.get("note") else ""
+        cards.append(
+            f'<div class="sparkcard"><div class="sparkhead">'
+            f'<span class="sparklab">{esc(x.get("label"))}</span>{note}</div>'
+            f'<div class="sparkplot">{svg}</div>{val_html}</div>'
+        )
+    if not cards:
+        return ""
+    caption = f'<div class="bars-caption">{esc(s.get("caption"))}</div>' if s.get("caption") else ""
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
+            f'<div class="spark">{"".join(cards)}</div>{caption}</section>')
+
+
+PROGRESS_STATES = {"done", "current", "todo", "blocked"}
+
+
+def render_progress(num, s):
+    """Segmented stage bar — where a thing sits in its own lifecycle.
+
+    Stages are ordered and named by the caller, so this works for a mission
+    (research → shipped → outcome) or any other pipeline without the renderer
+    knowing the vocabulary.
+    """
+    stages = s.get("stages") or []
+    if not stages:
+        return ""
+    segs, labs = [], []
+    for st in stages:
+        state = str(st.get("state") or "todo").lower()
+        if state not in PROGRESS_STATES:
+            state = "todo"
+        segs.append(f'<i class="pseg {state}"></i>')
+        mark = '<span class="pdot"></span>' if state == "current" else ""
+        note = f'<span class="pnote">{esc(st.get("note"))}</span>' if st.get("note") else ""
+        labs.append(f'<div class="plab {state}">{mark}<span>{esc(st.get("label"))}</span>{note}</div>')
+    note = f'<div class="bars-caption">{esc(s.get("note"))}</div>' if s.get("note") else ""
+    return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag"))}'
+            f'<div class="progress"><div class="ptrack">{"".join(segs)}</div>'
+            f'<div class="plabs">{"".join(labs)}</div></div>{note}</section>')
+
+
 def render_matrix(num, s):
     axes = ""
     if s.get("axes"):
@@ -368,6 +474,8 @@ RENDERERS = {
     "timeline": render_timeline,
     "flow": render_flow,
     "stats": render_stats,
+    "spark": render_spark,
+    "progress": render_progress,
     "matrix": render_matrix,
     "related": render_related,
 }
