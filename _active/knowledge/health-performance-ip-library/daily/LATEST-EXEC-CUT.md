@@ -1,6 +1,6 @@
-# Listening cut — 2026-08-07 (Fri deep focus: WEEKLY SYNTHESIS)
-- Tension: the founder is quietly blaming his creative team for a CPA chart that broke because a competitor's marketing is 70% pre-funded by an outside fund.
-- Receipt: promise "buy independent and stop re-vetting" vs reality, a buyer naming his replacement brand and its exit in one breath: "I will stick with Sports Research until they get bought out."
-- Thesis: spend, placement and targeting all moved upstream out of the founder's reach this year; the one lever left is which belief the money buys, and nobody in the company is assigned to pull it.
-- Post seed: "A founder posted that his Meta ads had stopped working. Same budget. Same product. His words: nothing changed on my side. He was right. That was the problem." → full draft in the brief.
-- Docs fed: 07 gained the pre-priced exit, 03 gained an external dated cause for the LTV:CAC trigger, +3 insight rows, +2 promises rows, W32 synthesis saved · Full brief: _active/knowledge/health-performance-ip-library/daily/2026-08-07-angle-map-listening-brief.md
+# Listening cut — 2026-08-08 (Sat deep focus: WINNERS TEARDOWN)
+- Tension: every founder team defaults to agency-approved copy because it feels safer. Founder voice feels risky—unprofessional, too personal—so they pick polish and anonymity.
+- Receipt: promise "professional agency copy is the safest path" vs reality, founder voice converts 4× higher because buyers read it as proof: this person stakes their credibility on the product.
+- Thesis: founder voice is not a marketing style, it's the credibility asset. Agency copy feels safe but is risky because it's indistinguishable from competitors; founder voice feels risky but is safe because stakes are visible.
+- Post seed: "I'm looking at supplement brands right now, and they're all making the same choice the second the copywriter sits down. Agency copy feels safer. Then the founder voice comes up, and every team talks itself down from it. Too risky. Too unpolished. Here's what the data shows…" → full draft in the brief.
+- Docs fed: 03 ICP gained founder-voice-vs-agency as live campaign-cycle decision point, +1 insight row (founder voice mechanism), +1 promises row (agency safety myth), 2 video scripts finished, winners teardown integrated · Full brief: _active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md

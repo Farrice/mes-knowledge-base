@@ -184,3 +184,15 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-07
   ⚑ launchd com.antigravity.verify-fleet: log silent 12d (cadence allows 9) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.verify-fleet`
   ⚑ launchd com.antigravity.weekly-harness-cards: no log evidence at all — job may never have run; `launchctl list com.antigravity.weekly-harness-cards` to confirm
   ⚑ verifier fleet: 12/73 failing (run 2026-07-26) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-08.json (11 flag(s))
+  ⚑ routine com.antigravity.angle-map-listening: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log
+  ⚑ routine com.antigravity.pulse-serve: last exit -15 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/pulse/serve.log
+  ⚑ .tmp at 6,388MB / 107,900 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ 26 remote branches — content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 2319 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ launchd com.antigravity.cos-notify: log silent 9d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
+  ⚑ launchd com.antigravity.skills-sync: no log evidence at all — job may never have run; `launchctl list com.antigravity.skills-sync` to confirm
+  ⚑ launchd com.antigravity.verify-fleet: log silent 13d (cadence allows 9) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.verify-fleet`
+  ⚑ launchd com.antigravity.weekly-harness-cards: no log evidence at all — job may never have run; `launchctl list com.antigravity.weekly-harness-cards` to confirm
+  ⚑ verifier fleet: 12/73 failing (run 2026-07-26) — each is a contract the system claims to hold; triage in weekly closeout

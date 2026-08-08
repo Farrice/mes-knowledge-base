@@ -10,7 +10,7 @@
 |---|---|---|---|
 | 1 | Offer wargame + cash-first activation + battle card + fresh research | ✅ DONE 07-29 | `02-offer/OFFER-WARGAME-2026-07-28.md` · `03-launch/2026-07-29-CASH-FIRST-ACTIVATION.md` · `01-research/ICP-BATTLE-CARD.md` |
 | 2 | Profile go-live master doc (Take A locked, banner brief, Featured w/ $750 Angle Map, all fields) | ✅ DONE 07-28 | `03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` |
-| 2b | External activation: send first 5 verified one-gap DMs and log them; add real $750 payment rail before second touch/quote | 🟡 PREP READY 07-31 | `05-lead-gen/2026-07-31-MISSION-2B-SEND-READINESS.md` · DMs finalized + payment setup guide + send checklist |
+| 2b | External activation: send first 5 verified one-gap DMs and log them; add real $750 payment rail before second touch/quote | 🟡 PREP READY 07-31 → **EXECUTION BRIEF LIVE 08-08** | `05-lead-gen/2026-07-31-MISSION-2B-SEND-READINESS.md` · DMs finalized + payment setup guide + send checklist |
 | 3 | One-gap DM system + 5 evidence-grounded examples + first-wave candidate research | ✅ DONE 07-29 | `05-lead-gen/ONE-GAP-DM-SYSTEM-2026-07-29.md` · `05-lead-gen/FIRST-WAVE-PROSPECTS-2026-07-29.md` |
 | 4 | Teardown #1 → 10-slide PDF carousel (publishes Fri 07-31) | ✅ DONE 07-29 | `03-launch/carousels/2026-07-29-carousel-01-transparent-labs-10-slide.md` · source: teardown-01 |
 | 5 | Teardowns #2/#3 → carousels (publish 08-04, 08-06) | ✅ DONE 08-04 | `03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md` · `03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md` |

@@ -2,3 +2,10 @@
 [pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
 [pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
 [pulse_serve] refused cross-origin POST from https://evil.example
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 1s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 1s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 1s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 1s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 1s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 2s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 542s ago)

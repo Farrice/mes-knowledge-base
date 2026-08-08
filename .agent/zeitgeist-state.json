@@ -1,6 +1,6 @@
 {
   "last_run": {
-    "ai-consulting-linkedin": "2026-08-07",
+    "ai-consulting-linkedin": "2026-08-08",
     "supplement-brands": "2026-08-06",
     "ai-tools-creator": "2026-08-06",
     "jen-sfv-realestate": "2026-08-06"
@@ -53,6 +53,12 @@
       "lane": "ai-consulting-linkedin",
       "cost": 0.0257,
       "live_pulls": 3
+    },
+    {
+      "ts": "2026-08-08T13:22:21Z",
+      "lane": "ai-consulting-linkedin",
+      "cost": 0.0352,
+      "live_pulls": 4
     }
   ]
 }

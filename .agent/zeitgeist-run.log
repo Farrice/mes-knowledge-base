@@ -22,3 +22,20 @@ Two things worth flagging from the run, both mechanical, neither invented:
 The brief itself is built on the 14 items that were real — 10 LinkedIn profiles and 4 Threads posts — and says so in the caveats rather than padding to look full. The finding that survived: 0 of 10 profiles ranking for "AI consultant" name an offer or a price, and the most concrete line in the entire set is a VAT registration.
 released
 === 2026-08-07 06:27:39 zeitgeist run end rc=0 ===
+=== 2026-08-08 06:20:03 zeitgeist run start ===
+claimed: 93a3d2bd1846  (heartbeat every wave: session_lock.py heartbeat 93a3d2bd1846)
+[zeitgeist] ai-consulting-linkedin: 4/4 pulls live, $0.0352 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-08-ai-consulting-linkedin-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-08-ai-consulting-linkedin-signals.json"]}
+**zeitgeist · ai-consulting-linkedin · 2026-08-08** → `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html` · gdoc skipped (`gws` not on PATH in this headless run) · $0.0352 · index refreshed (30 briefs, shelves clean).
+
+Three things worth knowing about this run:
+
+- **Reddit recovered** (it 400'd yesterday), so the brief could compare supply side (10 LinkedIn profiles) against demand side (10 Reddit threads) instead of describing one room. That comparison is the brief's thesis.
+- **The X/twitter actor failed for the second consecutive day** — 15 identical KaitoEasyAPI billing placeholders, `type: "mock_tweet"`, `id: -1`. It reports `status: ok`, so the engine counts it as a live pull. That's logged in the caveats and ledger as a standing failure, not as quiet market.
+- **The Threads query is drifting off-lane** — all 3 results for `"ai agents"` were off-topic (a MetaMask wallet post, a hype template that also appeared in yesterday's pull, an oct-2025 list). It contributed nothing but a caveat.
+
+Prose gate: FLAGGED at 9.5 on first pass (14 em-dashes, a "here's what" lead-in, two antithesis constructions), rewritten to CLEAN at 1.5. The one residual signal is a verbatim quote from a real profile's surname field, kept as evidence.
+
+I wrote to the main tree rather than a lane: the session lock the AUTO-LANE alarm fired on is held by mission `zeitgeist daily run` (pid 82584) — this run's own lock — and prior daily runs render straight to main so the Briefing Room index stays single-writer.
+released
+=== 2026-08-08 06:27:54 zeitgeist run end rc=0 ===

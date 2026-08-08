@@ -1,13 +1,13 @@
 {
-  "session_sweep": "2026-08-07T22:47:18.977102",
+  "session_sweep": "2026-08-08T02:48:09.252992",
   "status": "ok",
   "synthesis_rc": 0,
   "synthesized": true,
   "counts": {
-    "sessions": 128,
-    "threads_seen": 434,
+    "sessions": 133,
+    "threads_seen": 433,
     "threads_promoted": 12,
-    "deliverables": 72,
+    "deliverables": 60,
     "artifacts": 137,
     "assets": 247,
     "artifacts_vanished": 86,

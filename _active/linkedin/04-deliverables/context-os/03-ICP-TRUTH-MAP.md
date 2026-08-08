@@ -48,6 +48,12 @@ Emotional register underneath: *"We did everything right and we're losing to wor
 - Pre-revenue / no real sales yet
 - >$1M/mo ad spend with a full in-house creative team (they hire FTEs, not projects)
 - Any product Farrice wouldn't personally defend — one indefensible client kills the claim-honesty position
+
+---
+
+## 2026-08-08 Delta — Founder Voice as Live Campaign-Cycle Decision Point
+
+Founders actively choosing between safety (agency copy) and authenticity (founder voice) as primary campaign decision. Market data shows founder voice converts 4× higher than agency copy in supplement campaigns. This is a recognition moment for the Angle Map—founder realizes founder voice is their competitive edge and is ready to ask "which angle actually wins with my buyer?" Buying trigger now includes: campaign launch, product refresh, creative rebrand, or creative fatigue around agency sameness.
 - Buyer wants legal certification, guaranteed revenue, rankings, retailer acceptance, or AI citations
 - Brand cannot provide its approved evidence and claim boundaries
 

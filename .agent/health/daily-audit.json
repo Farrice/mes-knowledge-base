@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-07T06:00:04.649356",
+  "timestamp": "2026-08-08T06:02:58.373665",
   "projects_index": {
     "exit": 0,
-    "out": "Wrote PROJECTS.md (63 projects, 9 drift items)"
+    "out": "Wrote PROJECTS.md (13 projects, 12 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
@@ -31,9 +31,9 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 128,
-    "coverage": "3754/3754",
-    "orphans_total": 10,
+    "new": 8,
+    "coverage": "3762/3762",
+    "orphans_total": 12,
     "flips": [],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",

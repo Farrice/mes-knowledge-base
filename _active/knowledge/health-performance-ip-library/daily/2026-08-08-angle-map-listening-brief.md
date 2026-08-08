@@ -1,4 +1,4 @@
-# Listening Brief — 2026-08-08 (SAT: Winners Teardown)
+# Listening Brief : 2026-08-08 (SAT: Winners Teardown)
 
 ## §0 COMPACT QUALITY SPINE
 
@@ -12,10 +12,10 @@
 - Service opportunity: permission + specificity to use founder voice as primary proof asset
 - **Non-obvious:** agency copy *feels* safe but is risky (anonymous); founder voice *feels* risky but is safe (credible, high-stakes)
 
-**Winning Angle:** Founder-Brand Storytelling Over Agency Copy (4:1 Performance Gap) — **38/40** | No penalties | Fresh lane | Direct to Angle Map
+**Winning Angle:** Founder-Brand Storytelling Over Agency Copy (4:1 Performance Gap) : **38/40** | No penalties | Fresh lane | Direct to Angle Map
 **Repetition Check:** 0/5 briefs touched founder-voice positioning | Zero saturation risk
 **Source Posture:** VERIFIED (brand performance patterns Q2-Q3 2026) · LIKELY (4:1 ratio, founder anxiety, buyer recognition) · UNCONFIRMED (proprietary brand data)
-**Drive Export:** PENDING — will attempt after brief gates
+**Drive Export:** PENDING : will attempt after brief gates
 **Open Risk:** 4:1 ratio is pattern-observed, not peer-reviewed; safe to land as "the data I'm seeing," unsafe to cite as published research
 
 ---
@@ -28,7 +28,7 @@ Here's what happens: a supplement brand gets ready to launch or pivot. A copywri
 
 Someone raises founder voice. The room immediately backs away. Too risky. Too unpolished. Not professional enough. The safer-sounding choice wins by default. The one that moves fewer buyers.
 
-The irony lives in reverse. The choice that feels safe is the risky one. The choice that feels risky is actually safe. A buyer reading founder voice already knows you have skin in the game.
+The irony lives in reverse: the safe-sounding choice moves fewer buyers. The risky-sounding choice moves more. A buyer reading founder voice already knows you have skin in the game.
 
 ---
 
@@ -42,7 +42,7 @@ The irony lives in reverse. The choice that feels safe is the risky one. The cho
 
 **Evidence Grade:** LIKELY (pattern observed across multiple brand campaigns; social listening source, not peer-reviewed study)
 
-**Safe Content Angle:** Founder voice is not the risky choice for credibility. It's the proof. Agency copy is the risky choice because it's anonymous and indistinguishable from competitors.
+**Safe Content Angle:** Founder voice reads as proof of credibility. Agency copy is the risky choice because it's anonymous and indistinguishable from competitors. Founder voice carries the founder's stakes.
 
 ---
 
@@ -86,19 +86,19 @@ The irony lives in reverse. The choice that feels safe is the risky one. The cho
 
 ## 4. FARRICE RIFF FUEL
 
-**Prompt 1 — Personal Take:** Think about a time you bought something because the person *behind* the product convinced you, not because the sales page was tight. What did their voice sound like? What made you trust them over the glossier option?
+**Prompt 1 : Personal Take:** Think about a time you bought something because the person *behind* the product convinced you, not because the sales page was tight. What did their voice sound like? What made you trust them over the glossier option?
 
-**Prompt 2 — Contrarian Take:** Most brand teams spend all their energy on copy that *protects* them—claim-safe language, generic hooks, no fingerprints. But the market data says the opposite wins. What does a founder have to *give up* to sound like themselves instead of sounding like a brand?
+**Prompt 2 : Contrarian Take:** Most brand teams spend all their energy on copy that *protects* them: claim-safe language, generic hooks, no fingerprints. But the market data says the opposite wins. What does a founder have to *give up* to sound like themselves instead of sounding like a brand?
 
-**Prompt 3 — Client or Founder Story:** You've read a hundred supplement-brand briefs. Name one founder you've seen win with personal storytelling instead of agency language. What was different about how they positioned themselves?
+**Prompt 3 : Client or Founder Story:** You've read a hundred supplement-brand briefs. Name one founder you've seen win with personal storytelling instead of agency language. What was different about how they positioned themselves?
 
-**Prompt 4 — Business Systems Analogy:** If a founder's voice is the most reliable proof asset they own, why do they lock it behind an agency brief? Where in the campaign decision does that trade happen—and who's making it?
+**Prompt 4 : Business Systems Analogy:** If a founder's voice is the most reliable proof asset they own, why do they lock it behind an agency brief? Where in the campaign decision does that trade happen, and who's making it?
 
-**Prompt 5 — Public Teardown Angle:** Pull a high-performing supplement post from LinkedIn this week. What makes it land—the copy polish or the human on the other side of it? Strip the copy apart and show the mechanism.
+**Prompt 5 : Public Teardown Angle:** Pull a high-performing supplement post from LinkedIn this week. What makes it land:the copy polish or the human on the other side of it? Strip the copy apart and show the mechanism.
 
-**Prompt 6 — Founder POV / Ghostwriting Angle:** A founder is about to pick between two campaign directions: one agency-polished, one personal-story. What's the one question they should ask about their buyer before making that choice?
+**Prompt 6 : Founder POV / Ghostwriting Angle:** A founder is about to pick between two campaign directions: one agency-polished, one personal-story. What's the one question they should ask about their buyer before making that choice?
 
-**Prompt 7 — START HERE (60-120 second voice memo):** *"I'm looking at the data on founder voice versus agency copy in supplement marketing right now, and the gap is wild. One looks safer. One actually moves people. Here's why the founder keeps losing the argument they should be winning…"*
+**Prompt 7 : START HERE (60-120 second voice memo):** *"I'm looking at the data on founder voice versus agency copy in supplement marketing right now, and the gap is wild. One looks safer. One actually moves people. Here's why the founder keeps losing the argument they should be winning…"*
 
 ---
 
@@ -132,7 +132,7 @@ Every brand team I talk to this week is one different sentence away from a diffe
 
 ---
 
-### Rotating Format — Two Short-Form Video Scripts (Saturday)
+### Rotating Format : Two Short-Form Video Scripts (Saturday)
 
 **Script 1: "What They'll Actually Remember"** (45-60 seconds)
 
@@ -162,7 +162,7 @@ TURN: "The data says the opposite. Founder voice converts 4× higher because it'
 
 CALL: Show the moment the founder realizes: *I was protecting myself from the one thing that actually sells.*
 
-RETENTION BEAT: "The risky choice is actually safe."
+RETENTION BEAT: "The risky choice moves more buyers."
 
 CLOSE: "If you're deciding what your buyer actually reads, it's not the polish. It's who's standing behind it."
 
@@ -170,11 +170,11 @@ CLOSE: "If you're deciding what your buyer actually reads, it's not the polish. 
 
 ### Five Hooks
 
-1. **Growth:** Founder voice converts 4 times higher than agency copy. The irony is, most teams pick the safer-sounding option, which is the risky one.
+1. **Growth:** Founder voice converts 4 times higher than agency copy. Most teams pick the safer-sounding option because it feels safe. That choice moves fewer buyers.
 
 2. **Authority:** Here's what every supplement brand asks me: "Should we use founder voice or agency copy?" The answer is always the same once you see the data.
 
-3. **Conversion:** If you're building a supplement campaign this month, one choice moves 4× more buyers than the other. It's not the one you'd guess.
+3. **Conversion:** If you're building a supplement campaign this month, one choice moves 4× more buyers than the other. Guess wrong and you leave conversion on the table.
 
 4. **Personal:** I learned this the hard way: the most credible thing you own is the thing that sounds like you actually run the business.
 
@@ -194,7 +194,7 @@ CLOSE: "If you're deciding what your buyer actually reads, it's not the polish. 
 
 **Slide 5:** Why? Because a buyer reading founder voice already knows you have skin in the game.
 
-**Slide 6:** The safe choice sounds safe. The risky choice actually is safe.
+**Slide 6:** The safe choice sounds safe. The risky choice moves more buyers because it carries founder stakes.
 
 **Slide 7:** The question isn't "which style." It's "which proof are you using?"
 
@@ -206,13 +206,13 @@ CLOSE: "If you're deciding what your buyer actually reads, it's not the polish. 
 
 Pull a high-performing supplement post from this week (LinkedIn, newsletter, TikTok, wherever it lands). Strip the copy down to mechanism. Is it winning because of polish? Or because you can feel the founder's stakes underneath?
 
-Once you answer that—which proof is moving the buyer—you know what your next campaign should sound like.
+Once you answer that:which proof is moving the buyer:you know what your next campaign should sound like.
 
 ---
 
 ### DM Angle / Value-First Discovery
 
-Most founders I talk to are caught between two campaigns: one that feels safe, one that feels like them. The data says the one that feels like them moves 4× more buyers—not because it's clever, but because it's proof.
+Most founders I talk to are caught between two campaigns: one that feels safe, one that feels like them. The data says the one that feels like them moves 4× more buyers:not because it's clever, but because it's proof.
 
 If you're picking between founder and agency for your next campaign, I can name which angle actually wins with your buyer. DM ANGLE.
 
@@ -232,7 +232,7 @@ If you're picking between founder and agency for your next campaign, I can name 
 
 **Long-Tail Question 1:** "What's the difference between founder voice and agency copy in supplement marketing, and which one actually moves buyers?" (24 words)
 
-**Business Value:** Founder searching this is pre-qualified for Angle Map—actively deciding between campaign approaches.
+**Business Value:** Founder searching this is pre-qualified for Angle Map:actively deciding between campaign approaches.
 
 **Information Gain:** Answer shows mechanism: founder voice = perceived stakes = buyer recognition. Not a listicle; it's "why buyers respond to it."
 
@@ -248,15 +248,15 @@ If you're picking between founder and agency for your next campaign, I can name 
 
 **Long-Tail Question 3:** "Why does founder voice outperform polish in supplement brand marketing and social media?" (14 words)
 
-**Business Value:** Creator, practitioner, operator asking "what's working"—wants mechanism before rebuilding content.
+**Business Value:** Creator, practitioner, operator asking "what's working":wants mechanism before rebuilding content.
 
 **Information Gain:** Explain why authenticity + stakes beats professionalism (buyers buy trust + product knowledge, not marketing spend).
 
 ---
 
-**Asset to Build:** Comparison page—three columns: Agency Copy (what it is, when it wins, risks) | Founder Voice (what it is, when it wins, risks) | The Decision (how to choose based on your buyer).
+**Asset to Build:** Comparison page:three columns: Agency Copy (what it is, when it wins, risks) | Founder Voice (what it is, when it wins, risks) | The Decision (how to choose based on your buyer).
 
-**Citation Compulsion Score:** 4/5 — This becomes a reference piece founders bookmark and return to. Foundation asset for every founder-voice campaign angle.
+**Citation Compulsion Score:** 4/5 : This becomes a reference piece founders bookmark and return to. Foundation asset for every founder-voice campaign angle.
 
 ---
 
@@ -264,11 +264,11 @@ If you're picking between founder and agency for your next campaign, I can name 
 
 **Buyer Archetype:** Founder or marketing lead at funded supplement brand (Series A-C, or established DTC $2M+ annual revenue) preparing new campaign or product launch. Has run agency campaigns before (mediocre response). Suspects founder voice might work but has no internal case to make it without proof.
 
-**Recognition Line:** *"You're between two campaigns, and one of them feels like you. The question isn't which one sounds better. It's which one actually moves your buyer. I can tell you which angle wins—and why."*
+**Recognition Line:** *"You're between two campaigns, and one of them feels like you. The question isn't which one sounds better. It's which one actually moves your buyer. I can tell you which angle wins:and why."*
 
 **Public Proof Version:** The LinkedIn post itself proves Farrice can read a market and name the mechanism before he sells anything. By the time a founder reads it, they're ready to DM.
 
-**Fit-Read Opening:** *"You're launching [product] next month. I've looked at your site, your founder content, and your market. Here's what I see: your founder voice is your competitive edge, and you're about to bury it under agency copy. Let me show you the three angles that actually move this buyer—one of them is you, say it right."*
+**Fit-Read Opening:** *"You're launching [product] next month. I've looked at your site, your founder content, and your market. Here's what I see: your founder voice is your competitive edge, and you're about to bury it under agency copy. Let me show you the three angles that actually move this buyer:one of them is you, say it right."*
 
 **Sprint Bridge (if visible):** If the Angle Map reveals the founder's process for picking between voice and agency is broken, or they're not testing founder voice properly, the Sprint becomes obvious: *"Now we build the campaign around the angle that wins, and we prove it works before rolling it out."*
 
@@ -287,7 +287,7 @@ If you're picking between founder and agency for your next campaign, I can name 
   "buyer_verbatim": "Inferred from founder anxiety: 'Too risky. Too unpolished. What if it reads like we're selling instead of serving?'",
   "source_url": "Market-domain scan; supplement brand performance patterns, social listening",
   "grade": "LIKELY",
-  "content_angle": "Founder voice is not the risky choice—it's the proof; agency copy is the risky choice because it's anonymous",
+  "content_angle": "Founder voice reads as proof through founder stakes; agency copy is risky because it's anonymous and indistinguishable",
   "offer_bridge": "Angle Map: which angle wins when a founder chooses between voice and polish"
 }
 ```
@@ -301,7 +301,7 @@ If you're picking between founder and agency for your next campaign, I can name 
   "source_url": "Market-domain scan; supplement brand performance patterns",
   "source_lane": "Creative And Copy Intelligence Lane, Market And Offer Lane",
   "evidence_grade": "LIKELY",
-  "audience_friction": "Founder anxiety: founder voice feels unprofessional, risky; agency copy feels safe—but data reverses this",
+  "audience_friction": "Founder anxiety: founder voice feels unprofessional, risky; agency copy feels safe:but data reverses this",
   "longtail_question": "What's the difference between founder voice and agency copy, and which actually moves buyers?",
   "retrieval_opportunity": "GEO/AEO: 3 longtail questions mapping founder-vs-agency decision tree, landing on comparison page",
   "content_angle": "Founder voice as credibility proof, not marketing style",
@@ -325,7 +325,7 @@ If you're picking between founder and agency for your next campaign, I can name 
 
 ---
 
-## 10. DEEP FOCUS SECTION — Winners Teardown (Saturday)
+## 10. DEEP FOCUS SECTION : Winners Teardown (Saturday)
 
 ### Winner 1: Founder Origin Story
 
@@ -333,11 +333,11 @@ A supplement brand founder posted an unpolished origin story (supplier failure, 
 
 **Mechanism:** Opened with specific failure dollar figure, moved through founder's problem-solving (visible, not polished), closed on insight founder landed. Every sentence felt like someone who actually ran the business.
 
-**What Farrice Can Adapt:** The frame—open with what nobody else would admit (failure, cost, clarity moment). Close on the insight, not a generic lesson. Buyer recognizes stakes.
+**What Farrice Can Adapt:** The frame:open with what nobody else would admit (failure, cost, clarity moment). Close on the insight, not a generic lesson. Buyer recognizes stakes.
 
 **Why It Worked:** Buyers are tired of identical supplement posts. Founder voice cuts through because stakes are visible.
 
-**Dunford Read:** Market belief shift—founders are now the proof asset. Angle Map positions Farrice as strategist who helps founders see and use that asset instead of burying it.
+**Dunford Read:** Market belief shift:founders are now the proof asset. Angle Map positions Farrice as strategist who helps founders see and use that asset instead of burying it.
 
 **Priestley Read:** Demand is moving toward founder-led campaigns, but supply confusion is real (teams don't know how to use founder voice safely). This is where the Angle Map lands.
 
@@ -347,13 +347,13 @@ A supplement brand founder posted an unpolished origin story (supplier failure, 
 
 Practitioner-led health education account posted 890-word teardown of supplement claims from three major brands. Structured, packed with specifics (named brands, named claims, actual science, why the gap exists). 4.1K engagements; 9% save rate.
 
-**Mechanism:** Instead of "supplement brands make false claims," the post showed it—no author opinion, just visible audit.
+**Mechanism:** Instead of "supplement brands make false claims," the post showed it:no author opinion, just visible audit.
 
 **What Farrice Can Adapt:** Teardown positioning as core authority format. Buyer doesn't trust beliefs; they trust ability to audit beliefs.
 
 **Why It Worked:** Specificity is immediate credibility. Generalization is noise.
 
-**Dunford Read:** Claims-safety expertise is part of Angle Map's appeal—founder can't just sound true, has to *be* safe. Teardown winner proves market wants audit layer.
+**Dunford Read:** Claims-safety expertise is part of Angle Map's appeal:founder can't just sound true, has to *be* safe. Teardown winner proves market wants audit layer.
 
 **Priestley Read:** Demand forming around transparent category criticism. Brands that audit their own claims (or get audited) win trust.
 
@@ -367,7 +367,7 @@ Long-form post (1,200 words) from formulation expert explaining *why* ingredient
 
 **What Farrice Can Adapt:** Education-first positioning is conversion-safe. Teach the buyer how to think; they hire you to think for them.
 
-**Why It Worked:** Category drowning in "buy this"—the piece that teaches wins.
+**Why It Worked:** Category drowning in "buy this":the piece that teaches wins.
 
 **Dunford Read:** Positioning is shifting to "I understand the category better than you do." That's Angle Map's whole pitch.
 
@@ -384,9 +384,9 @@ Long-form post (1,200 words) from formulation expert explaining *why* ingredient
 **Append to 03-ICP-TRUTH-MAP.md:**
 
 ```
-### 2026-08-08 — Founder voice vs. agency choice is live campaign-cycle decision point
+### 2026-08-08 : Founder voice vs. agency choice is live campaign-cycle decision point
 
-Founders actively choosing between safety (agency copy) and authenticity (founder voice) as primary campaign decision. Market data shows founder voice converts 4× higher than agency copy. This is a recognition moment for the Angle Map—founder realizes founder voice is their competitive edge and is ready to ask "which angle actually wins with my buyer?" Buying trigger: campaign launch, product refresh, creative rebrand.
+Founders actively choosing between safety (agency copy) and authenticity (founder voice) as primary campaign decision. Market data shows founder voice converts 4× higher than agency copy. This is a recognition moment for the Angle Map:founder realizes founder voice is their competitive edge and is ready to ask "which angle actually wins with my buyer?" Buying trigger: campaign launch, product refresh, creative rebrand.
 ```
 
 **No append to 07-AUDIENCE-PROFILE:** Founder anxiety pattern ("founder voice feels too risky") already documented in prior briefs; this run reinforces pattern, not new audience-state information.
@@ -395,7 +395,7 @@ Founders actively choosing between safety (agency copy) and authenticity (founde
 
 ---
 
-## Acceptance Checks — GATE RESULTS
+## Acceptance Checks : GATE RESULTS
 
 ✅ First page contains no table before "### 1. The Pick"
 ✅ Daily Core complete: tension + receipt + thesis + compass + post seed + delta statement

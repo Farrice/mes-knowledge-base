@@ -129,3 +129,42 @@ Two threads where the honest read is thinner than the others: `proof-to-market` 
 released
 {"session_sweep": "2026-08-07T22:47:18.977102", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 128, "threads_seen": 434, "threads_promoted": 12, "deliverables": 72, "artifacts": 137, "assets": 247, "artifacts_vanished": 86, "overflow": 198}, "degraded": []}
 === 2026-08-07 22:47:18 mission sweep end rc=0 ===
+=== 2026-08-08 02:45:00 mission sweep start ===
+claimed: 318d9386efa2  (heartbeat every wave: session_lock.py heartbeat 318d9386efa2)
+[session_sweep] window 14d — 133 sessions, 12/433 threads promoted, 60 deliverables, 137 artifacts, 247 assets
+  · linkedin-launch                        build    handoff status: active, artifact written, asset generated
+  · teardown-1-fresh                       outcome  finalized deliverable, handoff status: active
+  · video-studio-edit-bay                  build    handoff status: ready, artifact written, asset generated
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · deep-research                          outcome  finalized deliverable, handoff status: active
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · system-audit                           outcome  finalized deliverable, handoff status: active
+  · go                                     outcome  finalized deliverable, handoff status: active
+  · writers-room                           outcome  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · execution                              research handoff status: active
+[session_sweep] over the 12-card ceiling (198), not carded: farrice-brand, 04-briefs, create, kallaway-hook-mastery, benoit-vatere, oren-slop-era-creative-strategy, linkedin-profile-content, voice-identity-stack, mission, listing-content
+[session_sweep] shipped without a live thread: 24 (surfaces on the mission board)
+[session_sweep] below the bar (223): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, alex-copper-static-acquisition, angle-brief-2026-08-06, audit-opus-built-illusion-of-novelty-vs-july-standards-enrich-5-gaps-engine-v2-invocation-card-solution-cards-x2-user-operators-guides-forge-record
+[session_sweep] wrote .agent/sweep/sweep-2026-08-08.json
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-system-audit, mission-proof-to-market, mission-go, mission-angle-map-listening-engine-v4-1, mission-deep-research …
+`.agent/sweep/synthesis.json` written — 12 threads, validated: only the five contract keys, no numbers, dates, paths or filenames anywhere in the prose.
+
+**Omitted: `execution`.** It carries no deliverables, no sessions, no activity dates and no harness — just a directory name that caught a handoff plus four closed/stopped orphan missions. There's nothing there to read honestly.
+
+**Judgment calls worth knowing:**
+
+- **`proof-to-market` kept but written short.** Zero activity in the window, but a settled offer and every mission against it closed is a real state. The lede says that and nothing more.
+- **Two threads have wrong resume lines,** and I put it in their caveats rather than silently reading around it: `system-audit`'s stored resume line describes Jen's listing work, and `deep-research`'s points at a client positioning packet unrelated to its recent runs. Both state markers are pointing at the wrong thing.
+- **`why` written only where a decision item actually renders** — `extract-forge`, `01-listing-content`, `video-studio-edit-bay` (unfinished lines), `go` and `writers-room` (idle past the threshold). The other seven produce no decision section, so a `why` there would have been dead weight.
+
+**The read across the board, which is what the board lede says:** almost every thread has a finished thing at ready and almost none has a recorded response from outside the system. Teardowns, the listing pack, the offer, the studio — all made, none answered.
+
+One note: I wrote to the main tree rather than a lane, since this file is the sweep pipeline's expected input path and the session holding the tree is running that same nightly sweep. Landing it in a worktree would have hidden it from the render.
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-system-audit, mission-proof-to-market, mission-go, mission-angle-map-listening-engine-v4-1, mission-deep-research …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (29 briefs · 29 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-08T02:48:09.252992", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 133, "threads_seen": 433, "threads_promoted": 12, "deliverables": 60, "artifacts": 137, "assets": 247, "artifacts_vanished": 86, "overflow": 198}, "degraded": []}
+{"session_sweep": "2026-08-08T02:48:09.252992", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 133, "threads_seen": 433, "threads_promoted": 12, "deliverables": 60, "artifacts": 137, "assets": 247, "artifacts_vanished": 86, "overflow": 198}, "degraded": []}
+=== 2026-08-08 02:48:09 mission sweep end rc=0 ===
