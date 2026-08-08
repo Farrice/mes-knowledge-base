@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-08",
     "usage": {
-        "total_queries": 241,
-        "estimated_cost_usd": 4.82,
+        "total_queries": 266,
+        "estimated_cost_usd": 5.32,
         "queries": [
             {
                 "timestamp": "2026-08-01T13:45:08.792869+00:00",
@@ -1932,6 +1932,206 @@
                 "description": "LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
                 "task_context": "research-engine-contrarian",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:15.639799+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:21.488901+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items pu",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:26.803854+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:31.908741+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:39.284692+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:43.155409+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:49.301116+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:52.662275+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:46:59.528046+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:05.833655+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:10.484646+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:16.510204+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:19.800947+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:24.285701+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated ev",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:32.123729+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: newsletter and Substack growth strategy \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items publis",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:36.336665+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:40.643797+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:44.848305+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:49.427299+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:47:55.596130+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:48:00.290862+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:48:04.551730+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:48:09.474142+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:48:15.104563+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-08T13:48:18.579293+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "thought leadership content ROI \u2014 latest developments from the past 14 days (as of 2026-08-08). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergreen p",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -1941,8 +2141,8 @@
     },
     "loop_detection": {
         "current_task_query_count": 1,
-        "current_task_name": "research-engine-contrarian",
-        "last_query_timestamp": "2026-08-08T13:45:45.908558+00:00",
+        "current_task_name": "research-engine-market_data",
+        "last_query_timestamp": "2026-08-08T13:48:18.579293+00:00",
         "consecutive_low_info_queries": 0
     }
 }
