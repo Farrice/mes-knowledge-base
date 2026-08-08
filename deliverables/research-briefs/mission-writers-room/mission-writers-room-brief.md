@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
+The voice work compounded; the About section needs one decision, not more variants.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.
+The profile-copy rebuild produced distinct competing takes on the About section and, more durably, ratcheted the voice card from the verdicts given along the way. It has been idle since that pass.
 
 Handoff status is active. Last activity 10d ago.
 
-Next: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2
+Next: Pick one About take and publish it, or declare the copy settled and close the thread.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
@@ -21,7 +21,7 @@ Next: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — No recorded activity in 10 days while the handoff is still active.
+1. **Decide: resume or park** — Copy that keeps getting rewritten without being chosen is the failure mode this lane already hit once — a choice ends it, another round does not.
 
 ## what this thread made
 - **2026-07-28-writers-room-pen-protocol.md** [SOLUTION] `docs/solutions/2026-07-28-writers-room-pen-protocol.md`
@@ -49,7 +49,7 @@ python3 execution/pulse_actions.py done writers-room --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+Competing takes exist with no record of one being selected or posted. Passing the internal prose check is not evidence that it lands with a reader.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

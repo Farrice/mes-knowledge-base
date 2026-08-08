@@ -2,15 +2,15 @@
 
 > MISSION · LINKEDIN · window: last 14 days · lens: claude · sources: 1 sessions · 2 files · 6 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
+Plan and assets are there; the launch is gated on the boring money plumbing.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 2 files written, 6 assets generated.
+The campaign has a live plan and generated visual assets, and the newest work is operational plumbing — getting paid rather than getting posted. It is still in build, with the campaign file as its spine.
 
 Handoff status is active. Last activity today.
 
-Next: Linkedin Launch — Teardown 04 Create Wellness
+Next: Finish the payment setup so an interested buyer has somewhere to send money.
 
 ## by the numbers
 - FILES WRITTEN: **2**
@@ -51,7 +51,7 @@ python3 execution/pulse_actions.py done linkedin-launch --outcome "<one line>"
    receipt: It leaves the open set on the next pulse regen.
 
 ## how it got here
-- 2026-08-07 · **commit f4419de35** — Mission Sweep → Briefing Room COMPLETE + Campaign unblock action
+- 2026-08-07 · **commit 3b2a2cc4f** — feat(readout-os): Mission Control + always-on served boards + repo link layer
 - 2026-07-28 · **claude session · 39 msgs** — LinkedIn Launch — About Rebuild v2 (Three Takes + Co-Creation Layer)
 
 ## swings to
@@ -61,7 +61,7 @@ python3 execution/pulse_actions.py done linkedin-launch --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+Assets exist, but nothing records them being published or any response to them. A campaign file being updated is not the same as a campaign running.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

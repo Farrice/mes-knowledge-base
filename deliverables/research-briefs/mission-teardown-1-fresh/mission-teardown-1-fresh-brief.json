@@ -2,7 +2,7 @@
   "slug": "mission-teardown-1-fresh",
   "chip": "MISSION · THREAD",
   "title": "Three named-brand teardowns (Create Wellness, Hilma, *BPN*)…",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Best teardowns the lane has produced, and its own history says the risk is they never get posted.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 0 files · 0 assets",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.\n\nHandoff status is active. Last activity today.\n\nNext: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards"
+      "body": "A fresh batch of named-brand teardowns was produced at the higher standard — each with its post, its outreach message and its own verification pass — and rendered into shareable briefs. Earlier teardowns in this lane were drafted and never posted.\n\nHandoff status is active. Last activity today.\n\nNext: Post one teardown and send its matching outreach message to that brand."
     },
     {
       "kind": "stats",
@@ -160,7 +160,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The pattern on record is production outpacing publication: prior rounds sit drafted with no outcome logged. Nothing yet shows this batch escaping that.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

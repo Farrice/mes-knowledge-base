@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
+Approved and ready to hand to the client — the only thing missing is someone pressing send.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: shipped — a deliverable was finalized. In the last 14 days: 3 deliverables finalized.
+The reel package for the listing is approved and sitting in a clean recording pack — the client-facing work is finished and unsent. A second listing's shoot sheet cycled through rejection-and-rewrite rounds in the same thread and landed on a story pass.
 
 Handoff status is ready. Last activity 2d ago.
 
-Next: Final approved three Reels are in the clean recording pack; send to Jen.
+Next: Send the approved recording pack to Jen.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
@@ -21,7 +21,7 @@ Next: Final approved three Reels are in the clean recording pack; send to Jen.
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — Optional: tighten Stories and b-roll order around the same approved spine.
+1. **Finish what's open** — This is polish, not repair — it does not gate the send, so the only real question is whether to tighten it or hand over what is already approved.
 
 ## pick it back up
 1. **Resume here** — Final approved three Reels are in the clean recording pack; send to Jen.
@@ -42,7 +42,7 @@ python3 execution/handoff_store.py resume 01-listing-content
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+Approval is recorded against the reel package, not against the follow-on shoot sheet, which was still being reworked after client rejections. Nothing here confirms anything was filmed or posted.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

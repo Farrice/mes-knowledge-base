@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-07T21:12:13",
+  "generated": "2026-08-07T22:42:36",
   "window": {
-    "since": "2026-07-24T21:12:12",
-    "until": "2026-08-07T21:12:13",
+    "since": "2026-07-24T22:42:35",
+    "until": "2026-08-07T22:42:36",
     "days": 14
   },
   "degraded": [],
   "counts": {
-    "sessions": 131,
-    "threads_seen": 436,
+    "sessions": 128,
+    "threads_seen": 434,
     "threads_promoted": 12,
     "deliverables": 72,
-    "artifacts": 136,
+    "artifacts": 137,
     "assets": 247,
     "artifacts_vanished": 86,
     "overflow": 198
@@ -1739,9 +1739,9 @@
       ],
       "commits": [
         {
-          "sha": "f4419de35",
-          "ts": "2026-08-07T21:11:26",
-          "subject": "Mission Sweep \u2192 Briefing Room COMPLETE + Campaign unblock action"
+          "sha": "3b2a2cc4f",
+          "ts": "2026-08-07T22:28:46",
+          "subject": "feat(readout-os): Mission Control + always-on served boards + repo link layer"
         }
       ],
       "missions": [
@@ -1850,7 +1850,7 @@
         ]
       },
       "first_seen": "2026-07-28T18:43:51",
-      "last_active": "2026-08-07T21:11:26"
+      "last_active": "2026-08-07T22:28:46"
     },
     "01-listing-content": {
       "slug": "01-listing-content",
@@ -3418,7 +3418,6 @@
     "forge-os-completion-all-five-lanes-production-ready-workflow-agent-native-engines-proven-plugin-engine-gate-guarded-fixture-replay-shipped-forge-conductor-agent-deployed",
     "forge-os-wave-2-live-run-plugin-lift-check-deepen-adjacent-act-batch",
     "forge-storytelling-expert-system",
-    "forked-voice-chat-context",
     "front-door-masks-first-workflow-from-minter",
     "frontier-elevation-program-v-next-8-wave-blueprint-approved-wave-0-concurrency-firewall",
     "generate",
@@ -3461,7 +3460,6 @@
     "monid-research-stack",
     "mybpm-week-1-hero-video-kandi-keeper",
     "myhouse-sellers-ready-buyer-engine",
-    "new-voice-chat",
     "night-shift-2026-08-06",
     "novelty-scorecard-lane-blind-to-coherence",
     "omar-eltakrori-teach-grow-rich",

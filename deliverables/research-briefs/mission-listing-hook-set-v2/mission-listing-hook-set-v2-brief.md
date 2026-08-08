@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
+Its lasting output was the voice profile — the hooks are stale unless the listing still is.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.
+The client's real speaking register was studied directly from her own posted videos and folded into a reusable voice profile, and a hook set was packaged for text delivery. Nothing has moved since that package was finished.
 
 Handoff status is active. Last activity 13d ago.
 
-Next: Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption confirmed, on-camera delivery documented), voice profile upgraded, lead IG caption written, hook set packaged for text delivery
+Next: Send the packaged hook set, or park the thread and keep the voice profile as the durable asset.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
@@ -21,7 +21,7 @@ Next: Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — No recorded activity in 13 days while the handoff is still active.
+1. **Decide: resume or park** — The listing-specific hooks are the perishable part; the voice profile is worth keeping either way, so parking costs almost nothing.
 
 ## pick it back up
 1. **Resume here** — Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption confirmed, on-camera delivery documented), voice profile upgraded, lead IG caption written, hook set packaged for text delivery
@@ -42,7 +42,7 @@ python3 execution/handoff_store.py resume listing-hook-set-v2
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+The voice work was built from a snapshot of how she posts today — that describes her current habits, not where the brand is heading. No record shows the package reaching her.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

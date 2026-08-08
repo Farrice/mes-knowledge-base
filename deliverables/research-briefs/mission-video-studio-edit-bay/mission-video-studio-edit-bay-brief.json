@@ -2,7 +2,7 @@
   "slug": "mission-video-studio-edit-bay",
   "chip": "MISSION · SKILLS",
   "title": "Edit Bay Video *Studio*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Everything is assembled and nothing has been shot — the next run is the real test.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 6 files · 46 assets",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 6 files written, 46 assets generated.\n\nHandoff status is ready. Last activity today.\n\nNext: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record"
+      "body": "The studio is built and has survived a shakedown render, but it has not produced a real piece yet — the pilots that would prove it are unrun, and several supporting parts are cloned or specced rather than wired.\n\nHandoff status is ready. Last activity today.\n\nNext: Run one pilot end to end and come back with the exact voiceover lines for Farrice to record."
     },
     {
       "kind": "stats",
@@ -148,7 +148,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive"
+          "why": "The build is a claim until a real video comes out of it, and the open items are precisely the ones a first pilot would expose."
         }
       ]
     },
@@ -313,7 +313,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The rough edges are known and stated — untested integrations, missing keys, a crude vertical reframe — so treat this as capable of a first pass, not as a finished pipeline. No completed video is on record.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

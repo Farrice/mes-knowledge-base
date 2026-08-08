@@ -2,7 +2,7 @@
   "slug": "mission-linkedin-launch",
   "chip": "MISSION · LINKEDIN",
   "title": "Linkedin Launch — Teardown 04 Create *Wellness*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Plan and assets are there; the launch is gated on the boring money plumbing.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 2 files · 6 assets",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 2 files written, 6 assets generated.\n\nHandoff status is active. Last activity today.\n\nNext: Linkedin Launch — Teardown 04 Create Wellness"
+      "body": "The campaign has a live plan and generated visual assets, and the newest work is operational plumbing — getting paid rather than getting posted. It is still in build, with the campaign file as its spine.\n\nHandoff status is active. Last activity today.\n\nNext: Finish the payment setup so an interested buyer has somewhere to send money."
     },
     {
       "kind": "stats",
@@ -220,8 +220,8 @@
       "items": [
         {
           "date": "2026-08-07",
-          "title": "commit f4419de35",
-          "body": "Mission Sweep → Briefing Room COMPLETE + Campaign unblock action",
+          "title": "commit 3b2a2cc4f",
+          "body": "feat(readout-os): Mission Control + always-on served boards + repo link layer",
           "done": true
         },
         {
@@ -258,7 +258,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Assets exist, but nothing records them being published or any response to them. A campaign file being updated is not the same as a campaign running.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

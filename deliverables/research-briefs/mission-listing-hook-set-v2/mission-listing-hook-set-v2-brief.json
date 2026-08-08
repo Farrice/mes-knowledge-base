@@ -2,7 +2,7 @@
   "slug": "mission-listing-hook-set-v2",
   "chip": "MISSION · THREAD",
   "title": "Jen voice-lock *pass*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Its lasting output was the voice profile — the hooks are stale unless the listing still is.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption confirmed, on-camera delivery documented), voice profile upgraded, lead IG caption written, hook set packaged for text delivery"
+      "body": "The client's real speaking register was studied directly from her own posted videos and folded into a reusable voice profile, and a hook set was packaged for text delivery. Nothing has moved since that package was finished.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Send the packaged hook set, or park the thread and keep the voice profile as the durable asset."
     },
     {
       "kind": "stats",
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Decide: resume or park",
-          "why": "No recorded activity in 13 days while the handoff is still active."
+          "why": "The listing-specific hooks are the perishable part; the voice profile is worth keeping either way, so parking costs almost nothing."
         }
       ]
     },
@@ -132,7 +132,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The voice work was built from a snapshot of how she posts today — that describes her current habits, not where the brand is heading. No record shows the package reaching her.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

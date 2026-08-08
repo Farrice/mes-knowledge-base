@@ -5,7 +5,7 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "131 sessions swept",
+  "sources": "128 sessions swept",
   "compiled": "aug 7, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "12 threads are live. 72 deliverables were finalized and 247 assets generated in the last 14 days, across 131 sessions on both harnesses.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "The live threads split into two piles: system-building that keeps finishing, and revenue work that keeps stopping just short of contact with a buyer. Nearly everything marked active is waiting on a send, a post, or a decision — not on more production.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -32,7 +32,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "136",
+          "value": "137",
           "label": "FILES WRITTEN"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "131",
+          "value": "128",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -332,7 +332,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.\n\n226 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Every thread here is assembled from what was recorded, so a missing outcome means nothing was written down — not necessarily that nothing happened. Several threads carry headlines inherited from older work and describe themselves inaccurately.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.\n\n224 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

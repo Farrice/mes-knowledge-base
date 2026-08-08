@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
+The listening loop works; the bottleneck moved from finding angles to actually posting them.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: shipped — a deliverable was finalized. In the last 14 days: 3 deliverables finalized.
+The daily listening engine is running and producing finished briefs rather than raw notes — each run lands an angle plus a flagship post and vaulted assets. The build phase closed; this is an operating loop now.
 
 Handoff status is active. Last activity 2d ago.
 
-Next: 2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean
+Next: Publish the vaulted posts sitting ready before the next run stacks on top of them.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
@@ -43,7 +43,7 @@ python3 execution/pulse_actions.py done angle-map-listening-engine-v4-1 --outcom
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+Everything logged is production of briefs, not reception of them — no record shows the vaulted posts going out or what happened when they did. The engine's value stays unproven until something published gets measured.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

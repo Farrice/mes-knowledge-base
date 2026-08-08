@@ -2,15 +2,15 @@
 
 > MISSION · SKILLS · window: last 14 days · lens: claude · sources: 1 sessions · 6 files · 46 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
+Everything is assembled and nothing has been shot — the next run is the real test.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 6 files written, 46 assets generated.
+The studio is built and has survived a shakedown render, but it has not produced a real piece yet — the pilots that would prove it are unrun, and several supporting parts are cloned or specced rather than wired.
 
 Handoff status is ready. Last activity today.
 
-Next: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record
+Next: Run one pilot end to end and come back with the exact voiceover lines for Farrice to record.
 
 ## by the numbers
 - FILES WRITTEN: **6**
@@ -26,7 +26,7 @@ Next: Run Pilot P1: Parallax essay → VOX explainer; start with script-annotati
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive
+1. **Finish what's open** — The build is a claim until a real video comes out of it, and the open items are precisely the ones a first pilot would expose.
 
 ## what this thread made
 - **insp_038.jpg** [IMAGE] `_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg` — aug 7, 2026
@@ -64,7 +64,7 @@ python3 execution/handoff_store.py resume video-studio-edit-bay
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+The rough edges are known and stated — untested integrations, missing keys, a crude vertical reframe — so treat this as capable of a first pass, not as a finished pipeline. No completed video is on record.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

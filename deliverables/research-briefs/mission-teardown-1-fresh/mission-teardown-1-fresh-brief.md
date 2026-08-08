@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 1 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
+Best teardowns the lane has produced, and its own history says the risk is they never get posted.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.
+A fresh batch of named-brand teardowns was produced at the higher standard — each with its post, its outreach message and its own verification pass — and rendered into shareable briefs. Earlier teardowns in this lane were drafted and never posted.
 
 Handoff status is active. Last activity today.
 
-Next: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards
+Next: Post one teardown and send its matching outreach message to that brand.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
@@ -47,7 +47,7 @@ python3 execution/pulse_actions.py done teardown-1-fresh --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+The pattern on record is production outpacing publication: prior rounds sit drafted with no outcome logged. Nothing yet shows this batch escaping that.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

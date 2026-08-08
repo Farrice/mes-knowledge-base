@@ -1,21 +1,21 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 131 sessions swept · compiled: aug 7, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 128 sessions swept · compiled: aug 7, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-12 threads are live. 72 deliverables were finalized and 247 assets generated in the last 14 days, across 131 sessions on both harnesses.
+The live threads split into two piles: system-building that keeps finishing, and revenue work that keeps stopping just short of contact with a buyer. Nearly everything marked active is waiting on a send, a post, or a decision — not on more production.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
 ## across every thread
 - LIVE THREADS: **12**
 - DELIVERABLES FINALIZED: **72**
-- FILES WRITTEN: **136**
+- FILES WRITTEN: **137**
 - ASSETS GENERATED: **247**
-- SESSIONS SWEPT: **131**
+- SESSIONS SWEPT: **128**
 
 ## momentum
 
@@ -63,11 +63,11 @@ _weighted: deliverables ×3 + files + assets_
 
 ## what this board isn't
 _READ THE EDGES_
-This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.
+Every thread here is assembled from what was recorded, so a missing outcome means nothing was written down — not necessarily that nothing happened. Several threads carry headlines inherited from older work and describe themselves inaccurately.
 
 198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.
 
-226 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+224 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
 - `deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html` — related · ACTIVE

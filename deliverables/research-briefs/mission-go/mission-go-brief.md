@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
+Fully planned, then stopped moving — treat it as a decision, not a task.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 4 deliverables finalized.
+This was the cash-launch push — fresh research, an adversarial wargame that cleared the offer with fixes, and a launch plan. It produced the plan and a root-cause diagnosis of the failed profile copy, then went quiet.
 
 Handoff status is active. Last activity 7d ago.
 
-Next: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
+Next: Decide whether the launch plan is still live and run its next selling step, or park the thread so it stops reading as active.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **4**
@@ -21,7 +21,7 @@ Next: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adve
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — No recorded activity in 7 days while the handoff is still active.
+1. **Decide: resume or park** — A launch sequence that is not being executed decays into a document, and leaving the thread marked active hides the fact that nothing is being sold.
 
 ## pick it back up
 1. **Resume here** — LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
@@ -43,7 +43,7 @@ python3 execution/handoff_store.py resume go
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+Everything recorded is planning and diagnosis — no selling activity or buyer response is logged against it. Whether the offer holds is unconfirmed until someone pays.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

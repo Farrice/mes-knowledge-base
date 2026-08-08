@@ -169,6 +169,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(data)))
+        self.send_header("X-Content-Type-Options", "nosniff")
         self.end_headers()
         self.wfile.write(data)
 
@@ -216,6 +217,9 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self._touch()
+        if not self._same_origin():
+            self._send(403, "cross-origin", "text/plain; charset=utf-8")
+            return
         route = self.path.split("?", 1)[0]
         if route.startswith("/ping"):
             self._send(200, json.dumps({"pulse": True,
@@ -242,10 +246,39 @@ class Handler(BaseHTTPRequestHandler):
         self._send(404, f"no route: {route}\n\ntry / · /room · /missions · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
+    def _same_origin(self):
+        """Reject requests a page on ANOTHER site caused the browser to send.
+
+        The server has no auth and now runs permanently, so any website open in
+        a tab can address it. Browsers block cross-origin READS, but a plain
+        form-style POST still fires — which was enough to trigger done / park /
+        thread-archive / open-path on this repo from a page the operator merely
+        visited. Two locks: an Origin that isn't ours is refused outright, and
+        /action demands application/json, which forces a CORS preflight this
+        server never answers. Same-origin XHR sends no Origin on GET and the
+        board's own fetch() always sets the JSON content type, so the real UI is
+        unaffected — as is curl, which sends neither header.
+        """
+        origin = self.headers.get("Origin")
+        if not origin:
+            return True
+        host = f"127.0.0.1:{self.server.server_address[1]}"
+        return origin in (f"http://{host}", f"http://localhost:{self.server.server_address[1]}")
+
     def do_POST(self):
         self._touch()
+        if not self._same_origin():
+            print(f"[pulse_serve] refused cross-origin POST from {self.headers.get('Origin')}",
+                  file=sys.stderr)
+            self._send(403, json.dumps({"ok": False, "error": "cross-origin"}), "application/json")
+            return
         if self.path != "/action":
             self._send(404, '{"ok": false}', "application/json")
+            return
+        ctype = (self.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        if ctype != "application/json":
+            self._send(415, json.dumps({"ok": False, "error": "application/json required"}),
+                       "application/json")
             return
         try:
             length = int(self.headers.get("Content-Length") or 0)

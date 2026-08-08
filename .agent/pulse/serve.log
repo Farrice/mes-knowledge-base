@@ -1,2 +1,4 @@
 [pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
 [pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_serve] refused cross-origin POST from https://evil.example

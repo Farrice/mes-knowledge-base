@@ -2,15 +2,15 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 7, 2026
 
-Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
+Done and usable; the only thing open is a grade nobody is waiting on.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 13 deliverables finalized.
+The forge keeps turning watched sources into deployable expert skills, and the latest build is verified and usable as-is. What remains is optional grading, not missing function.
 
 Handoff status is ready. Last activity 1d ago.
 
-Next: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
+Next: Use the verified skill as-is and run the blind recognition pack only if the A-tier rating changes how you would use it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **13**
@@ -25,7 +25,7 @@ Next: Use the verified v3 skill locally; run the blind pack only if A-tier promo
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
+1. **Finish what's open** — This is a grade, not a repair — the build already works, so it is only worth the time if the rating would change a decision.
 
 ## what this thread made
 - **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
@@ -65,7 +65,7 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+The work sits on its own branch rather than the main line, so anything depending on it should confirm it actually merged. The remaining item needs Farrice's own recognition verdict and cannot be closed by the system.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
