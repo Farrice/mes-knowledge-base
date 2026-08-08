@@ -1,11 +1,11 @@
 {
   "slug": "mission-linkedin-launch",
-  "chip": "MISSION · LINKEDIN LAUNCH",
+  "chip": "MISSION · LINKEDIN",
   "title": "Linkedin Launch — Teardown 04 Create *Wellness*",
   "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
-  "sources": "1 sessions · 19 files · 6 assets",
+  "sources": "1 sessions · 1 files · 6 assets",
   "compiled": "aug 7, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 19 files written, 6 assets generated.\n\nHandoff status is active. Last activity today.\n\nNext: Linkedin Launch — Teardown 04 Create Wellness"
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 1 session, 1 file written, 6 assets generated.\n\nHandoff status is active. Last activity today.\n\nNext: Linkedin Launch — Teardown 04 Create Wellness"
     },
     {
       "kind": "stats",
@@ -24,7 +24,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "19",
+          "value": "1",
           "label": "FILES WRITTEN"
         },
         {
@@ -73,28 +73,6 @@
           ],
           "value": "1",
           "unit": "total",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            4,
-            6,
-            4
-          ],
-          "value": "14",
-          "unit": "files",
           "note": "per day"
         },
         {
@@ -190,88 +168,10 @@
           "note": "seedance-480p · aug 2, 2026"
         },
         {
-          "title": "2026-08-07-teardown-04-create-wellness.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-04-create-wellness.md",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "2026-08-07-teardown-05-hilma.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-05-hilma.md",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "2026-08-07-teardown-06-bpn.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-06-bpn.md",
-          "note": "aug 7, 2026"
-        },
-        {
           "title": "CAMPAIGN.md",
           "role": "FILE",
           "path": "_active/linkedin/CAMPAIGN.md",
           "note": "aug 7, 2026"
-        },
-        {
-          "title": "CAMPAIGN.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/CAMPAIGN.md",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "2026-08-06-enchant-takes-AB.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/2026-08-06-enchant-takes-AB.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "2026-08-06-experience-entries-DEPLOY.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/2026-08-06-experience-entries-DEPLOY.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "2026-08-06-skills-and-media-PLAN.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/03-launch/2026-08-06-skills-and-media-PLAN.md",
-          "note": "aug 6, 2026"
-        },
-        {
-          "title": "hotel-test-proof-to-market-2026-08-05.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/02-offer/hotel-test-proof-to-market-2026-08-05.md",
-          "note": "aug 5, 2026"
-        },
-        {
-          "title": "PROOF-TO-MARKET-BLUEPRINT-TEMPLATE.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/02-offer/PROOF-TO-MARKET-BLUEPRINT-TEMPLATE.md",
-          "note": "aug 5, 2026"
-        },
-        {
-          "title": "CLAIM-LEDGER-ARTIFACT-DESIGN-BRIEF.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/02-offer/CLAIM-LEDGER-ARTIFACT-DESIGN-BRIEF.md",
-          "note": "aug 5, 2026"
-        },
-        {
-          "title": "FOUNDING-SOURCE-ROLE-CONFERRAL.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/02-offer/FOUNDING-SOURCE-ROLE-CONFERRAL.md",
-          "note": "aug 5, 2026"
-        },
-        {
-          "title": "SOURCE-REGISTRY-INSTITUTION-PARKED.md",
-          "role": "FILE",
-          "path": "_active/linkedin-launch/02-offer/SOURCE-REGISTRY-INSTITUTION-PARKED.md",
-          "note": "aug 5, 2026"
         },
         {
           "title": "2026-07-29-linkedin-launch.md",
@@ -314,8 +214,8 @@
       "items": [
         {
           "date": "2026-08-07",
-          "title": "commit 082f90f42",
-          "body": "chore(session): end-session commit gate — 2026-08-07",
+          "title": "commit df4a9e264",
+          "body": "Complete mission brief builder infrastructure: living briefs per thread",
           "done": true
         },
         {
@@ -354,5 +254,6 @@
       "kicker": "READ THE EDGES",
       "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "active"
 }

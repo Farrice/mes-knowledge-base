@@ -1,0 +1,21 @@
+{
+  "slug": "mission-01-listing-content",
+  "title": "Willis Approved Three-Reel Closeout",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-07-03-01-listing-content.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-03-01-listing-content.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

@@ -1,0 +1,52 @@
+# 2026-08-03 Angle Map Listening Brief
+
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+
+Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
+
+## where this stands
+_CURRENT POSITION_
+Stage: shipped — a deliverable was finalized. In the last 14 days: 3 deliverables finalized.
+
+Handoff status is active. Last activity 2d ago.
+
+Next: 2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean
+
+## by the numbers
+- DELIVERABLES FINALIZED: **3**
+- DAYS ACTIVE: **6 d**
+
+## lifecycle
+
+
+## pick it back up
+1. **Resume here** — 2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean
+```
+python3 execution/handoff_store.py resume angle-map-listening-engine-v4-1
+```
+   touches: .agent/handoffs/2026-08-03-angle-map-listening-engine.md
+   receipt: The stored handoff prints with drift since it was written.
+2. **Close the mission** — Mark it done or park it with a reason.
+```
+python3 execution/pulse_actions.py done angle-map-listening-engine-v4-1 --outcome "<one line>"
+```
+   receipt: It leaves the open set on the next pulse regen.
+
+## how it got here
+- 2026-08-05 · **Finalized · angle-map-listening-engine-v4.1** — 2026-08-05 Angle Map listening brief (Wed promises deep dive): P&G-Thorne trust-ownership angle, flagship post + Buyer's Ledger teardown #1 vault-filed, 3 insight + 2 promises rows, living docs 07/03 fed, Drive mirror ve
+- 2026-08-03 · **Finalized · angle-map-listening-engine-v4.1** — Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 03/07 fed, Drive mirr
+- 2026-08-01 · **Finalized · angle-map-listening** — 2026-08-01 Angle Map Listening Brief (Saturday winners teardown): creatine-handoff angle with VERIFIED winner view counts, CONCRET-MENOPA evidence-fit gap, 3 verbatim PNK receipts, flagship post + 2 finished scripts vaul
+
+## swings to
+- [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-03-angle-map-listening-engine.md
+- [BOARD] Mission board — every live thread — deliverables/research-briefs/mission-board/mission-board-brief.html
+
+## what this isn't
+_READ THE EDGES_
+No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
+
+Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
+
+## Context pack (agent feed)
+- `.agent/handoffs/2026-08-03-angle-map-listening-engine.md` — playbook · Resume here
+- `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

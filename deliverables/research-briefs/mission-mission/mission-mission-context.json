@@ -1,0 +1,21 @@
+{
+  "slug": "mission-mission",
+  "title": "Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-mission/mission-mission-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-07-03-mission.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-03-mission.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

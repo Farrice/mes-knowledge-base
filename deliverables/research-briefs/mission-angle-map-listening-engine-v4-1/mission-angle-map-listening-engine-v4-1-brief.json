@@ -1,7 +1,7 @@
 {
   "slug": "mission-angle-map-listening-engine-v4-1",
   "chip": "MISSION · THREAD",
-  "title": "2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled",
+  "title": "2026-08-03 Angle Map Listening *Brief*",
   "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
@@ -128,5 +128,6 @@
       "kicker": "READ THE EDGES",
       "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "active"
 }

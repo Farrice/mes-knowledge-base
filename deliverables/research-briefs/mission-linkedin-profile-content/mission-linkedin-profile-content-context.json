@@ -1,0 +1,51 @@
+{
+  "slug": "mission-linkedin-profile-content",
+  "title": "Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief.md",
+  "paths": [
+    {
+      "path": "_active/farrice-brand/content/vault/2026-08-07-count-whats-left-post.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-07-count-whats-left-post.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/content/vault/2026-08-07-nobody-owns-selection-essay.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-07-nobody-owns-selection-essay.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/content/vault/INDEX.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": ".agent/handoffs/2026-07-27-linkedin-profile-content.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-27-linkedin-profile-content.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "_active/farrice-brand/START-HERE.html",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.html",
+      "role": "related · FRONT DOOR"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
+      "role": "related · THREAD"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief.html",
+      "role": "related · THREAD"
+    }
+  ],
+  "urls": []
+}

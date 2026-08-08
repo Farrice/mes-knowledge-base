@@ -113,6 +113,28 @@ def chart_earns_place(values, min_points=3):
     return any(v for v in vals)
 
 
+def display_title(raw, limit=58):
+    """A headline, not the whole handoff title.
+
+    Handoff titles are written to be searched ("Edit Bay Video Studio — Build +
+    Taste Layer (Bonanno pipeline, Higgsfield retired)"), and at display size
+    that wraps to seven lines and swamps the page. Cut at the first structural
+    break, then at a word boundary. The full title still rides in the <title>
+    tag and the JSON, so nothing is lost — only the shouting.
+    """
+    t = " ".join(str(raw or "").split())
+    for sep in (" — ", " – ", ": ", " ("):
+        if sep in t and len(t) > limit:
+            head = t.split(sep)[0].strip()
+            if len(head) >= 12:
+                t = head
+                break
+    if len(t) > limit:
+        cut = t[:limit].rsplit(" ", 1)[0]
+        t = (cut or t[:limit]).rstrip(" ,;:-—") + "…"
+    return t
+
+
 def priority_for(t):
     """1 = highest. Blocked and pinned work outranks merely-active work."""
     if t.get("status") == "blocked" or t.get("pin"):
@@ -279,7 +301,21 @@ def sec_assets(t):
     """Artifacts + generated assets, newest first. Paths feed the context pack,
     so this section is also what makes the brief hand-off-able to an agent."""
     items = []
-    for a in sorted(t["assets"], key=lambda x: x.get("ts") or "", reverse=True)[:12]:
+    # Sample ACROSS directories rather than taking the newest N. One render run
+    # drops 46 near-identical frames into a single folder; taken by recency they
+    # flood the rail and bury every other artifact the thread produced. Three per
+    # folder shows what exists; the rest are counted, not listed.
+    PER_DIR = 3
+    by_dir, extra = {}, 0
+    for a in sorted(t["assets"], key=lambda x: x.get("ts") or "", reverse=True):
+        d = str(Path(a["path"]).parent)
+        bucket = by_dir.setdefault(d, [])
+        if len(bucket) < PER_DIR:
+            bucket.append(a)
+        else:
+            extra += 1
+    for a in sorted((a for b in by_dir.values() for a in b),
+                    key=lambda x: x.get("ts") or "", reverse=True)[:12]:
         it = {"title": Path(a["path"]).name, "role": (a.get("type") or "asset").upper(),
               "path": a["path"]}
         if a.get("type") == "image":
@@ -288,6 +324,12 @@ def sec_assets(t):
         if note:
             it["note"] = note
         items.append(it)
+    if extra:
+        folders = len(by_dir)
+        items.append({"title": f"+{extra} more in {folders} folder{'s' if folders != 1 else ''}",
+                      "role": "MORE",
+                      "path": str(Path(sorted(by_dir)[0])),
+                      "note": "open the folder — sampled here, not truncated silently"})
     for art in sorted(t["artifacts"], key=lambda x: x.get("ts") or "", reverse=True)[:14]:
         items.append({"title": Path(art["path"]).name, "role": "FILE",
                       "path": art["path"], "note": human_date(art.get("ts"))})
@@ -382,10 +424,15 @@ def build_brief(slug, t, bundle, synth):
     sections.append(sec_caveats(t, bundle, synth))
 
     arena = (t.get("arena") or "thread").upper().replace("-", " ")
-    title = t.get("title") or title_case(slug)
+    title = display_title(t.get("title") or title_case(slug))
     # One accent word for the italic-serif voice; the last word reads best.
-    words = title.split()
-    accent_title = " ".join(words[:-1] + [f"*{words[-1]}*"]) if len(words) > 1 else f"*{title}*"
+    # Accent the last real WORD, not the last token: wrapping "(13 Workflows)"
+    # yields "*Workflows)*" and the stray bracket lands inside the italic.
+    m = re.search(r"([A-Za-z0-9][A-Za-z0-9'-]*)(?!.*[A-Za-z0-9])", title)
+    if m and len(title.split()) > 1:
+        accent_title = title[:m.start()] + f"*{m.group(1)}*" + title[m.end():]
+    else:
+        accent_title = f"*{title}*"
 
     dek = synth.get("operator_read") or (
         f"Everything this thread has produced, where it stands, and the next move — "
@@ -405,7 +452,6 @@ def build_brief(slug, t, bundle, synth):
         "footer_right": "@farricecain",
         "category": CATEGORY,
         "priority": priority_for(t),
-        "status": "active",  # Preserved by write_brief() when re-rendering; auto-archives per AUTO_ARCHIVE_DAYS
         "sections": sections,
     }
 

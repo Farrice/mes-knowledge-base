@@ -1,7 +1,7 @@
 {
   "slug": "mission-go",
   "chip": "MISSION · THREAD",
-  "title": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume en",
+  "title": "LinkedIn cash-launch *mission*",
   "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
@@ -140,5 +140,6 @@
       "kicker": "READ THE EDGES",
       "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "active"
 }

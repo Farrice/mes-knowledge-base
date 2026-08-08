@@ -1,18 +1,19 @@
 {
-  "generated": "2026-08-07T20:56:05",
+  "generated": "2026-08-07T21:06:06",
   "window": {
-    "since": "2026-07-24T20:56:05",
-    "until": "2026-08-07T20:56:05",
+    "since": "2026-07-24T21:06:05",
+    "until": "2026-08-07T21:06:06",
     "days": 14
   },
   "degraded": [],
   "counts": {
     "sessions": 131,
-    "threads_seen": 437,
+    "threads_seen": 436,
     "threads_promoted": 12,
     "deliverables": 72,
-    "artifacts": 217,
+    "artifacts": 137,
     "assets": 247,
+    "artifacts_vanished": 85,
     "overflow": 198
   },
   "threads": {
@@ -999,285 +1000,6 @@
       "first_seen": "",
       "last_active": ""
     },
-    "linkedin-launch": {
-      "slug": "linkedin-launch",
-      "title": "Linkedin Launch \u2014 Teardown 04 Create Wellness",
-      "arena": "linkedin-launch",
-      "status": "active",
-      "resume_hint": "Linkedin Launch \u2014 Teardown 04 Create Wellness",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-07-linkedin-launch.md",
-      "pin": true,
-      "sessions": [
-        {
-          "harness": "claude",
-          "id": "ee1d3250-5fa2-4dbd-a10f-d9f1ed7c1453",
-          "title": "LinkedIn Launch \u2014 About Rebuild v2 (Three Takes + Co-Creation Layer)",
-          "titled": true,
-          "ts": "2026-07-28T18:43:51",
-          "messages": 39,
-          "branch": "main",
-          "project": "-Users-farricecain-Google-Antigravity",
-          "sidechain": false
-        }
-      ],
-      "deliverables": [],
-      "artifacts": [
-        {
-          "path": "_active/linkedin-launch/03-launch/2026-07-30-LINKEDIN-PROFILE-COPY-PASTE-MASTER.md",
-          "ts": "2026-08-06T21:53:22"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/2026-08-06-enchant-takes-AB.md",
-          "ts": "2026-08-06T21:53:22"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/2026-08-06-experience-entries-DEPLOY.md",
-          "ts": "2026-08-06T21:53:22"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/2026-08-06-skills-and-media-PLAN.md",
-          "ts": "2026-08-06T21:53:22"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-04-create-wellness.md",
-          "ts": "2026-08-07T15:06:08"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-05-hilma.md",
-          "ts": "2026-08-07T15:06:08"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/teardowns/2026-08-07-teardown-06-bpn.md",
-          "ts": "2026-08-07T15:06:08"
-        },
-        {
-          "path": "_active/linkedin/CAMPAIGN.md",
-          "ts": "2026-08-07T15:05:25"
-        },
-        {
-          "path": "_active/linkedin-launch/CAMPAIGN.md",
-          "ts": "2026-08-07T08:30:22"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/2026-08-04-week-2-pov-batch.md",
-          "ts": "2026-08-04T16:08:01"
-        },
-        {
-          "path": "_active/linkedin-launch/02-offer/hotel-test-proof-to-market-2026-08-05.md",
-          "ts": "2026-08-05T23:49:10"
-        },
-        {
-          "path": "_active/linkedin-launch/02-offer/PROOF-TO-MARKET-BLUEPRINT-TEMPLATE.md",
-          "ts": "2026-08-05T23:49:10"
-        },
-        {
-          "path": "_active/linkedin-launch/02-offer/CLAIM-LEDGER-ARTIFACT-DESIGN-BRIEF.md",
-          "ts": "2026-08-05T23:49:10"
-        },
-        {
-          "path": "_active/linkedin-launch/02-offer/FOUNDING-SOURCE-ROLE-CONFERRAL.md",
-          "ts": "2026-08-05T23:49:10"
-        },
-        {
-          "path": "_active/linkedin-launch/02-offer/SOURCE-REGISTRY-INSTITUTION-PARKED.md",
-          "ts": "2026-08-05T23:49:10"
-        },
-        {
-          "path": "_active/linkedin-launch/02-offer/WORLD-BUILDING-INTEGRATION-2026-08-05.md",
-          "ts": "2026-08-05T23:49:10"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/carousels/2026-08-04-carousel-02-momentous-10-slide.md",
-          "ts": "2026-08-04T05:33:29"
-        },
-        {
-          "path": "_active/linkedin-launch/03-launch/carousels/2026-08-06-carousel-03-puori-10-slide.md",
-          "ts": "2026-08-04T05:33:29"
-        },
-        {
-          "path": "_active/linkedin-launch/04-deliverables/context-os/08-TWO-RING-RESONANCE-DOSSIER.md",
-          "ts": "2026-08-04T16:11:38"
-        }
-      ],
-      "assets": [
-        {
-          "path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_143652.mp4",
-          "type": "video",
-          "zone": "fantastic-posters",
-          "project": "linkedin-launch",
-          "ts": "2026-08-02T21:36:54",
-          "prompt": "5s teaser: slow push-in on spilled powder, drifting dust in raking light, breathing bokeh (from carousel01-cover-clean)",
-          "model": "seedance-480p",
-          "cost_usd": 0.65
-        },
-        {
-          "path": "skills/fantastic-posters/out/direct_1785707287020_v1.png",
-          "type": "image",
-          "zone": "fantastic-posters",
-          "project": "linkedin-launch",
-          "ts": "2026-08-02T21:48:07",
-          "prompt": "Manga ink Angle Map cover (Bleach-TYBW register): protagonist over holographic war-table, angle arrows, 'THE ANGLE MAP' title",
-          "model": "gpt-image-2",
-          "cost_usd": 0.04
-        },
-        {
-          "path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_150605.mp4",
-          "type": "video",
-          "zone": "fantastic-posters",
-          "project": "linkedin-launch",
-          "ts": "2026-08-02T22:06:06",
-          "prompt": "Teaser REDO via cinema-worldbuilder M5 grammar: 12deg tele slow push-in on powder ridge, grain-tumble beats at 0.8/2.4/3.9s, tungsten rake, anti-plastic block",
-          "model": "seedance-480p",
-          "cost_usd": 0.65
-        },
-        {
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "linkedin",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
-          "type": "audio",
-          "zone": "active-projects",
-          "project": "linkedin",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "linkedin",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        }
-      ],
-      "commits": [
-        {
-          "sha": "082f90f42",
-          "ts": "2026-08-07T20:40:52",
-          "subject": "chore(session): end-session commit gate \u2014 2026-08-07"
-        }
-      ],
-      "missions": [
-        {
-          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receipts not promises, aimed at supplement and performance brand founders, r",
-          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer-posts-that-feel-like-receipts-not-promises-aimed-at-supplement-and-performance-brand-founders-r",
-          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false
-        },
-        {
-          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer",
-          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer",
-          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "",
-          "ts": "2026-07-29T21:44:34",
-          "open": false
-        }
-      ],
-      "guides": [
-        {
-          "path": "guides/2026-07-29-linkedin-launch.md",
-          "name": "2026-07-29-linkedin-launch.md",
-          "ts": "2026-08-07T10:05:25"
-        },
-        {
-          "path": "guides/2026-07-13-stanton-linkedin-launch.md",
-          "name": "2026-07-13-stanton-linkedin-launch.md",
-          "ts": "2026-08-07T10:05:25"
-        }
-      ],
-      "solutions": [],
-      "outcomes": [],
-      "harnesses": [
-        "claude"
-      ],
-      "promoted": true,
-      "declares": [
-        "handoff status: active"
-      ],
-      "activity": [
-        "artifact written",
-        "asset generated"
-      ],
-      "touched": "2026-08-07T14:39:03",
-      "promotion_reasons": [
-        "handoff status: active",
-        "artifact written",
-        "asset generated"
-      ],
-      "stage": "build",
-      "stage_index": 1,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          4,
-          6,
-          4
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          3,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "2026-07-28T18:43:51",
-      "last_active": "2026-08-07T20:40:52"
-    },
     "go": {
       "slug": "go",
       "title": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
@@ -2190,6 +1912,213 @@
       },
       "first_seen": "2026-07-25",
       "last_active": "2026-07-25"
+    },
+    "linkedin-launch": {
+      "slug": "linkedin-launch",
+      "title": "Linkedin Launch \u2014 Teardown 04 Create Wellness",
+      "arena": "linkedin",
+      "status": "active",
+      "resume_hint": "Linkedin Launch \u2014 Teardown 04 Create Wellness",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-08-07-linkedin-launch.md",
+      "pin": true,
+      "sessions": [
+        {
+          "harness": "claude",
+          "id": "ee1d3250-5fa2-4dbd-a10f-d9f1ed7c1453",
+          "title": "LinkedIn Launch \u2014 About Rebuild v2 (Three Takes + Co-Creation Layer)",
+          "titled": true,
+          "ts": "2026-07-28T18:43:51",
+          "messages": 39,
+          "branch": "main",
+          "project": "-Users-farricecain-Google-Antigravity",
+          "sidechain": false
+        }
+      ],
+      "deliverables": [],
+      "artifacts": [
+        {
+          "path": "_active/linkedin/CAMPAIGN.md",
+          "ts": "2026-08-07T15:05:25"
+        }
+      ],
+      "assets": [
+        {
+          "path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_143652.mp4",
+          "type": "video",
+          "zone": "fantastic-posters",
+          "project": "linkedin-launch",
+          "ts": "2026-08-02T21:36:54",
+          "prompt": "5s teaser: slow push-in on spilled powder, drifting dust in raking light, breathing bokeh (from carousel01-cover-clean)",
+          "model": "seedance-480p",
+          "cost_usd": 0.65
+        },
+        {
+          "path": "skills/fantastic-posters/out/direct_1785707287020_v1.png",
+          "type": "image",
+          "zone": "fantastic-posters",
+          "project": "linkedin-launch",
+          "ts": "2026-08-02T21:48:07",
+          "prompt": "Manga ink Angle Map cover (Bleach-TYBW register): protagonist over holographic war-table, angle arrows, 'THE ANGLE MAP' title",
+          "model": "gpt-image-2",
+          "cost_usd": 0.04
+        },
+        {
+          "path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_150605.mp4",
+          "type": "video",
+          "zone": "fantastic-posters",
+          "project": "linkedin-launch",
+          "ts": "2026-08-02T22:06:06",
+          "prompt": "Teaser REDO via cinema-worldbuilder M5 grammar: 12deg tele slow push-in on powder ridge, grain-tumble beats at 0.8/2.4/3.9s, tungsten rake, anti-plastic block",
+          "model": "seedance-480p",
+          "cost_usd": 0.65
+        },
+        {
+          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+          "type": "image",
+          "zone": "active-projects",
+          "project": "linkedin",
+          "ts": "2026-08-07T17:05:24",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+          "type": "audio",
+          "zone": "active-projects",
+          "project": "linkedin",
+          "ts": "2026-08-07T17:05:24",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+          "type": "image",
+          "zone": "active-projects",
+          "project": "linkedin",
+          "ts": "2026-08-07T17:05:24",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        }
+      ],
+      "commits": [
+        {
+          "sha": "df4a9e264",
+          "ts": "2026-08-07T21:01:03",
+          "subject": "Complete mission brief builder infrastructure: living briefs per thread"
+        }
+      ],
+      "missions": [
+        {
+          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receipts not promises, aimed at supplement and performance brand founders, r",
+          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer-posts-that-feel-like-receipts-not-promises-aimed-at-supplement-and-performance-brand-founders-r",
+          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false
+        },
+        {
+          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer",
+          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer",
+          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "",
+          "ts": "2026-07-29T21:44:34",
+          "open": false
+        }
+      ],
+      "guides": [
+        {
+          "path": "guides/2026-07-29-linkedin-launch.md",
+          "name": "2026-07-29-linkedin-launch.md",
+          "ts": "2026-08-07T10:05:25"
+        },
+        {
+          "path": "guides/2026-07-13-stanton-linkedin-launch.md",
+          "name": "2026-07-13-stanton-linkedin-launch.md",
+          "ts": "2026-08-07T10:05:25"
+        }
+      ],
+      "solutions": [],
+      "outcomes": [],
+      "harnesses": [
+        "claude"
+      ],
+      "promoted": true,
+      "declares": [
+        "handoff status: active"
+      ],
+      "activity": [
+        "artifact written",
+        "asset generated"
+      ],
+      "touched": "2026-08-07T14:39:03",
+      "promotion_reasons": [
+        "handoff status: active",
+        "artifact written",
+        "asset generated"
+      ],
+      "stage": "build",
+      "stage_index": 1,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-07-28T18:43:51",
+      "last_active": "2026-08-07T21:01:03"
     },
     "video-studio-edit-bay": {
       "slug": "video-studio-edit-bay",
@@ -3197,7 +3126,6 @@
     "farrice-brand",
     "04-briefs",
     "create",
-    "health-performance-geo-daily-brief",
     "kallaway-hook-mastery",
     "benoit-vatere",
     "oren-slop-era-creative-strategy",
@@ -3218,7 +3146,6 @@
     "god-agent-offer",
     "readout-os",
     "global-org-sweep",
-    "health-performance-ip-library",
     "deliverables",
     "dunford-handshake-haynes",
     "godin-marketing-mind",
@@ -3228,21 +3155,22 @@
     "harness-apex",
     "convene",
     "cos-daily",
-    "mastery-forge",
-    "jen-listings",
-    "digital-product-lane-2026-08-05",
     "build-a-new-codex-task-that-locates-the-existing-god-agent-concept-and-handoff-then-deploys-the-cold-expert-practice-os-to-pressure-test-it-as-an-ai-native-con",
     "assemble-pressure-test-whether-farrice-cain-should-pivot",
+    "health-performance-geo-daily-brief",
     "assemble-pressure-test-farrice-s-signal-pilot-practitione",
     "forsyth-enchantment-os",
     "build-the-angle-map-industry-listening-engine-fuse-health-performance-geo-daily-brief-insight-brief-into-one-scheduled-daily-automation-local-launchd-05-30",
+    "mastery-forge",
     "sam-vander-wielen-forge",
     "research-ten-solutions-with-current-paid-demand-evidence-that-match-farrice-s-capabilities-in-ai-research-and-icp-intelligence-ai-consulting-and-auditing-copy",
     "oren-slop-era-forge",
     "claude-video-watch-update",
+    "jen-listings",
     "i-have-this-crazy-idea-that-crossed-my-mind-to-make-a-digital-product-for-gacha-games-that-would-allow-players-that-understand-the-game-faster-to-be-able-to-mak",
     "caleb-ralston-forge",
     "hilary-gridley-forge",
+    "digital-product-lane-2026-08-05",
     "dhar-mann-production-os",
     "assemble-re-convene-with-material-new-evidence-update-the",
     "create-one-final-copy-and-paste-linkedin-authority-reset-master-for-farrice-cain-coherent-supplement-and-performance-brand-positioning-profile-fields-proof-l",
@@ -3256,6 +3184,7 @@
     "research-depth-fix",
     "riley-brown-os",
     "scratchpad",
+    "health-performance-ip-library",
     "thought-bank",
     "marketing-intelligence-engine",
     "solutions",
@@ -3612,7 +3541,6 @@
     "wave-3-completion-kallaway-x-priestley-sll-jenny-hoyos-handshake-diandra-hawley-handshake-vicious-hooks",
     "wave-3-lane-2-revenue-cluster-repair-claim-safe-s-c-lanes",
     "wave-3-lane-3-active-project-repair-fleet-17-skills-to-6-6-4-sample-opus-verify-2-minor-label-fixes",
-    "weekly",
     "weekly-review",
     "worktree-lanes",
     "write-and-send-teardown-1-for-a-named-supplement-brand-plu",

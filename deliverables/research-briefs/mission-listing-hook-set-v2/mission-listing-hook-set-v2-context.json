@@ -1,0 +1,21 @@
+{
+  "slug": "mission-listing-hook-set-v2",
+  "title": "Jen voice-lock pass",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-07-25-listing-hook-set-v2.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-25-listing-hook-set-v2.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

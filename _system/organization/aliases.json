@@ -696,6 +696,12 @@
       "moved_at": "2026-07-29T04:42:11+00:00",
       "project": "linkedin-launch"
     },
+    "/Users/farricecain/Google Antigravity/_active/linkedin/STATUS-2026-08-07.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/linkedin/04-deliverables/STATUS-2026-08-07.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-08T04:11:13+00:00",
+      "project": "linkedin"
+    },
     "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/bake-off-protocol.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/04-deliverables/bake-off-protocol.md",
       "lifecycle": "deliverable",
@@ -2131,6 +2137,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-07T17:26:22+00:00",
+  "updated_at": "2026-08-08T04:11:13+00:00",
   "version": 1
 }

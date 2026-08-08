@@ -1,0 +1,31 @@
+{
+  "applied_at": "2026-08-08T04:11:13+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/linkedin/STATUS-2026-08-07.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/linkedin/04-deliverables/STATUS-2026-08-07.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/linkedin/STATUS-2026-08-07.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/linkedin/START-HERE.html",
+      "reason": "referenced from control-plane file: directives/artifact-placement.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/linkedin/START-HERE.md",
+      "reason": "referenced from control-plane file: .agent/workflows/vibe-tax-deploy.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/linkedin",
+  "project_slug": "linkedin",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-08-07.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/linkedin/04-deliverables/STATUS-2026-08-07.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

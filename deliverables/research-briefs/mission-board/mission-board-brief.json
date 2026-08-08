@@ -11,6 +11,7 @@
   "footer_right": "@farricecain",
   "category": "mission",
   "priority": 1,
+  "status": "active",
   "sections": [
     {
       "kind": "summary",
@@ -32,7 +33,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "217",
+          "value": "137",
           "label": "FILES WRITTEN"
         },
         {
@@ -84,11 +85,11 @@
             0,
             0,
             0,
-            4,
-            6,
-            10
+            0,
+            0,
+            6
           ],
-          "value": "20",
+          "value": "6",
           "note": "per day"
         },
         {
@@ -123,7 +124,7 @@
         {
           "label": "linkedin launch",
           "values": [
-            25
+            7
           ]
         },
         {
@@ -332,7 +333,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, health performance geo daily brief, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content.\n\n227 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.\n\n226 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ]
 }

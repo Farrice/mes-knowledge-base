@@ -1,7 +1,7 @@
 {
   "slug": "mission-video-studio-edit-bay",
   "chip": "MISSION · SKILLS",
-  "title": "Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield *retired)*",
+  "title": "Edit Bay Video *Studio*",
   "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
@@ -179,67 +179,46 @@
           "note": "aug 7, 2026"
         },
         {
-          "title": "insp_005.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_005.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_005.jpg",
-          "note": "aug 7, 2026"
+          "title": "v02.mp4",
+          "role": "VIDEO",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v02.mp4",
+          "note": "aug 6, 2026"
         },
         {
-          "title": "insp_011.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_011.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_011.jpg",
-          "note": "aug 7, 2026"
+          "title": "v01-captioned-linkedin.mp4",
+          "role": "VIDEO",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-linkedin.mp4",
+          "note": "aug 6, 2026"
         },
         {
-          "title": "insp_039.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_039.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_039.jpg",
-          "note": "aug 7, 2026"
+          "title": "v01-captioned-vert-916.mp4",
+          "role": "VIDEO",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-vert-916.mp4",
+          "note": "aug 6, 2026"
         },
         {
-          "title": "insp_007.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_007.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_007.jpg",
-          "note": "aug 7, 2026"
+          "title": "v01-captioned.mp4",
+          "role": "VIDEO",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned.mp4",
+          "note": "aug 6, 2026"
         },
         {
-          "title": "insp_013.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_013.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_013.jpg",
-          "note": "aug 7, 2026"
+          "title": "v01.mp4",
+          "role": "VIDEO",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01.mp4",
+          "note": "aug 6, 2026"
         },
         {
-          "title": "insp_012.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_012.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_012.jpg",
-          "note": "aug 7, 2026"
+          "title": "test-clip.mp4",
+          "role": "VIDEO",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/footage/test-clip.mp4",
+          "note": "aug 6, 2026"
         },
         {
-          "title": "insp_006.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_006.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_006.jpg",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "insp_002.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_002.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_002.jpg",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "insp_016.jpg",
-          "role": "IMAGE",
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_016.jpg",
-          "thumb": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_016.jpg",
-          "note": "aug 7, 2026"
+          "title": "+37 more in 4 folders",
+          "role": "MORE",
+          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports",
+          "note": "open the folder — sampled here, not truncated silently"
         },
         {
           "title": "SKILL.md",
@@ -336,5 +315,6 @@
       "kicker": "READ THE EDGES",
       "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "active"
 }

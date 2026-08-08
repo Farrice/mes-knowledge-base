@@ -1,6 +1,8 @@
 #!/bin/sh
 # Auto-generated inverse moves (newest first). Re-run to revert.
 
+mkdir -p "/Users/farricecain/Google Antigravity/_active/linkedin" && mv -n "/Users/farricecain/Google Antigravity/_active/linkedin/04-deliverables/STATUS-2026-08-07.md" "/Users/farricecain/Google Antigravity/_active/linkedin/STATUS-2026-08-07.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/_active/harness/claude-export" "/Users/farricecain/Google Antigravity/_active/claude-export"
 # Auto-generated inverse moves (newest first). Re-run to revert.
 mkdir -p "/Users/farricecain/Google Antigravity/_active/_archive" && mv -n "/Users/farricecain/Google Antigravity/_active/_archive/99-archive/MOVED-2026-08-07.md" "/Users/farricecain/Google Antigravity/_active/_archive/MOVED-2026-08-07.md"

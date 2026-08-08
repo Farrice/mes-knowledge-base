@@ -1,0 +1,71 @@
+{
+  "slug": "mission-linkedin-launch",
+  "title": "Linkedin Launch — Teardown 04 Create Wellness",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.md",
+  "paths": [
+    {
+      "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+      "role": "asset · IMAGE"
+    },
+    {
+      "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+      "role": "asset · AUDIO"
+    },
+    {
+      "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+      "role": "asset · IMAGE"
+    },
+    {
+      "path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_150605.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/skills/fantastic-posters/out/seedance-480p_5s_20260802_150605.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "skills/fantastic-posters/out/direct_1785707287020_v1.png",
+      "abs": "/Users/farricecain/Google Antigravity/skills/fantastic-posters/out/direct_1785707287020_v1.png",
+      "role": "asset · IMAGE"
+    },
+    {
+      "path": "skills/fantastic-posters/out/seedance-480p_5s_20260802_143652.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/skills/fantastic-posters/out/seedance-480p_5s_20260802_143652.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/linkedin/CAMPAIGN.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/CAMPAIGN.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "guides/2026-07-29-linkedin-launch.md",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-07-29-linkedin-launch.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": "guides/2026-07-13-stanton-linkedin-launch.md",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-07-13-stanton-linkedin-launch.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": ".agent/handoffs/2026-08-07-linkedin-launch.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-linkedin-launch.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "_active/linkedin/START-HERE.html",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/START-HERE.html",
+      "role": "related · FRONT DOOR"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "mission-voice-identity-stack",
+  "title": "Farrice Identity & Voice Stack — Master Context v3.3 + Register Atlas + VOICE-CARD v1.3 (full excavation arc)",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief.md",
+  "paths": [
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/voice/PORTABLE-VOICE-CARD.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/PORTABLE-VOICE-CARD.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/identity/notes-excavation-2026-08-04.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/identity/notes-excavation-2026-08-04.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "_active/farrice-brand/voice/REGISTER-ATLAS.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/REGISTER-ATLAS.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "guides/2026-08-07-voice-identity-stack.md",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-07-voice-identity-stack.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": ".agent/handoffs/2026-08-07-voice-identity-stack.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-voice-identity-stack.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "_active/farrice-brand/START-HERE.html",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.html",
+      "role": "related · FRONT DOOR"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
+      "role": "related · THREAD"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief.html",
+      "role": "related · THREAD"
+    }
+  ],
+  "urls": []
+}

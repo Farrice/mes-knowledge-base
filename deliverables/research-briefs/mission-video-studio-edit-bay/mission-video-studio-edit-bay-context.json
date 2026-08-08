@@ -1,0 +1,106 @@
+{
+  "slug": "mission-video-studio-edit-bay",
+  "title": "Edit Bay Video Studio",
+  "compiled": "aug 7, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.md",
+  "paths": [
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
+      "role": "asset · IMAGE"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
+      "role": "asset · IMAGE"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
+      "role": "asset · IMAGE"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v02.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v02.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-linkedin.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-linkedin.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-vert-916.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-vert-916.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/footage/test-clip.mp4",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/footage/test-clip.mp4",
+      "role": "asset · VIDEO"
+    },
+    {
+      "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports",
+      "abs": "/Users/farricecain/Google Antigravity/_active/video-studio/video-studio-shakedown/05-assets/video/exports",
+      "role": "asset · MORE"
+    },
+    {
+      "path": "skills/video-studio/SKILL.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/video-studio/SKILL.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/video-studio/REVIEW.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/video-studio/REVIEW.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/video-studio/workflows/produce-explainer.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/video-studio/workflows/produce-explainer.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/video-studio/style/graphics-taste.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/video-studio/style/graphics-taste.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/video-studio/workflows/package-release.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/video-studio/workflows/package-release.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "skills/video-studio/workflows/derive-shorts.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/video-studio/workflows/derive-shorts.md",
+      "role": "asset · FILE"
+    },
+    {
+      "path": "guides/2026-08-06-video-studio-edit-bay.md",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-06-video-studio-edit-bay.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": ".agent/handoffs/2026-08-06-video-studio-edit-bay.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-06-video-studio-edit-bay.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}
