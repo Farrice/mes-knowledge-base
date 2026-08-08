@@ -13,7 +13,7 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 ## across every thread
 - LIVE THREADS: **12**
 - DELIVERABLES FINALIZED: **72**
-- FILES WRITTEN: **137**
+- FILES WRITTEN: **136**
 - ASSETS GENERATED: **247**
 - SESSIONS SWEPT: **131**
 
@@ -21,7 +21,7 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 
 
 ## where the work went
-- linkedin launch: 7
+- linkedin launch: 8
 - video studio edit bay: 52
 - teardown 1 fresh: 6
 - extract forge: 39

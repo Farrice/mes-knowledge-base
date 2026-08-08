@@ -62,3 +62,33 @@ released
 === 2026-08-07 21:05:20 mission sweep start ===
 BLOCKED: fresh lock held by another session — mission 'test-lock-mission' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
 lock blocked — skipping tonight's sweep (one writer per tree)
+=== 2026-08-07 21:11:43 mission sweep start ===
+BLOCKED: fresh lock held by another session — mission 'test-lock-mission' (heartbeat 383s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping tonight's sweep (one writer per tree)
+=== 2026-08-07 21:12:11 mission sweep start ===
+claimed: dedd8bed7aac  (heartbeat every wave: session_lock.py heartbeat dedd8bed7aac)
+[session_sweep] window 14d — 131 sessions, 12/436 threads promoted, 72 deliverables, 136 artifacts, 247 assets
+  · linkedin-launch                        build    handoff status: active, artifact written, asset generated
+  · video-studio-edit-bay                  build    handoff status: ready, artifact written, asset generated
+  · teardown-1-fresh                       outcome  finalized deliverable, handoff status: active
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · deep-research                          outcome  finalized deliverable, handoff status: active
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · system-audit                           outcome  finalized deliverable, handoff status: active
+  · go                                     outcome  finalized deliverable, handoff status: active
+  · writers-room                           outcome  finalized deliverable, handoff status: active
+  · listing-hook-set-v2                    outcome  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+[session_sweep] over the 12-card ceiling (198), not carded: execution, farrice-brand, 04-briefs, create, kallaway-hook-mastery, benoit-vatere, oren-slop-era-creative-strategy, linkedin-profile-content, voice-identity-stack, mission
+[session_sweep] shipped without a live thread: 31 (surfaces on the mission board)
+[session_sweep] below the bar (226): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, 19-reputation-analysis, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, alex-copper-static-acquisition, angle-brief-2026-08-06
+[session_sweep] wrote .agent/sweep/sweep-2026-08-07.json
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-system-audit, mission-proof-to-market, mission-go, mission-angle-map-listening-engine-v4-1, mission-deep-research …
+[mission_brief] reawakened from the shelf: proof-to-market
+claude CLI not found at /nonexistent — facts-only board (synthesis skipped)
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-system-audit, mission-proof-to-market, mission-go, mission-angle-map-listening-engine-v4-1, mission-deep-research …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (29 briefs · 29 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-07T21:12:13.364067", "status": "ok", "synthesis_rc": 0, "synthesized": false, "counts": {"sessions": 131, "threads_seen": 436, "threads_promoted": 12, "deliverables": 72, "artifacts": 136, "assets": 247, "artifacts_vanished": 86, "overflow": 198}, "degraded": []}
+=== 2026-08-07 21:12:13 mission sweep end rc=0 ===

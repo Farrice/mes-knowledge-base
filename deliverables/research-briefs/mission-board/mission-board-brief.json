@@ -11,7 +11,6 @@
   "footer_right": "@farricecain",
   "category": "mission",
   "priority": 1,
-  "status": "active",
   "sections": [
     {
       "kind": "summary",
@@ -33,7 +32,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "137",
+          "value": "136",
           "label": "FILES WRITTEN"
         },
         {
@@ -124,7 +123,7 @@
         {
           "label": "linkedin launch",
           "values": [
-            7
+            8
           ]
         },
         {
@@ -335,5 +334,6 @@
       "kicker": "READ THE EDGES",
       "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.\n\n226 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
-  ]
+  ],
+  "status": "active"
 }
