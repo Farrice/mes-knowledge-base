@@ -342,21 +342,27 @@ def collect_ledgers(since):
         # Prefer the FILE's own mtime over the ledger's: a ledger stamp is when
         # the session last wrote anything, which stacks a week of work onto one
         # day and makes the momentum chart lie. Fall back only if the file moved.
-        produced = []
+        produced, vanished = [], 0
         for p in paths:
-            when = datetime.fromtimestamp(st.st_mtime)
+            fp = Path(p)
+            if not fp.is_absolute():
+                fp = ROOT / p
             try:
-                fp = Path(p)
-                if not fp.is_absolute():
-                    fp = ROOT / p
                 when = datetime.fromtimestamp(fp.stat().st_mtime)
             except OSError:
-                pass
-            produced.append({"path": repo_rel(p), "ts": iso(when)})
+                # The path a ledger recorded no longer exists — usually a later
+                # rename (`_active/linkedin-launch/` → `_active/linkedin/`).
+                # A brief that cites a missing file is a broken pointer, and the
+                # Room audit is right to call it out, so drop it here and report
+                # the count instead of publishing a dead link.
+                vanished += 1
+                continue
+            produced.append({"path": repo_rel(fp), "ts": iso(when)})
         out.append({
             "session_id": data.get("session_id") or f.stem.replace("ledger-", ""),
             "ts": iso(datetime.fromtimestamp(st.st_mtime)),
             "produced": produced,
+            "vanished": vanished,
             "spawns": data.get("subagent_spawns") or 0,
             "finalized": bool(data.get("finalized_at")),
             "pinned": bool(data.get("session_pinned")),
@@ -641,6 +647,7 @@ def sweep(days=DEFAULT_DAYS, since=None):
             t["harnesses"].append(d["platform"])
 
     ledgers = source("ledgers", lambda: collect_ledgers(since))
+    vanished_total = sum(lg.get("vanished", 0) for lg in ledgers)
     seen_art = set()
     for lg in ledgers:
         for art in lg["produced"]:
@@ -769,6 +776,7 @@ def sweep(days=DEFAULT_DAYS, since=None):
             "deliverables": sum(len(t["deliverables"]) for t in threads.values()),
             "artifacts": sum(len(t["artifacts"]) for t in threads.values()),
             "assets": sum(len(t["assets"]) for t in threads.values()),
+            "artifacts_vanished": vanished_total,
         },
         "threads": promoted,
         "also_shipped": also_shipped[:40],

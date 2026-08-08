@@ -405,6 +405,7 @@ def build_brief(slug, t, bundle, synth):
         "footer_right": "@farricecain",
         "category": CATEGORY,
         "priority": priority_for(t),
+        "status": "active",  # Preserved by write_brief() when re-rendering; auto-archives per AUTO_ARCHIVE_DAYS
         "sections": sections,
     }
 
@@ -508,33 +509,26 @@ def build_board(bundle, synth):
         "footer_right": "@farricecain",
         "category": CATEGORY,
         "priority": 1,
+        "status": "active",  # Mission-board is always active (never archived)
         "sections": sections,
     }
 
 
 # ── commands ────────────────────────────────────────────────────────
 def _save_brief(brief):
-    """Save a brief dict as JSON + HTML in deliverables/research-briefs/mission-<slug>/.
+    """Write one mission brief through the SHARED brief writer.
 
-    Uses the standard naming convention: {slug}-brief.json and {slug}-brief.html,
-    so that brief_library.collect() can find them."""
-    brief_slug = brief["slug"]  # e.g., "mission-extract-forge"
-    out_dir = BRIEFS / brief_slug
-    out_dir.mkdir(parents=True, exist_ok=True)
+    This used to inline its own html+json writes, which quietly dropped two
+    files every other brief in the Room has: the `.md` agent-paste mirror and
+    the `-context.json` pack. Those are not decoration — the md is what gets
+    pasted into a chat, and the context pack is what makes a brief hand-off-able
+    to an agent. One writer, one layout: render_brief.write_brief().
 
-    # Write JSON (the source of truth) with full_slug so collect() finds it
-    json_f = out_dir / f"{brief_slug}-brief.json"
-    json_f.write_text(json.dumps(brief, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-    # Render HTML
-    html_content = render_brief.render(brief, share=False)
-    html_f = out_dir / f"{brief_slug}-brief.html"
-    html_f.write_text(html_content, encoding="utf-8")
-
-    # Share variant (stripped of internals)
-    share_html = render_brief.render(brief, share=True)
-    share_f = out_dir / f"{brief_slug}-brief-share.html"
-    share_f.write_text(share_html, encoding="utf-8")
+    `share=True` is deliberate here: a mission brief is the thing most likely to
+    be forwarded, and the share variant is the only form safe to send outward
+    (internal file paths stripped).
+    """
+    return render_brief.write_brief(brief, share=True)
 
 
 def cmd_build(args):
