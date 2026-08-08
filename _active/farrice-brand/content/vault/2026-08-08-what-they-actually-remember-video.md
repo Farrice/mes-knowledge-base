@@ -1,5 +1,5 @@
 ---
-status: READY
+status: SUPERSEDED
 tags:
   - Creative Strategy
   - P1-Founder-Clarity
@@ -7,6 +7,7 @@ tags:
   - Outer
 format: Short-Form Video Script (45-60 seconds)
 source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md
+superseded_reason: Unsourced founder-voice 4x premise failed same-day grounding; replaced by quiet-benefit checkpoint assets.
 ---
 
 # What They'll Actually Remember (Video Script)

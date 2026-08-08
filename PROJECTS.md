@@ -8,14 +8,14 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-08 | active |
+| `health-performance-ip-library` | _active/ | **— none —** | 2026-08-08 | active* |
 | `knowledge` | _active/ | **— none —** | 2026-08-08 | active* |
+| `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-08 | active* |
 | `_archive` | _active/ | **— none —** | 2026-08-07 | active* |
 | `_ledgers` | _active/ | `_active/_ledgers/INDEX.md` | 2026-08-07 | active* |
 | `clients` | _active/ | **— none —** | 2026-08-07 | active* |
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-07 | active |
 | `harness` | _active/ | **— none —** | 2026-08-07 | active* |
-| `health-performance-ip-library` | _active/ | **— none —** | 2026-08-07 | active* |
-| `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-07 | active* |
 | `mybpm` | _active/ | **— none —** | 2026-08-07 | active* |
 | `offer-strategy` | _active/ | **— none —** | 2026-08-07 | active* |
 | `publishing` | _active/ | **— none —** | 2026-08-07 | active* |

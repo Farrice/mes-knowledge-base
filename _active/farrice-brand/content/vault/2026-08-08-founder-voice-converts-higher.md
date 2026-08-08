@@ -1,5 +1,5 @@
 ---
-status: READY
+status: SUPERSEDED
 tags:
   - Thesis
   - P1-Founder-Clarity
@@ -7,6 +7,7 @@ tags:
   - Inner
 format: LinkedIn Post
 source_brief: _active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md
+superseded_reason: Unsourced founder-voice 4x premise failed same-day grounding; replaced by quiet-benefit checkpoint assets.
 ---
 
 # Founder Voice Converts 4× Higher Than Agency Copy

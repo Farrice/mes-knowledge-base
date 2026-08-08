@@ -321,6 +321,11 @@ Also avoid presenting “more creatives” as a complete diagnosis. Volume can b
 | Strong line rejected in review | Growth lead, brand lead, evidence guardian | “The claim was carrying the angle.” | A proof-aware creative alternative | Another cycle of cautious, generic copy | Legal-safe does not have to mean creatively dead |
 | Competitor owns the ingredient | Founder, product marketer | “Ingredient parity does not require message parity.” | A distinct occasion, identity, tradeoff, or mechanism | The brand becomes a price comparison | Ingredient story versus buyer occasion |
 | Agency asks for better direction | Founder, growth lead, media buyer | “The agency cannot execute a decision we have not made.” | A small upstream engagement that strengthens the existing team | More meetings, more variants, no learning | What a usable brief contains |
+
+### 2026-08-08 Delta - The Buyer Wants A Fair Test, Not Another Bigger Claim
+
+The quiet-benefit buyer is not only skeptical; they are missing a way to judge. They ask forums whether the product did anything because the brand did not give them a checkpoint: what to notice, when to notice it, and what proof counts if they feel nothing. Content opportunity: teach the buyer how to run a fair test without giving medical advice or making efficacy claims.
+Evidence: https://www.reddit.com/r/Supplements/comments/1vg6qgd/do_you_actually_feel_anything_from_omega3/
 | Founder can sell it verbally, not on the page | Founder, brand lead | “The missing asset is the founder’s judgment, translated.” | Evidence Farrice can extract without turning it into a generic deck | The best explanation stays trapped in calls | Founder explanation versus homepage copy |
 
 ### Permission structure for a $750 yes

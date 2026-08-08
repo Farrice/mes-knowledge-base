@@ -54,6 +54,11 @@ Emotional register underneath: *"We did everything right and we're losing to wor
 ## 2026-08-08 Delta — Founder Voice as Live Campaign-Cycle Decision Point
 
 Founders actively choosing between safety (agency copy) and authenticity (founder voice) as primary campaign decision. Market data shows founder voice converts 4× higher than agency copy in supplement campaigns. This is a recognition moment for the Angle Map—founder realizes founder voice is their competitive edge and is ready to ask "which angle actually wins with my buyer?" Buying trigger now includes: campaign launch, product refresh, creative rebrand, or creative fatigue around agency sameness.
+
+### 2026-08-08 Delta - Quiet-Benefit Checkpoint Is A Live Campaign Decision
+
+Quiet-benefit supplement founders have a campaign-cycle problem: the product page sells the promise, but the buyer has to invent the test after purchase. Live buyer language around omega-3 shows the private sentence: "am I noticing a benefit or buying from habit?" NARB's Niagen decision shows the claim-boundary version of the same problem: mechanism-level language and felt-result promises are different campaign jobs. Angle Map trigger: before the next creative round, decide which checkpoint the buyer can safely use.
+Evidence: https://www.reddit.com/r/Supplements/comments/1vg6qgd/do_you_actually_feel_anything_from_omega3/ + https://bbbprograms.org/media/newsroom/decisions/niagen-bioscience
 - Buyer wants legal certification, guaranteed revenue, rankings, retailer acceptance, or AI citations
 - Brand cannot provide its approved evidence and claim boundaries
 

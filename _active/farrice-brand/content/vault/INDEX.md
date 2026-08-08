@@ -2,9 +2,12 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
-| 2026-08-08 | [founder-voice-converts-higher](2026-08-08-founder-voice-converts-higher.md) | LinkedIn post | Thesis · P1 | Authority | Inner | READY |
-| 2026-08-08 | [what-they-actually-remember-video](2026-08-08-what-they-actually-remember-video.md) | 45-60s video script | Creative Strategy · P1 | Growth | Outer | READY |
-| 2026-08-08 | [irony-is-backwards-video](2026-08-08-irony-is-backwards-video.md) | 45-60s video script | Creative Strategy · P1 | Growth | Outer | READY |
+| 2026-08-08 | [founder-voice-converts-higher](2026-08-08-founder-voice-converts-higher.md) | LinkedIn post | Thesis · P1 | Authority | Inner | SUPERSEDED |
+| 2026-08-08 | [what-they-actually-remember-video](2026-08-08-what-they-actually-remember-video.md) | 45-60s video script | Creative Strategy · P1 | Growth | Outer | SUPERSEDED |
+| 2026-08-08 | [irony-is-backwards-video](2026-08-08-irony-is-backwards-video.md) | 45-60s video script | Creative Strategy · P1 | Growth | Outer | SUPERSEDED |
+| 2026-08-08 | [quiet-benefit-checkpoint-post](2026-08-08-quiet-benefit-checkpoint-post.md) | LinkedIn post | Proof · P2 | Authority | Bridge | READY |
+| 2026-08-08 | [day-36-video](2026-08-08-day-36-video.md) | 45-60s video script | Proof · P2 | Growth | Outer | READY |
+| 2026-08-08 | [quiet-benefit-video](2026-08-08-quiet-benefit-video.md) | 45-60s video script | Proof · P2 | Authority | Bridge | READY |
 | 2026-08-07 | [count-whats-left-post](2026-08-07-count-whats-left-post.md) | LinkedIn post | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-07 | [nobody-owns-selection-essay](2026-08-07-nobody-owns-selection-essay.md) | Synthesis essay (long-form) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-05 | [trust-has-an-owner-post](2026-08-05-trust-has-an-owner-post.md) | LinkedIn post | Thesis · P3 | Authority | Bridge | READY |

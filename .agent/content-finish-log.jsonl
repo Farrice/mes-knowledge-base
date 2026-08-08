@@ -492,3 +492,14 @@
 {"ts": "2026-08-08T13:26:58Z", "label": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d75 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-08-08T13:27:36Z", "label": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d74 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-08-08T13:28:08Z", "label": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d74 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-08T13:37:43Z", "label": "day-36-video", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:37:43Z", "label": "checkpoint-post", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('same \u2026 same \u2026 same') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-08T13:37:43Z", "label": "quiet-benefit-video", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:38:03Z", "label": "checkpoint-post", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-08T13:39:28Z", "label": "checkpoint-post", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-08-08T13:39:28Z", "label": "day-36-video", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:39:28Z", "label": "quiet-benefit-video", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:39:45Z", "label": "checkpoint-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:40:55Z", "label": "quiet-benefit-video", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:40:55Z", "label": "checkpoint-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-08T13:40:55Z", "label": "day-36-video", "verdict": "CLEAN", "fails": [], "warns": []}
