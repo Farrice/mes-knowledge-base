@@ -1,30 +1,30 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 128 sessions swept · compiled: aug 7, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 133 sessions swept · compiled: aug 8, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-The live threads split into two piles: system-building that keeps finishing, and revenue work that keeps stopping just short of contact with a buyer. Nearly everything marked active is waiting on a send, a post, or a decision — not on more production.
+The board is heavy on finished work and light on contact with anyone outside the system. Nearly every live thread has a made thing sitting at ready — teardowns, listing content, an offer, a studio — and almost none of them carry a recorded response from a buyer, a client or an audience.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **72**
+- DELIVERABLES FINALIZED: **60**
 - FILES WRITTEN: **137**
 - ASSETS GENERATED: **247**
-- SESSIONS SWEPT: **128**
+- SESSIONS SWEPT: **133**
 
 ## momentum
 
 
 ## where the work went
 - linkedin launch: 8
-- video studio edit bay: 52
 - teardown 1 fresh: 6
-- extract forge: 39
+- video studio edit bay: 52
+- extract forge: 33
 - deep research: 6
 - angle map listening engine v4 1: 9
 - 01 listing content: 9
@@ -35,8 +35,8 @@ _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
 - [ACTIVE] linkedin launch — deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html
-- [READY] video studio edit bay — deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html
 - [ACTIVE] teardown 1 fresh — deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html
+- [READY] video studio edit bay — deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html
 - [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
 - [ACTIVE] deep research — deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html
 - [ACTIVE] angle map listening engine v4 1 — deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html
@@ -44,8 +44,8 @@ _weighted: deliverables ×3 + files + assets_
 - [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
 - [ACTIVE] go — deliverables/research-briefs/mission-go/mission-go-brief.html
 - [ACTIVE] writers room — deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html
-- [ACTIVE] listing hook set v2 — deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html
 - [READY] proof to market — deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html
+- [ACTIVE] execution — deliverables/research-briefs/mission-execution/mission-execution-brief.html
 
 ## also shipped
 - 2026-08-06 · **one-liner** — Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioni
@@ -63,16 +63,16 @@ _weighted: deliverables ×3 + files + assets_
 
 ## what this board isn't
 _READ THE EDGES_
-Every thread here is assembled from what was recorded, so a missing outcome means nothing was written down — not necessarily that nothing happened. Several threads carry headlines inherited from older work and describe themselves inaccurately.
+Stage and status are inferred from records the system wrote about itself, so a thread can read as shipped while nothing has left the building. Threads with no recorded activity in this window are shown as last left, not as currently true. A meaningful share of the files this sweep catalogued no longer exist on disk, so the artifact picture is a snapshot of what was claimed, not of what survives.
 
-198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.
+198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner, daily zeitgeist brief.
 
-224 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+223 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
 - `deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html` — related · READY
 - `deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html` — related · READY
 - `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
 - `deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html` — related · ACTIVE
@@ -80,5 +80,5 @@ Every thread here is assembled from what was recorded, so a missing outcome mean
 - `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-go/mission-go-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html` — related · READY
+- `deliverables/research-briefs/mission-execution/mission-execution-brief.html` — related · ACTIVE

@@ -1,16 +1,16 @@
 # Edit Bay Video Studio
 
-> MISSION · SKILLS · window: last 14 days · lens: claude · sources: 1 sessions · 6 files · 46 assets · compiled: aug 7, 2026
+> MISSION · SKILLS · window: last 14 days · lens: claude · sources: 1 sessions · 6 files · 46 assets · compiled: aug 8, 2026
 
-Everything is assembled and nothing has been shot — the next run is the real test.
+Fully built, never used — the first pilot is the only thing that will tell you whether it works.
 
 ## where this stands
 _CURRENT POSITION_
-The studio is built and has survived a shakedown render, but it has not produced a real piece yet — the pilots that would prove it are unrun, and several supporting parts are cloned or specced rather than wired.
+The studio is built and its taste layer is in place, but nothing has been run through it end to end. Its own handoff lists the pilots as unrun and several dependencies as cloned but unwired.
 
 Handoff status is ready. Last activity today.
 
-Next: Run one pilot end to end and come back with the exact voiceover lines for Farrice to record.
+Next: Run the first pilot through the studio and tell Farrice exactly what to record.
 
 ## by the numbers
 - FILES WRITTEN: **6**
@@ -26,7 +26,7 @@ Next: Run one pilot end to end and come back with the exact voiceover lines for 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — The build is a claim until a real video comes out of it, and the open items are precisely the ones a first pilot would expose.
+1. **Finish what's open** — A pipeline that has never carried real work is an assumption, and the unwired pieces will only announce themselves as failures on the first genuine run.
 
 ## what this thread made
 - **insp_038.jpg** [IMAGE] `_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg` — aug 7, 2026
@@ -64,7 +64,7 @@ python3 execution/handoff_store.py resume video-studio-edit-bay
 
 ## what this isn't
 _READ THE EDGES_
-The rough edges are known and stated — untested integrations, missing keys, a crude vertical reframe — so treat this as capable of a first pass, not as a finished pipeline. No completed video is on record.
+Untested integrations and a naive vertical reframe are known and unresolved. Readiness here is the builder's claim, not a result — and the cost behaviour of a real run is unverified.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

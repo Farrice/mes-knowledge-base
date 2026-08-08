@@ -2,11 +2,11 @@
   "slug": "mission-video-studio-edit-bay",
   "chip": "MISSION · SKILLS",
   "title": "Edit Bay Video *Studio*",
-  "dek": "Everything is assembled and nothing has been shot — the next run is the real test.",
+  "dek": "Fully built, never used — the first pilot is the only thing that will tell you whether it works.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 6 files · 46 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The studio is built and has survived a shakedown render, but it has not produced a real piece yet — the pilots that would prove it are unrun, and several supporting parts are cloned or specced rather than wired.\n\nHandoff status is ready. Last activity today.\n\nNext: Run one pilot end to end and come back with the exact voiceover lines for Farrice to record."
+      "body": "The studio is built and its taste layer is in place, but nothing has been run through it end to end. Its own handoff lists the pilots as unrun and several dependencies as cloned but unwired.\n\nHandoff status is ready. Last activity today.\n\nNext: Run the first pilot through the studio and tell Farrice exactly what to record."
     },
     {
       "kind": "stats",
@@ -63,8 +63,8 @@
             0,
             0,
             0,
-            0,
-            1
+            1,
+            0
           ],
           "value": "1",
           "unit": "total",
@@ -85,8 +85,8 @@
             0,
             0,
             0,
-            0,
-            6
+            6,
+            0
           ],
           "value": "6",
           "unit": "files",
@@ -107,10 +107,10 @@
             0,
             0,
             0,
-            0,
-            6
+            6,
+            40
           ],
-          "value": "6",
+          "value": "46",
           "unit": "made",
           "note": "per day"
         }
@@ -148,7 +148,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "The build is a claim until a real video comes out of it, and the open items are precisely the ones a first pilot would expose."
+          "why": "A pipeline that has never carried real work is an assumption, and the unwired pieces will only announce themselves as failures on the first genuine run."
         }
       ]
     },
@@ -313,7 +313,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The rough edges are known and stated — untested integrations, missing keys, a crude vertical reframe — so treat this as capable of a first pass, not as a finished pipeline. No completed video is on record.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Untested integrations and a naive vertical reframe are known and unresolved. Readiness here is the builder's claim, not a result — and the cost behaviour of a real run is unverified.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

@@ -1,27 +1,27 @@
 # LinkedIn cash-launch mission
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-Fully planned, then stopped moving — treat it as a decision, not a task.
+Everything is planned; nothing in the record proves anyone was contacted.
 
 ## where this stands
 _CURRENT POSITION_
-This was the cash-launch push — fresh research, an adversarial wargame that cleared the offer with fixes, and a launch plan. It produced the plan and a root-cause diagnosis of the failed profile copy, then went quiet.
+This is where the cash-launch planning happened: demand research, an adversarial pass on the offer, a launch plan, and the profile going live. The planning finished; the selling it was supposed to trigger has not appeared in the record since.
 
-Handoff status is active. Last activity 7d ago.
+Handoff status is active. Last activity 8d ago.
 
-Next: Decide whether the launch plan is still live and run its next selling step, or park the thread so it stops reading as active.
+Next: Log real outreach against the launch plan, or park the thread.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **4**
-- DAYS ACTIVE: **10 d**
+- DAYS ACTIVE: **11 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — A launch sequence that is not being executed decays into a document, and leaving the thread marked active hides the fact that nothing is being sold.
+1. **Decide: resume or park** — A planning thread that stops moving quietly becomes a plan nobody is executing, and this one carries the offer the whole campaign depends on.
 
 ## pick it back up
 1. **Resume here** — LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
@@ -43,7 +43,7 @@ python3 execution/handoff_store.py resume go
 
 ## what this isn't
 _READ THE EDGES_
-Everything recorded is planning and diagnosis — no selling activity or buyer response is logged against it. Whether the offer holds is unconfirmed until someone pays.
+Nothing here records a send, a reply or a payment — the launch is verified as designed, not as run. Demand for the offer at its stated price remains unconfirmed by any buyer.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

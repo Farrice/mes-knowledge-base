@@ -1,16 +1,16 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-Done being designed; waiting on contact with a buyer.
+The offer is done being designed; it's waiting on someone to say yes or no to it.
 
 ## where this stands
 _CURRENT POSITION_
-The offer layer is written and marked ready: a defined sprint with a positioning-led scope and the search-visibility angle demoted to a diagnostic. Nothing touched it during this window.
+The offer itself is settled — positioning, scope and the modules underneath it — and every mission raised against it is closed. Nothing in this window touched it.
 
 Handoff status is ready.
 
-Next: Put the offer in front of a real buyer instead of refining it further.
+Next: Take the offer to a buyer exactly as written instead of revising it again.
 
 ## lifecycle
 
@@ -34,7 +34,7 @@ python3 execution/pulse_actions.py done proof-to-market --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-There is a finished document and no recent motion, so ready describes the artifact, not the pipeline. Demand for this offer as written remains unconfirmed until someone buys it.
+Ready here means internally agreed, not market-tested: no buyer has priced, accepted or rejected this offer on the record. With no recent activity, the thread's state is as-last-left rather than as-of-now.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

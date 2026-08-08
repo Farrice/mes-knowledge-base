@@ -1,16 +1,16 @@
 # Linkedin Launch — Teardown 04 Create Wellness
 
-> MISSION · LINKEDIN · window: last 14 days · lens: claude · sources: 1 sessions · 2 files · 6 assets · compiled: aug 7, 2026
+> MISSION · LINKEDIN · window: last 14 days · lens: claude · sources: 1 sessions · 2 files · 6 assets · compiled: aug 8, 2026
 
-Plan and assets are there; the launch is gated on the boring money plumbing.
+Live and producing; the gap is between publishing a teardown and someone answering it.
 
 ## where this stands
 _CURRENT POSITION_
-The campaign has a live plan and generated visual assets, and the newest work is operational plumbing — getting paid rather than getting posted. It is still in build, with the campaign file as its spine.
+The launch lane is the one thing moving right now: a fresh brand teardown in flight with its assets already generated. It is the execution arm of the offer the rest of the board has been preparing.
 
 Handoff status is active. Last activity today.
 
-Next: Finish the payment setup so an interested buyer has somewhere to send money.
+Next: Finish the teardown in flight and put it in front of the brand it profiles.
 
 ## by the numbers
 - FILES WRITTEN: **2**
@@ -51,7 +51,7 @@ python3 execution/pulse_actions.py done linkedin-launch --outcome "<one line>"
    receipt: It leaves the open set on the next pulse regen.
 
 ## how it got here
-- 2026-08-07 · **commit 3b2a2cc4f** — feat(readout-os): Mission Control + always-on served boards + repo link layer
+- 2026-08-07 · **commit 47c46a018** — fix(pulse-serve): close cross-origin hole; verify nightly synthesis live
 - 2026-07-28 · **claude session · 39 msgs** — LinkedIn Launch — About Rebuild v2 (Three Takes + Co-Creation Layer)
 
 ## swings to
@@ -61,7 +61,7 @@ python3 execution/pulse_actions.py done linkedin-launch --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Assets exist, but nothing records them being published or any response to them. A campaign file being updated is not the same as a campaign running.
+The record captures work being made, not delivered — no reply, booked call or outcome is attached to anything in this lane yet.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

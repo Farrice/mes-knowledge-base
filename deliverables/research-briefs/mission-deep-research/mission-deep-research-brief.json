@@ -2,11 +2,11 @@
   "slug": "mission-deep-research",
   "chip": "MISSION · THREAD",
   "title": "Josh Eightward Lindy Hop Brand Positioning *Packet*",
-  "dek": "A catch-all research lane that keeps returning verdicts — its label just hasn't kept up with its contents.",
+  "dek": "Research here comes back with a verdict rather than a summary — including 'build nothing'.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This is functioning as a general research lane rather than one project — recent passes delivered a verdict against building on a hyped term and folded a sourced brief into the betting work. Its carried headline still names an older client positioning packet.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Confirm each finished research pass has a downstream owner, then let the lane go quiet."
+      "body": "This is the research lane rather than a project of its own. Its recent work is a debunking verdict that saved a build from being started and a sourcing pass that handed another thread its methodology — both landed as decisions someone could act on.\n\nHandoff status is active. Last activity 2d ago.\n\nNext: Route the next research question through this lane instead of answering it from memory."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "10",
+          "value": "11",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -120,7 +120,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "One pass ended in a recommendation to build nothing, which is a real result but reads like an unfinished thread. The handoff headline describes work unrelated to anything recent here.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The stored resume line points at a client positioning packet unrelated to the most recent runs, so this thread's saved state is stale against what it actually did.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

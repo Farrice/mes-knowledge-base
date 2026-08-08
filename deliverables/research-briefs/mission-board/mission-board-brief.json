@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "128 sessions swept",
-  "compiled": "aug 7, 2026",
+  "sources": "133 sessions swept",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "The live threads split into two piles: system-building that keeps finishing, and revenue work that keeps stopping just short of contact with a buyer. Nearly everything marked active is waiting on a send, a post, or a decision — not on more production.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "The board is heavy on finished work and light on contact with anyone outside the system. Nearly every live thread has a made thing sitting at ready — teardowns, listing content, an offer, a studio — and almost none of them carry a recorded response from a buyer, a client or an audience.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "72",
+          "value": "60",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "128",
+          "value": "133",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -52,11 +52,11 @@
         {
           "label": "sessions",
           "values": [
-            0,
             1,
             0,
             0,
             1,
+            0,
             0,
             0,
             0,
@@ -85,10 +85,10 @@
             0,
             0,
             0,
-            0,
-            6
+            6,
+            2
           ],
-          "value": "6",
+          "value": "8",
           "note": "per day"
         },
         {
@@ -102,14 +102,14 @@
             0,
             0,
             0,
-            0,
             3,
             0,
             0,
             0,
-            6
+            6,
+            43
           ],
-          "value": "9",
+          "value": "52",
           "note": "per day"
         }
       ],
@@ -127,21 +127,21 @@
           ]
         },
         {
-          "label": "video studio edit bay",
-          "values": [
-            52
-          ]
-        },
-        {
           "label": "teardown 1 fresh",
           "values": [
             6
           ]
         },
         {
+          "label": "video studio edit bay",
+          "values": [
+            52
+          ]
+        },
+        {
           "label": "extract forge",
           "values": [
-            39
+            33
           ]
         },
         {
@@ -193,14 +193,14 @@
           "path": "deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html"
         },
         {
-          "k": "READY",
-          "title": "video studio edit bay",
-          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
-        },
-        {
           "k": "ACTIVE",
           "title": "teardown 1 fresh",
           "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "video studio edit bay",
+          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
         },
         {
           "k": "READY",
@@ -238,14 +238,14 @@
           "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "listing hook set v2",
-          "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html"
-        },
-        {
           "k": "READY",
           "title": "proof to market",
           "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "execution",
+          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
         }
       ]
     },
@@ -332,7 +332,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Every thread here is assembled from what was recorded, so a missing outcome means nothing was written down — not necessarily that nothing happened. Several threads carry headlines inherited from older work and describe themselves inaccurately.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: execution, farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner.\n\n224 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Stage and status are inferred from records the system wrote about itself, so a thread can read as shipped while nothing has left the building. Threads with no recorded activity in this window are shown as last left, not as currently true. A meaningful share of the files this sweep catalogued no longer exist on disk, so the artifact picture is a snapshot of what was claimed, not of what survives.\n\n198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner, daily zeitgeist brief.\n\n223 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

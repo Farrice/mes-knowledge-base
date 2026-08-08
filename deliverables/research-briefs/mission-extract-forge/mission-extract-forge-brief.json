@@ -2,11 +2,11 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "Done and usable; the only thing open is a grade nobody is waiting on.",
+  "dek": "Volume is high and quality is uneven; the open question is which of these anyone actually deploys.",
   "window": "last 14 days",
   "lens": "claude · codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The forge keeps turning watched sources into deployable expert skills, and the latest build is verified and usable as-is. What remains is optional grading, not missing function.\n\nHandoff status is ready. Last activity 1d ago.\n\nNext: Use the verified skill as-is and run the blind recognition pack only if the A-tier rating changes how you would use it."
+      "body": "The extraction line is the busiest thing on the board and keeps shipping usable expert systems, but a good share of them close below the bar they were aiming for. The current build carries no functional debt — only an optional quality promotion.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Give the blind recognition verdict, or drop the promotion and move on."
     },
     {
       "kind": "stats",
@@ -24,7 +24,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "13",
+          "value": "11",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -47,8 +47,8 @@
         {
           "label": "sessions",
           "values": [
-            0,
             1,
+            0,
             0,
             0,
             0,
@@ -100,7 +100,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "This is a grade, not a repair — the build already works, so it is only worth the time if the rating would change a decision."
+          "why": "It is the only thing holding a finished extraction open, and it needs a felt verdict no automated pass can supply."
         }
       ]
     },
@@ -211,18 +211,6 @@
         },
         {
           "date": "2026-07-25",
-          "title": "Finalized · extract-forge",
-          "body": "Briar Cochran — Content Science mastery extraction (forge): 12-workflow skill + 8 born-v2 prompts + agent + full registration, from 2 /watch'd videos + 1 enrichment source",
-          "done": true
-        },
-        {
-          "date": "2026-07-25",
-          "title": "Finalized · extract-forge",
-          "body": "Dara Denney Creative Strategy OS extraction forge extension",
-          "done": true
-        },
-        {
-          "date": "2026-07-25",
           "title": "claude session · 21 msgs",
           "body": "run /scrape-creator /watch /extract-forge  on this youtube videos: https://www.youtube.com/watch?v=yRgPbqywUJ8&t=1143s https://www.youtube.com/watch?v=gqnp-IdEEI8&t=60s  Task: I wa",
           "done": true
@@ -250,7 +238,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The work sits on its own branch rather than the main line, so anything depending on it should confirm it actually merged. The remaining item needs Farrice's own recognition verdict and cannot be closed by the system.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Scores here are self-reported by the same pass that produced the work — the run marked needs-improvement and the run marked keep were graded by the same hand. Nothing in the record shows whether any of these extractions has since been used for anything.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

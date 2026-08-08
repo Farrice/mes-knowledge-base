@@ -1,27 +1,27 @@
 # Willis Approved Three-Reel Closeout
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-Approved and ready to hand to the client — the only thing missing is someone pressing send.
+Approved and finished; the only thing left is hitting send.
 
 ## where this stands
 _CURRENT POSITION_
-The reel package for the listing is approved and sitting in a clean recording pack — the client-facing work is finished and unsent. A second listing's shoot sheet cycled through rejection-and-rewrite rounds in the same thread and landed on a story pass.
+The listing package went through several rebuilds against real rejections — first the hooks, then the whole voice — and landed on an approved version. It is finished work sitting one send away from the client.
 
-Handoff status is ready. Last activity 2d ago.
+Handoff status is ready. Last activity 3d ago.
 
-Next: Send the approved recording pack to Jen.
+Next: Send the approved recording pack to Jen and stop editing it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **2 d**
+- DAYS ACTIVE: **3 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — This is polish, not repair — it does not gate the send, so the only real question is whether to tighten it or hand over what is already approved.
+1. **Finish what's open** — The remaining item is explicitly optional polish, and treating it as work is what keeps a finished package from reaching the client.
 
 ## pick it back up
 1. **Resume here** — Final approved three Reels are in the clean recording pack; send to Jen.
@@ -42,7 +42,7 @@ python3 execution/handoff_store.py resume 01-listing-content
 
 ## what this isn't
 _READ THE EDGES_
-Approval is recorded against the reel package, not against the follow-on shoot sheet, which was still being reworked after client rejections. Nothing here confirms anything was filmed or posted.
+The approval is recorded on our side only — nothing here confirms Jen received the pack or filmed from it. Whether these hooks hold up on camera is entirely unmeasured.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

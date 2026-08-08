@@ -1,27 +1,27 @@
 # LinkedIn About rebuild
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-The voice work compounded; the About section needs one decision, not more variants.
+The voice card is the real output; the profile copy itself never got a final verdict.
 
 ## where this stands
 _CURRENT POSITION_
-The profile-copy rebuild produced distinct competing takes on the About section and, more durably, ratcheted the voice card from the verdicts given along the way. It has been idle since that pass.
+This lane rebuilt the profile voice through repeated takes and left behind something durable — a ratcheted voice card and a recorded protocol for how the pen should work. It has been quiet longer than anything else on the board.
 
-Handoff status is active. Last activity 10d ago.
+Handoff status is active. Last activity 11d ago.
 
-Next: Pick one About take and publish it, or declare the copy settled and close the thread.
+Next: Decide whether the profile copy is finished, or park the lane and carry the voice card forward without it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — Copy that keeps getting rewritten without being chosen is the failure mode this lane already hit once — a choice ends it, another round does not.
+1. **Decide: resume or park** — This is the lane where the profile-copy spiral happened before; leaving it half-open invites another round of variants in place of a decision.
 
 ## what this thread made
 - **2026-07-28-writers-room-pen-protocol.md** [SOLUTION] `docs/solutions/2026-07-28-writers-room-pen-protocol.md`
@@ -49,7 +49,7 @@ python3 execution/pulse_actions.py done writers-room --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Competing takes exist with no record of one being selected or posted. Passing the internal prose check is not evidence that it lands with a reader.
+The last recorded state is a set of competing treatments, not a chosen one — nothing here says which take is live. The voice work has outlasted the artifact it was made for.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

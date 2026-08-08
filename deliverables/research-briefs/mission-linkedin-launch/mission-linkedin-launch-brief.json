@@ -2,11 +2,11 @@
   "slug": "mission-linkedin-launch",
   "chip": "MISSION · LINKEDIN",
   "title": "Linkedin Launch — Teardown 04 Create *Wellness*",
-  "dek": "Plan and assets are there; the launch is gated on the boring money plumbing.",
+  "dek": "Live and producing; the gap is between publishing a teardown and someone answering it.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 2 files · 6 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The campaign has a live plan and generated visual assets, and the newest work is operational plumbing — getting paid rather than getting posted. It is still in build, with the campaign file as its spine.\n\nHandoff status is active. Last activity today.\n\nNext: Finish the payment setup so an interested buyer has somewhere to send money."
+      "body": "The launch lane is the one thing moving right now: a fresh brand teardown in flight with its assets already generated. It is the execution arm of the offer the rest of the board has been preparing.\n\nHandoff status is active. Last activity today.\n\nNext: Finish the teardown in flight and put it in front of the brand it profiles."
     },
     {
       "kind": "stats",
@@ -59,8 +59,8 @@
             0,
             0,
             0,
-            0,
             1,
+            0,
             0,
             0,
             0,
@@ -76,9 +76,30 @@
           "note": "per day"
         },
         {
-          "label": "assets",
+          "label": "files written",
           "values": [
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "value": "2",
+          "unit": "files",
+          "note": "per day"
+        },
+        {
+          "label": "assets",
+          "values": [
             0,
             0,
             0,
@@ -91,9 +112,10 @@
             0,
             0,
             0,
-            0
+            0,
+            3
           ],
-          "value": "3",
+          "value": "6",
           "unit": "made",
           "note": "per day"
         }
@@ -220,8 +242,8 @@
       "items": [
         {
           "date": "2026-08-07",
-          "title": "commit 3b2a2cc4f",
-          "body": "feat(readout-os): Mission Control + always-on served boards + repo link layer",
+          "title": "commit 47c46a018",
+          "body": "fix(pulse-serve): close cross-origin hole; verify nightly synthesis live",
           "done": true
         },
         {
@@ -258,7 +280,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Assets exist, but nothing records them being published or any response to them. A campaign file being updated is not the same as a campaign running.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The record captures work being made, not delivered — no reply, booked call or outcome is attached to anything in this lane yet.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

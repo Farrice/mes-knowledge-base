@@ -1,20 +1,20 @@
 # Josh Eightward Lindy Hop Brand Positioning Packet
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-A catch-all research lane that keeps returning verdicts — its label just hasn't kept up with its contents.
+Research here comes back with a verdict rather than a summary — including 'build nothing'.
 
 ## where this stands
 _CURRENT POSITION_
-This is functioning as a general research lane rather than one project — recent passes delivered a verdict against building on a hyped term and folded a sourced brief into the betting work. Its carried headline still names an older client positioning packet.
+This is the research lane rather than a project of its own. Its recent work is a debunking verdict that saved a build from being started and a sourcing pass that handed another thread its methodology — both landed as decisions someone could act on.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 2d ago.
 
-Next: Confirm each finished research pass has a downstream owner, then let the lane go quiet.
+Next: Route the next research question through this lane instead of answering it from memory.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **10 d**
+- DAYS ACTIVE: **11 d**
 
 ## lifecycle
 
@@ -42,7 +42,7 @@ python3 execution/pulse_actions.py done deep-research --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-One pass ended in a recommendation to build nothing, which is a real result but reads like an unfinished thread. The handoff headline describes work unrelated to anything recent here.
+The stored resume line points at a client positioning packet unrelated to the most recent runs, so this thread's saved state is stale against what it actually did.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

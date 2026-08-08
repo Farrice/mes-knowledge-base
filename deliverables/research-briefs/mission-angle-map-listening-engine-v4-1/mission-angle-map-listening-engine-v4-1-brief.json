@@ -2,11 +2,11 @@
   "slug": "mission-angle-map-listening-engine-v4-1",
   "chip": "MISSION · THREAD",
   "title": "2026-08-03 Angle Map Listening *Brief*",
-  "dek": "The listening loop works; the bottleneck moved from finding angles to actually posting them.",
+  "dek": "The engine is dependable; nobody has checked whether its output moves anyone.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The daily listening engine is running and producing finished briefs rather than raw notes — each run lands an angle plus a flagship post and vaulted assets. The build phase closed; this is an operating loop now.\n\nHandoff status is active. Last activity 2d ago.\n\nNext: Publish the vaulted posts sitting ready before the next run stacks on top of them."
+      "body": "The listening engine runs on its own cadence and reliably produces a daily angle plus finished, vault-filed content built off it. The pipeline works; what it produces has not been graded by anything outside the engine.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Publish the vaulted posts and record how they actually performed."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "6",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -126,7 +126,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Everything logged is production of briefs, not reception of them — no record shows the vaulted posts going out or what happened when they did. The engine's value stays unproven until something published gets measured.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Every entry logged here proves the run happened, not that the angle landed. The engine also feeds its own living documents, so a weak angle can persist and compound without any signal from outside the loop.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

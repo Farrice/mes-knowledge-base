@@ -1,20 +1,20 @@
 # Retry weakest section for intent alignment
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-The system keeps sanding down its own rules — nothing is blocked here, but the thread's label lies.
+Good structural fixes shipped; the audits themselves keep going unread.
 
 ## where this stands
 _CURRENT POSITION_
-This is the harness's own maintenance lane — recent work loosened blocking rules into nudges, wired a per-model behavior layer, and made judgment-first behavior a default on the second harness. Steady upkeep, not a project with an endpoint.
+The harness lane has done real structural work — removing blocking gates, wiring per-model behaviour, and putting a judgment floor under the second harness. Its own outcome log flags that at least one major finding was never absorbed by anyone.
 
-Handoff status is active. Last activity 3d ago.
+Handoff status is active. Last activity 4d ago.
 
-Next: Put the newest defaults through an ordinary working session before layering anything else onto the harness.
+Next: Read the unabsorbed audit findings and either act on them or close them out.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **9**
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## lifecycle
 
@@ -44,7 +44,7 @@ python3 execution/handoff_store.py resume system-audit
 
 ## what this isn't
 _READ THE EDGES_
-The headline this thread carries describes unrelated client content work, so its label cannot be read as a summary. The harness changes were validated by their own verifiers, not by a stretch of normal use.
+This thread's stored resume line describes client listing work rather than harness work, so its state marker points at the wrong thing. Several entries are also self-graded by the system auditing itself, which is the weakest available reviewer for a claim that the system improved.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

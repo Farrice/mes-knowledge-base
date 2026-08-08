@@ -1,12 +1,12 @@
 # Execution — Project Relocate
 
-> MISSION · THREAD · window: last 1 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: research — reading and deciding — nothing built yet. In the last 1 days: no recorded activity.
+Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.
 
 Handoff status is active.
 

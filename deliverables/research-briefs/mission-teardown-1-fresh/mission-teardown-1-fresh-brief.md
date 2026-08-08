@@ -1,21 +1,21 @@
 # Three named-brand teardowns (Create Wellness, Hilma, BPN)…
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 1 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 1 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-Best teardowns the lane has produced, and its own history says the risk is they never get posted.
+The proof assets exist and they're good; this shelf has held good ones before.
 
 ## where this stands
 _CURRENT POSITION_
-A fresh batch of named-brand teardowns was produced at the higher standard — each with its post, its outreach message and its own verification pass — and rendered into shareable briefs. Earlier teardowns in this lane were drafted and never posted.
+Three named-brand teardowns are finished at the standard the offer is meant to demonstrate — each with its own analysis, outreach message and adversarial pass, each rendered into shareable form. This is the proof asset the campaign rests on.
 
 Handoff status is active. Last activity today.
 
-Next: Post one teardown and send its matching outreach message to that brand.
+Next: Send the finished teardowns to the brands they analyze.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **1** (claude)
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## momentum
 
@@ -38,7 +38,7 @@ python3 execution/pulse_actions.py done teardown-1-fresh --outcome "<one line>"
 
 ## how it got here
 - 2026-08-07 · **Finalized · teardown-1-fresh** — Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share varian
-- 2026-08-05 · **claude session · 5 msgs** — <command-message>go</command-message> <command-name>/go</command-name> <command-args>run the packet at .agent/missions/teardown-1-fresh-0805/portable.md</command-args>
+- 2026-08-07 · **claude session · 29 msgs** — <command-message>go</command-message> <command-name>/go</command-name> <command-args>run the packet at .agent/missions/teardown-1-fresh-0805/portable.md</command-args>
 - 2026-07-27 · **Finalized · teardown** — Teardowns #1-3 (Transparent Labs, Momentous, Puori) with DMs + published post copy, and the LinkedIn profile rebuilt top-to-bottom on the 2026-07-27 positioning
 
 ## swings to
@@ -47,7 +47,7 @@ python3 execution/pulse_actions.py done teardown-1-fresh --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-The pattern on record is production outpacing publication: prior rounds sit drafted with no outcome logged. Nothing yet shows this batch escaping that.
+Earlier teardowns in this same lane were drafted, marked ready to post, and then closed with no outcome ever recorded — the identical failure mode is available to this batch. Nothing here has been tested against how a named brand would actually receive an unsolicited teardown of itself.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

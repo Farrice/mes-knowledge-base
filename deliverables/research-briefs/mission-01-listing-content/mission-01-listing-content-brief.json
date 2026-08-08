@@ -2,11 +2,11 @@
   "slug": "mission-01-listing-content",
   "chip": "MISSION · THREAD",
   "title": "Willis Approved Three-Reel *Closeout*",
-  "dek": "Approved and ready to hand to the client — the only thing missing is someone pressing send.",
+  "dek": "Approved and finished; the only thing left is hitting send.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The reel package for the listing is approved and sitting in a clean recording pack — the client-facing work is finished and unsent. A second listing's shoot sheet cycled through rejection-and-rewrite rounds in the same thread and landed on a story pass.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Send the approved recording pack to Jen."
+      "body": "The listing package went through several rebuilds against real rejections — first the hooks, then the whole voice — and landed on an approved version. It is finished work sitting one send away from the client.\n\nHandoff status is ready. Last activity 3d ago.\n\nNext: Send the approved recording pack to Jen and stop editing it."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "2",
+          "value": "3",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "This is polish, not repair — it does not gate the send, so the only real question is whether to tighten it or hand over what is already approved."
+          "why": "The remaining item is explicitly optional polish, and treating it as work is what keeps a finished package from reaching the client."
         }
       ]
     },
@@ -132,7 +132,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Approval is recorded against the reel package, not against the follow-on shoot sheet, which was still being reworked after client rejections. Nothing here confirms anything was filmed or posted.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The approval is recorded on our side only — nothing here confirms Jen received the pack or filmed from it. Whether these hooks hold up on camera is entirely unmeasured.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

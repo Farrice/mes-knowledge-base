@@ -1,19 +1,19 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 7, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 8, 2026
 
-Done and usable; the only thing open is a grade nobody is waiting on.
+Volume is high and quality is uneven; the open question is which of these anyone actually deploys.
 
 ## where this stands
 _CURRENT POSITION_
-The forge keeps turning watched sources into deployable expert skills, and the latest build is verified and usable as-is. What remains is optional grading, not missing function.
+The extraction line is the busiest thing on the board and keeps shipping usable expert systems, but a good share of them close below the bar they were aiming for. The current build carries no functional debt — only an optional quality promotion.
 
-Handoff status is ready. Last activity 1d ago.
+Handoff status is ready. Last activity 2d ago.
 
-Next: Use the verified skill as-is and run the blind recognition pack only if the A-tier rating changes how you would use it.
+Next: Give the blind recognition verdict, or drop the promotion and move on.
 
 ## by the numbers
-- DELIVERABLES FINALIZED: **13**
+- DELIVERABLES FINALIZED: **11**
 - SESSIONS: **1** (claude · codex)
 - DAYS ACTIVE: **13 d**
 
@@ -25,7 +25,7 @@ Next: Use the verified skill as-is and run the blind recognition pack only if th
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — This is a grade, not a repair — the build already works, so it is only worth the time if the rating would change a decision.
+1. **Finish what's open** — It is the only thing holding a finished extraction open, and it needs a felt verdict no automated pass can supply.
 
 ## what this thread made
 - **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
@@ -55,8 +55,6 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 - 2026-07-30 · **Finalized · extract-forge** — Vision Checkpoint: Nathan Follen Agentic RevOps
 - 2026-07-30 · **Finalized · extract-forge** — Updated Rory Sutherland Universal Behavioral Alchemy expansion vision with a source-honest Kindle boundary and a non-blocking video-first forge path
 - 2026-07-28 · **Finalized · extract-forge** — Hilary Gridley — Judgment Encoding & Anti-Slop Management OS mastery extraction (forge): 13 workflows, 10 born-v2 prompts, Taste Profile spec + productized offer, slide capture via /watch, expert-name corrected via prima
-- 2026-07-25 · **Finalized · extract-forge** — Briar Cochran — Content Science mastery extraction (forge): 12-workflow skill + 8 born-v2 prompts + agent + full registration, from 2 /watch'd videos + 1 enrichment source
-- 2026-07-25 · **Finalized · extract-forge** — Dara Denney Creative Strategy OS extraction forge extension
 - 2026-07-25 · **claude session · 21 msgs** — run /scrape-creator /watch /extract-forge  on this youtube videos: https://www.youtube.com/watch?v=yRgPbqywUJ8&t=1143s https://www.youtube.com/watch?v=gqnp-IdEEI8&t=60s  Task: I wa
 
 ## swings to
@@ -65,7 +63,7 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-The work sits on its own branch rather than the main line, so anything depending on it should confirm it actually merged. The remaining item needs Farrice's own recognition verdict and cannot be closed by the system.
+Scores here are self-reported by the same pass that produced the work — the run marked needs-improvement and the run marked keep were graded by the same hand. Nothing in the record shows whether any of these extractions has since been used for anything.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

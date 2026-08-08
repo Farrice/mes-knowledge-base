@@ -3,10 +3,10 @@
   "chip": "MISSION · THREAD",
   "title": "Execution — Project *Relocate*",
   "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
-  "window": "last 1 days",
+  "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 7, 2026",
+  "compiled": "aug 8, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: research — reading and deciding — nothing built yet. In the last 1 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Execution — Project Relocate"
+      "body": "Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Execution — Project Relocate"
     },
     {
       "kind": "progress",
