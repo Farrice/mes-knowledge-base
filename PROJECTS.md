@@ -18,6 +18,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `harness` | _active/ | **— none —** | 2026-08-07 | active* |
 | `mybpm` | _active/ | **— none —** | 2026-08-07 | active* |
 | `offer-strategy` | _active/ | **— none —** | 2026-08-07 | active* |
+| `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-08-07 | active* |
 | `publishing` | _active/ | **— none —** | 2026-08-07 | active* |
 | `video-studio` | _active/ | **— none —** | 2026-08-07 | active* |
 | `wagering` | _active/ | **— none —** | 2026-08-07 | active* |
@@ -30,7 +31,7 @@ _none_
 
 _none_
 
-**13 projects** — 13 active, 0 parked, 0 done.
+**14 projects** — 14 active, 0 parked, 0 done.
 
 ## Needs judgment
 

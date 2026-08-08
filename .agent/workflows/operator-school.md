@@ -14,7 +14,7 @@ Matt Pocock's `/teach` teaches *concepts*; this teaches **operator capability**:
 - `PATTERN-BRIDGE.md` — the analogy map (Delta 2)
 - `TASTE-LADDER.md` — exemplar pairs + Farrice's logged verdicts (Delta 3)
 
-## The five operator deltas
+## The six operator deltas
 
 1. **Operator mission.** MISSION.md must end in a **deploy target** — a real artifact, client, or dollar outcome with a date. "Understand prediction markets" is not a mission; "place the first paper-bet portfolio using my own edge model by [date]" is. Grill until the deploy target is named; every lesson traces to it.
 
@@ -25,6 +25,8 @@ Matt Pocock's `/teach` teaches *concepts*; this teaches **operator capability**:
 4. **Expert wiring.** If the roster has an extracted expert in the domain, their SKILL.md + genius.md are primary source material — the expert teaches. RESOURCES.md is fed by Recall cards and `execution/research.py` (Receipt-carrying). Lessons cite sources per the teach skill.
 
 5. **Deploy gate — graduation.** Operator status is reached when a real artifact ships into the world and survives review (`/two-axis-verify` or the domain's equivalent gate). Lessons stop when the deploy target is met, not when a syllabus is done. Mastery beyond operator is reps in the world, and the workspace stays open for them.
+
+6. **One-click systems drill.** Load the `Zoom` and `Craft` decisions from `semantic_libraries/antigravity/primitives/systems-thinking-expertise-intelligence-overlay.md` when a lesson involves a real system or cross-functional decision. The learner must name the one-level-wider outcome, the assumption that changes there, and the scarce craft judgment that still owns what good looks like. Then return to the deploy target. Generic “think bigger” answers and unbounded abstraction do not pass.
 
 ## Session loop
 

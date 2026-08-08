@@ -54,6 +54,16 @@ Tiny, conversational, corrective, and mechanical turns stay lean. An explicit
 force the compiled packet, but ordinary raw language must trigger the intent
 adapter without magic words.
 
+## One-Click Systems Zoom (SHADOW)
+
+When a meaningful local decision affects several downstream consumers,
+components, or workflows, apply the `Zoom` decision from
+`systems-thinking-expertise-intelligence-overlay.md`. Step out exactly one
+level, name the wider outcome and the assumption that changes or confirms the
+local route, then return to execution. Do not turn the zoom into another
+question round or generic strategy language. This remains advisory and may not
+block clear work.
+
 ## Capability Stewardship Companion Layer
 
 Capability Stewardship is a persistent lifecycle behavior inside the existing

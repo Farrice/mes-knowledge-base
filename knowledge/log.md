@@ -746,3 +746,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-01 21:24]` **finalize** | Codex-native End-session control plane with exact handoff identity, task lifecycle, conservative org | general | system-audit — composite:8.0 status:Keep
 - `[2026-08-06 19:15]` **finalize** | Parallel Session Lanes OS (golden rule automated: shim+bootstrap+parity+auto-merge) + retirement of  | general | none — composite:7.0 status:Needs Improvement
 - `[2026-08-07 15:05]` **finalize** | Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + Linke | general | farrice-voice-v1.3 — composite:6.67 status:Needs Improvement
+- `[2026-08-08 07:31]` **finalize** | Elizabeth Stone systems-thinking intelligence extraction, Phase 2 Vision checkpoint | general | extraction-governor-agent — composite:7.0 status:Needs Improvement
+- `[2026-08-08 07:31]` **finalize** | Elizabeth Stone systems-thinking intelligence extraction, Phase 2 Vision checkpoint | general | extraction-governor-agent — composite:7.6 status:Keep
+- `[2026-08-08 08:13]` **finalize** | Elizabeth Stone systems-thinking and expertise SHADOW companion intelligence layer | general | extraction-governor-agent — composite:7.8 status:Keep

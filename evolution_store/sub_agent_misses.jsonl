@@ -70,3 +70,4 @@
 {"timestamp": "2026-08-06T08:03:59.346606", "workflow": "deep-research", "skill": "nba-betting-edge", "expert": "nba-betting-edge", "task_type": "Research", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-06T14:16:45.557642", "workflow": "extract-forge", "skill": "mark-forsyth-rhetoric", "expert": "mark-forsyth", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-08-06T14:03:56.729085", "workflow": "extract-forge", "skill": "sam-vander-wielen", "expert": "sam-vander-wielen", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-08-08T07:31:27.879403", "workflow": "extract-forge", "skill": "youtube-video-context-analysis", "expert": "extraction-governor-agent", "task_type": "Analysis", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

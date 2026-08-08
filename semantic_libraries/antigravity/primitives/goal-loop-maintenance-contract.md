@@ -51,6 +51,16 @@ evaluator, wake-up check, and rollback/archive rule.
 If any field is missing, the run can still produce a diagnosis or draft packet,
 but it cannot deploy a mutation.
 
+## Retro Before Rule (SHADOW)
+
+Use the `Learn` decision from
+`systems-thinking-expertise-intelligence-overlay.md` when a failure creates
+pressure to add permanent process. First run a blameless reflection on the
+assumption, decision, source truth, handoff, owner, and changed behavior. Add a
+durable gate only for a demonstrated recurring need or a hard truth, proof,
+privacy, safety, or permission veto. This advisory check must not weaken those
+vetoes or block the nearest safe continuation.
+
 ## Evolution Council Preflight
 
 Before `/self-evolve`, `/skill-anneal`, or `/skill-evolution` mutates a target,
@@ -127,4 +137,4 @@ python3 execution/verify_skill_evolution_candidate_freshness.py
 
 ## Last Updated
 
-2026-05-19
+2026-08-08

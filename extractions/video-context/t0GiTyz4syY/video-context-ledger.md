@@ -1,0 +1,2119 @@
+# Video Context Ledger — t0GiTyz4syY
+
+> Transcript-backed spoken evidence. Visual frames and OCR were not collected because the 72-minute video exceeds the 10-minute visual-context cap.
+
+- **00:00:00.000** — Everyone can be everything now. PMs can
+- **00:00:01.760** — ship code, designers can write PRDs,
+- **00:00:03.920** — engineers can product, and there's this
+- **00:00:05.680** — confusion and frustration of what is my
+- **00:00:07.920** — job anymore.
+- **00:00:08.800** — >> Anytime a new technology comes along,
+- **00:00:11.960** — you go through a storming phase before
+- **00:00:14.680** — you go through the forming phase of
+- **00:00:16.240** — things. We are in the middle of that
+- **00:00:17.920** — right now. [music] I don't think that
+- **00:00:19.280** — means we should put AI back into the box
+- **00:00:22.040** — and say let's not use it.
+- **00:00:23.200** — >> If we all become builders, will we still
+- **00:00:24.960** — need separate functions?
+- **00:00:26.120** — >> I still see a craft excellence that's
+- **00:00:28.160** — really important that [music] I don't
+- **00:00:29.920** — think is going away anytime soon. I
+- **00:00:31.960** — still find great engineering to be
+- **00:00:34.280** — scarce, great data science to be scarce,
+- **00:00:36.360** — great creativity to be scarce.
+- **00:00:38.400** — >> If you look at the early culture deck of
+- **00:00:40.680** — Netflix, high agency, autonomy, paying
+- **00:00:43.360** — top of market, this is what I hear
+- **00:00:44.960** — constantly now from how the top AI labs
+- **00:00:47.080** — operate.
+- **00:00:47.600** — >> Netflix's culture has always been
+- **00:00:49.240** — excellence as an operating system. It's
+- **00:00:51.320** — a resistance [music] to do the thing
+- **00:00:52.800** — that a lot of bigger companies would do
+- **00:00:54.880** — and to feel comfortable in that
+- **00:00:57.200** — discomfort very often.
+- **00:00:58.880** — >> What are the ingredients to make this
+- **00:01:00.240** — happen?
+- **00:01:00.760** — >> Talent density is the non-negotiable,
+- **00:01:03.040** — being very comfortable with risk-taking
+- **00:01:04.960** — in cases where things are not going
+- **00:01:06.880** — well, not assume that process is going
+- **00:01:08.920** — to fix it.
+- **00:01:09.560** — >> What have you added to the career
+- **00:01:11.920** — ladders within this AI world?
+- **00:01:13.920** — >> more systems thinkers, people who can
+- **00:01:16.520** — look across all the business domains and
+- **00:01:19.240** — abstract that [music] to here's the
+- **00:01:20.920** — building blocks we're going to need.
+- **00:01:22.520** — >> How do people learn this?
+- **00:01:23.360** — >> Small trick, each problem you're trying
+- **00:01:25.800** — to solve, step out one [music] click to
+- **00:01:28.920** — the what am I assuming is true about the
+- **00:01:31.280** — broader space.
+- **00:01:34.480** — >> Today my guest is Elizabeth Stone,
+- **00:01:36.400** — product and technology officer at
+- **00:01:38.080** — Netflix. This is Elizabeth's second
+- **00:01:40.320** — visit to the podcast. Her first visit,
+- **00:01:42.240** — when she was just a CTO, was for the
+- **00:01:44.440** — longest time one of the most popular
+- **00:01:46.240** — episodes of this podcast. You'll soon
+- **00:01:48.120** — see why this is such a killer
+- **00:01:50.320** — conversation because when we chatted two
+- **00:01:52.520** — and a half years ago, AI was only
+- **00:01:54.280** — starting to emerge. [music] And as a
+- **00:01:56.000** — long time head of engineering and
+- **00:01:57.520** — product and data science, Elizabeth has
+- **00:01:59.720** — such a unique perspective on where
+- **00:02:01.800** — things [music] are heading and what's
+- **00:02:02.800** — worth paying attention to. Prior to
+- **00:02:04.520** — Netflix, Elizabeth was VP of Science at
+- **00:02:06.440** — Lyft, Chief Operating Officer at Nuna,
+- **00:02:08.381** — [music] an economist at The Analysis
+- **00:02:10.240** — Group, and a trader at Merrill Lynch.
+- **00:02:12.440** — Before we get into it, don't forget to
+- **00:02:13.840** — check out Lenny's Product Pass dot com
+- **00:02:15.880** — for an entire year free of the hottest
+- **00:02:18.280** — and best crafted AI products in the
+- **00:02:20.080** — world available exclusively to Lenny's
+- **00:02:22.360** — newsletter subscribers. With that, I
+- **00:02:24.400** — bring you Elizabeth Stone.
+- **00:02:29.320** — Elizabeth, thank you so much for being
+- **00:02:31.320** — here and welcome back to the podcast.
+- **00:02:33.240** — >> Thank you. I'm honored to be here. Once
+- **00:02:35.760** — and now twice.
+- **00:02:36.959** — >> That's right. That's a rare a rare treat
+- **00:02:38.880** — for me. I don't know if you know this,
+- **00:02:40.840** — but your first visit to the podcast,
+- **00:02:43.400** — your episode ended up being my second
+- **00:02:45.440** — most popular episode. You're right
+- **00:02:47.000** — behind Brian Chesky for the longest
+- **00:02:49.000** — time.
+- **00:02:50.000** — >> Well, I I I'm pleasantly surprised and
+- **00:02:53.520** — also mildly competitive of how
+- **00:02:56.196** — [clears throat] do I get to the first
+- **00:02:57.440** — spot? But I'll set that aside for now.
+- **00:02:59.840** — >> That's This is our This is our shot.
+- **00:03:01.600** — >> Bri- Brian's amazing, so I'll let that
+- **00:03:03.519** — one go.
+- **00:03:04.320** — >> Yeah, he is uh and then there's just
+- **00:03:06.440** — like all these fancy AI people that are
+- **00:03:07.840** — just coming, you know, coming in hot.
+- **00:03:09.952** — >> [laughter]
+- **00:03:10.760** — >> Um so, it's been 2 and 1/2 years at this
+- **00:03:12.920** — point. A lot's changed.
+- **00:03:14.600** — Uh obviously AI, something AI is
+- **00:03:17.600** — allowing uh people to do is everyone can
+- **00:03:19.920** — kind of be everything now. This idea of
+- **00:03:22.200** — PMs can ship code, designers can write
+- **00:03:24.200** — PRDs, and engineers can product, and
+- **00:03:26.720** — everyone's everything. There's a bunch
+- **00:03:28.680** — of
+- **00:03:29.680** — elements to this conversation. One is
+- **00:03:31.760** — that I've heard from people that there's
+- **00:03:33.800** — also this kind of confusion and
+- **00:03:35.600** — frustration of like what is my job
+- **00:03:37.959** — anymore? Like what am I responsible for
+- **00:03:40.200** — as a PM, as a designer? Is that
+- **00:03:42.239** — something you've experienced?
+- **00:03:43.880** — >> I hear it within Netflix, for sure.
+- **00:03:47.239** — I think anytime a new technology comes
+- **00:03:50.239** — along, especially one that's as
+- **00:03:52.680** — transformative as GenAI,
+- **00:03:55.360** — you go through a storming phase before
+- **00:03:58.280** — you go through the forming phase of
+- **00:03:59.840** — things. And I think we are in the middle
+- **00:04:01.560** — of that right now.
+- **00:04:03.440** — I don't think that means we should put
+- **00:04:06.120** — AI back into the box and say let's not
+- **00:04:08.560** — use it cuz this is kind of this is
+- **00:04:10.080** — complicating all of our preconceived
+- **00:04:12.040** — notions about our roles,
+- **00:04:14.120** — but I do think it means we have to be
+- **00:04:15.880** — much more thoughtful about how do we get
+- **00:04:17.519** — the benefits while reducing the costs.
+- **00:04:20.359** — I think it's a great thing that people
+- **00:04:22.000** — are experimenting with how can I develop
+- **00:04:25.240** — an idea faster, prototype an idea, put
+- **00:04:28.400** — together an initial set of code that
+- **00:04:30.320** — would allow us to test it.
+- **00:04:32.680** — Do I believe that means anyone should be
+- **00:04:35.480** — shipping code to production?
+- **00:04:37.600** — That everyone should actually be doing
+- **00:04:39.440** — everything? Probably not. But I think
+- **00:04:42.320** — that it's good for people to be
+- **00:04:43.600** — exploring what's possible. And then,
+- **00:04:45.919** — like I mentioned earlier, the benefit of
+- **00:04:47.760** — having product and tech teams together
+- **00:04:50.440** — is that if the business problem is
+- **00:04:52.400** — clear, I think it's okay and it's
+- **00:04:54.120** — healthy for there to be some fluidity in
+- **00:04:56.960** — the roles that people play because
+- **00:04:58.640** — instead of having to wait for the
+- **00:05:00.080** — engineering team to be ready to be able
+- **00:05:02.520** — to prototype something, product and
+- **00:05:04.440** — design can move faster on it. But they
+- **00:05:06.560** — should still work with their engineering
+- **00:05:08.000** — partner to think through how should we
+- **00:05:09.919** — productize this? How do we scale it?
+- **00:05:11.520** — What are the guardrails for it? So, I
+- **00:05:13.760** — don't think it makes the functional
+- **00:05:15.800** — expertise obsolete. I think it means
+- **00:05:18.240** — that teams have to be more comfortable
+- **00:05:19.919** — with maybe this helps us move faster in
+- **00:05:22.240** — a certain direction. From an
+- **00:05:23.919** — organizational perspective, things I
+- **00:05:26.280** — think about to make this
+- **00:05:29.120** — more coherent or less frustrating
+- **00:05:31.680** — are some of the things that have to be
+- **00:05:33.160** — in place for us to get the benefits
+- **00:05:36.000** — rather than the costs. So, that includes
+- **00:05:38.160** — clarity on source of truth data,
+- **00:05:40.600** — guardrails on shipping code to
+- **00:05:42.440** — production or testing before we make
+- **00:05:44.840** — large changes,
+- **00:05:46.880** — thinking about opportunities where we
+- **00:05:49.000** — can trust the output of AI versus we
+- **00:05:51.400** — should have a process or review that
+- **00:05:53.560** — helps us check that we're getting high
+- **00:05:55.080** — quality outcomes.
+- **00:05:56.960** — And the importance of reiterating that
+- **00:05:59.400** — humans are still responsible
+- **00:06:01.560** — for what happens. So, it can be that an
+- **00:06:03.360** — agent wrote the code or I helped to do
+- **00:06:05.360** — an analysis when that's not really my
+- **00:06:07.280** — background, but it doesn't make it
+- **00:06:09.840** — doesn't
+- **00:06:10.840** — make people not have the responsibility
+- **00:06:13.000** — that comes with what they've created.
+- **00:06:15.240** — So, I think the investing in some of
+- **00:06:17.120** — those core infrastructure and practices
+- **00:06:19.000** — and reiterating the accountability and
+- **00:06:20.880** — responsibility for the outcomes helps to
+- **00:06:23.240** — balance some of like what's possible
+- **00:06:25.400** — with what we should actually be doing.
+- **00:06:27.640** — >> This episode is brought to you by our
+- **00:06:29.240** — season's presenting sponsor WorkOS. What
+- **00:06:32.560** — do OpenAI and Vercel,
+- **00:06:35.560** — Replit, Sierra, Clay, and hundreds of
+- **00:06:38.040** — other winning companies all have in
+- **00:06:39.480** — common? They are all powered by WorkOS.
+- **00:06:42.600** — If you're building a product for the
+- **00:06:43.800** — enterprise, you've felt the pain of
+- **00:06:45.480** — integrating single sign-on, SCIM, RBAC,
+- **00:06:48.560** — audit logs, and other features [music]
+- **00:06:50.240** — required by large companies. WorkOS
+- **00:06:52.600** — turns those deal blockers into drop-in
+- **00:06:54.800** — APIs with a modern developer platform
+- **00:06:57.040** — built specifically for B2B SaaS.
+- **00:06:59.204** — >> [music]
+- **00:06:59.520** — >> Literally every startup that I'm an
+- **00:07:01.360** — investor in that starts to expand
+- **00:07:03.200** — upmarket ends up working with WorkOS.
+- **00:07:05.680** — And that's because they are the best.
+- **00:07:07.520** — Whether you are seed-stage startup
+- **00:07:09.080** — trying to land your first enterprise
+- **00:07:10.480** — customer or unicorn expanding globally,
+- **00:07:13.120** — WorkOS is the fastest path to becoming
+- **00:07:15.320** — enterprise ready and unlocking growth.
+- **00:07:17.760** — It's essentially Stripe for enterprise
+- **00:07:19.720** — features. Visit workos.com to get
+- **00:07:22.160** — started or just hit up their Slack where
+- **00:07:24.000** — they have actual engineers waiting to
+- **00:07:25.880** — answer your questions. WorkOS allows you
+- **00:07:28.200** — to build faster with delightful APIs,
+- **00:07:30.520** — comprehensive docs, and a smooth
+- **00:07:32.160** — developer experience. Go to workos.com
+- **00:07:34.960** — to make your app enterprise ready today.
+- **00:07:37.800** — >> What's really awesome about having you
+- **00:07:39.440** — back on the podcast is
+- **00:07:41.240** — we chatted like before AI was a massive
+- **00:07:43.720** — transformation in the world. So, it's a
+- **00:07:45.320** — really cool arc that we can explore
+- **00:07:47.640** — here. This the shift that we've all gone
+- **00:07:49.680** — through.
+- **00:07:50.640** — >> Mhm.
+- **00:07:51.080** — >> Coming back to the roles of the product
+- **00:07:54.080** — and inch team, I'm curious
+- **00:07:56.800** — how much these roles have changed in the
+- **00:07:58.800** — last two and a half years. If you think
+- **00:07:59.960** — about product engineering,
+- **00:08:01.800** — uh design, data science, user research,
+- **00:08:04.800** — which roles have
+- **00:08:06.520** — changed most? Which roles have changed
+- **00:08:08.800** — least? Like, what's most different in
+- **00:08:10.520** — the last two since two and a half years
+- **00:08:12.160** — ago?
+- **00:08:12.960** — >> So, you've mentioned some of the things,
+- **00:08:14.520** — so I'll I'll reiterate them and then
+- **00:08:16.560** — maybe build. So, I have found that PMs,
+- **00:08:20.800** — designers,
+- **00:08:22.760** — data scientists are able to get farther
+- **00:08:26.440** — in the product development life cycle
+- **00:08:29.240** — before engineering really needs to be
+- **00:08:32.520** — front of the line in unlocking things
+- **00:08:34.760** — than was true a couple years ago.
+- **00:08:37.039** — I say that with some caution because,
+- **00:08:39.560** — like we were talking about, I don't
+- **00:08:41.159** — think it's great to all of a sudden have
+- **00:08:43.360** — thousands of prototypes if they're not
+- **00:08:45.640** — aimed at this is an important problem to
+- **00:08:48.000** — solve for the business
+- **00:08:49.640** — and the engineering partners are aware
+- **00:08:51.520** — that we're solving that problem and that
+- **00:08:53.200** — designers and product managers are going
+- **00:08:54.880** — to take the lead in starting to shape
+- **00:08:56.600** — the idea, but it's not working in a
+- **00:08:58.880** — vacuum and it's not throwing a bunch of
+- **00:09:01.080** — spaghetti at the wall to see what
+- **00:09:02.480** — sticks.
+- **00:09:03.600** — But when it's the right problem,
+- **00:09:04.839** — approached in a thoughtful way with some
+- **00:09:06.440** — alignment on that, I've seen product
+- **00:09:09.040** — design data science move faster in the
+- **00:09:11.280** — direction of let's get to something
+- **00:09:13.080** — that's testable on this hypothesis.
+- **00:09:16.080** — So, that's prototyping, that's writing
+- **00:09:17.680** — code. The other thing I've seen as being
+- **00:09:20.040** — very valuable is we have a lot of
+- **00:09:21.720** — information
+- **00:09:23.240** — running around in the virtual walls of
+- **00:09:24.960** — Netflix. We have experiments we've run
+- **00:09:27.440** — over decades. We have insights from
+- **00:09:29.480** — consumers. We have input from
+- **00:09:31.760** — stakeholders across the business. And
+- **00:09:34.200** — that was a problem that really presented
+- **00:09:36.440** — a challenge of like, how do we get the
+- **00:09:38.200** — most out of that long history of
+- **00:09:41.200** — knowledge and learnings to say, let's
+- **00:09:43.520** — apply that to the problem we've got now
+- **00:09:45.680** — to move faster in this is a promising
+- **00:09:48.280** — path or this is something that we've
+- **00:09:50.000** — learned something about and we could
+- **00:09:51.280** — leverage here.
+- **00:09:52.800** — And AI is very powerful at distilling
+- **00:09:55.480** — information,
+- **00:09:57.320** — looking across a broad set of things,
+- **00:09:59.320** — doing an analysis around it, getting to
+- **00:10:01.520** — the core of here's some insights to
+- **00:10:03.160** — start with. I I would hesitate to rely
+- **00:10:05.840** — on that exclusively, but I think it's a
+- **00:10:07.520** — head start. And I find even in my own
+- **00:10:10.040** — work day-to-day, instead of
+- **00:10:12.600** — sending an email that disrupts someone
+- **00:10:14.320** — of like, remind me what research did we
+- **00:10:16.640** — do in what year and what was the
+- **00:10:18.040** — question and what was the test we ran? I
+- **00:10:20.200** — can find that almost instantly. Then I
+- **00:10:22.600** — can form my own, here's what I find
+- **00:10:24.360** — interesting about this and I've now
+- **00:10:26.520** — skipped a couple steps towards is there
+- **00:10:28.560** — something actionable here? So that's
+- **00:10:30.560** — data analysis, it's modeling, it's
+- **00:10:32.320** — distillation of information and I'm
+- **00:10:34.800** — seeing more people do that to your
+- **00:10:36.320** — original question. So instead of that
+- **00:10:38.320** — needing to be
+- **00:10:39.800** — only the experts who were here for 20
+- **00:10:42.120** — years and saw every experiment or know
+- **00:10:43.800** — where to find it, we're now able to do
+- **00:10:46.040** — that faster within product and tech
+- **00:10:48.080** — across all functions and a big unlock
+- **00:10:50.800** — for us is our business stakeholders
+- **00:10:52.960** — sitting in finance and content and
+- **00:10:54.880** — advertising can do that as well and then
+- **00:10:57.560** — bring back an initial hypothesis where
+- **00:10:59.320** — they want to work more deeply with the
+- **00:11:00.800** — data scientists and engineer and so on.
+- **00:11:02.800** — So there's something there about the the
+- **00:11:05.520** — hypothesis generation, prototyping,
+- **00:11:08.720** — thinking deeply about problems that
+- **00:11:10.560** — feels like it's accelerating and that
+- **00:11:12.720** — functions are able to do that in a more
+- **00:11:14.640** — fluid way.
+- **00:11:16.080** — But I still see comparative strengths.
+- **00:11:18.040** — So data scientists are still going to be
+- **00:11:20.680** — experts at can we trust this data? Are
+- **00:11:23.360** — we interpreting it the right way? What's
+- **00:11:25.480** — the data versus judgment that we should
+- **00:11:27.280** — be applying here? A product manager is
+- **00:11:29.720** — still going to be exceptional at saying,
+- **00:11:31.640** — have we really framed the what of this?
+- **00:11:33.680** — Like the problem we're solving in the
+- **00:11:35.560** — right way? An engineer still has a craft
+- **00:11:38.440** — around the how. How does this scale?
+- **00:11:40.760** — What does high quality look like? What
+- **00:11:42.440** — problems is this going to create for us
+- **00:11:44.120** — based on how we build and deploy
+- **00:11:46.160** — something? So I still see the nuggets of
+- **00:11:48.480** — that comparative advantage. It's just
+- **00:11:50.440** — that we're able to move more fluidly in
+- **00:11:52.720** — a lot of steps that normally we would
+- **00:11:54.320** — have blockers on.
+- **00:11:55.680** — >> There's so much interesting stuff here.
+- **00:11:57.320** — One is this last point you made is
+- **00:11:58.920** — something I've been thinking about. If
+- **00:12:00.600** — we all become builders, will we still
+- **00:12:02.320** — need separate functions? There's this
+- **00:12:04.240** — like member of technical staff trend
+- **00:12:05.840** — that is happening in the past where it's
+- **00:12:07.480** — like, all right, we don't have a title,
+- **00:12:09.000** — you could be anything.
+- **00:12:10.400** — You don't have to be in a bucket. What
+- **00:12:11.840** — you're saying here is you believe we
+- **00:12:13.320** — will continue to have specialties,
+- **00:12:15.480** — product person, engineer, data science,
+- **00:12:17.880** — designer.
+- **00:12:19.040** — While they do more of other functions,
+- **00:12:20.640** — there's still a lot of value in Tell me
+- **00:12:23.400** — if I'm hearing you correct in having the
+- **00:12:24.760** — specific discipline and skill and
+- **00:12:26.040** — background.
+- **00:12:26.640** — >> I still see a craft excellence that's
+- **00:12:28.680** — really important in the disciplines that
+- **00:12:31.480** — I don't think is going away anytime
+- **00:12:33.440** — soon. Even if there's fluidity or
+- **00:12:35.440** — blurring of the work across the
+- **00:12:37.320** — functional lines. It goes back to what I
+- **00:12:39.680** — mentioned earlier of you still have
+- **00:12:41.640** — humans who have to make sure that what
+- **00:12:43.600** — we're doing makes sense. We're solving
+- **00:12:45.400** — the right problems in a way that is best
+- **00:12:47.720** — for Netflix members or business
+- **00:12:49.520** — stakeholders.
+- **00:12:51.160** — And that if I talk to an engineer, a
+- **00:12:54.240** — data scientist, a designer,
+- **00:12:57.000** — yes, they speak more languages now than
+- **00:12:59.120** — they used to because they have the
+- **00:13:00.480** — benefit of these AI tools.
+- **00:13:03.000** — But there's still something that is not
+- **00:13:05.600** — replaceable
+- **00:13:07.120** — when I think about the craft and how
+- **00:13:09.240** — they think about what good looks like.
+- **00:13:11.520** — And that feels true across all levels
+- **00:13:13.720** — and you know, I still find great
+- **00:13:15.520** — engineering to be scarce. Great data
+- **00:13:18.080** — science to be scarce. Great creativity
+- **00:13:20.160** — to be scarce. So I
+- **00:13:22.880** — yes, some things are easier, but that
+- **00:13:25.120** — hasn't dissolved in my mind.
+- **00:13:27.640** — >> Are there functions that you are finding
+- **00:13:30.240** — you are hiring more of? Like the pie
+- **00:13:33.000** — chart pie expanding
+- **00:13:35.520** — say for engineering or PM or design or
+- **00:13:37.240** — something and then functions you're need
+- **00:13:39.400** — less of with AI tool and LLMs rising.
+- **00:13:43.840** — >> Not sure that it matches exactly to
+- **00:13:45.640** — functions, but I can tell you
+- **00:13:48.320** — what we're having we're seeing more of,
+- **00:13:50.160** — we need more of.
+- **00:13:53.080** — We need more systems thinkers
+- **00:13:55.800** — in a world with AI.
+- **00:13:57.640** — That looks a little bit different across
+- **00:13:59.600** — functions, but I could play out a couple
+- **00:14:01.200** — examples. So,
+- **00:14:03.480** — in our core infrastructure team at
+- **00:14:05.520** — Netflix in central engineering,
+- **00:14:09.920** — a lot of what made Netflix successful
+- **00:14:11.920** — over time was that
+- **00:14:14.320** — local teams with specific business
+- **00:14:16.360** — problems could move fast to deliver.
+- **00:14:20.280** — They very often were not feeling like
+- **00:14:23.000** — they needed to be on a central paved
+- **00:14:24.640** — path. They built the stack that they
+- **00:14:26.600** — needed to solve the problem and have the
+- **00:14:28.400** — impact.
+- **00:14:29.680** — In a world of AI with agents operating
+- **00:14:32.960** — across multiple systems,
+- **00:14:35.200** — wanting source of truth data, the
+- **00:14:36.960** — importance of having preferred paved
+- **00:14:38.960** — paths that
+- **00:14:40.480** — get the most of the benefits and produce
+- **00:14:42.360** — some guardrails so we can make sure
+- **00:14:43.800** — we're doing good work,
+- **00:14:45.560** — common infrastructure, common paved
+- **00:14:47.680** — paths, solving problems once with a core
+- **00:14:50.200** — set of capabilities becomes more
+- **00:14:52.080** — important.
+- **00:14:53.360** — So, we are hiring more people who can
+- **00:14:55.520** — look across all the business domains and
+- **00:14:58.200** — abstract that to here's the building
+- **00:15:00.200** — blocks we're going to need in a world
+- **00:15:02.480** — with AI. So, that's one of the lenses,
+- **00:15:04.880** — but also just with a lens of what got
+- **00:15:07.360** — Netflix here doesn't get Netflix there.
+- **00:15:09.839** — And we're going to have to have a
+- **00:15:11.120** — stronger set of infrastructure to move
+- **00:15:13.040** — quickly in this future.
+- **00:15:14.800** — So, that means that engineering profiles
+- **00:15:16.440** — are more distributed systems, more
+- **00:15:18.240** — infrastructure, more of that system
+- **00:15:20.000** — thinking mindset than a a local business
+- **00:15:22.680** — expertise. Though, of course, we still
+- **00:15:24.400** — have people who are deep in
+- **00:15:26.160** — personalization and advertising and
+- **00:15:28.560** — content delivery. So, it's more
+- **00:15:30.600** — something additive for us to have that
+- **00:15:32.560** — core infrastructure and systems
+- **00:15:34.160** — thinking.
+- **00:15:35.280** — If I take another example, like design,
+- **00:15:39.600** — it's extremely important that our
+- **00:15:41.200** — experience design team is developing
+- **00:15:44.200** — templates and again systems thinking for
+- **00:15:47.440** — what does great user design look like at
+- **00:15:49.720** — Netflix so that they can enable lots of
+- **00:15:52.520** — people, including those who are not
+- **00:15:54.040** — designers by training, to develop
+- **00:15:56.720** — products that are coherent, that fit
+- **00:15:59.320** — into the end-end member experience. I
+- **00:16:01.760** — get really nervous about having
+- **00:16:03.080** — different design languages or different
+- **00:16:04.800** — types of user interactions and shipping
+- **00:16:07.560** — Frankensteins, basically. So, designers
+- **00:16:10.520** — need to then be the people we're hiring
+- **00:16:13.440** — again for design systems thinking. How
+- **00:16:15.600** — do we think about templates and
+- **00:16:17.560** — expression of the brand and what a good
+- **00:16:19.480** — user experience looks like and what is
+- **00:16:21.320** — Netflix and like the Netflix
+- **00:16:22.840** — differentiated special sauce. So,
+- **00:16:24.880** — there's more people on our design team
+- **00:16:26.560** — that have to think that way now than
+- **00:16:29.160** — could I help to design a specific
+- **00:16:31.040** — feature for a specific product. So,
+- **00:16:33.280** — there's this stepping back to look at
+- **00:16:35.120** — the big picture that I think is
+- **00:16:36.480** — happening in every single function and
+- **00:16:38.480** — that requires
+- **00:16:40.400** — some, yeah,
+- **00:16:42.200** — reorientation of skills among the
+- **00:16:43.960** — existing team and also hiring people
+- **00:16:46.280** — who've got that that type of expertise.
+- **00:16:49.240** — And across all of it, it's a mindset
+- **00:16:51.160** — shift. So, we are not hiring people
+- **00:16:55.600** — who are not excited to explore, try new
+- **00:17:00.120** — things, understand lots is changing and
+- **00:17:02.560** — feel comfortable with that ambiguity,
+- **00:17:05.199** — be comfortable that there's a blurring
+- **00:17:06.920** — of how we work and how we partner. It
+- **00:17:09.959** — that's true for people who are already
+- **00:17:11.360** — at Netflix and people who we are adding
+- **00:17:13.319** — to the team that that curiosity
+- **00:17:15.520** — innovation mindset has not
+- **00:17:18.079** — it's not been more important, at least
+- **00:17:19.760** — in the time that I've been working in
+- **00:17:21.439** — this field.
+- **00:17:22.280** — >> On the systems thinking piece, is the
+- **00:17:24.360** — reason this is becoming more important
+- **00:17:26.800** — that it is people are moving so fast
+- **00:17:28.920** — that you need to invest in platforms and
+- **00:17:31.000** — frameworks and and design language and
+- **00:17:33.720** — basically
+- **00:17:34.960** — teach people to fish so they can not be
+- **00:17:36.760** — blocked or is there is there other
+- **00:17:38.000** — reasons?
+- **00:17:38.480** — >> I think it's probably velocity. So
+- **00:17:40.880** — platforms do have a benefit of leverage.
+- **00:17:43.320** — So in general, that that's an
+- **00:17:45.040** — opportunity with or without AI for a
+- **00:17:47.160** — platform to get most teams 80% of the
+- **00:17:49.840** — way there.
+- **00:17:51.240** — And then they don't have to reinvent
+- **00:17:52.880** — those building blocks.
+- **00:17:54.520** — We have more bets that we're making
+- **00:17:57.000** — across the business, more things we're
+- **00:17:58.440** — trying to build. So platform mindsets
+- **00:18:00.360** — are good and it's something that is
+- **00:18:02.720** — relatively more recent for Netflix to
+- **00:18:04.760** — think about that being a real critical
+- **00:18:07.400** — enabler.
+- **00:18:08.960** — There is also the sense of a scaffolding
+- **00:18:12.120** — in a world of AI. So not just the higher
+- **00:18:14.120** — velocity, but you have more people doing
+- **00:18:17.360** — more types of work that are different or
+- **00:18:19.440** — new like we were talking about. And
+- **00:18:21.920** — there's risk that comes with how do you
+- **00:18:23.840** — think about access and identity in that
+- **00:18:26.360** — situation? How do you think about
+- **00:18:27.640** — security in that situation? How do you
+- **00:18:29.440** — think about how shipping high quality
+- **00:18:31.360** — code and design and user experiences?
+- **00:18:34.760** — And so I I don't think it scales well to
+- **00:18:37.200** — have each person who's building
+- **00:18:38.720** — something have to go figure out. Could
+- **00:18:40.520** — you remind me what good looks like here
+- **00:18:42.360** — and what are the bumpers or guardrails I
+- **00:18:44.640** — should keep in mind? I think we need to
+- **00:18:46.440** — encode that in our paved paths and our
+- **00:18:49.080** — ways of working. And for a a data
+- **00:18:51.080** — science or analytical field to encode
+- **00:18:54.160** — here's the source of truth data, here's
+- **00:18:55.720** — how to interpret it, here's how to
+- **00:18:57.080** — access it, here's what to do with it or
+- **00:18:58.760** — not to do with it and to be careful with
+- **00:19:01.040** — certain types of data.
+- **00:19:02.920** — I don't an organization that has
+- **00:19:04.520** — thousands of people can no longer rely
+- **00:19:06.600** — on tribal knowledge or I'm going to find
+- **00:19:08.040** — the one person who knows this. So this
+- **00:19:10.360** — was a challenge that was there before
+- **00:19:12.160** — AI. It's probably a more urgent
+- **00:19:14.080** — challenge with AI and I like the idea of
+- **00:19:17.520** — using AI or any new tech to motivate
+- **00:19:20.800** — like we knew this is work we needed to
+- **00:19:22.440** — do. No time like the present to invest
+- **00:19:25.360** — in that more heavily across the team.
+- **00:19:27.560** — >> I wonder if another reason for this
+- **00:19:29.320** — becoming more valuable is because agents
+- **00:19:31.280** — are now doing a lot of work and giving
+- **00:19:33.320** — them the context, giving them the
+- **00:19:34.440** — scaffolding, giving them the design
+- **00:19:35.840** — language just speeds all that up.
+- **00:19:38.000** — >> Yeah, and one of the visions we have at
+- **00:19:40.160** — Netflix is
+- **00:19:41.760** — we will have so many
+- **00:19:43.840** — agents that are contributing to doing
+- **00:19:46.000** — work that you need to be able to reason
+- **00:19:48.440** — and rationalize throughout that. You
+- **00:19:50.160** — know, the humans are the ones guiding
+- **00:19:52.960** — what's the problem we need to solve. Do
+- **00:19:54.800** — I feel like what we're producing is
+- **00:19:56.480** — impactful and high-quality output?
+- **00:19:59.080** — But the work will be done by both humans
+- **00:20:01.120** — and agents.
+- **00:20:02.440** — And that creates velocity and benefits
+- **00:20:05.680** — and it creates risks. And I think that's
+- **00:20:07.600** — important from especially from an
+- **00:20:09.400** — engineering perspective that we figure
+- **00:20:11.720** — out how to manage that in a way that
+- **00:20:13.360** — lets people move quickly but doesn't
+- **00:20:16.520** — create undue downside or risks for the
+- **00:20:19.760** — company.
+- **00:20:20.680** — >> This connects so directly with
+- **00:20:23.160** — Jenny Wen was on the podcast. She was
+- **00:20:24.800** — head of design for Cloud Code and
+- **00:20:26.200** — Co-work and had this whole design
+- **00:20:28.080** — process is dead kind of thesis and the
+- **00:20:30.240** — pitch there is just there's no time for
+- **00:20:31.720** — design, the design process. And instead
+- **00:20:34.240** — as a designer, you're just kind of
+- **00:20:35.720** — steering people and pointing them in the
+- **00:20:37.440** — direction
+- **00:20:38.440** — and adjusting and also thinking big
+- **00:20:40.760** — picture is when you have the time.
+- **00:20:43.760** — And it feels like that's kind of what
+- **00:20:44.760** — you're describing here is like create
+- **00:20:45.960** — the platform for people to move fast and
+- **00:20:47.440** — then there's no time for like design
+- **00:20:49.160** — process of a specific new feature.
+- **00:20:51.040** — >> I have mixed feelings about that because
+- **00:20:53.120** — I
+- **00:20:53.960** — we do want to enable with infrastructure
+- **00:20:57.320** — and systems thinking more people to do
+- **00:21:00.720** — great work with strong design as part of
+- **00:21:03.440** — it.
+- **00:21:04.360** — Why not take that opportunity that the
+- **00:21:06.480** — new tech provides.
+- **00:21:08.720** — But for our most important priorities,
+- **00:21:12.280** — design is critical
+- **00:21:14.200** — to solve things in the right way. So, we
+- **00:21:17.080** — do still make time for important design
+- **00:21:19.520** — work. We It can move faster. The
+- **00:21:21.160** — designers themselves have more tools in
+- **00:21:23.880** — their toolkit, so they can do incredible
+- **00:21:26.120** — work at a faster velocity, show more
+- **00:21:28.880** — options, learn, iterate, test more
+- **00:21:31.120** — quickly. But I think it would be a
+- **00:21:33.200** — mistake to say
+- **00:21:35.040** — design and deep design expertise and
+- **00:21:37.240** — thinking gets squeezed out just because
+- **00:21:39.520** — we can write code faster. We can do data
+- **00:21:41.400** — analysis faster. That feels like, at
+- **00:21:44.000** — least for a large-scale consumer product
+- **00:21:46.480** — like Netflix, I feel like we would lose
+- **00:21:48.840** — one of the things that makes Netflix
+- **00:21:50.440** — great, which is the product, technology,
+- **00:21:53.000** — and design makes a lot of complexity
+- **00:21:55.320** — invisible, and makes for a seamless
+- **00:21:57.800** — customer experience. That That's a
+- **00:21:59.920** — design mindset that has to be core to
+- **00:22:02.000** — it. So, if the work itself might look
+- **00:22:03.880** — different, but I don't think we lose the
+- **00:22:05.400** — mindset.
+- **00:22:06.440** — >> That's an awesome counterpoint.
+- **00:22:08.560** — So, what I'm hearing is kind of trending
+- **00:22:10.400** — up skills, attributes you look for,
+- **00:22:12.400** — systems thinking, and this kind of
+- **00:22:15.240** — mindset of being comfortable and excited
+- **00:22:17.600** — about change and what's coming and not
+- **00:22:19.400** — being stuck in your own ways.
+- **00:22:20.920** — What are you finding is trending down?
+- **00:22:23.000** — What are you less looking for that used
+- **00:22:26.040** — to value more highly?
+- **00:22:28.160** — >> The days of very narrow, deep
+- **00:22:31.480** — specialization
+- **00:22:33.000** — feel more limited to me.
+- **00:22:35.360** — I can come up with examples where we
+- **00:22:37.200** — still need it because there's an
+- **00:22:40.040** — industry or technology expertise where
+- **00:22:42.680** — there's only a few people in the world
+- **00:22:44.480** — who really know how things work. We have
+- **00:22:46.960** — examples of that on the team for
+- **00:22:48.960** — encoding or how our playback systems
+- **00:22:51.040** — work and things that have been
+- **00:22:53.120** — incredibly innovative and novel for
+- **00:22:55.000** — Netflix. I I still believe we need
+- **00:22:57.760** — specialized practitioners in those
+- **00:22:59.520** — spaces.
+- **00:23:01.800** — But as a general rule, uh compared to 5
+- **00:23:05.040** — or 10 years ago, I I would believe we
+- **00:23:07.320** — have fewer specialists and more people
+- **00:23:09.840** — who are generalists or adaptable in
+- **00:23:12.760** — multiple directions. And that could be
+- **00:23:14.720** — adaptable across functional expertise.
+- **00:23:17.600** — It could be adaptable across flavors of
+- **00:23:20.000** — engineering. So, can I navigate both
+- **00:23:22.720** — back end and front end systems? Can I
+- **00:23:25.520** — hook into infrastructure with a lot of
+- **00:23:27.360** — expertise? I think
+- **00:23:29.480** — the the mindset now needs to be I can
+- **00:23:31.560** — learn that quickly, and that goes back
+- **00:23:33.120** — to the systems thinking. So, I think
+- **00:23:35.200** — specialists can learn to have a broader
+- **00:23:37.840** — array of tools more easily than was true
+- **00:23:40.040** — in the past. So, it we need fewer of
+- **00:23:43.120** — them perhaps because talent's able to
+- **00:23:45.040** — grow in that direction. And there's
+- **00:23:48.520** — something about sticking to a narrow
+- **00:23:52.720** — specialty that maybe triggers for me a
+- **00:23:55.680** — concern about what about the mindset of
+- **00:23:58.160** — growing in different directions and
+- **00:23:59.680** — exploring boring, and I don't want to be
+- **00:24:02.080** — too narrow even in my own assessment of
+- **00:24:03.640** — that, but I it's important that people
+- **00:24:05.480** — who are specialists still have that
+- **00:24:07.400** — sense of I want to try a new way of
+- **00:24:09.680** — solving these problems versus the way we
+- **00:24:11.560** — have in the past.
+- **00:24:12.920** — >> And when you say specialist, are you
+- **00:24:13.960** — thinking like front end, I'm a front end
+- **00:24:15.360** — engineer versus a back end, or are there
+- **00:24:16.960** — other
+- **00:24:17.800** — >> Yeah, or it could be a domain set of
+- **00:24:20.040** — knowledge of Yeah, I'm a deep
+- **00:24:22.160** — >> expert.
+- **00:24:22.960** — >> I'm a payments expert. I'm an
+- **00:24:25.880** — ads marketplace design expert. I'm an an
+- **00:24:29.280** — expert in this very specific tooling
+- **00:24:31.880** — that studio productions use.
+- **00:24:34.160** — >> Mhm.
+- **00:24:34.680** — >> So, there
+- **00:24:37.360** — specialist in subject matter expertise
+- **00:24:39.880** — is an advantage provided that person is
+- **00:24:43.160** — willing to grow and extend into is this
+- **00:24:46.280** — really still the right tool or the right
+- **00:24:48.080** — way to think about the problem? So, I
+- **00:24:50.120** — think it's the layers of the stack from
+- **00:24:52.200** — an engineering perspective that there's
+- **00:24:54.080** — less specialty.
+- **00:24:55.720** — And then
+- **00:24:57.160** — tools that are unlikely to be static or
+- **00:24:59.240** — like to have a lot of inertia around
+- **00:25:01.040** — them. I would think like we would want
+- **00:25:03.000** — people who are able to innovate and
+- **00:25:05.120** — imagine like what's the future version
+- **00:25:06.960** — of this? And so we want more talent like
+- **00:25:08.720** — that.
+- **00:25:09.520** — >> Awesome. So coming back to the systems
+- **00:25:11.480** — thinking piece, people hearing this are
+- **00:25:13.160** — like, okay, I got to work on my systems
+- **00:25:14.800** — thinking
+- **00:25:15.840** — skill set. How do people develop the
+- **00:25:17.840** — skill? Other Is it just do it for a long
+- **00:25:19.680** — time? Work at a lot of complex
+- **00:25:21.600** — projects? Like I think of this book that
+- **00:25:23.880** — everyone always references with the
+- **00:25:25.200** — slinky on the front, Thinking in
+- **00:25:26.720** — Systems.
+- **00:25:28.132** — >> [laughter]
+- **00:25:28.680** — >> Yeah, how do people learn this?
+- **00:25:31.720** — >> Small trick.
+- **00:25:33.960** — Each
+- **00:25:35.440** — problem you're trying to solve, step out
+- **00:25:38.880** — one click.
+- **00:25:40.520** — Do the like, what am I assuming is true
+- **00:25:43.040** — about the broader space in solving this
+- **00:25:45.160** — problem?
+- **00:25:46.200** — So I was given a task to build some new
+- **00:25:50.120** — feature for the Netflix member
+- **00:25:52.000** — experience.
+- **00:25:53.680** — Let me take one beat and think about
+- **00:25:56.400** — what is the bigger consumer problem
+- **00:25:58.280** — we're trying to solve here?
+- **00:26:00.000** — What's the type of content that this
+- **00:26:01.800** — feature is going to be able to support?
+- **00:26:05.080** — Do I think that the way I was planning
+- **00:26:07.320** — to build this is going to make sense in
+- **00:26:09.640** — a way that scales across multiple
+- **00:26:11.680** — content types? Or it could be something
+- **00:26:13.560** — that's a capability that then is
+- **00:26:15.520** — contributed to a platform set of
+- **00:26:18.200** — offerings for multiple areas.
+- **00:26:20.840** — Is the consumer problem that I'm solving
+- **00:26:22.960** — with this feature
+- **00:26:24.600** — going to be one of the most important
+- **00:26:27.080** — consumer problems that Netflix is going
+- **00:26:28.840** — to need to solve as we have an expanding
+- **00:26:30.880** — world of entertainment and we want to
+- **00:26:32.240** — make it more personalized and immersive.
+- **00:26:34.680** — Those are all questions that like you
+- **00:26:36.120** — don't have to boil the whole ocean. You
+- **00:26:38.000** — don't have to solve for Netflix's
+- **00:26:39.480** — overall strategy and who are we relative
+- **00:26:41.840** — to competition.
+- **00:26:43.360** — But you take the thing you're
+- **00:26:44.320** — responsible for and you just do one zoom
+- **00:26:47.320** — out of the problem you're solving and
+- **00:26:49.640** — question that.
+- **00:26:51.440** — I wouldn't spend too long in the
+- **00:26:52.960** — questioning state because then you're
+- **00:26:54.400** — stuck. Then you're not making forward
+- **00:26:55.920** — progress, but I think that helps people
+- **00:26:58.440** — to think in terms of systems and
+- **00:27:01.000** — question that are we solving the right
+- **00:27:02.400** — problem in the right way that matters
+- **00:27:04.400** — for the end consumer.
+- **00:27:06.880** — >> Another way as you describe it, another
+- **00:27:08.520** — way I'm thinking about it is like think
+- **00:27:10.240** — if you were your manager
+- **00:27:12.000** — how would they what's their broader
+- **00:27:13.800** — perspective across not just your one
+- **00:27:15.440** — team and problem and KPI, but the larger
+- **00:27:17.600** — picture?
+- **00:27:18.600** — >> I've got advice over years that is
+- **00:27:20.120** — similar to that which is
+- **00:27:22.320** — are there ways that I can do my job that
+- **00:27:25.960** — helps
+- **00:27:27.160** — my manager do their job.
+- **00:27:30.240** — And so if I thought about all the things
+- **00:27:31.880** — I'm directly responsible for, but I
+- **00:27:33.720** — thought about it from the perspective of
+- **00:27:35.520** — my manager. So not just product and
+- **00:27:37.240** — tech, but finance and content and other
+- **00:27:39.920** — parts of the business, I would naturally
+- **00:27:42.000** — zoom out and think about how all these
+- **00:27:44.200** — component pieces need to come together
+- **00:27:46.200** — and how the whole could be greater than
+- **00:27:47.600** — the sum of the parts. I think that's
+- **00:27:49.400** — useful thinking. And for engineers to
+- **00:27:51.840** — think about how do I leave a better
+- **00:27:53.560** — version of these systems? How do I think
+- **00:27:55.440** — about the thing that's going to be high
+- **00:27:56.720** — quality and scale for others? There's
+- **00:27:59.000** — both a how do I help my manager and
+- **00:28:01.040** — there's how do I help my colleagues,
+- **00:28:02.320** — which is a core part of some of our
+- **00:28:03.760** — engineering principles of
+- **00:28:05.920** — do the thing that is right for the
+- **00:28:07.360** — broader organization instead of just
+- **00:28:09.080** — what's right for you locally. That's
+- **00:28:10.800** — systems thinking as well. So it's not
+- **00:28:12.560** — just seniority, but it's breadth of the
+- **00:28:15.200** — way I solve this problem and I build
+- **00:28:16.960** — this, is it going to be useful to my
+- **00:28:18.440** — colleagues and am I going to leave a
+- **00:28:19.720** — stronger version of things for the
+- **00:28:21.840** — future set of innovations that we want
+- **00:28:23.560** — to make?
+- **00:28:24.760** — >> That is an awesome tactical advice. Uh
+- **00:28:27.200** — making your manager's life easier is
+- **00:28:28.560** — always a good a good tactic.
+- **00:28:30.720** — >> Career-wise, several reasons. Yeah.
+- **00:28:32.844** — >> [laughter]
+- **00:28:34.120** — >> Following the thread a little bit
+- **00:28:35.960** — I know you all added career ladders and
+- **00:28:38.040** — levels recently. It was like a new thing
+- **00:28:39.440** — you guys used to not have these things.
+- **00:28:41.240** — So kind of all on that thread
+- **00:28:43.280** — what have you added to the career
+- **00:28:46.120** — ladders within this AI world. If
+- **00:28:48.080** — anything that you find you want people
+- **00:28:50.400** — to lean into more, you're looking to
+- **00:28:52.640** — more or or not. Like, did you not change
+- **00:28:55.000** — your career ladders and performance
+- **00:28:56.960** — you know, criteria?
+- **00:28:58.560** — >> So, the way we've approached this so far
+- **00:29:00.320** — is instead of trying to articulate
+- **00:29:04.080** — at each level
+- **00:29:06.120** — exactly how AI changes those
+- **00:29:08.160** — expectations, to instead put an overlay
+- **00:29:11.800** — across all of the talent at Netflix,
+- **00:29:13.920** — people on the team, and those who are
+- **00:29:15.320** — hiring to talk about an aspiration for
+- **00:29:18.200** — AI fluency.
+- **00:29:20.000** — And what that looks like is going to
+- **00:29:21.440** — vary by function. It's going to vary
+- **00:29:23.200** — based on where you are in your career.
+- **00:29:25.360** — That could be what level you're in or
+- **00:29:26.680** — what type of role or persona work you're
+- **00:29:28.720** — doing.
+- **00:29:30.200** — But the aspiration for AI fluency, which
+- **00:29:32.920** — is a tough thing to define.
+- **00:29:35.160** — So, does it mean that I have an
+- **00:29:36.960** — experimentation mindset? Does it mean
+- **00:29:39.480** — that I know where AI is useful and not
+- **00:29:41.320** — useful? Does it mean that I've actually
+- **00:29:43.600** — built things using AI? I feel like the
+- **00:29:46.640** — the way that has shown up in career
+- **00:29:48.160** — ladders and how we talk about it evolves
+- **00:29:50.800** — almost by the quarter, if not month or
+- **00:29:53.840** — day, because the tech itself is
+- **00:29:55.760** — advancing so much. So, the most useful
+- **00:29:58.200** — thing is not to make it level specific
+- **00:30:00.120** — or role specific, but to encourage
+- **00:30:02.120** — everyone towards the expectation on AI
+- **00:30:05.000** — fluency, which doesn't mean use it as a
+- **00:30:07.200** — tech for the sake of tech. It's tech
+- **00:30:08.760** — where it's useful, to have good judgment
+- **00:30:10.880** — about that, and to have the mindset to
+- **00:30:12.760** — be open-minded to explore and try new
+- **00:30:14.800** — things. That's the non-negotiable for
+- **00:30:17.520** — all roles, and that's true at the senior
+- **00:30:19.760** — most levels of of Netflix, where we talk
+- **00:30:21.680** — about we too need to have deep fluency
+- **00:30:23.840** — in AI, even if we're not writing code as
+- **00:30:26.400** — part of our day jobs. So, that's that's
+- **00:30:28.640** — changed, and then that's showing up in
+- **00:30:30.480** — our hiring practices as well. Getting
+- **00:30:32.480** — comfortable within interviews exploring
+- **00:30:35.440** — how are people thinking about AI or
+- **00:30:37.480** — technology? What are they using in their
+- **00:30:39.080** — day-to-day or their current job? How
+- **00:30:41.280** — comfortable are they with change and
+- **00:30:43.000** — exploration? And even for things like
+- **00:30:45.400** — coding interviews, allowing candidates,
+- **00:30:47.760** — of course, to use AI tools because
+- **00:30:49.440** — that's going to be part of what the work
+- **00:30:51.000** — requires now. So, those have been shifts
+- **00:30:53.440** — that we've made, but I I doubt it's a
+- **00:30:55.560** — shift that's done versus we're right in
+- **00:30:57.480** — the middle of it.
+- **00:30:59.000** — >> And she's going to keep following this
+- **00:31:00.040** — thread. Obviously, AI is transformative
+- **00:31:03.480** — for coding.
+- **00:31:04.920** — It's a big unlock for prototyping.
+- **00:31:08.320** — Are there other
+- **00:31:09.600** — use cases of AI at Netflix that have
+- **00:31:11.720** — been really impactful that people may
+- **00:31:13.760** — not
+- **00:31:14.720** — think about or not realize?
+- **00:31:16.480** — >> So, there's two that come to mind. So,
+- **00:31:17.960** — the first is
+- **00:31:19.720** — data analysis, distillation of
+- **00:31:21.560** — information, modeling, which is, you
+- **00:31:24.480** — know, get using the tools to get our
+- **00:31:25.840** — arms around all the insights we have,
+- **00:31:27.880** — similar to what I mentioned before. What
+- **00:31:29.200** — experiments have we run? What are the
+- **00:31:31.400** — metrics that I should be looking at for
+- **00:31:33.000** — a certain problem? What's the consumer
+- **00:31:34.720** — research that we've done?
+- **00:31:36.720** — And that is much higher velocity and
+- **00:31:40.000** — much higher quality,
+- **00:31:42.560** — contingent on
+- **00:31:44.280** — you check that the results are valid,
+- **00:31:46.320** — you work with your local data scientist
+- **00:31:48.120** — and am I using the source of truth data
+- **00:31:50.160** — on this?
+- **00:31:51.280** — But, that's been a great one and that's
+- **00:31:52.760** — one personally that I would say I most
+- **00:31:55.080** — use some of these tools for. So, that
+- **00:31:58.000** — goes beyond prototyping and coding to
+- **00:32:00.080** — general analytical thinking and
+- **00:32:02.440** — translating data to action and insight.
+- **00:32:05.800** — The other one is on the
+- **00:32:08.360** — content production, creation part of the
+- **00:32:11.400** — business, which has lots of
+- **00:32:13.000** — applications. This was true before
+- **00:32:14.800** — GenAI. So, ML and AI were deeply used in
+- **00:32:17.680** — a lot of the production tools. We've
+- **00:32:20.120** — used them to think about how to create
+- **00:32:21.800** — promotional assets at scale, how to
+- **00:32:23.880** — localize in subtitles and dubs. So,
+- **00:32:27.440** — GenAI is a big step function in where
+- **00:32:29.560** — the impact can be in creative ideation.
+- **00:32:33.520** — We call those things like
+- **00:32:34.400** — pre-visualization or basically bringing
+- **00:32:36.560** — a creator's vision to life before you
+- **00:32:38.680** — even get into the you bring people to a
+- **00:32:41.080** — set and start to actually go through the
+- **00:32:43.040** — production itself.
+- **00:32:44.760** — There's lots of use cases in
+- **00:32:46.040** — post-production.
+- **00:32:47.600** — So we recently acquired a company Inner
+- **00:32:49.960** — Positive that was started by Ben Affleck
+- **00:32:52.080** — that built a set of models and
+- **00:32:54.000** — capabilities that allow you after you've
+- **00:32:56.520** — shot something to relight, reframe,
+- **00:32:59.600** — reshoot, change dialogue in ways that
+- **00:33:02.880** — are very impactful to get higher quality
+- **00:33:05.080** — content are still led by the filmmaker
+- **00:33:07.280** — creator saying, you know what? I would
+- **00:33:08.560** — like to try something else to bring this
+- **00:33:10.240** — vision to life. But that impact is
+- **00:33:12.920** — extremely promising and we're seeing
+- **00:33:14.560** — lots of productions
+- **00:33:16.400** — leverage different tools, some of them
+- **00:33:17.880** — built in-house, some of them that we
+- **00:33:19.520** — enable through other vendors for those
+- **00:33:21.280** — content creation use cases. And then as
+- **00:33:23.960** — we think about how content comes to the
+- **00:33:25.640** — product, I mentioned localization,
+- **00:33:27.640** — subtitles and dubs, but also how we
+- **00:33:30.080** — create high-quality trailers, images,
+- **00:33:34.120** — artwork at scale that then we can use to
+- **00:33:37.520** — help make sure that titles find their
+- **00:33:38.960** — audiences around the world. Those all
+- **00:33:41.760** — are huge levers when we think about the
+- **00:33:43.760** — AI impact. So that that again goes well
+- **00:33:46.120** — beyond prototyping or coding to some of
+- **00:33:48.520** — the creative use cases and you can
+- **00:33:50.240** — imagine that just like they work for
+- **00:33:52.480** — studio productions for film and TV, they
+- **00:33:54.640** — work for advertising, they work for
+- **00:33:56.080** — marketing, off-service campaigns and so
+- **00:33:59.000** — those are all areas that we're
+- **00:34:00.160** — exploring.
+- **00:34:01.320** — >> This episode is brought to you by
+- **00:34:02.760** — Mercury, radically different banking
+- **00:34:04.840** — loved by over 300,000
+- **00:34:07.040** — entrepreneurs. And now with Command.
+- **00:34:09.639** — I've been a customer of Mercury's for
+- **00:34:10.919** — over 6 years. I have never once thought
+- **00:34:13.399** — about leaving. Mercury is basically what
+- **00:34:15.320** — happens when banking is built by product
+- **00:34:17.840** — people, not by bankers. They make it so
+- **00:34:20.480** — easy, dare I say fun, to send invoices,
+- **00:34:24.240** — move money around, set up virtual cards
+- **00:34:26.280** — for folks on my team. Does your bank
+- **00:34:28.360** — have an API, a terminal native CLI, or
+- **00:34:31.520** — an AI-ready MCB server? I don't think
+- **00:34:34.040** — so. And just recently they launched
+- **00:34:36.399** — command, a conversational interface
+- **00:34:38.800** — built directly into Mercury, which acts
+- **00:34:41.159** — as your financial operator. I've been
+- **00:34:43.040** — using command to transfer money around,
+- **00:34:45.080** — to figure out what categories I've been
+- **00:34:46.800** — spending the most money in, analyze my
+- **00:34:48.760** — cash flows. And [music] just today I
+- **00:34:50.760** — used it to find out how much I've made
+- **00:34:52.440** — from a specific sponsor over the past
+- **00:34:54.320** — year. I just asked, "How much have I
+- **00:34:56.200** — made from X over the past year?" 10
+- **00:34:58.520** — seconds later I have an answer. It is so
+- **00:35:00.760** — freaking cool. Visit mercury.com to
+- **00:35:03.360** — learn more and apply online in minutes.
+- **00:35:05.680** — Mercury is a fintech company, not an
+- **00:35:07.280** — FDIC insured bank. Banking services
+- **00:35:09.400** — provided through Choice Financial Group
+- **00:35:11.120** — and Column NA, members FDIC.
+- **00:35:13.760** — >> You mentioned how Netflix has been very
+- **00:35:17.000** — early to AI and ML for a long time. Uh
+- **00:35:20.080** — younger people may not remember this,
+- **00:35:21.680** — but y'all had this contest to optimize
+- **00:35:25.360** — things.
+- **00:35:26.160** — Yeah. Yeah, the Netflix prize. Like like
+- **00:35:28.240** — just showed an example of how early you
+- **00:35:29.720** — were to AI and ML. People There was I
+- **00:35:32.160** — think it was a million-dollar prize to
+- **00:35:34.000** — optimize the Netflix ranking algorithm a
+- **00:35:36.320** — little bit. Like whoever could optimize
+- **00:35:37.800** — it the most. And I think the winner
+- **00:35:39.120** — optimized it by a few percentage points,
+- **00:35:41.760** — something like that. And it was like the
+- **00:35:42.760** — a huge deal. All these super smart
+- **00:35:44.920** — people got around around the world. Uh
+- **00:35:47.760** — and it happened a few times, right?
+- **00:35:49.280** — >> I mean, you said it on my behalf. Um
+- **00:35:51.280** — often when there's questions about how
+- **00:35:54.000** — is Netflix thinking about AI, it's great
+- **00:35:56.880** — to remind people of exactly that point,
+- **00:35:58.840** — that this is not new to us, that
+- **00:36:01.520** — especially for personalization, it's
+- **00:36:03.800** — been central to delivering a great
+- **00:36:06.000** — experience to members. It's impossible
+- **00:36:08.040** — to take the breadth of content that we
+- **00:36:10.440** — have. There's ever more content. That's
+- **00:36:12.440** — one of the challenges we face.
+- **00:36:14.520** — And make discovery easier and easier and
+- **00:36:17.760** — easier, which is one of the challenges
+- **00:36:19.480** — that Netflix has.
+- **00:36:21.080** — And using AI and ML has been a way to do
+- **00:36:23.480** — that. You want to personalize right
+- **00:36:25.080** — title for the right person at the right
+- **00:36:26.960** — moment, that problem gets harder. The
+- **00:36:29.560** — The more exciting our catalog gets, the
+- **00:36:31.480** — greater breadth of content we have, not
+- **00:36:33.240** — just film and TV, but games and live and
+- **00:36:35.520** — podcasts,
+- **00:36:36.840** — personalization becomes even more
+- **00:36:38.360** — important in what that experience is.
+- **00:36:40.600** — So, we can take a lot of that history
+- **00:36:42.320** — and say, "Okay, well, now how do we
+- **00:36:44.360** — solve this problem?" Because the tech is
+- **00:36:45.800** — even more powerful, but it gives us a
+- **00:36:48.000** — running head start in being clear about
+- **00:36:50.320** — the problem to solve, how important it
+- **00:36:51.920** — is that Netflix solve that for our
+- **00:36:53.520** — members. And then the same is true, as I
+- **00:36:56.280** — was mentioning, on the creative side of
+- **00:36:57.800** — the house. AI and ML have been in things
+- **00:37:00.360** — like visual effects or in localizing
+- **00:37:02.440** — language for a long time. Now we say,
+- **00:37:05.000** — "What's the next era of that when the
+- **00:37:06.760** — tech is more powerful?"
+- **00:37:08.680** — And in In both cases, it ends up taking
+- **00:37:11.280** — a strength that Netflix has, which is
+- **00:37:13.200** — marrying entertainment and technology,
+- **00:37:16.080** — and making sure we stay ahead of the
+- **00:37:17.400** — game to deliver things that are even
+- **00:37:19.440** — better. So, I I love that it it's part
+- **00:37:21.840** — of our history. It still continues to be
+- **00:37:23.880** — a strength, and it's going to have to be
+- **00:37:25.440** — a strength, given the size of the
+- **00:37:26.920** — challenges we're facing around the
+- **00:37:28.680** — breadth of entertainment while keeping a
+- **00:37:30.920** — great experience.
+- **00:37:32.920** — >> Yeah. And I I love that back then it was
+- **00:37:34.920** — called machine learning, and AI was
+- **00:37:36.320** — like, "No, no, this It's not AI. AI is
+- **00:37:38.520** — Never never never Never going to happen.
+- **00:37:40.320** — It's just machine learning."
+- **00:37:41.200** — >> Well, then all of a sudden we call
+- **00:37:43.200** — everything AI, and some of it's machine
+- **00:37:45.120** — learning.
+- **00:37:45.600** — >> That's right.
+- **00:37:45.960** — >> So, I
+- **00:37:46.326** — >> [laughter]
+- **00:37:46.680** — >> I I tried to You know, it depends like
+- **00:37:48.840** — the thing that is of the moment to
+- **00:37:51.320** — describe. So, I think we bucket all of
+- **00:37:53.360** — it as AI now.
+- **00:37:54.840** — >> Yeah, AI has become
+- **00:37:55.840** — >> of AI use cases that are not generative
+- **00:37:58.480** — use cases. So, we could go down a deep
+- **00:38:00.480** — dark hole of all the specific things.
+- **00:38:02.840** — But in general, like I don't think it
+- **00:38:04.240** — would surprise anyone that Netflix is
+- **00:38:05.920** — using a broad array.
+- **00:38:08.080** — And it with so much excitement about
+- **00:38:10.760** — what's possible, the fun thing at
+- **00:38:12.440** — Netflix for the people who work here is
+- **00:38:14.240** — that if you're really passionate about
+- **00:38:16.520** — the applications of tech for
+- **00:38:19.200** — creative outlets, for consumer products,
+- **00:38:21.840** — for infrastructure, we have all of those
+- **00:38:23.880** — problems and AI is at the center of them
+- **00:38:26.800** — and it's good not to forget that that
+- **00:38:28.640** — that's true even if Netflix isn't
+- **00:38:30.720** — branded as an AI company. AI is a tool
+- **00:38:33.200** — that we're very comfortable using to get
+- **00:38:35.040** — these great entertainment and technology
+- **00:38:36.880** — outcomes.
+- **00:38:37.760** — >> The other really interesting thing just
+- **00:38:39.280** — to kind of keep complimenting Netflix
+- **00:38:41.520** — here. If you look at the early culture
+- **00:38:43.960** — deck of Netflix and also our
+- **00:38:46.200** — conversation last time,
+- **00:38:47.960** — things that emerge from that are things
+- **00:38:49.600** — like high agency. This is like something
+- **00:38:51.840** — core to Netflix in the beginning. High
+- **00:38:53.400** — agency, autonomy, high talent density,
+- **00:38:56.720** — very bottom-up thinking, super quick
+- **00:38:59.560** — experiments and launching, paying top of
+- **00:39:02.160** — market. Uh
+- **00:39:04.280** — this is all stuff that every AI like
+- **00:39:06.320** — this is what I hear constantly now from
+- **00:39:07.960** — how the top AI labs operate. So we're
+- **00:39:10.240** — all ending here and this is where
+- **00:39:11.680** — Netflix has been forever.
+- **00:39:13.360** — >> Yeah, it's a little prescient in
+- **00:39:16.120** — understanding what makes talent
+- **00:39:18.760** — incredible.
+- **00:39:20.360** — I've thought about all those aspects of
+- **00:39:21.960** — the culture at Netflix as this is going
+- **00:39:24.120** — to sound a little bit nerdy, but
+- **00:39:25.600** — excellence as an operating system.
+- **00:39:28.360** — So the goal of all those cultural
+- **00:39:30.280** — elements wasn't the end goal in
+- **00:39:32.480** — themselves. It wasn't let's just make
+- **00:39:34.880** — sure people have as much responsibility
+- **00:39:36.560** — as possible or let's you know, we don't
+- **00:39:38.520** — like process. So let's make sure that we
+- **00:39:40.000** — don't have any of that.
+- **00:39:42.400** — It was instead a very strongly held
+- **00:39:45.680** — opinion that that you get to excellence
+- **00:39:48.200** — by giving people a lot of agency and
+- **00:39:50.320** — accountability. By pushing decisions as
+- **00:39:52.960** — deep in the organization as possible,
+- **00:39:55.640** — hiring great people who can be trusted
+- **00:39:57.560** — to have good judgment and make good
+- **00:39:59.240** — decisions.
+- **00:40:00.640** — And that ends up driving incredible
+- **00:40:03.240** — outcomes plus a lot more motivation and
+- **00:40:06.640** — sense of responsibility. It means every
+- **00:40:08.320** — person on the team can feel like I'm
+- **00:40:10.400** — being given
+- **00:40:12.280** — a lot of keys and a lot of
+- **00:40:14.440** — accountability for what happens here and
+- **00:40:16.960** — I myself feel like when you know you're
+- **00:40:18.560** — carrying that level of trust and
+- **00:40:20.600** — accountability, you want to do your best
+- **00:40:22.560** — work.
+- **00:40:24.080** — And so there's something that
+- **00:40:25.920** — feels very intuitive about Netflix's
+- **00:40:28.840** — culture has always been aiming at
+- **00:40:30.400** — excellence.
+- **00:40:31.720** — And when you have great talent and you
+- **00:40:33.440** — give them the ability to do their best
+- **00:40:35.080** — work without micromanaging it or
+- **00:40:37.720** — drowning it in process, you actually get
+- **00:40:39.760** — much better outcomes.
+- **00:40:41.560** — And so I do think that the newer era
+- **00:40:43.400** — companies are picking up on something
+- **00:40:45.720** — that is feeling very familiar to us. And
+- **00:40:48.400** — it it's not something that comes easily.
+- **00:40:49.720** — So having culture is not a static thing.
+- **00:40:52.640** — Culture needs to
+- **00:40:54.520** — grow and evolve as a company gets
+- **00:40:56.280** — bigger, the types of problems you're
+- **00:40:57.840** — solving change. But the notion that like
+- **00:41:00.280** — we're going for excellence and trusting
+- **00:41:02.040** — that exceptional talent needs to be able
+- **00:41:04.480** — to do their best work. That's unchanged
+- **00:41:07.280** — and something that I think continues to
+- **00:41:08.920** — be a special sauce for us.
+- **00:41:10.920** — >> I love this concept, excellence as an
+- **00:41:12.920** — operating system.
+- **00:41:14.440** — It's very uh systems thinking, he he
+- **00:41:16.000** — might say,
+- **00:41:17.360** — for how to set up a company.
+- **00:41:18.440** — >> Exactly, Lenny.
+- **00:41:19.858** — >> [laughter]
+- **00:41:20.600** — >> So for people that like everyone
+- **00:41:22.120** — listening to this will want excellence
+- **00:41:23.680** — as an operating system. Like who would
+- **00:41:25.160** — not want this?
+- **00:41:26.520** — Uh it'd be helpful for people to hear
+- **00:41:27.880** — what are kind of the ingredients to make
+- **00:41:29.240** — this happen. One is obviously high
+- **00:41:31.600** — talent density, just hiring only the
+- **00:41:33.400** — best. Two is accountability. Kind of
+- **00:41:36.160** — there's like the input and the output
+- **00:41:37.280** — essentially. Uh input amazing people,
+- **00:41:39.440** — top the top people, give them make them
+- **00:41:42.120** — accountable, give them autonomy. What
+- **00:41:43.560** — would you say kind of like the pillars
+- **00:41:45.040** — of creating this
+- **00:41:46.360** — uh excellence as an operating system if
+- **00:41:48.160** — people if founders are listening to this
+- **00:41:49.600** — like I want them to do that.
+- **00:41:51.120** — >> Well, the talent density is the
+- **00:41:52.600** — non-negotiable. Like you have to start
+- **00:41:54.600** — with that. If you don't have that, you
+- **00:41:56.240** — can't get to a place where you have
+- **00:41:58.600** — confidence in decision-making at all
+- **00:42:00.680** — levels of the organization,
+- **00:42:03.040** — allowing people to take risks and
+- **00:42:05.240** — innovate quickly. That's a big part of
+- **00:42:07.840** — excellence in the Netflix culture, which
+- **00:42:09.600** — is being very comfortable with
+- **00:42:11.000** — risk-taking.
+- **00:42:12.440** — We don't try to avoid failures, we try
+- **00:42:14.680** — to recover quickly when we have them.
+- **00:42:17.560** — I think there's been great examples of
+- **00:42:19.000** — that. Our foray into live was a
+- **00:42:21.320** — wonderful example of being comfortable
+- **00:42:23.760** — taking a ton of risk, knowing it would
+- **00:42:25.560** — be imperfect, knowing we would learn
+- **00:42:27.640** — fast, and we would be better for it.
+- **00:42:29.400** — I've never been prouder of the team
+- **00:42:30.960** — seeing how we worked through that. So,
+- **00:42:33.760** — you have to be talent density,
+- **00:42:36.640** — comfortable that people are going to
+- **00:42:38.480** — take the context that you give them,
+- **00:42:41.480** — strong judgment and risk taking,
+- **00:42:44.840** — and fight for the things that are the
+- **00:42:46.680** — best outcomes for the business.
+- **00:42:48.880** — You have to be very clear that what
+- **00:42:51.000** — you're doing is driving outcomes for
+- **00:42:53.160** — consumers and Netflix.
+- **00:42:55.480** — So, it's Netflix matters, Netflix
+- **00:42:57.400** — members matter. It's not about my own
+- **00:43:00.000** — personal success or what I prefer. So,
+- **00:43:02.040** — there's a selflessness
+- **00:43:03.800** — that is part of this excellence
+- **00:43:05.640** — operating system.
+- **00:43:08.040** — And then the other thing I would say is
+- **00:43:09.160** — some of the things that are they're
+- **00:43:10.760** — really unnatural for humans to do. So, I
+- **00:43:13.360** — could give a couple examples of things
+- **00:43:15.320** — to get comfortable with,
+- **00:43:17.400** — which is
+- **00:43:18.760** — there are certainly days where I see
+- **00:43:20.600** — decisions happening, and I think, "Hmm,
+- **00:43:24.120** — I would make a different decision."
+- **00:43:26.280** — Like, is that really going to be the
+- **00:43:28.400** — best thing?
+- **00:43:30.200** — But, my job, especially in the Netflix
+- **00:43:32.920** — culture, is not to step in in every one
+- **00:43:35.520** — of those cases and overrule or veto or
+- **00:43:38.840** — question someone,
+- **00:43:40.880** — especially if it's
+- **00:43:42.960** — it's not material, it's not going to
+- **00:43:44.200** — burn the place down. Let people make
+- **00:43:46.440** — that decision and learn from it. And ask
+- **00:43:49.320** — for those reflections afterwards of
+- **00:43:51.040** — like, "How did it go? Maybe I was wrong.
+- **00:43:53.080** — Maybe the decision was a great one."
+- **00:43:55.600** — But, that it's related to the risk
+- **00:43:57.360** — taking and the like help people learn
+- **00:43:59.840** — how to feel comfortable making their own
+- **00:44:01.640** — decisions, especially when they're not
+- **00:44:03.880** — all going to be the right decisions, and
+- **00:44:05.640** — they're going to learn something tough
+- **00:44:07.000** — from it. I felt that myself from my boss
+- **00:44:09.720** — and my peers saying, "This is your
+- **00:44:11.880** — decision. You know, I can provide input.
+- **00:44:13.720** — I can help you brainstorm. It's yours in
+- **00:44:15.640** — the end."
+- **00:44:16.920** — And I that it it just doesn't come
+- **00:44:19.120** — naturally when the stakes are high, when
+- **00:44:20.880** — I feel responsible for what the org's
+- **00:44:22.640** — doing to let people lean into risk can
+- **00:44:24.920** — be uncomfortable.
+- **00:44:26.920** — And I think that also means in cases
+- **00:44:28.800** — where things are not going well as
+- **00:44:30.600** — another example to not assume that
+- **00:44:32.560** — process is going to fix it.
+- **00:44:35.080** — So, if
+- **00:44:36.520** — or something I've learned over the past
+- **00:44:37.840** — few years, that
+- **00:44:39.960** — when planning is difficult, I've never
+- **00:44:41.680** — heard someone say like, "Oh, we figured
+- **00:44:43.200** — out the perfect way to plan."
+- **00:44:45.360** — Or the perfect way to go through
+- **00:44:47.840** — feedback and leveling and compensation.
+- **00:44:51.120** — But every time we saw that and we added
+- **00:44:53.400** — more process, we spent more time without
+- **00:44:56.280** — getting better outcomes.
+- **00:44:58.520** — And so, it's another unnatural thing
+- **00:45:00.680** — that I think everyone's inclination when
+- **00:45:02.840** — things are hard and complicated
+- **00:45:05.200** — is
+- **00:45:06.600** — you think you're simplifying the problem
+- **00:45:08.520** — by putting a lot of constraints around
+- **00:45:10.280** — it,
+- **00:45:11.400** — but it actually goes against the like,
+- **00:45:13.200** — is there a more creative way
+- **00:45:15.600** — to plan or to make people decisions or
+- **00:45:17.600** — to make prioritization decisions that
+- **00:45:20.040** — actually get us to better outcomes. And
+- **00:45:22.040** — so, it's a resistance to do the thing
+- **00:45:24.040** — that a lot of bigger companies would do
+- **00:45:26.160** — and to feel comfortable in that
+- **00:45:28.760** — discomfort very often. So, that's
+- **00:45:31.080** — something I feel in my role and I I
+- **00:45:32.800** — would believe a lot of people at Netflix
+- **00:45:34.440** — feel it because you try not to do the
+- **00:45:36.480** — thing that is
+- **00:45:38.320** — standard.
+- **00:45:39.320** — >> It's easy to say that and hear that, but
+- **00:45:41.000** — I so know what you mean, where somebody
+- **00:45:43.200** — screws up and you're like, "Okay, what
+- **00:45:45.000** — was the thing that went wrong? Let's put
+- **00:45:46.240** — a process in place to avoid this from
+- **00:45:48.280** — happening." And what you're saying is
+- **00:45:49.800** — like, you need to resist that.
+- **00:45:51.760** — Uh because that slows things down and
+- **00:45:54.280** — the best people don't want to be working
+- **00:45:55.800** — in a place with all these checklist and
+- **00:45:57.520** — process and gates and things like that.
+- **00:45:58.680** — >> No, I think the best people want to know
+- **00:46:00.440** — there's going to be a blameless retro
+- **00:46:02.800** — and they're going to feel so
+- **00:46:04.640** — individually responsible
+- **00:46:07.440** — that they're going to say, "How do I
+- **00:46:08.600** — make sure this doesn't happen again?"
+- **00:46:10.440** — Not with process, but with like how
+- **00:46:12.240** — could I share these learnings? How could
+- **00:46:14.320** — I do work differently to make sure that
+- **00:46:16.560** — I get to a better outcome next time?
+- **00:46:19.200** — When you are trusting people to take
+- **00:46:21.280** — those reflections
+- **00:46:23.440** — and learn and grow
+- **00:46:25.920** — I think you get much better
+- **00:46:27.920** — outcomes over time. You get a much
+- **00:46:29.600** — stronger team, which I think is part of
+- **00:46:31.440** — our role as leaders of like you're
+- **00:46:33.320** — you're trying to grow a team that is
+- **00:46:35.240** — resilient and durable and knows how to
+- **00:46:37.320** — have great impact. You're not trying to
+- **00:46:39.080** — control everything.
+- **00:46:41.720** — >> Which is a key to building a team with
+- **00:46:43.640** — high talent density.
+- **00:46:45.800** — There's two sides to this that I want to
+- **00:46:47.120** — chat about briefly. One is the hiring
+- **00:46:48.960** — and the other is
+- **00:46:50.440** — keeping the people. So you're famous for
+- **00:46:52.400** — the keepers test. We talked about this
+- **00:46:53.720** — last time. Another unnatural thing for
+- **00:46:55.680** — people.
+- **00:46:56.600** — People that want to understand what this
+- **00:46:58.640** — is, they can listen to the first
+- **00:46:59.560** — conversation, but has that How has that
+- **00:47:00.960** — evolved over the last couple years?
+- **00:47:02.120** — That's still core part of the culture,
+- **00:47:03.640** — this idea of the keepers test?
+- **00:47:05.560** — >> It's often cited in a way where you
+- **00:47:07.960** — think of keepers test as
+- **00:47:10.680** — that moment where you decide to let
+- **00:47:12.560** — someone go, that they're not the right
+- **00:47:14.320** — fit for the role and the conversation
+- **00:47:16.000** — about that.
+- **00:47:17.520** — But it's equally commonly used to have a
+- **00:47:20.800** — conversation about how extraordinary
+- **00:47:22.720** — someone is.
+- **00:47:24.120** — How well they're doing in a role.
+- **00:47:26.360** — Because it the entry point is for me to
+- **00:47:28.920** — say to one of my direct reports or for
+- **00:47:30.560** — them to say to me
+- **00:47:32.040** — "How am I doing on your keeper test?"
+- **00:47:34.960** — And
+- **00:47:36.240** — the lion's share of the time my response
+- **00:47:38.240** — is, "I would fight so hard to keep you."
+- **00:47:41.240** — Let me go through a set of things that I
+- **00:47:43.160** — think you're doing such a great job at,
+- **00:47:44.960** — what your strengths are, where you're
+- **00:47:46.120** — having a lot of impact. Here's how you
+- **00:47:48.160** — could be even better. So it's an entry
+- **00:47:50.200** — into a conversation that is very
+- **00:47:51.800** — positive and uplifting for people, but
+- **00:47:54.120** — the framing is, "Do I pass the keeper
+- **00:47:55.840** — test?" And then, of course, there's the
+- **00:47:57.880** — harder situations where
+- **00:48:00.120** — I'm evaluating does someone pass the
+- **00:48:01.800** — keeper test or they're asking me, and
+- **00:48:04.120** — it's This is the toughest thing to say,
+- **00:48:06.000** — to be honest, you're not passing that
+- **00:48:08.240** — right now.
+- **00:48:09.480** — I think you could get there in some
+- **00:48:11.040** — cases, and that comes with feedback and
+- **00:48:12.880** — what are those milestones? Or in some
+- **00:48:14.640** — cases you're saying, we've really tried
+- **00:48:16.680** — and I don't see the path to success. So,
+- **00:48:19.320** — it it's just it's an anchor and an entry
+- **00:48:22.040** — point for a conversation that can go
+- **00:48:23.960** — lots of different directions. And the
+- **00:48:26.360** — thing I like about it is it's good
+- **00:48:28.120** — hygiene on feedback and checking in on
+- **00:48:30.520** — how things are going
+- **00:48:32.440** — and forcing a tough conversation
+- **00:48:34.280** — sometimes instead of shying away from
+- **00:48:36.360** — it. Or to keep great talent, you do need
+- **00:48:39.280** — to say you're doing great. Like that
+- **00:48:41.200** — that's an important part of making peo-
+- **00:48:43.080** — people feel recognized and valued. So, I
+- **00:48:45.480** — don't want it to come across that we
+- **00:48:46.880** — just have this
+- **00:48:48.440** — very negative view of it. I think
+- **00:48:50.520** — there's this positive side of the coin
+- **00:48:52.200** — as well.
+- **00:48:53.040** — >> Awesome. I guess just to explain to
+- **00:48:55.080** — people what this is so they don't have
+- **00:48:56.200** — to go listen to other podcasts, I'll try
+- **00:48:58.040** — to briefly explain it. The idea here a
+- **00:49:00.240** — part of the Netflix culture is that
+- **00:49:02.960** — when you have people reporting to you,
+- **00:49:05.960** — you should always be thinking, if I were
+- **00:49:07.440** — to would I hire this person today?
+- **00:49:10.120** — Knowing what I know about them, and if
+- **00:49:11.360** — not, then I should probably let them go.
+- **00:49:13.720** — And the idea there is to keep the high
+- **00:49:15.240** — bar, to not ever just like settle, okay,
+- **00:49:17.120** — this person they're here, I guess we'll
+- **00:49:18.560** — keep them around. Is that is that
+- **00:49:19.720** — roughly the way to understand it?
+- **00:49:20.880** — >> Yeah, and the way it it can it's sort of
+- **00:49:23.680** — a corollary to that if that person came
+- **00:49:26.120** — to me today to say they were leaving,
+- **00:49:27.760** — would I fight to keep them or not? Or
+- **00:49:29.360** — would I say, if if my sense is relief
+- **00:49:32.800** — of, oh yeah, it probably would be better
+- **00:49:34.480** — to have someone else in this role, I
+- **00:49:36.560** — should have taken action in having that
+- **00:49:38.120** — conversation sooner.
+- **00:49:39.840** — >> I love
+- **00:49:40.880** — as you said, it's such an so many
+- **00:49:42.480** — uncomfortable things you have to do to
+- **00:49:43.880** — maintain
+- **00:49:45.600** — >> Yeah, it's the Well, the keeper test is
+- **00:49:48.520** — one, maintaining talent entity, context
+- **00:49:50.960** — not control among leaders. We talk about
+- **00:49:54.080** — being highly aligned but loosely
+- **00:49:55.680** — coupled, which is where light process,
+- **00:49:58.560** — you know, the minimum to make sure we're
+- **00:49:59.920** — clear on the priorities and we can
+- **00:50:01.320** — execute them as what we're solving for.
+- **00:50:03.960** — All of these things are not things that
+- **00:50:05.520** — human beings or organizations at scale
+- **00:50:09.200** — tend to do. So, it's constant diligence
+- **00:50:11.800** — to try to maintain the thing that's made
+- **00:50:13.520** — Netflix a special place. Cuz in the end,
+- **00:50:15.560** — it's the work and the culture that
+- **00:50:17.320** — attracts people and retains people, and
+- **00:50:19.560** — we need that to be a successful
+- **00:50:21.360** — business.
+- **00:50:22.280** — >> So, that's exactly where I was going to
+- **00:50:23.400** — go. Uh so, to make this work, you need
+- **00:50:26.480** — to attract the best people. It's always
+- **00:50:28.480** — been very hard to attract the best
+- **00:50:30.080** — people. Feels insanely hard these days
+- **00:50:32.800** — with the amount of dollars flying
+- **00:50:34.120** — around, the fancy AI labs, so much
+- **00:50:36.520** — competition. There's like everyone's
+- **00:50:38.200** — just, you know, it's it's crazy. What
+- **00:50:40.840** — have you found to be uh effective in
+- **00:50:42.920** — convincing the top people to still come
+- **00:50:44.840** — to Netflix and and join versus all the
+- **00:50:47.080** — other fancy places they can go?
+- **00:50:49.520** — >> Yeah, we've always had a lot of
+- **00:50:50.920** — competition for talent. It might feel
+- **00:50:53.120** — more pronounced right now, but we we
+- **00:50:55.560** — have great talent on the team. Maybe
+- **00:50:57.400** — that goes without saying, but I feel
+- **00:50:58.560** — like I should say it out loud cuz I
+- **00:50:59.760** — believe it. We have incredible talent at
+- **00:51:02.080** — Netflix, recent hires, long-tenured
+- **00:51:05.200** — people.
+- **00:51:06.560** — I'm always impressed by the work that
+- **00:51:08.880** — the team is doing. So, I don't feel like
+- **00:51:12.720** — we've suffered or like other companies
+- **00:51:14.440** — are vacuuming up all the good people
+- **00:51:16.280** — because so many of them I do think sit
+- **00:51:18.160** — at Netflix.
+- **00:51:20.080** — It does feel like we have to be more
+- **00:51:24.920** — explicit about the types of people
+- **00:51:28.560** — and talent that tend to thrive at
+- **00:51:30.840** — Netflix versus other companies like some
+- **00:51:33.200** — of the frontier labs.
+- **00:51:35.480** — So, people at Netflix have to be
+- **00:51:37.760** — passionate about the application of
+- **00:51:40.080** — technology. And the application or
+- **00:51:42.360** — building products to solve a certain set
+- **00:51:44.360** — of problems. You have to love
+- **00:51:45.560** — entertainment. You have to love consumer
+- **00:51:47.440** — products at scale. You have to love the
+- **00:51:49.000** — global nature of that.
+- **00:51:51.240** — There are a lot of incredibly talented
+- **00:51:53.440** — people
+- **00:51:54.560** — who love that sweet spot. I am one of
+- **00:51:56.280** — them between
+- **00:51:58.080** — tech and product and entertainment and
+- **00:52:00.760** — how do you make those things come
+- **00:52:02.080** — together in a way that's remarkable?
+- **00:52:04.680** — And you use AI to do it. You use other
+- **00:52:06.920** — technologies and products to do it. But
+- **00:52:09.480** — that has to be something that drives you
+- **00:52:11.680** — to be really excited about a lot of the
+- **00:52:13.640** — roles at Netflix.
+- **00:52:15.280** — If instead you're by some of the
+- **00:52:17.120** — foundational work that the frontier
+- **00:52:18.520** — model companies are doing, which is
+- **00:52:20.000** — exciting in its own way, it's a
+- **00:52:22.320** — different persona. It's a different like
+- **00:52:24.200** — here's the problem space that I want to
+- **00:52:25.880** — work in.
+- **00:52:27.080** — But I don't think there's a shortage of
+- **00:52:28.720** — people who get really excited about the
+- **00:52:31.560** — applications of the technology and see
+- **00:52:34.640** — the connection to that to things that
+- **00:52:37.080** — they love and use every day like
+- **00:52:38.560** — Netflix. And so that, you know, that
+- **00:52:40.760** — gets me up in the morning and I think it
+- **00:52:42.680** — gets a lot of the team members up and we
+- **00:52:44.320** — have this conversation about like that's
+- **00:52:46.240** — something special that only talent at
+- **00:52:48.080** — Netflix can do or fill in the blank for
+- **00:52:50.000** — another industry that's deep in the
+- **00:52:51.520** — application of it. I think that's
+- **00:52:53.400** — inspiring.
+- **00:52:54.600** — >> I want to kind of touch on a couple
+- **00:52:56.040** — things that I've been thinking about in
+- **00:52:57.400** — this world of AI that we're uh
+- **00:53:00.480** — approaching. One is uh junior people.
+- **00:53:03.840** — It feels like everyone's like there's a
+- **00:53:05.880** — good example. You're hiring a lot of
+- **00:53:07.240** — awesome senior people that have proven
+- **00:53:08.920** — they're awesome and you know, high
+- **00:53:10.120** — talent density, high bars. Uh
+- **00:53:13.600** — also just AI makes it so easy to do
+- **00:53:15.720** — stuff that people may not be learning
+- **00:53:17.960** — how to do anything. They're like junior
+- **00:53:19.840** — engineers I'm thinking or junior PMs,
+- **00:53:21.400** — junior designers.
+- **00:53:22.600** — Like there's just like how do new people
+- **00:53:25.400** — become these awesome senior people? Is
+- **00:53:28.640** — there anything you've
+- **00:53:30.160** — you think about? Are you hiring junior
+- **00:53:31.560** — people? How do you think about this if
+- **00:53:33.320** — this what happens with junior people not
+- **00:53:35.840** — necessarily learning or having a path to
+- **00:53:37.480** — learn to become the senior person?
+- **00:53:39.400** — >> We are still hiring junior people and
+- **00:53:41.080** — they're really important to our talent
+- **00:53:42.880** — strategy.
+- **00:53:44.040** — So, we still have an intern program, we
+- **00:53:45.920** — still have a new grad program, which is
+- **00:53:47.920** — a was new for us as of a few years ago.
+- **00:53:50.240** — So, prior to a few years ago, we were
+- **00:53:52.160** — only hiring more experienced talent
+- **00:53:54.440** — across all the functions. Now, we do
+- **00:53:56.720** — hire people straight from undergrad and
+- **00:53:59.000** — graduate programs and we'll continue to
+- **00:54:01.720** — do that. So, even in a world of AI where
+- **00:54:04.120** — some things are easier, we were talking
+- **00:54:06.560** — earlier about
+- **00:54:08.680** — mindset, AI fluency.
+- **00:54:12.080** — From my experience,
+- **00:54:14.400** — younger folks are more open-minded.
+- **00:54:17.480** — They tend to be more native in some of
+- **00:54:21.520** — these new ways of working. For a company
+- **00:54:23.560** — that like Netflix, they're also very
+- **00:54:25.200** — fluent in how entertainment is changing,
+- **00:54:27.800** — how consumer behaviors are changing, how
+- **00:54:30.480** — product and tech is influencing that in
+- **00:54:33.120** — the products that they're using. That's
+- **00:54:35.440** — really important to have on our team.
+- **00:54:38.120** — So, there there's the part of the
+- **00:54:39.880** — persona, which is who are you as a new
+- **00:54:41.840** — grad who's an engineer, but there's also
+- **00:54:43.800** — who are you as someone who's in their
+- **00:54:45.160** — early 20s and has a perspective on the
+- **00:54:47.400** — world that is highly valuable and a
+- **00:54:49.840** — comfort with the way the world is
+- **00:54:51.240** — changing. So, that's why I say it's a
+- **00:54:53.080** — critical part of our talent strategy.
+- **00:54:55.840** — To the Okay, so you step into the role
+- **00:54:57.720** — and you have AI tools that didn't exist
+- **00:54:59.800** — 5 or 10 years ago, I would say mastery
+- **00:55:03.080** — of the craft is still very important.
+- **00:55:05.880** — So, going back to as the team member,
+- **00:55:08.080** — I'm responsible for the quality of code
+- **00:55:10.520** — that I am submitting for production, I'm
+- **00:55:12.840** — responsible for the quality of products
+- **00:55:14.720** — that I'm building, how they are
+- **00:55:16.040** — designed, what that user consumer
+- **00:55:18.080** — experience is. None of that is going
+- **00:55:20.400** — away. So, if I think about more junior
+- **00:55:22.760** — or earlier career talent on the teams,
+- **00:55:25.160** — we need to be investing just as much in
+- **00:55:27.160** — the mentorship of this is what good
+- **00:55:28.760** — looks like, this is how you use these
+- **00:55:30.640** — tools, but you still take accountability
+- **00:55:32.520** — for what the outcomes are, what the
+- **00:55:34.000** — quality of the output it
+- **00:55:36.000** — And I think I mentioned this earlier, I
+- **00:55:37.240** — find that mastery and that craft
+- **00:55:39.040** — excellence scarce still. So, we want to
+- **00:55:41.000** — make sure we're teaching that. I I think
+- **00:55:43.680** — it's a valid concern of like, how do I
+- **00:55:45.240** — get that if I'm not as hands-on as I
+- **00:55:47.240** — would have had to be, but you still
+- **00:55:49.240** — carry responsibility for reviewing code,
+- **00:55:52.400** — testing code, being able to diagnose
+- **00:55:54.560** — problems, knowing what a good product
+- **00:55:57.000** — looks like. Like, I think that's a very
+- **00:55:58.720** — scarce skill to say, "This is excellence
+- **00:56:01.560** — in in a product that solves a problem
+- **00:56:03.600** — that matters and in how it's designed."
+- **00:56:06.200** — So, I don't think that craft mastery,
+- **00:56:08.320** — the importance of it, is going away.
+- **00:56:10.160** — Probably the way we train and grow
+- **00:56:13.120** — talent has to change cuz they're going
+- **00:56:14.880** — to use different tools, and I can
+- **00:56:17.000** — guarantee you that earlier career talent
+- **00:56:20.000** — is going to be teaching older folks like
+- **00:56:22.440** — me many new things, too. So, I think it
+- **00:56:24.800** — goes in both directions.
+- **00:56:26.520** — >> Where do you think engineering goes in
+- **00:56:28.600** — the I don't know, 5, 10 years? Do you
+- **00:56:30.600** — think
+- **00:56:31.920** — people need to still understand code? Or
+- **00:56:35.200** — do you think there's this abstraction
+- **00:56:36.600** — layer that sits on top where you don't
+- **00:56:38.960** — even have to learn C++, Java, Python,
+- **00:56:41.280** — whatever?
+- **00:56:42.160** — >> I think there's a difference between
+- **00:56:44.480** — being able to write lines of code in a
+- **00:56:46.840** — particular language like Python or C++
+- **00:56:50.440** — and understanding how code, computer
+- **00:56:54.040** — systems, products work.
+- **00:56:57.680** — And I don't think the latter is going
+- **00:56:59.520** — away.
+- **00:57:00.600** — Because if we trusted agents to know all
+- **00:57:04.040** — the languages and write all the code,
+- **00:57:05.800** — we're not going to know
+- **00:57:07.880** — why is something Is it a good product?
+- **00:57:10.120** — Is it a bad product? Is it working as we
+- **00:57:11.760** — expected when it doesn't? Like I
+- **00:57:13.440** — mentioned earlier, we take a lot of
+- **00:57:14.800** — risk. We fail fast, we recover fast.
+- **00:57:17.800** — That requires an understanding of how
+- **00:57:20.000** — are these systems working. I might use
+- **00:57:21.720** — an agent to help me understand those
+- **00:57:23.560** — things, help me detect an anomaly or
+- **00:57:26.360** — something that's broken faster and
+- **00:57:27.960** — triage it,
+- **00:57:29.480** — but I still need to have a fluency of
+- **00:57:31.360** — like, what is this thing that we're
+- **00:57:32.480** — building and how does it work? So I know
+- **00:57:34.720** — if it's good and I know how to fix it.
+- **00:57:37.640** — I don't know I I hope that doesn't go
+- **00:57:39.160** — away cuz it you know, that that's like a
+- **00:57:41.440** — how do we make the world a better place
+- **00:57:42.720** — through the stuff that we're building? I
+- **00:57:44.000** — think requires some understanding of
+- **00:57:45.720** — what we've built.
+- **00:57:46.680** — >> What I'm hearing which it makes sense is
+- **00:57:48.160** — you may not have to write the code but
+- **00:57:49.360** — you have to understand it and what's
+- **00:57:50.600** — happening. But it's so much harder to
+- **00:57:53.000** — just as a person not writing it to
+- **00:57:55.440** — actually you know, have that instilled
+- **00:57:58.160** — in you.
+- **00:57:59.000** — >> I think that's one of the the things
+- **00:58:00.920** — that the learning curve is very steep on
+- **00:58:02.560** — right now. So looking at some of the
+- **00:58:04.560** — code that some of these models or agents
+- **00:58:07.040** — are writing
+- **00:58:08.520** — they're very hard to follow.
+- **00:58:10.560** — It's like I know I'm getting better
+- **00:58:11.680** — performance from this but I have no idea
+- **00:58:13.480** — why and if this thing breaks I'm going
+- **00:58:15.000** — to have no idea how to fix it.
+- **00:58:17.680** — That that's makes me uncomfortable. You
+- **00:58:19.760** — know, maybe that's because I'm still on
+- **00:58:21.200** — that learning curve of like how do we
+- **00:58:22.760** — operate in that world? Like what's the
+- **00:58:24.280** — set of tests or rationalization and
+- **00:58:27.280** — understanding that we need to have to
+- **00:58:28.760** — get comfortable with it? But at first
+- **00:58:30.760** — glance it looks very unfamiliar and very
+- **00:58:33.440** — unsettling. So I think engineering over
+- **00:58:36.000** — time will evolve to be comfortable with
+- **00:58:38.600** — that and have fluency in it and know how
+- **00:58:40.800** — to guide new tech and agents and new
+- **00:58:43.800** — capabilities to make sure that we feel
+- **00:58:46.040** — really good about what the output is.
+- **00:58:48.480** — >> I wonder what the metaphor is for this
+- **00:58:49.840** — where this like it's I continue to be
+- **00:58:51.920** — astounded by how much engineering has
+- **00:58:53.760** — transformed in like 2 years. It's like a
+- **00:58:56.840** — completely different drop down. You're
+- **00:58:58.600** — just used to sit there and then I would
+- **00:59:00.280** — write code and now you're just
+- **00:59:02.240** — talking to agents and reviewing code and
+- **00:59:03.960** — shipping a bunch PRs a day.
+- **00:59:05.840** — >> It feels like it's a it's an
+- **00:59:07.520** — acceleration of how much engineering has
+- **00:59:10.120** — changed. But if you looked over the last
+- **00:59:13.280** — 10 years or 20 years you would say the
+- **00:59:15.200** — same thing.
+- **00:59:16.280** — >> Mhm.
+- **00:59:17.280** — >> So it there's just something that's
+- **00:59:19.200** — moving faster and it's hard to wrap our
+- **00:59:22.200** — heads around how quickly it's moved in
+- **00:59:24.280** — the past couple of years but it's not
+- **00:59:27.640** — it's not totally unfamiliar that
+- **00:59:29.800** — engineering or data science or product
+- **00:59:32.760** — would have these big shifts, just like
+- **00:59:35.080** — how filmmaking works. If you will go
+- **00:59:37.440** — over the last 100 years, it's
+- **00:59:39.400** — unbelievably different because of
+- **00:59:41.200** — technology and new tools that we brought
+- **00:59:43.240** — to it.
+- **00:59:44.320** — Just feels like the cycle is speeding
+- **00:59:45.960** — up.
+- **00:59:46.680** — >> Okay, I want to talk about entertainment
+- **00:59:48.200** — for for a brief moment. Just
+- **00:59:50.400** — I'm curious just like how entertainment
+- **00:59:52.840** — will change over time and say like 5, I
+- **00:59:55.320** — don't know, 5, 10 just you know, today
+- **00:59:57.320** — we open up Netflix, check out some
+- **00:59:59.000** — shows, watch some videos. It hasn't
+- **01:00:00.880** — changed in a while, just that idea of
+- **01:00:02.720** — like cool, I'm going to watch the pit
+- **01:00:04.120** — and watch it all. I'm going to watch a
+- **01:00:05.280** — movie. Uh I got TikTok, I got Instagram
+- **01:00:07.760** — feeds of stuff. Like how much different
+- **01:00:10.160** — do you think this will be in I don't
+- **01:00:11.440** — know, 5 years?
+- **01:00:12.840** — The way we entertain ourselves.
+- **01:00:13.560** — >> it's already changing at Netflix
+- **01:00:16.200** — because entertainment is not going to be
+- **01:00:18.200** — one thing in the future and it's already
+- **01:00:20.480** — not one thing now. So, part of the
+- **01:00:22.640** — reason that we are going beyond film and
+- **01:00:25.040** — TV in our offering
+- **01:00:27.040** — is because there's there's an
+- **01:00:28.400** — expectation that consumers have of much
+- **01:00:31.480** — greater variety across formats, devices,
+- **01:00:34.840** — moments of the day that Netflix needs to
+- **01:00:37.360** — be able to serve well in order to meet
+- **01:00:40.480** — consumer expectations and hopefully
+- **01:00:42.240** — exceed them over time. So, when we think
+- **01:00:44.640** — about the addition of mobile and TV or
+- **01:00:47.760** — cloud games
+- **01:00:49.440** — live content podcasts, working with a
+- **01:00:52.600** — broader set of creators who are now on
+- **01:00:54.720** — the Netflix service
+- **01:00:56.440** — all of those things create a greater
+- **01:00:59.120** — breadth of what entertainment is and
+- **01:01:01.040** — Netflix is able to define and expand
+- **01:01:03.200** — that.
+- **01:01:04.440** — And it puts a higher bar expectation on
+- **01:01:07.680** — how do we make sense of that for a
+- **01:01:09.480** — Netflix member?
+- **01:01:10.960** — So, how do we show you this very
+- **01:01:13.120** — seamless journey from I listen to the
+- **01:01:15.640** — Bill Simmons podcast to I watch
+- **01:01:18.160** — Quarterback because I love that as one
+- **01:01:20.520** — of the Netflix offerings in the more,
+- **01:01:23.120** — you could say, traditional film or TV
+- **01:01:24.720** — space
+- **01:01:25.800** — to I play the most recent FIFA cloud
+- **01:01:29.280** — game.
+- **01:01:30.440** — And I want to be able to do that in both
+- **01:01:32.160** — TV and on my mobile phone because now
+- **01:01:34.680** — I'm on the move and I want to be able to
+- **01:01:36.200** — discover and engage with the content at
+- **01:01:38.080** — different moments of the day.
+- **01:01:40.000** — That's already a journey that we're
+- **01:01:41.640** — building into Netflix, which I think
+- **01:01:43.120** — will become stronger and stronger over
+- **01:01:45.040** — time.
+- **01:01:45.920** — So, the future of entertainment isn't
+- **01:01:47.440** — going to be one thing and it's going to
+- **01:01:48.960** — have to be more personalized, more
+- **01:01:50.840** — immersive, more interactive with this
+- **01:01:53.200** — sense of this is a world that I can
+- **01:01:55.560** — explore in lots of different directions
+- **01:01:57.560** — depending on what I'm looking for in the
+- **01:01:59.120** — moment. And that the challenge Netflix
+- **01:02:01.480** — has is we've got to make discovery and
+- **01:02:04.160** — engagement much easier than it feels
+- **01:02:06.400** — today. We have tons of content and it
+- **01:02:07.920** — can feel very fragmented, especially
+- **01:02:09.960** — when you consider all the services or
+- **01:02:11.440** — offerings out there.
+- **01:02:13.120** — And I I think Netflix is very well
+- **01:02:14.800** — positioned to understand how to solve
+- **01:02:16.800** — that problem across entertainment,
+- **01:02:18.560** — product, and tech.
+- **01:02:19.800** — >> The other element of this is AI,
+- **01:02:21.840** — obviously. As an outside observer, it's
+- **01:02:24.240** — like so interesting to see how in tech,
+- **01:02:26.600** — it's like AI, I love it. It's the
+- **01:02:27.840** — future. It's the best. In Hollywood,
+- **01:02:29.600** — it's like, "No. Shut it down." There's
+- **01:02:33.080** — >> There's a mix. There's a very wide
+- **01:02:35.280** — array. So, we Netflix's role in this is
+- **01:02:38.960** — to enable creators with whatever tools
+- **01:02:41.480** — they want to use to bring their vision
+- **01:02:43.080** — to life.
+- **01:02:44.200** — There are going to be some creators or
+- **01:02:46.000** — filmmakers who are on the end of the
+- **01:02:47.760** — spectrum that says, "Absolutely not. No
+- **01:02:50.080** — AI. That is not how I do production.
+- **01:02:52.920** — It's not It's not consistent with my
+- **01:02:54.800** — vision."
+- **01:02:55.920** — That's fine. We work with those
+- **01:02:57.000** — creators.
+- **01:02:58.160** — There's other creators
+- **01:03:00.240** — a growing number of them, I would say,
+- **01:03:01.760** — who are very interested in exploring,
+- **01:03:04.240** — "Wait, can these gen AI tools make
+- **01:03:05.800** — something possible that wasn't possible
+- **01:03:07.800** — before?
+- **01:03:08.880** — Can I tell a story in a new way? Can I
+- **01:03:11.200** — make that story higher quality and more
+- **01:03:13.320** — resonant for audiences? Can I do things
+- **01:03:16.280** — that are extra creative and how I think
+- **01:03:18.360** — about bringing a story to life?
+- **01:03:20.680** — And we support them as well, and we
+- **01:03:21.960** — support all the folks who are in the
+- **01:03:23.200** — in-between. And then that's a really
+- **01:03:25.080** — important position for us to be in
+- **01:03:27.120** — again, because entertainment is not
+- **01:03:28.680** — going to be one thing. There's not going
+- **01:03:30.160** — to be one format. I think there's going
+- **01:03:32.400** — to be types of film and TV that feel
+- **01:03:34.080** — traditional, and then there's going to
+- **01:03:35.400** — be entirely new formats that
+- **01:03:38.120** — unbelievable creators help to bring to
+- **01:03:39.920** — life, and Netflix wants to participate
+- **01:03:41.920** — in that. Which means we need to have a
+- **01:03:43.880** — flexibility in the tools that we provide
+- **01:03:46.160** — and the types of partnerships we have,
+- **01:03:48.440** — and to really have a creator enablement
+- **01:03:50.680** — view rather than a prescriptive that we
+- **01:03:53.040** — only do this one way.
+- **01:03:54.680** — >> I think people are going to be surprised
+- **01:03:55.960** — by just how good AI content is. Like
+- **01:03:58.960** — Spencer Pratt's videos are just like
+- **01:04:00.560** — everyone's like, "Wow, this is
+- **01:04:01.480** — entertaining." Obviously AI, but it's so
+- **01:04:03.320** — interesting. Do you think Do you think
+- **01:04:05.400** — we'll get to a place where it's just
+- **01:04:06.360** — like whole TV shows are AI and people
+- **01:04:08.440** — love it?
+- **01:04:09.200** — >> I have a hard time picturing
+- **01:04:10.880** — entertainment that doesn't have humans
+- **01:04:12.960** — at the heart of it. So that that's
+- **01:04:15.000** — humans in the creation of the
+- **01:04:16.320** — storytelling, which I think is
+- **01:04:19.880** — a scarce and valuable skill. Yeah,
+- **01:04:22.560** — storytelling is
+- **01:04:24.440** — one and the same with humanity.
+- **01:04:26.520** — And like knowing what connects with
+- **01:04:28.520** — people.
+- **01:04:29.800** — So I think humans will be part of the
+- **01:04:32.320** — always be a core part or a critical part
+- **01:04:34.400** — of the story.
+- **01:04:36.080** — And I think
+- **01:04:37.280** — watching
+- **01:04:38.960** — watching characters on screen who don't
+- **01:04:41.760** — have that humanity
+- **01:04:44.440** — feels less compelling to me.
+- **01:04:46.760** — And what the power of storytelling
+- **01:04:48.200** — really is, to like see another human and
+- **01:04:51.480** — to watch how they perform a role or like
+- **01:04:54.440** — bring an emotion to life. That's such a
+- **01:04:56.720** — human element. Will AI help to bring
+- **01:04:58.800** — that to life?
+- **01:05:00.080** — Will play a material part in some of
+- **01:05:02.000** — those productions or how we get them to
+- **01:05:04.680** — look and feel a certain way?
+- **01:05:06.960** — Yeah, definitely.
+- **01:05:08.520** — But I don't see the version of it that
+- **01:05:10.120** — doesn't have the human as the backbone.
+- **01:05:12.960** — >> There's a quote that I think is
+- **01:05:14.680** — misattributed to Salman Rushdie, which
+- **01:05:17.760** — is when a child is born, they first ask
+- **01:05:20.840** — for food and water and projection, and
+- **01:05:24.440** — then they ask for tell me a story.
+- **01:05:27.000** — >> It's a thing going back
+- **01:05:30.440** — since the beginning of time
+- **01:05:32.720** — that storytelling has been a key part of
+- **01:05:35.440** — community and social networks and human
+- **01:05:38.920** — feeling and connection.
+- **01:05:40.840** — So, I love the idea that technology can
+- **01:05:43.120** — amplify that and can bring that to life
+- **01:05:45.640** — in very new, novel, exciting ways.
+- **01:05:49.440** — But, if
+- **01:05:50.280** — to say storytelling wouldn't have that
+- **01:05:52.200** — humanity at the center feels
+- **01:05:55.320** — like something would be missing.
+- **01:05:56.800** — >> Mhm. We're going to see some wild
+- **01:05:58.400** — over the years coming out of this.
+- **01:05:59.560** — >> Oh, I'm sure. There's no question about
+- **01:06:00.880** — that. And a lot of it could be very
+- **01:06:02.880** — entertaining.
+- **01:06:04.320** — You know,
+- **01:06:05.160** — I I don't debate that, either. But, I
+- **01:06:07.560** — think there's going to be a broad range,
+- **01:06:09.440** — and I think Netflix needs to be at the
+- **01:06:11.160** — center of shaping that and bringing that
+- **01:06:13.640** — to life, which is our plan.
+- **01:06:15.640** — >> Amazing.
+- **01:06:16.840** — Well, we covered a lot of ground,
+- **01:06:18.040** — Elizabeth. Uh before we get to our very
+- **01:06:20.200** — exciting lightning round, is there
+- **01:06:21.440** — anything else that you wanted to share,
+- **01:06:23.840** — leave listeners with, maybe double down
+- **01:06:25.480** — on from things we've talked about?
+- **01:06:27.120** — >> It probably came across throughout, but
+- **01:06:28.840** — I I would underscore that this is a
+- **01:06:30.560** — really exciting time to be building
+- **01:06:32.360** — products in entertainment.
+- **01:06:34.520** — Everything we talked about of like
+- **01:06:35.920** — what's changing in the tech and
+- **01:06:37.520** — consumers and like what is entertainment
+- **01:06:40.520** — we're at this unbelievable high-velocity
+- **01:06:44.000** — innovation period. So, it's what keeps
+- **01:06:45.840** — me at Netflix. I think it's a fun place
+- **01:06:47.640** — to be. I would be missing something if I
+- **01:06:50.480** — didn't reinforce that I think that's
+- **01:06:52.360** — true.
+- **01:06:53.320** — Um I also think that as an industry we
+- **01:06:55.240** — spend a lot of time sometimes talking
+- **01:06:57.200** — about the the pure tech or the the
+- **01:07:00.480** — capability
+- **01:07:02.120** — and we sort of lose the forest for the
+- **01:07:03.600** — trees. We're trying to build great
+- **01:07:04.960** — consumer products that people love.
+- **01:07:06.880** — We're trying to make great entertainment
+- **01:07:08.800** — that people love. And it's their
+- **01:07:10.600** — favorite thing that I don't want that to
+- **01:07:13.720** — be lost in Of course, there's amazing
+- **01:07:15.800** — tech and product stuff that sits
+- **01:07:17.120** — underneath, but in the end, the thing
+- **01:07:18.960** — that's most inspirational is what do we
+- **01:07:21.520** — bring to people around the world?
+- **01:07:23.760** — >> And on those lines, there's been such a
+- **01:07:25.840** — uh
+- **01:07:26.600** — the opposite of glut, a drought of
+- **01:07:28.720** — consumer new consumer products, consumer
+- **01:07:30.600** — experiences. Like there's very few
+- **01:07:32.720** — success, like almost no consumer startup
+- **01:07:34.760** — works. Uh and AI feels like an
+- **01:07:37.480** — opportunity for something else to work
+- **01:07:39.000** — and I feel like Netflix is one of the
+- **01:07:40.280** — rare companies and brands that continues
+- **01:07:42.440** — to deliver an awesome consumer product
+- **01:07:44.560** — and business. There's just not that many
+- **01:07:45.800** — of them.
+- **01:07:46.760** — >> Yeah. We're going to keep that up.
+- **01:07:49.640** — >> Well, with that, we reached our very
+- **01:07:51.520** — exciting lightning round. We've got five
+- **01:07:52.920** — questions for you. Are you ready?
+- **01:07:54.120** — >> Okay, I'm ready.
+- **01:07:55.320** — >> All right. What are two or three books
+- **01:07:57.880** — that you find yourself recommending most
+- **01:07:59.600** — to other people?
+- **01:08:01.800** — >> I mean, I have to come up with different
+- **01:08:03.080** — books than I said last time.
+- **01:08:04.560** — >> I don't know. But I I think that sounds
+- **01:08:06.160** — great.
+- **01:08:06.440** — >> I still like a good throwback. So, two
+- **01:08:09.920** — that are coming to my mind
+- **01:08:12.040** — Into Thin Air,
+- **01:08:13.640** — Jon Krakauer,
+- **01:08:15.480** — and Liar's Poker, Michael Lewis. So, I I
+- **01:08:18.319** — worked on Wall Street and I like
+- **01:08:20.799** — reminding people what it was like in the
+- **01:08:22.440** — way back time.
+- **01:08:23.680** — >> Favorite recent movie or TV show you
+- **01:08:25.160** — really enjoyed, which is maybe too hard
+- **01:08:27.279** — for someone working at Netflix, but I'm
+- **01:08:28.680** — going to see what comes out.
+- **01:08:29.600** — >> The The list is very long. Um the most
+- **01:08:31.799** — recent I watched, Remarkably Bright
+- **01:08:34.160** — Creatures, after a recommendation from
+- **01:08:36.319** — my mom. It's a tearjerker. Talk about
+- **01:08:38.720** — the human part of storytelling.
+- **01:08:41.600** — >> Favorite product you've recently
+- **01:08:43.160** — discovered that you really love?
+- **01:08:44.759** — >> Critical for my health and well-being,
+- **01:08:46.600** — Eight Sleep.
+- **01:08:48.520** — >> Do you have a favorite life motto that
+- **01:08:51.080** — you often come back to in work or in
+- **01:08:52.720** — life?
+- **01:08:53.720** — >> I often go back to the things that my
+- **01:08:55.880** — parents instilled in me in very early
+- **01:08:58.279** — times. So,
+- **01:09:00.359** — the the risk of repeating, maybe.
+- **01:09:03.560** — First, something good happens every day.
+- **01:09:06.799** — Watch for it.
+- **01:09:08.240** — Even in the most stressful times.
+- **01:09:10.759** — And second, that the last 5% of effort
+- **01:09:14.839** — usually makes all the difference.
+- **01:09:17.200** — >> These are awesome. I They hit They hit
+- **01:09:19.480** — me.
+- **01:09:20.720** — Final question. I don't know what
+- **01:09:23.319** — anything about this, but you mentioned
+- **01:09:24.720** — you're doing some kind of cycling event.
+- **01:09:26.680** — >> Oh, yeah.
+- **01:09:27.279** — >> Tell us Tell us what's going on. What
+- **01:09:28.920** — are you doing here?
+- **01:09:30.560** — >> So, my husband and I are doing a trip
+- **01:09:32.920** — where we ride alongside the Tour de
+- **01:09:35.400** — France for the last week of the race.
+- **01:09:39.359** — So, the tour is 3 weeks. The last week
+- **01:09:41.359** — has a lot of mountain stages. So, we get
+- **01:09:43.680** — to ride part of the route each morning
+- **01:09:46.279** — and then watch the race in the
+- **01:09:48.080** — afternoon.
+- **01:09:49.600** — Not for the faint of heart. So, I'm
+- **01:09:51.600** — trying to train up so I can enjoy those
+- **01:09:53.720** — rides. It's supposed to be vacation
+- **01:09:55.120** — after all.
+- **01:09:56.633** — >> [laughter]
+- **01:09:57.280** — >> My god. I love this vacation. We're just
+- **01:09:59.320** — going to a race.
+- **01:10:00.600** — >> I love cycling. I love professional
+- **01:10:02.880** — sports. It's fun to be able to
+- **01:10:04.520** — participate in it.
+- **01:10:06.040** — >> So, is this like racing or you just kind
+- **01:10:07.800** — of try to go as
+- **01:10:09.320** — nonchalantly through the course?
+- **01:10:11.040** — >> You go nonchalantly. But, still there
+- **01:10:12.960** — are I think I mentioned Yeah, it is It's
+- **01:10:15.280** — physically and mentally challenging. And
+- **01:10:18.800** — I you know, it's not a race, but I don't
+- **01:10:20.640** — want to be at the back of the pack. So,
+- **01:10:22.480** — I got to be comfortable enough to hold
+- **01:10:24.360** — my own.
+- **01:10:25.480** — >> Wow. I love how different this is from
+- **01:10:27.320** — your job. And it feels like something
+- **01:10:29.320** — else to do.
+- **01:10:29.960** — >> It's a good balance and it gets me
+- **01:10:32.040** — outdoors and gives me some nice
+- **01:10:34.080** — perspective. So, I'm looking forward to
+- **01:10:35.560** — it.
+- **01:10:36.240** — >> Elizabeth, you are awesome. Two final
+- **01:10:37.960** — questions. Where can folks find you
+- **01:10:39.200** — online if they want to follow you, reach
+- **01:10:41.440** — out for maybe anything that came up? And
+- **01:10:43.720** — how can listeners be useful to you?
+- **01:10:45.440** — >> The best place to find me and some of
+- **01:10:47.560** — the work we're doing or reach out is the
+- **01:10:49.320** — Netflix tech blog, actually, where we're
+- **01:10:51.200** — putting a lot of things that I've been
+- **01:10:52.600** — talking about up there. We're trying to
+- **01:10:54.160** — do a better job communicating about the
+- **01:10:55.920** — fun stuff we're working on. So, that's a
+- **01:10:58.000** — good first stop, usually. Um and then
+- **01:11:02.320** — how listeners can be useful,
+- **01:11:04.680** — try all the new stuff that we're putting
+- **01:11:06.800** — out there.
+- **01:11:07.960** — Um watch the live events, play the
+- **01:11:10.040** — games, have fun with the new vertical
+- **01:11:12.640** — video feed that we have on mobile called
+- **01:11:14.800** — Clips, send us feedback. So, we want to
+- **01:11:17.640** — make it better, and a lot of these
+- **01:11:19.040** — things are new zero-to-one efforts for
+- **01:11:21.160** — us. So, we're trying to get to great and
+- **01:11:24.080** — excellent as quickly as possible.
+- **01:11:25.960** — >> I love that the homework is go watch
+- **01:11:27.440** — Netflix and
+- **01:11:29.320** — >> You can also watch other things, tell us
+- **01:11:30.960** — how we can be better, but I'm I'm
+- **01:11:32.920** — definitely interested in how can we be
+- **01:11:34.920** — better at Netflix.
+- **01:11:36.120** — >> I love it. I'm going to go I'm going to
+- **01:11:37.360** — go do that. Elizabeth, thank you so much
+- **01:11:39.080** — for being here and being here again.
+- **01:11:41.560** — >> Thank you for having me. Always fun.
+- **01:11:44.760** — >> Thank you so much for listening. If you
+- **01:11:46.360** — found this valuable, you can subscribe
+- **01:11:47.960** — to the show on Apple Podcasts, Spotify,
+- **01:11:50.400** — or your favorite podcast app.
+- **01:11:52.640** — Also, please consider giving us a rating
+- **01:11:54.680** — or leaving a review, as that really
+- **01:11:56.440** — helps other listeners find the podcast.
+- **01:11:58.760** — You can find all past episodes or learn
+- **01:12:00.760** — more about the show at
+- **01:12:02.080** — lennyspodcast.com.
+- **01:12:04.200** — See you in the next episode.

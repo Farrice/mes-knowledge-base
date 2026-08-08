@@ -34,6 +34,16 @@ This contract is grounded in the transcript-backed source package:
 | Dependency safety | New packages, repos, and external tools require age/reputation/source inspection when practical, no silent install, and explicit override for unusually new or risky dependencies. |
 | Ship earlier, harden faster | Produce the smallest usable artifact first, then harden with proof. Do not keep polishing if real use or validation would teach more. |
 
+## Outcome Ownership And Explain-Or-Recover (SHADOW)
+
+Use the `Own` decision from
+`systems-thinking-expertise-intelligence-overlay.md` whenever an agent creates
+code, analysis, content, or system changes with meaningful consequences. Name
+one human or operator as the outcome owner. The owner must be able to defend
+the problem choice, review boundary, quality judgment, and recovery path. Tool
+use is not sufficient fluency when nobody can explain, diagnose, or repair the
+result.
+
 ## Default Agentic Engineering Packet
 
 Before mutation-capable work, fill this compact packet or reference an existing Goal Packet that covers it:
@@ -97,4 +107,4 @@ When workflow, router, skill, or system files changed, also run the relevant con
 
 ## Last Updated
 
-2026-05-19
+2026-08-08

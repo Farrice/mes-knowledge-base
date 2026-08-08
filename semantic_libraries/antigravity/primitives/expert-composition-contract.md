@@ -63,6 +63,16 @@ Pick one owner by output type:
 
 If no owner is obvious, route through `/orchestrate` or `/autopilot` first.
 
+### 2.5 Craft Depth And Adjacent Fluency (SHADOW)
+
+Use the `Craft` decision from
+`systems-thinking-expertise-intelligence-overlay.md` when roles blur or agents
+can perform adjacent work. Name the scarce specialist judgment that owns what
+good looks like, certification, and consequential exceptions. Other
+contributors may cross role boundaries inside bounded slots. This prevents
+both role protectionism and shallow generalism; it does not add another expert
+or transfer integration authority away from the function owner.
+
 ### 3. Contribution Slots
 
 Assign experts to slots, not prestige roles.

@@ -35,6 +35,16 @@ Before creating or changing files, decide which shape fits:
 | Expert composition primitive | Multiple experts are useful but risk becoming soup | `expert-composition-contract.md` plus `/expert-composition-governor` |
 | No build | Source is thin, duplicate, or already covered | routing note or state update only |
 
+## Paved-Path Design (SHADOW)
+
+Use the `Pave` decision from
+`systems-thinking-expertise-intelligence-overlay.md` when several teams,
+agents, or workflows repeatedly solve the same foundation. Encode a strong
+default with source truth, quality markers, guardrails, reusable components,
+downstream consumers, and allowed variation. Solve the shared portion once and
+leave a bounded last mile for context. A paved path that tries to control every
+case is a mega-system failure, not a successful standard.
+
 ## Required Contract Fields
 
 Every skill system must define these fields before it is treated as deployed:
@@ -109,4 +119,4 @@ The first pilot is `/source-to-skill-system`, grounded in `extractions/video-con
 
 ## Last Updated
 
-2026-05-09
+2026-08-08
