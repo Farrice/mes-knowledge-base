@@ -1,0 +1,23 @@
+# Append-only files: both sides' new lines are kept, never a conflict.
+#
+# WHY (2026-08-08): the harness writes bookkeeping on every turn. Without this,
+# any worktree lane older than a few hours is GUARANTEED to conflict with main
+# on telemetry alone — the lane then parks, and real work strands behind a
+# conflict nobody disagreed about. 274 files of work sat stranded across 3 lanes
+# because of 14 collisions, most of them two agents appending to the same log.
+#
+# Rule of thumb: `merge=union` belongs ONLY on files that are strictly
+# append-only line records. Never on prose (it duplicates paragraphs) and never
+# on structured single-object files (it produces invalid syntax).
+
+# --- Line-delimited JSON: every line is an independent record -----------------
+*.jsonl merge=union
+
+# --- Logs ---------------------------------------------------------------------
+*.log merge=union
+knowledge/log.md merge=union
+
+# --- Deliberately NOT union (prose / structured docs — real resolution needed) -
+# PROJECTS.md, guides/INDEX.md, directives/*.md, **/source-ledger.md, *.html
+# These carry meaning in their ordering and prose. A collision there is a real
+# disagreement and should surface to a human or an agent, not be auto-stitched.
