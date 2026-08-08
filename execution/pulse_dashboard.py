@@ -342,6 +342,52 @@ def mission_intel():
             f'<a class="roomlink" href="{esc(board.as_uri())}">mission control ↗</a></section>')
 
 
+def lane_state():
+    """Worktree lanes, straight from the hourly reconciler's receipt.
+
+    The board's job here is the one thing the SessionStart line never did:
+    show the NUMBER. 'LANES: 6 active, 2 parked' reads identically at 0 stranded
+    files and at 274 — which is exactly how 178 files sat unseen for 19 hours.
+    Deterministic (reads a receipt written by launchd), never AI memory.
+    """
+    try:
+        r = json.load(open(os.path.join(ROOT, ".agent", "health", "lane-reconciler.json"),
+                           encoding="utf-8"))
+    except (OSError, ValueError):
+        return "", 0
+
+    rows, stranded = [], r.get("stranded_commits", 0)
+    for lane in r.get("results", []):
+        act = lane.get("action", "")
+        cls = {"merged": "ok", "torn-down": "ok", "skipped-live": "muted"}.get(act, "crit")
+        ahead = lane.get("commits_ahead", 0)
+        conf = lane.get("conflicts") or []
+        conf_html = ""
+        if conf:
+            shown = "".join(f"<li>{esc(f)}</li>" for f in conf[:6])
+            more = f"<li>… +{len(conf) - 6} more</li>" if len(conf) > 6 else ""
+            conf_html = f'<ul class="last">{shown}{more}</ul>'
+        cmd = f"python3 execution/worktree_lane.py merge --lane {lane.get('branch')}"
+        rows.append(
+            f'<div class="mcard">'
+            f'<div class="row1"><h3>{esc(lane.get("branch"))}</h3>'
+            f'<span class="pill {cls}">{esc(act)}</span></div>'
+            f'<div class="gline">{ahead} commit(s) ahead of main · '
+            f'{esc(lane.get("detail", ""))}</div>'
+            f'{conf_html}'
+            f'<div class="meta"><span class="acts">'
+            f'<button class="copybtn" type="button" data-copy="{esc(cmd)}">copy merge cmd</button>'
+            f'</span></div></div>')
+
+    if not rows:
+        return "", 0
+    scls = "crit" if stranded else "ok"
+    head = (f'<span class="pill {scls}">{stranded} commit(s) stranded</span>'
+            f'<span class="m">reconciled hourly · last {esc(str(r.get("ts", ""))[:16])}</span>')
+    return (f'<section><h2 class="tog">Worktree lanes ({len(rows)})</h2>'
+            f'<div class="body"><div class="stamp">{head}</div>{"".join(rows)}</div></section>'), stranded
+
+
 def main():
     if "--open" in sys.argv:
         raise SystemExit(cmd_open(alarm="--alarm" in sys.argv))
@@ -373,6 +419,7 @@ def main():
         corpus, corpus_ok = "?", True
 
     threads_html = thread_cards()
+    lane_html, lane_stranded = lane_state()
 
     lock = None
     try:
@@ -563,10 +610,12 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
   <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
   <div class="tile"><div class="n">{len(taste)}</div><div class="l">taste verdicts banked</div></div>
   <div class="tile"><div class="n" style="color:var(--{'ok' if corpus_ok else 'crit'})">{corpus}</div><div class="l">v2 corpus pass</div></div>
+  <div class="tile"><div class="n" style="color:var(--{'crit' if lane_stranded else 'ok'})">{lane_stranded}</div><div class="l">commits stranded in lanes</div></div>
 </div>
 <section><h2 class="tog">{esc(needs_label)}</h2><div class="body">{cards(needs_you, show_actions=True)}</div></section>
 {fresh_intel()}
 {mission_intel()}
+{lane_html}
 <div class="chips">{chips}</div>
 <section><h2 class="tog">Missions — live ({len(active)})</h2><div class="body f">{cards(active, show_actions=True)}</div></section>
 <section class="closed"><h2 class="tog">Recently closed</h2><div class="body f">{cards(recent_done, show_verdict=True, show_reopen=True)}</div></section>

@@ -202,10 +202,31 @@ def main():
                 age_d = 0
             if age_d > 7:
                 stale_parked.append(f"{b} ({age_d:.0f}d)")
+        # ESCALATE ON THE NUMBER (2026-08-08). The old line read identically at
+        # 0 stranded commits and at 274 files — which is precisely how 178 files
+        # sat unseen for 19h. The hourly reconciler writes the real count; carry
+        # it, and make the severity track the count, not the lane count.
+        stranded = None
+        try:
+            import json as _j
+            _r = _j.loads((ROOT / ".agent" / "health" / "lane-reconciler.json").read_text())
+            stranded = int(_r.get("stranded_commits") or 0)
+        except Exception:
+            stranded = None
+
         info = (f"LANES: {len(active_lanes_)} active"
                 + (f" ({', '.join(active_lanes_[:3])})" if active_lanes_ else "")
-                + (f", {len(parked_lanes)} parked — resolve: python3 execution/"
-                   f"worktree_lane.py merge --lane <branch>" if parked_lanes else ""))
+                + (f", {len(parked_lanes)} parked" if parked_lanes else ""))
+        if stranded:
+            info = (f"⚠ {stranded} COMMIT(S) STRANDED in lanes main cannot see — "
+                    + info
+                    + " — see the Worktree lanes card on the pulse board, or "
+                      "`python3 execution/lane_reconciler.py --dry-run`")
+        elif stranded == 0:
+            info += " — 0 stranded (reconciler current)"
+        elif parked_lanes:
+            info += (" — resolve: python3 execution/worktree_lane.py "
+                     "merge --lane <branch>")
         lines.append(info)
         if stale_parked:
             lines.append(f"⚠ PARKED >7d: {', '.join(stale_parked[:3])} — merge or teardown "
