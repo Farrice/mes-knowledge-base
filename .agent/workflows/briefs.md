@@ -67,6 +67,46 @@ Semantic-document activation map (how the 13-section semantic schema lands in br
 
 **Portable backstop → the Drive content vault** (Farrice has 30TB — leverage it): `--gdoc` uploads any brief as a native Google Doc on request (graceful on OAuth expiry). Any standalone markdown ports the same way: `python3 execution/md_to_gdoc.py <file.md> [--folder-id …|--create-folder …|--mirror-folders]` (styled tables, pageless-friendly). Offer the Drive port whenever a deliverable is worth keeping outside the repo — content vaults and asset libraries live there.
 
+## Portable Briefing Room export (folder or ZIP)
+
+Use this when Farrice needs selected briefs as a working library outside the
+repository—not merely one rendered page. The export is self-contained and
+opens from disk or any static host; it does not require Git, Antigravity, or the
+live Room server.
+
+```bash
+# Private working bundle: HTML + md + provenance + portable context + safe sources
+python3 execution/brief_export.py \
+  jordan-crawford-gtm-intelligence-os angle-map-god-agent-gtm-decision \
+  --title "GTM Intelligence Room" --output "/path/to/GTM Intelligence Room" --zip
+
+# Client/prospect review: stripped standalone HTML only
+python3 execution/brief_export.py <slug> --audience share \
+  --output "/path/to/client-review" --zip
+
+# Verify either the folder or ZIP
+python3 execution/verify_brief_export.py "/path/to/GTM Intelligence Room.zip"
+```
+
+Private mode is intentionally marked **PRIVATE INTERNAL**. It rewrites browser
+links and context packs to bundle-relative paths, copies each allowed context
+source once under `context/repo/`, preserves original repo-relative provenance,
+records source and bundle SHA-256 hashes, and discloses every omission. It never
+exports `.git`, credential-shaped files, key material, external absolute files,
+or hidden paths unless `--include-hidden` is explicitly supplied (secrets and
+`.git` remain denied even then). Default limits are 25 MiB per source and 100
+MiB total context; oversized evidence is omitted with a reason rather than
+silently bloating the bundle.
+
+Share mode delegates to `render_brief.py`'s existing `share=True` contract. It
+contains no Markdown mirror, provenance JSON, context pack, or local evidence.
+Mechanical internals are stripped, but authored prose still requires review.
+
+Every bundle contains `index.html`, `README.md`, `manifest.json`, and a portable
+`verify.py`. `python3 verify.py .` checks hashes, local links, and context paths
+without importing anything from Antigravity. `source-repo://...` is a provenance
+label for the original repository identity, never a required machine path.
+
 ## The librarian (housekeeping — deterministic, runs on every regen)
 
 `brief_library.py` keeps the shelves: `archive <slug>` / `unarchive <slug>` (also live buttons on room cards when served) · `audit` (counts + stale + broken context-pack paths; same line renders in the room header) · `verify` (every card, artifact link, and context-pack path resolves from the active checkout or canonical main). Generation runs the route verifier before replacing the index, so a broken card cannot receive an `OK` receipt. **Auto-currency**: periodical categories (`zeitgeist`, `angles`) auto-archive after **30 days** (constants at top of `brief_library.py` — tune freely, never a cage). **Archived is never gone**: files, md mirrors, and context packs stay exactly where they are — still openable, citable in `related` sections, and agent-feedable; the shelf filter changes presentation only, and `unarchive` is always one action away. Supersession: set `"superseded_by": "<slug>"` in the old brief's JSON; the room chips it with a link to the successor.
