@@ -1,0 +1,39 @@
+<!-- KNOWN-GOOD FIXTURE — the same source markdown, actually rendered.
+     The `rendered` predicate MUST accept this file. If it ever rejects it, the
+     predicate has become a false-red generator and standard_floor.self_test()
+     fails. False reds destroy trust in a reporter exactly as fast as false
+     greens (docs/solutions/2026-07-27-verification-with-no-reader.md). -->
+<nav class="brief-nav"><div class="row"><span class="navttl">CLAUDE.md</span></div></nav>
+<div class="wrap">
+  <header><h1 class="display">CLAUDE.md</h1></header>
+  <div class="mdbody">
+    <p>This file provides guidance to Claude Code when working with code in this repository.</p>
+    <h2 id="environment">Environment &amp; Gotchas</h2>
+    <ul>
+      <li><code>.env</code> at project root with <code>NOTION_API_KEY</code> — required for all Notion operations.</li>
+      <li><strong>Notion: always <code>execution/notion_api.py</code></strong> (pins <code>Notion-Version: 2022-06-28</code>).</li>
+    </ul>
+    <h2 id="compass-doctrine">Compass Doctrine</h2>
+    <blockquote>
+      <p><strong>COMPASS DOCTRINE (Farrice 2026-07-27).</strong> Two things may block WORK: the
+      <strong>cost gate</strong> and the <strong>factual veto</strong>. Everything else nudges.</p>
+    </blockquote>
+    <h3 id="when-steps-narrow">When Steps Narrow</h3>
+    <table>
+      <thead><tr><th>Condition</th><th>Steps shortened</th><th>Still required</th></tr></thead>
+      <tbody>
+        <tr><td>Score 4-5</td><td>Skip Step 2</td><td>1, 3, 4, 5, 6</td></tr>
+        <tr><td>Bug fix</td><td>Skip Step 2 if obvious</td><td>1, 3, 5, 6</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Step 1: SCORE intent 1-5</strong> (+1 each: Deliverable, Audience, Context).</p>
+    <p><strong>Step 2: SHARPEN if ≤3</strong> — one round max, one concise block.</p>
+    <pre><code>python3 execution/chain_runner.py finalize "[what you produced]"</code></pre>
+    <h2 id="critical">CRITICAL</h2>
+    <ul>
+      <li>Real tools only — no phantom research, no confident hallucination.</li>
+      <li><strong>No AI slop</strong>: banned phrases catalogued in <code>directives/ai-slop-ban-bank.md</code>.</li>
+    </ul>
+  </div>
+  <footer class="brief"><span>ANTIGRAVITY · mdview</span></footer>
+</div>

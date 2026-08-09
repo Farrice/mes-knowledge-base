@@ -1,0 +1,355 @@
+{
+  "ts": "2026-08-08T17:20:06",
+  "window_hours": 24.0,
+  "since": "2026-08-07T17:20:05",
+  "overall": "PROVEN",
+  "tally": {
+    "PROVEN": 43
+  },
+  "artifacts": [
+    {
+      "path": ".agent/assets/assets-board.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T06:27"
+    },
+    {
+      "path": ".agent/mdview/claude-md.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:24"
+    },
+    {
+      "path": ".agent/missions/mission-control.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:50"
+    },
+    {
+      "path": ".agent/oracle/oracle-dashboard.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T22:17"
+    },
+    {
+      "path": ".agent/pulse/pulse-board.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T10:01"
+    },
+    {
+      "path": "deliverables/research-briefs/index.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:46"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-deep-research/mission-deep-research-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-go/mission-go-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-go/mission-go-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T22:52"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T22:52"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-07T21:04"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief-share.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (1 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T11:31"
+    },
+    {
+      "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (2 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T06:27"
+    }
+  ]
+}

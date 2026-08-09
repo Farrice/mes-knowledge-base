@@ -1,0 +1,46 @@
+<!-- KNOWN-BAD FIXTURE — the 2026-08-08 mdview specimen, preserved verbatim in shape.
+     execution/mdview.py fell back to <pre>{escaped raw}</pre> when its markdown
+     dependency was unimportable. Every existence check went green: the file was
+     written, the command exited 0, a grep for "<table>" returned 2 (counting the
+     TEMPLATE's own markup). The operator found it by clicking.
+     The `rendered` predicate MUST reject this file. If it ever passes, the
+     predicate has gone vacuous and standard_floor.self_test() fails. -->
+<nav class="brief-nav"><div class="row"><span class="navttl">CLAUDE.md</span></div></nav>
+<div class="wrap">
+  <header><h1 class="display">CLAUDE.md</h1></header>
+  <div class="mdbody"><pre># CLAUDE.md
+
+This file provides guidance to Claude Code when working with code in this repository.
+
+## Environment &amp; Gotchas
+
+- `.env` at project root with `NOTION_API_KEY` — required for all Notion operations.
+- **Notion: always `execution/notion_api.py`** (pins `Notion-Version: 2022-06-28`).
+
+## Compass Doctrine
+
+&gt; **COMPASS DOCTRINE (Farrice 2026-07-27).** Two things may block WORK: the
+&gt; **cost gate** and the **factual veto**. Everything else nudges.
+
+### When Steps Narrow
+
+| Condition | Steps shortened | Still required |
+|-----------|----------------|----------------|
+| Score 4-5 | Skip Step 2 | 1, 3, 4, 5, 6 |
+| Bug fix | Skip Step 2 if obvious | 1, 3, 5, 6 |
+
+**Step 1: SCORE intent 1-5** (+1 each: Deliverable, Audience, Context).
+
+**Step 2: SHARPEN if <=3** — one round max, one concise block.
+
+```bash
+python3 execution/chain_runner.py finalize "[what you produced]"
+```
+
+## CRITICAL
+
+- Real tools only — no phantom research, no confident hallucination.
+- **No AI slop**: banned phrases catalogued in `directives/ai-slop-ban-bank.md`.
+</pre></div>
+  <footer class="brief"><span>ANTIGRAVITY · mdview</span></footer>
+</div>

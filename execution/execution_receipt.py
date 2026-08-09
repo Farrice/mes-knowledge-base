@@ -271,6 +271,38 @@ def _fmt_list(vals: list[str], empty: str = "none") -> str:
     return ", ".join(vals) if vals else empty
 
 
+def homework_status(hours: float = 6.0) -> tuple[str, str]:
+    """Did the artifacts this window produced meet their declared floor?
+
+    The rest of this receipt proves the machinery RAN. This proves the OUTPUT
+    is not hollow — it opens the artifact and reads its bytes. Added 2026-08-08
+    after mdview.py shipped a page of raw markdown while every existence check
+    went green and the operator found it by clicking.
+
+    Same (status, detail) contract as fleet_status(). Degradation is always
+    visible: an unreadable or absent result is UNKNOWN with a stated reason,
+    never a silent pass.
+    """
+    try:
+        sys.path.insert(0, str(REPO_ROOT / "execution"))
+        import homework_binder as hb
+        r = hb.bind(since_hours=hours)
+    except Exception as e:  # noqa: BLE001 — receipt must never trap a session
+        return "UNKNOWN", f"binder unavailable ({type(e).__name__}: {e})"[:160]
+
+    tally = r.get("tally") or {}
+    partial = [a for a in r.get("artifacts", []) if a.get("verdict") == "PARTIAL"]
+    if not r.get("artifacts"):
+        return "UNKNOWN", (f"no gradeable artifact touched in {hours:g}h "
+                           f"— silence is not a pass")
+    if partial:
+        head = partial[0]
+        more = f" (+{len(partial) - 1} more)" if len(partial) > 1 else ""
+        return "RED", f"{head['path']}: {head['detail']}{more}"
+    return "OK", (f"{tally.get('PROVEN', 0)} artifact(s) met their floor"
+                  + (f", {tally['UNKNOWN']} ungradeable" if tally.get("UNKNOWN") else ""))
+
+
 def render(ledger: dict) -> str:
     """Human-readable receipt. Never raises — a render bug must not trap a session."""
     try:
@@ -314,6 +346,8 @@ def render(ledger: dict) -> str:
                  f" | finalize {'yes' if r['finalized_at'] else 'NO'}")
     L.append(f"  Harness    : fleet {r['fleet']['status']} — {r['fleet']['detail']}")
     L.append(f"               citations {r['citations']['status']} — {r['citations']['detail']}")
+    hw_status, hw_detail = homework_status()
+    L.append(f"  Homework   : {hw_status} — {hw_detail}")
 
     if r["flags"]:
         L.append(f"  {len(r['flags'])} FLAG(S) — reported, nothing blocked:")
