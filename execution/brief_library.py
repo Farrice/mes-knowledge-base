@@ -24,6 +24,8 @@ import json
 import re
 import subprocess
 import sys
+import urllib.parse
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -91,6 +93,26 @@ def sort_ts(meta, mtime):
         except ValueError:
             continue
     return mtime
+
+
+def _url_path(path, base):
+    """Return a quoted URL path relative to a known Briefing Room root.
+
+    Cards deliberately carry relative paths instead of checkout-specific
+    ``file://`` URIs. The same generated index can therefore open beside its
+    briefs in static mode and map to the active server's ROOT in live mode.
+    """
+    return urllib.parse.quote(path.relative_to(base).as_posix(), safe="/")
+
+
+def room_href(path):
+    """Static URL from deliverables/research-briefs/index.html to *path*."""
+    return _url_path(path, BRIEFS)
+
+
+def repo_path(path):
+    """Server URL payload from the active repository root to *path*."""
+    return _url_path(path, ROOT)
 
 
 PAGE = """<!doctype html>
@@ -317,33 +339,40 @@ PAGE = """<!doctype html>
     on.classList.add('on');
   }
 
-  /* Card links are absolute file:// URIs so the Room works standalone. Served,
-     a browser refuses file: from http: — which made every card, md, ctx and
-     superseded link on this page a silent no-op under /room. Map them onto the
-     ROOT-jailed /repo/ route when live; leave them exactly as-is otherwise. */
+  /* Cards carry checkout-independent relative links for static use plus an
+     explicit repo-relative path for the live server. This keeps a generated
+     Room portable between main and isolated worktrees without teaching the
+     browser an absolute path that becomes stale after integration. */
+  function liveRepo(repoPath){
+    if (!ROOM_LIVE || !repoPath) return null;
+    return '/repo/' + repoPath.replace(/^\/+/, '');
+  }
+  function go(staticHref, repoPath){ window.location = liveRepo(repoPath) || staticHref; }
+
+  /* Absolute file links still exist in the sibling-board nav. Keep the legacy
+     mapper only for that surface; brief cards no longer depend on it. */
   var REPO_ROOT = {{REPO_ROOT_JSON}};
   var PREFIX = REPO_ROOT ? ('file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/') : '';
   function toRepo(uri){
     if (!ROOM_LIVE || !PREFIX || !uri || uri.indexOf(PREFIX) !== 0) return null;
     return '/repo/' + uri.slice(PREFIX.length);
   }
-  function go(uri){ window.location = toRepo(uri) || uri; }
-
   document.querySelectorAll('.brief-card').forEach(function(card){
-    var href = card.getAttribute('href');
-    if (!href || href.indexOf('file:') !== 0) return;
     card.addEventListener('click', function(ev){
-      var mapped = toRepo(href);
-      if (!mapped) return;            // file:// mode — let the anchor do its job
+      var mapped = liveRepo(card.dataset.repoPath);
+      if (!mapped) return;            // static mode — relative anchor is valid
       ev.preventDefault(); window.location = mapped;
     });
   });
-  document.querySelectorAll('.brief-card .links span[data-href]').forEach(function(el){
-    el.addEventListener('click', function(ev){ ev.preventDefault(); ev.stopPropagation(); go(el.dataset.href); });
+  document.querySelectorAll('.brief-card .links span[data-static-href]').forEach(function(el){
+    el.addEventListener('click', function(ev){
+      ev.preventDefault(); ev.stopPropagation();
+      go(el.dataset.staticHref, el.dataset.repoPath);
+    });
   });
   document.querySelectorAll('.brief-card a.tagc.sup').forEach(function(el){
     el.addEventListener('click', function(ev){
-      var mapped = toRepo(el.getAttribute('href'));
+      var mapped = liveRepo(el.dataset.repoPath);
       if (!mapped) return;
       ev.preventDefault(); ev.stopPropagation(); window.location = mapped;
     });
@@ -534,7 +563,8 @@ def card(e, broken_by_slug=None):
         cat_tag += '<span class="tagc arch">archived</span>'
     if e["superseded_by"]:
         succ = BRIEFS / e["superseded_by"] / f'{e["superseded_by"]}-brief.html'
-        cat_tag += (f'<a class="tagc sup" href="{esc(succ.as_uri())}" '
+        cat_tag += (f'<a class="tagc sup" href="{esc(room_href(succ))}" '
+                    f'data-repo-path="{esc(repo_path(succ))}" '
                     f'onclick="event.stopPropagation()">superseded → {esc(e["superseded_by"])}</a>')
     links = (f'<span data-act="path" data-slug="{esc(e["slug"])}" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span>'
              f'<span class="cp" data-act="brief" data-slug="{esc(e["slug"])}" title="copy the full brief inline — paste into any AI chat">copy brief</span>')
@@ -544,7 +574,8 @@ def card(e, broken_by_slug=None):
             if label == "ctx" and (broken_by_slug or {}).get(e["slug"]):
                 gone, total = broken_by_slug[e["slug"]]
                 warn = f' class="warned" title="{gone} of {total} grounding paths no longer exist — re-render this brief before feeding its pack to an agent"'
-            links += f'<span data-href="{esc(f.as_uri())}"{warn}>{label}</span>'
+            links += (f'<span data-static-href="{esc(room_href(f))}" '
+                      f'data-repo-path="{esc(repo_path(f))}"{warn}>{label}</span>')
     arch_act = "unarchive" if e["status"] != "active" else "archive"
     links += f'<span data-life="{arch_act}" data-slug="{esc(e["slug"])}" title="librarian action — live when served, copies the command otherwise">{arch_act}</span>'
     metas = ""
@@ -552,12 +583,94 @@ def card(e, broken_by_slug=None):
         metas += f'<span class="m">{esc(e["compiled"])}</span>'
     if e["lens"]:
         metas += f'<span class="m">{esc(e["lens"])}</span>'
-    return (f'<a class="brief-card" href="{esc(e["html"].as_uri())}" data-cat="{esc(e["category"])}" '
+    return (f'<a class="brief-card" href="{esc(room_href(e["html"]))}" '
+            f'data-repo-path="{esc(repo_path(e["html"]))}" data-cat="{esc(e["category"])}" '
             f'data-pri="{e["priority"]}" data-mtime="{e["mtime"]}" data-status="{esc(e["status"])}">'
             f'<div class="toprow"><span class="chip">{esc(e["chip"])}</span>{pri_tag}{cat_tag}</div>'
             f'<h2>{accent_em(e["title"])}</h2>'
             f'<p>{esc(dek)}</p>'
             f'<div class="meta">{metas}<div class="links">{links}</div></div></a>')
+
+
+class _RoomRouteParser(HTMLParser):
+    """Collect portable card routes from the generated page without a browser."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.cards = []
+        self.repo_links = []
+
+    def handle_starttag(self, tag, attrs):
+        values = dict(attrs)
+        classes = set((values.get("class") or "").split())
+        if tag == "a" and "brief-card" in classes:
+            self.cards.append(values)
+        if values.get("data-repo-path"):
+            self.repo_links.append(values)
+
+
+def _inside(path, root):
+    try:
+        path.relative_to(root)
+        return True
+    except ValueError:
+        return False
+
+
+def room_route_errors(page, entries):
+    """Return card/link failures that would become 404s under static or live use."""
+    parser = _RoomRouteParser()
+    parser.feed(page)
+    errors = []
+    expected = {repo_path(e["html"]): room_href(e["html"]) for e in entries}
+    cards = {}
+
+    for attrs in parser.cards:
+        route = attrs.get("data-repo-path") or ""
+        if route in cards:
+            errors.append(f"duplicate card route: {route}")
+        cards[route] = attrs
+        if (attrs.get("href") or "").startswith("file:"):
+            errors.append(f"checkout-specific card href: {attrs.get('href')}")
+
+    for route, href in expected.items():
+        attrs = cards.get(route)
+        if attrs is None:
+            errors.append(f"missing card route: {route}")
+        elif attrs.get("href") != href:
+            errors.append(f"wrong static href for {route}: {attrs.get('href')} != {href}")
+    for route in sorted(set(cards) - set(expected)):
+        errors.append(f"unexpected card route: {route}")
+
+    root_real = ROOT.resolve()
+    briefs_real = BRIEFS.resolve()
+    for attrs in parser.repo_links:
+        route = urllib.parse.unquote(attrs.get("data-repo-path") or "")
+        target = (ROOT / route).resolve()
+        if not route or route.startswith("/") or not _inside(target, root_real):
+            errors.append(f"unsafe live route: {route or '<empty>'}")
+        elif not target.is_file():
+            errors.append(f"missing live target: {route}")
+
+        static = attrs.get("href") or attrs.get("data-static-href") or ""
+        static_target = (BRIEFS / urllib.parse.unquote(static)).resolve()
+        if not static or not _inside(static_target, briefs_real):
+            errors.append(f"unsafe static route: {static or '<empty>'}")
+        elif not static_target.is_file():
+            errors.append(f"missing static target: {static}")
+
+    return errors
+
+
+def verify_room(page=None, entries=None):
+    """Verify the current or proposed Briefing Room index without changing it."""
+    entries = collect() if entries is None else entries
+    if page is None:
+        out = BRIEFS / "index.html"
+        if not out.is_file():
+            return [f"Briefing Room index missing: {out}"]
+        page = out.read_text(encoding="utf-8")
+    return room_route_errors(page, entries)
 
 
 def side_buttons(entries):
@@ -611,6 +724,17 @@ def cmd_audit():
     return 0
 
 
+def cmd_verify():
+    errors = verify_room()
+    if errors:
+        print(f"[brief_library] FAIL — {len(errors)} card route error(s)")
+        for error in errors:
+            print(f"  {error}")
+        return 1
+    print(f"[brief_library] PASS — {len(collect())} cards resolve in static and live modes")
+    return 0
+
+
 def generate(open_after=False):
     entries = collect()
     apply_currency(entries)
@@ -661,18 +785,23 @@ def generate(open_after=False):
             .replace("{{PRI_BTNS}}", pri_btns)
             .replace("{{CAT_BTNS}}", cat_btns)
             .replace("{{CARDS}}", "".join(card(e, hk.get("broken_by_slug")) for e in entries)))
+    route_errors = verify_room(page=page, entries=entries)
+    if route_errors:
+        details = "\n  ".join(route_errors)
+        raise RuntimeError(f"Briefing Room route verification failed:\n  {details}")
     out = BRIEFS / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page, encoding="utf-8")
-    print(f"[brief_library] OK → {out} ({len(entries)} briefs · {hk_bits.replace('<b>', '').replace('</b>', '')})")
+    print(f"[brief_library] OK → {out} ({len(entries)} briefs · routes verified · "
+          f"{hk_bits.replace('<b>', '').replace('</b>', '')})")
     if open_after:
         subprocess.run(["open", str(out)], check=False)
 
 
 def main():
-    ap = argparse.ArgumentParser(description="The Briefing Room librarian: generate (default), archive, unarchive, audit.")
+    ap = argparse.ArgumentParser(description="The Briefing Room librarian: generate (default), archive, unarchive, audit, verify.")
     ap.add_argument("cmd", nargs="?", default="generate",
-                    choices=["generate", "archive", "unarchive", "audit"])
+                    choices=["generate", "archive", "unarchive", "audit", "verify"])
     ap.add_argument("slug", nargs="?", default=None)
     ap.add_argument("--open", action="store_true")
     args = ap.parse_args()
@@ -682,6 +811,8 @@ def main():
         raise SystemExit(cmd_lifecycle(args.cmd, args.slug))
     if args.cmd == "audit":
         raise SystemExit(cmd_audit())
+    if args.cmd == "verify":
+        raise SystemExit(cmd_verify())
     generate(open_after=args.open)
 
 
