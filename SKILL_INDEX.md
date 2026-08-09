@@ -170,6 +170,7 @@
 | `jonah-berger-contagious` | **jonah-berger-contagious** | wharton research applied: engineer sharing instead of hoping for luck, contagious & the catalyst | 3 | 0 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy using the promoter blueprint — traffic, holding pattern, and selling events with ai-assisted campaign compression | 2 | 5 |
 | `jonathan-franzen-storytelling` | **Jonathan Franzen - Storytelling Mastery** | jonathan franzen's literary fiction + character-psychology craft, translated for marketing, compression-logic storytelling | 4 | 6 |
+| `jordan-crawford-gtm-intelligence` | **Jordan Crawford — Evidence-First GTM Intelligence** | go-to-market intelligence / customer dossiers / message-market fit / gtm engineering, customer evidence must become precise targeting, recipient value, and a measu..., or a pre-seed founder needs a zero-data path without invented confidence | 10 | 0 |
 | `joscha-bach-consciousness` | **Joscha Bach - Computational Consciousness** | philosophy-of-mind meets system design, for action-bias breakthrough on practical blocks use ali-abdaal-action-bias, computational consciousness | 5 | 0 |
 | `josh-kaufman-business-fundamentals` | **josh-kaufman-business-fundamentals** | validate ideas with swiped credit cards before building, and acquire any new skill in 20 focused hours, business as simple arithmetic plus human psychology | 3 | 0 |
 | `josh-sanders-linkedin-growth` | **Josh Sanders: LinkedIn Growth & High-Ticket Education** | for zero-audience linkedin growth use jasmin-alic-linkedin-growth, for general linkedin mastery use lara-acosta-linkedin-mastery, linkedin growth & high-ticket education | 5 | 18 |
@@ -371,6 +372,7 @@
 | `story-bible-builder` | **story-bible-builder** | output is a ready-to-install skill | 4 | 0 |
 | `story-compass` | **story-compass** | story diagnosis × narrative architecture × pre-creation compass, compresses any idea into one gps sentence "i wanted ___, but ___, until ___, " binary story-vs-topic test (all three present = story | 13 | 0 |
 | `strength-conditioning-os` | **strength-conditioning-os** | conductor hub for the strength-&-conditioning / fitness coaching package, the coaching conductor | 2 | 0 |
+| `style-vault` | **style-vault** | the brand-image pipeline and the keyed style vault — many looks, switchable by brand x icp x platform, compounding instead of restarting | 3 | 0 |
 | `sunny-lenarduzzi-youtube` | **sunny-lenarduzzi-youtube** | hyper-targeted audience, the code framework (client, differentiation | 4 | 0 |
 | `supercomputer` | **supercomputer** | reference architecture documented in `skills/supercomputer/genius | 4 | 0 |
 | `susan-orlean-narrative-nonfiction` | **Susan Orlean — Narrative Nonfiction & The Telling Subject** | grounded in her how i write interview with david perell, the three hard-walled phases (research, then thinking | 12 | 0 |
