@@ -88,6 +88,16 @@ def _reexec_in_venv() -> None:
     )
 
 
+def _nav() -> str:
+    """Shared home-base nav; degraded to empty ONLY with a visible ledger trail."""
+    try:
+        sys.path.insert(0, str(ROOT / "execution"))
+        from surface_nav import nav_html
+        return nav_html()
+    except Exception:
+        return ""  # DELIBERATE-QUIET: a nav bug must never block a doc render
+
+
 def render_markdown(text: str) -> str:
     try:
         import markdown
@@ -141,7 +151,9 @@ def build(src: Path) -> Path:
         "LENS": html.escape(meta.get("type") or meta.get("status") or "source file"),
         "SOURCES": html.escape(src.name),
         "COMPILED": datetime.fromtimestamp(stat.st_mtime).strftime("%Y-%m-%d %H:%M"),
-        "NAV": f'<span class="navttl">{html.escape(str(rel))}</span>',
+        # navttl + the SHARED home-base nav (2026-08-08): every rendered doc was
+        # a cul-de-sac — the .brief-nav bar existed but carried only a filename.
+        "NAV": f'<span class="navttl">{html.escape(str(rel))}</span>{_nav()}',
         "NAVTOOLS": "",
         "SECTIONS": f'<div class="mdbody">{render_markdown(body)}</div>',
         "FOOTER_LEFT": "ANTIGRAVITY · mdview",
@@ -161,11 +173,61 @@ def build(src: Path) -> Path:
     return dest
 
 
+def build_index() -> Path:
+    """.agent/mdview/index.html — every rendered doc, newest first.
+
+    Without this, mdview was one-file-at-a-time: each page a cul-de-sac and no
+    way to see what had been rendered. This is the 'docs' home base the shared
+    nav (surface_nav.py) points at.
+    """
+    from surface_nav import nav_html
+    rows = []
+    for f in sorted(OUTDIR.glob("*.html"), key=lambda p: -p.stat().st_mtime):
+        if f.name == "index.html" or f.name.startswith("_"):
+            continue
+        stamp = datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
+        title = f.stem.replace("-", " ")
+        rows.append(f'<a class="doc" href="{html.escape(f.as_uri())}">'
+                    f'<span class="t">{html.escape(title)}</span>'
+                    f'<span class="d">{stamp}</span></a>')
+    body = "".join(rows) or '<p class="empty">nothing rendered yet — python3 execution/mdview.py &lt;file.md&gt;</p>'
+    page = f"""<!doctype html><html><head><meta charset="utf-8">
+<title>Rendered docs · Antigravity</title>
+<style>
+ body{{font-family:-apple-system,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;
+      background:#101014;color:#e8e6e1}}
+ header{{display:flex;align-items:center;gap:14px;margin-bottom:28px}}
+ h1{{font-size:22px;letter-spacing:-.01em;margin:0}}
+ .doc{{display:flex;justify-content:space-between;gap:12px;padding:13px 4px;
+      border-bottom:1px solid rgba(255,255,255,.08);text-decoration:none;color:inherit}}
+ .doc:hover .t{{color:#7fb2d9}}
+ .doc .d{{font-family:"SF Mono",Menlo,monospace;font-size:11px;opacity:.55;white-space:nowrap}}
+ .empty{{opacity:.6}}
+</style></head><body>
+<header><h1>Rendered docs</h1>{nav_html(current="docs")}</header>
+{body}
+</body></html>"""
+    OUTDIR.mkdir(parents=True, exist_ok=True)
+    dest = OUTDIR / "index.html"
+    dest.write_text(page, encoding="utf-8")
+    return dest
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Render markdown in the Premium Minimal brand.")
-    ap.add_argument("files", nargs="+", help="markdown file(s)")
+    ap.add_argument("files", nargs="*", help="markdown file(s)")
     ap.add_argument("--no-open", action="store_true", dest="no_open")
+    ap.add_argument("--index", action="store_true", help="(re)build the docs index page")
     args = ap.parse_args()
+
+    if args.index and not args.files:
+        dest = build_index()
+        print(dest)
+        if not args.no_open:
+            subprocess.run(["open", str(dest)], check=False)
+        return 0
+    if not args.files:
+        ap.error("give me markdown file(s), or --index")
 
     built = []
     for f in args.files:
@@ -177,6 +239,8 @@ def main() -> int:
         built.append(dest)
         print(dest)
 
+    if built:
+        build_index()  # keep the docs home base current on every render
     if built and not args.no_open:
         subprocess.run(["open", *[str(b) for b in built]], check=False)
     return 0 if built else 1

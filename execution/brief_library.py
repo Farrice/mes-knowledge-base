@@ -23,6 +23,7 @@ import html
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -202,7 +203,7 @@ PAGE = """<!doctype html>
 <div class="wrap">
   <header>
     <div class="topline"><span class="kicker">ANTIGRAVITY RESEARCH · LIBRARY</span>
-      <span class="homenav"><a href="{{MISSIONS_URI}}">🎯 mission control ↗</a><a href="{{PULSE_URI}}">pulse board ↗</a><a href="{{BOARD_URI}}">asset board ↗</a><a href="{{ORACLE_URI}}">oracle ↗</a></span></div>
+      {{HOMENAV}}</div>
     <h1>the briefing <em>room</em></h1>
     <p class="dek">every rendered brief. click a card to open it; path feeds file-access tools, copy brief feeds any chat AI; md and ctx open the artifacts.</p>
     <div class="count">{{COUNT}} briefs on file · regenerated {{STAMP}}</div>
@@ -637,7 +638,14 @@ def generate(open_after=False):
         hk_bits += f" · <b>{len(hk['broken'])} broken paths</b> (flagged on cards)"
     if not hk["stale"] and not hk["broken"]:
         hk_bits += " · shelves clean"
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from surface_nav import nav_html
+        homenav = nav_html(current="briefs", style=False)
+    except Exception:
+        homenav = ""  # DELIBERATE-QUIET: nav bug must never block the room render
     page = (PAGE
+            .replace("{{HOMENAV}}", homenav)
             .replace("{{COUNT}}", str(len(entries)))
             .replace("{{STAMP}}", stamp)
             .replace("{{HKEEP}}", hk_bits)

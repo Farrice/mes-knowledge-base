@@ -34,6 +34,17 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+sys.path.insert(0, os.path.join(ROOT, "execution"))
+
+
+def _shared_nav(current):
+    """One nav for every surface (surface_nav.py). Hand-rolled copies retired 2026-08-08."""
+    try:
+        from surface_nav import nav_html
+        return nav_html(current=current, style=False)
+    except Exception:
+        return ""  # DELIBERATE-QUIET: nav bug must never block the board render
 sys.path.insert(0, ROOT)
 OUT_DIR = os.path.join(ROOT, '.agent', 'oracle')
 OUT = os.path.join(OUT_DIR, 'oracle-dashboard.html')
@@ -448,7 +459,7 @@ footer{{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--
 </style></head><body><div class="wrap">
 <header>
   <div><span class="kicker">MASTERY FORGE · INSTANCE #1 · RENDERED {d['ts']}</span><h1>THE <em>ORACLE</em></h1></div>
-  <span class="homenav"><a href="{html.escape(missions_uri)}">🎯 mission control ↗</a><a href="{html.escape(pulse_uri)}">⚡ pulse ↗</a><a href="{html.escape(room_uri)}">📋 briefing room ↗</a><a href="{html.escape(assets_uri)}">🎨 asset board ↗</a></span>
+  {_shared_nav("oracle")}
 </header>
 <div class="sub">A forged betting master under a falsifiable graduation exam. It decides; a human executes. Real money stays locked until the gate says GO.</div>
 <div class="chips"><span class="chip livechip" id="livechip">static — buttons copy commands</span><span class="chip">MODE: PAPER EXAM</span><span class="chip">ODDS API: {html.escape(quota_str.split(' (')[0])}</span></div>

@@ -27,6 +27,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 sys.path.insert(0, os.path.join(ROOT, "execution"))
 from degrade import degraded, degraded_html  # noqa: E402
+
+
+def _shared_nav(current):
+    """One nav for every surface (surface_nav.py). Hand-rolled copies retired 2026-08-08."""
+    try:
+        from surface_nav import nav_html
+        return nav_html(current=current, style=False)
+    except Exception as e:
+        return degraded_html("shared nav unavailable", e)
 OUT = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
 
 
@@ -619,7 +628,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="wrap">
 <header>
   <div><span class="kicker">ANTIGRAVITY · OPERATOR CONSOLE</span><h1>the <em>pulse</em></h1></div>
-  <span class="homenav"><a href="{esc(missions_uri)}">🎯 mission control ↗</a><a href="{esc(room_uri)}">📋 briefing room ↗</a><a href="{esc(board_uri)}">🎨 asset board ↗</a><a href="{esc(oracle_uri)}">🔮 oracle ↗</a></span>
+  {_shared_nav("pulse")}
 </header>
 <div class="stamp"><span>{now}</span>{lock_html}<span class="livechip pill muted" id="livechip">static — actions copy commands</span></div>
 {sprint_html}

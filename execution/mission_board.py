@@ -274,7 +274,13 @@ def build():
     assets_uri = (ROOT / ".agent" / "assets" / "assets-board.html").as_uri()
     oracle_uri = (ROOT / ".agent" / "oracle" / "oracle-dashboard.html").as_uri()
 
+    try:
+        from surface_nav import nav_html
+        homenav = nav_html(current="missions", style=False)
+    except Exception as _e:
+        homenav = degraded_html("shared nav unavailable", _e)
     page = PAGE.format(
+        homenav=homenav,
         now=esc(now), gen=esc(gen), days=esc(win.get("days", "—")),
         n_live=len(live), n_needs=needs_total,
         n_ship=c.get("deliverables", 0), n_files=c.get("artifacts", 0),
@@ -375,7 +381,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="wrap">
 <header>
   <div><span class="kicker">ANTIGRAVITY · MISSION CONTROL</span><h1>the <em>threads</em></h1></div>
-  <span class="homenav"><a href="{pulse}">⚡ pulse ↗</a><a href="{room}">📋 briefing room ↗</a><a href="{assets}">🎨 asset board ↗</a><a href="{oracle}">🔮 oracle ↗</a></span>
+  {homenav}
 </header>
 <div class="stamp"><span>{now}</span><span>swept {gen}</span><span>window {days}d</span>
   <span class="livechip pill muted" id="livechip">static — actions copy commands</span></div>

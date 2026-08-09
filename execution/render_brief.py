@@ -621,6 +621,17 @@ def build_nav(brief, has_pack=False):
         links.append('<a href="#source-ledger">sources</a>')
     if has_pack:
         links.append('<a href="#context-pack">context pack</a>')
+    # Home-base nav (2026-08-08): briefs were cul-de-sacs — section anchors only,
+    # no way back to any board. NEVER in --share mode: an outward brief must not
+    # carry file:// links into his private boards (dead for the client, and a
+    # window into the internal system).
+    if not SHARE:
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from surface_nav import nav_html
+            links.append(nav_html())
+        except Exception:
+            pass  # DELIBERATE-QUIET: a nav bug must never block a brief render
     return "".join(links)
 
 

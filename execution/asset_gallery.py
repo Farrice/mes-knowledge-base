@@ -672,6 +672,15 @@ def render_board(records, styles):
                 .replace("__STYLEDATA__", json.dumps(styles, ensure_ascii=False).replace("</", "<\\/"))
                 .replace("__REPO__", json.dumps(ROOT)))
     os.makedirs(OUT_DIR, exist_ok=True)
+    # Shared home-base nav (2026-08-08): this board had partial links (briefing
+    # room, mission control) and no pulse/oracle/docs — injected at write time
+    # so the topnav's own view-switching markup stays untouched.
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "execution"))
+        from surface_nav import nav_html
+        html_doc = html_doc.replace("</nav>", nav_html(current="assets") + "</nav>", 1)
+    except Exception:
+        pass  # DELIBERATE-QUIET: nav bug must never block the board render
     open(BOARD, "w", encoding="utf-8").write(html_doc)
     return BOARD
 
