@@ -54,15 +54,18 @@ SELF = Path(__file__).name
 # five of the six "timeouts" in the first honest fleet run passed standalone.
 # This raises the ceiling for named heavyweights; it never weakens a check.
 SLOW_BUDGET = {
-    "verify_system_control_plane.py": 480,  # ~6 min — runs other verifiers as helpers
+    # ~6 min solo, slower under 6-way fleet contention (480s still tripped on
+    # the 2026-08-08 run while the standalone run passed).
+    "verify_system_control_plane.py": 900,
 }
 
 # Rollups produced by other tools. Aggregated ONLY when fresher than this run.
-TIER_ARTIFACTS = [
-    ("loop-integrity", HEALTH_DIR / "loop-integrity.json"),
-    ("core-surface", HEALTH_DIR / "core-surface.json"),
-    ("birth-wiring", HEALTH_DIR / "birth-wiring.json"),
-]
+# The three 2026-07-28 tier JSONs (loop-integrity, core-surface, birth-wiring)
+# were REMOVED 2026-08-08: their producer scripts were archived on 07-28, so
+# they can never be fresh again — a permanent STALE line is wallpaper, and
+# wallpaper trains the eye to skip warnings. If a tier producer returns, add
+# its artifact back here.
+TIER_ARTIFACTS: list[tuple[str, Path]] = []
 
 
 def discover() -> list[Path]:
@@ -242,14 +245,30 @@ def self_test() -> int:
         r = run_one(missing)
         check("unrunnable script surfaces, never silent", r["status"] in ("ERROR", "FAIL"))
 
-    # 3 staleness: an artifact older than the run must be caught
-    now = time.time()
-    stale_now = stale_artifacts(now)
-    check("pre-existing artifacts read STALE/MISSING against a fresh run",
-          all(s["state"] in ("STALE", "MISSING") for s in stale_now) and len(stale_now) > 0)
-    # false-red: an artifact from the future is NOT stale
-    check("future artifact is not stale",
-          not [s for s in stale_artifacts(now - 10 ** 7) if s["state"] == "STALE"])
+    # 3 staleness — exercised on a SYNTHETIC artifact, not live repo state.
+    # (The first version leaned on the July tier JSONs existing; when those
+    # were retired the control broke. A self-test must own its fixtures.)
+    global TIER_ARTIFACTS
+    saved = TIER_ARTIFACTS
+    try:
+        with tempfile.TemporaryDirectory() as td2:
+            old = Path(td2) / "synthetic-tier.json"
+            old.write_text("{}")
+            import os as _os
+            _os.utime(old, (time.time() - 86400, time.time() - 86400))  # 1 day old
+            TIER_ARTIFACTS = [("synthetic", old)]
+            now = time.time()
+            stale_now = stale_artifacts(now)
+            check("day-old artifact reads STALE against a fresh run",
+                  len(stale_now) == 1 and stale_now[0]["state"] == "STALE")
+            # false-red: same artifact against a run that started BEFORE it
+            check("artifact newer than the run is not stale",
+                  not [s for s in stale_artifacts(now - 10 ** 7) if s["state"] == "STALE"])
+            TIER_ARTIFACTS = [("gone", Path(td2) / "never-written.json")]
+            check("missing artifact reads MISSING",
+                  stale_artifacts(now) and stale_artifacts(now)[0]["state"] == "MISSING")
+    finally:
+        TIER_ARTIFACTS = saved
 
     print(f"self-test: {'OK' if not bad else 'FAILED'} ({ok} passed, {len(bad)} failed)")
     for b in bad:

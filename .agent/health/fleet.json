@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-08-08T12:28:18.096787",
+  "timestamp": "2026-08-08T19:23:29.009476",
   "summary": {
-    "total_findings": 32,
+    "total_findings": 5,
     "by_classification": {
-      "FLAGGED": 32
+      "FLAGGED": 5
     },
     "tier_summaries": {},
-    "verifiers_run": 84,
-    "verifiers_failing": 29,
+    "verifiers_run": 85,
+    "verifiers_failing": 2,
     "stale_or_missing_artifacts": [
       {
         "tier": "loop-integrity",
         "state": "STALE",
         "path": "/Users/farricecain/Google Antigravity/.agent/health/loop-integrity.json",
-        "age_hours": 266.9,
+        "age_hours": 273.7,
         "mtime": "2026-07-28T09:31"
       },
       {
         "tier": "core-surface",
         "state": "STALE",
         "path": "/Users/farricecain/Google Antigravity/.agent/health/core-surface.json",
-        "age_hours": 266.9,
+        "age_hours": 273.7,
         "mtime": "2026-07-28T09:31"
       },
       {
         "tier": "birth-wiring",
         "state": "STALE",
         "path": "/Users/farricecain/Google Antigravity/.agent/health/birth-wiring.json",
-        "age_hours": 266.8,
+        "age_hours": 273.6,
         "mtime": "2026-07-28T09:36"
       }
     ]
@@ -36,162 +36,27 @@
     {
       "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "verify_activation_governor.py: FAIL \u2014 - dependency import failed: No module named 'dotenv'"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_antigravity_global_access.py: FAIL \u2014 AssertionError: workflow router did not bind the mixed request to /system-audit"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_artifact_router.py: TIMEOUT \u2014 exceeded 90s"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_autopilot_routing.py: TIMEOUT \u2014 exceeded 90s"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_autopilot_runtime_preflight.py: TIMEOUT \u2014 exceeded 90s"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_codex_claude_parity.py: FAIL \u2014 ImportError: cannot import name 'strip_explicit_invocation_artifacts' from 'control_intent' (/Users/farricecain/Google Antigravity/execution/control_intent.py)"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_codex_end_session.py: FAIL \u2014 TypeError: cannot unpack non-iterable PosixPath object"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_control_intent.py: FAIL \u2014     text: draft a post about how neurons are chained into circuits"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_convene.py: FAIL \u2014 ModuleNotFoundError: No module named 'execution'"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
       "message": "verify_dhar_mann_transformational_content_factory.py: FAIL \u2014 - NOTE: direct command search surfaces Dhar factory"
     },
     {
       "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "verify_google_operator_core.py: FAIL \u2014 ImportError: cannot import name 'strip_explicit_invocation_artifacts' from 'control_intent' (/Users/farricecain/Google Antigravity/execution/control_intent.py)"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_health_performance_geo_prompt.py: FAIL \u2014 FAIL: missing prompt: /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/AUTOMATION_PROMPT.md"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_memory_stack.py: FAIL \u2014 - genai_import: No module named 'google'"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_cockpit.py: TIMEOUT \u2014 exceeded 90s"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_extraction_governor_agent.py: FAIL \u2014 AssertionError: workflow_router expected /autopilot first for 'extraction-governor-agent is broken and writes state automatically'; got /system-audit                             \u2014 Control-plane audit "
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_fast_proof.py: TIMEOUT \u2014 exceeded 90s"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_health_check.py: FAIL \u2014   /mission                                  \u2014 Mission OS - plan, validate, execute, and govern long-running agent work"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_knowledge_librarian.py: FAIL \u2014 AssertionError: workflow_router expected /autopilot first for 'the knowledge library routing is broken'; got /system-audit                             \u2014 Control-plane audit for Autopilot, routing, bri"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_routing_intelligence.py: FAIL \u2014 AssertionError: workflow_router expected /autopilot first for 'the router is broken and routing intelligence is wrong'; got /system-audit                             \u2014 Control-plane audit for Autopilo"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_skill_anneal.py: FAIL \u2014 AssertionError: workflow_router expected /autopilot first for 'skill-anneal is broken and rewriting everything'; got /system-audit                             \u2014 Control-plane audit for Autopilot, rout"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_operator_core_source_to_skill_system.py: FAIL \u2014 AssertionError: workflow_router expected /autopilot first for 'source-to-skill-system is broken and creates bloat'; got /system-audit                             \u2014 Control-plane audit for Autopilot, r"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_performance_evidence_gate.py: FAIL \u2014 ModuleNotFoundError: No module named 'dotenv'"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_proof_ledger.py: FAIL \u2014 verify_proof_ledger.py: error: the following arguments are required: --draft, --ledger"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_savant_control_room.py: TIMEOUT \u2014 exceeded 90s"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_search_content_mastery.py: FAIL \u2014 }"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_skill_evolution_candidate_freshness.py: FAIL \u2014 - safe refresh command: python3 execution/skill_evolution_candidates.py scan --write"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_skill_evolution_local_first.py: FAIL \u2014 ModuleNotFoundError: No module named 'dotenv'"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_system_control_plane.py: FAIL \u2014 AssertionError: workflow_router source-command-health-check-status expected first route in ['health-check'], got /system-audit"
-    },
-    {
-      "tier": "verifiers",
-      "classification": "FLAGGED",
-      "message": "verify_video_context_source_package.py: FAIL \u2014 verify_video_context_source_package.py: error: the following arguments are required: package"
+      "message": "verify_system_control_plane.py: TIMEOUT \u2014 exceeded 480s"
     },
     {
       "tier": "aggregate",
       "classification": "FLAGGED",
-      "message": "loop-integrity artifact STALE (266.9h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
+      "message": "loop-integrity artifact STALE (273.7h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
     },
     {
       "tier": "aggregate",
       "classification": "FLAGGED",
-      "message": "core-surface artifact STALE (266.9h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
+      "message": "core-surface artifact STALE (273.7h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
     },
     {
       "tier": "aggregate",
       "classification": "FLAGGED",
-      "message": "birth-wiring artifact STALE (266.8h older than this run, mtime 2026-07-28T09:36) \u2014 NOT merged"
+      "message": "birth-wiring artifact STALE (273.6h older than this run, mtime 2026-07-28T09:36) \u2014 NOT merged"
     }
   ]
 }
