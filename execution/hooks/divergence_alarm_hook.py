@@ -53,7 +53,9 @@ _MAX_FILES_PER_MERGE = 200
 
 def _detect_empty_absorbs(baseline: str = "main", since: str = "14.days"):
     """Merges into `baseline` whose branch-created files are absent from the
-    CURRENT `baseline` tree. Returns {merge_sha: [lost_paths]}."""
+    MERGE COMMIT's tree (not the current baseline). This prevents later
+    legitimate reorganizations from re-flagging cleanly-merged work.
+    Returns {merge_sha: [lost_paths]}."""
     merges = _git("log", "--merges", f"--since={since}", "--format=%H", baseline).splitlines()
     candidates = []  # (merge_sha, path)
     for m in merges[:_MAX_MERGES]:
@@ -67,11 +69,13 @@ def _detect_empty_absorbs(baseline: str = "main", since: str = "14.days"):
                 candidates.append((m, f))
     if not candidates:
         return {}
-    # One batched existence check against the current baseline tree.
+    # One batched existence check against the MERGE COMMIT's tree, not current main.
+    # This ensures that a later reorganization (like the 2026-08-07 arena sweep)
+    # doesn't re-flag files that were cleanly absorbed by an earlier merge.
     try:
         r = subprocess.run(
             ["git", "cat-file", "--batch-check"],
-            input="".join(f"{baseline}:{f}\n" for _, f in candidates),
+            input="".join(f"{m}:{f}\n" for m, f in candidates),
             cwd=ROOT, capture_output=True, text=True, timeout=15,
         )
         results = r.stdout.splitlines()

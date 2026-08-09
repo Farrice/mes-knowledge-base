@@ -90,13 +90,17 @@ NOISE = re.compile(r"[<>{}*$\[\]]|/name/|/<|example|<expert|<skill|\.\.\.")
 # Their absence is normal, not a loss signal. Annotated "(planned" / "(not yet"
 # pointers are also skipped via the annotation check in scan_file.
 RUNTIME_ALLOWLIST = re.compile(
-    r"^(\.agent/(browser-actions-log|hermes-usage|knowledge-cache|citation-integrity)"
+    r"^(\.agent/(browser-actions-log|hermes-usage|knowledge-cache|citation-integrity|sessions/)"
     r"|config/gws/client_secret\.json"
     r"|\.claude/(backups|plans)/)"
 )
 
 
 def _existing(path_str: str) -> bool:
+    # Expand ~ and $HOME before the existence check.
+    p = Path(path_str).expanduser()
+    if p.is_absolute():
+        return p.exists()
     return (ROOT / path_str).exists()
 
 
@@ -120,6 +124,18 @@ def scan_file(fp: Path, memory_mode: bool) -> list:
         if re.match(r"[`')\s]*\((?:planned|not yet|ephemeral|deleted|superseded|archived)", tail):
             seen.add(cited)
             continue
+        # Check if this match is part of a home-relative path like ~/.agents/xxx
+        # or similar system paths. If so, skip it—it's not a repo citation (2026-08-08).
+        if m.start() >= 3:
+            head = text[m.start() - 3:m.start()]
+            if head == "~/.":  # Matches ~/.agents/.skill-lock.json pattern
+                seen.add(cited)
+                continue
+        if m.start() >= 2:
+            head = text[m.start() - 2:m.start()]
+            if head == "~/":  # Matches ~/direct-path
+                seen.add(cited)
+                continue
         seen.add(cited)
         if not _existing(cited):
             missing.append(cited)
@@ -163,6 +179,25 @@ def collect_sources() -> list:
     # scanned as a citation SOURCE. They are the largest referrer clusters in
     # the repo (~530 skill files reference _active/ alone), so a move that
     # orphaned every one of them produced a silent, clean-looking report.
+    # EXCLUSIONS (2026-08-08): skip skills/*/references/prompts*/ and
+    # skills/*/references/_legacy-prompts/ — these directories contain illustrative
+    # example paths inside extracted expert prompts (ROSTER-YYYY-MM-DD.md, etc),
+    # not live citations. _legacy-prompts is also an exact mirror of prompts/,
+    # doubling every finding.
+    def _should_scan_wiring(fp: Path) -> bool:
+        parts = fp.parts
+        # Skip prompt-template and legacy-prompt directories in skills.
+        if "skills" in parts:
+            idx = parts.index("skills")
+            if idx + 3 < len(parts) and parts[idx + 2] == "references":
+                # skills/<name>/references/prompts* or skills/<name>/references/_legacy-prompts
+                if parts[idx + 3].startswith("prompts") or parts[idx + 3] == "_legacy-prompts":
+                    return False
+            elif idx + 2 < len(parts) and parts[idx + 2] == "_legacy-prompts":
+                # Also catch skills/<name>/_legacy-prompts directly
+                return False
+        return True
+
     wiring = [
         ("skills", "**/*.md"), ("agents", "**/*.md"), ("guides", "**/*.md"),
         (".agent/workflows", "*.md"), (".agent/handoffs", "*.md"),
@@ -173,7 +208,7 @@ def collect_sources() -> list:
         base = ROOT / sub
         if base.is_dir():
             for fp in sorted(base.glob(pattern)):
-                if fp.is_file():
+                if fp.is_file() and _should_scan_wiring(fp):
                     sources.append((fp, False, "WIRING"))
     return sources
 
