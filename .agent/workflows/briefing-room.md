@@ -35,4 +35,10 @@ Both modes inherit the Farrice Cain Premium Minimal report dialect and include
 `brand-contract.json`; portable exports must not introduce a competing theme,
 banner, font system, or decorative palette.
 
+For a true client edition, curate presentation-only brief JSON in a separate
+directory and pass `--brief-root <directory>`. Do not treat a mechanical share
+render of an internal dossier as editorial approval. The final package must
+exclude local provenance, commit identifiers, private operating language, and
+internal asset names; every claim keeps its evidence label and proof boundary.
+
 Full authoring/rendering doctrine (schema, section kinds, mission reports, context packs): `.agent/workflows/briefs.md`. Cards carry `path` (copy .md abs path — file-access tools) and `copy brief` (entire brief inline — chat LLMs). Brief JSONs may set `category` (string) + `priority` (1-3) for the sidebar; both optional.

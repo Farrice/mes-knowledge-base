@@ -55,6 +55,30 @@ class BriefExportTests(unittest.TestCase):
         self.assertIn("'Helvetica Neue'", document)
         self.assertNotIn("#18202a", document)
 
+    def test_share_html_removes_internal_source_commentary(self) -> None:
+        document = '''<html><head><style>/* _active/private source */</style></head>
+<body><!-- internal note --><script>\n// Every internal link uses a local path\nconst safe = true;</script></body></html>'''
+        cleaned = brief_export.sanitize_share_html(document)
+        self.assertNotIn("_active/private", cleaned)
+        self.assertNotIn("internal note", cleaned)
+        self.assertNotIn("Every internal link", cleaned)
+        self.assertNotIn("<script", cleaned)
+
+    def test_client_brand_contract_omits_repo_provenance(self) -> None:
+        contract = brief_export.client_brand_contract()
+        self.assertNotIn("source_provenance", contract)
+        self.assertEqual(contract["name"], "Farrice Cain Premium Minimal")
+
+    def test_share_index_uses_client_language(self) -> None:
+        document = brief_export.build_index("Client Room", "share", [{
+            "slug": "fixture",
+            "meta": {"title": "one useful *decision*", "chip": "CLIENT BRIEF", "dek": "Clear evidence."},
+        }])
+        self.assertIn("CLIENT EDITION", document)
+        self.assertIn("About this room", document)
+        self.assertNotIn("PORTABLE BRIEFING ROOM · SHARE", document)
+        self.assertNotIn(">Manifest<", document)
+
     def test_zip_slip_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             archive = Path(tmp) / "bad.zip"

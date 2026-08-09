@@ -130,11 +130,11 @@ def source_commit() -> str | None:
         return None
 
 
-def list_slugs() -> list[str]:
+def list_slugs(brief_root: Path = BRIEFS) -> list[str]:
     slugs = []
-    if not BRIEFS.exists():
+    if not brief_root.exists():
         return slugs
-    for directory in sorted(BRIEFS.iterdir()):
+    for directory in sorted(brief_root.iterdir()):
         if directory.is_dir() and (directory / f"{directory.name}-brief.json").exists():
             slugs.append(directory.name)
     return slugs
@@ -146,10 +146,10 @@ def validate_slug(slug: str) -> str:
     return slug
 
 
-def brief_files(slug: str) -> dict[str, Path | None]:
+def brief_files(slug: str, brief_root: Path = BRIEFS, audience: str = "private") -> dict[str, Path | None]:
     slug = validate_slug(slug)
-    directory = (BRIEFS / slug).resolve()
-    if not _inside(directory, BRIEFS.resolve()) or not directory.is_dir():
+    directory = (brief_root / slug).resolve()
+    if not _inside(directory, brief_root.resolve()) or not directory.is_dir():
         fail(f"brief not found: {slug}")
     paths: dict[str, Path | None] = {
         "dir": directory,
@@ -158,7 +158,8 @@ def brief_files(slug: str) -> dict[str, Path | None]:
         "json": directory / f"{slug}-brief.json",
         "context": directory / f"{slug}-context.json",
     }
-    for key in ("html", "md", "json"):
+    required = ("json",) if audience == "share" else ("html", "md", "json")
+    for key in required:
         path = paths[key]
         if not path or not path.is_file():
             fail(f"{slug} is missing required {key} artifact")
@@ -349,7 +350,34 @@ def render_share_html(meta: dict) -> str:
         output = render_brief.render(meta, share=True)
     except Exception as exc:
         fail(f"share render failed for {meta.get('slug')}: {exc}")
-    return sanitize_source_roots(apply_portable_brand_chrome(output, "CLIENT EDITION"))
+    return sanitize_share_html(apply_portable_brand_chrome(output, "CLIENT EDITION"))
+
+
+def sanitize_share_html(document: str) -> str:
+    """Remove internal implementation commentary and reject local provenance."""
+    document = sanitize_source_roots(document)
+    document = re.sub(r"<!--.*?-->", "", document, flags=re.DOTALL)
+    document = re.sub(r"/\*.*?\*/", "", document, flags=re.DOTALL)
+    # Client briefs are static reading surfaces. Removing the template runtime
+    # eliminates repository link-rewrite code and nonessential copy controls.
+    document = re.sub(r"<script\b[^>]*>.*?</script>", "", document,
+                      flags=re.DOTALL | re.IGNORECASE)
+    document = re.sub(r'<button\b[^>]*class="[^"]*copybtn[^"]*"[^>]*>.*?</button>', "", document,
+                      flags=re.DOTALL | re.IGNORECASE)
+    document = re.sub(
+        r"<tr>.*?(?:source-repo://|file://).*?</tr>", "", document,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+    forbidden = ("source-repo://", "file://", str(ROOT), str(CANONICAL_ROOT))
+    leaked = [token for token in forbidden if token and token in document]
+    if leaked:
+        fail(f"share HTML retained local provenance token(s): {', '.join(leaked)}")
+    return document
+
+
+def client_brand_contract() -> dict:
+    """Return the client-visible brand law without repository provenance."""
+    return {key: value for key, value in BRAND_CONTRACT.items() if key != "source_provenance"}
 
 
 def accent_text(value: str, fallback_last: bool = False) -> str:
@@ -391,11 +419,17 @@ def build_index(title: str, audience: str, briefs: list[dict]) -> str:
         )
     private = audience == "private"
     mode_value = "Private working library" if private else "Client edition"
-    context_value = "Included · agent-ready" if private else "Presentation HTML only"
+    context_value = "Included · agent-ready" if private else "Curated · presentation ready"
     note = (
         "Private internal export. It may contain candid strategy and source documents; use a client edition for outward sharing."
         if private else
-        "A focused portable collection prepared for client review."
+        "A focused collection of source-grounded GTM methods and decisions, with proof boundaries kept visible."
+    )
+    edition_label = "PRIVATE" if private else "CLIENT EDITION"
+    tool_links = (
+        '<a href="README.md">Read me</a><a href="manifest.json">Manifest</a>'
+        '<a href="brand-contract.json">Brand contract</a>'
+        if private else '<a href="README.md">About this room</a>'
     )
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -415,12 +449,12 @@ main{{padding:0 0 84px}}.notice{{border-left:2px solid var(--steel);color:var(--
 .chip{{display:block;color:var(--stone);margin-bottom:9px}}h2{{font:700 25px/1.12 var(--sans);letter-spacing:-.018em;margin:0;max-width:30ch}}.brief-copy p{{font-size:12.5px;line-height:1.55;color:var(--graphite);max-width:64ch;margin:9px 0 0}}.links{{display:flex;justify-content:flex-end;gap:14px;flex-wrap:wrap;padding-top:24px}}
 footer{{display:flex;justify-content:space-between;gap:18px;border-top:2px solid var(--ink);padding:14px 0 42px;color:var(--stone);font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}
 @media(max-width:760px){{.shell{{width:min(100% - 32px,1120px)}}header{{padding:52px 0 36px}}.hero{{grid-column:1/-1}}.proof{{grid-template-columns:1fr}}.proof>div+div{{border-left:0;border-top:1px solid var(--line);padding-left:0}}.tools{{display:flex;gap:12px;flex-direction:column;align-items:stretch}}.search{{width:100%}}.tool-links{{justify-content:flex-start}}.brief-row{{grid-template-columns:44px 1fr;gap:14px}}.links{{grid-column:2;justify-content:flex-start;padding-top:4px}}.masthead{{align-items:flex-start;flex-direction:column;gap:5px}}}}
-</style></head><body><div class="shell"><div class="masthead"><span>FARRICE CAIN</span><span class="mode">PORTABLE BRIEFING ROOM · {audience.upper()}</span></div>
+</style></head><body><div class="shell"><div class="masthead"><span>FARRICE CAIN</span><span class="mode">PORTABLE BRIEFING ROOM · {edition_label}</span></div>
 <header><div class="hero"><div class="eyebrow">CURATED INTELLIGENCE · PORTABLE LIBRARY</div><h1>{accent_text(title, fallback_last=True)}</h1>
 <p class="dek">A self-contained decision library built to travel without visual or evidentiary drift.</p></div>
 <div class="proof"><div><span class="k">Mode</span><span class="v">{html.escape(mode_value)}</span></div><div><span class="k">Context</span><span class="v">{html.escape(context_value)}</span></div><div><span class="k">Portability</span><span class="v">Verified · repository independent</span></div></div></header><main>
 <p class="notice">{html.escape(note)}</p><div class="tools"><div class="search"><input id="q" placeholder="Search the room" aria-label="Search briefs"></div>
-<div class="tool-links"><a href="README.md">Read me</a><a href="manifest.json">Manifest</a><a href="brand-contract.json">Brand contract</a></div></div><section class="brief-list">{''.join(rows)}</section></main>
+<div class="tool-links">{tool_links}</div></div><section class="brief-list">{''.join(rows)}</section></main>
 <footer><span>FARRICE CAIN · PORTABLE BRIEFING ROOM</span><span>PREMIUM MINIMAL · REPORT DIALECT</span></footer></div>
 <script>const q=document.getElementById('q');q.addEventListener('input',()=>{{const v=q.value.toLowerCase();document.querySelectorAll('.brief-row').forEach(c=>c.hidden=!c.dataset.search.includes(v));}});</script>
 </body></html>'''
@@ -439,10 +473,10 @@ def build_readme(title: str, audience: str, slugs: list[str], omissions: list[di
         )
     else:
         warning = (
-            "This is a SHARE export. Mechanical internals were stripped, but authored prose "
-            "was not editorially redacted. Review every brief before sending it."
+            "This client edition contains presentation HTML and public source links only. "
+            "Each brief keeps its evidence status and proof boundary visible."
         )
-        ai_use = "This mode contains presentation HTML only; it is not an agent context package."
+        ai_use = "This edition is designed for reading and review, not as an AI context package."
     omitted_line = (
         f"The manifest records {len(omissions)} omitted context item(s) with reasons."
         if omissions else "No requested context items were omitted."
@@ -460,15 +494,16 @@ The visual source of truth travels with the bundle as `brand-contract.json`.
 It records the approved Farrice Cain Premium Minimal palette, Helvetica Neue
 typography, report-dialect exception, grid law, and prohibited visual signals.
 
-## Verify
+## File integrity
 
-Run `python3 verify.py .` from this folder. It checks every manifest hash, local link, and portable context path.
+The included `verify.py` can check every manifest hash and local link. This step
+is optional for normal reading.
 
 ## Use with an AI
 
 {ai_use}
 
-`source-repo://...` labels preserve the original repository identity; they are provenance labels, not required local paths.
+{("`source-repo://...` labels preserve the original repository identity; they are provenance labels, not required local paths." if audience == "private" else "Every source link retained in the briefs points to a public webpage.")}
 
 ## Included briefs
 
@@ -492,7 +527,10 @@ def make_zip(bundle: Path) -> tuple[Path, str]:
 
 
 def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
-    slugs = list_slugs() if args.all else [validate_slug(slug) for slug in args.slugs]
+    brief_root = Path(args.brief_root).expanduser().resolve() if args.brief_root else BRIEFS
+    if not brief_root.is_dir():
+        fail(f"brief source directory not found: {brief_root}")
+    slugs = list_slugs(brief_root) if args.all else [validate_slug(slug) for slug in args.slugs]
     slugs = list(dict.fromkeys(slugs))
     if not slugs:
         fail("choose one or more brief slugs, or pass --all")
@@ -527,13 +565,13 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
     try:
         loaded: list[dict] = []
         for slug in slugs:
-            paths = brief_files(slug)
+            paths = brief_files(slug, brief_root, args.audience)
             try:
                 meta = json.loads(paths["json"].read_text(encoding="utf-8"))
             except (OSError, ValueError) as exc:
                 fail(f"{slug} brief JSON is unreadable: {exc}")
             meta.setdefault("slug", slug)
-            pack, pack_source = load_context_pack(meta, paths)
+            pack, pack_source = load_context_pack(meta, paths) if args.audience == "private" else ({}, None)
             loaded.append({"slug": slug, "paths": paths, "meta": meta, "pack": pack, "pack_source": pack_source})
 
         if args.audience == "private":
@@ -583,7 +621,7 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
             if args.audience == "share":
                 out_html = brief_dir / artifacts["html"]
                 out_html.write_text(render_share_html(meta), encoding="utf-8")
-                record_file(out_html, "share-html", paths["json"], paths["json"].relative_to(ROOT).as_posix())
+                record_file(out_html, "share-html")
             else:
                 out_md = brief_dir / f"{slug}-brief.md"
                 out_json = brief_dir / f"{slug}-brief.json"
@@ -668,14 +706,18 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
         brand_path = stage / "brand-contract.json"
         index_path.write_text(build_index(title, args.audience, brief_records), encoding="utf-8")
         readme_path.write_text(build_readme(title, args.audience, slugs, omissions), encoding="utf-8")
-        brand_path.write_text(json.dumps(BRAND_CONTRACT, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        brand_contract = BRAND_CONTRACT if args.audience == "private" else client_brand_contract()
+        brand_path.write_text(json.dumps(brand_contract, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         shutil.copy2(VERIFY_SOURCE, stage / "verify.py")
         record_file(index_path, "bundle-index")
         record_file(readme_path, "bundle-readme")
         record_file(brand_path, "brand-contract")
-        record_file(stage / "verify.py", "bundle-verifier", VERIFY_SOURCE, "execution/verify_brief_export.py")
+        if args.audience == "private":
+            record_file(stage / "verify.py", "bundle-verifier", VERIFY_SOURCE, "execution/verify_brief_export.py")
+        else:
+            record_file(stage / "verify.py", "bundle-verifier")
 
-        commit = source_commit()
+        commit = source_commit() if args.audience == "private" else None
         identity_seed = json.dumps({"slugs": slugs, "audience": args.audience, "commit": commit}, sort_keys=True)
         manifest = {
             "schema_version": SCHEMA_VERSION,
@@ -684,7 +726,7 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
             "audience": args.audience,
             "warning": (
                 "PRIVATE INTERNAL EXPORT — do not send as-is" if args.audience == "private"
-                else "SHARE EXPORT — authored prose still requires human review"
+                else "CLIENT EDITION — presentation-only; proof boundaries remain explicit"
             ),
             "brand": {
                 "name": BRAND_CONTRACT["name"],
@@ -692,13 +734,14 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
                 "contract": "brand-contract.json",
             },
             "generated_at": datetime.now(timezone.utc).isoformat(),
-            "source_commit": commit,
             "briefs": [{k: v for k, v in row.items() if k != "meta"} for row in brief_records],
             "files": [records[key] for key in sorted(records)],
             "omissions": omissions,
             "limits": {"max_file_mb": args.max_file_mb, "max_total_context_mb": args.max_total_mb},
             "integrity_note": "SHA-256 proves file integrity only; it does not validate authored claims.",
         }
+        if commit:
+            manifest["source_commit"] = commit
         (stage / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
         os.replace(stage, output)
@@ -726,6 +769,8 @@ def main() -> int:
     parser.add_argument("--title", help="title shown on the portable index")
     parser.add_argument("--audience", choices=("private", "share"), default="private",
                         help="private includes context; share renders stripped HTML only")
+    parser.add_argument("--brief-root",
+                        help="share mode only: alternate directory of curated <slug>/<slug>-brief.json files")
     parser.add_argument("--zip", action="store_true", help="also create <output>.zip")
     parser.add_argument("--include-hidden", action="store_true",
                         help="private mode only: allow hidden repo paths except secrets and .git")
@@ -740,6 +785,8 @@ def main() -> int:
         fail("use explicit slugs or --all, not both")
     if args.include_hidden and args.audience != "private":
         fail("--include-hidden is only valid for private exports")
+    if args.brief_root and args.audience != "share":
+        fail("--brief-root is only valid for share exports")
     if args.max_file_mb <= 0 or args.max_total_mb <= 0:
         fail("size limits must be positive")
     export_bundle(args)

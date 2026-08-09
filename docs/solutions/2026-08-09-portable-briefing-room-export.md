@@ -45,3 +45,17 @@ Markdown, or provenance files. Browser QA passed at 1440px desktop and an exact
 **Operating rule:** Use private mode for Farrice-owned working libraries and
 share mode for outward review. A share export still needs a human prose review;
 mechanical stripping is not editorial approval.
+
+**Client-edition hardening:** `--brief-root` lets the share exporter render a
+separate JSON-only editorial source without changing the private canonical
+brief. Client mode removes template scripts, implementation comments, local
+provenance rows, source commit metadata, source-repository hashes, and internal
+brand-source paths. Its index exposes only the client README and uses client
+language rather than technical share-mode labels.
+
+**Client proof:** The three-brief Evidence-First GTM Intelligence Room was
+rewritten as method, applied decision, and public-market verdict. A visible-copy
+scan found no private offer nickname, repository term, local path, internal
+asset name, or operator-control language. Folder and ZIP verification passed
+with seven hashed files, zero omissions, and all local links resolved. Desktop
+and exact 390px mobile browser QA passed with no horizontal overflow.

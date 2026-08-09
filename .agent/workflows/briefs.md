@@ -84,6 +84,11 @@ python3 execution/brief_export.py \
 python3 execution/brief_export.py <slug> --audience share \
   --output "/path/to/client-review" --zip
 
+# Editorially curated client source (JSON only; private source records untouched)
+python3 execution/brief_export.py <client-slug> --audience share \
+  --brief-root "/path/to/curated-client-briefs" \
+  --output "/path/to/client-edition" --zip
+
 # Verify either the folder or ZIP
 python3 execution/verify_brief_export.py "/path/to/GTM Intelligence Room.zip"
 ```
@@ -99,8 +104,11 @@ MiB total context; oversized evidence is omitted with a reason rather than
 silently bloating the bundle.
 
 Share mode delegates to `render_brief.py`'s existing `share=True` contract. It
-contains no Markdown mirror, provenance JSON, context pack, or local evidence.
-Mechanical internals are stripped, but authored prose still requires review.
+contains no Markdown mirror, provenance JSON, context pack, local evidence,
+repository commit, or internal brand-source paths. Implementation comments and
+local provenance are stripped. Authored prose still requires editorial review;
+`--brief-root` accepts a curated JSON-only source without changing the private
+canonical brief.
 
 Every bundle contains `index.html`, `README.md`, `manifest.json`,
 `brand-contract.json`, and a portable `verify.py`. The brand contract travels
