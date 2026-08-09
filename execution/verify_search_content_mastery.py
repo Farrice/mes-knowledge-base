@@ -36,15 +36,30 @@ CORPUS_IDS = (
     "6o0mabKRmIo",
     "LiLD7_tjn4o",
 )
+# 2026-08-08 re-baseline: the only content deltas since the original pins were
+# (a) the ratified _active arena sweep (commit 91a30ab40) rewriting internal
+# paths (linkedin-launch -> linkedin, health-performance-ip-library ->
+# knowledge/...), verified line-by-line, and (b) daily-engine appends to the
+# two ledgers. Docs stay full-hash pinned; ledgers are append-only living
+# files, so they are guarded by PREFIX immutability below — history may never
+# be rewritten, appends are the engine doing its job.
 PROTECTED_HASHES = {
-    "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md": "d02422402dd4d9435510d06d44b3c65385e1cab295e1c6c1d1e30b11011abe1b",
+    "_active/knowledge/health-performance-ip-library/AUTOMATION_PROMPT.md": "0f566418bb53eeec8aba47e3350ad5ee1f788c3101e8ce8114c7922a36b2cc10",
     "_active/linkedin/04-deliverables/context-os/02-OFFER-CANON.md": "e485f8f386e085710dd5985de0dfe12612be715ed7a9298ebfd7da9975c92b05",
-    "_active/knowledge/health-performance-ip-library/ledger/insights.jsonl": "2400d50880c5164065ea624315dc8cb8606fb98ab216693969577db09ca43fd5",
-    "_active/knowledge/health-performance-ip-library/ledger/promises-not-kept.jsonl": "6dcc0663f26bf119dddac05d2ba5a2b5df1ad95dc6afb88662f865ada8df7a70",
+}
+# ref -> (pinned_prefix_bytes, sha256 of that prefix)
+PROTECTED_LEDGER_PREFIXES = {
+    "_active/knowledge/health-performance-ip-library/ledger/insights.jsonl": (
+        426257, "ba6fba01638d5d68c70aae71e91004e652cd9b5f097e2d94da3c93ffecf39f9f",
+    ),
+    "_active/knowledge/health-performance-ip-library/ledger/promises-not-kept.jsonl": (
+        22133, "abbe9f2ce592e1d15408c4d943268ba4b996af4b8a71f81dfb0514d37ed4a8fa",
+    ),
 }
 ROUTING_QUERY = "build a source-grounded SEO AEO GEO content system that can audit plan create score and measure"
 ROUTING_FIXTURE = FIXTURES / "routing" / "natural-language.json"
-ANGLE_MAP_PROTOTYPE = ROOT / "_active" / "search-content-mastery" / "angle-map-search-answer-prototype"
+# 2026-08-08: arena sweep (commit 91a30ab40) moved this under _active/knowledge/.
+ANGLE_MAP_PROTOTYPE = ROOT / "_active" / "knowledge" / "search-content-mastery" / "angle-map-search-answer-prototype"
 
 
 def utc_now() -> str:
@@ -229,6 +244,48 @@ def verify_reused_sources() -> dict[str, Any]:
     return result
 
 
+# Ratified repo-layout renames that occurred AFTER the pilot receipts were
+# recorded (2026-08-07 arena sweep 87863f829 + 91a30ab40). Receipts are
+# records and are never rewritten; instead recorded paths/hashes are resolved
+# through this explicit map. Any change beyond these exact renames still fails.
+ARENA_RENAMES = (
+    ("_active/search-content-mastery/", "_active/knowledge/search-content-mastery/"),
+    ("_active/health-performance-ip-library/", "_active/knowledge/health-performance-ip-library/"),
+    ("_active/linkedin-launch/", "_active/linkedin/"),
+)
+
+
+def resolve_recorded_path(raw: str) -> Path:
+    """Resolve a receipt-recorded absolute path against the current tree.
+
+    Pilot receipts recorded paths inside the codex worktree lane
+    (.tmp/codex-worktrees/<lane>/...) which merged to main and was removed.
+    """
+    path = Path(raw)
+    if path.exists():
+        return path
+    text = str(raw)
+    marker = "/.tmp/codex-worktrees/"
+    if marker in text:
+        remainder = text.split(marker, 1)[1]
+        rel = remainder.split("/", 1)[1] if "/" in remainder else remainder
+        candidates = [rel] + [rel.replace(old, new) for old, new in ARENA_RENAMES]
+        for candidate in candidates:
+            resolved = ROOT / candidate
+            if resolved.exists():
+                return resolved
+    return path
+
+
+def sweep_reverted_hash(asset: Path) -> str:
+    """Hash of the asset with the ratified arena renames reverted — proves the
+    content is byte-identical to the receipt-time content modulo those renames."""
+    data = asset.read_bytes()
+    for old, new in ARENA_RENAMES:
+        data = data.replace(new.encode("utf-8"), old.encode("utf-8"))
+    return hashlib.sha256(data).hexdigest()
+
+
 def verify_protected_files() -> dict[str, str]:
     observed: dict[str, str] = {}
     for ref, expected in PROTECTED_HASHES.items():
@@ -239,6 +296,19 @@ def verify_protected_files() -> dict[str, str]:
         if actual != expected:
             raise AssertionError(f"protected file changed: {ref}; expected {expected}, observed {actual}")
         observed[ref] = actual
+    for ref, (prefix_len, expected) in PROTECTED_LEDGER_PREFIXES.items():
+        path = ROOT / ref
+        if not path.exists():
+            raise AssertionError(f"protected ledger missing: {ref}")
+        data = path.read_bytes()
+        if len(data) < prefix_len:
+            raise AssertionError(f"protected ledger truncated below pinned history: {ref}")
+        actual = hashlib.sha256(data[:prefix_len]).hexdigest()
+        if actual != expected:
+            raise AssertionError(
+                f"protected ledger history rewritten: {ref}; expected prefix {expected}, observed {actual}"
+            )
+        observed[ref] = f"prefix-intact+{len(data) - prefix_len}b-appended"
     return observed
 
 
@@ -562,7 +632,7 @@ def verify_record_schemas() -> dict[str, Any]:
     except ImportError as exc:  # pragma: no cover - environment proof boundary
         raise AssertionError("jsonschema is required for the acceptance verifier") from exc
 
-    pilot_pack = ROOT / "_active" / "search-content-mastery" / "health-performance-pilot" / "project-pack"
+    pilot_pack = ROOT / "_active" / "knowledge" / "search-content-mastery" / "health-performance-pilot" / "project-pack"
     service_files = sorted((pilot_pack / "receipts").glob("service-*.json"))
     brief_files = sorted((pilot_pack / "briefs").glob("brief-*.json"))
     if not service_files or not brief_files:
@@ -572,7 +642,7 @@ def verify_record_schemas() -> dict[str, Any]:
         for path in service_files
     ]
     service_path, service_record = max(service_records, key=lambda item: item[1]["created_at"])
-    score_path = Path(service_record["artifacts"]["evaluation_receipt"])
+    score_path = resolve_recorded_path(service_record["artifacts"]["evaluation_receipt"])
     instances: dict[str, Path] = {
         "search-project-manifest.schema.json": pilot_pack / "manifest.json",
         "search-brief.schema.json": brief_files[-1],
@@ -603,7 +673,7 @@ def verify_record_schemas() -> dict[str, Any]:
 
 
 def verify_service_pilot() -> dict[str, Any]:
-    pilot = ROOT / "_active" / "search-content-mastery" / "health-performance-pilot"
+    pilot = ROOT / "_active" / "knowledge" / "search-content-mastery" / "health-performance-pilot"
     manifest = pilot / "project-pack" / "manifest.json"
     service_map = pilot / "service-artifacts.json"
     behavior_proof = pilot / "behavior-proof.md"
@@ -702,12 +772,14 @@ def verify_angle_map_application() -> dict[str, Any]:
     ]
 
     def current_score(asset: Path) -> tuple[Path, dict[str, Any]]:
-        asset_hash = sha256(asset)
+        # Accept the receipt-time hash when the only delta is the ratified
+        # arena renames (see ARENA_RENAMES); any substantive edit still fails.
+        acceptable_hashes = {sha256(asset), sweep_reverted_hash(asset)}
         matches = [
             (path, record)
             for path, record in score_records
             if Path(str(record.get("content_ref", ""))).name == asset.name
-            and record.get("content_hash") == asset_hash
+            and record.get("content_hash") in acceptable_hashes
         ]
         if not matches:
             raise AssertionError(f"no current score receipt matches {asset.name} and its hash")

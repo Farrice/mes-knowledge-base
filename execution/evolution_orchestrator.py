@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 Evolution Orchestrator — Closes the Phase 1-4 loop (Fix 4 / 2026-04-25).
 
 The audit (_active/harness/system-audit/audit-2026-04-24.md) found that Phase 1-4

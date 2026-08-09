@@ -205,6 +205,13 @@ DELIVERABLE_VERBS = (
     "make",
     "turn",
     "convert",
+    "apply",
+    "run",
+    "use",
+    "execute",
+    "invoke",
+    "test",
+    "evaluate",
 )
 
 SYSTEM_ACTION_TERMS = (
@@ -315,13 +322,29 @@ def _looks_like_repair_status_review(query: str) -> bool:
             query,
         )
     )
-    has_direct_task_request = bool(
+    has_direct_task_request = any(
+        re.search(rf"\b{re.escape(term)}\b", query) for term in DELIVERABLE_VERBS
+    )
+    return has_status_question and has_repair_state and has_negative_or_mismatch and not has_direct_task_request
+
+
+def _looks_like_bare_failed_repair_complaint(query: str) -> bool:
+    """Preserve the narrow operator-core complaint without catching task reviews.
+
+    The control plane intentionally owns bare aftermath complaints such as
+    "nothing was fixed that I wanted", even when the user does not repeat the
+    words router, hook, or Codex. Keep that contract explicit instead of letting
+    every "show what changed; do not ..." prompt inherit system-audit.
+    """
+
+    has_failed_result = bool(
         re.search(
-            r"\b(write|draft|create|generate|build|design|research|compose|produce|rewrite|make|turn|convert)\b",
+            r"\b(nothing|none)\b[^.!?]{0,80}\b(fixed|repaired|changed|resolved|implemented)\b",
             query,
         )
     )
-    return has_status_question and has_repair_state and has_negative_or_mismatch and not has_direct_task_request
+    has_operator_mismatch = bool(re.search(r"\b(wanted|asked|expected)\b", query))
+    return has_failed_result and has_operator_mismatch
 
 
 def classify_control_intent(prompt: str) -> dict[str, Any]:
@@ -365,11 +388,16 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     action_hits = _word_hits(q, SYSTEM_ACTION_TERMS)
     content_context = bool(_word_hits(q, CONTENT_DOMAIN_TERMS))
     repeatability_hits = _hits(q, REPEATABILITY_TERMS)
-    # A repair/status review loses to content-domain context — "why wasn't the
-    # email fixed" is a content revision complaint, not a control-plane one.
-    # A bare "nothing was fixed that I wanted" (no domain nouns) stays with
-    # /system-audit per the operator-core probe contract.
-    repair_status_review = _looks_like_repair_status_review(q) and not content_context
+    # A repair/status review needs actual control-surface evidence. Without
+    # this guard, ordinary capability requests such as "apply the overlay,
+    # show what changed, do not promote" look like failed system repairs.
+    # Preserve the narrow bare aftermath complaint required by Operator Core.
+    bare_failed_repair_complaint = _looks_like_bare_failed_repair_complaint(q)
+    repair_status_review = (
+        _looks_like_repair_status_review(q)
+        and not content_context
+        and (bool(anchor_hits or surface_hits) or bare_failed_repair_complaint)
+    )
 
     embedded_system_repair_plan = bool(
         repeatability_hits

@@ -65,6 +65,13 @@ def build_tree(td: Path):
     (td / "execution" / "wired_script.py").write_text("# referenced\n")
     (td / "execution" / "orphan_script.py").write_text("# unreferenced\n")
     (td / "execution" / "verify_something.py").write_text("# fleet-run\n")
+    # 2026-08-08: wiring_audit now PROVES verify_* against verify_fleet.discover()
+    # instead of assuming the Sunday glob (commit f95856763). The fixture tree
+    # carries the real runner so that proof path is exercised, not stubbed.
+    (td / "execution" / "verify_fleet.py").write_text(
+        (Path(__file__).resolve().parent / "verify_fleet.py").read_text(encoding="utf-8"),
+        encoding="utf-8",
+    )
     (td / "execution" / "hooks" / "wired_hook.py").write_text("# hook\n")
     (td / "execution" / "hooks" / "orphan_hook.py").write_text("# hook\n")
     (td / "execution" / "_archived_verifiers" / "verify_dead.py").write_text("#\n")

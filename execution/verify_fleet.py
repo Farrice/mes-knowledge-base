@@ -45,9 +45,17 @@ FLEET_JSON = HEALTH_DIR / "verify-fleet.json"     # consumed by 4 scripts — na
 OUTPUT_JSON = HEALTH_DIR / "fleet.json"
 OUTPUT_MD = HEALTH_DIR / "fleet-report.md"
 
-PER_SCRIPT_TIMEOUT = 90
+PER_SCRIPT_TIMEOUT = 180
 MAX_PARALLEL = 6
 SELF = Path(__file__).name
+
+# Verifiers measured slower than the default budget (2026-08-08 triage, solo
+# runs on this machine). A budget below reality manufactures false TIMEOUTs —
+# five of the six "timeouts" in the first honest fleet run passed standalone.
+# This raises the ceiling for named heavyweights; it never weakens a check.
+SLOW_BUDGET = {
+    "verify_system_control_plane.py": 480,  # ~6 min — runs other verifiers as helpers
+}
 
 # Rollups produced by other tools. Aggregated ONLY when fresher than this run.
 TIER_ARTIFACTS = [
@@ -67,11 +75,12 @@ def discover() -> list[Path]:
 
 def run_one(script: Path) -> dict:
     t0 = time.time()
+    budget = SLOW_BUDGET.get(script.name, PER_SCRIPT_TIMEOUT)
     try:
         proc = subprocess.run(
             [sys.executable, str(script)],
             capture_output=True, text=True,
-            timeout=PER_SCRIPT_TIMEOUT, cwd=str(REPO_ROOT),
+            timeout=budget, cwd=str(REPO_ROOT),
         )
         secs = round(time.time() - t0, 1)
         if proc.returncode == 0:
@@ -82,7 +91,7 @@ def run_one(script: Path) -> dict:
                 "secs": secs}
     except subprocess.TimeoutExpired:
         return {"script": script.name, "status": "TIMEOUT",
-                "detail": f"exceeded {PER_SCRIPT_TIMEOUT}s", "secs": PER_SCRIPT_TIMEOUT}
+                "detail": f"exceeded {budget}s", "secs": budget}
     except Exception as e:  # a verifier that cannot start is a FINDING, not silence
         return {"script": script.name, "status": "ERROR",
                 "detail": f"{type(e).__name__}: {e}"[:200],

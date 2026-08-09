@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-08T17:20:06",
+  "ts": "2026-08-08T19:22:27",
   "window_hours": 24.0,
-  "since": "2026-08-07T17:20:05",
+  "since": "2026-08-07T19:22:25",
   "overall": "PROVEN",
   "tally": {
-    "PROVEN": 43
+    "PROVEN": 44
   },
   "artifacts": [
     {
@@ -13,7 +13,7 @@
       "verdict": "PROVEN",
       "detail": "clean (0 stray token(s), trip at 5)",
       "postmarked": true,
-      "mtime": "2026-08-08T06:27"
+      "mtime": "2026-08-08T18:35"
     },
     {
       "path": ".agent/mdview/claude-md.html",
@@ -21,7 +21,15 @@
       "verdict": "PROVEN",
       "detail": "clean (0 stray token(s), trip at 5)",
       "postmarked": true,
-      "mtime": "2026-08-08T11:24"
+      "mtime": "2026-08-08T18:33"
+    },
+    {
+      "path": ".agent/mdview/index.html",
+      "class": "rendered",
+      "verdict": "PROVEN",
+      "detail": "clean (0 stray token(s), trip at 5)",
+      "postmarked": true,
+      "mtime": "2026-08-08T18:36"
     },
     {
       "path": ".agent/missions/mission-control.html",
@@ -29,7 +37,7 @@
       "verdict": "PROVEN",
       "detail": "clean (0 stray token(s), trip at 5)",
       "postmarked": true,
-      "mtime": "2026-08-08T11:50"
+      "mtime": "2026-08-08T18:35"
     },
     {
       "path": ".agent/oracle/oracle-dashboard.html",
@@ -37,7 +45,7 @@
       "verdict": "PROVEN",
       "detail": "clean (0 stray token(s), trip at 5)",
       "postmarked": true,
-      "mtime": "2026-08-07T22:17"
+      "mtime": "2026-08-08T18:35"
     },
     {
       "path": ".agent/pulse/pulse-board.html",
@@ -45,7 +53,7 @@
       "verdict": "PROVEN",
       "detail": "clean (0 stray token(s), trip at 5)",
       "postmarked": true,
-      "mtime": "2026-08-08T10:01"
+      "mtime": "2026-08-08T18:51"
     },
     {
       "path": "deliverables/research-briefs/index.html",
@@ -53,7 +61,7 @@
       "verdict": "PROVEN",
       "detail": "clean (0 stray token(s), trip at 5)",
       "postmarked": true,
-      "mtime": "2026-08-08T11:46"
+      "mtime": "2026-08-08T18:36"
     },
     {
       "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief-share.html",

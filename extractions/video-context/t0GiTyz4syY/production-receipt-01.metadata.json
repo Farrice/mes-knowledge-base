@@ -1,0 +1,15 @@
+{
+  "title": "Production Receipt 01: Systems-Thinking Extraction Architecture",
+  "artifact_type": "production-receipt",
+  "source_id": "t0GiTyz4syY",
+  "receipt_number": 1,
+  "task_type": [
+    "System",
+    "Extraction"
+  ],
+  "overlay_mode": "SHADOW",
+  "verdict": "KEEP_SHADOW",
+  "promotion_state": "1_of_3_receipts_no_blind_comparison",
+  "runtime_enforcement_added": false,
+  "promotion_authorized": false
+}

@@ -62,3 +62,7 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 - `deep-research` -> `nba-betting-edge` (manual load, 2026-08-06T08:03:59.346606)
 - `extract-forge` -> `mark-forsyth-rhetoric` (manual load, 2026-08-06T14:16:45.557642)
 - `extract-forge` -> `sam-vander-wielen` (manual load, 2026-08-06T14:03:56.729085)
+
+## 2026-08-08
+
+- `extract-forge` -> `youtube-video-context-analysis` (manual load, 2026-08-08T07:31:27.879403)

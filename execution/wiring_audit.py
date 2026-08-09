@@ -213,6 +213,11 @@ def prove(key: str, c: Corpus) -> tuple[str, str]:
                 spec.loader.exec_module(vf)
                 if any(p.name == base for p in vf.discover()):
                     return "PROVEN", "verify_* — confirmed in verify_fleet.discover()"
+                if base == "verify_fleet.py":
+                    # The runner excludes itself from its own glob by design;
+                    # the probe just loaded it and executed its discovery — that
+                    # IS the liveness proof for the runner itself (2026-08-08).
+                    return "PROVEN", "the fleet runner itself — discovery executed by this probe"
                 return "ORPHAN", "verify_* but NOT discovered by verify_fleet.discover()"
             except Exception as e:
                 return "ORPHAN", f"verify_* — fleet discovery unprovable ({type(e).__name__})"

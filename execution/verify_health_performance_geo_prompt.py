@@ -15,13 +15,20 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-PROMPT = ROOT / "_active" / "health-performance-ip-library" / "AUTOMATION_PROMPT.md"
+# 2026-08-08: library moved into the knowledge arena (commit 91a30ab40 sweep).
+PROMPT = ROOT / "_active" / "knowledge" / "health-performance-ip-library" / "AUTOMATION_PROMPT.md"
 
 
 # The prompt version evolves (3.4 -> 3.5 -> ...); the guard is that a Version
-# line exists and still declares the Market-Domain Creative Intelligence
-# identity, not that one frozen number stays pinned.
-VERSION_PATTERN = re.compile(r"^Version:\s*\d+(\.\d+)*\s+Market-Domain Creative Intelligence", re.MULTILINE)
+# line exists and still declares the engine identity, not that one frozen
+# number stays pinned. 2026-08-08: v4.0 deliberately renamed the identity to
+# "Content Factory" (GEO daily brief + insight brief fused into one listening
+# engine); the anti-GLP-1-capture clauses below are the real guard and are
+# unchanged.
+VERSION_PATTERN = re.compile(
+    r"^Version:\s*\d+(\.\d+)*\s+(Market-Domain Creative Intelligence|Content Factory)",
+    re.MULTILINE,
+)
 
 REQUIRED_PHRASES = {
     "market_domain_mandate": "### Market-Domain Mandate",

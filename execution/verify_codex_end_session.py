@@ -5,6 +5,7 @@ from __future__ import annotations
 import contextlib
 import io
 import json
+from datetime import datetime
 import subprocess
 import sys
 import tempfile
@@ -143,11 +144,20 @@ def check_handoff_identity(tmp: Path) -> list[str]:
     old_tempdir = tempfile.tempdir
     tempfile.tempdir = str(candidates)
     try:
-        selected, reason = handoff_store._newest_temp("alex-closeout")
+        # 2026-08-08: post-merge API — thread-scoped lookup renamed to
+        # _newest_temp_by_thread; unscoped ambiguity refusal moved into cmd_save
+        # (fresh-window multi-writer check). Same assertions, current call sites.
+        selected, reason = handoff_store._newest_temp_by_thread("alex-closeout")
         require(selected is not None and "alex-closeout" in selected.name and reason == "thread-filtered",
                 "thread-filtered temp lookup selected the wrong handoff")
-        ambiguous, _reason = handoff_store._newest_temp()
-        require(ambiguous is None, "unscoped --from-temp should refuse multiple candidates")
+        unscoped_args = SimpleNamespace(
+            from_temp=True, source=None, thread=None, slug=None, status="ready",
+            hint="", unfinished="", branch=None, date=None, json=False,
+            pin=False, overwrite=False, new_thread=False,
+        )
+        with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            require(handoff_store.cmd_save(unscoped_args) != 0,
+                    "unscoped --from-temp should refuse multiple candidates")
     finally:
         tempfile.tempdir = old_tempdir
     return [
@@ -318,8 +328,11 @@ def check_organization(tmp: Path) -> list[str]:
     require(codex_close.is_closeout_generated(
         ".agent/handoffs/2026-08-01-organization-fixture.md", "organization-fixture"
     ), "known handoff receipt should be recognized")
+    # 2026-08-08: "same-day" means TODAY by contract — a hardcoded date made
+    # this fixture rot the day after it was written.
+    today = datetime.now().date().isoformat()
     require(codex_close.is_closeout_generated(
-        ".agent/recurring-reports/2026-08-01T120000-session-closeout-intelligence.md",
+        f".agent/recurring-reports/{today}T120000-session-closeout-intelligence.md",
         "organization-fixture",
     ), "same-day closeout report should be recognized")
     require(not codex_close.is_closeout_generated(

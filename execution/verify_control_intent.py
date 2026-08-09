@@ -48,6 +48,17 @@ GOLDEN: list[tuple[str, str]] = [
         "I want a follow-up prompt engine that suggests skills and agents that are high leverage for what I'm working on",
         "",
     ),
+    # 2026-08-08: capability-use prompts can contain the grammatical shape
+    # "show + changed + not" without reporting a failed control-plane repair.
+    (
+        "Apply the Systems Thinking Expertise Intelligence Overlay to this mission in SHADOW mode. "
+        "Show the Zoom/Craft/Pave/Own/Learn trace, what changed, and production receipt one. "
+        "Do not promote or add enforcement",
+        "",
+    ),
+    ("Use the source-to-skill system and show what changed. Do not promote it.", ""),
+    ("Run the health check and show what is working; do not repair anything.", ""),
+    ("Show what changed in this result, but do not promote it yet.", ""),
     # ---- MUST fire: real control-plane complaints -> system-audit ----
     ("hooks are not firing in codex, something is broken in the wiring", "system-audit"),
     (
@@ -65,6 +76,11 @@ GOLDEN: list[tuple[str, str]] = [
         "my skills and workflows are broken after the migration, diagnose and repair them",
         "system-audit",
     ),
+    (
+        "so what was done here? from the looks nothing was fixed that I wanted",
+        "system-audit",
+    ),
+    ("The hook repair is still broken; explain why nothing changed", "system-audit"),
     # ---- MUST fire: repeatability lane ----
     ("we lost the magic from the previous session import, the revision got worse", "repeatability-spine"),
     # ---- Must NOT fire: explicit workflow invocation + deliverable mission ----
@@ -111,7 +127,12 @@ BINDINGS_GOLDEN: list[tuple[str, str]] = [
         "orchestration state, with Conductor Ladder wiring recommendations",
         "",
     ),
-    ("draft a post about how neurons are chained into circuits", ""),
+    # 2026-08-08: content_production_live_grounding (Farrice-ratified 2026-08-05,
+    # suggestion-only live-grounding nudge) legitimately fires on "draft a post".
+    # The original scar — operator_system_audit firing on "chained" — is still
+    # guarded by the global check below: operator_system_audit may never fire on
+    # any case that doesn't expect it.
+    ("draft a post about how neurons are chained into circuits", "content_production_live_grounding"),
     # ---- MUST fire: real control-plane complaints ----
     (
         "Codex is blocking hooks and routing wrong defaults; match Claude Code "
@@ -146,6 +167,11 @@ def main() -> int:
             binding_failures.append((text, expected_id, got_ids))
         elif not expected_id and got_ids:
             binding_failures.append((text, "-", got_ids))
+        # Scar guard (2026-07-13): the control-plane audit binding must NEVER
+        # fire on text that doesn't expect it — regardless of what suggestion
+        # bindings are added later.
+        if expected_id != "operator_system_audit" and "operator_system_audit" in got_ids:
+            binding_failures.append((text, f"{expected_id or '-'} (no operator_system_audit)", got_ids))
     if failures or binding_failures:
         if failures:
             print(f"FAIL — {len(failures)}/{len(GOLDEN)} classifier golden cases regressed:")

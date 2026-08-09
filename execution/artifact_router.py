@@ -419,11 +419,51 @@ def safe_relative(path: Path, base: Path) -> str | None:
         return None
 
 
-def active_projects() -> list[str]:
+_PROJECT_LOCATIONS: dict[str, str] | None = None
+
+
+def project_locations() -> dict[str, str]:
+    """Project slug -> directory relative to _active/.
+
+    2026-08-08: the arena sweep (commit 91a30ab40) reshaped _active/ into
+    `_active/<arena>/<initiative>/` (directives/artifact-placement.md). Project
+    discovery is delegated to front_door.discover_initiatives() — the one
+    canonical implementation of the arena/initiative distinction — instead of
+    assuming every depth-1 directory is a project. Falls back to the legacy
+    depth-1 listing if the front door module is unavailable.
+    """
+    global _PROJECT_LOCATIONS
+    if _PROJECT_LOCATIONS is not None:
+        return _PROJECT_LOCATIONS
     active_dir = ROOT / "_active"
-    if not active_dir.exists():
-        return []
-    return sorted(p.name for p in active_dir.iterdir() if p.is_dir() and not p.name.startswith("."))
+    locations: dict[str, str] = {}
+    if active_dir.exists():
+        try:
+            import front_door
+            for initiative in front_door.discover_initiatives():
+                rel = safe_relative(initiative, active_dir)
+                if rel:
+                    locations.setdefault(initiative.name, rel)
+        except Exception:
+            locations = {}
+        if not locations:
+            locations = {
+                p.name: p.name
+                for p in active_dir.iterdir()
+                if p.is_dir() and not p.name.startswith(".")
+            }
+    _PROJECT_LOCATIONS = locations
+    return locations
+
+
+def active_projects() -> list[str]:
+    return sorted(project_locations())
+
+
+def project_home(project: str) -> Path:
+    """Canonical home for a project under the arena shape; unknown projects
+    keep the legacy `_active/<slug>` shape (they surface as needs_review)."""
+    return ROOT / "_active" / project_locations().get(project, project)
 
 
 def ensure_org_home() -> None:
@@ -470,7 +510,7 @@ def ensure_project_shapes() -> list[str]:
     # when project_filer.py places a file into them. INDEX.md is still ensured.
     created: list[str] = []
     for project in active_projects():
-        project_dir = ROOT / "_active" / project
+        project_dir = project_home(project)
         # A project_relocate --stub pointer is not a project. Writing boilerplate
         # INDEX.md into one turns it back into a "live project" in PROJECTS.md.
         if (project_dir / "MOVED.md").is_file():
@@ -566,6 +606,10 @@ def infer_project(path: Path, top: str, rel: str) -> tuple[str | None, float, li
     reasons: list[str] = []
     parts = rel.split("/")
     if top == "_active" and len(parts) >= 2:
+        # Arena shape: _active/<arena>/<initiative>/... — the project is the
+        # initiative, not the arena (directives/artifact-placement.md).
+        if len(parts) >= 3 and f"{parts[1]}/{parts[2]}" in set(project_locations().values()):
+            return parts[2], 0.98, ["already under active project (arena shape)"]
         return parts[1], 0.98, ["already under active project"]
     if top == "projects" and len(parts) >= 2:
         return slugify(parts[1]), 0.78, ["under projects workspace"]
@@ -684,7 +728,7 @@ def destination_for(project: str | None, lifecycle: str, path: Path) -> Path | N
     }.get(lifecycle)
     if folder is None:
         return None
-    return ROOT / "_active" / project / folder / path.name
+    return project_home(project) / folder / path.name
 
 
 def classify_path(raw_path: str | Path) -> Classification:

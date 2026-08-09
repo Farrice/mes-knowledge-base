@@ -9,3 +9,7 @@
 {"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 106, "why": "selftest tuple", "exc": null, "session": ""}
 {"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 107, "why": "selftest bool", "exc": null, "session": ""}
 {"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 112, "why": "receipt unreadable", "exc": null, "session": ""}
+{"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 105, "why": "selftest str", "exc": null, "session": ""}
+{"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 106, "why": "selftest tuple", "exc": null, "session": ""}
+{"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 107, "why": "selftest bool", "exc": null, "session": ""}
+{"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 112, "why": "receipt unreadable", "exc": null, "session": ""}

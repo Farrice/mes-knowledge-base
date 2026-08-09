@@ -188,7 +188,39 @@ def is_primary_verified(rows: list[str]) -> bool:
     return False
 
 
+def self_test() -> int:
+    """No-arg mode (used by the fleet runner, which invokes every verify_*.py
+    bare): prove the claim gate works in BOTH directions — a fully-labeled
+    draft/ledger pair must PASS and an unlabeled claim must FAIL
+    (verify_fleet.py Rule 4). Per-draft gating still runs via --draft/--ledger."""
+    draft = (
+        "Our clients saw a 470% average ROI in 2025, according to the Smith study.\n"
+        "Pricing starts at $2,500.\n"
+    )
+    claims = extract_claims(draft)
+    if not claims:
+        print("SELF-TEST FAIL: claim extractor found nothing in a claim-dense draft")
+        return 1
+    ledger_text = "\n".join(
+        f"- \"{claim['key']}\" | https://example.invalid/source | VERIFIED" for claim in claims
+    )
+    labeled = load_labeled_rows(ledger_text)
+    uncovered = [claim["key"] for claim in claims if not is_covered(claim, labeled)]
+    if uncovered:
+        print(f"SELF-TEST FAIL: fully-labeled ledger left claims uncovered: {uncovered}")
+        return 1
+    # false-green control: an empty ledger must leave every claim uncovered
+    if all(is_covered(claim, load_labeled_rows("")) for claim in claims):
+        print("SELF-TEST FAIL: empty ledger covered claims (gate cannot fail)")
+        return 1
+    print(f"Proof-ledger gate self-test: PASS ({len(claims)} fixture claims: "
+          "labeled ledger covers all, empty ledger covers none)")
+    return 0
+
+
 def main() -> int:
+    if len(sys.argv) == 1:
+        return self_test()
     ap = argparse.ArgumentParser(description="Deterministic proof-claim ledger gate")
     ap.add_argument("--draft", required=True, help="Path to the finished draft")
     ap.add_argument("--ledger", required=True, help="Path to proof-claims.md")
