@@ -1,0 +1,12 @@
+# quiet_handlers.allow — handlers that are QUIET ON PURPOSE, with the reason.
+# Format: filename.py:function   # reason   # date
+# An entry here silences verify_silent_degradation.py for that handler.
+# Empty-reason entries are worthless — the reason IS the entry. Review >180d.
+#
+# The bar for adding a line: the quietness is an ENTRYPOINT-LEVEL contract
+# (launchd/hook must not break) — not "this function is annoying to fix".
+
+session_sweep.py:main          # launchd entrypoint — exit 0 contract; failure is recorded via degraded() upstream  # 2026-08-08
+mission_board.py:main          # board must never break its caller; render failures leave prior HTML + stderr note  # 2026-08-08
+mission_brief.py:main          # same contract as mission_board  # 2026-08-08
+degrade.py:_record             # the degradation recorder must never itself raise — quietness here is the feature  # 2026-08-08

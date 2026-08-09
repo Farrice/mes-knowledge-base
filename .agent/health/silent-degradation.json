@@ -1,0 +1,495 @@
+{
+  "ts": "2026-08-08T18:38:11",
+  "high": [
+    {
+      "file": "asset_gallery.py",
+      "function": "make_thumb",
+      "line": 62,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "asset_gallery.py",
+      "function": "render_board",
+      "line": 682,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "asset_gallery.py",
+      "function": "main",
+      "line": 746,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "brief_library.py",
+      "function": "norm_pri",
+      "line": 68,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "load_state",
+      "line": 119,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "load_goals",
+      "line": 133,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_revenue_due",
+      "line": 147,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_outer_loop",
+      "line": 177,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_outer_loop",
+      "line": 187,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "render_outer_loop",
+      "line": 219,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_self_heal",
+      "line": 325,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_memory_review",
+      "line": 404,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_evolution",
+      "line": 483,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_threads",
+      "line": 549,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "life_staleness",
+      "line": 562,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "open_loops",
+      "line": 588,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "ensure_world_pulse",
+      "line": 614,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_world_pulse",
+      "line": 662,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "_yesterday_brief_text",
+      "line": 729,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "gather_listening",
+      "line": 992,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "cmd_prep",
+      "line": 1179,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "cmd_prep",
+      "line": 1184,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "_pulse_item_stale",
+      "line": 699,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "_pulse_item_stale",
+      "line": 717,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "cos_prep.py",
+      "function": "cmd_prep",
+      "line": 1157,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "_resolve_from_handoff",
+      "line": 148,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "_resolve_from_session_state",
+      "line": 182,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "_memory_ledger_keys",
+      "line": 275,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "_memory_ledger_append",
+      "line": 285,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "_in_lane",
+      "line": 409,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "_own_session_paths",
+      "line": 500,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "step_session_guide",
+      "line": 685,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "step_menu_parity",
+      "line": 851,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "end_session_closeout.py",
+      "function": "step_self_heal",
+      "line": 922,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "execution_receipt.py",
+      "function": "_age_days",
+      "line": 81,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "execution_receipt.py",
+      "function": "latest_ledger_path",
+      "line": 138,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "front_door.py",
+      "function": "git_dates",
+      "line": 205,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "front_door.py",
+      "function": "_git_dates_all",
+      "line": 243,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "front_door.py",
+      "function": "broken_link_count",
+      "line": 437,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "homework_binder.py",
+      "function": "_git",
+      "line": 59,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "mdview.py",
+      "function": "_nav",
+      "line": 97,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "mission_board.py",
+      "function": "_dt",
+      "line": 68,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "mission_brief.py",
+      "function": "_dt",
+      "line": 88,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "oracle_dashboard.py",
+      "function": "_shared_nav",
+      "line": 46,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "oracle_dashboard.py",
+      "function": "load_json",
+      "line": 59,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "jsonl",
+      "line": 52,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "mission_age_days",
+      "line": 76,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "outcomes_due_cards",
+      "line": 191,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "fresh_intel",
+      "line": 261,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "money_line",
+      "line": 293,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "money_line",
+      "line": 307,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "mission_intel",
+      "line": 324,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "main",
+      "line": 455,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "mission_intel",
+      "line": 342,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "pulse_dashboard.py",
+      "function": "jsonl",
+      "line": 50,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "render_brief.py",
+      "function": "build_nav",
+      "line": 633,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "session_closeout_intelligence.py",
+      "function": "read_text",
+      "line": 95,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "session_closeout_intelligence.py",
+      "function": "read_json",
+      "line": 124,
+      "shape": "quiet-return",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "session_closeout_intelligence.py",
+      "function": "guard_record",
+      "line": 554,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "session_closeout_intelligence.py",
+      "function": "prune_reports",
+      "line": 720,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    },
+    {
+      "file": "signal_scout.py",
+      "function": "<module>",
+      "line": 47,
+      "shape": "pass-only",
+      "severity": "HIGH",
+      "marker_empty": false
+    }
+  ],
+  "info_count": 315,
+  "total": 376
+}
