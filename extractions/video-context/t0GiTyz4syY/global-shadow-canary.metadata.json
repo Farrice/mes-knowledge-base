@@ -1,0 +1,16 @@
+{
+  "title": "Global Systems-Thinking SHADOW Canary",
+  "artifact_type": "shadow-canary-evaluation",
+  "source_id": "t0GiTyz4syY",
+  "started_on": "2026-08-09",
+  "status": "ACTIVE_CANARY",
+  "overlay_mode": "SHADOW",
+  "prospective_qualifying_missions_observed": 0,
+  "prospective_material_receipts": 0,
+  "blind_comparisons_completed": 0,
+  "negative_controls_completed": 4,
+  "negative_controls_passed": 4,
+  "automatic_telemetry_added": false,
+  "enforcement_added": false,
+  "promotion_authorized": false
+}
