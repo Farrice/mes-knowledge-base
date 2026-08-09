@@ -1,0 +1,72 @@
+{
+  "slug": "jordan-crawford-gtm-intelligence-os",
+  "title": "the evidence-first gtm intelligence os",
+  "compiled": "aug 8, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.html",
+  "brief_md": "deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.md",
+  "paths": [
+    {
+      "path": "agents/jordan-crawford/AGENT.md",
+      "abs": "/Users/farricecain/Google Antigravity/agents/jordan-crawford/AGENT.md",
+      "role": "expert identity and authority boundary"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/genius.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/genius.md",
+      "role": "embodiment context and rubric"
+    },
+    {
+      "path": "extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md",
+      "abs": "/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md",
+      "role": "system contract"
+    },
+    {
+      "path": "extractions/jordan-crawford-gtm-intelligence/extraction-report.md",
+      "abs": "/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/extraction-report.md",
+      "role": "asset · SOURCE DOSSIER"
+    },
+    {
+      "path": "extractions/jordan-crawford-gtm-intelligence/architecture.md",
+      "abs": "/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/architecture.md",
+      "role": "asset · SYSTEM MAP"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/SKILL.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md",
+      "role": "asset · RUNTIME"
+    },
+    {
+      "path": "extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md",
+      "abs": "/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md",
+      "role": "asset · VALIDATION"
+    },
+    {
+      "path": "extractions/jordan-crawford-gtm-intelligence/source-ledger.md",
+      "abs": "/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/source-ledger.md",
+      "role": "Local source ledger"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=EZpoQ8gT02E",
+      "label": "Primary interview · EZpoQ8gT02E"
+    },
+    {
+      "url": "https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins",
+      "label": "Blueprint GTM · The Dossier"
+    },
+    {
+      "url": "https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement",
+      "label": "Blueprint GTM · public excerpt"
+    },
+    {
+      "url": "https://edge.blueprintgtm.com/about",
+      "label": "First-party About page"
+    },
+    {
+      "url": "https://edge.blueprintgtm.com/p/the-asymmetry-engine",
+      "label": "First-party Asymmetry excerpt"
+    }
+  ]
+}

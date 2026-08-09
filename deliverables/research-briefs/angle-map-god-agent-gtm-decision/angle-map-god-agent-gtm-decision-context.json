@@ -1,0 +1,64 @@
+{
+  "slug": "angle-map-god-agent-gtm-decision",
+  "title": "one offer gets the market test",
+  "compiled": "aug 9, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/angle-map-god-agent-gtm-decision/angle-map-god-agent-gtm-decision-brief.html",
+  "brief_md": "deliverables/research-briefs/angle-map-god-agent-gtm-decision/angle-map-god-agent-gtm-decision-brief.md",
+  "paths": [
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/SKILL.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md",
+      "role": "evidence and authority contract"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/workflows/customer-truth-dossier.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/workflows/customer-truth-dossier.md",
+      "role": "dossier workflow"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/workflows/problem-qualified-segment.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/workflows/problem-qualified-segment.md",
+      "role": "PQS workflow"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/workflows/message-market-fit-test.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/workflows/message-market-fit-test.md",
+      "role": "test workflow"
+    },
+    {
+      "path": "deliverables/gtm/2026-08-09-angle-map-god-agent-customer-truth-dossier.md",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/gtm/2026-08-09-angle-map-god-agent-customer-truth-dossier.md",
+      "role": "asset · DECISION RECORD"
+    },
+    {
+      "path": "_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md",
+      "role": "asset · CANONICAL OFFER"
+    },
+    {
+      "path": "_active/linkedin/05-lead-gen/pipeline.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/pipeline.md",
+      "role": "asset · MARKET TRUTH"
+    },
+    {
+      "path": "_active/knowledge/mastery-forge/02-offer/god-agent-offer-redteam.md",
+      "abs": "/Users/farricecain/Google Antigravity/_active/knowledge/mastery-forge/02-offer/god-agent-offer-redteam.md",
+      "role": "asset · DISSENT"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.bevnet.com/pr/2026/06/30/gatedrop-accelerates-retail-expansion-with-broader-distribution-wins",
+      "label": "GateDrop public announcement"
+    },
+    {
+      "url": "https://www.bevnet.com/pr/2026/05/11/fabric-launches-zero-a-nonalcoholic-hop-water-built-on-function-without-the-nonsense",
+      "label": "FABRIC Zero launch"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/true-sea-moss-expands-retail-presence-with-launch-at-whole-foods-market-stores-302750726.html",
+      "label": "True Sea Moss Whole Foods announcement"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "angle-map-company-intelligence-deep-market-truth",
+  "title": "what the market actually supports",
+  "compiled": "aug 9, 2026",
+  "generated_by": "execution/render_brief.py",
+  "brief_html": "deliverables/research-briefs/angle-map-company-intelligence-deep-market-truth/angle-map-company-intelligence-deep-market-truth-brief.html",
+  "brief_md": "deliverables/research-briefs/angle-map-company-intelligence-deep-market-truth/angle-map-company-intelligence-deep-market-truth-brief.md",
+  "paths": [
+    {
+      "path": "research_outputs/2026-08-09-angle-map-god-agent-deep-research.md",
+      "abs": "/Users/farricecain/Google Antigravity/research_outputs/2026-08-09-angle-map-god-agent-deep-research.md",
+      "role": "canonical research synthesis"
+    },
+    {
+      "path": "deliverables/gtm/2026-08-09-angle-map-five-decision-note-pack.md",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/gtm/2026-08-09-angle-map-five-decision-note-pack.md",
+      "role": "approval-ready exposure pack"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/references/research-tool-contract.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/references/research-tool-contract.md",
+      "role": "live-research truth contract"
+    },
+    {
+      "path": "skills/jordan-crawford-gtm-intelligence/SKILL.md",
+      "abs": "/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md",
+      "role": "asset · RUNTIME"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.usertesting.com/resources/customers/athletic-greens",
+      "label": "AG1 customer-research case"
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+      "label": "FTC guidance"
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research",
+      "label": "UK AI Adoption Research"
+    },
+    {
+      "url": "https://zapier.com/pricing",
+      "label": "Zapier pricing"
+    },
+    {
+      "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+      "label": "U.S. Census business AI use"
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "label": "NIST Generative AI Profile"
+    },
+    {
+      "url": "https://www.inthekitchen.is/pricing",
+      "label": "In The Kitchen pricing"
+    },
+    {
+      "url": "https://openai.com/index/inside-our-in-house-data-agent/",
+      "label": "OpenAI in-house data agent"
+    }
+  ]
+}

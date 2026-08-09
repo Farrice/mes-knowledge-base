@@ -4,7 +4,7 @@ description: Research-brief library — the Briefing Room index, brief rendering
 
 # /briefs — Research-Brief Library (the Briefing Room)
 
-The storage system: every brief lives at `deliverables/research-briefs/<slug>/` as a self-contained `<slug>-brief.html` plus `<slug>-brief.json` (provenance — the JSON is what gets re-rendered after edits), `<slug>-brief.md` (agent-paste mirror), and `<slug>-context.json` (**agent context pack** — every file path + source URL the brief references, with roles; feed it to any agent for instant grounding). The Asset Command Center (`/assets-board`) indexes the same directory as the **📋 Research Briefs** shelf.
+The storage system: every brief lives at `deliverables/research-briefs/<slug>/` as a self-contained `<slug>-brief.html` plus `<slug>-brief.json` (provenance — the JSON is what gets re-rendered after edits), `<slug>-brief.md` (agent-paste mirror), and `<slug>-context.json` (**agent context pack** — every file path + source URL the brief references, with roles; feed it to any agent for instant grounding). In a context pack, repo-relative `path` is the durable identity; `abs` is a render-time compatibility hint only. Consumers resolve `path` from the active checkout, then canonical main for main-only media. The Asset Command Center (`/assets-board`) indexes the same directory as the **📋 Research Briefs** shelf.
 
 ## Open the Briefing Room (default front door)
 
@@ -31,8 +31,20 @@ python3 execution/asset_index.py && python3 execution/asset_gallery.py && open .
 ```bash
 python3 execution/render_brief.py <path/to/brief.json> --open
 python3 execution/brief_library.py
+python3 execution/brief_library.py verify
+python3 execution/verify_briefing_room_portability.py
 python3 execution/asset_index.py && python3 execution/asset_gallery.py
 ```
+
+**Worktree rule:** a brief created in an isolated lane is immediately usable
+from that lane's static Room or a server started from that lane. It does not
+exist in the main live Room until its brief directory is integrated there.
+Never hand-edit or "normalize" generated card paths to a different checkout.
+The librarian emits portable relative links for static use and explicit
+repo-relative links for `/repo/` live use, then verifies that both targets
+exist under the same active root. Context packs follow the same rule: `path`
+survives checkout changes; `abs` must never be treated as cross-worktree
+identity. Main-only untracked media can still resolve through canonical main.
 
 Design system: **Farrice Cain Premium Minimal, report dialect** — tokens live in `templates/research-brief/template.html` `:root` ONLY (never inline in briefs); canonical brand source `_active/farrice-brand/premium-minimal/` incl. `REPORT-DIALECT.md` (why the italic-serif accent word + steel blue are sanctioned on report surfaces). Reference anatomy: `extractions/eddy-ballesteros/reference-corpus/brief-anatomy.md`. Living format reference (every section kind, once): `deliverables/research-briefs/design-system-showcase/`.
 
@@ -57,7 +69,7 @@ Semantic-document activation map (how the 13-section semantic schema lands in br
 
 ## The librarian (housekeeping — deterministic, runs on every regen)
 
-`brief_library.py` keeps the shelves: `archive <slug>` / `unarchive <slug>` (also live buttons on room cards when served) · `audit` (counts + stale + broken context-pack paths; same line renders in the room header). **Auto-currency**: periodical categories (`zeitgeist`, `angles`) auto-archive after **30 days** (constants at top of `brief_library.py` — tune freely, never a cage). **Archived is never gone**: files, md mirrors, and context packs stay exactly where they are — still openable, citable in `related` sections, and agent-feedable; the shelf filter changes presentation only, and `unarchive` is always one action away. Supersession: set `"superseded_by": "<slug>"` in the old brief's JSON; the room chips it with a link to the successor.
+`brief_library.py` keeps the shelves: `archive <slug>` / `unarchive <slug>` (also live buttons on room cards when served) · `audit` (counts + stale + broken context-pack paths; same line renders in the room header) · `verify` (every card, artifact link, and context-pack path resolves from the active checkout or canonical main). Generation runs the route verifier before replacing the index, so a broken card cannot receive an `OK` receipt. **Auto-currency**: periodical categories (`zeitgeist`, `angles`) auto-archive after **30 days** (constants at top of `brief_library.py` — tune freely, never a cage). **Archived is never gone**: files, md mirrors, and context packs stay exactly where they are — still openable, citable in `related` sections, and agent-feedable; the shelf filter changes presentation only, and `unarchive` is always one action away. Supersession: set `"superseded_by": "<slug>"` in the old brief's JSON; the room chips it with a link to the successor.
 
 ## Share-safe export (BINDING rule: internal briefs never go out)
 

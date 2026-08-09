@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the evidence-first gtm intelligence os · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-real-advantage-is-information-asymmetry">the real advantage is information asymmetry</a><a href="#what-shipped">what shipped</a><a href="#the-compounding-loop">the compounding loop</a><a href="#the-source-mechanics-that-govern-it">the source mechanics that govern it</a><a href="#start-at-the-earliest-missing-truth-layer">start at the earliest missing truth layer</a><a href="#what-is-locked-now">what is locked now</a><a href="#the-10-workflow-operating-spine">the 10-workflow operating spine</a><a href="#the-reusable-system-assets">the reusable system assets</a><a href="#what-this-doesn-t-prove">what this doesn&#x27;t prove</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">EXTRACTION · JORDAN CRAWFORD</span>
+    <h1 class="display">the evidence-first <em>gtm intelligence os</em></h1>
+    <p class="dek">A source-grounded system that turns customer truth into a problem-qualified universe, independently valuable message, and compounding learning loop without confusing personalization, activity, or simulation with proof.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">public corpus through aug 8, 2026</span></div>
+      <div><span class="k">Lens</span><span class="v">customer dossiers · message-market fit · GTM engineering</span></div>
+      <div><span class="k">Sources</span><span class="v">8 transcripts · 25,529 words · public first-party pages</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 8, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-real-advantage-is-information-asymmetry"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the real advantage is <em>information asymmetry</em></h2></div><span class="kicker" style="margin-bottom:8px">ARCHITECTURAL VERDICT</span><div class="panel"><p>Jordan Crawford&#x27;s method is not a copy framework or a lead-scraping recipe. The durable asset is a customer truth base that preserves observed actions, verbatim language, operator claims, model inference, and unknowns as different evidence classes.</p><p>That truth base makes the worst version of a problem visible, makes the right market enumerable, and gives the operator enough information advantage to create something useful for the recipient before asking for a sale. The message becomes a compressed expression of the targeting evidence.</p></div></section><section class="blk" id="what-shipped"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what shipped</h2></div><div class="stats"><div class="stat"><div class="num">8<small> transcripts</small></div><span class="lab">PUBLIC CORPUS</span><div class="note">25,529 words</div></div><div class="stat"><div class="num">16<small> patterns</small></div><span class="lab">GENIUS MECHANICS</span><div class="note">plus 9 hidden deductions</div></div><div class="stat"><div class="num">10<small> workflows</small></div><span class="lab">CONNECTED SYSTEM</span><div class="note">3 operating tiers</div></div><div class="stat"><div class="num">10<small> born-v2</small></div><span class="lab">COLD-START PROMPTS</span><div class="note">all audit clean</div></div><div class="stat"><div class="num">2<small> fixtures</small></div><span class="lab">BEHAVIOR PROOFS</span><div class="note">mature + zero-data</div></div><div class="stat"><div class="num">0<small> sends</small></div><span class="lab">EXTERNAL ACTIONS</span><div class="note">approval boundary preserved</div></div></div></section><section class="blk" id="the-compounding-loop"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the compounding loop</h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Customer evidence</h3><p>actions, quotes, claims, unknowns</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Truth dossier</h3><p>provenance, conflicts, problem clusters</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Problem-qualified segment</h3><p>worst version + segment/company/person fit</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>Target universe</h3><p>observable indicators, enumeration, disqualification</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>Personally valuable proposition</h3><p>useful even without purchase</p></div><span class="arrow">→</span><div class="step"><span class="n">06</span><h3>Message-market-fit test</h3><p>qualification, value, language, commercial counters</p></div><span class="arrow">→</span><div class="step"><span class="n">07</span><h3>Learning return</h3><p>events become evidence and belief deltas</p></div></div><div class="bars-caption">Each stage hands forward evidence and returns learning; none may overwrite source truth.</div></section><section class="blk" id="the-source-mechanics-that-govern-it"><div class="sechead"><span class="secnum">04</span><h2 class="sec">the source mechanics that govern it</h2><span class="sectag">EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>Targeting evidence precedes message repair</h3><p>The primary interview argues that the message re-describes the targeting; the system therefore routes generic copy upstream before rewriting.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=EZpoQ8gT02E" target="_blank" rel="noopener">Primary interview · EZpoQ8gT02E ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Customer dossiers are the durable intelligence layer</h3><p>The public dossier material centers customer actions and voice while separating durable knowledge from changing reasoning.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins" target="_blank" rel="noopener">Blueprint GTM · The Dossier ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Research is optimized by right-answer economics</h3><p>The primary interview explicitly frames the operating metric as dollar per right answer, supporting a deterministic-to-model-to-human escalation ladder.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=EZpoQ8gT02E" target="_blank" rel="noopener">Primary interview · research section ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Fewer evaluated units can outperform agent sprawl</h3><p>Public Blueprint writing and the compounding-units video favor bounded units with evaluation and review over horizontal context fragmentation.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement" target="_blank" rel="noopener">Blueprint GTM · public excerpt ↗</a></div></div></div></section><section class="blk" id="start-at-the-earliest-missing-truth-layer"><div class="sechead"><span class="secnum">05</span><h2 class="sec">start at the earliest missing truth layer</h2></div><div class="matrix-axes">↑ execution readiness · evidence richness →</div><div class="matrix"><div class="quad"><span class="qlab">LOW EVIDENCE · LOW READINESS</span><ul><li>Zero-data discovery<small>known-good cases, Five Cs, prediction saturation</small></li></ul></div><div class="quad"><span class="qlab">HIGH EVIDENCE · LOW READINESS</span><ul><li>Customer truth dossier<small>reconcile actions, voice, CRM, conflicts, unknowns</small></li></ul></div><div class="quad"><span class="qlab">LOW EVIDENCE · HIGH PRESSURE</span><ul><li>Hold messaging<small>protect UNKNOWN; refuse fabricated ICP and autonomous outreach</small></li></ul></div><div class="quad"><span class="qlab">HIGH EVIDENCE · HIGH READINESS</span><ul><li>PQS -&gt; universe -&gt; PVP -&gt; test<small>freeze one hypothesis and return outcomes to the dossier</small></li></ul></div></div></section><section class="decision" id="what-is-locked-now"><span class="kicker">DECISION SURFACE</span><h2>what is <em>locked</em> now</h2><p class="dek">One upstream owner, bounded downstream craft, and proof states that cannot be inflated by language.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Owner: Jordan governs customer truth through message-market-fit learning</h3><p>Adjacent positioning, offer, copy, and RevOps experts receive source-locked handoffs; they do not compete for upstream ownership.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Evidence: facts and reasoning remain separate stores</h3><p>Facts and quotes survive reinterpretation; conflicts, failed searches, and unknowns remain visible.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Authority: no autonomous external action</h3><p>Outreach, publishing, CRM writes, paid enrichment, and global promotion require explicit approval.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Packaging: plugin work remains parked</h3><p>A local connected system exists; portability, privacy, cold-start, and real-world outcome proof must precede packaging.</p></div></div></div></section><section class="blk" id="the-10-workflow-operating-spine"><div class="sechead"><span class="secnum">07</span><h2 class="sec">the 10-workflow operating spine</h2><span class="sectag">RUN THIS</span></div><p>Workflows 1–3 establish truth. Choose the dossier path when evidence exists, the zero-data path when it does not, then qualify the worst observable problem across segment, company, and person.</p><p>Workflows 4–6 build the market and the value. Map observable indicators, enumerate and disqualify the universe, choose research methods by right-answer cost, then create a PVP that helps before a purchase.</p><p>Workflows 7–10 operate and compound. Freeze one message hypothesis, keep external execution approval-gated, unitize only proven steps, hand source-locked evidence to one craft owner, and return outcomes to the dossier.</p></section><section class="blk" id="the-reusable-system-assets"><div class="sechead"><span class="secnum">08</span><h2 class="sec">the reusable system assets</h2><span class="sectag">THE RAIL</span></div><div class="assetgrid"><div class="asset"><span class="role">SOURCE DOSSIER</span><h3>Deep extraction report</h3><p>16 patterns, hidden knowledge, exemplars, rubric, and methodology</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/extraction-report.md">extractions/jordan-crawford-gtm-intelligence/extraction-report.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/extraction-report.md">copy path</button></div></div><div class="asset"><span class="role">SYSTEM MAP</span><h3>Complete architecture</h3><p>component ownership, sequencing, context, checkpoints, and proof</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/architecture.md">extractions/jordan-crawford-gtm-intelligence/architecture.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/architecture.md">copy path</button></div></div><div class="asset"><span class="role">COLD-START CONTRACT</span><h3>Skill system contract</h3><p>inputs, outputs, handoffs, authority, validation, and reuse</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md">extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md">copy path</button></div></div><div class="asset"><span class="role">RUNTIME</span><h3>Production skill</h3><p>10 workflows and 10 deterministic prompts</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md">skills/jordan-crawford-gtm-intelligence/SKILL.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md">copy path</button></div></div><div class="asset"><span class="role">VALIDATION</span><h3>Behavior proof</h3><p>conflicting-source and zero-data cases</p><div class="pathrow"><a class="path" href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md">extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md</a><button class="copybtn" type="button" data-copy="/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md">copy path</button></div></div></div></section><section class="blk caveats" id="what-this-doesn-t-prove"><span class="kicker" style="margin-bottom:10px">PROOF BOUNDARY</span><h2>what this <em>doesn&#x27;t prove</em></h2><p>Structural validation, source fidelity, router discovery, and synthetic behavior tests prove a locally usable B-tier capability. They do not prove real message-market fit, customer demand, revenue, Jordan&#x27;s private implementation, or objective world-best status. The blind pass is self-judged; A-tier embodiment requires Farrice&#x27;s judgment on real work. Plugin packaging remains parked until cold-start portability, privacy, and real-world outcome proof exist.</p><a class="cta" href="#the-reusable-system-assets">OPEN THE RUNTIME SKILL</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">10</span><h2 class="sec">source ledger</h2><span class="sectag">stack: YouTube transcripts · Blueprint GTM public writing · MES 3.0 · local validators</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Primary YouTube interview</td><td><a href="https://www.youtube.com/watch?v=EZpoQ8gT02E" target="_blank" rel="noopener">https://www.youtube.com/watch?v=EZpoQ8gT02E</a></td><td>2026-08-08</td><td>primary mechanics, Claude Code workflow, message-market fit, research economics</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>First-party About page</td><td><a href="https://edge.blueprintgtm.com/about" target="_blank" rel="noopener">https://edge.blueprintgtm.com/about</a></td><td>2026-08-08</td><td>identity and public company context</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>First-party Dossier excerpt</td><td><a href="https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins" target="_blank" rel="noopener">https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins</a></td><td>2026-08-08</td><td>public dossier thesis; paid portion excluded</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>First-party Asymmetry excerpt</td><td><a href="https://edge.blueprintgtm.com/p/the-asymmetry-engine" target="_blank" rel="noopener">https://edge.blueprintgtm.com/p/the-asymmetry-engine</a></td><td>2026-08-08</td><td>public information-asymmetry framing; paid portion excluded</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>Local source ledger</td><td><a href="file://extractions/jordan-crawford-gtm-intelligence/source-ledger.md" target="_blank" rel="noopener">file://extractions/jordan-crawford-gtm-intelligence/source-ledger.md</a></td><td>2026-08-08</td><td>full provenance and limitations</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">11</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/agents/jordan-crawford/AGENT.md">agents/jordan-crawford/AGENT.md</a></td><td>expert identity and authority boundary</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/skills/jordan-crawford-gtm-intelligence/genius.md">skills/jordan-crawford-gtm-intelligence/genius.md</a></td><td>embodiment context and rubric</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md">extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md</a></td><td>system contract</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/extraction-report.md">extractions/jordan-crawford-gtm-intelligence/extraction-report.md</a></td><td>asset · SOURCE DOSSIER</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/architecture.md">extractions/jordan-crawford-gtm-intelligence/architecture.md</a></td><td>asset · SYSTEM MAP</td></tr><tr><td>06</td><td><a href="file:///Users/farricecain/Google%20Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md">skills/jordan-crawford-gtm-intelligence/SKILL.md</a></td><td>asset · RUNTIME</td></tr><tr><td>07</td><td><a href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md">extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md</a></td><td>asset · VALIDATION</td></tr><tr><td>08</td><td><a href="file:///Users/farricecain/Google%20Antigravity/extractions/jordan-crawford-gtm-intelligence/source-ledger.md">extractions/jordan-crawford-gtm-intelligence/source-ledger.md</a></td><td>Local source ledger</td></tr><tr><td>09</td><td><a href="https://www.youtube.com/watch?v=EZpoQ8gT02E" target="_blank" rel="noopener">https://www.youtube.com/watch?v=EZpoQ8gT02E</a></td><td>Primary interview · EZpoQ8gT02E</td></tr><tr><td>10</td><td><a href="https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins" target="_blank" rel="noopener">https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins</a></td><td>Blueprint GTM · The Dossier</td></tr><tr><td>11</td><td><a href="https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement" target="_blank" rel="noopener">https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement</a></td><td>Blueprint GTM · public excerpt</td></tr><tr><td>12</td><td><a href="https://edge.blueprintgtm.com/about" target="_blank" rel="noopener">https://edge.blueprintgtm.com/about</a></td><td>First-party About page</td></tr><tr><td>13</td><td><a href="https://edge.blueprintgtm.com/p/the-asymmetry-engine" target="_blank" rel="noopener">https://edge.blueprintgtm.com/p/the-asymmetry-engine</a></td><td>First-party Asymmetry excerpt</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;jordan-crawford-gtm-intelligence-os&quot;,
+  &quot;title&quot;: &quot;the evidence-first gtm intelligence os&quot;,
+  &quot;compiled&quot;: &quot;aug 8, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;agents/jordan-crawford/AGENT.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/agents/jordan-crawford/AGENT.md&quot;,
+      &quot;role&quot;: &quot;expert identity and authority boundary&quot;
+    },
+    {
+      &quot;path&quot;: &quot;skills/jordan-crawford-gtm-intelligence/genius.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/genius.md&quot;,
+      &quot;role&quot;: &quot;embodiment context and rubric&quot;
+    },
+    {
+      &quot;path&quot;: &quot;extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md&quot;,
+      &quot;role&quot;: &quot;system contract&quot;
+    },
+    {
+      &quot;path&quot;: &quot;extractions/jordan-crawford-gtm-intelligence/extraction-report.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/extraction-report.md&quot;,
+      &quot;role&quot;: &quot;asset · SOURCE DOSSIER&quot;
+    },
+    {
+      &quot;path&quot;: &quot;extractions/jordan-crawford-gtm-intelligence/architecture.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/architecture.md&quot;,
+      &quot;role&quot;: &quot;asset · SYSTEM MAP&quot;
+    },
+    {
+      &quot;path&quot;: &quot;skills/jordan-crawford-gtm-intelligence/SKILL.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/skills/jordan-crawford-gtm-intelligence/SKILL.md&quot;,
+      &quot;role&quot;: &quot;asset · RUNTIME&quot;
+    },
+    {
+      &quot;path&quot;: &quot;extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md&quot;,
+      &quot;role&quot;: &quot;asset · VALIDATION&quot;
+    },
+    {
+      &quot;path&quot;: &quot;extractions/jordan-crawford-gtm-intelligence/source-ledger.md&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/extractions/jordan-crawford-gtm-intelligence/source-ledger.md&quot;,
+      &quot;role&quot;: &quot;Local source ledger&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.youtube.com/watch?v=EZpoQ8gT02E&quot;,
+      &quot;label&quot;: &quot;Primary interview · EZpoQ8gT02E&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins&quot;,
+      &quot;label&quot;: &quot;Blueprint GTM · The Dossier&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement&quot;,
+      &quot;label&quot;: &quot;Blueprint GTM · public excerpt&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://edge.blueprintgtm.com/about&quot;,
+      &quot;label&quot;: &quot;First-party About page&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://edge.blueprintgtm.com/p/the-asymmetry-engine&quot;,
+      &quot;label&quot;: &quot;First-party Asymmetry excerpt&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY EXTRACTION</span>
+    <span>JORDAN CRAWFORD GTM OS</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/jordan-crawford-gtm-intelligence-os/jordan-crawford-gtm-intelligence-os-context.json\nCOMPILED: aug 8, 2026\n\n# the evidence-first gtm intelligence os\n\n> EXTRACTION · JORDAN CRAWFORD · window: public corpus through aug 8, 2026 · lens: customer dossiers · message-market fit · GTM engineering · sources: 8 transcripts · 25,529 words · public first-party pages · compiled: aug 8, 2026\n\nA source-grounded system that turns customer truth into a problem-qualified universe, independently valuable message, and compounding learning loop without confusing personalization, activity, or simulation with proof.\n\n## the real advantage is information asymmetry\n_ARCHITECTURAL VERDICT_\nJordan Crawford's method is not a copy framework or a lead-scraping recipe. The durable asset is a customer truth base that preserves observed actions, verbatim language, operator claims, model inference, and unknowns as different evidence classes.\n\nThat truth base makes the worst version of a problem visible, makes the right market enumerable, and gives the operator enough information advantage to create something useful for the recipient before asking for a sale. The message becomes a compressed expression of the targeting evidence.\n\n## what shipped\n- PUBLIC CORPUS: **8 transcripts** (25,529 words)\n- GENIUS MECHANICS: **16 patterns** (plus 9 hidden deductions)\n- CONNECTED SYSTEM: **10 workflows** (3 operating tiers)\n- COLD-START PROMPTS: **10 born-v2** (all audit clean)\n- BEHAVIOR PROOFS: **2 fixtures** (mature + zero-data)\n- EXTERNAL ACTIONS: **0 sends** (approval boundary preserved)\n\n## the compounding loop\nCustomer evidence → Truth dossier → Problem-qualified segment → Target universe → Personally valuable proposition → Message-market-fit test → Learning return\n  - Customer evidence: actions, quotes, claims, unknowns\n  - Truth dossier: provenance, conflicts, problem clusters\n  - Problem-qualified segment: worst version + segment/company/person fit\n  - Target universe: observable indicators, enumeration, disqualification\n  - Personally valuable proposition: useful even without purchase\n  - Message-market-fit test: qualification, value, language, commercial counters\n  - Learning return: events become evidence and belief deltas\n\n## the source mechanics that govern it\n- **Targeting evidence precedes message repair** [VERIFIED] — The primary interview argues that the message re-describes the targeting; the system therefore routes generic copy upstream before rewriting. (https://www.youtube.com/watch?v=EZpoQ8gT02E)\n- **Customer dossiers are the durable intelligence layer** [VERIFIED] — The public dossier material centers customer actions and voice while separating durable knowledge from changing reasoning. (https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins)\n- **Research is optimized by right-answer economics** [VERIFIED] — The primary interview explicitly frames the operating metric as dollar per right answer, supporting a deterministic-to-model-to-human escalation ladder. (https://www.youtube.com/watch?v=EZpoQ8gT02E)\n- **Fewer evaluated units can outperform agent sprawl** [LIKELY] — Public Blueprint writing and the compounding-units video favor bounded units with evaluation and review over horizontal context fragmentation. (https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement)\n\n## start at the earliest missing truth layer\n- **LOW EVIDENCE · LOW READINESS**: Zero-data discovery (known-good cases, Five Cs, prediction saturation)\n- **HIGH EVIDENCE · LOW READINESS**: Customer truth dossier (reconcile actions, voice, CRM, conflicts, unknowns)\n- **LOW EVIDENCE · HIGH PRESSURE**: Hold messaging (protect UNKNOWN; refuse fabricated ICP and autonomous outreach)\n- **HIGH EVIDENCE · HIGH READINESS**: PQS -> universe -> PVP -> test (freeze one hypothesis and return outcomes to the dossier)\n\n## what is locked now\nOne upstream owner, bounded downstream craft, and proof states that cannot be inflated by language.\n1. **Owner: Jordan governs customer truth through message-market-fit learning** — Adjacent positioning, offer, copy, and RevOps experts receive source-locked handoffs; they do not compete for upstream ownership.\n2. **Evidence: facts and reasoning remain separate stores** — Facts and quotes survive reinterpretation; conflicts, failed searches, and unknowns remain visible.\n3. **Authority: no autonomous external action** — Outreach, publishing, CRM writes, paid enrichment, and global promotion require explicit approval.\n4. **Packaging: plugin work remains parked** — A local connected system exists; portability, privacy, cold-start, and real-world outcome proof must precede packaging.\n\n## the 10-workflow operating spine\nWorkflows 1–3 establish truth. Choose the dossier path when evidence exists, the zero-data path when it does not, then qualify the worst observable problem across segment, company, and person.\n\nWorkflows 4–6 build the market and the value. Map observable indicators, enumerate and disqualify the universe, choose research methods by right-answer cost, then create a PVP that helps before a purchase.\n\nWorkflows 7–10 operate and compound. Freeze one message hypothesis, keep external execution approval-gated, unitize only proven steps, hand source-locked evidence to one craft owner, and return outcomes to the dossier.\n\n## the reusable system assets\n- **Deep extraction report** [SOURCE DOSSIER] `extractions/jordan-crawford-gtm-intelligence/extraction-report.md` — 16 patterns, hidden knowledge, exemplars, rubric, and methodology\n- **Complete architecture** [SYSTEM MAP] `extractions/jordan-crawford-gtm-intelligence/architecture.md` — component ownership, sequencing, context, checkpoints, and proof\n- **Skill system contract** [COLD-START CONTRACT] `extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md` — inputs, outputs, handoffs, authority, validation, and reuse\n- **Production skill** [RUNTIME] `skills/jordan-crawford-gtm-intelligence/SKILL.md` — 10 workflows and 10 deterministic prompts\n- **Behavior proof** [VALIDATION] `extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md` — conflicting-source and zero-data cases\n\n## what this doesn't prove\n_PROOF BOUNDARY_\nStructural validation, source fidelity, router discovery, and synthetic behavior tests prove a locally usable B-tier capability. They do not prove real message-market fit, customer demand, revenue, Jordan's private implementation, or objective world-best status. The blind pass is self-judged; A-tier embodiment requires Farrice's judgment on real work. Plugin packaging remains parked until cold-start portability, privacy, and real-world outcome proof exist.\n\n## Source ledger\n1. Primary YouTube interview — https://www.youtube.com/watch?v=EZpoQ8gT02E (retrieved 2026-08-08, VERIFIED; used for: primary mechanics, Claude Code workflow, message-market fit, research economics)\n2. First-party About page — https://edge.blueprintgtm.com/about (retrieved 2026-08-08, VERIFIED; used for: identity and public company context)\n3. First-party Dossier excerpt — https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins (retrieved 2026-08-08, VERIFIED; used for: public dossier thesis; paid portion excluded)\n4. First-party Asymmetry excerpt — https://edge.blueprintgtm.com/p/the-asymmetry-engine (retrieved 2026-08-08, VERIFIED; used for: public information-asymmetry framing; paid portion excluded)\n5. Local source ledger — file://extractions/jordan-crawford-gtm-intelligence/source-ledger.md (retrieved 2026-08-08, VERIFIED; used for: full provenance and limitations)\n\n## Context pack (agent feed)\n- `agents/jordan-crawford/AGENT.md` — expert identity and authority boundary\n- `skills/jordan-crawford-gtm-intelligence/genius.md` — embodiment context and rubric\n- `extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md` — system contract\n- `extractions/jordan-crawford-gtm-intelligence/extraction-report.md` — asset · SOURCE DOSSIER\n- `extractions/jordan-crawford-gtm-intelligence/architecture.md` — asset · SYSTEM MAP\n- `skills/jordan-crawford-gtm-intelligence/SKILL.md` — asset · RUNTIME\n- `extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md` — asset · VALIDATION\n- `extractions/jordan-crawford-gtm-intelligence/source-ledger.md` — Local source ledger\n- https://www.youtube.com/watch?v=EZpoQ8gT02E — Primary interview · EZpoQ8gT02E\n- https://edge.blueprintgtm.com/p/the-dossier-where-ai-gtm-begins — Blueprint GTM · The Dossier\n- https://edge.blueprintgtm.com/p/30x-fewer-agents-87-agreement — Blueprint GTM · public excerpt\n- https://edge.blueprintgtm.com/about — First-party About page\n- https://edge.blueprintgtm.com/p/the-asymmetry-engine — First-party Asymmetry excerpt\n\n_stack: YouTube transcripts · Blueprint GTM public writing · MES 3.0 · local validators_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

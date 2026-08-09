@@ -105,6 +105,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "templates" / "research-brief" / "template.html"
 DEFAULT_OUT = ROOT / "deliverables" / "research-briefs"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from degrade import degraded  # noqa: E402
 CONFIDENCE = {"VERIFIED", "LIKELY", "UNCONFIRMED"}
 
 # Share mode (--share): strip internals so the variant is safe to send outward.
@@ -533,11 +536,22 @@ def build_context_pack(brief):
         ap = Path(p)
         if not ap.is_absolute():
             ap = ROOT / p
-        key = str(ap)
+        try:
+            canonical = ap.resolve().relative_to(ROOT.resolve()).as_posix()
+            scope = "repo"
+        except ValueError:
+            canonical = str(ap)
+            scope = "absolute"
+        key = f"{scope}:{canonical}"
         if key in seen_p:
             return
         seen_p.add(key)
-        paths.append({"path": _rel_display(str(ap)), "abs": str(ap), "role": role})
+        paths.append({
+            "path": canonical,
+            "scope": scope,
+            "abs": str(ap),
+            "role": role,
+        })
 
     def add_url(u, label):
         u = str(u or "").strip()
@@ -579,6 +593,12 @@ def build_context_pack(brief):
         "title": _plain(brief.get("title")),
         "compiled": brief.get("compiled"),
         "generated_by": "execution/render_brief.py",
+        "path_policy": {
+            "canonical_field": "path",
+            "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+            "absolute_field": "abs",
+            "absolute_semantics": "render-time hint only; never use as cross-worktree identity",
+        },
         "brief_html": f"deliverables/research-briefs/{slug}/{slug}-brief.html",
         "brief_md": f"deliverables/research-briefs/{slug}/{slug}-brief.md",
         "paths": paths,
@@ -601,7 +621,9 @@ def render_context_pack(num, pack):
     return (f'<section class="blk" id="context-pack">{sec_head(num, "context pack", "AGENT FEED")}'
             '<p>every document and source this brief stands on — feed the block below (or the '
             '<span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) '
-            "to any agent and it has the full grounding instantly.</p>"
+            "to any agent and it has the full grounding instantly. For repo-scoped files, "
+            "<strong>path</strong> is canonical and resolves from the active Antigravity root; "
+            "<strong>abs</strong> is only a render-time hint.</p>"
             '<table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table>'
             '<div class="deploy"><div class="bar"><span class="k">agent context pack · json</span>'
@@ -630,8 +652,9 @@ def build_nav(brief, has_pack=False):
             sys.path.insert(0, str(Path(__file__).resolve().parent))
             from surface_nav import nav_html
             links.append(nav_html())
-        except Exception:
-            pass  # DELIBERATE-QUIET: a nav bug must never block a brief render
+        except Exception as e:
+            # DELIBERATE-QUIET: a nav bug must never block a brief render
+            degraded(None, "surface_nav unavailable — brief renders without home-base nav links", e)
     return "".join(links)
 
 
