@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T06:03:06.342728",
+ "generated": "2026-08-08T12:28:42.840708",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -2408,8 +2408,8 @@
   },
   "execution:verify_execution_receipt.py": {
    "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-29T00:51:29.816489"
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-08T12:28:42.773944"
   },
   "execution:verify_expert_composition_standard.py": {
    "status": "PROVEN",
@@ -18810,6 +18810,11 @@
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
    "checked": "2026-08-08T06:03:02.935864"
+  },
+  "execution:verify_loop_integrity.py": {
+   "status": "ORPHAN",
+   "via": "verify_* but NOT discovered by verify_fleet.discover()",
+   "checked": "2026-08-08T12:28:42.840678"
   }
  }
 }

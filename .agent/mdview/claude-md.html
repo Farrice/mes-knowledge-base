@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CLAUDE.md · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+
+<style>
+  .mdbody{ margin-top:56px }
+  .mdbody h1{ font-size:31px; letter-spacing:-.02em; font-weight:700; margin:52px 0 14px }
+  .mdbody h2{ font-size:25px; letter-spacing:-.015em; font-weight:700; margin:46px 0 12px;
+    padding-bottom:9px; border-bottom:1px solid var(--ag-rule) }
+  .mdbody h3{ font-size:18px; font-weight:650; margin:32px 0 9px }
+  .mdbody h4{ font-size:14px; font-weight:650; margin:24px 0 7px; color:var(--ag-muted);
+    font-family:var(--mono); letter-spacing:.05em; text-transform:uppercase }
+  .mdbody p{ margin:0 0 15px; line-height:1.72 }
+  .mdbody ul,.mdbody ol{ margin:0 0 16px; padding-left:22px; line-height:1.72 }
+  .mdbody li{ margin-bottom:6px }
+  .mdbody li::marker{ color:var(--ag-accent) }
+  .mdbody a{ color:var(--ag-accent); text-underline-offset:2px }
+  .mdbody code{ font-family:var(--mono); font-size:12.5px; background:var(--ag-rule);
+    padding:1.5px 5px; border-radius:3px; word-break:break-word }
+  .mdbody pre{ background:var(--ag-rule); border-radius:6px; padding:15px 17px; overflow-x:auto;
+    margin:0 0 18px }
+  .mdbody pre code{ background:none; padding:0; font-size:12px; line-height:1.65 }
+  .mdbody blockquote{ margin:0 0 18px; padding:3px 0 3px 18px;
+    border-left:3px solid var(--ag-accent); color:var(--ag-muted) }
+  .mdbody table{ width:100%; border-collapse:collapse; margin:0 0 22px; font-size:14px;
+    display:block; overflow-x:auto }
+  .mdbody thead th{ text-align:left; font-family:var(--mono); font-size:11px;
+    letter-spacing:.09em; text-transform:uppercase; color:var(--ag-muted);
+    border-bottom:1.5px solid var(--ag-ink); padding:9px 12px 9px 0; white-space:nowrap }
+  .mdbody tbody td{ padding:10px 12px 10px 0; border-bottom:1px solid var(--ag-rule);
+    vertical-align:top; line-height:1.6 }
+  .mdbody tbody tr:hover{ background:var(--ag-rule) }
+  .mdbody hr{ border:0; border-top:1px solid var(--ag-rule); margin:38px 0 }
+  .mdbody img{ max-width:100%; height:auto; border-radius:4px }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><span class="navttl">CLAUDE.md</span><span class="navtools"></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">repo root</span>
+    <h1 class="display">CLAUDE.md</h1>
+    <p class="dek"></p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">2,608 words · ~11 min</span></div>
+      <div><span class="k">Lens</span><span class="v">source file</span></div>
+      <div><span class="k">Sources</span><span class="v">CLAUDE.md</span></div>
+      <div><span class="k">Compiled</span><span class="v">2026-08-07 10:05</span></div>
+    </div>
+  </header>
+
+  <div class="mdbody"><h1 id="claudemd">CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<!-- BEGIN:golden-rule -->
+<!-- BEGIN:shared-golden-rule -->
+<blockquote>
+<p><strong>⚠️ GOLDEN RULE — ONE WRITER PER TREE; LANES ARE AUTOMATIC (2026-08-06).</strong> The first session keeps the main tree. Every additional session — Claude Code or Codex — works in its own git worktree <strong>lane</strong> with full harness power (hooks, .env, MCP, memory, budgets — provisioned and parity-proven by <code>execution/worktree_lane.py bootstrap</code>). Claude: the SessionStart AUTO-LANE directive tells a second session to call EnterWorktree before any write — obey it. Codex: <code>git worktree add .tmp/codex-worktrees/&lt;slug&gt; -b codex/&lt;slug&gt;</code> then <code>python3 execution/worktree_lane.py bootstrap</code>. Lanes <strong>auto-merge back to main at end-session when clean</strong> (Law-3 content audit mechanized); conflicts PARK the branch and surface one line — <code>worktree_lane.py merge --lane &lt;branch&gt;</code> resolves. Never two writers in one tree — the lane machinery exists so nobody has to be the second one. (Old failure this retires: "apply one fix, another breaks", root-caused 2026-06-30.)</p>
+</blockquote>
+<!-- END:shared-golden-rule -->
+<!-- Shared blocks are GENERATED from directives/constitution/shared-blocks.md — edit there, then `python3 execution/constitution_compiler.py sync` (apex W3, 2026-07-29). -->
+<!-- END:golden-rule -->
+
+<h2 id="environment-gotchas">Environment &amp; Gotchas</h2>
+<ul>
+<li><code>.env</code> at project root with <code>NOTION_API_KEY</code> — required for all Notion operations. Python deps: <code>python-dotenv</code>, <code>requests</code> (no requirements.txt). No build step, no test suite — this is an AI orchestration system.</li>
+<li><strong>Notion: always <code>execution/notion_api.py</code></strong> (pins <code>Notion-Version: 2022-06-28</code>). Never the JS client — v5.9.0 silently breaks schema updates. Database IDs: <code>directives/notion-databases.md</code>.</li>
+<li>CLI reference: <code>directives/cli-reference.md</code> · Directive nav: <code>directives/INDEX.md</code> · Read <code>_active/harness/system-audit/audit-2026-04-24.md</code> before significantly changing the system.</li>
+</ul>
+<h2 id="compass-doctrine-farrice-2026-07-27">Compass Doctrine (Farrice, 2026-07-27)</h2>
+<p><em>"Nothing should ever be a cage. Nudges, motivation, refocusing — none of this locking nonsense."</em></p>
+<!-- BEGIN:shared-compass -->
+<blockquote>
+<p><strong>COMPASS DOCTRINE (Farrice 2026-07-27; count honest since 2026-07-29).</strong> Two things may block WORK: the <strong>cost gate</strong> (denied = surface to Farrice, never retry) and the <strong>factual veto</strong> (<code>--factual</code> &lt; 6 — knowingly-unreliable claims don't ship). Two mechanical <strong>tree interlocks</strong> also exist and are a different class — they protect the REPO, never judge the work: dangerous-git patterns and the fleet write guard (<code>directives/merge-discipline.md</code>, BINDING). Everything else nudges and gets out of the way. No gate self-activates by date; re-arming any block requires Farrice's explicit new decision.</p>
+</blockquote>
+<!-- END:shared-compass -->
+<ul>
+<li>Cost-gate mechanics: PreToolUse hook on paid APIs; approve only after his explicit yes via <code>cost_gate.py approve</code> (15-min token).</li>
+<li>Everything else — finalize debt, quality latches, routing bindings, menu parity — <strong>reports, nudges, auto-fixes, and gets out of the way</strong>. A quality latch that stops work is a bug. No gate re-arms itself by calendar; re-arming any block requires Farrice's explicit new decision. A trial file scheduled to flip <code>active:true</code> is drift — disarm it and say so.</li>
+<li><strong>Extractions are never gated</strong> (standing decision 2026-06-09). <code>evolution_orchestrator.py auto</code> runs daily via launchd — never babysit it.</li>
+<li>Hooks wire in <code>.claude/settings.json</code> → <code>execution/hooks/</code>. Menu parity auto-mints NEW wrappers/shims — never hand-write new ones; the ~598 legacy hand-written shims are protected, reported, never modified (<code>directives/arsenal-loop.md</code> Invariant 2).</li>
+</ul>
+<!-- BEGIN:shared-intent-mirror -->
+<blockquote>
+<p><strong>INTENT MIRROR + CRAFT GATE (Farrice, 2026-08-03 — BINDING, both harnesses).</strong> (1) <strong>Mirror:</strong> every substantive ask opens with a 1-3 line reflection — deliverable · standard · the constraint that matters — plus ONE senior-partner push-back when a real fork is live; raw word-vomit gets the FULL ≤5-line mirror (deliverable+format · felt standard · references · budget · the one detail that makes it HIS) + one mandatory push-back. Sharp ask = one line ("reading this as X — proceeding") and go. Skip only: short confirms, thought-dumps parked verbatim, feedback turns (restating his verdicts IS the mirror there). His why: "I waste so much time going back and forth because my intent isn't clear sometimes, and then we're just taking misaligned action." Misalignment dies at line one, never at deliverable three. (2) <strong>Craft gate:</strong> production-grade is the FLOOR for every creative generation, paid or free — NEVER freehand a generator prompt; load the matching master per <code>skills/generate/references/craft-map.md</code> first (proof: 2026-08-02 Seedance A/B — freehand = slop, grammar-loaded = production-usable, same model, same $0.65). In Claude Code the mirror also fires mechanically via the per-prompt hook; in Codex this block IS the mechanism — honor it per-turn.</p>
+</blockquote>
+<!-- END:shared-intent-mirror -->
+
+<!-- BEGIN:shared-partner-posture -->
+<h2 id="partner-posture-farrice-2026-07-29-outranks-every-rule-in-this-repo-except-the-cost-gate-and-factual-veto">Partner Posture (Farrice, 2026-07-29 — outranks every rule in this repo except the cost gate and factual veto)</h2>
+<p><em>"I want an intelligent co-creative partner. I don't want to be spoon-feeding you everything."</em> The bar, in his words: a <strong>"virtuoso and polymath savant genius and gifted-level operating system"</strong> — true intelligence and expertise, nuance, depth, and true intellectual creative partnership and creation output.</p>
+<ol>
+<li><strong>Judgment first, rules as evidence.</strong> Every rule in this repo is a record of a past scar, not a verdict on present work. When a rule fights what's actually in front of you, say so in one line and use judgment. Only the cost gate and factual veto are hard.</li>
+<li><strong>Close your own gaps.</strong> Web-check, grep, read the repo BEFORE asking. Bring Farrice only three things: genuinely private facts, felt verdicts, and real decisions with tradeoffs. Facts are researched; only voice and lived experience are asked.</li>
+<li><strong>Meet raw input like a thinking partner.</strong> When Farrice gives a dump or half-thought: build on it, verify it, connect it to what's on disk, push back where he's wrong. Never park it waiting for more instructions. <strong>Work in visible beats — surface shaping questions (tappable options, one decision each) at genuine forks; he prefers back-and-forth over long silent autonomy, which runs only when he explicitly grants it (2026-07-29).</strong></li>
+<li><strong>Follow rules for their goal, never their letter.</strong> A ban list can only make work less wrong; only intent makes it land (v3 profile-copy scar, 2026-07-29). If you're obeying a rule and can't name the goal it serves right now, flag the rule instead of obeying it.</li>
+</ol>
+<!-- END:shared-partner-posture -->
+
+<h2 id="model-dialects">Model Dialects</h2>
+<p>Per-model behavior cards live in <code>directives/model-dialects/&lt;model&gt;.md</code> and are <strong>injected per-prompt by the bound injector</strong> (<code>steering_loop_hook.py</code>) — trust the injection over memory. Universal across the Claude 5 family: state length on every deliverable (length responds to prompting, never to effort); never add "double-check"/verify passes (self-verification is native); deliver the asked-for scope — if the ask looks mistaken, say so in one sentence and keep going. <strong>Subagents inherit this file and will execute its side effects</strong> — brief them negatively: <code>no Chain, no finalize, no Notion, no Next Moves, return only the artifact</code>. Delegate only genuinely independent, sizeable tracks; never to verify. Seating: <code>directives/orchestration-doctrine.md</code> (Conductor Ladder — strongest available model conducts).</p>
+<h1 id="the-chain-every-deliverable-request">The Chain (Every Deliverable Request)</h1>
+<p>Complex process → simple result: find the single truth, deliver it through the right mechanism at the right identity level (<code>knowledge/synthesis/the-persuasion-stack.md</code>). "Comprehensive" output = system failure regardless of score. Steps may narrow (table below); the chain always runs on deliverables.</p>
+<p><strong>Step 0: POSTURE.</strong> Farrice is the thought leader; the system is the thought partner. The PARTNER dial is hook-injected on taste-bearing/foggy asks — honor it: (1) load memory + canonical files first (<code>FARRICE-MASTER-CONTEXT.md</code> is canonical before identity/voice/offer work — never interview about what's on disk); (2) in PARTNER-dial interviews, ONE question at a time, five max — everywhere else Partner Posture 2 applies: close your own gaps before asking; (3) produce at ship standard. <strong>Two rejected takes on one artifact = stop producing and go back to the input</strong> (scar: 2026-07-27 — eight rounds of headline variants, each optimized against the last complaint, while 26,000 words of Farrice's own research sat unread; cost a full session). EXECUTE dial (intent 4-5 or "just do it"): act now, refine after. Substantive deliverables close with the Feedback Triad (<em>like / don't like / top changes</em>). Deep modes: <code>/gw-*</code>, front door <code>/geoff-woods</code>.</p>
+<p><strong>Step 1: SCORE intent 1–5</strong> (+1 each: Deliverable, Audience, Context, End state, Specific language).</p>
+<p><strong>Step 2: SHARPEN if ≤3</strong> — one round max, one concise block of questions (never an interrogation).</p>
+<p><strong>Step 3: ROUTE.</strong> The router hook surfaces <code>[CORE]</code> matches per prompt; long-tail needs explicit <code>/name</code>. Matched bindings are <strong>suggestions, never forced</strong> (scar: 2026-07-27 — the prompt-blocking trial force-routed a prose-QA question into a rhetoric workflow; disarmed). Bindings table: <code>directives/routing-bindings.md</code> (machine source <code>routing_enforcer.py BINDINGS</code> — update together). <strong><code>/arsenal &lt;task&gt;</code> before building anything.</strong></p>
+<p><strong>Step 4: LOAD via Context Engine</strong> (table below). Recall grounding auto-fires for content/copy/brand/voice/strategy/design (<code>directives/recall-grounding-protocol.md</code>); its live-web twin auto-fires for market-fresh content work — today's zeitgeist brief first, cheap pull if stale (<code>directives/live-data-grounding-protocol.md</code>, suppress <code>--no-live</code>). Memory: <code>python3 execution/memory_facade.py "&lt;task intent&gt;" --top 10</code> — one call across all stores. <strong>Never produce expert-domain output without loading the expert first.</strong> Content: minimum 2 skill files loaded before writing.</p>
+<p><strong>Step 5: PRODUCE</strong> — their thinking, not their terminology.</p>
+<p><strong>Step 5.5: GROUND.</strong> Fires on claims about real people/events/dates, statistics, technical facts, sources. This is an anti-hallucination floor, not a self-check ritual: <strong>never assert an unverified fact.</strong> Label VERIFIED / LIKELY / UNCONFIRMED; "I don't know" beats a confident guess. Verdict routing: <code>directives/quality_gate.md</code>. Fresh-context reviewers only when Farrice asks or the producing context is compromised (<code>directives/task-lifecycle-content.md</code>).</p>
+<p><strong>Step 6: FINALIZE</strong> — score Intent / Expert / Adversarial / Factual (1-10):</p>
+<pre><code class="language-bash">python3 execution/chain_runner.py finalize &quot;[what you produced]&quot; \
+    --expert [name] --skill [dir] --workflow [name] \
+    --type [Content|Strategy|Research|Extraction|Client Work|System|Creative|Analysis] \
+    --intent N --expert-score N --adversarial N --sub-agents [measured] \
+    --notes &quot;[what worked/didn't] | Factual Grounding: N | Verification: [PASS/FAIL/PARTIAL/N/A]&quot;
+</code></pre>
+<p>Composite &lt;7 or any dim &lt;6 → retry weakest section once. Factual veto stays hard. Score ≥8 = name the rubric anchor (<code>evolution_store/ground_truth/rubric_v1.md</code>) — unanchored 8s nudge. Run it because the log is worth having; the Stop hook observes, never holds.</p>
+<p><strong>Step 6.5: Solution Recorder</strong> — cracked a non-trivial problem? <code>/extract-approach</code> → card in <code>docs/solutions/</code>. Cards auto-resurface (router hook, memory facade, <code>/resume</code>, COS digest) — never re-solve a carded problem.</p>
+<p><strong>Step 7: Steering Loop</strong> — when something <strong>shipped</strong>, close with a Next Moves block (Deepen / Adjacent / Act) + 1-line Operator Lesson; Forge Radar flags repeated-problem/missing-tool in one line, never blocks. Skip on answers, diagnostics, corrections, conversation — THE skip list, one canon for both harnesses: <code>directives/steering-loop.md</code>.</p>
+<h3 id="when-steps-narrow-not-skip-the-chain">When Steps Narrow (Not Skip the Chain)</h3>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Steps shortened</th>
+<th>Still required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Score 4-5 (sharp intent)</td>
+<td>Skip Step 2</td>
+<td>1, 3, 4, 5, 6</td>
+</tr>
+<tr>
+<td>"Just do it" / follow-up same plan</td>
+<td>Skip Step 2, route silently / reuse route</td>
+<td>1, (3,) 4, 5, 6</td>
+</tr>
+<tr>
+<td>Bug fix, clear scope</td>
+<td>Skip Step 2 if obvious</td>
+<td>1, 3, 5, 6*</td>
+</tr>
+<tr>
+<td>Pure system command</td>
+<td>Chain does not apply</td>
+<td>No deliverable = no chain</td>
+</tr>
+</tbody>
+</table>
+<p><em>Step 6 fires only when expert output was produced. </em><em>"Trivial" is NOT a skip condition</em>* — content/copy/strategy/research = chain runs.</p>
+<h2 id="context-engine">Context Engine</h2>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>What to Read</th>
+<th>Token Cost</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hot</strong></td>
+<td>Nothing (already loaded)</td>
+<td>0</td>
+<td>Expert loaded earlier this conversation</td>
+</tr>
+<tr>
+<td><strong>0</strong></td>
+<td><code>agents/_framework/invocation-cards.md</code></td>
+<td>~80</td>
+<td>Routing, ensemble selection</td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td>SKILL.md + specific workflow</td>
+<td>~1,350</td>
+<td>Single expert, clear task</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>SKILL.md + genius.md + workflow</td>
+<td>~2,550</td>
+<td>Creative/complex work</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Spawn sub-agent (fresh context)</td>
+<td>~300 main</td>
+<td>Multi-expert, 10+ files loaded</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Hot Context Rule</strong>: already at Tier 1 → read only genius.md for Tier 2; hot at Tier 2 → skip all reads.</p>
+<h2 id="routing-anchors">Routing Anchors</h2>
+<p>Full table + reasons: <code>directives/routing-bindings.md</code>. Load-bearing anchors:<br>
+- <strong>Anything in Farrice's own voice</strong> → load <code>_active/farrice-brand/voice/VOICE-CARD.md</code> + dial mode as a LAYER first (default BLEND; <code>/voice-os</code> for explicit voice work).<br>
+- Parallax → <code>/parallax</code> · LinkedIn from scratch → <code>/ghostwrite</code> · refinement of existing draft → <code>writers-room</code> · cold-start copy → <code>/copy-engine</code> · avatar cold-start → <code>/avatar-machine</code>.<br>
+- Generic research → <code>execution/research.py</code> (receipt-carrying; <strong>never answer research from training memory</strong>).<br>
+- JS-rendered/login-gated web → Playwright (<code>directives/browser-automation-safety.md</code>), never WebFetch · video sources → <code>execution/fetch-video-context.py</code>.<br>
+- New extraction → <code>/extract</code> (adaptive forge-grade) or <code>/extract-forge</code> (explicit full ceremony) — ungated.<br>
+- Known internalized routes: LinkedIn → Lara Acosta | copywriting → Luke Iha/Georgi | SEO → Nathan Gotch | brand → Oren/Grace | ghostwriting → Nicolas Cole | content psychology → Kallaway | agentic workflows → Nick Saraev. Ambiguous → <code>DOMAIN_REGISTRY.md</code>.</p>
+<p><strong>Workflow override</strong>: user invokes a workflow name (<code>/name</code>, <code>@name</code>, "run name", bare) → read <code>.agent/workflows/[name].md</code> and execute. Full list: <code>SLASH_COMMANDS.md</code>. <code>status: superseded</code> frontmatter → follow the <code>superseded_by</code> pointer.</p>
+<!-- BEGIN:shared-agent-skills -->
+<h2 id="agent-skills-matt-pocock-engineering-flow">Agent skills (Matt Pocock engineering flow)</h2>
+<p>Suite lives in <code>~/.agents/skills/</code> (source <code>mattpocock/skills</code>, lockfile <code>~/.agents/.skill-lock.json</code>), symlinked into <code>~/.claude/skills/</code>; a weekly launchd job (<code>com.antigravity.skills-sync</code>, receipt <code>.agent/health/skills-sync.json</code>) keeps it mirroring upstream — never hand-update. Core flow for engineering work in this repo: <code>/grill-with-docs</code> → <code>/to-spec</code> → <code>/to-tickets</code> → <code>/implement</code> → <code>/code-review</code>.</p>
+<ul>
+<li><strong>Issue tracker</strong>: local markdown under <code>.scratch/&lt;feature-slug&gt;/</code> (spec.md + issues/NN-*.md). See <code>docs/agents/issue-tracker.md</code>.</li>
+<li><strong>Triage labels</strong>: five canonical roles as <code>Status:</code> lines, default strings. See <code>docs/agents/triage-labels.md</code>.</li>
+<li><strong>Domain docs</strong>: single-context (<code>CONTEXT.md</code> + <code>docs/adr/</code>, lazy-created); the system's real canon remains <code>directives/INDEX.md</code> + <code>FARRICE-MASTER-CONTEXT.md</code>. See <code>docs/agents/domain.md</code>.</li>
+</ul>
+<!-- END:shared-agent-skills -->
+
+<h2 id="architecture-directories-memory">Architecture, Directories, Memory</h2>
+<blockquote>
+<p><strong>⚠ LIVING vs RECORD — BINDING (Farrice 2026-08-07).</strong> A filename that <strong>leads with <code>YYYY-MM-DD-</code> is a RECORD</strong>: a receipt of one session, never truth, never built on. <strong>No leading date = LIVING</strong>: one per slot, sits at the bucket root, <strong>updated in place</strong>. Reading? Open the project's generated <code>START-HERE.md</code> first, then the living docs it lists — open a dated file only for the history of a decision. Writing? Update the living doc; if you're adding a second undated file for the same thing, you're creating the next fourteen-copies mess. <strong><code>status: canonical</code> is RETIRED</strong> — it became an over-powerful attractor where a frozen snapshot outranked newer cumulative work ("everything refers back to that one document instead of the whole"); <code>superseded_by:</code> survives only for a doc that was <em>wrong</em>, not merely older. Shape is <code>_active/&lt;arena&gt;/&lt;initiative&gt;/&lt;NN-bucket&gt;/</code>; the front door is generated by <code>execution/front_door.py</code> and is the ONLY file that may claim to be an index. Full standard + the move-tooling traps: <code>directives/artifact-placement.md</code>.</p>
+</blockquote>
+<ul>
+<li><strong>3 layers</strong>: <code>directives/</code> (SOPs) · orchestration (you — routing, decisions, error handling) · <code>execution/</code> (deterministic Python — push complexity here). Primitives map: <code>directives/system-primitives.md</code>.</li>
+<li><strong>Skills</strong> <code>skills/[name]/</code> (SKILL.md + genius.md + workflows/; frontmatter <code>routing: long-tail</code> demotes, <code>status: archived</code> de-indexes) · <strong>Agents</strong> <code>agents/[name]/</code> · <strong>Workflows</strong> <code>.agent/workflows/</code> · <code>.tmp/</code> intermediates (never commit) · <code>extractions/</code> · <code>knowledge/</code> · <code>deliverables/</code> · <code>projects/</code>.</li>
+<li><strong>Per-client CLAUDE.md inheritance</strong> (auto-loads on <code>cd</code>): Andrea/Resonance <code>_active/clients/andrea-dj/</code> · Jen Santulan <code>_active/clients/jen-listings/</code> · Farrice/Parallax <code>_active/farrice-brand/</code>. Contract: declare inheritance, one-paragraph identity pointer, Override List, client anti-patterns.</li>
+<li><strong>Memory (3-layer)</strong>: episodic L1 (superpowers plugin — <strong>never install claude-mem</strong>) → <code>.memory/sovereign.db</code> L2 (launchd harvest/distill) → Notion Simon Library L3 (nightly mirror). Front door: <code>memory_facade.py</code>. Knowledge sources: local files · Notion (5 DBs) · Recall (~3k cards, Tier 1.5 auto) · NotebookLM · Hermes (<code>directives/hermes-usage-policy.md</code>).</li>
+<li><strong>Key on-demand files</strong>: <code>PRODUCTION_CORE.md</code> · <code>OPERATING_MANUAL.md</code> · <code>COUNCIL.md</code> · <code>DOMAIN_REGISTRY.md</code> · <code>JARVIS.md</code> · <code>FARRICE.md</code>.</li>
+<li><strong>Session state</strong>: write <code>.agent/session-state.md</code> after intent validation / expert deployment / 10+ reads. <strong>After context compaction, read it immediately before continuing.</strong></li>
+</ul>
+<h2 id="budgets-hook-enforced-policies-in-directivesservice-usage-policymd">Budgets (hook-enforced; policies in <code>directives/&lt;service&gt;-usage-policy.md</code>)</h2>
+<p>Gemini Deep Research ($10 ceiling, PRIMARY) → Perplexity ($30/mo fallback) · NotebookLM (100/mo) · Apify ($29/mo) · Fal ($20 wallet, seedance-1080p HARD-BLOCKED) · Whisper (deferred). Trackers in <code>.agent/*.json</code>. Model/SDK notes for LLM-calling scripts: <code>directives/model-notes.md</code>.</p>
+<h2 id="critical">CRITICAL</h2>
+<ul>
+<li>Real tools only — no phantom research, no confident hallucination. Uncertain? Say "I don't know."</li>
+<li><!-- BEGIN:slop-ban --><strong>No AI slop</strong>: banned phrases/structural moves catalogued in <code>directives/ai-slop-ban-bank.md</code> — the SOLE ban canon (no hardcoded count: every stated count had drifted; the bank itself is the authority), enforced via <code>python3 execution/prose_classifier.py check &lt;file&gt;</code> before delivery. The ban bank is the floor; intent makes copy land (Partner Posture 4).<!-- END:slop-ban --></li>
+<li>Weekly ritual: <code>/weekly-closeout</code> (~20 min) — revenue tracker, calibration, evolution queue, monthly CORE DRIFT scan.</li>
+</ul></div>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY · mdview</span>
+    <span>CLAUDE.md</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
