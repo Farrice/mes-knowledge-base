@@ -1,0 +1,80 @@
+{
+  "slug": "angle-map-message-market-fit-v1-client",
+  "chip": "FARRICE CAIN · THE ANGLE MAP",
+  "title": "choose the argument *before the campaign*",
+  "dek": "A focused decision room for what The Angle Map should lead with, how it should be tested, and what the current evidence does not yet prove.",
+  "window": "founding evidence through aug 9, 2026",
+  "lens": "message decision · proof boundary · market test",
+  "sources": "current offer record · founding intake · proof counters",
+  "compiled": "aug 9, 2026",
+  "footer_left": "FARRICE CAIN",
+  "footer_right": "THE ANGLE MAP · FOUNDING EDITION",
+  "category": "client: Farrice Cain",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the decision",
+      "kicker": "LEAD WITH THE UPSTREAM JOB",
+      "body": "The Angle Map should lead with one idea: choose the campaign argument before funding more creative around it.\n\nThat is the clearest expression of the service's value. It positions the work as a decision product, not an option generator. The evidence-safe and 48-hour dimensions strengthen the promise, but neither should replace the main argument."
+    },
+    {
+      "kind": "stats",
+      "heading": "what we reviewed",
+      "items": [
+        {"value": "1", "unit": "offer", "label": "FIXED SCOPE", "note": "$750 prepaid"},
+        {"value": "3", "unit": "angles", "label": "DELIVERY CORE", "note": "one lead recommendation"},
+        {"value": "48", "unit": "hours", "label": "DELIVERY WINDOW", "note": "after readiness and payment"},
+        {"value": "0", "unit": "exposures", "label": "MARKET PROOF", "note": "test still required"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what the evidence supports",
+      "tag": "CURRENT TRUTH",
+      "rows": [
+        {"claim": "The service is operationally specific", "evidence": "One live message read, three campaign angles, approved-proof direction, claim-safety boundaries, and one lead recommendation are delivered for one occasion.", "source_label": "Current offer record", "confidence": "VERIFIED"},
+        {"claim": "The service is a decision product", "evidence": "Its deliverable settles which campaign argument to build first and what evidence may support it; it does not promise execution performance.", "source_label": "Current scope", "confidence": "VERIFIED"},
+        {"claim": "The proposed buyer problem is testable but not yet qualified", "evidence": "The current evidence does not include direct customer interviews, purchases, or exposure results connecting the problem to the proposed segment.", "source_label": "Current proof counters", "confidence": "UNCONFIRMED"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the three angles",
+      "kicker": "ONE LEAD · TWO SUPPORTING ROUTES",
+      "items": [
+        {"action": "1 · Decide before you fund more creative", "why": "Lead belief: weak campaigns often begin with an unresolved argument, not a shortage of creative options. Best use: offer introduction and decision-note test."},
+        {"action": "2 · Make the proof choose the message", "why": "Supporting belief: usable evidence and claim boundaries should shape the direction before copy expands. Best use: proof-sensitive buyers and regulated categories."},
+        {"action": "3 · Settle the campaign argument in 48 hours", "why": "Supporting belief: a bounded decision can move quickly without becoming careless. Best use: deadline-driven occasions after scope and source readiness are confirmed."}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "our recommendation",
+      "kicker": "BUILD THIS FIRST",
+      "items": [
+        {"action": "Lead with Angle 1", "why": "It names the strategic mistake the service is designed to avoid and makes the decision product easier to understand."},
+        {"action": "Use Angle 2 as the proof mechanism", "why": "It shows why the recommendation is disciplined without implying legal or regulatory approval."},
+        {"action": "Use Angle 3 as the delivery feature", "why": "Speed reduces delay, but it should not carry the positioning by itself."},
+        {"action": "Do not blend all three into one headline", "why": "One message should organize the test; the other two should answer why the work is credible and timely."}
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "the message-market-fit test",
+      "tag": "ONE HYPOTHESIS · CONTROLLED EXPOSURE",
+      "blocks": [
+        {"label": "MESSAGE SHELL", "text": "Your next campaign creates one decision before more creative gets built: which buyer belief and approved proof should organize the work first. I mapped the available evidence into a one-page Decision Note showing the tradeoff, the proof question, and what I would not force into the same campaign. Would that decision note be useful?"},
+        {"label": "FIRST BATCH", "text": "Five qualified recipients. Keep the segment, problem, useful object, and message fixed. No messages should be sent until the batch and recipients are separately approved."},
+        {"label": "WHAT COUNTS", "text": "Count meaningful response, direct problem confirmation, Decision Note request, held conversation, unchanged $750 acceptance, and cleared payment separately."},
+        {"label": "DECISION RULE", "text": "Continue when at least 2 of 5 respond meaningfully and at least 1 confirms the problem. Repair only the failed gate when qualification, value, or language misses. Retire the segment/problem hypothesis after 10 qualified exposures plus an approved follow-up produce zero problem confirmations."}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "evidence boundary",
+      "kicker": "WHAT THIS ROOM DOES NOT CLAIM",
+      "body": "This room confirms a clear service scope and a disciplined message hypothesis. It does not prove that the proposed segment experiences the problem, that the message will convert, or that buyers will pay. The three angles remain candidates until real customer language and market behavior exist. The work maps editorial direction to approved evidence; legal and compliance approval remain with the client's qualified reviewer."
+    }
+  ]
+}

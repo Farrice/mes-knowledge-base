@@ -1,0 +1,50 @@
+{
+  "schema_version": "client-delivery-room/v1",
+  "sources": [
+    {
+      "id": "S01",
+      "evidence_type": "FACT",
+      "visibility": "CLIENT_SAFE",
+      "location": "deliverables/client-rooms/angle-map-message-market-fit-v1/intake.json",
+      "permission": "Created for this founding proof and safe to return to Farrice",
+      "date": "2026-08-09",
+      "limitation": "Operator decision record; not customer evidence"
+    },
+    {
+      "id": "S02",
+      "evidence_type": "FACT",
+      "visibility": "CLIENT_SAFE",
+      "location": "_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md",
+      "permission": "Repository-owned canonical offer record; safe for the intended reader",
+      "date": "2026-08-09",
+      "limitation": "Defines scope and readiness, not buyer demand"
+    },
+    {
+      "id": "S03",
+      "evidence_type": "FACT",
+      "visibility": "INTERNAL_ONLY",
+      "location": "_active/linkedin/02-offer/ANGLE-MAP-CONFIDENTIAL-INPUT-PROCEDURE.md",
+      "permission": "Private operating procedure",
+      "date": "2026-08-09",
+      "limitation": "Real-client handling fields remain HOLD until literal channels and policies are selected and tested"
+    },
+    {
+      "id": "S04",
+      "evidence_type": "FACT",
+      "visibility": "INTERNAL_ONLY",
+      "location": "deliverables/research-briefs/angle-map-god-agent-gtm-decision/angle-map-god-agent-gtm-decision-brief.json",
+      "permission": "Repository-owned strategy record",
+      "date": "2026-08-09",
+      "limitation": "Contains candid portfolio sequencing and must not enter the client edition"
+    },
+    {
+      "id": "S05",
+      "evidence_type": "INFERENCE",
+      "visibility": "INTERNAL_ONLY",
+      "location": "skills/jordan-crawford-gtm-intelligence/workflows/message-market-fit-test.md",
+      "permission": "Repository-owned method used for internal production",
+      "date": "2026-08-09",
+      "limitation": "Methodology is not market evidence and expert scaffolding is not client-facing"
+    }
+  ]
+}

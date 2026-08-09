@@ -44,6 +44,10 @@ class BriefExportTests(unittest.TestCase):
         self.assertIn("FARRICE CAIN", document)
         self.assertIn("PREMIUM MINIMAL · REPORT DIALECT", document)
         self.assertIn("<em>decision</em>", document)
+        self.assertIn("overflow-wrap:anywhere", document)
+        self.assertIn(".hero,.brief-copy{min-width:0}", document)
+        self.assertIn("width:calc(100% - 32px)", document)
+        self.assertIn("repeat(12,minmax(0,1fr))", document)
         self.assertNotIn("#18202a", document)
         self.assertNotIn("background:var(--ink);color", document)
 

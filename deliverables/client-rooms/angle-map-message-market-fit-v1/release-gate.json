@@ -1,0 +1,14 @@
+{
+  "schema_version": "client-delivery-room-release/v1",
+  "reviews": {
+    "editorial_review": "PASS",
+    "evidence_review": "PASS",
+    "privacy_review": "PASS",
+    "brand_review": "PASS",
+    "link_review": "PASS"
+  },
+  "permission_to_share": "YES",
+  "reviewer": "Codex QA — Farrice-authorized non-confidential founding proof",
+  "reviewed_at": "2026-08-09T23:00:00-07:00",
+  "notes": "Approved for direct presentation to Farrice. A new release gate is required before reuse with any third party or live client."
+}

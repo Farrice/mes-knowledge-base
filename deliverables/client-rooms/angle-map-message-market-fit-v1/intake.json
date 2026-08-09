@@ -1,0 +1,43 @@
+{
+  "schema_version": "client-delivery-room/v1",
+  "project": {
+    "client_name": "Farrice Cain",
+    "engagement": "The Angle Map + Message-Market-Fit Intelligence",
+    "confidential_material": false
+  },
+  "decision": {
+    "live_occasion": "Turn the current Angle Map offer into a repeatable founding client-delivery system before the first live fulfillment.",
+    "message_decision": "Choose the lead argument for introducing The Angle Map while preserving the difference between operational readiness and customer demand.",
+    "deadline": "2026-08-09",
+    "final_decision_maker": "Farrice Cain — founder and operator"
+  },
+  "offer": {
+    "product_or_offer": "The Angle Map — a $750 prepaid message decision delivered within 48 hours after readiness and payment.",
+    "buyer_situation": "An established supplement, functional-nutrition, recovery, or performance brand with one live occasion, usable evidence, one decision deadline, and an owner who must choose which campaign argument to build first."
+  },
+  "message": {
+    "current_message": "A focused live read plus three campaign angles, approved-proof direction, claim-safety boundaries, and one lead-angle recommendation.",
+    "team_uncertainty": "Whether the offer should lead with faster creative options, safer proof use, or the upstream decision that must be settled before more creative is funded.",
+    "prior_attempts": "No qualified market exposure has occurred. Current message performance is UNKNOWN."
+  },
+  "evidence": {
+    "claim_boundaries": "Use only current offer terms and supplied records. Treat the target problem, buyer consequence, and three message directions as PROVISIONAL. Do not imply demand, revenue, campaign lift, legal approval, or regulatory compliance."
+  },
+  "delivery": {
+    "final_audience": "Farrice Cain now; future Angle Map clients after a new per-client release review.",
+    "reader_decision": "Approve one lead message direction, one controlled exposure test, and the standard client-room delivery shape."
+  },
+  "handling": {
+    "mode": "NON_CONFIDENTIAL_DEMO",
+    "transfer_channel": "No transfer — repository-owned founding proof inputs only",
+    "authorized_access": ["Farrice Cain", "local build tools"],
+    "working_copy_location": "Repository fixture and generated local release",
+    "nda_state": "Not applicable to founding proof",
+    "retention_period": "Retain as a regression fixture",
+    "deletion_request_path": "Repository owner may remove the fixture in a separately approved change",
+    "reuse_state": "Internal proof and direct presentation to Farrice only",
+    "approved_ai_tools": [],
+    "approved_information_types": [],
+    "written_ai_permission": "Not applicable — no confidential client material"
+  }
+}

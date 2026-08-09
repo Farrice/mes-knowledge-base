@@ -1,0 +1,22 @@
+{
+  "schema_version": "client-delivery-room/v1",
+  "project_id": "angle-map-message-market-fit-v1",
+  "client_name": "Farrice Cain",
+  "engagement": "The Angle Map + Message-Market-Fit Intelligence",
+  "release_id": "founding-proof-v1",
+  "client_room_title": "The Angle Map — Client Decision Room",
+  "paths": {
+    "intake": "intake.json",
+    "source_inventory": "source-inventory.json",
+    "release_gate": "release-gate.json",
+    "internal_brief": "briefs/private/angle-map-message-market-fit-v1-working/angle-map-message-market-fit-v1-working-brief.json",
+    "client_brief": "briefs/client/angle-map-message-market-fit-v1-client/angle-map-message-market-fit-v1-client-brief.json"
+  },
+  "forbidden_client_terms": [
+    "Jordan Crawford",
+    "Blueprint GTM",
+    "subagent",
+    "skill system",
+    "branch"
+  ]
+}

@@ -11,6 +11,9 @@ Examples:
 
     python3 execution/brief_export.py angle-map-god-agent-gtm-decision \
       --audience share --output /path/to/client-review
+
+    python3 execution/brief_export.py client-working-brief \
+      --brief-root /path/to/curated-brief-root --output /path/to/private-room
 """
 
 from __future__ import annotations
@@ -435,20 +438,20 @@ def build_index(title: str, audience: str, briefs: list[dict]) -> str:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><style>
 :root{{--canvas:#F3F3F0;--paper:#FAFAF8;--ink:#101010;--graphite:#555553;--line:#D8D8D3;--stone:#8C8C82;--white:#FFFFFF;--steel:#3D5A94;--sans:'Helvetica Neue',Helvetica,Arial,sans-serif;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--mono:'JetBrains Mono','SF Mono',Menlo,monospace}}
-*{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:var(--canvas);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}}
-.shell{{width:min(1120px,calc(100% - 48px));margin:0 auto}}.masthead{{display:flex;justify-content:space-between;gap:20px;padding:18px 0 12px;border-bottom:2px solid var(--ink);font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}
-.masthead .mode{{color:var(--stone);font-weight:500}}header{{padding:72px 0 48px;display:grid;grid-template-columns:repeat(12,1fr);column-gap:18px}}.hero{{grid-column:1/10}}
+*{{box-sizing:border-box}}html{{scroll-behavior:smooth;max-width:100%}}body{{margin:0;max-width:100%;overflow-x:hidden;background:var(--canvas);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}}
+.shell{{width:calc(100% - 48px);max-width:1120px;margin:0 auto}}.masthead{{display:flex;justify-content:space-between;gap:20px;padding:18px 0 12px;border-bottom:2px solid var(--ink);font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}
+.masthead .mode{{color:var(--stone);font-weight:500}}header{{padding:72px 0 48px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:18px}}.hero{{grid-column:1/10}}
 .eyebrow,.chip,.field,.proof .k{{font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}.eyebrow{{color:var(--steel)}}
-h1{{font:700 clamp(42px,6.2vw,76px)/.98 var(--sans);letter-spacing:-.025em;max-width:960px;margin:16px 0 0}}h1 em,h2 em{{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--steel)}}
+h1{{font:700 clamp(42px,6.2vw,76px)/.98 var(--sans);letter-spacing:-.025em;max-width:960px;margin:16px 0 0}}h1,h2{{overflow-wrap:anywhere}}h1 em,h2 em{{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--steel)}}
 .dek{{font-size:15px;line-height:1.6;color:var(--graphite);max-width:60ch;margin:22px 0 0}}.proof{{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--line);margin-top:48px}}
-.proof>div{{padding:13px 16px 13px 0}}.proof>div+div{{border-left:1px solid var(--line);padding-left:16px}}.proof .k{{display:block;color:var(--stone);margin-bottom:5px}}.proof .v{{font-size:12px;font-weight:500}}
+.proof>div{{min-width:0;padding:13px 16px 13px 0}}.proof>div+div{{border-left:1px solid var(--line);padding-left:16px}}.proof .k{{display:block;color:var(--stone);margin-bottom:5px}}.proof .v{{font-size:12px;font-weight:500;overflow-wrap:anywhere}}
 main{{padding:0 0 84px}}.notice{{border-left:2px solid var(--steel);color:var(--graphite);font-size:12px;line-height:1.55;padding:2px 0 2px 14px;margin:0 0 36px;max-width:72ch}}
 .tools{{display:grid;grid-template-columns:repeat(12,1fr);column-gap:18px;align-items:end;border-bottom:1px solid var(--ink);padding-bottom:10px}}.search{{grid-column:1/9}}input{{width:100%;border:0;background:transparent;color:var(--ink);font:500 14px/1.4 var(--sans);padding:8px 0;outline:none}}input::placeholder{{color:var(--stone)}}
 .tool-links{{grid-column:9/-1;display:flex;justify-content:flex-end;gap:16px}}a{{color:var(--steel)}}.tool-links a,.links a{{font:700 9px/1.35 var(--sans);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:3px}}.tool-links a:hover,.links a:hover{{border-color:var(--steel)}}
-.brief-list{{border-bottom:1px solid var(--ink)}}.brief-row{{display:grid;grid-template-columns:72px minmax(0,1fr) 260px;gap:24px;padding:28px 0;border-top:1px solid var(--line);align-items:start}}.field{{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--steel);font-size:15px;letter-spacing:0}}
+.brief-list{{border-bottom:1px solid var(--ink)}}.brief-row{{display:grid;grid-template-columns:72px minmax(0,1fr) 260px;gap:24px;padding:28px 0;border-top:1px solid var(--line);align-items:start}}.hero,.brief-copy{{min-width:0}}.field{{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--steel);font-size:15px;letter-spacing:0}}
 .chip{{display:block;color:var(--stone);margin-bottom:9px}}h2{{font:700 25px/1.12 var(--sans);letter-spacing:-.018em;margin:0;max-width:30ch}}.brief-copy p{{font-size:12.5px;line-height:1.55;color:var(--graphite);max-width:64ch;margin:9px 0 0}}.links{{display:flex;justify-content:flex-end;gap:14px;flex-wrap:wrap;padding-top:24px}}
 footer{{display:flex;justify-content:space-between;gap:18px;border-top:2px solid var(--ink);padding:14px 0 42px;color:var(--stone);font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}
-@media(max-width:760px){{.shell{{width:min(100% - 32px,1120px)}}header{{padding:52px 0 36px}}.hero{{grid-column:1/-1}}.proof{{grid-template-columns:1fr}}.proof>div+div{{border-left:0;border-top:1px solid var(--line);padding-left:0}}.tools{{display:flex;gap:12px;flex-direction:column;align-items:stretch}}.search{{width:100%}}.tool-links{{justify-content:flex-start}}.brief-row{{grid-template-columns:44px 1fr;gap:14px}}.links{{grid-column:2;justify-content:flex-start;padding-top:4px}}.masthead{{align-items:flex-start;flex-direction:column;gap:5px}}}}
+@media(max-width:760px){{.shell{{width:calc(100% - 32px)}}header{{padding:52px 0 36px}}.hero{{grid-column:1/-1}}.proof{{grid-template-columns:1fr}}.proof>div+div{{border-left:0;border-top:1px solid var(--line);padding-left:0}}.tools{{display:flex;gap:12px;flex-direction:column;align-items:stretch}}.search{{width:100%}}.tool-links{{justify-content:flex-start}}.brief-row{{grid-template-columns:44px minmax(0,1fr);gap:14px}}.links{{grid-column:2;justify-content:flex-start;padding-top:4px}}.masthead{{align-items:flex-start;flex-direction:column;gap:5px}}}}
 </style></head><body><div class="shell"><div class="masthead"><span>FARRICE CAIN</span><span class="mode">PORTABLE BRIEFING ROOM · {edition_label}</span></div>
 <header><div class="hero"><div class="eyebrow">CURATED INTELLIGENCE · PORTABLE LIBRARY</div><h1>{accent_text(title, fallback_last=True)}</h1>
 <p class="dek">A self-contained decision library built to travel without visual or evidentiary drift.</p></div>
@@ -554,11 +557,25 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
     max_file = int(args.max_file_mb * 1024 * 1024)
     max_total = int(args.max_total_mb * 1024 * 1024)
 
+    def source_identity(source: Path) -> str | None:
+        """Return repository provenance when the source actually lives there.
+
+        Curated brief roots may be generated in a temporary directory. Their
+        bytes remain hashed, but they must not be mislabeled as repository
+        paths or crash a private export.
+        """
+        resolved = source.resolve()
+        for base in dict.fromkeys((ROOT.resolve(), CANONICAL_ROOT.resolve())):
+            if _inside(resolved, base):
+                return resolved.relative_to(base).as_posix()
+        return None
+
     def record_file(path: Path, kind: str, source: Path | None = None, source_rel: str | None = None) -> None:
         rel = path.relative_to(stage).as_posix()
         row = {"path": rel, "kind": kind, "bytes": path.stat().st_size, "sha256": sha256_file(path)}
         if source is not None:
-            row["source_repo_path"] = source_rel
+            if source_rel:
+                row["source_repo_path"] = source_rel
             row["source_sha256"] = sha256_file(source)
         records[rel] = row
 
@@ -684,10 +701,10 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
                     ("json", out_json, "brief-provenance"),
                 ):
                     source = paths[key]
-                    record_file(out_path, kind, source, source.relative_to(ROOT).as_posix())
+                    record_file(out_path, kind, source, source_identity(source))
                 if brief["pack_source"]:
                     source = brief["pack_source"]
-                    record_file(out_context, "portable-context", source, source.relative_to(ROOT).as_posix())
+                    record_file(out_context, "portable-context", source, source_identity(source))
                 else:
                     record_file(out_context, "portable-context")
                 artifacts.update({
@@ -770,7 +787,7 @@ def main() -> int:
     parser.add_argument("--audience", choices=("private", "share"), default="private",
                         help="private includes context; share renders stripped HTML only")
     parser.add_argument("--brief-root",
-                        help="share mode only: alternate directory of curated <slug>/<slug>-brief.json files")
+                        help="alternate directory of curated <slug>/<slug>-brief artifacts")
     parser.add_argument("--zip", action="store_true", help="also create <output>.zip")
     parser.add_argument("--include-hidden", action="store_true",
                         help="private mode only: allow hidden repo paths except secrets and .git")
@@ -785,8 +802,6 @@ def main() -> int:
         fail("use explicit slugs or --all, not both")
     if args.include_hidden and args.audience != "private":
         fail("--include-hidden is only valid for private exports")
-    if args.brief_root and args.audience != "share":
-        fail("--brief-root is only valid for share exports")
     if args.max_file_mb <= 0 or args.max_total_mb <= 0:
         fail("size limits must be positive")
     export_bundle(args)
