@@ -40,12 +40,14 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "execution"))
 
+from degrade import degraded  # noqa: E402
+
 # Load .env so headless (launchd) runs have APIFY_TOKEN without shell profile help.
 try:
     from dotenv import load_dotenv
     load_dotenv(REPO / ".env")
-except ImportError:
-    pass
+except ImportError as e:
+    degraded(None, "python-dotenv not importable — .env skipped; headless runs may lack APIFY_TOKEN", e)
 
 import apify_client as ac  # noqa: E402  (needs sys.path + dotenv first)
 
@@ -61,6 +63,17 @@ DEFAULT_ICP_TITLES = (
 )
 
 MAX_ACTOR_CALLS = 80  # hard sanity rail per run, independent of $ budgets
+
+# Actor calls that did not come back "ok" this run. A roster written over these
+# would state "0 engagers" as a business fact (mirror: social_intel.py refuses
+# Notion writes on a failed scrape). main() refuses the roster write when set.
+SCRAPE_FAILURES: list[str] = []
+
+
+def _scrape_failed(what: str, r: dict) -> None:
+    msg = f"{what} — status: {r.get('status')}. {r.get('message', '')}".strip()
+    print(msg)
+    SCRAPE_FAILURES.append(msg)
 
 
 def read_creators(path: Path) -> list[str]:
@@ -96,7 +109,10 @@ def fetch_posts(creator: str, n_posts: int, counter: CallCounter) -> list[dict]:
     if not counter.spend():
         return []
     r = ac.run_actor("linkedin-posts", {"username": creator, "limit": n_posts}, n_posts)
-    return r.get("items", []) if r.get("status") == "ok" else []
+    if r.get("status") != "ok":
+        _scrape_failed(f"posts scrape failed for {creator}", r)
+        return []
+    return r.get("items", [])
 
 
 def fetch_engagement(post_url: str, limit: int, counter: CallCounter) -> tuple[list, list]:
@@ -110,6 +126,8 @@ def fetch_engagement(post_url: str, limit: int, counter: CallCounter) -> tuple[l
         )
         if r.get("status") == "ok":
             reactions = r.get("items", [])
+        else:
+            _scrape_failed(f"reactions scrape failed for {post_url}", r)
     if counter.spend():
         r = ac.run_actor(
             "linkedin-post-comments",
@@ -119,6 +137,8 @@ def fetch_engagement(post_url: str, limit: int, counter: CallCounter) -> tuple[l
         )
         if r.get("status") == "ok":
             comments = r.get("items", [])
+        else:
+            _scrape_failed(f"comments scrape failed for {post_url}", r)
     return reactions, comments
 
 
@@ -215,9 +235,33 @@ def main():
         reverse=True,
     )
 
+    stamp = date.today().isoformat() + (f"-{args.tag}" if args.tag else "")
+
+    # -- Refuse the roster write on a failed scrape ------------------------
+    # (Mirrors social_intel.py: no partial writes on a failed/budget-exhausted
+    # scrape.) A ROSTER-*.md written over failed calls would state "0 engagers"
+    # as a business conclusion when the truth is "the scrape didn't run".
+    if SCRAPE_FAILURES:
+        print(f"{len(SCRAPE_FAILURES)} scrape call(s) failed — roster NOT written "
+              "(no false '0 engagers' conclusion). Fix the scrape and re-run.")
+        budget_after = ac.load_usage().get("spent_dollars")
+        HEALTH_DIR.mkdir(parents=True, exist_ok=True)
+        receipt = {
+            "run": started, "status": "scrape-failed",
+            "failures": SCRAPE_FAILURES,
+            "posts": len(posts), "engagers": 0,
+            "actor_calls": counter.n, "call_cap": MAX_ACTOR_CALLS,
+            "budget_spent_before": budget_before,
+            "budget_spent_after": budget_after,
+            "outputs": [],
+            "contacted_anyone": False,
+        }
+        (HEALTH_DIR / f"signal-scout-{stamp}.json").write_text(json.dumps(receipt, indent=2))
+        print(json.dumps(receipt, indent=2))
+        return  # exit 0 — a failed scrape is surfaced, never a crashed run
+
     # -- Write outputs -----------------------------------------------------
     args.out_dir.mkdir(parents=True, exist_ok=True)
-    stamp = date.today().isoformat() + (f"-{args.tag}" if args.tag else "")
     json_path = args.out_dir / f"ROSTER-{stamp}.json"
     md_path = args.out_dir / f"ROSTER-{stamp}.md"
 

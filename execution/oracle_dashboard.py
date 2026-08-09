@@ -36,6 +36,7 @@ from pathlib import Path
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 sys.path.insert(0, os.path.join(ROOT, "execution"))
+from degrade import degraded  # noqa: E402
 
 
 def _shared_nav(current):
@@ -43,11 +44,17 @@ def _shared_nav(current):
     try:
         from surface_nav import nav_html
         return nav_html(current=current, style=False)
-    except Exception:
-        return ""  # DELIBERATE-QUIET: nav bug must never block the board render
+    except Exception as e:
+        # DELIBERATE-QUIET: nav bug must never block the board render
+        return degraded("", "surface_nav unavailable — oracle renders without home-base nav", e)
 sys.path.insert(0, ROOT)
 OUT_DIR = os.path.join(ROOT, '.agent', 'oracle')
 OUT = os.path.join(OUT_DIR, 'oracle-dashboard.html')
+
+# Ledgers that existed on disk but could not be parsed this render — surfaced
+# as a visible warning banner so a corrupt paper ledger can never render as a
+# pristine $1000 bankroll (the exact lie the 2026-08-08 audit flagged).
+_LOAD_HOLES: list[str] = []
 
 
 def load_json(rel, default=None):
@@ -56,8 +63,10 @@ def load_json(rel, default=None):
         try:
             with open(p) as f:
                 return json.load(f)
-        except (json.JSONDecodeError, OSError):
-            pass
+        except (json.JSONDecodeError, OSError) as e:
+            _LOAD_HOLES.append(rel)
+            return degraded(default if default is not None else {},
+                            f"corrupt/unreadable {rel} — default substituted into the cockpit", e)
     return default if default is not None else {}
 
 
@@ -371,6 +380,15 @@ def render(d):
                  if q else "UNCONFIRMED — no API call recorded yet; first line-fetch will populate this")
     clv_val = f"{d['clv_avg']:+.2f} pts over {d['clv_n']} bets" if d['clv_avg'] is not None else "Capture live as of 2026-08-06 — accrues from the next slate"
 
+    deg_banner = ''
+    if _LOAD_HOLES:
+        holes = html.escape(', '.join(sorted(set(_LOAD_HOLES))))
+        deg_banner = (
+            '<div class="integrity" style="border:1px solid var(--ag-risk)">'
+            '⚠ <b>Degraded data:</b> could not read ' + holes +
+            ' — the numbers below fell back to defaults (e.g. a pristine $1,000 bankroll) '
+            'and must not be trusted until the file is repaired.</div>')
+
     pulse_uri = Path(os.path.join(ROOT, '.agent', 'pulse', 'pulse-board.html')).as_uri()
     room_uri = Path(os.path.join(ROOT, 'deliverables', 'research-briefs', 'index.html')).as_uri()
     assets_uri = Path(os.path.join(ROOT, '.agent', 'assets', 'assets-board.html')).as_uri()
@@ -470,7 +488,7 @@ footer{{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--
   <button class="abtn" data-action="oracle-note">✎ Drop note to overnight run</button>
   <button class="abtn ghost" id="demobtn">◉ Demo mode</button>
 </div>
-
+{deg_banner}
 <div class="tiles">
 <div class="tile"><span class="k">Paper bankroll</span><span class="v money">${d['bankroll'].get('current', 0):,.0f}</span><div class="d money">started ${d['bankroll'].get('initial', 0):,.0f}</div></div>
 <div class="tile"><span class="k">Net P/L (paper)</span><span class="v money">${d['net']:+,.0f}</span><div class="d">ROI {d['roi']:+.1f}% on staked</div></div>

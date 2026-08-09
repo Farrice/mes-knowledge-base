@@ -45,6 +45,11 @@ ROOT = Path(__file__).resolve().parents[1]
 EXEC = ROOT / "execution"
 sys.path.insert(0, str(EXEC))
 
+# Module-style import ON PURPOSE: `degraded` is a bool parameter in nearly every
+# step function here (same shadowing landmine mission_board.py hit 2026-08-08),
+# so the ledgering calls are spelled degrade.degraded(...) — unshadowable.
+import degrade  # noqa: E402
+
 AGENT = ROOT / ".agent"
 SESSIONS_DIR = AGENT / "sessions"
 STATE_ARCHIVE_DIR = SESSIONS_DIR / "state-archive"
@@ -145,8 +150,10 @@ def _resolve_from_handoff(path: Optional[Path] = None) -> Optional[Dict[str, Any
         if not metas:
             return None
         return _handoff_context(metas[0]["path"])
-    except Exception:
-        return None
+    except Exception as e:
+        # None also means "no handoff found" — the failure path is ledgered so
+        # a broken handoff store is distinguishable from an empty one.
+        return degrade.degraded(None, "handoff resolution failed — falling back as if none exists", e)
 
 
 def _resolve_from_session_state() -> Optional[Dict[str, Any]]:
@@ -179,8 +186,8 @@ def _resolve_from_session_state() -> Optional[Dict[str, Any]]:
             "remaining": remaining,
             "session_state_ts": ts,
         }
-    except Exception:
-        return None
+    except Exception as e:
+        return degrade.degraded(None, "session-state.md unreadable/unparseable — treated as absent", e)
 
 
 def resolve_content_source(degraded: bool, handoff_path: Optional[Path] = None) -> Tuple[Optional[Dict[str, Any]], str]:
@@ -272,8 +279,8 @@ def _memory_ledger_keys(step: str = "memory") -> set:
                 continue
             if row.get("key") and row.get("step", "memory") == step:
                 keys.add(row["key"])
-    except Exception:
-        pass
+    except Exception as e:
+        degrade.degraded(None, "memory ledger unreadable — dedup keys incomplete, may double-write", e)
     return keys
 
 
@@ -282,8 +289,8 @@ def _memory_ledger_append(row: dict) -> None:
         SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
         with open(MEMORY_LEDGER, "a", encoding="utf-8") as f:
             f.write(json.dumps(row) + "\n")
-    except Exception:
-        pass
+    except Exception as e:
+        degrade.degraded(None, "memory ledger append failed — this close may re-run its writes", e)
 
 
 def _dedup_key(content: Dict[str, Any]) -> str:
@@ -406,8 +413,10 @@ def _lane_helpers():
 def _in_lane() -> bool:
     try:
         return _lane_helpers().is_lane(ROOT)
-    except Exception:
-        return False
+    except Exception as e:
+        # False = "assume main tree" (the cautious default for the commit gate) —
+        # but a broken lane detector is ledgered, not passed off as a measurement.
+        return degrade.degraded(False, "lane detection failed — assuming main tree", e)
 
 
 def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool, git_policy: str = "legacy") -> Tuple[str, str]:
@@ -497,8 +506,8 @@ def _own_session_paths() -> list:
             for p in data.get("produced_paths", []) or data.get("files", []):
                 if (ROOT / p).exists():
                     paths.append(p)
-    except Exception:
-        pass
+    except Exception as e:
+        degrade.degraded(None, "session ledger unreadable — commit scope reduced to handoffs only", e)
     if (ROOT / ".agent" / "handoffs").exists():
         paths.append(".agent/handoffs")
     return paths
@@ -682,8 +691,8 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
                     t = ln.strip()
                     if t.startswith("- "):
                         assets.append(t[2:])
-        except Exception:
-            pass
+        except Exception as e:
+            degrade.degraded(None, "operator_guide_sync check failed — guide tier may downgrade to brief", e)
 
         content = ctx.get("content") or {}
         if not assets and not content:
@@ -848,8 +857,8 @@ def step_menu_parity(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
             path.parent.mkdir(parents=True, exist_ok=True)
             with path.open("a", encoding="utf-8") as fh:
                 fh.write(json.dumps(rec) + "\n")
-        except Exception:
-            pass
+        except Exception as e:
+            degrade.degraded(None, "menu-parity receipt append failed — minting still done, receipt lost", e)
 
         if not minted:
             return "OK", ("nothing new to mint — everything built is fireable"
@@ -919,8 +928,8 @@ def step_self_heal(ctx: Dict[str, Any], degraded: bool, dry_run: bool,
             lm = re.search(r"(\d+) rule\(s\) written", lp.stdout or "")
             if lm:
                 learned = f" · {lm.group(1)} prevention rule(s) learned"
-        except Exception:
-            pass
+        except Exception as e:
+            degrade.degraded(None, "failure_learning.py run failed — no prevention rules this close", e)
         parts = []
         if healed:
             parts.append(f"{healed} repaired")

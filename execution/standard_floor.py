@@ -73,6 +73,63 @@ def rendered_predicate(content: str) -> tuple[bool, str]:
     return True, f"clean ({total} stray token(s), trip at {TRIP})"
 
 
+# ── content class ─────────────────────────────────────────────────────────
+# Copy/prose deliverables. Byte checks are the FLOOR (always run, deterministic);
+# the ban-bank classifier is a labeled second layer — when it can't run, the
+# detail SAYS so instead of silently passing (prose_classifier.py is the SOLE
+# ban canon per the slop-ban block in CLAUDE.md).
+_PLACEHOLDER = re.compile(r"TODO:|FIXME|\[PLACEHOLDER\]|\[TK\]|lorem ipsum|^<{7} |^={7}$|^>{7} ",
+                          re.I | re.M)
+_MIN_CONTENT_BYTES = 300
+
+
+def content_predicate(content: str) -> tuple[bool, str]:
+    body = content.split("---", 2)[-1] if content.startswith("---") else content
+    if len(body.strip()) < _MIN_CONTENT_BYTES:
+        return False, f"stub — {len(body.strip())} bytes of body (floor {_MIN_CONTENT_BYTES})"
+    hits = _PLACEHOLDER.findall(body)
+    if hits:
+        return False, f"{len(hits)} unresolved placeholder/conflict marker(s): {sorted(set(h.strip() for h in hits))[:3]}"
+    # layer 2: ban-bank classifier, honestly labeled either way
+    import subprocess as _sp
+    clf = ROOT / "execution" / "prose_classifier.py"
+    try:
+        r = _sp.run(["python3", str(clf), "check", "/dev/stdin"],
+                    input=content, capture_output=True, text=True, timeout=25)
+        if r.returncode != 0:
+            tail = (r.stdout or r.stderr).strip().splitlines()
+            return False, f"ban-bank fail — {tail[-1][:120] if tail else 'nonzero exit'}"
+        return True, "clean (bytes + ban-bank)"
+    except Exception:
+        return True, "clean (bytes only — classifier unavailable, NOT run)"
+
+
+# ── code class ────────────────────────────────────────────────────────────
+# Scripts must at least be parseable, conflict-free, and non-hollow. compile()
+# only — never import: importing arbitrary modules at Stop would run their
+# side effects, and a verifier must not mutate what it grades.
+_CONFLICT = re.compile(r"^(<{7} |={7}$|>{7} )", re.M)
+
+
+def code_predicate(content: str) -> tuple[bool, str]:
+    if _CONFLICT.search(content):
+        return False, "merge-conflict markers present"
+    try:
+        import warnings
+        with warnings.catch_warnings():
+            # a scanned file's own SyntaxWarnings (bad escapes) are its
+            # problem, not this report's noise — only failure to PARSE fails
+            warnings.simplefilter("ignore", SyntaxWarning)
+            compile(content, "<artifact>", "exec")
+    except SyntaxError as e:
+        return False, f"does not parse — SyntaxError line {e.lineno}: {str(e.msg)[:80]}"
+    code_lines = [l for l in content.splitlines()
+                  if l.strip() and not l.strip().startswith("#")]
+    if len(code_lines) < 3:
+        return False, f"hollow — {len(code_lines)} code line(s)"
+    return True, f"parses clean ({len(code_lines)} code lines)"
+
+
 FLOORS = {
     "rendered": {
         "description": "HTML surfaces: boards, briefs, rendered markdown",
@@ -81,6 +138,22 @@ FLOORS = {
         "predicate": rendered_predicate,
         "fixture": FIXTURES / "rendered_bad.html",
         "fixture_good": FIXTURES / "rendered_good.html",
+    },
+    "content": {
+        "description": "prose deliverables: copy, briefs-as-md, client content",
+        "roots": ["deliverables/", "_active/farrice-brand/content/", "_active/clients/"],
+        "suffixes": (".md",),
+        "predicate": content_predicate,
+        "fixture": FIXTURES / "content_bad.md",
+        "fixture_good": FIXTURES / "content_good.md",
+    },
+    "code": {
+        "description": "harness scripts",
+        "roots": ["execution/"],
+        "suffixes": (".py",),
+        "predicate": code_predicate,
+        "fixture": FIXTURES / "code_bad.py",
+        "fixture_good": FIXTURES / "code_good.py",
     },
 }
 

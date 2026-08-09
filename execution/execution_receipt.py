@@ -38,6 +38,9 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from degrade import degraded  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SESSIONS_DIR = REPO_ROOT / ".agent" / "sessions"
 HEALTH_DIR = REPO_ROOT / ".agent" / "health"
@@ -76,10 +79,14 @@ EPHEMERAL = ("/scratchpad/", "/private/tmp/", "/tmp/", "/.tmp/")
 # evidence loaders — each returns (status, detail) and never raises
 # ──────────────────────────────────────────────────────────────────
 def _age_days(p: Path) -> float | None:
+    if not p.exists():
+        return None  # legitimately never run — reported as UNKNOWN, not a hole
     try:
         return (datetime.now() - datetime.fromtimestamp(p.stat().st_mtime)).total_seconds() / 86400
-    except OSError:
-        return None
+    except OSError as e:
+        # The reporter's own evidence file exists but can't be stat'd — without
+        # this record the receipt would claim the check "never ran".
+        return degraded(None, f"evidence file {p.name} exists but stat failed — reported as never-run", e)
 
 
 def fleet_status() -> tuple[str, str]:
@@ -135,8 +142,8 @@ def latest_ledger_path() -> Path | None:
         files = sorted(SESSIONS_DIR.glob("ledger-*.json"),
                        key=lambda p: p.stat().st_mtime, reverse=True)
         return files[0] if files else None
-    except OSError:
-        return None
+    except OSError as e:
+        return degraded(None, f"sessions dir {SESSIONS_DIR} unlistable — receipt sees no ledger at all", e)
 
 
 def load_ledger(session_id: str | None) -> tuple[dict | None, Path | None]:

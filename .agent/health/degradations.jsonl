@@ -13,3 +13,9 @@
 {"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 106, "why": "selftest tuple", "exc": null, "session": ""}
 {"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 107, "why": "selftest bool", "exc": null, "session": ""}
 {"ts": "2026-08-08T19:12:04", "module": "degrade.py", "function": "self_test", "line": 112, "why": "receipt unreadable", "exc": null, "session": ""}
+{"ts": "2026-08-09T11:05:28", "module": "pulse_dashboard.py", "function": "jsonl", "line": 53, "why": "xyz.jsonl unreadable \u2014 rows missing from board", "exc": "FileNotFoundError: [Errno 2] No such file or directory: '/nonexistent/xyz.jsonl'", "session": ""}
+{"ts": "2026-08-09T11:05:28", "module": "pulse_dashboard.py", "function": "mission_age_days", "line": 78, "why": "mission ts unparseable \u2014 age unknown", "exc": "ValueError: time data 'garbage' does not match format '%Y-%m-%dT%H:%M:%S'", "session": ""}
+{"ts": "2026-08-09T11:11:22", "module": "degrade.py", "function": "self_test", "line": 105, "why": "selftest str", "exc": null, "session": ""}
+{"ts": "2026-08-09T11:11:22", "module": "degrade.py", "function": "self_test", "line": 106, "why": "selftest tuple", "exc": null, "session": ""}
+{"ts": "2026-08-09T11:11:22", "module": "degrade.py", "function": "self_test", "line": 107, "why": "selftest bool", "exc": null, "session": ""}
+{"ts": "2026-08-09T11:11:22", "module": "degrade.py", "function": "self_test", "line": 112, "why": "receipt unreadable", "exc": null, "session": ""}

@@ -49,6 +49,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import render_brief  # noqa: E402
 from canon_audit import frontmatter  # noqa: E402
+from degrade import degraded  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ACTIVE = ROOT / "_active"
@@ -178,6 +179,10 @@ def discover_initiatives() -> list[Path]:
 # ── git dating ───────────────────────────────────────────────────────────────
 
 _DATE_CACHE: dict[str, dict[str, int]] = {}
+# Set when git history could not be read this process — the docstring of
+# _git_dates_all records that this exact fallback re-dated every doc to TODAY
+# twice before. scan() carries it into a visible drift line.
+_DATES_DEGRADED = False
 
 
 def git_dates(base: Path) -> dict[str, int]:
@@ -202,14 +207,15 @@ def git_dates(base: Path) -> dict[str, int]:
     """
     try:
         base.relative_to(ROOT)
-    except ValueError:
-        return {}
+    except ValueError as e:
+        return degraded({}, f"{base} is outside the repo — no git dates, every file falls back to mtime", e)
     full = _git_dates_all()
     prefix = str(base.relative_to(ROOT)) + "/"
     return {k: v for k, v in full.items() if k.startswith(prefix)}
 
 
 def _git_dates_all() -> dict[str, int]:
+    global _DATES_DEGRADED
     if "all" in _DATE_CACHE:
         return _DATE_CACHE["all"]
     rel = "_active"
@@ -240,10 +246,12 @@ def _git_dates_all() -> dict[str, int]:
              "--diff-merges=first-parent", "--", rel],
             cwd=ROOT, capture_output=True, text=True, timeout=180,
         )
-    except (OSError, subprocess.SubprocessError):
-        return {}
+    except (OSError, subprocess.SubprocessError) as e:
+        _DATES_DEGRADED = True
+        return degraded({}, "git dates unavailable — mtimes would lie (every doc reads as touched today)", e)
     if proc.returncode != 0:
-        return {}
+        _DATES_DEGRADED = True
+        return degraded({}, f"git log exited {proc.returncode} — mtimes would lie (every doc reads as touched today)")
 
     # Three tiers, best first. A date is only as good as the evidence that
     # someone actually WORKED on the file that day.
@@ -339,6 +347,10 @@ def scan(base: Path) -> dict:
     archived = 0
     drift: list[str] = []
     claims: list[str] = []
+    if _DATES_DEGRADED:
+        drift.append("**(dates unverified)** — git history could not be read for this "
+                     "build, so every date below is a filesystem mtime and may read "
+                     "as today. Rebuild once git is healthy.")
 
     for p in _iter_files(base):
         rel_repo = str(p.relative_to(ROOT))
@@ -434,8 +446,8 @@ def broken_link_count(base: Path) -> int | None:
     try:
         import project_filer
         return len(project_filer.scan_broken_refs(base))
-    except Exception:
-        return None
+    except Exception as e:
+        return degraded(None, f"project_filer broken-ref scan failed for {base.name} — link health unknown, Health section omits the line", e)
 
 
 # ── render: markdown ─────────────────────────────────────────────────────────

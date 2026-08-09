@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-08 (chain_runner finalize for youtube-video-context-analysis) |
-| **Last Activated** | 2026-08-08 (chain_runner finalize for youtube-video-context-analysis) |
-| **Activation Count** | 837 |
-| **30-Day Review Date** | 2026-09-07 |
+| **Last Activated** | 2026-08-09 (chain_runner finalize for system-audit) |
+| **Last Activated** | 2026-08-09 (chain_runner finalize for system-audit) |
+| **Activation Count** | 839 |
+| **30-Day Review Date** | 2026-09-08 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

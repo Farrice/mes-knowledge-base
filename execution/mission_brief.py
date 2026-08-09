@@ -41,6 +41,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "execution"))
 
 import render_brief  # noqa: E402
+from degrade import degraded  # noqa: E402
 
 SWEEP_LATEST = ROOT / ".agent" / "sweep" / "latest.json"
 SYNTHESIS = ROOT / ".agent" / "sweep" / "synthesis.json"
@@ -83,10 +84,12 @@ def human_date(iso_s):
 
 
 def _dt(iso_s):
+    if not iso_s:
+        return None  # absent timestamp is a normal state, not a hole
     try:
         return datetime.fromisoformat(str(iso_s)[:19])
-    except (ValueError, TypeError):
-        return None
+    except (ValueError, TypeError) as e:
+        return degraded(None, f"unparseable mission timestamp {str(iso_s)[:30]!r} — brief renders it as undated", e)
 
 
 def days_since(iso_s):

@@ -47,10 +47,10 @@ def jsonl(path):
             if line:
                 try:
                     rows.append(json.loads(line))
-                except ValueError:
-                    pass
-    except OSError:
-        pass
+                except ValueError as e:
+                    degraded(None, f"malformed line skipped in {os.path.basename(path)}", e)
+    except OSError as e:
+        degraded(None, f"{os.path.basename(path)} unreadable — rows missing from board", e)
     return rows
 
 
@@ -73,8 +73,9 @@ def mission_age_days(m):
         ts = m.get("ts", "")
         return max(0, int((time.time() - time.mktime(
             time.strptime(ts[:19], "%Y-%m-%dT%H:%M:%S"))) // 86400))
-    except Exception:
-        return None
+    except Exception as e:
+        # None = age unknown (renders "?"), not zero — but the unparseable ts is ledgered.
+        return degraded(None, "mission ts unparseable — age unknown", e)
 
 
 def open_missions():
@@ -188,8 +189,12 @@ def outcomes_due_cards():
     `due` output truncates deliverables to 70 chars and is un-round-trippable)."""
     try:
         data = json.load(open(os.path.join(ROOT, ".agent", "revenue-outcomes.json"), encoding="utf-8"))
-    except (OSError, ValueError):
-        return "", 0
+    except (OSError, ValueError) as e:
+        # Was `return "", 0` — an unreadable tracker rendered as a clean empty
+        # section and a green "0 outcomes due". Visible marker instead; the
+        # count stays 0 because the tile needs a number, but the hole is shown.
+        return degraded_html("outcomes due unknown — .agent/revenue-outcomes.json unreadable; "
+                             "check python3 execution/revenue_tracker.py due", e), 0
     today = time.strftime("%Y-%m-%d")
     due = [o for o in data.get("outcomes", [])
            if o.get("outcome_type") == "pending" and (o.get("check_in_date") or "9999") <= today]
@@ -258,8 +263,11 @@ def fresh_intel():
         sys.path.insert(0, os.path.join(ROOT, "execution"))
         import brief_library as bl
         entries = bl.collect()[:3]
-    except Exception:
-        return ""
+    except Exception as e:
+        # Was `return ""` — a broken brief library made the intel section
+        # silently vanish, indistinguishable from "no fresh briefs".
+        return degraded_html("fresh intel unavailable — brief library failed; "
+                             "run python3 execution/brief_library.py audit", e)
     rows = []
     for e in entries:
         pri = f'<span class="pill warn">P{e["priority"]}</span>' if e.get("priority") else ""
@@ -290,8 +298,11 @@ def money_line():
     """
     try:
         data = json.load(open(os.path.join(ROOT, ".agent", "revenue-outcomes.json"), encoding="utf-8"))
-    except (OSError, ValueError):
-        return ""
+    except (OSError, ValueError) as e:
+        # Was `return ""` — the money line silently disappeared from the sprint
+        # band, which is exactly the blindness this function exists to end.
+        return degraded_html("money line unknown — .agent/revenue-outcomes.json unreadable; "
+                             "check python3 execution/revenue_tracker.py due", e)
     paid = [o for o in data.get("outcomes", []) if float(o.get("revenue") or 0) > 0]
     total = sum(float(o.get("revenue") or 0) for o in paid)
     if not paid:
@@ -304,8 +315,8 @@ def money_line():
         d = (datetime.now() - datetime.strptime(last[:10], "%Y-%m-%d")).days
         cls = "crit" if d >= 14 else ("warn" if d >= 7 else "ok")
         since = f'<span class="pill {cls}">{d}d since the last logged dollar</span>'
-    except (ValueError, TypeError):
-        pass
+    except (ValueError, TypeError) as e:
+        degraded(None, "last-revenue date unparseable — since-pill omitted", e)
     return (f'<span class="pill ok">${total:,.0f} logged</span>{since}'
             f'<span class="m">last {esc(last[:10])} · delivery dates, not collection dates</span>')
 
@@ -321,8 +332,11 @@ def mission_intel():
             key=lambda d: d.stat().st_mtime,
             reverse=True
         )[:3]
-    except Exception:
-        return ""
+    except Exception as e:
+        # Was `return ""` — an unreadable briefs dir made the mission-threads
+        # section vanish, indistinguishable from "no mission briefs yet".
+        return degraded_html("mission threads unavailable — deliverables/research-briefs/ "
+                             "unreadable; run python3 execution/mission_brief.py build --all", e)
 
     rows = []
     for md in mission_dirs:
@@ -339,8 +353,8 @@ def mission_intel():
                 f'<span class="ik">🎯 MISSION</span>'
                 f'<span class="it">{esc(str(title).replace("*", ""))}</span>'
                 f'<span class="m">{esc(brief.get("compiled", ""))}</span></a>')
-        except Exception:
-            pass
+        except Exception as e:
+            degraded(None, f"mission brief unreadable, row skipped: {md.name}", e)
 
     if not rows:
         return ""
@@ -450,10 +464,12 @@ def main():
     corpus_cls = "warn" if corpus_ok is None else ("ok" if corpus_ok else "crit")
 
     lock = None
-    try:
-        lock = json.load(open(os.path.join(ROOT, ".agent", "session.lock")))
-    except (OSError, ValueError):
-        pass
+    lock_path = os.path.join(ROOT, ".agent", "session.lock")
+    if os.path.exists(lock_path):  # absent lock = single driver, healthy — no ledger noise
+        try:
+            lock = json.load(open(lock_path))
+        except (OSError, ValueError) as e:
+            lock = degraded(None, "session.lock present but unreadable — lock state unknown", e)
 
     # Needs-you = T2/T3 compiled (explicitly awaiting his sign-off) first,
     # then the stalest open missions at the 7-day finisher threshold.

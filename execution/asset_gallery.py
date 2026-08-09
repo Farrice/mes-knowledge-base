@@ -40,6 +40,7 @@ THUMBS = os.path.join(OUT_DIR, "thumbs")
 STYLES_DIR = os.path.join(ROOT, "skills", "generate", "styles")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from asset_index import reduced_manifest  # noqa: E402
+from degrade import degraded  # noqa: E402
 
 
 def thumb_name(rel_path):
@@ -59,8 +60,8 @@ def make_thumb(abs_src, dest, kind):
         else:
             return False
         return r.returncode == 0 and os.path.isfile(dest)
-    except Exception:
-        return False
+    except Exception as e:
+        return degraded(False, f"thumbnail generation crashed for {os.path.basename(abs_src)} ({kind}) — card renders without image", e)
 
 
 def build_thumbs(records):
@@ -679,8 +680,9 @@ def render_board(records, styles):
         sys.path.insert(0, os.path.join(ROOT, "execution"))
         from surface_nav import nav_html
         html_doc = html_doc.replace("</nav>", nav_html(current="assets") + "</nav>", 1)
-    except Exception:
-        pass  # DELIBERATE-QUIET: nav bug must never block the board render
+    except Exception as e:
+        # DELIBERATE-QUIET: nav bug must never block the board render
+        degraded(None, "surface_nav injection failed — assets board renders without home-base nav", e)
     open(BOARD, "w", encoding="utf-8").write(html_doc)
     return BOARD
 
@@ -743,8 +745,8 @@ def main():
         if "--recent" in sys.argv:
             try:
                 n = int(sys.argv[sys.argv.index("--recent") + 1])
-            except (IndexError, ValueError):
-                pass
+            except (IndexError, ValueError) as e:
+                degraded(None, f"--recent value missing/non-numeric — highlights fall back to default {n}", e)
         hp = render_highlights(records, n)
         print(f"highlights → {os.path.relpath(hp, ROOT)} ({os.path.getsize(hp)//1024} KB)")
 

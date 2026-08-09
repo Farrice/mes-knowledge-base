@@ -54,8 +54,8 @@ def _canonical_repo_root():
                 for parent in gitdir.parents:
                     if parent.name == ".git":
                         return parent.parent
-        except OSError:
-            pass
+        except OSError as e:
+            degraded(None, "worktree .git pointer unreadable — canonical root falls back to this lane (main-only media may 404)", e)
     return ROOT
 
 
@@ -663,11 +663,8 @@ class _RoomRouteParser(HTMLParser):
 
 
 def _inside(path, root):
-    try:
-        path.relative_to(root)
-        return True
-    except ValueError:
-        return False
+    # Predicate, not a handler: "not inside" is a real answer, not a hole.
+    return path.is_relative_to(root)
 
 
 def room_route_errors(page, entries):

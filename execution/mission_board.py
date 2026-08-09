@@ -63,10 +63,12 @@ def load_bundle():
 
 
 def _dt(s):
+    if not s:
+        return None  # absent timestamp is a normal state, not a hole
     try:
         return datetime.fromisoformat(str(s)[:19])
-    except (ValueError, TypeError):
-        return None
+    except (ValueError, TypeError) as e:
+        return degraded(None, f"unparseable sweep timestamp {str(s)[:30]!r} — mission treated as undated (staleness alarms can't see it)", e)
 
 
 def days_since(s):

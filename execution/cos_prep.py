@@ -26,6 +26,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from cos_reminders import render_reminders  # noqa: E402  (dated tickler, stdlib-only)
+from degrade import degraded  # noqa: E402  (ledger the fail-safe holes, never raise)
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 COS = REPO_ROOT / ".agent" / "cos"
@@ -116,8 +117,8 @@ def load_state() -> dict:
     state = dict(STATE_DEFAULTS)
     try:
         state.update(json.loads(STATE_PATH.read_text()))
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "cos state.json unreadable — defaults used", e)
     return state
 
 
@@ -130,8 +131,8 @@ def load_goals() -> list:
     try:
         goals = json.loads(GOALS_PATH.read_text()).get("goals", [])
         return [g for g in goals if g.get("status") == "active"]
-    except Exception:
-        return []
+    except Exception as e:
+        return degraded([], "goals.json unreadable — goal pulse empty", e)
 
 
 # ── gatherers (all fail-safe) ─────────────────────────────────────
@@ -144,8 +145,8 @@ def gather_revenue_due() -> int:
         pending = [o for o in outs if o.get("outcome_type") == "pending"]
         today = _today()
         return sum(1 for o in pending if o.get("check_in_date") and o["check_in_date"] <= today)
-    except Exception:
-        return 0
+    except Exception as e:
+        return degraded(0, "revenue-outcomes.json unreadable — due count shows 0", e)
 
 
 def gather_outer_loop() -> dict:
@@ -174,8 +175,8 @@ def gather_outer_loop() -> dict:
                 for o in due[:5]
             ]
         result["lifetime_revenue"] = d.get("total_revenue", 0.0)
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "revenue-outcomes.json unreadable — outer loop shows zeros", e)
     try:
         out = subprocess.run(
             [sys.executable, "execution/revenue_tracker.py", "pipeline"],
@@ -184,8 +185,8 @@ def gather_outer_loop() -> dict:
         m = re.search(r"(\d+) deliverables? need outcome tracking", out)
         if m:
             result["never_logged"] = int(m.group(1))
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "revenue_tracker pipeline probe failed — never-logged count absent", e)
     return result
 
 
@@ -216,8 +217,8 @@ def render_outer_loop(loop: dict) -> list:
                         key=lambda p: p.stat().st_mtime, reverse=True)
         if chases and (datetime.now().timestamp() - chases[0].stat().st_mtime) < 7 * 86400:
             lines.append(f"- Drafted check-ins ready for review: [{chases[0].name}](.agent/cos/{chases[0].name})")
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "outcome-chase drafts unlistable — link line omitted", e)
     return lines
 
 
@@ -322,8 +323,8 @@ def gather_self_heal() -> dict:
         with (REPO_ROOT / ".agent" / "health" / "self-heal.jsonl").open() as f:
             healed_today = sum(1 for ln in f
                                if today in ln and '"action": "healed"' in ln)
-    except OSError:
-        pass
+    except OSError as e:
+        degraded(None, "self-heal.jsonl unreadable — healed-today count shows 0", e)
     return {"judgment": judgment, "fixable": fixable, "healed_today": healed_today}
 
 
@@ -401,8 +402,8 @@ def gather_memory_review() -> dict:
         result["count"] = len(rows)
         result["oldest"] = (min(r["created_at"] or "" for r in rows)[:10] if rows else "")
         result["top3"] = top3
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "sovereign.db flagged_review unreadable — memory review section absent", e)
     return result
 
 
@@ -480,8 +481,8 @@ def gather_evolution() -> dict:
             "days_stale": days_stale,
             "headlines": headlines[:2],
         }
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "evolution trace report unreadable — evolution section absent", e)
     return result
 
 
@@ -546,8 +547,8 @@ def gather_threads(limit: int = 3) -> list:
             if len(threads) >= limit:
                 break
         return threads
-    except Exception:
-        return []
+    except Exception as e:
+        return degraded([], "handoff_store threads subprocess failed — top threads absent", e)
 
 
 def goals_due(goals: list) -> list:
@@ -559,8 +560,8 @@ def life_staleness() -> list:
     """[(section, days_stale)] sorted stalest-first. 'never' -> NEVER_DAYS."""
     try:
         text = LIFE_PATH.read_text()
-    except Exception:
-        return []
+    except Exception as e:
+        return degraded([], "life-context.md unreadable — staleness rotation empty", e)
     sections = []
     for m in re.finditer(r"^## (.+?)\s*\n<!-- updated: (\S+) -->", text, re.MULTILINE):
         sections.append((m.group(1).strip(), _days_since(m.group(2))))
@@ -585,8 +586,8 @@ def open_loops() -> tuple:
                          if l.strip().startswith("- ")]
                 return [l for l in loops if l][:3], src
             return [], src
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "journal entries unreadable — open loops absent", e)
     return [], ""
 
 
@@ -611,8 +612,8 @@ def ensure_world_pulse() -> None:
             [sys.executable, str(REPO_ROOT / "execution" / "world_brief.py"), "generate"],
             capture_output=True, text=True, timeout=240, cwd=REPO_ROOT,
         )
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "world pulse generation failed — brief renders without the section", e)
 
 
 def gather_world_pulse() -> dict:
@@ -659,8 +660,8 @@ def gather_world_pulse() -> dict:
                 return {"items": [], "path": path, "none_cleared": True}
             return {}
         return {"items": items[:8], "path": path}
-    except Exception:
-        return {}
+    except Exception as e:
+        return degraded({}, "world pulse file unreadable/unparseable — section absent", e)
 
 
 # Domains trusted enough to carry a dated-but-older item when it also touches
@@ -696,8 +697,8 @@ def _pulse_item_stale(item: dict) -> bool:
         try:
             dates.append(datetime.strptime(f"{mon} {day} {year}", "%B %d %Y")
                          .date().isoformat())
-        except ValueError:
-            pass
+        except ValueError as e:
+            degraded(None, "pulse item date unparseable — that date skipped in recency check", e)
     if dates:
         newest = max(dates)
         cutoff = (datetime.now().date() - timedelta(days=14)).isoformat()
@@ -714,8 +715,8 @@ def _pulse_item_stale(item: dict) -> bool:
             if any(gid and gid.replace("-", " ") in low.replace("-", " ")
                    for gid in goal_ids):
                 return False
-        except Exception:
-            pass
+        except Exception as e:
+            degraded(None, "goal-relevance check failed — credible-domain exception not applied", e)
     return True
 
 
@@ -726,8 +727,8 @@ def _yesterday_brief_text() -> str:
     try:
         y = (datetime.now().date() - timedelta(days=1)).isoformat()
         return (BRIEFS / f"{y}.md").read_text()
-    except Exception:
-        return ""
+    except Exception as e:
+        return degraded("", "yesterday's brief unreadable — no-repeat question filter off", e)
 
 
 def _prior_questions() -> set:
@@ -989,8 +990,8 @@ def gather_listening() -> dict:
             return {}
         lines = [l.rstrip() for l in LISTENING_CUT.read_text().splitlines() if l.strip()][:7]
         return {"lines": lines} if lines else {}
-    except Exception:
-        return {}
+    except Exception as e:
+        return degraded({}, "listening exec cut unreadable — section absent", e)
 
 
 def render_listening(listening) -> list:
@@ -1154,8 +1155,8 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
                             str(REPO_ROOT / 'execution' / 'self_heal.py'), 'report'],
                            capture_output=True, text=True, timeout=180,
                            cwd=str(REPO_ROOT))
-        except Exception:
-            pass
+        except Exception as e:
+            degraded(None, "self_heal report run failed — self-heal section may be stale", e)
     self_heal = gather_self_heal()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
                          questions, weekly_line, outer_loop, evolution, world_pulse,
@@ -1176,13 +1177,13 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     try:
         from pulse_dashboard import open_missions as _om
         state["open_missions"] = len(_om())
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "pulse_dashboard open_missions unavailable — debt count not refreshed", e)
     try:
         from handoff_store import threads as _threads, _stale as _hs_stale
         state["stale_handoffs"] = sum(1 for m in _threads() if _hs_stale(m.get("date", "")))
-    except Exception:
-        pass
+    except Exception as e:
+        degraded(None, "handoff_store stale-handoff count unavailable — not refreshed", e)
     save_state(state)
     print(f"Brief written: {brief_path}")
     return 0

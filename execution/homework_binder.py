@@ -48,7 +48,9 @@ import standard_floor as sf  # noqa: E402
 
 OUT = ROOT / ".agent" / "health" / "homework.json"
 EPHEMERAL = ("/scratchpad/", "/private/tmp/", "/tmp/", "/.tmp/")
-SKIP_DIRS = {".git", "node_modules", "__pycache__", ".venv"}
+SKIP_DIRS = {".git", "node_modules", "__pycache__", ".venv",
+             # deliberately-bad specimens and retired code are not this window's homework
+             "homework_fixtures", "archive", "_archived_verifiers", "_DEPRECATED"}
 
 
 def _git(*a: str) -> tuple[int, str]:
@@ -56,8 +58,11 @@ def _git(*a: str) -> tuple[int, str]:
         p = subprocess.run(["git", "-C", str(ROOT), *a],
                            capture_output=True, text=True, timeout=60)
         return p.returncode, (p.stdout or "").strip()
-    except Exception:
-        return 1, ""
+    except Exception as e:
+        # rc=1 keeps callers honest (postmark reads as unavailable, not empty);
+        # the ledger records that git itself was the hole.
+        from degrade import degraded
+        return degraded((1, ""), f"git {a[0]} unavailable", e)
 
 
 def touched_paths(since_iso: str) -> set[str]:

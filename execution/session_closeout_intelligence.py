@@ -22,6 +22,9 @@ from pathlib import Path
 from typing import Iterable
 
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from degrade import degraded  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 AGENT_DIR = ROOT / ".agent"
 SESSION_STATE = AGENT_DIR / "session-state.md"
@@ -92,8 +95,8 @@ class CloseoutResult:
 def read_text(path: Path, max_chars: int = 50000) -> str:
     try:
         return path.read_text(encoding="utf-8", errors="ignore")[:max_chars]
-    except OSError:
-        return ""
+    except OSError as e:
+        return degraded("", f"session artifact unreadable at {path} — closeout sees it as empty", e)
 
 
 def append_jsonl(path: Path, record: dict) -> None:
@@ -121,8 +124,8 @@ def read_json(path: Path) -> dict:
         return {}
     try:
         return json.loads(path.read_text(encoding="utf-8", errors="ignore"))
-    except json.JSONDecodeError:
-        return {}
+    except json.JSONDecodeError as e:
+        return degraded({}, f"corrupt JSON at {path} — treated as empty store", e)
 
 
 def normalize(value: str) -> str:
@@ -551,8 +554,8 @@ def guard_record(args: argparse.Namespace, session_id: str) -> None:
             guard_ledger_path(args),
             {"session_id": session_id, "ts": datetime.now(timezone.utc).isoformat(), "source": args.source},
         )
-    except Exception:  # noqa: BLE001 — guard bookkeeping must never break closeout
-        pass
+    except Exception as e:  # noqa: BLE001 — guard bookkeeping must never break closeout
+        degraded(None, "guard-ledger append failed — same session may re-run closeout undetected", e)
 
 
 def run_registrar(args: argparse.Namespace, dry_run: bool) -> str:
@@ -717,8 +720,8 @@ def prune_reports(args: argparse.Namespace, keep: int = REPORT_RETENTION) -> Non
                 old.rename(archive_dir / old.name)
             except OSError:
                 continue
-    except Exception:  # noqa: BLE001 — fail-soft by design
-        pass
+    except Exception as e:  # noqa: BLE001 — fail-soft by design
+        degraded(None, "report pruning failed — old closeout reports left unarchived", e)
 
 
 def perform_closeout(args: argparse.Namespace, dry_run: bool) -> CloseoutResult:

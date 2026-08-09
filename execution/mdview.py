@@ -30,6 +30,9 @@ ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "templates" / "research-brief" / "template.html"
 OUTDIR = ROOT / ".agent" / "mdview"
 
+sys.path.insert(0, str(ROOT / "execution"))
+from degrade import degraded  # noqa: E402
+
 # Generic-markdown styling layered ON TOP of the brief shell. The shell styles
 # structured sections (h2.sec, table.ledger); plain markdown emits bare tags, so
 # these rules give them the same voice without touching the shared template.
@@ -94,8 +97,9 @@ def _nav() -> str:
         sys.path.insert(0, str(ROOT / "execution"))
         from surface_nav import nav_html
         return nav_html()
-    except Exception:
-        return ""  # DELIBERATE-QUIET: a nav bug must never block a doc render
+    except Exception as e:
+        # DELIBERATE-QUIET: a nav bug must never block a doc render
+        return degraded("", "surface_nav unavailable — mdview page renders without home-base nav", e)
 
 
 def render_markdown(text: str) -> str:
