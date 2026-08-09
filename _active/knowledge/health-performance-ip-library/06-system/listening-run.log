@@ -157,3 +157,5 @@ Lock is held by the launchd wrapper that spawned me (pid 76088 → my pid 76667)
 API Error: Connection closed mid-response. The response above may be incomplete.
 released
 === 2026-08-08 05:51:07 listening run end rc=1 ===
+=== 2026-08-09 05:30:00 listening run start ===
+claimed: 4b1ccb3a8f4d  (heartbeat every wave: session_lock.py heartbeat 4b1ccb3a8f4d)

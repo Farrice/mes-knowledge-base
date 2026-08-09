@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-09 | [kitchen-qa-post](2026-08-09-kitchen-qa-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
+| 2026-08-09 | [three-questions-proof-chain-longform](2026-08-09-three-questions-proof-chain-longform.md) | Education long-form | Proof · P2 | Authority | Bridge | READY |
 | 2026-08-08 | [founder-voice-converts-higher](2026-08-08-founder-voice-converts-higher.md) | LinkedIn post | Thesis · P1 | Authority | Inner | SUPERSEDED |
 | 2026-08-08 | [what-they-actually-remember-video](2026-08-08-what-they-actually-remember-video.md) | 45-60s video script | Creative Strategy · P1 | Growth | Outer | SUPERSEDED |
 | 2026-08-08 | [irony-is-backwards-video](2026-08-08-irony-is-backwards-video.md) | 45-60s video script | Creative Strategy · P1 | Growth | Outer | SUPERSEDED |
