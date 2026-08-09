@@ -39,6 +39,39 @@ SCHEMA_VERSION = "portable-briefing-room/v1"
 DEFAULT_MAX_FILE_MB = 25
 DEFAULT_MAX_TOTAL_MB = 100
 
+BRAND_CONTRACT = {
+    "schema_version": "farrice-cain-premium-minimal/report-portable-v1",
+    "name": "Farrice Cain Premium Minimal",
+    "mode": "master-brand · report dialect",
+    "masthead": "FARRICE CAIN",
+    "mood": ["restrained", "contemporary", "decisive"],
+    "color": {
+        "canvas": "#F3F3F0", "paper": "#FAFAF8", "ink": "#101010",
+        "graphite": "#555553", "line": "#D8D8D3", "stone": "#8C8C82",
+        "white": "#FFFFFF", "report_steel": "#3D5A94",
+    },
+    "typography": {
+        "primary": "Helvetica Neue",
+        "weights": [400, 500, 700],
+        "display_tracking": "-0.025em",
+        "functional_label_tracking": "+0.16em",
+        "report_exception": "One Source Serif 4 italic accent per display or section heading",
+    },
+    "layout": {
+        "columns": 12, "minimum_open_space_fraction": "1/3",
+        "maximum_hierarchy_levels": 3, "dominant_ideas_per_surface": 1,
+    },
+    "prohibited": [
+        "gradients", "shadows", "black-and-gold luxury theater",
+        "ornamental icons", "decorative route colors", "unearned logos",
+    ],
+    "source_provenance": [
+        "_active/farrice-brand/premium-minimal/package/02-DESIGN-CONTRACT.md",
+        "_active/farrice-brand/premium-minimal/REPORT-DIALECT.md",
+        "templates/research-brief/template.html",
+    ],
+}
+
 DENIED_NAMES = {
     ".env", ".netrc", ".htpasswd", "credentials", "credentials.json",
     "id_rsa", "id_ed25519",
@@ -285,13 +318,29 @@ def rewrite_private_html(
         "For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.",
         "In this portable copy, <strong>path</strong> resolves from the bundle root; <strong>source_repo_path</strong> preserves provenance.",
     )
-    banner = (
-        '<div style="background:#18202a;color:#f6f4ef;padding:9px 18px;'
-        'font:600 10px/1.4 ui-monospace,monospace;letter-spacing:.12em;'
-        'text-transform:uppercase">Private portable brief · open index.html for the bundle</div>'
-    )
-    text = text.replace("<body>", "<body>" + banner, 1)
+    text = apply_portable_brand_chrome(text, "PRIVATE WORKING COPY")
     return sanitize_source_roots(text)
+
+
+def apply_portable_brand_chrome(document: str, edition: str) -> str:
+    """Add portable identity without introducing a competing visual system."""
+    css = '''<style id="portable-brand-chrome">
+.portable-brandbar{border-bottom:1px solid #D8D8D3;background:#F3F3F0;color:#101010;padding:10px max(20px,4vw);display:flex;justify-content:space-between;gap:18px;align-items:center;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:.16em;line-height:1.3;text-transform:uppercase}
+.portable-brandbar .edition{color:#8C8C82;font-weight:500}@media(max-width:560px){.portable-brandbar{align-items:flex-start;flex-direction:column;gap:4px}}
+</style>'''
+    bar = (
+        '<div class="portable-brandbar"><span>FARRICE CAIN</span>'
+        f'<span class="edition">PORTABLE BRIEF · {html.escape(edition)}</span></div>'
+    )
+    document = document.replace("</head>", css + "</head>", 1)
+    document = document.replace("<body>", "<body>" + bar, 1)
+    return re.sub(
+        r'<footer class="brief">.*?</footer>',
+        '<footer class="brief"><span>FARRICE CAIN</span><span>PORTABLE BRIEFING ROOM</span></footer>',
+        document,
+        count=1,
+        flags=re.DOTALL,
+    )
 
 
 def render_share_html(meta: dict) -> str:
@@ -300,17 +349,28 @@ def render_share_html(meta: dict) -> str:
         output = render_brief.render(meta, share=True)
     except Exception as exc:
         fail(f"share render failed for {meta.get('slug')}: {exc}")
-    banner = (
-        '<div style="background:#18202a;color:#f6f4ef;padding:9px 18px;'
-        'font:600 10px/1.4 ui-monospace,monospace;letter-spacing:.12em;'
-        'text-transform:uppercase">Share export · authored prose still requires human review</div>'
-    )
-    return sanitize_source_roots(output.replace("<body>", "<body>" + banner, 1))
+    return sanitize_source_roots(apply_portable_brand_chrome(output, "CLIENT EDITION"))
+
+
+def accent_text(value: str, fallback_last: bool = False) -> str:
+    """Render one report-dialect serif accent without trusting authored HTML."""
+    raw = str(value or "").strip()
+    match = re.search(r"\*([^*]+)\*", raw)
+    if match:
+        before = html.escape(raw[:match.start()].replace("*", ""))
+        marked = html.escape(match.group(1))
+        after = html.escape(raw[match.end():].replace("*", ""))
+        return f"{before}<em>{marked}</em>{after}"
+    clean = re.sub(r"\*", "", raw)
+    if fallback_last and " " in clean:
+        before, last = clean.rsplit(" ", 1)
+        return f"{html.escape(before)} <em>{html.escape(last)}</em>"
+    return html.escape(clean)
 
 
 def build_index(title: str, audience: str, briefs: list[dict]) -> str:
-    cards = []
-    for brief in briefs:
+    rows = []
+    for index, brief in enumerate(briefs, 1):
         slug = brief["slug"]
         meta = brief["meta"]
         title_text = re.sub(r"\*", "", str(meta.get("title") or slug))
@@ -322,36 +382,47 @@ def build_index(title: str, audience: str, briefs: list[dict]) -> str:
                 f'<a href="briefs/{slug}/{slug}-brief.md">markdown</a>',
                 f'<a href="briefs/{slug}/{slug}-context.json">context</a>',
             ])
-        cards.append(
-            f'<article class="card" data-search="{html.escape((title_text + " " + chip + " " + dek).lower())}">'
+        rows.append(
+            f'<article class="brief-row" data-search="{html.escape((title_text + " " + chip + " " + dek).lower())}">'
+            f'<span class="field">{index:02d}</span><div class="brief-copy">'
             f'<span class="chip">{html.escape(chip)}</span>'
-            f'<h2>{html.escape(title_text)}</h2><p>{html.escape(dek)}</p>'
+            f'<h2>{accent_text(str(meta.get("title") or slug))}</h2><p>{html.escape(dek)}</p></div>'
             f'<div class="links">{"".join(links)}</div></article>'
         )
-    warning = (
-        "PRIVATE INTERNAL EXPORT — may contain candid strategy and source documents. Do not send as-is."
-        if audience == "private" else
-        "SHARE EXPORT — mechanical internals are stripped; review authored prose before sending."
+    private = audience == "private"
+    mode_value = "Private working library" if private else "Client edition"
+    context_value = "Included · agent-ready" if private else "Presentation HTML only"
+    note = (
+        "Private internal export. It may contain candid strategy and source documents; use a client edition for outward sharing."
+        if private else
+        "A focused portable collection prepared for client review."
     )
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><style>
-:root{{--ink:#18202a;--paper:#f5f3ee;--surface:#fff;--line:#d9d6cf;--accent:#476b9a;--muted:#68717c}}
-*{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 Inter,ui-sans-serif,system-ui,sans-serif}}
-header{{background:var(--ink);color:#f7f5ef;padding:54px max(24px,7vw) 42px}}.eyebrow,.chip{{font:700 10px/1.2 ui-monospace,monospace;letter-spacing:.16em;text-transform:uppercase}}
-h1{{font:700 clamp(38px,7vw,74px)/.98 Georgia,serif;max-width:900px;margin:14px 0}}header p{{max-width:760px;color:#cdd2d8}}
-main{{max-width:1100px;margin:auto;padding:32px 22px 70px}}.tools{{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:22px}}
-input{{flex:1;min-width:260px;padding:12px 14px;border:1px solid var(--line);background:#fff;border-radius:6px}}
-a{{color:var(--accent)}}.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}}
-.card{{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:22px;display:flex;flex-direction:column;min-height:235px}}
-.card h2{{font:700 27px/1.08 Georgia,serif;margin:13px 0 10px}}.card p{{color:var(--muted);margin:0 0 22px}}
-.links{{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}}.links a,.tools a{{border:1px solid var(--line);padding:7px 10px;border-radius:4px;text-decoration:none;font:700 10px ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}}
-.notice{{border-left:4px solid var(--accent);padding:12px 15px;background:#fff;margin-bottom:22px;font-weight:650}}
-</style></head><body><header><div class="eyebrow">PORTABLE BRIEFING ROOM · {audience.upper()}</div><h1>{html.escape(title)}</h1>
-<p>A self-contained brief library. No Antigravity server or repository path is required.</p></header><main>
-<div class="notice">{html.escape(warning)}</div><div class="tools"><input id="q" placeholder="Search briefs…" aria-label="Search briefs">
-<a href="README.md">read me</a><a href="manifest.json">manifest</a></div><section class="grid">{''.join(cards)}</section></main>
-<script>const q=document.getElementById('q');q.addEventListener('input',()=>{{const v=q.value.toLowerCase();document.querySelectorAll('.card').forEach(c=>c.hidden=!c.dataset.search.includes(v));}});</script>
+:root{{--canvas:#F3F3F0;--paper:#FAFAF8;--ink:#101010;--graphite:#555553;--line:#D8D8D3;--stone:#8C8C82;--white:#FFFFFF;--steel:#3D5A94;--sans:'Helvetica Neue',Helvetica,Arial,sans-serif;--serif:'Source Serif 4',Georgia,'Times New Roman',serif;--mono:'JetBrains Mono','SF Mono',Menlo,monospace}}
+*{{box-sizing:border-box}}html{{scroll-behavior:smooth}}body{{margin:0;background:var(--canvas);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}}
+.shell{{width:min(1120px,calc(100% - 48px));margin:0 auto}}.masthead{{display:flex;justify-content:space-between;gap:20px;padding:18px 0 12px;border-bottom:2px solid var(--ink);font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}
+.masthead .mode{{color:var(--stone);font-weight:500}}header{{padding:72px 0 48px;display:grid;grid-template-columns:repeat(12,1fr);column-gap:18px}}.hero{{grid-column:1/10}}
+.eyebrow,.chip,.field,.proof .k{{font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}.eyebrow{{color:var(--steel)}}
+h1{{font:700 clamp(42px,6.2vw,76px)/.98 var(--sans);letter-spacing:-.025em;max-width:960px;margin:16px 0 0}}h1 em,h2 em{{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--steel)}}
+.dek{{font-size:15px;line-height:1.6;color:var(--graphite);max-width:60ch;margin:22px 0 0}}.proof{{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--line);margin-top:48px}}
+.proof>div{{padding:13px 16px 13px 0}}.proof>div+div{{border-left:1px solid var(--line);padding-left:16px}}.proof .k{{display:block;color:var(--stone);margin-bottom:5px}}.proof .v{{font-size:12px;font-weight:500}}
+main{{padding:0 0 84px}}.notice{{border-left:2px solid var(--steel);color:var(--graphite);font-size:12px;line-height:1.55;padding:2px 0 2px 14px;margin:0 0 36px;max-width:72ch}}
+.tools{{display:grid;grid-template-columns:repeat(12,1fr);column-gap:18px;align-items:end;border-bottom:1px solid var(--ink);padding-bottom:10px}}.search{{grid-column:1/9}}input{{width:100%;border:0;background:transparent;color:var(--ink);font:500 14px/1.4 var(--sans);padding:8px 0;outline:none}}input::placeholder{{color:var(--stone)}}
+.tool-links{{grid-column:9/-1;display:flex;justify-content:flex-end;gap:16px}}a{{color:var(--steel)}}.tool-links a,.links a{{font:700 9px/1.35 var(--sans);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:3px}}.tool-links a:hover,.links a:hover{{border-color:var(--steel)}}
+.brief-list{{border-bottom:1px solid var(--ink)}}.brief-row{{display:grid;grid-template-columns:72px minmax(0,1fr) 260px;gap:24px;padding:28px 0;border-top:1px solid var(--line);align-items:start}}.field{{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--steel);font-size:15px;letter-spacing:0}}
+.chip{{display:block;color:var(--stone);margin-bottom:9px}}h2{{font:700 25px/1.12 var(--sans);letter-spacing:-.018em;margin:0;max-width:30ch}}.brief-copy p{{font-size:12.5px;line-height:1.55;color:var(--graphite);max-width:64ch;margin:9px 0 0}}.links{{display:flex;justify-content:flex-end;gap:14px;flex-wrap:wrap;padding-top:24px}}
+footer{{display:flex;justify-content:space-between;gap:18px;border-top:2px solid var(--ink);padding:14px 0 42px;color:var(--stone);font:700 9px/1.35 var(--sans);letter-spacing:.16em;text-transform:uppercase}}
+@media(max-width:760px){{.shell{{width:min(100% - 32px,1120px)}}header{{padding:52px 0 36px}}.hero{{grid-column:1/-1}}.proof{{grid-template-columns:1fr}}.proof>div+div{{border-left:0;border-top:1px solid var(--line);padding-left:0}}.tools{{display:flex;gap:12px;flex-direction:column;align-items:stretch}}.search{{width:100%}}.tool-links{{justify-content:flex-start}}.brief-row{{grid-template-columns:44px 1fr;gap:14px}}.links{{grid-column:2;justify-content:flex-start;padding-top:4px}}.masthead{{align-items:flex-start;flex-direction:column;gap:5px}}}}
+</style></head><body><div class="shell"><div class="masthead"><span>FARRICE CAIN</span><span class="mode">PORTABLE BRIEFING ROOM · {audience.upper()}</span></div>
+<header><div class="hero"><div class="eyebrow">CURATED INTELLIGENCE · PORTABLE LIBRARY</div><h1>{accent_text(title, fallback_last=True)}</h1>
+<p class="dek">A self-contained decision library built to travel without visual or evidentiary drift.</p></div>
+<div class="proof"><div><span class="k">Mode</span><span class="v">{html.escape(mode_value)}</span></div><div><span class="k">Context</span><span class="v">{html.escape(context_value)}</span></div><div><span class="k">Portability</span><span class="v">Verified · repository independent</span></div></div></header><main>
+<p class="notice">{html.escape(note)}</p><div class="tools"><div class="search"><input id="q" placeholder="Search the room" aria-label="Search briefs"></div>
+<div class="tool-links"><a href="README.md">Read me</a><a href="manifest.json">Manifest</a><a href="brand-contract.json">Brand contract</a></div></div><section class="brief-list">{''.join(rows)}</section></main>
+<footer><span>FARRICE CAIN · PORTABLE BRIEFING ROOM</span><span>PREMIUM MINIMAL · REPORT DIALECT</span></footer></div>
+<script>const q=document.getElementById('q');q.addEventListener('input',()=>{{const v=q.value.toLowerCase();document.querySelectorAll('.brief-row').forEach(c=>c.hidden=!c.dataset.search.includes(v));}});</script>
 </body></html>'''
 
 
@@ -384,6 +455,10 @@ def build_readme(title: str, audience: str, slugs: list[str], omissions: list[di
 ## Open
 
 Open `index.html` in any browser. It works directly from disk and through any static file host.
+
+The visual source of truth travels with the bundle as `brand-contract.json`.
+It records the approved Farrice Cain Premium Minimal palette, Helvetica Neue
+typography, report-dialect exception, grid law, and prohibited visual signals.
 
 ## Verify
 
@@ -590,11 +665,14 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
         title = args.title or "Portable Briefing Room"
         index_path = stage / "index.html"
         readme_path = stage / "README.md"
+        brand_path = stage / "brand-contract.json"
         index_path.write_text(build_index(title, args.audience, brief_records), encoding="utf-8")
         readme_path.write_text(build_readme(title, args.audience, slugs, omissions), encoding="utf-8")
+        brand_path.write_text(json.dumps(BRAND_CONTRACT, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         shutil.copy2(VERIFY_SOURCE, stage / "verify.py")
         record_file(index_path, "bundle-index")
         record_file(readme_path, "bundle-readme")
+        record_file(brand_path, "brand-contract")
         record_file(stage / "verify.py", "bundle-verifier", VERIFY_SOURCE, "execution/verify_brief_export.py")
 
         commit = source_commit()
@@ -608,6 +686,11 @@ def export_bundle(args: argparse.Namespace) -> tuple[Path, Path | None]:
                 "PRIVATE INTERNAL EXPORT — do not send as-is" if args.audience == "private"
                 else "SHARE EXPORT — authored prose still requires human review"
             ),
+            "brand": {
+                "name": BRAND_CONTRACT["name"],
+                "mode": BRAND_CONTRACT["mode"],
+                "contract": "brand-contract.json",
+            },
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "source_commit": commit,
             "briefs": [{k: v for k, v in row.items() if k != "meta"} for row in brief_records],

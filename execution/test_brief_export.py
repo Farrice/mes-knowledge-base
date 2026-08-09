@@ -33,6 +33,28 @@ class BriefExportTests(unittest.TestCase):
         self.assertNotIn(str(brief_export.ROOT), portable)
         self.assertEqual(portable.count("source-repo://"), 2)
 
+    def test_index_uses_premium_minimal_report_contract(self) -> None:
+        document = brief_export.build_index("Client Intelligence Room", "share", [{
+            "slug": "fixture",
+            "meta": {"title": "the useful *decision*", "chip": "CLIENT BRIEF", "dek": "One clear move."},
+        }])
+        for token in ("#F3F3F0", "#FAFAF8", "#101010", "#555553", "#D8D8D3", "#8C8C82", "#3D5A94"):
+            self.assertIn(token, document)
+        self.assertIn("'Helvetica Neue'", document)
+        self.assertIn("FARRICE CAIN", document)
+        self.assertIn("PREMIUM MINIMAL · REPORT DIALECT", document)
+        self.assertIn("<em>decision</em>", document)
+        self.assertNotIn("#18202a", document)
+        self.assertNotIn("background:var(--ink);color", document)
+
+    def test_portable_brief_chrome_uses_same_brand_tokens(self) -> None:
+        document = brief_export.apply_portable_brand_chrome("<html><head></head><body><footer class=\"brief\">old</footer></body></html>", "CLIENT EDITION")
+        self.assertIn("FARRICE CAIN", document)
+        self.assertIn("#F3F3F0", document)
+        self.assertIn("#101010", document)
+        self.assertIn("'Helvetica Neue'", document)
+        self.assertNotIn("#18202a", document)
+
     def test_zip_slip_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             archive = Path(tmp) / "bad.zip"

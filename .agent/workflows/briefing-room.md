@@ -31,5 +31,8 @@ python3 execution/verify_brief_export.py /path/to/new-bundle.zip
 Private mode is the default and includes safely allowed context sources. For an
 outward-facing HTML-only package, add `--audience share`; it uses the existing
 share-safe renderer and still requires a human prose review before sending.
+Both modes inherit the Farrice Cain Premium Minimal report dialect and include
+`brand-contract.json`; portable exports must not introduce a competing theme,
+banner, font system, or decorative palette.
 
 Full authoring/rendering doctrine (schema, section kinds, mission reports, context packs): `.agent/workflows/briefs.md`. Cards carry `path` (copy .md abs path — file-access tools) and `copy brief` (entire brief inline — chat LLMs). Brief JSONs may set `category` (string) + `priority` (1-3) for the sidebar; both optional.

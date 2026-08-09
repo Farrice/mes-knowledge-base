@@ -102,8 +102,11 @@ Share mode delegates to `render_brief.py`'s existing `share=True` contract. It
 contains no Markdown mirror, provenance JSON, context pack, or local evidence.
 Mechanical internals are stripped, but authored prose still requires review.
 
-Every bundle contains `index.html`, `README.md`, `manifest.json`, and a portable
-`verify.py`. `python3 verify.py .` checks hashes, local links, and context paths
+Every bundle contains `index.html`, `README.md`, `manifest.json`,
+`brand-contract.json`, and a portable `verify.py`. The brand contract travels
+with the bundle as the source of truth for Farrice Cain Premium Minimal report
+surfaces: exact color tokens, type stacks, spacing posture, and prohibited
+styles. `python3 verify.py .` checks hashes, local links, and context paths
 without importing anything from Antigravity. `source-repo://...` is a provenance
 label for the original repository identity, never a required machine path.
 
