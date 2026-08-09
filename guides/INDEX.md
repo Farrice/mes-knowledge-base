@@ -40,6 +40,11 @@
 | Send a brief to a client safely | [Readout OS](2026-08-06-readout-os.md) — `render_brief.py <json> --share` (only outward form) |
 | Put any markdown in the Drive vault | [Readout OS](2026-08-06-readout-os.md) — `md_to_gdoc.py <file.md>`; briefs use `--gdoc` |
 | Archive / audit the brief shelves | [Readout OS](2026-08-06-readout-os.md) — `brief_library.py archive\|unarchive\|audit` |
+| **Turn client evidence into private + share-safe decision rooms** | |
+| Start a new Angle Map + message-market-fit engagement | [Angle Map Client Delivery Room](2026-08-09-angle-map-client-delivery-room.md) — `client_delivery_room.py init` |
+| Build the internal analysis before client release | [Angle Map Client Delivery Room](2026-08-09-angle-map-client-delivery-room.md) — `build --working-only` |
+| Know whether a client ZIP is actually safe to send | [Angle Map Client Delivery Room](2026-08-09-angle-map-client-delivery-room.md) — `check --release` then `verify` |
+| Resume the sealed V1 without rebuilding it | [Angle Map Client Delivery Room](2026-08-09-angle-map-client-delivery-room.md) — `/resume angle-map-client-delivery-room` |
 |---|---|
 | **Turn a listing into client content (Jen / real estate)** | |
 | Make content for a new listing (URL, address, or pasted description) | [Listing Engine v2](2026-08-05-jen-listings.md) — `/listing-package <url>`, one shot, no flags |
@@ -276,6 +281,8 @@
 ## Chronology
 
 *(newest first)*
+
+- 2026-08-09 — [Angle Map Client Delivery Room — V1 Sealed and Parked](2026-08-09-angle-map-client-delivery-room.md) — converted the portable Briefing Room into a repeatable client-service system: guarded intake and permissions, typed evidence inventory, Customer Truth Dossier, Problem-Qualified Segment, three Angle Map directions, one message-market-fit test, private working room, share-safe Premium Minimal client room, human release gate, and signed offline ZIPs. The cold-start proof built both editions and rejected an intentional internal-language leak; 14 regression tests passed. The system is committed at `f0ea0a90e` on `codex/portable-brief-export`; guarded integration remains parked while another session owns dirty main. Proof boundary: fulfillment reliability is VERIFIED, demand and confidential-client handling remain UNTESTED. Core doctrine: *private truth first, client edition second; visual readiness is never permission*
 
 - 2026-08-08 — [Ad Psychology Engine — Oren×Dara Forge + First Deployments](2026-08-08-oren-dara-ad-psychology.md) — the Cannes 2026 Oren John × Dara Denney video (28:33, watched with 17 transcript-cue frames) forged into `skills/oren-dara-ad-psychology/`: **six frame-verified tactics** (taboo/mirroring with the lived-experience veto that killed URO's "golden nugget" statics, justification math, armchair investigation with designed rage-bait + comment virtue-mining, prove-it-in-frame, visual psychology, credible explainer) as the mechanism layer UPSTREAM of `dara-denney-meta-ads`' vessel layer — 10 workflows, 10 born-v2 prompts, heartbeat 6/6, blind-pass EVAL-048 model-PASS (A-tier awaits Farrice). Deployed same session: the MyBPM **Sunday/Monday tee ad pair** (mirroring static spec, KEEP verdict; shoot-ready yapper script; render cost-gate-blocked and surfaced, not bypassed), **3 LinkedIn founder-mirror concepts** (prose CLEAN after one gate-forced rewrite; two practitioner receipts gate publication), and the **P2M Ad Psychology Audit module** (Stage-2, six-tactic spine). Scars banked: the forge ran lock-free in a scratchpad staging tree while a sibling held the tree lock, then rsynced in atomically (`docs/solutions/2026-07-19-staged-forge-under-foreign-lock.md`); `creative_router.py` regex-matched "no people" as a people task. Core doctrine: *you don't inject desire into cold traffic — you license, mirror, prove, or authorize what the customer already thinks; and the comment section is the product*
 
