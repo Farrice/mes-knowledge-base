@@ -32,6 +32,32 @@ ROOT = Path(__file__).resolve().parent.parent
 BRIEFS = ROOT / "deliverables" / "research-briefs"
 PAGE_SIZE = 10
 
+
+def _canonical_repo_root():
+    """Return the main checkout that owns the shared Git directory.
+
+    Git worktrees store a tiny ``.git`` pointer into the main checkout. This
+    lets portable context paths prefer the active lane while still finding
+    main-only, untracked media assets that Git cannot replicate into a lane.
+    """
+    dotgit = ROOT / ".git"
+    if dotgit.is_dir():
+        return ROOT
+    if dotgit.is_file():
+        try:
+            marker = dotgit.read_text(encoding="utf-8").strip()
+            if marker.startswith("gitdir:"):
+                gitdir = Path(marker.split(":", 1)[1].strip()).resolve()
+                for parent in gitdir.parents:
+                    if parent.name == ".git":
+                        return parent.parent
+        except OSError:
+            pass
+    return ROOT
+
+
+CANONICAL_ROOT = _canonical_repo_root()
+
 # ── Lifecycle policy (the librarian; Farrice 2026-08-06, tuned same day) ─────
 # Periodical categories auto-archive after N days — applied on every regen, so
 # currency needs no cron and no memory. Everything else archives manually only
@@ -514,9 +540,33 @@ def apply_currency(entries):
     return flipped
 
 
+def resolve_context_path(item):
+    """Resolve a context-pack entry in the checkout that is active now.
+
+    Repo-relative ``path`` is authoritative. ``abs`` remains a compatibility
+    hint for old packs and genuinely external files, but it must never make a
+    missing repo file look healthy merely because an old worktree still exists.
+    """
+    raw = str(item.get("path") or "").strip()
+    if raw:
+        candidate = Path(raw)
+        if not candidate.is_absolute():
+            for base in dict.fromkeys((ROOT.resolve(), CANONICAL_ROOT.resolve())):
+                target = (base / candidate).resolve()
+                if _inside(target, base) and target.exists():
+                    return target
+            return None
+        return candidate if candidate.exists() else None
+
+    legacy = str(item.get("abs") or "").strip()
+    if legacy:
+        candidate = Path(legacy)
+        return candidate if candidate.is_absolute() and candidate.exists() else None
+    return None
+
+
 def housekeeping(entries):
     """Deterministic standards check: counts + stale + broken context-pack paths."""
-    import os
     import time as _t
     now = _t.time()
     active = [e for e in entries if e["status"] == "active"]
@@ -540,7 +590,7 @@ def housekeeping(entries):
             by_slug[e["slug"]] = (1, 1)
             continue
         paths = pack.get("paths", [])
-        gone = [p for p in paths if not os.path.exists(p.get("abs") or "")]
+        gone = [p for p in paths if resolve_context_path(p) is None]
         for p in gone:
             broken.append((e["slug"], p.get("path") or "?"))
         if gone:
@@ -725,13 +775,16 @@ def cmd_audit():
 
 
 def cmd_verify():
-    errors = verify_room()
+    entries = collect()
+    errors = verify_room(entries=entries)
+    context_errors = housekeeping(entries)["broken"]
+    errors.extend(f"missing context target in {slug}: {path}" for slug, path in context_errors)
     if errors:
-        print(f"[brief_library] FAIL — {len(errors)} card route error(s)")
+        print(f"[brief_library] FAIL — {len(errors)} Briefing Room integrity error(s)")
         for error in errors:
             print(f"  {error}")
         return 1
-    print(f"[brief_library] PASS — {len(collect())} cards resolve in static and live modes")
+    print(f"[brief_library] PASS — {len(entries)} cards and context packs resolve from the active root")
     return 0
 
 
@@ -751,6 +804,8 @@ def generate(open_after=False):
                 md_text = ""
         header = (f"SOURCE: {e['md']}  (research brief · Antigravity)\n"
                   f"HTML: {e['html']}\nCONTEXT PACK: {e['ctx']}\n"
+                  "CONTEXT PATH RULE: resolve `path` from the active Antigravity root; "
+                  "`abs` is a render-time hint only.\n"
                   f"COMPILED: {e['compiled'] or '—'}\n\n")
         packs[e["slug"]] = {"path": str(e["md"]), "brief": header + md_text}
     packs_json = json.dumps(packs, ensure_ascii=False).replace("</", "<\\/")

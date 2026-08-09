@@ -8,8 +8,9 @@ One move: rebuild the index (picks up any new briefs) and open it — through th
 
 The rebuild now verifies every card twice before it reports success: its
 relative target must exist beside the static Room, and its repo-relative target
-must exist beneath the active live-server root. A failed route blocks the new
-index instead of shipping a clickable 404.
+must exist beneath the active live-server root. The explicit `verify` command
+also checks every context-pack path using portable repo-relative identity. A
+failed route blocks the new index instead of shipping a clickable 404.
 
 // turbo
 ```bash

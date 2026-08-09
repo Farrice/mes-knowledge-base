@@ -17,6 +17,13 @@ for the ROOT-jailed `/repo/` live route. Generation verifies every card, `md`,
 `ctx`, and supersession target before replacing the index. The read-only
 `python3 execution/brief_library.py verify` command checks an existing Room.
 
+Context packs use the same portability rule. Their repo-relative `path` is the
+canonical identity; `abs` remains only as a render-time compatibility hint.
+The librarian resolves `path` from the active checkout first and canonical main
+second, which preserves main-only untracked media without making a disposable
+worktree path authoritative. `verify` fails when neither root contains the
+referenced file.
+
 **Operating rule:** A lane-local brief is previewable from that lane. It becomes
 part of the main live Room only after its full brief directory is integrated.
 Never hand-edit a generated index to point at a different checkout.
@@ -25,3 +32,5 @@ Never hand-edit a generated index to point at a different checkout.
 in-memory `data-repo-path`; the verifier must report the missing card and live
 target. For end-to-end proof, serve the lane locally and require HTTP 200 for
 both `/room` and the card's `/repo/deliverables/research-briefs/...` route.
+`execution/verify_briefing_room_portability.py` preserves the cross-worktree
+resolution order as a deterministic regression test.
