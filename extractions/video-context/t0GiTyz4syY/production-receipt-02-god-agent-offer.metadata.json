@@ -1,0 +1,14 @@
+{
+  "title": "Production Replay Receipt 02: God Agent Offer",
+  "artifact_type": "production-replay-receipt",
+  "receipt_number": 2,
+  "task_type": "Revenue Strategy",
+  "source_thread_id": "019fde9c-d4af-7fc1-a20e-0b72a15a6ef5",
+  "overlay_mode": "SHADOW",
+  "verdict": "KEEP_SHADOW",
+  "application_mode": "RETROSPECTIVE_REPLAY",
+  "material_decisions_changed": 5,
+  "blind_comparison": false,
+  "runtime_enforcement_added": false,
+  "promotion_authorized": false
+}

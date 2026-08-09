@@ -113,5 +113,6 @@ Somewhere tonight a customer is grading your quality process against your market
 - "Third-party tested" as unregulated language: https://supplementchecker.co/guides/nsf-vs-usp-vs-informed-sport/
 - Mellish Island Super Skin recall, lot CA1G24, initiated 2026-07-01, reported 2026-08-03: https://www.consumerlab.com/recalls/14992/collagen-supplement-sold-on-tiktok-recalled/
 - Bloommy Inc. undeclared fish recall, May 2021: https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bloommy-inc-issues-allergy-alert-undeclared-fish-bloommy-biotin-collagen-keratin-capsules
-- FDA warning letter to Nutratech LLC, reported 2026-07-21: https://nutraceuticalbusinessreview.com/fda-warning-nutratech-cgmp-compliance-dietary-supplement-manufacturers
+- FDA warning letter to Nutratech LLC, dated 2026-06-04: https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/nutratech-llc-723021-06042026
+- Trade coverage of the letter, reported 2026-07-21: https://nutraceuticalbusinessreview.com/fda-warning-nutratech-cgmp-compliance-dietary-supplement-manufacturers
 - Formula ownership under private label vs contract manufacturing: https://inventoryready.com/intellectual-property-in-supplement-formulation-do-you-actually-own-your-formula/

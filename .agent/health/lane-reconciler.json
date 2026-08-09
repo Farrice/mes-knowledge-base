@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-09T01:59:40.057101+00:00",
+  "ts": "2026-08-09T17:00:21.684382+00:00",
   "dry_run": false,
   "lanes": 4,
   "merged": 0,
   "torn_down": 0,
-  "parked": 3,
-  "live": 1,
-  "stranded_commits": 7,
+  "parked": 2,
+  "live": 2,
+  "stranded_commits": 8,
   "results": [
     {
       "branch": "worktree-farrice-character-sheets",
@@ -47,16 +47,11 @@
     {
       "branch": "codex/gtm-ezpoq8",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/gtm-ezpoq8",
-      "commits_ahead": 1,
-      "dirty_files": 0,
-      "conflicts": [
-        "deliverables/research-briefs/index.html",
-        "directives/feedback-ratchet.md",
-        "directives/quality_gate.md",
-        "directives/session-state-protocol.md"
-      ],
-      "action": "parked-conflict",
-      "detail": "4 file(s) collide \u2014 needs resolution"
+      "commits_ahead": 2,
+      "dirty_files": 14,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "14 uncommitted file(s) \u2014 a session is still working here"
     }
   ]
 }

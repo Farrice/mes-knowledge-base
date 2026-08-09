@@ -1,11 +1,16 @@
 {
   "slug": "mission-system-audit",
   "title": "Retry weakest section for intent alignment",
-  "compiled": "aug 8, 2026",
+  "compiled": "aug 9, 2026",
   "generated_by": "execution/render_brief.py",
   "brief_html": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html",
   "brief_md": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.md",
   "paths": [
+    {
+      "path": "docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md",
+      "abs": "/Users/farricecain/Google Antigravity/docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md",
+      "role": "asset · SOLUTION"
+    },
     {
       "path": ".agent/handoffs/2026-07-02-system-audit.md",
       "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-02-system-audit.md",

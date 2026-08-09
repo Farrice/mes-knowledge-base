@@ -1,0 +1,17 @@
+{
+  "title": "Production Replay Receipt 03: The Angle Map and LinkedIn",
+  "artifact_type": "production-replay-receipt",
+  "receipt_number": 3,
+  "task_type": "Offer Copy and Acquisition",
+  "source_thread_ids": [
+    "019fb649-135c-73b0-bdea-b70bf32ae299",
+    "019fbba0-f5c9-7703-989b-2d3f9ae3042b"
+  ],
+  "overlay_mode": "SHADOW",
+  "verdict": "KEEP_SHADOW",
+  "application_mode": "RETROSPECTIVE_REPLAY",
+  "material_decisions_changed": 5,
+  "blind_comparison": false,
+  "runtime_enforcement_added": false,
+  "promotion_authorized": false
+}

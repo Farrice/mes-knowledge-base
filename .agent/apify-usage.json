@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 2.3619,
+  "spent_dollars": 2.5466,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -668,8 +668,141 @@
       "cost": 0.01,
       "pricing_model": "per_result",
       "pulse": true
+    },
+    {
+      "ts": "2026-08-09T12:35:47.292895+00:00",
+      "actor": "reddit",
+      "results": 13,
+      "cost": 0.013,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-09T12:36:46.292269+00:00",
+      "actor": "reddit",
+      "results": 25,
+      "cost": 0.025,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-09T12:39:46.404941+00:00",
+      "actor": "reddit",
+      "results": 20,
+      "cost": 0.02,
+      "pricing_model": "per_result"
+    },
+    {
+      "ts": "2026-08-09T13:20:15.453291+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0037,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:21:02.300726+00:00",
+      "actor": "threads-search",
+      "results": 3,
+      "cost": 0.0015,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:21:11.778847+00:00",
+      "actor": "linkedin-search",
+      "results": 10,
+      "cost": 0.02,
+      "pricing_model": "pay_per_event",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:23:15.979417+00:00",
+      "actor": "reddit",
+      "results": 10,
+      "cost": 0.01,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:23:24.488794+00:00",
+      "actor": "facebook-ads",
+      "results": 10,
+      "cost": 0.02,
+      "pricing_model": "pay_per_event",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:23:35.465787+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0037,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:24:59.795156+00:00",
+      "actor": "reddit",
+      "results": 10,
+      "cost": 0.01,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:25:10.726606+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0037,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:27:04.542833+00:00",
+      "actor": "reddit",
+      "results": 10,
+      "cost": 0.01,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:27:48.908726+00:00",
+      "actor": "threads-search",
+      "results": 10,
+      "cost": 0.005,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:29:04.022028+00:00",
+      "actor": "youtube",
+      "results": 5,
+      "cost": 0.025,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:29:23.857709+00:00",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:30:07.284423+00:00",
+      "actor": "threads-search",
+      "results": 20,
+      "cost": 0.01,
+      "pricing_model": "per_result",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-09T13:30:20.433805+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0037,
+      "pricing_model": "per_result",
+      "pulse": true
     }
   ],
   "pulse_budget_dollars": 5.0,
-  "pulse_spent_dollars": 0.4379
+  "pulse_spent_dollars": 0.5644
 }

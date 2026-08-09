@@ -1,12 +1,12 @@
 {
   "slug": "mission-execution",
   "chip": "MISSION · THREAD",
-  "title": "Execution — Project *Relocate*",
+  "title": "Execution — Lane *Reconciler*",
   "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 8, 2026",
+  "compiled": "aug 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Execution — Project Relocate"
+      "body": "Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Execution — Lane Reconciler"
     },
     {
       "kind": "progress",
@@ -49,10 +49,10 @@
       "plays": [
         {
           "title": "Resume here",
-          "intent": "Execution — Project Relocate",
+          "intent": "Execution — Lane Reconciler",
           "command": "python3 execution/handoff_store.py resume execution",
           "touches": [
-            ".agent/handoffs/2026-08-07-execution.md"
+            ".agent/handoffs/2026-08-08-execution.md"
           ],
           "receipt": "The stored handoff prints with drift since it was written."
         },
@@ -72,7 +72,7 @@
         {
           "k": "HANDOFF",
           "title": "Stored handoff (source of resume)",
-          "path": ".agent/handoffs/2026-08-07-execution.md"
+          "path": ".agent/handoffs/2026-08-08-execution.md"
         },
         {
           "k": "BOARD",

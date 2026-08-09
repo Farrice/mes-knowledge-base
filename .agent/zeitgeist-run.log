@@ -39,3 +39,36 @@ Prose gate: FLAGGED at 9.5 on first pass (14 em-dashes, a "here's what" lead-in,
 I wrote to the main tree rather than a lane: the session lock the AUTO-LANE alarm fired on is held by mission `zeitgeist daily run` (pid 82584) — this run's own lock — and prior daily runs render straight to main so the Briefing Room index stays single-writer.
 released
 === 2026-08-08 06:27:54 zeitgeist run end rc=0 ===
+=== 2026-08-09 06:20:03 zeitgeist run start ===
+claimed: 8fd11e92dfc3  (heartbeat every wave: session_lock.py heartbeat 8fd11e92dfc3)
+[zeitgeist] ai-consulting-linkedin: 4/4 pulls live, $0.0352 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-ai-consulting-linkedin-signals.json
+[zeitgeist] supplement-brands: 3/3 pulls live, $0.0337 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-supplement-brands-signals.json
+[zeitgeist] ai-tools-creator: 4/4 pulls live, $0.0437 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-ai-tools-creator-signals.json
+[zeitgeist] jen-sfv-realestate: 2/3 pulls live, $0.0137 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-jen-sfv-realestate-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-ai-consulting-linkedin-signals.json", "/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-supplement-brands-signals.json", "/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-ai-tools-creator-signals.json", "/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-09-jen-sfv-realestate-signals.json"]}
+All four are in the Briefing Room index. Done.
+
+**Per-lane summary:**
+
+| Lane | Brief | gdoc | Cost |
+|---|---|---|---|
+| AI Consulting / LinkedIn | `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-09/…-brief.html` | skipped | $0.0352 |
+| Supplement / Performance Brands | `deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/…-brief.html` | skipped | $0.0337 |
+| AI Tools / Creator Economy | `deliverables/research-briefs/zeitgeist-ai-tools-creator-2026-08-09/…-brief.html` | skipped | $0.0437 |
+| Jen / SFV Real Estate | `deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/…-brief.html` | skipped | $0.0137 |
+
+Total run cost $0.1263. gdoc export skipped on all four — `gws` is not on PATH in this headless run (render succeeded regardless).
+
+**Three data-integrity findings you should know about, since they affect what the briefs can claim:**
+
+1. **The X/Twitter actor is dead across every lane.** All four pulls returned 15 identical `mock_tweet` placeholder rows from KaitoEasyAPI — zero real posts, 60 junk items total. It's been failing this way for three consecutive days on the daily lane. I excluded it from all evidence and flagged it in every ledger. It's currently burning a stack slot in four lanes and returning nothing.
+
+2. **The AI-consulting Reddit pull was a byte-repeat.** All ten thread URLs matched yesterday's pull exactly, same order. Today's only genuinely new data in that lane was LinkedIn, which rotated 9 of 10 profiles — so I built the brief on that and told it to skip re-mining Reddit rather than restating yesterday.
+
+3. **The Jen lane has no market signal and I didn't manufacture one.** Reddit returned zero items for the second consecutive run (the same actor returned 10 items each for three other lanes today, so the query is the fault, not the plumbing), and the Threads pull matched on geography alone — surfacing San Fernando in Pampanga, Philippines, a pigeon rescue, and the Valley's best breakfast burrito. Exactly 1 of 15 items touched SFV real estate, and it was a competing realtor's bio from January. That brief is written as an instrumentation report with a copy-paste lane-config fix, and it explicitly carries no pricing, inventory, or buyer-sentiment claims.
+
+The strongest content signal of the four is in supplements: five of ten ads are 14k–49k-character advertorials from anonymous "community" pages, two of them opening with the same fabricated Walmart-wallet scene to the same landing domain, while the Reddit side of the lane spent the window asking which brands publish third-party testing. That gap maps directly onto Proof-to-Market, so the decision section points at a free teardown built from the duplicated creative.
+
+On slop: `prose_classifier` flags all four, but with the same signature as yesterday's shipped brief — most of it is format artifact (ALL-CAPS stat labels reading as "town crier," emoji inside quoted posts, and em-dashes the markdown mirror itself inserts as `**claim** [VERIFIED] — evidence`). I did tighten my own authored em-dashes, roughly halving them (18→13, 22→11, 22→15, 19→13) before the final render.
+released
+=== 2026-08-09 06:41:41 zeitgeist run end rc=0 ===

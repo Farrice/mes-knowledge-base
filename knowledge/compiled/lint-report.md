@@ -1,34 +1,12 @@
 # Wiki Lint Report
-*Generated: 2026-08-03 | 69 issues found*
+*Generated: 2026-08-09 | 56 issues found*
 
-**Errors**: 45 | **Warnings**: 12 | **Info**: 12
+**Errors**: 24 | **Warnings**: 20 | **Info**: 12
 
 ---
 
-## ERROR (45)
+## ERROR (24)
 
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/ron-lynch-v2/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/geoff-woods/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/jeremy-haynes/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/mike-taylor/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/second-brain-seller/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/agentic-os-v2-agentic-os/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/kieran-flanagan-second-brain/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/customer-lang-research/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/agentic-os-v1-skills-upgrade/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/brad-bonanno/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/ryan-doser/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/joey-cinema-v2/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/joey-cinema-v3/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/joey-cinema-v1/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/tommy-clark/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/daniel-priestley-sll-engine/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/oren-dara-ad-psychology/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/oren-john-identity-marketing/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/hilary-gridley/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/riley-brown/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/briar-cochran/visual-context.md) points to nonexistent file
-- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/wargame-source/visual-context.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [backward-dissolution-principle](knowledge/synthesis/backward-dissolution-principle.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [constraint-as-creative-input](knowledge/synthesis/constraint-as-creative-input.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [dwell-time-narrative-gravity](knowledge/synthesis/dwell-time-narrative-gravity.md) points to nonexistent file
@@ -36,6 +14,7 @@
 - **[dead_link]** `knowledge/index.md` — Link [four-act-revenue-sequence](knowledge/synthesis/four-act-revenue-sequence.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [gap-sales-psychology-screenwriting-bridge](knowledge/synthesis/gap-sales-psychology-screenwriting-bridge.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [gap-seo-content-psychology-bridge](knowledge/synthesis/gap-seo-content-psychology-bridge.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [gauntlet-loop-blind-bar-mechanism](knowledge/synthesis/gauntlet-loop-blind-bar-mechanism.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [insider-code-deployment](knowledge/synthesis/insider-code-deployment.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [machine-readable-identity](knowledge/synthesis/machine-readable-identity.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [mechanism-over-outcome](knowledge/synthesis/mechanism-over-outcome.md) points to nonexistent file
@@ -53,8 +32,11 @@
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [REDLINING.md](REDLINING.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [OOXML.md](OOXML.md) points to nonexistent file
 
-## WARNING (12)
+## WARNING (20)
 
+- **[stub]** `extractions/david-perell-writing/blind-pass-generated/candidate-01-decision-reasons.md` — Only 29 words — stub or incomplete
+- **[stub]** `extractions/david-perell-writing/blind-pass-generated/candidate-02-phone-attention.md` — Only 30 words — stub or incomplete
+- **[stub]** `extractions/david-perell-writing/reference-corpus/2020-04-11-good-writing-editing.md` — Only 24 words — stub or incomplete
 - **[stub]** `extractions/luke-iha-avatar-machine/PROVENANCE.md` — Only 47 words — stub or incomplete
 - **[stub]** `extractions/meg-heckman/video-context-7MNa2YTPGs4/ocr-notes.md` — Only 20 words — stub or incomplete
 - **[stub]** `extractions/persuasion-story-code/source/coverage-report.md` — Only 25 words — stub or incomplete
@@ -62,8 +44,13 @@
 - **[stub]** `extractions/video-context/-WCNwxz3uoM/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/-WCNwxz3uoM/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/3iR3kHxCwfo/ocr-notes.md` — Only 20 words — stub or incomplete
+- **[stub]** `extractions/video-context/4HqO0h13MX4/frame-notes.md` — Only 11 words — stub or incomplete
+- **[stub]** `extractions/video-context/4HqO0h13MX4/ocr-notes.md` — Only 17 words — stub or incomplete
+- **[stub]** `extractions/video-context/AaSyn9YSNYQ/visual-ledger.md` — Only 47 words — stub or incomplete
 - **[stub]** `extractions/video-context/FD53kEpLh9c/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/FD53kEpLh9c/ocr-notes.md` — Only 18 words — stub or incomplete
+- **[stub]** `extractions/video-context/Fh_54G6p_cs/visual-ledger.md` — Only 47 words — stub or incomplete
+- **[stub]** `extractions/video-context/GlTA4wXSACE/ocr-notes.md` — Only 41 words — stub or incomplete
 - **[stub]** `extractions/video-context/Zc4E_K48v48/frame-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/Zc4E_K48v48/ocr-notes.md` — Only 18 words — stub or incomplete
 - **[stub]** `extractions/video-context/a7VjpIqq8Xk/ocr-notes.md` — Only 20 words — stub or incomplete
@@ -72,16 +59,16 @@
 
 - **[contradiction_zone]** `domain:seo` — 17 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:strategy` — 26 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:content` — 29 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:copywriting` — 24 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:content` — 28 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:copywriting` — 22 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:general` — 28 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:screenwriting` — 21 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:research` — 23 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:systems` — 23 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:brand` — 23 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:sales` — 8 files contain strong assertions — review for consistency
-- **[very_stale]** `multiple` — 352 files are >90 days old — candidates for archive
-- **[missing_frontmatter]** `multiple` — 681/782 files lack YAML frontmatter — limits metadata queries
+- **[contradiction_zone]** `domain:research` — 24 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:systems` — 22 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:brand` — 24 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:sales` — 10 files contain strong assertions — review for consistency
+- **[very_stale]** `multiple` — 357 files are >90 days old — candidates for archive
+- **[missing_frontmatter]** `multiple` — 975/1078 files lack YAML frontmatter — limits metadata queries
 
 ---
 

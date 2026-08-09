@@ -2,11 +2,11 @@
   "slug": "mission-go",
   "chip": "MISSION · THREAD",
   "title": "LinkedIn cash-launch *mission*",
-  "dek": "Everything is planned; nothing in the record proves anyone was contacted.",
+  "dek": "A planning thread that finished planning and never got closed.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 8, 2026",
+  "compiled": "aug 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This is where the cash-launch planning happened: demand research, an adversarial pass on the offer, a launch plan, and the profile going live. The planning finished; the selling it was supposed to trigger has not appeared in the record since.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Log real outreach against the launch plan, or park the thread."
+      "body": "This thread carried the cash-launch planning work — fresh research, an adversarial pass on the offer, and a launch plan — and then went quiet with its handoff still open. The thinking landed; the doing moved elsewhere.\n\nHandoff status is active. Last activity 9d ago.\n\nNext: Close this handoff and let the live campaign thread own the launch."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "11",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Decide: resume or park",
-          "why": "A planning thread that stops moving quietly becomes a plan nobody is executing, and this one carries the offer the whole campaign depends on."
+          "why": "The plan it produced appears to be executing under the campaign thread, so leaving this open keeps the same launch alive in two places."
         }
       ]
     },
@@ -138,7 +138,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Nothing here records a send, a reply or a payment — the launch is verified as designed, not as run. Demand for the offer at its stated price remains unconfirmed by any buyer.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "That the campaign thread picked up this plan is an inference from what each thread contains, not a recorded handoff. No outcome from the plan is logged here.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

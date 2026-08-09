@@ -79,3 +79,21 @@ proximity + domain guards), not term deletion.
 - `execution/verify_control_intent.py` (golden set — extend it with any future
   misfire before fixing)
 - `.agent/routing-intelligence.json` routing_decisions (misfire evidence)
+
+## 2026-08-08 Follow-up: Repair-status Review Overcapture
+
+A second false-positive shape survived the original tiered-evidence repair.
+`_looks_like_repair_status_review()` could route any prompt containing a
+question word, a repair-state word, and a negative word to `/system-audit`
+without requiring a control-plane surface. The real prompt “Apply the Systems
+Thinking Expertise Intelligence Overlay … show what changed … do not promote”
+therefore fired at confidence 91 with only `repair/status review` as evidence.
+
+The bounded repair added capability-execution verbs, required control-surface
+evidence for generic repair/status reviews, and preserved the narrow Operator
+Core complaint “nothing was fixed that I wanted” through an explicit failed-
+repair pattern. Six golden cases now cover capability use and genuine repair
+aftermath. Verification passed 30/30 classifier cases, 7/7 binding cases,
+Google Operator Core, Codex/Claude parity, Autopilot runtime, System-audit
+Operator Core, and a retrospective replay of 194 recorded request summaries
+with zero candidate disagreements.

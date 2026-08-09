@@ -1,16 +1,16 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
 
-The offer is done being designed; it's waiting on someone to say yes or no to it.
+Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-The offer itself is settled — positioning, scope and the modules underneath it — and every mission raised against it is closed. Nothing in this window touched it.
+Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.
 
 Handoff status is ready.
 
-Next: Take the offer to a buyer exactly as written instead of revising it again.
+Next: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
 
 ## lifecycle
 
@@ -34,7 +34,7 @@ python3 execution/pulse_actions.py done proof-to-market --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Ready here means internally agreed, not market-tested: no buyer has priced, accepted or rejected this offer on the record. With no recent activity, the thread's state is as-last-left rather than as-of-now.
+No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

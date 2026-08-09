@@ -1,27 +1,27 @@
 # LinkedIn About rebuild
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
 
-The voice card is the real output; the profile copy itself never got a final verdict.
+Good takes, no verdict — this needs a pick, not another rewrite.
 
 ## where this stands
 _CURRENT POSITION_
-This lane rebuilt the profile voice through repeated takes and left behind something durable — a ratcheted voice card and a recorded protocol for how the pen should work. It has been quiet longer than anything else on the board.
+The profile and About rewrites went through repeated rounds, produced distinct competing takes, and ratcheted the voice card — then the thread went quiet with its handoff still open. The craft landed; the choice never got recorded.
 
-Handoff status is active. Last activity 11d ago.
+Handoff status is active. Last activity 12d ago.
 
-Next: Decide whether the profile copy is finished, or park the lane and carry the voice card forward without it.
+Next: Pick the About take that ships and close the thread.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — This is the lane where the profile-copy spiral happened before; leaving it half-open invites another round of variants in place of a decision.
+1. **Decide: resume or park** — The takes were already produced and ratcheted against felt verdicts, so what is missing is a decision, not more drafting.
 
 ## what this thread made
 - **2026-07-28-writers-room-pen-protocol.md** [SOLUTION] `docs/solutions/2026-07-28-writers-room-pen-protocol.md`
@@ -49,7 +49,7 @@ python3 execution/pulse_actions.py done writers-room --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-The last recorded state is a set of competing treatments, not a chosen one — nothing here says which take is live. The voice work has outlasted the artifact it was made for.
+Whether any produced take is actually live on the profile is not recorded here. Competing versions sit side by side with no marked winner.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

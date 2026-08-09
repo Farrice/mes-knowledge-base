@@ -1,31 +1,31 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 133 sessions swept · compiled: aug 8, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 131 sessions swept · compiled: aug 9, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-The board is heavy on finished work and light on contact with anyone outside the system. Nearly every live thread has a made thing sitting at ready — teardowns, listing content, an offer, a studio — and almost none of them carry a recorded response from a buyer, a client or an audience.
+The board is heavy on production and thin on outcomes: most live threads hold finished work that is ready to go out, and almost none carry a recorded result from sending it. The real split across the board is between threads waiting on a decision and threads waiting on a send.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **60**
-- FILES WRITTEN: **137**
-- ASSETS GENERATED: **247**
-- SESSIONS SWEPT: **133**
+- DELIVERABLES FINALIZED: **58**
+- FILES WRITTEN: **161**
+- ASSETS GENERATED: **248**
+- SESSIONS SWEPT: **131**
 
 ## momentum
 
 
 ## where the work went
-- linkedin launch: 8
-- teardown 1 fresh: 6
 - video studio edit bay: 52
+- linkedin: 11
+- teardown 1 fresh: 6
+- farrice brand: 127
 - extract forge: 33
-- deep research: 6
 - angle map listening engine v4 1: 9
 - 01 listing content: 9
 - system audit: 27
@@ -34,11 +34,11 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
-- [ACTIVE] linkedin launch — deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html
-- [ACTIVE] teardown 1 fresh — deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html
 - [READY] video studio edit bay — deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html
+- [ACTIVE] linkedin — deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html
+- [ACTIVE] teardown 1 fresh — deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html
+- [ACTIVE] farrice brand — deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html
 - [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
-- [ACTIVE] deep research — deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html
 - [ACTIVE] angle map listening engine v4 1 — deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html
 - [READY] 01 listing content — deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html
 - [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
@@ -48,7 +48,9 @@ _weighted: deliverables ×3 + files + assets_
 - [ACTIVE] execution — deliverables/research-briefs/mission-execution/mission-execution-brief.html
 
 ## also shipped
+- 2026-08-08 · **Research** — Graph engineering re-research (3-agent parallel sweep) + lane reconciler daemon build
 - 2026-08-06 · **one-liner** — Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioni
+- 2026-08-06 · **deep-research** — Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vi
 - 2026-08-06 · **briefs** — Readout OS: research-brief system re-skinned to Farrice Cain Premium Minimal (Ink+Steel Blue report dialect), enriched with playbook/assets/timeline/flow/stats/
 - 2026-08-06 · **god-agent-delta** — Event ingestion layer: event_listener.py (watch-folder live, gmail/calendar dormant pending gws re-auth) + launchd 30-min poll + latency-class seating rule. Har
 - 2026-08-06 · **god-agent-delta** — God Agent delta moves 2-4 shipped (harness evals weekly card, verdict-to-diff compiler weekly card, notify channel) + offer red-team artifact with SEQUENCE verd
@@ -58,23 +60,21 @@ _weighted: deliverables ×3 + files + assets_
 - 2026-08-05 · **zeitgeist** — Ambient zeitgeist engine: /zeitgeist daily (launchd live), pulse sub-budget wired after never being used, reddit 400 root-caused+fixed, ambient live-data ground
 - 2026-08-05 · **briefs** — Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apify actors schema-verified live, $5/run cap) + Monid wired on 
 - 2026-08-05 · **01-extract-virtuoso-mastery** — Eddy Ballesteros Monid research-brief extraction: MES 3.0 W01 report + frame-cited brief-anatomy teardown + monid-facts capture (37 frames watched, 10 patterns,
-- 2026-08-05 · **01-extract-virtuoso-mastery** — Gauntlet-loop mechanism card + integration verdict: watched BNjzXcEXmg4 (transcript + 7 cue frames), decoded 5 load-bearing mechanics of Shumer's gauntlet-loop,
-- 2026-08-05 · **01-extract-virtuoso-mastery** — Gauntlet-loop mechanism card + integration verdict (rescore: prior run mis-passed Step-1 sharpness 5 as intent-alignment): card at knowledge/synthesis/gauntlet-
 
 ## what this board isn't
 _READ THE EDGES_
-Stage and status are inferred from records the system wrote about itself, so a thread can read as shipped while nothing has left the building. Threads with no recorded activity in this window are shown as last left, not as currently true. A meaningful share of the files this sweep catalogued no longer exist on disk, so the artifact picture is a snapshot of what was claimed, not of what survives.
+This board counts what was made, not what worked — a thread can look busy and still have nothing recorded on the far side of a send. Some threads clear the promotion bar on a stale handoff alone and carry no activity this window, and a thread's own header describes work from a different arena than its records.
 
-198 more threads cleared the bar but sit below the 12-card ceiling and were not carded: farrice brand, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, one liner, daily zeitgeist brief.
+202 more threads cleared the bar but sit below the 12-card ceiling and were not carded: deep research, 04 briefs, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, linkedin profile content, voice identity stack, mission, listing content, health performance ip library, one liner.
 
-223 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+218 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
-- `deliverables/research-briefs/mission-linkedin-launch/mission-linkedin-launch-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html` — related · READY
+- `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
-- `deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html` — related · READY
 - `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE

@@ -1,27 +1,27 @@
 # LinkedIn cash-launch mission
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
 
-Everything is planned; nothing in the record proves anyone was contacted.
+A planning thread that finished planning and never got closed.
 
 ## where this stands
 _CURRENT POSITION_
-This is where the cash-launch planning happened: demand research, an adversarial pass on the offer, a launch plan, and the profile going live. The planning finished; the selling it was supposed to trigger has not appeared in the record since.
+This thread carried the cash-launch planning work — fresh research, an adversarial pass on the offer, and a launch plan — and then went quiet with its handoff still open. The thinking landed; the doing moved elsewhere.
 
-Handoff status is active. Last activity 8d ago.
+Handoff status is active. Last activity 9d ago.
 
-Next: Log real outreach against the launch plan, or park the thread.
+Next: Close this handoff and let the live campaign thread own the launch.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **4**
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — A planning thread that stops moving quietly becomes a plan nobody is executing, and this one carries the offer the whole campaign depends on.
+1. **Decide: resume or park** — The plan it produced appears to be executing under the campaign thread, so leaving this open keeps the same launch alive in two places.
 
 ## pick it back up
 1. **Resume here** — LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
@@ -43,7 +43,7 @@ python3 execution/handoff_store.py resume go
 
 ## what this isn't
 _READ THE EDGES_
-Nothing here records a send, a reply or a payment — the launch is verified as designed, not as run. Demand for the offer at its stated price remains unconfirmed by any buyer.
+That the campaign thread picked up this plan is an inference from what each thread contains, not a recorded handoff. No outcome from the plan is logged here.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

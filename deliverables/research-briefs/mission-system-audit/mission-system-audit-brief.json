@@ -2,11 +2,11 @@
   "slug": "mission-system-audit",
   "chip": "MISSION · THREAD",
   "title": "Retry weakest section for intent *alignment*",
-  "dek": "Good structural fixes shipped; the audits themselves keep going unread.",
+  "dek": "Real system repair landed here, but the thread's own label points at somebody else's work.",
   "window": "last 14 days",
   "lens": "claude · codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 8, 2026",
+  "compiled": "aug 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The harness lane has done real structural work — removing blocking gates, wiring per-model behaviour, and putting a judgment floor under the second harness. Its own outcome log flags that at least one major finding was never absorbed by anyone.\n\nHandoff status is active. Last activity 4d ago.\n\nNext: Read the unabsorbed audit findings and either act on them or close them out."
+      "body": "The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Confirm the disarmed gates have stayed disarmed, then close this thread."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "12",
+          "value": "13",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -57,6 +57,18 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "2026-07-08-control-intent-classifier-overfires-system-audit.md",
+          "role": "SOLUTION",
+          "path": "docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md"
+        }
+      ]
     },
     {
       "kind": "playbook",
@@ -156,7 +168,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This thread's stored resume line describes client listing work rather than harness work, so its state marker points at the wrong thing. Several entries are also self-graded by the system auditing itself, which is the weakest available reviewer for a claim that the system improved.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The resume line attached to this thread describes client listing work, not system work — its handoff and its deliverables disagree about what this thread even is, so read the header with suspicion. Its ledger also includes a regression-test row that was never real output, which inflates the tally.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

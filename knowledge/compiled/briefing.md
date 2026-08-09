@@ -1,48 +1,48 @@
 # Knowledge Briefing
-*Generated: 2026-08-06 | 816 sources | 2,867,690 words*
+*Generated: 2026-08-09 | 1078 sources | 3,478,101 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **march_2026_briefing** (seo) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
-- **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
-- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
-- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
-- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
-- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
-- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
-- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
-- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
-- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [april-dunford]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
+- **index** (content) — 9,821 words — `knowledge/index.md`
+- **log** (general) — 18,631 words — `knowledge/log.md`
+- **analysis** (content) — 716 words — `extractions/video-context/t0GiTyz4syY/analysis.md`
+- **architecture** (systems [nick-saraev]) — 1,072 words — `extractions/video-context/t0GiTyz4syY/architecture.md`
+- **behavior-proof** (systems) — 884 words — `extractions/video-context/t0GiTyz4syY/behavior-proof.md`
+- **deep-extraction** (content) — 2,400 words — `extractions/video-context/t0GiTyz4syY/deep-extraction.md`
+- **production-receipt-01** (general) — 740 words — `extractions/video-context/t0GiTyz4syY/production-receipt-01.md`
+- **production-receipt-02-god-agent-offer** (strategy) — 547 words — `extractions/video-context/t0GiTyz4syY/production-receipt-02-god-agent-offer.md`
+- **production-receipt-03-angle-map-linkedin** (content) — 523 words — `extractions/video-context/t0GiTyz4syY/production-receipt-03-angle-map-linkedin.md`
+- **production-receipt-04-health-geo-daily-brief** (content [dai-media]) — 493 words — `extractions/video-context/t0GiTyz4syY/production-receipt-04-health-geo-daily-brief.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 276 | oren-john |
-| copywriting | 121 | luke-iha |
-| general | 97 | nick-saraev |
-| strategy | 88 | april-dunford |
-| brand | 59 | oren-john |
-| screenwriting | 58 | connelly |
-| systems | 52 | nick-saraev |
-| seo | 28 | nathan-gotch |
-| research | 27 | dai-media |
-| sales | 10 | dai-media |
+| content | 355 | nathan-gotch |
+| copywriting | 183 | luke-iha |
+| general | 116 | nick-saraev |
+| strategy | 106 | april-dunford |
+| screenwriting | 102 | connelly |
+| brand | 66 | oren-john |
+| systems | 59 | nick-saraev |
+| seo | 41 | nathan-gotch |
+| research | 37 | jason-fladlien |
+| sales | 13 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 
+1. **video-context-ledger** (copywriting) — 75,432 words — `extractions/video-context/UFNlbNa2T4w/video-context-ledger.md`
 1. **video-context-ledger** (content) — 75,408 words — `extractions/video-context/3iR3kHxCwfo/video-context-ledger.md`
 1. **Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated** (brand [dai-media]) — 69,583 words — `knowledge/extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md`
 1. **Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average** (general) — 64,760 words — `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
+1. **video-context-ledger** (content) — 63,877 words — `extractions/video-context/GlTA4wXSACE/video-context-ledger.md`
 1. **Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out** (brand) — 63,227 words — `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
 1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2** (general) — 62,412 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
 1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers** (general) — 61,240 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`
 1. **Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them** (content) — 60,850 words — `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
 1. **Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026** (copywriting [cardinal-mason]) — 60,673 words — `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md`
-1. **Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time** (general) — 59,927 words — `knowledge/extractions/inbox/Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time.md`
-1. **Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China** (general) — 58,573 words — `knowledge/extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China.md`
 
 ## Knowledge Gaps
 

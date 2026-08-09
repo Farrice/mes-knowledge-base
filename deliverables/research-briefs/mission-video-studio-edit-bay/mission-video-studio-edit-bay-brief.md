@@ -1,22 +1,22 @@
 # Edit Bay Video Studio
 
-> MISSION · SKILLS · window: last 14 days · lens: claude · sources: 1 sessions · 6 files · 46 assets · compiled: aug 8, 2026
+> MISSION · SKILLS · window: last 14 days · lens: claude · sources: 1 sessions · 6 files · 46 assets · compiled: aug 9, 2026
 
-Fully built, never used — the first pilot is the only thing that will tell you whether it works.
+The bay is built and clean; nobody has shot anything in it.
 
 ## where this stands
 _CURRENT POSITION_
-The studio is built and its taste layer is in place, but nothing has been run through it end to end. Its own handoff lists the pilots as unrun and several dependencies as cloned but unwired.
+The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.
 
 Handoff status is ready. Last activity today.
 
-Next: Run the first pilot through the studio and tell Farrice exactly what to record.
+Next: Run a pilot end to end and record exactly what VO Farrice needs to speak.
 
 ## by the numbers
 - FILES WRITTEN: **6**
 - ASSETS GENERATED: **46**
 - SESSIONS: **1** (claude)
-- DAYS ACTIVE: **1 d**
+- DAYS ACTIVE: **2 d**
 
 ## momentum
 
@@ -26,7 +26,7 @@ Next: Run the first pilot through the studio and tell Farrice exactly what to re
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — A pipeline that has never carried real work is an assumption, and the unwired pieces will only announce themselves as failures on the first genuine run.
+1. **Finish what's open** — Until a pilot runs end to end, the unwired and untested pieces are unknowns rather than known-good — the shakedown never exercised them.
 
 ## what this thread made
 - **insp_038.jpg** [IMAGE] `_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg` — aug 7, 2026
@@ -56,6 +56,7 @@ python3 execution/handoff_store.py resume video-studio-edit-bay
    receipt: The stored handoff prints with drift since it was written.
 
 ## how it got here
+- 2026-08-08 · **commit 321746e2a** — fix(fleet): honest budgets + retire dead tier artifacts + self-owned fixtures
 - 2026-08-06 · **claude session · 17 msgs** — Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)
 
 ## swings to
@@ -64,7 +65,7 @@ python3 execution/handoff_store.py resume video-studio-edit-bay
 
 ## what this isn't
 _READ THE EDGES_
-Untested integrations and a naive vertical reframe are known and unresolved. Readiness here is the builder's claim, not a result — and the cost behaviour of a real run is unverified.
+Several integrations are cloned or keyed but untested, and the vertical reframe is acknowledged as naive. Nothing here has gone through a finished, delivered video.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

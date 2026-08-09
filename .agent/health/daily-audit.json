@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-08T06:02:58.373665",
+  "timestamp": "2026-08-09T06:00:00.344271",
   "projects_index": {
     "exit": 0,
-    "out": "Wrote PROJECTS.md (13 projects, 12 drift items)"
+    "out": "Wrote PROJECTS.md (14 projects, 3 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
@@ -10,20 +10,15 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 13,
+    "findings": 7,
     "ids": [
       "platform_drift",
       "dead_hooks",
       "dead_launchd",
-      "stale_feeds",
       "wiring_orphans",
       "org_drift",
-      "verify_born_intent_drift.py",
-      "verify_contextual_next_prompts.py",
-      "verify_global_steering_closeout.py",
-      "verify_steering_compass.py",
-      "verify_system.py",
-      "verify_system_control_plane.py"
+      "verify_dhar_mann_transformational_content_factory.py",
+      "fleet_timeouts"
     ]
   },
   "brief_harvest": {
@@ -32,7 +27,7 @@
   "wiring_drain": {
     "audited": 150,
     "new": 8,
-    "coverage": "3762/3762",
+    "coverage": "3770/3770",
     "orphans_total": 12,
     "flips": [],
     "orphans_sample": [

@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the query found the wrong San Fernando · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-big-picture">the big picture</a><a href="#the-pull-honestly">the pull, honestly</a><a href="#what-the-data-says">what the data says</a><a href="#where-the-lane-actually-is">where the lane actually is</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">ZEITGEIST · JEN / SFV REAL ESTATE</span>
+    <h1 class="display">the query found the wrong <em>San Fernando</em></h1>
+    <p class="dek">No market intelligence in this one, and saying so is the deliverable. Reddit returned zero items for the second run running, X returned mock rows, and the only live pull matched on geography alone, surfacing San Fernando in Pampanga, Philippines, a pigeon rescue, and the Valley&#x27;s best breakfast burrito. One of fifteen items touched real estate, and it was a competitor introducing herself. The lane needs a query fix before it needs a reader.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">aug 9, 2026 · 3-day lane</span></div>
+      <div><span class="k">Lens</span><span class="v">first-time-home-buyer + San Fernando Valley listing zeitgeist</span></div>
+      <div><span class="k">Sources</span><span class="v">3 live pulls · 30 items returned · 15 real · 1 on-topic</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 9, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-big-picture"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the big picture</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>This lane produced no read on the San Fernando Valley market today, and there is no honest way to write one from what came back.</p><p>The Reddit pull on &quot;first time home buyer&quot; returned zero items. It also returned zero on aug 6. That is the second consecutive failed run on the pull that was supposed to carry the buyer&#x27;s voice. And the same Reddit actor returned ten items each for three other lanes this morning, so the actor is working. The query is the problem, not the plumbing.</p><p>The X pull returned fifteen mock placeholder rows, same as every other lane today.</p><p>That leaves Threads, which returned fifteen real posts matched on the words rather than the intent. Two of them are located in San Fernando, Pampanga, a city in the Philippines. Two more are other California metros entirely: someone prospecting the San Francisco Bay, someone buying rentals in San Diego. One post is in the 626, which is the San Gabriel Valley.</p><p>Exactly one item of fifteen is San Fernando Valley real estate, and it is a Los Angeles realtor posting a reintroduction: &quot;Hi I&#x27;m Tamika I&#x27;m a Realtor in Los Angeles California… I grew up in the San Fernando Valley.&quot; A competitor&#x27;s bio. Not a buyer, not a listing, not a market signal.</p><p>The rest is neighborhood life: a mechanic near Studio City, walk-in tattoos, a pigeon that needs help, the best breakfast burrito in the Valley, somebody who misses Canoga Park. Worthless as market data and genuinely useful as something else, which is the one finding worth carrying out of here.</p></div></section><section class="blk" id="the-pull-honestly"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the pull, honestly</h2></div><div class="stats"><div class="stat"><div class="num">1<small> of 15</small></div><span class="lab">ITEMS ABOUT SFV REAL ESTATE</span><div class="note">and it&#x27;s a competing realtor&#x27;s bio</div></div><div class="stat"><div class="num">0<small> items</small></div><span class="lab">REDDIT, SECOND RUN RUNNING</span><div class="note">same actor returned 10 items for 3 other lanes today</div></div><div class="stat"><div class="num">4<small> items</small></div><span class="lab">MATCHED THE WRONG GEOGRAPHY</span><div class="note">2× San Fernando, Pampanga · SF Bay · San Diego</div></div><div class="stat"><div class="num">0<small> items</small></div><span class="lab">FROM AN ACTUAL BUYER</span><div class="note">no demand-side voice anywhere in the pull</div></div></div></section><section class="blk" id="what-the-data-says"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what the data says</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>The geographic query is matching a different San Fernando on another continent.</h3><p>Two of fifteen Threads items are simply location tags reading &quot;📍San Fernando Pampanga&quot; — San Fernando, Pampanga, Philippines — posted by @patriceenicole and @prtty_roma. Neither mentions property.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.threads.com/@patriceenicole/post/DadMn3bAaOX" target="_blank" rel="noopener">threads · 2 of 15 items ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The only on-topic item in the pull is a competitor&#x27;s self-introduction, not market data.</h3><p>@tamikacarter: &quot;Quick reintroduction! Hi I&#x27;m Tamika I&#x27;m a Realtor in Los Angeles California. I service any areas that my clients want to live in. I grew up in the San Fernando Valley. I love beauty and fashion as well! I love helping clients achieve their real estate goals.&quot; Posted 2026-01-21 — roughly seven months before this pull.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.threads.com/@tamikacarter/post/DTwmGinEXd7" target="_blank" rel="noopener">threads · 1 of 15 items ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The other real-estate items in the pull are in the wrong metros entirely.</h3><p>@garysaydah: &quot;Making calls and prospecting for business for motivated buyers and sellers of San Francisco Bay real estate.&quot; @johnnymcreates: &quot;Real estate professionals in San Diego hit me up, looking to invest in some rental properties.&quot; Neither is Los Angeles County.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.threads.com/@garysaydah/post/DTdevGGjw8j" target="_blank" rel="noopener">threads · 2 of 15 items ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The buyer-voice pull has now failed twice in a row, and the failure is query-side rather than actor-side.</h3><p>reddit query &quot;first time home buyer&quot; returned result_count 0 on both 2026-08-06 and 2026-08-09. The same reddit actor returned 10 items each today for &quot;AI consulting&quot;, &quot;Claude AI&quot;, and &quot;supplement brand marketing&quot;.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.reddit.com/r/FirstTimeHomeBuyer/" target="_blank" rel="noopener">zeitgeist packs · aug 6 vs aug 9 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The dominant content in the pull is neighborhood life, not property.</h3><p>Seven of fifteen items are local requests and sentiment: a mechanic near Studio City / North Hollywood, walk-in tattoos &quot;in the valley&quot;, pigeon rescue, &quot;need homies in the 818&quot;, and &quot;I miss the San Fernando Valley. Back in Canoga Park today to visit my mom and it feels like home.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.threads.com/@reachmimi/post/DQpUGPTEmWA" target="_blank" rel="noopener">threads · 7 of 15 items ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The one format visibly working in Jen&#x27;s geography is the open ask to the Valley.</h3><p>@cassbosque: &quot;Okay Threads do your thing. Give me the best breakfast burrito in the San Fernando Valley.&quot; Same construction recurs across the local items — a direct question addressed to the Valley as a group. No engagement counts are available in this pull to size it.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.threads.com/@cassbosque/post/DZntl1PEv8V" target="_blank" rel="noopener">threads · recurring construction ↗</a></div></div></div></section><section class="decision" id="where-the-lane-actually-is"><span class="kicker">THE OPENING</span><h2>where the lane actually <em>is</em></h2><p class="dek">Fix the instrument first. Nothing downstream is worth doing until it returns real buyers.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Replace the reddit query for this lane in .agent/zeitgeist-lanes.json before the next run. Target the subreddit name rather than the phrase, e.g. &quot;FirstTimeHomeBuyer&quot; or &quot;first time home buyer california&quot;.</h3><p>Zero items on two consecutive runs while the identical actor returned ten items each for three other lanes today. This is the pull carrying the buyer&#x27;s voice, and it has never once delivered it.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Split the threads query off pure geography and onto buyer intent: &quot;buying a house in LA&quot;, &quot;first home 818&quot;, &quot;escrow&quot; — and drop &quot;san fernando&quot; as a standalone term.</h3><p>Four of fifteen items matched the wrong place, two of them a city in the Philippines. The words are doing the matching; nothing in the query expresses that a transaction is the subject.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Produce no Jen market content from this pull. No pricing claims, no inventory read, no buyer-sentiment line.</h3><p>One item of fifteen touched SFV real estate and it was a competitor&#x27;s bio from January. There is nothing here to be right about.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Keep the ask-the-Valley construction in her format bank as a community post, held separately from anything market-bearing.</h3><p>&quot;Okay Threads do your thing. Give me the best breakfast burrito in the San Fernando Valley&quot; is her exact geography talking to itself. It&#x27;s a format observation, and this pull can&#x27;t size it — no engagement numbers came back.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">lane config fix — .agent/zeitgeist-lanes.json</span><button class="copybtn" type="button">copy</button></div><pre>&quot;jen-sfv-realestate&quot;: {
+  &quot;pulls&quot;: [
+    {&quot;actor&quot;: &quot;reddit&quot;, &quot;arg&quot;: &quot;FirstTimeHomeBuyer&quot;, &quot;limit&quot;: 30},
+    {&quot;actor&quot;: &quot;reddit&quot;, &quot;arg&quot;: &quot;first time home buyer california&quot;, &quot;limit&quot;: 30},
+    {&quot;actor&quot;: &quot;threads-search&quot;, &quot;arg&quot;: &quot;buying a house in LA&quot;, &quot;limit&quot;: 20}
+  ]
+}
+
+Drop the twitter pull from this lane until the actor stops returning mock rows. Drop the bare &quot;san fernando valley real estate&quot; string — it matches a city in Pampanga.</pre></div><div class="deploy"><div class="bar"><span class="k">community post — ask-the-Valley format, her calm register</span><button class="copybtn" type="button">copy</button></div><pre>okay valley, do your thing.
+
+you just moved here. one street, one park, one taco spot — what&#x27;s the first thing you&#x27;d tell someone who&#x27;s never lived on this side of the hill?
+
+i&#x27;ll go first: the 118 at 7am is a personality test.
+
+(format only — this carries no market claim, and today&#x27;s pull has nothing to support one.)</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>This brief contains no market intelligence about the San Fernando Valley. It is a report on a broken instrument, and it should not be cited for anything about prices, inventory, rates, or buyer behavior.</p><p>On reliability, in order:</p><p>The geography and content observations are solid. The items say what they say, and the counts are exact.</p><p>The diagnosis that the Reddit failure is query-side rather than actor-side is an inference. It rests on the same actor succeeding for three other lanes today, which is strong but not conclusive; a rate limit or a subreddit-level block specific to this query would look identical from here. Marked LIKELY.</p><p>The ask-the-Valley format observation has no engagement data behind it. Threads items in this pull carry no like or reply counts, so &quot;working&quot; means recurring, not measured.</p><p>One post in the pull dates to January 2026 and several to 2025. The Threads actor is not returning a clean recency window, which is a second thing to watch when the queries are rewritten.</p><p>And three of fifteen Threads items repeated from the aug 6 pull, so even the working actor is only partially refreshing.</p><a class="cta" href="#deploy-blocks">OKAY, SO FIX THE LANE</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.01 — stack: threads-search · twitter</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>threads-search (Apify) · query &quot;san fernando valley real estate&quot; · limit 20</td><td>—</td><td>2026-08-09</td><td>15 items — the geography mismatch count, the single on-topic realtor bio, the local-chatter register, the ask-the-Valley construction. 3 of 15 repeated from aug 6.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>reddit (Apify) · query &quot;first time home buyer&quot; · limit 30</td><td>—</td><td>2026-08-09</td><td>Nothing — 0 items returned, second consecutive run. Used only to establish the failure.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>twitter (Apify / KaitoEasyAPI) · query &quot;first time home buyer&quot; · limit 30</td><td>—</td><td>2026-08-09</td><td>Nothing. 15 identical mock_tweet placeholder rows, zero real posts.</td><td><span class="conf unconfirmed">UNCONFIRMED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="https://www.threads.com/@patriceenicole/post/DadMn3bAaOX" target="_blank" rel="noopener">https://www.threads.com/@patriceenicole/post/DadMn3bAaOX</a></td><td>threads · 2 of 15 items</td></tr><tr><td>02</td><td><a href="https://www.threads.com/@tamikacarter/post/DTwmGinEXd7" target="_blank" rel="noopener">https://www.threads.com/@tamikacarter/post/DTwmGinEXd7</a></td><td>threads · 1 of 15 items</td></tr><tr><td>03</td><td><a href="https://www.threads.com/@garysaydah/post/DTdevGGjw8j" target="_blank" rel="noopener">https://www.threads.com/@garysaydah/post/DTdevGGjw8j</a></td><td>threads · 2 of 15 items</td></tr><tr><td>04</td><td><a href="https://www.reddit.com/r/FirstTimeHomeBuyer/" target="_blank" rel="noopener">https://www.reddit.com/r/FirstTimeHomeBuyer/</a></td><td>zeitgeist packs · aug 6 vs aug 9</td></tr><tr><td>05</td><td><a href="https://www.threads.com/@reachmimi/post/DQpUGPTEmWA" target="_blank" rel="noopener">https://www.threads.com/@reachmimi/post/DQpUGPTEmWA</a></td><td>threads · 7 of 15 items</td></tr><tr><td>06</td><td><a href="https://www.threads.com/@cassbosque/post/DZntl1PEv8V" target="_blank" rel="noopener">https://www.threads.com/@cassbosque/post/DZntl1PEv8V</a></td><td>threads · recurring construction</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;zeitgeist-jen-sfv-realestate-2026-08-09&quot;,
+  &quot;title&quot;: &quot;the query found the wrong San Fernando&quot;,
+  &quot;compiled&quot;: &quot;aug 9, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/zeitgeist-jen-sfv-realestate-2026-08-09-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/zeitgeist-jen-sfv-realestate-2026-08-09-brief.md&quot;,
+  &quot;paths&quot;: [],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@patriceenicole/post/DadMn3bAaOX&quot;,
+      &quot;label&quot;: &quot;threads · 2 of 15 items&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@tamikacarter/post/DTwmGinEXd7&quot;,
+      &quot;label&quot;: &quot;threads · 1 of 15 items&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@garysaydah/post/DTdevGGjw8j&quot;,
+      &quot;label&quot;: &quot;threads · 2 of 15 items&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/FirstTimeHomeBuyer/&quot;,
+      &quot;label&quot;: &quot;zeitgeist packs · aug 6 vs aug 9&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@reachmimi/post/DQpUGPTEmWA&quot;,
+      &quot;label&quot;: &quot;threads · 7 of 15 items&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@cassbosque/post/DZntl1PEv8V&quot;,
+      &quot;label&quot;: &quot;threads · recurring construction&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY ZEITGEIST</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/zeitgeist-jen-sfv-realestate-2026-08-09-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/zeitgeist-jen-sfv-realestate-2026-08-09-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/zeitgeist-jen-sfv-realestate-2026-08-09-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-jen-sfv-realestate-2026-08-09/zeitgeist-jen-sfv-realestate-2026-08-09-context.json\nCOMPILED: aug 9, 2026\n\n# the query found the wrong San Fernando\n\n> ZEITGEIST · JEN / SFV REAL ESTATE · window: aug 9, 2026 · 3-day lane · lens: first-time-home-buyer + San Fernando Valley listing zeitgeist · sources: 3 live pulls · 30 items returned · 15 real · 1 on-topic · compiled: aug 9, 2026\n\nNo market intelligence in this one, and saying so is the deliverable. Reddit returned zero items for the second run running, X returned mock rows, and the only live pull matched on geography alone, surfacing San Fernando in Pampanga, Philippines, a pigeon rescue, and the Valley's best breakfast burrito. One of fifteen items touched real estate, and it was a competitor introducing herself. The lane needs a query fix before it needs a reader.\n\n## the big picture\n_WHAT'S FORMING_\nThis lane produced no read on the San Fernando Valley market today, and there is no honest way to write one from what came back.\n\nThe Reddit pull on \"first time home buyer\" returned zero items. It also returned zero on aug 6. That is the second consecutive failed run on the pull that was supposed to carry the buyer's voice. And the same Reddit actor returned ten items each for three other lanes this morning, so the actor is working. The query is the problem, not the plumbing.\n\nThe X pull returned fifteen mock placeholder rows, same as every other lane today.\n\nThat leaves Threads, which returned fifteen real posts matched on the words rather than the intent. Two of them are located in San Fernando, Pampanga, a city in the Philippines. Two more are other California metros entirely: someone prospecting the San Francisco Bay, someone buying rentals in San Diego. One post is in the 626, which is the San Gabriel Valley.\n\nExactly one item of fifteen is San Fernando Valley real estate, and it is a Los Angeles realtor posting a reintroduction: \"Hi I'm Tamika I'm a Realtor in Los Angeles California… I grew up in the San Fernando Valley.\" A competitor's bio. Not a buyer, not a listing, not a market signal.\n\nThe rest is neighborhood life: a mechanic near Studio City, walk-in tattoos, a pigeon that needs help, the best breakfast burrito in the Valley, somebody who misses Canoga Park. Worthless as market data and genuinely useful as something else, which is the one finding worth carrying out of here.\n\n## the pull, honestly\n- ITEMS ABOUT SFV REAL ESTATE: **1 of 15** (and it's a competing realtor's bio)\n- REDDIT, SECOND RUN RUNNING: **0 items** (same actor returned 10 items for 3 other lanes today)\n- MATCHED THE WRONG GEOGRAPHY: **4 items** (2× San Fernando, Pampanga · SF Bay · San Diego)\n- FROM AN ACTUAL BUYER: **0 items** (no demand-side voice anywhere in the pull)\n\n## what the data says\n- **The geographic query is matching a different San Fernando on another continent.** [VERIFIED] — Two of fifteen Threads items are simply location tags reading \"📍San Fernando Pampanga\" — San Fernando, Pampanga, Philippines — posted by @patriceenicole and @prtty_roma. Neither mentions property. (https://www.threads.com/@patriceenicole/post/DadMn3bAaOX)\n- **The only on-topic item in the pull is a competitor's self-introduction, not market data.** [VERIFIED] — @tamikacarter: \"Quick reintroduction! Hi I'm Tamika I'm a Realtor in Los Angeles California. I service any areas that my clients want to live in. I grew up in the San Fernando Valley. I love beauty and fashion as well! I love helping clients achieve their real estate goals.\" Posted 2026-01-21 — roughly seven months before this pull. (https://www.threads.com/@tamikacarter/post/DTwmGinEXd7)\n- **The other real-estate items in the pull are in the wrong metros entirely.** [VERIFIED] — @garysaydah: \"Making calls and prospecting for business for motivated buyers and sellers of San Francisco Bay real estate.\" @johnnymcreates: \"Real estate professionals in San Diego hit me up, looking to invest in some rental properties.\" Neither is Los Angeles County. (https://www.threads.com/@garysaydah/post/DTdevGGjw8j)\n- **The buyer-voice pull has now failed twice in a row, and the failure is query-side rather than actor-side.** [LIKELY] — reddit query \"first time home buyer\" returned result_count 0 on both 2026-08-06 and 2026-08-09. The same reddit actor returned 10 items each today for \"AI consulting\", \"Claude AI\", and \"supplement brand marketing\". (https://www.reddit.com/r/FirstTimeHomeBuyer/)\n- **The dominant content in the pull is neighborhood life, not property.** [VERIFIED] — Seven of fifteen items are local requests and sentiment: a mechanic near Studio City / North Hollywood, walk-in tattoos \"in the valley\", pigeon rescue, \"need homies in the 818\", and \"I miss the San Fernando Valley. Back in Canoga Park today to visit my mom and it feels like home.\" (https://www.threads.com/@reachmimi/post/DQpUGPTEmWA)\n- **The one format visibly working in Jen's geography is the open ask to the Valley.** [LIKELY] — @cassbosque: \"Okay Threads do your thing. Give me the best breakfast burrito in the San Fernando Valley.\" Same construction recurs across the local items — a direct question addressed to the Valley as a group. No engagement counts are available in this pull to size it. (https://www.threads.com/@cassbosque/post/DZntl1PEv8V)\n\n## where the lane actually is\nFix the instrument first. Nothing downstream is worth doing until it returns real buyers.\n1. **Replace the reddit query for this lane in .agent/zeitgeist-lanes.json before the next run. Target the subreddit name rather than the phrase, e.g. \"FirstTimeHomeBuyer\" or \"first time home buyer california\".** — Zero items on two consecutive runs while the identical actor returned ten items each for three other lanes today. This is the pull carrying the buyer's voice, and it has never once delivered it.\n2. **Split the threads query off pure geography and onto buyer intent: \"buying a house in LA\", \"first home 818\", \"escrow\" — and drop \"san fernando\" as a standalone term.** — Four of fifteen items matched the wrong place, two of them a city in the Philippines. The words are doing the matching; nothing in the query expresses that a transaction is the subject.\n3. **Produce no Jen market content from this pull. No pricing claims, no inventory read, no buyer-sentiment line.** — One item of fifteen touched SFV real estate and it was a competitor's bio from January. There is nothing here to be right about.\n4. **Keep the ask-the-Valley construction in her format bank as a community post, held separately from anything market-bearing.** — \"Okay Threads do your thing. Give me the best breakfast burrito in the San Fernando Valley\" is her exact geography talking to itself. It's a format observation, and this pull can't size it — no engagement numbers came back.\n\n## deploy blocks\n**lane config fix — .agent/zeitgeist-lanes.json**\n```\n\"jen-sfv-realestate\": {\n  \"pulls\": [\n    {\"actor\": \"reddit\", \"arg\": \"FirstTimeHomeBuyer\", \"limit\": 30},\n    {\"actor\": \"reddit\", \"arg\": \"first time home buyer california\", \"limit\": 30},\n    {\"actor\": \"threads-search\", \"arg\": \"buying a house in LA\", \"limit\": 20}\n  ]\n}\n\nDrop the twitter pull from this lane until the actor stops returning mock rows. Drop the bare \"san fernando valley real estate\" string — it matches a city in Pampanga.\n```\n**community post — ask-the-Valley format, her calm register**\n```\nokay valley, do your thing.\n\nyou just moved here. one street, one park, one taco spot — what's the first thing you'd tell someone who's never lived on this side of the hill?\n\ni'll go first: the 118 at 7am is a personality test.\n\n(format only — this carries no market claim, and today's pull has nothing to support one.)\n```\n\n## what this isn't\n_CAVEATS WORTH KEEPING_\nThis brief contains no market intelligence about the San Fernando Valley. It is a report on a broken instrument, and it should not be cited for anything about prices, inventory, rates, or buyer behavior.\n\nOn reliability, in order:\n\nThe geography and content observations are solid. The items say what they say, and the counts are exact.\n\nThe diagnosis that the Reddit failure is query-side rather than actor-side is an inference. It rests on the same actor succeeding for three other lanes today, which is strong but not conclusive; a rate limit or a subreddit-level block specific to this query would look identical from here. Marked LIKELY.\n\nThe ask-the-Valley format observation has no engagement data behind it. Threads items in this pull carry no like or reply counts, so \"working\" means recurring, not measured.\n\nOne post in the pull dates to January 2026 and several to 2025. The Threads actor is not returning a clean recency window, which is a second thing to watch when the queries are rewritten.\n\nAnd three of fifteen Threads items repeated from the aug 6 pull, so even the working actor is only partially refreshing.\n\n## Source ledger\n1. threads-search (Apify) · query \"san fernando valley real estate\" · limit 20 (retrieved 2026-08-09, VERIFIED; used for: 15 items — the geography mismatch count, the single on-topic realtor bio, the local-chatter register, the ask-the-Valley construction. 3 of 15 repeated from aug 6.)\n2. reddit (Apify) · query \"first time home buyer\" · limit 30 (retrieved 2026-08-09, VERIFIED; used for: Nothing — 0 items returned, second consecutive run. Used only to establish the failure.)\n3. twitter (Apify / KaitoEasyAPI) · query \"first time home buyer\" · limit 30 (retrieved 2026-08-09, UNCONFIRMED; used for: Nothing. 15 identical mock_tweet placeholder rows, zero real posts.)\n\n## Context pack (agent feed)\n- https://www.threads.com/@patriceenicole/post/DadMn3bAaOX — threads · 2 of 15 items\n- https://www.threads.com/@tamikacarter/post/DTwmGinEXd7 — threads · 1 of 15 items\n- https://www.threads.com/@garysaydah/post/DTdevGGjw8j — threads · 2 of 15 items\n- https://www.reddit.com/r/FirstTimeHomeBuyer/ — zeitgeist packs · aug 6 vs aug 9\n- https://www.threads.com/@reachmimi/post/DQpUGPTEmWA — threads · 7 of 15 items\n- https://www.threads.com/@cassbosque/post/DZntl1PEv8V — threads · recurring construction\n\n_run cost $0.01 — stack: threads-search · twitter_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,21 +1,21 @@
 # Three named-brand teardowns (Create Wellness, Hilma, BPN)…
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 1 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 1 sessions · 0 files · 0 assets · compiled: aug 9, 2026
 
-The proof assets exist and they're good; this shelf has held good ones before.
+The strongest outward-facing assets on the board, and none of them are recorded as sent.
 
 ## where this stands
 _CURRENT POSITION_
-Three named-brand teardowns are finished at the standard the offer is meant to demonstrate — each with its own analysis, outreach message and adversarial pass, each rendered into shareable form. This is the proof asset the campaign rests on.
+Named-brand teardowns were produced at full standard — analysis, post, DM, and a verification pass each — and rendered into shareable briefs. The assets exist and are outward-ready.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 1d ago.
 
-Next: Send the finished teardowns to the brands they analyze.
+Next: Send the teardowns to the named brands and log whatever comes back.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
 - SESSIONS: **1** (claude)
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## momentum
 
@@ -47,7 +47,7 @@ python3 execution/pulse_actions.py done teardown-1-fresh --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Earlier teardowns in this same lane were drafted, marked ready to post, and then closed with no outcome ever recorded — the identical failure mode is available to this batch. Nothing here has been tested against how a named brand would actually receive an unsolicited teardown of itself.
+No reply, meeting, or outcome is recorded against any of these, so this is proof of production and not proof of demand. The verification and adversarial passes were self-run.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

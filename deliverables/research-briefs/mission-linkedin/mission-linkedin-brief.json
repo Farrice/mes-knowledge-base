@@ -1,0 +1,287 @@
+{
+  "slug": "mission-linkedin",
+  "chip": "MISSION · LINKEDIN",
+  "title": "Linkedin — Execution *Checklist*",
+  "dek": "The campaign is fully staged and nothing yet proves a message went out.",
+  "window": "last 14 days",
+  "lens": "codex",
+  "sources": "1 sessions · 5 files · 6 assets",
+  "compiled": "aug 9, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "This is the live campaign thread — the checklist, the launch-day execution plan, and the payment path are written, and it is the most recently touched work on the board. What is written is the motion, not the result.\n\nHandoff status is active. Last activity today.\n\nNext: Log the outbound sends against the campaign so the launch has a real start line."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "5",
+          "label": "FILES WRITTEN"
+        },
+        {
+          "value": "6",
+          "label": "ASSETS GENERATED"
+        },
+        {
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "codex"
+        },
+        {
+          "value": "8",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
+        },
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            4
+          ],
+          "value": "5",
+          "unit": "files",
+          "note": "per day"
+        },
+        {
+          "label": "assets",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            4,
+            1
+          ],
+          "value": "6",
+          "unit": "made",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "current",
+          "note": "files are moving; nothing finalized"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
+          "role": "DOC",
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "carousel01-cover-clean_recraft-v3_20260802-143432.png",
+          "role": "IMAGE",
+          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+          "thumb": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+          "role": "AUDIO",
+          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "carousel01-cover_recraft-v3_20260802-141930.png",
+          "role": "IMAGE",
+          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+          "thumb": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
+          "role": "DOC",
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
+          "role": "DOC",
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "03-ICP-TRUTH-MAP.md",
+          "role": "FILE",
+          "path": "_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "2026-08-08-EXECUTION-CHECKLIST.md",
+          "role": "FILE",
+          "path": "_active/linkedin/05-lead-gen/2026-08-08-EXECUTION-CHECKLIST.md",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "CAMPAIGN.md",
+          "role": "FILE",
+          "path": "_active/linkedin/CAMPAIGN.md",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
+          "role": "FILE",
+          "path": "_active/linkedin/05-lead-gen/2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "2026-08-07-PAYMENT-SETUP-ACTION.md",
+          "role": "FILE",
+          "path": "_active/linkedin/05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "2026-07-13-stanton-linkedin-launch.md",
+          "role": "GUIDE",
+          "path": "guides/2026-07-13-stanton-linkedin-launch.md"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Linkedin — Execution Checklist",
+          "command": "python3 execution/handoff_store.py resume linkedin",
+          "touches": [
+            ".agent/handoffs/2026-08-08-linkedin.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Close the mission",
+          "intent": "Mark it done or park it with a reason.",
+          "command": "python3 execution/pulse_actions.py done linkedin --outcome \"<one line>\"",
+          "receipt": "It leaves the open set on the next pulse regen."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-07-31",
+          "title": "codex session",
+          "body": "Revenue: The Angle Map - Offer, LinkedIn & Inbound Flywheel",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-08-linkedin.md"
+        },
+        {
+          "k": "FRONT DOOR",
+          "title": "START HERE · linkedin",
+          "path": "_active/linkedin/START-HERE.html"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "Execution documents are not execution. No send, reply, or payment is recorded against this thread, so its honest state is staged rather than running.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

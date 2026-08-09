@@ -1,0 +1,20 @@
+{
+  "title": "Systems Thinking Overlay: Three-Mission SHADOW Evaluation",
+  "artifact_type": "shadow-evaluation",
+  "source_id": "t0GiTyz4syY",
+  "receipt_numbers": [
+    2,
+    3,
+    4
+  ],
+  "task_types": [
+    "Revenue Strategy",
+    "Offer Copy and Acquisition",
+    "Research Content Operations"
+  ],
+  "verdict": "GLOBAL_SHADOW_GO_PROMOTION_NO_GO",
+  "blind_comparison": false,
+  "global_files_changed": false,
+  "promotion_authorized": false,
+  "enforcement_added": false
+}

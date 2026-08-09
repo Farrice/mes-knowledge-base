@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the ad library sells story, the buyer&#x27;s room asks for receipts · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-big-picture">the big picture</a><a href="#the-pull-honestly">the pull, honestly</a><a href="#what-the-data-says">what the data says</a><a href="#where-the-lane-actually-is">where the lane actually is</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">ZEITGEIST · SUPPLEMENT / PERFORMANCE BRANDS</span>
+    <h1 class="display">the ad library sells story, the buyer&#x27;s room asks for <em>receipts</em></h1>
+    <p class="dek">Half the ads in today&#x27;s pull are 14,000-to-49,000-character emotional advertorials running from anonymous &quot;community&quot; pages, two of them opening with the same fabricated Walmart scene, three days after the identical set returned. The Reddit side of the same lane is asking, in plain words, which brands publish third-party testing. That distance is the entire Proof-to-Market thesis, sitting in one dataset.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">aug 9, 2026 · 3-day lane</span></div>
+      <div><span class="k">Lens</span><span class="v">what supplement &amp; performance brands are running · ads + community</span></div>
+      <div><span class="k">Sources</span><span class="v">3 live pulls · 35 items returned · 20 usable · reddit fresh, ad set repeated</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 9, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-big-picture"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the big picture</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>Ten ads came back from the Meta library and they split cleanly into two businesses that happen to share a category.</p><p>Five of them run from pages named like support groups: American Health Support Community, Cholesterol Relief Community, The Health Haven, Essential Health Finds, and carry bodies between 13,839 and 49,266 characters. These are not ads with a story in them. They are short stories with a purchase at the end, and none of the page names match the domain they send to. Three point at shop.pipitea.com. Two point at get.tryrosabella.com.</p><p>Two of those five open with the same scene. One begins &quot;I found a handbag in the Walmart parking lot last Tuesday. Worn brown leather.&quot; The other begins &quot;I found a wallet in a shopping cart at Walmart last Tuesday. Brown leather. Worn soft at the edges.&quot; Different page names. Same landing domain. The creative is a template being run across shell pages, which means the operator is buying at enough volume to need more than one face.</p><p>The other five ads belong to brands with their own names on the door: DoNotAge, IM8, Dose. They run between 291 and 628 characters of card copy. IM8&#x27;s lead is not a benefit at all; it&#x27;s an ownership fact: Inter Miami CF took an equity stake in the parent company. DoNotAge leads with structure: the profits fund the research. Dose leads with a discount and a flavor.</p><p>And the room those ads are aimed at spent the same window asking who to trust. The Reddit pull is fresh today (it returned nothing on aug 6) and it is almost entirely about verification. Which brands publish testing. Which one lost your trust and why. Whether the influencer greens on the Costco shelf are anything but marketing.</p><p>One side of the lane is spending five figures of copy on a wallet found in a parking lot. The other side is asking for a certificate of analysis.</p></div></section><section class="blk" id="the-pull-honestly"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the pull, honestly</h2></div><div class="stats"><div class="stat"><div class="num">5<small> of 10</small></div><span class="lab">ADS ARE LONG-FORM ADVERTORIALS</span><div class="note">from 4 generic &quot;community&quot; pages, none matching their domain</div></div><div class="stat"><div class="num">49,266<small> chars</small></div><span class="lab">LONGEST AD BODY IN THE PULL</span><div class="note">vs 628 for the longest branded card — roughly 78×</div></div><div class="stat"><div class="num">2<small> pages</small></div><span class="lab">RUNNING THE SAME WALMART SCENE</span><div class="note">different page names, same shop.pipitea.com destination</div></div><div class="stat"><div class="num">10<small> of 10</small></div><span class="lab">ADS IDENTICAL TO THE AUG 6 PULL</span><div class="note">same archive IDs three days later</div></div></div></section><section class="blk" id="what-the-data-says"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what the data says</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>One creative template is being run across two differently-named pages to the same destination.</h3><p>American Health Support Community (archive 2068929920688062, 49,266 chars) opens: &quot;I found a handbag in the Walmart parking lot last Tuesday. Worn brown leather. Soft at the corners.&quot; Cholesterol Relief Community (archive 2006807903279406, 39,615 chars) opens: &quot;I found a wallet in a shopping cart at Walmart last Tuesday. Brown leather. Worn soft at the edges.&quot; Both carry caption shop.pipitea.com and CTA &quot;Learn more&quot;.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.facebook.com/61588018263996/" target="_blank" rel="noopener">meta ad library · 2 pages, 1 template ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>An anonymous page is running a specific clinical-outcome claim as its opening line.</h3><p>American Health Support Community (archive 1929541504431807, active) opens: &quot;My eGFR was 42 and declining. Three years on every kidney supplement available. CoQ10. Turmeric. Herbal blends. All failed… my eGFR went from 42 to 58 in 9 months.&quot; The body then dramatizes a dialysis conversation. Page name suggests a patient community; the caption is a storefront.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.facebook.com/61588018263996/" target="_blank" rel="noopener">meta ad library · active ad ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The advertorial format is the majority format in this pull, not an outlier.</h3><p>Five of ten ads carry bodies of 13,839 / 49,266 / 39,615 / 25,931 / 23,128 characters across four pages: American Health Support Community (×2), Cholesterol Relief Community, The Health Haven, Essential Health Finds. Two landing domains total — shop.pipitea.com and get.tryrosabella.com.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.facebook.com/essentialhealthfinds/" target="_blank" rel="noopener">meta ad library · 5 of 10 ads ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The named brands lead with proof structures rather than benefits — and one leads with an ownership fact.</h3><p>IM8 Health: &quot;This isn&#x27;t just a sponsorship. Inter Miami CF has taken an equity stake in Prenetics, IM8&#x27;s parent company — the first time the club has ever invested in a brand partner. That&#x27;s conviction.&quot; DoNotAge: &quot;Most supplement brands focus on profit. We focus on science… our profits fund longevity studies and conduct our own research.&quot; Card bodies of 628 and 517 characters respectively.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://im8health.com/pages/intermiamicf" target="_blank" rel="noopener">meta ad library · IM8, DoNotAge ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Buyers are asking for testing evidence in their own words, unprompted.</h3><p>r/Supplements: &quot;I&#x27;m trying to simplify my supplement routine and only buy from reputable supplements brands, but it&#x27;s hard to separate good marketing from a good product… I&#x27;m especially interested in brands that show real testing and don&#x27;t mega-dose everything.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/" target="_blank" rel="noopener">reddit · r/Supplements ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The trust question is being asked directly, as a thread topic of its own.</h3><p>r/Supplements thread title: &quot;Has a supplement brand ever lost your trust? What happened and what did you do after?&quot; Body: &quot;I&#x27;ve been wondering how much of my brand loyalty is based on actual evidence vs. just habit and marketing.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/Supplements/comments/1u3d8gv/has_a_supplement_brand_ever_lost_your_trust_what/" target="_blank" rel="noopener">reddit · r/Supplements ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The specific proof vocabulary buyers reward is named explicitly: certification, third-party testing, and studies using that exact product.</h3><p>r/RhondaPatrick: &quot;Most experts say &#x27;take magnesium&#x27; and leave you guessing which one to buy. Rhonda names the specific brand for nearly everything and explains why. Her reasons are usually NSF certification (clean), third-party testing, or clinical studies using that exact product.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/" target="_blank" rel="noopener">reddit · r/RhondaPatrick ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Heavy-marketing brands are being read as a negative signal by default in retail-adjacent rooms.</h3><p>r/Costco: &quot;the supplement aisle is starting to stock more of those trendy, heavy-marketing &#x27;super greens&#x27; and influencer-hyped powder brands (like the AG1-style stuff)… A lot of these new supplement brands feel like overpriced marketing fluff or borderline snake oil.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/Costco/comments/1s09kml/has_anyone_else_noticed_the_influx_of_influencer/" target="_blank" rel="noopener">reddit · r/Costco ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Operator-side economics in the category are being posted publicly, but only as self-reported screenshots.</h3><p>r/AmazonFBATips: &quot;This supplement brand was launched 9 months ago from zero with only 8 products. Today it is doing $317K/month, running at 8% TACOS, with around 23% net margin.&quot; A second thread (r/AmazonFBA) claims a 2021 launch &quot;on track to hit $30M this year&quot;. No verification in either post beyond the author&#x27;s own account.</p><div class="meta"><span class="conf unconfirmed">UNCONFIRMED</span><a class="srcref" href="https://www.reddit.com/r/AmazonFBATips/comments/1ssjz1n/supplement_brand_from_launch_to_317kmonth_in_9/" target="_blank" rel="noopener">reddit · self-reported ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The ad set has not turned over in three days.</h3><p>All ten ad_archive_ids returned today match the aug 6 pull exactly. Six are still flagged active, four inactive. Either the creatives are sustaining spend across the window, or the actor returns a stable top-ten for this query — this pull cannot distinguish between the two.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.facebook.com/dosedaily.co/" target="_blank" rel="noopener">meta ad library · aug 6 vs aug 9 ↗</a></div></div></div></section><section class="decision" id="where-the-lane-actually-is"><span class="kicker">THE OPENING</span><h2>where the lane actually <em>is</em></h2><p class="dek">This is the Proof-to-Market buyer&#x27;s category. Ranked by what converts a teardown into a conversation.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Build the free teardown around the duplicated Walmart creative (two pages, one template, one destination) and use it as the P2M door-opener with performance brands.</h3><p>It&#x27;s a 49,266-character ad and a 39,615-character ad opening on the same fabricated scene from two differently-named pages. A brand owner doesn&#x27;t need to be told that&#x27;s a problem; they need to be shown they&#x27;re bidding against it.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Lead the P2M pitch with the proof gap, stated as the two quotes side by side: the ad library&#x27;s story lead against r/Supplements asking for &#x27;brands that show real testing&#x27;.</h3><p>The buyer&#x27;s own phrasing is on record in this pull: NSF certification, third-party testing, clinical studies using that exact product. That&#x27;s the specification, written by the market, for what the fix has to produce.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Use IM8&#x27;s opening as the model for proof-led hooks and keep it in the exemplar bank: an ownership fact instead of a benefit claim.</h3><p>&quot;Inter Miami CF has taken an equity stake in Prenetics… the first time the club has ever invested in a brand partner&quot; does the work of a testimonial without asking anyone to believe a testimonial. It&#x27;s the only ad in ten that leads with something a skeptic can check.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Flag the compliance surface as a named module in the teardown, not a warning at the end.</h3><p>An anonymous page is running &quot;my eGFR went from 42 to 58 in 9 months&quot; as a hook. Any brand competing in that auction is one enforcement cycle away from the whole category&#x27;s ad costs and creative latitude changing.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>Do not cite the $317K/month or $30M figures in outward-facing material.</h3><p>Both are self-reported screenshots with no verification anywhere in the pull. They&#x27;re useful for reading operator sentiment and worthless as evidence.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">hook draft — the duplicated scene</span><button class="copybtn" type="button">copy</button></div><pre>I pulled ten supplement ads this morning. Two of them opened with the same story.
+
+One: &quot;I found a handbag in the Walmart parking lot last Tuesday. Worn brown leather.&quot;
+
+The other: &quot;I found a wallet in a shopping cart at Walmart last Tuesday. Brown leather. Worn soft at the edges.&quot;
+
+Different page names. Same checkout page.
+
+One of them ran forty-nine thousand characters long. That&#x27;s a novella, written to sell a capsule, from a page that calls itself a support community.
+
+If you sell a real product with real testing behind it, this is who you&#x27;re bidding against. Not on quality. On the same impression.</pre></div><div class="deploy"><div class="bar"><span class="k">hook draft — the proof gap</span><button class="copybtn" type="button">copy</button></div><pre>The supplement ads I pulled this week sell a story.
+
+The supplement buyers I read this week asked one question, over and over, in their own words:
+
+&quot;which brands show real testing?&quot;
+
+One room is spending five figures of copy on a wallet in a parking lot. The other room is asking for a certificate of analysis.
+
+Nobody&#x27;s meeting in the middle. That&#x27;s the whole opportunity.</pre></div><div class="deploy"><div class="bar"><span class="k">angle sentence — outreach opener for a performance brand</span><button class="copybtn" type="button">copy</button></div><pre>Your category&#x27;s top-spending ads right now are 25,000-word emotional advertorials from pages with no brand on them — and the buyers those ads are chasing are on Reddit this week asking which brands publish third-party testing. You already have the thing they&#x27;re asking for. It isn&#x27;t in your creative.</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Ranked by how much they should discount what you just read.</p><p>First: there is no performance data anywhere in this brief. The Meta ad library shows what is running, not what is working. Active-versus-inactive status and body length are the only signals available, and neither is a conversion rate. Every claim about what these advertisers are doing is safe; any claim about what&#x27;s succeeding is not, and none is made here.</p><p>Second: the ad set is a three-day repeat. All ten archive IDs match the aug 6 pull. That is consistent with sustained spend and equally consistent with the actor returning a stable ranking for the query &quot;supplement brand&quot;. This data cannot tell you which.</p><p>Third: ten ads on one broad keyword is a keyhole, not a category scan. The two shell-page operators visible here may be a large share of this keyword and a rounding error in the category.</p><p>Fourth: the Reddit threads carry no upvote or comment counts in this pull, so &quot;what buyers are asking&quot; is a read on recurrence across ten threads, not on volume or intensity.</p><p>Fifth: the revenue figures are self-reported screenshots. Marked UNCONFIRMED and excluded from the decision section on purpose.</p><p>Sixth: the X pull returned fifteen mock placeholder rows and zero real posts, so a third of this lane&#x27;s stack contributed nothing today.</p><a class="cta" href="#deploy-blocks">OKAY, SO BUILD THE TEARDOWN</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.03 — stack: facebook-ads · reddit · twitter</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>facebook-ads (Apify) · query &quot;supplement brand&quot; · limit 10</td><td>—</td><td>2026-08-09</td><td>10 ads across 8 pages — the advertorial/branded split, character counts, the duplicated Walmart template, the eGFR claim, IM8 and DoNotAge leads. All 10 IDs repeated from aug 6.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>reddit (Apify) · query &quot;supplement brand marketing&quot; · limit 30</td><td>—</td><td>2026-08-09</td><td>10 threads, fresh today (returned 0 on aug 6) — the trust and testing vocabulary, the Costco skepticism, the Rhonda Patrick proof list, the two self-reported revenue claims.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>twitter (Apify / KaitoEasyAPI) · query &quot;supplement marketing&quot; · limit 30</td><td>—</td><td>2026-08-09</td><td>Nothing. 15 identical mock_tweet placeholder rows, zero real posts.</td><td><span class="conf unconfirmed">UNCONFIRMED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="https://www.facebook.com/61588018263996/" target="_blank" rel="noopener">https://www.facebook.com/61588018263996/</a></td><td>meta ad library · 2 pages, 1 template</td></tr><tr><td>02</td><td><a href="https://www.facebook.com/essentialhealthfinds/" target="_blank" rel="noopener">https://www.facebook.com/essentialhealthfinds/</a></td><td>meta ad library · 5 of 10 ads</td></tr><tr><td>03</td><td><a href="https://im8health.com/pages/intermiamicf" target="_blank" rel="noopener">https://im8health.com/pages/intermiamicf</a></td><td>meta ad library · IM8, DoNotAge</td></tr><tr><td>04</td><td><a href="https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/" target="_blank" rel="noopener">https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/</a></td><td>reddit · r/Supplements</td></tr><tr><td>05</td><td><a href="https://www.reddit.com/r/Supplements/comments/1u3d8gv/has_a_supplement_brand_ever_lost_your_trust_what/" target="_blank" rel="noopener">https://www.reddit.com/r/Supplements/comments/1u3d8gv/has_a_supplement_brand_ever_lost_your_trust_what/</a></td><td>reddit · r/Supplements</td></tr><tr><td>06</td><td><a href="https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/" target="_blank" rel="noopener">https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/</a></td><td>reddit · r/RhondaPatrick</td></tr><tr><td>07</td><td><a href="https://www.reddit.com/r/Costco/comments/1s09kml/has_anyone_else_noticed_the_influx_of_influencer/" target="_blank" rel="noopener">https://www.reddit.com/r/Costco/comments/1s09kml/has_anyone_else_noticed_the_influx_of_influencer/</a></td><td>reddit · r/Costco</td></tr><tr><td>08</td><td><a href="https://www.reddit.com/r/AmazonFBATips/comments/1ssjz1n/supplement_brand_from_launch_to_317kmonth_in_9/" target="_blank" rel="noopener">https://www.reddit.com/r/AmazonFBATips/comments/1ssjz1n/supplement_brand_from_launch_to_317kmonth_in_9/</a></td><td>reddit · self-reported</td></tr><tr><td>09</td><td><a href="https://www.facebook.com/dosedaily.co/" target="_blank" rel="noopener">https://www.facebook.com/dosedaily.co/</a></td><td>meta ad library · aug 6 vs aug 9</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;zeitgeist-supplement-brands-2026-08-09&quot;,
+  &quot;title&quot;: &quot;the ad library sells story, the buyer&#x27;s room asks for receipts&quot;,
+  &quot;compiled&quot;: &quot;aug 9, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/zeitgeist-supplement-brands-2026-08-09-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/zeitgeist-supplement-brands-2026-08-09-brief.md&quot;,
+  &quot;paths&quot;: [],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.facebook.com/61588018263996/&quot;,
+      &quot;label&quot;: &quot;meta ad library · 2 pages, 1 template&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.facebook.com/essentialhealthfinds/&quot;,
+      &quot;label&quot;: &quot;meta ad library · 5 of 10 ads&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://im8health.com/pages/intermiamicf&quot;,
+      &quot;label&quot;: &quot;meta ad library · IM8, DoNotAge&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/&quot;,
+      &quot;label&quot;: &quot;reddit · r/Supplements&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/Supplements/comments/1u3d8gv/has_a_supplement_brand_ever_lost_your_trust_what/&quot;,
+      &quot;label&quot;: &quot;reddit · r/Supplements&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/&quot;,
+      &quot;label&quot;: &quot;reddit · r/RhondaPatrick&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/Costco/comments/1s09kml/has_anyone_else_noticed_the_influx_of_influencer/&quot;,
+      &quot;label&quot;: &quot;reddit · r/Costco&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/AmazonFBATips/comments/1ssjz1n/supplement_brand_from_launch_to_317kmonth_in_9/&quot;,
+      &quot;label&quot;: &quot;reddit · self-reported&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.facebook.com/dosedaily.co/&quot;,
+      &quot;label&quot;: &quot;meta ad library · aug 6 vs aug 9&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY ZEITGEIST</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/zeitgeist-supplement-brands-2026-08-09-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/zeitgeist-supplement-brands-2026-08-09-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/zeitgeist-supplement-brands-2026-08-09-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-supplement-brands-2026-08-09/zeitgeist-supplement-brands-2026-08-09-context.json\nCOMPILED: aug 9, 2026\n\n# the ad library sells story, the buyer's room asks for receipts\n\n> ZEITGEIST · SUPPLEMENT / PERFORMANCE BRANDS · window: aug 9, 2026 · 3-day lane · lens: what supplement & performance brands are running · ads + community · sources: 3 live pulls · 35 items returned · 20 usable · reddit fresh, ad set repeated · compiled: aug 9, 2026\n\nHalf the ads in today's pull are 14,000-to-49,000-character emotional advertorials running from anonymous \"community\" pages, two of them opening with the same fabricated Walmart scene, three days after the identical set returned. The Reddit side of the same lane is asking, in plain words, which brands publish third-party testing. That distance is the entire Proof-to-Market thesis, sitting in one dataset.\n\n## the big picture\n_WHAT'S FORMING_\nTen ads came back from the Meta library and they split cleanly into two businesses that happen to share a category.\n\nFive of them run from pages named like support groups: American Health Support Community, Cholesterol Relief Community, The Health Haven, Essential Health Finds, and carry bodies between 13,839 and 49,266 characters. These are not ads with a story in them. They are short stories with a purchase at the end, and none of the page names match the domain they send to. Three point at shop.pipitea.com. Two point at get.tryrosabella.com.\n\nTwo of those five open with the same scene. One begins \"I found a handbag in the Walmart parking lot last Tuesday. Worn brown leather.\" The other begins \"I found a wallet in a shopping cart at Walmart last Tuesday. Brown leather. Worn soft at the edges.\" Different page names. Same landing domain. The creative is a template being run across shell pages, which means the operator is buying at enough volume to need more than one face.\n\nThe other five ads belong to brands with their own names on the door: DoNotAge, IM8, Dose. They run between 291 and 628 characters of card copy. IM8's lead is not a benefit at all; it's an ownership fact: Inter Miami CF took an equity stake in the parent company. DoNotAge leads with structure: the profits fund the research. Dose leads with a discount and a flavor.\n\nAnd the room those ads are aimed at spent the same window asking who to trust. The Reddit pull is fresh today (it returned nothing on aug 6) and it is almost entirely about verification. Which brands publish testing. Which one lost your trust and why. Whether the influencer greens on the Costco shelf are anything but marketing.\n\nOne side of the lane is spending five figures of copy on a wallet found in a parking lot. The other side is asking for a certificate of analysis.\n\n## the pull, honestly\n- ADS ARE LONG-FORM ADVERTORIALS: **5 of 10** (from 4 generic \"community\" pages, none matching their domain)\n- LONGEST AD BODY IN THE PULL: **49,266 chars** (vs 628 for the longest branded card — roughly 78×)\n- RUNNING THE SAME WALMART SCENE: **2 pages** (different page names, same shop.pipitea.com destination)\n- ADS IDENTICAL TO THE AUG 6 PULL: **10 of 10** (same archive IDs three days later)\n\n## what the data says\n- **One creative template is being run across two differently-named pages to the same destination.** [VERIFIED] — American Health Support Community (archive 2068929920688062, 49,266 chars) opens: \"I found a handbag in the Walmart parking lot last Tuesday. Worn brown leather. Soft at the corners.\" Cholesterol Relief Community (archive 2006807903279406, 39,615 chars) opens: \"I found a wallet in a shopping cart at Walmart last Tuesday. Brown leather. Worn soft at the edges.\" Both carry caption shop.pipitea.com and CTA \"Learn more\". (https://www.facebook.com/61588018263996/)\n- **An anonymous page is running a specific clinical-outcome claim as its opening line.** [VERIFIED] — American Health Support Community (archive 1929541504431807, active) opens: \"My eGFR was 42 and declining. Three years on every kidney supplement available. CoQ10. Turmeric. Herbal blends. All failed… my eGFR went from 42 to 58 in 9 months.\" The body then dramatizes a dialysis conversation. Page name suggests a patient community; the caption is a storefront. (https://www.facebook.com/61588018263996/)\n- **The advertorial format is the majority format in this pull, not an outlier.** [VERIFIED] — Five of ten ads carry bodies of 13,839 / 49,266 / 39,615 / 25,931 / 23,128 characters across four pages: American Health Support Community (×2), Cholesterol Relief Community, The Health Haven, Essential Health Finds. Two landing domains total — shop.pipitea.com and get.tryrosabella.com. (https://www.facebook.com/essentialhealthfinds/)\n- **The named brands lead with proof structures rather than benefits — and one leads with an ownership fact.** [VERIFIED] — IM8 Health: \"This isn't just a sponsorship. Inter Miami CF has taken an equity stake in Prenetics, IM8's parent company — the first time the club has ever invested in a brand partner. That's conviction.\" DoNotAge: \"Most supplement brands focus on profit. We focus on science… our profits fund longevity studies and conduct our own research.\" Card bodies of 628 and 517 characters respectively. (https://im8health.com/pages/intermiamicf)\n- **Buyers are asking for testing evidence in their own words, unprompted.** [VERIFIED] — r/Supplements: \"I'm trying to simplify my supplement routine and only buy from reputable supplements brands, but it's hard to separate good marketing from a good product… I'm especially interested in brands that show real testing and don't mega-dose everything.\" (https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/)\n- **The trust question is being asked directly, as a thread topic of its own.** [VERIFIED] — r/Supplements thread title: \"Has a supplement brand ever lost your trust? What happened and what did you do after?\" Body: \"I've been wondering how much of my brand loyalty is based on actual evidence vs. just habit and marketing.\" (https://www.reddit.com/r/Supplements/comments/1u3d8gv/has_a_supplement_brand_ever_lost_your_trust_what/)\n- **The specific proof vocabulary buyers reward is named explicitly: certification, third-party testing, and studies using that exact product.** [VERIFIED] — r/RhondaPatrick: \"Most experts say 'take magnesium' and leave you guessing which one to buy. Rhonda names the specific brand for nearly everything and explains why. Her reasons are usually NSF certification (clean), third-party testing, or clinical studies using that exact product.\" (https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/)\n- **Heavy-marketing brands are being read as a negative signal by default in retail-adjacent rooms.** [VERIFIED] — r/Costco: \"the supplement aisle is starting to stock more of those trendy, heavy-marketing 'super greens' and influencer-hyped powder brands (like the AG1-style stuff)… A lot of these new supplement brands feel like overpriced marketing fluff or borderline snake oil.\" (https://www.reddit.com/r/Costco/comments/1s09kml/has_anyone_else_noticed_the_influx_of_influencer/)\n- **Operator-side economics in the category are being posted publicly, but only as self-reported screenshots.** [UNCONFIRMED] — r/AmazonFBATips: \"This supplement brand was launched 9 months ago from zero with only 8 products. Today it is doing $317K/month, running at 8% TACOS, with around 23% net margin.\" A second thread (r/AmazonFBA) claims a 2021 launch \"on track to hit $30M this year\". No verification in either post beyond the author's own account. (https://www.reddit.com/r/AmazonFBATips/comments/1ssjz1n/supplement_brand_from_launch_to_317kmonth_in_9/)\n- **The ad set has not turned over in three days.** [LIKELY] — All ten ad_archive_ids returned today match the aug 6 pull exactly. Six are still flagged active, four inactive. Either the creatives are sustaining spend across the window, or the actor returns a stable top-ten for this query — this pull cannot distinguish between the two. (https://www.facebook.com/dosedaily.co/)\n\n## where the lane actually is\nThis is the Proof-to-Market buyer's category. Ranked by what converts a teardown into a conversation.\n1. **Build the free teardown around the duplicated Walmart creative (two pages, one template, one destination) and use it as the P2M door-opener with performance brands.** — It's a 49,266-character ad and a 39,615-character ad opening on the same fabricated scene from two differently-named pages. A brand owner doesn't need to be told that's a problem; they need to be shown they're bidding against it.\n2. **Lead the P2M pitch with the proof gap, stated as the two quotes side by side: the ad library's story lead against r/Supplements asking for 'brands that show real testing'.** — The buyer's own phrasing is on record in this pull: NSF certification, third-party testing, clinical studies using that exact product. That's the specification, written by the market, for what the fix has to produce.\n3. **Use IM8's opening as the model for proof-led hooks and keep it in the exemplar bank: an ownership fact instead of a benefit claim.** — \"Inter Miami CF has taken an equity stake in Prenetics… the first time the club has ever invested in a brand partner\" does the work of a testimonial without asking anyone to believe a testimonial. It's the only ad in ten that leads with something a skeptic can check.\n4. **Flag the compliance surface as a named module in the teardown, not a warning at the end.** — An anonymous page is running \"my eGFR went from 42 to 58 in 9 months\" as a hook. Any brand competing in that auction is one enforcement cycle away from the whole category's ad costs and creative latitude changing.\n5. **Do not cite the $317K/month or $30M figures in outward-facing material.** — Both are self-reported screenshots with no verification anywhere in the pull. They're useful for reading operator sentiment and worthless as evidence.\n\n## deploy blocks\n**hook draft — the duplicated scene**\n```\nI pulled ten supplement ads this morning. Two of them opened with the same story.\n\nOne: \"I found a handbag in the Walmart parking lot last Tuesday. Worn brown leather.\"\n\nThe other: \"I found a wallet in a shopping cart at Walmart last Tuesday. Brown leather. Worn soft at the edges.\"\n\nDifferent page names. Same checkout page.\n\nOne of them ran forty-nine thousand characters long. That's a novella, written to sell a capsule, from a page that calls itself a support community.\n\nIf you sell a real product with real testing behind it, this is who you're bidding against. Not on quality. On the same impression.\n```\n**hook draft — the proof gap**\n```\nThe supplement ads I pulled this week sell a story.\n\nThe supplement buyers I read this week asked one question, over and over, in their own words:\n\n\"which brands show real testing?\"\n\nOne room is spending five figures of copy on a wallet in a parking lot. The other room is asking for a certificate of analysis.\n\nNobody's meeting in the middle. That's the whole opportunity.\n```\n**angle sentence — outreach opener for a performance brand**\n```\nYour category's top-spending ads right now are 25,000-word emotional advertorials from pages with no brand on them — and the buyers those ads are chasing are on Reddit this week asking which brands publish third-party testing. You already have the thing they're asking for. It isn't in your creative.\n```\n\n## what this isn't\n_CAVEATS WORTH KEEPING_\nRanked by how much they should discount what you just read.\n\nFirst: there is no performance data anywhere in this brief. The Meta ad library shows what is running, not what is working. Active-versus-inactive status and body length are the only signals available, and neither is a conversion rate. Every claim about what these advertisers are doing is safe; any claim about what's succeeding is not, and none is made here.\n\nSecond: the ad set is a three-day repeat. All ten archive IDs match the aug 6 pull. That is consistent with sustained spend and equally consistent with the actor returning a stable ranking for the query \"supplement brand\". This data cannot tell you which.\n\nThird: ten ads on one broad keyword is a keyhole, not a category scan. The two shell-page operators visible here may be a large share of this keyword and a rounding error in the category.\n\nFourth: the Reddit threads carry no upvote or comment counts in this pull, so \"what buyers are asking\" is a read on recurrence across ten threads, not on volume or intensity.\n\nFifth: the revenue figures are self-reported screenshots. Marked UNCONFIRMED and excluded from the decision section on purpose.\n\nSixth: the X pull returned fifteen mock placeholder rows and zero real posts, so a third of this lane's stack contributed nothing today.\n\n## Source ledger\n1. facebook-ads (Apify) · query \"supplement brand\" · limit 10 (retrieved 2026-08-09, VERIFIED; used for: 10 ads across 8 pages — the advertorial/branded split, character counts, the duplicated Walmart template, the eGFR claim, IM8 and DoNotAge leads. All 10 IDs repeated from aug 6.)\n2. reddit (Apify) · query \"supplement brand marketing\" · limit 30 (retrieved 2026-08-09, VERIFIED; used for: 10 threads, fresh today (returned 0 on aug 6) — the trust and testing vocabulary, the Costco skepticism, the Rhonda Patrick proof list, the two self-reported revenue claims.)\n3. twitter (Apify / KaitoEasyAPI) · query \"supplement marketing\" · limit 30 (retrieved 2026-08-09, UNCONFIRMED; used for: Nothing. 15 identical mock_tweet placeholder rows, zero real posts.)\n\n## Context pack (agent feed)\n- https://www.facebook.com/61588018263996/ — meta ad library · 2 pages, 1 template\n- https://www.facebook.com/essentialhealthfinds/ — meta ad library · 5 of 10 ads\n- https://im8health.com/pages/intermiamicf — meta ad library · IM8, DoNotAge\n- https://www.reddit.com/r/Supplements/comments/1qnm4y2/what_brands_make_reputable_supplements/ — reddit · r/Supplements\n- https://www.reddit.com/r/Supplements/comments/1u3d8gv/has_a_supplement_brand_ever_lost_your_trust_what/ — reddit · r/Supplements\n- https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/ — reddit · r/RhondaPatrick\n- https://www.reddit.com/r/Costco/comments/1s09kml/has_anyone_else_noticed_the_influx_of_influencer/ — reddit · r/Costco\n- https://www.reddit.com/r/AmazonFBATips/comments/1ssjz1n/supplement_brand_from_launch_to_317kmonth_in_9/ — reddit · self-reported\n- https://www.facebook.com/dosedaily.co/ — meta ad library · aug 6 vs aug 9\n\n_run cost $0.03 — stack: facebook-ads · reddit · twitter_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

@@ -2,11 +2,11 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "Volume is high and quality is uneven; the open question is which of these anyone actually deploys.",
+  "dek": "Built, verified, shippable — the open item is a taste call you're allowed to decline.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 8, 2026",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The extraction line is the busiest thing on the board and keeps shipping usable expert systems, but a good share of them close below the bar they were aiming for. The current build carries no functional debt — only an optional quality promotion.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Give the blind recognition verdict, or drop the promotion and move on."
+      "body": "The forge build is verified and usable as it stands; what remains is an optional recognition verdict, not construction work. Extractions have been landing steadily through it.\n\nHandoff status is ready. Last activity 3d ago.\n\nNext: Use the verified skill on the next extraction and leave the blind pack alone unless the tier label matters."
     },
     {
       "kind": "stats",
@@ -28,43 +28,9 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "1",
-          "label": "SESSIONS",
-          "note": "claude · codex"
-        },
-        {
-          "value": "13",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
-        }
-      ]
-    },
-    {
-      "kind": "spark",
-      "heading": "momentum",
-      "caption": "daily, last 14 days — each series scaled to itself",
-      "series": [
-        {
-          "label": "sessions",
-          "values": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "value": "1",
-          "unit": "total",
-          "note": "per day"
         }
       ]
     },
@@ -100,7 +66,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "It is the only thing holding a finished extraction open, and it needs a felt verdict no automated pass can supply."
+          "why": "This is a taste verdict, not build debt — it only matters if the promotion label is worth something to you right now."
         }
       ]
     },
@@ -208,12 +174,6 @@
           "title": "Finalized · extract-forge",
           "body": "Hilary Gridley — Judgment Encoding & Anti-Slop Management OS mastery extraction (forge): 13 workflows, 10 born-v2 prompts, Taste Profile spec + productized offer, slide capture via /watch, expert-name corrected via prima",
           "done": true
-        },
-        {
-          "date": "2026-07-25",
-          "title": "claude session · 21 msgs",
-          "body": "run /scrape-creator /watch /extract-forge  on this youtube videos: https://www.youtube.com/watch?v=yRgPbqywUJ8&t=1143s https://www.youtube.com/watch?v=gqnp-IdEEI8&t=60s  Task: I wa",
-          "done": true
         }
       ]
     },
@@ -238,7 +198,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Scores here are self-reported by the same pass that produced the work — the run marked needs-improvement and the run marked keep were graded by the same hand. Nothing in the record shows whether any of these extractions has since been used for anything.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The remaining item needs Farrice's own judgment and cannot be closed by the system. Volume of extractions is not evidence any of them have been used in paid work.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

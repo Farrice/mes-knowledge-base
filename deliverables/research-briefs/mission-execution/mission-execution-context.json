@@ -1,14 +1,14 @@
 {
   "slug": "mission-execution",
-  "title": "Execution — Project Relocate",
-  "compiled": "aug 8, 2026",
+  "title": "Execution — Lane Reconciler",
+  "compiled": "aug 9, 2026",
   "generated_by": "execution/render_brief.py",
   "brief_html": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
   "brief_md": "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
   "paths": [
     {
-      "path": ".agent/handoffs/2026-08-07-execution.md",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-execution.md",
+      "path": ".agent/handoffs/2026-08-08-execution.md",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-execution.md",
       "role": "playbook · Resume here"
     },
     {

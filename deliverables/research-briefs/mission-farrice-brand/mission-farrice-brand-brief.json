@@ -2,11 +2,11 @@
   "slug": "mission-farrice-brand",
   "chip": "MISSION · FARRICE BRAND",
   "title": "Farrice Brand — Eleven Day Sentence *Script*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
-  "window": "last 1 days",
+  "dek": "Plenty of avatar takes made, no verdict recorded — it needs a pick, not more renders.",
+  "window": "last 14 days",
   "lens": "claude",
-  "sources": "0 sessions · 1 files · 64 assets",
-  "compiled": "aug 7, 2026",
+  "sources": "0 sessions · 3 files · 124 assets",
+  "compiled": "aug 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,20 +16,81 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 1 days: 1 file written, 64 assets generated.\n\nHandoff status is active. Last activity today.\n\nNext: Farrice Brand — Eleven Day Sentence Script"
+      "body": "This is generation-heavy work on the avatar and brand canon — a long run of image variants against a locked character direction. It is producing candidates, not a chosen final.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Pick the winning avatar take and lock it so the variant runs stop."
     },
     {
       "kind": "stats",
       "heading": "by the numbers",
-      "tag": "LAST 1 DAYS",
+      "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "1",
+          "value": "3",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "64",
+          "value": "124",
           "label": "ASSETS GENERATED"
+        },
+        {
+          "value": "1.64",
+          "label": "SPEND THIS WINDOW",
+          "unit": "usd"
+        },
+        {
+          "value": "5",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "value": "3",
+          "unit": "files",
+          "note": "per day"
+        },
+        {
+          "label": "assets",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            53,
+            0,
+            0,
+            7,
+            64,
+            0
+          ],
+          "value": "124",
+          "unit": "made",
+          "note": "per day"
         }
       ]
     },
@@ -84,20 +145,6 @@
           "note": "aug 7, 2026"
         },
         {
-          "title": "W1_matrix_hoodie.png",
-          "role": "IMAGE",
-          "path": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W1_matrix_hoodie.png",
-          "thumb": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W1_matrix_hoodie.png",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "W4_crest_overshirt.png",
-          "role": "IMAGE",
-          "path": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W4_crest_overshirt.png",
-          "thumb": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W4_crest_overshirt.png",
-          "note": "aug 7, 2026"
-        },
-        {
           "title": "BAR01.png",
           "role": "IMAGE",
           "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR01.png",
@@ -119,37 +166,69 @@
           "note": "aug 7, 2026"
         },
         {
-          "title": "BAR06.png",
+          "title": "02_headshot_grey_suit.jpg",
           "role": "IMAGE",
-          "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR06.png",
-          "thumb": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR06.png",
+          "path": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/02_headshot_grey_suit.jpg",
+          "thumb": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/02_headshot_grey_suit.jpg",
           "note": "aug 7, 2026"
         },
         {
-          "title": "BAR07.png",
+          "title": "06_wedding_fullbody_b.jpg",
           "role": "IMAGE",
-          "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR07.png",
-          "thumb": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR07.png",
+          "path": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/06_wedding_fullbody_b.jpg",
+          "thumb": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/06_wedding_fullbody_b.jpg",
           "note": "aug 7, 2026"
         },
         {
-          "title": "BAR05.png",
+          "title": "04_wedding_closeup_smile.jpg",
           "role": "IMAGE",
-          "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR05.png",
-          "thumb": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR05.png",
+          "path": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/04_wedding_closeup_smile.jpg",
+          "thumb": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/04_wedding_closeup_smile.jpg",
           "note": "aug 7, 2026"
         },
         {
-          "title": "BAR04.png",
+          "title": "V1_headshot_neutral.jpg",
           "role": "IMAGE",
-          "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR04.png",
-          "thumb": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR04.png",
+          "path": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V1_headshot_neutral.jpg",
+          "thumb": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V1_headshot_neutral.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "V4_fullbody_standing.jpg",
+          "role": "IMAGE",
+          "path": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V4_fullbody_standing.jpg",
+          "thumb": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V4_fullbody_standing.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "V6_casual_outdoor.jpg",
+          "role": "IMAGE",
+          "path": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V6_casual_outdoor.jpg",
+          "thumb": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V6_casual_outdoor.jpg",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "+88 more in 12 folders",
+          "role": "MORE",
+          "path": "_active/farrice-brand/05-assets/anime-avatar/dataset",
+          "note": "open the folder — sampled here, not truncated silently"
+        },
+        {
+          "title": "ANGLE-BRIEF-PROMPT.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md",
           "note": "aug 7, 2026"
         },
         {
           "title": "FOUNDER-CONTEXT-BRIEF.md",
           "role": "FILE",
           "path": "_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
+          "note": "aug 4, 2026"
+        },
+        {
+          "title": "CANON.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/05-assets/anime-avatar/CANON.md",
           "note": "aug 4, 2026"
         }
       ]
@@ -167,19 +246,6 @@
             ".agent/handoffs/2026-08-04-farrice-brand.md"
           ],
           "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
-      "kind": "timeline",
-      "heading": "how it got *here*",
-      "tag": "HISTORY, NOT TRUTH",
-      "items": [
-        {
-          "date": "2026-08-07",
-          "title": "commit df4a9e264",
-          "body": "Complete mission brief builder infrastructure: living briefs per thread",
-          "done": true
         }
       ]
     },
@@ -202,16 +268,6 @@
           "k": "BOARD",
           "title": "Mission board — every live thread",
           "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
-        },
-        {
-          "k": "THREAD",
-          "title": "voice identity stack",
-          "path": "deliverables/research-briefs/mission-voice-identity-stack/mission-voice-identity-stack-brief.html"
-        },
-        {
-          "k": "THREAD",
-          "title": "linkedin profile content",
-          "path": "deliverables/research-briefs/mission-linkedin-profile-content/mission-linkedin-profile-content-brief.html"
         }
       ]
     },
@@ -219,7 +275,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No selected final is recorded, and a long generation run with no marked winner is the shape of an undecided taste call rather than progress. No finalized deliverable is attached to this thread.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

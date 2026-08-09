@@ -503,3 +503,16 @@
 {"ts": "2026-08-08T13:40:55Z", "label": "quiet-benefit-video", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-08T13:40:55Z", "label": "checkpoint-post", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-08T13:40:55Z", "label": "day-36-video", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-09T12:50:19Z", "label": "angle-map 08-09 flagship", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('what \u2026 what \u2026 what') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-09T12:50:19Z", "label": "angle-map 08-09 education long-form", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING", "A 472-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-09T12:51:35Z", "label": "2026-08-09-kitchen-qa-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-09T12:51:35Z", "label": "2026-08-09-three-questions-proof-chain-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 453-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-09T12:52:10Z", "label": "2026-08-09-kitchen-qa-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-09T12:52:10Z", "label": "2026-08-09-three-questions-proof-chain-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-09T12:52:44Z", "label": "longform final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 361-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-09T13:33:39Z", "label": "kitchen-qa-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-09T13:33:39Z", "label": "three-questions-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-09T13:34:02Z", "label": "kitchen-qa-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-09T13:34:02Z", "label": "three-questions-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-09T13:35:41Z", "label": "three-questions-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-09T13:35:41Z", "label": "kitchen-qa-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}

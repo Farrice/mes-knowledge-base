@@ -1,31 +1,27 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
 
-Volume is high and quality is uneven; the open question is which of these anyone actually deploys.
+Built, verified, shippable — the open item is a taste call you're allowed to decline.
 
 ## where this stands
 _CURRENT POSITION_
-The extraction line is the busiest thing on the board and keeps shipping usable expert systems, but a good share of them close below the bar they were aiming for. The current build carries no functional debt — only an optional quality promotion.
+The forge build is verified and usable as it stands; what remains is an optional recognition verdict, not construction work. Extractions have been landing steadily through it.
 
-Handoff status is ready. Last activity 2d ago.
+Handoff status is ready. Last activity 3d ago.
 
-Next: Give the blind recognition verdict, or drop the promotion and move on.
+Next: Use the verified skill on the next extraction and leave the blind pack alone unless the tier label matters.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **11**
-- SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **13 d**
-
-## momentum
-
+- DAYS ACTIVE: **12 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — It is the only thing holding a finished extraction open, and it needs a felt verdict no automated pass can supply.
+1. **Finish what's open** — This is a taste verdict, not build debt — it only matters if the promotion label is worth something to you right now.
 
 ## what this thread made
 - **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
@@ -55,7 +51,6 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 - 2026-07-30 · **Finalized · extract-forge** — Vision Checkpoint: Nathan Follen Agentic RevOps
 - 2026-07-30 · **Finalized · extract-forge** — Updated Rory Sutherland Universal Behavioral Alchemy expansion vision with a source-honest Kindle boundary and a non-blocking video-first forge path
 - 2026-07-28 · **Finalized · extract-forge** — Hilary Gridley — Judgment Encoding & Anti-Slop Management OS mastery extraction (forge): 13 workflows, 10 born-v2 prompts, Taste Profile spec + productized offer, slide capture via /watch, expert-name corrected via prima
-- 2026-07-25 · **claude session · 21 msgs** — run /scrape-creator /watch /extract-forge  on this youtube videos: https://www.youtube.com/watch?v=yRgPbqywUJ8&t=1143s https://www.youtube.com/watch?v=gqnp-IdEEI8&t=60s  Task: I wa
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-04-extract-forge.md
@@ -63,7 +58,7 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Scores here are self-reported by the same pass that produced the work — the run marked needs-improvement and the run marked keep were graded by the same hand. Nothing in the record shows whether any of these extractions has since been used for anything.
+The remaining item needs Farrice's own judgment and cannot be closed by the system. Volume of extractions is not evidence any of them have been used in paid work.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

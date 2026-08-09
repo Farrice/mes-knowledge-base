@@ -2,11 +2,11 @@
   "slug": "mission-01-listing-content",
   "chip": "MISSION · THREAD",
   "title": "Willis Approved Three-Reel *Closeout*",
-  "dek": "Approved and finished; the only thing left is hitting send.",
+  "dek": "Packaged and approved — the only thing between this and real footage is hitting send.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 8, 2026",
+  "compiled": "aug 9, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The listing package went through several rebuilds against real rejections — first the hooks, then the whole voice — and landed on an approved version. It is finished work sitting one send away from the client.\n\nHandoff status is ready. Last activity 3d ago.\n\nNext: Send the approved recording pack to Jen and stop editing it."
+      "body": "The approved reel package is finished and sitting in the clean recording pack, so the work left is delivery, not production. Earlier hook drafts were rejected and rebuilt before this version survived.\n\nHandoff status is ready. Last activity 4d ago.\n\nNext: Send the approved recording pack to Jen so she can film it."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "3",
+          "value": "4",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "The remaining item is explicitly optional polish, and treating it as work is what keeps a finished package from reaching the client."
+          "why": "The Stories and b-roll order are the only pieces not aligned to the approved spine — worth tightening, but not worth holding the send for."
         }
       ]
     },
@@ -132,7 +132,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The approval is recorded on our side only — nothing here confirms Jen received the pack or filmed from it. Whether these hooks hold up on camera is entirely unmeasured.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Nothing here records that the pack was actually sent or filmed, so \"ready\" means ready on disk, not delivered. The approved spine survived rejected earlier takes, which is a taste verdict, not evidence it performs.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

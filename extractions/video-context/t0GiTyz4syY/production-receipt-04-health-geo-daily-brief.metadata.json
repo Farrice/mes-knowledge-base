@@ -1,0 +1,14 @@
+{
+  "title": "Production Replay Receipt 04: Health Performance GEO Daily Brief",
+  "artifact_type": "production-replay-receipt",
+  "receipt_number": 4,
+  "task_type": "Research Content Operations",
+  "source_thread_id": "019fe192-1572-78b3-88b9-5d943b7232a7",
+  "overlay_mode": "SHADOW",
+  "verdict": "KEEP_SHADOW",
+  "application_mode": "RETROSPECTIVE_REPLAY",
+  "material_decisions_changed": 5,
+  "blind_comparison": false,
+  "runtime_enforcement_added": false,
+  "promotion_authorized": false
+}

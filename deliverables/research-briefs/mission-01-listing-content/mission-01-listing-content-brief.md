@@ -1,27 +1,27 @@
 # Willis Approved Three-Reel Closeout
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
 
-Approved and finished; the only thing left is hitting send.
+Packaged and approved — the only thing between this and real footage is hitting send.
 
 ## where this stands
 _CURRENT POSITION_
-The listing package went through several rebuilds against real rejections — first the hooks, then the whole voice — and landed on an approved version. It is finished work sitting one send away from the client.
+The approved reel package is finished and sitting in the clean recording pack, so the work left is delivery, not production. Earlier hook drafts were rejected and rebuilt before this version survived.
 
-Handoff status is ready. Last activity 3d ago.
+Handoff status is ready. Last activity 4d ago.
 
-Next: Send the approved recording pack to Jen and stop editing it.
+Next: Send the approved recording pack to Jen so she can film it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **3 d**
+- DAYS ACTIVE: **4 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — The remaining item is explicitly optional polish, and treating it as work is what keeps a finished package from reaching the client.
+1. **Finish what's open** — The Stories and b-roll order are the only pieces not aligned to the approved spine — worth tightening, but not worth holding the send for.
 
 ## pick it back up
 1. **Resume here** — Final approved three Reels are in the clean recording pack; send to Jen.
@@ -42,7 +42,7 @@ python3 execution/handoff_store.py resume 01-listing-content
 
 ## what this isn't
 _READ THE EDGES_
-The approval is recorded on our side only — nothing here confirms Jen received the pack or filmed from it. Whether these hooks hold up on camera is entirely unmeasured.
+Nothing here records that the pack was actually sent or filmed, so "ready" means ready on disk, not delivered. The approved spine survived rejected earlier takes, which is a taste verdict, not evidence it performs.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
