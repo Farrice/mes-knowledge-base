@@ -1,0 +1,11 @@
+{"ts": "2026-08-08T18:21:24", "module": "degrade.py", "function": "self_test", "line": 105, "why": "selftest str", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:21:24", "module": "degrade.py", "function": "self_test", "line": 106, "why": "selftest tuple", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:21:24", "module": "degrade.py", "function": "self_test", "line": 107, "why": "selftest bool", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:21:24", "module": "degrade.py", "function": "self_test", "line": 112, "why": "receipt unreadable", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:22:35", "module": "mission_board.py", "function": "load_bundle", "line": 62, "why": "sweep bundle unreadable at /Users/farricecain/Google Antigravity/.agent/sweep/latest.json", "exc": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/farricecain/Google Antigravity/.agent/sweep/latest.json'", "session": ""}
+{"ts": "2026-08-08T18:22:35", "module": "mission_board.py", "function": "build", "line": 237, "why": "no sweep data \u2014 run <code>python3 execution/session_sweep.py run</code>, then reload", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:23:59", "module": "pulse_dashboard.py", "function": "lane_state", "line": 366, "why": "lane reconciler receipt unreadable \u2014 run <code>python3 execution/lane_reconciler.py</code>", "exc": "FileNotFoundError: [Errno 2] No such file or directory: '/Users/farricecain/Google Antigravity/.agent/health/lane-reconciler.json'", "session": ""}
+{"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 105, "why": "selftest str", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 106, "why": "selftest tuple", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 107, "why": "selftest bool", "exc": null, "session": ""}
+{"ts": "2026-08-08T18:24:19", "module": "degrade.py", "function": "self_test", "line": 112, "why": "receipt unreadable", "exc": null, "session": ""}

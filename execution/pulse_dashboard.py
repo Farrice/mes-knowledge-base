@@ -24,6 +24,9 @@ import time
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+sys.path.insert(0, os.path.join(ROOT, "execution"))
+from degrade import degraded, degraded_html  # noqa: E402
 OUT = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
 
 
@@ -353,8 +356,15 @@ def lane_state():
     try:
         r = json.load(open(os.path.join(ROOT, ".agent", "health", "lane-reconciler.json"),
                            encoding="utf-8"))
-    except (OSError, ValueError):
-        return "", 0
+    except (OSError, ValueError) as e:
+        # Was `return "", 0` — a missing receipt rendered a GREEN "0 commits
+        # stranded" and the whole lanes section vanished. This function exists
+        # BECAUSE 178 files sat unseen for 19 hours behind exactly that blindness
+        # (see docstring above). Its own error handler reintroduced it, in green,
+        # three hours after it was written. None is the sentinel for unknown;
+        # the tile renders it as warn, never as zero.
+        return degraded_html("lane reconciler receipt unreadable — run "
+                             "<code>python3 execution/lane_reconciler.py</code>", e), None
 
     rows, stranded = [], r.get("stranded_commits", 0)
     for lane in r.get("results", []):
@@ -415,11 +425,20 @@ def main():
         _fails = sum(1 for f in _files if ra.audit_file(f))
         corpus = f"{len(_files) - _fails}/{len(_files)}"
         corpus_ok = _fails == 0
-    except Exception:
-        corpus, corpus_ok = "?", True
+    except Exception as _e:
+        # Was `corpus_ok = True` — an import error, a syntax error in
+        # renaissance_audit.py, ANY exception rendered a GREEN "?" under
+        # "v2 corpus pass". Unknown is not pass. None routes to the warn colour
+        # below so a broken audit looks broken (2026-08-08).
+        corpus, corpus_ok = "?", degraded(None, "v2 corpus audit unavailable", _e)
 
     threads_html = thread_cards()
     lane_html, lane_stranded = lane_state()
+    # None means UNKNOWN, not zero. Unknown renders warn; only a real measured
+    # zero renders green. Conflating them is the whole bug class (2026-08-08).
+    lane_cls = "warn" if lane_stranded is None else ("crit" if lane_stranded else "ok")
+    lane_txt = "?" if lane_stranded is None else lane_stranded
+    corpus_cls = "warn" if corpus_ok is None else ("ok" if corpus_ok else "crit")
 
     lock = None
     try:
@@ -609,8 +628,8 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
   <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
   <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
   <div class="tile"><div class="n">{len(taste)}</div><div class="l">taste verdicts banked</div></div>
-  <div class="tile"><div class="n" style="color:var(--{'ok' if corpus_ok else 'crit'})">{corpus}</div><div class="l">v2 corpus pass</div></div>
-  <div class="tile"><div class="n" style="color:var(--{'crit' if lane_stranded else 'ok'})">{lane_stranded}</div><div class="l">commits stranded in lanes</div></div>
+  <div class="tile"><div class="n" style="color:var(--{corpus_cls})">{corpus}</div><div class="l">v2 corpus pass</div></div>
+  <div class="tile"><div class="n" style="color:var(--{lane_cls})">{lane_txt}</div><div class="l">commits stranded in lanes</div></div>
 </div>
 <section><h2 class="tog">{esc(needs_label)}</h2><div class="body">{cards(needs_you, show_actions=True)}</div></section>
 {fresh_intel()}

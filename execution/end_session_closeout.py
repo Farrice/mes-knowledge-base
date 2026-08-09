@@ -1035,7 +1035,17 @@ def main() -> int:
             handoff_path = Path(args.handoff).expanduser() if args.handoff else None
             return run(args.slug, args.degraded, args.dry_run, handoff_path, args.git_policy)
         except Exception as e:
-            print(f"CLOSEOUT SPINE COMPLETE (0 ok, 0 skip, 1 fail) — fatal: {type(e).__name__}: {e}")
+            # Was: "CLOSEOUT SPINE COMPLETE (0 ok, 0 skip, 1 fail) — fatal: ..."
+            # It LED WITH THE WORD COMPLETE on a fatal crash, so anything
+            # grepping for COMPLETE (or checking $?) recorded a success, and the
+            # last line a human sees at end-of-session said the spine finished.
+            # exit 0 is kept deliberately — launchd and the SessionEnd hook must
+            # not be broken by a closeout failure (Compass Doctrine) — but the
+            # MESSAGE now tells the truth. Non-blocking is not the same as quiet.
+            print(f"CLOSEOUT SPINE FAILED — nothing completed. "
+                  f"fatal: {type(e).__name__}: {e}", file=sys.stderr)
+            print("CLOSEOUT SPINE FAILED (0 ok, 0 skip, 1 fail) — "
+                  "rerun: python3 execution/end_session_closeout.py run")
             return 0
     return 0
 

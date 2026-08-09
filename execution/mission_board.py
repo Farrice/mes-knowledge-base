@@ -37,6 +37,9 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from degrade import degraded, degraded_html  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SWEEP = ROOT / ".agent" / "sweep" / "latest.json"
 OUT = ROOT / ".agent" / "missions" / "mission-control.html"
@@ -53,8 +56,10 @@ def esc(s):
 def load_bundle():
     try:
         return json.loads(SWEEP.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        return {}
+    except (OSError, ValueError) as e:
+        # Was a silent {}. Combined with the fall-through in build() (fixed
+        # 2026-08-08) a missing sweep rendered "everything live is moving".
+        return degraded({}, f"sweep bundle unreadable at {SWEEP}", e)
 
 
 def _dt(s):
@@ -192,10 +197,14 @@ def card(slug, t, needs_reason=""):
 def build():
     b = load_bundle()
     threads = b.get("threads") or {}
-    if not threads:
-        body = ('<section><h2>no sweep yet</h2><p class="empty">Run '
-                '<code>python3 execution/session_sweep.py run</code> then reload.</p></section>')
-        needs_html = live_html = body
+    # STICKY EMPTY STATE (2026-08-08). This block used to assign needs_html and
+    # live_html and then FALL THROUGH with no return — lines below overwrote
+    # both unconditionally, so the honest "no sweep yet" message was unreachable
+    # code and a missing bundle rendered "nothing blocked, nothing stale —
+    # everything live is moving." The board asserted the system was healthy
+    # precisely when it had no idea. Highest-blast-radius silent fallback found
+    # in the audit. The flag is checked again after those assignments.
+    no_sweep = not threads
     wdays = (b.get("window") or {}).get("days", 14)
     # A thread with no recorded activity sorts as MOST neglected, not most
     # recent — "" used to win a reverse string sort and float to the top.
@@ -222,6 +231,13 @@ def build():
     live_html = ("".join(card(s, t) for s, t in live) if live
                  else '<p class="empty">no live threads in the window.</p>')
 
+    # The flag set above wins over both assignments. "We have no data" and
+    # "we looked and everything is fine" must never render the same.
+    if no_sweep:
+        needs_html = live_html = degraded_html(
+            "no sweep data — run <code>python3 execution/session_sweep.py run</code>, then reload")
+        needs_label = "⚑ needs you — NO SWEEP DATA"
+
     shipped = b.get("also_shipped") or []
     shipped_html = ("".join(
         f'<div class="mcard"><div class="row1"><h3>{esc(s.get("output") or "")[:140]}</h3>'
@@ -247,9 +263,11 @@ def build():
     win = b.get("window") or {}
     now = datetime.now().strftime("%a %b %d · %H:%M")
     gen = (b.get("generated") or "")[:16].replace("T", " ")
-    degraded = b.get("degraded") or []
+    # renamed from `degraded` 2026-08-08: it shadowed the imported degraded()
+    # for the whole function body, which would silently break any future use.
+    deg_list = b.get("degraded") or []
     deg_html = (f'<div class="sprint"><span class="sprint-tag">degraded</span>'
-                f'<span>{esc("; ".join(degraded))}</span></div>') if degraded else ""
+                f'<span>{esc("; ".join(deg_list))}</span></div>') if deg_list else ""
 
     room_uri = (ROOT / BRIEFS_REL / "index.html").as_uri()
     pulse_uri = (ROOT / ".agent" / "pulse" / "pulse-board.html").as_uri()
