@@ -101,3 +101,39 @@ imagination window) and cut anything a non-insider could guess without having li
 3. **The FAQ accordion holding the company's best certification under a question about children's
    safety** — the founder's own thumb hovering over the exact proof that would change a buyer's
    mind, one tap away, still not tapped.
+
+---
+
+## Desire lane — social-listened (2026-08-10)
+
+**Method:** WebSearch only (free tool, no Apify/paid scraping) — hunting first-person, arrival-tense
+founder language for this segment specifically (Hilma/Create Wellness/Puori class). This yielded the
+thinnest results of the three segments in this pass. Queries tried: clinical-study/press-validation
+arrival moments, "when we got our [cert]" pride quotes, retail-buyer "said yes" moments, NYT/press
+feature reactions — roughly a dozen targeted searches, most returning generic third-party-testing
+explainer content rather than founder voice. This confirms rather than closes the gap this codex's
+own scene-inventory.md already flagged: *"Desire-state language is structurally thinner than
+pain-state in every source read... no first-person founder quote in arrival tense."*
+
+| Verbatim | Speaker context | Scene | Anchor | Text zone | Charge |
+|---|---|---|---|---|---|
+| *"We're gratified to see the results of our studies because they align with the feedback we've been getting from early customers."* [VERIFIED-WEB: forbes.com/sites/monicamendal/2020/10/06/how-this-new-natural-remedy-startup-is-using-clinical-studies-to-raise-the-bar-for-the-wellness-industry] | Nina Mullen, co-founder, Hilma, on the brand's first clinical-study results landing | A study-results PDF sits open on a laptop at the kitchen counter, one topline number highlighted, a customer review pulled up in the browser tab beside it echoing the same claim in plain language | The clinical-study results document, paired with a sourced early-customer review — same object class as this codex's own P4 pain row (the Cher review), now shown resolved | `upper-third` | relief — **quiet, not triumphant.** Flagged weak: this is the single closest thing to a founder-voiced arrival quote found for this segment, but its register is press-release-adjacent ("gratified," "align with feedback"), not the raw "we finally proved it" language the brief asked for. Included rather than discarded, with the weakness stated plainly. |
+
+**What this grounds:** partially informs **D1** (currently `[PROPOSED — needs Farrice verdict]`,
+the buried-claim-moved-to-hero scene) by supplying the one real Hilma quote tying study data to
+customer belief — but it does **not** supply the arrival-tense "we finally proved it" language D1's
+flag is asking for, so D1 should stay flagged rather than being resolved by this row. No verbatim
+found to ground D2 or D4; both remain open gaps.
+
+## Calibrated ranges (for on-screen numbers)
+
+Encountered incidentally while listening; not previously in this codex or its sibling inventory.
+
+- **Momentous**: **$32M** funding round from Humble Growth; revenue **tripled 2022→2023**,
+  projected to **double again** in 2024; **~200 pro/college sports team partnerships** — a larger,
+  differently-sourced figure than the "all 32 NFL teams" line already banked in the
+  performance-growth-lead codex, worth reconciling before either is used as an on-screen number.
+  [VERIFIED-WEB: athletechnews.com/momentous-32m-humble-growth-investment]
+- **Create Wellness** (creatine gummy, clinically-adjacent to this segment's register): $0 →
+  **$4.5M revenue in its first year** (2023), profitably.
+  [VERIFIED-WEB: triplewhale.com/case-studies/create]

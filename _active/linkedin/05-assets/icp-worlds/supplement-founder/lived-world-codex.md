@@ -67,3 +67,38 @@ What survived shares one property: each artifact is legible only if you've done 
 
 - No sourced founder-voiced reaction to opening a Warning Letter or a retest flag exists in local sources (scene-inventory's own Gaps note). Rows #2 and #11 stay anchored to the document mechanism, never to an invented felt reaction.
 - Row #17 (3PL "Damages" folder) is the one artifact in this table inferred from the ICP's operational load rather than a direct verbatim — flagged in its Source column. Before shipping any image built on it, either find a verbatim anchor or downgrade its confidence in the prompt.
+
+---
+
+## Desire lane — social-listened (2026-08-10)
+
+**Method:** WebSearch only (free tool, no Apify/paid scraping) — hunting first-person, arrival-tense
+DTC supplement/performance founder language ("the day it finally worked" register), per Farrice's
+instruction to listen, not invent. ~30 queries run across all three segments in this pass; below is
+this segment's yield — 3 keepers out of many dry searches, consistent with the sibling
+`scene-inventory.md` Gaps note ("no founder-voiced reaction... exists in local sources").
+
+| Verbatim | Speaker context | Scene | Anchor | Text zone | Charge |
+|---|---|---|---|---|---|
+| *"When we saw repeat purchase behaviour in our Warrior Creatine range in particular, that's when we realised this wasn't just a product business, it was becoming a belief-driven brand."* [LIKELY-WEB: gbnews.com/money/business-success-story-warrior-manufacturing — quote surfaced via indexed search snippet; the live page sits behind a tollbit paywall and could not be fetched directly for verbatim confirmation, so this is LIKELY not VERIFIED] | Kieran Fisher, founder, Warrior (UK sports-nutrition/creatine brand, GB News profile, 2026) | A laptop open on the kitchen counter shows a subscription-cohort dashboard, the repeat-purchase-rate line freshly recalculated and holding above the reorder benchmark, one hand resting flat on the counter instead of reaching for the mouse | The repeat-purchase-rate panel on a subscription/cohort analytics dashboard (Recharge/Klaviyo-class report) — a real, researchable SaaS surface | `lower-band` | vindication |
+| *"For me, Cymbiotika has always been about more than supplements — it's about empowerment. As a woman in business, partnering with a national retailer like Target represents not only growth for our brand but also progress for female entrepreneurs everywhere."* [VERIFIED-WEB: markets.financialcontent.com/theantlersamerican/article/accwirecq-2025-10-29-durana-elmi-female-founder-coo-and-cxo-of-cymbiotika-secures-landmark-partnership-with-target] | Durana Elmi, founder, Cymbiotika, on the brand's first national-retailer (Target) launch | A retailer vendor-portal screen glows on the second monitor, the buyer-account status switched from Pending to Active for the first time, the cursor left parked on the confirmation line instead of clicking away | A retailer vendor onboarding portal — the real B2B account-status surface a DTC brand checks once a national account clears diligence | `upper-third` | pride |
+| *"We remember this moment so clearly. We were at my family's lake house at Smith Mountain Lake. At 4:59 PM, as we were enjoying some cold ones with the fam, that email came through."* / *"There was no heads up. But hey we were jumping for joy. It was happening!"* [VERIFIED-WEB: absurdsnacks.com/blogs/blog/how-we-sold-into-our-first-whole-foods-market-store] | Grace & Eli, co-founders, Absurd Snacks — on the email accepting their first Whole Foods Market store. **Cross-category flag: functional-snacks DTC, not supplement** — included because it is the single most vivid, specific, genuinely arrival-tense first-person quote found across the entire listening pass, and the retail-acceptance mechanism (an unscheduled email from a national buying team) is identical to what a supplement founder lives. Farrice's call whether the cross-category source disqualifies it. | A phone held at a kitchen counter shows an inbox open to an unread subject line from a national retailer's buying team, the other hand frozen mid-reach for a glass instead of finishing the motion | The retail-acceptance email itself — a real, researchable object (buyer-team subject line, PO attachment) | `left-column` | relief / vindication |
+
+**What this grounds:** none of the three scenes above map onto the existing D1–D4 rows in the sibling
+`scene-inventory.md` (D1 = ad-angle bottleneck/Meta dashboard, D2 = deliverable turnaround speed,
+D3 = Data Mirage resolving, D4 = COA lab finally named). They surface a desire register the current
+inventory has no slot for — **repeat-purchase-cohort recognition** and **retail-PO arrival** — rather
+than resolving an existing gap. Flagging as new material for Farrice's verdict, not forcing it into
+a row it doesn't fit.
+
+## Calibrated ranges (for on-screen numbers)
+
+Encountered incidentally while listening; not previously in this codex or its sibling inventory.
+
+- **Obvi** (collagen supplement DTC brand): $178K revenue (2019, yr1) → $1.2M (2020, yr2) → $40M
+  (2024); started Meta ads at a **$100** budget; tests a minimum of **30 new ad creatives/week**;
+  seeds **~100 influencers/week**. [VERIFIED-WEB: kynship.co/blog/dtc-marketing-success-stories]
+- **Create Wellness** (creatine gummy brand): $0 → **$4.5M revenue in its first year** (2023),
+  profitably. [VERIFIED-WEB: triplewhale.com/case-studies/create]
+- **Warrior**: exports to **30+ countries** [LIKELY-WEB: gbnews.com — same paywall caveat as above,
+  unverified by direct fetch].

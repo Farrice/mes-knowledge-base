@@ -89,3 +89,41 @@ that a non-practitioner would not know to look for or would not read as signific
 3. **#1 — the "Creative Fatigue" label that only fires after the money's already gone.** The
    purest "he gets me" proof: it requires zero explanation to someone who's lived it, and reads as
    inside baseball to everyone else — which is the whole point of a ZOOM-layer detail.
+
+---
+
+## Desire lane — social-listened (2026-08-10)
+
+**Method:** WebSearch only (free tool, no Apify/paid scraping) — hunting first-person, arrival-tense
+growth-lead/media-buyer language for this segment. **Result: zero keepers.** Roughly a dozen
+targeted queries were run — "the moment creative worked" against named growth-lead figures
+(Nik Sharma, Marketing Operators hosts Cody Plofker/Connor Rolain/Connor MacDonald), Reddit
+r/FacebookAds and r/PPC for "frequency finally dropped" relief posts, LinkedIn-style "finally
+cracked the angle" searches, and CAC/ROAS breakeven arrival stories — and none surfaced a genuine
+first-person, specific, arrival-tense quote from an operator in this role. Every hit was either a
+job posting, an interview-prep guide, an agency's generic case-study copy, or a hypothetical STAR-
+method answer written for job interviews rather than a real lived moment.
+
+This is a real, documented gap, not a search-effort shortfall dressed up as one — it confirms this
+codex's own scene-inventory.md Gaps note verbatim: *"No first-person 'arrival' quote for any desire
+state... do not invent one to fill this."* No row added; D1–D4 in the sibling inventory stay exactly
+as flagged (D1 ungrounded but plausible, D3/D4 flagged as non-buyer-verbatim). Recommend either a
+different listening surface (Marketing Operators podcast transcripts directly, if accessible; a
+Slack/Discord community for DTC media buyers; or a direct outreach ask) if this lane needs filling
+before generation, rather than further free-web search passes — the signal is genuinely thin here,
+not under-searched.
+
+## Calibrated ranges (for on-screen numbers)
+
+Encountered incidentally while listening (from adjacent supplement-brand sources, not this
+segment's own founders, but directly relevant to a media buyer's/growth lead's on-screen world):
+
+- **Obvi** ad-testing volume: tests a minimum of **30 new ad creatives/week**, seeds **~100
+  influencers/week** — a higher, differently-sourced comparison point than this codex's own row #17
+  (Claude-driven workflows generating "15–20 compliance-checked ad variations per run"); worth
+  reconciling which figure a given scene's number should reflect.
+  [VERIFIED-WEB: kynship.co/blog/dtc-marketing-success-stories]
+- **Momentous**: $32M funding round; revenue tripled 2022→2023, projected to double again in 2024;
+  ~200 pro/college sports team partnerships — relevant to this ICP's world of screening candidates
+  and partners against real growth numbers (row #11, the CM3 screening-call artifact).
+  [VERIFIED-WEB: athletechnews.com/momentous-32m-humble-growth-investment]
