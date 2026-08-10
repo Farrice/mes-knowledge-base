@@ -404,6 +404,30 @@ LEXICON = {
         "high angle looking down, subject small in frame",
         "layered fore/mid/background with clear depth separation",
     ],
+    # --- Added 2026-08-10 after Farrice's "texture looks AI-generated / looks lazy" verdict.
+    # The first sweep drew style but never CAPTURE, ATMOSPHERE or IMPERFECTION — which is
+    # Dave Clark's causes #5, #4 and the physics half of #7. On Midjourney these come free from
+    # the model's aesthetic prior; on this stack they must be authored or every frame renders
+    # digitally immaculate and therefore never photographed.
+    "capture": [
+        "Hasselblad 500CM, 80mm, f/8, Kodak Portra 400, tripod, mirror-up",
+        "Sinar 4x5 view camera, 210mm, f/22, sheet film, front tilt for a raked focal plane",
+        "Leica M6, 35mm Summicron, f/2, Tri-X pushed to 1600, handheld",
+        "Pentax 67, 105mm, f/4, Ektachrome, tripod, slight camera shake at 1/15s",
+        "Canon F-1, 100mm macro, f/11, Ektar 100, focus stacked across two frames",
+    ],
+    "atmosphere": [
+        "dust motes suspended in the light beam, visible only where it rakes",
+        "a faint haze of condensation in the air near the cold surface",
+        "steam drifting through the mid-ground, thinning toward the top of frame",
+        "airborne particulate catching the source, mid-ground only, never clean air",
+    ],
+    "imperfection": [
+        "a partial fingerprint on the surface edge, dust settled unevenly, one element slightly out of square",
+        "paper cockled and buckled where it absorbed moisture, ink feathering along the wet edge",
+        "a hairline scratch across the bench, an old ring stain, a staple driven in crooked",
+        "lens flare from the raking source, a single hair on the film plane, uneven vignetting",
+    ],
 }
 
 
@@ -433,10 +457,15 @@ def cmd_probe(args):
     print(f"Fixed probe subject (do NOT change mid-sweep): **{subject}**\n")
     print("Run every candidate against this one subject. Judge the SET, not keepers. "
           "Winners get a card; everything else is deleted.\n")
+    print("RULE: generate at least 4 per candidate and SELECT. Dave Clark's cause #1 of flat "
+          "is 'one generation deep' — a selection problem, not a prompting one. One image per "
+          "concept is not a sweep, it is a first take.\n")
     for i, d in enumerate(draws, 1):
         line = (f"{d['process']}, {d['era']} register. {subject}. "
                 f"{d['composition'].capitalize()}. Light: {d['light']}. "
-                f"Palette: {d['palette_logic']}. Surfaces: {d['surface']}.")
+                f"Palette: {d['palette_logic']}. Surfaces: {d['surface']}. "
+                f"Shot on {d['capture']}. Air: {d['atmosphere']}. "
+                f"Wear: {d['imperfection']}.")
         print(f"## Candidate {i:02d}\n{line}\n")
     return 0
 

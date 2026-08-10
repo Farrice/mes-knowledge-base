@@ -125,12 +125,51 @@ python3 execution/style_vault.py index
 - Audition table: every scene × holds/drifts/breaks
 - A `card.md` with `verified` set, or an explicit "discarded, here's why"
 
+## THE REALISM GATE (added 2026-08-10 — Farrice verdict: "the texture looks AI-generated… lazy")
+
+The first run of this workflow produced frames with real tension that still read as AI. The
+tension was not the problem. **Four of Dave Clark's eight causes of flat were live and unchecked**
+(`skills/dave-clark/genius.md`). Run these before any generation, and again on the output:
+
+| Clark cause | What it looked like here | The fix, in the prompt |
+|---|---|---|
+| **#1 One generation deep** — *a selection problem, not a prompting one* | One image per concept, shipped | **Generate ≥4 per concept and select.** `imageCount: 4` in one call. One image is a first take, not a sweep. |
+| **#5 No capture layer** — digitally immaculate, therefore never photographed | "editorial photograph… fine grain" | Name the **camera, lens, aperture, film/format, and support**. "Fine grain" is an adjective; "Portra 400 on a 500CM at f/8" is a cause. |
+| **#4 Clean air** — planes collapse into a poster | Nothing between camera and subject | Put something **physically** in the mid-ground: dust in the beam, condensation haze, steam. |
+| **#7 Adjective prompting** | "editorial photograph" is a genre wish | Name the reference **plus the mechanism underneath it**. |
+
+**And the fifth hole, which is ours and not Clark's — PROPS NEED PROVENANCE.**
+
+The failure Farrice caught: *"that piece of paper looks so fake that it looks lazy."* The prompt
+had asked for "a dense grid of numerals on matte paper" — a *description of an abstraction*, so
+the model rendered an abstraction. A real photographer does not shoot "a document." They shoot a
+**specific object with a history**: a Certificate of Analysis with a letterhead, a lot number, a
+ballpoint signature, two crooked staples, and fold lines from the envelope it arrived in.
+
+> **Rule:** every object in frame must be nameable as a thing that exists in the buyer's actual
+> world, with at least three marks of its own history. If you cannot say who made it, when, and
+> what happened to it since, the model will render the idea of it — and the idea of a thing is
+> what AI slop is made of.
+
+**Sixth: obey physics or the frame dies.** Wet paper *cockles* — it buckles, lifts at the edge,
+and the ink feathers into the fibre. The first attempt showed a pristine flat sheet with a stain
+painted on it, which is physically impossible and is precisely what "looks fake" means. Most
+"looks AI" is a **physics failure, not an aesthetic one** (`fashion-coupids`: *could a crew have
+shot this?*).
+
+**Seventh: a real black point.** Clark's register — *"whites are really white and blacks are
+really black."* The first run was mid-grey end to end, which reads as render.
+
 ## Quality gate
 
 1. Was one variable responsible for each difference, or did the probe move mid-sweep?
 2. Was the whole set generated before any of it was judged?
-3. Did the audition cover **every** scene, including the ones you expected to fail?
-4. Is the tier claim supported by the null/probe delta, or asserted from how the prompt reads?
-5. Run St. Pierre's closer on the winner: **would this have looked the same without me?**
+3. **Were at least 4 variants generated per concept, and did selection actually happen?**
+4. **Is the capture layer named — camera, lens, aperture, stock?**
+5. **Does every prop have a provenance and three marks of history?**
+6. **Could a crew have shot this? Does every material behave the way that material behaves?**
+7. Did the audition cover **every** scene, including the ones you expected to fail?
+8. Is the tier claim supported by the null/probe delta, or asserted from how the prompt reads?
+9. Run St. Pierre's closer on the winner: **would this have looked the same without me?**
 
 **Next:** `03-bank-and-batch.md`.
