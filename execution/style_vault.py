@@ -359,17 +359,10 @@ def cmd_permute(args):
 # and never an artist name. Both bans are St. Pierre's, and both exist because undecomposable
 # terms cannot be swept, explained, or banked.
 LEXICON = {
-    "process": [
-        "medium-format film photograph", "35mm colour negative photograph",
-        "black-and-white push-processed film photograph", "large-format view-camera photograph",
-        "risograph print in two spot colours", "silkscreen print with visible registration offset",
-        "letterpress impression on cotton stock", "gouache painting on textured paper",
-        "watercolour wash with dry-brush edges", "ink-and-wash brush drawing",
-        "cut-paper collage photographed flat", "technical pen isometric drawing",
-        "airbrushed matte painting", "linocut relief print", "cyanotype contact print",
-        "photogravure plate", "flat vector illustration with no gradients",
-        "clay-render 3d with soft shadows", "editorial photo-illustration composite",
-    ],
+    # NOTE: process is drawn from PROCESS (below), which carries a FAMILY. The family gates which
+    # capture / atmosphere / imperfection values are legal. Kept here as a flat list only for any
+    # caller that wants the names; cmd_probe uses PROCESS.
+    "process": [],
     "era": [
         "1930s industrial poster", "1950s modernist advertising", "1960s Swiss typographic",
         "1970s editorial magazine", "1980s technical manual", "1990s independent zine",
@@ -391,8 +384,11 @@ LEXICON = {
         "bounced fill from a white surface below",
         "single source through a diffusion scrim, wraparound falloff",
     ],
+    # "visible film grain and dust" was removed 2026-08-10 — it is a CAPTURE property, not a
+    # surface, and drawing it freely put film grain on ink-and-wash drawings. It now lives in
+    # CAPTURE/IMPERFECTION under the camera family only.
     "surface": [
-        "visible film grain and dust", "paper tooth and fibre", "brushed metal and glass",
+        "paper tooth and fibre", "brushed metal and glass",
         "raw concrete with formwork marks", "linen and unfinished wood",
         "matte plastic and powder-coat", "worn leather and brass", "ceramic glaze and stone",
     ],
@@ -409,24 +405,100 @@ LEXICON = {
     # Dave Clark's causes #5, #4 and the physics half of #7. On Midjourney these come free from
     # the model's aesthetic prior; on this stack they must be authored or every frame renders
     # digitally immaculate and therefore never photographed.
-    "capture": [
+}
+
+# --- Coherence gate (added 2026-08-10). The first version of this lexicon drew every slot
+# independently and produced physically impossible candidates — "gouache painting on textured
+# paper… shot on Hasselblad 500CM, Portra 400." A gouache painting has no camera; a cyanotype
+# contact print has no lens; neither has dust hanging in a light beam. Process now carries a
+# FAMILY, and family gates which capture / atmosphere / imperfection values are legal.
+
+PROCESS = {
+    # camera — a lens and a sensor/film were involved
+    "medium-format film photograph": "camera",
+    "35mm colour negative photograph": "camera",
+    "black-and-white push-processed film photograph": "camera",
+    "large-format view-camera photograph": "camera",
+    "editorial photo-illustration composite": "camera",
+    "cut-paper collage photographed flat": "camera",
+    # press — a plate, a screen or a contact frame; no camera optics
+    "risograph print in two spot colours": "press",
+    "silkscreen print with visible registration offset": "press",
+    "letterpress impression on cotton stock": "press",
+    "linocut relief print": "press",
+    "cyanotype contact print": "press",
+    "photogravure plate": "press",
+    # hand — pigment applied by a person
+    "gouache painting on textured paper": "hand",
+    "watercolour wash with dry-brush edges": "hand",
+    "ink-and-wash brush drawing": "hand",
+    "technical pen isometric drawing": "hand",
+    "airbrushed matte painting": "hand",
+    # synthetic — no physical original at all
+    "flat vector illustration with no gradients": "synthetic",
+    "clay-render 3d with soft shadows": "synthetic",
+}
+
+CAPTURE = {
+    "camera": [
         "Hasselblad 500CM, 80mm, f/8, Kodak Portra 400, tripod, mirror-up",
         "Sinar 4x5 view camera, 210mm, f/22, sheet film, front tilt for a raked focal plane",
         "Leica M6, 35mm Summicron, f/2, Tri-X pushed to 1600, handheld",
         "Pentax 67, 105mm, f/4, Ektachrome, tripod, slight camera shake at 1/15s",
         "Canon F-1, 100mm macro, f/11, Ektar 100, focus stacked across two frames",
     ],
-    "atmosphere": [
+    "press": [
+        "hand-pulled on a flatbed press, slight registration drift between passes",
+        "printed on damp cotton rag, visible plate impression at the edges",
+        "contact-exposed under glass, uneven coating brush marks at the borders",
+        "two-pass press run, ink trapping and a faint moire in the overlap",
+    ],
+    "hand": [
+        "painted on 300gsm cold-press paper, visible tooth holding the pigment",
+        "brushed on hot-press board, hard edges where the wash dried against tape",
+        "drawn on vellum with a technical pen, faint pencil underdrawing showing through",
+        "worked on primed panel, brush direction visible in the raking light",
+    ],
+    "synthetic": [
+        "vector output at native resolution, no raster artefacts",
+        "single-pass render, soft shadow catcher, no post grade",
+    ],
+}
+
+# Atmosphere is a CAMERA-ONLY property. Dust hanging in a beam is something a lens photographs;
+# it is not something a letterpress or a gouache painting has.
+ATMOSPHERE = {
+    "camera": [
         "dust motes suspended in the light beam, visible only where it rakes",
         "a faint haze of condensation in the air near the cold surface",
         "steam drifting through the mid-ground, thinning toward the top of frame",
         "airborne particulate catching the source, mid-ground only, never clean air",
     ],
-    "imperfection": [
+    "press": ["none — a flat print has no air in it"],
+    "hand": ["none — a painting has no air in it"],
+    "synthetic": ["none"],
+}
+
+IMPERFECTION = {
+    "camera": [
         "a partial fingerprint on the surface edge, dust settled unevenly, one element slightly out of square",
-        "paper cockled and buckled where it absorbed moisture, ink feathering along the wet edge",
         "a hairline scratch across the bench, an old ring stain, a staple driven in crooked",
         "lens flare from the raking source, a single hair on the film plane, uneven vignetting",
+        "focus falling off a fraction early, luminance-dependent grain heavier in the shadows",
+    ],
+    "press": [
+        "ink starved at one edge, a fingerprint in the margin, the sheet trimmed slightly off square",
+        "registration off by a hair so the second colour shows a sliver of white",
+        "plate tone unevenly wiped, a scratch in the emulsion carried through to the print",
+    ],
+    "hand": [
+        "a pencil line left visible under the paint, one edge overshot and not corrected",
+        "the wash pooling and drying darker at the lower edge, paper cockled where it was wettest",
+        "brush hairs left in the pigment, a thumbprint in the margin",
+    ],
+    "synthetic": [
+        "deliberate asymmetry in an otherwise exact grid",
+        "one element left un-snapped to the grid",
     ],
 }
 
@@ -437,14 +509,22 @@ def cmd_probe(args):
     off exactly which decisions produced it and write them onto a card."""
     rng = random.Random(args.seed)
     n = args.n
-    keys = list(LEXICON)
+    free_keys = [k for k in LEXICON if k != "process"]
     draws = []
     seen = set()
     attempts = 0
     while len(draws) < n and attempts < n * 50:
         attempts += 1
-        pick = {k: rng.choice(LEXICON[k]) for k in keys}
-        sig = tuple(pick.values())
+        proc = rng.choice(list(PROCESS))
+        fam = PROCESS[proc]
+        pick = {k: rng.choice(LEXICON[k]) for k in free_keys}
+        pick["process"] = proc
+        pick["family"] = fam
+        # Family gate — capture/atmosphere/imperfection must be legal for this process.
+        pick["capture"] = rng.choice(CAPTURE[fam])
+        pick["atmosphere"] = rng.choice(ATMOSPHERE[fam])
+        pick["imperfection"] = rng.choice(IMPERFECTION[fam])
+        sig = tuple(sorted(pick.items()))
         if sig in seen:
             continue
         seen.add(sig)
@@ -464,9 +544,10 @@ def cmd_probe(args):
         line = (f"{d['process']}, {d['era']} register. {subject}. "
                 f"{d['composition'].capitalize()}. Light: {d['light']}. "
                 f"Palette: {d['palette_logic']}. Surfaces: {d['surface']}. "
-                f"Shot on {d['capture']}. Air: {d['atmosphere']}. "
-                f"Wear: {d['imperfection']}.")
-        print(f"## Candidate {i:02d}\n{line}\n")
+                f"Made: {d['capture']}. Wear: {d['imperfection']}.")
+        if d["family"] == "camera":
+            line += f" Air: {d['atmosphere']}."
+        print(f"## Candidate {i:02d}  [{d['family']}]\n{line}\n")
     return 0
 
 
