@@ -61,6 +61,26 @@ If the frame contains any document, label, chart or instrument:
 - Pull the SKU's **real published values** (label facts, published test results) for the cells.
 - **Log the specimen source URL** in the sweep log. No named specimen = gate 9a fails.
 
+## Step 2b — THE SHOT LADDER (added 2026-08-10 — the heartstring layer)
+
+Every banked world produces at three distances (Clark's coverage, applied to stills):
+
+| Rung | What fills the frame | Job |
+|---|---|---|
+| **Establishing** | The whole room/world | "This is my world" — orientation, banked first |
+| **Working mid** | One element in its context | "That's my Tuesday" — the scene inventory's rows |
+| **MACRO INSERT** | ONE insider artifact, frame-filling, shallow DOF | **"He gets me"** — the recognition gut-punch |
+
+The macro insert draws from the segment's **Lived-World Codex**
+(`_active/linkedin/05-assets/icp-worlds/<segment>/lived-world-codex.md`) — a researched
+inventory of insider artifacts, each carrying an emotional charge and a macro-shot spec. Select
+by matching the POST's claim to the artifact's charge (dread post → dread artifact).
+
+**The recognition test governs the rung:** *would an outsider think to include this?* If yes,
+it is decoration at any craft level — cut it. Recognition lives in what only the insider knows:
+not the coffee, the dried shaker ring; not the spreadsheet, the tab named after the problem.
+An establishing shot orients; only the insider detail makes the buyer feel SEEN.
+
 ## Step 3 — Build the prompt
 
 Start from the card's `prompt.md` skeleton (e.g.

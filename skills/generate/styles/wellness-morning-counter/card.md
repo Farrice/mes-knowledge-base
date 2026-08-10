@@ -16,7 +16,7 @@ era: "Contemporary, this morning."
 refuses: "Studio cleanliness. Noir. A second light source. Faces. Screen text left to the model's invention."
 conditions: "Needs the claim/proof rendered where it really lives (the buried FAQ line, the unscanned QR) and at least three marks of real morning life (crumbs, steam, condensation)."
 anti_conditions: "Not for indictment/forensic arguments (evidential-still-life) or night-grind states (founders-desk-nocturne). This card is recognition-warm; it cannot accuse."
-references: [reference-1.png, reference-2.png]
+references: [reference-1.png, reference-2.png, reference-3.png]
 provenance: "Born from the felt-sense correction 2026-08-10 (kitchen scene had been rendered as lab noir). World from wellness-founder inventory P1. 4 variants, zoom-verified; lead n-well-01 (ref-1), alternate n-well-03 (ref-2); one variant killed for a category-violating background document (THC profile under a gummies FAQ — 9b)."
 created: 2026-08-10
 verified: 2026-08-10
@@ -26,6 +26,13 @@ verified: 2026-08-10
 
 **The card supplies craft constants; the SCENE supplies the world.** This card is the morning-
 kitchen world. Scenes that don't truly happen at a breakfast counter don't come here.
+
+## Shot ladder (workflow 04 § 2b)
+
+Verified at **establishing** (references 1-2). **MACRO INSERT** rung: same single window light,
+Portra 400, 100mm macro at f/2.8 — the artifact (condensation bead line, the 6pt footnote on a
+printed page, the unscanned QR) filling the frame inside the warm band, everything else soft.
+Codex: `icp-worlds/wellness-founder/lived-world-codex.md`.
 
 ## Portable string per model
 

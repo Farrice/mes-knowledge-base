@@ -16,7 +16,7 @@ era: "Contemporary, tonight."
 refuses: "Daylight. Clean desks. Styled flat-lays. A third light source. Faces. Any screen content not written as literal strings."
 conditions: "Needs the segment's REAL screen surface (PDP, facts panel + reviews, dashboard) with values from the deliverable's own copy (9/9a/9b — serving sizes are literals after the 12.5g-scoop kill), and 2-3 of the segment's true desk objects."
 anti_conditions: "Not for warm/daylight arrival states (use wellness-morning-counter or sweep fresh). Not for the forensic teardown-indictment register (evidential-still-life owns that)."
-references: [reference-1.png, reference-2.png]
+references: [reference-1.png, reference-2.png, reference-3.png]
 provenance: "Born from the felt-sense correction 2026-08-10: the evidential card colonized segment scenes; this world came FROM the scene inventories (supplement founder P2, performance lead P4). 4+4 variants, zoom-verified, leads n-supp-01 (ref-1) and n-perf-01 (ref-2)."
 created: 2026-08-10
 verified: 2026-08-10
@@ -34,6 +34,13 @@ serving sizes, both now closed by literal-string rules.
 **The card supplies craft constants; the SCENE supplies the world.** This card IS a world —
 night, two sources, lived-in desk — so it only fits scenes that truly happen there. A kitchen
 morning or a gym floor does not get relocated here (style-colonization scar, 2026-08-10).
+
+## Shot ladder (workflow 04 § 2b)
+
+Verified at **establishing** (references 1-2). **Working-mid** and **MACRO INSERT** rungs draw
+from the segment codices (`icp-worlds/<segment>/lived-world-codex.md`) — same two light sources,
+same Portra 800 register, 100mm macro at f/2.8 for inserts, the artifact filling the frame with
+its context falling soft. The recognition test governs what earns a macro.
 
 ## Portable string per model
 

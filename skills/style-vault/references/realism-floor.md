@@ -171,6 +171,27 @@ the way a copy editor reads a typo.
 This is the layer that turns "impressive-looking" into "someone who actually did the work" —
 the small detail a real analyst would never miss, because their credibility is the product.
 
+## The tenth layer — EMISSIVE SURFACES (Farrice, 2026-08-10; "looks AI again" on the dashboard macros)
+
+Screens are not paper. The macro round proved the failure class precisely: dark-mode UI macros
+read real (the RETEST email — black glass, fingerprint ghosts, restrained glow); **bright white
+UI macros read fake** — the model renders a glowing LCD as printed matte paper, and a white
+screen in a dark room that casts no light on its surroundings is a physics lie the eye catches
+instantly.
+
+Rules for any screen in frame:
+
+1. **Prefer dark-mode UI at macro distance.** Most real dashboards have one; the proven register
+   is white type on black glass. If the surface must be light, it cannot dominate a dark frame.
+2. **Name the emission physics:** the screen's glow **spilling onto** the nearest objects (bezel,
+   sticky note, thumb); backlight **bloom** where bright areas meet the dark room; a faint
+   **subpixel shimmer / moiré** in the sharpest plane; text slightly **aliased**, never
+   print-crisp.
+3. **Glass, not page:** fingerprint smudges, a specular streak, reflections of the dim room — the
+   photograph is of the GLASS with light behind it, never of the interface itself.
+4. Fallback when the surface fights you twice: put the same data on the segment's **printed**
+   artifact (operators print things) — paper physics is the solved lane.
+
 ## The order to fix in
 
 Grade path → **physics** → **capture** → look. Drift in the first three is a control failure: fix
