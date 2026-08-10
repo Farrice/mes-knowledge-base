@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 2.5466,
+  "spent_dollars": 8.442,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -801,8 +801,205 @@
       "cost": 0.0037,
       "pricing_model": "per_result",
       "pulse": true
+    },
+    {
+      "ts": "2026-08-10T12:46:30.771Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.0666,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:46:30.732Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.0818,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:46:30.716Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.0818,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:46:30.711Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.0818,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:43:28.339Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.058,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:43:28.264Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.039,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:43:28.252Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.058,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:43:28.237Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0542,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "TIMED-OUT",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:40:33.698Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.02,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "TIMED-OUT",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:40:33.692Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.058,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:40:33.689Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.058,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:37:41.508Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0314,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "TIMED-OUT",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:36:28.719Z",
+      "actor": "reddit",
+      "results": -1,
+      "cost": 0.039,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "SUCCEEDED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:35:58.611Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "FAILED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:33:07.133Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0694,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "TIMED-OUT",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:33:07.132Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "FAILED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
+    },
+    {
+      "ts": "2026-08-10T12:33:07.129Z",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "compute (actual)",
+      "cost_source": "apify_api_reconciliation",
+      "run_status": "FAILED",
+      "pulse": true,
+      "note": "2026-08-10 listening run: direct-API calls made while cmd_reddit was returning 400 on subreddit URLs; logged retroactively so spend is not off-ledger"
     }
   ],
   "pulse_budget_dollars": 5.0,
-  "pulse_spent_dollars": 0.5644
+  "pulse_spent_dollars": 1.3614,
+  "reconciliation": {
+    "date": "2026-08-10",
+    "prior_tracker_spent": 2.5466,
+    "apify_actual_cycle_spent": 8.442,
+    "under_report_factor": 3.32,
+    "today_actual": 0.797,
+    "billing_cycle": "2026-08-06T00:00:00.000Z -> 2026-09-05T23:59:59.999Z",
+    "why": "per_result cost model ($0.001/result) does not match this actor's compute billing; timed-out runs bill but recorded $0. spent_dollars now tracks the Apify API.",
+    "open_question_for_farrice": "tracker keys on calendar month; Apify bills 6th-to-5th. These can never reconcile until the tracker adopts the billing cycle."
+  }
 }

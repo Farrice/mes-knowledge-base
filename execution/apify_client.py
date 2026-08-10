@@ -213,13 +213,38 @@ def fallback_response(reason: str) -> dict:
 _PULSE_MODE_DEFAULT = False
 
 
+def _fetch_last_run_cost(actor_id: str, token: str) -> Optional[float]:
+    """Ask Apify what the most recent run of this actor actually cost.
+
+    run-sync-get-dataset-items returns dataset rows, not the run object, so the runId
+    is not in the response body. Querying the actor's newest run right afterwards is
+    the cheap way to get ground truth on spend. Returns None on any failure — callers
+    must fall back to their estimate rather than treating a lookup miss as $0.
+    """
+    try:
+        resp = requests.get(
+            f"https://api.apify.com/v2/acts/{actor_id}/runs",
+            params={"token": token, "limit": 1, "desc": "1"},
+            timeout=20,
+        )
+        resp.raise_for_status()
+        runs = resp.json().get("data", {}).get("items", [])
+        if not runs:
+            return None
+        billed = runs[0].get("usageTotalUsd")
+        return float(billed) if billed is not None else None
+    except (requests.RequestException, ValueError, KeyError, TypeError):
+        return None
+
+
 def run_actor(
     actor_key: str,
     run_input: dict,
     max_results: int,
     max_cost: float = 0.25,
     allow_expensive: bool = False,
-    pulse_mode: Optional[bool] = None
+    pulse_mode: Optional[bool] = None,
+    sync_timeout_s: Optional[int] = None
 ) -> dict:
     """
     Runs an Apify actor with budget guard.
@@ -232,6 +257,9 @@ def run_actor(
         max_cost: Per-run cost ceiling (default $0.25). Override with allow_expensive.
         allow_expensive: If True, bypass per-run ceiling (still checks monthly budget).
         pulse_mode: If True, use pulse sub-budget ($5/mo) and skip (not fail) on exhaustion.
+        sync_timeout_s: Override the actor's default sync window (seconds). Needed for
+            genuinely heavier crawls (e.g. Reddit comment expansion) that TIME-OUT at the
+            default and would otherwise return zero rows.
     """
     if actor_key not in ACTORS:
         return {
@@ -328,12 +356,15 @@ def run_actor(
     actor_id = ACTORS[actor_key]["id"].replace("/", "~")
     url = API_URL_TEMPLATE.format(actor_id=actor_id)
 
-    sync_timeout = ACTORS[actor_key].get("sync_timeout_s", 90)
+    sync_timeout = sync_timeout_s or ACTORS[actor_key].get("sync_timeout_s", 90)
+    memory_mb = ACTORS[actor_key].get("memory_mb", 1024)
+    if sync_timeout_s and sync_timeout_s > 200:
+        memory_mb = max(memory_mb, 2048)  # heavy crawls need the headroom to finish
     try:
         response = requests.post(
             url,
             params={"token": token, "timeout": sync_timeout,
-                    "memory": ACTORS[actor_key].get("memory_mb", 1024)},
+                    "memory": memory_mb},
             json=run_input,
             timeout=max(180, sync_timeout + 30),
         )
@@ -369,6 +400,19 @@ def run_actor(
         actual_count = len(items) if isinstance(items, list) else 0
         actual_cost = actor_config["cost_per_result"] * actual_count
 
+    # 2026-08-10: the per_result model was materially under-reporting. trudax/reddit-
+    # scraper-lite actually bills platform COMPUTE, not results: measured runs cost
+    # $0.031-$0.082 each regardless of row count, and a TIMED-OUT run returning zero
+    # rows still bills (~$0.02-0.07) while the estimate above records $0.00. Over one
+    # listening session the ledger said $0.09 and Apify billed $0.797. Ask the API what
+    # it actually charged and record that; fall back to the estimate if unavailable, so
+    # this can degrade but never silently under-count again.
+    billed = _fetch_last_run_cost(actor_id, token)
+    cost_source = "estimate"
+    if billed is not None:
+        actual_cost = billed
+        cost_source = "apify_api"
+
     # Log to usage file
     usage["spent_dollars"] = round(usage["spent_dollars"] + actual_cost, 4)
     if pulse_mode:
@@ -380,6 +424,7 @@ def run_actor(
         "results": actual_count,
         "cost": round(actual_cost, 4),
         "pricing_model": pricing_model,
+        "cost_source": cost_source,
     }
     if pulse_mode:
         run_record["pulse"] = True
@@ -558,14 +603,34 @@ def cmd_reddit(args):
     # Lean config (fixed 2026-08-05): skipUserPosts/skipCommunity=False made the actor
     # crawl profile + community surfaces and blow the sync window — the source of the
     # long-standing 400/TIMED-OUT failures that forced hand-logged direct-API runs.
+    #
+    # 2026-08-10: that lean config silently broke the OTHER half. The actor hard-rejects
+    # skipCommunity=True + skipUserPosts=True when the ONLY start URLs are community
+    # (bare /r/<sub>/) URLs, with "Invalid input" -> a 400 the client reported as a
+    # generic API error and an empty item list. Every `--subreddit`-only listening call
+    # had been returning zero rows. Actor's own words:
+    #   'The combination of properties "skipCommunity: true" and "skipUserPosts: true"
+    #    with only community URLs in startUrls will not return any results.'
+    # So: keep the lean config whenever a search URL is present (that is what fixed the
+    # timeouts), and relax skipCommunity only when we have nothing but community URLs.
+    has_search_url = any("/search/" in u["url"] for u in start_urls)
     run_input = {
         "startUrls": start_urls,
         "maxItems": args.limit,
         "skipComments": not args.comments,
         "skipUserPosts": True,
-        "skipCommunity": True,
+        # Lean when a search URL is doing the work; relaxed when community URLs are all
+        # we have, because the actor refuses that combination outright.
+        "skipCommunity": has_search_url,
     }
-    print(json.dumps(run_actor("reddit", run_input, args.limit), indent=2))
+    # Comment expansion is the expensive crawl: search-URL + comments reliably TIMED-OUT
+    # at the 150s ceiling (verified 2026-08-10), while single-post + comments completes
+    # inside ~280s at 2GB. Give comment runs the bigger window instead of failing them.
+    timeout_override = 280 if args.comments else None
+    print(json.dumps(
+        run_actor("reddit", run_input, args.limit, sync_timeout_s=timeout_override),
+        indent=2,
+    ))
 
 
 def cmd_instagram(args):

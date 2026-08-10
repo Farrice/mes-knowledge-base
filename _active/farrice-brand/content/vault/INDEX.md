@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-10 | [subtraction-slot-post](2026-08-10-subtraction-slot-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
+| 2026-08-10 | [subtraction-problem-carousel](2026-08-10-subtraction-problem-carousel.md) | Carousel (11 slides) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-09 | [kitchen-qa-post](2026-08-09-kitchen-qa-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
 | 2026-08-09 | [three-questions-proof-chain-longform](2026-08-09-three-questions-proof-chain-longform.md) | Education long-form | Proof · P2 | Authority | Bridge | READY |
 | 2026-08-08 | [founder-voice-converts-higher](2026-08-08-founder-voice-converts-higher.md) | LinkedIn post | Thesis · P1 | Authority | Inner | SUPERSEDED |
