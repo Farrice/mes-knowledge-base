@@ -1,0 +1,23 @@
+{
+  "title": "Global Systems-Thinking SHADOW Lift Test - Round 01",
+  "artifact_type": "controlled-shadow-lift-evaluation",
+  "source_id": "t0GiTyz4syY",
+  "evaluated_on": "2026-08-09",
+  "status": "CONTROLLED_ACCEPTANCE_PASS_AFTER_ONE_TARGETED_REPAIR",
+  "overlay_mode": "SHADOW",
+  "mission_classes": 3,
+  "treatment_wins": 2,
+  "ties": 1,
+  "initial_treatment_losses": 1,
+  "treatment_losses_after_repair": 0,
+  "blind_judgments_completed": 4,
+  "negative_controls_passed": 6,
+  "negative_controls_total": 6,
+  "premise_preservation_controls_passed": 1,
+  "premise_preservation_controls_total": 1,
+  "rejected_pilot_controls": 1,
+  "targeted_repairs": 1,
+  "live_production_receipts_created": 0,
+  "promotion_authorized": false,
+  "enforcement_added": false
+}

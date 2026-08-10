@@ -128,6 +128,8 @@ def check_global_shadow_overlay() -> None:
         fail("global AGENTS must contain exactly one canonical overlay pointer")
 
     section = strip_html_comments(extract_single_section(global_text, SHADOW_BEGIN, SHADOW_END))
+    if section.count(CANONICAL_OVERLAY_POINTER) != 1:
+        fail("active global SHADOW section must contain exactly one canonical overlay pointer")
     section_text = " ".join(section.lower().split())
     required = [
         "systems-thinking shadow companion",
@@ -147,6 +149,9 @@ def check_global_shadow_overlay() -> None:
         "genuine material fork",
         "preserve the native function owner",
         "stay silent when no decision changes",
+        "material inherited premises",
+        "nearest reversible step",
+        "bundle dependent actions beyond the next safe step",
         "sole full-overlay activation owner",
         "do not load the primitive or source package",
         "recursively activate the overlay",
