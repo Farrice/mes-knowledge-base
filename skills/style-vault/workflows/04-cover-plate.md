@@ -4,6 +4,26 @@ description: THE imagery run — one verified cover plate from a brief, at the v
 
 # 04 — Cover Plate
 
+> **THE POST-DROP PROTOCOL (Farrice's chosen trigger, 2026-08-10).** On a normal content day the
+> entire input is: *he pastes a draft post.* From that alone, this workflow (a) identifies the
+> segment the post serves (which buyer's world), (b) reads the post's emotional charge, (c) pulls
+> the matching artifact from that segment's codex and the matching rung from the Shot Ladder,
+> (d) runs the full floor and returns lead + alternate, zoom-verified. He judges; he never
+> specifies. Everything below is the machinery behind that one gesture.
+>
+> **Register anchors (his felt verdict, 2026-08-10):** the RETEST email and the dark-glass
+> Creative-fatigue row are the bar — "real-life scenes." The footnote macro is accurate but
+> secondary (highlight-tier). Judge new macros against the two anchors.
+>
+> **Calibrated numbers (same verdict):** any number legible on screen or paper must come from a
+> RESEARCHED range for that operator's world (codex "Calibrated ranges" section), never merely
+> formatted plausibly. An exaggerated number breaks the spell for the one reader who lives it.
+>
+> **People policy (his call → CD's discretion):** default **faceless** — the buyer projects
+> themselves into the frame. **Anonymous presence** (hands, chair-back, silhouette, shoulder)
+> whenever the scene's truth needs a body. **Full faces** only via the photoreal-people lane
+> (`creative_router.py` → fal-people) with its own proving run — never casually.
+
 **Deliverable:** ONE selected, zoom-verified cover plate (plus its kept alternates), indexed with
 provenance. Nothing else. Content, decks and captions are Farrice's; this workflow's whole job is
 that the image comes out at the proven standard on every run.
