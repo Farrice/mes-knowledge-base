@@ -68,10 +68,19 @@ stage, not in the layout. Name it: `upper-third`, `left-column`, `lower-band`, o
 language whatsoever. Style is decided in `02`; mixing it in here means you can never tell whether
 a weak result was a bad scene or a bad look.
 
+**Rule 4 — every scene names its REAL-WORLD ANCHOR** (added 2026-08-10 after the six-round
+session; this is what feeds layers 9/9a/9b downstream). The anchor is the specific verifiable
+thing the frame will contain — a document type the buyer actually handles, a named object, a
+number from their world. "A lab certificate" is an anchor that can be specimen-researched (9a)
+and SKU-matched (9b); "a feeling of being overlooked" is not, and a scene without an anchor
+produces the idea of a thing — which is what slop is made of. Scenes whose anchor is a document
+inherit the full 9-series when they reach `04`.
+
 | Field | Example shape |
 |---|---|
 | State served | pain: "I've done the work, nobody knows" |
 | Scene | "A person alone in a lit room, work spread across the table, phone face-down and untouched" |
+| **Real-world anchor** | "the buyer's own published COA / the unread report / the unopened tub" — the researchable object |
 | Text zone | `upper-third` |
 | Buyer verbatim it serves | "\<their exact words from the profile\>" |
 
@@ -109,5 +118,10 @@ infrastructure, not a session artifact.
 3. Is the buyer's language verbatim, or has it been smoothed into your register?
 4. Does the probe subject match what this brand actually ships most weeks?
 5. Did any style word leak in? Cut it.
+6. **Does every scene carry a researchable real-world anchor?** (Rule 4 — no anchor, no scene.)
+7. **Scar check (2026-08-09):** the first run of this workflow invented a metaphor-scene
+   unilaterally (the corridor doors) and it died on contact — no human stake, no anchor, wrong
+   ICP for the live campaign. If a scene is YOUR invention rather than the profile's language
+   made physical, flag it for Farrice's verdict instead of shipping it.
 
 **Next:** `02-mine-and-audition.md`.

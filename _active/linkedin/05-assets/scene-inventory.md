@@ -7,6 +7,13 @@
 LIVING DOC — update in place. This is reused every time this brand needs a new style; it is
 infrastructure, not a session artifact.
 
+> ⚠️ **STATUS (2026-08-10): predates Rule 4 and the proving session.** These scenes carry no
+> real-world anchors, and the door/corridor family was system-invented metaphor — the class
+> that produced the rejected first round (no human stake, no researchable object). Before any
+> generation from this inventory: add an anchor per scene (workflow 01 Rule 4) and get
+> Farrice's verdict on which scenes are his. Also note: the LIVE campaign's ICP is the
+> supplement-founder battle card, not this profile — check which buyer the post serves first.
+
 ---
 
 ## The finding that shapes every scene below

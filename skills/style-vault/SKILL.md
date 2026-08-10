@@ -5,6 +5,15 @@ description: "The brand-image pipeline and the keyed style vault — many looks,
 
 # Style Vault — the brand-image pipeline
 
+> **THE MISSION (Farrice, 2026-08-09, re-affirmed 2026-08-10).** ICP-avatar-grounded,
+> situationally-aware, high-craft imagery for **whatever content is being made** — an image that
+> resonates instantly with the specific buyer, the topic, and the moment, at the proven quality
+> bar (`v6-03`, the plate he called "perfect"). The cover plate is the per-asset UNIT; the
+> pipeline — ICP → scenes → style → bank → plate — is the PRODUCT. Every workflow below carries
+> the same spine: the realism floor (`references/realism-floor.md`, layers 1–8 mechanical via
+> `lint --strict`, 9/9a/9b judgment gates) and the four-variant zoom verdict. Content and decks
+> are his; the imagery, end to end, is this system's job.
+
 > **What this skill is for.** Deciding **what scene serves which buyer**, and **operating the
 > vault**. It does not teach you to build a frame — the house already owns that layer and
 > restating it would create a second, drifting copy.
@@ -67,9 +76,11 @@ ICP profile ──▶ 01 seed-scenes ──▶ scene inventory (pain + desire)
 | `workflows/02-mine-and-audition.md` | A decided style, proven to replicate across the whole scene inventory, written to a `card.md` with `verified` set |
 | `workflows/03-bank-and-batch.md` | A permuted, curated, indexed image bank keyed to brand × ICP × platform |
 
-**Scope ruling (Farrice, 2026-08-10):** this skill's product is the IMAGERY. Decks, captions and
-content are his; the deck pipeline (workflow 03 § deck doctrine) stays wired but is optional and
-only runs on his ask.
+**Scope ruling (Farrice, 2026-08-10):** this skill's product is the IMAGERY — the *whole
+pipeline of it*, not only covers. `04` is the per-asset run; `01→03` are the compounding spine
+that makes each run land for the right buyer in the right moment. Decks, captions and content
+are his; the deck pipeline (workflow 03 § deck doctrine) stays wired but is optional and only
+runs on his ask.
 
 ## THE VAULT
 

@@ -19,8 +19,16 @@ rejected round. Run the steps in order; none is optional.
 
 ## Inputs (all three, before anything fires)
 
-1. **The deliverable's copy** — the teardown/brief/post the image will sit on. The image argues
-   *its* argument; without it you are generating decoration.
+1. **The content the image will sit on** — either shape:
+   - **Evidence-bearing deliverable** (teardown, audit, case study): the image argues *its*
+     argument; the 9b read anchors to the exact SKU/claim the copy quotes.
+   - **Post / topic** (the original mission — ICP-resonant imagery for whatever he's posting):
+     open the brand's **scene inventory** (`_active/<brand>/05-assets/scene-inventory.md`, built
+     by `01-seed-scenes.md`) and select the scene whose STATE matches the post's claim — pain
+     scene for a pain post, desire scene for an arrival post. The scene supplies the situation;
+     the post supplies the specific real-world anchor (a named thing, a number, a document, a
+     moment) that 9b then verifies. **No inventory for this brand → run `01` first.** A plate
+     generated without an ICP-anchored scene is decoration, however crafted.
 2. **The brand + platform key** — `python3 execution/style_vault.py list --brand <x> --platform <y>`
    to pull the matching card. No matching card → run `02-mine-and-audition.md` first; do not
    freehand a look.

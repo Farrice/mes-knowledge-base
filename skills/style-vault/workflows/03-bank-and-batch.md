@@ -67,6 +67,20 @@ The cost gate fires on paid invocation; a denial surfaces to Farrice and is neve
 
 ## Step 3 — Generate
 
+**The floor applies at volume exactly as it does per-plate (retrofit 2026-08-10 — this step
+predated the realism floor and carried none of it).** Before firing the batch:
+
+1. **Lint the permutation template itself:** `python3 execution/style_vault.py lint "<template>"
+   --strict` — brace groups vary the scene; the floor layers (capture, light, black point,
+   atmosphere, imperfection, micro-surface) live in the constant part and must be present ONCE,
+   outside the braces, or every image in the batch inherits their absence.
+2. **Any document/label appearing anywhere in the batch runs the full 9-series first** — 9
+   (real values), 9a (fetched specimen form), 9b (one SKU with the content it serves). A wrong
+   table multiplied by a batch is a credibility failure at scale.
+3. **Batch ≠ selection.** The permutation provides volume across *scenes*; it does not replace
+   the 4-variant selection on any image that will lead an asset. Bank fills run permuted;
+   hero/cover slots still go through `04`.
+
 Route through `/generate` — `creative_router.py` lanes are binding, and the craft-map craft pass
 applies to every generation, paid or free. Pass the style's reference image so the card does the
 work the prompt no longer has to:
@@ -86,7 +100,7 @@ raise a ceiling that came from Farrice.
 without a second look; one weak image in a folder of a hundred means every future use needs
 review, which is the cost the bank existed to remove.
 
-Three passes:
+Four passes:
 
 1. **World check** — cover the prompts and scroll the set. Does it read as one brand world, or
    as several? Anything not living in that world goes.
@@ -94,6 +108,10 @@ Three passes:
    nothing to overlay is not a content asset.
 3. **Physics check** — most "looks AI" is a physics failure, not an aesthetic one. Light
    direction consistent with the source, hands and edges intact, materials behaving.
+4. **Zoom check on every legible artifact** — `04`'s kill order applies per image: table rows
+   read left-to-right (row-slip killed three variants across the proving session), headers
+   unduplicated, every highlight agreeing with the named source. At bank scale this is the pass
+   most tempting to skip and the one the buyer's zoom finds first.
 
 ## Step 5 — Index with provenance
 
