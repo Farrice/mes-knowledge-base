@@ -60,7 +60,13 @@ contents** — sourced from the teardown/deliverable it accompanies, written int
 literal strings (headers and cell values), and **read back on the selected output at zoom**
 before shipping. The v3 rounds proved the model garbles only what it is left to invent. A wrong
 number in a legible cell is a factual-veto matter: the image is asserting a fact.
-Doctrine: `skills/style-vault/references/realism-floor.md` § ninth layer.
+
+**And 9a — the FORM must come from a fetched real specimen, never from memory** (v4 scar: right
+doses, but "Heavy Metals NMT 10 ppm" as one generic row — a founder clocks that instantly). For
+supplement COAs the researched form is: per-element heavy metals (Arsenic/Cadmium/Lead/Mercury),
+a METHOD column (HPLC · ICP-MS · USP <2021>/<2022>), µg-per-serving units, and "Below LOQ" /
+"Absent" result formats, closed by the accredited-lab line. Specimen source logged in the sweep
+log. Doctrine: `skills/style-vault/references/realism-floor.md` § ninth layer + 9a.
 
 ## Portable string per model
 

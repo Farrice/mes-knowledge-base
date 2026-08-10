@@ -126,6 +126,28 @@ the deliverable it accompanies, never invented:
 This layer is a judgment gate, not a regex — `lint` cannot check it. It lives here, in the
 workflow quality gates, and on every card whose style contains a document.
 
+### 9a — DOCUMENT AUTHENTICITY RESEARCH (Farrice, 2026-08-10 — the step that makes 9 executable)
+
+Correct *numbers* in a wrong *form* still reads as generated. The first fact-correct COA carried
+the teardown's real doses but structured heavy metals as one generic row ("Heavy Metals NMT 10
+ppm") plus a lone Lead row — and a founder who orders COAs monthly clocks that instantly. The
+domain knowledge in my head is not the specimen.
+
+**Before writing any document spec into a prompt:**
+
+1. **Fetch a real specimen of the document type.** Priority order: the subject brand's own
+   published document (Transparent Labs publishes its COAs) → the category's standard form
+   (USP-style lab reports) → a competitor's published equivalent. Web-check; never write a
+   document's structure from model memory.
+2. **Mirror four things from the specimen, not just values:** the row inventory (heavy metals =
+   per-element: Arsenic, Cadmium, Lead, Mercury), the **column set** (real COAs carry a METHOD
+   column — HPLC, ICP-MS, USP <2021>/<2022>), the **units** (µg/serving, cfu/g), and the
+   **result formats** — real labs write "Below LOQ" and "Absent", not "<10 ppm" on every row.
+3. **Log the specimen source** (URL or file) in the sweep log — a document spec without a named
+   specimen is unresearched, and gate 9 fails it.
+4. Substantive values still come from the deliverable's own copy (layer 9); the specimen
+   supplies the FORM those values sit in.
+
 ## The order to fix in
 
 Grade path → **physics** → **capture** → look. Drift in the first three is a control failure: fix
