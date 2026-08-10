@@ -5,14 +5,25 @@ description: "The brand-image pipeline and the keyed style vault — many looks,
 
 # Style Vault — the brand-image pipeline
 
-> **THE MISSION (Farrice, 2026-08-09, re-affirmed 2026-08-10).** ICP-avatar-grounded,
-> situationally-aware, high-craft imagery for **whatever content is being made** — an image that
-> resonates instantly with the specific buyer, the topic, and the moment, at the proven quality
-> bar (`v6-03`, the plate he called "perfect"). The cover plate is the per-asset UNIT; the
-> pipeline — ICP → scenes → style → bank → plate — is the PRODUCT. Every workflow below carries
-> the same spine: the realism floor (`references/realism-floor.md`, layers 1–8 mechanical via
-> `lint --strict`, 9/9a/9b judgment gates) and the four-variant zoom verdict. Content and decks
-> are his; the imagery, end to end, is this system's job.
+> **THE MISSION — FIVE LAYERS DEEP (Farrice, 2026-08-10).** This system is **world-building
+> through generative imagery**: entering the buyer's world so completely that content earns
+> *"we've been in your world, and I can walk you through it."* The internet's slop problem is
+> one-layer work; this goes five — to the tier where viewers say *"that was AI?"*
+>
+> | Layer | What it is | Where it lives |
+> |---|---|---|
+> | 1 · **Style** | a locked aesthetic — where everyone else stops | the vault's cards |
+> | 2 · **World logic** | one coherent scene grammar per look | card constants |
+> | 3 · **The buyer's world** | their rooms, hours, objects | `icp-worlds/*/scene-inventory.md` |
+> | 4 · **Insider truth** | native-only props, CALIBRATED real numbers, the 10-layer physical floor | `lived-world-codex.md` + `lint --strict` |
+> | 5 · **The living bank** | assets at volume across day-arc × charge × shot rung — Carter's endgame at craftsman depth | `icp-worlds/*/bank/` via workflow 03 |
+>
+> **The continuity dial (compass, never cage — his ruling):** *loose* (default: style-consistent,
+> rooms creatively free) · *series* (recurring codex props across a content series) · *canon*
+> (image-referenced same-room continuity, opt-in per run only). Depth without creative lock.
+>
+> The floor applies at every layer (`references/realism-floor.md`), the four-variant zoom verdict
+> on every generation. Content and decks are his; the imagery, end to end, is this system's job.
 
 > **What this skill is for.** Deciding **what scene serves which buyer**, and **operating the
 > vault**. It does not teach you to build a frame — the house already owns that layer and

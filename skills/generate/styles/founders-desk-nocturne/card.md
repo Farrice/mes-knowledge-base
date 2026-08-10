@@ -37,10 +37,22 @@ morning or a gym floor does not get relocated here (style-colonization scar, 202
 
 ## Shot ladder (workflow 04 § 2b)
 
-Verified at **establishing** (references 1-2). **Working-mid** and **MACRO INSERT** rungs draw
-from the segment codices (`icp-worlds/<segment>/lived-world-codex.md`) — same two light sources,
-same Portra 800 register, 100mm macro at f/2.8 for inserts, the artifact filling the frame with
-its context falling soft. The recognition test governs what earns a macro.
+Verified at **establishing** as a SINGLE selected image (references 1-2) — but **establishing
+fails at batch/variant scale** (found 2026-08-10, supplement-founder starter bank): 4 variants of
+one establishing composition returned four near-identical renders of one "moody founder desk"
+template — same monitor placement, same lamp, same chair silhouette, re-rolled. The floor's
+physical-realism checks (grain, black point, light source) all passed; the composition itself
+was the tell, because a wide/symmetric frame gives the model's generic training-mode nowhere to
+lose. **Standing rule: do not default-generate establishing at volume.** If an establishing shot
+is wanted, it needs an explicit off-center/cropped/imperfect-framing instruction — not "whole
+desk, centered monitor" — treated as its own prompt problem, not a re-roll.
+
+**Working-mid** and **MACRO INSERT** are the proven rungs at both single-select AND batch scale
+(cover photo, then the RETEST-email + angle-sheet bank keepers, 2026-08-10) — draw from the
+segment codices (`icp-worlds/<segment>/lived-world-codex.md`), same two light sources, same
+Portra 800 register, 100mm macro at f/2.8 for inserts, the artifact filling the frame with its
+context falling soft. The recognition test governs what earns a macro. **Default the bank build
+to these two rungs.**
 
 ## Portable string per model
 

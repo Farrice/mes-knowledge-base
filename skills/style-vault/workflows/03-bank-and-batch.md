@@ -139,6 +139,31 @@ same lessons at the same price.
 
 ---
 
+## LAYER 5 — THE BANK BUILD (Farrice, 2026-08-10; Carter's endgame at five-layer depth)
+
+The bank is the system's real product: a deployable library per buyer-world, so content is
+served from a compounding vault instead of one-off generations.
+
+**Standing finding (2026-08-10, supplement-founder starter bank): establishing shots do not
+survive batch generation.** 4 variants of one establishing composition returned four
+near-identical renders — the model has one generic "moody desk" template at wide/symmetric
+framing and a batch just re-rolls it. Working-mid and MACRO INSERT are the rungs proven at both
+single-select and batch scale. **Default bank builds to working-mid + macro rungs only.** Only
+attempt establishing with an explicit off-center/cropped/imperfect-framing instruction, treated
+as its own prompt problem — never a bare re-roll of "the whole desk."
+
+- **Permutation axes:** day-arc beat × emotional charge × shot rung — all three drawn from the
+  segment's `scene-inventory.md` + `lived-world-codex.md`, never invented at build time.
+- **The continuity dial, set per run:** *loose* (default — style constants hold, rooms free) ·
+  *series* (2-3 recurring codex props threaded through the batch) · *canon* (a banked lead passed
+  as image reference; same room recurs). Dial up only when the content series wants it — never
+  as standing law.
+- **Every batch prompt** still passes the full floor: `lint --strict` 8/8, calibrated numbers
+  (codex "Calibrated ranges" or NO legible numbers), dark-mode rule for screens, 4 variants per
+  concept, zoom kill-order at curation.
+- **Output convention:** keepers land in `icp-worlds/<segment>/bank/` named
+  `<beat>-<charge>-<rung>-NN.png`; index each to the assets board with prompt provenance.
+
 ## DECK DOCTRINE — cover carries the style, deck carries the brand (Farrice, 2026-08-10 — BINDING)
 
 When a banked image becomes part of a multi-surface asset (carousel, deck, doc):
