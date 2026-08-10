@@ -470,6 +470,81 @@ def cmd_probe(args):
     return 0
 
 
+# ------------------------------------------------------- lint (the realism floor)
+
+# Farrice's 8/10 verdict on the COA plate (2026-08-10) set the floor. This linter exists so the
+# floor is MECHANICAL, not a document someone has to remember — the house rule is that
+# AI-memory-dependent observability is banned and must be paired with a deterministic backstop.
+#
+# Each layer is a physical CAUSE the frame needs. Missing layers are what the model fills with
+# its own averaged defaults, and averaged defaults are what "AI slop" means.
+FLOOR = [
+    ("capture", "camera, lens, aperture, stock/format — the physical cause of the texture",
+     r"\b(hasselblad|leica|sinar|pentax|canon|nikon|mamiya|contax|rollei|view camera|"
+     r"\d{2,3}\s*mm|f/\d|portra|ektar|ektachrome|tri-?x|provia|velvia|neopan|cinestill|"
+     r"large format|medium format|4x5|8x10|sheet film|tripod|handheld)\b"),
+    ("light", "one nameable source with a direction",
+     r"\b(source from|light from|raking|backlit|side ?light|top ?light|window light|"
+     r"key light|scrim|diffus|bounce|flash|overhead|camera (left|right))\b"),
+    ("black_point", "shadows landing on real black — not lifted mid-grey",
+     r"\b(black point|falls? to (true )?black|true black|deep black|clips? at|"
+     r"whites? .{0,20}white and blacks?)\b"),
+    ("atmosphere", "something physically in the mid-ground — never clean air",
+     r"\b(dust|haze|mist|fog|steam|smoke|particulate|condensation|vapou?r|motes)\b"),
+    # NB: no trailing \b on stem-based groups — it would prevent "cockl" matching "cockled".
+    ("imperfection", "marks of the object's own history",
+     r"\b(fingerprint|scratch|scuff|stain|ring mark|worn|crooked|uneven|chipped|dented|"
+     r"frayed|creas|dog-?eared|patina|tarnish|smudge|vignett)"),
+    ("provenance", "the object is a specific thing with a history, not a described abstraction",
+     r"\b(lot (no|number)|batch|serial|date stamp|signature|signed|letterhead|staple|"
+     r"fold(ed| lines?)|stamped|handwritten|receipt|certificate|invoice|label)\b"),
+    ("material_response", "materials behaving the way that material behaves (physics)",
+     r"\b(cockl|buckl|warp|feather|bloom|soak|wick|pool|sag|drape|slump|melt|"
+     r"collaps|absorb|bleed|curl)"),
+    ("micro_surface", "micro-contrast: the high-frequency detail models average away",
+     r"\b(pore|fibre|fiber|tooth|grain|weave|brushed|micro-?contrast|subsurface|"
+     r"specular|catchlight|translucen|sheen)"),
+]
+
+# Undecomposable quality assertions. You cannot sweep them, explain them, or bank them —
+# St. Pierre's ban, and every one of them is a wish rather than a direction.
+BANNED = re.compile(
+    r"\b(8k|4k ultra|hdr|vray|octane|unreal engine|masterpiece|award-?winning|"
+    r"hyper-?realistic|photo-?realistic|ultra-?detailed|highly detailed|stunning|"
+    r"beautiful|gorgeous|breathtaking|epic|cinematic)\b", re.I)
+
+
+def cmd_lint(args):
+    text = args.prompt
+    if args.file:
+        text = open(args.file, encoding="utf-8").read()
+    if not text.strip():
+        print("nothing to lint.")
+        return 1
+    missing, present = [], []
+    for name, why, pattern in FLOOR:
+        (present if re.search(pattern, text, re.I) else missing).append((name, why))
+    banned = sorted(set(m.group(0).lower() for m in BANNED.finditer(text)))
+
+    for name, _ in present:
+        print(f"  ok      {name}")
+    for name, why in missing:
+        print(f"  MISSING {name:<18} — {why}")
+    if banned:
+        print(f"\n  BANNED terms present: {', '.join(banned)}")
+        print("  Replace each with the physical cause underneath it.")
+
+    score = len(present)
+    print(f"\n{score}/{len(FLOOR)} floor layers present.")
+    if missing:
+        print("Every missing layer is one the model will fill with its own averaged default.")
+    if args.json:
+        print(json.dumps({"present": [n for n, _ in present],
+                          "missing": [n for n, _ in missing],
+                          "banned": banned, "score": score, "of": len(FLOOR)}))
+    return 1 if (missing or banned) and args.strict else 0
+
+
 # ---------------------------------------------------------------- cli
 
 def main():
@@ -517,6 +592,13 @@ def main():
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--json", action="store_true")
     p.set_defaults(func=cmd_permute)
+
+    p = sub.add_parser("lint", help="check a prompt against the realism floor before generating")
+    p.add_argument("prompt", nargs="?", default="")
+    p.add_argument("--file", help="read the prompt from a file instead")
+    p.add_argument("--strict", action="store_true", help="exit 1 on any missing layer or banned term")
+    p.add_argument("--json", action="store_true")
+    p.set_defaults(func=cmd_lint)
 
     p = sub.add_parser("probe", help="generate a decomposable style-probe sweep")
     p.add_argument("--n", type=int, default=8)

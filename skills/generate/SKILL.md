@@ -42,6 +42,23 @@ price on fal.ai/models first; `status: "deferred"` stubs refuse to run until fil
 
 ## Step 3 — Generate (HARD RULES)
 
+0a. **REALISM FLOOR — every photographic generation (Farrice ruling 2026-08-10, after the COA
+   plate hit 8/10: "make sure this is embedded so the floor is here no matter what work we're
+   doing").** Lint the prompt before you send it:
+
+   ```bash
+   python3 execution/style_vault.py lint "<prompt>" --strict
+   ```
+
+   Eight layers, each a physical cause: **capture · light · black_point · atmosphere ·
+   imperfection · provenance · material_response · micro_surface**, plus a ban on
+   quality-assertion words (`8k`, `cinematic`, `stunning`, `hyperrealistic`…). Every missing
+   layer is one the model fills with its own averaged default — which is what slop is. Also
+   binding: **generate ≥4 and select** (one image per concept is a first take, not a sweep).
+   Full doctrine + what takes a plate past 8/10: `skills/style-vault/references/realism-floor.md`.
+   Non-photographic lanes (vector, flat illustration, diagram) are exempt — say so out loud
+   when you skip it.
+
 0. **CRAFT PASS — every generation, paid or free (Farrice ruling 2026-08-02: full pipeline,
    always).** Before writing ANY prompt, load the matching master per
    `skills/generate/references/craft-map.md` and author the prompt through its grammar; run the

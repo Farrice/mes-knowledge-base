@@ -32,6 +32,17 @@ loading it mechanically is.
 
 | **Motion graphics / video overlay comps (Edit Bay)** — lower thirds, stat cards, title cards, diagram beats in HyperFrames/Remotion | `skills/video-studio/style/graphics-taste.md` § named load (its rules + `frontend-design` skill + style-file merge → `_active/farrice-brand/voice/video-style.md`; grace-liu on taste-fog) | Run graphics-taste's deterministic pre-render grep (off-brand fonts/hexes/shadow stacks); §10 slop tells are auto-blockers; the travel test — name three invisible decisions or it's mass-produced |
 
+**REALISM FLOOR (Farrice 2026-08-10 — runs on every photographic generation, above every row
+above).** Lint before sending: `python3 execution/style_vault.py lint "<prompt>" --strict`.
+Eight layers, each a physical cause — capture · light · black_point · atmosphere · imperfection ·
+provenance · material_response · micro_surface — plus the quality-assertion ban. **Generate ≥4
+and select**; one image per concept is a first take. The rule that produced the 8/10 plate:
+*a described abstraction renders as an abstraction* — every prop needs three marks of its own
+history, or the model renders the idea of the thing. Doctrine, plus the four moves that take a
+plate past 8/10 (subsurface scattering · specular/catchlight agreement · luminance-dependent
+noise · splitting plate/type/grade into three passes):
+`skills/style-vault/references/realism-floor.md`.
+
 **Intent mirror (creative asks):** before generating from a raw dump, reflect back in ≤5 lines:
 deliverable + format, felt standard ("cinematic macro, matte, no gloss"), references in play,
 budget, and the ONE thing that would make it his ("what's the detail that makes this yours?").
