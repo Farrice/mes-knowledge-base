@@ -4,46 +4,61 @@
 <meta charset="utf-8">
 <title>Carousel 01 — Transparent Labs</title>
 <style>
-  /* Slide system (style-vault SKILL.md): serif for the claim, letterspaced sans for labels.
-     Palette pulled from the evidential-still-life plate: paper, steel-black, one warm note.
-     No borders, no shadows, no rounded corners — margin carries the premium signal. */
+  /* Premium Minimal — per _active/farrice-brand/premium-minimal/package/02-DESIGN-CONTRACT.md
+     Tokens verbatim. Helvetica Neue only. Sentence-case headlines, -0.025em display tracking,
+     uppercase labels +0.16em. Hairline 1px / structural 2px. ONE dark interruption per
+     sequence (slide 10). The evidential plate is the COVER ONLY — the deck carries the brand. */
   * { margin:0; padding:0; box-sizing:border-box; }
   :root {
-    --paper:#F4F1EA; --ink:#141412; --steel:#232320; --warm:#6B3A22; --mute:#8A867C;
+    --canvas:#F3F3F0; --paper:#FAFAF8; --ink:#101010; --graphite:#555553;
+    --line:#D8D8D3; --stone:#8C8C82; --white:#FFFFFF;
   }
-  body { background:#000; font-family:Georgia,'Times New Roman',serif; }
+  body { background:var(--ink); font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; }
   .slide {
     width:1080px; height:1350px; position:relative; overflow:hidden;
-    background:var(--paper); color:var(--ink); padding:96px;
+    background:var(--canvas); color:var(--ink); padding:96px;
     display:flex; flex-direction:column; justify-content:center;
   }
-  .slide.dark { background:var(--steel); color:var(--paper); }
-  .label {
-    font-family:Helvetica,Arial,sans-serif; font-size:22px; letter-spacing:0.28em;
-    text-transform:uppercase; position:absolute; top:88px; left:96px; color:var(--mute);
+  .slide.paper { background:var(--paper); }
+  .slide.dark { background:var(--ink); color:var(--white); }
+  .mast {
+    position:absolute; top:88px; left:96px; right:96px;
+    font-size:21px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase;
+    color:var(--graphite); display:flex; justify-content:space-between;
   }
-  .pagenum {
-    font-family:Helvetica,Arial,sans-serif; font-size:22px; letter-spacing:0.22em;
-    position:absolute; bottom:88px; right:96px; color:var(--mute);
+  .dark .mast { color:var(--stone); }
+  .mast .idx { color:var(--stone); }
+  h1 { font-size:72px; line-height:1.14; font-weight:700; letter-spacing:-0.025em; max-width:840px; }
+  p.body { font-size:40px; line-height:1.45; font-weight:400; margin-top:56px;
+    max-width:800px; color:var(--graphite); }
+  .dark p.body { color:var(--line); }
+  p.reviews { font-size:40px; line-height:1.6; margin-top:48px; max-width:800px; color:var(--graphite); }
+  .hr { height:1px; background:var(--line); border:0; margin:64px 0 0; max-width:800px; }
+  .hr2 { height:2px; background:var(--ink); border:0; margin:64px 0 0; max-width:800px; }
+  .dark .hr2 { background:var(--white); }
+  .nums { margin-top:64px; max-width:800px; }
+  .nums .row { display:flex; align-items:baseline; justify-content:space-between;
+    border-top:1px solid var(--line); padding:28px 0; }
+  .nums .row:last-child { border-bottom:1px solid var(--line); }
+  .nums .v { font-size:64px; font-weight:700; letter-spacing:-0.025em; }
+  .nums .k { font-size:30px; color:var(--graphite); font-weight:400; }
+  .foot {
+    position:absolute; bottom:88px; left:96px; right:96px;
+    font-size:21px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase;
+    color:var(--stone); display:flex; justify-content:space-between;
   }
-  h1 { font-size:76px; line-height:1.18; font-weight:normal; max-width:820px; }
-  h1 .warm { color:var(--warm); }
-  .dark h1 .warm { color:#C88A5E; }
-  p.body { font-size:44px; line-height:1.42; margin-top:56px; max-width:800px; }
-  p.quote { font-size:44px; line-height:1.5; margin-top:40px; max-width:800px; font-style:italic; }
-  .rule { width:120px; height:3px; background:var(--warm); margin:52px 0 0; }
-  /* Slide 1 — hero plate */
-  .hero { padding:0; background:#000; justify-content:flex-end; }
+  /* Cover — the plate carries the style; type stays in the brand system */
+  .hero { padding:0; background:var(--ink); justify-content:flex-end; }
   .hero img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
   .hero .scrim { position:absolute; inset:0;
-    background:linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 30%,
-      rgba(0,0,0,0) 52%, rgba(0,0,0,0.88) 76%); }
-  .hero h1 { position:relative; color:#F4F1EA; padding:0 96px; max-width:900px; font-size:68px; }
-  .hero .heroblock { position:relative; }
-  .hero .label { color:rgba(244,241,234,0.75); z-index:2; }
-  .nums { font-size:52px; line-height:1.6; margin-top:48px; font-family:Helvetica,Arial,sans-serif; }
-  .nums b { font-weight:normal; color:var(--warm); }
-  .dark .nums b { color:#C88A5E; }
+    background:linear-gradient(180deg, rgba(16,16,16,0.62) 0%, rgba(16,16,16,0) 30%,
+      rgba(16,16,16,0) 50%, rgba(16,16,16,0.92) 74%); }
+  .hero .mast { color:rgba(250,250,248,0.85); z-index:2; }
+  .hero .mast .idx { color:rgba(250,250,248,0.55); }
+  .heroblock { position:relative; padding:0 96px 150px; }
+  .hero h1 { color:var(--white); font-size:66px; }
+  .hero .sub { position:relative; font-size:40px; line-height:1.4; color:var(--line);
+    margin-top:40px; max-width:820px; }
 </style>
 </head>
 <body>
@@ -51,80 +66,81 @@
 <div class="slide hero" id="s1">
   <img src="plate.png" alt="">
   <div class="scrim"></div>
-  <div class="label">PROOF-TO-MARKET · TEARDOWN 01</div>
+  <div class="mast"><span>Farrice Cain</span><span class="idx">Teardown 01</span></div>
   <div class="heroblock">
-    <h1>Your product works.<br><br>Getting a stranger to believe it is a <span class="warm">different job.</span></h1>
+    <h1>Your product works. Getting a stranger to believe it is a different job.</h1>
   </div>
-  <div style="height:110px"></div>
 </div>
 
 <div class="slide" id="s2">
-  <div class="label">WHAT THE BRAND SAYS</div>
-  <h1>&ldquo;Hold your supplements to a higher standard. Clean ingredients. Transparent labels.&rdquo;</h1>
+  <div class="mast"><span>What the brand says</span><span class="idx">02 / 10</span></div>
+  <h1>&ldquo;Hold your supplements to a higher standard.&rdquo;</h1>
   <p class="body">Here&rsquo;s what their customers actually say.</p>
-  <p class="quote">&ldquo;It tastes just like chocolate ice cream.&rdquo;<br>&ldquo;Mixes easy.&rdquo;<br>&ldquo;So delicious.&rdquo;</p>
-  <div class="pagenum">02 / 10</div>
+  <p class="reviews">&ldquo;It tastes just like chocolate ice cream.&rdquo;<br>&ldquo;Mixes easy.&rdquo;<br>&ldquo;So delicious.&rdquo;</p>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
-<div class="slide dark" id="s3">
-  <div class="label">THE TESTING PAGE</div>
-  <h1>&ldquo;An accredited lab.&rdquo;<br><br>Not <span class="warm">the</span> lab. <span class="warm">An</span> accredited lab.</h1>
+<div class="slide paper" id="s3">
+  <div class="mast"><span>The testing page</span><span class="idx">03 / 10</span></div>
+  <h1>&ldquo;An accredited lab.&rdquo;<br>Not the lab. An accredited lab.</h1>
   <p class="body">Every competitor your customer checks on the same Friday already prints an accredited lab too.</p>
-  <div class="pagenum">03 / 10</div>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
 <div class="slide" id="s4">
-  <div class="label">THE LABEL</div>
+  <div class="mast"><span>The label</span><span class="idx">04 / 10</span></div>
   <h1>Every single number, printed.</h1>
   <div class="nums">
-    <b>8 g</b> &nbsp;L-citrulline malate<br>
-    <b>4 g</b> &nbsp;beta-alanine<br>
-    <b>2,500 mg</b> &nbsp;betaine
+    <div class="row"><span class="v">8 g</span><span class="k">L-citrulline malate</span></div>
+    <div class="row"><span class="v">4 g</span><span class="k">beta-alanine</span></div>
+    <div class="row"><span class="v">2,500 mg</span><span class="k">betaine</span></div>
   </div>
-  <div class="rule"></div>
-  <div class="pagenum">04 / 10</div>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
-<div class="slide dark" id="s5">
-  <div class="label">THE GAP</div>
-  <h1>They paid for a <span class="warm">formula.</span><br><br>Their customers bought a <span class="warm">flavor.</span></h1>
+<div class="slide paper" id="s5">
+  <div class="mast"><span>The gap</span><span class="idx">05 / 10</span></div>
+  <h1>They paid for a formula. Their customers bought a flavor.</h1>
   <p class="body">The company is winning. The brand stays swappable with something half as good.</p>
-  <div class="pagenum">05 / 10</div>
+  <hr class="hr2">
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
 <div class="slide" id="s6">
-  <div class="label">THE FIX</div>
+  <div class="mast"><span>The fix</span><span class="idx">06 / 10</span></div>
   <h1>Let your hero be the numbers.</h1>
   <p class="body">Eight grams. On a photo. One sentence underneath.<br><br>Your competitor&rsquo;s hero becomes a comparison the moment yours is a number.</p>
-  <div class="pagenum">06 / 10</div>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
-<div class="slide" id="s7">
-  <div class="label">THE RECEIPT</div>
-  <h1>&ldquo;An accredited lab&rdquo; costs you nothing to say.<br><br>&ldquo;LightLabs&rdquo; costs you authority when you don&rsquo;t.</h1>
+<div class="slide paper" id="s7">
+  <div class="mast"><span>The receipt</span><span class="idx">07 / 10</span></div>
+  <h1>&ldquo;An accredited lab&rdquo; costs you nothing to say. &ldquo;LightLabs&rdquo; costs you authority when you don&rsquo;t.</h1>
   <p class="body">One sentence and one logo on your testing page. That&rsquo;s the difference between a promise and a receipt.</p>
-  <div class="pagenum">07 / 10</div>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
 <div class="slide" id="s8">
-  <div class="label">THE REVIEWS</div>
-  <p class="quote">&ldquo;No digestive issues.&rdquo;<br>&ldquo;Absorbs quickly.&rdquo;<br>&ldquo;Helps with my recovery.&rdquo;</p>
+  <div class="mast"><span>The reviews</span><span class="idx">08 / 10</span></div>
+  <p class="reviews" style="margin-top:0;">&ldquo;No digestive issues.&rdquo;<br>&ldquo;Absorbs quickly.&rdquo;<br>&ldquo;Helps with my recovery.&rdquo;</p>
+  <hr class="hr">
   <p class="body">Tie each one back to a printed number. The claim stays factual. The dose does the persuading. The language stays theirs.</p>
-  <div class="pagenum">08 / 10</div>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
-<div class="slide" id="s9">
-  <div class="label">THE FENCE</div>
+<div class="slide paper" id="s9">
+  <div class="mast"><span>The fence</span><span class="idx">09 / 10</span></div>
   <h1>Dose disclosure is a fact about the product, not a health claim.</h1>
   <p class="body">Pair a printed dose with a promised outcome and you&rsquo;re in structure/function territory — you need the evidence behind it.<br><br>Keep the dose factual. Let the reader draw the conclusion.</p>
-  <div class="pagenum">09 / 10</div>
+  <div class="foot"><span>Proof-to-Market</span><span>Transparent Labs</span></div>
 </div>
 
 <div class="slide dark" id="s10">
-  <div class="label">THE POINT</div>
-  <h1>This isn&rsquo;t a supplement problem.<br><br>It&rsquo;s what happens when your real advantage is a <span class="warm">number</span> and your marketing is a <span class="warm">mood.</span></h1>
-  <p class="body">If your product actually works and nobody can tell —<br><br><b style="font-family:Helvetica,Arial,sans-serif;font-weight:normal;letter-spacing:0.18em;">DM PROOF</b></p>
-  <div class="pagenum">10 / 10</div>
+  <div class="mast"><span>The point</span><span class="idx">10 / 10</span></div>
+  <h1>Your real advantage is a number. Your marketing is a mood.</h1>
+  <p class="body">If your product actually works and nobody can tell —</p>
+  <h1 style="margin-top:56px; font-size:56px;">DM PROOF</h1>
+  <div class="foot"><span>Farrice Cain</span><span>Creative strategy for supplement + performance brands</span></div>
 </div>
 
 </body>

@@ -121,6 +121,27 @@ same lessons at the same price.
 
 ---
 
+## DECK DOCTRINE — cover carries the style, deck carries the brand (Farrice, 2026-08-10 — BINDING)
+
+When a banked image becomes part of a multi-surface asset (carousel, deck, doc):
+
+1. **The vault style styles the COVER ONLY.** The generated plate is one surface — the hook.
+2. **Every other surface is set in the owning brand's design system**, loaded from its design
+   contract — for Farrice that is
+   `_active/farrice-brand/premium-minimal/package/02-DESIGN-CONTRACT.md` (tokens, type,
+   grid, and sequence laws, verbatim — including *one dark interruption per sequence maximum*
+   and *no serif type*). For a client, their brand contract.
+3. **Never derive the deck's palette/type from the plate.** That was the first-draft failure:
+   an improvised plate-derived system that violated the standing contract (serif headlines,
+   off-token accent, three dark slides). Coherence comes from the brand system meeting one
+   styled cover — not from the style leaking across every surface.
+4. Type on the cover itself also obeys the brand contract; only the photograph carries the
+   vault style.
+
+Repeatable mechanics: deck = one HTML file on the contract's tokens → Playwright renders
+per-slide PNGs (1080×1350) + a paged PDF. Working exemplar:
+`_active/linkedin/03-launch/carousels/assets/carousel-01/deck.html`.
+
 ## Output requirements
 
 - Permutation template, total combinations, and what was sampled or cut
