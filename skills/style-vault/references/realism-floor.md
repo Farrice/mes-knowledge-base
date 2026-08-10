@@ -101,6 +101,31 @@ reads as a place you're standing in rather than three unrelated postcards.
 
 ---
 
+## The ninth layer — CONTEXTUAL CORRECTNESS (Farrice, 2026-08-10; the 9→10 layer)
+
+> *"The table can't be random. I would zoom in and look… a misread would kill all credibility
+> of the actual image."*
+
+The eight layers above make the frame read as photographed. This one makes it survive a zoom.
+**Any document, label, chart or instrument in frame renders its REAL contents** — sourced from
+the deliverable it accompanies, never invented:
+
+1. **Source of truth is the artifact's own copy.** For a teardown carousel, the document's rows
+   are the teardown's published numbers (Transparent Labs: 8.0 g L-citrulline malate, 4.0 g
+   beta-alanine, 2.5 g betaine — the same numbers slide 4 states). The zoom must AGREE with the
+   copy beside it.
+2. **Write the exact rows into the prompt** — column headers and cell values, verbatim. Current
+   models hold table-density text when given the literal strings; they garble only what they're
+   left to invent.
+3. **Standard specs are allowed to be standard.** Microbial limits, NMT/NLT thresholds — use the
+   real USP-style values. Generic-but-correct beats invented-but-specific.
+4. **Verify on the output, not the prompt.** Zoom the selected variant and read every legible
+   row before shipping. A wrong number in a legible cell is a factual-veto matter — the image is
+   asserting a fact.
+
+This layer is a judgment gate, not a regex — `lint` cannot check it. It lives here, in the
+workflow quality gates, and on every card whose style contains a document.
+
 ## The order to fix in
 
 Grade path → **physics** → **capture** → look. Drift in the first three is a control failure: fix

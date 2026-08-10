@@ -16,7 +16,7 @@ era: "Contemporary editorial still life shot on 1990s-era film stock."
 refuses: "Wide shots. Colour beyond the single warm note. Any second light source. Clean or pristine anything. A styled or merchandised read — it must look found."
 conditions: "Needs a rigor artifact the buyer recognises (COA, spec sheet, lab report, invoice) AND an antagonist object that physically damages it. The argument must be visible as damage, not adjacency."
 anti_conditions: "Do not use where the message is aspirational or warm. It is an indictment format — it makes a case against something. Wrong for launch, celebration or founder-story content. Also wrong for a person-forward brand."
-references: [reference-1.png, reference-2.png]
+references: [reference-1.png, reference-2.png, reference-3.png]
 provenance: "Built 2026-08-10 across three rounds against the Transparent Labs teardown. v1 rejected (fake tension, no capture layer). v2 scored 8/10 from Farrice (realism gate applied). v3 selected after adding subsurface scattering, specular agreement and luminance-dependent noise. 4 variants generated, 1 selected — reference-1 = v3-02, reference-2 = v3-04."
 created: 2026-08-10
 verified: 2026-08-10
@@ -52,6 +52,15 @@ it means scene detail can be redirected without losing the look.
    number, NMT/NLT specs, APPROVED BY — was enough for the model to produce plausible, correct
    body copy at this density. **The compositing pass is not required at this text load.** It
    still will be for a full page of paragraph text.
+
+## Layer 9 — contextual correctness (BINDING for this card)
+
+This style always contains a legible document, so **the document's rows must be its real
+contents** — sourced from the teardown/deliverable it accompanies, written into the prompt as
+literal strings (headers and cell values), and **read back on the selected output at zoom**
+before shipping. The v3 rounds proved the model garbles only what it is left to invent. A wrong
+number in a legible cell is a factual-veto matter: the image is asserting a fact.
+Doctrine: `skills/style-vault/references/realism-floor.md` § ninth layer.
 
 ## Portable string per model
 

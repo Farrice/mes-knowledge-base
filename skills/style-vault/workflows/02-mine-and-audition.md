@@ -170,6 +170,9 @@ really black."* The first run was mid-grey end to end, which reads as render.
 6. **Could a crew have shot this? Does every material behave the way that material behaves?**
 7. Did the audition cover **every** scene, including the ones you expected to fail?
 8. Is the tier claim supported by the null/probe delta, or asserted from how the prompt reads?
-9. Run St. Pierre's closer on the winner: **would this have looked the same without me?**
+9. **Contextual correctness: does every legible document/label in frame carry its REAL contents,
+   sourced from the deliverable's own copy — and did you zoom the output and read it?** (Layer 9,
+   `references/realism-floor.md`. A wrong number in a legible cell is a factual-veto matter.)
+10. Run St. Pierre's closer on the winner: **would this have looked the same without me?**
 
 **Next:** `03-bank-and-batch.md`.
