@@ -177,6 +177,11 @@ really black."* The first run was mid-grey end to end, which reads as render.
    method column, units, result formats ("Below LOQ", "Absent") — with the specimen source named
    in the sweep log?** A document spec written from model memory fails this gate even when its
    numbers are right.
+   **9b: are image, document, and copy ONE SKU?** The document belongs to the exact product the
+   deliverable's evidence quotes (read the teardown — don't assume); its header names that
+   product and flavor; the antagonist object plays that SKU's own story. Cover the image — the
+   document must name what the copy quotes. Cover the document — the image must match what the
+   reviews describe. Any mismatch is a full stop.
 10. Run St. Pierre's closer on the winner: **would this have looked the same without me?**
 
 **Next:** `03-bank-and-batch.md`.

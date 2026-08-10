@@ -17,7 +17,7 @@ refuses: "Wide shots. Colour beyond the single warm note. Any second light sourc
 conditions: "Needs a rigor artifact the buyer recognises (COA, spec sheet, lab report, invoice) AND an antagonist object that physically damages it. The argument must be visible as damage, not adjacency."
 anti_conditions: "Do not use where the message is aspirational or warm. It is an indictment format — it makes a case against something. Wrong for launch, celebration or founder-story content. Also wrong for a person-forward brand."
 references: [reference-1.png, reference-2.png, reference-3.png]
-provenance: "Built 2026-08-10 across three rounds against the Transparent Labs teardown. v1 rejected (fake tension, no capture layer). v2 scored 8/10 from Farrice (realism gate applied). v3 selected after adding subsurface scattering, specular agreement and luminance-dependent noise. 4 variants generated, 1 selected — reference-1 = v3-02, reference-2 = v3-04."
+provenance: "Built 2026-08-10 across six rounds against the Transparent Labs teardown. Final (v6-03, reference-3) is the 9b-coherent plate: WHEY PROTEIN ISOLATE — MILK CHOCOLATE, real published panel (28g/32g serving), the SKU the quoted reviews belong to. v1 rejected (fake tension, no capture layer). v2 scored 8/10 from Farrice (realism gate applied). v3 selected after adding subsurface scattering, specular agreement and luminance-dependent noise. 4 variants generated, 1 selected — reference-1 = v3-02, reference-2 = v3-04."
 created: 2026-08-10
 verified: 2026-08-10
 ---
@@ -66,7 +66,14 @@ doses, but "Heavy Metals NMT 10 ppm" as one generic row — a founder clocks tha
 supplement COAs the researched form is: per-element heavy metals (Arsenic/Cadmium/Lead/Mercury),
 a METHOD column (HPLC · ICP-MS · USP <2021>/<2022>), µg-per-serving units, and "Below LOQ" /
 "Absent" result formats, closed by the accredited-lab line. Specimen source logged in the sweep
-log. Doctrine: `skills/style-vault/references/realism-floor.md` § ninth layer + 9a.
+log.
+
+**And 9b — image, document, and copy must be ONE SKU** (v5 scar: a correctly-formed pre-workout
+COA under chocolate ice cream, when the "tastes just like chocolate ice cream" reviews were the
+whey isolate's — three assets, two products, zero coherence). Read the teardown to identify the
+exact SKU the quoted evidence belongs to; the document carries that product's name, flavor,
+serving size and real published panel; the antagonist object plays that SKU's own story.
+Doctrine: `skills/style-vault/references/realism-floor.md` § ninth layer + 9a + 9b.
 
 ## Portable string per model
 

@@ -148,6 +148,29 @@ domain knowledge in my head is not the specimen.
 4. Substantive values still come from the deliverable's own copy (layer 9); the specimen
    supplies the FORM those values sit in.
 
+### 9b — PRODUCT COHERENCE (Farrice, 2026-08-10; the miss that survived 9 and 9a)
+
+Right values in the right form can still be the **wrong product's document**. The scar: a
+correctly-formed COA headed "PRE-WORKOUT POWDER" under melting chocolate ice cream — but the
+"tastes just like chocolate ice cream" reviews are about the **whey isolate, milk chocolate**.
+Three assets, two products, zero coherence. A practitioner in the category reads that mismatch
+the way a copy editor reads a typo.
+
+**The rule: image, document, and copy must be ONE SKU.**
+
+1. **Identify the exact SKU the deliverable's evidence belongs to** (which product were the
+   quoted reviews for? which page was audited?). The teardown names it; read it, don't assume.
+2. **The document is that SKU's** — its real published panel, its flavor, its serving size, its
+   product name in the header. Not a representative composite, not the brand's other product.
+3. **The antagonist object plays that SKU's story.** Chocolate ice cream belongs on the
+   milk-chocolate whey COA because that is the exact sensory claim the customers made.
+4. **Cross-check all three before generating:** cover the image — does the document alone name
+   the same product the copy quotes? Cover the document — does the image alone match the flavor
+   and form the reviews describe? Any mismatch is a full stop, not a note.
+
+This is the layer that turns "impressive-looking" into "someone who actually did the work" —
+the small detail a real analyst would never miss, because their credibility is the product.
+
 ## The order to fix in
 
 Grade path → **physics** → **capture** → look. Drift in the first three is a control failure: fix
