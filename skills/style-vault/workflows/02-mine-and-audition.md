@@ -84,6 +84,15 @@ favourite subset.
 
 Score each: **holds · drifts · breaks.**
 
+**And the felt-sense check (Farrice, 2026-08-10 — the STYLE-COLONIZATION failure):** a style can
+hold visually and still BREAK situationally — the ICP-audition round rendered a wellness
+founder's kitchen-counter morning and a founder's midnight browser as forensic steel-bench noir,
+because the card's world overwrote the scene's world. Frames were craft-clean and situationally
+false. The rule: **the card supplies craft constants (capture discipline, light logic, black
+point, physics, imperfection); the SCENE supplies the world (place, hour, warmth, objects).** If
+auditioning a scene requires relocating it into the card's world, the verdict is **breaks** —
+however good the frames look. Resonance = the buyer recognising THEIR room, not your style.
+
 | Result | Verdict |
 |---|---|
 | Holds on all scenes | Bank it. |

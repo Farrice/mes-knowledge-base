@@ -75,6 +75,19 @@ exact SKU the quoted evidence belongs to; the document carries that product's na
 serving size and real published panel; the antagonist object plays that SKU's own story.
 Doctrine: `skills/style-vault/references/realism-floor.md` § ninth layer + 9a + 9b.
 
+## Audition record — three ICP segment probes (2026-08-10)
+
+| Probe (segment) | Verdict | Why |
+|---|---|---|
+| Supplement founder — product page beside review widget | **breaks (felt-sense)** | Held only by physicalizing the screens as bench printouts — style colonized the scene. One usable frame (supp-01) kept as a *teardown-register* alternate, not the segment's native look. Kill notes: 3 of 4 variants invented physically impossible serving sizes (12.5–15 g scoops holding 14.5 g actives) — **serving size is a layer-9 literal now**; one row-slip. |
+| Performance growth lead — PDP bullets + face-down proof | **breaks (felt-sense)** | Same colonization: office-world scene forced onto the bench. |
+| Wellness founder — FAQ accordion on kitchen counter | **breaks (felt-sense + 9b)** | Kitchen morning rendered as lab noir; one variant's background COA rendered as a THC cannabinoid profile under a gummies FAQ — category violation. |
+
+**Standing conclusion:** this card is the TEARDOWN INDICTMENT look — correct for evidence-vs-
+negligence arguments in its own forensic world. It does NOT travel to segment-native scenes;
+those need world-native cards (see the segment sweeps). The audition did its job: the tier is
+`tight`, and tight styles don't travel — they reproduce.
+
 ## Portable string per model
 
 | Model | String / reference plan |
