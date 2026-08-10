@@ -372,7 +372,7 @@
 | `story-bible-builder` | **story-bible-builder** | output is a ready-to-install skill | 4 | 0 |
 | `story-compass` | **story-compass** | story diagnosis × narrative architecture × pre-creation compass, compresses any idea into one gps sentence "i wanted ___, but ___, until ___, " binary story-vs-topic test (all three present = story | 13 | 0 |
 | `strength-conditioning-os` | **strength-conditioning-os** | conductor hub for the strength-&-conditioning / fitness coaching package, the coaching conductor | 2 | 0 |
-| `style-vault` | **style-vault** | the brand-image pipeline and the keyed style vault — many looks, switchable by brand x icp x platform, compounding instead of restarting | 3 | 0 |
+| `style-vault` | **style-vault** | the brand-image pipeline and the keyed style vault — many looks, switchable by brand x icp x platform, compounding instead of restarting | 4 | 0 |
 | `sunny-lenarduzzi-youtube` | **sunny-lenarduzzi-youtube** | hyper-targeted audience, the code framework (client, differentiation | 4 | 0 |
 | `supercomputer` | **supercomputer** | reference architecture documented in `skills/supercomputer/genius | 4 | 0 |
 | `susan-orlean-narrative-nonfiction` | **Susan Orlean — Narrative Nonfiction & The Telling Subject** | grounded in her how i write interview with david perell, the three hard-walled phases (research, then thinking | 12 | 0 |

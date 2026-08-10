@@ -62,9 +62,14 @@ ICP profile ──▶ 01 seed-scenes ──▶ scene inventory (pain + desire)
 
 | Workflow | Deliverable |
 |---|---|
+| **`workflows/04-cover-plate.md`** | **THE imagery run — one verified cover plate at the proven v6-03 standard (~120 credits). The default front door: brief in, image out.** |
 | `workflows/01-seed-scenes.md` | A scene inventory: 3+ pain-state and 3+ desire-state scenes drawn from a real ICP profile, plus the fixed probe subject |
 | `workflows/02-mine-and-audition.md` | A decided style, proven to replicate across the whole scene inventory, written to a `card.md` with `verified` set |
 | `workflows/03-bank-and-batch.md` | A permuted, curated, indexed image bank keyed to brand × ICP × platform |
+
+**Scope ruling (Farrice, 2026-08-10):** this skill's product is the IMAGERY. Decks, captions and
+content are his; the deck pipeline (workflow 03 § deck doctrine) stays wired but is optional and
+only runs on his ask.
 
 ## THE VAULT
 
