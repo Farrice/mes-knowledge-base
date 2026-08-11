@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-11 | [cancel-rate-reviews-your-angle-post](2026-08-11-cancel-rate-reviews-your-angle-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
+| 2026-08-11 | [thirty-five-customers-one-subscription-script](2026-08-11-thirty-five-customers-one-subscription-script.md) | 45-60s video script | Thesis · P3 | Growth | Outer | READY |
 | 2026-08-10 | [subtraction-slot-post](2026-08-10-subtraction-slot-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
 | 2026-08-10 | [subtraction-problem-carousel](2026-08-10-subtraction-problem-carousel.md) | Carousel (11 slides) | Thesis · P1 | Authority | Bridge | READY |
 | 2026-08-09 | [kitchen-qa-post](2026-08-09-kitchen-qa-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
