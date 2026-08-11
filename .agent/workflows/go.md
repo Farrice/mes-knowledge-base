@@ -37,6 +37,13 @@ It needs his words protected, the right files loaded, and awareness of what's
 already open. **Do not re-add a compile-first stage, a conductor handoff by
 default, or mandatory paperwork. That is the failure, three times over.**
 
+**His verdict on v4's first cut was `marginal` — "smaller, not amazing"** (the
+first non-good verdict ever captured in 306 mission entries). He was right:
+subtracting the middleman only stops /go being wrong. Stage 0.7 is the addition —
+the bar, the depth ladder, and preserved dissent — and it is the reason to type
+`/go` rather than just start working. **Cut Stage 0.7 and this is a diet, not a
+front door.**
+
 ## Stage -1 — CONTINUITY (one command, then move)
 
 ```bash
@@ -97,12 +104,47 @@ ask them now, before producing. A confident-feeling intent never suppresses one.
 `ORPHAN ⚑`, one line, never a block. If `campaign_beacon.py` shows an open
 campaign and this serves something else, say so in one line and keep going.
 
+## Stage 0.7 — THE BAR (this is the part that makes /go worth having)
+
+Stages -1 through 0.5 only stop /go being wrong. This stage is what makes it
+good, and it's the answer to his 2026-08-10 verdict on v4's first cut:
+*"smaller, not amazing."* Removing the middleman was necessary and insufficient.
+Three moves, each extending machinery already proven on disk — never a new engine.
+
+**1. Name the bar before producing** (`directives/blind-bar-protocol.md`, approved
+2026-08-05). Every taste-bearing deliverable carries a one-line Bar clause:
+
+> **Bar**: `<named reference artifact — path or exact exemplar>`. Nothing else counts as done.
+
+Adjectives orient; only a named artifact decides. "High quality" and "on-brand"
+are not a bar. No real reference exists → write `Bar: none` and say so — never
+improvise one. Then run the blind side-by-side before he sees it: if the
+deliverable is instantly distinguishable as the weaker piece, it fails, repair the
+**single biggest gap**, hard cap two rounds. Deterministic lints
+(`prose_classifier.py`, `voice_evaluator.py`) run first — they're free. This is
+in-context reasoning, never a subagent, never a critic fleet (four separate scars).
+**His taste should enter at a high baseline, not be spent QA-ing floor defects.**
+
+**2. Load to depth, and say what you loaded.** "Expert named" is the v2 failure;
+"two files opened" is a floor, not a ceiling. State the ladder in one line:
+
+| Work type | Minimum real load |
+|---|---|
+| Anything in his voice | `_active/farrice-brand/voice/VOICE-CARD.md` + register per the Voice Atlas |
+| Content / copy | 2+ skill files, and `genius.md` — not just `SKILL.md` (Tier-1-only is a logged defect) |
+| Creative generation | the master per `skills/generate/references/craft-map.md` — freehand = slop, proven A/B |
+| Identity / offer / brand | `FARRICE-MASTER-CONTEXT.md` before asking him anything |
+| Buyer-facing claims | the ICP's researched words **verbatim** — paraphrase kills credibility silently |
+| Real people, dates, stats | grounding protocols auto-fire; label VERIFIED / LIKELY / UNCONFIRMED |
+
+**3. Preserve dissent; never blend.** When the loaded stack genuinely disagrees on
+approach, surface the fork in one line and let him pick, or pick and name what you
+overrode. Averaging two experts into a consensus take is the documented failure
+mode — it produces work with no author. One pen per body, always.
+
 ## Stage 1 — LOAD, THEN RUN IN PLACE
 
-**Load before producing** — expert files opened, not names dropped. Content work
-loads a minimum of two skill files; anything in his voice layers
-`_active/farrice-brand/voice/VOICE-CARD.md`; creative generation loads the master
-per `skills/generate/references/craft-map.md` (never freehand a generator prompt).
+Execute the ladder from Stage 0.7 — expert files opened, not names dropped.
 
 **Then run it here.** The context that heard him executes. Hand off ONLY when the
 work is genuinely that shape:
@@ -148,7 +190,10 @@ harness. They are not a tax on every run.
 ## Stage 3 — DELIVER + CLOSE
 
 1. Ship the work.
-2. Close the mission line with the outcome.
+2. Close the mission line with the outcome, and carry the bar receipt into
+   finalize notes: `BlindBar: PASS | FAIL(gap: …) | N/A(no ref) — <n> rounds`.
+   A skipped bar is written `N/A`, never implied — a silent pass is the
+   rubber-stamp failure (2026-07-16).
 3. **One-tap verdict** — the delivery's last line is verbatim
    `Verdict on this one — good / marginal / off?`. Unanswered is his call; unasked
    is a session defect. Log felt verdicts with `voice_ratchet.py add` when they
