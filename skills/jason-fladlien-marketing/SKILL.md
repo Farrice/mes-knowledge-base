@@ -7,15 +7,32 @@ domain: High-status marketing × persuasion physics × incomparable offer engine
 
 # Jason Fladlien — High-Status Marketing & Closing
 
-Expert in persuasion physics, subtractive psychology, fear-first conversion, incomparable offer engineering, indirect communication, and spoken copy. The "Guru's Guru" — the man Alex Hormozi, Iman Gadzhi, and the biggest names hire when they need someone who can move millions.
+This package preserves Jason Fladlien's practitioner methods for offer design, presentations, spoken copy, and persuasion analysis. Endorsements, revenue language, quantified results, neuroscience explanations, and audience-psychology claims in the source corpus are `SOURCE-REPORTED` unless independently corroborated; they are not runtime proof or permission to infer a buyer's inner state.
+
+Autonomy and truth remain superior to every legacy technique name. Use observed objections, disclosed terms, supported proof, and voluntary choice. Never invent fear, urgency, scarcity, identity, motives, outcomes, or resistance; never hide alternatives or material terms; and never use this skill to exhaust refusal, target vulnerability, or replace a high-stakes evidence owner.
 
 ## Core Philosophy
 - **Success by Subtraction**: Remove the one weight, don't add ten tactics
-- **Fear-First Conversion**: Get them to run out of reasons to say no, not decide to say yes
+- **Fear-First Conversion** (legacy practitioner label): surface legitimate evidenced risk and answer it honestly; never manufacture fear or exhaust informed refusal
 - **TERMS Buyer-Burden Architecture**: Diagnose Time, Effort, Routine, Money, and Status before adding persuasion
 - **Incomparable Offer Engineering**: Don't make a better offer — make an incomparable one
 - **Indirect Communication Mastery**: At the highest levels, get them to sell themselves
 - **Radical Candor as Scarcity**: Honesty is the rarest differentiator in a manipulative market
+
+## Cold Buyer-Psychology Decision Companion
+
+When a human receiver must understand, remember, evaluate, choose, adopt, or act, and one buyer decision could materially change the artifact, the active function owner may cold-load:
+
+- `semantic_libraries/antigravity/primitives/buyer-psychology-decision-intelligence-overlay.md`
+- `references/buyer-psychology-decision-layer.md` only when source detail is needed
+
+The SHADOW companion selects one primary decision from Belief, Focus, Recognition, Priority, Fit, Choice, Congruence, or Affect, then returns the smallest useful change to the canonical owner. It does not replace that owner, diagnose buyers, grant scientific authority to practitioner language, or load this full skill by default. Skip it for neutral, mechanical, evidence-ledger, specification, status, code, high-stakes evidence, and already-clear work.
+
+Five additional research-calibrated cards—Evidence, Agency, Value, Action, and Experience—remain `CANDIDATE / DEVELOPMENT_ONLY`; they are not runtime-selectable.
+
+### Evidence and prompt boundary
+
+Treat ratios, quantified lifts, neuroscience language, clinical language, NLP explanations, audience motives, and business-result claims as practitioner attestation unless a timestamped source and independent support are present. Do not use compatibility prompts, legacy mirrors, or structure-pure prompt formatting as factual corroboration. For master-layer use, consult `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-admission-map.md` and use only the explicitly named safe kernel. Defensive-only material may diagnose a pattern but may not reproduce it.
 
 ## Workflows (38 files: 37 public + 1 internal)
 
@@ -91,7 +108,7 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 
 ## Expert Context
 - **genius.md**: Full extraction intelligence — foundational and enriched patterns across persuasion, offer architecture, teaching, game selection, and watched-source expansions; tranche 4 adds TERMS Buyer-Burden Architecture and the adoption/proof-as-offer-term insight. Full 18-lever runtime depth remains cold in `references/offer-terms.md`.
-- **Source Material**: 2 transcript extractions and extended analysis; 2026-07-01 and 2026-07-10 claude.ai export tranches; 2026-07-19 watched persuasion-patterns and Charlie Morgan sources; the 2026-07-23 full Persuasive Patterns library; and the 2026-08-02 watched “Million Dollar Offers” source with native captions, notebook-frame review, hashes, segment index, visual ledger, and uncertainty report.
+- **Source Material**: 2 transcript extractions and extended analysis; 2026-07-01 and 2026-07-10 claude.ai export tranches; 2026-07-19 watched persuasion-patterns and Charlie Morgan sources; the 2026-07-23 full Persuasive Patterns library; the 2026-08-02 watched “Million Dollar Offers” source with native captions, notebook-frame review, hashes, segment index, visual ledger, and uncertainty report; and the six-package source-grounded buyer-psychology corpus at `extractions/jason-fladlien/buyer-psychology-intelligence-layer/`.
 - **Domain Coverage**: Offer burden and adoption, copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing, indirect persuasion, and conversational copy
 - **Prompt Library**: [references/prompts/](references/prompts/) — 26 crown-jewel practitioner prompts (mirrored in [references/_legacy-prompts/](references/_legacy-prompts/); searchable via `python3 execution/prompt_library.py search "<topic>"`)
 

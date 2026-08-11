@@ -1,0 +1,6581 @@
+[
+  {
+    "timestamp": "00:00:00.000",
+    "seconds": 0.0,
+    "type": "observed_spoken",
+    "evidence": "Just trust your gut. This is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00",
+    "seconds": 0,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000000.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:00:02.120",
+    "seconds": 2.12,
+    "type": "observed_spoken",
+    "evidence": "advice whether it's from Oprah or from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:03.960",
+    "seconds": 3.96,
+    "type": "observed_spoken",
+    "evidence": "Steve Jobs. The broke, the fat, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:05.920",
+    "seconds": 5.92,
+    "type": "observed_spoken",
+    "evidence": "lonely, they trust their gut everyday as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:07.640",
+    "seconds": 7.64,
+    "type": "observed_spoken",
+    "evidence": "they become more and more miserable. But",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:10.400",
+    "seconds": 10.4,
+    "type": "observed_spoken",
+    "evidence": "once you understand these cognitive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:12.200",
+    "seconds": 12.2,
+    "type": "observed_spoken",
+    "evidence": "biases that I'll cover in this video,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:14.240",
+    "seconds": 14.24,
+    "type": "observed_spoken",
+    "evidence": "then the world is going to make a whole",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:15.960",
+    "seconds": 15.96,
+    "type": "observed_spoken",
+    "evidence": "bunch more sense to you and you'll be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.760",
+    "seconds": 17.76,
+    "type": "observed_spoken",
+    "evidence": "able to make a whole bunch more money",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:19.600",
+    "seconds": 19.6,
+    "type": "observed_spoken",
+    "evidence": "from it. Now, if you know how to sell,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:21.320",
+    "seconds": 21.32,
+    "type": "observed_spoken",
+    "evidence": "you will never be broke, but selling is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:23.200",
+    "seconds": 23.2,
+    "type": "observed_spoken",
+    "evidence": "confusing because buyers are irrational.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:25.800",
+    "seconds": 25.8,
+    "type": "observed_spoken",
+    "evidence": "However, they are consistent in their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.800",
+    "seconds": 27.8,
+    "type": "observed_spoken",
+    "evidence": "irrationality and once you understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:29.720",
+    "seconds": 29.72,
+    "type": "observed_spoken",
+    "evidence": "this, you'll design better offers,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:31.800",
+    "seconds": 31.8,
+    "type": "observed_spoken",
+    "evidence": "communicate those offers more clearly in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:34.480",
+    "seconds": 34.48,
+    "type": "observed_spoken",
+    "evidence": "a way that their value can be better",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:36.160",
+    "seconds": 36.16,
+    "type": "observed_spoken",
+    "evidence": "understood, and you can actually save",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:38.480",
+    "seconds": 38.48,
+    "type": "observed_spoken",
+    "evidence": "people from themselves. Now, con men use",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.360",
+    "seconds": 41.36,
+    "type": "observed_spoken",
+    "evidence": "these eight biases to separate good",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:43.000",
+    "seconds": 43.0,
+    "type": "observed_spoken",
+    "evidence": "folks from good money, but you will use",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:45.400",
+    "seconds": 45.4,
+    "type": "observed_spoken",
+    "evidence": "these to serve help and impact the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:47.080",
+    "seconds": 47.08,
+    "type": "observed_spoken",
+    "evidence": "world. I hope at least. And I share",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:49.720",
+    "seconds": 49.72,
+    "type": "observed_spoken",
+    "evidence": "these with you not as a clinician or a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:51.400",
+    "seconds": 51.4,
+    "type": "observed_spoken",
+    "evidence": "cognitive psychologist, but as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:53.160",
+    "seconds": 53.16,
+    "type": "observed_spoken",
+    "evidence": "businessman who has used these eight",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:55.120",
+    "seconds": 55.12,
+    "type": "observed_spoken",
+    "evidence": "biases to make eight figures online",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:57.760",
+    "seconds": 57.76,
+    "type": "observed_spoken",
+    "evidence": "across dozens of different industries.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:00",
+    "seconds": 60,
+    "type": "observed_onscreen_text",
+    "evidence": "mon cin ly cgi ening cr tein mda eet\n‘meter parca rent Moma Spica tc nt gn)\n‘19 eon nowt 2 data ot ch\nNotable Launch Achievements\n\n+ Abn Hoge atch Mth ec er npn chee\n‘metteg ace 69 won\n\n+ tan nce eerie #4 lon corns ofa\ntrode choo\n\n+ Uhl 25 milan ert sit ma tn 0.000\nsoonest\n\n+ tierce row oh \"0 lon oni an rc\nCoemedeatictoa sigh saat (0000 cng pry eat\n(ote orogens vetind ci pon pd ot Bas\n\nKey Strategies for These Results\n\n+ Tha atta loat cen gn wth abet (ng pont\n{90.000 eh) wee procter a deere sng\n+ eatin rot-Loading ated tp eee en econ,\n\nSecret tit\n\nOme\n\nee",
+    "source": "extractions/video-context/jbPNjNtQqk0/frames/frame-000060.jpg",
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:00",
+    "seconds": 60,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000060.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:01:00.480",
+    "seconds": 60.48,
+    "type": "observed_spoken",
+    "evidence": "If you're ready, let's dive in.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.000",
+    "seconds": 63.0,
+    "type": "observed_spoken",
+    "evidence": "Cognitive bias number one, belief",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:06.280",
+    "seconds": 66.28,
+    "type": "observed_spoken",
+    "evidence": "perseverance.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:07.840",
+    "seconds": 67.84,
+    "type": "observed_spoken",
+    "evidence": "No, it's simple. See, they created this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:09.840",
+    "seconds": 69.84,
+    "type": "observed_spoken",
+    "evidence": "cover-up to cover-up that cover-up to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.280",
+    "seconds": 72.28,
+    "type": "observed_spoken",
+    "evidence": "cover-up that cover-up to cover-up the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:14.440",
+    "seconds": 74.44,
+    "type": "observed_spoken",
+    "evidence": "other cover-ups. Here's something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:16.120",
+    "seconds": 76.12,
+    "type": "observed_spoken",
+    "evidence": "fascinating about the human condition is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:18.680",
+    "seconds": 78.68,
+    "type": "observed_spoken",
+    "evidence": "the more you convince somebody that they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:21.320",
+    "seconds": 81.32,
+    "type": "observed_spoken",
+    "evidence": "are wrong, the more they believe they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:23.560",
+    "seconds": 83.56,
+    "type": "observed_spoken",
+    "evidence": "are right. So, if somebody comes to you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:25.320",
+    "seconds": 85.32,
+    "type": "observed_spoken",
+    "evidence": "and says, \"Man, Jason, I just can't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:26.960",
+    "seconds": 86.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "focus.\" And you say, \"Yeah, you totally",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:28.720",
+    "seconds": 88.72,
+    "type": "observed_spoken",
+    "evidence": "can focus.\" They're like, \"Dude, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:30.160",
+    "seconds": 90.16,
+    "type": "observed_spoken",
+    "evidence": "don't understand me. I don't like you.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:32.360",
+    "seconds": 92.36,
+    "type": "observed_spoken",
+    "evidence": "And because I'm in a state where I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:34.360",
+    "seconds": 94.36,
+    "type": "observed_spoken",
+    "evidence": "unfocused, I will double down on that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:36.640",
+    "seconds": 96.64,
+    "type": "observed_spoken",
+    "evidence": "state. The fact that you don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:38.000",
+    "seconds": 98.0,
+    "type": "observed_spoken",
+    "evidence": "understand me proves that I'm correct.\"",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:40.760",
+    "seconds": 100.75999999999999,
+    "type": "observed_spoken",
+    "evidence": "And so, when we deal with clients on a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.960",
+    "seconds": 102.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "persuasive basis, we do not try to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:46.240",
+    "seconds": 106.24000000000001,
+    "type": "observed_spoken",
+    "evidence": "change beliefs. What we do instead is we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:50.040",
+    "seconds": 110.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "make them more uncomfortable",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:52.560",
+    "seconds": 112.56,
+    "type": "observed_spoken",
+    "evidence": "holding on to those beliefs. And I know",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:55.560",
+    "seconds": 115.56,
+    "type": "observed_spoken",
+    "evidence": "that this sounds like slight of hand,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:58.000",
+    "seconds": 118.0,
+    "type": "observed_spoken",
+    "evidence": "but it isn't. And I'll give you an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:59.640",
+    "seconds": 119.64,
+    "type": "observed_spoken",
+    "evidence": "example. Clients come to me all the time",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:00",
+    "seconds": 120,
+    "type": "observed_onscreen_text",
+    "evidence": "sp PeGN\n2 E Ore OO cay roe emote\ndort as VAM an el",
+    "source": "extractions/video-context/jbPNjNtQqk0/frames/frame-000120.jpg",
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:00",
+    "seconds": 120,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000120.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:02:01.400",
+    "seconds": 121.4,
+    "type": "observed_spoken",
+    "evidence": "saying, \"Jason, webinars, I don't think",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.760",
+    "seconds": 123.76,
+    "type": "observed_spoken",
+    "evidence": "they work so much anymore.\" And I say,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.840",
+    "seconds": 125.84,
+    "type": "observed_spoken",
+    "evidence": "\"Really? Okay, should I quit doing them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:07.800",
+    "seconds": 127.8,
+    "type": "observed_spoken",
+    "evidence": "then?\" And they're like, \"Well, well,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:08.880",
+    "seconds": 128.88,
+    "type": "observed_spoken",
+    "evidence": "well, hold on a second. Maybe you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:09.920",
+    "seconds": 129.92,
+    "type": "observed_spoken",
+    "evidence": "shouldn't quit doing them. They just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:10.960",
+    "seconds": 130.96,
+    "type": "observed_spoken",
+    "evidence": "don't really work for me.\" How many",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:12.720",
+    "seconds": 132.72,
+    "type": "observed_spoken",
+    "evidence": "times have you tried them? 100, 200, 500",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:15.360",
+    "seconds": 135.36,
+    "type": "observed_spoken",
+    "evidence": "times? You seem pretty confident to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:16.720",
+    "seconds": 136.72,
+    "type": "observed_spoken",
+    "evidence": "assert to me that they no longer work.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:18.880",
+    "seconds": 138.88,
+    "type": "observed_spoken",
+    "evidence": "And they're like, \"Well, I did it one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:20.880",
+    "seconds": 140.88,
+    "type": "observed_spoken",
+    "evidence": "time in the last month.\" And you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:22.320",
+    "seconds": 142.32,
+    "type": "observed_spoken",
+    "evidence": "like, \"Okay, so help me understand this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:24.560",
+    "seconds": 144.56,
+    "type": "observed_spoken",
+    "evidence": "so I can be clear here.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:26.720",
+    "seconds": 146.72,
+    "type": "observed_spoken",
+    "evidence": "You think one attempt in one situation",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:29.360",
+    "seconds": 149.36,
+    "type": "observed_spoken",
+    "evidence": "with one condition means that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:32.120",
+    "seconds": 152.12,
+    "type": "observed_spoken",
+    "evidence": "it doesn't work? And they're like,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:33.280",
+    "seconds": 153.28,
+    "type": "observed_spoken",
+    "evidence": "\"Well, okay, maybe that's a dumb way of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.600",
+    "seconds": 155.6,
+    "type": "observed_spoken",
+    "evidence": "thinking about it.\" And this is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:37.240",
+    "seconds": 157.24,
+    "type": "observed_spoken",
+    "evidence": "principle I've used over and over again",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:39.520",
+    "seconds": 159.52,
+    "type": "observed_spoken",
+    "evidence": "is if we can change the feeling around",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:43.200",
+    "seconds": 163.2,
+    "type": "observed_spoken",
+    "evidence": "the belief instead of changing the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:45.040",
+    "seconds": 165.04,
+    "type": "observed_spoken",
+    "evidence": "belief, then the belief will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:46.880",
+    "seconds": 166.88,
+    "type": "observed_spoken",
+    "evidence": "automatically collapse if it doesn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:48.440",
+    "seconds": 168.44,
+    "type": "observed_spoken",
+    "evidence": "serve them. At the same time, we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:50.440",
+    "seconds": 170.44,
+    "type": "observed_spoken",
+    "evidence": "easily exaggerate a belief to the point",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:52.880",
+    "seconds": 172.88,
+    "type": "observed_spoken",
+    "evidence": "that it stretches so long that it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:54.959",
+    "seconds": 174.959,
+    "type": "observed_spoken",
+    "evidence": "breaks. But, I will tell you every day,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:57.920",
+    "seconds": 177.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "99 out of 100 times when I see people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "03:00",
+    "seconds": 180,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000180.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:03:00.480",
+    "seconds": 180.48,
+    "type": "observed_spoken",
+    "evidence": "have an interaction, somebody comes and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:02.920",
+    "seconds": 182.92,
+    "type": "observed_spoken",
+    "evidence": "they say, \"This is how I'm feeling.\" And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:05.680",
+    "seconds": 185.68,
+    "type": "observed_spoken",
+    "evidence": "the other person tries to convince them,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:07.280",
+    "seconds": 187.28,
+    "type": "observed_spoken",
+    "evidence": "\"No, it's not that bad.\" Instead, it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:09.480",
+    "seconds": 189.48,
+    "type": "observed_spoken",
+    "evidence": "would be better to say, \"Whoa, that is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:12.040",
+    "seconds": 192.04,
+    "type": "observed_spoken",
+    "evidence": "terrible. How are you ever going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:14.239",
+    "seconds": 194.239,
+    "type": "observed_spoken",
+    "evidence": "survive it?\" And then having them try to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:16.680",
+    "seconds": 196.68,
+    "type": "observed_spoken",
+    "evidence": "defend a belief that doesn't make sense",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:19.080",
+    "seconds": 199.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "will allow them to automatically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.200",
+    "seconds": 201.2,
+    "type": "observed_spoken",
+    "evidence": "understand that maybe there's a better",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:23.120",
+    "seconds": 203.12,
+    "type": "observed_spoken",
+    "evidence": "belief that they should be considering",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:24.959",
+    "seconds": 204.959,
+    "type": "observed_spoken",
+    "evidence": "instead. And then when they're in that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.480",
+    "seconds": 206.48,
+    "type": "observed_spoken",
+    "evidence": "position that maybe there is a better",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.320",
+    "seconds": 208.32,
+    "type": "observed_spoken",
+    "evidence": "belief, that's when they are now open to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:31.560",
+    "seconds": 211.56,
+    "type": "observed_spoken",
+    "evidence": "suggestion.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:33.280",
+    "seconds": 213.28,
+    "type": "observed_spoken",
+    "evidence": "So, what you want to do is you want to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:34.760",
+    "seconds": 214.76,
+    "type": "observed_spoken",
+    "evidence": "take the beliefs that hold your audience",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:37.239",
+    "seconds": 217.239,
+    "type": "observed_spoken",
+    "evidence": "back, find ways to make it impossible",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:39.440",
+    "seconds": 219.44,
+    "type": "observed_spoken",
+    "evidence": "for those to hold those beliefs and feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:42.080",
+    "seconds": 222.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "good about them, and then be ready with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:45.320",
+    "seconds": 225.32,
+    "type": "observed_spoken",
+    "evidence": "the new belief to install in their place",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:47.760",
+    "seconds": 227.76,
+    "type": "observed_spoken",
+    "evidence": "when they turn and ask you, \"So, what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:49.480",
+    "seconds": 229.48,
+    "type": "observed_spoken",
+    "evidence": "should I do?\" Don't tell them what to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:51.760",
+    "seconds": 231.76,
+    "type": "observed_spoken",
+    "evidence": "do. get them to ask you, \"What should I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:54.720",
+    "seconds": 234.72,
+    "type": "observed_spoken",
+    "evidence": "do?\" Bias number two, what we call",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.600",
+    "seconds": 237.6,
+    "type": "observed_spoken",
+    "evidence": "attentional",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:59.360",
+    "seconds": 239.36,
+    "type": "observed_spoken",
+    "evidence": "bias. Oh, he's so nicely dressed. He",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "04:00",
+    "seconds": 240,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000240.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:04:02.760",
+    "seconds": 242.76,
+    "type": "observed_spoken",
+    "evidence": "must be trustworthy. So, about a million",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:05.480",
+    "seconds": 245.48,
+    "type": "observed_spoken",
+    "evidence": "years ago in psychology, there was this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.400",
+    "seconds": 247.4,
+    "type": "observed_spoken",
+    "evidence": "concept called seven plus or minus two.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:10.920",
+    "seconds": 250.92,
+    "type": "observed_spoken",
+    "evidence": "And this was said to be the bits of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:12.840",
+    "seconds": 252.84,
+    "type": "observed_spoken",
+    "evidence": "information that we can hold in our",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:14.800",
+    "seconds": 254.8,
+    "type": "observed_spoken",
+    "evidence": "heads. And actually, this is not true.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:17.920",
+    "seconds": 257.92,
+    "type": "observed_spoken",
+    "evidence": "We have it proven that it's even worse",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:20.600",
+    "seconds": 260.6,
+    "type": "observed_spoken",
+    "evidence": "than this. And here's where this came",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:22.240",
+    "seconds": 262.24,
+    "type": "observed_spoken",
+    "evidence": "from. They hired him for a phone company",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:24.520",
+    "seconds": 264.52,
+    "type": "observed_spoken",
+    "evidence": "when they were trying to determine, \"How",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:26.000",
+    "seconds": 266.0,
+    "type": "observed_spoken",
+    "evidence": "should we assign telephone numbers?\" And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:28.000",
+    "seconds": 268.0,
+    "type": "observed_spoken",
+    "evidence": "so, the idea was, well, if we have a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:29.760",
+    "seconds": 269.76,
+    "type": "observed_spoken",
+    "evidence": "number like this, then that's seven",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:31.840",
+    "seconds": 271.84,
+    "type": "observed_spoken",
+    "evidence": "pieces of information. So, just give me",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:33.480",
+    "seconds": 273.48,
+    "type": "observed_spoken",
+    "evidence": "a call on my number. It's 1 2 3 4 5 6 7.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:36.040",
+    "seconds": 276.04,
+    "type": "observed_spoken",
+    "evidence": "And I'm like, well, that's seven pieces",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.240",
+    "seconds": 277.24,
+    "type": "observed_spoken",
+    "evidence": "of information. But that doesn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:38.640",
+    "seconds": 278.64,
+    "type": "observed_spoken",
+    "evidence": "actually hold very well because if you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:40.720",
+    "seconds": 280.72,
+    "type": "observed_spoken",
+    "evidence": "have an area code that you're going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:43.240",
+    "seconds": 283.24,
+    "type": "observed_spoken",
+    "evidence": "attach to that, and I know it's a little",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:44.919",
+    "seconds": 284.919,
+    "type": "observed_spoken",
+    "evidence": "bit weirder for those of you that are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:46.360",
+    "seconds": 286.36,
+    "type": "observed_spoken",
+    "evidence": "not in the United States, but this is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:47.840",
+    "seconds": 287.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "what a number would look like in the US.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:49.520",
+    "seconds": 289.52,
+    "type": "observed_spoken",
+    "evidence": "It would be area code 5 5 5, and then 1",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.880",
+    "seconds": 291.88,
+    "type": "observed_spoken",
+    "evidence": "2 3 4 5 6 7. This is actually nine",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.680",
+    "seconds": 294.68,
+    "type": "observed_spoken",
+    "evidence": "pieces of information, but it's chunked",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.440",
+    "seconds": 297.44,
+    "type": "observed_spoken",
+    "evidence": "into three groups. And these chunks are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "05:00",
+    "seconds": 300,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000300.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:05:01.040",
+    "seconds": 301.04,
+    "type": "observed_spoken",
+    "evidence": "no larger than four pieces per chunk.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:05.400",
+    "seconds": 305.4,
+    "type": "observed_spoken",
+    "evidence": "And what I've discovered is on any given",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:08.240",
+    "seconds": 308.24,
+    "type": "observed_spoken",
+    "evidence": "topic, you are getting into dangerous",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:10.800",
+    "seconds": 310.8,
+    "type": "observed_spoken",
+    "evidence": "territory if you push the limit of focus",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:13.880",
+    "seconds": 313.88,
+    "type": "observed_spoken",
+    "evidence": "beyond four different pieces. This is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:17.480",
+    "seconds": 317.48,
+    "type": "observed_spoken",
+    "evidence": "why when I communicate, when I tell,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:20.360",
+    "seconds": 320.36,
+    "type": "observed_spoken",
+    "evidence": "when I create anything that I want to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:22.480",
+    "seconds": 322.48,
+    "type": "observed_spoken",
+    "evidence": "have change occur in my audience, I give",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:25.120",
+    "seconds": 325.12,
+    "type": "observed_spoken",
+    "evidence": "them very specific targets early on in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:29.240",
+    "seconds": 329.24,
+    "type": "observed_spoken",
+    "evidence": "my presentation. I will say, \"Today,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:32.280",
+    "seconds": 332.28,
+    "type": "observed_spoken",
+    "evidence": "we're going to cover these four things.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.440",
+    "seconds": 335.44,
+    "type": "observed_spoken",
+    "evidence": "Success by the end of our presentation",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:37.720",
+    "seconds": 337.72,
+    "type": "observed_spoken",
+    "evidence": "together will look like this in these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:40.000",
+    "seconds": 340.0,
+    "type": "observed_spoken",
+    "evidence": "three key areas of your life. These are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:43.160",
+    "seconds": 343.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "the four challenges you're going to face",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:46.080",
+    "seconds": 346.08,
+    "type": "observed_spoken",
+    "evidence": "along the way, and here are the three",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:48.320",
+    "seconds": 348.32,
+    "type": "observed_spoken",
+    "evidence": "strategies that we're going to use to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:50.760",
+    "seconds": 350.76,
+    "type": "observed_spoken",
+    "evidence": "overcome those four challenges.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:54.080",
+    "seconds": 354.08,
+    "type": "observed_spoken",
+    "evidence": "And when I will teach anything,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:56.560",
+    "seconds": 356.56,
+    "type": "observed_spoken",
+    "evidence": "especially when I'm selling, I will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:58.360",
+    "seconds": 358.36,
+    "type": "observed_spoken",
+    "evidence": "typically put it into what I call a road",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "06:00",
+    "seconds": 360,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000360.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:06:01.040",
+    "seconds": 361.04,
+    "type": "observed_spoken",
+    "evidence": "map. I'll say, \"When it comes to this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:02.920",
+    "seconds": 362.92,
+    "type": "observed_spoken",
+    "evidence": "problem, there are only three things",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:05.960",
+    "seconds": 365.96,
+    "type": "observed_spoken",
+    "evidence": "that really matter at the end of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:07.640",
+    "seconds": 367.64,
+    "type": "observed_spoken",
+    "evidence": "day.\" And then I will try to give them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:09.800",
+    "seconds": 369.8,
+    "type": "observed_spoken",
+    "evidence": "each one name. So, source, select, sell.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:13.480",
+    "seconds": 373.48,
+    "type": "observed_spoken",
+    "evidence": "Well, this was a webinar that I did $7",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:15.640",
+    "seconds": 375.64,
+    "type": "observed_spoken",
+    "evidence": "million on when it came to a certain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:17.400",
+    "seconds": 377.4,
+    "type": "observed_spoken",
+    "evidence": "specific business model. I say, \"These",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:19.120",
+    "seconds": 379.12,
+    "type": "observed_spoken",
+    "evidence": "are the three elements of success.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.480",
+    "seconds": 380.48,
+    "type": "observed_spoken",
+    "evidence": "You've got to source products, you've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:21.800",
+    "seconds": 381.8,
+    "type": "observed_spoken",
+    "evidence": "got to select You've got to select",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:23.080",
+    "seconds": 383.08,
+    "type": "observed_spoken",
+    "evidence": "products, I should say. You've got to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:24.120",
+    "seconds": 384.12,
+    "type": "observed_spoken",
+    "evidence": "source them in the right way and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:25.160",
+    "seconds": 385.16,
+    "type": "observed_spoken",
+    "evidence": "you've got to sell them in the right",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.600",
+    "seconds": 386.6,
+    "type": "observed_spoken",
+    "evidence": "manner.\" And people are like, \"Okay,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:28.000",
+    "seconds": 388.0,
+    "type": "observed_spoken",
+    "evidence": "there are three main key elements I need",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:29.840",
+    "seconds": 389.84,
+    "type": "observed_spoken",
+    "evidence": "to deal with.\" And then for each one of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:31.720",
+    "seconds": 391.72,
+    "type": "observed_spoken",
+    "evidence": "these, I never give more than four, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:34.919",
+    "seconds": 394.919,
+    "type": "observed_spoken",
+    "evidence": "usually three ways in which they can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:37.880",
+    "seconds": 397.88,
+    "type": "observed_spoken",
+    "evidence": "attack that. By continually focusing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:40.200",
+    "seconds": 400.2,
+    "type": "observed_spoken",
+    "evidence": "them on just a few pieces of information",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:42.520",
+    "seconds": 402.52,
+    "type": "observed_spoken",
+    "evidence": "in their mind and making those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.600",
+    "seconds": 404.6,
+    "type": "observed_spoken",
+    "evidence": "information's easy for them to put their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:46.880",
+    "seconds": 406.88,
+    "type": "observed_spoken",
+    "evidence": "attention on, you will have more impact",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.240",
+    "seconds": 409.24,
+    "type": "observed_spoken",
+    "evidence": "in your messaging. Cognitive bias number",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:51.240",
+    "seconds": 411.24,
+    "type": "observed_spoken",
+    "evidence": "three, what we call the Barnum effect.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:55.480",
+    "seconds": 415.48,
+    "type": "observed_spoken",
+    "evidence": "It's like he knows exactly who I am,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:57.720",
+    "seconds": 417.72,
+    "type": "observed_spoken",
+    "evidence": "therefore he must know how to help me.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:00.000",
+    "seconds": 420.0,
+    "type": "observed_spoken",
+    "evidence": "There's a secret structure of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "07:00",
+    "seconds": 420,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000420.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:07:01.480",
+    "seconds": 421.48,
+    "type": "observed_spoken",
+    "evidence": "communication that a lot of people just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:04.160",
+    "seconds": 424.16,
+    "type": "observed_spoken",
+    "evidence": "aren't aware of that can make a massive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:06.040",
+    "seconds": 426.04,
+    "type": "observed_spoken",
+    "evidence": "difference in influence and it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:07.400",
+    "seconds": 427.4,
+    "type": "observed_spoken",
+    "evidence": "properly structured",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:09.919",
+    "seconds": 429.919,
+    "type": "observed_spoken",
+    "evidence": "general statements",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:12.280",
+    "seconds": 432.28,
+    "type": "observed_spoken",
+    "evidence": "can have such a profound impact on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:15.520",
+    "seconds": 435.52,
+    "type": "observed_spoken",
+    "evidence": "rapport, understanding,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:18.160",
+    "seconds": 438.16,
+    "type": "observed_spoken",
+    "evidence": "and he gets me, which is what you want",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:21.000",
+    "seconds": 441.0,
+    "type": "observed_spoken",
+    "evidence": "to have every audience think when you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:24.240",
+    "seconds": 444.24,
+    "type": "observed_spoken",
+    "evidence": "are communicating to them. And these are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:26.280",
+    "seconds": 446.28,
+    "type": "observed_spoken",
+    "evidence": "things along the lines of when I speak",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:28.000",
+    "seconds": 448.0,
+    "type": "observed_spoken",
+    "evidence": "to an audience, I'll say, \"Listen,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:29.560",
+    "seconds": 449.56,
+    "type": "observed_spoken",
+    "evidence": "whether you find yourself just at the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:31.480",
+    "seconds": 451.48,
+    "type": "observed_spoken",
+    "evidence": "beginning of the journey or if you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:33.480",
+    "seconds": 453.48,
+    "type": "observed_spoken",
+    "evidence": "some experience in this or even if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:34.960",
+    "seconds": 454.96,
+    "type": "observed_spoken",
+    "evidence": "you've been doing this for a while, what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:37.000",
+    "seconds": 457.0,
+    "type": "observed_spoken",
+    "evidence": "really matters at the end of the day is\"",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:39.880",
+    "seconds": 459.88,
+    "type": "observed_spoken",
+    "evidence": "and then every single audience member",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:43.800",
+    "seconds": 463.8,
+    "type": "observed_spoken",
+    "evidence": "is going to say, \"Okay, that relates to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.520",
+    "seconds": 465.52,
+    "type": "observed_spoken",
+    "evidence": "me.\" I don't say, \"Some people find",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:47.560",
+    "seconds": 467.56,
+    "type": "observed_spoken",
+    "evidence": "themselves at the beginning phase. Some",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:48.920",
+    "seconds": 468.92,
+    "type": "observed_spoken",
+    "evidence": "people find themselves in the middle,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:50.400",
+    "seconds": 470.4,
+    "type": "observed_spoken",
+    "evidence": "and some people find themselves in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:52.040",
+    "seconds": 472.04,
+    "type": "observed_spoken",
+    "evidence": "end. Which one are you?\" Uh but, that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:55.000",
+    "seconds": 475.0,
+    "type": "observed_spoken",
+    "evidence": "how everybody else does it. So, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:56.520",
+    "seconds": 476.52,
+    "type": "observed_spoken",
+    "evidence": "learned to speak the language of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:57.960",
+    "seconds": 477.96,
+    "type": "observed_spoken",
+    "evidence": "market while still talking to the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:59.640",
+    "seconds": 479.64,
+    "type": "observed_spoken",
+    "evidence": "individual. And these are why we learn",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "08:00",
+    "seconds": 480,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000480.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:08:02.640",
+    "seconds": 482.64,
+    "type": "observed_spoken",
+    "evidence": "to use conversational hypnosis as much",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:05.200",
+    "seconds": 485.2,
+    "type": "observed_spoken",
+    "evidence": "as possible. When you say, \"You may",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:07.400",
+    "seconds": 487.4,
+    "type": "observed_spoken",
+    "evidence": "discover you have capabilities inside of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:11.280",
+    "seconds": 491.28,
+    "type": "observed_spoken",
+    "evidence": "you that you aren't aware of yet.\" Now,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:14.640",
+    "seconds": 494.64,
+    "type": "observed_spoken",
+    "evidence": "I didn't say which capabilities. I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.200",
+    "seconds": 497.2,
+    "type": "observed_spoken",
+    "evidence": "didn't even say you will discover them.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:20.360",
+    "seconds": 500.36,
+    "type": "observed_spoken",
+    "evidence": "I just gave you the idea that there are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:22.800",
+    "seconds": 502.8,
+    "type": "observed_spoken",
+    "evidence": "things inside of you that are valuable",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:25.640",
+    "seconds": 505.64,
+    "type": "observed_spoken",
+    "evidence": "that you have not quite tapped into yet.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.919",
+    "seconds": 508.919,
+    "type": "observed_spoken",
+    "evidence": "And 97% of all audiences, when you craft",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:32.960",
+    "seconds": 512.96,
+    "type": "observed_spoken",
+    "evidence": "the proper general statements that I've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:35.599",
+    "seconds": 515.599,
+    "type": "observed_spoken",
+    "evidence": "just described to you, they will 100%",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:39.200",
+    "seconds": 519.2,
+    "type": "observed_spoken",
+    "evidence": "agree and nod and go along with what you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:41.479",
+    "seconds": 521.479,
+    "type": "observed_spoken",
+    "evidence": "say. What we try to do is yes at the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:44.960",
+    "seconds": 524.96,
+    "type": "observed_spoken",
+    "evidence": "best, but never no. So, yes at best, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:49.040",
+    "seconds": 529.04,
+    "type": "observed_spoken",
+    "evidence": "never no. So, you don't say, \"You will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:52.560",
+    "seconds": 532.56,
+    "type": "observed_spoken",
+    "evidence": "become more certain as you get more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.280",
+    "seconds": 535.28,
+    "type": "observed_spoken",
+    "evidence": "experience.\" You say, \"You may begin to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:58.280",
+    "seconds": 538.28,
+    "type": "observed_spoken",
+    "evidence": "notice you become more certain and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:00",
+    "seconds": 540,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000540.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:01.000",
+    "seconds": 541.0,
+    "type": "observed_spoken",
+    "evidence": "operate in ways which are consistent",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:03.760",
+    "seconds": 543.76,
+    "type": "observed_spoken",
+    "evidence": "with those certainties when you act.\"",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:07.240",
+    "seconds": 547.24,
+    "type": "observed_spoken",
+    "evidence": "Not you will be more certain. You don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.480",
+    "seconds": 549.48,
+    "type": "observed_spoken",
+    "evidence": "say, \"You are going to do this.\" You",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:12.280",
+    "seconds": 552.28,
+    "type": "observed_spoken",
+    "evidence": "say, \"I'm not sure when you will do this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:15.640",
+    "seconds": 555.64,
+    "type": "observed_spoken",
+    "evidence": "in a way that will allow you to feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:17.720",
+    "seconds": 557.72,
+    "type": "observed_spoken",
+    "evidence": "comfortable enough that you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:19.720",
+    "seconds": 559.72,
+    "type": "observed_spoken",
+    "evidence": "continue.\" So, see what I'm doing here?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:22.040",
+    "seconds": 562.04,
+    "type": "observed_spoken",
+    "evidence": "I am artfully vague. And this is what we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:24.920",
+    "seconds": 564.92,
+    "type": "observed_spoken",
+    "evidence": "call this in conversational psychology,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:28.440",
+    "seconds": 568.44,
+    "type": "observed_spoken",
+    "evidence": "conversational hypnosis I should say. I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:30.680",
+    "seconds": 570.68,
+    "type": "observed_spoken",
+    "evidence": "am artfully vague on the cold reads of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:34.120",
+    "seconds": 574.12,
+    "type": "observed_spoken",
+    "evidence": "the market, but I understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:36.040",
+    "seconds": 576.04,
+    "type": "observed_spoken",
+    "evidence": "universalities of every single market.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:37.960",
+    "seconds": 577.96,
+    "type": "observed_spoken",
+    "evidence": "And this is what they did when they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:38.960",
+    "seconds": 578.96,
+    "type": "observed_spoken",
+    "evidence": "studied P.T. Barnum, who was one of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:41.560",
+    "seconds": 581.56,
+    "type": "observed_spoken",
+    "evidence": "greatest showmans of all time. They",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:43.160",
+    "seconds": 583.16,
+    "type": "observed_spoken",
+    "evidence": "discovered that there were certain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:44.520",
+    "seconds": 584.52,
+    "type": "observed_spoken",
+    "evidence": "statements that almost everybody in any",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:47.320",
+    "seconds": 587.32,
+    "type": "observed_spoken",
+    "evidence": "market would agree to. And one of these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:49.760",
+    "seconds": 589.76,
+    "type": "observed_spoken",
+    "evidence": "statements are, you have some weaknesses",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:52.280",
+    "seconds": 592.28,
+    "type": "observed_spoken",
+    "evidence": "inside you, but you can compensate for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:54.440",
+    "seconds": 594.44,
+    "type": "observed_spoken",
+    "evidence": "them. So, most people believe this to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:56.640",
+    "seconds": 596.64,
+    "type": "observed_spoken",
+    "evidence": "true. I have these issues, but I'm able",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:59.280",
+    "seconds": 599.28,
+    "type": "observed_spoken",
+    "evidence": "to overcome them cuz I compensate in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "10:00",
+    "seconds": 600,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000600.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:10:01.560",
+    "seconds": 601.56,
+    "type": "observed_spoken",
+    "evidence": "these ways. So, we validate the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:03.600",
+    "seconds": 603.6,
+    "type": "observed_spoken",
+    "evidence": "compensation and then we also enable",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:06.280",
+    "seconds": 606.28,
+    "type": "observed_spoken",
+    "evidence": "them to no longer be weak in those ways.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:09.360",
+    "seconds": 609.36,
+    "type": "observed_spoken",
+    "evidence": "People just have such a desperate need",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:11.920",
+    "seconds": 611.92,
+    "type": "observed_spoken",
+    "evidence": "for other people to like and admire",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:14.920",
+    "seconds": 614.92,
+    "type": "observed_spoken",
+    "evidence": "them. So, whether they will admit it or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:17.280",
+    "seconds": 617.28,
+    "type": "observed_spoken",
+    "evidence": "not, deep down inside, they have this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:19.640",
+    "seconds": 619.64,
+    "type": "observed_spoken",
+    "evidence": "just drive for people to like who they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:22.880",
+    "seconds": 622.88,
+    "type": "observed_spoken",
+    "evidence": "are and admire them. So, I only play in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:26.480",
+    "seconds": 626.48,
+    "type": "observed_spoken",
+    "evidence": "markets where I like the people and I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:29.280",
+    "seconds": 629.28,
+    "type": "observed_spoken",
+    "evidence": "love my audiences and I can admire the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:32.800",
+    "seconds": 632.8,
+    "type": "observed_spoken",
+    "evidence": "efforts that they attempt and to solve",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:35.920",
+    "seconds": 635.92,
+    "type": "observed_spoken",
+    "evidence": "their problems. Unfortunately, a lot of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:37.760",
+    "seconds": 637.76,
+    "type": "observed_spoken",
+    "evidence": "people don't go very far in this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:39.040",
+    "seconds": 639.04,
+    "type": "observed_spoken",
+    "evidence": "business because they are cynical and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:40.960",
+    "seconds": 640.96,
+    "type": "observed_spoken",
+    "evidence": "jaded against their audience. They will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:42.400",
+    "seconds": 642.4,
+    "type": "observed_spoken",
+    "evidence": "call their audience lazy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:45.360",
+    "seconds": 645.36,
+    "type": "observed_spoken",
+    "evidence": "and they will say that they don't take",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:47.160",
+    "seconds": 647.16,
+    "type": "observed_spoken",
+    "evidence": "action. And it will show up, usually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:49.800",
+    "seconds": 649.8,
+    "type": "observed_spoken",
+    "evidence": "very subtly, in the communication. But I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:53.120",
+    "seconds": 653.12,
+    "type": "observed_spoken",
+    "evidence": "admire an audience who's tried something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:55.560",
+    "seconds": 655.56,
+    "type": "observed_spoken",
+    "evidence": "99 times and hasn't succeeded yet",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:57.920",
+    "seconds": 657.92,
+    "type": "observed_spoken",
+    "evidence": "because it shows me that they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:59.280",
+    "seconds": 659.28,
+    "type": "observed_spoken",
+    "evidence": "dedicated, that even in the face of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "11:00",
+    "seconds": 660,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000660.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:11:01.760",
+    "seconds": 661.76,
+    "type": "observed_spoken",
+    "evidence": "difficulty, they can find a way to move",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:04.360",
+    "seconds": 664.36,
+    "type": "observed_spoken",
+    "evidence": "on. I don't call that laziness. I call",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:07.040",
+    "seconds": 667.04,
+    "type": "observed_spoken",
+    "evidence": "that they haven't been shown the proper",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:09.720",
+    "seconds": 669.72,
+    "type": "observed_spoken",
+    "evidence": "path yet to help them move",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:12.040",
+    "seconds": 672.04,
+    "type": "observed_spoken",
+    "evidence": "forward. So, people believe that they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:14.440",
+    "seconds": 674.44,
+    "type": "observed_spoken",
+    "evidence": "have a lot of unused dormant capacity",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:18.400",
+    "seconds": 678.4,
+    "type": "observed_spoken",
+    "evidence": "inside of them that hasn't been tapped",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:20.440",
+    "seconds": 680.44,
+    "type": "observed_spoken",
+    "evidence": "into yet. And I believe it, too. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:23.320",
+    "seconds": 683.32,
+    "type": "observed_spoken",
+    "evidence": "they believe that there are times when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:24.960",
+    "seconds": 684.96,
+    "type": "observed_spoken",
+    "evidence": "they want to be around others and there",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:27.000",
+    "seconds": 687.0,
+    "type": "observed_spoken",
+    "evidence": "are times when they want to be alone.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:29.160",
+    "seconds": 689.16,
+    "type": "observed_spoken",
+    "evidence": "And I know this is sounds like, duh,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:30.960",
+    "seconds": 690.96,
+    "type": "observed_spoken",
+    "evidence": "obvious, but you should learn to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:32.760",
+    "seconds": 692.76,
+    "type": "observed_spoken",
+    "evidence": "communicate to these basic universal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:35.360",
+    "seconds": 695.36,
+    "type": "observed_spoken",
+    "evidence": "needs of the audience and they will nod",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:36.920",
+    "seconds": 696.92,
+    "type": "observed_spoken",
+    "evidence": "their head along with you, nod their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:38.120",
+    "seconds": 698.12,
+    "type": "observed_spoken",
+    "evidence": "head along with you, nod their head",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:39.360",
+    "seconds": 699.36,
+    "type": "observed_spoken",
+    "evidence": "along with you, and they will like you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:42.080",
+    "seconds": 702.08,
+    "type": "observed_spoken",
+    "evidence": "because they can tell you like them and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:44.640",
+    "seconds": 704.64,
+    "type": "observed_spoken",
+    "evidence": "they will be more likely to respond with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:46.880",
+    "seconds": 706.88,
+    "type": "observed_spoken",
+    "evidence": "the request that you make. Next bias,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:49.240",
+    "seconds": 709.24,
+    "type": "observed_spoken",
+    "evidence": "the law",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:51.040",
+    "seconds": 711.04,
+    "type": "observed_spoken",
+    "evidence": "of triviality.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:53.160",
+    "seconds": 713.16,
+    "type": "observed_spoken",
+    "evidence": "Even though we just spent 25 minutes in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:55.320",
+    "seconds": 715.32,
+    "type": "observed_spoken",
+    "evidence": "the meeting talking about where to put",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:56.800",
+    "seconds": 716.8,
+    "type": "observed_spoken",
+    "evidence": "the ping pong tables in the break room,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:58.560",
+    "seconds": 718.56,
+    "type": "observed_spoken",
+    "evidence": "it felt like it was a worthwhile",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "12:00",
+    "seconds": 720,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000720.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:12:00.160",
+    "seconds": 720.16,
+    "type": "observed_spoken",
+    "evidence": "activity to discuss. We tend to major in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:04.840",
+    "seconds": 724.84,
+    "type": "observed_spoken",
+    "evidence": "minor things. And this is a Jim Rohn",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:07.040",
+    "seconds": 727.04,
+    "type": "observed_spoken",
+    "evidence": "quote. And the reality is, and this is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:09.080",
+    "seconds": 729.08,
+    "type": "observed_spoken",
+    "evidence": "especially pronounced in groups, this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:12.000",
+    "seconds": 732.0,
+    "type": "observed_spoken",
+    "evidence": "gets psychopathic when you put a group",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:14.440",
+    "seconds": 734.44,
+    "type": "observed_spoken",
+    "evidence": "of people together. Now, I'll tell you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:16.080",
+    "seconds": 736.08,
+    "type": "observed_spoken",
+    "evidence": "why individually first of all, is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:18.320",
+    "seconds": 738.32,
+    "type": "observed_spoken",
+    "evidence": "majority of things, at least 90% of all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:22.520",
+    "seconds": 742.52,
+    "type": "observed_spoken",
+    "evidence": "the considerations when you're trying to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:24.240",
+    "seconds": 744.24,
+    "type": "observed_spoken",
+    "evidence": "get a result, equal about 3%",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:28.240",
+    "seconds": 748.24,
+    "type": "observed_spoken",
+    "evidence": "of what is important. So, 90% we call",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:31.240",
+    "seconds": 751.24,
+    "type": "observed_spoken",
+    "evidence": "this noise, gives you 3%",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:34.880",
+    "seconds": 754.88,
+    "type": "observed_spoken",
+    "evidence": "of the results. And 10%, which is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:38.040",
+    "seconds": 758.04,
+    "type": "observed_spoken",
+    "evidence": "signal, accounts for the other 97%",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:42.800",
+    "seconds": 762.8,
+    "type": "observed_spoken",
+    "evidence": "of success. But we don't think that way.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:45.640",
+    "seconds": 765.64,
+    "type": "observed_spoken",
+    "evidence": "We think in terms of equality. We think",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:48.440",
+    "seconds": 768.44,
+    "type": "observed_spoken",
+    "evidence": "if there's five elements that will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:51.040",
+    "seconds": 771.04,
+    "type": "observed_spoken",
+    "evidence": "contribute to the success, then element",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:53.440",
+    "seconds": 773.44,
+    "type": "observed_spoken",
+    "evidence": "one is worth 20%, element two is worth",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:55.960",
+    "seconds": 775.96,
+    "type": "observed_spoken",
+    "evidence": "20%, element three is worth 20%, and so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:59.480",
+    "seconds": 779.48,
+    "type": "observed_spoken",
+    "evidence": "on and so forth. But the reality is,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "13:00",
+    "seconds": 780,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000780.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:13:02.920",
+    "seconds": 782.92,
+    "type": "observed_spoken",
+    "evidence": "even in small numbers like this,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:05.080",
+    "seconds": 785.08,
+    "type": "observed_spoken",
+    "evidence": "typically one of these elements will be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:08.040",
+    "seconds": 788.04,
+    "type": "observed_spoken",
+    "evidence": "worth 90% and the other elements will be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:11.480",
+    "seconds": 791.48,
+    "type": "observed_spoken",
+    "evidence": "worth something like 5%, 3%, 1%, 1%. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:14.920",
+    "seconds": 794.92,
+    "type": "observed_spoken",
+    "evidence": "nothing is fair in life. Nothing is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:18.560",
+    "seconds": 798.56,
+    "type": "observed_spoken",
+    "evidence": "organized neatly as such of the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:21.320",
+    "seconds": 801.32,
+    "type": "observed_spoken",
+    "evidence": "closed systems possible, like coin flips",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:23.600",
+    "seconds": 803.6,
+    "type": "observed_spoken",
+    "evidence": "and things like that. But the brain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:25.760",
+    "seconds": 805.76,
+    "type": "observed_spoken",
+    "evidence": "doesn't understand and can't appreciate",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:27.800",
+    "seconds": 807.8,
+    "type": "observed_spoken",
+    "evidence": "nuance very easily, so you have to force",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:29.920",
+    "seconds": 809.92,
+    "type": "observed_spoken",
+    "evidence": "it and you have to train it. So, just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:32.120",
+    "seconds": 812.12,
+    "type": "observed_spoken",
+    "evidence": "know whatever you're considering,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:34.200",
+    "seconds": 814.2,
+    "type": "observed_spoken",
+    "evidence": "whatever you're thinking, it's probably",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:36.560",
+    "seconds": 816.56,
+    "type": "observed_spoken",
+    "evidence": "trivial. Now, this gets terrible when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:39.360",
+    "seconds": 819.36,
+    "type": "observed_spoken",
+    "evidence": "you get into groups because people feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:42.200",
+    "seconds": 822.2,
+    "type": "observed_spoken",
+    "evidence": "most comfortable having discussions on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:44.600",
+    "seconds": 824.6,
+    "type": "observed_spoken",
+    "evidence": "things where they share common grounds.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:47.160",
+    "seconds": 827.16,
+    "type": "observed_spoken",
+    "evidence": "And so, most people, for example, if you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:49.480",
+    "seconds": 829.48,
+    "type": "observed_spoken",
+    "evidence": "are trying to talk about spending a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:51.160",
+    "seconds": 831.16,
+    "type": "observed_spoken",
+    "evidence": "budget of $50 million to allocate to new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:54.360",
+    "seconds": 834.36,
+    "type": "observed_spoken",
+    "evidence": "software development, a majority of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:56.520",
+    "seconds": 836.52,
+    "type": "observed_spoken",
+    "evidence": "people at the table have no reference",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:58.920",
+    "seconds": 838.92,
+    "type": "observed_spoken",
+    "evidence": "point to what $50 million",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "14:00",
+    "seconds": 840,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000840.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:14:01.400",
+    "seconds": 841.4,
+    "type": "observed_spoken",
+    "evidence": "is. This is why they will quickly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:04.160",
+    "seconds": 844.16,
+    "type": "observed_spoken",
+    "evidence": "approve, deny, or move past that agenda",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:07.000",
+    "seconds": 847.0,
+    "type": "observed_spoken",
+    "evidence": "item, but then they will spend forever",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:10.280",
+    "seconds": 850.28,
+    "type": "observed_spoken",
+    "evidence": "on the party for Christmas that's going",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:13.240",
+    "seconds": 853.24,
+    "type": "observed_spoken",
+    "evidence": "to happen at the end of the year and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:14.880",
+    "seconds": 854.88,
+    "type": "observed_spoken",
+    "evidence": "what the theme should be. The theme for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:17.000",
+    "seconds": 857.0,
+    "type": "observed_spoken",
+    "evidence": "the party at Christmas doesn't ever make",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:20.280",
+    "seconds": 860.28,
+    "type": "observed_spoken",
+    "evidence": "a difference really at the end of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:21.800",
+    "seconds": 861.8,
+    "type": "observed_spoken",
+    "evidence": "day, but how the budget is allocated",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:24.080",
+    "seconds": 864.08,
+    "type": "observed_spoken",
+    "evidence": "will. So, don't focus on common grounds",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:27.600",
+    "seconds": 867.6,
+    "type": "observed_spoken",
+    "evidence": "and bring agendas ahead of time that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:30.440",
+    "seconds": 870.44,
+    "type": "observed_spoken",
+    "evidence": "have prioritized",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:32.360",
+    "seconds": 872.36,
+    "type": "observed_spoken",
+    "evidence": "what the major things are and limit it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:34.800",
+    "seconds": 874.8,
+    "type": "observed_spoken",
+    "evidence": "to just one of those major things. Now,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:37.360",
+    "seconds": 877.36,
+    "type": "observed_spoken",
+    "evidence": "when it comes to selling, the keyword",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:39.640",
+    "seconds": 879.64,
+    "type": "observed_spoken",
+    "evidence": "here is boundaries.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:41.920",
+    "seconds": 881.92,
+    "type": "observed_spoken",
+    "evidence": "We only allow our clients and our",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:44.440",
+    "seconds": 884.44,
+    "type": "observed_spoken",
+    "evidence": "prospects to have conversations around",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:48.320",
+    "seconds": 888.32,
+    "type": "observed_spoken",
+    "evidence": "things that matter. And this is what I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:49.920",
+    "seconds": 889.92,
+    "type": "observed_spoken",
+    "evidence": "say to them. When they start asking",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:51.360",
+    "seconds": 891.36,
+    "type": "observed_spoken",
+    "evidence": "these little questions that don't really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:53.640",
+    "seconds": 893.64,
+    "type": "observed_spoken",
+    "evidence": "matter at the end of the day, I said,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:55.200",
+    "seconds": 895.2,
+    "type": "observed_spoken",
+    "evidence": "\"There's two types of questions that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:56.360",
+    "seconds": 896.36,
+    "type": "observed_spoken",
+    "evidence": "somebody can ask. They can ask",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:57.560",
+    "seconds": 897.56,
+    "type": "observed_spoken",
+    "evidence": "nickel-and-dime questions, which really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "15:00",
+    "seconds": 900,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000900.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:15:00.360",
+    "seconds": 900.36,
+    "type": "observed_spoken",
+    "evidence": "don't matter at the end of the day",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:01.480",
+    "seconds": 901.48,
+    "type": "observed_spoken",
+    "evidence": "toward your success, or they can ask",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:03.280",
+    "seconds": 903.28,
+    "type": "observed_spoken",
+    "evidence": "hundred-dollar bill questions. These are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:05.400",
+    "seconds": 905.4,
+    "type": "observed_spoken",
+    "evidence": "the things that will make or break you,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:06.720",
+    "seconds": 906.72,
+    "type": "observed_spoken",
+    "evidence": "that will decide whether you should buy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:08.200",
+    "seconds": 908.2,
+    "type": "observed_spoken",
+    "evidence": "or whether you should never buy. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:10.080",
+    "seconds": 910.08,
+    "type": "observed_spoken",
+    "evidence": "when we're asking questions, while I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:11.880",
+    "seconds": 911.88,
+    "type": "observed_spoken",
+    "evidence": "will attempt to answer every single one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:13.800",
+    "seconds": 913.8,
+    "type": "observed_spoken",
+    "evidence": "of them, I'm going to prioritize by the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:16.120",
+    "seconds": 916.12,
+    "type": "observed_spoken",
+    "evidence": "hundred-dollar bill questions first, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:18.280",
+    "seconds": 918.28,
+    "type": "observed_spoken",
+    "evidence": "ones that really matter at the end of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:20.120",
+    "seconds": 920.12,
+    "type": "observed_spoken",
+    "evidence": "the day.\" And then all of a sudden, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:21.560",
+    "seconds": 921.56,
+    "type": "observed_spoken",
+    "evidence": "same audience who were asking little",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:23.200",
+    "seconds": 923.2,
+    "type": "observed_spoken",
+    "evidence": "silly things like how many times can I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:24.960",
+    "seconds": 924.96,
+    "type": "observed_spoken",
+    "evidence": "log in? And does this come in blue as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:27.240",
+    "seconds": 927.24,
+    "type": "observed_spoken",
+    "evidence": "well as red and pink and purple and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:28.680",
+    "seconds": 928.68,
+    "type": "observed_spoken",
+    "evidence": "green? Those are the only things they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:30.360",
+    "seconds": 930.36,
+    "type": "observed_spoken",
+    "evidence": "know how to ask ask right now. They",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:32.160",
+    "seconds": 932.16,
+    "type": "observed_spoken",
+    "evidence": "start asking real questions that will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:34.840",
+    "seconds": 934.84,
+    "type": "observed_spoken",
+    "evidence": "make the difference in whether they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:35.840",
+    "seconds": 935.84,
+    "type": "observed_spoken",
+    "evidence": "should purchase or not. The next",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:37.320",
+    "seconds": 937.32,
+    "type": "observed_spoken",
+    "evidence": "cognitive bias, bounded reality. She's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:41.000",
+    "seconds": 941.0,
+    "type": "observed_spoken",
+    "evidence": "not the nicest looking car on the road,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:43.000",
+    "seconds": 943.0,
+    "type": "observed_spoken",
+    "evidence": "but she gets me to where I want to go.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:44.760",
+    "seconds": 944.76,
+    "type": "observed_spoken",
+    "evidence": "There was a groundbreaking psychological",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:46.440",
+    "seconds": 946.44,
+    "type": "observed_spoken",
+    "evidence": "study that determined that people are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:48.000",
+    "seconds": 948.0,
+    "type": "observed_spoken",
+    "evidence": "one of two types. They're satisficers or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:51.640",
+    "seconds": 951.64,
+    "type": "observed_spoken",
+    "evidence": "they're maximizers. And really most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:54.760",
+    "seconds": 954.76,
+    "type": "observed_spoken",
+    "evidence": "people they're satisficers",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:57.400",
+    "seconds": 957.4,
+    "type": "observed_spoken",
+    "evidence": "if you will. They look at the thing that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:59.200",
+    "seconds": 959.2,
+    "type": "observed_spoken",
+    "evidence": "is sufficient that will also satisfy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "16:00",
+    "seconds": 960,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-000960.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:16:01.520",
+    "seconds": 961.52,
+    "type": "observed_spoken",
+    "evidence": "their needs. Some people, I hope you are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:03.920",
+    "seconds": 963.92,
+    "type": "observed_spoken",
+    "evidence": "not one of them, are what are called",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:05.600",
+    "seconds": 965.6,
+    "type": "observed_spoken",
+    "evidence": "maximizers. Good enough is not good",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:08.000",
+    "seconds": 968.0,
+    "type": "observed_spoken",
+    "evidence": "enough. If it's not 100% perfectly the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:11.000",
+    "seconds": 971.0,
+    "type": "observed_spoken",
+    "evidence": "best money for the deal, then they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:13.520",
+    "seconds": 973.52,
+    "type": "observed_spoken",
+    "evidence": "not going to feel happy with it even if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:15.560",
+    "seconds": 975.56,
+    "type": "observed_spoken",
+    "evidence": "it made them so much money. I had a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:17.480",
+    "seconds": 977.48,
+    "type": "observed_spoken",
+    "evidence": "client once that exited a company uh for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:20.520",
+    "seconds": 980.52,
+    "type": "observed_spoken",
+    "evidence": "a billion dollars. And he had a $1",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:23.600",
+    "seconds": 983.6,
+    "type": "observed_spoken",
+    "evidence": "billion",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:24.800",
+    "seconds": 984.8,
+    "type": "observed_spoken",
+    "evidence": "wire transfer coming to him and he felt",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:26.880",
+    "seconds": 986.88,
+    "type": "observed_spoken",
+    "evidence": "depressed because he knew that he",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:29.040",
+    "seconds": 989.04,
+    "type": "observed_spoken",
+    "evidence": "screwed up. And if he would have just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:30.680",
+    "seconds": 990.68,
+    "type": "observed_spoken",
+    "evidence": "done a couple key moves a little bit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:32.280",
+    "seconds": 992.28,
+    "type": "observed_spoken",
+    "evidence": "earlier on in his business, he could",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:33.960",
+    "seconds": 993.96,
+    "type": "observed_spoken",
+    "evidence": "have exited for $3 billion instead. Uh",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:36.760",
+    "seconds": 996.76,
+    "type": "observed_spoken",
+    "evidence": "this is neurotic, okay? But this is how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:39.240",
+    "seconds": 999.24,
+    "type": "observed_spoken",
+    "evidence": "people work. But most people in most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:41.480",
+    "seconds": 1001.48,
+    "type": "observed_spoken",
+    "evidence": "markets, this is really the breakdown,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:43.320",
+    "seconds": 1003.32,
+    "type": "observed_spoken",
+    "evidence": "is about 10% of a market is going to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:45.400",
+    "seconds": 1005.4,
+    "type": "observed_spoken",
+    "evidence": "a maximizer and 90% is going to be a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:47.839",
+    "seconds": 1007.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "satisficer. So, we prefer to settle for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:51.040",
+    "seconds": 1011.04,
+    "type": "observed_spoken",
+    "evidence": "good enough or sufficient versus",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:54.320",
+    "seconds": 1014.32,
+    "type": "observed_spoken",
+    "evidence": "excellence. And the reason why is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:57.120",
+    "seconds": 1017.12,
+    "type": "observed_spoken",
+    "evidence": "because for the time involved and the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:59.880",
+    "seconds": 1019.88,
+    "type": "observed_spoken",
+    "evidence": "effort involved and the money involved,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "17:00",
+    "seconds": 1020,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-001020.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:17:03.960",
+    "seconds": 1023.96,
+    "type": "observed_spoken",
+    "evidence": "it's just not a good use of any of these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:06.600",
+    "seconds": 1026.6,
+    "type": "observed_spoken",
+    "evidence": "principles. And so, when we are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:09.079",
+    "seconds": 1029.079,
+    "type": "observed_spoken",
+    "evidence": "designing offers, a big part of what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:11.160",
+    "seconds": 1031.16,
+    "type": "observed_spoken",
+    "evidence": "we're looking for is how do we not be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:13.680",
+    "seconds": 1033.68,
+    "type": "observed_spoken",
+    "evidence": "the best? How do we be the best at a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:16.800",
+    "seconds": 1036.8,
+    "type": "observed_spoken",
+    "evidence": "glance? How do we be the best with the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:19.560",
+    "seconds": 1039.56,
+    "type": "observed_spoken",
+    "evidence": "least amount of cognition required in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:23.520",
+    "seconds": 1043.52,
+    "type": "observed_spoken",
+    "evidence": "order to understand the value for the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:25.640",
+    "seconds": 1045.64,
+    "type": "observed_spoken",
+    "evidence": "time in? This is oftentimes where we go",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:27.640",
+    "seconds": 1047.64,
+    "type": "observed_spoken",
+    "evidence": "to the move where we just say, \"Listen,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:29.000",
+    "seconds": 1049.0,
+    "type": "observed_spoken",
+    "evidence": "it's just as good, but it's half the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:30.640",
+    "seconds": 1050.64,
+    "type": "observed_spoken",
+    "evidence": "time to the results.\" And so, we don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:32.760",
+    "seconds": 1052.76,
+    "type": "observed_spoken",
+    "evidence": "have to be better than the competition,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:34.760",
+    "seconds": 1054.76,
+    "type": "observed_spoken",
+    "evidence": "we're just quicker than the competition.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:37.000",
+    "seconds": 1057.0,
+    "type": "observed_spoken",
+    "evidence": "We don't have to add additional things",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:39.560",
+    "seconds": 1059.56,
+    "type": "observed_spoken",
+    "evidence": "which can create complication, we remove",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:42.880",
+    "seconds": 1062.88,
+    "type": "observed_spoken",
+    "evidence": "the unnecessary things and people then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:45.400",
+    "seconds": 1065.4,
+    "type": "observed_spoken",
+    "evidence": "say, \"Wow, that's really good.\" You just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:48.360",
+    "seconds": 1068.36,
+    "type": "observed_spoken",
+    "evidence": "got to get this through your mind.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:49.760",
+    "seconds": 1069.76,
+    "type": "observed_spoken",
+    "evidence": "People don't want objective best, they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:52.280",
+    "seconds": 1072.28,
+    "type": "observed_spoken",
+    "evidence": "want subjective best. Once you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:54.680",
+    "seconds": 1074.68,
+    "type": "observed_spoken",
+    "evidence": "understand that every prospect has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:57.160",
+    "seconds": 1077.16,
+    "type": "observed_spoken",
+    "evidence": "limited understanding, limited mental",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "18:00",
+    "seconds": 1080,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-001080.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:18:00.160",
+    "seconds": 1080.16,
+    "type": "observed_spoken",
+    "evidence": "processing, and limited time limits,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:03.680",
+    "seconds": 1083.68,
+    "type": "observed_spoken",
+    "evidence": "then you will design offers within those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:06.040",
+    "seconds": 1086.04,
+    "type": "observed_spoken",
+    "evidence": "areas of understanding, processing, and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:09.160",
+    "seconds": 1089.16,
+    "type": "observed_spoken",
+    "evidence": "time limitations. The next cognitive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:11.200",
+    "seconds": 1091.2,
+    "type": "observed_spoken",
+    "evidence": "bias, paradox of choice.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:14.320",
+    "seconds": 1094.32,
+    "type": "observed_spoken",
+    "evidence": ">> There's nothing good to watch on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:15.880",
+    "seconds": 1095.88,
+    "type": "observed_spoken",
+    "evidence": "Netflix. Here's something that's crazy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:17.960",
+    "seconds": 1097.96,
+    "type": "observed_spoken",
+    "evidence": "is the more choice that we have, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:19.800",
+    "seconds": 1099.8,
+    "type": "observed_spoken",
+    "evidence": "more unhappy we are. So, more choices",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:22.680",
+    "seconds": 1102.68,
+    "type": "observed_spoken",
+    "evidence": "equal less happiness. So, we have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:25.840",
+    "seconds": 1105.84,
+    "type": "observed_spoken",
+    "evidence": "Spotify, we have Apple Music, we have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:28.320",
+    "seconds": 1108.32,
+    "type": "observed_spoken",
+    "evidence": "YouTube Music, and yet we tend to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:31.480",
+    "seconds": 1111.48,
+    "type": "observed_spoken",
+    "evidence": "more frustrated now because we think,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:33.760",
+    "seconds": 1113.76,
+    "type": "observed_spoken",
+    "evidence": "\"Well, gee, if I would have listened to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:35.600",
+    "seconds": 1115.6,
+    "type": "observed_spoken",
+    "evidence": "this instead of that, then I could have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:37.080",
+    "seconds": 1117.08,
+    "type": "observed_spoken",
+    "evidence": "been happier. What music am I missing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:39.400",
+    "seconds": 1119.4,
+    "type": "observed_spoken",
+    "evidence": "out on that I would love to hear, but I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:41.560",
+    "seconds": 1121.56,
+    "type": "observed_spoken",
+    "evidence": "don't even know exist?\" And every single",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:43.280",
+    "seconds": 1123.28,
+    "type": "observed_spoken",
+    "evidence": "day there's more music that is published",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:45.040",
+    "seconds": 1125.04,
+    "type": "observed_spoken",
+    "evidence": "than you could ever consume, so you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:46.160",
+    "seconds": 1126.16,
+    "type": "observed_spoken",
+    "evidence": "increase the FOMO and it gets crazy. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:50.040",
+    "seconds": 1130.04,
+    "type": "observed_spoken",
+    "evidence": "nowhere is this more pronounced than",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:52.600",
+    "seconds": 1132.6,
+    "type": "observed_spoken",
+    "evidence": "market segments. Um this is so difficult",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:55.760",
+    "seconds": 1135.76,
+    "type": "observed_spoken",
+    "evidence": "for so many people that I coach to get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:58.160",
+    "seconds": 1138.16,
+    "type": "observed_spoken",
+    "evidence": "this through their head. If we delete",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "19:00",
+    "seconds": 1140,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: extractions/video-context/jbPNjNtQqk0/frames/frame-001140.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:19:00.120",
+    "seconds": 1140.12,
+    "type": "observed_spoken",
+    "evidence": "90% of the market, we will make more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:03.280",
+    "seconds": 1143.28,
+    "type": "observed_spoken",
+    "evidence": "money by just focusing on 10%. We do not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:06.600",
+    "seconds": 1146.6,
+    "type": "observed_spoken",
+    "evidence": "want to be all things to everyone. We",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:09.080",
+    "seconds": 1149.08,
+    "type": "observed_spoken",
+    "evidence": "want to be a few things to a few people,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:12.080",
+    "seconds": 1152.08,
+    "type": "observed_spoken",
+    "evidence": "and we just want to be the best at those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:14.160",
+    "seconds": 1154.16,
+    "type": "observed_spoken",
+    "evidence": "few things to those few key people. This",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:17.760",
+    "seconds": 1157.76,
+    "type": "observed_spoken",
+    "evidence": "is where the money is made. The easiest",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:20.200",
+    "seconds": 1160.2,
+    "type": "observed_spoken",
+    "evidence": "way to get to the other 90% by the way",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:23.400",
+    "seconds": 1163.4,
+    "type": "observed_spoken",
+    "evidence": "is to be excellent to the 10% and I'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:26.760",
+    "seconds": 1166.76,
+    "type": "observed_spoken",
+    "evidence": "give you a case study on this. So, once",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:29.280",
+    "seconds": 1169.28,
+    "type": "observed_spoken",
+    "evidence": "upon a time we had this product that was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:31.920",
+    "seconds": 1171.92,
+    "type": "observed_spoken",
+    "evidence": "called Launchpad and it was very similar",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:34.920",
+    "seconds": 1174.92,
+    "type": "observed_spoken",
+    "evidence": "to ClickFunnels. So, ClickFunnels is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:37.200",
+    "seconds": 1177.2,
+    "type": "observed_spoken",
+    "evidence": "this builder that would teach you and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:39.440",
+    "seconds": 1179.44,
+    "type": "observed_spoken",
+    "evidence": "show you with clicks of a button how to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:41.880",
+    "seconds": 1181.88,
+    "type": "observed_spoken",
+    "evidence": "build certain funnels that you could",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:43.720",
+    "seconds": 1183.72,
+    "type": "observed_spoken",
+    "evidence": "launch your products in. So, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:45.880",
+    "seconds": 1185.88,
+    "type": "observed_spoken",
+    "evidence": "squeeze page here, thank you page here,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:47.800",
+    "seconds": 1187.8,
+    "type": "observed_spoken",
+    "evidence": "upsell them to this page, downsell to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:49.640",
+    "seconds": 1189.64,
+    "type": "observed_spoken",
+    "evidence": "that page, that kind of thing. Um and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:52.040",
+    "seconds": 1192.04,
+    "type": "observed_spoken",
+    "evidence": "ClickFunnels retailed for $297 a month",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:55.440",
+    "seconds": 1195.44,
+    "type": "observed_spoken",
+    "evidence": "at the highest price point price tier.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:58.000",
+    "seconds": 1198.0,
+    "type": "observed_spoken",
+    "evidence": "Ours retailed for $1,000 a month.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:00.760",
+    "seconds": 1200.76,
+    "type": "observed_spoken",
+    "evidence": "ClickFunnels audience was essentially",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:04.120",
+    "seconds": 1204.12,
+    "type": "observed_spoken",
+    "evidence": "everyone. All right? Our audience was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:06.800",
+    "seconds": 1206.8,
+    "type": "observed_spoken",
+    "evidence": "Amazon sellers and specifically Amazon",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:10.600",
+    "seconds": 1210.6,
+    "type": "observed_spoken",
+    "evidence": "sellers who were successful already at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:13.520",
+    "seconds": 1213.52,
+    "type": "observed_spoken",
+    "evidence": "selling on Amazon. ClickFunnels would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:16.080",
+    "seconds": 1216.08,
+    "type": "observed_spoken",
+    "evidence": "have dozens, probably hundreds of funnel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:21.120",
+    "seconds": 1221.12,
+    "type": "observed_spoken",
+    "evidence": "uh campaigns and options that you could",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:22.840",
+    "seconds": 1222.84,
+    "type": "observed_spoken",
+    "evidence": "configure and put together. We had five",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:26.080",
+    "seconds": 1226.08,
+    "type": "observed_spoken",
+    "evidence": "funnels and they were basically the five",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:28.440",
+    "seconds": 1228.44,
+    "type": "observed_spoken",
+    "evidence": "best funnels that we found to rank",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:30.040",
+    "seconds": 1230.04,
+    "type": "observed_spoken",
+    "evidence": "products on Amazon's search engine.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:32.840",
+    "seconds": 1232.84,
+    "type": "observed_spoken",
+    "evidence": "ClickFunnels would have the ability to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:35.160",
+    "seconds": 1235.16,
+    "type": "observed_spoken",
+    "evidence": "have a lot of customization. You could",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:37.240",
+    "seconds": 1237.24,
+    "type": "observed_spoken",
+    "evidence": "custom fonts, backgrounds, etc. Even you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:40.640",
+    "seconds": 1240.64,
+    "type": "observed_spoken",
+    "evidence": "could write all the copy you wanted to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:42.360",
+    "seconds": 1242.36,
+    "type": "observed_spoken",
+    "evidence": "write. Ours was you couldn't customize",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:45.480",
+    "seconds": 1245.48,
+    "type": "observed_spoken",
+    "evidence": "anything except for a little bit of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:49.080",
+    "seconds": 1249.08,
+    "type": "observed_spoken",
+    "evidence": "copy. You couldn't change the font, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:50.960",
+    "seconds": 1250.96,
+    "type": "observed_spoken",
+    "evidence": "couldn't change the background, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:52.440",
+    "seconds": 1252.44,
+    "type": "observed_spoken",
+    "evidence": "couldn't change the size of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:53.640",
+    "seconds": 1253.64,
+    "type": "observed_spoken",
+    "evidence": "container, and 85% of the copy was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:56.120",
+    "seconds": 1256.12,
+    "type": "observed_spoken",
+    "evidence": "already written for you because we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:58.160",
+    "seconds": 1258.16,
+    "type": "observed_spoken",
+    "evidence": "write better copy than 99% of our",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:00.880",
+    "seconds": 1260.88,
+    "type": "observed_spoken",
+    "evidence": "customers could write. And here's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:02.520",
+    "seconds": 1262.52,
+    "type": "observed_spoken",
+    "evidence": "final thing and this is the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:03.800",
+    "seconds": 1263.8,
+    "type": "observed_spoken",
+    "evidence": "important thing is is you could do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:06.000",
+    "seconds": 1266.0,
+    "type": "observed_spoken",
+    "evidence": "certain different tech here that you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:08.000",
+    "seconds": 1268.0,
+    "type": "observed_spoken",
+    "evidence": "could connect together or you could",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:09.560",
+    "seconds": 1269.56,
+    "type": "observed_spoken",
+    "evidence": "optimize for you. The tech was open,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:12.000",
+    "seconds": 1272.0,
+    "type": "observed_spoken",
+    "evidence": "ours was closed tech. We hired we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:14.480",
+    "seconds": 1274.48,
+    "type": "observed_spoken",
+    "evidence": "hardwired certain technological",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:16.480",
+    "seconds": 1276.48,
+    "type": "observed_spoken",
+    "evidence": "capabilities that would be impossible",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:18.400",
+    "seconds": 1278.4,
+    "type": "observed_spoken",
+    "evidence": "for the end user to program on their own",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:20.320",
+    "seconds": 1280.32,
+    "type": "observed_spoken",
+    "evidence": "and we bake them into the system simply",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:22.920",
+    "seconds": 1282.92,
+    "type": "observed_spoken",
+    "evidence": "because we locked so many other things",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:26.240",
+    "seconds": 1286.24,
+    "type": "observed_spoken",
+    "evidence": "down and we were able to sell 3.29",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:30.600",
+    "seconds": 1290.6,
+    "type": "observed_spoken",
+    "evidence": "million dollars on a single webinar of a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:34.040",
+    "seconds": 1294.04,
+    "type": "observed_spoken",
+    "evidence": "software that 99.9% of the world never",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:37.720",
+    "seconds": 1297.72,
+    "type": "observed_spoken",
+    "evidence": "seen or never heard. We gave less",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:40.160",
+    "seconds": 1300.16,
+    "type": "observed_spoken",
+    "evidence": "choices to fewer people, they were just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:42.720",
+    "seconds": 1302.72,
+    "type": "observed_spoken",
+    "evidence": "the right few people and we did more for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:45.120",
+    "seconds": 1305.12,
+    "type": "observed_spoken",
+    "evidence": "those few people to help them become",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:47.400",
+    "seconds": 1307.4,
+    "type": "observed_spoken",
+    "evidence": "more successful easier. The next bias,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:50.520",
+    "seconds": 1310.52,
+    "type": "observed_spoken",
+    "evidence": "cognitive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:52.400",
+    "seconds": 1312.4,
+    "type": "observed_spoken",
+    "evidence": "dissonance. I know I should eat healthy,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:54.640",
+    "seconds": 1314.64,
+    "type": "observed_spoken",
+    "evidence": "but I'm on vacation. Here's the crazy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:56.960",
+    "seconds": 1316.96,
+    "type": "observed_spoken",
+    "evidence": "thing about us as humans and I just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:58.840",
+    "seconds": 1318.84,
+    "type": "observed_spoken",
+    "evidence": "don't get it. It's hard for us to hold",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:00.840",
+    "seconds": 1320.84,
+    "type": "observed_spoken",
+    "evidence": "two contradictive thoughts in our head",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:03.680",
+    "seconds": 1323.68,
+    "type": "observed_spoken",
+    "evidence": "at the same time. It is painful to a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:06.720",
+    "seconds": 1326.72,
+    "type": "observed_spoken",
+    "evidence": "degree that doesn't make sense to too",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:08.240",
+    "seconds": 1328.24,
+    "type": "observed_spoken",
+    "evidence": "many people where they say, I I don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:10.120",
+    "seconds": 1330.12,
+    "type": "observed_spoken",
+    "evidence": "get it. If people like things faster,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:12.240",
+    "seconds": 1332.24,
+    "type": "observed_spoken",
+    "evidence": "then how come these Michelin star",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:14.200",
+    "seconds": 1334.2,
+    "type": "observed_spoken",
+    "evidence": "restaurants do 4-hour dinners? I just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:17.120",
+    "seconds": 1337.12,
+    "type": "observed_spoken",
+    "evidence": "don't get it. Uh the reality is there's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:19.520",
+    "seconds": 1339.52,
+    "type": "observed_spoken",
+    "evidence": "paradoxes and then there's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:21.320",
+    "seconds": 1341.32,
+    "type": "observed_spoken",
+    "evidence": "contradictions. Uh so many things that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:23.760",
+    "seconds": 1343.76,
+    "type": "observed_spoken",
+    "evidence": "we think are paradoxes are are sorry,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:27.280",
+    "seconds": 1347.28,
+    "type": "observed_spoken",
+    "evidence": "things that are contradictions,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:29.000",
+    "seconds": 1349.0,
+    "type": "observed_spoken",
+    "evidence": "contradictions are actually paradoxes.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:32.320",
+    "seconds": 1352.32,
+    "type": "observed_spoken",
+    "evidence": "So a paradox is on the surface it it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:34.680",
+    "seconds": 1354.68,
+    "type": "observed_spoken",
+    "evidence": "appears as if it contradicts itself, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:36.440",
+    "seconds": 1356.44,
+    "type": "observed_spoken",
+    "evidence": "on further examination, there's actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:38.880",
+    "seconds": 1358.88,
+    "type": "observed_spoken",
+    "evidence": "some poetry to it. There's actually a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:41.000",
+    "seconds": 1361.0,
+    "type": "observed_spoken",
+    "evidence": "deeper meaning and reason why these two",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:43.120",
+    "seconds": 1363.12,
+    "type": "observed_spoken",
+    "evidence": "things that seem at odds can actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:44.760",
+    "seconds": 1364.76,
+    "type": "observed_spoken",
+    "evidence": "coexist. And here's the thing about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:46.680",
+    "seconds": 1366.68,
+    "type": "observed_spoken",
+    "evidence": "contradictions. Contradictions are not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:49.520",
+    "seconds": 1369.52,
+    "type": "observed_spoken",
+    "evidence": "terrible. The world is messy. If you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:53.160",
+    "seconds": 1373.16,
+    "type": "observed_spoken",
+    "evidence": "ever watch one of those uh based on a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:55.200",
+    "seconds": 1375.2,
+    "type": "observed_spoken",
+    "evidence": "true story kind of deals, you will find",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:57.560",
+    "seconds": 1377.56,
+    "type": "observed_spoken",
+    "evidence": "that the true story that actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:59.360",
+    "seconds": 1379.36,
+    "type": "observed_spoken",
+    "evidence": "happened in reality isn't clean as how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:01.960",
+    "seconds": 1381.96,
+    "type": "observed_spoken",
+    "evidence": "it appears on the big screen. That's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:04.360",
+    "seconds": 1384.36,
+    "type": "observed_spoken",
+    "evidence": "because we want our fiction to be neat",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:06.920",
+    "seconds": 1386.92,
+    "type": "observed_spoken",
+    "evidence": "and clean because our non-fiction",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:09.720",
+    "seconds": 1389.72,
+    "type": "observed_spoken",
+    "evidence": "reality is messy and hard to understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:13.000",
+    "seconds": 1393.0,
+    "type": "observed_spoken",
+    "evidence": "and explain. So, when you get to the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:14.800",
+    "seconds": 1394.8,
+    "type": "observed_spoken",
+    "evidence": "idea that you don't have to solve every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:18.280",
+    "seconds": 1398.28,
+    "type": "observed_spoken",
+    "evidence": "contradiction and it's totally okay for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:21.880",
+    "seconds": 1401.88,
+    "type": "observed_spoken",
+    "evidence": "you to do things that don't make sense",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:25.160",
+    "seconds": 1405.16,
+    "type": "observed_spoken",
+    "evidence": "when you put them side by side, but they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:27.000",
+    "seconds": 1407.0,
+    "type": "observed_spoken",
+    "evidence": "allow you to move forward, then you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:28.680",
+    "seconds": 1408.68,
+    "type": "observed_spoken",
+    "evidence": "don't have the friction anymore",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:31.520",
+    "seconds": 1411.52,
+    "type": "observed_spoken",
+    "evidence": "And the chances are it's probably a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:33.400",
+    "seconds": 1413.4,
+    "type": "observed_spoken",
+    "evidence": "paradox anyway. Now, let me tell you how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:35.240",
+    "seconds": 1415.24,
+    "type": "observed_spoken",
+    "evidence": "this applies in business and marketing.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:37.360",
+    "seconds": 1417.36,
+    "type": "observed_spoken",
+    "evidence": "It's called congruence. Just make sure",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:39.800",
+    "seconds": 1419.8,
+    "type": "observed_spoken",
+    "evidence": "that whatever you're doing to the end",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:41.680",
+    "seconds": 1421.68,
+    "type": "observed_spoken",
+    "evidence": "user appears congruent. I'll give you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:43.800",
+    "seconds": 1423.8,
+    "type": "observed_spoken",
+    "evidence": "the example here. We like to do a lot of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:45.920",
+    "seconds": 1425.92,
+    "type": "observed_spoken",
+    "evidence": "beta launches. So, we launch a thing and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:48.000",
+    "seconds": 1428.0,
+    "type": "observed_spoken",
+    "evidence": "we say, \"Listen, I don't know if this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:49.360",
+    "seconds": 1429.36,
+    "type": "observed_spoken",
+    "evidence": "will work or not, but we'd like to test",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:51.160",
+    "seconds": 1431.16,
+    "type": "observed_spoken",
+    "evidence": "it out. We're going to take on a few key",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:52.920",
+    "seconds": 1432.92,
+    "type": "observed_spoken",
+    "evidence": "people and try it out, see if it works.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:55.320",
+    "seconds": 1435.32,
+    "type": "observed_spoken",
+    "evidence": "But, hey, I got to warn you, it's going",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:56.760",
+    "seconds": 1436.76,
+    "type": "observed_spoken",
+    "evidence": "to be bumpy. We haven't put the whole",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:58.480",
+    "seconds": 1438.48,
+    "type": "observed_spoken",
+    "evidence": "thing together yet and we're making it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:00.360",
+    "seconds": 1440.36,
+    "type": "observed_spoken",
+    "evidence": "up as we go along, but so far the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:02.040",
+    "seconds": 1442.04,
+    "type": "observed_spoken",
+    "evidence": "results we've gotten are promising and I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:03.720",
+    "seconds": 1443.72,
+    "type": "observed_spoken",
+    "evidence": "wanted to get it in your hands as fast",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:05.120",
+    "seconds": 1445.12,
+    "type": "observed_spoken",
+    "evidence": "as possible.\" Now, when I teach this to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:07.200",
+    "seconds": 1447.2,
+    "type": "observed_spoken",
+    "evidence": "clients, they say, \"Okay, got it, Jason.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:08.680",
+    "seconds": 1448.68,
+    "type": "observed_spoken",
+    "evidence": "I'm going to go do a beta launch.\" And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:10.040",
+    "seconds": 1450.04,
+    "type": "observed_spoken",
+    "evidence": "then they put together the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:11.360",
+    "seconds": 1451.36,
+    "type": "observed_spoken",
+    "evidence": "professional-looking",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:13.120",
+    "seconds": 1453.12,
+    "type": "observed_spoken",
+    "evidence": "pages and designs you've ever seen. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:15.040",
+    "seconds": 1455.04,
+    "type": "observed_spoken",
+    "evidence": "I'm like, \"You can either be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:15.880",
+    "seconds": 1455.88,
+    "type": "observed_spoken",
+    "evidence": "professional or you can be in beta, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:18.400",
+    "seconds": 1458.4,
+    "type": "observed_spoken",
+    "evidence": "you can't be both.\" And even if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:20.520",
+    "seconds": 1460.52,
+    "type": "observed_spoken",
+    "evidence": "audiences don't understand this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:22.680",
+    "seconds": 1462.68,
+    "type": "observed_spoken",
+    "evidence": "consciously, unconsciously, something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:25.480",
+    "seconds": 1465.48,
+    "type": "observed_spoken",
+    "evidence": "feels off. So, just sanity check your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:28.640",
+    "seconds": 1468.64,
+    "type": "observed_spoken",
+    "evidence": "congruence from start to finish when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:30.400",
+    "seconds": 1470.4,
+    "type": "observed_spoken",
+    "evidence": "you're launching your business and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:31.440",
+    "seconds": 1471.44,
+    "type": "observed_spoken",
+    "evidence": "marketing campaigns and your positions",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:33.120",
+    "seconds": 1473.12,
+    "type": "observed_spoken",
+    "evidence": "because if two things are at odds with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:35.400",
+    "seconds": 1475.4,
+    "type": "observed_spoken",
+    "evidence": "each other and they appear",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:36.560",
+    "seconds": 1476.56,
+    "type": "observed_spoken",
+    "evidence": "contradictive, your audience will feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:38.880",
+    "seconds": 1478.88,
+    "type": "observed_spoken",
+    "evidence": "uncomfortable with them. The next bias,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:41.800",
+    "seconds": 1481.8,
+    "type": "observed_spoken",
+    "evidence": "affect heuristic.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:44.800",
+    "seconds": 1484.8,
+    "type": "observed_spoken",
+    "evidence": "I just walked across hot coals. Now, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:46.800",
+    "seconds": 1486.8,
+    "type": "observed_spoken",
+    "evidence": "can do anything. The craziness about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:49.080",
+    "seconds": 1489.08,
+    "type": "observed_spoken",
+    "evidence": "this is our brain is so powerful. It has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:52.840",
+    "seconds": 1492.84,
+    "type": "observed_spoken",
+    "evidence": "It has something that it can do that no",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:54.360",
+    "seconds": 1494.36,
+    "type": "observed_spoken",
+    "evidence": "other animal can do, which is be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:55.800",
+    "seconds": 1495.8,
+    "type": "observed_spoken",
+    "evidence": "logical, but we're almost never logical",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:58.640",
+    "seconds": 1498.64,
+    "type": "observed_spoken",
+    "evidence": "anyway. Even when we feel like we're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:00.240",
+    "seconds": 1500.24,
+    "type": "observed_spoken",
+    "evidence": "logical, notice the word feel. We",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:02.720",
+    "seconds": 1502.72,
+    "type": "observed_spoken",
+    "evidence": "overvalue emotions so heavily that we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:06.360",
+    "seconds": 1506.36,
+    "type": "observed_spoken",
+    "evidence": "allow them to influence",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:08.920",
+    "seconds": 1508.92,
+    "type": "observed_spoken",
+    "evidence": "the decisions we make to a unbelievably",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:12.640",
+    "seconds": 1512.64,
+    "type": "observed_spoken",
+    "evidence": "crazy degree. So, the whole idea of like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:15.280",
+    "seconds": 1515.28,
+    "type": "observed_spoken",
+    "evidence": "the gut feeling, people will only",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:17.480",
+    "seconds": 1517.48,
+    "type": "observed_spoken",
+    "evidence": "remember when their gut was right, they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:19.920",
+    "seconds": 1519.92,
+    "type": "observed_spoken",
+    "evidence": "will value that, and then they will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:21.720",
+    "seconds": 1521.72,
+    "type": "observed_spoken",
+    "evidence": "think they should always act according",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:23.760",
+    "seconds": 1523.76,
+    "type": "observed_spoken",
+    "evidence": "to their gut feeling. But, what they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:25.480",
+    "seconds": 1525.48,
+    "type": "observed_spoken",
+    "evidence": "don't realize is that just because it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:27.840",
+    "seconds": 1527.84,
+    "type": "observed_spoken",
+    "evidence": "feels good and feels right doesn't make",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:31.720",
+    "seconds": 1531.72,
+    "type": "observed_spoken",
+    "evidence": "it right. And if it feels uncomfortable,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:36.200",
+    "seconds": 1536.2,
+    "type": "observed_spoken",
+    "evidence": "that in and of itself isn't sufficient",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:38.680",
+    "seconds": 1538.68,
+    "type": "observed_spoken",
+    "evidence": "to make it feel wrong because most of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:40.800",
+    "seconds": 1540.8,
+    "type": "observed_spoken",
+    "evidence": "the areas of growth live in what are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:44.120",
+    "seconds": 1544.12,
+    "type": "observed_spoken",
+    "evidence": "uncomfortable habitats initially. Now,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:47.680",
+    "seconds": 1547.68,
+    "type": "observed_spoken",
+    "evidence": "what we want to do when we sell is we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:49.640",
+    "seconds": 1549.64,
+    "type": "observed_spoken",
+    "evidence": "want to minimize the feeling of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:52.080",
+    "seconds": 1552.08,
+    "type": "observed_spoken",
+    "evidence": "discomfort, so we want to do everything",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:54.120",
+    "seconds": 1554.12,
+    "type": "observed_spoken",
+    "evidence": "that we can to bring that down, and we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:56.320",
+    "seconds": 1556.32,
+    "type": "observed_spoken",
+    "evidence": "also want to maximize the types of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:59.040",
+    "seconds": 1559.04,
+    "type": "observed_spoken",
+    "evidence": "emotions that people base decisions",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:02.320",
+    "seconds": 1562.32,
+    "type": "observed_spoken",
+    "evidence": "around. So, if you ask somebody some ask",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:04.720",
+    "seconds": 1564.72,
+    "type": "observed_spoken",
+    "evidence": "them this question sometime, this is an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:06.000",
+    "seconds": 1566.0,
+    "type": "observed_spoken",
+    "evidence": "NLP question. Think of a time you made a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:07.960",
+    "seconds": 1567.96,
+    "type": "observed_spoken",
+    "evidence": "really good decision, and then you get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:09.680",
+    "seconds": 1569.68,
+    "type": "observed_spoken",
+    "evidence": "the person to think, and then you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:11.040",
+    "seconds": 1571.04,
+    "type": "observed_spoken",
+    "evidence": "say, \"How do you know it was a good",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:12.640",
+    "seconds": 1572.64,
+    "type": "observed_spoken",
+    "evidence": "decision?\" And they'll say, \"Well,\" and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:14.800",
+    "seconds": 1574.8,
+    "type": "observed_spoken",
+    "evidence": "then they'll give you a bunch of content",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:16.120",
+    "seconds": 1576.12,
+    "type": "observed_spoken",
+    "evidence": "that doesn't really matter. But, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:17.360",
+    "seconds": 1577.36,
+    "type": "observed_spoken",
+    "evidence": "say, \"No, no. Where does the good",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:19.200",
+    "seconds": 1579.2,
+    "type": "observed_spoken",
+    "evidence": "decision first show up as a feeling in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:21.280",
+    "seconds": 1581.28,
+    "type": "observed_spoken",
+    "evidence": "your body?\" \"Oh, well, it starts right",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:22.840",
+    "seconds": 1582.84,
+    "type": "observed_spoken",
+    "evidence": "here.\" And they'll tell you if you ask",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:24.120",
+    "seconds": 1584.12,
+    "type": "observed_spoken",
+    "evidence": "them, right? And how do you know versus",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:26.120",
+    "seconds": 1586.12,
+    "type": "observed_spoken",
+    "evidence": "a bad decision? Where is the feeling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:27.840",
+    "seconds": 1587.84,
+    "type": "observed_spoken",
+    "evidence": "different when it's a bad decision",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:29.160",
+    "seconds": 1589.16,
+    "type": "observed_spoken",
+    "evidence": "versus when it's a good decision? How",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:31.040",
+    "seconds": 1591.04,
+    "type": "observed_spoken",
+    "evidence": "did you know it was a good decision",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:33.280",
+    "seconds": 1593.28,
+    "type": "observed_spoken",
+    "evidence": "looking back on it? And then when you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:35.400",
+    "seconds": 1595.4,
+    "type": "observed_spoken",
+    "evidence": "made a bad decision, how did you know it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:37.080",
+    "seconds": 1597.08,
+    "type": "observed_spoken",
+    "evidence": "was a bad decision only when you look",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:38.920",
+    "seconds": 1598.92,
+    "type": "observed_spoken",
+    "evidence": "back on it later? Like, we are giving",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:41.120",
+    "seconds": 1601.12,
+    "type": "observed_spoken",
+    "evidence": "what's called the decision-making",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:43.080",
+    "seconds": 1603.08,
+    "type": "observed_spoken",
+    "evidence": "criteria.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:44.600",
+    "seconds": 1604.6,
+    "type": "observed_spoken",
+    "evidence": "We are eliciting it to know how this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:47.600",
+    "seconds": 1607.6,
+    "type": "observed_spoken",
+    "evidence": "person feels like something is good or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:51.400",
+    "seconds": 1611.4,
+    "type": "observed_spoken",
+    "evidence": "bad. It is not logical, but it is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:54.000",
+    "seconds": 1614.0,
+    "type": "observed_spoken",
+    "evidence": "code in which they make their decisions.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:56.160",
+    "seconds": 1616.16,
+    "type": "observed_spoken",
+    "evidence": "And this is so, so powerful because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:58.480",
+    "seconds": 1618.48,
+    "type": "observed_spoken",
+    "evidence": "you'll very quickly realize that people,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:01.800",
+    "seconds": 1621.8,
+    "type": "observed_spoken",
+    "evidence": "when they feel negative emotions, they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:03.880",
+    "seconds": 1623.88,
+    "type": "observed_spoken",
+    "evidence": "start to overvalue",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:06.440",
+    "seconds": 1626.44,
+    "type": "observed_spoken",
+    "evidence": "and oversubscribe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:09.400",
+    "seconds": 1629.4,
+    "type": "observed_spoken",
+    "evidence": "and overweight negative emotions. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:13.120",
+    "seconds": 1633.12,
+    "type": "observed_spoken",
+    "evidence": "they undervalue",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:15.440",
+    "seconds": 1635.44,
+    "type": "observed_spoken",
+    "evidence": "the logical positive rewards. They will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:19.600",
+    "seconds": 1639.6,
+    "type": "observed_spoken",
+    "evidence": "literally think a dollar to risk is $10,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:23.840",
+    "seconds": 1643.84,
+    "type": "observed_spoken",
+    "evidence": "and they will think the reward for $10",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:26.560",
+    "seconds": 1646.56,
+    "type": "observed_spoken",
+    "evidence": "is $2. And you will sit there scratching",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:29.000",
+    "seconds": 1649.0,
+    "type": "observed_spoken",
+    "evidence": "your head thinking, \"Well, I don't get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:30.480",
+    "seconds": 1650.48,
+    "type": "observed_spoken",
+    "evidence": "it. This is the best deal in the world.\"",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:32.240",
+    "seconds": 1652.24,
+    "type": "observed_spoken",
+    "evidence": "And yet they're still not buying. So, we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:34.400",
+    "seconds": 1654.4,
+    "type": "observed_spoken",
+    "evidence": "have to help people remove the emotional",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:37.560",
+    "seconds": 1657.56,
+    "type": "observed_spoken",
+    "evidence": "baggage that gets in the way of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:38.880",
+    "seconds": 1658.88,
+    "type": "observed_spoken",
+    "evidence": "decisions that they should make so they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:41.320",
+    "seconds": 1661.32,
+    "type": "observed_spoken",
+    "evidence": "can properly ascertain and understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:44.480",
+    "seconds": 1664.48,
+    "type": "observed_spoken",
+    "evidence": "value.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  }
+]

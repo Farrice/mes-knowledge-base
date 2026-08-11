@@ -209,6 +209,78 @@ def build_index():
     return index_data
 
 
+def refresh_skill_index(skill_name):
+    """Refresh one skill without rebuilding every cached skill chunk.
+
+    Existing chunk IDs are retained where possible so a local skill repair does
+    not create a repository-wide generated-file diff. New chunks receive IDs
+    above the current maximum; retrieval does not require contiguous IDs.
+    """
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", skill_name):
+        raise ValueError(f"Invalid skill name: {skill_name}")
+
+    skill_dir = SKILLS_DIR / skill_name
+    if not skill_dir.is_dir():
+        raise FileNotFoundError(f"Skill directory not found: {skill_dir}")
+
+    index_data = load_index()
+    existing = index_data.get("chunks", [])
+    source_prefix = f"skills/{skill_name}/"
+    old_positions = [
+        i
+        for i, chunk in enumerate(existing)
+        if chunk.get("skill") == skill_name
+        or str(chunk.get("source", "")).startswith(source_prefix)
+    ]
+    old_chunks = [existing[i] for i in old_positions]
+    old_ids = [
+        chunk.get("id")
+        for chunk in old_chunks
+        if isinstance(chunk.get("id"), int)
+    ]
+    old_sources = {chunk.get("source") for chunk in old_chunks}
+
+    new_chunks = []
+    new_file_count = 0
+    for filename in retrieval_file_names(skill_dir):
+        filepath = skill_dir / filename
+        if filepath.exists():
+            new_file_count += 1
+            new_chunks.extend(chunk_skill_file(filepath))
+
+    max_id = max(
+        (
+            chunk.get("id", -1)
+            for chunk in existing
+            if isinstance(chunk.get("id"), int)
+        ),
+        default=-1,
+    )
+    for i, chunk in enumerate(new_chunks):
+        if i < len(old_ids):
+            chunk["id"] = old_ids[i]
+        else:
+            max_id += 1
+            chunk["id"] = max_id
+
+    retained = [
+        chunk
+        for chunk in existing
+        if chunk.get("skill") != skill_name
+        and not str(chunk.get("source", "")).startswith(source_prefix)
+    ]
+    insert_at = old_positions[0] if old_positions else len(retained)
+    retained[insert_at:insert_at] = new_chunks
+
+    index_data["chunks"] = retained
+    index_data["chunk_count"] = len(retained)
+    index_data["file_count"] = (
+        int(index_data.get("file_count", 0)) - len(old_sources) + new_file_count
+    )
+    INDEX_PATH.write_text(json.dumps(index_data, indent=2) + "\n", encoding="utf-8")
+    return index_data, len(old_chunks), len(new_chunks)
+
+
 # ─────────────────────────────────────────────────────────
 # PURE PYTHON TF-IDF ENGINE
 # ─────────────────────────────────────────────────────────
@@ -421,7 +493,11 @@ def main():
     parser = argparse.ArgumentParser(description="Context Retriever — Semantic skill chunk retrieval")
     sub = parser.add_subparsers(dest="command")
 
-    sub.add_parser("index", help="Build/rebuild the chunk index from all skill files")
+    index_p = sub.add_parser("index", help="Build/rebuild the chunk index from skill files")
+    index_p.add_argument(
+        "--skill",
+        help="Refresh only this skill in the existing index and keep unrelated chunks stable",
+    )
 
     search_p = sub.add_parser("search", help="Search for relevant skill chunks")
     search_p.add_argument("query", help="Task description or search query")
@@ -433,9 +509,14 @@ def main():
     args = parser.parse_args()
 
     if args.command == "index":
-        print("Building chunk index...")
-        data = build_index()
-        print(f"Done. Indexed {data['file_count']} files → {data['chunk_count']} chunks")
+        if args.skill:
+            print(f"Refreshing skill index: {args.skill}")
+            data, old_count, new_count = refresh_skill_index(args.skill)
+            print(f"Done. Replaced {old_count} chunks → {new_count} chunks")
+        else:
+            print("Building chunk index...")
+            data = build_index()
+            print(f"Done. Indexed {data['file_count']} files → {data['chunk_count']} chunks")
         print(f"Saved to {INDEX_PATH}")
 
     elif args.command == "search":

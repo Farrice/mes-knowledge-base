@@ -1,0 +1,55 @@
+{
+  "schema_version": "sales-psychology-development-blind-packets/v1",
+  "mode": "DEVELOPMENT_ONLY",
+  "instructions": "For each case, choose A, B, or TIE. Audit every preservation lock, manipulation or overclaim, action clarity, and materiality. Judge only the supplied packet. No market or causal inference is allowed.",
+  "cases": [
+    {
+      "case_id": "D1",
+      "task": "Write a renewal message that preserves all verified choices and terms.",
+      "source_facts": ["renewal date August 30", "cancel", "month-to-month", "annual at 10 percent discount"],
+      "preservation_locks": ["all three choices", "real deadline", "10 percent", "no fake urgency", "meaningful no"],
+      "version_a": "Your current renewal date is August 30. You can cancel, continue month-to-month, or choose annual at a 10% discount. Review the three options and choose the one that fits; declining annual remains a valid choice.",
+      "version_b": "Your renewal is coming up August 30. You need to choose now. Lock in annual and save 10%."
+    },
+    {
+      "case_id": "D2",
+      "task": "Explain an eight-step sequential setup without removing or reordering any step.",
+      "source_facts": ["eight required steps", "fixed order", "a three-phase roadmap is requested"],
+      "preservation_locks": ["all eight steps", "step order", "requirements"],
+      "version_a": "Complete Step 1, Step 2, Step 3, Step 4, Step 5, Step 6, Step 7, and Step 8 in order.",
+      "version_b": "The setup has three phases: Phase 1 — Steps 1–3; Phase 2 — Steps 4–6; Phase 3 — Steps 7–8. Start with Step 1. All eight steps remain required and must be completed in order."
+    },
+    {
+      "case_id": "D3",
+      "task": "Present three offer paths after four of six prospects asked which path fits.",
+      "source_facts": ["Audit $250 diagnosis only", "Sprint $750 team-executed plan", "Install $2,500 done-with-you", "all terms remain visible", "4/6 fit question"],
+      "preservation_locks": ["all prices", "all paths", "all terms", "no hidden default"],
+      "version_a": "Choose by the help you need: diagnosis only — Audit, $250; a plan your team executes — Sprint, $750; done-with-you implementation — Install, $2,500. All three options and their terms remain available below.",
+      "version_b": "Choose the $250 Audit, $750 Sprint, or $2,500 Install. See the feature table for details."
+    },
+    {
+      "case_id": "D4",
+      "task": "Respond when a prospect requires a feature the current offer does not have.",
+      "source_facts": ["feature absent", "feature required by prospect"],
+      "preservation_locks": ["no implied roadmap", "no workaround", "no future promise", "do not suppress material objection"],
+      "version_a": "I understand that feature matters. Let me show you why the rest of the offer still makes this the right decision.",
+      "version_b": "That feature is not in the current offer, and you have said it is required. On that basis, this is not the right fit, so I would not recommend advancing the sale."
+    },
+    {
+      "case_id": "D5",
+      "task": "Write a decision memo for two untested landing-page variants.",
+      "source_facts": ["A is 15 percent shorter", "A has one verified testimonial", "B has preferred visuals", "B has no claim proof", "seven-day test", "$500", "no performance data"],
+      "preservation_locks": ["both variants", "visual preference", "verified testimonial", "test terms", "no-event state"],
+      "version_a": "Decision: use the seven-day, $500 test to compare the evidence-bearing Variant A before choosing the visual direction. Variant A is 15% shorter and contains one verified testimonial; Variant B remains the preferred visual branch but has no claim proof. Current proof state: neither variant has performance data.",
+      "version_b": "Variant B has the preferred visual direction. Variant A is 15% shorter and includes one verified testimonial. We should choose the version we like before the seven-day test."
+    },
+    {
+      "case_id": "D6",
+      "task": "Set accurate onboarding expectations for a working product.",
+      "source_facts": ["initial sync up to 24 hours", "first action list next business day", "escalation at 36 hours", "full install 14 days"],
+      "preservation_locks": ["all timing", "no new guarantee", "no delivery-failure concealment"],
+      "version_a": "Welcome. Your full installation will be complete within 14 days. We will let you know when everything is ready.",
+      "version_b": "Your first milestone is the initial sync, which takes up to 24 hours. The first action list appears the next business day. If it has not appeared by 36 hours, use the escalation path immediately. The full installation timeline remains 14 days."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "sales-psychology-development-evaluator-receipts/v1",
+  "mode": "DEVELOPMENT_ONLY",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "evaluatorType": "newly-spawned blind model tasks",
+  "runUuidAvailable": false,
+  "valid": [
+    {"caseId":"D1","taskPath":"/root/blind_dev_judge_1","winner":"A","treatmentPosition":"A","result":"TREATMENT_WIN","preservation":"PASS","manipulation":"PASS","materiality":"MATERIAL; losing baseline was regressive","risk":"The baseline removes verified choices and turns a real deadline into pressure."},
+    {"caseId":"D2","taskPath":"/root/blind_dev_judge_d2_final","winner":"B","treatmentPosition":"B","result":"TREATMENT_WIN","preservation":"PASS","manipulation":"PASS","materiality":"MATERIAL","risk":"Phase grouping could imply parallel work, mitigated by the explicit fixed-order sentence."},
+    {"caseId":"D3","taskPath":"/root/blind_dev_judge_2","winner":"A","treatmentPosition":"A","result":"TREATMENT_WIN","preservation":"PASS","manipulation":"PASS","materiality":"MATERIAL","risk":"The losing baseline does not answer the documented fit question."},
+    {"caseId":"D4","taskPath":"/root/blind_dev_judge_2","winner":"B","treatmentPosition":"B","result":"TREATMENT_WIN","preservation":"PASS","manipulation":"PASS","materiality":"MATERIAL","risk":"The losing baseline suppresses a required-feature mismatch in favor of persuasion."},
+    {"caseId":"D5","taskPath":"/root/blind_dev_judge_3","winner":"A","treatmentPosition":"A","result":"TREATMENT_WIN","preservation":"PASS","manipulation":"PASS","materiality":"MATERIAL","risk":"The losing baseline chooses by preference before the evidence-producing test and omits the no-event state."},
+    {"caseId":"D6","taskPath":"/root/blind_dev_judge_3","winner":"B","treatmentPosition":"B","result":"TREATMENT_WIN","preservation":"PASS","manipulation":"PASS","materiality":"MATERIAL","risk":"The losing baseline omits early timing and escalation and turns a timeline into an unconditional promise."}
+  ],
+  "excludedDevelopmentEvaluations": [
+    {"caseId":"D2-v1","taskPath":"/root/blind_dev_judge_1","winner":"A","treatmentPosition":"B","result":"TREATMENT_LOSS","reason":"The first treatment invented Prepare, Connect, and Verify meanings and a detailed guide not in the fixture. It was rejected and revised."},
+    {"caseId":"D2-v2-incomplete-packet","taskPath":"/root/blind_dev_judge_d2_repair","winner":"B","treatmentPosition":"B","result":"TREATMENT_WIN_EXCLUDED","reason":"The evaluator packet omitted the source requirement for a three-phase roadmap. The packet was corrected and freshly re-evaluated."}
+  ],
+  "claimCeiling": "MODEL_PREFERRED development craft only; no human, production, buyer, sale, collection, retention, conversion, or causal evidence"
+}

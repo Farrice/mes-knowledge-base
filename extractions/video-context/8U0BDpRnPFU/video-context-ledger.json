@@ -1,0 +1,4016 @@
+[
+  {
+    "timestamp": "00:00:00.120",
+    "seconds": 0.12,
+    "type": "observed_spoken",
+    "evidence": "hey Jason flin here and today I'm going",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:01.680",
+    "seconds": 1.68,
+    "type": "observed_spoken",
+    "evidence": "to talk to you about a communication",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:03.199",
+    "seconds": 3.199,
+    "type": "observed_spoken",
+    "evidence": "model that you can use which will help",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:04.799",
+    "seconds": 4.799,
+    "type": "observed_spoken",
+    "evidence": "you close more sales it'll help you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:06.960",
+    "seconds": 6.96,
+    "type": "observed_spoken",
+    "evidence": "more impact with whatever content and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.480",
+    "seconds": 9.48,
+    "type": "observed_spoken",
+    "evidence": "education material you create and it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:12.000",
+    "seconds": 12.0,
+    "type": "observed_spoken",
+    "evidence": "will even improve interpersonal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:14.480",
+    "seconds": 14.48,
+    "type": "observed_spoken",
+    "evidence": "relationships with friends with loved",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.119",
+    "seconds": 17.119,
+    "type": "observed_spoken",
+    "evidence": "ones family members Intimate",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:19.560",
+    "seconds": 19.56,
+    "type": "observed_spoken",
+    "evidence": "Relationships etc etc now before we get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:22.160",
+    "seconds": 22.16,
+    "type": "observed_spoken",
+    "evidence": "into this communication model that I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:23.880",
+    "seconds": 23.88,
+    "type": "observed_spoken",
+    "evidence": "going to break down here today let's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:25.400",
+    "seconds": 25.4,
+    "type": "observed_spoken",
+    "evidence": "talk about why it's important and I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.519",
+    "seconds": 27.519,
+    "type": "observed_spoken",
+    "evidence": "think the main reason more than anything",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:29.800",
+    "seconds": 29.8,
+    "type": "observed_spoken",
+    "evidence": "else else is it puts you in a state of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:31.759",
+    "seconds": 31.759,
+    "type": "observed_spoken",
+    "evidence": "instant Rapport near effortlessly and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:35.239",
+    "seconds": 35.239,
+    "type": "observed_spoken",
+    "evidence": "the Rapport is very deep at least 34s of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:37.960",
+    "seconds": 37.96,
+    "type": "observed_spoken",
+    "evidence": "this communication model does there is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:39.960",
+    "seconds": 39.96,
+    "type": "observed_spoken",
+    "evidence": "1/4 of it that creates intentional",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:43.879",
+    "seconds": 43.879,
+    "type": "observed_spoken",
+    "evidence": "misreport is that a word I don't know it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:46.360",
+    "seconds": 46.36,
+    "type": "observed_spoken",
+    "evidence": "creates dissonance instead of resonance",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:48.280",
+    "seconds": 48.28,
+    "type": "observed_spoken",
+    "evidence": "I'm a music guy so that's how I think in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:50.160",
+    "seconds": 50.16,
+    "type": "observed_spoken",
+    "evidence": "terms of the world would be very boring",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:51.879",
+    "seconds": 51.879,
+    "type": "observed_spoken",
+    "evidence": "if we played everything in the scale in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:53.879",
+    "seconds": 53.879,
+    "type": "observed_spoken",
+    "evidence": "the key and there was no dissonance and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:56.239",
+    "seconds": 56.239,
+    "type": "observed_spoken",
+    "evidence": "so most of the time incommunication when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.039",
+    "seconds": 59.039,
+    "type": "observed_spoken",
+    "evidence": "to create resonance occasionally",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:00.840",
+    "seconds": 60.84,
+    "type": "observed_spoken",
+    "evidence": "tactically we want to create dissonance",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:02.719",
+    "seconds": 62.719,
+    "type": "observed_spoken",
+    "evidence": "and so I'll break down for you the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.920",
+    "seconds": 63.92,
+    "type": "observed_spoken",
+    "evidence": "three4 of the time we resonate the 1/4",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:06.479",
+    "seconds": 66.479,
+    "type": "observed_spoken",
+    "evidence": "when we intentionally create dissonance",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:08.400",
+    "seconds": 68.4,
+    "type": "observed_spoken",
+    "evidence": "to create further understanding deeper",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:10.119",
+    "seconds": 70.119,
+    "type": "observed_spoken",
+    "evidence": "connection so on and so forth this also",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.159",
+    "seconds": 72.159,
+    "type": "observed_spoken",
+    "evidence": "unlocks empathy I think empathy is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:14.479",
+    "seconds": 74.479,
+    "type": "observed_spoken",
+    "evidence": "secret weapon my friend Chris Voss",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:16.840",
+    "seconds": 76.84,
+    "type": "observed_spoken",
+    "evidence": "bestselling author of maybe of all time",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:19.400",
+    "seconds": 79.4,
+    "type": "observed_spoken",
+    "evidence": "of the book never split the difference",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:21.200",
+    "seconds": 81.2,
+    "type": "observed_spoken",
+    "evidence": "which is an unbelievable Masterpiece in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:23.040",
+    "seconds": 83.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "its own right I went to his premiere of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:24.799",
+    "seconds": 84.799,
+    "type": "observed_spoken",
+    "evidence": "his documentary and it was called",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:26.840",
+    "seconds": 86.84,
+    "type": "observed_spoken",
+    "evidence": "tactical empathy he came up with that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:28.479",
+    "seconds": 88.479,
+    "type": "observed_spoken",
+    "evidence": "name I love it we can use empathy in a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:31.320",
+    "seconds": 91.32,
+    "type": "observed_spoken",
+    "evidence": "way that is wholesome and ethical and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:34.840",
+    "seconds": 94.84,
+    "type": "observed_spoken",
+    "evidence": "it's perhaps the best way to really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:38.040",
+    "seconds": 98.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "understand somebody else and then as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:39.759",
+    "seconds": 99.759,
+    "type": "observed_spoken",
+    "evidence": "result have them be open to hearing you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.560",
+    "seconds": 102.56,
+    "type": "observed_spoken",
+    "evidence": "because now they feel understood so now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:44.880",
+    "seconds": 104.88,
+    "type": "observed_spoken",
+    "evidence": "they're more receptive maybe the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.280",
+    "seconds": 107.28,
+    "type": "observed_spoken",
+    "evidence": "receptive they can be to any insight or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:49.079",
+    "seconds": 109.07900000000001,
+    "type": "observed_spoken",
+    "evidence": "any advice that you can give and lastly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:51.439",
+    "seconds": 111.439,
+    "type": "observed_spoken",
+    "evidence": "the reason this model works so well is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:53.200",
+    "seconds": 113.2,
+    "type": "observed_spoken",
+    "evidence": "it helps you break out of stuck patterns",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:55.439",
+    "seconds": 115.439,
+    "type": "observed_spoken",
+    "evidence": "I'm not sure if You' ever heard of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:56.520",
+    "seconds": 116.52000000000001,
+    "type": "observed_spoken",
+    "evidence": "concept of the shame spiral but it is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:58.360",
+    "seconds": 118.36,
+    "type": "observed_spoken",
+    "evidence": "one of the most Insidious patterns that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:00.159",
+    "seconds": 120.159,
+    "type": "observed_spoken",
+    "evidence": "really limit us and harm us as human",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:01.880",
+    "seconds": 121.88,
+    "type": "observed_spoken",
+    "evidence": "beings is we feel bad about something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.920",
+    "seconds": 123.92,
+    "type": "observed_spoken",
+    "evidence": "and then we feel bad about feeling bad",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.479",
+    "seconds": 125.479,
+    "type": "observed_spoken",
+    "evidence": "about the thing and now we feel really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:07.079",
+    "seconds": 127.079,
+    "type": "observed_spoken",
+    "evidence": "miserable which makes us feel even worse",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:09.039",
+    "seconds": 129.039,
+    "type": "observed_spoken",
+    "evidence": "and pretty soon you just go into the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:10.720",
+    "seconds": 130.72,
+    "type": "observed_spoken",
+    "evidence": "shame spiral where you feel bad about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:13.000",
+    "seconds": 133.0,
+    "type": "observed_spoken",
+    "evidence": "feeling bad almost in perpetuity and it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:15.239",
+    "seconds": 135.239,
+    "type": "observed_spoken",
+    "evidence": "ratches it up we are creatures of habit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.879",
+    "seconds": 137.879,
+    "type": "observed_spoken",
+    "evidence": "and our habits are typically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:19.360",
+    "seconds": 139.36,
+    "type": "observed_spoken",
+    "evidence": "pattern-based and it's really easy when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:22.400",
+    "seconds": 142.4,
+    "type": "observed_spoken",
+    "evidence": "we hit limiting behavioral patterns to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:24.560",
+    "seconds": 144.56,
+    "type": "observed_spoken",
+    "evidence": "get stuck in those and to get caught in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:26.680",
+    "seconds": 146.68,
+    "type": "observed_spoken",
+    "evidence": "ruts so to speak and so this can help",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:28.920",
+    "seconds": 148.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "unwedge people people that are stuck in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:30.680",
+    "seconds": 150.68,
+    "type": "observed_spoken",
+    "evidence": "patterns and even in Communications with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:32.720",
+    "seconds": 152.72,
+    "type": "observed_spoken",
+    "evidence": "other people where you say this and they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:34.200",
+    "seconds": 154.2,
+    "type": "observed_spoken",
+    "evidence": "say that and it just happens every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.720",
+    "seconds": 155.72,
+    "type": "observed_spoken",
+    "evidence": "single time a trigger if you will and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:37.879",
+    "seconds": 157.879,
+    "type": "observed_spoken",
+    "evidence": "then how do you get forward in your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:39.879",
+    "seconds": 159.879,
+    "type": "observed_spoken",
+    "evidence": "communication you don't and if you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:41.159",
+    "seconds": 161.159,
+    "type": "observed_spoken",
+    "evidence": "repeat it over and over again you don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:42.480",
+    "seconds": 162.48,
+    "type": "observed_spoken",
+    "evidence": "stay stuck actually you get worse you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:44.640",
+    "seconds": 164.64,
+    "type": "observed_spoken",
+    "evidence": "stay stuck in the pattern but the result",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:47.080",
+    "seconds": 167.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "becomes more and more disharmony all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:49.599",
+    "seconds": 169.599,
+    "type": "observed_spoken",
+    "evidence": "right so let's break down this model on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:51.000",
+    "seconds": 171.0,
+    "type": "observed_spoken",
+    "evidence": "a high level I always like to think in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:53.120",
+    "seconds": 173.12,
+    "type": "observed_spoken",
+    "evidence": "terms of macro not just micro but to see",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:56.319",
+    "seconds": 176.31900000000002,
+    "type": "observed_spoken",
+    "evidence": "what is the overarching kind of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:58.760",
+    "seconds": 178.76,
+    "type": "observed_spoken",
+    "evidence": "responses to something or what are the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:01.159",
+    "seconds": 181.159,
+    "type": "observed_spoken",
+    "evidence": "inputs to something what are the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:02.720",
+    "seconds": 182.72,
+    "type": "observed_spoken",
+    "evidence": "critical ones and I tend to lean to four",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:04.959",
+    "seconds": 184.959,
+    "type": "observed_spoken",
+    "evidence": "there's a pattern I've just discovered",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:06.400",
+    "seconds": 186.4,
+    "type": "observed_spoken",
+    "evidence": "over and over again where you can almost",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:07.920",
+    "seconds": 187.92,
+    "type": "observed_spoken",
+    "evidence": "break anything down into fours I'm going",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:09.760",
+    "seconds": 189.76,
+    "type": "observed_spoken",
+    "evidence": "to do a YouTube video on the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:10.840",
+    "seconds": 190.84,
+    "type": "observed_spoken",
+    "evidence": "productivity hack with the 4x4 model and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.640",
+    "seconds": 193.64,
+    "type": "observed_spoken",
+    "evidence": "when it comes to responding to something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:15.560",
+    "seconds": 195.56,
+    "type": "observed_spoken",
+    "evidence": "if somebody says something to you or if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:17.360",
+    "seconds": 197.36,
+    "type": "observed_spoken",
+    "evidence": "somebody comes to you looking for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:19.440",
+    "seconds": 199.44,
+    "type": "observed_spoken",
+    "evidence": "something if somebody offers you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.200",
+    "seconds": 201.2,
+    "type": "observed_spoken",
+    "evidence": "something other either directly where",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:23.080",
+    "seconds": 203.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "they say hey this is what I'm feeling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:25.200",
+    "seconds": 205.2,
+    "type": "observed_spoken",
+    "evidence": "right now or this is what's going on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.599",
+    "seconds": 206.599,
+    "type": "observed_spoken",
+    "evidence": "right now or indirectly if you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.040",
+    "seconds": 208.04,
+    "type": "observed_spoken",
+    "evidence": "addressing a Marketplace or a produ ECT",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:30.159",
+    "seconds": 210.159,
+    "type": "observed_spoken",
+    "evidence": "and you've observed certain behaviors or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:32.080",
+    "seconds": 212.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "cues and you are addressing that this is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:34.319",
+    "seconds": 214.31900000000002,
+    "type": "observed_spoken",
+    "evidence": "how you can address that there are four",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:36.080",
+    "seconds": 216.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "ways and only four ways essentually now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:38.400",
+    "seconds": 218.4,
+    "type": "observed_spoken",
+    "evidence": "there's multiple colors of these four",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:39.920",
+    "seconds": 219.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "ways but the four broad Strokes of it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.959",
+    "seconds": 221.959,
+    "type": "observed_spoken",
+    "evidence": "are you can agree with what they say or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:44.040",
+    "seconds": 224.04,
+    "type": "observed_spoken",
+    "evidence": "what they think or what they feel or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:45.319",
+    "seconds": 225.31900000000002,
+    "type": "observed_spoken",
+    "evidence": "what they believe you can challenge it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:47.480",
+    "seconds": 227.48,
+    "type": "observed_spoken",
+    "evidence": "you can reflect it or you can ignore it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:50.640",
+    "seconds": 230.64,
+    "type": "observed_spoken",
+    "evidence": "now I like to use sales as an example",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:53.959",
+    "seconds": 233.959,
+    "type": "observed_spoken",
+    "evidence": "one it's not too deep and too personal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.000",
+    "seconds": 237.0,
+    "type": "observed_spoken",
+    "evidence": "where it might feel weird if you get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:59.000",
+    "seconds": 239.0,
+    "type": "observed_spoken",
+    "evidence": "into the weed needs too fast two is I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:01.640",
+    "seconds": 241.64,
+    "type": "observed_spoken",
+    "evidence": "really good at it so I have a really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:03.680",
+    "seconds": 243.68,
+    "type": "observed_spoken",
+    "evidence": "fundamental understanding of some of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:05.280",
+    "seconds": 245.28,
+    "type": "observed_spoken",
+    "evidence": "intricacies of this applied in that one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.480",
+    "seconds": 247.48,
+    "type": "observed_spoken",
+    "evidence": "specific context of sales three we're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:09.959",
+    "seconds": 249.959,
+    "type": "observed_spoken",
+    "evidence": "all used to sales we're always selling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:12.120",
+    "seconds": 252.12,
+    "type": "observed_spoken",
+    "evidence": "at all times whether we realize it or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:13.680",
+    "seconds": 253.68,
+    "type": "observed_spoken",
+    "evidence": "not and we're always buying at all times",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:15.840",
+    "seconds": 255.84,
+    "type": "observed_spoken",
+    "evidence": "what we buy and what we sell obviously",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:17.840",
+    "seconds": 257.84,
+    "type": "observed_spoken",
+    "evidence": "can determine where we go in life and so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:20.079",
+    "seconds": 260.079,
+    "type": "observed_spoken",
+    "evidence": "this is why I like to use cell as an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:21.680",
+    "seconds": 261.68,
+    "type": "observed_spoken",
+    "evidence": "example here let's talk about objections",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:24.560",
+    "seconds": 264.56,
+    "type": "observed_spoken",
+    "evidence": "because typically where there is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:26.479",
+    "seconds": 266.479,
+    "type": "observed_spoken",
+    "evidence": "disconnection is Created from an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:28.479",
+    "seconds": 268.479,
+    "type": "observed_spoken",
+    "evidence": "objection I object to what you believe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:31.000",
+    "seconds": 271.0,
+    "type": "observed_spoken",
+    "evidence": "in or you object to how I show up in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:34.600",
+    "seconds": 274.6,
+    "type": "observed_spoken",
+    "evidence": "world and that's what creates that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:36.160",
+    "seconds": 276.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "friction and if we can't get past that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.800",
+    "seconds": 277.8,
+    "type": "observed_spoken",
+    "evidence": "friction and move into understanding",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:39.759",
+    "seconds": 279.759,
+    "type": "observed_spoken",
+    "evidence": "nobody benefits and so a typical",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:42.919",
+    "seconds": 282.919,
+    "type": "observed_spoken",
+    "evidence": "objection in sales is it cost too much",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:46.440",
+    "seconds": 286.44,
+    "type": "observed_spoken",
+    "evidence": "or it's too expensive or I can't afford",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:48.720",
+    "seconds": 288.72,
+    "type": "observed_spoken",
+    "evidence": "it it's a price objection related to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.919",
+    "seconds": 291.919,
+    "type": "observed_spoken",
+    "evidence": "large amount of cost for an unknown",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.320",
+    "seconds": 294.32,
+    "type": "observed_spoken",
+    "evidence": "value that may occur in advance or in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:56.280",
+    "seconds": 296.28,
+    "type": "observed_spoken",
+    "evidence": "exchange for that so in a onetoone",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.960",
+    "seconds": 297.96,
+    "type": "observed_spoken",
+    "evidence": "setting if if you were selling a product",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:00.080",
+    "seconds": 300.08,
+    "type": "observed_spoken",
+    "evidence": "and you showed it and you said this is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:01.440",
+    "seconds": 301.44,
+    "type": "observed_spoken",
+    "evidence": "what it is this is what it does is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:03.120",
+    "seconds": 303.12,
+    "type": "observed_spoken",
+    "evidence": "investment to get started in this and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:05.000",
+    "seconds": 305.0,
+    "type": "observed_spoken",
+    "evidence": "somebody said to you gosh that's a lot",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:07.639",
+    "seconds": 307.639,
+    "type": "observed_spoken",
+    "evidence": "of money the natural salesperson is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:10.919",
+    "seconds": 310.919,
+    "type": "observed_spoken",
+    "evidence": "likely to respond reflexively or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:14.080",
+    "seconds": 314.08,
+    "type": "observed_spoken",
+    "evidence": "defensively they want to justify that it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:16.360",
+    "seconds": 316.36,
+    "type": "observed_spoken",
+    "evidence": "isn't a lot of money the problem with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:18.160",
+    "seconds": 318.16,
+    "type": "observed_spoken",
+    "evidence": "that type of reactive communication is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:21.400",
+    "seconds": 321.4,
+    "type": "observed_spoken",
+    "evidence": "at least at an unconscious level it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:22.840",
+    "seconds": 322.84,
+    "type": "observed_spoken",
+    "evidence": "makes people uneasy like what's this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:24.880",
+    "seconds": 324.88,
+    "type": "observed_spoken",
+    "evidence": "dude doing feeling insecure about the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:27.280",
+    "seconds": 327.28,
+    "type": "observed_spoken",
+    "evidence": "price they don't hold a strong frame of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:30.000",
+    "seconds": 330.0,
+    "type": "observed_spoken",
+    "evidence": "confidence related to what they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:31.600",
+    "seconds": 331.6,
+    "type": "observed_spoken",
+    "evidence": "charging and that's a big issue and that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:33.759",
+    "seconds": 333.759,
+    "type": "observed_spoken",
+    "evidence": "causes that friction potentially",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.479",
+    "seconds": 335.479,
+    "type": "observed_spoken",
+    "evidence": "unspoken friction if it's not saying out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:37.160",
+    "seconds": 337.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "loud so by far my favorite way to deal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:39.800",
+    "seconds": 339.8,
+    "type": "observed_spoken",
+    "evidence": "with a price objection is to agree with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:41.680",
+    "seconds": 341.68,
+    "type": "observed_spoken",
+    "evidence": "it I like just agree with almost",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:44.080",
+    "seconds": 344.08,
+    "type": "observed_spoken",
+    "evidence": "everything that is my default is to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:46.520",
+    "seconds": 346.52,
+    "type": "observed_spoken",
+    "evidence": "agree to it so I can better understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:48.479",
+    "seconds": 348.479,
+    "type": "observed_spoken",
+    "evidence": "that person at least agree to their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:50.680",
+    "seconds": 350.68,
+    "type": "observed_spoken",
+    "evidence": "point of view I don't have to adopt it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:52.800",
+    "seconds": 352.8,
+    "type": "observed_spoken",
+    "evidence": "or adapt it to my own but I can agree",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:55.199",
+    "seconds": 355.199,
+    "type": "observed_spoken",
+    "evidence": "with it nonetheless so if somebody says",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:57.080",
+    "seconds": 357.08,
+    "type": "observed_spoken",
+    "evidence": "yeah it's expensive I say it it is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:59.840",
+    "seconds": 359.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "expensive but is it worth paying the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:01.560",
+    "seconds": 361.56,
+    "type": "observed_spoken",
+    "evidence": "price for it and I have closed more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:04.160",
+    "seconds": 364.16,
+    "type": "observed_spoken",
+    "evidence": "sales that way by simply just agreeing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:06.520",
+    "seconds": 366.52,
+    "type": "observed_spoken",
+    "evidence": "with that objection then I have trying",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:08.400",
+    "seconds": 368.4,
+    "type": "observed_spoken",
+    "evidence": "to fight it trying to counter it trying",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:10.520",
+    "seconds": 370.52,
+    "type": "observed_spoken",
+    "evidence": "to wrestle it away and so on and so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:12.599",
+    "seconds": 372.599,
+    "type": "observed_spoken",
+    "evidence": "forth and so in communication I find",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:15.599",
+    "seconds": 375.599,
+    "type": "observed_spoken",
+    "evidence": "more often than not the best thing to do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.039",
+    "seconds": 378.039,
+    "type": "observed_spoken",
+    "evidence": "is to agreed right away so kid comes out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.400",
+    "seconds": 380.4,
+    "type": "observed_spoken",
+    "evidence": "of school and she's all upset and she",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:23.080",
+    "seconds": 383.08,
+    "type": "observed_spoken",
+    "evidence": "says I had a terrible day today I say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.360",
+    "seconds": 386.36,
+    "type": "observed_spoken",
+    "evidence": "you had a terrible day today I agree",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:28.560",
+    "seconds": 388.56,
+    "type": "observed_spoken",
+    "evidence": "with her I don't question it I don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:31.000",
+    "seconds": 391.0,
+    "type": "observed_spoken",
+    "evidence": "challenge it I don't suggest otherwise I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:33.639",
+    "seconds": 393.639,
+    "type": "observed_spoken",
+    "evidence": "meet her where she's at and then once",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:35.840",
+    "seconds": 395.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "she sees that and feels that then she",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:38.120",
+    "seconds": 398.12,
+    "type": "observed_spoken",
+    "evidence": "feels safe to give me further",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:39.800",
+    "seconds": 399.8,
+    "type": "observed_spoken",
+    "evidence": "information this is the best thing I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:41.360",
+    "seconds": 401.36,
+    "type": "observed_spoken",
+    "evidence": "ever did with my children is I bought a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:43.039",
+    "seconds": 403.039,
+    "type": "observed_spoken",
+    "evidence": "book called something along the lines I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.479",
+    "seconds": 404.479,
+    "type": "observed_spoken",
+    "evidence": "think it's called how to talk so kids",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:45.840",
+    "seconds": 405.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "will listen and how to listen so kids",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:47.280",
+    "seconds": 407.28,
+    "type": "observed_spoken",
+    "evidence": "will talk one of those things you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.520",
+    "seconds": 409.52,
+    "type": "observed_spoken",
+    "evidence": "reverse that flip it around and you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:50.880",
+    "seconds": 410.88,
+    "type": "observed_spoken",
+    "evidence": "figure it out you can Google that and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:53.039",
+    "seconds": 413.039,
+    "type": "observed_spoken",
+    "evidence": "again with my friend Chris Voss is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:54.520",
+    "seconds": 414.52,
+    "type": "observed_spoken",
+    "evidence": "same thing when he was dealing with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:55.639",
+    "seconds": 415.639,
+    "type": "observed_spoken",
+    "evidence": "terrorists he would agree with what they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:58.240",
+    "seconds": 418.24,
+    "type": "observed_spoken",
+    "evidence": "were saying and terms of reflecting it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:00.800",
+    "seconds": 420.8,
+    "type": "observed_spoken",
+    "evidence": "back to them active listening if you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:02.639",
+    "seconds": 422.639,
+    "type": "observed_spoken",
+    "evidence": "will where he'd say you don't believe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:04.960",
+    "seconds": 424.96,
+    "type": "observed_spoken",
+    "evidence": "that I can you know get you what you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:06.720",
+    "seconds": 426.72,
+    "type": "observed_spoken",
+    "evidence": "asking for or something like that along",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:08.960",
+    "seconds": 428.96,
+    "type": "observed_spoken",
+    "evidence": "those lines and so agreement is the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:11.199",
+    "seconds": 431.199,
+    "type": "observed_spoken",
+    "evidence": "powerful frame of communication that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:13.280",
+    "seconds": 433.28,
+    "type": "observed_spoken",
+    "evidence": "there is now you can agree to what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:15.120",
+    "seconds": 435.12,
+    "type": "observed_spoken",
+    "evidence": "somebody is saying without necessarily",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:17.560",
+    "seconds": 437.56,
+    "type": "observed_spoken",
+    "evidence": "agreeing with the conclusion of it so if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:20.680",
+    "seconds": 440.68,
+    "type": "observed_spoken",
+    "evidence": "a child comes up to you and say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:22.199",
+    "seconds": 442.199,
+    "type": "observed_spoken",
+    "evidence": "everybody hates me you can say everybody",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:24.879",
+    "seconds": 444.879,
+    "type": "observed_spoken",
+    "evidence": "hates you and you can agree with their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:27.160",
+    "seconds": 447.16,
+    "type": "observed_spoken",
+    "evidence": "assessment based on their context and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:29.560",
+    "seconds": 449.56,
+    "type": "observed_spoken",
+    "evidence": "their Viewpoint in the life that they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:31.360",
+    "seconds": 451.36,
+    "type": "observed_spoken",
+    "evidence": "living now without necessarily thinking",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:33.560",
+    "seconds": 453.56,
+    "type": "observed_spoken",
+    "evidence": "well I don't hate you but that's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:35.160",
+    "seconds": 455.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "reflex isn't it that's what everybody",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:36.520",
+    "seconds": 456.52,
+    "type": "observed_spoken",
+    "evidence": "wants to do is they want to challenge",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:37.960",
+    "seconds": 457.96,
+    "type": "observed_spoken",
+    "evidence": "which is the second model second portion",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:40.599",
+    "seconds": 460.599,
+    "type": "observed_spoken",
+    "evidence": "of the model of communication we're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:42.160",
+    "seconds": 462.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "talking about here youd say I don't hate",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:43.800",
+    "seconds": 463.8,
+    "type": "observed_spoken",
+    "evidence": "you and you know what happens in most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.680",
+    "seconds": 465.68,
+    "type": "observed_spoken",
+    "evidence": "communication when you do that if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:47.000",
+    "seconds": 467.0,
+    "type": "observed_spoken",
+    "evidence": "somebody says everybody hates me and you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:48.280",
+    "seconds": 468.28,
+    "type": "observed_spoken",
+    "evidence": "say I don't hate you the tendency is to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:50.639",
+    "seconds": 470.639,
+    "type": "observed_spoken",
+    "evidence": "push back right so this is like new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:53.000",
+    "seconds": 473.0,
+    "type": "observed_spoken",
+    "evidence": "every action has an equal and opposite",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:54.680",
+    "seconds": 474.68,
+    "type": "observed_spoken",
+    "evidence": "reaction I think that's new and I'm a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:55.960",
+    "seconds": 475.96,
+    "type": "observed_spoken",
+    "evidence": "little rusty on my physics is if they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:58.560",
+    "seconds": 478.56,
+    "type": "observed_spoken",
+    "evidence": "offer this out to to you and you push it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:00.360",
+    "seconds": 480.36,
+    "type": "observed_spoken",
+    "evidence": "back on them they will push back on you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:02.560",
+    "seconds": 482.56,
+    "type": "observed_spoken",
+    "evidence": "and that's where miscommunication",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:03.960",
+    "seconds": 483.96,
+    "type": "observed_spoken",
+    "evidence": "happens so it's extremely rare in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:06.000",
+    "seconds": 486.0,
+    "type": "observed_spoken",
+    "evidence": "communication where you directly should",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:08.520",
+    "seconds": 488.52,
+    "type": "observed_spoken",
+    "evidence": "challenge something immediately now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:10.720",
+    "seconds": 490.72,
+    "type": "observed_spoken",
+    "evidence": "there are times when challenging makes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:12.680",
+    "seconds": 492.68,
+    "type": "observed_spoken",
+    "evidence": "sense so this is where we we say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:14.919",
+    "seconds": 494.919,
+    "type": "observed_spoken",
+    "evidence": "intentionally we're going to create",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:16.720",
+    "seconds": 496.72,
+    "type": "observed_spoken",
+    "evidence": "dissonance to perhaps get a further",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:20.000",
+    "seconds": 500.0,
+    "type": "observed_spoken",
+    "evidence": "understanding in a sales situation if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:21.800",
+    "seconds": 501.8,
+    "type": "observed_spoken",
+    "evidence": "somebody says it costs too much I might",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:23.479",
+    "seconds": 503.479,
+    "type": "observed_spoken",
+    "evidence": "say it costs a lot but does not buying",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:26.800",
+    "seconds": 506.8,
+    "type": "observed_spoken",
+    "evidence": "cost even more so you challenge it now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:29.919",
+    "seconds": 509.919,
+    "type": "observed_spoken",
+    "evidence": "think about how I just challenged it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:31.440",
+    "seconds": 511.44,
+    "type": "observed_spoken",
+    "evidence": "there it wasn't a head-on challenge",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:33.320",
+    "seconds": 513.32,
+    "type": "observed_spoken",
+    "evidence": "often times I like to challenge it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:35.159",
+    "seconds": 515.159,
+    "type": "observed_spoken",
+    "evidence": "around the edges softly and again with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:37.959",
+    "seconds": 517.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "as much empathy and consideration for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:39.959",
+    "seconds": 519.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "the other individual as possible",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:41.839",
+    "seconds": 521.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "somebody says it costs too much I said",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:43.360",
+    "seconds": 523.36,
+    "type": "observed_spoken",
+    "evidence": "it might cost too much to the wrong",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:44.959",
+    "seconds": 524.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "person but are you the wrong person are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:46.760",
+    "seconds": 526.76,
+    "type": "observed_spoken",
+    "evidence": "you the right person it's a disarming",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:49.080",
+    "seconds": 529.08,
+    "type": "observed_spoken",
+    "evidence": "way to challenge so if a child comes to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:51.160",
+    "seconds": 531.16,
+    "type": "observed_spoken",
+    "evidence": "you and says everybody hates me you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:52.920",
+    "seconds": 532.92,
+    "type": "observed_spoken",
+    "evidence": "say everybody hates you and you question",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.360",
+    "seconds": 535.36,
+    "type": "observed_spoken",
+    "evidence": "it while saying the same exact thing you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:57.320",
+    "seconds": 537.32,
+    "type": "observed_spoken",
+    "evidence": "turn the statement into a question and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.240",
+    "seconds": 539.24,
+    "type": "observed_spoken",
+    "evidence": "so again rarely is the answer Challenge",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:03.279",
+    "seconds": 543.279,
+    "type": "observed_spoken",
+    "evidence": "and when it is challenge it's rarely a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:05.279",
+    "seconds": 545.279,
+    "type": "observed_spoken",
+    "evidence": "direct assault on the challenge uh",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:07.560",
+    "seconds": 547.56,
+    "type": "observed_spoken",
+    "evidence": "unless you intentionally want to repel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.200",
+    "seconds": 549.2,
+    "type": "observed_spoken",
+    "evidence": "somebody and push them away and create a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:10.680",
+    "seconds": 550.68,
+    "type": "observed_spoken",
+    "evidence": "lot of stress and anxiety which I don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:12.760",
+    "seconds": 552.76,
+    "type": "observed_spoken",
+    "evidence": "think you do hopefully not there's also",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:16.160",
+    "seconds": 556.16,
+    "type": "observed_spoken",
+    "evidence": "reflection so this kind of is it's not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:19.480",
+    "seconds": 559.48,
+    "type": "observed_spoken",
+    "evidence": "agreement wholly it's I need to know",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:22.079",
+    "seconds": 562.079,
+    "type": "observed_spoken",
+    "evidence": "more about what you're saying so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:24.240",
+    "seconds": 564.24,
+    "type": "observed_spoken",
+    "evidence": "understand you better so the first thing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:26.040",
+    "seconds": 566.04,
+    "type": "observed_spoken",
+    "evidence": "we can do is agree the second thing we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:27.480",
+    "seconds": 567.48,
+    "type": "observed_spoken",
+    "evidence": "can do is challenge the third thing we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:29.279",
+    "seconds": 569.279,
+    "type": "observed_spoken",
+    "evidence": "do is reflect and so if somebody comes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:30.880",
+    "seconds": 570.88,
+    "type": "observed_spoken",
+    "evidence": "to me in a sell situation and they say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:32.519",
+    "seconds": 572.519,
+    "type": "observed_spoken",
+    "evidence": "it cost too much if I were to reflect",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:34.640",
+    "seconds": 574.64,
+    "type": "observed_spoken",
+    "evidence": "that to them I would say what I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:36.680",
+    "seconds": 576.68,
+    "type": "observed_spoken",
+    "evidence": "hearing is you want to get the best bang",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:39.480",
+    "seconds": 579.48,
+    "type": "observed_spoken",
+    "evidence": "for your buck or another version of that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:41.839",
+    "seconds": 581.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "is I'll say if I understand you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:43.800",
+    "seconds": 583.8,
+    "type": "observed_spoken",
+    "evidence": "correctly your finances are tight right",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:45.959",
+    "seconds": 585.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "now so you want to get the most out of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:47.920",
+    "seconds": 587.92,
+    "type": "observed_spoken",
+    "evidence": "your finances since you have limited",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:50.120",
+    "seconds": 590.12,
+    "type": "observed_spoken",
+    "evidence": "finances is that correct and I love that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:52.959",
+    "seconds": 592.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "reflecting question because if they say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:56.200",
+    "seconds": 596.2,
+    "type": "observed_spoken",
+    "evidence": "no that isn't correct they will tell me",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:58.760",
+    "seconds": 598.76,
+    "type": "observed_spoken",
+    "evidence": "more so I can understand them better and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:01.160",
+    "seconds": 601.16,
+    "type": "observed_spoken",
+    "evidence": "if they say yes that is correct then we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:03.800",
+    "seconds": 603.8,
+    "type": "observed_spoken",
+    "evidence": "kind of know even more narrowly and more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:06.120",
+    "seconds": 606.12,
+    "type": "observed_spoken",
+    "evidence": "specifically what we have to hone in on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:08.839",
+    "seconds": 608.839,
+    "type": "observed_spoken",
+    "evidence": "when we communicate verbally there's a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:11.279",
+    "seconds": 611.279,
+    "type": "observed_spoken",
+    "evidence": "lot of deletion that occurs and so when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:13.480",
+    "seconds": 613.48,
+    "type": "observed_spoken",
+    "evidence": "you say a statement somebody hears only",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:16.200",
+    "seconds": 616.2,
+    "type": "observed_spoken",
+    "evidence": "the words but they don't hear the stuff",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:18.279",
+    "seconds": 618.279,
+    "type": "observed_spoken",
+    "evidence": "in between the blanks and what those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:20.079",
+    "seconds": 620.079,
+    "type": "observed_spoken",
+    "evidence": "words mean to you and all the different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:22.560",
+    "seconds": 622.56,
+    "type": "observed_spoken",
+    "evidence": "under the iceberg type of communication",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:24.680",
+    "seconds": 624.68,
+    "type": "observed_spoken",
+    "evidence": "that really exists right there so often",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:26.519",
+    "seconds": 626.519,
+    "type": "observed_spoken",
+    "evidence": "times you know somebody takes it out on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:28.320",
+    "seconds": 628.32,
+    "type": "observed_spoken",
+    "evidence": "you when some other people have been",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:29.839",
+    "seconds": 629.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "mean to them throughout the day and you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:31.760",
+    "seconds": 631.76,
+    "type": "observed_spoken",
+    "evidence": "don't know about any of the other stuff",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:33.320",
+    "seconds": 633.32,
+    "type": "observed_spoken",
+    "evidence": "that's happened to them throughout the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:34.399",
+    "seconds": 634.399,
+    "type": "observed_spoken",
+    "evidence": "day you take them where they're at and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:36.040",
+    "seconds": 636.04,
+    "type": "observed_spoken",
+    "evidence": "so when we can reflect on somebody we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:37.920",
+    "seconds": 637.92,
+    "type": "observed_spoken",
+    "evidence": "can unpack further more what the real",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:40.000",
+    "seconds": 640.0,
+    "type": "observed_spoken",
+    "evidence": "issue is and so if a child comes out and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:42.160",
+    "seconds": 642.16,
+    "type": "observed_spoken",
+    "evidence": "says everybody hates me what you might",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:44.120",
+    "seconds": 644.12,
+    "type": "observed_spoken",
+    "evidence": "find out through reflection is one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:46.399",
+    "seconds": 646.399,
+    "type": "observed_spoken",
+    "evidence": "person that day said something mean to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:48.839",
+    "seconds": 648.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "them but that one person is so important",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:51.200",
+    "seconds": 651.2,
+    "type": "observed_spoken",
+    "evidence": "to them that it's coloring how they view",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:53.560",
+    "seconds": 653.56,
+    "type": "observed_spoken",
+    "evidence": "everybody else you can get more narrow",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:55.720",
+    "seconds": 655.72,
+    "type": "observed_spoken",
+    "evidence": "into what's really going on often times",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:58.079",
+    "seconds": 658.079,
+    "type": "observed_spoken",
+    "evidence": "when people first profer up to you when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:00.240",
+    "seconds": 660.24,
+    "type": "observed_spoken",
+    "evidence": "they're looking for help or looking to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:01.920",
+    "seconds": 661.92,
+    "type": "observed_spoken",
+    "evidence": "feel safe or just want somebody to talk",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:04.200",
+    "seconds": 664.2,
+    "type": "observed_spoken",
+    "evidence": "to the first thing they profer up to you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:06.320",
+    "seconds": 666.32,
+    "type": "observed_spoken",
+    "evidence": "is a smoke screen it's a superficial",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:09.360",
+    "seconds": 669.36,
+    "type": "observed_spoken",
+    "evidence": "version of what's really going on and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:11.920",
+    "seconds": 671.92,
+    "type": "observed_spoken",
+    "evidence": "it's kind of like if you can be in sync",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:14.200",
+    "seconds": 674.2,
+    "type": "observed_spoken",
+    "evidence": "with me I will let you really know",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:16.079",
+    "seconds": 676.079,
+    "type": "observed_spoken",
+    "evidence": "what's going on cuz then I'll feel safe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:17.959",
+    "seconds": 677.959,
+    "type": "observed_spoken",
+    "evidence": "but otherwise right now I'm feeling in a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:19.720",
+    "seconds": 679.72,
+    "type": "observed_spoken",
+    "evidence": "vulnerable position and so I have to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:22.000",
+    "seconds": 682.0,
+    "type": "observed_spoken",
+    "evidence": "cautious with my communication again",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:23.720",
+    "seconds": 683.72,
+    "type": "observed_spoken",
+    "evidence": "most of this stens on a superficial",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:25.079",
+    "seconds": 685.079,
+    "type": "observed_spoken",
+    "evidence": "level now there is a fourth thing you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:26.639",
+    "seconds": 686.639,
+    "type": "observed_spoken",
+    "evidence": "can do so you can agree you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:28.200",
+    "seconds": 688.2,
+    "type": "observed_spoken",
+    "evidence": "challenge you can refle Factor the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:29.399",
+    "seconds": 689.399,
+    "type": "observed_spoken",
+    "evidence": "fourth thing is ignoring sometimes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:31.240",
+    "seconds": 691.24,
+    "type": "observed_spoken",
+    "evidence": "ignoring works really well so in a sell",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:33.440",
+    "seconds": 693.44,
+    "type": "observed_spoken",
+    "evidence": "situation ignoring would be if somebody",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:35.279",
+    "seconds": 695.279,
+    "type": "observed_spoken",
+    "evidence": "says it costs a lot I said here's what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:37.279",
+    "seconds": 697.279,
+    "type": "observed_spoken",
+    "evidence": "this can do for you and just flat out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:39.120",
+    "seconds": 699.12,
+    "type": "observed_spoken",
+    "evidence": "pretend I didn't hear what they just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:40.519",
+    "seconds": 700.519,
+    "type": "observed_spoken",
+    "evidence": "said rule of judgment here is if if this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:42.639",
+    "seconds": 702.639,
+    "type": "observed_spoken",
+    "evidence": "is really the issue or not you're trying",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:44.560",
+    "seconds": 704.56,
+    "type": "observed_spoken",
+    "evidence": "to figure out if it is or it isn't if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:46.480",
+    "seconds": 706.48,
+    "type": "observed_spoken",
+    "evidence": "somebody's saying it cost too much it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:47.839",
+    "seconds": 707.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "cost too much it cost too much but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:49.279",
+    "seconds": 709.279,
+    "type": "observed_spoken",
+    "evidence": "they're still focusing on like oh my God",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:51.120",
+    "seconds": 711.12,
+    "type": "observed_spoken",
+    "evidence": "this thing and that thing and I want to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:52.200",
+    "seconds": 712.2,
+    "type": "observed_spoken",
+    "evidence": "know about this and I want to know about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:53.600",
+    "seconds": 713.6,
+    "type": "observed_spoken",
+    "evidence": "that you can say okay that is a lesser",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:56.279",
+    "seconds": 716.279,
+    "type": "observed_spoken",
+    "evidence": "important factor in the decision that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:58.399",
+    "seconds": 718.399,
+    "type": "observed_spoken",
+    "evidence": "needs to be made made and there are many",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:00.079",
+    "seconds": 720.079,
+    "type": "observed_spoken",
+    "evidence": "factors that I can tell from this person",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:02.000",
+    "seconds": 722.0,
+    "type": "observed_spoken",
+    "evidence": "based on our communication or even",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:03.680",
+    "seconds": 723.68,
+    "type": "observed_spoken",
+    "evidence": "merely through observation on what they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:05.600",
+    "seconds": 725.6,
+    "type": "observed_spoken",
+    "evidence": "need in order to make a decision that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:07.160",
+    "seconds": 727.16,
+    "type": "observed_spoken",
+    "evidence": "would be right for them so instead of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:08.680",
+    "seconds": 728.68,
+    "type": "observed_spoken",
+    "evidence": "getting swept up in the minor things",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:11.079",
+    "seconds": 731.079,
+    "type": "observed_spoken",
+    "evidence": "let's focus more on the major things so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:13.279",
+    "seconds": 733.279,
+    "type": "observed_spoken",
+    "evidence": "sometimes when they are offering up",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:15.199",
+    "seconds": 735.199,
+    "type": "observed_spoken",
+    "evidence": "minor objections or minor issues you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:17.880",
+    "seconds": 737.88,
+    "type": "observed_spoken",
+    "evidence": "steer the conversation back to the major",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:20.079",
+    "seconds": 740.079,
+    "type": "observed_spoken",
+    "evidence": "issues so in the case if they're all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:21.720",
+    "seconds": 741.72,
+    "type": "observed_spoken",
+    "evidence": "price focused you focus on value because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:24.199",
+    "seconds": 744.199,
+    "type": "observed_spoken",
+    "evidence": "it's not just price or value it's price",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:26.320",
+    "seconds": 746.32,
+    "type": "observed_spoken",
+    "evidence": "related to value and so you got to kind",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:28.199",
+    "seconds": 748.199,
+    "type": "observed_spoken",
+    "evidence": "of tip the scills back in your favor in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:29.839",
+    "seconds": 749.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "those types of communication now here's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:31.600",
+    "seconds": 751.6,
+    "type": "observed_spoken",
+    "evidence": "the big secret to why U I believe I have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:34.839",
+    "seconds": 754.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "been so successful in marketing when I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:36.880",
+    "seconds": 756.88,
+    "type": "observed_spoken",
+    "evidence": "communicating in Mass I do all four of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:39.079",
+    "seconds": 759.079,
+    "type": "observed_spoken",
+    "evidence": "those things I agree I challenge I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:41.120",
+    "seconds": 761.12,
+    "type": "observed_spoken",
+    "evidence": "reflect and I ignore so this is why I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:43.040",
+    "seconds": 763.04,
+    "type": "observed_spoken",
+    "evidence": "like webinars I might have hundreds and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:44.440",
+    "seconds": 764.44,
+    "type": "observed_spoken",
+    "evidence": "hundreds of people on so I can in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:46.519",
+    "seconds": 766.519,
+    "type": "observed_spoken",
+    "evidence": "portions of the webinar agree with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:49.000",
+    "seconds": 769.0,
+    "type": "observed_spoken",
+    "evidence": "certain things that normally you think",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:50.800",
+    "seconds": 770.8,
+    "type": "observed_spoken",
+    "evidence": "you wouldn't agree with so I might say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:52.279",
+    "seconds": 772.279,
+    "type": "observed_spoken",
+    "evidence": "to somebody you think that right now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:54.480",
+    "seconds": 774.48,
+    "type": "observed_spoken",
+    "evidence": "everything that I'm doing today has been",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:56.120",
+    "seconds": 776.12,
+    "type": "observed_spoken",
+    "evidence": "calculated to get you to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:57.839",
+    "seconds": 777.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "buy flat I'll say that H and so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:00.440",
+    "seconds": 780.44,
+    "type": "observed_spoken",
+    "evidence": "agree with them and I say whether that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:01.800",
+    "seconds": 781.8,
+    "type": "observed_spoken",
+    "evidence": "the case or not would it still make",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:03.880",
+    "seconds": 783.88,
+    "type": "observed_spoken",
+    "evidence": "sense for you to invest that's what we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:05.199",
+    "seconds": 785.199,
+    "type": "observed_spoken",
+    "evidence": "need to investigate for example so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:07.839",
+    "seconds": 787.839,
+    "type": "observed_spoken",
+    "evidence": "agree I at certain points I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:09.399",
+    "seconds": 789.399,
+    "type": "observed_spoken",
+    "evidence": "challenge for certain individuals I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:11.639",
+    "seconds": 791.639,
+    "type": "observed_spoken",
+    "evidence": "reflect and I can ignore so if people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:13.360",
+    "seconds": 793.36,
+    "type": "observed_spoken",
+    "evidence": "keep coming back to one issue one issue",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:15.040",
+    "seconds": 795.04,
+    "type": "observed_spoken",
+    "evidence": "I can say listen we're going to just put",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:16.519",
+    "seconds": 796.519,
+    "type": "observed_spoken",
+    "evidence": "that to the side right now what we're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:17.760",
+    "seconds": 797.76,
+    "type": "observed_spoken",
+    "evidence": "going to focus on because I think this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:19.639",
+    "seconds": 799.639,
+    "type": "observed_spoken",
+    "evidence": "is more important in this moment for you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:21.720",
+    "seconds": 801.72,
+    "type": "observed_spoken",
+    "evidence": "to look at is this but what's cool is at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:24.440",
+    "seconds": 804.44,
+    "type": "observed_spoken",
+    "evidence": "an individual level I can hit those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:26.000",
+    "seconds": 806.0,
+    "type": "observed_spoken",
+    "evidence": "little pockets cuz sometimes people need",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:27.839",
+    "seconds": 807.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "an agreement to move forward sometimes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:29.480",
+    "seconds": 809.48,
+    "type": "observed_spoken",
+    "evidence": "they needed to be challenged to move",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:30.920",
+    "seconds": 810.92,
+    "type": "observed_spoken",
+    "evidence": "forward sometimes they needed to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:32.240",
+    "seconds": 812.24,
+    "type": "observed_spoken",
+    "evidence": "reflective so they can unpack it more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:34.160",
+    "seconds": 814.16,
+    "type": "observed_spoken",
+    "evidence": "and sometimes they can ignore it like a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:35.680",
+    "seconds": 815.68,
+    "type": "observed_spoken",
+    "evidence": "reflection is often times I I I ask",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:38.040",
+    "seconds": 818.04,
+    "type": "observed_spoken",
+    "evidence": "people I said is it failure that you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:39.440",
+    "seconds": 819.44,
+    "type": "observed_spoken",
+    "evidence": "afraid of or is it success that you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:41.000",
+    "seconds": 821.0,
+    "type": "observed_spoken",
+    "evidence": "afraid of because here's the things with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:42.399",
+    "seconds": 822.399,
+    "type": "observed_spoken",
+    "evidence": "failure that you know about so they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:44.519",
+    "seconds": 824.519,
+    "type": "observed_spoken",
+    "evidence": "known fears but success maybe they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:46.440",
+    "seconds": 826.44,
+    "type": "observed_spoken",
+    "evidence": "unknown fears CU you've never been",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:48.360",
+    "seconds": 828.36,
+    "type": "observed_spoken",
+    "evidence": "successful with this yet what could that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:50.560",
+    "seconds": 830.56,
+    "type": "observed_spoken",
+    "evidence": "look like and now we allow them to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:52.160",
+    "seconds": 832.16,
+    "type": "observed_spoken",
+    "evidence": "unpack further more what the real issue",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:54.040",
+    "seconds": 834.04,
+    "type": "observed_spoken",
+    "evidence": "is here and often times they'll say well",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:56.120",
+    "seconds": 836.12,
+    "type": "observed_spoken",
+    "evidence": "it's really about blank you say oh well",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:58.360",
+    "seconds": 838.36,
+    "type": "observed_spoken",
+    "evidence": "we can talk talk about that now I can do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:00.240",
+    "seconds": 840.24,
+    "type": "observed_spoken",
+    "evidence": "this in Mass on a webinar working with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:02.320",
+    "seconds": 842.32,
+    "type": "observed_spoken",
+    "evidence": "individuals but then framing it so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:05.000",
+    "seconds": 845.0,
+    "type": "observed_spoken",
+    "evidence": "everybody in the group listening or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:06.839",
+    "seconds": 846.839,
+    "type": "observed_spoken",
+    "evidence": "watching the replay can also understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:09.440",
+    "seconds": 849.44,
+    "type": "observed_spoken",
+    "evidence": "it and that's really the answer here is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:11.680",
+    "seconds": 851.68,
+    "type": "observed_spoken",
+    "evidence": "if you layer on different modes of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:13.519",
+    "seconds": 853.519,
+    "type": "observed_spoken",
+    "evidence": "communication even at an individual",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:15.560",
+    "seconds": 855.56,
+    "type": "observed_spoken",
+    "evidence": "level you're likely to get better",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:17.320",
+    "seconds": 857.32,
+    "type": "observed_spoken",
+    "evidence": "results in terms of the Harmony and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:19.680",
+    "seconds": 859.68,
+    "type": "observed_spoken",
+    "evidence": "understanding and connection that comes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:21.959",
+    "seconds": 861.959,
+    "type": "observed_spoken",
+    "evidence": "from that communication and so we will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:24.320",
+    "seconds": 864.32,
+    "type": "observed_spoken",
+    "evidence": "try all of them we will try to agree we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:26.160",
+    "seconds": 866.16,
+    "type": "observed_spoken",
+    "evidence": "will try to reflect we'll try to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:27.560",
+    "seconds": 867.56,
+    "type": "observed_spoken",
+    "evidence": "challenge and we will try to ignore",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:29.519",
+    "seconds": 869.519,
+    "type": "observed_spoken",
+    "evidence": "because the end result is a deeper",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:31.560",
+    "seconds": 871.56,
+    "type": "observed_spoken",
+    "evidence": "understanding of the other individual",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:33.560",
+    "seconds": 873.56,
+    "type": "observed_spoken",
+    "evidence": "most of us at the end of the day we walk",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:35.920",
+    "seconds": 875.92,
+    "type": "observed_spoken",
+    "evidence": "around feeling like we're misunderstood",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:38.519",
+    "seconds": 878.519,
+    "type": "observed_spoken",
+    "evidence": "and that makes us feel alone like nobody",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:40.759",
+    "seconds": 880.759,
+    "type": "observed_spoken",
+    "evidence": "gets us and so if somebody can get us",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:44.120",
+    "seconds": 884.12,
+    "type": "observed_spoken",
+    "evidence": "that makes us feel better about who we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:46.040",
+    "seconds": 886.04,
+    "type": "observed_spoken",
+    "evidence": "are as individuals it makes us feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:47.720",
+    "seconds": 887.72,
+    "type": "observed_spoken",
+    "evidence": "safer and when we feel safer we can do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:50.199",
+    "seconds": 890.199,
+    "type": "observed_spoken",
+    "evidence": "more amazing things we can live in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:52.800",
+    "seconds": 892.8,
+    "type": "observed_spoken",
+    "evidence": "abundance and we can Thrive and so the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:55.160",
+    "seconds": 895.16,
+    "type": "observed_spoken",
+    "evidence": "best thing we can do for everybody else",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:57.440",
+    "seconds": 897.44,
+    "type": "observed_spoken",
+    "evidence": "is to learn how to better communicate",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:58.800",
+    "seconds": 898.8,
+    "type": "observed_spoken",
+    "evidence": "unate at the same time other people will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:01.079",
+    "seconds": 901.079,
+    "type": "observed_spoken",
+    "evidence": "be more easily able to communicate with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:03.160",
+    "seconds": 903.16,
+    "type": "observed_spoken",
+    "evidence": "us if we demonstrate that we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:04.759",
+    "seconds": 904.759,
+    "type": "observed_spoken",
+    "evidence": "communicate with them so this will help",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:06.519",
+    "seconds": 906.519,
+    "type": "observed_spoken",
+    "evidence": "you in business this will help you when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:09.079",
+    "seconds": 909.079,
+    "type": "observed_spoken",
+    "evidence": "you're a coach or a trainer this will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:12.000",
+    "seconds": 912.0,
+    "type": "observed_spoken",
+    "evidence": "just really help you with the people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:14.199",
+    "seconds": 914.199,
+    "type": "observed_spoken",
+    "evidence": "that you care about to seek better",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:16.519",
+    "seconds": 916.519,
+    "type": "observed_spoken",
+    "evidence": "understanding and from that like we said",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:18.199",
+    "seconds": 918.199,
+    "type": "observed_spoken",
+    "evidence": "abundance becomes even more abundant so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:21.000",
+    "seconds": 921.0,
+    "type": "observed_spoken",
+    "evidence": "there you go I'll see you in the next",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:25.720",
+    "seconds": 925.72,
+    "type": "observed_spoken",
+    "evidence": "video",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "Frame extraction skipped because mode is transcript.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "OCR skipped because mode is transcript.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  }
+]
