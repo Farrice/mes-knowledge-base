@@ -1,6 +1,6 @@
 {
   "ambiguous_policy": "Report to inbox; do not move automatically.",
-  "canonical_project_root": "/Users/farricecain/Google Antigravity/_active/<project-slug>",
+  "canonical_project_root": "/Users/farricecain/Google Antigravity/.claude/worktrees/nostalgic-lalande-e1ce93/_active/<project-slug>",
   "domain_taxonomy": [
     "System",
     "Creative",
@@ -44,7 +44,7 @@
     "strategy_briefs"
   ],
   "owned_roots": [
-    "/Users/farricecain/Google Antigravity",
+    "/Users/farricecain/Google Antigravity/.claude/worktrees/nostalgic-lalande-e1ce93",
     "/Users/farricecain/Documents/Codex"
   ],
   "permitted_project_shape": [
@@ -58,6 +58,6 @@
     "90-exports",
     "99-archive"
   ],
-  "updated_at": "2026-08-09T02:15:01+00:00",
+  "updated_at": "2026-08-11T02:12:19+00:00",
   "version": 1
 }

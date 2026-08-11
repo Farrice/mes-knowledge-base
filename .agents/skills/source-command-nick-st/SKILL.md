@@ -1,0 +1,16 @@
+---
+name: "source-command-nick-st"
+description: "Generative-image ART DIRECTION as a discipline — the pre-generation layer, model-agnostic. Nick St. Pierre's method: layered construction (decide one layer at a time, lock the winner, then add the next), systematic aesthetic sweeps instead of rerolling (fixed control prompt, o..."
+---
+
+# source-command-nick-st
+
+Use this skill when the user asks to run the migrated source command `nick-st`.
+
+## Command Template
+
+<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+
+Load and embody the skill at `skills/nick-st-pierre/SKILL.md`. Also load `skills/nick-st-pierre/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
+
+This skill has runnable processes. Its flagship workflow is `skills/nick-st-pierre/workflows/01-aesthetic-sweep.md`. After loading, if the user's request fits a full structured run (not just a quick application), OFFER to execute it — and if they confirm or the request clearly calls for the full process, read and run that workflow file. See the skill's 'Available Workflows' table for the other processes.

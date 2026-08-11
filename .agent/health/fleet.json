@@ -1,36 +1,14 @@
 {
-  "timestamp": "2026-08-08T19:23:29.009476",
+  "timestamp": "2026-08-10T19:13:48.457764",
   "summary": {
-    "total_findings": 5,
+    "total_findings": 13,
     "by_classification": {
-      "FLAGGED": 5
+      "FLAGGED": 13
     },
     "tier_summaries": {},
-    "verifiers_run": 85,
-    "verifiers_failing": 2,
-    "stale_or_missing_artifacts": [
-      {
-        "tier": "loop-integrity",
-        "state": "STALE",
-        "path": "/Users/farricecain/Google Antigravity/.agent/health/loop-integrity.json",
-        "age_hours": 273.7,
-        "mtime": "2026-07-28T09:31"
-      },
-      {
-        "tier": "core-surface",
-        "state": "STALE",
-        "path": "/Users/farricecain/Google Antigravity/.agent/health/core-surface.json",
-        "age_hours": 273.7,
-        "mtime": "2026-07-28T09:31"
-      },
-      {
-        "tier": "birth-wiring",
-        "state": "STALE",
-        "path": "/Users/farricecain/Google Antigravity/.agent/health/birth-wiring.json",
-        "age_hours": 273.6,
-        "mtime": "2026-07-28T09:36"
-      }
-    ]
+    "verifiers_run": 86,
+    "verifiers_failing": 13,
+    "stale_or_missing_artifacts": []
   },
   "findings": [
     {
@@ -41,22 +19,62 @@
     {
       "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "verify_system_control_plane.py: TIMEOUT \u2014 exceeded 480s"
+      "message": "verify_execution_receipt.py: FAIL \u2014   - UNDER FLOOR fires on an absolute-path deliverable (regression) \u2014 [\"TIER 1 ONLY \\u2014 adam-enfroy-affiliate-marketing loaded SKILL.md without genius.md (no Tier 2 depth)\", \"HARNESS RED \\u2014 veri"
     },
     {
-      "tier": "aggregate",
+      "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "loop-integrity artifact STALE (273.7h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
+      "message": "verify_global_autopilot_source_truth.py: FAIL \u2014 - global source-command wrapper missing: /Users/farricecain/Google Antigravity/.claude/worktrees/nostalgic-lalande-e1ce93/.agent/workflows/autopilot.md"
     },
     {
-      "tier": "aggregate",
+      "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "core-surface artifact STALE (273.7h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
+      "message": "verify_google_operator_core.py: FAIL \u2014 - hook_parity: Missing current-root hook state: /Users/farricecain/Google Antigravity/.claude/worktrees/nostalgic-lalande-e1ce93/.codex/hooks.json:pre_tool_use:0:0"
     },
     {
-      "tier": "aggregate",
+      "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "birth-wiring artifact STALE (273.6h older than this run, mtime 2026-07-28T09:36) \u2014 NOT merged"
+      "message": "verify_mission_runner.py: FAIL \u2014 0/5 PASS"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_operator_core_fast_proof.py: FAIL \u2014 }"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_operator_core_orchestrate.py: FAIL \u2014 - global source-command-orchestrate missing: /Users/farricecain/Google Antigravity/.claude/worktrees/nostalgic-lalande-e1ce93/.agent/workflows/orchestrate.md"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_savant_control_room.py: FAIL \u2014 AssertionError: control room overall status was FAIL"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_session_lock_gate.py: FAIL \u2014 WAVE 0 REJECTED \u2014 5 failure(s): second claim on fresh lock exits 1, second claim names the holder, heartbeat with holder token succeeds, tokenless check against fresh lock exits 1, release with holder"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_skill_evolution_candidate_freshness.py: FAIL \u2014 - safe refresh command: python3 execution/skill_evolution_candidates.py scan --write"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_skill_evolution_local_first.py: FAIL \u2014 AssertionError: no skill has >=2 rows in the local performance mirror (.agent/performance-log.jsonl) \u2014 local-first evidence is broken"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_system.py: FAIL \u2014 - Run `python execution/sync_registries.py` to rebuild SKILL_INDEX.md and AGENT_INDEX.md"
+    },
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_system_control_plane.py: FAIL \u2014 }"
     }
   ]
 }
