@@ -92,6 +92,7 @@ def verify_packet_cli() -> None:
                 "execution/raw_intent_run_packet.py",
                 case,
                 "--plain",
+                "--no-log",
             ],
             cwd=ROOT,
             text=True,

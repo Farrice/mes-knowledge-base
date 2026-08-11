@@ -1,228 +1,177 @@
 ---
-description: The Maestro front door — compile any raw dump into an engine-backed, expert-loaded Mission Card, sign off on the preflight, run it per doctrine, close with a verdict
+description: The front door — translate a raw dump into a sharpened intent without losing his words, load the experts, and run it in place
 ---
 
-# /go - The Maestro Front Door (v3, 2026-07-21)
+# /go - The Front Door (v4, 2026-08-10)
 
-`/go "<messy thought>"` turns an underspecified dump into a routed, executed
-deliverable — compiled by the SAME deterministic engines the Codex path uses
-(no more prose-scored cards), expert stack LOADED not named, and a preflight
-you sign off on before anything runs. One front door: `/orchestrate`'s state
-and routing machinery now serve /go underneath; invoke /go, not /orchestrate.
+`/go "<messy thought>"` turns a raw dump into finished work. One rule governs
+everything below: **nothing stands between his intent and the execution of it.**
+You translate his words, you load what the work needs, and the same context that
+heard him does the work.
 
-v3 rebuild (Farrice 2026-07-21, felt-drift report): v2 compiled cards by
-model self-scoring and named experts without loading them — measured result:
-zero human feedback ever captured, 52 qualifying runs with 0 spawns, 33
-orphan missions never closed. v3 fixes are mechanical, not aspirational.
+## Why v4 exists (read this before "improving" the flow)
 
-## Stage -1 — CONTINUITY CHECK (before anything)
+v1-v3 each lost to `/raw-intent-bridge` on the same complaint, three weeks apart
+(2026-07-21 and again 2026-08-10: *"I've been getting way better results with
+raw-intent-bridge"*). The 2026-08-10 audit found the mechanical cause:
 
-Run the real engine — never re-read the log by eye (apex W1, 2026-07-29: the
-prose version scoped to "this session" and 41 cross-session missions sat open
-unseen, 17 of them for 10-16 days):
+- **v3 compiled his raw words directly.** `codex_operator_preflight.py` routes
+  **lexically**. Vision-speech carries no route keywords, so it mis-routes. Proof
+  (cold A/B, 2026-08-10): his ICP-imagery dump compiled to
+  `/want-vs-need-mapper` — a film-narrative workflow — because the words "want"
+  and "need" appeared in the sentence, then self-blocked on a phantom
+  external-write risk. The bridge had already carried this scar since 2026-07-02
+  (a warehouse-rave merch intent → `/albom-gravedigger-angle` raw; → `/merch-os`
+  once sharpened) and therefore made translation mandatory BEFORE the compiler.
+  v3 inverted the one thing that worked.
+- **v3 added a middleman.** Compile a card → stage a sign-off → hand a packet to
+  a conductor who re-interprets it. The bridge executes its own first action in
+  the same context. Every /go rebuild made the middle richer; the middle was the
+  defect.
+- **The ceremony steered nothing.** 151 compiled vs 124 closed missions; verdict
+  captured on **8 of 306** entries despite a templated ask. The one /go he called
+  good (2026-08-10) ran none of it.
+
+So: the machinery a weaker model needed as rails is not what this one needs.
+It needs his words protected, the right files loaded, and awareness of what's
+already open. **Do not re-add a compile-first stage, a conductor handoff by
+default, or mandatory paperwork. That is the failure, three times over.**
+
+## Stage -1 — CONTINUITY (one command, then move)
 
 ```bash
 python3 execution/pulse_dashboard.py --open
 ```
 
-If the compiled intent matches an OPEN mission, present it in one line and ask:
-**continue / adjust / park / new**. Continue = reload its contract
-(`.agent/missions/<slug>/contract.json`) and resume at the right stage — never
-recompile from scratch. **Park = run `/park <slug> "<reason>"`** — a first-class
-close that writes the stopped line AND a resumable handoff (spec:
-`.agent/workflows/park.md`); parking is a good outcome, not a failure.
+If the intent matches an OPEN mission, say so in one line and ask:
+**continue / adjust / park / new**. Continue = resume where it stopped, never
+recompile. **Park = `/park <slug> "<reason>"`** — a first-class close that writes
+a resumable handoff; parking is a good outcome.
 
-**Finisher rule (Farrice, 2026-07-29): at 3+ open missions, the card asks him
-to finish or park one before compiling a new one — one line, never a block,
-"open it anyway" always works.** Only an explicit "new" starts a fresh compile.
+At 3+ open missions, offer to finish or park one — one line, never a block,
+"open it anyway" always works.
 
-## Stage 0 — MISSION COMPILE (engine-backed, silent)
+## Stage 0 — TRANSLATE (mandatory; model-side; before any script)
 
-1. **Run the real compiler** — never re-implement it in prose:
-   ```bash
-   python3 execution/codex_operator_preflight.py "<raw intent verbatim>" --plain
-   ```
-   This yields the deterministic layers: **Intent Lock** (clarity score 1-5,
-   lane, risk reasons), **Co-Creative Launchpad** (predicted need, center,
-   what good looks like, questions that change execution), and **scored Route
-   Candidates**. These ship INTO the card as its reasoning surface — visible,
-   correctable, never paraphrased into vibes.
-2. **Questions gate**: if clarity ≤2 OR "questions that change execution" is
-   non-empty, ask those questions FIRST (one round). A high DICE feel never
-   suppresses an execution-changing question again.
-3. **Goal spine**: read `.agent/cos/goals.json` — name the goal served.
-   No match = `ORPHAN ⚑` (one line, compass never cage). Surface an active
-   SPRINT when one exists.
-   **Revenue-first (standing rule, Farrice 2026-07-29):** run
-   `python3 execution/hooks/campaign_beacon.py`. If it shows open campaign
-   missions AND this mission's `serves` is ORPHAN or ≠ the campaign goal,
-   print one line above the card: `⚠ CAMPAIGN OPEN: #<n> <title> — this
-   mission serves <x> instead. Confirm system work ahead of the campaign.`
-   His approval at Stage 0.5 IS the answer; never block.
-4. **Felt standard** (raw-intent-bridge Stage 0 discipline, kept from v2):
-   when the dump carries vision language ("I want it to feel like…"), quote
-   it VERBATIM in the card. The Intent line routes; the vision words are the
-   creative payload — never compile them away.
-5. **Pattern + Tier**: pick the PRIMARY shape from the doctrine Pattern Table
-   (solo / solo+jam / fleet / proof-first / council / wargame / swarm /
-   verify-fleet / wayfinder) with a one-line reason; classify blast radius
-   (T1/T2/T3). **State `Expected spawns: <N>`** from the pattern — fleets and
-   swarms name their fan-out here, and the close-out will compare measured
-   spawns against this line (the 52-zero-spawn-misses fix).
+Build the Translation Card from his raw words. This is the stage that makes /go
+work; it cannot be delegated to a script, because the thing being translated is
+exactly what scripts can't read.
 
-## Stage 0.2 — EXPERT COMPOSITION (loaded, not named)
+- **Anchor** — which project/client/system this belongs to (Parallax, Jen/FTHB,
+  MyBPM, Andrea, Carbon Torch, harness…). Match against memory and the repo;
+  never guess across projects.
+- **Deliverable** — the concrete artifact implied.
+- **Audience** — who receives it.
+- **Felt standard** — his vision phrases, **quoted verbatim**. This is the
+  creative payload. Never paraphrase it away, never compile it away, and carry it
+  into the work itself — not just the card.
+- **Sharpened line** — ONE sentence: `<verb> <deliverable> for <anchor> using
+  <owning OS/expert> — <felt standard, compressed>`. It must contain
+  route-findable keywords. **This line is for the router. The verbatim quotes are
+  for the expert. Both travel together.**
 
-Run the composition engines; the card's `Loads:` is their output, not a guess:
+If Anchor or Deliverable can't be filled from the payload plus memory, ask
+exactly ONE question covering both gaps, then proceed. One round, never an
+interrogation of flow-state. Close your own gaps first (Partner Posture 2) —
+grep and web-check before spending one of his answers.
+
+## Stage 0.5 — SECOND OPINION (suggestion, never the reasoning surface)
+
+Run the engines on the **sharpened line only** — never the raw dump:
 
 ```bash
-python3 execution/expert_router.py route "<intent>"        # lead + domain
-python3 execution/recommend_stack.py "<intent>"            # evidence-backed stack
+python3 execution/codex_operator_preflight.py "<sharpened line>" --plain
+python3 execution/expert_router.py route "<sharpened line>"
+python3 execution/recommend_stack.py "<sharpened line>"
 ```
 
-Council/panel-shaped missions add `panel_cast` seating via `/assemble` (hybrid
-panel → tiered roadmap) or `/convene` presets. The stack line names: lead
-expert, supports, the v2 prompts whose Output Contracts govern the
-deliverable, and the load tier. If the stack disagrees with the route
-candidates, name the fork in one line and pick — that judgment is the
-conductor's, but it happens ON TOP of engine output, never instead of it.
+Read what comes back as a **second opinion you may overrule in one line**. It is
+evidence, not a verdict — the same standing as router bindings (scar 2026-07-27:
+force-routing a prose question into a rhetoric workflow). When the engine's route
+contradicts your read of the anchor, say so in one line and take yours.
 
-## Stage 0.5 — PREFLIGHT SIGN-OFF (always; Farrice 2026-07-21)
+**Questions gate:** if the launchpad surfaces "questions that change execution",
+ask them now, before producing. A confident-feeling intent never suppresses one.
 
-**Claude Code standard surface (Farrice 2026-07-21, same session): the
-plan-review flow.** Enter plan mode, write the EXPANDED card into the plan
-file — the full manifest: every file that will be loaded (in order), writing
-rules in force, gates with their verifiable commands, expected spawns, and
-every output path the operator can check afterward — then ExitPlanMode. The
-operator's accept IS the sign-off; a rejection with notes is the adjust loop.
-The compact card below is the fallback surface (Codex, or when plan mode is
-unavailable). Either way: render, then **WAIT**. Fast-approve launches.
-This replaces v2's T1-auto-run: every mission briefs back before execution —
-the tier governs what may run AFTER approval (T2/T3 rules unchanged).
+**Goal spine:** name the goal served from `.agent/cos/goals.json`; no match =
+`ORPHAN ⚑`, one line, never a block. If `campaign_beacon.py` shows an open
+campaign and this serves something else, say so in one line and keep going.
 
-```
-MISSION CARD — <slug>
-Intent: <sharpened one-liner>            Serves: <goal-id | ORPHAN ⚑>
-Felt standard: <verbatim vision words | omit>
-Clarity: <n>/5 (<lane>)   Risks: <from intent lock | none>
-Predicted need: <launchpad line>
-What good looks like: <launchpad line>
-Route: <chosen> (score <n>)  — runners-up: <top-2 alternates w/ scores>
-Pattern: <doctrine row> — <reason>       Expected spawns: <N>
-Loads: <lead + supports + v2 prompts + tier — from the engines>
-Gates: <audit / prose / verify / jam / voice — whichever will fire>
-Tier: <T1|T2|T3>   Cost: <$0 | flagged>  Deliverable paths: <where outputs land>
-```
+## Stage 1 — LOAD, THEN RUN IN PLACE
 
-On approval, write two artifacts to `.agent/missions/<slug>/`:
-- **`contract.json`** — the card as a small JSON contract (intent lock, route,
-  stack, expected_spawns, deliverable_paths, gates, tier). This is the light
-  version of Frontier Wave 4's Structured Mission Contracts — the shape its
-  validator will later enforce.
-- **`portable.md`** — ALWAYS (Farrice 2026-07-21): the compiled mission as a
-  self-contained paste-anywhere prompt, generated by
-  `python3 execution/raw_intent_run_packet.py "<intent>" --plain > .agent/missions/<slug>/portable.md`
-  then topped with the card's felt-standard + loads lines. Your raw dump
-  becomes leverage in ANY harness (Codex, claude.ai, a fresh session) — the
-  meta-prompting deliverable /go was always meant to produce.
+**Load before producing** — expert files opened, not names dropped. Content work
+loads a minimum of two skill files; anything in his voice layers
+`_active/farrice-brand/voice/VOICE-CARD.md`; creative generation loads the master
+per `skills/generate/references/craft-map.md` (never freehand a generator prompt).
 
-## Stage 1 — ROUTE
+**Then run it here.** The context that heard him executes. Hand off ONLY when the
+work is genuinely that shape:
 
-Hand the mission to exactly one conductor. Running two conductors requires two
-genuinely separate deliverables — don't split one ask into a mini-mission.
-
-| Mission shape | Conductor |
+| Genuinely hand off when | To |
 |---|---|
-| Single content/copy piece | `/create` (+ v2 prompt contract + voice layer if Farrice-named) |
-| Multi-deliverable mission | `/supercomputer` |
-| Campaign (multi-asset, multi-platform) | `/jw-engine` |
-| Fleet-shaped work (10+ units / 3+ workstreams) | Workflow engine per doctrine (scout → agents → gate) |
+| 10+ parallel units or 3+ independent workstreams | workflow engine (scout → agents → gate) |
 | Multi-domain panel → tiered roadmap | `/assemble` |
-| Decision with real tradeoffs | `/convene` |
-| Plan-for-cheaper-executor | `/wargame-run` |
-| Full-auto, gates explicitly suppressed | `/autopilot` |
-| System/harness repair or audit | `/system-audit` |
-| Research question | `execution/research.py` / `/swarm` |
-| Voice overlay on expert-pure output | `/voice-over` |
+| Decision with real tradeoffs needing dissent preserved | `/convene` |
+| Plan authored here, executed by a cheaper seat | `/wargame-run` |
+| A second, genuinely separate deliverable | its own conductor |
 
-If two rows plausibly match, name the fork in one line and pick the stronger
-match (the scored route candidates from Stage 0 are the tiebreaker evidence).
-Never default to `/autopilot` as a catch-all.
+Everything else — a post, a page, a brief, a build, a repair — runs here. Routing
+a single deliverable to a conductor costs a re-interpretation and buys nothing.
 
-## Stage 2 — RUN
+**Sign-off scales with blast radius, not with ceremony.** T1 (local, reversible):
+state the shape in 1-3 lines and go — his reply is the correction loop. T2/T3
+(outward-facing, paid, destructive, or many files): brief back and WAIT; plan
+mode is the right surface when the manifest is long. The cost gate and factual
+veto are unchanged and absolute.
 
-**Lock gate (merge-discipline.md Law 0):** fleet / swarm / verify-fleet /
-wargame-batch patterns, or long autonomous runs, claim the tree first:
-`python3 execution/session_lock.py claim "<mission>"` (heartbeat between
-waves, release at close). BLOCKED on a fresh foreign lock = take a lane
-(EnterWorktree; bootstrap + merge-back are automatic) instead of waiting.
-In a lane the lock gate auto-clears (session_lock.py knows — single writer
-by construction). Solo/content conductors skip the claim.
+**Lock gate** (merge-discipline Law 0): fleet/swarm/long autonomous runs claim the
+tree — `python3 execution/session_lock.py claim "<mission>"`. Blocked on a foreign
+lock = take a lane (EnterWorktree), never wait. Solo work skips this.
 
-Hand the RUN PACKET (= the approved card + contract.json path) to the chosen
-conductor as its intent input, then let the conductor run its own sequence.
-`/go` stages the engine; it does not re-implement what the conductor owns.
-The packet's `Expected spawns` and `Deliverable paths` lines travel with it —
-conductors are on notice that close-out checks both.
+**Work in visible beats.** Surface a shaping question at a genuine fork rather
+than disappearing for an hour — he prefers the back-and-forth (2026-07-29).
 
-## Stage 2.5 — LOG (deterministic, both ends)
+## Stage 2 — LOG (one line each end)
 
-At compile AND at close, append one line to `.agent/missions.jsonl`:
+Append to `.agent/missions.jsonl` at start and at close:
+
 ```json
-{"ts":"<iso>","mission":"<intent one-liner>","slug":"<slug>","serves":"<goal-id|orphan>","pattern":"<row>","tier":"T1|T2|T3","status":"compiled|running|done|stopped","expected_spawns":<N>,"measured_spawns":<N|null>,"verdict":"<good|marginal|off|null>","outcome":"<one line at close>"}
+{"ts":"<iso>","mission":"<one-liner>","slug":"<slug>","serves":"<goal-id|orphan>","tier":"T1|T2|T3","status":"compiled|done|stopped","verdict":"<good|marginal|off|null>","outcome":"<one line at close>"}
 ```
-The pulse dashboard and COS read this log — an unlogged mission is invisible.
-**An unclosed mission is a debt**: Stage -1 will surface it next /go.
 
-## Stage 3 — DELIVER + CLOSE VERDICT + Next-Prompts
+An unlogged mission is invisible to the pulse board; an unclosed one is a debt
+Stage -1 surfaces next time. `contract.json` and `portable.md` are written **on
+request** — `raw_intent_run_packet.py "<sharpened line>" --plain` still generates
+the portable version whenever he wants the mission paste-able into another
+harness. They are not a tax on every run.
 
-Deliver the output, then close the loop — this is where /go finally learns:
+## Stage 3 — DELIVER + CLOSE
 
-1. **Close the mission**: append the `done` line with `measured_spawns` (from
-   the session ledger's spawn count) vs `expected_spawns`. A mission that
-   promised a fleet and ran single-threaded gets named in one honest line.
-2. **One-tap verdict**: ask Farrice — **good / marginal / off** — one word.
-   **The ask is TEMPLATED, not optional (apex W2, 2026-07-29 — capture rate
-   was 2/53, both "good", zero marginal/off ever):** the delivery message's
-   LAST line is verbatim `Verdict on this one — good / marginal / off?` and
-   the close line is not written until his word lands (or he ignores it —
-   then log verdict:null with "unasked" vs "unanswered" distinguished; an
-   unasked verdict is a session defect, an unanswered one is his call).
-3. **Next-Prompts** (canonical order, unchanged): **Deepen** / **Adjacent** /
-   **Next milestone** (read `.agent/cos/goals.json`, name the specific active
-   goal — never generic). Skip only on explicit terse-mode.
-4. **Mission report as a brief (2026-08-06)**: for substantive builds, offer the
-   close-out as a brief-format build report in the Briefing Room — recipe in
-   `.agent/workflows/briefs.md` § Mission reports (exemplar: night-shift-2026-08-06).
+1. Ship the work.
+2. Close the mission line with the outcome.
+3. **One-tap verdict** — the delivery's last line is verbatim
+   `Verdict on this one — good / marginal / off?`. Unanswered is his call; unasked
+   is a session defect. Log felt verdicts with `voice_ratchet.py add` when they
+   touch voice.
+4. **Next Moves** — Deepen / Adjacent / Act, naming the specific active goal.
+5. Substantive builds may close as a brief in the Briefing Room
+   (`.agent/workflows/briefs.md` § Mission reports).
 
-## Reuse, Not Duplication (v3 inversion)
+## Universal Harness (Claude Code + Codex)
 
-- `codex_operator_preflight.py`, `co_creative_launchpad.py`,
-  `raw_intent_run_packet.py`, `workflow_router.py`, `expert_router.py`,
-  `recommend_stack.py` — these ARE Stage 0/0.2. v2's rule ("read for
-  reference, don't ship their output") is REVERSED: prose re-implementation
-  of engine logic is the defect that made v2 shallow.
-- `/orchestrate` (orchestrate.md) remains on disk as the stateful engine
-  layer its scripts document — but /go is the front door; don't invoke
-  /orchestrate directly (its state reads are folded into Stage -1).
+This file is the single source of truth for `/go` in BOTH harnesses, and since
+v4 it is also the canon for `/raw-intent-bridge` — the two surfaces now run one
+flow (`.agent/workflows/raw-intent-bridge.md` keeps the Codex invocation contract
+and boundaries, and points here for the stages). Never fork a Codex copy; thin
+trigger bridges only, per the global AGENTS.md contract.
 
-## Universal Harness (Claude Code + Codex — 2026-07-16, unchanged)
-
-This file is the single source of truth for `/go` in BOTH harnesses. Codex
-invokes it via `/go` in-workspace (AGENTS.md workflow rule) or the thin global
-bridge `~/.codex/skills/go/SKILL.md` from projectless threads. Never fork a
-Codex copy — thin trigger bridges only, per the global AGENTS.md contract.
-
-Shared deterministic spine, identical on both sides: `.agent/cos/goals.json`
-(goal spine), `.agent/missions.jsonl` (mission log), `chain_runner.py`
-(finalize), `workflow_router.py` (route second opinion).
+Shared spine, identical on both sides: `.agent/cos/goals.json` (goals),
+`.agent/missions.jsonl` (log), `chain_runner.py` (finalize), `workflow_router.py`
+(second opinion).
 
 Codex adaptations — everything else runs as written:
 
-- Fleet / swarm / verify-fleet patterns: plan, store, and receipt via
-  `python3 execution/codex_dynamic_workflow.py` — real Codex subagents stay
-  approval-gated per run (global AGENTS.md subagent boundary).
-- Conductor Ladder model seating does not apply — Codex seats its own models;
-  pattern + tier discipline is unchanged.
-- GOLDEN RULE stands: one tool per working tree. `/go` on Codex needs a clean
-  tree clearly assigned to Codex, or the Codex-owned worktree
-  (`ANTIGRAVITY_CODEX_WRITE_ROOT`).
+- Fleet/swarm patterns plan and receipt via `execution/codex_dynamic_workflow.py`;
+  real Codex subagents stay approval-gated per run.
+- Conductor Ladder seating does not apply — Codex seats its own models.
+- GOLDEN RULE stands: one tool per working tree.

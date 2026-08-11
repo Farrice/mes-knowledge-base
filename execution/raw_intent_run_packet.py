@@ -504,13 +504,21 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Compile raw intent into a Codex run packet.")
     parser.add_argument("intent", nargs="+", help="Raw intent or messy context.")
     parser.add_argument("--mode", choices=MODE_CHOICES, default="auto")
+    parser.add_argument(
+        "--no-log",
+        action="store_true",
+        help="Skip the .agent/missions.jsonl append. Verifiers MUST pass this — "
+        "fixture intents logged as real missions polluted the log with 114 "
+        "phantom entries before 2026-08-10.",
+    )
     output = parser.add_mutually_exclusive_group()
     output.add_argument("--json", action="store_true")
     output.add_argument("--plain", action="store_true")
     args = parser.parse_args()
 
     packet = build_packet(" ".join(args.intent), mode=args.mode)
-    _log_mission(packet)
+    if not args.no_log:
+        _log_mission(packet)
     if args.json:
         print(json.dumps(packet, indent=2, ensure_ascii=False))
     else:
