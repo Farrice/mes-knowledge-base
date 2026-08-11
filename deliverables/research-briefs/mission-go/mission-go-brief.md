@@ -8,13 +8,13 @@ A planning thread that finished planning and never got closed.
 _CURRENT POSITION_
 This thread carried the cash-launch planning work — fresh research, an adversarial pass on the offer, and a launch plan — and then went quiet with its handoff still open. The thinking landed; the doing moved elsewhere.
 
-Handoff status is active. Last activity 9d ago.
+Handoff status is active. Last activity 11d ago.
 
 Next: Close this handoff and let the live campaign thread own the launch.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **4**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **14 d**
 
 ## lifecycle
 

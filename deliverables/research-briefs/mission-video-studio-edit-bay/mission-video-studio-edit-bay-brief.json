@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.\n\nHandoff status is ready. Last activity today.\n\nNext: Run a pilot end to end and record exactly what VO Farrice needs to speak."
+      "body": "The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Run a pilot end to end and record exactly what VO Farrice needs to speak."
     },
     {
       "kind": "stats",
@@ -37,7 +37,7 @@
           "note": "claude"
         },
         {
-          "value": "2",
+          "value": "4",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

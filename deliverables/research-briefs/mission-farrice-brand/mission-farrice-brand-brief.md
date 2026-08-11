@@ -8,7 +8,7 @@ Plenty of avatar takes made, no verdict recorded — it needs a pick, not more r
 _CURRENT POSITION_
 This is generation-heavy work on the avatar and brand canon — a long run of image variants against a locked character direction. It is producing candidates, not a chosen final.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 3d ago.
 
 Next: Pick the winning avatar take and lock it so the variant runs stop.
 
@@ -16,7 +16,7 @@ Next: Pick the winning avatar take and lock it so the variant runs stop.
 - FILES WRITTEN: **3**
 - ASSETS GENERATED: **124**
 - SPEND THIS WINDOW: **1.64 usd**
-- DAYS ACTIVE: **5 d**
+- DAYS ACTIVE: **7 d**
 
 ## momentum
 

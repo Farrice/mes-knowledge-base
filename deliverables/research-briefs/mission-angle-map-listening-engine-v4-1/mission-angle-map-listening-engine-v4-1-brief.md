@@ -8,13 +8,13 @@ The one thread with a real rhythm — it ships on schedule; the open question is
 _CURRENT POSITION_
 The listening engine is running on its cadence and producing briefs that each land an angle plus vault-filed content. Its output is going out steadily rather than sitting half-built.
 
-Handoff status is active. Last activity 4d ago.
+Handoff status is active. Last activity 6d ago.
 
 Next: Run the next scheduled listening pass and file its brief.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **10 d**
 
 ## lifecycle
 

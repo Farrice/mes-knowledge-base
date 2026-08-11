@@ -8,13 +8,13 @@ Good takes, no verdict — this needs a pick, not another rewrite.
 _CURRENT POSITION_
 The profile and About rewrites went through repeated rounds, produced distinct competing takes, and ratcheted the voice card — then the thread went quiet with its handoff still open. The craft landed; the choice never got recorded.
 
-Handoff status is active. Last activity 12d ago.
+Handoff status is active. Last activity 14d ago.
 
 Next: Pick the About take that ships and close the thread.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **13 d**
+- DAYS ACTIVE: **15 d**
 
 ## lifecycle
 

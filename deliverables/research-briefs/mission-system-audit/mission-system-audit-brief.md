@@ -8,16 +8,20 @@ Real system repair landed here, but the thread's own label points at somebody el
 _CURRENT POSITION_
 The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.
 
-Handoff status is active. Last activity 5d ago.
+Handoff status is active. Last activity 7d ago.
 
 Next: Confirm the disarmed gates have stayed disarmed, then close this thread.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **9**
-- DAYS ACTIVE: **13 d**
+- DAYS ACTIVE: **15 d**
 
 ## lifecycle
 
+
+## what needs you
+Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
+1. **Decide: resume or park** — No recorded activity in 7 days while the handoff is still active.
 
 ## what this thread made
 - **2026-07-08-control-intent-classifier-overfires-system-audit.md** [SOLUTION] `docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md`

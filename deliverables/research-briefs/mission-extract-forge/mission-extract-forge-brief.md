@@ -8,13 +8,13 @@ Built, verified, shippable — the open item is a taste call you're allowed to d
 _CURRENT POSITION_
 The forge build is verified and usable as it stands; what remains is an optional recognition verdict, not construction work. Extractions have been landing steadily through it.
 
-Handoff status is ready. Last activity 3d ago.
+Handoff status is ready. Last activity 5d ago.
 
 Next: Use the verified skill on the next extraction and leave the blind pack alone unless the tier label matters.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **11**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **14 d**
 
 ## lifecycle
 

@@ -3,102 +3,127 @@
   "title": "Farrice Brand — Eleven Day Sentence Script",
   "compiled": "aug 9, 2026",
   "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
   "brief_html": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
   "brief_md": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.md",
   "paths": [
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W2_peanuts_tee.png",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W2_peanuts_tee.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W2_peanuts_tee.png",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W5_patchwork_overshirt.png",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W5_patchwork_overshirt.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W5_patchwork_overshirt.png",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W3_knicks_bomber.png",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W3_knicks_bomber.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/wardrobe-lane/W3_knicks_bomber.png",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR01.png",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR01.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR01.png",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR03.png",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR03.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR03.png",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR02.png",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR02.png",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/REFERENCE-BAR/BAR02.png",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/02_headshot_grey_suit.jpg",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/soul-training-real/02_headshot_grey_suit.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/soul-training-real/02_headshot_grey_suit.jpg",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/06_wedding_fullbody_b.jpg",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/soul-training-real/06_wedding_fullbody_b.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/soul-training-real/06_wedding_fullbody_b.jpg",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/soul-training-real/04_wedding_closeup_smile.jpg",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/soul-training-real/04_wedding_closeup_smile.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/soul-training-real/04_wedding_closeup_smile.jpg",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V1_headshot_neutral.jpg",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V1_headshot_neutral.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V1_headshot_neutral.jpg",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V4_fullbody_standing.jpg",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V4_fullbody_standing.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V4_fullbody_standing.jpg",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V6_casual_outdoor.jpg",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V6_casual_outdoor.jpg",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/character-sheets/soul-v2-verify/V6_casual_outdoor.jpg",
       "role": "asset · IMAGE"
     },
     {
       "path": "_active/farrice-brand/05-assets/anime-avatar/dataset",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/anime-avatar/dataset",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/anime-avatar/dataset",
       "role": "asset · MORE"
     },
     {
       "path": "_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/04-deliverables/ANGLE-BRIEF-PROMPT.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/05-assets/anime-avatar/CANON.md",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/05-assets/anime-avatar/CANON.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/05-assets/anime-avatar/CANON.md",
       "role": "asset · FILE"
     },
     {
       "path": ".agent/handoffs/2026-08-04-farrice-brand.md",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-farrice-brand.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/.agent/handoffs/2026-08-04-farrice-brand.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "_active/farrice-brand/START-HERE.html",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/_active/farrice-brand/START-HERE.html",
       "role": "related · FRONT DOOR"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

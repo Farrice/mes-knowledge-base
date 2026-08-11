@@ -8,7 +8,7 @@ The bay is built and clean; nobody has shot anything in it.
 _CURRENT POSITION_
 The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.
 
-Handoff status is ready. Last activity today.
+Handoff status is ready. Last activity 2d ago.
 
 Next: Run a pilot end to end and record exactly what VO Farrice needs to speak.
 
@@ -16,7 +16,7 @@ Next: Run a pilot end to end and record exactly what VO Farrice needs to speak.
 - FILES WRITTEN: **6**
 - ASSETS GENERATED: **46**
 - SESSIONS: **1** (claude)
-- DAYS ACTIVE: **2 d**
+- DAYS ACTIVE: **4 d**
 
 ## momentum
 

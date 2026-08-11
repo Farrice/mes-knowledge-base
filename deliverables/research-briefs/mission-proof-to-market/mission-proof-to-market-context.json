@@ -3,17 +3,25 @@
   "title": "PROOF-TO-MARKET-OS.md v2.0",
   "compiled": "aug 9, 2026",
   "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
   "brief_html": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
   "brief_md": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.md",
   "paths": [
     {
       "path": ".agent/handoffs/2026-07-18-proof-to-market.md",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-18-proof-to-market.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/.agent/handoffs/2026-07-18-proof-to-market.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

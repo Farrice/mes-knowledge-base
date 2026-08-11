@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Named-brand teardowns were produced at full standard — analysis, post, DM, and a verification pass each — and rendered into shareable briefs. The assets exist and are outward-ready.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Send the teardowns to the named brands and log whatever comes back."
+      "body": "Named-brand teardowns were produced at full standard — analysis, post, DM, and a verification pass each — and rendered into shareable briefs. The assets exist and are outward-ready.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Send the teardowns to the named brands and log whatever comes back."
     },
     {
       "kind": "stats",
@@ -33,7 +33,7 @@
           "note": "claude"
         },
         {
-          "value": "13",
+          "value": "15",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

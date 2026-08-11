@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Confirm the disarmed gates have stayed disarmed, then close this thread."
+      "body": "The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: Confirm the disarmed gates have stayed disarmed, then close this thread."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "13",
+          "value": "15",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -57,6 +57,18 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Decide: resume or park",
+          "why": "No recorded activity in 7 days while the handoff is still active."
+        }
+      ]
     },
     {
       "kind": "assets",

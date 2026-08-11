@@ -8,13 +8,13 @@ Packaged and approved — the only thing between this and real footage is hittin
 _CURRENT POSITION_
 The approved reel package is finished and sitting in the clean recording pack, so the work left is delivery, not production. Earlier hook drafts were rejected and rebuilt before this version survived.
 
-Handoff status is ready. Last activity 4d ago.
+Handoff status is ready. Last activity 6d ago.
 
 Next: Send the approved recording pack to Jen so she can film it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **4 d**
+- DAYS ACTIVE: **6 d**
 
 ## lifecycle
 

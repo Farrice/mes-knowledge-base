@@ -8,7 +8,7 @@ The campaign is fully staged and nothing yet proves a message went out.
 _CURRENT POSITION_
 This is the live campaign thread — the checklist, the launch-day execution plan, and the payment path are written, and it is the most recently touched work on the board. What is written is the motion, not the result.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 2d ago.
 
 Next: Log the outbound sends against the campaign so the launch has a real start line.
 
@@ -16,7 +16,7 @@ Next: Log the outbound sends against the campaign so the launch has a real start
 - FILES WRITTEN: **5**
 - ASSETS GENERATED: **6**
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **10 d**
 
 ## momentum
 
