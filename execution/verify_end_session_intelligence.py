@@ -115,6 +115,24 @@ def check_scan_and_dry_run(tmp: Path) -> str:
     return "scan and dry-run"
 
 
+def check_missing_optional_autopilot(tmp: Path) -> str:
+    degradation_log = ROOT / ".agent" / "health" / "degradations.jsonl"
+    before = degradation_log.read_bytes() if degradation_log.exists() else b""
+    args = base_args(tmp, "success-session-state.md")
+    marker = args.index("--autopilot-state-file")
+    args[marker + 1] = str(tmp / "missing-autopilot-state.md")
+    scan = run([
+        sys.executable,
+        "execution/session_closeout_intelligence.py",
+        "scan",
+        *args,
+    ])
+    after = degradation_log.read_bytes() if degradation_log.exists() else b""
+    if "/autopilot" not in scan or before != after:
+        raise AssertionError("missing optional autopilot state degraded or changed closeout scanning")
+    return "missing optional autopilot state stays quiet"
+
+
 def check_duplicate_protection(tmp: Path) -> str:
     command = [
         sys.executable,
@@ -223,6 +241,7 @@ def main() -> int:
     with tempfile.TemporaryDirectory() as temp:
         tmp = Path(temp)
         checks.append(check_scan_and_dry_run(tmp / "dry"))
+        checks.append(check_missing_optional_autopilot(tmp / "optional"))
         checks.append(check_duplicate_protection(tmp / "dupes"))
         checks.append(check_explicit_misroute(tmp / "misroute"))
         checks.append(check_ambiguous_inbox(tmp / "ambiguous"))

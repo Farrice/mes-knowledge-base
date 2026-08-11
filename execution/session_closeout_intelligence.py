@@ -392,7 +392,11 @@ def collect_routing_candidates(args: argparse.Namespace) -> tuple[list[RoutingCa
         autopilot_path = ROOT / autopilot_path
 
     session_text = read_text(state_path)
-    autopilot_text = read_text(autopilot_path, max_chars=25000)
+    # Autopilot state is a per-session enhancement, not a required closeout
+    # artifact. Fresh worktree lanes intentionally may not have it.
+    autopilot_text = (
+        read_text(autopilot_path, max_chars=25000) if autopilot_path.exists() else ""
+    )
     combined = "\n\n".join(part for part in [session_text, autopilot_text] if part)
 
     routing_candidates = []

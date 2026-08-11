@@ -31,6 +31,9 @@ EXEC = ROOT / "execution"
 SCHEMA = "codex-end-session/v1"
 STATUSES = {"active", "blocked", "ready", "mid-build", "done"}
 PIN_STATUSES = {"active", "blocked", "ready", "mid-build"}
+GIT_SYNC_POLICIES = {"off", "commit-local", "commit-and-push"}
+LANE_DISPOSITIONS = {"auto", "preserve", "merge-when-clean"}
+PERSISTENT_OPERATOR_BRANCHES = {"codex/antigravity-operator-core"}
 TITLE_RE = re.compile(r"^[^:\n]{2,32}:\s+.+\s-\s.+$")
 SECRET_PATH_RE = re.compile(
     r"(^|/)(?:\.env(?:\.|$)|credentials?(?:\.|$)|secrets?(?:\.|$)|"
@@ -81,9 +84,11 @@ def sha256_text(text: str) -> str:
     return hashlib.sha256(normalized(text).encode("utf-8")).hexdigest()
 
 
-def run_command(command: list[str], cwd: Path, timeout: int = 180) -> CommandResult:
+def run_command(command: list[str], cwd: Path, timeout: int = 180,
+                env: dict[str, str] | None = None) -> CommandResult:
     completed = subprocess.run(
         command, cwd=str(cwd), text=True, capture_output=True, timeout=timeout,
+        env=env,
     )
     return CommandResult(completed.returncode, completed.stdout or "", completed.stderr or "")
 
@@ -174,6 +179,17 @@ def load_manifest(path: Path) -> dict[str, Any]:
         raise CloseoutError("artifact_moves must be a list when provided")
     if not isinstance(data.get("review_items", []), list):
         raise CloseoutError("review_items must be a list when provided")
+    data["git_sync"] = data.get("git_sync", "commit-local")
+    if data["git_sync"] not in GIT_SYNC_POLICIES:
+        raise CloseoutError(f"git_sync must be one of {sorted(GIT_SYNC_POLICIES)}")
+    data["lane_disposition"] = data.get("lane_disposition", "auto")
+    if data["lane_disposition"] not in LANE_DISPOSITIONS:
+        raise CloseoutError(
+            f"lane_disposition must be one of {sorted(LANE_DISPOSITIONS)}"
+        )
+    data["global_receipts"] = data.get("global_receipts", False)
+    if not isinstance(data["global_receipts"], bool):
+        raise CloseoutError("global_receipts must be true or false")
     project = Path(data["project_root"]).expanduser().resolve()
     if not project.exists():
         raise CloseoutError(f"project_root not found: {project}")
@@ -382,6 +398,50 @@ def git_policy_blockers(manifest: dict[str, Any], context: dict[str, Any],
     return blockers
 
 
+def resolved_lane_disposition(manifest: dict[str, Any],
+                              context: dict[str, Any]) -> str:
+    """Resolve the lifecycle of the current lane without relying on cwd naming.
+
+    The dedicated Codex operator branch is a persistent workbench. Every other
+    linked task lane defaults to the normal merge-or-park lifecycle unless the
+    manifest explicitly preserves it.
+    """
+    requested = manifest.get("lane_disposition", "auto")
+    if requested != "auto":
+        return requested
+    if context.get("branch") in PERSISTENT_OPERATOR_BRANCHES:
+        return "preserve"
+    return "merge-when-clean"
+
+
+def lane_action_for(manifest: dict[str, Any], context: dict[str, Any]) -> dict[str, Any]:
+    if not context.get("is_git") or not context.get("dedicated_worktree"):
+        return {
+            "status": "not-applicable",
+            "disposition": "none",
+            "reason": "current checkout is not a linked worktree lane",
+        }
+    branch = context.get("branch", "")
+    disposition = resolved_lane_disposition(manifest, context)
+    if disposition == "preserve":
+        return {
+            "status": "preserved",
+            "disposition": disposition,
+            "branch": branch,
+            "reason": "persistent operator lane stays available for the next Codex task",
+        }
+    return {
+        "status": "approval-required",
+        "disposition": disposition,
+        "branch": branch,
+        "command": f"python3 execution/worktree_lane.py merge --lane {branch}",
+        "reason": (
+            "temporary lane is committed locally; merge/park/teardown remains visible "
+            "because the lane merge helper can update and push main"
+        ),
+    }
+
+
 def global_home() -> Path:
     override = os.environ.get("CODEX_END_SESSION_HOME")
     return Path(override).expanduser().resolve() if override else Path.home() / ".codex" / "end-session"
@@ -448,11 +508,16 @@ def run_shared_spine(manifest: dict[str, Any], stored_path: str, dry_run: bool) 
     command = [
         sys.executable, str(project / "execution" / "end_session_closeout.py"), "run",
         "--slug", manifest["slug"], "--handoff", exact_path,
-        "--git-policy", "codex-owned",
+        "--git-policy", "codex-owned", "--degraded",
     ]
     if dry_run:
         command.append("--dry-run")
-    result = run_command(command, project, timeout=600)
+    # The Codex coordinator still has verification and manifest-scoped Git work
+    # to do after the shared spine. Never let the spine remove its own cwd first.
+    # Temporary lane merge/park is returned as an explicit final lane action.
+    closeout_env = os.environ.copy()
+    closeout_env["END_SESSION_NO_AUTOMERGE"] = "1"
+    result = run_command(command, project, timeout=600, env=closeout_env)
     lines = [line for line in result.stdout.splitlines() if line.startswith("CLOSEOUT ")]
     failures = [line for line in lines if ": FAIL " in line]
     resolved = any(line.startswith("CLOSEOUT resolve-handoff: OK ") for line in lines)
@@ -561,8 +626,13 @@ def commit_and_push(manifest: dict[str, Any], allowed_paths: list[str],
     if any(not row["valid"] for row in verifier_receipts):
         receipt["blockers"] = ["one or more required verifiers failed"]
         return receipt
+    git_sync = manifest.get("git_sync", "commit-local")
+    receipt["policy"] = git_sync
     if not allowed_paths:
         receipt.update({"status": "clean", "commit": git(project, "rev-parse", "HEAD").stdout.strip()})
+        return receipt
+    if git_sync == "off":
+        receipt["blockers"] = ["git_sync is off; task-owned changes remain uncommitted"]
         return receipt
     staged = run_command(["git", "-C", str(project), "add", "--", *allowed_paths], project)
     if staged.returncode != 0:
@@ -595,6 +665,9 @@ def commit_and_push(manifest: dict[str, Any], allowed_paths: list[str],
         receipt["blockers"] = [f"git commit failed: {(committed.stderr or committed.stdout).strip()}"]
         return receipt
     commit_sha = git(project, "rev-parse", "HEAD").stdout.strip()
+    if git_sync == "commit-local":
+        receipt.update({"status": "committed-local", "commit": commit_sha})
+        return receipt
     pushed = git(project, "push", "-u", "origin", branch, timeout=300)
     if pushed.returncode != 0:
         receipt.update({
@@ -619,6 +692,12 @@ def write_global_receipts(manifest: dict[str, Any], handoff: dict[str, Any],
                           review_items: list[Any], task_actions: dict[str, Any],
                           dry_run: bool) -> dict[str, str]:
     home = global_home()
+    if not manifest.get("global_receipts", False):
+        return {
+            "status": "skipped",
+            "home": str(home),
+            "reason": "global receipt writes require explicit approval",
+        }
     integration = home / "integration-queue" / f"{datetime.now().date().isoformat()}-{manifest['slug']}.md"
     review_queue = home / "review-queue" / f"{datetime.now().date().isoformat()}-{manifest['slug']}.json"
     registry = home / "registry.jsonl"
@@ -712,7 +791,7 @@ def task_actions_for(status: str, title: str, closeout_valid: bool, dry_run: boo
     return {
         "rename": True,
         "title": title,
-        "pin": status in PIN_STATUSES,
+        "pin": status in PIN_STATUSES or (status == "done" and not closeout_valid),
         "archive": status == "done" and closeout_valid and not dry_run,
         "reason": ("archive only after verified done closeout" if status == "done"
                    else "unfinished tasks stay visible and pinned"),
@@ -724,6 +803,7 @@ def coordinate(manifest: dict[str, Any], dry_run: bool) -> dict[str, Any]:
     antigravity_adapter = (project / "execution" / "handoff_store.py").exists() and \
         (project / "execution" / "end_session_closeout.py").exists()
     initial_context = git_context(project)
+    lane_action = lane_action_for(manifest, initial_context)
     initial_status = dict(initial_context.get("status", {}))
     recognized_initial = sorted(
         path for path in initial_status
@@ -735,9 +815,26 @@ def coordinate(manifest: dict[str, Any], dry_run: bool) -> dict[str, Any]:
     if antigravity_adapter:
         handoff = save_antigravity_handoff(manifest, dry_run)
     elif dry_run:
+        destination = (
+            global_home() / "handoffs" /
+            f"{datetime.now().date().isoformat()}-{manifest['slug']}.md"
+            if manifest.get("global_receipts", False)
+            else Path(manifest["handoff_source"])
+        )
         handoff = {"dry_run": True, "source_path": manifest["handoff_source"],
-                   "stored_path": str(global_home() / "handoffs" /
-                                      f"{datetime.now().date().isoformat()}-{manifest['slug']}.md")}
+                   "stored_path": str(destination)}
+    elif not manifest.get("global_receipts", False):
+        source = Path(manifest["handoff_source"])
+        source_text = source.read_text(encoding="utf-8")
+        handoff = {
+            "schema_version": "handoff-save/v1",
+            "status": "source-retained",
+            "source_path": str(source.resolve()),
+            "stored_path": str(source.resolve()),
+            "source_sha256": sha256_text(source_text),
+            "stored_sha256": sha256_text(source_text),
+            "valid": True,
+        }
     else:
         handoff = write_global_handoff(Path(manifest["handoff_source"]), manifest["slug"])
         if not handoff.get("valid"):
@@ -797,7 +894,9 @@ def coordinate(manifest: dict[str, Any], dry_run: bool) -> dict[str, Any]:
     git_receipt.setdefault("base", initial_context.get("head", ""))
 
     closeout_valid = bool(spine.get("valid")) and not git_receipt.get("blockers") and \
-        git_receipt.get("status") in {"pushed", "clean", "not-applicable", "dry-run"}
+        git_receipt.get("status") in {
+            "pushed", "committed-local", "clean", "not-applicable", "dry-run"
+        } and lane_action.get("status") != "approval-required"
     task_actions = task_actions_for(
         manifest["status"], manifest["title"], closeout_valid, dry_run,
     )
@@ -829,7 +928,8 @@ def coordinate(manifest: dict[str, Any], dry_run: bool) -> dict[str, Any]:
         "manifest": manifest, "handoff": handoff, "spine": spine,
         "verifiers": verifiers, "organization": organization,
         "review_items": review_items, "git": git_receipt,
-        "global_receipts": global_receipts, "task_actions": task_actions,
+        "global_receipts": global_receipts, "lane_action": lane_action,
+        "task_actions": task_actions,
     }
 
 

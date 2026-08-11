@@ -187,6 +187,9 @@ def manifest_for(project: Path, source: Path, status: str = "ready") -> dict:
         "handoff_source": str(source),
         "core_paths": ["core.txt"],
         "task_owned_paths": [source.relative_to(project).as_posix()],
+        "git_sync": "commit-local",
+        "lane_disposition": "preserve",
+        "global_receipts": False,
     }
 
 
@@ -235,6 +238,20 @@ def check_manifest_and_policy(tmp: Path) -> list[str]:
     dry = codex_close.coordinate(manifest, True)
     require(dry["valid"] and dry["git"]["status"] == "dry-run",
             f"cold-start dry run should pass: {dry['git']}")
+    require(dry["lane_action"]["status"] == "preserved",
+            "explicit persistent-lane disposition should be preserved")
+    require(dry["global_receipts"]["status"] == "skipped",
+            "global receipt writes must default off")
+
+    auto_manifest = dict(manifest, lane_disposition="auto")
+    operator_context = dict(context, branch="codex/antigravity-operator-core")
+    require(
+        codex_close.resolved_lane_disposition(auto_manifest, operator_context) == "preserve",
+        "default Codex operator branch must resolve to preserve",
+    )
+    temporary_action = codex_close.lane_action_for(auto_manifest, context)
+    require(temporary_action["status"] == "approval-required",
+            "temporary lane must surface the merge-or-park approval boundary")
 
     main_context = dict(context, branch="main", dedicated_worktree=False)
     main_blockers = codex_close.git_policy_blockers(manifest, main_context, context["status"])
@@ -260,43 +277,86 @@ def check_manifest_and_policy(tmp: Path) -> list[str]:
     failed_done = codex_close.task_actions_for("done", manifest["title"], False, False)
     require(ready_actions["pin"] and not ready_actions["archive"], "ready task lifecycle incorrect")
     require(done_actions["archive"] and not done_actions["pin"], "verified done task should archive")
-    require(not failed_done["archive"], "failed done task must remain unarchived")
+    require(failed_done["pin"] and not failed_done["archive"],
+            "failed done task must remain pinned and unarchived")
+    real = codex_close.coordinate(manifest, False)
+    require(real["valid"] and real["git"]["status"] == "committed-local",
+            f"generic project-local closeout should commit without global writes: {real['git']}")
+    require(real["handoff"]["stored_path"] == str(handoff.resolve()),
+            "generic closeout must retain the project-local source when global writes are off")
+    require(real["global_receipts"]["status"] == "skipped",
+            "generic closeout must not create global receipts by default")
     return [
         "manifest identity and dedicated-worktree cold start pass",
+        "persistent operator lane preserves; temporary lane surfaces merge approval",
+        "local receipts are canonical unless a global write is explicitly enabled",
         "main, unowned dirt, divergence, and deletion states block Git",
         "ready tasks pin; only verified done tasks archive",
     ]
 
 
-def check_local_push(tmp: Path) -> list[str]:
-    tmp.mkdir(parents=True, exist_ok=True)
-    remote = tmp / "origin.git"
-    run(["git", "init", "--bare", str(remote)], tmp)
-    base = tmp / "push-base"
-    run(["git", "clone", str(remote), str(base)], tmp)
-    run(["git", "config", "user.name", "Codex Test"], base)
-    run(["git", "config", "user.email", "codex-test@example.invalid"], base)
-    run(["git", "switch", "-c", "main"], base)
-    (base / "README.md").write_text("base\n", encoding="utf-8")
-    run(["git", "add", "README.md"], base)
-    run(["git", "commit", "-m", "base"], base)
-    run(["git", "push", "-u", "origin", "main"], base)
-    linked = tmp / "push-linked"
-    run(["git", "worktree", "add", "-b", "codex/push-fixture", str(linked), "main"], base)
-    (linked / "feature.txt").write_text("safe fixture\n", encoding="utf-8")
+def check_local_git_sync(tmp: Path) -> list[str]:
+    _base, linked = make_linked_fixture(tmp)
+    (linked / "feature.txt").write_text("safe local fixture\n", encoding="utf-8")
     manifest = {
-        "slug": "push-fixture", "project_root": str(linked),
-        "commit_message": "test: codex end-session push fixture",
+        "slug": "local-fixture", "project_root": str(linked),
+        "commit_message": "test: codex end-session local fixture",
     }
     receipt = codex_close.commit_and_push(
         manifest, ["feature.txt"],
         [{"valid": True, "command": ["fixture"], "summary": "PASS"}],
     )
-    require(receipt["status"] == "pushed", f"local remote push failed: {receipt}")
-    require(receipt["commit"] == receipt["remote_sha"], "remote SHA must match local commit")
-    main_sha = run(["git", "rev-parse", "main"], base)
-    require(main_sha != receipt["commit"], "Codex branch push must not move main")
-    return ["owned-path commit pushes codex branch and verifies remote SHA without moving main"]
+    require(receipt["status"] == "committed-local",
+            f"default Git sync must stop at a local commit: {receipt}")
+    require(receipt["policy"] == "commit-local", "receipt must expose local Git policy")
+    remote_ref = run(["git", "rev-parse", "--git-common-dir"], linked)
+    require(remote_ref, "linked fixture must remain a valid worktree")
+
+    (linked / "held.txt").write_text("held\n", encoding="utf-8")
+    held = codex_close.commit_and_push(
+        dict(manifest, git_sync="off"), ["held.txt"],
+        [{"valid": True, "command": ["fixture"], "summary": "PASS"}],
+    )
+    require(held["status"] == "held" and held.get("blockers"),
+            "git_sync off must leave changes visible instead of silently closing")
+    return [
+        "owned-path closeout commits locally by default",
+        "Git-off policy leaves uncommitted work visibly held",
+    ]
+
+
+def check_spine_lane_guard(tmp: Path) -> list[str]:
+    captured: dict[str, object] = {}
+    original = codex_close.run_command
+
+    def fake_run(command, cwd, timeout=180, env=None):
+        captured["command"] = command
+        captured["env"] = env
+        return codex_close.CommandResult(
+            0,
+            "CLOSEOUT resolve-handoff: OK — exact\n"
+            "CLOSEOUT lane-merge: OK — DECLINED (env): lane left in place\n",
+            "",
+        )
+
+    codex_close.run_command = fake_run
+    try:
+        receipt = codex_close.run_shared_spine(
+            {"project_root": str(tmp), "handoff_source": str(tmp / "handoff.md"),
+             "slug": "lane-guard"},
+            str(tmp / "stored.md"), False,
+        )
+    finally:
+        codex_close.run_command = original
+    require(receipt["valid"], f"guarded shared spine should remain valid: {receipt}")
+    require(captured["env"]["END_SESSION_NO_AUTOMERGE"] == "1",
+            "Codex coordinator must prevent the shared spine from removing its cwd")
+    require("--degraded" in captured["command"],
+            "Codex coordinator must bound the shared spine to closeout-local work")
+    return [
+        "shared spine cannot merge or remove a lane before Codex verification and Git",
+        "Codex shared-spine run skips broad mission and index regeneration",
+    ]
 
 
 def check_organization(tmp: Path) -> list[str]:
@@ -358,7 +418,8 @@ def main() -> int:
         receipts.extend(check_handoff_identity(tmp / "identity"))
         receipts.extend(check_manifest_and_policy(tmp / "policy"))
         receipts.extend(check_organization(tmp / "organization"))
-        receipts.extend(check_local_push(tmp / "push"))
+        receipts.extend(check_local_git_sync(tmp / "git-sync"))
+        receipts.extend(check_spine_lane_guard(tmp / "spine"))
     print("CODEX END-SESSION VERIFICATION PASS")
     for receipt in receipts:
         print(f"- {receipt}")

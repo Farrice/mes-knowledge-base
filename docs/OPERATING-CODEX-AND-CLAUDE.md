@@ -63,6 +63,25 @@ The safety rule is no longer "only one tool can be open." It is:
 - Integrate through clean commits and the lane merge process. Conflicts park the lane; never force them.
 - The dedicated Codex operator lane stays available even when it is ahead of `main`. It is not merged automatically while canonical `main` is dirty.
 
+### End-session lane hygiene
+
+Use the existing `/end-session` workflow as the primary Codex closeout; do not
+create a second cleanup command. It classifies the lane before cleanup:
+
+- **Persistent operator lane:** `codex/antigravity-operator-core` is a reusable
+  workbench. Verify the exact handoff, commit only task-owned paths locally, and
+  keep the lane available.
+- **Temporary task lane:** closeout must return an exact merge-or-park action.
+  Keep the task pinned until that action is approved and resolved; conflicts
+  park visibly instead of being forced.
+- **Git and global boundaries:** local commit is the default. Branch push,
+  updates to `main`, and writes under `~/.codex/end-session/` require explicit
+  approval for that run.
+
+A clean session therefore means every change is committed or explicitly held,
+every continuation has an exact named handoff, and every temporary lane is
+merged or visibly parked. It does not mean deleting the permanent Codex lane.
+
 ## Capability policy
 
 Shared Antigravity capability counts only when the workflow, adapter, activation path, and verifier are present. File presence alone is not proof of useful behavior.

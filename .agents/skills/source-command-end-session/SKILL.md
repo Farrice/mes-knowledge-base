@@ -27,6 +27,10 @@ through `execution/codex_end_session.py run --manifest <json>`,
 dedicated `codex/*` worktree, and Never auto-commit, auto-merge, or auto-push `main`.
 Real Codex subagents require explicit authorization.
 
+Codex-native safety defaults come from the canonical workflow: commit locally,
+preserve the dedicated operator lane, surface temporary-lane merge or park work,
+and require explicit approval for push or global receipt writes.
+
 ## Command Template
 
 Read and execute the workflow at `.agent/workflows/end-session.md` — Clean workspace, organize assets, generate handoff

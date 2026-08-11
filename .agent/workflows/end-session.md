@@ -24,6 +24,7 @@ Preserve these invariants:
 - Codex task titles use `[Domain]: [Specific Object] - [Outcome]`. Rename every meaningful task, pin unfinished tasks, and archive only a verified `done` closeout.
 - Automatic Git synchronization is limited to manifest-owned paths in a dedicated `codex/*` worktree. Never auto-commit, auto-merge, or auto-push `main`.
 - Optional cleanup must be reviewed; never publish, push, broadly delete, or perform destructive cleanup without explicit approval.
+- The dedicated `codex/antigravity-operator-core` lane is persistent: close the task, commit its owned paths locally, and leave the lane available. Temporary task lanes must end in a visible merge-or-park action; do not silently abandon them.
 - Real Codex subagents require explicit authorization.
 
 ### Deterministic backstop
@@ -136,7 +137,9 @@ If the `/handoff` skill is unavailable (not installed), fall back to emitting th
 // turbo
 For a Codex task, create a closeout manifest containing the task ID, exact
 title, slug, status, project root, exact handoff source, core paths, and only
-the task-owned paths eligible for Git staging. Then run:
+the task-owned paths eligible for Git staging. The Codex-native safe defaults
+are `git_sync: "commit-local"`, `lane_disposition: "auto"`, and
+`global_receipts: false`. Then run:
 
 ```bash
 python3 execution/codex_end_session.py run --manifest "<manifest.json>"
@@ -144,8 +147,10 @@ python3 execution/codex_end_session.py run --manifest "<manifest.json>"
 
 The JSON receipt is the decision surface. The Python coordinator owns exact
 handoff save/verify, conservative organization, the shared closeout spine,
-verifiers, manifest-scoped Git, remote-SHA proof, and the pointer-only global
-registry under `~/.codex/end-session/`. Project-local handoffs remain canonical.
+verifiers, manifest-scoped Git, lane disposition, and the optional pointer-only
+global registry under `~/.codex/end-session/`. Project-local handoffs remain
+canonical. Set `git_sync: "commit-and-push"` or `global_receipts: true` only
+after Farrice explicitly approves that push or global write for the run.
 
 Codex app actions stay native and occur only after reading the receipt:
 
@@ -153,11 +158,19 @@ Codex app actions stay native and occur only after reading the receipt:
 2. If `task_actions.pin` is true, call `set_thread_pinned` so `active`, `blocked`, `ready`, and `mid-build` work stays visible.
 3. Call `set_thread_archived` only when `task_actions.archive` is true. A partial or failed closeout remains unarchived.
 
-The approved Git policy permits automatic commit and push only when the current
-branch is `codex/*`, the checkout is a dedicated Codex worktree, every staged
-path is manifest-owned or closeout-generated, required verifiers pass, no
-secret/deletion/collision/divergence blocker exists, and the remote SHA matches.
-Never auto-commit, auto-merge, or auto-push `main`.
+The safe default commits locally only when the current branch is `codex/*`, the
+checkout is a dedicated Codex worktree, every staged path is manifest-owned or
+closeout-generated, required verifiers pass, and no
+secret/deletion/collision/divergence blocker exists. Push is a separate,
+explicitly approved policy. Never auto-commit, auto-merge, or auto-push `main`.
+
+Lane disposition is distinct from task completion:
+
+- `codex/antigravity-operator-core` resolves `auto` to `preserve`; the task may
+  archive after a verified local commit while the reusable operator lane stays.
+- Other linked lanes resolve `auto` to `merge-when-clean`; the receipt returns
+  the exact merge command and keeps the task pinned until Farrice approves the
+  helper that may update and push `main`. Conflicts park the lane visibly.
 
 ### 1.4 Run the Shared Closeout Spine
 // turbo
@@ -165,7 +178,7 @@ The Codex coordinator invokes this form with the exact stored handoff:
 
 ```bash
 python3 execution/end_session_closeout.py run --slug "<thread-slug>" \
-  --handoff "<exact-stored-handoff-path>" --git-policy codex-owned
+  --handoff "<exact-stored-handoff-path>" --git-policy codex-owned --degraded
 ```
 This is the deterministic closeout spine — it wires up everything the old
 closeout preamble claimed but never physically ran: closeout intelligence
@@ -177,6 +190,9 @@ unresolved friction-ledger entries or open finalize debt. Every step reports
 `CLOSEOUT <step>: OK|SKIP|FAIL — <detail>` and the sequence never halts on a
 failed or skipped step. **Surface these `CLOSEOUT` lines in the closeout
 answer** — skipped stores must stay visible to Farrice, not silently dropped.
+Codex uses the bounded `--degraded` spine here to capture the task closeout
+without rebuilding broad mission briefs or unrelated indexes; manifest-scoped
+organization and verification remain owned by the coordinator.
 
 ### 1.5 Generate Insightful Momentum Follow-ups
 // turbo
@@ -209,8 +225,10 @@ python execution/conversation_index.py update "$CURRENT_CONVERSATION_ID"
 
 For Codex, Git is owned by `codex_end_session.py` after the shared spine and
 verifiers pass. It stages only manifest-owned paths plus closeout-generated
-receipts, pushes only the current `codex/*` branch, verifies the remote SHA,
-and writes an integration packet. It never merges or pushes `main`.
+receipts and commits locally by default. An explicitly approved
+`commit-and-push` policy pushes only the current `codex/*` branch and verifies
+the remote SHA. Temporary-lane merge remains a separate, receipt-visible action
+because the merge helper may update and push `main`.
 
 The legacy `end_session_closeout.py run --slug <slug>` invocation remains
 available for Claude compatibility and retains its legacy commit-gate behavior.

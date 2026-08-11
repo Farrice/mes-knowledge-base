@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-11 · codex-end-session-lane-disposition · Codex-native end-session treated the persistent operator lane like an ephemeral task lane and coupled safe closeout to implicit push or global writes
 - 2026-08-02 · final-bundle-hash-is-not-runtime-provenance · A source-to-skill behavior verifier can hash every final artifact yet still falsely pass self-attested acceptance, hidden reads, post-hoc label mapping, empty intermediates, or fabricated method deltas.
 - 2026-08-01 · imagegen-static-placement-correction · image generation returned a taller portrait after an explicit 4:5 request, so downstream static variants risked inheriting the wrong placement
 - 2026-08-01 · codex-end-session-exact-handoff-and-owned-git · Shared closeout can bind the wrong temp handoff or sweep unrelated repository changes because recency is treated as identity and working-tree membership as ownership.
