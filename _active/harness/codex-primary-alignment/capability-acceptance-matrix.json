@@ -1,0 +1,160 @@
+{
+  "schema_version": "codex-primary-capability-matrix/v1",
+  "generated_at": "2026-08-11T18:08:05Z",
+  "canonical_root": "/Users/farricecain/Google Antigravity",
+  "codex_write_root": "/Users/farricecain/Google-Antigravity-Codex-Operator-Core",
+  "captured_main_head": "3dbe5baffd2dfa7108a89a904954bd7f3efd81da",
+  "allowed_statuses": [
+    "SHARED_AND_PROVEN",
+    "CODEX_ADVANTAGE",
+    "CLAUDE_COWORK_ADVANTAGE",
+    "ADAPTER_NEEDED",
+    "BLOCKED",
+    "UNMEASURED"
+  ],
+  "capabilities": [
+    {
+      "id": "canonical-authority",
+      "status": "SHARED_AND_PROVEN",
+      "claim": "Google Antigravity remains the sole canonical workflow, skill, routing, verification, and learning system.",
+      "evidence": [
+        "Canonical HEAD 3dbe5baffd2dfa7108a89a904954bd7f3efd81da remained unchanged during implementation.",
+        "Canonical platform lint returned {\"failures\": []}.",
+        "CLAUDE.md working hash matched HEAD blob 4114d365c3aaca470b7c83c2be54462a053190b7."
+      ]
+    },
+    {
+      "id": "peer-constitutions",
+      "status": "SHARED_AND_PROVEN",
+      "claim": "Claude and Codex constitutions remain platform peers even though Codex is the primary user surface.",
+      "evidence": [
+        "verify_codex_authority.py passed.",
+        "verify_codex_claude_parity.py passed.",
+        "CLAUDE.md was not edited."
+      ]
+    },
+    {
+      "id": "codex-primary-write-boundary",
+      "status": "CODEX_ADVANTAGE",
+      "claim": "Global Codex dispatch can select a dedicated safe write lane while canonical main is dirty.",
+      "evidence": [
+        "Default write root is /Users/farricecain/Google-Antigravity-Codex-Operator-Core.",
+        "Branch codex/antigravity-operator-core was recreated from captured main and bootstrapped FULL POWER.",
+        "Global bridge recognized the path as a git worktree containing current hub HEAD."
+      ]
+    },
+    {
+      "id": "codex-hook-bridge",
+      "status": "SHARED_AND_PROVEN",
+      "claim": "The Codex lane has path-scoped hook trust and live safe/dangerous command behavior.",
+      "evidence": [
+        "verify_google_operator_core.py passed current-root hook-state checks.",
+        "Safe git status dry-run was allowed.",
+        "Dangerous git reset --hard dry-run was blocked.",
+        "No global config mutation was needed."
+      ]
+    },
+    {
+      "id": "verified-imported-command-adapters",
+      "status": "SHARED_AND_PROVEN",
+      "claim": "Only thin imported adapters with tracked workflow targets were preserved in the Codex lane.",
+      "evidence": [
+        "1,124 adapters imported from 1,498 candidates.",
+        "Source aggregate SHA-256 was be50c3514f083e674e0d8bbb4f62d991e11e42eb43fa16d3c738d722a757b12f before and after transfer.",
+        "codex_live_surface_audit.py --strict passed with 2,174 live wrappers and all hot controls present."
+      ]
+    },
+    {
+      "id": "parked-non-workflow-adapters",
+      "status": "ADAPTER_NEEDED",
+      "claim": "364 non-workflow or complex front-door imports require a separately proven adapter shape before promotion.",
+      "evidence": [
+        "They did not expose one mechanically recognized tracked workflow target.",
+        "They remain untouched in canonical main and are listed as PARKED_IMPORT."
+      ]
+    },
+    {
+      "id": "parked-missing-target-adapters",
+      "status": "BLOCKED",
+      "claim": "Ten imports cannot be promoted because their workflow targets are absent from the captured tracked tree.",
+      "evidence": [
+        "Nine correspond to untracked main workflows intentionally excluded from this transfer.",
+        "One points to a missing or malformed Diandra Escobar project-builder target.",
+        "All ten remain PARKED_IMPORT."
+      ]
+    },
+    {
+      "id": "lane-goal-spine",
+      "status": "ADAPTER_NEEDED",
+      "claim": "Lane-local platform lint cannot prove the ignored .agent/cos/goals.json dependency without importing or sharing runtime state.",
+      "evidence": [
+        "Canonical platform lint passed.",
+        "The file is ignored under .agent/cos/ and is not provisioned by worktree_lane.py bootstrap.",
+        "No runtime-state copy or bootstrap mutation was authorized by this alignment."
+      ]
+    },
+    {
+      "id": "routing-regressions",
+      "status": "SHARED_AND_PROVEN",
+      "claim": "System alignment, prior-quality regression, and content requests retain distinct owners.",
+      "evidence": [
+        "Codex-primary multi-surface harness request ranked /system-audit first.",
+        "Previous-version-was-better request bound to /repeatability-spine.",
+        "Production-ready paid-ad request bound to /high-taste-writing-os."
+      ]
+    },
+    {
+      "id": "codex-subagents",
+      "status": "CODEX_ADVANTAGE",
+      "claim": "Codex can use real subagents when Farrice explicitly authorizes them for a run.",
+      "evidence": [
+        "verify_subagent_approval_language.py passed.",
+        "No subagents were used in this implementation."
+      ]
+    },
+    {
+      "id": "cowork-plugin-library",
+      "status": "CLAUDE_COWORK_ADVANTAGE",
+      "claim": "The imported Cowork plugin library remains global, versioned, enabled, and available on demand.",
+      "evidence": [
+        "codex plugin list reported 30 claude-cowork plugins installed and enabled.",
+        "No plugin package or global mirror was modified."
+      ]
+    },
+    {
+      "id": "cowork-authenticated-actions",
+      "status": "UNMEASURED",
+      "claim": "Authentication-dependent plugin and connector actions were not tested.",
+      "evidence": [
+        "No connector permission or external action was authorized for this implementation."
+      ]
+    },
+    {
+      "id": "exact-handoff-continuity",
+      "status": "SHARED_AND_PROVEN",
+      "claim": "Cross-surface continuity works through exact named handoffs rather than newest-file discovery.",
+      "evidence": [
+        "Exact verification passed for thread oren-dara-ad-psychology and source .agent/handoffs/2026-08-08-oren-dara-ad-psychology.md.",
+        "Source SHA-256 bee9d42495e0f229d6b928e08f09fbab4ef474e02e496acecd79e4e2f6f84a16.",
+        "No --from-temp handoff discovery was used."
+      ]
+    },
+    {
+      "id": "active-degraded-claude-lane",
+      "status": "BLOCKED",
+      "claim": "The active claude/nostalgic-lalande-e1ce93 lane has a reported hook-failure degradation and was not repaired while active.",
+      "evidence": [
+        "worktree_lane.py list reported hook-failures.log entries for that tree.",
+        "No existing Claude or Codex lane was modified by this implementation."
+      ]
+    },
+    {
+      "id": "qualitative-caliber",
+      "status": "UNMEASURED",
+      "claim": "Same-caliber-or-better output in Codex is not yet proven by structural verification.",
+      "evidence": [
+        "The first ten substantive Codex-primary tasks are reserved as production receipts before further harness promotion."
+      ]
+    }
+  ]
+}
