@@ -1,0 +1,218 @@
+{
+  "slug": "zeitgeist-ai-consulting-linkedin-2026-08-10",
+  "chip": "ZEITGEIST · AI CONSULTING / LINKEDIN",
+  "title": "the word *consultant* stopped filtering",
+  "dek": "Same query as yesterday, same platform, twenty-four hours later: LinkedIn returned a sales recruiter, a biomedical signal-processing researcher, an SAP ABAP developer, and a French recruitment founder writing in French. Three of ten are actually selling AI work. The category term has stopped sorting people, which tells you exactly how much weight it can carry on a profile.",
+  "window": "aug 10, 2026 · daily lane",
+  "lens": "what's working in AI-consulting content · LinkedIn + X + Reddit",
+  "sources": "4 live pulls · 39 items returned · 24 usable · 14 genuinely new",
+  "compiled": "aug 10, 2026",
+  "footer_left": "ANTIGRAVITY ZEITGEIST",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 0.166,
+  "stack": [
+    "linkedin-search",
+    "reddit",
+    "threads-search",
+    "twitter"
+  ],
+  "category": "zeitgeist",
+  "priority": 3,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the big picture",
+      "kicker": "WHAT'S FORMING",
+      "body": "Yesterday the query \"AI consultant\" returned ten people who were, whatever else you think of their copy, all selling AI consulting. Today the same query returned ten people and three of them are.\n\nThe other seven: a sales and agency recruiter in the UK whose summary opens \"Who I hire – Sales, Agency Sales, Account Management, Leadership, Customer Success, VP / SVP.\" A biomedical researcher in Thessaloniki working on atrial-fibrillation prediction from ECG data. An SAP ABAP developer in Portugal who writes that she has \"recently\" been focusing on AI and is \"excited to learn.\" A French recruitment founder whose entire summary is in French and is about hiring developers. A Fortune-100 CDO. An enterprise cloud architect. A profile with no summary at all.\n\nThat is not a bad scrape. That is what a term looks like when everyone has attached themselves to it. The label has stopped doing the work of separating people, which is a fact with a direct consequence for anyone about to put it in their headline.\n\nThe three who are actually selling AI work all made the same structural move, and it is the opposite one. Atiqul Islam opens \"I design and ship production LLM systems — not slideware.\" Ray A. opens by promising \"clear, grounded, hype-free guidance.\" Alim Ul Karim skips the category entirely: \"I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk.\" None of them lead with the noun. Two of the three define themselves against the bluffer.\n\nThat is the same anxiety the demand side has been posting about all week. The top thread in the Reddit pull, unchanged for a third straight day, is titled \"Do AI consultants actually know AI, or is half of it just confident bluffing?\" Buyers are asking how to tell the real ones apart. Sellers are answering with negations. The gap between those two sentences is where a piece of content lives.\n\nThe demand side gave almost nothing new: nine of ten Reddit URLs repeated from yesterday. The one arrival is a hiring post, not a buyer post. Threads went fully fresh for the first time this week, four for four, all posted today. The X actor returned fifteen mock placeholder rows for the fourth consecutive day."
+    },
+    {
+      "kind": "stats",
+      "heading": "the pull, honestly",
+      "items": [
+        {
+          "value": "3",
+          "unit": "of 10",
+          "label": "PROFILES ACTUALLY SELLING AI WORK",
+          "note": "the rest: recruiters, a researcher, an SAP dev, enterprise architects"
+        },
+        {
+          "value": "9",
+          "unit": "of 10",
+          "label": "LINKEDIN PROFILES NEW SINCE YESTERDAY",
+          "note": "only Daniel Malczyk carried over, second day running"
+        },
+        {
+          "value": "9",
+          "unit": "of 10",
+          "label": "REDDIT THREADS REPEATED FROM AUG 9",
+          "note": "the single new arrival is a hiring ad, not a buyer"
+        },
+        {
+          "value": "15",
+          "unit": "mock",
+          "label": "X / TWITTER ACTOR",
+          "note": "fourth straight day, zero real posts returned"
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what the data says",
+      "tag": "THE EVIDENCE",
+      "rows": [
+        {
+          "claim": "The query \"AI consultant\" now returns people who do not sell AI consulting, in four different directions at once.",
+          "evidence": "Chizoba Uzuegbunam (UK) opens \"Who I hire – Sales, Agency Sales, Account Management, Leadership, Customer Success, VP / SVP\" and describes a marketing-recruitment firm. Fenia Tzina (Thessaloniki) writes about \"biomedical signal processing, machine learning, and wearable sensing… atrial fibrillation prediction, tumour characterisation from CT imaging.\" Mariana Gonçalves (Lisbon) is an SAP ABAP developer who says she has \"recently\" begun \"focusing on the world of Artificial Intelligence.\" Clement H. (Paris) opens \"Le recrutement Tech est cassé\" and sells developer recruitment.",
+          "source_url": "https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0",
+          "source_label": "linkedin · 4 of 10 profiles",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The supply side of this lane turns over almost completely every twenty-four hours.",
+          "evidence": "Nine of today's ten profiles are new against yesterday's pull for the identical query. Daniel Malczyk (Prague) is the only carryover, and he appeared yesterday too — the same enterprise-architect summary, \"B2B/Contract Enterprise Engineer & Architect with 20+ years of experience.\"",
+          "source_url": "https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY",
+          "source_label": "linkedin · 9 of 10 new vs aug 9",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Every profile in the pull that is genuinely selling AI work refuses to lead with the category noun.",
+          "evidence": "All three open on a mechanism or an outcome instead. Atiqul Islam (Dallas-Fort Worth): \"I design and ship production LLM systems — not slideware.\" Alim Ul Karim (Selangor): \"I started as an engineer who enjoyed solving hard problems, but over time I became the person companies call when systems are failing.\" Ray A. (Pittsburgh): \"PragmaticAI is for business and technical leaders who want clear, grounded, hype-free guidance.\"",
+          "source_url": "https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4",
+          "source_label": "linkedin · 3 of 3 AI-positioned profiles",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Two of those three position by negation — they name the fake version of the job and stand next to it.",
+          "evidence": "Islam's second clause is the whole differentiator: \"not slideware.\" Ray A. sells \"hype-free guidance\" and follows it with \"I write from experience.\" Neither claims to be better at AI. Both claim to be the one who isn't performing it.",
+          "source_url": "https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04",
+          "source_label": "linkedin · 2 of 3 profiles",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The strongest single opening in the pull sells a phone call rather than a skill, then backs it with time-and-money deltas.",
+          "evidence": "Alim Ul Karim: \"over time I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk. Over the past 15+ years, I have led and worked alongside teams of 10–15+ engineers… I have helped reduce debugging time from 8+ hours to under an hour, accelerated delivery cycles from weeks to hours, and consistently generated $150K…\" The construction is the finding; the figures are self-reported and unaudited.",
+          "source_url": "https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg",
+          "source_label": "linkedin · profile summary",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "The demand side did not move. Nine of ten Reddit threads are yesterday's threads.",
+          "evidence": "Nine URLs repeat exactly, including the three-day-running top item \"Do AI consultants actually know AI, or is half of it just confident bluffing?\" (r/ArtificialInteligence) and \"I've made 350k+ in AI Consulting and the money isn't in agents. It's largely in data plumbing.\" (r/AiAutomations). Both are already carded from the aug 8 brief.",
+          "source_url": "https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/",
+          "source_label": "reddit · 9 of 10 URLs repeated",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The one genuinely new Reddit item is an agency subcontracting the work out, and it screens on client-facing polish rather than technical depth.",
+          "evidence": "r/AiAutomations, \"Looking for Ai automation consultants [Paid work]\": \"I run a tech consulting company and we are looking to add 1 new member to our team… someone with exceptional command of Ai and English as you would be speaking with clients from the USA, Canada, Australia and UK. Do not dm me, instead drop your experience and USP telling me why I should hire you.\" The word USP is doing the filtering, not a stack list.",
+          "source_url": "https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/",
+          "source_label": "reddit · 1 of 10, new today",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Threads refreshed completely for the first time this week and carries no engagement data at all.",
+          "evidence": "Four of four items are new and all four are timestamped today, aug 10, between 11:32 and 13:00 UTC. The pack returns post text, author, URL and timestamp — no likes, replies, or reposts on any item. Nothing here says which of these landed.",
+          "source_url": "https://www.threads.com/@matt_dancho/post/Db26WsgFpqe",
+          "source_label": "threads · 4 of 4 new",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The most newsjackable item in the entire pack arrives with no source behind it.",
+          "evidence": "@iamviiko on Threads, posted today: \"Upwork has laid off 145 employees (approximately 24% of its workforce) as part of an AI-driven restructuring. The platform is realigning itself with a new reality where AI agents are replacing freelancers.\" No link, no filing cited, no outlet named. The figures sit inside one scraped post and are not corroborated anywhere in this pull.",
+          "source_url": "https://www.threads.com/@iamviiko/post/Db3Ej0skrO3",
+          "source_label": "threads · secondhand claim",
+          "confidence": "UNCONFIRMED"
+        },
+        {
+          "claim": "A quarter of this lane's stack has now returned nothing for four consecutive days.",
+          "evidence": "The X actor returned fifteen identical rows of type mock_tweet, each carrying the KaitoEasyAPI notice: \"we have a minimum charge of $X per API call, even if the response contains no results. Thus, we returned N pieces of mock data.\" Zero real posts on aug 7, 8, 9 and 10.",
+          "source_label": "twitter · 15 of 15 mock rows",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "where the lane actually *is*",
+      "kicker": "THE OPENING",
+      "dek": "Ranked by what today's data supports, not by what would be nice to post.",
+      "items": [
+        {
+          "action": "Ship the dead-label teardown as this week's LinkedIn post. The spine is the count: same query, three of ten.",
+          "why": "Searching \"AI consultant\" on LinkedIn today returns a sales recruiter, a biomedical researcher studying atrial fibrillation, an SAP developer who is \"excited to learn\" AI, and a French recruitment founder. Three of ten are selling AI work. That is a counted observation about a live market and it takes one screenshot to prove."
+        },
+        {
+          "action": "Cut the category noun out of his own profile opening. Give the open profile-copy mission this shape as its reference and close it.",
+          "why": "All three profiles in the pull that actually sell AI work refuse to open with the noun. They open with a mechanism (\"not slideware\") or a moment (\"the person companies call when systems are failing\"). That mission has been open eleven days; it needs a decision, not a twelfth variant."
+        },
+        {
+          "action": "Take the anti-bluffer position as the wedge for the lane and write to it directly.",
+          "why": "Two of the three real AI profiles define themselves against fakery, and the highest-ranking Reddit thread for three consecutive days asks whether half of AI consulting is \"just confident bluffing.\" Supply and demand are circling the same anxiety and nobody in this pull answers it with a demonstration."
+        },
+        {
+          "action": "Do not touch the Upwork layoff story until it is verified against a filing or a named outlet.",
+          "why": "145 employees and 24% is one Threads post with no link. Repeating a number on a stranger's authority in a lane where the buyer's stated fear is confident bluffing costs more than the post is worth."
+        },
+        {
+          "action": "Pull the X actor out of this lane's stack before tomorrow's run.",
+          "why": "Fifteen mock rows, four days straight, zero real posts. Yesterday's brief flagged it as a caveat; a second identical day makes it a wiring bug. It occupies one of four slots and returns nothing."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "hook draft — the dead label",
+          "text": "I searched \"AI consultant\" on LinkedIn this morning.\n\nThe first ten results included a sales recruiter, a researcher studying atrial fibrillation, an SAP developer who says she's \"excited to learn\" about AI, and a French guy whose profile is about hiring engineers.\n\nThree of the ten were selling AI work.\n\nI did the same search yesterday. Nine of those ten people are gone.\n\nThat's what a title looks like after everyone has picked it up. It doesn't sort anyone anymore. Which means if it's the first thing on your profile, you've spent your best line telling a buyer nothing."
+        },
+        {
+          "label": "hook draft — what the real ones do instead",
+          "text": "Three profiles in that search were actually selling AI work.\n\nNone of them opened with the words \"AI consultant.\"\n\nOne opened: \"I design and ship production LLM systems — not slideware.\"\n\nOne opened: \"I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk.\"\n\nNeither is claiming to be better at AI. One names the fake version of the job and stands next to it. The other names the phone call.\n\nBoth of them answered the question the buyer is actually asking: how do I tell you apart from the guy with the prompt pack."
+        },
+        {
+          "label": "angle sentence — the subcontract tell",
+          "text": "The only new demand signal in this morning's pull came from an agency that already has the clients, quietly hiring someone to do the work and screening on your USP and your English rather than your stack. Not one company in that pull was out looking for AI help. The bottleneck in this market has moved off the technology, and nobody's writing their profile like they know that yet."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "Ranked by how much they should discount what you just read.\n\nFirst: the central finding is about a search result, not a market. LinkedIn's ranking for \"AI consultant\" on one morning is an algorithm's answer, not a census. That nine of ten people changed overnight is itself evidence the ranking is volatile — and that cuts both ways. Take the pattern; do not take the proportion as a population statistic.\n\nSecond: profile summaries are self-written marketing copy. They tell you how these people want to be read. Nothing in this pull says whether any of them have clients, what they charge, or whether the delivery matches. Alim Ul Karim's numbers — debugging from 8+ hours to under an hour, $150K generated — are his own, unaudited, and truncated mid-sentence in the scrape.\n\nThird: there is no engagement data anywhere in this brief. LinkedIn returned profiles rather than posts, and Threads returned four posts with no counts attached. Every read here is about what is being said, never about what performed.\n\nFourth: the demand side is inherited. Nine of ten Reddit threads repeat from yesterday, and those were already largely repeats from aug 8. Any claim about what buyers want today is three days old.\n\nFifth: the Upwork layoff figures are one anonymous Threads post with no citation. Treated as UNCONFIRMED above and it should stay that way until someone checks.\n\nSixth: a quarter of the stack is dead. The X actor has returned nothing but placeholder rows for four days, so this lane is currently running on three sources, not four.",
+      "cta": {
+        "label": "OKAY, SO MAKE THE POST",
+        "href": "#deploy-blocks"
+      }
+    }
+  ],
+  "ledger": [
+    {
+      "source": "linkedin-search (Apify) · query \"AI consultant\" · 10 returned",
+      "retrieved": "2026-08-10",
+      "used_for": "10 profiles, 9 with summaries. The 3-of-10 count, the four off-category returns, the three mechanism-led openings, the 9-of-10 overnight turnover.",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "reddit (Apify) · query \"AI consulting\" · 10 returned",
+      "retrieved": "2026-08-10",
+      "used_for": "9 of 10 URLs repeat from aug 9. Only the r/AiAutomations hiring post is new; used for the subcontracting read. No new buyer-side claims drawn.",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "threads-search (Apify) · query \"ai agents\" · 4 returned",
+      "retrieved": "2026-08-10",
+      "used_for": "4 items, all new, all timestamped today. Used for the Upwork claim (flagged UNCONFIRMED) and to establish that no engagement data ships with this actor.",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": "twitter (Apify / KaitoEasyAPI) · query \"AI consulting\" · 15 returned",
+      "retrieved": "2026-08-10",
+      "used_for": "Nothing. 15 identical mock_tweet placeholder rows, zero real posts. Fourth consecutive day — escalated from caveat to stack decision.",
+      "confidence": "VERIFIED"
+    }
+  ]
+}

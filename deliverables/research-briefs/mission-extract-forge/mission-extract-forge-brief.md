@@ -1,19 +1,19 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
 
-Built, verified, shippable — the open item is a taste call you're allowed to decline.
+The forge works; the backlog isn't build debt, it's unused output.
 
 ## where this stands
 _CURRENT POSITION_
-The forge build is verified and usable as it stands; what remains is an optional recognition verdict, not construction work. Extractions have been landing steadily through it.
+The extraction pipeline is functionally finished — a run of forge-grade expert builds landed, some scored well enough to keep, and the handoff carries no build debt. What remains is a taste verdict, not engineering.
 
-Handoff status is ready. Last activity 3d ago.
+Handoff status is ready. Last activity 5d ago.
 
-Next: Use the verified skill on the next extraction and leave the blind pack alone unless the tier label matters.
+Next: Run the blind recognition pass only if promoting these extractions would change which ones you actually reach for.
 
 ## by the numbers
-- DELIVERABLES FINALIZED: **11**
+- DELIVERABLES FINALIZED: **10**
 - DAYS ACTIVE: **12 d**
 
 ## lifecycle
@@ -21,7 +21,7 @@ Next: Use the verified skill on the next extraction and leave the blind pack alo
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — This is a taste verdict, not build debt — it only matters if the promotion label is worth something to you right now.
+1. **Finish what's open** — The open line is a promotion decision rather than missing work — it costs nothing to leave open, but it also keeps the thread from closing.
 
 ## what this thread made
 - **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
@@ -50,7 +50,6 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 - 2026-08-01 · **Finalized · extract-forge** — Alex Cooper Static Ads — evidence, amplification, and skill-system checkpoint
 - 2026-07-30 · **Finalized · extract-forge** — Vision Checkpoint: Nathan Follen Agentic RevOps
 - 2026-07-30 · **Finalized · extract-forge** — Updated Rory Sutherland Universal Behavioral Alchemy expansion vision with a source-honest Kindle boundary and a non-blocking video-first forge path
-- 2026-07-28 · **Finalized · extract-forge** — Hilary Gridley — Judgment Encoding & Anti-Slop Management OS mastery extraction (forge): 13 workflows, 10 born-v2 prompts, Taste Profile spec + productized offer, slide capture via /watch, expert-name corrected via prima
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-04-extract-forge.md
@@ -58,7 +57,7 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-The remaining item needs Farrice's own judgment and cannot be closed by the system. Volume of extractions is not evidence any of them have been used in paid work.
+Most extractions here logged their outcome as usage-tracked rather than revenue-bearing, which means almost nothing in this thread has been tested against real work. Several builds landed under the keep line and were never revisited.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

@@ -115,6 +115,7 @@
 | `jonah-berger` | **jonah-berger** | barrier-based persuasion (reduce), behavioral change, change catalyst, cross-domain principle transfer, kernel-first story architecture, stepps virality engineering, virality engineering, word-of-mouth science, word-of-mouth scientist, word-of-mouth strategy over channel strategy |
 | `jonathan-courtney` | **Jonathan Courtney** | agent persona |
 | `jonathan-franzen` | **Jonathan Franzen** | agent profile, compression, literary fiction • character psychology • narrative compression • storytelling → marketing translation |
+| `jordan-crawford` | **jordan-crawford** | evidence-first gtm intelligence / customer dossiers / message-market fit / gtm engineering, evidence-first gtm intelligence agent |
 | `joscha-bach` | **Joscha Bach** | agent architecture theory, computational consciousness, existential design, identity engineering, philosophy of mind, system coherence |
 | `josh-kaufman` | **josh-kaufman** | business fundamentals, business fundamentals agent, buyer psychology mapping, five-parts decomposition, idea validation, money-signal validation, rapid skill acquisition, simple-arithmetic finance |
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |

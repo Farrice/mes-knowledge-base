@@ -17,3 +17,6 @@ command = "npx"
 
 [mcp_servers.recall]
 url = "https://backend.getrecall.ai/mcp/"
+
+[mcp_servers.monid]
+url = "https://mcp.monid.ai/v1"

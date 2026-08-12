@@ -1,83 +1,100 @@
 {
-  "01-listing-content": {
-    "lede": "The approved reel package is finished and sitting in the clean recording pack, so the work left is delivery, not production. Earlier hook drafts were rejected and rebuilt before this version survived.",
-    "next_move": "Send the approved recording pack to Jen so she can film it.",
-    "why": {
-      "0": "The Stories and b-roll order are the only pieces not aligned to the approved spine — worth tightening, but not worth holding the send for."
-    },
-    "caveats": "Nothing here records that the pack was actually sent or filmed, so \"ready\" means ready on disk, not delivered. The approved spine survived rejected earlier takes, which is a taste verdict, not evidence it performs.",
-    "operator_read": "Packaged and approved — the only thing between this and real footage is hitting send."
-  },
-  "angle-map-listening-engine-v4-1": {
-    "lede": "The listening engine is running on its cadence and producing briefs that each land an angle plus vault-filed content. Its output is going out steadily rather than sitting half-built.",
-    "next_move": "Run the next scheduled listening pass and file its brief.",
-    "caveats": "The records show briefs written and drafts filed, not posts published or replies received, so the engine's value still rests on whether the angles get used. Upstream source freshness is not independently confirmed on any given pass.",
-    "operator_read": "The one thread with a real rhythm — it ships on schedule; the open question is whether anyone acts on what it surfaces."
-  },
-  "extract-forge": {
-    "lede": "The forge build is verified and usable as it stands; what remains is an optional recognition verdict, not construction work. Extractions have been landing steadily through it.",
-    "next_move": "Use the verified skill on the next extraction and leave the blind pack alone unless the tier label matters.",
-    "why": {
-      "0": "This is a taste verdict, not build debt — it only matters if the promotion label is worth something to you right now."
-    },
-    "caveats": "The remaining item needs Farrice's own judgment and cannot be closed by the system. Volume of extractions is not evidence any of them have been used in paid work.",
-    "operator_read": "Built, verified, shippable — the open item is a taste call you're allowed to decline."
-  },
-  "farrice-brand": {
-    "lede": "This is generation-heavy work on the avatar and brand canon — a long run of image variants against a locked character direction. It is producing candidates, not a chosen final.",
-    "next_move": "Pick the winning avatar take and lock it so the variant runs stop.",
-    "caveats": "No selected final is recorded, and a long generation run with no marked winner is the shape of an undecided taste call rather than progress. No finalized deliverable is attached to this thread.",
-    "operator_read": "Plenty of avatar takes made, no verdict recorded — it needs a pick, not more renders."
-  },
-  "go": {
-    "lede": "This thread carried the cash-launch planning work — fresh research, an adversarial pass on the offer, and a launch plan — and then went quiet with its handoff still open. The thinking landed; the doing moved elsewhere.",
-    "next_move": "Close this handoff and let the live campaign thread own the launch.",
-    "why": {
-      "0": "The plan it produced appears to be executing under the campaign thread, so leaving this open keeps the same launch alive in two places."
-    },
-    "caveats": "That the campaign thread picked up this plan is an inference from what each thread contains, not a recorded handoff. No outcome from the plan is logged here.",
-    "operator_read": "A planning thread that finished planning and never got closed."
-  },
-  "linkedin": {
-    "lede": "This is the live campaign thread — the checklist, the launch-day execution plan, and the payment path are written, and it is the most recently touched work on the board. What is written is the motion, not the result.",
-    "next_move": "Log the outbound sends against the campaign so the launch has a real start line.",
-    "caveats": "Execution documents are not execution. No send, reply, or payment is recorded against this thread, so its honest state is staged rather than running.",
-    "operator_read": "The campaign is fully staged and nothing yet proves a message went out."
-  },
-  "system-audit": {
-    "lede": "The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.",
-    "next_move": "Confirm the disarmed gates have stayed disarmed, then close this thread.",
-    "caveats": "The resume line attached to this thread describes client listing work, not system work — its handoff and its deliverables disagree about what this thread even is, so read the header with suspicion. Its ledger also includes a regression-test row that was never real output, which inflates the tally.",
-    "operator_read": "Real system repair landed here, but the thread's own label points at somebody else's work."
-  },
-  "teardown-1-fresh": {
-    "lede": "Named-brand teardowns were produced at full standard — analysis, post, DM, and a verification pass each — and rendered into shareable briefs. The assets exist and are outward-ready.",
-    "next_move": "Send the teardowns to the named brands and log whatever comes back.",
-    "caveats": "No reply, meeting, or outcome is recorded against any of these, so this is proof of production and not proof of demand. The verification and adversarial passes were self-run.",
-    "operator_read": "The strongest outward-facing assets on the board, and none of them are recorded as sent."
-  },
-  "video-studio-edit-bay": {
-    "lede": "The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.",
-    "next_move": "Run a pilot end to end and record exactly what VO Farrice needs to speak.",
-    "why": {
-      "0": "Until a pilot runs end to end, the unwired and untested pieces are unknowns rather than known-good — the shakedown never exercised them."
-    },
-    "caveats": "Several integrations are cloned or keyed but untested, and the vertical reframe is acknowledged as naive. Nothing here has gone through a finished, delivered video.",
-    "operator_read": "The bay is built and clean; nobody has shot anything in it."
-  },
-  "writers-room": {
-    "lede": "The profile and About rewrites went through repeated rounds, produced distinct competing takes, and ratcheted the voice card — then the thread went quiet with its handoff still open. The craft landed; the choice never got recorded.",
-    "next_move": "Pick the About take that ships and close the thread.",
-    "why": {
-      "0": "The takes were already produced and ratcheted against felt verdicts, so what is missing is a decision, not more drafting."
-    },
-    "caveats": "Whether any produced take is actually live on the profile is not recorded here. Competing versions sit side by side with no marked winner.",
-    "operator_read": "Good takes, no verdict — this needs a pick, not another rewrite."
-  },
   "mission-board": {
-    "lede": "The board is heavy on production and thin on outcomes: most live threads hold finished work that is ready to go out, and almost none carry a recorded result from sending it. The real split across the board is between threads waiting on a decision and threads waiting on a send.",
-    "next_move": "Pick the single thread whose next step points outward and take that step.",
-    "caveats": "This board counts what was made, not what worked — a thread can look busy and still have nothing recorded on the far side of a send. Some threads clear the promotion bar on a stale handoff alone and carry no activity this window, and a thread's own header describes work from a different arena than its records.",
-    "operator_read": "Plenty made, almost nothing sent — the bottleneck on this board is outward motion, not production."
+    "lede": "Daily motion is concentrated in the launch thread. Everything else is either a finished system waiting to be used, or research that outran the decision it was built to inform.",
+    "next_move": "Pick the single thread that can produce a response from outside this system this week, and let the rest sit.",
+    "caveats": "This board counts production, not outcomes — every thread can look busy while nothing reaches a buyer. Stage is inferred from records, so work that happened offline, in conversation, or in another harness reads as idle here.",
+    "operator_read": "Plenty built, little sent — the bottleneck has moved from making to shipping."
+  },
+
+  "linkedin": {
+    "lede": "This is the only thread with live daily motion: campaign support documents, a content cadence, a follow-up plan and a delivery protocol, all written and committed. The offer and the machinery around it exist; nothing recorded here shows a send landing or money changing hands.",
+    "next_move": "Send the next batch of outreach and log what comes back before writing another support document.",
+    "caveats": "Everything captured is production, not response — no reply, call, or payment appears anywhere in this thread's records. The market briefs feeding it run on a schedule and their contribution is unmeasured.",
+    "operator_read": "Fully documented, not yet proven — it's all loading and no firing."
+  },
+
+  "health-performance-ip-library": {
+    "lede": "The daily listening brief is running on schedule and writing into the library, with the exec cut kept current. A gate failure report and an automation-status note also landed, so the loop has been failing visibly rather than silently.",
+    "next_move": "Read the gate failure and fix its cause before another day's brief inherits it.",
+    "caveats": "The automation runs unattended, so a completed run means it executed — not that the brief was any good. The failure is on record, but nothing shows it was answered.",
+    "operator_read": "The listening loop is alive and honest about breaking; someone still has to respond to it."
+  },
+
+  "angle-map-listening-engine-v4-1": {
+    "lede": "The listening engine runs end to end — briefs land with vaulted posts and finished carousels attached, living docs get fed, the mirror verifies. Every run scored under the keep line, so the output is usable but not good.",
+    "next_move": "Repair the weakest recurring section of the brief format instead of running another cycle on top of it.",
+    "caveats": "Scores cluster just below the bar across every run, which usually means a structural flaw in the format rather than a bad day. No downstream result from any vaulted post is recorded.",
+    "operator_read": "The engine is dependable; what it produces is consistently mediocre."
+  },
+
+  "01-listing-content": {
+    "lede": "The client listing package reached approval only after a rejected hook pass and a rejected warm-hook version — hooks were rebuilt on interrupt mechanics, then the bodies rewritten as lived scenes. The approved pack is ready to hand over.",
+    "next_move": "Send the approved package to the client and stop refining it.",
+    "why": {
+      "0": "What's left is polish on supporting formats; the approved spine already carries the delivery, so this is optional and shouldn't hold the send."
+    },
+    "caveats": "Approval is recorded on the content, not on results — nothing shows whether it was posted or how it performed. The rejection history points at hook register as the fragile part of this workflow.",
+    "operator_read": "Approved and sitting; the only remaining failure mode is not sending it."
+  },
+
+  "farrice-brand": {
+    "lede": "This thread has run as an asset factory — an avatar canon, a character dataset with turnarounds and expressions, acceptance tests, and a wardrobe lane. The identity assets exist; how they get used isn't captured here.",
+    "next_move": "Put the locked character assets into an actual published piece and see whether the canon survives contact.",
+    "caveats": "Nearly all recorded work is generation rather than deployment, and no record links these assets to a published piece. Acceptance testing was self-run, so 'consistent' means consistent to whoever built it.",
+    "operator_read": "The character is fully built and has never appeared in public."
+  },
+
+  "video-studio-edit-bay": {
+    "lede": "The studio was built and shaken down — footage moved through render, captioning and platform exports with no paid tooling in the path. None of the intended pilots have run, so the pipeline is proven on a test clip and nothing else.",
+    "next_move": "Run the first pilot end to end and record the voiceover it asks for.",
+    "why": {
+      "0": "The pipeline's real failure modes only surface on actual content — a test clip can't tell you whether the vertical reframe or the stock sourcing is good enough to ship."
+    },
+    "caveats": "Vertical reframing is naive, the stock integrations are untested pending keys, and one cloned component is unwired — all known at build time and none of it exercised since. Nothing produced here has been through a taste pass.",
+    "operator_read": "It renders. Whether it makes anything worth watching is still unknown."
+  },
+
+  "extract-forge": {
+    "lede": "The extraction pipeline is functionally finished — a run of forge-grade expert builds landed, some scored well enough to keep, and the handoff carries no build debt. What remains is a taste verdict, not engineering.",
+    "next_move": "Run the blind recognition pass only if promoting these extractions would change which ones you actually reach for.",
+    "why": {
+      "0": "The open line is a promotion decision rather than missing work — it costs nothing to leave open, but it also keeps the thread from closing."
+    },
+    "caveats": "Most extractions here logged their outcome as usage-tracked rather than revenue-bearing, which means almost nothing in this thread has been tested against real work. Several builds landed under the keep line and were never revisited.",
+    "operator_read": "The forge works; the backlog isn't build debt, it's unused output."
+  },
+
+  "04-briefs": {
+    "lede": "The research-brief system shipped and was then re-skinned into the brand's report dialect, with the index and board built around it — both passes scored well enough to keep. The handoff line stored against this thread describes older content-team work, not what actually shipped.",
+    "next_move": "Route the next reusable deliverable through the brief renderer instead of writing another wall of markdown.",
+    "caveats": "The stale resume line means anyone picking this thread up loads the wrong context first. Adoption is unmeasured — scoring well is not the same as becoming the default.",
+    "operator_read": "The brief system is real and good; the line pointing at it is wrong."
+  },
+
+  "system-audit": {
+    "lede": "The work here pushed evidence-backed judgment and pushback into the other harness so meaningful asks stop needing a manual preamble, alongside an after-action record and a verifier. Both passes scored under the keep line and the thread has gone quiet since.",
+    "next_move": "Check whether the judgment-floor change actually holds in live use, then close or park the thread.",
+    "why": {
+      "0": "It has been idle long enough that the change is either working silently or was never exercised, and nobody has established which."
+    },
+    "caveats": "One recorded outcome states an earlier audit was never read and a control it recommended was never applied anywhere. Audits produced but unabsorbed is the pattern to watch in this thread specifically.",
+    "operator_read": "Audits keep getting written; whether any of them changed behavior is the open question."
+  },
+
+  "go": {
+    "lede": "This thread holds the cash-launch groundwork — fresh deep research, an adversarial wargame that returned a conditional go, a launch plan and an ICP card — plus the root-cause diagnosis of a failed profile-copy round. It has been idle since the listening engine took over.",
+    "next_move": "Fold its outputs into the live campaign thread or park it, so the launch lives in one place.",
+    "why": {
+      "0": "Its outputs are being executed under a different thread while this one still reads as open, which makes the board show the same launch twice."
+    },
+    "caveats": "Nearly every outcome attached here is still pending tracking, so none of the strategy has been checked against a result. The wargame verdict was conditional and whether its fixes were applied is unverified.",
+    "operator_read": "The thinking behind the launch lives here; the launch moved on without closing it."
+  },
+
+  "proof-to-market": {
+    "lede": "The offer layer is written and marked ready — messaging-led, with the search-visibility angle demoted to a module inside it. Nothing moved on it in this window and every mission attached to it closed some time ago.",
+    "next_move": "Decide whether this is still the offer being sold, and either put it in front of someone or retire it.",
+    "caveats": "There is no recorded activity at all in this window, so the ready status reflects a past decision rather than a current one. Whether it matches what's actively being pitched is unverified.",
+    "operator_read": "Shelf-ready and untouched — treat its ready flag as history until someone pitches it."
   }
 }

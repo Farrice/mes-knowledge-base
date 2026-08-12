@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the word consultant stopped filtering · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-big-picture">the big picture</a><a href="#the-pull-honestly">the pull, honestly</a><a href="#what-the-data-says">what the data says</a><a href="#where-the-lane-actually-is">where the lane actually is</a><a href="#deploy-blocks">deploy blocks</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">ZEITGEIST · AI CONSULTING / LINKEDIN</span>
+    <h1 class="display">the word <em>consultant</em> stopped filtering</h1>
+    <p class="dek">Same query as yesterday, same platform, twenty-four hours later: LinkedIn returned a sales recruiter, a biomedical signal-processing researcher, an SAP ABAP developer, and a French recruitment founder writing in French. Three of ten are actually selling AI work. The category term has stopped sorting people, which tells you exactly how much weight it can carry on a profile.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">aug 10, 2026 · daily lane</span></div>
+      <div><span class="k">Lens</span><span class="v">what&#x27;s working in AI-consulting content · LinkedIn + X + Reddit</span></div>
+      <div><span class="k">Sources</span><span class="v">4 live pulls · 39 items returned · 24 usable · 14 genuinely new</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 10, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-big-picture"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the big picture</h2></div><span class="kicker" style="margin-bottom:8px">WHAT&#x27;S FORMING</span><div class="panel"><p>Yesterday the query &quot;AI consultant&quot; returned ten people who were, whatever else you think of their copy, all selling AI consulting. Today the same query returned ten people and three of them are.</p><p>The other seven: a sales and agency recruiter in the UK whose summary opens &quot;Who I hire – Sales, Agency Sales, Account Management, Leadership, Customer Success, VP / SVP.&quot; A biomedical researcher in Thessaloniki working on atrial-fibrillation prediction from ECG data. An SAP ABAP developer in Portugal who writes that she has &quot;recently&quot; been focusing on AI and is &quot;excited to learn.&quot; A French recruitment founder whose entire summary is in French and is about hiring developers. A Fortune-100 CDO. An enterprise cloud architect. A profile with no summary at all.</p><p>That is not a bad scrape. That is what a term looks like when everyone has attached themselves to it. The label has stopped doing the work of separating people, which is a fact with a direct consequence for anyone about to put it in their headline.</p><p>The three who are actually selling AI work all made the same structural move, and it is the opposite one. Atiqul Islam opens &quot;I design and ship production LLM systems — not slideware.&quot; Ray A. opens by promising &quot;clear, grounded, hype-free guidance.&quot; Alim Ul Karim skips the category entirely: &quot;I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk.&quot; None of them lead with the noun. Two of the three define themselves against the bluffer.</p><p>That is the same anxiety the demand side has been posting about all week. The top thread in the Reddit pull, unchanged for a third straight day, is titled &quot;Do AI consultants actually know AI, or is half of it just confident bluffing?&quot; Buyers are asking how to tell the real ones apart. Sellers are answering with negations. The gap between those two sentences is where a piece of content lives.</p><p>The demand side gave almost nothing new: nine of ten Reddit URLs repeated from yesterday. The one arrival is a hiring post, not a buyer post. Threads went fully fresh for the first time this week, four for four, all posted today. The X actor returned fifteen mock placeholder rows for the fourth consecutive day.</p></div></section><section class="blk" id="the-pull-honestly"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the pull, honestly</h2></div><div class="stats"><div class="stat"><div class="num">3<small> of 10</small></div><span class="lab">PROFILES ACTUALLY SELLING AI WORK</span><div class="note">the rest: recruiters, a researcher, an SAP dev, enterprise architects</div></div><div class="stat"><div class="num">9<small> of 10</small></div><span class="lab">LINKEDIN PROFILES NEW SINCE YESTERDAY</span><div class="note">only Daniel Malczyk carried over, second day running</div></div><div class="stat"><div class="num">9<small> of 10</small></div><span class="lab">REDDIT THREADS REPEATED FROM AUG 9</span><div class="note">the single new arrival is a hiring ad, not a buyer</div></div><div class="stat"><div class="num">15<small> mock</small></div><span class="lab">X / TWITTER ACTOR</span><div class="note">fourth straight day, zero real posts returned</div></div></div></section><section class="blk" id="what-the-data-says"><div class="sechead"><span class="secnum">03</span><h2 class="sec">what the data says</h2><span class="sectag">THE EVIDENCE</span></div><div class="ev"><span class="mark">✓</span><div><h3>The query &quot;AI consultant&quot; now returns people who do not sell AI consulting, in four different directions at once.</h3><p>Chizoba Uzuegbunam (UK) opens &quot;Who I hire – Sales, Agency Sales, Account Management, Leadership, Customer Success, VP / SVP&quot; and describes a marketing-recruitment firm. Fenia Tzina (Thessaloniki) writes about &quot;biomedical signal processing, machine learning, and wearable sensing… atrial fibrillation prediction, tumour characterisation from CT imaging.&quot; Mariana Gonçalves (Lisbon) is an SAP ABAP developer who says she has &quot;recently&quot; begun &quot;focusing on the world of Artificial Intelligence.&quot; Clement H. (Paris) opens &quot;Le recrutement Tech est cassé&quot; and sells developer recruitment.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0" target="_blank" rel="noopener">linkedin · 4 of 10 profiles ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The supply side of this lane turns over almost completely every twenty-four hours.</h3><p>Nine of today&#x27;s ten profiles are new against yesterday&#x27;s pull for the identical query. Daniel Malczyk (Prague) is the only carryover, and he appeared yesterday too — the same enterprise-architect summary, &quot;B2B/Contract Enterprise Engineer &amp; Architect with 20+ years of experience.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY" target="_blank" rel="noopener">linkedin · 9 of 10 new vs aug 9 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Every profile in the pull that is genuinely selling AI work refuses to lead with the category noun.</h3><p>All three open on a mechanism or an outcome instead. Atiqul Islam (Dallas-Fort Worth): &quot;I design and ship production LLM systems — not slideware.&quot; Alim Ul Karim (Selangor): &quot;I started as an engineer who enjoyed solving hard problems, but over time I became the person companies call when systems are failing.&quot; Ray A. (Pittsburgh): &quot;PragmaticAI is for business and technical leaders who want clear, grounded, hype-free guidance.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4" target="_blank" rel="noopener">linkedin · 3 of 3 AI-positioned profiles ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Two of those three position by negation — they name the fake version of the job and stand next to it.</h3><p>Islam&#x27;s second clause is the whole differentiator: &quot;not slideware.&quot; Ray A. sells &quot;hype-free guidance&quot; and follows it with &quot;I write from experience.&quot; Neither claims to be better at AI. Both claim to be the one who isn&#x27;t performing it.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04" target="_blank" rel="noopener">linkedin · 2 of 3 profiles ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The strongest single opening in the pull sells a phone call rather than a skill, then backs it with time-and-money deltas.</h3><p>Alim Ul Karim: &quot;over time I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk. Over the past 15+ years, I have led and worked alongside teams of 10–15+ engineers… I have helped reduce debugging time from 8+ hours to under an hour, accelerated delivery cycles from weeks to hours, and consistently generated $150K…&quot; The construction is the finding; the figures are self-reported and unaudited.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg" target="_blank" rel="noopener">linkedin · profile summary ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The demand side did not move. Nine of ten Reddit threads are yesterday&#x27;s threads.</h3><p>Nine URLs repeat exactly, including the three-day-running top item &quot;Do AI consultants actually know AI, or is half of it just confident bluffing?&quot; (r/ArtificialInteligence) and &quot;I&#x27;ve made 350k+ in AI Consulting and the money isn&#x27;t in agents. It&#x27;s largely in data plumbing.&quot; (r/AiAutomations). Both are already carded from the aug 8 brief.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/" target="_blank" rel="noopener">reddit · 9 of 10 URLs repeated ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The one genuinely new Reddit item is an agency subcontracting the work out, and it screens on client-facing polish rather than technical depth.</h3><p>r/AiAutomations, &quot;Looking for Ai automation consultants [Paid work]&quot;: &quot;I run a tech consulting company and we are looking to add 1 new member to our team… someone with exceptional command of Ai and English as you would be speaking with clients from the USA, Canada, Australia and UK. Do not dm me, instead drop your experience and USP telling me why I should hire you.&quot; The word USP is doing the filtering, not a stack list.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/" target="_blank" rel="noopener">reddit · 1 of 10, new today ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Threads refreshed completely for the first time this week and carries no engagement data at all.</h3><p>Four of four items are new and all four are timestamped today, aug 10, between 11:32 and 13:00 UTC. The pack returns post text, author, URL and timestamp — no likes, replies, or reposts on any item. Nothing here says which of these landed.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.threads.com/@matt_dancho/post/Db26WsgFpqe" target="_blank" rel="noopener">threads · 4 of 4 new ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The most newsjackable item in the entire pack arrives with no source behind it.</h3><p>@iamviiko on Threads, posted today: &quot;Upwork has laid off 145 employees (approximately 24% of its workforce) as part of an AI-driven restructuring. The platform is realigning itself with a new reality where AI agents are replacing freelancers.&quot; No link, no filing cited, no outlet named. The figures sit inside one scraped post and are not corroborated anywhere in this pull.</p><div class="meta"><span class="conf unconfirmed">UNCONFIRMED</span><a class="srcref" href="https://www.threads.com/@iamviiko/post/Db3Ej0skrO3" target="_blank" rel="noopener">threads · secondhand claim ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>A quarter of this lane&#x27;s stack has now returned nothing for four consecutive days.</h3><p>The X actor returned fifteen identical rows of type mock_tweet, each carrying the KaitoEasyAPI notice: &quot;we have a minimum charge of $X per API call, even if the response contains no results. Thus, we returned N pieces of mock data.&quot; Zero real posts on aug 7, 8, 9 and 10.</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">twitter · 15 of 15 mock rows</span></div></div></div></section><section class="decision" id="where-the-lane-actually-is"><span class="kicker">THE OPENING</span><h2>where the lane actually <em>is</em></h2><p class="dek">Ranked by what today&#x27;s data supports, not by what would be nice to post.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Ship the dead-label teardown as this week&#x27;s LinkedIn post. The spine is the count: same query, three of ten.</h3><p>Searching &quot;AI consultant&quot; on LinkedIn today returns a sales recruiter, a biomedical researcher studying atrial fibrillation, an SAP developer who is &quot;excited to learn&quot; AI, and a French recruitment founder. Three of ten are selling AI work. That is a counted observation about a live market and it takes one screenshot to prove.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Cut the category noun out of his own profile opening. Give the open profile-copy mission this shape as its reference and close it.</h3><p>All three profiles in the pull that actually sell AI work refuse to open with the noun. They open with a mechanism (&quot;not slideware&quot;) or a moment (&quot;the person companies call when systems are failing&quot;). That mission has been open eleven days; it needs a decision, not a twelfth variant.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Take the anti-bluffer position as the wedge for the lane and write to it directly.</h3><p>Two of the three real AI profiles define themselves against fakery, and the highest-ranking Reddit thread for three consecutive days asks whether half of AI consulting is &quot;just confident bluffing.&quot; Supply and demand are circling the same anxiety and nobody in this pull answers it with a demonstration.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Do not touch the Upwork layoff story until it is verified against a filing or a named outlet.</h3><p>145 employees and 24% is one Threads post with no link. Repeating a number on a stranger&#x27;s authority in a lane where the buyer&#x27;s stated fear is confident bluffing costs more than the post is worth.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>Pull the X actor out of this lane&#x27;s stack before tomorrow&#x27;s run.</h3><p>Fifteen mock rows, four days straight, zero real posts. Yesterday&#x27;s brief flagged it as a caveat; a second identical day makes it a wiring bug. It occupies one of four slots and returns nothing.</p></div></div></div></section><section class="blk" id="deploy-blocks"><div class="sechead"><span class="secnum">05</span><h2 class="sec">deploy blocks</h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">hook draft — the dead label</span><button class="copybtn" type="button">copy</button></div><pre>I searched &quot;AI consultant&quot; on LinkedIn this morning.
+
+The first ten results included a sales recruiter, a researcher studying atrial fibrillation, an SAP developer who says she&#x27;s &quot;excited to learn&quot; about AI, and a French guy whose profile is about hiring engineers.
+
+Three of the ten were selling AI work.
+
+I did the same search yesterday. Nine of those ten people are gone.
+
+That&#x27;s what a title looks like after everyone has picked it up. It doesn&#x27;t sort anyone anymore. Which means if it&#x27;s the first thing on your profile, you&#x27;ve spent your best line telling a buyer nothing.</pre></div><div class="deploy"><div class="bar"><span class="k">hook draft — what the real ones do instead</span><button class="copybtn" type="button">copy</button></div><pre>Three profiles in that search were actually selling AI work.
+
+None of them opened with the words &quot;AI consultant.&quot;
+
+One opened: &quot;I design and ship production LLM systems — not slideware.&quot;
+
+One opened: &quot;I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk.&quot;
+
+Neither is claiming to be better at AI. One names the fake version of the job and stands next to it. The other names the phone call.
+
+Both of them answered the question the buyer is actually asking: how do I tell you apart from the guy with the prompt pack.</pre></div><div class="deploy"><div class="bar"><span class="k">angle sentence — the subcontract tell</span><button class="copybtn" type="button">copy</button></div><pre>The only new demand signal in this morning&#x27;s pull came from an agency that already has the clients, quietly hiring someone to do the work and screening on your USP and your English rather than your stack. Not one company in that pull was out looking for AI help. The bottleneck in this market has moved off the technology, and nobody&#x27;s writing their profile like they know that yet.</pre></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">CAVEATS WORTH KEEPING</span><h2>what this <em>isn&#x27;t</em></h2><p>Ranked by how much they should discount what you just read.</p><p>First: the central finding is about a search result, not a market. LinkedIn&#x27;s ranking for &quot;AI consultant&quot; on one morning is an algorithm&#x27;s answer, not a census. That nine of ten people changed overnight is itself evidence the ranking is volatile — and that cuts both ways. Take the pattern; do not take the proportion as a population statistic.</p><p>Second: profile summaries are self-written marketing copy. They tell you how these people want to be read. Nothing in this pull says whether any of them have clients, what they charge, or whether the delivery matches. Alim Ul Karim&#x27;s numbers — debugging from 8+ hours to under an hour, $150K generated — are his own, unaudited, and truncated mid-sentence in the scrape.</p><p>Third: there is no engagement data anywhere in this brief. LinkedIn returned profiles rather than posts, and Threads returned four posts with no counts attached. Every read here is about what is being said, never about what performed.</p><p>Fourth: the demand side is inherited. Nine of ten Reddit threads repeat from yesterday, and those were already largely repeats from aug 8. Any claim about what buyers want today is three days old.</p><p>Fifth: the Upwork layoff figures are one anonymous Threads post with no citation. Treated as UNCONFIRMED above and it should stay that way until someone checks.</p><p>Sixth: a quarter of the stack is dead. The X actor has returned nothing but placeholder rows for four days, so this lane is currently running on three sources, not four.</p><a class="cta" href="#deploy-blocks">OKAY, SO MAKE THE POST</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.17 — stack: linkedin-search · reddit · threads-search · twitter</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>linkedin-search (Apify) · query &quot;AI consultant&quot; · 10 returned</td><td>—</td><td>2026-08-10</td><td>10 profiles, 9 with summaries. The 3-of-10 count, the four off-category returns, the three mechanism-led openings, the 9-of-10 overnight turnover.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>reddit (Apify) · query &quot;AI consulting&quot; · 10 returned</td><td>—</td><td>2026-08-10</td><td>9 of 10 URLs repeat from aug 9. Only the r/AiAutomations hiring post is new; used for the subcontracting read. No new buyer-side claims drawn.</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>threads-search (Apify) · query &quot;ai agents&quot; · 4 returned</td><td>—</td><td>2026-08-10</td><td>4 items, all new, all timestamped today. Used for the Upwork claim (flagged UNCONFIRMED) and to establish that no engagement data ships with this actor.</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>04</td><td>twitter (Apify / KaitoEasyAPI) · query &quot;AI consulting&quot; · 15 returned</td><td>—</td><td>2026-08-10</td><td>Nothing. 15 identical mock_tweet placeholder rows, zero real posts. Fourth consecutive day — escalated from caveat to stack decision.</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0</a></td><td>linkedin · 4 of 10 profiles</td></tr><tr><td>02</td><td><a href="https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY</a></td><td>linkedin · 9 of 10 new vs aug 9</td></tr><tr><td>03</td><td><a href="https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4</a></td><td>linkedin · 3 of 3 AI-positioned profiles</td></tr><tr><td>04</td><td><a href="https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04</a></td><td>linkedin · 2 of 3 profiles</td></tr><tr><td>05</td><td><a href="https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg" target="_blank" rel="noopener">https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg</a></td><td>linkedin · profile summary</td></tr><tr><td>06</td><td><a href="https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/" target="_blank" rel="noopener">https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/</a></td><td>reddit · 9 of 10 URLs repeated</td></tr><tr><td>07</td><td><a href="https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/" target="_blank" rel="noopener">https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/</a></td><td>reddit · 1 of 10, new today</td></tr><tr><td>08</td><td><a href="https://www.threads.com/@matt_dancho/post/Db26WsgFpqe" target="_blank" rel="noopener">https://www.threads.com/@matt_dancho/post/Db26WsgFpqe</a></td><td>threads · 4 of 4 new</td></tr><tr><td>09</td><td><a href="https://www.threads.com/@iamviiko/post/Db3Ej0skrO3" target="_blank" rel="noopener">https://www.threads.com/@iamviiko/post/Db3Ej0skrO3</a></td><td>threads · secondhand claim</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;zeitgeist-ai-consulting-linkedin-2026-08-10&quot;,
+  &quot;title&quot;: &quot;the word consultant stopped filtering&quot;,
+  &quot;compiled&quot;: &quot;aug 10, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.md&quot;,
+  &quot;paths&quot;: [],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0&quot;,
+      &quot;label&quot;: &quot;linkedin · 4 of 10 profiles&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY&quot;,
+      &quot;label&quot;: &quot;linkedin · 9 of 10 new vs aug 9&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4&quot;,
+      &quot;label&quot;: &quot;linkedin · 3 of 3 AI-positioned profiles&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04&quot;,
+      &quot;label&quot;: &quot;linkedin · 2 of 3 profiles&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg&quot;,
+      &quot;label&quot;: &quot;linkedin · profile summary&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/&quot;,
+      &quot;label&quot;: &quot;reddit · 9 of 10 URLs repeated&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/&quot;,
+      &quot;label&quot;: &quot;reddit · 1 of 10, new today&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@matt_dancho/post/Db26WsgFpqe&quot;,
+      &quot;label&quot;: &quot;threads · 4 of 4 new&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.threads.com/@iamviiko/post/Db3Ej0skrO3&quot;,
+      &quot;label&quot;: &quot;threads · secondhand claim&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY ZEITGEIST</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-context.json\nCOMPILED: aug 10, 2026\n\n# the word consultant stopped filtering\n\n> ZEITGEIST · AI CONSULTING / LINKEDIN · window: aug 10, 2026 · daily lane · lens: what's working in AI-consulting content · LinkedIn + X + Reddit · sources: 4 live pulls · 39 items returned · 24 usable · 14 genuinely new · compiled: aug 10, 2026\n\nSame query as yesterday, same platform, twenty-four hours later: LinkedIn returned a sales recruiter, a biomedical signal-processing researcher, an SAP ABAP developer, and a French recruitment founder writing in French. Three of ten are actually selling AI work. The category term has stopped sorting people, which tells you exactly how much weight it can carry on a profile.\n\n## the big picture\n_WHAT'S FORMING_\nYesterday the query \"AI consultant\" returned ten people who were, whatever else you think of their copy, all selling AI consulting. Today the same query returned ten people and three of them are.\n\nThe other seven: a sales and agency recruiter in the UK whose summary opens \"Who I hire – Sales, Agency Sales, Account Management, Leadership, Customer Success, VP / SVP.\" A biomedical researcher in Thessaloniki working on atrial-fibrillation prediction from ECG data. An SAP ABAP developer in Portugal who writes that she has \"recently\" been focusing on AI and is \"excited to learn.\" A French recruitment founder whose entire summary is in French and is about hiring developers. A Fortune-100 CDO. An enterprise cloud architect. A profile with no summary at all.\n\nThat is not a bad scrape. That is what a term looks like when everyone has attached themselves to it. The label has stopped doing the work of separating people, which is a fact with a direct consequence for anyone about to put it in their headline.\n\nThe three who are actually selling AI work all made the same structural move, and it is the opposite one. Atiqul Islam opens \"I design and ship production LLM systems — not slideware.\" Ray A. opens by promising \"clear, grounded, hype-free guidance.\" Alim Ul Karim skips the category entirely: \"I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk.\" None of them lead with the noun. Two of the three define themselves against the bluffer.\n\nThat is the same anxiety the demand side has been posting about all week. The top thread in the Reddit pull, unchanged for a third straight day, is titled \"Do AI consultants actually know AI, or is half of it just confident bluffing?\" Buyers are asking how to tell the real ones apart. Sellers are answering with negations. The gap between those two sentences is where a piece of content lives.\n\nThe demand side gave almost nothing new: nine of ten Reddit URLs repeated from yesterday. The one arrival is a hiring post, not a buyer post. Threads went fully fresh for the first time this week, four for four, all posted today. The X actor returned fifteen mock placeholder rows for the fourth consecutive day.\n\n## the pull, honestly\n- PROFILES ACTUALLY SELLING AI WORK: **3 of 10** (the rest: recruiters, a researcher, an SAP dev, enterprise architects)\n- LINKEDIN PROFILES NEW SINCE YESTERDAY: **9 of 10** (only Daniel Malczyk carried over, second day running)\n- REDDIT THREADS REPEATED FROM AUG 9: **9 of 10** (the single new arrival is a hiring ad, not a buyer)\n- X / TWITTER ACTOR: **15 mock** (fourth straight day, zero real posts returned)\n\n## what the data says\n- **The query \"AI consultant\" now returns people who do not sell AI consulting, in four different directions at once.** [VERIFIED] — Chizoba Uzuegbunam (UK) opens \"Who I hire – Sales, Agency Sales, Account Management, Leadership, Customer Success, VP / SVP\" and describes a marketing-recruitment firm. Fenia Tzina (Thessaloniki) writes about \"biomedical signal processing, machine learning, and wearable sensing… atrial fibrillation prediction, tumour characterisation from CT imaging.\" Mariana Gonçalves (Lisbon) is an SAP ABAP developer who says she has \"recently\" begun \"focusing on the world of Artificial Intelligence.\" Clement H. (Paris) opens \"Le recrutement Tech est cassé\" and sells developer recruitment. (https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0)\n- **The supply side of this lane turns over almost completely every twenty-four hours.** [VERIFIED] — Nine of today's ten profiles are new against yesterday's pull for the identical query. Daniel Malczyk (Prague) is the only carryover, and he appeared yesterday too — the same enterprise-architect summary, \"B2B/Contract Enterprise Engineer & Architect with 20+ years of experience.\" (https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY)\n- **Every profile in the pull that is genuinely selling AI work refuses to lead with the category noun.** [VERIFIED] — All three open on a mechanism or an outcome instead. Atiqul Islam (Dallas-Fort Worth): \"I design and ship production LLM systems — not slideware.\" Alim Ul Karim (Selangor): \"I started as an engineer who enjoyed solving hard problems, but over time I became the person companies call when systems are failing.\" Ray A. (Pittsburgh): \"PragmaticAI is for business and technical leaders who want clear, grounded, hype-free guidance.\" (https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4)\n- **Two of those three position by negation — they name the fake version of the job and stand next to it.** [VERIFIED] — Islam's second clause is the whole differentiator: \"not slideware.\" Ray A. sells \"hype-free guidance\" and follows it with \"I write from experience.\" Neither claims to be better at AI. Both claim to be the one who isn't performing it. (https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04)\n- **The strongest single opening in the pull sells a phone call rather than a skill, then backs it with time-and-money deltas.** [LIKELY] — Alim Ul Karim: \"over time I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk. Over the past 15+ years, I have led and worked alongside teams of 10–15+ engineers… I have helped reduce debugging time from 8+ hours to under an hour, accelerated delivery cycles from weeks to hours, and consistently generated $150K…\" The construction is the finding; the figures are self-reported and unaudited. (https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg)\n- **The demand side did not move. Nine of ten Reddit threads are yesterday's threads.** [VERIFIED] — Nine URLs repeat exactly, including the three-day-running top item \"Do AI consultants actually know AI, or is half of it just confident bluffing?\" (r/ArtificialInteligence) and \"I've made 350k+ in AI Consulting and the money isn't in agents. It's largely in data plumbing.\" (r/AiAutomations). Both are already carded from the aug 8 brief. (https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/)\n- **The one genuinely new Reddit item is an agency subcontracting the work out, and it screens on client-facing polish rather than technical depth.** [VERIFIED] — r/AiAutomations, \"Looking for Ai automation consultants [Paid work]\": \"I run a tech consulting company and we are looking to add 1 new member to our team… someone with exceptional command of Ai and English as you would be speaking with clients from the USA, Canada, Australia and UK. Do not dm me, instead drop your experience and USP telling me why I should hire you.\" The word USP is doing the filtering, not a stack list. (https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/)\n- **Threads refreshed completely for the first time this week and carries no engagement data at all.** [VERIFIED] — Four of four items are new and all four are timestamped today, aug 10, between 11:32 and 13:00 UTC. The pack returns post text, author, URL and timestamp — no likes, replies, or reposts on any item. Nothing here says which of these landed. (https://www.threads.com/@matt_dancho/post/Db26WsgFpqe)\n- **The most newsjackable item in the entire pack arrives with no source behind it.** [UNCONFIRMED] — @iamviiko on Threads, posted today: \"Upwork has laid off 145 employees (approximately 24% of its workforce) as part of an AI-driven restructuring. The platform is realigning itself with a new reality where AI agents are replacing freelancers.\" No link, no filing cited, no outlet named. The figures sit inside one scraped post and are not corroborated anywhere in this pull. (https://www.threads.com/@iamviiko/post/Db3Ej0skrO3)\n- **A quarter of this lane's stack has now returned nothing for four consecutive days.** [VERIFIED] — The X actor returned fifteen identical rows of type mock_tweet, each carrying the KaitoEasyAPI notice: \"we have a minimum charge of $X per API call, even if the response contains no results. Thus, we returned N pieces of mock data.\" Zero real posts on aug 7, 8, 9 and 10. (twitter · 15 of 15 mock rows)\n\n## where the lane actually is\nRanked by what today's data supports, not by what would be nice to post.\n1. **Ship the dead-label teardown as this week's LinkedIn post. The spine is the count: same query, three of ten.** — Searching \"AI consultant\" on LinkedIn today returns a sales recruiter, a biomedical researcher studying atrial fibrillation, an SAP developer who is \"excited to learn\" AI, and a French recruitment founder. Three of ten are selling AI work. That is a counted observation about a live market and it takes one screenshot to prove.\n2. **Cut the category noun out of his own profile opening. Give the open profile-copy mission this shape as its reference and close it.** — All three profiles in the pull that actually sell AI work refuse to open with the noun. They open with a mechanism (\"not slideware\") or a moment (\"the person companies call when systems are failing\"). That mission has been open eleven days; it needs a decision, not a twelfth variant.\n3. **Take the anti-bluffer position as the wedge for the lane and write to it directly.** — Two of the three real AI profiles define themselves against fakery, and the highest-ranking Reddit thread for three consecutive days asks whether half of AI consulting is \"just confident bluffing.\" Supply and demand are circling the same anxiety and nobody in this pull answers it with a demonstration.\n4. **Do not touch the Upwork layoff story until it is verified against a filing or a named outlet.** — 145 employees and 24% is one Threads post with no link. Repeating a number on a stranger's authority in a lane where the buyer's stated fear is confident bluffing costs more than the post is worth.\n5. **Pull the X actor out of this lane's stack before tomorrow's run.** — Fifteen mock rows, four days straight, zero real posts. Yesterday's brief flagged it as a caveat; a second identical day makes it a wiring bug. It occupies one of four slots and returns nothing.\n\n## deploy blocks\n**hook draft — the dead label**\n```\nI searched \"AI consultant\" on LinkedIn this morning.\n\nThe first ten results included a sales recruiter, a researcher studying atrial fibrillation, an SAP developer who says she's \"excited to learn\" about AI, and a French guy whose profile is about hiring engineers.\n\nThree of the ten were selling AI work.\n\nI did the same search yesterday. Nine of those ten people are gone.\n\nThat's what a title looks like after everyone has picked it up. It doesn't sort anyone anymore. Which means if it's the first thing on your profile, you've spent your best line telling a buyer nothing.\n```\n**hook draft — what the real ones do instead**\n```\nThree profiles in that search were actually selling AI work.\n\nNone of them opened with the words \"AI consultant.\"\n\nOne opened: \"I design and ship production LLM systems — not slideware.\"\n\nOne opened: \"I became the person companies call when systems are failing, timelines are impossible, or revenue is at risk.\"\n\nNeither is claiming to be better at AI. One names the fake version of the job and stands next to it. The other names the phone call.\n\nBoth of them answered the question the buyer is actually asking: how do I tell you apart from the guy with the prompt pack.\n```\n**angle sentence — the subcontract tell**\n```\nThe only new demand signal in this morning's pull came from an agency that already has the clients, quietly hiring someone to do the work and screening on your USP and your English rather than your stack. Not one company in that pull was out looking for AI help. The bottleneck in this market has moved off the technology, and nobody's writing their profile like they know that yet.\n```\n\n## what this isn't\n_CAVEATS WORTH KEEPING_\nRanked by how much they should discount what you just read.\n\nFirst: the central finding is about a search result, not a market. LinkedIn's ranking for \"AI consultant\" on one morning is an algorithm's answer, not a census. That nine of ten people changed overnight is itself evidence the ranking is volatile — and that cuts both ways. Take the pattern; do not take the proportion as a population statistic.\n\nSecond: profile summaries are self-written marketing copy. They tell you how these people want to be read. Nothing in this pull says whether any of them have clients, what they charge, or whether the delivery matches. Alim Ul Karim's numbers — debugging from 8+ hours to under an hour, $150K generated — are his own, unaudited, and truncated mid-sentence in the scrape.\n\nThird: there is no engagement data anywhere in this brief. LinkedIn returned profiles rather than posts, and Threads returned four posts with no counts attached. Every read here is about what is being said, never about what performed.\n\nFourth: the demand side is inherited. Nine of ten Reddit threads repeat from yesterday, and those were already largely repeats from aug 8. Any claim about what buyers want today is three days old.\n\nFifth: the Upwork layoff figures are one anonymous Threads post with no citation. Treated as UNCONFIRMED above and it should stay that way until someone checks.\n\nSixth: a quarter of the stack is dead. The X actor has returned nothing but placeholder rows for four days, so this lane is currently running on three sources, not four.\n\n## Source ledger\n1. linkedin-search (Apify) · query \"AI consultant\" · 10 returned (retrieved 2026-08-10, VERIFIED; used for: 10 profiles, 9 with summaries. The 3-of-10 count, the four off-category returns, the three mechanism-led openings, the 9-of-10 overnight turnover.)\n2. reddit (Apify) · query \"AI consulting\" · 10 returned (retrieved 2026-08-10, VERIFIED; used for: 9 of 10 URLs repeat from aug 9. Only the r/AiAutomations hiring post is new; used for the subcontracting read. No new buyer-side claims drawn.)\n3. threads-search (Apify) · query \"ai agents\" · 4 returned (retrieved 2026-08-10, LIKELY; used for: 4 items, all new, all timestamped today. Used for the Upwork claim (flagged UNCONFIRMED) and to establish that no engagement data ships with this actor.)\n4. twitter (Apify / KaitoEasyAPI) · query \"AI consulting\" · 15 returned (retrieved 2026-08-10, VERIFIED; used for: Nothing. 15 identical mock_tweet placeholder rows, zero real posts. Fourth consecutive day — escalated from caveat to stack decision.)\n\n## Context pack (agent feed)\n- https://www.linkedin.com/in/ACwAACZOnfABlbGJPsEyKOv4lbvyFQmF4NqVuU0 — linkedin · 4 of 10 profiles\n- https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY — linkedin · 9 of 10 new vs aug 9\n- https://www.linkedin.com/in/ACwAAANNDlUBDwdGxwFzK6kS_bM1xAM5yQQWGv4 — linkedin · 3 of 3 AI-positioned profiles\n- https://www.linkedin.com/in/ACwAAAHbhboBlfA0Ju1r_es0OuMKr2CPgBspg04 — linkedin · 2 of 3 profiles\n- https://www.linkedin.com/in/ACwAAAZVkHkBkV6rtNakgqj4vTeNDVlDAt8Byhg — linkedin · profile summary\n- https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/ — reddit · 9 of 10 URLs repeated\n- https://www.reddit.com/r/AiAutomations/comments/1v8tul5/looking_for_ai_automation_consultants_paid_work/ — reddit · 1 of 10, new today\n- https://www.threads.com/@matt_dancho/post/Db26WsgFpqe — threads · 4 of 4 new\n- https://www.threads.com/@iamviiko/post/Db3Ej0skrO3 — threads · secondhand claim\n\n_run cost $0.17 — stack: linkedin-search · reddit · threads-search · twitter_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

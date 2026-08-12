@@ -2,11 +2,11 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "Built, verified, shippable — the open item is a taste call you're allowed to decline.",
+  "dek": "The forge works; the backlog isn't build debt, it's unused output.",
   "window": "last 14 days",
-  "lens": "claude · codex",
+  "lens": "codex · claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 11, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The forge build is verified and usable as it stands; what remains is an optional recognition verdict, not construction work. Extractions have been landing steadily through it.\n\nHandoff status is ready. Last activity 3d ago.\n\nNext: Use the verified skill on the next extraction and leave the blind pack alone unless the tier label matters."
+      "body": "The extraction pipeline is functionally finished — a run of forge-grade expert builds landed, some scored well enough to keep, and the handoff carries no build debt. What remains is a taste verdict, not engineering.\n\nHandoff status is ready. Last activity 5d ago.\n\nNext: Run the blind recognition pass only if promoting these extractions would change which ones you actually reach for."
     },
     {
       "kind": "stats",
@@ -24,7 +24,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "11",
+          "value": "10",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "This is a taste verdict, not build debt — it only matters if the promotion label is worth something to you right now."
+          "why": "The open line is a promotion decision rather than missing work — it costs nothing to leave open, but it also keeps the thread from closing."
         }
       ]
     },
@@ -168,12 +168,6 @@
           "title": "Finalized · extract-forge",
           "body": "Updated Rory Sutherland Universal Behavioral Alchemy expansion vision with a source-honest Kindle boundary and a non-blocking video-first forge path",
           "done": true
-        },
-        {
-          "date": "2026-07-28",
-          "title": "Finalized · extract-forge",
-          "body": "Hilary Gridley — Judgment Encoding & Anti-Slop Management OS mastery extraction (forge): 13 workflows, 10 born-v2 prompts, Taste Profile spec + productized offer, slide capture via /watch, expert-name corrected via prima",
-          "done": true
         }
       ]
     },
@@ -198,7 +192,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The remaining item needs Farrice's own judgment and cannot be closed by the system. Volume of extractions is not evidence any of them have been used in paid work.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Most extractions here logged their outcome as usage-tracked rather than revenue-bearing, which means almost nothing in this thread has been tested against real work. Several builds landed under the keep line and were never revisited.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

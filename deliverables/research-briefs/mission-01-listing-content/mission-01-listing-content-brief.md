@@ -1,27 +1,27 @@
 # Willis Approved Three-Reel Closeout
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
 
-Packaged and approved — the only thing between this and real footage is hitting send.
+Approved and sitting; the only remaining failure mode is not sending it.
 
 ## where this stands
 _CURRENT POSITION_
-The approved reel package is finished and sitting in the clean recording pack, so the work left is delivery, not production. Earlier hook drafts were rejected and rebuilt before this version survived.
+The client listing package reached approval only after a rejected hook pass and a rejected warm-hook version — hooks were rebuilt on interrupt mechanics, then the bodies rewritten as lived scenes. The approved pack is ready to hand over.
 
-Handoff status is ready. Last activity 4d ago.
+Handoff status is ready. Last activity 6d ago.
 
-Next: Send the approved recording pack to Jen so she can film it.
+Next: Send the approved package to the client and stop refining it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **4 d**
+- DAYS ACTIVE: **6 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — The Stories and b-roll order are the only pieces not aligned to the approved spine — worth tightening, but not worth holding the send for.
+1. **Finish what's open** — What's left is polish on supporting formats; the approved spine already carries the delivery, so this is optional and shouldn't hold the send.
 
 ## pick it back up
 1. **Resume here** — Final approved three Reels are in the clean recording pack; send to Jen.
@@ -42,7 +42,7 @@ python3 execution/handoff_store.py resume 01-listing-content
 
 ## what this isn't
 _READ THE EDGES_
-Nothing here records that the pack was actually sent or filmed, so "ready" means ready on disk, not delivered. The approved spine survived rejected earlier takes, which is a taste verdict, not evidence it performs.
+Approval is recorded on the content, not on results — nothing shows whether it was posted or how it performed. The rejection history points at hook register as the fragile part of this workflow.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

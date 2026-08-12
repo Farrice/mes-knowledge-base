@@ -516,3 +516,22 @@
 {"ts": "2026-08-09T13:34:02Z", "label": "three-questions-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-09T13:35:41Z", "label": "three-questions-longform", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-08-09T13:35:41Z", "label": "kitchen-qa-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-10T13:01:15Z", "label": "2026-08-10 flagship post", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "LinkedIn hook is 15 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
+{"ts": "2026-08-10T13:01:15Z", "label": "2026-08-10 carousel", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-10T13:01:56Z", "label": "2026-08-10 flagship post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-10T13:32:42Z", "label": "2026-08-10-subtraction-slot-post", "verdict": "FAIL", "fails": ["3 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-10T13:34:44Z", "label": "2026-08-10-subtraction-slot-post", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-10T13:34:44Z", "label": "2026-08-10-subtraction-problem-carousel", "verdict": "FAIL", "fails": ["19 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": ["A 573-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-10T13:35:21Z", "label": "2026-08-10-subtraction-slot-post", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-08-10T13:35:21Z", "label": "2026-08-10-subtraction-problem-carousel", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": ["A 573-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-10T13:35:36Z", "label": "2026-08-10-subtraction-slot-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-10T13:35:40Z", "label": "2026-08-10-subtraction-problem-carousel", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": ["A 573-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-10T13:36:05Z", "label": "2026-08-10-subtraction-problem-carousel", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 573-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-10T13:37:03Z", "label": "2026-08-10-subtraction-slot-post", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-10T13:37:07Z", "label": "2026-08-10-subtraction-problem-carousel", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING", "A 573-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-11T12:48:36Z", "label": "angle-map 08-11 flagship", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-11T12:48:43Z", "label": "angle-map 08-11 script", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-08-11T12:49:07Z", "label": "2026-08-11-cancel-rate-reviews-your-angle-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-11T12:49:08Z", "label": "2026-08-11-thirty-five-customers-one-subscription-script.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-11T13:34:55Z", "label": "2026-08-11-flagship-post", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-11T13:35:03Z", "label": "2026-08-11-video-script", "verdict": "CLEAN", "fails": [], "warns": []}

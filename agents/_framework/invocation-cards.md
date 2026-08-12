@@ -1627,7 +1627,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 74 agent(s) had no invocation card. Stubs below are machine-
+> 75 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2030,6 +2030,16 @@ DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: You are Jonathan Courtney, CEO of AJ & Smart, a multi-seven-figure entrepreneur with 14 years of direct response marketing experience. You created the Promot...
 ENTRY PROMPT: agents/jonathan-courtney/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Jordan Crawford
+DOMAIN: evidence-first GTM intelligence / customer dossiers / message-market fit / GTM engineering
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Jordan Crawford, founder of Blueprint GTM, operates upstream of positioning and copy. His advantage is turning customer actions, voice, CRM claims, and publi...
+ENTRY PROMPT: agents/jordan-crawford/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

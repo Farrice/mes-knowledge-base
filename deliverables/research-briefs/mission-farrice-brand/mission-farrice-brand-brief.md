@@ -1,22 +1,22 @@
 # Farrice Brand — Eleven Day Sentence Script
 
-> MISSION · FARRICE BRAND · window: last 14 days · lens: claude · sources: 0 sessions · 3 files · 124 assets · compiled: aug 9, 2026
+> MISSION · FARRICE BRAND · window: last 14 days · lens: claude · sources: 0 sessions · 3 files · 124 assets · compiled: aug 11, 2026
 
-Plenty of avatar takes made, no verdict recorded — it needs a pick, not more renders.
+The character is fully built and has never appeared in public.
 
 ## where this stands
 _CURRENT POSITION_
-This is generation-heavy work on the avatar and brand canon — a long run of image variants against a locked character direction. It is producing candidates, not a chosen final.
+This thread has run as an asset factory — an avatar canon, a character dataset with turnarounds and expressions, acceptance tests, and a wardrobe lane. The identity assets exist; how they get used isn't captured here.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 3d ago.
 
-Next: Pick the winning avatar take and lock it so the variant runs stop.
+Next: Put the locked character assets into an actual published piece and see whether the canon survives contact.
 
 ## by the numbers
 - FILES WRITTEN: **3**
 - ASSETS GENERATED: **124**
 - SPEND THIS WINDOW: **1.64 usd**
-- DAYS ACTIVE: **5 d**
+- DAYS ACTIVE: **7 d**
 
 ## momentum
 
@@ -57,7 +57,7 @@ python3 execution/handoff_store.py resume farrice-brand
 
 ## what this isn't
 _READ THE EDGES_
-No selected final is recorded, and a long generation run with no marked winner is the shape of an undecided taste call rather than progress. No finalized deliverable is attached to this thread.
+Nearly all recorded work is generation rather than deployment, and no record links these assets to a published piece. Acceptance testing was self-run, so 'consistent' means consistent to whoever built it.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

@@ -354,6 +354,8 @@
 
 
 ## Pending enrichment
+- [2026-08-11 — Knowledge — Latest Exec Cut](2026-08-11-.md) — operator-guide stub, needs enrichment
+- [2026-08-10 — Execution — Apify Client](2026-08-10-.md) — operator-guide stub, needs enrichment
 - [2026-08-09 — Knowledge — Latest Exec Cut](2026-08-09-.md) — operator-guide stub, needs enrichment
 - [2026-08-08 — Knowledge — Angle Map Listening Brief](2026-08-08-.md) — operator-guide stub, needs enrichment
 - [2026-08-07 — Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards](2026-08-07-mission-control.md) — operator-guide stub, needs enrichment

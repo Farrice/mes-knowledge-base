@@ -1,0 +1,14 @@
+---
+name: "source-command-sv-subject-line-hero"
+description: "/sv-subject-line-hero — Write subject lines that make the subscriber the hero by name, plus edited preview text — the outcome-shaped, written-last method with the question-mark inflection variant"
+---
+
+# source-command-sv-subject-line-hero
+
+Use this skill when the user asks to run the migrated source command `sv-subject-line-hero`.
+
+## Command Template
+
+<!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
+
+Read and execute the workflow at `.agent/workflows/sv-subject-line-hero.md` - /sv-subject-line-hero — Write subject lines that make the subscriber the hero by name, plus edited preview text — the outcome-shaped, written-last method with the question-mark inflection variant

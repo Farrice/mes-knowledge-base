@@ -1,6 +1,6 @@
-# Execution — Lane Reconciler
+# Execution — Apify Client
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -10,17 +10,17 @@ Stage: research — reading and deciding — nothing built yet. In the last 14 d
 
 Handoff status is active.
 
-Next: Execution — Lane Reconciler
+Next: Execution — Apify Client
 
 ## lifecycle
 
 
 ## pick it back up
-1. **Resume here** — Execution — Lane Reconciler
+1. **Resume here** — Execution — Apify Client
 ```
 python3 execution/handoff_store.py resume execution
 ```
-   touches: .agent/handoffs/2026-08-08-execution.md
+   touches: .agent/handoffs/2026-08-10-execution.md
    receipt: The stored handoff prints with drift since it was written.
 2. **Close the mission** — Mark it done or park it with a reason.
 ```
@@ -29,7 +29,7 @@ python3 execution/pulse_actions.py done execution --outcome "<one line>"
    receipt: It leaves the open set on the next pulse regen.
 
 ## swings to
-- [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-08-execution.md
+- [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-10-execution.md
 - [BOARD] Mission board — every live thread — deliverables/research-briefs/mission-board/mission-board-brief.html
 
 ## what this isn't
@@ -39,5 +39,5 @@ No synthesis pass has run against this thread yet — everything above is mechan
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
 ## Context pack (agent feed)
-- `.agent/handoffs/2026-08-08-execution.md` — playbook · Resume here
+- `.agent/handoffs/2026-08-10-execution.md` — playbook · Resume here
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

@@ -1,0 +1,120 @@
+{
+  "slug": "mission-04-briefs",
+  "chip": "MISSION · THREAD",
+  "title": "Added complete production playbook and morning *content*…",
+  "dek": "The brief system is real and good; the line pointing at it is wrong.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 11, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "The research-brief system shipped and was then re-skinned into the brand's report dialect, with the index and board built around it — both passes scored well enough to keep. The handoff line stored against this thread describes older content-team work, not what actually shipped.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Route the next reusable deliverable through the brief renderer instead of writing another wall of markdown."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "6",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "current",
+          "note": "a deliverable was finalized"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Added complete production playbook and morning content brief layer to the content-team OS launch assets. Created 05-content-production-playbook.md with morning run-of-show, time-boxed production modes, format decision tree, asset SOPs, daily minimum, standard day, flagship day, and end-of-day closeout. Created 06-morning-content-brief-template.md with a 10-section daily production brief, paste-ready AI production prompt, and filled Thursday example. Updated 00-START-HERE.md to index the new files. Grounded in brand-operating-system skill and master creative brief inheritance, plus the existing content-team OS launch assets. Verification: file inventory pass, ASCII pass, unsafe-language scan pass, export_format_guard pass, prose warnings expected for checklist/template parallel structure.",
+          "command": "python3 execution/handoff_store.py resume 04-briefs",
+          "touches": [
+            ".agent/handoffs/2026-06-30-04-briefs.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-06",
+          "title": "Finalized · briefs",
+          "body": "Readout OS: research-brief system re-skinned to Farrice Cain Premium Minimal (Ink+Steel Blue report dialect), enriched with playbook/assets/timeline/flow/stats/matrix/related section kinds + auto agent context packs + Br",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "Finalized · briefs",
+          "body": "Research-brief system (template+renderer+board shelf+/briefs) + universal scraping expansion (5 Apify actors schema-verified live, $5/run cap) + Monid wired on Claude Code/Codex with cost-gate governance",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-06-30-04-briefs.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The stale resume line means anyone picking this thread up loads the wrong context first. Adoption is unmeasured — scoring well is not the same as becoming the default.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

@@ -2,11 +2,11 @@
   "slug": "mission-video-studio-edit-bay",
   "chip": "MISSION · SKILLS",
   "title": "Edit Bay Video *Studio*",
-  "dek": "The bay is built and clean; nobody has shot anything in it.",
+  "dek": "It renders. Whether it makes anything worth watching is still unknown.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 6 files · 46 assets",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 11, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The studio's structure is built — workflows, style rules, and a shakedown run that produced frames — but the pilots it was built for have not been run. It is a rig that has not had a real job yet.\n\nHandoff status is ready. Last activity today.\n\nNext: Run a pilot end to end and record exactly what VO Farrice needs to speak."
+      "body": "The studio was built and shaken down — footage moved through render, captioning and platform exports with no paid tooling in the path. None of the intended pilots have run, so the pipeline is proven on a test clip and nothing else.\n\nHandoff status is ready. Last activity 3d ago.\n\nNext: Run the first pilot end to end and record the voiceover it asks for."
     },
     {
       "kind": "stats",
@@ -37,7 +37,7 @@
           "note": "claude"
         },
         {
-          "value": "2",
+          "value": "4",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -60,9 +60,9 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
+            0,
+            0,
             0,
             0
           ],
@@ -82,9 +82,9 @@
             0,
             0,
             0,
-            0,
-            0,
             6,
+            0,
+            0,
             0,
             0
           ],
@@ -104,10 +104,10 @@
             0,
             0,
             0,
-            0,
-            0,
             6,
             40,
+            0,
+            0,
             0
           ],
           "value": "46",
@@ -148,7 +148,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "Until a pilot runs end to end, the unwired and untested pieces are unknowns rather than known-good — the shakedown never exercised them."
+          "why": "The pipeline's real failure modes only surface on actual content — a test clip can't tell you whether the vertical reframe or the stock sourcing is good enough to ship."
         }
       ]
     },
@@ -285,12 +285,6 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-08",
-          "title": "commit 321746e2a",
-          "body": "fix(fleet): honest budgets + retire dead tier artifacts + self-owned fixtures",
-          "done": true
-        },
-        {
           "date": "2026-08-06",
           "title": "claude session · 17 msgs",
           "body": "Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)",
@@ -319,7 +313,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several integrations are cloned or keyed but untested, and the vertical reframe is acknowledged as naive. Nothing here has gone through a finished, delivered video.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Vertical reframing is naive, the stock integrations are untested pending keys, and one cloned component is unwired — all known at build time and none of it exercised since. Nothing produced here has been through a taste pass.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

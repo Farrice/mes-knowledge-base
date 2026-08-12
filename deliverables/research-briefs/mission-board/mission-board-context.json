@@ -1,68 +1,86 @@
 {
   "slug": "mission-board",
   "title": "the board",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 11, 2026",
   "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
   "brief_html": "deliverables/research-briefs/mission-board/mission-board-brief.html",
   "brief_md": "deliverables/research-briefs/mission-board/mission-board-brief.md",
   "paths": [
     {
-      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
-      "role": "related · READY"
-    },
-    {
       "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
       "role": "related · ACTIVE"
     },
     {
-      "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html",
+      "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html",
       "role": "related · ACTIVE"
     },
     {
       "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html",
       "role": "related · ACTIVE"
     },
     {
+      "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html",
+      "role": "related · READY"
+    },
+    {
       "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
       "role": "related · READY"
     },
     {
+      "path": "deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html",
+      "role": "related · ACTIVE"
+    },
+    {
       "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html",
       "role": "related · ACTIVE"
     },
     {
       "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html",
       "role": "related · READY"
     },
     {
       "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html",
       "role": "related · ACTIVE"
     },
     {
       "path": "deliverables/research-briefs/mission-go/mission-go-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-go/mission-go-brief.html",
       "role": "related · ACTIVE"
     },
     {
-      "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",
-      "role": "related · ACTIVE"
-    },
-    {
       "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
       "role": "related · READY"
     },
     {
       "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.html",
       "role": "related · ACTIVE"
     }

@@ -205,3 +205,77 @@ released
 {"session_sweep": "2026-08-09T02:48:15.685886", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 131, "threads_seen": 432, "threads_promoted": 12, "deliverables": 58, "artifacts": 161, "assets": 248, "artifacts_vanished": 85, "overflow": 202}, "degraded": []}
 {"session_sweep": "2026-08-09T02:48:15.685886", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 131, "threads_seen": 432, "threads_promoted": 12, "deliverables": 58, "artifacts": 161, "assets": 248, "artifacts_vanished": 85, "overflow": 202}, "degraded": []}
 === 2026-08-09 02:48:15 mission sweep end rc=0 ===
+=== 2026-08-10 02:45:00 mission sweep start ===
+claimed: 67d758361c75  (heartbeat every wave: session_lock.py heartbeat 67d758361c75)
+[session_sweep] window 14d — 151 sessions, 12/435 threads promoted, 54 deliverables, 161 artifacts, 252 assets
+  · linkedin                               build    handoff status: active, artifact written, asset generated
+  · farrice-brand                          build    handoff status: active, artifact written, asset generated
+  · video-studio-edit-bay                  build    handoff status: ready, artifact written, asset generated
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · deep-research                          outcome  finalized deliverable, handoff status: active
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · system-audit                           outcome  finalized deliverable, handoff status: active
+  · go                                     outcome  finalized deliverable, handoff status: active
+  · writers-room                           outcome  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · execution                              research handoff status: active
+[session_sweep] over the 12-card ceiling (204), not carded: 04-briefs, health-performance-ip-library, linkedin-profile-content, teardown-1-fresh, create, kallaway-hook-mastery, benoit-vatere, oren-slop-era-creative-strategy, voice-identity-stack, mission
+[session_sweep] shipped without a live thread: 26 (surfaces on the mission board)
+[session_sweep] below the bar (219): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, alex-copper-static-acquisition, angle-brief-2026-08-06, assess-intelligence-layer-extraction
+[session_sweep] wrote .agent/sweep/sweep-2026-08-10.json
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-linkedin, mission-system-audit, mission-go, mission-proof-to-market, mission-angle-map-listening-engine-v4-1 …
+`.agent/sweep/synthesis.json` written — valid JSON, only the five contract keys, all thirteen slugs covered, zero digits/paths/filenames anywhere in the text.
+
+How the reads landed:
+
+- **Producing on cadence:** angle-map listening engine (ships briefs reliably, publishes nothing), extract-forge (only optional grade left open).
+- **Built but unproven:** video-studio-edit-bay (pilots unrun), farrice-brand (heaviest asset generation, nothing finalized).
+- **Written and waiting on a send:** linkedin, go, proof-to-market, 01-listing-content, writers-room — the whole money side is blocked on handoffs, not on more building. That's the board's lede.
+- **Flagged honestly rather than dressed up:** `system-audit` carries a headline record describing an unrelated client lane — I called the label drift out as the finding and made the next move "fix your own record," since a mislabeled thread is a retrieval hazard. `execution` and `proof-to-market` got short ledes saying the window holds a handoff pointer and nothing else; I kept them in rather than omitting, since an active handoff is a real record.
+- **`why` overrides** written only for the five threads that actually generate a decision item under `sec_decision` (extract-forge, 01-listing-content, video-studio-edit-bay, writers-room, go) — all at index `0`.
+
+One thing worth your attention: the sweep counts a substantial share of this window's recorded files as vanished from disk. I put that in the board caveats qualitatively, but it's a real signal about the ledger — files get recorded as written and then don't survive.
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-linkedin, mission-system-audit, mission-go, mission-proof-to-market, mission-angle-map-listening-engine-v4-1 …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (38 briefs · routes verified · 38 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-10T02:48:25.285100", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 151, "threads_seen": 435, "threads_promoted": 12, "deliverables": 54, "artifacts": 161, "assets": 252, "artifacts_vanished": 83, "overflow": 204}, "degraded": []}
+{"session_sweep": "2026-08-10T02:48:25.285100", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 151, "threads_seen": 435, "threads_promoted": 12, "deliverables": 54, "artifacts": 161, "assets": 252, "artifacts_vanished": 83, "overflow": 204}, "degraded": []}
+=== 2026-08-10 02:48:25 mission sweep end rc=0 ===
+=== 2026-08-11 02:45:04 mission sweep start ===
+claimed: f12800f790d7  (heartbeat every wave: session_lock.py heartbeat f12800f790d7)
+[session_sweep] window 14d — 145 sessions, 12/433 threads promoted, 45 deliverables, 168 artifacts, 257 assets
+  · linkedin                               build    handoff status: active, artifact written, asset generated
+  · health-performance-ip-library          build    handoff status: active, artifact written
+  · farrice-brand                          build    handoff status: active, artifact written, asset generated
+  · video-studio-edit-bay                  build    handoff status: ready, artifact written, asset generated
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · 04-briefs                              shipped  finalized deliverable, handoff status: active
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · system-audit                           outcome  finalized deliverable, handoff status: active
+  · go                                     outcome  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · execution                              research handoff status: active
+[session_sweep] over the 12-card ceiling (204), not carded: linkedin-profile-content, teardown-1-fresh, create, kallaway-hook-mastery, benoit-vatere, oren-slop-era-creative-strategy, voice-identity-stack, writers-room, mission, listing-content
+[session_sweep] shipped without a live thread: 23 (surfaces on the mission board)
+[session_sweep] below the bar (217): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, alex-copper-static-acquisition, angle-brief-2026-08-06, angle-brief-2026-08-10
+[session_sweep] wrote .agent/sweep/sweep-2026-08-11.json
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-linkedin, mission-proof-to-market, mission-angle-map-listening-engine-v4-1, mission-01-listing-content, mission-video-studio-edit-bay …
+Written: `.agent/sweep/synthesis.json` — 12 threads plus the board, schema-validated against the printed contract (only `lede`, `next_move`, `why`, `caveats`, `operator_read`; no digits anywhere in the prose).
+
+**Omitted: `execution`** — it has no deliverables, artifacts, assets, commits or sessions in the window, no first/last activity, and its missions are all closed or stopped. Its stored resume line is just the thread's own name. There was nothing to read honestly, so it gets no synthesis rather than an invented one.
+
+`why` blocks are keyed to index `"0"` only for the threads whose records actually generate a decision item — the ones with an unfinished line (`extract-forge`, `01-listing-content`, `video-studio-edit-bay`) or enough idle time to trigger the resume-or-park item (`system-audit`, `go`). The rest get no `why`.
+
+The read that came out of the bundle, since it's the same shape across almost every thread: **the system's build capacity isn't the constraint, deployment is.** The listening engine runs but scores under the bar every time. The video studio renders but has only ever seen a test clip. The character assets are fully built and have never appeared in public. The extraction forge is done and its output is logged as usage-tracked, not revenue-bearing. One thread — the LinkedIn campaign — has daily motion, and even there every record is production, none is response.
+
+Two things I flagged in the caveats that are worth your eye:
+- **`04-briefs` has a stale resume line.** The stored handoff describes older content-team playbook work; what the thread actually shipped is the brief/readout system. Anyone resuming from that line loads the wrong context.
+- **`go` and the live campaign are double-counting the same launch.** `go` holds the research, wargame and launch plan; execution moved to the campaign thread without closing it, so the board shows one launch as two live threads.
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-linkedin, mission-proof-to-market, mission-angle-map-listening-engine-v4-1, mission-01-listing-content, mission-video-studio-edit-bay …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (42 briefs · routes verified · 42 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-11T02:48:28.503240", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 145, "threads_seen": 433, "threads_promoted": 12, "deliverables": 45, "artifacts": 168, "assets": 257, "artifacts_vanished": 83, "overflow": 204}, "degraded": []}
+{"session_sweep": "2026-08-11T02:48:28.503240", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 145, "threads_seen": 433, "threads_promoted": 12, "deliverables": 45, "artifacts": 168, "assets": 257, "artifacts_vanished": 83, "overflow": 204}, "degraded": []}
+=== 2026-08-11 02:48:28 mission sweep end rc=0 ===

@@ -144,6 +144,30 @@
       "moved_at": "2026-07-29T04:11:47+00:00",
       "project": "alignment-architect-2026-07-07"
     },
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/ASSET_MANIFEST.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/06-system/ASSET_MANIFEST.md",
+      "lifecycle": "system",
+      "moved_at": "2026-08-11T23:58:35+00:00",
+      "project": "bowling-anime-trailer"
+    },
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/MIDNIGHT_OIL_CANON_LOCK.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/04-deliverables/MIDNIGHT_OIL_CANON_LOCK.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-11T23:58:35+00:00",
+      "project": "bowling-anime-trailer"
+    },
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/MIDNIGHT_OIL_OPENART_UPLOAD_PACK.zip": {
+      "current": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/01-source/MIDNIGHT_OIL_OPENART_UPLOAD_PACK.zip",
+      "lifecycle": "source",
+      "moved_at": "2026-08-11T23:58:35+00:00",
+      "project": "bowling-anime-trailer"
+    },
+    "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/OPENART_DIRECTOR_PROMPT.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/bowling-anime-trailer/04-deliverables/OPENART_DIRECTOR_PROMPT.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-08-11T23:58:35+00:00",
+      "project": "bowling-anime-trailer"
+    },
     "/Users/farricecain/Google Antigravity/_active/chris-restaurants/00-mission-brief.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/04-deliverables/00-mission-brief.md",
       "lifecycle": "deliverable",
@@ -2137,6 +2161,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-08-09T02:12:55+00:00",
+  "updated_at": "2026-08-11T23:58:35+00:00",
   "version": 1
 }

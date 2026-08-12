@@ -1,0 +1,186 @@
+{
+  "slug": "mission-health-performance-ip-library",
+  "chip": "MISSION · KNOWLEDGE",
+  "title": "Health Performance Ip *Library*",
+  "dek": "The listening loop is alive and honest about breaking; someone still has to respond to it.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 6 files · 0 assets",
+  "compiled": "aug 11, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "The daily listening brief is running on schedule and writing into the library, with the exec cut kept current. A gate failure report and an automation-status note also landed, so the loop has been failing visibly rather than silently.\n\nHandoff status is active. Last activity today.\n\nNext: Read the gate failure and fix its cause before another day's brief inherits it."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "6",
+          "label": "FILES WRITTEN"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1,
+            2
+          ],
+          "value": "6",
+          "unit": "files",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "current",
+          "note": "files are moving; nothing finalized"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "2026-08-10-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-10-angle-map-listening-brief.md",
+          "note": "aug 10, 2026"
+        },
+        {
+          "title": "LATEST-EXEC-CUT.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md",
+          "note": "aug 10, 2026"
+        },
+        {
+          "title": "2026-08-09-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-09-angle-map-listening-brief.md",
+          "note": "aug 9, 2026"
+        },
+        {
+          "title": "2026-08-08-GATE-FAILURE-REPORT.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-08-GATE-FAILURE-REPORT.md",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "2026-08-08-AUTOMATION-STATUS.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-08-AUTOMATION-STATUS.md",
+          "note": "aug 8, 2026"
+        },
+        {
+          "title": "2026-08-08-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md",
+          "note": "aug 8, 2026"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Health Performance Ip Library — W32 Health Performance Synthesis",
+          "command": "python3 execution/handoff_store.py resume health-performance-ip-library",
+          "touches": [
+            ".agent/handoffs/2026-08-07-health-performance-ip-library.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-10",
+          "title": "commit 786a7b55d",
+          "body": "Build: Campaign support documents (content cadence, day 3 follow-up, delivery protocol)",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-07-health-performance-ip-library.md"
+        },
+        {
+          "k": "FRONT DOOR",
+          "title": "START HERE · health performance ip library",
+          "path": "_active/knowledge/health-performance-ip-library/START-HERE.html"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The automation runs unattended, so a completed run means it executed — not that the brief was any good. The failure is on record, but nothing shows it was answered.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

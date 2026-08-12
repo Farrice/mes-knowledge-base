@@ -1,20 +1,20 @@
 # Josh Eightward Lindy Hop Brand Positioning Packet
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 8, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 10, 2026
 
-Research here comes back with a verdict rather than a summary — including 'build nothing'.
+Research keeps producing usable verdicts; the gap is whether anyone acts on them.
 
 ## where this stands
 _CURRENT POSITION_
-This is the research lane rather than a project of its own. Its recent work is a debunking verdict that saved a build from being started and a sourcing pass that handed another thread its methodology — both landed as decisions someone could act on.
+Research runs here keep landing, and their most valuable output has been telling other threads what not to build. It behaves as a service thread: it produces verdicts that only pay off when another lane adopts them.
 
-Handoff status is active. Last activity 2d ago.
+Handoff status is active. Last activity 4d ago.
 
-Next: Route the next research question through this lane instead of answering it from memory.
+Next: Route the outstanding findings into the threads that own them, then close the run.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **13 d**
 
 ## lifecycle
 
@@ -26,11 +26,6 @@ python3 execution/handoff_store.py resume deep-research
 ```
    touches: .agent/handoffs/2026-07-03-deep-research.md
    receipt: The stored handoff prints with drift since it was written.
-2. **Close the mission** — Mark it done or park it with a reason.
-```
-python3 execution/pulse_actions.py done deep-research --outcome "<one line>"
-```
-   receipt: It leaves the open set on the next pulse regen.
 
 ## how it got here
 - 2026-08-06 · **Finalized · deep-research** — Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vig CLV methodology, Platt-scaling calibration fix w/ Bath rec
@@ -42,7 +37,7 @@ python3 execution/pulse_actions.py done deep-research --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-The stored resume line points at a client positioning packet unrelated to the most recent runs, so this thread's saved state is stale against what it actually did.
+The records show research delivered but not adopted, so practical impact is unverified — a correct verdict nobody acts on looks identical to one nobody needed.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

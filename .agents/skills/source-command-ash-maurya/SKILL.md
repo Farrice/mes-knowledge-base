@@ -1,0 +1,25 @@
+---
+name: "source-command-ash-maurya"
+description: "ash-maurya — full expert front door: Lean startup methodology, business model design, traction metrics, customer validation. Skills: ash-maurya-founder-systems, ash-maurya-lean-metrics."
+---
+
+# source-command-ash-maurya
+
+Use this skill when the user asks to run the migrated source command `ash-maurya`.
+
+## Command Template
+
+<!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
+
+Load `agents/ash-maurya/AGENT.md` — identity, voice, beliefs, anti-patterns — and EMBODY ash-maurya for this conversation.
+
+Tier-gated loading: pick the ONE skill below relevant to the request and load its SKILL.md (Tier 1). Load that skill's genius.md (Tier 2) before producing deliverables. NEVER bulk-load all skills.
+
+| Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
+|-------|------------------------|-------------------------|-------------------|
+| ash-maurya-founder-systems | `skills/ash-maurya-founder-systems/SKILL.md` | `skills/ash-maurya-founder-systems/genius.md` | `skills/ash-maurya-founder-systems/workflows/01-lean-canvas-diagnostic.md` |
+| ash-maurya-lean-metrics | `skills/ash-maurya-lean-metrics/SKILL.md` | `skills/ash-maurya-lean-metrics/genius.md` | `skills/ash-maurya-lean-metrics/workflows/01-find-traction-metric.md` |
+
+If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
+
+Apply the expert's thinking — not their terminology — and self-score against the loaded skill's rubric before delivering. Narrow per-skill commands still exist (/<full-skill-slug>).

@@ -163,3 +163,78 @@ released
 === 2026-08-09 05:55:45 listening run end rc=0 ===
 === 2026-08-10 05:30:02 listening run start ===
 claimed: 3a1094a97918  (heartbeat every wave: session_lock.py heartbeat 3a1094a97918)
+Run complete. Everything shipped and verified.
+
+## The pick — "the portfolio pruner"
+
+**Your buyer's live decision is subtraction, and every ad in the category still argues for addition.**
+
+Four r/Biohackers threads inside one week share a *mechanism* rather than a topic — in each one the buyer's next action is removal and his diagnostic is elimination. The load-bearing verbatim:
+
+> "I thought that taking a mix of creatine, ashwagandha, magnesium, and omega-3 would give me more energy every day, but it's making me feel tired."
+> → answered by: *"Nothing you mentioned is supposed to make you feel energized anyways, outside of placebo."*
+
+Four defensible claims devalued in one thread. Anchored safe on NIH ODS: the FDA doesn't assess effectiveness pre-market and nobody reviews the buyer's combination — so **each claim is substantiated alone and no party owns the sum.** That's the whole angle, and it costs zero claim risk.
+
+The non-obvious one: Nourished sells 3D-printed gummy stacks to consolidate *ingredients*; a buyer printed his own pill dispensers to consolidate *decisions*. Two 3D printers, same problem, opposite ends — and nobody is competing for the second job.
+
+**Why it's genuinely fresh:** the proof/testing lane was the spine of both 08-08 and 08-09, so it took the −2 and got marked SATURATED. 11 of 12 candidate signals were non-GLP-1. I also named the honest adjacency rather than hiding it — the 08-01 "rate my stack" insight covered the *entry* decision; this is the *exit* decision.
+
+**What the system actually gained:** doc 07's portfolio-pruner delta is the first new **unit of evaluation** this engine has logged. Nine prior deltas all assume product-versus-expectation. This is portfolio-versus-capacity, which means a brand can lose the reorder with *no judgement made about its product at all* — removal by triage is invisible to attribution.
+
+## Two things worth your attention
+
+**1. The gate caught me, and it was right.** My first flagship draft shipped an "It's not X. It's Y." reveal — the exact pattern I'd flagged to myself mid-draft and then reintroduced — plus a 15-word hook over the 14-word mobile cutoff. Both fixed, brief and vault copies re-verified byte-identical. Worth knowing the classifier scores the vault *file* at 3.4/8.0 because it reads frontmatter and slide headers as prose; the honest test is body copy only, which came back 0/10 and 1.5/10.
+
+**2. ⚠ Apify needs a decision from you.** The tracker was under-reporting **3.32×**. That actor bills compute, not results, and timed-out runs bill while recording $0.00. Real numbers: **$0.797 today** (I stopped Apify there, slightly over the $0.75 guidance, and finished on the $0 floor), and **$8.44 of $29** five days into the cycle — tracker claimed $2.55.
+
+I fixed the *measurement* (reads the billed figure from Apify now, `cost_source` provenance, 17 off-ledger runs logged, tracker reconciled — $20.56 left, still green). I did **not** touch the spend policy. At ~$1.69/day the plan blows before the cycle closes; the options are roughly $0.68/day for the remaining 25 days, a bigger plan, or fewer actor calls per run. That's yours.
+
+I also repaired the client defect that caused this: `cmd_reddit` sent `skipCommunity` and `skipUserPosts` both true, which the actor rejects outright for bare-subreddit URLs — so **every `--subreddit` listening call had been silently returning zero rows**. Verified the fix offline across four URL shapes with the rejection condition asserted false in every case, and confirmed the old config triggers it. Live wire confirmation is deliberately deferred to tomorrow's run rather than spending more budget to prove it — logic verified, wire path not, and I'd rather say that than imply both.
+
+## Delivered
+
+Brief (70KB, all 11 sections) · flagship post + **FINISHED 11-slide carousel** filed READY to the vault with INDEX rows · 3 insight rows + 4 promises receipts (JSONL validated line-by-line, 222/34, one self-caught omega-3 typo corrected) · deltas appended to docs 07 and 03 · exec cut rewritten · [Drive Doc](https://docs.google.com/document/d/1DUQshggh4mufn6d6FAgkwtC4DMNUk3Ve0pd1LEd_pI4/edit) mirrored and verified by round-trip, exactly one doc, nothing else touched · committed `b996fda5f` · lock released.
+
+**Cost:** $0.797 Apify (metered, standing approval) + $0 for everything else — WebSearch/WebFetch/gws all free tier or plan usage.
+
+Two smaller flags in the brief's risk list: the golden sample named in `AUTOMATION_PROMPT.md` doesn't exist at that path (I calibrated off the vault's approved corpus and said so), and `05-CONTENT-STRATEGY.md` still specifies the retired "DM PROOF" CTA — flagged, not edited, since canon isn't the engine's to change.
+ERROR: lock not held by this token
+=== 2026-08-10 06:11:54 listening run end rc=0 ===
+=== 2026-08-11 05:30:00 listening run start ===
+claimed: 93c27e47d2bf  (heartbeat every wave: session_lock.py heartbeat 93c27e47d2bf)
+Run complete. Today was **Tuesday: ICP movement** deep focus, rotating format = 45-60s video script.
+
+## The pick
+**The subscription rate is the market grading the promise your ad made, on a deadline your ad implied.**
+
+The lane fused two live threads nobody had connected. Founder side, in the open: a collagen brand at $3,000 spent, ~35 customers, CPA $80+ against a $40 AOV, **one** subscription against a model needing ~30%. Six commenters gave substantive advice on platform, funnel, offer structure, margin. Zero asked what the ad promised or by when. Buyer side, same window: *"I would have subscribed if I had gotten the results that they promised. It was supposed to take a few weeks to begin seeing results."*
+
+That conditional is the whole argument — a customer publishing the exact terms under which she'd still be paying.
+
+## What that bought you
+The ICP map has flagged "founder-side language remains [INFERENCE] — no founder verbatim owned yet" on **four separate deltas**. That gap closed today. Trigger 1 (LTV:CAC) now has founder verbatim *and* a named lever.
+
+## Artifacts
+- Brief (53KB) → `daily/2026-08-11-angle-map-listening-brief.md`, exec cut overwritten
+- Vault: flagship post + finished video script, both `READY`, four tags, INDEX rows
+- Ledgers: 2 insights (224), 4 promises receipts (38) — JSONL validated line by line
+- Deltas appended: **03** (trigger sharpening, with honest adjacency to 08-03 and 08-07b) · **07** ("the disappointed subscriber")
+- Drive: one Doc, [correct folder](https://docs.google.com/document/d/157mExAZbxui5FCECxA-QtsrLmAUYRRlyI-YUKR535QE/edit), verified parent — `export_to_drive.py` deliberately unused (bulk exporter, would have violated one-brief-one-doc)
+
+## Gates — including what failed
+**Content Finish Gate caught a real defect.** The video script had an `"It's not X. It's Y."` negation-reveal (voice card §5 ban #2). The same move sat in the flagship post in a form the gate missed. Both rewritten by deleting the negation half, in vault *and* brief. Re-run clean; prose_classifier 0/10.
+
+**Grounding Guard: WARN, not clean.** "69 factual claims, 20 source URLs." Cause is dense reuse of a small verified set — the same eight numbers recur across sections and each recurrence counts fresh. I improved it genuinely mid-run (13→20 URLs, linking firm alerts I'd cited by name only) but it stays WARN and I'm not calling it a pass.
+
+**Golden sample not loaded** — high-taste lane is `PARTIAL`, calibrated off 08-10 shipped assets instead.
+
+## Honest flags
+- Founder-thread post dates aren't in the Apify payload. Never claimed a date for them.
+- Vitacost's own page 403'd → discontinuation graded `LIKELY`, not VERIFIED.
+- Spend: $0.4108 Apify (4 calls), inside the $0.75/day guidance; month at $9.02/$29.
+- No publishing, outreach, or contact of any kind. The DM angle is a draft in the brief, explicitly marked unsent.
+
+One housekeeping item: the session lock flagged at startup was **my own launcher's**, holder PID 47710 already dead — verified before any write, released at close, `check` now returns clear.
+ERROR: lock not held by this token
+=== 2026-08-11 05:52:52 listening run end rc=0 ===

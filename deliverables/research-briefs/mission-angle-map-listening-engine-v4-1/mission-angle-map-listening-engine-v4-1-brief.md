@@ -1,20 +1,20 @@
 # 2026-08-03 Angle Map Listening Brief
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
 
-The one thread with a real rhythm — it ships on schedule; the open question is whether anyone acts on what it surfaces.
+The engine is dependable; what it produces is consistently mediocre.
 
 ## where this stands
 _CURRENT POSITION_
-The listening engine is running on its cadence and producing briefs that each land an angle plus vault-filed content. Its output is going out steadily rather than sitting half-built.
+The listening engine runs end to end — briefs land with vaulted posts and finished carousels attached, living docs get fed, the mirror verifies. Every run scored under the keep line, so the output is usable but not good.
 
-Handoff status is active. Last activity 4d ago.
+Handoff status is active. Last activity 6d ago.
 
-Next: Run the next scheduled listening pass and file its brief.
+Next: Repair the weakest recurring section of the brief format instead of running another cycle on top of it.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **10 d**
 
 ## lifecycle
 
@@ -43,7 +43,7 @@ python3 execution/pulse_actions.py done angle-map-listening-engine-v4-1 --outcom
 
 ## what this isn't
 _READ THE EDGES_
-The records show briefs written and drafts filed, not posts published or replies received, so the engine's value still rests on whether the angles get used. Upstream source freshness is not independently confirmed on any given pass.
+Scores cluster just below the bar across every run, which usually means a structural flaw in the format rather than a bad day. No downstream result from any vaulted post is recorded.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

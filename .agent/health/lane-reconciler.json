@@ -1,28 +1,50 @@
 {
-  "ts": "2026-08-09T18:01:03.556223+00:00",
+  "ts": "2026-08-12T08:51:15.154984+00:00",
   "dry_run": false,
-  "lanes": 6,
+  "lanes": 20,
   "merged": 0,
   "torn_down": 0,
-  "parked": 5,
-  "live": 1,
-  "stranded_commits": 16,
+  "parked": 11,
+  "live": 9,
+  "stranded_commits": 63,
   "results": [
     {
-      "branch": "worktree-farrice-character-sheets",
-      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/farrice-character-sheets",
-      "commits_ahead": 4,
+      "branch": "claude/nostalgic-lalande-e1ce93",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/nostalgic-lalande-e1ce93",
+      "commits_ahead": 8,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: claude/nostalgic-lalande-e1ce93 \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane claude/nostalgic-lalande-e1ce93"
+    },
+    {
+      "branch": "worktree-style-vault",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/style-vault",
+      "commits_ahead": 16,
       "dirty_files": 0,
       "conflicts": [
-        ".agent/handoffs/2026-07-02-claude-export-harvest.md",
-        "PROJECTS.md",
-        "skills/david-bayer-elite-communication/references/source-ledger.md",
-        "skills/gary-vaynerchuk-attention/source-ledger.md",
-        "skills/jay-hiette-coaching-positioning/references/source-ledger.md",
-        "skills/nick-saraev-agentic-workflows/references/source-ledger.md"
+        "_active/linkedin/CAMPAIGN.md"
       ],
       "action": "parked-conflict",
-      "detail": "6 file(s) collide \u2014 needs resolution"
+      "detail": "1 file(s) collide \u2014 needs resolution"
+    },
+    {
+      "branch": "claude/vigilant-leakey-5f6293",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293",
+      "commits_ahead": 7,
+      "dirty_files": 2,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "2 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "claude/zen-curran-72d8e2",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/zen-curran-72d8e2",
+      "commits_ahead": 0,
+      "dirty_files": 9,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "9 uncommitted file(s) \u2014 a session is still working here"
     },
     {
       "branch": "codex/briefing-room-card-integrity",
@@ -30,10 +52,11 @@
       "commits_ahead": 2,
       "dirty_files": 0,
       "conflicts": [
-        "deliverables/research-briefs/index.html"
+        "deliverables/research-briefs/index.html",
+        "execution/brief_library.py"
       ],
       "action": "parked-conflict",
-      "detail": "1 file(s) collide \u2014 needs resolution"
+      "detail": "2 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/briefing-room-gtm-preview",
@@ -49,6 +72,24 @@
       ],
       "action": "parked-conflict",
       "detail": "5 file(s) collide \u2014 needs resolution"
+    },
+    {
+      "branch": "codex/creative-strategy-demand-20260811",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811",
+      "commits_ahead": 1,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/creative-strategy-demand-20260811 \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/creative-strategy-demand-20260811"
+    },
+    {
+      "branch": "codex/daniel-priestley-experience-revenue",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/daniel-priestley-experience-revenue",
+      "commits_ahead": 0,
+      "dirty_files": 291,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "291 uncommitted file(s) \u2014 a session is still working here"
     },
     {
       "branch": "codex/expert-practice-os-closeout",
@@ -74,15 +115,91 @@
       "branch": "codex/gtm-ezpoq8",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/gtm-ezpoq8",
       "commits_ahead": 3,
+      "dirty_files": 60,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "60 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/jason-buyer-psychology-canonical",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jason-buyer-psychology-canonical",
+      "commits_ahead": 5,
       "dirty_files": 0,
-      "conflicts": [
-        "deliverables/research-briefs/index.html",
-        "directives/feedback-ratchet.md",
-        "directives/quality_gate.md",
-        "directives/session-state-protocol.md"
-      ],
-      "action": "parked-conflict",
-      "detail": "4 file(s) collide \u2014 needs resolution"
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/jason-buyer-psychology-canonical \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/jason-buyer-psychology-canonical"
+    },
+    {
+      "branch": "codex/linkedin-ai-consultant-bluff",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-ai-consultant-bluff",
+      "commits_ahead": 0,
+      "dirty_files": 1,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "1 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/mert-consultancy-spine",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mert-consultancy-spine",
+      "commits_ahead": 0,
+      "dirty_files": 16,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "16 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/notion-second-brain-reliability",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/notion-second-brain-reliability",
+      "commits_ahead": 2,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/notion-second-brain-reliability \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/notion-second-brain-reliability"
+    },
+    {
+      "branch": "codex/portable-brief-export",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/portable-brief-export",
+      "commits_ahead": 5,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/portable-brief-export \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/portable-brief-export"
+    },
+    {
+      "branch": "codex/solo-performance-creative-offer",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/solo-performance-creative-offer",
+      "commits_ahead": 1,
+      "dirty_files": 7,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "7 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/systems-thinking-global-shadow",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/systems-thinking-global-shadow",
+      "commits_ahead": 2,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/systems-thinking-global-shadow \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/systems-thinking-global-shadow"
+    },
+    {
+      "branch": "codex/weekly-revenue-closeout",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/weekly-revenue-closeout",
+      "commits_ahead": 0,
+      "dirty_files": 10,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "10 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/antigravity-operator-core",
+      "path": "/Users/farricecain/Google-Antigravity-Codex-Operator-Core",
+      "commits_ahead": 4,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/antigravity-operator-core \u2014 main tree dirty (132 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/antigravity-operator-core"
     }
   ]
 }

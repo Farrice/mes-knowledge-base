@@ -72,3 +72,37 @@ The strongest content signal of the four is in supplements: five of ten ads are 
 On slop: `prose_classifier` flags all four, but with the same signature as yesterday's shipped brief — most of it is format artifact (ALL-CAPS stat labels reading as "town crier," emoji inside quoted posts, and em-dashes the markdown mirror itself inserts as `**claim** [VERIFIED] — evidence`). I did tighten my own authored em-dashes, roughly halving them (18→13, 22→11, 22→15, 19→13) before the final render.
 released
 === 2026-08-09 06:41:41 zeitgeist run end rc=0 ===
+=== 2026-08-10 06:20:00 zeitgeist run start ===
+claimed: a544887d1795  (heartbeat every wave: session_lock.py heartbeat a544887d1795)
+[zeitgeist] ai-consulting-linkedin: 4/4 pulls live, $0.1660 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-10-ai-consulting-linkedin-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-10-ai-consulting-linkedin-signals.json"]}
+Zeitgeist run complete — one lane, one brief.
+
+**`ai-consulting-linkedin`** → `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html` · gdoc **skipped** (`gws` binary not on PATH in this headless run) · **$0.166**
+
+**The find:** the query "AI consultant" stopped sorting people. Same query as yesterday, 24 hours later — LinkedIn returned a UK sales recruiter, a Thessaloniki biomedical researcher working on atrial-fibrillation prediction, a Lisbon SAP ABAP developer "excited to learn" AI, and a Paris recruitment founder writing in French. Three of ten are actually selling AI work, and all three refuse to open with the category noun ("not slideware" / "the person companies call when systems are failing"). Two of the three position by negation, which is the same anxiety the top Reddit thread has been posting for three straight days ("is half of it just confident bluffing?").
+
+**Pull honesty:** 9/10 LinkedIn profiles new · 9/10 Reddit URLs repeated from aug 9 (the one arrival is a hiring ad, not a buyer) · Threads fully fresh 4/4 but ships zero engagement data · X actor returned 15 mock KaitoEasyAPI rows for the **fourth** consecutive day — yesterday's brief flagged it as a caveat, so the decision section escalates it to "pull it from the stack."
+
+The Upwork-layoffs item (145 / 24%) is the most newsjackable thing in the pack and is one unsourced Threads post — filed UNCONFIRMED with an explicit "don't touch it until verified" decision row.
+
+Prose gate: decision + deploy text ran CLEAN at 0/10 after three rewrites (em-dash trim, two antithesis constructions collapsed to direct claims). Briefing Room index refreshed — 39 briefs, routes verified.
+released
+=== 2026-08-10 06:27:47 zeitgeist run end rc=0 ===
+=== 2026-08-11 06:20:04 zeitgeist run start ===
+claimed: dfe3b3c3bf90  (heartbeat every wave: session_lock.py heartbeat dfe3b3c3bf90)
+[zeitgeist] ai-consulting-linkedin: 4/4 pulls live, $0.1580 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-11-ai-consulting-linkedin-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-11-ai-consulting-linkedin-signals.json"]}
+**ai-consulting-linkedin** → `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-11/zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html` · gdoc skipped (`gws` not on PATH in headless env) · $0.158 · filed `zeitgeist` P3, index refreshed (43 briefs).
+
+Three things worth flagging from the run itself, since they affect what the brief could honestly claim:
+
+- **X returned zero.** All 15 twitter items were `type: "mock_tweet"`, `id: -1`, carrying KaitoEasyAPI billing placeholder text. The lane ran on three sources, not four. Yesterday's brief flagged the same actor — that's now two consecutive days, so it's a wiring bug, not a caveat.
+- **Reddit is a verbatim repeat.** 10/10 URLs identical to aug 10; 9/10 back to aug 8. I drew only one claim from it (the bluffing thread's persistence) and marked the whole pull as carry-over in the ledger.
+- **Threads ignores recency.** 1 of 6 posts was written today; the rest span 2025-11-13 to 2026-07-20. No present-tense claim rests on that source.
+
+The real signal was the LinkedIn turnover (8 of 10 profiles new): the query now returns **one** person actually selling AI consulting, down from three yesterday — and the three profiles whose offer is legible in two lines all open by naming the obvious read and refusing it. That's the spine of the brief and the deploy blocks.
+
+Prose check: the full rendered brief scores 10.0/10 FLAGGED, but so do 08-09 and 08-10 with *identical* signal counts (38 em-dashes, 17 parallel blocks) — that's the renderer's chrome and quoted scrape text, not the writing. My decision + deploy text in isolation started at 4.8 (a "here's what" lead-in and 5 em-dashes); I rewrote both and it now scores **CLEAN, 0/10**.
+released
+=== 2026-08-11 06:28:03 zeitgeist run end rc=0 ===

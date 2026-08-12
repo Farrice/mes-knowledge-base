@@ -2,11 +2,11 @@
   "slug": "mission-farrice-brand",
   "chip": "MISSION · FARRICE BRAND",
   "title": "Farrice Brand — Eleven Day Sentence *Script*",
-  "dek": "Plenty of avatar takes made, no verdict recorded — it needs a pick, not more renders.",
+  "dek": "The character is fully built and has never appeared in public.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 3 files · 124 assets",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 11, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This is generation-heavy work on the avatar and brand canon — a long run of image variants against a locked character direction. It is producing candidates, not a chosen final.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Pick the winning avatar take and lock it so the variant runs stop."
+      "body": "This thread has run as an asset factory — an avatar canon, a character dataset with turnarounds and expressions, acceptance tests, and a wardrobe lane. The identity assets exist; how they get used isn't captured here.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Put the locked character assets into an actual published piece and see whether the canon survives contact."
     },
     {
       "kind": "stats",
@@ -37,7 +37,7 @@
           "unit": "usd"
         },
         {
-          "value": "5",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -58,12 +58,12 @@
             0,
             0,
             0,
-            0,
-            0,
             2,
             0,
             0,
             1,
+            0,
+            0,
             0
           ],
           "value": "3",
@@ -79,13 +79,13 @@
             0,
             0,
             0,
-            0,
-            0,
             53,
             0,
             0,
             7,
             64,
+            0,
+            0,
             0
           ],
           "value": "124",
@@ -275,7 +275,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No selected final is recorded, and a long generation run with no marked winner is the shape of an undecided taste call rather than progress. No finalized deliverable is attached to this thread.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Nearly all recorded work is generation rather than deployment, and no record links these assets to a published piece. Acceptance testing was self-run, so 'consistent' means consistent to whoever built it.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

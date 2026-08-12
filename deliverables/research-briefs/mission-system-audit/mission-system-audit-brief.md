@@ -1,23 +1,27 @@
 # Retry weakest section for intent alignment
 
-> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 9, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
 
-Real system repair landed here, but the thread's own label points at somebody else's work.
+Audits keep getting written; whether any of them changed behavior is the open question.
 
 ## where this stands
 _CURRENT POSITION_
-The recorded work here is compass-doctrine repair — converting enforcement into nudges and stopping quality latches from blocking work. It landed early in the window and the thread has been quiet since.
+The work here pushed evidence-backed judgment and pushback into the other harness so meaningful asks stop needing a manual preamble, alongside an after-action record and a verifier. Both passes scored under the keep line and the thread has gone quiet since.
 
-Handoff status is active. Last activity 5d ago.
+Handoff status is active. Last activity 7d ago.
 
-Next: Confirm the disarmed gates have stayed disarmed, then close this thread.
+Next: Check whether the judgment-floor change actually holds in live use, then close or park the thread.
 
 ## by the numbers
-- DELIVERABLES FINALIZED: **9**
-- DAYS ACTIVE: **13 d**
+- DELIVERABLES FINALIZED: **2**
+- DAYS ACTIVE: **7 d**
 
 ## lifecycle
 
+
+## what needs you
+Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
+1. **Decide: resume or park** — It has been idle long enough that the change is either working silently or was never exercised, and nobody has established which.
 
 ## what this thread made
 - **2026-07-08-control-intent-classifier-overfires-system-audit.md** [SOLUTION] `docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md`
@@ -33,13 +37,6 @@ python3 execution/handoff_store.py resume system-audit
 ## how it got here
 - 2026-08-04 · **Finalized · system-audit** — Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair
 - 2026-08-04 · **Finalized · system-audit** — Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptive depth and capture 
-- 2026-07-28 · **Finalized · system-audit** — Model-Dialect Adaptation Layer: bound injector (dialect-card-keyed, exemplar-calibrated) + 5 dead-channel detectors in self_heal + full-asset wiring ratchet; 3 verifier suites, 12 sabotage controls; merged two concurrent
-- 2026-07-28 · **Finalized · system-audit** — Unhobble mission: vetted the '80% deleted' video against Anthropic primary source (claim-vet table, six-shifts solution card), applied CLAUDE.md diet 3672→1601w with council-mandated scar restoration, fixed GEMINI.md sta
-- 2026-07-27 · **Finalized · system-audit** — Compass doctrine: audited the enforcement layer, disarmed the live routing prompt-blocker and the 3-gate scheduled escalation ladder, converted chain_runner quality latches to nudges
-- 2026-07-27 · **Finalized · system-audit** — Compass doctrine v2: silent earned-8 score cap waived under COMPASS_MODE so the visible nudge is the only consequence
-- 2026-07-27 · **Finalized · system-audit** — Compass doctrine v3: anti-cluster cap no longer treats an unrun prose check as dirty prose
-- 2026-07-27 · **Finalized · system-audit** — REGRESSION TEST - factual veto probe, ignore this row
-- 2026-07-27 · **Finalized · system-audit** — Compass sweep round 2: softened 27 cage-language lines across 20 directives, audited the Codex hook surface, fixed the Codex git guard blocking all pushes
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-07-02-system-audit.md
@@ -47,7 +44,7 @@ python3 execution/handoff_store.py resume system-audit
 
 ## what this isn't
 _READ THE EDGES_
-The resume line attached to this thread describes client listing work, not system work — its handoff and its deliverables disagree about what this thread even is, so read the header with suspicion. Its ledger also includes a regression-test row that was never real output, which inflates the tally.
+One recorded outcome states an earlier audit was never read and a control it recommended was never applied anywhere. Audits produced but unabsorbed is the pattern to watch in this thread specifically.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

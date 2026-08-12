@@ -1,18 +1,26 @@
 {
   "slug": "mission-angle-map-listening-engine-v4-1",
   "title": "2026-08-03 Angle Map Listening Brief",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 11, 2026",
   "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
   "brief_html": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html",
   "brief_md": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.md",
   "paths": [
     {
       "path": ".agent/handoffs/2026-08-03-angle-map-listening-engine.md",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-03-angle-map-listening-engine.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }

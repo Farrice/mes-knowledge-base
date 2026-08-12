@@ -206,3 +206,24 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-09
   ⚑ launchd com.antigravity.cos-notify: log silent 10d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
   ⚑ launchd com.antigravity.weekly-harness-cards: no log evidence at all — job may never have run; `launchctl list com.antigravity.weekly-harness-cards` to confirm
   ⚑ verifier fleet: 2/85 failing (run 2026-08-08) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-10.json (9 flag(s))
+  ⚑ routine com.antigravity.citation-integrity: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log
+  ⚑ routine com.antigravity.pulse-serve: last exit -15 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/pulse/serve.log
+  ⚑ routine com.antigravity.verify-fleet: last exit 2 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log
+  ⚑ .tmp at 11,138MB / 201,535 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ 31 remote branches — content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 2319 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ launchd com.antigravity.cos-notify: log silent 11d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
+  ⚑ verifier fleet: 2/85 failing (run 2026-08-08) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-11.json (10 flag(s))
+  ⚑ routine com.antigravity.citation-integrity: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log
+  ⚑ routine com.antigravity.pulse-serve: last exit -15 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/pulse/serve.log
+  ⚑ routine com.antigravity.verify-fleet: last exit 2 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log
+  ⚑ .tmp at 11,413MB / 201,689 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ 33 remote branches — content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 2320 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ launchd com.antigravity.angle-map-listening: log silent 3d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`
+  ⚑ launchd com.antigravity.cos-notify: log silent 12d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
+  ⚑ verifier fleet: 2/85 failing (run 2026-08-08) — each is a contract the system claims to hold; triage in weekly closeout

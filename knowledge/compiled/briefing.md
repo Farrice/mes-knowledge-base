@@ -1,33 +1,33 @@
 # Knowledge Briefing
-*Generated: 2026-08-09 | 1078 sources | 3,478,101 words*
+*Generated: 2026-08-11 | 1089 sources | 3,485,620 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 9,821 words — `knowledge/index.md`
-- **log** (general) — 18,631 words — `knowledge/log.md`
-- **analysis** (content) — 716 words — `extractions/video-context/t0GiTyz4syY/analysis.md`
-- **architecture** (systems [nick-saraev]) — 1,072 words — `extractions/video-context/t0GiTyz4syY/architecture.md`
-- **behavior-proof** (systems) — 884 words — `extractions/video-context/t0GiTyz4syY/behavior-proof.md`
-- **deep-extraction** (content) — 2,400 words — `extractions/video-context/t0GiTyz4syY/deep-extraction.md`
-- **production-receipt-01** (general) — 740 words — `extractions/video-context/t0GiTyz4syY/production-receipt-01.md`
-- **production-receipt-02-god-agent-offer** (strategy) — 547 words — `extractions/video-context/t0GiTyz4syY/production-receipt-02-god-agent-offer.md`
-- **production-receipt-03-angle-map-linkedin** (content) — 523 words — `extractions/video-context/t0GiTyz4syY/production-receipt-03-angle-map-linkedin.md`
-- **production-receipt-04-health-geo-daily-brief** (content [dai-media]) — 493 words — `extractions/video-context/t0GiTyz4syY/production-receipt-04-health-geo-daily-brief.md`
+- **index** (content) — 6,933 words — `knowledge/index.md`
+- **log** (general) — 18,923 words — `knowledge/log.md`
+- **architecture** (strategy [april-dunford]) — 510 words — `extractions/jordan-crawford-gtm-intelligence/architecture.md`
+- **live-research-hardening-2026-08-09** (copywriting) — 600 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/live-research-hardening-2026-08-09.md`
+- **mature-company-fixture** (strategy [april-dunford]) — 670 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/mature-company-fixture.md`
+- **proof-report** (copywriting) — 293 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md`
+- **zero-data-fixture** (copywriting) — 545 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/zero-data-fixture.md`
+- **blind-pass-log** (copywriting) — 80 words — `extractions/jordan-crawford-gtm-intelligence/blind-pass-log.md`
+- **extraction-report** (content) — 2,104 words — `extractions/jordan-crawford-gtm-intelligence/extraction-report.md`
+- **skill-system-contract** (systems) — 399 words — `extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 355 | nathan-gotch |
-| copywriting | 183 | luke-iha |
+| content | 356 | nathan-gotch |
+| copywriting | 187 | luke-iha |
 | general | 116 | nick-saraev |
-| strategy | 106 | april-dunford |
+| strategy | 110 | april-dunford |
 | screenwriting | 102 | connelly |
 | brand | 66 | oren-john |
-| systems | 59 | nick-saraev |
-| seo | 41 | nathan-gotch |
+| systems | 60 | nick-saraev |
+| seo | 42 | nathan-gotch |
 | research | 37 | jason-fladlien |
 | sales | 13 | dai-media |
 

@@ -3036,3 +3036,290 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-10T07:00:02.321561",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-10.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.11,
+            "joey-cinema-os": 0.96,
+            "ben-watkins-storytelling": 1.12,
+            "banana-pro-director": 1.11,
+            "gemini-api-dev": 0.8,
+            "dave-clark": 1.2,
+            "ghostwriting-voice-engine": 1.17,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.74,
+            "nick-saraev-agentic-workflows": 1.11,
+            "kallaway-social-commerce": 0.89,
+            "kallaway-illusion-of-novelty": 1.61,
+            "extract-mastery": 1.04,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.11,
+            "youtube-video-context-analysis": 0.74,
+            "creative-direction": 1.05
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 2,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 25.4
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 36.4
+    },
+    {
+      "monthly": {
+        "cycle": "monthly",
+        "gap_analysis": {
+          "summary": {
+            "total_performance_entries": 100,
+            "total_skills": 400,
+            "used_skills": 54,
+            "dead_skills": 360,
+            "gap_log_entries": 3,
+            "analysis_date": "2026-08-10"
+          },
+          "low_performing_skills": [],
+          "dead_skills_count": 360,
+          "dead_skills_sample": [
+            "adam-enfroy-affiliate-marketing",
+            "adam-sandler-second-brain-gtm",
+            "ai-carousel-content-engine",
+            "ai-chris-lee-zero-testimonial-sales",
+            "alan-aragon-nutrition",
+            "alen-sultanic-copywriting",
+            "alex-content-science",
+            "alex-copper-creative-strategy",
+            "alex-hormozi-business",
+            "alex-m-smith-natural-strategy",
+            "alex-myatt-creative-engine",
+            "alex-suzuki-digital-product-revenue-os",
+            "algorithmic-art",
+            "ali-abdaal-action-bias",
+            "andreessen-horowitz-new-media",
+            "andrew-dun-vibe-consulting",
+            "andrew-lane-design-systems",
+            "andrew-stanton-audience-engineering",
+            "andrew-wilkinson-ai-entrepreneurship",
+            "andy-galpin-training-intelligence"
+          ],
+          "weak_task_types": [],
+          "recurring_gaps": [],
+          "task_type_coverage": {
+            "Research": {
+              "count": 10,
+              "skills_used": [
+                "dara-denney-meta-ads",
+                "deep-research-os",
+                "listening-engine-v4.1",
+                "luke-iha-avatar-machine",
+                "mark-kashef-wargame-os",
+                "nba-betting-edge"
+              ],
+              "avg_quality": 7.9
+            },
+            "Content": {
+              "count": 14,
+              "skills_used": [
+                "fresh-voice-system",
+                "health-performance-listening",
+                "jen-santulan-listing-content",
+                "john-whiting-propaganda-machine",
+                "josh-sanders-linkedin-growth",
+                "lara-acosta-linkedin-mastery",
+                "luke-iha-avatar-machine",
+                "voice-os",
+                "ward-farnsworth-rhetorical-mastery"
+              ],
+              "avg_quality": 7.5
+            },
+            "System": {
+              "count": 36,
+              "skills_used": [
+                "chief-of-staff-os",
+                "deep-research-os",
+                "design-md",
+                "directives",
+                "execution",
+                "extract-mastery",
+                "forge-os",
+                "generate",
+                "harness",
+                "jason-fladlien-marketing",
+                "kallaway-illusion-of-novelty",
+                "linkedin-launch",
+                "mark-kashef-wargame-os",
+                "mike-taylor-synthetic-research",
+                "none",
+                "ray-amjad-agentic-ladder",
+                "self-heal",
+                "video-studio",
+                "wayfinder"
+              ],
+              "avg_quality": 8.1
+            },
+            "Strategy": {
+              "count": 9,
+              "skills_used": [
+                "briar-cochran-content-science",
+                "chief-of-staff-os",
+                "donald-miller-storybrand",
+                "expert-assembly-os",
+                "jeremy-haynes-cold-offer",
+                "leadership-cli",
+                "linkedin-launch/02-offer",
+                "nicolas-cole-niche-positioning",
+                "offer-redteam"
+              ],
+              "avg_quality": 8.3
+            },
+            "Extraction": {
+              "count": 21,
+              "skills_used": [
+                "benoit-vatere",
+                "briar-cochran-content-science",
+                "cody-schneider-signal-outbound",
+                "dara-denney-meta-ads",
+                "extract-mastery",
+                "hilary-gridley",
+                "jason-fladlien-marketing",
+                "kallaway-hook-mastery",
+                "matthew-lakajev-linkedin",
+                "meg-heckman-buyer-trigger-os",
+                "oren-norton-world-building",
+                "oren-slop-era-creative-strategy",
+                "paolo-trivellato-lead-magnet-engine",
+                "ray-amjad-agentic-ladder",
+                "riley-brown-marketing-automation",
+                "satori-graphics"
+              ],
+              "avg_quality": 7.9
+            },
+            "Analysis": {
+              "count": 4,
+              "skills_used": [
+                "_active/farrice-brand/voice",
+                "extract-mastery",
+                "geoff-woods-ai-thought-partner"
+              ],
+              "avg_quality": 7.6
+            },
+            "Client Work": {
+              "count": 5,
+              "skills_used": [
+                "jen-santulan-listing-content",
+                "luke-iha-client-mastery",
+                "voice-os"
+              ],
+              "avg_quality": 7.3
+            },
+            "Creative": {
+              "count": 1,
+              "skills_used": [
+                "eugene-teo-training"
+              ],
+              "avg_quality": 8.0
+            }
+          },
+          "recommendations": [
+            {
+              "priority": "LOW",
+              "type": "DEAD_SKILLS",
+              "action": "360 skills have never been used. Consider auditing for relevance or archiving unused skills."
+            }
+          ]
+        },
+        "status": "ok",
+        "phase2_card": {
+          "status": "skipped",
+          "reason": "card-phase2-2026-07-24.md completed <21d ago"
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-08T18:38:02.800150",
+      "reason": "not_due_yet",
+      "days_remaining": 5.48
+    }
+  ]
+}
+{
+  "run_at": "2026-08-11T07:00:05.438458",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-11.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.14,
+            "joey-cinema-os": 0.93,
+            "ben-watkins-storytelling": 1.0,
+            "banana-pro-director": 1.14,
+            "gemini-api-dev": 0.77,
+            "dave-clark": 1.23,
+            "ghostwriting-voice-engine": 1.2,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.81,
+            "nick-saraev-agentic-workflows": 1.14,
+            "kallaway-social-commerce": 0.86,
+            "kallaway-illusion-of-novelty": 1.54,
+            "extract-mastery": 1.07,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.14
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 49.4
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-08T18:38:02.800150",
+      "reason": "not_due_yet",
+      "days_remaining": 4.48
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 29.0
+    }
+  ]
+}
