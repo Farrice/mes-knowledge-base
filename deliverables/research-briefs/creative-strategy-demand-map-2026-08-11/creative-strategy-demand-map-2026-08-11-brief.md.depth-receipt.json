@@ -1,0 +1,20 @@
+{
+  "file": "deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.md",
+  "overall_pass": true,
+  "overall_score": 100,
+  "depth": "standard",
+  "metrics": {
+    "total_urls": 8,
+    "unique_domains": 8,
+    "detected_depth": "standard",
+    "min_sources_expected": 8,
+    "modeled_flags": 0,
+    "claim_sourcing_rate": "100% (5/5)",
+    "hedge_ratio": "0.0 per 1000 words",
+    "min_domains_expected": 4,
+    "unique_source_urls": 8
+  },
+  "critical_issues": [],
+  "validated_at": "2026-08-11T23:05:27",
+  "gate": "research_quality_gate.py"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "creative-strategy-demand-map-2026-08-11",
+  "title": "what creative buyers are actually buying now",
+  "compiled": "aug 11, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.html",
+  "brief_md": "deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.md",
+  "paths": [
+    {
+      "path": "_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md",
+      "role": "current entry-offer canon"
+    },
+    {
+      "path": "_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md",
+      "role": "current offer ladder and proof gates"
+    },
+    {
+      "path": "_active/linkedin/CAMPAIGN.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/CAMPAIGN.md",
+      "role": "current commercial state"
+    },
+    {
+      "path": "skills/alex-copper-creative-strategy/SKILL.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/skills/alex-copper-creative-strategy/SKILL.md",
+      "role": "creative-strategy operating system"
+    },
+    {
+      "path": "skills/alex-copper-creative-strategy/genius.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/skills/alex-copper-creative-strategy/genius.md",
+      "role": "expert judgment and anti-patterns"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai",
+      "label": "Upwork In-Demand Skills 2026"
+    },
+    {
+      "url": "https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1",
+      "label": "WARC + TikTok, July 2026"
+    },
+    {
+      "url": "https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/",
+      "label": "IAB Creator Economy 2025"
+    },
+    {
+      "url": "https://www.facebook.com/business/ads/creator-marketplace",
+      "label": "Meta Creator Marketplace"
+    },
+    {
+      "url": "https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership",
+      "label": "LinkedIn B2B Creators 2025"
+    },
+    {
+      "url": "https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results",
+      "label": "Fiverr Q2 2026"
+    },
+    {
+      "url": "https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026",
+      "label": "Fiverr Business Trends Index 2026"
+    },
+    {
+      "url": "https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/",
+      "label": "Google Commercial Experiences 2026"
+    }
+  ]
+}

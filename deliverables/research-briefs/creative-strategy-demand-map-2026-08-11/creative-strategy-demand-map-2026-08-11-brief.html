@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>what creative buyers are actually buying now · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-market-is-buying-judgment-not-volume">the market is buying judgment, not volume</a><a href="#what-current-spending-supports">what current spending supports</a><a href="#the-offer-ladder">the offer ladder</a><a href="#what-you-should-offer">what you should offer</a><a href="#the-inbound-asset-system">the inbound asset system</a><a href="#what-this-evidence-doesn-t-prove">what this evidence doesn&#x27;t prove</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">MARKET DEMAND BRIEF · CREATIVE STRATEGY</span>
+    <h1 class="display">what creative buyers are <em>actually buying</em> now</h1>
+    <p class="dek">A force-ranked offer and inbound-asset map: where current buyer spend is moving, what AI is commoditizing, and how to package creative judgment into a paid diagnostic, sprint, and recurring growth system.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">2025-2026 demand signals</span></div>
+      <div><span class="k">Lens</span><span class="v">health · performance · wellness brands</span></div>
+      <div><span class="k">Sources</span><span class="v">8 current market and platform sources</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 11, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-market-is-buying-judgment-not-volume"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the market is buying <em>judgment</em>, not volume</h2></div><span class="kicker" style="margin-bottom:8px">THE VERDICT</span><div class="panel"><p>The strongest demand is at the intersection of performance creative, creator-led distribution, platform-native video, and AI-assisted production. The premium is moving away from raw asset creation. Buyers increasingly need someone to turn audience and community signals into the right message, direct creators and AI tools, design a learnable test, and carry performance learning into the next batch.</p><p>My recommendation for Farrice is one vertical promise for established supplement, recovery, wellness, and performance brands facing a live launch, reformulation, claims change, creator campaign, or creative-fatigue decision. [VERIFIED] Keep The Angle Map as the paid entry in the current offer canon. Use the 10-day Proof-to-Market Sprint as the core implementation offer. Test a recurring Creative Intelligence Partner retainer after paid delivery creates proof.</p></div></section><section class="blk" id="what-current-spending-supports"><div class="sechead"><span class="secnum">02</span><h2 class="sec">what current spending <em>supports</em></h2><span class="sectag">MARKET RECEIPTS</span></div><div class="ev"><span class="mark">✓</span><div><h3>Creative strategy and brand judgment have paid marketplace demand.</h3><p>Upwork&#x27;s 2026 index, based on completed US jobs and freelancer earnings during 2025, lists social media strategy at +36%, display advertising at +26%, and brand strategy at +26%. AI video generation and editing grew +329%.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai" target="_blank" rel="noopener">Upwork In-Demand Skills 2026 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>AI expands creative volume faster than it improves creative quality.</h3><p>A 2026 WARC-TikTok study of 400 global marketing leaders reported 90% using AI as a core creative tool and 88% increasing volume, but only 45% reporting significant quality improvement. This supports selling the intelligence and direction layer, not access to tools.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1" target="_blank" rel="noopener">WARC + TikTok, July 2026 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Creator creative has matured into a full-funnel media channel.</h3><p>IAB projected US creator ad spend at $37B in 2025, up 26% year over year; 48% of ad buyers considered creators a must-buy. Buyers named awareness, new audiences, trust, and online sales as goals, while 40% ranked overall ROI as their top creator KPI.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/" target="_blank" rel="noopener">IAB Creator Economy 2025 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Platform-native creator assets now have explicit performance infrastructure.</h3><p>Meta reports that adding partnership ads to usual campaigns can reduce acquisition cost by 19%. Google is also expanding AI-assisted matching between advertisers and creator communities. The opportunity is creator strategy, casting, briefing, rights-ready asset planning, and paid adaptation—not influencer lists.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.facebook.com/business/ads/creator-marketplace" target="_blank" rel="noopener">Meta Creator Marketplace ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>B2B founder and expert-led content can produce qualified demand, not only impressions.</h3><p>LinkedIn reports that 82% of surveyed buyers are influenced by B2B creator content; 47% visited a vendor website and 38% engaged with sales after consuming it. Thought Leader Ads were reported to improve lead form completion and cost per lead versus benchmark campaigns.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership" target="_blank" rel="noopener">LinkedIn B2B Creators 2025 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Low-value production is becoming less defensible even as content demand rises.</h3><p>Fiverr reports strong demand for AI UGC, AI video, Instagram content, YouTube services, and human editing, but its Q2 2026 results also cite weakness in categories most exposed to AI automation and a strategic shift toward higher-value work. Sell decisions and systems; treat editing as fulfillment support.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results" target="_blank" rel="noopener">Fiverr Q2 2026 ↗</a></div></div></div></section><section class="blk" id="the-offer-ladder"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the offer ladder</h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Public category proof</h3><p>A source-backed teardown shows how you turn product truth, buyer tension, and approved proof into a creative decision.</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>[VERIFIED] The Angle Map · $750 prepaid</h3><p>One 60-minute live read; three named campaign angles; hook, proof, and editorial claim-safety direction; one lead recommendation within 48 hours. Current local offer canon.</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>[VERIFIED] Proof-to-Market Sprint · $2,500 founding pilot</h3><p>Ten business days to turn the chosen argument into positioning, proof hierarchy, a campaign blueprint, angle bank, and one priority production asset. Current local offer canon.</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>[UNCONFIRMED] Creative Intelligence Partner · test $6k-$12k/month</h3><p>For brands with active spend and a decision-maker: continuous signal mining, creative coverage, briefs, creator direction, performance learning, and a compounding winner library. Price and demand are test hypotheses.</p></div></div><div class="bars-caption">one buyer, one commercial trigger, increasing depth</div></section><section class="decision" id="what-you-should-offer"><span class="kicker">FORCE-RANKED</span><h2>what you should <em>offer</em></h2><p class="dek">[VERIFIED] The entry offer and implementation sprint already exist in the local offer canon. Current category demand supports testing them; it does not validate their prices or justify another menu.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>[VERIFIED] LOCK: The Angle Map as the current cold paid entry.</h3><p>It sells a decision before expensive production: which arguments deserve to become ads, creator briefs, pages, or content. That matches the market&#x27;s quality gap and keeps fulfillment bounded. Exact demand remains UNTESTED until sent, held, sold, and collected change.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>[VERIFIED] LOCK: Proof-to-Market Sprint as the implementation step.</h3><p>The buyer gets a usable market argument, proof hierarchy, message system, campaign architecture, and one finished priority asset instead of a strategy deck left for the team to decode. Keep the current $2,500 founding-pilot price until paid delivery reveals the true burden.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>[UNCONFIRMED] TEST LATER: Creative Intelligence Partner retainer.</h3><p>Recurring value exists when there is live creative performance data, creator activity, a production team, and enough monthly decisions to learn from. Do not sell this to pre-revenue founders or brands without active distribution. Price range is a hypothesis, not market proof.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>[LIKELY] PARK AS A SEPARATE LANE: Founder Signal Engine for B2B experts.</h3><p>Category demand is supported, but the buyer, proof, channel, and fulfillment rhythm differ from health-performance brand creative. Package recorded founder intelligence into point-of-view video, posts, sales-enablement insight assets, and Thought Leader Ad handoff on a separate page or campaign.</p></div></div><div class="dec-item"><span class="n">05</span><div><h3>[LIKELY] EARN BEFORE SELLING: AI Creative Operating System install.</h3><p>AI-video and fractional-specialist category demand is strong, but the proof burden is higher. Productize research context, agent roles, human review, asset rights, and performance memory after repeated client work exposes the real workflow.</p></div></div></div></section><section class="decision" id="the-inbound-asset-system"><span class="kicker">BUILD TRUST BEFORE THE CALL</span><h2>the inbound asset <em>system</em></h2><p class="dek">Each asset should demonstrate the decision layer and end at the same paid entry. Do not turn the content engine into free custom consulting.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Weekly Health-Performance Creative White-Space Teardown</h3><p>Publish one evidence-backed visual teardown: buyer tension, missing audience or proof cell, one unowned angle, one test, and what not to make. Repurpose it as a LinkedIn post, 5-8 slide carousel, and 60-90 second founder video. Measure qualified DMs naming a live campaign problem.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Monthly Health Performance Creative Signals Brief</h3><p>Synthesize customer language, claims and proof shifts, creator formats, top-spend patterns, and three production implications. Publish as a visual brief, email edition, and LinkedIn document. Measure saves, internal forwards, and replies from founders, growth leads, creative directors, and agencies.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Decision Artifact Before-and-After</h3><p>Make invisible strategy inspectable without disclosing confidential information: raw product truth and customer language -&gt; three angles -&gt; lead choice -&gt; proof direction -&gt; build-priority card. The success signal is prospects asking about scope and decisions instead of asking whether you edit videos.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>[LIKELY] What Not to Make Series</h3><p>Take one common category trope and explain the missing signal, performance risk, and sharper alternative. Use short video, single-image teardown, or a newsletter section. This filters for teams already spending on creative and feeling the cost of weak iteration.</p></div></div></div></section><section class="blk caveats" id="what-this-evidence-doesn-t-prove"><span class="kicker" style="margin-bottom:10px">PROOF BOUNDARY</span><h2>what this evidence <em>doesn&#x27;t prove</em></h2><p>Marketplace reports show completed-job or search demand, not your close rate. Platform studies are commercially interested sources and may not generalize across every brand. The public numbers validate the service categories and market direction; they do not validate your exact promise, price, buyer, or delivery burden.</p><p>[VERIFIED] The current local campaign state in _active/linkedin/CAMPAIGN.md records 15 researched candidates, 7 verified public profiles, 0 sent, 0 held, 0 sold, and $0 collected. The Angle Map is strategically coherent and operationally prepared, but commercially UNTESTED / NO EVENT. The next truth comes from qualified exposure and payment, not another offer rewrite.</p><a class="cta" href="#the-offer-ladder">RETURN TO THE OFFER LADDER</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">07</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Upwork In-Demand Skills 2026</td><td><a href="https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai" target="_blank" rel="noopener">https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai</a></td><td>2026-08-11</td><td>completed-job demand, AI creative, strategy, fractional talent</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Fiverr Business Trends Index 2026</td><td><a href="https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026" target="_blank" rel="noopener">https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026</a></td><td>2026-08-11</td><td>AI UGC, video editing, platform content demand</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Fiverr Q2 2026 Results</td><td><a href="https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results" target="_blank" rel="noopener">https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results</a></td><td>2026-08-11</td><td>low-value automation pressure and higher-value project shift</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>IAB Creator Economy Ad Spend 2025</td><td><a href="https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/" target="_blank" rel="noopener">https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/</a></td><td>2026-08-11</td><td>creator channel spend and full-funnel buyer goals</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>WARC + TikTok New Creative Advantage</td><td><a href="https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1" target="_blank" rel="noopener">https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1</a></td><td>2026-08-11</td><td>AI creative volume versus quality gap</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>Meta Creator Marketplace</td><td><a href="https://www.facebook.com/business/ads/creator-marketplace" target="_blank" rel="noopener">https://www.facebook.com/business/ads/creator-marketplace</a></td><td>2026-08-11</td><td>partnership-ad performance and creator infrastructure</td><td><span class="conf likely">LIKELY</span></td></tr><tr><td>07</td><td>Google Commercial Experiences 2026</td><td><a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/" target="_blank" rel="noopener">https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/</a></td><td>2026-08-11</td><td>creator matching and scaled AI asset production</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>08</td><td>LinkedIn B2B Creators 2025</td><td><a href="https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership" target="_blank" rel="noopener">https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership</a></td><td>2026-08-11</td><td>founder and expert-led content demand signals</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">08</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md">_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md</a></td><td>current entry-offer canon</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md">_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md</a></td><td>current offer ladder and proof gates</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/CAMPAIGN.md">_active/linkedin/CAMPAIGN.md</a></td><td>current commercial state</td></tr><tr><td>04</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/skills/alex-copper-creative-strategy/SKILL.md">skills/alex-copper-creative-strategy/SKILL.md</a></td><td>creative-strategy operating system</td></tr><tr><td>05</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/skills/alex-copper-creative-strategy/genius.md">skills/alex-copper-creative-strategy/genius.md</a></td><td>expert judgment and anti-patterns</td></tr><tr><td>06</td><td><a href="https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai" target="_blank" rel="noopener">https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai</a></td><td>Upwork In-Demand Skills 2026</td></tr><tr><td>07</td><td><a href="https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1" target="_blank" rel="noopener">https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1</a></td><td>WARC + TikTok, July 2026</td></tr><tr><td>08</td><td><a href="https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/" target="_blank" rel="noopener">https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/</a></td><td>IAB Creator Economy 2025</td></tr><tr><td>09</td><td><a href="https://www.facebook.com/business/ads/creator-marketplace" target="_blank" rel="noopener">https://www.facebook.com/business/ads/creator-marketplace</a></td><td>Meta Creator Marketplace</td></tr><tr><td>10</td><td><a href="https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership" target="_blank" rel="noopener">https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership</a></td><td>LinkedIn B2B Creators 2025</td></tr><tr><td>11</td><td><a href="https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results" target="_blank" rel="noopener">https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results</a></td><td>Fiverr Q2 2026</td></tr><tr><td>12</td><td><a href="https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026" target="_blank" rel="noopener">https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026</a></td><td>Fiverr Business Trends Index 2026</td></tr><tr><td>13</td><td><a href="https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/" target="_blank" rel="noopener">https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/</a></td><td>Google Commercial Experiences 2026</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;creative-strategy-demand-map-2026-08-11&quot;,
+  &quot;title&quot;: &quot;what creative buyers are actually buying now&quot;,
+  &quot;compiled&quot;: &quot;aug 11, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md&quot;,
+      &quot;role&quot;: &quot;current entry-offer canon&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md&quot;,
+      &quot;role&quot;: &quot;current offer ladder and proof gates&quot;
+    },
+    {
+      &quot;path&quot;: &quot;_active/linkedin/CAMPAIGN.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/_active/linkedin/CAMPAIGN.md&quot;,
+      &quot;role&quot;: &quot;current commercial state&quot;
+    },
+    {
+      &quot;path&quot;: &quot;skills/alex-copper-creative-strategy/SKILL.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/skills/alex-copper-creative-strategy/SKILL.md&quot;,
+      &quot;role&quot;: &quot;creative-strategy operating system&quot;
+    },
+    {
+      &quot;path&quot;: &quot;skills/alex-copper-creative-strategy/genius.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/skills/alex-copper-creative-strategy/genius.md&quot;,
+      &quot;role&quot;: &quot;expert judgment and anti-patterns&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai&quot;,
+      &quot;label&quot;: &quot;Upwork In-Demand Skills 2026&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1&quot;,
+      &quot;label&quot;: &quot;WARC + TikTok, July 2026&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/&quot;,
+      &quot;label&quot;: &quot;IAB Creator Economy 2025&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.facebook.com/business/ads/creator-marketplace&quot;,
+      &quot;label&quot;: &quot;Meta Creator Marketplace&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership&quot;,
+      &quot;label&quot;: &quot;LinkedIn B2B Creators 2025&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results&quot;,
+      &quot;label&quot;: &quot;Fiverr Q2 2026&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026&quot;,
+      &quot;label&quot;: &quot;Fiverr Business Trends Index 2026&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/&quot;,
+      &quot;label&quot;: &quot;Google Commercial Experiences 2026&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY RESEARCH</span>
+    <span>FARRICE CAIN</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811/deliverables/research-briefs/creative-strategy-demand-map-2026-08-11/creative-strategy-demand-map-2026-08-11-context.json\nCOMPILED: aug 11, 2026\n\n# what creative buyers are actually buying now\n\n> MARKET DEMAND BRIEF · CREATIVE STRATEGY · window: 2025-2026 demand signals · lens: health · performance · wellness brands · sources: 8 current market and platform sources · compiled: aug 11, 2026\n\nA force-ranked offer and inbound-asset map: where current buyer spend is moving, what AI is commoditizing, and how to package creative judgment into a paid diagnostic, sprint, and recurring growth system.\n\n## the market is buying judgment, not volume\n_THE VERDICT_\nThe strongest demand is at the intersection of performance creative, creator-led distribution, platform-native video, and AI-assisted production. The premium is moving away from raw asset creation. Buyers increasingly need someone to turn audience and community signals into the right message, direct creators and AI tools, design a learnable test, and carry performance learning into the next batch.\n\nMy recommendation for Farrice is one vertical promise for established supplement, recovery, wellness, and performance brands facing a live launch, reformulation, claims change, creator campaign, or creative-fatigue decision. [VERIFIED] Keep The Angle Map as the paid entry in the current offer canon. Use the 10-day Proof-to-Market Sprint as the core implementation offer. Test a recurring Creative Intelligence Partner retainer after paid delivery creates proof.\n\n## what current spending supports\n- **Creative strategy and brand judgment have paid marketplace demand.** [VERIFIED] — Upwork's 2026 index, based on completed US jobs and freelancer earnings during 2025, lists social media strategy at +36%, display advertising at +26%, and brand strategy at +26%. AI video generation and editing grew +329%. (https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai)\n- **AI expands creative volume faster than it improves creative quality.** [VERIFIED] — A 2026 WARC-TikTok study of 400 global marketing leaders reported 90% using AI as a core creative tool and 88% increasing volume, but only 45% reporting significant quality improvement. This supports selling the intelligence and direction layer, not access to tools. (https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1)\n- **Creator creative has matured into a full-funnel media channel.** [VERIFIED] — IAB projected US creator ad spend at $37B in 2025, up 26% year over year; 48% of ad buyers considered creators a must-buy. Buyers named awareness, new audiences, trust, and online sales as goals, while 40% ranked overall ROI as their top creator KPI. (https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/)\n- **Platform-native creator assets now have explicit performance infrastructure.** [LIKELY] — Meta reports that adding partnership ads to usual campaigns can reduce acquisition cost by 19%. Google is also expanding AI-assisted matching between advertisers and creator communities. The opportunity is creator strategy, casting, briefing, rights-ready asset planning, and paid adaptation—not influencer lists. (https://www.facebook.com/business/ads/creator-marketplace)\n- **B2B founder and expert-led content can produce qualified demand, not only impressions.** [VERIFIED] — LinkedIn reports that 82% of surveyed buyers are influenced by B2B creator content; 47% visited a vendor website and 38% engaged with sales after consuming it. Thought Leader Ads were reported to improve lead form completion and cost per lead versus benchmark campaigns. (https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership)\n- **Low-value production is becoming less defensible even as content demand rises.** [VERIFIED] — Fiverr reports strong demand for AI UGC, AI video, Instagram content, YouTube services, and human editing, but its Q2 2026 results also cite weakness in categories most exposed to AI automation and a strategic shift toward higher-value work. Sell decisions and systems; treat editing as fulfillment support. (https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results)\n\n## the offer ladder\nPublic category proof → [VERIFIED] The Angle Map · $750 prepaid → [VERIFIED] Proof-to-Market Sprint · $2,500 founding pilot → [UNCONFIRMED] Creative Intelligence Partner · test $6k-$12k/month\n  - Public category proof: A source-backed teardown shows how you turn product truth, buyer tension, and approved proof into a creative decision.\n  - [VERIFIED] The Angle Map · $750 prepaid: One 60-minute live read; three named campaign angles; hook, proof, and editorial claim-safety direction; one lead recommendation within 48 hours. Current local offer canon.\n  - [VERIFIED] Proof-to-Market Sprint · $2,500 founding pilot: Ten business days to turn the chosen argument into positioning, proof hierarchy, a campaign blueprint, angle bank, and one priority production asset. Current local offer canon.\n  - [UNCONFIRMED] Creative Intelligence Partner · test $6k-$12k/month: For brands with active spend and a decision-maker: continuous signal mining, creative coverage, briefs, creator direction, performance learning, and a compounding winner library. Price and demand are test hypotheses.\n\n## what you should offer\n[VERIFIED] The entry offer and implementation sprint already exist in the local offer canon. Current category demand supports testing them; it does not validate their prices or justify another menu.\n1. **[VERIFIED] LOCK: The Angle Map as the current cold paid entry.** — It sells a decision before expensive production: which arguments deserve to become ads, creator briefs, pages, or content. That matches the market's quality gap and keeps fulfillment bounded. Exact demand remains UNTESTED until sent, held, sold, and collected change.\n2. **[VERIFIED] LOCK: Proof-to-Market Sprint as the implementation step.** — The buyer gets a usable market argument, proof hierarchy, message system, campaign architecture, and one finished priority asset instead of a strategy deck left for the team to decode. Keep the current $2,500 founding-pilot price until paid delivery reveals the true burden.\n3. **[UNCONFIRMED] TEST LATER: Creative Intelligence Partner retainer.** — Recurring value exists when there is live creative performance data, creator activity, a production team, and enough monthly decisions to learn from. Do not sell this to pre-revenue founders or brands without active distribution. Price range is a hypothesis, not market proof.\n4. **[LIKELY] PARK AS A SEPARATE LANE: Founder Signal Engine for B2B experts.** — Category demand is supported, but the buyer, proof, channel, and fulfillment rhythm differ from health-performance brand creative. Package recorded founder intelligence into point-of-view video, posts, sales-enablement insight assets, and Thought Leader Ad handoff on a separate page or campaign.\n5. **[LIKELY] EARN BEFORE SELLING: AI Creative Operating System install.** — AI-video and fractional-specialist category demand is strong, but the proof burden is higher. Productize research context, agent roles, human review, asset rights, and performance memory after repeated client work exposes the real workflow.\n\n## the inbound asset system\nEach asset should demonstrate the decision layer and end at the same paid entry. Do not turn the content engine into free custom consulting.\n1. **Weekly Health-Performance Creative White-Space Teardown** — Publish one evidence-backed visual teardown: buyer tension, missing audience or proof cell, one unowned angle, one test, and what not to make. Repurpose it as a LinkedIn post, 5-8 slide carousel, and 60-90 second founder video. Measure qualified DMs naming a live campaign problem.\n2. **Monthly Health Performance Creative Signals Brief** — Synthesize customer language, claims and proof shifts, creator formats, top-spend patterns, and three production implications. Publish as a visual brief, email edition, and LinkedIn document. Measure saves, internal forwards, and replies from founders, growth leads, creative directors, and agencies.\n3. **Decision Artifact Before-and-After** — Make invisible strategy inspectable without disclosing confidential information: raw product truth and customer language -> three angles -> lead choice -> proof direction -> build-priority card. The success signal is prospects asking about scope and decisions instead of asking whether you edit videos.\n4. **[LIKELY] What Not to Make Series** — Take one common category trope and explain the missing signal, performance risk, and sharper alternative. Use short video, single-image teardown, or a newsletter section. This filters for teams already spending on creative and feeling the cost of weak iteration.\n\n## what this evidence doesn't prove\n_PROOF BOUNDARY_\nMarketplace reports show completed-job or search demand, not your close rate. Platform studies are commercially interested sources and may not generalize across every brand. The public numbers validate the service categories and market direction; they do not validate your exact promise, price, buyer, or delivery burden.\n\n[VERIFIED] The current local campaign state in _active/linkedin/CAMPAIGN.md records 15 researched candidates, 7 verified public profiles, 0 sent, 0 held, 0 sold, and $0 collected. The Angle Map is strategically coherent and operationally prepared, but commercially UNTESTED / NO EVENT. The next truth comes from qualified exposure and payment, not another offer rewrite.\n\n## Source ledger\n1. Upwork In-Demand Skills 2026 — https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai (retrieved 2026-08-11, VERIFIED; used for: completed-job demand, AI creative, strategy, fractional talent)\n2. Fiverr Business Trends Index 2026 — https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026 (retrieved 2026-08-11, VERIFIED; used for: AI UGC, video editing, platform content demand)\n3. Fiverr Q2 2026 Results — https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results (retrieved 2026-08-11, VERIFIED; used for: low-value automation pressure and higher-value project shift)\n4. IAB Creator Economy Ad Spend 2025 — https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/ (retrieved 2026-08-11, VERIFIED; used for: creator channel spend and full-funnel buyer goals)\n5. WARC + TikTok New Creative Advantage — https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1 (retrieved 2026-08-11, VERIFIED; used for: AI creative volume versus quality gap)\n6. Meta Creator Marketplace — https://www.facebook.com/business/ads/creator-marketplace (retrieved 2026-08-11, LIKELY; used for: partnership-ad performance and creator infrastructure)\n7. Google Commercial Experiences 2026 — https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/ (retrieved 2026-08-11, VERIFIED; used for: creator matching and scaled AI asset production)\n8. LinkedIn B2B Creators 2025 — https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership (retrieved 2026-08-11, VERIFIED; used for: founder and expert-led content demand signals)\n\n## Context pack (agent feed)\n- `_active/linkedin/02-offer/ANGLE-MAP-ACTIVATION-PACKET.md` — current entry-offer canon\n- `_active/linkedin/02-offer/PROOF-TO-MARKET-OS.md` — current offer ladder and proof gates\n- `_active/linkedin/CAMPAIGN.md` — current commercial state\n- `skills/alex-copper-creative-strategy/SKILL.md` — creative-strategy operating system\n- `skills/alex-copper-creative-strategy/genius.md` — expert judgment and anti-patterns\n- https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai — Upwork In-Demand Skills 2026\n- https://ads.tiktok.com/business/en-US/blog/warc-report-new-creative-advantage?redirected=1 — WARC + TikTok, July 2026\n- https://www.iab.com/news/creator-economy-ad-spend-to-reach-37-billion-in-2025-growing-4x-faster-than-total-media-industry-according-to-iab/ — IAB Creator Economy 2025\n- https://www.facebook.com/business/ads/creator-marketplace — Meta Creator Marketplace\n- https://www.linkedin.com/business/marketing/blog/linkedin-ads/b2b-creator-thought-leadership — LinkedIn B2B Creators 2025\n- https://investors.fiverr.com/news-releases/news-release-details/fiverr-announces-second-quarter-2026-results — Fiverr Q2 2026\n- https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026 — Fiverr Business Trends Index 2026\n- https://blog.google/products/ads-commerce/digital-advertising-commerce-2026/ — Google Commercial Experiences 2026\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/creative-strategy-demand-20260811";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
