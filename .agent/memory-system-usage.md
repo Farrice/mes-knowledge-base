@@ -41,7 +41,24 @@ python3 execution/memory_facade.py "topic" --top 10
 python3 execution/memory_facade.py "topic" --json
 ```
 
-### Push a Session to Notion
+### Review and Sync a Session to Notion
+
+`/end-session` queues an allow-listed summary locally. It never contacts Notion
+and never uploads raw transcripts. Review the queue, approve only safe rows, and
+let the nightly mirror deliver approved rows idempotently:
+
+```bash
+python3 execution/notion_session_memory.py status
+python3 execution/notion_session_memory.py approve <key-prefix>
+python3 execution/notion_session_memory.py reject <key-prefix>
+python3 execution/notion_session_memory.py sync --dry-run
+```
+
+The nightly `mirror_notion.py` job syncs approved rows before pulling Notion back
+into `.memory/sovereign.db`. Failed delivery remains retryable; a successful or
+already-existing row gets a durable `synced` receipt and is not created twice.
+
+### Explicit One-Off Push
 ```bash
 # Manually log a session with key decisions + pickup
 python3 execution/notion_api.py session-memory "Session Title" \
@@ -82,7 +99,8 @@ python3 execution/memory_review.py
 | `execution/memory_embed.py` | Embed episodic rows (separate from ingest to avoid surprise LLM cost). |
 | `execution/memory_distill.py` | Cluster episodic entries + propose semantic rules via Gemini (WITH human gate). |
 | `execution/memory_review.py` | **Human gate.** Approve/reject proposed rules before they enter always-loaded semantic tier. |
-| `execution/notion_api.py` | Write to Notion Session Memory DB (allow-list: Title/Date/Mode/KeyDecisions/Pickup). |
+| `execution/notion_session_memory.py` | Local review queue, approval/rejection events, idempotent Session Memory sync receipts. |
+| `execution/notion_api.py` | Low-level Notion Session Memory API (allow-list: Title/Date/Mode/KeyDecisions/Pickup). |
 | `.memory/sovereign.db` | L2 semantic store. Fed from L1, human-reviewed before promotion. |
 | `~/.config/superpowers/.../db.sqlite` | L1 episodic index. 413 project-scoped exchanges. Read-only via facade. |
 | Notion Simon Library Hub | L3 browsable second brain. Knowledge Entries + Experts + Sources + Skills + Session Memory. |
@@ -114,9 +132,9 @@ python3 execution/memory_review.py
 
 - **L1 episodic**: 413 project exchanges indexed, queryable via facade
 - **L2 semantic**: 148 memories + 21 voice rules in sovereign.db
-- **L3 Notion**: 84 Knowledge Entries + 12 Experts + 12 Sources + 12 Skills (fully seeded + verified)
+- **L3 Notion**: 84 Knowledge Entries + 12 Experts + 12 Sources + 13 Skills (fully seeded + verified)
 - **Session Memory DB**: 38849875a89781c0950ef6a48bb28a72 (live + tested)
-- **Facade**: 5-store router (sovereign, automem, wiki, agents, episodic)
+- **Facade**: 8-source router (sovereign, Notion mirror, automem, wiki, agents, episodic, solutions, prompts)
 
 ---
 
@@ -136,7 +154,7 @@ Read these in order:
 - **Glance**: Library shows 84 entries, 12 experts, strong Copywriting (19) + Psychology (15) lanes ✓
 - **Filter**: `memory_facade.py "episodic" --sources episodic` returns past session snippets ✓
 - **Refusal**: (Advisor refusal on uncovered topics — requires grounded advisors, optional Phase 3.4)
-- **Session push**: `notion_api.py session-memory "test"` writes to Notion ✓; automatic closeout delivery is not active until a privacy policy is selected
+- **Session closeout**: `/end-session` queues locally; only explicitly approved allow-listed summaries are delivered by the nightly mirror. Raw transcripts and unapproved rows remain local.
 - **Idempotency**: `episodic_ingest.py run` then re-run = same results, no duplicates ✓
 
 ---

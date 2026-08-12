@@ -258,6 +258,17 @@ def main() -> int:
 
     start = time.time()
     print(f"Mirroring Notion → {DB_PATH} (mode={'full' if args.full else 'incremental'}, dry_run={args.dry_run})")
+    try:
+        from notion_session_memory import sync_approved
+        session_sync = sync_approved(dry_run=args.dry_run)
+        print(
+            "Session Memory outbox: "
+            f"eligible={session_sync['eligible']} synced={session_sync['synced']} "
+            f"failed={session_sync['failed']}"
+        )
+    except Exception as exc:
+        session_sync = {"eligible": 0, "synced": 0, "failed": 1, "error": str(exc)}
+        print(f"Session Memory outbox ERROR: {type(exc).__name__}: {exc}")
     stats = mirror_all(full=args.full, dry_run=args.dry_run, only=args.db)
     elapsed = time.time() - start
 
@@ -266,7 +277,7 @@ def main() -> int:
     errors = [s for s in stats if s.get("error")]
 
     print(f"\nDone in {elapsed:.1f}s. new={total_new}, updated={total_updated}, errors={len(errors)}")
-    return 1 if errors else 0
+    return 1 if errors or session_sync.get("failed") else 0
 
 
 if __name__ == "__main__":

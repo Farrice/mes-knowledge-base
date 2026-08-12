@@ -36,20 +36,27 @@ Second Brain claimed Session Memory was active and queryable.
 - The nightly registry includes Knowledge Entries, Experts, Sources, Skills &
   Playbooks, and Session Memory, while preserving the older operational set.
 - Notion requests have a bounded timeout and structured network errors.
-- Authority docs now distinguish the live library from the unwired automatic
-  session-closeout path.
+- `/end-session` writes an allow-listed local Session Memory row; explicit
+  approve/reject events control cloud delivery; the nightly mirror syncs approved
+  rows idempotently before pulling Notion back into local recall.
 
 ## Verification
 
 - Live integration token and all five Simon database schemas passed read-only API checks.
 - Expanded ten-database mirror dry-run: ten successes, zero errors.
-- Live counts: 84 Knowledge Entries, 12 Experts, 12 Sources, 13 Skills, 3 Session Memory rows.
-- `verify_notion_second_brain_reliability.py`: 7 pass, 0 fail.
+- Live counts: 84 Knowledge Entries, 12 Experts, 12 Sources, 13 Skills, 4 Session Memory rows.
+- `verify_notion_second_brain_reliability.py`: 11 pass, 0 fail.
 - Network-free `memory_facade --sources notion` returned real mirrored Notion records.
+- Live synthetic rehearsal `e2b2aaf81878aa45c78a`: one approved row synced,
+  zero failures; incremental pull reported one new and one updated row; exact
+  memory query returned the new Session Memory page first.
+- A real `chain_runner.py finalize --skip-notion` completed with `Notion: Skipped
+  (test mode)` and no DNS/network exception. Regression baseline reported local
+  insufficient data rather than contacting Notion.
 
-## Remaining policy gate
+## Privacy policy
 
-Automatic Session Memory delivery cannot be enabled safely until Farrice chooses
-the privacy mode: all distilled closeouts, explicit approval per closeout, or
-automatic only for closeouts marked safe. Do not infer that decision from the
-technical repair.
+The active mode is explicit approval per closeout. Raw transcripts and unapproved
+rows stay local. A successful or already-existing Notion row receives a durable
+`synced` receipt and cannot be delivered twice. Historical sessions remain
+unbackfilled until Farrice separately approves a bounded backfill.

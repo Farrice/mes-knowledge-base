@@ -340,6 +340,34 @@ def step_memory_bridge(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tu
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_notion_session_memory(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """Queue an allow-listed closeout summary locally for explicit review.
+
+    This step never contacts Notion. Network delivery belongs to the nightly
+    mirror and is eligible only after an `approved` event.
+    """
+    content = ctx.get("content")
+    if not content:
+        return "SKIP", "no content source resolved (see resolve-handoff)"
+    source_key = _dedup_key(content)
+    if dry_run:
+        return "OK", f"[dry-run] would queue Session Memory for review (key={source_key})"
+    try:
+        from notion_session_memory import queue_record  # noqa: E402
+
+        row = queue_record(
+            title=content["title"],
+            key_decisions=content.get("completed") or "",
+            pickup_prompt=content.get("remaining") or "",
+            mode="Codex/Claude closeout",
+            source_key=source_key,
+        )
+        suffix = "already queued" if row.get("duplicate") else "queued for review"
+        return "OK", f"Session Memory {suffix} (key={row['key']})"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 def step_cos_journal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
     if not COS_DIR.exists():
         return "SKIP", ".agent/cos/ does not exist"
@@ -988,6 +1016,7 @@ def run(slug: str, degraded: bool, dry_run: bool,
         ("resolve-handoff", lambda: step_resolve_handoff(ctx, degraded, dry_run)),
         ("closeout-intelligence", lambda: step_closeout_intelligence(ctx, degraded, dry_run)),
         ("memory-bridge", lambda: step_memory_bridge(ctx, degraded, dry_run)),
+        ("notion-session-memory", lambda: step_notion_session_memory(ctx, degraded, dry_run)),
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),

@@ -78,6 +78,8 @@ Thumbs.db
 # holds verbatim copies of .agent/session-state.md, which is deliberately
 # never committed (privacy) — must never leak via `git add .`.
 .agent/sessions/end-session-memory-ledger.jsonl
+.agent/sessions/notion-session-memory-outbox.jsonl
+.agent/sessions/notion-session-memory-events.jsonl
 .agent/sessions/state-archive/
 
 # Ephemeral intent-tracking state
