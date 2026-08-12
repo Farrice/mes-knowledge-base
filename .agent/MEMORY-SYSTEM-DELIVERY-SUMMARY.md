@@ -23,6 +23,16 @@ You requested a proper second brain to capture sessions, prevent context bloat, 
 - **Why This**: Raw conversations never auto-promote; humans control what becomes "always-loaded" memory
 
 ### Layer 3: Notion Second Brain (Browsable)
+
+> **2026-08-11 reliability correction:** The integration and all five Simon
+> Library databases remain live, but automatic session-closeout delivery was
+> never wired. The Session Memory database currently contains three setup and
+> verification rows, not the full session history. The nightly mirror had also
+> continued targeting only the older operational database set. The reliability
+> repair makes Notion a first-class, network-free `memory_facade` source through
+> the local mirror and expands the nightly registry to the five Simon databases.
+> Automatic Session Memory delivery remains privacy-policy gated; do not describe
+> it as active until that policy is selected and its delivery receipt passes.
 - **What**: 84 Knowledge Entries + 12 Experts + 12 Sources + 12 Skills
 - **Engine**: Notion Simon Intellectual Library (integration-owned classic DBs)
 - **Access**: Open Notion hub to see library; query via `/library-*` skills
@@ -149,7 +159,7 @@ Result: **One query, five stores, zero bloat.**
 ## ⚡ Next Steps (Optional/Human Gate)
 
 1. **Deploy advisors** (optional): Run Notion AI Prompts 2-4 from `_active/knowledge/notion-intellectual-library/` to create grounded advisors
-2. **Wire handoff** (optional Phase 4): Have `/handoff` also push Session Memory rows
+2. **Wire handoff** (privacy-policy gate): Choose automatic, approval-gated, or explicit-safe-only Session Memory delivery before wiring `/handoff` or `/end-session`
 3. **Automate weekly** (optional): cron job or launchd task for episodic_ingest + distill loop
 
 None of these block the system from working right now. All three layers are live.
@@ -159,7 +169,7 @@ None of these block the system from working right now. All three layers are live
 ## 🏁 The Delivered Promise
 
 ✅ Context bloat eliminated (query facade instead of pre-loading)
-✅ Notion logs now active (84 entries + session memory queryable)
+✅ Notion Library live and queryable; automatic session-closeout delivery not yet active
 ✅ Previous context captured mechanically (no manual logging)
 ✅ Second brain ready (Notion dashboard ready to browse)
 ✅ Clean 3-layer stack (no 8th memory file created)

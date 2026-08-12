@@ -20,7 +20,7 @@ Replace bloated context windows with a queryable second brain that:
 |-------|------|-------|-------|
 | **L1** | Full conversation history (mechanical capture) | `~/.config/superpowers/conversation-index/db.sqlite` | `memory_facade.py --sources episodic` |
 | **L2** | Distilled rules & voice (human-reviewed) | `.memory/sovereign.db` | `memory_facade.py --sources sovereign` |
-| **L3** | Browsable knowledge + session logs | Notion Simon Library + local mirror | Open Notion hub or `/library-*` skills |
+| **L3** | Browsable knowledge + privacy-gated session logs | Notion Simon Library + local mirror | `memory_facade.py` includes the network-free `notion` source; open Notion for the human dashboard |
 
 ---
 
@@ -136,7 +136,7 @@ Read these in order:
 - **Glance**: Library shows 84 entries, 12 experts, strong Copywriting (19) + Psychology (15) lanes ✓
 - **Filter**: `memory_facade.py "episodic" --sources episodic` returns past session snippets ✓
 - **Refusal**: (Advisor refusal on uncovered topics — requires grounded advisors, optional Phase 3.4)
-- **Session push**: `notion_api.py session-memory "test"` writes to Notion ✓
+- **Session push**: `notion_api.py session-memory "test"` writes to Notion ✓; automatic closeout delivery is not active until a privacy policy is selected
 - **Idempotency**: `episodic_ingest.py run` then re-run = same results, no duplicates ✓
 
 ---

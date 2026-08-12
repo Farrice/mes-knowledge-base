@@ -2,7 +2,8 @@
 """
 Mirror Notion — Sprint 3 Notion DB mirror to sovereign sqlite.
 
-Pulls 5 of 6 Notion databases into the local `notion_mirror` table so
+Pulls the operational databases and Simon Intellectual Library into the local
+`notion_mirror` table so
 sovereign memory has a queryable, workspace-filterable view of Notion
 content without round-tripping the API.
 
@@ -35,13 +36,19 @@ from notion_api import NotionAPI, NotionAPIError  # noqa: E402
 from memory_store import DB_PATH  # noqa: E402
 
 
-# 5 of 6 Notion DBs — Captures excluded (volatile)
+# Operational DBs plus the integration-owned Simon Intellectual Library.
+# Captures remains excluded because it is high-volume and low retrieval value.
 DB_REGISTRY = {
     "projects":  "cf93599a-a201-4e55-a6b9-f2f58ae6fd77",
     "knowledge": "5c63b25c-e040-4c6f-8a7b-906643090694",
     "content":   "ff77ee45-8ee8-4fce-996e-20c76fa65d9c",
     "personal":  "0911ef04-8117-463f-8b21-e7f6c1a1ef4a",
     "performance": "31f49875-a897-81db-b599-dee5e7961b5c",
+    "library_knowledge": "38849875-a897-812c-b693-c7b35e7530a6",
+    "library_experts": "38849875-a897-81d7-8ed5-f5731ce0d1c1",
+    "library_sources": "38849875-a897-8115-85f2-f1a30e2291a4",
+    "library_skills": "38849875-a897-813d-a451-fdb32c7121f2",
+    "session_memory": "38849875-a897-81c0-950e-f6a48bb28a72",
 }
 
 

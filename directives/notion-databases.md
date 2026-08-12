@@ -13,6 +13,24 @@ These are Farrice's structured Notion databases. Use the Notion API (`@notionhq/
 | **Farrice Cain — Personal Context** | `0911ef04-8117-463f-8b21-e7f6c1a1ef4a` | Personal insights, worldview, identity, journal extractions |
 | **Performance Log** | `31f49875-a897-81db-b599-dee5e7961b5c` | Autoresearch feedback ratchet — quality signals per output for self-improvement |
 
+### Simon Intellectual Library — integration-owned Second Brain
+
+These classic databases were created under the Simon Library hub so the API
+integration can read and write them directly. They are included in the nightly
+local mirror and surfaced through `memory_facade.py --sources notion`.
+
+| Database | ID | Purpose |
+|---|---|---|
+| **Knowledge Entries** | `38849875-a897-812c-b693-c7b35e7530a6` | Atomic insights and frameworks with confidence and relations |
+| **Experts** | `38849875-a897-81d7-8ed5-f5731ce0d1c1` | Expert index and knowledge-entry relations |
+| **Sources** | `38849875-a897-8115-85f2-f1a30e2291a4` | Books, videos, courses, articles, and podcasts |
+| **Skills & Playbooks** | `38849875-a897-813d-a451-fdb32c7121f2` | Triggerable skills and advisor playbooks |
+| **Session Memory** | `38849875-a897-81c0-950e-f6a48bb28a72` | Privacy-allow-listed session decisions and pickup prompts |
+
+Automatic closeout delivery to Session Memory is not active until Farrice
+selects a privacy policy. Manual `notion_api.py session-memory` writes remain
+available and the database is mirrored read-only into sovereign memory.
+
 ## API Access
 
 ```javascript

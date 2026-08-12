@@ -71,8 +71,14 @@ class NotionAPI:
 
     def _request(self, method: str, path: str, body: Optional[dict] = None) -> dict:
         url = f'{BASE_URL}{path}'
-        res = requests.request(method, url, headers=self.headers, json=body)
-        data = res.json()
+        try:
+            res = requests.request(method, url, headers=self.headers, json=body, timeout=20)
+        except requests.RequestException as exc:
+            raise NotionAPIError(0, 'network_unavailable', f'Notion network unavailable: {exc}') from exc
+        try:
+            data = res.json()
+        except ValueError as exc:
+            raise NotionAPIError(res.status_code, 'invalid_response', 'Notion returned a non-JSON response') from exc
         if not res.ok:
             raise NotionAPIError(res.status_code, data.get('code', 'unknown'), data.get('message', f'HTTP {res.status_code}'))
         return data
