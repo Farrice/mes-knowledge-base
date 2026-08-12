@@ -1,16 +1,19 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 12, 2026
 
-Shelf-ready and untouched — treat its ready flag as history until someone pitches it.
+The offer is done being designed; it is now purely a distribution problem.
 
 ## where this stands
 _CURRENT POSITION_
-The offer layer is written and marked ready — messaging-led, with the search-visibility angle demoted to a module inside it. Nothing moved on it in this window and every mission attached to it closed some time ago.
+The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.
 
-Handoff status is ready.
+Handoff status is ready. Last activity today.
 
-Next: Decide whether this is still the offer being sold, and either put it in front of someone or retire it.
+Next: Pick a real supplement or performance brand and send the offer to a named person there.
+
+## by the numbers
+- SESSIONS: **1** (codex)
 
 ## lifecycle
 
@@ -28,13 +31,16 @@ python3 execution/pulse_actions.py done proof-to-market --outcome "<one line>"
 ```
    receipt: It leaves the open set on the next pulse regen.
 
+## how it got here
+- 2026-08-12 · **codex session** — Revenue: AI Proof-to-Market Ideas - Cash Validation Ranking
+
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-07-18-proof-to-market.md
 - [BOARD] Mission board — every live thread — deliverables/research-briefs/mission-board/mission-board-brief.html
 
 ## what this isn't
 _READ THE EDGES_
-There is no recorded activity at all in this window, so the ready status reflects a past decision rather than a current one. Whether it matches what's actively being pitched is unverified.
+Everything backing "ready" is internal: council runs and grounding passes, not a prospect reaction. Demand for this exact offer stays unconfirmed until someone pays. A newer zero-based verdict elsewhere argues Farrice should lead with AI workflow work rather than messaging-led offers, and the two have not been reconciled.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

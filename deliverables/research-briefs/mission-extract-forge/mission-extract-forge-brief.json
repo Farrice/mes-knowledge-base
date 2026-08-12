@@ -2,11 +2,11 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "The forge works; the backlog isn't build debt, it's unused output.",
+  "dek": "The extraction engine works; what's unresolved is whether we trust our own grade on it.",
   "window": "last 14 days",
   "lens": "codex · claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The extraction pipeline is functionally finished — a run of forge-grade expert builds landed, some scored well enough to keep, and the handoff carries no build debt. What remains is a taste verdict, not engineering.\n\nHandoff status is ready. Last activity 5d ago.\n\nNext: Run the blind recognition pass only if promoting these extractions would change which ones you actually reach for."
+      "body": "The extraction pipeline is the most productive thing in the system right now — expert after expert has gone through it and come out as a working skill. What remains is not build work; it is Farrice's own blind verdict on whether the output reads as the real expert.\n\nHandoff status is ready. Last activity 6d ago.\n\nNext: Decide whether that blind verdict is worth a session — if not, close the thread and keep using the skill as it stands."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "12",
+          "value": "13",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "The open line is a promotion decision rather than missing work — it costs nothing to leave open, but it also keeps the thread from closing."
+          "why": "This is a taste verdict, not a defect. Left open, it makes a finished build read as unfinished on every board it appears on."
         }
       ]
     },
@@ -192,7 +192,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Most extractions here logged their outcome as usage-tracked rather than revenue-bearing, which means almost nothing in this thread has been tested against real work. Several builds landed under the keep line and were never revisited.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The scores this pipeline assigns itself skew low, and self-scoring is the only grade most of these extractions carry — volume is far better evidenced here than quality.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

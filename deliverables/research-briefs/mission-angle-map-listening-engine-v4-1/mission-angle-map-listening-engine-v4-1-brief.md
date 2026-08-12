@@ -1,20 +1,21 @@
 # 2026-08-03 Angle Map Listening Brief
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 12, 2026
 
-The engine is dependable; what it produces is consistently mediocre.
+The best-running machine we own is producing posts the system has no record of anyone publishing.
 
 ## where this stands
 _CURRENT POSITION_
-The listening engine runs end to end — briefs land with vaulted posts and finished carousels attached, living docs get fed, the mirror verifies. Every run scored under the keep line, so the output is usable but not good.
+The listening engine genuinely runs: each cycle produces a brief with a flagship post and finished assets filed ready to publish, and it feeds its own living docs without a person restarting it. It is the closest thing here to a machine that converts input into publishable output on its own.
 
-Handoff status is active. Last activity 6d ago.
+Handoff status is active. Last activity today.
 
-Next: Repair the weakest recurring section of the brief format instead of running another cycle on top of it.
+Next: Publish what the engine has already filed as ready before running another cycle.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **10 d**
+- SESSIONS: **1** (claude · codex)
+- DAYS ACTIVE: **11 d**
 
 ## lifecycle
 
@@ -33,6 +34,7 @@ python3 execution/pulse_actions.py done angle-map-listening-engine-v4-1 --outcom
    receipt: It leaves the open set on the next pulse regen.
 
 ## how it got here
+- 2026-08-12 · **codex session** — Content: Angle Map Listening Engine - V4.1 Content Factory
 - 2026-08-05 · **Finalized · angle-map-listening-engine-v4.1** — 2026-08-05 Angle Map listening brief (Wed promises deep dive): P&G-Thorne trust-ownership angle, flagship post + Buyer's Ledger teardown #1 vault-filed, 3 insight + 2 promises rows, living docs 07/03 fed, Drive mirror ve
 - 2026-08-03 · **Finalized · angle-map-listening-engine-v4.1** — Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief — flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 03/07 fed, Drive mirr
 - 2026-08-01 · **Finalized · angle-map-listening** — 2026-08-01 Angle Map Listening Brief (Saturday winners teardown): creatine-handoff angle with VERIFIED winner view counts, CONCRET-MENOPA evidence-fit gap, 3 verbatim PNK receipts, flagship post + 2 finished scripts vaul
@@ -43,7 +45,7 @@ python3 execution/pulse_actions.py done angle-map-listening-engine-v4-1 --outcom
 
 ## what this isn't
 _READ THE EDGES_
-Scores cluster just below the bar across every run, which usually means a structural flaw in the format rather than a bad day. No downstream result from any vaulted post is recorded.
+Output quality is self-scored and sits in the middle band, and the scheduled job behind this engine has been flagged as falling behind its cadence — so "active" may describe its last good run rather than a current one. A verdict on another thread argues for parking the Angle Map as the lead offer entirely, which would change what this engine is for.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

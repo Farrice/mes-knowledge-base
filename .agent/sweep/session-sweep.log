@@ -279,3 +279,43 @@ released
 {"session_sweep": "2026-08-11T02:48:28.503240", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 145, "threads_seen": 433, "threads_promoted": 12, "deliverables": 45, "artifacts": 168, "assets": 257, "artifacts_vanished": 83, "overflow": 204}, "degraded": []}
 {"session_sweep": "2026-08-11T02:48:28.503240", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 145, "threads_seen": 433, "threads_promoted": 12, "deliverables": 45, "artifacts": 168, "assets": 257, "artifacts_vanished": 83, "overflow": 204}, "degraded": []}
 === 2026-08-11 02:48:28 mission sweep end rc=0 ===
+=== 2026-08-12 02:45:05 mission sweep start ===
+claimed: bb6f5823eccd  (heartbeat every wave: session_lock.py heartbeat bb6f5823eccd)
+[session_sweep] window 14d — 226 sessions, 12/459 threads promoted, 53 deliverables, 165 artifacts, 258 assets
+  · linkedin                               build    handoff status: active, artifact written, asset generated
+  · oren-slop-era-creative-strategy        build    handoff status: active, artifact written
+  · video-studio-edit-bay                  build    handoff status: ready, artifact written, asset generated
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · first-client-engine                    shipped  finalized deliverable, handoff status: active
+  · trailer-treatment                      outcome  finalized deliverable, handoff status: active
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · 04-briefs                              shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · system-audit                           outcome  finalized deliverable, handoff status: active
+  · execution                              research handoff status: active
+[session_sweep] over the 12-card ceiling (212), not carded: linkedin-profile-content, benoit-vatere, kallaway-hook-mastery, teardown-1-fresh, farrice-brand, health-performance-ip-library, voice-identity-stack, mission, writers-room, listing-content
+[session_sweep] shipped without a live thread: 28 (surfaces on the mission board)
+[session_sweep] below the bar (235): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, alex-copper-static-acquisition, angle-brief-2026-08-06, angle-brief-2026-08-10
+[session_sweep] wrote .agent/sweep/sweep-2026-08-12.json
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-linkedin, mission-proof-to-market, mission-angle-map-listening-engine-v4-1, mission-trailer-treatment, mission-01-listing-content …
+Written: `.agent/sweep/synthesis.json` — 12 entries (11 threads + `mission-board`), no other files touched.
+
+**Verified by dry-run render** (in-process, nothing written): every entry merges cleanly, and each `why` key maps to a real decision item the brief actually generates — no orphan keys. Also checked mechanically for digits, paths and filenames in the prose: none.
+
+**One thread omitted — `execution`.** It has no sessions, no files, no assets, no last-active timestamp, and its closed missions are four unrelated things (a scraping integration, an affiliate validation, a premium-offer arc, a stopped idea). It's a slug minted from a directory name with no coherent thread behind it. Nothing honest to say, so it gets no synthesis and falls back to facts-only.
+
+**What the reads actually converged on** — worth knowing before you open the board:
+
+- The dominant pattern across live threads is *made, not sent*: client work approved and undelivered, an offer ready with no named buyer, a studio built with no pilot run, a listening engine filing posts the system has no record of anyone publishing. That's the board lede.
+- `first-client-engine` contradicts the live campaign — it argues for parking the Angle Map in favor of a bounded workflow pilot. I flagged that fork in three places (its own thread, `proof-to-market`, `angle-map-listening-engine-v4-1`) rather than picking a side, since it's a decision, not a fact.
+- Two threads carry titles captured from unrelated finalize notes (`system-audit` reads as a Jen listing pack; `04-briefs` as a content-team playbook). I noted the mislabel in their caveats — it's a real retrieval hazard, not cosmetic.
+- I let one caveat cite something outside the bundle: the angle-map scheduled job being flagged as behind cadence. It's the honest answer to "what's at risk here" and it materially qualifies that thread's `active` status.
+
+Note on placement: I wrote to the main tree rather than a lane, since the brief renderer reads this exact path and a lane copy wouldn't reach it.
+[mission_brief] 13 brief(s) written: mission-extract-forge, mission-linkedin, mission-proof-to-market, mission-angle-map-listening-engine-v4-1, mission-trailer-treatment, mission-01-listing-content …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (46 briefs · routes verified · 46 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-12T02:49:17.212288", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 226, "threads_seen": 459, "threads_promoted": 12, "deliverables": 53, "artifacts": 165, "assets": 258, "artifacts_vanished": 69, "overflow": 212}, "degraded": []}
+{"session_sweep": "2026-08-12T02:49:17.212288", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 226, "threads_seen": 459, "threads_promoted": 12, "deliverables": 53, "artifacts": 165, "assets": 258, "artifacts_vanished": 69, "overflow": 212}, "degraded": []}
+=== 2026-08-12 02:49:17 mission sweep end rc=0 ===

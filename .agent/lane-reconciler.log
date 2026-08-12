@@ -2204,3 +2204,155 @@ skipped-live     codex/weekly-revenue-closeout                  10 uncommitted f
 parked-blocked   codex/antigravity-operator-core                LANE PARKED: codex/antigravity-operator-core — main tree dirty (132 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/antigravity-operator-core
 
 20 lane(s): 0 merged · 0 reclaimed · 11 parked · 9 live · 63 commit(s) still stranded
+parked-conflict  claude/nostalgic-lalande-e1ce93                8 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ _system/organization/aliases.json
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+                   └─ evolution_store/failure-registry.md
+                   └─ guides/2026-08-11-.md
+                   └─ guides/INDEX.md
+parked-conflict  worktree-style-vault                           3 file(s) collide — needs resolution
+                   └─ .agent/assets/assets-board.html
+                   └─ SLASH_COMMANDS.md
+                   └─ _active/linkedin/CAMPAIGN.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-card-integrity             2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/brief_library.py
+parked-conflict  codex/briefing-room-gtm-preview                16 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +8 more
+parked-conflict  codex/creative-strategy-demand-20260811        1 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+parked-conflict  codex/expert-practice-os-closeout              1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+parked-blocked   codex/jason-buyer-psychology-canonical         LANE PARKED: codex/jason-buyer-psychology-canonical — main tree dirty (69 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/jason-buyer-psychology-canonical
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+torn-down        codex/paolo-linkedin-2026                      LANE PARKED: codex/paolo-linkedin-2026 — main tree dirty (69 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/paolo-linkedin-2026
+parked-blocked   codex/portable-brief-export                    LANE PARKED: codex/portable-brief-export — main tree dirty (69 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/portable-brief-export
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/systems-thinking-global-shadow           LANE PARKED: codex/systems-thinking-global-shadow — main tree dirty (69 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/systems-thinking-global-shadow
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-blocked   codex/antigravity-operator-core                LANE PARKED: codex/antigravity-operator-core — main tree dirty (69 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/antigravity-operator-core
+
+21 lane(s): 0 merged · 1 reclaimed · 11 parked · 9 live · 63 commit(s) still stranded
+parked-conflict  claude/nostalgic-lalande-e1ce93                8 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ _system/organization/aliases.json
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+                   └─ evolution_store/failure-registry.md
+                   └─ guides/2026-08-11-.md
+                   └─ guides/INDEX.md
+parked-conflict  worktree-style-vault                           3 file(s) collide — needs resolution
+                   └─ .agent/assets/assets-board.html
+                   └─ SLASH_COMMANDS.md
+                   └─ _active/linkedin/CAMPAIGN.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-card-integrity             2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/brief_library.py
+parked-conflict  codex/briefing-room-gtm-preview                16 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +8 more
+parked-conflict  codex/creative-strategy-demand-20260811        1 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+parked-conflict  codex/expert-practice-os-closeout              1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+parked-blocked   codex/jason-buyer-psychology-canonical         LANE PARKED: codex/jason-buyer-psychology-canonical — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/jason-buyer-psychology-canonical
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+torn-down        codex/nathan-gotch-keyword-research-v2026      LANE PARKED: codex/nathan-gotch-keyword-research-v2026 — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/nathan-gotch-keyword-research-v2026
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+parked-blocked   codex/portable-brief-export                    LANE PARKED: codex/portable-brief-export — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/portable-brief-export
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/systems-thinking-global-shadow           LANE PARKED: codex/systems-thinking-global-shadow — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/systems-thinking-global-shadow
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-blocked   codex/antigravity-operator-core                LANE PARKED: codex/antigravity-operator-core — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/antigravity-operator-core
+
+22 lane(s): 0 merged · 1 reclaimed · 11 parked · 10 live · 64 commit(s) still stranded
+parked-conflict  claude/nostalgic-lalande-e1ce93                8 file(s) collide — needs resolution
+                   └─ PROJECTS.md
+                   └─ _system/organization/aliases.json
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+                   └─ evolution_store/failure-registry.md
+                   └─ guides/2026-08-11-.md
+                   └─ guides/INDEX.md
+parked-conflict  worktree-style-vault                           3 file(s) collide — needs resolution
+                   └─ .agent/assets/assets-board.html
+                   └─ SLASH_COMMANDS.md
+                   └─ _active/linkedin/CAMPAIGN.md
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-card-integrity             2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/brief_library.py
+parked-conflict  codex/briefing-room-gtm-preview                16 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +8 more
+parked-conflict  codex/creative-strategy-demand-20260811        1 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+parked-conflict  codex/expert-practice-os-closeout              1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+parked-blocked   codex/jason-buyer-psychology-canonical         LANE PARKED: codex/jason-buyer-psychology-canonical — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/jason-buyer-psychology-canonical
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-blocked   codex/nathan-gotch-keyword-research-v2026      LANE PARKED: codex/nathan-gotch-keyword-research-v2026 — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/nathan-gotch-keyword-research-v2026
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+parked-blocked   codex/portable-brief-export                    LANE PARKED: codex/portable-brief-export — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/portable-brief-export
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/systems-thinking-global-shadow           LANE PARKED: codex/systems-thinking-global-shadow — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/systems-thinking-global-shadow
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-blocked   codex/antigravity-operator-core                LANE PARKED: codex/antigravity-operator-core — main tree dirty (71 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/antigravity-operator-core
+
+22 lane(s): 0 merged · 0 reclaimed · 12 parked · 10 live · 65 commit(s) still stranded

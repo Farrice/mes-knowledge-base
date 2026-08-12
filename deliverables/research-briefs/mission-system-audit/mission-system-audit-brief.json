@@ -2,11 +2,11 @@
   "slug": "mission-system-audit",
   "chip": "MISSION · THREAD",
   "title": "Retry weakest section for intent *alignment*",
-  "dek": "Audits keep getting written; whether any of them changed behavior is the open question.",
+  "dek": "The judgment floor landed, the thread never closed, and its name points at the wrong work.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The work here pushed evidence-backed judgment and pushback into the other harness so meaningful asks stop needing a manual preamble, alongside an after-action record and a verifier. Both passes scored under the keep line and the thread has gone quiet since.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: Check whether the judgment-floor change actually holds in live use, then close or park the thread."
+      "body": "This thread shipped a change to how the harness defaults to evidence-backed judgment and pushback, plus repairs to the verification and routing telemetry around it. It has been quiet since, and it carries a title picked up from an unrelated client deliverable.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Decide whether the judgment-floor change is settled — close the thread if it is, or name the behavior still misfiring if it isn't."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "7",
+          "value": "8",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Decide: resume or park",
-          "why": "It has been idle long enough that the change is either working silently or was never exercised, and nobody has established which."
+          "why": "It has gone quiet while still marked open, and an audit thread that lingers half-open makes every future audit look unfinished."
         }
       ]
     },
@@ -138,7 +138,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "One recorded outcome states an earlier audit was never read and a control it recommended was never applied anywhere. Audits produced but unabsorbed is the pattern to watch in this thread specifically.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The shipped work self-scored below the system's own keep bar and was never re-graded. The mislabeled title also means anyone finding this thread by name will misidentify what it contains.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

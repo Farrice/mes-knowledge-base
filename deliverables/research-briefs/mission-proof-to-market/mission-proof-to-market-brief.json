@@ -2,11 +2,11 @@
   "slug": "mission-proof-to-market",
   "chip": "MISSION · THREAD",
   "title": "PROOF-TO-MARKET-OS.md v2.*0*",
-  "dek": "Shelf-ready and untouched — treat its ready flag as history until someone pitches it.",
+  "dek": "The offer is done being designed; it is now purely a distribution problem.",
   "window": "last 14 days",
-  "lens": "claude",
-  "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "lens": "codex",
+  "sources": "1 sessions · 0 files · 0 assets",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,19 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The offer layer is written and marked ready — messaging-led, with the search-visibility angle demoted to a module inside it. Nothing moved on it in this window and every mission attached to it closed some time ago.\n\nHandoff status is ready.\n\nNext: Decide whether this is still the offer being sold, and either put it in front of someone or retire it."
+      "body": "The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.\n\nHandoff status is ready. Last activity today.\n\nNext: Pick a real supplement or performance brand and send the offer to a named person there."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "codex"
+        }
+      ]
     },
     {
       "kind": "progress",
@@ -65,6 +77,19 @@
       ]
     },
     {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "Revenue: AI Proof-to-Market Ideas - Cash Validation Ranking",
+          "done": true
+        }
+      ]
+    },
+    {
       "kind": "related",
       "heading": "swings to",
       "tag": "CONNECTED",
@@ -85,7 +110,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "There is no recorded activity at all in this window, so the ready status reflects a past decision rather than a current one. Whether it matches what's actively being pitched is unverified.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Everything backing \"ready\" is internal: council runs and grounding passes, not a prospect reaction. Demand for this exact offer stays unconfirmed until someone pays. A newer zero-based verdict elsewhere argues Farrice should lead with AI workflow work rather than messaging-led offers, and the two have not been reconciled.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

@@ -766,3 +766,12 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-11 16:05]` **finalize** | Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt | general | curious-refuge — composite:8.67 status:Keep
 - `[2026-08-11 23:30]` **finalize** | Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explic | general | jordan-crawford — composite:7.33 status:Needs Improvement
 - `[2026-08-11 23:32]` **finalize** | Direct verdict: do not select The Angle Map as the primary offer from current evidence; test a marke | general | jordan-crawford — composite:8.67 status:Keep
+- `[2026-08-12 02:25]` **finalize** | Zero-based offer verdict: park the Angle Map as the primary cash offer. Pursue a bounded One-Workflo | general | andrew-dun — composite:6.67 status:Needs Improvement
+- `[2026-08-12 02:26]` **finalize** | For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed pai | general | andrew-dun — composite:6.67 status:Needs Improvement
+- `[2026-08-12 02:33]` **finalize** | Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos f | general | alan-aragon — composite:6.67 status:Needs Improvement
+- `[2026-08-12 02:41]` **finalize** | New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-m | general | alan-aragon — composite:7.0 status:Needs Improvement
+- `[2026-08-12 02:42]` **finalize** | Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis | general | strength-conditioning — composite:7.33 status:Needs Improvement
+- `[2026-08-12 02:42]` **finalize** | Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis | general | strength-conditioning — composite:7.33 status:Needs Improvement
+- `[2026-08-12 02:42]` **finalize** | Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis | general | strength-conditioning — composite:9.0 status:Keep
+- `[2026-08-12 03:10]` **finalize** | Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-positio | general | michael-israetel — composite:7.0 status:Needs Improvement
+- `[2026-08-12 04:42]` **finalize** | Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 se | general | michael-israetel — composite:7.0 status:Needs Improvement

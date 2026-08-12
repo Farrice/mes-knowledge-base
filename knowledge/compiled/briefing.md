@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-08-11 | 1089 sources | 3,485,620 words*
+*Generated: 2026-08-12 | 1089 sources | 3,485,822 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 6,933 words — `knowledge/index.md`
-- **log** (general) — 18,923 words — `knowledge/log.md`
+- **log** (general) — 19,125 words — `knowledge/log.md`
 - **architecture** (strategy [april-dunford]) — 510 words — `extractions/jordan-crawford-gtm-intelligence/architecture.md`
 - **live-research-hardening-2026-08-09** (copywriting) — 600 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/live-research-hardening-2026-08-09.md`
 - **mature-company-fixture** (strategy [april-dunford]) — 670 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/mature-company-fixture.md`

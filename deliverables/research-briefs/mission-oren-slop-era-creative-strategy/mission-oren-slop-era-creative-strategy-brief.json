@@ -1,0 +1,236 @@
+{
+  "slug": "mission-oren-slop-era-creative-strategy",
+  "chip": "MISSION · SKILLS",
+  "title": "Oren Slop Era Creative Strategy — Blind Pass *Sample*",
+  "dek": "Extracted but unproven — there's been motion near this thread, not on it.",
+  "window": "last 14 days",
+  "lens": "claude · codex",
+  "sources": "4 sessions · 6 files · 0 assets",
+  "compiled": "aug 12, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "The extraction ran and a blind-pass sample exists, but the output was graded as needing improvement and nothing finished has been filed against the thread since. Recent sessions have drifted toward adjacent creative-strategy questions rather than closing this one.\n\nHandoff status is active. Last activity today.\n\nNext: Run the blind pass against a real published piece and either promote the skill or record why it failed."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "6",
+          "label": "FILES WRITTEN"
+        },
+        {
+          "value": "4",
+          "label": "SESSIONS",
+          "note": "claude · codex"
+        },
+        {
+          "value": "6",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
+        },
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "6",
+          "unit": "files",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "current",
+          "note": "files are moving; nothing finalized"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "SKILL.md",
+          "role": "FILE",
+          "path": "skills/oren-slop-era-creative-strategy/SKILL.md",
+          "note": "aug 6, 2026"
+        },
+        {
+          "title": "blind-pass-sample.md",
+          "role": "FILE",
+          "path": "extractions/oren-slop-era-creative-strategy/blind-pass-sample.md",
+          "note": "aug 4, 2026"
+        },
+        {
+          "title": "genius.md",
+          "role": "FILE",
+          "path": "skills/oren-slop-era-creative-strategy/genius.md",
+          "note": "aug 4, 2026"
+        },
+        {
+          "title": "source-ledger.md",
+          "role": "FILE",
+          "path": "skills/oren-slop-era-creative-strategy/references/source-ledger.md",
+          "note": "aug 4, 2026"
+        },
+        {
+          "title": "standard-of-excellence-doc.md",
+          "role": "FILE",
+          "path": "skills/oren-slop-era-creative-strategy/references/prompts-v2/standard-of-excellence-doc.md",
+          "note": "aug 4, 2026"
+        },
+        {
+          "title": "creator-upfronts-slate.md",
+          "role": "FILE",
+          "path": "skills/oren-slop-era-creative-strategy/references/prompts-v2/creator-upfronts-slate.md",
+          "note": "aug 4, 2026"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Oren Slop Era Creative Strategy — Blind Pass Sample",
+          "command": "python3 execution/handoff_store.py resume oren-slop-era-creative-strategy",
+          "touches": [
+            ".agent/handoffs/2026-08-04-oren-slop-era-creative-strategy.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "Revenue: Creative Strategy Offers - Current Demand Map",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "Extraction: Oren Slop-Era Strategy - Creative Forge",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "Extraction: Dara Denney Creative Strategy - Client Delivery…",
+          "done": true
+        },
+        {
+          "date": "2026-08-05",
+          "title": "claude session · 29 msgs",
+          "body": "Oren Slop-Era Creative Strategy — Forge Extraction (2 Fresh 2026 Videos)",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-04-oren-slop-era-creative-strategy.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "video studio edit bay",
+          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The grade on this extraction is self-assigned and low. Sessions attached here span more than this skill, so the thread's apparent activity overstates progress on the skill itself.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "mission-trailer-treatment",
+  "chip": "MISSION · THREAD",
+  "title": "Midnight Oil native reference pack, continuity *manifest*…",
+  "dek": "The hard part — canon and continuity — is done, and the thread stalls at pressing go.",
+  "window": "last 14 days",
+  "lens": "codex",
+  "sources": "0 sessions · 0 files · 0 assets",
+  "compiled": "aug 12, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "A director-level package for an original animated trailer exists — reference pack, continuity rules, and a master prompt built to hold character and world consistency across shots. The ledger shows nothing generated from it.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Generate from the master prompt and judge the resulting shots against the continuity rules."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "3",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt",
+          "command": "python3 execution/handoff_store.py resume trailer-treatment",
+          "touches": [
+            ".agent/handoffs/2026-08-11-trailer-treatment.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-11",
+          "title": "Finalized · trailer-treatment",
+          "body": "OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling-physics constraints, character and world continuity locks, ",
+          "done": true
+        },
+        {
+          "date": "2026-08-11",
+          "title": "Finalized · trailer-treatment",
+          "body": "OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon assets, a four-act timecoded story spine, accurate bowling me",
+          "done": true
+        },
+        {
+          "date": "2026-08-11",
+          "title": "Finalized · trailer-treatment",
+          "body": "Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-11-trailer-treatment.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "This is a craft track with no revenue line attached and an outcome row that is still empty; treat it as an experiment rather than a deliverable with a customer waiting.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

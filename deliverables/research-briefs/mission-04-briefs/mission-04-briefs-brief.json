@@ -2,11 +2,11 @@
   "slug": "mission-04-briefs",
   "chip": "MISSION · THREAD",
   "title": "Added complete production playbook and morning *content*…",
-  "dek": "The brief system is real and good; the line pointing at it is wrong.",
+  "dek": "The readout layer is done and earning its keep; it doesn't need a driver.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The research-brief system shipped and was then re-skinned into the brand's report dialect, with the index and board built around it — both passes scored well enough to keep. The handoff line stored against this thread describes older content-team work, not what actually shipped.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Route the next reusable deliverable through the brief renderer instead of writing another wall of markdown."
+      "body": "The brief and readout layer shipped and is now the surface most other threads render into: templates, a board shelf, agent context packs, and a consistent brand skin across all of it. It graded well and has been quietly absorbed into daily use.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Close this thread and let any further change be driven by a downstream thread that hits a real limit."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "6",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -114,7 +114,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The stale resume line means anyone picking this thread up loads the wrong context first. Adoption is unmeasured — scoring well is not the same as becoming the default.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The thread's title was captured from an unrelated build note, so its label understates what it is. The work is verified by build checks, not by evidence that anyone read a brief and acted differently because of it.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

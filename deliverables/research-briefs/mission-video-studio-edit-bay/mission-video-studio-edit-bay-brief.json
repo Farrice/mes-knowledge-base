@@ -2,11 +2,11 @@
   "slug": "mission-video-studio-edit-bay",
   "chip": "MISSION · SKILLS",
   "title": "Edit Bay Video *Studio*",
-  "dek": "It renders. Whether it makes anything worth watching is still unknown.",
+  "dek": "A studio with no film shot in it yet.",
   "window": "last 14 days",
-  "lens": "claude",
-  "sources": "1 sessions · 6 files · 46 assets",
-  "compiled": "aug 11, 2026",
+  "lens": "claude · codex",
+  "sources": "2 sessions · 6 files · 46 assets",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The studio was built and shaken down — footage moved through render, captioning and platform exports with no paid tooling in the path. None of the intended pilots have run, so the pipeline is proven on a test clip and nothing else.\n\nHandoff status is ready. Last activity 3d ago.\n\nNext: Run the first pilot end to end and record the voiceover it asks for."
+      "body": "The studio is built and has already generated a substantial pile of assets, but none of the planned pilots has been run end to end. Several pieces are cloned or scaffolded rather than wired, so \"ready\" describes the build, not a proven run.\n\nHandoff status is ready. Last activity today.\n\nNext: Run a pilot start to finish and tell Farrice exactly what voiceover to record."
     },
     {
       "kind": "stats",
@@ -32,12 +32,12 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "1",
+          "value": "2",
           "label": "SESSIONS",
-          "note": "claude"
+          "note": "claude · codex"
         },
         {
-          "value": "4",
+          "value": "5",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -59,8 +59,8 @@
             0,
             0,
             0,
-            0,
             1,
+            0,
             0,
             0,
             0,
@@ -81,8 +81,8 @@
             0,
             0,
             0,
-            0,
             6,
+            0,
             0,
             0,
             0,
@@ -103,9 +103,9 @@
             0,
             0,
             0,
-            0,
             6,
             40,
+            0,
             0,
             0,
             0
@@ -148,7 +148,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "The pipeline's real failure modes only surface on actual content — a test clip can't tell you whether the vertical reframe or the stock sourcing is good enough to ship."
+          "why": "Until a pilot runs whole, the untested pieces stay theoretical — and a pipeline that reports ready without ever having run is precisely the failure this system keeps trying to kill."
         }
       ]
     },
@@ -285,6 +285,12 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "Creative: Edit Bay Video Studio - Taste Layer Build",
+          "done": true
+        },
+        {
           "date": "2026-08-06",
           "title": "claude session · 17 msgs",
           "body": "Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)",
@@ -306,6 +312,11 @@
           "k": "BOARD",
           "title": "Mission board — every live thread",
           "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "oren slop era creative strategy",
+          "path": "deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.html"
         }
       ]
     },
@@ -313,7 +324,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Vertical reframing is naive, the stock integrations are untested pending keys, and one cloned component is unwired — all known at build time and none of it exercised since. Nothing produced here has been through a taste pass.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The unwired components and untested integrations are known and written down rather than discovered; the vertical reframing step is acknowledged as crude, so vertical output should not be assumed usable.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

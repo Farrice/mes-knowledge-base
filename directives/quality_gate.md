@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-11 (chain_runner finalize for jordan-crawford-gtm-intelligence) |
-| **Last Activated** | 2026-08-11 (chain_runner finalize for jordan-crawford-gtm-intelligence) |
-| **Activation Count** | 847 |
-| **30-Day Review Date** | 2026-09-10 |
+| **Last Activated** | 2026-08-12 (chain_runner finalize for michael-israetel-hypertrophy) |
+| **Last Activated** | 2026-08-12 (chain_runner finalize for michael-israetel-hypertrophy) |
+| **Activation Count** | 856 |
+| **30-Day Review Date** | 2026-09-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

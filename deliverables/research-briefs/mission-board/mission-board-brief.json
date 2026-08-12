@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "145 sessions swept",
-  "compiled": "aug 11, 2026",
+  "sources": "226 sessions swept",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "Daily motion is concentrated in the launch thread. Everything else is either a finished system waiting to be used, or research that outran the decision it was built to inform.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "Most live threads are in the same state: the making is done, the sending isn't — client work sits approved and undelivered, an offer sits ready without a named buyer, a studio sits built with no pilot run, and the listening engine keeps filing posts the system has no record of anyone publishing. The genuinely new thing this window is a verdict arguing the current lead offer should be parked.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "45",
+          "value": "53",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "168",
+          "value": "165",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "257",
+          "value": "258",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "145",
+          "value": "226",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -54,20 +54,20 @@
           "values": [
             0,
             0,
-            0,
             1,
             0,
             0,
             0,
             0,
-            0,
             1,
+            1,
+            0,
             0,
             0,
             0,
             0
           ],
-          "value": "2",
+          "value": "3",
           "note": "per day"
         },
         {
@@ -79,16 +79,16 @@
             0,
             0,
             0,
-            0,
-            2,
-            0,
-            6,
-            2,
             5,
+            0,
+            7,
             1,
-            7
+            2,
+            0,
+            3,
+            1
           ],
-          "value": "23",
+          "value": "19",
           "note": "per day"
         },
         {
@@ -100,16 +100,16 @@
             0,
             0,
             0,
-            53,
             0,
             0,
-            14,
-            108,
+            7,
+            44,
+            1,
             1,
             1,
             1
           ],
-          "value": "178",
+          "value": "55",
           "note": "per day"
         }
       ],
@@ -123,25 +123,37 @@
         {
           "label": "linkedin",
           "values": [
-            16
+            17
           ]
         },
         {
-          "label": "health performance ip library",
+          "label": "oren slop era creative strategy",
           "values": [
             6
-          ]
-        },
-        {
-          "label": "farrice brand",
-          "values": [
-            127
           ]
         },
         {
           "label": "video studio edit bay",
           "values": [
             52
+          ]
+        },
+        {
+          "label": "angle map listening engine v4 1",
+          "values": [
+            9
+          ]
+        },
+        {
+          "label": "first client engine",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "trailer treatment",
+          "values": [
+            9
           ]
         },
         {
@@ -157,12 +169,6 @@
           ]
         },
         {
-          "label": "angle map listening engine v4 1",
-          "values": [
-            9
-          ]
-        },
-        {
           "label": "01 listing content",
           "values": [
             9
@@ -170,12 +176,6 @@
         },
         {
           "label": "system audit",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "go",
           "values": [
             6
           ]
@@ -194,18 +194,33 @@
         },
         {
           "k": "ACTIVE",
-          "title": "health performance ip library",
-          "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "farrice brand",
-          "path": "deliverables/research-briefs/mission-farrice-brand/mission-farrice-brand-brief.html"
+          "title": "oren slop era creative strategy",
+          "path": "deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.html"
         },
         {
           "k": "READY",
           "title": "video studio edit bay",
           "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "angle map listening engine v4 1",
+          "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "proof to market",
+          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "first client engine",
+          "path": "deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "trailer treatment",
+          "path": "deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html"
         },
         {
           "k": "READY",
@@ -216,11 +231,6 @@
           "k": "ACTIVE",
           "title": "04 briefs",
           "path": "deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "angle map listening engine v4 1",
-          "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html"
         },
         {
           "k": "READY",
@@ -234,16 +244,6 @@
         },
         {
           "k": "ACTIVE",
-          "title": "go",
-          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "proof to market",
-          "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
-        },
-        {
-          "k": "ACTIVE",
           "title": "execution",
           "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
         }
@@ -254,6 +254,42 @@
       "heading": "also shipped",
       "tag": "NO LIVE THREAD",
       "items": [
+        {
+          "date": "2026-08-12",
+          "title": "rescue-stalled-progress",
+          "body": "Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos for Katie and Josh (Carbon Torch)",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "build-transformation-program",
+          "body": "New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-mode nutrition) and Josh Titration Defense v3 (anchor-compres",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "coaching-business-os",
+          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "coaching-business-os",
+          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "coaching-business-os",
+          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
+          "done": true
+        },
+        {
+          "date": "2026-08-11",
+          "title": "zero-data-discovery",
+          "body": "Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explicitly excluding current locked offers as evidence",
+          "done": true
+        },
         {
           "date": "2026-08-09",
           "title": "quick-concept-application",
@@ -289,42 +325,6 @@
           "title": "one-liner",
           "body": "Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioni",
           "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "deep-research",
-          "body": "Oracle Phase A research fused: 52-source deep-research brief distilled into skills/nba-betting-edge/references/oracle-2026-research.md (prop edge sources, no-vi",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "god-agent-delta",
-          "body": "Event ingestion layer: event_listener.py (watch-folder live, gmail/calendar dormant pending gws re-auth) + launchd 30-min poll + latency-class seating rule. Har",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "god-agent-delta",
-          "body": "God Agent delta moves 2-4 shipped (harness evals weekly card, verdict-to-diff compiler weekly card, notify channel) + offer red-team artifact with SEQUENCE verd",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "oracle-board",
-          "body": "Oracle Board v2: live clickable cockpit extending the pulse localhost pattern — 3 new allow-listed actions w/ CLI twins, system-activity strip, ROI splits, dril",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "extract-and-build",
-          "body": "Edit Bay video studio: Bonanno pipeline watched (54 frames) + MES 3.0 extraction; built transcribe_local.py (WhisperX), edit_bay.py (7 subcommands), video_qa.py",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "worktree-lanes",
-          "body": "Parallel Session Lanes OS (golden rule automated: shim+bootstrap+parity+auto-merge) + retirement of all 17 legacy worktrees with ~2,900 files of stranded work r",
-          "done": true
         }
       ]
     },
@@ -332,7 +332,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board counts production, not outcomes — every thread can look busy while nothing reaches a buyer. Stage is inferred from records, so work that happened offline, in conversation, or in another harness reads as idle here.\n\n204 more threads cleared the bar but sit below the 12-card ceiling and were not carded: linkedin profile content, teardown 1 fresh, create, kallaway hook mastery, benoit vatere, oren slop era creative strategy, voice identity stack, writers room, mission, listing content, quick concept application, one liner.\n\n217 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Everything here is assembled from what the harness recorded. Sends, posts, calls and client reactions happen off-system, so an empty outcome column means \"not logged\", not \"not done\". Several threads also carry titles captured from unrelated finalize notes, and most quality scores are self-assigned rather than judged against real published work.\n\n212 more threads cleared the bar but sit below the 12-card ceiling and were not carded: linkedin profile content, benoit vatere, kallaway hook mastery, teardown 1 fresh, farrice brand, health performance ip library, voice identity stack, mission, writers room, listing content, profile copy fresh 0730 packet, linkedin launch.\n\n235 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

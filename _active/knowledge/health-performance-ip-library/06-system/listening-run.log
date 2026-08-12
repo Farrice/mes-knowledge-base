@@ -238,3 +238,8 @@ The ICP map has flagged "founder-side language remains [INFERENCE] — no founde
 One housekeeping item: the session lock flagged at startup was **my own launcher's**, holder PID 47710 already dead — verified before any write, released at close, `check` now returns clear.
 ERROR: lock not held by this token
 === 2026-08-11 05:52:52 listening run end rc=0 ===
+=== 2026-08-12 05:31:12 listening run start ===
+claimed: 4a1772709c8d  (heartbeat every wave: session_lock.py heartbeat 4a1772709c8d)
+API Error: Unable to connect to API (ENOTFOUND)
+released
+=== 2026-08-12 06:05:37 listening run end rc=1 ===

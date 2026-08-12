@@ -227,3 +227,19 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-11
   ⚑ launchd com.antigravity.angle-map-listening: log silent 3d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`
   ⚑ launchd com.antigravity.cos-notify: log silent 12d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
   ⚑ verifier fleet: 2/85 failing (run 2026-08-08) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-12.json (15 flag(s))
+  ⚑ routine com.antigravity.angle-map-listening: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/listening-run.log
+  ⚑ routine com.antigravity.citation-integrity: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log
+  ⚑ routine com.antigravity.pulse-serve: last exit -15 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/pulse/serve.log
+  ⚑ routine com.antigravity.social-pulse-jen: last exit 2 — failing unwatched; check /Users/farricecain/.logs/social-pulse-jen.log
+  ⚑ routine com.antigravity.verify-fleet: last exit 2 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log
+  ⚑ .tmp at 12,057MB / 202,366 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ 39 remote branches — content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 2320 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ launchd com.antigravity.angle-map-listening: log silent 4d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.angle-map-listening`
+  ⚑ launchd com.antigravity.cos-notify: log silent 13d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.cos-notify`
+  ⚑ launchd com.antigravity.pulse-serve: log silent 3d (cadence allows 2) — self-healing loop may be dark; check its log + `launchctl list com.antigravity.pulse-serve`
+  ⚑ verifier fleet: 2/85 failing (run 2026-08-08) — each is a contract the system claims to hold; triage in weekly closeout
+  ⚑ session context injection grew 30% in ~1mo (54KB → 70KB) — every session pays this; trim or justify
+  ⚑ skills grew +36 in ~1mo with growth unchecked — pair new builds with archive passes or the routing surface dilutes

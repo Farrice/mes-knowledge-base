@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-11T06:00:03.395884",
+  "timestamp": "2026-08-12T06:05:37.326847",
   "projects_index": {
     "exit": 0,
-    "out": "Wrote PROJECTS.md (14 projects, 3 drift items)"
+    "out": "Wrote PROJECTS.md (15 projects, 4 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
@@ -27,7 +27,7 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 9,
+    "new": 0,
     "coverage": "3784/3784",
     "orphans_total": 14,
     "flips": [],

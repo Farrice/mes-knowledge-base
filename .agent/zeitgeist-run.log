@@ -106,3 +106,13 @@ The real signal was the LinkedIn turnover (8 of 10 profiles new): the query now 
 Prose check: the full rendered brief scores 10.0/10 FLAGGED, but so do 08-09 and 08-10 with *identical* signal counts (38 em-dashes, 17 parallel blocks) — that's the renderer's chrome and quoted scrape text, not the writing. My decision + deploy text in isolation started at 4.8 (a "here's what" lead-in and 5 em-dashes); I rewrote both and it now scores **CLEAN, 0/10**.
 released
 === 2026-08-11 06:28:03 zeitgeist run end rc=0 ===
+=== 2026-08-12 06:23:25 zeitgeist run start ===
+claimed: d111eb02b990  (heartbeat every wave: session_lock.py heartbeat d111eb02b990)
+[zeitgeist] ai-consulting-linkedin: 0/4 pulls live, $0.0000 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-ai-consulting-linkedin-signals.json
+[zeitgeist] supplement-brands: 0/3 pulls live, $0.0000 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-supplement-brands-signals.json
+[zeitgeist] ai-tools-creator: 0/4 pulls live, $0.0000 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-ai-tools-creator-signals.json
+[zeitgeist] jen-sfv-realestate: 0/3 pulls live, $0.0000 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-jen-sfv-realestate-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-ai-consulting-linkedin-signals.json", "/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-supplement-brands-signals.json", "/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-ai-tools-creator-signals.json", "/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-jen-sfv-realestate-signals.json"]}
+API Error: Unable to connect to API (ENOTFOUND)
+released
+=== 2026-08-12 07:54:42 zeitgeist run end rc=1 ===

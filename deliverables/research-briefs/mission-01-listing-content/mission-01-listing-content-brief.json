@@ -2,11 +2,11 @@
   "slug": "mission-01-listing-content",
   "chip": "MISSION · THREAD",
   "title": "Willis Approved Three-Reel *Closeout*",
-  "dek": "Approved and sitting; the only remaining failure mode is not sending it.",
+  "dek": "Client work that is finished and undelivered — the shortest path to a win on this board.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "compiled": "aug 12, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The client listing package reached approval only after a rejected hook pass and a rejected warm-hook version — hooks were rebuilt on interrupt mechanics, then the bodies rewritten as lived scenes. The approved pack is ready to hand over.\n\nHandoff status is ready. Last activity 6d ago.\n\nNext: Send the approved package to the client and stop refining it."
+      "body": "The listing package went through repeated rejection and rebuild — hooks reworked after they read as feature announcements, then the bodies rewritten as lived scenes — and landed on an approved recording pack. It is sitting in the clean pack waiting to be handed to the client.\n\nHandoff status is ready. Last activity 7d ago.\n\nNext: Send the approved recording pack to Jen."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "6",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Finish what's open",
-          "why": "What's left is polish on supporting formats; the approved spine already carries the delivery, so this is optional and shouldn't hold the send."
+          "why": "The open item is polish on supporting formats. It does not gate the handoff, and holding the pack for it delays the only thing the client actually needs."
         }
       ]
     },
@@ -132,7 +132,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Approval is recorded on the content, not on results — nothing shows whether it was posted or how it performed. The rejection history points at hook register as the fragile part of this workflow.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "\"Approved\" here means approved internally — there is no record of the client filming, posting, or reacting, so nothing is known about how any of it performs.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

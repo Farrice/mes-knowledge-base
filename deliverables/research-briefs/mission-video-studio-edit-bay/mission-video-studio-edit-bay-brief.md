@@ -1,22 +1,22 @@
 # Edit Bay Video Studio
 
-> MISSION · SKILLS · window: last 14 days · lens: claude · sources: 1 sessions · 6 files · 46 assets · compiled: aug 11, 2026
+> MISSION · SKILLS · window: last 14 days · lens: claude · codex · sources: 2 sessions · 6 files · 46 assets · compiled: aug 12, 2026
 
-It renders. Whether it makes anything worth watching is still unknown.
+A studio with no film shot in it yet.
 
 ## where this stands
 _CURRENT POSITION_
-The studio was built and shaken down — footage moved through render, captioning and platform exports with no paid tooling in the path. None of the intended pilots have run, so the pipeline is proven on a test clip and nothing else.
+The studio is built and has already generated a substantial pile of assets, but none of the planned pilots has been run end to end. Several pieces are cloned or scaffolded rather than wired, so "ready" describes the build, not a proven run.
 
-Handoff status is ready. Last activity 3d ago.
+Handoff status is ready. Last activity today.
 
-Next: Run the first pilot end to end and record the voiceover it asks for.
+Next: Run a pilot start to finish and tell Farrice exactly what voiceover to record.
 
 ## by the numbers
 - FILES WRITTEN: **6**
 - ASSETS GENERATED: **46**
-- SESSIONS: **1** (claude)
-- DAYS ACTIVE: **4 d**
+- SESSIONS: **2** (claude · codex)
+- DAYS ACTIVE: **5 d**
 
 ## momentum
 
@@ -26,7 +26,7 @@ Next: Run the first pilot end to end and record the voiceover it asks for.
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — The pipeline's real failure modes only surface on actual content — a test clip can't tell you whether the vertical reframe or the stock sourcing is good enough to ship.
+1. **Finish what's open** — Until a pilot runs whole, the untested pieces stay theoretical — and a pipeline that reports ready without ever having run is precisely the failure this system keeps trying to kill.
 
 ## what this thread made
 - **insp_038.jpg** [IMAGE] `_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg` — aug 7, 2026
@@ -56,15 +56,17 @@ python3 execution/handoff_store.py resume video-studio-edit-bay
    receipt: The stored handoff prints with drift since it was written.
 
 ## how it got here
+- 2026-08-12 · **codex session** — Creative: Edit Bay Video Studio - Taste Layer Build
 - 2026-08-06 · **claude session · 17 msgs** — Edit Bay Video Studio — Build + Taste Layer (Bonanno pipeline, Higgsfield retired)
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-06-video-studio-edit-bay.md
 - [BOARD] Mission board — every live thread — deliverables/research-briefs/mission-board/mission-board-brief.html
+- [THREAD] oren slop era creative strategy — deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.html
 
 ## what this isn't
 _READ THE EDGES_
-Vertical reframing is naive, the stock integrations are untested pending keys, and one cloned component is unwired — all known at build time and none of it exercised since. Nothing produced here has been through a taste pass.
+The unwired components and untested integrations are known and written down rather than discovered; the vertical reframing step is acknowledged as crude, so vertical output should not be assumed usable.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
@@ -88,3 +90,4 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 - `guides/2026-08-06-video-studio-edit-bay.md` — asset · GUIDE
 - `.agent/handoffs/2026-08-06-video-studio-edit-bay.md` — playbook · Resume here
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD
+- `deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.html` — related · THREAD

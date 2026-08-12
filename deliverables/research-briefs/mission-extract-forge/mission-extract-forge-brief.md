@@ -1,27 +1,27 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: codex · claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 11, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 12, 2026
 
-The forge works; the backlog isn't build debt, it's unused output.
+The extraction engine works; what's unresolved is whether we trust our own grade on it.
 
 ## where this stands
 _CURRENT POSITION_
-The extraction pipeline is functionally finished — a run of forge-grade expert builds landed, some scored well enough to keep, and the handoff carries no build debt. What remains is a taste verdict, not engineering.
+The extraction pipeline is the most productive thing in the system right now — expert after expert has gone through it and come out as a working skill. What remains is not build work; it is Farrice's own blind verdict on whether the output reads as the real expert.
 
-Handoff status is ready. Last activity 5d ago.
+Handoff status is ready. Last activity 6d ago.
 
-Next: Run the blind recognition pass only if promoting these extractions would change which ones you actually reach for.
+Next: Decide whether that blind verdict is worth a session — if not, close the thread and keep using the skill as it stands.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **10**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — The open line is a promotion decision rather than missing work — it costs nothing to leave open, but it also keeps the thread from closing.
+1. **Finish what's open** — This is a taste verdict, not a defect. Left open, it makes a finished build read as unfinished on every board it appears on.
 
 ## what this thread made
 - **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
@@ -57,7 +57,7 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Most extractions here logged their outcome as usage-tracked rather than revenue-bearing, which means almost nothing in this thread has been tested against real work. Several builds landed under the keep line and were never revisited.
+The scores this pipeline assigns itself skew low, and self-scoring is the only grade most of these extractions carry — volume is far better evidenced here than quality.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

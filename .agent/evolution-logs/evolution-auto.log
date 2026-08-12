@@ -3323,3 +3323,69 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-12T07:09:57.215715",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-12.md",
+        "traces_24h": 15,
+        "routing_decisions_24h": 15,
+        "queued_phase2": 3,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 3,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.17,
+            "joey-cinema-os": 0.9,
+            "ben-watkins-storytelling": 0.9,
+            "banana-pro-director": 1.17,
+            "gemini-api-dev": 0.74,
+            "dave-clark": 1.26,
+            "ghostwriting-voice-engine": 1.23,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.88,
+            "nick-saraev-agentic-workflows": 1.17,
+            "kallaway-social-commerce": 0.83,
+            "kallaway-illusion-of-novelty": 1.47,
+            "extract-mastery": 1.1,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.17,
+            "michael-israetel-hypertrophy": 1.05,
+            "creative-direction": 0.96,
+            "curious-refuge": 1.05,
+            "jordan-crawford-gtm-intelligence": 1.05,
+            "andrew-dun-vibe-consulting": 0.79,
+            "alan-aragon-nutrition": 0.95
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 6,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 73.5
+          }
+        }
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-08T18:38:02.800150",
+      "reason": "not_due_yet",
+      "days_remaining": 3.48
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 27.99
+    }
+  ]
+}

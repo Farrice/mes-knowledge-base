@@ -11,7 +11,7 @@
 ## Carbon Torch Training Programs
 **📋 DEPLOY + SHARE:** [`programs/Josh_Complete_Program.md`](programs/Josh_Complete_Program.md) — training + nutrition in one Trainerize-ready doc · **Notion (shareable):** [JOSH — Complete Program](https://app.notion.com/p/39649875a89781c5aad4f58689afa3db)
 **⚡ TRAINERIZE PASTE (bare lists):** [`programs/Josh_Trainerize_Paste.md`](programs/Josh_Trainerize_Paste.md) — copy one session block straight into the app's AI builder, zero editing
-**DESIGN SOURCE (rationale/evidence):** [`programs/Josh_FullBody_GLP1_v2.md`](programs/Josh_FullBody_GLP1_v2.md) — 8-week "Bishop Block," titration-proof · **v2.1 enriched 2026-07-02** (V-taper/superhero compounds added while dose is low; see the program's v2.1 addendum) (started ___fill on kickoff___)
+**DESIGN SOURCE (rationale/evidence):** [`programs/Josh_TitrationDefense_v3.md`](programs/Josh_TitrationDefense_v3.md) — **Block 2 "Titration Defense / Vault Door" (v3, 2026-08-12)**: anchor-compressed defense block for the 4→9 mg window, holding-load-is-winning progression, Minimum Effective Day standard · direction memo: [`NEXT-BLOCK-DIRECTION.md`](NEXT-BLOCK-DIRECTION.md) · prior block: [`programs/Josh_FullBody_GLP1_v2.md`](programs/Josh_FullBody_GLP1_v2.md) ("Bishop Block")
 **DAY FILES (grab-and-train):** [`workouts/`](workouts/) — Mon [F1 Squat](workouts/01-mon-foundational-1-squat-led.md) · Tue [Pump & Preserve](workouts/02-tue-trigger-a-pump-preserve.md) · Wed [F2 Push-Pull](workouts/03-wed-foundational-2-push-pull.md) · Thu [Zone-2 + Carries](workouts/04-thu-trigger-b-zone2-carries.md) · Fri [F3 Hinge](workouts/05-fri-foundational-3-hinge-led.md) · [On-Set Fallback](workouts/06-onset-fallback-10min.md)
 
 ## Snapshot
