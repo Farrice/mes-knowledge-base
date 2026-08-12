@@ -1,0 +1,187 @@
+{
+  "slug": "zeitgeist-ai-consulting-linkedin-2026-08-11",
+  "chip": "ZEITGEIST · AI CONSULTING / LINKEDIN",
+  "title": "one in ten, and the one opens with a *refusal*",
+  "dek": "Yesterday the query \"AI consultant\" returned three people who actually sell AI work. Today it returned one. The other nine are a recruiter, a second recruiter, a tunnel-infrastructure founder, a brand strategist, and a man whose opening line is that he was born in a casino. The three profiles in this pull whose offer is legible in two lines all share one move — they open by refusing the category they were found under.",
+  "window": "aug 11, 2026 · daily lane",
+  "lens": "what's working in AI-consulting content · LinkedIn + X + Reddit",
+  "sources": "4 live pulls · 41 items returned · 26 usable · 14 new · 1 posted today",
+  "compiled": "aug 11, 2026",
+  "footer_left": "ANTIGRAVITY ZEITGEIST",
+  "footer_right": "@farricecain",
+  "run_cost_usd": 0.158,
+  "stack": ["linkedin-search", "reddit", "threads-search", "twitter"],
+  "category": "zeitgeist",
+  "priority": 3,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the big picture",
+      "kicker": "WHAT'S FORMING",
+      "body": "Two days running, the search term has failed to sort. Yesterday three of ten \"AI consultant\" returns sold AI work. Today it is one — Sabahudin Murtić, Sarajevo, SMBs and solopreneurs. A second, Timothy Goebel, sells an AI content platform, so call it two if you are generous. The rest of the pull is recruiters and off-category founders.\n\nThat is a fact about the term, not about the market. And it points somewhere useful: if the category word no longer filters, it cannot carry a profile. Something else has to.\n\nThe three profiles in this pull that read cleanly all do the same thing in their first sentence. Murtić: \"The problem is not access to AI.\" Andrew Robinson: \"Most brand consultants get hired by a company. I get hired by the person the company answers to.\" Ricardo Flores opens by disqualifying his own category outright — \"Not a consultant.\" Three unrelated people, three different fields, one shared move: name the obvious read, then refuse it. Every one of them earns the second line.\n\nThe rest of today's pack is thin and the brief says so. X returned nothing — fifteen of fifteen items were billing placeholders, not tweets. Reddit returned the same ten URLs as yesterday, to the item. Threads returned six posts, of which exactly one was written today. This is a single strong signal on a quiet day, not four."
+    },
+    {
+      "kind": "stats",
+      "heading": "the pull, honestly",
+      "items": [
+        {"value": "41", "unit": "items", "label": "4 LIVE PULLS", "note": "15 of them were mock placeholders"},
+        {"value": "26", "unit": "usable", "label": "63% OF THE PULL", "note": "X contributed zero"},
+        {"value": "14", "unit": "new", "label": "VS. PRIOR 4 DAYS", "note": "8 profiles + 6 threads posts"},
+        {"value": "1", "unit": "same-day", "label": "OF 26 USABLE ITEMS", "note": "one threads post, 13:18Z"},
+        {"value": "1/10", "unit": "on category", "label": "DOWN FROM 3/10", "note": "second straight day of drift"}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "what the data says",
+      "tag": "THE EVIDENCE",
+      "rows": [
+        {
+          "claim": "The query \"AI consultant\" now returns one person selling AI consulting, out of ten.",
+          "evidence": "Of today's ten LinkedIn returns, only Sabahudin Murtić's summary describes AI consulting as the offer (\"That is the work I focus on to help other SMBs & solopreneurs\"). Timothy Goebel sells an AI content platform. The remaining eight: two recruiters, a contract cloud architect, a $3.9T tunnel-infrastructure founder, a fintech exec, a UHNW brand strategist, an impartial-advisor offer, and one profile with no stated offer at all. Yesterday's pull scored 3 of 10.",
+          "source_url": "https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s",
+          "source_label": "linkedin-search · \"AI consultant\" · 10 returned",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The one on-category profile opens by moving the problem off the tool and onto judgment.",
+          "evidence": "Murtić's first three lines: \"The problem is not access to AI. The problem is knowing where AI belongs, what should stay human and which workflows are worth building first.\" He then lists three concrete areas — turning calls into content, re-engaging existing leads, reducing repetitive work. No capability claims, no model names.",
+          "source_url": "https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s",
+          "source_label": "Sabahudin Murtić · Sarajevo",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "Two more profiles in the same pull open with the identical structural move — name the default read, refuse it.",
+          "evidence": "Andrew W. Robinson: \"Most brand consultants get hired by a company. I get hired by the person the company answers to.\" His thirty-five years and the word Ogilvy arrive after that sentence, not before it. Ricardo J. Flores opens on a question, then disqualifies his own category: \"Not a consultant — who doesn't always have the distance needed to be truly impartial. Not a team member, who may hesitate to challenge the person who evaluates them.\"",
+          "source_url": "https://www.linkedin.com/in/ACwAAABhnzcBQh2bPcg1FZKbBwSHfMIkS2ZBu9w",
+          "source_label": "Andrew W. Robinson · London",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The profiles that fail do not fail on credentials. They fail on the first sentence.",
+          "evidence": "Daniel Malczyk leads with \"B2B/Contract Enterprise Engineer & Architect with 20+ years\" and a VAT-registration line before any problem statement. Stavros Dafnomilis opens \"Hello, world! This is me: Stavros. Born in a Casino\" and never states an offer. Both have more visible tenure than Murtić; neither is legible as a hire in two lines.",
+          "source_url": "https://www.linkedin.com/in/ACwAAAPo8t0BUk-tRMUGFRVVKKiXZ74IsshEqcY",
+          "source_label": "linkedin-search · same 10-profile pull",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "One profile builds the whole opening on an I-narrative origin rather than a claim.",
+          "evidence": "Timothy Goebel: \"I spent years watching great teams get buried under content chaos — inconsistent messaging, overwhelmed workflows, no clear voice. Nobody was solving it well, so I built the solution.\" The nine years of AI/ML product work is cited afterward as grounding.",
+          "source_url": "https://www.linkedin.com/in/ACwAAASP6eYB2SIV_wdVvuB1Pm9FMtJGerCoRCY",
+          "source_label": "Timothy Goebel · Greater Milwaukee",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The bluffing objection has now held a top-ten slot in this lane for three consecutive daily pulls.",
+          "evidence": "\"Do AI consultants actually know AI, or is half of it just confident bluffing?\" (r/ArtificialInteligence) has been returned by every daily Reddit pull since aug 9. Its body draws the line explicitly: some \"understand workflows, automation, LLM limitations, data privacy, integration costs\" while others \"learned a few buzzwords, made a ChatGPT prompt pack, and now sell AI transformation strategy for thousands of dollars.\"",
+          "source_url": "https://www.reddit.com/r/ArtificialInteligence/comments/1uy2izh/do_ai_consultants_actually_know_ai_or_is_half_of/",
+          "source_label": "r/ArtificialInteligence · repeat return, 3 days",
+          "confidence": "LIKELY"
+        },
+        {
+          "claim": "Today's Reddit pull is a verbatim repeat. Ten of ten URLs match yesterday's.",
+          "evidence": "Every URL in the aug 11 reddit pull appears in the aug 10 pull; nine of ten appear in aug 9 and aug 8. No new buyer-side threads surfaced. Treat all Reddit-derived claims in this brief as carry-over, not fresh demand.",
+          "source_url": "https://www.reddit.com/r/AiAutomations/comments/1uggqp3/ive_made_350k_in_ai_consulting_and_the_money_isnt/",
+          "source_label": "reddit · \"AI consulting\" · 10/10 repeat",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "One buyer-side post asks for a guide, not a builder.",
+          "evidence": "digitalmarketingservice.in, posted 2026-07-20: \"I'm looking to learn and build an Agentic AI solution. Is there anyone here who has experience with Agentic AI and would be willing to guide me or collaborate?\" This is one post, three weeks old, and the only demand-shaped item in the Threads pull.",
+          "source_url": "https://www.threads.com/@digitalmarketingservice.in/post/DbAL3iCDDMQ",
+          "source_label": "threads · \"ai agents\" · n=1",
+          "confidence": "UNCONFIRMED"
+        },
+        {
+          "claim": "Exactly one item in the entire 41-item pack was posted today.",
+          "evidence": "horatiucode, 2026-08-11T13:18:20Z, four minutes before the scrape: \"the next generation of founders will probably manage AI agents the way today's founders manage teams.\" The other five Threads items date from 2025-11-13, 2025-11-29, 2026-03-09, 2026-05-21 and 2026-07-20. Threads search is matching on topic, not recency.",
+          "source_url": "https://www.threads.com/@horatiucode/post/Db5raABjbey",
+          "source_label": "threads-search · 1 of 6 same-day",
+          "confidence": "VERIFIED"
+        },
+        {
+          "claim": "The X pull returned no tweets. Fifteen of fifteen items were billing placeholders.",
+          "evidence": "Every twitter item carries \"type\": \"mock_tweet\", \"id\": -1, and the same KaitoEasyAPI text: \"we have a minimum charge of $X per API call, even if the response contains no results. Thus, we returned N pieces of mock data.\" Cost recorded $0.00. The lane's X coverage today is zero.",
+          "source_label": "twitter (Apify) · \"AI consulting\" · 15 mock objects",
+          "confidence": "VERIFIED"
+        }
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "where the lane actually *is*",
+      "kicker": "THE OPENING",
+      "dek": "Four moves, ranked by how much today's data supports them. The first one has two days of evidence behind it. The last one has a single post.",
+      "items": [
+        {
+          "action": "Rebuild the profile opener as a refusal, not a title. Kill the category word from line one.",
+          "why": "Three of ten profiles today open by naming the obvious read and refusing it (Murtić, Robinson, Flores), and those three are the only ones whose offer is legible inside two lines. Meanwhile the term itself pulled nine off-category profiles, down from seven yesterday. A word that returns one real match in ten cannot do positioning work. This closes the 12-day-old profile-copy mission with an evidenced structure instead of another variant round."
+        },
+        {
+          "action": "Write the post that answers the bluffing question straight, and hand the reader the test.",
+          "why": "\"Do AI consultants actually know AI, or is half of it just confident bluffing?\" has held a top-ten slot across three consecutive daily pulls. It is the only thread in the lane to do so. A stable objection is a durable post. The strongest version does not defend the category; it gives the buyer the question that separates the two kinds, which is exactly the move Murtić's \"what should stay human\" line makes."
+        },
+        {
+          "action": "Drop X from this week's lane inputs and do not cite an X trend in content until the actor is fixed.",
+          "why": "Fifteen of fifteen twitter items were mock billing objects. The stack line claims four sources; three delivered. Any X-flavored claim written this week would be built on nothing. Flag the actor, run on three lanes, say so out loud."
+        },
+        {
+          "action": "Test the guide framing against the build framing in one Angle Map send. Do not rebuild the offer on it.",
+          "why": "Exactly one item in the pack asks for someone \"willing to guide me or collaborate\" rather than someone to build. That is n=1, three weeks old, pulled from Threads. A hypothesis worth one send, not a repositioning. Marked UNCONFIRMED for a reason."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "deploy blocks",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "profile opener · three refusal drafts",
+          "text": "1. I'm not the person who tells you AI will change your business. I'm the person who tells you which three workflows are worth touching this quarter — and which one to leave alone.\n\n2. Most people selling AI work start with what the model can do. I start with where your week actually leaks, and whether a model is even the right patch for it.\n\n3. I don't build you an AI department. I find the one process eating your week and hand you the fix in ten days.\n\n(Structure borrowed from the only three legible profiles in today's pull: name the default read, refuse it, then earn the second line. Credentials go after, never before.)"
+        },
+        {
+          "label": "post hooks · the bluffing objection",
+          "text": "1. The fastest way to test an AI consultant: ask them what they'd tell you not to automate. Watch what happens.\n\n2. Someone on Reddit asked whether AI consultants actually know AI or just learned the buzzwords. Fair question. I'd rather answer it than be offended by it, so: three things I'd have to show you before you believed me.\n\n3. Half the people selling AI strategy have a prompt pack and a confident voice. I can't tell you who they are. I can tell you the three questions that find out in ninety seconds."
+        },
+        {
+          "label": "angle sentence · this week's spine",
+          "text": "The word \"consultant\" has stopped sorting anyone. Two days of searching it on LinkedIn returned two recruiters, a man building a $3.9 trillion tunnel under Israel, a brand strategist for UHNW clients, and one guy whose opening line is that he was born in a casino. One profile in ten was actually selling AI work. If the category can't filter, your first sentence has to."
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "CAVEATS WORTH KEEPING",
+      "body": "Ranked by how much weight each part of this brief can carry.\n\nStrongest: the LinkedIn profile text. Ten summaries, quoted directly, eight of them new to this lane. The 1-of-10 count is my read of who sells AI consulting versus who merely surfaced under the term — a reasonable person could score it 2 by counting Goebel's AI platform. The direction across two days is not in dispute; the exact integer is.\n\nWeaker: LinkedIn URLs in this brief are opaque ACwAA-form URNs returned by the scraper. They are what the API gave; I did not open them to confirm they resolve.\n\nWeaker still: everything Reddit. Today's pull is a verbatim ten-of-ten repeat of yesterday's, nine of ten repeat since aug 8. The three-day persistence of the bluffing thread is inferred from repeat retrieval, not from a rank field — the pack carries no upvote or rank data, so \"held a top-ten slot\" means \"was returned again,\" nothing more.\n\nWeakest: Threads. Six items, one written today, the rest ranging from nine months to three weeks old. The search is matching on topic and ignoring recency, which makes any \"right now\" claim from that source unsafe. The guide-versus-build read rests on a single three-week-old post and is labelled UNCONFIRMED.\n\nMissing entirely: X. Fifteen of fifteen items were mock billing placeholders, so this lane ran on three sources today, not four. That actor needs checking before the next run.\n\nAlso true of every engagement figure anywhere in this brief: point-in-time, single-day snapshot, no trend line behind it.",
+      "cta": {"label": "OKAY, SO WRITE THE OPENER", "href": "#deploy-blocks"}
+    }
+  ],
+  "ledger": [
+    {
+      "source": "linkedin-search (Apify) · query \"AI consultant\" · 10 returned",
+      "retrieved": "2026-08-11",
+      "used_for": "All ten profile summaries. The 1-of-10 on-category count, the three refusal openers (Murtić, Robinson, Flores), the two failed openers (Malczyk, Dafnomilis), Goebel's I-narrative. 8 of 10 profiles new vs. the prior four days.",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "reddit (Apify) · query \"AI consulting\" · 10 returned",
+      "retrieved": "2026-08-11",
+      "used_for": "The bluffing-thread persistence claim only. All 10 URLs are verbatim repeats of the aug 10 pull; 9 of 10 repeat from aug 9 and aug 8. No new demand claims drawn from this pull.",
+      "confidence": "VERIFIED"
+    },
+    {
+      "source": "threads-search (Apify) · query \"ai agents\" · 6 returned",
+      "retrieved": "2026-08-11",
+      "used_for": "The one same-day item (horatiucode, 13:18:20Z) and the guide-vs-build hypothesis (digitalmarketingservice.in, 2026-07-20). Remaining four items dated 2025-11-13 to 2026-05-21 and not used for any present-tense claim.",
+      "confidence": "LIKELY"
+    },
+    {
+      "source": "twitter (Apify) · query \"AI consulting\" · 15 returned, 0 usable",
+      "retrieved": "2026-08-11",
+      "used_for": "Nothing. All 15 objects were type \"mock_tweet\", id -1, carrying KaitoEasyAPI billing placeholder text. Recorded here so the zero is visible rather than silent.",
+      "confidence": "VERIFIED"
+    }
+  ]
+}
