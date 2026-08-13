@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 9.1768,
+  "spent_dollars": 9.3393,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -1231,10 +1231,158 @@
       "pricing_model": "per_result",
       "cost_source": "apify_api",
       "pulse": true
+    },
+    {
+      "ts": "2026-08-13T03:20:58.169168+00:00",
+      "actor": "reddit",
+      "results": 20,
+      "cost": 0.04,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-13T13:25:03.355854+00:00",
+      "actor": "reddit",
+      "results": 1,
+      "cost": 0.0438,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-13T13:59:53.494135+00:00",
+      "actor": "reddit",
+      "results": 8,
+      "cost": 0.078,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-13T14:00:11.258184+00:00",
+      "actor": "linkedin-posts",
+      "results": 3,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:17.281122+00:00",
+      "actor": "linkedin-posts",
+      "results": 3,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:21.909823+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 100,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:27.335686+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 101,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:33.662972+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 100,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:40.377139+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 101,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:47.327914+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 100,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:00:54.001017+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 101,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:00.085898+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 100,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:07.310271+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 56,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:13.248805+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 100,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:18.562210+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 101,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:24.227172+00:00",
+      "actor": "linkedin-post-reactions",
+      "results": 99,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:29.456821+00:00",
+      "actor": "linkedin-post-comments",
+      "results": 77,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-13T14:01:41.220899+00:00",
+      "actor": "web",
+      "results": 1,
+      "cost": 0.0007,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
     }
   ],
   "pulse_budget_dollars": 5.0,
-  "pulse_spent_dollars": 1.6854,
+  "pulse_spent_dollars": 1.8479,
   "reconciliation": {
     "date": "2026-08-10",
     "prior_tracker_spent": 2.5466,

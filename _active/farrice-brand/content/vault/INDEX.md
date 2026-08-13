@@ -2,6 +2,11 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-13 | [ads-that-last-post](2026-08-13-ads-that-last-post.md) | LinkedIn post (flagship) | Thesis · P2 | Authority | Bridge | READY |
+| 2026-08-13 | [decision-under-the-round-entry-4](2026-08-13-decision-under-the-round-entry-4.md) | Series/education post (long-form) | Thesis · P2 | Conversion | Inner | READY |
+| 2026-08-13 | [thirteen-months-old-script](2026-08-13-thirteen-months-old-script.md) | 45-60s video script | Thesis · P4 | Growth | Outer | READY |
+| 2026-08-12 | [follow-the-batch-post](2026-08-12-follow-the-batch-post.md) | LinkedIn post | Thesis · P2 | Authority | Bridge | READY |
+| 2026-08-12 | [five-minute-trust-teardown](2026-08-12-five-minute-trust-teardown.md) | Teardown post | Proof · P2 | Authority | Inner | READY |
 | 2026-08-11 | [cancel-rate-reviews-your-angle-post](2026-08-11-cancel-rate-reviews-your-angle-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |
 | 2026-08-11 | [thirty-five-customers-one-subscription-script](2026-08-11-thirty-five-customers-one-subscription-script.md) | 45-60s video script | Thesis · P3 | Growth | Outer | READY |
 | 2026-08-10 | [subtraction-slot-post](2026-08-10-subtraction-slot-post.md) | LinkedIn post (flagship) | Thesis · P3 | Authority | Bridge | READY |

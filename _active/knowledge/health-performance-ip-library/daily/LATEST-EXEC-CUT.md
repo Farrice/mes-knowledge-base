@@ -1,6 +1,6 @@
-# Listening cut — 2026-08-11 (Tue deep focus: ICP movement)
-- Tension: a supplement founder's model needs ~30% of buyers to subscribe, 3% do, and every adviser in the thread blamed the funnel, the offer, or the platform.
-- Receipt: category promises results "in a few weeks" on a subscription; buyer cancelled her card after three charges and a BBB complaint, saying "I would have subscribed if I had gotten the results that they promised."
-- Thesis: the subscription rate is the market grading the promise your ad made, on a deadline your ad implied, and retention software cannot argue with that grade.
-- Post seed: "Your cancel rate is a review of your angle. It arrives three months late, wearing a customer service ticket." → full draft in the brief
-- Docs fed: 03 ICP map gained the first founder verbatim for trigger 1 (LTV:CAC) plus the promise-clock lever; 07 audience map gained "the disappointed subscriber"; 4 promises receipts, 2 insight rows · Full brief: _active/knowledge/health-performance-ip-library/daily/2026-08-11-angle-map-listening-brief.md
+# Listening cut — 2026-08-13 (Thu deep focus: category, creator + offer patterns)
+- Tension: she shipped a few hundred creatives this year and cannot name what any of them argued.
+- Receipt: "No ultra-processed pills, no shakes, just real food" ran with an investor's name on it; the ASA upheld the complaint and rejected the appeal this March.
+- Thesis: the winning ads in this category are not being refreshed, they are being left alone, and the refresh doctrine is calibrated on the ads that lose.
+- Post seed: "On the second monitor, somebody pulls up a competitor's ad. The date stamp underneath says July 2025." → full draft in the brief
+- Docs fed: audience gains the volume-compliant operator (first non-composite operator verbatim), ICP gains the ad-library age gap as a self-serve trigger, three promise receipts · Full brief: _active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md
