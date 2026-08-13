@@ -1,47 +1,47 @@
 # Knowledge Briefing
-*Generated: 2026-08-12 | 1089 sources | 3,485,822 words*
+*Generated: 2026-08-13 | 1063 sources | 3,273,447 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 6,933 words — `knowledge/index.md`
-- **log** (general) — 19,125 words — `knowledge/log.md`
-- **architecture** (strategy [april-dunford]) — 510 words — `extractions/jordan-crawford-gtm-intelligence/architecture.md`
-- **live-research-hardening-2026-08-09** (copywriting) — 600 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/live-research-hardening-2026-08-09.md`
-- **mature-company-fixture** (strategy [april-dunford]) — 670 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/mature-company-fixture.md`
-- **proof-report** (copywriting) — 293 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md`
-- **zero-data-fixture** (copywriting) — 545 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/zero-data-fixture.md`
-- **blind-pass-log** (copywriting) — 80 words — `extractions/jordan-crawford-gtm-intelligence/blind-pass-log.md`
-- **extraction-report** (content) — 2,104 words — `extractions/jordan-crawford-gtm-intelligence/extraction-report.md`
-- **skill-system-contract** (systems) — 399 words — `extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md`
+- **march_2026_briefing** (seo [nathan-gotch]) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
+- **assembly-rubric** (strategy [nathan-gotch]) — 209 words — `knowledge/assembly-rubric.md`
+- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy [nathan-gotch]) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [nathan-gotch]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [nathan-gotch]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
+- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content [nathan-gotch]) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
+- **council-rubric** (copywriting [nathan-gotch]) — 552 words — `knowledge/council-rubric.md`
+- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
+- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
+- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [nathan-gotch]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 356 | nathan-gotch |
-| copywriting | 187 | luke-iha |
-| general | 116 | nick-saraev |
-| strategy | 110 | april-dunford |
-| screenwriting | 102 | connelly |
-| brand | 66 | oren-john |
-| systems | 60 | nick-saraev |
+| content | 335 | nathan-gotch |
+| copywriting | 187 | nathan-gotch |
+| general | 116 | nathan-gotch |
+| strategy | 108 | nathan-gotch |
+| screenwriting | 101 | nathan-gotch |
+| brand | 66 | nathan-gotch |
+| systems | 60 | nathan-gotch |
 | seo | 42 | nathan-gotch |
-| research | 37 | jason-fladlien |
-| sales | 13 | dai-media |
+| research | 36 | nathan-gotch |
+| sales | 12 | nathan-gotch |
 
 ## Deepest Knowledge Sources (by word count)
 
-1. **video-context-ledger** (copywriting) — 75,432 words — `extractions/video-context/UFNlbNa2T4w/video-context-ledger.md`
-1. **video-context-ledger** (content) — 75,408 words — `extractions/video-context/3iR3kHxCwfo/video-context-ledger.md`
-1. **Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated** (brand [dai-media]) — 69,583 words — `knowledge/extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md`
-1. **Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average** (general) — 64,760 words — `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
-1. **video-context-ledger** (content) — 63,877 words — `extractions/video-context/GlTA4wXSACE/video-context-ledger.md`
-1. **Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out** (brand) — 63,227 words — `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
-1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2** (general) — 62,412 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
-1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers** (general) — 61,240 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`
-1. **Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them** (content) — 60,850 words — `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
+1. **video-context-ledger** (copywriting [nathan-gotch]) — 75,432 words — `extractions/video-context/UFNlbNa2T4w/video-context-ledger.md`
+1. **video-context-ledger** (content [nathan-gotch]) — 75,408 words — `extractions/video-context/3iR3kHxCwfo/video-context-ledger.md`
+1. **Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated** (brand [nathan-gotch]) — 69,583 words — `knowledge/extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md`
+1. **Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average** (general [nathan-gotch]) — 64,760 words — `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
+1. **video-context-ledger** (content [nathan-gotch]) — 63,877 words — `extractions/video-context/GlTA4wXSACE/video-context-ledger.md`
+1. **Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out** (brand [nathan-gotch]) — 63,227 words — `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
+1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2** (general [nathan-gotch]) — 62,412 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
+1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers** (general [nathan-gotch]) — 61,240 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`
+1. **Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them** (content [nathan-gotch]) — 60,850 words — `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
 1. **Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026** (copywriting [cardinal-mason]) — 60,673 words — `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md`
 
 ## Knowledge Gaps

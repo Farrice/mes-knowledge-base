@@ -10,6 +10,12 @@ workflows: 5
 
 This skill turns Priestley's **Short-Form → Long-Form → Lead-Form** strategy (source: "Make $1,500 an Hour With This 3 Step System", ScoreApp, 2026 — watched + extracted with whiteboard frames) into an installable, automatable content operating system. Core claim: from 2025 onward the recommendation engine matchmakes content to buyers directly — so the content itself must carry the targeting signal, run on a fixed three-layer cadence, and hand raised hands to sales.
 
+## Universal Applicability Contract
+
+This is a **business-agnostic demand-generation kernel**, not a fitness or coaching system. It adapts to B2B services, local businesses, ecommerce, software, professional practices, creators, education, nonprofits, and internal business initiatives by swapping five inputs: buyer/stakeholder, desired change, obstacle, credible proof, and next commitment. The Pain / Prize / Problem lanes describe buyer states—not health topics. “Process” means the real delivery or adoption path, whether that is consulting, software onboarding, product use, a store visit, a donation journey, or an internal change program.
+
+Use it when content should create recognition, trust, and a measurable hand-raise. Do **not** force it onto unrelated business work such as product engineering, bookkeeping, hiring operations, fulfillment, or customer support; route those to their owning systems. For awareness-only or community goals, replace the sales handoff with the appropriate measurable commitment (subscribe, attend, donate, apply, activate) and label that adaptation explicitly.
+
 **The contract**: short-form daily (Pain / Prize / Problem, × News multiplier) → long-form monthly (Proof → Principles → Process, closes one gap) → lead form with a fresh offer every quarter (Special Offer / P4P / Promotion; page = Hook → Value Prop → Credibility → CTA) → LAPS.
 
 ## Available Workflows
@@ -41,11 +47,13 @@ The OS runs as a rhythm, not a project:
 
 - **Genius Context**: [genius.md](genius.md) — physics (4 platform eras), 9 patterns, hidden knowledge, rubric
 - **Source provenance**: `extractions/daniel-priestley-sll-engine/` (transcript, captions, watched frames, visual-context)
+- **Universal acceptance tests**: [references/universal-applicability-tests.md](references/universal-applicability-tests.md) — cross-domain matrix + leakage negative controls
 - **Claims quarantine**: Priestley's stats (11×90, 200B/day, $1,500/hr, double-digit growth) are HIS claims — rationale inside the framework, never restated as verified external facts.
 
 ## Routing
 
 - **This skill**: social content strategy, content-to-pipeline funnels, posting cadence, lead forms, "how do I turn content into leads."
+- **Universal input test**: if you can name a stakeholder, a desired change, an obstacle, credible proof, and a next commitment, SLL can map the demand side of the work.
 - `daniel-priestley-oversubscribed`: demand tension, launches, waitlists, campaign oversubscription.
 - `daniel-priestley-24-assets-os`: business asset architecture, valuation, productized services.
 - **Voice layer (binding)**: anything posting under Farrice's name loads VOICE-CARD.md + dial before drafting.

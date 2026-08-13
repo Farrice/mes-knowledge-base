@@ -8,16 +8,20 @@ The readout layer is done and earning its keep; it doesn't need a driver.
 _CURRENT POSITION_
 The brief and readout layer shipped and is now the surface most other threads render into: templates, a board shelf, agent context packs, and a consistent brand skin across all of it. It graded well and has been quietly absorbed into daily use.
 
-Handoff status is active. Last activity 6d ago.
+Handoff status is active. Last activity 7d ago.
 
 Next: Close this thread and let any further change be driven by a downstream thread that hits a real limit.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **7 d**
+- DAYS ACTIVE: **8 d**
 
 ## lifecycle
 
+
+## what needs you
+Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
+1. **Decide: resume or park** — No recorded activity in 7 days while the handoff is still active.
 
 ## pick it back up
 1. **Resume here** — Added complete production playbook and morning content brief layer to the content-team OS launch assets. Created 05-content-production-playbook.md with morning run-of-show, time-boxed production modes, format decision tree, asset SOPs, daily minimum, standard day, flagship day, and end-of-day closeout. Created 06-morning-content-brief-template.md with a 10-section daily production brief, paste-ready AI production prompt, and filled Thursday example. Updated 00-START-HERE.md to index the new files. Grounded in brand-operating-system skill and master creative brief inheritance, plus the existing content-team OS launch assets. Verification: file inventory pass, ASCII pass, unsafe-language scan pass, export_format_guard pass, prose warnings expected for checklist/template parallel structure.

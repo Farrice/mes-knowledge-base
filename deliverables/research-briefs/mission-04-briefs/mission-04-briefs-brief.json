@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The brief and readout layer shipped and is now the surface most other threads render into: templates, a board shelf, agent context packs, and a consistent brand skin across all of it. It graded well and has been quietly absorbed into daily use.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Close this thread and let any further change be driven by a downstream thread that hits a real limit."
+      "body": "The brief and readout layer shipped and is now the surface most other threads render into: templates, a board shelf, agent context packs, and a consistent brand skin across all of it. It graded well and has been quietly absorbed into daily use.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: Close this thread and let any further change be driven by a downstream thread that hits a real limit."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "7",
+          "value": "8",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -57,6 +57,18 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Decide: resume or park",
+          "why": "No recorded activity in 7 days while the handoff is still active."
+        }
+      ]
     },
     {
       "kind": "playbook",

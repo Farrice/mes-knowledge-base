@@ -35,16 +35,16 @@ Offer: [one sentence]
 ## LAPS Handoff (owner · SLA · next step script pointer)
 ```
 
-## Example Output (abridged, S&C coach)
+## Example Output (abridged, local estate-planning practice)
 
-> **Offer type**: P4P — "Executive Strength Score" (5-min assessment)
-> **HOOK**: "Find out in 5 minutes why your training stopped working after 35 — and the 3 numbers that predict whether it'll work again."
-> **VALUE PROP**: Take the assessment → get your Strength Score + a personal 3-move priority plan for a 45-minute-a-week rebuild.
-> **CREDIBILITY**: "Down 14kg, deadlifting 2× bodyweight at 44 — while running a 40-person team." — [client name]. Coach: CSCS, 11 years coaching working professionals.
-> **CTA**: "Get your Strength Score →" (name, email, one question: 'biggest obstacle right now?')
-> **LAPS**: fills → Farrice, same-day email, offer of 15-min score-review call.
+> **Offer type**: P4P — "Family Plan Readiness Check" (5-minute assessment)
+> **HOOK**: "Find the one decision your family would be forced to make without you—and whether your current documents actually answer it."
+> **VALUE PROP**: Take the assessment → receive a readiness summary showing what is covered, what is unclear, and which conversation should happen first.
+> **CREDIBILITY**: [Verified attorney credentials] + [named, permissioned client testimonial or linked public guidance; never fabricate either].
+> **CTA**: "Check your plan readiness →" (name, email, state, one question: 'what changed recently?')
+> **LAPS**: fills → intake coordinator, one-business-day response, invitation to a 20-minute fit call when appropriate.
 
-**What makes this excellent**: the hook names the reader's situation and promises a specific, fast diagnostic; the value prop is one if-then breath; credibility is a checkable client result plus real credentials (no fabricated counts); the form asks exactly 3 things — the obstacle question feeds the sales call. The offer is an easy first step, not a disguised sales call.
+**What makes this excellent**: the hook names a consequential situation and promises a specific, fast diagnostic; the value prop is one if-then breath; credibility is explicitly proof-bounded; the form asks only what routing needs. The offer is an easy first step, not a disguised sales call.
 
 ## Quality Gate
 

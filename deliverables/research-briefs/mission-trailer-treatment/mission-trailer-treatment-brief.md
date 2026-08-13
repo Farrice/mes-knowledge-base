@@ -8,13 +8,13 @@ The hard part — canon and continuity — is done, and the thread stalls at pre
 _CURRENT POSITION_
 A director-level package for an original animated trailer exists — reference pack, continuity rules, and a master prompt built to hold character and world consistency across shots. The ledger shows nothing generated from it.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 2d ago.
 
 Next: Generate from the master prompt and judge the resulting shots against the continuity rules.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **1 d**
+- DAYS ACTIVE: **2 d**
 
 ## lifecycle
 

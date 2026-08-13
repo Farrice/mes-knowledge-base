@@ -8,7 +8,7 @@ A studio with no film shot in it yet.
 _CURRENT POSITION_
 The studio is built and has already generated a substantial pile of assets, but none of the planned pilots has been run end to end. Several pieces are cloned or scaffolded rather than wired, so "ready" describes the build, not a proven run.
 
-Handoff status is ready. Last activity today.
+Handoff status is ready. Last activity 1d ago.
 
 Next: Run a pilot start to finish and tell Farrice exactly what voiceover to record.
 
@@ -16,7 +16,7 @@ Next: Run a pilot start to finish and tell Farrice exactly what voiceover to rec
 - FILES WRITTEN: **6**
 - ASSETS GENERATED: **46**
 - SESSIONS: **2** (claude · codex)
-- DAYS ACTIVE: **5 d**
+- DAYS ACTIVE: **6 d**
 
 ## momentum
 

@@ -15,19 +15,19 @@
     {
       "path": "guides/2026-08-04-extract-forge.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-04-extract-forge.md",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/priestley-universal-closeout/guides/2026-08-04-extract-forge.md",
       "role": "asset · GUIDE"
     },
     {
       "path": ".agent/handoffs/2026-08-04-extract-forge.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/priestley-universal-closeout/.agent/handoffs/2026-08-04-extract-forge.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/priestley-universal-closeout/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

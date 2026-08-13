@@ -8,13 +8,13 @@ Client work that is finished and undelivered — the shortest path to a win on t
 _CURRENT POSITION_
 The listing package went through repeated rejection and rebuild — hooks reworked after they read as feature announcements, then the bodies rewritten as lived scenes — and landed on an approved recording pack. It is sitting in the clean pack waiting to be handed to the client.
 
-Handoff status is ready. Last activity 7d ago.
+Handoff status is ready. Last activity 8d ago.
 
 Next: Send the approved recording pack to Jen.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **7 d**
+- DAYS ACTIVE: **8 d**
 
 ## lifecycle
 

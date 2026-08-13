@@ -354,6 +354,7 @@
 
 
 ## Pending enrichment
+- [2026-08-13 — Content: Priestley SLL OS - Universal and Verified](2026-08-13-priestley-sll-universal.md) — operator-guide stub, needs enrichment
 - [2026-08-11 — Knowledge — Latest Exec Cut](2026-08-11-.md) — operator-guide stub, needs enrichment
 - [2026-08-10 — Execution — Apify Client](2026-08-10-.md) — operator-guide stub, needs enrichment
 - [2026-08-09 — Knowledge — Latest Exec Cut](2026-08-09-.md) — operator-guide stub, needs enrichment

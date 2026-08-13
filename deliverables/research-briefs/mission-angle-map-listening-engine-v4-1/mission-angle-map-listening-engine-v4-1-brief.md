@@ -8,14 +8,14 @@ The best-running machine we own is producing posts the system has no record of a
 _CURRENT POSITION_
 The listening engine genuinely runs: each cycle produces a brief with a flagship post and finished assets filed ready to publish, and it feeds its own living docs without a person restarting it. It is the closest thing here to a machine that converts input into publishable output on its own.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 1d ago.
 
 Next: Publish what the engine has already filed as ready before running another cycle.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
 - SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## lifecycle
 

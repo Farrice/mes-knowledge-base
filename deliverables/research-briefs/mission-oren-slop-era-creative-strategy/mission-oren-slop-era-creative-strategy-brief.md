@@ -8,14 +8,14 @@ Extracted but unproven — there's been motion near this thread, not on it.
 _CURRENT POSITION_
 The extraction ran and a blind-pass sample exists, but the output was graded as needing improvement and nothing finished has been filed against the thread since. Recent sessions have drifted toward adjacent creative-strategy questions rather than closing this one.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 1d ago.
 
 Next: Run the blind pass against a real published piece and either promote the skill or record why it failed.
 
 ## by the numbers
 - FILES WRITTEN: **6**
 - SESSIONS: **4** (claude · codex)
-- DAYS ACTIVE: **6 d**
+- DAYS ACTIVE: **7 d**
 
 ## momentum
 

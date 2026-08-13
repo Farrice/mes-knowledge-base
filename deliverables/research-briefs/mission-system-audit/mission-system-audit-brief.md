@@ -8,13 +8,13 @@ The judgment floor landed, the thread never closed, and its name points at the w
 _CURRENT POSITION_
 This thread shipped a change to how the harness defaults to evidence-backed judgment and pushback, plus repairs to the verification and routing telemetry around it. It has been quiet since, and it carries a title picked up from an unrelated client deliverable.
 
-Handoff status is active. Last activity 8d ago.
+Handoff status is active. Last activity 9d ago.
 
 Next: Decide whether the judgment-floor change is settled — close the thread if it is, or name the behavior still misfiring if it isn't.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **9 d**
 
 ## lifecycle
 

@@ -8,13 +8,13 @@ The extraction engine works; what's unresolved is whether we trust our own grade
 _CURRENT POSITION_
 The extraction pipeline is the most productive thing in the system right now — expert after expert has gone through it and come out as a working skill. What remains is not build work; it is Farrice's own blind verdict on whether the output reads as the real expert.
 
-Handoff status is ready. Last activity 6d ago.
+Handoff status is ready. Last activity 7d ago.
 
 Next: Decide whether that blind verdict is worth a session — if not, close the thread and keep using the skill as it stands.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **10**
-- DAYS ACTIVE: **13 d**
+- DAYS ACTIVE: **14 d**
 
 ## lifecycle
 

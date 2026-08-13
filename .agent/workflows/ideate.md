@@ -46,8 +46,9 @@ Every spark is one line + its mechanism tag. A spark without a mechanism is list
 2. **TRANSFER** — steal a structure from an unrelated extracted expert (the 222-expert registry
    is an idea collider: "what would Stanton's spine test / Priestley's lane bank / Hawley's
    ending-first do to this seed?"). Name the expert per spark.
-3. **COLLIDE** — force-merge the seed with a live thread from memory/goals/thought-bank
-   ("this × the bowling league × the invisible-expert ICP").
+3. **COLLIDE** — force-merge the seed with a materially different live thread from memory,
+   goals, customer evidence, current operations, or the thought bank (a product problem × a
+   customer quote × a current event). The collision source changes with the domain.
 4. **AMPLIFY-THE-WEIRD** — take the strangest TRUE detail in the seed's territory and scale it
    until it becomes a concept.
 5. **ZEITGEIST** — what's genuinely moving in the world right now that multiplies this

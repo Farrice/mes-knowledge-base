@@ -5,7 +5,7 @@
 ## Load Context
 
 1. Read `../genius.md` (mandatory).
-2. Load the ICP/avatar source if one exists (for Farrice: `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`; for clients: their avatar doc). Lane language must come from the buyer's own words — never invent a customer.
+2. Load the buyer, audience, customer, donor, applicant, or stakeholder source if one exists (for Farrice: `_active/linkedin/01-research/deep-icp-profile-invisible-expert.md`; for clients: interviews, reviews, support logs, sales notes, or an avatar doc). Lane language must come from their own words—never invent a person or demand signal.
 
 ## Steps
 
@@ -36,12 +36,12 @@ Buyer connection: [one sentence]
 
 ## Example Output (abridged)
 
-Scenario: strength & conditioning coach for busy professionals.
+Scenario: workflow-automation consultancy for operations leaders.
 
-> **Buyer connection**: hand this to the 35-50 professional who's watched their strength, energy, and waistline slide for 5 years and wants a system that survives a real calendar.
-> **PAIN (excerpt)**: "You're strong at work and weak everywhere else." · "Third January in a row buying the same gym membership." **PROBLEM (excerpt)**: "Every program you've tried assumed you have 90 free minutes a day." (obstacle, not symptom)
-> **Proof story #1**: client X, 44, deadlifted 2× bodyweight after 14 months training 3×45min/week → principles: minimum effective dose, progression tracking, protein floor → process: 12-week coaching blocks with weekly check-ins.
-> **Offer shelf Q3**: P4P = free "Executive Strength Score" assessment; Promotion = September cohort, doors close 09/05.
+> **Buyer connection**: hand this to the operations leader whose team still copies customer data between five tools and wants one reliable workflow without buying a giant transformation program.
+> **PAIN (excerpt)**: "Friday reconciliation starts on Wednesday." · "The spreadsheet only works when Maya is online." **PROBLEM (excerpt)**: "Every automation proposal begins with replacing the stack instead of fixing the handoff." (obstacle, not symptom)
+> **Proof story #1**: client X reduced one approved intake workflow from 46 manual steps to 12, with a human review before every external action → principles: diagnose one workflow, preserve review boundaries, instrument exceptions → process: map, prototype, acceptance-test, hand off.
+> **Offer shelf Q3**: P4P = free "Workflow Friction Score" assessment; Promotion = September implementation cohort, applications close 09/05.
 
 **What makes this excellent**: every lane line is in the buyer's own voice (targetable by the engine), the problem lane names obstacles rather than repeating pains, and the proof story is specific enough to be checkable — no "helped hundreds of clients" fog.
 

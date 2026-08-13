@@ -8,7 +8,7 @@ LinkedIn is fully armed and hasn't fired — the bottleneck is sending, not maki
 _CURRENT POSITION_
 The channel work keeps closing missions — offers wargamed, profile copy rewritten, launch content drafted — but what the ledger shows is preparation, not sends. Nothing in this window was finalized as a shipped deliverable or logged against an outcome.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 1d ago.
 
 Next: Send the posts and outreach that already exist instead of opening another round of positioning work.
 
@@ -16,7 +16,7 @@ Next: Send the posts and outreach that already exist instead of opening another 
 - FILES WRITTEN: **8**
 - ASSETS GENERATED: **9**
 - SESSIONS: **2** (codex)
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## momentum
 

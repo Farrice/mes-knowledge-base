@@ -25,7 +25,7 @@ You are executing the monthly converter layer of Priestley's SLL system: one lon
 
 1. **Open on proof** — the story, statistic, or research that proves you know ("I helped someone lose 20 kilos" / "2M to 5M in under 2 years" grade of specificity). No throat-clearing.
 2. **Principles** — the 3-5 things that made the proof possible, named memorably. These carry the teaching weight.
-3. **Process** — how you actually engage clients (blocks, coaching, accountability, software). The reader should see what working with you looks like.
+3. **Process** — how the result is actually delivered or adopted (service delivery, software onboarding, product use, visit, participation, donation, application, or internal rollout). The reader should see what the next commitment involves.
 4. **Close the gap step-by-step** — the named [GAP] must be actually closed: the reader finishes ABLE to see how it's done.
 5. **Single CTA to the lead form**, framed as the natural next step for whoever wants it done with a guide.
 6. **Pin plan** — this piece is the month's stable converter that all short-form bridges point to; state where it gets pinned.

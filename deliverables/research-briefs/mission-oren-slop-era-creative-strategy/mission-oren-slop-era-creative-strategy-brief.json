@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The extraction ran and a blind-pass sample exists, but the output was graded as needing improvement and nothing finished has been filed against the thread since. Recent sessions have drifted toward adjacent creative-strategy questions rather than closing this one.\n\nHandoff status is active. Last activity today.\n\nNext: Run the blind pass against a real published piece and either promote the skill or record why it failed."
+      "body": "The extraction ran and a blind-pass sample exists, but the output was graded as needing improvement and nothing finished has been filed against the thread since. Recent sessions have drifted toward adjacent creative-strategy questions rather than closing this one.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Run the blind pass against a real published piece and either promote the skill or record why it failed."
     },
     {
       "kind": "stats",
@@ -33,7 +33,7 @@
           "note": "claude · codex"
         },
         {
-          "value": "6",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

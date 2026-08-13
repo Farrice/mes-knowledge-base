@@ -8,12 +8,13 @@ The offer is done being designed; it is now purely a distribution problem.
 _CURRENT POSITION_
 The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.
 
-Handoff status is ready. Last activity today.
+Handoff status is ready. Last activity 1d ago.
 
 Next: Pick a real supplement or performance brand and send the offer to a named person there.
 
 ## by the numbers
 - SESSIONS: **1** (codex)
+- DAYS ACTIVE: **1 d**
 
 ## lifecycle
 

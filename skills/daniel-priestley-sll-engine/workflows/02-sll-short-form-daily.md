@@ -26,12 +26,12 @@ Output step — Execution prompt: `references/prompts-v2/sll-short-form-batch.md
 Each post: hook line → body in buyer language → bridge CTA.
 ```
 
-## Example Output (2 of 7, S&C coach for busy professionals)
+## Example Output (2 of 7, independent ecommerce brand)
 
-> **Mon — PAIN**: "You benched 225 in college. Last week you strained your shoulder moving a couch. Nobody warns you that 'busy' quietly costs you a decade of strength. — I wrote up the 3×45min/week system my 40+ clients use to get it back. Comment REBUILD and I'll send it."
-> **Wed — PROBLEM × NEWS**: "[Marathon-runner CEO story trending this week] Everyone's sharing the CEO who runs marathons before board meetings. Here's the part they cut: you don't need his 4:30am — the reason your training never sticks isn't discipline, it's that every program you've tried assumed a calendar you don't have. Full breakdown is pinned on my profile."
+> **Mon — PAIN**: "The expensive candle smelled perfect in the shop. At home, it turned the room into a perfume counter in twelve minutes. We made a three-question scent-strength guide for people who want atmosphere—not a headache. Comment GUIDE and we'll send it."
+> **Wed — PROBLEM × NEWS**: "[Verified story about stricter fragrance-disclosure rules] More labels will not solve the real buying problem: scent names like 'midnight library' tell you nothing about how strong a candle is in a 300-square-foot room. Our room-size test is pinned on the profile."
 
-**What makes this excellent**: Monday is pure pain-lane in the buyer's own biography (stranger test passes instantly); Wednesday stacks Problem × News for the turbocharge, names the obstacle (program-calendar mismatch, not laziness), and each post ends on a distinct bridge mechanic. No lane bleed, no generic "consistency is key" filler.
+**What makes this excellent**: Monday is pure pain-lane in the buyer's lived buying experience (stranger test passes instantly); Wednesday stacks Problem × News, names the obstacle (missing decision information, not lack of desire), and each post ends on a distinct bridge mechanic. No lane bleed or generic filler.
 
 ## Quality Gate
 

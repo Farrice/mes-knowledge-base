@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "A director-level package for an original animated trailer exists — reference pack, continuity rules, and a master prompt built to hold character and world consistency across shots. The ledger shows nothing generated from it.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Generate from the master prompt and judge the resulting shots against the continuity rules."
+      "body": "A director-level package for an original animated trailer exists — reference pack, continuity rules, and a master prompt built to hold character and world consistency across shots. The ledger shows nothing generated from it.\n\nHandoff status is active. Last activity 2d ago.\n\nNext: Generate from the master prompt and judge the resulting shots against the continuity rules."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "1",
+          "value": "2",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

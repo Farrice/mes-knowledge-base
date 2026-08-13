@@ -8,12 +8,13 @@ The system just argued against its own active campaign, and that fork needs a hu
 _CURRENT POSITION_
 A zero-based re-derivation of what Farrice should actually sell landed here, and it argues against the current lead offer: park the Angle Map and sell a tightly bounded workflow pilot to small professional-service firms, scoped small enough to finish and measure. It is a verdict, not yet a decision — nothing downstream has been changed to match.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 1d ago.
 
 Next: Accept or reject this verdict out loud, then make the campaign and offer threads agree with whichever way it goes.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
+- DAYS ACTIVE: **1 d**
 
 ## lifecycle
 

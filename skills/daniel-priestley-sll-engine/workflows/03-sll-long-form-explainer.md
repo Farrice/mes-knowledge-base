@@ -12,7 +12,7 @@
 
 1. **Open on proof.** The proof story (or statistic/research) leads — "a story that proves you know what you're talking about." Specific and checkable ("20 kilos", "2M to 5M in under 2 years"), never fogged. Claims quarantine: verify or attribute.
 2. **Extract the principles** — the 3-5 things that made the proof story possible. These are the teachable spine, not tips.
-3. **Show the process** — how you actually engage clients (coaching / accountability / software / blocks). This is where the reader learns what working with you looks like.
+3. **Show the process** — how the result is actually delivered or adopted (service delivery, software onboarding, product use, store visit, program participation, donation journey, or internal rollout). This is where the reader sees what the next commitment really involves.
 4. **Close the gap, step-by-step.** "Don't assume they're mind readers — explain step-by-step how something is done." The reader should finish ABLE to see the path, and wanting the guide.
 5. **CTA to the lead form** — one form, one action, framed as the natural next step for whoever wants the result done with you.
 6. **Pin it.** The piece becomes the stable converter short-form bridges point to for the month. Note the pin location in the deliverable.

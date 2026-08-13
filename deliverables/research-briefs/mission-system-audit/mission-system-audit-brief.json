@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread shipped a change to how the harness defaults to evidence-backed judgment and pushback, plus repairs to the verification and routing telemetry around it. It has been quiet since, and it carries a title picked up from an unrelated client deliverable.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Decide whether the judgment-floor change is settled — close the thread if it is, or name the behavior still misfiring if it isn't."
+      "body": "This thread shipped a change to how the harness defaults to evidence-backed judgment and pushback, plus repairs to the verification and routing telemetry around it. It has been quiet since, and it carries a title picked up from an unrelated client deliverable.\n\nHandoff status is active. Last activity 9d ago.\n\nNext: Decide whether the judgment-floor change is settled — close the thread if it is, or name the behavior still misfiring if it isn't."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "8",
+          "value": "9",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

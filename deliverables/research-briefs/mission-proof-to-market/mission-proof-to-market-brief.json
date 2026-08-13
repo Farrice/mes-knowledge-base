@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.\n\nHandoff status is ready. Last activity today.\n\nNext: Pick a real supplement or performance brand and send the offer to a named person there."
+      "body": "The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.\n\nHandoff status is ready. Last activity 1d ago.\n\nNext: Pick a real supplement or performance brand and send the offer to a named person there."
     },
     {
       "kind": "stats",
@@ -27,6 +27,11 @@
           "value": "1",
           "label": "SESSIONS",
           "note": "codex"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
         }
       ]
     },

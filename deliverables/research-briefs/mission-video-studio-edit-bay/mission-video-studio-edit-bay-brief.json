@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The studio is built and has already generated a substantial pile of assets, but none of the planned pilots has been run end to end. Several pieces are cloned or scaffolded rather than wired, so \"ready\" describes the build, not a proven run.\n\nHandoff status is ready. Last activity today.\n\nNext: Run a pilot start to finish and tell Farrice exactly what voiceover to record."
+      "body": "The studio is built and has already generated a substantial pile of assets, but none of the planned pilots has been run end to end. Several pieces are cloned or scaffolded rather than wired, so \"ready\" describes the build, not a proven run.\n\nHandoff status is ready. Last activity 1d ago.\n\nNext: Run a pilot start to finish and tell Farrice exactly what voiceover to record."
     },
     {
       "kind": "stats",
@@ -37,7 +37,7 @@
           "note": "claude · codex"
         },
         {
-          "value": "5",
+          "value": "6",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
