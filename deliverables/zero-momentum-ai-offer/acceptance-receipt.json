@@ -1,0 +1,52 @@
+{
+  "verdict": "PASS",
+  "actual": {
+    "service_buyer_signals": 32,
+    "competitor_offers": 18,
+    "supplement_signals": 12,
+    "authoritative_sources": 5,
+    "buyer_phrases": 50,
+    "public_candidates": 30,
+    "linkedin_posts": 10,
+    "video_scripts": 3,
+    "offer_candidates": 6,
+    "demo_cases": 19,
+    "demo_failed": 0
+  },
+  "minimums": {
+    "service_buyer_signals": 30,
+    "competitor_offers": 15,
+    "supplement_signals": 10,
+    "authoritative_sources": 5,
+    "buyer_phrases": 50,
+    "public_candidates": 30,
+    "linkedin_posts": 10,
+    "video_scripts": 3,
+    "offer_candidates": 6,
+    "demo_cases": 18
+  },
+  "checks": {
+    "service_buyer_signals": true,
+    "competitor_offers": true,
+    "supplement_signals": true,
+    "authoritative_sources": true,
+    "buyer_phrases": true,
+    "public_candidates": true,
+    "linkedin_posts": true,
+    "video_scripts": true,
+    "offer_candidates": true,
+    "demo_cases": true,
+    "demo_zero_failures": true,
+    "demo_human_hold": true,
+    "offer_cluster_hygiene": true,
+    "landing_price": true,
+    "landing_proof_disclosure": true,
+    "landing_risk_reversal": true,
+    "landing_placeholder": true,
+    "brief_work-recovery-command-board": true,
+    "brief_market-proof-dossier": true,
+    "brief_offer-launch-kit": true,
+    "brief_demo-test-receipt": true
+  },
+  "failed": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "offer-launch-kit",
+  "title": "one offer that can earn a yes or no",
+  "compiled": "aug 13, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/offer-launch-kit/offer-launch-kit-brief.html",
+  "brief_md": "deliverables/research-briefs/offer-launch-kit/offer-launch-kit-brief.md",
+  "paths": [
+    {
+      "path": "deliverables/zero-momentum-ai-offer/offer-canon.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/offer-canon.md",
+      "role": "offer source of truth"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/landing-page.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/landing-page.html",
+      "role": "local sales page"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/linkedin-launch-kit.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/linkedin-launch-kit.md",
+      "role": "content package"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/distribution-outreach-kit.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/distribution-outreach-kit.md",
+      "role": "sales activation package"
+    },
+    {
+      "path": "deliverables/zero-momentum-ai-offer/public-prospect-candidates.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/public-prospect-candidates.md",
+      "role": "asset · RESEARCH LIST"
+    }
+  ],
+  "urls": []
+}
