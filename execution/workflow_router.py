@@ -59,6 +59,7 @@ from routing_governor import (
     is_health_check_intent,
     is_knowledge_librarian_intent,
     is_operating_alignment_intent,
+    is_plugin_readiness_intent,
     is_repeatability_intent,
     is_revenue_intent,
     is_routing_intelligence_intent,
@@ -222,6 +223,7 @@ def governed_query_active(query: str) -> bool:
     checks = (
         mission_query,
         is_operating_alignment_intent,
+        is_plugin_readiness_intent,
         is_virtuoso_intent,
         is_deep_research_os_intent,
         is_ai_employee_os_intent,

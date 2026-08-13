@@ -26,6 +26,12 @@ except Exception:  # pragma: no cover - routing must remain available defensivel
 
 ROOT = Path(__file__).resolve().parents[1]
 
+PLUGIN_READINESS_STACK = (
+    "plugin-readiness-audit",
+    "system-efficiency-benchmark",
+    "system-audit",
+)
+
 REVENUE_STACK = (
     "first-10k",
     "revenue-offer-agent",
@@ -1352,6 +1358,38 @@ def is_skill_system_intent(query: str) -> bool:
     )
 
 
+def is_plugin_readiness_intent(query: str) -> bool:
+    """Return True when the decision is whether existing assets should become plugins."""
+    normalized = normalize_query(query)
+    if not normalized:
+        return False
+    direct = any(
+        signal in normalized
+        for signal in (
+            "/plugin-readiness-audit",
+            "plugin readiness",
+            "plugin-readiness",
+            "become a codex plugin",
+            "become a plugin",
+            "stay as workflows",
+            "stay as workflow",
+            "stay as skills",
+            "stay as skill",
+            "repo-local plugin",
+            "repo local plugin",
+            "plugin acceptance",
+            "plugin tests",
+        )
+    )
+    if direct:
+        return True
+    return (
+        any(term in normalized for term in ("plugin", "plugins", "packaging", "package"))
+        and any(term in normalized for term in ("workflow", "workflows", "skill", "skills", "family"))
+        and "whole system" not in normalized
+    )
+
+
 def is_extraction_governor_intent(query: str) -> bool:
     """Return True for source-to-capability triage and extraction-governance requests."""
     normalized = normalize_query(query)
@@ -2508,6 +2546,11 @@ def system_failure_route_bonus(route_name: str, query: str = "") -> int:
 def governed_route_names(query: str, raw_routes: Iterable[str]) -> list[str]:
     """Return route names with governor-required routes promoted first."""
     routes = [route for route in raw_routes if route]
+    if is_plugin_readiness_intent(query):
+        ordered = [route for route in PLUGIN_READINESS_STACK if route in routes]
+        ordered.extend(route for route in PLUGIN_READINESS_STACK if route not in ordered)
+        ordered.extend(route for route in routes if route not in ordered)
+        return ordered
     if is_operating_alignment_intent(query):
         ordered = [route for route in OPERATING_ALIGNMENT_STACK if route in routes]
         ordered.extend(route for route in OPERATING_ALIGNMENT_STACK if route not in ordered)
@@ -2740,6 +2783,33 @@ def evaluate(
         ),
         None,
     )
+
+    if is_plugin_readiness_intent(query):
+        chosen = choose_route(query, combined)
+        skipped = tuple(
+            route for route in combined[:8]
+            if route and route not in set(PLUGIN_READINESS_STACK)
+        )
+        confidence = 0.96 if chosen == "plugin-readiness-audit" else 0.84
+        return GovernorDecision(
+            query=query,
+            detected_lane="plugin-readiness",
+            confidence=confidence,
+            required_candidates=PLUGIN_READINESS_STACK,
+            command_menu_winners=menu_routes,
+            workflow_router_winners=workflow_routes,
+            chosen_route=chosen,
+            skipped_routes=skipped,
+            reason=(
+                "Plugin-packaging intent detected. Score the existing workflow "
+                "family, compare it with routing or metadata cleanup, and require "
+                "fresh-thread proof before creating a plugin."
+            ),
+            feedback_recommendation=(
+                "If plugin packaging routes to a generic workflow, preserve it as "
+                "a /plugin-readiness-audit routing regression."
+            ),
+        )
 
     if is_operating_alignment_intent(query):
         chosen = choose_route(query, combined)

@@ -1177,7 +1177,7 @@ def is_plugin_readiness_query(query: str) -> bool:
 
 def plugin_readiness_bonus(workflow_name: str) -> int:
     bonuses = {
-        "plugin-readiness-audit": 150,
+        "plugin-readiness-audit": 190,
         "system-efficiency-benchmark": 40,
         "knowledge-librarian": 25,
     }

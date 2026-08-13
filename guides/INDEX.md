@@ -9,6 +9,8 @@
 ## By use case
 
 | I want to… | Go to |
+| **Know how to operate Codex and choose the right front door** | |
+| See the six daily front doors and when to use natural language, `/go`, an expert, or an exact workflow | [Codex Operator Card](CODEX-OPERATOR-CARD.md) — `/operator-card` |
 | **Build ads rooted in consumer psychology (Ad Psychology Engine)** | |
 | Pick the psychological tactic before any format talk | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-tactic-select` (front door `/oren-dara`) |
 | Mine a live ad's comments into next round's messaging | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-comment-mine` (virtue map + verbatim bank) |

@@ -308,6 +308,7 @@
 | `persuasion-story-code` | **David Garfinkel - Persuasion Story Code** | conversational persuasion storytelling for entrepreneurs: business stories, sales stories, social content | 12 | 0 |
 | `phil-m-jones-conversational-influence` | **Phil M Jones - Conversational Influence** | conversational influence, sales language, decision catalysis | 13 | 0 |
 | `pj-accetturo-ai-video` | **PJ Accetturo: AI Video Mastery** | pj accetturo's ai video production system: viral ai-generated ads, product demos, and 233m-view workflows | 4 | 14 |
+| `plugin-readiness-audit` | **plugin-readiness-audit** | audit workflows, skills, agents | 1 | 0 |
 | `pptx` | **pptx** | presentation creation, editing, and analysis, when claude needs to work with presentations ( | 0 | 0 |
 | `prediction-market-ai-event-analysis` | **Prediction Market AI Event Analysis** | not forecasting | 3 | 0 |
 | `prediction-market-making` | **Prediction Market Making** | liquidity provision on polymarket — spread optimization, quadratic reward maximization, adverse selection defense via real-time websocket monitoring | 3 | 0 |
