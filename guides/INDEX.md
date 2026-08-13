@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Run a universal content-to-commitment system (Priestley SLL OS)** | |
+| Install Short → Long → Lead for a business, offer, cause, or internal initiative | [Priestley SLL OS](2026-08-13-priestley-sll-universal.md) — `/daniel-priestley-sll-engine` |
+| Batch short form, build the monthly explainer, or refresh the lead mechanism | [Priestley SLL OS](2026-08-13-priestley-sll-universal.md) — `/sll-short-form-daily` · `/sll-long-form-explainer` · `/sll-lead-form` |
+| Audit whether content produces commitments instead of likes | [Priestley SLL OS](2026-08-13-priestley-sll-universal.md) — `/sll-cadence-audit` |
+| Adapt SLL for ecommerce, SaaS, nonprofits, professional practices, or internal adoption | [Priestley SLL OS](2026-08-13-priestley-sll-universal.md) — universal applicability contract + negative controls |
 | **Build ads rooted in consumer psychology (Ad Psychology Engine)** | |
 | Pick the psychological tactic before any format talk | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-tactic-select` (front door `/oren-dara`) |
 | Mine a live ad's comments into next round's messaging | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-comment-mine` (virtue map + verbatim bank) |
