@@ -138,6 +138,12 @@ Research lanes:
 
 Every research-backed output must include either citations or an explicit unavailable-state note.
 
+### 3.5 Buyer-Decision Architecture Sniff (Cold SHADOW)
+
+Using only the grounded reader, context, research, and proof already available, ask whether one eligible **Belief, Focus, Recognition, Priority, or Affect** decision would materially change the content architecture, belief movement, hook intent, memory path, or CTA. If yes, cold-load `semantic_libraries/antigravity/primitives/buyer-psychology-decision-intelligence-overlay.md`, select one primary decision, and return the smallest source-bounded change to this content owner before architecture. Fit and Choice return to the offer or campaign owner; Congruence returns to the copy, campaign, revenue-offer, or selected writing owner.
+
+Skip silently for personal or expressive content with no audience decision, neutral summaries, evidence ledgers, mechanical repackaging, and already-clear work. Do not infer audience psychology, add a content-card field or gate, or disturb the one-composer rule. The five `CANDIDATE` cards remain development-only.
+
 ### 4. Architect
 
 Map each content argument into Diandra's four-bucket funnel:

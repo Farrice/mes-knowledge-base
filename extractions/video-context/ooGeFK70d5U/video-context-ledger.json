@@ -1,0 +1,3098 @@
+[
+  {
+    "timestamp": "00:00:00.719",
+    "seconds": 0.719,
+    "type": "observed_spoken",
+    "evidence": "Jason Flatman here and in today's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:02.879",
+    "seconds": 2.879,
+    "type": "observed_spoken",
+    "evidence": "edition we're going to talk about a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:04.319",
+    "seconds": 4.319,
+    "type": "observed_spoken",
+    "evidence": "rhetorical device or a common language",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:07.520",
+    "seconds": 7.52,
+    "type": "observed_spoken",
+    "evidence": "tactic that's used mostly to incite",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:10.880",
+    "seconds": 10.88,
+    "type": "observed_spoken",
+    "evidence": "outrageousness or righteous indignation",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:13.519",
+    "seconds": 13.519,
+    "type": "observed_spoken",
+    "evidence": "and to hijack critical thinking. Uh it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:15.679",
+    "seconds": 15.679,
+    "type": "observed_spoken",
+    "evidence": "either used to appeal to a base of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.359",
+    "seconds": 17.359,
+    "type": "observed_spoken",
+    "evidence": "people, to rally them up, to do what you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:19.119",
+    "seconds": 19.119,
+    "type": "observed_spoken",
+    "evidence": "want them to do, uh or to make the other",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:21.680",
+    "seconds": 21.68,
+    "type": "observed_spoken",
+    "evidence": "side look worse than it is if you are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:24.000",
+    "seconds": 24.0,
+    "type": "observed_spoken",
+    "evidence": "doing an us versus them type of attack",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:25.920",
+    "seconds": 25.92,
+    "type": "observed_spoken",
+    "evidence": "or if you're positioning somebody else",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.599",
+    "seconds": 27.599,
+    "type": "observed_spoken",
+    "evidence": "or some other ideology or concept to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:30.560",
+    "seconds": 30.56,
+    "type": "observed_spoken",
+    "evidence": "worse off than you. Now, this is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:31.920",
+    "seconds": 31.92,
+    "type": "observed_spoken",
+    "evidence": "unfortunate because this tactic, this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:34.399",
+    "seconds": 34.399,
+    "type": "observed_spoken",
+    "evidence": "language communication device can be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:36.880",
+    "seconds": 36.88,
+    "type": "observed_spoken",
+    "evidence": "incredibly powerful if used in certain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:40.079",
+    "seconds": 40.079,
+    "type": "observed_spoken",
+    "evidence": "situations or for certain um outcomes.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:44.559",
+    "seconds": 44.559,
+    "type": "observed_spoken",
+    "evidence": "though it's very rarely used this way.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:46.480",
+    "seconds": 46.48,
+    "type": "observed_spoken",
+    "evidence": "It's mostly used as a weapon. And even",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:49.039",
+    "seconds": 49.039,
+    "type": "observed_spoken",
+    "evidence": "the word weapon is an exact example of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:51.520",
+    "seconds": 51.52,
+    "type": "observed_spoken",
+    "evidence": "what I'm talking about here. What am I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:53.039",
+    "seconds": 53.039,
+    "type": "observed_spoken",
+    "evidence": "talking about? I'm talking about loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:54.640",
+    "seconds": 54.64,
+    "type": "observed_spoken",
+    "evidence": "language. Uh it's one of the many labels",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:57.199",
+    "seconds": 57.199,
+    "type": "observed_spoken",
+    "evidence": "of linguistics that they call it. They",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.199",
+    "seconds": 59.199,
+    "type": "observed_spoken",
+    "evidence": "can call it emotive language or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:01.280",
+    "seconds": 61.28,
+    "type": "observed_spoken",
+    "evidence": "emotionally charged language. Uh but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.680",
+    "seconds": 63.68,
+    "type": "observed_spoken",
+    "evidence": "whatever you want to call it, I like to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:04.879",
+    "seconds": 64.879,
+    "type": "observed_spoken",
+    "evidence": "think of it as loaded language. It's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:06.560",
+    "seconds": 66.56,
+    "type": "observed_spoken",
+    "evidence": "words or phrases that are designed to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:09.200",
+    "seconds": 69.2,
+    "type": "observed_spoken",
+    "evidence": "elicit strong emotional responses.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.960",
+    "seconds": 72.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "And some of the ones that are most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:16.000",
+    "seconds": 76.0,
+    "type": "observed_spoken",
+    "evidence": "common that have entered our vernacular,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:18.640",
+    "seconds": 78.64,
+    "type": "observed_spoken",
+    "evidence": "especially at least in the United",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:19.759",
+    "seconds": 79.759,
+    "type": "observed_spoken",
+    "evidence": "States, come from politicians cuz they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:22.080",
+    "seconds": 82.08,
+    "type": "observed_spoken",
+    "evidence": "are the best at it. And by the way, it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:25.200",
+    "seconds": 85.2,
+    "type": "observed_spoken",
+    "evidence": "crosses the aisle. It doesn't matter",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:27.040",
+    "seconds": 87.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "Republican, Democrat, uh the the the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:29.920",
+    "seconds": 89.92,
+    "type": "observed_spoken",
+    "evidence": "most right or the most left, whatever",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:32.479",
+    "seconds": 92.479,
+    "type": "observed_spoken",
+    "evidence": "the case may be, they are master at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:34.799",
+    "seconds": 94.799,
+    "type": "observed_spoken",
+    "evidence": "loaded language. So if you ever want to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:36.000",
+    "seconds": 96.0,
+    "type": "observed_spoken",
+    "evidence": "study loaded language, you can get a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:37.840",
+    "seconds": 97.84,
+    "type": "observed_spoken",
+    "evidence": "free education just by opening up the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:39.439",
+    "seconds": 99.439,
+    "type": "observed_spoken",
+    "evidence": "newspaper. So let me give you some ideas",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:41.119",
+    "seconds": 101.119,
+    "type": "observed_spoken",
+    "evidence": "of what loaded language is. The word",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.640",
+    "seconds": 102.64,
+    "type": "observed_spoken",
+    "evidence": "terrorist is a very loaded word whether",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:45.040",
+    "seconds": 105.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "it's accurate or not sometimes and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.280",
+    "seconds": 107.28,
+    "type": "observed_spoken",
+    "evidence": "oftent times the way the word is used is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:50.399",
+    "seconds": 110.399,
+    "type": "observed_spoken",
+    "evidence": "to create that emotional response. Uh",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:52.479",
+    "seconds": 112.479,
+    "type": "observed_spoken",
+    "evidence": "same thing with torture or freedom or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:54.960",
+    "seconds": 114.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "fascism or socialism and in in certain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:57.920",
+    "seconds": 117.92,
+    "type": "observed_spoken",
+    "evidence": "circles the word capitalism is a loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:00.799",
+    "seconds": 120.799,
+    "type": "observed_spoken",
+    "evidence": "word. So some of this is contextual. Now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.439",
+    "seconds": 123.439,
+    "type": "observed_spoken",
+    "evidence": "uh my favorite example in terms of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.680",
+    "seconds": 125.68,
+    "type": "observed_spoken",
+    "evidence": "technique forget about outcome or what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:08.080",
+    "seconds": 128.08,
+    "type": "observed_spoken",
+    "evidence": "it did or didn't accomplish. put",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:09.759",
+    "seconds": 129.75900000000001,
+    "type": "observed_spoken",
+    "evidence": "ideology aside for a second and put on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:11.760",
+    "seconds": 131.76,
+    "type": "observed_spoken",
+    "evidence": "the learning hat, right? Uh the the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:14.400",
+    "seconds": 134.4,
+    "type": "observed_spoken",
+    "evidence": "death tax is probably the greatest",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:16.319",
+    "seconds": 136.319,
+    "type": "observed_spoken",
+    "evidence": "example. And the gentleman, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.760",
+    "seconds": 137.76,
+    "type": "observed_spoken",
+    "evidence": "strategist, the political strategist",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:19.040",
+    "seconds": 139.04,
+    "type": "observed_spoken",
+    "evidence": "that came up with it, his name escapes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:20.800",
+    "seconds": 140.8,
+    "type": "observed_spoken",
+    "evidence": "me right now, wrote a book on this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:23.120",
+    "seconds": 143.12,
+    "type": "observed_spoken",
+    "evidence": "concept, um using this language. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:25.599",
+    "seconds": 145.599,
+    "type": "observed_spoken",
+    "evidence": "what they did is they repositioned the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:27.680",
+    "seconds": 147.68,
+    "type": "observed_spoken",
+    "evidence": "estate tax, which was like a coin flip.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:30.080",
+    "seconds": 150.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "It could be voted for or against uh",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:32.800",
+    "seconds": 152.8,
+    "type": "observed_spoken",
+    "evidence": "increasing it or doing something with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:34.400",
+    "seconds": 154.4,
+    "type": "observed_spoken",
+    "evidence": "it. And when they branded it as the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:36.640",
+    "seconds": 156.64,
+    "type": "observed_spoken",
+    "evidence": "death tax, that loaded language freaks",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:39.680",
+    "seconds": 159.68,
+    "type": "observed_spoken",
+    "evidence": "people out. And so people that normally",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:41.840",
+    "seconds": 161.84,
+    "type": "observed_spoken",
+    "evidence": "that were for the estate tax became very",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:44.400",
+    "seconds": 164.4,
+    "type": "observed_spoken",
+    "evidence": "much against the death tax. Uh even",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:47.200",
+    "seconds": 167.2,
+    "type": "observed_spoken",
+    "evidence": "changing something like affordable care",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:48.879",
+    "seconds": 168.879,
+    "type": "observed_spoken",
+    "evidence": "act to Obamacare uh is a way to load",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:52.400",
+    "seconds": 172.4,
+    "type": "observed_spoken",
+    "evidence": "that because to certain groups of people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:54.080",
+    "seconds": 174.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "that word represents or that name",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:56.560",
+    "seconds": 176.56,
+    "type": "observed_spoken",
+    "evidence": "represents a very loaded emotional",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:59.200",
+    "seconds": 179.2,
+    "type": "observed_spoken",
+    "evidence": "knee-jerk reaction. Patriot Act is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:02.000",
+    "seconds": 182.0,
+    "type": "observed_spoken",
+    "evidence": "fantastic example of who's against",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:04.159",
+    "seconds": 184.159,
+    "type": "observed_spoken",
+    "evidence": "patriotism. Patriotism evokes a very",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:06.879",
+    "seconds": 186.879,
+    "type": "observed_spoken",
+    "evidence": "strong positive emotion. A lot of loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:08.720",
+    "seconds": 188.72,
+    "type": "observed_spoken",
+    "evidence": "language will evoke negative emotions in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:11.280",
+    "seconds": 191.28,
+    "type": "observed_spoken",
+    "evidence": "the sense of of things like the war on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.840",
+    "seconds": 193.84,
+    "type": "observed_spoken",
+    "evidence": "drugs is a fantastic loaded phrase as if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:16.959",
+    "seconds": 196.959,
+    "type": "observed_spoken",
+    "evidence": "we're actually fighting a war with drugs",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:18.640",
+    "seconds": 198.64,
+    "type": "observed_spoken",
+    "evidence": "and they got their artillery and they're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:20.319",
+    "seconds": 200.319,
+    "type": "observed_spoken",
+    "evidence": "shooting at us and we're ducking and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.680",
+    "seconds": 201.68,
+    "type": "observed_spoken",
+    "evidence": "covering and coming back at them. Uh",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:23.599",
+    "seconds": 203.599,
+    "type": "observed_spoken",
+    "evidence": "kind of stuff. Most of this is negative,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:25.120",
+    "seconds": 205.12,
+    "type": "observed_spoken",
+    "evidence": "loaded language, but there are some",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.480",
+    "seconds": 206.48,
+    "type": "observed_spoken",
+    "evidence": "positive uh like the Patriot Act um was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:29.120",
+    "seconds": 209.12,
+    "type": "observed_spoken",
+    "evidence": "a very loaded term u that evokes a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:32.080",
+    "seconds": 212.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "certain emotional response that doesn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:34.560",
+    "seconds": 214.56,
+    "type": "observed_spoken",
+    "evidence": "necessarily",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:36.080",
+    "seconds": 216.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "help with discourse about the pros and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:38.560",
+    "seconds": 218.56,
+    "type": "observed_spoken",
+    "evidence": "cons of such an act. Uh fake news is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.440",
+    "seconds": 221.44,
+    "type": "observed_spoken",
+    "evidence": "probably the most popular one right now.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:43.440",
+    "seconds": 223.44,
+    "type": "observed_spoken",
+    "evidence": "Um it's a very loaded concept",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.959",
+    "seconds": 226.959,
+    "type": "observed_spoken",
+    "evidence": "um in terms of it it evokes a certain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:49.680",
+    "seconds": 229.68,
+    "type": "observed_spoken",
+    "evidence": "emotional response. Uh to categorically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:52.400",
+    "seconds": 232.4,
+    "type": "observed_spoken",
+    "evidence": "call something fake news is is going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:55.519",
+    "seconds": 235.519,
+    "type": "observed_spoken",
+    "evidence": "incite certain groups. It's going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.040",
+    "seconds": 237.04,
+    "type": "observed_spoken",
+    "evidence": "rally other groups. Uh and even certain",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:00.400",
+    "seconds": 240.4,
+    "type": "observed_spoken",
+    "evidence": "things on how we try to empower",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:02.319",
+    "seconds": 242.319,
+    "type": "observed_spoken",
+    "evidence": "ourselves to use a lot of language",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:04.560",
+    "seconds": 244.56,
+    "type": "observed_spoken",
+    "evidence": "because there's positive ways you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:05.599",
+    "seconds": 245.599,
+    "type": "observed_spoken",
+    "evidence": "use. I'm going to explore a couple with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:06.879",
+    "seconds": 246.879,
+    "type": "observed_spoken",
+    "evidence": "you um actually in this video here. But",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:09.280",
+    "seconds": 249.28,
+    "type": "observed_spoken",
+    "evidence": "a very positive or attempt at positive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:11.680",
+    "seconds": 251.68,
+    "type": "observed_spoken",
+    "evidence": "that I don't think ends up working is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:14.000",
+    "seconds": 254.0,
+    "type": "observed_spoken",
+    "evidence": "the battle against cancer or the fight",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:16.560",
+    "seconds": 256.56,
+    "type": "observed_spoken",
+    "evidence": "against cancer or I'm gonna beat cancer",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:19.519",
+    "seconds": 259.519,
+    "type": "observed_spoken",
+    "evidence": "as if it's hand-to-hand combat. Um there",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:23.759",
+    "seconds": 263.759,
+    "type": "observed_spoken",
+    "evidence": "are, you know, you got to ask yourself",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:25.680",
+    "seconds": 265.68,
+    "type": "observed_spoken",
+    "evidence": "with anything in life I've discovered is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:27.759",
+    "seconds": 267.759,
+    "type": "observed_spoken",
+    "evidence": "does this empower me or does this limit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:29.680",
+    "seconds": 269.68,
+    "type": "observed_spoken",
+    "evidence": "me? It helps me move out of this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:31.360",
+    "seconds": 271.36,
+    "type": "observed_spoken",
+    "evidence": "modality of this does this hurt or does",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:33.360",
+    "seconds": 273.36,
+    "type": "observed_spoken",
+    "evidence": "this harm me? Is this good or is this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:34.800",
+    "seconds": 274.8,
+    "type": "observed_spoken",
+    "evidence": "bad? Is this evil or is this whatever?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:36.720",
+    "seconds": 276.72,
+    "type": "observed_spoken",
+    "evidence": "Right? Um, it's a it's a less",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:38.720",
+    "seconds": 278.72,
+    "type": "observed_spoken",
+    "evidence": "judgmental, easier to assess and empower",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:42.560",
+    "seconds": 282.56,
+    "type": "observed_spoken",
+    "evidence": "like does this empower me or not. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:44.880",
+    "seconds": 284.88,
+    "type": "observed_spoken",
+    "evidence": "god forbid I ever get cancer or somebody",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:47.040",
+    "seconds": 287.04,
+    "type": "observed_spoken",
+    "evidence": "that I love gets can cancer, I would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:49.040",
+    "seconds": 289.04,
+    "type": "observed_spoken",
+    "evidence": "literally consider the language that we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.440",
+    "seconds": 291.44,
+    "type": "observed_spoken",
+    "evidence": "use around that because it's going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:53.040",
+    "seconds": 293.04,
+    "type": "observed_spoken",
+    "evidence": "affect how we feel. If you're if you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.960",
+    "seconds": 294.96,
+    "type": "observed_spoken",
+    "evidence": "fighting something, there's this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.040",
+    "seconds": 297.04,
+    "type": "observed_spoken",
+    "evidence": "implication that it's it's going to be a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:59.120",
+    "seconds": 299.12,
+    "type": "observed_spoken",
+    "evidence": "blood bath. People are going to get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:00.560",
+    "seconds": 300.56,
+    "type": "observed_spoken",
+    "evidence": "hurt. Something's going to have to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:01.759",
+    "seconds": 301.759,
+    "type": "observed_spoken",
+    "evidence": "happen. Uh, but if you're coming up with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:03.919",
+    "seconds": 303.919,
+    "type": "observed_spoken",
+    "evidence": "a plan to be as healthy as you possibly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:06.800",
+    "seconds": 306.8,
+    "type": "observed_spoken",
+    "evidence": "can, regardless of whether you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:09.120",
+    "seconds": 309.12,
+    "type": "observed_spoken",
+    "evidence": "cancer or not, it probably would elicit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:11.039",
+    "seconds": 311.039,
+    "type": "observed_spoken",
+    "evidence": "a different response, probably a more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:12.479",
+    "seconds": 312.479,
+    "type": "observed_spoken",
+    "evidence": "thoughtful uh and a and a more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:14.639",
+    "seconds": 314.639,
+    "type": "observed_spoken",
+    "evidence": "empowering response, at least for me,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:16.880",
+    "seconds": 316.88,
+    "type": "observed_spoken",
+    "evidence": "than fighting or battling or war. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:20.639",
+    "seconds": 320.639,
+    "type": "observed_spoken",
+    "evidence": "you're going to discover a lot of loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:21.759",
+    "seconds": 321.759,
+    "type": "observed_spoken",
+    "evidence": "language comes along military terms.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:23.360",
+    "seconds": 323.36,
+    "type": "observed_spoken",
+    "evidence": "Okay. Now, here's a fun exercise. I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:26.240",
+    "seconds": 326.24,
+    "type": "observed_spoken",
+    "evidence": "don't know if fun is the word for you,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:27.600",
+    "seconds": 327.6,
+    "type": "observed_spoken",
+    "evidence": "but it's fun for me because it helps",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:29.199",
+    "seconds": 329.199,
+    "type": "observed_spoken",
+    "evidence": "increase my learning. helps me",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:30.800",
+    "seconds": 330.8,
+    "type": "observed_spoken",
+    "evidence": "understand what is loaded language, what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:32.560",
+    "seconds": 332.56,
+    "type": "observed_spoken",
+    "evidence": "are options if I were to need to use",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.039",
+    "seconds": 335.039,
+    "type": "observed_spoken",
+    "evidence": "loaded language, and how can I become",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:37.039",
+    "seconds": 337.039,
+    "type": "observed_spoken",
+    "evidence": "more resistant to loaded language that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:39.199",
+    "seconds": 339.199,
+    "type": "observed_spoken",
+    "evidence": "designed to manipulate me or at least",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:41.680",
+    "seconds": 341.68,
+    "type": "observed_spoken",
+    "evidence": "understand what it is so I don't have it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:44.400",
+    "seconds": 344.4,
+    "type": "observed_spoken",
+    "evidence": "just take over uh my emotions so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:47.759",
+    "seconds": 347.759,
+    "type": "observed_spoken",
+    "evidence": "still keep kind of some sort of balance",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:49.680",
+    "seconds": 349.68,
+    "type": "observed_spoken",
+    "evidence": "in my life. Uh I opened up some of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:52.160",
+    "seconds": 352.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "most common news sources, their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:54.639",
+    "seconds": 354.639,
+    "type": "observed_spoken",
+    "evidence": "websites, and I did it across all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:57.600",
+    "seconds": 357.6,
+    "type": "observed_spoken",
+    "evidence": "political spectrums. So, it's not that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:00.000",
+    "seconds": 360.0,
+    "type": "observed_spoken",
+    "evidence": "one does it and the other doesn't do it.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:01.840",
+    "seconds": 361.84,
+    "type": "observed_spoken",
+    "evidence": "Uh, everybody does it. And really, it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:03.600",
+    "seconds": 363.6,
+    "type": "observed_spoken",
+    "evidence": "symptomatic of a greater thing is if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:05.759",
+    "seconds": 365.759,
+    "type": "observed_spoken",
+    "evidence": "your goal as the press is to sell",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:07.440",
+    "seconds": 367.44,
+    "type": "observed_spoken",
+    "evidence": "clicks, which is the goal of every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:09.120",
+    "seconds": 369.12,
+    "type": "observed_spoken",
+    "evidence": "single press that exists out there, uh,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:11.759",
+    "seconds": 371.759,
+    "type": "observed_spoken",
+    "evidence": "that's their business model. Um, then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:14.160",
+    "seconds": 374.16,
+    "type": "observed_spoken",
+    "evidence": "they employ these techniques to maximize",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:16.639",
+    "seconds": 376.639,
+    "type": "observed_spoken",
+    "evidence": "their profits. It's as simple as that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.400",
+    "seconds": 378.4,
+    "type": "observed_spoken",
+    "evidence": "because that's how powerful and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.080",
+    "seconds": 380.08,
+    "type": "observed_spoken",
+    "evidence": "persuasive loaded language can be. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:22.880",
+    "seconds": 382.88,
+    "type": "observed_spoken",
+    "evidence": "let me just share with you. And it and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:24.479",
+    "seconds": 384.479,
+    "type": "observed_spoken",
+    "evidence": "it's funny because I saw these same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:25.759",
+    "seconds": 385.759,
+    "type": "observed_spoken",
+    "evidence": "words repeated across all spectrums and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:28.319",
+    "seconds": 388.319,
+    "type": "observed_spoken",
+    "evidence": "all across all of the most popular press",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:31.520",
+    "seconds": 391.52,
+    "type": "observed_spoken",
+    "evidence": "that exists out there regardless of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:33.039",
+    "seconds": 393.039,
+    "type": "observed_spoken",
+    "evidence": "political leanings. Here are some words",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:34.400",
+    "seconds": 394.4,
+    "type": "observed_spoken",
+    "evidence": "that I found and this took me less than",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:36.160",
+    "seconds": 396.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "15 minutes. Criminal and not in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:38.479",
+    "seconds": 398.479,
+    "type": "observed_spoken",
+    "evidence": "sense like what a criminal is. A",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:40.560",
+    "seconds": 400.56,
+    "type": "observed_spoken",
+    "evidence": "criminal used to describe a situation",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:42.639",
+    "seconds": 402.639,
+    "type": "observed_spoken",
+    "evidence": "that's probably not a criminal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.479",
+    "seconds": 404.479,
+    "type": "observed_spoken",
+    "evidence": "situation. Loser literally calling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:47.039",
+    "seconds": 407.039,
+    "type": "observed_spoken",
+    "evidence": "somebody a loser uh which evokes a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.199",
+    "seconds": 409.199,
+    "type": "observed_spoken",
+    "evidence": "certain emotional response immediately",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:50.880",
+    "seconds": 410.88,
+    "type": "observed_spoken",
+    "evidence": "lashes out. Uh what's the difference",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:53.440",
+    "seconds": 413.44,
+    "type": "observed_spoken",
+    "evidence": "between lashing out at something and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:56.000",
+    "seconds": 416.0,
+    "type": "observed_spoken",
+    "evidence": "just being uh upset at something? One",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:59.440",
+    "seconds": 419.44,
+    "type": "observed_spoken",
+    "evidence": "creates emotional response more than",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:01.360",
+    "seconds": 421.36,
+    "type": "observed_spoken",
+    "evidence": "another. A meltdown. Meltdown is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:05.039",
+    "seconds": 425.039,
+    "type": "observed_spoken",
+    "evidence": "rarely a case where something actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:06.800",
+    "seconds": 426.8,
+    "type": "observed_spoken",
+    "evidence": "is melted down, but it's a it creates a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:09.759",
+    "seconds": 429.759,
+    "type": "observed_spoken",
+    "evidence": "very interesting picture. Immediately",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:11.440",
+    "seconds": 431.44,
+    "type": "observed_spoken",
+    "evidence": "when you hear a meltdown, you probably",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:12.800",
+    "seconds": 432.8,
+    "type": "observed_spoken",
+    "evidence": "think temper tantrum. Um which is kind",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:15.120",
+    "seconds": 435.12,
+    "type": "observed_spoken",
+    "evidence": "of a loaded term. uh bashes, cajjol,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:18.160",
+    "seconds": 438.16,
+    "type": "observed_spoken",
+    "evidence": "fires back, dirty little secret,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:20.560",
+    "seconds": 440.56,
+    "type": "observed_spoken",
+    "evidence": "ravages, attacks, uh please, please,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:24.319",
+    "seconds": 444.319,
+    "type": "observed_spoken",
+    "evidence": "please, please, or you know, even",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:26.000",
+    "seconds": 446.0,
+    "type": "observed_spoken",
+    "evidence": "undercuts uh in certain context is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:28.800",
+    "seconds": 448.8,
+    "type": "observed_spoken",
+    "evidence": "emotionally charged, left hanging. This",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:32.000",
+    "seconds": 452.0,
+    "type": "observed_spoken",
+    "evidence": "person was left hanging uh evokes some",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:35.199",
+    "seconds": 455.199,
+    "type": "observed_spoken",
+    "evidence": "very dark imagery if you think about it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:37.599",
+    "seconds": 457.599,
+    "type": "observed_spoken",
+    "evidence": "in terms of hanging and where that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:39.520",
+    "seconds": 459.52,
+    "type": "observed_spoken",
+    "evidence": "originally comes from or harm. Even even",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:41.680",
+    "seconds": 461.68,
+    "type": "observed_spoken",
+    "evidence": "words like, you know, harassed. There",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:43.599",
+    "seconds": 463.599,
+    "type": "observed_spoken",
+    "evidence": "are certain times where that word makes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:44.800",
+    "seconds": 464.8,
+    "type": "observed_spoken",
+    "evidence": "sense, but other times where it's an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:47.039",
+    "seconds": 467.039,
+    "type": "observed_spoken",
+    "evidence": "emotionally charged word used in a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:49.199",
+    "seconds": 469.199,
+    "type": "observed_spoken",
+    "evidence": "different context. Uh, blasts,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:51.199",
+    "seconds": 471.199,
+    "type": "observed_spoken",
+    "evidence": "firepower, ratchets, collapses, soarses,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:54.000",
+    "seconds": 474.0,
+    "type": "observed_spoken",
+    "evidence": "fights, and battles. I see all that over",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:55.360",
+    "seconds": 475.36,
+    "type": "observed_spoken",
+    "evidence": "and over again. Doomed. Doomed is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:57.840",
+    "seconds": 477.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "really powerful emotionally charged. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:00.000",
+    "seconds": 480.0,
+    "type": "observed_spoken",
+    "evidence": "it doesn't have to be a word. It can be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:00.960",
+    "seconds": 480.96,
+    "type": "observed_spoken",
+    "evidence": "a phrase like teetering on the edge. Uh,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:03.520",
+    "seconds": 483.52,
+    "type": "observed_spoken",
+    "evidence": "on the brink of destruction or on the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:05.520",
+    "seconds": 485.52,
+    "type": "observed_spoken",
+    "evidence": "brink of whatever, right? These are all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:07.840",
+    "seconds": 487.84,
+    "type": "observed_spoken",
+    "evidence": "concepts that they make for interesting",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:11.120",
+    "seconds": 491.12,
+    "type": "observed_spoken",
+    "evidence": "headlines. They definitely draw",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:13.039",
+    "seconds": 493.039,
+    "type": "observed_spoken",
+    "evidence": "attention. They will get opens. They",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:14.720",
+    "seconds": 494.72,
+    "type": "observed_spoken",
+    "evidence": "will get clicks. Uh they can help you be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:18.400",
+    "seconds": 498.4,
+    "type": "observed_spoken",
+    "evidence": "persuaded or persuasive, I should say.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:21.680",
+    "seconds": 501.68,
+    "type": "observed_spoken",
+    "evidence": "Uh but oftent times they are not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:24.720",
+    "seconds": 504.72,
+    "type": "observed_spoken",
+    "evidence": "actually accurate of the situation.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.479",
+    "seconds": 508.479,
+    "type": "observed_spoken",
+    "evidence": "Uh they create emotional responses to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:30.960",
+    "seconds": 510.96,
+    "type": "observed_spoken",
+    "evidence": "the situation, but they are not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:32.560",
+    "seconds": 512.56,
+    "type": "observed_spoken",
+    "evidence": "necessarily the most accurate way to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:34.479",
+    "seconds": 514.479,
+    "type": "observed_spoken",
+    "evidence": "look at a situation and assess it and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:36.640",
+    "seconds": 516.64,
+    "type": "observed_spoken",
+    "evidence": "say, \"Okay, now that I understand this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:38.320",
+    "seconds": 518.32,
+    "type": "observed_spoken",
+    "evidence": "information, how do I proceed with it?\"",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:40.719",
+    "seconds": 520.719,
+    "type": "observed_spoken",
+    "evidence": "or now that I've experienced this,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:42.959",
+    "seconds": 522.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "what's the best way for me to proceed?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:44.959",
+    "seconds": 524.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "Right? So, loaded language. Now, here's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:46.880",
+    "seconds": 526.88,
+    "type": "observed_spoken",
+    "evidence": "why it's important that you know this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.240",
+    "seconds": 528.24,
+    "type": "observed_spoken",
+    "evidence": "because it's everywhere. Uh it's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:49.760",
+    "seconds": 529.76,
+    "type": "observed_spoken",
+    "evidence": "invisible thing that's simultaneously",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:52.480",
+    "seconds": 532.48,
+    "type": "observed_spoken",
+    "evidence": "everywhere you look. And when you become",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.519",
+    "seconds": 535.519,
+    "type": "observed_spoken",
+    "evidence": "more conscious of it, then you can be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.760",
+    "seconds": 539.76,
+    "type": "observed_spoken",
+    "evidence": "more likely to use it or have it used",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:03.600",
+    "seconds": 543.6,
+    "type": "observed_spoken",
+    "evidence": "upon you when it can help you and less",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:05.600",
+    "seconds": 545.6,
+    "type": "observed_spoken",
+    "evidence": "likely to be manipulated with it when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:07.920",
+    "seconds": 547.92,
+    "type": "observed_spoken",
+    "evidence": "you don't realize how you're being",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.360",
+    "seconds": 549.36,
+    "type": "observed_spoken",
+    "evidence": "manipulated. where you might make",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:10.880",
+    "seconds": 550.88,
+    "type": "observed_spoken",
+    "evidence": "decisions that you otherwise wouldn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:12.480",
+    "seconds": 552.48,
+    "type": "observed_spoken",
+    "evidence": "make if loaded language wasn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:14.959",
+    "seconds": 554.959,
+    "type": "observed_spoken",
+    "evidence": "surrounded by that. Uh so actually a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:17.600",
+    "seconds": 557.6,
+    "type": "observed_spoken",
+    "evidence": "very positive manner in which I like to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:19.519",
+    "seconds": 559.519,
+    "type": "observed_spoken",
+    "evidence": "use loaded language is and you got to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:21.680",
+    "seconds": 561.68,
+    "type": "observed_spoken",
+    "evidence": "you got to practice this and get good at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:23.360",
+    "seconds": 563.36,
+    "type": "observed_spoken",
+    "evidence": "this is if it is persuasive and it can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:26.480",
+    "seconds": 566.48,
+    "type": "observed_spoken",
+    "evidence": "be emotionally charged. It's a simple",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:28.160",
+    "seconds": 568.16,
+    "type": "observed_spoken",
+    "evidence": "question. Um what do I need to persuade",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:30.800",
+    "seconds": 570.8,
+    "type": "observed_spoken",
+    "evidence": "myself to do that I want to do and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:32.880",
+    "seconds": 572.88,
+    "type": "observed_spoken",
+    "evidence": "what's an emotion that if I charged it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:35.440",
+    "seconds": 575.44,
+    "type": "observed_spoken",
+    "evidence": "would make me feel good and empower me",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:37.519",
+    "seconds": 577.519,
+    "type": "observed_spoken",
+    "evidence": "to do that. So, that is a fantastic way",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:40.640",
+    "seconds": 580.64,
+    "type": "observed_spoken",
+    "evidence": "in which to use loaded language in your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:42.640",
+    "seconds": 582.64,
+    "type": "observed_spoken",
+    "evidence": "own personal life to help you when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:44.880",
+    "seconds": 584.88,
+    "type": "observed_spoken",
+    "evidence": "you're looking at a situation that you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:46.560",
+    "seconds": 586.56,
+    "type": "observed_spoken",
+    "evidence": "want to like go in on but you're having",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:48.560",
+    "seconds": 588.56,
+    "type": "observed_spoken",
+    "evidence": "trouble even getting started with. Um,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:50.959",
+    "seconds": 590.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "the other way that you want to be aware",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:52.480",
+    "seconds": 592.48,
+    "type": "observed_spoken",
+    "evidence": "of loaded language is when you see it,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:54.080",
+    "seconds": 594.08,
+    "type": "observed_spoken",
+    "evidence": "observe it and say, \"If I had to replace",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:56.399",
+    "seconds": 596.399,
+    "type": "observed_spoken",
+    "evidence": "this with a less loaded word, what would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:59.120",
+    "seconds": 599.12,
+    "type": "observed_spoken",
+    "evidence": "that word be? And would that be as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:01.680",
+    "seconds": 601.68,
+    "type": "observed_spoken",
+    "evidence": "accurate, if not more accurate, than the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:05.120",
+    "seconds": 605.12,
+    "type": "observed_spoken",
+    "evidence": "loaded word itself?\" Uh, so that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:07.839",
+    "seconds": 607.839,
+    "type": "observed_spoken",
+    "evidence": "really helpful and the more you do that,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:10.240",
+    "seconds": 610.24,
+    "type": "observed_spoken",
+    "evidence": "the better you're going to discover that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:12.000",
+    "seconds": 612.0,
+    "type": "observed_spoken",
+    "evidence": "you're able to see situations and not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:14.000",
+    "seconds": 614.0,
+    "type": "observed_spoken",
+    "evidence": "just be at the mercy of being outraged",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:16.640",
+    "seconds": 616.64,
+    "type": "observed_spoken",
+    "evidence": "because oftent time loaded language is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:18.240",
+    "seconds": 618.24,
+    "type": "observed_spoken",
+    "evidence": "going to draw up these emotions that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:19.920",
+    "seconds": 619.92,
+    "type": "observed_spoken",
+    "evidence": "don't make us feel good if we keep",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:21.360",
+    "seconds": 621.36,
+    "type": "observed_spoken",
+    "evidence": "accessing them over and over again. So",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:22.880",
+    "seconds": 622.88,
+    "type": "observed_spoken",
+    "evidence": "you could say, \"Oh, you got me, but now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:25.600",
+    "seconds": 625.6,
+    "type": "observed_spoken",
+    "evidence": "let me look a little further.\" You know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:27.200",
+    "seconds": 627.2,
+    "type": "observed_spoken",
+    "evidence": "was that a full-on meltdown or was that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:29.120",
+    "seconds": 629.12,
+    "type": "observed_spoken",
+    "evidence": "just a disagreement?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:31.040",
+    "seconds": 631.04,
+    "type": "observed_spoken",
+    "evidence": "I don't know. Uh and lastly, there is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:33.040",
+    "seconds": 633.04,
+    "type": "observed_spoken",
+    "evidence": "going to be times when you're going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:34.000",
+    "seconds": 634.0,
+    "type": "observed_spoken",
+    "evidence": "have to be persuasive, uh where there's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:36.160",
+    "seconds": 636.16,
+    "type": "observed_spoken",
+    "evidence": "a lot on the line. And so to have this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:39.120",
+    "seconds": 639.12,
+    "type": "observed_spoken",
+    "evidence": "in your toolkit that you can reach into",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:41.360",
+    "seconds": 641.36,
+    "type": "observed_spoken",
+    "evidence": "and say to the degree that I feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:44.000",
+    "seconds": 644.0,
+    "type": "observed_spoken",
+    "evidence": "comfortable, that I feel ethical with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:45.760",
+    "seconds": 645.76,
+    "type": "observed_spoken",
+    "evidence": "using this loaded language, it is a uh",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:48.640",
+    "seconds": 648.64,
+    "type": "observed_spoken",
+    "evidence": "rhetorical device. It's a tool that I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:50.480",
+    "seconds": 650.48,
+    "type": "observed_spoken",
+    "evidence": "can employ and use if I have to win over",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:53.040",
+    "seconds": 653.04,
+    "type": "observed_spoken",
+    "evidence": "someone or some ones to my position",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:57.040",
+    "seconds": 657.04,
+    "type": "observed_spoken",
+    "evidence": "because there's so much writing on the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:58.720",
+    "seconds": 658.72,
+    "type": "observed_spoken",
+    "evidence": "line. It's also important to know that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:00.320",
+    "seconds": 660.32,
+    "type": "observed_spoken",
+    "evidence": "if if you're in a situation like in in a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:02.560",
+    "seconds": 662.56,
+    "type": "observed_spoken",
+    "evidence": "marketplace, I always look at it this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:04.079",
+    "seconds": 664.079,
+    "type": "observed_spoken",
+    "evidence": "way, like my what are my competitors",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:06.160",
+    "seconds": 666.16,
+    "type": "observed_spoken",
+    "evidence": "doing and how am I going to position",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:09.839",
+    "seconds": 669.839,
+    "type": "observed_spoken",
+    "evidence": "myself against my competitors so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:12.959",
+    "seconds": 672.959,
+    "type": "observed_spoken",
+    "evidence": "stand out, I can get attention, that I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:15.519",
+    "seconds": 675.519,
+    "type": "observed_spoken",
+    "evidence": "not allowing other people to position me",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:17.760",
+    "seconds": 677.76,
+    "type": "observed_spoken",
+    "evidence": "into a corner that I shouldn't be in or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:19.680",
+    "seconds": 679.68,
+    "type": "observed_spoken",
+    "evidence": "to downplay what I do to try to upplay",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:21.600",
+    "seconds": 681.6,
+    "type": "observed_spoken",
+    "evidence": "what they do, right? uh how what are the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:23.839",
+    "seconds": 683.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "weapons? There's your load of word for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:25.519",
+    "seconds": 685.519,
+    "type": "observed_spoken",
+    "evidence": "you. Uh that they're using in their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:27.760",
+    "seconds": 687.76,
+    "type": "observed_spoken",
+    "evidence": "communication and do I have to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:30.959",
+    "seconds": 690.959,
+    "type": "observed_spoken",
+    "evidence": "neutralize them? Do I have to counteract",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:32.880",
+    "seconds": 692.88,
+    "type": "observed_spoken",
+    "evidence": "them? Or can I take them, finesse them,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:35.360",
+    "seconds": 695.36,
+    "type": "observed_spoken",
+    "evidence": "apply them at a higher level so that way",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:37.040",
+    "seconds": 697.04,
+    "type": "observed_spoken",
+    "evidence": "I look better in front of my customers",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:38.800",
+    "seconds": 698.8,
+    "type": "observed_spoken",
+    "evidence": "than they do? It's so that's a very",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:40.640",
+    "seconds": 700.64,
+    "type": "observed_spoken",
+    "evidence": "specific example how you can use this.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:42.160",
+    "seconds": 702.16,
+    "type": "observed_spoken",
+    "evidence": "But regardless, if you do nothing else,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:44.160",
+    "seconds": 704.16,
+    "type": "observed_spoken",
+    "evidence": "here's what I would love for you to do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:45.279",
+    "seconds": 705.279,
+    "type": "observed_spoken",
+    "evidence": "in this video, uh, when it's over with,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:47.360",
+    "seconds": 707.36,
+    "type": "observed_spoken",
+    "evidence": "is go out there, pull up news sites,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:49.519",
+    "seconds": 709.519,
+    "type": "observed_spoken",
+    "evidence": "pull up ones you love, pull up ones you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:51.600",
+    "seconds": 711.6,
+    "type": "observed_spoken",
+    "evidence": "hate, and just look at the words in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:54.720",
+    "seconds": 714.72,
+    "type": "observed_spoken",
+    "evidence": "headlines and try to write down what are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:56.959",
+    "seconds": 716.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "the emotionally loaded words. This will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:58.959",
+    "seconds": 718.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "bring consciousness, and now that'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:00.800",
+    "seconds": 720.8,
+    "type": "observed_spoken",
+    "evidence": "allow you to access more uh, powerful",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:03.440",
+    "seconds": 723.44,
+    "type": "observed_spoken",
+    "evidence": "persuasive words when you need to in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:05.519",
+    "seconds": 725.519,
+    "type": "observed_spoken",
+    "evidence": "your next form of communication, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:06.959",
+    "seconds": 726.959,
+    "type": "observed_spoken",
+    "evidence": "also make you aware of when others are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:08.639",
+    "seconds": 728.639,
+    "type": "observed_spoken",
+    "evidence": "using it to you. And you can see is it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:10.320",
+    "seconds": 730.32,
+    "type": "observed_spoken",
+    "evidence": "in my best interest to buy into this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:12.560",
+    "seconds": 732.56,
+    "type": "observed_spoken",
+    "evidence": "loaded language or should I use this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:14.720",
+    "seconds": 734.72,
+    "type": "observed_spoken",
+    "evidence": "filter and then help me understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:17.360",
+    "seconds": 737.36,
+    "type": "observed_spoken",
+    "evidence": "what's really going on and not be at the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:19.440",
+    "seconds": 739.44,
+    "type": "observed_spoken",
+    "evidence": "mercy so much of having others come by",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:21.279",
+    "seconds": 741.279,
+    "type": "observed_spoken",
+    "evidence": "and tweak your emotions and put you in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:22.800",
+    "seconds": 742.8,
+    "type": "observed_spoken",
+    "evidence": "states that you necessarily don't want",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:24.160",
+    "seconds": 744.16,
+    "type": "observed_spoken",
+    "evidence": "to be in. So there you go. Loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:26.240",
+    "seconds": 746.24,
+    "type": "observed_spoken",
+    "evidence": "language. Have off with it. Leave a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:28.560",
+    "seconds": 748.56,
+    "type": "observed_spoken",
+    "evidence": "comment if you've noticed loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:29.839",
+    "seconds": 749.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "language in your life that has been",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:31.120",
+    "seconds": 751.12,
+    "type": "observed_spoken",
+    "evidence": "really empowering or or a loaded",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:32.959",
+    "seconds": 752.9590000000001,
+    "type": "observed_spoken",
+    "evidence": "language that once you removed it that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:34.560",
+    "seconds": 754.56,
+    "type": "observed_spoken",
+    "evidence": "was better off for you. Drop me a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:36.639",
+    "seconds": 756.639,
+    "type": "observed_spoken",
+    "evidence": "comment there. Like and subscribe and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:38.480",
+    "seconds": 758.48,
+    "type": "observed_spoken",
+    "evidence": "I'll talk with you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "Frame extraction skipped because mode is transcript.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "OCR skipped because mode is transcript.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  }
+]

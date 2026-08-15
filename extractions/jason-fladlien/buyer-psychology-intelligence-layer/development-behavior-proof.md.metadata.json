@@ -1,0 +1,11 @@
+{
+  "title": "Sales Psychology Development Behavior Proof",
+  "artifactType": "development-behavior-proof",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "deploymentMode": "DEVELOPMENT_ONLY",
+  "promotionEligible": false,
+  "marketEvent": "NO EVENT",
+  "runtimeAuthorityChanged": false
+}

@@ -11,10 +11,11 @@ Use this route when the operator needs the offer itself shaped before acquisitio
 1. Establish offer truth: intended buyer, urgent trigger, purchased transformation, supplied proof, delivery capability, preservation locks, and explicit unknowns.
 2. Resolve game viability. When advantage or demand conditions are consequentially unclear, run `/fladlien-game-selection` and honor `PLAY / PASS / WAIT` before polishing.
 3. Run `/fladlien-terms` before package copy or acquisition. When this owner was loaded by that public wrapper, execute the diagnostic in place rather than recursively invoking the wrapper. Inspect all 18 buyer-burden levers, select one primary burden, and accept no more than three evidence-backed offer changes.
-4. Reassemble the offer under one owner. Diagnostic components recommend; the Revenue Offer Agent alone accepts, offsets, rejects, or holds each specialist return. Preserve one coherent promise, run cross-term non-regression, and assign the smallest honest overall label: `PRESERVE`, `PATCH`, `REBUILD`, or `HOLD`.
-5. Package the accepted offer into a clear service, audit, sprint, or productized wedge with truthful price, proof, CTA, delivery, consent, and risk boundaries.
-6. Report component validity and `sent / held / sold / collected` separately.
-7. Hand off to `/first-10k`, `/client-acquire`, or `/zero-to-client-sprint` only when the offer is specific enough for an honest market test and the operator authorizes acquisition execution.
+4. After TERMS, use the cold Buyer Psychology Decision Intelligence Overlay only when one Fit, Choice, or Congruence decision could materially change the offer. Load `semantic_libraries/antigravity/primitives/buyer-psychology-decision-intelligence-overlay.md`, select one primary SHADOW decision, and return the smallest recommendation to this owner. TERMS remains primary; any accepted psychology-driven offer change consumes one of the existing three change slots. Do not infer buyer motives or activate the five development-only `CANDIDATE` cards.
+5. Reassemble the offer under one owner. Diagnostic components recommend; the Revenue Offer Agent alone accepts, offsets, rejects, or holds each specialist return. Preserve one coherent promise, run cross-term non-regression, and assign the smallest honest overall label: `PRESERVE`, `PATCH`, `REBUILD`, or `HOLD`.
+6. Package the accepted offer into a clear service, audit, sprint, or productized wedge with truthful price, proof, CTA, delivery, consent, and risk boundaries.
+7. Report component validity and `sent / held / sold / collected` separately.
+8. Hand off to `/first-10k`, `/client-acquire`, or `/zero-to-client-sprint` only when the offer is specific enough for an honest market test and the operator authorizes acquisition execution.
 
 ## Guardrails
 

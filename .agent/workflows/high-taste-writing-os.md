@@ -228,6 +228,7 @@ before contributing.
 | Personal voice or serial story | Fresh Voice System |
 | Zero-proof client acquisition | Nicolas Cole Client Acquisition |
 | Converting copy | Copywriting owner plus publishable copy gate |
+| Reader understands but does not reconsider, decide, or act | Buyer Psychology Decision Intelligence Overlay at `semantic_libraries/antigravity/primitives/buyer-psychology-decision-intelligence-overlay.md` (cold SHADOW; eligible Belief, Focus, Recognition, Priority, or Congruence; one evidenced decision, then return to the native owner) |
 
 Each lane returns only:
 
