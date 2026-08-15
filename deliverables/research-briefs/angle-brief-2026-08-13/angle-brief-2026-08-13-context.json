@@ -1,0 +1,62 @@
+{
+  "slug": "angle-brief-2026-08-13",
+  "title": "the part under the three words",
+  "compiled": "aug 13, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.html",
+  "brief_md": "deliverables/research-briefs/angle-brief-2026-08-13/angle-brief-2026-08-13-brief.md",
+  "paths": [
+    {
+      "path": "_active/linkedin/CAMPAIGN.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/CAMPAIGN.md",
+      "role": "active revenue work — offer ladder + mission queue"
+    },
+    {
+      "path": "_active/farrice-brand/voice/VOICE-CARD.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/voice/VOICE-CARD.md",
+      "role": "voice base layer for all deploy blocks"
+    },
+    {
+      "path": "_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-13.md",
+      "role": "resonance + roster source"
+    },
+    {
+      "path": ".agent/zeitgeist-run.log",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/zeitgeist-run.log",
+      "role": "lane health — two consecutive zero-pull days"
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://www.linkedin.com/posts/gisenberg_the-best-prompt-for-ai-agents-ive-heard-activity-7493471333826162688-IYsE",
+      "label": "gisenberg · 241r / 58c · 56 comments sampled"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/justinwelsh_most-raises-at-work-are-pretty-darn-small-activity-7493272164662652928-9EnF",
+      "label": "justinwelsh · 3,481r / 1,116c · 101 comments sampled"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/justinwelsh_the-older-i-get-the-more-i-realize-time-activity-7493634552905527296-y5za",
+      "label": "justinwelsh · 701r / 553c / 7 reposts"
+    },
+    {
+      "url": "https://www.linkedin.com/in/ACwAACcf9skBLHbVBeF4YDfIGrWgi3hCYyNG12s",
+      "label": "zeitgeist ai-consulting · aug 11 · two days stale"
+    },
+    {
+      "url": "https://www.reddit.com/r/RhondaPatrick/comments/1rwgler/rhonda_names_the_exact_brand_for_almost_every/",
+      "label": "zeitgeist supplement-brands · aug 9 · four days stale"
+    }
+  ]
+}
