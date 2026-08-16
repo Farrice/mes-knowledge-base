@@ -1,0 +1,14 @@
+{
+  "title": "Free-First Research Activation and System Audit",
+  "artifact_type": "system-audit",
+  "status": "repair-pass-audit-action-required",
+  "date": "2026-08-16",
+  "owner": "system-audit",
+  "workspace": "Google Antigravity",
+  "activation_commit": "c474575a9",
+  "apify_contained": true,
+  "paid_research_used": false,
+  "subagents_used": false,
+  "external_writes_authorized": true,
+  "destructive_actions_taken": false
+}
