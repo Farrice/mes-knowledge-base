@@ -14,7 +14,7 @@ LOCAL_WRAPPER = ROOT / ".agents" / "skills" / "source-command-autopilot" / "SKIL
 GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_AUTOPILOT = Path.home() / ".codex" / "skills" / "autopilot" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-autopilot" / "SKILL.md"
-ANTIGRAVITY_WORKFLOW = str(PROJECT_WORKFLOW)
+ANTIGRAVITY_WORKFLOW = "/Users/farricecain/Google Antigravity/.agent/workflows/autopilot.md"
 
 
 COMMON_REQUIREMENTS = (

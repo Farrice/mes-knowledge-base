@@ -41,7 +41,7 @@ It is not another persona. It is a control layer over Orchestrator, Mission OS, 
 | Mission governance | `.agent/workflows/mission.md` | Long-running, reusable, client-facing, system-changing, or multi-milestone work |
 | Intent validation | `.agent/workflows/validate-intent.md` | Clarity score is below 50 or DICE sharpening is needed |
 | Recommended stack presenter | `execution/recommend_stack.py` | Surface one best compound pairing, or a skip reason when stacking is not justified |
-| Quality gate | `.agent/workflows/excellence-gate.md` | Output risks being generic, shallow, or merely professional |
+| Quality gate | `.agent/workflows/excellence-latch.md` | Output risks being generic, shallow, or merely professional |
 | Publishable copy gate | `.agent/workflows/publishable-copy-gate.md` | Public, revenue-critical, LinkedIn, outreach, offer, checkout, marketplace, or client-facing copy must be publishable, not merely correct |
 | Repeatability spine | `.agent/workflows/repeatability-spine.md` | Failed revisions, lost magic, wrong-route recovery, and regressions need a preservation lock and regression guard |
 | Virtuoso orchestration | `.agent/workflows/virtuoso.md` | Deploy-at-will front door for full-arsenal, subagent, cross-pollination, plugin/tool-blending, agent-elevation, solo orchestration, or high-stakes composition work that needs route, owner, stack, delegation, execution receipt, and proof in one trace |

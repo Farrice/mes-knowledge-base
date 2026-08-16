@@ -14,7 +14,8 @@ Preferred hot front door:
 /virtuoso --mode research [research objective]
 ```
 
-Kimi-style packet compiler:
+Optional Kimi-style packet compiler (never part of Free-First mode; use only
+after explicit approval for real subagents):
 
 ```bash
 python3 execution/kimi_swarm.py plan "[research objective]" --mode research --depth standard --allow-subagents --json
@@ -24,6 +25,7 @@ Direct specialist command:
 
 ```text
 /deep-research-os [research objective]
+/deep-research-os --free-first [research objective]
 /deep-research-os --market [market/category/offer]
 /deep-research-os --icp [buyer/problem/category]
 /deep-research-os --social-listening [market/community/problem]
@@ -41,10 +43,69 @@ Direct specialist command:
 or `/icp-deep-dive`. It chooses and blends them into one research operation with
 a plan, evidence ledger, verification pass, and packaged synthesis.
 
+In Codex, current external research defaults to **Free-First Research Mission**
+mode unless Farrice explicitly authorizes another provider or execution mode.
+The contract lives at
+`semantic_libraries/antigravity/primitives/free-first-research-mission-contract.md`.
+This is a companion execution path under the existing owner, not a new command
+surface or competing research system.
+
 For Kimi-style research, `/deep-research-os` remains the owner and
 `/kimi-swarm` is only the packet compiler: it decomposes the objective, casts
 expert research angles, emits worker briefs, and hands sourced findings back to
 `execution/research.py` for receipt-bearing ingest.
+
+## Codex Free-First Default
+
+Use this path when the user asks for current, deep, live, enriched, or
+decision-grade research in Codex and has not approved paid accelerators or real
+subagents.
+
+Compile the mission locally:
+
+```bash
+python3 execution/free_first_research.py plan \
+  --objective "[research objective]" \
+  --decision "[decision this research supports]" \
+  --downstream "[where the evidence will be used]" \
+  --artifact "[use-now artifact]" \
+  --depth quick|standard|deep|max \
+  --freshness-hours 72 \
+  --context "[optional local path]" \
+  --skill "[optional relevant skill]"
+```
+
+Then execute the generated `native-web-runbook.md` in the active Codex thread:
+
+1. Use Codex's host-provided native web search and page-open tools first.
+2. Search official/current, counterevidence, comparison, human-voice, and
+   RSS/changelog angles sequentially in the main thread.
+3. Open the strongest pages. Search snippets are discovery, not `VERIFIED`
+   evidence.
+4. Use bounded, basic-depth Tavily **Search and Extract** only for identified
+   gaps. Do not invoke Tavily Research. Disclose the estimated credits and say
+   when the account's billing-plan/overage state could not be verified. The
+   Tavily command fails closed until the zero-dollar account boundary is
+   explicitly confirmed.
+5. Pull public RSS/Atom feeds on demand when they improve recency or source
+   coverage. Do not create a schedule.
+6. Ingest the JSONL findings through `free_first_research.py ingest`.
+7. Only after the external evidence gate passes, load relevant local context and
+   skills for interpretation and downstream use.
+8. Synthesize the cited decision artifact, run the quality gate, and expose the
+   value receipt.
+
+Current-world authority is **live external evidence retrieved in this run**.
+Local memory, harness files, skills, and prior artifacts may shape questions,
+constraints, skill selection, analysis, and reuse, but they may not prove what
+is currently true. If they conflict, live external evidence wins for
+current-world claims; user-owned preferences and project decisions still
+control intent.
+
+Free-first mode must not call Apify, Gemini Deep Research, Perplexity,
+NotebookLM, Tavily Research, a research swarm, a real subagent, browser
+automation, a background worker, or a scheduler. The run receipt must show
+`cost_usd: 0.0` and no executed blocked paths.
 
 ## Inspiration Standard
 
@@ -67,6 +128,9 @@ Allowed by default:
 - Workspace-local reads.
 - Local routing, planning, and artifact creation.
 - Public web reads when the user asks for current research.
+- Codex native web search/page reads in Free-First Research Mission mode.
+- Bounded Tavily Search/Extract and on-demand public RSS when free-first mode is
+  explicitly selected; both remain source-gathering legs, not proof shortcuts.
 - Source-ledger creation, claim inventory, and quality checks.
 
 Approval required:
@@ -79,7 +143,8 @@ Approval required:
   real Codex subagents.
 
 If live web or provider access is unavailable, continue with local corpus only
-and label the output `evidence_gap: live sources not accessed`.
+and label the output `evidence_gap: live sources not accessed`. Local-only work
+cannot satisfy or substitute for a current-world evidence gate.
 
 ## Research Trace
 
@@ -94,12 +159,16 @@ Every run starts with this visible block:
 - Support stack considered:
 - Support stack executed:
 - Source access:
+- Current-world authority:
+- Free-first mission packet:
 - Paid/API boundary:
 - Social-listening boundary:
 - Worker packets prepared:
 - Real subagents spawned: false unless explicitly approved
 - Evidence ledger:
 - Verification plan:
+- Decision and downstream use:
+- Value receipt:
 - First safe local action:
 ```
 
@@ -184,6 +253,7 @@ Choose the smallest stack that covers the research job.
 
 | Need | Route |
 |---|---|
+| Current research in Codex with no paid tools or subagents | Free-First Research Mission under `/deep-research-os` |
 | One deep, current question | `/deep-research` |
 | Gemini-first deep research | `/deep-research-gemini` |
 | Market + audience + system scan | `/research-swarm` |
@@ -193,13 +263,15 @@ Choose the smallest stack that covers the research job.
 | Claim verification | `python3 execution/research_quality_gate.py` |
 | Local system/source overlap | `python3 execution/context_retriever.py search` |
 
-Default stack for high-stakes market work:
+When real subagents and any provider costs are explicitly approved, the default
+stack for high-stakes market work is:
 
 ```text
 /research-swarm -> /parallel-research --angles -> /deep-research -> quality gate
 ```
 
-Default stack for offer-market fit:
+When those same boundaries are explicitly approved, the default stack for
+offer-market fit is:
 
 ```text
 /research-swarm -> /competitor-intel -> /icp-deep-dive -> quality gate
@@ -213,13 +285,30 @@ claim inventory -> source ledger -> quality gate -> rewrite only after verificat
 
 ### 6. Evidence Gathering
 
-Preferred local entrypoint when provider/API access is approved or already safe:
+Preferred Codex entrypoint with no paid/provider approval:
 
 ```bash
-python3 execution/research_router.py "[research question]" \
-  --depth quick|standard|deep|max \
-  --intent market|audience|competitor|offer|general \
-  --provider auto|gemini|perplexity|web
+python3 execution/free_first_research.py plan \
+  --objective "[research question]" \
+  --decision "[decision this research supports]" \
+  --downstream "[downstream consumer]" \
+  --artifact "[use-now research artifact]" \
+  --depth quick|standard|deep|max
+```
+
+Execute the generated native-web runbook in Codex, then validate returned
+findings:
+
+```bash
+python3 execution/free_first_research.py ingest --mission .tmp/research-missions/[mission-id]
+python3 execution/free_first_research.py verify --mission .tmp/research-missions/[mission-id] --require-receipt
+```
+
+Provider-backed entrypoint only after explicit approval for that provider and
+cost boundary:
+
+```bash
+python3 execution/research.py "[research question]" --depth quick|standard|deep|max
 ```
 
 Unified receipt-bearing research entrypoint:
@@ -229,14 +318,9 @@ python3 execution/research.py plan --query "[research question]" --depth standar
 python3 execution/research.py ingest --findings .tmp/research/<slug>/native-findings.jsonl --query "[research question]" --depth standard --swarm
 ```
 
-Health check before provider-dependent research:
-
-```bash
-python3 execution/research_router.py --health
-```
-
 For local-only research, search the workspace and existing compiled knowledge
-before going external.
+only when the decision is about the local system or live evidence is explicitly
+out of scope. Never use local-only results to answer a current-world question.
 
 ### 7. Social Listening
 
@@ -354,21 +438,27 @@ authorization.
 
 ## First Safe Local Action
 
-If the user asks to build, package, or plan research and no paid/API action is
-approved yet, execute this first:
+If the user asks to build, package, or run current research and no paid/API
+action is approved, compile the free-first mission first:
 
 ```bash
-python3 execution/research_router.py --health
+python3 execution/free_first_research.py plan \
+  --objective "[research objective]" \
+  --decision "[decision]" \
+  --downstream "[downstream use]" \
+  --artifact "[use-now artifact]" \
+  --depth standard
 ```
 
-Then create or update the local research plan and source map. Do not run
-paid/API-heavy research until approved.
+Then execute the generated native-web runbook in the active Codex thread. Do
+not run a paid provider, schedule, or subagent unless separately approved.
 
 ## Verification
 
 Use these checks after command or workflow changes:
 
 ```bash
+python3 execution/verify_free_first_research_mission.py
 python3 execution/verify_deep_research_os.py
 python3 execution/validate_skill.py source-command-deep-research-os
 python3 execution/command_menu.py search "deep research social listening market intelligence"

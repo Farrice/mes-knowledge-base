@@ -383,7 +383,7 @@ def manual_gates(route: str, risks: list[str]) -> list[dict[str, str]]:
         {
             "gate": "Codex hook reality",
             "status": "required",
-            "check": ".codex/hooks.json must use codex_hook_runner.py and current-root hook states must be enabled; verify with execution/verify_google_operator_core.py.",
+            "check": ".codex/hooks.json must use codex_hook_runner.py and current-root hook states must be trusted and not explicitly disabled; verify with execution/verify_google_operator_core.py.",
         },
         {
             "gate": "Cost gate",
@@ -558,7 +558,7 @@ def build_preflight(intent: str) -> dict[str, Any]:
         "orchestration_receipt": {
             "platform": "codex",
             "workspace": str(ROOT),
-            "hooks": "codex hook bridge configured through .codex/hooks.json and codex_hook_runner.py; verifier must confirm enabled current-root state",
+            "hooks": "codex hook bridge configured through .codex/hooks.json and codex_hook_runner.py; verifier must confirm trusted, not-explicitly-disabled current-root state",
             "container_decision": launchpad["container_decision"]["move"],
             "capability_move": (
                 launchpad["capability_move"]["recommendation"]

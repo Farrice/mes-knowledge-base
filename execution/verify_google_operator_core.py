@@ -71,9 +71,11 @@ PROBES = [
 HOOK_STATE_SUFFIXES = [
     "pre_tool_use:0:0",
     "pre_tool_use:0:1",
+    "pre_tool_use:0:2",
     "post_tool_use:0:0",
     "user_prompt_submit:0:0",
     "user_prompt_submit:0:1",
+    "user_prompt_submit:0:2",
     "stop:0:0",
 ]
 
@@ -180,27 +182,51 @@ def check_hook_parity() -> list[str]:
     receipts.append("hooks.json uses codex_hook_runner.py for all 8 hooks, including dangerous-git")
 
     config = CONFIG_PATH.read_text(encoding="utf-8") if CONFIG_PATH.exists() else ""
+    state_hook_paths = [HOOKS_PATH]
+    for command in commands:
+        match = re.search(r'"([^"]*codex_hook_runner\.py)"', command)
+        if not match:
+            continue
+        candidate = Path(match.group(1)).parent.parent / "hooks.json"
+        if candidate not in state_hook_paths:
+            state_hook_paths.append(candidate)
+
     missing_optional: list[str] = []
+    trusted_state_path: Path | None = None
     for suffix in HOOK_STATE_SUFFIXES:
-        key = f'{HOOKS_PATH}:{suffix}'
-        header = f'[hooks.state."{key}"]'
-        marker = config.find(header)
-        if marker == -1:
+        matches: list[tuple[Path, int]] = []
+        for hooks_path in state_hook_paths:
+            key = f'{hooks_path}:{suffix}'
+            header = f'[hooks.state."{key}"]'
+            marker = config.find(header)
+            if marker != -1:
+                matches.append((hooks_path, marker))
+        if not matches:
+            key = f'{HOOKS_PATH}:{suffix}'
             if suffix == "pre_tool_use:0:1":
                 missing_optional.append(key)
                 continue
             fail(f"Missing current-root hook state: {key}")
+        hooks_path, marker = matches[0]
+        key = f'{hooks_path}:{suffix}'
         next_header = config.find("\n[", marker + 1)
         block = config[marker:] if next_header == -1 else config[marker:next_header]
-        if "enabled = true" not in block.lower():
+        block_lower = block.lower()
+        if "trusted_hash" not in block_lower:
+            fail(f"Current-root hook state is not trusted: {key}")
+        if "enabled = false" in block_lower:
+            key = f'{hooks_path}:{suffix}'
             if suffix == "pre_tool_use:0:1":
                 missing_optional.append(key)
                 continue
-            fail(f"Current-root hook state is not enabled: {key}")
+            fail(f"Current-root hook state is explicitly disabled: {key}")
+        trusted_state_path = hooks_path
     if missing_optional:
         receipts.append("dangerous-git hook trust is pending desktop consent in ~/.codex/config.toml")
     else:
-        receipts.append("current-root hook states enabled in ~/.codex/config.toml")
+        receipts.append(
+            f"Codex hook states trusted and not disabled via {trusted_state_path or HOOKS_PATH}"
+        )
 
     skill_payload = json.dumps(
         {
@@ -309,7 +335,12 @@ def check_preflight_schema() -> dict[str, Any]:
         fail("Preflight local_next_action should default to patch_and_verify")
     gate_text = json.dumps(data["manual_gate_checklist"]).lower()
     receipt_text = json.dumps(data).lower()
-    if "codex_hook_runner.py" not in gate_text or "enabled" not in gate_text or "codex hook bridge configured" not in receipt_text:
+    if (
+        "codex_hook_runner.py" not in gate_text
+        or "trusted" not in gate_text
+        or "not explicitly disabled" not in gate_text
+        or "codex hook bridge configured" not in receipt_text
+    ):
         fail("Preflight manual gates do not make Codex hook bridge requirements explicit")
     return data
 

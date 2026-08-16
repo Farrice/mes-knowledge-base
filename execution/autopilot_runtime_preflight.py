@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shlex
 import sys
 from pathlib import Path
 from typing import Any, Iterable
@@ -38,6 +39,7 @@ RUNNING_TEXT = "Running safe workspace-local execution now after this trace."
 PLAN_ONLY_TEXT = "Plan only: execution intentionally paused by mode."
 RISK_BLOCK_TEXT = "Blocked by risk gate before execution."
 JUDGMENT_TEXT = "Needs Farrice judgment before execution."
+CONFIG_BLOCK_TEXT = "Blocked by configuration: a route or verifier target is missing."
 
 SAFE_LOCAL_POLICY = (
     "safe workspace-local execution allowed after trace when the work is "
@@ -179,7 +181,7 @@ def raw_intent_bridge_hint(query: str, route: str, gates: list[str], lane: str, 
     mode = "auto"
     if lane == "revenue":
         mode = "revenue"
-    elif route in {"campaign", "creative-brief-gen", "content-media-agent", "high-taste-writing-os"}:
+    elif route in {"campaign", "creative-brief-gen", "create", "high-taste-writing-os"}:
         mode = "creative"
     elif preferred == "source-to-skill-system":
         mode = "system"
@@ -199,12 +201,11 @@ VERIFIERS_BY_LANE = {
         "python3 execution/verify_autopilot_runtime_preflight.py",
         "python3 execution/verify_system_control_plane.py",
         "python3 execution/verify_autopilot_routing.py",
-        "python3 execution/verify_agent_arsenal_routing.py",
     ),
     "expert-composition": (
         "python3 execution/verify_autopilot_runtime_preflight.py",
         "python3 execution/verify_expert_composition_standard.py",
-        "python3 execution/verify_agent_arsenal_routing.py",
+        "python3 execution/verify_operator_core_expert_composition_governor.py",
     ),
     "repeatability": (
         "python3 execution/verify_autopilot_runtime_preflight.py",
@@ -222,12 +223,11 @@ VERIFIERS_BY_LANE = {
     ),
     "deep-research-os": (
         "python3 execution/verify_deep_research_os.py",
-        "python3 execution/research_router.py --health",
+        "python3 execution/verify_free_first_research_mission.py",
         "python3 execution/research_quality_gate.py validate [final_report.md] --strict --source-ledger [source_ledger.md]",
     ),
     "kishotenketsu-contrast-storytelling": (
         "python3 execution/validate_skill.py lucas-alpay-storytelling",
-        "python3 execution/verify_behavior_changing_extraction_contract.py",
         "python3 execution/verify_skill_system_contract.py",
     ),
     "plugin-packaging": (
@@ -600,6 +600,84 @@ def planned_verifiers(lane: str, recipe: Any) -> list[str]:
     return verifiers
 
 
+def route_target_candidates(route: str) -> list[Path]:
+    """Return callable local owners for a route without assuming one file shape."""
+    slug = route.strip().lstrip("/")
+    script_slug = slug.replace("-", "_")
+    return [
+        ROOT / ".agent" / "workflows" / f"{slug}.md",
+        ROOT / ".agents" / "skills" / f"source-command-{slug}" / "SKILL.md",
+        ROOT / "skills" / slug / "SKILL.md",
+        ROOT / "agents" / slug / "AGENT.md",
+        ROOT / "execution" / f"{script_slug}.py",
+    ]
+
+
+def verifier_script_target(command: str) -> Path | None:
+    """Resolve the Python file named by a planned verifier command."""
+    try:
+        parts = shlex.split(command)
+    except ValueError:
+        return ROOT / "__invalid_verifier_command__"
+    if len(parts) < 2 or not parts[0].endswith("python3") or not parts[1].endswith(".py"):
+        return None
+    target = Path(parts[1])
+    return target if target.is_absolute() else ROOT / target
+
+
+def resolve_runtime_targets(route: str, verifiers: Iterable[str]) -> dict[str, Any]:
+    """Prove a selected route and its Python verifier entrypoints exist.
+
+    This is deliberately an execution gate, not a lint-only report. Autopilot
+    must not label a run executable when its owner or proof command is missing.
+    """
+    candidates = route_target_candidates(route)
+    resolved_route = next((path for path in candidates if path.exists()), None)
+    missing: list[str] = []
+    verifier_targets: list[str] = []
+    if resolved_route is None:
+        missing.append(f"route /{route} has no callable local owner")
+    for command in verifiers:
+        target = verifier_script_target(command)
+        if target is None:
+            continue
+        try:
+            display = str(target.relative_to(ROOT))
+        except ValueError:
+            display = str(target)
+        verifier_targets.append(display)
+        if not target.exists():
+            missing.append(f"planned verifier is missing: {display}")
+    return {
+        "status": "READY" if not missing else "BROKEN",
+        "ready": not missing,
+        "route": route,
+        "route_target": (
+            str(resolved_route.relative_to(ROOT)) if resolved_route is not None else ""
+        ),
+        "verifier_targets": verifier_targets,
+        "missing": missing,
+    }
+
+
+def apply_runtime_resolution_gate(
+    posture: dict[str, Any], resolution: dict[str, Any]
+) -> dict[str, Any]:
+    if resolution.get("ready") or posture.get("status") != "Running now":
+        return posture
+    missing = list(resolution.get("missing") or [])
+    return {
+        "status": "Blocked by configuration",
+        "first_action": CONFIG_BLOCK_TEXT,
+        "approval_needed": (
+            "No user approval can repair a missing local target; run /system-audit "
+            "and restore or reroute the owner first."
+        ),
+        "risk_reasons": missing,
+        "safe_to_run": False,
+    }
+
+
 def support_gates(query: str, decision: Any, recipe: Any) -> list[str]:
     gates = list(decision.required_candidates[:5]) if decision.required_candidates else []
     for gate in recipe.support_gates:
@@ -861,6 +939,10 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
     owner = OWNER_BY_ROUTE.get(chosen, chosen.replace("-", " ").title() if chosen else "None")
     gates = support_gates(query, decision, recipe)
     gates = [gate for gate in gates if gate != chosen]
+    unresolved_support_gates = [
+        gate for gate in gates if not any(path.exists() for path in route_target_candidates(gate))
+    ]
+    gates = [gate for gate in gates if gate not in unresolved_support_gates]
     verifiers = planned_verifiers(effective_lane, recipe)
     dynamic_workflow_needed = needs_dynamic_workflow(query, effective_lane, recipe.name)
     if dynamic_workflow_needed and "python3 execution/verify_codex_dynamic_workflow.py" not in verifiers:
@@ -869,6 +951,8 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
     raw_bridge = raw_intent_bridge_hint(query, chosen, gates, effective_lane, recipe.name)
     if raw_bridge["status"] == "triggered" and "python3 execution/verify_raw_intent_run_packet.py" not in verifiers:
         verifiers.insert(0, "python3 execution/verify_raw_intent_run_packet.py")
+    runtime_resolution = resolve_runtime_targets(chosen, verifiers)
+    runtime_resolution["unresolved_support_gates"] = unresolved_support_gates
     launchpad = co_creative_launchpad.build_launchpad(
         query,
         route=chosen,
@@ -877,6 +961,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
         clarity_score=score,
     )
     posture = execution_decision(query, mode, score, chosen, launchpad)
+    posture = apply_runtime_resolution_gate(posture, runtime_resolution)
     confidence_packet = build_intent_confidence_packet(
         query=query,
         route=chosen,
@@ -904,7 +989,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
         posture=posture,
         launchpad=launchpad,
     )
-    skipped = list(decision.skipped_routes)
+    skipped = list(dict.fromkeys([*unresolved_support_gates, *decision.skipped_routes]))
     if not skipped:
         seen_skipped = set()
         skipped = []
@@ -977,10 +1062,17 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
             "owner": owner,
             "support_gates": gates,
             "skipped": skipped,
+            "runtime_resolution": runtime_resolution,
             "tool_clusters": tools,
             "tool_matches": tool_matches,
             "context_sources": contexts,
-            "research_stack": "Use research/ground-truth gates before market claims." if effective_lane == "revenue" else "Skipped: request does not require current external research.",
+            "research_stack": (
+                "Free-First: native web and opened current sources first; bounded Tavily Search/Extract and public RSS only for identified gaps; local context cannot prove world state."
+                if effective_lane == "deep-research-os"
+                else "Use research/ground-truth gates before market claims."
+                if effective_lane == "revenue"
+                else "Skipped: request does not require current external research."
+            ),
             "copy_gate": "Trigger /publishable-copy-gate for public or revenue copy." if effective_lane == "revenue" else "Skipped: not public-facing copy.",
             "mission_package": "Skipped: no mission continuation detected; Mission remains read-only unless implicated.",
             "dynamic_workflow": (
@@ -994,6 +1086,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
                 "workflow_router search",
                 "routing_governor evaluate",
                 "outcome recipe classify",
+                "route and verifier target resolution",
                 "capability graph policy",
                 "expert_router route",
                 "recommend_stack",
@@ -1004,6 +1097,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
             "first_action": posture["first_action"],
         },
         "execution_decision": posture,
+        "runtime_resolution": runtime_resolution,
         "chosen_path": {
             "mode": mode,
             "meta_intent": meta_intent,
@@ -1023,7 +1117,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
         },
         "execution_plan": [
             "Render the Co-Creative Launchpad packet, trace, and execution decision.",
-            "Run the chosen route now if the decision is Running now; otherwise use the Run Prompt after approval or judgment.",
+            "Run the chosen route only when target resolution is READY and the decision is Running now; missing targets fail closed to /system-audit.",
             "Run planned verifiers and create a run receipt.",
             "Log any extra-pass, weak-output, missing-prompt, stale-recommendation, or verifier-failure event in the friction ledger.",
         ],
@@ -1151,6 +1245,7 @@ def render_preflight(data: dict[str, Any]) -> str:
         f"- **Owner**: {trace['owner']}",
         f"- **Support Gates**: {fmt_routes(trace['support_gates'])}",
         f"- **Skipped**: {fmt_routes(trace['skipped'])}",
+        f"- **Runtime Resolution**: {trace['runtime_resolution']['status']}; route_target={trace['runtime_resolution']['route_target'] or 'MISSING'}; missing={fmt_list(trace['runtime_resolution']['missing'])}",
         f"- **Tool Routing**: clusters={fmt_list(trace['tool_clusters'])}; matches={fmt_list(trace['tool_matches'])}",
         f"- **Context Sources**: {fmt_list(trace['context_sources'])}",
         f"- **Mission Package**: {trace['mission_package']}",

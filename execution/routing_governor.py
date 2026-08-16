@@ -400,10 +400,8 @@ DEEP_RESEARCH_OS_STACK = (
     "deep-research-os",
     "research-intelligence-agent",
     "deep-research",
-    "research-swarm",
-    "parallel-research",
-    "competitor-intel",
-    "icp-deep-dive",
+    "ground-truth",
+    "adversarial-review",
 )
 
 DEEP_RESEARCH_OS_SIGNALS = (
@@ -427,6 +425,18 @@ DEEP_RESEARCH_OS_SIGNALS = (
     "deep research swarm",
     "latest market research",
     "current market research",
+    "research the current market",
+    "research current market",
+    "current market for",
+    "current deep research",
+    "decision grade research",
+    "decision-grade research",
+    "codex deep research",
+    "native web research",
+    "free first research",
+    "free-first research",
+    "tavily search",
+    "rss research",
     "current competitors",
     "social listening",
     "anti-hallucination research",
@@ -1643,6 +1653,13 @@ def is_deep_research_os_intent(query: str) -> bool:
             "claims",
             "hallucination",
             "source ledger",
+            "current",
+            "decision grade",
+            "decision-grade",
+            "native web",
+            "tavily",
+            "rss",
+            "codex",
             "first principles",
             "systems thinking",
             "deep canvassing",
@@ -1954,7 +1971,33 @@ def is_system_audit_query(query: str) -> bool:
             "firing",
         )
     )
-    return has_audit and has_control_context
+    has_repair = any(term in normalized for term in ("repair", "fix", "patch"))
+    explicit_autopilot_run = bool(
+        re.search(
+            r"^(?:/)?autopilot(?:\s+--(?:run|plan)\b|(?:\s+--run)?\s+run\b|\s+fix\s+this\b)",
+            normalized,
+        )
+    )
+    has_strong_control_context = any(
+        term in normalized
+        for term in (
+            "autopilot",
+            "routing",
+            "router",
+            "route target",
+            "runtime",
+            "control plane",
+            "control-plane",
+            "harness",
+            "hook",
+            "hooks",
+            "preflight",
+            "verifier",
+        )
+    )
+    return (has_audit and has_control_context) or (
+        has_repair and has_strong_control_context and not explicit_autopilot_run
+    )
 
 
 def is_system_failure_intent(query: str) -> bool:
@@ -2037,6 +2080,13 @@ def is_system_failure_intent(query: str) -> bool:
             "just execute",
             "just executes",
             "just go execute",
+            "obsolete",
+            "nonexistent",
+            "missing route",
+            "missing runtime",
+            "dead route",
+            "dead runtime",
+            "stale route",
         )
     )
     has_system_context = any(term in normalized for term in SYSTEM_FAILURE_CONTEXT_TERMS)
@@ -2281,11 +2331,11 @@ def deep_research_os_route_bonus(route_name: str) -> int:
         "deep-research-os": 300,
         "research-intelligence-agent": 125,
         "deep-research": 90,
-        "research-swarm": 82,
-        "parallel-research": 76,
-        "competitor-intel": 68,
-        "icp-deep-dive": 64,
-        "deep-research-gemini": 58,
+        "ground-truth": 82,
+        "adversarial-review": 76,
+        "research-swarm": -160,
+        "parallel-research": -160,
+        "deep-research-gemini": -160,
     }
     return bonuses.get(route_name, 0)
 
@@ -2659,7 +2709,7 @@ def flagged_routes_for(query: str, routes: Iterable[str]) -> tuple[str, ...]:
         }
         return tuple(route for route in routes if route and route not in allowed)
     if is_deep_research_os_intent(query):
-        allowed = set(DEEP_RESEARCH_OS_STACK) | {"deep-research-gemini", "research-topic", "research-landscape"}
+        allowed = set(DEEP_RESEARCH_OS_STACK) | {"research-topic", "research-landscape"}
         return tuple(route for route in routes if route and route not in allowed)
     if is_ai_employee_os_intent(query):
         allowed = set(AI_EMPLOYEE_OS_STACK) | {"source-to-skill-system", "extraction-governor-agent"}

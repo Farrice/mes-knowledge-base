@@ -7,7 +7,7 @@ This is the floor every research request falls to when the paid accelerators
 It depends only on tools Claude always has, so it is always available at ~$0:
 
   • Python (deterministic, reliable):
-      - Tavily search (free, 1000/mo, key already in .env) → real sourced findings
+      - Tavily search (API-credit metered; a free allowance may apply) → real sourced findings
       - query decomposition (reuses deep_research_engine.decompose_query)
       - validation + provenance math + the typed ResearchResult
   • Agent-orchestrated (the depth multiplier):
@@ -48,6 +48,7 @@ except ImportError:  # imported as execution.native_floor
     from execution.deep_research_engine import decompose_query, ResearchEngine
 
 import json as _json
+import os as _os
 import subprocess as _subprocess
 
 
@@ -84,12 +85,13 @@ def load_env_vars() -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Tavily — the deterministic, reliable, $0 leg
+# Tavily — deterministic, reliable, and API-credit metered
 # ---------------------------------------------------------------------------
 
 def tavily_search(query: str, max_results: int = 6,
                   env: Optional[dict] = None, days: Optional[int] = None,
-                  topic: Optional[str] = None) -> List[Dict]:
+                  topic: Optional[str] = None,
+                  search_depth: str = "advanced") -> List[Dict]:
     """Run one Tavily search. Returns raw results [{content,url,title}]. Never
     raises — on any failure returns [] so the floor degrades, never breaks.
     `days` + `topic="news"` enable Tavily's recency filter (news index only)."""
@@ -99,8 +101,9 @@ def tavily_search(query: str, max_results: int = 6,
         return []
     try:
         import requests
+        depth = search_depth if search_depth in {"basic", "advanced"} else "advanced"
         payload = {"api_key": tk, "query": query, "max_results": max_results,
-                   "search_depth": "advanced"}
+                   "search_depth": depth}
         if topic:
             payload["topic"] = topic
         if days:
@@ -158,7 +161,8 @@ def tavily_floor(query: str, search_queries: List[str], max_per: int = 6,
 
 
 # ---------------------------------------------------------------------------
-# Tavily RESEARCH + EXTRACT — frontier-grade floor legs ($0 on the Tavily sub)
+# Tavily RESEARCH + EXTRACT — credit-metered floor legs. Tavily Research is
+# intentionally unavailable to Free-First Research Mission.
 # ---------------------------------------------------------------------------
 
 def tavily_research(query: str, model: str = "auto", timeout: int = 300) -> Dict:
@@ -189,11 +193,26 @@ def tavily_extract(urls: List[str], query: Optional[str] = None,
     if not urls:
         return []
     try:
-        cmd = ["tvly", "extract", *urls[:20], "--json", "--format", "markdown",
+        # The tvly CLI reads TAVILY_API_KEY from the process environment, while
+        # this workspace keeps it in the root .env. Search already receives the
+        # parsed env explicitly; Extract used to omit this bridge and silently
+        # return [] even with a valid key. Pass a child-only environment so the
+        # key is neither printed nor exported globally.
+        cli_env = _os.environ.copy()
+        tavily_key = load_env_vars().get("TAVILY_API_KEY")
+        if tavily_key and not cli_env.get("TAVILY_API_KEY"):
+            cli_env["TAVILY_API_KEY"] = tavily_key
+        cmd = ["tvly", "extract", *urls[:20], "--json", "--extract-depth", "basic", "--format", "markdown",
                "--timeout", str(timeout)]
         if query:
             cmd += ["--query", query, "--chunks-per-source", "3"]
-        proc = _subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 30)
+        proc = _subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=timeout + 30,
+            env=cli_env,
+        )
         if proc.returncode != 0 or not proc.stdout.strip():
             return []
         data = _json.loads(proc.stdout)

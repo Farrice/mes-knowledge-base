@@ -16,6 +16,22 @@ import co_creative_launchpad as launchpad_runtime  # type: ignore  # noqa: E402
 
 GOLDEN_PROMPTS = [
     {
+        "id": "current-market-research-free-first",
+        "query": "Research the current market for AI lead generation tools.",
+        "route": "deep-research-os",
+        "lane": "deep-research-os",
+        "status": "Running now",
+        "required": ["deep-research-os", "research-intelligence-agent", "ground-truth"],
+    },
+    {
+        "id": "missing-runtime-repair-owned-by-system-audit",
+        "query": "Repair Autopilot so it never routes to missing or obsolete runtimes.",
+        "route": "system-audit",
+        "lane": "system-failure",
+        "status": "Running now",
+        "required": ["system-audit", "routing-intelligence", "health-check"],
+    },
+    {
         "id": "safe-local-run",
         "query": "autopilot build a local harness report and verify it",
         "route": "autopilot",
@@ -107,7 +123,7 @@ GOLDEN_PROMPTS = [
         "route": "autopilot",
         "lane": "delegate",
         "status": "Running now",
-        "required": ["subagent-readiness", "delegation-receipt", "expert-composition-governor"],
+        "required": ["subagent-readiness", "expert-composition-governor"],
     },
     {
         "id": "front-door-choice",
@@ -314,6 +330,10 @@ def assert_case(case: dict[str, object]) -> str:
     if status != case["status"]:
         raise AssertionError(f"{label} expected status {case['status']}, got {status}")
 
+    resolution = data["runtime_resolution"]
+    if not resolution["ready"]:
+        raise AssertionError(f"{label} selected unresolved runtime targets: {resolution['missing']}")
+
     all_routes = (
         set(trace["candidates"]["command_menu"])
         | set(trace["candidates"]["workflow_router"])
@@ -324,7 +344,7 @@ def assert_case(case: dict[str, object]) -> str:
     if missing_routes:
         raise AssertionError(f"{label} missing required route candidates/gates: {', '.join(missing_routes)}")
 
-    if status in {"Blocked by risk", "Plan only", "Needs judgment"} and "Run Prompt" not in output:
+    if status in {"Blocked by risk", "Blocked by configuration", "Plan only", "Needs judgment"} and "Run Prompt" not in output:
         raise AssertionError(f"{label} blocked/planned runs must include a Run Prompt")
 
     if data["global_mirror"]["status"] != "deferred":
@@ -372,6 +392,30 @@ def assert_case(case: dict[str, object]) -> str:
             raise AssertionError(f"{label} persisted run receipt command missing {flag}")
 
     return f"{label}: route=/{chosen}, lane={governor['lane']}, status={status}"
+
+
+def assert_missing_targets_fail_closed() -> str:
+    resolution = preflight.resolve_runtime_targets(
+        "definitely-nonexistent-route",
+        ["python3 execution/definitely_missing_verifier.py"],
+    )
+    posture = preflight.apply_runtime_resolution_gate(
+        {
+            "status": "Running now",
+            "first_action": "run",
+            "approval_needed": "none",
+            "risk_reasons": [],
+            "safe_to_run": True,
+        },
+        resolution,
+    )
+    if resolution["ready"] or resolution["status"] != "BROKEN":
+        raise AssertionError("negative control did not detect missing route/verifier targets")
+    if posture["status"] != "Blocked by configuration" or posture["safe_to_run"]:
+        raise AssertionError(f"negative control did not fail closed: {posture}")
+    if "system-audit" not in posture["approval_needed"]:
+        raise AssertionError("configuration block did not name the repair owner")
+    return "negative-control: nonexistent route and verifier cannot inherit Running now"
 
 
 STEWARDSHIP_CASES = [
@@ -474,6 +518,7 @@ def assert_stewardship_case(case: dict[str, object]) -> str:
 
 def main() -> int:
     results = [assert_case(case) for case in GOLDEN_PROMPTS]
+    results.append(assert_missing_targets_fail_closed())
     results.extend(assert_stewardship_case(case) for case in STEWARDSHIP_CASES)
     print("Autopilot intent-to-outcome runtime verification: PASS")
     for result in results:

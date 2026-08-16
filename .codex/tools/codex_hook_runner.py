@@ -17,6 +17,7 @@ canonical checkout because an absolute hook command pointed there.
 
 from __future__ import annotations
 
+import json
 import os
 import subprocess
 import sys
@@ -28,9 +29,9 @@ CANONICAL_ROOT = Path("/Users/farricecain/Google Antigravity")
 
 def _looks_like_antigravity_root(path: Path) -> bool:
     return (
-        path.name == "Google Antigravity"
-        and (path / ".agent" / "workflows").exists()
+        (path / ".agent" / "workflows").exists()
         and (path / "execution").exists()
+        and (path / "CODEX.md").exists()
     )
 
 
@@ -44,7 +45,13 @@ def _walk_to_root(path: Path) -> Path | None:
     return None
 
 
-def _active_repo_root() -> Path:
+def _active_repo_root(payload: dict | None = None) -> Path:
+    payload_cwd = str((payload or {}).get("cwd") or "").strip()
+    if payload_cwd:
+        found = _walk_to_root(Path(payload_cwd))
+        if found:
+            return found
+
     for key in ("CODEX_PROJECT_DIR", "CLAUDE_PROJECT_DIR", "PWD"):
         value = os.environ.get(key)
         if value:
@@ -63,8 +70,6 @@ def _active_repo_root() -> Path:
     return CANONICAL_ROOT
 
 
-REPO_ROOT = _active_repo_root()
-
 TARGETS = {
     "cost-gate": ("execution/hooks/cost_gate_hook.py", []),
     "dangerous-git": (".codex/tools/codex_dangerous_git_guard.py", []),
@@ -75,8 +80,8 @@ TARGETS = {
 }
 
 
-def _python() -> str:
-    venv_python = REPO_ROOT / ".venv" / "bin" / "python"
+def _python(repo_root: Path) -> str:
+    venv_python = repo_root / ".venv" / "bin" / "python"
     if venv_python.exists():
         return str(venv_python)
     return sys.executable
@@ -89,23 +94,29 @@ def main() -> int:
         return 2
 
     target_name = sys.argv[1]
+    hook_input = sys.stdin.read()
+    try:
+        payload = json.loads(hook_input) if hook_input.strip() else {}
+    except json.JSONDecodeError:
+        payload = {}
+    repo_root = _active_repo_root(payload if isinstance(payload, dict) else {})
     script_rel, fixed_args = TARGETS[target_name]
-    script_path = REPO_ROOT / script_rel
+    script_path = repo_root / script_rel
     if not script_path.exists():
         print(f"Missing hook target: {script_path}", file=sys.stderr)
         return 0
 
     args = fixed_args if fixed_args is not None else sys.argv[2:]
     env = os.environ.copy()
-    env["CLAUDE_PROJECT_DIR"] = str(REPO_ROOT)
-    env["CODEX_PROJECT_DIR"] = str(REPO_ROOT)
+    env["CLAUDE_PROJECT_DIR"] = str(repo_root)
+    env["CODEX_PROJECT_DIR"] = str(repo_root)
 
     proc = subprocess.run(
-        [_python(), str(script_path), *args],
-        input=sys.stdin.read(),
+        [_python(repo_root), str(script_path), *args],
+        input=hook_input,
         text=True,
         capture_output=True,
-        cwd=str(REPO_ROOT),
+        cwd=str(repo_root),
         env=env,
     )
     if proc.stdout:

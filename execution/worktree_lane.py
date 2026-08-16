@@ -27,6 +27,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -42,6 +43,12 @@ SHARED_LINKS = [
     ".venv", ".env", ".mcp.json",
     ".claude/settings.local.json",
     ".memory",
+    ".agent/cos",
+]
+# Workspace-local context starts main-identical but must remain isolated after
+# bootstrap. Copy it once instead of symlinking it back to the main workspace.
+SNAPSHOT_DIRS = [
+    ".agent/intent-memory",
 ]
 # Spend/budget state: shared so a lane can never zero-reset or double-spend.
 # Only symlinked once untracked on main (Phase 3 migration); tracked -> SKIP.
@@ -245,6 +252,14 @@ def cmd_bootstrap(args) -> int:
         if res.startswith("skip"):
             skipped.append(f"{rel} ({res})")
 
+    snapshots = 0
+    for rel in SNAPSHOT_DIRS:
+        src, dst = main / rel, lane / rel
+        if src.is_dir() and not os.path.lexists(dst):
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copytree(src, dst)
+            snapshots += 1
+
     # Fresh per-lane state (isolation is correct here)
     agent = lane / ".agent"
     agent.mkdir(exist_ok=True)
@@ -275,6 +290,7 @@ def cmd_bootstrap(args) -> int:
     if ok:
         print(f"LANE READY: {branch} at {lane} — FULL POWER "
               f"({counts['linked'] + counts['present']} links, "
+              f"{snapshots} context snapshots, "
               f"{counts['skip-tracked']} awaiting Phase-3 migration)"
               + ("" if not args.quiet else ""))
     else:
@@ -338,6 +354,57 @@ def run_parity(lane: Path, main: Path, record=False):
     except Exception as e:
         d.append(f"settings.json unreadable: {e}")
 
+    # Codex has a separate hook surface. A lane is not full-power merely
+    # because Claude hooks parse; prove the Codex config, runner, and desktop
+    # trust state resolve through the canonical main hook file.
+    codex_hooks = lane / ".codex" / "hooks.json"
+    try:
+        codex_conf = json.loads(codex_hooks.read_text())
+        codex_commands = [
+            str(hook.get("command") or "")
+            for groups in codex_conf.get("hooks", {}).values()
+            for group in groups
+            for hook in group.get("hooks", [])
+            if hook.get("command")
+        ]
+        if len(codex_commands) != 8:
+            d.append(f"Codex hooks.json expected 8 commands, found {len(codex_commands)}")
+        if not codex_commands or not all("codex_hook_runner.py" in command for command in codex_commands):
+            d.append("Codex hook commands do not all use codex_hook_runner.py")
+        for command in codex_commands:
+            match = re.search(r'"([^"]*codex_hook_runner\.py)"', command)
+            if match and not Path(match.group(1)).exists():
+                d.append(f"Codex hook runner missing: {match.group(1)}")
+                break
+        desktop_config = Path.home() / ".codex" / "config.toml"
+        config_text = desktop_config.read_text() if desktop_config.exists() else ""
+        trusted_hooks = main / ".codex" / "hooks.json"
+        required_states = (
+            "pre_tool_use:0:0",
+            "pre_tool_use:0:2",
+            "post_tool_use:0:0",
+            "user_prompt_submit:0:0",
+            "user_prompt_submit:0:1",
+            "user_prompt_submit:0:2",
+            "stop:0:0",
+        )
+        missing_states = []
+        for suffix in required_states:
+            header = f'[hooks.state."{trusted_hooks}:{suffix}"]'
+            marker = config_text.find(header)
+            if marker == -1:
+                missing_states.append(suffix)
+                continue
+            next_header = config_text.find("\n[", marker + 1)
+            block = config_text[marker:] if next_header == -1 else config_text[marker:next_header]
+            block_lower = block.lower()
+            if "trusted_hash" not in block_lower or "enabled = false" in block_lower:
+                missing_states.append(suffix)
+        if missing_states:
+            d.append(f"Codex desktop hook trust missing/explicitly-disabled states: {', '.join(missing_states[:3])}")
+    except Exception as e:
+        d.append(f"Codex hooks.json unreadable: {e}")
+
     # deps reachable under lane python (the venv symlink test that matters)
     r = subprocess.run([str(lane_py), "-c", "import dotenv, requests"],
                        capture_output=True, timeout=20)
@@ -364,6 +431,16 @@ def run_parity(lane: Path, main: Path, record=False):
         p = lane / rel
         if (main / rel).exists() and (not p.exists()):
             d.append(f"{rel} absent (symlink broken or never linked)")
+
+    if (main / ".agent" / "cos" / "goals.json").exists() and not (
+        lane / ".agent" / "cos" / "goals.json"
+    ).exists():
+        d.append(".agent/cos/goals.json absent — current goals and mission context are unavailable")
+
+    if (main / ".agent" / "intent-memory" / "current.json").exists() and not (
+        lane / ".agent" / "intent-memory" / "current.json"
+    ).exists():
+        d.append(".agent/intent-memory/current.json absent — active intent context is unavailable")
 
     # 4. memory reachable (read-only canary against sovereign.db)
     db = lane / ".memory" / "sovereign.db"
@@ -801,6 +878,15 @@ def cmd_doctor(args) -> int:
                         p.unlink()
                     _link(main, path, rel)
                 notes.append("(re-linked)")
+        for rel in SNAPSHOT_DIRS:
+            src, dst = main / rel, path / rel
+            if src.is_dir() and not os.path.lexists(dst):
+                issues += 1
+                notes.append(f"missing context snapshot: {rel}")
+                if args.fix:
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copytree(src, dst)
+                    notes.append("(snapshotted)")
         try:
             age_d = (now - path.stat().st_mtime) / 86400
         except OSError:

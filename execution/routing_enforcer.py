@@ -1073,9 +1073,8 @@ BINDINGS = [
         ),
     },
     {
-        # Social listening & audience intelligence (2026-07-16) — Apify-first pipeline.
-        # Mirrors CLAUDE.md row "Social/audience/trend listening" in mandatory routing table.
-        # Update both together when modifying signals or workflows.
+        # Content grounding should prefer a current receipt, not assume the
+        # former scheduled Apify brief still exists or is fresh.
         "id": "content_production_live_grounding",
         "signal_phrases": [
             "write a post about", "draft a linkedin post", "draft a post",
@@ -1087,11 +1086,9 @@ BINDINGS = [
         "forbidden_workflows": [],
         "reason": (
             "Content production starts from live market signal, never from a blank page "
-            "(directives/live-data-grounding-protocol.md). Today's zeitgeist brief "
-            "(deliverables/research-briefs/zeitgeist-*/, <=48h) is free and already paid "
-            "for by the 06:20 engine; /create Stage 2 step 0 consumes it automatically. "
-            "Suggestion only — no workflow is forbidden; the nudge exists because Apify "
-            "sat at 2-3% utilization while content was ideated from scratch (2026-08-05)."
+            "(directives/live-data-grounding-protocol.md). Reuse a same-day brief only "
+            "when its current evidence receipt passes; otherwise /create should request "
+            "an on-demand Free-First Research Mission. Never assume a scheduled brief ran."
         ),
     },
     {
@@ -1120,7 +1117,7 @@ BINDINGS = [
         ),
     },
     {
-        "id": "social_listening_apify_first",
+        "id": "social_listening_free_first",
         "signal_phrases": [
             "what's happening in", "what is happening in",
             "audience sentiment", "creator analysis", "#hashtag trends",
@@ -1128,19 +1125,18 @@ BINDINGS = [
             "creator trends", "trending in", "what's trending",
             "community sentiment", "niche trends",
         ],
-        "mandatory_workflow_any_of": ["social-listen", "social-pulse"],
+        "mandatory_workflow_any_of": ["deep-research-os"],
         "forbidden_workflows": [
-            "deep-research", "deep-research-swarm", "research-topic",
-            "web-research",
+            "social-listen", "social-pulse", "deep-research",
+            "deep-research-swarm", "deep-research-gemini", "research-swarm",
         ],
         "reason": (
-            "Social/audience/trend listening queries require the Apify-first pipeline "
-            "(/social-listen for on-demand, /social-pulse for recurring weekly). "
-            "Generic deep-research workflows miss the extraction layer needed to capture "
-            "raw creator data, hashtag volume, and sentiment signals before synthesis. "
-            "Apify actors (Scrape Creators, hashtag actors, transcript pullers) provide "
-            "the primary extraction; Perplexity synthesis follows. Skipping Apify routes "
-            "to generic web search, missing the social-specific data layer."
+            "Social/audience/trend listening now routes to the on-demand Free-First "
+            "Research Mission under /deep-research-os: native web and opened public "
+            "sources first, bounded basic Tavily Search/Extract for gaps, and public "
+            "RSS/Atom where useful. No Apify actor, paid synthesis provider, recurring "
+            "schedule, or subagent may run. Platform-private or inaccessible evidence "
+            "stays an explicit EVIDENCE GAP instead of being invented or bypassed."
         ),
     },
     {
@@ -1150,6 +1146,7 @@ BINDINGS = [
         "id": "unified_research",
         "signal_phrases": [
             "deep research", "do deep research", "research this", "research the market",
+            "research the current market", "research current market", "current market for",
             "strategic intelligence on", "comprehensive research on", "research report on",
             "research the landscape", "go deep on", "ground this in research",
         ],
@@ -1162,19 +1159,15 @@ BINDINGS = [
             "what's happening", "social listening", "audience sentiment", "creator analysis",
             "hashtag trends", "social sentiment",
         ],
-        "mandatory_workflow_any_of": ["deep-research", "deep-research-swarm",
-                                       "deep-research-gemini", "research-swarm"],
+        "mandatory_workflow_any_of": ["deep-research-os"],
         "forbidden_workflows": [],
         "reason": (
-            "Generic research must route through the Unified Research Engine "
-            "(execution/research.py). For deep/max, the PRIMARY is the native expert "
-            "SWARM (.agent/workflows/deep-research-swarm.workflow.js): decompose → cast "
-            "world-class personas → parallel fan-out → gap-fill → adversarial verify → "
-            "synthesize, $0 incremental, Gemini Deep Research merging in parallel. The "
-            "bedrock floor (Tavily research/extract + WebSearch/WebFetch) guarantees a "
-            "real, sourced result at $0 even if every paid path fails. Every result "
-            "carries an honest Research Receipt. Answering research from training memory "
-            "instead of grounding it in live, cited sources is the failure this prevents."
+            "Generic current research must route through /deep-research-os and its "
+            "Free-First Research Mission. Codex native web search and opened pages lead; "
+            "basic-depth Tavily Search/Extract and public RSS are bounded gap-fill legs. "
+            "Local context can shape interpretation but cannot prove current world state. "
+            "Apify, paid accelerators, Tavily Research, schedules, and real subagents are "
+            "blocked unless a separate explicit authorization selects another mode."
         ),
     },
     {

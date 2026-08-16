@@ -52,6 +52,7 @@ Every Autopilot run must name one execution status before work starts:
 | `Running now` | safe workspace-local execution can start after the trace. |
 | `Needs judgment` | Farrice must decide a taste, scope, or intent point before execution. |
 | `Blocked by risk` | External, paid, destructive, global, Google Antigravity, publishing, connector-write, or real-subagent action is present. |
+| `Blocked by configuration` | The chosen route or a planned verifier does not resolve to a callable local target. Repair the owner surface before execution. |
 | `Plan only` | The user asked for `--plan`, `--menu`, or another explicit no-execution posture. |
 
 When blocked, include a copy-paste **Run Prompt** so the work has a clean
@@ -86,11 +87,11 @@ The classifier resolves to one of these outcome classes (source of truth:
 | source-to-skill | `/source-to-skill-system` |
 | plugin-packaging | `/plugin-readiness-audit` |
 | revenue-sprint | `/first-10k` |
-| content-package | `/content-media-agent` |
-| research-synthesis | `/research-intelligence-agent` |
+| content-package | `/create` |
+| research-synthesis | `/deep-research-os` |
 | deep-research-os | `/deep-research-os` |
-| client-audit | `/client-delivery-agent` |
-| design-build | `/creative-design-agent` |
+| client-audit | `/24-assets-client-audit` |
+| design-build | `/product-design-page-build` |
 | mission-continuation | `/mission` |
 | repeatability-repair | `/repeatability-spine` |
 | general-operator (fallback) | `/autopilot` |
@@ -172,13 +173,16 @@ existing explicit approvals.
 3. Build the preflight packet with `execution/codex_operator_preflight.py`.
 4. Confirm the chosen owner with the workflow router and routing enforcer. Use
    `routing_enforcer.py check --no-log` for probes and verifier checks.
-5. If the owner is `/system-audit`, run proof-first local diagnosis before
+5. Resolve the chosen route and every planned Python verifier to a real local
+   target. Missing targets return `Blocked by configuration`; they never inherit
+   `Running now` from a structurally valid-looking trace.
+6. If the owner is `/system-audit`, run proof-first local diagnosis before
    patching: route probes, hook probes, bridge checks, registry/index health,
    and the relevant verifier.
-6. Patch only the Google-local owner surface needed to change behavior.
-7. Rerun the targeted verifier set.
-8. Write or update a run receipt for meaningful system work.
-9. Close with proof, remaining risks, and concrete next prompts.
+7. Patch only the Google-local owner surface needed to change behavior.
+8. Rerun the targeted verifier set.
+9. Write or update a run receipt for meaningful system work.
+10. Close with proof, remaining risks, and concrete next prompts.
 
 ## Raw Intent Virtuoso Bridge
 

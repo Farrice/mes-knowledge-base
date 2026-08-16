@@ -81,6 +81,7 @@ GOLDEN: list[tuple[str, str]] = [
         "system-audit",
     ),
     ("The hook repair is still broken; explain why nothing changed", "system-audit"),
+    ("Repair Autopilot so it never routes to missing or obsolete runtimes.", "system-audit"),
     # ---- MUST fire: repeatability lane ----
     ("we lost the magic from the previous session import, the revision got worse", "repeatability-spine"),
     # ---- Must NOT fire: explicit workflow invocation + deliverable mission ----

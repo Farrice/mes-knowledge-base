@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "execution"))
 
 import command_menu  # type: ignore  # noqa: E402
+import routing_enforcer  # type: ignore  # noqa: E402
 import routing_governor  # type: ignore  # noqa: E402
 import workflow_router  # type: ignore  # noqa: E402
 
@@ -38,6 +39,15 @@ def main() -> int:
     workflow = read(".agent/workflows/deep-research-os.md")
     source_command = read(".claude/commands/deep-research-os.md")
     skill = read(".agents/skills/source-command-deep-research-os/SKILL.md")
+    free_first_contract = read(
+        "semantic_libraries/antigravity/primitives/free-first-research-mission-contract.md"
+    )
+    free_first_runtime = read("execution/free_first_research.py")
+    read("execution/verify_free_first_research_mission.py")
+    legacy_command = read(".claude/commands/deep-research.md")
+    legacy_skill = read(".agents/skills/source-command-deep-research/SKILL.md")
+    legacy_workflow = read(".agent/workflows/deep-research.md")
+    routing_doc = read("directives/routing-bindings.md")
 
     required_terms = (
         "Deep Research OS Trace",
@@ -47,15 +57,48 @@ def main() -> int:
         "Wide Decomposition",
         "real Codex subagents",
         "python3 execution/research_quality_gate.py",
-        "python3 execution/research_router.py --health",
+        "Codex Free-First Default",
+        "python3 execution/free_first_research.py plan",
+        "live external evidence retrieved in this run",
+        "Tavily **Search and Extract**",
+        "cost_usd: 0.0",
     )
     for term in required_terms:
         require(term in workflow, f"workflow missing required term: {term}")
 
     require(".agent/workflows/deep-research-os.md" in source_command, "source command does not bridge to workflow")
     require(".agent/workflows/deep-research-os.md" in skill, "skill wrapper does not bridge to workflow")
+    require(
+        "free-first-research-mission-contract.md" in skill,
+        "skill wrapper does not load the free-first companion contract",
+    )
+    require("Authority Order" in free_first_contract, "free-first authority order missing")
+    require("Value Receipt" in free_first_contract, "free-first value receipt missing")
+    require("def cmd_tavily" in free_first_runtime, "free-first Tavily Search/Extract leg missing")
+    require("def cmd_rss" in free_first_runtime, "free-first RSS leg missing")
+    require(
+        "execution/research_router.py" not in workflow,
+        "workflow still points to nonexistent research_router.py",
+    )
+    require(
+        workflow.index("Codex Free-First Default") < workflow.index("Provider-backed entrypoint"),
+        "provider-backed path appears before Codex free-first default",
+    )
+    require(
+        "deep-research-os.md" in legacy_command and "--free-first" in legacy_command,
+        "/deep-research command does not alias the free-first owner",
+    )
+    require(
+        "deep-research-os.md" in legacy_skill and "--free-first" in legacy_skill,
+        "migrated /deep-research skill does not alias the free-first owner",
+    )
+    require(
+        "Legacy provider-backed escalation only" in legacy_workflow,
+        "legacy paid/swarm workflow lacks an explicit escalation boundary",
+    )
+    require("social_listening_free_first" in routing_doc, "routing appendix still names Apify-first social listening")
 
-    query = "deep research social listening market intelligence anti hallucination"
+    query = "current decision grade deep research in Codex with native web Tavily RSS and no paid tools"
     menu = names_from_menu(query)
     router = names_from_workflow_router(query)
     require(menu and menu[0] == "deep-research-os", f"command_menu should rank deep-research-os first, got {menu[:5]}")
@@ -66,9 +109,22 @@ def main() -> int:
     require(decision.chosen_route == "deep-research-os", f"governor route mismatch: {decision.chosen_route}")
     require("deep-research-os" in decision.required_candidates, "governor stack missing deep-research-os")
 
+    bound = routing_enforcer.check_routing(query, "deep-research-os")
+    require(bound["valid"], f"free-first owner failed unified research binding: {bound}")
+    legacy = routing_enforcer.check_routing(query, "deep-research")
+    require(not legacy["valid"], "generic current research still accepts the legacy paid/swarm route")
+    social = routing_enforcer.check_routing(
+        "research what is happening in this niche using current social listening",
+        "deep-research-os",
+    )
+    require(social["valid"], f"free-first owner failed social-listening binding: {social}")
+
     print("Deep Research OS verification: PASS")
     print("- workflow, source command, and skill wrapper exist and bridge correctly")
-    print("- command_menu and workflow_router rank /deep-research-os first for research OS intent")
+    print("- Codex current research defaults to the free-first companion contract")
+    print("- native web, Tavily Search/Extract, RSS, stale-context, and value-receipt boundaries are present")
+    print("- command_menu, workflow_router, and mandatory bindings rank /deep-research-os first for ordinary current research")
+    print("- /deep-research aliases free-first; its paid/swarm workflow is explicit escalation only")
     print("- routing governor detects the deep-research-os lane")
     return 0
 

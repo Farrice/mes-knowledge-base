@@ -423,12 +423,18 @@ def main():
                              f"{len(domains)} domains (contract: {need_src} sources / {need_dom} domains)"),
                     suggestion="Run more sweep rounds / the agent fan-out before calling this decision-grade.",
                 ))
-            critical_count = sum(1 for i in report.issues if i.severity == "critical")
-            report.overall_pass = critical_count == 0 and report.overall_score >= 60
         except Exception as e:
             report.issues.append(QualityIssue(
                 severity="warning", category="depth_contract",
                 message=f"depth-contract check errored: {type(e).__name__}: {e}"))
+
+    # Recompute after the explicit-depth pass replaces the content-sniffed
+    # source-floor issue. Previously the stale penalty survived even after its
+    # issue was removed, yielding confusing receipts such as "PASS (65/100)".
+    critical_count = sum(1 for i in report.issues if i.severity == "critical")
+    warning_count = sum(1 for i in report.issues if i.severity == "warning")
+    report.overall_score = max(0, 100 - (critical_count * 25) - (warning_count * 10))
+    report.overall_pass = critical_count == 0 and report.overall_score >= 60
 
     print(report.to_markdown())
 

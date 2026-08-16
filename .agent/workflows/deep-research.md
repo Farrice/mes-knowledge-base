@@ -4,6 +4,12 @@ description: Deep Research
 
 # /deep-research — Deep Research
 
+> **Legacy provider-backed escalation only.** Ordinary `/deep-research` and
+> current-world research requests now alias `/deep-research-os --free-first`.
+> Do not execute the Gemini/Perplexity/subagent stack below unless Farrice
+> explicitly requests this legacy provider-backed mode and separately
+> authorizes its cost and real-subagent boundaries.
+
 Deploy the full research stack: **Gemini Deep Research (primary) or Perplexity sonar-deep-research (fallback)** as the foundation layer, 3 parallel specialist agents (Pattern Hunter, Psychology Miner, Contrarian Scout) to deepen each angle grounded in real data, synthesis with contradiction resolution, adversarial challenge round, and a McKinsey-grade Strategic Intelligence Report.
 
 **Foundation backend (as of 2026-06-01 — Unified Research Engine)**: This workflow now invokes **`execution/research.py`** as the single foundation call. The engine runs **Gemini-first → Perplexity → Claude bedrock floor** internally, logs cost honestly (failed/empty calls cost $0 and never burn budget), and returns a **Research Receipt** showing exactly which engine served the foundation, what failed, what depth was achieved, and what it cost. The bedrock floor (WebSearch + WebFetch + Tavily) means this workflow **cannot break** — if both accelerators fail, the native floor catches it and the receipt says so. **Every report must lead with the Research Receipt** so the reader knows the grounding depth before trusting it.

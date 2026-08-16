@@ -56,7 +56,7 @@ Thumbs.db
 
 # Chief of Staff OS (/cos) — private founder state: family/health journal,
 # life context, goals. NEVER commit (added 2026-07-02, before first content).
-.agent/cos/
+.agent/cos
 
 # Runtime state and telemetry — regenerated every session, never source-of-truth
 # (Added 2026-04-25 as part of audit Phase B+ cleanup.)

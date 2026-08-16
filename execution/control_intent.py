@@ -66,6 +66,7 @@ HOOK_SYSTEM_RE = re.compile(
 )
 
 SYSTEM_SURFACE_TERMS = (
+    "autopilot",
     "hook",
     "hooks",
     "route",
@@ -158,6 +159,9 @@ SYSTEM_PROBLEM_TERMS = (
     "why",
     "random",
     "irrelevant",
+    "obsolete",
+    "nonexistent",
+    "missing",
     "off target",
     "unusable",
     "unusable to do anything",

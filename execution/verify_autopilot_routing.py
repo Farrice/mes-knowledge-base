@@ -24,7 +24,7 @@ FRONT_DOOR_CHOICE_QUERIES = [
 ]
 LAUNCHPAD_SOURCE_SYSTEM_QUERY = "turn this video source into a co-creative launchpad OS for the harness"
 MENU_BACKEND_QUERY = "show me the menu of options"
-RESEARCH_STACK_QUERY = "research swarm parallel research latest market intelligence deep research gemini"
+RESEARCH_STACK_QUERY = "Research the current market for AI lead generation tools with live sources"
 
 CRITICAL_ROUTES = ["autopilot", "source-to-skill-system", "orchestrate", "routing-intelligence", "self-evolve", "skill-anneal"]
 REPEATABILITY_ROUTES = ["repeatability-spine", "autopilot", "system-audit", "publishable-copy-gate", "self-evolve", "skill-anneal"]
@@ -33,7 +33,14 @@ REVENUE_ROUTES = ["first-10k", "revenue-offer-agent", "client-acquire", "zero-to
 SKILL_SYSTEM_ROUTES = ["source-to-skill-system", "extraction-governor-agent", "mission", "autopilot", "self-evolve", "skill-anneal"]
 FRONT_DOOR_CHOICE_ROUTES = ["autopilot", "orchestrate", "routing-intelligence", "knowledge-librarian", "mission"]
 MENU_BACKEND_ROUTES = ["orchestrate", "autopilot"]
-RESEARCH_STACK_ROUTES = ["research-swarm", "parallel-research", "deep-research-gemini", "deep-research"]
+RESEARCH_STACK_ROUTES = [
+    "deep-research-os",
+    "research-intelligence-agent",
+    "deep-research",
+    "ground-truth",
+    "adversarial-review",
+]
+RETIRED_RESEARCH_ROUTES = {"research-swarm", "parallel-research", "deep-research-gemini"}
 
 
 def run(args: list[str], env: dict[str, str] | None = None) -> str:
@@ -112,6 +119,9 @@ def check_research_stack_routing() -> None:
     router = parse_workflow_router(run([sys.executable, "execution/workflow_router.py", "search", RESEARCH_STACK_QUERY]))
     assert_contains(menu, RESEARCH_STACK_ROUTES, "command_menu research stack")
     assert_contains(router, RESEARCH_STACK_ROUTES, "workflow_router research stack")
+    leaked = RETIRED_RESEARCH_ROUTES & (set(menu) | set(router))
+    if leaked:
+        raise AssertionError(f"retired paid/delegated research routes leaked into Free-First stack: {sorted(leaked)}")
 
 
 def check_routing_governor() -> None:
@@ -162,6 +172,7 @@ def check_autopilot_contract() -> None:
         "Running now",
         "Needs judgment",
         "Blocked by risk",
+        "Blocked by configuration",
         "Plan only",
         "Run Prompt",
         "Run Receipt",
@@ -188,6 +199,8 @@ def check_runtime_preflight() -> None:
         "plan-mode-pauses: route=/autopilot, lane=general, status=Plan only",
         "publish-risk-blocks: route=/autopilot, lane=general, status=Blocked by risk",
         "plugin-packaging: route=/plugin-readiness-audit, lane=plugin-packaging, status=Running now",
+        "current-market-research-free-first: route=/deep-research-os, lane=deep-research-os, status=Running now",
+        "negative-control: nonexistent route and verifier cannot inherit Running now",
     ]
     missing = [item for item in required if item not in output]
     if missing:
