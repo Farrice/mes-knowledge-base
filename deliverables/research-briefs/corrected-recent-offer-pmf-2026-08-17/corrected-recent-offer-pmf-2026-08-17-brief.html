@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>the recent offer worth testing now · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-corrected-verdict">the corrected verdict</a><a href="#how-the-offer-lock-drifted">how the offer lock drifted</a><a href="#the-eligible-offer-set">the eligible offer set</a><a href="#what-changed-the-decision">what changed the decision</a><a href="#the-buyer-pain-and-product">the buyer, pain, and product</a><a href="#linkedin-becomes-the-proof-loop">linkedin becomes the proof loop</a><a href="#proof-state">proof state</a><a href="#what-is-still-unknown">what is still unknown</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/.agent/pulse/pulse-board.html">⚡ pulse ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/.agent/missions/mission-control.html">🎯 mission control ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/research-briefs/index.html">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/.agent/assets/assets-board.html">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/.agent/oracle/oracle-dashboard.html">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/.agent/mdview/index.html">📄 docs ↗</a></span><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">RESEARCH OS · CORRECTED PMF</span>
+    <h1 class="display">the recent offer worth <em>testing now</em></h1>
+    <p class="dek">A last-seven-day authority audit and live market refresh comparing the 15-Ad Creative Test Pack, Lead-to-Proposal Proof Sprint, and health evidence-to-message AI workflow—without reviving the parked Angle Map.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">sessions aug 9–13 · evidence refreshed aug 17</span></div>
+      <div><span class="k">Lens</span><span class="v">authority · pmf · icp · avatar · linkedin · ai pathway</span></div>
+      <div><span class="k">Sources</span><span class="v">current primary, supplier, marketplace, and local decision records</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 17, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-corrected-verdict"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the corrected verdict</h2></div><span class="kicker" style="margin-bottom:8px">LINKEDIN + HEALTH OBJECTIVE</span><div class="panel"><p>Test the 15-Ad Creative Test Pack: five materially different creative bets, 15 launch-ready Meta statics, and a learning map in seven business days for an already-advertising health or performance brand.</p><p>Keep Lead-to-Proposal as a separate fastest-cash workflow hypothesis. Earn the health AI workflow as a second rung after paid delivery. Angle Map remains supporting IP and is ineligible as the primary offer. Every exact offer remains UNTESTED / NO EVENT until payment clears.</p></div></section><section class="blk" id="how-the-offer-lock-drifted"><div class="sechead"><span class="secnum">02</span><h2 class="sec">how the offer lock drifted</h2></div><div class="timeline"><div class="tl-item done"><span class="date">aug 9</span><h3>angle map parked</h3><p>Farrice said not to seal it and parked the concept for deeper work.</p></div><div class="tl-item done"><span class="date">aug 11</span><h3>zero-based reversal</h3><p>Angle Map as primary and generic AI consulting were parked; a bounded workflow was favored.</p></div><div class="tl-item done"><span class="date">aug 11</span><h3>creative test pack built</h3><p>The $1,000 prepaid 15-Ad pack was prepared for DTC health/performance buyer validation.</p></div><div class="tl-item done"><span class="date">aug 13</span><h3>cash test locked</h3><p>Lead-to-Proposal became the $1,500 service-business cash test; Angle Map became supporting IP.</p></div><div class="tl-item"><span class="date">aug 17</span><h3>stale canon revived</h3><p>The first PMF run treated Angle Map&#x27;s polished old artifact as current authority.</p></div></div></section><section class="blk" id="the-eligible-offer-set"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the eligible offer set</h2></div><div class="matrix-axes">↑ fit to stated objective · entry offer → expansion</div><div class="matrix"><div class="quad"><span class="qlab">TEST NOW</span><ul><li>15-Ad Creative Test Pack<small>health fit + visible proof + paid object</small></li></ul></div><div class="quad"><span class="qlab">SEPARATE CASH TEST</span><ul><li>Lead-to-Proposal<small>stronger when fastest generic cash is the objective</small></li></ul></div><div class="quad"><span class="qlab">EARNED EXPANSION</span><ul><li>Health creative-intelligence workflow<small>install only after a repeated paid process exists</small></li></ul></div><div class="quad"><span class="qlab">SUPPORT ONLY</span><ul><li>Angle Map<small>internal concept-mapping IP · parked as primary</small></li></ul></div></div></section><section class="blk" id="what-changed-the-decision"><div class="sechead"><span class="secnum">04</span><h2 class="sec">what changed the decision</h2><span class="sectag">CURRENT MARKET</span></div><div class="ev"><span class="mark">✓</span><div><h3>The creative object carries a visible invoice</h3><p>DTC.SUPPLY lists a $950 sprint for one SKU, five concepts, and 15 static placements; heavier monthly tiers rise to $2,750 and $4,990.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://dtc.supply/" target="_blank" rel="noopener">DTC.SUPPLY ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Health brands seek end-to-end performance creative</h3><p>Recent supplement buyer requests include research, mechanisms, angles, hooks, briefs, static/video assets, and iteration from performance data.</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/" target="_blank" rel="noopener">Marketplace signal ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>AI workflow demand is real but broad</h3><p>RSM reports workflow development use, implementation difficulty, and outside-help demand; that supports bounded workflow work, not a generic AI headline.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html" target="_blank" rel="noopener">RSM ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Health work needs a hidden-buyer boundary</h3><p>FTC and FDA guidance make express and implied claim substantiation material; qualified review ownership must remain visible.</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" target="_blank" rel="noopener">FTC + FDA ↗</a></div></div></div></section><section class="decision" id="the-buyer-pain-and-product"><span class="kicker">ONE SKU · ONE TEST SLATE · ONE LEARNING LOOP</span><h2>the buyer, pain, and product</h2><p class="dek">The buyer must already have spend, data, approved claims, and someone ready to launch.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>ICP</h3><p>Already-selling supplement, recovery, beauty, fitness, or performance brand actively running Meta and able to share winners, losers, and one SKU.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Paid pain</h3><p>The brand produces more creative without testing meaningfully different beliefs, mechanisms, proof, or funnel jobs.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Offer</h3><p>Five concepts, three meaningful variants each, 15 finished statics, a launch map, and one readout; $1,000 prepaid; seven business days.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Boundary</h3><p>No media buying, creator sourcing, ROAS promise, unsupported claims, legal review, or unlimited revisions.</p></div></div></div></section><section class="blk" id="linkedin-becomes-the-proof-loop"><div class="sechead"><span class="secnum">06</span><h2 class="sec">linkedin becomes the proof loop</h2></div><div class="flow"><div class="step"><span class="n">01</span><h3>Account-learning teardown</h3><p>show why visual variation can still repeat one strategic idea</p></div><span class="arrow">→</span><div class="step"><span class="n">02</span><h3>Customer language → bet</h3><p>turn a real phrase into audience, mechanism, proof, and first-frame choices</p></div><span class="arrow">→</span><div class="step"><span class="n">03</span><h3>Claim boundary</h3><p>make approved evidence and qualified review ownership visible</p></div><span class="arrow">→</span><div class="step"><span class="n">04</span><h3>Test-map specimen</h3><p>show five hypotheses, variables, launch order, and interpretation</p></div><span class="arrow">→</span><div class="step"><span class="n">05</span><h3>Qualified CTA</h3><p>ask for one SKU plus five strong and five weak ads</p></div><span class="arrow">→</span><div class="step"><span class="n">06</span><h3>$1,000 collected</h3><p>only cleared payment validates the offer</p></div></div><div class="bars-caption">demonstrate judgment, qualify the buyer, then ask for payment</div></section><section class="blk" id="proof-state"><div class="sechead"><span class="secnum">07</span><h2 class="sec">proof state</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i><i class="pseg todo"></i><i class="pseg todo"></i></div><div class="plabs"><div class="plab done"><span>authority audit</span><span class="pnote">recent offer history reconciled</span></div><div class="plab done"><span>market refresh</span><span class="pnote">$0 free-first research</span></div><div class="plab current"><span class="pdot"></span><span>specimen</span><span class="pnote">one public-material test pack</span></div><div class="plab todo"><span>payment</span><span class="pnote">one qualified buyer prepays $1,000</span></div><div class="plab todo"><span>ai expansion</span><span class="pnote">only after paid workflow evidence</span></div></div></div><div class="bars-caption">Research selected the next hypothesis. The market has not ratified it.</div></section><section class="blk caveats" id="what-is-still-unknown"><span class="kicker" style="margin-bottom:10px">NO MARKET PROOF YET</span><h2>what is still unknown</h2><p>There is no collected deposit, verified Farrice DTC performance case study, or proven seven-day delivery economics. Marketplace listings and supplier pages prove category activity and public pricing, not demand for Farrice&#x27;s exact package. LinkedIn can support vendor evaluation but cannot substitute for qualified conversations and payment.</p><a class="cta" href="../../pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md">READ THE FULL CORRECTED VERDICT</a></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">09</span><h2 class="sec">source ledger</h2><span class="sectag">run cost $0.00 — stack: codex native web · deep-research-os · repeatability-spine</span></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>DTC.SUPPLY</td><td><a href="https://dtc.supply/" target="_blank" rel="noopener">https://dtc.supply/</a></td><td>2026-08-17</td><td>creative-pack pricing and scope</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Structured UGC</td><td><a href="https://structured.agency/services/ugc-creative-strategy-that-drives-growth" target="_blank" rel="noopener">https://structured.agency/services/ugc-creative-strategy-that-drives-growth</a></td><td>2026-08-17</td><td>heavier managed-production pricing</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>RSM Middle Market AI Survey</td><td><a href="https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html" target="_blank" rel="noopener">https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html</a></td><td>2026-08-17</td><td>AI workflow and outside-help demand</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>LinkedIn hidden-buyer research</td><td><a href="https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers" target="_blank" rel="noopener">https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers</a></td><td>2026-08-17</td><td>LinkedIn evaluation role</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>FTC Health Products Compliance Guidance</td><td><a href="https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" target="_blank" rel="noopener">https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance</a></td><td>2026-08-17</td><td>health advertising claim boundary</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>FDA Structure/Function Claims</td><td><a href="https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims" target="_blank" rel="noopener">https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims</a></td><td>2026-08-17</td><td>supplement labeling boundary</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">10</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md">deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md</a></td><td>full corrected PMF verdict</td></tr><tr><td>02</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md">deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md</a></td><td>current sources and local authority ledger</td></tr><tr><td>03</td><td><a href="file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md">deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md</a></td><td>preserved failed example</td></tr><tr><td>04</td><td><a href="https://dtc.supply/" target="_blank" rel="noopener">https://dtc.supply/</a></td><td>DTC.SUPPLY</td></tr><tr><td>05</td><td><a href="https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/" target="_blank" rel="noopener">https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/</a></td><td>Marketplace signal</td></tr><tr><td>06</td><td><a href="https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html" target="_blank" rel="noopener">https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html</a></td><td>RSM</td></tr><tr><td>07</td><td><a href="https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" target="_blank" rel="noopener">https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance</a></td><td>FTC + FDA</td></tr><tr><td>08</td><td><a href="https://structured.agency/services/ugc-creative-strategy-that-drives-growth" target="_blank" rel="noopener">https://structured.agency/services/ugc-creative-strategy-that-drives-growth</a></td><td>Structured UGC</td></tr><tr><td>09</td><td><a href="https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers" target="_blank" rel="noopener">https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers</a></td><td>LinkedIn hidden-buyer research</td></tr><tr><td>10</td><td><a href="https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims" target="_blank" rel="noopener">https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims</a></td><td>FDA Structure/Function Claims</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;corrected-recent-offer-pmf-2026-08-17&quot;,
+  &quot;title&quot;: &quot;the recent offer worth testing now&quot;,
+  &quot;compiled&quot;: &quot;aug 17, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.md&quot;,
+  &quot;paths&quot;: [
+    {
+      &quot;path&quot;: &quot;deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md&quot;,
+      &quot;role&quot;: &quot;full corrected PMF verdict&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md&quot;,
+      &quot;role&quot;: &quot;current sources and local authority ledger&quot;
+    },
+    {
+      &quot;path&quot;: &quot;deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md&quot;,
+      &quot;scope&quot;: &quot;repo&quot;,
+      &quot;abs&quot;: &quot;/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md&quot;,
+      &quot;role&quot;: &quot;preserved failed example&quot;
+    }
+  ],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://dtc.supply/&quot;,
+      &quot;label&quot;: &quot;DTC.SUPPLY&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/&quot;,
+      &quot;label&quot;: &quot;Marketplace signal&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html&quot;,
+      &quot;label&quot;: &quot;RSM&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance&quot;,
+      &quot;label&quot;: &quot;FTC + FDA&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://structured.agency/services/ugc-creative-strategy-that-drives-growth&quot;,
+      &quot;label&quot;: &quot;Structured UGC&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers&quot;,
+      &quot;label&quot;: &quot;LinkedIn hidden-buyer research&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims&quot;,
+      &quot;label&quot;: &quot;FDA Structure/Function Claims&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>ANTIGRAVITY RESEARCH OS</span>
+    <span>@farricecain</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.md", "brief": "SOURCE: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.md  (research brief · Antigravity)\nHTML: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-brief.html\nCONTEXT PACK: /Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research/deliverables/research-briefs/corrected-recent-offer-pmf-2026-08-17/corrected-recent-offer-pmf-2026-08-17-context.json\nCOMPILED: aug 17, 2026\n\n# the recent offer worth testing now\n\n> RESEARCH OS · CORRECTED PMF · window: sessions aug 9–13 · evidence refreshed aug 17 · lens: authority · pmf · icp · avatar · linkedin · ai pathway · sources: current primary, supplier, marketplace, and local decision records · compiled: aug 17, 2026\n\nA last-seven-day authority audit and live market refresh comparing the 15-Ad Creative Test Pack, Lead-to-Proposal Proof Sprint, and health evidence-to-message AI workflow—without reviving the parked Angle Map.\n\n## the corrected verdict\n_LINKEDIN + HEALTH OBJECTIVE_\nTest the 15-Ad Creative Test Pack: five materially different creative bets, 15 launch-ready Meta statics, and a learning map in seven business days for an already-advertising health or performance brand.\n\nKeep Lead-to-Proposal as a separate fastest-cash workflow hypothesis. Earn the health AI workflow as a second rung after paid delivery. Angle Map remains supporting IP and is ineligible as the primary offer. Every exact offer remains UNTESTED / NO EVENT until payment clears.\n\n## how the offer lock drifted\n- aug 9 · **angle map parked** — Farrice said not to seal it and parked the concept for deeper work.\n- aug 11 · **zero-based reversal** — Angle Map as primary and generic AI consulting were parked; a bounded workflow was favored.\n- aug 11 · **creative test pack built** — The $1,000 prepaid 15-Ad pack was prepared for DTC health/performance buyer validation.\n- aug 13 · **cash test locked** — Lead-to-Proposal became the $1,500 service-business cash test; Angle Map became supporting IP.\n- aug 17 · **stale canon revived** — The first PMF run treated Angle Map's polished old artifact as current authority.\n\n## the eligible offer set\n- **TEST NOW**: 15-Ad Creative Test Pack (health fit + visible proof + paid object)\n- **SEPARATE CASH TEST**: Lead-to-Proposal (stronger when fastest generic cash is the objective)\n- **EARNED EXPANSION**: Health creative-intelligence workflow (install only after a repeated paid process exists)\n- **SUPPORT ONLY**: Angle Map (internal concept-mapping IP · parked as primary)\n\n## what changed the decision\n- **The creative object carries a visible invoice** [VERIFIED] — DTC.SUPPLY lists a $950 sprint for one SKU, five concepts, and 15 static placements; heavier monthly tiers rise to $2,750 and $4,990. (https://dtc.supply/)\n- **Health brands seek end-to-end performance creative** [LIKELY] — Recent supplement buyer requests include research, mechanisms, angles, hooks, briefs, static/video assets, and iteration from performance data. (https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/)\n- **AI workflow demand is real but broad** [VERIFIED] — RSM reports workflow development use, implementation difficulty, and outside-help demand; that supports bounded workflow work, not a generic AI headline. (https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html)\n- **Health work needs a hidden-buyer boundary** [VERIFIED] — FTC and FDA guidance make express and implied claim substantiation material; qualified review ownership must remain visible. (https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance)\n\n## the buyer, pain, and product\nThe buyer must already have spend, data, approved claims, and someone ready to launch.\n1. **ICP** — Already-selling supplement, recovery, beauty, fitness, or performance brand actively running Meta and able to share winners, losers, and one SKU.\n2. **Paid pain** — The brand produces more creative without testing meaningfully different beliefs, mechanisms, proof, or funnel jobs.\n3. **Offer** — Five concepts, three meaningful variants each, 15 finished statics, a launch map, and one readout; $1,000 prepaid; seven business days.\n4. **Boundary** — No media buying, creator sourcing, ROAS promise, unsupported claims, legal review, or unlimited revisions.\n\n## linkedin becomes the proof loop\nAccount-learning teardown → Customer language → bet → Claim boundary → Test-map specimen → Qualified CTA → $1,000 collected\n  - Account-learning teardown: show why visual variation can still repeat one strategic idea\n  - Customer language → bet: turn a real phrase into audience, mechanism, proof, and first-frame choices\n  - Claim boundary: make approved evidence and qualified review ownership visible\n  - Test-map specimen: show five hypotheses, variables, launch order, and interpretation\n  - Qualified CTA: ask for one SKU plus five strong and five weak ads\n  - $1,000 collected: only cleared payment validates the offer\n\n## proof state\n\n\n## what is still unknown\n_NO MARKET PROOF YET_\nThere is no collected deposit, verified Farrice DTC performance case study, or proven seven-day delivery economics. Marketplace listings and supplier pages prove category activity and public pricing, not demand for Farrice's exact package. LinkedIn can support vendor evaluation but cannot substitute for qualified conversations and payment.\n\n## Source ledger\n1. DTC.SUPPLY — https://dtc.supply/ (retrieved 2026-08-17, VERIFIED; used for: creative-pack pricing and scope)\n2. Structured UGC — https://structured.agency/services/ugc-creative-strategy-that-drives-growth (retrieved 2026-08-17, VERIFIED; used for: heavier managed-production pricing)\n3. RSM Middle Market AI Survey — https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html (retrieved 2026-08-17, VERIFIED; used for: AI workflow and outside-help demand)\n4. LinkedIn hidden-buyer research — https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers (retrieved 2026-08-17, VERIFIED; used for: LinkedIn evaluation role)\n5. FTC Health Products Compliance Guidance — https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance (retrieved 2026-08-17, VERIFIED; used for: health advertising claim boundary)\n6. FDA Structure/Function Claims — https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims (retrieved 2026-08-17, VERIFIED; used for: supplement labeling boundary)\n\n## Context pack (agent feed)\n- `deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-pmf-verdict.md` — full corrected PMF verdict\n- `deliverables/pmf-health-linkedin-research/2026-08-17-corrected-recent-offer-source-ledger.md` — current sources and local authority ledger\n- `deliverables/pmf-health-linkedin-research/2026-08-17-linkedin-health-offer-pmf-verdict.md` — preserved failed example\n- https://dtc.supply/ — DTC.SUPPLY\n- https://www.upwork.com/freelance-jobs/apply/Senior-Creative-Strategist-Direct-Response-Supplements-Meta-Ads-DTC_~022011759342971802178/ — Marketplace signal\n- https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025.html — RSM\n- https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance — FTC + FDA\n- https://structured.agency/services/ugc-creative-strategy-that-drives-growth — Structured UGC\n- https://www.linkedin.com/business/marketing/blog/research-and-insights/b2b-thought-leadership-influence-hidden-buyers — LinkedIn hidden-buyer research\n- https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims — FDA Structure/Function Claims\n\n_run cost $0.00 — stack: codex native web · deep-research-os · repeatability-spine_\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/pmf-health-linkedin-research";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>
