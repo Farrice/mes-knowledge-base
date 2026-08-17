@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "captured_at_utc": "2026-08-17T04:45:00Z",
+  "status": "partial_verified_no_mutation",
+  "scope": {
+    "root": "/Users/farricecain/Downloads/02_Design_Assets",
+    "zip_count": 327,
+    "zip_logical_bytes": 151703106096,
+    "zip_logical_gib": 141.285,
+    "zip_allocated_bytes": 151703764992,
+    "zip_allocated_gib": 141.285,
+    "ambiguous_cpgz_bytes": 2744196206,
+    "combined_archive_gib": 143.841
+  },
+  "serial_zip_validation": {
+    "completed_count_floor": 204,
+    "completed_percent_floor": 62.4,
+    "sha256_readable_count": 204,
+    "valid_crc_count": 204,
+    "crc_failures": 0,
+    "read_errors": 0,
+    "interrupted_reason": "Stopped at a safe boundary rather than extending a long read-only scan; no user data was changed.",
+    "per_file_hash_ledger_persisted": false,
+    "remaining_count_ceiling": 123,
+    "completion_required_before_cloud_batching": true
+  },
+  "oversize_singletons": [
+    {
+      "path": "/Users/farricecain/Downloads/02_Design_Assets/Jingsketch All Access.zip",
+      "logical_bytes": 15951784995,
+      "integrity": "valid_crc",
+      "batch_disposition": "oversize_pending_post_50_gib"
+    },
+    {
+      "path": "/Users/farricecain/Downloads/02_Design_Assets/GASTHETICA MOCKUP PACK.zip",
+      "logical_bytes": 11067481732,
+      "integrity": "valid_crc",
+      "batch_disposition": "oversize_pending_post_50_gib"
+    },
+    {
+      "path": "/Users/farricecain/Downloads/02_Design_Assets/Oversized T-Shirt Mockup Set by Creatsy®.zip",
+      "logical_bytes": 9129681938,
+      "integrity": "valid_crc",
+      "batch_disposition": "oversize_pending_post_50_gib"
+    }
+  ],
+  "known_exact_zip_duplicate_groups": {
+    "source": "deletion-manifest.json",
+    "groups": 2,
+    "status": "verified_pending_explicit_approval",
+    "note": "No conclusion is made about additional archive duplicates until the full per-file hash ledger is completed."
+  },
+  "ambiguous_wrapper": {
+    "path": "/Users/farricecain/Downloads/02_Design_Assets/Megapack Vol 1point2.rar.cpgz",
+    "sha256": "559a9a6f00d35375c1b93291ae00d1fe6e1aeb0ad215aedb76c4ef09d07fd258",
+    "gzip_full_stream_test": "pass",
+    "disposition": "preserve_in_place_then_30_day_cloud_quarantine"
+  },
+  "batching_contract": {
+    "below_50_gib_free": "Whole-file batches must be no larger than 5 GiB.",
+    "at_or_above_50_gib_free": "Whole-file batches may be no larger than 8 GiB.",
+    "oversize_rule": "The three files larger than 5 GiB are not normal first-wave batches and remain parked until the machine has at least 50 GiB free and a separately verified transfer method is approved.",
+    "next_step": "Complete and persist the per-file SHA-256/CRC ledger, then generate exact cloud batch manifests from only valid non-duplicate archives."
+  },
+  "mutation_receipt": {
+    "files_moved": 0,
+    "files_deleted": 0,
+    "files_evicted": 0,
+    "large_cloud_uploads_started": 0
+  }
+}

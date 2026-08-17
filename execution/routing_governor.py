@@ -435,6 +435,8 @@ DEEP_RESEARCH_OS_SIGNALS = (
     "native web research",
     "free first research",
     "free-first research",
+    "free first offer research",
+    "free-first offer research",
     "tavily search",
     "rss research",
     "current competitors",
@@ -1932,9 +1934,30 @@ def is_copy_quality_failure_intent(query: str) -> bool:
     return False
 
 
+def is_preservation_first_storage_recovery_intent(query: str) -> bool:
+    """Return True for the narrow, safety-led Mac storage recovery mission."""
+    normalized = normalize_query(query)
+    return (
+        any(term in normalized for term in ("preservation-first", "preservation first"))
+        and any(term in normalized for term in ("mac recovery", "storage recovery"))
+        and any(
+            term in normalized
+            for term in (
+                "exact duplicate",
+                "cold archive",
+                "free space",
+                "gib",
+                "streamed google drive",
+            )
+        )
+    )
+
+
 def is_system_audit_query(query: str) -> bool:
     """Return True when the user is directly asking for a system audit."""
     normalized = normalize_query(query)
+    if is_preservation_first_storage_recovery_intent(normalized):
+        return True
     if is_operating_alignment_intent(normalized):
         return True
     if any(
@@ -2573,6 +2596,11 @@ def governed_route_names(query: str, raw_routes: Iterable[str]) -> list[str]:
         ordered.extend(route for route in KISHOTENKETSU_STORYTELLING_STACK if route not in ordered)
         ordered.extend(route for route in routes if route not in ordered)
         return ordered
+    if is_preservation_first_storage_recovery_intent(query):
+        ordered = [route for route in SYSTEM_AUDIT_FIRST_STACK if route in routes]
+        ordered.extend(route for route in SYSTEM_AUDIT_FIRST_STACK if route not in ordered)
+        ordered.extend(route for route in routes if route not in ordered)
+        return ordered
     if is_deep_research_os_intent(query):
         ordered = [route for route in DEEP_RESEARCH_OS_STACK if route in routes]
         ordered.extend(route for route in DEEP_RESEARCH_OS_STACK if route not in ordered)
@@ -2707,6 +2735,9 @@ def flagged_routes_for(query: str, routes: Iterable[str]) -> tuple[str, ...]:
             "category-building-os",
             "dunford-positioning-diagnostic",
         }
+        return tuple(route for route in routes if route and route not in allowed)
+    if is_preservation_first_storage_recovery_intent(query):
+        allowed = set(SYSTEM_AUDIT_FIRST_STACK) | {"context-audit", "harness-audit", "system-hygiene"}
         return tuple(route for route in routes if route and route not in allowed)
     if is_deep_research_os_intent(query):
         allowed = set(DEEP_RESEARCH_OS_STACK) | {"research-topic", "research-landscape"}
@@ -2869,6 +2900,31 @@ def evaluate(
                 "log it with `python3 execution/routing_intelligence.py misroute "
                 "--request \"...\" --wrong \"...\" --correct "
                 "\"kishotenketsu-contrast-storytelling\"`."
+            ),
+        )
+
+    if is_preservation_first_storage_recovery_intent(query):
+        chosen = choose_route(query, combined)
+        skipped = flagged_routes_for(query, combined[:8])
+        confidence = 0.96 if chosen == "system-audit" else 0.84
+        return GovernorDecision(
+            query=query,
+            detected_lane="system-failure",
+            confidence=confidence,
+            required_candidates=SYSTEM_AUDIT_FIRST_STACK,
+            command_menu_winners=menu_routes,
+            workflow_router_winners=workflow_routes,
+            chosen_route=chosen,
+            skipped_routes=skipped,
+            reason=(
+                "Preservation-first storage recovery intent detected. Prefer "
+                "/system-audit as the owner so deletion, cloud verification, free-space "
+                "gates, and downstream research sequencing remain safety-controlled."
+            ),
+            feedback_recommendation=(
+                "If a research or offer workflow wins this compound recovery mission, "
+                "log it with `python3 execution/routing_intelligence.py misroute "
+                "--request \"...\" --wrong \"...\" --correct \"system-audit\"`."
             ),
         )
 

@@ -15,6 +15,12 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = Path.home() / ".codex" / "config.toml"
 HOOKS_PATH = ROOT / ".codex" / "hooks.json"
 
+STORAGE_RECOVERY_PROMPT = (
+    "Implement the preservation-first Mac recovery plan: verify exact duplicates, "
+    "migrate cold archives to streamed Google Drive until at least 150 GiB is free, "
+    "then run free-first offer research; no unapproved deletion or publishing"
+)
+
 HOT_ROUTES = [
     "mission",
     "source-to-skill-system",
@@ -33,6 +39,8 @@ PROBES = [
     ("Codex hooks are not firing", "system-audit"),
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("Codex explains and plans instead of executing safe local next actions", "system-audit"),
+    (STORAGE_RECOVERY_PROMPT, "system-audit"),
+    ("Run free-first offer research", "deep-research-os"),
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("Implement the Google Antigravity global access layer in Codex, reconcile routing and hot/cold policy first, then package the skill manifest as a personal plugin without context rot.", "system-audit"),
     ("Implement a global skill manifest and personal plugin for Google Antigravity.", "source-to-skill-system"),
@@ -345,6 +353,75 @@ def check_preflight_schema() -> dict[str, Any]:
     return data
 
 
+def check_storage_recovery_routing() -> list[str]:
+    receipts: list[str] = []
+    probes = (
+        (STORAGE_RECOVERY_PROMPT, "system-audit", True),
+        ("Create a Google Drive offer for archive recovery clients", "", False),
+        ("Run free-first offer research", "deep-research-os", True),
+    )
+    for query, expected, exact in probes:
+        proc = run(
+            [
+                sys.executable,
+                "execution/codex_operator_preflight.py",
+                query,
+                "--json",
+            ]
+        )
+        if proc.returncode != 0:
+            fail(f"storage-routing preflight failed for {query!r}: {proc.stderr.strip()}")
+        data = json.loads(proc.stdout)
+        owner = data["chosen_path"].get("owner")
+        if exact and owner != expected:
+            fail(f"Storage-routing probe {query!r} expected /{expected}, got /{owner}")
+        if not exact and owner == "system-audit":
+            fail(f"Storage-routing negative control over-routed to /system-audit: {query!r}")
+        if query == STORAGE_RECOVERY_PROMPT:
+            risks = data["intent_lock"].get("risk_reasons") or []
+            if risks:
+                fail(f"Storage deny clause incorrectly triggered risk gates: {risks}")
+            if not data["execution_decision"].get("can_execute_now"):
+                fail("Storage preflight should permit safe local work before action-specific gates")
+        receipts.append(f"{query} -> /{owner}")
+    return receipts
+
+
+def check_risk_constraint_parsing() -> list[str]:
+    from codex_operator_preflight import risk_reasons
+
+    cases = (
+        ("No unapproved deletion or publishing.", []),
+        ("Do not publish or delete anything.", []),
+        ("Research locally without publishing or deleting files.", []),
+        ("Create a publisher brief.", []),
+        ("Publish the approved report.", ["external write"]),
+        ("Delete the verified duplicates.", ["destructive action"]),
+        ("Do not publish, but delete the approved duplicates.", ["destructive action"]),
+        ("Never delete originals; publish the approved report.", ["external write"]),
+        ("Never delete originals; then delete only verified duplicates.", ["destructive action"]),
+        ("Do not publish yet; then publish after approval.", ["external write"]),
+    )
+    receipts: list[str] = []
+    for query, expected in cases:
+        actual = risk_reasons(query)
+        if actual != expected:
+            fail(f"Risk parser probe {query!r} expected {expected}, got {actual}")
+        receipts.append(f"{query} -> {actual}")
+    for query in ("Publish the approved report.", "Delete the verified duplicates."):
+        proc = run(
+            [sys.executable, "execution/codex_operator_preflight.py", query, "--json"]
+        )
+        if proc.returncode != 0:
+            fail(f"Positive risk preflight failed for {query!r}: {proc.stderr.strip()}")
+        data = json.loads(proc.stdout)
+        if data["execution_decision"].get("can_execute_now"):
+            fail(f"Positive risk preflight did not block {query!r}")
+        if data["execution_decision"].get("status") != "Blocked":
+            fail(f"Positive risk preflight status was not Blocked for {query!r}")
+    return receipts
+
+
 def check_quality_preflight() -> dict[str, Any]:
     proc = run(
         [
@@ -515,6 +592,8 @@ def main() -> int:
         ("routing_enforcer", check_routing_enforcer),
         ("hook_parity", check_hook_parity),
         ("preflight_schema", check_preflight_schema),
+        ("storage_recovery_routing", check_storage_recovery_routing),
+        ("risk_constraint_parsing", check_risk_constraint_parsing),
         ("quality_preflight", check_quality_preflight),
         ("regression_preflight", check_regression_preflight),
         ("context_failure_preflight", check_context_failure_preflight),

@@ -187,11 +187,80 @@ def clarity_score(intent: str) -> int:
     return max(1, min(5, score))
 
 
+def _has_requested_action(intent: str, action_pattern: str) -> bool:
+    """Return True when an action is requested rather than explicitly denied."""
+    denial_scope_words = {
+        "a",
+        "all",
+        "an",
+        "and",
+        "any",
+        "approved",
+        "automatic",
+        "automatically",
+        "broad",
+        "broadly",
+        "delete",
+        "deleted",
+        "deleting",
+        "deletion",
+        "deletions",
+        "destructive",
+        "external",
+        "file",
+        "files",
+        "further",
+        "local",
+        "locally",
+        "material",
+        "materials",
+        "original",
+        "originals",
+        "or",
+        "publish",
+        "published",
+        "publishing",
+        "public",
+        "the",
+        "unauthorized",
+        "unapproved",
+        "user",
+    }
+    for match in re.finditer(action_pattern, intent):
+        prefix = intent[: match.start()]
+        local_prefix = re.split(
+            r"[.;!?]|\b(?:but|however|then)\b",
+            prefix,
+        )[-1]
+        deny_matches = list(
+            re.finditer(r"\b(?:do not|don't|never|without|no)\b", local_prefix)
+        )
+        if not deny_matches:
+            return True
+        between = local_prefix[deny_matches[-1].end() :]
+        between_words = re.findall(r"[a-z]+", between)
+        if any(word not in denial_scope_words for word in between_words):
+            return True
+    return False
+
+
 def risk_reasons(intent: str) -> list[str]:
     q = normalize(intent)
     reasons: list[str] = []
     for label, terms in RISK_TERMS.items():
-        if any(term in q for term in terms):
+        literal_terms = tuple(term for term in terms if term not in {"publish", "delete"})
+        requested = any(term in q for term in literal_terms)
+        if label == "external write":
+            requested = requested or _has_requested_action(
+                q,
+                r"\bpublish(?:es|ed|ing)?\b",
+            )
+        elif label == "destructive action":
+            requested = requested or _has_requested_action(
+                q,
+                r"\bdelet(?:e|es|ed|ing|ion|ions)\b",
+            )
+        if requested:
             reasons.append(label)
     if "real subagents" in reasons and subagent_approval_packet_present(intent):
         reasons.remove("real subagents")

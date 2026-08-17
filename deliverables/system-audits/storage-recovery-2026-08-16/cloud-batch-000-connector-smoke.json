@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "connector-smoke-2026-08-17-000",
+  "status": "verified",
+  "source": "/Users/farricecain/Google Antigravity/deliverables/system-audits/storage-recovery-2026-08-16/baseline-2026-08-16.json",
+  "destination_folder": "99_Manifests/Storage-Recovery-2026-08-17",
+  "destination_folder_id": "1_DoXG62IKxkiuxe6vZCpwqMgEXFqT8H9",
+  "drive_file": {
+    "id": "1pyBqLjc58irJI9_Q9WRLE48e0wvO6FT4",
+    "name": "baseline-2026-08-16.json",
+    "url": "https://drive.google.com/file/d/1pyBqLjc58irJI9_Q9WRLE48e0wvO6FT4/view",
+    "size_bytes": 1372,
+    "parent_id_verified": true
+  },
+  "verification": {
+    "web_metadata_present": true,
+    "fresh_download_completed": true,
+    "downloaded_bytes": 1372,
+    "base64_exact_byte_match": true
+  },
+  "local_source": {
+    "retained": true,
+    "deleted": false
+  },
+  "cost_usd": 0.0
+}

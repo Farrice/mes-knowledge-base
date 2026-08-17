@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "captured_at_utc": "2026-08-17T04:45:59Z",
+  "volume": {
+    "mount": "/System/Volumes/Data",
+    "size_kib": 971350180,
+    "used_kib": 930385516,
+    "available_kib": 15183496,
+    "available_gib": 14.48,
+    "capacity_percent": 99,
+    "minimum_migration_floor_gib": 15,
+    "acceptance_target_gib": 150,
+    "migration_gate": "blocked_below_15_gib",
+    "research_gate": "blocked_below_150_gib"
+  },
+  "safe_work_completed": {
+    "exact_duplicate_batch_verified": true,
+    "duplicate_candidate_allocated_gib": 11.196,
+    "remote_preserved_worktrees_eligible": 8,
+    "worktree_candidate_gib": 18.3546,
+    "google_drive_hierarchy_created": true,
+    "google_drive_connector_round_trip": "exact_byte_match",
+    "drive_manifest_folder_file_count": 13,
+    "final_drive_redownload_samples": {
+      "README.md": "exact_byte_match",
+      "overnight-status-2026-08-17.json": "exact_byte_match_before_receipt_annotation"
+    },
+    "google_drive_desktop_stream_mode": "awaiting_interactive_install_and_verification",
+    "archive_zip_count": 327,
+    "archive_crc_verified_count_floor": 204,
+    "archive_crc_failures": 0,
+    "router_repair": "pass",
+    "risk_constraint_parser_repair": "pass"
+  },
+  "mutations": {
+    "user_files_moved": 0,
+    "user_files_deleted": 0,
+    "user_files_evicted": 0,
+    "worktrees_removed": 0,
+    "large_archive_uploads_started": 0,
+    "posts_or_messages_created": 0,
+    "schedules_created": 0,
+    "paid_research_spend_usd": 0.0
+  },
+  "blocked_gates": [
+    "Explicit approval for the exact Batch 001 Trash move and conditional emptying.",
+    "Explicit approval for lifecycle teardown of the eight named remote-preserved worktree lanes.",
+    "Administrator-authenticated Google Drive for desktop install, account check, quota check, and Stream files verification.",
+    "Live available space of at least 150 GiB before market research."
+  ],
+  "system_warnings": [
+    {
+      "status": "VERIFIED",
+      "warning": "Local Notion mirror is 115.83 hours stale against the workspace 72-hour halt threshold.",
+      "action": "parked_no_external_refresh"
+    },
+    {
+      "status": "UNCONFIRMED",
+      "warning": "The finalizer could not resolve api.notion.com from the restricted execution context.",
+      "action": "Do not infer provider failure; verify separately with authenticated read-only access."
+    }
+  ],
+  "session_lock": "clear"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "manifest_id": "storage-recovery-quarantine-2026-08-17",
+  "status": "identified_not_moved",
+  "cloud_destination": "90_Quarantine/2026-08-17",
+  "review_date": "2026-09-16",
+  "items": [
+    {
+      "path": "/Users/farricecain/Downloads/02_Design_Assets/Megapack Vol 1point2.rar.cpgz",
+      "logical_bytes": 2744196206,
+      "allocated_blocks_512": 5359760,
+      "sha256": "559a9a6f00d35375c1b93291ae00d1fe6e1aeb0ad215aedb76c4ef09d07fd258",
+      "finder_type_evidence": "gzip compressed data; reported uncompressed size 2744678740 bytes",
+      "classification": "ambiguous_archive_wrapper",
+      "canonical_asset": false,
+      "integrity_status": "gzip_full_stream_test_pass",
+      "approval": "not_requested",
+      "current_action": "preserve_in_place",
+      "future_action": "After the emergency free-space floor is cleared, upload only to the dated cloud quarantine, verify a sampled re-download against this SHA-256, then request any local-removal approval."
+    }
+  ],
+  "mutation_receipt": {
+    "items_moved": 0,
+    "items_deleted": 0,
+    "items_evicted": 0
+  }
+}
