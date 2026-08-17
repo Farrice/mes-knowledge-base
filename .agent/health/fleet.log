@@ -163,3 +163,5 @@ PASS    verify_virtuoso_orchestration.py (73.3s)
 FLEET: 57 pass / 12 failing / 4 skip of 73 — /Users/farricecain/Google Antigravity/.agent/health/verify-fleet.json
 usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
 verify_fleet.py: error: unrecognized arguments: run
+usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
+verify_fleet.py: error: unrecognized arguments: run

@@ -1,19 +1,20 @@
 # For Farrice as a solo operator who needs collected cash…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 12, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
 
-The system just argued against its own active campaign, and that fork needs a human answer before more work compounds on either side.
+The offer decision is made and untested — the next fact comes from a buyer, not another doc.
 
 ## where this stands
 _CURRENT POSITION_
-A zero-based re-derivation of what Farrice should actually sell landed here, and it argues against the current lead offer: park the Angle Map and sell a tightly bounded workflow pilot to small professional-service firms, scoped small enough to finish and measure. It is a verdict, not yet a decision — nothing downstream has been changed to match.
+A real offer decision is on record: park the angle-map offer as primary and lock a bounded, paid workflow pilot for small professional-service firms, with scope and exclusions already drawn. Nothing has been sold against it.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 5d ago.
 
-Next: Accept or reject this verdict out loud, then make the campaign and offer threads agree with whichever way it goes.
+Next: Take the pilot offer to a first buyer and log whether it sells.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
+- DAYS ACTIVE: **5 d**
 
 ## lifecycle
 
@@ -36,7 +37,7 @@ python3 execution/handoff_store.py resume first-client-engine
 
 ## what this isn't
 _READ THE EDGES_
-The verdict reasons from Farrice's stated capability and cash need, not from buyer evidence — nobody has been asked to pay for the pilot. It also contradicts the live campaign, and both are currently running.
+The strategy deliverables scored below the keep bar and the outcome is still pending, so this is a well-reasoned bet with no market evidence behind it. The thread's own framing admits the internal system proves method but not client results.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

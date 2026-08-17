@@ -2,11 +2,11 @@
   "slug": "mission-trailer-treatment",
   "chip": "MISSION · THREAD",
   "title": "Midnight Oil native reference pack, continuity *manifest*…",
-  "dek": "The hard part — canon and continuity — is done, and the thread stalls at pressing go.",
+  "dek": "Prep is done; the pack has not been fired.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 12, 2026",
+  "compiled": "aug 17, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "A director-level package for an original animated trailer exists — reference pack, continuity rules, and a master prompt built to hold character and world consistency across shots. The ledger shows nothing generated from it.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Generate from the master prompt and judge the resulting shots against the continuity rules."
+      "body": "The reference pack, continuity manifest and director prompt are finalized. The outcome slot is still sitting on pending, so nothing downstream has been recorded as made from them.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Run the pack through generation and record the result against the pending outcome."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "1",
+          "value": "6",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -120,7 +120,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This is a craft track with no revenue line attached and an outcome row that is still empty; treat it as an experiment rather than a deliverable with a customer waiting.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The creative deliverables scored below the keep bar at finalize time, and no outcome has been logged, so this is a well-formed setup with no evidence yet that it produces the intended footage.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

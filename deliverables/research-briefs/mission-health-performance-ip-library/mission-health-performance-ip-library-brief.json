@@ -2,11 +2,11 @@
   "slug": "mission-health-performance-ip-library",
   "chip": "MISSION · KNOWLEDGE",
   "title": "Health Performance Ip *Library*",
-  "dek": "The listening loop is alive and honest about breaking; someone still has to respond to it.",
+  "dek": "The intake is healthy; nothing downstream is eating it.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 6 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "compiled": "aug 17, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The daily listening brief is running on schedule and writing into the library, with the exec cut kept current. A gate failure report and an automation-status note also landed, so the loop has been failing visibly rather than silently.\n\nHandoff status is active. Last activity today.\n\nNext: Read the gate failure and fix its cause before another day's brief inherits it."
+      "body": "The daily listening brief is genuinely running — fresh briefs keep landing, and an executive cut is being maintained alongside them. It behaves like a feed rather than a project with an endpoint.\n\nHandoff status is active. Last activity today.\n\nNext: Convert the accumulated briefs into a single angle decision instead of letting them stack."
     },
     {
       "kind": "stats",
@@ -44,11 +44,11 @@
             0,
             0,
             0,
+            1,
+            1,
             0,
+            1,
             0,
-            0,
-            0,
-            3,
             1,
             2
           ],
@@ -88,40 +88,40 @@
       "tag": "COPY THE PATH",
       "items": [
         {
-          "title": "2026-08-10-angle-map-listening-brief.md",
+          "title": "2026-08-16-angle-map-listening-brief.md",
           "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-10-angle-map-listening-brief.md",
-          "note": "aug 10, 2026"
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-16-angle-map-listening-brief.md",
+          "note": "aug 16, 2026"
         },
         {
           "title": "LATEST-EXEC-CUT.md",
           "role": "FILE",
           "path": "_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md",
+          "note": "aug 16, 2026"
+        },
+        {
+          "title": "2026-08-15-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-15-angle-map-listening-brief.md",
+          "note": "aug 15, 2026"
+        },
+        {
+          "title": "2026-08-13-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md",
+          "note": "aug 13, 2026"
+        },
+        {
+          "title": "2026-08-11-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-11-angle-map-listening-brief.md",
+          "note": "aug 11, 2026"
+        },
+        {
+          "title": "2026-08-10-angle-map-listening-brief.md",
+          "role": "FILE",
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-10-angle-map-listening-brief.md",
           "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-08-09-angle-map-listening-brief.md",
-          "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-09-angle-map-listening-brief.md",
-          "note": "aug 9, 2026"
-        },
-        {
-          "title": "2026-08-08-GATE-FAILURE-REPORT.md",
-          "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-08-GATE-FAILURE-REPORT.md",
-          "note": "aug 8, 2026"
-        },
-        {
-          "title": "2026-08-08-AUTOMATION-STATUS.md",
-          "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-08-AUTOMATION-STATUS.md",
-          "note": "aug 8, 2026"
-        },
-        {
-          "title": "2026-08-08-angle-map-listening-brief.md",
-          "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-08-angle-map-listening-brief.md",
-          "note": "aug 8, 2026"
         }
       ]
     },
@@ -147,9 +147,9 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-10",
-          "title": "commit 786a7b55d",
-          "body": "Build: Campaign support documents (content cadence, day 3 follow-up, delivery protocol)",
+          "date": "2026-08-17",
+          "title": "commit eae54a99b",
+          "body": "chore(session): end-session commit gate — 2026-08-17",
           "done": true
         }
       ]
@@ -180,7 +180,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The automation runs unattended, so a completed run means it executed — not that the brief was any good. The failure is on record, but nothing shows it was answered.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Nothing here has been finalized or turned into a deliverable, so the value is entirely potential — a listening feed that nobody harvests is a cost, not an asset. The briefs' underlying sources are not verified by this sweep.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

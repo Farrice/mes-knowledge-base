@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "226 sessions swept",
-  "compiled": "aug 12, 2026",
+  "sources": "234 sessions swept",
+  "compiled": "aug 17, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "Most live threads are in the same state: the making is done, the sending isn't — client work sits approved and undelivered, an offer sits ready without a named buyer, a studio sits built with no pilot run, and the listening engine keeps filing posts the system has no record of anyone publishing. The genuinely new thing this window is a verdict arguing the current lead offer should be parked.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "Almost every live thread is one step short of contact with the outside world: the writing, the packaging and the decisions are done, and the send, the publish or the logged result is not. The board is heavy with finished documents and light on evidence that any of them worked.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "53",
+          "value": "48",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "165",
+          "value": "31",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "258",
+          "value": "251",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "226",
+          "value": "234",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -54,20 +54,20 @@
           "values": [
             0,
             0,
-            1,
             0,
             0,
             0,
             0,
-            1,
-            1,
             0,
             0,
+            0,
+            3,
+            2,
             0,
             0,
             0
           ],
-          "value": "3",
+          "value": "5",
           "note": "per day"
         },
         {
@@ -79,16 +79,16 @@
             0,
             0,
             0,
-            5,
             0,
-            7,
-            1,
-            2,
-            0,
+            6,
             3,
-            1
+            1,
+            4,
+            0,
+            1,
+            5
           ],
-          "value": "19",
+          "value": "20",
           "note": "per day"
         },
         {
@@ -97,19 +97,19 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            7,
-            44,
+            1,
+            4,
             1,
             1,
             1,
-            1
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
           ],
-          "value": "55",
+          "value": "9",
           "note": "per day"
         }
       ],
@@ -123,25 +123,31 @@
         {
           "label": "linkedin",
           "values": [
-            17
+            13
           ]
         },
         {
-          "label": "oren slop era creative strategy",
+          "label": "system audit",
           "values": [
             6
           ]
         },
         {
-          "label": "video studio edit bay",
+          "label": "geo content",
           "values": [
-            52
+            10
+          ]
+        },
+        {
+          "label": "health performance ip library",
+          "values": [
+            6
           ]
         },
         {
           "label": "angle map listening engine v4 1",
           "values": [
-            9
+            6
           ]
         },
         {
@@ -159,7 +165,7 @@
         {
           "label": "extract forge",
           "values": [
-            30
+            21
           ]
         },
         {
@@ -172,12 +178,6 @@
           "label": "01 listing content",
           "values": [
             9
-          ]
-        },
-        {
-          "label": "system audit",
-          "values": [
-            6
           ]
         }
       ]
@@ -194,13 +194,18 @@
         },
         {
           "k": "ACTIVE",
-          "title": "oren slop era creative strategy",
-          "path": "deliverables/research-briefs/mission-oren-slop-era-creative-strategy/mission-oren-slop-era-creative-strategy-brief.html"
+          "title": "system audit",
+          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
         },
         {
           "k": "READY",
-          "title": "video studio edit bay",
-          "path": "deliverables/research-briefs/mission-video-studio-edit-bay/mission-video-studio-edit-bay-brief.html"
+          "title": "geo content",
+          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "health performance ip library",
+          "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -239,11 +244,6 @@
         },
         {
           "k": "ACTIVE",
-          "title": "system audit",
-          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
-        },
-        {
-          "k": "ACTIVE",
           "title": "execution",
           "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
         }
@@ -254,6 +254,12 @@
       "heading": "also shipped",
       "tag": "NO LIVE THREAD",
       "items": [
+        {
+          "date": "2026-08-13",
+          "title": "end-session",
+          "body": "Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han",
+          "done": true
+        },
         {
           "date": "2026-08-12",
           "title": "rescue-stalled-progress",
@@ -285,6 +291,18 @@
           "done": true
         },
         {
+          "date": "2026-08-12",
+          "title": "design-hypertrophy-mesocycle",
+          "body": "Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-position variants (Israetel selection rules), anchors kept with sta",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "design-hypertrophy-mesocycle",
+          "body": "Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 sessions (delts 3x/wk, back thickness, pullover, arms, traps, ",
+          "done": true
+        },
+        {
           "date": "2026-08-11",
           "title": "zero-data-discovery",
           "body": "Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explicitly excluding current locked offers as evidence",
@@ -307,24 +325,6 @@
           "title": "briefing-room",
           "body": "Selective main integration completed: preserved unrelated main-tree work, integrated only the verified Briefing Room portability repair and Jordan/GTM brief pac",
           "done": true
-        },
-        {
-          "date": "2026-08-08",
-          "title": "Research",
-          "body": "Graph engineering re-research (3-agent parallel sweep) + lane reconciler daemon build",
-          "done": true
-        },
-        {
-          "date": "2026-08-07",
-          "title": "teardown-1-fresh",
-          "body": "Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each;",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "one-liner",
-          "body": "Oracle dashboard (static $0, ag-tokens, tested end-to-end incl headless render + JS check) + /oracle-board + god-agent uncage package: Miller-contract positioni",
-          "done": true
         }
       ]
     },
@@ -332,7 +332,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Everything here is assembled from what the harness recorded. Sends, posts, calls and client reactions happen off-system, so an empty outcome column means \"not logged\", not \"not done\". Several threads also carry titles captured from unrelated finalize notes, and most quality scores are self-assigned rather than judged against real published work.\n\n212 more threads cleared the bar but sit below the 12-card ceiling and were not carded: linkedin profile content, benoit vatere, kallaway hook mastery, teardown 1 fresh, farrice brand, health performance ip library, voice identity stack, mission, writers room, listing content, profile copy fresh 0730 packet, linkedin launch.\n\n235 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "This board sees what was written, finalized and committed. It cannot see what was sent, published, replied to or paid — so a thread reading ready may be ready on the strength of a document alone. Deliverable scores here are self-assessed at finalize time, not outcomes.\n\n211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: teardown 1 fresh, mission, writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, deep research, daily zeitgeist brief, fantastic posters.\n\n230 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

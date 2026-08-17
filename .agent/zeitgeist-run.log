@@ -116,3 +116,6 @@ claimed: d111eb02b990  (heartbeat every wave: session_lock.py heartbeat d111eb02
 API Error: Unable to connect to API (ENOTFOUND)
 released
 === 2026-08-12 07:54:42 zeitgeist run end rc=1 ===
+=== 2026-08-16 09:21:19 zeitgeist run start ===
+BLOCKED: fresh lock held by another session — mission 'angle-map-listening daily run' (heartbeat 1288s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping today's run (one writer per tree)

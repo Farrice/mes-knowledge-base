@@ -32,3 +32,4 @@
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 30454s ago)
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 34054s ago)
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 37654s ago)
+[pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)

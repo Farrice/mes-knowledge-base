@@ -9,6 +9,10 @@
 ## By use case
 
 | I want to… | Go to |
+| **Run or repair the COS Standing Board** | |
+| Resume the mid-build expert-council briefing repair | [COS Standing Board](2026-08-16-cos-standing-board.md) — `/resume cos-standing-board` |
+| Verify an Operator Primer against the known failure set | [COS Standing Board](2026-08-16-cos-standing-board.md) — `verify_cos_primer_gate.py` then `cos_primer_gate.py check` |
+| Understand what is preserved versus still unconfirmed | [COS Standing Board](2026-08-16-cos-standing-board.md) — see Honest edges + Resume sequence |
 | **Build ads rooted in consumer psychology (Ad Psychology Engine)** | |
 | Pick the psychological tactic before any format talk | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-tactic-select` (front door `/oren-dara`) |
 | Mine a live ad's comments into next round's messaging | [Ad Psychology Engine](2026-08-08-oren-dara-ad-psychology.md) — `/adpsy-comment-mine` (virtue map + verbatim bank) |
@@ -354,6 +358,10 @@
 
 
 ## Pending enrichment
+- [2026-08-17 — Proposed Diffs](2026-08-17-.md) — operator-guide stub, needs enrichment
+- [2026-08-16 — Revenue: Claim Check Funnel - Ready to Launch](2026-08-16-geo-content.md) — operator-guide stub, needs enrichment
+- [2026-08-16 — Knowledge — Latest Exec Cut](2026-08-16-.md) — operator-guide stub, needs enrichment
+- [2026-08-15 — Knowledge — Angle Map Listening Brief](2026-08-15-.md) — operator-guide stub, needs enrichment
 - [2026-08-11 — Knowledge — Latest Exec Cut](2026-08-11-.md) — operator-guide stub, needs enrichment
 - [2026-08-10 — Execution — Apify Client](2026-08-10-.md) — operator-guide stub, needs enrichment
 - [2026-08-09 — Knowledge — Latest Exec Cut](2026-08-09-.md) — operator-guide stub, needs enrichment

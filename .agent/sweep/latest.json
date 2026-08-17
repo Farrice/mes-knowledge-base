@@ -1,22 +1,378 @@
 {
-  "generated": "2026-08-12T02:45:06",
+  "generated": "2026-08-17T05:45:05",
   "window": {
-    "since": "2026-07-29T02:45:05",
-    "until": "2026-08-12T02:45:06",
+    "since": "2026-08-03T05:45:05",
+    "until": "2026-08-17T05:45:05",
     "days": 14
   },
   "degraded": [],
   "counts": {
-    "sessions": 226,
-    "threads_seen": 459,
+    "sessions": 234,
+    "threads_seen": 453,
     "threads_promoted": 12,
-    "deliverables": 53,
-    "artifacts": 165,
-    "assets": 258,
-    "artifacts_vanished": 69,
-    "overflow": 212
+    "deliverables": 48,
+    "artifacts": 31,
+    "assets": 251,
+    "artifacts_vanished": 2,
+    "overflow": 211
   },
   "threads": {
+    "linkedin": {
+      "slug": "linkedin",
+      "title": "Linkedin \u2014 Execution Checklist",
+      "arena": "linkedin",
+      "status": "active",
+      "resume_hint": "Linkedin \u2014 Execution Checklist",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-08-08-linkedin.md",
+      "pin": true,
+      "sessions": [
+        {
+          "harness": "codex",
+          "id": "019ff557-3241-7722-9aa8-e00d37bd079c",
+          "title": "Extraction: LinkedIn Missing Link - Harvest System",
+          "titled": true,
+          "ts": "2026-08-12T09:41:12",
+          "messages": 0,
+          "branch": "",
+          "project": "codex",
+          "sidechain": false
+        },
+        {
+          "harness": "codex",
+          "id": "019ff930-3f9f-7230-9ccf-ae9225e8b4ae",
+          "title": "Find LinkedIn offer sessions",
+          "titled": true,
+          "ts": "2026-08-13T03:35:24",
+          "messages": 0,
+          "branch": "",
+          "project": "codex",
+          "sidechain": false
+        },
+        {
+          "harness": "codex",
+          "id": "019ff930-3f9f-7230-9ccf-ae9225e8b4ae",
+          "title": "Revenue: LinkedIn B2B Offer Recovery - Consolidated Continu\u2026",
+          "titled": true,
+          "ts": "2026-08-13T03:36:23",
+          "messages": 0,
+          "branch": "",
+          "project": "codex",
+          "sidechain": false
+        }
+      ],
+      "deliverables": [],
+      "artifacts": [
+        {
+          "path": "_active/linkedin/CAMPAIGN.md",
+          "ts": "2026-08-12T05:11:03"
+        },
+        {
+          "path": "_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
+          "ts": "2026-08-10T15:43:43"
+        },
+        {
+          "path": "_active/linkedin/05-lead-gen/2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md",
+          "ts": "2026-08-10T15:44:04"
+        },
+        {
+          "path": "_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
+          "ts": "2026-08-10T15:44:40"
+        }
+      ],
+      "assets": [
+        {
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
+          "type": "doc",
+          "zone": "research-briefs",
+          "project": "zeitgeist-ai-consulting-linkedin-2026-08-05",
+          "ts": "2026-08-06T18:01:19",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
+          "type": "image",
+          "zone": "active-projects",
+          "project": "linkedin",
+          "ts": "2026-08-07T17:05:24",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
+          "type": "audio",
+          "zone": "active-projects",
+          "project": "linkedin",
+          "ts": "2026-08-07T17:05:24",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
+          "type": "image",
+          "zone": "active-projects",
+          "project": "linkedin",
+          "ts": "2026-08-07T17:05:24",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
+          "type": "doc",
+          "zone": "research-briefs",
+          "project": "zeitgeist-ai-consulting-linkedin-2026-08-07",
+          "ts": "2026-08-07T13:27:27",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
+          "type": "doc",
+          "zone": "research-briefs",
+          "project": "zeitgeist-ai-consulting-linkedin-2026-08-08",
+          "ts": "2026-08-08T13:27:34",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-09/zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html",
+          "type": "doc",
+          "zone": "research-briefs",
+          "project": "zeitgeist-ai-consulting-linkedin-2026-08-09",
+          "ts": "2026-08-09T13:41:12",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html",
+          "type": "doc",
+          "zone": "research-briefs",
+          "project": "zeitgeist-ai-consulting-linkedin-2026-08-10",
+          "ts": "2026-08-10T13:27:30",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        },
+        {
+          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-11/zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html",
+          "type": "doc",
+          "zone": "research-briefs",
+          "project": "zeitgeist-ai-consulting-linkedin-2026-08-11",
+          "ts": "2026-08-11T13:27:50",
+          "prompt": "",
+          "model": "",
+          "cost_usd": 0
+        }
+      ],
+      "commits": [
+        {
+          "sha": "eae54a99b",
+          "ts": "2026-08-17T05:43:58",
+          "subject": "chore(session): end-session commit gate \u2014 2026-08-17"
+        }
+      ],
+      "missions": [
+        {
+          "key": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
+          "slug": "rewrite-ring-light-linkedin-post-as-i-narrative-arc-farrice-as-guide-reader-as-hero",
+          "title": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T1",
+          "ts": "2026-07-16T19:05:00",
+          "open": false
+        },
+        {
+          "key": "Is the AI rush over? Research the real market demand across AI consulting, AI creative strategy, AI enablement and education, LinkedIn ghostwriting and copywrit",
+          "slug": "is-the-ai-rush-over-research-the-real-market-demand-across-ai-consulting-ai-creative-strategy-ai-enablement-and-education-linkedin-ghostwriting-and-copywrit",
+          "title": "Is the AI rush over? Research the real market demand across AI consulting, AI creative str",
+          "status": "done",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false
+        },
+        {
+          "key": "Lock sprint offer (niche+POV via Cole x Lakajev), close Cooz war-funnel send, LinkedIn profile rewrite",
+          "slug": "lock-sprint-offer-niche-pov-via-cole-x-lakajev-close-cooz-war-funnel-send-linkedin-profile-rewrite",
+          "title": "Lock sprint offer (niche+POV via Cole x Lakajev), close Cooz war-funnel send, LinkedIn pro",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false
+        },
+        {
+          "key": "Pressure-test Practitioner Edition: LinkedIn channel truth + cold easy-yes gauntlet + lane/premium panel",
+          "slug": "pressure-test-practitioner-edition-linkedin-channel-truth-cold-easy-yes-gauntlet-lane-premium-panel",
+          "title": "Pressure-test Practitioner Edition: LinkedIn channel truth + cold easy-yes gauntlet + lane/premium panel",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T1",
+          "ts": "2026-07-21T23:59:00",
+          "open": false
+        },
+        {
+          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receipts not promises, aimed at supplement and performance brand founders, r",
+          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer-posts-that-feel-like-receipts-not-promises-aimed-at-supplement-and-performance-brand-founders-r",
+          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false
+        },
+        {
+          "key": "linkedin-week1-proof-to-market",
+          "slug": "linkedin-week1-proof-to-market",
+          "title": "Week 1 LinkedIn launch content - Proof-to-Market receipts",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T1-drafts",
+          "ts": "2026-07-21T20:28:05",
+          "open": false
+        },
+        {
+          "key": "Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, using the finalized profile package as the register reference. Send be",
+          "slug": "write-and-send-teardown-1-for-a-named-supplement-brand-plus-the-first-3-linkedin-posts-using-the-finalized-profile-package-as-the-register-reference-send-be",
+          "title": "Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, ",
+          "status": "done",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false
+        },
+        {
+          "key": "linkedin-cash-launch-0728",
+          "slug": "linkedin-cash-launch-0728",
+          "title": "LinkedIn cash launch: wargame canonical offer vs $500-2K/7-14d, lock profile, day-by-day motion plan from existing assets",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T2",
+          "ts": "2026-07-28T12:15:00",
+          "open": false
+        },
+        {
+          "key": "LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), wargame the teardown-to-sprint offer vs $500-2K/7-14d cash goal, 14-day la",
+          "slug": "linkedin-cash-launch-fresh-deep-research-demand-pricing-icp-zero-start-momentum-wargame-the-teardown-to-sprint-offer-vs-500-2k-7-14d-cash-goal-14-day-la",
+          "title": "LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), warg",
+          "status": "done",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:45:11",
+          "open": false
+        },
+        {
+          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer",
+          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer",
+          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "",
+          "ts": "2026-07-29T21:44:34",
+          "open": false
+        },
+        {
+          "key": "LinkedIn cash launch: fresh deep research (demand/pricing, I",
+          "slug": "linkedin-cash-launch-fresh-deep-research-demand-pricing-i",
+          "title": "LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), warg",
+          "status": "done",
+          "serves": "orphan",
+          "tier": "",
+          "ts": "2026-07-29T21:44:34",
+          "open": false
+        }
+      ],
+      "guides": [
+        {
+          "path": "guides/2026-07-13-stanton-linkedin-launch.md",
+          "name": "2026-07-13-stanton-linkedin-launch.md",
+          "ts": "2026-08-07T13:05:25"
+        }
+      ],
+      "solutions": [],
+      "outcomes": [],
+      "harnesses": [
+        "codex"
+      ],
+      "promoted": true,
+      "declares": [
+        "handoff status: active"
+      ],
+      "activity": [
+        "artifact written",
+        "asset generated"
+      ],
+      "touched": "2026-08-08T09:33:48",
+      "promotion_reasons": [
+        "handoff status: active",
+        "artifact written",
+        "asset generated"
+      ],
+      "stage": "build",
+      "stage_index": 1,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-06T18:01:19",
+      "last_active": "2026-08-17T05:43:58"
+    },
     "extract-forge": {
       "slug": "extract-forge",
       "title": "David Perell Idea-to-Culture \u2014 Forge Build (13 Workflows)",
@@ -29,42 +385,6 @@
       "pin": true,
       "sessions": [],
       "deliverables": [
-        {
-          "date": "2026-07-30",
-          "output": "Vision Checkpoint: Nathan Follen Agentic RevOps",
-          "skill": "extract-mastery",
-          "workflow": "extract-forge",
-          "project": "",
-          "type": "Extraction",
-          "score": 9.0,
-          "status": "Keep",
-          "expert": "extract-mastery",
-          "platform": "codex"
-        },
-        {
-          "date": "2026-07-30",
-          "output": "Updated Rory Sutherland Universal Behavioral Alchemy expansion vision with a source-honest Kindle boundary and a non-blocking video-first forge path",
-          "skill": "source-command-extract-forge",
-          "workflow": "extract-forge",
-          "project": "",
-          "type": "Extraction",
-          "score": 7.0,
-          "status": "Needs Improvement",
-          "expert": "rory-sutherland",
-          "platform": "codex"
-        },
-        {
-          "date": "2026-08-01",
-          "output": "Alex Cooper Static Ads \u2014 evidence, amplification, and skill-system checkpoint",
-          "skill": "extract-mastery",
-          "workflow": "extract-forge",
-          "project": "",
-          "type": "Analysis",
-          "score": 7.0,
-          "status": "Needs Improvement",
-          "expert": "extract-mastery",
-          "platform": "codex"
-        },
         {
           "date": "2026-08-04",
           "output": "Oren John \u2014 Slop-Era Creative Strategy mastery extraction (forge expansion, 2 fresh 2026 sources watched with frames)",
@@ -179,7 +499,7 @@
         {
           "path": "guides/2026-08-04-extract-forge.md",
           "name": "2026-08-04-extract-forge.md",
-          "ts": "2026-08-06T18:55:06"
+          "ts": "2026-08-06T21:55:06"
         }
       ],
       "solutions": [],
@@ -515,7 +835,6 @@
         }
       ],
       "harnesses": [
-        "codex",
         "claude"
       ],
       "promoted": true,
@@ -524,7 +843,7 @@
         "handoff status: ready"
       ],
       "activity": [],
-      "touched": "2026-08-06T18:55:06",
+      "touched": "2026-08-06T21:55:06",
       "promotion_reasons": [
         "finalized deliverable",
         "handoff status: ready"
@@ -581,363 +900,8 @@
           0
         ]
       },
-      "first_seen": "2026-07-30",
+      "first_seen": "2026-08-04",
       "last_active": "2026-08-06"
-    },
-    "linkedin": {
-      "slug": "linkedin",
-      "title": "Linkedin \u2014 Execution Checklist",
-      "arena": "linkedin",
-      "status": "active",
-      "resume_hint": "Linkedin \u2014 Execution Checklist",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-08-linkedin.md",
-      "pin": true,
-      "sessions": [
-        {
-          "harness": "codex",
-          "id": "019fb649-135c-73b0-bdea-b70bf32ae299",
-          "title": "Revenue: The Angle Map - Offer, LinkedIn & Inbound Flywheel",
-          "titled": true,
-          "ts": "2026-07-31T17:48:24",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        },
-        {
-          "harness": "codex",
-          "id": "019ff557-3241-7722-9aa8-e00d37bd079c",
-          "title": "Extraction: LinkedIn Missing Link - Harvest System",
-          "titled": true,
-          "ts": "2026-08-12T09:41:12",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        }
-      ],
-      "deliverables": [],
-      "artifacts": [
-        {
-          "path": "_active/linkedin/CAMPAIGN.md",
-          "ts": "2026-08-12T02:11:03"
-        },
-        {
-          "path": "_active/linkedin/05-lead-gen/2026-08-08-EXECUTION-CHECKLIST.md",
-          "ts": "2026-08-08T06:32:58"
-        },
-        {
-          "path": "_active/linkedin/05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md",
-          "ts": "2026-08-07T21:10:15"
-        },
-        {
-          "path": "_active/linkedin/05-lead-gen/2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
-          "ts": "2026-08-08T06:28:46"
-        },
-        {
-          "path": "_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
-          "ts": "2026-08-10T12:43:43"
-        },
-        {
-          "path": "_active/linkedin/05-lead-gen/2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md",
-          "ts": "2026-08-10T12:44:04"
-        },
-        {
-          "path": "_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
-          "ts": "2026-08-10T12:44:40"
-        },
-        {
-          "path": "_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md",
-          "ts": "2026-08-11T05:47:49"
-        }
-      ],
-      "assets": [
-        {
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
-          "type": "doc",
-          "zone": "research-briefs",
-          "project": "zeitgeist-ai-consulting-linkedin-2026-08-05",
-          "ts": "2026-08-06T18:01:19",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "linkedin",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
-          "type": "audio",
-          "zone": "active-projects",
-          "project": "linkedin",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "linkedin",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
-          "type": "doc",
-          "zone": "research-briefs",
-          "project": "zeitgeist-ai-consulting-linkedin-2026-08-07",
-          "ts": "2026-08-07T13:27:27",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
-          "type": "doc",
-          "zone": "research-briefs",
-          "project": "zeitgeist-ai-consulting-linkedin-2026-08-08",
-          "ts": "2026-08-08T13:27:34",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-09/zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html",
-          "type": "doc",
-          "zone": "research-briefs",
-          "project": "zeitgeist-ai-consulting-linkedin-2026-08-09",
-          "ts": "2026-08-09T13:41:12",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html",
-          "type": "doc",
-          "zone": "research-briefs",
-          "project": "zeitgeist-ai-consulting-linkedin-2026-08-10",
-          "ts": "2026-08-10T13:27:30",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-11/zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html",
-          "type": "doc",
-          "zone": "research-briefs",
-          "project": "zeitgeist-ai-consulting-linkedin-2026-08-11",
-          "ts": "2026-08-11T13:27:50",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        }
-      ],
-      "commits": [],
-      "missions": [
-        {
-          "key": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
-          "slug": "rewrite-ring-light-linkedin-post-as-i-narrative-arc-farrice-as-guide-reader-as-hero",
-          "title": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T1",
-          "ts": "2026-07-16T19:05:00",
-          "open": false
-        },
-        {
-          "key": "Is the AI rush over? Research the real market demand across AI consulting, AI creative strategy, AI enablement and education, LinkedIn ghostwriting and copywrit",
-          "slug": "is-the-ai-rush-over-research-the-real-market-demand-across-ai-consulting-ai-creative-strategy-ai-enablement-and-education-linkedin-ghostwriting-and-copywrit",
-          "title": "Is the AI rush over? Research the real market demand across AI consulting, AI creative str",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false
-        },
-        {
-          "key": "Lock sprint offer (niche+POV via Cole x Lakajev), close Cooz war-funnel send, LinkedIn profile rewrite",
-          "slug": "lock-sprint-offer-niche-pov-via-cole-x-lakajev-close-cooz-war-funnel-send-linkedin-profile-rewrite",
-          "title": "Lock sprint offer (niche+POV via Cole x Lakajev), close Cooz war-funnel send, LinkedIn pro",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false
-        },
-        {
-          "key": "Pressure-test Practitioner Edition: LinkedIn channel truth + cold easy-yes gauntlet + lane/premium panel",
-          "slug": "pressure-test-practitioner-edition-linkedin-channel-truth-cold-easy-yes-gauntlet-lane-premium-panel",
-          "title": "Pressure-test Practitioner Edition: LinkedIn channel truth + cold easy-yes gauntlet + lane/premium panel",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T1",
-          "ts": "2026-07-21T23:59:00",
-          "open": false
-        },
-        {
-          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receipts not promises, aimed at supplement and performance brand founders, r",
-          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer-posts-that-feel-like-receipts-not-promises-aimed-at-supplement-and-performance-brand-founders-r",
-          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false
-        },
-        {
-          "key": "linkedin-week1-proof-to-market",
-          "slug": "linkedin-week1-proof-to-market",
-          "title": "Week 1 LinkedIn launch content - Proof-to-Market receipts",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T1-drafts",
-          "ts": "2026-07-21T20:28:05",
-          "open": false
-        },
-        {
-          "key": "Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, using the finalized profile package as the register reference. Send be",
-          "slug": "write-and-send-teardown-1-for-a-named-supplement-brand-plus-the-first-3-linkedin-posts-using-the-finalized-profile-package-as-the-register-reference-send-be",
-          "title": "Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, ",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false
-        },
-        {
-          "key": "linkedin-cash-launch-0728",
-          "slug": "linkedin-cash-launch-0728",
-          "title": "LinkedIn cash launch: wargame canonical offer vs $500-2K/7-14d, lock profile, day-by-day motion plan from existing assets",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T2",
-          "ts": "2026-07-28T12:15:00",
-          "open": false
-        },
-        {
-          "key": "LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), wargame the teardown-to-sprint offer vs $500-2K/7-14d cash goal, 14-day la",
-          "slug": "linkedin-cash-launch-fresh-deep-research-demand-pricing-icp-zero-start-momentum-wargame-the-teardown-to-sprint-offer-vs-500-2k-7-14d-cash-goal-14-day-la",
-          "title": "LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), warg",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:45:11",
-          "open": false
-        },
-        {
-          "key": "Week 1 LinkedIn launch content for the Proof-to-Market offer",
-          "slug": "week-1-linkedin-launch-content-for-the-proof-to-market-offer",
-          "title": "Week 1 LinkedIn launch content for the Proof-to-Market offer \u2014 posts that feel like receip",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "",
-          "ts": "2026-07-29T21:44:34",
-          "open": false
-        },
-        {
-          "key": "LinkedIn cash launch: fresh deep research (demand/pricing, I",
-          "slug": "linkedin-cash-launch-fresh-deep-research-demand-pricing-i",
-          "title": "LinkedIn cash launch: fresh deep research (demand/pricing, ICP, zero-start momentum), warg",
-          "status": "done",
-          "serves": "orphan",
-          "tier": "",
-          "ts": "2026-07-29T21:44:34",
-          "open": false
-        }
-      ],
-      "guides": [
-        {
-          "path": "guides/2026-07-13-stanton-linkedin-launch.md",
-          "name": "2026-07-13-stanton-linkedin-launch.md",
-          "ts": "2026-08-07T10:05:25"
-        }
-      ],
-      "solutions": [],
-      "outcomes": [],
-      "harnesses": [
-        "codex"
-      ],
-      "promoted": true,
-      "declares": [
-        "handoff status: active"
-      ],
-      "activity": [
-        "artifact written",
-        "asset generated"
-      ],
-      "touched": "2026-08-08T06:33:48",
-      "promotion_reasons": [
-        "handoff status: active",
-        "artifact written",
-        "asset generated"
-      ],
-      "stage": "build",
-      "stage_index": 1,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          2,
-          0,
-          3,
-          1
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          4,
-          1,
-          1,
-          1,
-          1
-        ]
-      },
-      "first_seen": "2026-07-31T17:48:24",
-      "last_active": "2026-08-12T09:41:12"
     },
     "proof-to-market": {
       "slug": "proof-to-market",
@@ -1039,7 +1003,7 @@
         "handoff status: ready"
       ],
       "activity": [],
-      "touched": "2026-08-07T10:05:19",
+      "touched": "2026-08-07T13:05:19",
       "promotion_reasons": [
         "handoff status: ready"
       ],
@@ -1056,7 +1020,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -1097,155 +1061,6 @@
       },
       "first_seen": "2026-08-12T01:09:51",
       "last_active": "2026-08-12T01:09:51"
-    },
-    "angle-map-listening-engine-v4-1": {
-      "slug": "angle-map-listening-engine-v4-1",
-      "title": "2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean",
-      "arena": "",
-      "status": "active",
-      "resume_hint": "2026-08-03 Angle Map Listening Brief: trend-cohort economics / the wave lends you customers; local brief verified, same-day JSONL rows preserved, Drive disabled for Codex pass, vault assets clean",
-      "unfinished": "",
-      "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-03-angle-map-listening-engine.md",
-      "pin": true,
-      "sessions": [
-        {
-          "harness": "codex",
-          "id": "019ff1b7-2aaa-7322-bb41-2b64e0de2117",
-          "title": "Content: Angle Map Listening Engine - V4.1 Content Factory",
-          "titled": true,
-          "ts": "2026-08-12T01:10:00",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        }
-      ],
-      "deliverables": [
-        {
-          "date": "2026-08-01",
-          "output": "2026-08-01 Angle Map Listening Brief (Saturday winners teardown): creatine-handoff angle with VERIFIED winner view counts, CONCRET-MENOPA evidence-fit gap, 3 verbatim PNK receipts, flagship post + 2 finished scripts vaulted READY, living-doc deltas, Drive mirror",
-          "skill": "listening-engine-v4.1",
-          "workflow": "angle-map-listening",
-          "project": "",
-          "type": "Research",
-          "score": 6.67,
-          "status": "Needs Improvement",
-          "expert": "oren-operational-systems",
-          "platform": "claude"
-        },
-        {
-          "date": "2026-08-03",
-          "output": "Angle Map Listening Engine daily run 2026-08-03 (Mon audience-state): trend-cohort economics brief \u2014 flagship post + finished 10-slide carousel filed READY, 2 promises receipts, 3 insight rows, docs 03/07 fed, Drive mirror verified",
-          "skill": "health-performance-listening",
-          "workflow": "angle-map-listening-engine-v4.1",
-          "project": "",
-          "type": "Content",
-          "score": 6.67,
-          "status": "Needs Improvement",
-          "expert": "oren-operational-systems",
-          "platform": "claude"
-        },
-        {
-          "date": "2026-08-05",
-          "output": "2026-08-05 Angle Map listening brief (Wed promises deep dive): P&G-Thorne trust-ownership angle, flagship post + Buyer's Ledger teardown #1 vault-filed, 3 insight + 2 promises rows, living docs 07/03 fed, Drive mirror verified",
-          "skill": "deep-research-os",
-          "workflow": "angle-map-listening-engine-v4.1",
-          "project": "",
-          "type": "Research",
-          "score": 6.33,
-          "status": "Needs Improvement",
-          "expert": "oren-operational-systems",
-          "platform": "claude"
-        }
-      ],
-      "artifacts": [],
-      "assets": [],
-      "commits": [],
-      "missions": [
-        {
-          "key": "angle-map-listening-engine",
-          "slug": "angle-map-listening-engine",
-          "title": "Angle Map Listening Engine v4 fusion build",
-          "status": "done",
-          "serves": "revenue-5k-incumbency",
-          "tier": "T2",
-          "ts": "2026-07-31T13:30:50",
-          "open": false
-        }
-      ],
-      "guides": [],
-      "solutions": [],
-      "outcomes": [],
-      "harnesses": [
-        "claude",
-        "codex"
-      ],
-      "promoted": true,
-      "declares": [
-        "finalized deliverable",
-        "handoff status: active"
-      ],
-      "activity": [],
-      "touched": "2026-08-03T06:34:19",
-      "promotion_reasons": [
-        "finalized deliverable",
-        "handoff status: active"
-      ],
-      "stage": "shipped",
-      "stage_index": 2,
-      "daily": {
-        "sessions": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "artifacts": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "assets": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      },
-      "first_seen": "2026-08-01",
-      "last_active": "2026-08-12T01:10:00"
     },
     "trailer-treatment": {
       "slug": "trailer-treatment",
@@ -1320,7 +1135,7 @@
         "handoff status: active"
       ],
       "activity": [],
-      "touched": "2026-08-11T16:05:36",
+      "touched": "2026-08-11T19:05:36",
       "promotion_reasons": [
         "finalized deliverable",
         "handoff status: active"
@@ -1445,7 +1260,7 @@
         "handoff status: ready"
       ],
       "activity": [],
-      "touched": "2026-08-07T10:05:19",
+      "touched": "2026-08-07T13:05:19",
       "promotion_reasons": [
         "finalized deliverable",
         "handoff status: ready"
@@ -1505,538 +1320,71 @@
       "first_seen": "2026-08-05",
       "last_active": "2026-08-05"
     },
-    "video-studio-edit-bay": {
-      "slug": "video-studio-edit-bay",
-      "title": "Edit Bay Video Studio \u2014 Build + Taste Layer (Bonanno pipeline, Higgsfield retired)",
-      "arena": "skills",
-      "status": "ready",
-      "resume_hint": "Run Pilot P1: Parallax essay \u2192 VOX explainer; start with script-annotation, then tell Farrice exactly what VO to record",
-      "unfinished": "P1-P3 pilots unrun; HyperFrames cloned but unwired; stock APIs untested (keys pending); 9:16 reframe naive",
+    "angle-map-listening-engine-v4-1": {
+      "slug": "angle-map-listening-engine-v4-1",
+      "title": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
+      "arena": "",
+      "status": "active",
+      "resume_hint": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
+      "unfinished": "",
       "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-06-video-studio-edit-bay.md",
+      "handoff": ".agent/handoffs/2026-08-12-angle-map-listening-engine.md",
       "pin": true,
       "sessions": [
         {
-          "harness": "claude",
-          "id": "f8e0e074-2426-4eeb-b569-cfb667b1ceb5",
-          "title": "Edit Bay Video Studio \u2014 Build + Taste Layer (Bonanno pipeline, Higgsfield retired)",
-          "titled": true,
-          "ts": "2026-08-06T23:32:41",
-          "messages": 17,
-          "branch": "main",
-          "project": "-Users-farricecain-Google-Antigravity",
-          "sidechain": false
-        },
-        {
           "harness": "codex",
-          "id": "019ff1b7-29de-7093-9907-020c7c663afb",
-          "title": "Creative: Edit Bay Video Studio - Taste Layer Build",
+          "id": "019ff1b7-2aaa-7322-bb41-2b64e0de2117",
+          "title": "Content: Angle Map Listening Engine - V4.1 Content Factory",
           "titled": true,
-          "ts": "2026-08-12T01:10:22",
+          "ts": "2026-08-12T01:10:00",
           "messages": 0,
           "branch": "",
           "project": "codex",
           "sidechain": false
         }
       ],
-      "deliverables": [],
-      "artifacts": [
+      "deliverables": [
         {
-          "path": "skills/video-studio/workflows/derive-shorts.md",
-          "ts": "2026-08-06T13:44:31"
+          "date": "2026-08-05",
+          "output": "2026-08-05 Angle Map listening brief (Wed promises deep dive): P&G-Thorne trust-ownership angle, flagship post + Buyer's Ledger teardown #1 vault-filed, 3 insight + 2 promises rows, living docs 07/03 fed, Drive mirror verified",
+          "skill": "deep-research-os",
+          "workflow": "angle-map-listening-engine-v4.1",
+          "project": "",
+          "type": "Research",
+          "score": 6.33,
+          "status": "Needs Improvement",
+          "expert": "oren-operational-systems",
+          "platform": "claude"
         },
         {
-          "path": "skills/video-studio/workflows/package-release.md",
-          "ts": "2026-08-06T13:44:39"
-        },
-        {
-          "path": "skills/video-studio/style/graphics-taste.md",
-          "ts": "2026-08-06T14:16:56"
-        },
-        {
-          "path": "skills/video-studio/workflows/produce-explainer.md",
-          "ts": "2026-08-06T14:17:06"
-        },
-        {
-          "path": "skills/video-studio/REVIEW.md",
-          "ts": "2026-08-06T14:17:09"
-        },
-        {
-          "path": "skills/video-studio/SKILL.md",
-          "ts": "2026-08-06T14:17:12"
+          "date": "2026-08-12",
+          "output": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
+          "skill": "story-compass",
+          "workflow": "angle-map-listening-engine",
+          "project": "",
+          "type": "Content",
+          "score": 5.33,
+          "status": "Needs Improvement",
+          "expert": "Oren Operational Systems",
+          "platform": "codex"
         }
       ],
-      "assets": [
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_038.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_010.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_004.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_005.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_011.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_039.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_007.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_013.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_012.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_006.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_002.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_016.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_017.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_003.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_015.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_001.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_029.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_028.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_014.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_040.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_019.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_031.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_025.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_024.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_030.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_018.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_026.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_032.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_033.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_027.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_023.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_037.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_036.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_022.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_034.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_020.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_008.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_009.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_021.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned-frames/insp_035.jpg",
-          "type": "image",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-07T17:05:24",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01-captioned.mp4",
-          "type": "video",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-06T20:41:07",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v02.mp4",
-          "type": "video",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-06T20:42:15",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/renders/v01.mp4",
-          "type": "video",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-06T20:37:38",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-vert-916.mp4",
-          "type": "video",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-06T20:41:21",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/exports/v01-captioned-linkedin.mp4",
-          "type": "video",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-06T20:41:45",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        },
-        {
-          "path": "_active/video-studio/video-studio-shakedown/05-assets/video/footage/test-clip.mp4",
-          "type": "video",
-          "zone": "active-projects",
-          "project": "video-studio",
-          "ts": "2026-08-06T20:34:38",
-          "prompt": "",
-          "model": "",
-          "cost_usd": 0
-        }
-      ],
+      "artifacts": [],
+      "assets": [],
       "commits": [],
-      "missions": [],
-      "guides": [
+      "missions": [
         {
-          "path": "guides/2026-08-06-video-studio-edit-bay.md",
-          "name": "2026-08-06-video-studio-edit-bay.md",
-          "ts": "2026-08-07T10:16:09"
+          "key": "angle-map-listening-engine",
+          "slug": "angle-map-listening-engine",
+          "title": "Angle Map Listening Engine v4 fusion build",
+          "status": "done",
+          "serves": "revenue-5k-incumbency",
+          "tier": "T2",
+          "ts": "2026-07-31T13:30:50",
+          "open": false
         }
       ],
+      "guides": [],
       "solutions": [],
       "outcomes": [],
       "harnesses": [
@@ -2045,20 +1393,17 @@
       ],
       "promoted": true,
       "declares": [
-        "handoff status: ready"
+        "finalized deliverable",
+        "handoff status: active"
       ],
-      "activity": [
-        "artifact written",
-        "asset generated"
-      ],
-      "touched": "2026-08-07T10:16:09",
+      "activity": [],
+      "touched": "2026-08-12T23:27:37",
       "promotion_reasons": [
-        "handoff status: ready",
-        "artifact written",
-        "asset generated"
+        "finalized deliverable",
+        "handoff status: active"
       ],
-      "stage": "build",
-      "stage_index": 1,
+      "stage": "shipped",
+      "stage_index": 2,
       "daily": {
         "sessions": [
           0,
@@ -2069,8 +1414,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -2085,7 +1430,7 @@
           0,
           0,
           0,
-          6,
+          0,
           0,
           0,
           0,
@@ -2101,16 +1446,16 @@
           0,
           0,
           0,
-          6,
-          40,
+          0,
+          0,
           0,
           0,
           0,
           0
         ]
       },
-      "first_seen": "2026-08-06T20:34:38",
-      "last_active": "2026-08-12T01:10:22"
+      "first_seen": "2026-08-05",
+      "last_active": "2026-08-12T01:10:00"
     },
     "execution": {
       "slug": "execution",
@@ -2178,7 +1523,7 @@
         "handoff status: active"
       ],
       "activity": [],
-      "touched": "2026-08-10T06:11:37",
+      "touched": "2026-08-10T09:11:37",
       "promotion_reasons": [
         "handoff status: active"
       ],
@@ -2237,6 +1582,146 @@
       "first_seen": "",
       "last_active": ""
     },
+    "system-audit": {
+      "slug": "system-audit",
+      "title": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
+      "arena": "",
+      "status": "active",
+      "resume_hint": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
+      "unfinished": "",
+      "branch": "main",
+      "handoff": ".agent/handoffs/2026-07-02-system-audit.md",
+      "pin": true,
+      "sessions": [],
+      "deliverables": [
+        {
+          "date": "2026-08-04",
+          "output": "Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair",
+          "skill": "system-audit",
+          "workflow": "system-audit",
+          "project": "",
+          "type": "System",
+          "score": 6.67,
+          "status": "Needs Improvement",
+          "expert": "system-audit",
+          "platform": "codex"
+        },
+        {
+          "date": "2026-08-04",
+          "output": "Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptive depth and capture this mission's AAR",
+          "skill": "system-audit",
+          "workflow": "system-audit",
+          "project": "",
+          "type": "System",
+          "score": 6.0,
+          "status": "Needs Improvement",
+          "expert": "system-audit",
+          "platform": "codex"
+        }
+      ],
+      "artifacts": [],
+      "assets": [],
+      "commits": [
+        {
+          "sha": "eae54a99b",
+          "ts": "2026-08-17T05:43:58",
+          "subject": "chore(session): end-session commit gate \u2014 2026-08-17"
+        }
+      ],
+      "missions": [],
+      "guides": [],
+      "solutions": [
+        {
+          "path": "docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md",
+          "name": "2026-07-08-control-intent-classifier-overfires-system-audit.md",
+          "ts": "2026-08-09T08:37:47"
+        }
+      ],
+      "outcomes": [
+        {
+          "deliverable": "E3 Blind Bake-Off REVEAL \u2014 Farrice detected real experts 5/15 (33%, below chance), preferred skill-generated 8-6-1 over real published work; 4/5 skills BLIND-PASS (Luke = training-bleed-controlled pro",
+          "workflow": "system-audit",
+          "skill": "extract-mastery",
+          "revenue": 0,
+          "outcome": "not absorbed: Farrice does not recall reading the audit or the bake-off. Luke training-bleed control never applied anywhere. Confident it will work out, but unread."
+        },
+        {
+          "deliverable": "Second-brain wiring audit \u2014 deterministic health check of the 3-layer memory stack vs Kieran blueprint",
+          "workflow": "system-audit",
+          "skill": "three-layer-memory",
+          "revenue": 0,
+          "outcome": "closed 2026-07-29 (apex W2): not revenue-bearing \u2014 system asset; outcome = usage, tracked via arsenal-index"
+        }
+      ],
+      "harnesses": [
+        "codex"
+      ],
+      "promoted": true,
+      "declares": [
+        "finalized deliverable",
+        "handoff status: active"
+      ],
+      "activity": [],
+      "touched": "2026-07-06T14:27:28",
+      "promotion_reasons": [
+        "finalized deliverable",
+        "handoff status: active"
+      ],
+      "stage": "outcome",
+      "stage_index": 3,
+      "daily": {
+        "sessions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "artifacts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "assets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "first_seen": "2026-08-04",
+      "last_active": "2026-08-17T05:43:58"
+    },
     "first-client-engine": {
       "slug": "first-client-engine",
       "title": "For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI.",
@@ -2280,7 +1765,15 @@
       "missions": [],
       "guides": [],
       "solutions": [],
-      "outcomes": [],
+      "outcomes": [
+        {
+          "deliverable": "Lead-to-Proposal Proof Sprint commercialization package with market evidence, offer tournament, working demo, landing page, LinkedIn launch kit, distribution assets, Briefing Room cards, and guarded s",
+          "workflow": "first-client-engine",
+          "skill": "andrew-dun-vibe-consulting",
+          "revenue": 0,
+          "outcome": "pending tracking"
+        }
+      ],
       "harnesses": [
         "codex"
       ],
@@ -2290,13 +1783,13 @@
         "handoff status: active"
       ],
       "activity": [],
-      "touched": "2026-08-12T02:26:24",
+      "touched": "2026-08-12T05:26:24",
       "promotion_reasons": [
         "finalized deliverable",
         "handoff status: active"
       ],
-      "stage": "shipped",
-      "stage_index": 2,
+      "stage": "outcome",
+      "stage_index": 3,
       "daily": {
         "sessions": [
           0,
@@ -2403,7 +1896,7 @@
         "handoff status: active"
       ],
       "activity": [],
-      "touched": "2026-06-30T21:20:19",
+      "touched": "2026-07-01T00:20:19",
       "promotion_reasons": [
         "finalized deliverable",
         "handoff status: active"
@@ -2463,87 +1956,95 @@
       "first_seen": "2026-08-05",
       "last_active": "2026-08-06"
     },
-    "system-audit": {
-      "slug": "system-audit",
-      "title": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
-      "arena": "",
-      "status": "active",
-      "resume_hint": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired artifact preserves the buyer suspicion angle, starts with Van Nuys/gate curiosity, keeps ADU as one proof point inside the gated remodel solar outdoor-space value stack, replaces price-first Reel 3 with the stronger rethink-the-address hook, and leaves Jen with publishable scripts, captions, Stories, and b-roll order for weekend filming.",
+    "geo-content": {
+      "slug": "geo-content",
+      "title": "Revenue: Claim Check Funnel - Ready to Launch",
+      "arena": "farrice-brand",
+      "status": "ready",
+      "resume_hint": "Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea",
       "unfinished": "",
       "branch": "main",
-      "handoff": ".agent/handoffs/2026-07-02-system-audit.md",
+      "handoff": ".agent/handoffs/2026-08-16-geo-content.md",
       "pin": true,
       "sessions": [],
-      "deliverables": [
+      "deliverables": [],
+      "artifacts": [
         {
-          "date": "2026-08-04",
-          "output": "Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair",
-          "skill": "system-audit",
-          "workflow": "system-audit",
-          "project": "",
-          "type": "System",
-          "score": 6.67,
-          "status": "Needs Improvement",
-          "expert": "system-audit",
-          "platform": "codex"
+          "path": "_active/farrice-brand/content/vault/2026-08-11-cancel-rate-reviews-your-angle-post.md",
+          "ts": "2026-08-11T08:48:59"
         },
         {
-          "date": "2026-08-04",
-          "output": "Make evidence-backed judgment, senior-partner pushback, and decisive synthesis a global Codex-native default so Farrice no longer has to type raw-intent-bridge before meaningful asks; preserve adaptive depth and capture this mission's AAR",
-          "skill": "system-audit",
-          "workflow": "system-audit",
-          "project": "",
-          "type": "System",
-          "score": 6.0,
-          "status": "Needs Improvement",
-          "expert": "system-audit",
-          "platform": "codex"
+          "path": "_active/farrice-brand/content/vault/2026-08-11-thirty-five-customers-one-subscription-script.md",
+          "ts": "2026-08-11T08:48:57"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/INDEX.md",
+          "ts": "2026-08-16T10:04:36"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md",
+          "ts": "2026-08-16T10:06:34"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md",
+          "ts": "2026-08-16T10:07:01"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md",
+          "ts": "2026-08-13T10:15:57"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md",
+          "ts": "2026-08-13T10:15:57"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md",
+          "ts": "2026-08-13T10:15:57"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-10-subtraction-slot-post.md",
+          "ts": "2026-08-10T09:33:55"
+        },
+        {
+          "path": "_active/farrice-brand/content/vault/2026-08-10-subtraction-problem-carousel.md",
+          "ts": "2026-08-10T09:35:54"
         }
       ],
-      "artifacts": [],
       "assets": [],
-      "commits": [],
+      "commits": [
+        {
+          "sha": "eae54a99b",
+          "ts": "2026-08-17T05:43:58",
+          "subject": "chore(session): end-session commit gate \u2014 2026-08-17"
+        }
+      ],
       "missions": [],
-      "guides": [],
-      "solutions": [
+      "guides": [
         {
-          "path": "docs/solutions/2026-07-08-control-intent-classifier-overfires-system-audit.md",
-          "name": "2026-07-08-control-intent-classifier-overfires-system-audit.md",
-          "ts": "2026-08-09T05:37:47"
+          "path": "guides/2026-08-16-geo-content.md",
+          "name": "2026-08-16-geo-content.md",
+          "ts": "2026-08-16T10:16:28"
         }
       ],
-      "outcomes": [
-        {
-          "deliverable": "E3 Blind Bake-Off REVEAL \u2014 Farrice detected real experts 5/15 (33%, below chance), preferred skill-generated 8-6-1 over real published work; 4/5 skills BLIND-PASS (Luke = training-bleed-controlled pro",
-          "workflow": "system-audit",
-          "skill": "extract-mastery",
-          "revenue": 0,
-          "outcome": "not absorbed: Farrice does not recall reading the audit or the bake-off. Luke training-bleed control never applied anywhere. Confident it will work out, but unread."
-        },
-        {
-          "deliverable": "Second-brain wiring audit \u2014 deterministic health check of the 3-layer memory stack vs Kieran blueprint",
-          "workflow": "system-audit",
-          "skill": "three-layer-memory",
-          "revenue": 0,
-          "outcome": "closed 2026-07-29 (apex W2): not revenue-bearing \u2014 system asset; outcome = usage, tracked via arsenal-index"
-        }
-      ],
+      "solutions": [],
+      "outcomes": [],
       "harnesses": [
         "codex"
       ],
       "promoted": true,
       "declares": [
-        "finalized deliverable",
-        "handoff status: active"
+        "handoff status: ready"
       ],
-      "activity": [],
-      "touched": "2026-07-06T11:27:28",
+      "activity": [
+        "artifact written"
+      ],
+      "touched": "2026-08-16T10:18:07",
       "promotion_reasons": [
-        "finalized deliverable",
-        "handoff status: active"
+        "handoff status: ready",
+        "artifact written"
       ],
-      "stage": "outcome",
-      "stage_index": 3,
+      "stage": "build",
+      "stage_index": 1,
       "daily": {
         "sessions": [
           0,
@@ -2569,13 +2070,13 @@
           0,
           0,
           0,
+          2,
+          2,
+          0,
+          3,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0
+          3
         ],
         "assets": [
           0,
@@ -2594,102 +2095,60 @@
           0
         ]
       },
-      "first_seen": "2026-08-04",
-      "last_active": "2026-08-04"
+      "first_seen": "2026-08-17T05:43:58",
+      "last_active": "2026-08-17T05:43:58"
     },
-    "oren-slop-era-creative-strategy": {
-      "slug": "oren-slop-era-creative-strategy",
-      "title": "Oren Slop Era Creative Strategy \u2014 Blind Pass Sample",
-      "arena": "skills",
+    "health-performance-ip-library": {
+      "slug": "health-performance-ip-library",
+      "title": "Health Performance Ip Library \u2014 W32 Health Performance Synthesis",
+      "arena": "knowledge",
       "status": "active",
-      "resume_hint": "Oren Slop Era Creative Strategy \u2014 Blind Pass Sample",
+      "resume_hint": "Health Performance Ip Library \u2014 W32 Health Performance Synthesis",
       "unfinished": "",
       "branch": "main",
-      "handoff": ".agent/handoffs/2026-08-04-oren-slop-era-creative-strategy.md",
+      "handoff": ".agent/handoffs/2026-08-07-health-performance-ip-library.md",
       "pin": true,
-      "sessions": [
-        {
-          "harness": "claude",
-          "id": "16738bd7-9231-4655-b779-8b698b04b2ca",
-          "title": "Oren Slop-Era Creative Strategy \u2014 Forge Extraction (2 Fresh 2026 Videos)",
-          "titled": true,
-          "ts": "2026-08-05T14:57:13",
-          "messages": 29,
-          "branch": "main",
-          "project": "-Users-farricecain-Google-Antigravity",
-          "sidechain": false
-        },
-        {
-          "harness": "codex",
-          "id": "019ff1b7-2cbc-7441-904c-3a3707a383c6",
-          "title": "Extraction: Dara Denney Creative Strategy - Client Delivery\u2026",
-          "titled": true,
-          "ts": "2026-08-12T01:10:02",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        },
-        {
-          "harness": "codex",
-          "id": "019ff1b7-2a38-7c73-82d4-98309310708b",
-          "title": "Extraction: Oren Slop-Era Strategy - Creative Forge",
-          "titled": true,
-          "ts": "2026-08-12T01:10:33",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        },
-        {
-          "harness": "codex",
-          "id": "019ff48b-d809-7572-9e08-71b1e191d93f",
-          "title": "Revenue: Creative Strategy Offers - Current Demand Map",
-          "titled": true,
-          "ts": "2026-08-12T05:57:50",
-          "messages": 0,
-          "branch": "",
-          "project": "codex",
-          "sidechain": false
-        }
-      ],
+      "sessions": [],
       "deliverables": [],
       "artifacts": [
         {
-          "path": "skills/oren-slop-era-creative-strategy/references/prompts-v2/creator-upfronts-slate.md",
-          "ts": "2026-08-04T19:46:57"
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-11-angle-map-listening-brief.md",
+          "ts": "2026-08-11T09:34:10"
         },
         {
-          "path": "skills/oren-slop-era-creative-strategy/references/prompts-v2/standard-of-excellence-doc.md",
-          "ts": "2026-08-04T19:47:15"
+          "path": "_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md",
+          "ts": "2026-08-16T10:05:21"
         },
         {
-          "path": "skills/oren-slop-era-creative-strategy/SKILL.md",
-          "ts": "2026-08-06T00:36:29"
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-16-angle-map-listening-brief.md",
+          "ts": "2026-08-16T10:09:32"
         },
         {
-          "path": "skills/oren-slop-era-creative-strategy/references/source-ledger.md",
-          "ts": "2026-08-04T19:49:37"
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md",
+          "ts": "2026-08-13T10:18:34"
         },
         {
-          "path": "skills/oren-slop-era-creative-strategy/genius.md",
-          "ts": "2026-08-04T19:49:53"
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-10-angle-map-listening-brief.md",
+          "ts": "2026-08-10T09:36:56"
         },
         {
-          "path": "extractions/oren-slop-era-creative-strategy/blind-pass-sample.md",
-          "ts": "2026-08-04T19:50:38"
+          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-15-angle-map-listening-brief.md",
+          "ts": "2026-08-15T15:31:23"
         }
       ],
       "assets": [],
-      "commits": [],
+      "commits": [
+        {
+          "sha": "eae54a99b",
+          "ts": "2026-08-17T05:43:58",
+          "subject": "chore(session): end-session commit gate \u2014 2026-08-17"
+        }
+      ],
       "missions": [],
       "guides": [],
       "solutions": [],
       "outcomes": [],
-      "harnesses": [
-        "claude",
-        "codex"
-      ],
+      "harnesses": [],
       "promoted": true,
       "declares": [
         "handoff status: active"
@@ -2697,7 +2156,7 @@
       "activity": [
         "artifact written"
       ],
-      "touched": "2026-08-04T19:52:15",
+      "touched": "2026-08-07T08:44:43",
       "promotion_reasons": [
         "handoff status: active",
         "artifact written"
@@ -2713,7 +2172,7 @@
           0,
           0,
           0,
-          1,
+          0,
           0,
           0,
           0,
@@ -2728,14 +2187,14 @@
           0,
           0,
           0,
-          5,
+          0,
+          1,
+          1,
           0,
           1,
           0,
-          0,
-          0,
-          0,
-          0
+          1,
+          2
         ],
         "assets": [
           0,
@@ -2754,11 +2213,18 @@
           0
         ]
       },
-      "first_seen": "2026-08-05T14:57:13",
-      "last_active": "2026-08-12T05:57:50"
+      "first_seen": "2026-08-17T05:43:58",
+      "last_active": "2026-08-17T05:43:58"
     }
   },
   "also_shipped": [
+    {
+      "thread": "codex-end-session-control-plane",
+      "date": "2026-08-13",
+      "output": "Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han",
+      "workflow": "end-session",
+      "type": "System"
+    },
     {
       "thread": "rescue-stalled-progress",
       "date": "2026-08-12",
@@ -2792,6 +2258,20 @@
       "date": "2026-08-12",
       "output": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
       "workflow": "coaching-business-os",
+      "type": "Client Work"
+    },
+    {
+      "thread": "design-hypertrophy-mesocycle",
+      "date": "2026-08-12",
+      "output": "Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-position variants (Israetel selection rules), anchors kept with sta",
+      "workflow": "design-hypertrophy-mesocycle",
+      "type": "Client Work"
+    },
+    {
+      "thread": "design-hypertrophy-mesocycle",
+      "date": "2026-08-12",
+      "output": "Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 sessions (delts 3x/wk, back thickness, pullover, arms, traps, ",
+      "workflow": "design-hypertrophy-mesocycle",
       "type": "Client Work"
     },
     {
@@ -2926,57 +2406,21 @@
       "output": "Research report answering whether roster-aware casual-player gacha companions already exist, how to sell one, and how to build a one-game MVP for BLEACH Soul Re",
       "workflow": "shadow-market-validation-report",
       "type": "Research"
-    },
-    {
-      "thread": "source-to-skill-system",
-      "date": "2026-08-02",
-      "output": "Creative Generation OS: /generate engine + Asset Command Center (/assets-board) \u2014 Higgsfield replacement built by extending fal stack; cold-start proof run ship",
-      "workflow": "source-to-skill-system",
-      "type": "System"
-    },
-    {
-      "thread": "go",
-      "date": "2026-07-31",
-      "output": "Angle Map Listening Engine v4: fused geo-brief + insight-brief into one scheduled daily listening engine \u2014 AUTOMATION_PROMPT v4.0 (Angle Map center, daily core ",
-      "workflow": "go",
-      "type": "System"
-    },
-    {
-      "thread": "codex-end-session-control-plane",
-      "date": "2026-07-30",
-      "output": "Harness un-hobble session: Rule Amnesty (per-prompt injection 455-500w -> ~130w, session-open ~2000w -> ~650w, 16 contradictions resolved, 4 dead directives arc",
-      "workflow": "end-session",
-      "type": "System"
-    },
-    {
-      "thread": "profile-copy-fresh-0730-packet",
-      "date": "2026-07-30",
-      "output": "Profile copy v7.1 fresh-pen board: banner + headline + 3 Experience entries + Services + lead-capture page, wargamed",
-      "workflow": "profile-copy-fresh-0730 packet",
-      "type": "Content"
     }
   ],
   "overflow": [
-    "linkedin-profile-content",
-    "benoit-vatere",
-    "kallaway-hook-mastery",
     "teardown-1-fresh",
-    "farrice-brand",
-    "health-performance-ip-library",
-    "voice-identity-stack",
     "mission",
     "writers-room",
-    "listing-content",
-    "profile-copy-fresh-0730-packet",
-    "linkedin-launch",
     "codex-end-session-control-plane",
+    "video-studio-edit-bay",
     "quick-concept-application",
+    "farrice-brand",
     "clients",
     "one-liner",
     "deep-research",
     "daily-zeitgeist-brief",
     "fantastic-posters",
-    "go",
     "readout-os",
     "god-agent-offer",
     "create",
@@ -2990,40 +2434,49 @@
     "harness-apex",
     "convene",
     "cos-daily",
+    "harness-apex-2026-07-07",
+    "autopilot",
+    "cos-standing-board",
+    "build-the-angle-map-industry-listening-engine-fuse-health-performance-geo-daily-brief-insight-brief-into-one-scheduled-daily-automation-local-launchd-05-30",
+    "health-performance-geo-daily-brief",
+    "oren-john-identity-marketing",
+    "contain-apify-spend-now-stop-the-active-angle-map-run-pause-the-duplicate-codex-health-geo-automation-unload-all-six-apify-launch-agents-verify-zero-schedul",
+    "oren-slop-era-creative-strategy",
     "i-need-a-true-commercial-read-on-the-daniel-system-we-built-how-it-can-generate-leads-inbound-content-sold-offers-and-a-pipeline-of-high-quality-paying-cli",
     "workflows",
     "paolo-lead-magnet-engine",
     "assemble-pressure-test-farrice-s-signal-pilot-practitione",
     "matthew-lakajev-forge",
+    "linkedin-profile-content",
     "riley-brown-os",
     "create-one-final-copy-and-paste-linkedin-authority-reset-master-for-farrice-cain-coherent-supplement-and-performance-brand-positioning-profile-fields-proof-l",
     "offer-stack",
     "meg-heckman-buyer-trigger-os",
+    "profile-copy-fresh-0730-packet",
     "hilary-gridley-forge",
     "build-a-new-codex-task-that-locates-the-existing-god-agent-concept-and-handoff-then-deploys-the-cold-expert-practice-os-to-pressure-test-it-as-an-ai-native-con",
-    "build-the-angle-map-industry-listening-engine-fuse-health-performance-geo-daily-brief-insight-brief-into-one-scheduled-daily-automation-local-launchd-05-30",
     "caleb-ralston-forge",
+    "benoit-vatere",
+    "kallaway-hook-mastery",
     "mastery-forge",
     "oren-slop-era-forge",
     "i-need-a-true-sense-of-what-the-daniel-system-we-built-can-actually-do-to-drive-leads-inbound-content-creation-and-paying-high-quality-clients-as-soon-as-pos",
     "sam-vander-wielen-forge",
+    "voice-identity-stack",
     "raw-intent-bridge",
     "i-want-a-production-grade-openart-director-mode-prompt-that-uses-at-least-five-supplied-assets-such-as-character-sheets-references-and-examples-to-generate-a",
     "marketing-intelligence-engine",
     "forsyth-enchantment-os",
-    "health-performance-geo-daily-brief",
+    "linkedin-launch",
     "harvest-daniel-s-two-supplied-youtube-videos-plus-up-to-10-additional-relevant-videos-into-a-source-grounded-deployable-entrepreneurship-and-marketing-capabili",
     "oren-dara-ad-psychology",
     "assemble-pressure-test-whether-farrice-cain-should-pivot",
-    "harness-apex-2026-07-07",
     "research-ten-solutions-with-current-paid-demand-evidence-that-match-farrice-s-capabilities-in-ai-research-and-icp-intelligence-ai-consulting-and-auditing-copy",
     "claude-video-watch-update",
     "jen-listings",
     "i-have-this-crazy-idea-that-crossed-my-mind-to-make-a-digital-product-for-gacha-games-that-would-allow-players-that-understand-the-game-faster-to-be-able-to-mak",
     "digital-product-lane-2026-08-05",
-    "dhar-mann-production-os",
-    "assemble-re-convene-with-material-new-evidence-update-the",
-    "opus5-harness-repair",
+    "proposed-diffs",
     "knowledge",
     "sweep",
     "loss-alarm-repair",
@@ -3033,8 +2486,11 @@
     "brad-bonanno-explainer-architecture",
     "directives",
     "insight-brief",
+    "dhar-mann-production-os",
+    "opus5-harness-repair",
     "hooks",
     "about-rebuild-ship",
+    "go",
     "unhobble-harness",
     "research-outputs",
     "opus5-adaptation-layer",
@@ -3085,11 +2541,10 @@
     "prompts-v2",
     "ghostwrite",
     "social-listening-head-spec",
-    "oren-identity-os",
+    "assemble-re-convene-with-material-new-evidence-update-the",
     "tommy-clark-2026",
     "system-health-check-framework",
     "cold-offer-frontdoor",
-    "oren-john-identity-marketing",
     "expert-assembly-os",
     "assemble-competitive-sailing-rigging-optimization-for-a-3",
     "jh-offer-audit",
@@ -3136,9 +2591,9 @@
     "end-session-creative-deck",
     "claude-export-harvest",
     "elevation-track",
+    "listing-content",
     "sky-tan-format-engine",
     "john-whiting-propaganda-os",
-    "geo-content",
     "codex-coequal-harness",
     "council-position-paper",
     "jcc-refine",
@@ -3148,7 +2603,6 @@
     "launch-assets",
     "content-team-os",
     "high-taste-writing-os",
-    "autopilot",
     "brief",
     "three-layer-memory-second-brain",
     "linkedin-daily",
@@ -3160,10 +2614,7 @@
     "profile-copy-fresh-0730",
     "diagnose-why-katie-holds-135-lb-despite-visible-recomposition-leaner-stronger-muscle-up-prescribe-the-metabolism-safe-path-to-her-130-goal-and-set-next-b",
     "gacha-companion-market-validation-aar",
-    "capability-stewardship-phase-2-global-bridge",
-    "capability-stewardship-acceptance",
     "health-performance-ip-library-codex",
-    "capability-stewardship-phase-1",
     "positioning-before-headline",
     "offer-domination",
     "content-os-slop-fix-done",
@@ -3176,13 +2627,13 @@
     "ai-marketing-agents-hype-vs-harness",
     "ai-video-product-label-morphing-composite-fix",
     "ai-visibility-receipts-without-paid-tooling",
-    "alex-copper-static-acquisition",
     "angle-brief-2026-08-06",
     "angle-brief-2026-08-10",
     "angle-map-company-intelligence-deep-market-truth",
     "angle-map-god-agent-gtm-decision",
     "archive-stale-sidebar-chats",
     "assess-intelligence-layer-extraction",
+    "audit-apify-automations",
     "audit-imported-workspaces",
     "auto-caption-proper-nouns-poison-extraction-slug",
     "brief-to-finished-ai-video-production-system",
@@ -3202,19 +2653,20 @@
     "buyer-council-resurrection-locate-marketing-against-the-grain-extraction-customer-panel-premise-inventory-existing-assets-elevate-to-standard",
     "buyer-council-resurrection-mike-taylor-source-found-recall-only-buyer-council-forged-triage-council-roster-calibration-ledger-live",
     "canonical-stamp-attractor-living-vs-record",
-    "capability-stewardship-lifecycle-routing",
+    "capability-stewardship-acceptance",
+    "capability-stewardship-phase-1",
+    "capability-stewardship-phase-2-global-bridge",
     "claude-skills-digital-product-top-10-premium-market-swarm-research-sop-sourcing-offer-website-workup-3-5k-mo-target",
+    "client-angle-map-delivery-room-parked-for-deeper-work",
     "client-angle-map-delivery-room-v",
     "client-angle-map-delivery-room-v1-sealed-and-parked",
-    "client-the-angle-map-premium-offer-and-delivery",
     "coaching-business-os",
     "codex-end-session-exact-handoff-and-owned-git",
     "codex-hooks-config-present-not-firing",
     "codex-mcp-add-monid-url-https-mcp-monid-ai-v1",
-    "cody-schneider-signal-outbound",
     "conductor-ladder-into-constitutions-claude-gemini-agents-rules-compiler-bless",
+    "content-priestley-sll-os-universal-and-verified",
     "context-os-package-0729",
-    "continue-behavioral-alchemy-pack",
     "council-re-run-v2-on-hardened-offer",
     "council-re-run-v2-on-hardened-offer-seats-1-3-social-ground",
     "council-re-run-v2-on-hardened-offer-seats-1-3-social-grounded-test-make-right-verdict-flips",
@@ -3227,13 +2679,13 @@
     "creative-my-house-sellers-team-photo-photoshop-assets-pa",
     "creative-os-user-guide",
     "creative-pipeline-studio-website-local-manus-recreation",
-    "creative-the-angle-map-site-v5-design-branch",
     "crossing-wave-2-audit-crossing-library-score-candidate-matrix-forge-approved-cross-skill-blends",
     "crossing-wave-3-opener-forge-kallaway-x-dunford-novelty-on",
     "crossing-wave-3-opener-forge-kallaway-x-dunford-novelty-on-positioning-in-saturated-categories",
     "crossing-wave-3-opener-kallaway-x-dunford",
     "design-and-implement-a-recurring-system-health-check-and-ant",
     "design-and-implement-a-recurring-system-health-check-and-anti-debt-framework-for-antigravity-with-automated-context-bloat-detection-engineering-debt-prevention",
+    "design-hypertrophy-mesocycle",
     "design-system-showcase",
     "dhar-transformational-story-system-forge",
     "dm-template-harvest-0729",
@@ -3242,19 +2694,17 @@
     "extend-the-expert-assembly-forge-phase-with-research-grounded-persona-synthesis-bespoke-composites-distilled-from-live-practitioner-research-per-the-mcclain-p",
     "extract-and-build",
     "extract-gtm-expert-system",
-    "extract-jason-fladlien-offer-genius",
     "extract-jason-video-intelligence",
-    "extract-rory-sutherland-insights",
     "extract-ryan-doser-s-claude-skills-selling-business-model-fr",
     "extract-ryan-doser-s-claude-skills-selling-business-model-from-video-sales-page-teardown-into-a-deployable-skill-and-a-replicate-and-surpass-launch-plan-for-t",
-    "extract-storytelling-expertise",
+    "extract-skill-system-from-videos",
     "extract-the-ai-brain-installation-for-businesses-expert-os-f",
-    "extract-video-into-skill-system",
-    "extract-youtube-video-insights",
     "extraction-adil-amarsi-profit-finder-opportunity-scan",
     "extraction-daniel-video-methods-angle-map-revenue-strate",
     "extraction-david-perell-idea-to-culture-built-and-verifi",
+    "extraction-dual-video-source-forge-connected-skill-system",
     "extraction-gauntlet-loop",
+    "extraction-geoff-woods-ai-thought-partner-os-built-ampl",
     "extraction-jason-buyer-psychology-video-intelligence",
     "extraction-jason-fladlien-offer-genius-skill-system",
     "extraction-jason-fladlien-os-56-pattern-library",
@@ -3262,7 +2712,6 @@
     "extraction-mert-monk-consultancy-spine-cold-dual-track-o",
     "extraction-nathan-follen-agentic-revops-video-intelligen",
     "extraction-rory-sutherland-behavioral-alchemy-v5-forge",
-    "extraction-rory-sutherland-v5-universal-behavioral-alche",
     "extraction-shaan-story-deployment-six-domain-blind-corpus",
     "extraction-systems-thinking-intelligence-shadow-layer-as",
     "fantastic-studio",
@@ -3274,21 +2723,16 @@
     "follow-up-monitor",
     "forge-os-completion-all-five-lanes-production-ready-workflow-agent-native-engines-proven-plugin-engine-gate-guarded-fixture-replay-shipped-forge-conductor-agent-deployed",
     "forge-os-wave-2-live-run-plugin-lift-check-deepen-adjacent-act-batch",
-    "forge-storytelling-expert-system",
     "frontier-elevation-program-v-next-8-wave-blueprint-approved-wave-0-concurrency-firewall",
     "git-integrity-fix-main-only-policy-4-guardrails-25-line-backlog-swept-to-zero",
     "god-agent-delta",
     "grounding-ladder-upgrade-social-listening-gap-fill-rung-in",
     "grounding-ladder-upgrade-tier-2-5-social-grounded-founder-zeitgeist-corpus",
-    "growth-angle-map-dream-100-and-distribution",
     "harness-unhobble",
     "harvest-ai-agency-playbook",
     "health-loop-v2-verifier-fleet-self-healing-evidence-orphan-card-debt",
-    "hook-pattern-false-positives-anchor-to-invocation",
     "icp-invisible-expert",
     "ide-workflow-and-capabilities-comparison",
-    "imagegen-static-placement-correction",
-    "in-place-expert-expansion-behavior-proof",
     "index",
     "is-the-ai-rush-over-research-the-real-market-demand-across",
     "jen-santulan-listing-reel-hooks-for-1654-moonseed-ln-simi-va",
@@ -3296,6 +2740,7 @@
     "jordan-crawford-gtm-intelligence-os",
     "josh-katie-fitness",
     "katie-135-plateau-next-block",
+    "katie-s-weight-plateau-at-135",
     "kdp-book-one-policy-safe-runtime-proof",
     "kdp-book-one-proof-system",
     "listing-package-pipeline",
@@ -3316,13 +2761,16 @@
     "novelty-scorecard-lane-blind-to-coherence",
     "omar-eltakrori-teach-grow-rich",
     "operational-smoke-suite-8-checks-on-everything-built-this-session",
+    "ops-apify-automations-usage-audit",
     "ops-automation-control-center-sc",
     "ops-automation-control-center-schedule-and-failure-status",
     "ops-claude-desktop-diagnose-launch-failure",
+    "ops-follow-up-monitor-attention-changes",
     "ops-google-antigravity-workspace-retrieval-architecture",
+    "ops-mac-recovery-reclaim-150-gib-safely",
+    "ops-weekly-review-work-summary",
     "oracle-board",
-    "oren-norton-world-building",
-    "orphan-sweep-severed-live-import",
+    "oren-identity-os",
     "parallel-builders-stale-contracts",
     "parallel-session-lanes",
     "parallel-session-lanes-golden-rule-automated-17-legacy-workt",
@@ -3338,7 +2786,6 @@
     "project-artifacts-loose-plus-empty-scaffold",
     "prompt-wiring-os",
     "prompt-wiring-os-hook-pointers-forging-gate-1-650-born-v2-backfill-verification",
-    "provisional-content-signal-loop",
     "pulse-board-v2-interactive-goal-chips-collapsible-sections-sprint-countdown-corpus-tile-outcomes-list",
     "pulse-live-layer",
     "pulse-live-selftest",
@@ -3362,8 +2809,6 @@
     "revenue-angle-map-dream-100-distribution-plan",
     "revenue-jordan-gtm-intelligence-os-hardened-and-ready-fo",
     "revenue-kdp-book-one-policy-safe-launch-system",
-    "revenue-the-angle-map-client-copy",
-    "revenue-the-angle-map-offer-and",
     "rule-amnesty-0729",
     "run-deep-parallel-market-research-and-offer-workup-for-a-cla",
     "run-deep-parallel-market-research-and-offer-workup-for-a-claude-skills-digital-product-top-10-premium-niches-willing-to-pay-for-claude-codex-skill-packs-worl",
@@ -3374,22 +2819,23 @@
     "shallow-research-passed-as-trusted",
     "shoot-kandi-keeper-video-from-production-sheet",
     "simon-library-os",
-    "source-to-skill-system",
     "spec-sample-receipted-override-protocol",
     "storytelling-input-sufficiency",
     "swarm-and-frontier-loops",
     "system-active-arena-sweep-shipped-merged-verified",
     "system-dhar-storytelling-os-capability-preserving-restor",
+    "system-free-first-research-integrated-and-audited",
     "system-health-debt-control-loop-recurring-health-check-anti-bloat-drift-ledger",
+    "system-research-enrichment-apify-containment",
     "system-skill-and-command-menus-automatic-synchronization",
     "teardown-bpn",
     "teardown-hilma",
+    "the-os-daniel-priestley-sll-engine",
     "top-10-digital-products-for-high-demand-underserved-markets-research-grounded-thompson-rez-synthesis",
     "unattributed",
     "validate-systeme-io-as-a-cold-start-affiliate-opportunity-an",
     "verbatim-proof-inventory-gate",
     "visual-delivery-os",
-    "voice-os",
     "watch-watch-and-source-to-skill-system-and-source-comma",
     "wave-2-step-1-routing-bindings-enforce-flip-1-week-trial-file-route-override-classifier-exempt-golden-24-24-7-7",
     "wave-3-asset-renaissance-lane-1-production-core-repair-fleet",

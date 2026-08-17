@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 9.3393,
+  "spent_dollars": 10.0115,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -1379,6 +1379,54 @@
       "pricing_model": "per_result",
       "cost_source": "apify_api",
       "pulse": true
+    },
+    {
+      "ts": "2026-08-16T12:55:57.956621+00:00",
+      "actor": "reddit",
+      "results": 1,
+      "cost": 0.0238,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-16T12:56:48.486400+00:00",
+      "actor": "reddit",
+      "results": 25,
+      "cost": 0.135,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-16T12:57:17.284679+00:00",
+      "actor": "reddit",
+      "results": 0,
+      "cost": 0.04,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-16T12:58:07.860837+00:00",
+      "actor": "reddit",
+      "results": 40,
+      "cost": 0.192,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-16T13:02:12.709264+00:00",
+      "actor": "reddit",
+      "results": 28,
+      "cost": 0.1464,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-16T13:02:48.326735+00:00",
+      "actor": "reddit",
+      "results": 25,
+      "cost": 0.135,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api"
     }
   ],
   "pulse_budget_dollars": 5.0,

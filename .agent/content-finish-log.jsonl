@@ -535,3 +535,10 @@
 {"ts": "2026-08-11T12:49:08Z", "label": "2026-08-11-thirty-five-customers-one-subscription-script.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-11T13:34:55Z", "label": "2026-08-11-flagship-post", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-08-11T13:35:03Z", "label": "2026-08-11-video-script", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-16T14:05:33Z", "label": "angle-map-2026-08-16", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-16T14:05:34Z", "label": "angle-map-2026-08-16", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["A 543-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-16T14:06:27Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-16T14:06:27Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 489-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-16T14:06:47Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-16T14:07:02Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-16T14:07:02Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 348-char line \u2014 break dense paragraphs for mobile dwell time."]}

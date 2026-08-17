@@ -1,26 +1,26 @@
 # Overlap Report
-*Generated: 2026-08-09*
+*Generated: 2026-08-16*
 
-**2027 potential overlaps** detected.
+**2251 potential overlaps** detected.
 
 These file pairs share domain, expert, and significant naming overlap. Consider consolidating.
 
 ### Overlap 1
 - **A**: `extractions/creative-direction/guide_research_cinematography.md`
 - **B**: `extractions/creative-direction/guide_research_design_principles.md`
-- **Shared**: research, guide
+- **Shared**: guide, research
 - **Domain**: seo
 
 ### Overlap 2
 - **A**: `extractions/creative-direction/guide_research_cinematography.md`
 - **B**: `extractions/creative-direction/guide_research_styles_movements.md`
-- **Shared**: research, guide
+- **Shared**: guide, research
 - **Domain**: seo
 
 ### Overlap 3
 - **A**: `extractions/creative-direction/guide_research_design_principles.md`
 - **B**: `extractions/creative-direction/guide_research_styles_movements.md`
-- **Shared**: research, guide
+- **Shared**: guide, research
 - **Domain**: seo
 
 ### Overlap 4
@@ -32,7 +32,7 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 5
 - **A**: `research_outputs/research-brief-karpathy-wiki-antigravity.md`
 - **B**: `research_outputs/research-karpathy-wiki-architecture.md`
-- **Shared**: research, wiki, karpathy
+- **Shared**: wiki, research, karpathy
 - **Domain**: seo
 
 ### Overlap 6
@@ -62,7 +62,7 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 10
 - **A**: `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
 - **B**: `research_outputs/dwa-edgecase-3-research-2026-06-13.md`
-- **Shared**: 3, 2026
+- **Shared**: 2026, 3
 - **Domain**: strategy
 
 ### Overlap 11
@@ -92,7 +92,7 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 15
 - **A**: `knowledge/council-sessions/2026-06-03-architect-a-suite-of-world-class-ai-cloud-projec.md`
 - **B**: `research_outputs/market-pulse/2026-08-03-pulse.md`
-- **Shared**: 03, 2026
+- **Shared**: 2026, 03
 - **Domain**: strategy
 
 ### Overlap 16
@@ -104,7 +104,7 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 17
 - **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md`
 - **B**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md`
-- **Shared**: claude, copper, 💎💎🧑🏽, 💻, alex, ai, !, reinventing, strategy, creative, with
+- **Shared**: creative, claude, strategy, with, ai, copper, 💻, 💎💎🧑🏽, !, reinventing, alex
 - **Domain**: strategy
 
 ### Overlap 18
@@ -170,17 +170,17 @@ These file pairs share domain, expert, and significant naming overlap. Consider 
 ### Overlap 28
 - **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
 - **B**: `extractions/jonathan-courtney/prompts-v2/01-promoter-blueprint-audit.md`
-- **Shared**: promoter, blueprint, audit, 01
+- **Shared**: blueprint, 01, promoter, audit
 - **Domain**: strategy
 
 ### Overlap 29
 - **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
 - **B**: `extractions/marc-andreessen-ben-horowitz/prompts/01-new-media-strategy-audit.md`
-- **Shared**: audit, 01
+- **Shared**: 01, audit
 - **Domain**: strategy
 
 ### Overlap 30
 - **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
 - **B**: `extractions/marc-andreessen-ben-horowitz/prompts-v2/01-new-media-strategy-audit.md`
-- **Shared**: audit, 01
+- **Shared**: 01, audit
 - **Domain**: strategy

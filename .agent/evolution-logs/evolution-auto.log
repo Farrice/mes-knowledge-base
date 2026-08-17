@@ -3389,3 +3389,104 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-16T10:00:04.575924",
+  "ran": [
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-08-16.json",
+        "skills_tracked": 10,
+        "degrading_count": 1,
+        "degrading_skills": [
+          "creative-direction"
+        ],
+        "improving_count": 0,
+        "improving_skills": [],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-15T10:04:00.186368",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 23.87
+    }
+  ]
+}
+{
+  "run_at": "2026-08-17T07:59:19.348364",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-17.md",
+        "traces_24h": 2,
+        "routing_decisions_24h": 2,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.2,
+            "joey-cinema-os": 0.87,
+            "ben-watkins-storytelling": 0.82,
+            "banana-pro-director": 1.2,
+            "gemini-api-dev": 0.71,
+            "dave-clark": 1.29,
+            "ghostwriting-voice-engine": 1.26,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 0.95,
+            "nick-saraev-agentic-workflows": 1.2,
+            "kallaway-social-commerce": 0.8,
+            "kallaway-illusion-of-novelty": 1.4,
+            "extract-mastery": 1.13,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.2,
+            "michael-israetel-hypertrophy": 1.08,
+            "andrew-dun-vibe-consulting": 0.86,
+            "creative-direction": 0.93,
+            "oren-one-person-ai-marketer": 0.95,
+            "story-compass": 0.65,
+            "oren-identity-brand-os": 1.05
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 2,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 22.0
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 45.9
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 6.08
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 22.96
+    }
+  ]
+}

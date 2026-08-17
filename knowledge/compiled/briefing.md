@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-08-12 | 1089 sources | 3,485,822 words*
+*Generated: 2026-08-16 | 1138 sources | 3,603,261 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 6,933 words — `knowledge/index.md`
-- **log** (general) — 19,125 words — `knowledge/log.md`
-- **architecture** (strategy [april-dunford]) — 510 words — `extractions/jordan-crawford-gtm-intelligence/architecture.md`
-- **live-research-hardening-2026-08-09** (copywriting) — 600 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/live-research-hardening-2026-08-09.md`
-- **mature-company-fixture** (strategy [april-dunford]) — 670 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/mature-company-fixture.md`
-- **proof-report** (copywriting) — 293 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/proof-report.md`
-- **zero-data-fixture** (copywriting) — 545 words — `extractions/jordan-crawford-gtm-intelligence/behavior-proof/zero-data-fixture.md`
-- **blind-pass-log** (copywriting) — 80 words — `extractions/jordan-crawford-gtm-intelligence/blind-pass-log.md`
-- **extraction-report** (content) — 2,104 words — `extractions/jordan-crawford-gtm-intelligence/extraction-report.md`
-- **skill-system-contract** (systems) — 399 words — `extractions/jordan-crawford-gtm-intelligence/skill-system-contract.md`
+- **log** (general) — 19,197 words — `knowledge/log.md`
+- **amplification-report** (research [jason-fladlien]) — 1,238 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/amplification-report.md`
+- **architecture** (copywriting [jason-fladlien]) — 1,553 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/architecture.md`
+- **behavior-proof** (copywriting [jason-fladlien]) — 2,054 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/behavior-proof.md`
+- **canonical-admission-map** (research [jason-fladlien]) — 3,120 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-admission-map.md`
+- **canonical-deployment-receipt** (research [jason-fladlien]) — 1,105 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-deployment-receipt.md`
+- **development-behavior-proof** (copywriting [jason-fladlien]) — 1,376 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-behavior-proof.md`
+- **development-benchmark** (sales [lara-acosta]) — 1,468 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-benchmark.md`
+- **implementation-receipt** (systems [jason-fladlien]) — 969 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/implementation-receipt.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 356 | nathan-gotch |
-| copywriting | 187 | luke-iha |
-| general | 116 | nick-saraev |
-| strategy | 110 | april-dunford |
-| screenwriting | 102 | connelly |
+| content | 362 | nathan-gotch |
+| copywriting | 197 | jason-fladlien |
+| general | 123 | nick-saraev |
+| screenwriting | 118 | connelly |
+| strategy | 113 | april-dunford |
 | brand | 66 | oren-john |
-| systems | 60 | nick-saraev |
-| seo | 42 | nathan-gotch |
-| research | 37 | jason-fladlien |
-| sales | 13 | dai-media |
+| systems | 61 | nick-saraev |
+| seo | 43 | nathan-gotch |
+| research | 41 | jason-fladlien |
+| sales | 14 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

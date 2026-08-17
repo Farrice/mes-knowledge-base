@@ -2,11 +2,11 @@
   "slug": "mission-proof-to-market",
   "chip": "MISSION · THREAD",
   "title": "PROOF-TO-MARKET-OS.md v2.*0*",
-  "dek": "The offer is done being designed; it is now purely a distribution problem.",
+  "dek": "The offer is written and has never met a buyer.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 12, 2026",
+  "compiled": "aug 17, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.\n\nHandoff status is ready. Last activity today.\n\nNext: Pick a real supplement or performance brand and send the offer to a named person there."
+      "body": "The offer layer is documented and marked ready, and the strategy work behind it is closed out. In this window the thread produced thinking about cash validation rather than an attempt at it.\n\nHandoff status is ready. Last activity 5d ago.\n\nNext: Put the ready offer in front of a real buyer and record what they say yes or no to."
     },
     {
       "kind": "stats",
@@ -27,6 +27,40 @@
           "value": "1",
           "label": "SESSIONS",
           "note": "codex"
+        },
+        {
+          "value": "5",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
         }
       ]
     },
@@ -110,7 +144,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Everything backing \"ready\" is internal: council runs and grounding passes, not a prospect reaction. Demand for this exact offer stays unconfirmed until someone pays. A newer zero-based verdict elsewhere argues Farrice should lead with AI workflow work rather than messaging-led offers, and the two have not been reconciled.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Nothing was finalized, written or generated against this thread in the window, so ready describes a document rather than a tested offer. The pricing and positioning in it remain unconfirmed until someone pays.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

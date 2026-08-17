@@ -243,3 +243,29 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-08-12
   ⚑ verifier fleet: 2/85 failing (run 2026-08-08) — each is a contract the system claims to hold; triage in weekly closeout
   ⚑ session context injection grew 30% in ~1mo (54KB → 70KB) — every session pays this; trim or justify
   ⚑ skills grew +36 in ~1mo with growth unchecked — pair new builds with archive passes or the routing surface dilutes
+Traceback (most recent call last):
+  File "/Users/farricecain/Google Antigravity/execution/health_metrics.py", line 706, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/farricecain/Google Antigravity/execution/health_metrics.py", line 695, in main
+    return cmd_snapshot(args.deep, args.dry_run)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farricecain/Google Antigravity/execution/health_metrics.py", line 583, in cmd_snapshot
+    m = collect_metrics(deep=deep)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/farricecain/Google Antigravity/execution/health_metrics.py", line 275, in collect_metrics
+    m["deep_scan"] = _deep_scan()
+                     ^^^^^^^^^^^^
+  File "/Users/farricecain/Google Antigravity/execution/health_metrics.py", line 382, in _deep_scan
+    for p in (REPO_ROOT / d).rglob("*.md"):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 968, in rglob
+    for p in selector.select_from(self):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 408, in _select_from
+    for p in successor_select(starting_point, is_dir, exists, scandir):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 355, in _select_from
+    with scandir(parent_path) as scandir_it:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 938, in _scandir
+    return os.scandir(self)
+           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/farricecain/Google Antigravity/.claude/worktrees/claude-angle-map-listening-2026-08-15'

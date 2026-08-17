@@ -2,11 +2,11 @@
   "slug": "mission-linkedin",
   "chip": "MISSION · LINKEDIN",
   "title": "Linkedin — Execution *Checklist*",
-  "dek": "LinkedIn is fully armed and hasn't fired — the bottleneck is sending, not making.",
+  "dek": "The launch is fully prepared and has not launched.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "2 sessions · 8 files · 9 assets",
-  "compiled": "aug 12, 2026",
+  "sources": "3 sessions · 4 files · 9 assets",
+  "compiled": "aug 17, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The channel work keeps closing missions — offers wargamed, profile copy rewritten, launch content drafted — but what the ledger shows is preparation, not sends. Nothing in this window was finalized as a shipped deliverable or logged against an outcome.\n\nHandoff status is active. Last activity today.\n\nNext: Send the posts and outreach that already exist instead of opening another round of positioning work."
+      "body": "The campaign machinery is written — cadence, follow-up, delivery protocol, and a campaign file that keeps getting touched. What the records do not show is a single send or a logged reply.\n\nHandoff status is active. Last activity today.\n\nNext: Send the offer to real named prospects and log what comes back, before writing any more campaign scaffolding."
     },
     {
       "kind": "stats",
@@ -24,7 +24,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "8",
+          "value": "4",
           "label": "FILES WRITTEN"
         },
         {
@@ -32,12 +32,12 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "2",
+          "value": "3",
           "label": "SESSIONS",
           "note": "codex"
         },
         {
-          "value": "11",
+          "value": "10",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -53,20 +53,20 @@
           "values": [
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            2,
             0,
             0,
             0
           ],
-          "value": "1",
+          "value": "3",
           "unit": "total",
           "note": "per day"
         },
@@ -80,15 +80,15 @@
             0,
             0,
             0,
-            0,
+            3,
             0,
             1,
-            2,
             0,
-            3,
-            1
+            0,
+            0,
+            0
           ],
-          "value": "7",
+          "value": "4",
           "unit": "files",
           "note": "per day"
         },
@@ -98,17 +98,17 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
             4,
             1,
             1,
             1,
-            1
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
           ],
           "value": "9",
           "unit": "made",
@@ -208,12 +208,6 @@
           "note": "aug 12, 2026"
         },
         {
-          "title": "03-ICP-TRUTH-MAP.md",
-          "role": "FILE",
-          "path": "_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md",
-          "note": "aug 11, 2026"
-        },
-        {
           "title": "2026-08-10-DELIVERY-READY-PROTOCOL.md",
           "role": "FILE",
           "path": "_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
@@ -230,24 +224,6 @@
           "role": "FILE",
           "path": "_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
           "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-08-08-EXECUTION-CHECKLIST.md",
-          "role": "FILE",
-          "path": "_active/linkedin/05-lead-gen/2026-08-08-EXECUTION-CHECKLIST.md",
-          "note": "aug 8, 2026"
-        },
-        {
-          "title": "2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
-          "role": "FILE",
-          "path": "_active/linkedin/05-lead-gen/2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
-          "note": "aug 8, 2026"
-        },
-        {
-          "title": "2026-08-07-PAYMENT-SETUP-ACTION.md",
-          "role": "FILE",
-          "path": "_active/linkedin/05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md",
-          "note": "aug 7, 2026"
         },
         {
           "title": "2026-07-13-stanton-linkedin-launch.md",
@@ -284,15 +260,27 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-12",
-          "title": "codex session",
-          "body": "Extraction: LinkedIn Missing Link - Harvest System",
+          "date": "2026-08-17",
+          "title": "commit eae54a99b",
+          "body": "chore(session): end-session commit gate — 2026-08-17",
           "done": true
         },
         {
-          "date": "2026-07-31",
+          "date": "2026-08-13",
           "title": "codex session",
-          "body": "Revenue: The Angle Map - Offer, LinkedIn & Inbound Flywheel",
+          "body": "Revenue: LinkedIn B2B Offer Recovery - Consolidated Continu…",
+          "done": true
+        },
+        {
+          "date": "2026-08-13",
+          "title": "codex session",
+          "body": "Find LinkedIn offer sessions",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "Extraction: LinkedIn Missing Link - Harvest System",
           "done": true
         }
       ]
@@ -323,7 +311,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Activity here is inferred from files written and missions closed; whether anything was actually posted, or drew a reply, happens outside the system, so the empty outcome column may understate real sends.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Every mission on this thread is closed and the artifacts are recent, but nothing has been finalized through the ledger and no outcome has been recorded — so the thread looks busier than it is proven. Sessions here ran on the other harness, so this sweep sees their titles more than their substance.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

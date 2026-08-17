@@ -1,20 +1,20 @@
 # Midnight Oil native reference pack, continuity manifest…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 12, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
 
-The hard part — canon and continuity — is done, and the thread stalls at pressing go.
+Prep is done; the pack has not been fired.
 
 ## where this stands
 _CURRENT POSITION_
-A director-level package for an original animated trailer exists — reference pack, continuity rules, and a master prompt built to hold character and world consistency across shots. The ledger shows nothing generated from it.
+The reference pack, continuity manifest and director prompt are finalized. The outcome slot is still sitting on pending, so nothing downstream has been recorded as made from them.
 
-Handoff status is active. Last activity 1d ago.
+Handoff status is active. Last activity 6d ago.
 
-Next: Generate from the master prompt and judge the resulting shots against the continuity rules.
+Next: Run the pack through generation and record the result against the pending outcome.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **1 d**
+- DAYS ACTIVE: **6 d**
 
 ## lifecycle
 
@@ -38,7 +38,7 @@ python3 execution/handoff_store.py resume trailer-treatment
 
 ## what this isn't
 _READ THE EDGES_
-This is a craft track with no revenue line attached and an outcome row that is still empty; treat it as an experiment rather than a deliverable with a customer waiting.
+The creative deliverables scored below the keep bar at finalize time, and no outcome has been logged, so this is a well-formed setup with no evidence yet that it produces the intended footage.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

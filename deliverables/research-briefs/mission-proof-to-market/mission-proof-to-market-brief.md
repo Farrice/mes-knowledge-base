@@ -1,19 +1,23 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 12, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 17, 2026
 
-The offer is done being designed; it is now purely a distribution problem.
+The offer is written and has never met a buyer.
 
 ## where this stands
 _CURRENT POSITION_
-The offer itself is settled — positioning, price frame, guarantee language and buyer-council pressure tests have all been through a full pass, and the handoff reads ready. What has not happened is putting it in front of a named buyer.
+The offer layer is documented and marked ready, and the strategy work behind it is closed out. In this window the thread produced thinking about cash validation rather than an attempt at it.
 
-Handoff status is ready. Last activity today.
+Handoff status is ready. Last activity 5d ago.
 
-Next: Pick a real supplement or performance brand and send the offer to a named person there.
+Next: Put the ready offer in front of a real buyer and record what they say yes or no to.
 
 ## by the numbers
 - SESSIONS: **1** (codex)
+- DAYS ACTIVE: **5 d**
+
+## momentum
+
 
 ## lifecycle
 
@@ -40,7 +44,7 @@ python3 execution/pulse_actions.py done proof-to-market --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Everything backing "ready" is internal: council runs and grounding passes, not a prospect reaction. Demand for this exact offer stays unconfirmed until someone pays. A newer zero-based verdict elsewhere argues Farrice should lead with AI workflow work rather than messaging-led offers, and the two have not been reconciled.
+Nothing was finalized, written or generated against this thread in the window, so ready describes a document rather than a tested offer. The pricing and positioning in it remain unconfirmed until someone pays.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

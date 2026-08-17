@@ -1,7 +1,7 @@
 {
   "slug": "mission-linkedin",
   "title": "Linkedin — Execution Checklist",
-  "compiled": "aug 12, 2026",
+  "compiled": "aug 17, 2026",
   "generated_by": "execution/render_brief.py",
   "path_policy": {
     "canonical_field": "path",
@@ -73,12 +73,6 @@
       "role": "asset · FILE"
     },
     {
-      "path": "_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/04-deliverables/context-os/03-ICP-TRUTH-MAP.md",
-      "role": "asset · FILE"
-    },
-    {
       "path": "_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
@@ -94,24 +88,6 @@
       "path": "_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
-      "role": "asset · FILE"
-    },
-    {
-      "path": "_active/linkedin/05-lead-gen/2026-08-08-EXECUTION-CHECKLIST.md",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/2026-08-08-EXECUTION-CHECKLIST.md",
-      "role": "asset · FILE"
-    },
-    {
-      "path": "_active/linkedin/05-lead-gen/2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/2026-08-08-CAMPAIGN-DAY-1-EXECUTION.md",
-      "role": "asset · FILE"
-    },
-    {
-      "path": "_active/linkedin/05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/2026-08-07-PAYMENT-SETUP-ACTION.md",
       "role": "asset · FILE"
     },
     {

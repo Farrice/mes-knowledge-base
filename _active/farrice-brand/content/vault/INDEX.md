@@ -2,6 +2,8 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-16 | [the-second-price-post](2026-08-16-the-second-price-post.md) | LinkedIn post (flagship) | Proof · P2 | Authority | Bridge | READY |
+| 2026-08-16 | [what-a-shelf-does-longform](2026-08-16-what-a-shelf-does-longform.md) | Education long-form | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-13 | [ads-that-last-post](2026-08-13-ads-that-last-post.md) | LinkedIn post (flagship) | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-13 | [decision-under-the-round-entry-4](2026-08-13-decision-under-the-round-entry-4.md) | Series/education post (long-form) | Thesis · P2 | Conversion | Inner | READY |
 | 2026-08-13 | [thirteen-months-old-script](2026-08-13-thirteen-months-old-script.md) | 45-60s video script | Thesis · P4 | Growth | Outer | READY |

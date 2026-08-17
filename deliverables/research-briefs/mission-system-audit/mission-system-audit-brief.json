@@ -2,11 +2,11 @@
   "slug": "mission-system-audit",
   "chip": "MISSION · THREAD",
   "title": "Retry weakest section for intent *alignment*",
-  "dek": "The judgment floor landed, the thread never closed, and its name points at the wrong work.",
+  "dek": "Audited, filed, unread — the finding that matters is that nobody read the findings.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 12, 2026",
+  "compiled": "aug 17, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread shipped a change to how the harness defaults to evidence-backed judgment and pushback, plus repairs to the verification and routing telemetry around it. It has been quiet since, and it carries a title picked up from an unrelated client deliverable.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Decide whether the judgment-floor change is settled — close the thread if it is, or name the behavior still misfiring if it isn't."
+      "body": "The audit deliverables are finalized and a solution card came out of the work, but the recorded outcome says plainly that the findings were never actually read or absorbed. A second outcome closes the thread as a system asset rather than a revenue one.\n\nHandoff status is active. Last activity today.\n\nNext: Read the audit findings and either act on one of them or retire them explicitly."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "8",
+          "value": "13",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -57,18 +57,6 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
-    },
-    {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Decide: resume or park",
-          "why": "It has gone quiet while still marked open, and an audit thread that lingers half-open makes every future audit look unfinished."
-        }
-      ]
     },
     {
       "kind": "assets",
@@ -104,6 +92,12 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
+          "date": "2026-08-17",
+          "title": "commit eae54a99b",
+          "body": "chore(session): end-session commit gate — 2026-08-17",
+          "done": true
+        },
+        {
           "date": "2026-08-04",
           "title": "Finalized · system-audit",
           "body": "Global Codex-native Adaptive Judgment Floor, AAR, preservation fixture, verifier, and routing telemetry repair",
@@ -138,7 +132,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The shipped work self-scored below the system's own keep bar and was never re-graded. The mislabeled title also means anyone finding this thread by name will misidentify what it contains.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The thread's own resume line describes client listing work rather than a system audit, so the label and the contents have drifted apart — treat the title with suspicion. The one honest outcome on record is a not-absorbed verdict, which means the work exists but changed nothing.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

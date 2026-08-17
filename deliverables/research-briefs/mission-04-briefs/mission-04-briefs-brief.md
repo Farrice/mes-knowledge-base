@@ -1,23 +1,27 @@
 # Added complete production playbook and morning content…
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 12, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
 
-The readout layer is done and earning its keep; it doesn't need a driver.
+Best-rated work on the board, parked with nobody using it.
 
 ## where this stands
 _CURRENT POSITION_
-The brief and readout layer shipped and is now the surface most other threads render into: templates, a board shelf, agent context packs, and a consistent brand skin across all of it. It graded well and has been quietly absorbed into daily use.
+The production playbook and morning brief layer landed at keep grade — among the few results in this sweep rated worth keeping — and then the thread went quiet.
 
-Handoff status is active. Last activity 6d ago.
+Handoff status is active. Last activity 11d ago.
 
-Next: Close this thread and let any further change be driven by a downstream thread that hits a real limit.
+Next: Decide whether this layer is finished: close it, or name the next piece it needs.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **7 d**
+- DAYS ACTIVE: **12 d**
 
 ## lifecycle
 
+
+## what needs you
+Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
+1. **Decide: resume or park** — This is some of the highest-rated work in the sweep sitting idle with an open status — either it is done and should be closed, or something downstream is quietly waiting on it.
 
 ## pick it back up
 1. **Resume here** — Added complete production playbook and morning content brief layer to the content-team OS launch assets. Created 05-content-production-playbook.md with morning run-of-show, time-boxed production modes, format decision tree, asset SOPs, daily minimum, standard day, flagship day, and end-of-day closeout. Created 06-morning-content-brief-template.md with a 10-section daily production brief, paste-ready AI production prompt, and filled Thursday example. Updated 00-START-HERE.md to index the new files. Grounded in brand-operating-system skill and master creative brief inheritance, plus the existing content-team OS launch assets. Verification: file inventory pass, ASCII pass, unsafe-language scan pass, export_format_guard pass, prose warnings expected for checklist/template parallel structure.
@@ -37,7 +41,7 @@ python3 execution/handoff_store.py resume 04-briefs
 
 ## what this isn't
 _READ THE EDGES_
-The thread's title was captured from an unrelated build note, so its label understates what it is. The work is verified by build checks, not by evidence that anyone read a brief and acted differently because of it.
+Quality was self-assessed at finalize time and no outcome has been recorded, so keep grade means the work was judged good, not that anyone has run a day off it yet.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

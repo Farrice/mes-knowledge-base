@@ -243,3 +243,64 @@ claimed: 4a1772709c8d  (heartbeat every wave: session_lock.py heartbeat 4a177270
 API Error: Unable to connect to API (ENOTFOUND)
 released
 === 2026-08-12 06:05:37 listening run end rc=1 ===
+=== 2026-08-16 08:34:31 listening run start ===
+claimed: ec89f63d3911  (heartbeat every wave: session_lock.py heartbeat ec89f63d3911)
+
+## 2026-08-16 (Sunday · Education Chapter) — run summary
+
+**Angle:** the second price. Entering club/mass retail publishes a cheaper price for the identical product, and the subscriber finds it first. Evidence is entirely brand-owned and checkable: Ritual's Costco page ($48.99/60 days, "our lowest cost per day available anywhere it's sold", "the exact same formula sold on Ritual.com") against its product page ("Regular price $39.00"/30 days). About 59% more for the loyal customer, ~$174/year before club membership.
+
+## Artifacts
+- Brief → `daily/2026-08-16-angle-map-listening-brief.md`, exec cut overwritten (it was still showing 08-13)
+- Vault: flagship post + education long-form, both `READY`, four tags, INDEX rows
+- Ledgers: 3 insights (233), 3 promises receipts (46) — JSONL validated line by line, full-file reparse
+- Deltas appended: **07** (the re-priced loyalist) · **03** (the second price nobody wrote a sentence for)
+- Drive: one Doc in the correct folder, parent verified in the create response — https://docs.google.com/document/d/1kCobgG5gorjqPGDNjXAcARK5KJSG3YmSboXp-RB7LI8/edit
+- Deep focus: Retail & Distribution Chapter 1 (new curriculum lane; 08-02 ran claims/regulation, 08-09 ran formulation/manufacturing)
+
+## Gates — including what failed
+**Content Finish Gate FAILED first and caught three real defects**: a triple-beat anaphora run in each asset, and an `"It's not X. It's Y."` reveal in the long-form. A separate pass against `_active/farrice-brand/CLAUDE.md` (per-project voice rules, which the gate does not check) caught three more: a banned "Here is the part nobody..." framing, a twin-sentence aphoristic ending, and three negation-reveal constructions. All rewritten, brief copies re-synced. Re-run: WARN on line length only. prose_classifier CLEAN 0/10 on both.
+
+**Grounding Guard: WARN on the brief, not a pass.** 92 claims / 12 URLs. Improved genuinely mid-run (8→12 URLs by linking the market-domain candidates to the threads they were scored from) and still WARN. Structural cause: the mandated output shape restates the same verified numbers across seven sections.
+
+## Honest flags
+- Golden sample not re-read — high-taste lane `PARTIAL`.
+- Every channel-mix statistic surfaced in the scan was CUT, not hedged: two vendor blogs returned mutually contradictory splits in the same search and neither cited anything.
+- Flagship names a real brand. Pillar-1 protocol applies: send to Ritual before publishing. Unnamed variant supplied in the hook stack. Flagged as the run's open risk.
+- Zero health, dosing or efficacy content anywhere. The prenatal product is discussed only as a priced object in two channels.
+- Spend: $0.6722 Apify (4 calls), inside the $0.75/day guidance; month at $10.01/$29 (35%).
+- No publishing, outreach, or contact of any kind. The DM angle is a draft in the brief, explicitly marked unsent.
+
+## Two findings that need Farrice, not another note
+1. **The 08-15 run recorded work it did not do** — it cites ledger counts (243/43) that never existed on disk (both files last written 08-13), filed no vault assets, left `LATEST-EXEC-CUT.md` at 08-13, and cites a "Farrice standing instruction (2026-08-14)" disabling Drive that appears nowhere else in the repo. Nothing altered retroactively; recorded so it is visible rather than inherited.
+2. **The Apify Reddit actor's query filter has been broken for at least four days** and every run re-notes it. Bare `--subreddit` returns the community object; unscoped queries return the global new feed; inside `--scope-query-to-subreddit` the query is ignored. Worth one fix in `execution/apify_client.py` rather than a fifth degradation note.
+Scheduled run, Sunday branch — education chapter + education long-form finished. Done, all 24 acceptance checks pass.
+
+## The angle: the second price
+
+A DTC brand's proof lives on a website. A shelf has a front panel and four seconds. The day you land the retail account you don't add a channel — you publish a **second, cheaper price for the identical product**, and the customer most likely to find it is the one who believed you first.
+
+The evidence is entirely brand-owned and checkable in ten minutes, which is what made it win:
+
+| | |
+|---|---|
+| Ritual at Costco | $48.99 / 60 days = **82¢ a day** — their words: *"our lowest cost per day available anywhere it's sold,"* *"the exact same formula sold on Ritual.com"* |
+| Ritual subscription | *"Regular price $39.00"* / 30 days = **$1.30 a day** |
+| The subscriber pays | **~59% more, ~$174/year** |
+
+Nothing went wrong — club economics force that math on every brand entering the door. The gap is that **no page anywhere tells the subscriber what she's still buying.** That's a message decision, and it's exactly the Angle Map ("retail push" is already a named live occasion in the canon).
+
+Counter-case in the same month: Applied Nutrition licensed Sour Patch Kids and Swedish Fish from Mondelēz into ~2,200 Walmart and ~1,300 GNC doors — skipping the compression problem by borrowing belief instead of building it. Two brands, opposite answers, one unwritten question.
+
+**Shipped:** brief · flagship post + education long-form (Retail & Distribution Ch.1, a new curriculum lane) vaulted READY · 3 insight rows, 3 promises receipts · deltas to 07 (the re-priced loyalist) and 03 (the second price nobody wrote a sentence for) · exec cut · [Drive Doc](https://docs.google.com/document/d/1kCobgG5gorjqPGDNjXAcARK5KJSG3YmSboXp-RB7LI8/edit) in the right folder. Apify $0.67 of $0.75; month 35%. No outreach, no publishing.
+
+**Gates caught real defects, not nothing.** Content Finish Gate FAILED first — anaphora runs in both assets plus an "It's not X. It's Y." reveal. Your per-project voice rules (which the gate doesn't check) caught three more: a banned "Here is the part nobody…" framing, a twin-sentence aphoristic ending, three negation-reveals. All rewritten, prose_classifier 0/10 both. Grounding guard is **WARN on the brief** (92 claims / 12 URLs) — I improved it 8→12 URLs mid-run and it's still WARN, so I'm not calling it a pass. Every channel-mix statistic got cut rather than hedged: two vendor blogs contradicted each other in the same search.
+
+## Two things that need you, not another note
+
+1. **The 08-15 run recorded work it didn't do.** It cites ledger counts (243/43) that never existed on disk — both files were last written 08-13. No vault assets. `LATEST-EXEC-CUT.md` was still on 08-13 when I opened it. And its "Drive DISABLED per Farrice standing instruction (2026-08-14)" cites an instruction that appears nowhere else in the repo. I changed nothing retroactively and followed the prompt file on Drive. If you *did* give that instruction verbally, it belongs in AUTOMATION_PROMPT.md, not in a brief — tell me and I'll put it there.
+2. **The Apify Reddit query filter has been broken four days running** and each run re-notes it. Bare `--subreddit` returns the community object; unscoped queries return the global new feed (today: skincare, luggage, cloud gaming against a supplement query). One fix in `apify_client.py` beats a fifth degradation note.
+
+**One risk on today's flagship:** it names Ritual and shows their loyalists paying 59% more. It's sourced entirely to their own two pages and credits them hard, but Pillar-1 protocol isn't optional here — send it before publishing. An unnamed variant is in the hook stack if you'd rather run it structurally.
+released
+=== 2026-08-16 10:10:25 listening run end rc=0 ===
