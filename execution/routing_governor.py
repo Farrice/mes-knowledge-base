@@ -1953,10 +1953,38 @@ def is_preservation_first_storage_recovery_intent(query: str) -> bool:
     )
 
 
+def is_workspace_reliability_smoke_test_intent(query: str) -> bool:
+    """Return True for a bounded proof request spanning live workspace systems."""
+    normalized = normalize_query(query)
+    has_proof_request = any(
+        term in normalized
+        for term in (
+            "test and confirm",
+            "verify and confirm",
+            "make sure everything works",
+        )
+    )
+    system_hits = sum(
+        1
+        for term in (
+            "document lifecycle",
+            "google doc",
+            "icloud",
+            "upload monitor",
+            "workspace",
+            "harness",
+        )
+        if term in normalized
+    )
+    return has_proof_request and system_hits >= 2
+
+
 def is_system_audit_query(query: str) -> bool:
     """Return True when the user is directly asking for a system audit."""
     normalized = normalize_query(query)
     if is_preservation_first_storage_recovery_intent(normalized):
+        return True
+    if is_workspace_reliability_smoke_test_intent(normalized):
         return True
     if is_operating_alignment_intent(normalized):
         return True

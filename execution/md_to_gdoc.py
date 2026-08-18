@@ -306,12 +306,16 @@ def upload_html_as_gdoc(html_path, name, folder_id=None):
 
     result = subprocess.run(cmd_copy, capture_output=True, text=True)
 
-    # Step 3: Delete temp HTML file
+    # Step 3: Delete temp HTML file. gws otherwise leaves an empty
+    # download.html response in the working directory for this 204 response.
+    delete_response = Path(html_path).with_suffix('.delete-response')
     cmd_delete = [
         'gws', 'drive', 'files', 'delete',
-        '--params', json.dumps({"fileId": temp_file_id})
+        '--params', json.dumps({"fileId": temp_file_id}),
+        '--output', str(delete_response),
     ]
     subprocess.run(cmd_delete, capture_output=True, text=True)
+    delete_response.unlink(missing_ok=True)
 
     if result.returncode != 0 or 'error' in result.stdout.lower():
         print(f"  ✗ Error converting {name}: {result.stdout[:200]}")
@@ -397,8 +401,12 @@ def convert_and_upload(md_path, folder_id=None, name=None, pageless=True,
     # Convert to HTML
     html_content = md_to_html(md_text)
 
-    # Write to temp file
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8') as f:
+    # gws only uploads files from the active workspace. Keep conversion
+    # intermediates inside the repo instead of macOS's private temp directory.
+    staging_dir = Path.cwd() / '.tmp'
+    staging_dir.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False,
+                                     encoding='utf-8', dir=staging_dir) as f:
         f.write(html_content)
         html_path = f.name
 

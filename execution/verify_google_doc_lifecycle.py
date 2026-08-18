@@ -35,6 +35,10 @@ def main() -> int:
             failures.append(f"{name} is not wired to the living registry")
     if "--new-milestone" not in md_exporter or "--doc-id" not in md_exporter:
         failures.append("Markdown export lacks explicit milestone/adoption controls")
+    if "dir=staging_dir" not in md_exporter:
+        failures.append("Markdown export stages uploads outside the active workspace")
+    if "delete_response.unlink(missing_ok=True)" not in md_exporter:
+        failures.append("Markdown export may leave a Drive delete response file behind")
 
     if failures:
         print("GOOGLE DOC LIFECYCLE VERIFICATION FAILED")

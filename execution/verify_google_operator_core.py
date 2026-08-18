@@ -21,6 +21,12 @@ STORAGE_RECOVERY_PROMPT = (
     "then run free-first offer research; no unapproved deletion or publishing"
 )
 
+SYSTEM_RELIABILITY_PROMPT = (
+    "Test and confirm the living-document and Google Docs lifecycle fix, keep a "
+    "temporary read-only watch on iCloud upload completion and disk space, and "
+    "recommend only essential follow-up without overbuilding."
+)
+
 HOT_ROUTES = [
     "mission",
     "source-to-skill-system",
@@ -40,6 +46,7 @@ PROBES = [
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("Codex explains and plans instead of executing safe local next actions", "system-audit"),
     (STORAGE_RECOVERY_PROMPT, "system-audit"),
+    (SYSTEM_RELIABILITY_PROMPT, "system-audit"),
     ("Run free-first offer research", "deep-research-os"),
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("Implement the Google Antigravity global access layer in Codex, reconcile routing and hot/cold policy first, then package the skill manifest as a personal plugin without context rot.", "system-audit"),
@@ -361,7 +368,9 @@ def check_storage_recovery_routing() -> list[str]:
     receipts: list[str] = []
     probes = (
         (STORAGE_RECOVERY_PROMPT, "system-audit", True),
+        (SYSTEM_RELIABILITY_PROMPT, "system-audit", True),
         ("Create a Google Drive offer for archive recovery clients", "", False),
+        ("Write a Google Doc about iCloud upload trends", "", False),
         ("Run free-first offer research", "deep-research-os", True),
     )
     for query, expected, exact in probes:
