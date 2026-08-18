@@ -100,9 +100,10 @@ def slot_collision(file_path: str, name: str) -> str | None:
         "LIVING SLOT (deterministic): "
         + ", ".join(f"`{r}`" for r in sorted(rivals)[:3])
         + f" already claim the '{slot}' slot in this folder. An undated filename "
-        "means LIVING — one per slot, updated in place. Either update the "
-        f"existing one, or lead this filename with `{today}-` to mark it as a "
-        "dated record of this session."
+        "means LIVING — one per slot, updated in place. Editing passes and minor "
+        "wording do not earn v2/v3/final files. Create a separate document only "
+        "when purpose, audience, approval state, or evidence materially changes; "
+        f"then lead it with `{today}-` as a milestone record. Never auto-delete."
     )
 
 

@@ -108,6 +108,7 @@ DEFAULT_OUT = ROOT / "deliverables" / "research-briefs"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from degrade import degraded  # noqa: E402
+from google_doc_lifecycle import content_hash, lookup, record  # noqa: E402
 CONFIDENCE = {"VERIFIED", "LIKELY", "UNCONFIRMED"}
 
 # Share mode (--share): strip internals so the variant is safe to send outward.
@@ -828,23 +829,32 @@ def export_gdoc(out_html, title):
     with a one-line warning — the brief itself must never block on Google.
     """
     try:
-        r = subprocess.run(
-            ["gws", "drive", "files", "create",
-             "--json", json.dumps({"name": title,
-                                   "mimeType": "application/vnd.google-apps.document"}),
-             "--upload", str(out_html),
-             "--upload-content-type", "text/html"],
-            capture_output=True, text=True, timeout=120,
-        )
+        source_hash = content_hash(Path(out_html).read_text(encoding="utf-8"))
+        existing = lookup(out_html, None, title)
+        if existing and existing.get("source_hash") == source_hash:
+            return existing.get("link")
+        if existing:
+            args = ["gws", "drive", "files", "update",
+                    "--params", json.dumps({"fileId": existing["doc_id"],
+                                             "fields": "id,name,webViewLink"}),
+                    "--upload", str(out_html), "--upload-content-type", "text/html"]
+        else:
+            args = ["gws", "drive", "files", "create",
+                    "--json", json.dumps({"name": title,
+                                          "mimeType": "application/vnd.google-apps.document"}),
+                    "--upload", str(out_html), "--upload-content-type", "text/html"]
+        r = subprocess.run(args, capture_output=True, text=True, timeout=120)
         if r.returncode != 0:
             print(f"[render_brief] WARN gdoc export failed (brief still rendered): {r.stderr.strip()[:160]}")
             return None
         data = json.loads(r.stdout)
-        file_id = data.get("id")
+        file_id = data.get("id") or (existing or {}).get("doc_id")
         if not file_id:
             print("[render_brief] WARN gdoc export returned no file id")
             return None
-        return f"https://docs.google.com/document/d/{file_id}/edit"
+        link = data.get("webViewLink") or f"https://docs.google.com/document/d/{file_id}/edit"
+        record(out_html, None, title, file_id, source_hash, link)
+        return link
     except Exception as e:  # gws missing, timeout, bad JSON — same graceful contract
         print(f"[render_brief] WARN gdoc export failed (brief still rendered): {e}")
         return None

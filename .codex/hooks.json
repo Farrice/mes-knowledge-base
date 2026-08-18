@@ -32,6 +32,16 @@
             "timeout": 10
           }
         ]
+      },
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" artifact-placement",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "UserPromptSubmit": [

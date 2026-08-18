@@ -178,16 +178,20 @@ def check_hook_parity() -> list[str]:
                 if command:
                     commands.append(command)
 
-    # 8 = 6 original + 2 orphan hooks wired in Wave 1 (commit 3790f3014).
-    if len(commands) != 8:
-        fail(f"Expected 8 hook commands, found {len(commands)}")
+    # 9 = 6 original + 2 orphan hooks + document-placement parity.
+    if len(commands) != 9:
+        fail(f"Expected 9 hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("Every Codex hook command must call codex_hook_runner.py")
     if not any("dangerous-git" in command for command in commands):
         fail("Codex hook bridge is missing dangerous-git protection")
+    if not any("artifact-placement" in command for command in commands):
+        fail("Codex hook bridge is missing document-placement hygiene")
     if any("CLAUDE_PROJECT_DIR" in command for command in commands):
         fail(".codex/hooks.json still directly depends on CLAUDE_PROJECT_DIR")
-    receipts.append("hooks.json uses codex_hook_runner.py for all 8 hooks, including dangerous-git")
+    receipts.append(
+        "hooks.json uses codex_hook_runner.py for all 9 hooks, including dangerous-git and artifact-placement"
+    )
 
     config = CONFIG_PATH.read_text(encoding="utf-8") if CONFIG_PATH.exists() else ""
     state_hook_paths = [HOOKS_PATH]

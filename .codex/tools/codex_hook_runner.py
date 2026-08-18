@@ -77,6 +77,7 @@ TARGETS = {
     "skill-router": ("execution/skill_router_hook.py", []),
     "active-tool-lock": ("execution/hooks/active_tool_lock.py", ["codex"]),
     "guard-stranded": ("execution/hooks/guard_stranded_deliverables.py", ["check"]),
+    "artifact-placement": ("execution/hooks/artifact_placement_hook.py", []),
 }
 
 
