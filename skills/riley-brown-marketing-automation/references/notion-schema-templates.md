@@ -24,6 +24,9 @@
 | **Scraped** | date | both | today |
 | **Analysis** | rich_text (≤2000) | both | the "why it works" / "why it survived" verdict — full breakdown goes in the page **body** blocks (2000-char property cap; `notion_api.py` chunks long text into `heading2`/`para` blocks) |
 | **Batch** | rich_text | both | run tag (e.g. `riley-2026-07-24`, `ad-spy-2026-07-24-ag1`) — lets `verify --batch <tag>` query results back |
+| **Watch Fingerprint** | rich_text | `/watch` bridge | content-bound sync identity; keeps receipt/topic upgrades idempotent without overwriting Riley's `Batch` |
+| **Evidence State** | select | `/watch` bridge | `TRANSCRIPT_ONLY` / `VISUAL_CAPTURED_UNREVIEWED` / `PARTIAL_VISUAL_VERIFIED` / `VISUAL_VERIFIED`; the Notion writer never upgrades this on its own |
+| **Topics** | multi_select | `/watch` bridge | normalized, deduplicated caller/packet topics; no competing taxonomy engine |
 | **Extract Candidate** | checkbox | both | marks a pattern-rich creator / #1 longest-running ad for graduation to `/extract` |
 
 ---
@@ -44,3 +47,4 @@
 3. **Rank honestly.** Creators by non-sponsored engagement; ads by runtime (an inference proxy, not ROAS proof).
 4. **Bake "return a link" in.** Every write returns the Notion page/DB URL for instant review (Riley's "always provides a link" move).
 5. **Verify before trusting a run.** `python3 execution/ad_spy.py verify --batch <tag>` queries Notion back — never report a count from the ingest log alone.
+6. **Reuse evidence packets.** Exact videos flow `/watch` packet → `social_to_notion.py --watch-packet` → this same DB. Do not send them through creator scraping or download them twice.
