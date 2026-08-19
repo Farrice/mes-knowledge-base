@@ -1,11 +1,12 @@
 import json
+import sys
 import unittest
 from pathlib import Path
 
-from lead_to_proposal import LeadToProposalWorkflow, run_fixture
-
-
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+from lead_to_proposal import LeadToProposalWorkflow, run_fixture
 
 
 class WorkflowTests(unittest.TestCase):

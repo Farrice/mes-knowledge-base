@@ -291,7 +291,11 @@ PAGE = """<!doctype html>
   var cardsEl = document.getElementById('cards');
   var allCards = Array.prototype.slice.call(cardsEl.querySelectorAll('.brief-card'));
   var state = { sort:'newest', pri:'all', cat:'all', shelf:'active', page:1 };
-  var ROOM_LIVE = location.protocol.startsWith('http');
+  /* HTTP alone does not mean this is the Pulse server. Generic preview
+     servers cannot answer /repo/ routes, so live behavior stays off until a
+     same-checkout /ping handshake succeeds. */
+  var ROOM_LIVE = false;
+  var ROOM_HANDSHAKE = Promise.resolve(false);
 
   function toast(msg){
     var t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
@@ -382,28 +386,40 @@ PAGE = """<!doctype html>
      mapper only for that surface; brief cards no longer depend on it. */
   var REPO_ROOT = {{REPO_ROOT_JSON}};
   var PREFIX = REPO_ROOT ? ('file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/') : '';
+  if (location.protocol.startsWith('http')){
+    ROOM_HANDSHAKE = fetch('/ping', {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){
+        ROOM_LIVE = !!(j && j.pulse && j.root === REPO_ROOT);
+        document.documentElement.dataset.roomLive = ROOM_LIVE ? 'true' : 'false';
+        return ROOM_LIVE;
+      })
+      .catch(function(){ ROOM_LIVE = false; return false; });
+  }
   function toRepo(uri){
     if (!ROOM_LIVE || !PREFIX || !uri || uri.indexOf(PREFIX) !== 0) return null;
     return '/repo/' + uri.slice(PREFIX.length);
   }
   document.querySelectorAll('.brief-card').forEach(function(card){
     card.addEventListener('click', function(ev){
-      var mapped = liveRepo(card.dataset.repoPath);
-      if (!mapped) return;            // static mode — relative anchor is valid
-      ev.preventDefault(); window.location = mapped;
+      ev.preventDefault();
+      ROOM_HANDSHAKE.then(function(){
+        window.location = liveRepo(card.dataset.repoPath) || card.getAttribute('href');
+      });
     });
   });
   document.querySelectorAll('.brief-card .links span[data-static-href]').forEach(function(el){
     el.addEventListener('click', function(ev){
       ev.preventDefault(); ev.stopPropagation();
-      go(el.dataset.staticHref, el.dataset.repoPath);
+      ROOM_HANDSHAKE.then(function(){ go(el.dataset.staticHref, el.dataset.repoPath); });
     });
   });
   document.querySelectorAll('.brief-card a.tagc.sup').forEach(function(el){
     el.addEventListener('click', function(ev){
-      var mapped = liveRepo(el.dataset.repoPath);
-      if (!mapped) return;
-      ev.preventDefault(); ev.stopPropagation(); window.location = mapped;
+      ev.preventDefault(); ev.stopPropagation();
+      ROOM_HANDSHAKE.then(function(){
+        window.location = liveRepo(el.dataset.repoPath) || el.getAttribute('href');
+      });
     });
   });
   /* Sibling boards get their live ROUTE, not their file. /repo/ would serve a
@@ -414,15 +430,18 @@ PAGE = """<!doctype html>
                       ['/deliverables/research-briefs/index.html','/room']];
   document.querySelectorAll('.homenav a[href^="file:"]').forEach(function(el){
     el.addEventListener('click', function(ev){
-      if (!ROOM_LIVE) return;
-      var href = decodeURI(el.getAttribute('href') || '');
-      for (var i = 0; i < BOARD_ROUTES.length; i++){
-        if (href.indexOf(BOARD_ROUTES[i][0]) !== -1){
-          ev.preventDefault(); window.location = BOARD_ROUTES[i][1]; return;
+      ev.preventDefault();
+      ROOM_HANDSHAKE.then(function(){
+        var href = decodeURI(el.getAttribute('href') || '');
+        if (!ROOM_LIVE){ window.location = el.getAttribute('href'); return; }
+        for (var i = 0; i < BOARD_ROUTES.length; i++){
+          if (href.indexOf(BOARD_ROUTES[i][0]) !== -1){
+            window.location = BOARD_ROUTES[i][1]; return;
+          }
         }
-      }
-      var mapped = toRepo(el.getAttribute('href'));
-      if (mapped){ ev.preventDefault(); window.location = mapped; }
+        var mapped = toRepo(el.getAttribute('href'));
+        window.location = mapped || el.getAttribute('href');
+      });
     });
   });
   document.querySelectorAll('.brief-card .links span[data-act]').forEach(function(el){
@@ -441,21 +460,24 @@ PAGE = """<!doctype html>
       ev.preventDefault(); ev.stopPropagation();
       var life = el.dataset.life, slug = el.dataset.slug;
       var cli = 'python3 execution/brief_library.py ' + life + ' ' + slug;
-      if (!ROOM_LIVE){ copyText(cli, 'server offline — command copied'); return; }
-      fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ action: 'brief-' + life, args: { slug: slug } }) })
-        .then(function(r){ return r.json(); })
-        .then(function(j){
-          if (j.ok){ var t = document.getElementById('toast');
-            t.textContent = life + 'd — refreshing'; t.classList.add('show');
-            setTimeout(function(){ location.reload(); }, 700); }
-        })
-        .catch(function(){ copyText(cli, 'server unreachable — command copied'); });
+      ROOM_HANDSHAKE.then(function(){
+        if (!ROOM_LIVE){ copyText(cli, 'server offline — command copied'); return; }
+        fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                          body: JSON.stringify({ action: 'brief-' + life, args: { slug: slug } }) })
+          .then(function(r){ return r.json(); })
+          .then(function(j){
+            if (j.ok){ var t = document.getElementById('toast');
+              t.textContent = life + 'd — refreshing'; t.classList.add('show');
+              setTimeout(function(){ location.reload(); }, 700); }
+          })
+          .catch(function(){ copyText(cli, 'server unreachable — command copied'); });
+      });
     });
   });
 
   // side-window live reload — when served, poll for regenerations and refresh
-  if (ROOM_LIVE){
+  ROOM_HANDSHAKE.then(function(live){
+    if (!live) return;
     var baseline = null;
     setInterval(function(){
       fetch('/ping').then(function(r){ return r.json(); }).then(function(j){
@@ -463,7 +485,7 @@ PAGE = """<!doctype html>
         if (j.room_mtime && j.room_mtime !== baseline){ location.reload(); }
       }).catch(function(){});
     }, 5000);
-  }
+  });
 
   apply();
 </script>

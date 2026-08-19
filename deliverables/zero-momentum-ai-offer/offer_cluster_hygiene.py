@@ -26,16 +26,16 @@ def main() -> int:
 
     checks = [
         check("one_active_primary", "Lead-to-Proposal Proof Sprint" in canon and "Lead-to-Proposal Proof Sprint" in readme, "Launch Control and canon name the same primary."),
-        check("price_consistency", "$1,500" in canon and "$750 paid to begin" in canon and "$1,500" in landing and "$750 to begin" in landing, "Landing and canon use $1,500 / $750 + $750."),
+        check("price_consistency", "$1,500" in canon and "$750 paid to begin" in canon and "$1,500" in landing and "To begin" in landing and "$750" in landing, "Landing and canon use $1,500 / $750 + $750."),
         check("old_primary_parked", "status: parked_as_primary" in old and "PARKED AS PRIMARY" in old, "Old Angle Map canon is explicitly parked and linked."),
         check("supplement_secondary", "Secondary adapter — PARKED" in canon and "first paid services pilot" not in landing, "Supplement adapter is prepared but not front-facing."),
-        check("proof_disclosure", "exact Farrice Cain offer is untested" in landing and "UNTESTED" in readme, "Market proof is not represented as exact-offer validation."),
+        check("proof_disclosure", "exact Farrice Cain offer remains unvalidated" in landing and "UNTESTED" in readme, "Market proof is not represented as exact-offer validation."),
         check("no_revenue_guarantee", "No revenue guarantee" in canon and "does not guarantee a sale" in landing, "Offer promise is behavior-bounded."),
         check("human_hold", "Human approval before any proposal" in canon and "HOLD_FOR_HUMAN" in json.dumps(receipt), "Canon and test output both require a human."),
         check("demo_inspected", receipt.get("failed") == 0 and receipt.get("all_human_holds_worked") is True, "All fixture outputs and holds passed."),
         check("ai_removal_test", "Remove “AI” from the headline" in tournament, "Offer remains intelligible without AI."),
         check("cta_present", "Workflow Loss Review" in canon and "Workflow Loss Review" in landing, "One consistent next step."),
-        check("external_placeholders", "BOOKING LINK PLACEHOLDER — NOT LIVE" in landing, "No invented booking destination."),
+        check("external_placeholders", "Booking destination intentionally not connected" in landing, "No invented booking destination."),
     ]
     result = {
         "verdict": "PASS" if all(x["passed"] for x in checks) else "FAIL",

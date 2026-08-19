@@ -43,10 +43,19 @@
     "landing_proof_disclosure": true,
     "landing_risk_reversal": true,
     "landing_placeholder": true,
+    "landing_parallax_identity": true,
+    "landing_parallax_palette": true,
+    "landing_no_retired_palette": true,
+    "room_index_exists": true,
     "brief_work-recovery-command-board": true,
+    "room_card_work-recovery-command-board": true,
     "brief_market-proof-dossier": true,
+    "room_card_market-proof-dossier": true,
     "brief_offer-launch-kit": true,
-    "brief_demo-test-receipt": true
+    "room_card_offer-launch-kit": true,
+    "brief_demo-test-receipt": true,
+    "room_card_demo-test-receipt": true,
+    "no_retired_worktree_paths": true
   },
   "failed": []
 }

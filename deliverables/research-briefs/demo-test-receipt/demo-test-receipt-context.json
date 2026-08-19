@@ -15,25 +15,25 @@
     {
       "path": "deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/demo-test-receipt.json",
       "role": "test receipt"
     },
     {
       "path": "deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/lead_to_proposal.py",
       "role": "workflow source"
     },
     {
       "path": "deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
       "role": "synthetic fixtures"
     },
     {
       "path": "deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py",
+      "abs": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/tests/test_workflow.py",
       "role": "regression tests"
     }
   ],

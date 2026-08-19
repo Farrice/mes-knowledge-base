@@ -1,6 +1,6 @@
 {
   "proof_state": "LOCAL_DEMONSTRATION_ONLY",
-  "fixture": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-offer/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
+  "fixture": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/zero-momentum-design-repair/deliverables/zero-momentum-ai-offer/demo/fixtures/cases.json",
   "cases": 19,
   "passed": 19,
   "failed": 0,
@@ -30,7 +30,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Northstar Studio: Brand strategy sprint\nClient-stated budget: $12,000\nClient-stated timeline: Q4 2026\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -70,7 +70,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Harbor Advisory: Operations advisory\nClient-stated budget: $18,000\nClient-stated timeline: September 2026\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -110,7 +110,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Fieldwork Media: Content program\nClient-stated budget: $9,500\nClient-stated timeline: Six weeks\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -150,7 +150,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Stonebridge Consulting: Growth diagnostic\nClient-stated budget: $7,500\nClient-stated timeline: October 2026\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -190,7 +190,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Brightline Creative: Campaign strategy\nClient-stated budget: $15,000\nClient-stated timeline: Eight weeks\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -230,7 +230,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Signal Path: CRM optimization\nClient-stated budget: $6,000\nClient-stated timeline: This quarter\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -270,7 +270,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Common Ground: Research engagement\nClient-stated budget: $11,000\nClient-stated timeline: November 2026\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -310,7 +310,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Axis Partners: GTM advisory\nClient-stated budget: $20,000\nClient-stated timeline: Twelve weeks\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -350,7 +350,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Quiet Signal: Messaging system\nClient-stated budget: $8,000\nClient-stated timeline: October 2026\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -390,7 +390,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Mosaic Works: Client experience audit\nClient-stated budget: $10,000\nClient-stated timeline: Six weeks\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -430,7 +430,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Repeat Co: Automation audit\nClient-stated budget: $5,000\nClient-stated timeline: Thirty days\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {
@@ -776,7 +776,7 @@
         "proposal_draft": "DRAFT \u2014 HUMAN APPROVAL REQUIRED\n\nFor Approval Test: Proposal workflow\nClient-stated budget: $7,000\nClient-stated timeline: Six weeks\n\nScope and claims must be checked against the approved template before sending.",
         "follow_up_task": {
           "owner": "WORKFLOW_OWNER_PLACEHOLDER",
-          "due": "2026-08-14",
+          "due": "2026-08-20",
           "action": "Review qualification and proposal draft; approve, edit, or reject."
         },
         "crm_record": {

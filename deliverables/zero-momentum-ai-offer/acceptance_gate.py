@@ -26,6 +26,8 @@ def main() -> int:
     linkedin = (HERE / "linkedin-launch-kit.md").read_text()
     tournament = (HERE / "offer-tournament.md").read_text()
     landing = (HERE / "landing-page.html").read_text()
+    room_path = ROOT / "deliverables/research-briefs/index.html"
+    room = room_path.read_text()
     demo = json.loads((HERE / "demo/demo-test-receipt.json").read_text())
     hygiene = json.loads((HERE / "offer-cluster-hygiene-receipt.json").read_text())
 
@@ -59,15 +61,31 @@ def main() -> int:
         "demo_zero_failures": actual["demo_failed"] == 0,
         "demo_human_hold": demo.get("all_human_holds_worked") is True,
         "offer_cluster_hygiene": hygiene.get("verdict") == "PASS",
-        "landing_price": "$1,500" in landing and "$750 to begin" in landing,
-        "landing_proof_disclosure": "exact Farrice Cain offer is untested" in landing,
+        "landing_price": "$1,500" in landing and "To begin" in landing and "$750" in landing,
+        "landing_proof_disclosure": "exact Farrice Cain offer remains unvalidated" in landing,
         "landing_risk_reversal": "owe no final balance" in landing,
-        "landing_placeholder": "BOOKING LINK PLACEHOLDER — NOT LIVE" in landing,
+        "landing_placeholder": "Booking destination intentionally not connected" in landing,
+        "landing_parallax_identity": "parallax-design-system/assets/wordmark.svg" in landing,
+        "landing_parallax_palette": all(token in landing for token in ("#1C1C1E", "#7B61FF", "#F5F0EB")),
+        "landing_no_retired_palette": not any(token in landing for token in ("#14202b", "#526d82", "#275d4b")),
+        "room_index_exists": room_path.is_file(),
     })
     briefs = ["work-recovery-command-board", "market-proof-dossier", "offer-launch-kit", "demo-test-receipt"]
+    route_files = []
     for slug in briefs:
         base = ROOT / "deliverables/research-briefs" / slug
-        checks[f"brief_{slug}"] = all((base / f"{slug}-{suffix}").exists() for suffix in ("brief.html", "brief.md", "context.json"))
+        expected = [base / f"{slug}-{suffix}" for suffix in ("brief.html", "brief.md", "context.json")]
+        route_files.extend(expected)
+        checks[f"brief_{slug}"] = all(path.is_file() for path in expected)
+        checks[f"room_card_{slug}"] = (
+            f'data-repo-path="deliverables/research-briefs/{slug}/{slug}-brief.html"' in room
+        )
+
+    old_temp_root = ".tmp/codex-worktrees/zero-momentum-offer"
+    inspected = [room_path, HERE / "landing-page.html", *route_files]
+    checks["no_retired_worktree_paths"] = all(
+        old_temp_root not in path.read_text(errors="ignore") for path in inspected if path.is_file()
+    )
 
     failed = [name for name, passed in checks.items() if not passed]
     receipt = {"verdict": "PASS" if not failed else "FAIL", "actual": actual, "minimums": minimums, "checks": checks, "failed": failed}

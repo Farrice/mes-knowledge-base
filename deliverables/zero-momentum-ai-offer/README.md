@@ -29,7 +29,9 @@
 - `market-evidence-ledger.md` — buyer demand, competitors, supplements, and authoritative sources with proof labels.
 - `buyer-language-bank.md` — 50 source-linked buyer phrases.
 - `offer-tournament.md` — six-candidate pressure test.
-- `landing-page.html` — local deployment-ready page.
+- `landing-page.html` — local deployment-ready page, rebuilt from the live Parallax DESIGN.md.
+- `landing-page-render-receipt.md` — desktop, tablet, and mobile visual inspection evidence.
+- `briefing-room-link-receipt.md` — card, artifact-route, handshake, and negative-control evidence.
 - `linkedin-launch-kit.md` — 14-day publication package.
 - `distribution-outreach-kit.md` — five-day launch and sales package.
 - `public-prospect-candidates.md` — 30 public fit candidates; no pain inferred.
