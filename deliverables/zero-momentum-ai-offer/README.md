@@ -17,7 +17,7 @@
 | Primary offer | LOCKED | Do not revise before market feedback |
 | Price | LOCKED | $1,500: $750 start, $750 after acceptance demo |
 | Proof | UNTESTED | Only collected payment validates the exact offer |
-| Landing page | READY, LOCAL ONLY | Booking link remains a placeholder |
+| Landing page | REBUILT, LOCAL ONLY | Ground-up functional page; booking link remains a placeholder |
 | Demo | READY, SYNTHETIC | Human approval is required before send |
 | LinkedIn kit | READY, NOT PUBLISHED | Ten posts plus profile and demo scripts |
 | Outreach kit | READY, NOT SENT | Private contact names remain blank |
@@ -29,8 +29,10 @@
 - `market-evidence-ledger.md` — buyer demand, competitors, supplements, and authoritative sources with proof labels.
 - `buyer-language-bank.md` — 50 source-linked buyer phrases.
 - `offer-tournament.md` — six-candidate pressure test.
-- `landing-page.html` — local deployment-ready page, rebuilt from the live Parallax DESIGN.md.
-- `landing-page-render-receipt.md` — desktop, tablet, and mobile visual inspection evidence.
+- `WEBSITE-DESIGN.md` — page-scoped website extension of the Parallax identity, including spacing and accessibility variants.
+- `website-rebuild-brief.md` — failed-example diagnosis, Preservation Lock, acceptance criteria, and replay prompt.
+- `landing-page.html` — ground-up local page with sticky navigation, interactive proof case, native FAQ, and honest booking hold.
+- `landing-page-render-receipt.md` — desktop, tablet, mobile, interaction, accessibility, and regression evidence.
 - `briefing-room-link-receipt.md` — card, artifact-route, handshake, and negative-control evidence.
 - `linkedin-launch-kit.md` — 14-day publication package.
 - `distribution-outreach-kit.md` — five-day launch and sales package.

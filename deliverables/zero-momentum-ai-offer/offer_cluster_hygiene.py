@@ -35,7 +35,7 @@ def main() -> int:
         check("demo_inspected", receipt.get("failed") == 0 and receipt.get("all_human_holds_worked") is True, "All fixture outputs and holds passed."),
         check("ai_removal_test", "Remove “AI” from the headline" in tournament, "Offer remains intelligible without AI."),
         check("cta_present", "Workflow Loss Review" in canon and "Workflow Loss Review" in landing, "One consistent next step."),
-        check("external_placeholders", "Booking destination intentionally not connected" in landing, "No invented booking destination."),
+        check("external_placeholders", "No booking or payment destination is connected" in landing, "No invented booking destination."),
     ]
     result = {
         "verdict": "PASS" if all(x["passed"] for x in checks) else "FAIL",

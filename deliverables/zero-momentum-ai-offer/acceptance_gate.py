@@ -63,10 +63,10 @@ def main() -> int:
         "offer_cluster_hygiene": hygiene.get("verdict") == "PASS",
         "landing_price": "$1,500" in landing and "To begin" in landing and "$750" in landing,
         "landing_proof_disclosure": "exact Farrice Cain offer remains unvalidated" in landing,
-        "landing_risk_reversal": "owe no final balance" in landing,
-        "landing_placeholder": "Booking destination intentionally not connected" in landing,
+        "landing_risk_reversal": "owes no final balance" in landing,
+        "landing_placeholder": "No booking or payment destination is connected" in landing,
         "landing_parallax_identity": "parallax-design-system/assets/wordmark.svg" in landing,
-        "landing_parallax_palette": all(token in landing for token in ("#1C1C1E", "#7B61FF", "#F5F0EB")),
+        "landing_parallax_palette": all(token in landing.lower() for token in ("#1c1c1e", "#7b61ff", "#f5f0eb")),
         "landing_no_retired_palette": not any(token in landing for token in ("#14202b", "#526d82", "#275d4b")),
         "room_index_exists": room_path.is_file(),
     })

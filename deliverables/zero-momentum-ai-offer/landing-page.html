@@ -4,117 +4,351 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Lead-to-Proposal Proof Sprint | Farrice Cain</title>
-  <meta name="description" content="A five-business-day workflow build for small agencies and consultancies whose warm inquiries stall before proposal and follow-up.">
+  <meta name="description" content="A five-business-day workflow build for agencies and consultancies whose warm inquiries stall before proposal and follow-up.">
   <link rel="icon" href="../../_active/farrice-brand/parallax-design-system/assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Source+Serif+4:ital,wght@0,400;1,400&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Source+Serif+4:wght@400&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
   <style>
     :root{
-      --ink:#1C1C1E;--violet:#7B61FF;--warm-white:#F5F0EB;
+      --ink:#1c1c1e;
+      --violet:#7b61ff;
+      --violet-on-light:#6d50f3;
+      --violet-on-dark:#8f79ff;
+      --paper:#f5f0eb;
       --display:'Space Grotesk',system-ui,sans-serif;
       --body:'Source Serif 4','Source Serif Pro',Georgia,serif;
       --mono:'JetBrains Mono',ui-monospace,monospace;
-      --space-xxs:4px;--space-xs:8px;--space-sm:16px;--space-md:24px;
-      --space-lg:40px;--space-xl:64px;--space-xxl:128px;
-      --reading:720px;--field:1280px;
+      --line-dark:color-mix(in srgb,var(--ink) 18%,transparent);
+      --line-light:color-mix(in srgb,var(--paper) 20%,transparent);
+      --muted-dark:color-mix(in srgb,var(--ink) 66%,transparent);
+      --muted-light:color-mix(in srgb,var(--paper) 68%,transparent);
+      --page:1184px;
+      --gutter:32px;
+      --section:80px;
     }
     *{box-sizing:border-box}
-    html{scroll-behavior:smooth;background:var(--ink)}
-    body{margin:0;background:var(--ink);color:var(--warm-white);font-family:var(--body);font-size:18px;line-height:1.65}
-    a{color:inherit}button,a{font:inherit}::selection{background:var(--violet);color:var(--warm-white)}
-    .skip{position:absolute;left:var(--space-md);top:-100px;background:var(--violet);padding:var(--space-sm);font:700 14px/1 var(--mono);z-index:20}
-    .skip:focus{top:var(--space-md)}
-    .field{width:min(var(--field),calc(100% - 96px));margin-inline:auto}
-    .mono{font-family:var(--mono);text-transform:uppercase;letter-spacing:.1em}
-    .label{display:block;font:400 12px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;opacity:.66}
-    .violet{color:var(--violet)}.rule{width:200px;height:1px;border:0;background:var(--violet);margin:0}
-    .masthead{display:flex;align-items:center;justify-content:space-between;gap:var(--space-lg);padding:var(--space-lg) 0;border-bottom:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent)}
-    .wordmark{display:block;width:clamp(168px,18vw,250px);height:auto}
-    .masthead a:not(.wordmark-link){font:400 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--violet);padding-bottom:var(--space-xs)}
-    .hero{min-height:920px;padding:var(--space-xxl) 0 var(--space-xl);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--space-md);align-content:start}
-    .hero-copy{grid-column:1/span 8}h1,h2,h3{font-family:var(--display);font-weight:700;margin:0}
-    h1{font-size:clamp(64px,8.2vw,124px);line-height:.96;letter-spacing:0}h1 span{display:block}h1 .offset{margin-left:3vw}
-    .hero .lede{font-size:21px;line-height:1.6;margin:var(--space-xl) 0 0;max-width:650px}
-    .hero-actions{display:flex;align-items:center;gap:var(--space-md);margin-top:var(--space-lg)}
-    .cta{display:inline-flex;min-height:48px;align-items:center;justify-content:center;background:var(--violet);color:var(--warm-white);border:1px solid var(--violet);border-radius:2px;padding:var(--space-sm) 32px;font:700 14px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:background-color .15s,color .15s}
-    .cta:hover,.cta:focus-visible{background:var(--warm-white);color:var(--ink);outline:2px solid var(--warm-white);outline-offset:4px}
-    .hero-note{font:400 12px/1.5 var(--mono);letter-spacing:.05em;text-transform:uppercase;opacity:.64;max-width:30ch}
-    .pilot-ledger{grid-column:10/span 3;align-self:end;margin-bottom:34px;border-top:1px solid var(--violet)}
-    .ledger-row{display:grid;grid-template-columns:1fr auto;gap:var(--space-md);padding:var(--space-sm) 0;border-bottom:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent);font:400 12px/1.45 var(--mono);letter-spacing:.06em;text-transform:uppercase}
-    .ledger-row strong{font-weight:700;text-align:right}.ledger-row.price{padding:var(--space-md) 0}.ledger-row.price strong{font:700 36px/1 var(--display);letter-spacing:0}
-    .hero-mark{grid-column:1/span 6;align-self:end;margin-top:116px}.hero-mark .rule{margin-bottom:var(--space-sm)}
-    .hero-mark p{margin:0;font:400 12px/1.55 var(--mono);letter-spacing:.06em;text-transform:uppercase;opacity:.58;max-width:52ch}
-    .proof-state{border-top:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent);border-bottom:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent);padding:var(--space-lg) 0}
-    .proof-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md);align-items:start}
-    .proof-code{grid-column:1/span 4;font:700 14px/1.5 var(--mono);letter-spacing:.08em;text-transform:uppercase}
-    .proof-copy{grid-column:6/span 7;margin:0;font-size:18px;line-height:1.65;max-width:700px}
-    .section{padding:var(--space-xxl) 0}.section-heading{font-size:clamp(48px,6vw,88px);line-height:1;max-width:920px;margin-top:var(--space-md)}
-    .leak-list{margin-top:var(--space-xxl);border-top:1px solid color-mix(in srgb,var(--warm-white) 22%,transparent)}
-    .leak-row{display:grid;grid-template-columns:90px minmax(220px,1fr) minmax(280px,1.25fr);gap:var(--space-lg);padding:var(--space-xl) 0;border-bottom:1px solid color-mix(in srgb,var(--warm-white) 22%,transparent);align-items:start}
-    .leak-row .number{font:400 14px/1 var(--mono);letter-spacing:.12em;color:var(--violet)}.leak-row h3{font-size:clamp(24px,2.6vw,38px);line-height:1.1}.leak-row p{margin:0;max-width:52ch;opacity:.72}
-    .workflow{padding:0 0 var(--space-xxl)}.workflow-head{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md);align-items:end}
-    .workflow-head h2{grid-column:1/span 8;font-size:clamp(44px,5.2vw,76px);line-height:1}.workflow-head p{grid-column:10/span 3;margin:0;font:400 12px/1.55 var(--mono);letter-spacing:.05em;text-transform:uppercase;opacity:.62}
-    .spine{display:grid;grid-template-columns:repeat(5,1fr);margin-top:var(--space-xxl);border-top:1px solid var(--violet)}
-    .stage{position:relative;padding:var(--space-lg) var(--space-md) 0 0;min-height:180px;border-right:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent)}.stage:last-child{border-right:0;padding-right:0}
-    .stage:before{content:'';position:absolute;width:9px;height:9px;background:var(--ink);border:1px solid var(--violet);top:-5px;left:0}
-    .stage .label{color:var(--violet);opacity:1}.stage h3{font-size:20px;line-height:1.2;margin-top:var(--space-md)}.stage p{font-size:16px;line-height:1.55;margin:var(--space-xs) 0 0;opacity:.66;max-width:22ch}
-    .test-bench{margin-top:var(--space-xl);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md)}.test-intro{grid-column:1/span 4}.test-intro p{margin:var(--space-md) 0 0;opacity:.7}
-    .test-ledger{grid-column:6/span 7;border-top:1px solid color-mix(in srgb,var(--warm-white) 24%,transparent)}.test-ledger .ledger-row{font-size:11px}
-    .inversion{background:var(--warm-white);color:var(--ink);padding:var(--space-xxl) 0}.hold{min-height:680px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md);align-content:center}
-    .hold-copy{grid-column:1/span 8}.hold h2{font-size:clamp(58px,8vw,112px);line-height:.92;max-width:940px;margin:var(--space-md) 0 var(--space-xl)}.hold h2 span{display:block;margin-left:3vw}.hold p{font-size:21px;max-width:620px;margin:0}
-    .hold aside{grid-column:10/span 3;align-self:end;border-top:1px solid var(--violet);padding-top:var(--space-md);font:400 12px/1.55 var(--mono);letter-spacing:.06em;text-transform:uppercase}
-    .scope{background:var(--warm-white);color:var(--ink);padding:0 0 var(--space-xxl)}.scope-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md);border-top:1px solid var(--ink);padding-top:var(--space-xl)}
-    .scope-heading{grid-column:1/span 4}.scope-heading h2{font-size:clamp(38px,4vw,60px);line-height:1.02;margin-top:var(--space-sm)}
-    .scope-lists{grid-column:6/span 7;display:grid;grid-template-columns:1fr 1fr;gap:var(--space-xl)}.scope-list{margin:var(--space-md) 0 0;padding:0;list-style:none;border-top:1px solid color-mix(in srgb,var(--ink) 24%,transparent)}
-    .scope-list li{display:grid;grid-template-columns:36px 1fr;gap:var(--space-sm);padding:var(--space-sm) 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 18%,transparent);font-size:16px;line-height:1.45}.scope-list b{font:400 11px/1.5 var(--mono);color:var(--violet)}
-    .acceptance{padding:var(--space-xxl) 0}.acceptance-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md)}.acceptance h2{grid-column:1/span 8;font-size:clamp(48px,6vw,88px);line-height:.98}
-    .acceptance-copy{grid-column:7/span 6;margin-top:var(--space-xxl)}.acceptance-copy p{font-size:21px;margin:0 0 var(--space-lg)}
-    .fit{padding:0 0 var(--space-xxl)}.fit h2{font-size:clamp(38px,4.2vw,64px);margin-bottom:var(--space-xl)}
-    details{border-top:1px solid color-mix(in srgb,var(--warm-white) 22%,transparent);padding:var(--space-md) 0}details:last-of-type{border-bottom:1px solid color-mix(in srgb,var(--warm-white) 22%,transparent)}
-    summary{cursor:pointer;font:700 18px/1.35 var(--display);list-style-position:outside}details p{max-width:680px;margin:var(--space-md) 0 0;opacity:.7}
-    .close{min-height:760px;padding:var(--space-xxl) 0 var(--space-xl);display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--space-md);align-content:center;border-top:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent)}
-    .close-copy{grid-column:1/span 8}.close h2{font-size:clamp(58px,7vw,104px);line-height:.94;margin:var(--space-md) 0 var(--space-xl)}.close p{font-size:21px;max-width:620px;margin:0}.close-actions{display:flex;align-items:center;gap:var(--space-lg);margin-top:var(--space-lg)}
-    .close-ledger{grid-column:10/span 3;align-self:end;border-top:1px solid var(--violet)}.not-live{font:400 11px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;opacity:.6;max-width:28ch}
-    footer{border-top:1px solid color-mix(in srgb,var(--warm-white) 18%,transparent);padding:var(--space-lg) 0 var(--space-xl)}.footer-inner{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--space-lg)}
-    .footer-inner .wordmark{width:170px}.footer-note{font:400 11px/1.55 var(--mono);letter-spacing:.06em;text-transform:uppercase;text-align:right;opacity:.54}
-    @media (max-width:900px){
-      .field{width:min(100% - 48px,var(--field))}.hero{min-height:auto;display:block;padding:96px 0 var(--space-xxl)}.pilot-ledger{width:min(520px,100%);margin:96px 0 0}.hero-mark{margin-top:96px;max-width:620px}
-      .proof-code,.proof-copy,.workflow-head h2,.workflow-head p,.test-intro,.test-ledger,.hold-copy,.hold aside,.scope-heading,.scope-lists,.acceptance h2,.acceptance-copy,.close-copy,.close-ledger{grid-column:1/-1}
-      .proof-copy,.workflow-head p,.test-ledger,.hold aside,.scope-lists,.acceptance-copy,.close-ledger{margin-top:var(--space-xl)}
-      .leak-row{grid-template-columns:60px 1fr}.leak-row p{grid-column:2}.spine{grid-template-columns:1fr;margin-left:5px}.stage{border-right:0;border-left:1px solid color-mix(in srgb,var(--warm-white) 22%,transparent);min-height:auto;padding:0 0 var(--space-xl) var(--space-lg)}.stage:before{top:0;left:-5px}.stage:last-child{padding:0 0 0 var(--space-lg)}
-      .hold{min-height:620px}.hold aside{max-width:360px}.scope-lists{grid-template-columns:1fr 1fr}.close{min-height:680px}.close-ledger{width:min(520px,100%)}
+    html{scroll-behavior:smooth;background:var(--paper)}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}
+    button,a{font:inherit}
+    button{color:inherit}
+    a{color:inherit}
+    ::selection{background:var(--violet);color:var(--paper)}
+    :focus-visible{outline:2px solid var(--violet);outline-offset:4px}
+    .skip-link{position:fixed;z-index:100;top:-80px;left:20px;background:var(--violet-on-light);color:var(--paper);padding:14px 18px;font:700 12px/1 var(--mono);text-transform:uppercase;letter-spacing:.07em;text-decoration:none}
+    .skip-link:focus{top:20px}
+    .shell{width:min(var(--page),calc(100% - (var(--gutter) * 2)));margin-inline:auto}
+    .eyebrow{margin:0;font:700 11px/1.35 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+    .eyebrow.violet{color:var(--violet-on-light)}
+    .dark .eyebrow.violet,.demo .eyebrow.violet,.acceptance-box .eyebrow.violet,.apply .eyebrow.violet{color:var(--violet-on-dark)}
+    .button{min-height:50px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--ink);border-radius:2px;padding:0 22px;font:700 12px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .16s,color .16s,border-color .16s}
+    .button:disabled{cursor:wait;opacity:.62}
+    .button-primary{background:var(--violet-on-light);border-color:var(--violet-on-light);color:var(--paper)}
+    .button-primary:hover{background:var(--ink);border-color:var(--ink)}
+    .button-secondary{background:transparent;color:var(--ink)}
+    .button-secondary:hover{background:var(--ink);color:var(--paper)}
+    .site-header{position:sticky;top:0;z-index:50;background:var(--paper);border-bottom:1px solid var(--line-dark)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{flex:0 0 auto}
+    .brand img{width:166px;height:auto}
+    .nav-links{display:flex;align-items:center;gap:28px;margin-left:auto}
+    .nav-links a{font:700 11px/1 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-decoration:none;padding:12px 0;border-bottom:1px solid transparent}
+    .nav-links a:hover{border-color:var(--violet)}
+    .nav .button{min-height:44px;padding-inline:18px}
+
+    .hero{padding:70px 0 64px}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(430px,.94fr);gap:68px;align-items:start}
+    .hero h1{font:700 clamp(48px,5.25vw,68px)/.98 var(--display);letter-spacing:-.035em;margin:18px 0 24px;max-width:760px}
+    .hero-lede{font-size:20px;line-height:1.52;max-width:620px;margin:0;color:var(--muted-dark)}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+    .terms-line{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:26px;padding-top:20px;border-top:1px solid var(--line-dark);font:700 11px/1.4 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    .terms-line span{white-space:nowrap}
+    .terms-line b{color:var(--violet-on-light);font-weight:700}
+
+    .demo{background:var(--ink);color:var(--paper);border-top:3px solid var(--violet);min-height:560px;display:flex;flex-direction:column}
+    .demo-top{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;padding:22px 24px;border-bottom:1px solid var(--line-light)}
+    .demo-title{margin:5px 0 0;font:700 18px/1.2 var(--display)}
+    .demo-status{display:flex;align-items:center;gap:8px;font:700 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted-light)}
+    .status-dot{width:8px;height:8px;background:var(--violet)}
+    .inquiry{margin:24px;border:1px solid var(--line-light);padding:20px}
+    .inquiry-head{display:flex;justify-content:space-between;gap:20px;padding-bottom:14px;border-bottom:1px solid var(--line-light)}
+    .inquiry-head strong{font:700 17px/1.2 var(--display)}
+    .inquiry-head span,.meta-row{font:400 10px/1.45 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted-light)}
+    .inquiry-copy{margin:16px 0 0;font-size:16px;line-height:1.5;color:var(--muted-light)}
+    .workflow-list{list-style:none;margin:0 24px;padding:0;border-top:1px solid var(--line-light)}
+    .workflow-step{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:12px;align-items:center;min-height:50px;border-bottom:1px solid var(--line-light);font:700 11px/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted-light)}
+    .workflow-step .index{color:var(--muted-light)}
+    .workflow-step .state{font-size:9px;text-align:right}
+    .workflow-step.is-active,.workflow-step.is-complete{color:var(--paper)}
+    .workflow-step.is-active .index{color:var(--violet-on-dark)}
+    .workflow-step.is-active .state{color:var(--violet-on-dark)}
+    .workflow-step.is-complete .state{color:var(--paper)}
+    .demo-result{margin:20px 24px 0;padding:16px;border-left:2px solid var(--violet);background:color-mix(in srgb,var(--paper) 5%,transparent)}
+    .demo-result p{margin:5px 0 0;font-size:15px;line-height:1.45;color:var(--muted-light)}
+    .demo-actions{margin-top:auto;padding:20px 24px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .demo-actions .button{border-color:var(--paper);color:var(--paper);background:transparent;min-height:46px}
+    .demo-actions .button:hover{background:var(--paper);color:var(--ink)}
+    .demo-hold{font:700 9px/1.45 var(--mono);letter-spacing:.07em;text-transform:uppercase;text-align:right;color:var(--muted-light);max-width:22ch}
+
+    .proof-strip{border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark)}
+    .proof-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+    .proof-item{padding:22px 24px 22px 0;border-right:1px solid var(--line-dark)}
+    .proof-item:not(:first-child){padding-left:24px}
+    .proof-item:last-child{border-right:0}
+    .proof-item strong{display:block;font:700 21px/1.15 var(--display);margin-bottom:5px}
+    .proof-item span{font:400 10px/1.4 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted-dark)}
+
+    .section{padding:var(--section) 0}
+    .section-head{display:grid;grid-template-columns:4fr 7fr;gap:70px;align-items:start;margin-bottom:50px}
+    .section-head h2{font:700 clamp(36px,4vw,52px)/1.04 var(--display);letter-spacing:-.025em;margin:10px 0 0;max-width:720px}
+    .section-head p{font-size:19px;line-height:1.55;margin:2px 0 0;color:var(--muted-dark);max-width:620px}
+    .problem-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
+    .problem{padding:28px 30px 0 0;min-height:220px;border-right:1px solid var(--line-dark)}
+    .problem:not(:first-child){padding-left:30px}
+    .problem:last-child{border-right:0}
+    .problem .number{font:700 10px/1 var(--mono);letter-spacing:.08em;color:var(--violet-on-light)}
+    .problem h3{font:700 24px/1.12 var(--display);letter-spacing:-.01em;margin:22px 0 12px}
+    .problem p{margin:0;color:var(--muted-dark)}
+
+    .dark{background:var(--ink);color:var(--paper)}
+    .dark .section-head p{color:var(--muted-light)}
+    .build-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--paper)}
+    .build-step{padding:30px 32px 0 0;min-height:300px;border-right:1px solid var(--line-light)}
+    .build-step:not(:first-child){padding-left:32px}
+    .build-step:last-child{border-right:0}
+    .build-step .day{font:700 10px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--violet-on-dark)}
+    .build-step h3{font:700 26px/1.12 var(--display);margin:22px 0 14px}
+    .build-step p{margin:0;color:var(--muted-light)}
+    .build-step ul{margin:22px 0 0;padding:0;list-style:none}
+    .build-step li{padding:10px 0;border-top:1px solid var(--line-light);font:400 11px/1.4 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted-light)}
+
+    .evidence-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:70px;align-items:start}
+    .evidence-copy h2{font:700 clamp(36px,4vw,52px)/1.04 var(--display);letter-spacing:-.025em;margin:10px 0 22px}
+    .evidence-copy>p{font-size:19px;margin:0;color:var(--muted-dark);max-width:560px}
+    .proof-state{margin-top:30px;padding:20px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line-dark)}
+    .proof-state strong{display:block;font:700 13px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--violet-on-light);margin-bottom:8px}
+    .proof-state p{margin:0;font-size:15px;line-height:1.5;color:var(--muted-dark)}
+    .test-table{border-top:1px solid var(--ink)}
+    .test-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;padding:16px 0;border-bottom:1px solid var(--line-dark);align-items:center}
+    .test-row span{font:700 11px/1.35 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    .test-row strong{font:700 15px/1 var(--display);text-align:right}
+    .test-row strong.pass{color:var(--violet-on-light)}
+
+    .scope-section{padding-top:0}
+    .scope-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+    .scope-col{padding:28px 36px 0 0}
+    .scope-col+ .scope-col{padding-left:36px;border-left:1px solid var(--line-dark)}
+    .scope-col h3{font:700 22px/1.15 var(--display);margin:12px 0 22px}
+    .scope-list{list-style:none;padding:0;margin:0}
+    .scope-list li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid var(--line-dark);font-size:16px;line-height:1.4}
+    .scope-list b{font:700 10px/1.5 var(--mono);color:var(--violet-on-light)}
+    .acceptance-box{margin-top:48px;background:var(--ink);color:var(--paper);padding:38px 42px;display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.68fr);gap:64px;align-items:center}
+    .acceptance-box h3{font:700 31px/1.08 var(--display);letter-spacing:-.02em;margin:8px 0 0}
+    .acceptance-box p{margin:0;color:var(--muted-light)}
+
+    .faq-grid{display:grid;grid-template-columns:4fr 7fr;gap:70px;align-items:start}
+    .faq-intro h2{font:700 clamp(36px,4vw,50px)/1.04 var(--display);letter-spacing:-.025em;margin:10px 0 18px}
+    .faq-intro p{margin:0;color:var(--muted-dark);max-width:400px}
+    details{border-top:1px solid var(--ink)}
+    details:last-child{border-bottom:1px solid var(--ink)}
+    summary{cursor:pointer;list-style:none;position:relative;padding:20px 42px 20px 0;font:700 18px/1.3 var(--display)}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:'+';position:absolute;right:2px;top:18px;font:700 22px/1 var(--display);color:var(--violet-on-light)}
+    details[open] summary:after{content:'−'}
+    details p{max-width:650px;margin:0;padding:0 42px 22px 0;color:var(--muted-dark)}
+
+    .apply{background:var(--ink);color:var(--paper);padding:82px 0}
+    .apply-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(340px,.8fr);gap:70px;align-items:end}
+    .apply h2{font:700 clamp(40px,4.8vw,62px)/1 var(--display);letter-spacing:-.03em;margin:12px 0 22px;max-width:760px}
+    .apply-copy>p{font-size:19px;margin:0;max-width:620px;color:var(--muted-light)}
+    .apply-actions{margin-top:30px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+    .apply-actions .button-primary:hover{background:var(--paper);border-color:var(--paper);color:var(--ink)}
+    .booking-note{font:400 10px/1.45 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--muted-light);max-width:30ch}
+    .review-card{border-top:2px solid var(--violet)}
+    .review-row{display:grid;grid-template-columns:1fr auto;gap:24px;padding:14px 0;border-bottom:1px solid var(--line-light);font:700 10px/1.4 var(--mono);letter-spacing:.05em;text-transform:uppercase}
+    .review-row span{color:var(--muted-light)}
+    .review-row strong{text-align:right}
+    .booking-status{margin-top:14px;color:var(--paper);font-size:14px;line-height:1.45}
+    [hidden]{display:none!important}
+
+    footer{background:var(--ink);color:var(--paper);border-top:1px solid var(--line-light);padding:28px 0 34px}
+    .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .footer-inner img{width:144px}
+    .footer-inner p{margin:0;text-align:right;font:400 9px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted-light)}
+
+    @media (max-width:980px){
+      :root{--section:68px;--gutter:24px}
+      .hero{padding:68px 0}
+      .hero-grid{grid-template-columns:1fr;gap:52px}
+      .hero-copy{max-width:780px}
+      .demo{max-width:680px;min-height:540px}
+      .section-head,.faq-grid{grid-template-columns:1fr;gap:24px}
+      .section-head{margin-bottom:40px}
+      .evidence-grid{grid-template-columns:1fr;gap:48px}
+      .acceptance-box{grid-template-columns:1fr;gap:24px}
+      .apply-grid{grid-template-columns:1fr;gap:46px}
+      .review-card{max-width:600px}
     }
-    @media (max-width:600px){
-      body{font-size:17px}.field{width:calc(100% - 48px)}.masthead{padding:var(--space-md) 0}.masthead a:not(.wordmark-link){display:none}.wordmark{width:172px}
-      .hero{padding:80px 0 96px}h1{font-size:clamp(48px,15vw,64px)}h1 .offset{margin-left:12px}.hero .lede{font-size:19px;margin-top:var(--space-lg)}.hero-actions,.close-actions{display:block}.hero-note,.not-live{display:block;margin-top:var(--space-md)}.cta{width:100%}.pilot-ledger,.hero-mark{margin-top:80px}
-      .proof-grid,.workflow-head,.test-bench,.hold,.scope-grid,.acceptance-grid,.close{display:block}.section,.inversion,.acceptance{padding:96px 0}.section-heading{font-size:46px}.leak-list{margin-top:80px}.leak-row{display:block;padding:var(--space-lg) 0}.leak-row h3{margin:var(--space-md) 0}.leak-row p{font-size:17px}
-      .workflow{padding-bottom:96px}.workflow-head h2,.hold h2,.acceptance h2,.close h2{font-size:48px}.workflow-head p{margin-top:var(--space-lg)}.spine{margin-top:80px}.test-bench{margin-top:80px}.test-ledger{margin-top:var(--space-lg)}
-      .hold{min-height:auto}.hold h2 span{margin-left:12px}.hold aside{margin-top:80px}.scope{padding-bottom:96px}.scope-grid{padding-top:var(--space-lg)}.scope-lists{display:block;margin-top:80px}.scope-lists>div+div{margin-top:var(--space-xl)}
-      .acceptance-copy{margin-top:80px}.acceptance-copy p,.close p{font-size:19px}.fit{padding-bottom:96px}.fit h2{font-size:40px;margin-bottom:var(--space-lg)}.close{min-height:auto;padding:96px 0}.close-ledger{margin-top:80px}
-      .footer-inner{display:block}.footer-note{text-align:left;margin-top:var(--space-lg)}
+    @media (max-width:720px){
+      :root{--section:56px;--gutter:20px}
+      .nav{height:66px}
+      .brand img{width:146px}
+      .nav-links{display:none}
+      .nav .button{min-height:44px;padding-inline:14px;font-size:10px}
+      .hero{padding:58px 0 60px}
+      .hero h1{font-size:clamp(40px,11.7vw,44px);margin-top:14px}
+      .hero-lede{font-size:18px}
+      .hero-actions{display:grid;grid-template-columns:1fr}
+      .button{width:100%}
+      .terms-line{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+      .demo{min-height:0}
+      .demo-top,.inquiry,.demo-actions{padding-left:18px;padding-right:18px}
+      .inquiry{margin:18px}
+      .workflow-list{margin-inline:18px}
+      .demo-result{margin-inline:18px}
+      .demo-actions{display:block}
+      .demo-actions .button{width:100%}
+      .demo-hold{text-align:left;max-width:none;margin-top:14px}
+      .proof-grid{grid-template-columns:1fr 1fr}
+      .proof-item{padding:18px 16px 18px 0}
+      .proof-item:not(:first-child){padding-left:16px}
+      .proof-item:nth-child(2){border-right:0}
+      .proof-item:nth-child(n+3){border-top:1px solid var(--line-dark)}
+      .proof-item:nth-child(3){padding-left:0}
+      .section-head h2,.evidence-copy h2,.faq-intro h2{font-size:38px}
+      .section-head p,.evidence-copy>p{font-size:17px}
+      .problem-grid,.build-grid,.scope-grid{grid-template-columns:1fr}
+      .problem,.problem:not(:first-child),.build-step,.build-step:not(:first-child){min-height:0;padding:22px 0 26px;border-right:0;border-bottom:1px solid var(--line-dark)}
+      .problem:last-child{border-bottom:0}
+      .build-step,.build-step:not(:first-child){border-bottom-color:var(--line-light)}
+      .build-step:last-child{border-bottom:0}
+      .scope-col,.scope-col+ .scope-col{padding:26px 0 0;border-left:0}
+      .scope-col+ .scope-col{margin-top:38px}
+      .acceptance-box{padding:30px 24px;margin-top:38px}
+      .acceptance-box h3{font-size:27px}
+      .apply{padding:56px 0}
+      .apply h2{font-size:42px}
+      .apply-copy>p{font-size:17px}
+      .apply-actions{display:block}
+      .booking-note{display:block;margin-top:14px;max-width:none}
+      .footer-inner{display:block}
+      .footer-inner p{text-align:left;margin-top:20px}
     }
-    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta{transition:none}}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
   </style>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to offer</a>
-  <header class="field masthead"><a class="wordmark-link" href="#top" aria-label="Parallax, top of page"><img class="wordmark" src="../../_active/farrice-brand/parallax-design-system/assets/wordmark.svg" alt="Parallax"></a><a href="#apply">Workflow Loss Review</a></header>
+  <a class="skip-link" href="#main">Skip to offer</a>
+  <header class="site-header">
+    <nav class="shell nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Parallax home"><img src="../../_active/farrice-brand/parallax-design-system/assets/wordmark-on-light.svg" alt="Parallax"></a>
+      <div class="nav-links"><a href="#problem">The leak</a><a href="#build">The build</a><a href="#proof">Proof</a><a href="#terms">Terms</a></div>
+      <a class="button button-primary" href="#apply">Workflow Loss Review</a>
+    </nav>
+  </header>
+
   <main id="main">
-    <section class="field hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy"><span class="label">Lead-to-proposal / Five business days</span><h1 id="hero-title"><span>Your lead arrived.</span><span class="offset">Then the process went quiet.</span></h1><p class="lede">For 5–25-person agencies and consultancies: I map the handoff, build the follow-up and proposal workflow in the tools you already use, and prove the agreed behavior before the final payment is due.</p><div class="hero-actions"><a class="cta" href="#apply">Request a Workflow Loss Review</a><span class="hero-note">One team · one workflow · two core integrations</span></div></div>
-      <aside class="pilot-ledger" aria-label="Founding pilot terms"><div class="ledger-row"><span>Founding pilot</span><strong>01 / 03</strong></div><div class="ledger-row price"><span>Price</span><strong>$1,500</strong></div><div class="ledger-row"><span>To begin</span><strong>$750</strong></div><div class="ledger-row"><span>After demo</span><strong>$750</strong></div><div class="ledger-row"><span>Build window</span><strong>05 days</strong></div></aside>
-      <div class="hero-mark"><hr class="rule"><p>Not a revenue guarantee. The second payment follows an agreed demonstration, not a promise about future sales.</p></div>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow violet">Lead-to-Proposal Proof Sprint</p>
+          <h1 id="hero-title">Warm leads should not disappear between inquiry and proposal.</h1>
+          <p class="hero-lede">I help 5–25-person agencies and consultancies repair that handoff. In five business days, I map it, build the working workflow in the tools you already use, and prove the agreed behavior before the final payment is due.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#apply">Request a Workflow Loss Review</a><a class="button button-secondary" href="#demo">Run the proof case</a></div>
+          <div class="terms-line" aria-label="Pilot terms"><span><b>$1,500</b> founding pilot</span><span><b>$750</b> to begin</span><span><b>5</b> business days</span><span><b>1</b> workflow</span></div>
+        </div>
+
+        <div class="demo" id="demo" aria-label="Interactive lead-to-proposal demonstration">
+          <div class="demo-top"><div><p class="eyebrow violet">Local proof case 07</p><p class="demo-title">Northstar Studio inquiry</p></div><div class="demo-status"><span class="status-dot" aria-hidden="true"></span><span id="demo-status">Ready to test</span></div></div>
+          <article class="inquiry"><div class="inquiry-head"><strong>Brand strategy engagement</strong><span>Inbound / 09:14</span></div><p class="inquiry-copy">“We need a proposal next week. The scope covers positioning, messaging, and a launch workshop. Budget is approved, but procurement needs the vendor details.”</p></article>
+          <ol class="workflow-list" aria-label="Workflow test stages">
+            <li class="workflow-step" data-step="0"><span class="index">01</span><span>Inquiry captured</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="1"><span class="index">02</span><span>Missing vendor data flagged</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="2"><span class="index">03</span><span>Proposal draft prepared</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="3"><span class="index">04</span><span>Follow-up task assigned</span><span class="state">Waiting</span></li>
+            <li class="workflow-step" data-step="4"><span class="index">05</span><span>External send held</span><span class="state">Waiting</span></li>
+          </ol>
+          <div class="demo-result" aria-live="polite"><p class="eyebrow violet">Result</p><p id="demo-result">Run the case to inspect the handoff and approval boundary.</p></div>
+          <div class="demo-actions"><button class="button" id="run-demo" type="button">Run proof case</button><span class="demo-hold">No proposal or external message leaves without human approval.</span></div>
+        </div>
+      </div>
     </section>
-    <section class="proof-state" aria-label="Current proof state"><div class="field proof-grid"><div class="proof-code"><span class="violet">Proof state</span><br>Untested / no payment event</div><p class="proof-copy">Related workflows have active marketplace budgets and established supplier earnings. This exact Farrice Cain offer remains unvalidated until a client pays the first $750 deposit. The local demonstration proves workflow behavior with synthetic records, not revenue.</p></div></section>
-    <section class="field section" aria-labelledby="leak-heading"><span class="label">The leak</span><h2 class="section-heading" id="leak-heading">The work did not disappear.<br>The ownership did.</h2><div class="leak-list"><article class="leak-row"><span class="number">01</span><h3>The inquiry gets copied.</h3><p>Details move between email, a form, Slack, notes, and the CRM. Nobody can see one accountable record.</p></article><article class="leak-row"><span class="number">02</span><h3>The proposal waits.</h3><p>Missing context triggers another round of questions while a warm lead waits for a document that should already be moving.</p></article><article class="leak-row"><span class="number">03</span><h3>Follow-up becomes a mood.</h3><p>There is no named owner, visible schedule, exception path, or next action to rescue the handoff.</p></article></div></section>
-    <section class="field workflow" aria-labelledby="workflow-heading"><div class="workflow-head"><h2 id="workflow-heading">One handoff.<br>Built to be inspected.</h2><p>The system earns trust by showing its decisions, its missing information, and the moment it must stop.</p></div><div class="spine" aria-label="Lead-to-proposal workflow stages"><div class="stage"><span class="label">01 / Capture</span><h3>One clean record</h3><p>Inquiry details enter one accountable structure.</p></div><div class="stage"><span class="label">02 / Qualify</span><h3>Surface what is missing</h3><p>Summary, fit signals, gaps, and low-confidence flags.</p></div><div class="stage"><span class="label">03 / Draft</span><h3>Use approved material</h3><p>Your existing proposal template. No invented claims.</p></div><div class="stage"><span class="label">04 / Follow up</span><h3>Name the next move</h3><p>Owner, due date, schedule, and CRM-ready output.</p></div><div class="stage"><span class="label">05 / Hold</span><h3>Require a human</h3><p>No proposal or external message leaves on its own.</p></div></div><div class="test-bench"><div class="test-intro"><span class="label">The test bench</span><p>The demo includes the normal path and the ways real workflows break.</p></div><div class="test-ledger"><div class="ledger-row"><span>Normal cases</span><strong>10 inspected</strong></div><div class="ledger-row"><span>Adversarial controls</span><strong>08 inspected</strong></div><div class="ledger-row"><span>Duplicate / missing / conflicting</span><strong>Held or resolved</strong></div><div class="ledger-row"><span>Sensitive data / unsupported claim</span><strong>Stopped</strong></div><div class="ledger-row"><span>Send attempt without approval</span><strong>Blocked</strong></div></div></div></section>
-    <section class="inversion" aria-labelledby="hold-heading"><div class="field hold"><div class="hold-copy"><span class="label violet">Automation stops here</span><h2 id="hold-heading">Nothing leaves<span>without a named human.</span></h2><p>Qualification and drafting can move faster. Judgment stays visible. Every proposal and external message remains on hold until a person approves it.</p></div><aside>Exception path<br>Low confidence → review<br>Sensitive data → stop<br>External send → approval</aside></div></section>
-    <section class="scope" aria-labelledby="scope-heading"><div class="field scope-grid"><div class="scope-heading"><span class="label">Scope boundary</span><h2 id="scope-heading">The boundary is part of the product.</h2></div><div class="scope-lists"><div><span class="label violet">In / the five-day build</span><ul class="scope-list"><li><b>01</b><span>Owner and operator workflow interview</span></li><li><b>02</b><span>Current-state map and buyer-input leakage model</span></li><li><b>03</b><span>One lead-to-proposal workflow</span></li><li><b>04</b><span>Up to two core integrations</span></li><li><b>05</b><span>One existing proposal template</span></li><li><b>06</b><span>Test receipt, SOP, walkthrough, and measurement sheet</span></li><li><b>07</b><span>14-day defect correction for agreed behavior</span></li></ul></div><div><span class="label">Out / separate work</span><ul class="scope-list"><li><b>01</b><span>Custom application development</span></li><li><b>02</b><span>Paid-media management</span></li><li><b>03</b><span>Multi-department transformation</span></li><li><b>04</b><span>Ongoing IT support</span></li><li><b>05</b><span>Sensitive regulated-data workflows</span></li><li><b>06</b><span>Autonomous proposal or message sending</span></li><li><b>07</b><span>Revenue guarantees</span></li></ul></div></div></div></section>
-    <section class="field acceptance" aria-labelledby="acceptance-heading"><div class="acceptance-grid"><h2 id="acceptance-heading">See the agreed behavior before the second <span class="violet">$750.</span></h2><div class="acceptance-copy"><p>Before work begins, we define the demonstration. If the workflow does not pass that acceptance test by the delivery deadline, you keep the diagnosis and owe no final balance.</p><hr class="rule"><p>Passing means the workflow behaves as agreed. It does not guarantee a sale.</p></div></div></section>
-    <section class="field fit" aria-labelledby="fit-heading"><span class="label">Three fit checks</span><h2 id="fit-heading">Know before you book.</h2><details><summary>Is this right if we have no leads yet?</summary><p>No. This repairs an existing handoff. It does not create demand or replace lead generation.</p></details><details><summary>Will it send proposals automatically?</summary><p>No. Every proposal and external message stays on hold for a named human approver.</p></details><details><summary>Do I need a new CRM?</summary><p>No. The starting assumption is the tools you already use. The pilot is capped at two core integrations.</p></details></section>
-    <section class="field close" id="apply" aria-labelledby="close-heading"><div class="close-copy"><span class="label">The next move</span><h2 id="close-heading">Bring one inquiry that needed manual rescue.</h2><p>We will identify where the handoff stalled, estimate the cost from your inputs, and decide whether the five-day sprint fits.</p><div class="close-actions"><a class="cta" href="#contact-note">Request a Workflow Loss Review</a><span class="not-live" id="contact-note">Booking destination intentionally not connected in this local launch draft.</span></div></div><aside class="close-ledger" aria-label="Pilot decision terms"><div class="ledger-row"><span>Review</span><strong>20 minutes</strong></div><div class="ledger-row"><span>Pilot</span><strong>$1,500</strong></div><div class="ledger-row"><span>Capacity</span><strong>03 builds</strong></div><div class="ledger-row"><span>Proof event</span><strong>$750 deposit</strong></div></aside></section>
+
+    <section class="proof-strip" aria-label="Offer proof and constraints"><div class="shell proof-grid"><div class="proof-item"><strong>19 / 19</strong><span>Synthetic test cases passed</span></div><div class="proof-item"><strong>0 sends</strong><span>Without human approval</span></div><div class="proof-item"><strong>2 systems</strong><span>Maximum pilot integrations</span></div><div class="proof-item"><strong>Untested</strong><span>Exact offer / no payment event</span></div></div></section>
+
+    <section class="section" id="problem" aria-labelledby="problem-title"><div class="shell"><div class="section-head"><div><p class="eyebrow violet">The leak</p><h2 id="problem-title">The lead is warm. The handoff is not.</h2></div><p>The loss rarely looks dramatic. It looks like copied details, one more clarification email, a proposal waiting on an owner, and follow-up happening whenever somebody remembers.</p></div><div class="problem-grid"><article class="problem"><span class="number">01 / Fragmented context</span><h3>Nobody sees one accountable record.</h3><p>Inquiry details move between email, forms, Slack, notes, and the CRM. The next person starts by reconstructing the story.</p></article><article class="problem"><span class="number">02 / Proposal drag</span><h3>Missing information pauses the buyer.</h3><p>Required details surface late, after drafting begins. A warm lead waits while the team asks questions it could have flagged earlier.</p></article><article class="problem"><span class="number">03 / Unowned follow-up</span><h3>The next move becomes optional.</h3><p>No named owner, visible due date, exception path, or approval state means the handoff depends on memory and mood.</p></article></div></div></section>
+
+    <section class="section dark" id="build" aria-labelledby="build-title"><div class="shell"><div class="section-head"><div><p class="eyebrow violet">The five-day build</p><h2 id="build-title">Diagnose it. Build it. Try to break it.</h2></div><p>One team, one handoff, and one existing proposal template. The goal is not a transformation program. It is a working, inspectable operating path.</p></div><div class="build-grid"><article class="build-step"><span class="day">Days 01–02</span><h3>Map the real handoff</h3><p>Interview the owner and operator, trace the current path, and define the acceptance test before implementation begins.</p><ul><li>Current-state map</li><li>Missing-information rules</li><li>Buyer-input leakage model</li></ul></article><article class="build-step"><span class="day">Days 02–04</span><h3>Build the working path</h3><p>Connect capture, qualification, proposal drafting, follow-up ownership, and the CRM-ready record in the tools already in use.</p><ul><li>Up to two integrations</li><li>One proposal template</li><li>Human review and exception path</li></ul></article><article class="build-step"><span class="day">Day 05</span><h3>Prove the behavior</h3><p>Run normal and adversarial cases, inspect every output, and hand over the SOP, walkthrough, test receipt, and measurement sheet.</p><ul><li>10 normal cases</li><li>8+ adversarial controls</li><li>Before-and-after demonstration</li></ul></article></div></div></section>
+
+    <section class="section" id="proof" aria-labelledby="proof-title"><div class="shell evidence-grid"><div class="evidence-copy"><p class="eyebrow violet">What the demo proves</p><h2 id="proof-title">Workflow behavior, not a revenue promise.</h2><p>The local demonstration shows what the system captures, flags, drafts, assigns, and refuses to send. It does not prove client adoption, revenue impact, or that Farrice’s exact offer sells.</p><div class="proof-state"><strong>Proof state / untested</strong><p>Related workflows have active marketplace budgets and supplier earnings. This exact Farrice Cain offer remains unvalidated until a client pays the first $750 deposit.</p></div></div><div class="test-table" aria-label="Demonstration test results"><div class="test-row"><span>Normal inquiry path</span><strong class="pass">10 inspected</strong></div><div class="test-row"><span>Duplicate inquiry</span><strong>Held</strong></div><div class="test-row"><span>Missing required information</span><strong>Flagged</strong></div><div class="test-row"><span>Conflicting buyer requirements</span><strong>Held</strong></div><div class="test-row"><span>Sensitive or regulated information</span><strong>Stopped</strong></div><div class="test-row"><span>Unsupported factual claim</span><strong>Stopped</strong></div><div class="test-row"><span>Integration failure</span><strong>Routed</strong></div><div class="test-row"><span>Proposal send without approval</span><strong class="pass">Blocked</strong></div></div></div></section>
+
+    <section class="section scope-section" id="terms" aria-labelledby="terms-title"><div class="shell"><div class="section-head"><div><p class="eyebrow violet">Scope and terms</p><h2 id="terms-title">The boundary is part of the product.</h2></div><p>The founding pilot is intentionally narrow enough for one operator to deliver well in five business days.</p></div><div class="scope-grid"><div class="scope-col"><p class="eyebrow violet">Included</p><h3>One complete lead-to-proposal path</h3><ul class="scope-list"><li><b>01</b><span>Owner and operator workflow interview</span></li><li><b>02</b><span>Current-state map and leakage model</span></li><li><b>03</b><span>Up to two core system integrations</span></li><li><b>04</b><span>One existing proposal template</span></li><li><b>05</b><span>Testing, SOP, walkthrough, and measurement sheet</span></li><li><b>06</b><span>14-day defect correction for agreed behavior</span></li></ul></div><div class="scope-col"><p class="eyebrow">Separate work</p><h3>What this pilot does not become</h3><ul class="scope-list"><li><b>01</b><span>Custom application development</span></li><li><b>02</b><span>Paid-media or lead-generation management</span></li><li><b>03</b><span>Multi-department transformation</span></li><li><b>04</b><span>Ongoing IT support</span></li><li><b>05</b><span>Sensitive regulated-data workflows</span></li><li><b>06</b><span>Autonomous proposal or message sending</span></li></ul></div></div><div class="acceptance-box"><div><p class="eyebrow violet">Acceptance-based second payment</p><h3>See the agreed behavior before the final $750.</h3></div><p>If the workflow does not pass the agreed acceptance test by the delivery deadline, the client keeps the diagnosis and owes no final balance. Passing does not guarantee a sale.</p></div></div></section>
+
+    <section class="section" aria-labelledby="faq-title"><div class="shell faq-grid"><div class="faq-intro"><p class="eyebrow violet">Fit check</p><h2 id="faq-title">Know before you book.</h2><p>This is for an existing handoff with real inquiries, not a substitute for demand generation or a new CRM strategy.</p></div><div><details><summary>Is this right if we have no leads yet?</summary><p>No. This sprint repairs an existing handoff. It does not create demand, run outbound, or replace lead generation.</p></details><details><summary>Will it send proposals automatically?</summary><p>No. Every proposal and external message stays on hold for a named human approver.</p></details><details><summary>Do I need a new CRM or automation platform?</summary><p>No. The starting assumption is the tools you already use. The pilot is capped at two core integrations.</p></details><details><summary>What should I bring to the review?</summary><p>Bring one recent inquiry that required manual rescue, plus the proposal template and systems involved in moving it forward.</p></details></div></div></section>
+
+    <section class="apply" id="apply" aria-labelledby="apply-title"><div class="shell apply-grid"><div class="apply-copy"><p class="eyebrow violet">The next move</p><h2 id="apply-title">Bring one inquiry that should have moved faster.</h2><p>In 20 minutes, we will identify where the handoff stalled, estimate the leakage from your inputs, and decide whether the five-day sprint fits.</p><div class="apply-actions"><button class="button button-primary" id="booking-button" type="button" aria-controls="booking-status">Request the Workflow Loss Review</button><span class="booking-note">Local launch draft. No booking or payment destination is connected.</span></div><p class="booking-status" id="booking-status" tabindex="-1" hidden>The review flow is ready. Connect Farrice’s confirmed booking URL before deployment.</p></div><aside class="review-card" aria-label="Founding pilot terms"><div class="review-row"><span>Workflow Loss Review</span><strong>20 minutes</strong></div><div class="review-row"><span>Founding pilot</span><strong>$1,500</strong></div><div class="review-row"><span>To begin</span><strong>$750</strong></div><div class="review-row"><span>After accepted demo</span><strong>$750</strong></div><div class="review-row"><span>Initial capacity</span><strong>3 pilots</strong></div></aside></div></section>
   </main>
-  <footer><div class="field footer-inner"><img class="wordmark" src="../../_active/farrice-brand/parallax-design-system/assets/wordmark.svg" alt="Parallax"><div class="footer-note">Farrice Cain · Lead-to-Proposal Proof Sprint<br>Local launch draft · August 2026</div></div></footer>
+
+  <footer><div class="shell footer-inner"><img src="../../_active/farrice-brand/parallax-design-system/assets/wordmark.svg" alt="Parallax"><p>Farrice Cain · Lead-to-Proposal Proof Sprint<br>Local proof surface · August 2026</p></div></footer>
+
+  <script>
+    (() => {
+      const runButton = document.querySelector('#run-demo');
+      const status = document.querySelector('#demo-status');
+      const result = document.querySelector('#demo-result');
+      const steps = [...document.querySelectorAll('.workflow-step')];
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const messages = [
+        'Inquiry normalized into one accountable record.',
+        'Vendor details are missing. Drafting can continue, but sending cannot.',
+        'Proposal draft prepared from the approved template.',
+        'Follow-up assigned to the account owner for tomorrow at 09:00.',
+        'Human approval required. External send remains blocked.'
+      ];
+      let timers = [];
+
+      function resetDemo(){
+        timers.forEach(window.clearTimeout);
+        timers = [];
+        steps.forEach(step => {
+          step.classList.remove('is-active','is-complete');
+          step.querySelector('.state').textContent = 'Waiting';
+        });
+      }
+
+      function activateStep(index){
+        steps.forEach((step,stepIndex) => {
+          step.classList.toggle('is-complete',stepIndex < index);
+          step.classList.toggle('is-active',stepIndex === index);
+          step.querySelector('.state').textContent = stepIndex < index ? 'Passed' : stepIndex === index ? (index === steps.length - 1 ? 'Held' : 'Checking') : 'Waiting';
+        });
+        status.textContent = index === steps.length - 1 ? 'Human hold working' : `Testing ${index + 1} of ${steps.length}`;
+        result.textContent = messages[index];
+        if(index === steps.length - 1){
+          runButton.textContent = 'Run proof case again';
+          runButton.disabled = false;
+        }
+      }
+
+      runButton.addEventListener('click',() => {
+        resetDemo();
+        runButton.disabled = true;
+        runButton.textContent = 'Running…';
+        messages.forEach((_,index) => {
+          const delay = reduceMotion ? 0 : index * 430;
+          timers.push(window.setTimeout(() => activateStep(index),delay));
+        });
+      });
+
+      const bookingButton = document.querySelector('#booking-button');
+      const bookingStatus = document.querySelector('#booking-status');
+      bookingButton.addEventListener('click',() => {
+        bookingStatus.hidden = false;
+        bookingStatus.focus();
+        bookingButton.textContent = 'Booking connection pending';
+      });
+    })();
+  </script>
 </body>
 </html>
