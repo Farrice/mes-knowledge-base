@@ -104,7 +104,7 @@ def launch_cards(sweep):
                 open_btn = ""
         cards.append(
             f'<div class="mcard">'
-            f'<div class="row1"><h3>{esc(t.get("title") or slug)}{pin}</h3>'
+            f'<div class="row1"><h3>{esc(str(t.get("title") or slug)[:120])}{pin}</h3>'
             f'<span class="pill {scls}">{esc(t.get("status"))}</span></div>'
             f'{hint_html}{unf}'
             f'<div class="meta"><span class="m">{esc(" · ".join(made))}</span>'
@@ -359,11 +359,11 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="zone">Focus</div>
 {sprint_html}
 <div class="tiles">
-  <div class="tile"><a href="{esc(missions_uri)}"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
+  <div class="tile"><a href="{esc(missions_uri)}" data-route="/missions"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
   <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
   <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
-  <div class="tile"><a href="{esc(room_uri)}"><div class="n">{brief_total}</div><div class="l">briefs in the room</div></a></div>
-  <div class="tile"><a href="{esc(board_uri)}"><div class="n">{asset_total}</div><div class="l">assets on the board</div></a></div>
+  <div class="tile"><a href="{esc(room_uri)}" data-route="/room"><div class="n">{brief_total}</div><div class="l">briefs in the room</div></a></div>
+  <div class="tile"><a href="{esc(board_uri)}" data-route="/assets"><div class="n">{asset_total}</div><div class="l">assets on the board</div></a></div>
   <div class="tile"><div class="n">{esc(threads_promoted)}</div><div class="l">threads promoted</div></div>
 </div>
 <section><h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>{needs_html}</section>
@@ -373,11 +373,11 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 
 <div class="zone">Library</div>
 <section><h2>Fresh intel — newest briefs</h2><div class="intelgrid">{briefs_html}</div>
-  <a class="roomlink" href="{esc(room_uri)}">open the briefing room ↗</a>
-  <a class="roomlink" href="{esc(missions_uri)}">mission control ↗</a></section>
+  <a class="roomlink" href="{esc(room_uri)}" data-route="/room">open the briefing room ↗</a>
+  <a class="roomlink" href="{esc(missions_uri)}" data-route="/missions">mission control ↗</a></section>
 <section class="shelf"><h2>Asset shelf — newest generations</h2>
   <div class="shelfgrid">{shelf_html}</div>
-  <a class="roomlink" href="{esc(board_uri)}">open the asset board ↗</a></section>
+  <a class="roomlink" href="{esc(board_uri)}" data-route="/assets">open the asset board ↗</a></section>
 <section><h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span></section>
 
 <footer><span>ANTIGRAVITY HOMEBASE</span><span>@farricecain</span></footer>
@@ -391,6 +391,7 @@ if (PULSE_LIVE) {{
   lc.textContent = 'live — actions write instantly';
   lc.classList.remove('muted'); lc.classList.add('ok');
 }}
+if (PULSE_LIVE) document.querySelectorAll('a[data-route]').forEach(a => {{ a.href = a.dataset.route; }});
 // dual-mode media: live pages load thumbs over /repo/, file:// pages from disk
 document.querySelectorAll('img[data-rel]').forEach(img => {{
   img.src = PULSE_LIVE ? '/repo/' + img.dataset.rel : REPO_ROOT_URI + '/' + img.dataset.rel;

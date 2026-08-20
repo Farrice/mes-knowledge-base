@@ -46,12 +46,14 @@ BOARD = os.path.join(ROOT, ".agent", "pulse", "pulse-board.html")
 ROOM = os.path.join(ROOT, "deliverables", "research-briefs", "index.html")
 ORACLE = os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")
 MISSIONS = os.path.join(ROOT, ".agent", "missions", "mission-control.html")
+HOMEBASE = os.path.join(ROOT, ".agent", "homebase", "homebase.html")
+ASSETS = os.path.join(ROOT, ".agent", "assets", "assets-board.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
 
-# Paths that serve the Pulse board. Everything else routes explicitly or 404s.
-PULSE_PATHS = {"", "/", "/index.html", "/pulse"}
+# Root serves the Homebase hub (2026-08-20); the Pulse console lives at /pulse.
+HOME_PATHS = {"", "/", "/index.html", "/home", "/homebase"}
 
 # ROOT-jailing keeps /repo/ inside the repo — but the repo itself holds secrets
 # (.env carries NOTION_API_KEY) and history (.git). "Inside the repo" is not the
@@ -81,7 +83,8 @@ def _repo_path_allowed(rel):
 
 def regen(which="pulse"):
     script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
-              "oracle": "oracle_dashboard.py",
+              "oracle": "oracle_dashboard.py", "homebase": "homebase_board.py",
+              "assets": "asset_gallery.py",
               "missions": "mission_board.py"}.get(which, "pulse_dashboard.py")
     try:
         subprocess.run([PY, os.path.join(ROOT, "execution", script)],
@@ -99,7 +102,23 @@ def _mtime(p):
 
 ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
            "thread-archive", "open-path", "brief-archive", "brief-unarchive",
-           "oracle-closes", "oracle-gate", "oracle-note"}
+           "oracle-closes", "oracle-gate", "oracle-note", "refresh"}
+
+
+def _refresh_async():
+    """Kick the honest CLI (pulse_actions.py refresh) as a detached process.
+    A sweep over 240 sessions takes real seconds; blocking the POST would make
+    the button feel broken — the exact defect this hub exists to end. The CLI
+    regenerates the homebase last, so /ping's mtime flips and the open page
+    reloads itself when the data is actually fresh."""
+    try:
+        subprocess.Popen([PY, os.path.join(ROOT, "execution", "pulse_actions.py"), "refresh"],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                         start_new_session=True)
+        return True
+    except Exception as e:
+        print(f"[pulse_serve] refresh spawn failed: {e}", file=sys.stderr)
+        return False
 
 
 def _brief_lifecycle(action, slug):
@@ -129,6 +148,8 @@ def _open_path(uri):
 def dispatch(action, args):
     if action == "open-path":
         return _open_path(args.get("uri", ""))
+    if action == "refresh":
+        return _refresh_async()
     if action in ("brief-archive", "brief-unarchive"):
         return _brief_lifecycle(action, args.get("slug", ""))
     sys.path.insert(0, os.path.join(ROOT, "execution"))
@@ -226,7 +247,9 @@ class Handler(BaseHTTPRequestHandler):
                                         "board_mtime": _mtime(BOARD),
                                         "room_mtime": _mtime(ROOM),
                                         "oracle_mtime": _mtime(ORACLE),
-                                        "missions_mtime": _mtime(MISSIONS)}), "application/json")
+                                        "missions_mtime": _mtime(MISSIONS),
+                                        "homebase_mtime": _mtime(HOMEBASE),
+                                        "assets_mtime": _mtime(ASSETS)}), "application/json")
             return
         if route.startswith("/repo/"):
             self._serve_repo(route)
@@ -240,10 +263,16 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/oracle"):
             self._serve_board("oracle", ORACLE, "oracle board")
             return
-        if route in PULSE_PATHS:
+        if route.startswith("/assets"):
+            self._serve_board("assets", ASSETS, "asset board")
+            return
+        if route.startswith("/pulse"):
             self._serve_board("pulse", BOARD, "board")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /room · /missions · /oracle · /repo/<path>",
+        if route in HOME_PATHS:
+            self._serve_board("homebase", HOMEBASE, "homebase")
+            return
+        self._send(404, f"no route: {route}\n\ntry / · /pulse · /room · /missions · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):

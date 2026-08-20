@@ -11,6 +11,8 @@ Actions:
     outcome-snooze "<full deliverable>"                        check_in_date +14d (atomic)
     thread-archive <thread>                                    → handoff_store archive
 
+    refresh                              re-collect ledgers (sweep + asset index) then regen boards
+
 Contracts: mission line schema per .agent/workflows/go.md Stage 2.5; append
 style per raw_intent_run_packet._log_mission (json.dumps + newline, never
 blocks on OSError). Revenue numbers are NEVER invented — they arrive from
@@ -186,6 +188,32 @@ def act_thread_archive(thread):
     return r.returncode == 0
 
 
+def act_refresh():
+    """Re-collect the data every board reads, then regenerate the hub surfaces.
+    Order matters: ledgers first (sweep, asset index), boards last — the
+    homebase regen flips /ping's homebase_mtime, which is the open page's
+    signal that the data is actually fresh. Synchronous and honest here; the
+    server wraps this CLI in a detached Popen so the button returns instantly."""
+    steps = [
+        ("session sweep", ["session_sweep.py", "run"], 600),
+        ("asset index", ["asset_index.py"], 300),
+        ("pulse board", ["pulse_dashboard.py"], 90),
+        ("homebase", ["homebase_board.py"], 90),
+    ]
+    all_ok = True
+    for label, cmd, timeout in steps:
+        try:
+            r = subprocess.run([PY, os.path.join(ROOT, "execution", cmd[0]), *cmd[1:]],
+                               capture_output=True, text=True, timeout=timeout)
+            ok = r.returncode == 0
+        except Exception as e:
+            print(f"[pulse_actions] refresh {label} crashed: {e}", file=sys.stderr)
+            ok = False
+        print(f"refresh {label}: {'ok' if ok else 'FAILED'}")
+        all_ok = all_ok and ok
+    return all_ok
+
+
 def act_oracle_closes():
     """Capture closing lines for pending paper bets (Oracle board button)."""
     r = subprocess.run([PY, os.path.join(ROOT, "execution", "paper_trader.py"), "closes"],
@@ -233,6 +261,7 @@ def main():
     x = sub.add_parser("outcome-dismiss"); x.add_argument("deliverable")
     s = sub.add_parser("outcome-snooze"); s.add_argument("deliverable"); s.add_argument("--days", type=int, default=14)
     t = sub.add_parser("thread-archive"); t.add_argument("thread")
+    sub.add_parser("refresh")
     sub.add_parser("oracle-closes")
     sub.add_parser("oracle-gate")
     n = sub.add_parser("oracle-note"); n.add_argument("text")
@@ -245,6 +274,7 @@ def main():
         "outcome-dismiss": lambda: act_outcome_dismiss(a.deliverable),
         "outcome-snooze": lambda: act_outcome_snooze(a.deliverable, a.days),
         "thread-archive": lambda: act_thread_archive(a.thread),
+        "refresh": act_refresh,
         "oracle-closes": act_oracle_closes,
         "oracle-gate": act_oracle_gate,
         "oracle-note": lambda: act_oracle_note(a.text),

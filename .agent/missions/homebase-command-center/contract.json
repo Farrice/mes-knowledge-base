@@ -1,0 +1,21 @@
+{
+ "slug": "homebase-command-center",
+ "intent": "Unified hub surface at / + always-on Readout OS server",
+ "serves": "orphan",
+ "route": "extend-readout-os",
+ "pattern": "solo+jam",
+ "tier": "T2",
+ "expected_spawns": 2,
+ "deliverable_paths": [
+  "execution/homebase_board.py",
+  ".agent/homebase/homebase.html",
+  "launchd/com.antigravity.homebase.plist",
+  ".agent/workflows/homebase.md"
+ ],
+ "gates": [
+  "verification-spine-sabotage",
+  "design-taste-premium-minimal"
+ ],
+ "cost": "$0",
+ "felt_standard": "full working homebase I can rely on\u2026 work fluently without switching between tabs\u2026 not primitive"
+}

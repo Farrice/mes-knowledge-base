@@ -11,8 +11,9 @@ status: enriched
 
 ## ⚡ If you only read 10 lines
 
+- **`open "http://127.0.0.1:8765/"` — THE HOMEBASE (added 2026-08-20): the hub. Focus (sprint, tiles, needs-you) · Launch (resumable threads) · Library (briefs + asset shelf). Server is always-on via launchd; `↻ refresh data` re-sweeps on demand. Spec: `.agent/workflows/homebase.md`.**
 - `/briefing-room` — open the library (uses the live server when running, static file otherwise).
-- `python3 execution/pulse_serve.py --open` — live boards: `/` = Pulse console, `/room` = Briefing Room; buttons WRITE (done/park/reopen, log outcome, archive); idle-exits after 2h.
+- `python3 execution/pulse_serve.py --open` — live boards: `/` = Homebase hub, `/pulse` = Pulse console, `/room` = Briefing Room, `/missions`, `/assets` (new), `/oracle`; buttons WRITE (done/park/reopen, log outcome, archive, refresh). Nav between boards stays live (surface_nav route rewrite, 2026-08-20).
 - Any brief render = complete package automatically: HTML + `.md` mirror + `-context.json` pack + room index refresh. No route can miss it.
 - Doctrine line: reusable deliverables (research · ICP · extraction · client · receipts) default to briefs; conversation stays conversation; markdown stays first-class.
 - Card copy grammar: `path` = for file-access tools (Codex/Claude Code); `copy brief` = full inline paste for any chat AI.
