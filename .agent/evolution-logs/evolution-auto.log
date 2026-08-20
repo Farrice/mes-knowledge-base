@@ -3490,3 +3490,118 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-18T07:00:05.883148",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-17T07:59:30.741794",
+      "reason": "not_due_yet",
+      "days_remaining": 0.04
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 5.12
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 22.0
+    }
+  ]
+}
+{
+  "run_at": "2026-08-19T04:08:13.512165",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-08-19.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 4,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "fantastic-posters": 1.23,
+            "joey-cinema-os": 0.84,
+            "ben-watkins-storytelling": 0.74,
+            "banana-pro-director": 1.23,
+            "gemini-api-dev": 0.68,
+            "dave-clark": 1.32,
+            "ghostwriting-voice-engine": 1.29,
+            "supercomputer": 0.5,
+            "doc-coauthoring": 0.5,
+            "jen-santulan-listing-content": 1.02,
+            "nick-saraev-agentic-workflows": 1.23,
+            "kallaway-social-commerce": 0.77,
+            "kallaway-illusion-of-novelty": 1.33,
+            "extract-mastery": 1.16,
+            "nate-b-jones-context-engineering": 0.5,
+            "corey-mcclain-persona-engineering": 0.5,
+            "mark-forsyth-rhetoric": 1.23,
+            "michael-israetel-hypertrophy": 1.11,
+            "andrew-dun-vibe-consulting": 0.93,
+            "creative-direction": 0.9,
+            "oren-one-person-ai-marketer": 0.92,
+            "andrew-sean-greer-novel-craft": 1.05
+          },
+          "candidates_appended": 2,
+          "quality_finalizes_counted": 1,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 69.1
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 44.1
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 4.24
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 21.12
+    }
+  ]
+}
+{
+  "run_at": "2026-08-20T04:00:02.036962",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-19T04:08:13.986307",
+      "reason": "not_due_yet",
+      "days_remaining": 0.01
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-08-16T10:00:04.894940",
+      "reason": "not_due_yet",
+      "days_remaining": 3.25
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 20.13
+    }
+  ]
+}

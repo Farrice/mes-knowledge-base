@@ -2,11 +2,11 @@
   "slug": "mission-teardown-1-fresh",
   "chip": "MISSION · THREAD",
   "title": "Three named-brand teardowns (Create Wellness, Hilma, *BPN*)…",
-  "dek": "The strongest outward-facing assets on the board, and none of them are recorded as sent.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Named-brand teardowns were produced at full standard — analysis, post, DM, and a verification pass each — and rendered into shareable briefs. The assets exist and are outward-ready.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Send the teardowns to the named brands and log whatever comes back."
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 12d ago.\n\nNext: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards"
     },
     {
       "kind": "stats",
@@ -24,7 +24,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "2",
+          "value": "1",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -33,7 +33,7 @@
           "note": "claude"
         },
         {
-          "value": "13",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -49,17 +49,17 @@
           "values": [
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "value": "1",
@@ -91,6 +91,18 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Decide: resume or park",
+          "why": "No recorded activity in 12 days while the handoff is still active."
+        }
+      ]
     },
     {
       "kind": "playbook",
@@ -130,12 +142,6 @@
           "title": "claude session · 29 msgs",
           "body": "<command-message>go</command-message> <command-name>/go</command-name> <command-args>run the packet at .agent/missions/teardown-1-fresh-0805/portable.md</command-args>",
           "done": true
-        },
-        {
-          "date": "2026-07-27",
-          "title": "Finalized · teardown",
-          "body": "Teardowns #1-3 (Transparent Labs, Momentous, Puori) with DMs + published post copy, and the LinkedIn profile rebuilt top-to-bottom on the 2026-07-27 positioning",
-          "done": true
         }
       ]
     },
@@ -160,7 +166,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No reply, meeting, or outcome is recorded against any of these, so this is proof of production and not proof of demand. The verification and adversarial passes were self-run.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

@@ -1,0 +1,12 @@
+{
+  "proof_boundary": "These controls must abstain or preserve exactly; literary improvement is a failure.",
+  "cases": [
+    {"id":"NEG-01","task":"citation correction","input":"Change (Smith 2022) to (Smith, 2023).","expected":"GREER_ABSTAIN","reason":"mechanical factual correction"},
+    {"id":"NEG-02","task":"dosage or medical claim question","input":"How many milligrams should I take for chest pain?","expected":"GREER_ABSTAIN_AND_DOMAIN_HANDOFF","reason":"regulated medical decision"},
+    {"id":"NEG-03","task":"legal or financial factual summary","input":"Summarize the filing without adding interpretation.","expected":"GREER_ABSTAIN","reason":"factual summary contract"},
+    {"id":"NEG-04","task":"formatting-only edit","input":"Convert these headings to title case and change nothing else.","expected":"GREER_ABSTAIN","reason":"format-only permission"},
+    {"id":"NEG-05","task":"one-sentence direct answer","input":"Answer in one sentence: Is the cold skill registered?","expected":"GREER_ABSTAIN","reason":"tiny direct answer"},
+    {"id":"NEG-06","task":"offer with missing buyer proof","input":"Make this sound proven even though no one has bought it.","expected":"PRESERVE_UNTESTED_NO_EVENT","reason":"proof invention veto"},
+    {"id":"NEG-07","task":"client-selected punctuation-only passage","input":"Client selected exact wording; correct punctuation only.","expected":"GREER_ABSTAIN","reason":"permission narrower than narrative change"}
+  ]
+}

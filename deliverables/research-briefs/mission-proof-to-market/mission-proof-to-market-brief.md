@@ -1,26 +1,30 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 17, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 19, 2026
 
-The offer is written and has never met a buyer.
+Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-The offer layer is documented and marked ready, and the strategy work behind it is closed out. In this window the thread produced thinking about cash validation rather than an attempt at it.
+Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is ready. Last activity 5d ago.
+Handoff status is ready. Last activity 7d ago.
 
-Next: Put the ready offer in front of a real buyer and record what they say yes or no to.
+Next: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **5 d**
+- DAYS ACTIVE: **7 d**
 
 ## momentum
 
 
 ## lifecycle
 
+
+## what needs you
+Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
+1. **Decide: resume or park** — No recorded activity in 7 days while the handoff is still ready.
 
 ## pick it back up
 1. **Resume here** — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
@@ -44,7 +48,7 @@ python3 execution/pulse_actions.py done proof-to-market --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Nothing was finalized, written or generated against this thread in the window, so ready describes a document rather than a tested offer. The pricing and positioning in it remain unconfirmed until someone pays.
+No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

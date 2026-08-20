@@ -1,23 +1,27 @@
 # Midnight Oil native reference pack, continuity manifest…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 19, 2026
 
-Prep is done; the pack has not been fired.
+Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-The reference pack, continuity manifest and director prompt are finalized. The outcome slot is still sitting on pending, so nothing downstream has been recorded as made from them.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.
 
-Handoff status is active. Last activity 6d ago.
+Handoff status is active. Last activity 8d ago.
 
-Next: Run the pack through generation and record the result against the pending outcome.
+Next: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **6 d**
+- DAYS ACTIVE: **8 d**
 
 ## lifecycle
 
+
+## what needs you
+Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
+1. **Decide: resume or park** — No recorded activity in 8 days while the handoff is still active.
 
 ## pick it back up
 1. **Resume here** — Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
@@ -38,7 +42,7 @@ python3 execution/handoff_store.py resume trailer-treatment
 
 ## what this isn't
 _READ THE EDGES_
-The creative deliverables scored below the keep bar at finalize time, and no outcome has been logged, so this is a well-formed setup with no evidence yet that it produces the intended footage.
+No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

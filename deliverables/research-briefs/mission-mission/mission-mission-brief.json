@@ -1,12 +1,12 @@
 {
   "slug": "mission-mission",
   "chip": "MISSION · THREAD",
-  "title": "Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
-  "window": "last 1 days",
-  "lens": "claude",
-  "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 7, 2026",
+  "title": "Created Josh's research-backed Eightward brand *strategy*…",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 2 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "codex",
+  "sources": "2 sessions · 0 files · 0 assets",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,53 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: research — reading and deciding — nothing built yet. In the last 1 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. This directly answers the raw-intent-bridge + source-command-mission request and the attached high-depth swarm brief: it includes a cultural research dossier; cultural distance map; 56-entry visual reference board with source links and rights posture; fashion and silhouette direction; brand positioning and messaging; first product/capsule architecture; cultural safety, legal, trademark, copyright, publicity, and IP risk map; lawyer consult agenda; cultural-review questions; validation plan; 90-day roadmap; and Mission composition ledger. It preserves Eightward as lead, treats The Eighth House as backup/capsule only, retires Airstep unless counsel clears it, centers Lindy Hop as Black American social dance history, keeps joke shirts as a satellite line, and gives Josh a concrete private-testing path before legal clearance, paid cultural review, or public launch. Verification passed: export_format_guard; copy-ban scan had no hits; artifact_router classified the file as canonical client deliverable; mission_control validate PASS; intent_memory verify PASS; system_cohesion_state verify PASS; artifact has 13 sections, 56 source/reference rows, and 74 source links."
+      "body": "Stage: research — reading and deciding — nothing built yet. In the last 14 days: 2 sessions.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. This directly answers the raw-intent-bridge + source-command-mission request and the attached high-depth swarm brief: it includes a cultural research dossier; cultural distance map; 56-entry visual reference board with source links and rights posture; fashion and silhouette direction; brand positioning and messaging; first product/capsule architecture; cultural safety, legal, trademark, copyright, publicity, and IP risk map; lawyer consult agenda; cultural-review questions; validation plan; 90-day roadmap; and Mission composition ledger. It preserves Eightward as lead, treats The Eighth House as backup/capsule only, retires Airstep unless counsel clears it, centers Lindy Hop as Black American social dance history, keeps joke shirts as a satellite line, and gives Josh a concrete private-testing path before legal clearance, paid cultural review, or public launch. Verification passed: export_format_guard; copy-ban scan had no hits; artifact_router classified the file as canonical client deliverable; mission_control validate PASS; intent_memory verify PASS; system_cohesion_state verify PASS; artifact has 13 sections, 56 source/reference rows, and 74 source links."
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "SESSIONS",
+          "note": "codex"
+        },
+        {
+          "value": "7",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "value": "2",
+          "unit": "total",
+          "note": "per day"
+        }
+      ]
     },
     {
       "kind": "progress",
@@ -43,6 +89,18 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "2026-08-07-mission-control.md",
+          "role": "GUIDE",
+          "path": "guides/2026-08-07-mission-control.md"
+        }
+      ]
+    },
+    {
       "kind": "playbook",
       "heading": "pick it back *up*",
       "tag": "RUN THIS",
@@ -61,6 +119,25 @@
           "intent": "Mark it done or park it with a reason.",
           "command": "python3 execution/pulse_actions.py done mission --outcome \"<one line>\"",
           "receipt": "It leaves the open set on the next pulse regen."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-16",
+          "title": "codex session",
+          "body": "[Research]: Free-First Mission - Built and Verified",
+          "done": true
+        },
+        {
+          "date": "2026-08-12",
+          "title": "codex session",
+          "body": "System: Portable Agent Mission - Teardown",
+          "done": true
         }
       ]
     },

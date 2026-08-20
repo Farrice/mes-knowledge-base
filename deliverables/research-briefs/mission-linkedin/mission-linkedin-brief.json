@@ -1,12 +1,12 @@
 {
   "slug": "mission-linkedin",
-  "chip": "MISSION · LINKEDIN",
+  "chip": "MISSION · THREAD",
   "title": "Linkedin — Execution *Checklist*",
-  "dek": "The launch is fully prepared and has not launched.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 5 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "3 sessions · 4 files · 9 assets",
-  "compiled": "aug 17, 2026",
+  "sources": "5 sessions · 0 files · 9 assets",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The campaign machinery is written — cadence, follow-up, delivery protocol, and a campaign file that keeps getting touched. What the records do not show is a single send or a logged reply.\n\nHandoff status is active. Last activity today.\n\nNext: Send the offer to real named prospects and log what comes back, before writing any more campaign scaffolding."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 assets generated.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Linkedin — Execution Checklist"
     },
     {
       "kind": "stats",
@@ -24,20 +24,16 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "4",
-          "label": "FILES WRITTEN"
-        },
-        {
           "value": "9",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "3",
+          "value": "5",
           "label": "SESSIONS",
           "note": "codex"
         },
         {
-          "value": "10",
+          "value": "13",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -58,45 +54,21 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
+            0,
+            0,
+            0,
+            0,
             2,
-            0,
-            0,
-            0
+            2
           ],
-          "value": "3",
+          "value": "5",
           "unit": "total",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            3,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0
-          ],
-          "value": "4",
-          "unit": "files",
           "note": "per day"
         },
         {
           "label": "assets",
           "values": [
-            0,
-            0,
             0,
             1,
             4,
@@ -104,6 +76,8 @@
             1,
             1,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -202,30 +176,6 @@
           "note": "aug 6, 2026"
         },
         {
-          "title": "CAMPAIGN.md",
-          "role": "FILE",
-          "path": "_active/linkedin/CAMPAIGN.md",
-          "note": "aug 12, 2026"
-        },
-        {
-          "title": "2026-08-10-DELIVERY-READY-PROTOCOL.md",
-          "role": "FILE",
-          "path": "_active/linkedin/02-offer/2026-08-10-DELIVERY-READY-PROTOCOL.md",
-          "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md",
-          "role": "FILE",
-          "path": "_active/linkedin/05-lead-gen/2026-08-10-CAMPAIGN-DAY-3-FOLLOW-UP.md",
-          "note": "aug 10, 2026"
-        },
-        {
-          "title": "2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
-          "role": "FILE",
-          "path": "_active/linkedin/03-launch/2026-08-10-CAMPAIGN-CONTENT-CADENCE.md",
-          "note": "aug 10, 2026"
-        },
-        {
           "title": "2026-07-13-stanton-linkedin-launch.md",
           "role": "GUIDE",
           "path": "guides/2026-07-13-stanton-linkedin-launch.md"
@@ -260,21 +210,33 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
+          "date": "2026-08-18",
+          "title": "codex session",
+          "body": "Revenue: LinkedIn PMF Signal Lane - Caleb Deployment",
+          "done": true
+        },
+        {
+          "date": "2026-08-18",
+          "title": "codex session",
+          "body": "Revenue: LinkedIn PMF Signal Lane - Caleb Deployment",
+          "done": true
+        },
+        {
           "date": "2026-08-17",
-          "title": "commit eae54a99b",
-          "body": "chore(session): end-session commit gate — 2026-08-17",
+          "title": "codex session",
+          "body": "Research: Recent LinkedIn Offers - Corrected PMF Verdict",
           "done": true
         },
         {
-          "date": "2026-08-13",
+          "date": "2026-08-17",
           "title": "codex session",
-          "body": "Revenue: LinkedIn B2B Offer Recovery - Consolidated Continu…",
+          "body": "Research: LinkedIn AI Health Offers - PMF Verdict",
           "done": true
         },
         {
-          "date": "2026-08-13",
-          "title": "codex session",
-          "body": "Find LinkedIn offer sessions",
+          "date": "2026-08-17",
+          "title": "commit 431165f9d",
+          "body": "fix: verify Drive lifecycle and reliability routing",
           "done": true
         },
         {
@@ -296,11 +258,6 @@
           "path": ".agent/handoffs/2026-08-08-linkedin.md"
         },
         {
-          "k": "FRONT DOOR",
-          "title": "START HERE · linkedin",
-          "path": "_active/linkedin/START-HERE.html"
-        },
-        {
           "k": "BOARD",
           "title": "Mission board — every live thread",
           "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
@@ -311,7 +268,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Every mission on this thread is closed and the artifacts are recent, but nothing has been finalized through the ledger and no outcome has been recorded — so the thread looks busier than it is proven. Sessions here ran on the other harness, so this sweep sees their titles more than their substance.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

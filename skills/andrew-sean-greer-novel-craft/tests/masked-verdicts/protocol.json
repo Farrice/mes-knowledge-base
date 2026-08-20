@@ -1,0 +1,13 @@
+{
+  "status": "PREPARED_NO_EVENT",
+  "human_evaluator": null,
+  "comparison_source": {
+    "baseline": "../baselines/frozen-baselines.md",
+    "candidate": "../candidates/greer-candidates.md"
+  },
+  "masking": "At behavior checkpoint, an independent packet builder must randomize labels per case and seal the label map before scoring.",
+  "rubric": "../../references/quality-rubric.md",
+  "required_verdicts": ["preferred", "tie", "baseline_preferred"],
+  "host_veto_policy": "Any fact, permission, safety, runtime, or proof-label violation is automatic candidate loss.",
+  "promotion_effect": "None. Human comparison is required but not sufficient for registration or deployment."
+}

@@ -21,6 +21,7 @@
 | `ali-abdaal` | **Ali Abdaal** | action bias, experiment cycles, overthinking tax, two-way door thinking |
 | `andrew-dun` | **Andrew Dun** | agent profile, ai consulting delivery + business process diagnosis + roi quantification |
 | `andrew-lane` | **andrew-lane** | ai-powered brand design systems, ai-powered design systems, branding strategy for founders, business/branding decision separation, layered asset architecture, mood-board-driven direction finding, vibe-first brand foundations, visual brand identity, written brand guidelines engineering |
+| `andrew-sean-greer` | **Andrew Sean Greer** | latent story reality and oddity-preserving revision |
 | `andrew-stanton` | **Andrew Stanton: Story-Uncoverer & Audience-Engagement Engineer** | - a sales page, audience-engagement engineer, or landing page that should pull like a story rather than list features, story-uncoverer, vsl |
 | `andrew-wilkinson` | **andrew-wilkinson** | adhd productivity engineering, ai entrepreneurship, ai workforce deployment, exit-ready architecture, problem-to-product translation, rapid execution, vibe coding, vibe coding mastery |
 | `andy-galpin` | **andy-galpin** | 4-gear breathing & fatigue management, carbon-first metabolic optimization, energy-system programming, energy-system training, exercise physiology, injury rehab, limiter-first diagnosis, load-first rehab & periodization, metabolic optimization, resistance programming (size / strength / power) |

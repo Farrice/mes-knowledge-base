@@ -385,3 +385,99 @@ released
 {"session_sweep": "2026-08-17T05:48:06.592201", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 234, "threads_seen": 453, "threads_promoted": 12, "deliverables": 48, "artifacts": 31, "assets": 251, "artifacts_vanished": 2, "overflow": 211}, "degraded": []}
 {"session_sweep": "2026-08-17T05:48:06.592201", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 234, "threads_seen": 453, "threads_promoted": 12, "deliverables": 48, "artifacts": 31, "assets": 251, "artifacts_vanished": 2, "overflow": 211}, "degraded": []}
 === 2026-08-17 05:48:06 mission sweep end rc=0 ===
+=== 2026-08-18 02:45:05 mission sweep start ===
+claimed: 2a7fc38f3a31  (heartbeat every wave: session_lock.py heartbeat 2a7fc38f3a31)
+[session_sweep] window 14d — 246 sessions, 12/462 threads promoted, 42 deliverables, 24 artifacts, 184 assets
+  · linkedin                               build    handoff status: active, artifact written, asset generated
+  · geo-content                            build    handoff status: ready, artifact written
+  · health-performance-ip-library          build    handoff status: active, artifact written
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · first-client-engine                    outcome  finalized deliverable, handoff status: active
+  · trailer-treatment                      outcome  finalized deliverable, handoff status: active
+  · teardown-1-fresh                       outcome  finalized deliverable, handoff status: active
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · 04-briefs                              shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · execution                              research handoff status: active
+[session_sweep] over the 12-card ceiling (211), not carded: mission, writers-room, deep-research, codex-end-session-control-plane, video-studio-edit-bay, quick-concept-application, farrice-brand, clients, one-liner, daily-zeitgeist-brief
+[session_sweep] shipped without a live thread: 24 (surfaces on the mission board)
+[session_sweep] below the bar (239): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, angle-brief-2026-08-06, angle-brief-2026-08-10, angle-map-company-intelligence-deep-market-truth
+[session_sweep] wrote .agent/sweep/sweep-2026-08-18.json
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-extract-forge, mission-proof-to-market, mission-trailer-treatment, mission-01-listing-content, mission-angle-map-listening-engine-v4-1 …
+Wrote `.agent/sweep/synthesis.json` — 12 threads plus `mission-board`.
+
+**Omitted:** `execution`. Its records are a bare handoff plus old closed missions — no sessions, files, assets, or deliverables in the window, and no first/last activity timestamps. There's nothing there to read honestly, so it gets no synthesis and falls back to the renderer's facts-only default.
+
+**What the bundle actually says**, in one line: nearly every live thread is *built and unsent*. Approved reels waiting to go to Jen, a Claim Check funnel staged but unpublished, brand teardowns finished as lead magnets and never sent, an offer OS fully specified that has never met a buyer, a trailer prompt never rendered. The two threads with genuine quality signal (angle-map brief, trailer package) both self-scored under bar. That's the through-line I put in the board lede.
+
+**Constraint compliance:** verified programmatically — no digits, no path/filename fragments in any value; key set is a strict subset of the five contract slots; all slugs valid.
+
+`why` is written only where the renderer will actually build a decision item — `extract-forge` and `01-listing-content` (unfinished lines) and `04-briefs`, `teardown-1-fresh`, `trailer-treatment` (idle-past-threshold). No thread had an open mission or a blocked handoff, so index `"0"` is the only live index anywhere.
+
+★ Insight ─────────────────────────────────────
+`sec_decision` builds its items in a fixed order and only then overlays `why` by stringified index — so the index isn't a stable identity, it's a position in a list whose length depends on thread state. Writing `"1"` for a thread that yields one item silently drops the text; writing `"0"` for a thread whose item order shifts next sweep silently re-attaches your reasoning to a different action. That's why the whys here are worded to justify the *class* of action (park-vs-resume, promote-vs-close) rather than the specific sentence the renderer will pair them with.
+─────────────────────────────────────────────────
+
+I didn't run `mission_brief.py build` — you asked for the JSON only.
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-extract-forge, mission-proof-to-market, mission-trailer-treatment, mission-01-listing-content, mission-angle-map-listening-engine-v4-1 …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (48 briefs · routes verified · 48 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-18T02:48:38.158813", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 246, "threads_seen": 462, "threads_promoted": 12, "deliverables": 42, "artifacts": 24, "assets": 184, "artifacts_vanished": 2, "overflow": 211}, "degraded": []}
+{"session_sweep": "2026-08-18T02:48:38.158813", "status": "ok", "synthesis_rc": 0, "synthesized": true, "counts": {"sessions": 246, "threads_seen": 462, "threads_promoted": 12, "deliverables": 42, "artifacts": 24, "assets": 184, "artifacts_vanished": 2, "overflow": 211}, "degraded": []}
+=== 2026-08-18 02:48:38 mission sweep end rc=0 ===
+=== 2026-08-18 23:58:41 mission sweep start ===
+claimed: e7b91d3e7a7d  (heartbeat every wave: session_lock.py heartbeat e7b91d3e7a7d)
+[session_sweep] window 14d — 247 sessions, 12/466 threads promoted, 42 deliverables, 24 artifacts, 184 assets
+  · linkedin                               build    handoff status: active, artifact written, asset generated
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · geo-content                            build    handoff status: ready, artifact written
+  · health-performance-ip-library          build    handoff status: active, artifact written
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · first-client-engine                    outcome  finalized deliverable, handoff status: active
+  · trailer-treatment                      outcome  finalized deliverable, handoff status: active
+  · teardown-1-fresh                       outcome  finalized deliverable, handoff status: active
+  · 04-briefs                              shipped  finalized deliverable, handoff status: active
+  · 01-listing-content                     shipped  finalized deliverable, handoff status: ready
+  · execution                              research handoff status: active
+[session_sweep] over the 12-card ceiling (210), not carded: mission, writers-room, deep-research, codex-end-session-control-plane, video-studio-edit-bay, quick-concept-application, farrice-brand, clients, one-liner, daily-zeitgeist-brief
+[session_sweep] shipped without a live thread: 24 (surfaces on the mission board)
+[session_sweep] below the bar (244): 01-extract-virtuoso-mastery, 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, angle-brief-2026-08-06, angle-brief-2026-08-10, angle-map-company-intelligence-deep-market-truth
+[session_sweep] wrote .agent/sweep/sweep-2026-08-18.json
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-extract-forge, mission-proof-to-market, mission-trailer-treatment, mission-01-listing-content, mission-angle-map-listening-engine-v4-1 …
+Contract read, bundle read. Writing the synthesis file now — the omission call: `execution` gets dropped (no sessions, no deliverables, no artifacts, no recorded activity — its handoff title is the only signal, which isn't enough to read from).
+API Error: Connection closed mid-response. The response above may be incomplete.
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-extract-forge, mission-proof-to-market, mission-trailer-treatment, mission-01-listing-content, mission-angle-map-listening-engine-v4-1 …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (48 briefs · routes verified · 48 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-19T01:16:43.806646", "status": "synthesis_failed", "synthesis_rc": 1, "synthesized": true, "counts": {"sessions": 247, "threads_seen": 466, "threads_promoted": 12, "deliverables": 42, "artifacts": 24, "assets": 184, "artifacts_vanished": 0, "overflow": 210}, "degraded": []}
+{"session_sweep": "2026-08-19T01:16:43.806646", "status": "synthesis_failed", "synthesis_rc": 1, "synthesized": true, "counts": {"sessions": 247, "threads_seen": 466, "threads_promoted": 12, "deliverables": 42, "artifacts": 24, "assets": 184, "artifacts_vanished": 0, "overflow": 210}, "degraded": []}
+=== 2026-08-19 01:16:43 mission sweep end rc=1 ===
+=== 2026-08-19 23:45:01 mission sweep start ===
+claimed: cbf772ea6b3b  (heartbeat every wave: session_lock.py heartbeat cbf772ea6b3b)
+[session_sweep] window 14d — 241 sessions, 12/466 threads promoted, 31 deliverables, 11 artifacts, 184 assets
+  · linkedin                               build    handoff status: active, asset generated
+  · extract-forge                          outcome  finalized deliverable, handoff status: ready
+  · geo-content                            build    handoff status: ready, artifact written
+  · health-performance-ip-library          build    handoff status: active, artifact written
+  · mission                                research handoff status: active
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · first-client-engine                    outcome  finalized deliverable, handoff status: active
+  · trailer-treatment                      outcome  finalized deliverable, handoff status: active
+  · teardown-1-fresh                       outcome  finalized deliverable, handoff status: active
+  · execution                              research handoff status: active
+  · writers-room                           outcome  handoff status: active
+[session_sweep] over the 12-card ceiling (211), not carded: deep-research, codex-end-session-control-plane, video-studio-edit-bay, quick-concept-application, farrice-brand, clients, one-liner, 04-briefs, readout-os, god-agent-offer
+[session_sweep] shipped without a live thread: 21 (surfaces on the mission board)
+[session_sweep] below the bar (243): 1654-moonseed-simi-hooks, ai-marketing-agents-hype-vs-harness, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, angle-brief-2026-08-06, angle-brief-2026-08-10, angle-map-company-intelligence-deep-market-truth, angle-map-god-agent-gtm-decision
+[session_sweep] wrote .agent/sweep/sweep-2026-08-19.json
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-extract-forge, mission-proof-to-market, mission-trailer-treatment, mission-execution, mission-first-client-engine …
+Failed to authenticate: OAuth session expired and could not be refreshed
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-extract-forge, mission-proof-to-market, mission-trailer-treatment, mission-execution, mission-first-client-engine …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (48 briefs · routes verified · 48 active · 0 archived · shelves clean)
+released
+{"session_sweep": "2026-08-19T23:45:13.441422", "status": "synthesis_failed", "synthesis_rc": 1, "synthesized": false, "synthesis_valid": false, "counts": {"sessions": 241, "threads_seen": 466, "threads_promoted": 12, "deliverables": 31, "artifacts": 11, "assets": 184, "artifacts_vanished": 0, "overflow": 211}, "degraded": []}
+{"session_sweep": "2026-08-19T23:45:13.441422", "status": "synthesis_failed", "synthesis_rc": 1, "synthesized": false, "synthesis_valid": false, "counts": {"sessions": 241, "threads_seen": 466, "threads_promoted": 12, "deliverables": 31, "artifacts": 11, "assets": 184, "artifacts_vanished": 0, "overflow": 211}, "degraded": []}
+=== 2026-08-19 23:45:13 mission sweep end rc=1 ===

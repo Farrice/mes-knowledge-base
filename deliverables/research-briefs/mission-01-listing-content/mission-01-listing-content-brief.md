@@ -1,27 +1,27 @@
 # Willis Approved Three-Reel Closeout
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 18, 2026
 
-Approved and packed, waiting on someone to hit send.
+Jen's reel package is approved and packed; it's waiting to be sent, not waiting to be built.
 
 ## where this stands
 _CURRENT POSITION_
-The approved reel package is finished and sitting in the clean recording pack, ready to go to the client. The only remaining work is optional tightening of the surrounding stories and b-roll order.
+The listing reel package went through client rejection and came back approved — hooks rebuilt on interrupt mechanics, script bodies rewritten as lived scenes. The approved cut is packed and waiting to be handed over.
 
-Handoff status is ready. Last activity 12d ago.
+Handoff status is ready. Last activity 14d ago.
 
-Next: Send the approved recording pack to the client and close the thread.
+Next: Send the approved reel pack to Jen.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **14 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — It is polish on already-approved work, so it is not blocking delivery — leaving it open is what keeps a shipped package looking unshipped.
+1. **Finish what's open** — The Stories and b-roll polish is genuinely optional — it only pays back if the approved spine gets reused on the next listing rather than rebuilt from scratch.
 
 ## pick it back up
 1. **Resume here** — Final approved three Reels are in the clean recording pack; send to Jen.
@@ -42,7 +42,7 @@ python3 execution/handoff_store.py resume 01-listing-content
 
 ## what this isn't
 _READ THE EDGES_
-The client work scored below the keep bar at finalize time, no outcome has been recorded, and the thread has gone quiet since approval — the pack may already be with the client without the ledger knowing.
+Approval here is the client signing off on scripts, not performance. Nothing in the records says the reels were shot, posted, or measured, and the thread has been quiet since closeout — read 'ready' as ready-to-send, not as in-market.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

@@ -61,6 +61,11 @@ SLOTS = {
     "operator_read": "One line an operator would tell a colleague about this thread.",
 }
 
+FORBIDDEN_SYNTHESIS_VALUE = re.compile(
+    r"\d|[/\\]|https?://|\b[^\s]+\.(?:json|jsonl|md|html?|pdf|docx?|png|jpe?g|mp3|mp4)\b",
+    re.IGNORECASE,
+)
+
 STAGE_LABELS = ["research", "build", "shipped", "outcome"]
 STAGE_BLURB = {
     "research": "reading and deciding — nothing built yet",
@@ -654,6 +659,53 @@ def cmd_slots(args):
     return 0
 
 
+def cmd_validate_synthesis(args):
+    """Fail closed when judged prose can contaminate deterministic brief facts."""
+    bundle = load(SWEEP_LATEST, {})
+    synth = load(SYNTHESIS, None)
+    errors = []
+    allowed_slugs = set(bundle.get("threads", {})) | {BOARD_SLUG}
+    allowed_keys = set(SLOTS)
+    required_keys = allowed_keys - {"why"}
+
+    if not isinstance(synth, dict):
+        errors.append("synthesis must be a JSON object")
+        synth = {}
+    if BOARD_SLUG not in synth:
+        errors.append("mission-board is required")
+
+    for slug, slots in synth.items():
+        if slug not in allowed_slugs:
+            errors.append(f"unknown thread slug: {slug}")
+            continue
+        if not isinstance(slots, dict):
+            errors.append(f"{slug}: value must be an object")
+            continue
+        keys = set(slots)
+        if not required_keys.issubset(keys) or not keys.issubset(allowed_keys):
+            errors.append(f"{slug}: keys must stay within the slot contract")
+        for key, value in slots.items():
+            if key == "why":
+                if not isinstance(value, dict):
+                    errors.append(f"{slug}.why: must be an object")
+                    continue
+                values = value.values()
+            else:
+                if not isinstance(value, str):
+                    errors.append(f"{slug}.{key}: must be a string")
+                    continue
+                values = (value,)
+            for text in values:
+                if not isinstance(text, str):
+                    errors.append(f"{slug}.{key}: nested values must be strings")
+                elif FORBIDDEN_SYNTHESIS_VALUE.search(text):
+                    errors.append(f"{slug}.{key}: contains forbidden rendered metadata")
+
+    payload = {"valid": not errors, "entries": len(synth), "errors": errors}
+    print(json.dumps(payload, indent=2))
+    return 0 if not errors else 1
+
+
 def cmd_status(args):
     bundle = load(SWEEP_LATEST)
     live = sorted(bundle.get("threads", {}))
@@ -678,10 +730,16 @@ def main():
     b.add_argument("--quiet", action="store_true")
     s = sub.add_parser("slots", help="Print the synthesis contract (what a judge may write).")
     s.add_argument("--json", action="store_true")
+    sub.add_parser("validate-synthesis", help="Validate the judged synthesis before rendering it.")
     sub.add_parser("status", help="What's live vs what's on disk.")
     args = ap.parse_args()
     try:
-        return {"build": cmd_build, "slots": cmd_slots, "status": cmd_status}[args.command](args)
+        return {
+            "build": cmd_build,
+            "slots": cmd_slots,
+            "validate-synthesis": cmd_validate_synthesis,
+            "status": cmd_status,
+        }[args.command](args)
     except Exception as e:  # noqa: BLE001
         print(f"[mission_brief] FAILED (non-blocking): {type(e).__name__}: {e}", file=sys.stderr)
         return 0

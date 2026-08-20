@@ -2,11 +2,11 @@
   "slug": "mission-angle-map-listening-engine-v4-1",
   "chip": "MISSION · THREAD",
   "title": "2026-08-12 Angle Map Listening Brief with flagship *post*…",
-  "dek": "The listening works; the writing off the back of it is the weak link.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
-  "lens": "claude · codex",
+  "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The listening brief is running and produced both a flagship post and a teardown of unkept promises. The research side of it held up better than the content side.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Raise the content take to the keep bar before publishing another brief-driven post."
+      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown"
     },
     {
       "kind": "stats",
@@ -24,16 +24,16 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "2",
+          "value": "1",
           "label": "DELIVERABLES FINALIZED"
         },
         {
           "value": "1",
           "label": "SESSIONS",
-          "note": "claude · codex"
+          "note": "codex"
         },
         {
-          "value": "12",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -54,9 +54,9 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -91,6 +91,18 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Decide: resume or park",
+          "why": "No recorded activity in 7 days while the handoff is still active."
+        }
+      ]
     },
     {
       "kind": "playbook",
@@ -130,12 +142,6 @@
           "title": "codex session",
           "body": "Content: Angle Map Listening Engine - V4.1 Content Factory",
           "done": true
-        },
-        {
-          "date": "2026-08-05",
-          "title": "Finalized · angle-map-listening-engine-v4.1",
-          "body": "2026-08-05 Angle Map listening brief (Wed promises deep dive): P&G-Thorne trust-ownership angle, flagship post + Buyer's Ledger teardown #1 vault-filed, 3 insight + 2 promises rows, living docs 07/03 fed, Drive mirror ve",
-          "done": true
         }
       ]
     },
@@ -160,7 +166,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The content deliverable scored well below the research one, which is the signal to watch — the engine is finding material faster than the writing is converting it. No outcome has been logged for either piece.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

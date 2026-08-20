@@ -1,30 +1,30 @@
 # Knowledge Briefing
-*Generated: 2026-08-16 | 1138 sources | 3,603,261 words*
+*Generated: 2026-08-18 | 1147 sources | 3,650,434 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 6,933 words — `knowledge/index.md`
-- **log** (general) — 19,197 words — `knowledge/log.md`
-- **amplification-report** (research [jason-fladlien]) — 1,238 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/amplification-report.md`
-- **architecture** (copywriting [jason-fladlien]) — 1,553 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/architecture.md`
-- **behavior-proof** (copywriting [jason-fladlien]) — 2,054 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/behavior-proof.md`
-- **canonical-admission-map** (research [jason-fladlien]) — 3,120 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-admission-map.md`
-- **canonical-deployment-receipt** (research [jason-fladlien]) — 1,105 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/canonical-deployment-receipt.md`
-- **development-behavior-proof** (copywriting [jason-fladlien]) — 1,376 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-behavior-proof.md`
-- **development-benchmark** (sales [lara-acosta]) — 1,468 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/development-benchmark.md`
-- **implementation-receipt** (systems [jason-fladlien]) — 969 words — `extractions/jason-fladlien/buyer-psychology-intelligence-layer/implementation-receipt.md`
+- **log** (general) — 19,392 words — `knowledge/log.md`
+- **ARCHITECTURE** (screenwriting) — 3,179 words — `extractions/andrew-sean-greer/ARCHITECTURE.md`
+- **BUILD-CHECKPOINT** (copywriting) — 364 words — `extractions/andrew-sean-greer/BUILD-CHECKPOINT.md`
+- **DEEP-EXTRACTION** (screenwriting) — 4,683 words — `extractions/andrew-sean-greer/DEEP-EXTRACTION.md`
+- **SOURCE-LEDGER** (content) — 1,457 words — `extractions/andrew-sean-greer/SOURCE-LEDGER.md`
+- **VALIDATION** (copywriting) — 452 words — `extractions/andrew-sean-greer/VALIDATION.md`
+- **VISION** (screenwriting) — 1,064 words — `extractions/andrew-sean-greer/VISION.md`
+- **uncertainty-report** (screenwriting) — 74 words — `extractions/video-context/0kkAl04_0og/uncertainty-report.md`
+- **video-context-ledger** (content) — 34,168 words — `extractions/video-context/0kkAl04_0og/video-context-ledger.md`
+- **2026-08-17-pulse** (strategy) — 1,268 words — `research_outputs/market-pulse/2026-08-17-pulse.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 362 | nathan-gotch |
-| copywriting | 197 | jason-fladlien |
+| content | 364 | nathan-gotch |
+| copywriting | 199 | jason-fladlien |
 | general | 123 | nick-saraev |
-| screenwriting | 118 | connelly |
-| strategy | 113 | april-dunford |
+| screenwriting | 122 | connelly |
+| strategy | 114 | april-dunford |
 | brand | 66 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |

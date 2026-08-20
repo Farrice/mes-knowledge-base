@@ -1,51 +1,49 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 234 sessions swept · compiled: aug 17, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 241 sessions swept · compiled: aug 19, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-Almost every live thread is one step short of contact with the outside world: the writing, the packaging and the decisions are done, and the send, the publish or the logged result is not. The board is heavy with finished documents and light on evidence that any of them worked.
+12 threads are live. 31 deliverables were finalized and 184 assets generated in the last 14 days, across 241 sessions on both harnesses.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **48**
-- FILES WRITTEN: **31**
-- ASSETS GENERATED: **251**
-- SESSIONS SWEPT: **234**
+- DELIVERABLES FINALIZED: **31**
+- FILES WRITTEN: **11**
+- ASSETS GENERATED: **184**
+- SESSIONS SWEPT: **241**
 
 ## momentum
 
 
 ## where the work went
-- linkedin: 13
-- system audit: 6
-- geo content: 10
-- health performance ip library: 6
-- angle map listening engine v4 1: 6
+- linkedin: 9
+- extract forge: 9
+- geo content: 6
+- health performance ip library: 4
+- angle map listening engine v4 1: 3
 - first client engine: 6
 - trailer treatment: 9
-- extract forge: 21
-- 04 briefs: 6
-- 01 listing content: 9
+- teardown 1 fresh: 3
 _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
 - [ACTIVE] linkedin — deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html
-- [ACTIVE] system audit — deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html
+- [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
 - [READY] geo content — deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html
 - [ACTIVE] health performance ip library — deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html
+- [ACTIVE] mission — deliverables/research-briefs/mission-mission/mission-mission-brief.html
 - [ACTIVE] angle map listening engine v4 1 — deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html
 - [READY] proof to market — deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html
 - [ACTIVE] first client engine — deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html
 - [ACTIVE] trailer treatment — deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html
-- [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
-- [ACTIVE] 04 briefs — deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html
-- [READY] 01 listing content — deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html
+- [ACTIVE] teardown 1 fresh — deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html
 - [ACTIVE] execution — deliverables/research-briefs/mission-execution/mission-execution-brief.html
+- [ACTIVE] writers room — deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html
 
 ## also shipped
 - 2026-08-13 · **end-session** — Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han
@@ -63,22 +61,22 @@ _weighted: deliverables ×3 + files + assets_
 
 ## what this board isn't
 _READ THE EDGES_
-This board sees what was written, finalized and committed. It cannot see what was sent, published, replied to or paid — so a thread reading ready may be ready on the strength of a document alone. Deliverable scores here are self-assessed at finalize time, not outcomes.
+This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.
 
-211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: teardown 1 fresh, mission, writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, deep research, daily zeitgeist brief, fantastic posters.
+211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: deep research, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, 04 briefs, readout os, god agent offer, create, deliverables.
 
-230 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
 - `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
 - `deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html` — related · READY
 - `deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-mission/mission-mission-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html` — related · READY
 - `deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
-- `deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html` — related · READY
+- `deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-execution/mission-execution-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html` — related · ACTIVE

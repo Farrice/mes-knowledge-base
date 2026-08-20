@@ -2,11 +2,11 @@
   "slug": "mission-04-briefs",
   "chip": "MISSION · THREAD",
   "title": "Added complete production playbook and morning *content*…",
-  "dek": "Best-rated work on the board, parked with nobody using it.",
+  "dek": "The brief system and its production playbook are built and skinned; no one has run a real day through them yet.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "compiled": "aug 18, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The production playbook and morning brief layer landed at keep grade — among the few results in this sweep rated worth keeping — and then the thread went quiet.\n\nHandoff status is active. Last activity 11d ago.\n\nNext: Decide whether this layer is finished: close it, or name the next piece it needs."
+      "body": "The readout layer shipped: the brief renderer got its Premium Minimal skin and richer section kinds, with a production playbook and a morning brief template stacked on top. It has been still since it landed.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Put the morning brief template through a real production day and cut whatever doesn't survive contact."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "12",
+          "value": "14",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Decide: resume or park",
-          "why": "This is some of the highest-rated work in the sweep sitting idle with an open status — either it is done and should be closed, or something downstream is quietly waiting on it."
+          "why": "It shipped complete and then stopped moving, which reads as finished rather than abandoned — the honest call is to close the thread out, not keep it warm."
         }
       ]
     },
@@ -126,7 +126,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Quality was self-assessed at finalize time and no outcome has been recorded, so keep grade means the work was judged good, not that anyone has run a day off it yet.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Everything recorded here is build evidence. The playbook and template exist and passed their own verification checks, but no record shows either used on a live production day — shipped is not the same as adopted.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

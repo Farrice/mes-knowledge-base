@@ -66,3 +66,8 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 ## 2026-08-08
 
 - `extract-forge` -> `youtube-video-context-analysis` (manual load, 2026-08-08T07:31:27.879403)
+
+## 2026-08-19
+
+- `extract-forge` -> `source-command-extract-forge` (manual load, 2026-08-18T10:09:50.565133)
+- `extract-forge` -> `source-command-extract-forge` (manual load, 2026-08-18T10:10:06.784773)

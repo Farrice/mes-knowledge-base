@@ -1,27 +1,31 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 17, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 19, 2026
 
-Done and working — the open item is a badge, not a build.
+Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-The build is finished and usable — the skill is verified and there is no functional debt. What remains is a taste verdict that only matters if the work needs a top-tier badge.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 3 deliverables finalized.
 
-Handoff status is ready. Last activity 11d ago.
+Handoff status is ready. Last activity 1d ago.
 
-Next: Decide whether A-tier promotion is worth the blind recognition pass, then close this thread either way.
+Next: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 
 ## by the numbers
-- DELIVERABLES FINALIZED: **7**
+- DELIVERABLES FINALIZED: **3**
+- SESSIONS: **1** (claude · codex)
 - DAYS ACTIVE: **13 d**
+
+## momentum
+
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Finish what's open** — This is the only thing keeping a finished build filed as unfinished, and it is optional by the thread's own account — a minute of judgment ends it.
+1. **Finish what's open** — Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
 
 ## what this thread made
 - **2026-08-04-extract-forge.md** [GUIDE] `guides/2026-08-04-extract-forge.md`
@@ -40,13 +44,10 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
    receipt: It leaves the open set on the next pulse regen.
 
 ## how it got here
+- 2026-08-18 · **codex session** — Extraction: Video Extract Forge - Build Grounded System
 - 2026-08-06 · **Finalized · extract-forge** — Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal Scout listening engine (2 new Apify actors, signal_scout.py, 229-engager live test) + Angle Brief Mon/Thu loop + Hype-vs
 - 2026-08-06 · **Finalized · extract** — God Agent harvest: corpus extension of riley-brown (cleaned transcript + mes-extension with 9 timestamped patterns E1-E9 + era-bound appendix) plus delta memo vs Antigravity harness with 5 ranked adoptable moves. Watch-c
 - 2026-08-06 · **Finalized · extract** — God Agent harvest (score correction of prior row — --intent was logged on wrong scale): corpus extension of riley-brown + delta memo with 5 ranked adoptable moves; 'god agent' = router rebrand, new organs are organizatio
-- 2026-08-05 · **Finalized · extract-forge** — Kallaway — Hook Mastery (Interrupt Theory) forge extraction: skill + 10 workflows + 7 born-v2 prompts + agent expansion
-- 2026-08-05 · **Finalized · extract-forge** — Scott Norton × Oren John — Brand World-Building mastery extraction (forge): 10 workflows + 10 born-v2 prompts + agent + 2 live lane deployments
-- 2026-08-04 · **Finalized · extract-forge** — Oren John — Slop-Era Creative Strategy mastery extraction (forge expansion, 2 fresh 2026 sources watched with frames)
-- 2026-08-04 · **Finalized · extract-forge** — Benoit Vatere — Full-Funnel Media Systems mastery extraction (forge)
 
 ## swings to
 - [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-04-extract-forge.md
@@ -54,7 +55,7 @@ python3 execution/pulse_actions.py done extract-forge --outcome "<one line>"
 
 ## what this isn't
 _READ THE EDGES_
-Most of the finalized extractions carry needs-improvement verdicts rather than keep verdicts, so the thread is complete but not demonstrably excellent. The recorded outcomes are amnesty backfills from an old reset, not real-world results, and the thread has been quiet for a while.
+No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

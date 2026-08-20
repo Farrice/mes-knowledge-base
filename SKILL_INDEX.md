@@ -23,6 +23,7 @@
 | `andreessen-horowitz-new-media` | **Marc Andreessen & Ben Horowitz: New Media Strategy** | deploy a16z's new media warfare doctrine — ooda loop speed dominance, oral/written culture content architecture, founder go-direct positioning | 4 | 6 |
 | `andrew-dun-vibe-consulting` | **Andrew Dun — Vibe Consulting Mastery** | for solo-operator ai monetization use darrel-wilson-ai-monetization, vibe consulting mastery | 15 | 0 |
 | `andrew-lane-design-systems` | **andrew-lane-design-systems** | andrew lane's mood board method — ai-powered visual brand identity systems, includes his business-vs-branding decision split for founders, design systems & the mood board method | 3 | 0 |
+| `andrew-sean-greer-novel-craft` | **andrew-sean-greer-novel-craft** | assembling scenes out of order, choosing pleasurable forms, calibrating reader invention | 12 | 0 |
 | `andrew-stanton-audience-engineering` | **Andrew Stanton — Audience Engineering & Emotional Architecture** | grounded in his 2026 how i write interview, 15 genius patterns and 21 workflows for the premise-sentence litmus (egri), the weston character spine | 21 | 0 |
 | `andrew-wilkinson-ai-entrepreneurship` | **Andrew Wilkinson AI Entrepreneurship** | for ai-affiliate monetization specifically use darrel-wilson-ai-affiliate | 2 | 6 |
 | `andy-galpin-training-intelligence` | **Dr. Andy Galpin — Training Intelligence** | cardio, metabolism vs, fuel) before prescribing, then designs precise, fully-specified training, training intelligence | 4 | 0 |

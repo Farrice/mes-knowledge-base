@@ -2,11 +2,11 @@
   "slug": "mission-health-performance-ip-library",
   "chip": "MISSION · KNOWLEDGE",
   "title": "Health Performance Ip *Library*",
-  "dek": "The intake is healthy; nothing downstream is eating it.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
-  "sources": "0 sessions · 6 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "sources": "0 sessions · 4 files · 0 assets",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The daily listening brief is genuinely running — fresh briefs keep landing, and an executive cut is being maintained alongside them. It behaves like a feed rather than a project with an endpoint.\n\nHandoff status is active. Last activity today.\n\nNext: Convert the accumulated briefs into a single angle decision instead of letting them stack."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Health Performance Ip Library — W32 Health Performance Synthesis"
     },
     {
       "kind": "stats",
@@ -24,8 +24,13 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "6",
+          "value": "4",
           "label": "FILES WRITTEN"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
         }
       ]
     },
@@ -44,15 +49,15 @@
             0,
             0,
             0,
-            1,
-            1,
             0,
             1,
             0,
             1,
-            2
+            2,
+            0,
+            0
           ],
-          "value": "6",
+          "value": "4",
           "unit": "files",
           "note": "per day"
         }
@@ -110,18 +115,6 @@
           "role": "FILE",
           "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md",
           "note": "aug 13, 2026"
-        },
-        {
-          "title": "2026-08-11-angle-map-listening-brief.md",
-          "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-11-angle-map-listening-brief.md",
-          "note": "aug 11, 2026"
-        },
-        {
-          "title": "2026-08-10-angle-map-listening-brief.md",
-          "role": "FILE",
-          "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-10-angle-map-listening-brief.md",
-          "note": "aug 10, 2026"
         }
       ]
     },
@@ -148,8 +141,8 @@
       "items": [
         {
           "date": "2026-08-17",
-          "title": "commit eae54a99b",
-          "body": "chore(session): end-session commit gate — 2026-08-17",
+          "title": "commit 431165f9d",
+          "body": "fix: verify Drive lifecycle and reliability routing",
           "done": true
         }
       ]
@@ -180,7 +173,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Nothing here has been finalized or turned into a deliverable, so the value is entirely potential — a listening feed that nobody harvests is a cost, not an asset. The briefs' underlying sources are not verified by this sweep.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

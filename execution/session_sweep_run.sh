@@ -16,8 +16,10 @@ LOG="$REPO/.agent/sweep/session-sweep.log"
 RECEIPT="$REPO/.agent/health/session-sweep.json"
 CLAUDE="${CLAUDE_BIN:-/Users/farricecain/.npm-global/bin/claude}"
 SYNTH="$REPO/.agent/sweep/synthesis.json"
+SYNTH_PREV="$REPO/.tmp/mission-brief-synthesis.previous.json"
+SYNTH_INVALID="$REPO/.tmp/mission-brief-synthesis.invalid.json"
 cd "$REPO" || exit 1
-mkdir -p "$REPO/.agent/sweep" "$REPO/.agent/health"
+mkdir -p "$REPO/.agent/sweep" "$REPO/.agent/health" "$REPO/.tmp"
 echo "=== $(date '+%F %T') mission sweep start ===" >> "$LOG"
 
 # GOLDEN RULE: one writer per tree. Claim or skip — never run alongside a live session.
@@ -40,8 +42,12 @@ echo "$SWEEP_OUT" >> "$LOG"
 python3 execution/mission_brief.py build --all --no-index >> "$LOG" 2>&1
 
 # 3) Synthesis — the ONLY step allowed to write prose, and only into named slots.
-#    Skipped cleanly when the CLI is missing so the box still has a fresh board.
+#    Move yesterday's prose out of the live path first. A failed judge must render
+#    facts-only briefs, never silently reuse stale interpretation against new facts.
 RC=0
+if [[ -f "$SYNTH" ]]; then
+  mv "$SYNTH" "$SYNTH_PREV"
+fi
 if [[ -x "$CLAUDE" ]]; then
   "$CLAUDE" -p "Run the nightly mission-brief synthesis.
 
@@ -59,11 +65,20 @@ HARD RULES:
   lede. Do not speculate about intent or invent progress.
 - Threads with no real signal: omit them from the file entirely.
 
-No Chain, no finalize, no Notion, no Next Moves, no subagents — write only that one JSON file." \
+No Chain, no finalize, no Notion, no Next Moves, no subagents — write only that one JSON file.
+Write the file before replying. After the write, reply with only: done" \
     --permission-mode acceptEdits >> "$LOG" 2>&1
   RC=$?
+  if [[ $RC -eq 0 ]]; then
+    python3 execution/mission_brief.py validate-synthesis >> "$LOG" 2>&1
+    RC=$?
+  fi
+  if [[ $RC -ne 0 && -f "$SYNTH" ]]; then
+    mv "$SYNTH" "$SYNTH_INVALID"
+  fi
 else
   echo "claude CLI not found at $CLAUDE — facts-only board (synthesis skipped)" >> "$LOG"
+  RC=2
 fi
 
 # 4) Rebuild with whatever synthesis landed, then refresh the Room index.
@@ -82,11 +97,13 @@ try:
     bundle = json.loads(Path(".agent/sweep/latest.json").read_text())
 except Exception:
     pass
+valid_synthesis = rc == 0 and synth.exists()
 rec = {
     "session_sweep": datetime.datetime.now().isoformat(),
     "status": "ok" if rc == 0 else "synthesis_failed",
     "synthesis_rc": rc,
-    "synthesized": synth.exists(),
+    "synthesized": valid_synthesis,
+    "synthesis_valid": valid_synthesis,
     "counts": bundle.get("counts", {}),
     "degraded": bundle.get("degraded", []),
 }

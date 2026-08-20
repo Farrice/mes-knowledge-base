@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "234 sessions swept",
-  "compiled": "aug 17, 2026",
+  "sources": "241 sessions swept",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "Almost every live thread is one step short of contact with the outside world: the writing, the packaging and the decisions are done, and the send, the publish or the logged result is not. The board is heavy with finished documents and light on evidence that any of them worked.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "12 threads are live. 31 deliverables were finalized and 184 assets generated in the last 14 days, across 241 sessions on both harnesses.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "48",
+          "value": "31",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "31",
+          "value": "11",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "251",
+          "value": "184",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "234",
+          "value": "241",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -54,20 +54,20 @@
           "values": [
             0,
             0,
+            1,
             0,
             0,
             0,
             0,
+            4,
             0,
             0,
             0,
-            3,
+            1,
             2,
-            0,
-            0,
-            0
+            3
           ],
-          "value": "5",
+          "value": "11",
           "note": "per day"
         },
         {
@@ -80,29 +80,29 @@
             0,
             0,
             0,
-            6,
-            3,
-            1,
+            0,
             4,
             0,
             1,
-            5
+            5,
+            0,
+            0
           ],
-          "value": "20",
+          "value": "10",
           "note": "per day"
         },
         {
           "label": "assets",
           "values": [
             0,
-            0,
-            0,
             1,
             4,
             1,
             1,
             1,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -123,31 +123,31 @@
         {
           "label": "linkedin",
           "values": [
-            13
+            9
           ]
         },
         {
-          "label": "system audit",
+          "label": "extract forge",
           "values": [
-            6
+            9
           ]
         },
         {
           "label": "geo content",
           "values": [
-            10
+            6
           ]
         },
         {
           "label": "health performance ip library",
           "values": [
-            6
+            4
           ]
         },
         {
           "label": "angle map listening engine v4 1",
           "values": [
-            6
+            3
           ]
         },
         {
@@ -163,21 +163,9 @@
           ]
         },
         {
-          "label": "extract forge",
+          "label": "teardown 1 fresh",
           "values": [
-            21
-          ]
-        },
-        {
-          "label": "04 briefs",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "01 listing content",
-          "values": [
-            9
+            3
           ]
         }
       ]
@@ -193,9 +181,9 @@
           "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "system audit",
-          "path": "deliverables/research-briefs/mission-system-audit/mission-system-audit-brief.html"
+          "k": "READY",
+          "title": "extract forge",
+          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
         },
         {
           "k": "READY",
@@ -206,6 +194,11 @@
           "k": "ACTIVE",
           "title": "health performance ip library",
           "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "mission",
+          "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -228,24 +221,19 @@
           "path": "deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html"
         },
         {
-          "k": "READY",
-          "title": "extract forge",
-          "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
-        },
-        {
           "k": "ACTIVE",
-          "title": "04 briefs",
-          "path": "deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "01 listing content",
-          "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html"
+          "title": "teardown 1 fresh",
+          "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html"
         },
         {
           "k": "ACTIVE",
           "title": "execution",
           "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
         }
       ]
     },
@@ -332,7 +320,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board sees what was written, finalized and committed. It cannot see what was sent, published, replied to or paid — so a thread reading ready may be ready on the strength of a document alone. Deliverable scores here are self-assessed at finalize time, not outcomes.\n\n211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: teardown 1 fresh, mission, writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, deep research, daily zeitgeist brief, fantastic posters.\n\n230 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: deep research, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, 04 briefs, readout os, god agent offer, create, deliverables.\n\n243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

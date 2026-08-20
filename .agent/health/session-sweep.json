@@ -1,16 +1,17 @@
 {
-  "session_sweep": "2026-08-17T05:48:06.592201",
-  "status": "ok",
-  "synthesis_rc": 0,
-  "synthesized": true,
+  "session_sweep": "2026-08-19T23:45:13.441422",
+  "status": "synthesis_failed",
+  "synthesis_rc": 1,
+  "synthesized": false,
+  "synthesis_valid": false,
   "counts": {
-    "sessions": 234,
-    "threads_seen": 453,
+    "sessions": 241,
+    "threads_seen": 466,
     "threads_promoted": 12,
-    "deliverables": 48,
-    "artifacts": 31,
-    "assets": 251,
-    "artifacts_vanished": 2,
+    "deliverables": 31,
+    "artifacts": 11,
+    "assets": 184,
+    "artifacts_vanished": 0,
     "overflow": 211
   },
   "degraded": []

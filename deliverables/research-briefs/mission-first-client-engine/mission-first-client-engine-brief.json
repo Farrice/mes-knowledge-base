@@ -2,11 +2,11 @@
   "slug": "mission-first-client-engine",
   "chip": "MISSION · THREAD",
   "title": "For Farrice as a solo operator who needs collected *cash*…",
-  "dek": "The offer decision is made and untested — the next fact comes from a buyer, not another doc.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 17, 2026",
+  "compiled": "aug 19, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "A real offer decision is on record: park the angle-map offer as primary and lock a bounded, paid workflow pilot for small professional-service firms, with scope and exclusions already drawn. Nothing has been sold against it.\n\nHandoff status is active. Last activity 5d ago.\n\nNext: Take the pilot offer to a first buyer and log whether it sells."
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI."
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "5",
+          "value": "7",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -57,6 +57,18 @@
         }
       ],
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
+      "items": [
+        {
+          "action": "Decide: resume or park",
+          "why": "No recorded activity in 7 days while the handoff is still active."
+        }
+      ]
     },
     {
       "kind": "playbook",
@@ -114,7 +126,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The strategy deliverables scored below the keep bar and the outcome is still pending, so this is a well-reasoned bet with no market evidence behind it. The thread's own framing admits the internal system proves method but not client results.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

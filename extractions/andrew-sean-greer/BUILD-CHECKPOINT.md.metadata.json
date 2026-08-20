@@ -1,0 +1,19 @@
+{
+  "artifact_type": "build_checkpoint",
+  "title": "Andrew Sean Greer Story-Feels-Real System: Build Checkpoint",
+  "status": "cold-build-complete",
+  "created": "2026-08-18",
+  "source": "approved ARCHITECTURE.md",
+  "proof_state": {
+    "structure": "RUNTIME_OBSERVED_PASS",
+    "candidates": "ORCHESTRATOR_ATTESTED",
+    "human_blind_verdict": "NO_EVENT",
+    "registration": "NOT_AUTHORIZED",
+    "deployment": "NOT_AUTHORIZED"
+  },
+  "primary_paths": [
+    "skills/andrew-sean-greer-novel-craft/",
+    "agents/andrew-sean-greer/AGENT.md",
+    "extractions/video-context/0kkAl04_0og/"
+  ]
+}

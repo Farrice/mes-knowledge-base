@@ -1,18 +1,26 @@
 {
   "slug": "mission-teardown-1-fresh",
   "title": "Three named-brand teardowns (Create Wellness, Hilma, BPN)…",
-  "compiled": "aug 9, 2026",
+  "compiled": "aug 19, 2026",
   "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
   "brief_html": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html",
   "brief_md": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.md",
   "paths": [
     {
       "path": ".agent/handoffs/2026-08-07-teardown-1-fresh.md",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-teardown-1-fresh.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }

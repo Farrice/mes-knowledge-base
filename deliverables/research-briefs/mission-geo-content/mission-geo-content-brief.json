@@ -1,0 +1,196 @@
+{
+  "slug": "mission-geo-content",
+  "chip": "MISSION · FARRICE BRAND",
+  "title": "Revenue: Claim Check Funnel - Ready to *Launch*",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "codex",
+  "sources": "0 sessions · 6 files · 0 assets",
+  "compiled": "aug 19, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.\n\nHandoff status is ready. Last activity 1d ago.\n\nNext: Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea"
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "6",
+          "label": "FILES WRITTEN"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "files written",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          "value": "6",
+          "unit": "files",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "current",
+          "note": "files are moving; nothing finalized"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "2026-08-16-what-a-shelf-does-longform.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md",
+          "note": "aug 16, 2026"
+        },
+        {
+          "title": "2026-08-16-the-second-price-post.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md",
+          "note": "aug 16, 2026"
+        },
+        {
+          "title": "INDEX.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/INDEX.md",
+          "note": "aug 16, 2026"
+        },
+        {
+          "title": "2026-08-13-ads-that-last-post.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md",
+          "note": "aug 13, 2026"
+        },
+        {
+          "title": "2026-08-13-decision-under-the-round-entry-4.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md",
+          "note": "aug 13, 2026"
+        },
+        {
+          "title": "2026-08-13-thirteen-months-old-script.md",
+          "role": "FILE",
+          "path": "_active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md",
+          "note": "aug 13, 2026"
+        },
+        {
+          "title": "2026-08-16-geo-content.md",
+          "role": "GUIDE",
+          "path": "guides/2026-08-16-geo-content.md"
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "pick it back *up*",
+      "tag": "RUN THIS",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea",
+          "command": "python3 execution/handoff_store.py resume geo-content",
+          "touches": [
+            ".agent/handoffs/2026-08-16-geo-content.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        }
+      ]
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-17",
+          "title": "commit 431165f9d",
+          "body": "fix: verify Drive lifecycle and reliability routing",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-16-geo-content.md"
+        },
+        {
+          "k": "FRONT DOOR",
+          "title": "START HERE · geo content",
+          "path": "_active/farrice-brand/START-HERE.html"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}
