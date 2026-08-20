@@ -14,7 +14,7 @@ Next: Created Josh's research-backed Eightward brand strategy packet for a cultu
 
 ## by the numbers
 - SESSIONS: **2** (codex)
-- DAYS ACTIVE: **7 d**
+- DAYS ACTIVE: **8 d**
 
 ## momentum
 

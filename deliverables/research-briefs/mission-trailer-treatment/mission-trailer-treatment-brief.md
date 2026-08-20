@@ -8,20 +8,20 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.
 
-Handoff status is active. Last activity 8d ago.
+Handoff status is active. Last activity 9d ago.
 
 Next: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **9 d**
 
 ## lifecycle
 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — No recorded activity in 8 days while the handoff is still active.
+1. **Decide: resume or park** — No recorded activity in 9 days while the handoff is still active.
 
 ## pick it back up
 1. **Resume here** — Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt

@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt"
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.\n\nHandoff status is active. Last activity 9d ago.\n\nNext: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt"
     },
     {
       "kind": "stats",
@@ -28,7 +28,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "8",
+          "value": "9",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -66,7 +66,7 @@
       "items": [
         {
           "action": "Decide: resume or park",
-          "why": "No recorded activity in 8 days while the handoff is still active."
+          "why": "No recorded activity in 9 days while the handoff is still active."
         }
       ]
     },

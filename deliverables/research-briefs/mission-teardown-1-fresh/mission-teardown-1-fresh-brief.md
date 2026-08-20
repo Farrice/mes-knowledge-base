@@ -15,7 +15,7 @@ Next: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standa
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **1** (claude)
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## momentum
 

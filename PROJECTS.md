@@ -8,7 +8,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-17 | active |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-08-20 | active |
 | `knowledge` | _active/ | `_active/knowledge/INDEX.md` | 2026-08-17 | active* |
 | `linkedin` | _active/ | `_active/linkedin/CAMPAIGN.md` | 2026-08-17 | active* |
 | `bowling-anime-trailer` | _active/ | **— none —** | 2026-08-12 | active* |

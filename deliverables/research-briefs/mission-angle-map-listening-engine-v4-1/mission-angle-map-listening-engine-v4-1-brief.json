@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown"
+      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown"
     },
     {
       "kind": "stats",
@@ -33,7 +33,7 @@
           "note": "codex"
         },
         {
-          "value": "7",
+          "value": "8",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -100,7 +100,7 @@
       "items": [
         {
           "action": "Decide: resume or park",
-          "why": "No recorded activity in 7 days while the handoff is still active."
+          "why": "No recorded activity in 8 days while the handoff is still active."
         }
       ]
     },

@@ -9,6 +9,10 @@
 ## By use case
 
 | I want to… | Go to |
+| **Model seating + Intent Brief Default (Opus 5 gap resolution)** | |
+| Understand why Opus 5 felt horrible and what seat it now holds | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — mental model + seating ruling |
+| Debug why the intent-brief/fresh-pen card did or didn't fire | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — command table (pipe a payload through steering_loop_hook.py) |
+| Re-run a blind model taste test on any artifact | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — Composition table, blind A/B method |
 | **Run or repair the COS Standing Board** | |
 | Resume the mid-build expert-council briefing repair | [COS Standing Board](2026-08-16-cos-standing-board.md) — `/resume cos-standing-board` |
 | Verify an Operator Primer against the known failure set | [COS Standing Board](2026-08-16-cos-standing-board.md) — `verify_cos_primer_gate.py` then `cos_primer_gate.py check` |
@@ -280,6 +284,8 @@
 ## Chronology
 
 *(newest first)*
+
+- 2026-08-20 — [System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-harness-opus5-diagnosis.md) — the 4.8→5 gap measured instead of vibed: Fable-seat re-probe (scope expansion reproduced 9-calls-vs-0; verbosity harness-amplified, not Opus-specific) + blind 3-seat taste A/B where **Opus's ghostwritten take rated GREAT and Fable's TERRIBLE** (n=1, voice_ratchet) — his Opus pain is interaction ergonomics, never artifact taste. Seating ruling written into both dialect cards (Fable/Sonnet conduct, Opus executes dispatched work incl. creative prose; Sonnet card got its missing machine-dialect block). Shipped the **Intent Brief Default** (plan-mode co-shaped): raw ask → INTENT BRIEF card (≤10-line brief, confirm, fresh dispatch), artifact ask → FRESH PEN clean-room card, sharp ask → mirror and go — injected per-prompt via `steering_loop_hook.py`, 5-path sabotage-tested. Plus the noise diet: SessionStart 8 hooks → `session_brief.py` digest; 7 mention-based hookify stop/warn rules disabled (receipts-only law for future warn rules). Core doctrine: *quality is working conditions, not model choice — settled brief, clean head, one shot; and seat by disposition: conductor ≠ pen*
 
 - 2026-08-08 — [Ad Psychology Engine — Oren×Dara Forge + First Deployments](2026-08-08-oren-dara-ad-psychology.md) — the Cannes 2026 Oren John × Dara Denney video (28:33, watched with 17 transcript-cue frames) forged into `skills/oren-dara-ad-psychology/`: **six frame-verified tactics** (taboo/mirroring with the lived-experience veto that killed URO's "golden nugget" statics, justification math, armchair investigation with designed rage-bait + comment virtue-mining, prove-it-in-frame, visual psychology, credible explainer) as the mechanism layer UPSTREAM of `dara-denney-meta-ads`' vessel layer — 10 workflows, 10 born-v2 prompts, heartbeat 6/6, blind-pass EVAL-048 model-PASS (A-tier awaits Farrice). Deployed same session: the MyBPM **Sunday/Monday tee ad pair** (mirroring static spec, KEEP verdict; shoot-ready yapper script; render cost-gate-blocked and surfaced, not bypassed), **3 LinkedIn founder-mirror concepts** (prose CLEAN after one gate-forced rewrite; two practitioner receipts gate publication), and the **P2M Ad Psychology Audit module** (Stage-2, six-tactic spine). Scars banked: the forge ran lock-free in a scratchpad staging tree while a sibling held the tree lock, then rsynced in atomically (`docs/solutions/2026-07-19-staged-forge-under-foreign-lock.md`); `creative_router.py` regex-matched "no people" as a people task. Core doctrine: *you don't inject desire into cold traffic — you license, mirror, prove, or authorize what the customer already thinks; and the comment section is the product*
 

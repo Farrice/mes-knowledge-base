@@ -8,13 +8,13 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is ready. Last activity 7d ago.
+Handoff status is ready. Last activity 8d ago.
 
 Next: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **7 d**
+- DAYS ACTIVE: **8 d**
 
 ## momentum
 
@@ -24,7 +24,7 @@ Next: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day 
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume or park** — No recorded activity in 7 days while the handoff is still ready.
+1. **Decide: resume or park** — No recorded activity in 8 days while the handoff is still ready.
 
 ## pick it back up
 1. **Resume here** — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)

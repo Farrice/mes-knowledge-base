@@ -8,14 +8,14 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 3 deliverables finalized.
 
-Handoff status is ready. Last activity 1d ago.
+Handoff status is ready. Last activity 2d ago.
 
 Next: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **3**
 - SESSIONS: **1** (claude · codex)
-- DAYS ACTIVE: **13 d**
+- DAYS ACTIVE: **14 d**
 
 ## momentum
 
