@@ -1,0 +1,5 @@
+# Blind-Pass Log — sean-vosler
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-08-20T15:30:10 — **FAIL** — eval: EVAL-064 — generated: `extractions/sean-vosler/blind-pass-candidate-email-v2.md` — reference: `extractions/sean-vosler/reference-corpus/contrarian-email-college-excerpt.md` — corpus: 2 piece(s) — Two rounds, fresh adversarial-reviewer judge each time (never self-graded). v1 vs real corpus (college email + 9.4% sales page): FAIL — missing borrowed-authority object, stakes stopped at business rung. Fixed in genius.md/workflow-01, retried once. v2: structural DNA confirmed near-exact rhyme (AG-investigation authority object, life-rung stakes, withheld layer-3, mid-sentence hedge) but FAIL on voice texture — 'better written than Vosler': zero ellipses/caps/clumsy sentences, writer absent as fallible peer, negate-then-assert cadence stacked. Diagnosis banked as texture rules 5-6 + open-gap note in genius.md. Shipping B-tier with the gap named per embodiment-standard FAIL path; skill's core value (argument/sourcing machinery) unaffected by the prose-voice gap.

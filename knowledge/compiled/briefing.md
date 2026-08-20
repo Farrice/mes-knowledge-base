@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-08-18 | 1147 sources | 3,650,434 words*
+*Generated: 2026-08-20 | 1136 sources | 3,499,143 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **log** (general) — 19,392 words — `knowledge/log.md`
-- **ARCHITECTURE** (screenwriting) — 3,179 words — `extractions/andrew-sean-greer/ARCHITECTURE.md`
-- **BUILD-CHECKPOINT** (copywriting) — 364 words — `extractions/andrew-sean-greer/BUILD-CHECKPOINT.md`
-- **DEEP-EXTRACTION** (screenwriting) — 4,683 words — `extractions/andrew-sean-greer/DEEP-EXTRACTION.md`
-- **SOURCE-LEDGER** (content) — 1,457 words — `extractions/andrew-sean-greer/SOURCE-LEDGER.md`
-- **VALIDATION** (copywriting) — 452 words — `extractions/andrew-sean-greer/VALIDATION.md`
-- **VISION** (screenwriting) — 1,064 words — `extractions/andrew-sean-greer/VISION.md`
-- **uncertainty-report** (screenwriting) — 74 words — `extractions/video-context/0kkAl04_0og/uncertainty-report.md`
-- **video-context-ledger** (content) — 34,168 words — `extractions/video-context/0kkAl04_0og/video-context-ledger.md`
-- **2026-08-17-pulse** (strategy) — 1,268 words — `research_outputs/market-pulse/2026-08-17-pulse.md`
+- **march_2026_briefing** (seo) — 634 words — `knowledge/ai_landscape_research/artifacts/march_2026_briefing.md`
+- **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
+- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
+- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
+- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
+- **2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the** (content [lara-acosta]) — 2,537 words — `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`
+- **2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin** (copywriting [lara-acosta]) — 1,339 words — `knowledge/council-sessions/2026-06-02-sharpen-the-single-sharpest-hook-for-a-linkedin.md`
+- **2026-06-02-what-is-the-one-positioning-angle-that-makes-far** (copywriting [april-dunford]) — 1,242 words — `knowledge/council-sessions/2026-06-02-what-is-the-one-positioning-angle-that-makes-far.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 364 | nathan-gotch |
-| copywriting | 199 | jason-fladlien |
+| content | 343 | nathan-gotch |
+| copywriting | 211 | jason-fladlien |
 | general | 123 | nick-saraev |
-| screenwriting | 122 | connelly |
-| strategy | 114 | april-dunford |
+| screenwriting | 121 | connelly |
+| strategy | 115 | april-dunford |
 | brand | 66 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |
-| research | 41 | jason-fladlien |
-| sales | 14 | dai-media |
+| research | 40 | jason-fladlien |
+| sales | 13 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 
