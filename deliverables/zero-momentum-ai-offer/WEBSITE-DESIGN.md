@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: Parallax Service Website
-description: "A conversion-focused extension of Parallax for a B2B service website, not an enlarged newsletter cover. Swiss information discipline meets the quiet operational confidence of an aircraft checklist: warm editorial typography, compact proof, and one controlled violet signal."
+description: "A conversion-focused extension of Parallax for a B2B service website, not an enlarged newsletter cover. Swiss information discipline meets the quiet operational confidence of an aircraft checklist: modern neo-grotesk typography, compact proof, and one controlled violet signal."
 
 colors:
   ink: "#1C1C1E"
@@ -18,57 +18,57 @@ colors:
 
 typography:
   hero-display:
-    fontFamily: "Space Grotesk, system-ui, sans-serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 68px
     fontWeight: 700
     lineHeight: 0.98
     letterSpacing: -0.035em
   headline-lg:
-    fontFamily: "Space Grotesk, system-ui, sans-serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 48px
     fontWeight: 700
     lineHeight: 1.04
     letterSpacing: -0.025em
   headline-md:
-    fontFamily: "Space Grotesk, system-ui, sans-serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 32px
     fontWeight: 700
     lineHeight: 1.12
     letterSpacing: -0.015em
   headline-sm:
-    fontFamily: "Space Grotesk, system-ui, sans-serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 22px
     fontWeight: 700
     lineHeight: 1.2
   body-lg:
-    fontFamily: "Source Serif 4, Source Serif Pro, Georgia, serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 20px
     fontWeight: 400
     lineHeight: 1.55
   body-md:
-    fontFamily: "Source Serif 4, Source Serif Pro, Georgia, serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 17px
     fontWeight: 400
     lineHeight: 1.62
   body-sm:
-    fontFamily: "Source Serif 4, Source Serif Pro, Georgia, serif"
+    fontFamily: "Helvetica Neue, Helvetica, Arial, system-ui, sans-serif"
     fontSize: 15px
     fontWeight: 400
     lineHeight: 1.55
   label-md:
-    fontFamily: "JetBrains Mono, ui-monospace, monospace"
+    fontFamily: "SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace"
     fontSize: 13px
     fontWeight: 700
     lineHeight: 1.35
     letterSpacing: 0.06em
   label-sm:
-    fontFamily: "JetBrains Mono, ui-monospace, monospace"
+    fontFamily: "SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace"
     fontSize: 11px
     fontWeight: 700
     lineHeight: 1.35
     letterSpacing: 0.08em
   caption:
-    fontFamily: "JetBrains Mono, ui-monospace, monospace"
+    fontFamily: "SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace"
     fontSize: 11px
     fontWeight: 400
     lineHeight: 1.45
@@ -129,7 +129,7 @@ Warm White is the primary reading canvas. Ink carries text and one demonstration
 
 ## Typography
 
-Space Grotesk handles compact, sentence-case headlines. Source Serif 4 explains the offer and carries reading comfort. JetBrains Mono is operational metadata only. Display scale is capped at 68px so the headline leads a website rather than becoming a poster.
+Helvetica Neue carries both headlines and reading copy, creating one clean neo-grotesk voice across the page. The system falls back through Helvetica, Arial, and the platform sans-serif, so the page no longer depends on a remote font request. SF Mono or the platform monospace is reserved for operational metadata. Display scale is capped at 68px so the headline leads a website rather than becoming a poster.
 
 ## Layout
 

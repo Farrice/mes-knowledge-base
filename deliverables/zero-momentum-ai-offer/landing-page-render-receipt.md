@@ -19,7 +19,7 @@ This receipt establishes local render and interaction quality. It does not estab
 - Page-scoped source: `WEBSITE-DESIGN.md`; the canonical Parallax system remains unchanged.
 - Ink `#1C1C1E`, Violet `#7B61FF`, Warm White `#F5F0EB`.
 - Same-hue accessibility variants: `#6D50F3` on Warm White and `#8F79FF` on Ink. Canonical Violet remains the non-text signal.
-- Space Grotesk for display, Source Serif 4 for reading, JetBrains Mono for operational metadata.
+- Helvetica Neue and system sans-serif fallbacks for both display and reading copy; platform monospace for operational metadata.
 - 1,184px maximum grid; 80px desktop, 68px tablet, and 56px mobile section rhythm.
 - Flat surfaces, nearly square controls, no gradients, shadows, glows, pills, glass, or bento wall.
 
@@ -27,9 +27,9 @@ This receipt establishes local render and interaction quality. It does not estab
 
 | Viewport | H1 | Section rhythm | Document height | Overflow | Result |
 |---|---:|---:|---:|---:|---|
-| 1280 × 800 | 67.2px | 80px | 5,218px | 0px | PASS |
-| 768 × 1024 | 48px | 68px | 6,623px | 0px | PASS |
-| 375 × 812 | 43.875px | 56px | 9,290px | 0px | PASS |
+| 1280 × 800 | 67.2px | 80px | 5,210px | 0px | PASS |
+| 768 × 1024 | 48px | 68px | 6,344px | 0px | PASS |
+| 375 × 812 | 43.875px | 56px | 8,813px | 0px | PASS |
 
 - Sticky header: 77px desktop/tablet and 67px mobile.
 - Header CTA: 44px minimum height at all three breakpoints.
@@ -42,16 +42,22 @@ This receipt establishes local render and interaction quality. It does not estab
 
 ## Interaction inspection
 
-- The proof-case button completed five visible workflow states.
-- Final state: `Human hold working`.
-- Final result: `Human approval required. External send remains blocked.`
+- The interactive example completed five visible workflow stages.
+- Final state: `Ready for your approval`.
+- Final result: `The proposal is ready for your approval. Nothing has been sent.`
 - FAQ disclosure opened correctly.
 - The local-only CTA revealed the missing booking destination and moved focus to that status message.
 - Reduced-motion CSS preserves functionality without smooth scrolling or control transitions.
 
 ## Visual evidence
 
-Final inspected renders:
+Current Helvetica-style, simplified-copy renders:
+
+- `screenshots/simplified-copy-desktop.png`
+- `screenshots/simplified-copy-tablet.png`
+- `screenshots/simplified-copy-mobile.png`
+
+Previous ground-up renders retained for comparison:
 
 - `screenshots/rebuild-final-desktop.png`
 - `screenshots/rebuild-final-tablet.png`
