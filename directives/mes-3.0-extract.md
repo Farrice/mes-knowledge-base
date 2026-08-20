@@ -313,8 +313,8 @@ After extraction, convert to a production skill using the `extraction-to-skill.m
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-08 |
-| **Activation Count** | 2 |
+| **Last Activated** | 2026-08-20 |
+| **Activation Count** | 3 |
 | **30-Day Review Date** | 2026-09-03 |
 
 **Update Rule**: When this protocol fires (MES extraction performed), update the date and increment count.

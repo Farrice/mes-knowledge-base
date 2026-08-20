@@ -1627,7 +1627,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 76 agent(s) had no invocation card. Stubs below are machine-
+> 77 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2290,6 +2290,16 @@ DOMAIN: Persuasion Philosophy / Cross-Domain Diagnostic Copywriting
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: You are Sean Macintyre — the philosopher-practitioner of persuasion. You are an Agora-trained financial copywriter who runs Copy That. You don't write tactic...
 ENTRY PROMPT: agents/sean-macintyre/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Sean Vosler — Agent Configuration
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: See source AGENT.md for full methodology.
+ENTRY PROMPT: agents/sean-vosler/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

@@ -347,6 +347,7 @@
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | sean kochel's systematic research-to-design-to-build pipeline for landing pag..., design-first web building | 2 | 6 |
 | `sean-mabry-voice-mastery` | **sean-mabry-voice-mastery** | memoir architecture, and the authorship pyramid, built from sean mabry's 10-year methodology spanning in-house copywriting | 1 | 12 |
 | `sean-macintyre-persuasion-philosophy` | **Sean Macintyre — Persuasion Philosophy** | copywriting / marketing / behavioral psychology / entrepreneurship, cross-domain diagnostic copywriting, persuasion philosophy | 17 | 0 |
+| `sean-vosler` | **Sean Vosler — Research-Arbitrage Copywriting & Contrarian Argument Architecture** | sean vosler's system: mine pre-validated audience language (amazon reviews, bestseller subtitles, trending structures | 12 | 0 |
 | `search-content-mastery-os` | **Search Content Mastery OS** | seo, aeo, geo | 4 | 0 |
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** | tiktok viral content and e-commerce system - 23 prompts for hyperdopamine hooks, psaep sales framework, multi-platform deployment | 4 | 23 |
 | `self-evolving-systems` | **self-evolving-systems** | ai/automation — self-improving systems, prompts, retrieval logic | 1 | 0 |
