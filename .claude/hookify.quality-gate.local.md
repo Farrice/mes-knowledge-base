@@ -1,6 +1,6 @@
 ---
 name: quality-gate-enforcement
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:

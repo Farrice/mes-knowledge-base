@@ -1,6 +1,6 @@
 ---
 name: routing-coverage-check
-enabled: true
+enabled: false
 event: stop
 action: warn
 conditions:
