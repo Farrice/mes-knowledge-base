@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 10.0115,
+  "spent_dollars": 10.1115,
   "runs": [
     {
       "ts": "2026-08-01T12:41:41.143762+00:00",
@@ -1427,10 +1427,64 @@
       "cost": 0.135,
       "pricing_model": "per_result",
       "cost_source": "apify_api"
+    },
+    {
+      "ts": "2026-08-21T18:04:50.327571+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-21T18:05:38.037211+00:00",
+      "actor": "threads-search",
+      "results": 5,
+      "cost": 0.1,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-21T18:05:55.243190+00:00",
+      "actor": "linkedin-search",
+      "results": 10,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-21T18:08:37.666437+00:00",
+      "actor": "facebook-ads",
+      "results": 10,
+      "cost": 0.0001,
+      "pricing_model": "pay_per_event",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-21T18:08:49.905438+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
+    },
+    {
+      "ts": "2026-08-21T18:11:33.819046+00:00",
+      "actor": "twitter",
+      "results": 15,
+      "cost": 0.0,
+      "pricing_model": "per_result",
+      "cost_source": "apify_api",
+      "pulse": true
     }
   ],
   "pulse_budget_dollars": 5.0,
-  "pulse_spent_dollars": 1.8479,
+  "pulse_spent_dollars": 1.948,
   "reconciliation": {
     "date": "2026-08-10",
     "prior_tracker_spent": 2.5466,
