@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T03:00:10.453365",
+ "generated": "2026-08-21T11:08:20.969329",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -17732,9 +17732,9 @@
    "checked": "2026-07-30T06:00:10.956571"
   },
   "workflow:fresh-pen": {
-   "status": "ORPHAN",
-   "via": "no wrapper, not in SLASH_COMMANDS.md",
-   "checked": "2026-07-30T06:00:10.956571"
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-08-21T11:08:20.786331"
   },
   "workflow:park": {
    "status": "PROVEN",
@@ -18852,9 +18852,9 @@
    "checked": "2026-08-09T06:00:03.989741"
   },
   "agent:jordan-crawford": {
-   "status": "ORPHAN",
-   "via": "not in AGENT_INDEX.md",
-   "checked": "2026-08-10T06:00:06.691668"
+   "status": "PROVEN",
+   "via": "listed in AGENT_INDEX.md",
+   "checked": "2026-08-21T11:08:20.830475"
   },
   "execution:homework_fixtures/code_bad.py": {
    "status": "PROVEN",
@@ -18872,9 +18872,9 @@
    "checked": "2026-08-10T06:00:06.691668"
   },
   "skill:jordan-crawford-gtm-intelligence": {
-   "status": "ORPHAN",
-   "via": "not in SKILL_INDEX.md, unreferenced by workflows",
-   "checked": "2026-08-10T06:00:06.691668"
+   "status": "PROVEN",
+   "via": "listed in SKILL_INDEX.md (router-reachable)",
+   "checked": "2026-08-21T11:08:20.871208"
   },
   "workflow:compounding-gtm-unit": {
    "status": "PROVEN",
@@ -18972,14 +18972,14 @@
    "checked": "2026-08-18T06:00:11.245149"
   },
   "agent:andrew-sean-greer": {
-   "status": "ORPHAN",
-   "via": "not in AGENT_INDEX.md",
-   "checked": "2026-08-19T03:33:49.318752"
+   "status": "PROVEN",
+   "via": "listed in AGENT_INDEX.md",
+   "checked": "2026-08-21T11:08:20.912935"
   },
   "skill:andrew-sean-greer-novel-craft": {
-   "status": "ORPHAN",
-   "via": "not in SKILL_INDEX.md, unreferenced by workflows",
-   "checked": "2026-08-19T03:33:49.318752"
+   "status": "PROVEN",
+   "via": "listed in SKILL_INDEX.md (router-reachable)",
+   "checked": "2026-08-21T11:08:20.969314"
   },
   "workflow:comedy-through-fire": {
    "status": "PROVEN",
