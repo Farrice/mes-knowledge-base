@@ -2,11 +2,11 @@
   "slug": "mission-first-client-engine",
   "chip": "MISSION · THREAD",
   "title": "For Farrice as a solo operator who needs collected *cash*…",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Two offers both claim the throne — pick one on the record this week.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 19, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,86 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI."
+      "body": "The sharpest strategy document in the portfolio is sitting here unresolved, and it directly contradicts the standing offer lock — this fork is quietly splitting the sprint's focus.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Decide the fork on the record: One-Workflow Pilot as the door offer, Angle Map as the delivery engine — or explicitly reject the pivot."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: The zero-based verdict argues the Angle Map should be parked as the primary offer in favor of a bounded, paid pilot for small professional-service firms — grounded in marketplace evidence and an honest read of strengths. Meanwhile the goal file and recent threads still treat the Angle Map as the locked offer. Both cannot be primary. Every send, post and profile decision inherits this ambiguity until it is resolved, which may explain why so many finished assets are waiting rather than moving.\n\nHandoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Compose them: pilot as the door, Angle Map inside delivery",
+          "why": "Recommended. The pilot answers the buy-something-small objection; the Angle Map becomes the engine that makes delivery exceptional rather than the thing being sold."
+        },
+        {
+          "action": "Reject the pivot and recommit to the Angle Map on the record",
+          "why": "Legitimate if the conviction is real — but it should be chosen, logged, and defended, not defaulted into."
+        },
+        {
+          "action": "Test both with five sends each",
+          "why": "Market evidence over analysis — costs two weeks and requires actually sending."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI.",
+          "command": "python3 execution/handoff_store.py resume first-client-engine",
+          "touches": [
+            ".agent/handoffs/2026-08-12-first-client-engine.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park first-client-engine --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "first-client-engine",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill first-client-engine --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "first-client-engine",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI.\nSLUG: first-client-engine\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-12-first-client-engine.md\n\nRESUME HERE: For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI.\n\nSHIPPED IN WINDOW:\n  - 2026-08-12 · Zero-based offer verdict: park the Angle Map as the primary cash offer. Pursue a bounded One-Workflow AI Pilot for small professional-service firms: diagnose on\n  - 2026-08-12 · For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creat\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -59,34 +138,6 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Decide: resume or park",
-          "why": "No recorded activity in 8 days while the handoff is still active."
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI.",
-          "command": "python3 execution/handoff_store.py resume first-client-engine",
-          "touches": [
-            ".agent/handoffs/2026-08-12-first-client-engine.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
@@ -94,13 +145,13 @@
         {
           "date": "2026-08-12",
           "title": "Finalized · first-client-engine",
-          "body": "Zero-based offer verdict: park the Angle Map as the primary cash offer. Pursue a bounded One-Workflow AI Pilot for small professional-service firms: diagnose one repetitive document-heavy process, build a human-reviewed ",
+          "body": "Zero-based offer verdict: park the Angle Map as the primary cash offer. Pursue a bounded One-Workflow AI Pilot for small professional-service firms: diagnose one repetitive document-heavy process, build a human-reviewed \nZero-based market verdict using current Upwork, Fiverr, OECD, Census, and small-business adoption evidence. Andrew Dun influenced the one-process diagnostic, ROI baseline, human champion, quick-win, and implementation ha",
           "done": true
         },
         {
           "date": "2026-08-12",
           "title": "Finalized · first-client-engine",
-          "body": "For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PAR",
+          "body": "For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PAR\nRetry strengthens intent alignment with urgent-cash, zero-audience, no-budget-management, confidence, scope, proof, and fixed-pilot constraints. Current marketplace and adoption sources verified. | platform: codex | Veri",
           "done": true
         }
       ]
@@ -126,7 +177,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The verdict is research-grounded but pre-revenue; no buyer has seen either offer framing. The contradiction with the standing lock is the finding — not a flaw in either document.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

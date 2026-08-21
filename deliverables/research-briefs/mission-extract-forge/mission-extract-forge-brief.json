@@ -2,11 +2,11 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "It shipped, it passed, it works — say done and move on.",
   "window": "last 14 days",
-  "lens": "claude · codex",
+  "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 19, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,82 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 3 deliverables finalized.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters."
+      "body": "Cleanly finished and formally verified; the only remaining item is an optional vanity promotion that changes nothing about daily use.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Close this thread as done and use the skill; judge the blind pack only if recognition-tier promotion ever matters."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: This is what a finished thread looks like: verifiers passed, runtime proven, the build formally tiered and recorded. The open blind-recognition question is a nice-to-have that has correctly been deferred twice. Keeping the thread active costs a pinned slot on every surface for a decision that has already effectively been made.\n\nCompleted: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.\n\nRemaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.\n\n\n\n- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`\n\n- Custom verifier: `24/24 PASS`\n\n- Detached runtime fixtures: `18/18 PASS`\n\n- Skill heartbeat: `7/7 PASS`\n\n- Prompt regression: `3782/3782 PASS`\n\n- Codex live surface: `STRICT PASS`\n\n- Chain finalize: `7.0/10 B-TIER`\n\n- Forge record: `SHIPPED 2026-08-04`\n\n- Human blind recognition: `DEFERRED`\n\n- Market effect: `UNOBSERVED`\n\nHandoff written 16d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create another David Perell skill, expert, or hot command for this source.\n\n- Do not rewrite the three byte-protected POP-era assets.\n\n- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.\n\n- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Mark it done and unpin",
+          "why": "Recommended. The system is in service; done is the accurate status."
+        },
+        {
+          "action": "Run the blind pack as a taste session",
+          "why": "Worth an evening only if the recognition game sounds fun — it is calibration, not obligation."
+        },
+        {
+          "action": "Finish what's open",
+          "why": "Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.",
+          "command": "python3 execution/handoff_store.py resume extract-forge",
+          "touches": [
+            ".agent/handoffs/2026-08-04-extract-forge.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park extract-forge --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "extract-forge",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill extract-forge --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "extract-forge",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)\nSLUG: extract-forge\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md\n\nRESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.\nSTILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,16 +99,12 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "3",
-          "label": "DELIVERABLES FINALIZED"
-        },
-        {
           "value": "1",
           "label": "SESSIONS",
-          "note": "claude · codex"
+          "note": "codex"
         },
         {
-          "value": "14",
+          "value": "2",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -59,8 +130,8 @@
             0,
             0,
             0,
-            0,
-            1
+            1,
+            0
           ],
           "value": "1",
           "unit": "total",
@@ -93,52 +164,6 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Finish what's open",
-          "why": "Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt."
-        }
-      ]
-    },
-    {
-      "kind": "assets",
-      "heading": "what this thread *made*",
-      "tag": "COPY THE PATH",
-      "items": [
-        {
-          "title": "2026-08-04-extract-forge.md",
-          "role": "GUIDE",
-          "path": "guides/2026-08-04-extract-forge.md"
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.",
-          "command": "python3 execution/handoff_store.py resume extract-forge",
-          "touches": [
-            ".agent/handoffs/2026-08-04-extract-forge.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done extract-forge --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
@@ -148,24 +173,25 @@
           "title": "codex session",
           "body": "Extraction: Video Extract Forge - Build Grounded System",
           "done": true
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Extract the AI-brain-installation-for-businesses expert OS from YouTube video nTiMbqFwv4c ",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: ai-brain* family + liam-mley builder",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         },
         {
-          "date": "2026-08-06",
-          "title": "Finalized · extract-forge",
-          "body": "Cody Schneider forge-grade extraction (11 workflows, 3 tiers, era-bound stack quarantined) + Signal Scout listening engine (2 new Apify actors, signal_scout.py, 229-engager live test) + Angle Brief Mon/Thu loop + Hype-vs",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Finalized · extract",
-          "body": "God Agent harvest: corpus extension of riley-brown (cleaned transcript + mes-extension with 9 timestamped patterns E1-E9 + era-bound appendix) plus delta memo vs Antigravity harness with 5 ranked adoptable moves. Watch-c",
-          "done": true
-        },
-        {
-          "date": "2026-08-06",
-          "title": "Finalized · extract",
-          "body": "God Agent harvest (score correction of prior row — --intent was logged on wrong scale): corpus extension of riley-brown + delta memo with 5 ranked adoptable moves; 'god agent' = router rebrand, new organs are organizatio",
-          "done": true
+          "claim": "Mike Taylor extract-forge: watched-source synthetic-customer-research OS (7 mt-* wf, 3-tier grounding ladder),",
+          "evidence": "WATCHED fidelity, forge-tier skill+agent live, finalize 8.33 PASS by extraction agent",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -190,7 +216,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Market effect of the skill remains unobserved — done here means built and verified, not proven in use.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

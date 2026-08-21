@@ -2,11 +2,11 @@
   "slug": "mission-linkedin",
   "chip": "MISSION · THREAD",
   "title": "Linkedin — Execution *Checklist*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 5 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Stop making ammunition and fire one round — today.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "5 sessions · 0 files · 9 assets",
-  "compiled": "aug 19, 2026",
+  "sources": "5 sessions · 0 files · 8 assets",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,82 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 9 assets generated.\n\nHandoff status is active. Last activity 1d ago.\n\nNext: Linkedin — Execution Checklist"
+      "body": "This is the sprint's engine room, and it has a release problem, not a production problem — sessions keep minting assets while nothing new lands on the feed.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 8 assets generated.\n\nHandoff status is active. Last activity 2d ago.\n\nNext: Pick the strongest finished post from the stockpile and publish it today."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: Momentum here is real but circular: work sessions produce carousels, voiceovers and drafts that stack in the library while the profile-reset mission sits open for three weeks. Every day of producing-without-posting raises the emotional stakes of the first post and lowers the value of the stockpile. The sprint clock is the relevant clock: nearly a month since the last logged dollar, and this thread is the shortest path to changing that.\n\nHandoff written 12d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Publish now from finished stock",
+          "why": "Recommended. Breaks the producing-without-releasing loop today; imperfect profile costs far less than another silent week."
+        },
+        {
+          "action": "Finish the profile reset first, then post",
+          "why": "Cleaner landing for anyone who clicks through, but it has already absorbed three weeks and blocks everything behind it."
+        },
+        {
+          "action": "Freeze production until something ships",
+          "why": "A forcing function — no new assets until one goes live. Harsh but honest about where the constraint is."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Linkedin — Execution Checklist",
+          "command": "python3 execution/handoff_store.py resume linkedin",
+          "touches": [
+            ".agent/handoffs/2026-08-08-linkedin.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park linkedin --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "linkedin",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill linkedin --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "linkedin",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Linkedin — Execution Checklist\nSLUG: linkedin\nSTATUS: active · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-08-linkedin.md\n\nRESUME HERE: Linkedin — Execution Checklist\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,7 +99,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "9",
+          "value": "8",
           "label": "ASSETS GENERATED"
         },
         {
@@ -53,14 +128,14 @@
             0,
             0,
             0,
-            0,
             1,
             0,
             0,
             0,
             0,
             2,
-            2
+            2,
+            0
           ],
           "value": "5",
           "unit": "total",
@@ -70,7 +145,6 @@
           "label": "assets",
           "values": [
             0,
-            1,
             4,
             1,
             1,
@@ -82,9 +156,10 @@
             0,
             0,
             0,
+            0,
             0
           ],
-          "value": "9",
+          "value": "8",
           "unit": "made",
           "note": "per day"
         }
@@ -170,37 +245,9 @@
           "note": "aug 7, 2026"
         },
         {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-05/zeitgeist-ai-consulting-linkedin-2026-08-05-brief.html",
-          "note": "aug 6, 2026"
-        },
-        {
           "title": "2026-07-13-stanton-linkedin-launch.md",
           "role": "GUIDE",
           "path": "guides/2026-07-13-stanton-linkedin-launch.md"
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Linkedin — Execution Checklist",
-          "command": "python3 execution/handoff_store.py resume linkedin",
-          "touches": [
-            ".agent/handoffs/2026-08-08-linkedin.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done linkedin --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
         }
       ]
     },
@@ -209,12 +256,6 @@
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
       "items": [
-        {
-          "date": "2026-08-18",
-          "title": "codex session",
-          "body": "Revenue: LinkedIn PMF Signal Lane - Caleb Deployment",
-          "done": true
-        },
         {
           "date": "2026-08-18",
           "title": "codex session",
@@ -234,16 +275,65 @@
           "done": true
         },
         {
-          "date": "2026-08-17",
-          "title": "commit 431165f9d",
-          "body": "fix: verify Drive lifecycle and reliability routing",
-          "done": true
-        },
-        {
           "date": "2026-08-12",
           "title": "codex session",
           "body": "Extraction: LinkedIn Missing Link - Harvest System",
           "done": true
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Rewrite ring-light LinkedIn post as I-narrative arc (Farrice as guide, reader as hero)",
+          "evidence": "v2 shipped beside v1; prose-clean body; feedback banked as memory + voice-ratchet FAIL entry",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Is the AI rush over? Research the real market demand across AI consulting, AI creative str",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: 07-21 red-team + 07-28 research",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Lock sprint offer (niche+POV via Cole x Lakajev), close Cooz war-funnel send, LinkedIn pro",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: SPRINT SPINE Signal Pilot locked 2026-07-21 (send-before-build binding)",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Pressure-test Practitioner Edition: LinkedIn channel truth + cold easy-yes gauntlet + lane/premium panel",
+          "evidence": "Two-gate dispatch principle; stay fitness cycle-1; hold $2K founder-rate frame; copy WINCEs fixed; re-aim shelved on kill condition",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Week 1 LinkedIn launch content for the Proof-to-Market offer — posts that feel like receip",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped + felt-judged 07-22",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Week 1 LinkedIn launch content - Proof-to-Market receipts",
+          "evidence": "3 posts delivered, gates passed (verify FAIL->fixed, adversarial FIX-LINE->fixed); Farrice: good, wants full-file read before posting · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Write and send teardown #1 for a named supplement brand, plus the first 3 LinkedIn posts, ",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: tracked in CAMPAIGN.md (2b/4)",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "LinkedIn cash launch: wargame canonical offer vs $500-2K/7-14d, lock profile, day-by-day motion plan from exis",
+          "evidence": "Farrice verdict: GOOD (emphatic) — About takes all rated 9/10, leaning A; executing the full package; first /go run with captured human feedback · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -268,7 +358,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The handoff for this thread is an auto-generated stub, so the narrative here leans on mission outcomes rather than a session-written state. Asset counts say nothing about post readiness.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

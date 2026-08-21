@@ -132,6 +132,11 @@
     background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
   .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
   .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
   .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
     white-space:pre-wrap; word-break:break-word }
 
@@ -266,29 +271,46 @@
   }
   @media print{
     .brief-nav{ position:static }
-    .copybtn{ display:none }
+    .copybtn, .livebtn{ display:none }
     section.blk, .decision{ break-inside:avoid-page }
   }
 </style>
 </head>
 <body>
 
-<nav class="brief-nav"><div class="row"><a href="#where-this-stands">where this stands</a><a href="#by-the-numbers">by the numbers</a><a href="#lifecycle">lifecycle</a><a href="#what-needs-you">what needs you</a><a href="#pick-it-back-up">pick it back up</a><a href="#how-it-got-here">how it got here</a><a href="#what-this-isn-t">what this isn&#x27;t</a><span class="navtools"></span></div></nav>
+<nav class="brief-nav"><div class="row"><a href="#where-this-stands">where this stands</a><a href="#the-state-as-the-last-session-left-it">the state, as the last session left it</a><a href="#what-needs-you">what needs you</a><a href="#resume-park-kill">resume · park · kill</a><a href="#pick-it-up-anywhere">pick it up anywhere</a><a href="#by-the-numbers">by the numbers</a><a href="#lifecycle">lifecycle</a><a href="#how-it-got-here">how it got here</a><a href="#what-this-isn-t">what this isn&#x27;t</a><span class="navtools"></span></div></nav>
 
 <div class="wrap">
   <header>
     <span class="chip">MISSION · THREAD</span>
     <h1 class="display">Midnight Oil native reference pack, continuity <em>manifest</em>…</h1>
-    <p class="dek">Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.</p>
+    <p class="dek">Beautiful work, wrong week — park it on purpose, not by neglect.</p>
     <div class="trust">
       <div><span class="k">Window</span><span class="v">last 14 days</span></div>
       <div><span class="k">Lens</span><span class="v">codex</span></div>
       <div><span class="k">Sources</span><span class="v">0 sessions · 0 files · 0 assets</span></div>
-      <div><span class="k">Compiled</span><span class="v">aug 19, 2026</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 20, 2026</span></div>
     </div>
   </header>
 
-  <section class="blk" id="where-this-stands"><div class="sechead"><span class="secnum">01</span><h2 class="sec">where this <em>stands</em></h2></div><span class="kicker" style="margin-bottom:8px">CURRENT POSITION</span><div class="panel"><p>Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.</p><p>Handoff status is active. Last activity 9d ago.</p><p>Next: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt</p></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">02</span><h2 class="sec">by the numbers</h2><span class="sectag">LAST 14 DAYS</span></div><div class="stats"><div class="stat"><div class="num">3</div><span class="lab">DELIVERABLES FINALIZED</span></div><div class="stat"><div class="num">9<small> d</small></div><span class="lab">DAYS ACTIVE</span></div></div></section><section class="blk" id="lifecycle"><div class="sechead"><span class="secnum">03</span><h2 class="sec">lifecycle</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i></div><div class="plabs"><div class="plab done"><span>research</span></div><div class="plab done"><span>build</span></div><div class="plab done"><span>shipped</span></div><div class="plab current"><span class="pdot"></span><span>outcome</span><span class="pnote">an outcome was recorded against it</span></div></div></div><div class="bars-caption">stage is inferred from records only — a deliverable, an asset, a logged outcome</div></section><section class="decision" id="what-needs-you"><span class="kicker">OPEN</span><h2>what needs <em>you</em></h2><p class="dek">Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Decide: resume or park</h3><p>No recorded activity in 9 days while the handoff is still active.</p></div></div></div></section><section class="blk" id="pick-it-back-up"><div class="sechead"><span class="secnum">05</span><h2 class="sec">pick it back <em>up</em></h2><span class="sectag">RUN THIS</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Resume here</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt</p><pre>python3 execution/handoff_store.py resume trailer-treatment</pre><div class="receipt"><b>receipt</b>The stored handoff prints with drift since it was written.</div></div></div></section><section class="blk" id="how-it-got-here"><div class="sechead"><span class="secnum">06</span><h2 class="sec">how it got <em>here</em></h2><span class="sectag">HISTORY, NOT TRUTH</span></div><div class="timeline"><div class="tl-item done"><span class="date">2026-08-11</span><h3>Finalized · trailer-treatment</h3><p>OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling-physics constraints, character and world continuity locks, </p></div><div class="tl-item done"><span class="date">2026-08-11</span><h3>Finalized · trailer-treatment</h3><p>OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon assets, a four-act timecoded story spine, accurate bowling me</p></div><div class="tl-item done"><span class="date">2026-08-11</span><h3>Finalized · trailer-treatment</h3><p>Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt</p></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">READ THE EDGES</span><h2>what this <em>isn&#x27;t</em></h2><p>No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.</p><p>Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.</p></section>
+  <section class="blk" id="where-this-stands"><div class="sechead"><span class="secnum">01</span><h2 class="sec">where this <em>stands</em></h2></div><span class="kicker" style="margin-bottom:8px">CURRENT POSITION</span><div class="panel"><p>A finished creative package — canon locked, references approved, spend still zero — waiting on a single decision: produce it or shelve it.</p><p>Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.</p><p>Handoff status is active. Last activity 9d ago.</p><p>Next: Decide this week whether the trailer enters production or parks as a calling-lane project.</p></div></section><section class="blk" id="the-state-as-the-last-session-left-it"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the state, as the last session <em>left</em> it</h2></div><p>Assessment: This is calling-lane work parked inside a cash-lane sprint. The package quality is high and the discipline that produced it (asset authority, continuity controls, zero spend) is genuinely reusable for client creative. But it serves no revenue goal right now, and every glance it gets is attention taxed from the sprint. The kindest thing for both lanes is an explicit decision instead of ambient guilt.</p><p>Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.</p><p>Do not rebuild:
+(auto-scaffolded — the store adds this when a handoff omits it)</p><p>- (first handoff on this thread — list shipped assets here as they land)</p><p>- Before building anything named above: `/arsenal &lt;task&gt;` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.</p></section><section class="decision" id="what-needs-you"><span class="kicker">OPEN</span><h2>what needs <em>you</em></h2><p class="dek">The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Park it deliberately with a return date</h3><p>Recommended. Protects the work and the sprint at once; the package does not decay.</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Schedule one production session as a reward</h3><p>Ties the fun work to a sprint milestone — first dollar collected buys a trailer session.</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Produce it now</h3><p>Only if the energy it generates demonstrably feeds the cash lane; otherwise it is a week of beautiful avoidance.</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Decide: resume, park, or kill</h3><p>No recorded activity in 9 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).</p></div></div></div></section><section class="blk" id="resume-park-kill"><div class="sechead"><span class="secnum">04</span><h2 class="sec">resume · park · <em>kill</em></h2><span class="sectag">DECIDE + RUN</span></div><div class="play"><div class="head"><span class="n">01</span><h3>Resume here</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt</p><pre>python3 execution/handoff_store.py resume trailer-treatment</pre><div class="receipt"><b>receipt</b>The stored handoff prints with drift since it was written.</div></div></div><div class="play"><div class="head"><span class="n">02</span><h3>Park it</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Shelve deliberately — resumable, muted, never urgent.</p><pre>python3 execution/pulse_actions.py park trailer-treatment --reason &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>Handoff annotated parked; drops out of needs-you.</div></div></div><div class="play"><div class="head"><span class="n">03</span><h3>Kill it</h3><button class="copybtn" type="button">copy</button></div><div class="body"><p class="intent">Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.</p><pre>python3 execution/pulse_actions.py kill trailer-treatment --reason &quot;&lt;one line&gt;&quot;</pre><div class="receipt"><b>receipt</b>Ledger line `killed` + handoff archived.</div></div></div></section><section class="blk" id="pick-it-up-anywhere"><div class="sechead"><span class="secnum">05</span><h2 class="sec">pick it up <em>anywhere</em></h2><span class="sectag">COPY-PASTE</span></div><div class="deploy"><div class="bar"><span class="k">CONTEXT PACK — paste into any session</span><button class="copybtn" type="button">copy</button></div><pre>THREAD: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
+SLUG: trailer-treatment
+STATUS: active · STAGE: outcome
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-11-trailer-treatment.md
+
+RESUME HERE: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
+
+SHIPPED IN WINDOW:
+  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling
+  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon a
+  - 2026-08-11 · Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
+
+(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)</pre></div></section><section class="blk" id="by-the-numbers"><div class="sechead"><span class="secnum">06</span><h2 class="sec">by the numbers</h2><span class="sectag">LAST 14 DAYS</span></div><div class="stats"><div class="stat"><div class="num">3</div><span class="lab">DELIVERABLES FINALIZED</span></div><div class="stat"><div class="num">9<small> d</small></div><span class="lab">DAYS ACTIVE</span></div></div></section><section class="blk" id="lifecycle"><div class="sechead"><span class="secnum">07</span><h2 class="sec">lifecycle</h2></div><div class="progress"><div class="ptrack"><i class="pseg done"></i><i class="pseg done"></i><i class="pseg done"></i><i class="pseg current"></i></div><div class="plabs"><div class="plab done"><span>research</span></div><div class="plab done"><span>build</span></div><div class="plab done"><span>shipped</span></div><div class="plab current"><span class="pdot"></span><span>outcome</span><span class="pnote">an outcome was recorded against it</span></div></div></div><div class="bars-caption">stage is inferred from records only — a deliverable, an asset, a logged outcome</div></section><section class="blk" id="how-it-got-here"><div class="sechead"><span class="secnum">08</span><h2 class="sec">how it got <em>here</em></h2><span class="sectag">HISTORY, NOT TRUTH</span></div><div class="timeline"><div class="tl-item done"><span class="date">2026-08-11</span><h3>Finalized · trailer-treatment</h3><p>OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling-physics constraints, character and world continuity locks, 
+Creative Direction owned the trailer spine; PJ Accetturo added production discipline; Tao Prompts added deterministic continuity; Joey Cinema OS added asset authority and scene-level repair. OpenArt current capability ve</p></div><div class="tl-item done"><span class="date">2026-08-11</span><h3>Finalized · trailer-treatment</h3><p>OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon assets, a four-act timecoded story spine, accurate bowling me
+The audience and success test now distinguishes non-bowlers from bowling-literate viewers. Creative Direction owned the trailer spine; PJ Accetturo added production discipline; Tao Prompts added deterministic continuity;</p></div><div class="tl-item done"><span class="date">2026-08-11</span><h3>Finalized · trailer-treatment</h3><p>Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt
+Micah canon locked; 20 approved native reference images; A00 excluded; asset authority hierarchy and bowling-physics vetoes verified; OpenArt spend remains zero | platform: codex | Verification: PASS (prose classifier N/</p></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">READ THE EDGES</span><h2>what this <em>isn&#x27;t</em></h2><p>No sessions in the window; the deliverable notes are the freshest record. Production cost estimates are unknown until the first generation run.</p><p>Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.</p></section>
 
   <footer class="brief">
     <span>ANTIGRAVITY · MISSION SWEEP</span>
@@ -335,6 +357,32 @@
       var host=btn.closest('.deploy, .play, .asset');
       var pre=host && host.querySelector('pre');
       if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
     });
   });
 

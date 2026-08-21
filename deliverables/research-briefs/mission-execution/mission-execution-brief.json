@@ -2,11 +2,11 @@
   "slug": "mission-execution",
   "chip": "MISSION · THREAD",
   "title": "Execution — Apify *Client*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Empty room, lights on — turn them off.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 19, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,78 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Execution — Apify Client"
+      "body": "This is a label, not a thread — no activity, a stub handoff, and a graveyard of superseded research missions.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.\n\nHandoff status is active.\n\nNext: Kill this banner and let its one live idea, the scrape-creators toolkit, live where it is actually used."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: Everything under this name either shipped long ago into real tools or was superseded by the offer lock. Keeping it on the board costs a card slot and a glance every day for zero information. The one open question it ever held — an Apify client — was answered by shipping the toolkit.\n\nHandoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Kill it",
+          "why": "Recommended. The ledger keeps the history; the board stops paying rent on an empty room."
+        },
+        {
+          "action": "Fold it into the harness banner",
+          "why": "If killing feels premature, merge and archive — but that just relocates the clutter."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Execution — Apify Client",
+          "command": "python3 execution/handoff_store.py resume execution",
+          "touches": [
+            ".agent/handoffs/2026-08-10-execution.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park execution --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "execution",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill execution --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "execution",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Execution — Apify Client\nSLUG: execution\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-10-execution.md\n\nRESUME HERE: Execution — Apify Client\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "progress",
@@ -43,24 +114,33 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
         {
-          "title": "Resume here",
-          "intent": "Execution — Apify Client",
-          "command": "python3 execution/handoff_store.py resume execution",
-          "touches": [
-            ".agent/handoffs/2026-08-10-execution.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
+          "claim": "Build an Apify scrape-creators social-listening integration for the Antigravity system usi",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: Riley Brown OS /scrape-creator /ad-spy",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         },
         {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done execution --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
+          "claim": "Validate Systeme.io as a cold-start affiliate opportunity and design an evidence-backed IC",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: Path A lock",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Pinnacle premium offer arc — creative/content strategy + positioning, execution internalized",
+          "evidence": "PREMIUM-ARC-2026-07-21.md shipped: 4-rung arc (door / 2K pilot / 5-7.5K Full Build / 3-8K retainer), executor screen v2, verified receipts",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "I have a messy business idea and need the right execution path",
+          "evidence": "KILLED (triage 2026-07-29): Codex portable-packet test compile — log noise, no deliverable ever attached",
+          "confidence": "UNCONFIRMED",
+          "source_label": "missions.jsonl · stopped"
         }
       ]
     },
@@ -85,7 +165,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Judgment here rests on absence of evidence — no sessions, no deliverables, no live mission. If something is quietly in flight under this name, it never reached a record.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

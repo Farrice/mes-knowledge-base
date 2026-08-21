@@ -2,11 +2,11 @@
   "slug": "mission-geo-content",
   "chip": "MISSION · FARRICE BRAND",
   "title": "Revenue: Claim Check Funnel - Ready to *Launch*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "The front door is built and leaning against the house — hang it.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 6 files · 0 assets",
-  "compiled": "aug 19, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,82 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea"
+      "body": "The launch surface for the entire sprint — the claim-check proof page and profile go-live — sits ready and unlaunched; everything else funnels into this.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.\n\nHandoff status is ready.\n\nNext: Publish the claim-check page, verify every public link in a private window, and set the profile live."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: The handoff is unusually crisp: build and publish the proof surface, verify links, set the profile and featured section live, run the weekly loop until the first paid audits are recorded as sold and collected. That is not a plan that needs thinking — it is a checklist that needs an afternoon. Teardown sends, offer outreach and feed posts all gain a destination the moment this is live; until then every send points at an unfinished front door.\n\nHandoff written 4d ago — mostly current; skim the latest sessions below for drift.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Launch this week as the sprint's gating move",
+          "why": "Recommended. It multiplies every other finished asset; sequencing it first is what the funnel logic demands."
+        },
+        {
+          "action": "Merge it with the profile-reset mission",
+          "why": "They overlap heavily; one combined session could clear both open items at once."
+        },
+        {
+          "action": "Park it",
+          "why": "Not credible while the sprint stands — parking the funnel is parking the sprint."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea",
+          "command": "python3 execution/handoff_store.py resume geo-content",
+          "touches": [
+            ".agent/handoffs/2026-08-16-geo-content.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park geo-content --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "geo-content",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill geo-content --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "geo-content",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Revenue: Claim Check Funnel - Ready to Launch\nSLUG: geo-content\nSTATUS: ready · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-16-geo-content.md\n\nRESUME HERE: Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea\n\nFILES TOUCHED (6):\n  - _active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md\n  - _active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md\n  - _active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md\n  - _active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md\n  - _active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md\n  - _active/farrice-brand/content/vault/INDEX.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -26,11 +101,6 @@
         {
           "value": "6",
           "label": "FILES WRITTEN"
-        },
-        {
-          "value": "2",
-          "label": "DAYS ACTIVE",
-          "unit": "d"
         }
       ]
     },
@@ -49,11 +119,11 @@
             0,
             0,
             0,
-            0,
             3,
             0,
             0,
             3,
+            0,
             0,
             0
           ],
@@ -136,35 +206,6 @@
       ]
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea",
-          "command": "python3 execution/handoff_store.py resume geo-content",
-          "touches": [
-            ".agent/handoffs/2026-08-16-geo-content.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
-      "kind": "timeline",
-      "heading": "how it got *here*",
-      "tag": "HISTORY, NOT TRUTH",
-      "items": [
-        {
-          "date": "2026-08-17",
-          "title": "commit 431165f9d",
-          "body": "fix: verify Drive lifecycle and reliability routing",
-          "done": true
-        }
-      ]
-    },
-    {
       "kind": "related",
       "heading": "swings to",
       "tag": "CONNECTED",
@@ -190,7 +231,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No sessions recorded in the window; readiness is asserted by the handoff, so the first hour should re-verify the artifact kit before publishing.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

@@ -90,3 +90,20 @@
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 282244s ago)
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 285844s ago)
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 289444s ago)
+[pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_serve] refused cross-origin POST from http://evil.example
+reopened: homebase-command-center
+done: homebase-command-center — functional pass: reopen/done roundtrip via server verified
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 47s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 47s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 47s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 2394s ago)
+[pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_actions] kill refused: --reason is required
+killed: test-kill-2 (no matching handoff thread) — server-path sabotage test
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 49s ago)
+[pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_serve] refused sensitive path: .env
+[pulse_serve] refused cross-origin POST from http://evil.example
+[pulse_actions] kill refused: --reason is required

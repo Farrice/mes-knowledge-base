@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "241 sessions swept",
-  "compiled": "aug 19, 2026",
+  "sources": "237 sessions swept",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "the state of *play*",
       "kicker": "ALL LIVE THREADS",
-      "body": "12 threads are live. 31 deliverables were finalized and 184 assets generated in the last 14 days, across 241 sessions on both harnesses.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
+      "body": "The portfolio has a release constraint, not a production constraint: five finished cash assets are each waiting on one human act — a send, a publish, a decision — while attention keeps flowing to system work.\n\nEach thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open."
     },
     {
       "kind": "stats",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "31",
+          "value": "20",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "11",
+          "value": "28",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "184",
+          "value": "169",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "241",
+          "value": "237",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -53,7 +53,6 @@
           "label": "sessions",
           "values": [
             0,
-            0,
             1,
             0,
             0,
@@ -65,7 +64,8 @@
             0,
             1,
             2,
-            3
+            3,
+            0
           ],
           "value": "11",
           "note": "per day"
@@ -80,11 +80,11 @@
             0,
             0,
             0,
-            0,
             4,
             0,
             1,
             5,
+            0,
             0,
             0
           ],
@@ -95,12 +95,12 @@
           "label": "assets",
           "values": [
             0,
-            1,
-            4,
-            1,
+            6,
             1,
             1,
             1,
+            1,
+            0,
             0,
             0,
             0,
@@ -109,7 +109,7 @@
             0,
             0
           ],
-          "value": "9",
+          "value": "10",
           "note": "per day"
         }
       ],
@@ -123,25 +123,7 @@
         {
           "label": "linkedin",
           "values": [
-            9
-          ]
-        },
-        {
-          "label": "extract forge",
-          "values": [
-            9
-          ]
-        },
-        {
-          "label": "geo content",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "health performance ip library",
-          "values": [
-            4
+            8
           ]
         },
         {
@@ -167,6 +149,24 @@
           "values": [
             3
           ]
+        },
+        {
+          "label": "harness",
+          "values": [
+            2
+          ]
+        },
+        {
+          "label": "geo content",
+          "values": [
+            6
+          ]
+        },
+        {
+          "label": "health performance ip library",
+          "values": [
+            4
+          ]
         }
       ]
     },
@@ -184,16 +184,6 @@
           "k": "READY",
           "title": "extract forge",
           "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
-        },
-        {
-          "k": "READY",
-          "title": "geo content",
-          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "health performance ip library",
-          "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -227,13 +217,23 @@
         },
         {
           "k": "ACTIVE",
+          "title": "harness",
+          "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
+        },
+        {
+          "k": "ACTIVE",
           "title": "execution",
           "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
         },
         {
+          "k": "READY",
+          "title": "geo content",
+          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
+        },
+        {
           "k": "ACTIVE",
-          "title": "writers room",
-          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+          "title": "health performance ip library",
+          "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
         }
       ]
     },
@@ -320,7 +320,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.\n\n211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: deep research, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, 04 briefs, readout os, god agent offer, create, deliverables.\n\n243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "This read is assembled from records, not from feed analytics or inbox contents — actual audience response data is absent from every thread.\n\n215 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides, global org sweep.\n\n233 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

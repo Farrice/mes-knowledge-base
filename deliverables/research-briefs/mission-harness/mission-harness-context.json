@@ -1,0 +1,53 @@
+{
+  "slug": "mission-harness",
+  "title": "Harness — Cockpit",
+  "compiled": "aug 20, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
+  "brief_md": "deliverables/research-briefs/mission-harness/mission-harness-brief.md",
+  "paths": [
+    {
+      "path": ".agent/handoffs/2026-08-20-harness.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md",
+      "role": "playbook · Resume here"
+    },
+    {
+      "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+      "role": "asset · DOC"
+    },
+    {
+      "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html",
+      "role": "asset · DOC"
+    },
+    {
+      "path": "guides/2026-08-20-harness-opus5-diagnosis.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-20-harness-opus5-diagnosis.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": "guides/2026-07-29-harness-unhobble.md",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-07-29-harness-unhobble.md",
+      "role": "asset · GUIDE"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "role": "related · BOARD"
+    }
+  ],
+  "urls": []
+}

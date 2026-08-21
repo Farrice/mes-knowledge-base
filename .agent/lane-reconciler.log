@@ -4951,3 +4951,280 @@ skipped-live     codex/zero-momentum-offer                      1 uncommitted fi
 parked-blocked   codex/antigravity-operator-core                LANE PARKED: codex/antigravity-operator-core — main tree dirty (116 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/antigravity-operator-core
 
 21 lane(s): 0 merged · 1 reclaimed · 6 parked · 14 live · 27 commit(s) still stranded
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main has a fresh writer: fresh session transcript 2e0e475b… (0m ago). Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main has a fresh writer: fresh session transcript 2e0e475b… (0m ago). Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main has a fresh writer: fresh session transcript 2e0e475b… (0m ago). Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              1 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+21 lane(s): 0 merged · 1 reclaimed · 6 parked · 14 live · 27 commit(s) still stranded
+skipped-live     worktree-cash-paths-research                   6 uncommitted file(s) — a session is still working here
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+torn-down        worktree-vosler-7fig-extract                   LANE PARKED: worktree-vosler-7fig-extract — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+23 lane(s): 0 merged · 2 reclaimed · 6 parked · 15 live · 27 commit(s) still stranded
+skipped-live     worktree-cash-paths-research                   6 uncommitted file(s) — a session is still working here
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+parked-blocked   worktree-vosler-7fig-extract                   LANE PARKED: worktree-vosler-7fig-extract — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+23 lane(s): 0 merged · 1 reclaimed · 7 parked · 15 live · 30 commit(s) still stranded
+skipped-live     worktree-cash-paths-research                   6 uncommitted file(s) — a session is still working here
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+parked-blocked   worktree-vosler-7fig-extract                   LANE PARKED: worktree-vosler-7fig-extract — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+23 lane(s): 0 merged · 1 reclaimed · 7 parked · 15 live · 30 commit(s) still stranded
+skipped-live     worktree-cash-paths-research                   6 uncommitted file(s) — a session is still working here
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+parked-blocked   worktree-vosler-7fig-extract                   LANE PARKED: worktree-vosler-7fig-extract — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main tree dirty (12 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+23 lane(s): 0 merged · 1 reclaimed · 7 parked · 15 live · 30 commit(s) still stranded
+skipped-live     worktree-cash-paths-research                   6 uncommitted file(s) — a session is still working here
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+parked-blocked   worktree-vosler-7fig-extract                   LANE PARKED: worktree-vosler-7fig-extract — main tree dirty (73 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main tree dirty (73 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main tree dirty (73 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main tree dirty (73 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+23 lane(s): 0 merged · 1 reclaimed · 7 parked · 15 live · 30 commit(s) still stranded
+skipped-live     worktree-cash-paths-research                   6 uncommitted file(s) — a session is still working here
+skipped-live     claude/vigilant-leakey-5f6293                  2 uncommitted file(s) — a session is still working here
+parked-blocked   worktree-vosler-7fig-extract                   LANE PARKED: worktree-vosler-7fig-extract — main tree dirty (76 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract
+skipped-live     claude/zen-curran-72d8e2                       9 uncommitted file(s) — a session is still working here
+parked-conflict  codex/briefing-room-gtm-preview                18 file(s) collide — needs resolution
+                   └─ .agent/workflows/cost-per-right-answer.md
+                   └─ .agent/workflows/message-market-fit-test.md
+                   └─ .agent/workflows/problem-qualified-segment.md
+                   └─ .agent/workflows/target-universe-high-dmi.md
+                   └─ .agent/workflows/zero-data-discovery.md
+                   └─ .claude/commands/cost-per-right-answer.md
+                   └─ .claude/commands/message-market-fit-test.md
+                   └─ .claude/commands/problem-qualified-segment.md
+                   └─ … +10 more
+skipped-live     codex/clear-depth-pilot                        10 uncommitted file(s) — a session is still working here
+skipped-live     codex/daniel-priestley-experience-revenue      291 uncommitted file(s) — a session is still working here
+skipped-live     codex/expert-practice-os-v2-architecture       11 uncommitted file(s) — a session is still working here
+skipped-live     codex/gtm-ezpoq8                               60 uncommitted file(s) — a session is still working here
+skipped-live     codex/linkedin-ai-consultant-bluff             1 uncommitted file(s) — a session is still working here
+torn-down        codex/linkedin-pmf-caleb-deployment            LANE PARKED: ? — main tree dirty (76 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?
+parked-blocked   codex/linkedin-pmf-caleb-recovery              LANE PARKED: codex/linkedin-pmf-caleb-recovery — main tree dirty (76 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery
+skipped-live     codex/mert-consultancy-spine                   16 uncommitted file(s) — a session is still working here
+parked-conflict  codex/notion-second-brain-reliability          3 file(s) collide — needs resolution
+                   └─ directives/feedback-ratchet.md
+                   └─ directives/quality_gate.md
+                   └─ directives/session-state-protocol.md
+skipped-live     codex/offer-portfolio-focus                    7 uncommitted file(s) — a session is still working here
+skipped-live     codex/paolo-linkedin-2026                      3 uncommitted file(s) — a session is still working here
+skipped-live     codex/pmf-health-linkedin-research             18 uncommitted file(s) — a session is still working here
+skipped-live     codex/solo-performance-creative-offer          7 uncommitted file(s) — a session is still working here
+parked-blocked   codex/watch-video-notion-repair                LANE PARKED: codex/watch-video-notion-repair — main tree dirty (76 tracked change(s)) — first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair
+skipped-live     codex/weekly-revenue-closeout                  10 uncommitted file(s) — a session is still working here
+parked-conflict  codex/zero-momentum-design-repair              2 file(s) collide — needs resolution
+                   └─ deliverables/research-briefs/index.html
+                   └─ execution/pulse_serve.py
+skipped-live     codex/zero-momentum-offer                      1 uncommitted file(s) — a session is still working here
+parked-conflict  codex/antigravity-operator-core                1 file(s) collide — needs resolution
+                   └─ guides/INDEX.md
+
+23 lane(s): 0 merged · 1 reclaimed · 7 parked · 15 live · 30 commit(s) still stranded

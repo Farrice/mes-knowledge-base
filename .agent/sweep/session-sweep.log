@@ -481,3 +481,33 @@ released
 {"session_sweep": "2026-08-19T23:45:13.441422", "status": "synthesis_failed", "synthesis_rc": 1, "synthesized": false, "synthesis_valid": false, "counts": {"sessions": 241, "threads_seen": 466, "threads_promoted": 12, "deliverables": 31, "artifacts": 11, "assets": 184, "artifacts_vanished": 0, "overflow": 211}, "degraded": []}
 {"session_sweep": "2026-08-19T23:45:13.441422", "status": "synthesis_failed", "synthesis_rc": 1, "synthesized": false, "synthesis_valid": false, "counts": {"sessions": 241, "threads_seen": 466, "threads_promoted": 12, "deliverables": 31, "artifacts": 11, "assets": 184, "artifacts_vanished": 0, "overflow": 211}, "degraded": []}
 === 2026-08-19 23:45:13 mission sweep end rc=1 ===
+=== 2026-08-20 20:52:20 mission sweep start ===
+claimed: f8f406b25a8e  (heartbeat every wave: session_lock.py heartbeat f8f406b25a8e)
+[session_sweep] window 14d — 237 sessions, 12/460 threads promoted, 20 deliverables, 28 artifacts, 169 assets
+  · linkedin                               build    handoff status: active, asset generated
+  · extract-forge                          outcome  handoff status: ready
+  · mission                                research handoff status: active
+  · angle-map-listening-engine-v4-1        shipped  finalized deliverable, handoff status: active
+  · proof-to-market                        research handoff status: ready
+  · first-client-engine                    outcome  finalized deliverable, handoff status: active
+  · trailer-treatment                      outcome  finalized deliverable, handoff status: active
+  · teardown-1-fresh                       outcome  finalized deliverable, handoff status: active
+  · harness                                build    handoff status: active, asset generated
+  · execution                              research handoff status: active
+  · geo-content                            build    handoff status: ready, artifact written
+  · health-performance-ip-library          build    handoff status: active, artifact written
+[session_sweep] over the 12-card ceiling (215), not carded: writers-room, codex-end-session-control-plane, video-studio-edit-bay, quick-concept-application, farrice-brand, clients, readout-os, god-agent-offer, create, deliverables
+[session_sweep] shipped without a live thread: 13 (surfaces on the mission board)
+[session_sweep] below the bar (233): 1654-moonseed-simi-hooks, ai-video-product-label-morphing-composite-fix, ai-visibility-receipts-without-paid-tooling, angle-brief-2026-08-06, angle-brief-2026-08-10, angle-brief-2026-08-13, angle-map-company-intelligence-deep-market-truth, angle-map-god-agent-gtm-decision
+[session_sweep] wrote .agent/sweep/sweep-2026-08-20.json
+[work_catalog] 1007 rows (+2) · census rows folded: 918 → .agent/catalog/catalog.jsonl
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-trailer-treatment, mission-execution, mission-first-client-engine …
+[brief_synthesis] FAILED: no parseable JSON in model output
+[brief_synthesis] triage FAILED: no parseable JSON
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-trailer-treatment, mission-execution, mission-first-client-engine …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (50 briefs · routes verified · 50 active · 0 archived · shelves clean)
+homebase → /Users/farricecain/Google Antigravity/.agent/homebase/homebase.html
+library → /Users/farricecain/Google Antigravity/.agent/catalog/library.html
+released
+{"session_sweep": "2026-08-20T20:52:40.558532", "status": "synthesis_degraded", "synthesis_rc": 1, "synthesized": true, "synthesis_generated": "2026-08-20T20:51:20", "counts": {"sessions": 237, "threads_seen": 460, "threads_promoted": 12, "deliverables": 20, "artifacts": 28, "assets": 169, "artifacts_vanished": 0, "overflow": 215}, "degraded": []}
+=== 2026-08-20 20:52:40 mission sweep end rc=1 ===

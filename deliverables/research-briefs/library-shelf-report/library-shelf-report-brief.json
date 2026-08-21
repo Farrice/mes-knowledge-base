@@ -1,0 +1,129 @@
+{
+  "slug": "library-shelf-report",
+  "chip": "LIBRARY · WEEKLY",
+  "title": "the shelf *report*",
+  "dek": "Two resumes worth taking: Jen's voice-lock reels and the About rebuild — both are nearly done, not nearly started.",
+  "window": "last 7 days",
+  "lens": "librarian",
+  "sources": "1002 catalog rows",
+  "compiled": "aug 20, 2026",
+  "footer_left": "ANTIGRAVITY · LIBRARIAN",
+  "footer_right": "@farricecain",
+  "category": "library",
+  "priority": 2,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the state of the *estate*",
+      "kicker": "SHELF REPORT",
+      "body": "The estate's dormant-merit shelf is small and honest: two items genuinely worth resuming — both one session from shipping — and three that already delivered their value and can sleep."
+    },
+    {
+      "kind": "stats",
+      "heading": "the estate",
+      "tag": "CATALOG",
+      "items": [
+        {
+          "value": "1002",
+          "label": "ITEMS CATALOGED"
+        },
+        {
+          "value": "55",
+          "label": "NEW THIS WEEK"
+        },
+        {
+          "value": "5",
+          "label": "WORTH RESUMING"
+        },
+        {
+          "value": "0",
+          "label": "KILL DECISIONS WAITING"
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "worth *resuming*",
+      "tag": "MERIT, DORMANT",
+      "links": [
+        {
+          "k": "THREAD",
+          "title": "Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=",
+          "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three ",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wa",
+          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "Willis Approved Three-Reel Closeout",
+          "path": "deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html"
+        },
+        {
+          "k": "THREAD",
+          "title": "Added complete production playbook and morning content brief layer to the content-team OS ",
+          "path": "deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "entered this week",
+      "tag": "NEW",
+      "links": [
+        {
+          "k": "THREAD",
+          "title": "operator cockpit v2"
+        },
+        {
+          "k": "GUIDE",
+          "title": "date: 2026-08-06",
+          "path": "guides/2026-08-06-readout-os.md"
+        },
+        {
+          "k": "GUIDE",
+          "title": "date: 2026-08-20",
+          "path": "guides/2026-08-20-.md"
+        },
+        {
+          "k": "GUIDE",
+          "title": "Operator Guide Library — Master Index",
+          "path": "guides/INDEX.md"
+        },
+        {
+          "k": "GUIDE",
+          "title": "date: 2026-08-20",
+          "path": "guides/2026-08-20-harness-opus5-diagnosis.md"
+        },
+        {
+          "k": "KNOWLEDGE",
+          "title": "Knowledge Briefing",
+          "path": "knowledge/compiled"
+        },
+        {
+          "k": "KNOWLEDGE",
+          "title": "Knowledge Index",
+          "path": "knowledge/index.md"
+        },
+        {
+          "k": "KNOWLEDGE",
+          "title": "Knowledge Log",
+          "path": "knowledge/log.md"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "EDGES",
+      "body": "Calls rest on catalog metadata and mission outcomes, not a fresh read of each artifact; a resume session should skim the latest state before building."
+    }
+  ]
+}

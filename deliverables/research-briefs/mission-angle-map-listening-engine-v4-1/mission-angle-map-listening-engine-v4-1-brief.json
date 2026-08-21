@@ -2,11 +2,11 @@
   "slug": "mission-angle-map-listening-engine-v4-1",
   "chip": "MISSION · THREAD",
   "title": "2026-08-12 Angle Map Listening Brief with flagship *post*…",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "The machine runs; the product still has not left the building.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 19, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,86 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown"
+      "body": "The engine works and costs pennies; its output still fails the content gate, so it produces briefs nobody can send.\n\nStage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 8d ago.\n\nNext: Repair the failing content gate on one brief and send that brief to one named prospect."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: The infrastructure achievement is real — scheduled runs, a proven pipe, negligible cost. But an intelligence product is judged at the send, and the last recorded gate check failed after one revision. Until a single brief clears the bar and lands in a prospect's inbox, this is a machine that manufactures shelf inventory. The fix is likely small; the habit of not finishing the last mile is the actual risk.\n\nHandoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-08-03-angle-map-listening-engine.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Fix the gate on one brief and send it",
+          "why": "Recommended. One clean send validates the whole engine and produces the sprint's best proof artifact."
+        },
+        {
+          "action": "Downgrade briefs to internal fuel",
+          "why": "Honest if the send bar is too high right now — the briefs still feed posts and teardowns."
+        },
+        {
+          "action": "Pause the scheduled runs",
+          "why": "Only if nobody is reading the output; a daily brief nobody opens is a subscription to guilt."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
+          "command": "python3 execution/handoff_store.py resume angle-map-listening-engine-v4-1",
+          "touches": [
+            ".agent/handoffs/2026-08-12-angle-map-listening-engine.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park angle-map-listening-engine-v4-1 --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "angle-map-listening-engine-v4-1",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill angle-map-listening-engine-v4-1 --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "angle-map-listening-engine-v4-1",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown\nSLUG: angle-map-listening-engine-v4-1\nSTATUS: active · STAGE: shipped\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-12-angle-map-listening-engine.md\n\nRESUME HERE: 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown\n\nSHIPPED IN WINDOW:\n  - 2026-08-12 · 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -53,8 +132,8 @@
             0,
             0,
             0,
-            0,
             1,
+            0,
             0,
             0,
             0,
@@ -93,40 +172,6 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Decide: resume or park",
-          "why": "No recorded activity in 8 days while the handoff is still active."
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
-          "command": "python3 execution/handoff_store.py resume angle-map-listening-engine-v4-1",
-          "touches": [
-            ".agent/handoffs/2026-08-12-angle-map-listening-engine.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        },
-        {
-          "title": "Close the mission",
-          "intent": "Mark it done or park it with a reason.",
-          "command": "python3 execution/pulse_actions.py done angle-map-listening-engine-v4-1 --outcome \"<one line>\"",
-          "receipt": "It leaves the open set on the next pulse regen."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
@@ -134,7 +179,7 @@
         {
           "date": "2026-08-12",
           "title": "Finalized · angle-map-listening-engine",
-          "body": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown",
+          "body": "2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown\nLive Reddit plus FDA FTC Amazon source spine; local-only; public assets clean; full structured brief content gate remains FAIL after one revision | platform: codex | Verification: PARTIAL | telemetry: sub_agents_spawned=",
           "done": true
         },
         {
@@ -142,6 +187,19 @@
           "title": "codex session",
           "body": "Content: Angle Map Listening Engine - V4.1 Content Factory",
           "done": true
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Angle Map Listening Engine v4 fusion build",
+          "evidence": "v4 prompt live, ledger seeded, COS wired, launchd 05:30 installed, cloud routine paused, Apify pipe proven ($0.005); first scheduled brief 2026-08-01. Spawn variance: 1 Explore agent used in planning (expected 0). · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
         }
       ]
     },
@@ -166,7 +224,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Gate failure detail comes from one deliverable note; the current failure mode needs a fresh look before repair.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

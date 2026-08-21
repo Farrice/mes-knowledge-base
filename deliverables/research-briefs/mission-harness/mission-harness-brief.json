@@ -1,0 +1,253 @@
+{
+  "slug": "mission-harness",
+  "chip": "MISSION · THREAD",
+  "title": "Harness — *Cockpit*",
+  "dek": "The workshop is built — get out of the workshop.",
+  "window": "last 14 days",
+  "lens": "claude",
+  "sources": "0 sessions · 0 files · 2 assets",
+  "compiled": "aug 20, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "The system got a major upgrade today; the honest move now is to declare harness week over and starve this thread until money moves.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 2 assets generated.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Park this thread for the week and let the new homebase pay rent before the next system build."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: System work keeps winning attention because it is always available, always interesting, and never rejects you. The record shows the pattern: strong shipped outcomes, real leverage gained, and a sprint sitting beside it that needs sends, not surfaces. The command center collapse shipped today is genuinely load-bearing — which is exactly why the next system itch should be refused for a while.\n\nHandoff written 0d ago — treat its plan as current."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Park for the week",
+          "why": "Recommended. The new surfaces need daily use, not extension; their real test is whether they change what gets shipped."
+        },
+        {
+          "action": "Keep a strict one-fix-a-day cap",
+          "why": "Allows small friction fixes without opening a build; requires actually stopping at one."
+        },
+        {
+          "action": "Kill the stale sub-threads under this banner",
+          "why": "Several old harness missions are noise in the ledger; a cleanup pass would sharpen every board."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Harness — Cockpit",
+          "command": "python3 execution/handoff_store.py resume harness",
+          "touches": [
+            ".agent/handoffs/2026-08-20-harness.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park harness --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "harness",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill harness --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "harness",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Harness — Cockpit\nSLUG: harness\nSTATUS: active · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md\n\nRESUME HERE: Harness — Cockpit\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "ASSETS GENERATED"
+        },
+        {
+          "value": "13",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "assets",
+          "values": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "value": "2",
+          "unit": "made",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "current",
+          "note": "files are moving; nothing finalized"
+        },
+        {
+          "label": "shipped",
+          "state": "todo"
+        },
+        {
+          "label": "outcome",
+          "state": "todo"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "assets",
+      "heading": "what this thread *made*",
+      "tag": "COPY THE PATH",
+      "items": [
+        {
+          "title": "ai-marketing-agents-hype-vs-harness-brief.html",
+          "role": "DOC",
+          "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "ai-marketing-agents-hype-vs-harness-brief-share.html",
+          "role": "DOC",
+          "path": "deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html",
+          "note": "aug 7, 2026"
+        },
+        {
+          "title": "2026-08-20-harness-opus5-diagnosis.md",
+          "role": "GUIDE",
+          "path": "guides/2026-08-20-harness-opus5-diagnosis.md"
+        },
+        {
+          "title": "2026-07-29-harness-unhobble.md",
+          "role": "GUIDE",
+          "path": "guides/2026-07-29-harness-unhobble.md"
+        }
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the *record*",
+      "tag": "HOW IT ENDED",
+      "rows": [
+        {
+          "claim": "Build an expert-assembly skill system for the Antigravity harness extending /convene, coun",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): shipped: Expert Assembly OS /assemble",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Research, rank, and select a fast-cash productized AI service offer for Farrice using the ",
+          "evidence": "TRIAGE 2026-07-29 (Farrice: execute all): superseded: offer canon locked 07-21",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Research, rank, and select a fast-cash productized AI service offer for Farrice using the Google Antigravity h",
+          "evidence": "Selected a capped seven-day Alignment Audit cash bridge and retained the Claim-Safe Citation Audit as the 30-day primary business; no outreach sent.",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        },
+        {
+          "claim": "Harness Apex: metabolism + focus + generation (deepest-cut program)",
+          "evidence": "Farrice verdict GOOD 2026-07-29 ('you covered a lot of bases'). Session extended past the program: OPERATOR-ROUTINE.md driver card, interactive-rhythm made constitutional, 7:15 COS macOS notification, /fresh-pen primitive + workflow born at · verdict: good",
+          "confidence": "VERIFIED",
+          "source_label": "missions.jsonl · done"
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-20-harness.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "Stub handoff; this thread is a catch-all banner more than a single workstream, so its counts mix unrelated efforts.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}

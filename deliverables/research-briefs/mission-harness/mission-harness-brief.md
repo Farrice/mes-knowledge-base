@@ -1,0 +1,99 @@
+# Harness — Cockpit
+
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 2 assets · compiled: aug 20, 2026
+
+The workshop is built — get out of the workshop.
+
+## where this stands
+_CURRENT POSITION_
+The system got a major upgrade today; the honest move now is to declare harness week over and starve this thread until money moves.
+
+Stage: build — files are moving; nothing finalized. In the last 14 days: 2 assets generated.
+
+Handoff status is active. Last activity 13d ago.
+
+Next: Park this thread for the week and let the new homebase pay rent before the next system build.
+
+## the state, as the last session left it
+Assessment: System work keeps winning attention because it is always available, always interesting, and never rejects you. The record shows the pattern: strong shipped outcomes, real leverage gained, and a sprint sitting beside it that needs sends, not surfaces. The command center collapse shipped today is genuinely load-bearing — which is exactly why the next system itch should be refused for a while.
+
+Handoff written 0d ago — treat its plan as current.
+
+## what needs you
+The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
+1. **Park for the week** — Recommended. The new surfaces need daily use, not extension; their real test is whether they change what gets shipped.
+2. **Keep a strict one-fix-a-day cap** — Allows small friction fixes without opening a build; requires actually stopping at one.
+3. **Kill the stale sub-threads under this banner** — Several old harness missions are noise in the ledger; a cleanup pass would sharpen every board.
+4. **Decide: resume, park, or kill** — No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+
+## resume · park · kill
+1. **Resume here** — Harness — Cockpit
+```
+python3 execution/handoff_store.py resume harness
+```
+   touches: .agent/handoffs/2026-08-20-harness.md
+   receipt: The stored handoff prints with drift since it was written.
+2. **Park it** — Shelve deliberately — resumable, muted, never urgent.
+```
+python3 execution/pulse_actions.py park harness --reason "<one line>"
+```
+   receipt: Handoff annotated parked; drops out of needs-you.
+3. **Kill it** — Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.
+```
+python3 execution/pulse_actions.py kill harness --reason "<one line>"
+```
+   receipt: Ledger line `killed` + handoff archived.
+
+## pick it up anywhere
+**CONTEXT PACK — paste into any session**
+```
+THREAD: Harness — Cockpit
+SLUG: harness
+STATUS: active · STAGE: build
+BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-20-harness.md
+
+RESUME HERE: Harness — Cockpit
+
+(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
+```
+
+## by the numbers
+- ASSETS GENERATED: **2**
+- DAYS ACTIVE: **13 d**
+
+## momentum
+
+
+## lifecycle
+
+
+## what this thread made
+- **ai-marketing-agents-hype-vs-harness-brief.html** [DOC] `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html` — aug 7, 2026
+- **ai-marketing-agents-hype-vs-harness-brief-share.html** [DOC] `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html` — aug 7, 2026
+- **2026-08-20-harness-opus5-diagnosis.md** [GUIDE] `guides/2026-08-20-harness-opus5-diagnosis.md`
+- **2026-07-29-harness-unhobble.md** [GUIDE] `guides/2026-07-29-harness-unhobble.md`
+
+## the record
+- **Build an expert-assembly skill system for the Antigravity harness extending /convene, coun** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: Expert Assembly OS /assemble (missions.jsonl · done)
+- **Research, rank, and select a fast-cash productized AI service offer for Farrice using the ** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): superseded: offer canon locked 07-21 (missions.jsonl · done)
+- **Research, rank, and select a fast-cash productized AI service offer for Farrice using the Google Antigravity h** [VERIFIED] — Selected a capped seven-day Alignment Audit cash bridge and retained the Claim-Safe Citation Audit as the 30-day primary business; no outreach sent. (missions.jsonl · done)
+- **Harness Apex: metabolism + focus + generation (deepest-cut program)** [VERIFIED] — Farrice verdict GOOD 2026-07-29 ('you covered a lot of bases'). Session extended past the program: OPERATOR-ROUTINE.md driver card, interactive-rhythm made constitutional, 7:15 COS macOS notification, /fresh-pen primitive + workflow born at · verdict: good (missions.jsonl · done)
+
+## swings to
+- [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-20-harness.md
+- [BOARD] Mission board — every live thread — deliverables/research-briefs/mission-board/mission-board-brief.html
+
+## what this isn't
+_READ THE EDGES_
+Stub handoff; this thread is a catch-all banner more than a single workstream, so its counts mix unrelated efforts.
+
+Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
+
+## Context pack (agent feed)
+- `.agent/handoffs/2026-08-20-harness.md` — playbook · Resume here
+- `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html` — asset · DOC
+- `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html` — asset · DOC
+- `guides/2026-08-20-harness-opus5-diagnosis.md` — asset · GUIDE
+- `guides/2026-07-29-harness-unhobble.md` — asset · GUIDE
+- `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

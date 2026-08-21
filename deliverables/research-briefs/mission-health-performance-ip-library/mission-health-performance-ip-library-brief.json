@@ -2,11 +2,11 @@
   "slug": "mission-health-performance-ip-library",
   "chip": "MISSION · KNOWLEDGE",
   "title": "Health Performance Ip *Library*",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "An empty shelf with a nice label — fold it or lose it.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 4 files · 0 assets",
-  "compiled": "aug 19, 2026",
+  "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,78 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.\n\nHandoff status is active. Last activity 2d ago.\n\nNext: Health Performance Ip Library — W32 Health Performance Synthesis"
+      "body": "A named shelf with no books — declared as a thread, never fed a single session, deliverable or asset.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.\n\nHandoff status is active.\n\nNext: Fold this into the listening-engine thread as its library, or kill the banner outright."
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Assessment: The idea is sound — a curated intelligence library for the health and performance niche is exactly what the sprint's content engine feeds on. But as a standing empty thread it only manufactures guilt. Libraries get built by depositing what the listening engine and teardowns already produce, not by existing as a title.\n\nHandoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+    },
+    {
+      "kind": "decision",
+      "heading": "what needs *you*",
+      "kicker": "OPEN",
+      "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
+      "items": [
+        {
+          "action": "Fold into the listening engine",
+          "why": "Recommended. The engine already produces the material; this becomes its filing system instead of a rival thread."
+        },
+        {
+          "action": "Kill it",
+          "why": "Clean if the folding feels like ceremony — the name can be reborn when there is something to shelve."
+        }
+      ]
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Health Performance Ip Library — W32 Health Performance Synthesis",
+          "command": "python3 execution/handoff_store.py resume health-performance-ip-library",
+          "touches": [
+            ".agent/handoffs/2026-08-07-health-performance-ip-library.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park health-performance-ip-library --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "health-performance-ip-library",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill health-performance-ip-library --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "health-performance-ip-library",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Health Performance Ip Library — W32 Health Performance Synthesis\nSLUG: health-performance-ip-library\nSTATUS: active · STAGE: build\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-health-performance-ip-library.md\n\nRESUME HERE: Health Performance Ip Library — W32 Health Performance Synthesis\n\nFILES TOUCHED (4):\n  - _active/knowledge/health-performance-ip-library/daily/2026-08-16-angle-map-listening-brief.md\n  - _active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md\n  - _active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md\n  - _active/knowledge/health-performance-ip-library/daily/2026-08-15-angle-map-listening-brief.md\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -26,11 +97,6 @@
         {
           "value": "4",
           "label": "FILES WRITTEN"
-        },
-        {
-          "value": "2",
-          "label": "DAYS ACTIVE",
-          "unit": "d"
         }
       ]
     },
@@ -49,11 +115,11 @@
             0,
             0,
             0,
-            0,
             1,
             0,
             1,
             2,
+            0,
             0,
             0
           ],
@@ -119,35 +185,6 @@
       ]
     },
     {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "Health Performance Ip Library — W32 Health Performance Synthesis",
-          "command": "python3 execution/handoff_store.py resume health-performance-ip-library",
-          "touches": [
-            ".agent/handoffs/2026-08-07-health-performance-ip-library.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
-      "kind": "timeline",
-      "heading": "how it got *here*",
-      "tag": "HISTORY, NOT TRUTH",
-      "items": [
-        {
-          "date": "2026-08-17",
-          "title": "commit 431165f9d",
-          "body": "fix: verify Drive lifecycle and reliability routing",
-          "done": true
-        }
-      ]
-    },
-    {
       "kind": "related",
       "heading": "swings to",
       "tag": "CONNECTED",
@@ -173,7 +210,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No synthesis pass has run against this thread yet — everything above is mechanically collected, and nothing here is interpretation.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Stub handoff and zero recorded activity — this read is built entirely on absence.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

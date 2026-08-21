@@ -1,49 +1,49 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 241 sessions swept · compiled: aug 19, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 237 sessions swept · compiled: aug 20, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-12 threads are live. 31 deliverables were finalized and 184 assets generated in the last 14 days, across 241 sessions on both harnesses.
+The portfolio has a release constraint, not a production constraint: five finished cash assets are each waiting on one human act — a send, a publish, a decision — while attention keeps flowing to system work.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **31**
-- FILES WRITTEN: **11**
-- ASSETS GENERATED: **184**
-- SESSIONS SWEPT: **241**
+- DELIVERABLES FINALIZED: **20**
+- FILES WRITTEN: **28**
+- ASSETS GENERATED: **169**
+- SESSIONS SWEPT: **237**
 
 ## momentum
 
 
 ## where the work went
-- linkedin: 9
-- extract forge: 9
-- geo content: 6
-- health performance ip library: 4
+- linkedin: 8
 - angle map listening engine v4 1: 3
 - first client engine: 6
 - trailer treatment: 9
 - teardown 1 fresh: 3
+- harness: 2
+- geo content: 6
+- health performance ip library: 4
 _weighted: deliverables ×3 + files + assets_
 
 ## every live thread
 - [ACTIVE] linkedin — deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html
 - [READY] extract forge — deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html
-- [READY] geo content — deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html
-- [ACTIVE] health performance ip library — deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html
 - [ACTIVE] mission — deliverables/research-briefs/mission-mission/mission-mission-brief.html
 - [ACTIVE] angle map listening engine v4 1 — deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html
 - [READY] proof to market — deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html
 - [ACTIVE] first client engine — deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html
 - [ACTIVE] trailer treatment — deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html
 - [ACTIVE] teardown 1 fresh — deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html
+- [ACTIVE] harness — deliverables/research-briefs/mission-harness/mission-harness-brief.html
 - [ACTIVE] execution — deliverables/research-briefs/mission-execution/mission-execution-brief.html
-- [ACTIVE] writers room — deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html
+- [READY] geo content — deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html
+- [ACTIVE] health performance ip library — deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html
 
 ## also shipped
 - 2026-08-13 · **end-session** — Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han
@@ -61,22 +61,22 @@ _weighted: deliverables ×3 + files + assets_
 
 ## what this board isn't
 _READ THE EDGES_
-This board is assembled mechanically from the handoff store, the finalize ledger, the session ledgers and the asset manifest. Nothing here is interpretation.
+This read is assembled from records, not from feed analytics or inbox contents — actual audience response data is absent from every thread.
 
-211 more threads cleared the bar but sit below the 12-card ceiling and were not carded: deep research, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, one liner, 04 briefs, readout os, god agent offer, create, deliverables.
+215 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides, global org sweep.
 
-243 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+233 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
 - `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html` — related · READY
-- `deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html` — related · READY
-- `deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-mission/mission-mission-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html` — related · READY
 - `deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-harness/mission-harness-brief.html` — related · ACTIVE
 - `deliverables/research-briefs/mission-execution/mission-execution-brief.html` — related · ACTIVE
-- `deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html` — related · ACTIVE
+- `deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html` — related · READY
+- `deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html` — related · ACTIVE
