@@ -11,6 +11,7 @@ These are Farrice's structured Notion databases. Use the Notion API (`@notionhq/
 | **Content Pipeline** | `ff77ee45-8ee8-4fce-996e-20c76fa65d9c` | Content from idea → draft → published with platform targeting |
 | **Captures** | `f55d202d-233c-4284-a8f1-7ab1c145ffe1` | Quick captures from Telegram, voice, manual entry |
 | **Farrice Cain — Personal Context** | `0911ef04-8117-463f-8b21-e7f6c1a1ef4a` | Personal insights, worldview, identity, journal extractions |
+| **Social Intelligence** | `3a749875-a897-8104-a867-fc9aeb53f52c` | Shared Riley Brown creator/ad/video evidence bank |
 | **Performance Log** | `31f49875-a897-81db-b599-dee5e7961b5c` | Autoresearch feedback ratchet — quality signals per output for self-improvement |
 
 ## API Access
@@ -40,8 +41,9 @@ The Notion API key is stored in the Antigravity root `.env`.
 - Name (title), Category (Identity/Worldview/Values/Strengths/Growth Edge/Life Experience/Fatherhood/Creative Vision/Business Philosophy/Health/Emotional Pattern/Decision), Depth (Surface/Medium/Deep/Foundational), Source (Journal/Flywheel/Conversation/Telegram/AI Extraction/Life Event/Manual), Confidence (Certain/Strong/Evolving/Questioning), Emotion (multi), Raw Entry, Extracted Insight, Connected To, Date, Tags (Manifesto Material/Origin Story/Recurring Theme/Contradiction/Evolution Marker/Content Seed/Dad Life)
 
 ### Social Intelligence
-- Name (title), Creator, Platform (Instagram/TikTok/YouTube/LinkedIn/X/Facebook/Ad Library), Type (Reel/Short/Video/Post/Carousel/Static Ad/Video Ad), Post URL, Media (files, external URLs), Hook, Views, Likes, Comments, Duration (s), Posted, Scraped, Running Since (ads), Analysis, Batch, Extract Candidate (checkbox)
+- Name (title), Creator, Platform (Instagram/TikTok/YouTube/LinkedIn/X/Facebook/Ad Library), Type (Reel/Short/Video/Post/Carousel/Static Ad/Video Ad), Post URL, Media (files, external URLs), Hook, Views, Likes, Comments, Duration (s), Posted, Scraped, Running Since (ads), Analysis, Batch, Watch Fingerprint, Evidence State (TRANSCRIPT_ONLY/VISUAL_CAPTURED_UNREVIEWED/PARTIAL_VISUAL_VERIFIED/VISUAL_VERIFIED), Topics (multi-select), Extract Candidate (checkbox)
 - Script: `execution/social_intel.py` · Workflows: `/scrape-creator`, `/ad-spy` · Full transcripts live in page body blocks (2000-char property cap)
+- Exact public YouTube `/watch` sources use `execution/social_to_notion.py --watch-packet ...`; this consumes the existing evidence packet and upserts by canonical Post URL without re-scraping. `Watch Fingerprint` is the bridge-owned idempotency key; it must never replace Riley's `Batch` or reset a human-owned `Extract Candidate` decision.
 
 ### Performance Log
 - Output (title), Date, Agent (text), Skill (text), Workflow (text), Task Type (Content/Strategy/Extraction/Research/Client Work/System/Creative/Analysis), Quality Score (number 1-10), User Rating (number 1-10), Intent Alignment (number 1-10), Expert Standard (number 1-10), Adversarial Resilience (number 1-10), Status (Keep/Discard/Needs Improvement/Baseline), Notes, Experiment Tag
