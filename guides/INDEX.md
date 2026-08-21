@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Work from one command center + never lose work (Homebase + Librarian)** | |
+| Open the one page to work from (Focus · Launch · Library) | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `/homebase` → http://127.0.0.1:8765/ |
+| Find something half-remembered from any past work | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `work_catalog.py find "<words>"` or `/catalog` |
+| Kill or park a thread (and know the difference) | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — kill=hidden, park=quiet+resumable |
+| Understand/repair the nightly chain + judged analyst layer | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — nightly capability section, restore-not-discard |
 | **Model seating + Intent Brief Default (Opus 5 gap resolution)** | |
 | Understand why Opus 5 felt horrible and what seat it now holds | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — mental model + seating ruling |
 | Debug why the intent-brief/fresh-pen card did or didn't fire | [Opus 5 Gap Diagnosis](2026-08-20-harness-opus5-diagnosis.md) — command table (pipe a payload through steering_loop_hook.py) |
@@ -283,6 +288,8 @@
 
 ## Chronology
 
+- **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
+
 *(newest first)*
 
 - 2026-08-20 — [System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-harness-opus5-diagnosis.md) — the 4.8→5 gap measured instead of vibed: Fable-seat re-probe (scope expansion reproduced 9-calls-vs-0; verbosity harness-amplified, not Opus-specific) + blind 3-seat taste A/B where **Opus's ghostwritten take rated GREAT and Fable's TERRIBLE** (n=1, voice_ratchet) — his Opus pain is interaction ergonomics, never artifact taste. Seating ruling written into both dialect cards (Fable/Sonnet conduct, Opus executes dispatched work incl. creative prose; Sonnet card got its missing machine-dialect block). Shipped the **Intent Brief Default** (plan-mode co-shaped): raw ask → INTENT BRIEF card (≤10-line brief, confirm, fresh dispatch), artifact ask → FRESH PEN clean-room card, sharp ask → mirror and go — injected per-prompt via `steering_loop_hook.py`, 5-path sabotage-tested. Plus the noise diet: SessionStart 8 hooks → `session_brief.py` digest; 7 mention-based hookify stop/warn rules disabled (receipts-only law for future warn rules). Core doctrine: *quality is working conditions, not model choice — settled brief, clean head, one shot; and seat by disposition: conductor ≠ pen*
@@ -364,6 +371,7 @@
 
 
 ## Pending enrichment
+- (none)
 - [2026-08-20 — System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-system-opus-5-gap-diagnosis-resolved-defaults-installed.md) — session-brief stub, needs enrichment
 - [2026-08-17 — Proposed Diffs](2026-08-17-.md) — operator-guide stub, needs enrichment
 - [2026-08-16 — Revenue: Claim Check Funnel - Ready to Launch](2026-08-16-geo-content.md) — operator-guide stub, needs enrichment

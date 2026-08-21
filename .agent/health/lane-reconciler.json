@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-21T03:15:12.151175+00:00",
+  "ts": "2026-08-21T04:16:23.510122+00:00",
   "dry_run": false,
-  "lanes": 23,
-  "merged": 0,
+  "lanes": 24,
+  "merged": 3,
   "torn_down": 1,
-  "parked": 7,
+  "parked": 5,
   "live": 15,
-  "stranded_commits": 30,
+  "stranded_commits": 28,
   "results": [
     {
       "branch": "worktree-cash-paths-research",
@@ -16,6 +16,15 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "6 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "worktree-guides-empty-slug-fix",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/guides-empty-slug-fix",
+      "commits_ahead": 1,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "merged",
+      "detail": "LANE MERGED: worktree-guides-empty-slug-fix -> main (1 commits, 3 files)"
     },
     {
       "branch": "claude/vigilant-leakey-5f6293",
@@ -31,9 +40,11 @@
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vosler-7fig-extract",
       "commits_ahead": 3,
       "dirty_files": 0,
-      "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: worktree-vosler-7fig-extract \u2014 main tree dirty (76 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-vosler-7fig-extract"
+      "conflicts": [
+        "SLASH_COMMANDS.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "1 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/zen-curran-72d8e2",
@@ -124,7 +135,7 @@
       "dirty_files": 0,
       "conflicts": [],
       "action": "torn-down",
-      "detail": "LANE PARKED: ? \u2014 main tree dirty (76 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
+      "detail": "LANE PARKED: ? \u2014 merge refused: merge: ? - not something we can merge. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
     },
     {
       "branch": "codex/linkedin-pmf-caleb-recovery",
@@ -132,8 +143,8 @@
       "commits_ahead": 1,
       "dirty_files": 0,
       "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/linkedin-pmf-caleb-recovery \u2014 main tree dirty (76 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/linkedin-pmf-caleb-recovery"
+      "action": "merged",
+      "detail": "LANE MERGED: codex/linkedin-pmf-caleb-recovery -> main (1 commits, 2 files)"
     },
     {
       "branch": "codex/mert-consultancy-spine",
@@ -152,10 +163,11 @@
       "conflicts": [
         "directives/feedback-ratchet.md",
         "directives/quality_gate.md",
-        "directives/session-state-protocol.md"
+        "directives/session-state-protocol.md",
+        "execution/memory_facade.py"
       ],
       "action": "parked-conflict",
-      "detail": "3 file(s) collide \u2014 needs resolution"
+      "detail": "4 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/offer-portfolio-focus",
@@ -199,8 +211,8 @@
       "commits_ahead": 1,
       "dirty_files": 0,
       "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/watch-video-notion-repair \u2014 main tree dirty (76 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/watch-video-notion-repair"
+      "action": "merged",
+      "detail": "LANE MERGED: codex/watch-video-notion-repair -> main (1 commits, 7 files)"
     },
     {
       "branch": "codex/weekly-revenue-closeout",
