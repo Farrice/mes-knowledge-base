@@ -118,7 +118,7 @@ def act_park(slug, reason):
              "annotate", slug, "--status", "parked", "--hint", reason],
             capture_output=True, text=True, timeout=20)
         if r.returncode == 0:
-            print(f"parked: {slug} (handoff annotated blocked)")
+            print(f"parked: {slug} (handoff annotated parked)")
         else:
             print(f"parked: {slug} (no matching handoff thread — mission line only)")
     except Exception:
@@ -222,7 +222,9 @@ def act_refresh():
     steps = [
         ("session sweep", ["session_sweep.py", "run"], 600),
         ("asset index", ["asset_index.py"], 300),
+        ("analyst synthesis", ["brief_synthesis.py", "run"], 660),
         ("mission briefs", ["mission_brief.py", "build", "--quiet"], 300),
+        ("work catalog", ["work_catalog.py", "merge"], 120),
         ("homebase", ["homebase_board.py"], 90),
     ]
     all_ok = True

@@ -113,7 +113,10 @@ Gates: <audit / prose / verify / jam / voice — whichever will fire>
 Tier: <T1|T2|T3>   Cost: <$0 | flagged>  Deliverable paths: <where outputs land>
 ```
 
-On approval, write two artifacts to `.agent/missions/<slug>/`:
+On approval, file the mission in the librarian's catalog (birth filing —
+`python3 execution/work_catalog.py add <slug> --title "<intent>" --serves <goal>`;
+the Stop hook and nightly sweep also file automatically, this just adds intent+goal
+at the moment of naming), then write two artifacts to `.agent/missions/<slug>/`:
 - **`contract.json`** — the card as a small JSON contract (intent lock, route,
   stack, expected_spawns, deliverable_paths, gates, tier). This is the light
   version of Frontier Wave 4's Structured Mission Contracts — the shape its

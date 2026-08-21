@@ -48,6 +48,7 @@ ORACLE = os.path.join(ROOT, ".agent", "oracle", "oracle-dashboard.html")
 MISSIONS = os.path.join(ROOT, ".agent", "missions", "mission-control.html")
 HOMEBASE = os.path.join(ROOT, ".agent", "homebase", "homebase.html")
 ASSETS = os.path.join(ROOT, ".agent", "assets", "assets-board.html")
+LIBRARY = os.path.join(ROOT, ".agent", "catalog", "library.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
@@ -84,7 +85,7 @@ def _repo_path_allowed(rel):
 def regen(which="pulse"):
     script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
               "oracle": "oracle_dashboard.py", "homebase": "homebase_board.py",
-              "assets": "asset_gallery.py",
+              "assets": "asset_gallery.py", "library": "catalog_board.py",
               "missions": "mission_board.py"}.get(which, "pulse_dashboard.py")
     try:
         subprocess.run([PY, os.path.join(ROOT, "execution", script)],
@@ -251,7 +252,8 @@ class Handler(BaseHTTPRequestHandler):
                                         "oracle_mtime": _mtime(ORACLE),
                                         "missions_mtime": _mtime(MISSIONS),
                                         "homebase_mtime": _mtime(HOMEBASE),
-                                        "assets_mtime": _mtime(ASSETS)}), "application/json")
+                                        "assets_mtime": _mtime(ASSETS),
+                                        "library_mtime": _mtime(LIBRARY)}), "application/json")
             return
         if route.startswith("/repo/"):
             self._serve_repo(route)
@@ -265,6 +267,9 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/assets"):
             self._serve_board("assets", ASSETS, "asset board")
             return
+        if route.startswith("/library"):
+            self._serve_board("library", LIBRARY, "library")
+            return
         if route.startswith(("/pulse", "/missions")):
             # Retired surfaces (two-surfaces collapse, 2026-08-20). Muscle
             # memory and old links land on the Homebase instead of a 404.
@@ -276,7 +281,7 @@ class Handler(BaseHTTPRequestHandler):
         if route in HOME_PATHS:
             self._serve_board("homebase", HOMEBASE, "homebase")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /room · /assets · /oracle · /repo/<path>",
+        self._send(404, f"no route: {route}\n\ntry / · /room · /library · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):

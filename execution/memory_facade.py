@@ -75,7 +75,7 @@ elif _episodic_env:
 else:
     EPISODIC_PROJECTS = ["-" + str(ROOT).strip("/").replace("/", "-").replace(" ", "-")]
 
-ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic", "solutions", "prompts")
+ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic", "solutions", "prompts", "catalog")
 
 _STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
@@ -87,6 +87,36 @@ _STOPWORDS = {
 def _tokens(text: str) -> List[str]:
     return [t for t in re.findall(r"[a-z0-9]+", (text or "").lower())
             if len(t) > 2 and t not in _STOPWORDS]
+
+
+def _query_catalog(query: str, top_k: int) -> Dict[str, Any]:
+    """The work catalog (2026-08-20): the librarian's permanent census. Lets any
+    session find prior work by half-remembered phrase BEFORE rebuilding it."""
+    try:
+        import work_catalog as wc
+        q_tokens = _tokens(query)
+        results = []
+        for r in wc.load_catalog().values():
+            hay = " ".join([str(r.get("title") or ""), r.get("k", ""),
+                            " ".join(r.get("tags") or []), r.get("arena") or ""])
+            score = _overlap_score(q_tokens, hay)
+            if score > 0:
+                snippet = str(r.get("title") or r.get("k"))[:200]
+                if r.get("resume"):
+                    snippet += f"  [{r['resume']}]"
+                elif r.get("path"):
+                    snippet += f"  [{r['path']}]"
+                results.append({
+                    "source": "catalog", "via": r.get("kind") or "row",
+                    "score": score + (0.5 if r.get("merit") else 0),
+                    "id": r.get("k"), "pinned": False,
+                    "snippet": snippet,
+                    "path": r.get("brief") or r.get("path") or "",
+                })
+        results.sort(key=lambda x: x["score"], reverse=True)
+        return {"results": results[:top_k]}
+    except Exception as e:  # noqa: BLE001
+        return {"results": [], "degraded": f"catalog: {e}"}
 
 
 def _overlap_score(query_tokens: List[str], text: str) -> float:
@@ -443,6 +473,7 @@ def recall(
         ("episodic", lambda: _query_episodic(query, per_store)),
         ("solutions", lambda: _query_solutions(query, per_store)),
         ("prompts", lambda: _query_prompts(query, per_store)),
+        ("catalog", lambda: _query_catalog(query, per_store)),
     ):
         if name not in use:
             continue

@@ -59,6 +59,10 @@ SLOTS = {
     "why": "Per decision item, keyed by item index: why it matters now.",
     "caveats": "What is unverified, stale, or at risk in this thread.",
     "operator_read": "One line an operator would tell a colleague about this thread.",
+    # Intelligence-register slots (Farrice, 2026-08-20: "true insight… what I
+    # need to do and what options I have").
+    "state_read": "1 short paragraph: the analyst's assessment — what the facts MEAN, momentum, risk. Not a restatement.",
+    "options": "2-3 items [{action, why}]: the real choices on the table with the tradeoff each carries. Lead with the recommended one.",
 }
 
 FORBIDDEN_SYNTHESIS_VALUE = re.compile(
@@ -290,10 +294,14 @@ def sec_summary(t, synth, window, narr):
             "kicker": "CURRENT POSITION", "body": "\n\n".join(p for p in para if p)}
 
 
-def sec_state(t, narr):
+def sec_state(t, narr, synth=None):
     """The handoff's Current State — done / uncertain / latest proof — plus the
-    staleness warning. This is the 'simulate where we left off' block."""
+    staleness warning and the analyst's read. The 'simulate where we left off'
+    block."""
+    synth = synth or {}
     paras = []
+    if synth.get("state_read"):
+        paras.append("Assessment: " + synth["state_read"])
     if narr.get("state"):
         paras.append(narr["state"])
     stale = staleness_line(t)
@@ -404,14 +412,25 @@ def sec_decision(t, synth):
             f"No recorded activity in {idle} days while the handoff is still "
             f"{t.get('status') or 'open'}. Park keeps it resumable and quiet; "
             f"kill hides it for good (ledger-recoverable).")
+    # Judged options outrank derived items: they carry the tradeoff analysis
+    # ("what I need to do and what options I have" — the derived list only
+    # states which records are open). Derived items follow as the evidence.
+    judged = [{"action": o["action"], "why": o["why"]}
+              for o in (synth.get("options") or [])]
+    if judged:
+        items = judged + items
     if not items:
         return None
     for i, it in enumerate(items):
         if str(i) in whys:
             it["why"] = whys[str(i)]
+    dek = ("The first option is the recommended one; the rest are the real "
+           "alternatives with the tradeoff each carries."
+           if judged else
+           "Everything here is derived from an open record — a blocked handoff, "
+           "an unfinished line, an open mission.")
     return {"kind": "decision", "heading": "what needs *you*", "kicker": "OPEN",
-            "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-            "items": items}
+            "dek": dek, "items": items}
 
 
 def sec_deploy(t, narr, slug):
@@ -637,7 +656,7 @@ def build_brief(slug, t, bundle, synth):
     # as the last session left it → the decision → runnable plays → portable
     # prompts → then numbers, artifacts, history, record, edges.
     sections = [sec_summary(t, synth, window, narr)]
-    for maybe in (sec_state(t, narr), sec_decision(t, synth), sec_playbook(t),
+    for maybe in (sec_state(t, narr, synth), sec_decision(t, synth), sec_playbook(t),
                   sec_deploy(t, narr, slug), sec_stats(t, window),
                   sec_spark(t, window), sec_progress(t), sec_assets(t),
                   sec_timeline(t), sec_record(t, slug)):
@@ -887,7 +906,7 @@ def cmd_validate_synthesis(args):
     errors = []
     allowed_slugs = set(bundle.get("threads", {})) | {BOARD_SLUG}
     allowed_keys = set(SLOTS)
-    required_keys = allowed_keys - {"why"}
+    required_keys = allowed_keys - {"why", "options", "state_read"}
 
     if not isinstance(synth, dict):
         errors.append("synthesis must be a JSON object")
@@ -911,6 +930,13 @@ def cmd_validate_synthesis(args):
                     errors.append(f"{slug}.why: must be an object")
                     continue
                 values = value.values()
+            elif key == "options":
+                if (not isinstance(value, list) or len(value) > 3
+                        or not all(isinstance(o, dict) and isinstance(o.get("action"), str)
+                                   and isinstance(o.get("why"), str) for o in value)):
+                    errors.append(f"{slug}.options: must be a list of ≤3 {{action, why}} string pairs")
+                    continue
+                values = [x for o in value for x in (o["action"], o["why"])]
             else:
                 if not isinstance(value, str):
                     errors.append(f"{slug}.{key}: must be a string")

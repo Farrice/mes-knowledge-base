@@ -783,9 +783,39 @@ def sweep(days=DEFAULT_DAYS, since=None):
                                  "workflow": d["workflow"], "type": d["type"]})
     also_shipped.sort(key=lambda x: x["date"], reverse=True)
 
+    # CENSUS (2026-08-20, the catalog spine): every key the sweep saw, WITH its
+    # metadata. filtered_out/overflow used to persist bare slugs — the exact
+    # mechanism by which fast curiosity work fell off the edge of the world
+    # after the window closed. work_catalog.py merges this into the permanent
+    # catalog; the sweep itself stays a 14-day window on purpose.
+    census = []
+    for k, t in threads.items():
+        if k == "unattributed":
+            continue
+        census.append({
+            "key": k,
+            "title": (t.get("title") or "")[:200],
+            "arena": t.get("arena") or "",
+            "status": t.get("status") or "",
+            "stage": t.get("stage") or "",
+            "pin": bool(t.get("pin")),
+            "promoted": bool(t.get("promoted")) and k in promoted,
+            "killed": bool(t.get("killed")),
+            "handoff": t.get("handoff") or "",
+            "resume_hint": (t.get("resume_hint") or "")[:200],
+            "first_seen": t.get("first_seen") or "",
+            "last_active": t.get("last_active") or "",
+            "evidence": {"sessions": len(t["sessions"]), "deliverables": len(t["deliverables"]),
+                         "assets": len(t["assets"]), "commits": len(t["commits"]),
+                         "artifacts": len(t["artifacts"]), "missions": len(t["missions"])},
+            "verdicts": sorted({m.get("verdict") for m in t["missions"] if m.get("verdict")}),
+            "scores": [m for m in (d.get("score") for d in t["deliverables"]) if m is not None],
+        })
+
     bundle = {
         "generated": iso(datetime.now()),
         "window": {"since": iso(since), "until": iso(datetime.now()), "days": days},
+        "census": census,
         "degraded": degraded,
         "counts": {
             "sessions": len(sessions),
@@ -847,6 +877,16 @@ def cmd_run(args):
         print(f"[session_sweep] DEGRADED {d}")
     if path:
         print(f"[session_sweep] wrote {repo_rel(path)}")
+        # LIBRARIAN chain (2026-08-20): every sweep — launchd nightly, refresh
+        # button, manual — folds its census into the permanent catalog. This is
+        # the ambient safety net: work is remembered even when no hook fired.
+        try:
+            import subprocess
+            r = subprocess.run([sys.executable, str(ROOT / "execution" / "work_catalog.py"), "merge"],
+                               capture_output=True, text=True, timeout=120)
+            print((r.stdout or "").strip() or "[session_sweep] catalog merge ran silent")
+        except Exception as e:  # noqa: BLE001
+            print(f"[session_sweep] catalog merge skipped (non-blocking): {e}")
     return 0
 
 

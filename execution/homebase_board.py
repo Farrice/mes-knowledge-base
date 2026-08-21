@@ -76,6 +76,11 @@ def launch_cards(sweep):
             "launch zone unavailable — .agent/sweep/latest.json unreadable; "
             "run python3 execution/session_sweep.py run", None)
     import mission_board as mb
+    try:
+        synth_all = json.load(open(os.path.join(ROOT, ".agent", "sweep", "synthesis.json"),
+                                   encoding="utf-8"))
+    except (OSError, ValueError):
+        synth_all = {}
     wdays = (sweep.get("window") or {}).get("days", 14)
     rank = {"blocked": 0, "mid-build": 1, "active": 2, "ready": 3, "parked": 9}
     threads = list((sweep.get("threads") or {}).items())
@@ -91,6 +96,13 @@ def launch_cards(sweep):
                  if t.get("stage") else "")
         _, why = mb.why_needs_you(t, wdays)
         why_html = f'<p class="last">⚑ {esc(why)}</p>' if why else ""
+        synth = synth_all.get(slug) or {}
+        read_html = ""
+        if synth.get("operator_read") or synth.get("next_move"):
+            read = synth.get("operator_read") or ""
+            move = synth.get("next_move") or ""
+            read_html = (f'<p class="read">{esc(read)}'
+                         + (f' <b>➤ {esc(move)}</b>' if move else "") + '</p>')
         hint = t.get("resume_hint") or ""
         hint_html = (f'<p class="last">↪ {esc(hint[:150])}</p>'
                      if hint and hint != t.get("title") else "")
@@ -126,7 +138,7 @@ def launch_cards(sweep):
             f'<div class="mcard">'
             f'<div class="row1"><h3>{esc(str(t.get("title") or slug)[:120])}{pin}</h3>'
             f'<span class="pill {scls}">{esc(t.get("status"))}</span>{stage}</div>'
-            f'{why_html}{hint_html}{unf}'
+            f'{why_html}{read_html}{hint_html}{unf}'
             f'<div class="meta"><span class="m">{esc(" · ".join(made) or "quiet")}</span>'
             f'<span class="m">{esc(when)}</span>'
             f'<span class="acts">'
@@ -188,6 +200,36 @@ def brief_rows():
             f'<span class="it">{esc(str(e["title"]).replace("*", ""))}</span>'
             f'{pri}<span class="m">{esc(e["compiled"])}</span></a>')
     return "".join(rows) or '<div class="empty">no briefs yet</div>', all_count, len(entries)
+
+
+def resume_strip():
+    """Top merit-dormant items from the permanent catalog — the lost-merit fix
+    on the front page (Farrice, 2026-08-20)."""
+    try:
+        import work_catalog as wc
+        rows = wc.shelves()["resume"][:3]
+    except Exception as e:
+        return degraded_html("worth-resuming strip unavailable — run "
+                             "python3 execution/work_catalog.py merge", e)
+    if not rows:
+        return '<div class="empty">nothing dormant with merit — clean</div>'
+    cards = []
+    for r in rows:
+        tri = (r.get("triage") or {})
+        why = tri.get("why") or (r.get("merit_why") or "")
+        acts = []
+        if r.get("resume"):
+            acts.append(f'<button class="copybtn" type="button" data-copy="{esc(r["resume"])}">copy /resume</button>')
+        if r.get("brief"):
+            acts.append(f'<a class="actbtn alink" href="{esc((Path(ROOT) / r["brief"]).as_uri())}"'
+                        f' data-repo="/repo/{esc(r["brief"])}">open brief ↗</a>')
+        cards.append(
+            f'<div class="mcard"><div class="row1"><h3>★ {esc(str(r.get("title"))[:100])}</h3>'
+            f'<span class="pill ok">{esc(r.get("merit_why") or "merit")}</span></div>'
+            + (f'<p class="last">{esc(why)}</p>' if why else "")
+            + f'<div class="meta"><span class="m">last {esc((r.get("last_active") or "—")[:10])}</span>'
+            f'<span class="acts">{"".join(acts)}</span></div></div>')
+    return "".join(cards)
 
 
 def system_counts():
@@ -255,6 +297,9 @@ def main():
     shelf_html, asset_total = asset_shelf()
     sc = system_counts()
     sys_line = " · ".join(f"{v:,} {k}" for k, v in sc.items() if v) if sc else ""
+
+    resume_html = resume_strip()
+    library_uri = Path(ROOT, ".agent", "catalog", "library.html").as_uri()
 
     # --- LAUNCH ---
     launch_html = launch_cards(sweep)
@@ -324,6 +369,9 @@ h2 {{ font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transfor
 .mcard .gline::before {{ content:"goal · "; font-family:var(--mono); font-size:8.5px; letter-spacing:.14em;
   text-transform:uppercase; color:var(--muted); }}
 .mcard .last {{ font-size:11.5px; color:var(--muted); margin:5px 0 0; line-height:1.45; }}
+.mcard .read {{ font-size:12px; color:var(--ink); margin:6px 0 0; line-height:1.5;
+  border-left:2px solid var(--accent); padding-left:10px; }}
+.mcard .read b {{ color:var(--accent); font-weight:600; }}
 .mcard .meta {{ display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap; }}
 .m {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }}
 .pill {{ font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; padding:2px 8px;
@@ -410,13 +458,16 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <section><h2>Resumable threads (sweep, {esc(sweep_age)})</h2>{launch_html}</section>
 
 <div class="zone">Library</div>
+<section><h2>★ Worth resuming — merit, gone quiet</h2>{resume_html}
+  <a class="roomlink" href="{esc(library_uri)}" data-route="/library">open the full library ↗</a></section>
 <section><h2>Fresh intel — newest briefs</h2><div class="intelgrid">{briefs_html}</div>
   <a class="roomlink" href="{esc(room_uri)}" data-route="/room">open the briefing room ↗</a>
   <a class="roomlink" href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}">mission board ↗</a></section>
 <section class="shelf"><h2>Asset shelf — newest generations</h2>
   <div class="shelfgrid">{shelf_html}</div>
   <a class="roomlink" href="{esc(board_uri)}" data-route="/assets">open the asset board ↗</a></section>
-<section><h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span></section>
+<section><h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span>
+  <a class="roomlink" href="{esc(library_uri)}" data-route="/library">browse everything in the library ↗</a></section>
 
 <section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
 <section class="closed"><h2 class="tog">Recently closed</h2><div class="body">{closed_html}</div></section>

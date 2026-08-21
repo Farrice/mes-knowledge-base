@@ -40,6 +40,8 @@ CHILDREN = [
      "python3 execution/pulse_dashboard.py --open"),
     ("voice", [PY, str(ROOT / "execution" / "voice_ratchet.py"), "nudge"],
      "python3 execution/voice_ratchet.py nudge"),
+    ("library", [PY, str(ROOT / "execution" / "work_catalog.py"), "nudge"],
+     "http://127.0.0.1:8765/library"),
 ]
 
 MAX_LINE = 160
