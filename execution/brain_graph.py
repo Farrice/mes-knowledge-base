@@ -220,6 +220,11 @@ body { background:var(--ground); color:var(--ink); font:14px/1.5 var(--sans); ma
 #detail button:hover, #detail a:hover { border-color:var(--accent); color:var(--accent); }
 #detail pre { font:10.5px/1.5 var(--mono); background:var(--ground); border:1px solid var(--line); border-radius:6px;
   padding:10px; white-space:pre-wrap; word-break:break-word; max-height:24vh; overflow:auto; margin:0; }
+.hublist { display:flex; flex-direction:column; gap:3px; }
+.hubitem { text-align:left; font:11.5px/1.4 var(--mono); background:var(--ground); color:var(--ink);
+  border:1px solid var(--line); border-radius:5px; padding:5px 9px; cursor:pointer;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.hubitem:hover { border-color:var(--accent); color:var(--accent); }
 .foot { position:fixed; bottom:14px; right:16px; font-family:var(--mono); font-size:8.5px; letter-spacing:.14em;
   text-transform:uppercase; color:var(--muted); z-index:10; }
 #toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--panel);
@@ -374,25 +379,78 @@ function _toast(m) {
   const t = document.getElementById('toast'); t.textContent = m; t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), 1500);
 }
-function select(n) {
-  selected = n; draw();
-  if (n.hub && n.id !== 'claude-md') { centerOn(n, 1.2); }
+function openInEditor(rel) {
+  if (!LIVE) { _toast('editor open needs the live server'); return; }
+  fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                     body: JSON.stringify({ action: 'open-path', args: { uri: REPO_ROOT_URI + '/' + rel } }) })
+    .then(r => r.json()).then(j => _toast(j.ok ? 'opened in editor' : 'open failed'))
+    .catch(() => _toast('open failed'));
+}
+function soloDept(key) {
+  const wasSolo = DATA.depts.every(d => d.key === key ? !hidden.has(d.key) : hidden.has(d.key));
+  hidden.clear();
+  if (!wasSolo) DATA.depts.forEach(d => { if (d.key !== key) hidden.add(d.key); });
+  document.querySelectorAll('#chips .chip').forEach((c, i) => {
+    const d = DATA.depts[i];
+    if (d) c.classList.toggle('off', hidden.has(d.key));
+  });
+  draw();
+  return !wasSolo;
+}
+function selectHub(n) {
+  // a hub click is a DEPARTMENT view: summary + the freshest members, never a dead end
   while (det.firstChild) det.removeChild(det.firstChild);
   const h3 = document.createElement('h3'); h3.textContent = n.label; det.appendChild(h3);
   const meta = document.createElement('div'); meta.className = 'meta';
-  meta.textContent = (n.dept || '') + (n.kind ? ' · ' + n.kind : '') + (n.mt ? ' · ' + n.mt : '');
+  meta.textContent = (n.count || 0) + ' items in the canon';
+  det.appendChild(meta);
+  const acts = document.createElement('div'); acts.className = 'acts';
+  const solo = document.createElement('button');
+  const isSolo = DATA.depts.every(d => d.key === n.dept ? !hidden.has(d.key) : hidden.has(d.key));
+  solo.textContent = isSolo ? 'show all departments' : 'solo this department';
+  solo.addEventListener('click', () => {
+    const nowSolo = soloDept(n.dept);
+    solo.textContent = nowSolo ? 'show all departments' : 'solo this department';
+  });
+  acts.appendChild(solo);
+  det.appendChild(acts);
+  const hd = document.createElement('div'); hd.className = 'meta'; hd.textContent = 'freshest — click to inspect';
+  det.appendChild(hd);
+  const list = document.createElement('div'); list.className = 'hublist';
+  DATA.nodes.filter(m => !m.hub && m.dept === n.dept)
+    .sort((a, b) => (b.mt || '').localeCompare(a.mt || '')).slice(0, 8)
+    .forEach(m => {
+      const b = document.createElement('button'); b.className = 'hubitem';
+      b.textContent = (m.mt ? m.mt + '  ' : '') + m.label;
+      b.addEventListener('click', () => { select(m); centerOn(m, 1.8); });
+      list.appendChild(b);
+    });
+  det.appendChild(list);
+  detail(true);
+}
+function select(n) {
+  selected = n; draw();
+  if (n.hub && n.id !== 'claude-md') { centerOn(n, 1.2); selectHub(n); return; }
+  while (det.firstChild) det.removeChild(det.firstChild);
+  const h3 = document.createElement('h3'); h3.textContent = n.label; det.appendChild(h3);
+  const meta = document.createElement('div'); meta.className = 'meta';
+  meta.textContent = (n.dept || '') + (n.kind ? ' · ' + n.kind : '') + (n.mt ? ' · edited ' + n.mt : '');
   det.appendChild(meta);
   if (n.rel) {
     const acts = document.createElement('div'); acts.className = 'acts';
+    const op = document.createElement('a'); op.textContent = 'open ↗';
+    op.href = LIVE ? '/repo/' + n.rel : REPO_ROOT_URI + '/' + n.rel;
+    op.target = '_blank';
+    acts.appendChild(op);
+    const ed = document.createElement('button'); ed.textContent = 'editor';
+    ed.title = 'open with the OS default app';
+    ed.addEventListener('click', () => openInEditor(n.rel));
+    acts.appendChild(ed);
     const cp = document.createElement('button'); cp.textContent = 'copy path';
     cp.addEventListener('click', () => {
       navigator.clipboard && navigator.clipboard.writeText(n.rel).then(() => _toast('path copied'));
     });
     acts.appendChild(cp);
-    const op = document.createElement('a'); op.textContent = 'open ↗';
-    op.href = LIVE ? '/repo/' + n.rel : REPO_ROOT_URI + '/' + n.rel;
-    op.target = '_blank';
-    acts.appendChild(op);
     det.appendChild(acts);
     const pre = document.createElement('pre');
     if (LIVE && /\.(md|py|json|txt|html)$/.test(n.rel)) {
@@ -408,6 +466,10 @@ function select(n) {
   detail(true);
 }
 addEventListener('keydown', e => { if (e.key === 'Escape') { selected = null; detail(false); searchClear(); draw(); } });
+cv.addEventListener('dblclick', e => {
+  const n = pick(e.clientX, e.clientY);
+  if (n && !n.hub && n.rel) window.open(LIVE ? '/repo/' + n.rel : REPO_ROOT_URI + '/' + n.rel, '_blank');
+});
 
 // search
 const inp = document.getElementById('search');
@@ -497,7 +559,7 @@ def render_html(graph):
   <div class="slider"><label>view</label><button id="resetview" class="chip" type="button">reset</button></div>
 </div>
 <div id="detail"></div>
-<div class="foot">{graph['total']:,} nodes · built {_html.escape(graph['generated'][:16])} · click a node · esc clears</div>
+<div class="foot">{graph['total']:,} nodes · built {_html.escape(graph['generated'][:16])} · drag pans · scroll zooms · click inspects · double-click opens · esc clears</div>
 <div id="toast"></div>
 <script id="braindata" type="application/json">{data}</script>
 <script>

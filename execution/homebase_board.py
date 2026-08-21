@@ -340,30 +340,35 @@ def routines_board(limit=12):
         exit_code = rec.get("last_exit")
         chip = ("ok" if exit_code == 0 else "crit" if isinstance(exit_code, int) and exit_code != 0
                 else "muted")
-        rows.append((nxt if nxt is not None else float("inf"), name, sched, always, chip))
+        log = str(rec.get("log_path") or "")
+        rows.append((nxt if nxt is not None else float("inf"), name, sched, always, chip, log))
     if not rows:
         return degraded_html("no routines found — ~/Library/LaunchAgents empty "
                              "or unreadable", None), 0
+
+    def _row(name, sched, when, chip, log):
+        log_attr = f' data-log="{esc(log)}" role="button" tabindex="0"' if log else ""
+        cls = "routine haslog" if log else "routine"
+        hint = ' title="click — open the last run log"' if log else ""
+        return (f'<div class="{cls}"{log_attr}{hint}><span class="dot {chip}"></span>'
+                f'<span class="rn">{esc(name)}</span>'
+                f'<span class="rs">{esc(sched)}</span>'
+                f'<span class="rt">{esc(when)}</span></div>')
     total = len(rows)
     fires = sorted([r for r in rows if not r[3]], key=lambda r: r[0])[:limit]
     always = [r for r in rows if r[3]]
-    out = []
-    for nxt, name, sched, _a, chip in fires:
-        out.append(f'<div class="routine"><span class="dot {chip}"></span>'
-                   f'<span class="rn">{esc(name)}</span>'
-                   f'<span class="rs">{esc(sched)}</span>'
-                   f'<span class="rt">{esc(_in_words(nxt))}</span></div>')
-    for _n, name, sched, _a, chip in always:
-        out.append(f'<div class="routine"><span class="dot {chip}"></span>'
-                   f'<span class="rn">{esc(name)}</span>'
-                   f'<span class="rs">{esc(sched)}</span><span class="rt">∞</span></div>')
+    out = [_row(name, sched, _in_words(nxt), chip, log)
+           for nxt, name, sched, _a, chip, log in fires]
+    out += [_row(name, sched, "∞", chip, log)
+            for _n, name, sched, _a, chip, log in always]
     return "".join(out), total
 
 
 def artifact_ring(limit=24):
     """The ring around the portal: newest artifacts the system produced —
     briefs, assets, merit catalog entries, deck-run reports. All from existing
-    indexes; never a second collector."""
+    indexes; never a second collector. Every node opens a popover with real
+    actions (open / copy path) — a click never dead-ends on a raw file."""
     items = []
     try:
         import brief_library as bl
@@ -379,41 +384,54 @@ def artifact_ring(limit=24):
         pass
     try:
         from asset_index import reduced_manifest
+        from asset_gallery import thumb_name
         rows = [r for r in reduced_manifest().values()
-                if r.get("status", "active") == "active" and r.get("keep") is not False]
+                if r.get("status", "active") == "active"
+                and r.get("type") in ("image", "video") and r.get("keep") is not False]
         rows.sort(key=lambda r: r.get("ts") or "", reverse=True)
         for r in rows[:8]:
             rel = str(r.get("path") or "")
             if rel and os.path.isfile(os.path.join(ROOT, rel)):
+                thumb_rel = f".agent/assets/thumbs/{thumb_name(rel)}"
                 items.append({"icon": "▶" if r.get("type") == "video" else "🎨",
                               "kind": "asset",
                               "title": (r.get("project") or r.get("zone") or "asset").replace("-", " "),
-                              "date": str(r.get("ts") or "")[:10], "rel": rel})
+                              "date": str(r.get("ts") or "")[:10], "rel": rel,
+                              "thumb": (thumb_rel if os.path.isfile(
+                                  os.path.join(ROOT, thumb_rel)) else None)})
     except Exception:
         pass
     try:
         import work_catalog as wc
         for r in wc.shelves()["resume"][:6]:
-            if r.get("brief"):
+            brel = str(r.get("brief") or "")
+            if brel and os.path.isfile(os.path.join(ROOT, brel)):
                 items.append({"icon": "★", "kind": "work",
                               "title": str(r.get("title") or "catalog entry"),
                               "date": str(r.get("last_active") or "")[:10],
-                              "rel": str(r["brief"])})
+                              "rel": brel, "resume": r.get("resume")})
     except Exception:
         pass
     try:
         for p in sorted(glob.glob(os.path.join(DECK_RUNS, "*.json")), reverse=True)[:6]:
             d = json.load(open(p, encoding="utf-8"))
-            rel = d.get("report_rel") or _rel(p)
-            if rel:
+            rel = d.get("report_rel")
+            if rel and os.path.isfile(os.path.join(ROOT, rel)):
                 items.append({"icon": "⚙", "kind": "run",
                               "title": f"deck · {d.get('card_id', 'run')}",
                               "date": str(d.get("ended") or d.get("started") or "")[:16],
                               "rel": rel})
     except Exception:
         pass
-    items.sort(key=lambda i: i.get("date") or "", reverse=True)
-    items = items[:limit]
+    # dedupe by target (a brief can arrive via briefs AND the catalog)
+    seen, deduped = set(), []
+    for it in items:
+        if it["rel"] in seen:
+            continue
+        seen.add(it["rel"])
+        deduped.append(it)
+    deduped.sort(key=lambda i: i.get("date") or "", reverse=True)
+    items = deduped[:limit]
     n = max(len(items), 1)
     nodes = []
     for i, it in enumerate(items):
@@ -421,24 +439,53 @@ def artifact_ring(limit=24):
         x = 50 + 46.5 * math.cos(ang)
         y = 50 + 46.5 * math.sin(ang)
         uri = (Path(ROOT) / it["rel"]).as_uri()
+        face = (f'<img data-rel="{esc(it["thumb"])}" alt="">' if it.get("thumb")
+                else f'<span class="ri">{it["icon"]}</span>')
+        resume_attr = f' data-resume="{esc(it["resume"])}"' if it.get("resume") else ""
         nodes.append(
-            f'<a class="ringnode" style="left:{x:.2f}%;top:{y:.2f}%" href="{esc(uri)}"'
-            f' data-repo="/repo/{esc(it["rel"])}" data-search="{esc(it["title"].lower())}"'
-            f' title="{esc(it["title"])} · {esc(it["date"])}">'
-            f'<span class="ri">{it["icon"]}</span></a>')
+            f'<a class="ringnode" style="left:{x:.2f}%;top:{y:.2f}%;animation-delay:{i * 35}ms"'
+            f' href="{esc(uri)}" data-repo="/repo/{esc(it["rel"])}"'
+            f' data-search="{esc(it["title"].lower())}" data-kind="{esc(it["kind"])}"'
+            f' data-title="{esc(it["title"])}" data-date="{esc(it["date"])}"'
+            f' data-relpath="{esc(it["rel"])}"{resume_attr}>'
+            f'{face}</a>')
     return "".join(nodes), len(items)
+
+
+def _deck_receipts():
+    out = []
+    for p in sorted(glob.glob(os.path.join(DECK_RUNS, "*.json")), reverse=True):
+        try:
+            out.append(json.load(open(p, encoding="utf-8")))
+        except (OSError, ValueError):
+            continue
+    return out
+
+
+def _receipt_age_min(d):
+    try:
+        t = time.mktime(time.strptime(str(d.get("started"))[:19], "%Y-%m-%dT%H:%M:%S"))
+        return (time.time() - t) / 60
+    except Exception:
+        return 9999
 
 
 def skills_deck():
     """Deck cards from the curated skills-deck.json — model + effort pickers,
     Run fires POST /action run_skill (guarded server-side by
-    skill_deck_runner.py). Receipts from deck-runs/ listed below the cards."""
+    skill_deck_runner.py). A fresh in-flight run disables the deck (session
+    lock is global — the UI says so instead of letting a click bounce).
+    Receipts from deck-runs/ listed below the cards; a 'running' receipt older
+    than 35 min renders as stalled, never as forever-running."""
     try:
         deck = json.load(open(DECK_FILE, encoding="utf-8"))
         cards_def = deck.get("cards") or []
     except (OSError, ValueError):
         return ('<div class="empty">deck not configured — create '
                 '.agent/homebase/skills-deck.json</div>')
+    receipts = _deck_receipts()
+    live = next((d for d in receipts
+                 if d.get("state") == "running" and _receipt_age_min(d) < 35), None)
     cards = []
     for c in cards_def:
         cid = esc(c.get("id"))
@@ -448,32 +495,47 @@ def skills_deck():
                      for m in models)
         eo = "".join(f'<option{" selected" if e == c.get("default_effort") else ""}>{esc(e)}</option>'
                      for e in efforts)
+        if live and live.get("card_id") == c.get("id"):
+            btn = '<button class="actbtn warn dk-live" type="button" disabled>● running…</button>'
+        elif live:
+            btn = ('<button class="actbtn dk-run" type="button" disabled '
+                   'title="one run at a time — the session lock is global">▸ run</button>')
+        else:
+            btn = '<button class="actbtn ok dk-run" type="button">▸ run</button>'
+        last = next((d for d in receipts if d.get("card_id") == c.get("id")
+                     and d.get("state") != "running"), None)
+        last_line = ""
+        if last:
+            cost = last.get("total_cost_usd")
+            cost_s = f"${cost:.2f}" if isinstance(cost, (int, float)) else "n/a"
+            ok = "✓" if last.get("state") == "done" else "✕"
+            last_line = (f'<span class="m">last {ok} '
+                         f'{esc(str(last.get("ended") or "")[5:16])} · {esc(cost_s)}</span>')
         cards.append(
             f'<div class="deckcard" data-card="{cid}">'
-            f'<div class="row1"><h3>{esc(c.get("command"))}</h3></div>'
+            f'<div class="row1"><h3>{esc(c.get("command"))}</h3>{last_line}</div>'
             f'<p class="last">{esc(c.get("blurb"))}</p>'
             f'<div class="meta"><select class="dk-model">{mo}</select>'
             f'<select class="dk-effort">{eo}</select>'
-            f'<span class="acts"><button class="actbtn ok dk-run" type="button">▸ run</button></span>'
+            f'<span class="acts">{btn}</span>'
             f'</div></div>')
     runs = []
-    try:
-        for p in sorted(glob.glob(os.path.join(DECK_RUNS, "*.json")), reverse=True)[:3]:
-            d = json.load(open(p, encoding="utf-8"))
-            cost = d.get("total_cost_usd")
-            cost_s = f"${cost:.2f}" if isinstance(cost, (int, float)) else "cost n/a"
-            state = d.get("state", "done")
-            chip = {"done": "ok", "running": "warn", "failed": "crit"}.get(state, "muted")
-            rep = d.get("report_rel")
-            link = (f' <a class="actbtn alink" href="{esc((Path(ROOT) / rep).as_uri())}"'
-                    f' data-repo="/repo/{esc(rep)}">report ↗</a>') if rep else ""
-            runs.append(f'<div class="routine"><span class="dot {chip}"></span>'
-                        f'<span class="rn">{esc(d.get("card_id"))}</span>'
-                        f'<span class="rs">{esc(d.get("model", ""))} · {esc(d.get("effort", ""))}'
-                        f' · {esc(cost_s)}</span>'
-                        f'<span class="rt">{esc(str(d.get("ended") or d.get("started") or "")[5:16])}</span>{link}</div>')
-    except Exception:
-        pass
+    for d in receipts[:3]:
+        cost = d.get("total_cost_usd")
+        cost_s = f"${cost:.2f}" if isinstance(cost, (int, float)) else "cost n/a"
+        state = d.get("state", "done")
+        stalled = state == "running" and _receipt_age_min(d) >= 35
+        chip = ("muted" if stalled
+                else {"done": "ok", "running": "warn", "failed": "crit"}.get(state, "muted"))
+        label = "stalled" if stalled else state
+        rep = d.get("report_rel")
+        link = (f' <a class="actbtn alink" href="{esc((Path(ROOT) / rep).as_uri())}"'
+                f' data-repo="/repo/{esc(rep)}">report ↗</a>') if rep else ""
+        runs.append(f'<div class="routine"><span class="dot {chip}" title="{esc(label)}"></span>'
+                    f'<span class="rn">{esc(d.get("card_id"))}</span>'
+                    f'<span class="rs">{esc(d.get("model", ""))} · {esc(d.get("effort", ""))}'
+                    f' · {esc(cost_s)}</span>'
+                    f'<span class="rt">{esc(str(d.get("ended") or d.get("started") or "")[5:16])}</span>{link}</div>')
     runs_html = (f'<div class="deckruns"><span class="m">last runs · measured cost</span>'
                  f'{"".join(runs)}</div>') if runs else ""
     return "".join(cards) + runs_html
@@ -532,9 +594,10 @@ h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(
 .col { display:flex; flex-direction:column; gap:16px; min-width:0; }
 @media (max-width:1100px) { .cockpit { grid-template-columns:1fr; } .stagewrap { order:-1; } }
 .widget { position:relative; }
-.widget .grip { position:absolute; top:14px; right:14px; cursor:grab; color:var(--line); font-size:11px;
-  user-select:none; letter-spacing:2px; }
-.widget .grip:hover { color:var(--accent); }
+.widget .grip { position:absolute; top:14px; right:14px; cursor:grab; color:var(--muted); font-size:11px;
+  user-select:none; letter-spacing:2px; opacity:0; transition:opacity .15s; }
+.widget:hover .grip { opacity:.7; }
+.widget .grip:hover { color:var(--accent); opacity:1; }
 .widget.dragging { opacity:.4; }
 .widget .wbody { max-height:420px; overflow:auto; resize:vertical; }
 /* stage — the second-brain portal + artifacts ring */
@@ -547,12 +610,26 @@ h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(
 .portal .pcap { position:absolute; left:50%; bottom:12%; transform:translateX(-50%); font-family:var(--mono);
   font-size:8.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
 .portal:hover .pcap { color:var(--accent); }
-.ringnode { position:absolute; transform:translate(-50%,-50%); width:34px; height:34px; border-radius:50%;
+.ringnode { position:absolute; transform:translate(-50%,-50%); width:36px; height:36px; border-radius:50%;
   border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center;
-  text-decoration:none; font-size:13px; transition:transform .12s ease, border-color .12s ease, opacity .2s; }
+  text-decoration:none; font-size:13px; overflow:hidden; cursor:pointer;
+  transition:transform .12s ease, border-color .12s ease, opacity .2s;
+  animation:ringin .4s ease both; }
+@keyframes ringin { from { opacity:0; transform:translate(-50%,-50%) scale(.4); }
+  to { opacity:1; transform:translate(-50%,-50%) scale(1); } }
+@media (prefers-reduced-motion: reduce) { .ringnode { animation:none; } }
+.ringnode img { width:100%; height:100%; object-fit:cover; display:block; }
 .ringnode:hover { transform:translate(-50%,-50%) scale(1.35); border-color:var(--accent); z-index:5; }
 .ringnode.dim { opacity:.18; }
-.ringnode.hit { border-color:var(--accent); }
+.ringnode.hit { border-color:var(--accent); box-shadow:0 0 0 2px var(--panel), 0 0 0 3px var(--accent); }
+/* ring popover — the click target every node deserves */
+#ringpop { position:absolute; z-index:20; width:250px; background:var(--panel); border:1px solid var(--accent);
+  border-radius:8px; padding:12px 14px; display:none; }
+#ringpop.show { display:block; }
+#ringpop h4 { font-size:12.5px; font-weight:700; margin:0 0 2px; line-height:1.35; }
+#ringpop .pk { font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
+  display:block; margin-bottom:8px; }
+#ringpop .pa { display:flex; gap:6px; flex-wrap:wrap; }
 .ringbar { display:flex; gap:10px; align-items:center; width:100%; max-width:520px; }
 .ringbar input { flex:1; font-family:var(--mono); font-size:11px; letter-spacing:.06em; background:var(--panel);
   color:var(--ink); border:1px solid var(--line); border-radius:99px; padding:8px 16px; outline:none; }
@@ -574,6 +651,10 @@ h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(
 .app .ab { font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-left:auto; }
 /* routines */
 .routine { display:flex; gap:8px; align-items:baseline; border-bottom:1px solid var(--line); padding:6px 2px; }
+.routine.haslog { cursor:pointer; }
+.routine.haslog:hover .rn { color:var(--accent); }
+.routine.haslog:hover::after { content:"log ↗"; font-family:var(--mono); font-size:8px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--accent); margin-left:2px; }
 .routine:last-child { border-bottom:none; }
 .routine .dot { width:6px; height:6px; border-radius:50%; background:var(--line); flex:0 0 auto; align-self:center; }
 .routine .dot.ok { background:var(--ok); } .routine .dot.crit { background:var(--crit); } .routine .dot.muted { background:var(--line); }
@@ -624,6 +705,12 @@ h2 { font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transform
 .actbtn.ok:hover { background:var(--ok); color:var(--panel); }
 .actbtn.kill { color:var(--crit); border-color:var(--crit); }
 .actbtn.kill:hover { background:var(--crit); color:var(--panel); }
+.actbtn.warn { color:var(--warn); border-color:var(--warn); }
+.actbtn:disabled { opacity:.55; cursor:not-allowed; }
+.actbtn.dk-live { animation:pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+.tile a[data-scrollto] { cursor:pointer; }
+.tile a[data-scrollto]:hover .n { color:var(--accent); }
 .tog { cursor:pointer; user-select:none; }
 .tog::before { content:"▾ "; color:var(--accent); }
 section.closed .tog { margin-bottom:0; border-bottom:none; padding-bottom:0; }
@@ -822,16 +909,64 @@ _tick(); setInterval(_tick, 1000);
   }
   frame();
 })();
-// ── artifacts ring: search filters, Enter opens first hit ──
+// ── artifacts ring: hover caption, click popover, search filters ──
 (function () {
   const inp = document.getElementById('ringsearch');
   if (!inp) return;
   const nodes = Array.from(document.querySelectorAll('.ringnode'));
   const cap = document.getElementById('ringcap');
+  const stage = document.querySelector('.stage');
+  const pop = document.getElementById('ringpop');
+  function closePop() { pop.classList.remove('show'); }
+  function openPop(n) {
+    while (pop.firstChild) pop.removeChild(pop.firstChild);
+    const h4 = document.createElement('h4'); h4.textContent = n.dataset.title; pop.appendChild(h4);
+    const pk = document.createElement('span'); pk.className = 'pk';
+    pk.textContent = (n.dataset.kind || '') + (n.dataset.date ? ' · ' + n.dataset.date : '');
+    pop.appendChild(pk);
+    const pa = document.createElement('div'); pa.className = 'pa';
+    const open = document.createElement('a'); open.className = 'actbtn ok';
+    open.textContent = 'open ↗'; open.href = n.href;
+    if (n.dataset.kind === 'asset' || n.href.startsWith('file:')) {
+      // http pages cannot hop to file:// — reuse the OS-opener route
+      open.addEventListener('click', ev => {
+        if (!PULSE_LIVE || !open.href.startsWith('file:')) return;
+        ev.preventDefault();
+        fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                           body: JSON.stringify({ action: 'open-path', args: { uri: open.getAttribute('data-file') || open.href } }) })
+          .then(r => r.json()).then(j => _toast(j.ok ? 'opened' : 'open failed'));
+      });
+    }
+    pa.appendChild(open);
+    const cp = document.createElement('button'); cp.className = 'actbtn'; cp.textContent = 'copy path';
+    cp.addEventListener('click', () => _copy(n.dataset.relpath, 'path copied'));
+    pa.appendChild(cp);
+    if (n.dataset.resume) {
+      const rs = document.createElement('button'); rs.className = 'actbtn'; rs.textContent = 'copy /resume';
+      rs.addEventListener('click', () => _copy(n.dataset.resume));
+      pa.appendChild(rs);
+    }
+    pop.appendChild(pa);
+    const sr = stage.getBoundingClientRect();
+    const nr = n.getBoundingClientRect();
+    const cx = nr.left - sr.left + nr.width / 2;
+    const cy = nr.top - sr.top + nr.height / 2;
+    pop.classList.add('show');
+    const w = pop.offsetWidth, h = pop.offsetHeight;
+    let x = cx + (cx < sr.width / 2 ? 24 : -24 - w);
+    let y = Math.min(Math.max(cy - h / 2, 4), sr.height - h - 4);
+    pop.style.left = Math.min(Math.max(x, 4), sr.width - w - 4) + 'px';
+    pop.style.top = y + 'px';
+  }
   nodes.forEach(n => {
-    n.addEventListener('mouseenter', () => { if (cap) cap.textContent = n.title; });
+    n.addEventListener('mouseenter', () => { if (cap) cap.textContent = (n.dataset.title || '') + ' · ' + (n.dataset.date || ''); });
     n.addEventListener('mouseleave', () => { if (cap) cap.textContent = ''; });
+    n.addEventListener('click', ev => { ev.preventDefault(); openPop(n); });
   });
+  document.addEventListener('click', ev => {
+    if (!pop.contains(ev.target) && !ev.target.closest('.ringnode')) closePop();
+  });
+  addEventListener('keydown', e => { if (e.key === 'Escape') closePop(); });
   inp.addEventListener('input', () => {
     const q = inp.value.trim().toLowerCase();
     let first = null;
@@ -841,14 +976,32 @@ _tick(); setInterval(_tick, 1000);
       n.classList.toggle('hit', !!q && hit);
       if (hit && q && !first) first = n;
     });
-    if (cap) cap.textContent = first ? first.title : (q ? 'no artifact matches' : '');
+    if (cap) cap.textContent = first ? (first.dataset.title + ' — Enter opens') : (q ? 'no artifact matches' : '');
   });
   inp.addEventListener('keydown', e => {
     if (e.key !== 'Enter') return;
     const hit = nodes.find(n => n.classList.contains('hit')) || null;
-    if (hit) hit.click();
+    if (hit) openPop(hit);
   });
 })();
+// ── routines: a row with a log opens it (live) or copies the path (static) ──
+document.querySelectorAll('.routine[data-log]').forEach(r => r.addEventListener('click', () => {
+  const p = r.dataset.log;
+  if (PULSE_LIVE) {
+    fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                       body: JSON.stringify({ action: 'open-path', args: { uri: 'file://' + p } }) })
+      .then(x => x.json()).then(j => _toast(j.ok ? 'log opened' : 'open failed'))
+      .catch(() => _copy(p, 'server unreachable — path copied'));
+  } else { _copy(p, 'log path copied'); }
+}));
+// ── focus tiles that point somewhere on this page scroll there ──
+document.querySelectorAll('[data-scrollto]').forEach(a => a.addEventListener('click', ev => {
+  ev.preventDefault();
+  const t = document.getElementById(a.dataset.scrollto);
+  if (!t) return;
+  t.classList.remove('closed');
+  t.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}));
 // ── widget layout: drag to reorder within a column; order persists locally ──
 (function () {
   const KEY = 'hb_layout_v2';
@@ -991,8 +1144,8 @@ def main():
 
     tiles_html = f"""<div class="tiles">
   <div class="tile"><a href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
-  <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
-  <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
+  <div class="tile"><a data-scrollto="w-needs" title="jump to the flagged missions"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></a></div>
+  <div class="tile"><a data-scrollto="outcomes-sec" title="open the outcomes-due list"><div class="n">{due_count}</div><div class="l">outcomes due</div></a></div>
   <div class="tile"><a href="{esc(room_uri)}" data-route="/room"><div class="n">{brief_total}</div><div class="l">briefs in the room</div></a></div>
   <div class="tile"><a href="{esc(board_uri)}" data-route="/assets"><div class="n">{asset_total}</div><div class="l">assets on the board</div></a></div>
   <div class="tile"><div class="n">{esc(threads_promoted)}</div><div class="l">threads promoted</div></div>
@@ -1036,13 +1189,14 @@ def main():
         <canvas id="portalcv"></canvas>
         <span class="pcap">open the second brain</span>
       </a>
+      <div id="ringpop"></div>
     </div>
     <div class="ringbar"><input id="ringsearch" type="search"
       placeholder="search {ring_n} artifacts on the ring…" autocomplete="off"></div>
     <div id="ringcap"></div>
   </div>
   <div class="col" id="col-right">
-    <section class="widget" data-wid="needs"><span class="grip" title="drag to reorder">⠿</span>
+    <section class="widget" data-wid="needs" id="w-needs"><span class="grip" title="drag to reorder">⠿</span>
       <h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>
       <div class="wbody">{needs_html}</div></section>
     <section class="widget" data-wid="deck"><span class="grip" title="drag to reorder">⠿</span>
@@ -1068,7 +1222,7 @@ def main():
   <div class="shelfgrid">{shelf_html}</div>
   <a class="roomlink" href="{esc(board_uri)}" data-route="/assets">open the asset board ↗</a></section>
 
-<section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
+<section class="closed" id="outcomes-sec"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
 <section class="closed"><h2 class="tog">Recently closed</h2><div class="body">{closed_html}</div></section>
 
 <footer><span>FARRICE CAIN · AGENTIC OS · HOMEBASE</span><span>@farricecain</span></footer>
