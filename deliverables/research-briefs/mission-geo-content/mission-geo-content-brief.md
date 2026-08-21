@@ -17,7 +17,7 @@ Next: Publish the proof surface and check every public link in a private browser
 ## the state, as the last session left it
 Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.
 
-Handoff written 4d ago — mostly current; skim the latest sessions below for drift.
+Handoff written 5d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 - Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.

@@ -1,6 +1,6 @@
 # PROJECTS — generated map
 
-Generated 2026-08-20 by `execution/projects_index.py`. **Do not edit manually.**
+Generated 2026-08-21 by `execution/projects_index.py`. **Do not edit manually.**
 
 Status lives in each project's own `INDEX.md` frontmatter (`status: active | parked | done`); everything else is derived from git history. A `*` means the status was derived, not declared — stamp the project's `INDEX.md` to override it. `done` is never derived.
 

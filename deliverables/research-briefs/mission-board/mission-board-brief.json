@@ -5,7 +5,7 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "237 sessions swept",
+  "sources": "238 sessions swept",
   "compiled": "aug 20, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
@@ -28,11 +28,11 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "20",
+          "value": "21",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "28",
+          "value": "27",
           "label": "FILES WRITTEN"
         },
         {
@@ -40,7 +40,7 @@
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "237",
+          "value": "238",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -243,6 +243,12 @@
       "tag": "NO LIVE THREAD",
       "items": [
         {
+          "date": "2026-08-20",
+          "title": "go",
+          "body": "Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session f",
+          "done": true
+        },
+        {
           "date": "2026-08-13",
           "title": "end-session",
           "body": "Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han",
@@ -307,12 +313,6 @@
           "title": "briefing-room",
           "body": "Integrated portable Briefing Room card routing and Jordan Crawford GTM brief packages into main with generated index replacement and live-route verification",
           "done": true
-        },
-        {
-          "date": "2026-08-09",
-          "title": "briefing-room",
-          "body": "Selective main integration completed: preserved unrelated main-tree work, integrated only the verified Briefing Room portability repair and Jordan/GTM brief pac",
-          "done": true
         }
       ]
     },
@@ -320,7 +320,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n215 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides, global org sweep.\n\n233 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n213 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, go, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides.\n\n237 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

@@ -17,7 +17,7 @@ Next: Pull the four-rung pricing ladder out of this thread and attach it to the 
 ## the state, as the last session left it
 Assessment: Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.
 
-Handoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.

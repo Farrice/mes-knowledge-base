@@ -17,7 +17,7 @@ Next: Leave this parked and touch it only when a specific sprint task hits frict
 ## the state, as the last session left it
 Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.
 
-Handoff written 0d ago — treat its plan as current.
+Handoff written 1d ago — treat its plan as current.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.

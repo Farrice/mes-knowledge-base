@@ -107,3 +107,15 @@ killed: test-kill-2 (no matching handoff thread) — server-path sabotage test
 [pulse_serve] refused sensitive path: .env
 [pulse_serve] refused cross-origin POST from http://evil.example
 [pulse_actions] kill refused: --reason is required
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 643s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 4243s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 7843s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 11444s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 15044s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 18644s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 22244s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 25844s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 29444s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 33044s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 36644s ago)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 40244s ago)

@@ -1,6 +1,6 @@
 # the board
 
-> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 237 sessions swept · compiled: aug 20, 2026
+> MISSION BOARD · ALL THREADS · window: last 14 days · lens: claude · codex · sources: 238 sessions swept · compiled: aug 20, 2026
 
 Every live thread in one place, newest first. Open the one you're resuming.
 
@@ -12,10 +12,10 @@ Each thread below has its own brief. Open the one you're resuming — it carries
 
 ## across every thread
 - LIVE THREADS: **12**
-- DELIVERABLES FINALIZED: **20**
-- FILES WRITTEN: **28**
+- DELIVERABLES FINALIZED: **21**
+- FILES WRITTEN: **27**
 - ASSETS GENERATED: **169**
-- SESSIONS SWEPT: **237**
+- SESSIONS SWEPT: **238**
 
 ## momentum
 
@@ -46,6 +46,7 @@ _weighted: deliverables ×3 + files + assets_
 - [ACTIVE] health performance ip library — deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html
 
 ## also shipped
+- 2026-08-20 · **go** — Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session f
 - 2026-08-13 · **end-session** — Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han
 - 2026-08-12 · **rescue-stalled-progress** — Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos for Katie and Josh (Carbon Torch)
 - 2026-08-12 · **build-transformation-program** — New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-mode nutrition) and Josh Titration Defense v3 (anchor-compres
@@ -57,15 +58,14 @@ _weighted: deliverables ×3 + files + assets_
 - 2026-08-11 · **zero-data-discovery** — Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explicitly excluding current locked offers as evidence
 - 2026-08-09 · **quick-concept-application** — Five radically divergent surreal poster concept directions about time, spanning typographic minimalism, cinematic simultaneity, bureaucratic satire, mythic bota
 - 2026-08-09 · **briefing-room** — Integrated portable Briefing Room card routing and Jordan Crawford GTM brief packages into main with generated index replacement and live-route verification
-- 2026-08-09 · **briefing-room** — Selective main integration completed: preserved unrelated main-tree work, integrated only the verified Briefing Room portability repair and Jordan/GTM brief pac
 
 ## what this board isn't
 _READ THE EDGES_
 Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.
 
-215 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides, global org sweep.
+213 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, go, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides.
 
-233 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
+237 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission.
 
 ## Context pack (agent feed)
 - `deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html` — related · ACTIVE

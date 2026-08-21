@@ -10,20 +10,20 @@ The offer is finished and defensible — buyer council run, make-right clause ad
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is ready. Last activity 8d ago.
+Handoff status is ready. Last activity 9d ago.
 
 Next: Send the contact kit to five named supplement or performance brands today, using the offer exactly as written.
 
 ## the state, as the last session left it
 Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.
 
-Handoff written 33d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 34d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
 1. **Send the existing contact kit to a first batch of named brands this week** — Recommended. The asset is review-hardened and paste-ready; the send is the only untested step. Costs nothing but the risk of hearing no, which is information you currently do not have.
 2. **Refresh the market pulse and re-cut the offer before sending** — Buys currency in a fast-moving category, but the offer already passed a council and another revision round is the shape of avoidance more than improvement.
-3. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+3. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
@@ -59,7 +59,7 @@ RESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **8 d**
+- DAYS ACTIVE: **9 d**
 
 ## momentum
 

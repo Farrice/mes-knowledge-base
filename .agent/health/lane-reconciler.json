@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-21T04:16:23.510122+00:00",
+  "ts": "2026-08-21T15:18:27.280950+00:00",
   "dry_run": false,
-  "lanes": 24,
-  "merged": 3,
-  "torn_down": 1,
-  "parked": 5,
-  "live": 15,
-  "stranded_commits": 28,
+  "lanes": 23,
+  "merged": 0,
+  "torn_down": 2,
+  "parked": 4,
+  "live": 17,
+  "stranded_commits": 33,
   "results": [
     {
       "branch": "worktree-cash-paths-research",
@@ -16,15 +16,6 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "6 uncommitted file(s) \u2014 a session is still working here"
-    },
-    {
-      "branch": "worktree-guides-empty-slug-fix",
-      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/guides-empty-slug-fix",
-      "commits_ahead": 1,
-      "dirty_files": 0,
-      "conflicts": [],
-      "action": "merged",
-      "detail": "LANE MERGED: worktree-guides-empty-slug-fix -> main (1 commits, 3 files)"
     },
     {
       "branch": "claude/vigilant-leakey-5f6293",
@@ -38,13 +29,11 @@
     {
       "branch": "worktree-vosler-7fig-extract",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vosler-7fig-extract",
-      "commits_ahead": 3,
-      "dirty_files": 0,
-      "conflicts": [
-        "SLASH_COMMANDS.md"
-      ],
-      "action": "parked-conflict",
-      "detail": "1 file(s) collide \u2014 needs resolution"
+      "commits_ahead": 7,
+      "dirty_files": 1,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "1 uncommitted file(s) \u2014 a session is still working here"
     },
     {
       "branch": "claude/zen-curran-72d8e2",
@@ -135,16 +124,25 @@
       "dirty_files": 0,
       "conflicts": [],
       "action": "torn-down",
-      "detail": "LANE PARKED: ? \u2014 merge refused: merge: ? - not something we can merge. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
+      "detail": "LANE PARKED: ? \u2014 main tree dirty (39 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
     },
     {
-      "branch": "codex/linkedin-pmf-caleb-recovery",
-      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-pmf-caleb-recovery",
+      "branch": "codex/linkedin-pmf-closeout",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-pmf-closeout",
       "commits_ahead": 1,
+      "dirty_files": 65,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "65 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/linkedin-pmf-end-session",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-pmf-end-session",
+      "commits_ahead": 0,
       "dirty_files": 0,
       "conflicts": [],
-      "action": "merged",
-      "detail": "LANE MERGED: codex/linkedin-pmf-caleb-recovery -> main (1 commits, 2 files)"
+      "action": "torn-down",
+      "detail": "LANE PARKED: ? \u2014 main tree dirty (39 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
     },
     {
       "branch": "codex/mert-consultancy-spine",
@@ -204,15 +202,6 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "7 uncommitted file(s) \u2014 a session is still working here"
-    },
-    {
-      "branch": "codex/watch-video-notion-repair",
-      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/watch-video-notion-repair",
-      "commits_ahead": 1,
-      "dirty_files": 0,
-      "conflicts": [],
-      "action": "merged",
-      "detail": "LANE MERGED: codex/watch-video-notion-repair -> main (1 commits, 7 files)"
     },
     {
       "branch": "codex/weekly-revenue-closeout",

@@ -1,6 +1,6 @@
 # Linkedin — Execution Checklist
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 5 sessions · 0 files · 8 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 8 assets · compiled: aug 20, 2026
 
 Everything is written. The only thing missing is the part where a stranger reads it.
 
@@ -8,16 +8,16 @@ Everything is written. The only thing missing is the part where a stranger reads
 _CURRENT POSITION_
 This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.
 
-Stage: build — files are moving; nothing finalized. In the last 14 days: 5 sessions, 8 assets generated.
+Stage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 8 assets generated.
 
-Handoff status is active. Last activity 2d ago.
+Handoff status is active. Last activity today.
 
 Next: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else.
 
 ## the state, as the last session left it
 Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.
 
-Handoff written 12d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -59,7 +59,7 @@ RESUME HERE: Linkedin — Execution Checklist
 
 ## by the numbers
 - ASSETS GENERATED: **8**
-- SESSIONS: **5** (codex)
+- SESSIONS: **6** (codex)
 - DAYS ACTIVE: **13 d**
 
 ## momentum
@@ -80,6 +80,7 @@ RESUME HERE: Linkedin — Execution Checklist
 - **2026-07-13-stanton-linkedin-launch.md** [GUIDE] `guides/2026-07-13-stanton-linkedin-launch.md`
 
 ## how it got here
+- 2026-08-21 · **codex session** — Revenue: LinkedIn PMF Signal Lane - Built and Verified
 - 2026-08-18 · **codex session** — Revenue: LinkedIn PMF Signal Lane - Caleb Deployment
 - 2026-08-17 · **codex session** — Research: Recent LinkedIn Offers - Corrected PMF Verdict
 - 2026-08-17 · **codex session** — Research: LinkedIn AI Health Offers - PMF Verdict
