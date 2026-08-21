@@ -364,7 +364,7 @@
 
 
 ## Pending enrichment
-- [2026-08-20 — System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-.md) — session-brief stub, needs enrichment
+- [2026-08-20 — System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-system-opus-5-gap-diagnosis-resolved-defaults-installed.md) — session-brief stub, needs enrichment
 - [2026-08-17 — Proposed Diffs](2026-08-17-.md) — operator-guide stub, needs enrichment
 - [2026-08-16 — Revenue: Claim Check Funnel - Ready to Launch](2026-08-16-geo-content.md) — operator-guide stub, needs enrichment
 - [2026-08-16 — Knowledge — Latest Exec Cut](2026-08-16-.md) — operator-guide stub, needs enrichment

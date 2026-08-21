@@ -1,6 +1,6 @@
 ---
 date: 2026-08-20
-session: 
+session: system-opus-5-gap-diagnosis-resolved-defaults-installed
 tier: session-brief
 status: stub  # written deterministically by end_session_closeout.py — ENRICH to the
               # docs/ROOT-CORE-OPERATOR-GUIDE.md format, then set status: enriched

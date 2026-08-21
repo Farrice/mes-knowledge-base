@@ -672,7 +672,14 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
     when NOT to / worked examples / honest edges) and updates guides/INDEX.md."""
     try:
         today = datetime.now().date().isoformat()
-        guide_path = GUIDES_DIR / f"{today}-{slug}.md"
+        content = ctx.get("content") or {}
+        # Empty slug must never produce a blank filename (guides/YYYY-MM-DD-.md):
+        # fall back to the stub's title, then to a fixed sentinel.
+        safe_slug = re.sub(r"[^a-z0-9]+", "-", (slug or "").lower()).strip("-")
+        if not safe_slug:
+            title_src = (content.get("title") or "").lower()
+            safe_slug = re.sub(r"[^a-z0-9]+", "-", title_src)[:60].strip("-") or "unnamed-session"
+        guide_path = GUIDES_DIR / f"{today}-{safe_slug}.md"
         rel = guide_path.relative_to(ROOT)
         if guide_path.exists():
             if "status: stub" in guide_path.read_text(encoding="utf-8"):
@@ -694,7 +701,6 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
         except Exception as e:
             degrade.degraded(None, "operator_guide_sync check failed — guide tier may downgrade to brief", e)
 
-        content = ctx.get("content") or {}
         if not assets and not content:
             return "SKIP", "conversational session — no guide or brief needed"
 
@@ -703,14 +709,14 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
             return "OK", f"[dry-run] would write {tier} stub → {rel}"
 
         GUIDES_DIR.mkdir(exist_ok=True)
-        title = content.get("title") or slug.replace("-", " ").title()
+        title = content.get("title") or safe_slug.replace("-", " ").title()
         completed = content.get("completed") or ""
         remaining = content.get("remaining") or ""
         asset_lines = "\n".join(f"- `{a}`" for a in assets[:40]) or "- (none detected)"
         stub = (
             f"---\n"
             f"date: {today}\n"
-            f"session: {slug}\n"
+            f"session: {safe_slug}\n"
             f"tier: {tier}\n"
             f"status: stub  # written deterministically by end_session_closeout.py — ENRICH to the\n"
             f"              # docs/ROOT-CORE-OPERATOR-GUIDE.md format, then set status: enriched\n"
