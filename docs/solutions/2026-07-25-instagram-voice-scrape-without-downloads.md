@@ -2,6 +2,7 @@
 date: 2026-07-25
 session: jen-listings
 problem_class: scraping / voice-extraction / blocked-pipeline
+problem_signature: "a client's real voice lives in Instagram posts but every download path is blocked — yt-dlp returns an empty media response anonymously, --cookies-from-browser hangs on Chrome's locked cookie DB, and /watch reports needs_key, so the obvious url-to-transcript pipeline dead-ends at both stages"
 tags: [instagram, playwright, voice-profile, watch, yt-dlp, client-voice]
 ---
 

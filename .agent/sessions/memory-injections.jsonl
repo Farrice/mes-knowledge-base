@@ -1,0 +1,9 @@
+{"ts": "2026-08-21T10:58:40", "ids": ["571144b5"], "session": "test-integration", "prompt_head": "set up a nightly launchd job for the session harvest pipeline"}
+{"ts": "2026-08-21T10:58:52", "ids": ["615d017e", "6d6f23a9"], "session": "test-integration2", "prompt_head": "why does the worktree lane merge back to main automatically at end of session"}
+{"ts": "2026-08-21T10:58:53", "ids": ["b763d6c1", "lesson-fe9e0006"], "session": "test-integration2", "prompt_head": "draft linkedin outreach dms for the supplement offer campaign"}
+{"ts": "2026-08-21T10:59:12", "ids": ["615d017e"], "session": "test-int3", "prompt_head": "why does the worktree lane merge back to main automatically at end of session"}
+{"ts": "2026-08-21T10:59:13", "ids": ["b763d6c1", "lesson-fe9e0006"], "session": "test-int3", "prompt_head": "draft linkedin outreach dms for the supplement offer campaign"}
+{"ts": "2026-08-21T10:59:50", "ids": ["b763d6c1", "lesson-fe9e0006"], "session": "test-int4", "prompt_head": "draft linkedin outreach dms for the supplement offer campaign"}
+{"ts": "2026-08-21T10:59:50", "ids": ["615d017e"], "session": "test-int4", "prompt_head": "what should jen do about sharing her professional network"}
+{"ts": "2026-08-21T10:59:51", "ids": ["lesson-90d846b5", "lesson-6a5ac87b"], "session": "test-int4", "prompt_head": "write a linkedin post about my offer for supplement brands"}
+{"ts": "2026-08-21T10:59:51", "ids": ["b7b1711a", "d6ef0daa"], "session": "test-int4", "prompt_head": "draft the substack edition on parallax voice"}

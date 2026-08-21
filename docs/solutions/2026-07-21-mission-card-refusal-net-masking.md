@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: ladder-audit harness build
+name: mission-card-refusal-net-masking
+problem_class: harness / mission runner / refusal net
+domain: harness
+status: proven
+problem_signature: "a generated mission card gets parked by the runner's refusal net because the real user data it quotes contains words like publish, send, post, or deploy, even though the card itself only asks for drafts"
+tags: [mission-runner, refusal-net, masking, generators, cards]
+---
 # Mission cards quoting real data can trip the runner's refusal net — mask display text, join by stable keys
 
 **Date**: 2026-07-21 · **Session**: ladder-audit harness build · **Domain**: system / mission-runner

@@ -42,6 +42,11 @@ CHILDREN = [
      "python3 execution/voice_ratchet.py nudge"),
     ("library", [PY, str(ROOT / "execution" / "work_catalog.py"), "nudge"],
      "http://127.0.0.1:8765/library"),
+    # Second-brain read path (2026-08-21): the one line that keeps memory
+    # health visible — before this, the review-queue alarm lived only in a
+    # launchd log and went unseen 26 straight days.
+    ("memory", [PY, str(ROOT / "execution" / "memory_pulse.py")],
+     "python3 execution/memory_pulse.py --full"),
 ]
 
 MAX_LINE = 160

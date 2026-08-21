@@ -172,6 +172,29 @@ def _log_thought_backstop(now: str) -> None:
               f"rest already in inbox)")
 
 
+def _log_operator_ledger(now: str) -> None:
+    """Operator Lesson sink (2026-08-21) — same backstop logic as the thought bank.
+
+    Every shipped exchange is supposed to close with one `Operator Lesson:` line
+    (`directives/steering-loop.md`); thousands were written and none were ever kept.
+    `operator_ledger.py daily` re-scans the last 48h of episodic exchanges, dedupes
+    against the ledger, and mirrors new lessons into sovereign.db. Best-effort:
+    a failure here must never take the harvest down. `intelligence_layer.py regen`
+    rebuilds the derived surfaces — only called when that file actually exists.
+    """
+    try:
+        rc = run([PY, str(ROOT / "execution" / "operator_ledger.py"), "daily"], timeout=600)
+        status = "ok" if rc == 0 else f"deferred(rc={rc})"
+        regen = "skipped(absent)"
+        intel = ROOT / "execution" / "intelligence_layer.py"
+        if intel.exists():
+            rc2 = run([PY, str(intel), "regen"], timeout=900)
+            regen = "ok" if rc2 == 0 else f"deferred(rc={rc2})"
+        print(f"[{now}] operator-ledger daily: {status} · intelligence regen: {regen}")
+    except Exception as e:
+        print(f"[{now}] operator-ledger daily FAILED (non-fatal): {e}")
+
+
 def main() -> int:
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     before, total = coverage()
@@ -179,6 +202,7 @@ def main() -> int:
     # Thought-bank backstop runs every invocation, independent of embed/distill
     # coverage state — it's the physical guarantee, not an optimization path.
     _log_thought_backstop(now)
+    _log_operator_ledger(now)
 
     if before >= total:
         # 1-second no-op path: everything embedded; nothing to do unless new rows appear.

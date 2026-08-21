@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sqlite3
 import sys
 from datetime import datetime, timedelta, timezone
@@ -62,13 +63,76 @@ def get_one(fid: str) -> Optional[dict]:
     return dict(row) if row else None
 
 
-def approve(fid: str, pin: bool = True) -> dict:
+AUDIT_PATH = DB_PATH.parent / "review-audit.jsonl"
+BULK_WINDOW_SECONDS = 60
+BULK_MAX_APPROVALS = 10
+
+
+def _audit(action: str, fid: str, **extra) -> None:
+    """Append-only authorship trail for every gate decision (2026-08-21 scar:
+    41 pending proposals were approved in one anonymous sub-second burst and
+    NOTHING recorded which process did it — the gate had no attribution).
+    Best-effort; never blocks the review itself."""
+    try:
+        with open(AUDIT_PATH, "a", encoding="utf-8") as fh:
+            fh.write(json.dumps({
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "action": action,
+                "fid": fid,
+                "pid": os.getpid(),
+                "ppid": os.getppid(),
+                "cwd": os.getcwd(),
+                "argv": sys.argv[:6],
+                **extra,
+            }) + "\n")
+    except Exception:
+        pass
+
+
+def _bulk_guard(bulk_ok: bool) -> None:
+    """Tree-interlock class (protects the STORE, never judges the work):
+    more than BULK_MAX_APPROVALS approvals inside BULK_WINDOW_SECONDS is a
+    script, not a human review — refuse unless the caller explicitly passed
+    --bulk-ok (which is itself audited). A considered mass-approval stays
+    one flag away; an anonymous loop stops at the wall."""
+    if bulk_ok:
+        return
+    try:
+        cutoff = datetime.now(timezone.utc).timestamp() - BULK_WINDOW_SECONDS
+        recent = 0
+        with open(AUDIT_PATH, encoding="utf-8") as fh:
+            for ln in fh:
+                try:
+                    rec = json.loads(ln)
+                except json.JSONDecodeError:
+                    continue
+                if rec.get("action") != "approve":
+                    continue
+                try:
+                    ts = datetime.fromisoformat(rec["ts"]).timestamp()
+                except Exception:
+                    continue
+                if ts >= cutoff:
+                    recent += 1
+        if recent >= BULK_MAX_APPROVALS:
+            raise SystemExit(
+                f"BULK GUARD: {recent} approvals in the last {BULK_WINDOW_SECONDS}s — "
+                f"this looks like a script, not a review. Re-run with --bulk-ok if "
+                f"this mass-approval is deliberate (the flag is audited)."
+            )
+    except FileNotFoundError:
+        pass
+
+
+def approve(fid: str, pin: bool = True, bulk_ok: bool = False) -> dict:
     """Promote a flagged_review row into the semantic memory tier."""
     fr = get_one(fid)
     if not fr:
         raise SystemExit(f"Not found: {fid}")
     if fr["status"] != "pending":
         raise SystemExit(f"Already {fr['status']}: {fid} (reviewed {fr.get('reviewed_at')})")
+    _bulk_guard(bulk_ok)
+    _audit("approve", fid, judge_score=fr.get("judge_score"), bulk_ok=bulk_ok)
 
     metadata = {}
     if fr.get("proposed_metadata"):
@@ -197,6 +261,7 @@ def reject(fid: str, reason: Optional[str] = None) -> dict:
     if fr["status"] != "pending":
         raise SystemExit(f"Already {fr['status']}: {fid}")
 
+    _audit("reject", fid, reason=reason)
     now = datetime.now(timezone.utc).isoformat()
     conn = sqlite3.connect(str(DB_PATH))
     conn.execute("""
@@ -284,6 +349,8 @@ def main() -> int:
 
     p_approve = sub.add_parser("approve", help="Promote to semantic memory")
     p_approve.add_argument("id")
+    p_approve.add_argument("--bulk-ok", action="store_true",
+                           help="Deliberate mass-approval: bypass the rate guard (audited)")
     p_approve.add_argument("--no-pin", action="store_true",
                           help="Don't pin the promoted memory (default: pin)")
 
@@ -321,7 +388,7 @@ def main() -> int:
         return 0
 
     if args.command == "approve":
-        result = approve(args.id, pin=not args.no_pin)
+        result = approve(args.id, pin=not args.no_pin, bulk_ok=args.bulk_ok)
         print(f"✓ Approved {result['flagged_id']} → memory {result['memory_id']} "
               f"(pinned: {result['pinned']})")
         return 0

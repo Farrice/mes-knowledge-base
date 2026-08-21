@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: signal-pilot channel pressure test
+name: two-gate-dispatch-channel-not-lane
+problem_class: outreach / channel vs lane misdiagnosis
+domain: clients
+status: proven
+problem_signature: "nobody is answering the outreach and it reads as the wrong niche or the wrong lane, when the prospects are simply dormant on the channel being used — a dead-channel problem wearing a dead-lane costume, often with the pitch delivered into the very channel it criticizes"
+tags: [outreach, linkedin, channel, pricing, prospecting, buyer-panel]
+---
 # Solution Card — Two-Gate Dispatch: reachability is a channel variable, not a lane variable
 
 **Date:** 2026-07-21 (night — third adversarial pass of the day)

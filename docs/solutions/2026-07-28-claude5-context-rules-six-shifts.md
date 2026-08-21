@@ -1,3 +1,13 @@
+---
+date: 2026-07-28
+session: claude5 context rules vet
+name: claude5-context-rules-six-shifts
+problem_class: harness / context engineering / doctrine
+domain: harness
+status: proven
+problem_signature: "the constitution and directives are heavy with hard rules, examples, and the same instruction restated across three surfaces, and it is unclear what a Claude-5-generation model actually needs kept versus cut"
+tags: [context-engineering, claude-5, claude-md, doctrine, diet, claim-vet]
+---
 # Solution Card — Claude-5 Context Rules: the Six Shifts (+ vetted video commentary)
 
 **Date**: 2026-07-28 · **Type**: harness doctrine · **Status**: ACTIVE — this card is the rubric for the canonical-file diet

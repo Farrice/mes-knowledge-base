@@ -50,6 +50,7 @@ HOMEBASE = os.path.join(ROOT, ".agent", "homebase", "homebase.html")
 ASSETS = os.path.join(ROOT, ".agent", "assets", "assets-board.html")
 LIBRARY = os.path.join(ROOT, ".agent", "catalog", "library.html")
 BRAIN = os.path.join(ROOT, ".agent", "brain", "brain.html")
+INTEL = os.path.join(ROOT, "_active", "farrice-brand", "intelligence", "index.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
@@ -87,7 +88,8 @@ def regen(which="pulse"):
     script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
               "oracle": "oracle_dashboard.py", "homebase": "homebase_board.py",
               "assets": "asset_gallery.py", "library": "catalog_board.py",
-              "missions": "mission_board.py", "brain": "brain_graph.py"}.get(
+              "missions": "mission_board.py", "brain": "brain_graph.py",
+              "intelligence": "intelligence_layer.py"}.get(
                   which, "pulse_dashboard.py")
     # brain rebuilds only when its source fingerprint changed — O(1) when fresh
     extra = ["--if-stale"] if which == "brain" else []
@@ -288,7 +290,8 @@ class Handler(BaseHTTPRequestHandler):
                                         "homebase_mtime": _mtime(HOMEBASE),
                                         "assets_mtime": _mtime(ASSETS),
                                         "library_mtime": _mtime(LIBRARY),
-                                        "brain_mtime": _mtime(BRAIN)}), "application/json")
+                                        "brain_mtime": _mtime(BRAIN),
+                                        "intel_mtime": _mtime(INTEL)}), "application/json")
             return
         if route.startswith("/repo/"):
             self._serve_repo(route)
@@ -308,6 +311,9 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/brain"):
             self._serve_board("brain", BRAIN, "second brain")
             return
+        if route.startswith("/intelligence"):
+            self._serve_board("intelligence", INTEL, "intelligence layer")
+            return
         if route.startswith(("/pulse", "/missions")):
             # Retired surfaces (two-surfaces collapse, 2026-08-20). Muscle
             # memory and old links land on the Homebase instead of a 404.
@@ -319,7 +325,7 @@ class Handler(BaseHTTPRequestHandler):
         if route in HOME_PATHS:
             self._serve_board("homebase", HOMEBASE, "homebase")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /brain · /room · /library · /assets · /oracle · /repo/<path>",
+        self._send(404, f"no route: {route}\n\ntry / · /brain · /intelligence · /room · /library · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):

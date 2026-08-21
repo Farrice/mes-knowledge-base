@@ -1124,6 +1124,7 @@ def main():
 
     resume_html = resume_strip()
     library_uri = Path(ROOT, ".agent", "catalog", "library.html").as_uri()
+    intel_uri = Path(ROOT, "_active", "farrice-brand", "intelligence", "index.html").as_uri()
 
     # --- LAUNCH ---
     launch_html = launch_cards(sweep)
@@ -1218,6 +1219,10 @@ def main():
 <section><h2>Fresh intel — newest briefs</h2><div class="intelgrid">{briefs_html}</div>
   <a class="roomlink" href="{esc(room_uri)}" data-route="/room">open the briefing room ↗</a>
   <a class="roomlink" href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}">mission board ↗</a></section>
+<section><h2>Intelligence Layer — your accumulated operating intelligence</h2>
+  <div class="empty">Every learning the system has banked — sovereign memory, the operator
+  ledger, solved problems — one searchable page, arena by arena.</div>
+  <a class="roomlink" href="{esc(intel_uri)}" data-route="/intelligence">open the intelligence layer ↗</a></section>
 <section class="shelf"><h2>Asset shelf — newest generations</h2>
   <div class="shelfgrid">{shelf_html}</div>
   <a class="roomlink" href="{esc(board_uri)}" data-route="/assets">open the asset board ↗</a></section>
