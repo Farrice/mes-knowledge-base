@@ -639,6 +639,18 @@ def sec_caveats(t, bundle, synth, narr=None):
     else:
         lines.append("No handoff exists for this thread — everything above is mechanically "
                      "collected, and nothing here is interpretation.")
+    # Judged-prose age: a failed nightly judge keeps the last valid synthesis
+    # (restore-not-discard, 2026-08-20). Honesty requires the reader know when
+    # the analysis trails the facts.
+    try:
+        rec = load(ROOT / ".agent" / "sweep" / "synthesis-receipt.json", {})
+        age = days_since(rec.get("generated"))
+        if age is not None and age >= 3:
+            lines.append(f"The judged analysis above is {age} days old — the numbers, paths and "
+                         "timeline are current, but the assessment may trail them. It refreshes "
+                         "on the next successful nightly synthesis.")
+    except Exception:
+        pass
     lines.append("Session ledgers keep only the last 10 files per session and are pruned at 7 days, "
                  "so file counts are a floor, not a census. Sweeps persist their own record, so "
                  "anything already swept is kept.")

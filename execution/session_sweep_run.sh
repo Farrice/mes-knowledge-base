@@ -1,23 +1,19 @@
 #!/bin/zsh
-# Nightly mission sweep — 02:45 local (2026-08-07).
+# Nightly mission sweep — 02:45 local (2026-08-07; librarian chain 2026-08-20).
 #
-# Deterministic collect (session_sweep.py) → facts-only briefs (mission_brief.py)
-# → headless claude synthesis into the NAMED SLOTS ONLY → rebuild with meaning
-# → Briefing Room index. Invocation pattern mirrors execution/zeitgeist_run.sh.
-#
-# The two-pass shape is deliberate: briefs exist on disk after pass 1 even if the
-# synthesis never runs, so a failed or skipped judge degrades to a facts-only
-# board rather than to nothing.
+# Deterministic collect (session_sweep.py, which chains the catalog merge) →
+# facts-only briefs → judged passes via brief_synthesis.py (analyst slots +
+# librarian triage; validated FAIL-CLOSED, previous synthesis restored on any
+# failure — never silently discarded, the pre-2026-08-20 script moved it aside
+# nightly which is why judged prose never survived) → rebuild with meaning →
+# regenerate every surface (Room index, Homebase, Library).
 #
 # Called by ~/Library/LaunchAgents/com.antigravity.session-sweep.plist
 set -u
 REPO="/Users/farricecain/Google Antigravity"
 LOG="$REPO/.agent/sweep/session-sweep.log"
 RECEIPT="$REPO/.agent/health/session-sweep.json"
-CLAUDE="${CLAUDE_BIN:-/Users/farricecain/.npm-global/bin/claude}"
 SYNTH="$REPO/.agent/sweep/synthesis.json"
-SYNTH_PREV="$REPO/.tmp/mission-brief-synthesis.previous.json"
-SYNTH_INVALID="$REPO/.tmp/mission-brief-synthesis.invalid.json"
 cd "$REPO" || exit 1
 mkdir -p "$REPO/.agent/sweep" "$REPO/.agent/health" "$REPO/.tmp"
 echo "=== $(date '+%F %T') mission sweep start ===" >> "$LOG"
@@ -27,83 +23,52 @@ CLAIM=$(python3 execution/session_lock.py claim "nightly mission sweep" 2>&1)
 echo "$CLAIM" >> "$LOG"
 if [[ "$CLAIM" != *"claimed:"* ]]; then
   echo "lock blocked — skipping tonight's sweep (one writer per tree)" >> "$LOG"
-  # Still print a line: launchd's log mtime is the ONLY liveness evidence
-  # detect_dead_launchd() reads, and a silent skip reads as a dead job.
   python3 -c "import json,datetime;print(json.dumps({'session_sweep':datetime.datetime.now().isoformat(),'status':'skipped','reason':'session lock held'}))"
   exit 0
 fi
 TOKEN=$(echo "$CLAIM" | sed -n 's/.*claimed: \([a-z0-9]*\).*/\1/p')
 
-# 1) Deterministic collect. Writes .agent/sweep/sweep-<date>.json + latest.json.
-SWEEP_OUT=$(python3 execution/session_sweep.py run --days 14 2>&1)
-echo "$SWEEP_OUT" >> "$LOG"
+# 1) Deterministic collect (also folds the census into the permanent catalog).
+python3 execution/session_sweep.py run --days 14 >> "$LOG" 2>&1
 
-# 2) Facts-only briefs. Every number/path/date is filled here and is now immutable.
+# 2) Facts-only briefs — every number/path/date filled here, immutable.
 python3 execution/mission_brief.py build --all --no-index >> "$LOG" 2>&1
 
-# 3) Synthesis — the ONLY step allowed to write prose, and only into named slots.
-#    Move yesterday's prose out of the live path first. A failed judge must render
-#    facts-only briefs, never silently reuse stale interpretation against new facts.
-RC=0
-if [[ -f "$SYNTH" ]]; then
-  mv "$SYNTH" "$SYNTH_PREV"
-fi
-if [[ -x "$CLAUDE" ]]; then
-  "$CLAUDE" -p "Run the nightly mission-brief synthesis.
+# 3) Judged passes — analyst slots + librarian triage. brief_synthesis.py owns
+#    the whole contract: batched claude -p, canonical validation, per-entry
+#    pruning, and RESTORE-previous on failure. An expired CLI degrades to the
+#    last valid synthesis (age is surfaced on the briefs), never to nothing.
+python3 execution/brief_synthesis.py run >> "$LOG" 2>&1
+RC=$?
+python3 execution/brief_synthesis.py triage >> "$LOG" 2>&1 || true
 
-1. Read .agent/sweep/latest.json — this is the FACT BUNDLE for every live thread.
-2. Run: python3 execution/mission_brief.py slots — it prints the exact contract.
-3. Write .agent/sweep/synthesis.json mapping each thread slug (plus 'mission-board')
-   to ONLY these keys: lede, next_move, why, caveats, operator_read.
-
-HARD RULES:
-- Never state a number, path, date, count or filename. Those are already rendered
-  from the bundle; restating one is how a synthesis pass introduces an error.
-- 'lede' is 1-2 sentences on where the thread actually stands. Plain language.
-- 'next_move' is one imperative sentence — the single next action.
-- If a thread's records do not support a confident read, write a shorter honest
-  lede. Do not speculate about intent or invent progress.
-- Threads with no real signal: omit them from the file entirely.
-
-No Chain, no finalize, no Notion, no Next Moves, no subagents — write only that one JSON file.
-Write the file before replying. After the write, reply with only: done" \
-    --permission-mode acceptEdits >> "$LOG" 2>&1
-  RC=$?
-  if [[ $RC -eq 0 ]]; then
-    python3 execution/mission_brief.py validate-synthesis >> "$LOG" 2>&1
-    RC=$?
-  fi
-  if [[ $RC -ne 0 && -f "$SYNTH" ]]; then
-    mv "$SYNTH" "$SYNTH_INVALID"
-  fi
-else
-  echo "claude CLI not found at $CLAUDE — facts-only board (synthesis skipped)" >> "$LOG"
-  RC=2
-fi
-
-# 4) Rebuild with whatever synthesis landed, then refresh the Room index.
+# 4) Rebuild with whatever synthesis stands, then every surface.
 python3 execution/mission_brief.py build --all >> "$LOG" 2>&1
+python3 execution/homebase_board.py >> "$LOG" 2>&1 || true
+python3 execution/catalog_board.py >> "$LOG" 2>&1 || true
 
 python3 execution/session_lock.py release "$TOKEN" >> "$LOG" 2>&1 || true
 
-# 5) Receipt — the JSON file downstream reads, AND a stdout line so the launchd
-#    log mtime moves. A job with a receipt but no stdout still reads as dead.
+# 5) Receipt + stdout line (launchd log mtime is the liveness evidence).
 python3 - "$RC" "$SYNTH" <<'PY' | tee -a "$LOG"
 import json, sys, datetime
 from pathlib import Path
 rc, synth = int(sys.argv[1]), Path(sys.argv[2])
-bundle = {}
+bundle, receipt = {}, {}
 try:
     bundle = json.loads(Path(".agent/sweep/latest.json").read_text())
 except Exception:
     pass
-valid_synthesis = rc == 0 and synth.exists()
+try:
+    receipt = json.loads(Path(".agent/sweep/synthesis-receipt.json").read_text())
+except Exception:
+    pass
 rec = {
     "session_sweep": datetime.datetime.now().isoformat(),
-    "status": "ok" if rc == 0 else "synthesis_failed",
+    "status": "ok" if rc == 0 else "synthesis_degraded",
     "synthesis_rc": rc,
-    "synthesized": valid_synthesis,
-    "synthesis_valid": valid_synthesis,
+    "synthesized": synth.exists(),
+    "synthesis_generated": receipt.get("generated"),
     "counts": bundle.get("counts", {}),
     "degraded": bundle.get("degraded", []),
 }

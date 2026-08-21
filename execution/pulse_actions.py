@@ -220,12 +220,14 @@ def act_refresh():
     signal that the data is actually fresh. Synchronous and honest here; the
     server wraps this CLI in a detached Popen so the button returns instantly."""
     steps = [
-        ("session sweep", ["session_sweep.py", "run"], 600),
+        ("session sweep", ["session_sweep.py", "run"], 600),      # chains catalog merge
         ("asset index", ["asset_index.py"], 300),
         ("analyst synthesis", ["brief_synthesis.py", "run"], 660),
+        ("librarian triage", ["brief_synthesis.py", "triage"], 660),
         ("mission briefs", ["mission_brief.py", "build", "--quiet"], 300),
-        ("work catalog", ["work_catalog.py", "merge"], 120),
+        ("work catalog", ["work_catalog.py", "merge"], 120),       # picks up new brief links
         ("homebase", ["homebase_board.py"], 90),
+        ("library", ["catalog_board.py"], 90),
     ]
     all_ok = True
     for label, cmd, timeout in steps:
