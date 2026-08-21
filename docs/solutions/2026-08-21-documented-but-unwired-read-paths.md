@@ -2,6 +2,8 @@
 date: 2026-08-21
 session: second-brain-awakening
 problem_class: harness / memory / retrieval-dormancy
+domain: harness
+status: proven
 problem_signature: "a memory or knowledge store writes perfectly on launchd schedule yet 'feels dormant' — its retrieval side exists only as a markdown instruction ('always run memory_facade first'), so it fires at model discretion under 5% of prompts while every hook-wired injection path fires on all of them"
 tags: [memory, hooks, second-brain, retrieval, sovereign-db, session-brief, dormancy]
 ---
