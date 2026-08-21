@@ -120,3 +120,28 @@ Until then: Playwright covers ~95% of the live-web work agents need; reach for i
 | "Post this to LinkedIn" | Playwright (Tier 2 — confirmation required per safety protocol) |
 | "Navigate this dashboard and extract metrics" | Playwright multi-step |
 | "Synthesize competitor positioning from public content" | Gemini Deep Research + Playwright for verbatim quotes |
+
+---
+
+## Surface Registry (machine copy)
+
+This directive is the prose canon; `execution/surface_router.py` is its queryable copy. Ask it before reaching for a tool on a named surface — `python3 execution/surface_router.py route "<surface or url>"` returns the ordered tool chain with per-hop cost, the known failure that wall-blocks the light tool, the escalation, the linked solution card, and the live Apify budget state (green/yellow/red, read from `.agent/apify-usage.json`). `list` prints every registered surface; `inventory` dumps the full registry. Apify hops resolve actor IDs and pricing by importing `ACTORS` from `execution/apify_client.py` at runtime — that file stays the single source of truth for actors, and no actor ID is ever copied into the registry. An unregistered surface returns an honest `status: no_route_known` / `fallback: true` envelope with the alternative "write a mining brief naming the surface; check `docs/solutions/`; consider WebSearch first" — it never guesses a route. **Registry and directive are updated together**: a new wall discovered in the field belongs in both, same commit.
+
+---
+
+## Known Walls (verified)
+
+Surfaces where the obvious light tool is blocked. Each row is a wall someone already paid for once.
+
+| Surface | Wall (verified) | Escalation | Solution card |
+|---|---|---|---|
+| **Reddit** (threads/comments) | WebFetch and the Claude-browser MCP are **blocked** (bot wall / 403); raw HTTP to `.json` is blocked too | Playwright `navigate` → in-page `fetch('<thread>/.json?limit=500')` → walk the comment tree. Verified live 2026-08-21, $0 | [`docs/solutions/2026-08-21-reddit-json-via-playwright-in-page-fetch.md`](../docs/solutions/2026-08-21-reddit-json-via-playwright-in-page-fetch.md) |
+| **X / Twitter** (public post) | WebFetch on any `x.com` URL → **HTTP 402, always**; Playwright on the *profile* → login skeleton, infinite spinner | WebSearch for the status URL → Playwright on the **status page** (renders logged-out) → Apify `twitter` actor at scale | [`docs/solutions/2026-07-21-x-corpus-via-playwright-public-snapshot.md`](../docs/solutions/2026-07-21-x-corpus-via-playwright-public-snapshot.md) |
+| **LinkedIn** (posts) | Authwall on feed, profile, and ~50% of post permalinks; logged-out Playwright usually hits the same wall | `site:linkedin.com/posts/<handle>` → WebFetch each permalink with an "if authwall, say AUTHWALL" prompt (~1-in-2 render) → on AUTHWALL try the **next** permalink → Apify `linkedin-posts` / `-post-reactions` / `-post-comments` for structured pulls | [`docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md`](../docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md) |
+| **Instagram** (reels/posts) | **Downloads blocked** — yt-dlp anonymous returns an empty media response; `--cookies-from-browser chrome` *hangs* while Chrome runs (not transient, don't retry) | Never chase the download. Captions via same-origin `fetch()` + `og:description` meta tag; frames via canvas seek-capture. Private accounts → declare unavailable | [`docs/solutions/2026-07-25-instagram-voice-scrape-without-downloads.md`](../docs/solutions/2026-07-25-instagram-voice-scrape-without-downloads.md) |
+| **Meta Ad Library** | Raw HTTP → **403 bot-blocked**; and there is **no longevity sort** — no likes/views/spend/ROI for commercial ads | Read-only Playwright (`execution/ad_spy.py`). Infer longevity from "Started running on" + active status, computed client-side. Leave Views/Likes/Comments **blank** — never fabricate | [`docs/solutions/2026-07-24-replicate-creator-tool-stack-at-zero-cost.md`](../docs/solutions/2026-07-24-replicate-creator-tool-stack-at-zero-cost.md) |
+| **Amazon reviews** | Full review list is **login-walled** to fetchers (sign-in interstitial / captcha); logged-out Playwright sees only the few reviews on the PDP | Apify `amazon` actor. If it is unregistered or the budget is red, **declare the surface unavailable** — never paraphrase reviews from memory or a search snippet | — |
+| **Amazon bestseller lists** | WebFetch often returns a truncated shell | Playwright DOM read — bestseller lists are server-rendered and **not** login-walled. Don't escalate to Apify for one list | — |
+| **True SPA** (dashboard, app interior) | WebFetch returns the **empty shell**, and a summary written from that shell is a hallucination | Playwright `navigate` + `wait_for` hydration + `evaluate`. Never summarize a shell | — |
+
+**One failed hop max** — light tool first is correct, but after ONE wall, escalate via the registry; never retry the same wall. Two WebFetch attempts at the same authwall is not persistence, it's the failure mode this table exists to end. (The mirror error is over-escalation: SSR marketing sites *do* answer WebFetch — escalate on evidence of emptiness, never on the framework name.)

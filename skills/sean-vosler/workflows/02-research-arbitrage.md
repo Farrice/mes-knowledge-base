@@ -18,6 +18,7 @@ The market has already voted on this language. Every method here rides an existi
 - `skills/sean-vosler/genius.md` — always. Patterns 1 (Research Arbitrage First) and 11 (Annotate-in-Place); Hidden Knowledge items 1 (sort-order) and 2 (same surface, stacked methods).
 - `references/frameworks.md` §1 (6-Step Forming Headlines, master formula, sub-title mining, headline function checklist, 32-prompt Imitation Game), §2 (Community Arbitrage 5-step, bullet formula, Advertising Anatomy + 30-question checklist), §8 (Gold Ring 5-stage pipeline), §11 word banks.
 - Bank shipping into Farrice-voiced copy? Load `_active/farrice-brand/voice/VOICE-CARD.md` as a **layer** at the assembly step only — never during mining. Mined language is evidence; voice-fitting it too early destroys the provenance.
+- **Before fetching any surface, get its route**: `python3 execution/surface_router.py route "<surface>"` — prints the working tool chain, cost, known walls, and escalation (e.g., Reddit = Playwright + in-page `.json` fetch; WebFetch is blocked there). One failed hop max; escalate via the registry, never retry the same wall. Miners' dispatch briefs carry the printed route per surface.
 
 ## Execution
 

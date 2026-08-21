@@ -1134,8 +1134,10 @@ BINDINGS = [
             "Social/audience/trend listening now routes to the on-demand Free-First "
             "Research Mission under /deep-research-os: native web and opened public "
             "sources first, bounded basic Tavily Search/Extract for gaps, and public "
-            "RSS/Atom where useful. No Apify actor, paid synthesis provider, recurring "
-            "schedule, or subagent may run. Platform-private or inaccessible evidence "
+            "RSS/Atom where useful. Escalation follows the cheapest-first ladder "
+            "(live-data-grounding-protocol.md): free floor first, then ONE bounded cheap "
+            "Apify pull per apify-usage-policy.md; recurring schedules and unbounded paid "
+            "synthesis stay off. Platform-private or inaccessible evidence "
             "stays an explicit EVIDENCE GAP instead of being invented or bypassed."
         ),
     },
@@ -1166,8 +1168,9 @@ BINDINGS = [
             "Free-First Research Mission. Codex native web search and opened pages lead; "
             "basic-depth Tavily Search/Extract and public RSS are bounded gap-fill legs. "
             "Local context can shape interpretation but cannot prove current world state. "
-            "Apify, paid accelerators, Tavily Research, schedules, and real subagents are "
-            "blocked unless a separate explicit authorization selects another mode."
+            "Escalation beyond the free floor follows the cheapest-first ladder (one "
+            "bounded cheap Apify pull per apify-usage-policy.md); Tavily Research, "
+            "schedules, and paid depth modes need explicit authorization."
         ),
     },
     {
