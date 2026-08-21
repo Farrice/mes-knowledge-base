@@ -75,7 +75,10 @@ MAX_CARDS = 12   # front-door ceiling; the overflow is named, never silently dro
 INTERNAL_WRITE = re.compile(r"/\.(agent|claude|tmp|memory)/|\.json$|\.jsonl$|/memory/")
 
 # Handoff statuses that mean the thread is still live.
-LIVE_STATUS = {"active", "blocked", "ready", "mid-build"}
+# "parked" stays live-visible on purpose (2026-08-20): a parked thread must
+# remain resumable from the boards — muted and never urgent, but never hidden.
+# Hidden is what "killed" means.
+LIVE_STATUS = {"active", "blocked", "ready", "mid-build", "parked"}
 OPEN_MISSION = {"compiled", "running"}
 
 # Branch decorations that are lane plumbing, not thread identity.
@@ -388,6 +391,10 @@ def collect_deliverables(since):
             "score": rec.get("quality_score"),
             "status": rec.get("status") or "",
             "expert": rec.get("agent") or "",
+            # notes is the finalize record's actual narrative ("what worked /
+            # didn't / verification") — dropping it was why mission briefs
+            # showed a workflow name where the story belonged (2026-08-20).
+            "notes": (rec.get("notes") or "")[:300],
             "platform": "codex" if "platform: codex" in (rec.get("notes") or "") else "claude",
         })
     return out
@@ -439,6 +446,10 @@ def collect_missions():
             "tier": m.get("tier") or "",
             "ts": iso(ts) if ts else "",
             "open": m.get("status") in OPEN_MISSION,
+            # outcome/verdict are the ledger's one-line prose about how the
+            # mission actually ended — briefs render them (2026-08-20).
+            "outcome": (m.get("outcome") or "")[:240],
+            "verdict": m.get("verdict") or "",
         })
     return out
 
@@ -718,7 +729,14 @@ def sweep(days=DEFAULT_DAYS, since=None):
         # they never mint one. Without this split, every generated image and
         # every write into a shared output folder became its own "mission"
         # (254 of 467 keys promoted on the first run).
-        t["promoted"] = bool(t["declares"]) and key != "unattributed"
+        # KILLED = dead + hidden (Farrice's ruling 2026-08-20): a thread with a
+        # killed mission and nothing still open never promotes, whatever else
+        # declares it — kill's archive step can fail, and the ledger must win.
+        # (Latest state per mission key; an open sibling mission keeps it alive.)
+        killed = (any(m.get("status") == "killed" for m in t["missions"])
+                  and not any(m.get("open") for m in t["missions"]))
+        t["killed"] = killed
+        t["promoted"] = bool(t["declares"]) and key != "unattributed" and not killed
         t["stage"] = infer_stage(t)
         t["stage_index"] = STAGES.index(t["stage"])
         t["daily"] = {

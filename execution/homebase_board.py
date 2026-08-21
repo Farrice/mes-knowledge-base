@@ -66,22 +66,31 @@ def load_sweep():
 
 
 def launch_cards(sweep):
-    """Resumable work threads from the sweep bundle (promotion bar already
-    applied there — activity never mints a card). Pinned first, then status."""
+    """THE thread card (2026-08-20 collapse): the one merged shape that
+    replaced Pulse's thread_cards and Mission Control's card. Shows the
+    why-needs-you fact, stage, idle recency; acts with resume / brief /
+    context / done / park / kill. Pinned first, then needs-you rank, then
+    idle; parked sinks."""
     if not sweep:
         return degraded_html(
             "launch zone unavailable — .agent/sweep/latest.json unreadable; "
             "run python3 execution/session_sweep.py run", None)
-    threads = list((sweep.get("threads") or {}).values())
-    rank = {"blocked": 0, "mid-build": 1, "active": 2, "ready": 3}
-    threads.sort(key=lambda t: (0 if t.get("pin") else 1,
-                                rank.get(t.get("status"), 2)))
+    import mission_board as mb
+    wdays = (sweep.get("window") or {}).get("days", 14)
+    rank = {"blocked": 0, "mid-build": 1, "active": 2, "ready": 3, "parked": 9}
+    threads = list((sweep.get("threads") or {}).items())
+    threads.sort(key=lambda kv: (0 if kv[1].get("pin") else 1,
+                                 rank.get(kv[1].get("status"), 2),
+                                 -mb.idle_days(kv[1], wdays)))
     cards = []
-    for t in threads[:12]:
-        slug = t.get("slug") or "?"
+    for slug, t in threads[:12]:
         pin = " 📌" if t.get("pin") else ""
         scls = {"blocked": "crit", "mid-build": "warn", "ready": "ok",
-                "active": "ok"}.get(t.get("status"), "muted")
+                "active": "ok", "parked": "muted"}.get(t.get("status"), "muted")
+        stage = (f'<span class="pill muted">{esc(t.get("stage"))}</span>'
+                 if t.get("stage") else "")
+        _, why = mb.why_needs_you(t, wdays)
+        why_html = f'<p class="last">⚑ {esc(why)}</p>' if why else ""
         hint = t.get("resume_hint") or ""
         hint_html = (f'<p class="last">↪ {esc(hint[:150])}</p>'
                      if hint and hint != t.get("title") else "")
@@ -94,23 +103,35 @@ def launch_cards(sweep):
             made.append(f'{len(t["assets"])} asset(s)')
         if t.get("sessions"):
             made.append(f'{len(t["sessions"])} session(s)')
-        open_btn = ""
-        handoff = t.get("handoff")
-        if handoff:
-            try:
-                open_btn = (f'<a class="actbtn alink" href='
-                            f'"{esc((Path(ROOT) / handoff).as_uri())}">open handoff</a>')
-            except Exception:
-                open_btn = ""
+        idle = mb.days_since(t.get("last_active"))
+        when = ("today" if (idle is not None and idle <= 0)
+                else (f"last {idle}d ago" if idle is not None else "no activity in window"))
+        brief_rel = f"deliverables/research-briefs/mission-{slug}/mission-{slug}-brief.html"
+        brief_btn = ""
+        if os.path.isfile(os.path.join(ROOT, brief_rel)):
+            brief_btn = (f'<a class="actbtn alink" href="{esc((Path(ROOT) / brief_rel).as_uri())}"'
+                         f' data-repo="/repo/{esc(brief_rel)}">open brief ↗</a>')
+        open_mission = next((m for m in t.get("missions", []) if m.get("open")), None)
+        mission_btns = ""
+        if open_mission:
+            mslug = esc(open_mission.get("slug") or slug)
+            mission_btns = (
+                f'<button class="actbtn ok" type="button" data-action="done" data-slug="{mslug}">✓ done</button>'
+                f'<button class="actbtn" type="button" data-action="park" data-slug="{mslug}">park</button>')
+        kill_btn = (f'<button class="actbtn kill" type="button" data-action="kill" '
+                    f'data-slug="{esc(slug)}">kill</button>')
+        ctx_btn = (f'<button class="copybtn" type="button" '
+                   f'data-copy="{esc(mb.context_pack(slug, t))}">copy context</button>')
         cards.append(
             f'<div class="mcard">'
             f'<div class="row1"><h3>{esc(str(t.get("title") or slug)[:120])}{pin}</h3>'
-            f'<span class="pill {scls}">{esc(t.get("status"))}</span></div>'
-            f'{hint_html}{unf}'
-            f'<div class="meta"><span class="m">{esc(" · ".join(made))}</span>'
+            f'<span class="pill {scls}">{esc(t.get("status"))}</span>{stage}</div>'
+            f'{why_html}{hint_html}{unf}'
+            f'<div class="meta"><span class="m">{esc(" · ".join(made) or "quiet")}</span>'
+            f'<span class="m">{esc(when)}</span>'
             f'<span class="acts">'
             f'<button class="copybtn" type="button" data-copy="/resume {esc(slug)}">copy /resume</button>'
-            f'{open_btn}</span></div></div>')
+            f'{ctx_btn}{brief_btn}{mission_btns}{kill_btn}</span></div></div>')
     return "".join(cards) or '<div class="empty">no promoted threads in the sweep window</div>'
 
 
@@ -209,7 +230,10 @@ def main():
     needs_html = ("".join(pd.mission_card(m, names, show_actions=True) for m in needs_you)
                   or '<div class="empty">nothing flagged — clean</div>')
 
-    _, due_count = pd.outcomes_due_cards()
+    outcomes_html, due_count = pd.outcomes_due_cards()
+    recent_done = [m for m in latest.values() if m.get("status") == "done"][-6:][::-1]
+    closed_html = ("".join(pd.mission_card(m, names, show_verdict=True, show_reopen=True)
+                   for m in recent_done) or '<div class="empty">none yet</div>')
 
     sprint_html = ""
     if sprint:
@@ -238,7 +262,8 @@ def main():
 
     room_uri = Path(ROOT, "deliverables", "research-briefs", "index.html").as_uri()
     board_uri = Path(ROOT, ".agent", "assets", "assets-board.html").as_uri()
-    missions_uri = Path(ROOT, ".agent", "missions", "mission-control.html").as_uri()
+    board_brief = "deliverables/research-briefs/mission-board/mission-board-brief.html"
+    missions_uri = Path(ROOT, board_brief).as_uri()
 
     body = f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -314,6 +339,19 @@ h2 {{ font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transfor
 .copybtn:hover, .actbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
 .actbtn.ok {{ color:var(--ok); border-color:var(--ok); }}
 .actbtn.ok:hover {{ background:var(--ok); color:var(--panel); }}
+.actbtn.kill {{ color:var(--crit); border-color:var(--crit); }}
+.actbtn.kill:hover {{ background:var(--crit); color:var(--panel); }}
+.tog {{ cursor:pointer; user-select:none; }}
+.tog::before {{ content:"▾ "; color:var(--accent); }}
+section.closed .tog {{ margin-bottom:0; border-bottom:none; padding-bottom:0; }}
+section.closed .tog::before {{ content:"▸ "; }}
+section.closed .body {{ display:none; }}
+.oform {{ display:none; gap:8px; margin-top:10px; flex-wrap:wrap; }}
+.oform.show {{ display:flex; }}
+.oform input {{ font-family:var(--mono); font-size:11px; background:var(--panel); color:var(--ink);
+  border:1px solid var(--line); border-radius:4px; padding:6px 9px; }}
+.oform .o-rev {{ width:120px; }}
+.oform .o-out {{ flex:1; min-width:200px; }}
 .livechip {{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; padding:2px 8px;
   border-radius:3px; font-weight:700; }}
 .intelgrid {{ display:flex; flex-direction:column; gap:8px; }}
@@ -359,7 +397,7 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="zone">Focus</div>
 {sprint_html}
 <div class="tiles">
-  <div class="tile"><a href="{esc(missions_uri)}" data-route="/missions"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
+  <div class="tile"><a href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
   <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
   <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
   <div class="tile"><a href="{esc(room_uri)}" data-route="/room"><div class="n">{brief_total}</div><div class="l">briefs in the room</div></a></div>
@@ -374,11 +412,14 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <div class="zone">Library</div>
 <section><h2>Fresh intel — newest briefs</h2><div class="intelgrid">{briefs_html}</div>
   <a class="roomlink" href="{esc(room_uri)}" data-route="/room">open the briefing room ↗</a>
-  <a class="roomlink" href="{esc(missions_uri)}" data-route="/missions">mission control ↗</a></section>
+  <a class="roomlink" href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}">mission board ↗</a></section>
 <section class="shelf"><h2>Asset shelf — newest generations</h2>
   <div class="shelfgrid">{shelf_html}</div>
   <a class="roomlink" href="{esc(board_uri)}" data-route="/assets">open the asset board ↗</a></section>
 <section><h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span></section>
+
+<section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
+<section class="closed"><h2 class="tog">Recently closed</h2><div class="body">{closed_html}</div></section>
 
 <footer><span>ANTIGRAVITY HOMEBASE</span><span>@farricecain</span></footer>
 </div>
@@ -392,6 +433,7 @@ if (PULSE_LIVE) {{
   lc.classList.remove('muted'); lc.classList.add('ok');
 }}
 if (PULSE_LIVE) document.querySelectorAll('a[data-route]').forEach(a => {{ a.href = a.dataset.route; }});
+if (PULSE_LIVE) document.querySelectorAll('a[data-repo]').forEach(a => {{ a.href = a.dataset.repo; }});
 // dual-mode media: live pages load thumbs over /repo/, file:// pages from disk
 document.querySelectorAll('img[data-rel]').forEach(img => {{
   img.src = PULSE_LIVE ? '/repo/' + img.dataset.rel : REPO_ROOT_URI + '/' + img.dataset.rel;
@@ -417,6 +459,11 @@ function _cli(action, args) {{
   if (action === 'done') return base + 'done ' + _sq(args.slug) + ' --outcome ' + _sq(args.outcome || '');
   if (action === 'park') return base + 'park ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
   if (action === 'refresh') return base + 'refresh';
+  if (action === 'kill') return base + 'kill ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
+  if (action === 'reopen') return base + 'reopen ' + _sq(args.slug);
+  if (action === 'outcome') return base + 'outcome ' + _sq(args.deliverable) + ' --revenue ' + (args.revenue || 0) + ' --outcome ' + _sq(args.outcome || '');
+  if (action === 'outcome-snooze') return base + 'outcome-snooze ' + _sq(args.deliverable);
+  if (action === 'outcome-dismiss') return base + 'outcome-dismiss ' + _sq(args.deliverable);
   return base;
 }}
 function doAction(action, args) {{
@@ -441,16 +488,38 @@ document.querySelectorAll('.actbtn[data-action]').forEach(b => b.addEventListene
     const reason = prompt('Park reason (one line):');
     if (reason === null) return;
     doAction('park', {{ slug: b.dataset.slug, reason }});
+  }} else if (act === 'kill') {{
+    if (!confirm('Kill this thread? It disappears from every board (ledger-recoverable).')) return;
+    const reason = prompt('Kill reason (required):');
+    if (!reason) return;
+    doAction('kill', {{ slug: b.dataset.slug, reason }});
+  }} else if (act === 'reopen') {{
+    doAction('reopen', {{ slug: b.dataset.slug }});
+  }} else if (act === 'outcome') {{
+    b.closest('.mcard').querySelector('.oform').classList.toggle('show');
+  }} else if (act === 'outcome-snooze') {{
+    doAction('outcome-snooze', {{ deliverable: b.closest('.mcard').dataset.deliverable }});
+  }} else if (act === 'outcome-dismiss') {{
+    if (confirm('Mark as no-outcome-expected? (writes archived-no-data)'))
+      doAction('outcome-dismiss', {{ deliverable: b.closest('.mcard').dataset.deliverable }});
   }} else if (act === 'refresh') {{
     doAction('refresh', {{}});
   }}
 }}));
+document.querySelectorAll('.o-save').forEach(b => b.addEventListener('click', () => {{
+  const card = b.closest('.mcard');
+  doAction('outcome', {{ deliverable: card.dataset.deliverable,
+                        revenue: parseFloat(card.querySelector('.o-rev').value) || 0,
+                        outcome: card.querySelector('.o-out').value || '' }});
+}}));
+document.querySelectorAll('.tog').forEach(h => h.addEventListener('click', () =>
+  h.closest('section').classList.toggle('closed')));
 document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {{
   if (b.dataset.copy !== undefined) _copy(b.dataset.copy);
 }}));
 if (PULSE_LIVE) {{
   // http pages cannot navigate to file:// — route those clicks through the server's OS opener.
-  document.querySelectorAll('a[href^="file:"]:not([data-route])').forEach(a => a.addEventListener('click', ev => {{
+  document.querySelectorAll('a[href^="file:"]:not([data-route]):not([data-repo])').forEach(a => a.addEventListener('click', ev => {{
     ev.preventDefault();
     fetch('/action', {{ method: 'POST', headers: {{ 'Content-Type': 'application/json' }},
                        body: JSON.stringify({{ action: 'open-path', args: {{ uri: a.href }} }}) }})

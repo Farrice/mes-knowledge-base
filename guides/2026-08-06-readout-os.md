@@ -11,9 +11,11 @@ status: enriched
 
 ## ⚡ If you only read 10 lines
 
-- **`open "http://127.0.0.1:8765/"` — THE HOMEBASE (added 2026-08-20): the hub. Focus (sprint, tiles, needs-you) · Launch (resumable threads) · Library (briefs + asset shelf). Server is always-on via launchd; `↻ refresh data` re-sweeps on demand. Spec: `.agent/workflows/homebase.md`.**
+- **`open "http://127.0.0.1:8765/"` — THE HOMEBASE (2026-08-20): the ONE place to act. Focus (sprint, tiles, needs-you) · Launch (merged thread cards: why-needs-you, resume/context/brief/done/park/KILL) · Library (briefs + asset shelf) · collapsed Outcomes-due + Recently-closed. Always-on via launchd; `↻ refresh data` re-sweeps + rebuilds briefs on demand. Spec: `.agent/workflows/homebase.md`.**
+- **TWO-SURFACES COLLAPSE (Farrice's ruling 2026-08-20): Homebase = ACT, Briefing Room = READ. Pulse + Mission Control retired as pages (`/pulse`, `/missions` → 302 to `/`); their generators live on as libraries/CLI (`pulse_dashboard.py --open` still feeds hooks).**
+- **DEEP MISSION PAGES (2026-08-20): every mission brief now mines its thread's handoff BODY (Purpose / Current State / Exact Next Prompt / risks), the finalize notes, mission outcomes + verdicts, asset prompts, the signed contract, and renders the context pack on-page — with LIVE resume/park/kill buttons when served. `kill` = dead + hidden (new verb, `pulse_actions.py kill <slug> --reason`); parking no longer ranks a thread urgent.**
 - `/briefing-room` — open the library (uses the live server when running, static file otherwise).
-- `python3 execution/pulse_serve.py --open` — live boards: `/` = Homebase hub, `/pulse` = Pulse console, `/room` = Briefing Room, `/missions`, `/assets` (new), `/oracle`; buttons WRITE (done/park/reopen, log outcome, archive, refresh). Nav between boards stays live (surface_nav route rewrite, 2026-08-20).
+- `python3 execution/pulse_serve.py --open` — live boards: `/` = Homebase, `/room` = Briefing Room, `/assets`, `/oracle`; buttons WRITE (done/park/kill/reopen, log outcome, archive, refresh). Nav between boards stays live (surface_nav route rewrite).
 - Any brief render = complete package automatically: HTML + `.md` mirror + `-context.json` pack + room index refresh. No route can miss it.
 - Doctrine line: reusable deliverables (research · ICP · extraction · client · receipts) default to briefs; conversation stays conversation; markdown stays first-class.
 - Card copy grammar: `path` = for file-access tools (Codex/Claude Code); `copy brief` = full inline paste for any chat AI.

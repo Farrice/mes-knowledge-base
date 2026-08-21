@@ -30,10 +30,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 # key -> (label, target path). ORDER IS THE DISPLAY ORDER.
+# 2026-08-20 COLLAPSE (Farrice's two-surfaces ruling): Pulse and Mission
+# Control retired as pages — Homebase is the one place to ACT, the Briefing
+# Room the one place to READ. Their generators live on as libraries/CLI;
+# /pulse and /missions redirect to / in pulse_serve.
 HOME_BASES = {
     "homebase": ("🏠 homebase",      ROOT / ".agent" / "homebase" / "homebase.html"),
-    "pulse":   ("⚡ pulse",         ROOT / ".agent" / "pulse" / "pulse-board.html"),
-    "missions": ("🎯 mission control", ROOT / ".agent" / "missions" / "mission-control.html"),
     "briefs":  ("📋 briefing room",  ROOT / "deliverables" / "research-briefs" / "index.html"),
     "assets":  ("🎨 asset board",    ROOT / ".agent" / "assets" / "assets-board.html"),
     "oracle":  ("🔮 oracle",         ROOT / ".agent" / "oracle" / "oracle-dashboard.html"),
@@ -47,8 +49,6 @@ HOME_BASES = {
 # http pages, so navigation between home bases stays inside the live server.
 ROUTES = {
     "homebase": "/",
-    "pulse": "/pulse",
-    "missions": "/missions",
     "briefs": "/room",
     "assets": "/assets",
     "oracle": "/oracle",
@@ -113,9 +113,10 @@ def self_test() -> int:
     check("marker attribute present", 'data-surface-nav="1"' in h)
     check("all bases linked", all(k in ("docs",) or HOME_BASES[k][0].split(" ", 1)[1] in h
                                   for k in HOME_BASES))
-    check("current renders unlinked", '<span class="here">' in nav_html(current="pulse"))
+    check("current renders unlinked", '<span class="here">' in nav_html(current="homebase"))
     check("current is not also a link",
-          nav_html(current="pulse").count("pulse-board.html") == 0)
+          nav_html(current="homebase").count("homebase.html") == 0)
+    check("retired surfaces are gone", "pulse" not in HOME_BASES and "missions" not in HOME_BASES)
     # every target must exist on disk — a nav to a missing board is a dead channel
     missing = [k for k, _, p in links() if not p.exists()]
     check(f"every target exists on disk (missing: {missing})", not missing)

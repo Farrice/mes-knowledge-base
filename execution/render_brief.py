@@ -275,10 +275,22 @@ def render_playbook(num, s):
                        + "".join(f"<span>{esc(_rel_display(t))}</span>" for t in p["touches"])
                        + "</div>")
         receipt = f'<div class="receipt"><b>receipt</b>{esc(p.get("receipt"))}</div>' if p.get("receipt") else ""
+        # Optional live action (2026-08-20): {"name", "slug", "ask", "confirm"?}
+        # renders a button that POSTs to the pulse server when the page is
+        # served, and falls back to copying the CLI on a static page. Hidden in
+        # SHARE renders — an outward page must never carry write affordances.
+        act = ""
+        a = p.get("action")
+        if a and not SHARE:
+            act = ('<button class="livebtn" type="button"'
+                   f' data-action="{esc(a.get("name"))}" data-slug="{esc(a.get("slug"))}"'
+                   f' data-ask="{esc(a.get("ask") or "")}"'
+                   + (f' data-confirm="{esc(a["confirm"])}"' if a.get("confirm") else "")
+                   + f'>{esc(a.get("name"))} now</button>')
         plays.append(
             '<div class="play"><div class="head">'
             f'<span class="n">{i:02d}</span><h3>{esc(p.get("title"))}</h3>'
-            '<button class="copybtn" type="button">copy</button></div>'
+            f'{act}<button class="copybtn" type="button">copy</button></div>'
             f'<div class="body">{intent}<pre>{esc(p.get("command"))}</pre>{touches}{receipt}</div></div>'
         )
     return (f'<section class="blk" id="{anchor(s["heading"])}">{sec_head(num, s["heading"], s.get("tag") or "RUN THIS")}'

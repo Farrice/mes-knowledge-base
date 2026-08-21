@@ -171,8 +171,88 @@ def initiative_front_door(t):
     return ""
 
 
+# ── handoff narrative mining (2026-08-20) ───────────────────────────
+# The handoff BODY is the judged prose this brief was starving without: it was
+# written by the session that did the work, at close, with full context. Only
+# resume_hint/unfinished ever reached a card before. The parsers live in
+# handoff_store (written for verify_handoff, unused by any surface until now).
+
+_H_PURPOSE = re.compile(r"(?im)^##+\s+purpose\s*$")
+_H_STATE = re.compile(r"(?im)^##+\s+current state\s*$")
+_H_NEXT_PROMPT = re.compile(r"(?im)^##+\s+exact next prompt\s*$")
+_H_RISKS = re.compile(r"(?im)^##+\s+risk(?:\s+notes?)?\s*$")
+_STUB_MARK = "Auto-pinned by the Stop-hook backstop"
+
+
+def _clip(text, cap):
+    """Trim to cap at a line boundary, then normalize for the prose renderer:
+    strip markdown bold, and promote bullet lines to their own paragraphs
+    (paragraphs() splits on blank lines only — single newlines collapse)."""
+    text = (text or "").strip()
+    if len(text) > cap:
+        cut = text[:cap].rsplit("\n", 1)[0].rstrip()
+        text = (cut or text[:cap]).rstrip() + "\n\n[…trimmed — full text in the handoff]"
+    text = text.replace("**", "")
+    # Inline-bold headings ("**Remaining priority:** text") leave a leading
+    # colon behind once the bold marks are stripped.
+    text = text.lstrip(":").strip()
+    return re.sub(r"\n(?=\s*[-*•\d])", "\n\n", text)
+
+
+def handoff_narrative(t):
+    """Mined sections from the thread's handoff body. Empty dict when the
+    handoff is missing or a Stop-hook stub — sections must degrade honestly,
+    never fabricate narrative the session didn't write."""
+    if not t.get("handoff"):
+        return {}
+    try:
+        raw = (ROOT / t["handoff"]).read_text(encoding="utf-8")
+    except OSError:
+        return {}
+    body = raw.split("---", 2)[-1] if raw.startswith("---") else raw
+    if _STUB_MARK in body or len(body.strip()) < 300:
+        return {"stub": True}
+    import handoff_store as hs
+    out = {
+        "purpose": _clip(hs._section_body(body, _H_PURPOSE), 900),
+        "state": _clip(hs._section_body(body, _H_STATE), 2200),
+        "remaining": _clip(hs._section_body(body, hs.REMAINING_SECTION), 700),
+        "do_not_rebuild": _clip(hs._section_body(body, hs.DO_NOT_REBUILD_SECTION), 700),
+        "risks": _clip(hs._section_body(body, _H_RISKS), 700),
+    }
+    m = _H_NEXT_PROMPT.search(body)
+    if m:
+        tail = body[m.end():]
+        fence = re.search(r"```(?:\w*\n)?(.*?)```", tail, re.DOTALL)
+        if fence:
+            out["next_prompt"] = fence.group(1).strip()[:1500]
+    return {k: v for k, v in out.items() if v}
+
+
+def load_contract(slug):
+    """The signed mission contract, when one exists — felt standard, route,
+    verdict. Written at /go preflight; never surfaced anywhere until now."""
+    return load(ROOT / ".agent" / "missions" / slug / "contract.json", {}) or {}
+
+
+def staleness_line(t):
+    """The drift warning cmd_resume prints to a terminal, brought to the page.
+    The handoff's date leads its filename (YYYY-MM-DD-<slug>.md)."""
+    name = Path(t.get("handoff") or "").name
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", name)
+    age = days_since(m.group(1)) if m else None
+    if age is None:
+        return ""
+    if age <= 2:
+        return f"Handoff written {age}d ago — treat its plan as current."
+    if age <= 7:
+        return f"Handoff written {age}d ago — mostly current; skim the latest sessions below for drift."
+    return (f"Handoff written {age}d ago — treat its plan as LIKELY, not current. "
+            f"The timeline below shows what moved since.")
+
+
 # ── section builders ────────────────────────────────────────────────
-def sec_summary(t, synth, window):
+def sec_summary(t, synth, window, narr):
     sessions, arts = len(t["sessions"]), len(t["artifacts"])
     delivs, assets = len(t["deliverables"]), len(t["assets"])
     bits = []
@@ -187,26 +267,46 @@ def sec_summary(t, synth, window):
     activity = ", ".join(bits) if bits else "no recorded activity"
 
     para = []
+    # The lede ladder: judged synthesis > the handoff's own Purpose section
+    # (written by the session that did the work) > facts-only status line.
     if synth.get("lede"):
         para.append(synth["lede"])
-    else:
-        # Facts-only default. Reads as a status line, never as analysis it
-        # hasn't earned — an unsynthesized brief must not sound synthesized.
-        para.append(
-            f"Stage: {t['stage']} — {STAGE_BLURB.get(t['stage'], '')}. "
-            f"In the last {window['days']} days: {activity}."
-        )
+    elif narr.get("purpose"):
+        para.append(narr["purpose"])
+    para.append(
+        f"Stage: {t['stage']} — {STAGE_BLURB.get(t['stage'], '')}. "
+        f"In the last {window['days']} days: {activity}."
+    )
     idle = days_since(t.get("last_active"))
-    state = f"Handoff status is **{t['status']}**." if t.get("status") else ""
+    state = f"Handoff status is {t['status']}." if t.get("status") else ""
     if idle is not None:
         state += f" Last activity {'today' if idle <= 0 else f'{idle}d ago'}."
     if state.strip():
-        para.append(state.replace("**", ""))
-    nxt = synth.get("next_move") or t.get("resume_hint")
+        para.append(state)
+    nxt = synth.get("next_move") or narr.get("remaining") or t.get("resume_hint")
     if nxt:
         para.append(f"Next: {nxt}")
     return {"kind": "summary", "heading": "where this *stands*",
             "kicker": "CURRENT POSITION", "body": "\n\n".join(p for p in para if p)}
+
+
+def sec_state(t, narr):
+    """The handoff's Current State — done / uncertain / latest proof — plus the
+    staleness warning. This is the 'simulate where we left off' block."""
+    paras = []
+    if narr.get("state"):
+        paras.append(narr["state"])
+    stale = staleness_line(t)
+    if stale:
+        paras.append(stale)
+    if narr.get("do_not_rebuild"):
+        paras.append("Do not rebuild:\n" + narr["do_not_rebuild"])
+    if narr.get("risks"):
+        paras.append("Risk notes:\n" + narr["risks"])
+    if not paras:
+        return None
+    return {"kind": "prose", "heading": "the state, as the last session *left* it",
+            "body": "\n\n".join(paras)}
 
 
 def sec_stats(t, window):
@@ -277,6 +377,9 @@ def sec_progress(t):
 
 
 def sec_decision(t, synth):
+    """Resume / park / kill, each with a fact-derived why. The standing trio is
+    always offered on a live thread — this page's job is to let Farrice decide
+    the thread's fate in one read (his ask, 2026-08-20)."""
     items = []
     whys = synth.get("why") or {}
 
@@ -292,9 +395,15 @@ def sec_decision(t, synth):
             add(f"Close or park: {m['title'][:80]}",
                 f"Open mission ({m['status']}), serves {m['serves'] or 'no stated goal'}.")
     idle = days_since(t.get("last_active"))
-    if idle is not None and idle >= 7 and not items:
-        add("Decide: resume or park",
-            f"No recorded activity in {idle} days while the handoff is still {t.get('status') or 'open'}.")
+    if t.get("status") == "parked":
+        add("Resume — or leave it parked",
+            "Parked on purpose; it will never rank as urgent. Reopening is one click below.")
+    elif idle is not None and idle >= 7 and not any(
+            it["action"].startswith(("Decide", "Resume")) for it in items):
+        add("Decide: resume, park, or kill",
+            f"No recorded activity in {idle} days while the handoff is still "
+            f"{t.get('status') or 'open'}. Park keeps it resumable and quiet; "
+            f"kill hides it for good (ledger-recoverable).")
     if not items:
         return None
     for i, it in enumerate(items):
@@ -303,6 +412,38 @@ def sec_decision(t, synth):
     return {"kind": "decision", "heading": "what needs *you*", "kicker": "OPEN",
             "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
             "items": items}
+
+
+def sec_deploy(t, narr, slug):
+    """Copy-paste blocks that pick the thread up: the handoff's own Exact Next
+    Prompt, the full context pack (previously clipboard-only), and the mission's
+    portable run packet prompt when one was compiled."""
+    blocks = []
+    if narr.get("next_prompt"):
+        blocks.append({"label": "EXACT NEXT PROMPT — from the handoff",
+                       "text": narr["next_prompt"]})
+    try:
+        import mission_board as mb
+        blocks.append({"label": "CONTEXT PACK — paste into any session",
+                       "text": mb.context_pack(slug, t)})
+    except Exception as e:
+        degraded(None, "context pack unavailable on this brief", e)
+    portable = ROOT / ".agent" / "missions" / slug / "portable.md"
+    if portable.exists():
+        try:
+            text = portable.read_text(encoding="utf-8")
+            m = re.search(r"(?im)^.*operator run prompt.*$\n(.*?)(?=\n#{1,3}\s|\Z)",
+                          text, re.DOTALL)
+            snippet = (m.group(1).strip() if m else "")[:900]
+            if snippet:
+                blocks.append({"label": "OPERATOR RUN PROMPT — from the compiled packet",
+                               "text": snippet})
+        except OSError:
+            pass
+    if not blocks:
+        return None
+    return {"kind": "deploy", "heading": "pick it up *anywhere*",
+            "tag": "COPY-PASTE", "blocks": blocks}
 
 
 def sec_assets(t):
@@ -328,9 +469,13 @@ def sec_assets(t):
               "path": a["path"]}
         if a.get("type") == "image":
             it["thumb"] = a["path"]
-        note = " · ".join(x for x in [a.get("model"), human_date(a.get("ts"))] if x)
-        if note:
-            it["note"] = note
+        # The generation prompt is WHY the asset exists — it rode the bundle
+        # unrendered until 2026-08-20.
+        bits = [x for x in [a.get("model"), human_date(a.get("ts"))] if x]
+        if a.get("prompt"):
+            bits.append(f"“{a['prompt'][:120]}”")
+        if bits:
+            it["note"] = " · ".join(bits)
         items.append(it)
     if extra:
         folders = len(by_dir)
@@ -352,28 +497,54 @@ def sec_assets(t):
 
 
 def sec_playbook(t):
-    plays = []
-    if t.get("resume_hint"):
-        touches = [t["handoff"]] if t.get("handoff") else []
-        plays.append({"title": "Resume here", "intent": t["resume_hint"],
-                      "command": f"python3 execution/handoff_store.py resume {t['slug']}",
-                      "touches": touches,
-                      "receipt": "The stored handoff prints with drift since it was written."})
-    if t.get("missions"):
-        plays.append({"title": "Close the mission", "intent": "Mark it done or park it with a reason.",
-                      "command": f"python3 execution/pulse_actions.py done {t['slug']} --outcome \"<one line>\"",
-                      "receipt": "It leaves the open set on the next pulse regen."})
-    if not plays:
-        return None
-    return {"kind": "playbook", "heading": "pick it back *up*", "tag": "RUN THIS", "plays": plays}
+    """Resume / park / kill as runnable plays. `action` makes the play a LIVE
+    button when the page is served (render_brief renders it dual-mode: POST to
+    the pulse server, or copy the CLI on a static page)."""
+    slug = t["slug"]
+    plays = [{"title": "Resume here",
+              "intent": t.get("resume_hint") or "Reload the stored handoff and continue.",
+              "command": f"python3 execution/handoff_store.py resume {slug}",
+              "touches": [t["handoff"]] if t.get("handoff") else [],
+              "receipt": "The stored handoff prints with drift since it was written."}]
+    open_mission = next((m for m in t.get("missions", []) if m.get("open")), None)
+    if open_mission:
+        plays.append({"title": "Done — close the mission",
+                      "intent": "Mark the open mission finished with a one-line outcome.",
+                      "command": f"python3 execution/pulse_actions.py done {slug} --outcome \"<one line>\"",
+                      "action": {"name": "done", "slug": slug, "ask": "One-line outcome for the log:"},
+                      "receipt": "It leaves the open set on the next board regen."})
+    plays.append({"title": "Park it",
+                  "intent": "Shelve deliberately — resumable, muted, never urgent.",
+                  "command": f"python3 execution/pulse_actions.py park {slug} --reason \"<one line>\"",
+                  "action": {"name": "park", "slug": slug, "ask": "Park reason (one line):"},
+                  "receipt": "Handoff annotated parked; drops out of needs-you."})
+    plays.append({"title": "Kill it",
+                  "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+                  "command": f"python3 execution/pulse_actions.py kill {slug} --reason \"<one line>\"",
+                  "action": {"name": "kill", "slug": slug, "ask": "Kill reason (required):",
+                             "confirm": "Kill this thread? It disappears from every board."},
+                  "receipt": "Ledger line `killed` + handoff archived."})
+    return {"kind": "playbook", "heading": "resume · park · *kill*", "tag": "DECIDE + RUN", "plays": plays}
 
 
 def sec_timeline(t):
     items = []
     for d in t["deliverables"]:
+        body = d["output"][:220]
+        # The finalize record's notes carry the actual story ("what worked /
+        # didn't / verification") — the single line Farrice was missing.
+        if d.get("notes"):
+            body += "\n" + d["notes"][:220]
         items.append({"date": d["date"], "title": f"Finalized · {d['workflow'] or d['skill'] or 'deliverable'}",
-                      "body": d["output"][:220], "done": True})
-    for s in sorted(t["sessions"], key=lambda x: x.get("ts") or "", reverse=True)[:10]:
+                      "body": body, "done": True})
+    seen = set()
+    for s in sorted(t["sessions"], key=lambda x: x.get("ts") or "", reverse=True)[:14]:
+        # Two ledgers for one sitting produce identical rows — dedupe on what
+        # the reader sees, not on ledger identity.
+        fp = ((s.get("ts") or "")[:10], (s.get("title") or "")[:80])
+        if fp in seen:
+            continue
+        seen.add(fp)
         items.append({"date": (s.get("ts") or "")[:10],
                       "title": f"{s['harness']} session" + (f" · {s['messages']} msgs" if s.get("messages") else ""),
                       "body": (s.get("title") or "")[:180], "done": True})
@@ -385,6 +556,35 @@ def sec_timeline(t):
     items.sort(key=lambda x: x.get("date") or "", reverse=True)
     return {"kind": "timeline", "heading": "how it got *here*",
             "tag": "HISTORY, NOT TRUTH", "items": items[:16]}
+
+
+def sec_record(t, slug):
+    """The mission ledger + signed contract, as evidence rows: how each mission
+    on this thread actually ended (outcome + verdict) and what standard it was
+    signed to (felt_standard). None of this reached a brief before 2026-08-20."""
+    rows = []
+    contract = load_contract(slug)
+    if contract.get("felt_standard"):
+        rows.append({"claim": "The signed standard for this work",
+                     "evidence": f"“{contract['felt_standard']}”"
+                                 + (f" — route: {contract.get('route')}" if contract.get("route") else ""),
+                     "confidence": "VERIFIED",
+                     "source_label": "mission contract (preflight sign-off)"})
+    for m in t.get("missions", []):
+        if not m.get("outcome"):
+            continue
+        conf = {"good": "VERIFIED", "marginal": "LIKELY"}.get(m.get("verdict"), "")
+        if not conf:
+            conf = "VERIFIED" if m.get("status") == "done" else "UNCONFIRMED"
+        rows.append({"claim": m["title"][:110],
+                     "evidence": m["outcome"]
+                                 + (f" · verdict: {m['verdict']}" if m.get("verdict") else ""),
+                     "confidence": conf,
+                     "source_label": f"missions.jsonl · {m.get('status')}"})
+    if not rows:
+        return None
+    return {"kind": "evidence", "heading": "the *record*", "tag": "HOW IT ENDED",
+            "rows": rows[:8]}
 
 
 def sec_related(t, bundle):
@@ -404,13 +604,22 @@ def sec_related(t, bundle):
     return {"kind": "related", "heading": "swings to", "tag": "CONNECTED", "links": links}
 
 
-def sec_caveats(t, bundle, synth):
+def sec_caveats(t, bundle, synth, narr=None):
+    narr = narr or {}
     lines = []
     if synth.get("caveats"):
         lines.append(synth["caveats"])
+    elif narr and not narr.get("stub"):
+        lines.append("The narrative sections above come from this thread's own handoff, written "
+                     "by the session that did the work at close — judged prose, but frozen at "
+                     "that moment. Numbers, paths and dates are mechanically collected.")
+    elif narr.get("stub"):
+        lines.append("This thread's handoff is an auto-generated stub (Stop-hook backstop), so "
+                     "there is no session-written narrative to show — everything above is "
+                     "mechanically collected. A real /handoff at next session close fixes this.")
     else:
-        lines.append("No synthesis pass has run against this thread yet — everything above is "
-                     "mechanically collected, and nothing here is interpretation.")
+        lines.append("No handoff exists for this thread — everything above is mechanically "
+                     "collected, and nothing here is interpretation.")
     lines.append("Session ledgers keep only the last 10 files per session and are pruned at 7 days, "
                  "so file counts are a floor, not a census. Sweeps persist their own record, so "
                  "anything already swept is kept.")
@@ -423,13 +632,19 @@ def sec_caveats(t, bundle, synth):
 # ── brief assembly ──────────────────────────────────────────────────
 def build_brief(slug, t, bundle, synth):
     window = bundle["window"]
-    sections = [sec_summary(t, synth, window)]
-    for maybe in (sec_stats(t, window), sec_spark(t, window), sec_progress(t),
-                  sec_decision(t, synth), sec_assets(t), sec_playbook(t), sec_timeline(t)):
+    narr = handoff_narrative(t)
+    # Cognitive-load order (Farrice, 2026-08-20): instant summary → the state
+    # as the last session left it → the decision → runnable plays → portable
+    # prompts → then numbers, artifacts, history, record, edges.
+    sections = [sec_summary(t, synth, window, narr)]
+    for maybe in (sec_state(t, narr), sec_decision(t, synth), sec_playbook(t),
+                  sec_deploy(t, narr, slug), sec_stats(t, window),
+                  sec_spark(t, window), sec_progress(t), sec_assets(t),
+                  sec_timeline(t), sec_record(t, slug)):
         if maybe:
             sections.append(maybe)
     sections.append(sec_related(t, bundle))
-    sections.append(sec_caveats(t, bundle, synth))
+    sections.append(sec_caveats(t, bundle, synth, narr))
 
     arena = (t.get("arena") or "thread").upper().replace("-", " ")
     title = display_title(t.get("title") or title_case(slug))
@@ -442,7 +657,13 @@ def build_brief(slug, t, bundle, synth):
     else:
         accent_title = f"*{title}*"
 
-    dek = synth.get("operator_read") or (
+    # Dek ladder mirrors the lede ladder: judged line > the handoff's own first
+    # purpose sentence > boilerplate. The dek is what the Room's card shows —
+    # boilerplate here is why every card looked identical from the shelf.
+    purpose_line = ""
+    if narr.get("purpose"):
+        purpose_line = narr["purpose"].split("\n")[0].strip()[:180]
+    dek = synth.get("operator_read") or purpose_line or (
         f"Everything this thread has produced, where it stands, and the next move — "
         f"assembled from {len(t['sessions'])} session(s), the handoff store, the finalize "
         f"ledger and the asset manifest.")

@@ -102,7 +102,7 @@ def _mtime(p):
 
 ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
            "thread-archive", "open-path", "brief-archive", "brief-unarchive",
-           "oracle-closes", "oracle-gate", "oracle-note", "refresh"}
+           "oracle-closes", "oracle-gate", "oracle-note", "refresh", "kill"}
 
 
 def _refresh_async():
@@ -160,6 +160,8 @@ def dispatch(action, args):
         return pa.act_park(args.get("slug", ""), args.get("reason", ""))
     if action == "reopen":
         return pa.act_reopen(args.get("slug", ""))
+    if action == "kill":
+        return pa.act_kill(args.get("slug", ""), args.get("reason", ""))
     if action == "outcome":
         return pa.act_outcome(args.get("deliverable", ""), args.get("revenue", 0), args.get("outcome", ""))
     if action == "outcome-dismiss":
@@ -257,22 +259,24 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/room"):
             self._serve_board("room", ROOM, "room")
             return
-        if route.startswith("/missions"):
-            self._serve_board("missions", MISSIONS, "mission control")
-            return
         if route.startswith("/oracle"):
             self._serve_board("oracle", ORACLE, "oracle board")
             return
         if route.startswith("/assets"):
             self._serve_board("assets", ASSETS, "asset board")
             return
-        if route.startswith("/pulse"):
-            self._serve_board("pulse", BOARD, "board")
+        if route.startswith(("/pulse", "/missions")):
+            # Retired surfaces (two-surfaces collapse, 2026-08-20). Muscle
+            # memory and old links land on the Homebase instead of a 404.
+            self.send_response(302)
+            self.send_header("Location", "/")
+            self.send_header("Content-Length", "0")
+            self.end_headers()
             return
         if route in HOME_PATHS:
             self._serve_board("homebase", HOMEBASE, "homebase")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /pulse · /room · /missions · /assets · /oracle · /repo/<path>",
+        self._send(404, f"no route: {route}\n\ntry / · /room · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):

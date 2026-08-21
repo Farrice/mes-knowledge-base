@@ -27,8 +27,24 @@ or fallback: `python3 execution/pulse_serve.py --open`.
 
 ## Routes (pulse_serve.py)
 
-`/` homebase · `/pulse` operator console · `/missions` · `/room` briefs ·
-`/assets` asset board (added 2026-08-20) · `/oracle` · `/repo/<path>` files.
+`/` homebase · `/room` briefs · `/assets` asset board · `/oracle` ·
+`/repo/<path>` files. `/pulse` and `/missions` are RETIRED (two-surfaces
+collapse, 2026-08-20) and 302-redirect here.
+
+## The deep mission pages
+
+Click **open brief ↗** on any Launch card → the thread's context-rich page:
+instant summary (handoff Purpose), the state as the last session left it
+(Current State + staleness warning), resume/park/**kill** decision + LIVE
+buttons, copy-paste blocks (Exact Next Prompt, context pack, operator run
+prompt), then numbers, assets (with generation prompts), deduped timeline
+(with finalize notes), and the mission record (outcomes + verdicts).
+Rich narrative comes from the thread's own handoff — a stub handoff degrades
+honestly, so **writing a real /handoff at session close is what feeds this**.
+
+`kill <slug> --reason "…"` = dead + hidden: ledger line + handoff archived;
+never resurfaces (recover: `pulse_actions.py reopen` + `handoff_store.py
+unarchive`). `park` = shelved + quiet: resumable, muted, never ranks urgent.
 
 ## Refresh
 
