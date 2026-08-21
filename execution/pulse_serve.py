@@ -49,6 +49,7 @@ MISSIONS = os.path.join(ROOT, ".agent", "missions", "mission-control.html")
 HOMEBASE = os.path.join(ROOT, ".agent", "homebase", "homebase.html")
 ASSETS = os.path.join(ROOT, ".agent", "assets", "assets-board.html")
 LIBRARY = os.path.join(ROOT, ".agent", "catalog", "library.html")
+BRAIN = os.path.join(ROOT, ".agent", "brain", "brain.html")
 PY = sys.executable or "python3"
 
 LAST_HIT = time.time()
@@ -86,9 +87,12 @@ def regen(which="pulse"):
     script = {"pulse": "pulse_dashboard.py", "room": "brief_library.py",
               "oracle": "oracle_dashboard.py", "homebase": "homebase_board.py",
               "assets": "asset_gallery.py", "library": "catalog_board.py",
-              "missions": "mission_board.py"}.get(which, "pulse_dashboard.py")
+              "missions": "mission_board.py", "brain": "brain_graph.py"}.get(
+                  which, "pulse_dashboard.py")
+    # brain rebuilds only when its source fingerprint changed — O(1) when fresh
+    extra = ["--if-stale"] if which == "brain" else []
     try:
-        subprocess.run([PY, os.path.join(ROOT, "execution", script)],
+        subprocess.run([PY, os.path.join(ROOT, "execution", script)] + extra,
                        capture_output=True, text=True, timeout=90)
     except Exception as e:
         print(f"[pulse_serve] WARN regen failed: {e}", file=sys.stderr)
@@ -103,7 +107,35 @@ def _mtime(p):
 
 ACTIONS = {"done", "park", "reopen", "outcome", "outcome-dismiss", "outcome-snooze",
            "thread-archive", "open-path", "brief-archive", "brief-unarchive",
-           "oracle-closes", "oracle-gate", "oracle-note", "refresh", "kill"}
+           "oracle-closes", "oracle-gate", "oracle-note", "refresh", "kill",
+           "run_skill"}
+
+
+def _run_skill(args):
+    """Spawn one guarded headless deck run, detached (same pattern as
+    _refresh_async — a claude run takes minutes; the POST must not block).
+    Validation happens twice: here for an immediate UI error, and again inside
+    skill_deck_runner.py which re-reads the curated deck file server-side —
+    the POST payload is treated as untrusted indices, never as text."""
+    card_id = str(args.get("card_id") or "")
+    model = str(args.get("model") or "")
+    effort = str(args.get("effort") or "")
+    try:
+        import skill_deck_runner as sdr
+        card, err = sdr.validate(card_id, model, effort)
+        if err:
+            return {"ok": False, "error": err}
+        lock = subprocess.run([PY, os.path.join(ROOT, "execution", "session_lock.py"),
+                               "check"], capture_output=True, text=True, timeout=10)
+        if lock.returncode != 0:
+            return {"ok": False, "error": "session lock held — another run is live"}
+        subprocess.Popen([PY, os.path.join(ROOT, "execution", "skill_deck_runner.py"),
+                          "run", card_id, "--model", model, "--effort", effort],
+                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                         start_new_session=True)
+        return {"ok": True}
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:200]}
 
 
 def _refresh_async():
@@ -151,6 +183,8 @@ def dispatch(action, args):
         return _open_path(args.get("uri", ""))
     if action == "refresh":
         return _refresh_async()
+    if action == "run_skill":
+        return _run_skill(args)
     if action in ("brief-archive", "brief-unarchive"):
         return _brief_lifecycle(action, args.get("slug", ""))
     sys.path.insert(0, os.path.join(ROOT, "execution"))
@@ -253,7 +287,8 @@ class Handler(BaseHTTPRequestHandler):
                                         "missions_mtime": _mtime(MISSIONS),
                                         "homebase_mtime": _mtime(HOMEBASE),
                                         "assets_mtime": _mtime(ASSETS),
-                                        "library_mtime": _mtime(LIBRARY)}), "application/json")
+                                        "library_mtime": _mtime(LIBRARY),
+                                        "brain_mtime": _mtime(BRAIN)}), "application/json")
             return
         if route.startswith("/repo/"):
             self._serve_repo(route)
@@ -270,6 +305,9 @@ class Handler(BaseHTTPRequestHandler):
         if route.startswith("/library"):
             self._serve_board("library", LIBRARY, "library")
             return
+        if route.startswith("/brain"):
+            self._serve_board("brain", BRAIN, "second brain")
+            return
         if route.startswith(("/pulse", "/missions")):
             # Retired surfaces (two-surfaces collapse, 2026-08-20). Muscle
             # memory and old links land on the Homebase instead of a 404.
@@ -281,7 +319,7 @@ class Handler(BaseHTTPRequestHandler):
         if route in HOME_PATHS:
             self._serve_board("homebase", HOMEBASE, "homebase")
             return
-        self._send(404, f"no route: {route}\n\ntry / · /room · /library · /assets · /oracle · /repo/<path>",
+        self._send(404, f"no route: {route}\n\ntry / · /brain · /room · /library · /assets · /oracle · /repo/<path>",
                    "text/plain; charset=utf-8")
 
     def _same_origin(self):
@@ -326,7 +364,9 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(400, json.dumps({"ok": False, "error": "unknown action"}), "application/json")
                 return
             ok = dispatch(action, payload.get("args") or {})
-            self._send(200, json.dumps({"ok": bool(ok)}), "application/json")
+            # dict results carry their own ok/error (run_skill); bools wrap
+            body = ok if isinstance(ok, dict) else {"ok": bool(ok)}
+            self._send(200, json.dumps(body), "application/json")
         except Exception as e:
             self._send(500, json.dumps({"ok": False, "error": str(e)[:200]}), "application/json")
 

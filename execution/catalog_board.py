@@ -88,23 +88,12 @@ def main():
     dead_html = "".join(row_html(r, actions=False) for r in s["dead"][:60]) or '<div class="empty">empty graveyard</div>'
     kill_html = "".join(row_html(r) for r in kill_recs[:20]) or '<div class="empty">no kill recommendations pending</div>'
 
+    from board_theme import theme_css
     body = f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>the library · Antigravity</title>
 <style>
-:root {{
-  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
-  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
-  --mono:'JetBrains Mono',ui-monospace,"SF Mono",Menlo,Consolas,monospace;
-  --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,sans-serif;
-  --serif:'Source Serif 4',Georgia,serif;
-}}
-@media (prefers-color-scheme: dark) {{ :root {{
-  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
-  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
-}} }}
-:root[data-theme="dark"] {{ --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a; --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73; }}
-:root[data-theme="light"] {{ --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3; --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454; }}
+{theme_css()}
 * {{ box-sizing:border-box; }}
 body {{ background:var(--ground); color:var(--ink); font:14px/1.5 var(--sans); margin:0; padding:40px 24px 80px; }}
 .wrap {{ max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:18px; }}

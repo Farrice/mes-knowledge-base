@@ -1,28 +1,38 @@
 #!/usr/bin/env python3
-"""homebase_board.py — THE hub surface of the Readout OS (2026-08-20).
+"""homebase_board.py — THE hub surface of the Readout OS (2026-08-20;
+Agentic OS cockpit 2026-08-21).
 
-Renders .agent/homebase/homebase.html: the one page Farrice opens to work —
-FOCUS (sprint, money, missions that need him), LIBRARY (fresh briefs, asset
-shelf, what the system holds), LAUNCH (resumable work threads with one-click
-copy prompts). Served at / by pulse_serve.py; every deeper surface is one nav
-hop away. Fills the operator-cockpit-v2 shell that was named 2026-08 and never
-built.
+Renders .agent/homebase/homebase.html: the one page Farrice opens to work.
+Above the fold: the COCKPIT — brand header with live clock, center second-brain
+portal ringed by the newest artifacts, widget columns (micro apps, focus,
+needs-you, skills deck, routines, system counts) that drag-reorder and persist
+locally. Below the fold: LAUNCH (resumable threads) and LIBRARY (briefs, asset
+shelf, catalog) exactly as before. Served at / by pulse_serve.py; every deeper
+surface is one nav hop away.
 
 WHY (Farrice, 2026-08-20, verbatim): "a full working assets or homebase I can
 rely on and can consistently work with or from so I have an actual system and
 not context switching… work more fluently and easily without having to keep
 switching between different tabs."
+WHY 2.0 (Farrice, 2026-08-21): the ARMS-video command center "is the missing
+piece — what I was trying to explain visually" — replicated here in his own
+Ink + Steel Blue system, fully functional, never fancy-but-dead.
 
 Doctrine (docs/solutions/2026-08-06-live-local-board-pattern.md):
 - Reads .agent/sweep/latest.json + existing ledgers — NEVER a second collector.
 - Reuses pulse_dashboard's readers/cards — one calc per fact, everywhere.
 - Dual-mode JS: served → POST /action; file:// → buttons copy the honest CLI.
+- Palette/typography interpolated from board_theme.theme_css() — one skin,
+  client reskin = alternate token dict.
 Design: Farrice Cain Premium Minimal report dialect. The asset shelf is the
 one sanctioned dark interruption in the sequence.
 """
+import glob
 import html
 import json
+import math
 import os
+import plistlib
 import sys
 import time
 from pathlib import Path
@@ -31,10 +41,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "execution"))
 
 import pulse_dashboard as pd  # noqa: E402 — shared readers/cards, one source of calc
+from board_theme import theme_css  # noqa: E402 — one palette for every surface
 from degrade import degraded, degraded_html  # noqa: E402
 
 OUT = os.path.join(ROOT, ".agent", "homebase", "homebase.html")
 SWEEP = os.path.join(ROOT, ".agent", "sweep", "latest.json")
+DECK_FILE = os.path.join(ROOT, ".agent", "homebase", "skills-deck.json")
+DECK_RUNS = os.path.join(ROOT, ".agent", "homebase", "deck-runs")
 
 
 def esc(s):
@@ -243,6 +256,664 @@ def system_counts():
         return degraded({}, "health receipt unreadable — system counts unknown", e)
 
 
+# ── Agentic OS cockpit widgets (2026-08-21) ─────────────────────────────────
+
+def _next_fire(cal):
+    """Next epoch for one launchd StartCalendarInterval dict. launchd Weekday:
+    0/7 = Sunday; python weekday(): Mon=0 → launchd = (py+1) % 7."""
+    import datetime as dt
+    now = dt.datetime.now()
+    hours = [cal["Hour"]] if "Hour" in cal else list(range(24))
+    minute = cal.get("Minute", 0)
+    for d in range(0, 42):
+        day = (now + dt.timedelta(days=d)).date()
+        if "Day" in cal and day.day != cal["Day"]:
+            continue
+        if "Weekday" in cal and (day.weekday() + 1) % 7 != cal["Weekday"] % 7:
+            continue
+        for h in hours:
+            cand = dt.datetime.combine(day, dt.time(hour=h, minute=minute))
+            if cand > now:
+                return cand.timestamp()
+    return None
+
+
+def _sched_words(d):
+    """(schedule text, next-fire epoch|None, always_on) for one plist dict."""
+    cal = d.get("StartCalendarInterval")
+    if cal:
+        cals = cal if isinstance(cal, list) else [cal]
+        nxt = min((n for n in (_next_fire(c) for c in cals) if n), default=None)
+        c0 = cals[0]
+        wd = {0: "Sun", 1: "Mon", 2: "Tue", 3: "Wed", 4: "Thu", 5: "Fri", 6: "Sat", 7: "Sun"}
+        parts = []
+        if "Weekday" in c0:
+            parts.append(wd.get(c0["Weekday"], "?"))
+        if "Day" in c0:
+            parts.append(f"day {c0['Day']}")
+        parts.append(f"{c0.get('Hour', 0):02d}:{c0.get('Minute', 0):02d}"
+                     if "Hour" in c0 else f":{c0.get('Minute', 0):02d} hourly")
+        if len(cals) > 1:
+            parts.append(f"×{len(cals)}")
+        return " ".join(parts), nxt, False
+    si = d.get("StartInterval")
+    if si:
+        return (f"every {si // 3600}h" if si >= 3600 else f"every {si // 60}m"), time.time() + si, False
+    if d.get("KeepAlive"):
+        return "always-on", None, True
+    return "on load", None, False
+
+
+def _in_words(epoch):
+    if epoch is None:
+        return ""
+    s = int(epoch - time.time())
+    if s < 0:
+        return "now"
+    if s < 3600:
+        return f"in {s // 60}m"
+    if s < 86400:
+        return f"in {s // 3600}h {(s % 3600) // 60:02d}m"
+    return f"in {s // 86400}d"
+
+
+def routines_board(limit=12):
+    """The routines firing board: every com.antigravity.* launchd job, next
+    fire first, health-joined from the daily audit receipt. Read-only —
+    launchd stays the scheduler, this is the window onto it."""
+    try:
+        recs = (json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
+                               encoding="utf-8")).get("launchd") or {})
+    except (OSError, ValueError):
+        recs = {}
+    rows = []
+    for p in sorted(glob.glob(os.path.expanduser(
+            "~/Library/LaunchAgents/com.antigravity.*.plist"))):
+        try:
+            d = plistlib.load(open(p, "rb"))
+        except Exception:
+            continue
+        label = d.get("Label") or os.path.basename(p)[:-6]
+        name = label.replace("com.antigravity.", "")
+        sched, nxt, always = _sched_words(d)
+        rec = recs.get(label) or {}
+        exit_code = rec.get("last_exit")
+        chip = ("ok" if exit_code == 0 else "crit" if isinstance(exit_code, int) and exit_code != 0
+                else "muted")
+        rows.append((nxt if nxt is not None else float("inf"), name, sched, always, chip))
+    if not rows:
+        return degraded_html("no routines found — ~/Library/LaunchAgents empty "
+                             "or unreadable", None), 0
+    total = len(rows)
+    fires = sorted([r for r in rows if not r[3]], key=lambda r: r[0])[:limit]
+    always = [r for r in rows if r[3]]
+    out = []
+    for nxt, name, sched, _a, chip in fires:
+        out.append(f'<div class="routine"><span class="dot {chip}"></span>'
+                   f'<span class="rn">{esc(name)}</span>'
+                   f'<span class="rs">{esc(sched)}</span>'
+                   f'<span class="rt">{esc(_in_words(nxt))}</span></div>')
+    for _n, name, sched, _a, chip in always:
+        out.append(f'<div class="routine"><span class="dot {chip}"></span>'
+                   f'<span class="rn">{esc(name)}</span>'
+                   f'<span class="rs">{esc(sched)}</span><span class="rt">∞</span></div>')
+    return "".join(out), total
+
+
+def artifact_ring(limit=24):
+    """The ring around the portal: newest artifacts the system produced —
+    briefs, assets, merit catalog entries, deck-run reports. All from existing
+    indexes; never a second collector."""
+    items = []
+    try:
+        import brief_library as bl
+        for e in bl.collect()[:10]:
+            if e.get("status") == "archived":
+                continue
+            rel = _rel(e["html"])
+            if rel:
+                items.append({"icon": "📋", "kind": "brief",
+                              "title": str(e["title"]).replace("*", ""),
+                              "date": str(e.get("compiled") or ""), "rel": rel})
+    except Exception:
+        pass
+    try:
+        from asset_index import reduced_manifest
+        rows = [r for r in reduced_manifest().values()
+                if r.get("status", "active") == "active" and r.get("keep") is not False]
+        rows.sort(key=lambda r: r.get("ts") or "", reverse=True)
+        for r in rows[:8]:
+            rel = str(r.get("path") or "")
+            if rel and os.path.isfile(os.path.join(ROOT, rel)):
+                items.append({"icon": "▶" if r.get("type") == "video" else "🎨",
+                              "kind": "asset",
+                              "title": (r.get("project") or r.get("zone") or "asset").replace("-", " "),
+                              "date": str(r.get("ts") or "")[:10], "rel": rel})
+    except Exception:
+        pass
+    try:
+        import work_catalog as wc
+        for r in wc.shelves()["resume"][:6]:
+            if r.get("brief"):
+                items.append({"icon": "★", "kind": "work",
+                              "title": str(r.get("title") or "catalog entry"),
+                              "date": str(r.get("last_active") or "")[:10],
+                              "rel": str(r["brief"])})
+    except Exception:
+        pass
+    try:
+        for p in sorted(glob.glob(os.path.join(DECK_RUNS, "*.json")), reverse=True)[:6]:
+            d = json.load(open(p, encoding="utf-8"))
+            rel = d.get("report_rel") or _rel(p)
+            if rel:
+                items.append({"icon": "⚙", "kind": "run",
+                              "title": f"deck · {d.get('card_id', 'run')}",
+                              "date": str(d.get("ended") or d.get("started") or "")[:16],
+                              "rel": rel})
+    except Exception:
+        pass
+    items.sort(key=lambda i: i.get("date") or "", reverse=True)
+    items = items[:limit]
+    n = max(len(items), 1)
+    nodes = []
+    for i, it in enumerate(items):
+        ang = 2 * math.pi * i / n - math.pi / 2
+        x = 50 + 46.5 * math.cos(ang)
+        y = 50 + 46.5 * math.sin(ang)
+        uri = (Path(ROOT) / it["rel"]).as_uri()
+        nodes.append(
+            f'<a class="ringnode" style="left:{x:.2f}%;top:{y:.2f}%" href="{esc(uri)}"'
+            f' data-repo="/repo/{esc(it["rel"])}" data-search="{esc(it["title"].lower())}"'
+            f' title="{esc(it["title"])} · {esc(it["date"])}">'
+            f'<span class="ri">{it["icon"]}</span></a>')
+    return "".join(nodes), len(items)
+
+
+def skills_deck():
+    """Deck cards from the curated skills-deck.json — model + effort pickers,
+    Run fires POST /action run_skill (guarded server-side by
+    skill_deck_runner.py). Receipts from deck-runs/ listed below the cards."""
+    try:
+        deck = json.load(open(DECK_FILE, encoding="utf-8"))
+        cards_def = deck.get("cards") or []
+    except (OSError, ValueError):
+        return ('<div class="empty">deck not configured — create '
+                '.agent/homebase/skills-deck.json</div>')
+    cards = []
+    for c in cards_def:
+        cid = esc(c.get("id"))
+        models = c.get("models") or ["sonnet"]
+        efforts = c.get("efforts") or ["medium"]
+        mo = "".join(f'<option{" selected" if m == c.get("default_model") else ""}>{esc(m)}</option>'
+                     for m in models)
+        eo = "".join(f'<option{" selected" if e == c.get("default_effort") else ""}>{esc(e)}</option>'
+                     for e in efforts)
+        cards.append(
+            f'<div class="deckcard" data-card="{cid}">'
+            f'<div class="row1"><h3>{esc(c.get("command"))}</h3></div>'
+            f'<p class="last">{esc(c.get("blurb"))}</p>'
+            f'<div class="meta"><select class="dk-model">{mo}</select>'
+            f'<select class="dk-effort">{eo}</select>'
+            f'<span class="acts"><button class="actbtn ok dk-run" type="button">▸ run</button></span>'
+            f'</div></div>')
+    runs = []
+    try:
+        for p in sorted(glob.glob(os.path.join(DECK_RUNS, "*.json")), reverse=True)[:3]:
+            d = json.load(open(p, encoding="utf-8"))
+            cost = d.get("total_cost_usd")
+            cost_s = f"${cost:.2f}" if isinstance(cost, (int, float)) else "cost n/a"
+            state = d.get("state", "done")
+            chip = {"done": "ok", "running": "warn", "failed": "crit"}.get(state, "muted")
+            rep = d.get("report_rel")
+            link = (f' <a class="actbtn alink" href="{esc((Path(ROOT) / rep).as_uri())}"'
+                    f' data-repo="/repo/{esc(rep)}">report ↗</a>') if rep else ""
+            runs.append(f'<div class="routine"><span class="dot {chip}"></span>'
+                        f'<span class="rn">{esc(d.get("card_id"))}</span>'
+                        f'<span class="rs">{esc(d.get("model", ""))} · {esc(d.get("effort", ""))}'
+                        f' · {esc(cost_s)}</span>'
+                        f'<span class="rt">{esc(str(d.get("ended") or d.get("started") or "")[5:16])}</span>{link}</div>')
+    except Exception:
+        pass
+    runs_html = (f'<div class="deckruns"><span class="m">last runs · measured cost</span>'
+                 f'{"".join(runs)}</div>') if runs else ""
+    return "".join(cards) + runs_html
+
+
+def micro_apps():
+    """The micro-apps rail: every surface of the OS, one hop away. Same
+    dual-mode pattern as everywhere else (file:// href + data-route)."""
+    apps = [
+        ("🧠", "second brain", ".agent/brain/brain.html", "/brain", "workspace graph"),
+        ("🏛", "library", ".agent/catalog/library.html", "/library", "permanent catalog"),
+        ("📋", "briefing room", "deliverables/research-briefs/index.html", "/room", "all briefs"),
+        ("🎨", "asset board", ".agent/assets/assets-board.html", "/assets", "generations"),
+        ("🔮", "oracle", ".agent/oracle/oracle-dashboard.html", "/oracle", "mastery forge"),
+        ("🗺", "mission board",
+         "deliverables/research-briefs/mission-board/mission-board-brief.html",
+         "/repo/deliverables/research-briefs/mission-board/mission-board-brief.html",
+         "mission map"),
+        ("📄", "docs", ".agent/mdview/index.html", "/repo/.agent/mdview/index.html", "md mirrors"),
+    ]
+    rows = []
+    for icon, label, rel, route, blurb in apps:
+        if not os.path.isfile(os.path.join(ROOT, rel)):
+            continue
+        uri = (Path(ROOT) / rel).as_uri()
+        rows.append(f'<a class="app" href="{esc(uri)}" data-route="{esc(route)}">'
+                    f'<span class="ai">{icon}</span><span class="al">{esc(label)}</span>'
+                    f'<span class="ab">{esc(blurb)}</span></a>')
+    return "".join(rows) or '<div class="empty">no surfaces generated yet</div>'
+
+
+# ── page assembly ────────────────────────────────────────────────────────────
+
+CSS = """
+* { box-sizing:border-box; }
+body { background:var(--ground); color:var(--ink); font:14px/1.5 var(--sans); margin:0; padding:32px 24px 80px; }
+.wrap { max-width:1400px; margin:0 auto; display:flex; flex-direction:column; gap:18px; }
+header { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; }
+.kicker { font-family:var(--mono); font-size:9px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:8px; }
+h1 { font-size:38px; font-weight:700; letter-spacing:-.022em; margin:0; line-height:1.05; }
+h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(--accent); }
+.homenav { margin-left:auto; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+.homenav a, .homenav .here { font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; text-decoration:none;
+  color:var(--soft); border:1px solid var(--line); border-radius:99px; padding:4px 11px; }
+.homenav a:hover { border-color:var(--accent); color:var(--accent); }
+.homenav .here { opacity:.45; border-style:dashed; }
+.stamp { color:var(--muted); font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+  display:flex; gap:10px; align-items:center; flex-wrap:wrap; border-top:1px solid var(--ink); padding-top:10px; }
+.zone { font-family:var(--mono); font-size:9px; letter-spacing:.26em; text-transform:uppercase; color:var(--accent);
+  margin:8px 0 -8px; }
+.sprint { background:var(--panel); border:1px solid var(--accent); border-radius:8px; padding:12px 16px;
+  display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }
+.sprint-tag { font-family:var(--mono); font-size:9px; letter-spacing:.18em; color:var(--accent); text-transform:uppercase; }
+/* ── cockpit grid ── */
+.cockpit { display:grid; grid-template-columns:minmax(250px,300px) 1fr minmax(300px,340px); gap:16px; align-items:start; }
+.col { display:flex; flex-direction:column; gap:16px; min-width:0; }
+@media (max-width:1100px) { .cockpit { grid-template-columns:1fr; } .stagewrap { order:-1; } }
+.widget { position:relative; }
+.widget .grip { position:absolute; top:14px; right:14px; cursor:grab; color:var(--line); font-size:11px;
+  user-select:none; letter-spacing:2px; }
+.widget .grip:hover { color:var(--accent); }
+.widget.dragging { opacity:.4; }
+.widget .wbody { max-height:420px; overflow:auto; resize:vertical; }
+/* stage — the second-brain portal + artifacts ring */
+.stagewrap { display:flex; flex-direction:column; gap:10px; align-items:center; }
+.stage { position:relative; width:100%; max-width:640px; aspect-ratio:1/1; margin:0 auto; }
+.portal { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:56%; aspect-ratio:1/1;
+  border-radius:50%; border:1px solid var(--line); display:block; cursor:pointer; background:var(--panel); }
+.portal:hover { border-color:var(--accent); }
+.portal canvas { width:100%; height:100%; display:block; border-radius:50%; }
+.portal .pcap { position:absolute; left:50%; bottom:12%; transform:translateX(-50%); font-family:var(--mono);
+  font-size:8.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
+.portal:hover .pcap { color:var(--accent); }
+.ringnode { position:absolute; transform:translate(-50%,-50%); width:34px; height:34px; border-radius:50%;
+  border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center;
+  text-decoration:none; font-size:13px; transition:transform .12s ease, border-color .12s ease, opacity .2s; }
+.ringnode:hover { transform:translate(-50%,-50%) scale(1.35); border-color:var(--accent); z-index:5; }
+.ringnode.dim { opacity:.18; }
+.ringnode.hit { border-color:var(--accent); }
+.ringbar { display:flex; gap:10px; align-items:center; width:100%; max-width:520px; }
+.ringbar input { flex:1; font-family:var(--mono); font-size:11px; letter-spacing:.06em; background:var(--panel);
+  color:var(--ink); border:1px solid var(--line); border-radius:99px; padding:8px 16px; outline:none; }
+.ringbar input:focus { border-color:var(--accent); }
+#ringcap { font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
+  min-height:14px; text-align:center; }
+/* clock */
+.clock { font-variant-numeric:tabular-nums; }
+.clock .ct { font-size:40px; font-weight:700; letter-spacing:-.02em; line-height:1; }
+.clock .ct .ap { font-family:var(--serif); font-style:italic; font-weight:400; color:var(--accent); font-size:20px; }
+.clock .cd { font-family:var(--mono); font-size:9px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); margin-top:6px; }
+/* micro apps */
+.app { display:flex; gap:10px; align-items:baseline; text-decoration:none; color:var(--ink);
+  border-bottom:1px solid var(--line); padding:8px 2px; }
+.app:last-child { border-bottom:none; }
+.app:hover .al { color:var(--accent); }
+.app .ai { width:18px; text-align:center; }
+.app .al { font-size:12.5px; font-weight:600; flex:0 0 auto; }
+.app .ab { font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-left:auto; }
+/* routines */
+.routine { display:flex; gap:8px; align-items:baseline; border-bottom:1px solid var(--line); padding:6px 2px; }
+.routine:last-child { border-bottom:none; }
+.routine .dot { width:6px; height:6px; border-radius:50%; background:var(--line); flex:0 0 auto; align-self:center; }
+.routine .dot.ok { background:var(--ok); } .routine .dot.crit { background:var(--crit); } .routine .dot.muted { background:var(--line); }
+.routine .rn { font-size:11.5px; font-weight:600; flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.routine .rs { font-family:var(--mono); font-size:8px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+.routine .rt { font-family:var(--mono); font-size:8.5px; letter-spacing:.1em; color:var(--accent); white-space:nowrap; }
+/* skills deck */
+.deckcard { border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:10px 12px; margin-bottom:8px; }
+.deckcard h3 { font-family:var(--mono); font-size:11.5px; letter-spacing:.04em; margin:0; }
+.deckcard select { font-family:var(--mono); font-size:9px; letter-spacing:.08em; text-transform:uppercase;
+  background:var(--panel); color:var(--soft); border:1px solid var(--line); border-radius:4px; padding:2px 5px; }
+.deckruns { margin-top:10px; border-top:1px solid var(--line); padding-top:8px; display:flex; flex-direction:column; gap:2px; }
+/* tiles */
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:12px; }
+.cockpit .tiles { grid-template-columns:repeat(2,1fr); }
+.tile { border-top:2px solid var(--ink); padding-top:10px; }
+.tile a { color:inherit; text-decoration:none; }
+.tile .n { font-size:28px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.tile .l { color:var(--muted); font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; margin-top:4px; }
+section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
+h2 { font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 12px; border-bottom:1px solid var(--line); padding-bottom:8px; }
+.mcard { border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:12px 14px; margin-bottom:10px; }
+.mcard:last-child { margin-bottom:0; }
+.mcard .row1 { display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }
+.mcard h3 { font-size:13.5px; font-weight:600; margin:0; line-height:1.35; flex:1; min-width:200px; }
+.mcard .gline { font-size:11.5px; color:var(--soft); margin-top:5px; }
+.mcard .gline::before { content:"goal · "; font-family:var(--mono); font-size:8.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--muted); }
+.mcard .last { font-size:11.5px; color:var(--muted); margin:5px 0 0; line-height:1.45; }
+.mcard .read { font-size:12px; color:var(--ink); margin:6px 0 0; line-height:1.5;
+  border-left:2px solid var(--accent); padding-left:10px; }
+.mcard .read b { color:var(--accent); font-weight:600; }
+.mcard .meta { display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap; }
+.m { font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+.pill { font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; padding:2px 8px;
+  border-radius:3px; white-space:nowrap; font-weight:700; }
+.pill.ok { color:var(--ok); border:1px solid var(--ok); }
+.pill.warn { color:var(--warn); border:1px solid var(--warn); }
+.pill.crit { color:var(--crit); border:1px solid var(--crit); }
+.pill.muted { color:var(--muted); border:1px solid var(--line); }
+.acts { margin-left:auto; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+.copybtn, .actbtn { font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
+  cursor:pointer; background:none; border:1px solid var(--line); border-radius:4px; padding:3px 9px; color:var(--soft);
+  text-decoration:none; display:inline-block; }
+.copybtn:hover, .actbtn:hover { border-color:var(--accent); color:var(--accent); }
+.actbtn.ok { color:var(--ok); border-color:var(--ok); }
+.actbtn.ok:hover { background:var(--ok); color:var(--panel); }
+.actbtn.kill { color:var(--crit); border-color:var(--crit); }
+.actbtn.kill:hover { background:var(--crit); color:var(--panel); }
+.tog { cursor:pointer; user-select:none; }
+.tog::before { content:"▾ "; color:var(--accent); }
+section.closed .tog { margin-bottom:0; border-bottom:none; padding-bottom:0; }
+section.closed .tog::before { content:"▸ "; }
+section.closed .body { display:none; }
+.oform { display:none; gap:8px; margin-top:10px; flex-wrap:wrap; }
+.oform.show { display:flex; }
+.oform input { font-family:var(--mono); font-size:11px; background:var(--panel); color:var(--ink);
+  border:1px solid var(--line); border-radius:4px; padding:6px 9px; }
+.oform .o-rev { width:120px; }
+.oform .o-out { flex:1; min-width:200px; }
+.livechip { font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; padding:2px 8px;
+  border-radius:3px; font-weight:700; }
+.intelgrid { display:flex; flex-direction:column; gap:8px; }
+.intel { display:flex; gap:12px; align-items:baseline; text-decoration:none; color:var(--ink);
+  border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:10px 14px; flex-wrap:wrap; }
+.intel:hover { border-color:var(--accent); }
+.intel .ik { font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }
+.intel .it { font-size:13px; font-weight:600; flex:1; min-width:200px; }
+.roomlink { display:inline-block; margin-top:10px; margin-right:16px; font-family:var(--mono); font-size:9px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--accent); text-decoration:none; }
+.roomlink:hover { text-decoration:underline; }
+.empty { color:var(--muted); font-style:italic; font-size:12.5px; }
+/* the ONE dark interruption — asset shelf */
+section.shelf { background:#101010; border-color:#101010; }
+section.shelf h2 { color:#8c8c82; border-color:#2c2c2a; }
+.shelfgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; }
+.shelf-tile { display:block; text-decoration:none; border-radius:6px; overflow:hidden; background:#181817;
+  border:1px solid #2c2c2a; transition:transform .15s ease; }
+.shelf-tile:hover { transform:scale(1.03); border-color:#7c9fd9; }
+.shelf-tile img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+.shelf-cap { display:block; padding:6px 9px; font-family:var(--mono); font-size:8px; letter-spacing:.12em;
+  text-transform:uppercase; color:#8c8c82; }
+section.shelf .roomlink { color:#7c9fd9; }
+section.shelf .empty { color:#8c8c82; }
+.sysline { font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+#toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--panel);
+  font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+  border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99; }
+#toast.show { opacity:1; }
+footer { border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
+  font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+"""
+
+SCRIPT = r"""
+const PULSE_LIVE = location.protocol.startsWith('http');
+const REPO_ROOT_URI = __REPO_ROOT_URI__;
+if (PULSE_LIVE) {
+  const lc = document.getElementById('livechip');
+  lc.textContent = 'live — actions write instantly';
+  lc.classList.remove('muted'); lc.classList.add('ok');
+}
+if (PULSE_LIVE) document.querySelectorAll('a[data-route]').forEach(a => { a.href = a.dataset.route; });
+if (PULSE_LIVE) document.querySelectorAll('a[data-repo]').forEach(a => { a.href = a.dataset.repo; });
+// dual-mode media: live pages load thumbs over /repo/, file:// pages from disk
+document.querySelectorAll('img[data-rel]').forEach(img => {
+  img.src = PULSE_LIVE ? '/repo/' + img.dataset.rel : REPO_ROOT_URI + '/' + img.dataset.rel;
+});
+function _toast(msg) {
+  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1600);
+}
+function _copy(txt, msg) {
+  function done() { _toast(msg || 'copied'); }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(done, () => {
+      const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta); done();
+    });
+  }
+}
+function _sq(s) { return "'" + String(s).replace(/'/g, `'\\''`) + "'"; }
+function _cli(action, args) {
+  const base = 'python3 execution/pulse_actions.py ';
+  if (action === 'done') return base + 'done ' + _sq(args.slug) + ' --outcome ' + _sq(args.outcome || '');
+  if (action === 'park') return base + 'park ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
+  if (action === 'refresh') return base + 'refresh';
+  if (action === 'kill') return base + 'kill ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
+  if (action === 'reopen') return base + 'reopen ' + _sq(args.slug);
+  if (action === 'outcome') return base + 'outcome ' + _sq(args.deliverable) + ' --revenue ' + (args.revenue || 0) + ' --outcome ' + _sq(args.outcome || '');
+  if (action === 'outcome-snooze') return base + 'outcome-snooze ' + _sq(args.deliverable);
+  if (action === 'outcome-dismiss') return base + 'outcome-dismiss ' + _sq(args.deliverable);
+  if (action === 'run_skill') return 'python3 execution/skill_deck_runner.py run ' + _sq(args.card_id) + ' --model ' + _sq(args.model) + ' --effort ' + _sq(args.effort);
+  return base;
+}
+function doAction(action, args) {
+  if (!PULSE_LIVE) { _copy(_cli(action, args), 'server offline — command copied'); return; }
+  fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                     body: JSON.stringify({ action, args }) })
+    .then(r => r.json())
+    .then(j => {
+      if (j.ok) {
+        if (action === 'run_skill') { _toast('deck run started — receipt lands when it finishes'); return; }
+        _toast(action === 'refresh' ? 'refreshing data — page reloads when ready' : 'done — refreshing');
+        if (action !== 'refresh') setTimeout(() => location.reload(), 700);
+      }
+      else { _toast(j.error ? ('failed — ' + j.error) : 'action failed — see server log'); }
+    })
+    .catch(() => { _copy(_cli(action, args), 'server unreachable — command copied'); });
+}
+document.querySelectorAll('.actbtn[data-action]').forEach(b => b.addEventListener('click', () => {
+  const act = b.dataset.action;
+  if (act === 'done') {
+    const outcome = prompt('One-line outcome for the log:', 'closed from homebase');
+    if (outcome === null) return;
+    doAction('done', { slug: b.dataset.slug, outcome });
+  } else if (act === 'park') {
+    const reason = prompt('Park reason (one line):');
+    if (reason === null) return;
+    doAction('park', { slug: b.dataset.slug, reason });
+  } else if (act === 'kill') {
+    if (!confirm('Kill this thread? It disappears from every board (ledger-recoverable).')) return;
+    const reason = prompt('Kill reason (required):');
+    if (!reason) return;
+    doAction('kill', { slug: b.dataset.slug, reason });
+  } else if (act === 'reopen') {
+    doAction('reopen', { slug: b.dataset.slug });
+  } else if (act === 'outcome') {
+    b.closest('.mcard').querySelector('.oform').classList.toggle('show');
+  } else if (act === 'outcome-snooze') {
+    doAction('outcome-snooze', { deliverable: b.closest('.mcard').dataset.deliverable });
+  } else if (act === 'outcome-dismiss') {
+    if (confirm('Mark as no-outcome-expected? (writes archived-no-data)'))
+      doAction('outcome-dismiss', { deliverable: b.closest('.mcard').dataset.deliverable });
+  } else if (act === 'refresh') {
+    doAction('refresh', {});
+  }
+}));
+document.querySelectorAll('.o-save').forEach(b => b.addEventListener('click', () => {
+  const card = b.closest('.mcard');
+  doAction('outcome', { deliverable: card.dataset.deliverable,
+                        revenue: parseFloat(card.querySelector('.o-rev').value) || 0,
+                        outcome: card.querySelector('.o-out').value || '' });
+}));
+document.querySelectorAll('.tog').forEach(h => h.addEventListener('click', () =>
+  h.closest('section').classList.toggle('closed')));
+document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {
+  if (b.dataset.copy !== undefined) _copy(b.dataset.copy);
+}));
+// ── skills deck: run headlessly through the guarded server verb ──
+document.querySelectorAll('.dk-run').forEach(b => b.addEventListener('click', () => {
+  const card = b.closest('.deckcard');
+  doAction('run_skill', { card_id: card.dataset.card,
+                          model: card.querySelector('.dk-model').value,
+                          effort: card.querySelector('.dk-effort').value });
+}));
+// ── live clock (textContent only — no markup injection) ──
+function _tick() {
+  const d = new Date();
+  const hh = String(d.getHours() % 12 || 12).padStart(2, '0');
+  const mm = String(d.getMinutes()).padStart(2, '0');
+  const ss = String(d.getSeconds()).padStart(2, '0');
+  const hmEl = document.getElementById('clockhm');
+  if (hmEl) hmEl.textContent = hh + ':' + mm + ':' + ss;
+  const apEl = document.getElementById('clockap');
+  if (apEl) apEl.textContent = d.getHours() < 12 ? 'am' : 'pm';
+  const dt = document.getElementById('clockdate');
+  if (dt) dt.textContent = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+}
+_tick(); setInterval(_tick, 1000);
+// ── portal: dot-field sphere, brand accent, reduced-motion aware ──
+(function () {
+  const cv = document.getElementById('portalcv');
+  if (!cv) return;
+  const ctx = cv.getContext('2d');
+  const N = 650, pts = [];
+  for (let i = 0; i < N; i++) {
+    const u = Math.random() * 2 - 1, th = Math.random() * Math.PI * 2;
+    const r = Math.sqrt(1 - u * u);
+    pts.push([r * Math.cos(th), u, r * Math.sin(th)]);
+  }
+  let ang = 0;
+  const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function frame() {
+    const s = cv.clientWidth || 300;
+    if (cv.width !== s * 2) { cv.width = s * 2; cv.height = s * 2; }
+    const accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#3d5a94';
+    ctx.clearRect(0, 0, cv.width, cv.height);
+    const c = cv.width / 2, R = cv.width * 0.36;
+    for (const p of pts) {
+      const x = p[0] * Math.cos(ang) + p[2] * Math.sin(ang);
+      const z = -p[0] * Math.sin(ang) + p[2] * Math.cos(ang);
+      const px = c + x * R, py = c + p[1] * R;
+      const a = 0.12 + 0.5 * (z + 1) / 2;
+      ctx.globalAlpha = a;
+      ctx.fillStyle = accent;
+      ctx.beginPath();
+      ctx.arc(px, py, 1.1 + 1.3 * (z + 1) / 2, 0, 7);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    ang += 0.0028;
+    if (!still) requestAnimationFrame(frame);
+  }
+  frame();
+})();
+// ── artifacts ring: search filters, Enter opens first hit ──
+(function () {
+  const inp = document.getElementById('ringsearch');
+  if (!inp) return;
+  const nodes = Array.from(document.querySelectorAll('.ringnode'));
+  const cap = document.getElementById('ringcap');
+  nodes.forEach(n => {
+    n.addEventListener('mouseenter', () => { if (cap) cap.textContent = n.title; });
+    n.addEventListener('mouseleave', () => { if (cap) cap.textContent = ''; });
+  });
+  inp.addEventListener('input', () => {
+    const q = inp.value.trim().toLowerCase();
+    let first = null;
+    nodes.forEach(n => {
+      const hit = !q || (n.dataset.search || '').includes(q);
+      n.classList.toggle('dim', !!q && !hit);
+      n.classList.toggle('hit', !!q && hit);
+      if (hit && q && !first) first = n;
+    });
+    if (cap) cap.textContent = first ? first.title : (q ? 'no artifact matches' : '');
+  });
+  inp.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    const hit = nodes.find(n => n.classList.contains('hit')) || null;
+    if (hit) hit.click();
+  });
+})();
+// ── widget layout: drag to reorder within a column; order persists locally ──
+(function () {
+  const KEY = 'hb_layout_v2';
+  const cols = ['col-left', 'col-right'].map(id => document.getElementById(id)).filter(Boolean);
+  let saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  cols.forEach(col => {
+    const order = saved[col.id];
+    if (Array.isArray(order)) {
+      order.forEach(wid => {
+        const w = col.querySelector('.widget[data-wid="' + wid + '"]');
+        if (w) col.appendChild(w);
+      });
+    }
+  });
+  function persist() {
+    const out = {};
+    cols.forEach(col => {
+      out[col.id] = Array.from(col.querySelectorAll('.widget')).map(w => w.dataset.wid);
+    });
+    try { localStorage.setItem(KEY, JSON.stringify(out)); } catch (e) {}
+  }
+  let dragged = null;
+  document.querySelectorAll('.widget').forEach(w => {
+    const grip = w.querySelector('.grip');
+    if (!grip) return;
+    grip.addEventListener('mousedown', () => { w.setAttribute('draggable', 'true'); });
+    w.addEventListener('dragstart', e => { dragged = w; w.classList.add('dragging'); e.dataTransfer.effectAllowed = 'move'; });
+    w.addEventListener('dragend', () => {
+      if (dragged) dragged.classList.remove('dragging');
+      dragged = null; w.removeAttribute('draggable');
+      persist();
+    });
+  });
+  cols.forEach(col => {
+    col.addEventListener('dragover', e => {
+      if (!dragged) return;
+      e.preventDefault();
+      const after = Array.from(col.querySelectorAll('.widget:not(.dragging)'))
+        .find(w => e.clientY < w.getBoundingClientRect().top + w.offsetHeight / 2);
+      if (after) col.insertBefore(dragged, after); else col.appendChild(dragged);
+    });
+  });
+})();
+if (PULSE_LIVE) {
+  // http pages cannot navigate to file:// — route those clicks through the server's OS opener.
+  document.querySelectorAll('a[href^="file:"]:not([data-route]):not([data-repo])').forEach(a => a.addEventListener('click', ev => {
+    ev.preventDefault();
+    fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                       body: JSON.stringify({ action: 'open-path', args: { uri: a.href } }) })
+      .then(r => r.json()).then(j => _toast(j.ok ? 'opened' : 'open failed'))
+      .catch(() => _toast('open failed'));
+  }));
+  // side-window live reload — refresh when the board regenerates underneath us
+  let baseline = null;
+  setInterval(() => {
+    fetch('/ping').then(r => r.json()).then(j => {
+      if (baseline === null) { baseline = j.homebase_mtime; return; }
+      if (j.homebase_mtime && j.homebase_mtime !== baseline) location.reload();
+    }).catch(() => {});
+  }, 5000);
+}
+"""
+
+
 def main():
     now = time.strftime("%Y-%m-%d %H:%M")
     sweep = load_sweep()
@@ -310,131 +981,35 @@ def main():
     board_brief = "deliverables/research-briefs/mission-board/mission-board-brief.html"
     missions_uri = Path(ROOT, board_brief).as_uri()
 
+    # --- COCKPIT widgets ---
+    ring_html, ring_n = artifact_ring()
+    routines_html, routines_total = routines_board()
+    deck_html = skills_deck()
+    apps_html = micro_apps()
+    brain_rel = ".agent/brain/brain.html"
+    brain_uri = (Path(ROOT) / brain_rel).as_uri()
+
+    tiles_html = f"""<div class="tiles">
+  <div class="tile"><a href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
+  <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
+  <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
+  <div class="tile"><a href="{esc(room_uri)}" data-route="/room"><div class="n">{brief_total}</div><div class="l">briefs in the room</div></a></div>
+  <div class="tile"><a href="{esc(board_uri)}" data-route="/assets"><div class="n">{asset_total}</div><div class="l">assets on the board</div></a></div>
+  <div class="tile"><div class="n">{esc(threads_promoted)}</div><div class="l">threads promoted</div></div>
+</div>"""
+
+    script = SCRIPT.replace("__REPO_ROOT_URI__", json.dumps(Path(ROOT).as_uri()))
+
     body = f"""<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>homebase · Antigravity</title>
+<title>homebase · Agentic OS</title>
 <style>
-/* ── Farrice Cain Premium Minimal — report dialect ── */
-:root {{
-  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
-  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
-  --mono:'JetBrains Mono',ui-monospace,"SF Mono",Menlo,Consolas,monospace;
-  --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,sans-serif;
-  --serif:'Source Serif 4',Georgia,serif;
-}}
-@media (prefers-color-scheme: dark) {{ :root {{
-  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
-  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
-}} }}
-:root[data-theme="dark"] {{
-  --ground:#0e0e0d; --panel:#181817; --ink:#fafaf8; --muted:#8c8c82; --soft:#b9b9b2; --line:#2c2c2a;
-  --accent:#7c9fd9; --ok:#6fae8c; --warn:#c9a868; --crit:#c97b73;
-}}
-:root[data-theme="light"] {{
-  --ground:#f3f3f0; --panel:#fafaf8; --ink:#101010; --muted:#8c8c82; --soft:#555553; --line:#d8d8d3;
-  --accent:#3d5a94; --ok:#3e7d5f; --warn:#a8853e; --crit:#a85454;
-}}
-* {{ box-sizing:border-box; }}
-body {{ background:var(--ground); color:var(--ink); font:14px/1.5 var(--sans); margin:0; padding:40px 24px 80px; }}
-.wrap {{ max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:18px; }}
-header {{ display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; }}
-.kicker {{ font-family:var(--mono); font-size:9px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:8px; }}
-h1 {{ font-size:38px; font-weight:700; letter-spacing:-.022em; margin:0; line-height:1.05; }}
-h1 em {{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--accent); }}
-.homenav {{ margin-left:auto; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }}
-.homenav a, .homenav .here {{ font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; text-decoration:none;
-  color:var(--soft); border:1px solid var(--line); border-radius:99px; padding:4px 11px; }}
-.homenav a:hover {{ border-color:var(--accent); color:var(--accent); }}
-.homenav .here {{ opacity:.45; border-style:dashed; }}
-.stamp {{ color:var(--muted); font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
-  display:flex; gap:10px; align-items:center; flex-wrap:wrap; border-top:1px solid var(--ink); padding-top:10px; }}
-.zone {{ font-family:var(--mono); font-size:9px; letter-spacing:.26em; text-transform:uppercase; color:var(--accent);
-  margin:8px 0 -8px; }}
-.sprint {{ background:var(--panel); border:1px solid var(--accent); border-radius:8px; padding:12px 16px;
-  display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }}
-.sprint-tag {{ font-family:var(--mono); font-size:9px; letter-spacing:.18em; color:var(--accent); text-transform:uppercase; }}
-.tiles {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; }}
-.tile {{ border-top:2px solid var(--ink); padding-top:10px; }}
-.tile a {{ color:inherit; text-decoration:none; }}
-.tile .n {{ font-size:28px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }}
-.tile .l {{ color:var(--muted); font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; margin-top:4px; }}
-section {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }}
-h2 {{ font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transform:uppercase;
-  color:var(--muted); margin:0 0 12px; border-bottom:1px solid var(--line); padding-bottom:8px; }}
-.mcard {{ border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:12px 14px; margin-bottom:10px; }}
-.mcard:last-child {{ margin-bottom:0; }}
-.mcard .row1 {{ display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }}
-.mcard h3 {{ font-size:13.5px; font-weight:600; margin:0; line-height:1.35; flex:1; min-width:200px; }}
-.mcard .gline {{ font-size:11.5px; color:var(--soft); margin-top:5px; }}
-.mcard .gline::before {{ content:"goal · "; font-family:var(--mono); font-size:8.5px; letter-spacing:.14em;
-  text-transform:uppercase; color:var(--muted); }}
-.mcard .last {{ font-size:11.5px; color:var(--muted); margin:5px 0 0; line-height:1.45; }}
-.mcard .read {{ font-size:12px; color:var(--ink); margin:6px 0 0; line-height:1.5;
-  border-left:2px solid var(--accent); padding-left:10px; }}
-.mcard .read b {{ color:var(--accent); font-weight:600; }}
-.mcard .meta {{ display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap; }}
-.m {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }}
-.pill {{ font-family:var(--mono); font-size:8px; letter-spacing:.12em; text-transform:uppercase; padding:2px 8px;
-  border-radius:3px; white-space:nowrap; font-weight:700; }}
-.pill.ok {{ color:var(--ok); border:1px solid var(--ok); }}
-.pill.warn {{ color:var(--warn); border:1px solid var(--warn); }}
-.pill.crit {{ color:var(--crit); border:1px solid var(--crit); }}
-.pill.muted {{ color:var(--muted); border:1px solid var(--line); }}
-.acts {{ margin-left:auto; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }}
-.copybtn, .actbtn {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.12em; text-transform:uppercase;
-  cursor:pointer; background:none; border:1px solid var(--line); border-radius:4px; padding:3px 9px; color:var(--soft);
-  text-decoration:none; display:inline-block; }}
-.copybtn:hover, .actbtn:hover {{ border-color:var(--accent); color:var(--accent); }}
-.actbtn.ok {{ color:var(--ok); border-color:var(--ok); }}
-.actbtn.ok:hover {{ background:var(--ok); color:var(--panel); }}
-.actbtn.kill {{ color:var(--crit); border-color:var(--crit); }}
-.actbtn.kill:hover {{ background:var(--crit); color:var(--panel); }}
-.tog {{ cursor:pointer; user-select:none; }}
-.tog::before {{ content:"▾ "; color:var(--accent); }}
-section.closed .tog {{ margin-bottom:0; border-bottom:none; padding-bottom:0; }}
-section.closed .tog::before {{ content:"▸ "; }}
-section.closed .body {{ display:none; }}
-.oform {{ display:none; gap:8px; margin-top:10px; flex-wrap:wrap; }}
-.oform.show {{ display:flex; }}
-.oform input {{ font-family:var(--mono); font-size:11px; background:var(--panel); color:var(--ink);
-  border:1px solid var(--line); border-radius:4px; padding:6px 9px; }}
-.oform .o-rev {{ width:120px; }}
-.oform .o-out {{ flex:1; min-width:200px; }}
-.livechip {{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; padding:2px 8px;
-  border-radius:3px; font-weight:700; }}
-.intelgrid {{ display:flex; flex-direction:column; gap:8px; }}
-.intel {{ display:flex; gap:12px; align-items:baseline; text-decoration:none; color:var(--ink);
-  border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:10px 14px; flex-wrap:wrap; }}
-.intel:hover {{ border-color:var(--accent); }}
-.intel .ik {{ font-family:var(--mono); font-size:8.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }}
-.intel .it {{ font-size:13px; font-weight:600; flex:1; min-width:200px; }}
-.roomlink {{ display:inline-block; margin-top:10px; margin-right:16px; font-family:var(--mono); font-size:9px; letter-spacing:.14em;
-  text-transform:uppercase; color:var(--accent); text-decoration:none; }}
-.roomlink:hover {{ text-decoration:underline; }}
-.empty {{ color:var(--muted); font-style:italic; font-size:12.5px; }}
-/* the ONE dark interruption — asset shelf */
-section.shelf {{ background:#101010; border-color:#101010; }}
-section.shelf h2 {{ color:#8c8c82; border-color:#2c2c2a; }}
-.shelfgrid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:10px; }}
-.shelf-tile {{ display:block; text-decoration:none; border-radius:6px; overflow:hidden; background:#181817;
-  border:1px solid #2c2c2a; transition:transform .15s ease; }}
-.shelf-tile:hover {{ transform:scale(1.03); border-color:#7c9fd9; }}
-.shelf-tile img {{ width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }}
-.shelf-cap {{ display:block; padding:6px 9px; font-family:var(--mono); font-size:8px; letter-spacing:.12em;
-  text-transform:uppercase; color:#8c8c82; }}
-section.shelf .roomlink {{ color:#7c9fd9; }}
-section.shelf .empty {{ color:#8c8c82; }}
-.sysline {{ font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }}
-#toast {{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--panel);
-  font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
-  border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99; }}
-#toast.show {{ opacity:1; }}
-footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
-  font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }}
+{theme_css()}
+{CSS}
 </style>
 <div class="wrap">
 <header>
-  <div><span class="kicker">ANTIGRAVITY · COMMAND CENTER</span><h1>home<em>base</em></h1></div>
+  <div><span class="kicker">FARRICE CAIN · AGENTIC OS</span><h1>home<em>base</em></h1></div>
   {pd._shared_nav("homebase")}
 </header>
 <div class="stamp"><span>{now}</span>
@@ -442,17 +1017,43 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
   <span class="m">sweep {esc(sweep_age)}</span>
   <button class="actbtn" type="button" data-action="refresh">↻ refresh data</button></div>
 
-<div class="zone">Focus</div>
 {sprint_html}
-<div class="tiles">
-  <div class="tile"><a href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
-  <div class="tile"><div class="n">{len(needs_you)}</div><div class="l">need you now</div></div>
-  <div class="tile"><div class="n">{due_count}</div><div class="l">outcomes due</div></div>
-  <div class="tile"><a href="{esc(room_uri)}" data-route="/room"><div class="n">{brief_total}</div><div class="l">briefs in the room</div></a></div>
-  <div class="tile"><a href="{esc(board_uri)}" data-route="/assets"><div class="n">{asset_total}</div><div class="l">assets on the board</div></a></div>
-  <div class="tile"><div class="n">{esc(threads_promoted)}</div><div class="l">threads promoted</div></div>
+
+<div class="cockpit">
+  <div class="col" id="col-left">
+    <section class="widget" data-wid="clock"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Now</h2><div class="clock"><div class="ct"><span id="clockhm">--:--:--</span> <span class="ap" id="clockap"></span></div>
+      <div class="cd" id="clockdate"></div></div></section>
+    <section class="widget" data-wid="apps"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Micro apps</h2><div class="wbody">{apps_html}</div></section>
+    <section class="widget" data-wid="focus"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Focus</h2><div class="wbody">{tiles_html}</div></section>
+  </div>
+  <div class="stagewrap">
+    <div class="stage">
+      {ring_html}
+      <a class="portal" href="{esc(brain_uri)}" data-route="/brain" title="open the second brain">
+        <canvas id="portalcv"></canvas>
+        <span class="pcap">open the second brain</span>
+      </a>
+    </div>
+    <div class="ringbar"><input id="ringsearch" type="search"
+      placeholder="search {ring_n} artifacts on the ring…" autocomplete="off"></div>
+    <div id="ringcap"></div>
+  </div>
+  <div class="col" id="col-right">
+    <section class="widget" data-wid="needs"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>
+      <div class="wbody">{needs_html}</div></section>
+    <section class="widget" data-wid="deck"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Skills deck</h2><div class="wbody">{deck_html}</div></section>
+    <section class="widget" data-wid="routines"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>Routines — {routines_total} scheduled</h2><div class="wbody">{routines_html}</div></section>
+    <section class="widget" data-wid="sys"><span class="grip" title="drag to reorder">⠿</span>
+      <h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span>
+      <a class="roomlink" href="{esc(library_uri)}" data-route="/library">browse the library ↗</a></section>
+  </div>
 </div>
-<section><h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>{needs_html}</section>
 
 <div class="zone">Launch — pick up where work left off</div>
 <section><h2>Resumable threads (sweep, {esc(sweep_age)})</h2>{launch_html}</section>
@@ -466,126 +1067,15 @@ footer {{ border-top:1px solid var(--ink); padding-top:12px; display:flex; justi
 <section class="shelf"><h2>Asset shelf — newest generations</h2>
   <div class="shelfgrid">{shelf_html}</div>
   <a class="roomlink" href="{esc(board_uri)}" data-route="/assets">open the asset board ↗</a></section>
-<section><h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span>
-  <a class="roomlink" href="{esc(library_uri)}" data-route="/library">browse everything in the library ↗</a></section>
 
 <section class="closed"><h2 class="tog">Outcomes due ({due_count})</h2><div class="body">{outcomes_html}</div></section>
 <section class="closed"><h2 class="tog">Recently closed</h2><div class="body">{closed_html}</div></section>
 
-<footer><span>ANTIGRAVITY HOMEBASE</span><span>@farricecain</span></footer>
+<footer><span>FARRICE CAIN · AGENTIC OS · HOMEBASE</span><span>@farricecain</span></footer>
 </div>
 <div id="toast">copied</div>
 <script>
-const PULSE_LIVE = location.protocol.startsWith('http');
-const REPO_ROOT_URI = {json.dumps(Path(ROOT).as_uri())};
-if (PULSE_LIVE) {{
-  const lc = document.getElementById('livechip');
-  lc.textContent = 'live — actions write instantly';
-  lc.classList.remove('muted'); lc.classList.add('ok');
-}}
-if (PULSE_LIVE) document.querySelectorAll('a[data-route]').forEach(a => {{ a.href = a.dataset.route; }});
-if (PULSE_LIVE) document.querySelectorAll('a[data-repo]').forEach(a => {{ a.href = a.dataset.repo; }});
-// dual-mode media: live pages load thumbs over /repo/, file:// pages from disk
-document.querySelectorAll('img[data-rel]').forEach(img => {{
-  img.src = PULSE_LIVE ? '/repo/' + img.dataset.rel : REPO_ROOT_URI + '/' + img.dataset.rel;
-}});
-function _toast(msg) {{
-  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 1600);
-}}
-function _copy(txt, msg) {{
-  function done() {{ _toast(msg || 'copied'); }}
-  if (navigator.clipboard && navigator.clipboard.writeText) {{
-    navigator.clipboard.writeText(txt).then(done, () => {{
-      const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
-      document.body.appendChild(ta); ta.select();
-      try {{ document.execCommand('copy'); }} catch (e) {{}}
-      document.body.removeChild(ta); done();
-    }});
-  }}
-}}
-function _sq(s) {{ return "'" + String(s).replace(/'/g, `'\\''`) + "'"; }}
-function _cli(action, args) {{
-  const base = 'python3 execution/pulse_actions.py ';
-  if (action === 'done') return base + 'done ' + _sq(args.slug) + ' --outcome ' + _sq(args.outcome || '');
-  if (action === 'park') return base + 'park ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
-  if (action === 'refresh') return base + 'refresh';
-  if (action === 'kill') return base + 'kill ' + _sq(args.slug) + ' --reason ' + _sq(args.reason || '');
-  if (action === 'reopen') return base + 'reopen ' + _sq(args.slug);
-  if (action === 'outcome') return base + 'outcome ' + _sq(args.deliverable) + ' --revenue ' + (args.revenue || 0) + ' --outcome ' + _sq(args.outcome || '');
-  if (action === 'outcome-snooze') return base + 'outcome-snooze ' + _sq(args.deliverable);
-  if (action === 'outcome-dismiss') return base + 'outcome-dismiss ' + _sq(args.deliverable);
-  return base;
-}}
-function doAction(action, args) {{
-  if (!PULSE_LIVE) {{ _copy(_cli(action, args), 'server offline — command copied'); return; }}
-  fetch('/action', {{ method: 'POST', headers: {{ 'Content-Type': 'application/json' }},
-                     body: JSON.stringify({{ action, args }}) }})
-    .then(r => r.json())
-    .then(j => {{
-      if (j.ok) {{ _toast(action === 'refresh' ? 'refreshing data — page reloads when ready' : 'done — refreshing');
-                  if (action !== 'refresh') setTimeout(() => location.reload(), 700); }}
-      else {{ _toast('action failed — see server log'); }}
-    }})
-    .catch(() => {{ _copy(_cli(action, args), 'server unreachable — command copied'); }});
-}}
-document.querySelectorAll('.actbtn[data-action]').forEach(b => b.addEventListener('click', () => {{
-  const act = b.dataset.action;
-  if (act === 'done') {{
-    const outcome = prompt('One-line outcome for the log:', 'closed from homebase');
-    if (outcome === null) return;
-    doAction('done', {{ slug: b.dataset.slug, outcome }});
-  }} else if (act === 'park') {{
-    const reason = prompt('Park reason (one line):');
-    if (reason === null) return;
-    doAction('park', {{ slug: b.dataset.slug, reason }});
-  }} else if (act === 'kill') {{
-    if (!confirm('Kill this thread? It disappears from every board (ledger-recoverable).')) return;
-    const reason = prompt('Kill reason (required):');
-    if (!reason) return;
-    doAction('kill', {{ slug: b.dataset.slug, reason }});
-  }} else if (act === 'reopen') {{
-    doAction('reopen', {{ slug: b.dataset.slug }});
-  }} else if (act === 'outcome') {{
-    b.closest('.mcard').querySelector('.oform').classList.toggle('show');
-  }} else if (act === 'outcome-snooze') {{
-    doAction('outcome-snooze', {{ deliverable: b.closest('.mcard').dataset.deliverable }});
-  }} else if (act === 'outcome-dismiss') {{
-    if (confirm('Mark as no-outcome-expected? (writes archived-no-data)'))
-      doAction('outcome-dismiss', {{ deliverable: b.closest('.mcard').dataset.deliverable }});
-  }} else if (act === 'refresh') {{
-    doAction('refresh', {{}});
-  }}
-}}));
-document.querySelectorAll('.o-save').forEach(b => b.addEventListener('click', () => {{
-  const card = b.closest('.mcard');
-  doAction('outcome', {{ deliverable: card.dataset.deliverable,
-                        revenue: parseFloat(card.querySelector('.o-rev').value) || 0,
-                        outcome: card.querySelector('.o-out').value || '' }});
-}}));
-document.querySelectorAll('.tog').forEach(h => h.addEventListener('click', () =>
-  h.closest('section').classList.toggle('closed')));
-document.querySelectorAll('.copybtn').forEach(b => b.addEventListener('click', () => {{
-  if (b.dataset.copy !== undefined) _copy(b.dataset.copy);
-}}));
-if (PULSE_LIVE) {{
-  // http pages cannot navigate to file:// — route those clicks through the server's OS opener.
-  document.querySelectorAll('a[href^="file:"]:not([data-route]):not([data-repo])').forEach(a => a.addEventListener('click', ev => {{
-    ev.preventDefault();
-    fetch('/action', {{ method: 'POST', headers: {{ 'Content-Type': 'application/json' }},
-                       body: JSON.stringify({{ action: 'open-path', args: {{ uri: a.href }} }}) }})
-      .then(r => r.json()).then(j => _toast(j.ok ? 'opened' : 'open failed'))
-      .catch(() => _toast('open failed'));
-  }}));
-  // side-window live reload — refresh when the board regenerates underneath us
-  let baseline = null;
-  setInterval(() => {{
-    fetch('/ping').then(r => r.json()).then(j => {{
-      if (baseline === null) {{ baseline = j.homebase_mtime; return; }}
-      if (j.homebase_mtime && j.homebase_mtime !== baseline) location.reload();
-    }}).catch(() => {{}});
-  }}, 5000);
-}}
+{script}
 </script>"""
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

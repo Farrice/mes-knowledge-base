@@ -36,6 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # /pulse and /missions redirect to / in pulse_serve.
 HOME_BASES = {
     "homebase": ("🏠 homebase",      ROOT / ".agent" / "homebase" / "homebase.html"),
+    "brain":   ("🧠 brain",          ROOT / ".agent" / "brain" / "brain.html"),
     "library": ("🏛 library",       ROOT / ".agent" / "catalog" / "library.html"),
     "briefs":  ("📋 briefing room",  ROOT / "deliverables" / "research-briefs" / "index.html"),
     "assets":  ("🎨 asset board",    ROOT / ".agent" / "assets" / "assets-board.html"),
@@ -50,6 +51,7 @@ HOME_BASES = {
 # http pages, so navigation between home bases stays inside the live server.
 ROUTES = {
     "homebase": "/",
+    "brain": "/brain",
     "library": "/library",
     "briefs": "/room",
     "assets": "/assets",
