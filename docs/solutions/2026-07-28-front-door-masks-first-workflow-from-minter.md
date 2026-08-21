@@ -1,3 +1,13 @@
+---
+date: 2026-07-28
+session: hilary-gridley forge
+name: front-door-masks-first-workflow-from-minter
+problem_class: harness / arsenal / masked reachability
+domain: harness
+status: proven
+problem_signature: "after a fresh forge the wrapper minter reports nothing pending and writes nothing, yet one workflow — usually the flagship, the first one in the skill — silently has no slash command"
+tags: [arsenal, minting, front-door, wrappers, forge, reachability]
+---
 # Solution Card — Front door's example row masks a skill's first workflow from the wrapper minter
 
 **Date**: 2026-07-28 · **Domain**: system / arsenal loop · **Session**: hilary-gridley forge

@@ -1,3 +1,13 @@
+---
+date: 2026-08-02
+session: cost-gate pattern fix
+name: hook-pattern-false-positives-anchor-to-invocation
+problem_class: harness / hooks / regex false positive
+domain: harness
+status: proven
+problem_signature: "a PreToolUse hook blocks read-only commands like head, grep, sed, or git diff because its pattern matches a bare script filename mentioned anywhere in the command text, so plain exploration trips a money gate denial"
+tags: [hooks, cost-gate, regex, false-positive, self-test, bash]
+---
 # Solution Card — Hook regex false positives: anchor to invocation shape, pin with a golden corpus
 
 **Problem shape:** a PreToolUse hook that pattern-matches Bash command text on bare *filenames* (e.g. `fal_video_seedance\.py`) fires on read-only commands that merely mention the file (`head`, `grep`, `sed`, `git diff`) — blocking innocent work with a money-gate denial. Evidenced twice on 2026-08-02 during read-only exploration.

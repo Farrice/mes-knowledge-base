@@ -1,3 +1,13 @@
+---
+date: 2026-07-16
+session: jenny-hoyos forge expansion
+name: rubber-stamp-blind-pass-artifact-only-retest
+problem_class: harness / verification / self-graded pass
+domain: harness
+status: proven
+problem_signature: "a blind pass or finalize shows up in the ledger with a high score but no generated-vs-reference comparison ever existed — the fleet that built the thing graded its own homework, and the rubber stamp looks identical to a real pass"
+tags: [blind-pass, verification, forge, self-grading, extraction, ledger]
+---
 # Rubber-Stamp Blind Pass → Artifact-Only Retest → Diction Ratchet
 
 **Date**: 2026-07-16

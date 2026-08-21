@@ -1,3 +1,13 @@
+---
+date: 2026-07-24
+session: loop-engineering integration (wayfinder)
+name: loops-die-at-the-last-mile
+problem_class: harness / compound loops / unclosed loop
+domain: harness
+status: proven
+problem_signature: "a feedback loop was built and its capture side runs (logs grow, queues fill, cards generate) but behavior never changes — signal produced, never consumed; ritual closers never run"
+tags: [loops, compounding, closers, launchd, audit, telemetry]
+---
 # Loops die at the last mile — audit the closing arm, not the capture arm
 
 **Date**: 2026-07-24 · **Session**: loop-engineering integration (wayfinder) · **Domain**: system / compound loops / self-improvement

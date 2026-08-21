@@ -1,3 +1,13 @@
+---
+date: 2026-07-27
+session: writers-room load-truth fix
+name: expert-load-truth
+problem_class: harness / workflow execution / laundered pass
+domain: harness
+status: proven
+problem_signature: "a multi-expert room credits a dozen experts by name in its output but only ever loaded one or two files — the run reads like a full pass, the quality is worse than expected, and nothing anywhere compares experts named against experts actually loaded"
+tags: [writers-room, expert-load, telemetry, lens-cards, grep, ledger]
+---
 # Solution Card — the laundered half-pass: named 13 experts, loaded 1
 
 **Date:** 2026-07-27 · **Domain:** harness / workflow execution · **Trigger:** Farrice, after a /writers-room run made his About worse: *"Are we tapping into the full layers of the genius profiles like we should?... if I had to say anything, I feel like this is laziness that's happening."*

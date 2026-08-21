@@ -1,3 +1,13 @@
+---
+date: 2026-07-21
+session: go-v3 build
+name: wired-but-never-loaded-prompts
+problem_class: harness / wiring / load-path hole
+domain: harness
+status: proven
+problem_signature: "every wiring audit passes green yet the operator says the prompts or contracts are not linked — the asset is linked on disk but never arrives in context, because the way it actually gets invoked (a bare slash command) skips the file the injection hangs off"
+tags: [prompts, wiring, wrappers, load-path, audit, routing]
+---
 # Wired-but-never-loaded — an asset linked on disk is not an asset loaded at fire time
 
 **Date**: 2026-07-21 · **Session**: /go-v3 build · **Domain**: system / prompt wiring / routing

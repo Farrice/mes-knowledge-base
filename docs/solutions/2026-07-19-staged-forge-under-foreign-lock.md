@@ -1,3 +1,13 @@
+---
+date: 2026-07-19
+session: oren-dara-ad-psychology forge
+name: staged-forge-under-foreign-lock
+problem_class: harness / session locks / blocked build
+domain: harness
+status: proven
+problem_signature: "a multi-file build is blocked because a sibling session holds a fresh tree lock, and every documented option — wait, coordinate, or open a worktree — costs either idle wall-clock or merge complexity"
+tags: [session-lock, forge, worktree, staging, concurrency, rsync]
+---
 # Staged Forge Under a Foreign Session Lock
 
 **Date**: 2026-07-19 · **Domain**: system / orchestration · **Session**: oren-dara-ad-psychology forge

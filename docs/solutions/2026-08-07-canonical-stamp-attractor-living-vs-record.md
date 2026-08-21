@@ -1,3 +1,13 @@
+---
+date: 2026-08-07
+session: living-vs-record rollout
+name: canonical-stamp-attractor-living-vs-record
+problem_class: harness / retrieval / frozen canon
+domain: harness
+status: proven
+problem_signature: "a document stamped canonical keeps outranking newer work — every session gets pointed back at one frozen snapshot instead of the accumulated current files — and the same project has several files each claiming to be the one index to open first"
+tags: [canonical, living-vs-record, front-door, artifact-placement, retrieval, drift]
+---
 # The canonical stamp became an attractor — the living-vs-record rule replaced it
 
 **Date**: 2026-08-07 · **Reported by**: Farrice · **Status**: shipped

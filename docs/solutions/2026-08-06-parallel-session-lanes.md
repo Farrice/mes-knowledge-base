@@ -1,3 +1,13 @@
+---
+date: 2026-08-06
+session: parallel session lanes build
+name: parallel-session-lanes
+problem_class: harness / concurrency / worktree lanes
+domain: harness
+status: proven
+problem_signature: "running more than one session on this repo keeps corrupting the tree, and worktrees are not a real escape hatch because every hook dies silently in a fresh worktree — no routing, no ledger, no cost gate, no git guards"
+tags: [worktrees, lanes, concurrency, hooks, merge, golden-rule]
+---
 # Solution Card — Parallel Session Lanes (the golden rule, automated)
 
 **Problem.** Running multiple sessions on this repo corrupted the tree repeatedly

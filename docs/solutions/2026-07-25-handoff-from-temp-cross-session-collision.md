@@ -1,3 +1,13 @@
+---
+date: 2026-07-25
+session: bc-arsenal-install closeout
+name: handoff-from-temp-cross-session-collision
+problem_class: harness / handoff / recency collision
+domain: harness
+status: proven
+problem_signature: "the closeout saved the handoff with from-temp and it silently picked up a sibling session's body, so resume hands the next session a confident, well-formed, completely wrong context filed under the right title"
+tags: [handoff, end-session, concurrency, temp-dir, resume, collision]
+---
 # Solution Card — `handoff_store.py --from-temp` grabs a sibling session's handoff
 
 **Date**: 2026-07-25 · **Domain**: system fix (handoff/resume loop) · **Status**: SOLVED (workaround; guard not built)
