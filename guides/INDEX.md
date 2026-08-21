@@ -372,6 +372,7 @@
 
 
 ## Pending enrichment
+- [2026-08-21 — Handoff — execution](2026-08-21-handoff-execution.md) — operator-guide stub, needs enrichment
 - [2026-08-21 — Homebase 2.0 — Agentic OS Cockpit](2026-08-21-homebase-2-0-agentic-os-cockpit.md) — operator-guide stub, needs enrichment
 - [2026-08-21 — Extraction: Tommy Clark LinkedIn OS - 2026 Strategy Harvested](2026-08-21-guides-empty-slug-fix.md) — session-brief stub, needs enrichment
 - (none)

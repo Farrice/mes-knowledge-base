@@ -121,3 +121,4 @@ killed: test-kill-2 (no matching handoff thread) — server-path sabotage test
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 40244s ago)
 [pulse_serve] alive → http://127.0.0.1:8765/  (last hit 43844s ago)
 [pulse_serve] live → http://127.0.0.1:8765/  (always-on: no idle exit)
+[pulse_serve] alive → http://127.0.0.1:8765/  (last hit 885s ago)

@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-21T17:18:50.042745+00:00",
+  "ts": "2026-08-21T18:19:02.067557+00:00",
   "dry_run": false,
-  "lanes": 23,
+  "lanes": 22,
   "merged": 0,
-  "torn_down": 2,
-  "parked": 5,
+  "torn_down": 0,
+  "parked": 6,
   "live": 16,
-  "stranded_commits": 34,
+  "stranded_commits": 39,
   "results": [
     {
       "branch": "worktree-cash-paths-research",
@@ -16,6 +16,17 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "6 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "worktree-second-brain-awakening",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening",
+      "commits_ahead": 5,
+      "dirty_files": 0,
+      "conflicts": [
+        ".agent/homebase/homebase.html"
+      ],
+      "action": "parked-conflict",
+      "detail": "1 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/vigilant-leakey-5f6293",
@@ -34,11 +45,10 @@
       "conflicts": [
         "SLASH_COMMANDS.md",
         "directives/feedback-ratchet.md",
-        "directives/quality_gate.md",
-        "directives/session-state-protocol.md"
+        "directives/quality_gate.md"
       ],
       "action": "parked-conflict",
-      "detail": "4 file(s) collide \u2014 needs resolution"
+      "detail": "3 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/zen-curran-72d8e2",
@@ -123,15 +133,6 @@
       "detail": "1 uncommitted file(s) \u2014 a session is still working here"
     },
     {
-      "branch": "codex/linkedin-pmf-caleb-deployment",
-      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-pmf-caleb-deployment",
-      "commits_ahead": 0,
-      "dirty_files": 0,
-      "conflicts": [],
-      "action": "torn-down",
-      "detail": "LANE PARKED: ? \u2014 main tree dirty (11 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
-    },
-    {
       "branch": "codex/linkedin-pmf-closeout",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-pmf-closeout",
       "commits_ahead": 1,
@@ -139,15 +140,6 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "65 uncommitted file(s) \u2014 a session is still working here"
-    },
-    {
-      "branch": "codex/linkedin-pmf-end-session",
-      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-pmf-end-session",
-      "commits_ahead": 0,
-      "dirty_files": 0,
-      "conflicts": [],
-      "action": "torn-down",
-      "detail": "LANE PARKED: ? \u2014 main tree dirty (11 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
     },
     {
       "branch": "codex/mert-consultancy-spine",
