@@ -497,6 +497,12 @@ def recall(
                   key=lambda r: r["score"], reverse=True)
     final = (pinned + rest)[:top_k]
 
+    # Read instrumentation: only the rows that actually reached the caller.
+    # Bumping inside _query_sovereign would over-count — that path returns
+    # per_store candidates, many of which dedup/top_k then drops.
+    _bump_sovereign_access([r["id"] for r in final
+                            if r.get("source") == "sovereign" and r.get("id")])
+
     payload = {
         "query": query,
         "workspace": workspace,
@@ -507,6 +513,38 @@ def recall(
     }
     _log_fire(payload)
     return payload
+
+
+def _bump_sovereign_access(ids: List[str]) -> None:
+    """Record that these sovereign rows were actually surfaced to a caller.
+
+    Before this (2026-08-21), `memories.access_count` / `last_accessed` sat
+    frozen at their one-time backfill values for every row in the table, so
+    nothing downstream — decay, pruning, "which memories does the system
+    actually use" — could tell a hot row from a dead one. Reads were the only
+    signal never captured.
+
+    Telemetry only, and deliberately cheap: short busy timeout so a locked db
+    (harvest/distill writing) is skipped rather than waited on, and every
+    exception swallowed. A failed bump must never degrade a recall.
+    """
+    if not ids or not SOVEREIGN_DB.exists():
+        return
+    try:
+        con = sqlite3.connect(str(SOVEREIGN_DB), timeout=0.5)
+        try:
+            con.execute("PRAGMA busy_timeout = 500")
+            placeholders = ",".join("?" * len(ids))
+            con.execute(
+                "UPDATE memories SET access_count = COALESCE(access_count, 0) + 1, "
+                f"last_accessed = ? WHERE id IN ({placeholders})",
+                [datetime.now(timezone.utc).isoformat(), *ids],
+            )
+            con.commit()
+        finally:
+            con.close()
+    except Exception:
+        pass
 
 
 def _log_fire(payload: Dict[str, Any]) -> None:

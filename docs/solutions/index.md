@@ -2,19 +2,23 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-05 · Listing URL → Sendable Package Pipeline (register-ladder, claims-ledger, one checkpoint) · a client listing url or property drop produces surface-level ai listing copy in the wrong register with unverified claims and a package that needs manual editing before it can be forwarded, because research, register selection, fact provenance, compliance, and the send shape all lived in memory instead of machinery
+- 2026-08-04 · kdp-book-one-policy-safe-runtime-proof · A creator-led KDP extraction can turn unsafe or unverified tactics into a fast AI-book workflow unless policy truth, proof axes, permission gates, and detached runtime behavior are built into the owner.
+- 2026-08-04 · search-content-mastery-os · Turn an eleven-video SEO corpus into one evidence-bounded conductor with strict imports, transparent scoring, routing parity, and honest outcome states without duplicating expert skills or offer canon.
 - 2026-08-02 · final-bundle-hash-is-not-runtime-provenance · A source-to-skill behavior verifier can hash every final artifact yet still falsely pass self-attested acceptance, hidden reads, post-hoc label mapping, empty intermediates, or fabricated method deltas.
+- 2026-08-02 · storytelling-input-sufficiency · A cross-domain storytelling router treated missing presentation context as a hard failure even when story evidence was sufficient.
 - 2026-08-01 · imagegen-static-placement-correction · image generation returned a taller portrait after an explicit 4:5 request, so downstream static variants risked inheriting the wrong placement
-- 2026-08-01 · codex-end-session-exact-handoff-and-owned-git · Shared closeout can bind the wrong temp handoff or sweep unrelated repository changes because recency is treated as identity and working-tree membership as ownership.
 - 2026-08-01 · in-place-expert-expansion-behavior-proof · A source adds a connected method to an existing expert, but a new skill would duplicate authority and structural wiring alone would not prove changed behavior.
 - 2026-07-31 · Capability Lifecycle Language No Longer Triggers End Session · a persistent start-mid-closeout behavior request contains closeout and is misclassified as a request to end the current session
+- 2026-07-30 · dhar-transformational-story-system-forge · Turn one source-rich interview into a distinct reusable content system without expert soup, invented craft, or premature plugin packaging
 - 2026-07-30 · provisional-content-signal-loop · Deploy a source-grounded content signal loop when creator taste evidence exists but live platform metrics do not
 - 2026-07-28 · opus5-adaptation-bound-injector · Model-specific corrections scattered across prose + system reminders instead of a live injector that fires every prompt and adapts to dialect
-- 2026-07-28 · 2026-07-28-slash-commands-skill-family-documentation · 
+- 2026-07-28 · 2026-07-28-slash-commands-skill-family-documentation · a self-heal/verify check reports hundreds of workflows 'missing from SLASH_COMMANDS.md' and blames an unfixable generator bug — but the generator is deliberately grouping skill-family commands to keep the file small, and only the verifier's explicit-backtick scan fails to see them
 - 2026-07-27 · every-failure-defaults-to-the-human · a check reports pass/fail with no notion of WHO fixes it, so every failure escalates to the human by default
 - 2026-07-27 · verification-with-no-reader · verification machinery that reports to a log file nobody reads is indistinguishable from no verification
 - 2026-07-26 · shallow-research-passed-as-trusted · Ad-hoc Workflow research swarms run single-pass on search snippets with self-verified evidence and no depth floor binds them, so reconnaissance ships as decision-grade insight through finalize
-- 2026-07-25 · 2026-07-25-expert-sop-harvest-to-sellable-package · 
-- 2026-07-25 · 2026-07-25-instagram-voice-scrape-without-downloads · 
+- 2026-07-25 · 2026-07-25-expert-sop-harvest-to-sellable-package · an expert's client-deliverable SOP exists only as documents shown on screen in their videos — transcript-only extraction returns patterns instead of the replicable system (templates, client package, business model), and the obvious route demands their paid course and tool stack
+- 2026-07-25 · 2026-07-25-instagram-voice-scrape-without-downloads · a client's real voice lives in Instagram posts but every download path is blocked — yt-dlp returns an empty media response anonymously, --cookies-from-browser hangs on Chrome's locked cookie DB, and /watch reports needs_key, so the obvious url-to-transcript pipeline dead-ends at both stages
 - 2026-07-24 · replicate-creator-tool-stack-at-zero-cost · A YouTube creator demos a high-value agent stack built on paid third-party APIs; how to replicate and surpass it without new subscriptions
 - 2026-07-23 · Notion loadCachedPageChunk Silently Paginates — Follow the Cursor or Lose 30% · a Notion public-api scrape (api/v3 loadCachedPageChunk) returns 200 with a plausible recordMap; content silently truncated ~100 blocks in — child refs missing from recordMap, tables/rows absent, no error anywhere
 - 2026-07-21 · ai-revenue-market-triangulation · How to separate current AI category demand from a validated offer for an AI-loving strategist seeking near-term revenue
@@ -52,8 +56,3 @@ One line per card: date · name · problem_signature.
 - 2026-07-07 · SessionEnd Hook Re-Entry Guard · SessionEnd hook side-effects (closeout spine) double-fire on clear+exit because PostToolUse marker-detection can't see hook-internal subprocess calls
 - 2026-07-07 · Transcript-Only Extraction Produces Generic, Unusable Output · an expert extraction built from transcripts alone is mechanically correct but generic and low-grip (5/10) — it captures WHAT the expert does, not HOW; no real voice, no verbatim exemplars, no specificity; user says "I couldn't use any of this to see results"
 - 2026-07-07 · Zero-Survivor Phantom Deliverable in Fan-Out Pipelines · fan-out workflow where all workers at a stage die still reports complete and returns a deliverable path that was never written
-- 2026-08-02 · storytelling-input-sufficiency · A cross-domain storytelling router treated missing presentation context as a hard failure even when story evidence was sufficient.
-- 2026-07-30 · dhar-transformational-story-system-forge · Turn one source-rich interview into a distinct reusable content system without expert soup, invented craft, or premature plugin packaging
-- 2026-07-28 · front-door-masks-first-workflow-from-minter · the generated expert front door cites the first workflow path as its example row, which arsenal_index reads as "reachable," so the minter silently skips that workflow's /command on every fresh forge
-- 2026-08-04 · kdp-book-one-policy-safe-runtime-proof · A creator-led KDP extraction can turn unsafe or unverified tactics into a fast AI-book workflow unless policy truth, proof axes, permission gates, and detached runtime behavior are built into the owner.
-- 2026-08-04 · search-content-mastery-os · Turn an eleven-video SEO corpus into one evidence-bounded conductor with strict imports, transparent scoring, routing parity, and honest outcome states without duplicating expert skills or offer canon.

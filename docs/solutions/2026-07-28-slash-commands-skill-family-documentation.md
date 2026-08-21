@@ -3,6 +3,7 @@ title: Slash Commands — Recognizing Skill-Family Documentation
 status: shipped
 date: 2026-07-28
 problem: "stale_slash_commands JUDGMENT reported 826 missing commands"
+problem_signature: "a self-heal/verify check reports hundreds of workflows 'missing from SLASH_COMMANDS.md' and blames an unfixable generator bug — but the generator is deliberately grouping skill-family commands to keep the file small, and only the verifier's explicit-backtick scan fails to see them"
 root_cause: "Architecture gap between generation and verification"
 ---
 
