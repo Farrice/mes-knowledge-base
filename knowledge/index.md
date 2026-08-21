@@ -1,5 +1,5 @@
 # Knowledge Index
-*1136 sources | 3,499,143 words | Updated: 2026-08-20*
+*1139 sources | 3,512,859 words | Updated: 2026-08-21*
 
 ---
 
@@ -14,7 +14,7 @@
 - [mastery-extraction](../extractions/oren-1person-ai-marketing/mastery-extraction.md) [oren-john] — 8,389 words
 - [visual-context](../extractions/meg-heckman/video-context-iFvHwZBIwoA/visual-context.md) — 8,135 words
 - [extraction-report](../extractions/cody-schneider-signal-outbound/extraction-report.md) — 7,487 words
-- [index](index.md) — 7,247 words
+- [index](index.md) — 6,828 words
 - [weatherbot-extraction](../extractions/prediction-market-trading/weatherbot-extraction.md) — 6,774 words
 - [Guide_5_Trailer_Storytelling_Narrative](creative-direction/guides/Guide_5_Trailer_Storytelling_Narrative.md) — 5,775 words
 - [2025-05-entertain-or-die-keynote](../extractions/benoit-vatere/reference-corpus/2025-05-entertain-or-die-keynote.md) — 5,611 words
@@ -349,7 +349,7 @@
 - [uncertainty](../extractions/video-context/vVJB2FjOF2k/uncertainty.md) — 62 words
 - [source-metadata](../extractions/ron-lynch/source-metadata.md) — 36 words
 
-## Copywriting (211 files)
+## Copywriting (212 files)
 
 - [video-context-ledger](../extractions/video-context/UFNlbNa2T4w/video-context-ledger.md) — 75,432 words
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md) [cardinal-mason] — 60,673 words
@@ -386,6 +386,7 @@
 - [DESIGN](design-libraries/brands/bmw/DESIGN.md) — 3,596 words
 - [sales-psychology-mastery-blueprint](../extractions/jason-fladlien/buyer-psychology-intelligence-layer/sales-psychology-mastery-blueprint.md) [jason-fladlien] — 3,561 words
 - [sales-stuck-fix](../extractions/sean-dollwet-kdp-publishing/reference-corpus/sales-stuck-fix.md) — 3,460 words
+- [structures-ledger](../extractions/sean-vosler/mining/structures-ledger.md) [april-dunford] — 3,291 words
 - [architecture-checkpoint](../extractions/video-context/4HqO0h13MX4/architecture-checkpoint.md) — 2,963 words
 - [source-ledger](../extractions/kyle-milligan-copywriting/source-ledger.md) — 2,826 words
 - [DESIGN](design-libraries/brands/cohere/DESIGN.md) — 2,769 words
@@ -580,7 +581,7 @@
 - [video-context-ledger](../extractions/video-context/B90eANIJ2XI/video-context-ledger.md) — 31,692 words
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
-- [log](log.md) — 19,416 words
+- [log](log.md) — 19,437 words
 - [video-context-ledger](../extractions/video-context/H_TvNSNbRiU/video-context-ledger.md) [jason-fladlien] — 16,634 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
 - [video-context-ledger](../extractions/video-context/jbPNjNtQqk0/video-context-ledger.md) — 13,566 words
@@ -813,7 +814,7 @@
 - [frame-notes](../extractions/video-context/ooGeFK70d5U/frame-notes.md) — 18 words
 - [ocr-notes](../extractions/video-context/ooGeFK70d5U/ocr-notes.md) — 18 words
 
-## Strategy (115 files)
+## Strategy (116 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words
@@ -824,6 +825,7 @@
 - [poly-maker-source](../extractions/prediction-market-trading/raw-sources/poly-maker-source.md) — 6,252 words
 - [pages-241-280](../extractions/sean-vosler-7fmc/harvest/pages-241-280.md) [april-dunford] — 6,036 words
 - [brutal-kdp-advice](../extractions/sean-dollwet-kdp-publishing/reference-corpus/brutal-kdp-advice.md) — 5,593 words
+- [consumers-ledger](../extractions/sean-vosler/mining/consumers-ledger.md) — 5,205 words
 - [2026-05-04](zeitgeist-archive/2026-05-04.md) [dai-media] — 4,015 words
 - [human_values_collective_landscape_report](../research_outputs/human_values_collective_landscape_report.md) — 3,634 words
 - [2026-07-18-founding-brief](../research_outputs/market-pulse/2026-07-18-founding-brief.md) [april-dunford] — 3,633 words
@@ -931,7 +933,7 @@
 - [blind-pass-log](../extractions/jason-fladlien-marketing/blind-pass-log.md) [jason-fladlien] — 77 words
 - [blind-pass-log](../extractions/riley-brown-marketing-automation/blind-pass-log.md) — 74 words
 
-## Brand (66 files)
+## Brand (67 files)
 
 - [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md) [dai-media] — 69,583 words
 - [Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out](extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md) — 63,227 words
@@ -940,6 +942,7 @@
 - [creatives-guide-to-personal-branding](../extractions/oren-identity-brand-os/reference-corpus/creatives-guide-to-personal-branding.md) [oren-john] — 9,840 words
 - [transcript](../extractions/oren-norton-brand-world-building/transcript.md) [oren-john] — 9,599 words
 - [video-narration-transcript](../extractions/ray-amjad-agentic-ladder/reference-corpus/video-narration-transcript.md) [nick-saraev] — 7,217 words
+- [founders-ledger](../extractions/sean-vosler/mining/founders-ledger.md) — 5,618 words
 - [companion-stussy-art-direction-transcript](../extractions/oren-john-identity-marketing/companion-stussy-art-direction-transcript.md) [oren-john] — 5,153 words
 - [source-transcript](../extractions/oren-john-identity-marketing/source-transcript.md) [oren-john] — 4,856 words
 - [mastery-extraction](../extractions/oren-john-identity-marketing/mastery-extraction.md) [oren-john] — 4,257 words

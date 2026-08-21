@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-08-20 | 1136 sources | 3,499,143 words*
+*Generated: 2026-08-21 | 1139 sources | 3,512,859 words*
 
 ---
 
@@ -21,11 +21,11 @@
 | Domain | Files | Top Expert |
 |--------|-------|------------|
 | content | 343 | nathan-gotch |
-| copywriting | 211 | jason-fladlien |
+| copywriting | 212 | jason-fladlien |
 | general | 123 | nick-saraev |
 | screenwriting | 121 | connelly |
-| strategy | 115 | april-dunford |
-| brand | 66 | oren-john |
+| strategy | 116 | april-dunford |
+| brand | 67 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |
 | research | 40 | jason-fladlien |

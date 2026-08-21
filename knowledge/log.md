@@ -786,3 +786,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-18 10:30]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:7.0 status:Needs Improvement
 - `[2026-08-18 10:31]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:8.0 status:Keep
 - `[2026-08-20 15:30]` **finalize** | Sean Vosler — research-arbitrage copywriting & contrarian argument architecture mastery extraction ( | general | sean-vosler — composite:8.0 status:Keep
+- `[2026-08-21 04:05]` **finalize** | Supplement/performance-brand language bank — Vosler research-arbitrage for Proof-to-Market sprint | general | sean-vosler — composite:8.67 status:Keep
