@@ -1,6 +1,6 @@
 # For Farrice as a solo operator who needs collected cash…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 21, 2026
 
 You are running two offers and no distribution. Kill one this week.
 

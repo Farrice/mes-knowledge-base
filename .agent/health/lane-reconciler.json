@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-21T15:18:27.280950+00:00",
+  "ts": "2026-08-21T17:18:50.042745+00:00",
   "dry_run": false,
   "lanes": 23,
   "merged": 0,
   "torn_down": 2,
-  "parked": 4,
-  "live": 17,
-  "stranded_commits": 33,
+  "parked": 5,
+  "live": 16,
+  "stranded_commits": 34,
   "results": [
     {
       "branch": "worktree-cash-paths-research",
@@ -29,11 +29,16 @@
     {
       "branch": "worktree-vosler-7fig-extract",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vosler-7fig-extract",
-      "commits_ahead": 7,
-      "dirty_files": 1,
-      "conflicts": [],
-      "action": "skipped-live",
-      "detail": "1 uncommitted file(s) \u2014 a session is still working here"
+      "commits_ahead": 8,
+      "dirty_files": 0,
+      "conflicts": [
+        "SLASH_COMMANDS.md",
+        "directives/feedback-ratchet.md",
+        "directives/quality_gate.md",
+        "directives/session-state-protocol.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "4 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/zen-curran-72d8e2",
@@ -124,7 +129,7 @@
       "dirty_files": 0,
       "conflicts": [],
       "action": "torn-down",
-      "detail": "LANE PARKED: ? \u2014 main tree dirty (39 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
+      "detail": "LANE PARKED: ? \u2014 main tree dirty (11 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
     },
     {
       "branch": "codex/linkedin-pmf-closeout",
@@ -142,7 +147,7 @@
       "dirty_files": 0,
       "conflicts": [],
       "action": "torn-down",
-      "detail": "LANE PARKED: ? \u2014 main tree dirty (39 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
+      "detail": "LANE PARKED: ? \u2014 main tree dirty (11 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane ?"
     },
     {
       "branch": "codex/mert-consultancy-spine",

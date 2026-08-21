@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 20, 2026",
+  "compiled": "aug 21, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -129,8 +129,8 @@
             0,
             0,
             0,
-            0,
             1,
+            0,
             0
           ],
           "value": "1",

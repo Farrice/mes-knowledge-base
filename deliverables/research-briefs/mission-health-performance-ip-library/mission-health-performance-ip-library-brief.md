@@ -1,6 +1,6 @@
 # Health Performance Ip Library
 
-> MISSION · KNOWLEDGE · window: last 14 days · lens: claude · sources: 0 sessions · 4 files · 0 assets · compiled: aug 20, 2026
+> MISSION · KNOWLEDGE · window: last 14 days · lens: claude · sources: 0 sessions · 4 files · 0 assets · compiled: aug 21, 2026
 
 Empty shelf with the right name on it. Fill it from paid work, not before.
 

@@ -1,6 +1,6 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 21, 2026
 
 You have a fully loaded offer and an empty outbox.
 

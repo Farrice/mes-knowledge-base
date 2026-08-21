@@ -1,6 +1,6 @@
 # Harness — Cockpit
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 2 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 2 assets · compiled: aug 21, 2026
 
 This one is done being useful for now. Building more of it is how the sprint dies.
 
@@ -71,7 +71,6 @@ RESUME HERE: Harness — Cockpit
 - **ai-marketing-agents-hype-vs-harness-brief.html** [DOC] `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html` — aug 7, 2026
 - **ai-marketing-agents-hype-vs-harness-brief-share.html** [DOC] `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html` — aug 7, 2026
 - **2026-08-20-harness-opus5-diagnosis.md** [GUIDE] `guides/2026-08-20-harness-opus5-diagnosis.md`
-- **2026-07-29-harness-unhobble.md** [GUIDE] `guides/2026-07-29-harness-unhobble.md`
 
 ## the record
 - **Build an expert-assembly skill system for the Antigravity harness extending /convene, coun** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: Expert Assembly OS /assemble (missions.jsonl · done)
@@ -94,5 +93,4 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 - `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief.html` — asset · DOC
 - `deliverables/research-briefs/ai-marketing-agents-hype-vs-harness/ai-marketing-agents-hype-vs-harness-brief-share.html` — asset · DOC
 - `guides/2026-08-20-harness-opus5-diagnosis.md` — asset · GUIDE
-- `guides/2026-07-29-harness-unhobble.md` — asset · GUIDE
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

@@ -1,6 +1,6 @@
 # Created Josh's research-backed Eightward brand strategy…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: aug 21, 2026
 
 Delivered and waiting on him. Send one nudge and move on.
 

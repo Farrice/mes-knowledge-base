@@ -1,6 +1,6 @@
 # David Perell Idea-to-Culture — Forge Build (13 Workflows)
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 21, 2026
 
 Done and clean. Do not reopen it.
 

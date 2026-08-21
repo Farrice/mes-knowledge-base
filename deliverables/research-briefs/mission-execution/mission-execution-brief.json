@@ -1,16 +1,16 @@
 {
   "slug": "mission-execution",
   "chip": "MISSION · THREAD",
-  "title": "Execution — Apify *Client*",
+  "title": "Homebase 2.0 — Agentic OS *Cockpit*",
   "dek": "One good thing is buried in here. Dig it out and shut the lid.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 20, 2026",
+  "compiled": "aug 21, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
-  "priority": 1,
+  "priority": 2,
   "sections": [
     {
       "kind": "summary",
@@ -21,7 +21,7 @@
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.\n\nHandoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.\n\nShipped and pushed to main (commit 0bf552a5d): `board_theme.py` (one skin, all boards), cockpit at `/` (drag widgets, live clock, ring search), `/brain` (brain_graph.py, 1,293 curated nodes, fingerprint cache), `skill_deck_runner.py` + `run_skill` verb (index-only params, FORBIDDEN_RE, token-based session_lock — release bug found and fixed in verification), routines widget (29 plists, next-fire, health-joined). Proof: two live deck runs with measured cost ($0.90 sonnet, $0.22 haiku), refusal walls + lock contention + sabotage passes all verified in browser; nav self-test 9/9. Uncertain: browser-pane screenshots glitch on scrolled positions (capture artifact only — DOM verified); Farrice has not yet given his felt verdict on the cockpit.\n\nHandoff written 0d ago — treat its plan as current.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-08-10-execution.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
     },
     {
       "kind": "decision",
@@ -46,10 +46,10 @@
       "plays": [
         {
           "title": "Resume here",
-          "intent": "Execution — Apify Client",
+          "intent": "Homebase 2.0 cockpit LIVE at 127.0.0.1:8765 — get Farrice's triad verdict, then v2 Google widgets + client reskin",
           "command": "python3 execution/handoff_store.py resume execution",
           "touches": [
-            ".agent/handoffs/2026-08-10-execution.md"
+            ".agent/handoffs/2026-08-21-execution.md"
           ],
           "receipt": "The stored handoff prints with drift since it was written."
         },
@@ -85,7 +85,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Execution — Apify Client\nSLUG: execution\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-10-execution.md\n\nRESUME HERE: Execution — Apify Client\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Homebase 2.0 — Agentic OS Cockpit\nSLUG: execution\nSTATUS: active · STAGE: research\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-21-execution.md\n\nRESUME HERE: Homebase 2.0 cockpit LIVE at 127.0.0.1:8765 — get Farrice's triad verdict, then v2 Google widgets + client reskin\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -152,7 +152,7 @@
         {
           "k": "HANDOFF",
           "title": "Stored handoff (source of resume)",
-          "path": ".agent/handoffs/2026-08-10-execution.md"
+          "path": ".agent/handoffs/2026-08-21-execution.md"
         },
         {
           "k": "BOARD",

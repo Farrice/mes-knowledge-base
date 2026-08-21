@@ -786,3 +786,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-18 10:30]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:7.0 status:Needs Improvement
 - `[2026-08-18 10:31]` **finalize** | Cold Andrew Sean Greer story-reality skill system and proof fixtures | general | andrew-sean-greer — composite:8.0 status:Keep
 - `[2026-08-20 21:35]` **finalize** | Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent  | general | readout-os — composite:7.0 status:Needs Improvement
+- `[2026-08-21 10:25]` **finalize** | Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-bra | general | none — composite:7.0 status:Needs Improvement

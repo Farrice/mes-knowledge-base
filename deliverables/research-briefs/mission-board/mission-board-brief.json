@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "238 sessions swept",
-  "compiled": "aug 20, 2026",
+  "sources": "234 sessions swept",
+  "compiled": "aug 21, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -32,15 +32,15 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "27",
+          "value": "37",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "169",
+          "value": "170",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "238",
+          "value": "234",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -53,7 +53,6 @@
           "label": "sessions",
           "values": [
             0,
-            1,
             0,
             0,
             0,
@@ -65,15 +64,15 @@
             1,
             2,
             3,
+            0,
             0
           ],
-          "value": "11",
+          "value": "10",
           "note": "per day"
         },
         {
           "label": "files written",
           "values": [
-            0,
             0,
             0,
             0,
@@ -86,6 +85,7 @@
             5,
             0,
             0,
+            0,
             0
           ],
           "value": "10",
@@ -94,12 +94,12 @@
         {
           "label": "assets",
           "values": [
-            0,
             6,
             1,
             1,
             1,
             1,
+            0,
             0,
             0,
             0,
@@ -142,12 +142,6 @@
           "label": "trailer treatment",
           "values": [
             9
-          ]
-        },
-        {
-          "label": "teardown 1 fresh",
-          "values": [
-            3
           ]
         },
         {
@@ -212,11 +206,6 @@
         },
         {
           "k": "ACTIVE",
-          "title": "teardown 1 fresh",
-          "path": "deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.html"
-        },
-        {
-          "k": "ACTIVE",
           "title": "harness",
           "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html"
         },
@@ -234,6 +223,11 @@
           "k": "ACTIVE",
           "title": "health performance ip library",
           "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
         }
       ]
     },
@@ -242,6 +236,12 @@
       "heading": "also shipped",
       "tag": "NO LIVE THREAD",
       "items": [
+        {
+          "date": "2026-08-21",
+          "title": "homebase-cockpit",
+          "body": "Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck ",
+          "done": true
+        },
         {
           "date": "2026-08-20",
           "title": "go",
@@ -307,12 +307,6 @@
           "title": "quick-concept-application",
           "body": "Five radically divergent surreal poster concept directions about time, spanning typographic minimalism, cinematic simultaneity, bureaucratic satire, mythic bota",
           "done": true
-        },
-        {
-          "date": "2026-08-09",
-          "title": "briefing-room",
-          "body": "Integrated portable Briefing Room card routing and Jordan Crawford GTM brief packages into main with generated index replacement and live-route verification",
-          "done": true
         }
       ]
     },
@@ -320,7 +314,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n213 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, go, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides.\n\n237 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n208 more threads cleared the bar but sit below the 12-card ceiling and were not carded: go, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, teardown 1 fresh, create, deliverables, guides.\n\n219 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

@@ -1,6 +1,6 @@
 # Revenue: Claim Check Funnel - Ready to Launch
 
-> MISSION · FARRICE BRAND · window: last 14 days · lens: codex · sources: 0 sessions · 6 files · 0 assets · compiled: aug 20, 2026
+> MISSION · FARRICE BRAND · window: last 14 days · lens: codex · sources: 0 sessions · 6 files · 0 assets · compiled: aug 21, 2026
 
 The whole launch is written down. Nobody has run it.
 

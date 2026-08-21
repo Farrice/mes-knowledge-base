@@ -1,0 +1,12 @@
+{
+ "card_id": "health-check",
+ "model": "haiku",
+ "effort": "low",
+ "started": "2026-08-21T10:23:50",
+ "state": "done",
+ "command": "/health-check",
+ "ended": "2026-08-21T10:25:38",
+ "duration_s": 107,
+ "total_cost_usd": 0.2208916,
+ "report_rel": ".agent/homebase/deck-runs/20260821-102350-health-check.md"
+}

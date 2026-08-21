@@ -1,6 +1,6 @@
-# Execution — Apify Client
+# Homebase 2.0 — Agentic OS Cockpit
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 21, 2026
 
 One good thing is buried in here. Dig it out and shut the lid.
 
@@ -17,7 +17,16 @@ Next: Pull the four-rung pricing ladder out of this thread and attach it to the 
 ## the state, as the last session left it
 Assessment: Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.
 
-Handoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Shipped and pushed to main (commit 0bf552a5d): `board_theme.py` (one skin, all boards), cockpit at `/` (drag widgets, live clock, ring search), `/brain` (brain_graph.py, 1,293 curated nodes, fingerprint cache), `skill_deck_runner.py` + `run_skill` verb (index-only params, FORBIDDEN_RE, token-based session_lock — release bug found and fixed in verification), routines widget (29 plists, next-fire, health-joined). Proof: two live deck runs with measured cost ($0.90 sonnet, $0.22 haiku), refusal walls + lock contention + sabotage passes all verified in browser; nav self-test 9/9. Uncertain: browser-pane screenshots glitch on scrolled positions (capture artifact only — DOM verified); Farrice has not yet given his felt verdict on the cockpit.
+
+Handoff written 0d ago — treat its plan as current.
+
+Do not rebuild:
+(auto-scaffolded — the store adds this when a handoff omits it)
+
+- Previous handoff on this thread: `.agent/handoffs/2026-08-10-execution.md` — everything it lists as shipped is EXTEND-ONLY.
+
+- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -25,11 +34,11 @@ The first option is the recommended one; the rest are the real alternatives with
 2. **Leave it as is and rely on memory to surface the ladder when a buyer asks** — Zero effort now, but the moment it matters is a live sales conversation, which is the worst possible time to be searching.
 
 ## resume · park · kill
-1. **Resume here** — Execution — Apify Client
+1. **Resume here** — Homebase 2.0 cockpit LIVE at 127.0.0.1:8765 — get Farrice's triad verdict, then v2 Google widgets + client reskin
 ```
 python3 execution/handoff_store.py resume execution
 ```
-   touches: .agent/handoffs/2026-08-10-execution.md
+   touches: .agent/handoffs/2026-08-21-execution.md
    receipt: The stored handoff prints with drift since it was written.
 2. **Park it** — Shelve deliberately — resumable, muted, never urgent.
 ```
@@ -45,13 +54,13 @@ python3 execution/pulse_actions.py kill execution --reason "<one line>"
 ## pick it up anywhere
 **CONTEXT PACK — paste into any session**
 ```
-THREAD: Execution — Apify Client
+THREAD: Homebase 2.0 — Agentic OS Cockpit
 SLUG: execution
 STATUS: active · STAGE: research
 BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-10-execution.md
+HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-21-execution.md
 
-RESUME HERE: Execution — Apify Client
+RESUME HERE: Homebase 2.0 cockpit LIVE at 127.0.0.1:8765 — get Farrice's triad verdict, then v2 Google widgets + client reskin
 
 (assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
 ```
@@ -66,7 +75,7 @@ RESUME HERE: Execution — Apify Client
 - **I have a messy business idea and need the right execution path** [UNCONFIRMED] — KILLED (triage 2026-07-29): Codex portable-packet test compile — log noise, no deliverable ever attached (missions.jsonl · stopped)
 
 ## swings to
-- [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-10-execution.md
+- [HANDOFF] Stored handoff (source of resume) — .agent/handoffs/2026-08-21-execution.md
 - [BOARD] Mission board — every live thread — deliverables/research-briefs/mission-board/mission-board-brief.html
 
 ## what this isn't
@@ -76,5 +85,5 @@ No idle-day figure recorded, so how long this has actually sat is unknown. The t
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
 ## Context pack (agent feed)
-- `.agent/handoffs/2026-08-10-execution.md` — playbook · Resume here
+- `.agent/handoffs/2026-08-21-execution.md` — playbook · Resume here
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

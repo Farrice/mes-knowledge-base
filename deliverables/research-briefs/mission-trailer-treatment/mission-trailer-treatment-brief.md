@@ -1,6 +1,6 @@
 # Midnight Oil native reference pack, continuity manifest…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 21, 2026
 
 Beautiful work, wrong month. Name it a hobby out loud so it stops taxing you.
 

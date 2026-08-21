@@ -1,6 +1,6 @@
 # Linkedin — Execution Checklist
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 8 assets · compiled: aug 20, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 8 assets · compiled: aug 21, 2026
 
 Everything is written. The only thing missing is the part where a stranger reads it.
 
@@ -77,7 +77,6 @@ RESUME HERE: Linkedin — Execution Checklist
 - **carousel01-slide1-vo_minimax-speech_20260802-141945.mp3** [AUDIO] `_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3` — aug 7, 2026
 - **carousel01-cover_recraft-v3_20260802-141930.png** [IMAGE] `_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png` — aug 7, 2026
 - **zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html** [DOC] `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html` — aug 7, 2026
-- **2026-07-13-stanton-linkedin-launch.md** [GUIDE] `guides/2026-07-13-stanton-linkedin-launch.md`
 
 ## how it got here
 - 2026-08-21 · **codex session** — Revenue: LinkedIn PMF Signal Lane - Built and Verified
@@ -116,5 +115,4 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 - `_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3` — asset · AUDIO
 - `_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png` — asset · IMAGE
 - `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html` — asset · DOC
-- `guides/2026-07-13-stanton-linkedin-launch.md` — asset · GUIDE
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD
