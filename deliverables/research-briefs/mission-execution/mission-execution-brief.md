@@ -2,27 +2,27 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 20, 2026
 
-Empty room, lights on — turn them off.
+One good thing is buried in here. Dig it out and shut the lid.
 
 ## where this stands
 _CURRENT POSITION_
-This is a label, not a thread — no activity, a stub handoff, and a graveyard of superseded research missions.
+This thread is a graveyard of superseded offer research plus one surviving asset — the premium arc with its four rungs from door through retainer — and that survivor is the only reason to open it again.
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.
 
 Handoff status is active.
 
-Next: Kill this banner and let its one live idea, the scrape-creators toolkit, live where it is actually used.
+Next: Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen.
 
 ## the state, as the last session left it
-Assessment: Everything under this name either shipped long ago into real tools or was superseded by the offer lock. Keeping it on the board costs a card slot and a glance every day for zero information. The one open question it ever held — an Apify client — was answered by shipping the toolkit.
+Assessment: Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.
 
 Handoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Kill it** — Recommended. The ledger keeps the history; the board stops paying rent on an empty room.
-2. **Fold it into the harness banner** — If killing feels premature, merge and archive — but that just relocates the clutter.
+1. **Extract the pricing ladder into the offer thread and close this one** — Recommended. Saves the one asset worth saving and stops a mostly-dead thread from holding attention. Costs a few minutes of filing.
+2. **Leave it as is and rely on memory to surface the ladder when a buyer asks** — Zero effort now, but the moment it matters is a live sales conversation, which is the worst possible time to be searching.
 
 ## resume · park · kill
 1. **Resume here** — Execution — Apify Client
@@ -71,7 +71,7 @@ RESUME HERE: Execution — Apify Client
 
 ## what this isn't
 _READ THE EDGES_
-Judgment here rests on absence of evidence — no sessions, no deliverables, no live mission. If something is quietly in flight under this name, it never reached a record.
+No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

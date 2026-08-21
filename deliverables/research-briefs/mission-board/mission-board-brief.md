@@ -6,7 +6,7 @@ Every live thread in one place, newest first. Open the one you're resuming.
 
 ## the state of play
 _ALL LIVE THREADS_
-The portfolio has a release constraint, not a production constraint: five finished cash assets are each waiting on one human act — a send, a publish, a decision — while attention keeps flowing to system work.
+Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.
 
 Each thread below has its own brief. Open the one you're resuming — it carries the resume line, what it made, and what's still open.
 
@@ -61,7 +61,7 @@ _weighted: deliverables ×3 + files + assets_
 
 ## what this board isn't
 _READ THE EDGES_
-This read is assembled from records, not from feed analytics or inbox contents — actual audience response data is absent from every thread.
+Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.
 
 215 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, create, deliverables, guides, global org sweep.
 

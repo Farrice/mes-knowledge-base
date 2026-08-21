@@ -2,20 +2,20 @@
 
 > MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 20, 2026
 
-It shipped, it passed, it works — say done and move on.
+Done and clean. Do not reopen it.
 
 ## where this stands
 _CURRENT POSITION_
-Cleanly finished and formally verified; the only remaining item is an optional vanity promotion that changes nothing about daily use.
+This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.
 
 Handoff status is ready. Last activity 2d ago.
 
-Next: Close this thread as done and use the skill; judge the blind pack only if recognition-tier promotion ever matters.
+Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
 ## the state, as the last session left it
-Assessment: This is what a finished thread looks like: verifiers passed, runtime proven, the build formally tiered and recorded. The open blind-recognition question is a nice-to-have that has correctly been deferred twice. Keeping the thread active costs a pinned slot on every surface for a decision that has already effectively been made.
+Assessment: Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.
 
 Completed: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.
 
@@ -56,8 +56,8 @@ Do not rebuild:
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Mark it done and unpin** — Recommended. The system is in service; done is the accurate status.
-2. **Run the blind pack as a taste session** — Worth an evening only if the recognition game sounds fun — it is calibration, not obligation.
+1. **Close it now, promotion declined** — Recommended. The skill works locally and that was the point. Costs a badge that changes nothing.
+2. **Run the blind judgment pack in one short sitting** — Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue.
 3. **Finish what's open** — Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
 
 ## resume · park · kill
@@ -116,7 +116,7 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 
 ## what this isn't
 _READ THE EDGES_
-Market effect of the skill remains unobserved — done here means built and verified, not proven in use.
+The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

@@ -2,28 +2,27 @@
 
 > MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: aug 20, 2026
 
-The packet landed — now walk him through the door you built.
+Delivered and waiting on him. Send one nudge and move on.
 
 ## where this stands
 _CURRENT POSITION_
-The client packet for the dance-apparel brand shipped with full verification; the thread now waits on the client's decision, and silence is the current risk.
+A full client brand and legal packet for Josh shipped four days ago — cultural dossier, reference board, risk map, lawyer agenda — and it passed every verification check, which means the ball is in his court, not yours.
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 2 sessions.
 
 Handoff status is active. Last activity 4d ago.
 
-Next: Send the client a short walkthrough of the packet and ask for the consult decision by a named day.
+Next: Send Josh one short message asking whether he has booked the legal consult, and let the thread sit until he answers.
 
 ## the state, as the last session left it
-Assessment: This is the nearest live human relationship in the portfolio — a delivered, verification-passed strategy packet with a clear next step for the client. The work is done; the follow-through is not. Client threads decay socially rather than technically: a week of silence reads as indifference. A two-line walkthrough message with a concrete ask converts a delivered file into a moving engagement — and possibly the next logged dollar.
+Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.
 
 Handoff written 48d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Follow up now with a walkthrough and a dated ask** — Recommended. Delivered work without a prompted decision is a gift, not an engagement.
-2. **Turn the packet into a public case study** — Strong proof content for the feed — but ask the client first, and it should follow the follow-up, not replace it.
-3. **Wait for the client to respond** — Feels polite, performs poorly — the packet is dense and clients stall on dense things without a guide.
+1. **Follow up once, then let it rest pending his lawyer** — Recommended. The work is delivered and the blocker is external. Costs one message.
+2. **Convert this packet into a public case study for the sprint** — Turns finished client work into credibility you badly need, but it is a different category from supplement and performance brands and may confuse the positioning you just locked.
 
 ## resume · park · kill
 1. **Resume here** — Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/clients/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. This directly answers the raw-intent-bridge + source-command-mission request and the attached high-depth swarm brief: it includes a cultural research dossier; cultural distance map; 56-entry visual reference board with source links and rights posture; fashion and silhouette direction; brand positioning and messaging; first product/capsule architecture; cultural safety, legal, trademark, copyright, publicity, and IP risk map; lawyer consult agenda; cultural-review questions; validation plan; 90-day roadmap; and Mission composition ledger. It preserves Eightward as lead, treats The Eighth House as backup/capsule only, retires Airstep unless counsel clears it, centers Lindy Hop as Black American social dance history, keeps joke shirts as a satellite line, and gives Josh a concrete private-testing path before legal clearance, paid cultural review, or public launch. Verification passed: export_format_guard; copy-ban scan had no hits; artifact_router classified the file as canonical client deliverable; mission_control validate PASS; intent_memory verify PASS; system_cohesion_state verify PASS; artifact has 13 sections, 56 source/reference rows, and 74 source links.
@@ -84,7 +83,7 @@ RESUME HERE: Created Josh's research-backed Eightward brand strategy packet for 
 
 ## what this isn't
 _READ THE EDGES_
-This banner mixes older research missions with the client work; the client engagement is the only live element in it.
+Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

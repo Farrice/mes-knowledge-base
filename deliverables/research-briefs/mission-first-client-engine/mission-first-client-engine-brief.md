@@ -2,20 +2,20 @@
 
 > MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 20, 2026
 
-Two offers both claim the throne — pick one on the record this week.
+You are running two offers and no distribution. Kill one this week.
 
 ## where this stands
 _CURRENT POSITION_
-The sharpest strategy document in the portfolio is sitting here unresolved, and it directly contradicts the standing offer lock — this fork is quietly splitting the sprint's focus.
+This thread reaches the opposite conclusion from the sprint — it says park the content offer and sell workflow pilots to professional-service firms instead — and that unresolved contradiction is the single most expensive open question on the board.
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.
 
 Handoff status is active. Last activity 8d ago.
 
-Next: Decide the fork on the record: One-Workflow Pilot as the door offer, Angle Map as the delivery engine — or explicitly reject the pivot.
+Next: Pick one offer as the only thing you sell for the next thirty days and write the other one off the board today.
 
 ## the state, as the last session left it
-Assessment: The zero-based verdict argues the Angle Map should be parked as the primary offer in favor of a bounded, paid pilot for small professional-service firms — grounded in marketplace evidence and an honest read of strengths. Meanwhile the goal file and recent threads still treat the Angle Map as the locked offer. Both cannot be primary. Every send, post and profile decision inherits this ambiguity until it is resolved, which may explain why so many finished assets are waiting rather than moving.
+Assessment: The reasoning is serious: it grounds itself in current marketplace evidence and argues from your actual constraints, that you need money soon, have no audience, and are strongest at building agent workflows rather than selling performance creative. That is a fair read of your position. But it directly contradicts the locked sprint. Two offers cannot both be the priority when there is one operator and no audience. Right now you are effectively hedging, and hedging with zero distribution means neither offer gets the repetition that makes it work. This has to be decided, not held.
 
 Handoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
@@ -28,9 +28,9 @@ Do not rebuild:
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Compose them: pilot as the door, Angle Map inside delivery** — Recommended. The pilot answers the buy-something-small objection; the Angle Map becomes the engine that makes delivery exceptional rather than the thing being sold.
-2. **Reject the pivot and recommit to the Angle Map on the record** — Legitimate if the conviction is real — but it should be chosen, logged, and defended, not defaulted into.
-3. **Test both with five sends each** — Market evidence over analysis — costs two weeks and requires actually sending.
+1. **Hold the claim-safe content sprint and shelve the workflow pilot for thirty days** — Recommended. The content offer has a council behind it, written posts, a contact kit, and named target brands — the workflow pilot has a verdict and nothing else. Costs you a well-argued alternative that plays closer to your actual strengths.
+2. **Switch to the workflow pilot and rebuild the sales assets around it** — Plays to what you are genuinely best at and sells to firms who feel the pain daily, but it discards weeks of positioning work and restarts the asset build from nothing.
+3. **Run both, with content posts feeding either conversation** — Feels efficient and is the trap — split messaging with no audience means neither offer becomes legible to anyone.
 4. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
@@ -88,7 +88,7 @@ Retry strengthens intent alignment with urgent-cash, zero-audience, no-budget-ma
 
 ## what this isn't
 _READ THE EDGES_
-The verdict is research-grounded but pre-revenue; no buyer has seen either offer framing. The contradiction with the standing lock is the finding — not a flaw in either document.
+Both recorded deliverables here appear to be the same verdict, one being a retry of the other, so the evidence base is one analysis rather than two. No client contact or market test has happened against this recommendation — it is desk research, however well grounded.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

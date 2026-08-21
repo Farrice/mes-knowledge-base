@@ -2,29 +2,28 @@
 
 > MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 2 assets · compiled: aug 20, 2026
 
-The workshop is built — get out of the workshop.
+This one is done being useful for now. Building more of it is how the sprint dies.
 
 ## where this stands
 _CURRENT POSITION_
-The system got a major upgrade today; the honest move now is to declare harness week over and starve this thread until money moves.
+The system-building thread has been quiet for nearly two weeks and that is the right outcome, not a problem — the last real work here closed with your own verdict of good and the sprint does not need more machinery.
 
 Stage: build — files are moving; nothing finalized. In the last 14 days: 2 assets generated.
 
 Handoff status is active. Last activity 13d ago.
 
-Next: Park this thread for the week and let the new homebase pay rent before the next system build.
+Next: Leave this parked and touch it only when a specific sprint task hits friction you can name in one sentence.
 
 ## the state, as the last session left it
-Assessment: System work keeps winning attention because it is always available, always interesting, and never rejects you. The record shows the pattern: strong shipped outcomes, real leverage gained, and a sprint sitting beside it that needs sends, not surfaces. The command center collapse shipped today is genuinely load-bearing — which is exactly why the next system itch should be refused for a while.
+Assessment: Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.
 
 Handoff written 0d ago — treat its plan as current.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Park for the week** — Recommended. The new surfaces need daily use, not extension; their real test is whether they change what gets shipped.
-2. **Keep a strict one-fix-a-day cap** — Allows small friction fixes without opening a build; requires actually stopping at one.
-3. **Kill the stale sub-threads under this banner** — Several old harness missions are noise in the ledger; a cleanup pass would sharpen every board.
-4. **Decide: resume, park, or kill** — No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+1. **Formally park until the sprint produces collected money** — Recommended. Removes the most seductive avoidance path in the portfolio. Costs nothing real — the working parts already run without attention.
+2. **Spend one bounded session clearing the degraded lanes and drift warnings flagged at startup** — Buys a quieter working environment and removes low-grade friction, but it is maintenance dressed as progress and it competes with sending.
+3. **Decide: resume, park, or kill** — No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Harness — Cockpit
@@ -86,7 +85,7 @@ RESUME HERE: Harness — Cockpit
 
 ## what this isn't
 _READ THE EDGES_
-Stub handoff; this thread is a catch-all banner more than a single workstream, so its counts mix unrelated efforts.
+The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

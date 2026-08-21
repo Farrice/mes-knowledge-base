@@ -2,20 +2,20 @@
 
 > MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 20, 2026
 
-Beautiful work, wrong week — park it on purpose, not by neglect.
+Beautiful work, wrong month. Name it a hobby out loud so it stops taxing you.
 
 ## where this stands
 _CURRENT POSITION_
-A finished creative package — canon locked, references approved, spend still zero — waiting on a single decision: produce it or shelve it.
+Three finished deliverables and a locked character canon sit here from a week and a half ago, all built at zero spend — this is real craft output with no line to the sprint's money.
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.
 
 Handoff status is active. Last activity 9d ago.
 
-Next: Decide this week whether the trailer enters production or parks as a calling-lane project.
+Next: Decide today whether this is a portfolio proof piece or a hobby, and write that decision down in one line.
 
 ## the state, as the last session left it
-Assessment: This is calling-lane work parked inside a cash-lane sprint. The package quality is high and the discipline that produced it (asset authority, continuity controls, zero spend) is genuinely reusable for client creative. But it serves no revenue goal right now, and every glance it gets is attention taxed from the sprint. The kindest thing for both lanes is an explicit decision instead of ambient guilt.
+Assessment: The work is genuinely complete at the preparation layer: reference pack locked, continuity manifest built, director prompt written, physics vetoes verified. The discipline in it is the same discipline that makes the claim-safe brand work good, so it is not wasted practice. But it serves no buyer and no revenue thread. Left as is, it will either quietly rot or quietly eat a weekend. Both outcomes are worse than deciding now which one it is.
 
 Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
@@ -28,9 +28,9 @@ Do not rebuild:
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Park it deliberately with a return date** — Recommended. Protects the work and the sprint at once; the package does not decay.
-2. **Schedule one production session as a reward** — Ties the fun work to a sprint milestone — first dollar collected buys a trailer session.
-3. **Produce it now** — Only if the energy it generates demonstrably feeds the cash lane; otherwise it is a week of beautiful avoidance.
+1. **Park it explicitly as a hobby, revisit after the sprint clears its money target** — Recommended. Protects it from guilt and protects the sprint from distraction. Costs the momentum of a nearly-ready creative piece.
+2. **Finish it as a public proof piece showing production-grade prompt craft** — Turns a hobby into credibility for the buyers you are approaching, but the audience for a bowling-anime trailer and the audience for claim-safe supplement content barely overlap.
+3. **Kill it and reclaim the attention outright** — Cleanest for focus, but throws away finished preparation that cost real hours and would be expensive to rebuild.
 4. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
@@ -91,7 +91,7 @@ Micah canon locked; 20 approved native reference images; A00 excluded; asset aut
 
 ## what this isn't
 _READ THE EDGES_
-No sessions in the window; the deliverable notes are the freshest record. Production cost estimates are unknown until the first generation run.
+Two of the three recorded deliverables look like versions of the same prompt rather than distinct outputs, so the actual finished count may be smaller than it reads. Nothing in the pack states whether any video was ever generated.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

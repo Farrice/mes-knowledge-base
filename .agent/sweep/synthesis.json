@@ -1,263 +1,247 @@
 {
  "linkedin": {
-  "lede": "This is the sprint's engine room, and it has a release problem, not a production problem — sessions keep minting assets while nothing new lands on the feed.",
-  "next_move": "Pick the strongest finished post from the stockpile and publish it today.",
-  "state_read": "Momentum here is real but circular: work sessions produce carousels, voiceovers and drafts that stack in the library while the profile-reset mission sits open for three weeks. Every day of producing-without-posting raises the emotional stakes of the first post and lowers the value of the stockpile. The sprint clock is the relevant clock: nearly a month since the last logged dollar, and this thread is the shortest path to changing that.",
+  "lede": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.",
+  "state_read": "Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.",
+  "next_move": "Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else.",
   "options": [
    {
-    "action": "Publish now from finished stock",
-    "why": "Recommended. Breaks the producing-without-releasing loop today; imperfect profile costs far less than another silent week."
+    "action": "Ship the existing posts on a fixed daily cadence for one week, no new writing",
+    "why": "Recommended. The writing debt is already paid; the only untested variable is whether the market answers. Costs nothing but the discomfort of publishing work you have already judged good."
    },
    {
-    "action": "Finish the profile reset first, then post",
-    "why": "Cleaner landing for anyone who clicks through, but it has already absorbed three weeks and blocks everything behind it."
+    "action": "Run one more sharpening pass on the profile and featured section before publishing",
+    "why": "Buys a slightly better first impression for anyone who clicks through, but spends another day on the shopfront and keeps the real question — does anyone respond — unanswered."
    },
    {
-    "action": "Freeze production until something ships",
-    "why": "A forcing function — no new assets until one goes live. Harsh but honest about where the constraint is."
+    "action": "Park public posting and go direct-message only to named brands",
+    "why": "Faster path to a conversation and less exposure, but abandons the compounding surface that makes the later direct messages land warm."
    }
   ],
-  "caveats": "The handoff for this thread is an auto-generated stub, so the narrative here leans on mission outcomes rather than a session-written state. Asset counts say nothing about post readiness.",
-  "operator_read": "Stop making ammunition and fire one round — today."
+  "caveats": "The handoff for this thread is a stub, so there is no state note explaining where the launch actually stopped. Several mission outcomes are triage rewrites rather than fresh work, which inflates how active this looks. Nothing in the pack confirms whether anything was published — treat the publishing gap as unverified, not proven.",
+  "operator_read": "Everything is written. The only thing missing is the part where a stranger reads it."
  },
  "proof-to-market": {
-  "lede": "The offer document is over-ripe: council-hardened, review-polished, and untouched by a single real buyer.",
-  "next_move": "Send the first outreach messages that put this offer in front of a named founder this week.",
-  "state_read": "Every cycle spent refining this offer is procrastination wearing a strategy costume. The buyer council, the make-right clause, the hardened positioning — the internal machinery has voted yes repeatedly. The only vote missing is a stranger's. The thread has been quiet for over a week, which suggests the polishing urge has passed; what remains is the send.",
+  "lede": "The offer is finished and defensible — buyer council run, make-right clause added, contact kit paste-ready — and it has been sitting untouched for over a week, which means the sprint's most complete asset is also its most idle one.",
+  "state_read": "This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.",
+  "next_move": "Send the contact kit to five named supplement or performance brands today, using the offer exactly as written.",
   "options": [
    {
-    "action": "Send five founder messages this week",
-    "why": "Recommended. The offer is as validated as it can get without market contact; rejection data is now worth more than refinement."
+    "action": "Send the existing contact kit to a first batch of named brands this week",
+    "why": "Recommended. The asset is review-hardened and paste-ready; the send is the only untested step. Costs nothing but the risk of hearing no, which is information you currently do not have."
    },
    {
-    "action": "Fold this into the teardown sends",
-    "why": "The teardowns are the natural door-opener for this exact offer — one motion instead of two, but it ties this offer's fate to those sends happening."
-   },
-   {
-    "action": "Run one more calibration pass",
-    "why": "Only defensible if a send this week is already committed; otherwise it is another week of internal applause."
+    "action": "Refresh the market pulse and re-cut the offer before sending",
+    "why": "Buys currency in a fast-moving category, but the offer already passed a council and another revision round is the shape of avoidance more than improvement."
    }
   ],
-  "caveats": "No deliverables or sessions landed in the window; the record here is older mission outcomes. Pricing and scope claims have not been tested against a live prospect.",
-  "operator_read": "The council said yes weeks ago — the market still has not been asked."
+  "caveats": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.",
+  "operator_read": "You have a fully loaded offer and an empty outbox."
  },
  "harness": {
-  "lede": "The system got a major upgrade today; the honest move now is to declare harness week over and starve this thread until money moves.",
-  "next_move": "Park this thread for the week and let the new homebase pay rent before the next system build.",
-  "state_read": "System work keeps winning attention because it is always available, always interesting, and never rejects you. The record shows the pattern: strong shipped outcomes, real leverage gained, and a sprint sitting beside it that needs sends, not surfaces. The command center collapse shipped today is genuinely load-bearing — which is exactly why the next system itch should be refused for a while.",
+  "lede": "The system-building thread has been quiet for nearly two weeks and that is the right outcome, not a problem — the last real work here closed with your own verdict of good and the sprint does not need more machinery.",
+  "state_read": "Two of the four missions on this board are marked as superseded by the offer lock, which tells the story: this thread kept generating candidate businesses until the actual offer decision made that work unnecessary. What survived is the operator routine and the daily rhythm layer, which are now infrastructure rather than projects. Idle here is healthy. The only risk is drift back into building, which is the most comfortable way to avoid selling.",
+  "next_move": "Leave this parked and touch it only when a specific sprint task hits friction you can name in one sentence.",
   "options": [
    {
-    "action": "Park for the week",
-    "why": "Recommended. The new surfaces need daily use, not extension; their real test is whether they change what gets shipped."
+    "action": "Formally park until the sprint produces collected money",
+    "why": "Recommended. Removes the most seductive avoidance path in the portfolio. Costs nothing real — the working parts already run without attention."
    },
    {
-    "action": "Keep a strict one-fix-a-day cap",
-    "why": "Allows small friction fixes without opening a build; requires actually stopping at one."
-   },
-   {
-    "action": "Kill the stale sub-threads under this banner",
-    "why": "Several old harness missions are noise in the ledger; a cleanup pass would sharpen every board."
+    "action": "Spend one bounded session clearing the degraded lanes and drift warnings flagged at startup",
+    "why": "Buys a quieter working environment and removes low-grade friction, but it is maintenance dressed as progress and it competes with sending."
    }
   ],
-  "caveats": "Stub handoff; this thread is a catch-all banner more than a single workstream, so its counts mix unrelated efforts.",
-  "operator_read": "The workshop is built — get out of the workshop."
+  "caveats": "The handoff is a stub with no state or remaining note, so what is actually unfinished here is unknown. The startup warnings about degraded lanes and pending drift are not represented in this pack at all.",
+  "operator_read": "This one is done being useful for now. Building more of it is how the sprint dies."
  },
  "trailer-treatment": {
-  "lede": "A finished creative package — canon locked, references approved, spend still zero — waiting on a single decision: produce it or shelve it.",
-  "next_move": "Decide this week whether the trailer enters production or parks as a calling-lane project.",
-  "state_read": "This is calling-lane work parked inside a cash-lane sprint. The package quality is high and the discipline that produced it (asset authority, continuity controls, zero spend) is genuinely reusable for client creative. But it serves no revenue goal right now, and every glance it gets is attention taxed from the sprint. The kindest thing for both lanes is an explicit decision instead of ambient guilt.",
+  "lede": "Three finished deliverables and a locked character canon sit here from a week and a half ago, all built at zero spend — this is real craft output with no line to the sprint's money.",
+  "state_read": "The work is genuinely complete at the preparation layer: reference pack locked, continuity manifest built, director prompt written, physics vetoes verified. The discipline in it is the same discipline that makes the claim-safe brand work good, so it is not wasted practice. But it serves no buyer and no revenue thread. Left as is, it will either quietly rot or quietly eat a weekend. Both outcomes are worse than deciding now which one it is.",
+  "next_move": "Decide today whether this is a portfolio proof piece or a hobby, and write that decision down in one line.",
   "options": [
    {
-    "action": "Park it deliberately with a return date",
-    "why": "Recommended. Protects the work and the sprint at once; the package does not decay."
+    "action": "Park it explicitly as a hobby, revisit after the sprint clears its money target",
+    "why": "Recommended. Protects it from guilt and protects the sprint from distraction. Costs the momentum of a nearly-ready creative piece."
    },
    {
-    "action": "Schedule one production session as a reward",
-    "why": "Ties the fun work to a sprint milestone — first dollar collected buys a trailer session."
+    "action": "Finish it as a public proof piece showing production-grade prompt craft",
+    "why": "Turns a hobby into credibility for the buyers you are approaching, but the audience for a bowling-anime trailer and the audience for claim-safe supplement content barely overlap."
    },
    {
-    "action": "Produce it now",
-    "why": "Only if the energy it generates demonstrably feeds the cash lane; otherwise it is a week of beautiful avoidance."
+    "action": "Kill it and reclaim the attention outright",
+    "why": "Cleanest for focus, but throws away finished preparation that cost real hours and would be expensive to rebuild."
    }
   ],
-  "caveats": "No sessions in the window; the deliverable notes are the freshest record. Production cost estimates are unknown until the first generation run.",
-  "operator_read": "Beautiful work, wrong week — park it on purpose, not by neglect."
+  "caveats": "Two of the three recorded deliverables look like versions of the same prompt rather than distinct outputs, so the actual finished count may be smaller than it reads. Nothing in the pack states whether any video was ever generated.",
+  "operator_read": "Beautiful work, wrong month. Name it a hobby out loud so it stops taxing you."
  },
  "execution": {
-  "lede": "This is a label, not a thread — no activity, a stub handoff, and a graveyard of superseded research missions.",
-  "next_move": "Kill this banner and let its one live idea, the scrape-creators toolkit, live where it is actually used.",
-  "state_read": "Everything under this name either shipped long ago into real tools or was superseded by the offer lock. Keeping it on the board costs a card slot and a glance every day for zero information. The one open question it ever held — an Apify client — was answered by shipping the toolkit.",
+  "lede": "This thread is a graveyard of superseded offer research plus one surviving asset — the premium arc with its four rungs from door through retainer — and that survivor is the only reason to open it again.",
+  "state_read": "Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.",
+  "next_move": "Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen.",
   "options": [
    {
-    "action": "Kill it",
-    "why": "Recommended. The ledger keeps the history; the board stops paying rent on an empty room."
+    "action": "Extract the pricing ladder into the offer thread and close this one",
+    "why": "Recommended. Saves the one asset worth saving and stops a mostly-dead thread from holding attention. Costs a few minutes of filing."
    },
    {
-    "action": "Fold it into the harness banner",
-    "why": "If killing feels premature, merge and archive — but that just relocates the clutter."
+    "action": "Leave it as is and rely on memory to surface the ladder when a buyer asks",
+    "why": "Zero effort now, but the moment it matters is a live sales conversation, which is the worst possible time to be searching."
    }
   ],
-  "caveats": "Judgment here rests on absence of evidence — no sessions, no deliverables, no live mission. If something is quietly in flight under this name, it never reached a record.",
-  "operator_read": "Empty room, lights on — turn them off."
+  "caveats": "No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.",
+  "operator_read": "One good thing is buried in here. Dig it out and shut the lid."
  },
  "first-client-engine": {
-  "lede": "The sharpest strategy document in the portfolio is sitting here unresolved, and it directly contradicts the standing offer lock — this fork is quietly splitting the sprint's focus.",
-  "next_move": "Decide the fork on the record: One-Workflow Pilot as the door offer, Angle Map as the delivery engine — or explicitly reject the pivot.",
-  "state_read": "The zero-based verdict argues the Angle Map should be parked as the primary offer in favor of a bounded, paid pilot for small professional-service firms — grounded in marketplace evidence and an honest read of strengths. Meanwhile the goal file and recent threads still treat the Angle Map as the locked offer. Both cannot be primary. Every send, post and profile decision inherits this ambiguity until it is resolved, which may explain why so many finished assets are waiting rather than moving.",
+  "lede": "This thread reaches the opposite conclusion from the sprint — it says park the content offer and sell workflow pilots to professional-service firms instead — and that unresolved contradiction is the single most expensive open question on the board.",
+  "state_read": "The reasoning is serious: it grounds itself in current marketplace evidence and argues from your actual constraints, that you need money soon, have no audience, and are strongest at building agent workflows rather than selling performance creative. That is a fair read of your position. But it directly contradicts the locked sprint. Two offers cannot both be the priority when there is one operator and no audience. Right now you are effectively hedging, and hedging with zero distribution means neither offer gets the repetition that makes it work. This has to be decided, not held.",
+  "next_move": "Pick one offer as the only thing you sell for the next thirty days and write the other one off the board today.",
   "options": [
    {
-    "action": "Compose them: pilot as the door, Angle Map inside delivery",
-    "why": "Recommended. The pilot answers the buy-something-small objection; the Angle Map becomes the engine that makes delivery exceptional rather than the thing being sold."
+    "action": "Hold the claim-safe content sprint and shelve the workflow pilot for thirty days",
+    "why": "Recommended. The content offer has a council behind it, written posts, a contact kit, and named target brands — the workflow pilot has a verdict and nothing else. Costs you a well-argued alternative that plays closer to your actual strengths."
    },
    {
-    "action": "Reject the pivot and recommit to the Angle Map on the record",
-    "why": "Legitimate if the conviction is real — but it should be chosen, logged, and defended, not defaulted into."
+    "action": "Switch to the workflow pilot and rebuild the sales assets around it",
+    "why": "Plays to what you are genuinely best at and sells to firms who feel the pain daily, but it discards weeks of positioning work and restarts the asset build from nothing."
    },
    {
-    "action": "Test both with five sends each",
-    "why": "Market evidence over analysis — costs two weeks and requires actually sending."
+    "action": "Run both, with content posts feeding either conversation",
+    "why": "Feels efficient and is the trap — split messaging with no audience means neither offer becomes legible to anyone."
    }
   ],
-  "caveats": "The verdict is research-grounded but pre-revenue; no buyer has seen either offer framing. The contradiction with the standing lock is the finding — not a flaw in either document.",
-  "operator_read": "Two offers both claim the throne — pick one on the record this week."
+  "caveats": "Both recorded deliverables here appear to be the same verdict, one being a retry of the other, so the evidence base is one analysis rather than two. No client contact or market test has happened against this recommendation — it is desk research, however well grounded.",
+  "operator_read": "You are running two offers and no distribution. Kill one this week."
  },
  "angle-map-listening-engine-v4-1": {
-  "lede": "The engine works and costs pennies; its output still fails the content gate, so it produces briefs nobody can send.",
-  "next_move": "Repair the failing content gate on one brief and send that brief to one named prospect.",
-  "state_read": "The infrastructure achievement is real — scheduled runs, a proven pipe, negligible cost. But an intelligence product is judged at the send, and the last recorded gate check failed after one revision. Until a single brief clears the bar and lands in a prospect's inbox, this is a machine that manufactures shelf inventory. The fix is likely small; the habit of not finishing the last mile is the actual risk.",
+  "lede": "The listening engine works — live sources, real teardown output, effectively free to run — but its own quality gate failed the brief it produced and it has been sitting failed for over a week.",
+  "state_read": "This is the closest thing you have to a repeatable content input, and it is cheap enough to run daily. The pipeline is proven end to end. What is broken is the last mile: the structured brief did not pass its content gate even after one revision, which means the machine produces raw material rather than something ready to publish. That is a fixable problem, and fixing it converts this from a curiosity into the daily feed for the whole content offer. Left broken, it is a scheduled job producing output nobody uses.",
+  "next_move": "Take the last failed brief, fix by hand whichever section the gate rejected, and use that repaired version as the pattern the engine must match.",
   "options": [
    {
-    "action": "Fix the gate on one brief and send it",
-    "why": "Recommended. One clean send validates the whole engine and produces the sprint's best proof artifact."
+    "action": "Repair the failing section by hand once, then teach the gate from that example",
+    "why": "Recommended. Turns a blocked pipeline into a working daily feed for the sprint's content. Costs one focused session."
    },
    {
-    "action": "Downgrade briefs to internal fuel",
-    "why": "Honest if the send bar is too high right now — the briefs still feed posts and teardowns."
+    "action": "Lower the gate and publish briefs as raw research input rather than finished work",
+    "why": "Unblocks the flow immediately and the material is real, but it puts unpolished output in front of the same brands you are trying to impress."
    },
    {
-    "action": "Pause the scheduled runs",
-    "why": "Only if nobody is reading the output; a daily brief nobody opens is a subscription to guilt."
+    "action": "Pause the scheduled run until the sprint has paying work to feed",
+    "why": "Stops producing output nobody reads, but loses the accumulating source record that makes later teardowns fast."
    }
   ],
-  "caveats": "Gate failure detail comes from one deliverable note; the current failure mode needs a fresh look before repair.",
-  "operator_read": "The machine runs; the product still has not left the building."
+  "caveats": "The failure note is compressed and does not say which part of the brief failed, so the repair scope is unknown until you open it. The record does not say whether the scheduled job is still running or whether it stopped after the failure.",
+  "operator_read": "The pipe works, the tap is stuck. One session unsticks it."
  },
  "teardown-1-fresh": {
-  "lede": "Three finished named-brand teardowns with posts and messages attached have been aging in the magazine for nearly two weeks — sends stay human, and the human has not sent.",
-  "next_move": "Send the first teardown to its brand today, exactly as packaged.",
-  "state_read": "This is the most send-ready asset in the portfolio: analysis, post, direct message, verification ledger, adversarial pass — per brand, at the declared standard, for zero spend. Teardowns decay: brands change pages, claims, campaigns. Each quiet week converts finished ammunition back into homework. The blocker is not quality; the record shows the quality gates passed. The blocker is the human act of release, the same constraint showing up across the whole sprint.",
+  "lede": "Three named-brand teardowns shipped almost two weeks ago at zero cost with verification ledgers and direct messages already written — this is finished sales ammunition sitting in a drawer.",
+  "state_read": "This is the most sales-ready artifact in the whole portfolio. Each teardown carries its own post, its own direct message, and its own evidence trail, which means each one is a complete outreach unit for a brand you can name. And yet the thread is twelve days idle and nothing indicates any of them were sent. The prose gate scored badly on the shipping copy, which is probably the real reason it stalled — the analysis is solid, the writing around it is not. That is a much smaller problem than it feels like, because a teardown lands on the strength of the finding, not the sentence.",
+  "next_move": "Send one teardown to its named brand today with a plain two-sentence note and no rewrite.",
   "options": [
    {
-    "action": "Send all three across this week, one per day",
-    "why": "Recommended. Spaced sends give each brand a clean look and produce reply data fast."
+    "action": "Send all three to their named brands this week, as-is",
+    "why": "Recommended. The findings are verified and the brands are real; the writing polish matters far less than the fact that you noticed something about their product. Costs the discomfort of sending prose you scored low."
    },
    {
-    "action": "Refresh the freshest one and send only it",
-    "why": "Lower risk if decay worries you, but it converts a three-shot week into one."
+    "action": "Rewrite the shipping copy with a fresh pen before any send",
+    "why": "Fixes a real quality complaint and protects first impressions, but the gate score was on the wrapper, not the analysis, and another rewrite round is the same avoidance shape as everywhere else on this board."
    },
    {
-    "action": "Park the send and repurpose as feed content",
-    "why": "Salvages value publicly, but burns the direct-approach advantage the packaging was built for."
+    "action": "Publish the teardowns publicly instead of sending them privately",
+    "why": "Builds the proof surface and reaches brands you have not named, but trades a direct reply from a specific buyer for the hope of being found."
    }
   ],
-  "caveats": "Aging risk is asserted from elapsed time, not from re-checking the brands' current pages; a quick pre-send skim of each target is cheap insurance.",
-  "operator_read": "Ammunition is loaded and aging — fire before it expires."
+  "caveats": "The prose gate score recorded here is severe and the pack does not say whether it was ever addressed. The run also happened alongside a concurrent session that renamed a directory mid-flight, so the location and completeness of these files should be confirmed before sending anything.",
+  "operator_read": "Three brands, three finished teardowns, zero sends. That is the whole problem in one line."
  },
  "geo-content": {
-  "lede": "The launch surface for the entire sprint — the claim-check proof page and profile go-live — sits ready and unlaunched; everything else funnels into this.",
-  "next_move": "Publish the claim-check page, verify every public link in a private window, and set the profile live.",
-  "state_read": "The handoff is unusually crisp: build and publish the proof surface, verify links, set the profile and featured section live, run the weekly loop until the first paid audits are recorded as sold and collected. That is not a plan that needs thinking — it is a checklist that needs an afternoon. Teardown sends, offer outreach and feed posts all gain a destination the moment this is live; until then every send points at an unfinished front door.",
+  "lede": "This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.",
+  "state_read": "Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.",
+  "next_move": "Publish the proof surface and check every public link in a private browser window before doing anything else today.",
   "options": [
    {
-    "action": "Launch this week as the sprint's gating move",
-    "why": "Recommended. It multiplies every other finished asset; sequencing it first is what the funnel logic demands."
+    "action": "Execute the launch checklist end to end in one sitting",
+    "why": "Recommended. Every step is mechanical, already specified, and unblocks the sales motion in all the other threads. Costs one session and no creative energy."
    },
    {
-    "action": "Merge it with the profile-reset mission",
-    "why": "They overlap heavily; one combined session could clear both open items at once."
-   },
-   {
-    "action": "Park it",
-    "why": "Not credible while the sprint stands — parking the funnel is parking the sprint."
+    "action": "Set the profile and featured section live now and defer the proof surface build",
+    "why": "Gets a credible destination up faster for anyone you contact, but sends buyers to a page with nothing to read."
    }
   ],
-  "caveats": "No sessions recorded in the window; readiness is asserted by the handoff, so the first hour should re-verify the artifact kit before publishing.",
-  "operator_read": "The front door is built and leaning against the house — hang it."
+  "caveats": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.",
+  "operator_read": "The whole launch is written down. Nobody has run it."
  },
  "extract-forge": {
-  "lede": "Cleanly finished and formally verified; the only remaining item is an optional vanity promotion that changes nothing about daily use.",
-  "next_move": "Close this thread as done and use the skill; judge the blind pack only if recognition-tier promotion ever matters.",
-  "state_read": "This is what a finished thread looks like: verifiers passed, runtime proven, the build formally tiered and recorded. The open blind-recognition question is a nice-to-have that has correctly been deferred twice. Keeping the thread active costs a pinned slot on every surface for a decision that has already effectively been made.",
+  "lede": "This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.",
+  "state_read": "Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.",
+  "next_move": "Mark this closed and skip the blind pack unless you personally want the tier.",
   "options": [
    {
-    "action": "Mark it done and unpin",
-    "why": "Recommended. The system is in service; done is the accurate status."
+    "action": "Close it now, promotion declined",
+    "why": "Recommended. The skill works locally and that was the point. Costs a badge that changes nothing."
    },
    {
-    "action": "Run the blind pack as a taste session",
-    "why": "Worth an evening only if the recognition game sounds fun — it is calibration, not obligation."
+    "action": "Run the blind judgment pack in one short sitting",
+    "why": "Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue."
    }
   ],
-  "caveats": "Market effect of the skill remains unobserved — done here means built and verified, not proven in use.",
-  "operator_read": "It shipped, it passed, it works — say done and move on."
+  "caveats": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.",
+  "operator_read": "Done and clean. Do not reopen it."
  },
  "mission": {
-  "lede": "The client packet for the dance-apparel brand shipped with full verification; the thread now waits on the client's decision, and silence is the current risk.",
-  "next_move": "Send the client a short walkthrough of the packet and ask for the consult decision by a named day.",
-  "state_read": "This is the nearest live human relationship in the portfolio — a delivered, verification-passed strategy packet with a clear next step for the client. The work is done; the follow-through is not. Client threads decay socially rather than technically: a week of silence reads as indifference. A two-line walkthrough message with a concrete ask converts a delivered file into a moving engagement — and possibly the next logged dollar.",
+  "lede": "A full client brand and legal packet for Josh shipped four days ago — cultural dossier, reference board, risk map, lawyer agenda — and it passed every verification check, which means the ball is in his court, not yours.",
+  "state_read": "This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.",
+  "next_move": "Send Josh one short message asking whether he has booked the legal consult, and let the thread sit until he answers.",
   "options": [
    {
-    "action": "Follow up now with a walkthrough and a dated ask",
-    "why": "Recommended. Delivered work without a prompted decision is a gift, not an engagement."
+    "action": "Follow up once, then let it rest pending his lawyer",
+    "why": "Recommended. The work is delivered and the blocker is external. Costs one message."
    },
    {
-    "action": "Turn the packet into a public case study",
-    "why": "Strong proof content for the feed — but ask the client first, and it should follow the follow-up, not replace it."
-   },
-   {
-    "action": "Wait for the client to respond",
-    "why": "Feels polite, performs poorly — the packet is dense and clients stall on dense things without a guide."
+    "action": "Convert this packet into a public case study for the sprint",
+    "why": "Turns finished client work into credibility you badly need, but it is a different category from supplement and performance brands and may confuse the positioning you just locked."
    }
   ],
-  "caveats": "This banner mixes older research missions with the client work; the client engagement is the only live element in it.",
-  "operator_read": "The packet landed — now walk him through the door you built."
+  "caveats": "Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.",
+  "operator_read": "Delivered and waiting on him. Send one nudge and move on."
  },
  "health-performance-ip-library": {
-  "lede": "A named shelf with no books — declared as a thread, never fed a single session, deliverable or asset.",
-  "next_move": "Fold this into the listening-engine thread as its library, or kill the banner outright.",
-  "state_read": "The idea is sound — a curated intelligence library for the health and performance niche is exactly what the sprint's content engine feeds on. But as a standing empty thread it only manufactures guilt. Libraries get built by depositing what the listening engine and teardowns already produce, not by existing as a title.",
+  "lede": "There is almost nothing here — a title, a stub handoff, and no recorded work — despite this being the knowledge base the entire claim-safe sprint would draw from.",
+  "state_read": "The name points at exactly the right thing: an accumulating record of health and performance domain knowledge that would make every teardown faster and every claim safer to write. The pack contains no evidence it exists beyond the label. That is worth noting honestly rather than dressing up. If the sprint continues on claim-safe content, this becomes load-bearing quickly, because writing safely about supplements without a grounded reference is exactly how a factual error reaches a client. But building it now, before a single client is closed, would be building a library for a bookshop that has not opened.",
+  "next_move": "Leave it empty and start filling it only from real client work, one entry per engagement.",
   "options": [
    {
-    "action": "Fold into the listening engine",
-    "why": "Recommended. The engine already produces the material; this becomes its filing system instead of a rival thread."
+    "action": "Grow it as a by-product of paid work rather than as a project",
+    "why": "Recommended. The entries earn their place by having been needed. Costs you a slower-building reference in exchange for one that is actually used."
    },
    {
-    "action": "Kill it",
-    "why": "Clean if the folding feels like ceremony — the name can be reborn when there is something to shelve."
+    "action": "Spend a session seeding it with the regulatory basics before the first client",
+    "why": "Reduces the risk of a claim error on your first engagement, which is the worst possible moment for one — but it is preparation spend on a sprint that needs collection."
    }
   ],
-  "caveats": "Stub handoff and zero recorded activity — this read is built entirely on absence.",
-  "operator_read": "An empty shelf with a nice label — fold it or lose it."
+  "caveats": "The pack is a stub: no sessions, no deliverables, no handoff content, no idle count. Nothing here confirms whether any material exists on disk. Treat every statement about this thread as a read of the label, not of the contents.",
+  "operator_read": "Empty shelf with the right name on it. Fill it from paid work, not before."
  },
  "mission-board": {
-  "lede": "The portfolio has a release constraint, not a production constraint: five finished cash assets are each waiting on one human act — a send, a publish, a decision — while attention keeps flowing to system work.",
-  "next_move": "Declare this a send-week: launch the claim-check surface, send the teardowns, and decide the offer fork — nothing new gets built.",
-  "state_read": "Read across the threads and one shape appears everywhere: work reaches the finish line and stops one step short of the world. Teardowns packaged but unsent. An offer hardened but unpitched. A launch surface ready but unpublished. A strategy verdict written but undecided. Meanwhile the system lane keeps shipping because it never needs anyone's permission. Nearly a month has passed since the last logged dollar, and closing that gap requires exactly zero new artifacts — only releases of existing ones.",
+  "lede": "Your portfolio is almost entirely finished work waiting to be sent, and the one thing missing across every revenue thread is the same thing: an actual message to an actual buyer.",
+  "state_read": "The pattern is unmistakable once the threads are read together. The offer is council-hardened and unsent. Three named-brand teardowns are complete with their direct messages already drafted and unsent. Launch posts are written, judged good by you, and unpublished. The launch checklist is written down and unrun. Meanwhile the threads that are genuinely idle — the harness, the trailer, the extraction build — are the ones that should be idle, and they are not what is costing you. Nothing here is blocked by missing craft. Everything is blocked at the moment of exposure. Layered on top of that is one unresolved strategic contradiction: a well-argued verdict says to sell workflow pilots to professional-service firms instead of claim-safe content, and while both stay open, neither gets the repetition that would prove it. The sprint does not need more assets. It needs one offer, one week of sends, and the willingness to hear no.",
+  "next_move": "Choose the claim-safe content offer as the only offer, then send one finished teardown to its named brand before you close the laptop today.",
   "options": [
    {
-    "action": "Run a send-week with a hard no-new-builds rule",
-    "why": "Recommended. Every needed asset already exists; the week's only metric is things released and replies received."
+    "action": "Declare a sending week — no new production, only publishing and outreach, until three conversations are live",
+    "why": "Recommended. Every asset required already exists and is verified; the only untested variable in the entire portfolio is market response. Costs you the comfort of building, which is the point."
    },
    {
-    "action": "Resolve the offer fork first, then send",
-    "why": "Sequencing purity — defensible, but the teardown and claim-check sends are offer-agnostic and should not wait."
+    "action": "Resolve the offer contradiction first with a short bounded decision, then send",
+    "why": "Removes the split that quietly weakens every message you would send, but adds a day and risks becoming another round of analysis on a question two weeks of real sends would answer better."
    },
    {
-    "action": "Prune the board before sending",
-    "why": "Killing the empty threads sharpens focus, but pruning is an evening, not a week — do it inside the send-week."
+    "action": "Fix the listening engine and the failed prose gate first so outreach goes out at full quality",
+    "why": "Produces cleaner material and closes two real quality gaps, but it is the most defensible version of the same avoidance that has kept nine finished assets unsent."
    }
   ],
-  "caveats": "This read is assembled from records, not from feed analytics or inbox contents — actual audience response data is absent from every thread.",
-  "operator_read": "Nothing needs building; five things need releasing."
+  "caveats": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.",
+  "operator_read": "You have built a full arsenal and fired nothing. This week is sending, not making."
  }
 }

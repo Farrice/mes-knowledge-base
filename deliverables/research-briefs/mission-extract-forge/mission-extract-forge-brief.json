@@ -2,7 +2,7 @@
   "slug": "mission-extract-forge",
   "chip": "MISSION · THREAD",
   "title": "David Perell Idea-to-Culture — Forge Build (13 *Workflows*)",
-  "dek": "It shipped, it passed, it works — say done and move on.",
+  "dek": "Done and clean. Do not reopen it.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Cleanly finished and formally verified; the only remaining item is an optional vanity promotion that changes nothing about daily use.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Close this thread as done and use the skill; judge the blind pack only if recognition-tier promotion ever matters."
+      "body": "This build is finished and verified across every check it set for itself, with no functional work remaining — the only thing left is an optional judgment call you can make in ten minutes or ignore entirely.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.\n\nHandoff status is ready. Last activity 2d ago.\n\nNext: Mark this closed and skip the blind pack unless you personally want the tier."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: This is what a finished thread looks like: verifiers passed, runtime proven, the build formally tiered and recorded. The open blind-recognition question is a nice-to-have that has correctly been deferred twice. Keeping the thread active costs a pinned slot on every surface for a decision that has already effectively been made.\n\nCompleted: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.\n\nRemaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.\n\n\n\n- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`\n\n- Custom verifier: `24/24 PASS`\n\n- Detached runtime fixtures: `18/18 PASS`\n\n- Skill heartbeat: `7/7 PASS`\n\n- Prompt regression: `3782/3782 PASS`\n\n- Codex live surface: `STRICT PASS`\n\n- Chain finalize: `7.0/10 B-TIER`\n\n- Forge record: `SHIPPED 2026-08-04`\n\n- Human blind recognition: `DEFERRED`\n\n- Market effect: `UNOBSERVED`\n\nHandoff written 16d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create another David Perell skill, expert, or hot command for this source.\n\n- Do not rewrite the three byte-protected POP-era assets.\n\n- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.\n\n- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic."
+      "body": "Assessment: Thirteen workflows built, every verifier passing, runtime fixtures clean, formally finalized at a middle tier. The handoff is the clearest on the board: nothing is broken, nothing is owed. The single open item is whether you want to judge a blind pack to promote it a tier, and that promotion has no bearing on the sprint. This is the model of how a thread should close. The only mistake available here is reopening it.\n\nCompleted: Expanded `david-perell-writing` to v3.0 with 13 bounded workflows, 13 born-v2 execution prompts, project-local command surfaces, provenance controls, detached runtime proof, and formal B-tier forge finalization.\n\nRemaining priority: None for functional local use. Optional only: Farrice can judge the blind pack if A-tier human-recognition promotion matters.\n\n\n\n- Checkpoint 3: `APPROVED — B-TIER; RECOGNITION DEFERRED`\n\n- Custom verifier: `24/24 PASS`\n\n- Detached runtime fixtures: `18/18 PASS`\n\n- Skill heartbeat: `7/7 PASS`\n\n- Prompt regression: `3782/3782 PASS`\n\n- Codex live surface: `STRICT PASS`\n\n- Chain finalize: `7.0/10 B-TIER`\n\n- Forge record: `SHIPPED 2026-08-04`\n\n- Human blind recognition: `DEFERRED`\n\n- Market effect: `UNOBSERVED`\n\nHandoff written 16d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create another David Perell skill, expert, or hot command for this source.\n\n- Do not rewrite the three byte-protected POP-era assets.\n\n- Do not regenerate the source capture, claims ledger, 13-workflow architecture, or fixture corpus.\n\n- Extend the verified v3 system only when a new source reveals a genuinely non-duplicate mechanic."
     },
     {
       "kind": "decision",
@@ -30,12 +30,12 @@
       "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
       "items": [
         {
-          "action": "Mark it done and unpin",
-          "why": "Recommended. The system is in service; done is the accurate status."
+          "action": "Close it now, promotion declined",
+          "why": "Recommended. The skill works locally and that was the point. Costs a badge that changes nothing."
         },
         {
-          "action": "Run the blind pack as a taste session",
-          "why": "Worth an evening only if the recognition game sounds fun — it is calibration, not obligation."
+          "action": "Run the blind judgment pack in one short sitting",
+          "why": "Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue."
         },
         {
           "action": "Finish what's open",
@@ -216,7 +216,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Market effect of the skill remains unobserved — done here means built and verified, not proven in use.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

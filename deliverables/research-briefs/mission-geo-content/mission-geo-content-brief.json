@@ -2,7 +2,7 @@
   "slug": "mission-geo-content",
   "chip": "MISSION · FARRICE BRAND",
   "title": "Revenue: Claim Check Funnel - Ready to *Launch*",
-  "dek": "The front door is built and leaning against the house — hang it.",
+  "dek": "The whole launch is written down. Nobody has run it.",
   "window": "last 14 days",
   "lens": "codex",
   "sources": "0 sessions · 6 files · 0 assets",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The launch surface for the entire sprint — the claim-check proof page and profile go-live — sits ready and unlaunched; everything else funnels into this.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.\n\nHandoff status is ready.\n\nNext: Publish the claim-check page, verify every public link in a private window, and set the profile live."
+      "body": "This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.\n\nHandoff status is ready.\n\nNext: Publish the proof surface and check every public link in a private browser window before doing anything else today."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: The handoff is unusually crisp: build and publish the proof surface, verify links, set the profile and featured section live, run the weekly loop until the first paid audits are recorded as sold and collected. That is not a plan that needs thinking — it is a checklist that needs an afternoon. Teardown sends, offer outreach and feed posts all gain a destination the moment this is live; until then every send points at an unfinished front door.\n\nHandoff written 4d ago — mostly current; skim the latest sessions below for drift.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
+      "body": "Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.\n\nHandoff written 4d ago — mostly current; skim the latest sessions below for drift.\n\nDo not rebuild:\n- Do not reopen the GEO-led versus creative-strategy-led positioning decision without buyer evidence from the 60-day test.\n\n- Do not add a new offer rung, dashboard, funnel, or automation before 10 real Claim Check verdicts or three verdict-sourced conversations exist.\n\n- Do not treat local QA, public-tool usage, DMs, or verbal interest as sales proof. Track `sent -> held -> sold -> collected` separately.\n\n- Do not publish with placeholder profile or fallback URLs; the incognito logged-out check is the release gate."
     },
     {
       "kind": "decision",
@@ -30,16 +30,12 @@
       "dek": "The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.",
       "items": [
         {
-          "action": "Launch this week as the sprint's gating move",
-          "why": "Recommended. It multiplies every other finished asset; sequencing it first is what the funnel logic demands."
+          "action": "Execute the launch checklist end to end in one sitting",
+          "why": "Recommended. Every step is mechanical, already specified, and unblocks the sales motion in all the other threads. Costs one session and no creative energy."
         },
         {
-          "action": "Merge it with the profile-reset mission",
-          "why": "They overlap heavily; one combined session could clear both open items at once."
-        },
-        {
-          "action": "Park it",
-          "why": "Not credible while the sprint stands — parking the funnel is parking the sprint."
+          "action": "Set the profile and featured section live now and defer the proof surface build",
+          "why": "Gets a credible destination up faster for anyone you contact, but sends buyers to a page with nothing to read."
         }
       ]
     },
@@ -231,7 +227,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No sessions recorded in the window; readiness is asserted by the handoff, so the first hour should re-verify the artifact kit before publishing.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

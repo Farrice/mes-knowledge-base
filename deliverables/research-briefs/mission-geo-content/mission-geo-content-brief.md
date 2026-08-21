@@ -2,20 +2,20 @@
 
 > MISSION · FARRICE BRAND · window: last 14 days · lens: codex · sources: 0 sessions · 6 files · 0 assets · compiled: aug 20, 2026
 
-The front door is built and leaning against the house — hang it.
+The whole launch is written down. Nobody has run it.
 
 ## where this stands
 _CURRENT POSITION_
-The launch surface for the entire sprint — the claim-check proof page and profile go-live — sits ready and unlaunched; everything else funnels into this.
+This thread names the exact launch sequence — publish the proof surface, verify the links, set the profile live, run the week-one loop until three audits are sold and collected — and none of it has started.
 
 Stage: build — files are moving; nothing finalized. In the last 14 days: 6 files written.
 
 Handoff status is ready.
 
-Next: Publish the claim-check page, verify every public link in a private window, and set the profile live.
+Next: Publish the proof surface and check every public link in a private browser window before doing anything else today.
 
 ## the state, as the last session left it
-Assessment: The handoff is unusually crisp: build and publish the proof surface, verify links, set the profile and featured section live, run the weekly loop until the first paid audits are recorded as sold and collected. That is not a plan that needs thinking — it is a checklist that needs an afternoon. Teardown sends, offer outreach and feed posts all gain a destination the moment this is live; until then every send points at an unfinished front door.
+Assessment: Of every thread on the board this one is written most plainly as instructions rather than as work, which is a good sign about the thinking and a bad sign about the doing. It states the finish line in the only terms that matter: paid clients recorded as collected. It also depends on assets that live in other threads, which is probably why it has not moved — it is the assembly step, and assembly is boring compared to making. The sprint's money runs through this thread whether or not anyone opens it.
 
 Handoff written 4d ago — mostly current; skim the latest sessions below for drift.
 
@@ -30,9 +30,8 @@ Do not rebuild:
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Launch this week as the sprint's gating move** — Recommended. It multiplies every other finished asset; sequencing it first is what the funnel logic demands.
-2. **Merge it with the profile-reset mission** — They overlap heavily; one combined session could clear both open items at once.
-3. **Park it** — Not credible while the sprint stands — parking the funnel is parking the sprint.
+1. **Execute the launch checklist end to end in one sitting** — Recommended. Every step is mechanical, already specified, and unblocks the sales motion in all the other threads. Costs one session and no creative energy.
+2. **Set the profile and featured section live now and defer the proof surface build** — Gets a credible destination up faster for anyone you contact, but sends buyers to a page with nothing to read.
 
 ## resume · park · kill
 1. **Resume here** — Launch the proof surface. Build and publish The Claim Check from the artifact kit, verify all public links in an incognito session, set the LinkedIn profile and Featured section live, and run the Crea
@@ -99,7 +98,7 @@ FILES TOUCHED (6):
 
 ## what this isn't
 _READ THE EDGES_
-No sessions recorded in the window; readiness is asserted by the handoff, so the first hour should re-verify the artifact kit before publishing.
+No sessions, deliverables, or assets are recorded against this thread and no idle count exists, so it may be a plan that was never opened rather than work that stalled. The artifact kit it depends on is not described here — confirm it exists before starting.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

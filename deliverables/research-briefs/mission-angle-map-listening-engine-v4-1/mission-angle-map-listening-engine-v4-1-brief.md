@@ -2,20 +2,20 @@
 
 > MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 20, 2026
 
-The machine runs; the product still has not left the building.
+The pipe works, the tap is stuck. One session unsticks it.
 
 ## where this stands
 _CURRENT POSITION_
-The engine works and costs pennies; its output still fails the content gate, so it produces briefs nobody can send.
+The listening engine works — live sources, real teardown output, effectively free to run — but its own quality gate failed the brief it produced and it has been sitting failed for over a week.
 
 Stage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.
 
 Handoff status is active. Last activity 8d ago.
 
-Next: Repair the failing content gate on one brief and send that brief to one named prospect.
+Next: Take the last failed brief, fix by hand whichever section the gate rejected, and use that repaired version as the pattern the engine must match.
 
 ## the state, as the last session left it
-Assessment: The infrastructure achievement is real — scheduled runs, a proven pipe, negligible cost. But an intelligence product is judged at the send, and the last recorded gate check failed after one revision. Until a single brief clears the bar and lands in a prospect's inbox, this is a machine that manufactures shelf inventory. The fix is likely small; the habit of not finishing the last mile is the actual risk.
+Assessment: This is the closest thing you have to a repeatable content input, and it is cheap enough to run daily. The pipeline is proven end to end. What is broken is the last mile: the structured brief did not pass its content gate even after one revision, which means the machine produces raw material rather than something ready to publish. That is a fixable problem, and fixing it converts this from a curiosity into the daily feed for the whole content offer. Left broken, it is a scheduled job producing output nobody uses.
 
 Handoff written 8d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
@@ -28,9 +28,9 @@ Do not rebuild:
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Fix the gate on one brief and send it** — Recommended. One clean send validates the whole engine and produces the sprint's best proof artifact.
-2. **Downgrade briefs to internal fuel** — Honest if the send bar is too high right now — the briefs still feed posts and teardowns.
-3. **Pause the scheduled runs** — Only if nobody is reading the output; a daily brief nobody opens is a subscription to guilt.
+1. **Repair the failing section by hand once, then teach the gate from that example** — Recommended. Turns a blocked pipeline into a working daily feed for the sprint's content. Costs one focused session.
+2. **Lower the gate and publish briefs as raw research input rather than finished work** — Unblocks the flow immediately and the material is real, but it puts unpolished output in front of the same brands you are trying to impress.
+3. **Pause the scheduled run until the sprint has paying work to feed** — Stops producing output nobody reads, but loses the accumulating source record that makes later teardowns fast.
 4. **Decide: resume, park, or kill** — No recorded activity in 8 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
@@ -93,7 +93,7 @@ Live Reddit plus FDA FTC Amazon source spine; local-only; public assets clean; f
 
 ## what this isn't
 _READ THE EDGES_
-Gate failure detail comes from one deliverable note; the current failure mode needs a fresh look before repair.
+The failure note is compressed and does not say which part of the brief failed, so the repair scope is unknown until you open it. The record does not say whether the scheduled job is still running or whether it stopped after the failure.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

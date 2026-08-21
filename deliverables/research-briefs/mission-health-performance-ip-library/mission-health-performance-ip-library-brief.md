@@ -2,27 +2,27 @@
 
 > MISSION · KNOWLEDGE · window: last 14 days · lens: claude · sources: 0 sessions · 4 files · 0 assets · compiled: aug 20, 2026
 
-An empty shelf with a nice label — fold it or lose it.
+Empty shelf with the right name on it. Fill it from paid work, not before.
 
 ## where this stands
 _CURRENT POSITION_
-A named shelf with no books — declared as a thread, never fed a single session, deliverable or asset.
+There is almost nothing here — a title, a stub handoff, and no recorded work — despite this being the knowledge base the entire claim-safe sprint would draw from.
 
 Stage: build — files are moving; nothing finalized. In the last 14 days: 4 files written.
 
 Handoff status is active.
 
-Next: Fold this into the listening-engine thread as its library, or kill the banner outright.
+Next: Leave it empty and start filling it only from real client work, one entry per engagement.
 
 ## the state, as the last session left it
-Assessment: The idea is sound — a curated intelligence library for the health and performance niche is exactly what the sprint's content engine feeds on. But as a standing empty thread it only manufactures guilt. Libraries get built by depositing what the listening engine and teardowns already produce, not by existing as a title.
+Assessment: The name points at exactly the right thing: an accumulating record of health and performance domain knowledge that would make every teardown faster and every claim safer to write. The pack contains no evidence it exists beyond the label. That is worth noting honestly rather than dressing up. If the sprint continues on claim-safe content, this becomes load-bearing quickly, because writing safely about supplements without a grounded reference is exactly how a factual error reaches a client. But building it now, before a single client is closed, would be building a library for a bookshop that has not opened.
 
 Handoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
-1. **Fold into the listening engine** — Recommended. The engine already produces the material; this becomes its filing system instead of a rival thread.
-2. **Kill it** — Clean if the folding feels like ceremony — the name can be reborn when there is something to shelve.
+1. **Grow it as a by-product of paid work rather than as a project** — Recommended. The entries earn their place by having been needed. Costs you a slower-building reference in exchange for one that is actually used.
+2. **Spend a session seeding it with the regulatory basics before the first client** — Reduces the risk of a claim error on your first engagement, which is the worst possible moment for one — but it is preparation spend on a sprint that needs collection.
 
 ## resume · park · kill
 1. **Resume here** — Health Performance Ip Library — W32 Health Performance Synthesis
@@ -84,7 +84,7 @@ FILES TOUCHED (4):
 
 ## what this isn't
 _READ THE EDGES_
-Stub handoff and zero recorded activity — this read is built entirely on absence.
+The pack is a stub: no sessions, no deliverables, no handoff content, no idle count. Nothing here confirms whether any material exists on disk. Treat every statement about this thread as a read of the label, not of the contents.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
