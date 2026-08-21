@@ -1,6 +1,7 @@
 ---
 date: 2026-08-21
 session: second-brain-awakening
+name: documented-but-unwired-read-paths
 problem_class: harness / memory / retrieval-dormancy
 domain: harness
 status: proven

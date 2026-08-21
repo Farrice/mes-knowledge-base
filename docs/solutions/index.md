@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-21 · documented-but-unwired-read-paths · a memory or knowledge store writes perfectly on launchd schedule yet 'feels dormant' — its retrieval side exists only as a markdown instruction ('always run memory_facade first'), so it fires at model discretion under 5% of prompts while every hook-wired injection path fires on all of them
 - 2026-08-05 · Listing URL → Sendable Package Pipeline (register-ladder, claims-ledger, one checkpoint) · a client listing url or property drop produces surface-level ai listing copy in the wrong register with unverified claims and a package that needs manual editing before it can be forwarded, because research, register selection, fact provenance, compliance, and the send shape all lived in memory instead of machinery
 - 2026-08-04 · kdp-book-one-policy-safe-runtime-proof · A creator-led KDP extraction can turn unsafe or unverified tactics into a fast AI-book workflow unless policy truth, proof axes, permission gates, and detached runtime behavior are built into the owner.
 - 2026-08-04 · search-content-mastery-os · Turn an eleven-video SEO corpus into one evidence-bounded conductor with strict imports, transparent scoring, routing parity, and honest outcome states without duplicating expert skills or offer canon.
