@@ -690,6 +690,10 @@ h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(
 .homenav .here { opacity:.45; border-style:dashed; }
 .stamp { color:var(--muted); font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
   display:flex; gap:10px; align-items:center; flex-wrap:wrap; border-top:1px solid var(--ink); padding-top:10px; }
+#brainsearch { margin-left:auto; font-family:var(--mono); font-size:10px; letter-spacing:.06em;
+  background:var(--panel); color:var(--ink); border:1px solid var(--line); border-radius:99px;
+  padding:5px 14px; width:200px; outline:none; text-transform:none; }
+#brainsearch:focus { border-color:var(--accent); width:260px; transition:width .15s; }
 .zone { font-family:var(--mono); font-size:9px; letter-spacing:.26em; text-transform:uppercase; color:var(--accent);
   margin:8px 0 -8px; }
 .sprint { background:var(--panel); border:1px solid var(--accent); border-radius:8px; padding:12px 16px;
@@ -1014,6 +1018,18 @@ _tick(); setInterval(_tick, 1000);
   }
   frame();
 })();
+// ── brain quick-search: the whole canon reachable from home ──
+(function () {
+  const bs = document.getElementById('brainsearch');
+  if (!bs) return;
+  bs.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    const q = bs.value.trim();
+    if (!q) return;
+    const qs = '?q=' + encodeURIComponent(q);
+    location.href = PULSE_LIVE ? ('/brain' + qs) : (bs.dataset.brain + qs);
+  });
+})();
 // ── routines: a row with a log opens it (live) or copies the path (static) ──
 document.querySelectorAll('.routine[data-log]').forEach(r => r.addEventListener('click', () => {
   const p = r.dataset.log;
@@ -1172,6 +1188,12 @@ def main():
     apps_html = micro_apps()
     brain_rel = ".agent/brain/brain.html"
     brain_uri = (Path(ROOT) / brain_rel).as_uri()
+    try:
+        hot_n = (json.load(open(os.path.join(ROOT, ".agent", "brain", "brain.json"),
+                                encoding="utf-8")).get("hot_count") or 0)
+        brain_cap = f"second brain · {hot_n} hot" if hot_n else "second brain"
+    except (OSError, ValueError):
+        brain_cap = "second brain"
     vitals_html = vitals(len(active), len(needs_you), due_count,
                          threads_promoted, sweep_age)
     next_move = esc(str(needs_you[0].get("goal") or needs_you[0].get("title")
@@ -1207,7 +1229,9 @@ def main():
 <div class="stamp"><span>{now}</span>
   <span class="livechip pill muted" id="livechip">static — actions copy commands</span>
   <span class="m">sweep {esc(sweep_age)}</span>
-  <button class="actbtn" type="button" data-action="refresh">↻ refresh data</button></div>
+  <button class="actbtn" type="button" data-action="refresh">↻ refresh data</button>
+  <input id="brainsearch" type="search" placeholder="search the brain…"
+    autocomplete="off" data-brain="{esc(brain_uri)}"></div>
 
 <div class="cockpit">
   <div class="col" id="col-left">
@@ -1228,7 +1252,7 @@ def main():
       </div>
       <a class="coredisc" href="{esc(brain_uri)}" data-route="/brain" title="open the second brain">
         <canvas id="portalcv"></canvas>
-        <span class="pcap">second brain</span>
+        <span class="pcap">{esc(brain_cap)}</span>
       </a>
     </section>
     <section class="feedbox"><h2>Live activity — what the system did</h2>
