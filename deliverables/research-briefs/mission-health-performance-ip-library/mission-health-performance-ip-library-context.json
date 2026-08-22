@@ -15,43 +15,43 @@
     {
       "path": ".agent/handoffs/2026-08-07-health-performance-ip-library.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-health-performance-ip-library.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/.agent/handoffs/2026-08-07-health-performance-ip-library.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-16-angle-map-listening-brief.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-16-angle-map-listening-brief.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/knowledge/health-performance-ip-library/daily/2026-08-16-angle-map-listening-brief.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/knowledge/health-performance-ip-library/daily/LATEST-EXEC-CUT.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-15-angle-map-listening-brief.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-15-angle-map-listening-brief.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/knowledge/health-performance-ip-library/daily/2026-08-15-angle-map-listening-brief.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/knowledge/health-performance-ip-library/daily/2026-08-13-angle-map-listening-brief.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/knowledge/health-performance-ip-library/START-HERE.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/knowledge/health-performance-ip-library/START-HERE.html",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/knowledge/health-performance-ip-library/START-HERE.html",
       "role": "related · FRONT DOOR"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

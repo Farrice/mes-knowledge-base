@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Three named-brand teardowns shipped almost two weeks ago at zero cost with verification ledgers and direct messages already written — this is finished sales ammunition sitting in a drawer.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 13d ago.\n\nNext: Send one teardown to its named brand today with a plain two-sentence note and no rewrite."
+      "body": "Three named-brand teardowns shipped almost two weeks ago at zero cost with verification ledgers and direct messages already written — this is finished sales ammunition sitting in a drawer.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.\n\nHandoff status is active. Last activity 14d ago.\n\nNext: Send one teardown to its named brand today with a plain two-sentence note and no rewrite."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: This is the most sales-ready artifact in the whole portfolio. Each teardown carries its own post, its own direct message, and its own evidence trail, which means each one is a complete outreach unit for a brand you can name. And yet the thread is twelve days idle and nothing indicates any of them were sent. The prose gate scored badly on the shipping copy, which is probably the real reason it stalled — the analysis is solid, the writing around it is not. That is a much smaller problem than it feels like, because a teardown lands on the strength of the finding, not the sentence.\n\nHandoff written 14d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+      "body": "Assessment: This is the most sales-ready artifact in the whole portfolio. Each teardown carries its own post, its own direct message, and its own evidence trail, which means each one is a complete outreach unit for a brand you can name. And yet the thread is twelve days idle and nothing indicates any of them were sent. The prose gate scored badly on the shipping copy, which is probably the real reason it stalled — the analysis is solid, the writing around it is not. That is a much smaller problem than it feels like, because a teardown lands on the strength of the finding, not the sentence.\n\nHandoff written 15d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
     },
     {
       "kind": "decision",
@@ -43,7 +43,7 @@
         },
         {
           "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+          "why": "No recorded activity in 14 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -93,7 +93,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards\nSLUG: teardown-1-fresh\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-teardown-1-fresh.md\n\nRESUME HERE: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards\n\nSHIPPED IN WINDOW:\n  - 2026-08-07 · Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each;\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards\nSLUG: teardown-1-fresh\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/.agent/handoffs/2026-08-07-teardown-1-fresh.md\n\nRESUME HERE: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards\n\nSHIPPED IN WINDOW:\n  - 2026-08-07 · Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each;\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -112,7 +112,7 @@
           "note": "claude"
         },
         {
-          "value": "14",
+          "value": "15",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

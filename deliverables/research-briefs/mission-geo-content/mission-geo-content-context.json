@@ -15,61 +15,61 @@
     {
       "path": ".agent/handoffs/2026-08-16-geo-content.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-16-geo-content.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/.agent/handoffs/2026-08-16-geo-content.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "_active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/content/vault/2026-08-16-what-a-shelf-does-longform.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/content/vault/2026-08-16-the-second-price-post.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/content/vault/INDEX.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/INDEX.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/content/vault/INDEX.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/content/vault/2026-08-13-ads-that-last-post.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/content/vault/2026-08-13-decision-under-the-round-entry-4.md",
       "role": "asset · FILE"
     },
     {
       "path": "_active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/content/vault/2026-08-13-thirteen-months-old-script.md",
       "role": "asset · FILE"
     },
     {
       "path": "guides/2026-08-16-geo-content.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-16-geo-content.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/guides/2026-08-16-geo-content.md",
       "role": "asset · GUIDE"
     },
     {
       "path": "_active/farrice-brand/START-HERE.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/_active/farrice-brand/START-HERE.html",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/_active/farrice-brand/START-HERE.html",
       "role": "related · FRONT DOOR"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

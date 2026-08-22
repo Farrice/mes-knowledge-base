@@ -372,6 +372,7 @@
 
 
 ## Pending enrichment
+- [2026-08-22 — System: Second-Brain Awakening - Live, Merged, Guarded](2026-08-22-second-brain-awakening.md) — session-brief stub, needs enrichment
 - [2026-08-21 — Extraction: Tommy Clark LinkedIn OS - 2026 Strategy Harvested](2026-08-21-guides-empty-slug-fix.md) — session-brief stub, needs enrichment
 - (none)
 - [2026-08-20 — System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-system-opus-5-gap-diagnosis-resolved-defaults-installed.md) — session-brief stub, needs enrichment

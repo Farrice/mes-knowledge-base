@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Three finished deliverables and a locked character canon sit here from a week and a half ago, all built at zero spend — this is real craft output with no line to the sprint's money.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.\n\nHandoff status is active. Last activity 10d ago.\n\nNext: Decide today whether this is a portfolio proof piece or a hobby, and write that decision down in one line."
+      "body": "Three finished deliverables and a locked character canon sit here from a week and a half ago, all built at zero spend — this is real craft output with no line to the sprint's money.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 3 deliverables finalized.\n\nHandoff status is active. Last activity 11d ago.\n\nNext: Decide today whether this is a portfolio proof piece or a hobby, and write that decision down in one line."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: The work is genuinely complete at the preparation layer: reference pack locked, continuity manifest built, director prompt written, physics vetoes verified. The discipline in it is the same discipline that makes the claim-safe brand work good, so it is not wasted practice. But it serves no buyer and no revenue thread. Left as is, it will either quietly rot or quietly eat a weekend. Both outcomes are worse than deciding now which one it is.\n\nHandoff written 10d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+      "body": "Assessment: The work is genuinely complete at the preparation layer: reference pack locked, continuity manifest built, director prompt written, physics vetoes verified. The discipline in it is the same discipline that makes the claim-safe brand work good, so it is not wasted practice. But it serves no buyer and no revenue thread. Left as is, it will either quietly rot or quietly eat a weekend. Both outcomes are worse than deciding now which one it is.\n\nHandoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
     },
     {
       "kind": "decision",
@@ -43,7 +43,7 @@
         },
         {
           "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 10 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+          "why": "No recorded activity in 11 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -93,7 +93,7 @@
       "blocks": [
         {
           "label": "CONTEXT PACK — paste into any session",
-          "text": "THREAD: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\nSLUG: trailer-treatment\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-11-trailer-treatment.md\n\nRESUME HERE: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\n\nSHIPPED IN WINDOW:\n  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling\n  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon a\n  - 2026-08-11 · Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+          "text": "THREAD: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\nSLUG: trailer-treatment\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/.agent/handoffs/2026-08-11-trailer-treatment.md\n\nRESUME HERE: Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\n\nSHIPPED IN WINDOW:\n  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, built around six required canon assets, a four-act timecoded story spine, bowling\n  - 2026-08-11 · OpenArt Director master prompt for a 90-second original bowling-anime trailer, aimed at sports-anime viewers and bowling fans, built around six required canon a\n  - 2026-08-11 · Midnight Oil native reference pack, continuity manifest, and OpenArt Director prompt\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
         }
       ]
     },
@@ -107,7 +107,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "10",
+          "value": "11",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }

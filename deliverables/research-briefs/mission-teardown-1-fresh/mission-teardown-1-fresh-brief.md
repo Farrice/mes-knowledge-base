@@ -10,14 +10,14 @@ Three named-brand teardowns shipped almost two weeks ago at zero cost with verif
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 1 deliverable finalized.
 
-Handoff status is active. Last activity 13d ago.
+Handoff status is active. Last activity 14d ago.
 
 Next: Send one teardown to its named brand today with a plain two-sentence note and no rewrite.
 
 ## the state, as the last session left it
 Assessment: This is the most sales-ready artifact in the whole portfolio. Each teardown carries its own post, its own direct message, and its own evidence trail, which means each one is a complete outreach unit for a brand you can name. And yet the thread is twelve days idle and nothing indicates any of them were sent. The prose gate scored badly on the shipping copy, which is probably the real reason it stalled — the analysis is solid, the writing around it is not. That is a much smaller problem than it feels like, because a teardown lands on the strength of the finding, not the sentence.
 
-Handoff written 14d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 15d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -31,7 +31,7 @@ The first option is the recommended one; the rest are the real alternatives with
 1. **Send all three to their named brands this week, as-is** — Recommended. The findings are verified and the brands are real; the writing polish matters far less than the fact that you noticed something about their product. Costs the discomfort of sending prose you scored low.
 2. **Rewrite the shipping copy with a fresh pen before any send** — Fixes a real quality complaint and protects first impressions, but the gate score was on the wrapper, not the analysis, and another rewrite round is the same avoidance shape as everywhere else on this board.
 3. **Publish the teardowns publicly instead of sending them privately** — Builds the proof surface and reaches brands you have not named, but trades a direct reply from a specific buyer for the hope of being found.
-4. **Decide: resume, park, or kill** — No recorded activity in 13 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+4. **Decide: resume, park, or kill** — No recorded activity in 14 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards
@@ -57,8 +57,8 @@ python3 execution/pulse_actions.py kill teardown-1-fresh --reason "<one line>"
 THREAD: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards
 SLUG: teardown-1-fresh
 STATUS: active · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-teardown-1-fresh.md
+BRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/deliverables/research-briefs/mission-teardown-1-fresh/mission-teardown-1-fresh-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/.agent/handoffs/2026-08-07-teardown-1-fresh.md
 
 RESUME HERE: Three named-brand teardowns (Create Wellness, Hilma, BPN) at Take A standard — full analysis + LinkedIn post + DM + verification ledger + adversarial pass each; rendered as 3 Briefing Room briefs (internal + share variants) and 10 platform-ready brand-system cards
 
@@ -71,7 +71,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **1** (claude)
-- DAYS ACTIVE: **14 d**
+- DAYS ACTIVE: **15 d**
 
 ## momentum
 

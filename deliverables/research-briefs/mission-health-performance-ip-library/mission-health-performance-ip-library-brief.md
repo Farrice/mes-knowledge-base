@@ -17,7 +17,7 @@ Next: Leave it empty and start filling it only from real client work, one entry 
 ## the state, as the last session left it
 Assessment: The name points at exactly the right thing: an accumulating record of health and performance domain knowledge that would make every teardown faster and every claim safer to write. The pack contains no evidence it exists beyond the label. That is worth noting honestly rather than dressing up. If the sprint continues on claim-safe content, this becomes load-bearing quickly, because writing safely about supplements without a grounded reference is exactly how a factual error reaches a client. But building it now, before a single client is closed, would be building a library for a bookshop that has not opened.
 
-Handoff written 14d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 15d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -48,8 +48,8 @@ python3 execution/pulse_actions.py kill health-performance-ip-library --reason "
 THREAD: Health Performance Ip Library — W32 Health Performance Synthesis
 SLUG: health-performance-ip-library
 STATUS: active · STAGE: build
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-07-health-performance-ip-library.md
+BRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening/.agent/handoffs/2026-08-07-health-performance-ip-library.md
 
 RESUME HERE: Health Performance Ip Library — W32 Health Performance Synthesis
 
