@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Second brain that talks back (recall hook · lesson ledger · Intelligence Layer)** | |
+| Open my accumulated learnings as one searchable page | [Second-Brain Awakening](2026-08-22-second-brain-awakening.md) — http://127.0.0.1:8765/intelligence |
+| Handle the Monday "memory review" notification (or silence recall) | [Second-Brain Awakening](2026-08-22-second-brain-awakening.md) — say "review the memory queue with me"; off: MEMORY_RECALL_OFF=1 |
+| Verify the nightly lesson-harvest/distill cycle ran | [Second-Brain Awakening](2026-08-22-second-brain-awakening.md) — command table (harvest log tail + ledger stats) |
+| Diagnose ANY store that "feels dormant" | [Second-Brain Awakening](2026-08-22-second-brain-awakening.md) — fires-per-day diff, docs/solutions/2026-08-21-documented-but-unwired-read-paths.md |
 | **Work from one command center + never lose work (Homebase + Librarian)** | |
 | Open the one page to work from (Focus · Launch · Library) | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `/homebase` → http://127.0.0.1:8765/ |
 | Find something half-remembered from any past work | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `work_catalog.py find "<words>"` or `/catalog` |
@@ -287,6 +292,7 @@
 
 
 ## Chronology
+- **2026-08-22 — [Second-Brain Awakening](2026-08-22-second-brain-awakening.md)** (operator-guide) — the read path installed: sovereign recall injected per prompt (calibrated floor, per-session dedupe, kill switch), 676 Operator Lessons recovered into a permanent ledger + nightly scan, Farrice Intelligence Layer live at /intelligence, distiller rebuilt (mean-centered clustering: 1 blob → 15 topics/week), review gate hardened after an anonymous mass-approve (audit trail + bulk guard; 10 kept / 31 demoted with receipts), Monday review nudge to the Mac. Doctrine: hooks execute, instructions don't.
 
 - **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
 
@@ -372,7 +378,6 @@
 
 
 ## Pending enrichment
-- [2026-08-22 — System: Second-Brain Awakening - Live, Merged, Guarded](2026-08-22-second-brain-awakening.md) — session-brief stub, needs enrichment
 - [2026-08-21 — Extraction: Tommy Clark LinkedIn OS - 2026 Strategy Harvested](2026-08-21-guides-empty-slug-fix.md) — session-brief stub, needs enrichment
 - (none)
 - [2026-08-20 — System: Opus 5 Gap Diagnosis - Resolved, Defaults Installed](2026-08-20-system-opus-5-gap-diagnosis-resolved-defaults-installed.md) — session-brief stub, needs enrichment
