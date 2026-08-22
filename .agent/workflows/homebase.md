@@ -5,12 +5,18 @@ description: The Homebase — open the Agentic OS command center (cockpit · Lau
 # /homebase — The Agentic OS Command Center (2026-08-20; cockpit 2026-08-21)
 
 One page Farrice opens to work. **Above the fold — the COCKPIT** (ARMS-video
-harvest, 2026-08-21): brand header + live clock, sprint + money line, center
-**second-brain portal** (click → `/brain` workspace graph) ringed by the
-newest artifacts (searchable), and widget columns — Micro apps, Focus tiles,
+harvest 2026-08-21; Jarvis status core 2026-08-22): brand header + live clock,
+then the center **STATUS CORE** — a 6-tile vitals strip (missions · need-you ·
+outcomes · routines-dark · deck state · sweep age, color = status only, tiles
+jump to their widgets), the **TODAY** panel (sprint target, money line, next
+move, compact second-brain disc → `/brain`), and the **LIVE ACTIVITY feed**
+(deck runs w/ measured cost, commits, briefs compiled, routines fired — one
+merged newest-first stream from existing receipts). Columns: Micro apps,
 ⚑ Needs-you, **Skills deck** (headless `claude -p` runs with model + effort
 pickers, measured cost per receipt), **Routines** (all launchd jobs, next fire
 first), system counts. Widgets drag-reorder; layout persists per browser.
+(The artifact ring is RETIRED 2026-08-22 — Farrice's verdict: decoration
+without function; the feed replaced it.)
 **Below the fold**: LAUNCH (resumable sweep threads with one-click `/resume`
 copy) and LIBRARY (fresh briefs, dark asset shelf, catalog) unchanged.
 Every other home base is one nav hop away — and on a served page the nav stays
@@ -38,15 +44,26 @@ catalog · `/assets` asset board · `/oracle` · `/repo/<path>` files. `/pulse`
 and `/missions` are RETIRED (two-surfaces collapse, 2026-08-20) and
 302-redirect here.
 
-## The second brain (`/brain`)
+## The second brain (`/brain`) — v2 2026-08-22
 
 Curated-canon workspace graph (allowlist, ~1,300 nodes — never a directory
-walk): CLAUDE.md center → department hubs (Directives, Skills, Agents, Active
-work, Briefs, Solutions, Execution, Knowledge) → members. Search any node,
-click → preview + copy-path + open; chips filter departments; sliders tune
-link opacity / node size. Rebuilds only when the source fingerprint changes:
-`python3 execution/brain_graph.py --if-stale` (what regen calls) or without
-the flag to force.
+walk), organized so every visual channel carries a variable (Hansen HUD-bible
+discipline): angle = department (labeled annular arcs), sub-position = FAMILY
+(real name-prefix families: oren-*, verify_*…, 66 detected), size =
+importance, star = top-44 canon. **Semantic zoom**: at rest you see labeled
+arcs + the star constellation; mid-zoom adds family discs + labels; close-up
+shows everything. **Hover = snapshot**: 300ms dwell opens a card with the
+node's AI summary; click pins the full detail (summary, open/editor/copy/zoom,
+live preview); double-click opens; search matches summaries too.
+
+Snapshots come from `.agent/brain/summaries.json`, built by
+`python3 execution/brain_summaries.py run` — batched Haiku with per-file
+mtime caching (only changed files respend) and a MEASURED-cost receipt in
+`.agent/brain/summary-receipts.jsonl`. First 1,272 snapshots were authored by
+in-session subagents (2026-08-22, $0 API). Note: `claude -p` needs a valid
+CLI login (`claude login`) — an expired OAuth fails fast with $0.00 receipts.
+Graph rebuild: `python3 execution/brain_graph.py --if-stale` (what regen
+calls); the fingerprint includes summaries.json so fresh snapshots re-render.
 
 ## The skills deck
 

@@ -364,11 +364,115 @@ def routines_board(limit=12):
     return "".join(out), total
 
 
-def artifact_ring(limit=24):
-    """The ring around the portal: newest artifacts the system produced —
-    briefs, assets, merit catalog entries, deck-run reports. All from existing
-    indexes; never a second collector. Every node opens a popover with real
-    actions (open / copy path) — a click never dead-ends on a raw file."""
+def activity_feed(limit=14):
+    """The OS heartbeat: everything the system did recently, one merged
+    newest-first stream — deck runs, commits, briefs compiled, routines fired.
+    All from existing receipts; never a second collector. (Replaces the
+    artifact ring — Farrice's verdict 2026-08-22: decoration without function.)"""
+    events = []  # (epoch, icon, text, rel_or_None)
+    for d in _deck_receipts()[:6]:
+        try:
+            ts = time.mktime(time.strptime(
+                str(d.get("ended") or d.get("started"))[:19], "%Y-%m-%dT%H:%M:%S"))
+        except Exception:
+            continue
+        cost = d.get("total_cost_usd")
+        cost_s = f" · ${cost:.2f}" if isinstance(cost, (int, float)) else ""
+        events.append((ts, "⚙", f"deck run {d.get('state')} — {d.get('command')}"
+                       f" on {d.get('model')}{cost_s}", d.get("report_rel")))
+    try:
+        import subprocess
+        r = subprocess.run(["git", "log", "--since=36 hours ago", "--max-count=10",
+                            "--format=%ct|%s"], capture_output=True, text=True,
+                           timeout=10, cwd=ROOT)
+        for ln in (r.stdout or "").splitlines():
+            ct, _, subj = ln.partition("|")
+            events.append((float(ct), "⎇", f"committed — {subj[:96]}", None))
+    except Exception:
+        pass
+    try:
+        import brief_library as bl
+        cutoff = time.strftime("%Y-%m-%d", time.localtime(time.time() - 2 * 86400))
+        for e in bl.collect():
+            if str(e.get("compiled") or "") >= cutoff and e.get("status") != "archived":
+                try:
+                    ts = time.mktime(time.strptime(e["compiled"][:10], "%Y-%m-%d")) + 43200
+                except Exception:
+                    continue
+                events.append((ts, "📋", f"brief compiled — {str(e['title'])[:80]}",
+                               _rel(e["html"])))
+    except Exception:
+        pass
+    try:
+        recs = (json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
+                               encoding="utf-8")).get("launchd") or {})
+        fired = []
+        for label, rec in recs.items():
+            age = rec.get("log_age_days")
+            # clamp: clock skew / future mtimes produce negative ages
+            if isinstance(age, (int, float)) and 0 <= age < 1.0:
+                fired.append((time.time() - max(age, 0.003) * 86400, "◷",
+                              f"routine fired — {label.replace('com.antigravity.', '')}",
+                              None))
+        fired.sort(key=lambda e: -e[0])
+        events.extend(fired[:5])  # routines cap — the feed is a mix, not a launchd log
+    except Exception:
+        pass
+    events.sort(key=lambda e: -e[0])
+    rows = []
+    for ts, icon, text, rel in events[:limit]:
+        ago = max(0, int(time.time() - ts))
+        when = (f"{ago // 60}m" if ago < 3600 else f"{ago // 3600}h"
+                if ago < 86400 else f"{ago // 86400}d")
+        link = ""
+        if rel and os.path.isfile(os.path.join(ROOT, rel)):
+            uri = (Path(ROOT) / rel).as_uri()
+            link = (f' <a class="fopen" href="{esc(uri)}"'
+                    f' data-repo="/repo/{esc(rel)}">↗</a>')
+        rows.append(f'<div class="fev"><span class="ft">{esc(when)}</span>'
+                    f'<span class="fi">{icon}</span>'
+                    f'<span class="fx">{esc(text)}</span>{link}</div>')
+    return ("".join(rows)
+            or '<div class="empty">quiet — nothing recorded in the last 36h</div>')
+
+
+def vitals(active_n, needs_n, due_n, threads_promoted, sweep_age):
+    """The 5-second strip: is anything wrong, what scale is the system at.
+    Routines-dark and deck state computed here from the same receipts the
+    widgets use — one calc per fact."""
+    dark = 0
+    try:
+        recs = (json.load(open(os.path.join(ROOT, ".agent", "health", "latest.json"),
+                               encoding="utf-8")).get("launchd") or {})
+        dark = sum(1 for r in recs.values()
+                   if isinstance(r.get("last_exit"), int) and r["last_exit"] != 0)
+    except Exception:
+        pass
+    receipts = _deck_receipts()
+    live = next((d for d in receipts
+                 if d.get("state") == "running" and _receipt_age_min(d) < 35), None)
+    deck_s, deck_cls = ("running", "warn") if live else ("idle", "muted")
+    tiles = [
+        (str(active_n), "missions live", "", None),
+        (str(needs_n), "need you", "warn" if needs_n else "ok", "w-needs"),
+        (str(due_n), "outcomes due", "warn" if due_n > 20 else "", "outcomes-sec"),
+        (str(dark), "routines dark", "crit" if dark else "ok", "w-routines"),
+        (deck_s, "deck", deck_cls, "w-deck"),
+        (esc(sweep_age), "sweep age", "", None),
+    ]
+    out = []
+    for val, label, cls, target in tiles:
+        inner = (f'<div class="vn {cls}">{val}</div><div class="vl">{esc(label)}</div>')
+        if target:
+            out.append(f'<a class="vt" data-scrollto="{target}">{inner}</a>')
+        else:
+            out.append(f'<div class="vt">{inner}</div>')
+    return "".join(out)
+
+
+def _unused_artifact_ring(limit=24):
+    """Retired 2026-08-22 (ring → activity feed). Kept one release for easy
+    rollback; delete on next pass."""
     items = []
     try:
         import brief_library as bl
@@ -592,9 +696,9 @@ h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(
   display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }
 .sprint-tag { font-family:var(--mono); font-size:9px; letter-spacing:.18em; color:var(--accent); text-transform:uppercase; }
 /* ── cockpit grid ── */
-.cockpit { display:grid; grid-template-columns:minmax(250px,300px) 1fr minmax(300px,340px); gap:16px; align-items:start; }
+.cockpit { display:grid; grid-template-columns:minmax(230px,270px) 1fr minmax(300px,340px); gap:16px; align-items:start; }
 .col { display:flex; flex-direction:column; gap:16px; min-width:0; }
-@media (max-width:1100px) { .cockpit { grid-template-columns:1fr; } .stagewrap { order:-1; } }
+@media (max-width:1100px) { .cockpit { grid-template-columns:1fr; } .core { order:-1; } }
 .widget { position:relative; }
 .widget .grip { position:absolute; top:14px; right:14px; cursor:grab; color:var(--muted); font-size:11px;
   user-select:none; letter-spacing:2px; opacity:0; transition:opacity .15s; }
@@ -602,42 +706,41 @@ h1 em { font-family:var(--serif); font-style:italic; font-weight:400; color:var(
 .widget .grip:hover { color:var(--accent); opacity:1; }
 .widget.dragging { opacity:.4; }
 .widget .wbody { max-height:420px; overflow:auto; resize:vertical; }
-/* stage — the second-brain portal + artifacts ring */
-.stagewrap { display:flex; flex-direction:column; gap:10px; align-items:center; }
-.stage { position:relative; width:100%; max-width:640px; aspect-ratio:1/1; margin:0 auto; }
-.portal { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:56%; aspect-ratio:1/1;
-  border-radius:50%; border:1px solid var(--line); display:block; cursor:pointer; background:var(--panel); }
-.portal:hover { border-color:var(--accent); }
-.portal canvas { width:100%; height:100%; display:block; border-radius:50%; }
-.portal .pcap { position:absolute; left:50%; bottom:12%; transform:translateX(-50%); font-family:var(--mono);
-  font-size:8.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
-.portal:hover .pcap { color:var(--accent); }
-.ringnode { position:absolute; transform:translate(-50%,-50%); width:36px; height:36px; border-radius:50%;
-  border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center;
-  text-decoration:none; font-size:13px; overflow:hidden; cursor:pointer;
-  transition:transform .12s ease, border-color .12s ease, opacity .2s;
-  animation:ringin .4s ease both; }
-@keyframes ringin { from { opacity:0; transform:translate(-50%,-50%) scale(.4); }
-  to { opacity:1; transform:translate(-50%,-50%) scale(1); } }
-@media (prefers-reduced-motion: reduce) { .ringnode { animation:none; } }
-.ringnode img { width:100%; height:100%; object-fit:cover; display:block; }
-.ringnode:hover { transform:translate(-50%,-50%) scale(1.35); border-color:var(--accent); z-index:5; }
-.ringnode.dim { opacity:.18; }
-.ringnode.hit { border-color:var(--accent); box-shadow:0 0 0 2px var(--panel), 0 0 0 3px var(--accent); }
-/* ring popover — the click target every node deserves */
-#ringpop { position:absolute; z-index:20; width:250px; background:var(--panel); border:1px solid var(--accent);
-  border-radius:8px; padding:12px 14px; display:none; }
-#ringpop.show { display:block; }
-#ringpop h4 { font-size:12.5px; font-weight:700; margin:0 0 2px; line-height:1.35; }
-#ringpop .pk { font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
-  display:block; margin-bottom:8px; }
-#ringpop .pa { display:flex; gap:6px; flex-wrap:wrap; }
-.ringbar { display:flex; gap:10px; align-items:center; width:100%; max-width:520px; }
-.ringbar input { flex:1; font-family:var(--mono); font-size:11px; letter-spacing:.06em; background:var(--panel);
-  color:var(--ink); border:1px solid var(--line); border-radius:99px; padding:8px 16px; outline:none; }
-.ringbar input:focus { border-color:var(--accent); }
-#ringcap { font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
-  min-height:14px; text-align:center; }
+/* ── the Jarvis status core: vitals · today · live activity ── */
+.core { display:flex; flex-direction:column; gap:16px; min-width:0; }
+.vitals { display:grid; grid-template-columns:repeat(6,1fr); gap:10px; }
+@media (max-width:1250px) { .vitals { grid-template-columns:repeat(3,1fr); } }
+.vt { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px 12px;
+  text-decoration:none; color:inherit; display:block; }
+a.vt { cursor:pointer; }
+a.vt:hover { border-color:var(--accent); }
+.vn { font-size:22px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; line-height:1.1; }
+.vn.ok { color:var(--ok); } .vn.warn { color:var(--warn); } .vn.crit { color:var(--crit); } .vn.muted { color:var(--muted); }
+.vl { font-family:var(--mono); font-size:8px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-top:3px; }
+.today { display:flex; gap:18px; align-items:center; border:1px solid var(--accent); }
+.today .tleft { flex:1; min-width:0; }
+.tkick { font-family:var(--mono); font-size:8.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--accent); }
+.ttarget { font-size:21px; font-weight:700; letter-spacing:-.022em; line-height:1.25; margin:6px 0; }
+.tmoney { display:flex; gap:8px; flex-wrap:wrap; }
+.tnext { font-size:12.5px; color:var(--soft); margin-top:8px; line-height:1.5;
+  border-left:2px solid var(--accent); padding-left:10px; }
+.tnext .tk2 { font-family:var(--mono); font-size:8px; letter-spacing:.16em; color:var(--accent); display:block; }
+.coredisc { position:relative; flex:0 0 148px; width:148px; aspect-ratio:1/1; border-radius:50%;
+  border:1px solid var(--line); background:var(--ground); display:block; cursor:pointer; }
+.coredisc:hover { border-color:var(--accent); }
+.coredisc canvas { width:100%; height:100%; display:block; border-radius:50%; }
+.coredisc .pcap { position:absolute; left:50%; bottom:-18px; transform:translateX(-50%); font-family:var(--mono);
+  font-size:8px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); white-space:nowrap; }
+.coredisc:hover .pcap { color:var(--accent); }
+.feedbox .feed { max-height:340px; }
+.fev { display:flex; gap:9px; align-items:baseline; border-bottom:1px solid var(--line); padding:6px 2px; }
+.fev:last-child { border-bottom:none; }
+.fev .ft { font-family:var(--mono); font-size:8.5px; letter-spacing:.1em; color:var(--accent);
+  flex:0 0 30px; text-align:right; font-variant-numeric:tabular-nums; }
+.fev .fi { flex:0 0 16px; text-align:center; font-size:11px; }
+.fev .fx { font-size:12px; flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.fev .fopen { font-family:var(--mono); font-size:10px; color:var(--soft); text-decoration:none; }
+.fev .fopen:hover { color:var(--accent); }
 /* clock */
 .clock { font-variant-numeric:tabular-nums; }
 .clock .ct { font-size:40px; font-weight:700; letter-spacing:-.02em; line-height:1; }
@@ -880,7 +983,7 @@ _tick(); setInterval(_tick, 1000);
   const cv = document.getElementById('portalcv');
   if (!cv) return;
   const ctx = cv.getContext('2d');
-  const N = 650, pts = [];
+  const N = 320, pts = [];
   for (let i = 0; i < N; i++) {
     const u = Math.random() * 2 - 1, th = Math.random() * Math.PI * 2;
     const r = Math.sqrt(1 - u * u);
@@ -910,81 +1013,6 @@ _tick(); setInterval(_tick, 1000);
     if (!still) requestAnimationFrame(frame);
   }
   frame();
-})();
-// ── artifacts ring: hover caption, click popover, search filters ──
-(function () {
-  const inp = document.getElementById('ringsearch');
-  if (!inp) return;
-  const nodes = Array.from(document.querySelectorAll('.ringnode'));
-  const cap = document.getElementById('ringcap');
-  const stage = document.querySelector('.stage');
-  const pop = document.getElementById('ringpop');
-  function closePop() { pop.classList.remove('show'); }
-  function openPop(n) {
-    while (pop.firstChild) pop.removeChild(pop.firstChild);
-    const h4 = document.createElement('h4'); h4.textContent = n.dataset.title; pop.appendChild(h4);
-    const pk = document.createElement('span'); pk.className = 'pk';
-    pk.textContent = (n.dataset.kind || '') + (n.dataset.date ? ' · ' + n.dataset.date : '');
-    pop.appendChild(pk);
-    const pa = document.createElement('div'); pa.className = 'pa';
-    const open = document.createElement('a'); open.className = 'actbtn ok';
-    open.textContent = 'open ↗'; open.href = n.href;
-    if (n.dataset.kind === 'asset' || n.href.startsWith('file:')) {
-      // http pages cannot hop to file:// — reuse the OS-opener route
-      open.addEventListener('click', ev => {
-        if (!PULSE_LIVE || !open.href.startsWith('file:')) return;
-        ev.preventDefault();
-        fetch('/action', { method: 'POST', headers: { 'Content-Type': 'application/json' },
-                           body: JSON.stringify({ action: 'open-path', args: { uri: open.getAttribute('data-file') || open.href } }) })
-          .then(r => r.json()).then(j => _toast(j.ok ? 'opened' : 'open failed'));
-      });
-    }
-    pa.appendChild(open);
-    const cp = document.createElement('button'); cp.className = 'actbtn'; cp.textContent = 'copy path';
-    cp.addEventListener('click', () => _copy(n.dataset.relpath, 'path copied'));
-    pa.appendChild(cp);
-    if (n.dataset.resume) {
-      const rs = document.createElement('button'); rs.className = 'actbtn'; rs.textContent = 'copy /resume';
-      rs.addEventListener('click', () => _copy(n.dataset.resume));
-      pa.appendChild(rs);
-    }
-    pop.appendChild(pa);
-    const sr = stage.getBoundingClientRect();
-    const nr = n.getBoundingClientRect();
-    const cx = nr.left - sr.left + nr.width / 2;
-    const cy = nr.top - sr.top + nr.height / 2;
-    pop.classList.add('show');
-    const w = pop.offsetWidth, h = pop.offsetHeight;
-    let x = cx + (cx < sr.width / 2 ? 24 : -24 - w);
-    let y = Math.min(Math.max(cy - h / 2, 4), sr.height - h - 4);
-    pop.style.left = Math.min(Math.max(x, 4), sr.width - w - 4) + 'px';
-    pop.style.top = y + 'px';
-  }
-  nodes.forEach(n => {
-    n.addEventListener('mouseenter', () => { if (cap) cap.textContent = (n.dataset.title || '') + ' · ' + (n.dataset.date || ''); });
-    n.addEventListener('mouseleave', () => { if (cap) cap.textContent = ''; });
-    n.addEventListener('click', ev => { ev.preventDefault(); openPop(n); });
-  });
-  document.addEventListener('click', ev => {
-    if (!pop.contains(ev.target) && !ev.target.closest('.ringnode')) closePop();
-  });
-  addEventListener('keydown', e => { if (e.key === 'Escape') closePop(); });
-  inp.addEventListener('input', () => {
-    const q = inp.value.trim().toLowerCase();
-    let first = null;
-    nodes.forEach(n => {
-      const hit = !q || (n.dataset.search || '').includes(q);
-      n.classList.toggle('dim', !!q && !hit);
-      n.classList.toggle('hit', !!q && hit);
-      if (hit && q && !first) first = n;
-    });
-    if (cap) cap.textContent = first ? (first.dataset.title + ' — Enter opens') : (q ? 'no artifact matches' : '');
-  });
-  inp.addEventListener('keydown', e => {
-    if (e.key !== 'Enter') return;
-    const hit = nodes.find(n => n.classList.contains('hit')) || null;
-    if (hit) openPop(hit);
-  });
 })();
 // ── routines: a row with a log opens it (live) or copies the path (static) ──
 document.querySelectorAll('.routine[data-log]').forEach(r => r.addEventListener('click', () => {
@@ -1138,12 +1166,20 @@ def main():
     missions_uri = Path(ROOT, board_brief).as_uri()
 
     # --- COCKPIT widgets ---
-    ring_html, ring_n = artifact_ring()
+    feed_html = activity_feed()
     routines_html, routines_total = routines_board()
     deck_html = skills_deck()
     apps_html = micro_apps()
     brain_rel = ".agent/brain/brain.html"
     brain_uri = (Path(ROOT) / brain_rel).as_uri()
+    vitals_html = vitals(len(active), len(needs_you), due_count,
+                         threads_promoted, sweep_age)
+    next_move = esc(str(needs_you[0].get("goal") or needs_you[0].get("title")
+                        or "")[:110]) if needs_you else ""
+    next_html = (f'<div class="tnext"><span class="tk2">NEXT MOVE</span> {next_move}</div>'
+                 if next_move else "")
+    sprint_target = esc((sprint or {}).get("target") or "no sprint set")
+    money_html = pd.money_line() if sprint else ""
 
     tiles_html = f"""<div class="tiles">
   <div class="tile"><a href="{esc(missions_uri)}" data-repo="/repo/{esc(board_brief)}"><div class="n">{len(active)}</div><div class="l">missions live</div></a></div>
@@ -1173,8 +1209,6 @@ def main():
   <span class="m">sweep {esc(sweep_age)}</span>
   <button class="actbtn" type="button" data-action="refresh">↻ refresh data</button></div>
 
-{sprint_html}
-
 <div class="cockpit">
   <div class="col" id="col-left">
     <section class="widget" data-wid="clock"><span class="grip" title="drag to reorder">⠿</span>
@@ -1182,29 +1216,31 @@ def main():
       <div class="cd" id="clockdate"></div></div></section>
     <section class="widget" data-wid="apps"><span class="grip" title="drag to reorder">⠿</span>
       <h2>Micro apps</h2><div class="wbody">{apps_html}</div></section>
-    <section class="widget" data-wid="focus"><span class="grip" title="drag to reorder">⠿</span>
-      <h2>Focus</h2><div class="wbody">{tiles_html}</div></section>
   </div>
-  <div class="stagewrap">
-    <div class="stage">
-      {ring_html}
-      <a class="portal" href="{esc(brain_uri)}" data-route="/brain" title="open the second brain">
+  <div class="core">
+    <div class="vitals">{vitals_html}</div>
+    <section class="today">
+      <div class="tleft">
+        <span class="tkick">TODAY · ACTIVE SPRINT</span>
+        <div class="ttarget">{sprint_target}</div>
+        <div class="tmoney">{money_html}</div>
+        {next_html}
+      </div>
+      <a class="coredisc" href="{esc(brain_uri)}" data-route="/brain" title="open the second brain">
         <canvas id="portalcv"></canvas>
-        <span class="pcap">open the second brain</span>
+        <span class="pcap">second brain</span>
       </a>
-      <div id="ringpop"></div>
-    </div>
-    <div class="ringbar"><input id="ringsearch" type="search"
-      placeholder="search {ring_n} artifacts on the ring…" autocomplete="off"></div>
-    <div id="ringcap"></div>
+    </section>
+    <section class="feedbox"><h2>Live activity — what the system did</h2>
+      <div class="wbody feed">{feed_html}</div></section>
   </div>
   <div class="col" id="col-right">
     <section class="widget" data-wid="needs" id="w-needs"><span class="grip" title="drag to reorder">⠿</span>
       <h2>⚑ Needs you — top {len(needs_you)} of {len(flagged)} flagged</h2>
       <div class="wbody">{needs_html}</div></section>
-    <section class="widget" data-wid="deck"><span class="grip" title="drag to reorder">⠿</span>
+    <section class="widget" data-wid="deck" id="w-deck"><span class="grip" title="drag to reorder">⠿</span>
       <h2>Skills deck</h2><div class="wbody">{deck_html}</div></section>
-    <section class="widget" data-wid="routines"><span class="grip" title="drag to reorder">⠿</span>
+    <section class="widget" data-wid="routines" id="w-routines"><span class="grip" title="drag to reorder">⠿</span>
       <h2>Routines — {routines_total} scheduled</h2><div class="wbody">{routines_html}</div></section>
     <section class="widget" data-wid="sys"><span class="grip" title="drag to reorder">⠿</span>
       <h2>What the system holds</h2><span class="sysline">{esc(sys_line) or "health receipt unavailable"}</span>
