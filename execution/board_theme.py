@@ -61,6 +61,17 @@ def theme_css(tokens: dict | None = None) -> str:
     )
 
 
+def atomic_write(path: str, text: str) -> None:
+    """Write-then-rename so the live server can never read a half-written
+    board (regen-on-hit races a concurrent reader; scar 2026-08-22: truncated
+    pages served mid-write read as 'the board is broken')."""
+    import os
+    tmp = f"{path}.tmp.{os.getpid()}"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write(text)
+    os.replace(tmp, path)
+
+
 def self_test() -> int:
     css = theme_css()
     checks = [

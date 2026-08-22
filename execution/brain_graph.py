@@ -937,7 +937,8 @@ def main():
     graph = build_graph()
     os.makedirs(OUT_DIR, exist_ok=True)
     json.dump(graph, open(OUT_JSON, "w", encoding="utf-8"), separators=(",", ":"))
-    open(OUT_HTML, "w", encoding="utf-8").write(render_html(graph))
+    from board_theme import atomic_write
+    atomic_write(OUT_HTML, render_html(graph))
     json.dump(fingerprint(), open(FPRINT, "w", encoding="utf-8"))
     print(f"brain → {OUT_HTML}  ({graph['total']:,} nodes, "
           f"{len(graph['families'])} families, {graph['sum_covered']:,} snapshots, "

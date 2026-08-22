@@ -783,7 +783,12 @@ a.vt:hover { border-color:var(--accent); }
 .tile a { color:inherit; text-decoration:none; }
 .tile .n { font-size:28px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
 .tile .l { color:var(--muted); font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; margin-top:4px; }
-section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
+/* containment armor: no box ever lets content spill past its border
+   (Farrice 2026-08-22 — long unbroken tokens in cards were escaping) */
+section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px;
+  overflow:hidden; min-width:0; }
+section *, .vt *, .mcard *, .deckcard *, .fev * { overflow-wrap:anywhere; min-width:0; }
+.mcard, .deckcard, .vt, .today, .intel { overflow:hidden; }
 h2 { font-family:var(--mono); font-size:9px; letter-spacing:.2em; text-transform:uppercase;
   color:var(--muted); margin:0 0 12px; border-bottom:1px solid var(--line); padding-bottom:8px; }
 .mcard { border:1px solid var(--line); border-radius:6px; background:var(--ground); padding:12px 14px; margin-bottom:10px; }
@@ -851,6 +856,10 @@ section.shelf h2 { color:#8c8c82; border-color:#2c2c2a; }
   border:1px solid #2c2c2a; transition:transform .15s ease; }
 .shelf-tile:hover { transform:scale(1.03); border-color:#7c9fd9; }
 .shelf-tile img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+.shelf-tile.imgfail img { display:none; }
+.shelf-tile.imgfail::before { content:"◻ preview unavailable"; display:flex; align-items:center;
+  justify-content:center; aspect-ratio:4/3; font-family:var(--mono); font-size:8.5px;
+  letter-spacing:.14em; text-transform:uppercase; color:#8c8c82; }
 .shelf-cap { display:block; padding:6px 9px; font-family:var(--mono); font-size:8px; letter-spacing:.12em;
   text-transform:uppercase; color:#8c8c82; }
 section.shelf .roomlink { color:#7c9fd9; }
@@ -874,9 +883,20 @@ if (PULSE_LIVE) {
 }
 if (PULSE_LIVE) document.querySelectorAll('a[data-route]').forEach(a => { a.href = a.dataset.route; });
 if (PULSE_LIVE) document.querySelectorAll('a[data-repo]').forEach(a => { a.href = a.dataset.repo; });
-// dual-mode media: live pages load thumbs over /repo/, file:// pages from disk
+// dual-mode media: live pages load thumbs over /repo/, file:// pages from disk.
+// A failed image never shows the browser's broken glyph: one retry with a
+// cache-buster, then a clean placeholder tile.
 document.querySelectorAll('img[data-rel]').forEach(img => {
   img.src = PULSE_LIVE ? '/repo/' + img.dataset.rel : REPO_ROOT_URI + '/' + img.dataset.rel;
+  img.addEventListener('error', () => {
+    if (!img.dataset.retried) {
+      img.dataset.retried = '1';
+      setTimeout(() => { img.src = img.src.split('?')[0] + '?r=' + Date.now(); }, 900);
+    } else {
+      const tile = img.closest('.shelf-tile');
+      if (tile) tile.classList.add('imgfail');
+    }
+  });
 });
 function _toast(msg) {
   const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
@@ -1300,7 +1320,8 @@ def main():
 </script>"""
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    open(OUT, "w", encoding="utf-8").write(body)
+    from board_theme import atomic_write
+    atomic_write(OUT, body)
     print(f"homebase → {OUT}")
 
 
