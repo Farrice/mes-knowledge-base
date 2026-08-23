@@ -1,5 +1,5 @@
 ---
-description: "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage psychological triggers + 8 storytelling principles + 7 live-authority mechanics — from benefits to invisible persuasion, from sentence-level command to trigger deployment by funnel stage, from story..."
+description: "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage triggers + 8 storytelling principles + 7 live-authority mechanics + ethical six-layer belief community architecture"
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

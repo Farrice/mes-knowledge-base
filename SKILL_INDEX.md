@@ -164,7 +164,7 @@
 | `jessica-jensen-platform-intelligence` | **Jessica Jensen — LinkedIn Platform Intelligence** | platform strategy, b2b marketing, personal branding | 12 | 0 |
 | `jiang-xueqin-cognitive-autonomy` | **Jiang Xueqin — Cognitive Autonomy & Mental Mastery** | emotion, identity), replacing villain narratives with structural/game-theoretic analysis | 3 | 0 |
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | the philosopher-financier framework - synthesizing quantitative rigor with hu..., philosopher-financier skill | 5 | 30 |
-| `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | from sentence-level command to trigger deployment by funnel stage, from story architecture to commanding the room, persuasion mastery | 11 | 6 |
+| `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | 5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage..., persuasion mastery | 15 | 6 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | for ai-leveraged copywriting business use cardinal-mason-ai-copywriting, writing career monetization | 6 | 0 |
 | `joey-cinema-os` | **joey-cinema-os** | joey (noisy group / control world) — cinema-grade ai production os, persistent-world ai production | 12 | 0 |
 | `john-whiting-propaganda-machine` | **john-whiting-propaganda-machine** | john whiting's content-closes-the-sale system, carries a mandatory ethics gate, the propaganda machine | 19 | 0 |
