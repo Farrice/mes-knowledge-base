@@ -1,0 +1,877 @@
+{
+  "engine": {
+    "engine": "scene",
+    "candidate_count": 321,
+    "deduped_count": 0,
+    "selected_count": 100,
+    "fallback": false
+  },
+  "scene_frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 0.0,
+      "timestamp": "00:00:00.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0001.jpg",
+      "reason": "first-frame",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 13.26,
+      "timestamp": "00:00:13.260",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0004.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 17.81,
+      "timestamp": "00:00:17.810",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0007.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 27.44,
+      "timestamp": "00:00:27.440",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0011.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 37.08,
+      "timestamp": "00:00:37.080",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0014.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 57.64,
+      "timestamp": "00:00:57.640",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0017.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 6,
+      "timestamp_seconds": 70.15,
+      "timestamp": "00:01:10.150",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0020.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 7,
+      "timestamp_seconds": 79.08,
+      "timestamp": "00:01:19.080",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0024.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 8,
+      "timestamp_seconds": 82.33,
+      "timestamp": "00:01:22.330",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0027.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 9,
+      "timestamp_seconds": 92.26,
+      "timestamp": "00:01:32.260",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0030.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 10,
+      "timestamp_seconds": 109.78,
+      "timestamp": "00:01:49.780",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0033.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 11,
+      "timestamp_seconds": 115.66,
+      "timestamp": "00:01:55.660",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0037.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 12,
+      "timestamp_seconds": 118.33,
+      "timestamp": "00:01:58.330",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0040.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 13,
+      "timestamp_seconds": 123.12,
+      "timestamp": "00:02:03.120",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0043.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 14,
+      "timestamp_seconds": 144.1,
+      "timestamp": "00:02:24.100",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0046.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 15,
+      "timestamp_seconds": 148.94,
+      "timestamp": "00:02:28.940",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0049.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 16,
+      "timestamp_seconds": 162.0,
+      "timestamp": "00:02:42.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0053.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 17,
+      "timestamp_seconds": 168.17,
+      "timestamp": "00:02:48.170",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0056.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 18,
+      "timestamp_seconds": 171.75,
+      "timestamp": "00:02:51.750",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0059.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 19,
+      "timestamp_seconds": 189.11,
+      "timestamp": "00:03:09.110",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0062.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 20,
+      "timestamp_seconds": 207.54,
+      "timestamp": "00:03:27.540",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0066.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 21,
+      "timestamp_seconds": 227.6,
+      "timestamp": "00:03:47.600",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0069.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 22,
+      "timestamp_seconds": 246.62,
+      "timestamp": "00:04:06.620",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0072.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 23,
+      "timestamp_seconds": 259.3,
+      "timestamp": "00:04:19.300",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0075.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 24,
+      "timestamp_seconds": 296.0,
+      "timestamp": "00:04:56.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0079.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 25,
+      "timestamp_seconds": 312.73,
+      "timestamp": "00:05:12.730",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0082.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 26,
+      "timestamp_seconds": 325.99,
+      "timestamp": "00:05:25.990",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0085.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 27,
+      "timestamp_seconds": 343.09,
+      "timestamp": "00:05:43.090",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0088.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 28,
+      "timestamp_seconds": 348.93,
+      "timestamp": "00:05:48.930",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0092.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 29,
+      "timestamp_seconds": 352.56,
+      "timestamp": "00:05:52.560",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0095.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 30,
+      "timestamp_seconds": 364.11,
+      "timestamp": "00:06:04.110",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0098.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 31,
+      "timestamp_seconds": 378.21,
+      "timestamp": "00:06:18.210",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0101.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 32,
+      "timestamp_seconds": 387.01,
+      "timestamp": "00:06:27.010",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0104.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 33,
+      "timestamp_seconds": 409.7,
+      "timestamp": "00:06:49.700",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0108.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 34,
+      "timestamp_seconds": 417.0,
+      "timestamp": "00:06:57.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0111.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 35,
+      "timestamp_seconds": 431.56,
+      "timestamp": "00:07:11.560",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0114.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 36,
+      "timestamp_seconds": 441.36,
+      "timestamp": "00:07:21.360",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0117.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 37,
+      "timestamp_seconds": 452.99,
+      "timestamp": "00:07:32.990",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0121.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 38,
+      "timestamp_seconds": 462.13,
+      "timestamp": "00:07:42.130",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0124.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 39,
+      "timestamp_seconds": 474.72,
+      "timestamp": "00:07:54.720",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0127.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 40,
+      "timestamp_seconds": 483.69,
+      "timestamp": "00:08:03.690",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0130.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 41,
+      "timestamp_seconds": 492.78,
+      "timestamp": "00:08:12.780",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0134.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 42,
+      "timestamp_seconds": 500.08,
+      "timestamp": "00:08:20.080",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0137.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 43,
+      "timestamp_seconds": 517.52,
+      "timestamp": "00:08:37.520",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0140.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 44,
+      "timestamp_seconds": 529.11,
+      "timestamp": "00:08:49.110",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0143.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 45,
+      "timestamp_seconds": 547.63,
+      "timestamp": "00:09:07.630",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0146.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 46,
+      "timestamp_seconds": 565.44,
+      "timestamp": "00:09:25.440",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0150.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 47,
+      "timestamp_seconds": 581.08,
+      "timestamp": "00:09:41.080",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0153.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 48,
+      "timestamp_seconds": 596.22,
+      "timestamp": "00:09:56.220",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0156.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 49,
+      "timestamp_seconds": 606.4,
+      "timestamp": "00:10:06.400",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0159.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 50,
+      "timestamp_seconds": 618.7,
+      "timestamp": "00:10:18.700",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0163.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 51,
+      "timestamp_seconds": 628.42,
+      "timestamp": "00:10:28.420",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0166.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 52,
+      "timestamp_seconds": 643.1,
+      "timestamp": "00:10:43.100",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0169.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 53,
+      "timestamp_seconds": 652.86,
+      "timestamp": "00:10:52.860",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0172.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 54,
+      "timestamp_seconds": 665.92,
+      "timestamp": "00:11:05.920",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0176.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 55,
+      "timestamp_seconds": 671.75,
+      "timestamp": "00:11:11.750",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0179.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 56,
+      "timestamp_seconds": 688.94,
+      "timestamp": "00:11:28.940",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0182.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 57,
+      "timestamp_seconds": 701.28,
+      "timestamp": "00:11:41.280",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0185.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 58,
+      "timestamp_seconds": 718.59,
+      "timestamp": "00:11:58.590",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0188.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 59,
+      "timestamp_seconds": 730.73,
+      "timestamp": "00:12:10.730",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0192.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 60,
+      "timestamp_seconds": 751.17,
+      "timestamp": "00:12:31.170",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0195.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 61,
+      "timestamp_seconds": 761.89,
+      "timestamp": "00:12:41.890",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0198.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 62,
+      "timestamp_seconds": 771.85,
+      "timestamp": "00:12:51.850",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0201.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 63,
+      "timestamp_seconds": 787.91,
+      "timestamp": "00:13:07.910",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0205.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 64,
+      "timestamp_seconds": 798.67,
+      "timestamp": "00:13:18.670",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0208.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 65,
+      "timestamp_seconds": 811.69,
+      "timestamp": "00:13:31.690",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0211.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 66,
+      "timestamp_seconds": 821.2,
+      "timestamp": "00:13:41.200",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0214.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 67,
+      "timestamp_seconds": 827.16,
+      "timestamp": "00:13:47.160",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0218.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 68,
+      "timestamp_seconds": 844.26,
+      "timestamp": "00:14:04.260",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0221.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 69,
+      "timestamp_seconds": 850.47,
+      "timestamp": "00:14:10.470",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0224.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 70,
+      "timestamp_seconds": 858.07,
+      "timestamp": "00:14:18.070",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0227.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 71,
+      "timestamp_seconds": 886.76,
+      "timestamp": "00:14:46.760",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0230.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 72,
+      "timestamp_seconds": 907.24,
+      "timestamp": "00:15:07.240",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0234.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 73,
+      "timestamp_seconds": 923.13,
+      "timestamp": "00:15:23.130",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0237.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 74,
+      "timestamp_seconds": 932.35,
+      "timestamp": "00:15:32.350",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0240.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 75,
+      "timestamp_seconds": 942.52,
+      "timestamp": "00:15:42.520",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0243.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 76,
+      "timestamp_seconds": 967.72,
+      "timestamp": "00:16:07.720",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0247.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 77,
+      "timestamp_seconds": 980.06,
+      "timestamp": "00:16:20.060",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0250.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 78,
+      "timestamp_seconds": 986.44,
+      "timestamp": "00:16:26.440",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0253.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 79,
+      "timestamp_seconds": 994.87,
+      "timestamp": "00:16:34.870",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0256.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 80,
+      "timestamp_seconds": 1013.85,
+      "timestamp": "00:16:53.850",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0260.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 81,
+      "timestamp_seconds": 1024.06,
+      "timestamp": "00:17:04.060",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0263.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 82,
+      "timestamp_seconds": 1033.2,
+      "timestamp": "00:17:13.200",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0266.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 83,
+      "timestamp_seconds": 1039.62,
+      "timestamp": "00:17:19.620",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0269.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 84,
+      "timestamp_seconds": 1049.05,
+      "timestamp": "00:17:29.050",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0273.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 85,
+      "timestamp_seconds": 1060.68,
+      "timestamp": "00:17:40.680",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0276.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 86,
+      "timestamp_seconds": 1077.03,
+      "timestamp": "00:17:57.030",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0279.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 87,
+      "timestamp_seconds": 1088.05,
+      "timestamp": "00:18:08.050",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0282.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 88,
+      "timestamp_seconds": 1103.27,
+      "timestamp": "00:18:23.270",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0285.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 89,
+      "timestamp_seconds": 1122.91,
+      "timestamp": "00:18:42.910",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0289.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 90,
+      "timestamp_seconds": 1129.21,
+      "timestamp": "00:18:49.210",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0292.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 91,
+      "timestamp_seconds": 1142.56,
+      "timestamp": "00:19:02.560",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0295.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 92,
+      "timestamp_seconds": 1156.28,
+      "timestamp": "00:19:16.280",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0298.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 93,
+      "timestamp_seconds": 1174.05,
+      "timestamp": "00:19:34.050",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0302.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 94,
+      "timestamp_seconds": 1180.22,
+      "timestamp": "00:19:40.220",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0305.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 95,
+      "timestamp_seconds": 1193.36,
+      "timestamp": "00:19:53.360",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0308.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 96,
+      "timestamp_seconds": 1202.7,
+      "timestamp": "00:20:02.700",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0311.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 97,
+      "timestamp_seconds": 1220.8,
+      "timestamp": "00:20:20.800",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0315.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 98,
+      "timestamp_seconds": 1232.11,
+      "timestamp": "00:20:32.110",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0318.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    },
+    {
+      "index": 99,
+      "timestamp_seconds": 1239.36,
+      "timestamp": "00:20:39.360",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/frame_0321.jpg",
+      "reason": "scene-change",
+      "note": "Scene-aware visual evidence; inspected in chronological contact sheets."
+    }
+  ],
+  "transcript_cue_frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 58.0,
+      "timestamp": "00:00:58.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0000.jpg",
+      "reason": "transcript-cue",
+      "note": "Opening six-stage congregation diagram in transition."
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 279.0,
+      "timestamp": "00:04:39.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0001.jpg",
+      "reason": "transcript-cue",
+      "note": "On-camera delivery of the repeatable shiny-new-lens formula."
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 518.0,
+      "timestamp": "00:08:38.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0002.jpg",
+      "reason": "transcript-cue",
+      "note": "On-camera transition from lens to the named enemy or broken status quo."
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 738.0,
+      "timestamp": "00:12:18.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0003.jpg",
+      "reason": "transcript-cue",
+      "note": "Watch graphic illustrating a quiet insider-readable status symbol."
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 903.0,
+      "timestamp": "00:15:03.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0004.jpg",
+      "reason": "transcript-cue",
+      "note": "On-screen claim: ZERO INVESTMENT = ZERO DEVOTION."
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 1048.0,
+      "timestamp": "00:17:28.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0005.jpg",
+      "reason": "transcript-cue",
+      "note": "On-camera setup for one-to-three worldview-carrying phrases."
+    },
+    {
+      "index": 6,
+      "timestamp_seconds": 1089.0,
+      "timestamp": "00:18:09.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0006.jpg",
+      "reason": "transcript-cue",
+      "note": "Animated recap begins with 1 A Shiny New Lens."
+    },
+    {
+      "index": 7,
+      "timestamp_seconds": 1236.0,
+      "timestamp": "00:20:36.000",
+      "path": "extractions/video-context/Tnv9PuMo84E/frames/cue_0007.jpg",
+      "reason": "transcript-cue",
+      "note": "Closing CTA overlay: LINK IN DESCRIPTION."
+    }
+  ]
+}
