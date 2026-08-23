@@ -430,3 +430,52 @@ Words are a fraction of the message; when physical presence contradicts the verb
 #### 37. The Written↔Live Authority Bridge (Insight)
 - **Insight**: These live mechanics are the spoken twins of the written Authority Craft stack: Certainty Gradient ↔ Anti-Hype (both deflate weak signaling), Precision as Power ↔ Typically Atypical (both calibrate specificity), Strategic Silence ↔ white space after a t-shirt line (both let the landing stick), Frame Control ↔ Order of Revelation (both program interpretation before content arrives).
 - **Deploy**: When prepping someone for a high-stakes call or presentation, run their talk track through the written mechanics FIRST (Parts 2-3), then layer the live mechanics on delivery. Same physics, two channels.
+
+---
+
+## Part 6: Belief Community Architecture — Genius Patterns (6)
+
+> Source-grounded from *How To Command Belief Like a Cult Leader* (2026-08-20). Full transcript, visual ledger, claim audit, and uncertainty report: `extractions/video-context/Tnv9PuMo84E/`. These mechanisms are a dependency chain, not a checklist and not permission to imitate coercive groups.
+
+### 38. The Shiny New Lens
+
+Joanna Wiebe's “shiny new lens” starts before product benefits. Name the default assumption through which the audience judges the world, then replace it with an evidence-backed reframe: `Most people think __. Here is what is actually true __.` A real lens changes what the audience notices, values, or rejects across multiple contexts.
+- **Execute:** produce three default-versus-truth contrasts; keep the one that changes the most downstream decisions without leaving evidence.
+- **Fail:** a feature claim or premium adjective that changes wording but not judgment.
+
+### 39. The Honest Devil
+
+Wiebe's contrast move gives belief an “honest devil,” but the target is a broken behavior, belief, status quo, or institution—not a person, demographic, customer, critic, or competitor's users. Explain the mechanism of harm and protect audience agency.
+- **Execute:** name the pattern, consequence, dead solutions, and protected boundary.
+- **Fail:** scapegoating, fabricated conspiracy, or hostility used as an attention shortcut.
+
+### 40. The Belief-Carrying Symbol
+
+In Wiebe's source, Apple and Oura illustrate the distinction: a logo displays ownership; a symbol lets another person infer the worldview. Useful symbols include a phrase, color, mark, object, tool, proof label, or repeated visual treatment.
+- **Execute:** remove the logo mentally and ask what another believer would infer across the room.
+- **Fail:** merchandise whose only meaning is brand affiliation.
+
+### 41. The Value-Producing Ritual
+
+Wiebe contrasts Apple keynotes and Hermès access to show that repeated self-performance can make a belief meaningful, but friction is not the goal. The safe architecture is `cue -> participant action -> immediate value -> visible receipt`. An earned threshold belongs only when the contribution creates value or demonstrates readiness.
+- **Execute:** specify cadence, access, reversibility, and an easy exit.
+- **Fail:** secrecy, humiliation, pain, collateral, arbitrary scarcity, exploitative lock-in, or exit penalty.
+
+### 42. The Portable Language Layer
+
+Wiebe points to CrossFit terms and Apple's “Think different” to show how 1–3 phrases can compress a worldview into language people carry into other rooms. The phrase must name felt experience, preserve stable meaning, and have a real belief underneath it.
+- **Execute:** define plain meaning, correct use, wrong-use boundary, repetition locations, and the observable adoption event.
+- **Fail:** corporate jargon, borrowed phrases with no new meaning, or thought-stopping language.
+
+### 43. Earned Conviction
+
+Wiebe's “prophet” is the final layer, not the opener. Conviction becomes credible after the lens, contrast, symbol, ritual, and language already exist. Build an evidence ladder first; then state the future at the strongest honest level.
+- **Execute:** write one portable future declaration with its evidence state and disconfirming condition.
+- **Fail:** inevitability, false causality, private-state diagnosis, or certainty theater before proof.
+
+### Hidden Knowledge — Sequence and Adoption
+
+- **Sequence is the mechanism:** `lens -> honest devil -> symbol -> ritual -> language -> earned conviction`.
+- **Observable adoption beats repetition:** audience quotation, ritual completion, accurate symbol recognition, or changed comparison behavior count; asset completion does not.
+- **Certainty is an evidence property:** remove verbal hedges after the claim is calibrated, never use bold tone to upgrade proof.
+- **Ethical constraints sharpen the craft:** banning human enemies forces the writer to identify the actual broken mechanism.

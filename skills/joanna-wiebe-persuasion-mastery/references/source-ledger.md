@@ -37,3 +37,15 @@
 | Certainty Gradient hedge-word failure (17 hedges in one email opener) | UNCONFIRMED (primary source absent, see table above) | `skills/joanna-wiebe-persuasion-mastery/genius.md`, Part 5 #35 — internal cross-reference only |
 
 No claim in this ledger was invented for the purpose of passing the audit; every VERIFIED row was checked by opening the cited file and locating the exact quoted text this pass, on 2026-07-18.
+
+## 2026-08-23 — Belief Community Architecture extension
+
+| Source | Status | Use |
+|---|---|---|
+| `extractions/video-context/Tnv9PuMo84E/transcript.vtt` | SOURCE-OBSERVED | Complete native captions for Joanna Wiebe's *How To Command Belief Like a Cult Leader*. |
+| `extractions/video-context/Tnv9PuMo84E/transcript_segments.json` | SOURCE-OBSERVED | 583 timestamped segments used to anchor the six mechanisms. |
+| `extractions/video-context/Tnv9PuMo84E/visual-frame-manifest.json` | SOURCE-OBSERVED | 100 scene-aware and 8 cue-frame records; all scene frames reviewed. |
+| `extractions/video-context/Tnv9PuMo84E/research-claim-audit.md` | MIXED | Separates primary corroboration, partial support, and unverified source rhetoric. |
+| `extractions/video-context/Tnv9PuMo84E/deep-extraction.md` | OPERATIONAL-SYNTHESIS | Converts the source into executable behavior while preserving uncertainty and ethical boundaries. |
+
+The sixth mechanism is captioned as “profit,” but surrounding source language (“a prophet states the future”) makes **prophet** the contextually supported correction. “Zero friction = zero devotion” is retained only as a source heuristic and is not represented as a universal research finding.

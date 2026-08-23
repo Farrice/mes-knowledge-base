@@ -1,0 +1,5530 @@
+[
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:00.000",
+    "start_seconds": 0.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0001.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:00.160",
+    "start_seconds": 0.16,
+    "spoken_evidence": "Harley-Davidson, Lululemon, even",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:02.399",
+    "start_seconds": 2.399,
+    "spoken_evidence": "Birkshshire Hathaway operate like cults.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:05.600",
+    "start_seconds": 5.6,
+    "spoken_evidence": "Some of the world's most respected",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:07.680",
+    "start_seconds": 7.68,
+    "spoken_evidence": "brands run like the world's most",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:10.400",
+    "start_seconds": 10.4,
+    "spoken_evidence": "infamous cults and are able to convince",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:12.559",
+    "start_seconds": 12.559,
+    "spoken_evidence": "people to give up their money, their",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:13.260",
+    "start_seconds": 13.26,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0004.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:14.080",
+    "start_seconds": 14.08,
+    "spoken_evidence": "time, and their sense of choice.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:16.000",
+    "start_seconds": 16.0,
+    "spoken_evidence": "Consider this. Every year, 40,000 people",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:17.810",
+    "start_seconds": 17.81,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0007.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:19.119",
+    "start_seconds": 19.119,
+    "spoken_evidence": "pilgrimage to Omaha and line up before",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:22.000",
+    "start_seconds": 22.0,
+    "spoken_evidence": "dawn to see a man they call the Oracle.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:24.720",
+    "start_seconds": 24.72,
+    "spoken_evidence": "There's merch. Only a select few are",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:26.800",
+    "start_seconds": 26.8,
+    "spoken_evidence": "invited in. [music] And the oracles",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:27.440",
+    "start_seconds": 27.44,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0011.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:28.720",
+    "start_seconds": 28.72,
+    "spoken_evidence": "shareholder letters are quoted like",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:31.039",
+    "start_seconds": 31.039,
+    "spoken_evidence": "scripture. This is not a traditional",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:33.360",
+    "start_seconds": 33.36,
+    "spoken_evidence": "cult leader. It's Warren Buffett,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:35.680",
+    "start_seconds": 35.68,
+    "spoken_evidence": "billionaire investor. [music] Brands",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:37.080",
+    "start_seconds": 37.08,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0014.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:37.600",
+    "start_seconds": 37.6,
+    "spoken_evidence": "with a cult following exploit a deep",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:40.239",
+    "start_seconds": 40.239,
+    "spoken_evidence": "psychological truth that most of us",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:42.160",
+    "start_seconds": 42.16,
+    "spoken_evidence": "completely ignore. Humans are starving",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:45.200",
+    "start_seconds": 45.2,
+    "spoken_evidence": "for something to believe in. Your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:47.160",
+    "start_seconds": 47.16,
+    "spoken_evidence": "[music] brand, big or small, can",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:49.200",
+    "start_seconds": 49.2,
+    "spoken_evidence": "actively manufacture this belief through",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:51.745",
+    "start_seconds": 51.745,
+    "spoken_evidence": "[music] proven congregation building",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:53.760",
+    "start_seconds": 53.76,
+    "spoken_evidence": "principles you've probably never",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:55.840",
+    "start_seconds": 55.84,
+    "spoken_evidence": "considered in [music] your content",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:57.199",
+    "start_seconds": 57.199,
+    "spoken_evidence": "strategy. So, if you want to learn how",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:57.640",
+    "start_seconds": 57.64,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0017.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:00:58.000",
+    "start_seconds": 58.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0000.jpg — Opening six-stage congregation diagram in transition.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:00:59.199",
+    "start_seconds": 59.199,
+    "spoken_evidence": "to command belief in your brand so",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:01.440",
+    "start_seconds": 61.44,
+    "spoken_evidence": "people defend you passionately and buy",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:04.080",
+    "start_seconds": 64.08,
+    "spoken_evidence": "from you exclusively, let's do like",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:06.880",
+    "start_seconds": 66.88,
+    "spoken_evidence": "Warren Buffett and take a page from what",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:08.880",
+    "start_seconds": 68.88,
+    "spoken_evidence": "cults get right. The first secret of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:10.150",
+    "start_seconds": 70.15,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0020.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:11.760",
+    "start_seconds": 71.76,
+    "spoken_evidence": "belief is what we're calling a shiny new",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:14.000",
+    "start_seconds": 74.0,
+    "spoken_evidence": "lens. And it has nothing to do with the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:16.080",
+    "start_seconds": 76.08,
+    "spoken_evidence": "ins and outs of the product you're",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:17.759",
+    "start_seconds": 77.759,
+    "spoken_evidence": "selling. [music] It's all about how",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:19.080",
+    "start_seconds": 79.08,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0024.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:19.360",
+    "start_seconds": 79.36,
+    "spoken_evidence": "companies get you to view not the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:21.520",
+    "start_seconds": 81.52,
+    "spoken_evidence": "product, the world. That is how Simon",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:22.330",
+    "start_seconds": 82.33,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0027.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:23.600",
+    "start_seconds": 83.6,
+    "spoken_evidence": "Syek explains why [music] Apple became",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:25.600",
+    "start_seconds": 85.6,
+    "spoken_evidence": "so successful. Steve Jobs sold a new way",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:28.080",
+    "start_seconds": 88.08,
+    "spoken_evidence": "of looking at the world, to see",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:29.759",
+    "start_seconds": 89.759,
+    "spoken_evidence": "beautiful design and breakthrough",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:31.600",
+    "start_seconds": 91.6,
+    "spoken_evidence": "creativity where others could only see a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:32.260",
+    "start_seconds": 92.26,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0030.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:34.479",
+    "start_seconds": 94.479,
+    "spoken_evidence": "dull gray box that did calculations",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:36.560",
+    "start_seconds": 96.56,
+    "spoken_evidence": "fast. Once you put on those shiny new",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:39.200",
+    "start_seconds": 99.2,
+    "spoken_evidence": "lenses, that boring box on your desk",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:41.759",
+    "start_seconds": 101.759,
+    "spoken_evidence": "becomes downright offensive to your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:43.759",
+    "start_seconds": 103.759,
+    "spoken_evidence": "soul. All because you were handed a pair",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:46.479",
+    "start_seconds": 106.479,
+    "spoken_evidence": "of new eyes. And you see the same",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:48.399",
+    "start_seconds": 108.399,
+    "spoken_evidence": "concept with new brands, too. Fishwife",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:49.780",
+    "start_seconds": 109.78,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0033.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:50.640",
+    "start_seconds": 110.64,
+    "spoken_evidence": "sells canned fish, which should be the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:53.600",
+    "start_seconds": 113.6,
+    "spoken_evidence": "most boring thing on the shelf. Instead,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:55.660",
+    "start_seconds": 115.66,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0037.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:56.079",
+    "start_seconds": 116.07900000000001,
+    "spoken_evidence": "they hand their fans the eyes of someone",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:58.079",
+    "start_seconds": 118.07900000000001,
+    "spoken_evidence": "who treats tinned fish like a little",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:01:58.330",
+    "start_seconds": 118.33,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0040.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:59.759",
+    "start_seconds": 119.759,
+    "spoken_evidence": "luxury. A thing with a ritual around it.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:02.159",
+    "start_seconds": 122.159,
+    "spoken_evidence": "A thing you flex. Yes, it's still",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:02:03.120",
+    "start_seconds": 123.12,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0043.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:04.560",
+    "start_seconds": 124.56,
+    "spoken_evidence": "fishing again, but you're seeing it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:06.399",
+    "start_seconds": 126.399,
+    "spoken_evidence": "completely differently because Fishwife",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:08.879",
+    "start_seconds": 128.879,
+    "spoken_evidence": "is showing you a new way to look at it.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:11.120",
+    "start_seconds": 131.12,
+    "spoken_evidence": "Then there's RA a RAD, which literally",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:14.160",
+    "start_seconds": 134.16,
+    "spoken_evidence": "registered a nonprofit called the Church",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:16.480",
+    "start_seconds": 136.48,
+    "spoken_evidence": "of Perpetual Life. The glasses they hand",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:19.200",
+    "start_seconds": 139.2,
+    "spoken_evidence": "you say aging and death are not your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:21.440",
+    "start_seconds": 141.44,
+    "spoken_evidence": "fate. They're a disease you get to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:23.120",
+    "start_seconds": 143.12,
+    "spoken_evidence": "fight. [music] Now, people pay to show",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:02:24.100",
+    "start_seconds": 144.1,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0046.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:25.200",
+    "start_seconds": 145.2,
+    "spoken_evidence": "up at their huge events because they",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:27.360",
+    "start_seconds": 147.36,
+    "spoken_evidence": "want to see the world that way. And the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:02:28.940",
+    "start_seconds": 148.94,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0049.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:29.360",
+    "start_seconds": 149.36,
+    "spoken_evidence": "brand keeps growing. This is how cults",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:32.160",
+    "start_seconds": 152.16,
+    "spoken_evidence": "get started. They show you the world as",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:34.400",
+    "start_seconds": 154.4,
+    "spoken_evidence": "you see it or aspire to see it. Take",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:37.120",
+    "start_seconds": 157.12,
+    "spoken_evidence": "famous cult leader Jim Jones in the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:39.200",
+    "start_seconds": 159.2,
+    "spoken_evidence": "1950s and60s. He built the [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:41.280",
+    "start_seconds": 161.28,
+    "spoken_evidence": "people's temple by handing people who'd",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:02:42.000",
+    "start_seconds": 162.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0053.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:43.440",
+    "start_seconds": 163.44,
+    "spoken_evidence": "been shoved to the edges of society",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:45.280",
+    "start_seconds": 165.28,
+    "spoken_evidence": "something they'd never had. A place",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:46.879",
+    "start_seconds": 166.879,
+    "spoken_evidence": "where every color person sat together,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:02:48.170",
+    "start_seconds": 168.17,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0056.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:49.646",
+    "start_seconds": 169.64600000000002,
+    "spoken_evidence": "[music] ate together, and mattered. Now,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:02:51.750",
+    "start_seconds": 171.75,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0059.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:51.920",
+    "start_seconds": 171.92000000000002,
+    "spoken_evidence": "obviously, things went dark. What's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:53.599",
+    "start_seconds": 173.599,
+    "spoken_evidence": "curious to us in business [music] is",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:55.200",
+    "start_seconds": 175.2,
+    "spoken_evidence": "that survivors said that the cult made",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:57.360",
+    "start_seconds": 177.36,
+    "spoken_evidence": "them feel seen for the first time in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:02:58.959",
+    "start_seconds": 178.959,
+    "spoken_evidence": "their lives. They joined because Jim",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:00.800",
+    "start_seconds": 180.8,
+    "spoken_evidence": "Jones gave them a new way of seeing.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:03.360",
+    "start_seconds": 183.36,
+    "spoken_evidence": "Now, when marketers try to start with",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:05.599",
+    "start_seconds": 185.599,
+    "spoken_evidence": "why, they treat an innate [music] human",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:07.760",
+    "start_seconds": 187.76,
+    "spoken_evidence": "need to belong as like a nice to have.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:03:09.110",
+    "start_seconds": 189.11,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0062.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:10.319",
+    "start_seconds": 190.319,
+    "spoken_evidence": "Science proves it's a must to have. In",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:12.640",
+    "start_seconds": 192.64,
+    "spoken_evidence": "1995, two psychologists, Bowmeister and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:15.120",
+    "start_seconds": 195.12,
+    "spoken_evidence": "Liry, found that a sense of belonging",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:17.120",
+    "start_seconds": 197.12,
+    "spoken_evidence": "ranks right next to [music] food and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:19.280",
+    "start_seconds": 199.28,
+    "spoken_evidence": "safety as a basic human need. We are",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:21.519",
+    "start_seconds": 201.519,
+    "spoken_evidence": "wired to find a group. We're not like",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:23.760",
+    "start_seconds": 203.76,
+    "spoken_evidence": "pack animals. We are pack animals. So,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:26.879",
+    "start_seconds": 206.879,
+    "spoken_evidence": "as a brand, stop talking about building",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:03:27.540",
+    "start_seconds": 207.54,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0066.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:29.120",
+    "start_seconds": 209.12,
+    "spoken_evidence": "a community. Communities are wastelands",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:31.760",
+    "start_seconds": 211.76,
+    "spoken_evidence": "in circle or Slack. Community is not the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:34.560",
+    "start_seconds": 214.56,
+    "spoken_evidence": "goal. Congregation is the goal. A",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:37.200",
+    "start_seconds": 217.2,
+    "spoken_evidence": "growing group of people who can't unsee",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:39.440",
+    "start_seconds": 219.44,
+    "spoken_evidence": "what you've shown them and who [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:40.959",
+    "start_seconds": 220.959,
+    "spoken_evidence": "identify differently because of your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:42.799",
+    "start_seconds": 222.799,
+    "spoken_evidence": "brand's message. Now, if you're",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:44.720",
+    "start_seconds": 224.72,
+    "spoken_evidence": "resisting this a bit, let me make you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:46.720",
+    "start_seconds": 226.72,
+    "spoken_evidence": "really uncomfortable. First, thinking",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:03:47.600",
+    "start_seconds": 227.6,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0069.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:48.560",
+    "start_seconds": 228.56,
+    "spoken_evidence": "this is dark hat stuff that only like",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:51.040",
+    "start_seconds": 231.04,
+    "spoken_evidence": "the worst brands would ever do is naive.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:54.000",
+    "start_seconds": 234.0,
+    "spoken_evidence": "This is a clever databacked growth",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:56.319",
+    "start_seconds": 236.31900000000002,
+    "spoken_evidence": "strategy that smart companies use to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:03:58.879",
+    "start_seconds": 238.879,
+    "spoken_evidence": "bury the brands who think they're above",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:01.200",
+    "start_seconds": 241.2,
+    "spoken_evidence": "it. Second, your audience is not too",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:04.159",
+    "start_seconds": 244.159,
+    "spoken_evidence": "sophisticated to fall for belonging.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:04:06.620",
+    "start_seconds": 246.62,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0072.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:06.640",
+    "start_seconds": 246.64,
+    "spoken_evidence": "It's not only people from the fringes",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:08.239",
+    "start_seconds": 248.239,
+    "spoken_evidence": "who join cults. Researcher Margaret",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:10.239",
+    "start_seconds": 250.239,
+    "spoken_evidence": "Singer found that about 2third of people",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:12.400",
+    "start_seconds": 252.4,
+    "spoken_evidence": "who join cults come from normal",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:14.480",
+    "start_seconds": 254.48,
+    "spoken_evidence": "functioning families and upbringings.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:16.720",
+    "start_seconds": 256.72,
+    "spoken_evidence": "When you apply this stuff, you don't",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:18.400",
+    "start_seconds": 258.4,
+    "spoken_evidence": "have to go dark with it. Take the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:04:19.300",
+    "start_seconds": 259.3,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0075.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:19.840",
+    "start_seconds": 259.84,
+    "spoken_evidence": "lesson, show your customers the world",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:22.000",
+    "start_seconds": 262.0,
+    "spoken_evidence": "through a new lens and roll with that in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:24.479",
+    "start_seconds": 264.479,
+    "spoken_evidence": "a positive way. Your customer is",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:26.720",
+    "start_seconds": 266.72,
+    "spoken_evidence": "shopping for a world view. They will buy",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:29.199",
+    "start_seconds": 269.199,
+    "spoken_evidence": "it from you or your competitor. To put",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:31.199",
+    "start_seconds": 271.199,
+    "spoken_evidence": "this in practice, say this out loud in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:33.520",
+    "start_seconds": 273.52,
+    "spoken_evidence": "public over and over until people repeat",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:36.720",
+    "start_seconds": 276.72,
+    "spoken_evidence": "it back to you and then double down.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:04:39.000",
+    "start_seconds": 279.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0001.jpg — On-camera delivery of the repeatable shiny-new-lens formula.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:39.759",
+    "start_seconds": 279.759,
+    "spoken_evidence": "Most people think blank. Here is what's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:42.080",
+    "start_seconds": 282.08,
+    "spoken_evidence": "actually true. So, most people think",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:44.400",
+    "start_seconds": 284.4,
+    "spoken_evidence": "canned fish is for grandma's pantry.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:46.238",
+    "start_seconds": 286.238,
+    "spoken_evidence": "[music] Here's what's actually true.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:47.840",
+    "start_seconds": 287.84000000000003,
+    "spoken_evidence": "Most people think computers are ugly",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:49.840",
+    "start_seconds": 289.84000000000003,
+    "spoken_evidence": "plastic boxes. Here's what's actually",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:51.520",
+    "start_seconds": 291.52,
+    "spoken_evidence": "true. Most people think you have to be a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:53.440",
+    "start_seconds": 293.44,
+    "spoken_evidence": "lone wolf to be a rebel. Here's what's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:55.520",
+    "start_seconds": 295.52,
+    "spoken_evidence": "actually true. Now, Nest did this by",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:04:56.000",
+    "start_seconds": 296.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0079.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:57.680",
+    "start_seconds": 297.68,
+    "spoken_evidence": "turning an ugly thermostat into",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:04:59.440",
+    "start_seconds": 299.44,
+    "spoken_evidence": "something a design lover just had to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:02.320",
+    "start_seconds": 302.32,
+    "spoken_evidence": "have on their walls. Just 3 years after",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:05.040",
+    "start_seconds": 305.04,
+    "spoken_evidence": "hitting the market with their lens on",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:07.199",
+    "start_seconds": 307.199,
+    "spoken_evidence": "the design of things, Nest sold to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:09.520",
+    "start_seconds": 309.52,
+    "spoken_evidence": "Google for $3.2 billion in cash. So, go",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:05:12.730",
+    "start_seconds": 312.73,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0082.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:13.120",
+    "start_seconds": 313.12,
+    "spoken_evidence": "find the lens your congregation needs",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:15.600",
+    "start_seconds": 315.6,
+    "spoken_evidence": "from you. Now, if you need help finding",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:17.759",
+    "start_seconds": 317.759,
+    "spoken_evidence": "that lens, we've created a playbook for",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:19.680",
+    "start_seconds": 319.68,
+    "spoken_evidence": "you. You should grab the link in the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:21.520",
+    "start_seconds": 321.52,
+    "spoken_evidence": "description below. So, once you've given",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:23.199",
+    "start_seconds": 323.199,
+    "spoken_evidence": "people a new way to see themselves and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:25.600",
+    "start_seconds": 325.6,
+    "spoken_evidence": "the world, you've got to give them",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:05:25.990",
+    "start_seconds": 325.99,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0085.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:27.280",
+    "start_seconds": 327.28,
+    "spoken_evidence": "something to fight against. The second",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:29.199",
+    "start_seconds": 329.199,
+    "spoken_evidence": "secret of generating belief in you is",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:32.320",
+    "start_seconds": 332.32,
+    "spoken_evidence": "identifying a devil that's fighting you.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:34.639",
+    "start_seconds": 334.639,
+    "spoken_evidence": "Every church, religion, ideology has",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:36.880",
+    "start_seconds": 336.88,
+    "spoken_evidence": "one, and so does every brand that people",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:38.960",
+    "start_seconds": 338.96,
+    "spoken_evidence": "believe in. And this is not a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:40.320",
+    "start_seconds": 340.32,
+    "spoken_evidence": "coincidence. It is entirely by design.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:05:43.090",
+    "start_seconds": 343.09,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0088.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:43.199",
+    "start_seconds": 343.199,
+    "spoken_evidence": "Do you remember Apple's iconic 1984",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:46.160",
+    "start_seconds": 346.15999999999997,
+    "spoken_evidence": "commercial with the rebel cutting",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:47.759",
+    "start_seconds": 347.759,
+    "spoken_evidence": "through [music] drones to throw a hammer",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:05:48.930",
+    "start_seconds": 348.93,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0092.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:49.360",
+    "start_seconds": 349.36,
+    "spoken_evidence": "through a screen? Of course you do. It",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:50.880",
+    "start_seconds": 350.88,
+    "spoken_evidence": "is a masterclass in a brand, creating",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:05:52.560",
+    "start_seconds": 352.56,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0095.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:53.048",
+    "start_seconds": 353.048,
+    "spoken_evidence": "[music] a devil its customers do battle",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:55.039",
+    "start_seconds": 355.039,
+    "spoken_evidence": "with every time they buy from the brand.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:05:57.600",
+    "start_seconds": 357.6,
+    "spoken_evidence": "Apple painted IBM as big brother, the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:00.720",
+    "start_seconds": 360.72,
+    "spoken_evidence": "enemy. In contrast, they were then the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:03.199",
+    "start_seconds": 363.199,
+    "spoken_evidence": "rebellious savior. Two decades later,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:06:04.110",
+    "start_seconds": 364.11,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0098.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:05.360",
+    "start_seconds": 365.36,
+    "spoken_evidence": "Apple did it all over again. same",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:07.199",
+    "start_seconds": 367.199,
+    "spoken_evidence": "playbook. Mac versus PC, good versus",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:09.759",
+    "start_seconds": 369.759,
+    "spoken_evidence": "evil, just evil in like a cheap brown",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:12.000",
+    "start_seconds": 372.0,
+    "spoken_evidence": "suit this time. So, if you think about",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:13.600",
+    "start_seconds": 373.6,
+    "spoken_evidence": "it, Apple barely even talked about",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:15.520",
+    "start_seconds": 375.52,
+    "spoken_evidence": "Apple. They pointed at who you didn't",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:17.680",
+    "start_seconds": 377.68,
+    "spoken_evidence": "want to [music] be, and you nodded along",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:06:18.210",
+    "start_seconds": 378.21,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0101.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:19.360",
+    "start_seconds": 379.36,
+    "spoken_evidence": "because you agreed who the enemy was.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:21.120",
+    "start_seconds": 381.12,
+    "spoken_evidence": "Patagonia has pulled this same concept",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:23.199",
+    "start_seconds": 383.199,
+    "spoken_evidence": "off without a competitor at all. Their",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:25.199",
+    "start_seconds": 385.199,
+    "spoken_evidence": "devil is mindless consumerism. So, they",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:06:27.010",
+    "start_seconds": 387.01,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0104.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:27.440",
+    "start_seconds": 387.44,
+    "spoken_evidence": "ran a [music] Black Friday ad telling",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:28.960",
+    "start_seconds": 388.96,
+    "spoken_evidence": "you not to buy their jacket, a premium",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:31.360",
+    "start_seconds": 391.36,
+    "spoken_evidence": "brand built on an [music] enemy that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:32.960",
+    "start_seconds": 392.96,
+    "spoken_evidence": "their followers could agree with. Now,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:35.440",
+    "start_seconds": 395.44,
+    "spoken_evidence": "this is just textbook cult mechanics.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:38.240",
+    "start_seconds": 398.24,
+    "spoken_evidence": "Leaders pull followers together by",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:40.479",
+    "start_seconds": 400.479,
+    "spoken_evidence": "convincing them that they're better than",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:42.479",
+    "start_seconds": 402.479,
+    "spoken_evidence": "outsiders. And that bond gets stronger",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:44.720",
+    "start_seconds": 404.72,
+    "spoken_evidence": "the second there's an us versus them.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:46.720",
+    "start_seconds": 406.72,
+    "spoken_evidence": "From early on, Elron Hubard, the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:48.880",
+    "start_seconds": 408.88,
+    "spoken_evidence": "Scientology guy, pointed his followers",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:06:49.700",
+    "start_seconds": 409.7,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0108.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:50.689",
+    "start_seconds": 410.689,
+    "spoken_evidence": "[music] at one enemy. He called",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:52.080",
+    "start_seconds": 412.08,
+    "spoken_evidence": "psychiatrists the psyches and painted",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:54.800",
+    "start_seconds": 414.8,
+    "spoken_evidence": "them as the great evil of the planet.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:06:57.000",
+    "start_seconds": 417.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0111.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:57.039",
+    "start_seconds": 417.039,
+    "spoken_evidence": "The church even runs a museum called",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:06:59.039",
+    "start_seconds": 419.039,
+    "spoken_evidence": "psychiatry, an industry of death. Notice",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:01.840",
+    "start_seconds": 421.84,
+    "spoken_evidence": "the enemy isn't a person. It's a whole",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:03.919",
+    "start_seconds": 423.919,
+    "spoken_evidence": "profession. Even people who leave",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:06.240",
+    "start_seconds": 426.24,
+    "spoken_evidence": "Scientology struggle to trust psychiatry",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:08.880",
+    "start_seconds": 428.88,
+    "spoken_evidence": "after the devil feels that real. Now,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:07:11.560",
+    "start_seconds": 431.56,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0114.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:11.919",
+    "start_seconds": 431.919,
+    "spoken_evidence": "that's the power of the devil narrative",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:14.240",
+    "start_seconds": 434.24,
+    "spoken_evidence": "that runs [music] through human history.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:16.319",
+    "start_seconds": 436.319,
+    "spoken_evidence": "Like, isn't the devil's secret power",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:18.240",
+    "start_seconds": 438.24,
+    "spoken_evidence": "that he convinces you he doesn't exist?",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:20.000",
+    "start_seconds": 440.0,
+    "spoken_evidence": "Isn't the devil good at tempting you? If",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:07:21.360",
+    "start_seconds": 441.36,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0117.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:21.680",
+    "start_seconds": 441.68,
+    "spoken_evidence": "you say there is no devil, isn't that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:23.360",
+    "start_seconds": 443.36,
+    "spoken_evidence": "the devil winning? Customers are good,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:25.360",
+    "start_seconds": 445.36,
+    "spoken_evidence": "followers are better, and followers who",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:27.280",
+    "start_seconds": 447.28,
+    "spoken_evidence": "think [music] your competitor is the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:29.039",
+    "start_seconds": 449.039,
+    "spoken_evidence": "worst are the best. Now, here's the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:30.560",
+    "start_seconds": 450.56,
+    "spoken_evidence": "proof. In 2001, two researchers found",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:32.800",
+    "start_seconds": 452.8,
+    "spoken_evidence": "that communities hold together around a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:07:32.990",
+    "start_seconds": 452.99,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0121.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:35.199",
+    "start_seconds": 455.199,
+    "spoken_evidence": "shared [music] adversary. Their main",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:36.720",
+    "start_seconds": 456.72,
+    "spoken_evidence": "example in their study was literally Mac",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:38.880",
+    "start_seconds": 458.88,
+    "spoken_evidence": "versus PC. A clear enemy turns customers",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:41.440",
+    "start_seconds": 461.44,
+    "spoken_evidence": "into followers and followers behave",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:07:42.130",
+    "start_seconds": 462.13,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0124.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:43.759",
+    "start_seconds": 463.759,
+    "spoken_evidence": "differently. A customer leaves you for a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:46.080",
+    "start_seconds": 466.08,
+    "spoken_evidence": "10% off coupon. A follower defends",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:48.330",
+    "start_seconds": 468.33,
+    "spoken_evidence": "[music] you in the comments. Now, brands",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:50.080",
+    "start_seconds": 470.08,
+    "spoken_evidence": "get this wrong in two ways. First, they",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:52.560",
+    "start_seconds": 472.56,
+    "spoken_evidence": "try to be everything for everyone",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:54.400",
+    "start_seconds": 474.4,
+    "spoken_evidence": "because all are welcome feels human and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:07:54.720",
+    "start_seconds": 474.72,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0127.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:56.479",
+    "start_seconds": 476.479,
+    "spoken_evidence": "human is probably one of your brand",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:07:58.160",
+    "start_seconds": 478.15999999999997,
+    "spoken_evidence": "values. But an enemy makes deciding",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:01.440",
+    "start_seconds": 481.44,
+    "spoken_evidence": "easier. That is the contrast effect at",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:03.520",
+    "start_seconds": 483.52,
+    "spoken_evidence": "play. People compare and contrast to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:08:03.690",
+    "start_seconds": 483.69,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0130.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:05.039",
+    "start_seconds": 485.039,
+    "spoken_evidence": "make decisions. If we can easily",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:06.479",
+    "start_seconds": 486.479,
+    "spoken_evidence": "eliminate one option, the devil, you can",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:08.639",
+    "start_seconds": 488.639,
+    "spoken_evidence": "decide faster to choose you. The other",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:10.560",
+    "start_seconds": 490.56,
+    "spoken_evidence": "mistake is making the enemy [music] a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:12.400",
+    "start_seconds": 492.4,
+    "spoken_evidence": "person. Look, you do not want to pick on",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:08:12.780",
+    "start_seconds": 492.78,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0134.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:14.080",
+    "start_seconds": 494.08,
+    "spoken_evidence": "a human. Pick a behavior, a belief, a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:15.840",
+    "start_seconds": 495.84,
+    "spoken_evidence": "broken status quo, [music] or even a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:17.440",
+    "start_seconds": 497.44,
+    "spoken_evidence": "lazy institution. You're not a school",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:19.520",
+    "start_seconds": 499.52,
+    "spoken_evidence": "ground bully. You're the savior against",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:08:20.080",
+    "start_seconds": 500.08,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0137.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:21.280",
+    "start_seconds": 501.28,
+    "spoken_evidence": "a devil. To try this, consider that if",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:23.440",
+    "start_seconds": 503.44,
+    "spoken_evidence": "your brand stands for something, then it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:25.599",
+    "start_seconds": 505.599,
+    "spoken_evidence": "stands against what runs counter to it.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:27.759",
+    "start_seconds": 507.759,
+    "spoken_evidence": "If you're a perfume brand and [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:29.840",
+    "start_seconds": 509.84,
+    "spoken_evidence": "you stand for custom scents tailored to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:32.240",
+    "start_seconds": 512.24,
+    "spoken_evidence": "the individual's chemical makeup, then",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:34.080",
+    "start_seconds": 514.08,
+    "spoken_evidence": "you stand against one sizefits-all. One",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:36.159",
+    "start_seconds": 516.159,
+    "spoken_evidence": "sizefits-all becomes evil. Complete the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:08:37.520",
+    "start_seconds": 517.52,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0140.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:08:38.000",
+    "start_seconds": 518.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0002.jpg — On-camera transition from lens to the named enemy or broken status quo.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:38.159",
+    "start_seconds": 518.159,
+    "spoken_evidence": "line. We exist because the normal way of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:40.159",
+    "start_seconds": 520.159,
+    "spoken_evidence": "doing blank is broken and we refuse to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:42.640",
+    "start_seconds": 522.64,
+    "spoken_evidence": "do it. Now, the villain already exists",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:44.399",
+    "start_seconds": 524.399,
+    "spoken_evidence": "for your customer. You just see it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:46.800",
+    "start_seconds": 526.8,
+    "spoken_evidence": "better. And the lens you gave them in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:48.640",
+    "start_seconds": 528.64,
+    "spoken_evidence": "step one helps them see it, too. You're",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:08:49.110",
+    "start_seconds": 529.11,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0143.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:50.720",
+    "start_seconds": 530.72,
+    "spoken_evidence": "not inventing a devil. You're",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:52.880",
+    "start_seconds": 532.88,
+    "spoken_evidence": "identifying that it exists and you're",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:55.040",
+    "start_seconds": 535.04,
+    "spoken_evidence": "fighting it. Not passively, either. You",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:57.519",
+    "start_seconds": 537.519,
+    "spoken_evidence": "cannot build a congregation of wildly",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:00.160",
+    "start_seconds": 540.16,
+    "spoken_evidence": "enthusiastic followers by kind of sort",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:02.800",
+    "start_seconds": 542.8,
+    "spoken_evidence": "of maybe fighting something that feels a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:05.040",
+    "start_seconds": 545.04,
+    "spoken_evidence": "bit like a sort of devil, but that's a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:06.560",
+    "start_seconds": 546.56,
+    "spoken_evidence": "harsh word, so let's just dilute it. No,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:09:07.630",
+    "start_seconds": 547.63,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0146.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:08.160",
+    "start_seconds": 548.16,
+    "spoken_evidence": "this work takes courage for you and for",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:11.200",
+    "start_seconds": 551.2,
+    "spoken_evidence": "your followers because next they're",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:13.760",
+    "start_seconds": 553.76,
+    "spoken_evidence": "going to have to show the world which",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:15.600",
+    "start_seconds": 555.6,
+    "spoken_evidence": "side they're on. The third secret of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:17.360",
+    "start_seconds": 557.36,
+    "spoken_evidence": "belief in your brand is a symbol you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:19.600",
+    "start_seconds": 559.6,
+    "spoken_evidence": "wear. A [music] symbol is the single",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:21.600",
+    "start_seconds": 561.6,
+    "spoken_evidence": "most effective badge of honor, and it's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:24.399",
+    "start_seconds": 564.399,
+    "spoken_evidence": "a recruiting tool. And if you think",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:09:25.440",
+    "start_seconds": 565.44,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0150.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:26.160",
+    "start_seconds": 566.16,
+    "spoken_evidence": "you've never bought such a symbol, think",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:28.320",
+    "start_seconds": 568.32,
+    "spoken_evidence": "again. Symbols are a physical",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:30.399",
+    "start_seconds": 570.399,
+    "spoken_evidence": "representation of who you are, what you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:32.640",
+    "start_seconds": 572.64,
+    "spoken_evidence": "stand for, and even how you behave. And",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:35.120",
+    "start_seconds": 575.12,
+    "spoken_evidence": "these symbols come in all different",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:36.959",
+    "start_seconds": 576.9590000000001,
+    "spoken_evidence": "forms. When I was a kid, I lived in a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:39.120",
+    "start_seconds": 579.12,
+    "spoken_evidence": "town with a lot of Mormons. I wasn't",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:40.720",
+    "start_seconds": 580.72,
+    "spoken_evidence": "Mormon. I got to school one Monday, and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:09:41.080",
+    "start_seconds": 581.08,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0153.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:42.720",
+    "start_seconds": 582.72,
+    "spoken_evidence": "the girls in my class were all wearing",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:44.399",
+    "start_seconds": 584.399,
+    "spoken_evidence": "these little bracelets with a light",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:46.000",
+    "start_seconds": 586.0,
+    "spoken_evidence": "built into them. Most of my friends had",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:47.680",
+    "start_seconds": 587.68,
+    "spoken_evidence": "them on. I wanted one. Like, I needed",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:50.080",
+    "start_seconds": 590.08,
+    "spoken_evidence": "one. When I asked them like, \"Where",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:52.320",
+    "start_seconds": 592.32,
+    "spoken_evidence": "where did you get that?\" They were like,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:53.600",
+    "start_seconds": 593.6,
+    "spoken_evidence": "\"At church.\" [music] And I was like,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:54.880",
+    "start_seconds": 594.88,
+    "spoken_evidence": "\"Tell me more about this church.\" Now,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:09:56.220",
+    "start_seconds": 596.22,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0156.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:56.640",
+    "start_seconds": 596.64,
+    "spoken_evidence": "that conversation was not an accident of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:09:59.120",
+    "start_seconds": 599.12,
+    "spoken_evidence": "the Mormon church. Heaven's Gate is an",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:01.279",
+    "start_seconds": 601.279,
+    "spoken_evidence": "eerie example, but worth learning from",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:03.200",
+    "start_seconds": 603.2,
+    "spoken_evidence": "because it proves [music] the power of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:04.640",
+    "start_seconds": 604.64,
+    "spoken_evidence": "symbols to unite a congregation. Members",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:10:06.400",
+    "start_seconds": 606.4,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0159.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:06.880",
+    "start_seconds": 606.88,
+    "spoken_evidence": "wore identical black outfits, [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:08.959",
+    "start_seconds": 608.959,
+    "spoken_evidence": "matching away team patches and the same",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:11.360",
+    "start_seconds": 611.36,
+    "spoken_evidence": "Nike sneakers. From across the room, you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:13.440",
+    "start_seconds": 613.44,
+    "spoken_evidence": "knew instantly who was and was [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:15.360",
+    "start_seconds": 615.36,
+    "spoken_evidence": "not one of them. The uniform made",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:17.680",
+    "start_seconds": 617.68,
+    "spoken_evidence": "belonging visible. Brands do the same",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:10:18.700",
+    "start_seconds": 618.7,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0163.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:19.760",
+    "start_seconds": 619.76,
+    "spoken_evidence": "thing in a much lighter way. So, the UA",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:22.240",
+    "start_seconds": 622.24,
+    "spoken_evidence": "ring is my favorite version of this. It",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:24.240",
+    "start_seconds": 624.24,
+    "spoken_evidence": "takes a belief I take my health",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:25.680",
+    "start_seconds": 625.68,
+    "spoken_evidence": "seriously and [music] turns it into a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:27.200",
+    "start_seconds": 627.2,
+    "spoken_evidence": "symbol people can see. Now, a few years",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:10:28.420",
+    "start_seconds": 628.42,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0166.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:29.279",
+    "start_seconds": 629.279,
+    "spoken_evidence": "back, my friend Bob got one before",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:31.360",
+    "start_seconds": 631.36,
+    "spoken_evidence": "almost anyone. I asked him about this",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:33.279",
+    "start_seconds": 633.279,
+    "spoken_evidence": "black ring I'd never seen him wear,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:34.720",
+    "start_seconds": 634.72,
+    "spoken_evidence": "thinking it was just jewelry. And he",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:36.240",
+    "start_seconds": 636.24,
+    "spoken_evidence": "told me the whole story, how this ring",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:38.160",
+    "start_seconds": 638.16,
+    "spoken_evidence": "worked, what it tracked, everything.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:40.000",
+    "start_seconds": 640.0,
+    "spoken_evidence": "After that, I started to notice the ring",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:42.079",
+    "start_seconds": 642.079,
+    "spoken_evidence": "on a lot more people. And about two",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:10:43.100",
+    "start_seconds": 643.1,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0169.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:44.000",
+    "start_seconds": 644.0,
+    "spoken_evidence": "Christmases later, I bought two for my",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:45.920",
+    "start_seconds": 645.92,
+    "spoken_evidence": "stepsons. [music] If Bob had just been",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:48.000",
+    "start_seconds": 648.0,
+    "spoken_evidence": "tracking his sleep silently in an app,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:49.839",
+    "start_seconds": 649.8389999999999,
+    "spoken_evidence": "we never would have talked about it. The",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:51.200",
+    "start_seconds": 651.2,
+    "spoken_evidence": "symbol started the conversation and the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:10:52.860",
+    "start_seconds": 652.86,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0172.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:53.360",
+    "start_seconds": 653.36,
+    "spoken_evidence": "conversation made the next [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:55.040",
+    "start_seconds": 655.04,
+    "spoken_evidence": "convert. Now, this is how Fitbits",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:57.279",
+    "start_seconds": 657.279,
+    "spoken_evidence": "spread. Whoop! Even Garmin among",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:59.600",
+    "start_seconds": 659.6,
+    "spoken_evidence": "runners. Apple has always known this.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:01.920",
+    "start_seconds": 661.92,
+    "spoken_evidence": "When everyone else's earbuds were black,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:04.240",
+    "start_seconds": 664.24,
+    "spoken_evidence": "theirs were white so you could spot a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:11:05.920",
+    "start_seconds": 665.92,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0176.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:06.160",
+    "start_seconds": 666.16,
+    "spoken_evidence": "fellow believer across a subway car. A",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:08.399",
+    "start_seconds": 668.399,
+    "spoken_evidence": "crucifix does the same job. So does that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:10.480",
+    "start_seconds": 670.48,
+    "spoken_evidence": "giant Stanley cup. When you wear a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:11:11.750",
+    "start_seconds": 671.75,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0179.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:12.720",
+    "start_seconds": 672.72,
+    "spoken_evidence": "symbol of your belief and belonging,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:14.640",
+    "start_seconds": 674.64,
+    "spoken_evidence": "others ask questions and distribution",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:17.040",
+    "start_seconds": 677.04,
+    "spoken_evidence": "happens without a dollar of ad spent.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:19.200",
+    "start_seconds": 679.2,
+    "spoken_evidence": "Researchers call this conspicuous",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:20.880",
+    "start_seconds": 680.88,
+    "spoken_evidence": "consumption and brand prominence.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:22.517",
+    "start_seconds": 682.517,
+    "spoken_evidence": "[music] A 2010 study found that visible",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:24.399",
+    "start_seconds": 684.399,
+    "spoken_evidence": "brand markers signal which group you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:26.079",
+    "start_seconds": 686.079,
+    "spoken_evidence": "belong to and they even earn you better",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:28.480",
+    "start_seconds": 688.48,
+    "spoken_evidence": "treatment. So sometimes the loudest",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:11:28.940",
+    "start_seconds": 688.94,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0182.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:30.240",
+    "start_seconds": 690.24,
+    "spoken_evidence": "signal is a quiet one only insiders can",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:32.800",
+    "start_seconds": 692.8,
+    "spoken_evidence": "read. My friend April rewarded herself",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:34.880",
+    "start_seconds": 694.88,
+    "spoken_evidence": "with a Rolex. To me it looked like a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:37.440",
+    "start_seconds": 697.44,
+    "spoken_evidence": "nice watch. To people who know Rolexes,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:39.839",
+    "start_seconds": 699.8389999999999,
+    "spoken_evidence": "it told a whole story about the weight",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:11:41.280",
+    "start_seconds": 701.28,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0185.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:42.079",
+    "start_seconds": 702.079,
+    "spoken_evidence": "list that she had to sit on to get it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:43.920",
+    "start_seconds": 703.92,
+    "spoken_evidence": "and what that means about who she is.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:45.839",
+    "start_seconds": 705.8389999999999,
+    "spoken_evidence": "Now, the mistake brands make is treating",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:48.320",
+    "start_seconds": 708.32,
+    "spoken_evidence": "merch as a way to make money instead of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:50.720",
+    "start_seconds": 710.72,
+    "spoken_evidence": "a way to recruit. A logo slapped on a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:52.880",
+    "start_seconds": 712.88,
+    "spoken_evidence": "mug is not a symbol. A symbol carries a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:55.200",
+    "start_seconds": 715.2,
+    "spoken_evidence": "belief, and wearing [music] it says",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:56.560",
+    "start_seconds": 716.56,
+    "spoken_evidence": "something about who you are. So, if you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:11:58.590",
+    "start_seconds": 718.59,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0188.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:59.120",
+    "start_seconds": 719.12,
+    "spoken_evidence": "have a digital product or you're a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:00.880",
+    "start_seconds": 720.88,
+    "spoken_evidence": "service business and your customer can't",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:02.880",
+    "start_seconds": 722.88,
+    "spoken_evidence": "wear or hold a symbol [music] of their",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:05.200",
+    "start_seconds": 725.2,
+    "spoken_evidence": "allegiance to you, take some time to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:07.200",
+    "start_seconds": 727.2,
+    "spoken_evidence": "workshop what you could produce that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:09.360",
+    "start_seconds": 729.36,
+    "spoken_evidence": "they can wear or hold. That creates",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:12:10.730",
+    "start_seconds": 730.73,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0192.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:11.519",
+    "start_seconds": 731.519,
+    "spoken_evidence": "brand allegiance and [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:13.120",
+    "start_seconds": 733.12,
+    "spoken_evidence": "conversations. If you're trying to build",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:15.200",
+    "start_seconds": 735.2,
+    "spoken_evidence": "a brand with a cult following, give your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:17.279",
+    "start_seconds": 737.279,
+    "spoken_evidence": "followers one thing they [music] can",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:12:18.000",
+    "start_seconds": 738.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0003.jpg — Watch graphic illustrating a quiet insider-readable status symbol.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:18.480",
+    "start_seconds": 738.48,
+    "spoken_evidence": "wear and show off, like a color, live",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:20.320",
+    "start_seconds": 740.32,
+    "spoken_evidence": "strong yellow, Tiffany blue, a phrase,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:22.959",
+    "start_seconds": 742.959,
+    "spoken_evidence": "you're worth it, a shape, the Hershey's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:25.360",
+    "start_seconds": 745.36,
+    "spoken_evidence": "kiss droplet. When you see or share any",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:27.839",
+    "start_seconds": 747.8389999999999,
+    "spoken_evidence": "of these things, you are reinforcing the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:29.600",
+    "start_seconds": 749.6,
+    "spoken_evidence": "brand as a real part of your life. Make",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:12:31.170",
+    "start_seconds": 751.17,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0195.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:31.680",
+    "start_seconds": 751.68,
+    "spoken_evidence": "sure your symbol signals the belief,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:33.913",
+    "start_seconds": 753.913,
+    "spoken_evidence": "[music] not just the brand. Another",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:35.440",
+    "start_seconds": 755.44,
+    "spoken_evidence": "believer must be able to spot it across",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:38.000",
+    "start_seconds": 758.0,
+    "spoken_evidence": "a room. Now, we've established that a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:39.920",
+    "start_seconds": 759.92,
+    "spoken_evidence": "symbol recruits. The next secret is what",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:12:41.890",
+    "start_seconds": 761.89,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0198.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:42.480",
+    "start_seconds": 762.48,
+    "spoken_evidence": "keeps people from leaving. The fourth",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:44.800",
+    "start_seconds": 764.8,
+    "spoken_evidence": "secret way to drive belief in your brand",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:46.880",
+    "start_seconds": 766.88,
+    "spoken_evidence": "is this rituals. Most people assume",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:49.600",
+    "start_seconds": 769.6,
+    "spoken_evidence": "belief comes first and behavior follows.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:51.839",
+    "start_seconds": 771.8389999999999,
+    "spoken_evidence": "It's usually the other way around. A",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:12:51.850",
+    "start_seconds": 771.85,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0201.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:53.600",
+    "start_seconds": 773.6,
+    "spoken_evidence": "ritual is a formalized series of actions",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:55.920",
+    "start_seconds": 775.92,
+    "spoken_evidence": "or behaviors performed in a specific",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:58.000",
+    "start_seconds": 778.0,
+    "spoken_evidence": "repetitive order, like [music] sage",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:00.079",
+    "start_seconds": 780.079,
+    "spoken_evidence": "smudging to cleanse the room before",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:01.680",
+    "start_seconds": 781.68,
+    "spoken_evidence": "meditating. Now, all Fortune 500",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:04.480",
+    "start_seconds": 784.48,
+    "spoken_evidence": "companies do product and feature",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:05.920",
+    "start_seconds": 785.92,
+    "spoken_evidence": "releases, but Apple turned its yearly",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:13:07.910",
+    "start_seconds": 787.91,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0205.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:08.560",
+    "start_seconds": 788.56,
+    "spoken_evidence": "keynote into a ritualistic mass. Same",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:11.519",
+    "start_seconds": 791.519,
+    "spoken_evidence": "time every year, the faithful are",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:13.200",
+    "start_seconds": 793.2,
+    "spoken_evidence": "watching live. There's the slow build,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:15.200",
+    "start_seconds": 795.2,
+    "spoken_evidence": "then the sermon from the prophet, right",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:17.040",
+    "start_seconds": 797.04,
+    "spoken_evidence": "down to one more thing. They have",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:13:18.670",
+    "start_seconds": 798.67,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0208.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:19.279",
+    "start_seconds": 799.279,
+    "spoken_evidence": "disguised a product launch as a holy day",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:22.240",
+    "start_seconds": 802.24,
+    "spoken_evidence": "for their followers. The luxury brand",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:24.399",
+    "start_seconds": 804.399,
+    "spoken_evidence": "Hermes runs the opposite version. You do",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:26.959",
+    "start_seconds": 806.959,
+    "spoken_evidence": "not just buy a Birkin. You have to be",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:30.480",
+    "start_seconds": 810.48,
+    "spoken_evidence": "allowed to buy one. The weight list is",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:13:31.690",
+    "start_seconds": 811.69,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0211.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:32.864",
+    "start_seconds": 812.864,
+    "spoken_evidence": "[music] an initiation. You build the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:34.959",
+    "start_seconds": 814.9590000000001,
+    "spoken_evidence": "relationship. You spend. You wait. You",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:37.120",
+    "start_seconds": 817.12,
+    "spoken_evidence": "prove yourself. Apple's ritual is an",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:39.600",
+    "start_seconds": 819.6,
+    "spoken_evidence": "open mass. Anyone can attend. The Hermes",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:13:41.200",
+    "start_seconds": 821.2,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0214.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:41.839",
+    "start_seconds": 821.8389999999999,
+    "spoken_evidence": "ritual is a private confirmation you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:43.680",
+    "start_seconds": 823.68,
+    "spoken_evidence": "have to earn. Now, opposite styles, but",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:45.920",
+    "start_seconds": 825.92,
+    "spoken_evidence": "they have the same effect. Worship from",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:13:47.160",
+    "start_seconds": 827.16,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0218.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:48.160",
+    "start_seconds": 828.16,
+    "spoken_evidence": "the people right on schedule. Nexium is",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:51.279",
+    "start_seconds": 831.279,
+    "spoken_evidence": "the dark master of this. On the surface,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:53.200",
+    "start_seconds": 833.2,
+    "spoken_evidence": "it sold polished self-improvement",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:54.959",
+    "start_seconds": 834.9590000000001,
+    "spoken_evidence": "workshops to lawyers, [music] actors,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:56.399",
+    "start_seconds": 836.399,
+    "spoken_evidence": "executives. But to reach the secret",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:58.000",
+    "start_seconds": 838.0,
+    "spoken_evidence": "inner circle, you had to pay a steep",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:59.760",
+    "start_seconds": 839.76,
+    "spoken_evidence": "price to get in. hand over collateral,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:02.320",
+    "start_seconds": 842.32,
+    "spoken_evidence": "your most damaging personal secrets, and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:14:04.260",
+    "start_seconds": 844.26,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0221.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:04.560",
+    "start_seconds": 844.56,
+    "spoken_evidence": "pass through [music] a painful private",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:06.480",
+    "start_seconds": 846.48,
+    "spoken_evidence": "initiation. What they revealed about",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:09.279",
+    "start_seconds": 849.279,
+    "spoken_evidence": "human behavior is that the harder and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:14:10.470",
+    "start_seconds": 850.47,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0224.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:11.440",
+    "start_seconds": 851.44,
+    "spoken_evidence": "costlier the door, the more locked in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:13.920",
+    "start_seconds": 853.92,
+    "spoken_evidence": "people felt once they got [music] on the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:15.839",
+    "start_seconds": 855.839,
+    "spoken_evidence": "other side. Make people work to get in.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:14:18.070",
+    "start_seconds": 858.07,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0227.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:18.160",
+    "start_seconds": 858.16,
+    "spoken_evidence": "Cults do it. Great brands with weight",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:20.160",
+    "start_seconds": 860.16,
+    "spoken_evidence": "lists do it. Now, this is old science.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:22.480",
+    "start_seconds": 862.48,
+    "spoken_evidence": "In 1959, researchers ran a study on",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:25.040",
+    "start_seconds": 865.04,
+    "spoken_evidence": "initiation. They found that people who",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:26.959",
+    "start_seconds": 866.959,
+    "spoken_evidence": "went through an embarrassing, effortful",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:28.539",
+    "start_seconds": 868.539,
+    "spoken_evidence": "[music] entry liked the group more than",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:31.440",
+    "start_seconds": 871.44,
+    "spoken_evidence": "the ones who got in easily. The harder",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:33.360",
+    "start_seconds": 873.36,
+    "spoken_evidence": "the door, the more you love the room",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:35.199",
+    "start_seconds": 875.199,
+    "spoken_evidence": "behind it. Your brain reasons, \"Well, I",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:37.440",
+    "start_seconds": 877.44,
+    "spoken_evidence": "suffered to get in, so I've got to make",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:39.360",
+    "start_seconds": 879.36,
+    "spoken_evidence": "sure it's worth it.\" A study on rituals",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:41.199",
+    "start_seconds": 881.199,
+    "spoken_evidence": "in 2013 found that doing a small ritual",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:43.839",
+    "start_seconds": 883.8389999999999,
+    "spoken_evidence": "before eating made a plain carrot",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:45.570",
+    "start_seconds": 885.57,
+    "spoken_evidence": "[music] taste better and nearly doubled",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:14:46.760",
+    "start_seconds": 886.76,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0230.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:47.839",
+    "start_seconds": 887.8389999999999,
+    "spoken_evidence": "what people would pay for chocolate, but",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:49.760",
+    "start_seconds": 889.76,
+    "spoken_evidence": "only when they did the ritual",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:51.360",
+    "start_seconds": 891.36,
+    "spoken_evidence": "themselves, not when they watched it. So",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:53.519",
+    "start_seconds": 893.519,
+    "spoken_evidence": "when every user experience [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:54.880",
+    "start_seconds": 894.88,
+    "spoken_evidence": "designer on earth tells you to strip out",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:56.560",
+    "start_seconds": 896.56,
+    "spoken_evidence": "all the friction, be careful. Zero",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:14:58.880",
+    "start_seconds": 898.88,
+    "spoken_evidence": "friction [music] means zero investment",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:00.560",
+    "start_seconds": 900.56,
+    "spoken_evidence": "and zero investment means zero devotion.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:15:03.000",
+    "start_seconds": 903.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0004.jpg — On-screen claim: ZERO INVESTMENT = ZERO DEVOTION.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:03.120",
+    "start_seconds": 903.12,
+    "spoken_evidence": "So build one repeatable thing your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:05.519",
+    "start_seconds": 905.519,
+    "spoken_evidence": "people do and tell them when to do it.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:15:07.240",
+    "start_seconds": 907.24,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0234.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:07.440",
+    "start_seconds": 907.44,
+    "spoken_evidence": "Like telling coffee [music] snobs to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:09.199",
+    "start_seconds": 909.199,
+    "spoken_evidence": "grind coffee beans exactly 11 seconds",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:12.160",
+    "start_seconds": 912.16,
+    "spoken_evidence": "before starting a pourover. This is a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:14.160",
+    "start_seconds": 914.16,
+    "spoken_evidence": "great way to sell fresh coffee beans and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:16.160",
+    "start_seconds": 916.16,
+    "spoken_evidence": "build a tribe of coffee snobs. then add",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:18.980",
+    "start_seconds": 918.98,
+    "spoken_evidence": "[music] one earned threshold, one small",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:21.440",
+    "start_seconds": 921.44,
+    "spoken_evidence": "hoop they jump through to get in. So",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:15:23.130",
+    "start_seconds": 923.13,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0237.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:23.440",
+    "start_seconds": 923.44,
+    "spoken_evidence": "maybe you sell your coffee beans on",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:25.120",
+    "start_seconds": 925.12,
+    "spoken_evidence": "Sunday afternoons only and only [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:26.959",
+    "start_seconds": 926.959,
+    "spoken_evidence": "to those who've earned the purchasing",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:28.560",
+    "start_seconds": 928.56,
+    "spoken_evidence": "code, not the coupon code, the code that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:30.959",
+    "start_seconds": 930.959,
+    "spoken_evidence": "unlocks the private cart. The bar is the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:15:32.350",
+    "start_seconds": 932.35,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0240.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:33.760",
+    "start_seconds": 933.76,
+    "spoken_evidence": "point. Put the rope up and make them",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:36.240",
+    "start_seconds": 936.24,
+    "spoken_evidence": "work for it to get opened. The fifth",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:39.680",
+    "start_seconds": 939.68,
+    "spoken_evidence": "secret of belief is scripture and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:41.900",
+    "start_seconds": 941.9,
+    "spoken_evidence": "[music] language. Think of this as the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:15:42.520",
+    "start_seconds": 942.52,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0243.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:43.680",
+    "start_seconds": 943.68,
+    "spoken_evidence": "next step to exclusivity because it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:45.839",
+    "start_seconds": 945.8389999999999,
+    "spoken_evidence": "makes people not only work to get in,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:47.760",
+    "start_seconds": 947.76,
+    "spoken_evidence": "but work to stay in as well. In 2001,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:50.240",
+    "start_seconds": 950.24,
+    "spoken_evidence": "researchers found that a real brand",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:51.920",
+    "start_seconds": 951.92,
+    "spoken_evidence": "community, one that actually works and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:54.000",
+    "start_seconds": 954.0,
+    "spoken_evidence": "isn't just like a side note on a content",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:56.000",
+    "start_seconds": 956.0,
+    "spoken_evidence": "plan, runs on three things. One, a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:58.320",
+    "start_seconds": 958.32,
+    "spoken_evidence": "shared sense of who we are. Two, shared",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:01.120",
+    "start_seconds": 961.12,
+    "spoken_evidence": "rituals. And three, a feeling of",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:03.279",
+    "start_seconds": 963.279,
+    "spoken_evidence": "responsibility to each other. And",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:04.826",
+    "start_seconds": 964.826,
+    "spoken_evidence": "[music] at the center of it all, shared",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:07.120",
+    "start_seconds": 967.12,
+    "spoken_evidence": "language. The mistake is corporate",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:16:07.720",
+    "start_seconds": 967.72,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0247.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:09.411",
+    "start_seconds": 969.411,
+    "spoken_evidence": "[music] speak language so clean and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:11.920",
+    "start_seconds": 971.92,
+    "spoken_evidence": "generic it could belong to any company",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:14.399",
+    "start_seconds": 974.399,
+    "spoken_evidence": "in your category. Generic language earns",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:17.199",
+    "start_seconds": 977.199,
+    "spoken_evidence": "you zero belonging. And if you're not",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:19.199",
+    "start_seconds": 979.199,
+    "spoken_evidence": "sure that's true, think different. I'm",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:16:20.060",
+    "start_seconds": 980.06,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0250.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:20.959",
+    "start_seconds": 980.959,
+    "spoken_evidence": "bringing up Apple throughout because",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:22.800",
+    "start_seconds": 982.8,
+    "spoken_evidence": "Apple hits each of [music] these points",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:24.480",
+    "start_seconds": 984.48,
+    "spoken_evidence": "hard and then some. If it did not work,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:16:26.440",
+    "start_seconds": 986.44,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0253.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:26.560",
+    "start_seconds": 986.56,
+    "spoken_evidence": "Apple would not do it. Apple has been",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:28.399",
+    "start_seconds": 988.399,
+    "spoken_evidence": "feeding us language for decades. Think",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:31.120",
+    "start_seconds": 991.12,
+    "spoken_evidence": "different. A thousand songs in your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:32.880",
+    "start_seconds": 992.88,
+    "spoken_evidence": "pocket. There's an app for that. It",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:34.301",
+    "start_seconds": 994.301,
+    "spoken_evidence": "[music] just works. Anyone inside that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:16:34.870",
+    "start_seconds": 994.87,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0256.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:36.240",
+    "start_seconds": 996.24,
+    "spoken_evidence": "world knows every one of those by heart.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:39.120",
+    "start_seconds": 999.12,
+    "spoken_evidence": "Crossfit does it even harder. WAD,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:41.680",
+    "start_seconds": 1001.68,
+    "spoken_evidence": "Amrap, the box. If you know the words,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:44.079",
+    "start_seconds": 1004.079,
+    "spoken_evidence": "you're in. If you don't, you're a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:45.440",
+    "start_seconds": 1005.44,
+    "spoken_evidence": "tourist and using the language will",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:47.120",
+    "start_seconds": 1007.12,
+    "spoken_evidence": "become part of the act of joining. A",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:49.040",
+    "start_seconds": 1009.04,
+    "spoken_evidence": "psychiatrist, Robert Lifton, studied",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:50.959",
+    "start_seconds": 1010.9590000000001,
+    "spoken_evidence": "this in real cults and called it loading",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:53.279",
+    "start_seconds": 1013.279,
+    "spoken_evidence": "the language. Tidy in-group terms that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:16:53.850",
+    "start_seconds": 1013.85,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0260.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:55.839",
+    "start_seconds": 1015.8389999999999,
+    "spoken_evidence": "quietly [music] do your thinking for",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:57.519",
+    "start_seconds": 1017.519,
+    "spoken_evidence": "you. But a common mistake is coining a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:59.519",
+    "start_seconds": 1019.519,
+    "spoken_evidence": "phrase with like no [music] belief",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:00.959",
+    "start_seconds": 1020.959,
+    "spoken_evidence": "underneath it. So superhuman tried to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:03.040",
+    "start_seconds": 1023.04,
+    "spoken_evidence": "own inbox zero, but that phrase was",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:04.060",
+    "start_seconds": 1024.06,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0263.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:05.120",
+    "start_seconds": 1025.12,
+    "spoken_evidence": "already public, meant nothing new, so",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:07.059",
+    "start_seconds": 1027.059,
+    "spoken_evidence": "[music] it never really stuck to them. A",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:09.039",
+    "start_seconds": 1029.039,
+    "spoken_evidence": "phrase has to carry a worldview that's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:10.959",
+    "start_seconds": 1030.959,
+    "spoken_evidence": "associated with you from that point on.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:13.200",
+    "start_seconds": 1033.2,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0266.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:13.280",
+    "start_seconds": 1033.28,
+    "spoken_evidence": "When it does, it is the cheapest, most",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:15.760",
+    "start_seconds": 1035.76,
+    "spoken_evidence": "viral symbol you can own. Words travel",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:18.640",
+    "start_seconds": 1038.64,
+    "spoken_evidence": "further than a logo and they convert on",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:19.620",
+    "start_seconds": 1039.62,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0269.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:20.799",
+    "start_seconds": 1040.799,
+    "spoken_evidence": "contact. We work with brands [music] to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:22.720",
+    "start_seconds": 1042.72,
+    "spoken_evidence": "identify these words. To book a consult,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:24.720",
+    "start_seconds": 1044.72,
+    "spoken_evidence": "hit the bottom of the description area",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:26.480",
+    "start_seconds": 1046.48,
+    "spoken_evidence": "under this video where we've posted a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:28.000",
+    "start_seconds": 1048.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0005.jpg — On-camera setup for one-to-three worldview-carrying phrases.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:28.400",
+    "start_seconds": 1048.4,
+    "spoken_evidence": "link you can use. So, coin one to three",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:29.050",
+    "start_seconds": 1049.05,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0273.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:30.640",
+    "start_seconds": 1050.64,
+    "spoken_evidence": "phrases that name something your people",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:33.039",
+    "start_seconds": 1053.039,
+    "spoken_evidence": "feel but could never quite put into",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:34.720",
+    "start_seconds": 1054.72,
+    "spoken_evidence": "words. Recently, mine are build a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:36.559",
+    "start_seconds": 1056.559,
+    "spoken_evidence": "church, not a trade school. But 15 years",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:38.320",
+    "start_seconds": 1058.32,
+    "spoken_evidence": "ago, I coined conversion copywriting,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:40.457",
+    "start_seconds": 1060.457,
+    "spoken_evidence": "[music] which gave a new sense of pride",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:40.680",
+    "start_seconds": 1060.68,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0276.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:42.160",
+    "start_seconds": 1062.16,
+    "spoken_evidence": "to direct response copywriters who had",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:44.240",
+    "start_seconds": 1064.24,
+    "spoken_evidence": "always felt second place to creative",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:46.240",
+    "start_seconds": 1066.24,
+    "spoken_evidence": "copywriters. Now, half the copywriters",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:48.640",
+    "start_seconds": 1068.64,
+    "spoken_evidence": "on LinkedIn call themselves conversion",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:50.400",
+    "start_seconds": 1070.4,
+    "spoken_evidence": "copywriters, and 10,000 of them have",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:52.480",
+    "start_seconds": 1072.48,
+    "spoken_evidence": "paid us to train them. Repeat your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:54.400",
+    "start_seconds": 1074.4,
+    "spoken_evidence": "phrases until people quote them back to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:56.799",
+    "start_seconds": 1076.799,
+    "spoken_evidence": "you. And when your own team groans that",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:17:57.030",
+    "start_seconds": 1077.03,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0279.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:58.960",
+    "start_seconds": 1078.96,
+    "spoken_evidence": "you say it too much, you're just",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:00.720",
+    "start_seconds": 1080.72,
+    "spoken_evidence": "starting to say it enough. Double down",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:02.640",
+    "start_seconds": 1082.64,
+    "spoken_evidence": "and rename a few ordinary things in your",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:04.880",
+    "start_seconds": 1084.88,
+    "spoken_evidence": "world because naming is claiming. Name",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:07.039",
+    "start_seconds": 1087.039,
+    "spoken_evidence": "it and you own it. Okay, so by now",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:18:08.050",
+    "start_seconds": 1088.05,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0282.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:18:09.000",
+    "start_seconds": 1089.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0006.jpg — Animated recap begins with 1 A Shiny New Lens.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:09.200",
+    "start_seconds": 1089.2,
+    "spoken_evidence": "you've built the lens, the enemy, the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:10.799",
+    "start_seconds": 1090.799,
+    "spoken_evidence": "symbols, the rituals, and the language.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:12.799",
+    "start_seconds": 1092.799,
+    "spoken_evidence": "Which means there's only one thing left",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:14.880",
+    "start_seconds": 1094.88,
+    "spoken_evidence": "and it's [music] the one everything so",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:16.720",
+    "start_seconds": 1096.72,
+    "spoken_evidence": "far has been building toward. The final",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:19.280",
+    "start_seconds": 1099.28,
+    "spoken_evidence": "secret of getting people to believe in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:21.440",
+    "start_seconds": 1101.44,
+    "spoken_evidence": "you is the profit. This is the one you",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:18:23.270",
+    "start_seconds": 1103.27,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0285.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:24.640",
+    "start_seconds": 1104.64,
+    "spoken_evidence": "never claim at the start. you earn it at",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:26.880",
+    "start_seconds": 1106.88,
+    "spoken_evidence": "the very top after everything else is",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:28.960",
+    "start_seconds": 1108.96,
+    "spoken_evidence": "already in place. You see the best",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:30.960",
+    "start_seconds": 1110.96,
+    "spoken_evidence": "version of that certainty in business.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:33.120",
+    "start_seconds": 1113.12,
+    "spoken_evidence": "So when Steve Jobs becomes Steve Jobs,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:35.760",
+    "start_seconds": 1115.76,
+    "spoken_evidence": "he wasn't the smartest person in the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:37.600",
+    "start_seconds": 1117.6,
+    "spoken_evidence": "room, but when he walked on stage, the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:39.919",
+    "start_seconds": 1119.919,
+    "spoken_evidence": "lens, the enemy, the symbols, the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:41.520",
+    "start_seconds": 1121.52,
+    "spoken_evidence": "rituals, the language were already in",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:18:42.910",
+    "start_seconds": 1122.91,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0289.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:43.440",
+    "start_seconds": 1123.44,
+    "spoken_evidence": "place and you [music] could feel the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:44.799",
+    "start_seconds": 1124.799,
+    "spoken_evidence": "crowd becoming a congregation around",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:47.120",
+    "start_seconds": 1127.12,
+    "spoken_evidence": "him. Warren Buffett did the same thing.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:18:49.210",
+    "start_seconds": 1129.21,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0292.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:49.360",
+    "start_seconds": 1129.36,
+    "spoken_evidence": "Most announcements for annual meetings",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:51.600",
+    "start_seconds": 1131.6,
+    "spoken_evidence": "go into the spam folder. But people fly",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:54.000",
+    "start_seconds": 1134.0,
+    "spoken_evidence": "in from all over the world for",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:55.760",
+    "start_seconds": 1135.76,
+    "spoken_evidence": "Birkshshire Hathway's annual meeting.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:18:57.840",
+    "start_seconds": 1137.84,
+    "spoken_evidence": "And check this out. Warren Buffett",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:00.000",
+    "start_seconds": 1140.0,
+    "spoken_evidence": "stepped down as CEO of Birkshshire",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:02.160",
+    "start_seconds": 1142.16,
+    "spoken_evidence": "Hathway. So 2026 was the first year he",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:19:02.560",
+    "start_seconds": 1142.56,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0295.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:04.960",
+    "start_seconds": 1144.96,
+    "spoken_evidence": "didn't run the annual meeting. Did it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:06.880",
+    "start_seconds": 1146.88,
+    "spoken_evidence": "affect it? It affected attendance. He's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:09.919",
+    "start_seconds": 1149.919,
+    "spoken_evidence": "such a prophet that without him,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:12.320",
+    "start_seconds": 1152.32,
+    "spoken_evidence": "attendance [music] was down almost 50%",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:14.880",
+    "start_seconds": 1154.88,
+    "spoken_evidence": "in 2026. There's research to back this",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:19:16.280",
+    "start_seconds": 1156.28,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0298.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:17.679",
+    "start_seconds": 1157.679,
+    "spoken_evidence": "up, too. A 2012 study on the confidence",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:19.919",
+    "start_seconds": 1159.919,
+    "spoken_evidence": "heristic found that people read",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:21.919",
+    "start_seconds": 1161.919,
+    "spoken_evidence": "confidence as competence even when the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:24.960",
+    "start_seconds": 1164.96,
+    "spoken_evidence": "confidence is not earned. When there's",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:26.640",
+    "start_seconds": 1166.64,
+    "spoken_evidence": "no proof yet, certainty is really the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:28.960",
+    "start_seconds": 1168.96,
+    "spoken_evidence": "only signal we have to go on as humans.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:31.520",
+    "start_seconds": 1171.52,
+    "spoken_evidence": "So conviction spreads and people mistake",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:33.919",
+    "start_seconds": 1173.919,
+    "spoken_evidence": "it for being right. We saw the dark",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:19:34.050",
+    "start_seconds": 1174.05,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0302.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:36.000",
+    "start_seconds": 1176.0,
+    "spoken_evidence": "version of this with David Caresh,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:37.600",
+    "start_seconds": 1177.6,
+    "spoken_evidence": "right? He was dead confident in his",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:39.360",
+    "start_seconds": 1179.36,
+    "spoken_evidence": "vision of the future. People do need",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:19:40.220",
+    "start_seconds": 1180.22,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0305.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:41.200",
+    "start_seconds": 1181.2,
+    "spoken_evidence": "this from leaders though. Few founders",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:43.360",
+    "start_seconds": 1183.36,
+    "spoken_evidence": "will stand behind their vision. They",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:45.520",
+    "start_seconds": 1185.52,
+    "spoken_evidence": "hedge. I think this might probably be",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:47.919",
+    "start_seconds": 1187.919,
+    "spoken_evidence": "the future. They sell the future as a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:49.919",
+    "start_seconds": 1189.919,
+    "spoken_evidence": "maybe. A prophet states the future like",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:52.240",
+    "start_seconds": 1192.24,
+    "spoken_evidence": "it's already here, but you only get to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:19:53.360",
+    "start_seconds": 1193.36,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0308.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:54.240",
+    "start_seconds": 1194.24,
+    "spoken_evidence": "do that after you've completed the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:55.679",
+    "start_seconds": 1195.679,
+    "spoken_evidence": "previous five steps. If you declare the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:57.679",
+    "start_seconds": 1197.679,
+    "spoken_evidence": "future on day one with nothing behind",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:19:59.440",
+    "start_seconds": 1199.44,
+    "spoken_evidence": "you, you're a dude with a cardboard sign",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:01.760",
+    "start_seconds": 1201.76,
+    "spoken_evidence": "on a busy street. So, pick the one thing",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:20:02.700",
+    "start_seconds": 1202.7,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0311.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:04.000",
+    "start_seconds": 1204.0,
+    "spoken_evidence": "about the future you actually believe.",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:05.600",
+    "start_seconds": 1205.6,
+    "spoken_evidence": "This is simply living in the future, and",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:07.360",
+    "start_seconds": 1207.36,
+    "spoken_evidence": "it's what all entrepreneurs and founders",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:09.280",
+    "start_seconds": 1209.28,
+    "spoken_evidence": "are supposed to do. Then, say it like",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:11.039",
+    "start_seconds": 1211.039,
+    "spoken_evidence": "it's already true. No hedging. Repeat it",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:13.679",
+    "start_seconds": 1213.679,
+    "spoken_evidence": "until your people can finish the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:15.360",
+    "start_seconds": 1215.36,
+    "spoken_evidence": "sentence for you. And shrink it down to",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:17.200",
+    "start_seconds": 1217.2,
+    "spoken_evidence": "a single line they can pass around,",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:19.200",
+    "start_seconds": 1219.2,
+    "spoken_evidence": "which loops us right back to [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:20.400",
+    "start_seconds": 1220.4,
+    "spoken_evidence": "language. Do that and you've got",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:20:20.800",
+    "start_seconds": 1220.8,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0315.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:22.160",
+    "start_seconds": 1222.16,
+    "spoken_evidence": "yourself a moat, but your moat is also",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:24.400",
+    "start_seconds": 1224.4,
+    "spoken_evidence": "filled with crocodiles. Those crocodiles",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:26.720",
+    "start_seconds": 1226.72,
+    "spoken_evidence": "are the community that pays you to stay",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:29.360",
+    "start_seconds": 1229.36,
+    "spoken_evidence": "involved and that recruits new believers",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:31.520",
+    "start_seconds": 1231.52,
+    "spoken_evidence": "for free. If you want me to actually",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:20:32.110",
+    "start_seconds": 1232.11,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0318.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:33.440",
+    "start_seconds": 1233.44,
+    "spoken_evidence": "coach you through building this, the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:35.039",
+    "start_seconds": 1235.039,
+    "spoken_evidence": "steps are waiting for you in the",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:20:36.000",
+    "start_seconds": 1236.0,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/cue_0007.jpg — Closing CTA overlay: LINK IN DESCRIPTION.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:36.320",
+    "start_seconds": 1236.32,
+    "spoken_evidence": "description below. Great brands build a",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:38.240",
+    "start_seconds": 1238.24,
+    "spoken_evidence": "church, not a trade school. For more",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_visual",
+    "timestamp": "00:20:39.360",
+    "start_seconds": 1239.36,
+    "spoken_evidence": null,
+    "visual_evidence": "extractions/video-context/Tnv9PuMo84E/frames/frame_0321.jpg — Scene-aware visual evidence; inspected in chronological contact sheets.",
+    "evidence_status": "VISUAL_FRAME_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:39.760",
+    "start_seconds": 1239.76,
+    "spoken_evidence": "about that, go watch my personal [music]",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:41.520",
+    "start_seconds": 1241.52,
+    "spoken_evidence": "branding video",
+    "visual_evidence": null,
+    "evidence_status": "TRANSCRIPT_BACKED"
+  }
+]
