@@ -2,11 +2,11 @@
   "slug": "mission-go",
   "chip": "MISSION · THREAD",
   "title": "LinkedIn cash-launch *mission*",
-  "dek": "The thinking behind the launch lives here; the launch moved on without closing it.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
   "lens": "claude",
   "sources": "0 sessions · 0 files · 0 assets",
-  "compiled": "aug 11, 2026",
+  "compiled": "aug 23, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,62 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread holds the cash-launch groundwork — fresh deep research, an adversarial wargame that returned a conditional go, a launch plan and an ICP card — plus the root-cause diagnosis of a failed profile-copy round. It has been idle since the listening engine took over.\n\nHandoff status is active. Last activity 11d ago.\n\nNext: Fold its outputs into the live campaign thread or park it, so the launch lives in one place."
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 deliverable finalized.\n\nHandoff status is active. Last activity 3d ago.\n\nNext: Resume the `go` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (go)._"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- Previous handoff on this thread: `.agent/handoffs/2026-07-21-go.md` — everything it lists as shipped is EXTEND-ONLY.\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
+          "command": "python3 execution/handoff_store.py resume go",
+          "touches": [
+            ".agent/handoffs/2026-07-28-go.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park go --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "go",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill go --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "go",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card\nSLUG: go\nSTATUS: active · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-go/mission-go-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-28-go.md\n\nRESUME HERE: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card\n\nSHIPPED IN WINDOW:\n  - 2026-08-20 · Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session f\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
     },
     {
       "kind": "stats",
@@ -24,11 +79,11 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "2",
+          "value": "1",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "13",
+          "value": "3",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -59,48 +114,14 @@
       "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
     },
     {
-      "kind": "decision",
-      "heading": "what needs *you*",
-      "kicker": "OPEN",
-      "dek": "Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.",
-      "items": [
-        {
-          "action": "Decide: resume or park",
-          "why": "Its outputs are being executed under a different thread while this one still reads as open, which makes the board show the same launch twice."
-        }
-      ]
-    },
-    {
-      "kind": "playbook",
-      "heading": "pick it back *up*",
-      "tag": "RUN THIS",
-      "plays": [
-        {
-          "title": "Resume here",
-          "intent": "LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card",
-          "command": "python3 execution/handoff_store.py resume go",
-          "touches": [
-            ".agent/handoffs/2026-07-28-go.md"
-          ],
-          "receipt": "The stored handoff prints with drift since it was written."
-        }
-      ]
-    },
-    {
       "kind": "timeline",
       "heading": "how it got *here*",
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-07-31",
+          "date": "2026-08-20",
           "title": "Finalized · go",
-          "body": "Angle Map Listening Engine v4: fused geo-brief + insight-brief into one scheduled daily listening engine — AUTOMATION_PROMPT v4.0 (Angle Map center, daily core + rotating deep focus, Apify-first tool ladder, compounding ",
-          "done": true
-        },
-        {
-          "date": "2026-07-29",
-          "title": "Finalized · go",
-          "body": "Diagnosed the profile-copy v3 FAIL to root cause (briefed from a ban list, not an architecture; reintroduced the confession-I spine that killed About v10-v14) and armed the spiral brake instead of writing rendition 4. Ve",
+          "body": "Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session filing both harnesses, nightly chain hardened, E2E verified)\nFour /go missions in one arc, all verdict-good or pending; every check sabotage-tested both directions; critical save: old nightly destroyed judged synthesis, restore-not-discard proven by md5 survival | Factual Groundin",
           "done": true
         }
       ]
@@ -126,7 +147,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Nearly every outcome attached here is still pending tracking, so none of the strategy has been checked against a result. The wargame verdict was conditional and whether its fixes were applied is unverified.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

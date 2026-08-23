@@ -5,8 +5,8 @@
   "dek": "Everything is written. The only thing missing is the part where a stranger reads it.",
   "window": "last 14 days",
   "lens": "codex",
-  "sources": "6 sessions · 0 files · 8 assets",
-  "compiled": "aug 21, 2026",
+  "sources": "6 sessions · 0 files · 3 assets",
+  "compiled": "aug 23, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 8 assets generated.\n\nHandoff status is active. Last activity today.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
+      "body": "This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.\n\nStage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 3 assets generated.\n\nHandoff status is active. Last activity 2d ago.\n\nNext: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.\n\nHandoff written 15d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -99,7 +99,7 @@
       "tag": "LAST 14 DAYS",
       "items": [
         {
-          "value": "8",
+          "value": "3",
           "label": "ASSETS GENERATED"
         },
         {
@@ -125,8 +125,6 @@
             0,
             0,
             0,
-            0,
-            0,
             1,
             0,
             0,
@@ -135,20 +133,22 @@
             2,
             2,
             0,
+            0,
+            1,
             0
           ],
-          "value": "5",
+          "value": "6",
           "unit": "total",
           "note": "per day"
         },
         {
           "label": "assets",
           "values": [
-            4,
             1,
             1,
             1,
-            1,
+            0,
+            0,
             0,
             0,
             0,
@@ -159,7 +159,7 @@
             0,
             0
           ],
-          "value": "8",
+          "value": "3",
           "unit": "made",
           "note": "per day"
         }
@@ -213,36 +213,9 @@
           "note": "aug 9, 2026"
         },
         {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html",
-          "note": "aug 8, 2026"
-        },
-        {
-          "title": "carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "role": "IMAGE",
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "thumb": "_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
-          "role": "AUDIO",
-          "path": "_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "carousel01-cover_recraft-v3_20260802-141930.png",
-          "role": "IMAGE",
-          "path": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
-          "thumb": "_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png",
-          "note": "aug 7, 2026"
-        },
-        {
-          "title": "zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
-          "role": "DOC",
-          "path": "deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html",
-          "note": "aug 7, 2026"
+          "title": "2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md",
+          "role": "SOLUTION",
+          "path": "docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md"
         }
       ]
     },

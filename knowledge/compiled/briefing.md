@@ -1,30 +1,30 @@
 # Knowledge Briefing
-*Generated: 2026-08-18 | 1147 sources | 3,650,434 words*
+*Generated: 2026-08-23 | 1150 sources | 3,652,525 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **log** (general) — 19,392 words — `knowledge/log.md`
+- **README** (general [dai-media]) — 131 words — `knowledge/lessons/README.md`
+- **log** (general) — 19,472 words — `knowledge/log.md`
+- **2026-08-21-sequel-video-personal-intelligence-layer** (content [kieran-flanagan]) — 258 words — `extractions/kieran-flanagan-second-brain/2026-08-21-sequel-video-personal-intelligence-layer.md`
+- **index** (content) — 7,247 words — `knowledge/index.md`
+- **2026-08-20-pulse** (strategy) — 1,577 words — `research_outputs/market-pulse/2026-08-20-pulse.md`
 - **ARCHITECTURE** (screenwriting) — 3,179 words — `extractions/andrew-sean-greer/ARCHITECTURE.md`
 - **BUILD-CHECKPOINT** (copywriting) — 364 words — `extractions/andrew-sean-greer/BUILD-CHECKPOINT.md`
 - **DEEP-EXTRACTION** (screenwriting) — 4,683 words — `extractions/andrew-sean-greer/DEEP-EXTRACTION.md`
 - **SOURCE-LEDGER** (content) — 1,457 words — `extractions/andrew-sean-greer/SOURCE-LEDGER.md`
 - **VALIDATION** (copywriting) — 452 words — `extractions/andrew-sean-greer/VALIDATION.md`
-- **VISION** (screenwriting) — 1,064 words — `extractions/andrew-sean-greer/VISION.md`
-- **uncertainty-report** (screenwriting) — 74 words — `extractions/video-context/0kkAl04_0og/uncertainty-report.md`
-- **video-context-ledger** (content) — 34,168 words — `extractions/video-context/0kkAl04_0og/video-context-ledger.md`
-- **2026-08-17-pulse** (strategy) — 1,268 words — `research_outputs/market-pulse/2026-08-17-pulse.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 364 | nathan-gotch |
+| content | 365 | nathan-gotch |
 | copywriting | 199 | jason-fladlien |
-| general | 123 | nick-saraev |
+| general | 124 | nick-saraev |
 | screenwriting | 122 | connelly |
-| strategy | 114 | april-dunford |
+| strategy | 115 | april-dunford |
 | brand | 66 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |

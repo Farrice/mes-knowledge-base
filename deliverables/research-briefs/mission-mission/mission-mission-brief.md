@@ -1,6 +1,6 @@
 # Created Josh's research-backed Eightward brand strategy…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: aug 21, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 2 sessions · 0 files · 0 assets · compiled: aug 23, 2026
 
 Delivered and waiting on him. Send one nudge and move on.
 
@@ -10,14 +10,14 @@ A full client brand and legal packet for Josh shipped four days ago — cultural
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 2 sessions.
 
-Handoff status is active. Last activity 4d ago.
+Handoff status is active. Last activity 6d ago.
 
 Next: Send Josh one short message asking whether he has booked the legal consult, and let the thread sit until he answers.
 
 ## the state, as the last session left it
 Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.
 
-Handoff written 49d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 51d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -58,7 +58,7 @@ RESUME HERE: Created Josh's research-backed Eightward brand strategy packet for 
 
 ## by the numbers
 - SESSIONS: **2** (codex)
-- DAYS ACTIVE: **9 d**
+- DAYS ACTIVE: **11 d**
 
 ## momentum
 
@@ -67,7 +67,7 @@ RESUME HERE: Created Josh's research-backed Eightward brand strategy packet for 
 
 
 ## what this thread made
-- **2026-08-07-mission-control.md** [GUIDE] `guides/2026-08-07-mission-control.md`
+- **2026-07-21-mission-card-refusal-net-masking.md** [SOLUTION] `docs/solutions/2026-07-21-mission-card-refusal-net-masking.md`
 
 ## how it got here
 - 2026-08-16 · **codex session** — [Research]: Free-First Mission - Built and Verified
@@ -89,5 +89,5 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 
 ## Context pack (agent feed)
 - `.agent/handoffs/2026-07-03-mission.md` — playbook · Resume here
-- `guides/2026-08-07-mission-control.md` — asset · GUIDE
+- `docs/solutions/2026-07-21-mission-card-refusal-net-masking.md` — asset · SOLUTION
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

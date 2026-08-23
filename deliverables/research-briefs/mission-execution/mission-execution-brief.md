@@ -1,6 +1,6 @@
-# Homebase 2.0 — Agentic OS Cockpit
+# Handoff — execution
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 21, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 23, 2026
 
 One good thing is buried in here. Dig it out and shut the lid.
 
@@ -17,9 +17,11 @@ Next: Pull the four-rung pricing ladder out of this thread and attach it to the 
 ## the state, as the last session left it
 Assessment: Three of four missions here were either killed or absorbed by the offer lock, which is a clean triage record rather than a failure. What remains valuable is the pricing ladder: an entry door, a two-thousand pilot, a full build, and a retainer. That ladder is the answer to the question every interested buyer will ask next, and it is currently filed under a thread whose title says nothing about it. The risk is not that this thread stalls; it is that its one good asset stays lost inside it.
 
-Shipped and pushed to main (commit 0bf552a5d): `board_theme.py` (one skin, all boards), cockpit at `/` (drag widgets, live clock, ring search), `/brain` (brain_graph.py, 1,293 curated nodes, fingerprint cache), `skill_deck_runner.py` + `run_skill` verb (index-only params, FORBIDDEN_RE, token-based session_lock — release bug found and fixed in verification), routines widget (29 plists, next-fire, health-joined). Proof: two live deck runs with measured cost ($0.90 sonnet, $0.22 haiku), refusal walls + lock contention + sabotage passes all verified in browser; nav self-test 9/9. Uncertain: browser-pane screenshots glitch on scrolled positions (capture artifact only — DOM verified); Farrice has not yet given his felt verdict on the cockpit.
+Moved: fixed stale hook-count rule (8→9, artifact-placement) in `execution/verify_codex_claude_parity.py` and `execution/worktree_lane.py`; sabotage-tested both directions; re-ran parity on 7 false-degraded lanes — all FULL POWER now; blessed platform hashes (constitution drift was an unblessed baseline, `constitution_compiler.py check` green); `sync_registries.py` landed andrew-sean-greer + jordan-crawford in AGENT_INDEX/SKILL_INDEX; all 5 orphaned assets re-check PROVEN. Committed + pushed as f8cf315ee.
+Uncertain: hook-count expectation is duplicated in two files with no single source — next hook bridge breaks both again.
+Latest proof: `python3 execution/verify_codex_claude_parity.py` → PASS; `worktree_lane.py list` → zero degraded lanes.
 
-Handoff written 0d ago — treat its plan as current.
+Handoff written 2d ago — treat its plan as current.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -34,7 +36,7 @@ The first option is the recommended one; the rest are the real alternatives with
 2. **Leave it as is and rely on memory to surface the ladder when a buyer asks** — Zero effort now, but the moment it matters is a live sales conversation, which is the worst possible time to be searching.
 
 ## resume · park · kill
-1. **Resume here** — Homebase 2.0 cockpit LIVE at 127.0.0.1:8765 — get Farrice's triad verdict, then v2 Google widgets + client reskin
+1. **Resume here** — Parity/menus green both harnesses (f8cf315ee); next: dedupe hook-count constant across the two verifiers
 ```
 python3 execution/handoff_store.py resume execution
 ```
@@ -54,19 +56,22 @@ python3 execution/pulse_actions.py kill execution --reason "<one line>"
 ## pick it up anywhere
 **CONTEXT PACK — paste into any session**
 ```
-THREAD: Homebase 2.0 — Agentic OS Cockpit
+THREAD: Handoff — execution
 SLUG: execution
 STATUS: active · STAGE: research
 BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md
 HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-21-execution.md
 
-RESUME HERE: Homebase 2.0 cockpit LIVE at 127.0.0.1:8765 — get Farrice's triad verdict, then v2 Google widgets + client reskin
+RESUME HERE: Parity/menus green both harnesses (f8cf315ee); next: dedupe hook-count constant across the two verifiers
 
 (assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
 ```
 
 ## lifecycle
 
+
+## what this thread made
+- **2026-08-21-handoff-execution.md** [GUIDE] `guides/2026-08-21-handoff-execution.md`
 
 ## the record
 - **Build an Apify scrape-creators social-listening integration for the Antigravity system usi** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: Riley Brown OS /scrape-creator /ad-spy (missions.jsonl · done)
@@ -86,4 +91,5 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 
 ## Context pack (agent feed)
 - `.agent/handoffs/2026-08-21-execution.md` — playbook · Resume here
+- `guides/2026-08-21-handoff-execution.md` — asset · GUIDE
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

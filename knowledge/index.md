@@ -1,9 +1,9 @@
 # Knowledge Index
-*1147 sources | 3,650,434 words | Updated: 2026-08-18*
+*1150 sources | 3,652,525 words | Updated: 2026-08-23*
 
 ---
 
-## Content (364 files)
+## Content (365 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [video-context-ledger](../extractions/video-context/GlTA4wXSACE/video-context-ledger.md) — 63,877 words
@@ -23,7 +23,7 @@
 - [visual-context](../extractions/brad-bonanno-edit-bay/visual-context.md) — 8,349 words
 - [visual-context](../extractions/meg-heckman/video-context-iFvHwZBIwoA/visual-context.md) — 8,135 words
 - [extraction-report](../extractions/cody-schneider-signal-outbound/extraction-report.md) — 7,487 words
-- [index](index.md) — 7,202 words
+- [index](index.md) — 7,247 words
 - [visual-context](../extractions/eddy-ballesteros/visual-context.md) — 6,808 words
 - [weatherbot-extraction](../extractions/prediction-market-trading/weatherbot-extraction.md) — 6,774 words
 - [visual-context](../extractions/customer-lang-research/visual-context.md) — 6,760 words
@@ -317,6 +317,7 @@
 - [blind-pass-specimen-closed-lost-post](../extractions/matthew-lakajev-linkedin/blind-pass-specimen-closed-lost-post.md) — 268 words
 - [future-ingestion-route](../extractions/nathan-gotch-search-content-mastery/future-ingestion-route.md) [nathan-gotch] — 268 words
 - [kittl_video_nodes](../extractions/creative-direction/kittl_video_nodes.md) — 266 words (stale)
+- [2026-08-21-sequel-video-personal-intelligence-layer](../extractions/kieran-flanagan-second-brain/2026-08-21-sequel-video-personal-intelligence-layer.md) [kieran-flanagan] — 258 words
 - [HLT-01-owner-output-contract-scope](../extractions/video-context/GlTA4wXSACE/a-tier-reference-corpus/regressions/HLT-01-owner-output-contract-scope.md) [kieran-flanagan] — 250 words
 - [uncertainty-report](../extractions/anne-lamott-neal-allen-really-real/uncertainty-report.md) — 247 words
 - [cinematic-language](../extractions/creative-direction/cinematic-language.md) — 246 words (stale)
@@ -572,7 +573,7 @@
 - [candidate-02-phone-attention](../extractions/david-perell-writing/blind-pass-generated/candidate-02-phone-attention.md) — 30 words
 - [candidate-01-decision-reasons](../extractions/david-perell-writing/blind-pass-generated/candidate-01-decision-reasons.md) — 29 words
 
-## General (123 files)
+## General (124 files)
 
 - [Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average](extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md) — 64,760 words (stale)
 - [Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2](extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md) — 62,412 words (stale)
@@ -589,7 +590,7 @@
 - [video-context-ledger](../extractions/video-context/B90eANIJ2XI/video-context-ledger.md) — 31,692 words
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
-- [log](log.md) — 19,392 words
+- [log](log.md) — 19,472 words
 - [video-context-ledger](../extractions/video-context/H_TvNSNbRiU/video-context-ledger.md) [jason-fladlien] — 16,634 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
 - [video-context-ledger](../extractions/video-context/jbPNjNtQqk0/video-context-ledger.md) — 13,566 words
@@ -677,6 +678,7 @@
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_mehra_clinic/OPPORTUNITIES.md) [dai-media] — 167 words
 - [visual-ledger](../extractions/video-context/53h_-LoEGiw/visual-ledger.md) — 152 words
 - [ocr-notes](../extractions/video-context/jbPNjNtQqk0/ocr-notes.md) — 139 words
+- [README](lessons/README.md) [dai-media] — 131 words
 - [blind-pass-log](../extractions/benoit-vatere/blind-pass-log.md) — 128 words
 - [2026-08-06-oracle-slip-clv-sparkline](thought-bank/2026-08-06-oracle-slip-clv-sparkline.md) — 111 words
 - [blind-pass-log](../extractions/paolo-trivellato-lead-magnet-engine/blind-pass-log.md) — 105 words
@@ -823,7 +825,7 @@
 - [frame-notes](../extractions/video-context/ooGeFK70d5U/frame-notes.md) — 18 words
 - [ocr-notes](../extractions/video-context/ooGeFK70d5U/ocr-notes.md) — 18 words
 
-## Strategy (114 files)
+## Strategy (115 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -864,6 +866,7 @@
 - [weather-trading-extraction](../extractions/prediction-market-trading/weather-trading-extraction.md) [dai-media] — 1,678 words (stale)
 - [2026-08-06-pulse](../research_outputs/market-pulse/2026-08-06-pulse.md) — 1,652 words
 - [2026-07-19-shadow-markets-pain-signal-verification](../research_outputs/2026-07-19-shadow-markets-pain-signal-verification.md) — 1,644 words
+- [2026-08-20-pulse](../research_outputs/market-pulse/2026-08-20-pulse.md) — 1,577 words
 - [2026-07-16-pressure-test-whether-farrice-cain-should-pivot](assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md) [april-dunford] — 1,565 words
 - [vision](../extractions/jordan-crawford-gtm-intelligence/vision.md) — 1,560 words
 - [sober-daytime-event-marketing-corpus](../extractions/grounding/sober-daytime-event-marketing-corpus.md) — 1,555 words

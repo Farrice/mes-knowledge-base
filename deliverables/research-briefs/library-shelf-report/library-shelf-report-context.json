@@ -1,7 +1,7 @@
 {
   "slug": "library-shelf-report",
   "title": "the shelf report",
-  "compiled": "aug 20, 2026",
+  "compiled": "aug 23, 2026",
   "generated_by": "execution/render_brief.py",
   "path_policy": {
     "canonical_field": "path",
@@ -13,21 +13,21 @@
   "brief_md": "deliverables/research-briefs/library-shelf-report/library-shelf-report-brief.md",
   "paths": [
     {
-      "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html",
-      "role": "related · THREAD"
-    },
-    {
       "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",
       "scope": "repo",
       "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html",
       "role": "related · THREAD"
     },
     {
-      "path": "deliverables/research-briefs/mission-go/mission-go-brief.html",
+      "path": "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-go/mission-go-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-harness/mission-harness-brief.html",
+      "role": "related · THREAD"
+    },
+    {
+      "path": "deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html",
+      "scope": "repo",
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html",
       "role": "related · THREAD"
     },
     {
@@ -43,16 +43,16 @@
       "role": "related · THREAD"
     },
     {
-      "path": "guides/2026-08-06-readout-os.md",
+      "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-06-readout-os.md",
-      "role": "related · GUIDE"
+      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.html",
+      "role": "related · THREAD"
     },
     {
-      "path": "guides/2026-08-20-.md",
+      "path": "knowledge/log.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-20-.md",
-      "role": "related · GUIDE"
+      "abs": "/Users/farricecain/Google Antigravity/knowledge/log.md",
+      "role": "related · KNOWLEDGE"
     },
     {
       "path": "guides/INDEX.md",
@@ -61,28 +61,10 @@
       "role": "related · GUIDE"
     },
     {
-      "path": "guides/2026-08-20-harness-opus5-diagnosis.md",
+      "path": "guides/2026-08-21-guides-empty-slug-fix.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-20-harness-opus5-diagnosis.md",
+      "abs": "/Users/farricecain/Google Antigravity/guides/2026-08-21-guides-empty-slug-fix.md",
       "role": "related · GUIDE"
-    },
-    {
-      "path": "knowledge/compiled",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/knowledge/compiled",
-      "role": "related · KNOWLEDGE"
-    },
-    {
-      "path": "knowledge/index.md",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/knowledge/index.md",
-      "role": "related · KNOWLEDGE"
-    },
-    {
-      "path": "knowledge/log.md",
-      "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/knowledge/log.md",
-      "role": "related · KNOWLEDGE"
     }
   ],
   "urls": []

@@ -1,6 +1,6 @@
 # For Farrice as a solo operator who needs collected cash…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 21, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 0 sessions · 0 files · 0 assets · compiled: aug 23, 2026
 
 You are running two offers and no distribution. Kill one this week.
 
@@ -10,14 +10,14 @@ This thread reaches the opposite conclusion from the sprint — it says park the
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.
 
-Handoff status is active. Last activity 9d ago.
+Handoff status is active. Last activity 11d ago.
 
 Next: Pick one offer as the only thing you sell for the next thirty days and write the other one off the board today.
 
 ## the state, as the last session left it
 Assessment: The reasoning is serious: it grounds itself in current marketplace evidence and argues from your actual constraints, that you need money soon, have no audience, and are strongest at building agent workflows rather than selling performance creative. That is a fair read of your position. But it directly contradicts the locked sprint. Two offers cannot both be the priority when there is one operator and no audience. Right now you are effectively hedging, and hedging with zero distribution means neither offer gets the repetition that makes it work. This has to be decided, not held.
 
-Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -31,7 +31,7 @@ The first option is the recommended one; the rest are the real alternatives with
 1. **Hold the claim-safe content sprint and shelve the workflow pilot for thirty days** — Recommended. The content offer has a council behind it, written posts, a contact kit, and named target brands — the workflow pilot has a verdict and nothing else. Costs you a well-argued alternative that plays closer to your actual strengths.
 2. **Switch to the workflow pilot and rebuild the sales assets around it** — Plays to what you are genuinely best at and sells to firms who feel the pain daily, but it discards weeks of positioning work and restarts the asset build from nothing.
 3. **Run both, with content posts feeding either conversation** — Feels efficient and is the trap — split messaging with no audience means neither offer becomes legible to anyone.
-4. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+4. **Decide: resume, park, or kill** — No recorded activity in 11 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — For Farrice as a solo operator who needs collected cash soon, has zero audience, has not managed paid-media budgets, is less confident selling performance creative, and is strongest at AI and agentic workflow design: PARK the Angle Map as the primary offer. LOCK a paid, bounded One-Workflow AI Pilot for small professional-service firms. Start by mapping one repeated document-heavy process with the owner and operator, establish its current time and error baseline, then build one human-reviewed working workflow in tools the client already uses, document it, train the owner, and measure the before-and-after result. Scope is one workflow, one team, two core integrations, and a fixed pilot window. Exclude paid media, custom apps, enterprise transformation, sensitive regulated deployments, ongoing IT support, and multi-department automation. The first sale validates the offer; the existing internal system proves method and judgment but not client ROI.
@@ -71,7 +71,7 @@ SHIPPED IN WINDOW:
 
 ## by the numbers
 - DELIVERABLES FINALIZED: **2**
-- DAYS ACTIVE: **9 d**
+- DAYS ACTIVE: **11 d**
 
 ## lifecycle
 

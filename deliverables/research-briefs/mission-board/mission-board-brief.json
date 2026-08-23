@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "234 sessions swept",
-  "compiled": "aug 21, 2026",
+  "sources": "198 sessions swept",
+  "compiled": "aug 23, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,19 +28,19 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "21",
+          "value": "17",
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "37",
+          "value": "39",
           "label": "FILES WRITTEN"
         },
         {
-          "value": "170",
+          "value": "13",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "234",
+          "value": "198",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -54,10 +54,8 @@
           "values": [
             0,
             0,
-            0,
-            0,
-            0,
-            4,
+            1,
+            5,
             0,
             0,
             0,
@@ -65,40 +63,21 @@
             2,
             3,
             0,
-            0
-          ],
-          "value": "10",
-          "note": "per day"
-        },
-        {
-          "label": "files written",
-          "values": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            4,
             0,
             1,
-            5,
-            0,
-            0,
-            0,
             0
           ],
-          "value": "10",
+          "value": "13",
           "note": "per day"
         },
         {
           "label": "assets",
           "values": [
-            6,
             1,
             1,
             1,
-            1,
+            0,
+            0,
             0,
             0,
             0,
@@ -109,7 +88,7 @@
             0,
             0
           ],
-          "value": "10",
+          "value": "3",
           "note": "per day"
         }
       ],
@@ -123,7 +102,19 @@
         {
           "label": "linkedin",
           "values": [
-            8
+            3
+          ]
+        },
+        {
+          "label": "go",
+          "values": [
+            3
+          ]
+        },
+        {
+          "label": "codex end session control plane",
+          "values": [
+            3
           ]
         },
         {
@@ -143,24 +134,6 @@
           "values": [
             9
           ]
-        },
-        {
-          "label": "harness",
-          "values": [
-            2
-          ]
-        },
-        {
-          "label": "geo content",
-          "values": [
-            6
-          ]
-        },
-        {
-          "label": "health performance ip library",
-          "values": [
-            4
-          ]
         }
       ]
     },
@@ -175,6 +148,11 @@
           "path": "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html"
         },
         {
+          "k": "ACTIVE",
+          "title": "go",
+          "path": "deliverables/research-briefs/mission-go/mission-go-brief.html"
+        },
+        {
           "k": "READY",
           "title": "extract forge",
           "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
@@ -183,6 +161,11 @@
           "k": "ACTIVE",
           "title": "mission",
           "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
+        },
+        {
+          "k": "READY",
+          "title": "codex end session control plane",
+          "path": "deliverables/research-briefs/mission-codex-end-session-control-plane/mission-codex-end-session-control-plane-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -215,16 +198,6 @@
           "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
         },
         {
-          "k": "READY",
-          "title": "geo content",
-          "path": "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "health performance ip library",
-          "path": "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html"
-        },
-        {
           "k": "ACTIVE",
           "title": "writers room",
           "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
@@ -240,18 +213,6 @@
           "date": "2026-08-21",
           "title": "homebase-cockpit",
           "body": "Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck ",
-          "done": true
-        },
-        {
-          "date": "2026-08-20",
-          "title": "go",
-          "body": "Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session f",
-          "done": true
-        },
-        {
-          "date": "2026-08-13",
-          "title": "end-session",
-          "body": "Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han",
           "done": true
         },
         {
@@ -301,12 +262,6 @@
           "title": "zero-data-discovery",
           "body": "Fresh market-truth verdict on in-demand creative strategist offers, assets, and deliverables, explicitly excluding current locked offers as evidence",
           "done": true
-        },
-        {
-          "date": "2026-08-09",
-          "title": "quick-concept-application",
-          "body": "Five radically divergent surreal poster concept directions about time, spanning typographic minimalism, cinematic simultaneity, bureaucratic satire, mythic bota",
-          "done": true
         }
       ]
     },
@@ -314,7 +269,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n208 more threads cleared the bar but sit below the 12-card ceiling and were not carded: go, codex end session control plane, video studio edit bay, quick concept application, farrice brand, clients, readout os, god agent offer, teardown 1 fresh, create, deliverables, guides.\n\n219 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n208 more threads cleared the bar but sit below the 12-card ceiling and were not carded: readout os, geo content, deliverables, guides, teardown 1 fresh, global org sweep, health performance ip library, god agent offer, dunford handshake haynes, godin marketing mind, codex parity, novelty campaign.\n\n237 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

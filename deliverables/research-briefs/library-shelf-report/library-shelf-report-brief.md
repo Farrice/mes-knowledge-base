@@ -1,50 +1,48 @@
 # the shelf report
 
-> LIBRARY · WEEKLY · window: last 7 days · lens: librarian · sources: 1002 catalog rows · compiled: aug 20, 2026
+> LIBRARY · WEEKLY · window: last 7 days · lens: librarian · sources: 1012 catalog rows · compiled: aug 23, 2026
 
-Two resumes worth taking: Jen's voice-lock reels and the About rebuild — both are nearly done, not nearly started.
+Pull the wargamed launch thread and the buyer-grounded profile takes forward together, since one sells what the other proves; let the realtor and production-playbook material sleep until there is a client paying for that motion.
 
 ## the state of the estate
 _SHELF REPORT_
-The estate's dormant-merit shelf is small and honest: two items genuinely worth resuming — both one session from shipping — and three that already delivered their value and can sleep.
+Two of the five rows sit directly on the cash lane and should wake up now; the other three are craft worth keeping, not work worth doing.
 
 ## the estate
-- ITEMS CATALOGED: **1002**
-- NEW THIS WEEK: **55**
-- WORTH RESUMING: **5**
+- ITEMS CATALOGED: **1012**
+- NEW THIS WEEK: **57**
+- WORTH RESUMING: **13**
 - KILL DECISIONS WAITING: **0**
 
 ## worth resuming
-- [THREAD] Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken= — deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html
 - [THREAD] LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three  — deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html
-- [THREAD] LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wa — deliverables/research-briefs/mission-go/mission-go-brief.html
+- [THREAD] Harness — Cockpit — deliverables/research-briefs/mission-harness/mission-harness-brief.html
+- [THREAD] Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken= — deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html
 - [THREAD] Willis Approved Three-Reel Closeout — deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html
 - [THREAD] Added complete production playbook and morning content brief layer to the content-team OS  — deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html
+- [THREAD] Panel Session — Pressure-test whether Farrice Cain should pivot his LinkedIn positioning t — 
 
 ## entered this week
-- [THREAD] operator cockpit v2 — 
-- [GUIDE] date: 2026-08-06 — guides/2026-08-06-readout-os.md
-- [GUIDE] date: 2026-08-20 — guides/2026-08-20-.md
-- [GUIDE] Operator Guide Library — Master Index — guides/INDEX.md
-- [GUIDE] date: 2026-08-20 — guides/2026-08-20-harness-opus5-diagnosis.md
-- [KNOWLEDGE] Knowledge Briefing — knowledge/compiled
-- [KNOWLEDGE] Knowledge Index — knowledge/index.md
+- [THREAD] Execution — Worktree Lane — deliverables/research-briefs/mission-execution/mission-execution-brief.html
+- [THREAD] Scratchpad — Probe — 
 - [KNOWLEDGE] Knowledge Log — knowledge/log.md
+- [GUIDE] Operator Guide Library — Master Index — guides/INDEX.md
+- [GUIDE] date: 2026-08-21 — guides/2026-08-21-guides-empty-slug-fix.md
+- [THREAD] system session hygiene preserve then archive — 
+- [THREAD] improve chat archive hygiene — 
+- [THREAD] library shelf report — 
 
 ## what this isn't
 _EDGES_
-Calls rest on catalog metadata and mission outcomes, not a fresh read of each artifact; a resume session should skim the latest state before building.
+Every row shows zero sessions, deliverables, and commits despite live status flags, so merit here is judged from titles and pinning rather than from movement — the counters may simply be blind to this work.
 
 ## Context pack (agent feed)
-- `deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html` — related · THREAD
 - `deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html` — related · THREAD
-- `deliverables/research-briefs/mission-go/mission-go-brief.html` — related · THREAD
+- `deliverables/research-briefs/mission-harness/mission-harness-brief.html` — related · THREAD
+- `deliverables/research-briefs/mission-listing-hook-set-v2/mission-listing-hook-set-v2-brief.html` — related · THREAD
 - `deliverables/research-briefs/mission-01-listing-content/mission-01-listing-content-brief.html` — related · THREAD
 - `deliverables/research-briefs/mission-04-briefs/mission-04-briefs-brief.html` — related · THREAD
-- `guides/2026-08-06-readout-os.md` — related · GUIDE
-- `guides/2026-08-20-.md` — related · GUIDE
-- `guides/INDEX.md` — related · GUIDE
-- `guides/2026-08-20-harness-opus5-diagnosis.md` — related · GUIDE
-- `knowledge/compiled` — related · KNOWLEDGE
-- `knowledge/index.md` — related · KNOWLEDGE
+- `deliverables/research-briefs/mission-execution/mission-execution-brief.html` — related · THREAD
 - `knowledge/log.md` — related · KNOWLEDGE
+- `guides/INDEX.md` — related · GUIDE
+- `guides/2026-08-21-guides-empty-slug-fix.md` — related · GUIDE

@@ -1,6 +1,6 @@
 # LinkedIn About rebuild
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 21, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 23, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
@@ -15,7 +15,7 @@ Next: Resume the `writers-room` work-stream — see the deliverable above.
 _Auto-pinned by chain_runner.finalize (writers-room)._
 
 ## the state, as the last session left it
-Handoff written 24d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -59,6 +59,9 @@ RESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first archi
 ## lifecycle
 
 
+## what this thread made
+- **2026-07-28-writers-room-pen-protocol.md** [SOLUTION] `docs/solutions/2026-07-28-writers-room-pen-protocol.md`
+
 ## the record
 - **Platform Narrative Temperature layer (research->card->wire) + writers-room pass on v2 + I-** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: Platform Narrative Card + /platform-pulse (missions.jsonl · done)
 - **Platform Narrative Temperature layer + writers-room pass + I-arc fold** [VERIFIED] — PLATFORM-NARRATIVE-CARD v1.0 live + wired into wf12; I-arc now structural (wf12 Phase 2.5 + prompt + treatment); writers-room: ship-with-patches, 4 proposed for felt verdict (missions.jsonl · done)
@@ -75,4 +78,5 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 
 ## Context pack (agent feed)
 - `.agent/handoffs/2026-07-28-writers-room.md` — playbook · Resume here
+- `docs/solutions/2026-07-28-writers-room-pen-protocol.md` — asset · SOLUTION
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

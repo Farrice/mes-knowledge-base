@@ -1,6 +1,6 @@
 # 2026-08-12 Angle Map Listening Brief with flagship post…
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 21, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 23, 2026
 
 The pipe works, the tap is stuck. One session unsticks it.
 
@@ -10,14 +10,14 @@ The listening engine works — live sources, real teardown output, effectively f
 
 Stage: shipped — a deliverable was finalized. In the last 14 days: 1 session, 1 deliverable finalized.
 
-Handoff status is active. Last activity 9d ago.
+Handoff status is active. Last activity 11d ago.
 
 Next: Take the last failed brief, fix by hand whichever section the gate rejected, and use that repaired version as the pattern the engine must match.
 
 ## the state, as the last session left it
 Assessment: This is the closest thing you have to a repeatable content input, and it is cheap enough to run daily. The pipeline is proven end to end. What is broken is the last mile: the structured brief did not pass its content gate even after one revision, which means the machine produces raw material rather than something ready to publish. That is a fixable problem, and fixing it converts this from a curiosity into the daily feed for the whole content offer. Left broken, it is a scheduled job producing output nobody uses.
 
-Handoff written 9d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -31,7 +31,7 @@ The first option is the recommended one; the rest are the real alternatives with
 1. **Repair the failing section by hand once, then teach the gate from that example** — Recommended. Turns a blocked pipeline into a working daily feed for the sprint's content. Costs one focused session.
 2. **Lower the gate and publish briefs as raw research input rather than finished work** — Unblocks the flow immediately and the material is real, but it puts unpolished output in front of the same brands you are trying to impress.
 3. **Pause the scheduled run until the sprint has paying work to feed** — Stops producing output nobody reads, but loses the accumulating source record that makes later teardowns fast.
-4. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+4. **Decide: resume, park, or kill** — No recorded activity in 11 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — 2026-08-12 Angle Map Listening Brief with flagship post and promises-not-kept teardown
@@ -71,7 +71,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **9 d**
+- DAYS ACTIVE: **11 d**
 
 ## momentum
 

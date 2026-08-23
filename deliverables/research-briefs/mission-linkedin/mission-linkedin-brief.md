@@ -1,6 +1,6 @@
 # Linkedin — Execution Checklist
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 8 assets · compiled: aug 21, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 6 sessions · 0 files · 3 assets · compiled: aug 23, 2026
 
 Everything is written. The only thing missing is the part where a stranger reads it.
 
@@ -8,16 +8,16 @@ Everything is written. The only thing missing is the part where a stranger reads
 _CURRENT POSITION_
 This thread is the sprint's engine and it has quietly stopped producing new mouth-to-market motion — every mission on the board is marked done, the assets exist, and nothing in the record shows a post going live or a reply coming back.
 
-Stage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 8 assets generated.
+Stage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 3 assets generated.
 
-Handoff status is active. Last activity today.
+Handoff status is active. Last activity 2d ago.
 
 Next: Post the strongest already-written launch piece today, unedited, and send the accompanying direct message to one named brand before you touch anything else.
 
 ## the state, as the last session left it
 Assessment: Momentum here is real but it is all upstream: offer locked, posts written, profile package executed, feedback banked. The record carries verdicts of good from him on the About takes and on the launch posts. What it does not carry is a single line about publishing, a reader, or an inbound reply. That gap is the whole risk. The sprint needs collected money from claim-safe content work, and this is the only thread that touches buyers directly, so every day it sits in build stage is a day the rest of the portfolio is polishing a shopfront nobody has walked past.
 
-Handoff written 13d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 15d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
@@ -58,7 +58,7 @@ RESUME HERE: Linkedin — Execution Checklist
 ```
 
 ## by the numbers
-- ASSETS GENERATED: **8**
+- ASSETS GENERATED: **3**
 - SESSIONS: **6** (codex)
 - DAYS ACTIVE: **13 d**
 
@@ -72,11 +72,7 @@ RESUME HERE: Linkedin — Execution Checklist
 - **zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html** [DOC] `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-11/zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html` — aug 11, 2026
 - **zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html** [DOC] `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html` — aug 10, 2026
 - **zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html** [DOC] `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-09/zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html` — aug 9, 2026
-- **zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html** [DOC] `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html` — aug 8, 2026
-- **carousel01-cover-clean_recraft-v3_20260802-143432.png** [IMAGE] `_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png` — aug 7, 2026
-- **carousel01-slide1-vo_minimax-speech_20260802-141945.mp3** [AUDIO] `_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3` — aug 7, 2026
-- **carousel01-cover_recraft-v3_20260802-141930.png** [IMAGE] `_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png` — aug 7, 2026
-- **zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html** [DOC] `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html` — aug 7, 2026
+- **2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md** [SOLUTION] `docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md`
 
 ## how it got here
 - 2026-08-21 · **codex session** — Revenue: LinkedIn PMF Signal Lane - Built and Verified
@@ -110,9 +106,5 @@ Session ledgers keep only the last 10 files per session and are pruned at 7 days
 - `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-11/zeitgeist-ai-consulting-linkedin-2026-08-11-brief.html` — asset · DOC
 - `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-10/zeitgeist-ai-consulting-linkedin-2026-08-10-brief.html` — asset · DOC
 - `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-09/zeitgeist-ai-consulting-linkedin-2026-08-09-brief.html` — asset · DOC
-- `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-08/zeitgeist-ai-consulting-linkedin-2026-08-08-brief.html` — asset · DOC
-- `_active/linkedin/05-assets/generated/carousel01-cover-clean_recraft-v3_20260802-143432.png` — asset · IMAGE
-- `_active/linkedin/05-assets/generated/carousel01-slide1-vo_minimax-speech_20260802-141945.mp3` — asset · AUDIO
-- `_active/linkedin/05-assets/generated/carousel01-cover_recraft-v3_20260802-141930.png` — asset · IMAGE
-- `deliverables/research-briefs/zeitgeist-ai-consulting-linkedin-2026-08-07/zeitgeist-ai-consulting-linkedin-2026-08-07-brief.html` — asset · DOC
+- `docs/solutions/2026-07-21-linkedin-authwall-corpus-via-public-post-permalinks.md` — asset · SOLUTION
 - `deliverables/research-briefs/mission-board/mission-board-brief.html` — related · BOARD

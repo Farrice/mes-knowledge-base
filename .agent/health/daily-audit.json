@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T03:00:00.265341",
+  "timestamp": "2026-08-23T07:59:21.072430",
   "projects_index": {
     "exit": 0,
     "out": "Wrote PROJECTS.md (15 projects, 4 drift items)"
@@ -10,10 +10,8 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 8,
+    "findings": 6,
     "ids": [
-      "platform_drift",
-      "dead_hooks",
       "dead_launchd",
       "stale_feeds",
       "wiring_orphans",
@@ -28,8 +26,8 @@
   "wiring_drain": {
     "audited": 150,
     "new": 8,
-    "coverage": "3816/3816",
-    "orphans_total": 16,
+    "coverage": "3824/3824",
+    "orphans_total": 11,
     "flips": [],
     "orphans_sample": [
       "execution:ai_misfire_sprint_guard.py",
