@@ -33,6 +33,14 @@ RAW_INTENT_SKILL_LINK_PROMPT = (
     "[$raw-intent-bridge](/Users/farricecain/.codex/skills/raw-intent-bridge/SKILL.md) "
     "Josh has copyright issues and needs brand identity clarity for Lindy Hop apparel."
 )
+AMBIENT_BROWSER_CONTENT_PROMPT = """<in-app-browser-context source="ambient-ui-state">
+This block is automatically supplied ambient UI state, not part of the user's request.
+- Current URL: file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/content-authority-upgrade/final/linkedin-article.html
+</in-app-browser-context>
+
+## My request:
+Why are we using purple? Use steel blue, a gray canvas, modern type, and stronger LinkedIn article imagery.
+"""
 WIRING_PROMPT = (
     "Can you do a full audit or check and repair on things that are not wired "
     "or should not be wired together and are the default settings? I feel like "
@@ -301,6 +309,16 @@ def check_prompt_hook() -> list[str]:
     if "CONTROL ROUTING OVERRIDE" in raw_intent_context:
         fail(f"explicit skill-link content prompt should not be control-overridden: {raw_intent_context}")
     receipts.append("explicit skill-link content prompt does not emit /system-audit override")
+
+    ambient_content_context = hook_context(AMBIENT_BROWSER_CONTENT_PROMPT)
+    if "CONTROL ROUTING" in ambient_content_context:
+        fail(
+            "app-supplied browser metadata must not control-override creative feedback: "
+            f"{ambient_content_context}"
+        )
+    if "ROUTING SUGGESTION" not in ambient_content_context:
+        fail("ambient-wrapped creative feedback should still receive normal expert routing")
+    receipts.append("ambient browser metadata is ignored while creative feedback routes normally")
 
     context_note = hook_context(CONTEXT_NOTE_PROMPT)
     if context_note:

@@ -254,6 +254,23 @@ def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value.lower()).strip()
 
 
+def strip_ambient_context_artifacts(value: str) -> str:
+    """Remove app-supplied browser state before classifying user intent.
+
+    Codex desktop prepends a reserved ``<in-app-browser-context>`` block whose
+    local preview URL can contain control words such as ``codex-worktrees``.
+    That metadata is explicitly not part of the user's request, so allowing it
+    into term matching creates false /system-audit overrides on normal feedback.
+    """
+
+    return re.sub(
+        r"<in-app-browser-context\b[^>]*>.*?</in-app-browser-context>",
+        " ",
+        value,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+
+
 def strip_explicit_invocation_artifacts(value: str) -> str:
     """Remove explicit skill/link invocation plumbing before control matching.
 
@@ -358,7 +375,9 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     evidence should route to /system-audit and suppress expert suggestions.
     """
 
-    q = normalize(strip_explicit_invocation_artifacts(prompt))
+    q = normalize(
+        strip_explicit_invocation_artifacts(strip_ambient_context_artifacts(prompt))
+    )
     global_access = classify_global_access_intent(q)
     if global_access["matched"]:
         return {

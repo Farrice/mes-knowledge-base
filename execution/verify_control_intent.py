@@ -24,6 +24,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from control_intent import classify_control_intent  # noqa: E402
 from routing_enforcer import match_bindings  # noqa: E402
 
+# App-supplied browser state is useful context for the model, but it is not user
+# intent. In particular, local preview URLs contain ``codex-worktrees`` and must
+# never become control-plane evidence.
+AMBIENT_BROWSER_CONTEXT = """<in-app-browser-context source="ambient-ui-state">
+This block is automatically supplied ambient UI state, not part of the user's request.
+# In app browser:
+- Current URL: file:///Users/farricecain/Google%20Antigravity/.tmp/codex-worktrees/content-authority-upgrade/final/linkedin-article.html
+</in-app-browser-context>
+
+## My request:
+"""
+
 # (prompt, expected_route) — expected_route "" means "must NOT fire".
 GOLDEN: list[tuple[str, str]] = [
     # ---- Must NOT fire: content / client / deliverable work ----
@@ -59,6 +71,21 @@ GOLDEN: list[tuple[str, str]] = [
     ("Use the source-to-skill system and show what changed. Do not promote it.", ""),
     ("Run the health check and show what is working; do not repair anything.", ""),
     ("Show what changed in this result, but do not promote it yet.", ""),
+    # 2026-08-25 live misfire: the app's ambient browser URL supplied the strong
+    # anchor "codex"; ordinary creative feedback supplied "why"/"wrong".
+    # The combined envelope incorrectly overrode the content route.
+    (
+        AMBIENT_BROWSER_CONTEXT
+        + "Why are we using the purple personal brand? I want steel blue, a gray canvas, "
+        "a cleaner font pairing, and stronger imagery throughout the LinkedIn article.",
+        "",
+    ),
+    (
+        AMBIENT_BROWSER_CONTEXT
+        + "There is nothing wrong with using real product photos. Build a publishable "
+        "paid-social content package with editorial imagery and accurate infographics.",
+        "",
+    ),
     # ---- MUST fire: real control-plane complaints -> system-audit ----
     ("hooks are not firing in codex, something is broken in the wiring", "system-audit"),
     (
