@@ -1,0 +1,25 @@
+{
+  "artifact_type": "creative_strategy_portfolio",
+  "title": "Health Performance Angle Map: First Four-Format Creative Portfolio",
+  "date": "2026-08-25",
+  "status": "production-ready strategy; publishing and outreach unapproved",
+  "owner_workflow": "dara-denney-creative-format-intelligence",
+  "primary_expert": "dara-denney-meta-ads",
+  "companion_review": "claim-safe-health-marketing",
+  "offer": "The Angle Map",
+  "evidence_state": "UNCONFIRMED",
+  "formats": [
+    "founders-ad",
+    "problem-solution-vsl",
+    "educational-infographic",
+    "amateur-investigation"
+  ],
+  "rejects": [
+    "testimonial-static",
+    "ai-avatar-ad"
+  ],
+  "publication_authorized": false,
+  "paid_spend_authorized": false,
+  "external_outreach_authorized": false,
+  "confidential_input_collection_authorized": false
+}
