@@ -304,3 +304,8 @@ Counter-case in the same month: Applied Nutrition licensed Sour Patch Kids and S
 **One risk on today's flagship:** it names Ritual and shows their loyalists paying 59% more. It's sourced entirely to their own two pages and credits them hard, but Pillar-1 protocol isn't optional here — send it before publishing. An unnamed variant is in the hook stack if you'd rather run it structurally.
 released
 === 2026-08-16 10:10:25 listening run end rc=0 ===
+=== 2026-08-24 05:34:19 listening run start ===
+claimed: 9cf8dc737694  (heartbeat every wave: session_lock.py heartbeat 9cf8dc737694)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-24 05:52:08 listening run end rc=1 ===

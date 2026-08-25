@@ -10,7 +10,7 @@ This build is finished and verified across every check it set for itself, with n
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.
 
-Handoff status is ready. Last activity 4d ago.
+Handoff status is ready. Last activity 5d ago.
 
 Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 19d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 20d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -95,7 +95,7 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **4 d**
+- DAYS ACTIVE: **5 d**
 
 ## momentum
 
@@ -117,6 +117,8 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 ## what this isn't
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
+
+The judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

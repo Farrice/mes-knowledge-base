@@ -109,9 +109,9 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-08-23 (chain_runner finalize for joanna-wiebe-persuasion-mastery) |
-| **Last Activated** | 2026-08-23 (chain_runner finalize for joanna-wiebe-persuasion-mastery) |
-| **Activation Count** | 866 |
-| **30-Day Review Date** | 2026-09-22 |
+| **Last Activated** | 2026-08-24 (chain_runner finalize for mark-kashef-wargame-os) |
+| **Last Activated** | 2026-08-24 (chain_runner finalize for mark-kashef-wargame-os) |
+| **Activation Count** | 873 |
+| **30-Day Review Date** | 2026-09-23 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "A full client brand and legal packet for Josh shipped four days ago — cultural dossier, reference board, risk map, lawyer agenda — and it passed every verification check, which means the ball is in his court, not yours.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: 2 sessions.\n\nHandoff status is active. Last activity 6d ago.\n\nNext: Send Josh one short message asking whether he has booked the legal consult, and let the thread sit until he answers."
+      "body": "A full client brand and legal packet for Josh shipped four days ago — cultural dossier, reference board, risk map, lawyer agenda — and it passed every verification check, which means the ball is in his court, not yours.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: 2 sessions.\n\nHandoff status is active. Last activity 7d ago.\n\nNext: Send Josh one short message asking whether he has booked the legal consult, and let the thread sit until he answers."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.\n\nHandoff written 51d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: This is complete, careful, unpaid-looking client work in a category with real legal exposure, and it was handled with the right caution: it centers the culture it borrows from, retires the riskiest name pending counsel, and routes Josh to private testing before any public launch. The thread is idle because it should be — the next move belongs to Josh and to a lawyer. The only question worth your attention is whether this was paid, and if not, what it was for.\n\nHandoff written 52d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -36,6 +36,10 @@
         {
           "action": "Convert this packet into a public case study for the sprint",
           "why": "Turns finished client work into credibility you badly need, but it is a different category from supplement and performance brands and may confuse the positioning you just locked."
+        },
+        {
+          "action": "Decide: resume, park, or kill",
+          "why": "No recorded activity in 7 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -100,7 +104,7 @@
           "note": "codex"
         },
         {
-          "value": "11",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -230,7 +234,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Nothing in the pack says whether this engagement was paid or what Josh committed to. The thread title is the full deliverable description, which suggests loose record-keeping here rather than a clean client file.\n\nThe judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

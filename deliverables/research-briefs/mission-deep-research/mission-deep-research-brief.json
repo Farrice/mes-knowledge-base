@@ -117,5 +117,5 @@
       "body": "The records show research delivered but not adopted, so practical impact is unverified — a correct verdict nobody acts on looks identical to one nobody needed.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
-  "status": "active"
+  "status": "archived"
 }

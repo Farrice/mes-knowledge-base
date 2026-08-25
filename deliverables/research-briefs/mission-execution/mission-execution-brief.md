@@ -21,7 +21,7 @@ Moved: fixed stale hook-count rule (8→9, artifact-placement) in `execution/ver
 Uncertain: hook-count expectation is duplicated in two files with no single source — next hook bridge breaks both again.
 Latest proof: `python3 execution/verify_codex_claude_parity.py` → PASS; `worktree_lane.py list` → zero degraded lanes.
 
-Handoff written 2d ago — treat its plan as current.
+Handoff written 3d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -86,6 +86,8 @@ RESUME HERE: Parity/menus green both harnesses (f8cf315ee); next: dedupe hook-co
 ## what this isn't
 _READ THE EDGES_
 No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.
+
+The judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

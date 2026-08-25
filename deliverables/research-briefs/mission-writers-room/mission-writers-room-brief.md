@@ -15,7 +15,7 @@ Next: Resume the `writers-room` work-stream — see the deliverable above.
 _Auto-pinned by chain_runner.finalize (writers-room)._
 
 ## the state, as the last session left it
-Handoff written 26d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 27d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -73,6 +73,8 @@ RESUME HERE: LinkedIn About rebuild: v12/v13/v14 treatments + reader-first archi
 ## what this isn't
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
+
+The judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

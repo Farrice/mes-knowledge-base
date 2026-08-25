@@ -37,3 +37,6 @@ Three things worth your eye:
 One deviation from the file: I kept "· EDITION 002" on the chip for continuity with edition 001 rather than the bare chip string. Everything else held — listening-only, no contact, nothing published, thought-bank items connected but not moved or marked.
 released
 === 2026-08-10 07:08:40 angle-brief run end rc=0 ===
+=== 2026-08-24 07:00:00 angle-brief run start ===
+BLOCKED: fresh lock held by another session — mission 'zeitgeist daily run' (heartbeat 2371s ago). One driver per tree; wait or coordinate with Farrice.
+lock blocked — skipping this run (one writer per tree)

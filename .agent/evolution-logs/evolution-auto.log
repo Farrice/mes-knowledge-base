@@ -3758,3 +3758,34 @@
     }
   ]
 }
+{
+  "run_at": "2026-08-24T07:00:00.321131",
+  "ran": [
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-08-24.json",
+        "skills_tracked": 4,
+        "degrading_count": 0,
+        "degrading_skills": [],
+        "improving_count": 0,
+        "improving_skills": [],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-08-23T07:59:23.079642",
+      "reason": "not_due_yet",
+      "days_remaining": 0.04
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-08-10T07:00:04.357650",
+      "reason": "not_due_yet",
+      "days_remaining": 16.0
+    }
+  ]
+}

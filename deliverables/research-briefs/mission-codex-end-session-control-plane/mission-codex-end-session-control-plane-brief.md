@@ -8,7 +8,7 @@ Everything this thread has produced, where it stands, and the next move — asse
 _CURRENT POSITION_
 Stage: shipped — a deliverable was finalized. In the last 14 days: 2 sessions, 1 deliverable finalized.
 
-Handoff status is ready. Last activity 10d ago.
+Handoff status is ready. Last activity 11d ago.
 
 Next: - Review the pushed Codex branch from a fresh integration worktree, resolve the existing dirty-main Alex work separately, and merge only after an expected-diff review.
 
@@ -17,7 +17,7 @@ Next: - Review the pushed Codex branch from a fresh integration worktree, resolv
 - The Alex fictional fixture proves workflow behavior, not human panel response, live ad performance, or market demand.
 
 ## the state, as the last session left it
-Handoff written 22d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 23d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create a second End-session skill tree or a separate Antigravity behavior contract. Extend the canonical workflow and thin wrappers already listed.
@@ -32,7 +32,7 @@ Do not rebuild:
 
 ## what needs you
 Everything here is derived from an open record — a blocked handoff, an unfinished line, an open mission.
-1. **Decide: resume, park, or kill** — No recorded activity in 10 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+1. **Decide: resume, park, or kill** — No recorded activity in 11 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Review the pushed Codex branch from a fresh integration worktree, resolve the existing dirty-main Alex work separately, and merge only after an expected-diff review. / Grant exact-worktree hook trust
@@ -72,7 +72,7 @@ SHIPPED IN WINDOW:
 ## by the numbers
 - DELIVERABLES FINALIZED: **1**
 - SESSIONS: **2** (codex)
-- DAYS ACTIVE: **11 d**
+- DAYS ACTIVE: **12 d**
 
 ## momentum
 
@@ -93,6 +93,8 @@ Deployability: heartbeat 7/7, menu parity, 14 workflows, 14 v2 prompts, renaissa
 ## what this isn't
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
+
+The judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

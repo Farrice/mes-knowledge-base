@@ -101,3 +101,8 @@ no pending cards
 released
 ABORT: session lock held by another driver — one driver per tree (orchestration-doctrine.md Law 5). No cards touched.
 BLOCKED: fresh lock held by another session — mission 'nightly mission sweep' (heartbeat 0s ago). One driver per tree; wait or coordinate with Farrice.
+claimed: 5a1246df472b  (heartbeat every wave: session_lock.py heartbeat 5a1246df472b)
+T1 EXECUTED card-harness-evals-2026-W34.md: EXIT 1 -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-harness-evals-2026-W34-transcript.md
+T1 EXECUTED card-outcome-chase-2026-08-23.md: EXIT 1 -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-outcome-chase-2026-08-23-transcript.md
+T1 EXECUTED card-verdict-to-diff-2026-W34.md: EXIT 1 -> /Users/farricecain/Google Antigravity/.agent/mission-queue/done/card-verdict-to-diff-2026-W34-transcript.md
+ERROR: lock not held by this token

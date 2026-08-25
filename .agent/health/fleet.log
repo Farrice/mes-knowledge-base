@@ -167,3 +167,5 @@ usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
 verify_fleet.py: error: unrecognized arguments: run
 usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
 verify_fleet.py: error: unrecognized arguments: run
+usage: verify_fleet.py [-h] [--list] [--limit LIMIT] [--self-test] [--json]
+verify_fleet.py: error: unrecognized arguments: run

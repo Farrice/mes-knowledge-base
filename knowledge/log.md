@@ -792,3 +792,10 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-23 07:59]` **compile** | Full compilation — 1150 files, 3,652,525 words, 67 lint issues
 - `[2026-08-23 09:09]` **finalize** | Joanna Wiebe belief community architecture source package, four-workflow skill extension, four born- | sales | joanna-wiebe — composite:7.0 status:Needs Improvement
 - `[2026-08-23 09:10]` **finalize** | Joanna Wiebe belief community architecture source package, four-workflow skill extension, four born- | sales | joanna-wiebe — composite:7.9 status:Keep
+- `[2026-08-24 10:15]` **finalize** | Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-da | general | sean-dollwet — composite:7.0 status:Needs Improvement
+- `[2026-08-24 10:16]` **finalize** | Research-backed decision brief for Farrice's first ebook: select two candidate books, choose one Boo | general | sean-dollwet — composite:8.33 status:Keep
+- `[2026-08-24 12:12]` **finalize** | Chrome CoAuthor analytics rerun that corrected Book One from Hybrid Athlete After 40 to a civilian M | general | sean-dollwet — composite:8.67 status:Keep
+- `[2026-08-24 13:41]` **finalize** | Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan | general | sean-dollwet-kdp-publishing — composite:7.33 status:Needs Improvement
+- `[2026-08-24 13:41]` **finalize** | Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan | general | sean-dollwet-kdp-publishing — composite:8.67 status:Keep
+- `[2026-08-24 15:26]` **finalize** | Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-r | content | mike-sherrard + enrico-incarnati + cardinal-mason + jen-listing-engine — composite:8.33 status:Keep
+- `[2026-08-24 21:23]` **finalize** | Offer red-team on Listing Launch Install: 3 blind agents (prosecutor/defender/evidence), converged v | general | kashef-wargame + hormozi/fladlien-frame — composite:9.0 status:Keep

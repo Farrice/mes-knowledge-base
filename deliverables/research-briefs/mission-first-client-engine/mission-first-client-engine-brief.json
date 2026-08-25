@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "This thread reaches the opposite conclusion from the sprint — it says park the content offer and sell workflow pilots to professional-service firms instead — and that unresolved contradiction is the single most expensive open question on the board.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 11d ago.\n\nNext: Pick one offer as the only thing you sell for the next thirty days and write the other one off the board today."
+      "body": "This thread reaches the opposite conclusion from the sprint — it says park the content offer and sell workflow pilots to professional-service firms instead — and that unresolved contradiction is the single most expensive open question on the board.\n\nStage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.\n\nHandoff status is active. Last activity 12d ago.\n\nNext: Pick one offer as the only thing you sell for the next thirty days and write the other one off the board today."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: The reasoning is serious: it grounds itself in current marketplace evidence and argues from your actual constraints, that you need money soon, have no audience, and are strongest at building agent workflows rather than selling performance creative. That is a fair read of your position. But it directly contradicts the locked sprint. Two offers cannot both be the priority when there is one operator and no audience. Right now you are effectively hedging, and hedging with zero distribution means neither offer gets the repetition that makes it work. This has to be decided, not held.\n\nHandoff written 11d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+      "body": "Assessment: The reasoning is serious: it grounds itself in current marketplace evidence and argues from your actual constraints, that you need money soon, have no audience, and are strongest at building agent workflows rather than selling performance creative. That is a fair read of your position. But it directly contradicts the locked sprint. Two offers cannot both be the priority when there is one operator and no audience. Right now you are effectively hedging, and hedging with zero distribution means neither offer gets the repetition that makes it work. This has to be decided, not held.\n\nHandoff written 12d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
     },
     {
       "kind": "decision",
@@ -43,7 +43,7 @@
         },
         {
           "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 11 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+          "why": "No recorded activity in 12 days while the handoff is still active. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -107,7 +107,7 @@
           "label": "DELIVERABLES FINALIZED"
         },
         {
-          "value": "11",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -177,7 +177,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Both recorded deliverables here appear to be the same verdict, one being a retry of the other, so the evidence base is one analysis rather than two. No client contact or market test has happened against this recommendation — it is desk research, however well grounded.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "Both recorded deliverables here appear to be the same verdict, one being a retry of the other, so the evidence base is one analysis rather than two. No client contact or market test has happened against this recommendation — it is desk research, however well grounded.\n\nThe judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

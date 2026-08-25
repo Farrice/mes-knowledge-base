@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Deploy Joanna Wiebe across copy, belief, messaging, and writing-business work** | |
+| Invoke Joanna by name and let the system select the right capability | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe` |
+| Use Joanna's complete extracted expertise on one high-stakes asset | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe full deployment: ...` |
+| Build a worldview, ethical contrast, ritual, shared language, and earned conviction | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/belief-community-architecture` |
+| Repair a missing Joanna command in Codex or Claude | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — runtime verification and recovery |
 | **Work from one command center + never lose work (Homebase + Librarian)** | |
 | Open the one page to work from (Focus · Launch · Library) | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `/homebase` → http://127.0.0.1:8765/ |
 | Find something half-remembered from any past work | [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md) — `work_catalog.py find "<words>"` or `/catalog` |
@@ -288,6 +293,7 @@
 
 ## Chronology
 
+- **2026-08-23 — [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md)** (operator-guide) — source-grounded belief-community extension, named adaptive/full expert front door, five globally verified Codex/Claude routes, and proof-bounded deployment rules.
 - **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
 
 *(newest first)*
@@ -372,6 +378,8 @@
 
 
 ## Pending enrichment
+- [2026-08-24 — 2026-08-24-products](2026-08-24-2026-08-24-products.md) — operator-guide stub, needs enrichment
+- [2026-08-24 — Revenue: Claude Skills Business - Research Complete](2026-08-24-claude-skills-business.md) — session-brief stub, needs enrichment
 - [2026-08-23 — Session State Anchor](2026-08-23-session-state-anchor.md) — operator-guide stub, needs enrichment
 - [2026-08-21 — Handoff — execution](2026-08-21-handoff-execution.md) — operator-guide stub, needs enrichment
 - [2026-08-21 — Homebase 2.0 — Agentic OS Cockpit](2026-08-21-homebase-2-0-agentic-os-cockpit.md) — operator-guide stub, needs enrichment

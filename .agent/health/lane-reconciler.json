@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-23T15:14:54.144102+00:00",
+  "ts": "2026-08-25T04:47:17.799404+00:00",
   "dry_run": false,
   "lanes": 23,
   "merged": 0,
   "torn_down": 0,
-  "parked": 6,
-  "live": 17,
-  "stranded_commits": 38,
+  "parked": 5,
+  "live": 18,
+  "stranded_commits": 31,
   "results": [
     {
       "branch": "worktree-cash-paths-research",
@@ -18,6 +18,15 @@
       "detail": "9 uncommitted file(s) \u2014 a session is still working here"
     },
     {
+      "branch": "worktree-course-kit-ignition",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/course-kit-ignition",
+      "commits_ahead": 3,
+      "dirty_files": 5,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "5 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
       "branch": "claude/dazzling-cannon-6ed186",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/dazzling-cannon-6ed186",
       "commits_ahead": 1,
@@ -27,42 +36,6 @@
       "detail": "6 uncommitted file(s) \u2014 a session is still working here"
     },
     {
-      "branch": "worktree-second-brain-awakening",
-      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/second-brain-awakening",
-      "commits_ahead": 3,
-      "dirty_files": 0,
-      "conflicts": [
-        "deliverables/research-briefs/index.html",
-        "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief-share.html",
-        "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html",
-        "deliverables/research-briefs/mission-board/mission-board-brief.html",
-        "deliverables/research-briefs/mission-board/mission-board-context.json",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief-share.html",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.html",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.json",
-        "deliverables/research-briefs/mission-execution/mission-execution-brief.md",
-        "deliverables/research-briefs/mission-execution/mission-execution-context.json",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief-share.html",
-        "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html",
-        "deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html",
-        "deliverables/research-briefs/mission-geo-content/mission-geo-content-brief.html",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief-share.html",
-        "deliverables/research-briefs/mission-harness/mission-harness-brief.html",
-        "deliverables/research-briefs/mission-harness/mission-harness-context.json",
-        "deliverables/research-briefs/mission-health-performance-ip-library/mission-health-performance-ip-library-brief.html",
-        "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief-share.html",
-        "deliverables/research-briefs/mission-linkedin/mission-linkedin-brief.html",
-        "deliverables/research-briefs/mission-linkedin/mission-linkedin-context.json",
-        "deliverables/research-briefs/mission-mission/mission-mission-brief-share.html",
-        "deliverables/research-briefs/mission-mission/mission-mission-brief.html",
-        "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief-share.html",
-        "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html",
-        "deliverables/research-briefs/mission-trailer-treatment/mission-trailer-treatment-brief.html"
-      ],
-      "action": "parked-conflict",
-      "detail": "26 file(s) collide \u2014 needs resolution"
-    },
-    {
       "branch": "claude/vigilant-leakey-5f6293",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293",
       "commits_ahead": 3,
@@ -70,20 +43,6 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "2 uncommitted file(s) \u2014 a session is still working here"
-    },
-    {
-      "branch": "worktree-vosler-7fig-extract",
-      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vosler-7fig-extract",
-      "commits_ahead": 8,
-      "dirty_files": 0,
-      "conflicts": [
-        ".agent/handoffs/2026-08-21-scratchpad.md",
-        "SLASH_COMMANDS.md",
-        "directives/feedback-ratchet.md",
-        "directives/quality_gate.md"
-      ],
-      "action": "parked-conflict",
-      "detail": "4 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/zen-curran-72d8e2",
@@ -159,6 +118,15 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "60 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/jun-yuh-story-system",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jun-yuh-story-system",
+      "commits_ahead": 1,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/jun-yuh-story-system \u2014 main tree dirty (104 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/jun-yuh-story-system"
     },
     {
       "branch": "codex/linkedin-ai-consultant-bluff",

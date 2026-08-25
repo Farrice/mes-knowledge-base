@@ -1,4 +1,4 @@
-# Router Report Card — 2026-08-23 07:59
+# Router Report Card — 2026-08-24 07:00
 
 Weekly glance at the router learning loop: `skill_router_hook` (suggest) -> `routing-intelligence.json` (log) -> `session_ledger_hook` (reconcile auto_match/auto_miss) -> `run_routing_learning()` (nudge weights + surface synonym candidates).
 
@@ -27,4 +27,4 @@ Weekly glance at the router learning loop: `skill_router_hook` (suggest) -> `rou
 - 22 candidate(s) awaiting human review -> `.agent/synonym-candidates.md`
 
 ## (e) Health Check — Is the Loop Alive?
-- 224 routing decision(s) logged in the last 7d — loop is live.
+- 220 routing decision(s) logged in the last 7d — loop is live.

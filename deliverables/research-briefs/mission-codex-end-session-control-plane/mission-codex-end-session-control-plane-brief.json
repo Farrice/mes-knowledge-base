@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 2 sessions, 1 deliverable finalized.\n\nHandoff status is ready. Last activity 10d ago.\n\nNext: - Review the pushed Codex branch from a fresh integration worktree, resolve the existing dirty-main Alex work separately, and merge only after an expected-diff review.\n\n- Grant exact-worktree hook trust only through a separate explicit desktop consent flow if this temporary worktree must remain live; the attempted persistent trust write was rejected and no workaround was used.\n\n- The Alex fictional fixture proves workflow behavior, not human panel response, live ad performance, or market demand."
+      "body": "Stage: shipped — a deliverable was finalized. In the last 14 days: 2 sessions, 1 deliverable finalized.\n\nHandoff status is ready. Last activity 11d ago.\n\nNext: - Review the pushed Codex branch from a fresh integration worktree, resolve the existing dirty-main Alex work separately, and merge only after an expected-diff review.\n\n- Grant exact-worktree hook trust only through a separate explicit desktop consent flow if this temporary worktree must remain live; the attempted persistent trust write was rejected and no workaround was used.\n\n- The Alex fictional fixture proves workflow behavior, not human panel response, live ad performance, or market demand."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Handoff written 22d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create a second End-session skill tree or a separate Antigravity behavior contract. Extend the canonical workflow and thin wrappers already listed.\n\n- Do not rerun the Alex extraction or rebuild its static-acquisition system; the original-main paths above are the source artifacts.\n\n- Do not replace exact handoff identity with newest-file selection.\n\n- Do not auto-commit, auto-merge, or auto-push `main`.\n\n- Do not copy `.env`, secrets, or global hook trust into the worktree to make a broad verifier green."
+      "body": "Handoff written 23d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.\n\nDo not rebuild:\n- Do not create a second End-session skill tree or a separate Antigravity behavior contract. Extend the canonical workflow and thin wrappers already listed.\n\n- Do not rerun the Alex extraction or rebuild its static-acquisition system; the original-main paths above are the source artifacts.\n\n- Do not replace exact handoff identity with newest-file selection.\n\n- Do not auto-commit, auto-merge, or auto-push `main`.\n\n- Do not copy `.env`, secrets, or global hook trust into the worktree to make a broad verifier green."
     },
     {
       "kind": "decision",
@@ -31,7 +31,7 @@
       "items": [
         {
           "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 10 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+          "why": "No recorded activity in 11 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -100,7 +100,7 @@
           "note": "codex"
         },
         {
-          "value": "11",
+          "value": "12",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -205,7 +205,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }
