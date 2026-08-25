@@ -97,6 +97,8 @@ Pass this compact packet into construction:
 
 - Meta format shortlist -> `/dara-format-selection`
 - Portfolio and cross-domain transfer -> `/dara-denney-creative-format-intelligence`
+- Any selected format -> `/dara-format-concept-production-brief` for the integrated content, copy, visual, claim, production, and test packet
+- Any dated observation or promotion/demotion decision -> `/dara-format-outcome-ledger`
 - Matrix, spend, and learning sequence -> `/dara-test-plan`
 - Quarterly/monthly sequencing -> `/dara-creative-roadmap`
 - Founder construction -> `/dara-founder-ad`
@@ -104,3 +106,7 @@ Pass this compact packet into construction:
 - David & Goliath -> `/dara-david-goliath`
 - Static build -> `/dara-static-engine` or the matching static builder
 - Claim-sensitive health/performance work -> add `claim-safe-health-marketing` before production
+
+## Outcome Feedback Loop
+
+The 2026-08 tier remains a `SOURCE PRIOR`. Live learning returns through `execution/dara_format_outcome_ledger.py`, grouped at format × category × persona before cross-context comparison. The ledger stores spend, hook-rate definition and denominator, conversion evidence, fatigue, and explicit human decisions. It never promotes a format from hook rate alone. Full schema and commands: `references/format-outcome-ledger.md`.

@@ -35,8 +35,8 @@ Treat every tier as a dated expert prior. Live account evidence can overrule it;
 4. **Pair message separately.** For every selected vessel, name the message/angle axis and persona independently. Do not mistake format variety for strategic diversity.
 5. **Name holds and rejects.** Return at least two tempting formats that should not consume production now, with the exact veto or missing input.
 6. **Transfer mechanisms when the destination is not Meta.** Preserve the job and mechanism; choose a platform-native surface. Reject cosmetic remixes.
-7. **Route construction.** Hand each chosen format to the correct Dara production workflow or bounded specialist. Dara owns format strategy; claim, copy, design, and channel owners certify their own craft.
-8. **Design the proof.** State the control, first cells, learning question, promotion/demotion evidence, and stop condition. No performance promise.
+7. **Route construction.** Hand each chosen format to `/dara-format-concept-production-brief`. Dara owns format strategy and integration; Kallaway owns channel-native content behavior, Stefan Georgi owns copy architecture, Creative Direction owns visual execution, and Claim-Safe Health Marketing owns the claim veto. The matching Dara construction workflow supplies format-specific mechanics.
+8. **Design and register the proof.** State the control, first cells, learning question, promotion/demotion evidence, and stop condition. Include the format/message/persona/category IDs required by `/dara-format-outcome-ledger`. No performance promise and no hook-rate-only promotion.
 
 Execution prompt: `references/prompts-v2/27-creative-format-intelligence-brief.md` — honor its Output Contract.
 
@@ -79,13 +79,14 @@ Execution prompt: `references/prompts-v2/27-creative-format-intelligence-brief.m
 | Source format | Native destination | Mechanism preserved | What changes |
 
 ## Production Handoffs
-- [format] -> [workflow/owner] -> [first artifact]
+- [format] -> `/dara-format-concept-production-brief` -> [complete integrated concept and production brief]
 
 ## Learning Plan
 - Control:
 - First cells:
 - Promotion evidence:
 - Demotion/stop evidence:
+- Outcome-ledger IDs and first observation command:
 - Remaining risk:
 ```
 
@@ -110,6 +111,7 @@ Execution prompt: `references/prompts-v2/27-creative-format-intelligence-brief.m
 - At least two holds/rejects have real reasons.
 - Cross-domain adaptations preserve mechanism and become platform-native.
 - Proof plan names control, promotion, demotion, and stop evidence.
+- Each selection has a complete-brief route and outcome-ledger registration fields.
 
 ## Stop Conditions
 

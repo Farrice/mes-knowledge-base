@@ -29,7 +29,7 @@ Read `genius.md` — Creative Strategy OS layer:
    | Test # | Concept Name | Nº Variations (3-6) | Winning Element (Hook / Angle / Format / Storyline) | Creative Type (UGC / Video / Image / Carousels) |
    Concept names carry their research trace in the name where possible ("DEAR DIY'ers…" ← DIY objection; "FULLNESS CHASER STATICS" ← satiety gap). 8-12 rows per month is the working density.
 4. **Winning-element hypothesis discipline** — each row names WHICH element it's testing (a row that tests everything learns nothing).
-5. **Wire the loop** — Day-30 readout feeds next month's roadmap; quarterly review re-tags arbitrage stages and re-ranks personas.
+5. **Wire the loop** — Before the Day-30 readout feeds next month's roadmap, run `python3 execution/dara_format_outcome_ledger.py scoreboard --group-by format-category-persona`. Use explicit decision events, not hook rate alone, to promote, demote, hold, or retire formats. Quarterly review re-tags arbitrage stages and re-ranks personas while preserving category/persona boundaries.
 
 ## Output Schema
 
