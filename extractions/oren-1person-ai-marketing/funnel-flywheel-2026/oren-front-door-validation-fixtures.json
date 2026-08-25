@@ -1,0 +1,22 @@
+{
+  "positive": [
+    {"id": "taste", "query": "Use Oren to critique the composition, effectivity, vibes, and overall quality of this landing page.", "expected": "taste"},
+    {"id": "luxury", "query": "Use Oren to audit the insider codes and outsider signals for this premium buyer offer.", "expected": "luxury"},
+    {"id": "repositioning", "query": "Use Oren to reposition this generic founder brand through counterpositioning and category codes.", "expected": "repositioning"},
+    {"id": "operations", "query": "Use Oren to build our reference repository, ideas pipeline, team tracker, and SOP.", "expected": "operations"},
+    {"id": "one_person_ai_marketer", "query": "Use Oren to build a complete funnel flywheel and capture to call system for a solo marketer.", "expected": "one_person_ai_marketer"},
+    {"id": "identity", "query": "Use Oren to define the identity driver, belonging, tribe, and true fans for this founder.", "expected": "identity"},
+    {"id": "archetype", "query": "Use Oren to decide what this brand should do on social and select its content archetype.", "expected": "archetype"},
+    {"id": "content_team", "query": "Use Oren to design a content pod, production cadence, signature series, and media machine.", "expected": "content_team"},
+    {"id": "ad_psychology", "query": "Use Oren and Dara for cold traffic ad psychology, justification math, and proof in frame.", "expected": "ad_psychology"},
+    {"id": "world_building", "query": "Use Oren and Norton to create a brand world, world bible, lore, initiation mechanic, and institutions.", "expected": "world_building"},
+    {"id": "slop_era", "query": "Use Oren to diagnose why everything feels the same in the slop era and build our reference edge.", "expected": "slop_era"},
+    {"id": "commercial_paid_social_sprint", "query": "Use Oren to architect the funnel flywheel that acquires buyers for the Paid Social Creative Test Sprint.", "expected": "one_person_ai_marketer"},
+    {"id": "neutral_interior_designer", "query": "Use Oren to build a complete funnel flywheel for a local interior designer from guide through consultation and referral.", "expected": "one_person_ai_marketer"}
+  ],
+  "negative": [
+    {"id": "meta_roas", "query": "Why did Meta ROAS fall? Diagnose ROAS and media buying economics.", "expected": "paid_media_diagnosis"},
+    {"id": "full_vsl", "query": "Write the full VSL script and my complete video sales letter.", "expected": "full_vsl_copy"},
+    {"id": "lead_magnet", "query": "Design the complete lead magnet and write the whole lead magnet.", "expected": "lead_magnet_detail"}
+  ]
+}

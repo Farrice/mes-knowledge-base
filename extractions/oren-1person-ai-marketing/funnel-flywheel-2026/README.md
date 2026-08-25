@@ -16,6 +16,9 @@ This package preserves the evidence used to extend `oren-one-person-ai-marketer`
 - `validation-fixtures.json` + `validate_funnel_flywheel.py` — deterministic regression checks.
 - `blind-source-fidelity-review.md` — source/enhancement separation checkpoint.
 - `validation-report.md` — validation receipt and open gate.
+- `universal-front-door-agentic-engineering-packet.md` — thin `/oren` conductor contract, context policy, ownership boundaries, and stop condition.
+- `oren-front-door-validation-fixtures.json` — 13 positive/applied cold starts plus three specialist-handoff controls.
+- `validate_oren_front_door.py` — deterministic universal routing and bridge validator.
 
 ## Behavior Proofs
 
