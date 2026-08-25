@@ -24,12 +24,13 @@ Do not read `timestamped-mechanics.md`, `mastery-extraction.md`, or the workflow
 
 ## Reviewer Record
 
-- Set that most directly represents the video's reusable mechanics: `A / B / MIXED`
-- Confidence: `LOW / MEDIUM / HIGH`
-- Any item that appears unsupported or mislabeled:
-- Any source mechanic omitted from Set A:
-- Any system enhancement missing from Set B:
-- Separation verdict: `PASS / FAIL`
+- Set that most directly represents the video's reusable mechanics: `A`
+- Confidence: `HIGH`
+- Any item that appears unsupported or mislabeled: `NONE.` Each Set A item maps to transcript-backed mechanics: journey before page, offer/commitment route choice, the interior-designer lead magnet, qualification/call preparation, immediate and next-day nurture, funnel archaeology/message treatments, and owned-list optionality.
+- Any source mechanic omitted from Set A: `DM as a managed funnel and the Framer sponsorship disclosure are not named, but both remain correctly preserved elsewhere and are not needed to distinguish source mechanics from governance.`
+- Any system enhancement missing from Set B: `NONE MATERIAL.`
+- Separation verdict: `PASS`
+- Review basis: `Transcript-only discrimination. Storyboard imagery was excluded. Set B's CAC/LTV veto, payment-state proof labels, draft-only permissions, named specialist handoffs, and retained-learning schema are not presented as Oren source claims.`
 
 ## Reveal — Read Only After Recording
 
@@ -40,4 +41,6 @@ The intended fidelity result is not that Set B sounds like Oren. It is that a co
 
 ## Human Checkpoint
 
-`PENDING.` Deployment language is prohibited until a reviewer records the verdict above. The deterministic local build may be complete while this source-recognition gate remains open.
+`PASS — 2026-08-25.` Farrice explicitly authorized the checkpoint and instructed merge on PASS. The model judgment fixed Set A as the source-derived set using transcript evidence and found no unsupported mechanic requiring repair.
+
+This checkpoint is a source-versus-system fidelity comparison, not the separate expert-embodiment ritual in `execution/blind_pass.py`. That tool still lacks its required two-piece unseen reference corpus, so no corpus-based blind-pass record is claimed.

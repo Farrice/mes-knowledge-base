@@ -2,9 +2,9 @@
 
 ## Verdict
 
-**LOCAL BUILD: PASS. DEPLOYMENT: PENDING HUMAN CHECKPOINT.**
+**LOCAL BUILD: PASS. SOURCE-FIDELITY CHECKPOINT: PASS.**
 
-The skill-system expansion, command surface, applied proofs, and deterministic boundaries are complete in the isolated Codex lane. It is not declared deployed because the required blind source-fidelity judgment has not been recorded and the formal blind-pass tool requires two additional unseen published Oren pieces that are not present.
+The skill-system expansion, command surface, applied proofs, deterministic boundaries, and source-versus-system separation checkpoint are complete in the isolated Codex lane. Farrice authorized merge conditional on this PASS. The separate expert-embodiment tool still requires two additional unseen published Oren pieces; no corpus-based verdict is claimed.
 
 ## Structural Proof
 
@@ -49,9 +49,11 @@ The archived behavior-changing verifier currently resolves its project root to `
 - Framer is labeled as a sponsored optional example, not a dependency.
 - Source-derived mechanics and Antigravity enhancements are separated in the source ledger, mastery extraction, proofs, and blind-review packet.
 
-## Open Gate
+## Checkpoint Receipt
 
-The blind-pass tool reports `CORPUS NOT READY (0/2)`. It requires two unseen published Oren pieces with provenance. The ready human review is `blind-source-fidelity-review.md`; deployment remains prohibited until a reviewer records `PASS` or the corpus-based blind pass is completed.
+The blind source-fidelity packet selected Set A with high confidence. Every Set A mechanic mapped to the timestamped transcript; Set B remained distinguishable as Antigravity proof, permission, economics, ownership, and learning governance. No storyboard evidence was used and no unsupported source mechanic required repair.
+
+The formal `blind_pass.py` expert-embodiment ritual remains `CORPUS NOT READY (0/2)`. It is recorded as a separate unavailable test, not silently converted into a PASS.
 
 ## Permission Receipt
 
