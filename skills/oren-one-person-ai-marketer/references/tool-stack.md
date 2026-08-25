@@ -31,3 +31,17 @@ The named tools Oren cites, mapped to the weekly block they serve. The point isn
 - Image/video generation for creative → route via `creative_router.py`; gate via `execution/fal_budget_guard.py`.
 
 The tools change; the *block → named-input → named-tool → named-output* discipline doesn't.
+
+## Funnel Flywheel Tool Categories
+
+| Funnel job | Tool category | Required behavior |
+|---|---|---|
+| Capture/page | Landing-page or form builder | One job, one next action, consent-aware capture |
+| Lead state | CRM or lightweight pipeline | Source, consent, lifecycle stage, owner, next action |
+| Booking/show-up | Calendar and reminder system | Booked/held states, preparation, reminders, reschedule path |
+| Nurture | Email/SMS platform | Immediate confirmation, next-day education, exit conditions |
+| Funnel evidence | Screenshot/swipe/reference board | Source, date, full-spine capture, mechanism annotations |
+| Measurement | Analytics, sales, and payment records | Stage-level events without collapsing calls into revenue |
+| Learning | Experiment ledger | Hypothesis, variable, result, limit, decision, next test |
+
+Framer, Kit, HubSpot, and similar tools are optional examples. No workflow may require a vendor merely because it appeared in the source demonstration.

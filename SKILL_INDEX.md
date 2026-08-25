@@ -292,7 +292,7 @@
 | `oren-identity-brand-os` | **Oren — Identity Brand OS** | identity-first brand marketing from zero to cult following to 1, 000 true fans to scale, for any creator or founder | 14 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | oren's luxury psychology — insider codes, connoisseurship ladders, premium positioning against established luxury incumbents | 3 | 9 |
 | `oren-norton-world-building` | **Oren × Norton — Brand World-Building** | scott norton (sir kensington's founder, film-mechanics ladder (setting→institutions→props), growth by initiation | 10 | 0 |
-| `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | the activation layer for the other six oren skills, do not use for general ai-as-thinking-partner work (use dan-koe-ai-leverage), for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows) | 12 | 0 |
+| `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | use for team-velocity marketing or a source-grounded funnel flywheel, the one-person ai marketing machine | 17 | 0 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos | 3 | 7 |
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | creative direction of personalities, brand counterpositioning, vision extension | 3 | 7 |
 | `oren-slop-era-creative-strategy` | **Oren — Slop-Era Creative Strategy** | four-pillar premium-brand builds, insight→thesis→validate loop, irl reference edge | 10 | 0 |

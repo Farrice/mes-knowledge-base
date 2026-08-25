@@ -115,6 +115,10 @@ skills/oren-one-person-ai-marketer/genius.md                   (this repair's ed
 skills/oren-one-person-ai-marketer/SKILL.md                    (read for recognition_test scope; unmodified)
 ```
 
+## 2026-08-25 Funnel Flywheel Extension
+
+The new source package lives at `extractions/oren-1person-ai-marketing/funnel-flywheel-2026/`. Its detailed claim table is `skills/oren-one-person-ai-marketer/references/funnel-flywheel-source-ledger.md`. The extension adds Patterns 19–30 and Workflows 13–17. Raw timed captions and the corrupted storyboard are preserved; visual design claims are explicitly unavailable. Practitioner results and economics stay unverified, and Framer is isolated as a sponsored example.
+
 ## Existing verbatim-exemplar infrastructure (pre-repair, unchanged)
 
 genius.md's `## Hall of Fame Exemplars (verbatim)` section (10 numbered

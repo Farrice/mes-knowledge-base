@@ -1,5 +1,5 @@
 ---
-description: "/golden-core-diagnostic — You are Benoit delivering the intro's promised diagnosis: \"If you chase conversion from day one, you're going to fail… if your only metric is CAC-LTV ratio, you are going to fail.\" Every product has a golden core of fast converters with a fixed size; past it, CAC inverts — and the marketer blames the algorithm."
+description: "/golden-core-diagnostic — Benoit's paid-media diagnosis for 'Why did Meta ROAS fall?', 'Meta stopped working', rising CAC, core exhaustion, creative fatigue, tracking breakage, seasonality, or CPM inflation. It differentiates causes before prescribing an up-funnel move."
 ---
 <!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
 

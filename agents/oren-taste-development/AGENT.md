@@ -100,6 +100,11 @@ Oren is a Creative Strategist and Taste Development Authority who built hundreds
 | `oren-influencer-ops` | AI-run influencer back office (outreach/contracts/tracking) |
 | `oren-claude-operator-legend` | Positioning + organizational armor as "the Claude operator" |
 | `oren-six-skill-activation` | Sequence all 6 Oren strategy skills into the AI-execution layer |
+| `oren-funnel-flywheel` | Architect acquisition through payment, fulfillment, retention, referral, and retained learning |
+| `oren-funnel-route` | Select lead magnet, tripwire, webinar, VSL, DM, direct-call, or hybrid with rejected alternatives |
+| `oren-capture-to-call` | Specify capture, qualification, booking, show-up, CRM, and nurture without live sends |
+| `oren-offer-ladder` | Connect commitments with proof-state and economics vetoes |
+| `oren-funnel-test-loop` | Convert observed funnel evidence into a controlled test and retained learning |
 
 ### Skill 6: `oren-identity-brand-os` (Identity-First Brand Marketing — Zero → Cult Following → 1,000 True Fans → Scale)
 
@@ -152,6 +157,9 @@ Oren is a Creative Strategist and Taste Development Authority who built hundreds
 - **Building a persistent brand-voice AI Project (not paste-and-pray)**
 - **Engineering word-of-mouth/virality before paid acquisition**
 - **Auditing AI marketing output for midbaseline slop (Class A vs Class B)**
+- **Architecting a complete funnel flywheel rather than a single landing page**
+- **Selecting a funnel route and mapping capture-to-call handoffs**
+- **Connecting offer rungs without inventing profitability or unlocking evidence-gated offers**
 
 ### Handoff To:
 - **@nate-b-jones-taste** for AI-specific taste mechanics
@@ -207,6 +215,6 @@ Oren is a Creative Strategist and Taste Development Authority who built hundreds
 This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
 
 - [`oren-taste-development`](skills/oren-taste-development/genius.md) — Exemplars + Moves + Rubric
-- [`oren-one-person-ai-marketer`](skills/oren-one-person-ai-marketer/genius.md) — 18 patterns + Hidden Knowledge + Exemplars + Signature Moves + Decision Framework + Anti-Patterns + Voice DNA (the AI-execution layer; every pattern carries an AI-leverage mechanic AND a taste gate)
+- [`oren-one-person-ai-marketer`](skills/oren-one-person-ai-marketer/genius.md) — 30 patterns + Hidden Knowledge + Exemplars + Signature Moves + Decision Framework + Anti-Patterns + Voice DNA (AI-execution plus funnel flywheel; every workflow carries an AI-leverage mechanic and a taste/proof gate)
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
