@@ -1,12 +1,12 @@
 # Dara Denney — Genius Patterns, Hidden Knowledge, and Quality Standards
 
-> Source: Annual format review video (Q1 2026), 2,888 words. 20,000+ ads produced career; thousands of creatives × multiple brands tested in Q1 2026 alone.
+> Sources: annual format review video (Q1 2026), 2,888 words; plus "I Ranked 51 Meta Ad Creative Types" (published 2026-08-13), native captions + final tier board preserved at `extractions/dara-denney/meta-ad-creative-format-intelligence-2026/`. The latest tiers are expert priors, not independently verified account-export results.
 
 ## Core Identity
 
 DTC creative strategist. Agency lead. Treats Meta ad format trends as an annual arbitrage discipline. Separates format from messaging as two independent test axes. Bets against her own taste when pattern signal contradicts it. Operates at the script-distribution-architecture level, not single-creator level.
 
-**Her test**: After running an ad concept, can you say with confidence (a) which format archetype it deploys, (b) which messaging strategy pairs with it, and (c) where it falls on the 2026 arbitrage curve? If no — concept is incomplete.
+**Her test**: After running an ad concept, can you say with confidence (a) which job the vessel owns, (b) which format archetype it deploys, (c) which messaging and persona axes pair with it, (d) which access/rights/claims constraints apply, and (e) what evidence could promote or kill it? If no — concept is incomplete.
 
 ---
 
@@ -15,7 +15,7 @@ DTC creative strategist. Agency lead. Treats Meta ad format trends as an annual 
 These patterns are intuition primitives, not a checklist. Absorb the format×messaging split, the objection-to-format matching, the enemy-first variation move, the 1-second comprehension gate — then build an original concept. If the output mechanically stamps visible headers like "Format Archetype: X / Messaging Pairing: Y / Arbitrage Stage: Z" onto a finished ad concept, you have failed the test. The recognition test: would Dara Denney recognize this as an ad concept a strategist built after testing thousands of cross-brand creatives — or as someone reciting her taxonomy back at her? If it's the second, rebuild.
 
 Specifically:
-- Do NOT enumerate which format archetype, copy mechanic, or awareness level you applied as a labeled section in the finished deliverable — that's your working scaffolding, not her output. (The 17 workflow files carry their own Output Schemas; honor those contracts, don't layer narrated meta-commentary on top of them.)
+- Do NOT enumerate which format archetype, copy mechanic, or awareness level you applied as a labeled section in the finished deliverable — that's your working scaffolding, not her output. (The workflow files carry their own Output Schemas; honor those contracts, don't layer narrated meta-commentary on top of them.)
 - Do NOT announce "Layer 1 — Strategy," "Layer 2 — Design," "Layer 3 — Copy" as visible headers in a finished static spec or ad script. That's internal sequencing logic — execute the layering, never narrate it on the page.
 - Her texture is agency-veteran and conversational, not academic: specific numbers ("50% hook rate," "$1,090 → $632"), named credit ("Shout out to our creative strategist Nika"), and public admission of a lost bet ("I bet against this and was proved wrong"). Write in that register — a debrief after a Q1 review, not a marketing-consultant voice-over. Distinguish this from generic "creative strategist" vocabulary: she never says "leverage synergies" or "best-in-class creative" — she names the enemy, the exact hook family, the exact platform mechanic (Meta Creator Marketplace hook-rate filter, not "vet your creators carefully").
 - Polish-is-the-tell is a Hard Veto, not a stylistic note, on her lo-fi/authenticity plays: "the exact craft that signaled premium in 2023 now signals ad" (Apothékary anti-exemplar). If a static or UGC script reads too clean for its production level, send it back — do not soften this into a suggestion.
@@ -89,7 +89,7 @@ Notes The Woobles distributing same script to multiple creator personas. Thinks 
 
 ---
 
-## The 8 Format Archetypes (2026)
+## The 8 Format Archetypes (Earlier 2026 Annual Review Layer)
 
 | # | Format | Best For | Operational Complexity |
 |---|---|---|---|
@@ -118,6 +118,21 @@ Notes The Woobles distributing same script to multiple creator personas. Thinks 
 3. **Operational maturity?** Can release script control → yapper, partnership ads. Can't → David & Goliath, AI slop, listical.
 4. **Creative budget?** Low → TikTok love letter, TikTok short, listical. Mid → AI slop. High → David & Goliath with animations.
 5. **Brand maturity?** 6-7 figure → focus on format selection + messaging. 8-9 figure → unlock partnership ads pipeline.
+
+### Creative Format Intelligence Extension — 2026-08-13
+
+The later tier-list source broadens the operating surface from eight headline video archetypes to **48 visible board groups / 51 named types**. The durable intelligence is not "S is good, F is bad." It is the decision logic behind Dara's ranking:
+
+1. **Scale anchor versus supporting cast** — Founder, partnership, and VSL can own scale; many B-tier formats are valuable because they fill education, comparison, proof, or mid-funnel jobs.
+2. **The operational-friction tax** — Creator sourcing, script looseness, feed setup, asset count, studio cost, and employee workload can demote an otherwise attractive vessel.
+3. **The rights-and-permissions tax** — Press, duet/stitch, celebrity, partnership, authority, and testimonial formats can fail before creative quality matters.
+4. **Persona access is part of the format** — Partnership ads start from the creator's audience; authority ads transfer trust; founder ads transfer lived motive. Casting is not decoration.
+5. **Durability beats the first pocket** — AI animation and AI avatars can hit a new audience or even become a temporary top performer while remaining unstable long-term priors.
+6. **Funnel job changes the verdict** — Before/after, progression, us-vs-them, objection handling, and comment reply are often valuable mid/lower-funnel formats even when they are not net-new scale drivers.
+7. **Sale periods create temporary promotions** — Grid, founder letter, ugly/handwriting, and warehouse assets become more eligible when inventory, urgency, and event energy are the job.
+8. **Reject by default is a production decision** — F-tier means "do not spend the time without the named exception," not "this can never work."
+
+**Action**: Run the seven gates—job, evidence, access, funnel, friction, category/claims, durability—then build a portfolio with different jobs. Full board, source timestamps, exceptions, and cross-domain transfer rules: `references/creative-format-intelligence.md`.
 
 ---
 

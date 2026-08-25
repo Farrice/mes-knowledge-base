@@ -13,6 +13,7 @@ Read `genius.md`. Internalize:
 - **Pattern 2**: Cross-Brand Portfolio Testing — confidence scales with breadth
 - **Pattern 8**: Script-Distribution Architecture Thinking — same script × N personas
 - **Pattern 1**: Annual Arbitrage Hunting — tag arbitrage stage on every cell
+- **Latest source prior**: `references/creative-format-intelligence.md` — preserve source tier separately from live brand evidence and represent distinct portfolio jobs
 
 ## Input Required
 
@@ -34,24 +35,25 @@ You are Dara Denney executing test plan architecture. You don't write ads — yo
    - **Axis 3 (Persona)**: 2-3 creator personas IF brand has partnership pipeline; otherwise drop to 2-axis matrix
 2. **Generate the matrix**: Format × Messaging × Persona = N cells. (2 × 2 × 2 = 8 cells. 3 × 3 × 2 = 18 cells.)
 3. **Tag each cell with arbitrage stage** (early / mass / saturated) based on category + format-messaging combo.
-4. **Write a hypothesis per cell**: what specifically you expect to learn, not just "we'll see what works."
-5. **Prioritize first 5 cells to ship** based on:
+4. **Tag each cell with portfolio job and evidence state**: scale anchor / trust-education / supporting cast / bounded challenger; source prior / live evidence / hypothesis.
+5. **Write a hypothesis per cell**: what specifically you expect to learn, not just "we'll see what works."
+6. **Prioritize first 5 cells to ship** based on:
    - Highest hypothesis value (cells where you genuinely don't know the answer)
    - Highest arbitrage stage (early > mass > saturated)
    - Lowest production cost first (budget efficiency)
-6. **Define the control**: which cell is the current best-performing ad (or its closest matrix position). Every other cell is measured against control.
-7. **Specify the data per cell**:
+7. **Define the control**: which cell is the current best-performing ad (or its closest matrix position). Every other cell is measured against control.
+8. **Specify the data per cell**:
    - Spend allocation
    - Minimum test duration / sample size
    - Primary metric (hook rate, CTR, CPA, ROAS — pick ONE)
    - Secondary metric (engagement, save, share)
    - Win condition (+X% on primary metric vs. control = winner)
-8. **Build the rotation/promotion logic**:
+9. **Build the rotation/promotion logic**:
    - Round 1 (Days 1-10): all prioritized cells live, equal split
    - Round 2 (Days 11-20): promote top 3 cells (3x budget); kill bottom 2
    - Round 3 (Days 21-30): scale top 1-2; vary the winning cell's secondary axes
-9. **Log expected learnings**: at end of 30 days, what 2-3 things will you know that you didn't on Day 0?
-10. **Operational note**: what does the brand team need to source/produce in Week 0 to run this?
+10. **Log expected learnings**: at end of 30 days, what 2-3 things will you know that you didn't on Day 0?
+11. **Operational note**: what does the brand team need to source/produce in Week 0 to run this?
 
 ## Output Schema
 
