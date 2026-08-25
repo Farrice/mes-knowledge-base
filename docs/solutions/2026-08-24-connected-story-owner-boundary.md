@@ -20,6 +20,7 @@ The new source solved a different part of the story problem than the existing un
 
 1. Split the lifecycle by scarce craft ownership: Jun owns truthful material mining and personal-brand/social formatting; Shaan retains cross-domain narrative dosage and downstream body-owner selection.
 2. Make rejection executable with fixtures and a stdlib verifier: incidents return `NO STORY`, missing Pursuit returns `NEEDS SOURCE`, sensitive material downgrades to a fragment, and illustrative footage cannot imply false chronology.
+3. Treat two dated artifacts without a sourced turning event as `DOCUMENTED CONTRAST`, not a complete transformation arc. Cap commercial use at the highest verified proof level so experience, method, and a sample deliverable cannot imply market proof.
 
 ## Dead Ends
 
@@ -28,15 +29,15 @@ Running prompt-pointer wiring before building the local prompt index failed. Run
 ## Verification
 
 - Video source package: 4,083 normalized segments and 28,477 clean words, verifier PASS.
-- Dedicated behavior suite: five fixtures PASS plus two sabotage controls.
+- Dedicated behavior suite: six fixtures PASS plus three sabotage controls, including documented-contrast downgrade and a no-market-event proof ceiling.
 - Skill heartbeat: 7/7 PASS, including 16/16 workflow contracts and menu parity.
 - Renaissance prompt audit: 3,917/3,917 PASS.
 - Command menu and workflow router both surface `/jun-story-engine`.
-- Blind embodiment remains pending because the expert reference corpus has 0/2 required unseen published pieces.
+- Blind reference corpus is READY with 2/2 provenance-verified unseen Jun pieces. Detached recognition judgment remains pending; the builder did not self-record a PASS.
 
 ## Weaker-Model Trap
 
-A weaker implementation will merge Jun and Shaan into a universal “storytelling mega-skill,” infer emotional depth during the three-whys exercise, write a victory Payoff for an unresolved journey, or use present-day B-roll as if it documents the original event. Preserve the owner split, evidence labels, privacy states, and `NO STORY` path.
+A weaker implementation will merge Jun and Shaan into a universal “storytelling mega-skill,” infer emotional depth during the three-whys exercise, write a victory Payoff for an unresolved journey, invent a conversion scene between dated artifacts, turn a sample into market proof, or use present-day B-roll as if it documents the original event. Preserve the owner split, evidence labels, privacy states, proof ceiling, and `NO STORY` path.
 
 ## Pointers
 
@@ -44,3 +45,5 @@ A weaker implementation will merge Jun and Shaan into a universal “storytellin
 - `skills/jun-yuh-creator-vision/workflows/jun-story-engine.md`
 - `skills/shaan-puri-storytelling/references/story-deployment-map.md`
 - `execution/verify_jun_story_engine.py`
+- `extractions/video-context/XS-E6rnCr5U/commercial-field-proof.md`
+- `extractions/jun-yuh-creator-vision/blind-embodiment-receipt.md`

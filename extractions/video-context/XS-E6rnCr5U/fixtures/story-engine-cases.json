@@ -66,6 +66,25 @@
       "change": "Engagement changed, but the causal path is unknown.",
       "privacy_sensitive": false,
       "expected": "NEEDS_SOURCE"
+    },
+    {
+      "id": "documented_contrast_unknown_turn",
+      "work_type": "social",
+      "problem": "A 2018 offer used an outcome-heavy promise the operator now rejects.",
+      "pursuit": "A 2026 artifact states the operator's current evidence-bound messaging standard.",
+      "payoff": "The dated contrast demonstrates a changed position without documenting when or why the change occurred.",
+      "want": "Explain the origin of a claim-safe point of view.",
+      "obstacle": "No sourced conversion scene or causal chronology exists between the two artifacts.",
+      "turn": "",
+      "change": "The position changed; the causal path remains unknown.",
+      "moment_type": "DOCUMENTED_CONTRAST",
+      "experience_evidence": true,
+      "method_evidence": true,
+      "deliverable_evidence": true,
+      "market_evidence": false,
+      "expected_proof_ceiling": "DELIVERABLE",
+      "privacy_sensitive": false,
+      "expected": "STORY_FRAGMENT_CANDIDATE"
     }
   ]
 }

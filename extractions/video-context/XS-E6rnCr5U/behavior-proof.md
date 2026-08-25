@@ -2,7 +2,7 @@
 
 ## Proof boundary
 
-These are constructed fixtures for deterministic behavior testing. They are not Jun Yuh examples, client results, audience tests, or revenue proof. The source-derived mechanics are verified against the transcript package; downstream effectiveness remains `UNTESTED` until used on real work.
+The original controls below are constructed fixtures for deterministic behavior testing. The documented-contrast control and commercial field proof use Farrice's authorized source artifacts. None of them are client results, audience tests, or revenue proof. The source-derived mechanics are verified against the transcript package; market effectiveness remains `UNTESTED`.
 
 ## Positive control: ordinary expertise becomes story material
 
@@ -52,6 +52,16 @@ Result: `NO STORY`. The system returns the incident spine—cause, repair, curre
 
 Input supplies a generic Problem and a later improvement but no action, experiment, decision, or causal path between them. Result: `NEEDS SOURCE`. The smallest missing fact is requested; the system does not infer the method.
 
+## Live-field control: documented contrast does not invent the turn
+
+Farrice's 2018 `Zero to Hero` offer and his 2026 evidence-bound thesis prove a changed position. They do not contain the turning event, date, emotional state, or causal chronology. Result: `STORY FRAGMENT CANDIDATE` with `DOCUMENTED CONTRAST`; the interval remains visible and the conversion scene stays `[NEEDS SOURCE]`.
+
+The completed packet, founder draft, method fragment, direct sales asset, and receipts live in `commercial-field-proof.md`.
+
+## Commercial proof control
+
+The field run contains verified experience facts, a sourced current method, and a real sample deliverable. It contains no sends, replies, buyer results, sales, or collected payment. Result: proof ceiling `DELIVERABLE`; `MARKET PROOF: NO EVENT`. The negative control prevents a sample asset from silently becoming market validation.
+
 ## Evidence status
 
 | Claim | Status |
@@ -59,5 +69,9 @@ Input supplies a generic Problem and a later improvement but no action, experime
 | Source package provenance and transcript normalization | VERIFIED |
 | LIFE, Safe/Real/Raw, 3P, unresolved Payoff, mission, format, privacy, and AI-interviewer mechanics | VERIFIED against transcript package |
 | Connected Jun-to-Shaan ownership and negative controls | VERIFIED structurally and deterministically |
+| Documented-contrast downgrade and commercial proof ceiling | VERIFIED on one authorized live-field run plus deterministic fixture |
+| Three commercial draft bodies pass claim scan | VERIFIED locally |
+| Blind reference corpus | READY, 2/2 provenance-verified pieces |
+| Detached blind recognition | PENDING |
 | Better audience retention, conversion, brand trust, or revenue | UNTESTED |
-| Performance across arbitrary real client material | UNTESTED |
+| Performance across arbitrary real client material | UNTESTED beyond one authorized operator case |

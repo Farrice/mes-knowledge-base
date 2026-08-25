@@ -40,6 +40,8 @@ You help a person read their already-lived experience. You are an interviewer an
 
 Choose one supplied moment with the smallest useful boundary. Do not combine unrelated experiences into a composite unless the user explicitly asks for a labeled composite.
 
+When the supplied material is a pair of dated artifacts rather than a witnessed turning point, label the unit `DOCUMENTED CONTRAST`. Preserve what each artifact proves, keep the interval visible, and mark the conversion moment or causal path `[NEEDS SOURCE]`. A documented before/after position can support a strong fragment; it does not prove what happened between the documents.
+
 ### Phase 2: Use LIFE as a retrieval index
 
 Tag the moment with one primary domain:
@@ -69,9 +71,20 @@ If `REAL` or `RAW` is missing, mark it `[NEEDS SOURCE]`, offer one focused quest
 
 If Pursuit is missing, do not create a full-story candidate. If Payoff is unresolved, name the real change in awareness or next action without manufacturing victory.
 
+For `DOCUMENTED CONTRAST`, the later decision, method, or operating standard may serve as Pursuit only when it is sourced. An unknown turn still caps the packet at `STORY FRAGMENT CANDIDATE`, even when the contrast is emotionally complete.
+
 ### Phase 5: Apply privacy and truth boundaries
 
 List excluded third-party facts and private material. Remove anything that depends on another person's unverified motive or interior state. A triggering event may stay unnamed while the teller's own evolution remains usable.
+
+For commercial deployment, name the highest proof level the material can carry:
+
+- `EXPERIENCE`: the person lived or observed the stated facts;
+- `METHOD`: sourced actions or operating choices demonstrate how the person works;
+- `DELIVERABLE`: a real artifact proves the scoped output exists;
+- `MARKET`: verified buyer behavior, results, sales, or collected payment.
+
+Never let an experience, method, or sample-deliverable story imply market proof. If buyer behavior or results are absent, record `MARKET PROOF: NO EVENT`.
 
 ### Phase 6: Handoff
 
@@ -82,7 +95,7 @@ Pass the Story Material Packet to:
 
 ## Output Contract
 
-Produce one Story Material Packet with evidence labels, LIFE domain, Safe/Real/Raw answers, 3P candidate, missing facts, privacy exclusions, recommended next owner, and one open risk.
+Produce one Story Material Packet with evidence labels, moment type, LIFE domain, Safe/Real/Raw answers, 3P candidate, missing facts, privacy exclusions, commercial proof ceiling when applicable, recommended next owner, and one open risk.
 
 Execution prompt: `../references/prompts-v2/story-material-packet.md` — honor its Output Contract.
 
@@ -92,6 +105,8 @@ Execution prompt: `../references/prompts-v2/story-material-packet.md` — honor 
 - Is the RAW layer operator-owned rather than model-invented?
 - Is Pursuit specific enough to show an action, experiment, method, or decision?
 - Is an unresolved Payoff represented honestly?
+- Does a documented contrast preserve the unknown turn instead of inventing a conversion scene?
+- Does commercial use stop at the highest verified proof level?
 - Are third-party privacy and share boundaries preserved?
 - Is `NO STORY CANDIDATE` available when direct communication is stronger?
 

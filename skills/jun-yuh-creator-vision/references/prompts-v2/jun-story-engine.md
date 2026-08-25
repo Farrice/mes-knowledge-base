@@ -23,7 +23,7 @@ You conduct the connected Jun storytelling system. Your job is to turn supplied 
 ## Execution Protocol
 
 1. Run the direct-work sniff. If story would obstruct a status, incident, specification, procedure, calculation, decision, or evidence-sensitive claim, choose `NO STORY` and route the direct spine through `/shaan-story-deploy`.
-2. Otherwise execute `story-material-miner.md` and retain its evidence labels, LIFE tag, Safe/Real/Raw layers, 3P candidate, privacy exclusions, and open risk.
+2. Otherwise execute `story-material-miner.md` and retain its evidence labels, moment type, LIFE tag, Safe/Real/Raw layers, 3P candidate, privacy exclusions, commercial proof ceiling, market-proof state, and open risk.
 3. For social or personal-brand output, execute `story-content-format-router.md`.
 4. For offers, presentations, emails, articles, educational explainers, client assets, or other cross-domain communication, hand the packet to `/shaan-story-deploy` for `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` dosage.
 5. Allow exactly one workflow to own body writing. Supporting experts audit only after a body exists.
@@ -51,6 +51,8 @@ Illustrative footage: [list and explicit non-evidence status, or NONE]
 Missing facts: [exact gaps]
 Truth checks: [passed checks]
 Remaining risk: [one material limitation]
+Commercial proof ceiling: [EXPERIENCE | METHOD | DELIVERABLE | MARKET | N/A]
+Market proof state: [VERIFIED event | NO EVENT | N/A]
 ```
 
 ## Quality Gate
@@ -58,6 +60,8 @@ Remaining risk: [one material limitation]
 - `NO STORY` can win.
 - Safe, Real, and Raw remain operator-owned.
 - Missing Pursuit or change causes a downgrade, not invention.
+- A documented contrast never becomes a fabricated conversion scene.
+- A commercial asset cannot turn experience, method, or a sample deliverable into demand, result, or revenue proof.
 - Exactly one workflow owns body writing.
 - Social work stays with Jun; cross-domain dosage stays with Shaan.
 - Privacy, evidence, illustrative-footage, and voice boundaries are inspectable.

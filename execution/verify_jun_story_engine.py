@@ -16,6 +16,8 @@ REQUIRED_FILES = [
     "extractions/video-context/XS-E6rnCr5U/deep-extraction.md",
     "extractions/video-context/XS-E6rnCr5U/skill-system-contract.md",
     "extractions/video-context/XS-E6rnCr5U/behavior-proof.md",
+    "extractions/video-context/XS-E6rnCr5U/commercial-field-proof.md",
+    "extractions/jun-yuh-creator-vision/blind-embodiment-receipt.md",
     "extractions/video-context/XS-E6rnCr5U/USER-GUIDE.md",
     "skills/jun-yuh-creator-vision/references/storytelling-masterclass-ledger.md",
     "skills/jun-yuh-creator-vision/workflows/story-material-miner.md",
@@ -30,6 +32,7 @@ REQUIRED_FILES = [
 ]
 
 DIRECT_WORK = {"status", "incident", "specification", "procedure", "calculation", "risk", "decision"}
+PROOF_LEVELS = ("EXPERIENCE", "METHOD", "DELIVERABLE", "MARKET")
 
 
 def decide(case: dict[str, object]) -> str:
@@ -46,6 +49,21 @@ def decide(case: dict[str, object]) -> str:
     if any(str(case.get(field, "")).strip() for field in ("problem", "pursuit", "payoff")):
         return "STORY_FRAGMENT_CANDIDATE"
     return "NO_STORY"
+
+
+def proof_ceiling(case: dict[str, object]) -> str:
+    """Return the highest evidence-backed commercial proof level."""
+    flags = {
+        "EXPERIENCE": "experience_evidence",
+        "METHOD": "method_evidence",
+        "DELIVERABLE": "deliverable_evidence",
+        "MARKET": "market_evidence",
+    }
+    ceiling = "NONE"
+    for level in PROOF_LEVELS:
+        if bool(case.get(flags[level])):
+            ceiling = level
+    return ceiling
 
 
 def require_tokens(path: str, tokens: tuple[str, ...], failures: list[str]) -> None:
@@ -78,10 +96,15 @@ def main() -> int:
         decisions[str(case["id"])] = actual
         if actual != case.get("expected"):
             failures.append(f"{case['id']}: expected {case.get('expected')}, got {actual}")
+        expected_ceiling = case.get("expected_proof_ceiling")
+        if expected_ceiling and proof_ceiling(case) != expected_ceiling:
+            failures.append(
+                f"{case['id']}: expected proof ceiling {expected_ceiling}, got {proof_ceiling(case)}"
+            )
 
     require_tokens(
         "skills/jun-yuh-creator-vision/workflows/story-material-miner.md",
-        ("LIFE", "Safe", "Real", "Raw", "[NEEDS SOURCE]", "NO STORY CANDIDATE", "Pursuit"),
+        ("LIFE", "Safe", "Real", "Raw", "[NEEDS SOURCE]", "NO STORY CANDIDATE", "Pursuit", "DOCUMENTED CONTRAST", "MARKET PROOF: NO EVENT"),
         failures,
     )
     require_tokens(
@@ -91,7 +114,7 @@ def main() -> int:
     )
     require_tokens(
         "skills/jun-yuh-creator-vision/workflows/jun-story-engine.md",
-        ("/shaan-story-deploy", "One body owner", "NO STORY", "Story Engine Receipt"),
+        ("/shaan-story-deploy", "One body owner", "NO STORY", "Story Engine Receipt", "commercial proof ceiling"),
         failures,
     )
     require_tokens(
@@ -118,6 +141,11 @@ def main() -> int:
     if decide(incident) != "NO_STORY":
         failures.append("negative control failed: incident did not trigger NO_STORY")
 
+    # Negative control: a sample deliverable cannot silently become market proof.
+    contrast = next(case for case in cases if case["id"] == "documented_contrast_unknown_turn")
+    if proof_ceiling(contrast) != "DELIVERABLE":
+        failures.append("negative control failed: absent market evidence did not cap proof at DELIVERABLE")
+
     if failures:
         print("JUN STORY ENGINE VERIFY: FAIL")
         for failure in failures:
@@ -129,7 +157,7 @@ def main() -> int:
     print(f"- fixtures: {len(cases)}/{len(cases)}")
     for case_id, decision in decisions.items():
         print(f"- {case_id}: {decision}")
-    print("- negative controls: missing Pursuit -> NEEDS_SOURCE; incident -> NO_STORY")
+    print("- negative controls: missing Pursuit -> NEEDS_SOURCE; incident -> NO_STORY; no market event -> DELIVERABLE ceiling")
     return 0
 
 

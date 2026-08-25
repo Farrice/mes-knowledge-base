@@ -542,3 +542,6 @@
 {"ts": "2026-08-16T14:06:47Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-16T14:07:02Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 392-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-08-16T14:07:02Z", "label": "angle-map-2026-08-16", "verdict": "WARN", "fails": [], "warns": ["A 348-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-08-25T22:29:48Z", "label": "jun-founder-story", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-25T22:29:49Z", "label": "jun-proof-fragment", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-08-25T22:29:49Z", "label": "jun-direct-sales", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}

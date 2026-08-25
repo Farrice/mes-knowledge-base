@@ -6,6 +6,8 @@
 
 It may return `FULL STORY`, `STORY FRAGMENT`, `NO STORY`, or `NEEDS SOURCE`. A refusal to force a story is successful behavior.
 
+When two dated artifacts prove a changed position but not the turning event, it returns `DOCUMENTED CONTRAST` and caps the result at a fragment. For commercial work, it also names the highest verified proof level: `EXPERIENCE`, `METHOD`, `DELIVERABLE`, or `MARKET`.
+
 ## Default invocation
 
 ```text
@@ -35,6 +37,18 @@ Voice owner: [person or brand]
 Use Story Material Miner only. Read these supplied notes as an interviewer, not a biographer. Return a fact-traced LIFE + Safe/Real/Raw + 3P packet. Mark missing beats [NEEDS SOURCE], protect the share boundary, and let NO STORY CANDIDATE win.
 ```
 
+## Documented-contrast prompt
+
+```text
+Run /jun-story-engine on these two dated artifacts. Treat them as DOCUMENTED CONTRAST, not proof of the conversion scene between them. Keep the interval visible, mark the turn [NEEDS SOURCE], and produce the strongest truthful fragment the evidence supports.
+```
+
+## Commercial proof prompt
+
+```text
+Build the asset, then state its commercial proof ceiling: EXPERIENCE, METHOD, DELIVERABLE, or MARKET. Do not let a sample deliverable imply demand, results, sales, or revenue. If no verified buyer event exists, write MARKET PROOF: NO EVENT.
+```
+
 ## Privacy-safe prompt
 
 ```text
@@ -56,6 +70,8 @@ Only facts that change truth, privacy, scope, or the narrative decision should b
 - The story cannot contain more lived detail than the operator supplied or authorized.
 - Pursuit shows a concrete action, experiment, method, or decision.
 - An unresolved journey stays unresolved.
+- A documented contrast never becomes an invented turning point.
+- Commercial storytelling stops at the highest verified proof level.
 - Illustrative footage is labeled and never presented as event evidence.
 - Exactly one workflow owns body writing.
 - The final receipt names facts used, exclusions, missing evidence, and remaining risk.
