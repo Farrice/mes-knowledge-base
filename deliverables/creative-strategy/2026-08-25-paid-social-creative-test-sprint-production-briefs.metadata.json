@@ -1,0 +1,35 @@
+{
+  "artifact_type": "integrated_creative_production_briefs",
+  "title": "Health Performance Paid Social: Four Format Concept and Production Briefs",
+  "date": "2026-08-25",
+  "status": "draft_review_not_auto_publish",
+  "owner_workflow": "dara-format-concept-production-brief",
+  "primary_expert": "dara-denney-meta-ads",
+  "support_owners": [
+    "kallaway-content-psychology",
+    "stefan-georgi-dopamine-copy",
+    "creative-direction",
+    "claim-safe-health-marketing"
+  ],
+  "offer": "Paid Social Creative Test Sprint",
+  "campaign_id": "hp-psc-sample-sprint-01",
+  "evidence_state": "UNTESTED",
+  "formats": [
+    "founders-ad",
+    "problem-solution-vsl",
+    "educational-infographic",
+    "amateur-investigation"
+  ],
+  "ledger_registration_event_ids": {
+    "founders-ad": "1ad0f157-2d42-477e-95ef-38e985f1b4b1",
+    "problem-solution-vsl": "d76a79cf-3a24-46dc-8e7e-ceaa6233f3cb",
+    "educational-infographic": "2d693606-4fed-4cdf-8c92-70dcc6a94011",
+    "amateur-investigation": "d2c7a155-87d3-4fee-a803-4c8fd759e6d7"
+  },
+  "copy_gate": "four public copy surfaces clean; full production schema warning 2/10 for required repetition",
+  "grounding_guard": "pass",
+  "publication_authorized": false,
+  "paid_spend_authorized": false,
+  "external_outreach_authorized": false,
+  "named_brand_paid_use_authorized": false
+}
