@@ -10,6 +10,7 @@ Ground-truth sources for this skill, verified by direct file read (not by infere
 | `extractions/Jun Yuh/extraction-report.md` | 10,481 bytes | MES 3.0 extraction report — 6 genius patterns, 4 hidden-knowledge items, methodology |
 | `extractions/Jun Yuh/validation-output.md` | 2,856 bytes | MES 3.0 validation pass (taste checks) for the above report |
 | `extractions/jun-yuh/transcript.txt` | 16,178 bytes | Second, separate raw transcript (live talk/workshop format — includes an audience call-and-response, "I am the niche"); source of the Psychographic Targeting Protocol, Anti-Guru Positioning, Triple-P Multi-Origin, and Permutation Engine material not present in the first extraction |
+| `extractions/video-context/XS-E6rnCr5U/` | 4,083 normalized caption segments; 28,477 clean words | Verified transcript-only source package for *How To Become a Master Storyteller [FREE COURSE]*. Includes provenance ledger, uncertainty report, deep extraction, architecture, and skill-system contract. No frames/OCR were used because the source exceeds the forge visual-duration cap. |
 
 Neither transcript embeds a publish date, episode number, or URL — this is a known gap, not an omission on this pass. No date claim is made anywhere in this skill's anti-pattern anchors; anchors use file + verbatim quote instead.
 
@@ -34,6 +35,13 @@ Neither transcript embeds a publish date, episode number, or URL — this is a k
 | Hidden Knowledge: Pain-First Anchor, Timestamp Inevitability, Decoupling of Effort/Value, Visual Contrast Constraint | VERIFIED | `extraction-report.md` Hidden Knowledge section, original 4 items |
 | Hidden Knowledge: Permutation Secret, Multiple Origin Stories = Multiple Entry Points, Message vs. Niche Distinction, Anti-Guru Trust Acceleration | LIKELY | Not in original `extraction-report.md` (which lists only 4 hidden-knowledge items); consistent with and directly supported by `extractions/jun-yuh/transcript.txt` quotes on permutation, "you are the niche," and problem-first authority, but these 4 items appear to have been synthesized during skill conversion rather than lifted as a discrete "hidden knowledge" callout in either source document |
 | Hall of Fame Exemplars 1-3 and Anti-Exemplar | UNCONFIRMED as literal Jun Yuh content | These are illustrative constructions built to demonstrate the patterns (per the extraction methodology's exemplar-construction step), not quoted or paraphrased from a specific real post described in either transcript. They are internally consistent with the sourced patterns above but should not be cited as "Jun Yuh once posted X." |
+| LIFE retrieval wheel (Love, Identity, Fitness, Earnings) | VERIFIED | `extractions/video-context/XS-E6rnCr5U/transcript.txt`, 00:22:03-00:24:20; indexed in `references/storytelling-masterclass-ledger.md` |
+| Safe -> Real -> Raw through three whys | VERIFIED | Same package, 00:22:43-00:27:20; Raw remains operator-supplied and never authorizes forced disclosure |
+| Pursuit is the method/IP bridge inside 3P | VERIFIED | Same package, 00:37:47-00:38:30; implemented as a hard downgrade when Pursuit is missing |
+| Payoff may be unresolved awareness or a next step | VERIFIED | Same package, 00:28:40-00:39:10; the system may not manufacture a victory state |
+| AI should help find a lived story, not write one from nothing | VERIFIED | Same package, 01:24:19-01:24:34; implemented as interviewer-not-biographer behavior |
+| Privacy boundary: center teller-owned evolution without exposing the triggering event or third party | VERIFIED | Same package, 02:05:47-02:06:40 and 02:17:14-02:18:50 |
+| Six named 3P social-format placements | VERIFIED as Jun's demonstrated format set | Same package, 00:46:10-01:02:20. The formats are optional wrappers; their effectiveness outside the source examples is UNTESTED. |
 
 ## Anti-Pattern Anchors (see `genius.md` → Anti-Patterns)
 

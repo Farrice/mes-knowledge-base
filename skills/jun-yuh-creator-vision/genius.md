@@ -123,6 +123,31 @@ Specifically:
 
 ---
 
+## Masterclass Expansion — The Lived-Story Operating Loop
+
+This additive layer is grounded in `extractions/video-context/XS-E6rnCr5U/` and indexed claim by claim in `references/storytelling-masterclass-ledger.md`. It sharpens the earlier 3P material without replacing Creator Vision or the existing story-dosage owner.
+
+### The complete loop
+
+`bounded moment -> LIFE retrieval -> Safe / Real / Raw -> Problem / Pursuit / Payoff -> mission -> format`
+
+- **LIFE retrieves; it does not force a topic.** Search Love, Identity, Fitness, and Earnings for one specific lived moment.
+- **Safe / Real / Raw controls depth.** Safe is the obvious account. Real is the explicitly supplied tension underneath it. Raw is the quiet truth the operator chooses to authorize. `WITHHELD` and `[NEEDS SOURCE]` are healthy states.
+- **Pursuit carries the transferable method.** Problem creates recognition, but Pursuit shows what was tried, learned, changed, or systemized. That is often where creator IP becomes useful.
+- **Payoff does not require triumph.** A supported change in awareness, a new decision, or an honest unresolved state can close the loop. Never manufacture victory.
+- **Mission precedes format.** One asset attracts, nurtures, positions, or converts. It does not pretend to optimize all four at once.
+- **Format is packaging.** Silent Film, Split-Screen Reel, Advice at Age, Old Me/New Me, Problem Statement Reel, and Split-Screen Carousel place the 3Ps differently; none can rescue unsupported material.
+
+### Truth and privacy boundary
+
+The model is an interviewer, not a biographer. It may organize supplied facts and ask one focused question. It may not invent emotion, motive, dialogue, chronology, transformation, or third-party interiority. The teller's own evolution can remain while a triggering event, identity, or third-party detail is withheld.
+
+Visuals require the same honesty. `EMOTION-MATCHED ILLUSTRATIVE FOOTAGE` may amplify feeling but may not imply that it depicts the historical event. Use authorized archive or contemporaneous evidence when a factual visual claim matters.
+
+### Ownership boundary
+
+Jun owns upstream story-material mining and personal-brand/social formatting. Shaan's system remains the cross-domain narrative-dosage owner: `FULL STORY`, `STORY FRAGMENT`, or `NO STORY`. This prevents a storytelling expert from turning every deliverable into a protagonist arc.
+
 ## Hidden Knowledge
 
 - **The Pain-First Psychological Anchor**: Humans connect primarily through shared struggle. Starting content by flexing lavish success actively alienates viewers. Starting with specific, visceral pain (anxiety, failure, loneliness) engineers immediate empathy and makes the eventual success/authority earned and championable.

@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-08-24 · connected-story-owner-boundary · A new storytelling source overlapped existing Jun and Shaan capabilities and risked creating a duplicate mega-skill or forcing story into every output.
 - 2026-08-21 · documented-but-unwired-read-paths · a memory or knowledge store writes perfectly on launchd schedule yet 'feels dormant' — its retrieval side exists only as a markdown instruction ('always run memory_facade first'), so it fires at model discretion under 5% of prompts while every hook-wired injection path fires on all of them
 - 2026-08-09 · briefing-room-card-portability · a brief rendered inside a worktree lane shows up in the generated Briefing Room but clicking its card returns 404, because the index encoded a checkout-specific absolute path that the ROOT-jailed live server cannot serve
 - 2026-08-07 · canonical-stamp-attractor-living-vs-record · a document stamped canonical keeps outranking newer work — every session gets pointed back at one frozen snapshot instead of the accumulated current files — and the same project has several files each claiming to be the one index to open first
