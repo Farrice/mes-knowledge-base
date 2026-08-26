@@ -378,6 +378,7 @@
 
 
 ## Pending enrichment
+- [2026-08-25 — Handoff — System Health Audit + Repair (2026-08-24)](2026-08-25-handoff-system-health-audit-repair-2026-08-24.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — 2026-08-24-products](2026-08-24-2026-08-24-products.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — Revenue: Claude Skills Business - Research Complete](2026-08-24-claude-skills-business.md) — session-brief stub, needs enrichment
 - [2026-08-23 — Session State Anchor](2026-08-23-session-state-anchor.md) — operator-guide stub, needs enrichment
