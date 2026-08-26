@@ -229,6 +229,12 @@ Keep front doors and high-use control routes hot:
 
 Hot and cold are routing and context-loading states, not filesystem placement. Keep the broad migrated command library logically cold behind `execution/command_menu.py`, `execution/workflow_router.py`, and targeted skill loads. The extraction core is intentionally hot because source work is a daily operator surface and must be deployable without remembering wrapper paths. A command wrapper existing in the single canonical live wrapper tree does not mean Codex should preload or advertise it as the first route.
 
+`/embody` is intentionally explicit-only and logically cold. It is a thin,
+run-scoped mode of `/operator-school` for practicing one judgment from the
+current extraction, artifact, or session. Never auto-invoke it, persist its
+learning record without `--save` or an explicit request, or treat operator
+practice as evidence that upgrades a capability's Mastery Transfer proof state.
+
 `/buyer-trigger-os` is intentionally hot as a thin launcher for `skills/meg-heckman-buyer-trigger-os/`. It must enforce source-trace default and research-trace default, and must not become a duplicate, cheaper implementation of the Meg OS. Current buyer insights, trend-backed concepts, purchase intent research, and social-listening claims must route through `execution/buyer_trigger_research.py` or an equivalent source-led research package before recommendation. The default lane is public/free; paid/quota tools remain approval-gated.
 
 The daily operator command kit (`/session-calibrate`, `/project-coordinate`, `/project-onboard`, `/align`, `/devil`, `/burst`, `/tweak`) is intentionally hot because these commands are small steering utilities used to make ordinary sessions more aligned, coordinated, critique-ready, variant-rich, and easier to improve. Keep their shared policy in `semantic_libraries/antigravity/primitives/daily-operator-command-kit.md`.

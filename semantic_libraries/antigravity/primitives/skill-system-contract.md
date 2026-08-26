@@ -62,6 +62,7 @@ Every skill system must define these fields before it is treated as deployed:
 | Human checkpoint | Where approval, clarification, or review can stop the chain |
 | Validation | Checks for routing, files, evidence, quality, and cold-start use |
 | Behavior-changing proof | Before/after, cold-start run, applied scenario, or transformed artifact proving the capability changes real behavior |
+| Proof state | Highest earned state and first unearned state from `mastery-transfer-proof-spine.md` when the build claims transfer, generalization, field validity, or surpassing |
 | Result surface | How the user sees the final output or artifact |
 | Context policy | What stays hot, what stays cold, and what is loaded only on demand |
 | Reuse hook | Where the system should be reused, extended, or promoted |
@@ -112,6 +113,8 @@ Skip a checkpoint when:
 - `validate_skill.py` passes for the command wrapper when applicable.
 - Cold-start prompt can identify source evidence, components, route, checks, and first action without relying on hidden chat context.
 - Behavior-changing proof exists when the system claims to enhance copy, workflow quality, strategy, creative output, or operating behavior.
+- Claims above `RUNNABLE` use the Mastery Transfer Proof Spine and cannot skip
+  an unearned state.
 
 ## Pilot
 
@@ -119,4 +122,4 @@ The first pilot is `/source-to-skill-system`, grounded in `extractions/video-con
 
 ## Last Updated
 
-2026-08-08
+2026-08-26
