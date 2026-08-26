@@ -1,0 +1,14 @@
+{
+  "artifact_type": "content_system_proof",
+  "title": "David Bayer Language Pass",
+  "source_owner": "Jun Story Engine",
+  "support_layers": [
+    "David Bayer Elite Communication",
+    "Bayer Mirror"
+  ],
+  "voice_mode": "BLEND",
+  "deployment_state": "drafts_only",
+  "market_proof_state": "NO EVENT",
+  "commercial_proof_ceiling": "DELIVERABLE",
+  "created": "2026-08-25"
+}
