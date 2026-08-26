@@ -41,14 +41,14 @@ Every promise, its mechanic, and honest hours. Steady state after the cohort shi
 |---|---|---|---|
 | Listing Launch System, permanent | Formatted once into a client-ready doc set, delivered by link | 2 hrs one-time, total | `04-deliverables/month-01-pack/06-FLAGSHIP-listing-launch-system.md` |
 | Starter library (8+8+15+2+2) | Already written, same delivery link, zero per-client work | 0 | `month-01-pack/01` through `05` |
-| Fair-housing floor on every template | Written into the pack at authoring time | 0 | `00-PACK-GUIDE.md`, file 06 §Fair-Housing Floor |
+| Fair-housing floor on every template | Written into the pack at authoring time | 0 | `04-deliverables/month-01-pack/00-PACK-GUIDE.md`, file 06 §Fair-Housing Floor |
 | 60-min install call | One scheduled call, shoot sheet filled live | 1.0 hr / client | none |
 | First launch produced with them | Listing-content engine run on their MLS sheet | 2.5 hrs / client | `skills/jen-santulan-listing-content` (golden-ref proven) |
 | 30-min debrief + handoff | One scheduled call | 0.5 hr / client | none |
 | Email support, 2-day reply, 14-day install window only | Bounded window, stated in the agreement | 0.5 hr / client | none |
 | Agency rebrand license | A license clause, not a deliverable | 0 | `03-storefront/01-sales-page.md` license language |
 | Listing Desk, 4 quarterly refreshes (optional) | Built once per quarter, shipped to all holders | 4 hrs / quarter, all clients | month-1 pack as the format spine |
-| Renewal + billing admin | Stripe, annual invoice, one touch per year | ~1 hr / month | `03-stripe-setup-walkthrough.md` |
+| Renewal + billing admin | Stripe, annual invoice, one touch per year | ~1 hr / month | `03-storefront/03-stripe-setup-walkthrough.md` |
 
 **Per client, one time: 4.5 hrs. Cohort of six: 27 hrs. Steady state after: ~2.5 hrs/month regardless of how many clients hold the system.** That last clause is the whole design. Refresh work is built once and shipped to everyone, so client count stops driving hours the moment the installs are done.
 
@@ -70,7 +70,7 @@ Every promise, its mechanic, and honest hours. Steady state after the cohort shi
 
 ## 4. Price Receipts
 
-All bands from `deliverables/research-briefs/income-master-2026-08/income-master-2026-08-brief.md`, retrieved 2026-08-22.
+All bands from `deliverables/research-briefs/income-master-2026-08/income-master-2026-08-brief.md`, retrieved 2026-08-22. The source brief remains pending merge from its research lane; do not remove the `UNTESTED` labels until that durable path resolves in main.
 
 | Price | Verified band | Label | Note |
 |---|---|---|---|

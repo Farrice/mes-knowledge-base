@@ -1,6 +1,6 @@
 # Pricing rationale
 
-All receipts from `deliverables/research-briefs/income-master-2026-08/income-master-2026-08-brief.md` (red-team revised figures, retrieved 2026-08-22).
+All receipts from `deliverables/research-briefs/income-master-2026-08/income-master-2026-08-brief.md` (red-team revised figures, retrieved 2026-08-22). The source brief remains pending merge from its research lane; the price bands stay `UNTESTED` until that durable path resolves in main.
 
 ## Practitioner: $49/mo
 
