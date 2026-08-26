@@ -1,12 +1,13 @@
 # Knowledge Briefing
-*Generated: 2026-08-24 | 1161 sources | 3,665,679 words*
+*Generated: 2026-08-25 | 1162 sources | 3,668,405 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 7,321 words — `knowledge/index.md`
-- **log** (general) — 19,748 words — `knowledge/log.md`
+- **index** (content) — 7,326 words — `knowledge/index.md`
+- **log** (general) — 19,821 words — `knowledge/log.md`
+- **2026-08-24-pulse** (strategy) — 2,648 words — `research_outputs/market-pulse/2026-08-24-pulse.md`
 - **analysis** (copywriting) — 537 words — `extractions/video-context/Tnv9PuMo84E/analysis.md`
 - **behavior-proof** (copywriting [april-dunford]) — 712 words — `extractions/video-context/Tnv9PuMo84E/behavior-proof.md`
 - **deep-extraction** (content) — 1,504 words — `extractions/video-context/Tnv9PuMo84E/deep-extraction.md`
@@ -14,7 +15,6 @@
 - **ocr-notes** (general) — 47 words — `extractions/video-context/Tnv9PuMo84E/ocr-notes.md`
 - **research-claim-audit** (research) — 551 words — `extractions/video-context/Tnv9PuMo84E/research-claim-audit.md`
 - **skill-system-contract** (content) — 548 words — `extractions/video-context/Tnv9PuMo84E/skill-system-contract.md`
-- **source-package** (copywriting) — 445 words — `extractions/video-context/Tnv9PuMo84E/source-package.md`
 
 ## Domain Coverage
 
@@ -24,7 +24,7 @@
 | copywriting | 203 | jason-fladlien |
 | general | 126 | nick-saraev |
 | screenwriting | 124 | connelly |
-| strategy | 115 | april-dunford |
+| strategy | 116 | april-dunford |
 | brand | 66 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |

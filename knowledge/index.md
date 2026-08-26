@@ -1,5 +1,5 @@
 # Knowledge Index
-*1161 sources | 3,665,679 words | Updated: 2026-08-24*
+*1162 sources | 3,668,405 words | Updated: 2026-08-25*
 
 ---
 
@@ -23,7 +23,7 @@
 - [visual-context](../extractions/brad-bonanno-edit-bay/visual-context.md) — 8,349 words
 - [visual-context](../extractions/meg-heckman/video-context-iFvHwZBIwoA/visual-context.md) — 8,135 words
 - [extraction-report](../extractions/cody-schneider-signal-outbound/extraction-report.md) — 7,487 words
-- [index](index.md) — 7,321 words
+- [index](index.md) — 7,326 words
 - [visual-context](../extractions/eddy-ballesteros/visual-context.md) — 6,808 words
 - [weatherbot-extraction](../extractions/prediction-market-trading/weatherbot-extraction.md) — 6,774 words
 - [visual-context](../extractions/customer-lang-research/visual-context.md) — 6,760 words
@@ -596,7 +596,7 @@
 - [video-context-ledger](../extractions/video-context/B90eANIJ2XI/video-context-ledger.md) — 31,692 words
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
-- [log](log.md) — 19,748 words
+- [log](log.md) — 19,821 words
 - [video-context-ledger](../extractions/video-context/H_TvNSNbRiU/video-context-ledger.md) [jason-fladlien] — 16,634 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
 - [video-context-ledger](../extractions/video-context/jbPNjNtQqk0/video-context-ledger.md) — 13,566 words
@@ -835,7 +835,7 @@
 - [frame-notes](../extractions/video-context/ooGeFK70d5U/frame-notes.md) — 18 words
 - [ocr-notes](../extractions/video-context/ooGeFK70d5U/ocr-notes.md) — 18 words
 
-## Strategy (115 files)
+## Strategy (116 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -861,6 +861,7 @@
 - [DESIGN](design-libraries/brands/raycast/DESIGN.md) — 2,821 words (stale)
 - [2026-07-14-claude-skills-business-deep-research](../research_outputs/2026-07-14-claude-skills-business-deep-research.md) — 2,723 words
 - [extraction-report](../extractions/niche-bending/extraction-report.md) [april-dunford] — 2,664 words (stale)
+- [2026-08-24-pulse](../research_outputs/market-pulse/2026-08-24-pulse.md) — 2,648 words
 - [2026-08-09-angle-map-god-agent-deep-research](../research_outputs/2026-08-09-angle-map-god-agent-deep-research.md) [april-dunford] — 2,544 words
 - [vision-checkpoint](../extractions/video-context/4HqO0h13MX4/vision-checkpoint.md) — 2,405 words
 - [00-research-dossier](../research_outputs/prediction-market-arb/00-research-dossier.md) — 2,229 words
