@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "policy": {
+    "primary_skill_limit": 1,
+    "support_skill_limit": 1,
+    "bulk_load_forbidden": true,
+    "route_on_purchased_job": true
+  },
+  "routes": [
+    {
+      "id": "taste",
+      "skill": "oren-taste-development",
+      "signals": ["critique", "quality", "taste gap", "aesthetic judgment", "cev", "moodboard", "art direction"],
+      "front_door": "skills/oren-taste-development/workflows/creative-quality-audit-system.md",
+      "boundary": "Use for object-level judgment and taste calibration, not era diagnosis or market positioning."
+    },
+    {
+      "id": "luxury",
+      "skill": "oren-luxury-psychology",
+      "signals": ["luxury", "premium buyer", "insider codes", "connoisseur", "high-ticket progression", "outsider signals"],
+      "front_door": "skills/oren-luxury-psychology/workflows/premium-signal-audit-transformation.md",
+      "boundary": "Use when premium-market fluency and buyer psychology are the purchased job."
+    },
+    {
+      "id": "repositioning",
+      "skill": "oren-repositioning",
+      "signals": ["reposition", "counterposition", "category codes", "creative direction", "ten-year vector", "cultural authenticity"],
+      "front_door": "skills/oren-repositioning/workflows/strategic-repositioning-brief.md",
+      "boundary": "Use to change a brand or personality's market meaning; hand full world construction to the Norton package."
+    },
+    {
+      "id": "operations",
+      "skill": "oren-operational-systems",
+      "signals": ["reference repository", "ideas pipeline", "content calendar", "weekly update", "team tracker", "process documentation", "sop"],
+      "front_door": "skills/oren-operational-systems/workflows/team-operations-infrastructure.md",
+      "boundary": "Use for operational infrastructure; content-organization design belongs to content-team architecture."
+    },
+    {
+      "id": "one_person_ai_marketer",
+      "skill": "oren-one-person-ai-marketer",
+      "signals": ["one-person marketer", "solo marketer", "weekly marketing os", "ai marketing execution", "funnel flywheel", "capture to call", "offer ladder", "funnel test loop"],
+      "front_door": ".agent/workflows/oren-one.md",
+      "boundary": "Use for lean AI-enabled marketing execution and complete funnel architecture; do not claim profitability without measured economics."
+    },
+    {
+      "id": "identity",
+      "skill": "oren-identity-brand-os",
+      "signals": ["identity driver", "true fans", "belonging", "subculture pride", "aspiration avatar", "public identity", "tribe"],
+      "front_door": "skills/oren-identity-brand-os/workflows/identity-brand-os.md",
+      "boundary": "Use before content archetype selection when the buyer's self-association or founder identity is unresolved."
+    },
+    {
+      "id": "archetype",
+      "skill": "oren-brand-archetypes",
+      "signals": ["content archetype", "oracle archetype", "performer archetype", "world builder archetype", "catalyst archetype", "helper archetype", "what should this brand do on social"],
+      "front_door": "skills/oren-brand-archetypes/workflows/archetype-diagnostic.md",
+      "boundary": "Use to choose the brand's repeatable social role after identity is sufficiently clear."
+    },
+    {
+      "id": "content_team",
+      "skill": "oren-content-team-architecture",
+      "signals": ["content team", "content pod", "media company", "signature series", "creator network", "production cadence", "media machine"],
+      "front_door": "skills/oren-content-team-architecture/workflows/oren-media-org-diagnostic.md",
+      "boundary": "Use for organization, staffing, cadence, and scalable content production."
+    },
+    {
+      "id": "ad_psychology",
+      "skill": "oren-dara-ad-psychology",
+      "signals": ["ad psychology", "cold traffic", "taboo ad", "justification math", "proof in frame", "comment mine", "creative strategy sprint"],
+      "front_door": "skills/oren-dara-ad-psychology/workflows/01-tactic-select.md",
+      "boundary": "Use for pre-format paid-creative psychology; route account economics and ROAS diagnosis to the paid-media owner."
+    },
+    {
+      "id": "world_building",
+      "skill": "oren-norton-world-building",
+      "signals": ["brand world", "world bible", "lore", "initiation mechanic", "campaign world", "fantasy engine", "institutions"],
+      "front_door": "skills/oren-norton-world-building/workflows/brand-world-forge.md",
+      "boundary": "Use when positioning is ready to become a coherent world of roles, props, lore, and touchpoints."
+    },
+    {
+      "id": "slop_era",
+      "skill": "oren-slop-era-creative-strategy",
+      "signals": ["everything feels the same", "slop era", "generic ai", "stand out in 2026", "reference edge", "funnel necropsy", "ad opinion reps"],
+      "front_door": "skills/oren-slop-era-creative-strategy/workflows/slop-era-audit.md",
+      "boundary": "Use for era-level sameness diagnosis and marketer training, not object-level CEV critique."
+    }
+  ],
+  "external_handoffs": [
+    {
+      "id": "paid_media_diagnosis",
+      "signals": ["why did meta roas fall", "diagnose roas", "cac rose", "media buying economics"],
+      "owner": "Benoit Vatere paid-media diagnostics",
+      "command": "/golden-core-diagnostic"
+    },
+    {
+      "id": "full_vsl_copy",
+      "signals": ["write the full vsl", "full vsl script", "write my video sales letter"],
+      "owner": "VSL and conversion-copy specialist",
+      "command": "/vsl-lead"
+    },
+    {
+      "id": "lead_magnet_detail",
+      "signals": ["design the complete lead magnet", "write the whole lead magnet"],
+      "owner": "Stockton Walbeck lead-magnet system",
+      "command": "/stockton-walbeck"
+    }
+  ]
+}

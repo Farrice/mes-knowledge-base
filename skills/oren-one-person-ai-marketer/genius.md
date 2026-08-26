@@ -188,6 +188,10 @@ Tacit insights Oren demonstrates but doesn't explicitly teach.
 - Paid media → **09 Performance Block** (capped). Creator volume → **10 Influencer Back Office**.
 - Pitching the model / facing an AI-restructuring conversation → **11 Legend Builder**.
 - Strategy + execution must ship together → **12 Six-Skill Activation Chain**.
+- Complete customer journey → **13 Funnel Flywheel Architect**; route choice first → **14 Funnel Route Selector**.
+- Capture, qualification, booking, show-up, CRM, or nurture → **15 Capture-to-Call Architect**.
+- Entry/primary/upsell/retention economics → **16 Offer Ladder and Economics Gate**.
+- Observed funnel evidence or weak-stage experiment → **17 Funnel Test and Learning Loop**.
 
 **The master diagnostic before automating ANYTHING: "Is sameness acceptable here?"**
 - Yes (scaled collateral, ads, SEO, cart flows, sales templates) → Class A → AI-assisted through the brand-voice Project.
@@ -211,6 +215,41 @@ Tacit insights Oren demonstrates but doesn't explicitly teach.
 - **Trough-panic.** Changing strategy based on mid-May–mid-June (or other known-trough) metrics → reacting to a seasonal constant as if it were signal. (Oren, verbatim — the raw transcript reads "every single year around miday to mid June" [transcription artifact for mid-May] — `extractions/oren-1person-ai-marketing/transcript.txt`.)
 - **Legend without receipts.** Claiming the one-person-operator narrative without the actual built system → collapses the moment someone asks to see it; itself slop. (Oren, verbatim: "there's a lot of truth to one really effective person monitoring this stuff even at a big business and using some tools to help bring them in data and generate ideas can go a massively long way." — `extractions/oren-1person-ai-marketing/transcript.txt`; this strand is graded `[REAL / BORDERLINE on the anecdote]` in `extractions/oren-1person-ai-marketing/mastery-extraction.md`.)
 - **Designed founder emails.** Over-polishing the plain-text founder email → loses the personal substance that justifies the surface. (Oren, verbatim: "I would suggest sending more plain text stuff whether it's from a founder or whatever it is." — `extractions/oren-1person-ai-marketing/transcript.txt`.)
+- **Page-as-funnel.** Shipping a landing page with no capture, qualification, follow-up, sale, or retention transitions → a surface without a journey.
+- **Tool-first architecture.** Choosing Framer, Kit, HubSpot, or any automation before the route and handoff jobs → sponsored/demo convenience mistaken for strategy.
+- **Tripwire-profit theater.** Claiming break-even acquisition or LTV lift without CAC, conversion, fulfillment cost, repeat purchase, and downstream value → unsupported economics.
+- **Booked-call inflation.** Reporting bookings as held calls, sales, deposits, or collected revenue → false commercial progress.
+- **Automated intimacy.** Treating comments or follows as permission for bulk DMs → the social-conversation mechanic turned into spam.
+
+---
+
+## Funnel Flywheel Extension — Patterns 19–30
+
+**19. Journey Before Page.** The funnel is the sequence of state changes from attention to sale; each page, DM, email, and call exists only to earn the next state.
+
+**20. Offer Before Traffic.** Lock the buyer, purchased job, offer, and boundary before choosing a route. Ambiguity upstream cannot be repaired with more pages.
+
+**21. Capture Creates an Owned Asset.** Attention becomes useful when permissioned contact, source, state, and owner make follow-up possible. List size remains an intermediate asset, not revenue.
+
+**22. Commitment Determines Route.** Lead magnet, tripwire, webinar, VSL, DM, direct-call, and hybrid routes solve different commitment and explanation problems. Choose the minimum viable route.
+
+**23. Thank-You as Transition.** Confirm and deliver the first promise, then offer one proportionate next commitment. Never leave the thank-you step as dead space or a competing CTA pile.
+
+**24. Qualification Protects Capacity.** Separate fit from persuasion. Geography, need, evidence, budget, timing, authority, and operational readiness determine advancement only when the offer requires them.
+
+**25. Show-Up Is Designed.** Booking, held call, sale, and payment are different states. Preparation, expectations, reminders, agenda, and ownership earn attendance.
+
+**26. Conversation Converts Social Attention.** Relevant, permission-aware DMs can convert engagement into discovery. AI may map drafts; the operator owns relationship context and sending.
+
+**27. Funnel Archaeology Preserves Evidence.** Capture the full ad/page/upsell/follow-up spine before it disappears, then borrow the mechanism rather than cloning surface design.
+
+**28. Test Meaning Before Cosmetics.** Human narrative, evidence-led, and direct-response treatments test different reasons to act. Page length, mode, and video are secondary variables.
+
+**29. Nurture Starts Immediately.** Confirm the action and expectations now; send the best relevant education next day; continue only when each message has a learning or conversion job.
+
+**30. Economics and Permission Are Vetoes.** Missing CAC/conversion/cost/repeat/LTV blocks profitability language. Missing external-action permission keeps every page, DM, email, CRM, ad, and payment output in draft/build-spec state.
+
+**Source boundary:** Patterns 19–29 are source-derived syntheses from `extractions/oren-1person-ai-marketing/funnel-flywheel-2026/`. Pattern 30 is the Antigravity enhancement that prevents Oren's practitioner examples from becoming unsupported financial or external-action claims. Framer remains a sponsored example, never infrastructure.
 
 ---
 

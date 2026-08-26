@@ -148,6 +148,6 @@ BUDGET REALLOCATION:
 |:-------------------|:-----------|:----|
 | Weak paid node | `/full-stack-ad` | Luke Iha ad creative pipeline |
 | Weak brand world | `/oren-creator-network` | Build external creator network |
-| Weak conversion | `/storybrand-copy` | Messaging overhaul on landing pages |
+| Weak conversion | `/oren-funnel-flywheel` | Map the full conversion journey and isolate the broken handoff; route full copy afterward |
 | Weak communications | `/email-narrative` | Email sequence architecture |
 | Agency doesn't get flywheel | `/oren-content-team-audit` | Full team diagnostic including agencies |

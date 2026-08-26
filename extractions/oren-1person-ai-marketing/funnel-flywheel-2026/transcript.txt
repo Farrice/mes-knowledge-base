@@ -1,0 +1,971 @@
+Creatives of all kinds always dance
+around the topics that will make them
+money. There's just something in
+creative or freelancer culture that just
+almost makes you feel awkward talking
+about the things that actually work to
+sell. I am here as a creator in the
+later stages of my career to tell you
+that you need to throw that inhibition
+away. [music]
+You need to heal your creative
+relationship with money and success and
+not feel bad about it. Embrace it. Learn
+the things that will help you in your
+career. And one of those concepts,
+perhaps the most important concept, is
+the idea of a funnel. The funnel is the
+journey a potential customer goes
+through with you as they convert into a
+sale. In a previous video, I talked
+about offers, which is how you structure
+what you sell for people to actually
+want to buy it. And this is a
+complimentary video. You do not have to
+have watched that first one where I am
+to explain to you what types of
+businesses use funnels. I'm going to
+actually show you how to build them and
+we are going to build some live here.
+I'm going to break down every term,
+every term you might hear inside this
+niche that people talk about and explain
+what it is. I'm going to break down the
+common types of funnels and talk to you
+about how to build them. It's going to
+be super informative if you want a
+direct toolkit, if you sell services, if
+you sell information products, if you
+have an agency or if you are a
+freelancer. My goal is to make an ultra
+valuable video that you will be able to
+use for yourself or for clients for the
+rest of your career. Let's lock in. So,
+first, what types of businesses use
+funnels? What are we even talking about
+here? So if you sell a service, so for
+instance, you are trading design or
+copywriting, construction labor,
+whatever it is, and you want someone to
+buy that service from you. They are
+going to go through a funnel to actually
+get the sale closed. So what do I mean
+by that? You are going to attract people
+via social media, advertisers, whatever,
+and they are going to go to your
+website. Now, on that website, they're
+going to have an experience. There might
+be just a page that says, "Call me if
+you want to buy my services." That's not
+a very effective funnel. But instead,
+there are multiple options. We're going
+to go through a wide variety of them
+here today that will say, "Hey, explain
+what their business does. It will
+potentially give you a free download or
+a free consultation or it'll invite you
+to an informative call and lead you
+through a flow to eventually get you to
+a particular end state. This also gets
+more refined. People might come in to
+buy something lower price and inside the
+funnel, you're able to work them up into
+something higher priced. This works
+equally as well for information products
+from master classes to courses to lots
+and downloads and all the myriad of
+things that people sell online. And why
+I really wanted to make this video is
+because there's creatives and creators
+selling more stuff than ever. You can
+get presets, you can get templates,
+wallpaper packs, courses, how-tos, as
+well as their services, whether that's
+coaching or video editing, interior
+design, whatever it is. More people are
+selling these and they're using really
+unsophisticated methods to execute. But
+we have all the tools to do this in an
+amazing way today. And one in particular
+that I'm going to use to walk through in
+all these is Framer, which is a website
+builder. But now with its latest
+releases, you simply just ask in chat to
+complete a lot of this or templatize a
+lot of this for you. And we'll show you
+exactly how that works. Because it used
+to be to execute something like this,
+not only did you have to be the person
+who had the service, but then you had to
+actually go get designers for your
+landing pages and have people to
+actually help you write copy and put all
+this together. And you can completely do
+this as a oneperson army or as a small
+team now in a way that is incredible for
+new entrepreneurs. So to start in
+section one, I'm going to define all the
+key terms you may have heard, you may
+likely know, but not know what they are.
+And then I'm going to go into an example
+funnel to actually show you how they all
+work. So first, we have a landing page.
+A landing page is literally the web page
+that people land on when you want them
+to begin your experience with them. So
+if you come straight from an ad or from
+the link in your bio on social media,
+what is the page that they land on? What
+does it say? The second thing is the
+offers. What I have a whole video about.
+This is how you structure what you sell.
+Because for a lot of creatives, a lot of
+freelancers, they will have some
+ambiguous offer. I do graphic design. I
+do writing. I do whatever. And that is
+not an effective tactic to sell versus
+the framework I laid out in that video
+is I am a blank that makes blank for
+blank. I'm a graphic designer that makes
+landing pages for creatives. I'm an
+interior designer that does home
+renovations in Orange County. You need a
+framework to help structure your offer.
+Third is what's called a lead magnet.
+And to define a lead magnet, we'll
+define a lead. So a lead is someone who
+comes in who has not bought from your
+business, but you retained their contact
+information. So for instance, if someone
+signs up for a call from you and gives
+you their phone number and their email,
+but they haven't bought yet, they are
+considered a lead. You store leads in a
+CRM, customer relationship manager. You
+see, HubSpot constantly is a sponsor for
+a number of my videos. They are one of
+the most prolific CRM. So all your leads
+are stored inside of a system and you
+can see the last time that they got
+called or where they came in from. It's
+basically a record management system for
+your leads. So a lead magnet is
+something that you use to get more
+people in the door. So for instance, if
+you offer a free download, say you are
+an interior designer selling services in
+Orange County and you offer the 12step
+checklist to prepare for your home rena
+and for people to get that PDF, they
+need to give you their email address.
+That is a lead magnet. And for a lot of
+creatives, I highly suggest doing this
+for your work. You will notice when I
+worked with Van Group, we sold really
+high-end premium websites. So when I was
+the creative and residents there, we
+were doing the websites for people like
+Road, we did Kylie's Beauty Company, we
+did makeup by Mario, Hexcloud, all these
+huge sites, the amazing team there
+worked on. And one of the main things I
+worked on with them is we did lead
+magnets. We did a big ebook on what
+luxury means in the modern world and how
+that plays out online. We got interviews
+with a lot of people to be involved with
+it. We did another one on the beauty
+industry, how the beauty industry was
+shifting and how brands need to show up
+with their online experiences to match
+it. These were extremely thorough,
+wellthoughtout, trend setting content
+that we were promoting very hard and
+they would bring in thousands and
+thousands of leads. And you'll notice
+for a company like Vangroup that sells
+very expensive six-figure websites, all
+you need is a handful of those leads to
+convert over time. It's a long sales
+cycle. Not everyone wants to redo their
+website now. It might be 6 months. It
+might be a year. But you bring those
+leads in through a piece of
+instructional content. You maintain a
+relationship with them through emails
+and automation, things we'll talk about
+here. And over time, a number of them
+turn into sales. And this is how every
+person should begin thinking about the
+funnel of their business. And a good
+thing to note is you may not even know
+what you need to sell them, right? I put
+out lead magnets all the time. I'll be
+linking my luxury guide. I have a free
+creative strategy course, etc. I'm not
+even really selling something super hard
+right now. I don't have some big service
+offering, etc. But I am accumulating
+leads for whenever I do. That's a great
+way to think about if you're publishing
+content, retaining that audience as you
+go. Then you have what's known as a
+squeeze page. This is the page your lead
+magnet lives on that's designed
+specifically to get information out of
+it. It's a type of landing page, but the
+entire goal of a squeeze page is to get
+them to the next page with as high of a
+conversion rate as you can. And that
+next page is a thank you page where
+typically there will be more information
+or you'll go into another step of the
+funnel. More on that later. That leads
+us to an upsell. An upsell is when
+someone gets something for free from you
+or they buy something at a low price,
+then you offer something immediately at
+a higher price. So, for instance, if you
+just checked out on an e-commerce page
+and you bought the creatine gummies and
+they say you can subscribe at a
+discount, that's an upsell. Or they say,
+"Hey, you can add on the Beta Superba
+for x amount of cost." That's an upsell.
+The same thing happens when you buy
+services, etc. Do you want to add on the
+audit? Do you want a free cleaning with
+that for just $99? We can turn this into
+a retainer, whatever it is, those are
+all upsells. Then you have this concept
+of extras. So, you'll see as you begin
+selling things online, there's a
+psychology element to it. If you're
+giving a freelance service and you also
+include all the courses that you've ever
+offered or a free community that comes
+with anyone who's your client gets to be
+a member of the community, whatever it
+is, those are all extras people will
+throw in to sweeten the price or to get
+people excited about participating in
+something for them. But the concept of
+extras is important when you think about
+funnels because when you begin testing
+why aren't people buying, you can begin
+saying could I put more things in there?
+Could I sweeten the offer? That brings
+us to a guarantee. Another thing that
+helps people convert inside of a funnel
+is saying, "Hey, if you don't like my
+work, you get your money back." Or, "If
+we don't deliver this in 30 days, you
+get our money back." And you may choose
+to offer one or not, but it's a concept
+worth understanding and you'll see a lot
+of people do. List is another term you
+hear. It's another landing page type
+where you may see instead of someone
+being like, "Just buy my thing and it'll
+be like the six reasons why it's time
+for a high converting website or
+whatever is where they actually showcase
+things in an article format to then get
+your information versus just pitching
+their product." So, this is a type of
+page. An important thing to think about
+is that based on how much what you sell
+costs, it's likely going to involve a
+call. One of the cardinal rules of thumb
+you'll see online, there's arguments
+about the exact number, but really
+anything you sell over about $2,000, you
+will convert far more people if someone
+gets on the phone and actually talks
+with them. There are two steps to this
+process, which are important to
+understand. Salespeople that exist to
+close these calls to basically take
+leads, get on the phone with them, and
+help sell something, are called closers.
+And you will see as you begin to sell
+items or sell items for other people, it
+usually starts with whoever's actually
+the founder, etc. getting on the phone
+and doing the closing. Eventually, they
+won't have the time to do that. They
+will hire a closer. You'll have more and
+more people do it. As you begin to get
+lots of people doing this, your business
+begins to fill up. There becomes two
+roles. There's a setter and a closer.
+The setter's only job is to get the
+emails that come in, find times with
+them, send reminders, and make sure
+people get on the calls with the
+closers. I'm giving you the full
+architecture here. It's important
+information to understand. On top of
+this, we have automation. When someone
+becomes a lead, they'll usually get a
+series of emails automatically to help
+educate them on whatever it is they're
+buying, the people behind it, etc. Then
+we have this concept of top offunnel and
+bottom of funnel. So top ofunnel is
+basically getting people to your pages.
+If you someone says you need more top
+offunnel traffic, you need more overall
+interest and attention. We have
+thousands of people go to those ebooks
+for a van group. That's getting a wide
+swath of attention. You're engineering
+more top offunnel. That's a big top.
+Only a handful of people come out the
+bottom, right? It's a high priced offer.
+And the bottom of funnel is people that
+are ready to convert. They're at the
+end. They are qualified leads. A
+qualified lead is someone who has the
+they are the right company. They have
+the right amount of money. They will be
+the right type of person to buy. Not
+everyone who signs up at your top of
+funnel is qualified to make it to the
+bottom of funnel and has also expressed
+enough interest to be at the bottom of
+funnel. Now, the bottom of funnel people
+are really, really, really important.
+These are hot leads. People that are
+qualified to buy from your business.
+They're excited. They have downloaded
+your content. And so, you pay extra
+attention to them and market to them
+separately. That's a separate video. And
+the last of the terms I'll define here
+is what's known as a DM funnel. So now
+in the social media era, a lot of this
+goes down in the DMs. And before I go
+into an example of what this means from
+a website perspective, I want to talk
+about the importance there. So in cut 30
+all the time, we train now thousands of
+experts on how to make content. And a
+lot of them are generating leads for
+their businesses. And one thing I always
+call is people be like, I'm making
+content, but I'm not getting any leads.
+I say, well, how many people are you
+DMing with actively? And they'll often
+be like, well, not really any. And DMs
+are such an important critical part of
+social media. Social media is inherently
+social, thus the word. If someone comes
+in, they're commenting on all your
+videos and you're a roofing company in
+the Pacific Northwest. I'm using that
+example cuz we literally have this in
+Cut 30. If those people are in the
+Pacific Northwest, you go to their
+Instagram profile and it looks like they
+own a home, shoot them a DM. Hey, saw
+you've been commenting on the stuff
+looking at getting a new roof anytime
+soon. What neighborhood are you in?
+Begin to strike up conversations with
+them. It's the same thing with graphic
+design, etc. You see someone, you see
+what business they work for. Hey, would
+love the opportunity to work with blank
+someday. Curious what you're working on
+over at X and Y. Those conversations,
+especially when you begin to do a lot of
+them, lead to a lot of high value. And
+you can also on Instagram stories,
+encourage people to reply to you. Ask
+them if anyone's looking for X or Y or
+what their opinions are. Begin to build
+that rapport with them. But a lot
+happens in the DMs. And businesses build
+entire funnels around is where DMF
+funnel comes from where there's entire
+businesses for service related for info
+products where they are selling to
+hundreds of people in the DMs actively
+and they are managing all that in its
+own CRM. And so it's worth considering
+that if you have social media attention,
+you're not converting it. You may need
+to lead on the conversations. you may
+need to ask. And on the other side of
+breaking that down, that barrier you may
+have of you saying in the back of your
+head, I don't want to do that. Of you
+just making that plunge is the clientele
+that you want, is the success for your
+business that you want. All right, so
+here we are inside of Framer. If you've
+not been inside of Framer before, we are
+on what's called the canvas right now.
+And over here on the left side, I have
+the pages, all the different pages of
+your website you are on. You can click
+back and forth between them. Going to
+show a few I actually have. On the
+canvas itself, you will see the desktop,
+tablet, and mobile versions of a
+website. You can go over into layers and
+see the layers of whatever section you
+have to see the actual designs. And over
+here on the right side, you have the
+agent. So, frame has agents inside of
+the businesses now. And you can see the
+agent is literally working as we speak.
+So, right here, this is a landing page
+for uh many of you may have seen I did
+this content operations sprint. I did a
+week-long paid community thing in July
+for people that want to creative direct
+their content or learn how to creative
+direct content for others. And in that,
+I followed a landing page structure. I
+talked about the problem that people are
+facing. I talked about what the solution
+is. I provided what's inside of the
+program that we have, who exactly is
+for, what the details are, the cost,
+went through the FAQ, and the info
+there. Now, I just asked the agent to
+redo this design style for me in a more
+particular type of graphic style, which
+it just did. We'd had a graphic designer
+do it, but I wanted it a bit more in a
+Swiss grid style on the mobile. So, in
+this right end, you can see here, I
+quite literally just like design a new
+version of this landing page, use all
+the same copy, but with better section
+layouts following a Swiss grid style,
+and it will literally create a new page
+and design those for me. And so, I call
+this out because this is an amazing
+development if you are ever putting
+these types of landing pages together is
+you can literally just ask for it. So,
+what do I mean by this? Let's build a
+lead magnet download page. So, I started
+a new page right here. I go over to the
+agent on the right. I'm literally going
+to type in I'm making a landing page for
+a free ebook about interior design. I
+need a title, subtitle, placeholder for
+a video.
+>> 346 [music]
+minutes later,
+>> use my existing
+website styles. So I typed that in there
+and it is going to create these while we
+keep going through this video. And so
+you will notice if you have a design
+project, so for instance, I have paid a
+designer to create the core of this
+website. So, I already have a beginning
+look and feel on here. You can solve
+that with templates if you do not want
+to have a designer do your own thing.
+But once you begin to have that visual
+identity, creating landing pages is as
+easy as this. I'm going to take this
+framework they have. I'm going to ask
+for any changes and I'm just going to go
+through and insert all my own copy into
+this to finish it off. That is going to
+be the extent of the work that I do. So,
+I'm going to have this this here will
+finish automatically in the next few
+minutes. I will spend 20 minutes going
+through copy and adding images to it.
+And I will have the foundation of my
+funnel. So, any of you who have done
+this before know how painful this was in
+a previous error to actually go build
+all of this out. And if I was more
+prepared for this, you'll see it just
+asked me a question. What kind of
+calendar link do I need? So, I can use a
+placeholder. I'll paste it or use the
+current one that's already on my
+website. I say use the current one. You
+now have the ability to really bang
+these out. And so, this means a lot. If
+you have your own business, excellent.
+You can create all kinds of variations.
+And look here. Look at this is literally
+getting designed like in front of our
+eyes. And they're using placeholder copy
+in here, right? But design a home that
+feels like you. get the full ebook,
+shows me where they're going to add my
+video, four ways to make a room feel
+finished. It's building this out like in
+front of our eyes, then we'll build out
+from desktop to mobile, etc. from there.
+I still get like shocked by this, but
+you now have the ability to bang these
+out for your own business to test these
+things, have no excuse to try stuff and
+put it live. But also if you're offering
+services to other people, if you sell
+things to creators or you want to be
+able to create landing pages and funnels
+as part of the services package you
+offer, if you're a social media manager,
+if you're a strategist, if you're a
+creative director, literally the world
+is your oyster and you can charge quite
+a lot because the ability to actually
+the skill set to actually make it is
+commodified. But the ability to get in
+front of the client, to have the idea,
+to pitch it, to understand this whole
+system I'm articulating, that is the
+value. And so the example how this
+funnel would actually work in its
+entirety is I would have that front page
+like I mentioned in the description.
+You're going to get a lead magnet
+download. Once you complete that, I have
+an upsell on there. Hey, do you want to
+have a consultation? You want to get on
+a call with me right now and we can talk
+about a bathroom renovation if you're
+interested in that? That goes on the
+secondary page. If they confirm that
+call, there's going to be a third page
+that says, "Okay, let's get ready for
+the call. Before you come, here's some
+information I'd love you to have on
+hand. You can expect to have Johnny on
+the call. Here's an introduction to
+Johnny. You can find his social media
+right here. In the first 10 minutes,
+we're going to talk about this. The next
+20 minutes, we're going to talk about
+that." You're going to get a way higher
+likelihood of people to show up to your
+call if you've now followed this funnel
+structure. And for most people, for 90%
+of work you're selling, this is a
+perfect structure. Give someone
+something free. Offer them the ability
+to do something else on top of that. If
+they opt into doing it, give them a
+bunch of information about how it's
+going to work. Now, at the same time
+they're doing this, you can trigger
+email automation. So, here in Framer, I
+can tie this into ConvertKit. I can set
+an automation in ConvertKit based on the
+trigger of when they fill out this form.
+And you can see here they're building
+out the tablet and mobile versions of
+this here, too.
+>> [laughter]
+>> Yo, it's just crazy because the uh I
+used to like do this for people for
+money and thinking about the hours of my
+life that are sunk into it is uh versus
+just like watching in front of your
+eyes. It's crazy. But now that we've
+looked at this, let's actually bake down
+the different types of funnels that we
+have so you can get an understanding of
+what all these are. And there's a ton of
+different ones out there. You can Google
+types of funnels, but I'm going to give
+you a handful I think are the most
+valuable for you to have in your
+toolkit. So, first, like we mentioned,
+is the lead magnet funnel. Easiest one
+to have out there. Every business who is
+trying to generate interest online
+should be doing this. Why? If people are
+trying to quantify social media, why
+should we do more social media? Or how
+do we quantify sales? Well, you can
+certainly quantify leads and emails that
+are on your list. So, using lead magnet
+flows for that or having that as a call
+to action in your content to get
+something free is an awesome way to
+begin applying metrics to social media
+and automation and selling that way is
+probably its own video. Second type of
+funnel is a tripwire funnel. A tripwire
+funnel is when you sell something super
+low price, $1, $20, and then immediately
+present a higher value order right after
+that. So, you will see this a lot. One
+of the originals of this is when people
+would do free plus shipping books. You
+probably saw that really popular in like
+the 2000s where you get a book for free
+plus shipping. You pay $299. So you go
+to the web page and you plug it in, you
+pay your $299, you get the book and
+immediately on the next page it's like,
+"Oh, do you want the software too or do
+you want all the extras? Do you want to
+be able to get the $79 package?" That is
+what's called a trip wire funnel. But
+it's important because it's different
+than just a lead magnet because if
+someone's already spent the money,
+you've already charged a card. The
+information is already in the system.
+You've broken down a psychological
+barrier. You've already basically made
+an achievement that makes the second
+purchase easier. And you'll see there
+are a lot of service-based businesses
+that do something like this. And you
+will see a lot of agencies and people
+who have basically a break even entry
+point. You offer some like pretty
+straightforward service, landing page
+creation, your first 20 social media
+ideas, whatever to kind of get people in
+the door. You'll sell a lot of this
+lower price product. Very similar to
+kind of what you see in ecom and stuff
+too, right? We may have like a loss
+leader to get people in the door. Then
+you grow their average order value,
+their lifetime value as a customer over
+time. Same thing can function here where
+you sell someone something cheap. You
+may not even make any money on it, but
+then you're immediately introducing them
+to a secondary thing that is called a
+tripwire funnel. A great way to
+conceptually think about this also is
+with advertising an ad spend. A lot of
+people will do this to basically break
+even on their ad spend. This is a cheat
+code. So, for instance, if you have a
+$99 product, but you end up selling a
+$5,000 service, if you're advertising,
+selling people the $99 thing, those
+people become leads for the $5,000
+service. You know what your leads are
+worth, you're going to convert ximum
+over time, but you make your money back
+on your ads in the $99 sale that you
+just made. you now can spend way more on
+your advertising and you'll see there
+are tons and tons and tons of businesses
+that do this. All right. Yeah. So, this
+is uh let's check this out. They also
+built the thank you page too. So, if I
+look down here in Framer, I love having
+this like happen in the background. So,
+we have the layout we have here where I
+could go fill in my copy and my images
+etc. That's done in my styles on desktop
+and mobile. I then have the thank you
+page just like I described it where I
+would have my video here and then I will
+have my book a console call that will
+happen right there. Again, this is
+literally the templates for these are
+being added right here. And to give you
+some context, say you were to add in the
+graphics. Um, you may have seen in one
+of my prior videos, I provided the
+graphics and a layout for this. This is
+what's called like a bento style layout
+where I literally provided a screenshot
+of a bento style website and said, "Hey,
+here's the assets. I want me in the
+middle. I want this video over here. And
+then I want here's images of my products
+I want to have around here. And I want
+to have this form call to action."
+That's what I asked for. And it built
+the fully designed layout, too. So, I
+showed templates before cuz I'm the kind
+of person that likes to see a template
+and then fill it in. That's just the way
+my brain works. Not everyone is. But
+when I came prepared and said, "Hey, add
+these images. Add this call to action.
+Add placeholders for testimonials and an
+FAQ below." It built this entire thing
+too. Then I asked for it to give me
+options for rollover effects. And you'll
+see the rollover effects here. So you
+can begin even having that light nuance
+of asking the agent to do things like
+create X effect versus ever dealing with
+like the interfaces etc. And if you've
+ever had any questions about like, oh,
+does this actually work like this? I'm
+doing it in front of you. You are kind
+of watching it come to life. This is the
+exact flow in framework. All right. So
+we talked about lead magnet funnel. We
+talked about tripwire funnel. I'm going
+to talk through two more. I'm going to
+talk through some tips for organizing
+this workflow. I'm going to end with
+some bit of how this is important, how
+you apply this to your career. So, the
+next important type of funnel is what
+we're going to call a webinar funnel.
+So, what this is is you get people to a
+landing page to then get them on a call,
+a oneto- many call, where someone is
+going to get on and they're going to
+pitch the product or the service to a
+wide amount of people. This is great
+especially if you don't have the ability
+to have one-on-one with a setter or a
+closer like we talked about before or
+you're going to do that afterwards or
+you have a really charismatic person
+who's excited to pitch the business.
+Getting them on with a big group and
+answering any questions and going
+through a presentation is an awesome
+flow that just works. I do a community
+call every month. Some months I'm
+saying, "Hey, here's the next cut 30 or
+hey, I'm offering this program or
+whatever." Some months I'm just hanging
+out, but we follow that exact flow here.
+And you can see this is the framework
+layout for my page here where literally
+I kept it super simple. Sunday, June
+7th, the creative direction shift puts
+your info in here. Here's the three
+layouts. It's a simple flow and then
+everyone gets all the information, all
+the reminders via email and text
+message. And the next one is what's
+called a VSSL or video sales letter
+flow. This is when people want to tell a
+really persuasive story. So basically,
+instead of putting a ton of information
+necessarily like on the page, expecting
+people to read it all, you will try to
+sell primarily in one long video that
+follows very specific beats. Usually
+there'll be a very specific problem.
+Then there'll be a very unique
+framework. There'll be information about
+why the person is the right person to
+help solve that framework. They will
+walk through a number of objections and
+there'll be a call to action. And so if
+you have something that requires a lot
+of explanation or you have someone who's
+really good on video, I'd highly
+recommend trying the VSSL funnel. I
+would just Google video salesletter
+structure and you will see there's all
+these web pages that will break down the
+exact flow that you write within. And we
+are now in the amazing world where you
+can take all the pitches for your
+product. You can put that into a chat
+GPT project and you can say, "Hey, can
+we try to get some VSSL scripts with
+this framework?" you can go back through
+and re-edit and will take you a fraction
+of the time for having to do these
+things from scratch. All right, so that
+was there's a lot more funnel types, but
+those are the ones it's worth just being
+aware of. You will see these in the
+world now that we've talked about them.
+So now, how do you organize all this? So
+what I like to do is I will have
+screenshots of landing pages that I see
+whenever I'm sold something. I click on
+ads all the time. I will go look at what
+they do. And those are all the
+frameworks that you paste in to the
+framework agent here and you say know
+when you saw me saying title, subtitle,
+paragraph, video, next section, I want
+three testimonials. Next section I want
+a FAQ. That is just following one of
+those formats. So you literally take it
+and you type it and you break it down
+inside the agent. You get your landing
+page created. I would be saving I would
+have a swipe file of those. Whether
+that's a folder in your Safari or your
+Chrome or whether you're actually doing
+those breakdowns and saving them in
+whatever docs that you use, I would be
+keeping those. And what's great is you
+can literally screenshot those and then
+drop them into the agent and be like,
+"Recreate me a landing page like this.
+Here's the information for my product."
+And it's going to give you the draft.
+And you do the same thing for testing.
+You can test longer landing pages with
+more info, shorter ones that get
+directly to the point, light mode versus
+dark mode, having a video or not. Types
+of messages. You've seen in previous
+videos I've talked about is every offer
+that you have, you should have something
+that is a human-driven narrative where
+you're talking through from your
+perspective. You should have an
+evidence-driven, really databacked
+approach. You should have a direct
+response really finding the problem
+people are trying to solve, attaching
+real numbers to it and pitching them.
+Those are three very unique angles for
+copy. I'd be testing those on your
+landing pages. The other important thing
+that you have is you have access to all
+these framer landing page templates, a
+number of which are actually free. This
+Swiss website that I have bought is one
+of them and an excellent one for like
+high design or if you're showing off a
+portfolio. And again, once you have
+these and you have these styles, you
+just pop into the agent on the side and
+put in your text, etc. You already have
+something. So the cheat code here is to
+find the landing pages that you like,
+use the free ones or buy them. There are
+a number of amazing creative ones from
+here. This is an excellent agent one
+that they have and just ask for what you
+want in the chat. You already have a
+visual basis, fonts, etc. for there. It
+basically supercharges your ability to
+have templates from, oh, I can just fill
+this in to now you basically have a
+canvas you can work from and then use
+the integrations. Again, um there's a
+lot of different emails. I love kit to
+start out. I have no relationship with
+them or beehive or anybody, but using
+kit is plugs really quickly into framer
+and they are free up to a couple
+thousand subscribers and I believe like
+one core automation flow so you can get
+up and spinning pretty quick with them
+and that will help you get this full
+funnel from all the different pages you
+have to what emails are they getting.
+And to give you a quick overview of what
+that looks like when someone signs up
+for something you should get an
+immediate email verifying what they
+signed up for, introducing you as the
+person behind it and whatever they
+should expect next. I would follow up
+likely the next day with more
+information. Easy win is take your most
+popular videos or content you have on
+the subject and give it right there.
+Literally be like, "Hey, know you signed
+up for X and Y. Here's some of our most
+popular things that walk through Z." And
+give them that email right there. And
+then continue nurturing and educating
+them about what's going on through
+email. But at least set up those first
+two to be giving people more
+information. Those are easy wins. And so
+to finalize this off, I want to talk
+about the importance of this cuz again,
+creatives almost feel guilty talking
+about this stuff when it makes the
+entire world around us work. I work at a
+huge agency now. We're not huge. If
+you're 100 plus people or you're
+utilizing these exact tactics to sell
+services, all the people that you know
+that are growing, all the people that
+are selling those individual items, they
+can improve their sales, you can improve
+your toolkit. If you just understand how
+the world around you structurally works,
+you aren't afraid of doing some of this
+work. And I get it. This work sucked. I
+used to do a bunch of this because
+honestly, I really wanted to make the
+most money I could with the time I had,
+not cuz I loved it or enjoyed it. But
+now, if you look at how easy this is to
+be able to do it in the agent era, this
+now really becomes just a matter of your
+own agency. Are you willing to put in
+the light modicum of work it takes to be
+put to actually make a difference in
+your business or your client's business?
+And I cannot tell you if I look at over
+time the amount of websites and landing
+pages and things that I designed and put
+together throughout my entire career as
+a side hustle and what all that money
+added up to over time and the ability
+has given me in my life to do different
+things. It is immense. I will do a CRM
+video one day because this is very
+focused on like pages and the general
+ideas of this. But how you manage those
+contacts and what that looks like and
+how you grow with that over time is
+another ultimate superpower. Right? I
+have whatever it is 70 80,000 email
+subscribers now. Not some massive list,
+right? But everyone is very interested
+in marketing, creative direction,
+digital marketing just off that email
+list. I will never have to have a job
+again. I can always go out and solicit
+clientele from that email list for any
+service or offering I have. And did I
+get that overnight? No. If I'm working
+I've been working on that longer than
+I've been making content. I had an email
+list probably 2 3 years before I started
+making content on here. Honestly, I had
+other emails I tried earlier and just
+never stuck with. If I kept that going
+over time, it would have been even
+easier. But if you think of say I
+started that six years ago, it's a
+realistic time to get to that level.
+Even if you had 5,000 emails over 6
+years, you now always have the ability
+to kickstart your new thing. CRM and
+email are just massively important and
+it's the kind of thing no one will click
+on a thumbnail title of, but will change
+your creative career. So, listen to me
+on there. This video was in partnership
+with Framer, who I could not more
+heartily endorse. Framer has completely
+changed how we work inside Cut30, how I
+work on my own personal website, how I
+work with client businesses. Is an
+excellent piece of software. The agents
+are incredible. I cannot recommend them
+enough. Learn more about them in my
+profile and there's an offer there for
+you to get started as well. As always,
+thank you so much for watching.
+[music]
