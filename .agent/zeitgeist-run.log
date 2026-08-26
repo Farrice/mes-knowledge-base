@@ -129,3 +129,10 @@ claimed: d6442dbfe23e  (heartbeat every wave: session_lock.py heartbeat d6442dbf
 Failed to authenticate: OAuth session expired and could not be refreshed
 released
 === 2026-08-24 07:07:57 zeitgeist run end rc=1 ===
+=== 2026-08-25 06:20:03 zeitgeist run start ===
+claimed: d965b7c7c0c0  (heartbeat every wave: session_lock.py heartbeat d965b7c7c0c0)
+[zeitgeist] ai-consulting-linkedin: 3/4 pulls live, $0.1000 → /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-25-ai-consulting-linkedin-signals.json
+{"packs": ["/Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-25-ai-consulting-linkedin-signals.json"]}
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-25 06:23:36 zeitgeist run end rc=1 ===

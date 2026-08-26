@@ -309,3 +309,8 @@ claimed: 9cf8dc737694  (heartbeat every wave: session_lock.py heartbeat 9cf8dc73
 Failed to authenticate: OAuth session expired and could not be refreshed
 released
 === 2026-08-24 05:52:08 listening run end rc=1 ===
+=== 2026-08-25 05:30:05 listening run start ===
+claimed: bfd9f23543ff  (heartbeat every wave: session_lock.py heartbeat bfd9f23543ff)
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-25 05:30:19 listening run end rc=1 ===
