@@ -1,21 +1,21 @@
 # LinkedIn cash-launch mission
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 23, 2026
+> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 25, 2026
 
 Everything this thread has produced, where it stands, and the next move — assembled from 0 session(s), the handoff store, the finalize ledger and the asset manifest.
 
 ## where this stands
 _CURRENT POSITION_
-Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 deliverable finalized.
+Stage: outcome — an outcome was recorded against it. In the last 14 days: 2 deliverables finalized.
 
-Handoff status is active. Last activity 4d ago.
+Handoff status is active. Last activity 1d ago.
 
 Next: Resume the `go` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (go)._
 
 ## the state, as the last session left it
-Handoff written 27d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 28d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -55,18 +55,21 @@ RESUME HERE: LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources
 
 SHIPPED IN WINDOW:
   - 2026-08-20 · Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session f
+  - 2026-08-24 · Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthroug
 
 (assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
 ```
 
 ## by the numbers
-- DELIVERABLES FINALIZED: **1**
-- DAYS ACTIVE: **4 d**
+- DELIVERABLES FINALIZED: **2**
+- DAYS ACTIVE: **5 d**
 
 ## lifecycle
 
 
 ## how it got here
+- 2026-08-24 · **Finalized · go** — Pick A ignition: month-1 realtor content pack (7 files, 542 lines, golden-ref calibrated) + Stripe-ready storefront (sales page, descriptors, 19-step walkthrough, pricing rationale) + 50-contact verified outreach list wi
+Fleet pattern 3/3 spawns as carded; sales-page drop counts reconciled to actual pack; outreach 50/50 rows source-verified, 8 dead-domain candidates dropped not faked; classifier flags judged structural | Factual Groundin
 - 2026-08-20 · **Finalized · go** — Homebase command center + two-surfaces collapse + deep mission pages + ambient librarian (permanent catalog, /library, judged analyst layer, automatic session filing both harnesses, nightly chain hardened, E2E verified)
 Four /go missions in one arc, all verdict-good or pending; every check sabotage-tested both directions; critical save: old nightly destroyed judged synthesis, restore-not-discard proven by md5 survival | Factual Groundin
 
@@ -78,7 +81,7 @@ Four /go missions in one arc, all verdict-good or pending; every check sabotage-
 _READ THE EDGES_
 The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.
 
-The judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

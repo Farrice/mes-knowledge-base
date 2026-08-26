@@ -6,7 +6,7 @@
   "window": "last 14 days",
   "lens": "codex",
   "sources": "1 sessions · 0 files · 0 assets",
-  "compiled": "aug 23, 2026",
+  "compiled": "aug 25, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,12 +16,12 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "The offer is finished and defensible — buyer council run, make-right clause added, contact kit paste-ready — and it has been sitting untouched for over a week, which means the sprint's most complete asset is also its most idle one.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.\n\nHandoff status is ready. Last activity 12d ago.\n\nNext: Send the contact kit to five named supplement or performance brands today, using the offer exactly as written."
+      "body": "The offer is finished and defensible — buyer council run, make-right clause added, contact kit paste-ready — and it has been sitting untouched for over a week, which means the sprint's most complete asset is also its most idle one.\n\nStage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.\n\nHandoff status is ready. Last activity 13d ago.\n\nNext: Send the contact kit to five named supplement or performance brands today, using the offer exactly as written."
     },
     {
       "kind": "prose",
       "heading": "the state, as the last session *left* it",
-      "body": "Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.\n\nHandoff written 37d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
+      "body": "Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.\n\nHandoff written 38d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since."
     },
     {
       "kind": "decision",
@@ -39,7 +39,7 @@
         },
         {
           "action": "Decide: resume, park, or kill",
-          "why": "No recorded activity in 12 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
+          "why": "No recorded activity in 13 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable)."
         }
       ]
     },
@@ -104,7 +104,7 @@
           "note": "codex"
         },
         {
-          "value": "12",
+          "value": "13",
           "label": "DAYS ACTIVE",
           "unit": "d"
         }
@@ -119,9 +119,9 @@
           "label": "sessions",
           "values": [
             0,
-            0,
-            0,
             1,
+            0,
+            0,
             0,
             0,
             0,
@@ -240,7 +240,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.\n\nThe judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ],
   "status": "active"

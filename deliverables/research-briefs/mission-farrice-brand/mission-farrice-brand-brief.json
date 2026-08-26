@@ -277,5 +277,6 @@
       "kicker": "READ THE EDGES",
       "body": "Nearly all recorded work is generation rather than deployment, and no record links these assets to a published piece. Acceptance testing was self-run, so 'consistent' means consistent to whoever built it.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
-  ]
+  ],
+  "status": "archived"
 }

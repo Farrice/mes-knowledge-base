@@ -1,6 +1,6 @@
 # PROOF-TO-MARKET-OS.md v2.0
 
-> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 23, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 25, 2026
 
 You have a fully loaded offer and an empty outbox.
 
@@ -10,20 +10,20 @@ The offer is finished and defensible — buyer council run, make-right clause ad
 
 Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is ready. Last activity 12d ago.
+Handoff status is ready. Last activity 13d ago.
 
 Next: Send the contact kit to five named supplement or performance brands today, using the offer exactly as written.
 
 ## the state, as the last session left it
 Assessment: This is the strongest piece of thinking in the portfolio and it is doing nothing. The offer survived a five-seat buyer council and came out with a revision, which is exactly the kind of pressure that usually kills weak positioning. A market-pulse routine is wired to run twice a week. But an offer only earns its keep when someone is asked to buy it, and the record shows no ask. The stage label still reads research, which is the honest tell: this thread never crossed into selling.
 
-Handoff written 37d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 38d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 ## what needs you
 The first option is the recommended one; the rest are the real alternatives with the tradeoff each carries.
 1. **Send the existing contact kit to a first batch of named brands this week** — Recommended. The asset is review-hardened and paste-ready; the send is the only untested step. Costs nothing but the risk of hearing no, which is information you currently do not have.
 2. **Refresh the market pulse and re-cut the offer before sending** — Buys currency in a fast-moving category, but the offer already passed a council and another revision round is the shape of avoidance more than improvement.
-3. **Decide: resume, park, or kill** — No recorded activity in 12 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
+3. **Decide: resume, park, or kill** — No recorded activity in 13 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
@@ -59,7 +59,7 @@ RESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **12 d**
+- DAYS ACTIVE: **13 d**
 
 ## momentum
 
@@ -86,7 +86,7 @@ RESUME HERE: PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (
 _READ THE EDGES_
 The pack shows no deliverables and no assets attached despite a finished offer document, so the split between what exists on disk and what is described here is thin. No record of any send, reply, or price objection from a live buyer — every judgment about the offer is internal so far.
 
-The judged analysis above is 3 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

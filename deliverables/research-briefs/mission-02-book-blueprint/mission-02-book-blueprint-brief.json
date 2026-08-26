@@ -1,0 +1,199 @@
+{
+  "slug": "mission-02-book-blueprint",
+  "chip": "MISSION · THREAD",
+  "title": "Book One 80/20 product, layout, pricing, *imagery*…",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 1 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "window": "last 14 days",
+  "lens": "codex",
+  "sources": "1 sessions · 0 files · 0 assets",
+  "compiled": "aug 25, 2026",
+  "footer_left": "ANTIGRAVITY · MISSION SWEEP",
+  "footer_right": "@farricecain",
+  "category": "mission",
+  "priority": 1,
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "where this *stands*",
+      "kicker": "CURRENT POSITION",
+      "body": "Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session, 2 deliverables finalized.\n\nHandoff status is ready. Last activity today.\n\nNext: Resume the `02-book-blueprint` work-stream — see the deliverable above.\n\n_Auto-pinned by chain_runner.finalize (02-book-blueprint)._"
+    },
+    {
+      "kind": "prose",
+      "heading": "the state, as the last session *left* it",
+      "body": "Handoff written 1d ago — treat its plan as current.\n\nDo not rebuild:\n(auto-scaffolded — the store adds this when a handoff omits it)\n\n- (first handoff on this thread — list shipped assets here as they land)\n\n- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode."
+    },
+    {
+      "kind": "playbook",
+      "heading": "resume · park · *kill*",
+      "tag": "DECIDE + RUN",
+      "plays": [
+        {
+          "title": "Resume here",
+          "intent": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan",
+          "command": "python3 execution/handoff_store.py resume 02-book-blueprint",
+          "touches": [
+            ".agent/handoffs/2026-08-24-02-book-blueprint.md"
+          ],
+          "receipt": "The stored handoff prints with drift since it was written."
+        },
+        {
+          "title": "Park it",
+          "intent": "Shelve deliberately — resumable, muted, never urgent.",
+          "command": "python3 execution/pulse_actions.py park 02-book-blueprint --reason \"<one line>\"",
+          "action": {
+            "name": "park",
+            "slug": "02-book-blueprint",
+            "ask": "Park reason (one line):"
+          },
+          "receipt": "Handoff annotated parked; drops out of needs-you."
+        },
+        {
+          "title": "Kill it",
+          "intent": "Dead + hidden. Never resurfaces on boards or in the sweep; recoverable only from the ledger.",
+          "command": "python3 execution/pulse_actions.py kill 02-book-blueprint --reason \"<one line>\"",
+          "action": {
+            "name": "kill",
+            "slug": "02-book-blueprint",
+            "ask": "Kill reason (required):",
+            "confirm": "Kill this thread? It disappears from every board."
+          },
+          "receipt": "Ledger line `killed` + handoff archived."
+        }
+      ]
+    },
+    {
+      "kind": "deploy",
+      "heading": "pick it up *anywhere*",
+      "tag": "COPY-PASTE",
+      "blocks": [
+        {
+          "label": "CONTEXT PACK — paste into any session",
+          "text": "THREAD: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\nSLUG: 02-book-blueprint\nSTATUS: ready · STAGE: outcome\nBRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-02-book-blueprint/mission-02-book-blueprint-brief.md\nHANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-02-book-blueprint.md\n\nRESUME HERE: Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\n\nSHIPPED IN WINDOW:\n  - 2026-08-24 · Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-day build plan\n  - 2026-08-24 · Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\n\n(assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)"
+        }
+      ]
+    },
+    {
+      "kind": "stats",
+      "heading": "by the numbers",
+      "tag": "LAST 14 DAYS",
+      "items": [
+        {
+          "value": "2",
+          "label": "DELIVERABLES FINALIZED"
+        },
+        {
+          "value": "1",
+          "label": "SESSIONS",
+          "note": "codex"
+        },
+        {
+          "value": "1",
+          "label": "DAYS ACTIVE",
+          "unit": "d"
+        }
+      ]
+    },
+    {
+      "kind": "spark",
+      "heading": "momentum",
+      "caption": "daily, last 14 days — each series scaled to itself",
+      "series": [
+        {
+          "label": "sessions",
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "value": "1",
+          "unit": "total",
+          "note": "per day"
+        }
+      ]
+    },
+    {
+      "kind": "progress",
+      "heading": "lifecycle",
+      "stages": [
+        {
+          "label": "research",
+          "state": "done"
+        },
+        {
+          "label": "build",
+          "state": "done"
+        },
+        {
+          "label": "shipped",
+          "state": "done"
+        },
+        {
+          "label": "outcome",
+          "state": "current",
+          "note": "an outcome was recorded against it"
+        }
+      ],
+      "note": "stage is inferred from records only — a deliverable, an asset, a logged outcome"
+    },
+    {
+      "kind": "timeline",
+      "heading": "how it got *here*",
+      "tag": "HISTORY, NOT TRUTH",
+      "items": [
+        {
+          "date": "2026-08-24",
+          "title": "Finalized · 02-book-blueprint",
+          "body": "Book One reselection, live market validation, outline, Co-Author research brief, war game, and 14-day build plan\nHybrid Athlete After 40 selected over scam defense and trend-only alternatives; full drafting gated behind outline and gold chapter | platform: codex | Verification: PARTIAL — live Amazon and primary KDP policy PASS; dir",
+          "done": true
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Finalized · 02-book-blueprint",
+          "body": "Book One 80/20 product, layout, pricing, imagery, distribution, title, cover, and 21-day launch plan\nAmazon sample and live prices inspected; KDP policies and older-adult exercise sources verified; AI authorship and pen-name claims remain unconfirmed | platform: codex | Verification: PASS with labeled uncertainty | tele",
+          "done": true
+        },
+        {
+          "date": "2026-08-24",
+          "title": "codex session",
+          "body": "Revenue: First E-book - Validate and Blueprint",
+          "done": true
+        }
+      ]
+    },
+    {
+      "kind": "related",
+      "heading": "swings to",
+      "tag": "CONNECTED",
+      "links": [
+        {
+          "k": "HANDOFF",
+          "title": "Stored handoff (source of resume)",
+          "path": ".agent/handoffs/2026-08-24-02-book-blueprint.md"
+        },
+        {
+          "k": "BOARD",
+          "title": "Mission board — every live thread",
+          "path": "deliverables/research-briefs/mission-board/mission-board-brief.html"
+        }
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "READ THE EDGES",
+      "body": "The narrative sections above come from this thread's own handoff, written by the session that did the work at close — judged prose, but frozen at that moment. Numbers, paths and dates are mechanically collected.\n\nThe judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+    }
+  ]
+}
