@@ -6,9 +6,15 @@
 **Deployment state:** Local drafts only; nothing published or sent  
 **Truth state:** $0 collected, 0 messages sent, exact-offer demand unconfirmed
 
-## Verdict
+## Final Taste Verdict
 
-The source material did not need a more dramatic story. It needed stronger recognition, cleaner authority, and an insight the reader could carry away.
+**Status: MARGINAL WORKFLOW TEST. NOT AN APPROVED WRITING EXEMPLAR.**
+
+Farrice's verdict after reading the native-document set: the test was useful, but the language reached too high for the size of the moment. Too many lines felt grandiose or abstract. The next pass needs more down-to-earth words, real objects, visible action, tension a reader can picture, and a payoff that lands in short Saxon words.
+
+This finding does not invalidate the Jun Story Engine. It locates the weakness in the post-extraction language pass.
+
+The source material did not need a more dramatic story. It needed stronger recognition and cleaner authority without making every insight sound monumental.
 
 Jun remains the narrative owner. David Bayer is an additive language and reader-recognition layer. The original three assets remain untouched.
 
@@ -100,9 +106,9 @@ Keep only the lines Farrice would still believe after the cleverness wears off.
 | Anti-slop prose | PASS with one reviewed warning | Founder, proof, and mirror assets returned `CLEAN` at 0/10. The direct offer returned 2/10 because its required scope bullets form parallel blocks; the structure was retained for buying clarity. |
 | Content finish | PASS with one reviewed warning | Founder, proof, and mirror assets returned `CLEAN`. The direct offer's first hook was repaired from 25 words to 11; its only remaining warning is the same scope-list structure. |
 | Reader Contract | PASS by judgment | Each asset gives a usable decision, closes its opening tension, and contains at least one source-bounded recognition line. |
-| Felt recognition | UNTESTED | Deterministic checks cannot establish whether Farrice experiences the language as compelling, insightful, or true to his mouth. |
+| Felt recognition | MARGINAL | Farrice found the pass too grandiose, abstract, and oversized for the moment despite the clean structural checks. |
 
-**Net verdict:** `PASS FOR TASTE REVIEW`. Nothing is approved for publishing or sending.
+**Net verdict:** `MARGINAL AFTER TASTE REVIEW`. Nothing is approved for publishing, sending, or use as a golden example.
 
 ## Blind Bar Receipt
 
@@ -111,4 +117,29 @@ Keep only the lines Farrice would still believe after the cleverness wears off.
 - **Round 1:** `FAIL`. The guardrail appeared after several abstract claims, so it decorated the idea instead of carrying it.
 - **Repair:** Moved the guardrail into the first explanatory turn and used road, wheel, direction, and steering to carry the mechanism through the close. No other criterion was broadened.
 - **Round 2:** `STRUCTURAL PASS`. The recipe now matches the named bar on recognition-you spine, one short receipt, one carrying analogy, direct opening, reader payoff, and no ownership close.
-- **Remaining state:** Felt superiority to the reference is `UNTESTED` until Farrice judges the side-by-side.
+- **Remaining state:** Structural recipe fidelity did not clear the human taste bar. The repaired analogy still lived inside prose that felt too large and abstract.
+
+## Farrice Taste Receipt — 2026-08-25
+
+### What failed
+
+- The words felt too grandiose for the moment.
+- The writing stayed too abstract instead of giving the reader something concrete to see.
+- Several lines sounded written to be important rather than sized to the truth they carried.
+- Metaphor appeared as an elevated statement instead of growing from a real-world object or action.
+
+### Repair brief
+
+1. Begin with the plain fact, scene, object, or choice.
+2. Build tension from what happened on the counter, shelf, page, or in the room.
+3. Use one visual metaphor only when the source material earns it.
+4. Leave ordinary prose between crafted lines.
+5. Land the payoff in short, hard, picture-able Saxon words.
+6. Use `/ward-saxon-punch` only on the line that carries the thesis; never tune the whole piece into a speech.
+
+### Preservation lock
+
+- Keep Jun's story classification, source boundary, and refusal to invent the missing turn.
+- Keep the claim ceiling and `NO EVENT` market state.
+- Keep the original three Jun assets unchanged as the pre-language-pass controls.
+- Treat all four Bayer assets as experiment evidence until a repaired version receives Farrice's explicit PASS.

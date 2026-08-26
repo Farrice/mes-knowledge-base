@@ -1,5 +1,5 @@
 {
-  "artifact_type": "content_system_proof",
+  "artifact_type": "content_experiment",
   "title": "David Bayer Language Pass",
   "source_owner": "Jun Story Engine",
   "support_layers": [
@@ -7,7 +7,11 @@
     "Bayer Mirror"
   ],
   "voice_mode": "BLEND",
-  "deployment_state": "drafts_only",
+  "deployment_state": "marginal_not_approved",
+  "taste_verdict": "MARGINAL",
+  "exemplar_eligible": false,
+  "failure_class": "grandiose_abstract_language_outscaled_the_moment",
+  "next_repair_route": "plain_concrete_prose_then_bounded_ward_saxon_punch",
   "market_proof_state": "NO EVENT",
   "commercial_proof_ceiling": "DELIVERABLE",
   "created": "2026-08-25"
