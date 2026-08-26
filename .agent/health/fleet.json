@@ -1,38 +1,21 @@
 {
-  "timestamp": "2026-08-08T19:23:29.009476",
+  "timestamp": "2026-08-24T22:02:45.570732",
   "summary": {
     "total_findings": 5,
     "by_classification": {
       "FLAGGED": 5
     },
     "tier_summaries": {},
-    "verifiers_run": 85,
-    "verifiers_failing": 2,
-    "stale_or_missing_artifacts": [
-      {
-        "tier": "loop-integrity",
-        "state": "STALE",
-        "path": "/Users/farricecain/Google Antigravity/.agent/health/loop-integrity.json",
-        "age_hours": 273.7,
-        "mtime": "2026-07-28T09:31"
-      },
-      {
-        "tier": "core-surface",
-        "state": "STALE",
-        "path": "/Users/farricecain/Google Antigravity/.agent/health/core-surface.json",
-        "age_hours": 273.7,
-        "mtime": "2026-07-28T09:31"
-      },
-      {
-        "tier": "birth-wiring",
-        "state": "STALE",
-        "path": "/Users/farricecain/Google Antigravity/.agent/health/birth-wiring.json",
-        "age_hours": 273.6,
-        "mtime": "2026-07-28T09:36"
-      }
-    ]
+    "verifiers_run": 93,
+    "verifiers_failing": 5,
+    "stale_or_missing_artifacts": []
   },
   "findings": [
+    {
+      "tier": "verifiers",
+      "classification": "FLAGGED",
+      "message": "verify_autopilot_routing.py: TIMEOUT \u2014 exceeded 180s"
+    },
     {
       "tier": "verifiers",
       "classification": "FLAGGED",
@@ -41,22 +24,17 @@
     {
       "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "verify_system_control_plane.py: TIMEOUT \u2014 exceeded 480s"
+      "message": "verify_execution_receipt.py: FAIL \u2014   - flagged session: no block decision \u2014 {\"decision\": \"block\", \"reason\": \"LIBRARIAN \\u2014 one deposit before you close (this is what makes the work findable and resumable later; the catalog and missi"
     },
     {
-      "tier": "aggregate",
+      "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "loop-integrity artifact STALE (273.7h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
+      "message": "verify_sales_psychology_mastery_layer.py: FAIL \u2014 - run-runtime-surface: fullSurfaceSha256: aa514a6125dc13aaba3d4abdf888ee1dcf3e34ccd9bd55150118923d0c6f9b60"
     },
     {
-      "tier": "aggregate",
+      "tier": "verifiers",
       "classification": "FLAGGED",
-      "message": "core-surface artifact STALE (273.7h older than this run, mtime 2026-07-28T09:31) \u2014 NOT merged"
-    },
-    {
-      "tier": "aggregate",
-      "classification": "FLAGGED",
-      "message": "birth-wiring artifact STALE (273.6h older than this run, mtime 2026-07-28T09:36) \u2014 NOT merged"
+      "message": "verify_skill_evolution_candidate_freshness.py: FAIL \u2014 - safe refresh command: python3 execution/skill_evolution_candidates.py scan --write"
     }
   ]
 }

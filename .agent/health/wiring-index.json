@@ -1,750 +1,750 @@
 {
- "generated": "2026-08-24T06:05:30.889639",
+ "generated": "2026-08-25T06:00:06.108490",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:adam-sandler": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:ai-chris-lee": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alan-aragon": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alen-sultanic": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-content-science": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-copper": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-hormozi": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-m-smith": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-myatt": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-suzuki": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:alex-suzuki-revenue-architect": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:ali-abdaal": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:andrew-dun": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:andrew-lane": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:andrew-stanton": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:andrew-wilkinson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:andy-galpin": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:andy-lo": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:anne-lamott": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:anne-lamott-neal-allen": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:april-dunford": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:ash-maurya": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:authority-hacker": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:ben-watkins": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:benjamin-hardy": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:bill-browder": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:bitbranding": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:bond-halbert": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:boris": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:brad-bonanno": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:brendan-kane": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:briar-cochran": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:brock-johnson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:caleb-ralston": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:cardinal-mason": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:chase-hughes": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:chris-cimorelli": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:chris-do": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:coaching-business-os": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:cognitive-engagement-optimizer": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:context-profile-architect": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:corey-mcclain": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:craig-clemens": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:creative-director": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dai-media": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dakota-thiefofboredom": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:damon-cart": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dan-bolton": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dan-koe": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dan-martell": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dan-wang": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:daniel-pink": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:daniel-priestley": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:daniel-thrasher": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:danny-yeung": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dara-denney": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:darrel-wilson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-baldacci": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-bayer": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-deutsch": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-gelb": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-mcraney": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-perell": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:david-placek": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:deya": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:diandra-escobar": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:donald-miller": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dr-k": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:dr-kriukow": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:eric-roth": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:erica-mallet": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:ethan-smith": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:eugene-teo": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:evan-spiegel": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:extract-mastery": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:fareed-zakaria": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:forge-os": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:fraser-cottrell": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:futurepedia": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:gabe-novotny": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:gary-vaynerchuk": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:geoff-woods": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:grace-andrews": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:greg-hickman": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:greg-hoffman": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:harry-dry": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:heath-brothers": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:henrik-werdelin": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:henry-shukman": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:hilary-gridley": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jasmin-alic": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jason-fladlien": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jay-hiette": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jenny-hoyos": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jeremy-haynes": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jeremy-miner": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jessica-jensen": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jiang-xueqin": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jim-oshaughnessy": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:joanna-wiebe": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:joey-noisy-group": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:john-whiting": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jonah-berger": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jonathan-courtney": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jonathan-franzen": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:joscha-bach": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:josh-kaufman": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:josh-sanders": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:joshua-smith": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:jun-yuh": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:justin-welsh": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:kallaway": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:kieran-flanagan": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:kittl": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:kj-rainey": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:knowledge-architecture-studio": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:kobi-brown": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:kunal-shah": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:lamott-allen": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:lance-yichao": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:lara-acosta": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:liam-mley": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:lindsay": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:logan-kilpatrick": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:lucas-alpay": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:luisa-zhou": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:luke-alexander": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:luke-iha": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:lulu-cheng-meservey": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:manus-ai": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:marc-andreessen": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:maria-wendt": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:marisa-murgatroyd": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mark-forsyth": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mark-kashef": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mark-manson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:matt-mcgarry": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:matthew-lakajev": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:matthew-volkwyn": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:meg-heckman": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:michael-bernoff": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:michael-connelly": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:michael-israetel": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:michael-margolis": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mike-foutia": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mike-sherrard": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mike-taylor": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:mitch-albom": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "agent:monk-ai": {
    "status": "PROVEN",
@@ -17644,7 +17644,7 @@
   "workflow:zone-of-genius": {
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-08-25T06:00:06.101205"
   },
   "execution:verify_dead_channels.py": {
    "status": "PROVEN",

@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-24T06:01:00.165879",
+  "timestamp": "2026-08-25T06:00:00.327099",
   "projects_index": {
     "exit": 0,
-    "out": "Wrote PROJECTS.md (15 projects, 4 drift items)"
+    "out": "Wrote PROJECTS.md (16 projects, 4 drift items)"
   },
   "artifact_sweep": {
     "exit": 0,
@@ -10,14 +10,16 @@
   },
   "self_heal": {
     "exit": 0,
-    "findings": 7,
+    "findings": 9,
     "ids": [
-      "born_intent_drift",
       "dead_launchd",
       "stale_feeds",
       "wiring_orphans",
       "org_drift",
       "verify_dhar_mann_transformational_content_factory.py",
+      "verify_execution_receipt.py",
+      "verify_sales_psychology_mastery_layer.py",
+      "verify_skill_evolution_candidate_freshness.py",
       "fleet_timeouts"
     ]
   },
@@ -26,7 +28,7 @@
   },
   "wiring_drain": {
     "audited": 150,
-    "new": 8,
+    "new": 0,
     "coverage": "3832/3832",
     "orphans_total": 11,
     "flips": [],

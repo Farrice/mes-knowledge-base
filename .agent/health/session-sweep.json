@@ -1,18 +1,18 @@
 {
-  "session_sweep": "2026-08-23T07:59:30.874896",
+  "session_sweep": "2026-08-25T02:45:05.528807",
   "status": "ok",
   "synthesis_rc": 0,
   "synthesized": true,
   "synthesis_generated": "2026-08-20T21:45:05",
   "counts": {
-    "sessions": 198,
-    "threads_seen": 457,
+    "sessions": 236,
+    "threads_seen": 466,
     "threads_promoted": 12,
     "deliverables": 17,
-    "artifacts": 39,
-    "assets": 13,
-    "artifacts_vanished": 2,
-    "overflow": 208
+    "artifacts": 45,
+    "assets": 4,
+    "artifacts_vanished": 12,
+    "overflow": 214
   },
   "degraded": []
 }
