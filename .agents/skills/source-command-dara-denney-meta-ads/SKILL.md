@@ -5,12 +5,12 @@ description: "DTC creative strategy — the full stack. Tier 0 Creative Strategy
 
 # source-command-dara-denney-meta-ads
 
-Use this skill when the user asks to run the migrated source command `dara-denney-meta-ads`.
+Use this skill when the user asks to run the migrated source command `dara-denney-meta-ads`. Treat it as a compatibility alias for the canonical `/dara-denney` universal front door.
 
 ## Command Template
 
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 
-Load and embody the skill at `skills/dara-denney-meta-ads/SKILL.md`. Also load `skills/dara-denney-meta-ads/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
+Load `skills/dara-denney-meta-ads/workflows/00-universal-front-door.md` and the compact capability map in `skills/dara-denney-meta-ads/SKILL.md`. Route the purchased job and evidence state to one primary workflow. Load `genius.md` only when the selected component requires construction patterns or a quality rubric.
 
-This skill has runnable processes. Its flagship workflow is `skills/dara-denney-meta-ads/workflows/18-research-sop.md`. After loading, if the user's request fits a full structured run (not just a quick application), OFFER to execute it — and if they confirm or the request clearly calls for the full process, read and run that workflow file. See the skill's 'Available Workflows' table for the other processes.
+Execute clear, safe requests in the same run and return the universal route receipt. Do not preload the full workflow family or stop at a command menu.

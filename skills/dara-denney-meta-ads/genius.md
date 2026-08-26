@@ -471,3 +471,56 @@ These are not scored — they are pass/fail gates. If any is true, the ad goes b
 Her stats (10 yrs, 20K+ ads, 75% response rate, salary bands) are HER claims — label LIKELY in client-facing work. "Runith" spelling UNCONFIRMED (Motion's ad-comment analytics feature) — don't name externally. Storyblocks segment was sponsored; the persona-replication method stands tool-agnostic.
 
 ---
+
+## Evidence to Creative Ecosystem — Source Extension (2026-08-26)
+
+> Source: “The Easiest Way To Make Winning Meta Ads (in 2026),” YouTube `p4yXXdnCgWg`, 15:37. Native captions, full local frame watch, six targeted visual receipts, and claim-state ledger preserved at `extractions/dara-denney/winning-meta-ads-p4yXXdnCgWg/`.
+
+### Pattern 23: Big-Idea Compression Before Format Work
+
+**Execute:** Apply Dara Denney's 2026 big-idea distinction: label the visible treatment and the portable idea separately. The portable idea is one sentence containing persona, tension, promised shift, and proof/mechanism; it cannot name the format. In her Laura Geller example, “get ready with me” is the treatment while “look put together in five minutes” is the idea worth transplanting.
+**Success Metric:** A second strategist can propose two materially different native formats that preserve the same idea and proof boundary.
+
+### Pattern 24: Evidence-Ranked Idea Selection
+
+**Execute:** Assign each idea the highest defensible rung from Dara Denney's eight-rung 2026 source ladder: pressure-tested iterations; new formats for proven messaging; partnership expression for proven performance/message; new hooks from proven personas; researched new personas; competitor performance; competitor longevity; competitor imitation. Preserve the receipt and label human intuition as `JUDGMENT`.
+**Success Metric:** Every roadmap priority has one rung, one receipt, one confidence limit, and no competitor or organic signal is called a winner.
+
+### Pattern 25: Cheapest Discriminating Test
+
+**Execute:** Use Dara Denney's source rule at 04:40: state the uncertainty, then choose the least expensive eligible vessel that can answer it without changing the idea, proof, claim, or rights requirement. Use simple statics, internal creators, or founder content before high-lift creator systems or animation when they preserve the test.
+**Success Metric:** Every high-lift concept has a cheaper precursor or an explicit reason a precursor cannot discriminate the idea.
+
+### Pattern 26: Creative Ecosystem Expansion
+
+**Execute:** Apply Dara Denney's Creative Ecosystem rule from 08:30–10:24: once an idea earns outcome evidence, repeat its idea/proof spine across native formats, creators, and journey jobs. Change hook, sequence, layout, setting, casting, and platform behavior; do not produce cosmetic variants or unrelated novelty volume.
+**Success Metric:** Each ecosystem expression has a distinct learning or journey job, and the idea remains traceable across all assets.
+
+### Pattern 27: Organic Proxy Tuple
+
+**Execute:** In Dara Denney's TikTok/Reels branch, capture recurring phrases, visuals, settings, and creator types across organic content. Prefer cross-account recurrence and smaller-account breakouts; label the result `ORGANIC PROXY`, not paid proof.
+**Success Metric:** Every promoted organic pattern appears across multiple receipts or remains a bounded exploration cell.
+
+### Pattern 28: Three-Cohort Persona Gap
+
+**Execute:** Use Dara Denney's three-cohort comparison from 12:38–14:10: keep review/comment-derived buyers, intended audiences in recent ads, and organic opportunity personas separate. The gap between these cohorts becomes test territory; it does not become a synthetic avatar without evidence.
+**Success Metric:** Every new persona cell names its cohort, receipts, gap rationale, and cheapest first test.
+
+### Hidden Knowledge
+
+- The asset is not the reusable learning unit; the portable idea is.
+- Cheap validation is only useful when it preserves the uncertainty being tested.
+- Creative diversity should vary execution while strategic repetition compounds the same eligible idea.
+- Organic virality partially de-biases ideation but never closes the paid-performance proof gap.
+- Judgment becomes more trustworthy when recorded as judgment rather than hidden inside a fake score.
+
+### Hard Boundaries
+
+1. Do not call a surface format the big idea.
+2. Do not blend first-party, organic, competitor, and judgment evidence.
+3. Do not fund high-lift production when a cheaper vessel can answer the same uncertainty, unless access/claims/rights make the precursor invalid.
+4. Do not call an ecosystem a batch of cosmetic variants.
+5. Do not merge observed buyers, current targets, and opportunity personas into one unsupported avatar.
+6. Do not promote an idea from hook rate, organic virality, competitor use, or intuition alone.
+
+---
