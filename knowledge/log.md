@@ -802,3 +802,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-08-25 18:07]` **finalize** | Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI  | brand | extract-mastery + mike-sherrard — composite:8.67 status:Keep
 - `[2026-08-25 20:25]` **finalize** | LinkedIn carousel companion caption and six-page Canva article visual master | content | lara-acosta-linkedin-growth — composite:7.0 status:Needs Improvement
 - `[2026-08-25 20:26]` **finalize** | LinkedIn carousel companion caption and six-page Canva article visual master | content | lara-acosta-linkedin-growth — composite:8.0 status:Keep
+- `[2026-08-24 20:54]` **finalize** | Jun Yuh — connected storytelling skill-system expansion | general | jun-yuh — composite:7.0 status:Needs Improvement
+- `[2026-08-25 15:32]` **finalize** | Hardened the connected Jun Story Engine with one authorized live-field packet, a three-asset commerc | general | Jun Yuh Creator Vision — composite:7.0 status:Needs Improvement

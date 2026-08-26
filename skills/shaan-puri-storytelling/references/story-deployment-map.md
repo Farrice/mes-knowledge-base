@@ -55,6 +55,7 @@ Atomic prompts under `references/prompts-v2/` remain available when the user nee
 
 | Named weakness | Existing owner | Handoff boundary |
 |---|---|---|
+| Ordinary lived material is thin, scattered, or described as “boring” | `/jun-story-engine` → `story-material-miner` | Jun returns a fact-traced LIFE + Safe/Real/Raw + 3P packet. Shaan still decides `FULL STORY`, `STORY FRAGMENT`, or `NO STORY` and assigns one body owner. |
 | Candidate material may not contain a story | Story Compass | Pass facts and the proposed want, obstacle, and change only |
 | Long-form or high-stakes composed writing | How I Write | Pass the dosage decision, selected Shaan mechanic, source facts, voice target, and truth constraints |
 | Cross-domain narrative architecture | `/narrative-transfer` | Transfer the operation, not surface style |
