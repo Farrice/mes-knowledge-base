@@ -104,6 +104,11 @@ Farrice's explicit approval.
 Keep it SHADOW or remove it if it adds ceremony without changing a claim,
 promotion decision, test design, or next evidence action.
 
+The first bounded observation design lives at
+`extractions/mastery-transfer-proof-spine/three-capability-shadow-observation-cycle-v1.md`.
+Its presence does not activate the cycle, change a proof state, or authorize
+promotion or enforcement.
+
 ## Verification
 
 ```bash

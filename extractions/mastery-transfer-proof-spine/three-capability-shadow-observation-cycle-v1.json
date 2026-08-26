@@ -1,0 +1,121 @@
+{
+  "schema_version": "mastery-transfer-shadow-observation-cycle/v1",
+  "cycle_id": "mtps-shadow-cycle-001",
+  "title": "Mastery Transfer Proof Spine Three-Capability SHADOW Observation Cycle",
+  "mode": "SHADOW",
+  "status": "DESIGNED_NOT_RUN",
+  "object_under_observation": "mastery-transfer-proof-spine",
+  "promotion_eligible": false,
+  "automatic_enforcement": false,
+  "canonical_state_mutation_allowed": false,
+  "conclusion_ceiling": "KEEP_SHADOW",
+  "owner": "/source-to-skill-system",
+  "independent_evaluator_required": true,
+  "subagents_authorized": false,
+  "capabilities": [
+    {
+      "id": "oren-funnel-flywheel",
+      "task_type": "commercial-operating-strategy",
+      "starting_state": "TRANSFERRED",
+      "first_unearned_state": "GENERALIZED",
+      "inflation_temptation": "development-visible behavior cases treated as held-out generalization or market readiness",
+      "evidence": [
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-pilot.json",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/mastery-transfer-shadow-report.md",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-paid-social-creative-test-sprint.md",
+        "extractions/oren-1person-ai-marketing/funnel-flywheel-2026/behavior-proof-neutral-interior-design.md"
+      ],
+      "safe_use_control": "Internal operator-reviewed funnel architecture with no economics, demand, market-effect, copy, media-buying, lead-magnet, VSL, send, or profit claim.",
+      "expected_spine_delta": "Preserve TRANSFERRED, require sealed near/far/negative cases before GENERALIZED, and keep market proof at NO_EVENT."
+    },
+    {
+      "id": "david-perell-idea-to-culture",
+      "task_type": "creative-judgment-and-writing",
+      "starting_state": "RUNNABLE",
+      "first_unearned_state": "TRANSFERRED",
+      "inflation_temptation": "18 of 18 detached runtime fixtures or an unjudged blind pack treated as embodiment, recognition, or A-tier preference",
+      "evidence": [
+        "extractions/david-perell-nathan-barry-2026/FINALIZATION-RECEIPT.md",
+        "extractions/david-perell-nathan-barry-2026/CHECKPOINT-3.md",
+        "skills/david-perell-writing/references/fixtures_v1.json",
+        "extractions/david-perell-writing/BLIND-PASS-REVIEW.md"
+      ],
+      "safe_use_control": "Internal B-tier diagnosis or draft with publication, A-tier recognition, and market-effect claims parked.",
+      "expected_spine_delta": "Normalize one unfamiliar transformation as behavior proof before transfer, then require sealed near/far/refusal cases; keep human recognition separate."
+    },
+    {
+      "id": "systems-thinking-overlay",
+      "task_type": "control-plane-advisory-behavior",
+      "starting_state": "TRANSFERRED",
+      "first_unearned_state": "GENERALIZED",
+      "inflation_temptation": "retrospective cross-task replays treated as prospective causal lift or promotion readiness",
+      "evidence": [
+        "semantic_libraries/antigravity/primitives/systems-thinking-expertise-intelligence-overlay.md",
+        "extractions/video-context/t0GiTyz4syY/shadow-replay-evaluation.md",
+        "extractions/video-context/t0GiTyz4syY/production-receipt-01.md",
+        "extractions/video-context/t0GiTyz4syY/production-receipt-02-god-agent-offer.md",
+        "extractions/video-context/t0GiTyz4syY/production-receipt-03-angle-map-linkedin.md",
+        "extractions/video-context/t0GiTyz4syY/production-receipt-04-health-geo-daily-brief.md"
+      ],
+      "safe_use_control": "Quiet internal use on one eligible mission, with silence when no material route, architecture, ownership, review, recovery, or maintenance decision changes.",
+      "expected_spine_delta": "Preserve retrospective portability evidence while requiring a prospective blind comparison before generalization or promotion discussion."
+    }
+  ],
+  "arm_contract": {
+    "baseline": "Capability-native proof tools and frozen evidence only.",
+    "treatment": "Identical frozen evidence plus mastery-transfer-proof-spine.md.",
+    "same_output_shape": true,
+    "identity_scrubbed": true,
+    "mapping_precommitted": true,
+    "builder_may_evaluate": false
+  },
+  "evaluation_fields": [
+    "claim_boundary_improved",
+    "test_design_improved",
+    "next_action_improved",
+    "safe_use_preserved",
+    "native_owner_preserved",
+    "creative_or_strategic_range_preserved",
+    "added_questions",
+    "added_mandatory_fields",
+    "false_blocks",
+    "proof_state_inflation",
+    "smallest_useful_delta",
+    "preference"
+  ],
+  "verdict_rules": {
+    "KEEP_SHADOW": {
+      "minimum_treatment_wins": 2,
+      "maximum_baseline_wins": 0,
+      "minimum_material_decision_changes": 2,
+      "maximum_proof_state_inflation": 0,
+      "maximum_false_blocks": 0,
+      "maximum_owner_displacements": 0,
+      "maximum_added_questions_on_complete_packets": 0,
+      "independent_blind_preference_required": true,
+      "effect": "Continue observation in SHADOW mode only."
+    },
+    "REVISE_SHADOW": {
+      "condition": "One treatment win, one isolated burden or preservation miss, or a useful but generic delta.",
+      "repair_cap": 1,
+      "effect": "Change only the smallest failing rule and rerun the affected case plus its safe-use control."
+    },
+    "RETIRE": {
+      "condition": "Zero treatment wins, two baseline wins, repeated false blocks or burden, native-owner displacement, generic same-answer behavior, or proof-state inflation.",
+      "effect": "Archive the observation design without deleting capability evidence."
+    }
+  },
+  "events": {
+    "baseline_arms_completed": 0,
+    "treatment_arms_completed": 0,
+    "safe_use_controls_completed": 0,
+    "independent_evaluations_completed": 0,
+    "treatment_wins": 0,
+    "baseline_wins": 0,
+    "ties": 0,
+    "false_blocks": 0,
+    "proof_state_inflations": 0,
+    "canonical_states_changed": 0
+  },
+  "next_action": "Wait for explicit approval to run the cycle; then freeze the three packets and produce the native baseline arms first."
+}

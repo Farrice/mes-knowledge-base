@@ -111,7 +111,7 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 |-------|-------|
 | **Last Activated** | 2026-08-26 (chain_runner finalize for source-to-skill-system) |
 | **Last Activated** | 2026-08-26 (chain_runner finalize for source-to-skill-system) |
-| **Activation Count** | 878 |
+| **Activation Count** | 879 |
 | **30-Day Review Date** | 2026-09-25 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
