@@ -499,6 +499,8 @@ def is_closeout_generated(path: str, slug: str) -> bool:
         ".agent/handoffs/index.md",
         ".agent/handoffs/LATEST.md",
         ".agent/sessions/end-session-memory-ledger.jsonl",
+        ".agent/sessions/notion-session-memory-outbox.jsonl",
+        ".agent/sessions/notion-session-memory-events.jsonl",
         ".agent/sessions/closeout-intelligence-guard.jsonl",
         ".agent/routing-feedback-inbox.jsonl",
         ".agent/performance-log.jsonl",

@@ -2,7 +2,8 @@
 """
 Mirror Notion — Sprint 3 Notion DB mirror to sovereign sqlite.
 
-Pulls 5 of 6 Notion databases into the local `notion_mirror` table so
+Pulls the operational databases and Simon Intellectual Library into the local
+`notion_mirror` table so
 sovereign memory has a queryable, workspace-filterable view of Notion
 content without round-tripping the API.
 
@@ -35,13 +36,19 @@ from notion_api import NotionAPI, NotionAPIError  # noqa: E402
 from memory_store import DB_PATH  # noqa: E402
 
 
-# 5 of 6 Notion DBs — Captures excluded (volatile)
+# Operational DBs plus the integration-owned Simon Intellectual Library.
+# Captures remains excluded because it is high-volume and low retrieval value.
 DB_REGISTRY = {
     "projects":  "cf93599a-a201-4e55-a6b9-f2f58ae6fd77",
     "knowledge": "5c63b25c-e040-4c6f-8a7b-906643090694",
     "content":   "ff77ee45-8ee8-4fce-996e-20c76fa65d9c",
     "personal":  "0911ef04-8117-463f-8b21-e7f6c1a1ef4a",
     "performance": "31f49875-a897-81db-b599-dee5e7961b5c",
+    "library_knowledge": "38849875-a897-812c-b693-c7b35e7530a6",
+    "library_experts": "38849875-a897-81d7-8ed5-f5731ce0d1c1",
+    "library_sources": "38849875-a897-8115-85f2-f1a30e2291a4",
+    "library_skills": "38849875-a897-813d-a451-fdb32c7121f2",
+    "session_memory": "38849875-a897-81c0-950e-f6a48bb28a72",
 }
 
 
@@ -251,6 +258,17 @@ def main() -> int:
 
     start = time.time()
     print(f"Mirroring Notion → {DB_PATH} (mode={'full' if args.full else 'incremental'}, dry_run={args.dry_run})")
+    try:
+        from notion_session_memory import sync_approved
+        session_sync = sync_approved(dry_run=args.dry_run)
+        print(
+            "Session Memory outbox: "
+            f"eligible={session_sync['eligible']} synced={session_sync['synced']} "
+            f"failed={session_sync['failed']}"
+        )
+    except Exception as exc:
+        session_sync = {"eligible": 0, "synced": 0, "failed": 1, "error": str(exc)}
+        print(f"Session Memory outbox ERROR: {type(exc).__name__}: {exc}")
     stats = mirror_all(full=args.full, dry_run=args.dry_run, only=args.db)
     elapsed = time.time() - start
 
@@ -259,7 +277,7 @@ def main() -> int:
     errors = [s for s in stats if s.get("error")]
 
     print(f"\nDone in {elapsed:.1f}s. new={total_new}, updated={total_updated}, errors={len(errors)}")
-    return 1 if errors else 0
+    return 1 if errors or session_sync.get("failed") else 0
 
 
 if __name__ == "__main__":
