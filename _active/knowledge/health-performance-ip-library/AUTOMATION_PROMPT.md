@@ -103,11 +103,10 @@ The deep-focus section carries the April Dunford positioning read (what this mea
 
 ## Social Listening Tool Ladder (real tools, in this order — never training-memory research)
 
-1. **Apify first** (`/social-listen` pipeline, `execution/apify_client.py`): Reddit actors for buyer verbatim, sc-* actors for TikTok/YouTube creator and hashtag signal. Default ceiling $0.25 per actor call, guidance ≤$0.75/day against the $29/mo budget (`.agent/apify-usage.json`). Standing approval: Farrice 2026-07-31, recorded in `.agent/missions/angle-map-listening-engine/contract.json`.
-2. **research.py facade** (`execution/research.py`): Gemini Deep Research primary (free under Ultra), Perplexity fallback within $30/mo (`.agent/perplexity-usage.json`).
-3. **Native $0 floor**: WebSearch, WebFetch, Tavily, Recall — cannot break.
+1. **research.py facade** (`execution/research.py`): Gemini Deep Research primary (free under Ultra), Perplexity fallback within $30/mo (`.agent/perplexity-usage.json`). Reddit thread text fetches come LIKELY-grade (not VERIFIED) due to WebFetch harness block on reddit.com — **standing manual URL-check step** (≤30s per source): open the raw Reddit link, skim buyer verbatim for accuracy, label receipt `VERIFIED` if claimed quote matches thread voice and context, `DISCARD` if quote was invented or paraphrased beyond recognition. This step is non-negotiable before any VERIFIED receipt ships externally or enters influence decisions.
+2. **Native $0 floor**: WebSearch, WebFetch, Tavily, Recall — cannot break.
 
-Budget exhaustion degrades one rung down the ladder; it never stalls the run and never raises spend. Zero actual Reddit/social thread reads in a run = the Social Listening lane is marked `DEGRADED` in the brief, honestly, like the 2026-07-30 run did.
+Budget exhaustion degrades one rung down the ladder; it never stalls the run and never raises spend. Zero actual Reddit/social thread reads in a run = the Social Listening lane is marked `DEGRADED` in the brief, honestly, like the 2026-07-30 run did. **Note (2026-08-27):** Apify retired per fleet decision; ladder updated to reflect current stack.
 
 ## Compounding Contract (the exponential-education mechanism)
 
