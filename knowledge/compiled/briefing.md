@@ -1,31 +1,31 @@
 # Knowledge Briefing
-*Generated: 2026-08-25 | 1162 sources | 3,668,405 words*
+*Generated: 2026-08-26 | 1175 sources | 3,730,876 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 7,326 words — `knowledge/index.md`
-- **log** (general) — 19,821 words — `knowledge/log.md`
-- **2026-08-24-pulse** (strategy) — 2,648 words — `research_outputs/market-pulse/2026-08-24-pulse.md`
-- **analysis** (copywriting) — 537 words — `extractions/video-context/Tnv9PuMo84E/analysis.md`
-- **behavior-proof** (copywriting [april-dunford]) — 712 words — `extractions/video-context/Tnv9PuMo84E/behavior-proof.md`
-- **deep-extraction** (content) — 1,504 words — `extractions/video-context/Tnv9PuMo84E/deep-extraction.md`
-- **frame-notes** (screenwriting) — 143 words — `extractions/video-context/Tnv9PuMo84E/frame-notes.md`
-- **ocr-notes** (general) — 47 words — `extractions/video-context/Tnv9PuMo84E/ocr-notes.md`
-- **research-claim-audit** (research) — 551 words — `extractions/video-context/Tnv9PuMo84E/research-claim-audit.md`
-- **skill-system-contract** (content) — 548 words — `extractions/video-context/Tnv9PuMo84E/skill-system-contract.md`
+- **log** (general) — 19,951 words — `knowledge/log.md`
+- **blind-embodiment-receipt** (content) — 307 words — `extractions/jun-yuh-creator-vision/blind-embodiment-receipt.md`
+- **USER-GUIDE** (content) — 681 words — `extractions/video-context/XS-E6rnCr5U/USER-GUIDE.md`
+- **analysis** (screenwriting) — 910 words — `extractions/video-context/XS-E6rnCr5U/analysis.md`
+- **architecture** (brand) — 330 words — `extractions/video-context/XS-E6rnCr5U/architecture.md`
+- **david-bayer-language-pass** (copywriting) — 1,622 words — `extractions/video-context/XS-E6rnCr5U/bayer-language-pass/david-bayer-language-pass.md`
+- **behavior-proof** (screenwriting) — 717 words — `extractions/video-context/XS-E6rnCr5U/behavior-proof.md`
+- **commercial-field-proof** (screenwriting) — 2,288 words — `extractions/video-context/XS-E6rnCr5U/commercial-field-proof.md`
+- **deep-extraction** (content) — 920 words — `extractions/video-context/XS-E6rnCr5U/deep-extraction.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 367 | nathan-gotch |
-| copywriting | 203 | jason-fladlien |
-| general | 126 | nick-saraev |
-| screenwriting | 124 | connelly |
+| content | 372 | nathan-gotch |
+| copywriting | 204 | jason-fladlien |
+| screenwriting | 129 | connelly |
+| general | 127 | nick-saraev |
 | strategy | 116 | april-dunford |
-| brand | 66 | oren-john |
+| brand | 67 | oren-john |
 | systems | 61 | nick-saraev |
 | seo | 43 | nathan-gotch |
 | research | 42 | jason-fladlien |

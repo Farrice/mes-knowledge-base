@@ -2,11 +2,11 @@
   "slug": "mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1",
   "chip": "MISSION · PRODUCTS",
   "title": "ignite realtor content-pack subscription *per*…",
-  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 6 session(s), the handoff store, the finalize ledger and the asset manifest.",
+  "dek": "Everything this thread has produced, where it stands, and the next move — assembled from 3 session(s), the handoff store, the finalize ledger and the asset manifest.",
   "window": "last 14 days",
-  "lens": "claude · codex",
-  "sources": "6 sessions · 9 files · 0 assets",
-  "compiled": "aug 25, 2026",
+  "lens": "claude",
+  "sources": "3 sessions · 9 files · 0 assets",
+  "compiled": "aug 27, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -16,7 +16,7 @@
       "kind": "summary",
       "heading": "where this *stands*",
       "kicker": "CURRENT POSITION",
-      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 6 sessions, 9 files written.\n\n Last activity today."
+      "body": "Stage: build — files are moving; nothing finalized. In the last 14 days: 3 sessions, 9 files written.\n\n Last activity 1d ago."
     },
     {
       "kind": "decision",
@@ -99,9 +99,9 @@
           "label": "FILES WRITTEN"
         },
         {
-          "value": "6",
+          "value": "3",
           "label": "SESSIONS",
-          "note": "claude · codex"
+          "note": "claude"
         },
         {
           "value": "13",
@@ -119,10 +119,10 @@
           "label": "sessions",
           "values": [
             1,
-            2,
             1,
             1,
-            1,
+            0,
+            0,
             0,
             0,
             0,
@@ -133,7 +133,7 @@
             0,
             0
           ],
-          "value": "6",
+          "value": "3",
           "unit": "total",
           "note": "per day"
         },
@@ -151,9 +151,9 @@
             0,
             0,
             0,
+            8,
             0,
-            0,
-            9
+            1
           ],
           "value": "9",
           "unit": "files",
@@ -194,7 +194,7 @@
           "title": "OFFER.md",
           "role": "FILE",
           "path": "_active/products/realtor-content-pack/OFFER.md",
-          "note": "aug 24, 2026"
+          "note": "aug 26, 2026"
         },
         {
           "title": "03-outreach-scripts.md",
@@ -252,9 +252,9 @@
       "tag": "HISTORY, NOT TRUTH",
       "items": [
         {
-          "date": "2026-08-24",
-          "title": "commit 1a02cd58f",
-          "body": "Merge remote-tracking branch 'origin/main'\u0000a869f8c3aaec77871e67e9c3c3a7299037fcaeae",
+          "date": "2026-08-26",
+          "title": "commit 167165d41",
+          "body": "chore(lane): regenerate indexes post-merge",
           "done": true
         },
         {
@@ -273,24 +273,6 @@
           "date": "2026-08-13",
           "title": "claude session · 3 msgs",
           "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-13-ai-consulting-linkedin-signals.json. T",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "claude session · 2 msgs",
-          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-12-ai-consulting-linkedin-signals.json /U",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "codex session",
-          "body": "Creative: Farrice Character System - Hybrid Canon Asset Pack",
-          "done": true
-        },
-        {
-          "date": "2026-08-11",
-          "title": "claude session · 9 msgs",
-          "body": "Read and execute .agent/zeitgeist-synthesis-prompt.md for these signal packs: /Users/farricecain/Google Antigravity/.tmp/zeitgeist/2026-08-11-ai-consulting-linkedin-signals.json. T",
           "done": true
         }
       ]
@@ -316,7 +298,7 @@
       "kind": "caveats",
       "heading": "what this *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
+      "body": "No handoff exists for this thread — everything above is mechanically collected, and nothing here is interpretation.\n\nThe judged analysis above is 6 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.\n\nSession ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept."
     }
   ]
 }

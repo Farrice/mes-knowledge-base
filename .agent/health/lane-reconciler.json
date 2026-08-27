@@ -1,13 +1,22 @@
 {
-  "ts": "2026-08-26T07:06:34.901499+00:00",
+  "ts": "2026-08-27T17:33:49.338751+00:00",
   "dry_run": false,
-  "lanes": 27,
+  "lanes": 31,
   "merged": 0,
   "torn_down": 0,
-  "parked": 8,
-  "live": 19,
-  "stranded_commits": 40,
+  "parked": 10,
+  "live": 21,
+  "stranded_commits": 69,
   "results": [
+    {
+      "branch": "worktree-apify-decommission",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/apify-decommission",
+      "commits_ahead": 11,
+      "dirty_files": 2,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "2 uncommitted file(s) \u2014 a session is still working here"
+    },
     {
       "branch": "worktree-cash-paths-research",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/cash-paths-research",
@@ -36,6 +45,15 @@
       "detail": "6 uncommitted file(s) \u2014 a session is still working here"
     },
     {
+      "branch": "worktree-mailroom",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/mailroom",
+      "commits_ahead": 13,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: worktree-mailroom \u2014 main tree dirty (120 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-mailroom"
+    },
+    {
       "branch": "claude/vigilant-leakey-5f6293",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/vigilant-leakey-5f6293",
       "commits_ahead": 3,
@@ -56,11 +74,14 @@
     {
       "branch": "codex/ad-creative-intelligence",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/ad-creative-intelligence",
-      "commits_ahead": 4,
+      "commits_ahead": 5,
       "dirty_files": 0,
-      "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/ad-creative-intelligence \u2014 main tree dirty (112 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/ad-creative-intelligence"
+      "conflicts": [
+        "knowledge/compiled/manifest.json",
+        "knowledge/index.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "2 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/briefing-room-gtm-preview",
@@ -138,19 +159,6 @@
       "detail": "60 uncommitted file(s) \u2014 a session is still working here"
     },
     {
-      "branch": "codex/jun-yuh-story-system",
-      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/jun-yuh-story-system",
-      "commits_ahead": 4,
-      "dirty_files": 0,
-      "conflicts": [
-        "directives/feedback-ratchet.md",
-        "directives/quality_gate.md",
-        "directives/session-state-protocol.md"
-      ],
-      "action": "parked-conflict",
-      "detail": "3 file(s) collide \u2014 needs resolution"
-    },
-    {
       "branch": "codex/linkedin-ai-consultant-bluff",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/linkedin-ai-consultant-bluff",
       "commits_ahead": 0,
@@ -169,6 +177,15 @@
       "detail": "65 uncommitted file(s) \u2014 a session is still working here"
     },
     {
+      "branch": "codex/mastery-transfer-proof-spine",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mastery-transfer-proof-spine",
+      "commits_ahead": 7,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/mastery-transfer-proof-spine \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/mastery-transfer-proof-spine"
+    },
+    {
       "branch": "codex/mert-consultancy-spine",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mert-consultancy-spine",
       "commits_ahead": 0,
@@ -184,7 +201,7 @@
       "dirty_files": 0,
       "conflicts": [],
       "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/nicolas-cole-writing-formats \u2014 main tree dirty (112 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/nicolas-cole-writing-formats"
+      "detail": "LANE PARKED: codex/nicolas-cole-writing-formats \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/nicolas-cole-writing-formats"
     },
     {
       "branch": "codex/notion-second-brain-reliability",
@@ -214,9 +231,11 @@
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/oren-funnel-flywheel",
       "commits_ahead": 4,
       "dirty_files": 0,
-      "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/oren-funnel-flywheel \u2014 main tree dirty (112 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/oren-funnel-flywheel"
+      "conflicts": [
+        "SLASH_COMMANDS.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "1 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/paolo-linkedin-2026",
@@ -226,6 +245,15 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "3 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/parallax-dwa-audit",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/parallax-dwa-audit",
+      "commits_ahead": 1,
+      "dirty_files": 0,
+      "conflicts": [],
+      "action": "parked-blocked",
+      "detail": "LANE PARKED: codex/parallax-dwa-audit \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/parallax-dwa-audit"
     },
     {
       "branch": "codex/pmf-health-linkedin-research",
@@ -253,6 +281,15 @@
       "conflicts": [],
       "action": "skipped-live",
       "detail": "10 uncommitted file(s) \u2014 a session is still working here"
+    },
+    {
+      "branch": "codex/william-fitzpatrick-reader-science",
+      "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/william-fitzpatrick-reader-science",
+      "commits_ahead": 0,
+      "dirty_files": 11,
+      "conflicts": [],
+      "action": "skipped-live",
+      "detail": "11 uncommitted file(s) \u2014 a session is still working here"
     },
     {
       "branch": "codex/zero-momentum-design-repair",

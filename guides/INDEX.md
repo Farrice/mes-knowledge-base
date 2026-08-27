@@ -378,6 +378,8 @@
 
 
 ## Pending enrichment
+- [2026-08-27 — Knowledge Thread Handoff — 2026-08-27](2026-08-27-knowledge-thread-handoff-2026-08-27.md) — operator-guide stub, needs enrichment
+- [2026-08-27 — Angle Map Listening Engine — 2026-08-27 daily run (Thursday)](2026-08-27-angle-map-listening-engine-2026-08-27-daily-run-thursday.md) — operator-guide stub, needs enrichment
 - [2026-08-25 — Handoff — System Health Audit + Repair (2026-08-24)](2026-08-25-handoff-system-health-audit-repair-2026-08-24.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — 2026-08-24-products](2026-08-24-2026-08-24-products.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — Revenue: Claude Skills Business - Research Complete](2026-08-24-claude-skills-business.md) — session-brief stub, needs enrichment

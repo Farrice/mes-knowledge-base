@@ -1,0 +1,1 @@
+Apify retired 2026-08-27 by Farrice's decision (subscription cancelled). run_actor() short-circuits to fallback while this file exists. Re-arm only on explicit new decision.

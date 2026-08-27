@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T06:00:06.108490",
+ "generated": "2026-08-27T06:00:13.964183",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -749,7 +749,7 @@
   "agent:monk-ai": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "workflow:resume": {
    "status": "PROVEN",
@@ -759,427 +759,427 @@
   "agent:nate-b-jones": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:nate-herk": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:nathan-gotch": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:nick-saraev": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:nicolas-cole": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:nir-eyal": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:noah-hawley": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:ocean-vuong": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:omar-eddaoudi": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:omar-eltakrori": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:operator-autopilot": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:oren-taste-development": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:oscar-hoglund": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:packy-mccormick": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:paolo-trivellato": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:pat-flynn": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:patrick-dang": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:patrick-debois": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:paul-harding": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:paul-james": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:pj-accetturo": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:prediction-market-strategist": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:prosperity-coach": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:rachel-woods": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:ray-amjad": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:reid-hoffman": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:remotion": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:research-intelligence-agent": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:riley-brown": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:robert-greene": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:robert-mack": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:ron-lynch": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:rory-sutherland": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:ross-mckay": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:ross-minchev": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:russell-brunson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sabri-suby": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sabrina-ramonov": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sam-goddard": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sam-parr": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:samuel-thompson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sarah-levinger": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:satori-graphics": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sean-dollwet": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sean-kochel": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sean-macintyre": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:seena-rez": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:seth-godin": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:shaan-puri": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:shan-hanif": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:42.031488"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sherwin-wu": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:simon-better-creating": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sinem-gunel": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sky-tan": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:soowei": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:steven-kotler": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:steven-pressfield": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:steven-young": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:stockton-walbeck": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:strength-conditioning-os": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:sunny-lenarduzzi": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:susan-orlean": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:taki-moore": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tao-prompts": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:taylor-welch": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tess-barclay": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:thrivecart": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tim-danilov": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tim-runia": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tobi-lutke": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tobias-allen": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tom-noske": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tom-segura": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tommy-clark": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:tyler-denk": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:vince-nijhof": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:vincent-hu": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:ward-farnsworth": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:wordsatscale": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:wright-thompson": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "agent:yuri-elkaim": {
    "status": "PROVEN",
    "via": "listed in AGENT_INDEX.md",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:activation_governor.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:ad_spy.py": {
    "status": "PROVEN",
-   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:agent_tick.py": {
    "status": "PROVEN",
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:ai_carousel_engine.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:ai_misfire_sprint_guard.py": {
    "status": "ORPHAN",
@@ -1188,48 +1188,48 @@
   },
   "execution:anchor_memory.py": {
    "status": "PROVEN",
-   "via": "referenced 32x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 73x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:anchor_verify.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:apify_client.py": {
    "status": "PROVEN",
-   "via": "referenced 40x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 62x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:arsenal.py": {
    "status": "PROVEN",
-   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 17x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:arsenal_index.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:artifact_frontmatter_guard.py": {
    "status": "PROVEN",
-   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:artifact_router.py": {
    "status": "PROVEN",
-   "via": "referenced 21x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:artifact_surface_guard.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:attention_hijack_hooks.py": {
    "status": "PROVEN",
-   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:audit_extraction_integrity.py": {
    "status": "ORPHAN",
@@ -1238,88 +1238,88 @@
   },
   "execution:autopilot_runtime_preflight.py": {
    "status": "PROVEN",
-   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:avatar_manifold_runner.py": {
    "status": "PROVEN",
-   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:benchmark_router_retrieval.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:bet_tracker.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 28x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:blind_pass.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 21x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:bos_scaffold.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:brand_radar.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:buyer_trigger_research.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:capability_graph.py": {
    "status": "PROVEN",
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:cascade_detector.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:chain_runner.py": {
    "status": "PROVEN",
-   "via": "referenced 195x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 269x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:checkpoint_manager.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:citation_integrity.py": {
    "status": "PROVEN",
-   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:claim_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:claim_risk_scan.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:claude_export_parser.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:claude_export_triage.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:client_package_lint.py": {
    "status": "ORPHAN",
@@ -1328,83 +1328,83 @@
   },
   "execution:co_creative_launchpad.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:codex_dynamic_workflow.py": {
    "status": "PROVEN",
    "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:codex_harness_check.py": {
    "status": "PROVEN",
-   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:codex_live_surface_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:codex_operator_preflight.py": {
    "status": "PROVEN",
-   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:command_menu.py": {
    "status": "PROVEN",
-   "via": "referenced 63x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 70x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:content_finish_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:context_ethics_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 79x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:context_retriever.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 30x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:context_search.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:contextual_next_prompts.py": {
    "status": "PROVEN",
-   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 30x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:control_intent.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:convene.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:conversation_index.py": {
    "status": "PROVEN",
    "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:cos_prep.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 48x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:cos_primer_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:cos_reminders.py": {
    "status": "PROVEN",
@@ -1413,43 +1413,43 @@
   },
   "execution:cost_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 57x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 191x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:council_cast.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:creative_router.py": {
    "status": "PROVEN",
-   "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 125x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:daily_health_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:deep_research_client.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:deep_research_engine.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:deliberate.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:design_md_brand_lookup.py": {
    "status": "PROVEN",
-   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:design_md_extract.py": {
    "status": "ORPHAN",
@@ -1458,153 +1458,153 @@
   },
   "execution:design_md_validate.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:discover_notebooks.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:dream.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:end_session_closeout.py": {
    "status": "PROVEN",
-   "via": "referenced 17x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:episodic_ingest.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:eval_harness.py": {
    "status": "PROVEN",
-   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:evolution_orchestrator.py": {
    "status": "PROVEN",
-   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:evolution_tracer.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:excellence_predictor.py": {
    "status": "PROVEN",
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:execution_receipt.py": {
    "status": "PROVEN",
-   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:expert_router.py": {
    "status": "PROVEN",
-   "via": "referenced 44x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 48x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:export_format_guard.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-26T06:00:11.440451"
   },
   "execution:export_to_drive.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:extraction_manifest.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:extraction_swarm.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:failure_learning.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:fal_budget_guard.py": {
    "status": "PROVEN",
-   "via": "referenced 50x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 169x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:fal_video_kling.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 33x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:fal_video_seedance.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 35x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:fetch-transcript.py": {
    "status": "PROVEN",
-   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 32x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:fetch-video-context.py": {
    "status": "PROVEN",
-   "via": "referenced 36x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 70x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:find_skill.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:fleet_merge.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:forge_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:forge_queue.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:friction_ledger.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:gap_analysis.py": {
    "status": "PROVEN",
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:gates.py": {
    "status": "PROVEN",
-   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:gemini_client.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:gen_handcrafted_carousel.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:generate_agent_stacking_registry.py": {
    "status": "ORPHAN",
@@ -1614,327 +1614,327 @@
   "execution:generate_codex_indexes.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:generate_design.py": {
    "status": "PROVEN",
-   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:generate_image.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 40x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:generate_slash_commands.py": {
    "status": "PROVEN",
-   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:ground_truth.py": {
    "status": "PROVEN",
-   "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
+   "via": "referenced 35x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:grounding_guard.py": {
    "status": "PROVEN",
    "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:handoff_store.py": {
    "status": "PROVEN",
-   "via": "referenced 39x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 61x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:harness_status.py": {
    "status": "PROVEN",
    "via": "referenced 18x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:harvest_memory_daily.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:health_metrics.py": {
    "status": "PROVEN",
-   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:higgsfield_budget_guard.py": {
    "status": "PROVEN",
    "via": "referenced 62x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/active_tool_lock.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/artifact_placement_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/concurrent_session_alarm.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/cost_gate_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/divergence_alarm_hook.py": {
-   "status": "PROVEN",
-   "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "status": "ORPHAN",
+   "via": "hook file not registered in .claude/settings.json",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/fleet_write_guard.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/guard_stranded_deliverables.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/mcp_spend_log_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/menu_parity_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/pending_decisions_hook.py": {
-   "status": "PROVEN",
-   "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "status": "ORPHAN",
+   "via": "hook file not registered in .claude/settings.json",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/prompt_menu_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/session_end_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/session_ledger_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hooks/steering_loop_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:hybrid_morning_signal_radar.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:intent_memory.py": {
    "status": "PROVEN",
    "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:intent_to_package.py": {
    "status": "PROVEN",
    "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:kallaway_trend_hook_radar.py": {
    "status": "PROVEN",
    "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:kimi_swarm.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:knowledge_compiler.py": {
    "status": "PROVEN",
    "via": "referenced 76x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:live_trader.py": {
    "status": "PROVEN",
-   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:log_performance.py": {
    "status": "PROVEN",
    "via": "referenced 27x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:md_to_gdoc.py": {
    "status": "PROVEN",
-   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_distill.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_embed.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_facade.py": {
    "status": "PROVEN",
-   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 31x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_ops.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_retrieve.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_review.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:memory_store.py": {
    "status": "PROVEN",
    "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:mint_menu_wrappers.py": {
    "status": "PROVEN",
-   "via": "referenced 1740x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 2042x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:mirror_notion.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:mission_control.py": {
    "status": "PROVEN",
-   "via": "referenced 44x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 43x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:mission_runner.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:mission_validator.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:native_floor.py": {
    "status": "PROVEN",
-   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:nba_stats.py": {
    "status": "PROVEN",
    "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:notebooklm_client.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:notebooklm_knowledge_retrieval.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:notion_api.py": {
    "status": "PROVEN",
-   "via": "referenced 28x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 30x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:notion_backfill_knowledge.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:odds_fetcher.py": {
    "status": "PROVEN",
    "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:offer_gate.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:operator_cockpit.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:operator_core_fast_proof.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:operator_core_status.py": {
    "status": "PROVEN",
    "via": "referenced 29x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:operator_guide_sync.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:orchestration_ledger.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:outcome_chase.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:outcome_recipes.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:panel_cast.py": {
    "status": "PROVEN",
    "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:paper_trader.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:parallel_swarm.py": {
    "status": "PROVEN",
    "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:pattern_propagation.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:perception_engineering_bridge_audit.py": {
    "status": "ORPHAN",
@@ -1944,57 +1944,57 @@
   "execution:performance_evidence_audit.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:perplexity_client.py": {
    "status": "PROVEN",
    "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:persona_receipt_check.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:persona_stat_lint.py": {
    "status": "PROVEN",
    "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:platform_compiler.py": {
    "status": "PROVEN",
    "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:plugin_readiness_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:project_filer.py": {
    "status": "PROVEN",
-   "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:projection_engine.py": {
    "status": "PROVEN",
    "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:prompt_library.py": {
    "status": "PROVEN",
-   "via": "referenced 42x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 43x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:prose_classifier.py": {
    "status": "PROVEN",
-   "via": "referenced 129x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 145x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:protocol_tracker.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:publishable_copy_guard.py": {
    "status": "ORPHAN",
@@ -2003,283 +2003,283 @@
   },
   "execution:pulse_dashboard.py": {
    "status": "PROVEN",
-   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:raw_intent_run_packet.py": {
    "status": "PROVEN",
    "via": "referenced 28x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:recall_logger.py": {
    "status": "PROVEN",
-   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:recommend_stack.py": {
    "status": "PROVEN",
    "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:recurring_ops.py": {
    "status": "PROVEN",
    "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:regression_suite.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:renaissance_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 39x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 44x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:renaissance_queue.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:research.py": {
    "status": "PROVEN",
-   "via": "referenced 127x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 157x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:research_contract.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:research_depth.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:research_personas.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:research_quality_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 40x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 41x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:revenue_tracker.py": {
    "status": "PROVEN",
-   "via": "referenced 38x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 41x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:review_miner.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:risk_manager.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:routing_audit.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:routing_enforcer.py": {
    "status": "PROVEN",
-   "via": "referenced 55x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 59x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:routing_governor.py": {
    "status": "PROVEN",
-   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 27x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:routing_intelligence.py": {
    "status": "PROVEN",
-   "via": "referenced 98x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 100x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:run_receipt.py": {
    "status": "PROVEN",
    "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:savant_control_room.py": {
    "status": "PROVEN",
-   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:search_experts.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:self_heal.py": {
    "status": "PROVEN",
-   "via": "referenced 31x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 37x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:session_closeout_intelligence.py": {
    "status": "PROVEN",
-   "via": "referenced 30x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 32x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:session_lock.py": {
    "status": "PROVEN",
-   "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 31x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:session_log_registrar.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:session_workspace.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:skill_auditor.py": {
    "status": "PROVEN",
-   "via": "referenced 57x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 66x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:skill_benchmark.py": {
    "status": "PROVEN",
    "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:skill_census.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:skill_converter.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:skill_evolution_candidates.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:skill_router_hook.py": {
    "status": "PROVEN",
-   "via": "referenced 17x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:social_intel.py": {
    "status": "PROVEN",
-   "via": "referenced 18x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:social_pulse.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:solution_recorder.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:subagent_readiness.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:swarm_conductor.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_global_operator_core.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_end_session.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_expert_composition_governor.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_extraction_governor_agent.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_health_check.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_knowledge_librarian.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_orchestrate.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_repeatability_spine.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_routing_intelligence.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_self_evolve.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_skill_anneal.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_source_to_skill_system.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_operator_core_system_audit.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:sync_registries.py": {
    "status": "PROVEN",
-   "via": "referenced 645x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 669x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:system_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:system_cohesion_platter.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:system_cohesion_state.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T15:19:33.427547"
+   "checked": "2026-08-27T06:00:05.636650"
   },
   "execution:system_efficiency_benchmark.py": {
    "status": "ORPHAN",
@@ -19160,6 +19160,16 @@
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
    "checked": "2026-08-24T06:01:07.871711"
+  },
+  "execution:verify_jun_story_engine.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 confirmed in verify_fleet.discover()",
+   "checked": "2026-08-26T06:00:11.440451"
+  },
+  "workflow:jun-story-engine": {
+   "status": "PROVEN",
+   "via": "wrapper in .claude/commands/ (menu-parity)",
+   "checked": "2026-08-26T06:00:11.440451"
   }
  }
 }

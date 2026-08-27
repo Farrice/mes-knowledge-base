@@ -610,3 +610,68 @@ released
 {"session_sweep": "2026-08-25T02:45:05.528807", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 236, "threads_seen": 466, "threads_promoted": 12, "deliverables": 17, "artifacts": 45, "assets": 4, "artifacts_vanished": 12, "overflow": 214}, "degraded": []}
 {"session_sweep": "2026-08-25T02:45:05.528807", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 236, "threads_seen": 466, "threads_promoted": 12, "deliverables": 17, "artifacts": 45, "assets": 4, "artifacts_vanished": 12, "overflow": 214}, "degraded": []}
 === 2026-08-25 02:45:05 mission sweep end rc=0 ===
+=== 2026-08-26 02:45:01 mission sweep start ===
+claimed: ed1b1fa9677e  (heartbeat every wave: session_lock.py heartbeat ed1b1fa9677e)
+[session_sweep] window 14d — 174 sessions, 12/447 threads promoted, 9 deliverables, 45 artifacts, 3 assets
+  · ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1 build    open mission, artifact written
+  · deep-research                          outcome  finalized deliverable, handoff status: active
+  · 02-book-blueprint                      outcome  finalized deliverable, handoff status: ready
+  · go                                     outcome  finalized deliverable, handoff status: active
+  · offer-redteam                          outcome  finalized deliverable, handoff status: active
+  · linkedin                               outcome  handoff status: active
+  · extract-forge                          outcome  handoff status: ready
+  · proof-to-market                        research handoff status: ready
+  · harness                                research handoff status: active
+  · execution                              research handoff status: active
+  · writers-room                           outcome  handoff status: active
+  · mission                                research handoff status: active
+[session_sweep] over the 12-card ceiling (218), not carded: extract-virtuoso-mastery, codex-end-session-control-plane, deliverables, angle-map-listening-engine-v4-1, guides, teardown-1-fresh, global-org-sweep, god-agent-offer, readout-os, dunford-handshake-haynes
+[session_sweep] shipped without a live thread: 3 (surfaces on the mission board)
+[session_sweep] below the bar (217): 1654-moonseed-simi-hooks, agentic-os-build-and-deployment, alignment-audit-red-team-verdict, angle-brief-2026-08-13, audit-apify-automations, auto-caption-proper-nouns-poison-extraction-slug, briefing-room-card-portability, build-a-deterministic-system-health-check-debt-prevention
+[session_sweep] wrote .agent/sweep/sweep-2026-08-26.json
+[work_catalog] 1109 rows (+22) · census rows folded: 2712 → .agent/catalog/catalog.jsonl
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-02-book-blueprint, mission-go, mission-execution …
+[mission_brief] reawakened from the shelf: deep-research
+[brief_synthesis] claude CLI not found — briefs stay facts-only (honest, not broken)
+[brief_synthesis] claude CLI not found — triage skipped (honest, not broken)
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-02-book-blueprint, mission-go, mission-execution …
+[brief_library] auto-archived (mission > 14d): mission-video-studio-edit-bay
+[brief_library] auto-archived (mission > 14d): mission-oren-slop-era-creative-strategy
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (54 briefs · routes verified · 48 active · 6 archived · shelves clean)
+homebase → /Users/farricecain/Google Antigravity/.agent/homebase/homebase.html
+library → /Users/farricecain/Google Antigravity/.agent/catalog/library.html
+released
+{"session_sweep": "2026-08-26T02:45:03.275366", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 174, "threads_seen": 447, "threads_promoted": 12, "deliverables": 9, "artifacts": 45, "assets": 3, "artifacts_vanished": 12, "overflow": 218}, "degraded": []}
+{"session_sweep": "2026-08-26T02:45:03.275366", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 174, "threads_seen": 447, "threads_promoted": 12, "deliverables": 9, "artifacts": 45, "assets": 3, "artifacts_vanished": 12, "overflow": 218}, "degraded": []}
+=== 2026-08-26 02:45:03 mission sweep end rc=0 ===
+=== 2026-08-27 02:45:00 mission sweep start ===
+claimed: daf5388a08f1  (heartbeat every wave: session_lock.py heartbeat daf5388a08f1)
+[session_sweep] window 14d — 169 sessions, 12/445 threads promoted, 8 deliverables, 45 artifacts, 3 assets
+  · execution                              research handoff status: active
+  · ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1 build    open mission, artifact written
+  · deep-research                          outcome  finalized deliverable, handoff status: active
+  · 02-book-blueprint                      outcome  finalized deliverable, handoff status: ready
+  · go                                     outcome  finalized deliverable, handoff status: active
+  · offer-redteam                          outcome  finalized deliverable, handoff status: active
+  · linkedin                               outcome  handoff status: active
+  · extract-forge                          outcome  handoff status: ready
+  · proof-to-market                        research handoff status: ready
+  · harness                                research handoff status: active
+  · writers-room                           outcome  handoff status: active
+  · mission                                research handoff status: active
+[session_sweep] over the 12-card ceiling (218), not carded: extract-virtuoso-mastery, deliverables, angle-map-listening-engine-v4-1, guides, teardown-1-fresh, global-org-sweep, god-agent-offer, readout-os, dunford-handshake-haynes, godin-marketing-mind
+[session_sweep] shipped without a live thread: 2 (surfaces on the mission board)
+[session_sweep] below the bar (215): 1654-moonseed-simi-hooks, agentic-os-build-and-deployment, alignment-audit-red-team-verdict, angle-brief-2026-08-13, audit-apify-automations, auto-caption-proper-nouns-poison-extraction-slug, briefing-room-card-portability, build-a-deterministic-system-health-check-debt-prevention
+[session_sweep] wrote .agent/sweep/sweep-2026-08-27.json
+[work_catalog] 1113 rows (+4) · census rows folded: 3154 → .agent/catalog/catalog.jsonl
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-execution, mission-02-book-blueprint, mission-go …
+[brief_synthesis] claude CLI not found — briefs stay facts-only (honest, not broken)
+[brief_synthesis] claude CLI not found — triage skipped (honest, not broken)
+[mission_brief] 13 brief(s) written: mission-linkedin, mission-proof-to-market, mission-harness, mission-execution, mission-02-book-blueprint, mission-go …
+[brief_library] OK → /Users/farricecain/Google Antigravity/deliverables/research-briefs/index.html (54 briefs · routes verified · 48 active · 6 archived · shelves clean)
+homebase → /Users/farricecain/Google Antigravity/.agent/homebase/homebase.html
+library → /Users/farricecain/Google Antigravity/.agent/catalog/library.html
+released
+{"session_sweep": "2026-08-27T02:45:02.704832", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 169, "threads_seen": 445, "threads_promoted": 12, "deliverables": 8, "artifacts": 45, "assets": 3, "artifacts_vanished": 12, "overflow": 218}, "degraded": []}
+{"session_sweep": "2026-08-27T02:45:02.704832", "status": "ok", "synthesis_rc": 0, "synthesized": true, "synthesis_generated": "2026-08-20T21:45:05", "counts": {"sessions": 169, "threads_seen": 445, "threads_promoted": 12, "deliverables": 8, "artifacts": 45, "assets": 3, "artifacts_vanished": 12, "overflow": 218}, "degraded": []}
+=== 2026-08-27 02:45:02 mission sweep end rc=0 ===

@@ -1,6 +1,6 @@
 # Handoff — System Health Audit + Repair (2026-08-24)
 
-> MISSION · THREAD · window: last 14 days · lens: claude · sources: 0 sessions · 0 files · 0 assets · compiled: aug 25, 2026
+> MISSION · THREAD · window: last 14 days · lens: codex · sources: 1 sessions · 0 files · 0 assets · compiled: aug 27, 2026
 
 One good thing is buried in here. Dig it out and shut the lid.
 
@@ -8,9 +8,9 @@ One good thing is buried in here. Dig it out and shut the lid.
 _CURRENT POSITION_
 This thread is a graveyard of superseded offer research plus one surviving asset — the premium arc with its four rungs from door through retainer — and that survivor is the only reason to open it again.
 
-Stage: research — reading and deciding — nothing built yet. In the last 14 days: no recorded activity.
+Stage: research — reading and deciding — nothing built yet. In the last 14 days: 1 session.
 
-Handoff status is active.
+Handoff status is active. Last activity today.
 
 Next: Pull the four-rung pricing ladder out of this thread and attach it to the offer thread where the buyer conversation will actually happen.
 
@@ -21,7 +21,7 @@ What moved: verdict = builds GREEN (Second Brain, Homebase, hooks, budgets all r
 Uncertain: Notion L3 mirror fails nightly (ConnectionError) though API answers 200 directly — needs supervised re-run; Style Vault exists ONLY on unmerged worktree-style-vault branch, not main; jen/mybpm social-pulse Apify actors return 0 items.
 Latest proof: audit output /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/73378698-b9b8-4f42-90c6-11712482419c/tasks/w3v56gcad.output (run wf_8e685a4a-b35).
 
-Handoff written 1d ago — treat its plan as current.
+Handoff written 3d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -67,11 +67,20 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 (assembled by mission_board.py from .agent/sweep/latest.json — every line above is a record, not a summary)
 ```
 
+## by the numbers
+- SESSIONS: **1** (codex)
+
+## momentum
+
+
 ## lifecycle
 
 
 ## what this thread made
 - **2026-08-21-handoff-execution.md** [GUIDE] `guides/2026-08-21-handoff-execution.md`
+
+## how it got here
+- 2026-08-26 · **codex session** — Revenue: Creative Sprint Execution - Competence OS
 
 ## the record
 - **Build an Apify scrape-creators social-listening integration for the Antigravity system usi** [VERIFIED] — TRIAGE 2026-07-29 (Farrice: execute all): shipped: Riley Brown OS /scrape-creator /ad-spy (missions.jsonl · done)
@@ -87,7 +96,7 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 _READ THE EDGES_
 No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.
 
-The judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 6 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

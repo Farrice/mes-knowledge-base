@@ -109,3 +109,9 @@ ERROR: lock not held by this token
 claimed: 7210e8213f82  (heartbeat every wave: session_lock.py heartbeat 7210e8213f82)
 no pending cards
 released
+claimed: 0475b71231b2  (heartbeat every wave: session_lock.py heartbeat 0475b71231b2)
+no pending cards
+released
+claimed: 2957370a1b95  (heartbeat every wave: session_lock.py heartbeat 2957370a1b95)
+no pending cards
+released

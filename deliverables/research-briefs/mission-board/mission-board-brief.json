@@ -5,8 +5,8 @@
   "dek": "Every live thread in one place, newest first. Open the one you're resuming.",
   "window": "last 14 days",
   "lens": "claude · codex",
-  "sources": "236 sessions swept",
-  "compiled": "aug 25, 2026",
+  "sources": "169 sessions swept",
+  "compiled": "aug 27, 2026",
   "footer_left": "ANTIGRAVITY · MISSION SWEEP",
   "footer_right": "@farricecain",
   "category": "mission",
@@ -28,7 +28,7 @@
           "label": "LIVE THREADS"
         },
         {
-          "value": "17",
+          "value": "8",
           "label": "DELIVERABLES FINALIZED"
         },
         {
@@ -36,11 +36,11 @@
           "label": "FILES WRITTEN"
         },
         {
-          "value": "4",
+          "value": "3",
           "label": "ASSETS GENERATED"
         },
         {
-          "value": "236",
+          "value": "169",
           "label": "SESSIONS SWEPT"
         }
       ]
@@ -53,21 +53,21 @@
           "label": "sessions",
           "values": [
             1,
-            6,
-            1,
             1,
             1,
             0,
-            2,
+            3,
             3,
             0,
             0,
             1,
             0,
             0,
+            1,
+            0,
             1
           ],
-          "value": "17",
+          "value": "12",
           "note": "per day"
         },
         {
@@ -84,32 +84,11 @@
             0,
             0,
             0,
+            8,
             0,
-            0,
-            9
+            1
           ],
           "value": "9",
-          "note": "per day"
-        },
-        {
-          "label": "assets",
-          "values": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "value": "1",
           "note": "per day"
         }
       ],
@@ -124,6 +103,12 @@
           "label": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
           "values": [
             9
+          ]
+        },
+        {
+          "label": "deep research",
+          "values": [
+            3
           ]
         },
         {
@@ -143,24 +128,6 @@
           "values": [
             3
           ]
-        },
-        {
-          "label": "linkedin",
-          "values": [
-            1
-          ]
-        },
-        {
-          "label": "angle map listening engine v4 1",
-          "values": [
-            3
-          ]
-        },
-        {
-          "label": "first client engine",
-          "values": [
-            6
-          ]
         }
       ]
     },
@@ -170,9 +137,19 @@
       "tag": "OPEN ONE",
       "links": [
         {
+          "k": "ACTIVE",
+          "title": "execution",
+          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
+        },
+        {
           "k": "BUILD",
           "title": "ignite realtor content pack subscription per income master 2026 08 pick a hybrid vertical lock general monthly agent pack listing content flagship month 1",
           "path": "deliverables/research-briefs/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1/mission-ignite-realtor-content-pack-subscription-per-income-master-2026-08-pick-a-hybrid-vertical-lock-general-monthly-agent-pack-listing-content-flagship-month-1-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "deep research",
+          "path": "deliverables/research-briefs/mission-deep-research/mission-deep-research-brief.html"
         },
         {
           "k": "READY",
@@ -200,24 +177,9 @@
           "path": "deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.html"
         },
         {
-          "k": "ACTIVE",
-          "title": "mission",
-          "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "angle map listening engine v4 1",
-          "path": "deliverables/research-briefs/mission-angle-map-listening-engine-v4-1/mission-angle-map-listening-engine-v4-1-brief.html"
-        },
-        {
           "k": "READY",
           "title": "proof to market",
           "path": "deliverables/research-briefs/mission-proof-to-market/mission-proof-to-market-brief.html"
-        },
-        {
-          "k": "ACTIVE",
-          "title": "first client engine",
-          "path": "deliverables/research-briefs/mission-first-client-engine/mission-first-client-engine-brief.html"
         },
         {
           "k": "ACTIVE",
@@ -226,8 +188,13 @@
         },
         {
           "k": "ACTIVE",
-          "title": "execution",
-          "path": "deliverables/research-briefs/mission-execution/mission-execution-brief.html"
+          "title": "writers room",
+          "path": "deliverables/research-briefs/mission-writers-room/mission-writers-room-brief.html"
+        },
+        {
+          "k": "ACTIVE",
+          "title": "mission",
+          "path": "deliverables/research-briefs/mission-mission/mission-mission-brief.html"
         }
       ]
     },
@@ -237,57 +204,15 @@
       "tag": "NO LIVE THREAD",
       "items": [
         {
+          "date": "2026-08-25",
+          "title": "extract-virtuoso-mastery",
+          "body": "Source-grounded mastery extraction of Mike Sherrard's 8 realtor Claude skills video plus Realtor AI Revenue Desk founding-pilot proposal, warm-intro copy, capab",
+          "done": true
+        },
+        {
           "date": "2026-08-21",
           "title": "homebase-cockpit",
           "body": "Homebase 2.0 Agentic OS cockpit: ARMS-video harvest replicated in Ink+Steel Blue — /brain second-brain graph (1,293 nodes), artifacts ring, guarded Skills Deck ",
-          "done": true
-        },
-        {
-          "date": "2026-08-13",
-          "title": "end-session",
-          "body": "Oren Identity Brand OS deployability verification and end-session closeout: current gates re-run, stale blocker retired, operator guide enriched, exact done han",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "rescue-stalled-progress",
-          "body": "Katie 135 plateau diagnosis (Aragon rescue-stalled-progress contract) + next-block direction memos for Katie and Josh (Carbon Torch)",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "build-transformation-program",
-          "body": "New Block-2 programs for both Carbon Torch clients: Katie Strong & Lean II v3 (top-set wave + dual-mode nutrition) and Josh Titration Defense v3 (anchor-compres",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "coaching-business-os",
-          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "coaching-business-os",
-          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "coaching-business-os",
-          "body": "Josh and Katie 6-8 week v3 program design + Katie 135 lb plateau metabolic shift analysis",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "design-hypertrophy-mesocycle",
-          "body": "Stimulus rotation pass on both Block-2 programs: accessory layer fully rotated to lengthened-position variants (Israetel selection rules), anchors kept with sta",
-          "done": true
-        },
-        {
-          "date": "2026-08-12",
-          "title": "design-hypertrophy-mesocycle",
-          "body": "Josh Titration Defense expanded to full menu: ADD-tier physique accessories restored across all 5 sessions (delts 3x/wk, back thickness, pullover, arms, traps, ",
           "done": true
         }
       ]
@@ -296,7 +221,7 @@
       "kind": "caveats",
       "heading": "what this board *isn't*",
       "kicker": "READ THE EDGES",
-      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n214 more threads cleared the bar but sit below the 12-card ceiling and were not carded: writers room, codex end session control plane, readout os, deliverables, guides, teardown 1 fresh, global org sweep, god agent offer, dunford handshake haynes, godin marketing mind, codex parity, novelty campaign.\n\n240 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
+      "body": "Several threads carry stub handoffs with no state recorded, so what is genuinely unfinished in them is unknown rather than confirmed. A number of mission outcomes are triage rewrites rather than new work, which makes the board look busier than it is. No thread in the whole record contains evidence of a buyer reply, a price objection, or a collected payment, so every quality judgment across this portfolio is currently self-assessed.\n\n218 more threads cleared the bar but sit below the 12-card ceiling and were not carded: extract virtuoso mastery, deliverables, angle map listening engine v4 1, guides, teardown 1 fresh, global org sweep, god agent offer, readout os, dunford handshake haynes, godin marketing mind, codex parity, novelty campaign.\n\n215 keys were seen but never declared a thread (no live handoff, no open mission, no finalized deliverable) — activity alone does not mint a mission."
     }
   ],
   "status": "active"

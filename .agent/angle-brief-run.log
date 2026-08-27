@@ -40,3 +40,25 @@ released
 === 2026-08-24 07:00:00 angle-brief run start ===
 BLOCKED: fresh lock held by another session — mission 'zeitgeist daily run' (heartbeat 2371s ago). One driver per tree; wait or coordinate with Farrice.
 lock blocked — skipping this run (one writer per tree)
+=== 2026-08-27 07:45:02 angle-brief run start ===
+claimed: 4883b6eb3fda  (heartbeat every wave: session_lock.py heartbeat 4883b6eb3fda)
+/Users/farricecain/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+{
+  "status": "ok",
+  "run": "2026-08-27T07:45:03",
+  "posts": 6,
+  "engagers": 1071,
+  "actor_calls": 14,
+  "call_cap": 80,
+  "budget_spent_before": 11.152,
+  "budget_spent_after": 11.152,
+  "outputs": [
+    "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-27.md",
+    "/Users/farricecain/Google Antigravity/_active/linkedin/05-lead-gen/engager-rosters/ROSTER-2026-08-27.json"
+  ],
+  "contacted_anyone": false
+}
+Failed to authenticate: OAuth session expired and could not be refreshed
+released
+=== 2026-08-27 07:46:45 angle-brief run end rc=1 ===
