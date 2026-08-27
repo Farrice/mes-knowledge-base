@@ -1,12 +1,12 @@
 {
-  "ts": "2026-08-27T17:33:49.338751+00:00",
+  "ts": "2026-08-27T18:34:56.508409+00:00",
   "dry_run": false,
-  "lanes": 31,
-  "merged": 0,
+  "lanes": 32,
+  "merged": 2,
   "torn_down": 0,
-  "parked": 10,
+  "parked": 9,
   "live": 21,
-  "stranded_commits": 69,
+  "stranded_commits": 98,
   "results": [
     {
       "branch": "worktree-apify-decommission",
@@ -45,13 +45,28 @@
       "detail": "6 uncommitted file(s) \u2014 a session is still working here"
     },
     {
+      "branch": "worktree-kallaway-sandcastles-forge",
+      "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/kallaway-sandcastles-forge",
+      "commits_ahead": 9,
+      "dirty_files": 0,
+      "conflicts": [
+        "directives/feedback-ratchet.md",
+        "directives/quality_gate.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "2 file(s) collide \u2014 needs resolution"
+    },
+    {
       "branch": "worktree-mailroom",
       "path": "/Users/farricecain/Google Antigravity/.claude/worktrees/mailroom",
       "commits_ahead": 13,
       "dirty_files": 0,
-      "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: worktree-mailroom \u2014 main tree dirty (120 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane worktree-mailroom"
+      "conflicts": [
+        "directives/feedback-ratchet.md",
+        "directives/quality_gate.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "2 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "claude/vigilant-leakey-5f6293",
@@ -181,9 +196,12 @@
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/mastery-transfer-proof-spine",
       "commits_ahead": 7,
       "dirty_files": 0,
-      "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/mastery-transfer-proof-spine \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/mastery-transfer-proof-spine"
+      "conflicts": [
+        "directives/feedback-ratchet.md",
+        "directives/quality_gate.md"
+      ],
+      "action": "parked-conflict",
+      "detail": "2 file(s) collide \u2014 needs resolution"
     },
     {
       "branch": "codex/mert-consultancy-spine",
@@ -200,13 +218,13 @@
       "commits_ahead": 1,
       "dirty_files": 0,
       "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/nicolas-cole-writing-formats \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/nicolas-cole-writing-formats"
+      "action": "merged",
+      "detail": "LANE MERGED: codex/nicolas-cole-writing-formats -> main (1 commits, 27 files) (push pending \u2014 will drain via post-commit hook)"
     },
     {
       "branch": "codex/notion-second-brain-reliability",
       "path": "/Users/farricecain/Google Antigravity/.tmp/codex-worktrees/notion-second-brain-reliability",
-      "commits_ahead": 2,
+      "commits_ahead": 24,
       "dirty_files": 0,
       "conflicts": [
         "directives/feedback-ratchet.md",
@@ -252,8 +270,8 @@
       "commits_ahead": 1,
       "dirty_files": 0,
       "conflicts": [],
-      "action": "parked-blocked",
-      "detail": "LANE PARKED: codex/parallax-dwa-audit \u2014 main tree dirty (121 tracked change(s)) \u2014 first driver owns it. Resolve later: python3 execution/worktree_lane.py merge --lane codex/parallax-dwa-audit"
+      "action": "merged",
+      "detail": "LANE MERGED: codex/parallax-dwa-audit -> main (1 commits, 5 files) (push pending \u2014 will drain via post-commit hook)"
     },
     {
       "branch": "codex/pmf-health-linkedin-research",
