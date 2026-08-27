@@ -2,6 +2,9 @@
 
 | Date | Asset | Format | Pillars | Bucket | Ring | Status |
 |---|---|---|---|---|---|---|
+| 2026-08-27 | [two-tubs-post](2026-08-27-two-tubs-post.md) | LinkedIn post (flagship) | Thesis · P1 | Authority | Bridge | READY |
+| 2026-08-27 | [claim-with-a-clock-proof-chain-2](2026-08-27-claim-with-a-clock-proof-chain-2.md) | Series/education post (long-form) | Thesis · P2 | Authority | Bridge | READY |
+| 2026-08-27 | [two-tubs-video](2026-08-27-two-tubs-video.md) | 45-60s video script | Thesis · P1 | Growth | Outer | READY |
 | 2026-08-16 | [the-second-price-post](2026-08-16-the-second-price-post.md) | LinkedIn post (flagship) | Proof · P2 | Authority | Bridge | READY |
 | 2026-08-16 | [what-a-shelf-does-longform](2026-08-16-what-a-shelf-does-longform.md) | Education long-form | Thesis · P2 | Authority | Bridge | READY |
 | 2026-08-13 | [ads-that-last-post](2026-08-13-ads-that-last-post.md) | LinkedIn post (flagship) | Thesis · P2 | Authority | Bridge | READY |
