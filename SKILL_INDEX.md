@@ -274,6 +274,7 @@
 | `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** | land ghostwriting clients from zero — 30-day sprint blueprint, no-portfolio strategies, leaks/faucets network mapping | 5 | 9 |
 | `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | use when choosing or pricing a digital product, or building a product ladder, digital product creation strategy | 3 | 6 |
 | `nicolas-cole-edan-writing-mechanics` | **Nicolas Cole EDAN Writing Mechanics** | writing mechanics, narrative composition, paragraph architecture | 8 | 0 |
+| `nicolas-cole-library-first-writing` | **nicolas-cole-library-first-writing** | build an owned content library by selecting the right next writing format, moving through cole's compression-to-reuse skill ladder, and saving proof and reusable material back | 2 | 0 |
 | `nicolas-cole-newsletter-flywheel` | **Nicolas Cole Newsletter Flywheel** | newsletter strategy, substack architecture, content flywheel design | 17 | 0 |
 | `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche positioning, specificity drilling, category creation | 3 | 0 |
 | `nicolas-cole-nonfiction-value-architecture` | **Nicolas Cole Nonfiction Value Architecture** | nonfiction writing strategy, reader value architecture, newsletter outlines | 8 | 0 |

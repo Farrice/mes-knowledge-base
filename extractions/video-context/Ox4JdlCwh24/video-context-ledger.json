@@ -1,0 +1,105 @@
+[
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:01:57",
+    "start_seconds": 116.72,
+    "mechanic": "Library over virality",
+    "text": "Cole says the durable content library matters more than any one platform hit.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:08:29",
+    "start_seconds": 508.84,
+    "mechanic": "Rhetorical compression",
+    "text": "Tweets are positioned as the smallest training unit for clear and memorable writing.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:10:57",
+    "start_seconds": 657.2,
+    "mechanic": "Atomic practice container",
+    "text": "Atomic essays are defined as roughly 300-word visual essays that can be drafted in about 30 minutes.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:11:48",
+    "start_seconds": 707.92,
+    "mechanic": "Five foundational skills",
+    "text": "The atomic essay trains headlines, hooks, formatting, rhythm, and bulleted lists together.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:12:02",
+    "start_seconds": 721.52,
+    "mechanic": "Visual compression",
+    "text": "Carousels add visual sequencing and tighter per-slide constraints to the writing stack.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:12",
+    "start_seconds": 791.8,
+    "mechanic": "Idea-format fit",
+    "text": "Cole argues that list-shaped, actionable ideas fit carousels better than nuanced or long-winded topics.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:13:46",
+    "start_seconds": 825.72,
+    "mechanic": "Skill moat and taste ownership",
+    "text": "AI may reduce production friction, but the operator still owns taste, image choice, and visual assembly.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:15:06",
+    "start_seconds": 905.6,
+    "mechanic": "Long-form leverage hub",
+    "text": "Articles are framed as reusable long-form anchors that can be compressed, expanded, republished, or performed.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:12",
+    "start_seconds": 972.28,
+    "mechanic": "Owned recombination",
+    "text": "Cole describes the library as owned material that can be cut apart, recombined, or moved between free and paid contexts.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:16:49",
+    "start_seconds": 1008.8,
+    "mechanic": "Prompts as content-supply-chain assets",
+    "text": "Prompts are presented as reusable assets for personal work, marketing, and digital products.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:17:33",
+    "start_seconds": 1053.4,
+    "mechanic": "Articulate before automate",
+    "text": "The operator must first acquire and articulate a skill before automating a bounded part of it.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "observed_spoken",
+    "timestamp": "00:20:15",
+    "start_seconds": 1215.28,
+    "mechanic": "Sell the sawdust",
+    "text": "Cole closes by treating useful prompts and systems built for oneself as potential products.",
+    "status": "VERIFIED"
+  },
+  {
+    "type": "inferred",
+    "timestamp": "00:08:29-00:20:17",
+    "mechanic": "Dependency ladder",
+    "text": "The five formats operate as a skill and leverage progression, not merely a list of unrelated channels.",
+    "status": "LIKELY"
+  }
+]
