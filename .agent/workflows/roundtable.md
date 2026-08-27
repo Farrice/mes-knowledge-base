@@ -10,6 +10,12 @@ Assemble 3-5 expert agents for a structured discussion on any topic. Produces a 
 > **Workflow tool** with `scriptPath: .agent/workflows/collective-genius-council.workflow.js`,
 > `args: { "task": "<the topic>", "mode": "tight" }` — diverse roster, real 2-round cross-talk,
 > preserved forks, + a learning digest. The runbook below is the manual fallback.
+>
+> **`--live` (2026-08-27, the Mailroom):** for taste-bearing forks and real disagreements, run
+> `.agent/workflows/roundtable-live.md` instead — personas become named teammates with true
+> agent-to-agent DMs (reply-to-reply, not frozen snapshot), the Commons blackboard, and
+> manager-run meetings with pass tokens. Protocol: `directives/agent-mailroom.md`. Costs ~2-3x
+> frozen; invoke deliberately, never by default.
 
 ---
 

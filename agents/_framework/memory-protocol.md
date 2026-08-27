@@ -42,6 +42,24 @@ Each agent stores memory in `agents/[agent-name]/memory/context.md`
 - [Date]: [What was created, outcome if known]
 ```
 
+## Council Sessions (the Mailroom, 2026-08-27)
+
+Council engines now READ `memory/context.md` at seat time (capped excerpt via
+`execution/persona_team.py`) and APPEND one entry per session at close — this is the persona's
+"private notes": accumulated positions, verdicts, and open predictions. Entry format (written by
+`persona_team.py close-session`, never hand-formatted):
+
+```markdown
+## Council session — YYYY-MM-DD
+- **Question:** …
+- **My position:** …
+- **Council verdict:** …
+- **Session digest:** knowledge/council-sessions/<date>-<slug>.md
+```
+
+A persona seated twice on related questions must recognize its own prior position. Trust
+calibration (`councils/README.md`) runs on these entries.
+
 ## When to Update Memory
 
 ✅ **Do update** when:

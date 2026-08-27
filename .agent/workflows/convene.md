@@ -30,6 +30,7 @@ This command fronts the reliable engine. Execute it by invoking the **Workflow t
 | `strike` | 3-4 voices, fast, no wide pass | `/strike` |
 | `deploy` | 16 voices → 6 deliberate (max breadth) | `/deploy-council` |
 | `wide` + multi-deliverable | wide council, then hand execution to `/supercomputer` | `/campaign` |
+| `--live` | personas as real teammates: agent-to-agent DMs, Commons blackboard, manager-run meeting (the Mailroom, 2026-08-27) | `/roundtable-live` — runbook `.agent/workflows/roundtable-live.md`, NOT the .workflow.js (workflow agents can't message each other). Deliberate invocation only; ~2-3x frozen cost. |
 
 ## What it does (phases)
 1. **Convene** — `council_cast.py` selects a diverse roster (relevance + per-domain cap + 1-2

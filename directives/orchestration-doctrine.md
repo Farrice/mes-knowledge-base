@@ -118,7 +118,7 @@ receipt check lives inside `/weekly-closeout` (existing consumer), nowhere else.
 |---|---|---|
 | **0** | A human outside the repo directly receives it | **Fable may write directly — CLOSED LIST ONLY** (Farrice Fork-1B, 2026-07-28): Parallax editions · cold offer emails · letters-to-JJ-grade personal writing. Nothing enters this list without Farrice's explicit say — "voice-bearing" as an adjective is how creep starts. Everything else at hop 0: Opus 5 writes, taste arbitrates after. |
 | **1** | Consumed by a process whose output a human receives | Opus 5 steady-state production (client deliverables, briefs, drafts, refinement) · Fable for dispatch/compilation when the turn ends in a decision consumed by 3+ downstream cheaper turns · Sonnet 5 when a script/agent consumes it |
-| **2+** | Read only by another subsystem | **No seat. Archive without ceremony** — observer-of-observer chains are the 60%-maintenance disease. |
+| **2+** | Read only by another subsystem | **No seat. Archive without ceremony** — observer-of-observer chains are the 60%-maintenance disease. *Mailroom exception (Farrice, 2026-08-27 — goal: reply-to-reply deliberation; scar: frozen-snapshot councils): live council agent-to-agent DMs, the Commons, and persona session memory are sanctioned; each chain still grounds in Farrice within 2 hops (DM → synthesis → him; memory → next council → him). Canon: `directives/agent-mailroom.md`.* |
 
 **Fable budget rule** (≈50% of monthly budget — spend deliberately): before a Fable turn, name
 the consumer — either the closed-list hop-0 artifact, or the 3+ downstream turns that consume the

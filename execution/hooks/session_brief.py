@@ -47,6 +47,11 @@ CHILDREN = [
     # launchd log and went unseen 26 straight days.
     ("memory", [PY, str(ROOT / "execution" / "memory_pulse.py")],
      "python3 execution/memory_pulse.py --full"),
+    # Standing-council outcome loop (the Mailroom, 2026-08-27): silent when
+    # clean; one line when calibration predictions or decision memories are
+    # sitting open. Before this, pending rows had no watcher.
+    ("council", [PY, str(ROOT / "execution" / "council_pulse.py")],
+     "python3 execution/council_pulse.py --full"),
 ]
 
 MAX_LINE = 160

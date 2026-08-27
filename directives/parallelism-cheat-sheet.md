@@ -27,7 +27,7 @@
 | Tier | What | When | Max Agents |
 |------|------|------|-----------|
 | **1: Parallel Task Calls** | Multiple Task tools in one message, agents work independently | Agents don't need each other's output | 5 |
-| **2: Agent Teams** | TeamCreate + SendMessage, agents can talk to each other | Agent B needs Agent A's output, or a reviewer/synthesizer coordinates | 5-6 |
+| **2: Agent Teams** | TeamCreate + SendMessage, agents can talk to each other | Agent B needs Agent A's output, or a reviewer/synthesizer coordinates. **Live councils (the Mailroom) run here** — `.agent/workflows/roundtable-live.md` + `directives/agent-mailroom.md` | 5-6 |
 | **3: Gemini Swarm** | `execution/parallel_swarm.py`, cheap API calls, optional `--grounded` for web search | 5+ experts needed, cost-sensitive, optional web grounding | 10+ |
 
 ---
@@ -49,7 +49,9 @@ Can I split this into independent pieces?
 ## Rules
 
 1. **Max 5 parallel Task calls** — more than 5 = resource contention
-2. **Each agent writes to its own file** — no shared state
+2. **Each agent writes to its own file** — no shared state. *Mailroom exception (2026-08-27):
+   live council sessions share ONE append-only Commons file (`councils/commons/<date>-<slug>.md`),
+   each member under its own heading, conductor-owned lifecycle — `directives/agent-mailroom.md`.*
 3. **Always synthesize** — parallel outputs need a collection step, don't dump raw
 4. **Multiple Task calls in one message** = parallel. One per message = sequential.
 5. **If one agent fails, others continue** — report the gap, don't retry the whole batch
