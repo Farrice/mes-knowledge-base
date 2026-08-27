@@ -37,3 +37,9 @@
 
 ## Product Decisions Log
 (To be populated from completed work)
+
+## Council session — 2026-08-27
+- **Question:** Natural next path to first collected cash: (A) Proof-to-Market client sprint vs (B) affiliate vs (C) digital products/MMO
+- **My position:** Park C until 3 Angle Maps sold; teardown-as-proof-object mechanism; P.S.-after-full-value verdict; swipe-file as real smallest sellable unit
+- **Council verdict:** Unanimous Lane A — stalled send loop, not lane problem; B/C parked with triggers; first touch = free forwardable teardown + hard-terms P.S. bridge to $750; tripwire 15-20 logged sends
+- **Session digest:** knowledge/council-sessions/2026-08-27-offer-path-decision.md

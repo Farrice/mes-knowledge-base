@@ -11,3 +11,9 @@
 ## Learnings
 
 - (to be populated — record which streams graduated the absence test, which affiliate picks held trust, which experiments the 20% time produced)
+
+## Council session — 2026-08-27
+- **Question:** Natural next path to first collected cash: (A) Proof-to-Market client sprint vs (B) affiliate vs (C) digital products/MMO
+- **My position:** Park B with reactivation trigger (affiliate layers onto served audience); serve-first sequencing; honest-proof rider
+- **Council verdict:** Unanimous Lane A — stalled send loop, not lane problem; B/C parked with triggers; first touch = free forwardable teardown + hard-terms P.S. bridge to $750; tripwire 15-20 logged sends
+- **Session digest:** knowledge/council-sessions/2026-08-27-offer-path-decision.md

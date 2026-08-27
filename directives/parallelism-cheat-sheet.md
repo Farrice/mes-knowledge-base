@@ -64,9 +64,9 @@ Can I split this into independent pieces?
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
-| **30-Day Review Date** | 2026-04-11 |
+| **Last Activated** | 2026-08-27 — first live Mailroom council (Tier 2: 4 named teammates, peer DMs, ~655k tokens measured; session digest `knowledge/council-sessions/2026-08-27-offer-path-decision.md`) |
+| **Activation Count** | 1 |
+| **30-Day Review Date** | 2026-09-26 |
 
 **Update Rule**: When this protocol fires (parallel execution pattern used), update the date and increment count.
 
