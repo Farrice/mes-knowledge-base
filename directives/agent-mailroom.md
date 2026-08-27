@@ -65,10 +65,15 @@ Per-session blackboard at `councils/commons/<date>-<slug>.md` — the "Reasoning
 
 ## The reader contract (binding — Farrice feedback 2026-08-27: "verbosity, not insight")
 
-The machinery stays in the engine room. Farrice reads ONE page per council: **Do this / Don't do /
-We're wrong if**, plain English, cost in one closing line. Entry gate: the conductor attempts a
-one-paragraph answer first — a confident paragraph replaces the council. Grounding: seats get his
-real report outputs (revenue_tracker, live offer docs, open loops) verbatim, never memory paraphrase.
+The machinery stays in the engine room. What Farrice reads per council (extended 2026-08-27 after
+session 2 — "this is exactly what I wanted"): **the debate in the seats' own plain words** (who
+pushed back, who conceded, why — quotes over summaries) **then the one-page decision: Do this /
+Don't do / We're wrong if**, cost in one closing line. Seats are briefed that their words go to
+him verbatim — plain first-person, ≤180 words, no framework names. Expansive on insight, zero on
+process. Entry gate: the conductor attempts a one-paragraph answer first — a confident paragraph
+replaces the council. Grounding: seats get his real report outputs (revenue_tracker, live offer
+docs, open loops) verbatim, never memory paraphrase. This register is his DEFAULT for all
+substantive system outputs, not just councils (memory: default-output-register-debate-then-memo).
 
 ## Cost discipline (binding — Farrice 2026-08-27: "no haphazard burning")
 
