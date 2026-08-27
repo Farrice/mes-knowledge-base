@@ -16,6 +16,19 @@ counterpart to the frozen `/convene` engine — reply-to-reply instead of frozen
 > **Cost posture:** deliberate invocation only — taste-bearing forks and real disagreements.
 > 4 seats default, 6 max. Frozen mode (`/convene`, `/roundtable`) remains the cheap default.
 
+## Three binding contracts (Farrice feedback, 2026-08-27 — goal: insight he can use; scar: run 1 delivered process narration he called "a waste of a read")
+
+1. **ENTRY GATE.** Before convening, the conductor writes its best one-paragraph answer from the
+   repo + reports. Confident paragraph → ship it, no council, tokens saved. Convene ONLY when the
+   call genuinely can't be made solo. (Run 1 would have failed this gate.)
+2. **GROUNDING CONTRACT.** Councils run on Farrice's REAL reports, not memory paraphrase: run
+   `revenue_tracker.py report` (actual collected dollars + sources), read the live offer docs, check
+   open loops. Real numbers go into the seat briefs verbatim. (Run 1 told the seats "zero confirmed
+   cash" when $4,650 of warm-services revenue was on the books — material grounding error.)
+3. **OUTPUT CONTRACT.** The ONLY thing Farrice reads is a one-page plain-English memo:
+   **Do this / Don't do / We're wrong if** — no protocol vocabulary, no persona drama, no token
+   counts (cost gets one line at the end). Digest, dissent log, and Commons go to the archive.
+
 ## Steps
 
 ### 1. Cast

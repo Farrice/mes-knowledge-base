@@ -43,3 +43,9 @@
 - **My position:** Park C until 3 Angle Maps sold; teardown-as-proof-object mechanism; P.S.-after-full-value verdict; swipe-file as real smallest sellable unit
 - **Council verdict:** Unanimous Lane A — stalled send loop, not lane problem; B/C parked with triggers; first touch = free forwardable teardown + hard-terms P.S. bridge to $750; tripwire 15-20 logged sends
 - **Session digest:** knowledge/council-sessions/2026-08-27-offer-path-decision.md
+
+## Council session — 2026-08-27
+- **Question:** Full offer-stack triage (last 10 sessions): what ships this week, what parks, what dies
+- **My position:** Conceded funnel kill was wrong (price problem not funnel problem); realtor objection narrowed to timing only
+- **Council verdict:** Warm base first (unanimous); teardowns sent this week; realtor pack = 15-min Stripe flip only, Jen-channel pending her confirm; 500-dollar funnel deploys repointed at 750 Angle Map; About = ship best draft in 20 min; KDP + Signal Pilot parked
+- **Session digest:** knowledge/council-sessions/2026-08-27-offer-path-decision.md

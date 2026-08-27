@@ -1,56 +1,40 @@
 # The Mailroom — Farrice's User Guide
 
-*Live councils: your expert personas as real teammates who DM each other, argue, concede, and
-converge — instead of parallel takes frozen at exchange one. Protocol canon for agents:
-`directives/agent-mailroom.md`. This page is yours: when to use it, what it costs, what you get.*
+**What it is, in one sentence:** a way to make several of your expert personas argue a hard
+decision with each other before you get an answer — instead of one AI's first take.
 
-## The one decision rule
+**What you read from it:** one page. Do this / Don't do / We're wrong if. Nothing else reaches you.
 
-| Situation | Use | Cost |
-|---|---|---|
-| Real fork, taste-bearing, disagreement expected — you'd pay for the argument | **Live**: say "run a live roundtable on X" (or `/roundtable-live`) | ~650k tokens, ~10 min (run-1 measured) |
-| Breadth, ideation, a survey of angles — you want takes, not a negotiation | **Frozen**: `/convene` / `/roundtable` / `/council` | ~150k tokens |
-| One expert, clear task | Neither — invoke the expert directly | minimal |
+## When it's worth using (the honest rule)
 
-Live mode never auto-fires. You invoke it on purpose, ~2-4/week is the sane ceiling.
+Almost never. Before any council runs, I have to try answering your question in one paragraph
+myself, using your real reports. If I'm confident, you get the paragraph and we save the tokens.
+The council only fires when I genuinely can't make the call — real tradeoffs, real stakes, no
+obvious answer in the repo. Expect that once or twice a month, not weekly.
 
-## What happens when you say "run a live roundtable on X"
+**Cost when it does run:** ~650k tokens (~4x a normal multi-expert pass), ~10 minutes, $0 cash.
+Worth it only on decisions where being wrong costs you weeks.
 
-1. **Cast** — 4 seats (6 max), each loaded with their genius voice + their own memory of past
-   councils. Weak keyword casts get re-seated by hand; you can swap any seat by name.
-2. **Openings** — independent takes, no peeking (anti-anchoring).
-3. **The meeting** — seats DM each other directly (`[NORMAL]/[PRIORITY]/[URGENT]`), challenge,
-   concede, revise. Pass tokens kill chatter; max 3 rounds; your word relays as `[URGENT]` and
-   outranks everything.
-4. **Converge** — verdict + tripwires + any dissent PRESERVED as your fork, never blended.
-5. **Close** — digest to `knowledge/council-sessions/`, each persona's position written to its
-   own memory, prediction row appended to calibration, measured cost recorded.
+## How to invoke
 
-## What accumulates (why run 5 beats run 1)
+- Say: **"run a live roundtable on <question>"** — I'll first show you my one-paragraph answer
+  and only convene if I can't make the call. Say "convene anyway" to override.
+- Everything else (ideation, surveys of angles, single-expert work): the normal `/convene`,
+  `/roundtable`, or direct expert — cheaper, usually better.
 
-- **Persona memory** — Hormozi now remembers the position he took today; next council he starts
-  from it. `agents/<name>/memory/context.md`.
-- **Standing-council decision memory** — `councils/<name>/decisions.md` fills per session.
-- **Calibration** — every session logs a falsifiable prediction; the council pulse
-  (`execution/council_pulse.py`, wired into your session digest) nags when outcomes sit unclosed.
-- **The Commons** — each session's shared reasoning file, `councils/commons/<date>-<slug>.md`,
-  snapshot in the digest.
+## What it produced on run 1 (2026-08-27) — after correcting the grounding
 
-## Cost & effectiveness — run 1 receipts (2026-08-27, offer-path decision)
+> **Do this:** (1) Follow up the warm channel first — it's your only proven cash source: $4,650
+> collected, all from warm-network services (Josh & Katie $3,500, Andrea $600, Javier $300,
+> 6Eight $250), last collection July 25. Close the three warm-intro asks opened July 31.
+> (2) Send the three teardown DMs (Transparent Labs, Momentous, Puori): full teardown free,
+> one P.S. — "If you want this fixed: $750 Angle Map, 10 days."
+> **Don't do:** affiliate (needs an audience you don't have) or the KDP book (publish after 3
+> Angle Maps sell) right now.
+> **We're wrong if:** 15-20 sends over 2-3 weeks get zero substantive replies — then the message
+> or targeting is broken and we rework, not the lane.
 
-- **Measured:** ~655k subagent tokens (4 Sonnet seats, all peer DMs included), ~10 min wall clock,
-  $0 marginal cash (subscription usage; no paid APIs). ~4x the frozen baseline.
-- **What the 4x bought:** Cole caught Haynes conflating two offer rungs via [URGENT] DM →
-  Haynes corrected his own position in-round; a three-way fork on first-touch mechanics was
-  negotiated to convergence BY THE SEATS (with logged concessions), not blended by the conductor;
-  verdict came with a falsifiable tripwire instead of vibes. None of that is possible frozen.
-- **Review gate:** after 3 measured runs, you call keep/widen/kill on live mode. 1 of 3 done.
+## What accumulates quietly (you never have to read these)
 
-## Watch-outs
-
-- Fast consensus = run the echo-chamber round (conductor does this automatically).
-- `[URGENT]` between seats is only for factual errors / invalidated work — urgency inflation gets
-  named in the digest.
-- The council decides nothing you didn't ask; sends stay human, always.
-- If a live session produces only restated agreement, that's a frozen-tier question — downgrade
-  next time and save the tokens.
+Persona memories, council decision logs, and a prediction ledger — the system nags me, not you,
+when a prediction's outcome is due. Machinery lives in `directives/agent-mailroom.md`.

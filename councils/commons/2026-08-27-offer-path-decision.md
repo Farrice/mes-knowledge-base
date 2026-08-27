@@ -96,3 +96,23 @@ Compare that to Lane A: teardown assets for named prospects (Transparent Labs, M
 *First-rung fork (Q2), disagreeing with Jeremy directly (DM'd):* Siding with free teardown → $2,500 fix over cold $750 prepaid, for now. Zero confirmed collected cash, zero testimonial — a cold $750 ask to a stranger with nothing to point to is the "what should I sell" mistake, not "who am I serving." The 3 teardowns are already built; sending them free IS the 1-1-1 move (one prospect, one result, one testimonial) before the cold rung has proof behind it. Named the self-check: if free-first becomes the permanent motion instead of a one-time proof-generation move, it's Hormozi's unclosed-loop failure with a nicer name. Sequence, don't fight: free teardown (now) → $2,500 close → testimonial → THEN $750 cold rung reactivates for net-new prospects, backed by evidence instead of a claim.
 
 **Resolution with Jeremy Haynes (DM thread):** Converged. Original sequencing objection was really an objection to a HARD $750 ask leading the touch, not to testing the rung at all. Settled position: free teardown (complete, unconditional, no gate) + a soft, non-gated invite to the $750 Angle Map in the same touch, this week — no month-long defer. Locked condition, agreed by both: the invite may use ONLY honest scarcity ("taking N founding pilots this quarter") or a straight "here's what more structured help looks like" — never borrowed/fabricated authority ("trusted by," implied client roster). Jeremy's addition, worth keeping: this isn't just an ethics line, it's a diagnostic one — fake proof would contaminate the read on whether the teardown+invite is actually what's converting. Dissent resolved, not blended — both of us moved off our original position for a stated reason, not to smooth it over.
+
+---
+
+## SESSION 2 — FULL STACK TRIAGE
+
+### Pat Flynn
+
+PUSH THIS WEEK: #1 — send the 3 teardowns, Transparent Labs, Momentous, Puori. They're built, free, the only live test running. #7 — follow up the 3 warm intros opened July 31. Nobody's checked them in almost a month; that's cheaper than anything new on this list.
+
+PARK: #4 (redundant until #1 proves out), #5 (no product live), #6 (doesn't make anyone money this week), #3 (needs real integration, not 15 minutes — competes for the same week).
+
+KILL: #8 stays dead. And I'd kill the $500 rung in #2, not park it — two prices for basically one offer confuse the market on which one's real. Keep the funnel shell, drop the price collision now, before it ships confused.
+
+What I'll fight for: #7 over everything. Three months of building and nobody followed up with people who already said yes to a conversation. That's not a build gap, it's a follow-up gap, and it costs nothing to close.
+
+### Pat Flynn — Round 2
+
+**Fight 1 (Realtor Pack) — folding, answering Hormozi directly:** You're right. My park was about time cost, and 15-45 minutes isn't a real time cost, especially against Jen's actual warm list — that's a served audience already, not a cold build. Stronger backing than the $750 sprint has right now. Ship it. Flag, not a block: the setup is cheap, the subscription isn't. $49/$149/$470 tiers mean monthly content delivery starting immediately after. That's the real cost, and it lands on him, not this week. Watch that line once it's live — don't let 15 minutes of setup quietly turn into a second full-time content obligation.
+
+**Fight 2 (Funnel deploy timing) — closing it:** Deploy this week, don't wait for a teardown reply. It's a 30-45 minute one-time setup, not an active send — once live it sits there catching cold inbound while the teardowns work the warm side. Different mechanism, same price, no reason to sequence them. Cole — killing the whole funnel throws out something already built for the wrong reason; the problem was never the funnel, it was two competing prices confusing which one's real. Fix the price, ship the shell. Haynes — parking delays the one channel that produces signal without costing a single send. If $750 is broken, this is the cheapest way to find out fast, running parallel to your soft-invite test, not after it.

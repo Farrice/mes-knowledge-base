@@ -63,6 +63,13 @@ Per-session blackboard at `councils/commons/<date>-<slug>.md` — the "Reasoning
   digest at close. This is the sanctioned exception to `parallelism-cheat-sheet.md` Rule 2
   ("no shared state") — one file, one session, conductor-owned lifecycle.
 
+## The reader contract (binding — Farrice feedback 2026-08-27: "verbosity, not insight")
+
+The machinery stays in the engine room. Farrice reads ONE page per council: **Do this / Don't do /
+We're wrong if**, plain English, cost in one closing line. Entry gate: the conductor attempts a
+one-paragraph answer first — a confident paragraph replaces the council. Grounding: seats get his
+real report outputs (revenue_tracker, live offer docs, open loops) verbatim, never memory paraphrase.
+
 ## Cost discipline (binding — Farrice 2026-08-27: "no haphazard burning")
 
 - **Frozen mode stays the default.** Live mode is invoked deliberately (`--live` / the
