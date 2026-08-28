@@ -1,0 +1,68 @@
+{
+  "slug": "positioning-dossier",
+  "chip": "GROWTH BLUEPRINT OS · POSITIONING DOSSIER",
+  "title": "who the *buyer* is, in his own words",
+  "dek": "Identity-layer positioning dossier for the Farrice Cain engagement: the Formulator-Founder avatar, the belief system that blocks the sale, and a pain bank of twelve exact buyer verbatims pulled live from the forums where this buyer talks. Every claim labeled. Data tier: FRESH.",
+  "window": "mined 2026-08-27",
+  "lens": "positioning · audience · offer wiring",
+  "sources": "7 forum threads + frozen interview pack + 12-channel signal pack",
+  "compiled": "aug 27, 2026",
+  "footer_left": "GROWTH BLUEPRINT OS",
+  "footer_right": "farrice-parallax",
+  "category": "growth-lab",
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "the single truth",
+      "kicker": "WHAT THE EVIDENCE SAYS",
+      "body": "The buyer is a founder-formulator (33-50) at an already-selling supplement or performance brand under $15M, with a dated launch occasion inside 60-90 days. He believes his copy problem is a writing and volume problem. The mined threads show what he does about that belief: he buys mechanisms - quiz funnels, CAPI hygiene, agency ad accounts, AI media buyers - and in seven out of seven threads, nobody in his feed tells him the real problem is an unmade decision about what the brand proves, to whom, with what defensible claim. That silence is the positioning opening. The offer ladder ($750 Angle Map, $2,500 Proof-to-Market Sprint) is wired to exactly that gap."
+    },
+    {
+      "kind": "prose",
+      "heading": "the chair test portrait",
+      "body": "He is the credentialed face of the brand, built because he needed the product himself. Total decision authority, near-zero time: he'd rather be in the lab or the gym than on LinkedIn. He spends his own runway against a launch clock.\n\nWhat he has already tried has a specific failure signature: scaled ChatGPT content with volume and zero edge, 8-12 AI tools that never replaced the thinking, creative testing that was the same ad fifteen times, agency ROAS he distrusts, rankings that stayed flat while clicks vanished.\n\nHis midnight fear, from the research: I'm the most knowledgeable person in this category and I'm invisible - and some kid with half my expertise and twice the posting cadence is becoming the name people associate with this. His identity: I'm the real one, I earned this the hard way. Visibility feels like joining the influencers he built the brand against. Content that flatters visibility loses him. Content that arms credibility recruits him."
+    },
+    {
+      "kind": "evidence",
+      "heading": "the pain bank, verbatim",
+      "tag": "TWELVE EXACT RECEIPTS",
+      "rows": [
+        {"claim": "Creative fatigue + founder time poverty (confirms seed pain #7)", "evidence": "\"facebook ads work for maybe 10-14 days then performance drops off a cliff. I know it's creative fatigue, I know I need new ad concepts, but... I don't have time to endlessly scroll looking for ideas.\"", "source_url": "https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/", "source_label": "r/ecommerce · 2025-10-31", "confidence": "VERIFIED"},
+        {"claim": "Mis-diagnosis reflex: more ads, not a message decision (confirms seed #5)", "evidence": "\"CAC goes up, creatives stop hitting the same, growth plateaus / and the first instinct is always that we need new ads or we need to scale harder\"", "source_url": "https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/", "source_label": "r/dtc · 2026-04-03", "confidence": "VERIFIED"},
+        {"claim": "Paid-acquisition burn without a settled message (confirms seed #5)", "evidence": "\"Six months in looking for customers cold on Meta we've burned through about 30k and gotten only 56 orders.\"", "source_url": "https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/", "source_label": "r/PPC · 2026-05-24", "confidence": "VERIFIED"},
+        {"claim": "Testing that teaches nothing (confirms the 'same ad 15 times' seed)", "evidence": "\"I guess i'm ok to be paying to learn how to do this, but in the last 30 days I can't tell you what I know now that I didn't know a month ago.\" Same founder: \"140 unique ads across 31 ad sets in 90 days.\"", "source_url": "https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/", "source_label": "r/PPC · 2026-05-24", "confidence": "VERIFIED"},
+        {"claim": "Sea of sameness, named from inside the category (confirms seed #1)", "evidence": "\"most brands look crowded because they're all selling the exact same formulas with the exact same marketing.\"", "source_url": "https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/", "source_label": "r/growmybusiness · 2025-11-20", "confidence": "VERIFIED"},
+        {"claim": "Compliance fear shapes every ad decision (confirms seed #3)", "evidence": "\"My ads are FDA compliant, but what can I do to not be flagged a health?\" ... \"I want to make sure I'm not getting throttled just because I sell supplements.\" Practitioner in-thread: an ad \"got disapproved for supposedly promoting drugs.\"", "source_url": "https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/", "source_label": "r/FacebookAds · 2026-02-17", "confidence": "VERIFIED"},
+        {"claim": "AI answer engines name competitors, not them (confirms seed #8)", "evidence": "\"AI keeps recommending my competitors but not us - how to fix this?\"", "source_url": "https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/", "source_label": "r/ecommerce · 2026-03-03", "confidence": "VERIFIED"},
+        {"claim": "Founder fog: bland mistaken for professional (confirms seed #2)", "evidence": "\"I thought we were being 'professional.' I thought bland was safe. I thought sounding like everyone else meant we were doing it right.\" And the buyer's verdict, reported: \"I honestly can't remember what makes you different from the other three tools I looked at.\"", "source_url": "https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/", "source_label": "r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern)", "confidence": "VERIFIED"},
+        {"claim": "Visibility stall below the ICP floor (partial match, seed #9)", "evidence": "\"Where I feel stuck is distribution and visibility.\"", "source_url": "https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/", "source_label": "r/smallbusiness · 2026-02-18", "confidence": "VERIFIED"},
+        {"claim": "Ban fatalism normalized in the category", "evidence": "\"Avoiding a ban is nearly impossible; that's the truth.\" (search-index pull; not page-verified this run)", "source_url": "https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/", "source_label": "r/FacebookAds · 2026-08-02", "confidence": "LIKELY"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "what this dossier *settles*",
+      "kicker": "THE POSITIONING CALLS",
+      "dek": "Decisions the downstream artifacts inherit.",
+      "items": [
+        {"action": "Center the buyer, not the viewer", "why": "The niche's channels reach founders AND marketers/aspirants who never buy a $2,500 sprint; the paying center is the founder with a dated occasion inside 60-90 days"},
+        {"action": "Meet the belief, never argue with it", "why": "Seven of seven mined threads show the buyer being sold mechanisms; the content lane opens by naming the mis-fix marketplace, not by debating it"},
+        {"action": "Authority statement stays the live one", "why": "\"Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement & performance brands\" - ratified and live; Bridge Message and gap statement stay on the bench"},
+        {"action": "Register: arm credibility, never flatter visibility", "why": "His identity claim - 'I'm the real one' - means visibility-flavored content repels the exact buyer it targets"}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what this *isn't*",
+      "kicker": "GAPS, NAMED",
+      "body": "No real close-rate data exists yet (0 sent, 0 sold on this ladder): every downstream lead value is list price times an assumed close rate and says so. Consumer-side verbatims (the supplement end-buyer) were not mined this run. LinkedIn-native pain language is outside the signal pack's coverage (YouTube measured; TikTok and Instagram: none). Seed pains #4, #6, #9, #10 stand as operator claims, not wild-confirmed."
+    }
+  ],
+  "ledger": [
+    {"source": "Frozen interview inputs", "url": "", "retrieved": "2026-08-27", "used_for": "business facts, avatar, identity layer, authority statements", "confidence": "VERIFIED"},
+    {"source": "r/PPC thread (DTC supplement, $30K burn)", "url": "https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/", "retrieved": "2026-08-27", "used_for": "pain bank #3-5", "confidence": "VERIFIED"},
+    {"source": "r/FacebookAds thread (post-Andromeda compliance)", "url": "https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/", "retrieved": "2026-08-27", "used_for": "pain bank #7-8", "confidence": "VERIFIED"},
+    {"source": "r/ecommerce, r/growmybusiness, r/dtc, r/smallbusiness, r/startupcontentlab threads", "url": "https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/", "retrieved": "2026-08-27", "used_for": "pain bank #1, #2, #6, #9-12", "confidence": "VERIFIED"},
+    {"source": "Outlier radar signal pack, 12 channels / 50 rows", "url": "", "retrieved": "2026-08-27", "used_for": "secondary language source; data-tier declaration", "confidence": "VERIFIED"}
+  ]
+}

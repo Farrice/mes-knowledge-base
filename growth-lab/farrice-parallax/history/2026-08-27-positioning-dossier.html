@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Positioning Dossier · farrice-parallax</title>
+<style>
+  :root{--canvas:#f4f2ee;--paper:#fdfcfa;--ink:#16181d;--graphite:#5a5f68;--stone:#a8a49c;--line:#ddd8cf;--accent:#3d5a80;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--canvas);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.5;padding:48px 20px}
+  .wrap{max-width:980px;margin:0 auto}
+  .chip{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--graphite)}
+  h1{font-size:30px;font-weight:500;margin:10px 0 6px}
+  .stand{color:var(--graphite);max-width:64ch;margin-bottom:8px}
+  .tap{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:18px 0 10px}
+  .grid{display:grid;grid-template-columns:1fr 1.3fr;gap:20px;align-items:start}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+  .rail{display:flex;flex-direction:column;gap:8px}
+  .painrow{background:var(--paper);border:1px solid var(--line);padding:10px 12px;cursor:pointer;transition:border-color .15s}
+  .painrow:hover,.painrow.on{border-color:var(--ink)}
+  .painrow .k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);display:flex;justify-content:space-between}
+  .painrow .t{font-size:14px;margin-top:3px}
+  .badge{font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+  .badge.v{color:var(--accent)} .badge.l{color:var(--graphite)}
+  .panel{background:var(--paper);border:1px solid var(--ink);padding:20px 22px;position:sticky;top:16px}
+  .panel h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--graphite);margin-bottom:8px}
+  .quote{font-size:17px;line-height:1.55;border-left:2px solid var(--accent);padding-left:14px;margin:10px 0}
+  .meta{font-size:12px;color:var(--stone);margin-bottom:12px}
+  .meta a{color:var(--accent)}
+  .beat{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+  .beat b{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--graphite);display:block;margin-bottom:3px}
+  .beat p{font-size:14px}
+  .idgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:10px}
+  @media(max-width:760px){.idgrid{grid-template-columns:1fr}}
+  .idcard{background:var(--paper);border:1px solid var(--line);padding:14px}
+  .idcard h4{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--accent);margin-bottom:6px}
+  .idcard p{font-size:13.5px;color:var(--ink)}
+  .idcard .lbl{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin-top:8px;display:block}
+  .trap{border:1px dashed var(--graphite);padding:12px 14px;margin:26px 0 0;font-size:13.5px;color:var(--graphite)}
+  .trap b{color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+  .exportrow{margin-top:34px;padding-top:14px;border-top:1px solid var(--line);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+  .exportrow a{color:var(--accent);text-decoration:none}
+  section{margin-top:34px}
+  h2{font-size:13px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="chip">Growth Blueprint OS · Positioning Dossier · Data tier: FRESH</div>
+  <h1>The Formulator-Founder</h1>
+  <p class="stand">Founder-formulator, 33–50, already-selling supplement or performance brand under $15M, dated launch occasion inside 60–90 days. Twelve exact buyer verbatims below — tap a pain to open its receipt (verbatim = the buyer's words, quoted exactly, never polished).</p>
+
+  <section>
+    <h2>Identity layer</h2>
+    <div class="idgrid">
+      <div class="idcard"><h4>Belief</h4><p>"Our copy problem is a writing/volume problem." Mis-self-diagnosed as an AEO problem. The shift every piece makes: it is an unmade decision — what we prove, who must believe it, what we'll defend.</p><span class="lbl">Verified as their claim</span></div>
+      <div class="idcard"><h4>Resistance</h4><p>Not buying protects "I'm the real one. I earned this the hard way." An outside positioning read implies the expertise wasn't enough; visibility feels like joining the influencers he built against.</p><span class="lbl">Likely · stated inference</span></div>
+      <div class="idcard"><h4>Cost of admitting</h4><p>Founder: conceding invisibility while being the most knowledgeable person in the category. Brand lead: telling a committee the metric she optimized may not matter — "everyone's too polite to tell me."</p><span class="lbl">Likely · inferred from fear-verbatims</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Pain bank — mined 2026-08-27</h2>
+    <div class="tap">Tap a pain to open its receipt</div>
+    <div class="grid">
+      <div class="rail" id="rail"></div>
+      <div class="panel" id="panel"></div>
+    </div>
+    <div class="trap"><b>The trap this list invites:</b> reading these as ten content topics. They are one belief in ten costumes — the buyer keeps buying mechanisms because nobody in his feed names the unmade message decision. Content that adds an eleventh mechanism joins the noise it critiques.</div>
+  </section>
+
+  <div class="exportrow">
+    <span>Produced 2026-08-27 · gb-interview · pack: farrice-parallax (12 channels, 50 rows) · coverage: YouTube measured, TikTok/IG none, LinkedIn outside radar</span>
+    <span><a href="positioning-dossier-client.html">Client brief</a> · <a href="javascript:window.print()">PDF</a></span>
+  </div>
+</div>
+<script>
+const PAINS=[
+ {k:"Creative fatigue · founder time poverty",c:"VERIFIED",q:"facebook ads work for maybe 10-14 days then performance drops off a cliff. I know it's creative fatigue, I know I need new ad concepts, but I'm also handling product sourcing, customer service... bottom line is I don't have time to endlessly scroll looking for ideas.",s:"r/ecommerce · 2025-10-31",u:"https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/",seed:"Confirms seed #7 — ads die in 7–14 days.",offer:"Angle Map ($750)",cta:"Three angles in 48 hours, before you fund another batch.",read:"Time is the binding constraint. Any offer that costs the founder hours competes with the lab and the gym; the 48-hour Angle Map is shaped for this exact sentence."},
+ {k:"Mis-diagnosis reflex: more ads",c:"VERIFIED",q:"CAC goes up, creatives stop hitting the same, growth plateaus / and the first instinct is always that we need new ads or we need to scale harder",s:"r/dtc · 2026-04-03",u:"https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/",seed:"Confirms seed #5 and the mis-diagnosis belief.",offer:"Sprint ($2,500)",cta:"Before you buy more ads, settle what they should say.",read:"The buyer's first instinct is a mechanism purchase. Content that meets this belief opens with the instinct, not with the correction."},
+ {k:"$30K burned, 56 orders",c:"VERIFIED",q:"Six months in looking for customers cold on Meta we've burned through about 30k and gotten only 56 orders.",s:"r/PPC · 2026-05-24",u:"https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/",seed:"Confirms seed #5 — LTV:CAC collapse.",offer:"Sprint ($2,500)",cta:"The $30K lesson is a message problem priced as a media problem.",read:"A supplement founder, cold Meta, real numbers. The $2,500 Sprint costs less than a tenth of what this founder spent learning nothing."},
+ {k:"Testing that teaches nothing",c:"VERIFIED",q:"I guess i'm ok to be paying to learn how to do this, but in the last 30 days I can't tell you what I know now that I didn't know a month ago.",s:"r/PPC · 2026-05-24",u:"https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/",seed:"Confirms the 'repeating the same ad 15 times' seed. Same founder: 140 unique ads across 31 ad sets in 90 days.",offer:"Sprint ($2,500)",cta:"Testing without a decision framework is tuition without a curriculum.",read:"He is paying tuition and can name the fee but not the lesson. The sharpest single verbatim in the bank."},
+ {k:"Sea of sameness, from inside",c:"VERIFIED",q:"most brands look crowded because they're all selling the exact same formulas with the exact same marketing.",s:"r/growmybusiness · 2025-11-20",u:"https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/",seed:"Confirms seed #1 — the sea of sameness.",offer:"Free teardown → Angle Map",cta:"Nine homepages, one voice. The teardown shows yours.",read:"The market states Farrice's thesis unprompted. The teardown demonstrates it on the prospect's own homepage."},
+ {k:"Compliance fear on every ad",c:"VERIFIED",q:"My ads are FDA compliant, but what can I do to not be flagged a health? … I want to make sure I'm not getting throttled just because I sell supplements.",s:"r/FacebookAds · 2026-02-17",u:"https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/",seed:"Confirms seed #3 — compliance strangles claims. In-thread practitioner: an ad 'got disapproved for supposedly promoting drugs.'",offer:"Sprint (claim-safety line is a named deliverable)",cta:"Claim-safe is a positioning decision, not a legal haircut.",read:"Compliance anxiety shows up before the first dollar is spent. The claim-safety line inside the Angle Map answers a fear the buyer already typed."},
+ {k:"AI names competitors, not them",c:"VERIFIED",q:"AI keeps recommending my competitors but not us - how to fix this?",s:"r/ecommerce · 2026-03-03",u:"https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/",seed:"Confirms seed #8 — AI search invisibility.",offer:"Sprint (two-gate citation thesis)",cta:"Being the source AI names is a proof problem.",read:"Every reply sells schema markup and citations. Nobody says: AI cites brands with something defensible to cite. The two-gate thesis has the lane to itself."},
+ {k:"Bland mistaken for professional",c:"VERIFIED",q:"I thought we were being 'professional.' I thought bland was safe. I thought sounding like everyone else meant we were doing it right.",s:"r/startupcontentlab · 2026-01-27",u:"https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/",seed:"Confirms seed #2 — Founder Fog. Adjacent category (B2B SaaS), identical belief pattern. The buyer verdict, reported: 'I honestly can't remember what makes you different from the other three tools I looked at.'",offer:"Angle Map ($750)",cta:"Bland is not safe. Bland is invisible with better manners.",read:"The customer quote inside this verbatim is the BS-detector pain, captured secondhand. Recognition-you content can quote it whole."},
+ {k:"Stuck at visibility (below ICP)",c:"VERIFIED",q:"Where I feel stuck is distribution and visibility.",s:"r/smallbusiness · 2026-02-18",u:"https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/",seed:"Partial match to seed #9; speaker is pre-scale, below the ICP floor.",offer:"None — audience-building value only, flagged honestly.",cta:"—",read:"Kept because it maps the ring BELOW the buyer: the aspirant audience the bullseye must fence off, not aim at."},
+ {k:"Ban fatalism as weather",c:"LIKELY",q:"Avoiding a ban is nearly impossible; that's the truth.",s:"r/FacebookAds · 2026-08-02 (search-index pull; not page-verified this run)",u:"https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/",seed:"Discovery — not on the seed list.",offer:"Sprint",cta:"A ban is not weather. It is an unsubstantiated claim with a delivery date.",read:"The category has normalized platform bans. A claim-substantiation practice reframes them as self-inflicted — an angle no watchlist channel runs."}
+];
+const rail=document.getElementById('rail'),panel=document.getElementById('panel');
+function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;}
+function beat(label,text){const b=el('div','beat');b.appendChild(el('b',null,label));b.appendChild(el('p',null,text));return b;}
+function show(i){
+  [...rail.children].forEach((r,j)=>r.classList.toggle('on',j===i));
+  const p=PAINS[i];
+  panel.replaceChildren();
+  panel.appendChild(el('h3',null,'Receipt'));
+  panel.appendChild(el('div','quote','“'+p.q+'”'));
+  const meta=el('div','meta');
+  meta.appendChild(document.createTextNode(p.s+' · '));
+  const a=el('a',null,'open thread');a.href=p.u;a.target='_blank';a.rel='noopener';
+  meta.appendChild(a);
+  meta.appendChild(document.createTextNode(' · '));
+  meta.appendChild(el('span','badge '+(p.c==='VERIFIED'?'v':'l'),p.c));
+  panel.appendChild(meta);
+  panel.appendChild(beat('Seed cross-check',p.seed));
+  panel.appendChild(beat('Offer it feeds',p.offer));
+  panel.appendChild(beat('CTA shape',p.cta));
+  panel.appendChild(beat('What it means for Farrice',p.read));
+}
+PAINS.forEach((p,i)=>{
+  const d=el('div','painrow');
+  const k=el('div','k');k.appendChild(el('span',null,'#'+(i+1)));k.appendChild(el('span','badge '+(p.c==='VERIFIED'?'v':'l'),p.c));
+  d.appendChild(k);d.appendChild(el('div','t',p.k));
+  d.addEventListener('click',()=>show(i));
+  rail.appendChild(d);
+});
+show(0);
+</script>
+</body>
+</html>

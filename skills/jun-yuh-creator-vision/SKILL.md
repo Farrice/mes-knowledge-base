@@ -74,12 +74,12 @@ His "You Are The Niche" philosophy completely rejects traditional topical nichin
 
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/creator-vision-matrix.md`
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/energy-pacing-calendar.md`
-- **Role & Activation** — `skills/jun-yuh-creator-vision/references/prompts-v2/jun-story-engine.md`
+- **Jun Yuh — Story Engine** — `skills/jun-yuh-creator-vision/references/prompts-v2/jun-story-engine.md`
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/pain-first-hook-generator.md`
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/repurposing-engine-1-to-7.md`
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/silent-storytelling-architect.md`
-- **Role & Activation** — `skills/jun-yuh-creator-vision/references/prompts-v2/story-content-format-plan.md`
-- **Role & Activation** — `skills/jun-yuh-creator-vision/references/prompts-v2/story-material-packet.md`
+- **Jun Yuh — Story Content Format Plan** — `skills/jun-yuh-creator-vision/references/prompts-v2/story-content-format-plan.md`
+- **Jun Yuh — Story Material Packet** — `skills/jun-yuh-creator-vision/references/prompts-v2/story-material-packet.md`
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/the-value-flip.md`
 - **EXPERT ROLE** — `skills/jun-yuh-creator-vision/references/prompts-v2/visual-contrast-storyboard.md`
 

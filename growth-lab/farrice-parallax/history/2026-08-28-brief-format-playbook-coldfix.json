@@ -1,0 +1,56 @@
+{
+  "slug": "format-playbook",
+  "chip": "GROWTH BLUEPRINT · FORMAT PLAYBOOK",
+  "title": "the vehicles, with the *mechanism* attached",
+  "dek": "Five storytelling structures and three affordable layouts, clustered from the measured pool, each with a mechanism card - the retention psychology, the failure mode, and the transfer conditions that stats alone cannot give. Two proven pairs and one labeled bet make the test set.",
+  "window": "evidence of 2026-08-27",
+  "lens": "format selection · retention mechanics",
+  "sources": "25 qualified rows · 10 transcripts · hook-pattern clustering",
+  "compiled": "aug 27, 2026",
+  "footer_left": "GROWTH BLUEPRINT",
+  "footer_right": "farrice-parallax",
+  "category": "growth-lab",
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "copying winners without the mechanism is cargo cult",
+      "kicker": "THE ANTI-CONFOUNDING LAYER",
+      "body": "A format is two things layered: the storytelling structure (how the spoken words are organized) and the visual layout (how it is shot). Every in-pool multiple bundles channel effect, topic effect, and guest effect - Sabri's 14.1x rides a 504K channel, foundr's 15.9x rides a half-billion-dollar guest, and the 64.2x ceiling is one channel's nineteen-year franchise. So every structure carries a mechanism card: the named psychological reason it holds attention, how it dies in unskilled hands, and what must be true for it to survive the jump to this operator's topics and his 1-3 hour naptime constraint. Format hunting is finite: test three, crown one or two heroes by batch three, then reps."
+    },
+    {
+      "kind": "evidence",
+      "heading": "the five structures, receipted",
+      "tag": "FOUR-PART NAMED, SPECIMEN FLOOR MET",
+      "rows": [
+        {"claim": "S1 The Compression Promise - promise-debt plus ranked-completion pull. 5 rows, median 10.8x", "evidence": "'Give Me 27 Minutes and I'll Make You Disgustingly Good at Digital Marketing' - 201K, 14.1x, 2026-07-31. Failure mode: promise bigger than payload reads as betrayal", "source_url": "https://www.youtube.com/watch?v=HsjuAvqs3zU", "source_label": "@SabriSubyOfficial · transcript-verified beats", "confidence": "VERIFIED"},
+        {"claim": "S2 The Shift Analysis - chaos vigilance plus insider decoding. 6 rows, ceiling 64.2x (person-effect flagged)", "evidence": "'Amazon Just Lost Control Of Shopping!' - 1.4M, 64.2x, 2026-04-28; transcript shows the beat order: event number, why the giant is scared, what it means for you, the move", "source_url": "https://www.youtube.com/watch?v=CpIZPIbU0cU", "source_label": "@mywifequitherjob", "confidence": "VERIFIED"},
+        {"claim": "S3 The Witness - possibility witness; the scar makes the outcome credible. 7 rows, median 5.7x", "evidence": "Quad Lock exit interview - 39K, 15.9x, 2026-07-30: 'no investors, no playbook, just an idea.' Confound: celebrity-guest effect; the mechanism transfers, the guest list does not", "source_url": "https://www.youtube.com/watch?v=CERZXt6lpxk", "source_label": "@foundr", "confidence": "VERIFIED"},
+        {"claim": "S4 The Template Reveal - artifact desire; viewers watch to earn the thing. 4 rows, max 19.9x", "evidence": "Product-page blueprint held on screen throughout - 12K, 19.9x, 2025-01-10. His claim-safety sheet and angle-map anatomy are real internal artifacts, so the format demos the actual service", "source_url": "https://www.youtube.com/watch?v=8eHZqKtnymY", "source_label": "@suplifulofficial · transcript", "confidence": "VERIFIED"},
+        {"claim": "S5 The Roundtable - eavesdropping on peers; disagreement is the retention", "evidence": "'Do This to Scale Your CPG Brand' - 9.9K, 14.2x, 2026-08-13. Transfer note: for him, guesting beats hosting - zero production cost, borrowed Ring-2 distribution", "source_url": "https://www.youtube.com/watch?v=6psqtXu4u88", "source_label": "@commonthreadco / @MarketingOperators", "confidence": "VERIFIED"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the test set: two proven pairs, one *bet*",
+      "kicker": "TRY THESE 3 FIRST",
+      "dek": "Recipes at the operator's real constraint level: phone, natural light, naptime blocks, spoken-first.",
+      "items": [
+        {"action": "Pick 1 - The Claim Ladder (Compression x Talking head + receipts)", "why": "Proven pair (14.1x specimen); his payloads are enumerable; 60-90 min per rep: voice memo first, one session, a 45-90s cut and a 3-5min cut"},
+        {"action": "Pick 2 - The Regulatory News-Jack (Shift Analysis x Talking head)", "why": "Proven skeleton, unclaimed beat: FTC/FDA warning letters and platform health-policy, 24-48h turnaround, Monday 20-minute sweep"},
+        {"action": "Pick 3 - The Counter Consult (self-witness x paper prop) - THE labeled bet", "why": "Nobody in-pool runs self-witness monologue; one bet allowed and this is it, fallback written: pitch the stories to the roundtables as a guest instead"},
+        {"action": "After 2-3 batches: crown 1-2 heroes, stop testing, start reps", "why": "The hero-format rule; the calibration tracker's working= numbers make the call"}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "the honest *ceiling*",
+      "kicker": "WHAT NO SYSTEM AUTOMATES",
+      "body": "Recording and delivery cannot be automated by any of this. The recipes are model-and-mimic: angles, distance, pacing, where the text hook sits. The last mile is him on camera, and the spoken-first pipeline exists because that is where his quality lives. Scope limits: the matrix measures YouTube only (TikTok/Instagram coverage: none); his LinkedIn carousel and DM formats sit outside this artifact's evidence."
+    }
+  ],
+  "ledger": [
+    {"source": "Competitive channel scan + video transcripts", "url": "", "retrieved": "2026-08-27", "used_for": "structure clustering, specimens, beat verification", "confidence": "VERIFIED"},
+    {"source": "Top-50 + topic buckets", "url": "", "retrieved": "2026-08-27", "used_for": "pool definition, bucket carriage", "confidence": "VERIFIED"},
+    {"source": "Positioning dossier (constraints + voice)", "url": "", "retrieved": "2026-08-27", "used_for": "layout affordability scoring, spoken-first recipes", "confidence": "VERIFIED"}
+  ]
+}

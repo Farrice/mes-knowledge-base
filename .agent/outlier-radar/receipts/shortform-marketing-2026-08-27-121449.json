@@ -1,0 +1,71 @@
+{
+  "run_id": "shortform-marketing-2026-08-27-121449",
+  "generated_at": "2026-08-27T19:17:08+00:00",
+  "niche_slug": "shortform-marketing",
+  "channels_attempted": 3,
+  "channels_fetched": 3,
+  "channels_skipped_ttl": 0,
+  "channels_failed": 0,
+  "videos_seen": 90,
+  "videos_new": 90,
+  "snapshots_added": 90,
+  "outliers_flagged": 10,
+  "transcripts_written": 0,
+  "yt_dlp_requests": 23,
+  "cost_usd": 0.0,
+  "status": "ok",
+  "pack_path": ".agent/outlier-radar/packs/shortform-marketing/latest.json",
+  "notes": [],
+  "errors": [
+    {
+      "channel": "@AlexHormozi",
+      "stage": "enrich_captions",
+      "message": "no captions for OHu1FY1R-x0"
+    },
+    {
+      "channel": "@kallawaymarketing",
+      "stage": "enrich_captions",
+      "message": "no captions for 8cQidXgtGmU"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for YH_SOcajo7g"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for iq5VjE31Eig"
+    },
+    {
+      "channel": "@AlexHormozi",
+      "stage": "enrich_captions",
+      "message": "no captions for mRlSb0O5QNU"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for -nLcm9CQC68"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for zqkPBIaIGjQ"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for rE9XFvr83Lo"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for diNff-eQo7A"
+    },
+    {
+      "channel": "@GaryVee",
+      "stage": "enrich_captions",
+      "message": "no captions for L5--2swWZrs"
+    }
+  ]
+}

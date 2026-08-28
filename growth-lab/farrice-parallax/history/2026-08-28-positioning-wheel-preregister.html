@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Positioning Wheel · farrice-parallax</title>
+<style>
+  :root{--canvas:#f4f2ee;--paper:#fdfcfa;--ink:#16181d;--graphite:#5a5f68;--stone:#a8a49c;--line:#ddd8cf;--accent:#3d5a80;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--canvas);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.5;padding:44px 20px}
+  .wrap{max-width:1080px;margin:0 auto}
+  .chip{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--graphite)}
+  h1{font-size:30px;font-weight:500;margin:10px 0 6px}
+  .stand{color:var(--graphite);max-width:70ch}
+  .tap{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:16px 0 8px}
+  .layout{display:grid;grid-template-columns:1.05fr 1fr;gap:24px;align-items:start;margin-top:8px}
+  @media(max-width:900px){.layout{grid-template-columns:1fr}}
+  svg{width:100%;height:auto;display:block}
+  .wedge{cursor:pointer;transition:opacity .15s}
+  .dimmed{opacity:.25}
+  .panel{background:var(--paper);border:1px solid var(--ink);padding:20px 22px}
+  .panel h3{font-size:15px;font-weight:500;margin-bottom:2px}
+  .panel .sub{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);margin-bottom:10px}
+  .beat{margin-top:11px;padding-top:9px;border-top:1px solid var(--line)}
+  .beat b{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--graphite);display:block;margin-bottom:3px}
+  .beat p{font-size:13.5px}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:4px}
+  td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--stone);font-weight:500}
+  .vd-crowded{color:var(--ink);font-weight:500}.vd-contested{color:var(--graphite)}.vd-open{color:var(--accent)}
+  .card{background:var(--paper);border:1px solid var(--line);padding:14px 16px;margin-top:14px}
+  .card h4{font-size:14px;font-weight:500}
+  .card .fp{font-size:11px;color:var(--graphite);margin-top:6px;line-height:1.7}
+  .card a{color:var(--accent)}
+  .rec{font-size:12px;color:var(--stone)}
+  .trap{border:1px dashed var(--graphite);padding:12px 14px;margin:22px 0 0;font-size:13.5px;color:var(--graphite)}
+  .trap b{color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+  .exportrow{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+  .exportrow a{color:var(--accent);text-decoration:none}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--graphite);margin-top:10px}
+  .sw{display:inline-block;width:11px;height:11px;vertical-align:-1px;margin-right:5px;border:1px solid var(--graphite)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="chip">Growth Blueprint · Positioning Wheel · evidence current as of Aug 27, 2026 · 12 channels · 50 receipted rows</div>
+  <h1>Where the niche is crowded, and where it is not</h1>
+  <p class="stand">Eight positioning dimensions (wedge = one dimension of how a channel competes). Shading = how crowded: solid ink is saturated, pale dashed is open. ★ marks the wedges the verdict recommends claiming. Bubbles are channels, sized by subscribers, placed in the wedge they most define.</p>
+  <div class="legend"><span><span class="sw" style="background:#16181d"></span>crowded</span><span><span class="sw" style="background:#9aa0a8"></span>contested</span><span><span class="sw" style="background:#fdfcfa;border-style:dashed"></span>open</span><span>★ recommended claim</span></div>
+  <div class="tap">Tap a wedge for its five-beat read · tap a bubble for the channel card</div>
+  <div class="layout">
+    <div><svg id="wheel" viewBox="0 0 640 640" role="img" aria-label="Positioning wheel"></svg></div>
+    <div>
+      <div class="panel" id="panel"></div>
+      <div class="card" id="card" hidden></div>
+    </div>
+  </div>
+  <div class="trap"><b>The trap this wheel invites:</b> reading "open" as "guaranteed demand." Open means nobody measured is there; it does not prove buyers want it. Zero videos is unclaimed, many low-outlier videos is a graveyard, and an open wedge has zero demand evidence by definition. Batches 1–3 are the probe; the bullseye overlay decides in dollars.</div>
+  <div class="exportrow">
+    <span>Produced Aug 27, 2026 · evidence current as of Aug 27, 2026 · coverage: YouTube measured; TikTok/IG not measured; LinkedIn outside this scan</span>
+    <span><a href="whitespace-map-client.html">Client brief</a> · <a href="javascript:window.print()">PDF</a></span>
+  </div>
+</div>
+<script>
+const W=[
+ {n:"Topic selection",star:true,sat:"crowded",
+  what:"What a channel talks about. Contrast: 'Meta ads tips' is a topic choice, and so is 'what your supplement brand may legally claim.'",
+  menu:"Tools & platform news · founder stories · operating discipline · launch mechanics · claim science & message strategy",
+  board:[["Tools/platform news","5 of 12","Chappell, Shopify, MyWife, Supliful, Kallaway","crowded"],["Founder stories","3 of 12","Foundr, Fogarty, ChewOnThis","crowded"],["Operating discipline","2 of 12","CTC, MarketingOperators","contested"],["Claim science / message decision","0 of 12","zero rows in the 50","open"]],
+  white:"Claim substantiation as growth strategy: zero of 50 ranked rows touch it.",
+  specs:[["@mywifequitherjob","platform-news topic at full tilt"],["@ChaseChappell","tools topic riding the weekly wave"]],
+  you:"W1, 'The Defensible Claim' lane. Probe with three named topics in batch 1 (the $53,088 sentence; nine-homepages teardown; honest-claim-vs-lie). Demand is unproven: zero rows is also zero demand evidence."},
+ {n:"Substance depth",star:false,sat:"contested",
+  what:"How deep the teaching goes: surface motivation, tactical how-to, or mechanism (why it works).",
+  menu:"Tutorial how-to · narrative war story · mechanism-level teaching",
+  board:[["Tutorial","4 of 12","Shopify, Supliful, Chappell, MyWife","crowded"],["Narrative","4 of 12","Foundr, Fogarty, ChewOnThis, CTC pods","crowded"],["Mechanism-level","2 of 12","Sabri (persuasion), MO (measurement)","contested"]],
+  white:"Mechanism-level claim science. Sabri teaches persuasion psychology; nobody teaches what a regulated brand may assert and prove.",
+  specs:[["@SabriSubyOfficial","the mechanism-depth benchmark"],["@learnwithshopify","tutorial depth, tool-first"]],
+  you:"His 18-year practitioner depth is unopposed in-lane. Depth is the moat the giants cannot follow him into without his history."},
+ {n:"Stories & proof",star:false,sat:"crowded",
+  what:"The lived evidence a channel leans on for authority.",
+  menu:"Scale proof (exits, revenue) · client-volume proof · buyer-side embodied proof",
+  board:[["Scale proof","6 of 12","Fogarty, Foundr, Sabri, Hormozi, MyWife, Davie","crowded"],["Client volume","2 of 12","Sabri, CTC","contested"],["Buyer-side embodied","0 of 12","nobody in pool","open"]],
+  white:"W4: nobody stakes authority on having been the buyer's final checkpoint before purchase.",
+  specs:[["@foundr","scale proof: the half-billion exit story"],["@DavieFogarty","founder-journey proof in motion"]],
+  you:"Contested → redirect: do not compete on scale numbers. Run the 2018-hype-seller-to-2026-claim-safe conversion story; incumbents cannot copy a history they do not have."},
+ {n:"Avatar specificity",star:true,sat:"open",
+  what:"Who the channel is really for, and how narrowly it dares to say so.",
+  menu:"Everyone with a store · all DTC operators · aspiring supplement founders · operating supplement/performance founders",
+  board:[["All founders/sellers","8 of 12","Hormozi, Sabri, Fogarty, Foundr, MyWife, Shopify, Chappell, Kallaway","crowded"],["All-DTC operators","3 of 12","MO, CTC, ChewOnThis","contested"],["Aspiring supplement founders","1 of 12","Supliful (below ICP floor)","contested"],["Operating supplement/performance founders","0 of 12","nobody named","open"]],
+  white:"W2: the operating supplement/performance founder is nobody's named audience.",
+  specs:[["@AlexHormozi","the everyone-avatar at maximum gravity"],["@suplifulofficial","the aspirant avatar, below the buying line"]],
+  you:"Name him in line one. Open wide, land narrow (Wide→Deep→Bridge→Home), because opening on supplements loses every non-supplement reader in line one."},
+ {n:"Delivery style",star:true,sat:"open",
+  what:"The register: how it sounds across the table.",
+  menu:"High-energy direct response · analyst news-jack · roundtable operator talk · calm credentialed practitioner",
+  board:[["High-energy DR","3 of 12","Sabri, Chappell, Hormozi","crowded"],["Analyst news-jack","2 of 12","MyWife, Shopify","contested"],["Roundtable","3 of 12","MO, CTC, ChewOnThis","contested"],["Calm practitioner","0 of 12","absent from winners","open"]],
+  white:"The quiet-defiance, coaching-across-the-table register is missing from the pool's winners.",
+  specs:[["@SabriSubyOfficial","high-energy DR, the occupied register"],["@mywifequitherjob","analyst news-jack register"]],
+  you:"Style whitespace with unproven demand. His natural register; the wince test governs. Do not imitate Sabri's energy: it is occupied and off-voice."},
+ {n:"Storytelling format",star:false,sat:"crowded",
+  what:"The recurring script skeleton under the videos.",
+  menu:"Compression promise · listicle/rank · news-jack shift · founder-journey interview",
+  board:[["Compression promise","5 rows","Sabri ×3, Chappell, Hormozi · top 14.1×","crowded"],["Listicle/rank","4 rows","MyWife ×3, Foundr · 9.6–10.4×","crowded"],["News-jack","5 rows","MyWife ×3, Chappell, Shopify · to 64.2×","crowded"],["Founder-journey","6 rows","Foundr · 3.4–15.9×","crowded"]],
+  white:"No format whitespace worth fighting for; these skeletons are craft assets.",
+  specs:[["@SabriSubyOfficial","compression promise, top of its class"],["@mywifequitherjob","news-jack skeleton at 64.2×"],["@foundr","founder-journey interview cut"]],
+  you:"Two-zone rule: borrow the winning skeletons (compression promise, news-jack) and keep topics in-ring. Format selection happens in the Format Playbook."},
+ {n:"Visual format",star:false,sat:"crowded",
+  what:"How it is shot and edited.",
+  menu:"Talking head + b-roll · screen-share tutorial · multicam podcast",
+  board:[["Talking head","5 of 12","Sabri, Hormozi, Fogarty, MyWife, Kallaway","crowded"],["Screen-share","4 of 12","Chappell, Shopify, Supliful, Kallaway","crowded"],["Multicam podcast","3 of 12","MO, CTC, ChewOnThis","contested"]],
+  white:"None worth a bet. The niche is not won on production.",
+  specs:[["@AlexHormozi","talking head, zero production tricks"],["@ChaseChappell","screen-share tutorial form"]],
+  you:"Talking head + on-screen receipts fits the 1–3 hr/day constraint. Spend zero innovation here."},
+ {n:"Belief installed",star:true,sat:"open",
+  what:"What watching the channel makes you believe about your problem. The deepest wedge: lanes are usually beliefs nobody installs, not topics nobody covers.",
+  menu:"'You are the constraint' · 'Marketing is learnable psychology' · 'The new tool changes everything' · 'Platform chaos is opportunity' · 'The journey is the proof' · 'Starting is easy' · 'Measure better' · 'Decide the message first'",
+  board:[["Adopt-the-mechanism (5 dialects)","12 of 12","every channel, incl. Supliful's 33.2× launch-is-easy rows","crowded"],["ROAS distrust (pre-tilled ground)","2 of 12","MO (Haus episode), CTC","contested"],["Decision-before-mechanism","0 of 12","nobody installs it","open"]],
+  white:"The unmade-decision belief: 'your growth problem is an unmade message decision; in a regulated category the defensible claim is the growth asset.'",
+  specs:[["@ChaseChappell","installs the-new-tool-changes-everything"],["@suplifulofficial","installs starting-is-easy at 33.2×"],["@MarketingOperators","installs measure-better, pre-tilled ground"]],
+  you:"W3, the Fix Aisle segment: take the mechanism trending that week, grant what it does, name the decision it cannot make. The niche writes the prompt for him weekly. Note: Supliful's outliers actively manufacture the sameness his offer fixes."}
+];
+const C=[
+ {h:"@AlexHormozi",s:4440000,w:7,fp:"Belief: you are the constraint · Ring 4-5 · scale proof",sp:{t:"It took me 37 years to realize…",u:"https://www.youtube.com/watch?v=OHu1FY1R-x0",m:"438K · 11.9× · 2026-08-20"},read:"Gravity well, not a rival. His audience contains the buyer but his aim never narrows to him."},
+ {h:"@DavieFogarty",s:928000,w:2,fp:"Founder-journey vlogs · scale proof · Ring 4",sp:{t:"I Accidentally Created Australia's Most Viral Cookie",u:"https://www.youtube.com/watch?v=nowcsh1wDzE",m:"398K · 9.7× · 2026-07-28"},read:"Proof-by-building ceiling. Borrow the documentary energy, never the beginner aim."},
+ {h:"@learnwithshopify",s:903000,w:0,fp:"Tool tutorials · new-tool belief · Ring 5",sp:{t:"How to Use Claude to Build and Run a Shopify Store",u:"https://www.youtube.com/watch?v=Ih5RapM8XKw",m:"76K · 12.0× · 2026-07-28"},read:"Platform education machine; installs tools-solve-it, the belief the Fix Aisle answers."},
+ {h:"@mywifequitherjob",s:526000,w:5,fp:"News-jack + listicle · analyst register · Ring 4",sp:{t:"Amazon Just Lost Control Of Shopping!",u:"https://www.youtube.com/watch?v=CpIZPIbU0cU",m:"1.4M · 64.2× · 2026-04-28"},read:"Owns the platform-chaos beat. The 64.2× row is a person winning, not a topic winning."},
+ {h:"@SabriSubyOfficial",s:504000,w:1,fp:"Mechanism-level persuasion · high-energy DR · scale proof",sp:{t:"Give Me 27 Minutes and I'll Make You Disgustingly Good…",u:"https://www.youtube.com/watch?v=HsjuAvqs3zU",m:"201K · 14.1× · 2026-07-31"},read:"The depth benchmark. Claim-agnostic: he teaches persuasion, never what a regulated brand may prove."},
+ {h:"@foundr",s:319000,w:2,fp:"Founder-interview stories · scale proof · Ring 4",sp:{t:"I Sold ONE Product in ONE Color - Then Exited for Half a Billion",u:"https://www.youtube.com/watch?v=CERZXt6lpxk",m:"39K · 15.9× · 2026-07-30"},read:"Story machine. The Quad Lock line 'scale was going to fix their unit economics… never happened once' is a borrowable receipt."},
+ {h:"@ChaseChappell",s:147000,w:0,fp:"AI × ads tooling · new-tool belief · tutorial",sp:{t:"Claude Has Officially Changed Facebook Ads Forever",u:"https://www.youtube.com/watch?v=ReYEYoLsppk",m:"41K · 21.8× · 2026-08-09"},read:"The weekly mechanism wave the Fix Aisle rides. His 21.8× MCP row is the demo."},
+ {h:"@kallaway",s:40400,w:5,fp:"Short-form frameworks · both pool rows pre-2025",sp:{t:"Build your own AI chatbot in 2 minutes",u:"https://www.youtube.com/watch?v=xyEQuqv1TLw",m:"131K · 17.0× · 2023-04-13"},read:"The baseline system's author. Outliers are 2023-24 vintage; current YouTube motion is quieter."},
+ {h:"@chewonthisdtc",s:30200,w:3,fp:"Supplement DTC operators · roundtable · zero pool rows",sp:{t:"(no outlier rows: steady baseline, no breakout)",u:"https://www.youtube.com/@chewonthisdtc",m:"catalog unmeasured for edges"},read:"Nearest lane neighbor. Absence from the pool means no breakouts, not no audience. UNCONFIRMED for topic edges."},
+ {h:"@commonthreadco",s:16300,w:1,fp:"Measurement discipline · agency POV · Rings 2-3",sp:{t:"Do This to Scale Your CPG Brand — Guaranteed",u:"https://www.youtube.com/watch?v=6psqtXu4u88",m:"9.9K · 14.2× · 2026-08-13"},read:"Pre-tills ROAS distrust. Their audience is his audience one seat over."},
+ {h:"@MarketingOperators",s:13300,w:3,fp:"DTC operator roundtable · Rings 2-3 · measurement belief",sp:{t:"Haus CMO Reveals the Incrementality Index…",u:"https://www.youtube.com/watch?v=Jl5jCVogRcY",m:"4.8K · 3.6× · 2026-08-15"},read:"The buyer's watering hole. Guesting here is a Ring-2 move worth more than a viral Ring-5 hit."},
+ {h:"@suplifulofficial",s:8100,w:7,fp:"Launch-is-easy belief · aspirant avatar · 33.2× top row",sp:{t:"No Warehouse, No Problem: Build Your Brand with Supliful",u:"https://www.youtube.com/watch?v=5w2aWizgIuY",m:"20K · 33.2× · 2025-01-24"},read:"The sameness machine, at outlier velocity. Its winners manufacture the problem the offer fixes: the sharpest content foil on the board."}
+];
+const SAT={crowded:"#16181d",contested:"#9aa0a8",open:"#fdfcfa"};
+const svg=document.getElementById('wheel'),panel=document.getElementById('panel'),card=document.getElementById('card');
+const NS="http://www.w3.org/2000/svg";const CX=320,CY=320,R0=70,R1=250;
+function pol(r,a){return[CX+r*Math.cos(a),CY+r*Math.sin(a)]}
+function wedgePath(i){const a0=-Math.PI/2+i*Math.PI/4,a1=a0+Math.PI/4;
+ const[x0,y0]=pol(R0,a0),[x1,y1]=pol(R1,a0),[x2,y2]=pol(R1,a1),[x3,y3]=pol(R0,a1);
+ return`M${x0},${y0} L${x1},${y1} A${R1},${R1} 0 0 1 ${x2},${y2} L${x3},${y3} A${R0},${R0} 0 0 0 ${x0},${y0}Z`}
+function mk(tag,attrs){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);return e}
+const wedgeEls=[];
+W.forEach((w,i)=>{
+ const p=mk('path',{d:wedgePath(i),fill:SAT[w.sat],'fill-opacity':w.sat==='open'?1:(w.sat==='contested'?.45:.88),stroke:'#ddd8cf','stroke-width':1.5});
+ if(w.sat==='open')p.setAttribute('stroke-dasharray','5 4');
+ p.classList.add('wedge');p.addEventListener('click',()=>showWedge(i));
+ svg.appendChild(p);wedgeEls.push(p);
+ const mid=-Math.PI/2+(i+0.5)*Math.PI/4;const[lx,ly]=pol(R1+34,mid);
+ const t=mk('text',{x:lx,y:ly,'text-anchor':'middle','font-size':'12.5',fill:'#16181d'});
+ t.textContent=(w.star?'★ ':'')+w.n;t.style.cursor='pointer';t.addEventListener('click',()=>showWedge(i));
+ svg.appendChild(t);
+ const v=mk('text',{x:lx,y:ly+13,'text-anchor':'middle','font-size':'9.5',fill:'#5a5f68','letter-spacing':'.12em'});
+ v.textContent=w.sat.toUpperCase();svg.appendChild(v);
+});
+const hub=mk('circle',{cx:CX,cy:CY,r:R0-6,fill:'#fdfcfa',stroke:'#16181d','stroke-width':1});svg.appendChild(hub);
+const ht=mk('text',{x:CX,y:CY-4,'text-anchor':'middle','font-size':'11',fill:'#16181d'});ht.textContent='farrice-parallax';svg.appendChild(ht);
+const ht2=mk('text',{x:CX,y:CY+12,'text-anchor':'middle','font-size':'9',fill:'#5a5f68'});ht2.textContent='12 channels · 50 rows';svg.appendChild(ht2);
+const perW={};C.forEach(c=>{(perW[c.w]=perW[c.w]||[]).push(c)});
+Object.entries(perW).forEach(([wi,list])=>{
+ list.forEach((c,j)=>{
+  const a=-Math.PI/2+(+wi+ (j+1)/(list.length+1))*Math.PI/4;
+  const r=R0+55+((j%2)*62);const[x,y]=pol(r,a);
+  const rad=Math.max(7,Math.sqrt(c.s)/90);
+  const b=mk('circle',{cx:x,cy:y,r:rad,fill:c.w===W.findIndex(w=>w.sat==='open')?'#3d5a80':'#3d5a80','fill-opacity':.85,stroke:'#fdfcfa','stroke-width':1.5});
+  b.style.cursor='pointer';b.addEventListener('click',ev=>{ev.stopPropagation();showChannel(c)});
+  b.addEventListener('mouseenter',()=>{wedgeEls.forEach((e,k)=>e.classList.toggle('dimmed',k!==c.w))});
+  b.addEventListener('mouseleave',()=>{wedgeEls.forEach(e=>e.classList.remove('dimmed'))});
+  svg.appendChild(b);
+  const lb=mk('text',{x:x,y:y-rad-4,'text-anchor':'middle','font-size':'9',fill:'#16181d'});
+  lb.textContent=c.h.replace('@','');svg.appendChild(lb);
+ });
+});
+function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e}
+function beat(l,t){const b=el('div','beat');b.appendChild(el('b',null,l));b.appendChild(el('p',null,t));return b}
+function showWedge(i){
+ wedgeEls.forEach((e,k)=>e.classList.toggle('dimmed',k!==i));
+ const w=W[i];panel.replaceChildren();
+ panel.appendChild(el('h3',null,(w.star?'★ ':'')+w.n));
+ panel.appendChild(el('div','sub','verdict: '+w.sat));
+ panel.appendChild(beat('1 · What this even is',w.what));
+ panel.appendChild(beat('2 · The menu of options',w.menu));
+ const b3=el('div','beat');b3.appendChild(el('b',null,'3 · What your niche is doing (receipted scoreboard)'));
+ const tb=el('table');const hr=el('tr');['Option','Occupancy','Who / receipt','Verdict'].forEach(h=>hr.appendChild(el('th',null,h)));tb.appendChild(hr);
+ w.board.forEach(r=>{const tr=el('tr');tr.appendChild(el('td',null,r[0]));tr.appendChild(el('td',null,r[1]));tr.appendChild(el('td',null,r[2]));tr.appendChild(el('td','vd-'+r[3],r[3]));tb.appendChild(tr)});
+ b3.appendChild(tb);panel.appendChild(b3);
+ panel.appendChild(beat('4 · The white space',w.white));
+ if(w.specs&&w.specs.length){
+  const bs=el('div','beat');bs.appendChild(el('b',null,'Specimens · watch the receipts'));
+  w.specs.forEach(([h,why])=>{
+   const c=C.find(x=>x.h===h);if(!c)return;
+   const p2=el('p');const a=el('a',null,c.h+' — '+c.sp.t);a.href=c.sp.u;a.target='_blank';a.rel='noopener';
+   p2.appendChild(a);p2.appendChild(document.createTextNode(' · '+c.sp.m+' · '+why));bs.appendChild(p2);
+  });
+  panel.appendChild(bs);
+ }
+ panel.appendChild(beat('5 · What it means for Farrice',w.you));
+ card.hidden=true;
+}
+function showChannel(c){
+ card.hidden=false;card.replaceChildren();
+ card.appendChild(el('h4',null,c.h+' · '+(c.s/1000).toFixed(c.s>=1e6?0:0)+'K subs'));
+ card.appendChild(el('div','fp','Fingerprint: '+c.fp));
+ const sp=el('div','fp');sp.appendChild(document.createTextNode('Specimen: '));
+ const a=el('a',null,c.sp.t);a.href=c.sp.u;a.target='_blank';a.rel='noopener';sp.appendChild(a);
+ sp.appendChild(document.createTextNode(' · '+c.sp.m));card.appendChild(sp);
+ card.appendChild(el('div','fp',c.read));
+}
+showWedge(7);
+</script>
+</body>
+</html>

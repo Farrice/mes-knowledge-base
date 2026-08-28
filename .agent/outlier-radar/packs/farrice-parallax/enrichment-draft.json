@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-08-27T20:55:00+00:00",
+  "lanes_used": ["tavily", "perplexity", "playwright-page-pulls"],
+  "cost_usd_est": 0.11,
+  "topics": [
+    {
+      "topic": "amazon just lost",
+      "demand_note": "Interest keeps climbing. Within the last 90 days ChatGPT gained in-chat checkout through a major card issuer (Aug 17), Visa opened payments to AI shopping agents (June), and Amazon began licensing its own shopping assistant to other retailers (June) - the 'who controls product discovery' story is getting bigger, not smaller.",
+      "trend_direction": "rising",
+      "sources": [
+        {"url": "https://www.cnbc.com/2026/08/17/synchrony-openai-chatgpt-shopping.html", "title": "Synchrony, credit card issuer to Amazon and Walmart, partners with OpenAI for ChatGPT shopping (CNBC, Aug 17 2026)"},
+        {"url": "https://www.retaildive.com/news/amazon-to-offer-ai-agents-to-other-retailers/821597/", "title": "Amazon offers AI agent tech to other retailers (Retail Dive, Jun 2 2026)"},
+        {"url": "https://www.latimes.com/business/story/2026-06-12/visa-lets-chatgpt-spend-your-money-promising-new-guardrails-for-ai-shopping", "title": "Visa lets ChatGPT spend your money (LA Times, Jun 12 2026)"}
+      ],
+      "label": "VERIFIED"
+    },
+    {
+      "topic": "warehouse problem build",
+      "demand_note": "Steady, evergreen interest rather than a spike: the 2026 guides to launching a supplement line with no inventory keep getting refreshed, and the leading on-demand fulfillment platform now anchors a whole comparison ecosystem. The audience here skews to first-time starters, not brands already selling at scale.",
+      "trend_direction": "flat",
+      "sources": [
+        {"url": "https://wonnda.com/magazine/supliful-alternatives", "title": "7 Best Supliful Alternatives 2026 (Wonnda)"},
+        {"url": "https://ondemandfulfillment.com/how-to-start-a-private-label-supplement-business-without-buying-inventory", "title": "How to Start a Supplement Business Without Buying Inventory (On Demand Fulfillment)"},
+        {"url": "https://www.autods.com/blog/private-label-dropshipping-supplements", "title": "Master Private Label Dropshipping Supplements In 2026 (AutoDS)"}
+      ],
+      "label": "LIKELY"
+    },
+    {
+      "topic": "claude officially changed",
+      "demand_note": "Hot and getting hotter. Meta spent June through August pushing AI deeper into ad creative - its Muse Image generator, agency AI tools, a WPP integration - while Business Insider reported in July that the push is causing chaos for brands. Advertisers are actively arguing about how much creative to hand to the machines, which keeps AI-in-ads content in demand.",
+      "trend_direction": "rising",
+      "sources": [
+        {"url": "https://www.businessinsider.com/metas-ai-ads-push-causes-chaos-for-brands-2026-7", "title": "Meta is pushing AI ads hard - and causing chaos for brands (Business Insider, Jul 13 2026)"},
+        {"url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/07/08/metas-new-image-model-isnt-competing-with-midjourney-its-competing-for-your-ad-budget/", "title": "Meta's New Image Model Is Competing For Your Ad Budget (Forbes, Jul 8 2026)"},
+        {"url": "https://www.mediapost.com/publications/article/416031/meta-unveils-creative-solutions-wpp-integration.html", "title": "Meta Unveils Creative Solutions, WPP Integration, Creator Platform (MediaPost, Jun 23 2026)"}
+      ],
+      "label": "VERIFIED"
+    },
+    {
+      "topic": "etsy quietly killing",
+      "demand_note": "Spiking right now. Etsy's updated Prohibited Items Policy took effect August 11, 2026, tightening what print-on-demand sellers can list under its Creativity Standards, and the company cut 12% of staff the same month. Seller-anxiety content asking whether Etsy is done with print-on-demand is fresh and multiplying.",
+      "trend_direction": "rising",
+      "sources": [
+        {"url": "https://www.shieldmyshop.com/blog/2026-04-28-etsy-august-2026-policy-changes-original-design-pod-sellers", "title": "Etsy August 2026 Policy Changes: New Rules for POD Sellers (ShieldMyShop)"},
+        {"url": "https://qz.com/etsy-layoffs-workforce-restructuring-q2-earnings-080626", "title": "Etsy is slashing 12% of its workforce as new CEO reshapes the company (Quartz, Aug 6 2026)"},
+        {"url": "https://www.listadum.com/blog/understanding-etsys-rules-for-print-on-demand-sellers", "title": "Print-on-Demand on Etsy in 2026: The Rules and the Strategy (Listadum)"}
+      ],
+      "label": "LIKELY"
+    },
+    {
+      "topic": "stop losing sales",
+      "demand_note": "Evergreen with a fresh edge: supplement-specific product-page guides refreshed in mid-2026 keep the topic alive, and this year's angle is skeptical buyers - people who read labels, Google ingredients, and cross-check dosages against studies - which turns ingredient transparency itself into a conversion lever. Steady demand, not a spike.",
+      "trend_direction": "flat",
+      "sources": [
+        {"url": "https://absoluteweb.com/supplement-cro-shopify-growth-framework", "title": "Supplement CRO: The 4-Pillar Testing Framework for Shopify Supplement Brands (Absolute Web, Jun 19 2026)"},
+        {"url": "https://forgedigitalmarketing.com/the-anatomy-of-a-high-converting-product-page-for-health-and-wellness-dtc-brands", "title": "The Anatomy of a High-Converting Product Page for Health and Wellness DTC Brands (Forge Digital Marketing)"}
+      ],
+      "label": "LIKELY"
+    }
+  ],
+  "buyer_language": [
+    {
+      "quote": "How do you take a genuinely differentiated supplement product and get the first 100-1,000 customers without: burning money on Meta ads / becoming another influencer/discount-code brand / making the same generic “5 foods for healthy joints” content everyone else is making?",
+      "context": "Founder of a clinically-dosed joint-health supplement brand, close to launch, asking r/AskMarketing for help on Aug 9, 2026. Line breaks in the original list flattened to slashes; wording untouched.",
+      "url": "https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/",
+      "label": "VERIFIED"
+    },
+    {
+      "quote": "I've started founder-led educational content, but it seems like it won't work.",
+      "context": "Same joint-health founder, in the same Aug 9, 2026 post - he is already doing the thing the playbooks prescribe and is losing faith in it before launch.",
+      "url": "https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/",
+      "label": "VERIFIED"
+    },
+    {
+      "quote": "You're biggest uphill battle is going to be breaking through the market with advertising spend because supplements are one of the busier spaces online.",
+      "context": "Marketing practitioner replying to the joint-health founder in the same thread, Aug 9, 2026. Spelling kept exactly as written.",
+      "url": "https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/",
+      "label": "VERIFIED"
+    },
+    {
+      "quote": "Trust and conveying the benefits of our product is something we need to work on, it seems like. That is the common theme amongst all of the feedback we have got.",
+      "context": "Shilajit supplement founder on r/FacebookAds (Jul 2025) after $2K+ in ad spend produced 4 purchases - his own conclusion, after strangers reviewed his funnel, was that the problem was the message and the trust, not the media buying.",
+      "url": "https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/",
+      "label": "VERIFIED"
+    }
+  ],
+  "market_pulse": [
+    {
+      "note": "Meta updated its health-and-wellness ad enforcement on July 22, 2026, reportedly moving from rejecting whole product categories toward claim-by-claim review, with changes to before/after imagery rules, supplement age-gating, and shop placements. For supplement advertisers this makes which claims you run - not whether you run ads - the compliance question.",
+      "url": "https://adligator.com/blog/meta-health-wellness-ad-policy-update-2026",
+      "label": "LIKELY"
+    },
+    {
+      "note": "Reuters reported August 7, 2026 that AI agents such as Claude and Gemini are already sending measurable shopping traffic to retail sites, with Juniper Research projecting $8 billion in agent-directed spending this year.",
+      "url": "https://www.reuters.com/business/retail-consumer/retailers-tap-ai-shopping-traffic-fight-keep-customer-data-2026-08-07/",
+      "label": "VERIFIED"
+    },
+    {
+      "note": "Two rival standards for AI-agent shopping went public in early August 2026 - OpenAI's Agentic Commerce Protocol and Google's Universal Commerce Protocol, the latter built with Shopify, Etsy, and Walmart - a sign that being findable and quotable by AI assistants is becoming its own distribution channel.",
+      "url": "https://hbr.org/2026/08/algorithmic-shopping-is-here-is-your-company-ready",
+      "label": "LIKELY"
+    },
+    {
+      "note": "Adobe launched Catalog Agent in mid-August 2026 to expose brand product catalogs to LLM shopping surfaces like ChatGPT, Copilot, Claude, and Gemini - structured, claim-backed product data is becoming the input AI shopping runs on.",
+      "url": "https://www.moneycontrol.com/technology/adobe-launches-ai-powered-product-discovery-for-llm-shopping-through-adobe-commerce-article-14001584.html",
+      "label": "LIKELY"
+    },
+    {
+      "note": "Etsy cut roughly 12% of its workforce in the first week of August 2026 as its new CEO restructures the company, days before its tightened Prohibited Items Policy took effect August 11 - a squeeze that lands directly on print-on-demand sellers.",
+      "url": "https://qz.com/etsy-layoffs-workforce-restructuring-q2-earnings-080626",
+      "label": "VERIFIED"
+    }
+  ]
+}

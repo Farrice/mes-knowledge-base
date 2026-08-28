@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic Scan · farrice-parallax</title>
+<style>
+  :root{--canvas:#f4f2ee;--paper:#fdfcfa;--ink:#16181d;--graphite:#5a5f68;--stone:#a8a49c;--line:#ddd8cf;--accent:#3d5a80;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--canvas);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.5;padding:44px 20px}
+  .wrap{max-width:960px;margin:0 auto}
+  .chip{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--graphite)}
+  h1{font-size:29px;font-weight:500;margin:10px 0 6px}
+  .stand{color:var(--graphite);max-width:70ch}
+  .key{font-size:12px;color:var(--graphite);margin-top:8px}
+  .tap{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:16px 0 8px}
+  .bucket{background:var(--paper);border:1px solid var(--line);margin-bottom:10px}
+  .bhead{display:grid;grid-template-columns:26px 1fr auto;gap:10px;align-items:center;padding:12px 14px;cursor:pointer}
+  .bhead:hover{background:#f8f6f2}
+  .crown{color:var(--accent);font-size:14px}
+  .bname{font-size:15px}
+  .bname small{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--graphite)}
+  .barbox{width:220px}
+  .bar{height:12px;background:var(--accent)}
+  .bmeta{font-size:11px;color:var(--stone);letter-spacing:.06em;margin-top:3px}
+  .detail{display:none;border-top:1px solid var(--line);padding:12px 16px 16px}
+  .bucket.open .detail{display:block}
+  .mech{font-size:13.5px;margin:8px 0}
+  .mech b{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);font-weight:500;display:block}
+  .spec{font-size:13px;padding:6px 0;border-top:1px dashed var(--line)}
+  .spec a{color:var(--accent)}
+  .spec .m{color:var(--stone);font-size:11.5px}
+  .trapline{border:1px dashed var(--graphite);padding:8px 10px;margin-top:10px;font-size:12.5px;color:var(--graphite)}
+  .trapline b{color:var(--ink);font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+  .ringtag{font-size:10px;letter-spacing:.13em;text-transform:uppercase;padding:2px 7px;border:1px solid var(--line);color:var(--graphite)}
+  .r2{background:#16181d;color:#fdfcfa;border-color:#16181d}
+  .r3{background:#7d828b;color:#fdfcfa;border-color:#7d828b}
+  .r4{background:#d6d2c9;color:#16181d}
+  .conv{font-size:12.5px;margin-top:8px;color:var(--ink)}
+  .conv b{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);font-weight:500;display:block}
+  .blind{border:1px dashed var(--graphite);padding:12px 14px;margin:24px 0 0;font-size:13.5px;color:var(--graphite)}
+  .blind b{color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+  .exportrow{margin-top:30px;padding-top:14px;border-top:1px solid var(--line);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+  .exportrow a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="chip">Growth Blueprint OS · Topic Scan · Data tier: FRESH · 50 rows screened · 25 qualified</div>
+  <h1>Six buckets, ranked by evidence — picked by positioning</h1>
+  <p class="stand">Bars are median outlier per bucket (outlier = N× that channel's own normal views-per-day, so small channels compete fairly). Crowns mark the chosen trio. Ring tags show where each bucket sits on the bullseye.</p>
+  <p class="key">Velocity column pending: two snapshots ran 64 minutes apart; a refresh a day out lights it. Full ranked table with struck rows: top-50.md.</p>
+  <div class="tap">Tap a bucket to expand its specimens, mechanism, and conversion wiring</div>
+  <div id="list"></div>
+  <div class="blind"><b>What this scan cannot see:</b> LinkedIn, where the conversions happen (outside radar); TikTok/IG (coverage: none); and conversions themselves — the pack sees views. Before crowning a conversion winner, check the DMs actually come from operating founders, not aspirants. No verdict on any video at 24 hours; no bucket demotion before batches 2–3.</div>
+  <div class="exportrow">
+    <span>Produced 2026-08-27 · gb-topic-scan · pack farrice-parallax 2026-08-27 · receipt farrice-parallax-2026-08-27-123632</span>
+    <span><a href="topic-scan-client.html">Client brief</a> · <a href="javascript:window.print()">PDF</a></span>
+  </div>
+</div>
+<script>
+const B=[
+ {k:"B",n:"Platform Shift",ring:"r4",rt:"Ring 4",med:13.7,max:64.2,rows:3,crown:false,trend:"steady · Mar–Aug 2026",
+  mech:["Chaos vigilance (VERIFIED, transcript): fear of being blindsided by a platform you depend on. Hook receipt: 'the most powerful company in retail is genuinely terrified.'"],
+  conv:"Feeds The Fix Aisle as skeleton donor · no direct offer · reach-only, flagged honestly",
+  trap:"Two of three rows are one channel (@mywifequitherjob). A person winning, not a topic winning: treat the 13.7× median as inflated by one news-jack franchise.",
+  specs:[["Amazon Just Lost Control Of Shopping!","https://www.youtube.com/watch?v=CpIZPIbU0cU","1.4M views · 64.2× · 2026-04-28 · @mywifequitherjob"],["Forget Meta Ads! 7 Platforms Quietly Getting Sellers More Sales","https://www.youtube.com/watch?v=ZhSL5A_xEJI","46K · 13.7× · 2026-08-14 · @mywifequitherjob"],["Instagram Changed Everything Again","https://www.youtube.com/watch?v=dU_U1Pmmu5c","3.2K · 5.5× · 2026-08-25 · @learnwithshopify"]]},
+ {k:"A",n:"Mechanism Waves",ring:"r4",rt:"Ring 4",med:12.0,max:21.8,rows:3,crown:true,crownNote:"feeds The Fix Aisle",trend:"rising · all rows Jul–Aug 2026",
+  mech:["New-tool hope (LIKELY, from hooks): each wave promises the mechanism that finally fixes acquisition — the exact belief the dossier's buyer keeps buying. Hook receipt: 'the changes are absolutely mind-blowing.'"],
+  conv:"Feeds The Fix Aisle → no direct offer · working = one 3×+ breakout per 2 batches AND ≥30% engagers in Rings 2–4",
+  trap:"Riding the wave without the belief shift makes you the 13th mechanism channel. The Fix Aisle grants the tool, then names the decision it cannot make.",
+  specs:[["Claude Has Officially Changed Facebook Ads Forever","https://www.youtube.com/watch?v=ReYEYoLsppk","41K · 21.8× · 2026-08-09 · @ChaseChappell"],["How to Use Claude to Build and Run a Shopify Store","https://www.youtube.com/watch?v=Ih5RapM8XKw","76K · 12.0× · 2026-07-28 · @learnwithshopify"],["I Cloned 100 Winning Ads with Ai in 4 min","https://www.youtube.com/watch?v=80qVcoGUkN4","16K · 3.8× · 2026-07-28 · @ChaseChappell"]]},
+ {k:"F",n:"Conversion Tactics",ring:"r3",rt:"Ring 3–4",med:6.8,max:19.9,rows:3,crown:false,trend:"mixed · 2025 + 2026",
+  mech:["Fix-it-now utility (LIKELY, hook shapes): a named template promises same-day improvement."],
+  conv:"Feeds Launch Math (bench) → Sprint · working = ≥1 budget-decision DM per batch",
+  trap:"Utility content converts aspirants too; check who is actually replying before scaling.",
+  specs:[["STOP Losing Sales! Product Page Blueprint","https://www.youtube.com/watch?v=8eHZqKtnymY","12K · 19.9× · 2025-01-10 · @suplifulofficial"],["I Studied Every Ecommerce Offer","https://www.youtube.com/watch?v=RHZ39WfEuM0","5.4K · 6.8× · 2026-08-22 · @ChaseChappell"],["How To Charge 30x More Than Your Competition","https://www.youtube.com/watch?v=WwijQ1TYbw8","83K · 3.9× · 2026-07-28 · @SabriSubyOfficial"]]},
+ {k:"D",n:"Operator Discipline",ring:"r2",rt:"Ring 2–3",med:6.4,max:14.2,rows:7,crown:false,trend:"rising · 6 of 7 rows Aug 2026",
+  mech:["Competence armor (LIKELY, grounded in the brand-lead's fear of being blamed): discipline content keeps the operator defensible in the room."],
+  conv:"Feeds The Data Mirage (bench) → Angle Map · working = ≥2 agency-burned replies per batch",
+  trap:"The Haus incrementality row proves the audience already distrusts ROAS — pre-tilled ground, not a topic to invent.",
+  specs:[["Do This to Scale Your CPG Brand — Guaranteed","https://www.youtube.com/watch?v=6psqtXu4u88","9.9K · 14.2× · 2026-08-13 · @commonthreadco"],["'Leadership Is Leverage': Motion's CEO","https://www.youtube.com/watch?v=pEH86Bji_IY","2.8K · 13.3× · 2026-08-26 · @MarketingOperators"],["Haus CMO Reveals the Incrementality Index","https://www.youtube.com/watch?v=Jl5jCVogRcY","4.8K · 3.6× · 2026-08-15 · @MarketingOperators"]]},
+ {k:"C",n:"Founder Proof Stories",ring:"r4",rt:"Ring 4→2",med:5.7,max:15.9,rows:7,crown:true,crownNote:"story spine for The Counter Files",trend:"steady · Jul 2025–Aug 2026",
+  mech:["Possibility witness (VERIFIED, transcript): the viewer borrows belief from a body that did it. Receipt: 'no investors, no playbook, just an idea.'"],
+  conv:"Story shape feeds The Counter Files / The Convert → Angle Map · working = ≥1 'this is my buyer' reply per batch",
+  trap:"Five of seven rows are @foundr with celebrity guests. The transferable asset is the story shape, not the exit-interview topic — chasing it without their guests chases a person-effect.",
+  specs:[["I Sold ONE Product in ONE Color — Exited for Half a Billion","https://www.youtube.com/watch?v=CERZXt6lpxk","39K · 15.9× · 2026-07-30 · @foundr"],["I Accidentally Created Australia's Most Viral Cookie","https://www.youtube.com/watch?v=nowcsh1wDzE","398K · 9.7× · 2026-07-28 · @DavieFogarty"],["I Broke Every DTC Rule and Built a $1 Billion Brand","https://www.youtube.com/watch?v=IYmChAiW9PY","21K · 7.7× · 2026-07-28 · @foundr"]]},
+ {k:"E",n:"In-Lane Supplement Ops",ring:"r2",rt:"Ring 2",med:4.0,max:4.1,rows:2,crown:true,crownNote:"the money lane — The Defensible Claim + Counter Files audience",trend:"thin · Jun–Aug 2026",
+  mech:["Insider mirror (LIKELY): the operating founder finally sees his own category on screen."],
+  conv:"Feeds The Defensible Claim → Sprint via Angle Map · working = ≥2 claims/launch DMs per batch · kill/keep written on the bullseye overlay",
+  trap:"Thinnest bucket in the pool. Zero in-lane breakouts means no incumbent has cracked it AND no demand proof exists. Both readings stay live until batch 3 — this pick is a positioning bet with a written kill rule, not a data-crowned winner.",
+  specs:[["5 Emerging Brands, 1 Playbook: Inside Grüns' Marketing Pod System","https://www.youtube.com/watch?v=fiWsNWyPFp4","6K · 4.1× · 2026-08-14 · @MarketingOperators"],["Taste Salud's Tyler McCann: Build the Moment, Break the Model","https://www.youtube.com/watch?v=zeJF6EeicwA","12K · 3.9× · 2026-06-28 · @commonthreadco"]]}
+];
+const list=document.getElementById('list');
+function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+const MAXMED=13.7;
+B.forEach(b=>{
+ const box=el('div','bucket');
+ const head=el('div','bhead');
+ head.appendChild(el('div','crown',b.crown?'♛':''));
+ const nm=el('div','bname',b.k+' · '+b.n+(b.crown?'  — chosen':''));
+ const sm=el('small',null,b.rows+' rows · max '+b.max+'× · trend: '+b.trend);
+ nm.appendChild(sm);head.appendChild(nm);
+ const bb=el('div','barbox');
+ const bar=el('div','bar');bar.style.width=Math.max(8,(b.med/MAXMED)*100)+'%';
+ if(!b.crown)bar.style.background='#7d828b';
+ bb.appendChild(bar);bb.appendChild(el('div','bmeta','median '+b.med+'×'));
+ head.appendChild(bb);
+ box.appendChild(head);
+ const d=el('div','detail');
+ const rt=el('span','ringtag '+b.ring,b.rt);d.appendChild(rt);
+ if(b.crownNote){d.appendChild(el('span','bmeta','  ♛ '+b.crownNote));}
+ const m=el('div','mech');m.appendChild(el('b',null,'Why it works (named mechanism, labeled)'));
+ b.mech.forEach(x=>m.appendChild(el('p',null,x)));d.appendChild(m);
+ const cv=el('div','conv');cv.appendChild(el('b',null,'Conversion column'));cv.appendChild(el('p',null,b.conv));d.appendChild(cv);
+ const sp=el('div','mech');sp.appendChild(el('b',null,'Specimens (receipts)'));
+ b.specs.forEach(s=>{const r=el('div','spec');const a=el('a',null,s[0]);a.href=s[1];a.target='_blank';a.rel='noopener';r.appendChild(a);r.appendChild(el('div','m',s[2]));sp.appendChild(r)});
+ d.appendChild(sp);
+ const t=el('div','trapline');t.appendChild(el('b',null,'Trap: '));t.appendChild(document.createTextNode(b.trap));d.appendChild(t);
+ box.appendChild(d);
+ head.addEventListener('click',()=>box.classList.toggle('open'));
+ list.appendChild(box);
+});
+list.firstChild.classList.add('open');
+</script>
+</body>
+</html>

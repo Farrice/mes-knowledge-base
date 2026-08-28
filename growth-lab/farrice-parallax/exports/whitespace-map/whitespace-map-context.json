@@ -1,0 +1,41 @@
+{
+  "slug": "whitespace-map",
+  "title": "the lane nobody measured is holding",
+  "compiled": "aug 27, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/whitespace-map/whitespace-map-brief.html",
+  "brief_md": "deliverables/research-briefs/whitespace-map/whitespace-map-brief.md",
+  "paths": [],
+  "urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=5w2aWizgIuY",
+      "label": "@suplifulofficial · outlier pool"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ReYEYoLsppk",
+      "label": "@ChaseChappell"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HsjuAvqs3zU",
+      "label": "@SabriSubyOfficial · transcript read"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jl5jCVogRcY",
+      "label": "@MarketingOperators"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CERZXt6lpxk",
+      "label": "@foundr / @DavieFogarty"
+    },
+    {
+      "url": "https://www.youtube.com/@chewonthisdtc",
+      "label": "@chewonthisdtc · pool absence"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "bullseye",
+  "chip": "GROWTH BLUEPRINT OS · BULLSEYE + REVENUE OVERLAY",
+  "title": "where the channel *aims*, priced",
+  "dek": "Five rings derived by named constraint relaxation, a 3-2-1 content mix with a chaos dart, and the layer the niche never ships: every bucket wired to the $750/$2,500 offer ladder with a dollar-defined kill-or-keep rule answerable by batch three.",
+  "window": "engagement start",
+  "lens": "audience architecture · offer economics",
+  "sources": "dossier + whitespace map + 12-channel signal pack",
+  "compiled": "aug 27, 2026",
+  "footer_left": "GROWTH BLUEPRINT OS",
+  "footer_right": "farrice-parallax",
+  "category": "growth-lab",
+  "sections": [
+    {
+      "kind": "summary",
+      "heading": "define, hit, expand",
+      "kicker": "THE AIM",
+      "body": "The center is one person: the founder-formulator of an already-selling supplement or performance brand under $15M with a dated launch occasion inside 60-90 days, who keeps buying mechanisms to avoid an unmade message decision. Each ring outward drops exactly one named filter - the launch clock, then the category, then the regulated-claims constraint, then everything. Rings are auditable decisions, not vibes: you can argue about which filter comes off first. The batch shape is 3-2-1: two narrow buckets at Ring 2 (trust and conversion), one broad at Ring 4 (reach, fenced), one chaos dart. Ring 5 gets a warning band, not a bucket."
+    },
+    {
+      "kind": "flow",
+      "heading": "the five rings",
+      "caption": "each step drops ONE named constraint",
+      "steps": [
+        {"title": "Ring 1 - the center", "note": "Supplement/performance founder, $1M-$15M, dated occasion in 60-90 days. 15 researched, 7 verified profiles. DM territory, never a content lane."},
+        {"title": "Ring 2 - drop the launch clock", "note": "Operating category founders without a live occasion. Converts: teardown to $750 Angle Map. Competition thin: Chew On This (no breakouts), Marketing Operators (13.3K)."},
+        {"title": "Ring 3 - drop the category", "note": "Claims-constrained health brands: skincare, functional foods, devices. Longer nurture to the same ladder. Common Thread Collective operates here (14.2x CPG row)."},
+        {"title": "Ring 4 - drop regulated-claims", "note": "All DTC founders with paid-acquisition pain. Reach engine only; feeds inner rings by recognition. Heavy competition: 147K-928K sub channels."},
+        {"title": "Ring 5 - drop everything", "note": "Anyone into marketing/business/AI. Hormozi's 4.44M gravity. Craft-only zone; a viral hit here teaches the algorithm the wrong audience."}
+      ]
+    },
+    {
+      "kind": "evidence",
+      "heading": "the money map",
+      "tag": "EVERY BUCKET PRICED",
+      "rows": [
+        {"claim": "The Defensible Claim (Ring 2, conversion) - the W1 lane bucket", "evidence": "Feeds the Sprint via the Angle Map. Working = at least 2 DMs/comments per batch from operating founders mentioning claims, launch, or proof. Kill/keep: below 2 across batches 2-3, swap in Launch Math; at 4+, add a third slot. Lead value ~$300/qualified inquiry on the stated assumption base", "source_url": "", "source_label": "assumption base: $750 x 20% + $2,500 x 20% x 30% - real rates [NEED], 0 sends logged", "confidence": "LIKELY"},
+        {"claim": "The Counter Files (Ring 2, trust) - the proof register no incumbent can copy", "evidence": "Vitamin Shoppe counter + 18-year practitioner history as buyer-side embodied proof. Working = at least 1 'this is exactly my buyer' reply per batch. Kill/keep: below 1 across 2-3 batches, swap in The Convert", "source_url": "", "source_label": "whitespace W4 redirect", "confidence": "VERIFIED as strategy, LIKELY as economics"},
+        {"claim": "The Fix Aisle (Ring 4, reach) - honestly flagged reach-only", "evidence": "Rides the niche's proven news-jack skeleton (64.2x ceiling receipt, mywifequitherjob) to install the decision-before-mechanism belief. $0 direct lead value claimed. Working = one 3x+ breakout per two batches AND 30%+ of engagers identifiably Rings 2-4", "source_url": "https://www.youtube.com/watch?v=CpIZPIbU0cU", "source_label": "skeleton receipt: Amazon news-jack, 1.4M views, 64.2x", "confidence": "VERIFIED"},
+        {"claim": "Chaos dart, batch 1: ChatGPT built the same supplement brand ten times", "evidence": "Demonstrates the sameness machine instead of describing it. A win teaches whether demonstration outperforms telling. Tagged W1+W3; the reserve holds four more candidates, each wild in a different way", "source_url": "", "source_label": "chaos reserve, pre-screened against the whitespace map", "confidence": "VERIFIED as plan"}
+      ]
+    },
+    {
+      "kind": "decision",
+      "heading": "the rules printed on the tracker",
+      "kicker": "CALIBRATION DISCIPLINE",
+      "dek": "Decisions in dollars and counts, never vibes.",
+      "items": [
+        {"action": "No verdict on any video inside 24 hours", "why": "Maturity rule carried from the source system; early numbers lie"},
+        {"action": "No bucket demotion before batches 2-3", "why": "Two to three batches is the minimum signal for a kill/keep call"},
+        {"action": "Count conversions in 'working =' units logged in his own inbox", "why": "He logs his own sends and DMs; every threshold above is observable without a dashboard"},
+        {"action": "Ring 5 stays craft-only", "why": "Topics from the bucket's own ring, craft from anywhere - sourcing topics from Ring 5 is how channels drift generic"}
+      ]
+    },
+    {
+      "kind": "caveats",
+      "heading": "what is assumed, *said out loud*",
+      "kicker": "THE BASES",
+      "body": "Close rates are assumptions (20% inquiry-to-Map, 30% Map-to-Sprint) flagged [NEED] until the first ten sends log outcomes. Ring sizes are subscriber-count proxies, not measured audiences; a keyword-volume pull would harden them. Velocity fields in this pack are unreadable (snapshots 64 minutes apart). The center's pipeline numbers (15 researched, 7 verified, 0 sent) are his own logged facts."
+    }
+  ],
+  "ledger": [
+    {"source": "Positioning dossier + whitespace map (this engagement)", "url": "", "retrieved": "2026-08-27", "used_for": "center statement, bucket candidates, whitespace tags", "confidence": "VERIFIED"},
+    {"source": "Outlier radar pack farrice-parallax", "url": "", "retrieved": "2026-08-27", "used_for": "ring competition receipts, skeleton ceilings", "confidence": "VERIFIED"},
+    {"source": "Offer ladder (PROOF-TO-MARKET-OS v2.2, frozen input pack)", "url": "", "retrieved": "2026-08-27", "used_for": "list prices $750 / $2,500", "confidence": "VERIFIED"}
+  ]
+}

@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+"""Fixture tests for execution/build_lead_magnet.py — plain, degraded, and
+enriched bakes. $0, offline, deterministic. Run from repo root:
+
+    .venv/bin/python3 .scratch/kallaway-sandcastles-forge/verify_lead_magnet_bakes.py
+
+Enriched fixture (fixture-pack-enriched.json) = fixture-pack.json + a fixture
+`enrichment` block (pack_enrich.py schema). Contract under test: at most 2
+nuggets (1 rising-topic demand note + 1 market-pulse line, each with a source
+link) appear ONLY when the pack carries enrichment; without it the bake is
+byte-identical to pre-enrichment behavior.
+"""
+import json
+import re
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+FIX = ROOT / ".scratch" / "kallaway-sandcastles-forge"
+PY = str(ROOT / ".venv" / "bin" / "python3")
+
+RESULTS = []
+
+
+def check(name, ok, detail=""):
+    RESULTS.append((name, bool(ok), detail))
+    print(f"  {'PASS' if ok else 'FAIL'} — {name}" + (f" ({detail})" if detail and not ok else ""))
+
+
+def bake(pack, out):
+    proc = subprocess.run(
+        [PY, str(ROOT / "execution" / "build_lead_magnet.py"),
+         "--pack", str(pack), "--niche-label", "FIXTURE — Fitness coaches on YouTube",
+         "--cta-url", "https://example.com/blueprint", "--out", str(out)],
+        capture_output=True, text=True, cwd=str(ROOT))
+    return proc, Path(out).read_text(encoding="utf-8") if Path(out).exists() else ""
+
+
+def data_json(html):
+    m = re.search(r'<script id="mini-data" type="application/json">(.*?)</script>', html, re.S)
+    return json.loads(m.group(1)) if m else {}
+
+
+def main():
+    tmp = Path(tempfile.mkdtemp(prefix="lm-bakes-"))
+
+    print("[plain bake — fixture-pack.json]")
+    proc, html = bake(FIX / "fixture-pack.json", tmp / "plain.html")
+    mini = data_json(html)
+    check("plain: exit 0", proc.returncode == 0, proc.stderr[-200:])
+    check("plain: mode=full receipt", "mode=full" in proc.stdout)
+    check("plain: 5 videos / 5 topics", len(mini.get("videos", [])) == 5 and len(mini.get("topics", [])) == 5)
+    check("plain: whitespace present", bool(mini.get("whitespace")))
+    check("plain: NO market-signal block", 'data-block="market-signal"' not in html)
+    check("plain: NO enrichment_nuggets key", "enrichment_nuggets" not in mini)
+    check("plain: NO enrichment bit in receipt", "enrichment_nuggets=" not in proc.stdout)
+    check("plain: no unreplaced placeholders", not re.findall(r"\{\{[A-Z_]+\}\}", html))
+
+    print("[degraded bake — fixture-pack-degraded.json]")
+    proc, html = bake(FIX / "fixture-pack-degraded.json", tmp / "degraded.html")
+    mini = data_json(html)
+    check("degraded: exit 0", proc.returncode == 0, proc.stderr[-200:])
+    check("degraded: interview mode", "mode=interview" in proc.stdout)
+    check("degraded: honest reason in receipt", "numbers not trusted" in proc.stdout)
+    check("degraded: no videos/topics/nuggets", not mini.get("videos") and not mini.get("topics")
+          and "enrichment_nuggets" not in mini)
+    check("degraded: NO market-signal block", 'data-block="market-signal"' not in html)
+
+    print("[enriched bake — fixture-pack-enriched.json]")
+    proc, html = bake(FIX / "fixture-pack-enriched.json", tmp / "enriched.html")
+    mini = data_json(html)
+    nuggets = mini.get("enrichment_nuggets", [])
+    check("enriched: exit 0", proc.returncode == 0, proc.stderr[-200:])
+    check("enriched: receipt says enrichment_nuggets=2", "enrichment_nuggets=2" in proc.stdout)
+    check("enriched: exactly 2 nuggets in DATA_JSON", len(nuggets) == 2, f"got {len(nuggets)}")
+    check("enriched: nugget 1 is rising topic demand", nuggets and nuggets[0]["kind"] == "topic_demand"
+          and nuggets[0]["trend_direction"] == "rising")
+    check("enriched: nugget 2 is market pulse", len(nuggets) == 2 and nuggets[1]["kind"] == "market_pulse")
+    check("enriched: market-signal block rendered once", html.count('data-block="market-signal"') == 1)
+    check("enriched: block titled for two signals", "Two live market signals" in html)
+    check("enriched: both source links present", "https://example.com/fixture-retention-trend" in html
+          and "https://example.com/fixture-pulse" in html)
+    check("enriched: labels rendered", html.count("LIKELY &middot;") == 2)
+    check("enriched: every nugget carries url+label", all(
+        n.get("url", "").startswith("https://") and n.get("label") for n in nuggets))
+    check("enriched: taste framing (extension not duplication)", "taste of the live-market layer" in html)
+    check("enriched: no unreplaced placeholders", not re.findall(r"\{\{[A-Z_]+\}\}", html))
+
+    passed = sum(1 for _, ok, _ in RESULTS if ok)
+    total = len(RESULTS)
+    print(f"\n{passed}/{total} checks passed")
+    return 0 if passed == total else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 3-2-1 Mix · farrice-parallax</title>
+<style>
+  :root{--canvas:#f4f2ee;--paper:#fdfcfa;--ink:#16181d;--graphite:#5a5f68;--stone:#a8a49c;--line:#ddd8cf;--accent:#3d5a80;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--canvas);color:var(--ink);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.5;padding:44px 20px}
+  .wrap{max-width:1060px;margin:0 auto}
+  .chip{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--graphite)}
+  h1{font-size:29px;font-weight:500;margin:10px 0 6px;letter-spacing:-0.025em}
+  .stand{color:var(--graphite);max-width:74ch}
+  .views{margin:14px 0 4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+  .views a{color:var(--graphite);text-decoration:none;margin-right:16px;padding-bottom:2px}
+  .views a.on{color:var(--ink);border-bottom:2px solid var(--accent)}
+  .tap{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:12px 0 8px}
+  .layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:900px){.layout{grid-template-columns:1fr}}
+  svg{width:100%;height:auto;display:block}
+  .ring{cursor:pointer;transition:opacity .15s}
+  .dimmed{opacity:.3}
+  .panel{background:var(--paper);border:1px solid var(--ink);padding:20px 22px}
+  .panel h3{font-size:15px;font-weight:500;margin-bottom:2px}
+  .panel .sub{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite);margin-bottom:8px}
+  .row{margin-top:10px;padding-top:8px;border-top:1px solid var(--line)}
+  .row b{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--graphite);display:block;margin-bottom:2px}
+  .row p{font-size:13.5px}
+  .row ul{list-style:none;margin:0}
+  .row li{font-size:13.5px;padding:3px 0;border-bottom:1px dotted var(--line)}
+  .row li:last-child{border-bottom:0}
+  .who{font-weight:500}
+  .tagchip{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--ink);padding:1px 5px;margin-left:6px;vertical-align:1px}
+  .tagchip.craft{border-color:var(--graphite);color:var(--graphite)}
+  .goldchip{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:2px 6px;margin-left:8px;vertical-align:2px}
+  .conf{display:inline-block;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin-left:6px}
+  .quiet{color:var(--graphite);font-size:12.5px}
+  .warn{border:1px solid var(--ink);background:var(--ink);color:var(--paper);padding:10px 12px;margin-top:12px;font-size:12px;letter-spacing:.06em}
+  .reaim{border-left:2px solid var(--accent);padding:8px 12px;margin-top:12px;font-size:13px}
+  .rack{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+  .bcard{background:var(--paper);border:1px solid var(--line);padding:10px 12px;cursor:pointer}
+  .bcard:hover,.bcard.on{border-color:var(--ink)}
+  .bcard .k{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--graphite);display:flex;justify-content:space-between}
+  .bcard .t{font-size:14px;margin-top:2px}
+  .star{color:var(--accent)}
+  .zones{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  @media(max-width:700px){.zones{grid-template-columns:1fr}}
+  .zcard{background:var(--paper);border:1px solid var(--ink);padding:14px 16px}
+  .zcard b{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;margin-bottom:6px}
+  .zcard p{font-size:13.5px}
+  .zfoot{margin-top:10px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--graphite)}
+  .trap{border:1px dashed var(--graphite);padding:12px 14px;margin:22px 0 0;font-size:13.5px;color:var(--graphite)}
+  .trap b{color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:500}
+  .exportrow{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--stone);display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between}
+  .exportrow a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="chip">Growth Blueprint · Bullseye + Revenue Overlay · evidence current as of Aug 27, 2026 · same geometry, three legends</div>
+  <h1>The 3-2-1 Mix</h1>
+  <p class="stand">Same rings, second legend: where the 7-video batch aims. Two narrow buckets at Ring 2, one broad at Ring 4, one chaos dart. Tap a dart or a card for its revenue wiring.</p>
+  <div class="views"><a href="bullseye.html" class="">The Bullseye</a><a href="bullseye-321-mix.html" class="on">The 3-2-1 Mix</a><a href="bullseye-sourcing-map.html" class="">The Sourcing Map</a></div>
+  <div class="tap">Tap a dart or a bucket card for its revenue wiring</div>
+  <div class="layout">
+    <div><svg id="geo" viewBox="0 0 620 620" role="img" aria-label="The 3-2-1 Mix"></svg><div class="rack" id="rack"></div></div>
+    <div><div class="panel" id="panel"></div></div>
+  </div>
+
+  <div class="trap"><b>The trap this view invites:</b> Reading reach as the scoreboard. Reach and conversion point at different buckets by design; the “working =” unit on each card is the number that decides, in dollars, by batch 3. No verdict at 24 hours; no demotion before 2–3 batches.</div>
+  <div class="exportrow">
+    <span>Produced Aug 28, 2026 · evidence current as of Aug 27, 2026 · outlier = N× that channel's own normal · lead values use list prices and stated close-rate assumptions; real rates land with the first ten sends</span>
+    <span><a href="bullseye.html">Bullseye</a> · <a href="bullseye-321-mix.html">Mix</a> · <a href="bullseye-sourcing-map.html">Sourcing</a> · <a href="javascript:window.print()">PDF</a></span>
+  </div>
+</div>
+<script>const RINGS=[{"n": 1, "label": "The center", "aud": "Formulator-founders and brand leads at already-selling supplement or performance brands, $1M\u2013$15M, with a dated launch occasion inside 60\u201390 days", "constraint": "None \u2014 this is the person every video speaks to", "size": "A handful of named brands at any moment \u2014 small enough to greet by name, which is the point", "size_chip": "VERIFIED", "converts": "A private teardown DM \u2192 the $750 Angle Map", "comp": "Nobody \u2014 a person you speak to, not a lane you publish in", "warn": "Ring 1 is a person, not a content lane. Keep the brands already in your pipeline out of public content \u2014 named critique stays in the private teardown; public teardowns use dead brands and anonymized composites."}, {"n": 2, "label": "Operating founders, no launch clock", "aud": "Operating supplement/performance founders and brand leads \u2014 same seat, no live launch clock", "constraint": "Drops the launch-clock filter", "size": "Small \u2014 the buyer's watering holes run 13K\u201330K subscribers; this ring is measured in thousands of operators, not millions of viewers", "size_chip": "LIKELY", "converts": "Teardown \u2192 $750 Angle Map", "comp": "Thin. Chew On This sits closest and hasn't had a breakout in a year of measured video; Marketing Operators touches the seat weekly (Gr\u00fcns pod-system episode \u2014 6K views \u00b7 4.1\u00d7 their own normal \u00b7 Aug 2026)", "warn": "Zero breakouts here cuts both ways: no incumbent has cracked the lane, and no demand is proven yet. Both readings stay live until batch 3 \u2014 an empty ring is an opening, not a verdict."}, {"n": 3, "label": "Claims-constrained health brands", "aud": "Founders and brand leads of claims-constrained consumer health brands \u2014 skincare, functional foods, wellness devices", "constraint": "Drops the supplement/performance filter, keeps regulated claims", "size": "Mid \u2014 tens of thousands across CPG operator audiences", "size_chip": "LIKELY", "converts": "Teardown \u2192 Angle Map, on a longer nurture", "comp": "Common Thread Collective owns the operating-discipline beat here (\u201cDo This to Scale Your CPG Brand\u201d \u2014 9.9K \u00b7 14.2\u00d7 their own normal \u00b7 Aug 2026) and never touches claims", "warn": "Adjacency drift starts here: a skincare topic that loses the claims thread becomes wellness content, and wellness content is Ring 4 with better lighting. Keep the regulated-claims spine visible in every piece."}, {"n": 4, "label": "All DTC founders and operators", "aud": "All DTC founders and growth operators with paid-acquisition pain", "constraint": "Drops the regulated-category filter", "size": "Large \u2014 the channels serving this ring run 147K\u2013928K subscribers", "size_chip": "VERIFIED", "converts": "Nothing directly \u2014 this ring feeds Rings 1\u20133 by recognition", "comp": "Crowded and fast: mywifequitherjob, Sabri Suby, foundr, Chase Chappell, Learn With Shopify (\u201cClaude \u00d7 Shopify\u201d \u2014 76K \u00b7 12.0\u00d7 their own normal \u00b7 Jul 2026)", "warn": "The fence line, and the re-aim rule: borrow the wave, then land it on the operating supplement founder by name in line one. Broad in audience, never broad in address."}, {"n": 5, "label": "The whole marketing internet", "aud": "Anyone interested in marketing, business, or AI", "constraint": "Drops everything \u2014 the operates-a-brand filter is gone", "size": "Vast \u2014 Hormozi alone is 4.44M subscribers", "size_chip": "VERIFIED", "converts": "Nothing. Viewers here do not buy $2,500 sprints", "comp": "Saturated: Alex Hormozi (\u201c37 years of business advice\u201d \u2014 438K \u00b7 11.9\u00d7 his own normal \u00b7 Aug 2026) \u00b7 Davie Fogarty (11-hour dropshipping guide \u2014 1.4M \u00b7 11.7\u00d7 \u00b7 2025)", "warn": "TOO BROAD \u2014 viral with the wrong avatar. The algorithm learns from whoever engages; one Ring-5 hit teaches it to send more of the wrong people. Craft-only territory."}];const BUCKETS=[{"name": "The Defensible Claim", "alt": "Claim School", "ring": 2, "pick": true, "job": "Conversion engine \u2014 claims the open claim-substantiation lane", "topics": "The $53,088 sentence \u2014 what one over-claim costs a supplement brand \u00b7 The claim ladder: say only what your proof carries", "offer": "Sprint, via the Angle Map", "role": "Conversion", "value": "~$300 per qualified inquiry \u2014 list prices \u00d7 stated close-rate assumptions; real rates land with the first ten sends", "working": "\u22652 DMs or comments per batch from operating founders that mention claims, launch, or proof", "kill": "Below 2 across batches 2\u20133: swap in Launch Math. At \u22654: add a third weekly slot"}, {"name": "The Counter Files", "alt": "Final Checkpoint", "ring": 2, "pick": true, "job": "Trust engine \u2014 buyer-side proof no incumbent can copy", "topics": "What people asked at the Vitamin Shoppe counter right before buying \u00b7 The confidence purchase: what supplement buyers are really buying", "offer": "Angle Map", "role": "Trust", "value": "~$150 per qualified inquiry \u2014 $750 list \u00d7 a stated 20% close assumption", "working": "\u22651 \u201cthis is exactly my buyer\u201d reply per batch, plus saves and DMs from category operators", "kill": "Below 1 across 2\u20133 batches: swap in The Convert"}, {"name": "The Fix Aisle", "alt": "Mechanism of the Week", "ring": 4, "pick": true, "job": "Reach engine with the belief shift built in", "topics": "The Meta-MCP wave: what it does, the decision it cannot make \u00b7 Quiz funnels, same treatment: grant the mechanism, name the decision", "offer": "None directly \u2014 reach-only, flagged honestly", "role": "Reach", "value": "$0 direct; feeds the retargeting pool and inner-ring recognition", "working": "\u22651 breakout (\u22653\u00d7 the channel's own normal) per 2 batches AND \u226530% of engagers identifiably Rings 2\u20134", "kill": "Reach without ring-fit by batch 3: re-aim the same skeleton at Ring 3 topics"}, {"name": "The Sameness Files", "alt": "Nine Homepages", "ring": 3, "pick": false, "job": "Trust \u2014 demonstrate the sameness on live category pages", "topics": "Nine homepages, one voice \u00b7 The white-label sameness machine", "offer": "Angle Map", "role": "Trust", "value": "~$150 per qualified inquiry \u2014 same stated close assumption", "working": "\u22652 shares or sends by operators per batch", "kill": "First challenger on any trust-bucket swap"}, {"name": "Launch Math", "alt": "Before You Fund It", "ring": 2, "pick": false, "job": "Conversion \u2014 price the unmade decision in the buyer's own numbers", "topics": "The $30K lesson \u00b7 140 ads, one unmade decision", "offer": "Sprint", "role": "Conversion", "value": "~$300 per qualified inquiry \u2014 same stated close assumptions", "working": "\u22651 DM referencing a real budget decision per batch", "kill": "Challenger for The Defensible Claim"}, {"name": "The Data Mirage", "alt": "ROAS Confessional", "ring": 3, "pick": false, "job": "Trust \u2014 metric distrust the operator podcasts already pre-tilled", "topics": "Why your ROAS lies to you \u00b7 Incrementality in founder speech", "offer": "Angle Map", "role": "Trust", "value": "~$150 per qualified inquiry \u2014 same stated close assumption", "working": "\u22652 agency-burned founder replies per batch", "kill": "Enters if The Counter Files converts but plateaus on reach"}, {"name": "AI Answer Shelf", "alt": "The Two Gates", "ring": 3, "pick": false, "job": "Conversion \u2014 the citation thesis behind the Sprint", "topics": "Why ChatGPT names your competitor \u00b7 Proof an AI can cite", "offer": "Sprint", "role": "Conversion", "value": "~$300 per qualified inquiry \u2014 same stated close assumptions", "working": "\u22651 \u201care we in the AI answer?\u201d inquiry per batch", "kill": "Enters when a prospect's trigger is AI-search invisibility"}, {"name": "The Convert", "alt": "2018/2026", "ring": 2, "pick": false, "job": "Proof \u2014 the conversion story as recurring personality spine", "topics": "I sold the hype in 2018 \u2014 the grammar of it \u00b7 What changed", "offer": "Angle Map, indirectly", "role": "Proof", "value": "Indirect; no per-inquiry claim made", "working": "Comment sentiment naming trust and credibility", "kill": "Never a full bucket; one slot every 3 batches"}];const RINGINTEL=[{"ring": 1, "title": "Ring 1 \u00b7 The center", "gold": true, "rolechip": "TOPIC GOLD \u2014 never a lane", "pillar": "The buyer's own words. This ring publishes nothing and supplies everything: the founders you serve are already saying the lines \u2014 creative fatigue in ten days, $30K for 56 orders, compliant and still throttled. The narrow buckets' best titles are sitting in their sentences.", "bucket": "The Defensible Claim and The Counter Files pull their titles from here. The DM pipeline itself stays private.", "make_label": "What this ring hands you \u2014 titles in the buyer's words", "make": ["\u201cCreative fatigue is killing my ads after 10 days\u201d \u2014 the message problem wearing a media costume", "The $30K lesson: 56 orders and nothing learned", "\u201cMy ads are FDA compliant \u2014 so why am I throttled?\u201d", "Founder-led content fails without a settled message. Settle it first"], "study": [{"who": "No true Ring-1 creator exists on the measured board", "tag": "TOPIC GOLD", "why": "founders with a live launch clock don't run channels. The nearest stand-in is Chew On This \u2014 Obvi's own founders \u2014 watched for what an operating founder worries about out loud, the week it happens. When a launching founder ever does start narrating, that channel outranks everything else on this map."}], "trap": "Ring 1 is a person you speak to, not a lane you publish in. Keep pipeline brands out of public content \u2014 named critique stays in the private teardown; public teardowns use dead brands and anonymized composites.", "terms": ["supplement founder podcast", "supplement launch diary"]}, {"ring": 2, "title": "Ring 2 \u00b7 Operating founders, no launch clock", "gold": false, "rolechip": "TOPICS \u00b7 the narrow buckets", "pillar": "Claim substantiation as a growth decision. Zero of the 50 top-performing videos in this niche touch claims, compliance, or message defensibility \u2014 and the only supplement-specific channel teaches launch mechanics instead. The lane is open, and the incumbent is actively manufacturing the problem you fix.", "bucket": "The Defensible Claim and The Counter Files live here; Launch Math waits on the bench.", "make_label": "What to make here", "make": ["The $53,088 sentence \u2014 what one over-claim costs a supplement brand", "The claim ladder: say only what your proof carries", "The question every buyer asked me at the counter before they'd pay", "Compliant and still throttled \u2014 the health-flag playbook", "Why your honest claim loses to their lie, and the one way it wins"], "study": [{"who": "Chew On This", "tag": "TOPIC INSPIRATION", "why": "for how an operating founder talks about a launch, not for topics to copy \u2014 a year without a breakout means the lane is open, not closed."}, {"who": "Marketing Operators", "tag": "TOPIC INSPIRATION", "why": "for what operating marketers argue about weekly; their ROAS distrust is the ground your Data Mirage bench bucket stands on."}], "trap": "The honest caveat, printed here not buried: zero breakouts in this lane means no incumbent has cracked it \u2014 and also means no demand proof yet. Both readings stay on the table until batch 3.", "terms": ["supplement brand FTC warning letter", "supplement launch messaging", "supplement founder marketing"]}, {"ring": 3, "title": "Ring 3 \u00b7 Claims-constrained health brands", "gold": false, "rolechip": "TOPICS \u00b7 the bench", "pillar": "Same handcuffs, different shelf. Skincare, functional foods, and wellness devices carry the exact claims constraint your buyer lives under, and the appetite for operating discipline is proven here \u2014 a CPG scaling video ran 14.2\u00d7 its channel's own normal in August. Nobody at this altitude connects that discipline to the claim decision.", "bucket": "The bench sources here: The Sameness Files, The Data Mirage, and AI Answer Shelf \u2014 stocked and ready the week a swap fires.", "make_label": "What to make here", "make": ["Nine supplement homepages, one voice: the sea-of-sameness teardown", "The white-label machine: where the sameness gets manufactured", "Why your ROAS lies to you \u2014 incrementality in founder speech", "Why ChatGPT names your competitor \u2014 and the proof an AI can cite"], "study": [{"who": "Common Thread Collective", "tag": "TOPIC INSPIRATION", "why": "for how measurement-minded operators frame growth constraints; they will never say \u201cclaims,\u201d which is exactly the gap you fill."}], "trap": "Adjacency drift starts here. A skincare topic that loses the claims thread becomes wellness content, and wellness content is Ring 4 with better lighting. Keep the regulated-claims spine visible in every piece.", "terms": ["skincare claims marketing", "functional food compliance", "health brand positioning"]}, {"ring": 4, "title": "Ring 4 \u00b7 All DTC founders and operators", "gold": false, "rolechip": "TOPICS \u00b7 the broad bucket, re-aimed", "pillar": "The mis-fix teardown. Every channel at this altitude sells a mechanism; nobody runs the named critique. The raw material is the niche's own content, and the wave pool is live \u2014 the mechanism beat's top rows all landed inside the last 60 days: Meta's AI ad push, in-chat AI checkout, the Etsy squeeze.", "bucket": "The Fix Aisle \u2014 the broad bucket \u2014 sources here, and only here.", "make_label": "What to make here", "make": ["Claude just took over Meta ads. Here's the decision it still cannot make", "The quiz-funnel fix: what it does, what it dodges", "AI checkout just moved product discovery \u2014 who controls what your buyer sees", "Creative fatigue in 10 days is a message problem wearing a media costume"], "study": [{"who": "mywifequitherjob", "tag": "TOPIC INSPIRATION", "why": "for which platform shift matters this week \u2014 their Amazon read ran 64\u00d7 the channel's own normal. Take the wave, never the generality."}, {"who": "Chase Chappell", "tag": "TOPIC INSPIRATION", "why": "for the new-tool waves worth granting before you name what they can't decide (Claude \u00d7 Meta ads, 21.8\u00d7)."}, {"who": "Sabri Suby", "tag": "CRAFT ONLY", "why": "for the compression promise \u2014 \u201cgive me 27 minutes\u2026\u201d, 14.1\u00d7 \u2014 the skeleton, never the everyone-audience."}], "reaim": "The re-aim rule, as a sentence: borrow the news-jack skeleton \u2014 then land it on the operating supplement founder by name in line one. Broad in audience, never broad in address.", "trap": "Two of the three winning platform-shift rows are one creator. That's a person winning, not a topic winning \u2014 source the shape, not the subject, or the channel drifts generic within a month.", "terms": ["DTC creative fatigue", "CAC rising ecommerce", "ecommerce ad testing"]}, {"ring": 5, "title": "Ring 5 \u00b7 The whole marketing internet", "gold": false, "rolechip": "CRAFT ONLY \u2014 never topics", "pillar": "The craft shelf. Nothing at this altitude is a topic for this channel; everything at this altitude is technique \u2014 and the board's best technique lives here, measured against each channel's own normal.", "bucket": "No bucket sources topics here. Every bucket borrows craft from here.", "make_label": "What to take \u2014 skeletons, receipted", "make": ["The compression promise: \u201cgive me N minutes, I'll teach you X\u201d (Sabri Suby, 14.1\u00d7)", "News-jack timing: publish inside the platform-shift window (64.2\u00d7 ceiling)", "The interview cut: story first, tactics as seasoning (foundr, 15.9\u00d7)"], "study": [{"who": "Alex Hormozi", "tag": "CRAFT ONLY", "why": "for parasocial authority mechanics and retention pacing; his topics serve everyone, which is exactly why they can't serve you."}, {"who": "Davie Fogarty", "tag": "CRAFT ONLY", "why": "for proof-by-building energy on camera; his audience is aspirants, not operators."}, {"who": "foundr", "tag": "CRAFT ONLY", "why": "for the interview cut rhythm, for the day a founder guest sits across from you."}], "trap": "Craft permission is not topic permission. Sourcing subjects here is the specific act that drifts a claim-safe strategist's channel into being another marketing channel \u2014 and drift starts as one \u201cbroader\u201d video.", "terms": ["viral hook breakdown", "video retention editing", "story structure for creators"]}];const ZONES=[{"short": "1 \u00b7 topic gold", "i": 0}, {"short": "2 \u00b7 topics: narrow buckets", "i": 1}, {"short": "3 \u00b7 topics: bench", "i": 2}, {"short": "4 \u00b7 topics: broad bucket, re-aimed", "i": 3}, {"short": "5 \u00b7 CRAFT ONLY", "i": 4}];const CHAOS={"idea": "PICKED \u00b7 I asked ChatGPT to build a supplement brand, and it built the same brand ten times", "teaches": "Whether demonstrating the sameness machine outperforms describing it", "tag": "Probes the open claim lane and the mis-fix critique at once"};
+
+const NS="http://www.w3.org/2000/svg";const CX=310,CY=310;const RADII=[62,118,174,230,286];
+const SHADES=["#16181d","#4a4f58","#7d828b","#b3b0a8","#fdfcfa"];
+const svg=document.getElementById('geo'),panel=document.getElementById('panel');
+function mk(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e}
+function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function row(l,t){const r=el('div','row');r.appendChild(el('b',null,l));r.appendChild(el('p',null,t));return r}
+function rowList(l,items){const r=el('div','row');r.appendChild(el('b',null,l));const u=el('ul');items.forEach(x=>u.appendChild(el('li',null,x)));r.appendChild(u);return r}
+const ringEls=[];
+function drawRings(clickable,withNumbers){
+ for(let i=4;i>=0;i--){
+  const c=mk('circle',{cx:CX,cy:CY,r:RADII[i],fill:SHADES[i],stroke:'#ddd8cf','stroke-width':1.5});
+  if(i===4)c.setAttribute('stroke-dasharray','6 4');
+  c.classList.add('ring');svg.appendChild(c);ringEls[i]=c;
+  if(clickable)c.addEventListener('click',()=>SHOW(i));
+ }
+ if(withNumbers){
+  ["1","2","3","4","5"].forEach((l,i)=>{
+   const t=mk('text',{x:CX,y:CY-(i===0?0:(RADII[i]-14)),'text-anchor':'middle','font-size':'13',fill:i<3?'#fdfcfa':'#16181d'});
+   t.textContent=l;t.style.pointerEvents='none';svg.appendChild(t);
+  });
+ }
+}
+function showRing(i){
+ ringEls.forEach((e,k)=>e.classList.toggle('dimmed',k!==i));
+ const r=RINGS[i];panel.replaceChildren();
+ panel.appendChild(el('h3',null,'Ring '+r.n+' \u00b7 '+r.label));
+ panel.appendChild(el('div','sub',r.constraint));
+ panel.appendChild(row('Audience',r.aud));
+ const sr=row('Relative size',r.size);sr.querySelector('p').appendChild(el('span','conf',r.size_chip));panel.appendChild(sr);
+ panel.appendChild(row('Converts \u2014 the next $ step',r.converts));
+ panel.appendChild(row('Competition, named and receipted',r.comp));
+ if(r.warn){panel.appendChild(el('div','warn',r.warn));}
+}
+function showBucket(i){
+ const b=BUCKETS[i];panel.replaceChildren();
+ [...document.querySelectorAll('.bcard')].forEach((e,j)=>e.classList.toggle('on',j===i));
+ ringEls.forEach((e,k)=>e.classList.toggle('dimmed',k!==(b.ring-1)));
+ panel.appendChild(el('h3',null,(b.pick?'\u2605 ':'')+b.name));
+ panel.appendChild(el('div','sub','alt name: '+b.alt+' \u00b7 Ring '+b.ring+' \u00b7 '+(b.pick?'PICK':'BENCH')));
+ panel.appendChild(row('Strategic job',b.job));
+ panel.appendChild(rowList('Example topics',b.topics.split(' \u00b7 ')));
+ panel.appendChild(row('Offer fed',b.offer));
+ panel.appendChild(row('Funnel role',b.role));
+ panel.appendChild(row('Lead value, basis stated',b.value));
+ panel.appendChild(row('\u201cWorking =\u201d \u2014 observable',b.working));
+ panel.appendChild(row('Kill/keep by batch 3',b.kill));
+}
+function showIntel(i){
+ ringEls.forEach((e,k)=>e.classList.toggle('dimmed',k!==i));
+ const s=RINGINTEL[i];panel.replaceChildren();
+ const h=el('h3',null,s.title);
+ if(s.gold){h.appendChild(el('span','goldchip','TOPIC GOLD'));}
+ panel.appendChild(h);
+ panel.appendChild(el('div','sub',s.rolechip));
+ panel.appendChild(row('The pillar at this ring',s.pillar));
+ panel.appendChild(row('Who sources here',s.bucket));
+ panel.appendChild(rowList(s.make_label,s.make));
+ const st=el('div','row');st.appendChild(el('b',null,'Who to study, and for what'));
+ const u=el('ul');
+ s.study.forEach(x=>{
+  const li=el('li');const w=el('span','who',x.who);li.appendChild(w);
+  const tc=el('span','tagchip'+(x.tag==='CRAFT ONLY'?' craft':''),x.tag);li.appendChild(tc);
+  li.appendChild(document.createElement('br'));
+  li.appendChild(el('span',null,x.why));u.appendChild(li);
+ });
+ st.appendChild(u);panel.appendChild(st);
+ if(s.reaim){panel.appendChild(el('div','reaim',s.reaim));}
+ panel.appendChild(row('The trap at this altitude',s.trap));
+ const tr=el('div','row');tr.appendChild(el('b',null,'Search terms \u2014 the quiet field'));
+ tr.appendChild(el('p','quiet',s.terms.join(' \u00b7 ')));panel.appendChild(tr);
+}
+
+
+const SHOW=showRing;drawRings(false,true);
+const spots=[{r:1,a:-1.1,n:'1-2',b:0},{r:1,a:-2.2,n:'3-4',b:1},{r:3,a:0.6,n:'5-6',b:2},{r:1,a:2.4,n:'7',b:-1}];
+spots.forEach(s=>{
+ const x=CX+((RADII[s.r]+(s.r?RADII[s.r-1]:0))/2)*Math.cos(s.a), y=CY+((RADII[s.r]+(s.r?RADII[s.r-1]:0))/2)*Math.sin(s.a);
+ const g=mk('circle',{cx:x,cy:y,r:13,fill:s.b<0?'#fdfcfa':'#3d5a80',stroke:'#fdfcfa','stroke-width':2});
+ g.style.cursor='pointer';
+ g.addEventListener('click',()=>{ if(s.b>=0){showBucket(s.b);} else {ringEls.forEach(e=>e.classList.remove('dimmed'));[...document.querySelectorAll('.bcard')].forEach(e=>e.classList.remove('on'));panel.replaceChildren();panel.appendChild(el('h3',null,'Slot 7 \u00b7 Chaos dart'));panel.appendChild(el('div','sub','one rogue slot per batch, pre-screened'));panel.appendChild(row('Picked for batch 1',CHAOS.idea));panel.appendChild(row('A win teaches you',CHAOS.teaches));panel.appendChild(row('What it probes',CHAOS.tag));}});
+ svg.appendChild(g);
+ const t=mk('text',{x:x,y:y+4,'text-anchor':'middle','font-size':'11',fill:s.b<0?'#16181d':'#fdfcfa'});
+ t.textContent=s.n;t.style.pointerEvents='none';svg.appendChild(t);
+});
+const rack=document.getElementById('rack');
+BUCKETS.forEach((b,i)=>{
+ const c=el('div','bcard');
+ const k=el('div','k');k.appendChild(el('span',null,'Ring '+b.ring+' \u00b7 '+b.role));k.appendChild(el('span',b.pick?'star':null,b.pick?'\u2605 PICK':'BENCH'));
+ c.appendChild(k);c.appendChild(el('div','t',b.name+' ('+b.alt+')'));
+ c.addEventListener('click',()=>showBucket(i));rack.appendChild(c);
+});
+showBucket(0);
+
+</script>
+</body>
+</html>

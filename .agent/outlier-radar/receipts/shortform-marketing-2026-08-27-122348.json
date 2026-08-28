@@ -1,0 +1,20 @@
+{
+  "run_id": "shortform-marketing-2026-08-27-122348",
+  "generated_at": "2026-08-27T19:24:42+00:00",
+  "niche_slug": "shortform-marketing",
+  "channels_attempted": 0,
+  "channels_fetched": 0,
+  "channels_skipped_ttl": 3,
+  "channels_failed": 0,
+  "videos_seen": 0,
+  "videos_new": 0,
+  "snapshots_added": 0,
+  "outliers_flagged": 10,
+  "transcripts_written": 0,
+  "yt_dlp_requests": 10,
+  "cost_usd": 0.0,
+  "status": "ok",
+  "pack_path": ".agent/outlier-radar/packs/shortform-marketing/latest.json",
+  "notes": [],
+  "errors": []
+}

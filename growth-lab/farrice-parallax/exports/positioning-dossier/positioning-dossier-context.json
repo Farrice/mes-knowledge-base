@@ -1,0 +1,57 @@
+{
+  "slug": "positioning-dossier",
+  "title": "who the buyer is, in his own words",
+  "compiled": "aug 27, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/positioning-dossier/positioning-dossier-brief.html",
+  "brief_md": "deliverables/research-briefs/positioning-dossier/positioning-dossier-brief.md",
+  "paths": [],
+  "urls": [
+    {
+      "url": "https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/",
+      "label": "r/ecommerce · 2025-10-31"
+    },
+    {
+      "url": "https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/",
+      "label": "r/dtc · 2026-04-03"
+    },
+    {
+      "url": "https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/",
+      "label": "r/PPC · 2026-05-24"
+    },
+    {
+      "url": "https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/",
+      "label": "r/growmybusiness · 2025-11-20"
+    },
+    {
+      "url": "https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/",
+      "label": "r/FacebookAds · 2026-02-17"
+    },
+    {
+      "url": "https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/",
+      "label": "r/ecommerce · 2026-03-03"
+    },
+    {
+      "url": "https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/",
+      "label": "r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern)"
+    },
+    {
+      "url": "https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/",
+      "label": "r/smallbusiness · 2026-02-18"
+    },
+    {
+      "url": "https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/",
+      "label": "r/AskMarketing · 2026-08-09"
+    },
+    {
+      "url": "https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/",
+      "label": "r/FacebookAds · 2025-07-11"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "format-playbook",
+  "title": "the vehicles, with the mechanism attached",
+  "compiled": "aug 27, 2026",
+  "generated_by": "execution/render_brief.py",
+  "path_policy": {
+    "canonical_field": "path",
+    "repo_scope": "resolve from the active Antigravity root, then canonical main for main-only media",
+    "absolute_field": "abs",
+    "absolute_semantics": "render-time hint only; never use as cross-worktree identity"
+  },
+  "brief_html": "deliverables/research-briefs/format-playbook/format-playbook-brief.html",
+  "brief_md": "deliverables/research-briefs/format-playbook/format-playbook-brief.md",
+  "paths": [],
+  "urls": [
+    {
+      "url": "https://www.youtube.com/watch?v=HsjuAvqs3zU",
+      "label": "@SabriSubyOfficial · transcript-verified beats"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CpIZPIbU0cU",
+      "label": "@mywifequitherjob"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CERZXt6lpxk",
+      "label": "@foundr"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8eHZqKtnymY",
+      "label": "@suplifulofficial · transcript"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6psqtXu4u88",
+      "label": "@commonthreadco / @MarketingOperators"
+    }
+  ]
+}

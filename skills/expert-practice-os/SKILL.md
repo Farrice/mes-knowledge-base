@@ -86,10 +86,9 @@ A valid run names one practice type, one achieved proof stage, one lane owner, o
 
 ## Execution Prompts (structure-pure v2)
 
-1 deterministic practitioner prompt. It carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches it, read the prompt and honor its contract instead of improvising the output shape.
+1 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
-- **Expert Practice OS: Routing Receipt** - `skills/expert-practice-os/references/prompts-v2/expert-practice-routing-receipt.md`
+- **Expert Practice OS — Routing Receipt** — `skills/expert-practice-os/references/prompts-v2/expert-practice-routing-receipt.md`
 
 <!-- END:execution-prompts -->
-
 Cold-state restrictions remain in force after prompt discovery.

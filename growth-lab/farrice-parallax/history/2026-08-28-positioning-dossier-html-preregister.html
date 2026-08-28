@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>who the buyer is, in his own words · Research Brief</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — report dialect (_active/farrice-brand/premium-minimal/) ──
+     Neutrals verbatim from package/tokens/design-tokens.json; steel accent + semantic hues per REPORT-DIALECT.md */
+  :root{
+    --ag-ink: oklch(18% 0 0);             /* #101010 ink */
+    --ag-paper: oklch(96% 0.003 107);     /* #F3F3F0 canvas — page ground */
+    --ag-surface: oklch(98% 0.002 107);   /* #FAFAF8 paper — lifted field / panels */
+    --ag-line: oklch(88% 0.005 107);      /* #D8D8D3 line — silver hairlines */
+    --ag-accent: oklch(46% 0.084 262);    /* ≈#3D5A94 steel blue — accent word, chips, CTA */
+    --ag-proof: oklch(48% 0.07 165);      /* muted proof green — VERIFIED */
+    --ag-risk: oklch(52% 0.10 25);        /* muted risk red — UNCONFIRMED */
+    --ag-focus: oklch(46% 0.084 262);     /* links + data bars — unified with accent */
+    --ag-ink-soft: oklch(44% 0.003 110);  /* #555553 graphite — body copy */
+    --ag-ink-mute: oklch(62% 0.012 110);  /* #8C8C82 stone — metadata */
+    --ag-paper-ink: oklch(97% 0.002 107); /* paper-toned text on ink surfaces */
+    --ag-line-ink: oklch(32% 0.003 110);  /* rules on ink surfaces */
+    --ag-accent-dark: oklch(72% 0.07 262);/* steel accent on ink surfaces */
+    --ag-mute-dark: oklch(68% 0.008 110); /* muted labels on ink surfaces */
+    --ag-soft-dark: oklch(77% 0.004 110); /* soft body text on ink surfaces */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Inter,system-ui,Arial,sans-serif;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif;
+    --mono:'JetBrains Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--ag-paper); color:var(--ag-ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--ag-paper);
+    border-bottom:1px solid var(--ag-line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ag-ink-soft); text-decoration:none; border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px }
+  .brief-nav a:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:6px }
+  .navtool{ font-family:var(--mono); font-size:9.5px; letter-spacing:.14em; text-transform:uppercase; cursor:pointer;
+    color:var(--ag-ink-soft); border:1px solid var(--ag-line); border-radius:99px; padding:4px 11px; user-select:none }
+  .navtool:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .navtool.cp{ color:var(--ag-accent); border-color:var(--ag-accent) }
+  .navtool.done{ color:var(--ag-proof); border-color:var(--ag-proof) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ag-ink); color:var(--ag-paper);
+    font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:9px 20px;
+    border-radius:99px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-accent); border:1px solid var(--ag-accent); border-radius:99px; padding:4px 12px }
+  .kicker{ font-family:var(--mono); font-size:10px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:500; display:block }
+  h1.display{ font-size:56px; line-height:1.02; letter-spacing:-.022em; font-weight:700; margin:20px 0 0; max-width:12ch }
+  h1.display em, h2.sec em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent) }
+  .dek{ font-size:16px; line-height:1.55; color:var(--ag-ink-soft); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--ag-ink-soft) }
+  strong{ color:var(--ag-ink); font-weight:600 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ag-ink); border-bottom:1px solid var(--ag-line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--ag-line); padding-left:14px }
+  .trust .k{ font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ag-ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--ag-line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  h2.sec{ font-size:27px; letter-spacing:-.015em; font-weight:700; flex:1 }
+  .sectag{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute);
+    border:1px solid var(--ag-line); border-radius:99px; padding:3px 9px; white-space:nowrap }
+
+  .panel{ background:var(--ag-surface); border-radius:6px; padding:18px 20px; margin-top:8px }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:16px 0; border-bottom:1px solid var(--ag-line); align-items:start }
+  .ev .mark{ width:20px; height:20px; border-radius:4px; background:var(--ag-proof); color:var(--ag-paper);
+    display:flex; align-items:center; justify-content:center; font-size:11px; margin-top:2px }
+  .ev h3{ font-size:15px; font-weight:600; letter-spacing:-.005em; line-height:1.35 }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:10px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ag-focus); text-decoration:none }
+  .srcref:hover{ text-decoration:underline }
+  .conf{ font-family:var(--mono); font-size:8px; letter-spacing:.14em; border-radius:3px; padding:2px 7px; font-weight:700 }
+  .conf.verified{ color:var(--ag-proof); border:1px solid var(--ag-proof) }
+  .conf.likely{ color:var(--ag-accent); border:1px solid var(--ag-accent) }
+  .conf.unconfirmed{ color:var(--ag-risk); border:1px solid var(--ag-risk) }
+
+  /* decision layer — the one inverted section */
+  .decision{ background:var(--ag-ink); color:var(--ag-paper-ink); border-radius:8px; padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--ag-mute-dark) }
+  .decision h2{ font-size:34px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--ag-paper-ink) }
+  .decision h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-accent-dark) }
+  .decision .dek{ color:var(--ag-soft-dark); font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--ag-line-ink); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent-dark); min-width:22px; margin-top:1px }
+  .dec-item h3{ font-size:16px; font-weight:600; color:var(--ag-paper-ink); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--ag-soft-dark); margin-top:4px }
+
+  /* bars — same-scale small multiples */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--ag-surface); border-radius:6px; padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:600 }
+  .bars-card .note{ font-size:11.5px; color:var(--ag-ink-mute); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ag-focus); border-radius:2px 2px 0 0; min-height:2px }
+  .bars-caption{ font-family:var(--mono); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--ag-line) }
+  .hbar-label{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--ag-ink-mute); margin-top:1px }
+  .hbar-track{ height:14px; background:var(--ag-paper); border-radius:3px; overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ag-focus); border-radius:3px 0 0 3px }
+  .hbar-track i.zero{ background:var(--ag-risk); opacity:.55 }
+  .hbar-val{ font-family:var(--mono); font-size:11px; color:var(--ag-ink-soft); text-align:right; font-weight:700 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks */
+  .deploy{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--ag-surface); padding:8px 14px }
+  .deploy .bar .k{ font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-soft); font-weight:700 }
+  .copybtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-line); border-radius:4px; padding:4px 10px; color:var(--ag-ink-soft) }
+  .copybtn:hover{ border-color:var(--ag-accent); color:var(--ag-accent) }
+  .copybtn.done{ border-color:var(--ag-proof); color:var(--ag-proof) }
+  .livebtn{ font-family:var(--mono); font-size:9px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer;
+    background:none; border:1px solid var(--ag-accent); border-radius:4px; padding:3px 10px; color:var(--ag-accent); margin-right:6px }
+  .livebtn:hover{ background:var(--ag-accent); color:var(--ag-surface) }
+  .livebtn[data-action="kill"]{ border-color:var(--ag-risk); color:var(--ag-risk) }
+  .livebtn[data-action="kill"]:hover{ background:var(--ag-risk); color:var(--ag-surface) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink);
+    white-space:pre-wrap; word-break:break-word }
+
+  /* caveats */
+  .caveats h2{ font-size:27px; font-weight:700; letter-spacing:-.015em }
+  .caveats h2 em{ font-family:var(--serif); font-style:italic; font-weight:400; color:var(--ag-risk) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-family:var(--mono); font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ag-paper); background:var(--ag-accent); border-radius:99px; padding:10px 20px; text-decoration:none; font-weight:700 }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); padding:0 10px 8px 0; border-bottom:1px solid var(--ag-ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--ag-ink-soft); padding:9px 10px 9px 0; border-bottom:1px solid var(--ag-line); vertical-align:top }
+  .ledger td a{ color:var(--ag-focus); text-decoration:none; word-break:break-all }
+  .ledger td a:hover{ text-decoration:underline }
+
+  /* playbook — numbered plays with command + touches + receipt */
+  .play{ border:1px solid var(--ag-line); border-radius:6px; margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--ag-surface); padding:9px 14px }
+  .play .head .n{ font-family:var(--serif); font-style:italic; font-size:15px; color:var(--ag-accent) }
+  .play .head h3{ font-size:13.5px; font-weight:600; flex:1; line-height:1.3 }
+  .play .body{ padding:12px 14px 14px }
+  .play .intent{ font-size:12px; color:var(--ag-ink-soft); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ag-ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:4px; padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-family:var(--mono); font-size:9.5px; letter-spacing:.04em; color:var(--ag-focus); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--ag-ink-soft) }
+  .play .receipt b{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ag-ink-mute); font-weight:700; margin-right:8px }
+
+  /* asset rail — linked assets with copy-path */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--ag-line); border-radius:6px; background:var(--ag-surface); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .asset h3{ font-size:13px; font-weight:600; line-height:1.35 }
+  .asset img{ max-width:100%; border-radius:4px; border:1px solid var(--ag-line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-family:var(--mono); font-size:9px; color:var(--ag-focus); word-break:break-all; flex:1 }
+
+  /* timeline — dated milestones */
+  .timeline{ margin-top:14px; border-left:2px solid var(--ag-line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px; border-radius:50%;
+    background:var(--ag-paper); border:2px solid var(--ag-accent) }
+  .tl-item.done::before{ background:var(--ag-accent) }
+  .tl-item .date{ font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:600; line-height:1.35 }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step arrows */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-family:var(--serif); font-style:italic; font-size:13px; color:var(--ag-accent); display:block; margin-bottom:3px }
+  .flow .step h3{ font-size:12.5px; font-weight:600; line-height:1.3 }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--ag-ink-soft) }
+  .flow .arrow{ align-self:center; color:var(--ag-ink-mute); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ag-ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ag-ink) }
+  .stat .num small{ font-size:14px; font-weight:600; color:var(--ag-ink-mute) }
+  .stat .lab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--ag-ink-soft); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple sparklines. Data in accent steel; nothing else colored. */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--ag-surface); border:1px solid var(--ag-line); border-radius:6px; padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute) }
+  .sparknote{ font-size:10px; color:var(--ag-ink-mute); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ag-focus); opacity:.10; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ag-focus); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--ag-accent); stroke-width:1; opacity:.45 }
+  .sparkbase{ stroke:var(--ag-line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ag-ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:600; color:var(--ag-ink-mute); letter-spacing:0 }
+
+  /* progress — segmented stage bar */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; border-radius:2px; background:var(--ag-line) }
+  .ptrack .pseg.done{ background:var(--ag-focus) }
+  .ptrack .pseg.current{ background:var(--ag-focus); opacity:.45 }
+  .ptrack .pseg.blocked{ background:var(--ag-risk); opacity:.65 }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-family:var(--mono); font-size:8px; letter-spacing:.13em; text-transform:uppercase;
+         color:var(--ag-ink-mute); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--ag-ink-soft) }
+  .plab.current{ color:var(--ag-accent); font-weight:600 }
+  .plab.blocked{ color:var(--ag-risk) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--ag-accent); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none; color:var(--ag-ink-mute); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--ag-line); border:1px solid var(--ag-line);
+    border-radius:6px; overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--ag-surface); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ag-ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--ag-ink-mute) }
+
+  /* related — swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--ag-line); border-radius:6px; padding:9px 13px; text-decoration:none; background:var(--ag-surface); max-width:100% }
+  .swing a .k{ font-family:var(--mono); font-size:8px; letter-spacing:.16em; text-transform:uppercase; color:var(--ag-ink-mute); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:600; color:var(--ag-ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ag-accent) }
+  .swing a:hover .t{ color:var(--ag-accent) }
+
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ag-ink); padding-top:12px; display:flex; justify-content:space-between;
+    font-family:var(--mono); font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:var(--ag-ink-mute) }
+
+  @media (max-width:640px){
+    h1.display{ font-size:38px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--ag-line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    .brief-nav{ position:static }
+    .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-single-truth">the single truth</a><a href="#the-chair-test-portrait">the chair test portrait</a><a href="#the-pain-bank-verbatim">the pain bank, verbatim</a><a href="#what-this-dossier-settles">what this dossier settles</a><a href="#what-this-isn-t">what this isn&#x27;t</a><a href="#source-ledger">sources</a><a href="#context-pack">context pack</a><style data-surface-nav-style="1">.homenav{margin-left:auto;display:flex;gap:6px;align-items:center;flex-wrap:wrap}.homenav a,.homenav .here{font-family:"SF Mono",Menlo,monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid rgba(127,127,127,.35);border-radius:99px;padding:4px 11px;color:inherit;opacity:.75}.homenav a:hover{opacity:1;border-color:currentColor}.homenav .here{opacity:.45;border-style:dashed}</style><span class="homenav" data-surface-nav="1"><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/homebase/homebase.html" data-route="/">🏠 homebase ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/brain/brain.html" data-route="/brain">🧠 brain ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/catalog/library.html" data-route="/library">🏛 library ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/deliverables/research-briefs/index.html" data-route="/room">📋 briefing room ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/assets/assets-board.html" data-route="/assets">🎨 asset board ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/oracle/oracle-dashboard.html" data-route="/oracle">🔮 oracle ↗</a><a href="file:///Users/farricecain/Google%20Antigravity/.claude/worktrees/kallaway-sandcastles-forge/.agent/mdview/index.html" data-route="/repo/.agent/mdview/index.html">📄 docs ↗</a></span><script data-surface-nav-live="1">if(location.protocol.indexOf('http')===0){document.querySelectorAll('.homenav a[data-route]').forEach(function(a){a.href=a.dataset.route;});}</script><span class="navtools"><span class="navtool" data-act="path" title="copy the .md path — for Codex / Claude Code / any tool with file access">path</span><span class="navtool cp" data-act="brief" title="copy the full brief inline — paste into any AI chat">copy brief</span></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">GROWTH BLUEPRINT · POSITIONING DOSSIER</span>
+    <h1 class="display">who the <em>buyer</em> is, in his own words</h1>
+    <p class="dek">Identity-layer positioning dossier for the Farrice Cain engagement: the Formulator-Founder avatar, the belief system that blocks the sale, and a pain bank of fifteen exact buyer verbatims pulled live from the forums where this buyer talks. Every claim labeled. Evidence current as of Aug 27, 2026.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">mined 2026-08-27</span></div>
+      <div><span class="k">Lens</span><span class="v">positioning · audience · offer wiring</span></div>
+      <div><span class="k">Sources</span><span class="v">9 forum threads + founder interview + 12-channel competitive scan</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 27, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-single-truth"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the single truth</h2></div><span class="kicker" style="margin-bottom:8px">WHAT THE EVIDENCE SAYS</span><div class="panel"><p>The buyer is a founder-formulator (33-50) at an already-selling supplement or performance brand under $15M, with a dated launch occasion inside 60-90 days. He believes his copy problem is a writing and volume problem. The mined threads show what he does about that belief: he buys mechanisms - quiz funnels, CAPI hygiene, agency ad accounts, AI media buyers - and in seven out of seven threads, nobody in his feed tells him the real problem is an unmade decision about what the brand proves, to whom, with what defensible claim. That silence is the positioning opening. The offer ladder ($750 Angle Map, $2,500 Proof-to-Market Sprint) is wired to exactly that gap.</p></div></section><section class="blk" id="the-chair-test-portrait"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the chair test portrait</h2></div><p>He is the credentialed face of the brand, built because he needed the product himself. Total decision authority, near-zero time: he&#x27;d rather be in the lab or the gym than on LinkedIn. He spends his own runway against a launch clock.</p><p>What he has already tried has a specific failure signature: scaled ChatGPT content with volume and zero edge, 8-12 AI tools that never replaced the thinking, creative testing that was the same ad fifteen times, agency ROAS he distrusts, rankings that stayed flat while clicks vanished.</p><p>His midnight fear, from the research: I&#x27;m the most knowledgeable person in this category and I&#x27;m invisible - and some kid with half my expertise and twice the posting cadence is becoming the name people associate with this. His identity: I&#x27;m the real one, I earned this the hard way. Visibility feels like joining the influencers he built the brand against. Content that flatters visibility loses him. Content that arms credibility recruits him.</p></section><section class="blk" id="the-pain-bank-verbatim"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the pain bank, verbatim</h2><span class="sectag">FIFTEEN EXACT RECEIPTS</span></div><div class="ev"><span class="mark">✓</span><div><h3>Creative fatigue + founder time poverty (confirms seed pain #7)</h3><p>&quot;facebook ads work for maybe 10-14 days then performance drops off a cliff. I know it&#x27;s creative fatigue, I know I need new ad concepts, but... I don&#x27;t have time to endlessly scroll looking for ideas.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/" target="_blank" rel="noopener">r/ecommerce · 2025-10-31 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Mis-diagnosis reflex: more ads, not a message decision (confirms seed #5)</h3><p>&quot;CAC goes up, creatives stop hitting the same, growth plateaus / and the first instinct is always that we need new ads or we need to scale harder&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/" target="_blank" rel="noopener">r/dtc · 2026-04-03 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Paid-acquisition burn without a settled message (confirms seed #5)</h3><p>&quot;Six months in looking for customers cold on Meta we&#x27;ve burned through about 30k and gotten only 56 orders.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">r/PPC · 2026-05-24 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Testing that teaches nothing (confirms the &#x27;same ad 15 times&#x27; seed)</h3><p>&quot;I guess i&#x27;m ok to be paying to learn how to do this, but in the last 30 days I can&#x27;t tell you what I know now that I didn&#x27;t know a month ago.&quot; Same founder: &quot;140 unique ads across 31 ad sets in 90 days.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">r/PPC · 2026-05-24 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Sea of sameness, named from inside the category (confirms seed #1)</h3><p>&quot;most brands look crowded because they&#x27;re all selling the exact same formulas with the exact same marketing.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/" target="_blank" rel="noopener">r/growmybusiness · 2025-11-20 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Compliance fear shapes every ad decision (confirms seed #3)</h3><p>&quot;My ads are FDA compliant, but what can I do to not be flagged a health?&quot; ... &quot;I want to make sure I&#x27;m not getting throttled just because I sell supplements.&quot; Practitioner in-thread: an ad &quot;got disapproved for supposedly promoting drugs.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/" target="_blank" rel="noopener">r/FacebookAds · 2026-02-17 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>AI answer engines name competitors, not them (confirms seed #8)</h3><p>&quot;AI keeps recommending my competitors but not us - how to fix this?&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/" target="_blank" rel="noopener">r/ecommerce · 2026-03-03 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Founder fog: bland mistaken for professional (confirms seed #2)</h3><p>&quot;I thought we were being &#x27;professional.&#x27; I thought bland was safe. I thought sounding like everyone else meant we were doing it right.&quot; And the buyer&#x27;s verdict, reported: &quot;I honestly can&#x27;t remember what makes you different from the other three tools I looked at.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/" target="_blank" rel="noopener">r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern) ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Visibility stall below the ICP floor (partial match, seed #9)</h3><p>&quot;Where I feel stuck is distribution and visibility.&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/" target="_blank" rel="noopener">r/smallbusiness · 2026-02-18 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Ban fatalism normalized in the category</h3><p>&quot;Avoiding a ban is nearly impossible; that&#x27;s the truth.&quot; (search-index pull; not page-verified this run)</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/" target="_blank" rel="noopener">r/FacebookAds · 2026-08-02 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The launch triple bind, stated as one question (added Aug 27, thread 18 days old)</h3><p>&quot;How do you take a genuinely differentiated supplement product and get the first 100-1,000 customers without: burning money on Meta ads / becoming another influencer/discount-code brand / making the same generic &#x27;5 foods for healthy joints&#x27; content everyone else is making?&quot;</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">r/AskMarketing · 2026-08-09 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Founder-led content doubt: already doing the prescribed fix, losing faith before launch</h3><p>&quot;I&#x27;ve started founder-led educational content, but it seems like it won&#x27;t work.&quot; Same clinically-dosed joint-health founder, same post</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">r/AskMarketing · 2026-08-09 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The message-problem-priced-as-media-problem thesis, in a founder&#x27;s own conclusion (speaker pre-scale, noted honestly)</h3><p>&quot;Trust and conveying the benefits of our product is something we need to work on, it seems like. That is the common theme amongst all of the feedback we have got.&quot; After $2K+ in ad spend bought 4 orders</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/" target="_blank" rel="noopener">r/FacebookAds · 2025-07-11 ↗</a></div></div></div></section><section class="decision" id="what-this-dossier-settles"><span class="kicker">THE POSITIONING CALLS</span><h2>what this dossier <em>settles</em></h2><p class="dek">Decisions the downstream artifacts inherit.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>Center the buyer, not the viewer</h3><p>The niche&#x27;s channels reach founders AND marketers/aspirants who never buy a $2,500 sprint; the paying center is the founder with a dated occasion inside 60-90 days</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>Meet the belief, never argue with it</h3><p>Seven of seven mined threads show the buyer being sold mechanisms; the content lane opens by naming the mis-fix marketplace, not by debating it</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>Authority statement stays the live one</h3><p>&quot;Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement &amp; performance brands&quot; - ratified and live; Bridge Message and gap statement stay on the bench</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Register: arm credibility, never flatter visibility</h3><p>His identity claim - &#x27;I&#x27;m the real one&#x27; - means visibility-flavored content repels the exact buyer it targets</p></div></div></div></section><section class="blk caveats" id="what-this-isn-t"><span class="kicker" style="margin-bottom:10px">GAPS, NAMED</span><h2>what this <em>isn&#x27;t</em></h2><p>No real close-rate data exists yet (0 sent, 0 sold on this ladder): every downstream lead value is list price times an assumed close rate and says so. Consumer-side verbatims (the supplement end-buyer) were not mined this run. LinkedIn-native pain language is outside this scan&#x27;s coverage (YouTube measured; TikTok and Instagram: not measured). Seed pains #4, #6, #9, #10 stand as operator claims, not wild-confirmed.</p></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">06</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Frozen interview inputs</td><td>—</td><td>2026-08-27</td><td>business facts, avatar, identity layer, authority statements</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>r/PPC thread (DTC supplement, $30K burn)</td><td><a href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/</a></td><td>2026-08-27</td><td>pain bank #3-5</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>r/FacebookAds thread (post-Andromeda compliance)</td><td><a href="https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/" target="_blank" rel="noopener">https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/</a></td><td>2026-08-27</td><td>pain bank #7-8</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>r/ecommerce, r/growmybusiness, r/dtc, r/smallbusiness, r/startupcontentlab threads</td><td><a href="https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/" target="_blank" rel="noopener">https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/</a></td><td>2026-08-27</td><td>pain bank #1, #2, #6, #9-12</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>Competitive channel scan, 12 channels / 50 ranked videos</td><td>—</td><td>2026-08-27</td><td>secondary language source; evidence-currency declaration</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>Second-pass buyer-language mining (web search + direct page pulls), Aug 27</td><td><a href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/</a></td><td>2026-08-27</td><td>pain bank rows 13-15: the launch triple bind, founder-led content doubt, trust-not-media conclusion</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section><section class="blk" id="context-pack"><div class="sechead"><span class="secnum">07</span><h2 class="sec">context pack</h2><span class="sectag">AGENT FEED</span></div><p>every document and source this brief stands on — feed the block below (or the <span style="font-family:var(--mono);font-size:12px">-context.json</span> beside this file) to any agent and it has the full grounding instantly. For repo-scoped files, <strong>path</strong> is canonical and resolves from the active Antigravity root; <strong>abs</strong> is only a render-time hint.</p><table class="ledger" style="margin-top:14px"><thead><tr><th>#</th><th>Path / URL</th><th>Role</th></tr></thead><tbody><tr><td>01</td><td><a href="https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/" target="_blank" rel="noopener">https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/</a></td><td>r/ecommerce · 2025-10-31</td></tr><tr><td>02</td><td><a href="https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/" target="_blank" rel="noopener">https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/</a></td><td>r/dtc · 2026-04-03</td></tr><tr><td>03</td><td><a href="https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/" target="_blank" rel="noopener">https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/</a></td><td>r/PPC · 2026-05-24</td></tr><tr><td>04</td><td><a href="https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/" target="_blank" rel="noopener">https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/</a></td><td>r/growmybusiness · 2025-11-20</td></tr><tr><td>05</td><td><a href="https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/" target="_blank" rel="noopener">https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/</a></td><td>r/FacebookAds · 2026-02-17</td></tr><tr><td>06</td><td><a href="https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/" target="_blank" rel="noopener">https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/</a></td><td>r/ecommerce · 2026-03-03</td></tr><tr><td>07</td><td><a href="https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/" target="_blank" rel="noopener">https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/</a></td><td>r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern)</td></tr><tr><td>08</td><td><a href="https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/" target="_blank" rel="noopener">https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/</a></td><td>r/smallbusiness · 2026-02-18</td></tr><tr><td>09</td><td><a href="https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/" target="_blank" rel="noopener">https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/</a></td><td>r/FacebookAds · 2026-08-02</td></tr><tr><td>10</td><td><a href="https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/" target="_blank" rel="noopener">https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/</a></td><td>r/AskMarketing · 2026-08-09</td></tr><tr><td>11</td><td><a href="https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/" target="_blank" rel="noopener">https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/</a></td><td>r/FacebookAds · 2025-07-11</td></tr></tbody></table><div class="deploy"><div class="bar"><span class="k">agent context pack · json</span><button class="copybtn" type="button">copy</button></div><pre>{
+  &quot;slug&quot;: &quot;positioning-dossier&quot;,
+  &quot;title&quot;: &quot;who the buyer is, in his own words&quot;,
+  &quot;compiled&quot;: &quot;aug 27, 2026&quot;,
+  &quot;generated_by&quot;: &quot;execution/render_brief.py&quot;,
+  &quot;path_policy&quot;: {
+    &quot;canonical_field&quot;: &quot;path&quot;,
+    &quot;repo_scope&quot;: &quot;resolve from the active Antigravity root, then canonical main for main-only media&quot;,
+    &quot;absolute_field&quot;: &quot;abs&quot;,
+    &quot;absolute_semantics&quot;: &quot;render-time hint only; never use as cross-worktree identity&quot;
+  },
+  &quot;brief_html&quot;: &quot;deliverables/research-briefs/positioning-dossier/positioning-dossier-brief.html&quot;,
+  &quot;brief_md&quot;: &quot;deliverables/research-briefs/positioning-dossier/positioning-dossier-brief.md&quot;,
+  &quot;paths&quot;: [],
+  &quot;urls&quot;: [
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/&quot;,
+      &quot;label&quot;: &quot;r/ecommerce · 2025-10-31&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/&quot;,
+      &quot;label&quot;: &quot;r/dtc · 2026-04-03&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/&quot;,
+      &quot;label&quot;: &quot;r/PPC · 2026-05-24&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/&quot;,
+      &quot;label&quot;: &quot;r/growmybusiness · 2025-11-20&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/&quot;,
+      &quot;label&quot;: &quot;r/FacebookAds · 2026-02-17&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/&quot;,
+      &quot;label&quot;: &quot;r/ecommerce · 2026-03-03&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/&quot;,
+      &quot;label&quot;: &quot;r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern)&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/&quot;,
+      &quot;label&quot;: &quot;r/smallbusiness · 2026-02-18&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/&quot;,
+      &quot;label&quot;: &quot;r/FacebookAds · 2026-08-02&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/&quot;,
+      &quot;label&quot;: &quot;r/AskMarketing · 2026-08-09&quot;
+    },
+    {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/&quot;,
+      &quot;label&quot;: &quot;r/FacebookAds · 2025-07-11&quot;
+    }
+  ]
+}</pre></div></section>
+
+  <footer class="brief">
+    <span>GROWTH BLUEPRINT</span>
+    <span>farrice-parallax</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+<script id="pagepack" type="application/json">{"path": "growth-lab/farrice-parallax/exports/positioning-dossier/positioning-dossier-brief.md", "brief": "SOURCE: growth-lab/farrice-parallax/exports/positioning-dossier/positioning-dossier-brief.md  (research brief · Antigravity)\nHTML: growth-lab/farrice-parallax/exports/positioning-dossier/positioning-dossier-brief.html\nCONTEXT PACK: growth-lab/farrice-parallax/exports/positioning-dossier/positioning-dossier-context.json\nCOMPILED: aug 27, 2026\n\n# who the buyer is, in his own words\n\n> GROWTH BLUEPRINT · POSITIONING DOSSIER · window: mined 2026-08-27 · lens: positioning · audience · offer wiring · sources: 9 forum threads + founder interview + 12-channel competitive scan · compiled: aug 27, 2026\n\nIdentity-layer positioning dossier for the Farrice Cain engagement: the Formulator-Founder avatar, the belief system that blocks the sale, and a pain bank of fifteen exact buyer verbatims pulled live from the forums where this buyer talks. Every claim labeled. Evidence current as of Aug 27, 2026.\n\n## the single truth\n_WHAT THE EVIDENCE SAYS_\nThe buyer is a founder-formulator (33-50) at an already-selling supplement or performance brand under $15M, with a dated launch occasion inside 60-90 days. He believes his copy problem is a writing and volume problem. The mined threads show what he does about that belief: he buys mechanisms - quiz funnels, CAPI hygiene, agency ad accounts, AI media buyers - and in seven out of seven threads, nobody in his feed tells him the real problem is an unmade decision about what the brand proves, to whom, with what defensible claim. That silence is the positioning opening. The offer ladder ($750 Angle Map, $2,500 Proof-to-Market Sprint) is wired to exactly that gap.\n\n## the chair test portrait\nHe is the credentialed face of the brand, built because he needed the product himself. Total decision authority, near-zero time: he'd rather be in the lab or the gym than on LinkedIn. He spends his own runway against a launch clock.\n\nWhat he has already tried has a specific failure signature: scaled ChatGPT content with volume and zero edge, 8-12 AI tools that never replaced the thinking, creative testing that was the same ad fifteen times, agency ROAS he distrusts, rankings that stayed flat while clicks vanished.\n\nHis midnight fear, from the research: I'm the most knowledgeable person in this category and I'm invisible - and some kid with half my expertise and twice the posting cadence is becoming the name people associate with this. His identity: I'm the real one, I earned this the hard way. Visibility feels like joining the influencers he built the brand against. Content that flatters visibility loses him. Content that arms credibility recruits him.\n\n## the pain bank, verbatim\n- **Creative fatigue + founder time poverty (confirms seed pain #7)** [VERIFIED] — \"facebook ads work for maybe 10-14 days then performance drops off a cliff. I know it's creative fatigue, I know I need new ad concepts, but... I don't have time to endlessly scroll looking for ideas.\" (https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/)\n- **Mis-diagnosis reflex: more ads, not a message decision (confirms seed #5)** [VERIFIED] — \"CAC goes up, creatives stop hitting the same, growth plateaus / and the first instinct is always that we need new ads or we need to scale harder\" (https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/)\n- **Paid-acquisition burn without a settled message (confirms seed #5)** [VERIFIED] — \"Six months in looking for customers cold on Meta we've burned through about 30k and gotten only 56 orders.\" (https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/)\n- **Testing that teaches nothing (confirms the 'same ad 15 times' seed)** [VERIFIED] — \"I guess i'm ok to be paying to learn how to do this, but in the last 30 days I can't tell you what I know now that I didn't know a month ago.\" Same founder: \"140 unique ads across 31 ad sets in 90 days.\" (https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/)\n- **Sea of sameness, named from inside the category (confirms seed #1)** [VERIFIED] — \"most brands look crowded because they're all selling the exact same formulas with the exact same marketing.\" (https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/)\n- **Compliance fear shapes every ad decision (confirms seed #3)** [VERIFIED] — \"My ads are FDA compliant, but what can I do to not be flagged a health?\" ... \"I want to make sure I'm not getting throttled just because I sell supplements.\" Practitioner in-thread: an ad \"got disapproved for supposedly promoting drugs.\" (https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/)\n- **AI answer engines name competitors, not them (confirms seed #8)** [VERIFIED] — \"AI keeps recommending my competitors but not us - how to fix this?\" (https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/)\n- **Founder fog: bland mistaken for professional (confirms seed #2)** [VERIFIED] — \"I thought we were being 'professional.' I thought bland was safe. I thought sounding like everyone else meant we were doing it right.\" And the buyer's verdict, reported: \"I honestly can't remember what makes you different from the other three tools I looked at.\" (https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/)\n- **Visibility stall below the ICP floor (partial match, seed #9)** [VERIFIED] — \"Where I feel stuck is distribution and visibility.\" (https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/)\n- **Ban fatalism normalized in the category** [LIKELY] — \"Avoiding a ban is nearly impossible; that's the truth.\" (search-index pull; not page-verified this run) (https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/)\n- **The launch triple bind, stated as one question (added Aug 27, thread 18 days old)** [VERIFIED] — \"How do you take a genuinely differentiated supplement product and get the first 100-1,000 customers without: burning money on Meta ads / becoming another influencer/discount-code brand / making the same generic '5 foods for healthy joints' content everyone else is making?\" (https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/)\n- **Founder-led content doubt: already doing the prescribed fix, losing faith before launch** [VERIFIED] — \"I've started founder-led educational content, but it seems like it won't work.\" Same clinically-dosed joint-health founder, same post (https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/)\n- **The message-problem-priced-as-media-problem thesis, in a founder's own conclusion (speaker pre-scale, noted honestly)** [VERIFIED] — \"Trust and conveying the benefits of our product is something we need to work on, it seems like. That is the common theme amongst all of the feedback we have got.\" After $2K+ in ad spend bought 4 orders (https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/)\n\n## what this dossier settles\nDecisions the downstream artifacts inherit.\n1. **Center the buyer, not the viewer** — The niche's channels reach founders AND marketers/aspirants who never buy a $2,500 sprint; the paying center is the founder with a dated occasion inside 60-90 days\n2. **Meet the belief, never argue with it** — Seven of seven mined threads show the buyer being sold mechanisms; the content lane opens by naming the mis-fix marketplace, not by debating it\n3. **Authority statement stays the live one** — \"Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement & performance brands\" - ratified and live; Bridge Message and gap statement stay on the bench\n4. **Register: arm credibility, never flatter visibility** — His identity claim - 'I'm the real one' - means visibility-flavored content repels the exact buyer it targets\n\n## what this isn't\n_GAPS, NAMED_\nNo real close-rate data exists yet (0 sent, 0 sold on this ladder): every downstream lead value is list price times an assumed close rate and says so. Consumer-side verbatims (the supplement end-buyer) were not mined this run. LinkedIn-native pain language is outside this scan's coverage (YouTube measured; TikTok and Instagram: not measured). Seed pains #4, #6, #9, #10 stand as operator claims, not wild-confirmed.\n\n## Source ledger\n1. Frozen interview inputs (retrieved 2026-08-27, VERIFIED; used for: business facts, avatar, identity layer, authority statements)\n2. r/PPC thread (DTC supplement, $30K burn) — https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/ (retrieved 2026-08-27, VERIFIED; used for: pain bank #3-5)\n3. r/FacebookAds thread (post-Andromeda compliance) — https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/ (retrieved 2026-08-27, VERIFIED; used for: pain bank #7-8)\n4. r/ecommerce, r/growmybusiness, r/dtc, r/smallbusiness, r/startupcontentlab threads — https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/ (retrieved 2026-08-27, VERIFIED; used for: pain bank #1, #2, #6, #9-12)\n5. Competitive channel scan, 12 channels / 50 ranked videos (retrieved 2026-08-27, VERIFIED; used for: secondary language source; evidence-currency declaration)\n6. Second-pass buyer-language mining (web search + direct page pulls), Aug 27 — https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/ (retrieved 2026-08-27, VERIFIED; used for: pain bank rows 13-15: the launch triple bind, founder-led content doubt, trust-not-media conclusion)\n\n## Context pack (agent feed)\n- https://www.reddit.com/r/ecommerce/comments/1ol0h59/creative_fatigue_is_killing_my_ads_after_only_2/ — r/ecommerce · 2025-10-31\n- https://www.reddit.com/r/dtc/comments/1sb76hw/why_most_dtc_brands_hit_a_growth_plateau/ — r/dtc · 2026-04-03\n- https://www.reddit.com/r/PPC/comments/1tmduas/startup_dtc_supplement_and_at_home_test/ — r/PPC · 2026-05-24\n- https://www.reddit.com/r/growmybusiness/comments/1p2234c/how_do_you_actually_stand_out_as_a_supplement/ — r/growmybusiness · 2025-11-20\n- https://www.reddit.com/r/FacebookAds/comments/1r7mwdn/supplement_brand_on_meta_postandromeda_how_do_i/ — r/FacebookAds · 2026-02-17\n- https://www.reddit.com/r/ecommerce/comments/1rk5uu5/ai_keeps_recommending_my_competitors_but_not_us/ — r/ecommerce · 2026-03-03\n- https://www.reddit.com/r/startupcontentlab/comments/1qodkmk/how_to_find_your_brand_voice_when_everything/ — r/startupcontentlab · 2026-01-27 (adjacent category, same belief pattern)\n- https://www.reddit.com/r/smallbusiness/comments/1r7nxna/launched_my_first_supplement_brand_put_real_money/ — r/smallbusiness · 2026-02-18\n- https://www.reddit.com/r/FacebookAds/comments/1vd9e2b/any_peptide_brand_compliance_help_on_meta_ads/ — r/FacebookAds · 2026-08-02\n- https://www.reddit.com/r/AskMarketing/comments/1vjk0bj/built_a_sciencebacked_supplement_brand_product_is/ — r/AskMarketing · 2026-08-09\n- https://www.reddit.com/r/FacebookAds/comments/1lw584r/2k_on_fb_ads_for_my_supplement_brand_4_purchases/ — r/FacebookAds · 2025-07-11\n"}</script>
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        var msg = el.dataset.act === 'path' ? 'path copied' : 'full brief copied — paste into any ai';
+        function done(){ toast(msg); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+
+  /* ── live playbook actions (2026-08-20) ─────────────────────────
+     A play carrying data-action becomes a real write button when the page is
+     served by pulse_serve (same origin → POST /action works). On a static
+     file:// page it degrades to copying the play's CLI — writers-first
+     doctrine, same dual-mode contract as every board. */
+  document.querySelectorAll('.livebtn[data-action]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var live = location.protocol.indexOf('http') === 0;
+      var host = btn.closest('.play');
+      var pre = host && host.querySelector('pre');
+      if (!live){ if (pre) copyText(pre.textContent, btn); toast('static page — command copied'); return; }
+      if (btn.dataset.confirm && !confirm(btn.dataset.confirm)) return;
+      var args = { slug: btn.dataset.slug };
+      if (btn.dataset.ask){
+        var v = prompt(btn.dataset.ask);
+        if (v === null) return;
+        if (btn.dataset.action === 'done') args.outcome = v; else args.reason = v;
+      }
+      fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                        body: JSON.stringify({action: btn.dataset.action, args: args})})
+        .then(function(r){ return r.json(); })
+        .then(function(j){ toast(j.ok ? btn.dataset.action + ' — written to the ledger' : 'action failed — see server log'); })
+        .catch(function(){ if (pre) copyText(pre.textContent, btn); toast('server unreachable — command copied'); });
+    });
+  });
+
+  /* ── dual-mode links ─────────────────────────────────────────────
+     Every internal link on this page is an absolute file:// URI, because a
+     brief must work standalone (opened from Finder, mailed, published). A
+     browser refuses to load file: from an http: page, so served through
+     pulse_serve every one of them silently did nothing.
+
+     Served → rewrite to the ROOT-jailed /repo/ route so pages and images
+     resolve in-tab; anything the browser can't usefully display goes to the
+     server's OS opener (the pattern proven in pulse_dashboard.py).
+     file:// → untouched. Nothing here runs.                                */
+  var LIVE = location.protocol.indexOf('http') === 0;
+  var REPO_ROOT = "/Users/farricecain/Google Antigravity/.claude/worktrees/kallaway-sandcastles-forge";
+  if (LIVE && REPO_ROOT){
+    var PREFIX = 'file://' + encodeURI(REPO_ROOT).replace(/#/g, '%23') + '/';
+    var toRepo = function(uri){
+      if (!uri || uri.indexOf(PREFIX) !== 0) return null;
+      return '/repo/' + uri.slice(PREFIX.length);
+    };
+    // Images must be same-origin or they render as broken glyphs.
+    document.querySelectorAll('img[src^="file:"]').forEach(function(img){
+      var r = toRepo(img.getAttribute('src'));
+      if (r) img.setAttribute('src', r);
+    });
+    // In-browser types navigate; the rest hand off to the OS.
+    var INLINE = /\.(html?|md|txt|json|jsonl|png|jpe?g|gif|webp|svg|pdf|mp4|webm|mov|mp3|wav|m4a)$/i;
+    document.querySelectorAll('a[href^="file:"]').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        var href = a.getAttribute('href');
+        var repo = toRepo(href);
+        if (repo && INLINE.test(repo.split('?')[0])){
+          ev.preventDefault();
+          window.location = repo;
+          return;
+        }
+        ev.preventDefault();
+        fetch('/action', {method:'POST', headers:{'Content-Type':'application/json'},
+                          body: JSON.stringify({action:'open-path', args:{uri: href}})})
+          .then(function(r){ return r.json(); })
+          .then(function(j){ toast(j.ok ? 'opened' : 'open failed'); })
+          .catch(function(){ toast('open failed'); });
+      });
+    });
+  }
+})();
+</script>
+</body>
+</html>

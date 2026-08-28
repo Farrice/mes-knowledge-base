@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-08",
     "usage": {
-        "total_queries": 557,
-        "estimated_cost_usd": 11.14,
+        "total_queries": 558,
+        "estimated_cost_usd": 11.16,
         "queries": [
             {
                 "timestamp": "2026-08-01T13:45:08.792869+00:00",
@@ -4460,6 +4460,14 @@
                 "description": "hooks and mechanism-led proof in ads \u2014 latest developments from the past 14 days (as of 2026-08-25). Only include items published in the last two weeks; exclude 2025-or-older content and undated everg",
                 "task_context": "research-engine-psychology",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-08-27T20:46:01.513799+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "What changed in the last 30 days (late July to late August 2026) for supplement and performance/wellness brand marketing: Meta/Facebook ad platform changes affecting supplement advertisers, AI shoppin",
+                "task_context": "",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -4469,8 +4477,8 @@
     },
     "loop_detection": {
         "current_task_query_count": 1,
-        "current_task_name": "research-engine-psychology",
-        "last_query_timestamp": "2026-08-25T13:49:00.723455+00:00",
+        "current_task_name": "",
+        "last_query_timestamp": "2026-08-27T20:46:01.513799+00:00",
         "consecutive_low_info_queries": 0
     }
 }

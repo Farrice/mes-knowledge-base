@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positioning Wheel — Farrice Cain</title>
+<style>
+  :root{
+    --navy:#0F172A; --panel:#1E293B; --line:#334155;
+    --hot:#EF4444; --warm:#F59E0B; --open:#34D399; --nodata:#475569;
+    --text:#F1F5F9; --dim:#94A3B8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--navy);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:20px 14px 60px;max-width:760px;margin:0 auto}
+  h1{font-size:1.45rem;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:.85rem;margin-bottom:14px;line-height:1.5}
+  .warnbar{background:#7C2D12;border:1px solid #C2410C;border-radius:10px;padding:10px 14px;font-size:.8rem;line-height:1.5;margin-bottom:18px}
+  .warnbar b{color:#FDBA74}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.72rem;color:var(--dim);margin:10px 0 6px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+  #wheelwrap{position:relative;width:100%;max-width:520px;margin:0 auto}
+  svg{width:100%;height:auto;display:block}
+  .slice{cursor:pointer;transition:opacity .3s;opacity:0}
+  .slice.shown{opacity:1}
+  .slice:hover path.wedge{filter:brightness(1.25)}
+  .slice.active path.wedge{stroke:#F8FAFC;stroke-width:2.5}
+  .slabel{fill:#F1F5F9;font-size:11.5px;font-weight:600;pointer-events:none}
+  .scount{fill:#CBD5E1;font-size:9px;pointer-events:none}
+  .wstag{fill:#34D399;font-size:8.5px;font-weight:700;letter-spacing:.5px;pointer-events:none}
+  .ndtag{fill:#94A3B8;font-size:8.5px;font-weight:700;letter-spacing:.5px;pointer-events:none}
+  .youstar{fill:#FDE047;font-size:13px;font-weight:800;pointer-events:none}
+  .bubble{cursor:pointer;opacity:0;transition:opacity .35s, transform .35s}
+  .bubble.shown{opacity:1}
+  .bubble.hl circle{stroke:#FDE047;stroke-width:3}
+  .bubble text{fill:#0F172A;font-size:9px;font-weight:800;pointer-events:none}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:16px;display:none}
+  .panel.open{display:block}
+  .panel h2{font-size:1.05rem;margin-bottom:2px}
+  .pk{color:var(--dim);font-size:.72rem;text-transform:uppercase;letter-spacing:.8px;margin:14px 0 5px;font-weight:700}
+  .panel p{font-size:.85rem;line-height:1.55;color:#E2E8F0}
+  .verdict{display:inline-block;font-size:.62rem;font-weight:800;letter-spacing:.5px;padding:2px 7px;border-radius:99px;text-transform:uppercase}
+  .v-crowded{background:#7F1D1D;color:#FCA5A5}.v-contested{background:#78350F;color:#FCD34D}
+  .v-open{background:#064E3B;color:#6EE7B7}.v-nodata{background:#334155;color:#94A3B8}
+  .sbrow{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid #26334A;font-size:.8rem;flex-wrap:wrap}
+  .sbrow .opt{flex:1 1 150px;min-width:130px}
+  .sbrow .default{color:#FCD34D;font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+  .heatbar{flex:0 0 92px;height:9px;border-radius:5px;background:#26334A;overflow:hidden}
+  .heatbar i{display:block;height:100%;border-radius:5px}
+  .rowbubs{display:flex;gap:3px}
+  .rowbubs b{width:18px;height:18px;border-radius:50%;font-size:8px;font-weight:800;color:#0F172A;display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+  .cnt{color:var(--dim);font-size:.72rem;width:48px}
+  .menu-list{font-size:.85rem;color:#E2E8F0;line-height:1.7}
+  #card{position:fixed;inset:auto 0 0 0;background:#111C33;border-top:2px solid var(--line);border-radius:18px 18px 0 0;padding:18px 18px 26px;max-height:72vh;overflow-y:auto;transform:translateY(105%);transition:transform .3s;z-index:50;max-width:760px;margin:0 auto}
+  #card.open{transform:translateY(0)}
+  #card h3{font-size:1.05rem}
+  #card .close{position:absolute;top:12px;right:16px;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:4px 10px;cursor:pointer;font-size:.8rem}
+  .striprow{display:flex;align-items:center;gap:8px;font-size:.78rem;padding:5px 0;border-bottom:1px solid #26334A}
+  .striprow .sn{flex:0 0 128px;color:var(--dim)}
+  .lv{width:9px;height:9px;border-radius:50%;flex:0 0 9px;display:inline-block}
+  .lv-strong{background:#34D399}.lv-possible{background:#F59E0B}.lv-no{background:#EF4444}.lv-ned{background:#475569}
+  .spec{background:#1B2A45;border:1px dashed var(--line);border-radius:10px;padding:10px 12px;font-size:.8rem;color:var(--dim);margin:10px 0}
+  .hint{color:var(--dim);font-size:.75rem;text-align:center;margin-top:8px}
+  .gloss{color:var(--dim)}
+</style>
+</head>
+<body>
+  <h1>The Positioning Wheel — Farrice Cain</h1>
+  <div class="sub">Seven ways a creator can stand out (the seven slices below). Bubbles = the channels on your watchlist that are clearly strong on that slice. Green slices are your openings. Tap a slice to learn what it means and see the full scoreboard; tap a bubble to see exactly what that channel is doing.</div>
+  <div class="warnbar"><b>UNVALIDATED BY PERFORMANCE DATA.</b> The Sandcastles MCP isn't connected, so this wheel was built from your pasted competitor list + light web research only — 7 channels, no follower counts, no video analysis. Bubbles are uniform size (follower data unavailable) and three slices are dark because delivery, storytelling and visual style can't be read without a content archive. Connect the MCP at sandcastles.ai and re-run to light the whole wheel.</div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--hot)"></span>crowded — hard to stand out</span>
+    <span><span class="dot" style="background:var(--warm)"></span>contested — someone's there</span>
+    <span><span class="dot" style="background:var(--open)"></span>WHITE SPACE — open lane</span>
+    <span><span class="dot" style="background:var(--nodata)"></span>not enough data</span>
+    <span>⭐ = the lane we recommend you claim</span>
+  </div>
+  <div id="wheelwrap"><svg id="wheel" viewBox="0 0 520 520" aria-label="7-slice positioning wheel"></svg></div>
+  <div class="hint">Tap a slice for its plain-English breakdown · tap a channel bubble for its card</div>
+  <div id="panel" class="panel"></div>
+
+  <div id="card"><button class="close" onclick="closeCard()">✕ close</button><div id="cardbody"></div></div>
+
+<script>
+// All data below is static and authored in this file — nothing user-supplied is ever rendered.
+function setHTML(el, html){ el.replaceChildren(document.createRange().createContextualFragment(html)); }
+
+const CHANNELS = {
+  kg:{name:'KeyGrow', ini:'KG', color:'#F87171', what:'AI-visibility service for supplement brands ("Be the bottle AI assistants name first")'},
+  pn:{name:'Pennock', ini:'PE', color:'#FBBF24', what:'Health & wellness marketing agency; uses being cited by AI as its own proof'},
+  p95:{name:'95 Projects', ini:'95', color:'#A78BFA', what:'Generalist marketing retainer, $5K–$20K/mo'},
+  tb:{name:'Toni Bubb', ini:'TB', color:'#38BDF8', what:'Fractional wellness brand strategist, $7.5K–$12K/mo'},
+  ss:{name:'Sudhakar S.', ini:'SS', color:'#F472B6', what:'Health-wellness ghostwriter, $5K–$10K/mo'},
+  ds:{name:'David Sautter', ini:'DS', color:'#4ADE80', what:'NASM-certified fitness copywriter (Write Fit), zero GEO'},
+  je:{name:'Jenerise', ini:'JE', color:'#FB923C', what:'Operator who publicly named the vocab-sameness problem'}
+};
+const PLACE = {
+  kg:{topic:['strong','AI-search visibility','Owns the citation topic — without the claims layer.'],depth:['possible','Tactical how-to','Service-level GEO tactics.'],proof:['ned'],avatar:['strong','Supplement brands specifically','The only channel here named to your exact category.'],delivery:['ned'],story:['ned'],visual:['ned']},
+  pn:{topic:['strong','AI-search visibility','Sells AI citation as the promise.'],depth:['possible','Tactical how-to','Agency-level tactics.'],proof:['strong','Self-referential proof','They ARE cited by AI — the receipt is the pitch.'],avatar:['possible','Health & wellness broadly'],delivery:['ned'],story:['ned'],visual:['ned']},
+  p95:{topic:['no','Generalist spread','Everything for everyone — no topic edge.'],depth:['ned'],proof:['ned'],avatar:['no','Any-brand generalist'],delivery:['ned'],story:['ned'],visual:['ned']},
+  tb:{topic:['possible','Brand strategy / positioning','Wellness-wide strategy work.'],depth:['possible','Decision-level strategy','Strategy seat; credentials unknown.'],proof:['ned'],avatar:['possible','Health & wellness broadly'],delivery:['ned'],story:['ned'],visual:['ned']},
+  ss:{topic:['possible','Content & ghostwriting','Solves the message problem with volume.'],depth:['no','Writing craft','Craft, not claims or category science.'],proof:['ned'],avatar:['possible','Health & wellness broadly'],delivery:['ned'],story:['ned'],visual:['ned']},
+  ds:{topic:['possible','Content & ghostwriting','Fitness copywriting; zero GEO.'],depth:['possible','Credentialed practitioner depth','Has the NASM credential — applies it to copy, not decisions.'],proof:['possible','Credentials','NASM on the banner.'],avatar:['possible','Health & wellness broadly'],delivery:['ned'],story:['ned'],visual:['ned']},
+  je:{topic:['possible','Category culture critique','Named the sameness problem out loud.'],depth:['ned'],proof:['ned'],avatar:['ned'],delivery:['ned'],story:['ned'],visual:['ned']}
+};
+const SLICES = [
+ {id:'topic', label:'Topic selection', heat:'contested', color:'#B45309', you:true, countText:'2 of 7 strong here',
+  bubbles:['kg','pn'],
+  what:'Which subjects a channel makes content about — and, just as loudly, which it never touches. (Example: a fitness channel that only ever talks about knee pain — that\'s a topic selection.)',
+  menu:['AI-search visibility (getting named by ChatGPT-style assistants)','Brand strategy / positioning','Content & ghostwriting','Claim-substantiation & compliance (what you\'re legally/scientifically allowed to say)','The combined stack: positioning + approved proof + AI citation as ONE decision','Category culture critique'],
+  board:[{o:'AI-search visibility',c:['kg','pn'],v:'contested'},{o:'Brand strategy / positioning',c:['tb','p95'],v:'contested',d:true},{o:'Content & ghostwriting',c:['ss','ds'],v:'contested'},{o:'Claim-substantiation & compliance',c:[],v:'open'},{o:'The combined stack',c:[],v:'open'},{o:'Category culture critique',c:['je'],v:'contested'}],
+  ws:'Nobody makes claims-and-compliance content; nobody combines positioning + proof + citation into one decision.',
+  you_note:'Your strongest opening — it\'s pain #3 in your own buyer research and it\'s empty here. Honest caveat: with no performance data we can\'t rule out that it\'s empty because it\'s hard to make interesting. Your behind-the-counter stories are how it becomes interesting.'},
+ {id:'depth', label:'Substance depth', heat:'open', color:'#065F46', you:true, countText:'0 of 7 strong here',
+  bubbles:[],
+  what:'How deep the content actually goes: cheerleading ("you got this!"), tactical how-to (steps you can copy), or decision-level (what to decide and how to know).',
+  menu:['Surface motivation','Tactical how-to','Credentialed practitioner depth (a real practitioner\'s knowledge)','Decision-level strategy','Practitioner depth + decision-level combined'],
+  board:[{o:'Surface motivation',c:[],v:'open'},{o:'Tactical how-to',c:['kg','pn'],v:'contested',d:true},{o:'Credentialed practitioner depth',c:['ds'],v:'contested'},{o:'Decision-level strategy',c:['tb'],v:'contested'},{o:'Practitioner + decision combined',c:[],v:'open'}],
+  ws:'Depth that comes from actually training the buyer\'s customers for 18 years, pointed at what to SAY rather than how to write it — 0 of 7.',
+  you_note:'Confirmed lane. The risk isn\'t competition, it\'s translation: decision-level content still has to feel usable in 45 seconds.'},
+ {id:'proof', label:'Stories & proof', heat:'open', color:'#065F46', you:true, countText:'1 of 7 strong here',
+  bubbles:['pn'],
+  what:'The lived evidence a creator leans on so you believe them — results, scars, case studies, "I was there" stories.',
+  menu:['Client results / case studies','Self-referential proof (be your own receipt)','Credentials','Lived buyer-side stories'],
+  board:[{o:'Client results / case studies',c:[],v:'nodata'},{o:'Self-referential proof',c:['pn'],v:'contested'},{o:'Credentials',c:['ds'],v:'contested'},{o:'Lived buyer-side stories',c:[],v:'open'}],
+  ws:'Nobody talks from behind the supplement counter. Nobody was the magazine-era buyer first.',
+  you_note:'Your stories are uncopyable — but note Pennock\'s play: in a proof contest, a receipt beats a memoir. Build citation receipts of your own alongside the stories.'},
+ {id:'avatar', label:'Avatar specificity', heat:'contested', color:'#B45309', you:false, countText:'1 of 7 strong here',
+  bubbles:['kg'],
+  what:'Who the content is really for — "everyone in wellness" vs. one describable person. The narrower the address, the harder the right person stops scrolling. (Avatar = the exact person a channel speaks to.)',
+  menu:['Any-brand generalist','Health & wellness broadly','Supplement brands specifically','The founder at a dated launch moment (60–90 days out)'],
+  board:[{o:'Health & wellness broadly',c:['pn','tb','ss','ds'],v:'crowded',d:true},{o:'Any-brand generalist',c:['p95'],v:'contested'},{o:'Supplement brands specifically',c:['kg'],v:'contested'},{o:'Launch-moment founder',c:[],v:'open'}],
+  ws:'The founder with a launch on the calendar inside 90 days — 0 of 7 address him.',
+  you_note:'Contested at the category level — KeyGrow got to "supplement brands" first. Win by out-narrowing (the launch clock) and carrying the claims layer they don\'t.'},
+ {id:'delivery', label:'Delivery style', heat:'nodata', color:'#334155', you:false, countText:'no data',
+  bubbles:[],
+  what:'How it feels when they talk — casual friend, suit, professor, hype-machine, deadpan.',
+  menu:['Casual coach','Polished consultant','Hype energy','Deadpan analyst','Storyteller'],
+  board:[{o:'Casual coach',c:[],v:'nodata'},{o:'Polished consultant',c:[],v:'nodata'},{o:'Hype energy',c:[],v:'nodata'},{o:'Deadpan analyst',c:[],v:'nodata'},{o:'Storyteller',c:[],v:'nodata'}],
+  ws:'Unknown — reading delivery style requires watching the content, and the manual fallback path has no archive.',
+  you_note:'Your interview suggests warm, direct, coaching-across-the-table — a real style. Whether it\'s differentiated in this niche is unverifiable today.'},
+ {id:'story', label:'Storytelling format', heat:'nodata', color:'#334155', you:false, countText:'no data',
+  bubbles:[],
+  what:'The shape of how a piece is told: a countdown list, a myth getting busted, a teardown, a day-in-the-life story.',
+  menu:['Countdown list','Myth-bust','Teardown / breakdown','Story-with-lesson','A vs. B comparison'],
+  board:[{o:'Countdown list',c:[],v:'nodata'},{o:'Myth-bust',c:[],v:'nodata'},{o:'Teardown / breakdown',c:[],v:'nodata'},{o:'Story-with-lesson',c:[],v:'nodata'},{o:'A vs. B comparison',c:[],v:'nodata'}],
+  ws:'Unknown — same data gap as delivery style.',
+  you_note:'Your teardown instinct (the carousels) is a candidate signature. Validation waits on data.'},
+ {id:'visual', label:'Visual format', heat:'nodata', color:'#334155', you:false, countText:'no data',
+  bubbles:[],
+  what:'How it\'s shot and edited — you on camera, screen recordings, b-roll montage (b-roll = extra footage layered over the voice), text on screen.',
+  menu:['Raw talking head (you on camera, nothing else)','Talking head + b-roll','Screen-record / demo','Polished studio','Text-on-screen driven'],
+  board:[{o:'Raw talking head',c:[],v:'nodata'},{o:'Talking head + b-roll',c:[],v:'nodata'},{o:'Screen-record / demo',c:[],v:'nodata'},{o:'Polished studio',c:[],v:'nodata'},{o:'Text-on-screen',c:[],v:'nodata'}],
+  ws:'Unknown.',
+  you_note:'Your own inventory marks this "no" (1–3 hr/day cap, no published video). Don\'t pick a fight here; pick the cheapest format that carries your substance.'}
+];
+const SLICE_NAMES = {topic:'Topic selection',depth:'Substance depth',proof:'Stories & proof',avatar:'Avatar specificity',delivery:'Delivery style',story:'Storytelling format',visual:'Visual format'};
+const VCOLOR = {crowded:'#EF4444',contested:'#F59E0B',open:'#34D399',nodata:'#475569'};
+
+const svg = document.getElementById('wheel');
+const CX=260, CY=260, R=225, R0=52;
+function polar(cx,cy,r,deg){const a=(deg-90)*Math.PI/180;return [cx+r*Math.cos(a), cy+r*Math.sin(a)];}
+function wedgePath(a0,a1){
+  const [x0,y0]=polar(CX,CY,R,a0),[x1,y1]=polar(CX,CY,R,a1);
+  const [xi1,yi1]=polar(CX,CY,R0,a1),[xi0,yi0]=polar(CX,CY,R0,a0);
+  return `M ${x0} ${y0} A ${R} ${R} 0 0 1 ${x1} ${y1} L ${xi1} ${yi1} A ${R0} ${R0} 0 0 0 ${xi0} ${yi0} Z`;
+}
+const step=360/7;
+SLICES.forEach((s,i)=>{
+  const a0=i*step+1.5, a1=(i+1)*step-1.5, mid=(a0+a1)/2;
+  const g=document.createElementNS('http://www.w3.org/2000/svg','g');
+  g.setAttribute('class','slice'); g.setAttribute('id','slice-'+s.id);
+  const p=document.createElementNS('http://www.w3.org/2000/svg','path');
+  p.setAttribute('d',wedgePath(a0,a1)); p.setAttribute('fill',s.color);
+  p.setAttribute('class','wedge'); p.setAttribute('stroke','#0F172A'); p.setAttribute('stroke-width','1.5');
+  g.appendChild(p);
+  const [lx,ly]=polar(CX,CY,R-30,mid);
+  const t=document.createElementNS('http://www.w3.org/2000/svg','text');
+  t.setAttribute('x',lx);t.setAttribute('y',ly);t.setAttribute('text-anchor','middle');t.setAttribute('class','slabel');
+  s.label.split(' ').forEach((w,j)=>{const ts=document.createElementNS('http://www.w3.org/2000/svg','tspan');ts.setAttribute('x',lx);ts.setAttribute('dy',j===0?0:12);ts.textContent=w;t.appendChild(ts);});
+  g.appendChild(t);
+  const [cx2,cy2]=polar(CX,CY,R-72,mid);
+  const c=document.createElementNS('http://www.w3.org/2000/svg','text');
+  c.setAttribute('x',cx2);c.setAttribute('y',cy2);c.setAttribute('text-anchor','middle');c.setAttribute('class','scount');
+  c.textContent=s.countText; g.appendChild(c);
+  const [tx,ty]=polar(CX,CY,R-58,mid);
+  if(s.heat==='open'){const w=document.createElementNS('http://www.w3.org/2000/svg','text');w.setAttribute('x',tx);w.setAttribute('y',ty);w.setAttribute('text-anchor','middle');w.setAttribute('class','wstag');w.textContent='WHITE SPACE';g.appendChild(w);}
+  if(s.heat==='nodata'){const w=document.createElementNS('http://www.w3.org/2000/svg','text');w.setAttribute('x',tx);w.setAttribute('y',ty);w.setAttribute('text-anchor','middle');w.setAttribute('class','ndtag');w.textContent='NOT ENOUGH DATA';g.appendChild(w);}
+  if(s.you){const [yx,yy]=polar(CX,CY,R-100,mid);const y=document.createElementNS('http://www.w3.org/2000/svg','text');y.setAttribute('x',yx);y.setAttribute('y',yy);y.setAttribute('text-anchor','middle');y.setAttribute('class','youstar');y.textContent='⭐ YOU?';g.appendChild(y);}
+  s.bubbles.forEach((chId,k)=>{
+    const off = (k - (s.bubbles.length-1)/2) * 14;
+    const [bx,by]=polar(CX,CY,R-130,mid+off);
+    const bg=document.createElementNS('http://www.w3.org/2000/svg','g');
+    bg.setAttribute('class','bubble'); bg.setAttribute('data-ch',chId); bg.setAttribute('data-slice',s.id);
+    const bc=document.createElementNS('http://www.w3.org/2000/svg','circle');
+    bc.setAttribute('cx',bx);bc.setAttribute('cy',by);bc.setAttribute('r',13);
+    bc.setAttribute('fill',CHANNELS[chId].color);bc.setAttribute('stroke','#0F172A');bc.setAttribute('stroke-width','2');
+    bg.appendChild(bc);
+    const bt=document.createElementNS('http://www.w3.org/2000/svg','text');
+    bt.setAttribute('x',bx);bt.setAttribute('y',by+3);bt.setAttribute('text-anchor','middle');bt.textContent=CHANNELS[chId].ini;
+    bg.appendChild(bt);
+    const title=document.createElementNS('http://www.w3.org/2000/svg','title');
+    title.textContent=CHANNELS[chId].name; bg.appendChild(title);
+    bg.addEventListener('click',ev=>{ev.stopPropagation();openCard(chId,s.id);});
+    g.appendChild(bg);
+  });
+  g.addEventListener('click',()=>openPanel(s.id));
+  svg.appendChild(g);
+});
+const hub=document.createElementNS('http://www.w3.org/2000/svg','circle');
+hub.setAttribute('cx',CX);hub.setAttribute('cy',CY);hub.setAttribute('r',R0-6);hub.setAttribute('fill','#1E293B');hub.setAttribute('stroke','#334155');
+svg.appendChild(hub);
+const hubT=document.createElementNS('http://www.w3.org/2000/svg','text');
+hubT.setAttribute('x',CX);hubT.setAttribute('y',CY-2);hubT.setAttribute('text-anchor','middle');hubT.setAttribute('fill','#F1F5F9');hubT.setAttribute('font-size','12');hubT.setAttribute('font-weight','700');
+hubT.textContent='7 lanes';svg.appendChild(hubT);
+const hubT2=document.createElementNS('http://www.w3.org/2000/svg','text');
+hubT2.setAttribute('x',CX);hubT2.setAttribute('y',CY+13);hubT2.setAttribute('text-anchor','middle');hubT2.setAttribute('fill','#94A3B8');hubT2.setAttribute('font-size','9');
+hubT2.textContent='tap a slice';svg.appendChild(hubT2);
+
+// Build animation: wedges draw in one by one, bubbles drop in, whitespace slices glow last (the reveal).
+const wedges=[...document.querySelectorAll('.slice')];
+wedges.forEach((w,i)=>setTimeout(()=>w.classList.add('shown'), 150+i*160));
+const bubs=[...document.querySelectorAll('.bubble')];
+bubs.forEach((b,i)=>setTimeout(()=>b.classList.add('shown'), 1400+i*220));
+setTimeout(()=>{SLICES.forEach(s=>{if(s.heat==='open'){const el=document.querySelector('#slice-'+s.id+' path.wedge');el.style.filter='drop-shadow(0 0 10px #34D39988)';}});}, 2600);
+
+function levelDot(l){return `<span class="lv lv-${l||'ned'}"></span>`;}
+function bubbleChip(id){const c=CHANNELS[id];return `<b style="background:${c.color}" title="${c.name}" onclick="openCard('${id}',null)">${c.ini}</b>`;}
+
+function openPanel(id){
+  document.querySelectorAll('.slice').forEach(s=>s.classList.remove('active'));
+  document.getElementById('slice-'+id).classList.add('active');
+  const s=SLICES.find(x=>x.id===id);
+  const rows=s.board.map(r=>{
+    const pct=Math.min(100, r.c.length/7*100*1.6);
+    return `<div class="sbrow">
+      <span class="opt">${r.o}${r.d?' <span class="default">the default here</span>':''}</span>
+      <span class="heatbar"><i style="width:${r.v==='nodata'?0:Math.max(pct, r.c.length?12:4)}%;background:${VCOLOR[r.v]}"></i></span>
+      <span class="cnt">${r.v==='nodata'?'no data':r.c.length+' of 7'}</span>
+      <span class="rowbubs">${r.c.map(bubbleChip).join('')}</span>
+      <span class="verdict v-${r.v}">${r.v==='nodata'?'no data':r.v}</span>
+    </div>`;}).join('');
+  setHTML(document.getElementById('panel'), `
+    <h2>${s.label} ${s.you?'⭐':''}</h2>
+    <div class="pk">1 · What this even is</div><p>${s.what}</p>
+    <div class="pk">2 · The full menu of options</div><p class="menu-list">${s.menu.map(m=>'• '+m).join('<br>')}</p>
+    <div class="pk">3 · What we're seeing in your niche</div>${rows}
+    <div class="pk">4 · The white space</div><p>${s.ws}</p>
+    <div class="pk">5 · What this means for you</div><p>${s.you_note}</p>`);
+  document.getElementById('panel').classList.add('open');
+  document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function openCard(chId, sliceId){
+  const c=CHANNELS[chId], pl=PLACE[chId];
+  document.querySelectorAll('.bubble').forEach(b=>b.classList.toggle('hl', b.getAttribute('data-ch')===chId));
+  let focus='';
+  if(sliceId){
+    const p=pl[sliceId];
+    focus = `<div class="pk">In "${SLICE_NAMES[sliceId]}"</div>`+
+      (p && p[0]!=='ned'
+        ? `<p style="font-size:.85rem;line-height:1.5">${levelDot(p[0])} <b>${p[1]||''}</b>${p[2]?' — '+p[2]:''}</p>`
+        : `<p style="font-size:.85rem;color:#94A3B8">Not enough data for this slice on the manual fallback path.</p>`);
+  }
+  const strip = Object.keys(SLICE_NAMES).map(k=>{
+    const p=pl[k];
+    return `<div class="striprow"><span class="sn">${SLICE_NAMES[k]}</span>${levelDot(p?p[0]:'ned')}<span>${p&&p[1]?p[1]:'<span class="gloss">not enough data</span>'}</span></div>`;
+  }).join('');
+  setHTML(document.getElementById('cardbody'), `
+    <h3><span style="display:inline-flex;width:22px;height:22px;border-radius:50%;background:${c.color};color:#0F172A;font-size:10px;font-weight:800;align-items:center;justify-content:center;margin-right:6px">${c.ini}</span>${c.name}</h3>
+    <p style="font-size:.82rem;color:#CBD5E1;margin-top:4px">${c.what}</p>
+    ${focus}
+    <div class="spec">📹 Specimen video: <b>not enough data</b> — no video archive or outlier scores (outlier = how much a video over-performs the account's normal) are available without the Sandcastles MCP.</div>
+    <div class="pk">Full fingerprint — all 7 slices</div>
+    ${strip}`);
+  document.getElementById('card').classList.add('open');
+}
+function closeCard(){document.getElementById('card').classList.remove('open');document.querySelectorAll('.bubble').forEach(b=>b.classList.remove('hl'));}
+</script>
+</body>
+</html>

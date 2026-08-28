@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>the claim-safe growth blueprint</title>
+<style>
+  /* ── Farrice Cain Premium Minimal — outward contract (package/02-DESIGN-CONTRACT.md) ── */
+  :root{
+    --canvas:#F3F3F0;   /* default background */
+    --paper:#FAFAF8;    /* lifted field */
+    --ink:#101010;      /* primary text and recommendation */
+    --graphite:#555553; /* secondary text */
+    --line:#D8D8D3;     /* rules and quiet structure */
+    --stone:#8C8C82;    /* large indices and nonessential labels only */
+    --white:#FFFFFF;    /* dark-page text only */
+    --sans:'Helvetica Neue','Neue Haas Grotesk Text Pro',Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace; /* <pre> verbatim text only */
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{ background:var(--canvas); color:var(--ink); font-family:var(--sans);
+        -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  em{ font-family:inherit; font-style:normal; font-weight:500 } /* accent = 500 weight, upright */
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px 90px }
+
+  /* functional label voice: uppercase, +0.16em tracking, medium weight */
+  .lab, .kicker, .sectag, .chip, .trust .k, .conf, .bars-caption, .brief-nav a, .navtool,
+  .deploy .bar .k, .copybtn, .livebtn, .cta, .asset .role, .tl-item .date, .stat .lab,
+  .sparklab, .plab, .matrix-axes, .matrix .quad .qlab, .swing a .k, .ledger th,
+  .play .receipt b, footer.brief{
+    font-family:var(--sans); text-transform:uppercase; letter-spacing:.16em; font-weight:500 }
+
+  /* ── chrome ── */
+  .brief-nav{ position:sticky; top:0; z-index:9; background:var(--canvas);
+    border-bottom:1px solid var(--line); padding:12px 0; margin-bottom:52px }
+  .brief-nav .row{ max-width:760px; margin:0 auto; padding:0 28px; display:flex; gap:16px; flex-wrap:wrap; align-items:center }
+  .brief-nav a{ font-size:9.5px; color:var(--graphite); text-decoration:none }
+  .brief-nav a:hover{ color:var(--ink) }
+  .brief-nav .navtools{ margin-left:auto; display:flex; gap:14px }
+  .navtool{ font-size:9.5px; cursor:pointer; color:var(--graphite); user-select:none }
+  .navtool:hover, .navtool.cp{ color:var(--ink) }
+  .navtool.done{ color:var(--ink); border-bottom:1px solid var(--ink) }
+  #toast{ position:fixed; bottom:24px; left:50%; transform:translateX(-50%); background:var(--ink); color:var(--paper);
+    font-family:var(--sans); font-size:10px; letter-spacing:.16em; text-transform:uppercase; font-weight:500;
+    padding:9px 20px; opacity:0; transition:opacity .2s; pointer-events:none; z-index:99 }
+  #toast.show{ opacity:1 }
+  .chip{ display:inline-block; font-size:9.5px; letter-spacing:.18em; color:var(--ink);
+    border-top:2px solid var(--ink); padding-top:8px }
+  .kicker{ font-size:10px; letter-spacing:.18em; color:var(--stone); display:block }
+  h1.display{ font-size:54px; line-height:1.04; letter-spacing:-.025em; font-weight:700; margin:22px 0 0; max-width:14ch }
+  .dek{ font-size:16px; line-height:1.55; color:var(--graphite); max-width:56ch; margin-top:18px }
+  p{ font-size:14px; line-height:1.6; color:var(--graphite) }
+  strong{ color:var(--ink); font-weight:500 }
+
+  /* trust header */
+  .trust{ display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--ink); border-bottom:1px solid var(--line);
+    margin-top:36px }
+  .trust > div{ padding:12px 14px 12px 0 }
+  .trust > div + div{ border-left:1px solid var(--line); padding-left:14px }
+  .trust .k{ font-size:8.5px; color:var(--stone); display:block; margin-bottom:5px }
+  .trust .v{ font-size:12px; line-height:1.4; color:var(--ink); font-weight:500 }
+
+  /* sections */
+  section.blk{ margin-top:72px; scroll-margin-top:70px }
+  .sechead{ display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-bottom:1px solid var(--line); padding-bottom:10px; margin-bottom:22px }
+  .secnum{ font-size:12px; letter-spacing:.08em; color:var(--stone); font-weight:500 }
+  h2.sec{ font-size:26px; letter-spacing:-.02em; font-weight:700; flex:1 }
+  .sectag{ font-size:8.5px; color:var(--stone); white-space:nowrap }
+
+  .panel{ background:var(--paper); padding:18px 20px; margin-top:8px; border:1px solid var(--line) }
+  .panel p{ font-size:13.5px }
+
+  /* evidence rows — the checkmark glyph is suppressed on this surface */
+  .ev{ display:grid; grid-template-columns:auto 1fr; gap:12px 0; padding:16px 0; border-bottom:1px solid var(--line); align-items:start }
+  .ev .mark{ display:none }
+  .ev h3{ font-size:15px; font-weight:500; letter-spacing:-.005em; line-height:1.35; color:var(--ink) }
+  .ev p{ font-size:12.5px; line-height:1.55; margin-top:4px }
+  .ev .meta{ display:flex; gap:12px; align-items:center; margin-top:8px; flex-wrap:wrap }
+  .srcref{ font-size:11px; color:var(--graphite); text-decoration:underline; text-underline-offset:2px }
+  .srcref:hover{ color:var(--ink) }
+  .conf{ font-size:8px; letter-spacing:.14em; padding:2px 7px }
+  .conf.verified{ color:var(--ink); border:1px solid var(--ink) }
+  .conf.likely{ color:var(--graphite); border:1px solid var(--graphite) }
+  .conf.unconfirmed{ color:var(--stone); border:1px solid var(--stone) }
+
+  /* decision layer — the one dark interruption on this surface */
+  .decision{ background:var(--ink); color:var(--white); padding:38px 36px 30px; margin-top:72px; scroll-margin-top:70px }
+  .decision .kicker{ color:var(--white); opacity:.55 }
+  .decision h2{ font-size:32px; letter-spacing:-.02em; font-weight:700; margin-top:12px; color:var(--white) }
+  .decision .dek{ color:var(--white); opacity:.75; font-size:14px; margin-top:12px }
+  .dec-item{ display:grid; grid-template-columns:auto 1fr; gap:12px 14px; padding:15px 0; border-bottom:1px solid var(--graphite); align-items:start }
+  .dec-item:last-child{ border-bottom:none }
+  .dec-item .n{ font-size:12px; letter-spacing:.08em; color:var(--stone); min-width:24px; margin-top:3px; font-weight:500 }
+  .dec-item h3{ font-size:16px; font-weight:500; color:var(--white); line-height:1.35 }
+  .dec-item p{ font-size:12.5px; line-height:1.55; color:var(--white); opacity:.72; margin-top:4px }
+
+  /* bars — same-scale small multiples, data in ink */
+  .bars-group{ display:grid; gap:14px; margin-top:6px }
+  .bars-card{ background:var(--paper); border:1px solid var(--line); padding:16px 18px }
+  .bars-card h3{ font-size:14px; font-weight:500 }
+  .bars-card .note{ font-size:11.5px; color:var(--stone); margin-top:2px }
+  .bars{ display:flex; align-items:flex-end; gap:4px; height:72px; margin-top:12px }
+  .bars i{ flex:1; background:var(--ink); min-height:2px }
+  .bars-caption{ font-size:9px; letter-spacing:.12em; color:var(--stone); margin-top:10px }
+  /* comparison mode: horizontal bars, one card */
+  .hbar-row{ display:grid; grid-template-columns:200px 1fr 34px; gap:12px; align-items:center; padding:7px 0 }
+  .hbar-row + .hbar-row{ border-top:1px solid var(--line) }
+  .hbar-label{ font-size:12.5px; font-weight:500; color:var(--ink); line-height:1.3 }
+  .hbar-label .hnote{ display:block; font-size:10px; font-weight:400; color:var(--stone); margin-top:1px }
+  .hbar-track{ height:12px; background:var(--canvas); border:1px solid var(--line); overflow:hidden }
+  .hbar-track i{ display:block; height:100%; background:var(--ink) }
+  .hbar-track i.zero{ background:var(--stone) }
+  .hbar-val{ font-size:11px; color:var(--graphite); text-align:right; font-weight:500 }
+  @media (max-width:640px){ .hbar-row{ grid-template-columns:110px 1fr 28px } }
+
+  /* deploy blocks — verbatim copy-paste text keeps monospace for legibility */
+  .deploy{ border:1px solid var(--line); margin-top:14px; overflow:hidden }
+  .deploy .bar{ display:flex; justify-content:space-between; align-items:center; background:var(--paper);
+    border-bottom:1px solid var(--line); padding:8px 14px }
+  .deploy .bar .k{ font-size:9px; color:var(--graphite) }
+  .copybtn{ font-size:9px; letter-spacing:.1em; cursor:pointer; background:none;
+    border:1px solid var(--line); padding:4px 10px; color:var(--graphite) }
+  .copybtn:hover{ border-color:var(--ink); color:var(--ink) }
+  .copybtn.done{ border-color:var(--ink); color:var(--ink) }
+  .livebtn{ font-size:9px; letter-spacing:.1em; cursor:pointer; background:none;
+    border:1px solid var(--graphite); padding:3px 10px; color:var(--graphite); margin-right:6px }
+  .livebtn:hover{ background:var(--ink); border-color:var(--ink); color:var(--paper) }
+  .deploy pre{ padding:14px 16px; font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ink);
+    white-space:pre-wrap; word-break:break-word; background:var(--paper) }
+
+  /* caveats */
+  .caveats h2{ font-size:26px; font-weight:700; letter-spacing:-.02em; color:var(--ink) }
+  .caveats p{ margin-top:14px; max-width:60ch }
+  .cta{ display:inline-block; margin-top:22px; font-size:10px; letter-spacing:.18em;
+    color:var(--ink); border:1px solid var(--ink); padding:10px 20px; text-decoration:none }
+  .cta:hover{ background:var(--ink); color:var(--paper) }
+
+  /* ledger */
+  table.ledger{ width:100%; border-collapse:collapse; margin-top:6px }
+  .ledger th{ text-align:left; font-size:8.5px; color:var(--stone); padding:0 10px 8px 0; border-bottom:1px solid var(--ink) }
+  .ledger td{ font-size:11.5px; line-height:1.45; color:var(--graphite); padding:9px 10px 9px 0; border-bottom:1px solid var(--line); vertical-align:top }
+  .ledger td a{ color:var(--graphite); text-decoration:underline; text-underline-offset:2px; word-break:break-all }
+  .ledger td a:hover{ color:var(--ink) }
+
+  /* playbook — numbered plays with command + receipt */
+  .play{ border:1px solid var(--line); margin-top:14px; overflow:hidden }
+  .play .head{ display:flex; gap:12px; align-items:center; background:var(--paper);
+    border-bottom:1px solid var(--line); padding:9px 14px }
+  .play .head .n{ font-size:11px; letter-spacing:.08em; color:var(--stone); font-weight:500 }
+  .play .head h3{ font-size:13.5px; font-weight:500; flex:1; line-height:1.3; color:var(--ink) }
+  .play .body{ padding:12px 14px 14px; background:var(--paper) }
+  .play .intent{ font-size:12px; color:var(--graphite); margin-bottom:10px }
+  .play pre{ font-family:var(--mono); font-size:11.5px; line-height:1.6; color:var(--ink); white-space:pre-wrap;
+    word-break:break-word; background:var(--canvas); border:1px solid var(--line); padding:10px 12px }
+  .play .touches{ margin-top:10px; display:flex; flex-direction:column; gap:3px }
+  .play .touches span{ font-size:10px; color:var(--stone); word-break:break-all }
+  .play .receipt{ margin-top:10px; font-size:11.5px; color:var(--graphite) }
+  .play .receipt b{ font-size:8.5px; color:var(--stone); margin-right:8px }
+
+  /* asset rail */
+  .assetgrid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px }
+  .asset{ border:1px solid var(--line); background:var(--paper); padding:12px 14px; display:flex; flex-direction:column; gap:6px }
+  .asset .role{ font-size:8.5px; color:var(--stone) }
+  .asset h3{ font-size:13px; font-weight:500; line-height:1.35; color:var(--ink) }
+  .asset img{ max-width:100%; border:1px solid var(--line); margin-top:4px }
+  .asset .pathrow{ display:flex; gap:8px; align-items:center; margin-top:auto; padding-top:6px }
+  .asset .path{ font-size:10px; color:var(--stone); word-break:break-all; flex:1 }
+
+  /* timeline */
+  .timeline{ margin-top:14px; border-left:2px solid var(--line); margin-left:5px }
+  .tl-item{ position:relative; padding:0 0 20px 24px }
+  .tl-item:last-child{ padding-bottom:4px }
+  .tl-item::before{ content:''; position:absolute; left:-6px; top:3px; width:10px; height:10px;
+    background:var(--canvas); border:2px solid var(--ink) }
+  .tl-item.done::before{ background:var(--ink) }
+  .tl-item .date{ font-size:8.5px; color:var(--stone); display:block; margin-bottom:3px }
+  .tl-item h3{ font-size:13.5px; font-weight:500; line-height:1.35; color:var(--ink) }
+  .tl-item p{ font-size:12px; margin-top:3px }
+
+  /* flow — step sequence */
+  .flow{ display:flex; flex-wrap:wrap; gap:6px; align-items:stretch; margin-top:14px }
+  .flow .step{ background:var(--paper); border:1px solid var(--line); padding:10px 13px; flex:1; min-width:130px }
+  .flow .step .n{ font-size:10px; letter-spacing:.08em; color:var(--stone); display:block; margin-bottom:3px; font-weight:500 }
+  .flow .step h3{ font-size:12.5px; font-weight:500; line-height:1.3; color:var(--ink) }
+  .flow .step p{ font-size:11px; line-height:1.45; margin-top:3px; color:var(--graphite) }
+  .flow .arrow{ align-self:center; color:var(--stone); font-size:13px; padding:0 1px }
+
+  /* stats — big-number tiles */
+  .stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin-top:14px }
+  .stat{ border-top:2px solid var(--ink); padding-top:10px }
+  .stat .num{ font-size:32px; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--ink) }
+  .stat .num small{ font-size:14px; font-weight:500; color:var(--stone) }
+  .stat .lab{ font-size:8.5px; color:var(--stone); display:block; margin-top:6px }
+  .stat .note{ font-size:11px; color:var(--graphite); margin-top:4px; line-height:1.4 }
+
+  /* spark — small-multiple trend lines, data in ink */
+  .spark{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; margin-top:14px }
+  .sparkcard{ background:var(--paper); border:1px solid var(--line); padding:11px 13px 9px }
+  .sparkhead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px }
+  .sparklab{ font-size:8.5px; color:var(--stone) }
+  .sparknote{ font-size:10px; color:var(--stone); white-space:nowrap }
+  .sparkplot{ margin-top:8px; height:34px }
+  .sparksvg{ display:block; width:100%; height:34px; overflow:visible }
+  .sparkarea{ fill:var(--ink); opacity:.06; stroke:none }
+  .sparkline{ fill:none; stroke:var(--ink); stroke-width:1.5; stroke-linejoin:round; stroke-linecap:round }
+  .sparknow{ stroke:var(--stone); stroke-width:1; opacity:.6 }
+  .sparkbase{ stroke:var(--line); stroke-width:1 }
+  .sparkval{ font-size:19px; font-weight:700; letter-spacing:-.01em; color:var(--ink); margin-top:7px; line-height:1 }
+  .sparkval small{ font-size:10px; font-weight:500; color:var(--stone); letter-spacing:0 }
+
+  /* progress — segmented stage bar, hueless */
+  .progress{ margin-top:14px }
+  .ptrack{ display:flex; gap:3px; height:8px }
+  .ptrack .pseg{ flex:1; background:var(--line) }
+  .ptrack .pseg.done{ background:var(--ink) }
+  .ptrack .pseg.current{ background:var(--ink); opacity:.4 }
+  .ptrack .pseg.blocked{ background:var(--stone) }
+  .plabs{ display:flex; gap:3px; margin-top:8px }
+  .plab{ flex:1; font-size:8px; letter-spacing:.13em; color:var(--stone); line-height:1.5; min-width:0 }
+  .plab.done{ color:var(--graphite) }
+  .plab.current{ color:var(--ink); font-weight:700 }
+  .plab.blocked{ color:var(--graphite) }
+  .plab .pdot{ display:inline-block; width:5px; height:5px; background:var(--ink); margin-right:4px; vertical-align:middle }
+  .plab .pnote{ display:block; font-family:var(--sans); font-size:10px; letter-spacing:0; text-transform:none;
+    font-weight:400; color:var(--stone); margin-top:2px }
+
+  /* matrix — 2x2 */
+  .matrix-axes{ font-size:8.5px; color:var(--stone); margin-top:12px }
+  .matrix{ display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line); border:1px solid var(--line);
+    overflow:hidden; margin-top:8px }
+  .matrix .quad{ background:var(--paper); padding:13px 14px; min-height:100px }
+  .matrix .quad .qlab{ font-size:8px; color:var(--stone); display:block; margin-bottom:7px }
+  .matrix .quad ul{ list-style:none }
+  .matrix .quad li{ font-size:12px; line-height:1.4; color:var(--ink); padding:2px 0; font-weight:500 }
+  .matrix .quad li small{ display:block; font-size:10.5px; font-weight:400; color:var(--stone) }
+
+  /* related — quiet swing links */
+  .swing{ display:flex; flex-wrap:wrap; gap:8px; margin-top:12px }
+  .swing a{ border:1px solid var(--line); padding:9px 13px; text-decoration:none; background:var(--paper); max-width:100% }
+  .swing a .k{ font-size:8px; color:var(--stone); display:block; margin-bottom:2px }
+  .swing a .t{ font-size:12.5px; font-weight:500; color:var(--ink); line-height:1.3 }
+  .swing a:hover{ border-color:var(--ink) }
+
+  /* footer — brand mark left, "prepared for" line right */
+  footer.brief{ margin-top:80px; border-top:1px solid var(--ink); padding-top:12px; display:flex; justify-content:space-between;
+    gap:16px; font-size:9px; letter-spacing:.16em; color:var(--stone) }
+  footer.brief span:first-child{ color:var(--ink) }
+
+  @media (max-width:640px){
+    .brief-nav{ position:static } /* a wrapped sticky index would blanket a small screen */
+    h1.display{ font-size:36px }
+    .trust{ grid-template-columns:1fr 1fr }
+    .trust > div{ border-left:none !important; padding-left:0 !important; border-bottom:1px solid var(--line) }
+    .decision{ padding:26px 20px }
+    .assetgrid{ grid-template-columns:1fr }
+    .flow{ flex-direction:column }
+    .flow .arrow{ transform:rotate(90deg); align-self:flex-start; padding-left:18px }
+    .plab{ font-size:7px; letter-spacing:.08em }
+    .plab .pnote{ display:none }
+  }
+  @media print{
+    @page{ margin:16mm }
+    body{ background:var(--white) }
+    .brief-nav, #toast, .copybtn, .livebtn{ display:none }
+    section.blk, .decision{ break-inside:avoid-page }
+    section.blk{ margin-top:44px }
+    a{ color:inherit }
+  }
+</style>
+</head>
+<body>
+
+<nav class="brief-nav"><div class="row"><a href="#the-call">the call</a><a href="#the-engagement-by-the-numbers">the engagement by the numbers</a><a href="#the-market-last-30-days">the market, last 30 days</a><a href="#chapter-1-who-we-re-for">chapter 1 · who we&#x27;re for</a><a href="#chapter-2-the-open-lane-receipted">chapter 2 · the open lane, receipted</a><a href="#chapter-3-the-money-map">chapter 3 · the money map</a><a href="#chapters-4-5-what-we-make-and-how">chapters 4-5 · what we make, and how</a><a href="#the-90-days">the 90 days</a><a href="#the-bet-register-honestly">the bet register, honestly</a><a href="#source-ledger">sources</a><span class="navtools"></span></div></nav>
+
+<div class="wrap">
+  <header>
+    <span class="chip">CONTENT GROWTH BLUEPRINT · FLAGSHIP</span>
+    <h1 class="display">the <em>claim-safe</em> growth blueprint</h1>
+    <p class="dek">The full engagement, assembled: who the buyer is in his own words, the lane nobody measured is holding, the rings and buckets wired to the $750/$2,500 offer ladder, the vehicles with their mechanisms, and a 90-day batch plan with the kill rules written before the first video ships. Every claim labeled; every bet registered up front.</p>
+    <div class="trust">
+      <div><span class="k">Window</span><span class="v">90-day plan · assembled 2026-08-27</span></div>
+      <div><span class="k">Lens</span><span class="v">positioning · audience · topics · formats · money</span></div>
+      <div><span class="k">Sources</span><span class="v">the five underlying reports · 12 channels · 50 receipted rows · 15 buyer verbatims</span></div>
+      <div><span class="k">Compiled</span><span class="v">aug 27, 2026</span></div>
+    </div>
+  </header>
+
+  <section class="blk" id="the-call"><div class="sechead"><span class="secnum">01</span><h2 class="sec">the call</h2></div><span class="kicker" style="margin-bottom:8px">ONE THROUGH-LINE</span><div class="panel"><p>Every channel the supplement founder watches is selling him a mechanism. Nobody is selling him the decision. This engagement claims that lane: the claim-safe launch strategist for operating supplement and performance brands, reached through two narrow buckets and one fenced reach engine, converting attention into $750 Angle Maps and $2,500 Proof-to-Market Sprints, with the proof or the kill signal sitting in his own inbox by batch three. The evidence behind that sentence: twelve channels, fifty receipted outlier rows, fifteen exact buyer verbatims, and zero rows anywhere in the claim-science lane - while the loudest supplement-specific channel actively manufactures the sameness the offer fixes.</p></div></section><section class="blk" id="the-engagement-by-the-numbers"><div class="sechead"><span class="secnum">02</span><h2 class="sec">the engagement by the numbers</h2></div><div class="stats"><div class="stat"><div class="num">0/50<small> rows in the lane</small></div><span class="lab">CLAIM-SCIENCE WHITESPACE</span><div class="note">demand probe: batches 1-3</div></div><div class="stat"><div class="num">15<small> buyer verbatims</small></div><span class="lab">EXACT, SOURCED, DATED</span><div class="note">from the forums where he talks</div></div><div class="stat"><div class="num">$300<small> per qualified inquiry</small></div><span class="lab">ASSUMED VALUE - REAL RATES PENDING</span><div class="note">$750 x 20% + $2,500 x 20% x 30%</div></div><div class="stat"><div class="num">10<small> registered bets</small></div><span class="lab">EVERY SOFT CLAIM LISTED</span><div class="note">with what hardens each</div></div></div></section><section class="blk" id="the-market-last-30-days"><div class="sechead"><span class="secnum">03</span><h2 class="sec">the market, last 30 days</h2><span class="sectag">WHAT MOVED WHILE THIS WAS WRITTEN · AUG 27</span></div><div class="ev"><span class="mark">✓</span><div><h3>Meta moved supplement ads from category-level rejection toward claim-by-claim review (July 22)</h3><p>The reported update changes before/after imagery rules, supplement age-gating, and shop placements — making which claims you run, not whether you run ads, the compliance question. Direct tailwind for the claim-safe lane</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://adligator.com/blog/meta-health-wellness-ad-policy-update-2026" target="_blank" rel="noopener">Adligator policy brief, Jul 22 2026 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>AI agents are already sending measurable shopping traffic (Reuters, Aug 7)</h3><p>Claude and Gemini agents are directing real retail traffic today, with Juniper Research projecting $8 billion in agent-directed spending this year</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.reuters.com/business/retail-consumer/retailers-tap-ai-shopping-traffic-fight-keep-customer-data-2026-08-07/" target="_blank" rel="noopener">Reuters, Aug 7 2026 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Two rival standards for AI-agent shopping went public in early August</h3><p>OpenAI&#x27;s Agentic Commerce Protocol and Google&#x27;s Universal Commerce Protocol (built with Shopify, Etsy, and Walmart) both signal that being findable and quotable by AI assistants is becoming its own distribution channel</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://hbr.org/2026/08/algorithmic-shopping-is-here-is-your-company-ready" target="_blank" rel="noopener">HBR · Forbes, Aug 2026 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Structured, claim-backed product data is becoming the input AI shopping runs on</h3><p>Adobe launched Catalog Agent in mid-August to expose brand catalogs to LLM shopping surfaces (ChatGPT, Copilot, Claude, Gemini) — infrastructure forming behind this blueprint&#x27;s citation thesis: an AI names the brand whose claims are defensible and whose proof it can cite</p><div class="meta"><span class="conf likely">LIKELY</span><a class="srcref" href="https://www.moneycontrol.com/technology/adobe-launches-ai-powered-product-discovery-for-llm-shopping-through-adobe-commerce-article-14001584.html" target="_blank" rel="noopener">Moneycontrol, mid-Aug 2026 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Etsy squeezed print-on-demand sellers in the same week it cut 12% of staff</h3><p>The tightened Prohibited Items Policy took effect August 11; the layoffs landed August 5-6. Platform-shift anxiety - the reach engine&#x27;s raw material - has a live, dated story</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://qz.com/etsy-layoffs-workforce-restructuring-q2-earnings-080626" target="_blank" rel="noopener">Quartz, Aug 6 2026 ↗</a></div></div></div></section><section class="blk" id="chapter-1-who-we-re-for"><div class="sechead"><span class="secnum">04</span><h2 class="sec">chapter 1 · who we&#x27;re for</h2></div><p>The Formulator-Founder: 33-50, credentialed face of an already-selling supplement or performance brand under $15M, near-zero time, spending his own runway against a dated occasion inside 60-90 days. His midnight fear - the dossier holds it verbatim - is being the most knowledgeable person in the category while a louder half-expert becomes the name. Content that flatters visibility loses him. Content that arms credibility recruits him.</p><p>The discovery that shapes everything: across seven forum threads where this buyer talks, every reply sold a different mechanism - quiz funnels, CAPI hygiene, agency accounts, AI media buyers. Not one told the founder to decide what the brand proves and to whom. The lane has no competition inside the buyer&#x27;s own feed.</p></section><section class="blk" id="chapter-2-the-open-lane-receipted"><div class="sechead"><span class="secnum">05</span><h2 class="sec">chapter 2 · the open lane, receipted</h2><span class="sectag">FOUR CLAIMED ENTRIES</span></div><div class="ev"><span class="mark">✓</span><div><h3>W1 - The Defensible Claim lane: zero of fifty ranked rows touch claims or compliance</h3><p>The only supplement-specific channel teaches launch mechanics instead: &#x27;No Warehouse, No Problem&#x27; at 33.2x its own baseline. Opening plays scoped: the $53,088 sentence (what one over-claim can cost at the FTC&#x27;s per-violation penalty), the nine-homepages teardown, honest-claim-vs-lie</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=5w2aWizgIuY" target="_blank" rel="noopener">@suplifulofficial · 2025-01-24 ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>W2 - Nobody names the operating supplement founder as their audience</h3><p>Supliful aims at pre-revenue aspirants; Marketing Operators and Common Thread aim across all DTC; the giants aim at everyone. The named-audience slot is empty in the measured pool</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=fiWsNWyPFp4" target="_blank" rel="noopener">roster analysis, 12 channels ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>W3 - All twelve channels install adopt-the-mechanism beliefs; the decision-before-mechanism belief is uninstalled</h3><p>The current wave: &#x27;Claude Has Officially Changed Facebook Ads Forever&#x27; - 41K views, 21.8x, 2026-08-09. The Fix Aisle grants what the tool does, then names the decision it cannot make</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=ReYEYoLsppk" target="_blank" rel="noopener">@ChaseChappell ↗</a></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>W4 - Pool proof is seller-side scale; buyer-side embodied proof is unclaimed</h3><p>The proof register incumbents run: half-billion exits, billionaire weeks. His uncopyable version: 18 years as the buyer&#x27;s final checkpoint, and the 2018-hype-seller to 2026-claim-safe conversion, documented eight years apart</p><div class="meta"><span class="conf verified">VERIFIED</span><a class="srcref" href="https://www.youtube.com/watch?v=CERZXt6lpxk" target="_blank" rel="noopener">@foundr proof-register receipt ↗</a></div></div></div></section><section class="blk" id="chapter-3-the-money-map"><div class="sechead"><span class="secnum">06</span><h2 class="sec">chapter 3 · the money map</h2><span class="sectag">WHICH BUCKET MAKES MONEY, AND HOW WE KNOW BY BATCH 3</span></div><div class="ev"><span class="mark">✓</span><div><h3>The Defensible Claim (Ring 2, conversion) feeds the Sprint via the Angle Map</h3><p>Working = at least 2 DMs/comments per batch from operating founders mentioning claims, launch, or proof. Below 2 across batches 2-3: swap in Launch Math. At 4+: add a third weekly slot</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">kill/keep written before video one</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The Counter Files (Ring 2, trust) feeds the Angle Map</h3><p>Working = at least 1 &#x27;this is exactly my buyer&#x27; reply per batch plus operator saves. Below 1 across 2-3 batches: swap in The Convert</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">kill/keep written</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>The Fix Aisle (Ring 4) is reach-only and says so</h3><p>Working = one 3x+ breakout per two batches AND at least 30% of engagers identifiably operating-founder tier. Reach without ring-fit by batch 3: re-aim the same skeleton at Ring 3 topics</p><div class="meta"><span class="conf verified">VERIFIED</span><span class="srcref">fenced reach, never the scoreboard</span></div></div></div><div class="ev"><span class="mark">✓</span><div><h3>Value basis stated, not smuggled</h3><p>List prices are real ($750 / $2,500). The 20% close and 30% upgrade rates are assumptions with zero sends logged - held as pending, hardened by the first ten sends. Expected value per qualified inquiry under assumptions: ~$300</p><div class="meta"><span class="conf likely">LIKELY</span><span class="srcref">first entry in the bet register that closes this document</span></div></div></div></section><section class="decision" id="chapters-4-5-what-we-make-and-how"><span class="kicker">BUCKETS × VEHICLES</span><h2>chapters 4-5 · what we make, and <em>how</em></h2><p class="dek">Three buckets with named mechanisms; three vehicles - two proven pairs and one labeled bet.</p><div style="margin-top:20px"><div class="dec-item"><span class="n">01</span><div><h3>The Claim Ladder: compression promise x talking-head + receipts</h3><p>Proven pair (14.1x specimen); his payloads are enumerable; 60-90 minutes per rep, voice-memo-first because speech is the ore</p></div></div><div class="dec-item"><span class="n">02</span><div><h3>The Regulatory News-Jack: shift analysis on the FTC/FDA beat</h3><p>Proven skeleton (64.2x ceiling, person-effect flagged), unclaimed beat; Monday 20-minute sweep, 24-48 hour turnaround</p></div></div><div class="dec-item"><span class="n">03</span><div><h3>The Counter Consult: self-witness with the claim ladder as paper prop - THE bet</h3><p>Nobody in-pool runs self-witness monologue; one bet allowed, fallback written: guest the stories to the operator roundtables</p></div></div><div class="dec-item"><span class="n">04</span><div><h3>Batch plan: 7/week in 3-2-1 shape, first kill/keep at batch 3, hero crowning at batch 3, scan refresh at day 45</h3><p>No verdict inside 24 hours; no demotion before batches 2-3; the what-counts-as-working thresholds decide in dollars and counts</p></div></div></div></section><section class="blk" id="the-90-days"><div class="sechead"><span class="secnum">08</span><h2 class="sec">the 90 days</h2></div><div class="timeline"><div class="tl-item"><span class="date">Weeks 1-3</span><h3>Batches 1-3</h3><p>Sample batch as specified; chaos draw: ChatGPT-sameness demo first, FTC letter read second. Observation only - no verdicts.</p></div><div class="tl-item"><span class="date">Week 3-4</span><h3>First calibration pass</h3><p>Kill/keep against the what-counts-as-working thresholds; hero-format crowning; the Counter Consult bet resolves or falls back.</p></div><div class="tl-item"><span class="date">Weeks 5-8</span><h3>Reps on heroes</h3><p>Bench swaps per printed rules; chaos continues weekly, whitespace-tagged candidates first.</p></div><div class="tl-item"><span class="date">Day ~45</span><h3>Topic scan refresh</h3><p>The re-scan lights momentum with real deltas; re-cluster if buckets moved.</p></div><div class="tl-item"><span class="date">Weeks 9-13</span><h3>Second pass + scale</h3><p>Third slot wherever a bucket beat its what-counts-as-working threshold twice over; Fix Aisle winners re-aimed at Ring 3 if ring-fit held.</p></div></div></section><section class="blk caveats" id="the-bet-register-honestly"><span class="kicker" style="margin-bottom:10px">WHAT WOULD MAKE THIS DOCUMENT WRONG</span><h2>the bet register, honestly</h2><p>Ten claims the strategy leans on are not yet hard, and each is listed with what hardens it: the close-rate assumptions (first ten sends), demand in the claim-science lane (batches 1-3 are the probe; zero rows is zero demand evidence), ring sizes (one keyword pull), the calm-practitioner style bet, the bucket mechanisms (comment-language reads), catalog-wide emptiness (per-channel search), one unverified forum quote, momentum direction (a second scan a day out), the Counter Consult format bet (fallback written), and one incumbent&#x27;s self-reported revenue figure, used only as a positioning read and never to be republished as fact. Platform scope: this blueprint&#x27;s evidence is YouTube-measured; TikTok and Instagram are not measured; LinkedIn - where the sales motion lives - sits outside this scan and is governed by his own logged sends.</p></section><section class="blk" id="source-ledger"><div class="sechead"><span class="secnum">10</span><h2 class="sec">source ledger</h2></div><table class="ledger"><thead><tr><th>#</th><th>Source</th><th>URL</th><th>Retrieved</th><th>Used for</th><th>Confidence</th></tr></thead><tbody><tr><td>01</td><td>Positioning dossier (15 verbatims, identity layer)</td><td>—</td><td>2026-08-27</td><td>chapter 1</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>02</td><td>Whitespace map + positioning wheel</td><td>—</td><td>2026-08-27</td><td>chapter 2, positioning call</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>03</td><td>Bullseye (rings, overlay, chaos reserve)</td><td>—</td><td>2026-08-27</td><td>chapter 3, money map</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>04</td><td>Topic buckets + top-50</td><td>—</td><td>2026-08-27</td><td>chapter 4</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>05</td><td>Format playbook + format matrix</td><td>—</td><td>2026-08-27</td><td>chapter 5</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>06</td><td>Competitive channel scan (12 channels, 50 ranked videos)</td><td>—</td><td>2026-08-27</td><td>every performance receipt</td><td><span class="conf verified">VERIFIED</span></td></tr><tr><td>07</td><td>30-day market pulse, verified against the wider web, Aug 27</td><td><a href="https://www.reuters.com/business/retail-consumer/retailers-tap-ai-shopping-traffic-fight-keep-customer-data-2026-08-07/" target="_blank" rel="noopener">https://www.reuters.com/business/retail-consumer/retailers-tap-ai-shopping-traffic-fight-keep-customer-data-2026-08-07/</a></td><td>2026-08-27</td><td>the market, last 30 days: dated developments the strategy now leans on or watches; each row above carries its own label</td><td><span class="conf verified">VERIFIED</span></td></tr></tbody></table></section>
+
+  <footer class="brief">
+    <span>GROWTH BLUEPRINT</span>
+    <span>farrice-parallax</span>
+  </footer>
+</div>
+
+<div id="toast">copied</div>
+
+<script>
+(function(){
+  function toast(msg){
+    var t=document.getElementById('toast'); if(!t) return;
+    t.textContent=msg; t.classList.add('show');
+    setTimeout(function(){ t.classList.remove('show'); }, 1600);
+  }
+  function fallback(txt){
+    var ta=document.createElement('textarea'); ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select(); try{ document.execCommand('copy'); }catch(e){} document.body.removeChild(ta);
+  }
+  function copyText(txt, btn){
+    function ok(){ btn.classList.add('done'); btn.textContent='copied'; setTimeout(function(){ btn.classList.remove('done'); btn.textContent='copy'; }, 1600); }
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(ok, function(){ fallback(txt); ok(); });
+    } else { fallback(txt); ok(); }
+  }
+  var packEl = document.getElementById('pagepack');
+  if (packEl){
+    var PP = JSON.parse(packEl.textContent);
+    document.querySelectorAll('.navtool[data-act]').forEach(function(el){
+      el.addEventListener('click', function(){
+        var txt = el.dataset.act === 'path' ? PP.path : PP.brief;
+        function done(){ toast('copied'); el.classList.add('done'); setTimeout(function(){ el.classList.remove('done'); }, 1600); }
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(txt).then(done, function(){ fallback(txt); done(); });
+        } else { fallback(txt); done(); }
+      });
+    });
+  }
+  document.querySelectorAll('.copybtn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(btn.dataset.copy){ copyText(btn.dataset.copy, btn); return; }
+      var host=btn.closest('.deploy, .play, .asset');
+      var pre=host && host.querySelector('pre');
+      if(pre) copyText(pre.textContent, btn);
+    });
+  });
+  /* No live-action or repo-link wiring on this surface: --client renders are
+     share-stripped, so a client page carries no write affordances and no local paths. */
+})();
+</script>
+</body>
+</html>

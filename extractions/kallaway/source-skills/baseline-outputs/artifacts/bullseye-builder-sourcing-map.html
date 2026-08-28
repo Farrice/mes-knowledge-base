@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sourcing Map — Farrice Cain</title>
+<style>
+  :root{--navy:#0F172A;--panel:#1E293B;--line:#334155;--text:#F1F5F9;--dim:#94A3B8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--navy);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:20px 14px 50px;max-width:700px;margin:0 auto}
+  h1{font-size:1.4rem;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:.85rem;line-height:1.55;margin-bottom:14px}
+  #stage{max-width:440px;margin:0 auto}
+  svg{width:100%;height:auto;display:block}
+  .rules{display:grid;gap:10px;grid-template-columns:1fr 1fr;margin-top:14px}
+  .rule{border-radius:12px;padding:12px 14px;font-size:.8rem;line-height:1.5}
+  .rule h3{font-size:.82rem;margin-bottom:5px;letter-spacing:.5px}
+  .r-topic{background:#7C2D1233;border:1px solid #F97316}
+  .r-craft{background:#0C4A6E33;border:1px solid #38BDF8}
+  table{width:100%;border-collapse:collapse;margin-top:18px;font-size:.8rem}
+  th{color:var(--dim);text-transform:uppercase;font-size:.66rem;letter-spacing:.7px;text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+  td{padding:9px 8px;border-bottom:1px solid #26334A;vertical-align:top;line-height:1.5}
+  .tag{display:inline-block;font-size:.6rem;font-weight:800;letter-spacing:.5px;padding:2px 7px;border-radius:99px;text-transform:uppercase;white-space:nowrap}
+  .t-topic{background:#7C2D12;color:#FDBA74}
+  .t-craft{background:#0C4A6E;color:#7DD3FC}
+  .rn{font-weight:800;white-space:nowrap}
+  @media(max-width:520px){.rules{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+  <h1>The Sourcing Map</h1>
+  <div class="sub">"Nobody makes content in my exact niche — who do I study?" The two-zone rule: <b>topics come from the ring your bucket sits on; craft can come from anywhere.</b> If a ring is empty of creators, that's not a problem — it's your opening: pull from the adjacent ring and re-aim at your founder.</div>
+  <div id="stage">
+    <svg viewBox="0 0 440 470" aria-label="sourcing zones on the bullseye">
+      <!-- craft wash: entire board including Ring 5 -->
+      <circle cx="220" cy="230" r="212" fill="#0C4A6E" opacity="0.45" stroke="#38BDF8" stroke-width="2" stroke-dasharray="6 5"/>
+      <text x="220" y="26" text-anchor="middle" fill="#7DD3FC" font-size="11" font-weight="800" letter-spacing="1">CRAFT ZONE — THE WHOLE BOARD</text>
+      <text x="220" y="40" text-anchor="middle" fill="#94A3B8" font-size="8.5">FORMATS · HOOKS · STORYTELLING · EDITING — FROM ANYWHERE, ANY NICHE</text>
+      <!-- ring 5 band label -->
+      <text x="220" y="63" text-anchor="middle" fill="#64748B" font-size="8">Ring 5 — craft only. Sourcing topics here is how channels drift generic.</text>
+      <!-- topic zone: rings 1–4 -->
+      <circle cx="220" cy="230" r="172" fill="#7C2D12" opacity="0.75" stroke="#F97316" stroke-width="2.5"/>
+      <text x="220" y="92" text-anchor="middle" fill="#FDBA74" font-size="10.5" font-weight="800" letter-spacing=".5">TOPIC ZONE — RINGS 1–4</text>
+      <text x="220" y="105" text-anchor="middle" fill="#FCD34D" font-size="8">TOPICS COME FROM YOUR BUCKET'S RING</text>
+      <!-- broad-bucket source band: ring 4 -->
+      <circle cx="220" cy="230" r="172" fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.0"/>
+      <text x="220" y="121" text-anchor="middle" fill="#93C5FD" font-size="7.5">Ring 4 band = broad-bucket sourcing (re-aim delivery at YOUR founder)</text>
+      <!-- narrow-bucket source area: rings 1–3 -->
+      <circle cx="220" cy="230" r="128" fill="#9A3412" opacity="0.85" stroke="#FB923C" stroke-width="1.5"/>
+      <text x="220" y="140" text-anchor="middle" fill="#FED7AA" font-size="8.5" font-weight="700">RINGS 1–3 — narrow-bucket sourcing (stay tight; drift is deadliest here)</text>
+      <circle cx="220" cy="230" r="86" fill="#C2410C" opacity="0.9"/>
+      <circle cx="220" cy="230" r="46" fill="#EF4444"/>
+      <text x="220" y="226" text-anchor="middle" fill="#FEF2F2" font-size="9" font-weight="800">RING 1</text>
+      <text x="220" y="238" text-anchor="middle" fill="#FEE2E2" font-size="7">creators here (if any exist)</text>
+      <text x="220" y="248" text-anchor="middle" fill="#FEE2E2" font-size="7">are topic GOLD</text>
+      <text x="220" y="300" text-anchor="middle" fill="#FED7AA" font-size="8">Rings 2–3</text>
+      <text x="220" y="360" text-anchor="middle" fill="#FDBA74" font-size="8">Ring 4</text>
+      <text x="220" y="425" text-anchor="middle" fill="#7DD3FC" font-size="8">Ring 5 — craft only</text>
+    </svg>
+  </div>
+  <div class="rules">
+    <div class="rule r-topic"><h3>🎯 TOPICS — from your bucket's ring</h3>Narrow buckets (Claim Autopsies, Behind the Counter): source Rings 1–3. Broad bucket (AI Killed the Average Brand): source Ring 4 — then always re-aim the delivery at your founder. Never source topics from Ring 5.</div>
+    <div class="rule r-craft"><h3>🎨 CRAFT — from anywhere</h3>Formats, hooks, storytelling structures, editing, pacing. A cooking creator's countdown format can carry a compliance topic. Study the best executors on the whole board, any niche.</div>
+  </div>
+  <table>
+    <thead><tr><th>Ring</th><th>Search terms (feed to the watchlist builder / Sandcastles discover_channels)</th><th>Use for</th></tr></thead>
+    <tbody>
+      <tr><td class="rn" style="color:#EF4444">Ring 1</td><td>"supplement launch messaging" · "supplement claim substantiation" · "FTC warning letter supplement breakdown"</td><td><span class="tag t-topic">topic inspiration</span></td></tr>
+      <tr><td class="rn" style="color:#F97316">Ring 2</td><td>"supplement brand marketing" · "performance nutrition brand strategy" · "supplement founder content"</td><td><span class="tag t-topic">topic inspiration</span></td></tr>
+      <tr><td class="rn" style="color:#F59E0B">Ring 3</td><td>"DTC wellness brand positioning" · "health brand teardown" · "wellness brand voice"</td><td><span class="tag t-topic">topic inspiration</span></td></tr>
+      <tr><td class="rn" style="color:#38BDF8">Ring 4</td><td>"DTC marketing strategy" · "ecommerce founder-led brand" · "creative strategy DTC"</td><td><span class="tag t-topic">topic inspiration</span> <span style="color:#94A3B8;font-size:.7rem">(broad bucket only — re-aim at your founder)</span></td></tr>
+      <tr><td class="rn" style="color:#64748B">Ring 5</td><td>"short-form storytelling structure" · "hook writing" · "talking-head editing pacing"</td><td><span class="tag t-craft">craft inspiration only</span></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
