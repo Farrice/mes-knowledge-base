@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Run live expert councils that argue in front of you (The Mailroom)** | |
+| Convene a live council on a real fork | [The Mailroom](2026-08-28-mailroom.md) — say "run a live roundtable on ___" (entry gate applies) |
+| Cast/close a council by hand | [The Mailroom](2026-08-28-mailroom.md) — `persona_team.py cast` / `close-session` |
+| Check open council outcome loops | [The Mailroom](2026-08-28-mailroom.md) — `council_pulse.py --full` |
+| Remember the default output register (debate-then-memo) | [The Mailroom](2026-08-28-mailroom.md) — reader contract + memory `default-output-register-debate-then-memo` |
 | **Deploy Joanna Wiebe across copy, belief, messaging, and writing-business work** | |
 | Invoke Joanna by name and let the system select the right capability | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe` |
 | Use Joanna's complete extracted expertise on one high-stakes asset | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe full deployment: ...` |
@@ -378,7 +383,6 @@
 
 
 ## Pending enrichment
-- [2026-08-28 — 2026-08-28-mailroom](2026-08-28-mailroom.md) — session-brief stub, needs enrichment
 - [2026-08-25 — Handoff — System Health Audit + Repair (2026-08-24)](2026-08-25-handoff-system-health-audit-repair-2026-08-24.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — 2026-08-24-products](2026-08-24-2026-08-24-products.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — Revenue: Claude Skills Business - Research Complete](2026-08-24-claude-skills-business.md) — session-brief stub, needs enrichment
