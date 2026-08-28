@@ -15,13 +15,13 @@
     {
       "path": ".agent/handoffs/2026-08-12-first-client-engine.md",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-12-first-client-engine.md",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/mailroom/.agent/handoffs/2026-08-12-first-client-engine.md",
       "role": "playbook · Resume here"
     },
     {
       "path": "deliverables/research-briefs/mission-board/mission-board-brief.html",
       "scope": "repo",
-      "abs": "/Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-board/mission-board-brief.html",
+      "abs": "/Users/farricecain/Google Antigravity/.claude/worktrees/mailroom/deliverables/research-briefs/mission-board/mission-board-brief.html",
       "role": "related · BOARD"
     }
   ],

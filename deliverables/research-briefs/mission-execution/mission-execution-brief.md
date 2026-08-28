@@ -21,7 +21,7 @@ What moved: verdict = builds GREEN (Second Brain, Homebase, hooks, budgets all r
 Uncertain: Notion L3 mirror fails nightly (ConnectionError) though API answers 200 directly — needs supervised re-run; Style Vault exists ONLY on unmerged worktree-style-vault branch, not main; jen/mybpm social-pulse Apify actors return 0 items.
 Latest proof: audit output /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/73378698-b9b8-4f42-90c6-11712482419c/tasks/w3v56gcad.output (run wf_8e685a4a-b35).
 
-Handoff written 1d ago — treat its plan as current.
+Handoff written 4d ago — mostly current; skim the latest sessions below for drift.
 
 Do not rebuild:
 (auto-scaffolded — the store adds this when a handoff omits it)
@@ -59,8 +59,8 @@ python3 execution/pulse_actions.py kill execution --reason "<one line>"
 THREAD: Handoff — System Health Audit + Repair (2026-08-24)
 SLUG: execution
 STATUS: active · STAGE: research
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-execution/mission-execution-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-24-execution.md
+BRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/mailroom/deliverables/research-briefs/mission-execution/mission-execution-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/mailroom/.agent/handoffs/2026-08-24-execution.md
 
 RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl reloads, then lane merges (Style Vault first)
 
@@ -87,7 +87,7 @@ RESUME HERE: Audit done, repairs applied; Farrice: claude login + 2 launchctl re
 _READ THE EDGES_
 No idle-day figure recorded, so how long this has actually sat is unknown. The thread title points at a scraping integration while the surviving content is pricing strategy — the label and the contents disagree.
 
-The judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 

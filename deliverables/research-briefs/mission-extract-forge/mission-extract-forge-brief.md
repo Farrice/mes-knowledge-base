@@ -10,7 +10,7 @@ This build is finished and verified across every check it set for itself, with n
 
 Stage: outcome — an outcome was recorded against it. In the last 14 days: 1 session.
 
-Handoff status is ready. Last activity 6d ago.
+Handoff status is ready. Last activity 9d ago.
 
 Next: Mark this closed and skip the blind pack unless you personally want the tier.
 
@@ -43,7 +43,7 @@ Remaining priority: None for functional local use. Optional only: Farrice can ju
 
 - Market effect: `UNOBSERVED`
 
-Handoff written 21d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
+Handoff written 24d ago — treat its plan as LIKELY, not current. The timeline below shows what moved since.
 
 Do not rebuild:
 - Do not create another David Perell skill, expert, or hot command for this source.
@@ -59,6 +59,7 @@ The first option is the recommended one; the rest are the real alternatives with
 1. **Close it now, promotion declined** — Recommended. The skill works locally and that was the point. Costs a badge that changes nothing.
 2. **Run the blind judgment pack in one short sitting** — Gives you a real read on whether the extraction actually captured the source's voice, which is useful calibration — but it is calibration, not revenue.
 3. **Finish what's open** — Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
+4. **Decide: resume, park, or kill** — No recorded activity in 9 days while the handoff is still ready. Park keeps it resumable and quiet; kill hides it for good (ledger-recoverable).
 
 ## resume · park · kill
 1. **Resume here** — Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
@@ -84,8 +85,8 @@ python3 execution/pulse_actions.py kill extract-forge --reason "<one line>"
 THREAD: David Perell Idea-to-Culture — Forge Build (13 Workflows)
 SLUG: extract-forge
 STATUS: ready · STAGE: outcome
-BRIEF: /Users/farricecain/Google Antigravity/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
-HANDOFF: /Users/farricecain/Google Antigravity/.agent/handoffs/2026-08-04-extract-forge.md
+BRIEF: /Users/farricecain/Google Antigravity/.claude/worktrees/mailroom/deliverables/research-briefs/mission-extract-forge/mission-extract-forge-brief.md
+HANDOFF: /Users/farricecain/Google Antigravity/.claude/worktrees/mailroom/.agent/handoffs/2026-08-04-extract-forge.md
 
 RESUME HERE: Use the verified v3 skill locally; run the blind pack only if A-tier promotion matters.
 STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotion; no functional build debt.
@@ -95,7 +96,7 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 
 ## by the numbers
 - SESSIONS: **1** (codex)
-- DAYS ACTIVE: **6 d**
+- DAYS ACTIVE: **9 d**
 
 ## momentum
 
@@ -118,7 +119,7 @@ STILL OPEN: Optional only: Farrice blind recognition verdict and A-tier promotio
 _READ THE EDGES_
 The record notes that market effect is unobserved, meaning this skill has never been used on live work. Its usefulness is verified against its own tests, not against a real task.
 
-The judged analysis above is 4 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
+The judged analysis above is 7 days old — the numbers, paths and timeline are current, but the assessment may trail them. It refreshes on the next successful nightly synthesis.
 
 Session ledgers keep only the last 10 files per session and are pruned at 7 days, so file counts are a floor, not a census. Sweeps persist their own record, so anything already swept is kept.
 
