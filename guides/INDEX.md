@@ -9,6 +9,11 @@
 ## By use case
 
 | I want to… | Go to |
+| **Run content strategy / produce sellable strategy reports (Growth Blueprint OS)** | |
+| Run a full strategy engagement on any niche (self or client) | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `/growth-blueprint`, chain `/gb-interview → … → /gb-blueprint` |
+| Get live niche data for $0 before any strategy work | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `outlier_radar.py add-channels` + `refresh` |
+| Produce the client package / PDFs / lead magnet | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — `export_growth_package.py package`, `build_lead_magnet.py` |
+| Turn the intake funnel live / process a submission | [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md) — FARRICE-WHEN-BACK.md, `intake_bridge.py`, `/gb-intake` |
 | **Deploy Joanna Wiebe across copy, belief, messaging, and writing-business work** | |
 | Invoke Joanna by name and let the system select the right capability | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe` |
 | Use Joanna's complete extracted expertise on one high-stakes asset | [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md) — `/joanna-wiebe full deployment: ...` |
@@ -293,6 +298,7 @@
 
 ## Chronology
 
+- **2026-08-28 — [Growth Blueprint OS](2026-08-28-kallaway-growth-blueprint.md)** (operator-guide) — Kallaway forge: his 6 skills extracted + run verbatim as baseline; surpass suite built ($0 outlier radar, 9 workflows, reader-pure client pipeline, lead magnet, intake funnel, manual-fire enrichment); judged by Farrice 5/7 OURS CLEARLY WINS (EVAL-064), 2 losers rebuilt to his notes same-day; Register Contract + Q10 insight floor + Ring Intelligence now binding in the skill. Wave 2 (his 4 undistributed production-loop skills) parked with the only public spec banked.
 - **2026-08-23 — [Joanna Wiebe Psychology System](2026-08-23-joanna-wiebe-global-deployment.md)** (operator-guide) — source-grounded belief-community extension, named adaptive/full expert front door, five globally verified Codex/Claude routes, and proof-bounded deployment rules.
 - **2026-08-20 — [Homebase + Ambient Librarian](2026-08-20-homebase-librarian.md)** (operator-guide) — two-surfaces collapse, deep mission pages, kill/park verbs, permanent work catalog + /library, judged analyst layer, ambient session filing both harnesses, nightly chain hardened.
 
@@ -378,7 +384,7 @@
 
 
 ## Pending enrichment
-- [2026-08-28 — Extraction: Kallaway Growth System → Growth Blueprint OS - Built, Judged 5/7, Shipped](2026-08-28-kallaway-growth-blueprint.md) — session-brief stub, needs enrichment
+- (none)
 - [2026-08-25 — Handoff — System Health Audit + Repair (2026-08-24)](2026-08-25-handoff-system-health-audit-repair-2026-08-24.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — 2026-08-24-products](2026-08-24-2026-08-24-products.md) — operator-guide stub, needs enrichment
 - [2026-08-24 — Revenue: Claude Skills Business - Research Complete](2026-08-24-claude-skills-business.md) — session-brief stub, needs enrichment
